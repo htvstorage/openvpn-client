@@ -34,3 +34,28 @@ docker run --rm -it --net=container:vpn \
   -v /etc/hosts:/etc/hosts:ro \
   -v /etc/localtime:/etc/localtime:ro \
   woahbase/alpine-squid:x86_64
+
+
+
+#############################################
+#No Build images
+
+git clone https://github.com/htvstorage/openvpn-client
+cd openvpn-client/client
+docker load < squid.tar.gz 
+docker load < vpn.tar.gz
+docker run -it --cap-add=NET_ADMIN --device /dev/net/tun --name vpn \
+            -v $PWD:/vpn -d dperson/openvpn-client
+
+cd ..
+
+docker run --rm -it --net=container:vpn \
+  --name docker_squid \
+  -c 256 -m 256m \
+  -e PGID=1000 -e PUID=1000 \
+  -v $PWD/data/config:/etc/squid \
+  -v $PWD/data/cache:/var/cache/squid \
+  -v /etc/hosts:/etc/hosts:ro \
+  -v /etc/localtime:/etc/localtime:ro \
+  woahbase/alpine-squid:x86_64
+
