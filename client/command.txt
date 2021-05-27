@@ -1,0 +1,36 @@
+git clone https://github.com/htvstorage/openvpn-client
+cd openvpn-client
+docker build  -t dperson/openvpn-client:latest  .
+cd client
+echo vuser1 >> vpn.auth
+echo vpw12345 >> vpn.auth
+docker run -it --cap-add=NET_ADMIN --device /dev/net/tun --name vpn \
+            -v $PWD:/vpn -d dperson/openvpn-client
+
+docker logs vpn
+docker exec -it vpn /bin/bash
+ip route del 0.0.0.0/1 via 10.8.0.1 dev tun0
+ip route del 128.0.0.0/1 via 10.8.0.1 dev tun0
+ip route add 0.0.0.0/1 via 172.17.0.1 dev eth0
+ip route add 128.0.0.0/1 via 172.17.0.1 dev eth0
+ip route list
+
+
+git clone https://github.com/htvstorage/alpine-squid
+cd alpine-squid
+make build
+make
+
+
+
+
+
+docker run --rm -it --net=container:vpn \
+  --name docker_squid \
+  -c 256 -m 256m \
+  -e PGID=1000 -e PUID=1000 \
+  -v $PWD/data/config:/etc/squid \
+  -v $PWD/data/cache:/var/cache/squid \
+  -v /etc/hosts:/etc/hosts:ro \
+  -v /etc/localtime:/etc/localtime:ro \
+  woahbase/alpine-squid:x86_64
