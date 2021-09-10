@@ -147,7 +147,8 @@ import parser from "xml2json";
   for(let x of e){
     //console.log(x);
     //console.log(inputToSRT(x));
-    sub += inputToSRT(x, titleTime*1000);
+    // console.log(titleTime);
+    sub += inputToSRT(x, Math.round(Number(titleTime)*1000,1));
   }
   var videoSubName= dir+id+"_"+name+".srt";
   fs.writeFileSync(videoSubName, sub);
@@ -281,8 +282,8 @@ function getVal(x,t1,t2) {
 
 
 
-function srtTimestamp(milliseconds) {
-  var $milliseconds = milliseconds;  
+function srtTimestamp(mls) {
+  var $milliseconds = mls;  
   var $seconds = Math.floor($milliseconds / 1000);
   var $minutes = Math.floor($seconds / 60);
   var $hours = Math.floor($minutes / 60);
@@ -296,9 +297,14 @@ function srtTimestamp(milliseconds) {
 }
 
 function inputToSRT(sub_in, delay ) {
+  // console.log("==============================");
+  // console.log(delay);
+  // console.log(sub_in.StartMilliseconds.$t);
+  // console.log(Number(sub_in.StartMilliseconds.$t)+delay);
   var text = sub_in.Text.$t;
   text=text.replace(/\[@/g,"<font color=\"#ffff54\">");
   text=text.replace(/@]/g,"</font>");
-
-return sub_in.Number.$t + "\r\n" + srtTimestamp(sub_in.StartMilliseconds.$t + delay) + " --> " + srtTimestamp(sub_in.EndMilliseconds.$t + delay) + "\r\n" + text + "\r\n\r\n";
+var ret = sub_in.Number.$t + "\r\n" + srtTimestamp(Number(sub_in.StartMilliseconds.$t) + Number(delay)) + " --> " + srtTimestamp(Number(sub_in.EndMilliseconds.$t)+Number(delay)) + "\r\n" + text + "\r\n\r\n";
+// console.log(ret);
+return ret;
 }
