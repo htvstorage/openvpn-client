@@ -9,7 +9,11 @@ import parser from "xml2json";
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   page.on('console', (msg) => console.log('PAGE LOG:', msg.text()));
-  await page.goto('https://www.littlefox.com/en/readers/contents_list/DP000357');
+  var myArgs = process.argv.slice(2);
+  var stories=myArgs[0];
+  // if(stories)
+  // await page.goto('https://www.littlefox.com/en/readers/contents_list/DP000602');
+  await page.goto(stories);
   await page.screenshot({ path: 'example.png' });
   //console.log(page)
   //z=null;
@@ -50,6 +54,8 @@ import parser from "xml2json";
   var listid = [];
   var l = 0;
   var map = {};
+  var mapVideo = {};
+  var mapSub = {};
 
   for (let i of vv) {
     // console.log(i);
@@ -78,7 +84,7 @@ import parser from "xml2json";
 
   var z = await t.text();
   // url = z.substr(z.indexOf("\"video_url\":")+"\"video_url\":".length, z.indexOf(",\"purge_val\""));
-  console.log(z);
+  // console.log(z);
   // await getInfo(z);
   var url = getVal(z,"\"video_url\":",",\"purge_val\"");
   var id = getVal(z,"\"fc_id\":",",\"cont_step_no\"");
@@ -95,6 +101,7 @@ import parser from "xml2json";
   mod=mod.toString().replace(/\"/g,"");
   name=name.replace(/\"/g,"");
   titleTime=titleTime.replace(/\"/g,"");
+  nextId=nextId.replace(/\"/g,"");
   var ids=[]
   ids[0] = id;
   ids[1] = nextId;
@@ -106,12 +113,14 @@ import parser from "xml2json";
   console.log(mod);
   console.log(name);
   console.log(titleTime);
-  console.log(map);
+  // console.log(map);
   var subtitleurl="https://cdn.littlefox.co.kr/contents/caption/"+id+".xml?v="+mod
   var videourl="https://cdn.littlefox.com" + url;
   console.log(subtitleurl);
   console.log(videourl);
-  var ffmeg = "ffmpeg -f hls -referer 'https://www.littlefox.com/en' -user_agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4050.0 Safari/537.36' -f hls -i \""+videourl+"\" -c copy \""+id+"_"+name+".mp4\"";
+  var videoFileName = "\""+id+"_"+name+".mp4\"";
+  mapVideo[id] = videoFileName;
+  var ffmeg = "ffmpeg -f hls -referer 'https://www.littlefox.com/en' -user_agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4050.0 Safari/537.36' -f hls -i \""+videourl+"\" -c copy "+videoFileName;
   console.log(ffmeg);
   
   fs.appendFile('ffmpeg.cmd', ffmeg+"\n", err => {
@@ -140,7 +149,9 @@ import parser from "xml2json";
     //console.log(inputToSRT(x));
     sub += inputToSRT(x, titleTime*1000);
   }
-  fs.writeFileSync(dir+id+"_"+name+".srt", sub);
+  var videoSubName= dir+id+"_"+name+".srt";
+  fs.writeFileSync(videoSubName, sub);
+  mapSub[id] = videoSubName;
   
 
   }
@@ -187,6 +198,7 @@ import parser from "xml2json";
   // mod=mod.toString().replace(/\"/g,"");
   // name=name.replace(/\"/g,"");
   // titleTime=titleTime.replace(/\"/g,"");
+  // nextId=nextId.replace(/\"/g,"");
   // var ids=[]
   // ids[0] = id;
   // ids[1] = nextId;
@@ -234,6 +246,31 @@ import parser from "xml2json";
   // }
   // fs.writeFileSync(dir+id+"_"+name+".srt", sub);
   
+  console.log(map);
+  var key = '';
+  var z = null;
+  z =map[key];
+  if(z == null) key = null;
+  var ll = [];
+  var i=0;
+  while((z =map[key]) != null){
+    key = z;
+    ll[i++] = key;
+  }
+  // console.log(ll);
+  i = ll.length;
+  var summary = "";
+  for(i = ll.length-1; i >= 0; i--){
+    var e = ll[i] + " " + mapVideo[ll[i]] + " \"" +  mapSub[ll[i]]+"\"";
+    console.log(e);
+    summary += e+"\n";
+
+  }
+
+  fs.appendFile('summary.txt', summary, err => {if (err) {console.log(err) ;return}
+    //done!
+  });
+
   await browser.close();
 })();
 
@@ -263,5 +300,5 @@ function inputToSRT(sub_in, delay ) {
   text=text.replace(/\[@/g,"<font color=\"#ffff54\">");
   text=text.replace(/@]/g,"</font>");
 
-return ++sub_in.Number.$t + "\r\n" + srtTimestamp(sub_in.StartMilliseconds.$t + delay) + " --> " + srtTimestamp(sub_in.EndMilliseconds.$t + delay) + "\r\n" + text + "\r\n\r\n";
+return sub_in.Number.$t + "\r\n" + srtTimestamp(sub_in.StartMilliseconds.$t + delay) + " --> " + srtTimestamp(sub_in.EndMilliseconds.$t + delay) + "\r\n" + text + "\r\n\r\n";
 }
