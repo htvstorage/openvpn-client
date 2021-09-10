@@ -302,8 +302,18 @@ function inputToSRT(sub_in, delay ) {
   // console.log(sub_in.StartMilliseconds.$t);
   // console.log(Number(sub_in.StartMilliseconds.$t)+delay);
   var text = sub_in.Text.$t;
+  var bold = text.indexOf("[e@");
+  text=text.replace(/\[e@/g,"<font color=\"#ffff54\">");
   text=text.replace(/\[@/g,"<font color=\"#ffff54\">");
   text=text.replace(/@]/g,"</font>");
+  text=text.replace(/\[g@/g,"");
+  text=text.replace(/@g]/g,"");
+  text=text.replace(/\[i@/g,"");
+  text=text.replace(/@i]/g,"");
+  if(bold >= 0){
+    text=text+ "</font>"
+  }
+
 var ret = sub_in.Number.$t + "\r\n" + srtTimestamp(Number(sub_in.StartMilliseconds.$t) + Number(delay)) + " --> " + srtTimestamp(Number(sub_in.EndMilliseconds.$t)+Number(delay)) + "\r\n" + text + "\r\n\r\n";
 // console.log(ret);
 return ret;
