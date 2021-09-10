@@ -2,7 +2,7 @@
 import puppeteer from "puppeteer";
 import fetch from "node-fetch";
 import fs from "fs";
-import xml2srt from "yt-xml2srt";
+//import xml2srt from "yt-xml2srt";
 import parser from "xml2json";
 
 (async () => {
@@ -47,9 +47,12 @@ import parser from "xml2json";
   if (!fs.existsSync(dir)){
   fs.mkdirSync(dir);
   }
+  var listid = [];
+  var l = 0;
+  var map = {};
 
   for (let i of vv) {
-    console.log(i);
+    // console.log(i);
 
     const t = await fetch("https://www.littlefox.com/en/player_h5/view", {
     "headers": {
@@ -81,6 +84,8 @@ import parser from "xml2json";
   var id = getVal(z,"\"fc_id\":",",\"cont_step_no\"");
   var mod = getVal(z,"\"mod_date\":","}];\n");
   var name = getVal(z,"\"cont_name\":\"","\",\"cont_sub_name\":\"");
+  var titleTime = getVal(z,"\"title_time\":","\",\"video_url\"");
+  var nextId = getVal(z,"\"next_fc_id\":",",\"ebook\"");
   console.log(url.toString().replace(/\\/g,""));
   console.log(id);
   console.log(mod);
@@ -89,10 +94,19 @@ import parser from "xml2json";
   id=id.toString().replace(/\"/g,"");
   mod=mod.toString().replace(/\"/g,"");
   name=name.replace(/\"/g,"");
+  titleTime=titleTime.replace(/\"/g,"");
+  var ids=[]
+  ids[0] = id;
+  ids[1] = nextId;
+  listid[l] = ids;
+  l++;
+  map[nextId] = id;
   console.log(url.toString().replace(/\\/g,""));
   console.log(id);
   console.log(mod);
   console.log(name);
+  console.log(titleTime);
+  console.log(map);
   var subtitleurl="https://cdn.littlefox.co.kr/contents/caption/"+id+".xml?v="+mod
   var videourl="https://cdn.littlefox.com" + url;
   console.log(subtitleurl);
@@ -110,7 +124,7 @@ import parser from "xml2json";
   
   var sub= await fetch(subtitleurl);
   var content = await sub.text();
-  console.log(content);
+  // console.log(content);
   var dir = "subtitle/";
   if (!fs.existsSync(dir)){
   fs.mkdirSync(dir);
@@ -124,7 +138,7 @@ import parser from "xml2json";
   for(let x of e){
     //console.log(x);
     //console.log(inputToSRT(x));
-    sub += inputToSRT(x);
+    sub += inputToSRT(x, titleTime*1000);
   }
   fs.writeFileSync(dir+id+"_"+name+".srt", sub);
   
@@ -132,73 +146,94 @@ import parser from "xml2json";
   }
   
 
-//  const t = await fetch("https://www.littlefox.com/en/player_h5/view", {
-//     "headers": {
-//       "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-//       "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-//       "cache-control": "no-cache",
-//       "pragma": "no-cache",
-//       "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-//       "sec-ch-ua-mobile": "?0",
-//       "sec-fetch-dest": "document",
-//       "sec-fetch-mode": "navigate",
-//       "sec-fetch-site": "none",
-//       "sec-fetch-user": "?1",
-//       "upgrade-insecure-requests": "1",
-//       "cookie": "PHPSESSID=uj7bl0at8jkm5llhpkoo508ik6; h5play_info=eyJmY19pZHMiOiJDMDAwNzAyMiIsInciOjEyODgsImgiOjgxMH0=; _ga=GA1.2.2097850282.1631243843; _gid=GA1.2.1499091484.1631243843; _gat=1"
-//     },
-//     "referrerPolicy": "strict-origin-when-cross-origin",
-//     "body": null,
-//     "method": "GET",
-//     "mode": "cors"
-//   });
-//   // console.log(await t.text());
-//   var z = await t.text();
-//   // url = z.substr(z.indexOf("\"video_url\":")+"\"video_url\":".length, z.indexOf(",\"purge_val\""));
-//   console.log(z);
-//   // await getInfo(z);
-//   var url = getVal(z,"\"video_url\":",",\"purge_val\"");
-//   var id = getVal(z,"\"fc_id\":",",\"cont_step_no\"");
-//   var mod = getVal(z,"\"mod_date\":","}];\n");
-//   var name = getVal(z,"\"cont_name\":\"","\",\"cont_sub_name\":\"");
-//   console.log(url.toString().replace(/\\/g,""));
-//   console.log(id);
-//   console.log(mod);
-//   url=url.toString().replace(/\\/g,"");
-//   url=url.toString().replace(/\"/g,"");
-//   id=id.toString().replace(/\"/g,"");
-//   mod=mod.toString().replace(/\"/g,"");
-//   name=name.replace(/\"/g,"");
-//   console.log(url.toString().replace(/\\/g,""));
-//   console.log(id);
-//   console.log(mod);
-//   console.log(name);
-//   var subtitleurl="https://cdn.littlefox.co.kr/contents/caption/"+id+".xml?v="+mod
-//   var videourl="https://cdn.littlefox.com" + url;
-//   console.log(subtitleurl);
-//   console.log(videourl);
-//   var ffmeg = "ffmpeg -f hls -referer 'https://www.littlefox.com/en' -user_agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4050.0 Safari/537.36' -f hls -i \""+videourl+"\" -c copy \""+id+"_"+name+".mp4\"";
-//   console.log(ffmeg);
+ const t = await fetch("https://www.littlefox.com/en/player_h5/view", {
+    "headers": {
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "cache-control": "no-cache",
+      "pragma": "no-cache",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "document",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-site": "none",
+      "sec-fetch-user": "?1",
+      "upgrade-insecure-requests": "1",
+      "cookie": "PHPSESSID=uj7bl0at8jkm5llhpkoo508ik6; h5play_info=eyJmY19pZHMiOiJDMDAwNzAyMiIsInciOjEyODgsImgiOjgxMH0=; _ga=GA1.2.2097850282.1631243843; _gid=GA1.2.1499091484.1631243843; _gat=1"
+    },
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors"
+  });
+  // console.log(await t.text());
   
-//   var sub= await fetch(subtitleurl);
-//   var content = await sub.text();
-//   console.log(content);
-//   var dir = "subtitle/";
-//   if (!fs.existsSync(dir)){
-//   fs.mkdirSync(dir);
-//   }
-//   const data = fs.writeFileSync(dir+id+"_"+name+".xml", content);
+  // var z = await t.text();
+  // // url = z.substr(z.indexOf("\"video_url\":")+"\"video_url\":".length, z.indexOf(",\"purge_val\""));
+  // console.log(z);
+  // // await getInfo(z);
+  // var url = getVal(z,"\"video_url\":",",\"purge_val\"");
+  // var id = getVal(z,"\"fc_id\":",",\"cont_step_no\"");
+  // var mod = getVal(z,"\"mod_date\":","}];\n");
+  // var name = getVal(z,"\"cont_name\":\"","\",\"cont_sub_name\":\"");
+  // var titleTime = getVal(z,"\"title_time\":","\",\"video_url\"");
+  // var nextId = getVal(z,"\"next_fc_id\":",",\"ebook\"");
+  // console.log(url.toString().replace(/\\/g,""));
+  // console.log(id);
+  // console.log(mod);
+  // url=url.toString().replace(/\\/g,"");
+  // url=url.toString().replace(/\"/g,"");
+  // id=id.toString().replace(/\"/g,"");
+  // mod=mod.toString().replace(/\"/g,"");
+  // name=name.replace(/\"/g,"");
+  // titleTime=titleTime.replace(/\"/g,"");
+  // var ids=[]
+  // ids[0] = id;
+  // ids[1] = nextId;
+  // listid[l] = ids;
+  // l++;
+  // map[nextId] = id;
+  // console.log(url.toString().replace(/\\/g,""));
+  // console.log(id);
+  // console.log(mod);
+  // console.log(name);
+  // console.log(titleTime);
+  // console.log(map);
+  // var subtitleurl="https://cdn.littlefox.co.kr/contents/caption/"+id+".xml?v="+mod
+  // var videourl="https://cdn.littlefox.com" + url;
+  // console.log(subtitleurl);
+  // console.log(videourl);
+  // var ffmeg = "ffmpeg -f hls -referer 'https://www.littlefox.com/en' -user_agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4050.0 Safari/537.36' -f hls -i \""+videourl+"\" -c copy \""+id+"_"+name+".mp4\"";
+  // console.log(ffmeg);
+  
+  // fs.appendFile('ffmpeg.cmd', ffmeg+"\n", err => {
+  //   if (err) {
+  //     console.log(err)
+  //     return
+  //   }
+  //   //done!
+  // });
+  
+  // var sub= await fetch(subtitleurl);
+  // var content = await sub.text();
+  // // console.log(content);
+  // var dir = "subtitle/";
+  // if (!fs.existsSync(dir)){
+  // fs.mkdirSync(dir);
+  // }
+  // const data = fs.writeFileSync(dir+id+"_"+name+".xml", content);
 
-//   var json = JSON.parse(parser.toJson(content, {reversible: true}));
-//   var e = json["Subtitle"]["Paragraph"];
+  // var json = JSON.parse(parser.toJson(content, {reversible: true}));
+  // var e = json["Subtitle"]["Paragraph"];
 
-//   var sub = "";
-//   for(let x of e){
-//     //console.log(x);
-//     //console.log(inputToSRT(x));
-//     sub += inputToSRT(x);
-//   }
-//   fs.writeFileSync(dir+id+"_"+name+".srt", sub);
+  // var sub = "";
+  // for(let x of e){
+  //   //console.log(x);
+  //   //console.log(inputToSRT(x));
+  //   sub += inputToSRT(x, titleTime*1000);
+  // }
+  // fs.writeFileSync(dir+id+"_"+name+".srt", sub);
+  
   await browser.close();
 })();
 
@@ -223,6 +258,10 @@ function srtTimestamp(milliseconds) {
        + ($milliseconds < 100 ? '0' : '') + ($milliseconds < 10 ? '0' : '') + $milliseconds;
 }
 
-function inputToSRT(sub_in) {
-return ++sub_in.Number.$t + "\r\n" + srtTimestamp(sub_in.StartMilliseconds.$t) + " --> " + srtTimestamp(sub_in.EndMilliseconds.$t) + "\r\n" + sub_in.Text.$t + "\r\n\r\n";
+function inputToSRT(sub_in, delay ) {
+  var text = sub_in.Text.$t;
+  text=text.replace(/\[@/g,"<font color=\"#ffff54\">");
+  text=text.replace(/@]/g,"</font>");
+
+return ++sub_in.Number.$t + "\r\n" + srtTimestamp(sub_in.StartMilliseconds.$t + delay) + " --> " + srtTimestamp(sub_in.EndMilliseconds.$t + delay) + "\r\n" + text + "\r\n\r\n";
 }
