@@ -1,0 +1,208 @@
+1
+00:00:06,750 --> 03:02:16,750
+Teddy is happy.
+
+2
+03:02:26,750 --> 04:22:16,750
+<font color="#ffff54">Teddy</font> is happy.
+
+3
+04:22:26,750 --> 05:06:56,750
+Teddy <font color="#ffff54">is</font> happy.
+
+4
+05:07:06,750 --> 07:21:36,750
+Teddy is <font color="#ffff54">happy</font>.
+
+5
+07:21:46,750 --> 17:12:46,750
+Teddy is happy.
+
+6
+17:12:56,750 --> 17:47:36,750
+[e@Teddy is happy.
+
+7
+17:47:46,750 --> 20:30:16,750
+Teddy is angry.
+
+8
+20:30:26,750 --> 21:40:26,750
+<font color="#ffff54">Teddy</font> is angry.
+
+9
+21:40:36,750 --> 22:48:56,750
+Teddy <font color="#ffff54">is</font> angry.
+
+10
+22:49:06,750 --> 25:48:16,750
+Teddy is <font color="#ffff54">angry</font>.
+
+11
+25:48:26,750 --> 31:39:06,750
+Teddy is angry.
+
+12
+31:39:16,750 --> 32:23:56,750
+[e@Teddy is angry.
+
+13
+32:24:06,750 --> 34:27:16,750
+Teddy is sad.
+
+14
+34:27:26,750 --> 35:53:16,750
+<font color="#ffff54">Teddy</font> is sad.
+
+15
+35:53:26,750 --> 36:48:26,750
+Teddy <font color="#ffff54">is</font> sad.
+
+16
+36:48:36,750 --> 39:11:26,750
+Teddy is <font color="#ffff54">sad</font>.
+
+17
+39:11:36,750 --> 54:43:06,750
+Teddy is sad.
+
+18
+54:43:16,750 --> 55:29:46,750
+[e@Teddy is sad.
+
+19
+55:29:56,750 --> 57:38:16,750
+Teddy is thirsty.
+
+20
+57:38:26,750 --> 58:57:56,750
+<font color="#ffff54">Teddy</font> is thirsty.
+
+21
+58:58:06,750 --> 60:02:46,750
+Teddy <font color="#ffff54">is</font> thirsty.
+
+22
+60:02:56,750 --> 62:53:06,750
+Teddy is <font color="#ffff54">thirsty</font>.
+
+23
+62:53:16,750 --> 64:31:16,750
+Teddy is thirsty.
+
+24
+64:31:26,750 --> 65:12:16,750
+"I want water."
+
+25
+65:12:26,750 --> 66:27:46,750
+"<font color="#ffff54">I</font> want water."
+
+26
+66:27:56,750 --> 67:53:16,750
+"I <font color="#ffff54">want</font> water."
+
+27
+67:53:26,750 --> 70:56:06,750
+"I want <font color="#ffff54">water</font>."
+
+28
+70:56:16,750 --> 73:06:16,750
+"I want water."
+
+29
+73:06:26,750 --> 73:55:56,750
+[e@"I want water."
+
+30
+73:56:06,750 --> 77:29:56,750
+Teddy is tired.
+
+31
+77:30:06,750 --> 78:54:06,750
+[s@Teddy is tired.
+
+32
+78:54:16,750 --> 80:03:56,750
+<font color="#ffff54">Teddy</font> is tired.
+
+33
+80:04:06,750 --> 81:10:56,750
+Teddy <font color="#ffff54">is</font> tired.
+
+34
+81:11:06,750 --> 84:38:56,750
+Teddy is <font color="#ffff54">tired</font>.
+
+35
+84:39:06,750 --> 86:32:46,750
+Teddy is tired.
+
+36
+86:32:56,750 --> 87:07:46,750
+[e@Teddy is tired.
+
+37
+87:07:56,750 --> 87:48:06,750
+Teddy is hungry.
+
+38
+87:48:16,750 --> 89:20:36,750
+<font color="#ffff54">Teddy</font> is hungry.
+
+39
+89:20:46,750 --> 89:53:46,750
+Teddy <font color="#ffff54">is</font> hungry.
+
+40
+89:53:56,750 --> 92:19:16,750
+Teddy is <font color="#ffff54">hungry</font>.
+
+41
+92:19:26,750 --> 100:10:56,750
+Teddy is hungry.
+
+42
+100:11:06,750 --> 100:56:06,750
+[e@Teddy is hungry.
+
+43
+100:56:16,750 --> 103:58:46,750
+Teddy is sleepy.
+
+44
+103:58:56,750 --> 105:34:16,750
+<font color="#ffff54">Teddy</font> is sleepy.
+
+45
+105:34:26,750 --> 106:21:36,750
+Teddy <font color="#ffff54">is</font> sleepy.
+
+46
+106:21:46,750 --> 109:35:26,750
+Teddy is <font color="#ffff54">sleepy</font>.
+
+47
+109:35:36,750 --> 113:07:06,750
+Teddy is sleepy.
+
+48
+113:07:16,750 --> 113:57:26,750
+[e@Teddy is sleepy.
+
+49
+113:57:36,750 --> 116:15:06,750
+Good night!
+
+50
+116:15:16,750 --> 117:09:36,750
+<font color="#ffff54">Good</font> night!
+
+51
+117:09:46,750 --> 120:38:56,750
+Good <font color="#ffff54">night</font>!
+
+52
+120:39:06,750 --> 127:06:26,750
+Good night!
+

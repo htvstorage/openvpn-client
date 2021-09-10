@@ -1,0 +1,196 @@
+1
+01:56:50,000 --> 98:46:50,000
+The firefighter is working.
+
+2
+98:48:30,000 --> 105:10:10,000
+<font color="#ffff54">The</font> firefighter is working.
+
+3
+105:11:50,000 --> 125:53:30,000
+The <font color="#ffff54">firefighter</font> is working.
+
+4
+125:55:10,000 --> 131:43:30,000
+The firefighter <font color="#ffff54">is</font> working.
+
+5
+131:45:10,000 --> 159:40:10,000
+The firefighter is <font color="#ffff54">working</font>.
+
+6
+159:41:50,000 --> 266:13:30,000
+The firefighter is working.
+
+7
+266:15:10,000 --> 324:40:10,000
+The nurse is working.
+
+8
+324:41:50,000 --> 331:58:30,000
+<font color="#ffff54">The</font> nurse is working.
+
+9
+332:00:10,000 --> 346:21:50,000
+The <font color="#ffff54">nurse</font> is working.
+
+10
+346:23:30,000 --> 352:41:50,000
+The nurse <font color="#ffff54">is</font> working.
+
+11
+352:43:30,000 --> 372:58:30,000
+The nurse is <font color="#ffff54">working</font>.
+
+12
+373:00:10,000 --> 532:16:50,000
+The nurse is working.
+
+13
+532:18:30,000 --> 600:26:50,000
+The sailor is working.
+
+14
+600:28:30,000 --> 607:43:30,000
+<font color="#ffff54">The</font> sailor is working.
+
+15
+607:45:10,000 --> 623:41:50,000
+The <font color="#ffff54">sailor</font> is working.
+
+16
+623:43:30,000 --> 630:55:10,000
+The sailor <font color="#ffff54">is</font> working.
+
+17
+630:56:50,000 --> 649:33:30,000
+The sailor is <font color="#ffff54">working</font>.
+
+18
+649:35:10,000 --> 793:53:30,000
+The sailor is working.
+
+19
+793:55:10,000 --> 848:53:30,000
+The police officer is working.
+
+20
+848:55:10,000 --> 859:30:10,000
+<font color="#ffff54">The</font> police officer is working.
+
+21
+859:31:50,000 --> 873:36:50,000
+The <font color="#ffff54">police</font> officer is working.
+
+22
+873:38:30,000 --> 888:55:10,000
+The police <font color="#ffff54">officer</font> is working.
+
+23
+888:56:50,000 --> 894:48:30,000
+The police officer <font color="#ffff54">is</font> working.
+
+24
+894:50:10,000 --> 913:38:30,000
+The police officer is <font color="#ffff54">working</font>.
+
+25
+913:40:10,000 --> 1006:55:10,000
+The police officer is working.
+
+26
+1006:56:50,000 --> 1076:51:50,000
+The engineer is working.
+
+27
+1076:53:30,000 --> 1082:58:30,000
+<font color="#ffff54">The</font> engineer is working.
+
+28
+1083:00:10,000 --> 1097:38:30,000
+The <font color="#ffff54">engineer</font> is working.
+
+29
+1097:40:10,000 --> 1104:30:10,000
+The engineer <font color="#ffff54">is</font> working.
+
+30
+1104:31:50,000 --> 1121:43:30,000
+The engineer is <font color="#ffff54">working</font>.
+
+31
+1121:45:10,000 --> 1292:56:50,000
+The engineer is working.
+
+32
+1292:58:30,000 --> 1354:51:50,000
+The chef is working.
+
+33
+1354:53:30,000 --> 1361:31:50,000
+<font color="#ffff54">The</font> chef is working.
+
+34
+1361:33:30,000 --> 1376:25:10,000
+The <font color="#ffff54">chef</font> is working.
+
+35
+1376:26:50,000 --> 1382:35:10,000
+The chef <font color="#ffff54">is</font> working.
+
+36
+1382:36:50,000 --> 1407:03:30,000
+The chef is <font color="#ffff54">working</font>.
+
+37
+1407:05:10,000 --> 1509:08:30,000
+The chef is working.
+
+38
+1509:10:10,000 --> 1578:23:30,000
+The farmer is working.
+
+39
+1578:25:10,000 --> 1587:38:30,000
+<font color="#ffff54">The</font> farmer is working.
+
+40
+1587:40:10,000 --> 1602:06:50,000
+The <font color="#ffff54">farmer</font> is working.
+
+41
+1602:08:30,000 --> 1608:06:50,000
+The farmer <font color="#ffff54">is</font> working.
+
+42
+1608:08:30,000 --> 1630:20:10,000
+The farmer is <font color="#ffff54">working</font>.
+
+43
+1630:21:50,000 --> 1708:38:30,000
+The farmer is working.
+
+44
+1708:40:10,000 --> 1758:20:10,000
+"Have a nice day!"
+
+45
+1758:21:50,000 --> 1763:55:10,000
+"<font color="#ffff54">Have</font> a nice day!"
+
+46
+1763:56:50,000 --> 1767:16:50,000
+"Have <font color="#ffff54">a</font> nice day!"
+
+47
+1767:18:30,000 --> 1774:45:10,000
+"Have a <font color="#ffff54">nice</font> day!"
+
+48
+1774:46:50,000 --> 1790:45:10,000
+"Have a nice <font color="#ffff54">day</font>!"
+
+49
+1790:46:50,000 --> 1889:33:30,000
+"Have a nice day!"
+

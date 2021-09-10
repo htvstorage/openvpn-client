@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1531</EndMilliseconds>
+    <Text>"Surprise!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1532</StartMilliseconds>
+    <EndMilliseconds>2930</EndMilliseconds>
+    <Text>"[@Surprise@]!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>2931</StartMilliseconds>
+    <EndMilliseconds>5102</EndMilliseconds>
+    <Text>"Surprise!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>5103</StartMilliseconds>
+    <EndMilliseconds>5337</EndMilliseconds>
+    <Text>[e@"Surprise!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>5338</StartMilliseconds>
+    <EndMilliseconds>6535</EndMilliseconds>
+    <Text>"Are they pencils?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>6536</StartMilliseconds>
+    <EndMilliseconds>7523</EndMilliseconds>
+    <Text>[s@"Are they pencils?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>7524</StartMilliseconds>
+    <EndMilliseconds>7922</EndMilliseconds>
+    <Text>"[@Are@] they pencils?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>7923</StartMilliseconds>
+    <EndMilliseconds>8156</EndMilliseconds>
+    <Text>"Are [@they@] pencils?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>8157</StartMilliseconds>
+    <EndMilliseconds>9008</EndMilliseconds>
+    <Text>"Are they [@pencils@]?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>9009</StartMilliseconds>
+    <EndMilliseconds>9302</EndMilliseconds>
+    <Text>"Are they pencils?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>9303</StartMilliseconds>
+    <EndMilliseconds>9607</EndMilliseconds>
+    <Text>"Are they pencils?" [@said@] the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>9608</StartMilliseconds>
+    <EndMilliseconds>9781</EndMilliseconds>
+    <Text>"Are they pencils?" said [@the@] teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>9782</StartMilliseconds>
+    <EndMilliseconds>10350</EndMilliseconds>
+    <Text>"Are they pencils?" said the [@teacher@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>10351</StartMilliseconds>
+    <EndMilliseconds>10537</EndMilliseconds>
+    <Text>"Are they pencils?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>10538</StartMilliseconds>
+    <EndMilliseconds>10628</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>10629</StartMilliseconds>
+    <EndMilliseconds>11456</EndMilliseconds>
+    <Text>"[@No@]," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>11457</StartMilliseconds>
+    <EndMilliseconds>12230</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>12231</StartMilliseconds>
+    <EndMilliseconds>12483</EndMilliseconds>
+    <Text>"No," [@said@] the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>12484</StartMilliseconds>
+    <EndMilliseconds>12656</EndMilliseconds>
+    <Text>"No," said [@the@] children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>12657</StartMilliseconds>
+    <EndMilliseconds>13369</EndMilliseconds>
+    <Text>"No," said the [@children@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>13370</StartMilliseconds>
+    <EndMilliseconds>13795</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>13796</StartMilliseconds>
+    <EndMilliseconds>14002</EndMilliseconds>
+    <Text>[e@"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>14003</StartMilliseconds>
+    <EndMilliseconds>14810</EndMilliseconds>
+    <Text>"Are they erasers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>14811</StartMilliseconds>
+    <EndMilliseconds>15191</EndMilliseconds>
+    <Text>"[@Are@] they erasers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>15192</StartMilliseconds>
+    <EndMilliseconds>15335</EndMilliseconds>
+    <Text>"Are [@they@] erasers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>15336</StartMilliseconds>
+    <EndMilliseconds>16567</EndMilliseconds>
+    <Text>"Are they [@erasers@]?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>16568</StartMilliseconds>
+    <EndMilliseconds>16907</EndMilliseconds>
+    <Text>"Are they erasers?" [@said@] the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>16908</StartMilliseconds>
+    <EndMilliseconds>17086</EndMilliseconds>
+    <Text>"Are they erasers?" said [@the@] teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>17087</StartMilliseconds>
+    <EndMilliseconds>17665</EndMilliseconds>
+    <Text>"Are they erasers?" said the [@teacher@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>17666</StartMilliseconds>
+    <EndMilliseconds>17894</EndMilliseconds>
+    <Text>"Are they erasers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>17895</StartMilliseconds>
+    <EndMilliseconds>18013</EndMilliseconds>
+    <Text>[e@"Are they erasers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>18014</StartMilliseconds>
+    <EndMilliseconds>18131</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>18132</StartMilliseconds>
+    <EndMilliseconds>18876</EndMilliseconds>
+    <Text>"[@No@]," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>18877</StartMilliseconds>
+    <EndMilliseconds>19855</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>19856</StartMilliseconds>
+    <EndMilliseconds>20136</EndMilliseconds>
+    <Text>"No," [@said@] the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>20137</StartMilliseconds>
+    <EndMilliseconds>20343</EndMilliseconds>
+    <Text>"No," said [@the@] children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>20344</StartMilliseconds>
+    <EndMilliseconds>21083</EndMilliseconds>
+    <Text>"No," said the [@children@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>21084</StartMilliseconds>
+    <EndMilliseconds>21535</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>21536</StartMilliseconds>
+    <EndMilliseconds>21681</EndMilliseconds>
+    <Text>[e@"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>21682</StartMilliseconds>
+    <EndMilliseconds>23533</EndMilliseconds>
+    <Text>"Are they rulers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>23534</StartMilliseconds>
+    <EndMilliseconds>24026</EndMilliseconds>
+    <Text>[s@"Are they rulers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>24027</StartMilliseconds>
+    <EndMilliseconds>24409</EndMilliseconds>
+    <Text>"[@Are@] they rulers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>24410</StartMilliseconds>
+    <EndMilliseconds>24657</EndMilliseconds>
+    <Text>"Are [@they@] rulers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>24658</StartMilliseconds>
+    <EndMilliseconds>25598</EndMilliseconds>
+    <Text>"Are they [@rulers@]?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>25599</StartMilliseconds>
+    <EndMilliseconds>25930</EndMilliseconds>
+    <Text>"Are they rulers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>25931</StartMilliseconds>
+    <EndMilliseconds>26262</EndMilliseconds>
+    <Text>"Are they rulers?" [@said@] the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>26263</StartMilliseconds>
+    <EndMilliseconds>26441</EndMilliseconds>
+    <Text>"Are they rulers?" said [@the@] teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>26442</StartMilliseconds>
+    <EndMilliseconds>27055</EndMilliseconds>
+    <Text>"Are they rulers?" said the [@teacher@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>27056</StartMilliseconds>
+    <EndMilliseconds>27139</EndMilliseconds>
+    <Text>"Are they rulers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>27140</StartMilliseconds>
+    <EndMilliseconds>27220</EndMilliseconds>
+    <Text>[e@"Are they rulers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>27221</StartMilliseconds>
+    <EndMilliseconds>27502</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>27503</StartMilliseconds>
+    <EndMilliseconds>28391</EndMilliseconds>
+    <Text>"[@No@]," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>28392</StartMilliseconds>
+    <EndMilliseconds>29130</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>29131</StartMilliseconds>
+    <EndMilliseconds>29423</EndMilliseconds>
+    <Text>"No," [@said@] the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>29424</StartMilliseconds>
+    <EndMilliseconds>29654</EndMilliseconds>
+    <Text>"No," said [@the@] children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>29655</StartMilliseconds>
+    <EndMilliseconds>30342</EndMilliseconds>
+    <Text>"No," said the [@children@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>30343</StartMilliseconds>
+    <EndMilliseconds>30826</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>30827</StartMilliseconds>
+    <EndMilliseconds>31006</EndMilliseconds>
+    <Text>[e@"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>31007</StartMilliseconds>
+    <EndMilliseconds>31845</EndMilliseconds>
+    <Text>"Are they scissors?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>31846</StartMilliseconds>
+    <EndMilliseconds>32237</EndMilliseconds>
+    <Text>"[@Are@] they scissors?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>32238</StartMilliseconds>
+    <EndMilliseconds>32516</EndMilliseconds>
+    <Text>"Are [@they@] scissors?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>32517</StartMilliseconds>
+    <EndMilliseconds>33585</EndMilliseconds>
+    <Text>"Are they [@scissors@]?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>33586</StartMilliseconds>
+    <EndMilliseconds>33950</EndMilliseconds>
+    <Text>"Are they scissors?" [@said@] the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>33951</StartMilliseconds>
+    <EndMilliseconds>34124</EndMilliseconds>
+    <Text>"Are they scissors?" said [@the@] teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>34125</StartMilliseconds>
+    <EndMilliseconds>34744</EndMilliseconds>
+    <Text>"Are they scissors?" said the [@teacher@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>34745</StartMilliseconds>
+    <EndMilliseconds>34939</EndMilliseconds>
+    <Text>"Are they scissors?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>34940</StartMilliseconds>
+    <EndMilliseconds>35072</EndMilliseconds>
+    <Text>[e@"Are they scissors?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>35073</StartMilliseconds>
+    <EndMilliseconds>35151</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>35152</StartMilliseconds>
+    <EndMilliseconds>35885</EndMilliseconds>
+    <Text>"[@No@]," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>35886</StartMilliseconds>
+    <EndMilliseconds>36693</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>36694</StartMilliseconds>
+    <EndMilliseconds>36992</EndMilliseconds>
+    <Text>"No," [@said@] the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>36993</StartMilliseconds>
+    <EndMilliseconds>37150</EndMilliseconds>
+    <Text>"No," said [@the@] children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>37151</StartMilliseconds>
+    <EndMilliseconds>37809</EndMilliseconds>
+    <Text>"No," said the [@children@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>37810</StartMilliseconds>
+    <EndMilliseconds>38353</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>38354</StartMilliseconds>
+    <EndMilliseconds>38540</EndMilliseconds>
+    <Text>[e@"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>38541</StartMilliseconds>
+    <EndMilliseconds>39230</EndMilliseconds>
+    <Text>"Are they colored markers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>39231</StartMilliseconds>
+    <EndMilliseconds>39547</EndMilliseconds>
+    <Text>"[@Are@] they colored markers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>39548</StartMilliseconds>
+    <EndMilliseconds>39808</EndMilliseconds>
+    <Text>"Are [@they@] colored markers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>39809</StartMilliseconds>
+    <EndMilliseconds>40264</EndMilliseconds>
+    <Text>"Are they [@colored@] markers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>40265</StartMilliseconds>
+    <EndMilliseconds>41402</EndMilliseconds>
+    <Text>"Are they colored [@markers@]?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>41403</StartMilliseconds>
+    <EndMilliseconds>41695</EndMilliseconds>
+    <Text>"Are they colored markers?" [@said@] the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>41696</StartMilliseconds>
+    <EndMilliseconds>41855</EndMilliseconds>
+    <Text>"Are they colored markers?" said [@the@] teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>41856</StartMilliseconds>
+    <EndMilliseconds>42558</EndMilliseconds>
+    <Text>"Are they colored markers?" said the [@teacher@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>42559</StartMilliseconds>
+    <EndMilliseconds>43175</EndMilliseconds>
+    <Text>"Are they colored markers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>43176</StartMilliseconds>
+    <EndMilliseconds>43334</EndMilliseconds>
+    <Text>[e@"Are they colored markers?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>43335</StartMilliseconds>
+    <EndMilliseconds>43450</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>43451</StartMilliseconds>
+    <EndMilliseconds>44162</EndMilliseconds>
+    <Text>"[@No@]," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>44163</StartMilliseconds>
+    <EndMilliseconds>45082</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>45083</StartMilliseconds>
+    <EndMilliseconds>45359</EndMilliseconds>
+    <Text>"No," [@said@] the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>45360</StartMilliseconds>
+    <EndMilliseconds>45540</EndMilliseconds>
+    <Text>"No," said [@the@] children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>91</Number>
+    <StartMilliseconds>45541</StartMilliseconds>
+    <EndMilliseconds>46242</EndMilliseconds>
+    <Text>"No," said the [@children@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>92</Number>
+    <StartMilliseconds>46243</StartMilliseconds>
+    <EndMilliseconds>46840</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>93</Number>
+    <StartMilliseconds>46841</StartMilliseconds>
+    <EndMilliseconds>47002</EndMilliseconds>
+    <Text>[e@"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>94</Number>
+    <StartMilliseconds>47003</StartMilliseconds>
+    <EndMilliseconds>48274</EndMilliseconds>
+    <Text>"Are they notebooks?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>95</Number>
+    <StartMilliseconds>48275</StartMilliseconds>
+    <EndMilliseconds>48634</EndMilliseconds>
+    <Text>"[@Are@] they notebooks?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>96</Number>
+    <StartMilliseconds>48635</StartMilliseconds>
+    <EndMilliseconds>48846</EndMilliseconds>
+    <Text>"Are [@they@] notebooks?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>97</Number>
+    <StartMilliseconds>48847</StartMilliseconds>
+    <EndMilliseconds>49764</EndMilliseconds>
+    <Text>"Are they [@notebooks@]?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>98</Number>
+    <StartMilliseconds>49765</StartMilliseconds>
+    <EndMilliseconds>50045</EndMilliseconds>
+    <Text>"Are they notebooks?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>99</Number>
+    <StartMilliseconds>50046</StartMilliseconds>
+    <EndMilliseconds>50311</EndMilliseconds>
+    <Text>"Are they notebooks?" [@said@] the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>100</Number>
+    <StartMilliseconds>50312</StartMilliseconds>
+    <EndMilliseconds>50488</EndMilliseconds>
+    <Text>"Are they notebooks?" said [@the@] teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>101</Number>
+    <StartMilliseconds>50489</StartMilliseconds>
+    <EndMilliseconds>51090</EndMilliseconds>
+    <Text>"Are they notebooks?" said the [@teacher@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>102</Number>
+    <StartMilliseconds>51091</StartMilliseconds>
+    <EndMilliseconds>51367</EndMilliseconds>
+    <Text>"Are they notebooks?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>103</Number>
+    <StartMilliseconds>51368</StartMilliseconds>
+    <EndMilliseconds>51488</EndMilliseconds>
+    <Text>[e@"Are they notebooks?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>104</Number>
+    <StartMilliseconds>51489</StartMilliseconds>
+    <EndMilliseconds>51602</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>105</Number>
+    <StartMilliseconds>51603</StartMilliseconds>
+    <EndMilliseconds>52357</EndMilliseconds>
+    <Text>"[@No@]," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>106</Number>
+    <StartMilliseconds>52358</StartMilliseconds>
+    <EndMilliseconds>53309</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>107</Number>
+    <StartMilliseconds>53310</StartMilliseconds>
+    <EndMilliseconds>53571</EndMilliseconds>
+    <Text>"No," [@said@] the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>108</Number>
+    <StartMilliseconds>53572</StartMilliseconds>
+    <EndMilliseconds>53770</EndMilliseconds>
+    <Text>"No," said [@the@] children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>109</Number>
+    <StartMilliseconds>53771</StartMilliseconds>
+    <EndMilliseconds>54514</EndMilliseconds>
+    <Text>"No," said the [@children@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>110</Number>
+    <StartMilliseconds>54515</StartMilliseconds>
+    <EndMilliseconds>55207</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>111</Number>
+    <StartMilliseconds>55208</StartMilliseconds>
+    <EndMilliseconds>55350</EndMilliseconds>
+    <Text>[e@"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>112</Number>
+    <StartMilliseconds>55351</StartMilliseconds>
+    <EndMilliseconds>56973</EndMilliseconds>
+    <Text>"Are they pencil cases?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>113</Number>
+    <StartMilliseconds>56974</StartMilliseconds>
+    <EndMilliseconds>57569</EndMilliseconds>
+    <Text>[s@"Are they pencil cases?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>114</Number>
+    <StartMilliseconds>57570</StartMilliseconds>
+    <EndMilliseconds>57823</EndMilliseconds>
+    <Text>"[@Are@] they pencil cases?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>115</Number>
+    <StartMilliseconds>57824</StartMilliseconds>
+    <EndMilliseconds>58035</EndMilliseconds>
+    <Text>"Are [@they@] pencil cases?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>116</Number>
+    <StartMilliseconds>58036</StartMilliseconds>
+    <EndMilliseconds>58439</EndMilliseconds>
+    <Text>"Are they [@pencil@] cases?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>117</Number>
+    <StartMilliseconds>58440</StartMilliseconds>
+    <EndMilliseconds>59216</EndMilliseconds>
+    <Text>"Are they pencil [@cases@]?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>118</Number>
+    <StartMilliseconds>59217</StartMilliseconds>
+    <EndMilliseconds>59439</EndMilliseconds>
+    <Text>"Are they pencil cases?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>119</Number>
+    <StartMilliseconds>59440</StartMilliseconds>
+    <EndMilliseconds>59718</EndMilliseconds>
+    <Text>"Are they pencil cases?" [@said@] the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>120</Number>
+    <StartMilliseconds>59719</StartMilliseconds>
+    <EndMilliseconds>59868</EndMilliseconds>
+    <Text>"Are they pencil cases?" said [@the@] teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>121</Number>
+    <StartMilliseconds>59869</StartMilliseconds>
+    <EndMilliseconds>60516</EndMilliseconds>
+    <Text>"Are they pencil cases?" said the [@teacher@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>122</Number>
+    <StartMilliseconds>60517</StartMilliseconds>
+    <EndMilliseconds>60682</EndMilliseconds>
+    <Text>"Are they pencil cases?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>123</Number>
+    <StartMilliseconds>60683</StartMilliseconds>
+    <EndMilliseconds>60803</EndMilliseconds>
+    <Text>[e@"Are they pencil cases?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>124</Number>
+    <StartMilliseconds>60804</StartMilliseconds>
+    <EndMilliseconds>61122</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>125</Number>
+    <StartMilliseconds>61123</StartMilliseconds>
+    <EndMilliseconds>61941</EndMilliseconds>
+    <Text>"[@No@]," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>126</Number>
+    <StartMilliseconds>61942</StartMilliseconds>
+    <EndMilliseconds>62795</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>127</Number>
+    <StartMilliseconds>62796</StartMilliseconds>
+    <EndMilliseconds>63042</EndMilliseconds>
+    <Text>"No," [@said@] the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>128</Number>
+    <StartMilliseconds>63043</StartMilliseconds>
+    <EndMilliseconds>63233</EndMilliseconds>
+    <Text>"No," said [@the@] children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>129</Number>
+    <StartMilliseconds>63234</StartMilliseconds>
+    <EndMilliseconds>63881</EndMilliseconds>
+    <Text>"No," said the [@children@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>130</Number>
+    <StartMilliseconds>63882</StartMilliseconds>
+    <EndMilliseconds>64380</EndMilliseconds>
+    <Text>"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>131</Number>
+    <StartMilliseconds>64381</StartMilliseconds>
+    <EndMilliseconds>64542</EndMilliseconds>
+    <Text>[e@"No," said the children.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>132</Number>
+    <StartMilliseconds>64543</StartMilliseconds>
+    <EndMilliseconds>65166</EndMilliseconds>
+    <Text>"Are they rubber stamps?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>133</Number>
+    <StartMilliseconds>65167</StartMilliseconds>
+    <EndMilliseconds>65458</EndMilliseconds>
+    <Text>"[@Are@] they rubber stamps?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>134</Number>
+    <StartMilliseconds>65459</StartMilliseconds>
+    <EndMilliseconds>65669</EndMilliseconds>
+    <Text>"Are [@they@] rubber stamps?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>135</Number>
+    <StartMilliseconds>65670</StartMilliseconds>
+    <EndMilliseconds>65949</EndMilliseconds>
+    <Text>"Are they [@rubber@] stamps?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>136</Number>
+    <StartMilliseconds>65950</StartMilliseconds>
+    <EndMilliseconds>66739</EndMilliseconds>
+    <Text>"Are they rubber [@stamps@]?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>137</Number>
+    <StartMilliseconds>66740</StartMilliseconds>
+    <EndMilliseconds>67161</EndMilliseconds>
+    <Text>"Are they rubber stamps?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>138</Number>
+    <StartMilliseconds>67162</StartMilliseconds>
+    <EndMilliseconds>67487</EndMilliseconds>
+    <Text>"Are they rubber stamps?" [@said@] the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>139</Number>
+    <StartMilliseconds>67488</StartMilliseconds>
+    <EndMilliseconds>67660</EndMilliseconds>
+    <Text>"Are they rubber stamps?" said [@the@] teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>140</Number>
+    <StartMilliseconds>67661</StartMilliseconds>
+    <EndMilliseconds>68307</EndMilliseconds>
+    <Text>"Are they rubber stamps?" said the [@teacher@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>141</Number>
+    <StartMilliseconds>68308</StartMilliseconds>
+    <EndMilliseconds>69020</EndMilliseconds>
+    <Text>"Are they rubber stamps?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>142</Number>
+    <StartMilliseconds>69021</StartMilliseconds>
+    <EndMilliseconds>69203</EndMilliseconds>
+    <Text>[e@"Are they rubber stamps?" said the teacher.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>143</Number>
+    <StartMilliseconds>69204</StartMilliseconds>
+    <EndMilliseconds>69439</EndMilliseconds>
+    <Text>"Yes, they are.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>144</Number>
+    <StartMilliseconds>69440</StartMilliseconds>
+    <EndMilliseconds>69833</EndMilliseconds>
+    <Text>"[@Yes@], they are.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>145</Number>
+    <StartMilliseconds>69834</StartMilliseconds>
+    <EndMilliseconds>70036</EndMilliseconds>
+    <Text>"Yes, [@they@] are.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>146</Number>
+    <StartMilliseconds>70037</StartMilliseconds>
+    <EndMilliseconds>70547</EndMilliseconds>
+    <Text>"Yes, they [@are@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>147</Number>
+    <StartMilliseconds>70548</StartMilliseconds>
+    <EndMilliseconds>70620</EndMilliseconds>
+    <Text>"Yes, they are.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>148</Number>
+    <StartMilliseconds>70621</StartMilliseconds>
+    <EndMilliseconds>70727</EndMilliseconds>
+    <Text>Happy birthday, Teacher!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>149</Number>
+    <StartMilliseconds>70728</StartMilliseconds>
+    <EndMilliseconds>71287</EndMilliseconds>
+    <Text>[@Happy@] birthday, Teacher!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>150</Number>
+    <StartMilliseconds>71288</StartMilliseconds>
+    <EndMilliseconds>71845</EndMilliseconds>
+    <Text>Happy [@birthday@], Teacher!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>151</Number>
+    <StartMilliseconds>71846</StartMilliseconds>
+    <EndMilliseconds>72694</EndMilliseconds>
+    <Text>Happy birthday, [@Teacher@]!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>152</Number>
+    <StartMilliseconds>72695</StartMilliseconds>
+    <EndMilliseconds>78984</EndMilliseconds>
+    <Text>Happy birthday, Teacher!"</Text>
+  </Paragraph>
+</Subtitle>

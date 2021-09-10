@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>5123</EndMilliseconds>
+    <Text>The lion demon rubbed his aching mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>5124</StartMilliseconds>
+    <EndMilliseconds>8333</EndMilliseconds>
+    <Text>[g@"Let's leave the Tang Monk alone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>8334</StartMilliseconds>
+    <EndMilliseconds>11399</EndMilliseconds>
+    <Text>Wukong is dangerous."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>11400</StartMilliseconds>
+    <EndMilliseconds>13329</EndMilliseconds>
+    <Text>The raptor nodded.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>13330</StartMilliseconds>
+    <EndMilliseconds>16777</EndMilliseconds>
+    <Text>"Bah!" The elephant demon waved his hand.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>16778</StartMilliseconds>
+    <EndMilliseconds>20108</EndMilliseconds>
+    <Text>"I'm not afraid of that silly monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>20109</StartMilliseconds>
+    <EndMilliseconds>25484</EndMilliseconds>
+    <Text>I have a perfect plan to defeat him and capture the Tang Monk."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>25485</StartMilliseconds>
+    <EndMilliseconds>27345</EndMilliseconds>
+    <Text>The lion shook his head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>27346</StartMilliseconds>
+    <EndMilliseconds>34520</EndMilliseconds>
+    <Text>"The last time you had a plan, I wound up with a broken tooth."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>34521</StartMilliseconds>
+    <EndMilliseconds>36352</EndMilliseconds>
+    <Text>[g@The elephant snorted.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>36353</StartMilliseconds>
+    <EndMilliseconds>41049</EndMilliseconds>
+    <Text>"Just leave everything to me."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>41050</StartMilliseconds>
+    <EndMilliseconds>44287</EndMilliseconds>
+    <Text>[g@Wukong returned to his companions.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>44288</StartMilliseconds>
+    <EndMilliseconds>47586</EndMilliseconds>
+    <Text>He heard Bajie and Wujing arguing.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>47587</StartMilliseconds>
+    <EndMilliseconds>50942</EndMilliseconds>
+    <Text>[g@"We can't go home!" shouted Wujing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>50943</StartMilliseconds>
+    <EndMilliseconds>54127</EndMilliseconds>
+    <Text>"We're on an important journey."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>54128</StartMilliseconds>
+    <EndMilliseconds>59472</EndMilliseconds>
+    <Text>"But Wukong got eaten by the lion demon," said Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>59473</StartMilliseconds>
+    <EndMilliseconds>64357</EndMilliseconds>
+    <Text>"Without Wukong, we'll never get to the Western Paradise."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>64358</StartMilliseconds>
+    <EndMilliseconds>66859</EndMilliseconds>
+    <Text>"Here I am!" said the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>66860</StartMilliseconds>
+    <EndMilliseconds>69475</EndMilliseconds>
+    <Text>Everyone spun around.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>69476</StartMilliseconds>
+    <EndMilliseconds>72748</EndMilliseconds>
+    <Text>"You're alive!" cried the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>72749</StartMilliseconds>
+    <EndMilliseconds>75615</EndMilliseconds>
+    <Text>"Yes, I am," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>75616</StartMilliseconds>
+    <EndMilliseconds>79200</EndMilliseconds>
+    <Text>"I beat up that lion's insides and broke one of his teeth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>79201</StartMilliseconds>
+    <EndMilliseconds>81581</EndMilliseconds>
+    <Text>The demons are scared of me now.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>81582</StartMilliseconds>
+    <EndMilliseconds>85087</EndMilliseconds>
+    <Text>They promised to let us cross their mountain safely."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>85088</StartMilliseconds>
+    <EndMilliseconds>89122</EndMilliseconds>
+    <Text>"That's wonderful," said the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>89123</StartMilliseconds>
+    <EndMilliseconds>92436</EndMilliseconds>
+    <Text>Wujing helped the monk climb onto the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>92437</StartMilliseconds>
+    <EndMilliseconds>95768</EndMilliseconds>
+    <Text>The other travelers started walking.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>95769</StartMilliseconds>
+    <EndMilliseconds>102674</EndMilliseconds>
+    <Text>They hadn't gone far when they saw a large figure ahead, blocking the road.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>102675</StartMilliseconds>
+    <EndMilliseconds>106772</EndMilliseconds>
+    <Text>"That's the elephant demon," said Wukong with a frown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>106773</StartMilliseconds>
+    <EndMilliseconds>108963</EndMilliseconds>
+    <Text>"What's he doing here?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>108964</StartMilliseconds>
+    <EndMilliseconds>113938</EndMilliseconds>
+    <Text>"We want the Tang Monk!" shouted the elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>113939</StartMilliseconds>
+    <EndMilliseconds>116325</EndMilliseconds>
+    <Text>The Tang Monk fainted.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>116326</StartMilliseconds>
+    <EndMilliseconds>118721</EndMilliseconds>
+    <Text>[g@Wukong turned to Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>118722</StartMilliseconds>
+    <EndMilliseconds>122403</EndMilliseconds>
+    <Text>"I've been dealing with these demons all day.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>122404</StartMilliseconds>
+    <EndMilliseconds>125872</EndMilliseconds>
+    <Text>It's your turn to fight them."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>125873</StartMilliseconds>
+    <EndMilliseconds>127384</EndMilliseconds>
+    <Text>[g@Bajie sighed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>127385</StartMilliseconds>
+    <EndMilliseconds>132880</EndMilliseconds>
+    <Text>"Okay." Waving his rake, the pig charged toward the elephant.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>132881</StartMilliseconds>
+    <EndMilliseconds>136661</EndMilliseconds>
+    <Text>"You'll never harm my master!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>136662</StartMilliseconds>
+    <EndMilliseconds>141201</EndMilliseconds>
+    <Text>The elephant blocked the rake, spun around, and struck back.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>141202</StartMilliseconds>
+    <EndMilliseconds>144131</EndMilliseconds>
+    <Text>Bajie jumped out of the way.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>144132</StartMilliseconds>
+    <EndMilliseconds>149169</EndMilliseconds>
+    <Text>The elephant jerked his head, and his trunk shot out.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>149170</StartMilliseconds>
+    <EndMilliseconds>153926</EndMilliseconds>
+    <Text>Before Bajie could duck, the trunk wrapped tightly around his body.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>153927</StartMilliseconds>
+    <EndMilliseconds>159801</EndMilliseconds>
+    <Text>As the elephant ran off with Bajie, Wukong groaned.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>159802</StartMilliseconds>
+    <EndMilliseconds>162201</EndMilliseconds>
+    <Text>The monkey turned to his companions.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>162202</StartMilliseconds>
+    <EndMilliseconds>163560</EndMilliseconds>
+    <Text>[g@"You two wait here.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>163561</StartMilliseconds>
+    <EndMilliseconds>169236</EndMilliseconds>
+    <Text>I'll go save the pig."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>169237</StartMilliseconds>
+    <EndMilliseconds>176816</EndMilliseconds>
+    <Text>Wukong returned to the demons' cave and turned into a fly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>176817</StartMilliseconds>
+    <EndMilliseconds>180376</EndMilliseconds>
+    <Text>He found Bajie deep inside the cave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>180377</StartMilliseconds>
+    <EndMilliseconds>185290</EndMilliseconds>
+    <Text>The pig was tied up, floating in a tub of salt water.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>185291</StartMilliseconds>
+    <EndMilliseconds>191528</EndMilliseconds>
+    <Text>Wukong changed back into himself and untied his companion.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>191529</StartMilliseconds>
+    <EndMilliseconds>193735</EndMilliseconds>
+    <Text>[g@"Thank you," said Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>193736</StartMilliseconds>
+    <EndMilliseconds>197138</EndMilliseconds>
+    <Text>"Those demons were planning to pickle me!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>197139</StartMilliseconds>
+    <EndMilliseconds>200122</EndMilliseconds>
+    <Text>[g@"You're welcome, Bajie," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>200123</StartMilliseconds>
+    <EndMilliseconds>202392</EndMilliseconds>
+    <Text>"Now let's—whaa!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>202393</StartMilliseconds>
+    <EndMilliseconds>206306</EndMilliseconds>
+    <Text>The elephant's trunk wrapped tightly around Wukong's chest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>206307</StartMilliseconds>
+    <EndMilliseconds>209547</EndMilliseconds>
+    <Text>Then the elephant stepped out of a dark corner.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>209548</StartMilliseconds>
+    <EndMilliseconds>213606</EndMilliseconds>
+    <Text>"I knew you'd come to save your friend," said the elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>213607</StartMilliseconds>
+    <EndMilliseconds>216291</EndMilliseconds>
+    <Text>[g@"Now you can't protect the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>216292</StartMilliseconds>
+    <EndMilliseconds>219627</EndMilliseconds>
+    <Text>My trunk is very strong!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>219628</StartMilliseconds>
+    <EndMilliseconds>222288</EndMilliseconds>
+    <Text>Wukong's arms were still free.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>222289</StartMilliseconds>
+    <EndMilliseconds>225745</EndMilliseconds>
+    <Text>He pulled out his iron bar, which instantly grew.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>225746</StartMilliseconds>
+    <EndMilliseconds>230338</EndMilliseconds>
+    <Text>With all his strength, he slammed it down on the elephant's trunk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>230339</StartMilliseconds>
+    <EndMilliseconds>233950</EndMilliseconds>
+    <Text>[g@"Ow! Ow! Ow!" the elephant cried.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>233951</StartMilliseconds>
+    <EndMilliseconds>236861</EndMilliseconds>
+    <Text>He released Wukong and fell backward.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>236862</StartMilliseconds>
+    <EndMilliseconds>240476</EndMilliseconds>
+    <Text>His trunk had a horrible purple bruise.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>240477</StartMilliseconds>
+    <EndMilliseconds>245308</EndMilliseconds>
+    <Text>Wukong moved toward the elephant, his iron bar raised high.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>245309</StartMilliseconds>
+    <EndMilliseconds>248554</EndMilliseconds>
+    <Text>The elephant's eyes went wide.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>248555</StartMilliseconds>
+    <EndMilliseconds>250677</EndMilliseconds>
+    <Text>[g@"Please don't hurt me anymore!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>250678</StartMilliseconds>
+    <EndMilliseconds>254068</EndMilliseconds>
+    <Text>We'll let the Tang Monk cross the mountain!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>254069</StartMilliseconds>
+    <EndMilliseconds>257149</EndMilliseconds>
+    <Text>The monkey glared at the elephant for a moment.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>257150</StartMilliseconds>
+    <EndMilliseconds>259679</EndMilliseconds>
+    <Text>[g@Then he put the iron bar away.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>259680</StartMilliseconds>
+    <EndMilliseconds>263282</EndMilliseconds>
+    <Text>"You'd better not trick us again."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>263283</StartMilliseconds>
+    <EndMilliseconds>269347</EndMilliseconds>
+    <Text>Wukong and Bajie left the cave and returned to their companions.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>269348</StartMilliseconds>
+    <EndMilliseconds>272137</EndMilliseconds>
+    <Text>The group continued over the mountain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>272138</StartMilliseconds>
+    <EndMilliseconds>277162</EndMilliseconds>
+    <Text>As the travelers came around a bend, they saw the lion and the elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>277163</StartMilliseconds>
+    <EndMilliseconds>282064</EndMilliseconds>
+    <Text>The two demons were blocking the road.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>282065</StartMilliseconds>
+    <EndMilliseconds>287112</EndMilliseconds>
+    <Text>[g@Wukong stomped toward them.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>287113</StartMilliseconds>
+    <EndMilliseconds>288804</EndMilliseconds>
+    <Text>"What are you doing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>288805</StartMilliseconds>
+    <EndMilliseconds>290077</EndMilliseconds>
+    <Text>You promised to—"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>290078</StartMilliseconds>
+    <EndMilliseconds>293121</EndMilliseconds>
+    <Text>"Wukong, help us!" cried the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>293122</StartMilliseconds>
+    <EndMilliseconds>295238</EndMilliseconds>
+    <Text>Wukong spun around.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>295239</StartMilliseconds>
+    <EndMilliseconds>299558</EndMilliseconds>
+    <Text>The raptor had grabbed the monkey's companions with its talons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>299559</StartMilliseconds>
+    <EndMilliseconds>309996</EndMilliseconds>
+    <Text>With a powerful flap of its wings, the giant bird flew away.</Text>
+  </Paragraph>
+</Subtitle>

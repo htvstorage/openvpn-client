@@ -1,0 +1,300 @@
+1
+00:00:04,000 --> 05:13:04,000
+This one has a small head.
+
+2
+05:13:14,000 --> 06:01:54,000
+<font color="#ffff54">This</font> one has a small head.
+
+3
+06:02:04,000 --> 06:43:54,000
+This <font color="#ffff54">one</font> has a small head.
+
+4
+06:44:04,000 --> 07:31:44,000
+This one <font color="#ffff54">has</font> a small head.
+
+5
+07:31:54,000 --> 07:56:34,000
+This one has <font color="#ffff54">a</font> small head.
+
+6
+07:56:44,000 --> 09:50:54,000
+This one has a <font color="#ffff54">small</font> head.
+
+7
+09:51:04,000 --> 12:30:24,000
+This one has a small <font color="#ffff54">head</font>.
+
+8
+12:30:34,000 --> 21:10:44,000
+This one has a small head.
+
+9
+21:10:54,000 --> 21:43:04,000
+[e@This one has a small head.
+
+10
+21:43:14,000 --> 23:10:34,000
+This one has a big mouth.
+
+11
+23:10:44,000 --> 26:20:44,000
+[s@This one has a big mouth.
+
+12
+26:20:54,000 --> 27:17:54,000
+<font color="#ffff54">This</font> one has a big mouth.
+
+13
+27:18:04,000 --> 27:45:24,000
+This <font color="#ffff54">one</font> has a big mouth.
+
+14
+27:45:34,000 --> 28:27:04,000
+This one <font color="#ffff54">has</font> a big mouth.
+
+15
+28:27:14,000 --> 29:01:44,000
+This one has <font color="#ffff54">a</font> big mouth.
+
+16
+29:01:54,000 --> 30:33:14,000
+This one has a <font color="#ffff54">big</font> mouth.
+
+17
+30:33:24,000 --> 33:26:04,000
+This one has a big <font color="#ffff54">mouth</font>.
+
+18
+33:26:14,000 --> 42:58:44,000
+This one has a big mouth.
+
+19
+42:58:54,000 --> 43:23:34,000
+[e@This one has a big mouth.
+
+20
+43:23:44,000 --> 47:46:44,000
+This one has a long tail.
+
+21
+47:46:54,000 --> 48:47:34,000
+[s@This one has a long tail.
+
+22
+48:47:44,000 --> 49:41:44,000
+<font color="#ffff54">This</font> one has a long tail.
+
+23
+49:41:54,000 --> 50:23:54,000
+This <font color="#ffff54">one</font> has a long tail.
+
+24
+50:24:04,000 --> 51:04:44,000
+This one <font color="#ffff54">has</font> a long tail.
+
+25
+51:04:54,000 --> 51:31:34,000
+This one has <font color="#ffff54">a</font> long tail.
+
+26
+51:31:44,000 --> 53:49:54,000
+This one has a <font color="#ffff54">long</font> tail.
+
+27
+53:50:04,000 --> 56:28:14,000
+This one has a long <font color="#ffff54">tail</font>.
+
+28
+56:28:24,000 --> 63:07:24,000
+This one has a long tail.
+
+29
+63:07:34,000 --> 63:32:04,000
+[e@This one has a long tail.
+
+30
+63:32:14,000 --> 65:56:44,000
+This one has large wings.
+
+31
+65:56:54,000 --> 67:10:44,000
+[s@This one has large wings.
+
+32
+67:10:54,000 --> 68:04:44,000
+<font color="#ffff54">This</font> one has large wings.
+
+33
+68:04:54,000 --> 68:43:14,000
+This <font color="#ffff54">one</font> has large wings.
+
+34
+68:43:24,000 --> 69:45:04,000
+This one <font color="#ffff54">has</font> large wings.
+
+35
+69:45:14,000 --> 71:49:54,000
+This one has <font color="#ffff54">large</font> wings.
+
+36
+71:50:04,000 --> 74:53:44,000
+This one has large <font color="#ffff54">wings</font>.
+
+37
+74:53:54,000 --> 82:08:54,000
+This one has large wings.
+
+38
+82:09:04,000 --> 82:36:54,000
+[e@This one has large wings.
+
+39
+82:37:04,000 --> 84:47:44,000
+This one has sharp horns.
+
+40
+84:47:54,000 --> 86:36:34,000
+[s@This one has sharp horns.
+
+41
+86:36:44,000 --> 87:21:34,000
+<font color="#ffff54">This</font> one has sharp horns.
+
+42
+87:21:44,000 --> 88:08:14,000
+This <font color="#ffff54">one</font> has sharp horns.
+
+43
+88:08:24,000 --> 88:38:04,000
+This one <font color="#ffff54">has</font> sharp horns.
+
+44
+88:38:14,000 --> 90:20:24,000
+This one has <font color="#ffff54">sharp</font> horns.
+
+45
+90:20:34,000 --> 93:28:14,000
+This one has sharp <font color="#ffff54">horns</font>.
+
+46
+93:28:24,000 --> 101:55:14,000
+This one has sharp horns.
+
+47
+101:55:24,000 --> 102:25:44,000
+[e@This one has sharp horns.
+
+48
+102:25:54,000 --> 105:02:34,000
+This one has a long neck.
+
+49
+105:02:44,000 --> 106:00:04,000
+[s@This one has a long neck.
+
+50
+106:00:14,000 --> 106:54:14,000
+<font color="#ffff54">This</font> one has a long neck.
+
+51
+106:54:24,000 --> 107:33:44,000
+This <font color="#ffff54">one</font> has a long neck.
+
+52
+107:33:54,000 --> 108:17:14,000
+This one <font color="#ffff54">has</font> a long neck.
+
+53
+108:17:24,000 --> 108:47:34,000
+This one has <font color="#ffff54">a</font> long neck.
+
+54
+108:47:44,000 --> 110:33:54,000
+This one has a <font color="#ffff54">long</font> neck.
+
+55
+110:34:04,000 --> 112:39:14,000
+This one has a long <font color="#ffff54">neck</font>.
+
+56
+112:39:24,000 --> 119:35:14,000
+This one has a long neck.
+
+57
+119:35:24,000 --> 120:02:14,000
+[e@This one has a long neck.
+
+58
+120:02:24,000 --> 126:17:04,000
+This one has tiny arms.
+
+59
+126:17:14,000 --> 129:03:54,000
+[s@This one has tiny arms.
+
+60
+129:04:04,000 --> 130:00:54,000
+<font color="#ffff54">This</font> one has tiny arms.
+
+61
+130:01:04,000 --> 130:29:34,000
+This <font color="#ffff54">one</font> has tiny arms.
+
+62
+130:29:44,000 --> 131:31:54,000
+This one <font color="#ffff54">has</font> tiny arms.
+
+63
+131:32:04,000 --> 133:24:14,000
+This one has <font color="#ffff54">tiny</font> arms.
+
+64
+133:24:24,000 --> 136:35:04,000
+This one has tiny <font color="#ffff54">arms</font>.
+
+65
+136:35:14,000 --> 143:14:14,000
+This one has tiny arms.
+
+66
+143:14:24,000 --> 143:34:44,000
+[e@This one has tiny arms.
+
+67
+143:34:54,000 --> 146:34:14,000
+But it has huge teeth! Ah!
+
+68
+146:34:24,000 --> 147:35:34,000
+[s@But it has huge teeth! Ah!
+
+69
+147:35:44,000 --> 148:13:44,000
+<font color="#ffff54">But</font> it has huge teeth! Ah!
+
+70
+148:13:54,000 --> 148:38:24,000
+But <font color="#ffff54">it</font> has huge teeth! Ah!
+
+71
+148:38:34,000 --> 150:03:14,000
+But it <font color="#ffff54">has</font> huge teeth! Ah!
+
+72
+150:03:24,000 --> 151:26:44,000
+But it has <font color="#ffff54">huge</font> teeth! Ah!
+
+73
+151:26:54,000 --> 154:41:04,000
+But it has huge <font color="#ffff54">teeth</font>! Ah!
+
+74
+154:41:14,000 --> 158:38:24,000
+But it has huge teeth! <font color="#ffff54">Ah</font>!
+
+75
+158:38:34,000 --> 167:12:34,000
+But it has huge teeth! Ah!
+

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>70</StartMilliseconds>
+    <EndMilliseconds>4234</EndMilliseconds>
+    <Text>I share my books.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>4235</StartMilliseconds>
+    <EndMilliseconds>4711</EndMilliseconds>
+    <Text>[@I@] share my books.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>4712</StartMilliseconds>
+    <EndMilliseconds>5094</EndMilliseconds>
+    <Text>I [@share@] my books.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>5095</StartMilliseconds>
+    <EndMilliseconds>5409</EndMilliseconds>
+    <Text>I share [@my@] books.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>5410</StartMilliseconds>
+    <EndMilliseconds>6219</EndMilliseconds>
+    <Text>I share my [@books@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>6220</StartMilliseconds>
+    <EndMilliseconds>11578</EndMilliseconds>
+    <Text>I share my books.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>11579</StartMilliseconds>
+    <EndMilliseconds>12323</EndMilliseconds>
+    <Text>I share my games.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>12324</StartMilliseconds>
+    <EndMilliseconds>12793</EndMilliseconds>
+    <Text>[@I@] share my games.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>12794</StartMilliseconds>
+    <EndMilliseconds>13157</EndMilliseconds>
+    <Text>I [@share@] my games.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>13158</StartMilliseconds>
+    <EndMilliseconds>13408</EndMilliseconds>
+    <Text>I share [@my@] games.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>13409</StartMilliseconds>
+    <EndMilliseconds>14233</EndMilliseconds>
+    <Text>I share my [@games@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>14234</StartMilliseconds>
+    <EndMilliseconds>29459</EndMilliseconds>
+    <Text>I share my games.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>29460</StartMilliseconds>
+    <EndMilliseconds>30208</EndMilliseconds>
+    <Text>I share my blocks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>30209</StartMilliseconds>
+    <EndMilliseconds>30569</EndMilliseconds>
+    <Text>[@I@] share my blocks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>30570</StartMilliseconds>
+    <EndMilliseconds>30866</EndMilliseconds>
+    <Text>I [@share@] my blocks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>30867</StartMilliseconds>
+    <EndMilliseconds>31149</EndMilliseconds>
+    <Text>I share [@my@] blocks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>31150</StartMilliseconds>
+    <EndMilliseconds>32003</EndMilliseconds>
+    <Text>I share my [@blocks@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>32004</StartMilliseconds>
+    <EndMilliseconds>40763</EndMilliseconds>
+    <Text>I share my blocks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>40764</StartMilliseconds>
+    <EndMilliseconds>41146</EndMilliseconds>
+    <Text>I share my toys.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>41147</StartMilliseconds>
+    <EndMilliseconds>41454</EndMilliseconds>
+    <Text>[@I@] share my toys.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>41455</StartMilliseconds>
+    <EndMilliseconds>41794</EndMilliseconds>
+    <Text>I [@share@] my toys.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>41795</StartMilliseconds>
+    <EndMilliseconds>42029</EndMilliseconds>
+    <Text>I share [@my@] toys.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>42030</StartMilliseconds>
+    <EndMilliseconds>42828</EndMilliseconds>
+    <Text>I share my [@toys@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>42829</StartMilliseconds>
+    <EndMilliseconds>49172</EndMilliseconds>
+    <Text>I share my toys.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>49173</StartMilliseconds>
+    <EndMilliseconds>49454</EndMilliseconds>
+    <Text>I share my computer.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>49455</StartMilliseconds>
+    <EndMilliseconds>49738</EndMilliseconds>
+    <Text>[@I@] share my computer.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>49739</StartMilliseconds>
+    <EndMilliseconds>50124</EndMilliseconds>
+    <Text>I [@share@] my computer.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>50125</StartMilliseconds>
+    <EndMilliseconds>50386</EndMilliseconds>
+    <Text>I share [@my@] computer.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>50387</StartMilliseconds>
+    <EndMilliseconds>51287</EndMilliseconds>
+    <Text>I share my [@computer@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>51288</StartMilliseconds>
+    <EndMilliseconds>60431</EndMilliseconds>
+    <Text>I share my computer.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>60432</StartMilliseconds>
+    <EndMilliseconds>61068</EndMilliseconds>
+    <Text>I share my crayons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>61069</StartMilliseconds>
+    <EndMilliseconds>61436</EndMilliseconds>
+    <Text>[@I@] share my crayons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>61437</StartMilliseconds>
+    <EndMilliseconds>61688</EndMilliseconds>
+    <Text>I [@share@] my crayons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>61689</StartMilliseconds>
+    <EndMilliseconds>61963</EndMilliseconds>
+    <Text>I share [@my@] crayons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>61964</StartMilliseconds>
+    <EndMilliseconds>62889</EndMilliseconds>
+    <Text>I share my [@crayons@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>62890</StartMilliseconds>
+    <EndMilliseconds>70011</EndMilliseconds>
+    <Text>I share my crayons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>70012</StartMilliseconds>
+    <EndMilliseconds>70437</EndMilliseconds>
+    <Text>I share my cookies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>70438</StartMilliseconds>
+    <EndMilliseconds>70742</EndMilliseconds>
+    <Text>[@I@] share my cookies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>70743</StartMilliseconds>
+    <EndMilliseconds>71053</EndMilliseconds>
+    <Text>I [@share@] my cookies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>71054</StartMilliseconds>
+    <EndMilliseconds>71326</EndMilliseconds>
+    <Text>I share [@my@] cookies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>71327</StartMilliseconds>
+    <EndMilliseconds>72179</EndMilliseconds>
+    <Text>I share my [@cookies@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>72180</StartMilliseconds>
+    <EndMilliseconds>81668</EndMilliseconds>
+    <Text>I share my cookies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>81669</StartMilliseconds>
+    <EndMilliseconds>82099</EndMilliseconds>
+    <Text>I don't share my mommy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>82100</StartMilliseconds>
+    <EndMilliseconds>82382</EndMilliseconds>
+    <Text>[@I@] don't share my mommy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>82383</StartMilliseconds>
+    <EndMilliseconds>82633</EndMilliseconds>
+    <Text>I [@don't@] share my mommy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>82634</StartMilliseconds>
+    <EndMilliseconds>83046</EndMilliseconds>
+    <Text>I don't [@share@] my mommy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>83047</StartMilliseconds>
+    <EndMilliseconds>83316</EndMilliseconds>
+    <Text>I don't share [@my@] mommy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>83317</StartMilliseconds>
+    <EndMilliseconds>84119</EndMilliseconds>
+    <Text>I don't share my [@mommy@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>84120</StartMilliseconds>
+    <EndMilliseconds>88820</EndMilliseconds>
+    <Text>I don't share my mommy.</Text>
+  </Paragraph>
+</Subtitle>

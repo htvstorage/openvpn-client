@@ -1,0 +1,476 @@
+1
+00:00:07,500 --> 09:45:07,500
+What do you see?
+
+2
+09:45:17,500 --> 11:03:37,500
+<font color="#ffff54">What</font> do you see?
+
+3
+11:03:47,500 --> 11:46:17,500
+What <font color="#ffff54">do</font> you see?
+
+4
+11:46:27,500 --> 12:28:47,500
+What do <font color="#ffff54">you</font> see?
+
+5
+12:28:57,500 --> 14:32:47,500
+What do you <font color="#ffff54">see</font>?
+
+6
+14:32:57,500 --> 16:49:57,500
+What do you see?
+
+7
+16:50:07,500 --> 17:48:47,500
+[e@What do you see?
+
+8
+17:48:57,500 --> 20:20:47,500
+I see a starfish.
+
+9
+20:20:57,500 --> 21:15:57,500
+[s@I see a starfish.
+
+10
+21:16:07,500 --> 22:29:27,500
+<font color="#ffff54">I</font> see a starfish.
+
+11
+22:29:37,500 --> 23:02:37,500
+I <font color="#ffff54">see</font> a starfish.
+
+12
+23:02:47,500 --> 23:32:37,500
+I see <font color="#ffff54">a</font> starfish.
+
+13
+23:32:47,500 --> 26:48:17,500
+I see a <font color="#ffff54">starfish</font>.
+
+14
+26:48:27,500 --> 33:22:47,500
+I see a starfish.
+
+15
+33:22:57,500 --> 34:28:47,500
+[e@I see a starfish.
+
+16
+34:28:57,500 --> 37:24:37,500
+What do you see?
+
+17
+37:24:47,500 --> 38:42:57,500
+[s@What do you see?
+
+18
+38:43:07,500 --> 39:37:57,500
+<font color="#ffff54">What</font> do you see?
+
+19
+39:38:07,500 --> 40:12:27,500
+What <font color="#ffff54">do</font> you see?
+
+20
+40:12:37,500 --> 40:53:07,500
+What do <font color="#ffff54">you</font> see?
+
+21
+40:53:17,500 --> 42:48:57,500
+What do you <font color="#ffff54">see</font>?
+
+22
+42:49:07,500 --> 46:02:37,500
+What do you see?
+
+23
+46:02:47,500 --> 47:02:37,500
+[e@What do you see?
+
+24
+47:02:47,500 --> 48:59:47,500
+I see a turtle.
+
+25
+48:59:57,500 --> 50:14:47,500
+<font color="#ffff54">I</font> see a turtle.
+
+26
+50:14:57,500 --> 50:59:37,500
+I <font color="#ffff54">see</font> a turtle.
+
+27
+50:59:47,500 --> 51:32:37,500
+I see <font color="#ffff54">a</font> turtle.
+
+28
+51:32:47,500 --> 53:35:07,500
+I see a <font color="#ffff54">turtle</font>.
+
+29
+53:35:17,500 --> 60:22:07,500
+I see a turtle.
+
+30
+60:22:17,500 --> 61:29:57,500
+[e@I see a turtle.
+
+31
+61:30:07,500 --> 64:10:17,500
+What do you see?
+
+32
+64:10:27,500 --> 65:21:27,500
+<font color="#ffff54">What</font> do you see?
+
+33
+65:21:37,500 --> 65:59:37,500
+What <font color="#ffff54">do</font> you see?
+
+34
+65:59:47,500 --> 66:33:27,500
+What do <font color="#ffff54">you</font> see?
+
+35
+66:33:37,500 --> 68:36:27,500
+What do you <font color="#ffff54">see</font>?
+
+36
+68:36:37,500 --> 71:23:07,500
+What do you see?
+
+37
+71:23:17,500 --> 72:25:47,500
+[e@What do you see?
+
+38
+72:25:57,500 --> 75:04:07,500
+I see an octopus.
+
+39
+75:04:17,500 --> 76:09:17,500
+<font color="#ffff54">I</font> see an octopus.
+
+40
+76:09:27,500 --> 76:49:17,500
+I <font color="#ffff54">see</font> an octopus.
+
+41
+76:49:27,500 --> 77:16:57,500
+I see <font color="#ffff54">an</font> octopus.
+
+42
+77:17:07,500 --> 80:32:07,500
+I see an <font color="#ffff54">octopus</font>.
+
+43
+80:32:17,500 --> 88:01:27,500
+I see an octopus.
+
+44
+88:01:37,500 --> 89:08:07,500
+[e@I see an octopus.
+
+45
+89:08:17,500 --> 91:59:47,500
+What do you see?
+
+46
+91:59:57,500 --> 93:18:17,500
+[s@What do you see?
+
+47
+93:18:27,500 --> 94:32:17,500
+<font color="#ffff54">What</font> do you see?
+
+48
+94:32:27,500 --> 95:08:17,500
+What <font color="#ffff54">do</font> you see?
+
+49
+95:08:27,500 --> 95:50:17,500
+What do <font color="#ffff54">you</font> see?
+
+50
+95:50:27,500 --> 97:43:47,500
+What do you <font color="#ffff54">see</font>?
+
+51
+97:43:57,500 --> 106:49:57,500
+What do you see?
+
+52
+106:50:07,500 --> 107:49:17,500
+[e@What do you see?
+
+53
+107:49:27,500 --> 110:45:37,500
+I see a shark.
+
+54
+110:45:47,500 --> 112:19:57,500
+[s@I see a shark.
+
+55
+112:20:07,500 --> 113:21:07,500
+<font color="#ffff54">I</font> see a shark.
+
+56
+113:21:17,500 --> 113:56:27,500
+I <font color="#ffff54">see</font> a shark.
+
+57
+113:56:37,500 --> 114:45:47,500
+I see <font color="#ffff54">a</font> shark.
+
+58
+114:45:57,500 --> 116:41:17,500
+I see a <font color="#ffff54">shark</font>.
+
+59
+116:41:27,500 --> 126:20:47,500
+I see a shark.
+
+60
+126:20:57,500 --> 127:16:27,500
+[e@I see a shark.
+
+61
+127:16:37,500 --> 130:42:57,500
+What do you see?
+
+62
+130:43:07,500 --> 132:30:47,500
+[s@What do you see?
+
+63
+132:30:57,500 --> 133:26:17,500
+<font color="#ffff54">What</font> do you see?
+
+64
+133:26:27,500 --> 133:59:57,500
+What <font color="#ffff54">do</font> you see?
+
+65
+134:00:07,500 --> 134:37:07,500
+What do <font color="#ffff54">you</font> see?
+
+66
+134:37:17,500 --> 136:23:27,500
+What do you <font color="#ffff54">see</font>?
+
+67
+136:23:37,500 --> 137:33:27,500
+What do you see?
+
+68
+137:33:37,500 --> 138:26:27,500
+[e@What do you see?
+
+69
+138:26:37,500 --> 139:56:37,500
+I see a crab.
+
+70
+139:56:47,500 --> 141:12:07,500
+[s@I see a crab.
+
+71
+141:12:17,500 --> 142:22:07,500
+<font color="#ffff54">I</font> see a crab.
+
+72
+142:22:17,500 --> 143:04:07,500
+I <font color="#ffff54">see</font> a crab.
+
+73
+143:04:17,500 --> 143:39:07,500
+I see <font color="#ffff54">a</font> crab.
+
+74
+143:39:17,500 --> 146:05:57,500
+I see a <font color="#ffff54">crab</font>.
+
+75
+146:06:07,500 --> 153:49:27,500
+I see a crab.
+
+76
+153:49:37,500 --> 154:54:07,500
+[e@I see a crab.
+
+77
+154:54:17,500 --> 157:27:47,500
+What do you see?
+
+78
+157:27:57,500 --> 158:51:57,500
+<font color="#ffff54">What</font> do you see?
+
+79
+158:52:07,500 --> 159:32:37,500
+What <font color="#ffff54">do</font> you see?
+
+80
+159:32:47,500 --> 160:17:57,500
+What do <font color="#ffff54">you</font> see?
+
+81
+160:18:07,500 --> 162:11:17,500
+What do you <font color="#ffff54">see</font>?
+
+82
+162:11:27,500 --> 164:40:07,500
+What do you see?
+
+83
+164:40:17,500 --> 165:36:17,500
+[e@What do you see?
+
+84
+165:36:27,500 --> 168:02:27,500
+I see a clam.
+
+85
+168:02:37,500 --> 169:03:47,500
+<font color="#ffff54">I</font> see a clam.
+
+86
+169:03:57,500 --> 169:28:47,500
+I <font color="#ffff54">see</font> a clam.
+
+87
+169:28:57,500 --> 170:05:57,500
+I see <font color="#ffff54">a</font> clam.
+
+88
+170:06:07,500 --> 172:11:27,500
+I see a <font color="#ffff54">clam</font>.
+
+89
+172:11:37,500 --> 176:13:47,500
+I see a clam.
+
+90
+176:13:57,500 --> 177:16:27,500
+[e@I see a clam.
+
+91
+177:16:37,500 --> 179:57:27,500
+What do you see?
+
+92
+179:57:37,500 --> 181:11:47,500
+<font color="#ffff54">What</font> do you see?
+
+93
+181:11:57,500 --> 181:43:17,500
+What <font color="#ffff54">do</font> you see?
+
+94
+181:43:27,500 --> 182:17:57,500
+What do <font color="#ffff54">you</font> see?
+
+95
+182:18:07,500 --> 184:28:27,500
+What do you <font color="#ffff54">see</font>?
+
+96
+184:28:37,500 --> 187:20:57,500
+What do you see?
+
+97
+187:21:07,500 --> 188:21:57,500
+[e@What do you see?
+
+98
+188:22:07,500 --> 190:43:57,500
+I see a seal.
+
+99
+190:44:07,500 --> 192:26:17,500
+[s@I see a seal.
+
+100
+192:26:27,500 --> 193:31:47,500
+<font color="#ffff54">I</font> see a seal.
+
+101
+193:31:57,500 --> 194:13:27,500
+I <font color="#ffff54">see</font> a seal.
+
+102
+194:13:37,500 --> 194:50:47,500
+I see <font color="#ffff54">a</font> seal.
+
+103
+194:50:57,500 --> 197:31:47,500
+I see a <font color="#ffff54">seal</font>.
+
+104
+197:31:57,500 --> 203:59:37,500
+I see a seal.
+
+105
+203:59:47,500 --> 205:13:17,500
+[e@I see a seal.
+
+106
+205:13:27,500 --> 207:48:17,500
+What do you see?
+
+107
+207:48:27,500 --> 208:45:17,500
+<font color="#ffff54">What</font> do you see?
+
+108
+208:45:27,500 --> 209:20:17,500
+What <font color="#ffff54">do</font> you see?
+
+109
+209:20:27,500 --> 210:04:57,500
+What do <font color="#ffff54">you</font> see?
+
+110
+210:05:07,500 --> 212:02:17,500
+What do you <font color="#ffff54">see</font>?
+
+111
+212:02:27,500 --> 213:34:57,500
+What do you see?
+
+112
+213:35:07,500 --> 214:33:47,500
+[e@What do you see?
+
+113
+214:33:57,500 --> 217:18:27,500
+I see a dolphin.
+
+114
+217:18:37,500 --> 218:43:07,500
+[s@I see a dolphin.
+
+115
+218:43:17,500 --> 219:55:47,500
+<font color="#ffff54">I</font> see a dolphin.
+
+116
+219:55:57,500 --> 220:23:47,500
+I <font color="#ffff54">see</font> a dolphin.
+
+117
+220:23:57,500 --> 220:55:07,500
+I see <font color="#ffff54">a</font> dolphin.
+
+118
+220:55:17,500 --> 224:13:47,500
+I see a <font color="#ffff54">dolphin</font>.
+
+119
+224:13:57,500 --> 239:09:07,500
+I see a dolphin.
+

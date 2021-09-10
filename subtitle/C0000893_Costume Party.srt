@@ -1,0 +1,236 @@
+1
+00:00:06,750 --> 00:57:36,750
+Sally is a princess.
+
+2
+00:57:46,750 --> 03:07:46,750
+<font color="#ffff54">Sally</font> is a princess.
+
+3
+03:07:56,750 --> 03:51:36,750
+Sally <font color="#ffff54">is</font> a princess.
+
+4
+03:51:46,750 --> 04:32:06,750
+Sally is <font color="#ffff54">a</font> princess.
+
+5
+04:32:16,750 --> 07:46:06,750
+Sally is a <font color="#ffff54">princess</font>.
+
+6
+07:46:16,750 --> 23:06:16,750
+Sally is a princess.
+
+7
+23:06:26,750 --> 23:31:56,750
+[e@Sally is a princess.
+
+8
+23:32:06,750 --> 24:53:26,750
+Jack is a pirate.
+
+9
+24:53:36,750 --> 26:28:46,750
+<font color="#ffff54">Jack</font> is a pirate.
+
+10
+26:28:56,750 --> 27:09:26,750
+Jack <font color="#ffff54">is</font> a pirate.
+
+11
+27:09:36,750 --> 27:42:16,750
+Jack is <font color="#ffff54">a</font> pirate.
+
+12
+27:42:26,750 --> 31:19:16,750
+Jack is a <font color="#ffff54">pirate</font>.
+
+13
+31:19:26,750 --> 48:34:36,750
+Jack is a pirate.
+
+14
+48:34:46,750 --> 48:56:06,750
+[e@Jack is a pirate.
+
+15
+48:56:16,750 --> 50:13:46,750
+Jane is an astronaut.
+
+16
+50:13:56,750 --> 52:01:46,750
+<font color="#ffff54">Jane</font> is an astronaut.
+
+17
+52:01:56,750 --> 52:34:56,750
+Jane <font color="#ffff54">is</font> an astronaut.
+
+18
+52:35:06,750 --> 53:23:06,750
+Jane is <font color="#ffff54">an</font> astronaut.
+
+19
+53:23:16,750 --> 57:01:46,750
+Jane is an <font color="#ffff54">astronaut</font>.
+
+20
+57:01:56,750 --> 70:09:36,750
+Jane is an astronaut.
+
+21
+70:09:46,750 --> 70:36:26,750
+[e@Jane is an astronaut.
+
+22
+70:36:36,750 --> 72:04:46,750
+Tommy is a clown.
+
+23
+72:04:56,750 --> 73:51:56,750
+<font color="#ffff54">Tommy</font> is a clown.
+
+24
+73:52:06,750 --> 74:30:56,750
+Tommy <font color="#ffff54">is</font> a clown.
+
+25
+74:31:06,750 --> 75:05:56,750
+Tommy is <font color="#ffff54">a</font> clown.
+
+26
+75:06:06,750 --> 78:24:56,750
+Tommy is a <font color="#ffff54">clown</font>.
+
+27
+78:25:06,750 --> 91:04:16,750
+Tommy is a clown.
+
+28
+91:04:26,750 --> 91:29:26,750
+[e@Tommy is a clown.
+
+29
+91:29:36,750 --> 92:37:46,750
+Lisa is an angel.
+
+30
+92:37:56,750 --> 94:53:16,750
+<font color="#ffff54">Lisa</font> is an angel.
+
+31
+94:53:26,750 --> 95:43:26,750
+Lisa <font color="#ffff54">is</font> an angel.
+
+32
+95:43:36,750 --> 96:25:46,750
+Lisa is <font color="#ffff54">an</font> angel.
+
+33
+96:25:56,750 --> 99:20:26,750
+Lisa is an <font color="#ffff54">angel</font>.
+
+34
+99:20:36,750 --> 114:32:56,750
+Lisa is an angel.
+
+35
+114:33:06,750 --> 115:01:16,750
+[e@Lisa is an angel.
+
+36
+115:01:26,750 --> 116:33:16,750
+Jason is a cowboy.
+
+37
+116:33:26,750 --> 118:42:36,750
+<font color="#ffff54">Jason</font> is a cowboy.
+
+38
+118:42:46,750 --> 119:26:06,750
+Jason <font color="#ffff54">is</font> a cowboy.
+
+39
+119:26:16,750 --> 119:59:36,750
+Jason is <font color="#ffff54">a</font> cowboy.
+
+40
+119:59:46,750 --> 123:18:46,750
+Jason is a <font color="#ffff54">cowboy</font>.
+
+41
+123:18:56,750 --> 137:20:46,750
+Jason is a cowboy.
+
+42
+137:20:56,750 --> 137:49:46,750
+[e@Jason is a cowboy.
+
+43
+137:49:56,750 --> 138:24:06,750
+Julie is a wizard.
+
+44
+138:24:16,750 --> 140:17:16,750
+<font color="#ffff54">Julie</font> is a wizard.
+
+45
+140:17:26,750 --> 141:18:06,750
+Julie <font color="#ffff54">is</font> a wizard.
+
+46
+141:18:16,750 --> 141:50:56,750
+Julie is <font color="#ffff54">a</font> wizard.
+
+47
+141:51:06,750 --> 144:34:06,750
+Julie is a <font color="#ffff54">wizard</font>.
+
+48
+144:34:16,750 --> 155:53:06,750
+Julie is a wizard.
+
+49
+155:53:16,750 --> 156:20:26,750
+[e@Julie is a wizard.
+
+50
+156:20:36,750 --> 158:12:36,750
+I am a ghost.
+
+51
+158:12:46,750 --> 159:48:56,750
+<font color="#ffff54">I</font> am a ghost.
+
+52
+159:49:06,750 --> 160:43:16,750
+I <font color="#ffff54">am</font> a ghost.
+
+53
+160:43:26,750 --> 161:35:06,750
+I am <font color="#ffff54">a</font> ghost.
+
+54
+161:35:16,750 --> 164:37:46,750
+I am a <font color="#ffff54">ghost</font>.
+
+55
+164:37:56,750 --> 166:33:16,750
+I am a ghost.
+
+56
+166:33:26,750 --> 166:52:46,750
+[e@I am a ghost.
+
+57
+166:52:56,750 --> 173:20:06,750
+Boo!
+
+58
+173:20:16,750 --> 175:59:46,750
+<font color="#ffff54">Boo</font>!
+
+59
+175:59:56,750 --> 183:29:06,750
+Boo!
+

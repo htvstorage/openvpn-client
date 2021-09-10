@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>7783</EndMilliseconds>
+    <Text>See my legs?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>7784</StartMilliseconds>
+    <EndMilliseconds>8390</EndMilliseconds>
+    <Text>[@See@] my legs?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>8391</StartMilliseconds>
+    <EndMilliseconds>8811</EndMilliseconds>
+    <Text>See [@my@] legs?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>8812</StartMilliseconds>
+    <EndMilliseconds>9665</EndMilliseconds>
+    <Text>See my [@legs@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>9666</StartMilliseconds>
+    <EndMilliseconds>10413</EndMilliseconds>
+    <Text>See my legs?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>10414</StartMilliseconds>
+    <EndMilliseconds>10615</EndMilliseconds>
+    <Text>[e@See my legs?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>10616</StartMilliseconds>
+    <EndMilliseconds>10949</EndMilliseconds>
+    <Text>I can run.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>10950</StartMilliseconds>
+    <EndMilliseconds>11423</EndMilliseconds>
+    <Text>[@I@] can run.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>11424</StartMilliseconds>
+    <EndMilliseconds>11762</EndMilliseconds>
+    <Text>I [@can@] run.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>11763</StartMilliseconds>
+    <EndMilliseconds>12493</EndMilliseconds>
+    <Text>I can [@run@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>12494</StartMilliseconds>
+    <EndMilliseconds>18579</EndMilliseconds>
+    <Text>I can run.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>18580</StartMilliseconds>
+    <EndMilliseconds>18881</EndMilliseconds>
+    <Text>[e@I can run.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>18882</StartMilliseconds>
+    <EndMilliseconds>19511</EndMilliseconds>
+    <Text>See my hand?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>19512</StartMilliseconds>
+    <EndMilliseconds>20162</EndMilliseconds>
+    <Text>[@See@] my hand?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>20163</StartMilliseconds>
+    <EndMilliseconds>20442</EndMilliseconds>
+    <Text>See [@my@] hand?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>20443</StartMilliseconds>
+    <EndMilliseconds>21287</EndMilliseconds>
+    <Text>See my [@hand@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>21288</StartMilliseconds>
+    <EndMilliseconds>22301</EndMilliseconds>
+    <Text>See my hand?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>22302</StartMilliseconds>
+    <EndMilliseconds>22542</EndMilliseconds>
+    <Text>[e@See my hand?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>22543</StartMilliseconds>
+    <EndMilliseconds>23023</EndMilliseconds>
+    <Text>I can wave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>23024</StartMilliseconds>
+    <EndMilliseconds>23490</EndMilliseconds>
+    <Text>[@I@] can wave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>23491</StartMilliseconds>
+    <EndMilliseconds>23866</EndMilliseconds>
+    <Text>I [@can@] wave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>23867</StartMilliseconds>
+    <EndMilliseconds>25143</EndMilliseconds>
+    <Text>I can [@wave@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>25144</StartMilliseconds>
+    <EndMilliseconds>27823</EndMilliseconds>
+    <Text>I can wave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>27824</StartMilliseconds>
+    <EndMilliseconds>28074</EndMilliseconds>
+    <Text>[e@I can wave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>28075</StartMilliseconds>
+    <EndMilliseconds>35779</EndMilliseconds>
+    <Text>See my head?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>35780</StartMilliseconds>
+    <EndMilliseconds>36302</EndMilliseconds>
+    <Text>[s@See my head?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>36303</StartMilliseconds>
+    <EndMilliseconds>36732</EndMilliseconds>
+    <Text>[@See@] my head?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>36733</StartMilliseconds>
+    <EndMilliseconds>37135</EndMilliseconds>
+    <Text>See [@my@] head?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>37136</StartMilliseconds>
+    <EndMilliseconds>37827</EndMilliseconds>
+    <Text>See my [@head@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>37828</StartMilliseconds>
+    <EndMilliseconds>39374</EndMilliseconds>
+    <Text>See my head?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>39375</StartMilliseconds>
+    <EndMilliseconds>39628</EndMilliseconds>
+    <Text>[e@See my head?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>39629</StartMilliseconds>
+    <EndMilliseconds>40416</EndMilliseconds>
+    <Text>I can think.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>40417</StartMilliseconds>
+    <EndMilliseconds>41000</EndMilliseconds>
+    <Text>[@I@] can think.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>41001</StartMilliseconds>
+    <EndMilliseconds>41455</EndMilliseconds>
+    <Text>I [@can@] think.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>41456</StartMilliseconds>
+    <EndMilliseconds>42106</EndMilliseconds>
+    <Text>I can [@think@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>42107</StartMilliseconds>
+    <EndMilliseconds>48551</EndMilliseconds>
+    <Text>I can think.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>48552</StartMilliseconds>
+    <EndMilliseconds>48818</EndMilliseconds>
+    <Text>[e@I can think.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>48819</StartMilliseconds>
+    <EndMilliseconds>50429</EndMilliseconds>
+    <Text>See my arm?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>50430</StartMilliseconds>
+    <EndMilliseconds>50977</EndMilliseconds>
+    <Text>[s@See my arm?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>50978</StartMilliseconds>
+    <EndMilliseconds>51626</EndMilliseconds>
+    <Text>[@See@] my arm?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>51627</StartMilliseconds>
+    <EndMilliseconds>52008</EndMilliseconds>
+    <Text>See [@my@] arm?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>52009</StartMilliseconds>
+    <EndMilliseconds>53054</EndMilliseconds>
+    <Text>See my [@arm@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>53055</StartMilliseconds>
+    <EndMilliseconds>54303</EndMilliseconds>
+    <Text>See my arm?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>54304</StartMilliseconds>
+    <EndMilliseconds>54541</EndMilliseconds>
+    <Text>[e@See my arm?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>54542</StartMilliseconds>
+    <EndMilliseconds>55872</EndMilliseconds>
+    <Text>I can throw.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>55873</StartMilliseconds>
+    <EndMilliseconds>56731</EndMilliseconds>
+    <Text>[s@I can throw.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>56732</StartMilliseconds>
+    <EndMilliseconds>57133</EndMilliseconds>
+    <Text>[@I@] can throw.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>57134</StartMilliseconds>
+    <EndMilliseconds>57496</EndMilliseconds>
+    <Text>I [@can@] throw.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>57497</StartMilliseconds>
+    <EndMilliseconds>58451</EndMilliseconds>
+    <Text>I can [@throw@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>58452</StartMilliseconds>
+    <EndMilliseconds>60769</EndMilliseconds>
+    <Text>I can throw.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>60770</StartMilliseconds>
+    <EndMilliseconds>61030</EndMilliseconds>
+    <Text>[e@I can throw.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>61031</StartMilliseconds>
+    <EndMilliseconds>62666</EndMilliseconds>
+    <Text>See my feet?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>62667</StartMilliseconds>
+    <EndMilliseconds>63453</EndMilliseconds>
+    <Text>[s@See my feet?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>63454</StartMilliseconds>
+    <EndMilliseconds>64014</EndMilliseconds>
+    <Text>[@See@] my feet?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>64015</StartMilliseconds>
+    <EndMilliseconds>64437</EndMilliseconds>
+    <Text>See [@my@] feet?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>64438</StartMilliseconds>
+    <EndMilliseconds>65140</EndMilliseconds>
+    <Text>See my [@feet@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>65141</StartMilliseconds>
+    <EndMilliseconds>66776</EndMilliseconds>
+    <Text>See my feet?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>66777</StartMilliseconds>
+    <EndMilliseconds>67020</EndMilliseconds>
+    <Text>[e@See my feet?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>67021</StartMilliseconds>
+    <EndMilliseconds>67608</EndMilliseconds>
+    <Text>I can kick.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>67609</StartMilliseconds>
+    <EndMilliseconds>68058</EndMilliseconds>
+    <Text>[@I@] can kick.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>68059</StartMilliseconds>
+    <EndMilliseconds>68464</EndMilliseconds>
+    <Text>I [@can@] kick.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>68465</StartMilliseconds>
+    <EndMilliseconds>69156</EndMilliseconds>
+    <Text>I can [@kick@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>69157</StartMilliseconds>
+    <EndMilliseconds>71395</EndMilliseconds>
+    <Text>I can kick.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>71396</StartMilliseconds>
+    <EndMilliseconds>71674</EndMilliseconds>
+    <Text>[e@I can kick.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>71675</StartMilliseconds>
+    <EndMilliseconds>76088</EndMilliseconds>
+    <Text>See my neck?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>76089</StartMilliseconds>
+    <EndMilliseconds>76557</EndMilliseconds>
+    <Text>[s@See my neck?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>76558</StartMilliseconds>
+    <EndMilliseconds>77187</EndMilliseconds>
+    <Text>[@See@] my neck?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>77188</StartMilliseconds>
+    <EndMilliseconds>77528</EndMilliseconds>
+    <Text>See [@my@] neck?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>77529</StartMilliseconds>
+    <EndMilliseconds>78233</EndMilliseconds>
+    <Text>See my [@neck@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>78234</StartMilliseconds>
+    <EndMilliseconds>79820</EndMilliseconds>
+    <Text>See my neck?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>79821</StartMilliseconds>
+    <EndMilliseconds>80086</EndMilliseconds>
+    <Text>[e@See my neck?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>80087</StartMilliseconds>
+    <EndMilliseconds>82347</EndMilliseconds>
+    <Text>I can look up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>82348</StartMilliseconds>
+    <EndMilliseconds>82843</EndMilliseconds>
+    <Text>[s@I can look up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>82844</StartMilliseconds>
+    <EndMilliseconds>83305</EndMilliseconds>
+    <Text>[@I@] can look up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>83306</StartMilliseconds>
+    <EndMilliseconds>83646</EndMilliseconds>
+    <Text>I [@can@] look up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>83647</StartMilliseconds>
+    <EndMilliseconds>83978</EndMilliseconds>
+    <Text>I can [@look@] up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>83979</StartMilliseconds>
+    <EndMilliseconds>84540</EndMilliseconds>
+    <Text>I can look [@up@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>84541</StartMilliseconds>
+    <EndMilliseconds>87300</EndMilliseconds>
+    <Text>I can look up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>87301</StartMilliseconds>
+    <EndMilliseconds>87604</EndMilliseconds>
+    <Text>[e@I can look up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>87605</StartMilliseconds>
+    <EndMilliseconds>91488</EndMilliseconds>
+    <Text>See my shoulder?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>91489</StartMilliseconds>
+    <EndMilliseconds>91947</EndMilliseconds>
+    <Text>[s@See my shoulder?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>91948</StartMilliseconds>
+    <EndMilliseconds>92505</EndMilliseconds>
+    <Text>[@See@] my shoulder?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>92506</StartMilliseconds>
+    <EndMilliseconds>92792</EndMilliseconds>
+    <Text>See [@my@] shoulder?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>92793</StartMilliseconds>
+    <EndMilliseconds>93727</EndMilliseconds>
+    <Text>See my [@shoulder@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>93728</StartMilliseconds>
+    <EndMilliseconds>95369</EndMilliseconds>
+    <Text>See my shoulder?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>95370</StartMilliseconds>
+    <EndMilliseconds>95611</EndMilliseconds>
+    <Text>[e@See my shoulder?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>95612</StartMilliseconds>
+    <EndMilliseconds>96625</EndMilliseconds>
+    <Text>I can carry my bag.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>96626</StartMilliseconds>
+    <EndMilliseconds>97050</EndMilliseconds>
+    <Text>[s@I can carry my bag.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>97051</StartMilliseconds>
+    <EndMilliseconds>97446</EndMilliseconds>
+    <Text>[@I@] can carry my bag.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>97447</StartMilliseconds>
+    <EndMilliseconds>97766</EndMilliseconds>
+    <Text>I [@can@] carry my bag.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>91</Number>
+    <StartMilliseconds>97767</StartMilliseconds>
+    <EndMilliseconds>98241</EndMilliseconds>
+    <Text>I can [@carry@] my bag.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>92</Number>
+    <StartMilliseconds>98242</StartMilliseconds>
+    <EndMilliseconds>98646</EndMilliseconds>
+    <Text>I can carry [@my@] bag.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>93</Number>
+    <StartMilliseconds>98647</StartMilliseconds>
+    <EndMilliseconds>99334</EndMilliseconds>
+    <Text>I can carry my [@bag@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>94</Number>
+    <StartMilliseconds>99335</StartMilliseconds>
+    <EndMilliseconds>101303</EndMilliseconds>
+    <Text>I can carry my bag.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>95</Number>
+    <StartMilliseconds>101304</StartMilliseconds>
+    <EndMilliseconds>101545</EndMilliseconds>
+    <Text>[e@I can carry my bag.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>96</Number>
+    <StartMilliseconds>101546</StartMilliseconds>
+    <EndMilliseconds>103356</EndMilliseconds>
+    <Text>This is my body.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>97</Number>
+    <StartMilliseconds>103357</StartMilliseconds>
+    <EndMilliseconds>103785</EndMilliseconds>
+    <Text>[s@This is my body.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>98</Number>
+    <StartMilliseconds>103786</StartMilliseconds>
+    <EndMilliseconds>104570</EndMilliseconds>
+    <Text>[@This@] is my body.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>99</Number>
+    <StartMilliseconds>104571</StartMilliseconds>
+    <EndMilliseconds>104955</EndMilliseconds>
+    <Text>This [@is@] my body.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>100</Number>
+    <StartMilliseconds>104956</StartMilliseconds>
+    <EndMilliseconds>105640</EndMilliseconds>
+    <Text>This is [@my@] body.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>101</Number>
+    <StartMilliseconds>105641</StartMilliseconds>
+    <EndMilliseconds>106427</EndMilliseconds>
+    <Text>This is my [@body@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>102</Number>
+    <StartMilliseconds>106428</StartMilliseconds>
+    <EndMilliseconds>107679</EndMilliseconds>
+    <Text>This is my body.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>103</Number>
+    <StartMilliseconds>107680</StartMilliseconds>
+    <EndMilliseconds>107959</EndMilliseconds>
+    <Text>I can do many things!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>104</Number>
+    <StartMilliseconds>107960</StartMilliseconds>
+    <EndMilliseconds>108300</EndMilliseconds>
+    <Text>[@I@] can do many things!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>105</Number>
+    <StartMilliseconds>108301</StartMilliseconds>
+    <EndMilliseconds>108524</EndMilliseconds>
+    <Text>I [@can@] do many things!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>106</Number>
+    <StartMilliseconds>108525</StartMilliseconds>
+    <EndMilliseconds>108845</EndMilliseconds>
+    <Text>I can [@do@] many things!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>107</Number>
+    <StartMilliseconds>108846</StartMilliseconds>
+    <EndMilliseconds>109491</EndMilliseconds>
+    <Text>I can do [@many@] things!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>108</Number>
+    <StartMilliseconds>109492</StartMilliseconds>
+    <EndMilliseconds>110420</EndMilliseconds>
+    <Text>I can do many [@things@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>109</Number>
+    <StartMilliseconds>110427</StartMilliseconds>
+    <EndMilliseconds>118397</EndMilliseconds>
+    <Text>I can do many things!</Text>
+  </Paragraph>
+</Subtitle>

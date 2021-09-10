@@ -1,0 +1,608 @@
+1
+00:00:06,750 --> 04:15:16,750
+"Surprise!"
+
+2
+04:15:26,750 --> 08:08:26,750
+"<font color="#ffff54">Surprise</font>!"
+
+3
+08:08:36,750 --> 14:10:26,750
+"Surprise!"
+
+4
+14:10:36,750 --> 14:49:36,750
+[e@"Surprise!"
+
+5
+14:49:46,750 --> 18:09:16,750
+"Are they pencils?" said the teacher.
+
+6
+18:09:26,750 --> 20:53:56,750
+[s@"Are they pencils?" said the teacher.
+
+7
+20:54:06,750 --> 22:00:26,750
+"<font color="#ffff54">Are</font> they pencils?" said the teacher.
+
+8
+22:00:36,750 --> 22:39:26,750
+"Are <font color="#ffff54">they</font> pencils?" said the teacher.
+
+9
+22:39:36,750 --> 25:01:26,750
+"Are they <font color="#ffff54">pencils</font>?" said the teacher.
+
+10
+25:01:36,750 --> 25:50:26,750
+"Are they pencils?" said the teacher.
+
+11
+25:50:36,750 --> 26:41:16,750
+"Are they pencils?" <font color="#ffff54">said</font> the teacher.
+
+12
+26:41:26,750 --> 27:10:16,750
+"Are they pencils?" said <font color="#ffff54">the</font> teacher.
+
+13
+27:10:26,750 --> 28:45:06,750
+"Are they pencils?" said the <font color="#ffff54">teacher</font>.
+
+14
+28:45:16,750 --> 29:16:16,750
+"Are they pencils?" said the teacher.
+
+15
+29:16:26,750 --> 29:31:26,750
+"No," said the children.
+
+16
+29:31:36,750 --> 31:49:26,750
+"<font color="#ffff54">No</font>," said the children.
+
+17
+31:49:36,750 --> 33:58:26,750
+"No," said the children.
+
+18
+33:58:36,750 --> 34:40:36,750
+"No," <font color="#ffff54">said</font> the children.
+
+19
+34:40:46,750 --> 35:09:26,750
+"No," said <font color="#ffff54">the</font> children.
+
+20
+35:09:36,750 --> 37:08:16,750
+"No," said the <font color="#ffff54">children</font>.
+
+21
+37:08:26,750 --> 38:19:16,750
+"No," said the children.
+
+22
+38:19:26,750 --> 38:53:46,750
+[e@"No," said the children.
+
+23
+38:53:56,750 --> 41:08:26,750
+"Are they erasers?" said the teacher.
+
+24
+41:08:36,750 --> 42:11:56,750
+"<font color="#ffff54">Are</font> they erasers?" said the teacher.
+
+25
+42:12:06,750 --> 42:35:56,750
+"Are <font color="#ffff54">they</font> erasers?" said the teacher.
+
+26
+42:36:06,750 --> 46:01:16,750
+"Are they <font color="#ffff54">erasers</font>?" said the teacher.
+
+27
+46:01:26,750 --> 46:57:56,750
+"Are they erasers?" <font color="#ffff54">said</font> the teacher.
+
+28
+46:58:06,750 --> 47:27:46,750
+"Are they erasers?" said <font color="#ffff54">the</font> teacher.
+
+29
+47:27:56,750 --> 49:04:16,750
+"Are they erasers?" said the <font color="#ffff54">teacher</font>.
+
+30
+49:04:26,750 --> 49:42:26,750
+"Are they erasers?" said the teacher.
+
+31
+49:42:36,750 --> 50:02:16,750
+[e@"Are they erasers?" said the teacher.
+
+32
+50:02:26,750 --> 50:21:56,750
+"No," said the children.
+
+33
+50:22:06,750 --> 52:26:06,750
+"<font color="#ffff54">No</font>," said the children.
+
+34
+52:26:16,750 --> 55:09:16,750
+"No," said the children.
+
+35
+55:09:26,750 --> 55:56:06,750
+"No," <font color="#ffff54">said</font> the children.
+
+36
+55:56:16,750 --> 56:30:36,750
+"No," said <font color="#ffff54">the</font> children.
+
+37
+56:30:46,750 --> 58:33:56,750
+"No," said the <font color="#ffff54">children</font>.
+
+38
+58:34:06,750 --> 59:49:16,750
+"No," said the children.
+
+39
+59:49:26,750 --> 60:13:36,750
+[e@"No," said the children.
+
+40
+60:13:46,750 --> 65:22:16,750
+"Are they rulers?" said the teacher.
+
+41
+65:22:26,750 --> 66:44:26,750
+[s@"Are they rulers?" said the teacher.
+
+42
+66:44:36,750 --> 67:48:16,750
+"<font color="#ffff54">Are</font> they rulers?" said the teacher.
+
+43
+67:48:26,750 --> 68:29:36,750
+"Are <font color="#ffff54">they</font> rulers?" said the teacher.
+
+44
+68:29:46,750 --> 71:06:26,750
+"Are they <font color="#ffff54">rulers</font>?" said the teacher.
+
+45
+71:06:36,750 --> 72:01:46,750
+"Are they rulers?" said the teacher.
+
+46
+72:01:56,750 --> 72:57:06,750
+"Are they rulers?" <font color="#ffff54">said</font> the teacher.
+
+47
+72:57:16,750 --> 73:26:56,750
+"Are they rulers?" said <font color="#ffff54">the</font> teacher.
+
+48
+73:27:06,750 --> 75:09:16,750
+"Are they rulers?" said the <font color="#ffff54">teacher</font>.
+
+49
+75:09:26,750 --> 75:23:16,750
+"Are they rulers?" said the teacher.
+
+50
+75:23:26,750 --> 75:36:46,750
+[e@"Are they rulers?" said the teacher.
+
+51
+75:36:56,750 --> 76:23:46,750
+"No," said the children.
+
+52
+76:23:56,750 --> 78:51:56,750
+"<font color="#ffff54">No</font>," said the children.
+
+53
+78:52:06,750 --> 80:55:06,750
+"No," said the children.
+
+54
+80:55:16,750 --> 81:43:56,750
+"No," <font color="#ffff54">said</font> the children.
+
+55
+81:44:06,750 --> 82:22:26,750
+"No," said <font color="#ffff54">the</font> children.
+
+56
+82:22:36,750 --> 84:17:06,750
+"No," said the <font color="#ffff54">children</font>.
+
+57
+84:17:16,750 --> 85:37:46,750
+"No," said the children.
+
+58
+85:37:56,750 --> 86:07:46,750
+[e@"No," said the children.
+
+59
+86:07:56,750 --> 88:27:36,750
+"Are they scissors?" said the teacher.
+
+60
+88:27:46,750 --> 89:32:56,750
+"<font color="#ffff54">Are</font> they scissors?" said the teacher.
+
+61
+89:33:06,750 --> 90:19:26,750
+"Are <font color="#ffff54">they</font> scissors?" said the teacher.
+
+62
+90:19:36,750 --> 93:17:36,750
+"Are they <font color="#ffff54">scissors</font>?" said the teacher.
+
+63
+93:17:46,750 --> 94:18:26,750
+"Are they scissors?" <font color="#ffff54">said</font> the teacher.
+
+64
+94:18:36,750 --> 94:47:26,750
+"Are they scissors?" said <font color="#ffff54">the</font> teacher.
+
+65
+94:47:36,750 --> 96:30:46,750
+"Are they scissors?" said the <font color="#ffff54">teacher</font>.
+
+66
+96:30:56,750 --> 97:03:16,750
+"Are they scissors?" said the teacher.
+
+67
+97:03:26,750 --> 97:25:26,750
+[e@"Are they scissors?" said the teacher.
+
+68
+97:25:36,750 --> 97:38:36,750
+"No," said the children.
+
+69
+97:38:46,750 --> 99:40:56,750
+"<font color="#ffff54">No</font>," said the children.
+
+70
+99:41:06,750 --> 101:55:36,750
+"No," said the children.
+
+71
+101:55:46,750 --> 102:45:26,750
+"No," <font color="#ffff54">said</font> the children.
+
+72
+102:45:36,750 --> 103:11:46,750
+"No," said <font color="#ffff54">the</font> children.
+
+73
+103:11:56,750 --> 105:01:36,750
+"No," said the <font color="#ffff54">children</font>.
+
+74
+105:01:46,750 --> 106:32:16,750
+"No," said the children.
+
+75
+106:32:26,750 --> 107:03:26,750
+[e@"No," said the children.
+
+76
+107:03:36,750 --> 108:58:26,750
+"Are they colored markers?" said the teacher.
+
+77
+108:58:36,750 --> 109:51:16,750
+"<font color="#ffff54">Are</font> they colored markers?" said the teacher.
+
+78
+109:51:26,750 --> 110:34:46,750
+"Are <font color="#ffff54">they</font> colored markers?" said the teacher.
+
+79
+110:34:56,750 --> 111:50:46,750
+"Are they <font color="#ffff54">colored</font> markers?" said the teacher.
+
+80
+111:50:56,750 --> 115:00:26,750
+"Are they colored <font color="#ffff54">markers</font>?" said the teacher.
+
+81
+115:00:36,750 --> 115:49:16,750
+"Are they colored markers?" <font color="#ffff54">said</font> the teacher.
+
+82
+115:49:26,750 --> 116:15:56,750
+"Are they colored markers?" said <font color="#ffff54">the</font> teacher.
+
+83
+116:16:06,750 --> 118:13:06,750
+"Are they colored markers?" said the <font color="#ffff54">teacher</font>.
+
+84
+118:13:16,750 --> 119:55:56,750
+"Are they colored markers?" said the teacher.
+
+85
+119:56:06,750 --> 120:22:26,750
+[e@"Are they colored markers?" said the teacher.
+
+86
+120:22:36,750 --> 120:41:46,750
+"No," said the children.
+
+87
+120:41:56,750 --> 122:40:26,750
+"<font color="#ffff54">No</font>," said the children.
+
+88
+122:40:36,750 --> 125:13:46,750
+"No," said the children.
+
+89
+125:13:56,750 --> 125:59:56,750
+"No," <font color="#ffff54">said</font> the children.
+
+90
+126:00:06,750 --> 126:30:06,750
+"No," said <font color="#ffff54">the</font> children.
+
+91
+126:30:16,750 --> 128:27:06,750
+"No," said the <font color="#ffff54">children</font>.
+
+92
+128:27:16,750 --> 130:06:46,750
+"No," said the children.
+
+93
+130:06:56,750 --> 130:33:46,750
+[e@"No," said the children.
+
+94
+130:33:56,750 --> 134:05:46,750
+"Are they notebooks?" said the teacher.
+
+95
+134:05:56,750 --> 135:05:46,750
+"<font color="#ffff54">Are</font> they notebooks?" said the teacher.
+
+96
+135:05:56,750 --> 135:41:06,750
+"Are <font color="#ffff54">they</font> notebooks?" said the teacher.
+
+97
+135:41:16,750 --> 138:14:06,750
+"Are they <font color="#ffff54">notebooks</font>?" said the teacher.
+
+98
+138:14:16,750 --> 139:00:56,750
+"Are they notebooks?" said the teacher.
+
+99
+139:01:06,750 --> 139:45:16,750
+"Are they notebooks?" <font color="#ffff54">said</font> the teacher.
+
+100
+139:45:26,750 --> 140:14:46,750
+"Are they notebooks?" said <font color="#ffff54">the</font> teacher.
+
+101
+140:14:56,750 --> 141:55:06,750
+"Are they notebooks?" said the <font color="#ffff54">teacher</font>.
+
+102
+141:55:16,750 --> 142:41:16,750
+"Are they notebooks?" said the teacher.
+
+103
+142:41:26,750 --> 143:01:26,750
+[e@"Are they notebooks?" said the teacher.
+
+104
+143:01:36,750 --> 143:20:26,750
+"No," said the children.
+
+105
+143:20:36,750 --> 145:26:16,750
+"<font color="#ffff54">No</font>," said the children.
+
+106
+145:26:26,750 --> 148:04:56,750
+"No," said the children.
+
+107
+148:05:06,750 --> 148:48:36,750
+"No," <font color="#ffff54">said</font> the children.
+
+108
+148:48:46,750 --> 149:21:46,750
+"No," said <font color="#ffff54">the</font> children.
+
+109
+149:21:56,750 --> 151:25:46,750
+"No," said the <font color="#ffff54">children</font>.
+
+110
+151:25:56,750 --> 153:21:16,750
+"No," said the children.
+
+111
+153:21:26,750 --> 153:45:06,750
+[e@"No," said the children.
+
+112
+153:45:16,750 --> 158:15:36,750
+"Are they pencil cases?" said the teacher.
+
+113
+158:15:46,750 --> 159:54:56,750
+[s@"Are they pencil cases?" said the teacher.
+
+114
+159:55:06,750 --> 160:37:16,750
+"<font color="#ffff54">Are</font> they pencil cases?" said the teacher.
+
+115
+160:37:26,750 --> 161:12:36,750
+"Are <font color="#ffff54">they</font> pencil cases?" said the teacher.
+
+116
+161:12:46,750 --> 162:19:56,750
+"Are they <font color="#ffff54">pencil</font> cases?" said the teacher.
+
+117
+162:20:06,750 --> 164:29:26,750
+"Are they pencil <font color="#ffff54">cases</font>?" said the teacher.
+
+118
+164:29:36,750 --> 165:06:36,750
+"Are they pencil cases?" said the teacher.
+
+119
+165:06:46,750 --> 165:53:06,750
+"Are they pencil cases?" <font color="#ffff54">said</font> the teacher.
+
+120
+165:53:16,750 --> 166:18:06,750
+"Are they pencil cases?" said <font color="#ffff54">the</font> teacher.
+
+121
+166:18:16,750 --> 168:06:06,750
+"Are they pencil cases?" said the <font color="#ffff54">teacher</font>.
+
+122
+168:06:16,750 --> 168:33:46,750
+"Are they pencil cases?" said the teacher.
+
+123
+168:33:56,750 --> 168:53:56,750
+[e@"Are they pencil cases?" said the teacher.
+
+124
+168:54:06,750 --> 169:47:06,750
+"No," said the children.
+
+125
+169:47:16,750 --> 172:03:36,750
+"<font color="#ffff54">No</font>," said the children.
+
+126
+172:03:46,750 --> 174:25:56,750
+"No," said the children.
+
+127
+174:26:06,750 --> 175:07:06,750
+"No," <font color="#ffff54">said</font> the children.
+
+128
+175:07:16,750 --> 175:38:56,750
+"No," said <font color="#ffff54">the</font> children.
+
+129
+175:39:06,750 --> 177:26:56,750
+"No," said the <font color="#ffff54">children</font>.
+
+130
+177:27:06,750 --> 178:50:06,750
+"No," said the children.
+
+131
+178:50:16,750 --> 179:17:06,750
+[e@"No," said the children.
+
+132
+179:17:16,750 --> 181:01:06,750
+"Are they rubber stamps?" said the teacher.
+
+133
+181:01:16,750 --> 181:49:46,750
+"<font color="#ffff54">Are</font> they rubber stamps?" said the teacher.
+
+134
+181:49:56,750 --> 182:24:56,750
+"Are <font color="#ffff54">they</font> rubber stamps?" said the teacher.
+
+135
+182:25:06,750 --> 183:11:36,750
+"Are they <font color="#ffff54">rubber</font> stamps?" said the teacher.
+
+136
+183:11:46,750 --> 185:23:16,750
+"Are they rubber <font color="#ffff54">stamps</font>?" said the teacher.
+
+137
+185:23:26,750 --> 186:33:36,750
+"Are they rubber stamps?" said the teacher.
+
+138
+186:33:46,750 --> 187:27:56,750
+"Are they rubber stamps?" <font color="#ffff54">said</font> the teacher.
+
+139
+187:28:06,750 --> 187:56:46,750
+"Are they rubber stamps?" said <font color="#ffff54">the</font> teacher.
+
+140
+187:56:56,750 --> 189:44:36,750
+"Are they rubber stamps?" said the <font color="#ffff54">teacher</font>.
+
+141
+189:44:46,750 --> 191:43:26,750
+"Are they rubber stamps?" said the teacher.
+
+142
+191:43:36,750 --> 192:13:56,750
+[e@"Are they rubber stamps?" said the teacher.
+
+143
+192:14:06,750 --> 192:53:16,750
+"Yes, they are.
+
+144
+192:53:26,750 --> 193:58:56,750
+"<font color="#ffff54">Yes</font>, they are.
+
+145
+193:59:06,750 --> 194:32:46,750
+"Yes, <font color="#ffff54">they</font> are.
+
+146
+194:32:56,750 --> 195:57:56,750
+"Yes, they <font color="#ffff54">are</font>.
+
+147
+195:58:06,750 --> 196:10:06,750
+"Yes, they are.
+
+148
+196:10:16,750 --> 196:27:56,750
+Happy birthday, Teacher!"
+
+149
+196:28:06,750 --> 198:01:16,750
+<font color="#ffff54">Happy</font> birthday, Teacher!"
+
+150
+198:01:26,750 --> 199:34:16,750
+Happy <font color="#ffff54">birthday</font>, Teacher!"
+
+151
+199:34:26,750 --> 201:55:46,750
+Happy birthday, <font color="#ffff54">Teacher</font>!"
+
+152
+201:55:56,750 --> 219:24:06,750
+Happy birthday, Teacher!"
+

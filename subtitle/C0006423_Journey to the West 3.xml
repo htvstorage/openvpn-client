@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>7477</EndMilliseconds>
+    <Text>Monkey sailed over the ocean for a long time.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>7478</StartMilliseconds>
+    <EndMilliseconds>11590</EndMilliseconds>
+    <Text>Finally he arrived at a new land.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>11591</StartMilliseconds>
+    <EndMilliseconds>16090</EndMilliseconds>
+    <Text>He walked for many years, visiting towns and meeting people.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>16091</StartMilliseconds>
+    <EndMilliseconds>19506</EndMilliseconds>
+    <Text>But he didn't find a sage anywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>19507</StartMilliseconds>
+    <EndMilliseconds>24947</EndMilliseconds>
+    <Text>Eventually he came to mountains covered in thick forest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>24948</StartMilliseconds>
+    <EndMilliseconds>29956</EndMilliseconds>
+    <Text>He headed up a steep mountain trail and soon heard chopping.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>29957</StartMilliseconds>
+    <EndMilliseconds>33648</EndMilliseconds>
+    <Text>A woodcutter was chopping firewood.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>33649</StartMilliseconds>
+    <EndMilliseconds>37917</EndMilliseconds>
+    <Text>"Hello," said Monkey. "Are there any sages in these mountains?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>37918</StartMilliseconds>
+    <EndMilliseconds>41384</EndMilliseconds>
+    <Text>The woodcutter dropped his ax.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>41385</StartMilliseconds>
+    <EndMilliseconds>45394</EndMilliseconds>
+    <Text>[g@"You're . . . a monkey!" he said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>45395</StartMilliseconds>
+    <EndMilliseconds>47284</EndMilliseconds>
+    <Text>"And you're talking!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>47285</StartMilliseconds>
+    <EndMilliseconds>49968</EndMilliseconds>
+    <Text>"Yes, I am," said Monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>49969</StartMilliseconds>
+    <EndMilliseconds>51768</EndMilliseconds>
+    <Text>[g@"And I want to live forever.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>51769</StartMilliseconds>
+    <EndMilliseconds>54206</EndMilliseconds>
+    <Text>Do you know where I can find a sage?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>54207</StartMilliseconds>
+    <EndMilliseconds>56413</EndMilliseconds>
+    <Text>[g@The woodcutter scratched his head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>56414</StartMilliseconds>
+    <EndMilliseconds>59055</EndMilliseconds>
+    <Text>"Well, yes," he said.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>59056</StartMilliseconds>
+    <EndMilliseconds>62230</EndMilliseconds>
+    <Text>[g@"A sage named Subodhi lives on this mountain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>62231</StartMilliseconds>
+    <EndMilliseconds>64543</EndMilliseconds>
+    <Text>He is very wise."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>64544</StartMilliseconds>
+    <EndMilliseconds>66366</EndMilliseconds>
+    <Text>[g@Monkey was excited.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>66367</StartMilliseconds>
+    <EndMilliseconds>68208</EndMilliseconds>
+    <Text>"Where can I find him?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>68209</StartMilliseconds>
+    <EndMilliseconds>73118</EndMilliseconds>
+    <Text>"Just follow this trail, and you will come [n@to his home," said the woodcutter.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>73119</StartMilliseconds>
+    <EndMilliseconds>78254</EndMilliseconds>
+    <Text>"Thank you!" said Monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>78255</StartMilliseconds>
+    <EndMilliseconds>82102</EndMilliseconds>
+    <Text>He waved good-bye to the woodcutter and ran up the trail.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>82103</StartMilliseconds>
+    <EndMilliseconds>87013</EndMilliseconds>
+    <Text>Soon he saw a temple built into the side of the mountain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>87014</StartMilliseconds>
+    <EndMilliseconds>91517</EndMilliseconds>
+    <Text>Subodhi was sitting with his students in the main room of his temple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>91518</StartMilliseconds>
+    <EndMilliseconds>94670</EndMilliseconds>
+    <Text>He looked at his oldest student.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>94671</StartMilliseconds>
+    <EndMilliseconds>97675</EndMilliseconds>
+    <Text>"Please go to the door," said Subodhi.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>97676</StartMilliseconds>
+    <EndMilliseconds>100015</EndMilliseconds>
+    <Text>[g@"A new student is about to arrive.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>100016</StartMilliseconds>
+    <EndMilliseconds>101380</EndMilliseconds>
+    <Text>Let him in."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>101381</StartMilliseconds>
+    <EndMilliseconds>103768</EndMilliseconds>
+    <Text>[g@The student looked confused.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>103769</StartMilliseconds>
+    <EndMilliseconds>106848</EndMilliseconds>
+    <Text>"Okay, Master," he said.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>106849</StartMilliseconds>
+    <EndMilliseconds>113733</EndMilliseconds>
+    <Text>[g@The student got up and went to the door of the temple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>113734</StartMilliseconds>
+    <EndMilliseconds>116243</EndMilliseconds>
+    <Text>He looked outside.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>116244</StartMilliseconds>
+    <EndMilliseconds>122018</EndMilliseconds>
+    <Text>"Hello!" called Monkey. "I'm here to see Subodhi!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>122019</StartMilliseconds>
+    <EndMilliseconds>126326</EndMilliseconds>
+    <Text>A moment later Monkey was standing in front of the sage.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>126327</StartMilliseconds>
+    <EndMilliseconds>129411</EndMilliseconds>
+    <Text>"I want to be your student," said Monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>129412</StartMilliseconds>
+    <EndMilliseconds>132271</EndMilliseconds>
+    <Text>[g@"But you're just a monkey," said Subodhi.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>132272</StartMilliseconds>
+    <EndMilliseconds>134789</EndMilliseconds>
+    <Text>"How can you be my student?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>134790</StartMilliseconds>
+    <EndMilliseconds>139044</EndMilliseconds>
+    <Text>Monkey laughed. "I might be a monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>139045</StartMilliseconds>
+    <EndMilliseconds>143275</EndMilliseconds>
+    <Text>But I can walk and talk and do many other things.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>143276</StartMilliseconds>
+    <EndMilliseconds>146733</EndMilliseconds>
+    <Text>[g@I traveled almost 13 years to get here.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>146734</StartMilliseconds>
+    <EndMilliseconds>149247</EndMilliseconds>
+    <Text>I'm sure I can be your student."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>149248</StartMilliseconds>
+    <EndMilliseconds>152494</EndMilliseconds>
+    <Text>[g@Subodhi stared at Monkey for a moment.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>152495</StartMilliseconds>
+    <EndMilliseconds>156288</EndMilliseconds>
+    <Text>"Who are your parents?" he asked.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>156289</StartMilliseconds>
+    <EndMilliseconds>158626</EndMilliseconds>
+    <Text>Monkey scratched his head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>158627</StartMilliseconds>
+    <EndMilliseconds>161236</EndMilliseconds>
+    <Text>[g@"I don't have parents," he said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>161237</StartMilliseconds>
+    <EndMilliseconds>163479</EndMilliseconds>
+    <Text>"I was born from a rock."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>163480</StartMilliseconds>
+    <EndMilliseconds>165933</EndMilliseconds>
+    <Text>"Interesting," said Subodhi.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>165934</StartMilliseconds>
+    <EndMilliseconds>169292</EndMilliseconds>
+    <Text>[g@"You were probably created by Heaven and Earth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>169293</StartMilliseconds>
+    <EndMilliseconds>171146</EndMilliseconds>
+    <Text>You may be my student.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>171147</StartMilliseconds>
+    <EndMilliseconds>172864</EndMilliseconds>
+    <Text>[g@You need a name."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>172865</StartMilliseconds>
+    <EndMilliseconds>175041</EndMilliseconds>
+    <Text>He thought for a moment.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>175042</StartMilliseconds>
+    <EndMilliseconds>181956</EndMilliseconds>
+    <Text>"I will call you Sun Wukong."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>181957</StartMilliseconds>
+    <EndMilliseconds>187145</EndMilliseconds>
+    <Text>For the next seven years, Sun Wukong lived in Subodhi's temple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>187146</StartMilliseconds>
+    <EndMilliseconds>194549</EndMilliseconds>
+    <Text>The monkey spent his days meditating, listening to [n@his teacher's lessons, and doing chores.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>194550</StartMilliseconds>
+    <EndMilliseconds>202127</EndMilliseconds>
+    <Text>One day, while Subodhi was giving a lesson, Wukong started to dance.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>202128</StartMilliseconds>
+    <EndMilliseconds>203740</EndMilliseconds>
+    <Text>[g@Subodhi stood up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>203741</StartMilliseconds>
+    <EndMilliseconds>209992</EndMilliseconds>
+    <Text>"How dare you dance while I'm teaching?" he shouted.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>209993</StartMilliseconds>
+    <EndMilliseconds>212189</EndMilliseconds>
+    <Text>[g@"I'm sorry," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>212190</StartMilliseconds>
+    <EndMilliseconds>215264</EndMilliseconds>
+    <Text>"But I was so happy, I needed to dance!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>215265</StartMilliseconds>
+    <EndMilliseconds>219417</EndMilliseconds>
+    <Text>Subodhi calmed down. "You're happy?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>219418</StartMilliseconds>
+    <EndMilliseconds>223636</EndMilliseconds>
+    <Text>"Yes," said the monkey. "I love learning from you."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>223637</StartMilliseconds>
+    <EndMilliseconds>227049</EndMilliseconds>
+    <Text>"Wukong, you have been here a long time.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>227050</StartMilliseconds>
+    <EndMilliseconds>230797</EndMilliseconds>
+    <Text>What would you like to learn from me?" asked Subodhi.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>230798</StartMilliseconds>
+    <EndMilliseconds>234186</EndMilliseconds>
+    <Text>[g@Wukong shrugged. "I don't know.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>234187</StartMilliseconds>
+    <EndMilliseconds>236265</EndMilliseconds>
+    <Text>You tell me what I should learn."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>236266</StartMilliseconds>
+    <EndMilliseconds>240855</EndMilliseconds>
+    <Text>"Well," said Subodhi, "I can teach you how to tell the future.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>240856</StartMilliseconds>
+    <EndMilliseconds>242589</EndMilliseconds>
+    <Text>Would you like that?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>242590</StartMilliseconds>
+    <EndMilliseconds>246932</EndMilliseconds>
+    <Text>"Maybe," said Wukong. "Will it make me live forever?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>246933</StartMilliseconds>
+    <EndMilliseconds>249622</EndMilliseconds>
+    <Text>"Of course not," said Subodhi.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>249623</StartMilliseconds>
+    <EndMilliseconds>252314</EndMilliseconds>
+    <Text>[g@"Then forget it," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>252315</StartMilliseconds>
+    <EndMilliseconds>254265</EndMilliseconds>
+    <Text>"Teach me something else."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>254266</StartMilliseconds>
+    <EndMilliseconds>260525</EndMilliseconds>
+    <Text>"Hmm," said Subodhi. "How about some magic breathing exercises?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>260526</StartMilliseconds>
+    <EndMilliseconds>265148</EndMilliseconds>
+    <Text>"Will they make me live forever?" asked Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>265149</StartMilliseconds>
+    <EndMilliseconds>269150</EndMilliseconds>
+    <Text>"No," said Subodhi, frowning.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>269151</StartMilliseconds>
+    <EndMilliseconds>272129</EndMilliseconds>
+    <Text>"Then I'm not interested," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>272130</StartMilliseconds>
+    <EndMilliseconds>275125</EndMilliseconds>
+    <Text>Subodhi became angry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>275126</StartMilliseconds>
+    <EndMilliseconds>281709</EndMilliseconds>
+    <Text>He stood up and knocked Wukong on the head three times.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>281710</StartMilliseconds>
+    <EndMilliseconds>287451</EndMilliseconds>
+    <Text>Then he left the room.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>287452</StartMilliseconds>
+    <EndMilliseconds>292590</EndMilliseconds>
+    <Text>"Wukong," said another student. "You were very rude to Master!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>292591</StartMilliseconds>
+    <EndMilliseconds>295231</EndMilliseconds>
+    <Text>The other students all agreed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>295232</StartMilliseconds>
+    <EndMilliseconds>297830</EndMilliseconds>
+    <Text>Wukong, however, smiled.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>297831</StartMilliseconds>
+    <EndMilliseconds>305883</EndMilliseconds>
+    <Text>None of the other students knew it, but Subodhi [n@had given him a secret message.</Text>
+  </Paragraph>
+</Subtitle>

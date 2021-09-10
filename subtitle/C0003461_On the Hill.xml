@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>4396</EndMilliseconds>
+    <Text>A table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>4397</StartMilliseconds>
+    <EndMilliseconds>4640</EndMilliseconds>
+    <Text>[@A@] table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>4641</StartMilliseconds>
+    <EndMilliseconds>5373</EndMilliseconds>
+    <Text>A [@table@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>5374</StartMilliseconds>
+    <EndMilliseconds>6205</EndMilliseconds>
+    <Text>A table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>6206</StartMilliseconds>
+    <EndMilliseconds>6511</EndMilliseconds>
+    <Text>[e@A table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>6512</StartMilliseconds>
+    <EndMilliseconds>8960</EndMilliseconds>
+    <Text>An apple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>8961</StartMilliseconds>
+    <EndMilliseconds>9488</EndMilliseconds>
+    <Text>[s@An apple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>9489</StartMilliseconds>
+    <EndMilliseconds>9838</EndMilliseconds>
+    <Text>[@An@] apple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>9839</StartMilliseconds>
+    <EndMilliseconds>10603</EndMilliseconds>
+    <Text>An [@apple@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>10604</StartMilliseconds>
+    <EndMilliseconds>14096</EndMilliseconds>
+    <Text>An apple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>14097</StartMilliseconds>
+    <EndMilliseconds>14721</EndMilliseconds>
+    <Text>[e@An apple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>14722</StartMilliseconds>
+    <EndMilliseconds>16467</EndMilliseconds>
+    <Text>The apple is on the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>16468</StartMilliseconds>
+    <EndMilliseconds>16894</EndMilliseconds>
+    <Text>[s@The apple is on the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>16895</StartMilliseconds>
+    <EndMilliseconds>17223</EndMilliseconds>
+    <Text>[@The@] apple is on the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>17224</StartMilliseconds>
+    <EndMilliseconds>17847</EndMilliseconds>
+    <Text>The [@apple@] is on the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>17848</StartMilliseconds>
+    <EndMilliseconds>18163</EndMilliseconds>
+    <Text>The apple [@is@] on the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>18164</StartMilliseconds>
+    <EndMilliseconds>18693</EndMilliseconds>
+    <Text>The apple is [@on@] the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>18694</StartMilliseconds>
+    <EndMilliseconds>18953</EndMilliseconds>
+    <Text>The apple is on [@the@] table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>18954</StartMilliseconds>
+    <EndMilliseconds>19664</EndMilliseconds>
+    <Text>The apple is on the [@table@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>19665</StartMilliseconds>
+    <EndMilliseconds>21500</EndMilliseconds>
+    <Text>The apple is on the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>21501</StartMilliseconds>
+    <EndMilliseconds>21922</EndMilliseconds>
+    <Text>[e@The apple is on the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>21923</StartMilliseconds>
+    <EndMilliseconds>25427</EndMilliseconds>
+    <Text>A pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>25428</StartMilliseconds>
+    <EndMilliseconds>25990</EndMilliseconds>
+    <Text>[s@A pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>25991</StartMilliseconds>
+    <EndMilliseconds>26241</EndMilliseconds>
+    <Text>[@A@] pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>26242</StartMilliseconds>
+    <EndMilliseconds>26965</EndMilliseconds>
+    <Text>A [@pot@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>26966</StartMilliseconds>
+    <EndMilliseconds>28099</EndMilliseconds>
+    <Text>A pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>28100</StartMilliseconds>
+    <EndMilliseconds>28423</EndMilliseconds>
+    <Text>[e@A pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>28424</StartMilliseconds>
+    <EndMilliseconds>31880</EndMilliseconds>
+    <Text>A flower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>31881</StartMilliseconds>
+    <EndMilliseconds>32402</EndMilliseconds>
+    <Text>[s@A flower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>32403</StartMilliseconds>
+    <EndMilliseconds>32628</EndMilliseconds>
+    <Text>[@A@] flower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>32629</StartMilliseconds>
+    <EndMilliseconds>33430</EndMilliseconds>
+    <Text>A [@flower@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>33431</StartMilliseconds>
+    <EndMilliseconds>38496</EndMilliseconds>
+    <Text>A flower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>38497</StartMilliseconds>
+    <EndMilliseconds>39441</EndMilliseconds>
+    <Text>[e@A flower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>39442</StartMilliseconds>
+    <EndMilliseconds>41177</EndMilliseconds>
+    <Text>The flower is in the pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>41178</StartMilliseconds>
+    <EndMilliseconds>41587</EndMilliseconds>
+    <Text>[s@The flower is in the pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>41588</StartMilliseconds>
+    <EndMilliseconds>41857</EndMilliseconds>
+    <Text>[@The@] flower is in the pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>41858</StartMilliseconds>
+    <EndMilliseconds>42501</EndMilliseconds>
+    <Text>The [@flower@] is in the pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>42502</StartMilliseconds>
+    <EndMilliseconds>42852</EndMilliseconds>
+    <Text>The flower [@is@] in the pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>42853</StartMilliseconds>
+    <EndMilliseconds>43356</EndMilliseconds>
+    <Text>The flower is [@in@] the pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>43357</StartMilliseconds>
+    <EndMilliseconds>43737</EndMilliseconds>
+    <Text>The flower is in [@the@] pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>43738</StartMilliseconds>
+    <EndMilliseconds>44411</EndMilliseconds>
+    <Text>The flower is in the [@pot@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>44412</StartMilliseconds>
+    <EndMilliseconds>46987</EndMilliseconds>
+    <Text>The flower is in the pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>46988</StartMilliseconds>
+    <EndMilliseconds>47362</EndMilliseconds>
+    <Text>[e@The flower is in the pot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>47363</StartMilliseconds>
+    <EndMilliseconds>51923</EndMilliseconds>
+    <Text>A box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>51924</StartMilliseconds>
+    <EndMilliseconds>52374</EndMilliseconds>
+    <Text>[s@A box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>52375</StartMilliseconds>
+    <EndMilliseconds>52673</EndMilliseconds>
+    <Text>[@A@] box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>52674</StartMilliseconds>
+    <EndMilliseconds>53710</EndMilliseconds>
+    <Text>A [@box@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>53711</StartMilliseconds>
+    <EndMilliseconds>54848</EndMilliseconds>
+    <Text>A box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>54849</StartMilliseconds>
+    <EndMilliseconds>55194</EndMilliseconds>
+    <Text>[e@A box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>55195</StartMilliseconds>
+    <EndMilliseconds>58080</EndMilliseconds>
+    <Text>An egg.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>58081</StartMilliseconds>
+    <EndMilliseconds>58487</EndMilliseconds>
+    <Text>[s@An egg.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>58488</StartMilliseconds>
+    <EndMilliseconds>58775</EndMilliseconds>
+    <Text>[@An@] egg.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>58776</StartMilliseconds>
+    <EndMilliseconds>59417</EndMilliseconds>
+    <Text>An [@egg@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>59418</StartMilliseconds>
+    <EndMilliseconds>63515</EndMilliseconds>
+    <Text>An egg.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>63516</StartMilliseconds>
+    <EndMilliseconds>64147</EndMilliseconds>
+    <Text>[e@An egg.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>64148</StartMilliseconds>
+    <EndMilliseconds>66271</EndMilliseconds>
+    <Text>The egg is in the box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>66272</StartMilliseconds>
+    <EndMilliseconds>66641</EndMilliseconds>
+    <Text>[s@The egg is in the box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>66642</StartMilliseconds>
+    <EndMilliseconds>66946</EndMilliseconds>
+    <Text>[@The@] egg is in the box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>66947</StartMilliseconds>
+    <EndMilliseconds>67471</EndMilliseconds>
+    <Text>The [@egg@] is in the box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>67472</StartMilliseconds>
+    <EndMilliseconds>67833</EndMilliseconds>
+    <Text>The egg [@is@] in the box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>67834</StartMilliseconds>
+    <EndMilliseconds>68415</EndMilliseconds>
+    <Text>The egg is [@in@] the box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>68416</StartMilliseconds>
+    <EndMilliseconds>68656</EndMilliseconds>
+    <Text>The egg is in [@the@] box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>68657</StartMilliseconds>
+    <EndMilliseconds>69542</EndMilliseconds>
+    <Text>The egg is in the [@box@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>69543</StartMilliseconds>
+    <EndMilliseconds>71495</EndMilliseconds>
+    <Text>The egg is in the box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>71496</StartMilliseconds>
+    <EndMilliseconds>71986</EndMilliseconds>
+    <Text>[e@The egg is in the box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>71987</StartMilliseconds>
+    <EndMilliseconds>75611</EndMilliseconds>
+    <Text>A hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>75612</StartMilliseconds>
+    <EndMilliseconds>75992</EndMilliseconds>
+    <Text>[s@A hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>75993</StartMilliseconds>
+    <EndMilliseconds>76252</EndMilliseconds>
+    <Text>[@A@] hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>76253</StartMilliseconds>
+    <EndMilliseconds>76968</EndMilliseconds>
+    <Text>A [@hill@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>76969</StartMilliseconds>
+    <EndMilliseconds>78423</EndMilliseconds>
+    <Text>A hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>78424</StartMilliseconds>
+    <EndMilliseconds>78784</EndMilliseconds>
+    <Text>[e@A hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>78785</StartMilliseconds>
+    <EndMilliseconds>82529</EndMilliseconds>
+    <Text>A cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>82530</StartMilliseconds>
+    <EndMilliseconds>82940</EndMilliseconds>
+    <Text>[s@A cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>82941</StartMilliseconds>
+    <EndMilliseconds>83158</EndMilliseconds>
+    <Text>[@A@] cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>83159</StartMilliseconds>
+    <EndMilliseconds>83918</EndMilliseconds>
+    <Text>A [@cow@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>83919</StartMilliseconds>
+    <EndMilliseconds>88602</EndMilliseconds>
+    <Text>A cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>88603</StartMilliseconds>
+    <EndMilliseconds>88898</EndMilliseconds>
+    <Text>[e@A cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>88899</StartMilliseconds>
+    <EndMilliseconds>89905</EndMilliseconds>
+    <Text>The cow is on the hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>89906</StartMilliseconds>
+    <EndMilliseconds>90136</EndMilliseconds>
+    <Text>[@The@] cow is on the hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>90137</StartMilliseconds>
+    <EndMilliseconds>90834</EndMilliseconds>
+    <Text>The [@cow@] is on the hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>90835</StartMilliseconds>
+    <EndMilliseconds>91213</EndMilliseconds>
+    <Text>The cow [@is@] on the hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>91214</StartMilliseconds>
+    <EndMilliseconds>91822</EndMilliseconds>
+    <Text>The cow is [@on@] the hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>91823</StartMilliseconds>
+    <EndMilliseconds>92093</EndMilliseconds>
+    <Text>The cow is on [@the@] hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>92094</StartMilliseconds>
+    <EndMilliseconds>92790</EndMilliseconds>
+    <Text>The cow is on the [@hill@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>92791</StartMilliseconds>
+    <EndMilliseconds>94997</EndMilliseconds>
+    <Text>The cow is on the hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>94998</StartMilliseconds>
+    <EndMilliseconds>95327</EndMilliseconds>
+    <Text>[e@The cow is on the hill.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>95328</StartMilliseconds>
+    <EndMilliseconds>95766</EndMilliseconds>
+    <Text>The apple is on the box on the cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>95767</StartMilliseconds>
+    <EndMilliseconds>96006</EndMilliseconds>
+    <Text>[@The@] apple is on the box on the cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>96007</StartMilliseconds>
+    <EndMilliseconds>96632</EndMilliseconds>
+    <Text>The [@apple@] is on the box on the cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>96633</StartMilliseconds>
+    <EndMilliseconds>96954</EndMilliseconds>
+    <Text>The apple [@is@] on the box on the cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>91</Number>
+    <StartMilliseconds>96955</StartMilliseconds>
+    <EndMilliseconds>97409</EndMilliseconds>
+    <Text>The apple is [@on@] the box on the cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>92</Number>
+    <StartMilliseconds>97410</StartMilliseconds>
+    <EndMilliseconds>97604</EndMilliseconds>
+    <Text>The apple is on [@the@] box on the cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>93</Number>
+    <StartMilliseconds>97605</StartMilliseconds>
+    <EndMilliseconds>98377</EndMilliseconds>
+    <Text>The apple is on the [@box@] on the cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>94</Number>
+    <StartMilliseconds>98378</StartMilliseconds>
+    <EndMilliseconds>98738</EndMilliseconds>
+    <Text>The apple is on the box on the cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>95</Number>
+    <StartMilliseconds>98739</StartMilliseconds>
+    <EndMilliseconds>99144</EndMilliseconds>
+    <Text>The apple is on the box [@on@] the cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>96</Number>
+    <StartMilliseconds>99145</StartMilliseconds>
+    <EndMilliseconds>99517</EndMilliseconds>
+    <Text>The apple is on the box on [@the@] cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>97</Number>
+    <StartMilliseconds>99518</StartMilliseconds>
+    <EndMilliseconds>100380</EndMilliseconds>
+    <Text>The apple is on the box on the [@cow@] . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>98</Number>
+    <StartMilliseconds>100381</StartMilliseconds>
+    <EndMilliseconds>101359</EndMilliseconds>
+    <Text>The apple is on the box on the cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>99</Number>
+    <StartMilliseconds>101360</StartMilliseconds>
+    <EndMilliseconds>101667</EndMilliseconds>
+    <Text>[e@The apple is on the box on the cow . . .</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>100</Number>
+    <StartMilliseconds>101668</StartMilliseconds>
+    <EndMilliseconds>101942</EndMilliseconds>
+    <Text>. . . on the table on the hill!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>101</Number>
+    <StartMilliseconds>101943</StartMilliseconds>
+    <EndMilliseconds>102427</EndMilliseconds>
+    <Text>. . . [@on@] the table on the hill!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>102</Number>
+    <StartMilliseconds>102428</StartMilliseconds>
+    <EndMilliseconds>102706</EndMilliseconds>
+    <Text>. . . on [@the@] table on the hill!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>103</Number>
+    <StartMilliseconds>102707</StartMilliseconds>
+    <EndMilliseconds>103489</EndMilliseconds>
+    <Text>. . . on the [@table@] on the hill!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>104</Number>
+    <StartMilliseconds>103490</StartMilliseconds>
+    <EndMilliseconds>103804</EndMilliseconds>
+    <Text>. . . on the table on the hill!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>105</Number>
+    <StartMilliseconds>103805</StartMilliseconds>
+    <EndMilliseconds>104172</EndMilliseconds>
+    <Text>. . . on the table [@on@] the hill!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>106</Number>
+    <StartMilliseconds>104173</StartMilliseconds>
+    <EndMilliseconds>104419</EndMilliseconds>
+    <Text>. . . on the table on [@the@] hill!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>107</Number>
+    <StartMilliseconds>104420</StartMilliseconds>
+    <EndMilliseconds>105179</EndMilliseconds>
+    <Text>. . . on the table on the [@hill@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>108</Number>
+    <StartMilliseconds>105180</StartMilliseconds>
+    <EndMilliseconds>105919</EndMilliseconds>
+    <Text>. . . on the table on the hill!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>109</Number>
+    <StartMilliseconds>105920</StartMilliseconds>
+    <EndMilliseconds>106234</EndMilliseconds>
+    <Text>Whoa!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>110</Number>
+    <StartMilliseconds>106235</StartMilliseconds>
+    <EndMilliseconds>107846</EndMilliseconds>
+    <Text>[@Whoa@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>111</Number>
+    <StartMilliseconds>107847</StartMilliseconds>
+    <EndMilliseconds>112284</EndMilliseconds>
+    <Text>Whoa!</Text>
+  </Paragraph>
+</Subtitle>

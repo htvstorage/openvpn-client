@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>360</EndMilliseconds>
+    <Text>Snow, snow, snow everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>361</StartMilliseconds>
+    <EndMilliseconds>1144</EndMilliseconds>
+    <Text>[@Snow@], snow, snow everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>1145</StartMilliseconds>
+    <EndMilliseconds>1762</EndMilliseconds>
+    <Text>Snow, [@snow@], snow everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>1763</StartMilliseconds>
+    <EndMilliseconds>2601</EndMilliseconds>
+    <Text>Snow, snow, [@snow@] everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>2602</StartMilliseconds>
+    <EndMilliseconds>4050</EndMilliseconds>
+    <Text>Snow, snow, snow [@everywhere@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>4051</StartMilliseconds>
+    <EndMilliseconds>6045</EndMilliseconds>
+    <Text>Snow, snow, snow everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>6046</StartMilliseconds>
+    <EndMilliseconds>6286</EndMilliseconds>
+    <Text>[e@Snow, snow, snow everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>6287</StartMilliseconds>
+    <EndMilliseconds>6783</EndMilliseconds>
+    <Text>Put on a coat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>6784</StartMilliseconds>
+    <EndMilliseconds>7158</EndMilliseconds>
+    <Text>[@Put@] on a coat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>7159</StartMilliseconds>
+    <EndMilliseconds>7414</EndMilliseconds>
+    <Text>Put [@on@] a coat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>7415</StartMilliseconds>
+    <EndMilliseconds>7646</EndMilliseconds>
+    <Text>Put on [@a@] coat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>7647</StartMilliseconds>
+    <EndMilliseconds>8503</EndMilliseconds>
+    <Text>Put on a [@coat@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>8504</StartMilliseconds>
+    <EndMilliseconds>9875</EndMilliseconds>
+    <Text>Put on a coat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>9876</StartMilliseconds>
+    <EndMilliseconds>10078</EndMilliseconds>
+    <Text>[e@Put on a coat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>10080</StartMilliseconds>
+    <EndMilliseconds>10596</EndMilliseconds>
+    <Text>Put on a scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>10597</StartMilliseconds>
+    <EndMilliseconds>10954</EndMilliseconds>
+    <Text>[@Put@] on a scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>10955</StartMilliseconds>
+    <EndMilliseconds>11252</EndMilliseconds>
+    <Text>Put [@on@] a scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>11253</StartMilliseconds>
+    <EndMilliseconds>11543</EndMilliseconds>
+    <Text>Put on [@a@] scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>11544</StartMilliseconds>
+    <EndMilliseconds>12363</EndMilliseconds>
+    <Text>Put on a [@scarf@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>12364</StartMilliseconds>
+    <EndMilliseconds>13980</EndMilliseconds>
+    <Text>Put on a scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>13981</StartMilliseconds>
+    <EndMilliseconds>14221</EndMilliseconds>
+    <Text>[e@Put on a scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>14222</StartMilliseconds>
+    <EndMilliseconds>14755</EndMilliseconds>
+    <Text>Put on mittens.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>14756</StartMilliseconds>
+    <EndMilliseconds>15104</EndMilliseconds>
+    <Text>[@Put@] on mittens.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>15105</StartMilliseconds>
+    <EndMilliseconds>15513</EndMilliseconds>
+    <Text>Put [@on@] mittens.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>15514</StartMilliseconds>
+    <EndMilliseconds>16659</EndMilliseconds>
+    <Text>Put on [@mittens@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>16660</StartMilliseconds>
+    <EndMilliseconds>17755</EndMilliseconds>
+    <Text>Put on mittens.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>17756</StartMilliseconds>
+    <EndMilliseconds>17936</EndMilliseconds>
+    <Text>[e@Put on mittens.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>17937</StartMilliseconds>
+    <EndMilliseconds>18163</EndMilliseconds>
+    <Text>Put on boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>18164</StartMilliseconds>
+    <EndMilliseconds>18502</EndMilliseconds>
+    <Text>[@Put@] on boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>18503</StartMilliseconds>
+    <EndMilliseconds>18969</EndMilliseconds>
+    <Text>Put [@on@] boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>18970</StartMilliseconds>
+    <EndMilliseconds>19748</EndMilliseconds>
+    <Text>Put on [@boots@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>19749</StartMilliseconds>
+    <EndMilliseconds>21517</EndMilliseconds>
+    <Text>Put on boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>21518</StartMilliseconds>
+    <EndMilliseconds>21743</EndMilliseconds>
+    <Text>[e@Put on boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>21744</StartMilliseconds>
+    <EndMilliseconds>22032</EndMilliseconds>
+    <Text>Go out.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>22033</StartMilliseconds>
+    <EndMilliseconds>22370</EndMilliseconds>
+    <Text>[@Go@] out.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>22371</StartMilliseconds>
+    <EndMilliseconds>23121</EndMilliseconds>
+    <Text>Go [@out@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>23122</StartMilliseconds>
+    <EndMilliseconds>24427</EndMilliseconds>
+    <Text>Go out.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>24428</StartMilliseconds>
+    <EndMilliseconds>24614</EndMilliseconds>
+    <Text>[e@Go out.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>24615</StartMilliseconds>
+    <EndMilliseconds>24884</EndMilliseconds>
+    <Text>Pull the sled up, up, up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>24885</StartMilliseconds>
+    <EndMilliseconds>25339</EndMilliseconds>
+    <Text>[@Pull@] the sled up, up, up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>25340</StartMilliseconds>
+    <EndMilliseconds>25708</EndMilliseconds>
+    <Text>Pull [@the@] sled up, up, up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>25709</StartMilliseconds>
+    <EndMilliseconds>26593</EndMilliseconds>
+    <Text>Pull the [@sled@] up, up, up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>26594</StartMilliseconds>
+    <EndMilliseconds>27318</EndMilliseconds>
+    <Text>Pull the sled [@up@], up, up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>27319</StartMilliseconds>
+    <EndMilliseconds>28110</EndMilliseconds>
+    <Text>Pull the sled up, [@up@], up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>28111</StartMilliseconds>
+    <EndMilliseconds>28982</EndMilliseconds>
+    <Text>Pull the sled up, up, [@up@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>28983</StartMilliseconds>
+    <EndMilliseconds>30421</EndMilliseconds>
+    <Text>Pull the sled up, up, up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>30422</StartMilliseconds>
+    <EndMilliseconds>30637</EndMilliseconds>
+    <Text>[e@Pull the sled up, up, up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>30638</StartMilliseconds>
+    <EndMilliseconds>31021</EndMilliseconds>
+    <Text>Down, down, down we go.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>31022</StartMilliseconds>
+    <EndMilliseconds>31735</EndMilliseconds>
+    <Text>[@Down@], down, down we go.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>31736</StartMilliseconds>
+    <EndMilliseconds>32521</EndMilliseconds>
+    <Text>Down, [@down@], down we go.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>32522</StartMilliseconds>
+    <EndMilliseconds>33370</EndMilliseconds>
+    <Text>Down, down, [@down@] we go.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>33371</StartMilliseconds>
+    <EndMilliseconds>33778</EndMilliseconds>
+    <Text>Down, down, down [@we@] go.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>33779</StartMilliseconds>
+    <EndMilliseconds>34486</EndMilliseconds>
+    <Text>Down, down, down we [@go@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>34487</StartMilliseconds>
+    <EndMilliseconds>34586</EndMilliseconds>
+    <Text>Down, down, down we go.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>34587</StartMilliseconds>
+    <EndMilliseconds>34678</EndMilliseconds>
+    <Text>Weee!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>34679</StartMilliseconds>
+    <EndMilliseconds>36177</EndMilliseconds>
+    <Text>[@Weee@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>36178</StartMilliseconds>
+    <EndMilliseconds>39976</EndMilliseconds>
+    <Text>Weee!</Text>
+  </Paragraph>
+</Subtitle>

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1483</EndMilliseconds>
+    <Text>Red car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1484</StartMilliseconds>
+    <EndMilliseconds>1940</EndMilliseconds>
+    <Text>[@Red@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>1941</StartMilliseconds>
+    <EndMilliseconds>2692</EndMilliseconds>
+    <Text>Red [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2693</StartMilliseconds>
+    <EndMilliseconds>3582</EndMilliseconds>
+    <Text>Red car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>3583</StartMilliseconds>
+    <EndMilliseconds>3772</EndMilliseconds>
+    <Text>[e@Red car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>3773</StartMilliseconds>
+    <EndMilliseconds>4109</EndMilliseconds>
+    <Text>Pink car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>4110</StartMilliseconds>
+    <EndMilliseconds>4517</EndMilliseconds>
+    <Text>[@Pink@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>4518</StartMilliseconds>
+    <EndMilliseconds>5474</EndMilliseconds>
+    <Text>Pink [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>5475</StartMilliseconds>
+    <EndMilliseconds>6989</EndMilliseconds>
+    <Text>Pink car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>6990</StartMilliseconds>
+    <EndMilliseconds>7220</EndMilliseconds>
+    <Text>[e@Pink car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>7221</StartMilliseconds>
+    <EndMilliseconds>8113</EndMilliseconds>
+    <Text>Orange car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>8114</StartMilliseconds>
+    <EndMilliseconds>8682</EndMilliseconds>
+    <Text>[s@Orange car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>8683</StartMilliseconds>
+    <EndMilliseconds>9310</EndMilliseconds>
+    <Text>[@Orange@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>9311</StartMilliseconds>
+    <EndMilliseconds>10075</EndMilliseconds>
+    <Text>Orange [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>10076</StartMilliseconds>
+    <EndMilliseconds>10603</EndMilliseconds>
+    <Text>Orange car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>10604</StartMilliseconds>
+    <EndMilliseconds>10752</EndMilliseconds>
+    <Text>[e@Orange car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>10753</StartMilliseconds>
+    <EndMilliseconds>12118</EndMilliseconds>
+    <Text>Yellow car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>12119</StartMilliseconds>
+    <EndMilliseconds>12714</EndMilliseconds>
+    <Text>[s@Yellow car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>12715</StartMilliseconds>
+    <EndMilliseconds>13331</EndMilliseconds>
+    <Text>[@Yellow@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>13332</StartMilliseconds>
+    <EndMilliseconds>14177</EndMilliseconds>
+    <Text>Yellow [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>14178</StartMilliseconds>
+    <EndMilliseconds>14924</EndMilliseconds>
+    <Text>Yellow car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>14925</StartMilliseconds>
+    <EndMilliseconds>15070</EndMilliseconds>
+    <Text>[e@Yellow car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>15071</StartMilliseconds>
+    <EndMilliseconds>16646</EndMilliseconds>
+    <Text>Green car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>16647</StartMilliseconds>
+    <EndMilliseconds>17425</EndMilliseconds>
+    <Text>[s@Green car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>17426</StartMilliseconds>
+    <EndMilliseconds>18061</EndMilliseconds>
+    <Text>[@Green@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>18062</StartMilliseconds>
+    <EndMilliseconds>18946</EndMilliseconds>
+    <Text>Green [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>18947</StartMilliseconds>
+    <EndMilliseconds>19620</EndMilliseconds>
+    <Text>Green car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>19621</StartMilliseconds>
+    <EndMilliseconds>19743</EndMilliseconds>
+    <Text>[e@Green car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>19744</StartMilliseconds>
+    <EndMilliseconds>20728</EndMilliseconds>
+    <Text>Blue car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>20729</StartMilliseconds>
+    <EndMilliseconds>21298</EndMilliseconds>
+    <Text>[s@Blue car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>21299</StartMilliseconds>
+    <EndMilliseconds>21749</EndMilliseconds>
+    <Text>[@Blue@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>21750</StartMilliseconds>
+    <EndMilliseconds>22500</EndMilliseconds>
+    <Text>Blue [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>22501</StartMilliseconds>
+    <EndMilliseconds>23060</EndMilliseconds>
+    <Text>Blue car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>23061</StartMilliseconds>
+    <EndMilliseconds>23222</EndMilliseconds>
+    <Text>[e@Blue car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>23223</StartMilliseconds>
+    <EndMilliseconds>23969</EndMilliseconds>
+    <Text>Brown car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>23970</StartMilliseconds>
+    <EndMilliseconds>24410</EndMilliseconds>
+    <Text>[s@Brown car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>24411</StartMilliseconds>
+    <EndMilliseconds>25035</EndMilliseconds>
+    <Text>[@Brown@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>25036</StartMilliseconds>
+    <EndMilliseconds>25794</EndMilliseconds>
+    <Text>Brown [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>25795</StartMilliseconds>
+    <EndMilliseconds>26706</EndMilliseconds>
+    <Text>Brown car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>26707</StartMilliseconds>
+    <EndMilliseconds>26878</EndMilliseconds>
+    <Text>[e@Brown car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>26879</StartMilliseconds>
+    <EndMilliseconds>28400</EndMilliseconds>
+    <Text>Purple car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>28401</StartMilliseconds>
+    <EndMilliseconds>28988</EndMilliseconds>
+    <Text>[s@Purple car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>28989</StartMilliseconds>
+    <EndMilliseconds>29588</EndMilliseconds>
+    <Text>[@Purple@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>29589</StartMilliseconds>
+    <EndMilliseconds>30395</EndMilliseconds>
+    <Text>Purple [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>30396</StartMilliseconds>
+    <EndMilliseconds>31174</EndMilliseconds>
+    <Text>Purple car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>31175</StartMilliseconds>
+    <EndMilliseconds>31367</EndMilliseconds>
+    <Text>[e@Purple car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>31368</StartMilliseconds>
+    <EndMilliseconds>32410</EndMilliseconds>
+    <Text>Rainbow car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>32412</StartMilliseconds>
+    <EndMilliseconds>33094</EndMilliseconds>
+    <Text>[@Rainbow@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>33095</StartMilliseconds>
+    <EndMilliseconds>33930</EndMilliseconds>
+    <Text>Rainbow [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>33931</StartMilliseconds>
+    <EndMilliseconds>37681</EndMilliseconds>
+    <Text>Rainbow car.</Text>
+  </Paragraph>
+</Subtitle>

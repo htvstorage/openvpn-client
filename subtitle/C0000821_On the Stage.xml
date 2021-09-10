@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>2076</EndMilliseconds>
+    <Text>I want to play the violin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>2077</StartMilliseconds>
+    <EndMilliseconds>2424</EndMilliseconds>
+    <Text>[@I@] want to play the violin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>2425</StartMilliseconds>
+    <EndMilliseconds>2840</EndMilliseconds>
+    <Text>I [@want@] to play the violin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2841</StartMilliseconds>
+    <EndMilliseconds>3060</EndMilliseconds>
+    <Text>I want [@to@] play the violin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>3061</StartMilliseconds>
+    <EndMilliseconds>3438</EndMilliseconds>
+    <Text>I want to [@play@] the violin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>3439</StartMilliseconds>
+    <EndMilliseconds>3650</EndMilliseconds>
+    <Text>I want to play [@the@] violin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>3651</StartMilliseconds>
+    <EndMilliseconds>4935</EndMilliseconds>
+    <Text>I want to play the [@violin@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>4936</StartMilliseconds>
+    <EndMilliseconds>11000</EndMilliseconds>
+    <Text>I want to play the violin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>11001</StartMilliseconds>
+    <EndMilliseconds>11276</EndMilliseconds>
+    <Text>[e@I want to play the violin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>11277</StartMilliseconds>
+    <EndMilliseconds>13179</EndMilliseconds>
+    <Text>I want to play the guitar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>13180</StartMilliseconds>
+    <EndMilliseconds>13646</EndMilliseconds>
+    <Text>[s@I want to play the guitar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>13647</StartMilliseconds>
+    <EndMilliseconds>14056</EndMilliseconds>
+    <Text>[@I@] want to play the guitar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>14057</StartMilliseconds>
+    <EndMilliseconds>14333</EndMilliseconds>
+    <Text>I [@want@] to play the guitar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>14334</StartMilliseconds>
+    <EndMilliseconds>14577</EndMilliseconds>
+    <Text>I want [@to@] play the guitar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>14578</StartMilliseconds>
+    <EndMilliseconds>14957</EndMilliseconds>
+    <Text>I want to [@play@] the guitar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>14958</StartMilliseconds>
+    <EndMilliseconds>15125</EndMilliseconds>
+    <Text>I want to play [@the@] guitar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>15126</StartMilliseconds>
+    <EndMilliseconds>16126</EndMilliseconds>
+    <Text>I want to play the [@guitar@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>16127</StartMilliseconds>
+    <EndMilliseconds>23825</EndMilliseconds>
+    <Text>I want to play the guitar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>23826</StartMilliseconds>
+    <EndMilliseconds>24073</EndMilliseconds>
+    <Text>[e@I want to play the guitar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>24074</StartMilliseconds>
+    <EndMilliseconds>25766</EndMilliseconds>
+    <Text>I want to play the harp.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>25767</StartMilliseconds>
+    <EndMilliseconds>26283</EndMilliseconds>
+    <Text>[s@I want to play the harp.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>26284</StartMilliseconds>
+    <EndMilliseconds>26652</EndMilliseconds>
+    <Text>[@I@] want to play the harp.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>26653</StartMilliseconds>
+    <EndMilliseconds>27010</EndMilliseconds>
+    <Text>I [@want@] to play the harp.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>27011</StartMilliseconds>
+    <EndMilliseconds>27286</EndMilliseconds>
+    <Text>I want [@to@] play the harp.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>27287</StartMilliseconds>
+    <EndMilliseconds>27649</EndMilliseconds>
+    <Text>I want to [@play@] the harp.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>27650</StartMilliseconds>
+    <EndMilliseconds>27861</EndMilliseconds>
+    <Text>I want to play [@the@] harp.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>27862</StartMilliseconds>
+    <EndMilliseconds>28665</EndMilliseconds>
+    <Text>I want to play the [@harp@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>28666</StartMilliseconds>
+    <EndMilliseconds>36583</EndMilliseconds>
+    <Text>I want to play the harp.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>36584</StartMilliseconds>
+    <EndMilliseconds>36863</EndMilliseconds>
+    <Text>[e@I want to play the harp.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>36864</StartMilliseconds>
+    <EndMilliseconds>38486</EndMilliseconds>
+    <Text>I want to play the flute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>38487</StartMilliseconds>
+    <EndMilliseconds>38985</EndMilliseconds>
+    <Text>[s@I want to play the flute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>38986</StartMilliseconds>
+    <EndMilliseconds>39375</EndMilliseconds>
+    <Text>[@I@] want to play the flute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>39376</StartMilliseconds>
+    <EndMilliseconds>39684</EndMilliseconds>
+    <Text>I [@want@] to play the flute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>39685</StartMilliseconds>
+    <EndMilliseconds>39907</EndMilliseconds>
+    <Text>I want [@to@] play the flute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>39908</StartMilliseconds>
+    <EndMilliseconds>40273</EndMilliseconds>
+    <Text>I want to [@play@] the flute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>40274</StartMilliseconds>
+    <EndMilliseconds>40514</EndMilliseconds>
+    <Text>I want to play [@the@] flute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>40515</StartMilliseconds>
+    <EndMilliseconds>41378</EndMilliseconds>
+    <Text>I want to play the [@flute@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>41379</StartMilliseconds>
+    <EndMilliseconds>46810</EndMilliseconds>
+    <Text>I want to play the flute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>46811</StartMilliseconds>
+    <EndMilliseconds>47083</EndMilliseconds>
+    <Text>[e@I want to play the flute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>47084</StartMilliseconds>
+    <EndMilliseconds>48354</EndMilliseconds>
+    <Text>I want to play the xylophone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>48355</StartMilliseconds>
+    <EndMilliseconds>49214</EndMilliseconds>
+    <Text>[s@I want to play the xylophone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>49215</StartMilliseconds>
+    <EndMilliseconds>49734</EndMilliseconds>
+    <Text>[@I@] want to play the xylophone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>49735</StartMilliseconds>
+    <EndMilliseconds>50075</EndMilliseconds>
+    <Text>I [@want@] to play the xylophone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>50076</StartMilliseconds>
+    <EndMilliseconds>50319</EndMilliseconds>
+    <Text>I want [@to@] play the xylophone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>50320</StartMilliseconds>
+    <EndMilliseconds>50748</EndMilliseconds>
+    <Text>I want to [@play@] the xylophone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>50749</StartMilliseconds>
+    <EndMilliseconds>50963</EndMilliseconds>
+    <Text>I want to play [@the@] xylophone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>50964</StartMilliseconds>
+    <EndMilliseconds>52526</EndMilliseconds>
+    <Text>I want to play the [@xylophone@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>52527</StartMilliseconds>
+    <EndMilliseconds>58669</EndMilliseconds>
+    <Text>I want to play the xylophone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>58670</StartMilliseconds>
+    <EndMilliseconds>58948</EndMilliseconds>
+    <Text>[e@I want to play the xylophone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>58949</StartMilliseconds>
+    <EndMilliseconds>61108</EndMilliseconds>
+    <Text>I want to play the piano.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>61109</StartMilliseconds>
+    <EndMilliseconds>61706</EndMilliseconds>
+    <Text>[s@I want to play the piano.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>61707</StartMilliseconds>
+    <EndMilliseconds>62254</EndMilliseconds>
+    <Text>[@I@] want to play the piano.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>62255</StartMilliseconds>
+    <EndMilliseconds>62460</EndMilliseconds>
+    <Text>I [@want@] to play the piano.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>62461</StartMilliseconds>
+    <EndMilliseconds>62658</EndMilliseconds>
+    <Text>I want [@to@] play the piano.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>62659</StartMilliseconds>
+    <EndMilliseconds>62938</EndMilliseconds>
+    <Text>I want to [@play@] the piano.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>62939</StartMilliseconds>
+    <EndMilliseconds>63119</EndMilliseconds>
+    <Text>I want to play [@the@] piano.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>63120</StartMilliseconds>
+    <EndMilliseconds>64236</EndMilliseconds>
+    <Text>I want to play the [@piano@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>64237</StartMilliseconds>
+    <EndMilliseconds>72263</EndMilliseconds>
+    <Text>I want to play the piano.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>72264</StartMilliseconds>
+    <EndMilliseconds>72539</EndMilliseconds>
+    <Text>[e@I want to play the piano.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>72540</StartMilliseconds>
+    <EndMilliseconds>74077</EndMilliseconds>
+    <Text>I want to play the drums.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>74078</StartMilliseconds>
+    <EndMilliseconds>74816</EndMilliseconds>
+    <Text>[s@I want to play the drums.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>74817</StartMilliseconds>
+    <EndMilliseconds>75096</EndMilliseconds>
+    <Text>[@I@] want to play the drums.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>75097</StartMilliseconds>
+    <EndMilliseconds>75332</EndMilliseconds>
+    <Text>I [@want@] to play the drums.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>75333</StartMilliseconds>
+    <EndMilliseconds>75536</EndMilliseconds>
+    <Text>I want [@to@] play the drums.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>75537</StartMilliseconds>
+    <EndMilliseconds>75877</EndMilliseconds>
+    <Text>I want to [@play@] the drums.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>75878</StartMilliseconds>
+    <EndMilliseconds>76099</EndMilliseconds>
+    <Text>I want to play [@the@] drums.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>76100</StartMilliseconds>
+    <EndMilliseconds>77030</EndMilliseconds>
+    <Text>I want to play the [@drums@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>77031</StartMilliseconds>
+    <EndMilliseconds>81449</EndMilliseconds>
+    <Text>I want to play the drums.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>81450</StartMilliseconds>
+    <EndMilliseconds>81676</EndMilliseconds>
+    <Text>[e@I want to play the drums.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>81677</StartMilliseconds>
+    <EndMilliseconds>82139</EndMilliseconds>
+    <Text>We want to play music together!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>82140</StartMilliseconds>
+    <EndMilliseconds>82628</EndMilliseconds>
+    <Text>[@We@] want to play music together!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>82629</StartMilliseconds>
+    <EndMilliseconds>83028</EndMilliseconds>
+    <Text>We [@want@] to play music together!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>83029</StartMilliseconds>
+    <EndMilliseconds>83298</EndMilliseconds>
+    <Text>We want [@to@] play music together!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>83299</StartMilliseconds>
+    <EndMilliseconds>83690</EndMilliseconds>
+    <Text>We want to [@play@] music together!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>83691</StartMilliseconds>
+    <EndMilliseconds>84309</EndMilliseconds>
+    <Text>We want to play [@music@] together!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>84310</StartMilliseconds>
+    <EndMilliseconds>85468</EndMilliseconds>
+    <Text>We want to play music [@together@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>85469</StartMilliseconds>
+    <EndMilliseconds>96955</EndMilliseconds>
+    <Text>We want to play music together!</Text>
+  </Paragraph>
+</Subtitle>

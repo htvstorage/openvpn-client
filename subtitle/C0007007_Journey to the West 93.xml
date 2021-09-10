@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>4666</EndMilliseconds>
+    <Text>The elephant and the raptor stared at the lion.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>4667</StartMilliseconds>
+    <EndMilliseconds>9027</EndMilliseconds>
+    <Text>[g@"Sun Wukong is alive inside you," said the raptor.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>9028</StartMilliseconds>
+    <EndMilliseconds>16623</EndMilliseconds>
+    <Text>"Aren't you worried?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>16624</StartMilliseconds>
+    <EndMilliseconds>18874</EndMilliseconds>
+    <Text>[g@The lion sat down on his throne.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>18875</StartMilliseconds>
+    <EndMilliseconds>21151</EndMilliseconds>
+    <Text>"Worried about what?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>21152</StartMilliseconds>
+    <EndMilliseconds>23545</EndMilliseconds>
+    <Text>"Well," said the raptor.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>23546</StartMilliseconds>
+    <EndMilliseconds>26728</EndMilliseconds>
+    <Text>[g@"The monkey is talking inside you.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>26729</StartMilliseconds>
+    <EndMilliseconds>29455</EndMilliseconds>
+    <Text>Doesn't that bother you?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>29456</StartMilliseconds>
+    <EndMilliseconds>33009</EndMilliseconds>
+    <Text>[g@"Let him talk," said the lion defiantly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>33010</StartMilliseconds>
+    <EndMilliseconds>35913</EndMilliseconds>
+    <Text>"It doesn't bother me at all."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>35914</StartMilliseconds>
+    <EndMilliseconds>39098</EndMilliseconds>
+    <Text>[g@"What shall I talk about?" Wukong called.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>39099</StartMilliseconds>
+    <EndMilliseconds>41422</EndMilliseconds>
+    <Text>"Who wants to hear a story?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>41423</StartMilliseconds>
+    <EndMilliseconds>44333</EndMilliseconds>
+    <Text>The elephant shook his head slowly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>44334</StartMilliseconds>
+    <EndMilliseconds>47794</EndMilliseconds>
+    <Text>[g@"What if the monkey never stops talking?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>47795</StartMilliseconds>
+    <EndMilliseconds>50996</EndMilliseconds>
+    <Text>You'll never get any sleep."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>50997</StartMilliseconds>
+    <EndMilliseconds>55690</EndMilliseconds>
+    <Text>[g@"Hmm," said the lion. "That would be bad."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>55691</StartMilliseconds>
+    <EndMilliseconds>58071</EndMilliseconds>
+    <Text>He thought for a moment.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>58072</StartMilliseconds>
+    <EndMilliseconds>59433</EndMilliseconds>
+    <Text>[g@"I know what to do.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>59434</StartMilliseconds>
+    <EndMilliseconds>62678</EndMilliseconds>
+    <Text>I'll stop eating."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>62679</StartMilliseconds>
+    <EndMilliseconds>66301</EndMilliseconds>
+    <Text>"What will that do?" asked the elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>66302</StartMilliseconds>
+    <EndMilliseconds>70659</EndMilliseconds>
+    <Text>"Yes," said Wukong. "What will that do?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>70660</StartMilliseconds>
+    <EndMilliseconds>75754</EndMilliseconds>
+    <Text>[g@"If I don't eat, Wukong doesn't eat," said the lion.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>75755</StartMilliseconds>
+    <EndMilliseconds>78814</EndMilliseconds>
+    <Text>"I'll make him starve."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>78815</StartMilliseconds>
+    <EndMilliseconds>81878</EndMilliseconds>
+    <Text>[g@Wukong laughed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>81879</StartMilliseconds>
+    <EndMilliseconds>83427</EndMilliseconds>
+    <Text>"Nice try, lion!@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>83428</StartMilliseconds>
+    <EndMilliseconds>86918</EndMilliseconds>
+    <Text>But I'll just turn one of my hairs into a stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>86919</StartMilliseconds>
+    <EndMilliseconds>91003</EndMilliseconds>
+    <Text>I'll cook a nice meal in here!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>91004</StartMilliseconds>
+    <EndMilliseconds>94324</EndMilliseconds>
+    <Text>"Oh dear." The raptor shook his head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>94325</StartMilliseconds>
+    <EndMilliseconds>100003</EndMilliseconds>
+    <Text>"If that monkey fires up a stove, it will make you very hot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>100004</StartMilliseconds>
+    <EndMilliseconds>102871</EndMilliseconds>
+    <Text>Plus it will create lots of smoke.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>102872</StartMilliseconds>
+    <EndMilliseconds>110016</EndMilliseconds>
+    <Text>The smoke will fill your head, and you'll never stop sneezing!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>110017</StartMilliseconds>
+    <EndMilliseconds>113630</EndMilliseconds>
+    <Text>At last the lion was starting to look nervous.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>113631</StartMilliseconds>
+    <EndMilliseconds>116986</EndMilliseconds>
+    <Text>[g@"That would be terrible," he said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>116987</StartMilliseconds>
+    <EndMilliseconds>120422</EndMilliseconds>
+    <Text>"I'd better cough out Wukong."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>120423</StartMilliseconds>
+    <EndMilliseconds>122968</EndMilliseconds>
+    <Text>The lion went to the middle of the room.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>122969</StartMilliseconds>
+    <EndMilliseconds>128981</EndMilliseconds>
+    <Text>He bent over and coughed. "Ahugh! Ahugh!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>128982</StartMilliseconds>
+    <EndMilliseconds>131406</EndMilliseconds>
+    <Text>[g@Wukong laughed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>131407</StartMilliseconds>
+    <EndMilliseconds>135244</EndMilliseconds>
+    <Text>"I'm still in here!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>135245</StartMilliseconds>
+    <EndMilliseconds>140130</EndMilliseconds>
+    <Text>"Ahugh! Ahugh!" The lion coughed again.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>140131</StartMilliseconds>
+    <EndMilliseconds>144663</EndMilliseconds>
+    <Text>But still Wukong stayed inside him.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>144664</StartMilliseconds>
+    <EndMilliseconds>149215</EndMilliseconds>
+    <Text>"I'm going to practice my fighting skills," announced the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>149216</StartMilliseconds>
+    <EndMilliseconds>152532</EndMilliseconds>
+    <Text>[g@[i@Boomph! Pow! Boomph! Pow!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>152533</StartMilliseconds>
+    <EndMilliseconds>156317</EndMilliseconds>
+    <Text>Wukong punched and kicked inside the lion.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>156318</StartMilliseconds>
+    <EndMilliseconds>158650</EndMilliseconds>
+    <Text>The lion fell to his knees.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>158651</StartMilliseconds>
+    <EndMilliseconds>164141</EndMilliseconds>
+    <Text>[g@"Ohh!" he moaned. "It hurts! It hurts!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>164142</StartMilliseconds>
+    <EndMilliseconds>167332</EndMilliseconds>
+    <Text>Wukong, please stop!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>167333</StartMilliseconds>
+    <EndMilliseconds>170510</EndMilliseconds>
+    <Text>"Let's make a deal," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>170511</StartMilliseconds>
+    <EndMilliseconds>174963</EndMilliseconds>
+    <Text>"I'll come out if you promise to let us cross the mountain safely."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>174964</StartMilliseconds>
+    <EndMilliseconds>178126</EndMilliseconds>
+    <Text>[g@The lion looked up at the raptor and the elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>178127</StartMilliseconds>
+    <EndMilliseconds>181012</EndMilliseconds>
+    <Text>They both nodded.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>181013</StartMilliseconds>
+    <EndMilliseconds>185299</EndMilliseconds>
+    <Text>"We promise." The lion moaned again.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>185300</StartMilliseconds>
+    <EndMilliseconds>187664</EndMilliseconds>
+    <Text>[g@"Okay then," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>187665</StartMilliseconds>
+    <EndMilliseconds>190193</EndMilliseconds>
+    <Text>"I'm coming out."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>190194</StartMilliseconds>
+    <EndMilliseconds>193771</EndMilliseconds>
+    <Text>Wukong started the climb up the lion's throat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>193772</StartMilliseconds>
+    <EndMilliseconds>198795</EndMilliseconds>
+    <Text>Just as he reached the lion's mouth, Wukong heard whispering.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>198796</StartMilliseconds>
+    <EndMilliseconds>202971</EndMilliseconds>
+    <Text>"Lion, I have a plan," whispered the elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>202972</StartMilliseconds>
+    <EndMilliseconds>207245</EndMilliseconds>
+    <Text>"When Wukong tries to come out of your mouth, bite him."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>207246</StartMilliseconds>
+    <EndMilliseconds>210007</EndMilliseconds>
+    <Text>"I don't know . . . ," whispered the lion.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>210008</StartMilliseconds>
+    <EndMilliseconds>212128</EndMilliseconds>
+    <Text>[g@"Wukong is very strong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>212129</StartMilliseconds>
+    <EndMilliseconds>214652</EndMilliseconds>
+    <Text>My belly still hurts."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>214653</StartMilliseconds>
+    <EndMilliseconds>219252</EndMilliseconds>
+    <Text>"Chomp him quickly, before he can fight back," whispered the elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>219253</StartMilliseconds>
+    <EndMilliseconds>222645</EndMilliseconds>
+    <Text>"Okay," said the lion.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>222646</StartMilliseconds>
+    <EndMilliseconds>226017</EndMilliseconds>
+    <Text>"Those dumb demons," thought Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>226018</StartMilliseconds>
+    <EndMilliseconds>228822</EndMilliseconds>
+    <Text>[g@"Don't they realize I can hear them?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>228823</StartMilliseconds>
+    <EndMilliseconds>231378</EndMilliseconds>
+    <Text>He pulled out his iron bar.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>231379</StartMilliseconds>
+    <EndMilliseconds>234906</EndMilliseconds>
+    <Text>"Shall I come out now?" asked the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>234907</StartMilliseconds>
+    <EndMilliseconds>238601</EndMilliseconds>
+    <Text>[g@"Um, yes," said the lion.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>238602</StartMilliseconds>
+    <EndMilliseconds>242018</EndMilliseconds>
+    <Text>Wukong heard the three demons snickering.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>242019</StartMilliseconds>
+    <EndMilliseconds>246874</EndMilliseconds>
+    <Text>[g@"Okay," said Wukong. "I'm coming out."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>246875</StartMilliseconds>
+    <EndMilliseconds>250909</EndMilliseconds>
+    <Text>He held out the iron bar.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>250910</StartMilliseconds>
+    <EndMilliseconds>253238</EndMilliseconds>
+    <Text>The lion bit down hard on the bar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>253239</StartMilliseconds>
+    <EndMilliseconds>259227</EndMilliseconds>
+    <Text>[i@Crack!@i] A tooth shattered into tiny pieces.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>259228</StartMilliseconds>
+    <EndMilliseconds>266163</EndMilliseconds>
+    <Text>[g@"Ow! Ow! Ow!" the lion howled in pain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>266164</StartMilliseconds>
+    <EndMilliseconds>268659</EndMilliseconds>
+    <Text>Tears streamed down his face.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>268660</StartMilliseconds>
+    <EndMilliseconds>273733</EndMilliseconds>
+    <Text>He rolled around on the floor, holding his paws over his mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>273734</StartMilliseconds>
+    <EndMilliseconds>276448</EndMilliseconds>
+    <Text>[g@"You villains!" Wukong shouted.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>276449</StartMilliseconds>
+    <EndMilliseconds>279086</EndMilliseconds>
+    <Text>"I heard you whispering!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>279087</StartMilliseconds>
+    <EndMilliseconds>283233</EndMilliseconds>
+    <Text>"I'm sorry." The lion was still crying.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>283234</StartMilliseconds>
+    <EndMilliseconds>285997</EndMilliseconds>
+    <Text>[g@"I won't try to bite you again.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>285998</StartMilliseconds>
+    <EndMilliseconds>290324</EndMilliseconds>
+    <Text>Please don't hurt me anymore."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>290325</StartMilliseconds>
+    <EndMilliseconds>292248</EndMilliseconds>
+    <Text>[g@Wukong hesitated.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>292249</StartMilliseconds>
+    <EndMilliseconds>294384</EndMilliseconds>
+    <Text>"I'm coming out now.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>294385</StartMilliseconds>
+    <EndMilliseconds>298186</EndMilliseconds>
+    <Text>You'd better not try any more tricks!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>298187</StartMilliseconds>
+    <EndMilliseconds>300799</EndMilliseconds>
+    <Text>"We won't," said the elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>300800</StartMilliseconds>
+    <EndMilliseconds>304236</EndMilliseconds>
+    <Text>"We promise," said the raptor.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>304237</StartMilliseconds>
+    <EndMilliseconds>309109</EndMilliseconds>
+    <Text>Wukong popped out of the lion's nose.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>309110</StartMilliseconds>
+    <EndMilliseconds>317495</EndMilliseconds>
+    <Text>He glared at the demons for a moment and then walked out of the cave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>317496</StartMilliseconds>
+    <EndMilliseconds>324412</EndMilliseconds>
+    <Text>As soon as the monkey was gone, the elephant [n@turned to the other two demons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>324413</StartMilliseconds>
+    <EndMilliseconds>331750</EndMilliseconds>
+    <Text>"I have a new plan for capturing the Tang Monk."</Text>
+  </Paragraph>
+</Subtitle>

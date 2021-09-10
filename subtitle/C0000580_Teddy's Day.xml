@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1093</EndMilliseconds>
+    <Text>Teddy is happy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1094</StartMilliseconds>
+    <EndMilliseconds>1573</EndMilliseconds>
+    <Text>[@Teddy@] is happy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>1574</StartMilliseconds>
+    <EndMilliseconds>1841</EndMilliseconds>
+    <Text>Teddy [@is@] happy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>1842</StartMilliseconds>
+    <EndMilliseconds>2649</EndMilliseconds>
+    <Text>Teddy is [@happy@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>2650</StartMilliseconds>
+    <EndMilliseconds>6196</EndMilliseconds>
+    <Text>Teddy is happy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>6197</StartMilliseconds>
+    <EndMilliseconds>6405</EndMilliseconds>
+    <Text>[e@Teddy is happy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>6406</StartMilliseconds>
+    <EndMilliseconds>7381</EndMilliseconds>
+    <Text>Teddy is angry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>7382</StartMilliseconds>
+    <EndMilliseconds>7802</EndMilliseconds>
+    <Text>[@Teddy@] is angry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>7803</StartMilliseconds>
+    <EndMilliseconds>8213</EndMilliseconds>
+    <Text>Teddy [@is@] angry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>8214</StartMilliseconds>
+    <EndMilliseconds>9289</EndMilliseconds>
+    <Text>Teddy is [@angry@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>9290</StartMilliseconds>
+    <EndMilliseconds>11394</EndMilliseconds>
+    <Text>Teddy is angry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>11395</StartMilliseconds>
+    <EndMilliseconds>11663</EndMilliseconds>
+    <Text>[e@Teddy is angry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>11664</StartMilliseconds>
+    <EndMilliseconds>12403</EndMilliseconds>
+    <Text>Teddy is sad.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>12404</StartMilliseconds>
+    <EndMilliseconds>12919</EndMilliseconds>
+    <Text>[@Teddy@] is sad.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>12920</StartMilliseconds>
+    <EndMilliseconds>13250</EndMilliseconds>
+    <Text>Teddy [@is@] sad.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>13251</StartMilliseconds>
+    <EndMilliseconds>14108</EndMilliseconds>
+    <Text>Teddy is [@sad@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>14109</StartMilliseconds>
+    <EndMilliseconds>19698</EndMilliseconds>
+    <Text>Teddy is sad.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>19699</StartMilliseconds>
+    <EndMilliseconds>19978</EndMilliseconds>
+    <Text>[e@Teddy is sad.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>19979</StartMilliseconds>
+    <EndMilliseconds>20749</EndMilliseconds>
+    <Text>Teddy is thirsty.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>20750</StartMilliseconds>
+    <EndMilliseconds>21227</EndMilliseconds>
+    <Text>[@Teddy@] is thirsty.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>21228</StartMilliseconds>
+    <EndMilliseconds>21616</EndMilliseconds>
+    <Text>Teddy [@is@] thirsty.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>21617</StartMilliseconds>
+    <EndMilliseconds>22638</EndMilliseconds>
+    <Text>Teddy is [@thirsty@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>22639</StartMilliseconds>
+    <EndMilliseconds>23227</EndMilliseconds>
+    <Text>Teddy is thirsty.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>23228</StartMilliseconds>
+    <EndMilliseconds>23473</EndMilliseconds>
+    <Text>"I want water."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>23474</StartMilliseconds>
+    <EndMilliseconds>23926</EndMilliseconds>
+    <Text>"[@I@] want water."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>23927</StartMilliseconds>
+    <EndMilliseconds>24439</EndMilliseconds>
+    <Text>"I [@want@] water."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>24440</StartMilliseconds>
+    <EndMilliseconds>25536</EndMilliseconds>
+    <Text>"I want [@water@]."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>25537</StartMilliseconds>
+    <EndMilliseconds>26317</EndMilliseconds>
+    <Text>"I want water."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>26318</StartMilliseconds>
+    <EndMilliseconds>26615</EndMilliseconds>
+    <Text>[e@"I want water."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>26616</StartMilliseconds>
+    <EndMilliseconds>27899</EndMilliseconds>
+    <Text>Teddy is tired.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>27900</StartMilliseconds>
+    <EndMilliseconds>28404</EndMilliseconds>
+    <Text>[s@Teddy is tired.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>28405</StartMilliseconds>
+    <EndMilliseconds>28823</EndMilliseconds>
+    <Text>[@Teddy@] is tired.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>28824</StartMilliseconds>
+    <EndMilliseconds>29225</EndMilliseconds>
+    <Text>Teddy [@is@] tired.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>29226</StartMilliseconds>
+    <EndMilliseconds>30473</EndMilliseconds>
+    <Text>Teddy is [@tired@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>30474</StartMilliseconds>
+    <EndMilliseconds>31156</EndMilliseconds>
+    <Text>Teddy is tired.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>31157</StartMilliseconds>
+    <EndMilliseconds>31366</EndMilliseconds>
+    <Text>[e@Teddy is tired.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>31367</StartMilliseconds>
+    <EndMilliseconds>31608</EndMilliseconds>
+    <Text>Teddy is hungry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>31609</StartMilliseconds>
+    <EndMilliseconds>32163</EndMilliseconds>
+    <Text>[@Teddy@] is hungry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>32164</StartMilliseconds>
+    <EndMilliseconds>32362</EndMilliseconds>
+    <Text>Teddy [@is@] hungry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>32363</StartMilliseconds>
+    <EndMilliseconds>33235</EndMilliseconds>
+    <Text>Teddy is [@hungry@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>33236</StartMilliseconds>
+    <EndMilliseconds>36065</EndMilliseconds>
+    <Text>Teddy is hungry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>36066</StartMilliseconds>
+    <EndMilliseconds>36336</EndMilliseconds>
+    <Text>[e@Teddy is hungry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>36337</StartMilliseconds>
+    <EndMilliseconds>37432</EndMilliseconds>
+    <Text>Teddy is sleepy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>37433</StartMilliseconds>
+    <EndMilliseconds>38005</EndMilliseconds>
+    <Text>[@Teddy@] is sleepy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>38006</StartMilliseconds>
+    <EndMilliseconds>38289</EndMilliseconds>
+    <Text>Teddy [@is@] sleepy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>38290</StartMilliseconds>
+    <EndMilliseconds>39452</EndMilliseconds>
+    <Text>Teddy is [@sleepy@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>39453</StartMilliseconds>
+    <EndMilliseconds>40722</EndMilliseconds>
+    <Text>Teddy is sleepy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>40723</StartMilliseconds>
+    <EndMilliseconds>41024</EndMilliseconds>
+    <Text>[e@Teddy is sleepy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>41025</StartMilliseconds>
+    <EndMilliseconds>41850</EndMilliseconds>
+    <Text>Good night!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>41851</StartMilliseconds>
+    <EndMilliseconds>42177</EndMilliseconds>
+    <Text>[@Good@] night!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>42178</StartMilliseconds>
+    <EndMilliseconds>43433</EndMilliseconds>
+    <Text>Good [@night@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>43434</StartMilliseconds>
+    <EndMilliseconds>45758</EndMilliseconds>
+    <Text>Good night!</Text>
+  </Paragraph>
+</Subtitle>

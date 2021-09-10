@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>9483</EndMilliseconds>
+    <Text>One cloud.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>9484</StartMilliseconds>
+    <EndMilliseconds>10127</EndMilliseconds>
+    <Text>[@One@] cloud.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>10128</StartMilliseconds>
+    <EndMilliseconds>10963</EndMilliseconds>
+    <Text>One [@cloud@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>10964</StartMilliseconds>
+    <EndMilliseconds>13376</EndMilliseconds>
+    <Text>One cloud.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>13377</StartMilliseconds>
+    <EndMilliseconds>14014</EndMilliseconds>
+    <Text>[e@One cloud.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>14015</StartMilliseconds>
+    <EndMilliseconds>15999</EndMilliseconds>
+    <Text>Many clouds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>16000</StartMilliseconds>
+    <EndMilliseconds>16368</EndMilliseconds>
+    <Text>[s@Many clouds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>16369</StartMilliseconds>
+    <EndMilliseconds>16860</EndMilliseconds>
+    <Text>[@Many@] clouds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>16861</StartMilliseconds>
+    <EndMilliseconds>17935</EndMilliseconds>
+    <Text>Many [@clouds@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>17936</StartMilliseconds>
+    <EndMilliseconds>19830</EndMilliseconds>
+    <Text>Many clouds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>19831</StartMilliseconds>
+    <EndMilliseconds>20422</EndMilliseconds>
+    <Text>[e@Many clouds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>20423</StartMilliseconds>
+    <EndMilliseconds>23998</EndMilliseconds>
+    <Text>One drop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>23999</StartMilliseconds>
+    <EndMilliseconds>24368</EndMilliseconds>
+    <Text>[s@One drop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>24369</StartMilliseconds>
+    <EndMilliseconds>24909</EndMilliseconds>
+    <Text>[@One@] drop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>24910</StartMilliseconds>
+    <EndMilliseconds>25537</EndMilliseconds>
+    <Text>One [@drop@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>25538</StartMilliseconds>
+    <EndMilliseconds>28592</EndMilliseconds>
+    <Text>One drop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>28593</StartMilliseconds>
+    <EndMilliseconds>29591</EndMilliseconds>
+    <Text>[e@One drop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>29592</StartMilliseconds>
+    <EndMilliseconds>33301</EndMilliseconds>
+    <Text>Many drops.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>33302</StartMilliseconds>
+    <EndMilliseconds>33760</EndMilliseconds>
+    <Text>[s@Many drops.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>33761</StartMilliseconds>
+    <EndMilliseconds>34257</EndMilliseconds>
+    <Text>[@Many@] drops.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>34258</StartMilliseconds>
+    <EndMilliseconds>35190</EndMilliseconds>
+    <Text>Many [@drops@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>35191</StartMilliseconds>
+    <EndMilliseconds>38492</EndMilliseconds>
+    <Text>Many drops.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>38493</StartMilliseconds>
+    <EndMilliseconds>38884</EndMilliseconds>
+    <Text>[e@Many drops.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>38885</StartMilliseconds>
+    <EndMilliseconds>40414</EndMilliseconds>
+    <Text>One umbrella.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>40415</StartMilliseconds>
+    <EndMilliseconds>41084</EndMilliseconds>
+    <Text>[@One@] umbrella.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>41085</StartMilliseconds>
+    <EndMilliseconds>42147</EndMilliseconds>
+    <Text>One [@umbrella@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>42148</StartMilliseconds>
+    <EndMilliseconds>47345</EndMilliseconds>
+    <Text>One umbrella.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>47346</StartMilliseconds>
+    <EndMilliseconds>49627</EndMilliseconds>
+    <Text>[e@One umbrella.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>49628</StartMilliseconds>
+    <EndMilliseconds>51665</EndMilliseconds>
+    <Text>Many umbrellas.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>51666</StartMilliseconds>
+    <EndMilliseconds>52092</EndMilliseconds>
+    <Text>[s@Many umbrellas.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>52093</StartMilliseconds>
+    <EndMilliseconds>52593</EndMilliseconds>
+    <Text>[@Many@] umbrellas.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>52594</StartMilliseconds>
+    <EndMilliseconds>53765</EndMilliseconds>
+    <Text>Many [@umbrellas@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>53766</StartMilliseconds>
+    <EndMilliseconds>58304</EndMilliseconds>
+    <Text>Many umbrellas.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>58305</StartMilliseconds>
+    <EndMilliseconds>58673</EndMilliseconds>
+    <Text>[e@Many umbrellas.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>58674</StartMilliseconds>
+    <EndMilliseconds>67637</EndMilliseconds>
+    <Text>One kid.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>67638</StartMilliseconds>
+    <EndMilliseconds>68218</EndMilliseconds>
+    <Text>[s@One kid.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>68219</StartMilliseconds>
+    <EndMilliseconds>68927</EndMilliseconds>
+    <Text>[@One@] kid.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>68928</StartMilliseconds>
+    <EndMilliseconds>69735</EndMilliseconds>
+    <Text>One [@kid@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>69736</StartMilliseconds>
+    <EndMilliseconds>70129</EndMilliseconds>
+    <Text>One kid.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>70130</StartMilliseconds>
+    <EndMilliseconds>70353</EndMilliseconds>
+    <Text>[e@One kid.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>70354</StartMilliseconds>
+    <EndMilliseconds>70638</EndMilliseconds>
+    <Text>Many kids.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>70639</StartMilliseconds>
+    <EndMilliseconds>71320</EndMilliseconds>
+    <Text>[@Many@] kids.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>71321</StartMilliseconds>
+    <EndMilliseconds>72389</EndMilliseconds>
+    <Text>Many [@kids@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>72390</StartMilliseconds>
+    <EndMilliseconds>83389</EndMilliseconds>
+    <Text>Many kids.</Text>
+  </Paragraph>
+</Subtitle>

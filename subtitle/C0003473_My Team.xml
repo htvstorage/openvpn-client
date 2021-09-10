@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>3400</EndMilliseconds>
+    <Text>She is first.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>3401</StartMilliseconds>
+    <EndMilliseconds>3751</EndMilliseconds>
+    <Text>[s@She is first.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3752</StartMilliseconds>
+    <EndMilliseconds>4222</EndMilliseconds>
+    <Text>[@She@] is first.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>4223</StartMilliseconds>
+    <EndMilliseconds>4540</EndMilliseconds>
+    <Text>She [@is@] first.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>4541</StartMilliseconds>
+    <EndMilliseconds>5271</EndMilliseconds>
+    <Text>She is [@first@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>5272</StartMilliseconds>
+    <EndMilliseconds>11434</EndMilliseconds>
+    <Text>She is first.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>11435</StartMilliseconds>
+    <EndMilliseconds>11608</EndMilliseconds>
+    <Text>[e@She is first.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>11609</StartMilliseconds>
+    <EndMilliseconds>13335</EndMilliseconds>
+    <Text>He is second.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>13336</StartMilliseconds>
+    <EndMilliseconds>14377</EndMilliseconds>
+    <Text>[s@He is second.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>14378</StartMilliseconds>
+    <EndMilliseconds>14704</EndMilliseconds>
+    <Text>[@He@] is second.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>14705</StartMilliseconds>
+    <EndMilliseconds>14992</EndMilliseconds>
+    <Text>He [@is@] second.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>14993</StartMilliseconds>
+    <EndMilliseconds>15696</EndMilliseconds>
+    <Text>He is [@second@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>15697</StartMilliseconds>
+    <EndMilliseconds>21683</EndMilliseconds>
+    <Text>He is second.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>21684</StartMilliseconds>
+    <EndMilliseconds>21947</EndMilliseconds>
+    <Text>[e@He is second.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>21948</StartMilliseconds>
+    <EndMilliseconds>23570</EndMilliseconds>
+    <Text>She is third.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>23571</StartMilliseconds>
+    <EndMilliseconds>24443</EndMilliseconds>
+    <Text>[s@She is third.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>24444</StartMilliseconds>
+    <EndMilliseconds>24891</EndMilliseconds>
+    <Text>[@She@] is third.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>24892</StartMilliseconds>
+    <EndMilliseconds>25181</EndMilliseconds>
+    <Text>She [@is@] third.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>25182</StartMilliseconds>
+    <EndMilliseconds>25874</EndMilliseconds>
+    <Text>She is [@third@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>25875</StartMilliseconds>
+    <EndMilliseconds>30629</EndMilliseconds>
+    <Text>She is third.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>30630</StartMilliseconds>
+    <EndMilliseconds>30874</EndMilliseconds>
+    <Text>[e@She is third.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>30875</StartMilliseconds>
+    <EndMilliseconds>32537</EndMilliseconds>
+    <Text>He is fourth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>32538</StartMilliseconds>
+    <EndMilliseconds>33535</EndMilliseconds>
+    <Text>[s@He is fourth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>33536</StartMilliseconds>
+    <EndMilliseconds>33875</EndMilliseconds>
+    <Text>[@He@] is fourth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>33876</StartMilliseconds>
+    <EndMilliseconds>34191</EndMilliseconds>
+    <Text>He [@is@] fourth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>34192</StartMilliseconds>
+    <EndMilliseconds>34876</EndMilliseconds>
+    <Text>He is [@fourth@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>34877</StartMilliseconds>
+    <EndMilliseconds>43471</EndMilliseconds>
+    <Text>He is fourth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>43472</StartMilliseconds>
+    <EndMilliseconds>43686</EndMilliseconds>
+    <Text>[e@He is fourth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>43687</StartMilliseconds>
+    <EndMilliseconds>45257</EndMilliseconds>
+    <Text>He is fifth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>45258</StartMilliseconds>
+    <EndMilliseconds>46413</EndMilliseconds>
+    <Text>[s@He is fifth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>46414</StartMilliseconds>
+    <EndMilliseconds>46726</EndMilliseconds>
+    <Text>[@He@] is fifth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>46727</StartMilliseconds>
+    <EndMilliseconds>47006</EndMilliseconds>
+    <Text>He [@is@] fifth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>47007</StartMilliseconds>
+    <EndMilliseconds>47629</EndMilliseconds>
+    <Text>He is [@fifth@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>47630</StartMilliseconds>
+    <EndMilliseconds>53094</EndMilliseconds>
+    <Text>He is fifth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>53095</StartMilliseconds>
+    <EndMilliseconds>53345</EndMilliseconds>
+    <Text>[e@He is fifth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>53346</StartMilliseconds>
+    <EndMilliseconds>54901</EndMilliseconds>
+    <Text>She is sixth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>54902</StartMilliseconds>
+    <EndMilliseconds>55747</EndMilliseconds>
+    <Text>[s@She is sixth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>55748</StartMilliseconds>
+    <EndMilliseconds>56329</EndMilliseconds>
+    <Text>[@She@] is sixth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>56330</StartMilliseconds>
+    <EndMilliseconds>56617</EndMilliseconds>
+    <Text>She [@is@] sixth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>56618</StartMilliseconds>
+    <EndMilliseconds>57547</EndMilliseconds>
+    <Text>She is [@sixth@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>57548</StartMilliseconds>
+    <EndMilliseconds>61832</EndMilliseconds>
+    <Text>She is sixth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>61833</StartMilliseconds>
+    <EndMilliseconds>62073</EndMilliseconds>
+    <Text>[e@She is sixth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>62074</StartMilliseconds>
+    <EndMilliseconds>63685</EndMilliseconds>
+    <Text>He is seventh.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>63686</StartMilliseconds>
+    <EndMilliseconds>64499</EndMilliseconds>
+    <Text>[s@He is seventh.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>64500</StartMilliseconds>
+    <EndMilliseconds>64910</EndMilliseconds>
+    <Text>[@He@] is seventh.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>64911</StartMilliseconds>
+    <EndMilliseconds>65115</EndMilliseconds>
+    <Text>He [@is@] seventh.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>65116</StartMilliseconds>
+    <EndMilliseconds>66110</EndMilliseconds>
+    <Text>He is [@seventh@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>66111</StartMilliseconds>
+    <EndMilliseconds>69478</EndMilliseconds>
+    <Text>He is seventh.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>69479</StartMilliseconds>
+    <EndMilliseconds>69752</EndMilliseconds>
+    <Text>[e@He is seventh.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>69753</StartMilliseconds>
+    <EndMilliseconds>71336</EndMilliseconds>
+    <Text>She is eighth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>71337</StartMilliseconds>
+    <EndMilliseconds>72393</EndMilliseconds>
+    <Text>[s@She is eighth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>72394</StartMilliseconds>
+    <EndMilliseconds>72843</EndMilliseconds>
+    <Text>[@She@] is eighth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>72844</StartMilliseconds>
+    <EndMilliseconds>73219</EndMilliseconds>
+    <Text>She [@is@] eighth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>73220</StartMilliseconds>
+    <EndMilliseconds>74042</EndMilliseconds>
+    <Text>She is [@eighth@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>74043</StartMilliseconds>
+    <EndMilliseconds>76957</EndMilliseconds>
+    <Text>She is eighth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>76958</StartMilliseconds>
+    <EndMilliseconds>77353</EndMilliseconds>
+    <Text>[e@She is eighth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>77354</StartMilliseconds>
+    <EndMilliseconds>78887</EndMilliseconds>
+    <Text>She is ninth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>78888</StartMilliseconds>
+    <EndMilliseconds>79700</EndMilliseconds>
+    <Text>[s@She is ninth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>79701</StartMilliseconds>
+    <EndMilliseconds>80197</EndMilliseconds>
+    <Text>[@She@] is ninth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>80198</StartMilliseconds>
+    <EndMilliseconds>80532</EndMilliseconds>
+    <Text>She [@is@] ninth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>80533</StartMilliseconds>
+    <EndMilliseconds>81526</EndMilliseconds>
+    <Text>She is [@ninth@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>81527</StartMilliseconds>
+    <EndMilliseconds>84190</EndMilliseconds>
+    <Text>She is ninth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>84191</StartMilliseconds>
+    <EndMilliseconds>84467</EndMilliseconds>
+    <Text>[e@She is ninth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>84468</StartMilliseconds>
+    <EndMilliseconds>86104</EndMilliseconds>
+    <Text>I am tenth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>86105</StartMilliseconds>
+    <EndMilliseconds>86914</EndMilliseconds>
+    <Text>[s@I am tenth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>86915</StartMilliseconds>
+    <EndMilliseconds>87442</EndMilliseconds>
+    <Text>[@I@] am tenth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>87443</StartMilliseconds>
+    <EndMilliseconds>87716</EndMilliseconds>
+    <Text>I [@am@] tenth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>87717</StartMilliseconds>
+    <EndMilliseconds>88622</EndMilliseconds>
+    <Text>I am [@tenth@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>88623</StartMilliseconds>
+    <EndMilliseconds>92315</EndMilliseconds>
+    <Text>I am tenth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>92316</StartMilliseconds>
+    <EndMilliseconds>92540</EndMilliseconds>
+    <Text>[e@I am tenth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>92541</StartMilliseconds>
+    <EndMilliseconds>94544</EndMilliseconds>
+    <Text>My team is great!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>94545</StartMilliseconds>
+    <EndMilliseconds>95078</EndMilliseconds>
+    <Text>[s@My team is great!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>95079</StartMilliseconds>
+    <EndMilliseconds>95642</EndMilliseconds>
+    <Text>[@My@] team is great!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>95643</StartMilliseconds>
+    <EndMilliseconds>96116</EndMilliseconds>
+    <Text>My [@team@] is great!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>96117</StartMilliseconds>
+    <EndMilliseconds>96341</EndMilliseconds>
+    <Text>My team [@is@] great!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>96342</StartMilliseconds>
+    <EndMilliseconds>97307</EndMilliseconds>
+    <Text>My team is [@great@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>97308</StartMilliseconds>
+    <EndMilliseconds>99977</EndMilliseconds>
+    <Text>My team is great!</Text>
+  </Paragraph>
+</Subtitle>

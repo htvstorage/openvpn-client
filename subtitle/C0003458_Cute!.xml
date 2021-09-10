@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>8980</EndMilliseconds>
+    <Text>The kitten is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>8981</StartMilliseconds>
+    <EndMilliseconds>9231</EndMilliseconds>
+    <Text>[@The@] kitten is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>9232</StartMilliseconds>
+    <EndMilliseconds>9835</EndMilliseconds>
+    <Text>The [@kitten@] is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>9836</StartMilliseconds>
+    <EndMilliseconds>10153</EndMilliseconds>
+    <Text>The kitten [@is@] cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>10154</StartMilliseconds>
+    <EndMilliseconds>11153</EndMilliseconds>
+    <Text>The kitten is [@cute@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>11154</StartMilliseconds>
+    <EndMilliseconds>11679</EndMilliseconds>
+    <Text>The kitten is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>11680</StartMilliseconds>
+    <EndMilliseconds>12137</EndMilliseconds>
+    <Text>[e@The kitten is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>12138</StartMilliseconds>
+    <EndMilliseconds>25484</EndMilliseconds>
+    <Text>The puppy is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>25485</StartMilliseconds>
+    <EndMilliseconds>26214</EndMilliseconds>
+    <Text>[s@The puppy is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>26215</StartMilliseconds>
+    <EndMilliseconds>26465</EndMilliseconds>
+    <Text>[@The@] puppy is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>26466</StartMilliseconds>
+    <EndMilliseconds>27093</EndMilliseconds>
+    <Text>The [@puppy@] is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>27094</StartMilliseconds>
+    <EndMilliseconds>27511</EndMilliseconds>
+    <Text>The puppy [@is@] cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>27512</StartMilliseconds>
+    <EndMilliseconds>28491</EndMilliseconds>
+    <Text>The puppy is [@cute@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>28492</StartMilliseconds>
+    <EndMilliseconds>29067</EndMilliseconds>
+    <Text>The puppy is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>29068</StartMilliseconds>
+    <EndMilliseconds>29542</EndMilliseconds>
+    <Text>[e@The puppy is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>29543</StartMilliseconds>
+    <EndMilliseconds>41807</EndMilliseconds>
+    <Text>The duckling is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>41808</StartMilliseconds>
+    <EndMilliseconds>42306</EndMilliseconds>
+    <Text>[s@The duckling is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>42307</StartMilliseconds>
+    <EndMilliseconds>42581</EndMilliseconds>
+    <Text>[@The@] duckling is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>42582</StartMilliseconds>
+    <EndMilliseconds>43168</EndMilliseconds>
+    <Text>The [@duckling@] is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>43169</StartMilliseconds>
+    <EndMilliseconds>43561</EndMilliseconds>
+    <Text>The duckling [@is@] cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>43562</StartMilliseconds>
+    <EndMilliseconds>44488</EndMilliseconds>
+    <Text>The duckling is [@cute@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>44489</StartMilliseconds>
+    <EndMilliseconds>45399</EndMilliseconds>
+    <Text>The duckling is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>45400</StartMilliseconds>
+    <EndMilliseconds>46336</EndMilliseconds>
+    <Text>[e@The duckling is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>46337</StartMilliseconds>
+    <EndMilliseconds>57723</EndMilliseconds>
+    <Text>The chick is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>57724</StartMilliseconds>
+    <EndMilliseconds>58197</EndMilliseconds>
+    <Text>[s@The chick is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>58198</StartMilliseconds>
+    <EndMilliseconds>58479</EndMilliseconds>
+    <Text>[@The@] chick is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>58480</StartMilliseconds>
+    <EndMilliseconds>58984</EndMilliseconds>
+    <Text>The [@chick@] is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>58985</StartMilliseconds>
+    <EndMilliseconds>59377</EndMilliseconds>
+    <Text>The chick [@is@] cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>59378</StartMilliseconds>
+    <EndMilliseconds>60328</EndMilliseconds>
+    <Text>The chick is [@cute@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>60329</StartMilliseconds>
+    <EndMilliseconds>61120</EndMilliseconds>
+    <Text>The chick is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>61121</StartMilliseconds>
+    <EndMilliseconds>61611</EndMilliseconds>
+    <Text>[e@The chick is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>61612</StartMilliseconds>
+    <EndMilliseconds>69490</EndMilliseconds>
+    <Text>The piglet is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>69491</StartMilliseconds>
+    <EndMilliseconds>69947</EndMilliseconds>
+    <Text>[s@The piglet is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>69948</StartMilliseconds>
+    <EndMilliseconds>70250</EndMilliseconds>
+    <Text>[@The@] piglet is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>70251</StartMilliseconds>
+    <EndMilliseconds>70928</EndMilliseconds>
+    <Text>The [@piglet@] is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>70929</StartMilliseconds>
+    <EndMilliseconds>71249</EndMilliseconds>
+    <Text>The piglet [@is@] cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>71250</StartMilliseconds>
+    <EndMilliseconds>72169</EndMilliseconds>
+    <Text>The piglet is [@cute@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>72170</StartMilliseconds>
+    <EndMilliseconds>73423</EndMilliseconds>
+    <Text>The piglet is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>73424</StartMilliseconds>
+    <EndMilliseconds>74629</EndMilliseconds>
+    <Text>[e@The piglet is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>74630</StartMilliseconds>
+    <EndMilliseconds>85500</EndMilliseconds>
+    <Text>The lamb is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>85501</StartMilliseconds>
+    <EndMilliseconds>86022</EndMilliseconds>
+    <Text>[s@The lamb is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>86023</StartMilliseconds>
+    <EndMilliseconds>86273</EndMilliseconds>
+    <Text>[@The@] lamb is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>86274</StartMilliseconds>
+    <EndMilliseconds>86793</EndMilliseconds>
+    <Text>The [@lamb@] is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>86794</StartMilliseconds>
+    <EndMilliseconds>87142</EndMilliseconds>
+    <Text>The lamb [@is@] cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>87143</StartMilliseconds>
+    <EndMilliseconds>88049</EndMilliseconds>
+    <Text>The lamb is [@cute@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>88050</StartMilliseconds>
+    <EndMilliseconds>88742</EndMilliseconds>
+    <Text>The lamb is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>88743</StartMilliseconds>
+    <EndMilliseconds>89290</EndMilliseconds>
+    <Text>[e@The lamb is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>89291</StartMilliseconds>
+    <EndMilliseconds>93027</EndMilliseconds>
+    <Text>The calf is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>93028</StartMilliseconds>
+    <EndMilliseconds>93586</EndMilliseconds>
+    <Text>[s@The calf is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>93587</StartMilliseconds>
+    <EndMilliseconds>93863</EndMilliseconds>
+    <Text>[@The@] calf is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>93864</StartMilliseconds>
+    <EndMilliseconds>94364</EndMilliseconds>
+    <Text>The [@calf@] is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>94365</StartMilliseconds>
+    <EndMilliseconds>94675</EndMilliseconds>
+    <Text>The calf [@is@] cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>94676</StartMilliseconds>
+    <EndMilliseconds>95633</EndMilliseconds>
+    <Text>The calf is [@cute@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>95634</StartMilliseconds>
+    <EndMilliseconds>96500</EndMilliseconds>
+    <Text>The calf is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>96501</StartMilliseconds>
+    <EndMilliseconds>97268</EndMilliseconds>
+    <Text>[e@The calf is cute.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>97269</StartMilliseconds>
+    <EndMilliseconds>105284</EndMilliseconds>
+    <Text>I love them all!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>105285</StartMilliseconds>
+    <EndMilliseconds>105766</EndMilliseconds>
+    <Text>[s@I love them all!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>105767</StartMilliseconds>
+    <EndMilliseconds>106180</EndMilliseconds>
+    <Text>[@I@] love them all!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>106181</StartMilliseconds>
+    <EndMilliseconds>106517</EndMilliseconds>
+    <Text>I [@love@] them all!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>106518</StartMilliseconds>
+    <EndMilliseconds>106828</EndMilliseconds>
+    <Text>I love [@them@] all!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>106829</StartMilliseconds>
+    <EndMilliseconds>107818</EndMilliseconds>
+    <Text>I love them [@all@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>107819</StartMilliseconds>
+    <EndMilliseconds>110238</EndMilliseconds>
+    <Text>I love them all!</Text>
+  </Paragraph>
+</Subtitle>

@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>1</StartMilliseconds>
+    <EndMilliseconds>2333</EndMilliseconds>
+    <Text>My head is a circle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>2334</StartMilliseconds>
+    <EndMilliseconds>3901</EndMilliseconds>
+    <Text>[s@My head is a circle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3902</StartMilliseconds>
+    <EndMilliseconds>4187</EndMilliseconds>
+    <Text>[@My@] head is a circle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>4188</StartMilliseconds>
+    <EndMilliseconds>4584</EndMilliseconds>
+    <Text>My [@head@] is a circle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>4585</StartMilliseconds>
+    <EndMilliseconds>4780</EndMilliseconds>
+    <Text>My head [@is@] a circle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>4781</StartMilliseconds>
+    <EndMilliseconds>4930</EndMilliseconds>
+    <Text>My head is [@a@] circle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>4931</StartMilliseconds>
+    <EndMilliseconds>5786</EndMilliseconds>
+    <Text>My head is a [@circle@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>5787</StartMilliseconds>
+    <EndMilliseconds>6190</EndMilliseconds>
+    <Text>My head is a circle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>6191</StartMilliseconds>
+    <EndMilliseconds>6345</EndMilliseconds>
+    <Text>[e@My head is a circle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>6346</StartMilliseconds>
+    <EndMilliseconds>8879</EndMilliseconds>
+    <Text>My hat is a triangle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>8880</StartMilliseconds>
+    <EndMilliseconds>10495</EndMilliseconds>
+    <Text>[s@My hat is a triangle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>10496</StartMilliseconds>
+    <EndMilliseconds>10838</EndMilliseconds>
+    <Text>[@My@] hat is a triangle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>10839</StartMilliseconds>
+    <EndMilliseconds>11241</EndMilliseconds>
+    <Text>My [@hat@] is a triangle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>11242</StartMilliseconds>
+    <EndMilliseconds>11451</EndMilliseconds>
+    <Text>My hat [@is@] a triangle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>11452</StartMilliseconds>
+    <EndMilliseconds>11625</EndMilliseconds>
+    <Text>My hat is [@a@] triangle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>11626</StartMilliseconds>
+    <EndMilliseconds>12695</EndMilliseconds>
+    <Text>My hat is a [@triangle@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>12696</StartMilliseconds>
+    <EndMilliseconds>13233</EndMilliseconds>
+    <Text>My hat is a triangle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>13234</StartMilliseconds>
+    <EndMilliseconds>13406</EndMilliseconds>
+    <Text>[e@My hat is a triangle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>13407</StartMilliseconds>
+    <EndMilliseconds>15333</EndMilliseconds>
+    <Text>My body is a square.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>15334</StartMilliseconds>
+    <EndMilliseconds>17075</EndMilliseconds>
+    <Text>[s@My body is a square.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>17076</StartMilliseconds>
+    <EndMilliseconds>17370</EndMilliseconds>
+    <Text>[@My@] body is a square.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>17371</StartMilliseconds>
+    <EndMilliseconds>17777</EndMilliseconds>
+    <Text>My [@body@] is a square.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>17778</StartMilliseconds>
+    <EndMilliseconds>17977</EndMilliseconds>
+    <Text>My body [@is@] a square.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>17978</StartMilliseconds>
+    <EndMilliseconds>18145</EndMilliseconds>
+    <Text>My body is [@a@] square.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>18146</StartMilliseconds>
+    <EndMilliseconds>18966</EndMilliseconds>
+    <Text>My body is a [@square@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>18967</StartMilliseconds>
+    <EndMilliseconds>19786</EndMilliseconds>
+    <Text>My body is a square.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>19787</StartMilliseconds>
+    <EndMilliseconds>20020</EndMilliseconds>
+    <Text>[e@My body is a square.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>20021</StartMilliseconds>
+    <EndMilliseconds>21894</EndMilliseconds>
+    <Text>My arms are rectangles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>21895</StartMilliseconds>
+    <EndMilliseconds>23686</EndMilliseconds>
+    <Text>[s@My arms are rectangles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>23687</StartMilliseconds>
+    <EndMilliseconds>23959</EndMilliseconds>
+    <Text>[@My@] arms are rectangles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>23960</StartMilliseconds>
+    <EndMilliseconds>24388</EndMilliseconds>
+    <Text>My [@arms@] are rectangles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>24389</StartMilliseconds>
+    <EndMilliseconds>24593</EndMilliseconds>
+    <Text>My arms [@are@] rectangles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>24594</StartMilliseconds>
+    <EndMilliseconds>25851</EndMilliseconds>
+    <Text>My arms are [@rectangles@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>25852</StartMilliseconds>
+    <EndMilliseconds>27617</EndMilliseconds>
+    <Text>My arms are rectangles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>27618</StartMilliseconds>
+    <EndMilliseconds>27895</EndMilliseconds>
+    <Text>[e@My arms are rectangles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>27896</StartMilliseconds>
+    <EndMilliseconds>29610</EndMilliseconds>
+    <Text>My legs are rectangles too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>29611</StartMilliseconds>
+    <EndMilliseconds>31357</EndMilliseconds>
+    <Text>[s@My legs are rectangles too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>31358</StartMilliseconds>
+    <EndMilliseconds>31576</EndMilliseconds>
+    <Text>[@My@] legs are rectangles too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>31577</StartMilliseconds>
+    <EndMilliseconds>31961</EndMilliseconds>
+    <Text>My [@legs@] are rectangles too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>31962</StartMilliseconds>
+    <EndMilliseconds>32160</EndMilliseconds>
+    <Text>My legs [@are@] rectangles too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>32161</StartMilliseconds>
+    <EndMilliseconds>32872</EndMilliseconds>
+    <Text>My legs are [@rectangles@] too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>32873</StartMilliseconds>
+    <EndMilliseconds>33511</EndMilliseconds>
+    <Text>My legs are rectangles [@too@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>33512</StartMilliseconds>
+    <EndMilliseconds>34991</EndMilliseconds>
+    <Text>My legs are rectangles too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>34992</StartMilliseconds>
+    <EndMilliseconds>35267</EndMilliseconds>
+    <Text>[e@My legs are rectangles too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>35268</StartMilliseconds>
+    <EndMilliseconds>37775</EndMilliseconds>
+    <Text>My hands are diamonds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>37776</StartMilliseconds>
+    <EndMilliseconds>39151</EndMilliseconds>
+    <Text>[s@My hands are diamonds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>39152</StartMilliseconds>
+    <EndMilliseconds>39415</EndMilliseconds>
+    <Text>[@My@] hands are diamonds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>39416</StartMilliseconds>
+    <EndMilliseconds>39780</EndMilliseconds>
+    <Text>My [@hands@] are diamonds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>39781</StartMilliseconds>
+    <EndMilliseconds>39997</EndMilliseconds>
+    <Text>My hands [@are@] diamonds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>39998</StartMilliseconds>
+    <EndMilliseconds>40898</EndMilliseconds>
+    <Text>My hands are [@diamonds@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>40899</StartMilliseconds>
+    <EndMilliseconds>42674</EndMilliseconds>
+    <Text>My hands are diamonds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>42675</StartMilliseconds>
+    <EndMilliseconds>43006</EndMilliseconds>
+    <Text>[e@My hands are diamonds.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>43007</StartMilliseconds>
+    <EndMilliseconds>45692</EndMilliseconds>
+    <Text>My feet are ovals.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>45693</StartMilliseconds>
+    <EndMilliseconds>47259</EndMilliseconds>
+    <Text>[s@My feet are ovals.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>47260</StartMilliseconds>
+    <EndMilliseconds>47519</EndMilliseconds>
+    <Text>[@My@] feet are ovals.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>47520</StartMilliseconds>
+    <EndMilliseconds>47917</EndMilliseconds>
+    <Text>My [@feet@] are ovals.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>47918</StartMilliseconds>
+    <EndMilliseconds>48157</EndMilliseconds>
+    <Text>My feet [@are@] ovals.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>48158</StartMilliseconds>
+    <EndMilliseconds>49155</EndMilliseconds>
+    <Text>My feet are [@ovals@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>49156</StartMilliseconds>
+    <EndMilliseconds>51010</EndMilliseconds>
+    <Text>My feet are ovals.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>51011</StartMilliseconds>
+    <EndMilliseconds>51333</EndMilliseconds>
+    <Text>[e@My feet are ovals.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>51334</StartMilliseconds>
+    <EndMilliseconds>53892</EndMilliseconds>
+    <Text>Mr. Shapey is my name!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>53893</StartMilliseconds>
+    <EndMilliseconds>54513</EndMilliseconds>
+    <Text>[s@Mr. Shapey is my name!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>54514</StartMilliseconds>
+    <EndMilliseconds>55337</EndMilliseconds>
+    <Text>[@Mr. Shapey@] is my name!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>55338</StartMilliseconds>
+    <EndMilliseconds>55712</EndMilliseconds>
+    <Text>Mr. Shapey [@is@] my name!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>55713</StartMilliseconds>
+    <EndMilliseconds>55941</EndMilliseconds>
+    <Text>Mr. Shapey is [@my@] name!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>55942</StartMilliseconds>
+    <EndMilliseconds>56715</EndMilliseconds>
+    <Text>Mr. Shapey is my [@name@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>56716</StartMilliseconds>
+    <EndMilliseconds>60224</EndMilliseconds>
+    <Text>Mr. Shapey is my name!</Text>
+  </Paragraph>
+</Subtitle>

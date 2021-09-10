@@ -1,0 +1,236 @@
+1
+00:00:02,250 --> 11:40:22,250
+I have a ball.
+
+2
+11:40:32,250 --> 12:30:02,250
+<font color="#ffff54">I</font> have a ball.
+
+3
+12:30:12,250 --> 13:26:42,250
+I <font color="#ffff54">have</font> a ball.
+
+4
+13:26:52,250 --> 13:56:52,250
+I have <font color="#ffff54">a</font> ball.
+
+5
+13:57:02,250 --> 16:28:12,250
+I have a <font color="#ffff54">ball</font>.
+
+6
+16:28:22,250 --> 21:03:02,250
+I have a ball.
+
+7
+21:03:12,250 --> 21:32:12,250
+[e@I have a ball.
+
+8
+21:32:22,250 --> 22:25:12,250
+This is my ball.
+
+9
+22:25:22,250 --> 23:18:22,250
+<font color="#ffff54">This</font> is my ball.
+
+10
+23:18:32,250 --> 23:56:12,250
+This <font color="#ffff54">is</font> my ball.
+
+11
+23:56:22,250 --> 25:38:52,250
+This is <font color="#ffff54">my</font> ball.
+
+12
+25:39:02,250 --> 27:43:42,250
+This is my <font color="#ffff54">ball</font>.
+
+13
+27:43:52,250 --> 28:05:02,250
+This is my ball.
+
+14
+28:05:12,250 --> 28:17:42,250
+[e@This is my ball.
+
+15
+28:17:52,250 --> 33:27:12,250
+Laura has a bat.
+
+16
+33:27:32,250 --> 34:46:42,250
+[s@Laura has a bat.
+
+17
+34:46:52,250 --> 36:13:22,250
+<font color="#ffff54">Laura</font> has a bat.
+
+18
+36:13:32,250 --> 36:45:32,250
+Laura <font color="#ffff54">has</font> a bat.
+
+19
+36:45:42,250 --> 37:18:42,250
+Laura has <font color="#ffff54">a</font> bat.
+
+20
+37:18:52,250 --> 39:35:42,250
+Laura has a <font color="#ffff54">bat</font>.
+
+21
+39:35:52,250 --> 43:20:12,250
+Laura has a bat.
+
+22
+43:20:22,250 --> 43:39:12,250
+[e@Laura has a bat.
+
+23
+43:39:22,250 --> 45:58:12,250
+This is her bat.
+
+24
+45:58:22,250 --> 47:18:12,250
+[s@This is her bat.
+
+25
+47:18:22,250 --> 48:16:22,250
+<font color="#ffff54">This</font> is her bat.
+
+26
+48:16:32,250 --> 49:02:02,250
+This <font color="#ffff54">is</font> her bat.
+
+27
+49:02:12,250 --> 50:18:22,250
+This is <font color="#ffff54">her</font> bat.
+
+28
+50:18:32,250 --> 52:31:42,250
+This is her <font color="#ffff54">bat</font>.
+
+29
+52:31:52,250 --> 53:28:52,250
+This is her bat.
+
+30
+53:29:02,250 --> 53:54:52,250
+[e@This is her bat.
+
+31
+53:55:02,250 --> 56:52:12,250
+Mike has a glove.
+
+32
+56:52:22,250 --> 57:25:02,250
+[s@Mike has a glove.
+
+33
+57:25:12,250 --> 58:32:02,250
+<font color="#ffff54">Mike</font> has a glove.
+
+34
+58:32:12,250 --> 59:38:12,250
+Mike <font color="#ffff54">has</font> a glove.
+
+35
+59:38:22,250 --> 60:12:42,250
+Mike has <font color="#ffff54">a</font> glove.
+
+36
+60:12:52,250 --> 62:33:42,250
+Mike has a <font color="#ffff54">glove</font>.
+
+37
+62:33:52,250 --> 65:59:12,250
+Mike has a glove.
+
+38
+65:59:22,250 --> 66:21:12,250
+[e@Mike has a glove.
+
+39
+66:21:32,250 --> 68:10:12,250
+This is his glove.
+
+40
+68:10:22,250 --> 69:08:22,250
+[s@This is his glove.
+
+41
+69:08:32,250 --> 70:31:12,250
+<font color="#ffff54">This</font> is his glove.
+
+42
+70:31:22,250 --> 71:25:52,250
+This <font color="#ffff54">is</font> his glove.
+
+43
+71:26:02,250 --> 72:35:12,250
+This is <font color="#ffff54">his</font> glove.
+
+44
+72:35:22,250 --> 75:38:52,250
+This is his <font color="#ffff54">glove</font>.
+
+45
+75:39:02,250 --> 76:31:22,250
+This is his glove.
+
+46
+76:31:32,250 --> 76:42:02,250
+[e@This is his glove.
+
+47
+76:42:12,250 --> 88:26:12,250
+Dad is our coach.
+
+48
+88:26:22,250 --> 90:28:32,250
+[s@Dad is our coach.
+
+49
+90:28:42,250 --> 92:01:12,250
+<font color="#ffff54">Dad</font> is our coach.
+
+50
+92:01:22,250 --> 92:47:12,250
+Dad <font color="#ffff54">is</font> our coach.
+
+51
+92:47:22,250 --> 94:21:42,250
+Dad is <font color="#ffff54">our</font> coach.
+
+52
+94:21:52,250 --> 97:01:22,250
+Dad is our <font color="#ffff54">coach</font>.
+
+53
+97:01:32,250 --> 113:46:12,250
+Dad is our coach.
+
+54
+113:46:22,250 --> 114:08:22,250
+[e@Dad is our coach.
+
+55
+114:08:32,250 --> 116:06:22,250
+Let's play baseball!
+
+56
+116:06:32,250 --> 117:36:32,250
+<font color="#ffff54">Let's</font> play baseball!
+
+57
+117:36:42,250 --> 118:51:02,250
+Let's <font color="#ffff54">play</font> baseball!
+
+58
+118:51:12,250 --> 122:40:12,250
+Let's play <font color="#ffff54">baseball</font>!
+
+59
+122:40:22,250 --> 140:16:22,250
+Let's play baseball!
+

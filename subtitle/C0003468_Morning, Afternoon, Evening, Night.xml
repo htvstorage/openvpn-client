@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>13830</EndMilliseconds>
+    <Text>It is morning.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>13831</StartMilliseconds>
+    <EndMilliseconds>13982</EndMilliseconds>
+    <Text>[@It@] is morning.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>13983</StartMilliseconds>
+    <EndMilliseconds>14255</EndMilliseconds>
+    <Text>It [@is@] morning.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>14256</StartMilliseconds>
+    <EndMilliseconds>15126</EndMilliseconds>
+    <Text>It is [@morning@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>15127</StartMilliseconds>
+    <EndMilliseconds>19281</EndMilliseconds>
+    <Text>It is morning.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>19282</StartMilliseconds>
+    <EndMilliseconds>19735</EndMilliseconds>
+    <Text>[e@It is morning.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>19736</StartMilliseconds>
+    <EndMilliseconds>22433</EndMilliseconds>
+    <Text>We eat breakfast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>22434</StartMilliseconds>
+    <EndMilliseconds>23129</EndMilliseconds>
+    <Text>[s@We eat breakfast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>23130</StartMilliseconds>
+    <EndMilliseconds>23399</EndMilliseconds>
+    <Text>[@We@] eat breakfast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>23400</StartMilliseconds>
+    <EndMilliseconds>23815</EndMilliseconds>
+    <Text>We [@eat@] breakfast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>23816</StartMilliseconds>
+    <EndMilliseconds>24993</EndMilliseconds>
+    <Text>We eat [@breakfast@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>24994</StartMilliseconds>
+    <EndMilliseconds>34862</EndMilliseconds>
+    <Text>We eat breakfast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>34863</StartMilliseconds>
+    <EndMilliseconds>35334</EndMilliseconds>
+    <Text>[e@We eat breakfast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>35335</StartMilliseconds>
+    <EndMilliseconds>41997</EndMilliseconds>
+    <Text>It is afternoon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>41998</StartMilliseconds>
+    <EndMilliseconds>42388</EndMilliseconds>
+    <Text>[s@It is afternoon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>42389</StartMilliseconds>
+    <EndMilliseconds>42562</EndMilliseconds>
+    <Text>[@It@] is afternoon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>42563</StartMilliseconds>
+    <EndMilliseconds>42803</EndMilliseconds>
+    <Text>It [@is@] afternoon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>42804</StartMilliseconds>
+    <EndMilliseconds>44017</EndMilliseconds>
+    <Text>It is [@afternoon@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>44018</StartMilliseconds>
+    <EndMilliseconds>49577</EndMilliseconds>
+    <Text>It is afternoon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>49578</StartMilliseconds>
+    <EndMilliseconds>50140</EndMilliseconds>
+    <Text>[e@It is afternoon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>50141</StartMilliseconds>
+    <EndMilliseconds>55002</EndMilliseconds>
+    <Text>We eat lunch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>55003</StartMilliseconds>
+    <EndMilliseconds>55713</EndMilliseconds>
+    <Text>[s@We eat lunch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>55714</StartMilliseconds>
+    <EndMilliseconds>56062</EndMilliseconds>
+    <Text>[@We@] eat lunch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>56063</StartMilliseconds>
+    <EndMilliseconds>56392</EndMilliseconds>
+    <Text>We [@eat@] lunch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>56393</StartMilliseconds>
+    <EndMilliseconds>57440</EndMilliseconds>
+    <Text>We eat [@lunch@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>57441</StartMilliseconds>
+    <EndMilliseconds>64080</EndMilliseconds>
+    <Text>We eat lunch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>64081</StartMilliseconds>
+    <EndMilliseconds>64605</EndMilliseconds>
+    <Text>[e@We eat lunch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>64606</StartMilliseconds>
+    <EndMilliseconds>74940</EndMilliseconds>
+    <Text>It is evening.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>74941</StartMilliseconds>
+    <EndMilliseconds>75515</EndMilliseconds>
+    <Text>[s@It is evening.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>75516</StartMilliseconds>
+    <EndMilliseconds>75718</EndMilliseconds>
+    <Text>[@It@] is evening.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>75719</StartMilliseconds>
+    <EndMilliseconds>75956</EndMilliseconds>
+    <Text>It [@is@] evening.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>75957</StartMilliseconds>
+    <EndMilliseconds>76734</EndMilliseconds>
+    <Text>It is [@evening@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>76735</StartMilliseconds>
+    <EndMilliseconds>80220</EndMilliseconds>
+    <Text>It is evening.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>80221</StartMilliseconds>
+    <EndMilliseconds>80607</EndMilliseconds>
+    <Text>[e@It is evening.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>80608</StartMilliseconds>
+    <EndMilliseconds>83060</EndMilliseconds>
+    <Text>We eat dinner.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>83061</StartMilliseconds>
+    <EndMilliseconds>83676</EndMilliseconds>
+    <Text>[s@We eat dinner.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>83677</StartMilliseconds>
+    <EndMilliseconds>83975</EndMilliseconds>
+    <Text>[@We@] eat dinner.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>83976</StartMilliseconds>
+    <EndMilliseconds>84432</EndMilliseconds>
+    <Text>We [@eat@] dinner.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>84433</StartMilliseconds>
+    <EndMilliseconds>85326</EndMilliseconds>
+    <Text>We eat [@dinner@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>85327</StartMilliseconds>
+    <EndMilliseconds>92346</EndMilliseconds>
+    <Text>We eat dinner.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>92347</StartMilliseconds>
+    <EndMilliseconds>92684</EndMilliseconds>
+    <Text>[e@We eat dinner.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>92685</StartMilliseconds>
+    <EndMilliseconds>94206</EndMilliseconds>
+    <Text>It is night.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>94207</StartMilliseconds>
+    <EndMilliseconds>94837</EndMilliseconds>
+    <Text>[s@It is night.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>94838</StartMilliseconds>
+    <EndMilliseconds>94992</EndMilliseconds>
+    <Text>[@It@] is night.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>94993</StartMilliseconds>
+    <EndMilliseconds>95281</EndMilliseconds>
+    <Text>It [@is@] night.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>95282</StartMilliseconds>
+    <EndMilliseconds>96263</EndMilliseconds>
+    <Text>It is [@night@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>96264</StartMilliseconds>
+    <EndMilliseconds>99574</EndMilliseconds>
+    <Text>It is night.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>99575</StartMilliseconds>
+    <EndMilliseconds>100159</EndMilliseconds>
+    <Text>[e@It is night.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>100160</StartMilliseconds>
+    <EndMilliseconds>100708</EndMilliseconds>
+    <Text>We go to bed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>100709</StartMilliseconds>
+    <EndMilliseconds>101086</EndMilliseconds>
+    <Text>[@We@] go to bed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>101087</StartMilliseconds>
+    <EndMilliseconds>101461</EndMilliseconds>
+    <Text>We [@go@] to bed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>101462</StartMilliseconds>
+    <EndMilliseconds>101831</EndMilliseconds>
+    <Text>We go [@to@] bed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>101832</StartMilliseconds>
+    <EndMilliseconds>102645</EndMilliseconds>
+    <Text>We go to [@bed@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>102646</StartMilliseconds>
+    <EndMilliseconds>109320</EndMilliseconds>
+    <Text>We go to bed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>109321</StartMilliseconds>
+    <EndMilliseconds>109811</EndMilliseconds>
+    <Text>[e@We go to bed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>109812</StartMilliseconds>
+    <EndMilliseconds>110788</EndMilliseconds>
+    <Text>Good night!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>110789</StartMilliseconds>
+    <EndMilliseconds>111026</EndMilliseconds>
+    <Text>[@Good@] night!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>111027</StartMilliseconds>
+    <EndMilliseconds>111920</EndMilliseconds>
+    <Text>Good [@night@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>111921</StartMilliseconds>
+    <EndMilliseconds>120657</EndMilliseconds>
+    <Text>Good night!</Text>
+  </Paragraph>
+</Subtitle>

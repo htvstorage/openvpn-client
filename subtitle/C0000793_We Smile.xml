@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1923</EndMilliseconds>
+    <Text>We run on the track.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1924</StartMilliseconds>
+    <EndMilliseconds>2191</EndMilliseconds>
+    <Text>[@We@] run on the track.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>2192</StartMilliseconds>
+    <EndMilliseconds>2543</EndMilliseconds>
+    <Text>We [@run@] on the track.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2544</StartMilliseconds>
+    <EndMilliseconds>2806</EndMilliseconds>
+    <Text>We run [@on@] the track.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>2807</StartMilliseconds>
+    <EndMilliseconds>3045</EndMilliseconds>
+    <Text>We run on [@the@] track.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>3046</StartMilliseconds>
+    <EndMilliseconds>3623</EndMilliseconds>
+    <Text>We run on the [@track@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>3624</StartMilliseconds>
+    <EndMilliseconds>4805</EndMilliseconds>
+    <Text>We run on the track.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>4806</StartMilliseconds>
+    <EndMilliseconds>5072</EndMilliseconds>
+    <Text>[e@We run on the track.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>5073</StartMilliseconds>
+    <EndMilliseconds>5965</EndMilliseconds>
+    <Text>We climb up and down.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>5966</StartMilliseconds>
+    <EndMilliseconds>6352</EndMilliseconds>
+    <Text>[@We@] climb up and down.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>6353</StartMilliseconds>
+    <EndMilliseconds>6643</EndMilliseconds>
+    <Text>We [@climb@] up and down.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>6644</StartMilliseconds>
+    <EndMilliseconds>6944</EndMilliseconds>
+    <Text>We climb [@up@] and down.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>6945</StartMilliseconds>
+    <EndMilliseconds>7262</EndMilliseconds>
+    <Text>We climb up [@and@] down.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>7263</StartMilliseconds>
+    <EndMilliseconds>7943</EndMilliseconds>
+    <Text>We climb up and [@down@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>7944</StartMilliseconds>
+    <EndMilliseconds>9357</EndMilliseconds>
+    <Text>We climb up and down.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>9358</StartMilliseconds>
+    <EndMilliseconds>9579</EndMilliseconds>
+    <Text>[e@We climb up and down.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>9580</StartMilliseconds>
+    <EndMilliseconds>10168</EndMilliseconds>
+    <Text>We turn around.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>10169</StartMilliseconds>
+    <EndMilliseconds>10583</EndMilliseconds>
+    <Text>[@We@] turn around.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>10584</StartMilliseconds>
+    <EndMilliseconds>10877</EndMilliseconds>
+    <Text>We [@turn@] around.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>10878</StartMilliseconds>
+    <EndMilliseconds>11899</EndMilliseconds>
+    <Text>We turn [@around@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>11900</StartMilliseconds>
+    <EndMilliseconds>13929</EndMilliseconds>
+    <Text>We turn around.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>13930</StartMilliseconds>
+    <EndMilliseconds>14217</EndMilliseconds>
+    <Text>[e@We turn around.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>14218</StartMilliseconds>
+    <EndMilliseconds>15249</EndMilliseconds>
+    <Text>We blow bubbles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>15250</StartMilliseconds>
+    <EndMilliseconds>15594</EndMilliseconds>
+    <Text>[@We@] blow bubbles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>15595</StartMilliseconds>
+    <EndMilliseconds>16099</EndMilliseconds>
+    <Text>We [@blow@] bubbles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>16100</StartMilliseconds>
+    <EndMilliseconds>17221</EndMilliseconds>
+    <Text>We blow [@bubbles@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>17222</StartMilliseconds>
+    <EndMilliseconds>18359</EndMilliseconds>
+    <Text>We blow bubbles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>18360</StartMilliseconds>
+    <EndMilliseconds>18603</EndMilliseconds>
+    <Text>[e@We blow bubbles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>18604</StartMilliseconds>
+    <EndMilliseconds>19144</EndMilliseconds>
+    <Text>We go through the tunnel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>19145</StartMilliseconds>
+    <EndMilliseconds>20275</EndMilliseconds>
+    <Text>[s@We go through the tunnel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>20276</StartMilliseconds>
+    <EndMilliseconds>20689</EndMilliseconds>
+    <Text>[@We@] go through the tunnel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>20690</StartMilliseconds>
+    <EndMilliseconds>21018</EndMilliseconds>
+    <Text>We [@go@] through the tunnel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>21019</StartMilliseconds>
+    <EndMilliseconds>21535</EndMilliseconds>
+    <Text>We go [@through@] the tunnel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>21536</StartMilliseconds>
+    <EndMilliseconds>21754</EndMilliseconds>
+    <Text>We go through [@the@] tunnel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>21755</StartMilliseconds>
+    <EndMilliseconds>22701</EndMilliseconds>
+    <Text>We go through the [@tunnel@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>22702</StartMilliseconds>
+    <EndMilliseconds>24039</EndMilliseconds>
+    <Text>We go through the tunnel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>24040</StartMilliseconds>
+    <EndMilliseconds>24286</EndMilliseconds>
+    <Text>[e@We go through the tunnel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>24287</StartMilliseconds>
+    <EndMilliseconds>25052</EndMilliseconds>
+    <Text>We touch the pole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>25053</StartMilliseconds>
+    <EndMilliseconds>25766</EndMilliseconds>
+    <Text>[s@We touch the pole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>25767</StartMilliseconds>
+    <EndMilliseconds>26117</EndMilliseconds>
+    <Text>[@We@] touch the pole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>26118</StartMilliseconds>
+    <EndMilliseconds>26468</EndMilliseconds>
+    <Text>We [@touch@] the pole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>26469</StartMilliseconds>
+    <EndMilliseconds>26689</EndMilliseconds>
+    <Text>We touch [@the@] pole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>26690</StartMilliseconds>
+    <EndMilliseconds>27457</EndMilliseconds>
+    <Text>We touch the [@pole@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>27458</StartMilliseconds>
+    <EndMilliseconds>28588</EndMilliseconds>
+    <Text>We touch the pole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>28589</StartMilliseconds>
+    <EndMilliseconds>28826</EndMilliseconds>
+    <Text>[e@We touch the pole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>28827</StartMilliseconds>
+    <EndMilliseconds>29501</EndMilliseconds>
+    <Text>We shoot the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>29502</StartMilliseconds>
+    <EndMilliseconds>29864</EndMilliseconds>
+    <Text>[@We@] shoot the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>29865</StartMilliseconds>
+    <EndMilliseconds>30219</EndMilliseconds>
+    <Text>We [@shoot@] the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>30220</StartMilliseconds>
+    <EndMilliseconds>30474</EndMilliseconds>
+    <Text>We shoot [@the@] ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>30475</StartMilliseconds>
+    <EndMilliseconds>31160</EndMilliseconds>
+    <Text>We shoot the [@ball@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>31161</StartMilliseconds>
+    <EndMilliseconds>34520</EndMilliseconds>
+    <Text>We shoot the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>34521</StartMilliseconds>
+    <EndMilliseconds>34748</EndMilliseconds>
+    <Text>[e@We shoot the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>34749</StartMilliseconds>
+    <EndMilliseconds>35048</EndMilliseconds>
+    <Text>We wave our hands.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>35049</StartMilliseconds>
+    <EndMilliseconds>35460</EndMilliseconds>
+    <Text>[@We@] wave our hands.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>35461</StartMilliseconds>
+    <EndMilliseconds>35871</EndMilliseconds>
+    <Text>We [@wave@] our hands.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>35872</StartMilliseconds>
+    <EndMilliseconds>36301</EndMilliseconds>
+    <Text>We wave [@our@] hands.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>36302</StartMilliseconds>
+    <EndMilliseconds>37170</EndMilliseconds>
+    <Text>We wave our [@hands@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>37171</StartMilliseconds>
+    <EndMilliseconds>38600</EndMilliseconds>
+    <Text>We wave our hands.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>38601</StartMilliseconds>
+    <EndMilliseconds>38825</EndMilliseconds>
+    <Text>[e@We wave our hands.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>38826</StartMilliseconds>
+    <EndMilliseconds>39480</EndMilliseconds>
+    <Text>We smile.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>39481</StartMilliseconds>
+    <EndMilliseconds>40041</EndMilliseconds>
+    <Text>[@We@] smile.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>40042</StartMilliseconds>
+    <EndMilliseconds>41216</EndMilliseconds>
+    <Text>We [@smile@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>41217</StartMilliseconds>
+    <EndMilliseconds>45087</EndMilliseconds>
+    <Text>We smile.</Text>
+  </Paragraph>
+</Subtitle>

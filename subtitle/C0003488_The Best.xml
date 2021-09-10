@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1464</EndMilliseconds>
+    <Text>Here they come!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1465</StartMilliseconds>
+    <EndMilliseconds>1873</EndMilliseconds>
+    <Text>[@Here@] they come!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>1874</StartMilliseconds>
+    <EndMilliseconds>2100</EndMilliseconds>
+    <Text>Here [@they@] come!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2101</StartMilliseconds>
+    <EndMilliseconds>2805</EndMilliseconds>
+    <Text>Here they [@come@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>2806</StartMilliseconds>
+    <EndMilliseconds>6802</EndMilliseconds>
+    <Text>Here they come!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>6803</StartMilliseconds>
+    <EndMilliseconds>7068</EndMilliseconds>
+    <Text>[e@Here they come!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>7069</StartMilliseconds>
+    <EndMilliseconds>8345</EndMilliseconds>
+    <Text>This one is too fat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>8346</StartMilliseconds>
+    <EndMilliseconds>8790</EndMilliseconds>
+    <Text>[s@This one is too fat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>8791</StartMilliseconds>
+    <EndMilliseconds>9286</EndMilliseconds>
+    <Text>[@This@] one is too fat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>9287</StartMilliseconds>
+    <EndMilliseconds>9416</EndMilliseconds>
+    <Text>This [@one@] is too fat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>9417</StartMilliseconds>
+    <EndMilliseconds>9686</EndMilliseconds>
+    <Text>This one [@is@] too fat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>9687</StartMilliseconds>
+    <EndMilliseconds>10312</EndMilliseconds>
+    <Text>This one is [@too@] fat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>10313</StartMilliseconds>
+    <EndMilliseconds>11018</EndMilliseconds>
+    <Text>This one is too [@fat@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>11019</StartMilliseconds>
+    <EndMilliseconds>11263</EndMilliseconds>
+    <Text>This one is too fat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>11264</StartMilliseconds>
+    <EndMilliseconds>11409</EndMilliseconds>
+    <Text>[e@This one is too fat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>11410</StartMilliseconds>
+    <EndMilliseconds>12580</EndMilliseconds>
+    <Text>This one is too skinny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>12581</StartMilliseconds>
+    <EndMilliseconds>12962</EndMilliseconds>
+    <Text>[@This@] one is too skinny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>12963</StartMilliseconds>
+    <EndMilliseconds>13151</EndMilliseconds>
+    <Text>This [@one@] is too skinny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>13152</StartMilliseconds>
+    <EndMilliseconds>13449</EndMilliseconds>
+    <Text>This one [@is@] too skinny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>13450</StartMilliseconds>
+    <EndMilliseconds>13810</EndMilliseconds>
+    <Text>This one is [@too@] skinny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>13811</StartMilliseconds>
+    <EndMilliseconds>14777</EndMilliseconds>
+    <Text>This one is too [@skinny@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>14778</StartMilliseconds>
+    <EndMilliseconds>15432</EndMilliseconds>
+    <Text>This one is too skinny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>15433</StartMilliseconds>
+    <EndMilliseconds>15607</EndMilliseconds>
+    <Text>[e@This one is too skinny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>15608</StartMilliseconds>
+    <EndMilliseconds>17011</EndMilliseconds>
+    <Text>This one is the best!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>17012</StartMilliseconds>
+    <EndMilliseconds>17440</EndMilliseconds>
+    <Text>[s@This one is the best!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>17441</StartMilliseconds>
+    <EndMilliseconds>17895</EndMilliseconds>
+    <Text>[@This@] one is the best!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>17896</StartMilliseconds>
+    <EndMilliseconds>18124</EndMilliseconds>
+    <Text>This [@one@] is the best!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>18125</StartMilliseconds>
+    <EndMilliseconds>18429</EndMilliseconds>
+    <Text>This one [@is@] the best!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>18430</StartMilliseconds>
+    <EndMilliseconds>18716</EndMilliseconds>
+    <Text>This one is [@the@] best!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>18717</StartMilliseconds>
+    <EndMilliseconds>19644</EndMilliseconds>
+    <Text>This one is the [@best@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>19645</StartMilliseconds>
+    <EndMilliseconds>21731</EndMilliseconds>
+    <Text>This one is the best!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>21732</StartMilliseconds>
+    <EndMilliseconds>21880</EndMilliseconds>
+    <Text>[e@This one is the best!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>21881</StartMilliseconds>
+    <EndMilliseconds>23208</EndMilliseconds>
+    <Text>This one is too hairy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>23209</StartMilliseconds>
+    <EndMilliseconds>23865</EndMilliseconds>
+    <Text>[s@This one is too hairy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>23866</StartMilliseconds>
+    <EndMilliseconds>24290</EndMilliseconds>
+    <Text>[@This@] one is too hairy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>24291</StartMilliseconds>
+    <EndMilliseconds>24479</EndMilliseconds>
+    <Text>This [@one@] is too hairy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>24480</StartMilliseconds>
+    <EndMilliseconds>24773</EndMilliseconds>
+    <Text>This one [@is@] too hairy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>24774</StartMilliseconds>
+    <EndMilliseconds>25171</EndMilliseconds>
+    <Text>This one is [@too@] hairy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>25172</StartMilliseconds>
+    <EndMilliseconds>25993</EndMilliseconds>
+    <Text>This one is too [@hairy@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>25994</StartMilliseconds>
+    <EndMilliseconds>26283</EndMilliseconds>
+    <Text>This one is too hairy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>26284</StartMilliseconds>
+    <EndMilliseconds>26413</EndMilliseconds>
+    <Text>[e@This one is too hairy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>26414</StartMilliseconds>
+    <EndMilliseconds>27735</EndMilliseconds>
+    <Text>This one is too bald.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>27736</StartMilliseconds>
+    <EndMilliseconds>28234</EndMilliseconds>
+    <Text>[s@This one is too bald.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>28235</StartMilliseconds>
+    <EndMilliseconds>28578</EndMilliseconds>
+    <Text>[@This@] one is too bald.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>28579</StartMilliseconds>
+    <EndMilliseconds>28802</EndMilliseconds>
+    <Text>This [@one@] is too bald.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>28803</StartMilliseconds>
+    <EndMilliseconds>29040</EndMilliseconds>
+    <Text>This one [@is@] too bald.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>29041</StartMilliseconds>
+    <EndMilliseconds>29436</EndMilliseconds>
+    <Text>This one is [@too@] bald.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>29437</StartMilliseconds>
+    <EndMilliseconds>30414</EndMilliseconds>
+    <Text>This one is too [@bald@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>30415</StartMilliseconds>
+    <EndMilliseconds>30574</EndMilliseconds>
+    <Text>This one is too bald.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>30575</StartMilliseconds>
+    <EndMilliseconds>30682</EndMilliseconds>
+    <Text>[e@This one is too bald.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>30683</StartMilliseconds>
+    <EndMilliseconds>32680</EndMilliseconds>
+    <Text>This one is the best.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>32681</StartMilliseconds>
+    <EndMilliseconds>33207</EndMilliseconds>
+    <Text>[s@This one is the best.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>33208</StartMilliseconds>
+    <EndMilliseconds>33749</EndMilliseconds>
+    <Text>[@This@] one is the best.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>33750</StartMilliseconds>
+    <EndMilliseconds>33989</EndMilliseconds>
+    <Text>This [@one@] is the best.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>33990</StartMilliseconds>
+    <EndMilliseconds>34274</EndMilliseconds>
+    <Text>This one [@is@] the best.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>34275</StartMilliseconds>
+    <EndMilliseconds>34546</EndMilliseconds>
+    <Text>This one is [@the@] best.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>34547</StartMilliseconds>
+    <EndMilliseconds>35448</EndMilliseconds>
+    <Text>This one is the [@best@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>35449</StartMilliseconds>
+    <EndMilliseconds>37827</EndMilliseconds>
+    <Text>This one is the best.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>37828</StartMilliseconds>
+    <EndMilliseconds>38008</EndMilliseconds>
+    <Text>[e@This one is the best.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>38009</StartMilliseconds>
+    <EndMilliseconds>38633</EndMilliseconds>
+    <Text>He is the best dog!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>38634</StartMilliseconds>
+    <EndMilliseconds>38907</EndMilliseconds>
+    <Text>[@He@] is the best dog!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>38908</StartMilliseconds>
+    <EndMilliseconds>39137</EndMilliseconds>
+    <Text>He [@is@] the best dog!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>39138</StartMilliseconds>
+    <EndMilliseconds>39397</EndMilliseconds>
+    <Text>He is [@the@] best dog!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>39398</StartMilliseconds>
+    <EndMilliseconds>39921</EndMilliseconds>
+    <Text>He is the [@best@] dog!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>39922</StartMilliseconds>
+    <EndMilliseconds>40789</EndMilliseconds>
+    <Text>He is the best [@dog@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>40790</StartMilliseconds>
+    <EndMilliseconds>45208</EndMilliseconds>
+    <Text>He is the best dog!</Text>
+  </Paragraph>
+</Subtitle>

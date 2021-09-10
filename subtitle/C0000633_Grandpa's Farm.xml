@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>1</StartMilliseconds>
+    <EndMilliseconds>1152</EndMilliseconds>
+    <Text>"Cock-a-doodle-doo."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1153</StartMilliseconds>
+    <EndMilliseconds>3132</EndMilliseconds>
+    <Text>"[@Cock-a-doodle-doo@]."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3133</StartMilliseconds>
+    <EndMilliseconds>3266</EndMilliseconds>
+    <Text>"Cock-a-doodle-doo."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>3267</StartMilliseconds>
+    <EndMilliseconds>3422</EndMilliseconds>
+    <Text>It is morning on Grandpa's farm.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>3423</StartMilliseconds>
+    <EndMilliseconds>3609</EndMilliseconds>
+    <Text>[@It@] is morning on Grandpa's farm.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>3610</StartMilliseconds>
+    <EndMilliseconds>3878</EndMilliseconds>
+    <Text>It [@is@] morning on Grandpa's farm.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>3879</StartMilliseconds>
+    <EndMilliseconds>4491</EndMilliseconds>
+    <Text>It is [@morning@] on Grandpa's farm.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>4492</StartMilliseconds>
+    <EndMilliseconds>4743</EndMilliseconds>
+    <Text>It is morning [@on@] Grandpa's farm.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>4744</StartMilliseconds>
+    <EndMilliseconds>5592</EndMilliseconds>
+    <Text>It is morning on [@Grandpa's@] farm.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>5593</StartMilliseconds>
+    <EndMilliseconds>6392</EndMilliseconds>
+    <Text>It is morning on Grandpa's [@farm@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>6393</StartMilliseconds>
+    <EndMilliseconds>8377</EndMilliseconds>
+    <Text>It is morning on Grandpa's farm.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>8378</StartMilliseconds>
+    <EndMilliseconds>8549</EndMilliseconds>
+    <Text>[e@It is morning on Grandpa's farm.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>8550</StartMilliseconds>
+    <EndMilliseconds>9478</EndMilliseconds>
+    <Text>"Cluck, cluck, peep, peep. I'm hungry," said the chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>9479</StartMilliseconds>
+    <EndMilliseconds>9974</EndMilliseconds>
+    <Text>[s@"Cluck, cluck, peep, peep. I'm hungry," said the chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>9975</StartMilliseconds>
+    <EndMilliseconds>10335</EndMilliseconds>
+    <Text>"[@Cluck@], cluck, peep, peep. I'm hungry," said the chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>10336</StartMilliseconds>
+    <EndMilliseconds>10901</EndMilliseconds>
+    <Text>"Cluck, [@cluck@], peep, peep. I'm hungry," said the chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>10902</StartMilliseconds>
+    <EndMilliseconds>11158</EndMilliseconds>
+    <Text>"Cluck, cluck, [@peep@], peep. I'm hungry," said the chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>11159</StartMilliseconds>
+    <EndMilliseconds>11732</EndMilliseconds>
+    <Text>"Cluck, cluck, peep, [@peep@]. I'm hungry," said the chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>11733</StartMilliseconds>
+    <EndMilliseconds>12101</EndMilliseconds>
+    <Text>"Cluck, cluck, peep, peep. [@I'm@] hungry," said the chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>12102</StartMilliseconds>
+    <EndMilliseconds>13606</EndMilliseconds>
+    <Text>"Cluck, cluck, peep, peep. I'm [@hungry@]," said the chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>13607</StartMilliseconds>
+    <EndMilliseconds>13892</EndMilliseconds>
+    <Text>"Cluck, cluck, peep, peep. I'm hungry," [@said@] the chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>13893</StartMilliseconds>
+    <EndMilliseconds>14123</EndMilliseconds>
+    <Text>"Cluck, cluck, peep, peep. I'm hungry," said [@the@] chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>14124</StartMilliseconds>
+    <EndMilliseconds>15148</EndMilliseconds>
+    <Text>"Cluck, cluck, peep, peep. I'm hungry," said the [@chicken@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>15149</StartMilliseconds>
+    <EndMilliseconds>17032</EndMilliseconds>
+    <Text>"Cluck, cluck, peep, peep. I'm hungry," said the chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>17033</StartMilliseconds>
+    <EndMilliseconds>17225</EndMilliseconds>
+    <Text>[e@"Cluck, cluck, peep, peep. I'm hungry," said the chicken.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>17226</StartMilliseconds>
+    <EndMilliseconds>17704</EndMilliseconds>
+    <Text>"Baa, baa. I'm hungry," said the sheep.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>17705</StartMilliseconds>
+    <EndMilliseconds>18177</EndMilliseconds>
+    <Text>[s@"Baa, baa. I'm hungry," said the sheep.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>18178</StartMilliseconds>
+    <EndMilliseconds>19336</EndMilliseconds>
+    <Text>"[@Baa@], baa. I'm hungry," said the sheep.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>19337</StartMilliseconds>
+    <EndMilliseconds>20495</EndMilliseconds>
+    <Text>"Baa, [@baa@]. I'm hungry," said the sheep.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>20496</StartMilliseconds>
+    <EndMilliseconds>21078</EndMilliseconds>
+    <Text>"Baa, baa. [@I'm@] hungry," said the sheep.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>21079</StartMilliseconds>
+    <EndMilliseconds>22480</EndMilliseconds>
+    <Text>"Baa, baa. I'm [@hungry@]," said the sheep.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>22481</StartMilliseconds>
+    <EndMilliseconds>22791</EndMilliseconds>
+    <Text>"Baa, baa. I'm hungry," [@said@] the sheep.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>22792</StartMilliseconds>
+    <EndMilliseconds>22978</EndMilliseconds>
+    <Text>"Baa, baa. I'm hungry," said [@the@] sheep.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>22979</StartMilliseconds>
+    <EndMilliseconds>23866</EndMilliseconds>
+    <Text>"Baa, baa. I'm hungry," said the [@sheep@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>23867</StartMilliseconds>
+    <EndMilliseconds>25845</EndMilliseconds>
+    <Text>"Baa, baa. I'm hungry," said the sheep.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>25846</StartMilliseconds>
+    <EndMilliseconds>26019</EndMilliseconds>
+    <Text>[e@"Baa, baa. I'm hungry," said the sheep.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>26020</StartMilliseconds>
+    <EndMilliseconds>26507</EndMilliseconds>
+    <Text>"Quack, quack. I am hungry," said the ducks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>26508</StartMilliseconds>
+    <EndMilliseconds>27022</EndMilliseconds>
+    <Text>[s@"Quack, quack. I am hungry," said the ducks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>27023</StartMilliseconds>
+    <EndMilliseconds>27476</EndMilliseconds>
+    <Text>"[@Quack@], quack. I am hungry," said the ducks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>27477</StartMilliseconds>
+    <EndMilliseconds>28200</EndMilliseconds>
+    <Text>"Quack, [@quack@]. I am hungry," said the ducks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>28201</StartMilliseconds>
+    <EndMilliseconds>28527</EndMilliseconds>
+    <Text>"Quack, quack. [@I@] am hungry," said the ducks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>28528</StartMilliseconds>
+    <EndMilliseconds>28860</EndMilliseconds>
+    <Text>"Quack, quack. I [@am@] hungry," said the ducks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>28861</StartMilliseconds>
+    <EndMilliseconds>30108</EndMilliseconds>
+    <Text>"Quack, quack. I am [@hungry@]," said the ducks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>30109</StartMilliseconds>
+    <EndMilliseconds>30498</EndMilliseconds>
+    <Text>"Quack, quack. I am hungry," [@said@] the ducks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>30499</StartMilliseconds>
+    <EndMilliseconds>30775</EndMilliseconds>
+    <Text>"Quack, quack. I am hungry," said [@the@] ducks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>30776</StartMilliseconds>
+    <EndMilliseconds>31648</EndMilliseconds>
+    <Text>"Quack, quack. I am hungry," said the [@ducks@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>31649</StartMilliseconds>
+    <EndMilliseconds>33776</EndMilliseconds>
+    <Text>"Quack, quack. I am hungry," said the ducks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>33777</StartMilliseconds>
+    <EndMilliseconds>33938</EndMilliseconds>
+    <Text>[e@"Quack, quack. I am hungry," said the ducks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>33939</StartMilliseconds>
+    <EndMilliseconds>34435</EndMilliseconds>
+    <Text>"Neigh, neigh. I am hungry," said the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>34436</StartMilliseconds>
+    <EndMilliseconds>34908</EndMilliseconds>
+    <Text>[s@"Neigh, neigh. I am hungry," said the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>34909</StartMilliseconds>
+    <EndMilliseconds>36127</EndMilliseconds>
+    <Text>"[@Neigh@], neigh. I am hungry," said the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>36128</StartMilliseconds>
+    <EndMilliseconds>37307</EndMilliseconds>
+    <Text>"Neigh, [@neigh@]. I am hungry," said the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>37308</StartMilliseconds>
+    <EndMilliseconds>37678</EndMilliseconds>
+    <Text>"Neigh, neigh. [@I@] am hungry," said the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>37679</StartMilliseconds>
+    <EndMilliseconds>37996</EndMilliseconds>
+    <Text>"Neigh, neigh. I [@am@] hungry," said the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>37997</StartMilliseconds>
+    <EndMilliseconds>39334</EndMilliseconds>
+    <Text>"Neigh, neigh. I am [@hungry@]," said the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>39335</StartMilliseconds>
+    <EndMilliseconds>39660</EndMilliseconds>
+    <Text>"Neigh, neigh. I am hungry," [@said@] the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>39661</StartMilliseconds>
+    <EndMilliseconds>39943</EndMilliseconds>
+    <Text>"Neigh, neigh. I am hungry," said [@the@] horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>39944</StartMilliseconds>
+    <EndMilliseconds>40785</EndMilliseconds>
+    <Text>"Neigh, neigh. I am hungry," said the [@horse@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>40786</StartMilliseconds>
+    <EndMilliseconds>42526</EndMilliseconds>
+    <Text>"Neigh, neigh. I am hungry," said the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>42527</StartMilliseconds>
+    <EndMilliseconds>42681</EndMilliseconds>
+    <Text>[e@"Neigh, neigh. I am hungry," said the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>42682</StartMilliseconds>
+    <EndMilliseconds>43264</EndMilliseconds>
+    <Text>"Moo, moo. I am hungry," said the cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>43265</StartMilliseconds>
+    <EndMilliseconds>43776</EndMilliseconds>
+    <Text>[s@"Moo, moo. I am hungry," said the cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>43777</StartMilliseconds>
+    <EndMilliseconds>45700</EndMilliseconds>
+    <Text>"[@Moo@], moo. I am hungry," said the cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>45701</StartMilliseconds>
+    <EndMilliseconds>47425</EndMilliseconds>
+    <Text>"Moo, [@moo@]. I am hungry," said the cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>47426</StartMilliseconds>
+    <EndMilliseconds>48001</EndMilliseconds>
+    <Text>"Moo, moo. [@I@] am hungry," said the cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>48002</StartMilliseconds>
+    <EndMilliseconds>48320</EndMilliseconds>
+    <Text>"Moo, moo. I [@am@] hungry," said the cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>48321</StartMilliseconds>
+    <EndMilliseconds>49955</EndMilliseconds>
+    <Text>"Moo, moo. I am [@hungry@]," said the cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>49956</StartMilliseconds>
+    <EndMilliseconds>50291</EndMilliseconds>
+    <Text>"Moo, moo. I am hungry," [@said@] the cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>50292</StartMilliseconds>
+    <EndMilliseconds>50514</EndMilliseconds>
+    <Text>"Moo, moo. I am hungry," said [@the@] cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>50515</StartMilliseconds>
+    <EndMilliseconds>51519</EndMilliseconds>
+    <Text>"Moo, moo. I am hungry," said the [@cow@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>51520</StartMilliseconds>
+    <EndMilliseconds>53244</EndMilliseconds>
+    <Text>"Moo, moo. I am hungry," said the cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>53245</StartMilliseconds>
+    <EndMilliseconds>53406</EndMilliseconds>
+    <Text>[e@"Moo, moo. I am hungry," said the cow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>53407</StartMilliseconds>
+    <EndMilliseconds>53946</EndMilliseconds>
+    <Text>"Oink, oink. I am hungry," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>53947</StartMilliseconds>
+    <EndMilliseconds>54499</EndMilliseconds>
+    <Text>[s@"Oink, oink. I am hungry," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>54500</StartMilliseconds>
+    <EndMilliseconds>54788</EndMilliseconds>
+    <Text>"[@Oink@], oink. I am hungry," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>54789</StartMilliseconds>
+    <EndMilliseconds>55671</EndMilliseconds>
+    <Text>"Oink, [@oink@]. I am hungry," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>55672</StartMilliseconds>
+    <EndMilliseconds>55937</EndMilliseconds>
+    <Text>"Oink, oink. [@I@] am hungry," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>55938</StartMilliseconds>
+    <EndMilliseconds>56109</EndMilliseconds>
+    <Text>"Oink, oink. I [@am@] hungry," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>56110</StartMilliseconds>
+    <EndMilliseconds>57255</EndMilliseconds>
+    <Text>"Oink, oink. I am [@hungry@]," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>57256</StartMilliseconds>
+    <EndMilliseconds>57620</EndMilliseconds>
+    <Text>"Oink, oink. I am hungry," [@said@] the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>57621</StartMilliseconds>
+    <EndMilliseconds>57876</EndMilliseconds>
+    <Text>"Oink, oink. I am hungry," said [@the@] pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>57877</StartMilliseconds>
+    <EndMilliseconds>58705</EndMilliseconds>
+    <Text>"Oink, oink. I am hungry," said the [@pig@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>58706</StartMilliseconds>
+    <EndMilliseconds>60760</EndMilliseconds>
+    <Text>"Oink, oink. I am hungry," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>60761</StartMilliseconds>
+    <EndMilliseconds>60935</EndMilliseconds>
+    <Text>[e@"Oink, oink. I am hungry," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>60936</StartMilliseconds>
+    <EndMilliseconds>61416</EndMilliseconds>
+    <Text>"Bark, bark, bark," said my dog.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>61417</StartMilliseconds>
+    <EndMilliseconds>61902</EndMilliseconds>
+    <Text>[s@"Bark, bark, bark," said my dog.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>61903</StartMilliseconds>
+    <EndMilliseconds>62378</EndMilliseconds>
+    <Text>"[@Bark@], bark, bark," said my dog.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>62379</StartMilliseconds>
+    <EndMilliseconds>62834</EndMilliseconds>
+    <Text>"Bark, [@bark@], bark," said my dog.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>62835</StartMilliseconds>
+    <EndMilliseconds>63679</EndMilliseconds>
+    <Text>"Bark, bark, [@bark@]," said my dog.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>63680</StartMilliseconds>
+    <EndMilliseconds>63923</EndMilliseconds>
+    <Text>"Bark, bark, bark," [@said@] my dog.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>91</Number>
+    <StartMilliseconds>63924</StartMilliseconds>
+    <EndMilliseconds>64311</EndMilliseconds>
+    <Text>"Bark, bark, bark," said [@my@] dog.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>92</Number>
+    <StartMilliseconds>64312</StartMilliseconds>
+    <EndMilliseconds>64907</EndMilliseconds>
+    <Text>"Bark, bark, bark," said my [@dog@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>93</Number>
+    <StartMilliseconds>64908</StartMilliseconds>
+    <EndMilliseconds>65082</EndMilliseconds>
+    <Text>"Bark, bark, bark," said my dog.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>94</Number>
+    <StartMilliseconds>65083</StartMilliseconds>
+    <EndMilliseconds>65228</EndMilliseconds>
+    <Text>"Oh, you are hungry too."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>95</Number>
+    <StartMilliseconds>65229</StartMilliseconds>
+    <EndMilliseconds>66196</EndMilliseconds>
+    <Text>"[@Oh@], you are hungry too."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>96</Number>
+    <StartMilliseconds>66197</StartMilliseconds>
+    <EndMilliseconds>66571</EndMilliseconds>
+    <Text>"Oh, [@you@] are hungry too."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>97</Number>
+    <StartMilliseconds>66572</StartMilliseconds>
+    <EndMilliseconds>66850</EndMilliseconds>
+    <Text>"Oh, you [@are@] hungry too."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>98</Number>
+    <StartMilliseconds>66851</StartMilliseconds>
+    <EndMilliseconds>67647</EndMilliseconds>
+    <Text>"Oh, you are [@hungry@] too."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>99</Number>
+    <StartMilliseconds>67648</StartMilliseconds>
+    <EndMilliseconds>68619</EndMilliseconds>
+    <Text>"Oh, you are hungry [@too@]."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>100</Number>
+    <StartMilliseconds>68620</StartMilliseconds>
+    <EndMilliseconds>72274</EndMilliseconds>
+    <Text>"Oh, you are hungry too."</Text>
+  </Paragraph>
+</Subtitle>

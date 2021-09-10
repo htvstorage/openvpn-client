@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>958</EndMilliseconds>
+    <Text>Balloons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>959</StartMilliseconds>
+    <EndMilliseconds>2397</EndMilliseconds>
+    <Text>[@Balloons@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>2398</StartMilliseconds>
+    <EndMilliseconds>8771</EndMilliseconds>
+    <Text>Balloons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>8772</StartMilliseconds>
+    <EndMilliseconds>9333</EndMilliseconds>
+    <Text>[e@Balloons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>9334</StartMilliseconds>
+    <EndMilliseconds>10273</EndMilliseconds>
+    <Text>Hats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>10274</StartMilliseconds>
+    <EndMilliseconds>11200</EndMilliseconds>
+    <Text>[@Hats@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>11201</StartMilliseconds>
+    <EndMilliseconds>18189</EndMilliseconds>
+    <Text>Hats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>18190</StartMilliseconds>
+    <EndMilliseconds>18674</EndMilliseconds>
+    <Text>[e@Hats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>18675</StartMilliseconds>
+    <EndMilliseconds>19417</EndMilliseconds>
+    <Text>Cookies and candies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>19418</StartMilliseconds>
+    <EndMilliseconds>20156</EndMilliseconds>
+    <Text>[@Cookies@] and candies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>20157</StartMilliseconds>
+    <EndMilliseconds>20499</EndMilliseconds>
+    <Text>Cookies [@and@] candies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>20500</StartMilliseconds>
+    <EndMilliseconds>21924</EndMilliseconds>
+    <Text>Cookies and [@candies@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>21925</StartMilliseconds>
+    <EndMilliseconds>27567</EndMilliseconds>
+    <Text>Cookies and candies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>27568</StartMilliseconds>
+    <EndMilliseconds>27936</EndMilliseconds>
+    <Text>[e@Cookies and candies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>27937</StartMilliseconds>
+    <EndMilliseconds>28885</EndMilliseconds>
+    <Text>Cups and plates.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>28886</StartMilliseconds>
+    <EndMilliseconds>29384</EndMilliseconds>
+    <Text>[@Cups@] and plates.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>29385</StartMilliseconds>
+    <EndMilliseconds>29734</EndMilliseconds>
+    <Text>Cups [@and@] plates.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>29735</StartMilliseconds>
+    <EndMilliseconds>30784</EndMilliseconds>
+    <Text>Cups and [@plates@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>30785</StartMilliseconds>
+    <EndMilliseconds>37525</EndMilliseconds>
+    <Text>Cups and plates.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>37526</StartMilliseconds>
+    <EndMilliseconds>38135</EndMilliseconds>
+    <Text>[e@Cups and plates.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>38136</StartMilliseconds>
+    <EndMilliseconds>39081</EndMilliseconds>
+    <Text>Gifts and cards.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>39082</StartMilliseconds>
+    <EndMilliseconds>39697</EndMilliseconds>
+    <Text>[@Gifts@] and cards.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>39698</StartMilliseconds>
+    <EndMilliseconds>40021</EndMilliseconds>
+    <Text>Gifts [@and@] cards.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>40022</StartMilliseconds>
+    <EndMilliseconds>41242</EndMilliseconds>
+    <Text>Gifts and [@cards@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>41243</StartMilliseconds>
+    <EndMilliseconds>47033</EndMilliseconds>
+    <Text>Gifts and cards.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>47034</StartMilliseconds>
+    <EndMilliseconds>47604</EndMilliseconds>
+    <Text>[e@Gifts and cards.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>47605</StartMilliseconds>
+    <EndMilliseconds>48369</EndMilliseconds>
+    <Text>A cake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>48370</StartMilliseconds>
+    <EndMilliseconds>48626</EndMilliseconds>
+    <Text>[@A@] cake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>48627</StartMilliseconds>
+    <EndMilliseconds>49519</EndMilliseconds>
+    <Text>A [@cake@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>49520</StartMilliseconds>
+    <EndMilliseconds>55803</EndMilliseconds>
+    <Text>A cake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>55804</StartMilliseconds>
+    <EndMilliseconds>56349</EndMilliseconds>
+    <Text>[e@A cake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>56350</StartMilliseconds>
+    <EndMilliseconds>57073</EndMilliseconds>
+    <Text>Candles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>57074</StartMilliseconds>
+    <EndMilliseconds>58383</EndMilliseconds>
+    <Text>[@Candles@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>58384</StartMilliseconds>
+    <EndMilliseconds>65464</EndMilliseconds>
+    <Text>Candles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>65465</StartMilliseconds>
+    <EndMilliseconds>66014</EndMilliseconds>
+    <Text>[e@Candles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>66015</StartMilliseconds>
+    <EndMilliseconds>66547</EndMilliseconds>
+    <Text>Surprise!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>66548</StartMilliseconds>
+    <EndMilliseconds>68099</EndMilliseconds>
+    <Text>[@Surprise@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>68100</StartMilliseconds>
+    <EndMilliseconds>70436</EndMilliseconds>
+    <Text>Surprise!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>70437</StartMilliseconds>
+    <EndMilliseconds>71010</EndMilliseconds>
+    <Text>Happy Birthday!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>71011</StartMilliseconds>
+    <EndMilliseconds>71518</EndMilliseconds>
+    <Text>[@Happy@] Birthday!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>71519</StartMilliseconds>
+    <EndMilliseconds>72771</EndMilliseconds>
+    <Text>Happy [@Birthday@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>72772</StartMilliseconds>
+    <EndMilliseconds>79131</EndMilliseconds>
+    <Text>Happy Birthday!</Text>
+  </Paragraph>
+</Subtitle>

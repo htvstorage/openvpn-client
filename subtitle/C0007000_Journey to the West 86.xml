@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>2882</EndMilliseconds>
+    <Text>Wukong shouted outside the cave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>2883</StartMilliseconds>
+    <EndMilliseconds>7624</EndMilliseconds>
+    <Text>He shouted all kinds of insults about the Demon of Power.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>7625</StartMilliseconds>
+    <EndMilliseconds>10481</EndMilliseconds>
+    <Text>Inside the cave the guard woke up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>10482</StartMilliseconds>
+    <EndMilliseconds>14271</EndMilliseconds>
+    <Text>He ran to the demon's bedroom.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>14272</StartMilliseconds>
+    <EndMilliseconds>20678</EndMilliseconds>
+    <Text>"Master!" cried the guard. "The monkey is back!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>20679</StartMilliseconds>
+    <EndMilliseconds>23736</EndMilliseconds>
+    <Text>[g@"It's the middle of the night," said the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>23737</StartMilliseconds>
+    <EndMilliseconds>25946</EndMilliseconds>
+    <Text>"What does he want?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>25947</StartMilliseconds>
+    <EndMilliseconds>29322</EndMilliseconds>
+    <Text>"He said we must return the queen," said the guard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>29323</StartMilliseconds>
+    <EndMilliseconds>32697</EndMilliseconds>
+    <Text>"If we don't, he'll smash our entire mountain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>32698</StartMilliseconds>
+    <EndMilliseconds>37525</EndMilliseconds>
+    <Text>He also yelled some terrible things about you."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>37526</StartMilliseconds>
+    <EndMilliseconds>41731</EndMilliseconds>
+    <Text>The Demon of Power climbed out of bed and grabbed the fake bells.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>41732</StartMilliseconds>
+    <EndMilliseconds>47059</EndMilliseconds>
+    <Text>"I'll chase the monkey away with my fire, smoke, and sand again."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>47060</StartMilliseconds>
+    <EndMilliseconds>52091</EndMilliseconds>
+    <Text>He tied the bells around his neck and went outside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>52092</StartMilliseconds>
+    <EndMilliseconds>54348</EndMilliseconds>
+    <Text>[g@The demon glared at Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>54349</StartMilliseconds>
+    <EndMilliseconds>58138</EndMilliseconds>
+    <Text>"Go away! I'm sleeping!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>58139</StartMilliseconds>
+    <EndMilliseconds>61942</EndMilliseconds>
+    <Text>"Return the queen!" shouted the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>61943</StartMilliseconds>
+    <EndMilliseconds>64498</EndMilliseconds>
+    <Text>[g@"Never!" said the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>64499</StartMilliseconds>
+    <EndMilliseconds>67045</EndMilliseconds>
+    <Text>He reached for the bells around his neck.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>67046</StartMilliseconds>
+    <EndMilliseconds>69956</EndMilliseconds>
+    <Text>Wukong pretended to be surprised.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>69957</StartMilliseconds>
+    <EndMilliseconds>75232</EndMilliseconds>
+    <Text>"Oh," he said. "I have bells just like those."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>75233</StartMilliseconds>
+    <EndMilliseconds>77822</EndMilliseconds>
+    <Text>The demon squinted at the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>77823</StartMilliseconds>
+    <EndMilliseconds>80901</EndMilliseconds>
+    <Text>[g@"I doubt your bells are like mine.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>80902</StartMilliseconds>
+    <EndMilliseconds>83577</EndMilliseconds>
+    <Text>Let me see them."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>83578</StartMilliseconds>
+    <EndMilliseconds>86713</EndMilliseconds>
+    <Text>[g@Wukong held up the bells.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>86714</StartMilliseconds>
+    <EndMilliseconds>89372</EndMilliseconds>
+    <Text>The demon peered at them for a moment.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>89373</StartMilliseconds>
+    <EndMilliseconds>93001</EndMilliseconds>
+    <Text>[g@"Those bells do look like mine.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>93002</StartMilliseconds>
+    <EndMilliseconds>96592</EndMilliseconds>
+    <Text>But my bells are magic."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>96593</StartMilliseconds>
+    <EndMilliseconds>100539</EndMilliseconds>
+    <Text>"So are mine," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>100540</StartMilliseconds>
+    <EndMilliseconds>107805</EndMilliseconds>
+    <Text>"My bells can make fire, smoke, and sand," said the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>107806</StartMilliseconds>
+    <EndMilliseconds>110609</EndMilliseconds>
+    <Text>[g@"That's interesting." Wukong smiled.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>110610</StartMilliseconds>
+    <EndMilliseconds>113139</EndMilliseconds>
+    <Text>"My bells can do that too."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>113140</StartMilliseconds>
+    <EndMilliseconds>118030</EndMilliseconds>
+    <Text>"Really?" The Demon of Power looked surprised.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>118031</StartMilliseconds>
+    <EndMilliseconds>122165</EndMilliseconds>
+    <Text>"Let's compare bells to see whose work better."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>122166</StartMilliseconds>
+    <EndMilliseconds>126976</EndMilliseconds>
+    <Text>"Okay," said Wukong. "You go first."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>126977</StartMilliseconds>
+    <EndMilliseconds>130322</EndMilliseconds>
+    <Text>[g@"I was planning to," said the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>130323</StartMilliseconds>
+    <EndMilliseconds>133901</EndMilliseconds>
+    <Text>He shook his bells.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>133902</StartMilliseconds>
+    <EndMilliseconds>137747</EndMilliseconds>
+    <Text>Nothing happened.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>137748</StartMilliseconds>
+    <EndMilliseconds>140351</EndMilliseconds>
+    <Text>[g@He shook the bells again.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>140352</StartMilliseconds>
+    <EndMilliseconds>143196</EndMilliseconds>
+    <Text>Again nothing happened.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>143197</StartMilliseconds>
+    <EndMilliseconds>146133</EndMilliseconds>
+    <Text>[g@"That's strange," the demon mumbled.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>146134</StartMilliseconds>
+    <EndMilliseconds>148849</EndMilliseconds>
+    <Text>He looked closely at the bells.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>148850</StartMilliseconds>
+    <EndMilliseconds>154058</EndMilliseconds>
+    <Text>"These bells worked fine yesterday."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>154059</StartMilliseconds>
+    <EndMilliseconds>156747</EndMilliseconds>
+    <Text>[g@Wukong tried not to laugh.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>156748</StartMilliseconds>
+    <EndMilliseconds>159982</EndMilliseconds>
+    <Text>"Let's see if my bells work," he said.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>159983</StartMilliseconds>
+    <EndMilliseconds>164061</EndMilliseconds>
+    <Text>The monkey shook the bells.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>164062</StartMilliseconds>
+    <EndMilliseconds>169254</EndMilliseconds>
+    <Text>[i@Whoosh!@i] Fire, smoke, and sand rushed toward the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>169255</StartMilliseconds>
+    <EndMilliseconds>172689</EndMilliseconds>
+    <Text>[g@"Aargh!" cried the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>172690</StartMilliseconds>
+    <EndMilliseconds>175578</EndMilliseconds>
+    <Text>He covered his face and fell to the ground.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>175579</StartMilliseconds>
+    <EndMilliseconds>180074</EndMilliseconds>
+    <Text>Wukong pulled out his iron bar and got ready to strike.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>180075</StartMilliseconds>
+    <EndMilliseconds>183551</EndMilliseconds>
+    <Text>"Wukong, stop!" shouted a voice.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>183552</StartMilliseconds>
+    <EndMilliseconds>189162</EndMilliseconds>
+    <Text>The monkey looked up and saw Guanyin coming down from the sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>189163</StartMilliseconds>
+    <EndMilliseconds>192687</EndMilliseconds>
+    <Text>Wukong bowed. "Greetings, Bodhisattva.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>192688</StartMilliseconds>
+    <EndMilliseconds>195722</EndMilliseconds>
+    <Text>I was just going to destroy this demon."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>195723</StartMilliseconds>
+    <EndMilliseconds>199370</EndMilliseconds>
+    <Text>"You must not harm him," said Guanyin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>199371</StartMilliseconds>
+    <EndMilliseconds>200968</EndMilliseconds>
+    <Text>[g@"He's my pet wolf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>200969</StartMilliseconds>
+    <EndMilliseconds>203267</EndMilliseconds>
+    <Text>He escaped from Heaven."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>203268</StartMilliseconds>
+    <EndMilliseconds>205991</EndMilliseconds>
+    <Text>[g@The bodhisattva looked at the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>205992</StartMilliseconds>
+    <EndMilliseconds>208772</EndMilliseconds>
+    <Text>"Return to your true form!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>208773</StartMilliseconds>
+    <EndMilliseconds>214318</EndMilliseconds>
+    <Text>Light sparkled, and the demon turned into a huge wolf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>214319</StartMilliseconds>
+    <EndMilliseconds>218013</EndMilliseconds>
+    <Text>Guanyin climbed onto the wolf's back.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>218014</StartMilliseconds>
+    <EndMilliseconds>221461</EndMilliseconds>
+    <Text>She looked at the wolf's neck and then at Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>221462</StartMilliseconds>
+    <EndMilliseconds>224642</EndMilliseconds>
+    <Text>"Give me the bells, Wukong."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>224643</StartMilliseconds>
+    <EndMilliseconds>230103</EndMilliseconds>
+    <Text>"What bells?" Wukong held the bells behind his back.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>230104</StartMilliseconds>
+    <EndMilliseconds>234278</EndMilliseconds>
+    <Text>"My wolf wears a set of three bells," said Guanyin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>234279</StartMilliseconds>
+    <EndMilliseconds>235882</EndMilliseconds>
+    <Text>[g@"I know you have them.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>235883</StartMilliseconds>
+    <EndMilliseconds>238955</EndMilliseconds>
+    <Text>You could not have defeated the wolf without them."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>238956</StartMilliseconds>
+    <EndMilliseconds>243079</EndMilliseconds>
+    <Text>Wukong shrugged. "I have no idea what you're—"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>243080</StartMilliseconds>
+    <EndMilliseconds>246110</EndMilliseconds>
+    <Text>[g@"Hand them over," said Guanyin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>246111</StartMilliseconds>
+    <EndMilliseconds>250615</EndMilliseconds>
+    <Text>"Or I'll recite the Tight Headband spell."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>250616</StartMilliseconds>
+    <EndMilliseconds>253574</EndMilliseconds>
+    <Text>[g@"There's no need for that!" cried the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>253575</StartMilliseconds>
+    <EndMilliseconds>255432</EndMilliseconds>
+    <Text>"I was just joking!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>255433</StartMilliseconds>
+    <EndMilliseconds>258855</EndMilliseconds>
+    <Text>Grinning sheepishly, he handed over the bells.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>258856</StartMilliseconds>
+    <EndMilliseconds>268443</EndMilliseconds>
+    <Text>Guanyin tied the bells around the wolf's neck and then rode up into the sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>268444</StartMilliseconds>
+    <EndMilliseconds>272575</EndMilliseconds>
+    <Text>Back at the palace, the king and queen were reunited.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>272576</StartMilliseconds>
+    <EndMilliseconds>278061</EndMilliseconds>
+    <Text>"Thank you for rescuing the queen, Sun Wukong," said the king.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>278062</StartMilliseconds>
+    <EndMilliseconds>284993</EndMilliseconds>
+    <Text>"Tonight we will hold a feast to thank you and [n@your companions," said the queen.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>284994</StartMilliseconds>
+    <EndMilliseconds>289260</EndMilliseconds>
+    <Text>That night the royal banquet hall was filled with people.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>289261</StartMilliseconds>
+    <EndMilliseconds>298908</EndMilliseconds>
+    <Text>Servants carried trays filled with rice, vegetables, mushrooms, [n@noodles, tofu, dumplings, and other food.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>298909</StartMilliseconds>
+    <EndMilliseconds>303579</EndMilliseconds>
+    <Text>Bajie ate everything in front of him.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>303580</StartMilliseconds>
+    <EndMilliseconds>308150</EndMilliseconds>
+    <Text>"Would you like more steamed buns?" asked a servant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>308151</StartMilliseconds>
+    <EndMilliseconds>311207</EndMilliseconds>
+    <Text>"You don't need to ask," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>311208</StartMilliseconds>
+    <EndMilliseconds>320260</EndMilliseconds>
+    <Text>"Just put food in front of me, and I'll eat it!"</Text>
+  </Paragraph>
+</Subtitle>

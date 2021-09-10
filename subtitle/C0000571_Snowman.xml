@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1184</EndMilliseconds>
+    <Text>Three little snowballs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1185</StartMilliseconds>
+    <EndMilliseconds>1889</EndMilliseconds>
+    <Text>[@Three@] little snowballs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>1890</StartMilliseconds>
+    <EndMilliseconds>2419</EndMilliseconds>
+    <Text>Three [@little@] snowballs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2420</StartMilliseconds>
+    <EndMilliseconds>3833</EndMilliseconds>
+    <Text>Three little [@snowballs@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>3834</StartMilliseconds>
+    <EndMilliseconds>5244</EndMilliseconds>
+    <Text>Three little snowballs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>5245</StartMilliseconds>
+    <EndMilliseconds>5424</EndMilliseconds>
+    <Text>[e@Three little snowballs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>5425</StartMilliseconds>
+    <EndMilliseconds>6290</EndMilliseconds>
+    <Text>Roll, roll, roll.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>6291</StartMilliseconds>
+    <EndMilliseconds>6919</EndMilliseconds>
+    <Text>[@Roll@], roll, roll.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>6920</StartMilliseconds>
+    <EndMilliseconds>7477</EndMilliseconds>
+    <Text>Roll, [@roll@], roll.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>7478</StartMilliseconds>
+    <EndMilliseconds>8440</EndMilliseconds>
+    <Text>Roll, roll, [@roll@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>8441</StartMilliseconds>
+    <EndMilliseconds>9816</EndMilliseconds>
+    <Text>Roll, roll, roll.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>9817</StartMilliseconds>
+    <EndMilliseconds>10031</EndMilliseconds>
+    <Text>[e@Roll, roll, roll.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>10032</StartMilliseconds>
+    <EndMilliseconds>11002</EndMilliseconds>
+    <Text>Big, bigger, biggest!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>11003</StartMilliseconds>
+    <EndMilliseconds>11916</EndMilliseconds>
+    <Text>[@Big@], bigger, biggest!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>11917</StartMilliseconds>
+    <EndMilliseconds>12915</EndMilliseconds>
+    <Text>Big, [@bigger@], biggest!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>12916</StartMilliseconds>
+    <EndMilliseconds>14167</EndMilliseconds>
+    <Text>Big, bigger, [@biggest@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>14168</StartMilliseconds>
+    <EndMilliseconds>16444</EndMilliseconds>
+    <Text>Big, bigger, biggest!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>16445</StartMilliseconds>
+    <EndMilliseconds>16698</EndMilliseconds>
+    <Text>[e@Big, bigger, biggest!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>16699</StartMilliseconds>
+    <EndMilliseconds>17814</EndMilliseconds>
+    <Text>Stack them up!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>17815</StartMilliseconds>
+    <EndMilliseconds>18538</EndMilliseconds>
+    <Text>[@Stack@] them up!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>18539</StartMilliseconds>
+    <EndMilliseconds>19030</EndMilliseconds>
+    <Text>Stack [@them@] up!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>19031</StartMilliseconds>
+    <EndMilliseconds>19875</EndMilliseconds>
+    <Text>Stack them [@up@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>19876</StartMilliseconds>
+    <EndMilliseconds>21908</EndMilliseconds>
+    <Text>Stack them up!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>21909</StartMilliseconds>
+    <EndMilliseconds>22143</EndMilliseconds>
+    <Text>[e@Stack them up!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>22144</StartMilliseconds>
+    <EndMilliseconds>22954</EndMilliseconds>
+    <Text>Two eyes and a nose.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>22955</StartMilliseconds>
+    <EndMilliseconds>23646</EndMilliseconds>
+    <Text>[@Two@] eyes and a nose.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>23647</StartMilliseconds>
+    <EndMilliseconds>24379</EndMilliseconds>
+    <Text>Two [@eyes@] and a nose.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>24380</StartMilliseconds>
+    <EndMilliseconds>24767</EndMilliseconds>
+    <Text>Two eyes [@and@] a nose.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>24768</StartMilliseconds>
+    <EndMilliseconds>25041</EndMilliseconds>
+    <Text>Two eyes and [@a@] nose.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>25042</StartMilliseconds>
+    <EndMilliseconds>25936</EndMilliseconds>
+    <Text>Two eyes and a [@nose@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>25937</StartMilliseconds>
+    <EndMilliseconds>26794</EndMilliseconds>
+    <Text>Two eyes and a nose.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>26795</StartMilliseconds>
+    <EndMilliseconds>27555</EndMilliseconds>
+    <Text>Two arms and a mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>27556</StartMilliseconds>
+    <EndMilliseconds>28192</EndMilliseconds>
+    <Text>[@Two@] arms and a mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>28193</StartMilliseconds>
+    <EndMilliseconds>29079</EndMilliseconds>
+    <Text>Two [@arms@] and a mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>29080</StartMilliseconds>
+    <EndMilliseconds>29443</EndMilliseconds>
+    <Text>Two arms [@and@] a mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>29444</StartMilliseconds>
+    <EndMilliseconds>29679</EndMilliseconds>
+    <Text>Two arms and [@a@] mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>29680</StartMilliseconds>
+    <EndMilliseconds>30532</EndMilliseconds>
+    <Text>Two arms and a [@mouth@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>30533</StartMilliseconds>
+    <EndMilliseconds>33183</EndMilliseconds>
+    <Text>Two arms and a mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>33184</StartMilliseconds>
+    <EndMilliseconds>34061</EndMilliseconds>
+    <Text>Red mittens and a scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>34062</StartMilliseconds>
+    <EndMilliseconds>34618</EndMilliseconds>
+    <Text>[@Red@] mittens and a scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>34619</StartMilliseconds>
+    <EndMilliseconds>35614</EndMilliseconds>
+    <Text>Red [@mittens@] and a scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>35615</StartMilliseconds>
+    <EndMilliseconds>35969</EndMilliseconds>
+    <Text>Red mittens [@and@] a scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>35970</StartMilliseconds>
+    <EndMilliseconds>36140</EndMilliseconds>
+    <Text>Red mittens and [@a@] scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>36141</StartMilliseconds>
+    <EndMilliseconds>37218</EndMilliseconds>
+    <Text>Red mittens and a [@scarf@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>37219</StartMilliseconds>
+    <EndMilliseconds>39746</EndMilliseconds>
+    <Text>Red mittens and a scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>39747</StartMilliseconds>
+    <EndMilliseconds>40694</EndMilliseconds>
+    <Text>And now, a hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>40695</StartMilliseconds>
+    <EndMilliseconds>41128</EndMilliseconds>
+    <Text>[@And@] now, a hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>41129</StartMilliseconds>
+    <EndMilliseconds>41857</EndMilliseconds>
+    <Text>And [@now@], a hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>41858</StartMilliseconds>
+    <EndMilliseconds>42190</EndMilliseconds>
+    <Text>And now, [@a@] hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>42191</StartMilliseconds>
+    <EndMilliseconds>42937</EndMilliseconds>
+    <Text>And now, a [@hat@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>42938</StartMilliseconds>
+    <EndMilliseconds>43315</EndMilliseconds>
+    <Text>And now, a hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>43316</StartMilliseconds>
+    <EndMilliseconds>43455</EndMilliseconds>
+    <Text>A snowman!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>43456</StartMilliseconds>
+    <EndMilliseconds>43849</EndMilliseconds>
+    <Text>[@A@] snowman!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>43850</StartMilliseconds>
+    <EndMilliseconds>45070</EndMilliseconds>
+    <Text>A [@snowman@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>45071</StartMilliseconds>
+    <EndMilliseconds>48655</EndMilliseconds>
+    <Text>A snowman!</Text>
+  </Paragraph>
+</Subtitle>

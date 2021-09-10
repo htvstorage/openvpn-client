@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>2399</EndMilliseconds>
+    <Text>On a rainy day, I wear my raincoat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>2400</StartMilliseconds>
+    <EndMilliseconds>2669</EndMilliseconds>
+    <Text>[@On@] a rainy day, I wear my raincoat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>2670</StartMilliseconds>
+    <EndMilliseconds>2857</EndMilliseconds>
+    <Text>On [@a@] rainy day, I wear my raincoat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2858</StartMilliseconds>
+    <EndMilliseconds>3211</EndMilliseconds>
+    <Text>On a [@rainy@] day, I wear my raincoat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>3212</StartMilliseconds>
+    <EndMilliseconds>3832</EndMilliseconds>
+    <Text>On a rainy [@day@], I wear my raincoat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>3833</StartMilliseconds>
+    <EndMilliseconds>6550</EndMilliseconds>
+    <Text>On a rainy day, I wear my raincoat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>6551</StartMilliseconds>
+    <EndMilliseconds>7036</EndMilliseconds>
+    <Text>On a rainy day, [@I@] wear my raincoat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>7037</StartMilliseconds>
+    <EndMilliseconds>7354</EndMilliseconds>
+    <Text>On a rainy day, I [@wear@] my raincoat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>7355</StartMilliseconds>
+    <EndMilliseconds>7684</EndMilliseconds>
+    <Text>On a rainy day, I wear [@my@] raincoat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>7685</StartMilliseconds>
+    <EndMilliseconds>9110</EndMilliseconds>
+    <Text>On a rainy day, I wear my [@raincoat@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>9111</StartMilliseconds>
+    <EndMilliseconds>10136</EndMilliseconds>
+    <Text>On a rainy day, I wear my raincoat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>10137</StartMilliseconds>
+    <EndMilliseconds>10342</EndMilliseconds>
+    <Text>[e@On a rainy day, I wear my raincoat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>10343</StartMilliseconds>
+    <EndMilliseconds>12282</EndMilliseconds>
+    <Text>I wear my boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>12283</StartMilliseconds>
+    <EndMilliseconds>12662</EndMilliseconds>
+    <Text>[s@I wear my boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>12663</StartMilliseconds>
+    <EndMilliseconds>13020</EndMilliseconds>
+    <Text>[@I@] wear my boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>13021</StartMilliseconds>
+    <EndMilliseconds>13331</EndMilliseconds>
+    <Text>I [@wear@] my boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>13332</StartMilliseconds>
+    <EndMilliseconds>13615</EndMilliseconds>
+    <Text>I wear [@my@] boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>13616</StartMilliseconds>
+    <EndMilliseconds>14304</EndMilliseconds>
+    <Text>I wear my [@boots@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>14305</StartMilliseconds>
+    <EndMilliseconds>15864</EndMilliseconds>
+    <Text>I wear my boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>15865</StartMilliseconds>
+    <EndMilliseconds>16202</EndMilliseconds>
+    <Text>[e@I wear my boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>16203</StartMilliseconds>
+    <EndMilliseconds>17484</EndMilliseconds>
+    <Text>I dress my dog too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>17485</StartMilliseconds>
+    <EndMilliseconds>18022</EndMilliseconds>
+    <Text>[s@I dress my dog too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>18023</StartMilliseconds>
+    <EndMilliseconds>18381</EndMilliseconds>
+    <Text>[@I@] dress my dog too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>18382</StartMilliseconds>
+    <EndMilliseconds>18859</EndMilliseconds>
+    <Text>I [@dress@] my dog too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>18860</StartMilliseconds>
+    <EndMilliseconds>19185</EndMilliseconds>
+    <Text>I dress [@my@] dog too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>19186</StartMilliseconds>
+    <EndMilliseconds>19640</EndMilliseconds>
+    <Text>I dress my [@dog@] too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>19641</StartMilliseconds>
+    <EndMilliseconds>20364</EndMilliseconds>
+    <Text>I dress my dog [@too@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>20365</StartMilliseconds>
+    <EndMilliseconds>22594</EndMilliseconds>
+    <Text>I dress my dog too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>22595</StartMilliseconds>
+    <EndMilliseconds>22931</EndMilliseconds>
+    <Text>[e@I dress my dog too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>22932</StartMilliseconds>
+    <EndMilliseconds>24591</EndMilliseconds>
+    <Text>I jump in the puddles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>24592</StartMilliseconds>
+    <EndMilliseconds>25096</EndMilliseconds>
+    <Text>[s@I jump in the puddles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>25097</StartMilliseconds>
+    <EndMilliseconds>25675</EndMilliseconds>
+    <Text>[@I@] jump in the puddles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>25676</StartMilliseconds>
+    <EndMilliseconds>26171</EndMilliseconds>
+    <Text>I [@jump@] in the puddles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>26172</StartMilliseconds>
+    <EndMilliseconds>26371</EndMilliseconds>
+    <Text>I jump [@in@] the puddles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>26372</StartMilliseconds>
+    <EndMilliseconds>26646</EndMilliseconds>
+    <Text>I jump in [@the@] puddles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>26647</StartMilliseconds>
+    <EndMilliseconds>27505</EndMilliseconds>
+    <Text>I jump in the [@puddles@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>27506</StartMilliseconds>
+    <EndMilliseconds>29106</EndMilliseconds>
+    <Text>I jump in the puddles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>29107</StartMilliseconds>
+    <EndMilliseconds>29354</EndMilliseconds>
+    <Text>[e@I jump in the puddles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>29355</StartMilliseconds>
+    <EndMilliseconds>30435</EndMilliseconds>
+    <Text>My dog jumps too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>30436</StartMilliseconds>
+    <EndMilliseconds>31015</EndMilliseconds>
+    <Text>[@My@] dog jumps too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>31016</StartMilliseconds>
+    <EndMilliseconds>31381</EndMilliseconds>
+    <Text>My [@dog@] jumps too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>31382</StartMilliseconds>
+    <EndMilliseconds>31842</EndMilliseconds>
+    <Text>My dog [@jumps@] too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>31843</StartMilliseconds>
+    <EndMilliseconds>32511</EndMilliseconds>
+    <Text>My dog jumps [@too@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>32512</StartMilliseconds>
+    <EndMilliseconds>34512</EndMilliseconds>
+    <Text>My dog jumps too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>34513</StartMilliseconds>
+    <EndMilliseconds>34810</EndMilliseconds>
+    <Text>[e@My dog jumps too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>34811</StartMilliseconds>
+    <EndMilliseconds>36848</EndMilliseconds>
+    <Text>I sing and dance.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>36849</StartMilliseconds>
+    <EndMilliseconds>37422</EndMilliseconds>
+    <Text>[s@I sing and dance.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>37423</StartMilliseconds>
+    <EndMilliseconds>37857</EndMilliseconds>
+    <Text>[@I@] sing and dance.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>37858</StartMilliseconds>
+    <EndMilliseconds>38242</EndMilliseconds>
+    <Text>I [@sing@] and dance.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>38243</StartMilliseconds>
+    <EndMilliseconds>38606</EndMilliseconds>
+    <Text>I sing [@and@] dance.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>38607</StartMilliseconds>
+    <EndMilliseconds>39486</EndMilliseconds>
+    <Text>I sing and [@dance@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>39487</StartMilliseconds>
+    <EndMilliseconds>40271</EndMilliseconds>
+    <Text>I sing and dance.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>40272</StartMilliseconds>
+    <EndMilliseconds>40477</EndMilliseconds>
+    <Text>[e@I sing and dance.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>40478</StartMilliseconds>
+    <EndMilliseconds>40859</EndMilliseconds>
+    <Text>My dog sings and dances too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>40860</StartMilliseconds>
+    <EndMilliseconds>41314</EndMilliseconds>
+    <Text>[@My@] dog sings and dances too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>41315</StartMilliseconds>
+    <EndMilliseconds>41763</EndMilliseconds>
+    <Text>My [@dog@] sings and dances too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>41764</StartMilliseconds>
+    <EndMilliseconds>42218</EndMilliseconds>
+    <Text>My dog [@sings@] and dances too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>42219</StartMilliseconds>
+    <EndMilliseconds>42435</EndMilliseconds>
+    <Text>My dog sings [@and@] dances too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>42436</StartMilliseconds>
+    <EndMilliseconds>43084</EndMilliseconds>
+    <Text>My dog sings and [@dances@] too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>43085</StartMilliseconds>
+    <EndMilliseconds>43936</EndMilliseconds>
+    <Text>My dog sings and dances [@too@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>43937</StartMilliseconds>
+    <EndMilliseconds>46226</EndMilliseconds>
+    <Text>My dog sings and dances too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>46227</StartMilliseconds>
+    <EndMilliseconds>46488</EndMilliseconds>
+    <Text>[e@My dog sings and dances too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>46489</StartMilliseconds>
+    <EndMilliseconds>48394</EndMilliseconds>
+    <Text>I take a shower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>48395</StartMilliseconds>
+    <EndMilliseconds>48854</EndMilliseconds>
+    <Text>[s@I take a shower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>48855</StartMilliseconds>
+    <EndMilliseconds>49221</EndMilliseconds>
+    <Text>[@I@] take a shower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>49222</StartMilliseconds>
+    <EndMilliseconds>49472</EndMilliseconds>
+    <Text>I [@take@] a shower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>49473</StartMilliseconds>
+    <EndMilliseconds>49662</EndMilliseconds>
+    <Text>I take [@a@] shower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>49663</StartMilliseconds>
+    <EndMilliseconds>50584</EndMilliseconds>
+    <Text>I take a [@shower@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>50585</StartMilliseconds>
+    <EndMilliseconds>51283</EndMilliseconds>
+    <Text>I take a shower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>51284</StartMilliseconds>
+    <EndMilliseconds>51477</EndMilliseconds>
+    <Text>[e@I take a shower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>51478</StartMilliseconds>
+    <EndMilliseconds>51867</EndMilliseconds>
+    <Text>My dog takes a shower too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>51868</StartMilliseconds>
+    <EndMilliseconds>52363</EndMilliseconds>
+    <Text>[@My@] dog takes a shower too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>52364</StartMilliseconds>
+    <EndMilliseconds>52768</EndMilliseconds>
+    <Text>My [@dog@] takes a shower too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>52769</StartMilliseconds>
+    <EndMilliseconds>53123</EndMilliseconds>
+    <Text>My dog [@takes@] a shower too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>53124</StartMilliseconds>
+    <EndMilliseconds>53331</EndMilliseconds>
+    <Text>My dog takes [@a@] shower too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>53332</StartMilliseconds>
+    <EndMilliseconds>53813</EndMilliseconds>
+    <Text>My dog takes a [@shower@] too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>53814</StartMilliseconds>
+    <EndMilliseconds>54627</EndMilliseconds>
+    <Text>My dog takes a shower [@too@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>54628</StartMilliseconds>
+    <EndMilliseconds>57726</EndMilliseconds>
+    <Text>My dog takes a shower too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>57727</StartMilliseconds>
+    <EndMilliseconds>57939</EndMilliseconds>
+    <Text>[e@My dog takes a shower too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>57940</StartMilliseconds>
+    <EndMilliseconds>58295</EndMilliseconds>
+    <Text>We have cookies and hot chocolate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>58296</StartMilliseconds>
+    <EndMilliseconds>58658</EndMilliseconds>
+    <Text>[@We@] have cookies and hot chocolate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>58659</StartMilliseconds>
+    <EndMilliseconds>59146</EndMilliseconds>
+    <Text>We [@have@] cookies and hot chocolate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>59147</StartMilliseconds>
+    <EndMilliseconds>59774</EndMilliseconds>
+    <Text>We have [@cookies@] and hot chocolate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>59775</StartMilliseconds>
+    <EndMilliseconds>60197</EndMilliseconds>
+    <Text>We have cookies [@and@] hot chocolate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>60198</StartMilliseconds>
+    <EndMilliseconds>60543</EndMilliseconds>
+    <Text>We have cookies and [@hot@] chocolate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>60544</StartMilliseconds>
+    <EndMilliseconds>61753</EndMilliseconds>
+    <Text>We have cookies and hot [@chocolate@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>61754</StartMilliseconds>
+    <EndMilliseconds>63717</EndMilliseconds>
+    <Text>We have cookies and hot chocolate.</Text>
+  </Paragraph>
+</Subtitle>

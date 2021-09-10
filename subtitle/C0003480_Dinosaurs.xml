@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1878</EndMilliseconds>
+    <Text>This one has a small head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1879</StartMilliseconds>
+    <EndMilliseconds>2171</EndMilliseconds>
+    <Text>[@This@] one has a small head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>2172</StartMilliseconds>
+    <EndMilliseconds>2423</EndMilliseconds>
+    <Text>This [@one@] has a small head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2424</StartMilliseconds>
+    <EndMilliseconds>2710</EndMilliseconds>
+    <Text>This one [@has@] a small head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>2711</StartMilliseconds>
+    <EndMilliseconds>2859</EndMilliseconds>
+    <Text>This one has [@a@] small head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>2860</StartMilliseconds>
+    <EndMilliseconds>3545</EndMilliseconds>
+    <Text>This one has a [@small@] head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>3546</StartMilliseconds>
+    <EndMilliseconds>4502</EndMilliseconds>
+    <Text>This one has a small [@head@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>4503</StartMilliseconds>
+    <EndMilliseconds>7624</EndMilliseconds>
+    <Text>This one has a small head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>7625</StartMilliseconds>
+    <EndMilliseconds>7818</EndMilliseconds>
+    <Text>[e@This one has a small head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>7819</StartMilliseconds>
+    <EndMilliseconds>8343</EndMilliseconds>
+    <Text>This one has a big mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>8344</StartMilliseconds>
+    <EndMilliseconds>9484</EndMilliseconds>
+    <Text>[s@This one has a big mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>9485</StartMilliseconds>
+    <EndMilliseconds>9827</EndMilliseconds>
+    <Text>[@This@] one has a big mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>9828</StartMilliseconds>
+    <EndMilliseconds>9992</EndMilliseconds>
+    <Text>This [@one@] has a big mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>9993</StartMilliseconds>
+    <EndMilliseconds>10242</EndMilliseconds>
+    <Text>This one [@has@] a big mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>10243</StartMilliseconds>
+    <EndMilliseconds>10450</EndMilliseconds>
+    <Text>This one has [@a@] big mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>10451</StartMilliseconds>
+    <EndMilliseconds>10999</EndMilliseconds>
+    <Text>This one has a [@big@] mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>11000</StartMilliseconds>
+    <EndMilliseconds>12036</EndMilliseconds>
+    <Text>This one has a big [@mouth@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>12037</StartMilliseconds>
+    <EndMilliseconds>15472</EndMilliseconds>
+    <Text>This one has a big mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>15473</StartMilliseconds>
+    <EndMilliseconds>15621</EndMilliseconds>
+    <Text>[e@This one has a big mouth.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>15622</StartMilliseconds>
+    <EndMilliseconds>17200</EndMilliseconds>
+    <Text>This one has a long tail.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>17201</StartMilliseconds>
+    <EndMilliseconds>17565</EndMilliseconds>
+    <Text>[s@This one has a long tail.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>17566</StartMilliseconds>
+    <EndMilliseconds>17890</EndMilliseconds>
+    <Text>[@This@] one has a long tail.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>17891</StartMilliseconds>
+    <EndMilliseconds>18143</EndMilliseconds>
+    <Text>This [@one@] has a long tail.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>18144</StartMilliseconds>
+    <EndMilliseconds>18388</EndMilliseconds>
+    <Text>This one [@has@] a long tail.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>18389</StartMilliseconds>
+    <EndMilliseconds>18549</EndMilliseconds>
+    <Text>This one has [@a@] long tail.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>18550</StartMilliseconds>
+    <EndMilliseconds>19379</EndMilliseconds>
+    <Text>This one has a [@long@] tail.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>19380</StartMilliseconds>
+    <EndMilliseconds>20329</EndMilliseconds>
+    <Text>This one has a long [@tail@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>20330</StartMilliseconds>
+    <EndMilliseconds>22724</EndMilliseconds>
+    <Text>This one has a long tail.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>22725</StartMilliseconds>
+    <EndMilliseconds>22872</EndMilliseconds>
+    <Text>[e@This one has a long tail.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>22873</StartMilliseconds>
+    <EndMilliseconds>23740</EndMilliseconds>
+    <Text>This one has large wings.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>23741</StartMilliseconds>
+    <EndMilliseconds>24184</EndMilliseconds>
+    <Text>[s@This one has large wings.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>24185</StartMilliseconds>
+    <EndMilliseconds>24508</EndMilliseconds>
+    <Text>[@This@] one has large wings.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>24509</StartMilliseconds>
+    <EndMilliseconds>24739</EndMilliseconds>
+    <Text>This [@one@] has large wings.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>24740</StartMilliseconds>
+    <EndMilliseconds>25110</EndMilliseconds>
+    <Text>This one [@has@] large wings.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>25111</StartMilliseconds>
+    <EndMilliseconds>25859</EndMilliseconds>
+    <Text>This one has [@large@] wings.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>25860</StartMilliseconds>
+    <EndMilliseconds>26962</EndMilliseconds>
+    <Text>This one has large [@wings@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>26963</StartMilliseconds>
+    <EndMilliseconds>29573</EndMilliseconds>
+    <Text>This one has large wings.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>29574</StartMilliseconds>
+    <EndMilliseconds>29741</EndMilliseconds>
+    <Text>[e@This one has large wings.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>29742</StartMilliseconds>
+    <EndMilliseconds>30526</EndMilliseconds>
+    <Text>This one has sharp horns.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>30527</StartMilliseconds>
+    <EndMilliseconds>31179</EndMilliseconds>
+    <Text>[s@This one has sharp horns.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>31180</StartMilliseconds>
+    <EndMilliseconds>31449</EndMilliseconds>
+    <Text>[@This@] one has sharp horns.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>31450</StartMilliseconds>
+    <EndMilliseconds>31729</EndMilliseconds>
+    <Text>This [@one@] has sharp horns.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>31730</StartMilliseconds>
+    <EndMilliseconds>31908</EndMilliseconds>
+    <Text>This one [@has@] sharp horns.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>31909</StartMilliseconds>
+    <EndMilliseconds>32522</EndMilliseconds>
+    <Text>This one has [@sharp@] horns.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>32523</StartMilliseconds>
+    <EndMilliseconds>33649</EndMilliseconds>
+    <Text>This one has sharp [@horns@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>33650</StartMilliseconds>
+    <EndMilliseconds>36691</EndMilliseconds>
+    <Text>This one has sharp horns.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>36692</StartMilliseconds>
+    <EndMilliseconds>36874</EndMilliseconds>
+    <Text>[e@This one has sharp horns.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>36875</StartMilliseconds>
+    <EndMilliseconds>37815</EndMilliseconds>
+    <Text>This one has a long neck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>37816</StartMilliseconds>
+    <EndMilliseconds>38160</EndMilliseconds>
+    <Text>[s@This one has a long neck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>38161</StartMilliseconds>
+    <EndMilliseconds>38485</EndMilliseconds>
+    <Text>[@This@] one has a long neck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>38486</StartMilliseconds>
+    <EndMilliseconds>38722</EndMilliseconds>
+    <Text>This [@one@] has a long neck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>38723</StartMilliseconds>
+    <EndMilliseconds>38983</EndMilliseconds>
+    <Text>This one [@has@] a long neck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>38984</StartMilliseconds>
+    <EndMilliseconds>39165</EndMilliseconds>
+    <Text>This one has [@a@] long neck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>39166</StartMilliseconds>
+    <EndMilliseconds>39803</EndMilliseconds>
+    <Text>This one has a [@long@] neck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>39804</StartMilliseconds>
+    <EndMilliseconds>40555</EndMilliseconds>
+    <Text>This one has a long [@neck@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>40556</StartMilliseconds>
+    <EndMilliseconds>43051</EndMilliseconds>
+    <Text>This one has a long neck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>43052</StartMilliseconds>
+    <EndMilliseconds>43213</EndMilliseconds>
+    <Text>[e@This one has a long neck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>43214</StartMilliseconds>
+    <EndMilliseconds>45462</EndMilliseconds>
+    <Text>This one has tiny arms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>45463</StartMilliseconds>
+    <EndMilliseconds>46463</EndMilliseconds>
+    <Text>[s@This one has tiny arms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>46464</StartMilliseconds>
+    <EndMilliseconds>46805</EndMilliseconds>
+    <Text>[@This@] one has tiny arms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>46806</StartMilliseconds>
+    <EndMilliseconds>46977</EndMilliseconds>
+    <Text>This [@one@] has tiny arms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>46978</StartMilliseconds>
+    <EndMilliseconds>47351</EndMilliseconds>
+    <Text>This one [@has@] tiny arms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>47352</StartMilliseconds>
+    <EndMilliseconds>48025</EndMilliseconds>
+    <Text>This one has [@tiny@] arms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>48026</StartMilliseconds>
+    <EndMilliseconds>49170</EndMilliseconds>
+    <Text>This one has tiny [@arms@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>49171</StartMilliseconds>
+    <EndMilliseconds>51565</EndMilliseconds>
+    <Text>This one has tiny arms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>51566</StartMilliseconds>
+    <EndMilliseconds>51688</EndMilliseconds>
+    <Text>[e@This one has tiny arms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>51689</StartMilliseconds>
+    <EndMilliseconds>52765</EndMilliseconds>
+    <Text>But it has huge teeth! Ah!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>52766</StartMilliseconds>
+    <EndMilliseconds>53133</EndMilliseconds>
+    <Text>[s@But it has huge teeth! Ah!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>53134</StartMilliseconds>
+    <EndMilliseconds>53362</EndMilliseconds>
+    <Text>[@But@] it has huge teeth! Ah!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>53363</StartMilliseconds>
+    <EndMilliseconds>53510</EndMilliseconds>
+    <Text>But [@it@] has huge teeth! Ah!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>53511</StartMilliseconds>
+    <EndMilliseconds>54019</EndMilliseconds>
+    <Text>But it [@has@] huge teeth! Ah!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>54020</StartMilliseconds>
+    <EndMilliseconds>54520</EndMilliseconds>
+    <Text>But it has [@huge@] teeth! Ah!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>54521</StartMilliseconds>
+    <EndMilliseconds>55686</EndMilliseconds>
+    <Text>But it has huge [@teeth@]! Ah!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>55687</StartMilliseconds>
+    <EndMilliseconds>57110</EndMilliseconds>
+    <Text>But it has huge teeth! [@Ah@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>57111</StartMilliseconds>
+    <EndMilliseconds>60195</EndMilliseconds>
+    <Text>But it has huge teeth! Ah!</Text>
+  </Paragraph>
+</Subtitle>

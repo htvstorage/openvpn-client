@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>5870</EndMilliseconds>
+    <Text>We go here.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>5871</StartMilliseconds>
+    <EndMilliseconds>6108</EndMilliseconds>
+    <Text>[@We@] go here.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>6109</StartMilliseconds>
+    <EndMilliseconds>6410</EndMilliseconds>
+    <Text>We [@go@] here.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>6411</StartMilliseconds>
+    <EndMilliseconds>7075</EndMilliseconds>
+    <Text>We go [@here@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>7076</StartMilliseconds>
+    <EndMilliseconds>7457</EndMilliseconds>
+    <Text>We go here.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>7458</StartMilliseconds>
+    <EndMilliseconds>7608</EndMilliseconds>
+    <Text>[e@We go here.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>7609</StartMilliseconds>
+    <EndMilliseconds>9754</EndMilliseconds>
+    <Text>We go there.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>9755</StartMilliseconds>
+    <EndMilliseconds>10316</EndMilliseconds>
+    <Text>[s@We go there.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>10317</StartMilliseconds>
+    <EndMilliseconds>10595</EndMilliseconds>
+    <Text>[@We@] go there.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>10596</StartMilliseconds>
+    <EndMilliseconds>10922</EndMilliseconds>
+    <Text>We [@go@] there.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>10923</StartMilliseconds>
+    <EndMilliseconds>11656</EndMilliseconds>
+    <Text>We go [@there@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>11657</StartMilliseconds>
+    <EndMilliseconds>11930</EndMilliseconds>
+    <Text>We go there.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>11931</StartMilliseconds>
+    <EndMilliseconds>12075</EndMilliseconds>
+    <Text>[e@We go there.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>12076</StartMilliseconds>
+    <EndMilliseconds>13631</EndMilliseconds>
+    <Text>Animals are everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>13632</StartMilliseconds>
+    <EndMilliseconds>13989</EndMilliseconds>
+    <Text>[s@Animals are everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>13990</StartMilliseconds>
+    <EndMilliseconds>14597</EndMilliseconds>
+    <Text>[@Animals@] are everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>14598</StartMilliseconds>
+    <EndMilliseconds>14833</EndMilliseconds>
+    <Text>Animals [@are@] everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>14834</StartMilliseconds>
+    <EndMilliseconds>16096</EndMilliseconds>
+    <Text>Animals are [@everywhere@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>16097</StartMilliseconds>
+    <EndMilliseconds>17034</EndMilliseconds>
+    <Text>Animals are everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>17035</StartMilliseconds>
+    <EndMilliseconds>17274</EndMilliseconds>
+    <Text>[e@Animals are everywhere.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>17275</StartMilliseconds>
+    <EndMilliseconds>22041</EndMilliseconds>
+    <Text>We look at this.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>22042</StartMilliseconds>
+    <EndMilliseconds>22413</EndMilliseconds>
+    <Text>[s@We look at this.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>22414</StartMilliseconds>
+    <EndMilliseconds>22645</EndMilliseconds>
+    <Text>[@We@] look at this.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>22646</StartMilliseconds>
+    <EndMilliseconds>22820</EndMilliseconds>
+    <Text>We [@look@] at this.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>22821</StartMilliseconds>
+    <EndMilliseconds>23032</EndMilliseconds>
+    <Text>We look [@at@] this.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>23033</StartMilliseconds>
+    <EndMilliseconds>23791</EndMilliseconds>
+    <Text>We look at [@this@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>23792</StartMilliseconds>
+    <EndMilliseconds>24506</EndMilliseconds>
+    <Text>We look at this.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>24507</StartMilliseconds>
+    <EndMilliseconds>24734</EndMilliseconds>
+    <Text>[e@We look at this.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>24735</StartMilliseconds>
+    <EndMilliseconds>27808</EndMilliseconds>
+    <Text>We look at that.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>27809</StartMilliseconds>
+    <EndMilliseconds>28307</EndMilliseconds>
+    <Text>[s@We look at that.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>28308</StartMilliseconds>
+    <EndMilliseconds>28526</EndMilliseconds>
+    <Text>[@We@] look at that.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>28527</StartMilliseconds>
+    <EndMilliseconds>28767</EndMilliseconds>
+    <Text>We [@look@] at that.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>28768</StartMilliseconds>
+    <EndMilliseconds>28945</EndMilliseconds>
+    <Text>We look [@at@] that.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>28946</StartMilliseconds>
+    <EndMilliseconds>29710</EndMilliseconds>
+    <Text>We look at [@that@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>29711</StartMilliseconds>
+    <EndMilliseconds>30086</EndMilliseconds>
+    <Text>We look at that.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>30087</StartMilliseconds>
+    <EndMilliseconds>30288</EndMilliseconds>
+    <Text>[e@We look at that.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>30289</StartMilliseconds>
+    <EndMilliseconds>33362</EndMilliseconds>
+    <Text>There is so much to look at!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>33363</StartMilliseconds>
+    <EndMilliseconds>33860</EndMilliseconds>
+    <Text>[s@There is so much to look at!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>33861</StartMilliseconds>
+    <EndMilliseconds>34096</EndMilliseconds>
+    <Text>[@There@] is so much to look at!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>34097</StartMilliseconds>
+    <EndMilliseconds>34276</EndMilliseconds>
+    <Text>There [@is@] so much to look at!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>34277</StartMilliseconds>
+    <EndMilliseconds>34905</EndMilliseconds>
+    <Text>There is [@so@] much to look at!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>34906</StartMilliseconds>
+    <EndMilliseconds>35314</EndMilliseconds>
+    <Text>There is so [@much@] to look at!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>35315</StartMilliseconds>
+    <EndMilliseconds>35581</EndMilliseconds>
+    <Text>There is so much [@to@] look at!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>35582</StartMilliseconds>
+    <EndMilliseconds>35804</EndMilliseconds>
+    <Text>There is so much to [@look@] at!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>35805</StartMilliseconds>
+    <EndMilliseconds>36729</EndMilliseconds>
+    <Text>There is so much to look [@at@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>36730</StartMilliseconds>
+    <EndMilliseconds>37540</EndMilliseconds>
+    <Text>There is so much to look at!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>37541</StartMilliseconds>
+    <EndMilliseconds>37805</EndMilliseconds>
+    <Text>[e@There is so much to look at!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>37806</StartMilliseconds>
+    <EndMilliseconds>41408</EndMilliseconds>
+    <Text>We hear these.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>41409</StartMilliseconds>
+    <EndMilliseconds>41964</EndMilliseconds>
+    <Text>[s@We hear these.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>41965</StartMilliseconds>
+    <EndMilliseconds>42208</EndMilliseconds>
+    <Text>[@We@] hear these.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>42209</StartMilliseconds>
+    <EndMilliseconds>42573</EndMilliseconds>
+    <Text>We [@hear@] these.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>42574</StartMilliseconds>
+    <EndMilliseconds>43525</EndMilliseconds>
+    <Text>We hear [@these@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>43526</StartMilliseconds>
+    <EndMilliseconds>43888</EndMilliseconds>
+    <Text>We hear these.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>43889</StartMilliseconds>
+    <EndMilliseconds>44068</EndMilliseconds>
+    <Text>[e@We hear these.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>44069</StartMilliseconds>
+    <EndMilliseconds>49783</EndMilliseconds>
+    <Text>We hear those.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>49784</StartMilliseconds>
+    <EndMilliseconds>50306</EndMilliseconds>
+    <Text>[s@We hear those.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>50307</StartMilliseconds>
+    <EndMilliseconds>50534</EndMilliseconds>
+    <Text>[@We@] hear those.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>50535</StartMilliseconds>
+    <EndMilliseconds>50814</EndMilliseconds>
+    <Text>We [@hear@] those.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>50815</StartMilliseconds>
+    <EndMilliseconds>51799</EndMilliseconds>
+    <Text>We hear [@those@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>51800</StartMilliseconds>
+    <EndMilliseconds>52213</EndMilliseconds>
+    <Text>We hear those.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>52214</StartMilliseconds>
+    <EndMilliseconds>52405</EndMilliseconds>
+    <Text>[e@We hear those.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>52406</StartMilliseconds>
+    <EndMilliseconds>57386</EndMilliseconds>
+    <Text>Those must be the hippos!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>57387</StartMilliseconds>
+    <EndMilliseconds>57876</EndMilliseconds>
+    <Text>[s@Those must be the hippos!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>57877</StartMilliseconds>
+    <EndMilliseconds>58581</EndMilliseconds>
+    <Text>[@Those@] must be the hippos!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>58582</StartMilliseconds>
+    <EndMilliseconds>58932</EndMilliseconds>
+    <Text>Those [@must@] be the hippos!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>58933</StartMilliseconds>
+    <EndMilliseconds>59331</EndMilliseconds>
+    <Text>Those must [@be@] the hippos!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>59332</StartMilliseconds>
+    <EndMilliseconds>59507</EndMilliseconds>
+    <Text>Those must be [@the@] hippos!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>59508</StartMilliseconds>
+    <EndMilliseconds>61185</EndMilliseconds>
+    <Text>Those must be the [@hippos@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>61186</StartMilliseconds>
+    <EndMilliseconds>67101</EndMilliseconds>
+    <Text>Those must be the hippos!</Text>
+  </Paragraph>
+</Subtitle>

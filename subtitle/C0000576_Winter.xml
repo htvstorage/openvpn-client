@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>2785</EndMilliseconds>
+    <Text>Frost on the window.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>2786</StartMilliseconds>
+    <EndMilliseconds>3274</EndMilliseconds>
+    <Text>[@Frost@] on the window.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3275</StartMilliseconds>
+    <EndMilliseconds>3552</EndMilliseconds>
+    <Text>Frost [@on@] the window.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>3553</StartMilliseconds>
+    <EndMilliseconds>3734</EndMilliseconds>
+    <Text>Frost on [@the@] window.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>3735</StartMilliseconds>
+    <EndMilliseconds>4546</EndMilliseconds>
+    <Text>Frost on the [@window@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>4547</StartMilliseconds>
+    <EndMilliseconds>4976</EndMilliseconds>
+    <Text>Frost on the window.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>4977</StartMilliseconds>
+    <EndMilliseconds>5160</EndMilliseconds>
+    <Text>[e@Frost on the window.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>5161</StartMilliseconds>
+    <EndMilliseconds>5495</EndMilliseconds>
+    <Text>Dark sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>5496</StartMilliseconds>
+    <EndMilliseconds>5921</EndMilliseconds>
+    <Text>[@Dark@] sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>5922</StartMilliseconds>
+    <EndMilliseconds>6761</EndMilliseconds>
+    <Text>Dark [@sky@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>6762</StartMilliseconds>
+    <EndMilliseconds>12458</EndMilliseconds>
+    <Text>Dark sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>12459</StartMilliseconds>
+    <EndMilliseconds>12782</EndMilliseconds>
+    <Text>[e@Dark sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>12783</StartMilliseconds>
+    <EndMilliseconds>15485</EndMilliseconds>
+    <Text>Snowflakes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>15486</StartMilliseconds>
+    <EndMilliseconds>15929</EndMilliseconds>
+    <Text>[s@Snowflakes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>15930</StartMilliseconds>
+    <EndMilliseconds>17459</EndMilliseconds>
+    <Text>[@Snowflakes@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>17460</StartMilliseconds>
+    <EndMilliseconds>18108</EndMilliseconds>
+    <Text>Snowflakes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>18109</StartMilliseconds>
+    <EndMilliseconds>18337</EndMilliseconds>
+    <Text>[e@Snowflakes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>18338</StartMilliseconds>
+    <EndMilliseconds>18951</EndMilliseconds>
+    <Text>Snowsuit and boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>18952</StartMilliseconds>
+    <EndMilliseconds>19856</EndMilliseconds>
+    <Text>[@Snowsuit@] and boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>19857</StartMilliseconds>
+    <EndMilliseconds>20251</EndMilliseconds>
+    <Text>Snowsuit [@and@] boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>20252</StartMilliseconds>
+    <EndMilliseconds>21100</EndMilliseconds>
+    <Text>Snowsuit and [@boots@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>21101</StartMilliseconds>
+    <EndMilliseconds>21625</EndMilliseconds>
+    <Text>Snowsuit and boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>21626</StartMilliseconds>
+    <EndMilliseconds>21831</EndMilliseconds>
+    <Text>[e@Snowsuit and boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>21832</StartMilliseconds>
+    <EndMilliseconds>25134</EndMilliseconds>
+    <Text>Mittens.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>25135</StartMilliseconds>
+    <EndMilliseconds>26027</EndMilliseconds>
+    <Text>[s@Mittens.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>26028</StartMilliseconds>
+    <EndMilliseconds>27113</EndMilliseconds>
+    <Text>[@Mittens@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>27114</StartMilliseconds>
+    <EndMilliseconds>28005</EndMilliseconds>
+    <Text>Mittens.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>28006</StartMilliseconds>
+    <EndMilliseconds>28246</EndMilliseconds>
+    <Text>[e@Mittens.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>28247</StartMilliseconds>
+    <EndMilliseconds>28658</EndMilliseconds>
+    <Text>Snowman.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>28659</StartMilliseconds>
+    <EndMilliseconds>29789</EndMilliseconds>
+    <Text>[@Snowman@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>29790</StartMilliseconds>
+    <EndMilliseconds>31917</EndMilliseconds>
+    <Text>Snowman.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>31918</StartMilliseconds>
+    <EndMilliseconds>32146</EndMilliseconds>
+    <Text>[e@Snowman.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>32147</StartMilliseconds>
+    <EndMilliseconds>32859</EndMilliseconds>
+    <Text>Hot chocolate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>32860</StartMilliseconds>
+    <EndMilliseconds>33224</EndMilliseconds>
+    <Text>[@Hot@] chocolate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>33225</StartMilliseconds>
+    <EndMilliseconds>34226</EndMilliseconds>
+    <Text>Hot [@chocolate@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>34227</StartMilliseconds>
+    <EndMilliseconds>35135</EndMilliseconds>
+    <Text>Hot chocolate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>35136</StartMilliseconds>
+    <EndMilliseconds>35338</EndMilliseconds>
+    <Text>[e@Hot chocolate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>35339</StartMilliseconds>
+    <EndMilliseconds>35789</EndMilliseconds>
+    <Text>Fireplace.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>35790</StartMilliseconds>
+    <EndMilliseconds>37418</EndMilliseconds>
+    <Text>[@Fireplace@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>37419</StartMilliseconds>
+    <EndMilliseconds>37817</EndMilliseconds>
+    <Text>Fireplace.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>37818</StartMilliseconds>
+    <EndMilliseconds>38081</EndMilliseconds>
+    <Text>Oh, winter!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>38082</StartMilliseconds>
+    <EndMilliseconds>38805</EndMilliseconds>
+    <Text>[@Oh@], winter!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>38806</StartMilliseconds>
+    <EndMilliseconds>39819</EndMilliseconds>
+    <Text>Oh, [@winter@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>39820</StartMilliseconds>
+    <EndMilliseconds>42280</EndMilliseconds>
+    <Text>Oh, winter!</Text>
+  </Paragraph>
+</Subtitle>

@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>3885</EndMilliseconds>
+    <Text>The Tang Monk was tied up in a room.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>3886</StartMilliseconds>
+    <EndMilliseconds>7564</EndMilliseconds>
+    <Text>He heard his companions yelling at the monster.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>7565</StartMilliseconds>
+    <EndMilliseconds>12662</EndMilliseconds>
+    <Text>"Hand over the Tang Monk now!" shouted Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>12663</StartMilliseconds>
+    <EndMilliseconds>17500</EndMilliseconds>
+    <Text>[i@Clang!@i] The Tang Monk heard the sound of weapons clashing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>17501</StartMilliseconds>
+    <EndMilliseconds>22072</EndMilliseconds>
+    <Text>"I hope they rescue me," said the monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>22073</StartMilliseconds>
+    <EndMilliseconds>25521</EndMilliseconds>
+    <Text>A young woman entered the room.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>25522</StartMilliseconds>
+    <EndMilliseconds>28939</EndMilliseconds>
+    <Text>"Wh-who are you?" asked the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>28940</StartMilliseconds>
+    <EndMilliseconds>31970</EndMilliseconds>
+    <Text>"I'm a prisoner here," said the woman.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>31971</StartMilliseconds>
+    <EndMilliseconds>37201</EndMilliseconds>
+    <Text>"That monster kidnapped me 13 years ago and won't let me leave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>37202</StartMilliseconds>
+    <EndMilliseconds>39201</EndMilliseconds>
+    <Text>Will you help me?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>39202</StartMilliseconds>
+    <EndMilliseconds>43059</EndMilliseconds>
+    <Text>"I wish I could help you," said the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>43060</StartMilliseconds>
+    <EndMilliseconds>46191</EndMilliseconds>
+    <Text>He showed the young woman his ropes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>46192</StartMilliseconds>
+    <EndMilliseconds>49547</EndMilliseconds>
+    <Text>"I can help you get free," said the young woman.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>49548</StartMilliseconds>
+    <EndMilliseconds>53858</EndMilliseconds>
+    <Text>"If I do, will you deliver a letter to my parents?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>53859</StartMilliseconds>
+    <EndMilliseconds>58403</EndMilliseconds>
+    <Text>"Of course," said the monk. "Who are your parents?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>58404</StartMilliseconds>
+    <EndMilliseconds>63981</EndMilliseconds>
+    <Text>"They're the king and queen of the Precious [n@Image Kingdom," said the young woman.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>63982</StartMilliseconds>
+    <EndMilliseconds>70603</EndMilliseconds>
+    <Text>"My name is Princess Hundred Flowers."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>70604</StartMilliseconds>
+    <EndMilliseconds>79202</EndMilliseconds>
+    <Text>Bajie and Wujing were still fighting the monster [n@when the princess ran outside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>79203</StartMilliseconds>
+    <EndMilliseconds>84771</EndMilliseconds>
+    <Text>"Monster!" she cried. "I must ask you a favor."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>84772</StartMilliseconds>
+    <EndMilliseconds>89391</EndMilliseconds>
+    <Text>Right away the monster stopped fighting and turned to the princess.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>89392</StartMilliseconds>
+    <EndMilliseconds>94426</EndMilliseconds>
+    <Text>"What can I do for you, my sweet?" asked the monster.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>94427</StartMilliseconds>
+    <EndMilliseconds>97744</EndMilliseconds>
+    <Text>"There's a monk inside," said the princess.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>97745</StartMilliseconds>
+    <EndMilliseconds>101185</EndMilliseconds>
+    <Text>[g@"It makes me so sad to see him tied up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>101186</StartMilliseconds>
+    <EndMilliseconds>103390</EndMilliseconds>
+    <Text>Won't you let him go?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>103391</StartMilliseconds>
+    <EndMilliseconds>106657</EndMilliseconds>
+    <Text>[g@The monster hesitated.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>106658</StartMilliseconds>
+    <EndMilliseconds>112342</EndMilliseconds>
+    <Text>"That monk isn't an ordinary monk. He's the—"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>112343</StartMilliseconds>
+    <EndMilliseconds>115892</EndMilliseconds>
+    <Text>Princess Hundred Flowers pretended to cry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>115893</StartMilliseconds>
+    <EndMilliseconds>118359</EndMilliseconds>
+    <Text>[g@The monster held up his hands.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>118360</StartMilliseconds>
+    <EndMilliseconds>120780</EndMilliseconds>
+    <Text>"Okay, okay, sweetie.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>120781</StartMilliseconds>
+    <EndMilliseconds>124297</EndMilliseconds>
+    <Text>[g@You know I only want you to be happy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>124298</StartMilliseconds>
+    <EndMilliseconds>127015</EndMilliseconds>
+    <Text>The monk may go."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>127016</StartMilliseconds>
+    <EndMilliseconds>130660</EndMilliseconds>
+    <Text>The monster followed the princess back inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>130661</StartMilliseconds>
+    <EndMilliseconds>134857</EndMilliseconds>
+    <Text>Bajie and Wujing looked at each other in confusion.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>134858</StartMilliseconds>
+    <EndMilliseconds>140155</EndMilliseconds>
+    <Text>"The monster is going to free him?" mumbled Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>140156</StartMilliseconds>
+    <EndMilliseconds>145660</EndMilliseconds>
+    <Text>A moment later the Tang Monk came out.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>145661</StartMilliseconds>
+    <EndMilliseconds>151837</EndMilliseconds>
+    <Text>"There's something we must do," he said quietly to his companions.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>151838</StartMilliseconds>
+    <EndMilliseconds>157611</EndMilliseconds>
+    <Text>Later that day the travelers reached the [n@palace of the Precious Image Kingdom.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>157612</StartMilliseconds>
+    <EndMilliseconds>160827</EndMilliseconds>
+    <Text>[g@The queen was reading the letter from her daughter.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>160828</StartMilliseconds>
+    <EndMilliseconds>163224</EndMilliseconds>
+    <Text>Tears were in her eyes.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>163225</StartMilliseconds>
+    <EndMilliseconds>166573</EndMilliseconds>
+    <Text>[g@"Our poor daughter," said the queen.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>166574</StartMilliseconds>
+    <EndMilliseconds>170260</EndMilliseconds>
+    <Text>"She's been a prisoner all this time."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>170261</StartMilliseconds>
+    <EndMilliseconds>175364</EndMilliseconds>
+    <Text>The king stood up, his eyes blazing with anger.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>175365</StartMilliseconds>
+    <EndMilliseconds>179313</EndMilliseconds>
+    <Text>He called to his general, who was standing nearby.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>179314</StartMilliseconds>
+    <EndMilliseconds>181786</EndMilliseconds>
+    <Text>"Gather your troops," said the king.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>181787</StartMilliseconds>
+    <EndMilliseconds>183795</EndMilliseconds>
+    <Text>[g@"I want my daughter back.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>183796</StartMilliseconds>
+    <EndMilliseconds>188254</EndMilliseconds>
+    <Text>And I want that monster destroyed!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>188255</StartMilliseconds>
+    <EndMilliseconds>191143</EndMilliseconds>
+    <Text>"Forgive me, Your Majesty," said the general.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>191144</StartMilliseconds>
+    <EndMilliseconds>193076</EndMilliseconds>
+    <Text>[g@"But we are just men.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>193077</StartMilliseconds>
+    <EndMilliseconds>197126</EndMilliseconds>
+    <Text>How can we defeat such a powerful monster?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>197127</StartMilliseconds>
+    <EndMilliseconds>200198</EndMilliseconds>
+    <Text>"My two companions are powerful spirits, Your Majesty."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>200199</StartMilliseconds>
+    <EndMilliseconds>202619</EndMilliseconds>
+    <Text>[g@The Tang Monk spoke up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>202620</StartMilliseconds>
+    <EndMilliseconds>208443</EndMilliseconds>
+    <Text>"I'm sure they can rescue your daughter."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>208444</StartMilliseconds>
+    <EndMilliseconds>213326</EndMilliseconds>
+    <Text>Soon Bajie and Wujing were back at the pagoda.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>213327</StartMilliseconds>
+    <EndMilliseconds>216131</EndMilliseconds>
+    <Text>[g@The pig swung his rake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>216132</StartMilliseconds>
+    <EndMilliseconds>219800</EndMilliseconds>
+    <Text>[i@Crash!@i] The door exploded.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>219801</StartMilliseconds>
+    <EndMilliseconds>223638</EndMilliseconds>
+    <Text>"Get out here, you rotten monster!" he shouted.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>223639</StartMilliseconds>
+    <EndMilliseconds>226066</EndMilliseconds>
+    <Text>[g@The monster ran outside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>226067</StartMilliseconds>
+    <EndMilliseconds>229160</EndMilliseconds>
+    <Text>"You brutes!" he yelled.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>229161</StartMilliseconds>
+    <EndMilliseconds>231823</EndMilliseconds>
+    <Text>[g@"I let the monk go free.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>231824</StartMilliseconds>
+    <EndMilliseconds>235491</EndMilliseconds>
+    <Text>Why did you smash my door down?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>235492</StartMilliseconds>
+    <EndMilliseconds>238906</EndMilliseconds>
+    <Text>"We're here for the princess," said Wujing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>238907</StartMilliseconds>
+    <EndMilliseconds>242665</EndMilliseconds>
+    <Text>"The king of the Precious Image Kingdom sent us."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>242666</StartMilliseconds>
+    <EndMilliseconds>247341</EndMilliseconds>
+    <Text>[g@"You can't take the princess away," said the monster.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>247342</StartMilliseconds>
+    <EndMilliseconds>249941</EndMilliseconds>
+    <Text>"We are in love."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>249942</StartMilliseconds>
+    <EndMilliseconds>252595</EndMilliseconds>
+    <Text>[g@Bajie and Wujing attacked.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>252596</StartMilliseconds>
+    <EndMilliseconds>255337</EndMilliseconds>
+    <Text>The monster blocked their weapons.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>255338</StartMilliseconds>
+    <EndMilliseconds>260341</EndMilliseconds>
+    <Text>They fought for over an hour.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>260342</StartMilliseconds>
+    <EndMilliseconds>264763</EndMilliseconds>
+    <Text>Finally Bajie, tired from fighting, turned and ran.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>264764</StartMilliseconds>
+    <EndMilliseconds>267849</EndMilliseconds>
+    <Text>[g@Wujing was furious.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>267850</StartMilliseconds>
+    <EndMilliseconds>272820</EndMilliseconds>
+    <Text>"Bajie!" he shouted. "Where are you—oof!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>272821</StartMilliseconds>
+    <EndMilliseconds>278598</EndMilliseconds>
+    <Text>The monster knocked out Wujing and tied him up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>278599</StartMilliseconds>
+    <EndMilliseconds>284632</EndMilliseconds>
+    <Text>He dragged Wujing into the pagoda and locked him in a room.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>284633</StartMilliseconds>
+    <EndMilliseconds>290480</EndMilliseconds>
+    <Text>"The king knows that the princess is here," said the monster to himself.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>290481</StartMilliseconds>
+    <EndMilliseconds>295452</EndMilliseconds>
+    <Text>"But how?" He tapped his chin and thought.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>295453</StartMilliseconds>
+    <EndMilliseconds>297803</EndMilliseconds>
+    <Text>"Aha!" he said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>297804</StartMilliseconds>
+    <EndMilliseconds>302552</EndMilliseconds>
+    <Text>"The princess must have asked that monk to go to the king."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>302553</StartMilliseconds>
+    <EndMilliseconds>305508</EndMilliseconds>
+    <Text>[g@His eyes became dark and angry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>305509</StartMilliseconds>
+    <EndMilliseconds>312047</EndMilliseconds>
+    <Text>"She tricked me!"@g]</Text>
+  </Paragraph>
+</Subtitle>

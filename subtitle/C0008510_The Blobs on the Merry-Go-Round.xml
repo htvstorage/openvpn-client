@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>1</StartMilliseconds>
+    <EndMilliseconds>3172</EndMilliseconds>
+    <Text>Here come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>3173</StartMilliseconds>
+    <EndMilliseconds>3492</EndMilliseconds>
+    <Text>[@Here@] come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3493</StartMilliseconds>
+    <EndMilliseconds>3859</EndMilliseconds>
+    <Text>Here [@come@] the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>3860</StartMilliseconds>
+    <EndMilliseconds>4000</EndMilliseconds>
+    <Text>Here come [@the@] blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>4001</StartMilliseconds>
+    <EndMilliseconds>4881</EndMilliseconds>
+    <Text>Here come the [@blobs@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>4882</StartMilliseconds>
+    <EndMilliseconds>11719</EndMilliseconds>
+    <Text>Here come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>11720</StartMilliseconds>
+    <EndMilliseconds>12526</EndMilliseconds>
+    <Text>What do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>12527</StartMilliseconds>
+    <EndMilliseconds>12870</EndMilliseconds>
+    <Text>[@What@] do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>12871</StartMilliseconds>
+    <EndMilliseconds>13054</EndMilliseconds>
+    <Text>What [@do@] they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>13055</StartMilliseconds>
+    <EndMilliseconds>13285</EndMilliseconds>
+    <Text>What do [@they@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>13286</StartMilliseconds>
+    <EndMilliseconds>13850</EndMilliseconds>
+    <Text>What do they [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>13851</StartMilliseconds>
+    <EndMilliseconds>17027</EndMilliseconds>
+    <Text>What do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>17028</StartMilliseconds>
+    <EndMilliseconds>17504</EndMilliseconds>
+    <Text>They see a merry-go-round!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>17505</StartMilliseconds>
+    <EndMilliseconds>17755</EndMilliseconds>
+    <Text>[@They@] see a merry-go-round!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>17756</StartMilliseconds>
+    <EndMilliseconds>18103</EndMilliseconds>
+    <Text>They [@see@] a merry-go-round!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>18104</StartMilliseconds>
+    <EndMilliseconds>18474</EndMilliseconds>
+    <Text>They see [@a@] merry-go-round!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>18475</StartMilliseconds>
+    <EndMilliseconds>19794</EndMilliseconds>
+    <Text>They see a [@merry-go-round@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>19795</StartMilliseconds>
+    <EndMilliseconds>25511</EndMilliseconds>
+    <Text>They see a merry-go-round!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>25512</StartMilliseconds>
+    <EndMilliseconds>25859</EndMilliseconds>
+    <Text>The blobs go up to the merry-go-round.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>25860</StartMilliseconds>
+    <EndMilliseconds>26337</EndMilliseconds>
+    <Text>[@The@] blobs go up to the merry-go-round.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>26338</StartMilliseconds>
+    <EndMilliseconds>26765</EndMilliseconds>
+    <Text>The [@blobs@] go up to the merry-go-round.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>26766</StartMilliseconds>
+    <EndMilliseconds>26996</EndMilliseconds>
+    <Text>The blobs [@go@] up to the merry-go-round.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>26997</StartMilliseconds>
+    <EndMilliseconds>27178</EndMilliseconds>
+    <Text>The blobs go [@up@] to the merry-go-round.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>27179</StartMilliseconds>
+    <EndMilliseconds>27360</EndMilliseconds>
+    <Text>The blobs go up [@to@] the merry-go-round.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>27361</StartMilliseconds>
+    <EndMilliseconds>27540</EndMilliseconds>
+    <Text>The blobs go up to [@the@] merry-go-round.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>27541</StartMilliseconds>
+    <EndMilliseconds>28966</EndMilliseconds>
+    <Text>The blobs go up to the [@merry-go-round@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>28967</StartMilliseconds>
+    <EndMilliseconds>38583</EndMilliseconds>
+    <Text>The blobs go up to the merry-go-round.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>38584</StartMilliseconds>
+    <EndMilliseconds>38908</EndMilliseconds>
+    <Text>There's a horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>38909</StartMilliseconds>
+    <EndMilliseconds>39285</EndMilliseconds>
+    <Text>[@There's@] a horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>39286</StartMilliseconds>
+    <EndMilliseconds>39484</EndMilliseconds>
+    <Text>There's [@a@] horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>39485</StartMilliseconds>
+    <EndMilliseconds>40243</EndMilliseconds>
+    <Text>There's a [@horse@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>40244</StartMilliseconds>
+    <EndMilliseconds>49065</EndMilliseconds>
+    <Text>There's a horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>49066</StartMilliseconds>
+    <EndMilliseconds>49368</EndMilliseconds>
+    <Text>There's a donkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>49369</StartMilliseconds>
+    <EndMilliseconds>49721</EndMilliseconds>
+    <Text>[@There's@] a donkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>49722</StartMilliseconds>
+    <EndMilliseconds>49893</EndMilliseconds>
+    <Text>There's [@a@] donkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>49894</StartMilliseconds>
+    <EndMilliseconds>50683</EndMilliseconds>
+    <Text>There's a [@donkey@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>50684</StartMilliseconds>
+    <EndMilliseconds>63111</EndMilliseconds>
+    <Text>There's a donkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>63112</StartMilliseconds>
+    <EndMilliseconds>63476</EndMilliseconds>
+    <Text>There's a giraffe.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>63477</StartMilliseconds>
+    <EndMilliseconds>64034</EndMilliseconds>
+    <Text>[@There's@] a giraffe.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>64035</StartMilliseconds>
+    <EndMilliseconds>64252</EndMilliseconds>
+    <Text>There's [@a@] giraffe.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>64253</StartMilliseconds>
+    <EndMilliseconds>65199</EndMilliseconds>
+    <Text>There's a [@giraffe@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>65200</StartMilliseconds>
+    <EndMilliseconds>75096</EndMilliseconds>
+    <Text>There's a giraffe.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>75097</StartMilliseconds>
+    <EndMilliseconds>75375</EndMilliseconds>
+    <Text>There's a zebra.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>75376</StartMilliseconds>
+    <EndMilliseconds>75816</EndMilliseconds>
+    <Text>[@There's@] a zebra.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>75817</StartMilliseconds>
+    <EndMilliseconds>76028</EndMilliseconds>
+    <Text>There's [@a@] zebra.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>76029</StartMilliseconds>
+    <EndMilliseconds>76970</EndMilliseconds>
+    <Text>There's a [@zebra@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>76971</StartMilliseconds>
+    <EndMilliseconds>88071</EndMilliseconds>
+    <Text>There's a zebra.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>88072</StartMilliseconds>
+    <EndMilliseconds>88412</EndMilliseconds>
+    <Text>There's an elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>88413</StartMilliseconds>
+    <EndMilliseconds>88693</EndMilliseconds>
+    <Text>[@There's@] an elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>88694</StartMilliseconds>
+    <EndMilliseconds>88868</EndMilliseconds>
+    <Text>There's [@an@] elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>88869</StartMilliseconds>
+    <EndMilliseconds>89825</EndMilliseconds>
+    <Text>There's an [@elephant@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>89826</StartMilliseconds>
+    <EndMilliseconds>99943</EndMilliseconds>
+    <Text>There's an elephant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>99944</StartMilliseconds>
+    <EndMilliseconds>100204</EndMilliseconds>
+    <Text>Blobs, what's wrong?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>100205</StartMilliseconds>
+    <EndMilliseconds>101099</EndMilliseconds>
+    <Text>[@Blobs@], what's wrong?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>101100</StartMilliseconds>
+    <EndMilliseconds>101539</EndMilliseconds>
+    <Text>Blobs, [@what's@] wrong?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>101540</StartMilliseconds>
+    <EndMilliseconds>102305</EndMilliseconds>
+    <Text>Blobs, what's [@wrong@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>102306</StartMilliseconds>
+    <EndMilliseconds>103940</EndMilliseconds>
+    <Text>Blobs, what's wrong?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>103941</StartMilliseconds>
+    <EndMilliseconds>104152</EndMilliseconds>
+    <Text>Oh! There's a scary lion!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>104153</StartMilliseconds>
+    <EndMilliseconds>104812</EndMilliseconds>
+    <Text>[@Oh@]! There's a scary lion!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>104813</StartMilliseconds>
+    <EndMilliseconds>105240</EndMilliseconds>
+    <Text>Oh! [@There's@] a scary lion!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>105241</StartMilliseconds>
+    <EndMilliseconds>105472</EndMilliseconds>
+    <Text>Oh! There's [@a@] scary lion!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>105473</StartMilliseconds>
+    <EndMilliseconds>105975</EndMilliseconds>
+    <Text>Oh! There's a [@scary@] lion!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>105976</StartMilliseconds>
+    <EndMilliseconds>107011</EndMilliseconds>
+    <Text>Oh! There's a scary [@lion@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>107012</StartMilliseconds>
+    <EndMilliseconds>108607</EndMilliseconds>
+    <Text>Oh! There's a scary lion!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>108608</StartMilliseconds>
+    <EndMilliseconds>108772</EndMilliseconds>
+    <Text>The blobs run.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>108773</StartMilliseconds>
+    <EndMilliseconds>108974</EndMilliseconds>
+    <Text>[@The@] blobs run.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>108975</StartMilliseconds>
+    <EndMilliseconds>109457</EndMilliseconds>
+    <Text>The [@blobs@] run.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>109458</StartMilliseconds>
+    <EndMilliseconds>110217</EndMilliseconds>
+    <Text>The blobs [@run@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>110218</StartMilliseconds>
+    <EndMilliseconds>118108</EndMilliseconds>
+    <Text>The blobs run.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>118109</StartMilliseconds>
+    <EndMilliseconds>118329</EndMilliseconds>
+    <Text>Whew, the lion is gone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>118330</StartMilliseconds>
+    <EndMilliseconds>119159</EndMilliseconds>
+    <Text>[@Whew@], the lion is gone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>119160</StartMilliseconds>
+    <EndMilliseconds>119455</EndMilliseconds>
+    <Text>Whew, [@the@] lion is gone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>119456</StartMilliseconds>
+    <EndMilliseconds>119930</EndMilliseconds>
+    <Text>Whew, the [@lion@] is gone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>119931</StartMilliseconds>
+    <EndMilliseconds>120173</EndMilliseconds>
+    <Text>Whew, the lion [@is@] gone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>120174</StartMilliseconds>
+    <EndMilliseconds>120865</EndMilliseconds>
+    <Text>Whew, the lion is [@gone@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>120866</StartMilliseconds>
+    <EndMilliseconds>126594</EndMilliseconds>
+    <Text>Whew, the lion is gone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>126595</StartMilliseconds>
+    <EndMilliseconds>127235</EndMilliseconds>
+    <Text>Oh no! The lion's back!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>127236</StartMilliseconds>
+    <EndMilliseconds>127478</EndMilliseconds>
+    <Text>[@Oh@] no! The lion's back!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>127479</StartMilliseconds>
+    <EndMilliseconds>127986</EndMilliseconds>
+    <Text>Oh [@no@]! The lion's back!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>127987</StartMilliseconds>
+    <EndMilliseconds>128273</EndMilliseconds>
+    <Text>Oh no! [@The@] lion's back!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>128274</StartMilliseconds>
+    <EndMilliseconds>128810</EndMilliseconds>
+    <Text>Oh no! The [@lion's@] back!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>128811</StartMilliseconds>
+    <EndMilliseconds>129525</EndMilliseconds>
+    <Text>Oh no! The lion's [@back@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>129526</StartMilliseconds>
+    <EndMilliseconds>132556</EndMilliseconds>
+    <Text>Oh no! The lion's back!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>132557</StartMilliseconds>
+    <EndMilliseconds>132794</EndMilliseconds>
+    <Text>Silly blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>132795</StartMilliseconds>
+    <EndMilliseconds>133482</EndMilliseconds>
+    <Text>[@Silly@] blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>133483</StartMilliseconds>
+    <EndMilliseconds>134261</EndMilliseconds>
+    <Text>Silly [@blobs@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>134262</StartMilliseconds>
+    <EndMilliseconds>138194</EndMilliseconds>
+    <Text>Silly blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>138195</StartMilliseconds>
+    <EndMilliseconds>138652</EndMilliseconds>
+    <Text>Good-bye!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>138653</StartMilliseconds>
+    <EndMilliseconds>139859</EndMilliseconds>
+    <Text>[@Good-bye@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>139860</StartMilliseconds>
+    <EndMilliseconds>143216</EndMilliseconds>
+    <Text>Good-bye!</Text>
+  </Paragraph>
+</Subtitle>
