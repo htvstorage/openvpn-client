@@ -20,7 +20,7 @@ This is Snowball.
 
 6
 00:00:09,131 --> 00:00:09,267
-[e@This is Snowball.
+<font color="#ffff54">This is Snowball.</font>
 
 7
 00:00:09,268 --> 00:00:10,102
@@ -44,7 +44,7 @@ I love her.
 
 12
 00:00:12,294 --> 00:00:12,442
-[e@I love her.
+<font color="#ffff54">I love her.</font>
 
 13
 00:00:12,443 --> 00:00:16,140
@@ -52,7 +52,7 @@ I feed her.
 
 14
 00:00:16,141 --> 00:00:16,744
-[s@I feed her.
+<font color="#ffff54">I feed her.</font>
 
 15
 00:00:16,745 --> 00:00:17,085
@@ -72,7 +72,7 @@ I feed her.
 
 19
 00:00:18,553 --> 00:00:18,714
-[e@I feed her.
+<font color="#ffff54">I feed her.</font>
 
 20
 00:00:18,715 --> 00:00:20,354
@@ -80,7 +80,7 @@ I pet her.
 
 21
 00:00:20,355 --> 00:00:20,488
-[s@I pet her.
+<font color="#ffff54">I pet her.</font>
 
 22
 00:00:20,489 --> 00:00:20,747
@@ -100,7 +100,7 @@ I pet her.
 
 26
 00:00:22,551 --> 00:00:22,722
-[e@I pet her.
+<font color="#ffff54">I pet her.</font>
 
 27
 00:00:22,723 --> 00:00:27,984
@@ -108,7 +108,7 @@ I play with her.
 
 28
 00:00:27,985 --> 00:00:28,770
-[s@I play with her.
+<font color="#ffff54">I play with her.</font>
 
 29
 00:00:28,771 --> 00:00:29,191
@@ -132,7 +132,7 @@ I play with her.
 
 34
 00:00:30,952 --> 00:00:31,126
-[e@I play with her.
+<font color="#ffff54">I play with her.</font>
 
 35
 00:00:31,127 --> 00:00:31,834
@@ -156,7 +156,7 @@ I wash her.
 
 40
 00:00:34,594 --> 00:00:34,770
-[e@I wash her.
+<font color="#ffff54">I wash her.</font>
 
 41
 00:00:34,771 --> 00:00:35,733
@@ -164,7 +164,7 @@ I chase her!
 
 42
 00:00:35,734 --> 00:00:36,204
-[s@I chase her!
+<font color="#ffff54">I chase her!</font>
 
 43
 00:00:36,205 --> 00:00:36,566
@@ -184,7 +184,7 @@ I chase her!
 
 47
 00:00:42,169 --> 00:00:43,336
-[e@I chase her!
+<font color="#ffff54">I chase her!</font>
 
 48
 00:00:43,337 --> 00:00:44,520
@@ -192,7 +192,7 @@ Come back, Snowball!
 
 49
 00:00:44,521 --> 00:00:45,662
-[s@Come back, Snowball!
+<font color="#ffff54">Come back, Snowball!</font>
 
 50
 00:00:45,663 --> 00:00:46,069

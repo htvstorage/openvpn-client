@@ -20,7 +20,7 @@ It is autumn.
 
 6
 00:00:07,661 --> 00:00:07,857
-[e@It is autumn.
+<font color="#ffff54">It is autumn.</font>
 
 7
 00:00:07,858 --> 00:00:08,285
@@ -48,7 +48,7 @@ The leaves are falling.
 
 13
 00:00:11,290 --> 00:00:11,508
-[e@The leaves are falling.
+<font color="#ffff54">The leaves are falling.</font>
 
 14
 00:00:11,509 --> 00:00:12,159
@@ -92,7 +92,7 @@ Red, orange, yellow, and brown.
 
 24
 00:00:16,857 --> 00:00:17,043
-[e@Red, orange, yellow, and brown.
+<font color="#ffff54">Red, orange, yellow, and brown.</font>
 
 25
 00:00:17,044 --> 00:00:17,836
@@ -140,7 +140,7 @@ Pick up a leaf!
 
 36
 00:00:23,448 --> 00:00:23,713
-[e@Pick up a leaf!
+<font color="#ffff54">Pick up a leaf!</font>
 
 37
 00:00:23,714 --> 00:00:24,320
@@ -164,7 +164,7 @@ Crayons and paper.
 
 42
 00:00:27,496 --> 00:00:27,702
-[e@Crayons and paper.
+<font color="#ffff54">Crayons and paper.</font>
 
 43
 00:00:27,703 --> 00:00:29,716
@@ -172,7 +172,7 @@ Color.
 
 44
 00:00:29,717 --> 00:00:30,070
-[s@Color.
+<font color="#ffff54">Color.</font>
 
 45
 00:00:30,071 --> 00:00:30,979
@@ -184,7 +184,7 @@ Color.
 
 47
 00:00:32,092 --> 00:00:32,272
-[e@Color.
+<font color="#ffff54">Color.</font>
 
 48
 00:00:32,273 --> 00:00:33,072
@@ -212,7 +212,7 @@ What do you see?
 
 54
 00:00:35,402 --> 00:00:35,569
-[e@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 55
 00:00:35,570 --> 00:00:35,964
@@ -220,7 +220,7 @@ It's a leaf print.
 
 56
 00:00:35,965 --> 00:00:36,299
-[s@It's a leaf print.
+<font color="#ffff54">It's a leaf print.</font>
 
 57
 00:00:36,300 --> 00:00:36,833

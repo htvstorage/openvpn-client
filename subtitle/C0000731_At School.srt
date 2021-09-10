@@ -28,7 +28,7 @@ I like to say "Hello."
 
 8
 00:00:11,931 --> 00:00:12,126
-[e@I like to say "Hello."
+<font color="#ffff54">I like to say "Hello."</font>
 
 9
 00:00:12,127 --> 00:00:13,397
@@ -36,7 +36,7 @@ I like to listen.
 
 10
 00:00:13,398 --> 00:00:13,980
-[s@I like to listen.
+<font color="#ffff54">I like to listen.</font>
 
 11
 00:00:13,981 --> 00:00:14,237
@@ -60,7 +60,7 @@ I like to listen.
 
 16
 00:00:17,938 --> 00:00:18,136
-[e@I like to listen.
+<font color="#ffff54">I like to listen.</font>
 
 17
 00:00:18,137 --> 00:00:19,331
@@ -68,7 +68,7 @@ I like to talk.
 
 18
 00:00:19,332 --> 00:00:19,739
-[s@I like to talk.
+<font color="#ffff54">I like to talk.</font>
 
 19
 00:00:19,740 --> 00:00:20,018
@@ -92,7 +92,7 @@ I like to talk.
 
 24
 00:00:22,366 --> 00:00:22,521
-[e@I like to talk.
+<font color="#ffff54">I like to talk.</font>
 
 25
 00:00:22,522 --> 00:00:23,610
@@ -120,7 +120,7 @@ I like to dance.
 
 31
 00:00:27,923 --> 00:00:28,130
-[e@I like to dance.
+<font color="#ffff54">I like to dance.</font>
 
 32
 00:00:28,131 --> 00:00:28,502
@@ -128,7 +128,7 @@ I like to sing.
 
 33
 00:00:28,503 --> 00:00:29,863
-[s@I like to sing.
+<font color="#ffff54">I like to sing.</font>
 
 34
 00:00:29,864 --> 00:00:30,125
@@ -152,7 +152,7 @@ I like to sing.
 
 39
 00:00:34,947 --> 00:00:35,134
-[e@I like to sing.
+<font color="#ffff54">I like to sing.</font>
 
 40
 00:00:35,136 --> 00:00:36,349
@@ -160,7 +160,7 @@ I like to play.
 
 41
 00:00:36,350 --> 00:00:37,167
-[s@I like to play.
+<font color="#ffff54">I like to play.</font>
 
 42
 00:00:37,168 --> 00:00:37,379
@@ -184,7 +184,7 @@ I like to play.
 
 47
 00:00:41,688 --> 00:00:41,868
-[e@I like to play.
+<font color="#ffff54">I like to play.</font>
 
 48
 00:00:41,869 --> 00:00:43,279
@@ -192,7 +192,7 @@ I like to eat.
 
 49
 00:00:43,280 --> 00:00:43,732
-[s@I like to eat.
+<font color="#ffff54">I like to eat.</font>
 
 50
 00:00:43,733 --> 00:00:44,010
@@ -216,7 +216,7 @@ I like to eat.
 
 55
 00:00:46,778 --> 00:00:46,997
-[e@I like to eat.
+<font color="#ffff54">I like to eat.</font>
 
 56
 00:00:46,998 --> 00:00:47,572

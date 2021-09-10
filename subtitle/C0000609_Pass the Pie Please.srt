@@ -24,7 +24,7 @@ Pass the bread please.
 
 7
 00:00:17,318 --> 00:00:17,584
-[e@Pass the bread please.
+<font color="#ffff54">Pass the bread please.</font>
 
 8
 00:00:17,585 --> 00:00:19,351
@@ -32,7 +32,7 @@ Pass the butter please.
 
 9
 00:00:19,352 --> 00:00:19,709
-[s@Pass the butter please.
+<font color="#ffff54">Pass the butter please.</font>
 
 10
 00:00:19,710 --> 00:00:20,154
@@ -56,7 +56,7 @@ Pass the butter please.
 
 15
 00:00:27,755 --> 00:00:28,034
-[e@Pass the butter please.
+<font color="#ffff54">Pass the butter please.</font>
 
 16
 00:00:28,035 --> 00:00:28,917
@@ -64,7 +64,7 @@ Pass the chicken please.
 
 17
 00:00:28,918 --> 00:00:29,345
-[s@Pass the chicken please.
+<font color="#ffff54">Pass the chicken please.</font>
 
 18
 00:00:29,346 --> 00:00:29,778
@@ -88,7 +88,7 @@ Pass the chicken please.
 
 23
 00:00:37,177 --> 00:00:37,462
-[e@Pass the chicken please.
+<font color="#ffff54">Pass the chicken please.</font>
 
 24
 00:00:37,463 --> 00:00:38,669
@@ -96,7 +96,7 @@ Pass the rice please.
 
 25
 00:00:38,670 --> 00:00:39,055
-[s@Pass the rice please.
+<font color="#ffff54">Pass the rice please.</font>
 
 26
 00:00:39,056 --> 00:00:39,498
@@ -120,7 +120,7 @@ Pass the rice please.
 
 31
 00:00:45,798 --> 00:00:46,061
-[e@Pass the rice please.
+<font color="#ffff54">Pass the rice please.</font>
 
 32
 00:00:46,062 --> 00:00:47,291
@@ -128,7 +128,7 @@ Pass the corn please.
 
 33
 00:00:47,292 --> 00:00:47,698
-[s@Pass the corn please.
+<font color="#ffff54">Pass the corn please.</font>
 
 34
 00:00:47,699 --> 00:00:48,077
@@ -152,7 +152,7 @@ Pass the corn please.
 
 39
 00:00:54,683 --> 00:00:54,977
-[e@Pass the corn please.
+<font color="#ffff54">Pass the corn please.</font>
 
 40
 00:00:54,978 --> 00:00:56,337
@@ -160,7 +160,7 @@ Pass the milk please.
 
 41
 00:00:56,338 --> 00:00:56,780
-[s@Pass the milk please.
+<font color="#ffff54">Pass the milk please.</font>
 
 42
 00:00:56,781 --> 00:00:57,199
@@ -184,7 +184,7 @@ Pass the milk please.
 
 47
 00:01:04,490 --> 00:01:04,724
-[e@Pass the milk please.
+<font color="#ffff54">Pass the milk please.</font>
 
 48
 00:01:04,725 --> 00:01:05,493
@@ -192,7 +192,7 @@ Pass the pie please.
 
 49
 00:01:05,494 --> 00:01:05,863
-[s@Pass the pie please.
+<font color="#ffff54">Pass the pie please.</font>
 
 50
 00:01:05,864 --> 00:01:06,204
@@ -216,7 +216,7 @@ Pass the pie please.
 
 55
 00:01:11,048 --> 00:01:11,304
-[e@Pass the pie please.
+<font color="#ffff54">Pass the pie please.</font>
 
 56
 00:01:11,305 --> 00:01:12,667
@@ -224,7 +224,7 @@ Thank you.
 
 57
 00:01:12,668 --> 00:01:13,107
-[s@Thank you.
+<font color="#ffff54">Thank you.</font>
 
 58
 00:01:13,108 --> 00:01:13,457

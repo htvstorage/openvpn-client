@@ -20,7 +20,7 @@ Timmy is sad.
 
 6
 00:00:12,896 --> 00:00:13,130
-[e@Timmy is sad.
+<font color="#ffff54">Timmy is sad.</font>
 
 7
 00:00:13,131 --> 00:00:19,422
@@ -28,7 +28,7 @@ Aunt Tara is sadder.
 
 8
 00:00:19,423 --> 00:00:20,439
-[s@Aunt Tara is sadder.
+<font color="#ffff54">Aunt Tara is sadder.</font>
 
 9
 00:00:20,440 --> 00:00:20,933
@@ -52,7 +52,7 @@ Aunt Tara is sadder.
 
 14
 00:00:24,007 --> 00:00:24,196
-[e@Aunt Tara is sadder.
+<font color="#ffff54">Aunt Tara is sadder.</font>
 
 15
 00:00:24,197 --> 00:00:28,058
@@ -60,7 +60,7 @@ Mr. Tan is saddest.
 
 16
 00:00:28,059 --> 00:00:29,073
-[s@Mr. Tan is saddest.
+<font color="#ffff54">Mr. Tan is saddest.</font>
 
 17
 00:00:29,074 --> 00:00:30,122
@@ -80,7 +80,7 @@ Mr. Tan is saddest.
 
 21
 00:00:32,995 --> 00:00:33,197
-[e@Mr. Tan is saddest.
+<font color="#ffff54">Mr. Tan is saddest.</font>
 
 22
 00:00:33,198 --> 00:00:37,914
@@ -88,7 +88,7 @@ Mr. Tan needs a hug!
 
 23
 00:00:37,915 --> 00:00:38,928
-[s@Mr. Tan needs a hug!
+<font color="#ffff54">Mr. Tan needs a hug!</font>
 
 24
 00:00:38,929 --> 00:00:39,992
@@ -112,7 +112,7 @@ Mr. Tan needs a hug!
 
 29
 00:00:42,397 --> 00:00:42,590
-[e@Mr. Tan needs a hug!
+<font color="#ffff54">Mr. Tan needs a hug!</font>
 
 30
 00:00:42,591 --> 00:00:47,932
@@ -120,7 +120,7 @@ Stan's shoes are old.
 
 31
 00:00:47,933 --> 00:00:48,928
-[s@Stan's shoes are old.
+<font color="#ffff54">Stan's shoes are old.</font>
 
 32
 00:00:48,929 --> 00:00:49,830
@@ -144,7 +144,7 @@ Stan's shoes are old.
 
 37
 00:00:53,510 --> 00:00:53,725
-[e@Stan's shoes are old.
+<font color="#ffff54">Stan's shoes are old.</font>
 
 38
 00:00:53,726 --> 00:00:56,482
@@ -152,7 +152,7 @@ Sarah's shoes are older.
 
 39
 00:00:56,483 --> 00:00:58,580
-[s@Sarah's shoes are older.
+<font color="#ffff54">Sarah's shoes are older.</font>
 
 40
 00:00:58,581 --> 00:00:59,403
@@ -176,7 +176,7 @@ Sarah's shoes are older.
 
 45
 00:01:02,854 --> 00:01:03,081
-[e@Sarah's shoes are older.
+<font color="#ffff54">Sarah's shoes are older.</font>
 
 46
 00:01:03,082 --> 00:01:07,030
@@ -184,7 +184,7 @@ Sam's shoes are oldest.
 
 47
 00:01:07,031 --> 00:01:08,330
-[s@Sam's shoes are oldest.
+<font color="#ffff54">Sam's shoes are oldest.</font>
 
 48
 00:01:08,331 --> 00:01:08,948
@@ -208,7 +208,7 @@ Sam's shoes are oldest.
 
 53
 00:01:11,984 --> 00:01:12,199
-[e@Sam's shoes are oldest.
+<font color="#ffff54">Sam's shoes are oldest.</font>
 
 54
 00:01:12,200 --> 00:01:18,273
@@ -216,7 +216,7 @@ Sam needs new shoes!
 
 55
 00:01:18,274 --> 00:01:18,900
-[s@Sam needs new shoes!
+<font color="#ffff54">Sam needs new shoes!</font>
 
 56
 00:01:18,901 --> 00:01:19,546

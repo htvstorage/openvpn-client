@@ -16,7 +16,7 @@ Red car.
 
 5
 00:00:08,916 --> 00:00:09,105
-[e@Red car.
+<font color="#ffff54">Red car.</font>
 
 6
 00:00:09,106 --> 00:00:09,442
@@ -36,7 +36,7 @@ Pink car.
 
 10
 00:00:12,323 --> 00:00:12,553
-[e@Pink car.
+<font color="#ffff54">Pink car.</font>
 
 11
 00:00:12,554 --> 00:00:13,446
@@ -44,7 +44,7 @@ Orange car.
 
 12
 00:00:13,447 --> 00:00:14,015
-[s@Orange car.
+<font color="#ffff54">Orange car.</font>
 
 13
 00:00:14,016 --> 00:00:14,643
@@ -60,7 +60,7 @@ Orange car.
 
 16
 00:00:15,937 --> 00:00:16,085
-[e@Orange car.
+<font color="#ffff54">Orange car.</font>
 
 17
 00:00:16,086 --> 00:00:17,451
@@ -68,7 +68,7 @@ Yellow car.
 
 18
 00:00:17,452 --> 00:00:18,047
-[s@Yellow car.
+<font color="#ffff54">Yellow car.</font>
 
 19
 00:00:18,048 --> 00:00:18,664
@@ -84,7 +84,7 @@ Yellow car.
 
 22
 00:00:20,258 --> 00:00:20,403
-[e@Yellow car.
+<font color="#ffff54">Yellow car.</font>
 
 23
 00:00:20,404 --> 00:00:21,979
@@ -92,7 +92,7 @@ Green car.
 
 24
 00:00:21,980 --> 00:00:22,758
-[s@Green car.
+<font color="#ffff54">Green car.</font>
 
 25
 00:00:22,759 --> 00:00:23,394
@@ -108,7 +108,7 @@ Green car.
 
 28
 00:00:24,954 --> 00:00:25,076
-[e@Green car.
+<font color="#ffff54">Green car.</font>
 
 29
 00:00:25,077 --> 00:00:26,061
@@ -116,7 +116,7 @@ Blue car.
 
 30
 00:00:26,062 --> 00:00:26,631
-[s@Blue car.
+<font color="#ffff54">Blue car.</font>
 
 31
 00:00:26,632 --> 00:00:27,082
@@ -132,7 +132,7 @@ Blue car.
 
 34
 00:00:28,394 --> 00:00:28,555
-[e@Blue car.
+<font color="#ffff54">Blue car.</font>
 
 35
 00:00:28,556 --> 00:00:29,302
@@ -140,7 +140,7 @@ Brown car.
 
 36
 00:00:29,303 --> 00:00:29,743
-[s@Brown car.
+<font color="#ffff54">Brown car.</font>
 
 37
 00:00:29,744 --> 00:00:30,368
@@ -156,7 +156,7 @@ Brown car.
 
 40
 00:00:32,040 --> 00:00:32,211
-[e@Brown car.
+<font color="#ffff54">Brown car.</font>
 
 41
 00:00:32,212 --> 00:00:33,733
@@ -164,7 +164,7 @@ Purple car.
 
 42
 00:00:33,734 --> 00:00:34,321
-[s@Purple car.
+<font color="#ffff54">Purple car.</font>
 
 43
 00:00:34,322 --> 00:00:34,921
@@ -180,7 +180,7 @@ Purple car.
 
 46
 00:00:36,508 --> 00:00:36,700
-[e@Purple car.
+<font color="#ffff54">Purple car.</font>
 
 47
 00:00:36,701 --> 00:00:37,743

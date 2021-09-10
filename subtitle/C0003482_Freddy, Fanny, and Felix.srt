@@ -24,7 +24,7 @@ Freddy hops in yellow.
 
 7
 00:00:13,317 --> 00:00:13,480
-[e@Freddy hops in yellow.
+<font color="#ffff54">Freddy hops in yellow.</font>
 
 8
 00:00:13,481 --> 00:00:13,915
@@ -52,7 +52,7 @@ Freddy hops in red.
 
 14
 00:00:17,473 --> 00:00:17,632
-[e@Freddy hops in red.
+<font color="#ffff54">Freddy hops in red.</font>
 
 15
 00:00:17,633 --> 00:00:18,524
@@ -76,7 +76,7 @@ Freddy is orange!
 
 20
 00:00:20,405 --> 00:00:20,495
-[e@Freddy is orange!
+<font color="#ffff54">Freddy is orange!</font>
 
 21
 00:00:20,496 --> 00:00:21,445
@@ -84,7 +84,7 @@ Fanny hops in red.
 
 22
 00:00:21,446 --> 00:00:22,101
-[s@Fanny hops in red.
+<font color="#ffff54">Fanny hops in red.</font>
 
 23
 00:00:22,102 --> 00:00:22,527
@@ -108,7 +108,7 @@ Fanny hops in red.
 
 28
 00:00:25,851 --> 00:00:26,353
-[e@Fanny hops in red.
+<font color="#ffff54">Fanny hops in red.</font>
 
 29
 00:00:26,354 --> 00:00:27,036
@@ -136,7 +136,7 @@ Fanny hops in blue.
 
 35
 00:00:28,935 --> 00:00:29,169
-[e@Fanny hops in blue.
+<font color="#ffff54">Fanny hops in blue.</font>
 
 36
 00:00:29,170 --> 00:00:30,427
@@ -144,7 +144,7 @@ Fanny is purple!
 
 37
 00:00:30,428 --> 00:00:30,870
-[s@Fanny is purple!
+<font color="#ffff54">Fanny is purple!</font>
 
 38
 00:00:30,871 --> 00:00:31,317
@@ -164,7 +164,7 @@ Fanny is purple!
 
 42
 00:00:33,175 --> 00:00:33,273
-[e@Fanny is purple!
+<font color="#ffff54">Fanny is purple!</font>
 
 43
 00:00:33,274 --> 00:00:33,975
@@ -192,7 +192,7 @@ Felix hops in blue.
 
 49
 00:00:37,455 --> 00:00:37,609
-[e@Felix hops in blue.
+<font color="#ffff54">Felix hops in blue.</font>
 
 50
 00:00:37,610 --> 00:00:38,499
@@ -220,7 +220,7 @@ Felix hops in yellow.
 
 56
 00:00:40,778 --> 00:00:41,946
-[e@Felix hops in yellow.
+<font color="#ffff54">Felix hops in yellow.</font>
 
 57
 00:00:41,947 --> 00:00:42,442
@@ -244,7 +244,7 @@ Felix is green!
 
 62
 00:00:44,190 --> 00:00:44,266
-[e@Felix is green!
+<font color="#ffff54">Felix is green!</font>
 
 63
 00:00:44,267 --> 00:00:46,674
@@ -252,7 +252,7 @@ Felix is green!
 
 64
 00:00:46,675 --> 00:00:47,093
-[s@"I missed you!"
+<font color="#ffff54">"I missed you!"</font>
 
 65
 00:00:47,094 --> 00:00:47,439
@@ -272,7 +272,7 @@ Felix is green!
 
 69
 00:00:49,932 --> 00:00:50,338
-[e@"I missed you!"
+<font color="#ffff54">"I missed you!"</font>
 
 70
 00:00:50,339 --> 00:00:50,941
@@ -304,7 +304,7 @@ Now they are all brown!
 
 77
 00:00:57,117 --> 00:00:57,285
-[e@Now they are all brown!
+<font color="#ffff54">Now they are all brown!</font>
 
 78
 00:00:57,286 --> 00:00:58,582
@@ -312,7 +312,7 @@ Now they are all brown!
 
 79
 00:00:58,583 --> 00:00:59,192
-[s@"Oh no! My paint!"
+<font color="#ffff54">"Oh no! My paint!"</font>
 
 80
 00:00:59,193 --> 00:00:59,897

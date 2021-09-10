@@ -20,7 +20,7 @@ Here they come!
 
 6
 00:00:09,303 --> 00:00:09,568
-[e@Here they come!
+<font color="#ffff54">Here they come!</font>
 
 7
 00:00:09,569 --> 00:00:10,845
@@ -28,7 +28,7 @@ This one is too fat.
 
 8
 00:00:10,846 --> 00:00:11,290
-[s@This one is too fat.
+<font color="#ffff54">This one is too fat.</font>
 
 9
 00:00:11,291 --> 00:00:11,786
@@ -56,7 +56,7 @@ This one is too fat.
 
 15
 00:00:13,764 --> 00:00:13,909
-[e@This one is too fat.
+<font color="#ffff54">This one is too fat.</font>
 
 16
 00:00:13,910 --> 00:00:15,080
@@ -88,7 +88,7 @@ This one is too skinny.
 
 23
 00:00:17,933 --> 00:00:18,107
-[e@This one is too skinny.
+<font color="#ffff54">This one is too skinny.</font>
 
 24
 00:00:18,108 --> 00:00:19,511
@@ -96,7 +96,7 @@ This one is the best!
 
 25
 00:00:19,512 --> 00:00:19,940
-[s@This one is the best!
+<font color="#ffff54">This one is the best!</font>
 
 26
 00:00:19,941 --> 00:00:20,395
@@ -124,7 +124,7 @@ This one is the best!
 
 32
 00:00:24,232 --> 00:00:24,380
-[e@This one is the best!
+<font color="#ffff54">This one is the best!</font>
 
 33
 00:00:24,381 --> 00:00:25,708
@@ -132,7 +132,7 @@ This one is too hairy.
 
 34
 00:00:25,709 --> 00:00:26,365
-[s@This one is too hairy.
+<font color="#ffff54">This one is too hairy.</font>
 
 35
 00:00:26,366 --> 00:00:26,790
@@ -160,7 +160,7 @@ This one is too hairy.
 
 41
 00:00:28,784 --> 00:00:28,913
-[e@This one is too hairy.
+<font color="#ffff54">This one is too hairy.</font>
 
 42
 00:00:28,914 --> 00:00:30,235
@@ -168,7 +168,7 @@ This one is too bald.
 
 43
 00:00:30,236 --> 00:00:30,734
-[s@This one is too bald.
+<font color="#ffff54">This one is too bald.</font>
 
 44
 00:00:30,735 --> 00:00:31,078
@@ -196,7 +196,7 @@ This one is too bald.
 
 50
 00:00:33,075 --> 00:00:33,182
-[e@This one is too bald.
+<font color="#ffff54">This one is too bald.</font>
 
 51
 00:00:33,183 --> 00:00:35,180
@@ -204,7 +204,7 @@ This one is the best.
 
 52
 00:00:35,181 --> 00:00:35,707
-[s@This one is the best.
+<font color="#ffff54">This one is the best.</font>
 
 53
 00:00:35,708 --> 00:00:36,249
@@ -232,7 +232,7 @@ This one is the best.
 
 59
 00:00:40,328 --> 00:00:40,508
-[e@This one is the best.
+<font color="#ffff54">This one is the best.</font>
 
 60
 00:00:40,509 --> 00:00:41,133

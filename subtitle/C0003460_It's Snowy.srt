@@ -16,7 +16,7 @@ It's foggy!
 
 5
 00:00:12,274 --> 00:00:14,690
-[e@It's foggy!
+<font color="#ffff54">It's foggy!</font>
 
 6
 00:00:14,691 --> 00:00:17,659
@@ -24,7 +24,7 @@ It's chilly!
 
 7
 00:00:17,660 --> 00:00:18,011
-[s@It's chilly!
+<font color="#ffff54">It's chilly!</font>
 
 8
 00:00:18,012 --> 00:00:18,497
@@ -40,7 +40,7 @@ It's chilly!
 
 11
 00:00:23,182 --> 00:00:23,676
-[e@It's chilly!
+<font color="#ffff54">It's chilly!</font>
 
 12
 00:00:23,677 --> 00:00:25,201
@@ -48,7 +48,7 @@ It's cloudy!
 
 13
 00:00:25,202 --> 00:00:25,598
-[s@It's cloudy!
+<font color="#ffff54">It's cloudy!</font>
 
 14
 00:00:25,599 --> 00:00:25,988
@@ -64,7 +64,7 @@ It's cloudy!
 
 17
 00:00:27,660 --> 00:00:29,151
-[e@It's cloudy!
+<font color="#ffff54">It's cloudy!</font>
 
 18
 00:00:29,152 --> 00:00:34,009
@@ -72,7 +72,7 @@ It's windy!
 
 19
 00:00:34,010 --> 00:00:34,409
-[s@It's windy!
+<font color="#ffff54">It's windy!</font>
 
 20
 00:00:34,410 --> 00:00:34,755
@@ -88,7 +88,7 @@ It's windy!
 
 23
 00:00:37,874 --> 00:00:39,228
-[e@It's windy!
+<font color="#ffff54">It's windy!</font>
 
 24
 00:00:39,229 --> 00:00:40,186
@@ -108,7 +108,7 @@ It's stormy!
 
 28
 00:00:43,798 --> 00:00:44,969
-[e@It's stormy!
+<font color="#ffff54">It's stormy!</font>
 
 29
 00:00:44,970 --> 00:00:50,272
@@ -116,7 +116,7 @@ It's snowy!
 
 30
 00:00:50,273 --> 00:00:50,710
-[s@It's snowy!
+<font color="#ffff54">It's snowy!</font>
 
 31
 00:00:50,711 --> 00:00:51,129
@@ -132,7 +132,7 @@ It's snowy!
 
 34
 00:00:53,237 --> 00:00:56,202
-[e@It's snowy!
+<font color="#ffff54">It's snowy!</font>
 
 35
 00:00:56,203 --> 00:00:59,720
@@ -140,7 +140,7 @@ It's sunny!
 
 36
 00:00:59,721 --> 00:01:00,285
-[s@It's sunny!
+<font color="#ffff54">It's sunny!</font>
 
 37
 00:01:00,286 --> 00:01:00,641
@@ -156,7 +156,7 @@ It's sunny!
 
 40
 00:01:06,389 --> 00:01:08,667
-[e@It's sunny!
+<font color="#ffff54">It's sunny!</font>
 
 41
 00:01:08,668 --> 00:01:12,759
@@ -164,7 +164,7 @@ Now I can play outside!
 
 42
 00:01:12,760 --> 00:01:13,267
-[s@Now I can play outside!
+<font color="#ffff54">Now I can play outside!</font>
 
 43
 00:01:13,268 --> 00:01:13,715

@@ -40,7 +40,7 @@ Cold winds, cold winds.
 
 11
 00:00:16,111 --> 00:00:16,374
-[e@Cold winds, cold winds.
+<font color="#ffff54">Cold winds, cold winds.</font>
 
 12
 00:00:16,375 --> 00:00:17,089
@@ -48,7 +48,7 @@ Winter is cold.
 
 13
 00:00:17,090 --> 00:00:17,656
-[s@Winter is cold.
+<font color="#ffff54">Winter is cold.</font>
 
 14
 00:00:17,657 --> 00:00:18,300
@@ -68,7 +68,7 @@ Winter is cold.
 
 18
 00:00:21,486 --> 00:00:21,758
-[e@Winter is cold.
+<font color="#ffff54">Winter is cold.</font>
 
 19
 00:00:21,759 --> 00:00:22,280
@@ -76,7 +76,7 @@ Springtime, springtime.
 
 20
 00:00:22,281 --> 00:00:22,802
-[s@Springtime, springtime.
+<font color="#ffff54">Springtime, springtime.</font>
 
 21
 00:00:22,803 --> 00:00:24,042
@@ -116,7 +116,7 @@ Chirping birds, chirping birds.
 
 30
 00:00:32,857 --> 00:00:33,101
-[e@Chirping birds, chirping birds.
+<font color="#ffff54">Chirping birds, chirping birds.</font>
 
 31
 00:00:33,102 --> 00:00:33,459
@@ -140,7 +140,7 @@ Spring is warm.
 
 36
 00:00:38,141 --> 00:00:38,365
-[e@Spring is warm.
+<font color="#ffff54">Spring is warm.</font>
 
 37
 00:00:38,366 --> 00:00:38,945
@@ -184,7 +184,7 @@ Hot sun, hot sun.
 
 47
 00:00:48,415 --> 00:00:48,630
-[e@Hot sun, hot sun.
+<font color="#ffff54">Hot sun, hot sun.</font>
 
 48
 00:00:48,631 --> 00:00:48,981
@@ -208,7 +208,7 @@ Summer is hot.
 
 53
 00:00:53,833 --> 00:00:54,092
-[e@Summer is hot.
+<font color="#ffff54">Summer is hot.</font>
 
 54
 00:00:54,093 --> 00:00:54,600
@@ -272,7 +272,7 @@ Falling leaves, falling leaves.
 
 69
 00:01:02,015 --> 00:01:02,232
-[e@Falling leaves, falling leaves.
+<font color="#ffff54">Falling leaves, falling leaves.</font>
 
 70
 00:01:02,234 --> 00:01:02,597

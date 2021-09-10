@@ -24,7 +24,7 @@ What do you see?
 
 7
 00:00:13,560 --> 00:00:13,912
-[e@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 8
 00:00:13,913 --> 00:00:14,824
@@ -32,7 +32,7 @@ I see a starfish.
 
 9
 00:00:14,825 --> 00:00:15,155
-[s@I see a starfish.
+<font color="#ffff54">I see a starfish.</font>
 
 10
 00:00:15,156 --> 00:00:15,596
@@ -56,7 +56,7 @@ I see a starfish.
 
 15
 00:00:19,517 --> 00:00:19,912
-[e@I see a starfish.
+<font color="#ffff54">I see a starfish.</font>
 
 16
 00:00:19,913 --> 00:00:20,967
@@ -64,7 +64,7 @@ What do you see?
 
 17
 00:00:20,968 --> 00:00:21,437
-[s@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 18
 00:00:21,438 --> 00:00:21,767
@@ -88,7 +88,7 @@ What do you see?
 
 23
 00:00:24,076 --> 00:00:24,435
-[e@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 24
 00:00:24,436 --> 00:00:25,138
@@ -116,7 +116,7 @@ I see a turtle.
 
 30
 00:00:29,233 --> 00:00:29,639
-[e@I see a turtle.
+<font color="#ffff54">I see a turtle.</font>
 
 31
 00:00:29,640 --> 00:00:30,601
@@ -144,7 +144,7 @@ What do you see?
 
 37
 00:00:33,199 --> 00:00:33,574
-[e@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 38
 00:00:33,575 --> 00:00:34,524
@@ -172,7 +172,7 @@ I see an octopus.
 
 44
 00:00:39,189 --> 00:00:39,588
-[e@I see an octopus.
+<font color="#ffff54">I see an octopus.</font>
 
 45
 00:00:39,589 --> 00:00:40,618
@@ -180,7 +180,7 @@ What do you see?
 
 46
 00:00:40,619 --> 00:00:41,089
-[s@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 47
 00:00:41,090 --> 00:00:41,533
@@ -204,7 +204,7 @@ What do you see?
 
 52
 00:00:45,960 --> 00:00:46,315
-[e@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 53
 00:00:46,316 --> 00:00:47,373
@@ -212,7 +212,7 @@ I see a shark.
 
 54
 00:00:47,374 --> 00:00:47,939
-[s@I see a shark.
+<font color="#ffff54">I see a shark.</font>
 
 55
 00:00:47,940 --> 00:00:48,306
@@ -236,7 +236,7 @@ I see a shark.
 
 60
 00:00:52,985 --> 00:00:53,318
-[e@I see a shark.
+<font color="#ffff54">I see a shark.</font>
 
 61
 00:00:53,319 --> 00:00:54,557
@@ -244,7 +244,7 @@ What do you see?
 
 62
 00:00:54,558 --> 00:00:55,204
-[s@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 63
 00:00:55,205 --> 00:00:55,537
@@ -268,7 +268,7 @@ What do you see?
 
 68
 00:00:57,021 --> 00:00:57,338
-[e@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 69
 00:00:57,339 --> 00:00:57,879
@@ -276,7 +276,7 @@ I see a crab.
 
 70
 00:00:57,880 --> 00:00:58,332
-[s@I see a crab.
+<font color="#ffff54">I see a crab.</font>
 
 71
 00:00:58,333 --> 00:00:58,752
@@ -300,7 +300,7 @@ I see a crab.
 
 76
 00:01:02,877 --> 00:01:03,264
-[e@I see a crab.
+<font color="#ffff54">I see a crab.</font>
 
 77
 00:01:03,265 --> 00:01:04,186
@@ -328,7 +328,7 @@ What do you see?
 
 83
 00:01:06,781 --> 00:01:07,117
-[e@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 84
 00:01:07,118 --> 00:01:07,994
@@ -356,7 +356,7 @@ I see a clam.
 
 90
 00:01:10,943 --> 00:01:11,318
-[e@I see a clam.
+<font color="#ffff54">I see a clam.</font>
 
 91
 00:01:11,319 --> 00:01:12,284
@@ -384,7 +384,7 @@ What do you see?
 
 97
 00:01:14,946 --> 00:01:15,311
-[e@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 98
 00:01:15,312 --> 00:01:16,163
@@ -392,7 +392,7 @@ I see a seal.
 
 99
 00:01:16,164 --> 00:01:16,777
-[s@I see a seal.
+<font color="#ffff54">I see a seal.</font>
 
 100
 00:01:16,778 --> 00:01:17,170
@@ -416,7 +416,7 @@ I see a seal.
 
 105
 00:01:20,938 --> 00:01:21,379
-[e@I see a seal.
+<font color="#ffff54">I see a seal.</font>
 
 106
 00:01:21,380 --> 00:01:22,309
@@ -444,7 +444,7 @@ What do you see?
 
 112
 00:01:24,390 --> 00:01:24,742
-[e@What do you see?
+<font color="#ffff54">What do you see?</font>
 
 113
 00:01:24,743 --> 00:01:25,730
@@ -452,7 +452,7 @@ I see a dolphin.
 
 114
 00:01:25,731 --> 00:01:26,238
-[s@I see a dolphin.
+<font color="#ffff54">I see a dolphin.</font>
 
 115
 00:01:26,239 --> 00:01:26,674

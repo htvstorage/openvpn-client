@@ -32,7 +32,7 @@ I want to play the violin.
 
 9
 00:00:17,584 --> 00:00:17,859
-[e@I want to play the violin.
+<font color="#ffff54">I want to play the violin.</font>
 
 10
 00:00:17,860 --> 00:00:19,762
@@ -40,7 +40,7 @@ I want to play the guitar.
 
 11
 00:00:19,763 --> 00:00:20,229
-[s@I want to play the guitar.
+<font color="#ffff54">I want to play the guitar.</font>
 
 12
 00:00:20,230 --> 00:00:20,639
@@ -72,7 +72,7 @@ I want to play the guitar.
 
 19
 00:00:30,409 --> 00:00:30,656
-[e@I want to play the guitar.
+<font color="#ffff54">I want to play the guitar.</font>
 
 20
 00:00:30,657 --> 00:00:32,349
@@ -80,7 +80,7 @@ I want to play the harp.
 
 21
 00:00:32,350 --> 00:00:32,866
-[s@I want to play the harp.
+<font color="#ffff54">I want to play the harp.</font>
 
 22
 00:00:32,867 --> 00:00:33,235
@@ -112,7 +112,7 @@ I want to play the harp.
 
 29
 00:00:43,167 --> 00:00:43,446
-[e@I want to play the harp.
+<font color="#ffff54">I want to play the harp.</font>
 
 30
 00:00:43,447 --> 00:00:45,069
@@ -120,7 +120,7 @@ I want to play the flute.
 
 31
 00:00:45,070 --> 00:00:45,568
-[s@I want to play the flute.
+<font color="#ffff54">I want to play the flute.</font>
 
 32
 00:00:45,569 --> 00:00:45,958
@@ -152,7 +152,7 @@ I want to play the flute.
 
 39
 00:00:53,394 --> 00:00:53,666
-[e@I want to play the flute.
+<font color="#ffff54">I want to play the flute.</font>
 
 40
 00:00:53,667 --> 00:00:54,937
@@ -160,7 +160,7 @@ I want to play the xylophone.
 
 41
 00:00:54,938 --> 00:00:55,797
-[s@I want to play the xylophone.
+<font color="#ffff54">I want to play the xylophone.</font>
 
 42
 00:00:55,798 --> 00:00:56,317
@@ -192,7 +192,7 @@ I want to play the xylophone.
 
 49
 00:01:05,253 --> 00:01:05,531
-[e@I want to play the xylophone.
+<font color="#ffff54">I want to play the xylophone.</font>
 
 50
 00:01:05,532 --> 00:01:07,691
@@ -200,7 +200,7 @@ I want to play the piano.
 
 51
 00:01:07,692 --> 00:01:08,289
-[s@I want to play the piano.
+<font color="#ffff54">I want to play the piano.</font>
 
 52
 00:01:08,290 --> 00:01:08,837
@@ -232,7 +232,7 @@ I want to play the piano.
 
 59
 00:01:18,847 --> 00:01:19,122
-[e@I want to play the piano.
+<font color="#ffff54">I want to play the piano.</font>
 
 60
 00:01:19,123 --> 00:01:20,660
@@ -240,7 +240,7 @@ I want to play the drums.
 
 61
 00:01:20,661 --> 00:01:21,399
-[s@I want to play the drums.
+<font color="#ffff54">I want to play the drums.</font>
 
 62
 00:01:21,400 --> 00:01:21,679
@@ -272,7 +272,7 @@ I want to play the drums.
 
 69
 00:01:28,033 --> 00:01:28,259
-[e@I want to play the drums.
+<font color="#ffff54">I want to play the drums.</font>
 
 70
 00:01:28,260 --> 00:01:28,722

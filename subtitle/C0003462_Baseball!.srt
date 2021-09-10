@@ -24,7 +24,7 @@ I have a ball.
 
 7
 00:00:09,829 --> 00:00:10,003
-[e@I have a ball.
+<font color="#ffff54">I have a ball.</font>
 
 8
 00:00:10,004 --> 00:00:10,321
@@ -52,7 +52,7 @@ This is my ball.
 
 14
 00:00:12,361 --> 00:00:12,436
-[e@This is my ball.
+<font color="#ffff54">This is my ball.</font>
 
 15
 00:00:12,437 --> 00:00:14,293
@@ -60,7 +60,7 @@ Laura has a bat.
 
 16
 00:00:14,295 --> 00:00:14,770
-[s@Laura has a bat.
+<font color="#ffff54">Laura has a bat.</font>
 
 17
 00:00:14,771 --> 00:00:15,290
@@ -84,7 +84,7 @@ Laura has a bat.
 
 22
 00:00:17,852 --> 00:00:17,965
-[e@Laura has a bat.
+<font color="#ffff54">Laura has a bat.</font>
 
 23
 00:00:17,966 --> 00:00:18,799
@@ -92,7 +92,7 @@ This is her bat.
 
 24
 00:00:18,800 --> 00:00:19,279
-[s@This is her bat.
+<font color="#ffff54">This is her bat.</font>
 
 25
 00:00:19,280 --> 00:00:19,628
@@ -116,7 +116,7 @@ This is her bat.
 
 30
 00:00:21,504 --> 00:00:21,659
-[e@This is her bat.
+<font color="#ffff54">This is her bat.</font>
 
 31
 00:00:21,660 --> 00:00:22,723
@@ -124,7 +124,7 @@ Mike has a glove.
 
 32
 00:00:22,724 --> 00:00:22,920
-[s@Mike has a glove.
+<font color="#ffff54">Mike has a glove.</font>
 
 33
 00:00:22,921 --> 00:00:23,322
@@ -148,7 +148,7 @@ Mike has a glove.
 
 38
 00:00:26,006 --> 00:00:26,137
-[e@Mike has a glove.
+<font color="#ffff54">Mike has a glove.</font>
 
 39
 00:00:26,139 --> 00:00:26,791
@@ -156,7 +156,7 @@ This is his glove.
 
 40
 00:00:26,792 --> 00:00:27,140
-[s@This is his glove.
+<font color="#ffff54">This is his glove.</font>
 
 41
 00:00:27,141 --> 00:00:27,637
@@ -180,7 +180,7 @@ This is his glove.
 
 46
 00:00:29,799 --> 00:00:29,862
-[e@This is his glove.
+<font color="#ffff54">This is his glove.</font>
 
 47
 00:00:29,863 --> 00:00:34,087
@@ -188,7 +188,7 @@ Dad is our coach.
 
 48
 00:00:34,088 --> 00:00:34,821
-[s@Dad is our coach.
+<font color="#ffff54">Dad is our coach.</font>
 
 49
 00:00:34,822 --> 00:00:35,377
@@ -212,7 +212,7 @@ Dad is our coach.
 
 54
 00:00:43,208 --> 00:00:43,340
-[e@Dad is our coach.
+<font color="#ffff54">Dad is our coach.</font>
 
 55
 00:00:43,341 --> 00:00:44,048

@@ -20,7 +20,7 @@ It is morning.
 
 6
 00:00:24,949 --> 00:00:25,402
-[e@It is morning.
+<font color="#ffff54">It is morning.</font>
 
 7
 00:00:25,403 --> 00:00:28,100
@@ -28,7 +28,7 @@ We eat breakfast.
 
 8
 00:00:28,101 --> 00:00:28,796
-[s@We eat breakfast.
+<font color="#ffff54">We eat breakfast.</font>
 
 9
 00:00:28,797 --> 00:00:29,066
@@ -48,7 +48,7 @@ We eat breakfast.
 
 13
 00:00:40,530 --> 00:00:41,001
-[e@We eat breakfast.
+<font color="#ffff54">We eat breakfast.</font>
 
 14
 00:00:41,002 --> 00:00:47,664
@@ -56,7 +56,7 @@ It is afternoon.
 
 15
 00:00:47,665 --> 00:00:48,055
-[s@It is afternoon.
+<font color="#ffff54">It is afternoon.</font>
 
 16
 00:00:48,056 --> 00:00:48,229
@@ -76,7 +76,7 @@ It is afternoon.
 
 20
 00:00:55,245 --> 00:00:55,807
-[e@It is afternoon.
+<font color="#ffff54">It is afternoon.</font>
 
 21
 00:00:55,808 --> 00:01:00,669
@@ -84,7 +84,7 @@ We eat lunch.
 
 22
 00:01:00,670 --> 00:01:01,380
-[s@We eat lunch.
+<font color="#ffff54">We eat lunch.</font>
 
 23
 00:01:01,381 --> 00:01:01,729
@@ -104,7 +104,7 @@ We eat lunch.
 
 27
 00:01:09,748 --> 00:01:10,272
-[e@We eat lunch.
+<font color="#ffff54">We eat lunch.</font>
 
 28
 00:01:10,273 --> 00:01:20,607
@@ -112,7 +112,7 @@ It is evening.
 
 29
 00:01:20,608 --> 00:01:21,182
-[s@It is evening.
+<font color="#ffff54">It is evening.</font>
 
 30
 00:01:21,183 --> 00:01:21,385
@@ -132,7 +132,7 @@ It is evening.
 
 34
 00:01:25,888 --> 00:01:26,274
-[e@It is evening.
+<font color="#ffff54">It is evening.</font>
 
 35
 00:01:26,275 --> 00:01:28,727
@@ -140,7 +140,7 @@ We eat dinner.
 
 36
 00:01:28,728 --> 00:01:29,343
-[s@We eat dinner.
+<font color="#ffff54">We eat dinner.</font>
 
 37
 00:01:29,344 --> 00:01:29,642
@@ -160,7 +160,7 @@ We eat dinner.
 
 41
 00:01:38,014 --> 00:01:38,351
-[e@We eat dinner.
+<font color="#ffff54">We eat dinner.</font>
 
 42
 00:01:38,352 --> 00:01:39,873
@@ -168,7 +168,7 @@ It is night.
 
 43
 00:01:39,874 --> 00:01:40,504
-[s@It is night.
+<font color="#ffff54">It is night.</font>
 
 44
 00:01:40,505 --> 00:01:40,659
@@ -188,7 +188,7 @@ It is night.
 
 48
 00:01:45,242 --> 00:01:45,826
-[e@It is night.
+<font color="#ffff54">It is night.</font>
 
 49
 00:01:45,827 --> 00:01:46,375
@@ -216,7 +216,7 @@ We go to bed.
 
 55
 00:01:54,988 --> 00:01:55,478
-[e@We go to bed.
+<font color="#ffff54">We go to bed.</font>
 
 56
 00:01:55,479 --> 00:01:56,455

@@ -4,7 +4,7 @@ My head is a circle.
 
 2
 00:00:05,751 --> 00:00:07,318
-[s@My head is a circle.
+<font color="#ffff54">My head is a circle.</font>
 
 3
 00:00:07,319 --> 00:00:07,604
@@ -32,7 +32,7 @@ My head is a circle.
 
 9
 00:00:09,608 --> 00:00:09,762
-[e@My head is a circle.
+<font color="#ffff54">My head is a circle.</font>
 
 10
 00:00:09,763 --> 00:00:12,296
@@ -40,7 +40,7 @@ My hat is a triangle.
 
 11
 00:00:12,297 --> 00:00:13,912
-[s@My hat is a triangle.
+<font color="#ffff54">My hat is a triangle.</font>
 
 12
 00:00:13,913 --> 00:00:14,255
@@ -68,7 +68,7 @@ My hat is a triangle.
 
 18
 00:00:16,651 --> 00:00:16,823
-[e@My hat is a triangle.
+<font color="#ffff54">My hat is a triangle.</font>
 
 19
 00:00:16,824 --> 00:00:18,750
@@ -76,7 +76,7 @@ My body is a square.
 
 20
 00:00:18,751 --> 00:00:20,492
-[s@My body is a square.
+<font color="#ffff54">My body is a square.</font>
 
 21
 00:00:20,493 --> 00:00:20,787
@@ -104,7 +104,7 @@ My body is a square.
 
 27
 00:00:23,204 --> 00:00:23,437
-[e@My body is a square.
+<font color="#ffff54">My body is a square.</font>
 
 28
 00:00:23,438 --> 00:00:25,311
@@ -112,7 +112,7 @@ My arms are rectangles.
 
 29
 00:00:25,312 --> 00:00:27,103
-[s@My arms are rectangles.
+<font color="#ffff54">My arms are rectangles.</font>
 
 30
 00:00:27,104 --> 00:00:27,376
@@ -136,7 +136,7 @@ My arms are rectangles.
 
 35
 00:00:31,035 --> 00:00:31,312
-[e@My arms are rectangles.
+<font color="#ffff54">My arms are rectangles.</font>
 
 36
 00:00:31,313 --> 00:00:33,027
@@ -144,7 +144,7 @@ My legs are rectangles too.
 
 37
 00:00:33,028 --> 00:00:34,774
-[s@My legs are rectangles too.
+<font color="#ffff54">My legs are rectangles too.</font>
 
 38
 00:00:34,775 --> 00:00:34,993
@@ -172,7 +172,7 @@ My legs are rectangles too.
 
 44
 00:00:38,409 --> 00:00:38,684
-[e@My legs are rectangles too.
+<font color="#ffff54">My legs are rectangles too.</font>
 
 45
 00:00:38,685 --> 00:00:41,192
@@ -180,7 +180,7 @@ My hands are diamonds.
 
 46
 00:00:41,193 --> 00:00:42,568
-[s@My hands are diamonds.
+<font color="#ffff54">My hands are diamonds.</font>
 
 47
 00:00:42,569 --> 00:00:42,832
@@ -204,7 +204,7 @@ My hands are diamonds.
 
 52
 00:00:46,092 --> 00:00:46,423
-[e@My hands are diamonds.
+<font color="#ffff54">My hands are diamonds.</font>
 
 53
 00:00:46,424 --> 00:00:49,109
@@ -212,7 +212,7 @@ My feet are ovals.
 
 54
 00:00:49,110 --> 00:00:50,676
-[s@My feet are ovals.
+<font color="#ffff54">My feet are ovals.</font>
 
 55
 00:00:50,677 --> 00:00:50,936
@@ -236,7 +236,7 @@ My feet are ovals.
 
 60
 00:00:54,428 --> 00:00:54,750
-[e@My feet are ovals.
+<font color="#ffff54">My feet are ovals.</font>
 
 61
 00:00:54,751 --> 00:00:57,309
@@ -244,7 +244,7 @@ Mr. Shapey is my name!
 
 62
 00:00:57,310 --> 00:00:57,930
-[s@Mr. Shapey is my name!
+<font color="#ffff54">Mr. Shapey is my name!</font>
 
 63
 00:00:57,931 --> 00:00:58,754

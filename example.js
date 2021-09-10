@@ -303,6 +303,8 @@ function inputToSRT(sub_in, delay ) {
   // console.log(Number(sub_in.StartMilliseconds.$t)+delay);
   var text = sub_in.Text.$t;
   var bold = text.indexOf("[e@");
+  var bold2 = text.indexOf("[s@");
+  text=text.replace(/\[s@/g,"<font color=\"#ffff54\">");
   text=text.replace(/\[e@/g,"<font color=\"#ffff54\">");
   text=text.replace(/\[@/g,"<font color=\"#ffff54\">");
   text=text.replace(/@]/g,"</font>");
@@ -310,7 +312,9 @@ function inputToSRT(sub_in, delay ) {
   text=text.replace(/@g]/g,"");
   text=text.replace(/\[i@/g,"");
   text=text.replace(/@i]/g,"");
-  if(bold >= 0){
+  text=text.replace(/\[n@/g,"");
+  
+  if(bold >= 0 || bold2 >= 0){
     text=text+ "</font>"
   }
 

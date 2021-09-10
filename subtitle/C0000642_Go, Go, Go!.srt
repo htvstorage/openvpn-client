@@ -28,7 +28,7 @@ I will take my car.
 
 8
 00:00:19,507 --> 00:00:19,949
-[e@I will take my car.
+<font color="#ffff54">I will take my car.</font>
 
 9
 00:00:19,950 --> 00:00:26,786
@@ -36,7 +36,7 @@ I will take my bus.
 
 10
 00:00:26,787 --> 00:00:27,307
-[s@I will take my bus.
+<font color="#ffff54">I will take my bus.</font>
 
 11
 00:00:27,308 --> 00:00:27,596
@@ -64,7 +64,7 @@ I will take my bus.
 
 17
 00:00:37,767 --> 00:00:38,063
-[e@I will take my bus.
+<font color="#ffff54">I will take my bus.</font>
 
 18
 00:00:38,064 --> 00:00:44,579
@@ -72,7 +72,7 @@ I will take my truck.
 
 19
 00:00:44,580 --> 00:00:45,198
-[s@I will take my truck.
+<font color="#ffff54">I will take my truck.</font>
 
 20
 00:00:45,199 --> 00:00:45,513
@@ -100,7 +100,7 @@ I will take my truck.
 
 26
 00:00:55,125 --> 00:00:55,395
-[e@I will take my truck.
+<font color="#ffff54">I will take my truck.</font>
 
 27
 00:00:55,396 --> 00:01:01,764
@@ -108,7 +108,7 @@ I will take my train.
 
 28
 00:01:01,765 --> 00:01:02,526
-[s@I will take my train.
+<font color="#ffff54">I will take my train.</font>
 
 29
 00:01:02,527 --> 00:01:02,811
@@ -136,7 +136,7 @@ I will take my train.
 
 35
 00:01:11,873 --> 00:01:12,164
-[e@I will take my train.
+<font color="#ffff54">I will take my train.</font>
 
 36
 00:01:12,165 --> 00:01:18,818
@@ -144,7 +144,7 @@ I will take my skateboard.
 
 37
 00:01:18,819 --> 00:01:19,327
-[s@I will take my skateboard.
+<font color="#ffff54">I will take my skateboard.</font>
 
 38
 00:01:19,328 --> 00:01:19,605
@@ -172,7 +172,7 @@ I will take my skateboard.
 
 44
 00:01:27,144 --> 00:01:27,462
-[e@I will take my skateboard.
+<font color="#ffff54">I will take my skateboard.</font>
 
 45
 00:01:27,463 --> 00:01:32,732
@@ -180,7 +180,7 @@ I will take my motorcycle.
 
 46
 00:01:32,733 --> 00:01:33,312
-[s@I will take my motorcycle.
+<font color="#ffff54">I will take my motorcycle.</font>
 
 47
 00:01:33,313 --> 00:01:33,601
@@ -208,7 +208,7 @@ I will take my motorcycle.
 
 53
 00:01:41,306 --> 00:01:41,593
-[e@I will take my motorcycle.
+<font color="#ffff54">I will take my motorcycle.</font>
 
 54
 00:01:41,594 --> 00:01:47,673
@@ -216,7 +216,7 @@ I will take my bicycle.
 
 55
 00:01:47,674 --> 00:01:48,022
-[s@I will take my bicycle.
+<font color="#ffff54">I will take my bicycle.</font>
 
 56
 00:01:48,023 --> 00:01:48,263
@@ -244,7 +244,7 @@ I will take my bicycle.
 
 62
 00:01:56,502 --> 00:01:56,796
-[e@I will take my bicycle.
+<font color="#ffff54">I will take my bicycle.</font>
 
 63
 00:01:56,797 --> 00:02:03,215
@@ -252,7 +252,7 @@ I will take my broom!
 
 64
 00:02:03,216 --> 00:02:03,926
-[s@I will take my broom!
+<font color="#ffff54">I will take my broom!</font>
 
 65
 00:02:03,927 --> 00:02:04,259

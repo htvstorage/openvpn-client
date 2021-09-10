@@ -32,7 +32,7 @@ This one has a small head.
 
 9
 00:00:11,625 --> 00:00:11,818
-[e@This one has a small head.
+<font color="#ffff54">This one has a small head.</font>
 
 10
 00:00:11,819 --> 00:00:12,343
@@ -40,7 +40,7 @@ This one has a big mouth.
 
 11
 00:00:12,344 --> 00:00:13,484
-[s@This one has a big mouth.
+<font color="#ffff54">This one has a big mouth.</font>
 
 12
 00:00:13,485 --> 00:00:13,827
@@ -72,7 +72,7 @@ This one has a big mouth.
 
 19
 00:00:19,473 --> 00:00:19,621
-[e@This one has a big mouth.
+<font color="#ffff54">This one has a big mouth.</font>
 
 20
 00:00:19,622 --> 00:00:21,200
@@ -80,7 +80,7 @@ This one has a long tail.
 
 21
 00:00:21,201 --> 00:00:21,565
-[s@This one has a long tail.
+<font color="#ffff54">This one has a long tail.</font>
 
 22
 00:00:21,566 --> 00:00:21,890
@@ -112,7 +112,7 @@ This one has a long tail.
 
 29
 00:00:26,725 --> 00:00:26,872
-[e@This one has a long tail.
+<font color="#ffff54">This one has a long tail.</font>
 
 30
 00:00:26,873 --> 00:00:27,740
@@ -120,7 +120,7 @@ This one has large wings.
 
 31
 00:00:27,741 --> 00:00:28,184
-[s@This one has large wings.
+<font color="#ffff54">This one has large wings.</font>
 
 32
 00:00:28,185 --> 00:00:28,508
@@ -148,7 +148,7 @@ This one has large wings.
 
 38
 00:00:33,574 --> 00:00:33,741
-[e@This one has large wings.
+<font color="#ffff54">This one has large wings.</font>
 
 39
 00:00:33,742 --> 00:00:34,526
@@ -156,7 +156,7 @@ This one has sharp horns.
 
 40
 00:00:34,527 --> 00:00:35,179
-[s@This one has sharp horns.
+<font color="#ffff54">This one has sharp horns.</font>
 
 41
 00:00:35,180 --> 00:00:35,449
@@ -184,7 +184,7 @@ This one has sharp horns.
 
 47
 00:00:40,692 --> 00:00:40,874
-[e@This one has sharp horns.
+<font color="#ffff54">This one has sharp horns.</font>
 
 48
 00:00:40,875 --> 00:00:41,815
@@ -192,7 +192,7 @@ This one has a long neck.
 
 49
 00:00:41,816 --> 00:00:42,160
-[s@This one has a long neck.
+<font color="#ffff54">This one has a long neck.</font>
 
 50
 00:00:42,161 --> 00:00:42,485
@@ -224,7 +224,7 @@ This one has a long neck.
 
 57
 00:00:47,052 --> 00:00:47,213
-[e@This one has a long neck.
+<font color="#ffff54">This one has a long neck.</font>
 
 58
 00:00:47,214 --> 00:00:49,462
@@ -232,7 +232,7 @@ This one has tiny arms.
 
 59
 00:00:49,463 --> 00:00:50,463
-[s@This one has tiny arms.
+<font color="#ffff54">This one has tiny arms.</font>
 
 60
 00:00:50,464 --> 00:00:50,805
@@ -260,7 +260,7 @@ This one has tiny arms.
 
 66
 00:00:55,566 --> 00:00:55,688
-[e@This one has tiny arms.
+<font color="#ffff54">This one has tiny arms.</font>
 
 67
 00:00:55,689 --> 00:00:56,765
@@ -268,7 +268,7 @@ But it has huge teeth! Ah!
 
 68
 00:00:56,766 --> 00:00:57,133
-[s@But it has huge teeth! Ah!
+<font color="#ffff54">But it has huge teeth! Ah!</font>
 
 69
 00:00:57,134 --> 00:00:57,362

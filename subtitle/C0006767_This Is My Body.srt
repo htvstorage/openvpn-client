@@ -20,7 +20,7 @@ See my legs?
 
 6
 00:00:18,247 --> 00:00:18,448
-[e@See my legs?
+<font color="#ffff54">See my legs?</font>
 
 7
 00:00:18,449 --> 00:00:18,782
@@ -44,7 +44,7 @@ I can run.
 
 12
 00:00:26,413 --> 00:00:26,714
-[e@I can run.
+<font color="#ffff54">I can run.</font>
 
 13
 00:00:26,715 --> 00:00:27,344
@@ -68,7 +68,7 @@ See my hand?
 
 18
 00:00:30,135 --> 00:00:30,375
-[e@See my hand?
+<font color="#ffff54">See my hand?</font>
 
 19
 00:00:30,376 --> 00:00:30,856
@@ -92,7 +92,7 @@ I can wave.
 
 24
 00:00:35,657 --> 00:00:35,907
-[e@I can wave.
+<font color="#ffff54">I can wave.</font>
 
 25
 00:00:35,908 --> 00:00:43,612
@@ -100,7 +100,7 @@ See my head?
 
 26
 00:00:43,613 --> 00:00:44,135
-[s@See my head?
+<font color="#ffff54">See my head?</font>
 
 27
 00:00:44,136 --> 00:00:44,565
@@ -120,7 +120,7 @@ See my head?
 
 31
 00:00:47,208 --> 00:00:47,461
-[e@See my head?
+<font color="#ffff54">See my head?</font>
 
 32
 00:00:47,462 --> 00:00:48,249
@@ -144,7 +144,7 @@ I can think.
 
 37
 00:00:56,385 --> 00:00:56,651
-[e@I can think.
+<font color="#ffff54">I can think.</font>
 
 38
 00:00:56,652 --> 00:00:58,262
@@ -152,7 +152,7 @@ See my arm?
 
 39
 00:00:58,263 --> 00:00:58,810
-[s@See my arm?
+<font color="#ffff54">See my arm?</font>
 
 40
 00:00:58,811 --> 00:00:59,459
@@ -172,7 +172,7 @@ See my arm?
 
 44
 00:01:02,137 --> 00:01:02,374
-[e@See my arm?
+<font color="#ffff54">See my arm?</font>
 
 45
 00:01:02,375 --> 00:01:03,705
@@ -180,7 +180,7 @@ I can throw.
 
 46
 00:01:03,706 --> 00:01:04,564
-[s@I can throw.
+<font color="#ffff54">I can throw.</font>
 
 47
 00:01:04,565 --> 00:01:04,966
@@ -200,7 +200,7 @@ I can throw.
 
 51
 00:01:08,603 --> 00:01:08,863
-[e@I can throw.
+<font color="#ffff54">I can throw.</font>
 
 52
 00:01:08,864 --> 00:01:10,499
@@ -208,7 +208,7 @@ See my feet?
 
 53
 00:01:10,500 --> 00:01:11,286
-[s@See my feet?
+<font color="#ffff54">See my feet?</font>
 
 54
 00:01:11,287 --> 00:01:11,847
@@ -228,7 +228,7 @@ See my feet?
 
 58
 00:01:14,610 --> 00:01:14,853
-[e@See my feet?
+<font color="#ffff54">See my feet?</font>
 
 59
 00:01:14,854 --> 00:01:15,441
@@ -252,7 +252,7 @@ I can kick.
 
 64
 00:01:19,229 --> 00:01:19,507
-[e@I can kick.
+<font color="#ffff54">I can kick.</font>
 
 65
 00:01:19,508 --> 00:01:23,921
@@ -260,7 +260,7 @@ See my neck?
 
 66
 00:01:23,922 --> 00:01:24,390
-[s@See my neck?
+<font color="#ffff54">See my neck?</font>
 
 67
 00:01:24,391 --> 00:01:25,020
@@ -280,7 +280,7 @@ See my neck?
 
 71
 00:01:27,654 --> 00:01:27,919
-[e@See my neck?
+<font color="#ffff54">See my neck?</font>
 
 72
 00:01:27,920 --> 00:01:30,180
@@ -288,7 +288,7 @@ I can look up.
 
 73
 00:01:30,181 --> 00:01:30,676
-[s@I can look up.
+<font color="#ffff54">I can look up.</font>
 
 74
 00:01:30,677 --> 00:01:31,138
@@ -312,7 +312,7 @@ I can look up.
 
 79
 00:01:35,134 --> 00:01:35,437
-[e@I can look up.
+<font color="#ffff54">I can look up.</font>
 
 80
 00:01:35,438 --> 00:01:39,321
@@ -320,7 +320,7 @@ See my shoulder?
 
 81
 00:01:39,322 --> 00:01:39,780
-[s@See my shoulder?
+<font color="#ffff54">See my shoulder?</font>
 
 82
 00:01:39,781 --> 00:01:40,338
@@ -340,7 +340,7 @@ See my shoulder?
 
 86
 00:01:43,203 --> 00:01:43,444
-[e@See my shoulder?
+<font color="#ffff54">See my shoulder?</font>
 
 87
 00:01:43,445 --> 00:01:44,458
@@ -348,7 +348,7 @@ I can carry my bag.
 
 88
 00:01:44,459 --> 00:01:44,883
-[s@I can carry my bag.
+<font color="#ffff54">I can carry my bag.</font>
 
 89
 00:01:44,884 --> 00:01:45,279
@@ -376,7 +376,7 @@ I can carry my bag.
 
 95
 00:01:49,137 --> 00:01:49,378
-[e@I can carry my bag.
+<font color="#ffff54">I can carry my bag.</font>
 
 96
 00:01:49,379 --> 00:01:51,189
@@ -384,7 +384,7 @@ This is my body.
 
 97
 00:01:51,190 --> 00:01:51,618
-[s@This is my body.
+<font color="#ffff54">This is my body.</font>
 
 98
 00:01:51,619 --> 00:01:52,403

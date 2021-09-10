@@ -24,7 +24,7 @@ The kitten is cute.
 
 7
 00:00:13,638 --> 00:00:14,095
-[e@The kitten is cute.
+<font color="#ffff54">The kitten is cute.</font>
 
 8
 00:00:14,096 --> 00:00:27,442
@@ -32,7 +32,7 @@ The puppy is cute.
 
 9
 00:00:27,443 --> 00:00:28,172
-[s@The puppy is cute.
+<font color="#ffff54">The puppy is cute.</font>
 
 10
 00:00:28,173 --> 00:00:28,423
@@ -56,7 +56,7 @@ The puppy is cute.
 
 15
 00:00:31,026 --> 00:00:31,500
-[e@The puppy is cute.
+<font color="#ffff54">The puppy is cute.</font>
 
 16
 00:00:31,501 --> 00:00:43,765
@@ -64,7 +64,7 @@ The duckling is cute.
 
 17
 00:00:43,766 --> 00:00:44,264
-[s@The duckling is cute.
+<font color="#ffff54">The duckling is cute.</font>
 
 18
 00:00:44,265 --> 00:00:44,539
@@ -88,7 +88,7 @@ The duckling is cute.
 
 23
 00:00:47,358 --> 00:00:48,294
-[e@The duckling is cute.
+<font color="#ffff54">The duckling is cute.</font>
 
 24
 00:00:48,295 --> 00:00:59,681
@@ -96,7 +96,7 @@ The chick is cute.
 
 25
 00:00:59,682 --> 00:01:00,155
-[s@The chick is cute.
+<font color="#ffff54">The chick is cute.</font>
 
 26
 00:01:00,156 --> 00:01:00,437
@@ -120,7 +120,7 @@ The chick is cute.
 
 31
 00:01:03,079 --> 00:01:03,569
-[e@The chick is cute.
+<font color="#ffff54">The chick is cute.</font>
 
 32
 00:01:03,570 --> 00:01:11,448
@@ -128,7 +128,7 @@ The piglet is cute.
 
 33
 00:01:11,449 --> 00:01:11,905
-[s@The piglet is cute.
+<font color="#ffff54">The piglet is cute.</font>
 
 34
 00:01:11,906 --> 00:01:12,208
@@ -152,7 +152,7 @@ The piglet is cute.
 
 39
 00:01:15,382 --> 00:01:16,587
-[e@The piglet is cute.
+<font color="#ffff54">The piglet is cute.</font>
 
 40
 00:01:16,588 --> 00:01:27,458
@@ -160,7 +160,7 @@ The lamb is cute.
 
 41
 00:01:27,459 --> 00:01:27,980
-[s@The lamb is cute.
+<font color="#ffff54">The lamb is cute.</font>
 
 42
 00:01:27,981 --> 00:01:28,231
@@ -184,7 +184,7 @@ The lamb is cute.
 
 47
 00:01:30,701 --> 00:01:31,248
-[e@The lamb is cute.
+<font color="#ffff54">The lamb is cute.</font>
 
 48
 00:01:31,249 --> 00:01:34,985
@@ -192,7 +192,7 @@ The calf is cute.
 
 49
 00:01:34,986 --> 00:01:35,544
-[s@The calf is cute.
+<font color="#ffff54">The calf is cute.</font>
 
 50
 00:01:35,545 --> 00:01:35,821
@@ -216,7 +216,7 @@ The calf is cute.
 
 55
 00:01:38,459 --> 00:01:39,226
-[e@The calf is cute.
+<font color="#ffff54">The calf is cute.</font>
 
 56
 00:01:39,227 --> 00:01:47,242
@@ -224,7 +224,7 @@ I love them all!
 
 57
 00:01:47,243 --> 00:01:47,724
-[s@I love them all!
+<font color="#ffff54">I love them all!</font>
 
 58
 00:01:47,725 --> 00:01:48,138

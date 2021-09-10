@@ -24,7 +24,7 @@ It's a sunny day.
 
 7
 00:00:05,387 --> 00:00:05,621
-[e@It's a sunny day.
+<font color="#ffff54">It's a sunny day.</font>
 
 8
 00:00:05,622 --> 00:00:06,324
@@ -48,7 +48,7 @@ Don't play inside!
 
 13
 00:00:10,734 --> 00:00:10,970
-[e@Don't play inside!
+<font color="#ffff54">Don't play inside!</font>
 
 14
 00:00:10,971 --> 00:00:11,856
@@ -68,7 +68,7 @@ Play outside!
 
 18
 00:00:17,764 --> 00:00:18,039
-[e@Play outside!
+<font color="#ffff54">Play outside!</font>
 
 19
 00:00:18,040 --> 00:00:21,631
@@ -76,7 +76,7 @@ It's her bike.
 
 20
 00:00:21,632 --> 00:00:21,961
-[s@It's her bike.
+<font color="#ffff54">It's her bike.</font>
 
 21
 00:00:21,962 --> 00:00:22,326
@@ -116,7 +116,7 @@ Don't be mean!
 
 30
 00:00:29,609 --> 00:00:30,924
-[e@Don't be mean!
+<font color="#ffff54">Don't be mean!</font>
 
 31
 00:00:30,925 --> 00:00:32,471
@@ -124,7 +124,7 @@ Be nice!
 
 32
 00:00:32,472 --> 00:00:33,021
-[s@Be nice!
+<font color="#ffff54">Be nice!</font>
 
 33
 00:00:33,022 --> 00:00:33,280
@@ -140,7 +140,7 @@ Be nice!
 
 36
 00:00:34,957 --> 00:00:35,165
-[e@Be nice!
+<font color="#ffff54">Be nice!</font>
 
 37
 00:00:35,166 --> 00:00:37,180
@@ -148,7 +148,7 @@ It's an accident.
 
 38
 00:00:37,181 --> 00:00:37,647
-[s@It's an accident.
+<font color="#ffff54">It's an accident.</font>
 
 39
 00:00:37,648 --> 00:00:37,968
@@ -200,7 +200,7 @@ Be friends!
 
 51
 00:00:47,325 --> 00:00:48,836
-[e@Be friends!
+<font color="#ffff54">Be friends!</font>
 
 52
 00:00:48,837 --> 00:00:50,750
@@ -208,7 +208,7 @@ Surprise!
 
 53
 00:00:50,751 --> 00:00:51,211
-[s@Surprise!
+<font color="#ffff54">Surprise!</font>
 
 54
 00:00:51,212 --> 00:00:52,867
@@ -224,7 +224,7 @@ It's your birthday!
 
 57
 00:00:54,871 --> 00:00:55,267
-[s@It's your birthday!
+<font color="#ffff54">It's your birthday!</font>
 
 58
 00:00:55,268 --> 00:00:55,604

@@ -44,7 +44,7 @@ On a rainy day, I wear my raincoat.
 
 12
 00:00:17,054 --> 00:00:17,259
-[e@On a rainy day, I wear my raincoat.
+<font color="#ffff54">On a rainy day, I wear my raincoat.</font>
 
 13
 00:00:17,260 --> 00:00:19,199
@@ -52,7 +52,7 @@ I wear my boots.
 
 14
 00:00:19,200 --> 00:00:19,579
-[s@I wear my boots.
+<font color="#ffff54">I wear my boots.</font>
 
 15
 00:00:19,580 --> 00:00:19,937
@@ -76,7 +76,7 @@ I wear my boots.
 
 20
 00:00:22,782 --> 00:00:23,119
-[e@I wear my boots.
+<font color="#ffff54">I wear my boots.</font>
 
 21
 00:00:23,120 --> 00:00:24,401
@@ -84,7 +84,7 @@ I dress my dog too.
 
 22
 00:00:24,402 --> 00:00:24,939
-[s@I dress my dog too.
+<font color="#ffff54">I dress my dog too.</font>
 
 23
 00:00:24,940 --> 00:00:25,298
@@ -112,7 +112,7 @@ I dress my dog too.
 
 29
 00:00:29,512 --> 00:00:29,848
-[e@I dress my dog too.
+<font color="#ffff54">I dress my dog too.</font>
 
 30
 00:00:29,849 --> 00:00:31,508
@@ -120,7 +120,7 @@ I jump in the puddles.
 
 31
 00:00:31,509 --> 00:00:32,013
-[s@I jump in the puddles.
+<font color="#ffff54">I jump in the puddles.</font>
 
 32
 00:00:32,014 --> 00:00:32,592
@@ -148,7 +148,7 @@ I jump in the puddles.
 
 38
 00:00:36,024 --> 00:00:36,271
-[e@I jump in the puddles.
+<font color="#ffff54">I jump in the puddles.</font>
 
 39
 00:00:36,272 --> 00:00:37,352
@@ -176,7 +176,7 @@ My dog jumps too.
 
 45
 00:00:41,430 --> 00:00:41,727
-[e@My dog jumps too.
+<font color="#ffff54">My dog jumps too.</font>
 
 46
 00:00:41,728 --> 00:00:43,765
@@ -184,7 +184,7 @@ I sing and dance.
 
 47
 00:00:43,766 --> 00:00:44,339
-[s@I sing and dance.
+<font color="#ffff54">I sing and dance.</font>
 
 48
 00:00:44,340 --> 00:00:44,774
@@ -208,7 +208,7 @@ I sing and dance.
 
 53
 00:00:47,189 --> 00:00:47,394
-[e@I sing and dance.
+<font color="#ffff54">I sing and dance.</font>
 
 54
 00:00:47,395 --> 00:00:47,776
@@ -244,7 +244,7 @@ My dog sings and dances too.
 
 62
 00:00:53,144 --> 00:00:53,405
-[e@My dog sings and dances too.
+<font color="#ffff54">My dog sings and dances too.</font>
 
 63
 00:00:53,406 --> 00:00:55,311
@@ -252,7 +252,7 @@ I take a shower.
 
 64
 00:00:55,312 --> 00:00:55,771
-[s@I take a shower.
+<font color="#ffff54">I take a shower.</font>
 
 65
 00:00:55,772 --> 00:00:56,138
@@ -276,7 +276,7 @@ I take a shower.
 
 70
 00:00:58,201 --> 00:00:58,394
-[e@I take a shower.
+<font color="#ffff54">I take a shower.</font>
 
 71
 00:00:58,395 --> 00:00:58,784
@@ -312,7 +312,7 @@ My dog takes a shower too.
 
 79
 00:01:04,644 --> 00:01:04,856
-[e@My dog takes a shower too.
+<font color="#ffff54">My dog takes a shower too.</font>
 
 80
 00:01:04,857 --> 00:01:05,212

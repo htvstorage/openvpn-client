@@ -32,7 +32,7 @@ Put a pan on the stove.
 
 9
 00:00:13,314 --> 00:00:13,579
-[e@Put a pan on the stove.
+<font color="#ffff54">Put a pan on the stove.</font>
 
 10
 00:00:13,580 --> 00:00:13,897
@@ -60,7 +60,7 @@ Turn on the stove.
 
 16
 00:00:20,677 --> 00:00:20,927
-[e@Turn on the stove.
+<font color="#ffff54">Turn on the stove.</font>
 
 17
 00:00:20,928 --> 00:00:21,276
@@ -96,7 +96,7 @@ Pour the oil in the pan.
 
 25
 00:00:28,348 --> 00:00:28,584
-[e@Pour the oil in the pan.
+<font color="#ffff54">Pour the oil in the pan.</font>
 
 26
 00:00:28,585 --> 00:00:29,162
@@ -120,7 +120,7 @@ Add some corn.
 
 31
 00:00:34,849 --> 00:00:35,116
-[e@Add some corn.
+<font color="#ffff54">Add some corn.</font>
 
 32
 00:00:35,117 --> 00:00:35,463
@@ -148,7 +148,7 @@ Put the lid on.
 
 38
 00:00:41,031 --> 00:00:41,235
-[e@Put the lid on.
+<font color="#ffff54">Put the lid on.</font>
 
 39
 00:00:41,236 --> 00:00:41,366
@@ -172,7 +172,7 @@ Wait, wait, wait.
 
 44
 00:00:47,428 --> 00:00:47,652
-[e@Wait, wait, wait.
+<font color="#ffff54">Wait, wait, wait.</font>
 
 45
 00:00:47,653 --> 00:00:48,211
@@ -196,7 +196,7 @@ Pop, pop, pop.
 
 50
 00:00:54,001 --> 00:00:54,249
-[e@Pop, pop, pop.
+<font color="#ffff54">Pop, pop, pop.</font>
 
 51
 00:00:54,250 --> 00:00:54,677
@@ -228,7 +228,7 @@ Shake, shake, shake the salt.
 
 58
 00:01:01,980 --> 00:01:02,236
-[e@Shake, shake, shake the salt.
+<font color="#ffff54">Shake, shake, shake the salt.</font>
 
 59
 00:01:02,237 --> 00:01:02,755

@@ -28,7 +28,7 @@ I have a sore throat.
 
 8
 00:00:13,622 --> 00:00:13,945
-[e@I have a sore throat.
+<font color="#ffff54">I have a sore throat.</font>
 
 9
 00:00:13,946 --> 00:00:14,654
@@ -36,7 +36,7 @@ I have a broken leg.
 
 10
 00:00:14,655 --> 00:00:15,251
-[s@I have a broken leg.
+<font color="#ffff54">I have a broken leg.</font>
 
 11
 00:00:15,252 --> 00:00:15,797
@@ -64,7 +64,7 @@ I have a broken leg.
 
 17
 00:00:22,590 --> 00:00:22,875
-[e@I have a broken leg.
+<font color="#ffff54">I have a broken leg.</font>
 
 18
 00:00:22,876 --> 00:00:23,549
@@ -72,7 +72,7 @@ I have a toothache.
 
 19
 00:00:23,550 --> 00:00:24,272
-[s@I have a toothache.
+<font color="#ffff54">I have a toothache.</font>
 
 20
 00:00:24,273 --> 00:00:24,863
@@ -96,7 +96,7 @@ I have a toothache.
 
 25
 00:00:31,552 --> 00:00:31,814
-[e@I have a toothache.
+<font color="#ffff54">I have a toothache.</font>
 
 26
 00:00:31,816 --> 00:00:32,445
@@ -104,7 +104,7 @@ I have a stomachache.
 
 27
 00:00:32,446 --> 00:00:32,973
-[s@I have a stomachache.
+<font color="#ffff54">I have a stomachache.</font>
 
 28
 00:00:32,974 --> 00:00:33,701
@@ -128,7 +128,7 @@ I have a stomachache.
 
 33
 00:00:40,932 --> 00:00:41,207
-[e@I have a stomachache.
+<font color="#ffff54">I have a stomachache.</font>
 
 34
 00:00:41,208 --> 00:00:41,862
@@ -136,7 +136,7 @@ I have an earache.
 
 35
 00:00:41,863 --> 00:00:42,612
-[s@I have an earache.
+<font color="#ffff54">I have an earache.</font>
 
 36
 00:00:42,613 --> 00:00:42,975
@@ -160,7 +160,7 @@ I have an earache.
 
 41
 00:00:50,764 --> 00:00:51,006
-[e@I have an earache.
+<font color="#ffff54">I have an earache.</font>
 
 42
 00:00:51,007 --> 00:00:51,604
@@ -168,7 +168,7 @@ I have a bruised tail.
 
 43
 00:00:51,605 --> 00:00:52,140
-[s@I have a bruised tail.
+<font color="#ffff54">I have a bruised tail.</font>
 
 44
 00:00:52,141 --> 00:00:52,466
@@ -196,7 +196,7 @@ I have a bruised tail.
 
 50
 00:01:00,098 --> 00:01:00,344
-[e@I have a bruised tail.
+<font color="#ffff54">I have a bruised tail.</font>
 
 51
 00:01:00,345 --> 00:01:00,910
@@ -204,7 +204,7 @@ I have a stuffy nose.
 
 52
 00:01:00,911 --> 00:01:01,468
-[s@I have a stuffy nose.
+<font color="#ffff54">I have a stuffy nose.</font>
 
 53
 00:01:01,469 --> 00:01:01,966
@@ -232,7 +232,7 @@ I have a stuffy nose.
 
 59
 00:01:10,200 --> 00:01:10,481
-[e@I have a stuffy nose.
+<font color="#ffff54">I have a stuffy nose.</font>
 
 60
 00:01:10,482 --> 00:01:11,968
@@ -240,7 +240,7 @@ I have a headache.
 
 61
 00:01:11,969 --> 00:01:12,651
-[s@I have a headache.
+<font color="#ffff54">I have a headache.</font>
 
 62
 00:01:12,652 --> 00:01:13,090

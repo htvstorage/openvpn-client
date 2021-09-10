@@ -28,7 +28,7 @@ Dad puts up the tree.
 
 8
 00:00:15,459 --> 00:00:15,624
-[e@Dad puts up the tree.
+<font color="#ffff54">Dad puts up the tree.</font>
 
 9
 00:00:15,625 --> 00:00:16,209
@@ -64,7 +64,7 @@ I put on the candy canes.
 
 17
 00:00:23,365 --> 00:00:23,550
-[e@I put on the candy canes.
+<font color="#ffff54">I put on the candy canes.</font>
 
 18
 00:00:23,551 --> 00:00:24,118
@@ -96,7 +96,7 @@ Dad puts on the lights.
 
 25
 00:00:33,725 --> 00:00:33,985
-[e@Dad puts on the lights.
+<font color="#ffff54">Dad puts on the lights.</font>
 
 26
 00:00:33,986 --> 00:00:34,374
@@ -128,7 +128,7 @@ I put on the ornaments.
 
 33
 00:00:41,707 --> 00:00:41,889
-[e@I put on the ornaments.
+<font color="#ffff54">I put on the ornaments.</font>
 
 34
 00:00:41,890 --> 00:00:42,189
@@ -160,7 +160,7 @@ Dad puts on the angel.
 
 41
 00:00:50,409 --> 00:00:50,563
-[e@Dad puts on the angel.
+<font color="#ffff54">Dad puts on the angel.</font>
 
 42
 00:00:50,564 --> 00:00:50,829
@@ -192,7 +192,7 @@ I put on the star.
 
 49
 00:00:57,849 --> 00:00:58,034
-[e@I put on the star.
+<font color="#ffff54">I put on the star.</font>
 
 50
 00:00:58,035 --> 00:00:58,498
@@ -232,7 +232,7 @@ Santa puts the presents under the tree.
 
 59
 00:01:06,999 --> 00:01:07,169
-[e@Santa puts the presents under the tree.
+<font color="#ffff54">Santa puts the presents under the tree.</font>
 
 60
 00:01:07,170 --> 00:01:07,615

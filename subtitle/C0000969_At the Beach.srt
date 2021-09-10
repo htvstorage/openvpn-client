@@ -24,7 +24,7 @@ The sun is hot.
 
 7
 00:00:11,607 --> 00:00:11,745
-[e@The sun is hot.
+<font color="#ffff54">The sun is hot.</font>
 
 8
 00:00:11,746 --> 00:00:12,667
@@ -32,7 +32,7 @@ The water is cold.
 
 9
 00:00:12,668 --> 00:00:13,494
-[s@The water is cold.
+<font color="#ffff54">The water is cold.</font>
 
 10
 00:00:13,495 --> 00:00:13,688
@@ -56,7 +56,7 @@ The water is cold.
 
 15
 00:00:16,386 --> 00:00:16,570
-[e@The water is cold.
+<font color="#ffff54">The water is cold.</font>
 
 16
 00:00:16,571 --> 00:00:17,361
@@ -64,7 +64,7 @@ My swim ring floats.
 
 17
 00:00:17,362 --> 00:00:18,065
-[s@My swim ring floats.
+<font color="#ffff54">My swim ring floats.</font>
 
 18
 00:00:18,066 --> 00:00:18,377
@@ -88,7 +88,7 @@ My swim ring floats.
 
 23
 00:00:21,213 --> 00:00:21,400
-[e@My swim ring floats.
+<font color="#ffff54">My swim ring floats.</font>
 
 24
 00:00:21,401 --> 00:00:22,341
@@ -96,7 +96,7 @@ My shoe sinks.
 
 25
 00:00:22,342 --> 00:00:23,501
-[s@My shoe sinks.
+<font color="#ffff54">My shoe sinks.</font>
 
 26
 00:00:23,502 --> 00:00:23,803
@@ -116,7 +116,7 @@ My shoe sinks.
 
 30
 00:00:26,533 --> 00:00:26,707
-[e@My shoe sinks.
+<font color="#ffff54">My shoe sinks.</font>
 
 31
 00:00:26,708 --> 00:00:27,152
@@ -124,7 +124,7 @@ I throw the ball.
 
 32
 00:00:27,153 --> 00:00:28,700
-[s@I throw the ball.
+<font color="#ffff54">I throw the ball.</font>
 
 33
 00:00:28,701 --> 00:00:29,075
@@ -148,7 +148,7 @@ I throw the ball.
 
 38
 00:00:31,508 --> 00:00:31,680
-[e@I throw the ball.
+<font color="#ffff54">I throw the ball.</font>
 
 39
 00:00:31,681 --> 00:00:32,325
@@ -156,7 +156,7 @@ I catch the ball.
 
 40
 00:00:32,326 --> 00:00:33,823
-[s@I catch the ball.
+<font color="#ffff54">I catch the ball.</font>
 
 41
 00:00:33,824 --> 00:00:34,301
@@ -180,7 +180,7 @@ I catch the ball.
 
 46
 00:00:36,684 --> 00:00:36,834
-[e@I catch the ball.
+<font color="#ffff54">I catch the ball.</font>
 
 47
 00:00:36,835 --> 00:00:38,079
@@ -188,7 +188,7 @@ It is sunny.
 
 48
 00:00:38,080 --> 00:00:38,549
-[s@It is sunny.
+<font color="#ffff54">It is sunny.</font>
 
 49
 00:00:38,550 --> 00:00:38,809
@@ -208,7 +208,7 @@ It is sunny.
 
 53
 00:00:42,295 --> 00:00:42,478
-[e@It is sunny.
+<font color="#ffff54">It is sunny.</font>
 
 54
 00:00:42,479 --> 00:00:44,136
@@ -216,7 +216,7 @@ It is rainy!
 
 55
 00:00:44,137 --> 00:00:44,800
-[s@It is rainy!
+<font color="#ffff54">It is rainy!</font>
 
 56
 00:00:44,801 --> 00:00:45,056

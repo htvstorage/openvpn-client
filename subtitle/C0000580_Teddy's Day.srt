@@ -20,7 +20,7 @@ Teddy is happy.
 
 6
 00:00:12,947 --> 00:00:13,155
-[e@Teddy is happy.
+<font color="#ffff54">Teddy is happy.</font>
 
 7
 00:00:13,156 --> 00:00:14,131
@@ -44,7 +44,7 @@ Teddy is angry.
 
 12
 00:00:18,145 --> 00:00:18,413
-[e@Teddy is angry.
+<font color="#ffff54">Teddy is angry.</font>
 
 13
 00:00:18,414 --> 00:00:19,153
@@ -68,7 +68,7 @@ Teddy is sad.
 
 18
 00:00:26,449 --> 00:00:26,728
-[e@Teddy is sad.
+<font color="#ffff54">Teddy is sad.</font>
 
 19
 00:00:26,729 --> 00:00:27,499
@@ -112,7 +112,7 @@ Teddy is thirsty.
 
 29
 00:00:33,068 --> 00:00:33,365
-[e@"I want water."
+<font color="#ffff54">"I want water."</font>
 
 30
 00:00:33,366 --> 00:00:34,649
@@ -120,7 +120,7 @@ Teddy is tired.
 
 31
 00:00:34,650 --> 00:00:35,154
-[s@Teddy is tired.
+<font color="#ffff54">Teddy is tired.</font>
 
 32
 00:00:35,155 --> 00:00:35,573
@@ -140,7 +140,7 @@ Teddy is tired.
 
 36
 00:00:37,907 --> 00:00:38,116
-[e@Teddy is tired.
+<font color="#ffff54">Teddy is tired.</font>
 
 37
 00:00:38,117 --> 00:00:38,358
@@ -164,7 +164,7 @@ Teddy is hungry.
 
 42
 00:00:42,816 --> 00:00:43,086
-[e@Teddy is hungry.
+<font color="#ffff54">Teddy is hungry.</font>
 
 43
 00:00:43,087 --> 00:00:44,182
@@ -188,7 +188,7 @@ Teddy is sleepy.
 
 48
 00:00:47,473 --> 00:00:47,774
-[e@Teddy is sleepy.
+<font color="#ffff54">Teddy is sleepy.</font>
 
 49
 00:00:47,775 --> 00:00:48,600

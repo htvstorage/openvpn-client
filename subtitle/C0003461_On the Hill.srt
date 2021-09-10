@@ -16,7 +16,7 @@ A table.
 
 5
 00:00:09,539 --> 00:00:09,844
-[e@A table.
+<font color="#ffff54">A table.</font>
 
 6
 00:00:09,845 --> 00:00:12,293
@@ -24,7 +24,7 @@ An apple.
 
 7
 00:00:12,294 --> 00:00:12,821
-[s@An apple.
+<font color="#ffff54">An apple.</font>
 
 8
 00:00:12,822 --> 00:00:13,171
@@ -40,7 +40,7 @@ An apple.
 
 11
 00:00:17,430 --> 00:00:18,054
-[e@An apple.
+<font color="#ffff54">An apple.</font>
 
 12
 00:00:18,055 --> 00:00:19,800
@@ -48,7 +48,7 @@ The apple is on the table.
 
 13
 00:00:19,801 --> 00:00:20,227
-[s@The apple is on the table.
+<font color="#ffff54">The apple is on the table.</font>
 
 14
 00:00:20,228 --> 00:00:20,556
@@ -80,7 +80,7 @@ The apple is on the table.
 
 21
 00:00:24,834 --> 00:00:25,255
-[e@The apple is on the table.
+<font color="#ffff54">The apple is on the table.</font>
 
 22
 00:00:25,256 --> 00:00:28,760
@@ -88,7 +88,7 @@ A pot.
 
 23
 00:00:28,761 --> 00:00:29,323
-[s@A pot.
+<font color="#ffff54">A pot.</font>
 
 24
 00:00:29,324 --> 00:00:29,574
@@ -104,7 +104,7 @@ A pot.
 
 27
 00:00:31,433 --> 00:00:31,756
-[e@A pot.
+<font color="#ffff54">A pot.</font>
 
 28
 00:00:31,757 --> 00:00:35,213
@@ -112,7 +112,7 @@ A flower.
 
 29
 00:00:35,214 --> 00:00:35,735
-[s@A flower.
+<font color="#ffff54">A flower.</font>
 
 30
 00:00:35,736 --> 00:00:35,961
@@ -128,7 +128,7 @@ A flower.
 
 33
 00:00:41,830 --> 00:00:42,774
-[e@A flower.
+<font color="#ffff54">A flower.</font>
 
 34
 00:00:42,775 --> 00:00:44,510
@@ -136,7 +136,7 @@ The flower is in the pot.
 
 35
 00:00:44,511 --> 00:00:44,920
-[s@The flower is in the pot.
+<font color="#ffff54">The flower is in the pot.</font>
 
 36
 00:00:44,921 --> 00:00:45,190
@@ -168,7 +168,7 @@ The flower is in the pot.
 
 43
 00:00:50,321 --> 00:00:50,695
-[e@The flower is in the pot.
+<font color="#ffff54">The flower is in the pot.</font>
 
 44
 00:00:50,696 --> 00:00:55,256
@@ -176,7 +176,7 @@ A box.
 
 45
 00:00:55,257 --> 00:00:55,707
-[s@A box.
+<font color="#ffff54">A box.</font>
 
 46
 00:00:55,708 --> 00:00:56,006
@@ -192,7 +192,7 @@ A box.
 
 49
 00:00:58,182 --> 00:00:58,527
-[e@A box.
+<font color="#ffff54">A box.</font>
 
 50
 00:00:58,528 --> 00:01:01,413
@@ -200,7 +200,7 @@ An egg.
 
 51
 00:01:01,414 --> 00:01:01,820
-[s@An egg.
+<font color="#ffff54">An egg.</font>
 
 52
 00:01:01,821 --> 00:01:02,108
@@ -216,7 +216,7 @@ An egg.
 
 55
 00:01:06,849 --> 00:01:07,480
-[e@An egg.
+<font color="#ffff54">An egg.</font>
 
 56
 00:01:07,481 --> 00:01:09,604
@@ -224,7 +224,7 @@ The egg is in the box.
 
 57
 00:01:09,605 --> 00:01:09,974
-[s@The egg is in the box.
+<font color="#ffff54">The egg is in the box.</font>
 
 58
 00:01:09,975 --> 00:01:10,279
@@ -256,7 +256,7 @@ The egg is in the box.
 
 65
 00:01:14,829 --> 00:01:15,319
-[e@The egg is in the box.
+<font color="#ffff54">The egg is in the box.</font>
 
 66
 00:01:15,320 --> 00:01:18,944
@@ -264,7 +264,7 @@ A hill.
 
 67
 00:01:18,945 --> 00:01:19,325
-[s@A hill.
+<font color="#ffff54">A hill.</font>
 
 68
 00:01:19,326 --> 00:01:19,585
@@ -280,7 +280,7 @@ A hill.
 
 71
 00:01:21,757 --> 00:01:22,117
-[e@A hill.
+<font color="#ffff54">A hill.</font>
 
 72
 00:01:22,118 --> 00:01:25,862
@@ -288,7 +288,7 @@ A cow.
 
 73
 00:01:25,863 --> 00:01:26,273
-[s@A cow.
+<font color="#ffff54">A cow.</font>
 
 74
 00:01:26,274 --> 00:01:26,491
@@ -304,7 +304,7 @@ A cow.
 
 77
 00:01:31,936 --> 00:01:32,231
-[e@A cow.
+<font color="#ffff54">A cow.</font>
 
 78
 00:01:32,232 --> 00:01:33,238
@@ -340,7 +340,7 @@ The cow is on the hill.
 
 86
 00:01:38,331 --> 00:01:38,660
-[e@The cow is on the hill.
+<font color="#ffff54">The cow is on the hill.</font>
 
 87
 00:01:38,661 --> 00:01:39,099
@@ -392,7 +392,7 @@ The apple is on the box on the cow . . .
 
 99
 00:01:44,693 --> 00:01:45,000
-[e@The apple is on the box on the cow . . .
+<font color="#ffff54">The apple is on the box on the cow . . .</font>
 
 100
 00:01:45,001 --> 00:01:45,275

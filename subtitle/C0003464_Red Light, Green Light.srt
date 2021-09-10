@@ -68,7 +68,7 @@ Green light. Go!
 
 18
 00:00:18,946 --> 00:00:19,241
-[s@Green light. Go!
+<font color="#ffff54">Green light. Go!</font>
 
 19
 00:00:19,242 --> 00:00:19,664
@@ -160,7 +160,7 @@ You're out!
 
 41
 00:00:38,339 --> 00:00:38,620
-[s@You're out!
+<font color="#ffff54">You're out!</font>
 
 42
 00:00:38,621 --> 00:00:38,969

@@ -12,7 +12,7 @@
 
 4
 00:00:11,853 --> 00:00:12,087
-[e@"Surprise!"
+<font color="#ffff54">"Surprise!"</font>
 
 5
 00:00:12,088 --> 00:00:13,285
@@ -20,7 +20,7 @@
 
 6
 00:00:13,286 --> 00:00:14,273
-[s@"Are they pencils?" said the teacher.
+<font color="#ffff54">"Are they pencils?" said the teacher.</font>
 
 7
 00:00:14,274 --> 00:00:14,672
@@ -84,7 +84,7 @@
 
 22
 00:00:20,546 --> 00:00:20,752
-[e@"No," said the children.
+<font color="#ffff54">"No," said the children.</font>
 
 23
 00:00:20,753 --> 00:00:21,560
@@ -120,7 +120,7 @@
 
 31
 00:00:24,645 --> 00:00:24,763
-[e@"Are they erasers?" said the teacher.
+<font color="#ffff54">"Are they erasers?" said the teacher.</font>
 
 32
 00:00:24,764 --> 00:00:24,881
@@ -152,7 +152,7 @@
 
 39
 00:00:28,286 --> 00:00:28,431
-[e@"No," said the children.
+<font color="#ffff54">"No," said the children.</font>
 
 40
 00:00:28,432 --> 00:00:30,283
@@ -160,7 +160,7 @@
 
 41
 00:00:30,284 --> 00:00:30,776
-[s@"Are they rulers?" said the teacher.
+<font color="#ffff54">"Are they rulers?" said the teacher.</font>
 
 42
 00:00:30,777 --> 00:00:31,159
@@ -196,7 +196,7 @@
 
 50
 00:00:33,890 --> 00:00:33,970
-[e@"Are they rulers?" said the teacher.
+<font color="#ffff54">"Are they rulers?" said the teacher.</font>
 
 51
 00:00:33,971 --> 00:00:34,252
@@ -228,7 +228,7 @@
 
 58
 00:00:37,577 --> 00:00:37,756
-[e@"No," said the children.
+<font color="#ffff54">"No," said the children.</font>
 
 59
 00:00:37,757 --> 00:00:38,595
@@ -264,7 +264,7 @@
 
 67
 00:00:41,690 --> 00:00:41,822
-[e@"Are they scissors?" said the teacher.
+<font color="#ffff54">"Are they scissors?" said the teacher.</font>
 
 68
 00:00:41,823 --> 00:00:41,901
@@ -296,7 +296,7 @@
 
 75
 00:00:45,104 --> 00:00:45,290
-[e@"No," said the children.
+<font color="#ffff54">"No," said the children.</font>
 
 76
 00:00:45,291 --> 00:00:45,980
@@ -336,7 +336,7 @@
 
 85
 00:00:49,926 --> 00:00:50,084
-[e@"Are they colored markers?" said the teacher.
+<font color="#ffff54">"Are they colored markers?" said the teacher.</font>
 
 86
 00:00:50,085 --> 00:00:50,200
@@ -368,7 +368,7 @@
 
 93
 00:00:53,591 --> 00:00:53,752
-[e@"No," said the children.
+<font color="#ffff54">"No," said the children.</font>
 
 94
 00:00:53,753 --> 00:00:55,024
@@ -408,7 +408,7 @@
 
 103
 00:00:58,118 --> 00:00:58,238
-[e@"Are they notebooks?" said the teacher.
+<font color="#ffff54">"Are they notebooks?" said the teacher.</font>
 
 104
 00:00:58,239 --> 00:00:58,352
@@ -440,7 +440,7 @@
 
 111
 00:01:01,958 --> 00:01:02,100
-[e@"No," said the children.
+<font color="#ffff54">"No," said the children.</font>
 
 112
 00:01:02,101 --> 00:01:03,723
@@ -448,7 +448,7 @@
 
 113
 00:01:03,724 --> 00:01:04,319
-[s@"Are they pencil cases?" said the teacher.
+<font color="#ffff54">"Are they pencil cases?" said the teacher.</font>
 
 114
 00:01:04,320 --> 00:01:04,573
@@ -488,7 +488,7 @@
 
 123
 00:01:07,433 --> 00:01:07,553
-[e@"Are they pencil cases?" said the teacher.
+<font color="#ffff54">"Are they pencil cases?" said the teacher.</font>
 
 124
 00:01:07,554 --> 00:01:07,872
@@ -520,7 +520,7 @@
 
 131
 00:01:11,131 --> 00:01:11,292
-[e@"No," said the children.
+<font color="#ffff54">"No," said the children.</font>
 
 132
 00:01:11,293 --> 00:01:11,916
@@ -564,7 +564,7 @@
 
 142
 00:01:15,771 --> 00:01:15,953
-[e@"Are they rubber stamps?" said the teacher.
+<font color="#ffff54">"Are they rubber stamps?" said the teacher.</font>
 
 143
 00:01:15,954 --> 00:01:16,189

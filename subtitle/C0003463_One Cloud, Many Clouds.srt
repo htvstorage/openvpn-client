@@ -16,7 +16,7 @@ One cloud.
 
 5
 00:00:17,794 --> 00:00:18,431
-[e@One cloud.
+<font color="#ffff54">One cloud.</font>
 
 6
 00:00:18,432 --> 00:00:20,416
@@ -24,7 +24,7 @@ Many clouds.
 
 7
 00:00:20,417 --> 00:00:20,785
-[s@Many clouds.
+<font color="#ffff54">Many clouds.</font>
 
 8
 00:00:20,786 --> 00:00:21,277
@@ -40,7 +40,7 @@ Many clouds.
 
 11
 00:00:24,248 --> 00:00:24,839
-[e@Many clouds.
+<font color="#ffff54">Many clouds.</font>
 
 12
 00:00:24,840 --> 00:00:28,415
@@ -48,7 +48,7 @@ One drop.
 
 13
 00:00:28,416 --> 00:00:28,785
-[s@One drop.
+<font color="#ffff54">One drop.</font>
 
 14
 00:00:28,786 --> 00:00:29,326
@@ -64,7 +64,7 @@ One drop.
 
 17
 00:00:33,010 --> 00:00:34,008
-[e@One drop.
+<font color="#ffff54">One drop.</font>
 
 18
 00:00:34,009 --> 00:00:37,718
@@ -72,7 +72,7 @@ Many drops.
 
 19
 00:00:37,719 --> 00:00:38,177
-[s@Many drops.
+<font color="#ffff54">Many drops.</font>
 
 20
 00:00:38,178 --> 00:00:38,674
@@ -88,7 +88,7 @@ Many drops.
 
 23
 00:00:42,910 --> 00:00:43,301
-[e@Many drops.
+<font color="#ffff54">Many drops.</font>
 
 24
 00:00:43,302 --> 00:00:44,831
@@ -108,7 +108,7 @@ One umbrella.
 
 28
 00:00:51,763 --> 00:00:54,044
-[e@One umbrella.
+<font color="#ffff54">One umbrella.</font>
 
 29
 00:00:54,045 --> 00:00:56,082
@@ -116,7 +116,7 @@ Many umbrellas.
 
 30
 00:00:56,083 --> 00:00:56,509
-[s@Many umbrellas.
+<font color="#ffff54">Many umbrellas.</font>
 
 31
 00:00:56,510 --> 00:00:57,010
@@ -132,7 +132,7 @@ Many umbrellas.
 
 34
 00:01:02,722 --> 00:01:03,090
-[e@Many umbrellas.
+<font color="#ffff54">Many umbrellas.</font>
 
 35
 00:01:03,091 --> 00:01:12,054
@@ -140,7 +140,7 @@ One kid.
 
 36
 00:01:12,055 --> 00:01:12,635
-[s@One kid.
+<font color="#ffff54">One kid.</font>
 
 37
 00:01:12,636 --> 00:01:13,344
@@ -156,7 +156,7 @@ One kid.
 
 40
 00:01:14,547 --> 00:01:14,770
-[e@One kid.
+<font color="#ffff54">One kid.</font>
 
 41
 00:01:14,771 --> 00:01:15,055

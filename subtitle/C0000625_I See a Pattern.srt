@@ -36,7 +36,7 @@ I see a pattern in the sky.
 
 10
 00:00:11,281 --> 00:00:11,470
-[e@I see a pattern in the sky.
+<font color="#ffff54">I see a pattern in the sky.</font>
 
 11
 00:00:11,471 --> 00:00:11,841
@@ -76,7 +76,7 @@ I see a pattern at the beach.
 
 20
 00:00:18,015 --> 00:00:18,213
-[e@I see a pattern at the beach.
+<font color="#ffff54">I see a pattern at the beach.</font>
 
 21
 00:00:18,214 --> 00:00:18,715
@@ -116,7 +116,7 @@ I see a pattern at the store.
 
 30
 00:00:23,685 --> 00:00:23,871
-[e@I see a pattern at the store.
+<font color="#ffff54">I see a pattern at the store.</font>
 
 31
 00:00:23,872 --> 00:00:24,157
@@ -156,7 +156,7 @@ I see a pattern in the garden.
 
 40
 00:00:29,623 --> 00:00:29,821
-[e@I see a pattern in the garden.
+<font color="#ffff54">I see a pattern in the garden.</font>
 
 41
 00:00:29,822 --> 00:00:30,097
@@ -196,7 +196,7 @@ I see a pattern on the school.
 
 50
 00:00:35,569 --> 00:00:35,745
-[e@I see a pattern on the school.
+<font color="#ffff54">I see a pattern on the school.</font>
 
 51
 00:00:35,746 --> 00:00:36,174
@@ -240,7 +240,7 @@ I see a pattern in the parking lot.
 
 61
 00:00:41,314 --> 00:00:41,490
-[e@I see a pattern in the parking lot.
+<font color="#ffff54">I see a pattern in the parking lot.</font>
 
 62
 00:00:41,491 --> 00:00:41,823
@@ -280,7 +280,7 @@ I see a pattern on the sidewalk.
 
 71
 00:00:47,492 --> 00:00:47,677
-[e@I see a pattern on the sidewalk.
+<font color="#ffff54">I see a pattern on the sidewalk.</font>
 
 72
 00:00:47,678 --> 00:00:48,049

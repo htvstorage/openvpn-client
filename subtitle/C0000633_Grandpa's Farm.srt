@@ -44,7 +44,7 @@ It is morning on Grandpa's farm.
 
 12
 00:00:15,045 --> 00:00:15,216
-[e@It is morning on Grandpa's farm.
+<font color="#ffff54">It is morning on Grandpa's farm.</font>
 
 13
 00:00:15,217 --> 00:00:16,145
@@ -52,7 +52,7 @@ It is morning on Grandpa's farm.
 
 14
 00:00:16,146 --> 00:00:16,641
-[s@"Cluck, cluck, peep, peep. I'm hungry," said the chicken.
+<font color="#ffff54">"Cluck, cluck, peep, peep. I'm hungry," said the chicken.</font>
 
 15
 00:00:16,642 --> 00:00:17,002
@@ -96,7 +96,7 @@ It is morning on Grandpa's farm.
 
 25
 00:00:23,700 --> 00:00:23,892
-[e@"Cluck, cluck, peep, peep. I'm hungry," said the chicken.
+<font color="#ffff54">"Cluck, cluck, peep, peep. I'm hungry," said the chicken.</font>
 
 26
 00:00:23,893 --> 00:00:24,371
@@ -104,7 +104,7 @@ It is morning on Grandpa's farm.
 
 27
 00:00:24,372 --> 00:00:24,844
-[s@"Baa, baa. I'm hungry," said the sheep.
+<font color="#ffff54">"Baa, baa. I'm hungry," said the sheep.</font>
 
 28
 00:00:24,845 --> 00:00:26,003
@@ -140,7 +140,7 @@ It is morning on Grandpa's farm.
 
 36
 00:00:32,513 --> 00:00:32,686
-[e@"Baa, baa. I'm hungry," said the sheep.
+<font color="#ffff54">"Baa, baa. I'm hungry," said the sheep.</font>
 
 37
 00:00:32,687 --> 00:00:33,174
@@ -148,7 +148,7 @@ It is morning on Grandpa's farm.
 
 38
 00:00:33,175 --> 00:00:33,689
-[s@"Quack, quack. I am hungry," said the ducks.
+<font color="#ffff54">"Quack, quack. I am hungry," said the ducks.</font>
 
 39
 00:00:33,690 --> 00:00:34,143
@@ -188,7 +188,7 @@ It is morning on Grandpa's farm.
 
 48
 00:00:40,444 --> 00:00:40,605
-[e@"Quack, quack. I am hungry," said the ducks.
+<font color="#ffff54">"Quack, quack. I am hungry," said the ducks.</font>
 
 49
 00:00:40,606 --> 00:00:41,102
@@ -196,7 +196,7 @@ It is morning on Grandpa's farm.
 
 50
 00:00:41,103 --> 00:00:41,575
-[s@"Neigh, neigh. I am hungry," said the horse.
+<font color="#ffff54">"Neigh, neigh. I am hungry," said the horse.</font>
 
 51
 00:00:41,576 --> 00:00:42,794
@@ -236,7 +236,7 @@ It is morning on Grandpa's farm.
 
 60
 00:00:49,194 --> 00:00:49,348
-[e@"Neigh, neigh. I am hungry," said the horse.
+<font color="#ffff54">"Neigh, neigh. I am hungry," said the horse.</font>
 
 61
 00:00:49,349 --> 00:00:49,931
@@ -244,7 +244,7 @@ It is morning on Grandpa's farm.
 
 62
 00:00:49,932 --> 00:00:50,443
-[s@"Moo, moo. I am hungry," said the cow.
+<font color="#ffff54">"Moo, moo. I am hungry," said the cow.</font>
 
 63
 00:00:50,444 --> 00:00:52,367
@@ -284,7 +284,7 @@ It is morning on Grandpa's farm.
 
 72
 00:00:59,912 --> 00:01:00,073
-[e@"Moo, moo. I am hungry," said the cow.
+<font color="#ffff54">"Moo, moo. I am hungry," said the cow.</font>
 
 73
 00:01:00,074 --> 00:01:00,613
@@ -292,7 +292,7 @@ It is morning on Grandpa's farm.
 
 74
 00:01:00,614 --> 00:01:01,166
-[s@"Oink, oink. I am hungry," said the pig.
+<font color="#ffff54">"Oink, oink. I am hungry," said the pig.</font>
 
 75
 00:01:01,167 --> 00:01:01,455
@@ -332,7 +332,7 @@ It is morning on Grandpa's farm.
 
 84
 00:01:07,428 --> 00:01:07,602
-[e@"Oink, oink. I am hungry," said the pig.
+<font color="#ffff54">"Oink, oink. I am hungry," said the pig.</font>
 
 85
 00:01:07,603 --> 00:01:08,083
@@ -340,7 +340,7 @@ It is morning on Grandpa's farm.
 
 86
 00:01:08,084 --> 00:01:08,569
-[s@"Bark, bark, bark," said my dog.
+<font color="#ffff54">"Bark, bark, bark," said my dog.</font>
 
 87
 00:01:08,570 --> 00:01:09,045

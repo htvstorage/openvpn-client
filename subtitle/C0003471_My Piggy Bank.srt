@@ -24,7 +24,7 @@ Look! A penny!
 
 7
 00:00:07,324 --> 00:00:07,539
-[e@Look! A penny!
+<font color="#ffff54">Look! A penny!</font>
 
 8
 00:00:07,540 --> 00:00:08,324
@@ -48,7 +48,7 @@ That's one cent.
 
 13
 00:00:13,942 --> 00:00:14,182
-[e@That's one cent.
+<font color="#ffff54">That's one cent.</font>
 
 14
 00:00:14,183 --> 00:00:17,415
@@ -56,7 +56,7 @@ Oh! A nickel!
 
 15
 00:00:17,416 --> 00:00:18,007
-[s@Oh! A nickel!
+<font color="#ffff54">Oh! A nickel!</font>
 
 16
 00:00:18,008 --> 00:00:18,782
@@ -76,7 +76,7 @@ Oh! A nickel!
 
 20
 00:00:20,807 --> 00:00:20,978
-[e@Oh! A nickel!
+<font color="#ffff54">Oh! A nickel!</font>
 
 21
 00:00:20,979 --> 00:00:22,017
@@ -84,7 +84,7 @@ That's five cents.
 
 22
 00:00:22,018 --> 00:00:22,485
-[s@That's five cents.
+<font color="#ffff54">That's five cents.</font>
 
 23
 00:00:22,486 --> 00:00:23,113
@@ -104,7 +104,7 @@ That's five cents.
 
 27
 00:00:27,507 --> 00:00:27,730
-[e@That's five cents.
+<font color="#ffff54">That's five cents.</font>
 
 28
 00:00:27,731 --> 00:00:30,915
@@ -112,7 +112,7 @@ Cool! A dime!
 
 29
 00:00:30,916 --> 00:00:31,691
-[s@Cool! A dime!
+<font color="#ffff54">Cool! A dime!</font>
 
 30
 00:00:31,692 --> 00:00:32,675
@@ -132,7 +132,7 @@ Cool! A dime!
 
 34
 00:00:34,438 --> 00:00:34,583
-[e@Cool! A dime!
+<font color="#ffff54">Cool! A dime!</font>
 
 35
 00:00:34,584 --> 00:00:36,257
@@ -140,7 +140,7 @@ That's ten cents.
 
 36
 00:00:36,258 --> 00:00:36,754
-[s@That's ten cents.
+<font color="#ffff54">That's ten cents.</font>
 
 37
 00:00:36,755 --> 00:00:37,306
@@ -160,7 +160,7 @@ That's ten cents.
 
 41
 00:00:40,993 --> 00:00:41,234
-[e@That's ten cents.
+<font color="#ffff54">That's ten cents.</font>
 
 42
 00:00:41,235 --> 00:00:45,661
@@ -168,7 +168,7 @@ Ooh! A quarter!
 
 43
 00:00:45,662 --> 00:00:46,327
-[s@Ooh! A quarter!
+<font color="#ffff54">Ooh! A quarter!</font>
 
 44
 00:00:46,328 --> 00:00:47,078
@@ -188,7 +188,7 @@ Ooh! A quarter!
 
 48
 00:00:49,260 --> 00:00:49,446
-[e@Ooh! A quarter!
+<font color="#ffff54">Ooh! A quarter!</font>
 
 49
 00:00:49,447 --> 00:00:50,330
@@ -196,7 +196,7 @@ That's twenty-five cents.
 
 50
 00:00:50,331 --> 00:00:50,751
-[s@That's twenty-five cents.
+<font color="#ffff54">That's twenty-five cents.</font>
 
 51
 00:00:50,752 --> 00:00:51,192
@@ -216,7 +216,7 @@ That's twenty-five cents.
 
 55
 00:00:55,920 --> 00:00:56,140
-[e@That's twenty-five cents.
+<font color="#ffff54">That's twenty-five cents.</font>
 
 56
 00:00:56,141 --> 00:00:59,081
@@ -224,7 +224,7 @@ Wow! A dollar!
 
 57
 00:00:59,082 --> 00:00:59,837
-[s@Wow! A dollar!
+<font color="#ffff54">Wow! A dollar!</font>
 
 58
 00:00:59,838 --> 00:01:00,933
@@ -244,7 +244,7 @@ Wow! A dollar!
 
 62
 00:01:02,761 --> 00:01:02,922
-[e@Wow! A dollar!
+<font color="#ffff54">Wow! A dollar!</font>
 
 63
 00:01:02,923 --> 00:01:03,577
@@ -252,7 +252,7 @@ That's one hundred cents.
 
 64
 00:01:03,578 --> 00:01:03,996
-[s@That's one hundred cents.
+<font color="#ffff54">That's one hundred cents.</font>
 
 65
 00:01:03,998 --> 00:01:04,484
@@ -276,7 +276,7 @@ That's one hundred cents.
 
 70
 00:01:07,708 --> 00:01:07,853
-[e@That's one hundred cents.
+<font color="#ffff54">That's one hundred cents.</font>
 
 71
 00:01:07,854 --> 00:01:16,163
@@ -284,7 +284,7 @@ A penny! A nickel! A dime! A quarter! A dollar!
 
 72
 00:01:16,164 --> 00:01:16,529
-[s@A penny! A nickel! A dime! A quarter! A dollar!
+<font color="#ffff54">A penny! A nickel! A dime! A quarter! A dollar!</font>
 
 73
 00:01:16,530 --> 00:01:16,874
@@ -348,7 +348,7 @@ A penny! A nickel! A dime! A quarter! A dollar!
 
 88
 00:01:29,709 --> 00:01:29,850
-[e@A penny! A nickel! A dime! A quarter! A dollar!
+<font color="#ffff54">A penny! A nickel! A dime! A quarter! A dollar!</font>
 
 89
 00:01:29,851 --> 00:01:30,109
@@ -384,7 +384,7 @@ Happy Father's Day!
 
 97
 00:01:37,813 --> 00:01:38,374
-[s@Happy Father's Day!
+<font color="#ffff54">Happy Father's Day!</font>
 
 98
 00:01:38,375 --> 00:01:38,936

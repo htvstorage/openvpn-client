@@ -32,7 +32,7 @@ Who is playing in the bushes?
 
 9
 00:00:08,077 --> 00:00:08,314
-[e@Who is playing in the bushes?
+<font color="#ffff54">Who is playing in the bushes?</font>
 
 10
 00:00:08,315 --> 00:00:09,950
@@ -40,7 +40,7 @@ A bird!
 
 11
 00:00:09,951 --> 00:00:10,527
-[s@A bird!
+<font color="#ffff54">A bird!</font>
 
 12
 00:00:10,528 --> 00:00:10,864
@@ -56,7 +56,7 @@ A bird!
 
 15
 00:00:12,422 --> 00:00:12,596
-[e@A bird!
+<font color="#ffff54">A bird!</font>
 
 16
 00:00:12,597 --> 00:00:13,787
@@ -64,7 +64,7 @@ Who is hiding in the tree?
 
 17
 00:00:13,788 --> 00:00:14,055
-[s@Who is hiding in the tree?
+<font color="#ffff54">Who is hiding in the tree?</font>
 
 18
 00:00:14,056 --> 00:00:14,441
@@ -96,7 +96,7 @@ Who is hiding in the tree?
 
 25
 00:00:16,702 --> 00:00:16,853
-[e@Who is hiding in the tree?
+<font color="#ffff54">Who is hiding in the tree?</font>
 
 26
 00:00:16,854 --> 00:00:18,416
@@ -104,7 +104,7 @@ A squirrel!
 
 27
 00:00:18,417 --> 00:00:18,929
-[s@A squirrel!
+<font color="#ffff54">A squirrel!</font>
 
 28
 00:00:18,930 --> 00:00:19,202
@@ -120,7 +120,7 @@ A squirrel!
 
 31
 00:00:24,055 --> 00:00:24,251
-[e@A squirrel!
+<font color="#ffff54">A squirrel!</font>
 
 32
 00:00:24,252 --> 00:00:25,141
@@ -128,7 +128,7 @@ Who is sleeping in the rocks?
 
 33
 00:00:25,142 --> 00:00:25,489
-[s@Who is sleeping in the rocks?
+<font color="#ffff54">Who is sleeping in the rocks?</font>
 
 34
 00:00:25,490 --> 00:00:25,819
@@ -160,7 +160,7 @@ Who is sleeping in the rocks?
 
 41
 00:00:29,650 --> 00:00:29,849
-[e@Who is sleeping in the rocks?
+<font color="#ffff54">Who is sleeping in the rocks?</font>
 
 42
 00:00:29,850 --> 00:00:30,682
@@ -168,7 +168,7 @@ A snake!
 
 43
 00:00:30,683 --> 00:00:31,088
-[s@A snake!
+<font color="#ffff54">A snake!</font>
 
 44
 00:00:31,089 --> 00:00:31,459
@@ -184,7 +184,7 @@ A snake!
 
 47
 00:00:35,489 --> 00:00:35,691
-[e@A snake!
+<font color="#ffff54">A snake!</font>
 
 48
 00:00:35,692 --> 00:00:36,578
@@ -192,7 +192,7 @@ Who is swimming in the river?
 
 49
 00:00:36,579 --> 00:00:36,974
-[s@Who is swimming in the river?
+<font color="#ffff54">Who is swimming in the river?</font>
 
 50
 00:00:36,975 --> 00:00:37,276
@@ -224,7 +224,7 @@ Who is swimming in the river?
 
 57
 00:00:39,434 --> 00:00:39,518
-[e@Who is swimming in the river?
+<font color="#ffff54">Who is swimming in the river?</font>
 
 58
 00:00:39,519 --> 00:00:40,411
@@ -232,7 +232,7 @@ A duck!
 
 59
 00:00:40,412 --> 00:00:40,973
-[s@A duck!
+<font color="#ffff54">A duck!</font>
 
 60
 00:00:40,974 --> 00:00:41,449
@@ -248,7 +248,7 @@ A duck!
 
 63
 00:00:44,876 --> 00:00:45,120
-[e@A duck!
+<font color="#ffff54">A duck!</font>
 
 64
 00:00:45,121 --> 00:00:51,997
@@ -256,7 +256,7 @@ Who is in the tent?
 
 65
 00:00:51,998 --> 00:00:52,253
-[s@Who is in the tent?
+<font color="#ffff54">Who is in the tent?</font>
 
 66
 00:00:52,254 --> 00:00:52,608
@@ -284,7 +284,7 @@ Who is in the tent?
 
 72
 00:00:54,402 --> 00:00:54,579
-[e@Who is in the tent?
+<font color="#ffff54">Who is in the tent?</font>
 
 73
 00:00:54,580 --> 00:00:55,806

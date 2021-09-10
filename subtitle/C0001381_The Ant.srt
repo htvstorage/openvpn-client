@@ -24,7 +24,7 @@ Crawl down the wall.
 
 7
 00:00:09,281 --> 00:00:09,521
-[e@Crawl down the wall.
+<font color="#ffff54">Crawl down the wall.</font>
 
 8
 00:00:09,522 --> 00:00:09,754
@@ -52,7 +52,7 @@ Climb over the sofa.
 
 14
 00:00:13,374 --> 00:00:13,518
-[e@Climb over the sofa.
+<font color="#ffff54">Climb over the sofa.</font>
 
 15
 00:00:13,519 --> 00:00:13,850
@@ -80,7 +80,7 @@ Crawl under the table.
 
 21
 00:00:17,865 --> 00:00:18,035
-[e@Crawl under the table.
+<font color="#ffff54">Crawl under the table.</font>
 
 22
 00:00:18,036 --> 00:00:18,211
@@ -108,7 +108,7 @@ Climb over the slippers.
 
 28
 00:00:21,997 --> 00:00:22,183
-[e@Climb over the slippers.
+<font color="#ffff54">Climb over the slippers.</font>
 
 29
 00:00:22,184 --> 00:00:22,455
@@ -136,7 +136,7 @@ Crawl past the cat.
 
 35
 00:00:26,634 --> 00:00:26,846
-[e@Crawl past the cat.
+<font color="#ffff54">Crawl past the cat.</font>
 
 36
 00:00:26,847 --> 00:00:27,099
@@ -164,7 +164,7 @@ Climb up the chair.
 
 42
 00:00:30,557 --> 00:00:30,704
-[e@Climb up the chair.
+<font color="#ffff54">Climb up the chair.</font>
 
 43
 00:00:30,706 --> 00:00:31,497
@@ -192,7 +192,7 @@ Crawl onto the plate.
 
 49
 00:00:34,882 --> 00:00:35,052
-[e@Crawl onto the plate.
+<font color="#ffff54">Crawl onto the plate.</font>
 
 50
 00:00:35,053 --> 00:00:35,254

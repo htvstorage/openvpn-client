@@ -20,7 +20,7 @@ Spring is here.
 
 6
 00:00:12,601 --> 00:00:12,825
-[e@Spring is here.
+<font color="#ffff54">Spring is here.</font>
 
 7
 00:00:12,826 --> 00:00:14,559
@@ -28,7 +28,7 @@ Winter is gone.
 
 8
 00:00:14,560 --> 00:00:15,454
-[s@Winter is gone.
+<font color="#ffff54">Winter is gone.</font>
 
 9
 00:00:15,455 --> 00:00:16,006
@@ -48,7 +48,7 @@ Winter is gone.
 
 13
 00:00:17,783 --> 00:00:17,966
-[e@Winter is gone.
+<font color="#ffff54">Winter is gone.</font>
 
 14
 00:00:17,967 --> 00:00:19,605
@@ -56,7 +56,7 @@ The birds are here.
 
 15
 00:00:19,606 --> 00:00:20,358
-[s@The birds are here.
+<font color="#ffff54">The birds are here.</font>
 
 16
 00:00:20,359 --> 00:00:20,643
@@ -80,7 +80,7 @@ The birds are here.
 
 21
 00:00:22,852 --> 00:00:23,019
-[e@The birds are here.
+<font color="#ffff54">The birds are here.</font>
 
 22
 00:00:23,020 --> 00:00:23,680
@@ -88,7 +88,7 @@ The snow is gone.
 
 23
 00:00:23,681 --> 00:00:24,675
-[s@The snow is gone.
+<font color="#ffff54">The snow is gone.</font>
 
 24
 00:00:24,676 --> 00:00:25,041
@@ -112,7 +112,7 @@ The snow is gone.
 
 29
 00:00:27,664 --> 00:00:27,848
-[e@The snow is gone.
+<font color="#ffff54">The snow is gone.</font>
 
 30
 00:00:27,849 --> 00:00:28,544
@@ -120,7 +120,7 @@ The flowers are here.
 
 31
 00:00:28,545 --> 00:00:30,332
-[s@The flowers are here.
+<font color="#ffff54">The flowers are here.</font>
 
 32
 00:00:30,333 --> 00:00:30,624
@@ -144,7 +144,7 @@ The flowers are here.
 
 37
 00:00:33,046 --> 00:00:33,236
-[e@The flowers are here.
+<font color="#ffff54">The flowers are here.</font>
 
 38
 00:00:33,237 --> 00:00:34,253
@@ -152,7 +152,7 @@ The old coats are gone.
 
 39
 00:00:34,254 --> 00:00:34,776
-[s@The old coats are gone.
+<font color="#ffff54">The old coats are gone.</font>
 
 40
 00:00:34,777 --> 00:00:35,134
@@ -180,7 +180,7 @@ The old coats are gone.
 
 46
 00:00:37,410 --> 00:00:37,564
-[e@The old coats are gone.
+<font color="#ffff54">The old coats are gone.</font>
 
 47
 00:00:37,565 --> 00:00:39,409
@@ -188,7 +188,7 @@ The new coats are here.
 
 48
 00:00:39,410 --> 00:00:40,316
-[s@The new coats are here.
+<font color="#ffff54">The new coats are here.</font>
 
 49
 00:00:40,317 --> 00:00:40,659
@@ -216,7 +216,7 @@ The new coats are here.
 
 55
 00:00:43,458 --> 00:00:43,623
-[e@The new coats are here.
+<font color="#ffff54">The new coats are here.</font>
 
 56
 00:00:43,624 --> 00:00:44,592
@@ -224,7 +224,7 @@ Spring is here.
 
 57
 00:00:44,593 --> 00:00:45,047
-[s@Spring is here.
+<font color="#ffff54">Spring is here.</font>
 
 58
 00:00:45,048 --> 00:00:45,717

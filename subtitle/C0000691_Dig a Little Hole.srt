@@ -24,7 +24,7 @@ Dig a little hole.
 
 7
 00:00:07,384 --> 00:00:07,584
-[e@Dig a little hole.
+<font color="#ffff54">Dig a little hole.</font>
 
 8
 00:00:07,585 --> 00:00:08,520
@@ -52,7 +52,7 @@ Plant a little seed.
 
 14
 00:00:12,357 --> 00:00:12,567
-[e@Plant a little seed.
+<font color="#ffff54">Plant a little seed.</font>
 
 15
 00:00:12,568 --> 00:00:13,451
@@ -60,7 +60,7 @@ Pour a little water.
 
 16
 00:00:13,452 --> 00:00:13,932
-[s@Pour a little water.
+<font color="#ffff54">Pour a little water.</font>
 
 17
 00:00:13,933 --> 00:00:14,319
@@ -84,7 +84,7 @@ Pour a little water.
 
 22
 00:00:18,231 --> 00:00:18,465
-[e@Pour a little water.
+<font color="#ffff54">Pour a little water.</font>
 
 23
 00:00:18,466 --> 00:00:19,570
@@ -112,7 +112,7 @@ Pull a little weed.
 
 29
 00:00:24,453 --> 00:00:24,655
-[e@Pull a little weed.
+<font color="#ffff54">Pull a little weed.</font>
 
 30
 00:00:24,656 --> 00:00:26,370
@@ -120,7 +120,7 @@ Chase a little bug.
 
 31
 00:00:26,371 --> 00:00:26,899
-[s@Chase a little bug.
+<font color="#ffff54">Chase a little bug.</font>
 
 32
 00:00:26,900 --> 00:00:27,298
@@ -144,7 +144,7 @@ Chase a little bug.
 
 37
 00:00:31,736 --> 00:00:31,966
-[e@Chase a little bug.
+<font color="#ffff54">Chase a little bug.</font>
 
 38
 00:00:31,967 --> 00:00:32,856
@@ -152,7 +152,7 @@ Heigh-ho, there he goes.
 
 39
 00:00:32,857 --> 00:00:33,525
-[s@Heigh-ho, there he goes.
+<font color="#ffff54">Heigh-ho, there he goes.</font>
 
 40
 00:00:33,526 --> 00:00:34,794
@@ -176,7 +176,7 @@ Heigh-ho, there he goes.
 
 45
 00:00:39,367 --> 00:00:39,581
-[e@Heigh-ho, there he goes.
+<font color="#ffff54">Heigh-ho, there he goes.</font>
 
 46
 00:00:39,582 --> 00:00:40,525
@@ -184,7 +184,7 @@ Give a little sunshine.
 
 47
 00:00:40,526 --> 00:00:40,940
-[s@Give a little sunshine.
+<font color="#ffff54">Give a little sunshine.</font>
 
 48
 00:00:40,941 --> 00:00:41,191
@@ -208,7 +208,7 @@ Give a little sunshine.
 
 53
 00:00:46,421 --> 00:00:46,625
-[e@Give a little sunshine.
+<font color="#ffff54">Give a little sunshine.</font>
 
 54
 00:00:46,626 --> 00:00:47,835

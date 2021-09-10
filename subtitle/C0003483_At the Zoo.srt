@@ -20,7 +20,7 @@ We go here.
 
 6
 00:00:09,666 --> 00:00:09,816
-[e@We go here.
+<font color="#ffff54">We go here.</font>
 
 7
 00:00:09,817 --> 00:00:11,962
@@ -28,7 +28,7 @@ We go there.
 
 8
 00:00:11,963 --> 00:00:12,524
-[s@We go there.
+<font color="#ffff54">We go there.</font>
 
 9
 00:00:12,525 --> 00:00:12,803
@@ -48,7 +48,7 @@ We go there.
 
 13
 00:00:14,139 --> 00:00:14,283
-[e@We go there.
+<font color="#ffff54">We go there.</font>
 
 14
 00:00:14,284 --> 00:00:15,839
@@ -56,7 +56,7 @@ Animals are everywhere.
 
 15
 00:00:15,840 --> 00:00:16,197
-[s@Animals are everywhere.
+<font color="#ffff54">Animals are everywhere.</font>
 
 16
 00:00:16,198 --> 00:00:16,805
@@ -76,7 +76,7 @@ Animals are everywhere.
 
 20
 00:00:19,243 --> 00:00:19,482
-[e@Animals are everywhere.
+<font color="#ffff54">Animals are everywhere.</font>
 
 21
 00:00:19,483 --> 00:00:24,249
@@ -84,7 +84,7 @@ We look at this.
 
 22
 00:00:24,250 --> 00:00:24,621
-[s@We look at this.
+<font color="#ffff54">We look at this.</font>
 
 23
 00:00:24,622 --> 00:00:24,853
@@ -108,7 +108,7 @@ We look at this.
 
 28
 00:00:26,715 --> 00:00:26,942
-[e@We look at this.
+<font color="#ffff54">We look at this.</font>
 
 29
 00:00:26,943 --> 00:00:30,016
@@ -116,7 +116,7 @@ We look at that.
 
 30
 00:00:30,017 --> 00:00:30,515
-[s@We look at that.
+<font color="#ffff54">We look at that.</font>
 
 31
 00:00:30,516 --> 00:00:30,734
@@ -140,7 +140,7 @@ We look at that.
 
 36
 00:00:32,295 --> 00:00:32,496
-[e@We look at that.
+<font color="#ffff54">We look at that.</font>
 
 37
 00:00:32,497 --> 00:00:35,570
@@ -148,7 +148,7 @@ There is so much to look at!
 
 38
 00:00:35,571 --> 00:00:36,068
-[s@There is so much to look at!
+<font color="#ffff54">There is so much to look at!</font>
 
 39
 00:00:36,069 --> 00:00:36,304
@@ -184,7 +184,7 @@ There is so much to look at!
 
 47
 00:00:39,749 --> 00:00:40,013
-[e@There is so much to look at!
+<font color="#ffff54">There is so much to look at!</font>
 
 48
 00:00:40,014 --> 00:00:43,616
@@ -192,7 +192,7 @@ We hear these.
 
 49
 00:00:43,617 --> 00:00:44,172
-[s@We hear these.
+<font color="#ffff54">We hear these.</font>
 
 50
 00:00:44,173 --> 00:00:44,416
@@ -212,7 +212,7 @@ We hear these.
 
 54
 00:00:46,097 --> 00:00:46,276
-[e@We hear these.
+<font color="#ffff54">We hear these.</font>
 
 55
 00:00:46,277 --> 00:00:51,991
@@ -220,7 +220,7 @@ We hear those.
 
 56
 00:00:51,992 --> 00:00:52,514
-[s@We hear those.
+<font color="#ffff54">We hear those.</font>
 
 57
 00:00:52,515 --> 00:00:52,742
@@ -240,7 +240,7 @@ We hear those.
 
 61
 00:00:54,422 --> 00:00:54,613
-[e@We hear those.
+<font color="#ffff54">We hear those.</font>
 
 62
 00:00:54,614 --> 00:00:59,594
@@ -248,7 +248,7 @@ Those must be the hippos!
 
 63
 00:00:59,595 --> 00:01:00,084
-[s@Those must be the hippos!
+<font color="#ffff54">Those must be the hippos!</font>
 
 64
 00:01:00,085 --> 00:01:00,789

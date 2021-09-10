@@ -44,7 +44,7 @@ The eye is missing.
 
 12
 00:00:14,315 --> 00:00:14,565
-[e@The eye is missing.
+<font color="#ffff54">The eye is missing.</font>
 
 13
 00:00:14,566 --> 00:00:15,552
@@ -92,7 +92,7 @@ The door is missing.
 
 24
 00:00:22,633 --> 00:00:22,870
-[e@The door is missing.
+<font color="#ffff54">The door is missing.</font>
 
 25
 00:00:22,871 --> 00:00:23,992
@@ -100,7 +100,7 @@ What is missing?
 
 26
 00:00:23,993 --> 00:00:24,420
-[s@What is missing?
+<font color="#ffff54">What is missing?</font>
 
 27
 00:00:24,421 --> 00:00:24,656
@@ -144,7 +144,7 @@ The handle is missing.
 
 37
 00:00:31,590 --> 00:00:31,874
-[e@The handle is missing.
+<font color="#ffff54">The handle is missing.</font>
 
 38
 00:00:31,875 --> 00:00:33,139
@@ -192,7 +192,7 @@ The button is missing.
 
 49
 00:00:40,529 --> 00:00:40,744
-[e@The button is missing.
+<font color="#ffff54">The button is missing.</font>
 
 50
 00:00:40,745 --> 00:00:42,005
@@ -240,7 +240,7 @@ The lid is missing.
 
 61
 00:00:49,267 --> 00:00:49,485
-[e@The lid is missing.
+<font color="#ffff54">The lid is missing.</font>
 
 62
 00:00:49,486 --> 00:00:50,775
@@ -288,7 +288,7 @@ The mouse is missing.
 
 73
 00:00:58,053 --> 00:00:58,277
-[e@The mouse is missing.
+<font color="#ffff54">The mouse is missing.</font>
 
 74
 00:00:58,278 --> 00:00:59,856
@@ -336,7 +336,7 @@ The wheel is missing.
 
 85
 00:01:07,138 --> 00:01:07,375
-[e@The wheel is missing.
+<font color="#ffff54">The wheel is missing.</font>
 
 86
 00:01:07,376 --> 00:01:08,195
@@ -344,7 +344,7 @@ What is missing?
 
 87
 00:01:08,196 --> 00:01:08,929
-[s@What is missing?
+<font color="#ffff54">What is missing?</font>
 
 88
 00:01:08,930 --> 00:01:09,268

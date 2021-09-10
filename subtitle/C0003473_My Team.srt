@@ -4,7 +4,7 @@ She is first.
 
 2
 00:00:07,734 --> 00:00:08,084
-[s@She is first.
+<font color="#ffff54">She is first.</font>
 
 3
 00:00:08,085 --> 00:00:08,555
@@ -24,7 +24,7 @@ She is first.
 
 7
 00:00:15,768 --> 00:00:15,941
-[e@She is first.
+<font color="#ffff54">She is first.</font>
 
 8
 00:00:15,942 --> 00:00:17,668
@@ -32,7 +32,7 @@ He is second.
 
 9
 00:00:17,669 --> 00:00:18,710
-[s@He is second.
+<font color="#ffff54">He is second.</font>
 
 10
 00:00:18,711 --> 00:00:19,037
@@ -52,7 +52,7 @@ He is second.
 
 14
 00:00:26,017 --> 00:00:26,280
-[e@He is second.
+<font color="#ffff54">He is second.</font>
 
 15
 00:00:26,281 --> 00:00:27,903
@@ -60,7 +60,7 @@ She is third.
 
 16
 00:00:27,904 --> 00:00:28,776
-[s@She is third.
+<font color="#ffff54">She is third.</font>
 
 17
 00:00:28,777 --> 00:00:29,224
@@ -80,7 +80,7 @@ She is third.
 
 21
 00:00:34,963 --> 00:00:35,207
-[e@She is third.
+<font color="#ffff54">She is third.</font>
 
 22
 00:00:35,208 --> 00:00:36,870
@@ -88,7 +88,7 @@ He is fourth.
 
 23
 00:00:36,871 --> 00:00:37,868
-[s@He is fourth.
+<font color="#ffff54">He is fourth.</font>
 
 24
 00:00:37,869 --> 00:00:38,208
@@ -108,7 +108,7 @@ He is fourth.
 
 28
 00:00:47,805 --> 00:00:48,019
-[e@He is fourth.
+<font color="#ffff54">He is fourth.</font>
 
 29
 00:00:48,020 --> 00:00:49,590
@@ -116,7 +116,7 @@ He is fifth.
 
 30
 00:00:49,591 --> 00:00:50,746
-[s@He is fifth.
+<font color="#ffff54">He is fifth.</font>
 
 31
 00:00:50,747 --> 00:00:51,059
@@ -136,7 +136,7 @@ He is fifth.
 
 35
 00:00:57,428 --> 00:00:57,678
-[e@He is fifth.
+<font color="#ffff54">He is fifth.</font>
 
 36
 00:00:57,679 --> 00:00:59,234
@@ -144,7 +144,7 @@ She is sixth.
 
 37
 00:00:59,235 --> 00:01:00,080
-[s@She is sixth.
+<font color="#ffff54">She is sixth.</font>
 
 38
 00:01:00,081 --> 00:01:00,662
@@ -164,7 +164,7 @@ She is sixth.
 
 42
 00:01:06,166 --> 00:01:06,406
-[e@She is sixth.
+<font color="#ffff54">She is sixth.</font>
 
 43
 00:01:06,407 --> 00:01:08,018
@@ -172,7 +172,7 @@ He is seventh.
 
 44
 00:01:08,019 --> 00:01:08,832
-[s@He is seventh.
+<font color="#ffff54">He is seventh.</font>
 
 45
 00:01:08,833 --> 00:01:09,243
@@ -192,7 +192,7 @@ He is seventh.
 
 49
 00:01:13,812 --> 00:01:14,085
-[e@He is seventh.
+<font color="#ffff54">He is seventh.</font>
 
 50
 00:01:14,086 --> 00:01:15,669
@@ -200,7 +200,7 @@ She is eighth.
 
 51
 00:01:15,670 --> 00:01:16,726
-[s@She is eighth.
+<font color="#ffff54">She is eighth.</font>
 
 52
 00:01:16,727 --> 00:01:17,176
@@ -220,7 +220,7 @@ She is eighth.
 
 56
 00:01:21,291 --> 00:01:21,686
-[e@She is eighth.
+<font color="#ffff54">She is eighth.</font>
 
 57
 00:01:21,687 --> 00:01:23,220
@@ -228,7 +228,7 @@ She is ninth.
 
 58
 00:01:23,221 --> 00:01:24,033
-[s@She is ninth.
+<font color="#ffff54">She is ninth.</font>
 
 59
 00:01:24,034 --> 00:01:24,530
@@ -248,7 +248,7 @@ She is ninth.
 
 63
 00:01:28,524 --> 00:01:28,800
-[e@She is ninth.
+<font color="#ffff54">She is ninth.</font>
 
 64
 00:01:28,801 --> 00:01:30,437
@@ -256,7 +256,7 @@ I am tenth.
 
 65
 00:01:30,438 --> 00:01:31,247
-[s@I am tenth.
+<font color="#ffff54">I am tenth.</font>
 
 66
 00:01:31,248 --> 00:01:31,775
@@ -276,7 +276,7 @@ I am tenth.
 
 70
 00:01:36,649 --> 00:01:36,873
-[e@I am tenth.
+<font color="#ffff54">I am tenth.</font>
 
 71
 00:01:36,874 --> 00:01:38,877
@@ -284,7 +284,7 @@ My team is great!
 
 72
 00:01:38,878 --> 00:01:39,411
-[s@My team is great!
+<font color="#ffff54">My team is great!</font>
 
 73
 00:01:39,412 --> 00:01:39,975

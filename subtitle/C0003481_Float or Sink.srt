@@ -24,7 +24,7 @@ The toy duck floats.
 
 7
 00:00:13,416 --> 00:00:13,757
-[e@The toy duck floats.
+<font color="#ffff54">The toy duck floats.</font>
 
 8
 00:00:13,758 --> 00:00:15,263
@@ -32,7 +32,7 @@ My shoe sinks.
 
 9
 00:00:15,264 --> 00:00:16,676
-[s@My shoe sinks.
+<font color="#ffff54">My shoe sinks.</font>
 
 10
 00:00:16,677 --> 00:00:16,997
@@ -52,7 +52,7 @@ My shoe sinks.
 
 14
 00:00:22,372 --> 00:00:23,098
-[e@My shoe sinks.
+<font color="#ffff54">My shoe sinks.</font>
 
 15
 00:00:23,099 --> 00:00:26,478
@@ -60,7 +60,7 @@ The ball floats.
 
 16
 00:00:26,479 --> 00:00:27,133
-[s@The ball floats.
+<font color="#ffff54">The ball floats.</font>
 
 17
 00:00:27,134 --> 00:00:27,513
@@ -80,7 +80,7 @@ The ball floats.
 
 21
 00:00:30,612 --> 00:00:31,038
-[e@The ball floats.
+<font color="#ffff54">The ball floats.</font>
 
 22
 00:00:31,039 --> 00:00:35,948
@@ -88,7 +88,7 @@ My towel sinks.
 
 23
 00:00:35,949 --> 00:00:36,745
-[s@My towel sinks.
+<font color="#ffff54">My towel sinks.</font>
 
 24
 00:00:36,746 --> 00:00:37,074
@@ -108,7 +108,7 @@ My towel sinks.
 
 28
 00:00:42,196 --> 00:00:43,022
-[e@My towel sinks.
+<font color="#ffff54">My towel sinks.</font>
 
 29
 00:00:43,023 --> 00:00:46,437
@@ -116,7 +116,7 @@ The cup floats.
 
 30
 00:00:46,438 --> 00:00:46,977
-[s@The cup floats.
+<font color="#ffff54">The cup floats.</font>
 
 31
 00:00:46,978 --> 00:00:47,316
@@ -136,7 +136,7 @@ The cup floats.
 
 35
 00:00:50,309 --> 00:00:50,656
-[e@The cup floats.
+<font color="#ffff54">The cup floats.</font>
 
 36
 00:00:50,657 --> 00:00:51,965
@@ -144,7 +144,7 @@ My spoon sinks.
 
 37
 00:00:51,966 --> 00:00:52,946
-[s@My spoon sinks.
+<font color="#ffff54">My spoon sinks.</font>
 
 38
 00:00:52,947 --> 00:00:53,251
@@ -164,7 +164,7 @@ My spoon sinks.
 
 42
 00:00:58,124 --> 00:00:58,417
-[e@My spoon sinks.
+<font color="#ffff54">My spoon sinks.</font>
 
 43
 00:00:58,418 --> 00:01:00,379
@@ -172,7 +172,7 @@ Uh-oh, here comes Mama!
 
 44
 00:01:00,380 --> 00:01:00,656
-[s@Uh-oh, here comes Mama!
+<font color="#ffff54">Uh-oh, here comes Mama!</font>
 
 45
 00:01:00,657 --> 00:01:02,024
@@ -196,7 +196,7 @@ Uh-oh, here comes Mama!
 
 50
 00:01:04,669 --> 00:01:04,933
-[e@Uh-oh, here comes Mama!
+<font color="#ffff54">Uh-oh, here comes Mama!</font>
 
 51
 00:01:04,934 --> 00:01:05,527
