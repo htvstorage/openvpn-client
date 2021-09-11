@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>323</EndMilliseconds>
+    <Text>It's a sunny day.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>324</StartMilliseconds>
+    <EndMilliseconds>691</EndMilliseconds>
+    <Text>[@It's@] a sunny day.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>692</StartMilliseconds>
+    <EndMilliseconds>893</EndMilliseconds>
+    <Text>It's [@a@] sunny day.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>894</StartMilliseconds>
+    <EndMilliseconds>1408</EndMilliseconds>
+    <Text>It's a [@sunny@] day.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>1409</StartMilliseconds>
+    <EndMilliseconds>2124</EndMilliseconds>
+    <Text>It's a sunny [@day@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>2125</StartMilliseconds>
+    <EndMilliseconds>2636</EndMilliseconds>
+    <Text>It's a sunny day.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>2637</StartMilliseconds>
+    <EndMilliseconds>2871</EndMilliseconds>
+    <Text>[e@It's a sunny day.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>2872</StartMilliseconds>
+    <EndMilliseconds>3574</EndMilliseconds>
+    <Text>Don't play inside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>3575</StartMilliseconds>
+    <EndMilliseconds>3933</EndMilliseconds>
+    <Text>[@Don't@] play inside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>3934</StartMilliseconds>
+    <EndMilliseconds>4252</EndMilliseconds>
+    <Text>Don't [@play@] inside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>4253</StartMilliseconds>
+    <EndMilliseconds>5258</EndMilliseconds>
+    <Text>Don't play [@inside@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>5259</StartMilliseconds>
+    <EndMilliseconds>7983</EndMilliseconds>
+    <Text>Don't play inside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>7984</StartMilliseconds>
+    <EndMilliseconds>8220</EndMilliseconds>
+    <Text>[e@Don't play inside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>8221</StartMilliseconds>
+    <EndMilliseconds>9106</EndMilliseconds>
+    <Text>Play outside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>9107</StartMilliseconds>
+    <EndMilliseconds>9453</EndMilliseconds>
+    <Text>[@Play@] outside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>9454</StartMilliseconds>
+    <EndMilliseconds>10711</EndMilliseconds>
+    <Text>Play [@outside@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>10712</StartMilliseconds>
+    <EndMilliseconds>15013</EndMilliseconds>
+    <Text>Play outside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>15014</StartMilliseconds>
+    <EndMilliseconds>15289</EndMilliseconds>
+    <Text>[e@Play outside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>15290</StartMilliseconds>
+    <EndMilliseconds>18881</EndMilliseconds>
+    <Text>It's her bike.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>18882</StartMilliseconds>
+    <EndMilliseconds>19211</EndMilliseconds>
+    <Text>[s@It's her bike.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>19212</StartMilliseconds>
+    <EndMilliseconds>19576</EndMilliseconds>
+    <Text>[@It's@] her bike.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>19577</StartMilliseconds>
+    <EndMilliseconds>19957</EndMilliseconds>
+    <Text>It's [@her@] bike.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>19958</StartMilliseconds>
+    <EndMilliseconds>20538</EndMilliseconds>
+    <Text>It's her [@bike@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>20539</StartMilliseconds>
+    <EndMilliseconds>20722</EndMilliseconds>
+    <Text>It's her bike.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>20723</StartMilliseconds>
+    <EndMilliseconds>20951</EndMilliseconds>
+    <Text>Don't be mean!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>20952</StartMilliseconds>
+    <EndMilliseconds>21310</EndMilliseconds>
+    <Text>[@Don't@] be mean!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>21311</StartMilliseconds>
+    <EndMilliseconds>21644</EndMilliseconds>
+    <Text>Don't [@be@] mean!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>21645</StartMilliseconds>
+    <EndMilliseconds>22492</EndMilliseconds>
+    <Text>Don't be [@mean@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>22493</StartMilliseconds>
+    <EndMilliseconds>26858</EndMilliseconds>
+    <Text>Don't be mean!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>26859</StartMilliseconds>
+    <EndMilliseconds>28174</EndMilliseconds>
+    <Text>[e@Don't be mean!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>28175</StartMilliseconds>
+    <EndMilliseconds>29721</EndMilliseconds>
+    <Text>Be nice!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>29722</StartMilliseconds>
+    <EndMilliseconds>30271</EndMilliseconds>
+    <Text>[s@Be nice!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>30272</StartMilliseconds>
+    <EndMilliseconds>30530</EndMilliseconds>
+    <Text>[@Be@] nice!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>30531</StartMilliseconds>
+    <EndMilliseconds>31694</EndMilliseconds>
+    <Text>Be [@nice@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>31695</StartMilliseconds>
+    <EndMilliseconds>32206</EndMilliseconds>
+    <Text>Be nice!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>32207</StartMilliseconds>
+    <EndMilliseconds>32415</EndMilliseconds>
+    <Text>[e@Be nice!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>32416</StartMilliseconds>
+    <EndMilliseconds>34430</EndMilliseconds>
+    <Text>It's an accident.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>34431</StartMilliseconds>
+    <EndMilliseconds>34897</EndMilliseconds>
+    <Text>[s@It's an accident.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>34898</StartMilliseconds>
+    <EndMilliseconds>35218</EndMilliseconds>
+    <Text>[@It's@] an accident.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>35219</StartMilliseconds>
+    <EndMilliseconds>35383</EndMilliseconds>
+    <Text>It's [@an@] accident.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>35384</StartMilliseconds>
+    <EndMilliseconds>36198</EndMilliseconds>
+    <Text>It's an [@accident@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>36199</StartMilliseconds>
+    <EndMilliseconds>36335</EndMilliseconds>
+    <Text>It's an accident.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>36336</StartMilliseconds>
+    <EndMilliseconds>36522</EndMilliseconds>
+    <Text>Don't fight!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>36523</StartMilliseconds>
+    <EndMilliseconds>36872</EndMilliseconds>
+    <Text>[@Don't@] fight!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>36873</StartMilliseconds>
+    <EndMilliseconds>37818</EndMilliseconds>
+    <Text>Don't [@fight@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>37819</StartMilliseconds>
+    <EndMilliseconds>38329</EndMilliseconds>
+    <Text>Don't fight!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>38330</StartMilliseconds>
+    <EndMilliseconds>39329</EndMilliseconds>
+    <Text>Be friends!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>39330</StartMilliseconds>
+    <EndMilliseconds>39612</EndMilliseconds>
+    <Text>[@Be@] friends!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>39613</StartMilliseconds>
+    <EndMilliseconds>40833</EndMilliseconds>
+    <Text>Be [@friends@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>40834</StartMilliseconds>
+    <EndMilliseconds>44574</EndMilliseconds>
+    <Text>Be friends!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>44575</StartMilliseconds>
+    <EndMilliseconds>46086</EndMilliseconds>
+    <Text>[e@Be friends!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>46087</StartMilliseconds>
+    <EndMilliseconds>48000</EndMilliseconds>
+    <Text>Surprise!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>48001</StartMilliseconds>
+    <EndMilliseconds>48461</EndMilliseconds>
+    <Text>[s@Surprise!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>48462</StartMilliseconds>
+    <EndMilliseconds>50117</EndMilliseconds>
+    <Text>[@Surprise@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>50118</StartMilliseconds>
+    <EndMilliseconds>50287</EndMilliseconds>
+    <Text>Surprise!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>50288</StartMilliseconds>
+    <EndMilliseconds>52120</EndMilliseconds>
+    <Text>It's your birthday!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>52121</StartMilliseconds>
+    <EndMilliseconds>52517</EndMilliseconds>
+    <Text>[s@It's your birthday!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>52518</StartMilliseconds>
+    <EndMilliseconds>52854</EndMilliseconds>
+    <Text>[@It's@] your birthday!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>52855</StartMilliseconds>
+    <EndMilliseconds>53169</EndMilliseconds>
+    <Text>It's [@your@] birthday!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>53170</StartMilliseconds>
+    <EndMilliseconds>54291</EndMilliseconds>
+    <Text>It's your [@birthday@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>54292</StartMilliseconds>
+    <EndMilliseconds>54953</EndMilliseconds>
+    <Text>It's your birthday!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>54954</StartMilliseconds>
+    <EndMilliseconds>55319</EndMilliseconds>
+    <Text>Don't be sad!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>55320</StartMilliseconds>
+    <EndMilliseconds>55668</EndMilliseconds>
+    <Text>[@Don't@] be sad!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>55669</StartMilliseconds>
+    <EndMilliseconds>55884</EndMilliseconds>
+    <Text>Don't [@be@] sad!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>55885</StartMilliseconds>
+    <EndMilliseconds>56784</EndMilliseconds>
+    <Text>Don't be [@sad@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>56785</StartMilliseconds>
+    <EndMilliseconds>57007</EndMilliseconds>
+    <Text>Don't be sad!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>57008</StartMilliseconds>
+    <EndMilliseconds>58000</EndMilliseconds>
+    <Text>Be happy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>58001</StartMilliseconds>
+    <EndMilliseconds>58409</EndMilliseconds>
+    <Text>[@Be@] happy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>58410</StartMilliseconds>
+    <EndMilliseconds>59372</EndMilliseconds>
+    <Text>Be [@happy@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>59373</StartMilliseconds>
+    <EndMilliseconds>63857</EndMilliseconds>
+    <Text>Be happy!</Text>
+  </Paragraph>
+</Subtitle>

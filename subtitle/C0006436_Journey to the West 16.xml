@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>4684</EndMilliseconds>
+    <Text>Wukong looked at the Dragon King and sighed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>4685</StartMilliseconds>
+    <EndMilliseconds>7240</EndMilliseconds>
+    <Text>[g@"You're right," said the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>7241</StartMilliseconds>
+    <EndMilliseconds>9994</EndMilliseconds>
+    <Text>"I did make a promise to Guanyin."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>9995</StartMilliseconds>
+    <EndMilliseconds>13820</EndMilliseconds>
+    <Text>He put down his teacup and stood up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>13821</StartMilliseconds>
+    <EndMilliseconds>15255</EndMilliseconds>
+    <Text>[g@"Thank you, my friend.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>15256</StartMilliseconds>
+    <EndMilliseconds>17535</EndMilliseconds>
+    <Text>I will visit again soon."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>17536</StartMilliseconds>
+    <EndMilliseconds>19666</EndMilliseconds>
+    <Text>[g@The Dragon King smiled.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>19667</StartMilliseconds>
+    <EndMilliseconds>21840</EndMilliseconds>
+    <Text>"Good luck, Wukong."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>21841</StartMilliseconds>
+    <EndMilliseconds>29240</EndMilliseconds>
+    <Text>The monkey hurried out of the Dragon King's palace.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>29241</StartMilliseconds>
+    <EndMilliseconds>33375</EndMilliseconds>
+    <Text>He found the Tang Monk traveling alongside a stream.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>33376</StartMilliseconds>
+    <EndMilliseconds>39135</EndMilliseconds>
+    <Text>"Master, I have returned," he called.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>39136</StartMilliseconds>
+    <EndMilliseconds>45293</EndMilliseconds>
+    <Text>"I'm glad you're back, Wukong," said the monk. "I'm hungry."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>45294</StartMilliseconds>
+    <EndMilliseconds>49758</EndMilliseconds>
+    <Text>"I'll find a village and beg for some food for you," said the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>49759</StartMilliseconds>
+    <EndMilliseconds>52717</EndMilliseconds>
+    <Text>"You don't need to do that," said the monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>52718</StartMilliseconds>
+    <EndMilliseconds>54187</EndMilliseconds>
+    <Text>[g@"There's rice in the bag.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>54188</StartMilliseconds>
+    <EndMilliseconds>55949</EndMilliseconds>
+    <Text>You can cook that."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>55950</StartMilliseconds>
+    <EndMilliseconds>62078</EndMilliseconds>
+    <Text>[g@The monk got down from the horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>62079</StartMilliseconds>
+    <EndMilliseconds>64691</EndMilliseconds>
+    <Text>Wukong opened the bag.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>64692</StartMilliseconds>
+    <EndMilliseconds>68602</EndMilliseconds>
+    <Text>[g@When he looked inside, his eyes opened wide.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>68603</StartMilliseconds>
+    <EndMilliseconds>72149</EndMilliseconds>
+    <Text>He pulled out the headband.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>72150</StartMilliseconds>
+    <EndMilliseconds>76031</EndMilliseconds>
+    <Text>"This headband is marvelous!" said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>76032</StartMilliseconds>
+    <EndMilliseconds>79636</EndMilliseconds>
+    <Text>[g@"Oh," said the monk, watching the monkey closely.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>79637</StartMilliseconds>
+    <EndMilliseconds>81134</EndMilliseconds>
+    <Text>"Do you like it?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>81135</StartMilliseconds>
+    <EndMilliseconds>83679</EndMilliseconds>
+    <Text>"Yes!" said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>83680</StartMilliseconds>
+    <EndMilliseconds>86467</EndMilliseconds>
+    <Text>"Try it on," said the monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>86468</StartMilliseconds>
+    <EndMilliseconds>89222</EndMilliseconds>
+    <Text>"Really?" asked Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>89223</StartMilliseconds>
+    <EndMilliseconds>91492</EndMilliseconds>
+    <Text>The monk nodded.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>91493</StartMilliseconds>
+    <EndMilliseconds>98086</EndMilliseconds>
+    <Text>[g@Wukong put the headband on.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>98087</StartMilliseconds>
+    <EndMilliseconds>101432</EndMilliseconds>
+    <Text>He looked at his reflection in the stream.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>101433</StartMilliseconds>
+    <EndMilliseconds>106765</EndMilliseconds>
+    <Text>"I look handsome!" said Wukong. "Thanks for—ahh!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>106766</StartMilliseconds>
+    <EndMilliseconds>110553</EndMilliseconds>
+    <Text>The monkey grabbed the sides of his head and fell over.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>110554</StartMilliseconds>
+    <EndMilliseconds>112402</EndMilliseconds>
+    <Text>[g@His eyes bulged.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>112403</StartMilliseconds>
+    <EndMilliseconds>117529</EndMilliseconds>
+    <Text>"My head's going to explode!" he cried.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>117530</StartMilliseconds>
+    <EndMilliseconds>121207</EndMilliseconds>
+    <Text>He saw the Tang Monk talking quietly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>121208</StartMilliseconds>
+    <EndMilliseconds>125421</EndMilliseconds>
+    <Text>"Wh . . . What are you saying?" cried Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>125422</StartMilliseconds>
+    <EndMilliseconds>129617</EndMilliseconds>
+    <Text>The Tang Monk stopped talking, and the pain stopped.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>129618</StartMilliseconds>
+    <EndMilliseconds>133522</EndMilliseconds>
+    <Text>"The bodhisattva Guanyin taught me a spell," said the monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>133523</StartMilliseconds>
+    <EndMilliseconds>136976</EndMilliseconds>
+    <Text>"She gave me the headband to force you to be good."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>136977</StartMilliseconds>
+    <EndMilliseconds>139230</EndMilliseconds>
+    <Text>[g@Wukong pulled at the headband.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>139231</StartMilliseconds>
+    <EndMilliseconds>141341</EndMilliseconds>
+    <Text>But it wouldn't come off.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>141342</StartMilliseconds>
+    <EndMilliseconds>144159</EndMilliseconds>
+    <Text>[g@"It's stuck!" cried the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>144160</StartMilliseconds>
+    <EndMilliseconds>146051</EndMilliseconds>
+    <Text>He stamped his foot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>146052</StartMilliseconds>
+    <EndMilliseconds>148265</EndMilliseconds>
+    <Text>"You tricked me!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>148266</StartMilliseconds>
+    <EndMilliseconds>150951</EndMilliseconds>
+    <Text>[g@"It's for your own good," said the monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>150952</StartMilliseconds>
+    <EndMilliseconds>153777</EndMilliseconds>
+    <Text>"You must stop being violent."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>153778</StartMilliseconds>
+    <EndMilliseconds>160986</EndMilliseconds>
+    <Text>Wukong pulled out his iron bar and lunged at the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>160987</StartMilliseconds>
+    <EndMilliseconds>165032</EndMilliseconds>
+    <Text>The monk recited the Tight Headband spell again.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>165033</StartMilliseconds>
+    <EndMilliseconds>170649</EndMilliseconds>
+    <Text>Wukong fell to the ground and rolled around in pain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>170650</StartMilliseconds>
+    <EndMilliseconds>174794</EndMilliseconds>
+    <Text>"It hurts! It hurts!" he cried.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>174795</StartMilliseconds>
+    <EndMilliseconds>178981</EndMilliseconds>
+    <Text>"Please stop! I won't try to hurt you again!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>178982</StartMilliseconds>
+    <EndMilliseconds>184263</EndMilliseconds>
+    <Text>The Tang Monk stopped, and the monkey stood up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>184264</StartMilliseconds>
+    <EndMilliseconds>187981</EndMilliseconds>
+    <Text>"Now will you cook some rice?" asked the monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>187982</StartMilliseconds>
+    <EndMilliseconds>191336</EndMilliseconds>
+    <Text>"I'll get a fire started," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>191337</StartMilliseconds>
+    <EndMilliseconds>195298</EndMilliseconds>
+    <Text>The monkey waited until the Tang Monk had turned his back.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>195299</StartMilliseconds>
+    <EndMilliseconds>198503</EndMilliseconds>
+    <Text>Again he raised the iron bar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>198504</StartMilliseconds>
+    <EndMilliseconds>202452</EndMilliseconds>
+    <Text>But the Tang Monk saw Wukong's shadow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>202453</StartMilliseconds>
+    <EndMilliseconds>207185</EndMilliseconds>
+    <Text>"Ahh!" cried Wukong, once again falling to the ground.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>207186</StartMilliseconds>
+    <EndMilliseconds>211106</EndMilliseconds>
+    <Text>The Tang Monk looked furious as he recited the spell.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>211107</StartMilliseconds>
+    <EndMilliseconds>213701</EndMilliseconds>
+    <Text>Wukong's head pounded.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>213702</StartMilliseconds>
+    <EndMilliseconds>217054</EndMilliseconds>
+    <Text>"Please stop!" cried the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>217055</StartMilliseconds>
+    <EndMilliseconds>220263</EndMilliseconds>
+    <Text>The Tang Monk stopped reciting the spell.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>220264</StartMilliseconds>
+    <EndMilliseconds>223121</EndMilliseconds>
+    <Text>"Don't try to hit me again," said the monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>223122</StartMilliseconds>
+    <EndMilliseconds>227775</EndMilliseconds>
+    <Text>"If you do, I'll recite the spell until your head really does explode."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>227776</StartMilliseconds>
+    <EndMilliseconds>230607</EndMilliseconds>
+    <Text>[g@"I'm sorry, Master," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>230608</StartMilliseconds>
+    <EndMilliseconds>234424</EndMilliseconds>
+    <Text>"I'll be good!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>234425</StartMilliseconds>
+    <EndMilliseconds>238376</EndMilliseconds>
+    <Text>[g@The two traveled for a few more weeks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>238377</StartMilliseconds>
+    <EndMilliseconds>241252</EndMilliseconds>
+    <Text>They arrived at a wide river.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>241253</StartMilliseconds>
+    <EndMilliseconds>244569</EndMilliseconds>
+    <Text>"How will we cross this river?" asked the monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>244570</StartMilliseconds>
+    <EndMilliseconds>248292</EndMilliseconds>
+    <Text>"It's too bad you're not a spirit," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>248293</StartMilliseconds>
+    <EndMilliseconds>250124</EndMilliseconds>
+    <Text>[g@"I can leap over this river.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>250125</StartMilliseconds>
+    <EndMilliseconds>252309</EndMilliseconds>
+    <Text>But I can't take you with me."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>252310</StartMilliseconds>
+    <EndMilliseconds>255316</EndMilliseconds>
+    <Text>"Why not?" asked the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>255317</StartMilliseconds>
+    <EndMilliseconds>257926</EndMilliseconds>
+    <Text>"You're a human," said the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>257927</StartMilliseconds>
+    <EndMilliseconds>260920</EndMilliseconds>
+    <Text>"So you must make the journey all by yourself.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>260921</StartMilliseconds>
+    <EndMilliseconds>262551</EndMilliseconds>
+    <Text>[g@I can only protect you.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>262552</StartMilliseconds>
+    <EndMilliseconds>264172</EndMilliseconds>
+    <Text>I can't carry you."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>264173</StartMilliseconds>
+    <EndMilliseconds>267027</EndMilliseconds>
+    <Text>"What will we do then?" asked the monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>267028</StartMilliseconds>
+    <EndMilliseconds>276036</EndMilliseconds>
+    <Text>Before Wukong could answer, the water swelled and a dragon leaped from it.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>276037</StartMilliseconds>
+    <EndMilliseconds>279442</EndMilliseconds>
+    <Text>"Look out!" cried the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>279443</StartMilliseconds>
+    <EndMilliseconds>283831</EndMilliseconds>
+    <Text>He yanked the Tang Monk off the horse as the dragon struck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>283832</StartMilliseconds>
+    <EndMilliseconds>294871</EndMilliseconds>
+    <Text>With one bite, the dragon swallowed the horse [n@and then slipped back underwater.</Text>
+  </Paragraph>
+</Subtitle>

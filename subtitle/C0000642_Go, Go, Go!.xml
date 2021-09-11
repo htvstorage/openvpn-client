@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>1</StartMilliseconds>
+    <EndMilliseconds>6566</EndMilliseconds>
+    <Text>I will take my car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>6567</StartMilliseconds>
+    <EndMilliseconds>6846</EndMilliseconds>
+    <Text>[@I@] will take my car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>6847</StartMilliseconds>
+    <EndMilliseconds>7119</EndMilliseconds>
+    <Text>I [@will@] take my car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>7120</StartMilliseconds>
+    <EndMilliseconds>7468</EndMilliseconds>
+    <Text>I will [@take@] my car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>7469</StartMilliseconds>
+    <EndMilliseconds>7693</EndMilliseconds>
+    <Text>I will take [@my@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>7694</StartMilliseconds>
+    <EndMilliseconds>8550</EndMilliseconds>
+    <Text>I will take my [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>8551</StartMilliseconds>
+    <EndMilliseconds>13923</EndMilliseconds>
+    <Text>I will take my car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>13924</StartMilliseconds>
+    <EndMilliseconds>14366</EndMilliseconds>
+    <Text>[e@I will take my car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>14367</StartMilliseconds>
+    <EndMilliseconds>21203</EndMilliseconds>
+    <Text>I will take my bus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>21204</StartMilliseconds>
+    <EndMilliseconds>21724</EndMilliseconds>
+    <Text>[s@I will take my bus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>21725</StartMilliseconds>
+    <EndMilliseconds>22013</EndMilliseconds>
+    <Text>[@I@] will take my bus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>22014</StartMilliseconds>
+    <EndMilliseconds>22298</EndMilliseconds>
+    <Text>I [@will@] take my bus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>22299</StartMilliseconds>
+    <EndMilliseconds>22608</EndMilliseconds>
+    <Text>I will [@take@] my bus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>22609</StartMilliseconds>
+    <EndMilliseconds>22882</EndMilliseconds>
+    <Text>I will take [@my@] bus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>22883</StartMilliseconds>
+    <EndMilliseconds>23685</EndMilliseconds>
+    <Text>I will take my [@bus@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>23686</StartMilliseconds>
+    <EndMilliseconds>32183</EndMilliseconds>
+    <Text>I will take my bus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>32184</StartMilliseconds>
+    <EndMilliseconds>32480</EndMilliseconds>
+    <Text>[e@I will take my bus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>32481</StartMilliseconds>
+    <EndMilliseconds>38996</EndMilliseconds>
+    <Text>I will take my truck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>38997</StartMilliseconds>
+    <EndMilliseconds>39615</EndMilliseconds>
+    <Text>[s@I will take my truck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>39616</StartMilliseconds>
+    <EndMilliseconds>39930</EndMilliseconds>
+    <Text>[@I@] will take my truck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>39931</StartMilliseconds>
+    <EndMilliseconds>40126</EndMilliseconds>
+    <Text>I [@will@] take my truck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>40127</StartMilliseconds>
+    <EndMilliseconds>40411</EndMilliseconds>
+    <Text>I will [@take@] my truck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>40412</StartMilliseconds>
+    <EndMilliseconds>40656</EndMilliseconds>
+    <Text>I will take [@my@] truck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>40657</StartMilliseconds>
+    <EndMilliseconds>41497</EndMilliseconds>
+    <Text>I will take my [@truck@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>41498</StartMilliseconds>
+    <EndMilliseconds>49541</EndMilliseconds>
+    <Text>I will take my truck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>49542</StartMilliseconds>
+    <EndMilliseconds>49812</EndMilliseconds>
+    <Text>[e@I will take my truck.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>49813</StartMilliseconds>
+    <EndMilliseconds>56181</EndMilliseconds>
+    <Text>I will take my train.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>56182</StartMilliseconds>
+    <EndMilliseconds>56943</EndMilliseconds>
+    <Text>[s@I will take my train.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>56944</StartMilliseconds>
+    <EndMilliseconds>57228</EndMilliseconds>
+    <Text>[@I@] will take my train.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>57229</StartMilliseconds>
+    <EndMilliseconds>57489</EndMilliseconds>
+    <Text>I [@will@] take my train.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>57490</StartMilliseconds>
+    <EndMilliseconds>57756</EndMilliseconds>
+    <Text>I will [@take@] my train.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>57757</StartMilliseconds>
+    <EndMilliseconds>57955</EndMilliseconds>
+    <Text>I will take [@my@] train.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>57956</StartMilliseconds>
+    <EndMilliseconds>58659</EndMilliseconds>
+    <Text>I will take my [@train@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>58660</StartMilliseconds>
+    <EndMilliseconds>66289</EndMilliseconds>
+    <Text>I will take my train.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>66290</StartMilliseconds>
+    <EndMilliseconds>66581</EndMilliseconds>
+    <Text>[e@I will take my train.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>66582</StartMilliseconds>
+    <EndMilliseconds>73235</EndMilliseconds>
+    <Text>I will take my skateboard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>73236</StartMilliseconds>
+    <EndMilliseconds>73744</EndMilliseconds>
+    <Text>[s@I will take my skateboard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>73745</StartMilliseconds>
+    <EndMilliseconds>74022</EndMilliseconds>
+    <Text>[@I@] will take my skateboard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>74023</StartMilliseconds>
+    <EndMilliseconds>74274</EndMilliseconds>
+    <Text>I [@will@] take my skateboard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>74275</StartMilliseconds>
+    <EndMilliseconds>74508</EndMilliseconds>
+    <Text>I will [@take@] my skateboard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>74509</StartMilliseconds>
+    <EndMilliseconds>74739</EndMilliseconds>
+    <Text>I will take [@my@] skateboard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>74740</StartMilliseconds>
+    <EndMilliseconds>75960</EndMilliseconds>
+    <Text>I will take my [@skateboard@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>75961</StartMilliseconds>
+    <EndMilliseconds>81560</EndMilliseconds>
+    <Text>I will take my skateboard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>81561</StartMilliseconds>
+    <EndMilliseconds>81879</EndMilliseconds>
+    <Text>[e@I will take my skateboard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>81880</StartMilliseconds>
+    <EndMilliseconds>87149</EndMilliseconds>
+    <Text>I will take my motorcycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>87150</StartMilliseconds>
+    <EndMilliseconds>87729</EndMilliseconds>
+    <Text>[s@I will take my motorcycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>87730</StartMilliseconds>
+    <EndMilliseconds>88018</EndMilliseconds>
+    <Text>[@I@] will take my motorcycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>88019</StartMilliseconds>
+    <EndMilliseconds>88210</EndMilliseconds>
+    <Text>I [@will@] take my motorcycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>88211</StartMilliseconds>
+    <EndMilliseconds>88466</EndMilliseconds>
+    <Text>I will [@take@] my motorcycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>88467</StartMilliseconds>
+    <EndMilliseconds>88670</EndMilliseconds>
+    <Text>I will take [@my@] motorcycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>88671</StartMilliseconds>
+    <EndMilliseconds>89953</EndMilliseconds>
+    <Text>I will take my [@motorcycle@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>89954</StartMilliseconds>
+    <EndMilliseconds>95722</EndMilliseconds>
+    <Text>I will take my motorcycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>95723</StartMilliseconds>
+    <EndMilliseconds>96010</EndMilliseconds>
+    <Text>[e@I will take my motorcycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>96011</StartMilliseconds>
+    <EndMilliseconds>102090</EndMilliseconds>
+    <Text>I will take my bicycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>102091</StartMilliseconds>
+    <EndMilliseconds>102439</EndMilliseconds>
+    <Text>[s@I will take my bicycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>102440</StartMilliseconds>
+    <EndMilliseconds>102680</EndMilliseconds>
+    <Text>[@I@] will take my bicycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>102681</StartMilliseconds>
+    <EndMilliseconds>102947</EndMilliseconds>
+    <Text>I [@will@] take my bicycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>102948</StartMilliseconds>
+    <EndMilliseconds>103212</EndMilliseconds>
+    <Text>I will [@take@] my bicycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>103213</StartMilliseconds>
+    <EndMilliseconds>103512</EndMilliseconds>
+    <Text>I will take [@my@] bicycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>103513</StartMilliseconds>
+    <EndMilliseconds>104478</EndMilliseconds>
+    <Text>I will take my [@bicycle@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>104479</StartMilliseconds>
+    <EndMilliseconds>110918</EndMilliseconds>
+    <Text>I will take my bicycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>110919</StartMilliseconds>
+    <EndMilliseconds>111213</EndMilliseconds>
+    <Text>[e@I will take my bicycle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>111214</StartMilliseconds>
+    <EndMilliseconds>117632</EndMilliseconds>
+    <Text>I will take my broom!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>117633</StartMilliseconds>
+    <EndMilliseconds>118343</EndMilliseconds>
+    <Text>[s@I will take my broom!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>118344</StartMilliseconds>
+    <EndMilliseconds>118676</EndMilliseconds>
+    <Text>[@I@] will take my broom!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>118677</StartMilliseconds>
+    <EndMilliseconds>118927</EndMilliseconds>
+    <Text>I [@will@] take my broom!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>118928</StartMilliseconds>
+    <EndMilliseconds>119210</EndMilliseconds>
+    <Text>I will [@take@] my broom!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>119211</StartMilliseconds>
+    <EndMilliseconds>119473</EndMilliseconds>
+    <Text>I will take [@my@] broom!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>119474</StartMilliseconds>
+    <EndMilliseconds>120379</EndMilliseconds>
+    <Text>I will take my [@broom@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>120380</StartMilliseconds>
+    <EndMilliseconds>140162</EndMilliseconds>
+    <Text>I will take my broom!</Text>
+  </Paragraph>
+</Subtitle>

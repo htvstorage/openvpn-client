@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>2288</EndMilliseconds>
+    <Text>Look! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>2289</StartMilliseconds>
+    <EndMilliseconds>3120</EndMilliseconds>
+    <Text>[@Look@]! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3121</StartMilliseconds>
+    <EndMilliseconds>4075</EndMilliseconds>
+    <Text>Look! [@Wait@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>4076</StartMilliseconds>
+    <EndMilliseconds>8949</EndMilliseconds>
+    <Text>Look! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>8950</StartMilliseconds>
+    <EndMilliseconds>9151</EndMilliseconds>
+    <Text>[e@Look! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>9152</StartMilliseconds>
+    <EndMilliseconds>9748</EndMilliseconds>
+    <Text>Look left. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>9749</StartMilliseconds>
+    <EndMilliseconds>10037</EndMilliseconds>
+    <Text>[@Look@] left. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>10038</StartMilliseconds>
+    <EndMilliseconds>11132</EndMilliseconds>
+    <Text>Look [@left@]. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>11133</StartMilliseconds>
+    <EndMilliseconds>11440</EndMilliseconds>
+    <Text>Look left. [@Look@] right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>11441</StartMilliseconds>
+    <EndMilliseconds>12223</EndMilliseconds>
+    <Text>Look left. Look [@right@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>12224</StartMilliseconds>
+    <EndMilliseconds>12410</EndMilliseconds>
+    <Text>Look left. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>12411</StartMilliseconds>
+    <EndMilliseconds>12731</EndMilliseconds>
+    <Text>Okay, cross!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>12732</StartMilliseconds>
+    <EndMilliseconds>13372</EndMilliseconds>
+    <Text>[@Okay@], cross!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>13373</StartMilliseconds>
+    <EndMilliseconds>14309</EndMilliseconds>
+    <Text>Okay, [@cross@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>14310</StartMilliseconds>
+    <EndMilliseconds>16485</EndMilliseconds>
+    <Text>Okay, cross!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>16486</StartMilliseconds>
+    <EndMilliseconds>19409</EndMilliseconds>
+    <Text>Look! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>19410</StartMilliseconds>
+    <EndMilliseconds>19873</EndMilliseconds>
+    <Text>[s@Look! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>19874</StartMilliseconds>
+    <EndMilliseconds>20565</EndMilliseconds>
+    <Text>[@Look@]! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>20566</StartMilliseconds>
+    <EndMilliseconds>21492</EndMilliseconds>
+    <Text>Look! [@Wait@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>21493</StartMilliseconds>
+    <EndMilliseconds>23934</EndMilliseconds>
+    <Text>Look! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>23935</StartMilliseconds>
+    <EndMilliseconds>24079</EndMilliseconds>
+    <Text>[e@Look! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>24080</StartMilliseconds>
+    <EndMilliseconds>24441</EndMilliseconds>
+    <Text>Look left. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>24442</StartMilliseconds>
+    <EndMilliseconds>24778</EndMilliseconds>
+    <Text>[@Look@] left. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>24779</StartMilliseconds>
+    <EndMilliseconds>25816</EndMilliseconds>
+    <Text>Look [@left@]. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>25817</StartMilliseconds>
+    <EndMilliseconds>26129</EndMilliseconds>
+    <Text>Look left. [@Look@] right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>26130</StartMilliseconds>
+    <EndMilliseconds>26984</EndMilliseconds>
+    <Text>Look left. Look [@right@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>26985</StartMilliseconds>
+    <EndMilliseconds>27223</EndMilliseconds>
+    <Text>Look left. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>27224</StartMilliseconds>
+    <EndMilliseconds>27338</EndMilliseconds>
+    <Text>[e@Look left. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>27339</StartMilliseconds>
+    <EndMilliseconds>28144</EndMilliseconds>
+    <Text>Okay, cross!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>28145</StartMilliseconds>
+    <EndMilliseconds>28887</EndMilliseconds>
+    <Text>[@Okay@], cross!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>28888</StartMilliseconds>
+    <EndMilliseconds>29850</EndMilliseconds>
+    <Text>Okay, [@cross@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>29851</StartMilliseconds>
+    <EndMilliseconds>32365</EndMilliseconds>
+    <Text>Okay, cross!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>32366</StartMilliseconds>
+    <EndMilliseconds>32534</EndMilliseconds>
+    <Text>[e@Okay, cross!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>32535</StartMilliseconds>
+    <EndMilliseconds>35489</EndMilliseconds>
+    <Text>Look! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>35490</StartMilliseconds>
+    <EndMilliseconds>35756</EndMilliseconds>
+    <Text>[s@Look! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>35757</StartMilliseconds>
+    <EndMilliseconds>36416</EndMilliseconds>
+    <Text>[@Look@]! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>36417</StartMilliseconds>
+    <EndMilliseconds>37274</EndMilliseconds>
+    <Text>Look! [@Wait@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>37275</StartMilliseconds>
+    <EndMilliseconds>39523</EndMilliseconds>
+    <Text>Look! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>39524</StartMilliseconds>
+    <EndMilliseconds>39671</EndMilliseconds>
+    <Text>[e@Look! Wait!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>39672</StartMilliseconds>
+    <EndMilliseconds>40563</EndMilliseconds>
+    <Text>Look left. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>40564</StartMilliseconds>
+    <EndMilliseconds>40957</EndMilliseconds>
+    <Text>[@Look@] left. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>40958</StartMilliseconds>
+    <EndMilliseconds>41992</EndMilliseconds>
+    <Text>Look [@left@]. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>41993</StartMilliseconds>
+    <EndMilliseconds>42354</EndMilliseconds>
+    <Text>Look left. [@Look@] right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>42355</StartMilliseconds>
+    <EndMilliseconds>43221</EndMilliseconds>
+    <Text>Look left. Look [@right@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>43222</StartMilliseconds>
+    <EndMilliseconds>43466</EndMilliseconds>
+    <Text>Look left. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>43467</StartMilliseconds>
+    <EndMilliseconds>43551</EndMilliseconds>
+    <Text>[e@Look left. Look right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>43552</StartMilliseconds>
+    <EndMilliseconds>44183</EndMilliseconds>
+    <Text>Okay, cross!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>44184</StartMilliseconds>
+    <EndMilliseconds>45072</EndMilliseconds>
+    <Text>[@Okay@], cross!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>45073</StartMilliseconds>
+    <EndMilliseconds>45956</EndMilliseconds>
+    <Text>Okay, [@cross@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>45957</StartMilliseconds>
+    <EndMilliseconds>48672</EndMilliseconds>
+    <Text>Okay, cross!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>48673</StartMilliseconds>
+    <EndMilliseconds>48817</EndMilliseconds>
+    <Text>[e@Okay, cross!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>48818</StartMilliseconds>
+    <EndMilliseconds>50209</EndMilliseconds>
+    <Text>Wait! Stop!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>50210</StartMilliseconds>
+    <EndMilliseconds>50568</EndMilliseconds>
+    <Text>[s@Wait! Stop!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>50569</StartMilliseconds>
+    <EndMilliseconds>51066</EndMilliseconds>
+    <Text>[@Wait@]! Stop!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>51067</StartMilliseconds>
+    <EndMilliseconds>51936</EndMilliseconds>
+    <Text>Wait! [@Stop@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>51937</StartMilliseconds>
+    <EndMilliseconds>52781</EndMilliseconds>
+    <Text>Wait! Stop!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>52782</StartMilliseconds>
+    <EndMilliseconds>52902</EndMilliseconds>
+    <Text>[e@Wait! Stop!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>52903</StartMilliseconds>
+    <EndMilliseconds>53587</EndMilliseconds>
+    <Text>We're here!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>53588</StartMilliseconds>
+    <EndMilliseconds>53990</EndMilliseconds>
+    <Text>[@We're@] here!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>53991</StartMilliseconds>
+    <EndMilliseconds>54803</EndMilliseconds>
+    <Text>We're [@here@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>54804</StartMilliseconds>
+    <EndMilliseconds>58596</EndMilliseconds>
+    <Text>We're here!</Text>
+  </Paragraph>
+</Subtitle>

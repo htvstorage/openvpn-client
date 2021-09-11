@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>249</EndMilliseconds>
+    <Text>It is autumn.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>250</StartMilliseconds>
+    <EndMilliseconds>544</EndMilliseconds>
+    <Text>[@It@] is autumn.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>545</StartMilliseconds>
+    <EndMilliseconds>940</EndMilliseconds>
+    <Text>It [@is@] autumn.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>941</StartMilliseconds>
+    <EndMilliseconds>1968</EndMilliseconds>
+    <Text>It is [@autumn@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>1969</StartMilliseconds>
+    <EndMilliseconds>3493</EndMilliseconds>
+    <Text>It is autumn.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>3494</StartMilliseconds>
+    <EndMilliseconds>3690</EndMilliseconds>
+    <Text>[e@It is autumn.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>3691</StartMilliseconds>
+    <EndMilliseconds>4118</EndMilliseconds>
+    <Text>The leaves are falling.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>4119</StartMilliseconds>
+    <EndMilliseconds>4458</EndMilliseconds>
+    <Text>[@The@] leaves are falling.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>4459</StartMilliseconds>
+    <EndMilliseconds>4988</EndMilliseconds>
+    <Text>The [@leaves@] are falling.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>4989</StartMilliseconds>
+    <EndMilliseconds>5385</EndMilliseconds>
+    <Text>The leaves [@are@] falling.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>5386</StartMilliseconds>
+    <EndMilliseconds>6280</EndMilliseconds>
+    <Text>The leaves are [@falling@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>6281</StartMilliseconds>
+    <EndMilliseconds>7122</EndMilliseconds>
+    <Text>The leaves are falling.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>7123</StartMilliseconds>
+    <EndMilliseconds>7341</EndMilliseconds>
+    <Text>[e@The leaves are falling.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>7342</StartMilliseconds>
+    <EndMilliseconds>7992</EndMilliseconds>
+    <Text>Red, orange, yellow, and brown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>7993</StartMilliseconds>
+    <EndMilliseconds>8721</EndMilliseconds>
+    <Text>[@Red@], orange, yellow, and brown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>8722</StartMilliseconds>
+    <EndMilliseconds>8990</EndMilliseconds>
+    <Text>Red, orange, yellow, and brown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>8991</StartMilliseconds>
+    <EndMilliseconds>9868</EndMilliseconds>
+    <Text>Red, [@orange@], yellow, and brown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>9869</StartMilliseconds>
+    <EndMilliseconds>10076</EndMilliseconds>
+    <Text>Red, orange, yellow, and brown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>10077</StartMilliseconds>
+    <EndMilliseconds>10864</EndMilliseconds>
+    <Text>Red, orange, [@yellow@], and brown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>10865</StartMilliseconds>
+    <EndMilliseconds>11036</EndMilliseconds>
+    <Text>Red, orange, yellow, and brown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>11037</StartMilliseconds>
+    <EndMilliseconds>11346</EndMilliseconds>
+    <Text>Red, orange, yellow, [@and@] brown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>11347</StartMilliseconds>
+    <EndMilliseconds>12186</EndMilliseconds>
+    <Text>Red, orange, yellow, and [@brown@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>12187</StartMilliseconds>
+    <EndMilliseconds>12689</EndMilliseconds>
+    <Text>Red, orange, yellow, and brown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>12690</StartMilliseconds>
+    <EndMilliseconds>12876</EndMilliseconds>
+    <Text>[e@Red, orange, yellow, and brown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>12877</StartMilliseconds>
+    <EndMilliseconds>13669</EndMilliseconds>
+    <Text>Pick up a leaf!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>13670</StartMilliseconds>
+    <EndMilliseconds>13934</EndMilliseconds>
+    <Text>[@Pick@] up a leaf!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>13935</StartMilliseconds>
+    <EndMilliseconds>14252</EndMilliseconds>
+    <Text>Pick [@up@] a leaf!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>14253</StartMilliseconds>
+    <EndMilliseconds>14529</EndMilliseconds>
+    <Text>Pick up [@a@] leaf!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>14530</StartMilliseconds>
+    <EndMilliseconds>15146</EndMilliseconds>
+    <Text>Pick up a [@leaf@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>15147</StartMilliseconds>
+    <EndMilliseconds>15611</EndMilliseconds>
+    <Text>Pick up a leaf!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>15612</StartMilliseconds>
+    <EndMilliseconds>15916</EndMilliseconds>
+    <Text>[@Pick@] up a leaf!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>15917</StartMilliseconds>
+    <EndMilliseconds>16277</EndMilliseconds>
+    <Text>Pick [@up@] a leaf!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>16278</StartMilliseconds>
+    <EndMilliseconds>16584</EndMilliseconds>
+    <Text>Pick up [@a@] leaf!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>16585</StartMilliseconds>
+    <EndMilliseconds>17139</EndMilliseconds>
+    <Text>Pick up a [@leaf@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>17140</StartMilliseconds>
+    <EndMilliseconds>19280</EndMilliseconds>
+    <Text>Pick up a leaf!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>19281</StartMilliseconds>
+    <EndMilliseconds>19546</EndMilliseconds>
+    <Text>[e@Pick up a leaf!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>19547</StartMilliseconds>
+    <EndMilliseconds>20153</EndMilliseconds>
+    <Text>Crayons and paper.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>20154</StartMilliseconds>
+    <EndMilliseconds>21019</EndMilliseconds>
+    <Text>[@Crayons@] and paper.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>21020</StartMilliseconds>
+    <EndMilliseconds>21421</EndMilliseconds>
+    <Text>Crayons [@and@] paper.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>21422</StartMilliseconds>
+    <EndMilliseconds>22286</EndMilliseconds>
+    <Text>Crayons and [@paper@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>22287</StartMilliseconds>
+    <EndMilliseconds>23328</EndMilliseconds>
+    <Text>Crayons and paper.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>23329</StartMilliseconds>
+    <EndMilliseconds>23535</EndMilliseconds>
+    <Text>[e@Crayons and paper.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>23536</StartMilliseconds>
+    <EndMilliseconds>25549</EndMilliseconds>
+    <Text>Color.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>25550</StartMilliseconds>
+    <EndMilliseconds>25903</EndMilliseconds>
+    <Text>[s@Color.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>25904</StartMilliseconds>
+    <EndMilliseconds>26812</EndMilliseconds>
+    <Text>[@Color@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>26813</StartMilliseconds>
+    <EndMilliseconds>27924</EndMilliseconds>
+    <Text>Color.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>27925</StartMilliseconds>
+    <EndMilliseconds>28105</EndMilliseconds>
+    <Text>[e@Color.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>28106</StartMilliseconds>
+    <EndMilliseconds>28905</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>28906</StartMilliseconds>
+    <EndMilliseconds>29305</EndMilliseconds>
+    <Text>[@What@] do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>29306</StartMilliseconds>
+    <EndMilliseconds>29619</EndMilliseconds>
+    <Text>What [@do@] you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>29620</StartMilliseconds>
+    <EndMilliseconds>30016</EndMilliseconds>
+    <Text>What do [@you@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>30017</StartMilliseconds>
+    <EndMilliseconds>30798</EndMilliseconds>
+    <Text>What do you [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>30799</StartMilliseconds>
+    <EndMilliseconds>31234</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>31235</StartMilliseconds>
+    <EndMilliseconds>31402</EndMilliseconds>
+    <Text>[e@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>31403</StartMilliseconds>
+    <EndMilliseconds>31797</EndMilliseconds>
+    <Text>It's a leaf print.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>31798</StartMilliseconds>
+    <EndMilliseconds>32132</EndMilliseconds>
+    <Text>[s@It's a leaf print.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>32133</StartMilliseconds>
+    <EndMilliseconds>32666</EndMilliseconds>
+    <Text>[@It's@] a leaf print.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>32667</StartMilliseconds>
+    <EndMilliseconds>32946</EndMilliseconds>
+    <Text>It's [@a@] leaf print.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>32947</StartMilliseconds>
+    <EndMilliseconds>33396</EndMilliseconds>
+    <Text>It's a [@leaf@] print.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>33397</StartMilliseconds>
+    <EndMilliseconds>34225</EndMilliseconds>
+    <Text>It's a leaf [@print@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>34226</StartMilliseconds>
+    <EndMilliseconds>37113</EndMilliseconds>
+    <Text>It's a leaf print.</Text>
+  </Paragraph>
+</Subtitle>

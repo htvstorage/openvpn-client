@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>3253</EndMilliseconds>
+    <Text>I can walk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>3254</StartMilliseconds>
+    <EndMilliseconds>3567</EndMilliseconds>
+    <Text>[@I@] can walk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3568</StartMilliseconds>
+    <EndMilliseconds>3850</EndMilliseconds>
+    <Text>I [@can@] walk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>3851</StartMilliseconds>
+    <EndMilliseconds>4683</EndMilliseconds>
+    <Text>I can [@walk@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>4684</StartMilliseconds>
+    <EndMilliseconds>7376</EndMilliseconds>
+    <Text>I can walk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>7377</StartMilliseconds>
+    <EndMilliseconds>7541</EndMilliseconds>
+    <Text>[e@I can walk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>7542</StartMilliseconds>
+    <EndMilliseconds>10047</EndMilliseconds>
+    <Text>I can climb.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>10048</StartMilliseconds>
+    <EndMilliseconds>10544</EndMilliseconds>
+    <Text>[s@I can climb.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>10545</StartMilliseconds>
+    <EndMilliseconds>10901</EndMilliseconds>
+    <Text>[@I@] can climb.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>10902</StartMilliseconds>
+    <EndMilliseconds>11281</EndMilliseconds>
+    <Text>I [@can@] climb.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>11282</StartMilliseconds>
+    <EndMilliseconds>12302</EndMilliseconds>
+    <Text>I can [@climb@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>12303</StartMilliseconds>
+    <EndMilliseconds>14192</EndMilliseconds>
+    <Text>I can climb.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>14193</StartMilliseconds>
+    <EndMilliseconds>14379</EndMilliseconds>
+    <Text>[e@I can climb.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>14380</StartMilliseconds>
+    <EndMilliseconds>15643</EndMilliseconds>
+    <Text>I can hug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>15644</StartMilliseconds>
+    <EndMilliseconds>16296</EndMilliseconds>
+    <Text>[s@I can hug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>16297</StartMilliseconds>
+    <EndMilliseconds>16785</EndMilliseconds>
+    <Text>[@I@] can hug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>16786</StartMilliseconds>
+    <EndMilliseconds>17121</EndMilliseconds>
+    <Text>I [@can@] hug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>17122</StartMilliseconds>
+    <EndMilliseconds>17855</EndMilliseconds>
+    <Text>I can [@hug@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>17856</StartMilliseconds>
+    <EndMilliseconds>20469</EndMilliseconds>
+    <Text>I can hug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>20470</StartMilliseconds>
+    <EndMilliseconds>20651</EndMilliseconds>
+    <Text>[e@I can hug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>20652</StartMilliseconds>
+    <EndMilliseconds>20935</EndMilliseconds>
+    <Text>I can jump.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>20936</StartMilliseconds>
+    <EndMilliseconds>22829</EndMilliseconds>
+    <Text>[s@I can jump.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>22830</StartMilliseconds>
+    <EndMilliseconds>23178</EndMilliseconds>
+    <Text>[@I@] can jump.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>23179</StartMilliseconds>
+    <EndMilliseconds>23576</EndMilliseconds>
+    <Text>I [@can@] jump.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>23577</StartMilliseconds>
+    <EndMilliseconds>24384</EndMilliseconds>
+    <Text>I can [@jump@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>24385</StartMilliseconds>
+    <EndMilliseconds>28334</EndMilliseconds>
+    <Text>I can jump.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>28335</StartMilliseconds>
+    <EndMilliseconds>28492</EndMilliseconds>
+    <Text>[e@I can jump.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>28493</StartMilliseconds>
+    <EndMilliseconds>30490</EndMilliseconds>
+    <Text>I can swim.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>30491</StartMilliseconds>
+    <EndMilliseconds>30984</EndMilliseconds>
+    <Text>[s@ I can swim.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>30985</StartMilliseconds>
+    <EndMilliseconds>31271</EndMilliseconds>
+    <Text>[@I@] can swim.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>31272</StartMilliseconds>
+    <EndMilliseconds>31576</EndMilliseconds>
+    <Text>I [@can@] swim.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>31577</StartMilliseconds>
+    <EndMilliseconds>32719</EndMilliseconds>
+    <Text>I can [@swim@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>32720</StartMilliseconds>
+    <EndMilliseconds>34964</EndMilliseconds>
+    <Text>I can swim.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>34965</StartMilliseconds>
+    <EndMilliseconds>35149</EndMilliseconds>
+    <Text>[e@I can swim.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>35150</StartMilliseconds>
+    <EndMilliseconds>36921</EndMilliseconds>
+    <Text>I can hop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>36922</StartMilliseconds>
+    <EndMilliseconds>37796</EndMilliseconds>
+    <Text>[s@I can hop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>37797</StartMilliseconds>
+    <EndMilliseconds>38141</EndMilliseconds>
+    <Text>[@I@] can hop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>38142</StartMilliseconds>
+    <EndMilliseconds>38465</EndMilliseconds>
+    <Text>I [@can@] hop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>38466</StartMilliseconds>
+    <EndMilliseconds>39095</EndMilliseconds>
+    <Text>I can [@hop@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>39096</StartMilliseconds>
+    <EndMilliseconds>40772</EndMilliseconds>
+    <Text>I can hop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>40773</StartMilliseconds>
+    <EndMilliseconds>40938</EndMilliseconds>
+    <Text>[e@I can hop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>40939</StartMilliseconds>
+    <EndMilliseconds>43072</EndMilliseconds>
+    <Text>I can crawl.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>43073</StartMilliseconds>
+    <EndMilliseconds>43767</EndMilliseconds>
+    <Text>[s@I can crawl.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>43768</StartMilliseconds>
+    <EndMilliseconds>44131</EndMilliseconds>
+    <Text>[@I@] can crawl.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>44132</StartMilliseconds>
+    <EndMilliseconds>44480</EndMilliseconds>
+    <Text>I [@can@] crawl.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>44481</StartMilliseconds>
+    <EndMilliseconds>45461</EndMilliseconds>
+    <Text>I can [@crawl@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>45462</StartMilliseconds>
+    <EndMilliseconds>46697</EndMilliseconds>
+    <Text>I can crawl.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>46698</StartMilliseconds>
+    <EndMilliseconds>46872</EndMilliseconds>
+    <Text>[e@I can crawl.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>46873</StartMilliseconds>
+    <EndMilliseconds>48635</EndMilliseconds>
+    <Text>I can fly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>48636</StartMilliseconds>
+    <EndMilliseconds>49348</EndMilliseconds>
+    <Text>[s@I can fly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>49349</StartMilliseconds>
+    <EndMilliseconds>49701</EndMilliseconds>
+    <Text>[@I@] can fly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>49702</StartMilliseconds>
+    <EndMilliseconds>49986</EndMilliseconds>
+    <Text>I [@can@] fly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>49987</StartMilliseconds>
+    <EndMilliseconds>50871</EndMilliseconds>
+    <Text>I can [@fly@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>50872</StartMilliseconds>
+    <EndMilliseconds>55797</EndMilliseconds>
+    <Text>I can fly.</Text>
+  </Paragraph>
+</Subtitle>

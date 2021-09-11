@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>4202</EndMilliseconds>
+    <Text>I have a ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>4203</StartMilliseconds>
+    <EndMilliseconds>4500</EndMilliseconds>
+    <Text>[@I@] have a ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>4501</StartMilliseconds>
+    <EndMilliseconds>4840</EndMilliseconds>
+    <Text>I [@have@] a ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>4841</StartMilliseconds>
+    <EndMilliseconds>5021</EndMilliseconds>
+    <Text>I have [@a@] ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>5022</StartMilliseconds>
+    <EndMilliseconds>5929</EndMilliseconds>
+    <Text>I have a [@ball@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>5930</StartMilliseconds>
+    <EndMilliseconds>7578</EndMilliseconds>
+    <Text>I have a ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>7579</StartMilliseconds>
+    <EndMilliseconds>7753</EndMilliseconds>
+    <Text>[e@I have a ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>7754</StartMilliseconds>
+    <EndMilliseconds>8071</EndMilliseconds>
+    <Text>This is my ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>8072</StartMilliseconds>
+    <EndMilliseconds>8390</EndMilliseconds>
+    <Text>[@This@] is my ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>8391</StartMilliseconds>
+    <EndMilliseconds>8617</EndMilliseconds>
+    <Text>This [@is@] my ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>8618</StartMilliseconds>
+    <EndMilliseconds>9233</EndMilliseconds>
+    <Text>This is [@my@] ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>9234</StartMilliseconds>
+    <EndMilliseconds>9982</EndMilliseconds>
+    <Text>This is my [@ball@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>9983</StartMilliseconds>
+    <EndMilliseconds>10110</EndMilliseconds>
+    <Text>This is my ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>10111</StartMilliseconds>
+    <EndMilliseconds>10186</EndMilliseconds>
+    <Text>[e@This is my ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>10187</StartMilliseconds>
+    <EndMilliseconds>12043</EndMilliseconds>
+    <Text>Laura has a bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>12045</StartMilliseconds>
+    <EndMilliseconds>12520</EndMilliseconds>
+    <Text>[s@Laura has a bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>12521</StartMilliseconds>
+    <EndMilliseconds>13040</EndMilliseconds>
+    <Text>[@Laura@] has a bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>13041</StartMilliseconds>
+    <EndMilliseconds>13233</EndMilliseconds>
+    <Text>Laura [@has@] a bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>13234</StartMilliseconds>
+    <EndMilliseconds>13432</EndMilliseconds>
+    <Text>Laura has [@a@] bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>13433</StartMilliseconds>
+    <EndMilliseconds>14254</EndMilliseconds>
+    <Text>Laura has a [@bat@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>14255</StartMilliseconds>
+    <EndMilliseconds>15601</EndMilliseconds>
+    <Text>Laura has a bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>15602</StartMilliseconds>
+    <EndMilliseconds>15715</EndMilliseconds>
+    <Text>[e@Laura has a bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>15716</StartMilliseconds>
+    <EndMilliseconds>16549</EndMilliseconds>
+    <Text>This is her bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>16550</StartMilliseconds>
+    <EndMilliseconds>17029</EndMilliseconds>
+    <Text>[s@This is her bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>17030</StartMilliseconds>
+    <EndMilliseconds>17378</EndMilliseconds>
+    <Text>[@This@] is her bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>17379</StartMilliseconds>
+    <EndMilliseconds>17652</EndMilliseconds>
+    <Text>This [@is@] her bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>17653</StartMilliseconds>
+    <EndMilliseconds>18110</EndMilliseconds>
+    <Text>This is [@her@] bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>18111</StartMilliseconds>
+    <EndMilliseconds>18910</EndMilliseconds>
+    <Text>This is her [@bat@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>18911</StartMilliseconds>
+    <EndMilliseconds>19253</EndMilliseconds>
+    <Text>This is her bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>19254</StartMilliseconds>
+    <EndMilliseconds>19409</EndMilliseconds>
+    <Text>[e@This is her bat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>19410</StartMilliseconds>
+    <EndMilliseconds>20473</EndMilliseconds>
+    <Text>Mike has a glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>20474</StartMilliseconds>
+    <EndMilliseconds>20670</EndMilliseconds>
+    <Text>[s@Mike has a glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>20671</StartMilliseconds>
+    <EndMilliseconds>21072</EndMilliseconds>
+    <Text>[@Mike@] has a glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>21073</StartMilliseconds>
+    <EndMilliseconds>21469</EndMilliseconds>
+    <Text>Mike [@has@] a glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>21470</StartMilliseconds>
+    <EndMilliseconds>21676</EndMilliseconds>
+    <Text>Mike has [@a@] glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>21677</StartMilliseconds>
+    <EndMilliseconds>22522</EndMilliseconds>
+    <Text>Mike has a [@glove@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>22523</StartMilliseconds>
+    <EndMilliseconds>23755</EndMilliseconds>
+    <Text>Mike has a glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>23756</StartMilliseconds>
+    <EndMilliseconds>23887</EndMilliseconds>
+    <Text>[e@Mike has a glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>23889</StartMilliseconds>
+    <EndMilliseconds>24541</EndMilliseconds>
+    <Text>This is his glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>24542</StartMilliseconds>
+    <EndMilliseconds>24890</EndMilliseconds>
+    <Text>[s@This is his glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>24891</StartMilliseconds>
+    <EndMilliseconds>25387</EndMilliseconds>
+    <Text>[@This@] is his glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>25388</StartMilliseconds>
+    <EndMilliseconds>25715</EndMilliseconds>
+    <Text>This [@is@] his glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>25716</StartMilliseconds>
+    <EndMilliseconds>26131</EndMilliseconds>
+    <Text>This is [@his@] glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>26132</StartMilliseconds>
+    <EndMilliseconds>27233</EndMilliseconds>
+    <Text>This is his [@glove@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>27234</StartMilliseconds>
+    <EndMilliseconds>27548</EndMilliseconds>
+    <Text>This is his glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>27549</StartMilliseconds>
+    <EndMilliseconds>27612</EndMilliseconds>
+    <Text>[e@This is his glove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>27613</StartMilliseconds>
+    <EndMilliseconds>31837</EndMilliseconds>
+    <Text>Dad is our coach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>31838</StartMilliseconds>
+    <EndMilliseconds>32571</EndMilliseconds>
+    <Text>[s@Dad is our coach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>32572</StartMilliseconds>
+    <EndMilliseconds>33127</EndMilliseconds>
+    <Text>[@Dad@] is our coach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>33128</StartMilliseconds>
+    <EndMilliseconds>33403</EndMilliseconds>
+    <Text>Dad [@is@] our coach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>33404</StartMilliseconds>
+    <EndMilliseconds>33970</EndMilliseconds>
+    <Text>Dad is [@our@] coach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>33971</StartMilliseconds>
+    <EndMilliseconds>34928</EndMilliseconds>
+    <Text>Dad is our [@coach@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>34929</StartMilliseconds>
+    <EndMilliseconds>40957</EndMilliseconds>
+    <Text>Dad is our coach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>40958</StartMilliseconds>
+    <EndMilliseconds>41090</EndMilliseconds>
+    <Text>[e@Dad is our coach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>41091</StartMilliseconds>
+    <EndMilliseconds>41798</EndMilliseconds>
+    <Text>Let's play baseball!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>41799</StartMilliseconds>
+    <EndMilliseconds>42339</EndMilliseconds>
+    <Text>[@Let's@] play baseball!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>42340</StartMilliseconds>
+    <EndMilliseconds>42786</EndMilliseconds>
+    <Text>Let's [@play@] baseball!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>42787</StartMilliseconds>
+    <EndMilliseconds>44161</EndMilliseconds>
+    <Text>Let's play [@baseball@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>44162</StartMilliseconds>
+    <EndMilliseconds>50498</EndMilliseconds>
+    <Text>Let's play baseball!</Text>
+  </Paragraph>
+</Subtitle>

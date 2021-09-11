@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>6344</EndMilliseconds>
+    <Text>Wukong and his companions walked on the mountain road.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>6345</StartMilliseconds>
+    <EndMilliseconds>10863</EndMilliseconds>
+    <Text>The monkey watched carefully for the monster and demons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>10864</StartMilliseconds>
+    <EndMilliseconds>16845</EndMilliseconds>
+    <Text>Suddenly a demon charged toward the group.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>16846</StartMilliseconds>
+    <EndMilliseconds>19586</EndMilliseconds>
+    <Text>[g@"Stay here, everyone!" shouted Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>19587</StartMilliseconds>
+    <EndMilliseconds>22992</EndMilliseconds>
+    <Text>"I'll fight this demon!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>22993</StartMilliseconds>
+    <EndMilliseconds>25609</EndMilliseconds>
+    <Text>The pig swung his rake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>25610</StartMilliseconds>
+    <EndMilliseconds>30946</EndMilliseconds>
+    <Text>The demon stepped off the road and headed down the slope of the mountain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>30947</StartMilliseconds>
+    <EndMilliseconds>35918</EndMilliseconds>
+    <Text>Bajie raced after the demon and was soon out of sight.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>35919</StartMilliseconds>
+    <EndMilliseconds>39915</EndMilliseconds>
+    <Text>[g@Wukong heard grunts and clashing weapons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>39916</StartMilliseconds>
+    <EndMilliseconds>42663</EndMilliseconds>
+    <Text>But he couldn't see the fight.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>42664</StartMilliseconds>
+    <EndMilliseconds>48833</EndMilliseconds>
+    <Text>A moment later the demon climbed back onto the road.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>48834</StartMilliseconds>
+    <EndMilliseconds>51535</EndMilliseconds>
+    <Text>[g@"Stay here, Wujing!" shouted Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>51536</StartMilliseconds>
+    <EndMilliseconds>54033</EndMilliseconds>
+    <Text>"Protect the Tang Monk!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>54034</StartMilliseconds>
+    <EndMilliseconds>57027</EndMilliseconds>
+    <Text>[g@The monkey charged toward the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>57028</StartMilliseconds>
+    <EndMilliseconds>60519</EndMilliseconds>
+    <Text>[i@Clang!@i] Their weapons clashed.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>60520</StartMilliseconds>
+    <EndMilliseconds>65033</EndMilliseconds>
+    <Text>Wukong fought with all his strength.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>65034</StartMilliseconds>
+    <EndMilliseconds>68852</EndMilliseconds>
+    <Text>[g@Again the demon left the road and headed down [n@the mountain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>68853</StartMilliseconds>
+    <EndMilliseconds>70925</EndMilliseconds>
+    <Text>Wukong chased him.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>70926</StartMilliseconds>
+    <EndMilliseconds>75595</EndMilliseconds>
+    <Text>The monkey and the demon disappeared down the slope of the mountain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>75596</StartMilliseconds>
+    <EndMilliseconds>80331</EndMilliseconds>
+    <Text>"Do you think Wukong can defeat that demon?" [n@asked the Tang Monk nervously.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>80332</StartMilliseconds>
+    <EndMilliseconds>82729</EndMilliseconds>
+    <Text>"Definitely," said Wujing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>82730</StartMilliseconds>
+    <EndMilliseconds>85138</EndMilliseconds>
+    <Text>[g@"I wonder what happened to Bajie though.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>85139</StartMilliseconds>
+    <EndMilliseconds>88401</EndMilliseconds>
+    <Text>I hope he's okay."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>88402</StartMilliseconds>
+    <EndMilliseconds>91436</EndMilliseconds>
+    <Text>Suddenly the demon was back.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>91437</StartMilliseconds>
+    <EndMilliseconds>93033</EndMilliseconds>
+    <Text>[g@Wujing was shocked.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>93034</StartMilliseconds>
+    <EndMilliseconds>95554</EndMilliseconds>
+    <Text>"How did you get past Wukong?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>95555</StartMilliseconds>
+    <EndMilliseconds>100884</EndMilliseconds>
+    <Text>Without waiting for an answer, Wujing raised [n@his spear and attacked the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>100885</StartMilliseconds>
+    <EndMilliseconds>104445</EndMilliseconds>
+    <Text>The two fought, kicking up dust and rocks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>104446</StartMilliseconds>
+    <EndMilliseconds>107728</EndMilliseconds>
+    <Text>Wujing struck the demon across the legs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>107729</StartMilliseconds>
+    <EndMilliseconds>110951</EndMilliseconds>
+    <Text>[g@The demon tumbled down the mountainside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>110952</StartMilliseconds>
+    <EndMilliseconds>113376</EndMilliseconds>
+    <Text>Wujing ran after him.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>113377</StartMilliseconds>
+    <EndMilliseconds>116197</EndMilliseconds>
+    <Text>[g@The Tang Monk stood in the road.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>116198</StartMilliseconds>
+    <EndMilliseconds>119312</EndMilliseconds>
+    <Text>For a moment everything was quiet.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>119313</StartMilliseconds>
+    <EndMilliseconds>122138</EndMilliseconds>
+    <Text>Then he heard footsteps behind him.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>122139</StartMilliseconds>
+    <EndMilliseconds>125846</EndMilliseconds>
+    <Text>The monk turned around and gasped.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>125847</StartMilliseconds>
+    <EndMilliseconds>131795</EndMilliseconds>
+    <Text>A huge, fat monster was smiling wickedly at him.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>131796</StartMilliseconds>
+    <EndMilliseconds>136709</EndMilliseconds>
+    <Text>When Wukong returned to the road, he found Bajie alone.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>136710</StartMilliseconds>
+    <EndMilliseconds>139287</EndMilliseconds>
+    <Text>The pig looked upset.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>139288</StartMilliseconds>
+    <EndMilliseconds>143052</EndMilliseconds>
+    <Text>"Where are Master and Wujing?" asked the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>143053</StartMilliseconds>
+    <EndMilliseconds>145404</EndMilliseconds>
+    <Text>[g@Bajie scratched his head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>145405</StartMilliseconds>
+    <EndMilliseconds>146772</EndMilliseconds>
+    <Text>"I don't know.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>146773</StartMilliseconds>
+    <EndMilliseconds>150102</EndMilliseconds>
+    <Text>[g@I defeated that demon and then came back here.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>150103</StartMilliseconds>
+    <EndMilliseconds>153406</EndMilliseconds>
+    <Text>Everyone was gone."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>153407</StartMilliseconds>
+    <EndMilliseconds>156815</EndMilliseconds>
+    <Text>"You didn't defeat the demon," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>156816</StartMilliseconds>
+    <EndMilliseconds>158672</EndMilliseconds>
+    <Text>[g@"He got past you.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>158673</StartMilliseconds>
+    <EndMilliseconds>162030</EndMilliseconds>
+    <Text>He came back here, and I had to fight him."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>162031</StartMilliseconds>
+    <EndMilliseconds>165957</EndMilliseconds>
+    <Text>"What!" shouted Bajie. "You're crazy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>165958</StartMilliseconds>
+    <EndMilliseconds>169922</EndMilliseconds>
+    <Text>I was fighting with the demon until just a few moments ago!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>169923</StartMilliseconds>
+    <EndMilliseconds>171932</EndMilliseconds>
+    <Text>[g@Wukong scoffed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>171933</StartMilliseconds>
+    <EndMilliseconds>174947</EndMilliseconds>
+    <Text>"Do you really expect me to believe that?@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>174948</StartMilliseconds>
+    <EndMilliseconds>178071</EndMilliseconds>
+    <Text>[i@I@i] was just fighting with the demon!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>178072</StartMilliseconds>
+    <EndMilliseconds>181785</EndMilliseconds>
+    <Text>Wujing returned to the road, annoyed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>181786</StartMilliseconds>
+    <EndMilliseconds>184138</EndMilliseconds>
+    <Text>[g@"How did that demon get past you two?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>184139</StartMilliseconds>
+    <EndMilliseconds>186411</EndMilliseconds>
+    <Text>He wasn't that powerful."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>186412</StartMilliseconds>
+    <EndMilliseconds>188858</EndMilliseconds>
+    <Text>[g@Wukong was confused.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>188859</StartMilliseconds>
+    <EndMilliseconds>191274</EndMilliseconds>
+    <Text>"The demon didn't get past me.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>191275</StartMilliseconds>
+    <EndMilliseconds>194937</EndMilliseconds>
+    <Text>I was fighting with him until just a moment ago."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>194938</StartMilliseconds>
+    <EndMilliseconds>197711</EndMilliseconds>
+    <Text>"That's impossible," said Wujing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>197712</StartMilliseconds>
+    <EndMilliseconds>202148</EndMilliseconds>
+    <Text>[g@"After you chased him down the slope, he returned and—</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>202149</StartMilliseconds>
+    <EndMilliseconds>204639</EndMilliseconds>
+    <Text>Where's Master?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>204640</StartMilliseconds>
+    <EndMilliseconds>206648</EndMilliseconds>
+    <Text>Wukong made a fist.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>206649</StartMilliseconds>
+    <EndMilliseconds>209273</EndMilliseconds>
+    <Text>[g@"How could we be so stupid?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>209274</StartMilliseconds>
+    <EndMilliseconds>211573</EndMilliseconds>
+    <Text>There wasn't just one demon.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>211574</StartMilliseconds>
+    <EndMilliseconds>213459</EndMilliseconds>
+    <Text>[g@There were three!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>213460</StartMilliseconds>
+    <EndMilliseconds>216519</EndMilliseconds>
+    <Text>They lured us away, one by one.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>216520</StartMilliseconds>
+    <EndMilliseconds>222564</EndMilliseconds>
+    <Text>Then another demon—probably that fat monster—[n@grabbed Master while we were gone."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>222565</StartMilliseconds>
+    <EndMilliseconds>225798</EndMilliseconds>
+    <Text>Bajie fumed. "You're right!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>225799</StartMilliseconds>
+    <EndMilliseconds>229383</EndMilliseconds>
+    <Text>[g@"That monster must have a cave nearby," said Wujing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>229384</StartMilliseconds>
+    <EndMilliseconds>231117</EndMilliseconds>
+    <Text>"Let's find it."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>231118</StartMilliseconds>
+    <EndMilliseconds>236525</EndMilliseconds>
+    <Text>The three companions searched the mountain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>236526</StartMilliseconds>
+    <EndMilliseconds>238449</EndMilliseconds>
+    <Text>[g@They soon found a cave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>238450</StartMilliseconds>
+    <EndMilliseconds>240947</EndMilliseconds>
+    <Text>Its door was shut.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>240948</StartMilliseconds>
+    <EndMilliseconds>244521</EndMilliseconds>
+    <Text>"Do you think this is the monster's cave?" asked Wujing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>244522</StartMilliseconds>
+    <EndMilliseconds>247280</EndMilliseconds>
+    <Text>"We'll find out," said Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>247281</StartMilliseconds>
+    <EndMilliseconds>251259</EndMilliseconds>
+    <Text>He raised his rake and knocked a hole in the door.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>251260</StartMilliseconds>
+    <EndMilliseconds>257046</EndMilliseconds>
+    <Text>Then he shouted into the hole, "Release the Tang Monk!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>257047</StartMilliseconds>
+    <EndMilliseconds>261462</EndMilliseconds>
+    <Text>A demon inside the cave shrieked and ran into a kitchen.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>261463</StartMilliseconds>
+    <EndMilliseconds>265400</EndMilliseconds>
+    <Text>The monster was grinding spices with a mortar and pestle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>265401</StartMilliseconds>
+    <EndMilliseconds>268470</EndMilliseconds>
+    <Text>"That pig is here!" cried the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>268471</StartMilliseconds>
+    <EndMilliseconds>270944</EndMilliseconds>
+    <Text>[g@The monster kept grinding.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>270945</StartMilliseconds>
+    <EndMilliseconds>275338</EndMilliseconds>
+    <Text>"Who cares? I'm only afraid of Wukong."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>275339</StartMilliseconds>
+    <EndMilliseconds>279366</EndMilliseconds>
+    <Text>"I'm here too!" shouted Wukong through the hole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>279367</StartMilliseconds>
+    <EndMilliseconds>284447</EndMilliseconds>
+    <Text>The monster dropped the mortar and pestle. "Uh-oh."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>284448</StartMilliseconds>
+    <EndMilliseconds>286813</EndMilliseconds>
+    <Text>He thought for a moment.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>286814</StartMilliseconds>
+    <EndMilliseconds>291348</EndMilliseconds>
+    <Text>Then he cleared his throat and shouted, "You're too late!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>291349</StartMilliseconds>
+    <EndMilliseconds>298702</EndMilliseconds>
+    <Text>We already ate the Tang Monk!"</Text>
+  </Paragraph>
+</Subtitle>

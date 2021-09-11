@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>4253</EndMilliseconds>
+    <Text>The demon eyed the smiling boy suspiciously.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>4254</StartMilliseconds>
+    <EndMilliseconds>7948</EndMilliseconds>
+    <Text>"Aren't you scared of me?" asked the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>7949</StartMilliseconds>
+    <EndMilliseconds>13378</EndMilliseconds>
+    <Text>"No," said the boy. "Should I be?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>13379</StartMilliseconds>
+    <EndMilliseconds>18431</EndMilliseconds>
+    <Text>"Well, yes," said the demon. "I plan to eat you.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>18432</StartMilliseconds>
+    <EndMilliseconds>21814</EndMilliseconds>
+    <Text>Doesn't that sound terrible?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>21815</StartMilliseconds>
+    <EndMilliseconds>24871</EndMilliseconds>
+    <Text>The boy shrugged. "Not really."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>24872</StartMilliseconds>
+    <EndMilliseconds>28790</EndMilliseconds>
+    <Text>The demon hesitated for a moment and then moved closer.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>28791</StartMilliseconds>
+    <EndMilliseconds>32680</EndMilliseconds>
+    <Text>Suddenly the boy changed into Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>32681</StartMilliseconds>
+    <EndMilliseconds>36515</EndMilliseconds>
+    <Text>The monkey pulled out his iron bar and swung.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>36516</StartMilliseconds>
+    <EndMilliseconds>40377</EndMilliseconds>
+    <Text>The demon jumped back, and Wukong missed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>40378</StartMilliseconds>
+    <EndMilliseconds>44150</EndMilliseconds>
+    <Text>"Who are you?" demanded the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>44151</StartMilliseconds>
+    <EndMilliseconds>47331</EndMilliseconds>
+    <Text>"I am Sun Wukong," said the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>47332</StartMilliseconds>
+    <EndMilliseconds>49786</EndMilliseconds>
+    <Text>"And you should be ashamed of yourself!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>49787</StartMilliseconds>
+    <EndMilliseconds>52818</EndMilliseconds>
+    <Text>What kind of monster eats children?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>52819</StartMilliseconds>
+    <EndMilliseconds>55756</EndMilliseconds>
+    <Text>"Sun Wukong?" said the demon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>55757</StartMilliseconds>
+    <EndMilliseconds>58502</EndMilliseconds>
+    <Text>[g@"I thought you were trapped under a mountain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>58503</StartMilliseconds>
+    <EndMilliseconds>61307</EndMilliseconds>
+    <Text>What are you doing here?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>61308</StartMilliseconds>
+    <EndMilliseconds>64285</EndMilliseconds>
+    <Text>"My punishment is over," said the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>64286</StartMilliseconds>
+    <EndMilliseconds>68151</EndMilliseconds>
+    <Text>"I am traveling to the Western Paradise with the Tang Monk."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>68152</StartMilliseconds>
+    <EndMilliseconds>69891</EndMilliseconds>
+    <Text>[g@The demon's eyes lit up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>69892</StartMilliseconds>
+    <EndMilliseconds>72824</EndMilliseconds>
+    <Text>"The Tang Monk!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>72825</StartMilliseconds>
+    <EndMilliseconds>76316</EndMilliseconds>
+    <Text>[g@Wukong lunged.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>76317</StartMilliseconds>
+    <EndMilliseconds>82544</EndMilliseconds>
+    <Text>The demon spun around and disappeared.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>82545</StartMilliseconds>
+    <EndMilliseconds>88195</EndMilliseconds>
+    <Text>The monkey returned to Chen's home and told everyone what had happened.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>88196</StartMilliseconds>
+    <EndMilliseconds>94003</EndMilliseconds>
+    <Text>"Because of you, I still have my son," said Chen. "Thank you."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>94004</StartMilliseconds>
+    <EndMilliseconds>96847</EndMilliseconds>
+    <Text>"You're welcome," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>96848</StartMilliseconds>
+    <EndMilliseconds>100856</EndMilliseconds>
+    <Text>"But I believe the demon now wants to capture the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>100857</StartMilliseconds>
+    <EndMilliseconds>105738</EndMilliseconds>
+    <Text>So in the morning we must find a boat and leave."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>105739</StartMilliseconds>
+    <EndMilliseconds>109229</EndMilliseconds>
+    <Text>Meanwhile the demon was deep under the water.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>109230</StartMilliseconds>
+    <EndMilliseconds>114212</EndMilliseconds>
+    <Text>"I must capture the Tang Monk and eat him," he said to himself.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>114213</StartMilliseconds>
+    <EndMilliseconds>117333</EndMilliseconds>
+    <Text>[g@"It won't be easy with that monkey around.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>117334</StartMilliseconds>
+    <EndMilliseconds>120920</EndMilliseconds>
+    <Text>I'll need some magic."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>120921</StartMilliseconds>
+    <EndMilliseconds>125155</EndMilliseconds>
+    <Text>[g@Late that night a cold wind blew.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>125156</StartMilliseconds>
+    <EndMilliseconds>128942</EndMilliseconds>
+    <Text>A snowflake drifted to the ground.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>128943</StartMilliseconds>
+    <EndMilliseconds>133294</EndMilliseconds>
+    <Text>Then another one fell, and another.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>133295</StartMilliseconds>
+    <EndMilliseconds>135259</EndMilliseconds>
+    <Text>[g@Bajie couldn't sleep.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>135260</StartMilliseconds>
+    <EndMilliseconds>139497</EndMilliseconds>
+    <Text>"It's freezing in here," he said to himself.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>139498</StartMilliseconds>
+    <EndMilliseconds>142297</EndMilliseconds>
+    <Text>[g@He looked at Wukong and Wujing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>142298</StartMilliseconds>
+    <EndMilliseconds>145643</EndMilliseconds>
+    <Text>Both of them were sleeping soundly.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>145644</StartMilliseconds>
+    <EndMilliseconds>148941</EndMilliseconds>
+    <Text>"Those two look very comfortable," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>148942</StartMilliseconds>
+    <EndMilliseconds>153371</EndMilliseconds>
+    <Text>"Their blankets must be warmer than mine."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>153372</StartMilliseconds>
+    <EndMilliseconds>157493</EndMilliseconds>
+    <Text>In the morning Wukong woke up, shivering.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>157494</StartMilliseconds>
+    <EndMilliseconds>162787</EndMilliseconds>
+    <Text>"Th-that was a t-terrible night's sleep," he said to himself.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>162788</StartMilliseconds>
+    <EndMilliseconds>164860</EndMilliseconds>
+    <Text>[g@"I was so cold!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>164861</StartMilliseconds>
+    <EndMilliseconds>167339</EndMilliseconds>
+    <Text>He looked down at his body.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>167340</StartMilliseconds>
+    <EndMilliseconds>169258</EndMilliseconds>
+    <Text>[g@"No wonder I was cold!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>169259</StartMilliseconds>
+    <EndMilliseconds>171254</EndMilliseconds>
+    <Text>What happened to my blanket?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>171255</StartMilliseconds>
+    <EndMilliseconds>172940</EndMilliseconds>
+    <Text>Wujing woke up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>172941</StartMilliseconds>
+    <EndMilliseconds>177033</EndMilliseconds>
+    <Text>[g@"Why is it so cold in—ah-choo!—in here?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>177034</StartMilliseconds>
+    <EndMilliseconds>181414</EndMilliseconds>
+    <Text>Where did my blanket go?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>181415</StartMilliseconds>
+    <EndMilliseconds>183668</EndMilliseconds>
+    <Text>[g@They looked at Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>183669</StartMilliseconds>
+    <EndMilliseconds>187522</EndMilliseconds>
+    <Text>The pig was tucked cozily under three blankets.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>187523</StartMilliseconds>
+    <EndMilliseconds>191710</EndMilliseconds>
+    <Text>Even his head was covered.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>191711</StartMilliseconds>
+    <EndMilliseconds>193723</EndMilliseconds>
+    <Text>[g@Wukong gave him a kick.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>193724</StartMilliseconds>
+    <EndMilliseconds>196879</EndMilliseconds>
+    <Text>"Wake up, thief!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>196880</StartMilliseconds>
+    <EndMilliseconds>200378</EndMilliseconds>
+    <Text>Bajie rolled over, giggling under the blankets.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>200379</StartMilliseconds>
+    <EndMilliseconds>205503</EndMilliseconds>
+    <Text>Wujing frowned. "You stole our—ah-choo!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>205504</StartMilliseconds>
+    <EndMilliseconds>207945</EndMilliseconds>
+    <Text>[g@Wukong scratched his head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>207946</StartMilliseconds>
+    <EndMilliseconds>213289</EndMilliseconds>
+    <Text>"Why is it so cold anyway? It's spring."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>213290</StartMilliseconds>
+    <EndMilliseconds>215946</EndMilliseconds>
+    <Text>[g@He looked out the window and gasped.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>215947</StartMilliseconds>
+    <EndMilliseconds>218869</EndMilliseconds>
+    <Text>"It snowed last night!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>218870</StartMilliseconds>
+    <EndMilliseconds>222834</EndMilliseconds>
+    <Text>They woke the Tang Monk and Chen, and everyone went outside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>222835</StartMilliseconds>
+    <EndMilliseconds>227271</EndMilliseconds>
+    <Text>A thick blanket of snow covered the entire village.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>227272</StartMilliseconds>
+    <EndMilliseconds>231423</EndMilliseconds>
+    <Text>"It would be dangerous to cross the river in this weather," said Chen.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>231424</StartMilliseconds>
+    <EndMilliseconds>235086</EndMilliseconds>
+    <Text>"You should stay here until the snow melts."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>235087</StartMilliseconds>
+    <EndMilliseconds>237007</EndMilliseconds>
+    <Text>[g@A villager ran over.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>237008</StartMilliseconds>
+    <EndMilliseconds>240439</EndMilliseconds>
+    <Text>"The river is frozen solid!" he said.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>240440</StartMilliseconds>
+    <EndMilliseconds>241943</EndMilliseconds>
+    <Text>[g@"That's wonderful news!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>241944</StartMilliseconds>
+    <EndMilliseconds>243667</EndMilliseconds>
+    <Text>The Tang Monk smiled.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>243668</StartMilliseconds>
+    <EndMilliseconds>247664</EndMilliseconds>
+    <Text>"Maybe we can walk across it."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>247665</StartMilliseconds>
+    <EndMilliseconds>252205</EndMilliseconds>
+    <Text>The travelers thanked Chen and said good-bye.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>252206</StartMilliseconds>
+    <EndMilliseconds>255986</EndMilliseconds>
+    <Text>Soon they were standing at the edge of the frozen river.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>255987</StartMilliseconds>
+    <EndMilliseconds>259783</EndMilliseconds>
+    <Text>"I wonder if it's safe to walk on," said Wujing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>259784</StartMilliseconds>
+    <EndMilliseconds>263273</EndMilliseconds>
+    <Text>"I'll test it with my rake," said Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>263274</StartMilliseconds>
+    <EndMilliseconds>268332</EndMilliseconds>
+    <Text>The pig walked onto the ice and raised his rake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>268333</StartMilliseconds>
+    <EndMilliseconds>274122</EndMilliseconds>
+    <Text>[i@Slam!@i] He brought the rake down hard, but the ice didn't crack.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>274123</StartMilliseconds>
+    <EndMilliseconds>276468</EndMilliseconds>
+    <Text>"It's solid," he said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>276469</StartMilliseconds>
+    <EndMilliseconds>281857</EndMilliseconds>
+    <Text>The travelers stepped onto the ice and started walking.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>281858</StartMilliseconds>
+    <EndMilliseconds>286503</EndMilliseconds>
+    <Text>After a few hours, the riverbank was no longer in sight.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>286504</StartMilliseconds>
+    <EndMilliseconds>291214</EndMilliseconds>
+    <Text>Suddenly there was a rumbling sound, and the ice shook.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>291215</StartMilliseconds>
+    <EndMilliseconds>294073</EndMilliseconds>
+    <Text>"What caused that?" asked the monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>294074</StartMilliseconds>
+    <EndMilliseconds>297991</EndMilliseconds>
+    <Text>"I don't know," said Wukong, "But we should be—"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>297992</StartMilliseconds>
+    <EndMilliseconds>306853</EndMilliseconds>
+    <Text>[i@Crack!@i] Underneath them, the ice split wide open!</Text>
+  </Paragraph>
+</Subtitle>

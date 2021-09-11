@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>872</EndMilliseconds>
+    <Text>Dig a little hole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>873</StartMilliseconds>
+    <EndMilliseconds>1129</EndMilliseconds>
+    <Text>[@Dig@] a little hole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>1130</StartMilliseconds>
+    <EndMilliseconds>1358</EndMilliseconds>
+    <Text>Dig [@a@] little hole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>1359</StartMilliseconds>
+    <EndMilliseconds>1865</EndMilliseconds>
+    <Text>Dig a [@little@] hole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>1866</StartMilliseconds>
+    <EndMilliseconds>2695</EndMilliseconds>
+    <Text>Dig a little [@hole@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>2696</StartMilliseconds>
+    <EndMilliseconds>4550</EndMilliseconds>
+    <Text>Dig a little hole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>4551</StartMilliseconds>
+    <EndMilliseconds>4751</EndMilliseconds>
+    <Text>[e@Dig a little hole.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>4752</StartMilliseconds>
+    <EndMilliseconds>5687</EndMilliseconds>
+    <Text>Plant a little seed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>5688</StartMilliseconds>
+    <EndMilliseconds>6084</EndMilliseconds>
+    <Text>[@Plant@] a little seed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>6085</StartMilliseconds>
+    <EndMilliseconds>6313</EndMilliseconds>
+    <Text>Plant [@a@] little seed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>6314</StartMilliseconds>
+    <EndMilliseconds>6665</EndMilliseconds>
+    <Text>Plant a [@little@] seed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>6666</StartMilliseconds>
+    <EndMilliseconds>7589</EndMilliseconds>
+    <Text>Plant a little [@seed@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>7590</StartMilliseconds>
+    <EndMilliseconds>9523</EndMilliseconds>
+    <Text>Plant a little seed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>9524</StartMilliseconds>
+    <EndMilliseconds>9734</EndMilliseconds>
+    <Text>[e@Plant a little seed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>9735</StartMilliseconds>
+    <EndMilliseconds>10618</EndMilliseconds>
+    <Text>Pour a little water.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>10619</StartMilliseconds>
+    <EndMilliseconds>11099</EndMilliseconds>
+    <Text>[s@Pour a little water.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>11100</StartMilliseconds>
+    <EndMilliseconds>11486</EndMilliseconds>
+    <Text>[@Pour@] a little water.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>11487</StartMilliseconds>
+    <EndMilliseconds>11699</EndMilliseconds>
+    <Text>Pour [@a@] little water.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>11700</StartMilliseconds>
+    <EndMilliseconds>12099</EndMilliseconds>
+    <Text>Pour a [@little@] water.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>12100</StartMilliseconds>
+    <EndMilliseconds>13171</EndMilliseconds>
+    <Text>Pour a little [@water@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>13172</StartMilliseconds>
+    <EndMilliseconds>15397</EndMilliseconds>
+    <Text>Pour a little water.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>15398</StartMilliseconds>
+    <EndMilliseconds>15632</EndMilliseconds>
+    <Text>[e@Pour a little water.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>15633</StartMilliseconds>
+    <EndMilliseconds>16737</EndMilliseconds>
+    <Text>Pull a little weed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>16738</StartMilliseconds>
+    <EndMilliseconds>17048</EndMilliseconds>
+    <Text>[@Pull@] a little weed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>17049</StartMilliseconds>
+    <EndMilliseconds>17255</EndMilliseconds>
+    <Text>Pull [@a@] little weed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>17256</StartMilliseconds>
+    <EndMilliseconds>17644</EndMilliseconds>
+    <Text>Pull a [@little@] weed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>17645</StartMilliseconds>
+    <EndMilliseconds>18723</EndMilliseconds>
+    <Text>Pull a little [@weed@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>18724</StartMilliseconds>
+    <EndMilliseconds>21619</EndMilliseconds>
+    <Text>Pull a little weed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>21620</StartMilliseconds>
+    <EndMilliseconds>21822</EndMilliseconds>
+    <Text>[e@Pull a little weed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>21823</StartMilliseconds>
+    <EndMilliseconds>23537</EndMilliseconds>
+    <Text>Chase a little bug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>23538</StartMilliseconds>
+    <EndMilliseconds>24066</EndMilliseconds>
+    <Text>[s@Chase a little bug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>24067</StartMilliseconds>
+    <EndMilliseconds>24465</EndMilliseconds>
+    <Text>[@Chase@] a little bug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>24466</StartMilliseconds>
+    <EndMilliseconds>24652</EndMilliseconds>
+    <Text>Chase [@a@] little bug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>24653</StartMilliseconds>
+    <EndMilliseconds>25117</EndMilliseconds>
+    <Text>Chase a [@little@] bug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>25118</StartMilliseconds>
+    <EndMilliseconds>25920</EndMilliseconds>
+    <Text>Chase a little [@bug@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>25921</StartMilliseconds>
+    <EndMilliseconds>28902</EndMilliseconds>
+    <Text>Chase a little bug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>28903</StartMilliseconds>
+    <EndMilliseconds>29133</EndMilliseconds>
+    <Text>[e@Chase a little bug.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>29134</StartMilliseconds>
+    <EndMilliseconds>30023</EndMilliseconds>
+    <Text>Heigh-ho, there he goes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>30024</StartMilliseconds>
+    <EndMilliseconds>30692</EndMilliseconds>
+    <Text>[s@Heigh-ho, there he goes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>30693</StartMilliseconds>
+    <EndMilliseconds>31961</EndMilliseconds>
+    <Text>[@Heigh-ho@], there he goes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>31962</StartMilliseconds>
+    <EndMilliseconds>32292</EndMilliseconds>
+    <Text>Heigh-ho, [@there@] he goes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>32293</StartMilliseconds>
+    <EndMilliseconds>32511</EndMilliseconds>
+    <Text>Heigh-ho, there [@he@] goes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>32512</StartMilliseconds>
+    <EndMilliseconds>33472</EndMilliseconds>
+    <Text>Heigh-ho, there he [@goes@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>33473</StartMilliseconds>
+    <EndMilliseconds>36533</EndMilliseconds>
+    <Text>Heigh-ho, there he goes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>36534</StartMilliseconds>
+    <EndMilliseconds>36748</EndMilliseconds>
+    <Text>[e@Heigh-ho, there he goes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>36749</StartMilliseconds>
+    <EndMilliseconds>37692</EndMilliseconds>
+    <Text>Give a little sunshine.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>37693</StartMilliseconds>
+    <EndMilliseconds>38107</EndMilliseconds>
+    <Text>[s@Give a little sunshine.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>38108</StartMilliseconds>
+    <EndMilliseconds>38358</EndMilliseconds>
+    <Text>[@Give@] a little sunshine.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>38359</StartMilliseconds>
+    <EndMilliseconds>38577</EndMilliseconds>
+    <Text>Give [@a@] little sunshine.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>38578</StartMilliseconds>
+    <EndMilliseconds>39038</EndMilliseconds>
+    <Text>Give a [@little@] sunshine.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>39039</StartMilliseconds>
+    <EndMilliseconds>40430</EndMilliseconds>
+    <Text>Give a little [@sunshine@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>40431</StartMilliseconds>
+    <EndMilliseconds>43587</EndMilliseconds>
+    <Text>Give a little sunshine.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>43588</StartMilliseconds>
+    <EndMilliseconds>43792</EndMilliseconds>
+    <Text>[e@Give a little sunshine.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>43793</StartMilliseconds>
+    <EndMilliseconds>45002</EndMilliseconds>
+    <Text>Grow a little bean.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>45003</StartMilliseconds>
+    <EndMilliseconds>45516</EndMilliseconds>
+    <Text>[@Grow@] a little bean.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>45517</StartMilliseconds>
+    <EndMilliseconds>45786</EndMilliseconds>
+    <Text>Grow [@a@] little bean.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>45787</StartMilliseconds>
+    <EndMilliseconds>46330</EndMilliseconds>
+    <Text>Grow a [@little@] bean.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>46331</StartMilliseconds>
+    <EndMilliseconds>47452</EndMilliseconds>
+    <Text>Grow a little [@bean@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>47453</StartMilliseconds>
+    <EndMilliseconds>55782</EndMilliseconds>
+    <Text>Grow a little bean.</Text>
+  </Paragraph>
+</Subtitle>

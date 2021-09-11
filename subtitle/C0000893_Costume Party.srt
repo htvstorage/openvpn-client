@@ -1,0 +1,236 @@
+1
+00:00:06,750 --> 00:00:07,095
+Sally is a princess.
+
+2
+00:00:07,096 --> 00:00:07,876
+<font color="#ffff54">Sally</font> is a princess.
+
+3
+00:00:07,877 --> 00:00:08,139
+Sally <font color="#ffff54">is</font> a princess.
+
+4
+00:00:08,140 --> 00:00:08,382
+Sally is <font color="#ffff54">a</font> princess.
+
+5
+00:00:08,383 --> 00:00:09,546
+Sally is a <font color="#ffff54">princess</font>.
+
+6
+00:00:09,547 --> 00:00:15,067
+Sally is a princess.
+
+7
+00:00:15,068 --> 00:00:15,221
+<font color="#ffff54">Sally is a princess.</font>
+
+8
+00:00:15,222 --> 00:00:15,710
+Jack is a pirate.
+
+9
+00:00:15,711 --> 00:00:16,282
+<font color="#ffff54">Jack</font> is a pirate.
+
+10
+00:00:16,283 --> 00:00:16,526
+Jack <font color="#ffff54">is</font> a pirate.
+
+11
+00:00:16,527 --> 00:00:16,723
+Jack is <font color="#ffff54">a</font> pirate.
+
+12
+00:00:16,724 --> 00:00:18,025
+Jack is a <font color="#ffff54">pirate</font>.
+
+13
+00:00:18,026 --> 00:00:24,237
+Jack is a pirate.
+
+14
+00:00:24,238 --> 00:00:24,366
+<font color="#ffff54">Jack is a pirate.</font>
+
+15
+00:00:24,367 --> 00:00:24,832
+Jane is an astronaut.
+
+16
+00:00:24,833 --> 00:00:25,480
+<font color="#ffff54">Jane</font> is an astronaut.
+
+17
+00:00:25,481 --> 00:00:25,679
+Jane <font color="#ffff54">is</font> an astronaut.
+
+18
+00:00:25,680 --> 00:00:25,968
+Jane is <font color="#ffff54">an</font> astronaut.
+
+19
+00:00:25,969 --> 00:00:27,280
+Jane is an <font color="#ffff54">astronaut</font>.
+
+20
+00:00:27,281 --> 00:00:32,007
+Jane is an astronaut.
+
+21
+00:00:32,008 --> 00:00:32,168
+<font color="#ffff54">Jane is an astronaut.</font>
+
+22
+00:00:32,169 --> 00:00:32,698
+Tommy is a clown.
+
+23
+00:00:32,699 --> 00:00:33,341
+<font color="#ffff54">Tommy</font> is a clown.
+
+24
+00:00:33,342 --> 00:00:33,575
+Tommy <font color="#ffff54">is</font> a clown.
+
+25
+00:00:33,576 --> 00:00:33,785
+Tommy is <font color="#ffff54">a</font> clown.
+
+26
+00:00:33,786 --> 00:00:34,979
+Tommy is a <font color="#ffff54">clown</font>.
+
+27
+00:00:34,980 --> 00:00:39,535
+Tommy is a clown.
+
+28
+00:00:39,536 --> 00:00:39,686
+<font color="#ffff54">Tommy is a clown.</font>
+
+29
+00:00:39,687 --> 00:00:40,096
+Lisa is an angel.
+
+30
+00:00:40,097 --> 00:00:40,909
+<font color="#ffff54">Lisa</font> is an angel.
+
+31
+00:00:40,910 --> 00:00:41,210
+Lisa <font color="#ffff54">is</font> an angel.
+
+32
+00:00:41,211 --> 00:00:41,464
+Lisa is <font color="#ffff54">an</font> angel.
+
+33
+00:00:41,465 --> 00:00:42,512
+Lisa is an <font color="#ffff54">angel</font>.
+
+34
+00:00:42,513 --> 00:00:47,987
+Lisa is an angel.
+
+35
+00:00:47,988 --> 00:00:48,157
+<font color="#ffff54">Lisa is an angel.</font>
+
+36
+00:00:48,158 --> 00:00:48,709
+Jason is a cowboy.
+
+37
+00:00:48,710 --> 00:00:49,485
+<font color="#ffff54">Jason</font> is a cowboy.
+
+38
+00:00:49,486 --> 00:00:49,746
+Jason <font color="#ffff54">is</font> a cowboy.
+
+39
+00:00:49,747 --> 00:00:49,947
+Jason is <font color="#ffff54">a</font> cowboy.
+
+40
+00:00:49,948 --> 00:00:51,142
+Jason is a <font color="#ffff54">cowboy</font>.
+
+41
+00:00:51,143 --> 00:00:56,194
+Jason is a cowboy.
+
+42
+00:00:56,195 --> 00:00:56,368
+<font color="#ffff54">Jason is a cowboy.</font>
+
+43
+00:00:56,369 --> 00:00:56,574
+Julie is a wizard.
+
+44
+00:00:56,575 --> 00:00:57,253
+<font color="#ffff54">Julie</font> is a wizard.
+
+45
+00:00:57,254 --> 00:00:57,618
+Julie <font color="#ffff54">is</font> a wizard.
+
+46
+00:00:57,619 --> 00:00:57,815
+Julie is <font color="#ffff54">a</font> wizard.
+
+47
+00:00:57,816 --> 00:00:58,794
+Julie is a <font color="#ffff54">wizard</font>.
+
+48
+00:00:58,795 --> 00:01:02,868
+Julie is a wizard.
+
+49
+00:01:02,869 --> 00:01:03,032
+<font color="#ffff54">Julie is a wizard.</font>
+
+50
+00:01:03,033 --> 00:01:03,705
+I am a ghost.
+
+51
+00:01:03,706 --> 00:01:04,283
+<font color="#ffff54">I</font> am a ghost.
+
+52
+00:01:04,284 --> 00:01:04,609
+I <font color="#ffff54">am</font> a ghost.
+
+53
+00:01:04,610 --> 00:01:04,920
+I am <font color="#ffff54">a</font> ghost.
+
+54
+00:01:04,921 --> 00:01:06,016
+I am a <font color="#ffff54">ghost</font>.
+
+55
+00:01:06,017 --> 00:01:06,709
+I am a ghost.
+
+56
+00:01:06,710 --> 00:01:06,826
+<font color="#ffff54">I am a ghost.</font>
+
+57
+00:01:06,827 --> 00:01:09,150
+Boo!
+
+58
+00:01:09,151 --> 00:01:10,108
+<font color="#ffff54">Boo</font>!
+
+59
+00:01:10,109 --> 00:01:12,804
+Boo!
+

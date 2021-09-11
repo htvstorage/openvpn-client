@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>2991</EndMilliseconds>
+    <Text>This is Snowball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>2992</StartMilliseconds>
+    <EndMilliseconds>3466</EndMilliseconds>
+    <Text>[@This@] is Snowball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3467</StartMilliseconds>
+    <EndMilliseconds>3759</EndMilliseconds>
+    <Text>This [@is@] Snowball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>3760</StartMilliseconds>
+    <EndMilliseconds>4686</EndMilliseconds>
+    <Text>This is [@Snowball@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>4687</StartMilliseconds>
+    <EndMilliseconds>4963</EndMilliseconds>
+    <Text>This is Snowball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>4964</StartMilliseconds>
+    <EndMilliseconds>5100</EndMilliseconds>
+    <Text>[e@This is Snowball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>5101</StartMilliseconds>
+    <EndMilliseconds>5935</EndMilliseconds>
+    <Text>I love her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>5936</StartMilliseconds>
+    <EndMilliseconds>6375</EndMilliseconds>
+    <Text>[@I@] love her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>6376</StartMilliseconds>
+    <EndMilliseconds>6719</EndMilliseconds>
+    <Text>I [@love@] her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>6720</StartMilliseconds>
+    <EndMilliseconds>7385</EndMilliseconds>
+    <Text>I love [@her@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>7386</StartMilliseconds>
+    <EndMilliseconds>8126</EndMilliseconds>
+    <Text>I love her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>8127</StartMilliseconds>
+    <EndMilliseconds>8275</EndMilliseconds>
+    <Text>[e@I love her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>8276</StartMilliseconds>
+    <EndMilliseconds>11973</EndMilliseconds>
+    <Text>I feed her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>11974</StartMilliseconds>
+    <EndMilliseconds>12577</EndMilliseconds>
+    <Text>[s@I feed her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>12578</StartMilliseconds>
+    <EndMilliseconds>12918</EndMilliseconds>
+    <Text>[@I@] feed her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>12919</StartMilliseconds>
+    <EndMilliseconds>13259</EndMilliseconds>
+    <Text>I [@feed@] her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>13260</StartMilliseconds>
+    <EndMilliseconds>13832</EndMilliseconds>
+    <Text>I feed [@her@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>13833</StartMilliseconds>
+    <EndMilliseconds>14385</EndMilliseconds>
+    <Text>I feed her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>14386</StartMilliseconds>
+    <EndMilliseconds>14547</EndMilliseconds>
+    <Text>[e@I feed her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>14548</StartMilliseconds>
+    <EndMilliseconds>16187</EndMilliseconds>
+    <Text>I pet her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>16188</StartMilliseconds>
+    <EndMilliseconds>16321</EndMilliseconds>
+    <Text>[s@I pet her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>16322</StartMilliseconds>
+    <EndMilliseconds>16580</EndMilliseconds>
+    <Text>[@I@] pet her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>16581</StartMilliseconds>
+    <EndMilliseconds>16853</EndMilliseconds>
+    <Text>I [@pet@] her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>16854</StartMilliseconds>
+    <EndMilliseconds>17449</EndMilliseconds>
+    <Text>I pet [@her@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>17450</StartMilliseconds>
+    <EndMilliseconds>18383</EndMilliseconds>
+    <Text>I pet her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>18384</StartMilliseconds>
+    <EndMilliseconds>18555</EndMilliseconds>
+    <Text>[e@I pet her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>18556</StartMilliseconds>
+    <EndMilliseconds>23817</EndMilliseconds>
+    <Text>I play with her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>23818</StartMilliseconds>
+    <EndMilliseconds>24603</EndMilliseconds>
+    <Text>[s@I play with her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>24604</StartMilliseconds>
+    <EndMilliseconds>25024</EndMilliseconds>
+    <Text>[@I@] play with her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>25025</StartMilliseconds>
+    <EndMilliseconds>25433</EndMilliseconds>
+    <Text>I [@play@] with her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>25434</StartMilliseconds>
+    <EndMilliseconds>25611</EndMilliseconds>
+    <Text>I play [@with@] her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>25612</StartMilliseconds>
+    <EndMilliseconds>26196</EndMilliseconds>
+    <Text>I play with [@her@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>26197</StartMilliseconds>
+    <EndMilliseconds>26784</EndMilliseconds>
+    <Text>I play with her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>26785</StartMilliseconds>
+    <EndMilliseconds>26959</EndMilliseconds>
+    <Text>[e@I play with her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>26960</StartMilliseconds>
+    <EndMilliseconds>27667</EndMilliseconds>
+    <Text>I wash her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>27668</StartMilliseconds>
+    <EndMilliseconds>28023</EndMilliseconds>
+    <Text>[@I@] wash her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>28024</StartMilliseconds>
+    <EndMilliseconds>28451</EndMilliseconds>
+    <Text>I [@wash@] her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>28452</StartMilliseconds>
+    <EndMilliseconds>28984</EndMilliseconds>
+    <Text>I wash [@her@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>28985</StartMilliseconds>
+    <EndMilliseconds>30426</EndMilliseconds>
+    <Text>I wash her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>30427</StartMilliseconds>
+    <EndMilliseconds>30603</EndMilliseconds>
+    <Text>[e@I wash her.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>30604</StartMilliseconds>
+    <EndMilliseconds>31566</EndMilliseconds>
+    <Text>I chase her!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>31567</StartMilliseconds>
+    <EndMilliseconds>32037</EndMilliseconds>
+    <Text>[s@I chase her!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>32038</StartMilliseconds>
+    <EndMilliseconds>32399</EndMilliseconds>
+    <Text>[@I@] chase her!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>32400</StartMilliseconds>
+    <EndMilliseconds>32856</EndMilliseconds>
+    <Text>I [@chase@] her!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>32857</StartMilliseconds>
+    <EndMilliseconds>33524</EndMilliseconds>
+    <Text>I chase [@her@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>33525</StartMilliseconds>
+    <EndMilliseconds>38001</EndMilliseconds>
+    <Text>I chase her!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>38002</StartMilliseconds>
+    <EndMilliseconds>39169</EndMilliseconds>
+    <Text>[e@I chase her!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>39170</StartMilliseconds>
+    <EndMilliseconds>40353</EndMilliseconds>
+    <Text>Come back, Snowball!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>40354</StartMilliseconds>
+    <EndMilliseconds>41495</EndMilliseconds>
+    <Text>[s@Come back, Snowball!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>41496</StartMilliseconds>
+    <EndMilliseconds>41902</EndMilliseconds>
+    <Text>[@Come@] back, Snowball!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>41903</StartMilliseconds>
+    <EndMilliseconds>42239</EndMilliseconds>
+    <Text>Come [@back@], Snowball!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>42240</StartMilliseconds>
+    <EndMilliseconds>43442</EndMilliseconds>
+    <Text>Come back, [@Snowball@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>43443</StartMilliseconds>
+    <EndMilliseconds>45182</EndMilliseconds>
+    <Text>Come back, Snowball!</Text>
+  </Paragraph>
+</Subtitle>

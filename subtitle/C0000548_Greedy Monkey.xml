@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>134</StartMilliseconds>
+    <EndMilliseconds>5991</EndMilliseconds>
+    <Text>I want an apple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>5992</StartMilliseconds>
+    <EndMilliseconds>6445</EndMilliseconds>
+    <Text>[@I@] want an apple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>6446</StartMilliseconds>
+    <EndMilliseconds>6835</EndMilliseconds>
+    <Text>I [@want@] an apple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>6836</StartMilliseconds>
+    <EndMilliseconds>7030</EndMilliseconds>
+    <Text>I want [@an@] apple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>7031</StartMilliseconds>
+    <EndMilliseconds>7891</EndMilliseconds>
+    <Text>I want an [@apple@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>7892</StartMilliseconds>
+    <EndMilliseconds>12622</EndMilliseconds>
+    <Text>I want an apple.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>12623</StartMilliseconds>
+    <EndMilliseconds>15762</EndMilliseconds>
+    <Text>I want a banana.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>15763</StartMilliseconds>
+    <EndMilliseconds>16302</EndMilliseconds>
+    <Text>[@I@] want a banana.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>16303</StartMilliseconds>
+    <EndMilliseconds>16620</EndMilliseconds>
+    <Text>I [@want@] a banana.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>16621</StartMilliseconds>
+    <EndMilliseconds>16793</EndMilliseconds>
+    <Text>I want [@a@] banana.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>16794</StartMilliseconds>
+    <EndMilliseconds>17812</EndMilliseconds>
+    <Text>I want a [@banana@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>17813</StartMilliseconds>
+    <EndMilliseconds>22054</EndMilliseconds>
+    <Text>I want a banana.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>22055</StartMilliseconds>
+    <EndMilliseconds>25163</EndMilliseconds>
+    <Text>I want a pear.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>25164</StartMilliseconds>
+    <EndMilliseconds>25635</EndMilliseconds>
+    <Text>[@I@] want a pear.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>25636</StartMilliseconds>
+    <EndMilliseconds>25992</EndMilliseconds>
+    <Text>I [@want@] a pear.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>25993</StartMilliseconds>
+    <EndMilliseconds>26363</EndMilliseconds>
+    <Text>I want [@a@] pear.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>26364</StartMilliseconds>
+    <EndMilliseconds>27076</EndMilliseconds>
+    <Text>I want a [@pear@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>27077</StartMilliseconds>
+    <EndMilliseconds>30899</EndMilliseconds>
+    <Text>I want a pear.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>30900</StartMilliseconds>
+    <EndMilliseconds>34393</EndMilliseconds>
+    <Text>I want an orange.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>34394</StartMilliseconds>
+    <EndMilliseconds>34819</EndMilliseconds>
+    <Text>[@I@] want an orange.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>34820</StartMilliseconds>
+    <EndMilliseconds>35147</EndMilliseconds>
+    <Text>I [@want@] an orange.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>35148</StartMilliseconds>
+    <EndMilliseconds>35435</EndMilliseconds>
+    <Text>I want [@an@] orange.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>35436</StartMilliseconds>
+    <EndMilliseconds>36468</EndMilliseconds>
+    <Text>I want an [@orange@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>36469</StartMilliseconds>
+    <EndMilliseconds>40114</EndMilliseconds>
+    <Text>I want an orange.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>40115</StartMilliseconds>
+    <EndMilliseconds>43163</EndMilliseconds>
+    <Text>I want a peach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>43164</StartMilliseconds>
+    <EndMilliseconds>43670</EndMilliseconds>
+    <Text>[@I@] want a peach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>43671</StartMilliseconds>
+    <EndMilliseconds>44026</EndMilliseconds>
+    <Text>I [@want@] a peach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>44027</StartMilliseconds>
+    <EndMilliseconds>44203</EndMilliseconds>
+    <Text>I want [@a@] peach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>44204</StartMilliseconds>
+    <EndMilliseconds>45011</EndMilliseconds>
+    <Text>I want a [@peach@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>45012</StartMilliseconds>
+    <EndMilliseconds>48411</EndMilliseconds>
+    <Text>I want a peach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>48412</StartMilliseconds>
+    <EndMilliseconds>50345</EndMilliseconds>
+    <Text>I want a strawberry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>50346</StartMilliseconds>
+    <EndMilliseconds>50822</EndMilliseconds>
+    <Text>[@I@] want a strawberry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>50823</StartMilliseconds>
+    <EndMilliseconds>51133</EndMilliseconds>
+    <Text>I [@want@] a strawberry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>51134</StartMilliseconds>
+    <EndMilliseconds>51383</EndMilliseconds>
+    <Text>I want [@a@] strawberry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>51384</StartMilliseconds>
+    <EndMilliseconds>52560</EndMilliseconds>
+    <Text>I want a [@strawberry@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>52561</StartMilliseconds>
+    <EndMilliseconds>55677</EndMilliseconds>
+    <Text>I want a strawberry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>55678</StartMilliseconds>
+    <EndMilliseconds>57854</EndMilliseconds>
+    <Text>I want a watermelon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>57855</StartMilliseconds>
+    <EndMilliseconds>58267</EndMilliseconds>
+    <Text>[@I@] want a watermelon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>58268</StartMilliseconds>
+    <EndMilliseconds>58628</EndMilliseconds>
+    <Text>I [@want@] a watermelon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>58629</StartMilliseconds>
+    <EndMilliseconds>58810</EndMilliseconds>
+    <Text>I want [@a@] watermelon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>58811</StartMilliseconds>
+    <EndMilliseconds>59855</EndMilliseconds>
+    <Text>I want a [@watermelon@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>59856</StartMilliseconds>
+    <EndMilliseconds>63584</EndMilliseconds>
+    <Text>I want a watermelon.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>63585</StartMilliseconds>
+    <EndMilliseconds>66900</EndMilliseconds>
+    <Text>Oh! Poor monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>66901</StartMilliseconds>
+    <EndMilliseconds>67938</EndMilliseconds>
+    <Text>[@Oh@]! Poor monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>67939</StartMilliseconds>
+    <EndMilliseconds>68547</EndMilliseconds>
+    <Text>Oh! [@Poor@] monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>68548</StartMilliseconds>
+    <EndMilliseconds>69478</EndMilliseconds>
+    <Text>Oh! Poor [@monkey@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>69479</StartMilliseconds>
+    <EndMilliseconds>72682</EndMilliseconds>
+    <Text>Oh! Poor monkey.</Text>
+  </Paragraph>
+</Subtitle>

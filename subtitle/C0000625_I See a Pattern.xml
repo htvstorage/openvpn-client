@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>193</EndMilliseconds>
+    <Text>I see a pattern in the sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>194</StartMilliseconds>
+    <EndMilliseconds>488</EndMilliseconds>
+    <Text>[@I@] see a pattern in the sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>489</StartMilliseconds>
+    <EndMilliseconds>716</EndMilliseconds>
+    <Text>I [@see@] a pattern in the sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>717</StartMilliseconds>
+    <EndMilliseconds>896</EndMilliseconds>
+    <Text>I see [@a@] pattern in the sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>897</StartMilliseconds>
+    <EndMilliseconds>1370</EndMilliseconds>
+    <Text>I see a [@pattern@] in the sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>1371</StartMilliseconds>
+    <EndMilliseconds>1555</EndMilliseconds>
+    <Text>I see a pattern [@in@] the sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>1556</StartMilliseconds>
+    <EndMilliseconds>1704</EndMilliseconds>
+    <Text>I see a pattern in [@the@] sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>1705</StartMilliseconds>
+    <EndMilliseconds>2683</EndMilliseconds>
+    <Text>I see a pattern in the [@sky@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>2684</StartMilliseconds>
+    <EndMilliseconds>4947</EndMilliseconds>
+    <Text>I see a pattern in the sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>4948</StartMilliseconds>
+    <EndMilliseconds>5137</EndMilliseconds>
+    <Text>[e@I see a pattern in the sky.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>5138</StartMilliseconds>
+    <EndMilliseconds>5508</EndMilliseconds>
+    <Text>I see a pattern at the beach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>5509</StartMilliseconds>
+    <EndMilliseconds>5806</EndMilliseconds>
+    <Text>[@I@] see a pattern at the beach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>5807</StartMilliseconds>
+    <EndMilliseconds>6054</EndMilliseconds>
+    <Text>I [@see@] a pattern at the beach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>6055</StartMilliseconds>
+    <EndMilliseconds>6259</EndMilliseconds>
+    <Text>I see [@a@] pattern at the beach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>6260</StartMilliseconds>
+    <EndMilliseconds>6723</EndMilliseconds>
+    <Text>I see a [@pattern@] at the beach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>6724</StartMilliseconds>
+    <EndMilliseconds>6924</EndMilliseconds>
+    <Text>I see a pattern [@at@] the beach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>6925</StartMilliseconds>
+    <EndMilliseconds>7084</EndMilliseconds>
+    <Text>I see a pattern at [@the@] beach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>7085</StartMilliseconds>
+    <EndMilliseconds>7788</EndMilliseconds>
+    <Text>I see a pattern at the [@beach@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>7789</StartMilliseconds>
+    <EndMilliseconds>11681</EndMilliseconds>
+    <Text>I see a pattern at the beach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>11682</StartMilliseconds>
+    <EndMilliseconds>11880</EndMilliseconds>
+    <Text>[e@I see a pattern at the beach.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>11881</StartMilliseconds>
+    <EndMilliseconds>12382</EndMilliseconds>
+    <Text>I see a pattern at the store.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>12383</StartMilliseconds>
+    <EndMilliseconds>12713</EndMilliseconds>
+    <Text>[@I@] see a pattern at the store.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>12714</StartMilliseconds>
+    <EndMilliseconds>12925</EndMilliseconds>
+    <Text>I [@see@] a pattern at the store.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>12926</StartMilliseconds>
+    <EndMilliseconds>13115</EndMilliseconds>
+    <Text>I see [@a@] pattern at the store.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>13116</StartMilliseconds>
+    <EndMilliseconds>13625</EndMilliseconds>
+    <Text>I see a [@pattern@] at the store.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>13626</StartMilliseconds>
+    <EndMilliseconds>13805</EndMilliseconds>
+    <Text>I see a pattern [@at@] the store.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>13806</StartMilliseconds>
+    <EndMilliseconds>13979</EndMilliseconds>
+    <Text>I see a pattern at [@the@] store.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>13980</StartMilliseconds>
+    <EndMilliseconds>14833</EndMilliseconds>
+    <Text>I see a pattern at the [@store@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>14834</StartMilliseconds>
+    <EndMilliseconds>17351</EndMilliseconds>
+    <Text>I see a pattern at the store.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>17352</StartMilliseconds>
+    <EndMilliseconds>17538</EndMilliseconds>
+    <Text>[e@I see a pattern at the store.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>17539</StartMilliseconds>
+    <EndMilliseconds>17824</EndMilliseconds>
+    <Text>I see a pattern in the garden.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>17825</StartMilliseconds>
+    <EndMilliseconds>18135</EndMilliseconds>
+    <Text>[@I@] see a pattern in the garden.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>18136</StartMilliseconds>
+    <EndMilliseconds>18328</EndMilliseconds>
+    <Text>I [@see@] a pattern in the garden.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>18329</StartMilliseconds>
+    <EndMilliseconds>18521</EndMilliseconds>
+    <Text>I see [@a@] pattern in the garden.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>18522</StartMilliseconds>
+    <EndMilliseconds>18984</EndMilliseconds>
+    <Text>I see a [@pattern@] in the garden.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>18985</StartMilliseconds>
+    <EndMilliseconds>19170</EndMilliseconds>
+    <Text>I see a pattern [@in@] the garden.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>19171</StartMilliseconds>
+    <EndMilliseconds>19319</EndMilliseconds>
+    <Text>I see a pattern in [@the@] garden.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>19320</StartMilliseconds>
+    <EndMilliseconds>19974</EndMilliseconds>
+    <Text>I see a pattern in the [@garden@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>19975</StartMilliseconds>
+    <EndMilliseconds>23289</EndMilliseconds>
+    <Text>I see a pattern in the garden.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>23290</StartMilliseconds>
+    <EndMilliseconds>23488</EndMilliseconds>
+    <Text>[e@I see a pattern in the garden.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>23489</StartMilliseconds>
+    <EndMilliseconds>23764</EndMilliseconds>
+    <Text>I see a pattern on the school.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>23765</StartMilliseconds>
+    <EndMilliseconds>24060</EndMilliseconds>
+    <Text>[@I@] see a pattern on the school.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>24061</StartMilliseconds>
+    <EndMilliseconds>24224</EndMilliseconds>
+    <Text>I [@see@] a pattern on the school.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>24225</StartMilliseconds>
+    <EndMilliseconds>24386</EndMilliseconds>
+    <Text>I see [@a@] pattern on the school.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>24387</StartMilliseconds>
+    <EndMilliseconds>24774</EndMilliseconds>
+    <Text>I see a [@pattern@] on the school.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>24775</StartMilliseconds>
+    <EndMilliseconds>24930</EndMilliseconds>
+    <Text>I see a pattern [@on@] the school.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>24931</StartMilliseconds>
+    <EndMilliseconds>25068</EndMilliseconds>
+    <Text>I see a pattern on [@the@] school.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>25069</StartMilliseconds>
+    <EndMilliseconds>25812</EndMilliseconds>
+    <Text>I see a pattern on the [@school@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>25813</StartMilliseconds>
+    <EndMilliseconds>29235</EndMilliseconds>
+    <Text>I see a pattern on the school.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>29236</StartMilliseconds>
+    <EndMilliseconds>29412</EndMilliseconds>
+    <Text>[e@I see a pattern on the school.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>29413</StartMilliseconds>
+    <EndMilliseconds>29841</EndMilliseconds>
+    <Text>I see a pattern in the parking lot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>29842</StartMilliseconds>
+    <EndMilliseconds>30136</EndMilliseconds>
+    <Text>[@I@] see a pattern in the parking lot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>30137</StartMilliseconds>
+    <EndMilliseconds>30329</EndMilliseconds>
+    <Text>I [@see@] a pattern in the parking lot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>30330</StartMilliseconds>
+    <EndMilliseconds>30509</EndMilliseconds>
+    <Text>I see [@a@] pattern in the parking lot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>30510</StartMilliseconds>
+    <EndMilliseconds>30924</EndMilliseconds>
+    <Text>I see a [@pattern@] in the parking lot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>30925</StartMilliseconds>
+    <EndMilliseconds>31103</EndMilliseconds>
+    <Text>I see a pattern [@in@] the parking lot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>31104</StartMilliseconds>
+    <EndMilliseconds>31271</EndMilliseconds>
+    <Text>I see a pattern in [@the@] parking lot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>31272</StartMilliseconds>
+    <EndMilliseconds>31628</EndMilliseconds>
+    <Text>I see a pattern in the [@parking@] lot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>31629</StartMilliseconds>
+    <EndMilliseconds>32252</EndMilliseconds>
+    <Text>I see a pattern in the parking [@lot@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>32253</StartMilliseconds>
+    <EndMilliseconds>34980</EndMilliseconds>
+    <Text>I see a pattern in the parking lot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>34981</StartMilliseconds>
+    <EndMilliseconds>35157</EndMilliseconds>
+    <Text>[e@I see a pattern in the parking lot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>35158</StartMilliseconds>
+    <EndMilliseconds>35490</EndMilliseconds>
+    <Text>I see a pattern on the sidewalk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>35491</StartMilliseconds>
+    <EndMilliseconds>35795</EndMilliseconds>
+    <Text>[@I@] see a pattern on the sidewalk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>35796</StartMilliseconds>
+    <EndMilliseconds>36038</EndMilliseconds>
+    <Text>I [@see@] a pattern on the sidewalk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>36039</StartMilliseconds>
+    <EndMilliseconds>36232</EndMilliseconds>
+    <Text>I see [@a@] pattern on the sidewalk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>36233</StartMilliseconds>
+    <EndMilliseconds>36637</EndMilliseconds>
+    <Text>I see a [@pattern@] on the sidewalk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>36638</StartMilliseconds>
+    <EndMilliseconds>36834</EndMilliseconds>
+    <Text>I see a pattern [@on@] the sidewalk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>36835</StartMilliseconds>
+    <EndMilliseconds>37001</EndMilliseconds>
+    <Text>I see a pattern on [@the@] sidewalk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>37002</StartMilliseconds>
+    <EndMilliseconds>37979</EndMilliseconds>
+    <Text>I see a pattern on the [@sidewalk@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>37980</StartMilliseconds>
+    <EndMilliseconds>41158</EndMilliseconds>
+    <Text>I see a pattern on the sidewalk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>41159</StartMilliseconds>
+    <EndMilliseconds>41344</EndMilliseconds>
+    <Text>[e@I see a pattern on the sidewalk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>41345</StartMilliseconds>
+    <EndMilliseconds>41716</EndMilliseconds>
+    <Text>I see a pattern on my shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>41717</StartMilliseconds>
+    <EndMilliseconds>42017</EndMilliseconds>
+    <Text>[@I@] see a pattern on my shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>42018</StartMilliseconds>
+    <EndMilliseconds>42231</EndMilliseconds>
+    <Text>I [@see@] a pattern on my shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>42232</StartMilliseconds>
+    <EndMilliseconds>42414</EndMilliseconds>
+    <Text>I see [@a@] pattern on my shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>42415</StartMilliseconds>
+    <EndMilliseconds>42795</EndMilliseconds>
+    <Text>I see a [@pattern@] on my shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>42796</StartMilliseconds>
+    <EndMilliseconds>43021</EndMilliseconds>
+    <Text>I see a pattern [@on@] my shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>43022</StartMilliseconds>
+    <EndMilliseconds>43208</EndMilliseconds>
+    <Text>I see a pattern on [@my@] shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>43209</StartMilliseconds>
+    <EndMilliseconds>43960</EndMilliseconds>
+    <Text>I see a pattern on my [@shirt@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>43961</StartMilliseconds>
+    <EndMilliseconds>47459</EndMilliseconds>
+    <Text>I see a pattern on my shirt.</Text>
+  </Paragraph>
+</Subtitle>

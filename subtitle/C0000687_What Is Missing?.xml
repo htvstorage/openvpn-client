@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1249</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1250</StartMilliseconds>
+    <EndMilliseconds>1510</EndMilliseconds>
+    <Text>[@What@] is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>1511</StartMilliseconds>
+    <EndMilliseconds>1746</EndMilliseconds>
+    <Text>What [@is@] missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>1747</StartMilliseconds>
+    <EndMilliseconds>2418</EndMilliseconds>
+    <Text>What is [@missing@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>2419</StartMilliseconds>
+    <EndMilliseconds>3951</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>3952</StartMilliseconds>
+    <EndMilliseconds>4930</EndMilliseconds>
+    <Text>The eye is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>4931</StartMilliseconds>
+    <EndMilliseconds>5114</EndMilliseconds>
+    <Text>[@The@] eye is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>5115</StartMilliseconds>
+    <EndMilliseconds>5460</EndMilliseconds>
+    <Text>The [@eye@] is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>5461</StartMilliseconds>
+    <EndMilliseconds>5622</EndMilliseconds>
+    <Text>The eye [@is@] missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>5623</StartMilliseconds>
+    <EndMilliseconds>6317</EndMilliseconds>
+    <Text>The eye is [@missing@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>6318</StartMilliseconds>
+    <EndMilliseconds>7981</EndMilliseconds>
+    <Text>The eye is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>7982</StartMilliseconds>
+    <EndMilliseconds>8232</EndMilliseconds>
+    <Text>[e@The eye is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>8233</StartMilliseconds>
+    <EndMilliseconds>9219</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>9220</StartMilliseconds>
+    <EndMilliseconds>9495</EndMilliseconds>
+    <Text>[@What@] is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>9496</StartMilliseconds>
+    <EndMilliseconds>9662</EndMilliseconds>
+    <Text>What [@is@] missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>9663</StartMilliseconds>
+    <EndMilliseconds>10348</EndMilliseconds>
+    <Text>What is [@missing@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>10349</StartMilliseconds>
+    <EndMilliseconds>11875</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>11876</StartMilliseconds>
+    <EndMilliseconds>13012</EndMilliseconds>
+    <Text>The door is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>13013</StartMilliseconds>
+    <EndMilliseconds>13362</EndMilliseconds>
+    <Text>[@The@] door is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>13363</StartMilliseconds>
+    <EndMilliseconds>13760</EndMilliseconds>
+    <Text>The [@door@] is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>13761</StartMilliseconds>
+    <EndMilliseconds>14043</EndMilliseconds>
+    <Text>The door [@is@] missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>14044</StartMilliseconds>
+    <EndMilliseconds>14587</EndMilliseconds>
+    <Text>The door is [@missing@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>14588</StartMilliseconds>
+    <EndMilliseconds>16299</EndMilliseconds>
+    <Text>The door is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>16300</StartMilliseconds>
+    <EndMilliseconds>16537</EndMilliseconds>
+    <Text>[e@The door is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>16538</StartMilliseconds>
+    <EndMilliseconds>17659</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>17660</StartMilliseconds>
+    <EndMilliseconds>18087</EndMilliseconds>
+    <Text>[s@What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>18088</StartMilliseconds>
+    <EndMilliseconds>18323</EndMilliseconds>
+    <Text>[@What@] is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>18324</StartMilliseconds>
+    <EndMilliseconds>18511</EndMilliseconds>
+    <Text>What [@is@] missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>18512</StartMilliseconds>
+    <EndMilliseconds>19063</EndMilliseconds>
+    <Text>What is [@missing@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>19064</StartMilliseconds>
+    <EndMilliseconds>20771</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>20772</StartMilliseconds>
+    <EndMilliseconds>21746</EndMilliseconds>
+    <Text>The handle is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>21747</StartMilliseconds>
+    <EndMilliseconds>22038</EndMilliseconds>
+    <Text>[@The@] handle is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>22039</StartMilliseconds>
+    <EndMilliseconds>22498</EndMilliseconds>
+    <Text>The [@handle@] is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>22499</StartMilliseconds>
+    <EndMilliseconds>22696</EndMilliseconds>
+    <Text>The handle [@is@] missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>22697</StartMilliseconds>
+    <EndMilliseconds>23296</EndMilliseconds>
+    <Text>The handle is [@missing@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>23297</StartMilliseconds>
+    <EndMilliseconds>25256</EndMilliseconds>
+    <Text>The handle is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>25257</StartMilliseconds>
+    <EndMilliseconds>25541</EndMilliseconds>
+    <Text>[e@The handle is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>25542</StartMilliseconds>
+    <EndMilliseconds>26806</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>26807</StartMilliseconds>
+    <EndMilliseconds>27112</EndMilliseconds>
+    <Text>[@What@] is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>27113</StartMilliseconds>
+    <EndMilliseconds>27310</EndMilliseconds>
+    <Text>What [@is@] missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>27311</StartMilliseconds>
+    <EndMilliseconds>27984</EndMilliseconds>
+    <Text>What is [@missing@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>27985</StartMilliseconds>
+    <EndMilliseconds>29508</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>29509</StartMilliseconds>
+    <EndMilliseconds>30567</EndMilliseconds>
+    <Text>The button is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>30568</StartMilliseconds>
+    <EndMilliseconds>30867</EndMilliseconds>
+    <Text>[@The@] button is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>30868</StartMilliseconds>
+    <EndMilliseconds>31225</EndMilliseconds>
+    <Text>The [@button@] is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>31226</StartMilliseconds>
+    <EndMilliseconds>31451</EndMilliseconds>
+    <Text>The button [@is@] missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>31452</StartMilliseconds>
+    <EndMilliseconds>32061</EndMilliseconds>
+    <Text>The button is [@missing@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>32062</StartMilliseconds>
+    <EndMilliseconds>34195</EndMilliseconds>
+    <Text>The button is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>34196</StartMilliseconds>
+    <EndMilliseconds>34411</EndMilliseconds>
+    <Text>[e@The button is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>34412</StartMilliseconds>
+    <EndMilliseconds>35672</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>35673</StartMilliseconds>
+    <EndMilliseconds>36015</EndMilliseconds>
+    <Text>[@What@] is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>36016</StartMilliseconds>
+    <EndMilliseconds>36199</EndMilliseconds>
+    <Text>What [@is@] missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>36200</StartMilliseconds>
+    <EndMilliseconds>36941</EndMilliseconds>
+    <Text>What is [@missing@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>36942</StartMilliseconds>
+    <EndMilliseconds>38360</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>38361</StartMilliseconds>
+    <EndMilliseconds>39229</EndMilliseconds>
+    <Text>The lid is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>39230</StartMilliseconds>
+    <EndMilliseconds>39616</EndMilliseconds>
+    <Text>[@The@] lid is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>39617</StartMilliseconds>
+    <EndMilliseconds>39940</EndMilliseconds>
+    <Text>The [@lid@] is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>39941</StartMilliseconds>
+    <EndMilliseconds>40119</EndMilliseconds>
+    <Text>The lid [@is@] missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>40120</StartMilliseconds>
+    <EndMilliseconds>40853</EndMilliseconds>
+    <Text>The lid is [@missing@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>40854</StartMilliseconds>
+    <EndMilliseconds>42933</EndMilliseconds>
+    <Text>The lid is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>42934</StartMilliseconds>
+    <EndMilliseconds>43152</EndMilliseconds>
+    <Text>[e@The lid is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>43153</StartMilliseconds>
+    <EndMilliseconds>44442</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>44443</StartMilliseconds>
+    <EndMilliseconds>44715</EndMilliseconds>
+    <Text>[@What@] is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>44716</StartMilliseconds>
+    <EndMilliseconds>44963</EndMilliseconds>
+    <Text>What [@is@] missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>44964</StartMilliseconds>
+    <EndMilliseconds>45589</EndMilliseconds>
+    <Text>What is [@missing@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>45590</StartMilliseconds>
+    <EndMilliseconds>47115</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>47116</StartMilliseconds>
+    <EndMilliseconds>48001</EndMilliseconds>
+    <Text>The mouse is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>48002</StartMilliseconds>
+    <EndMilliseconds>48290</EndMilliseconds>
+    <Text>[@The@] mouse is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>48291</StartMilliseconds>
+    <EndMilliseconds>48652</EndMilliseconds>
+    <Text>The [@mouse@] is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>48653</StartMilliseconds>
+    <EndMilliseconds>48831</EndMilliseconds>
+    <Text>The mouse [@is@] missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>48832</StartMilliseconds>
+    <EndMilliseconds>49518</EndMilliseconds>
+    <Text>The mouse is [@missing@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>49519</StartMilliseconds>
+    <EndMilliseconds>51719</EndMilliseconds>
+    <Text>The mouse is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>51720</StartMilliseconds>
+    <EndMilliseconds>51944</EndMilliseconds>
+    <Text>[e@The mouse is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>51945</StartMilliseconds>
+    <EndMilliseconds>53523</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>53524</StartMilliseconds>
+    <EndMilliseconds>53814</EndMilliseconds>
+    <Text>[@What@] is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>53815</StartMilliseconds>
+    <EndMilliseconds>54023</EndMilliseconds>
+    <Text>What [@is@] missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>54024</StartMilliseconds>
+    <EndMilliseconds>54723</EndMilliseconds>
+    <Text>What is [@missing@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>54724</StartMilliseconds>
+    <EndMilliseconds>56186</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>56187</StartMilliseconds>
+    <EndMilliseconds>57213</EndMilliseconds>
+    <Text>The wheel is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>57214</StartMilliseconds>
+    <EndMilliseconds>57605</EndMilliseconds>
+    <Text>[@The@] wheel is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>57606</StartMilliseconds>
+    <EndMilliseconds>58063</EndMilliseconds>
+    <Text>The [@wheel@] is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>58064</StartMilliseconds>
+    <EndMilliseconds>58262</EndMilliseconds>
+    <Text>The wheel [@is@] missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>58263</StartMilliseconds>
+    <EndMilliseconds>58873</EndMilliseconds>
+    <Text>The wheel is [@missing@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>58874</StartMilliseconds>
+    <EndMilliseconds>60804</EndMilliseconds>
+    <Text>The wheel is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>60805</StartMilliseconds>
+    <EndMilliseconds>61042</EndMilliseconds>
+    <Text>[e@The wheel is missing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>61043</StartMilliseconds>
+    <EndMilliseconds>61862</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>61863</StartMilliseconds>
+    <EndMilliseconds>62596</EndMilliseconds>
+    <Text>[s@What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>62597</StartMilliseconds>
+    <EndMilliseconds>62935</EndMilliseconds>
+    <Text>[@What@] is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>62936</StartMilliseconds>
+    <EndMilliseconds>63168</EndMilliseconds>
+    <Text>What [@is@] missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>63169</StartMilliseconds>
+    <EndMilliseconds>63766</EndMilliseconds>
+    <Text>What is [@missing@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>91</Number>
+    <StartMilliseconds>63767</StartMilliseconds>
+    <EndMilliseconds>65340</EndMilliseconds>
+    <Text>What is missing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>92</Number>
+    <StartMilliseconds>65341</StartMilliseconds>
+    <EndMilliseconds>66385</EndMilliseconds>
+    <Text>My tooth is missing!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>93</Number>
+    <StartMilliseconds>66386</StartMilliseconds>
+    <EndMilliseconds>66838</EndMilliseconds>
+    <Text>[@My@] tooth is missing!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>94</Number>
+    <StartMilliseconds>66839</StartMilliseconds>
+    <EndMilliseconds>67202</EndMilliseconds>
+    <Text>My [@tooth@] is missing!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>95</Number>
+    <StartMilliseconds>67203</StartMilliseconds>
+    <EndMilliseconds>67450</EndMilliseconds>
+    <Text>My tooth [@is@] missing!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>96</Number>
+    <StartMilliseconds>67451</StartMilliseconds>
+    <EndMilliseconds>68091</EndMilliseconds>
+    <Text>My tooth is [@missing@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>97</Number>
+    <StartMilliseconds>68092</StartMilliseconds>
+    <EndMilliseconds>70786</EndMilliseconds>
+    <Text>My tooth is missing!</Text>
+  </Paragraph>
+</Subtitle>

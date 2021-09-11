@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1735</EndMilliseconds>
+    <Text>Look at the elephant!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1736</StartMilliseconds>
+    <EndMilliseconds>2252</EndMilliseconds>
+    <Text>[@Look@] at the elephant!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>2253</StartMilliseconds>
+    <EndMilliseconds>2546</EndMilliseconds>
+    <Text>Look [@at@] the elephant!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2547</StartMilliseconds>
+    <EndMilliseconds>2818</EndMilliseconds>
+    <Text>Look at [@the@] elephant!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>2819</StartMilliseconds>
+    <EndMilliseconds>4009</EndMilliseconds>
+    <Text>Look at the [@elephant@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>4010</StartMilliseconds>
+    <EndMilliseconds>7687</EndMilliseconds>
+    <Text>Look at the elephant!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>7688</StartMilliseconds>
+    <EndMilliseconds>7956</EndMilliseconds>
+    <Text>[e@Look at the elephant!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>7957</StartMilliseconds>
+    <EndMilliseconds>8446</EndMilliseconds>
+    <Text>Look at the tiger!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>8447</StartMilliseconds>
+    <EndMilliseconds>8951</EndMilliseconds>
+    <Text>[@Look@] at the tiger!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>8952</StartMilliseconds>
+    <EndMilliseconds>9228</EndMilliseconds>
+    <Text>Look [@at@] the tiger!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>9229</StartMilliseconds>
+    <EndMilliseconds>9518</EndMilliseconds>
+    <Text>Look at [@the@] tiger!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>9519</StartMilliseconds>
+    <EndMilliseconds>10563</EndMilliseconds>
+    <Text>Look at the [@tiger@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>10564</StartMilliseconds>
+    <EndMilliseconds>13238</EndMilliseconds>
+    <Text>Look at the tiger!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>13239</StartMilliseconds>
+    <EndMilliseconds>13468</EndMilliseconds>
+    <Text>[e@Look at the tiger!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>13470</StartMilliseconds>
+    <EndMilliseconds>14146</EndMilliseconds>
+    <Text>Look at the camel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>14147</StartMilliseconds>
+    <EndMilliseconds>14685</EndMilliseconds>
+    <Text>[@Look@] at the camel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>14686</StartMilliseconds>
+    <EndMilliseconds>14957</EndMilliseconds>
+    <Text>Look [@at@] the camel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>14958</StartMilliseconds>
+    <EndMilliseconds>15163</EndMilliseconds>
+    <Text>Look at [@the@] camel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>15164</StartMilliseconds>
+    <EndMilliseconds>16175</EndMilliseconds>
+    <Text>Look at the [@camel@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>16176</StartMilliseconds>
+    <EndMilliseconds>19888</EndMilliseconds>
+    <Text>Look at the camel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>19889</StartMilliseconds>
+    <EndMilliseconds>20144</EndMilliseconds>
+    <Text>[e@Look at the camel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>20145</StartMilliseconds>
+    <EndMilliseconds>20556</EndMilliseconds>
+    <Text>Look at the giraffe!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>20557</StartMilliseconds>
+    <EndMilliseconds>20935</EndMilliseconds>
+    <Text>[@Look@] at the giraffe!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>20936</StartMilliseconds>
+    <EndMilliseconds>21205</EndMilliseconds>
+    <Text>Look [@at@] the giraffe!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>21206</StartMilliseconds>
+    <EndMilliseconds>21432</EndMilliseconds>
+    <Text>Look at [@the@] giraffe!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>21433</StartMilliseconds>
+    <EndMilliseconds>22446</EndMilliseconds>
+    <Text>Look at the [@giraffe@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>22447</StartMilliseconds>
+    <EndMilliseconds>24704</EndMilliseconds>
+    <Text>Look at the giraffe!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>24705</StartMilliseconds>
+    <EndMilliseconds>24949</EndMilliseconds>
+    <Text>[e@Look at the giraffe!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>24950</StartMilliseconds>
+    <EndMilliseconds>25728</EndMilliseconds>
+    <Text>Look at the monkeys!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>25729</StartMilliseconds>
+    <EndMilliseconds>26240</EndMilliseconds>
+    <Text>[@Look@] at the monkeys!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>26241</StartMilliseconds>
+    <EndMilliseconds>26549</EndMilliseconds>
+    <Text>Look [@at@] the monkeys!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>26550</StartMilliseconds>
+    <EndMilliseconds>26807</EndMilliseconds>
+    <Text>Look at [@the@] monkeys!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>26808</StartMilliseconds>
+    <EndMilliseconds>27879</EndMilliseconds>
+    <Text>Look at the [@monkeys@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>27880</StartMilliseconds>
+    <EndMilliseconds>31255</EndMilliseconds>
+    <Text>Look at the monkeys!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>31256</StartMilliseconds>
+    <EndMilliseconds>31483</EndMilliseconds>
+    <Text>[e@Look at the monkeys!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>31484</StartMilliseconds>
+    <EndMilliseconds>32223</EndMilliseconds>
+    <Text>Look at the zebra!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>32224</StartMilliseconds>
+    <EndMilliseconds>32767</EndMilliseconds>
+    <Text>[@Look@] at the zebra!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>32768</StartMilliseconds>
+    <EndMilliseconds>33065</EndMilliseconds>
+    <Text>Look [@at@] the zebra!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>33066</StartMilliseconds>
+    <EndMilliseconds>33293</EndMilliseconds>
+    <Text>Look at [@the@] zebra!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>33294</StartMilliseconds>
+    <EndMilliseconds>34207</EndMilliseconds>
+    <Text>Look at the [@zebra@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>34208</StartMilliseconds>
+    <EndMilliseconds>37233</EndMilliseconds>
+    <Text>Look at the zebra!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>37234</StartMilliseconds>
+    <EndMilliseconds>37484</EndMilliseconds>
+    <Text>[e@Look at the zebra!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>37485</StartMilliseconds>
+    <EndMilliseconds>38250</EndMilliseconds>
+    <Text>Look at the rhino!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>38251</StartMilliseconds>
+    <EndMilliseconds>38705</EndMilliseconds>
+    <Text>[@Look@] at the rhino!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>38706</StartMilliseconds>
+    <EndMilliseconds>39011</EndMilliseconds>
+    <Text>Look [@at@] the rhino!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>39012</StartMilliseconds>
+    <EndMilliseconds>39246</EndMilliseconds>
+    <Text>Look at [@the@] rhino!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>39247</StartMilliseconds>
+    <EndMilliseconds>40252</EndMilliseconds>
+    <Text>Look at the [@rhino@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>40253</StartMilliseconds>
+    <EndMilliseconds>43415</EndMilliseconds>
+    <Text>Look at the rhino!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>43416</StartMilliseconds>
+    <EndMilliseconds>43669</EndMilliseconds>
+    <Text>[e@Look at the rhino!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>43670</StartMilliseconds>
+    <EndMilliseconds>44269</EndMilliseconds>
+    <Text>Where are you going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>44270</StartMilliseconds>
+    <EndMilliseconds>44777</EndMilliseconds>
+    <Text>[@Where@] are you going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>44778</StartMilliseconds>
+    <EndMilliseconds>45007</EndMilliseconds>
+    <Text>Where [@are@] you going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>45008</StartMilliseconds>
+    <EndMilliseconds>45277</EndMilliseconds>
+    <Text>Where are [@you@] going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>45278</StartMilliseconds>
+    <EndMilliseconds>46033</EndMilliseconds>
+    <Text>Where are you [@going@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>46034</StartMilliseconds>
+    <EndMilliseconds>47444</EndMilliseconds>
+    <Text>Where are you going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>47445</StartMilliseconds>
+    <EndMilliseconds>47612</EndMilliseconds>
+    <Text>[e@Where are you going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>47613</StartMilliseconds>
+    <EndMilliseconds>47859</EndMilliseconds>
+    <Text>We are going to our new home.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>47860</StartMilliseconds>
+    <EndMilliseconds>48098</EndMilliseconds>
+    <Text>[@We@] are going to our new home.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>48099</StartMilliseconds>
+    <EndMilliseconds>48391</EndMilliseconds>
+    <Text>We [@are@] going to our new home.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>48392</StartMilliseconds>
+    <EndMilliseconds>48798</EndMilliseconds>
+    <Text>We are [@going@] to our new home.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>48799</StartMilliseconds>
+    <EndMilliseconds>48962</EndMilliseconds>
+    <Text>We are going [@to@] our new home.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>48963</StartMilliseconds>
+    <EndMilliseconds>49368</EndMilliseconds>
+    <Text>We are going to [@our@] new home.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>49369</StartMilliseconds>
+    <EndMilliseconds>49594</EndMilliseconds>
+    <Text>We are going to our [@new@] home.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>49595</StartMilliseconds>
+    <EndMilliseconds>50525</EndMilliseconds>
+    <Text>We are going to our new [@home@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>50526</StartMilliseconds>
+    <EndMilliseconds>67237</EndMilliseconds>
+    <Text>We are going to our new home.</Text>
+  </Paragraph>
+</Subtitle>

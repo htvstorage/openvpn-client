@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>5271</EndMilliseconds>
+    <Text>[g@"This is ridiculous," said the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>5272</StartMilliseconds>
+    <EndMilliseconds>7807</EndMilliseconds>
+    <Text>"Why are we under arrest?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>7808</StartMilliseconds>
+    <EndMilliseconds>12174</EndMilliseconds>
+    <Text>Soldiers were bringing the travelers back to the town.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>12175</StartMilliseconds>
+    <EndMilliseconds>17325</EndMilliseconds>
+    <Text>"You robbed Squire Kou's house last night," said one of the soldiers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>17326</StartMilliseconds>
+    <EndMilliseconds>19635</EndMilliseconds>
+    <Text>[g@"What!" cried Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>19636</StartMilliseconds>
+    <EndMilliseconds>21968</EndMilliseconds>
+    <Text>"We would never rob somebody.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>21969</StartMilliseconds>
+    <EndMilliseconds>26214</EndMilliseconds>
+    <Text>Especially not the squire—he was kind to us!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>26215</StartMilliseconds>
+    <EndMilliseconds>30308</EndMilliseconds>
+    <Text>"You had all the stolen items," replied the soldier.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>30309</StartMilliseconds>
+    <EndMilliseconds>34338</EndMilliseconds>
+    <Text>"You also had the two horses that were stolen from his stable."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>34339</StartMilliseconds>
+    <EndMilliseconds>38674</EndMilliseconds>
+    <Text>"We got everything from the real robbers," said the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>38675</StartMilliseconds>
+    <EndMilliseconds>42077</EndMilliseconds>
+    <Text>"We were going to return it all to Squire Kou!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>42078</StartMilliseconds>
+    <EndMilliseconds>44623</EndMilliseconds>
+    <Text>[g@The soldier laughed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>44624</StartMilliseconds>
+    <EndMilliseconds>48668</EndMilliseconds>
+    <Text>"Oh? You got everything from the [i@real@i] robbers?@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>48669</StartMilliseconds>
+    <EndMilliseconds>53170</EndMilliseconds>
+    <Text>Tell me, where are the [i@real@i] robbers now? Hmm?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>53171</StartMilliseconds>
+    <EndMilliseconds>55973</EndMilliseconds>
+    <Text>[g@Wukong sighed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>55974</StartMilliseconds>
+    <EndMilliseconds>57890</EndMilliseconds>
+    <Text>"I let them go."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>57891</StartMilliseconds>
+    <EndMilliseconds>60598</EndMilliseconds>
+    <Text>[g@The soldier laughed again.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>60599</StartMilliseconds>
+    <EndMilliseconds>63565</EndMilliseconds>
+    <Text>"Oh, that was very kind of you!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>63566</StartMilliseconds>
+    <EndMilliseconds>69899</EndMilliseconds>
+    <Text>Wukong could tell that the soldier didn't believe him.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>69900</StartMilliseconds>
+    <EndMilliseconds>72353</EndMilliseconds>
+    <Text>[g@By now they had reached the town.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>72354</StartMilliseconds>
+    <EndMilliseconds>76852</EndMilliseconds>
+    <Text>A crowd of people had gathered to watch.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>76853</StartMilliseconds>
+    <EndMilliseconds>80629</EndMilliseconds>
+    <Text>The soldiers brought the travelers into the courthouse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>80630</StartMilliseconds>
+    <EndMilliseconds>83648</EndMilliseconds>
+    <Text>[g@The judge frowned at the monk and the others.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>83649</StartMilliseconds>
+    <EndMilliseconds>85672</EndMilliseconds>
+    <Text>"Lock them up!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>85673</StartMilliseconds>
+    <EndMilliseconds>89027</EndMilliseconds>
+    <Text>"This is a mistake," the Tang Monk pleaded.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>89028</StartMilliseconds>
+    <EndMilliseconds>90909</EndMilliseconds>
+    <Text>[g@"We can't go to jail.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>90910</StartMilliseconds>
+    <EndMilliseconds>94713</EndMilliseconds>
+    <Text>We're making an important journey to visit Buddha."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>94714</StartMilliseconds>
+    <EndMilliseconds>96618</EndMilliseconds>
+    <Text>The judge shook his head.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>96619</StartMilliseconds>
+    <EndMilliseconds>100678</EndMilliseconds>
+    <Text>"Buddha doesn't allow killers in the Western Paradise."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>100679</StartMilliseconds>
+    <EndMilliseconds>103015</EndMilliseconds>
+    <Text>[g@"Killers?" said Wujing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>103016</StartMilliseconds>
+    <EndMilliseconds>105510</EndMilliseconds>
+    <Text>"What are you talking about?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>105511</StartMilliseconds>
+    <EndMilliseconds>108899</EndMilliseconds>
+    <Text>"You killed Squire Kou," said the judge.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>108900</StartMilliseconds>
+    <EndMilliseconds>111258</EndMilliseconds>
+    <Text>[g@The Tang Monk's face went pale.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>111259</StartMilliseconds>
+    <EndMilliseconds>113344</EndMilliseconds>
+    <Text>"The squire is dead?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>113345</StartMilliseconds>
+    <EndMilliseconds>115909</EndMilliseconds>
+    <Text>[g@The judge narrowed his eyes at the monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>115910</StartMilliseconds>
+    <EndMilliseconds>123058</EndMilliseconds>
+    <Text>"Yes. And Lady Kou saw you do it."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>123059</StartMilliseconds>
+    <EndMilliseconds>128783</EndMilliseconds>
+    <Text>The travelers were shoved into a jail cell, and the door was slammed shut.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>128784</StartMilliseconds>
+    <EndMilliseconds>132623</EndMilliseconds>
+    <Text>[g@The Tang Monk started to cry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>132624</StartMilliseconds>
+    <EndMilliseconds>135652</EndMilliseconds>
+    <Text>"This is terrible!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>135653</StartMilliseconds>
+    <EndMilliseconds>138074</EndMilliseconds>
+    <Text>[g@Bajie made a fist.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>138075</StartMilliseconds>
+    <EndMilliseconds>140912</EndMilliseconds>
+    <Text>"Lady Kou framed us!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>140913</StartMilliseconds>
+    <EndMilliseconds>143712</EndMilliseconds>
+    <Text>[g@"Yes," said Wujing, nodding.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>143713</StartMilliseconds>
+    <EndMilliseconds>147208</EndMilliseconds>
+    <Text>"But why?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>147209</StartMilliseconds>
+    <EndMilliseconds>150681</EndMilliseconds>
+    <Text>"I'll find out tonight," promised Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>150682</StartMilliseconds>
+    <EndMilliseconds>151919</EndMilliseconds>
+    <Text>[g@"Thank you, Wukong."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>151920</StartMilliseconds>
+    <EndMilliseconds>154068</EndMilliseconds>
+    <Text>The Tang Monk looked grateful.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>154069</StartMilliseconds>
+    <EndMilliseconds>158392</EndMilliseconds>
+    <Text>"We must prove our innocence!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>158393</StartMilliseconds>
+    <EndMilliseconds>167208</EndMilliseconds>
+    <Text>That night Wukong turned into a bee and flew out of [n@the jail and to Squire Kou's house.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>167209</StartMilliseconds>
+    <EndMilliseconds>171755</EndMilliseconds>
+    <Text>He found Lady Kou mourning over a coffin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>171756</StartMilliseconds>
+    <EndMilliseconds>176936</EndMilliseconds>
+    <Text>The monkey changed back into himself and hid behind a curtain.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>176937</StartMilliseconds>
+    <EndMilliseconds>179593</EndMilliseconds>
+    <Text>[g@Imitating the squire's voice, he said,</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>179594</StartMilliseconds>
+    <EndMilliseconds>183041</EndMilliseconds>
+    <Text>"My lady! It's me, your husband."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>183042</StartMilliseconds>
+    <EndMilliseconds>186068</EndMilliseconds>
+    <Text>[g@Lady Kou's eyes went wide.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>186069</StartMilliseconds>
+    <EndMilliseconds>189942</EndMilliseconds>
+    <Text>"Husband? Is it really you?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>189943</StartMilliseconds>
+    <EndMilliseconds>192054</EndMilliseconds>
+    <Text>"Yes," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>192055</StartMilliseconds>
+    <EndMilliseconds>196594</EndMilliseconds>
+    <Text>"Why did you tell the judge that the Tang Monk [n@and his companions killed me?"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>196595</StartMilliseconds>
+    <EndMilliseconds>198507</EndMilliseconds>
+    <Text>[g@Lady Kou hesitated.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>198508</StartMilliseconds>
+    <EndMilliseconds>202135</EndMilliseconds>
+    <Text>"I . . . I was angry with them.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>202136</StartMilliseconds>
+    <EndMilliseconds>206512</EndMilliseconds>
+    <Text>You wanted them to stay here, but they insisted on leaving.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>206513</StartMilliseconds>
+    <EndMilliseconds>210352</EndMilliseconds>
+    <Text>That was an insult to us."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>210353</StartMilliseconds>
+    <EndMilliseconds>214603</EndMilliseconds>
+    <Text>"You have done a terrible thing!" thundered Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>214604</StartMilliseconds>
+    <EndMilliseconds>218989</EndMilliseconds>
+    <Text>The walls of the house shook, and Lady Kou trembled.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>218990</StartMilliseconds>
+    <EndMilliseconds>220776</EndMilliseconds>
+    <Text>The monkey continued.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>220777</StartMilliseconds>
+    <EndMilliseconds>226215</EndMilliseconds>
+    <Text>"Tomorrow you must tell the judge that the Tang Monk [n@and his companions are innocent.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>226216</StartMilliseconds>
+    <EndMilliseconds>231415</EndMilliseconds>
+    <Text>If you don't, I will haunt you for the rest of your life!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>231416</StartMilliseconds>
+    <EndMilliseconds>235400</EndMilliseconds>
+    <Text>Tears poured from the woman's eyes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>235401</StartMilliseconds>
+    <EndMilliseconds>239361</EndMilliseconds>
+    <Text>[g@"I will talk to the judge tomorrow, I promise.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>239362</StartMilliseconds>
+    <EndMilliseconds>243196</EndMilliseconds>
+    <Text>Please don't haunt me!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>243197</StartMilliseconds>
+    <EndMilliseconds>246466</EndMilliseconds>
+    <Text>Wukong flew back to the courthouse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>246467</StartMilliseconds>
+    <EndMilliseconds>250594</EndMilliseconds>
+    <Text>He saw the judge sitting at a desk, reading some papers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>250595</StartMilliseconds>
+    <EndMilliseconds>256496</EndMilliseconds>
+    <Text>Wukong flew over the roof.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>256497</StartMilliseconds>
+    <EndMilliseconds>262133</EndMilliseconds>
+    <Text>Then he turned into an enormous spirit body and lowered one foot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>262134</StartMilliseconds>
+    <EndMilliseconds>266193</EndMilliseconds>
+    <Text>When the judge saw the giant foot, he gasped.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>266194</StartMilliseconds>
+    <EndMilliseconds>268750</EndMilliseconds>
+    <Text>The papers fell from his hands.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>268751</StartMilliseconds>
+    <EndMilliseconds>271124</EndMilliseconds>
+    <Text>Wukong's voice boomed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>271125</StartMilliseconds>
+    <EndMilliseconds>277562</EndMilliseconds>
+    <Text>"I am the Wandering Spirit, and I was sent here by Buddha.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>277563</StartMilliseconds>
+    <EndMilliseconds>283942</EndMilliseconds>
+    <Text>Lady Kou lied to you—the Tang Monk didn't kill Squire Kou.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>283943</StartMilliseconds>
+    <EndMilliseconds>287427</EndMilliseconds>
+    <Text>The monk is on an important journey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>287428</StartMilliseconds>
+    <EndMilliseconds>293352</EndMilliseconds>
+    <Text>If you don't free him and his companions, I will lower my other foot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>293353</StartMilliseconds>
+    <EndMilliseconds>302852</EndMilliseconds>
+    <Text>Then I will stomp all over this town until there is nothing left!"</Text>
+  </Paragraph>
+</Subtitle>

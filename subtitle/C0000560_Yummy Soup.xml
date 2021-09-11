@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>101</StartMilliseconds>
+    <EndMilliseconds>8055</EndMilliseconds>
+    <Text>They are beans.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>8056</StartMilliseconds>
+    <EndMilliseconds>8430</EndMilliseconds>
+    <Text>[@They@] are beans.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>8431</StartMilliseconds>
+    <EndMilliseconds>8721</EndMilliseconds>
+    <Text>They [@are@] beans.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>8722</StartMilliseconds>
+    <EndMilliseconds>9659</EndMilliseconds>
+    <Text>They are [@beans@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>9660</StartMilliseconds>
+    <EndMilliseconds>15667</EndMilliseconds>
+    <Text>They are beans.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>15668</StartMilliseconds>
+    <EndMilliseconds>20332</EndMilliseconds>
+    <Text>They are onions.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>20333</StartMilliseconds>
+    <EndMilliseconds>20738</EndMilliseconds>
+    <Text>[@They@] are onions.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>20739</StartMilliseconds>
+    <EndMilliseconds>20991</EndMilliseconds>
+    <Text>They [@are@] onions.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>20992</StartMilliseconds>
+    <EndMilliseconds>22015</EndMilliseconds>
+    <Text>They are [@onions@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>22016</StartMilliseconds>
+    <EndMilliseconds>28046</EndMilliseconds>
+    <Text>They are onions.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>28047</StartMilliseconds>
+    <EndMilliseconds>32366</EndMilliseconds>
+    <Text>They are carrots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>32367</StartMilliseconds>
+    <EndMilliseconds>32725</EndMilliseconds>
+    <Text>[@They@] are carrots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>32726</StartMilliseconds>
+    <EndMilliseconds>33053</EndMilliseconds>
+    <Text>They [@are@] carrots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>33054</StartMilliseconds>
+    <EndMilliseconds>34092</EndMilliseconds>
+    <Text>They are [@carrots@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>34093</StartMilliseconds>
+    <EndMilliseconds>40022</EndMilliseconds>
+    <Text>They are carrots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>40023</StartMilliseconds>
+    <EndMilliseconds>44366</EndMilliseconds>
+    <Text>They are potatoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>44367</StartMilliseconds>
+    <EndMilliseconds>44655</EndMilliseconds>
+    <Text>[@They@] are potatoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>44656</StartMilliseconds>
+    <EndMilliseconds>44952</EndMilliseconds>
+    <Text>They [@are@] potatoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>44953</StartMilliseconds>
+    <EndMilliseconds>46093</EndMilliseconds>
+    <Text>They are [@potatoes@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>46094</StartMilliseconds>
+    <EndMilliseconds>51835</EndMilliseconds>
+    <Text>They are potatoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>51836</StartMilliseconds>
+    <EndMilliseconds>56273</EndMilliseconds>
+    <Text>They are mushrooms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>56274</StartMilliseconds>
+    <EndMilliseconds>56554</EndMilliseconds>
+    <Text>[@They@] are mushrooms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>56555</StartMilliseconds>
+    <EndMilliseconds>56778</EndMilliseconds>
+    <Text>They [@are@] mushrooms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>56779</StartMilliseconds>
+    <EndMilliseconds>58005</EndMilliseconds>
+    <Text>They are [@mushrooms@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>58006</StartMilliseconds>
+    <EndMilliseconds>63879</EndMilliseconds>
+    <Text>They are mushrooms.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>63880</StartMilliseconds>
+    <EndMilliseconds>68176</EndMilliseconds>
+    <Text>They are tomatoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>68177</StartMilliseconds>
+    <EndMilliseconds>68465</EndMilliseconds>
+    <Text>[@They@] are tomatoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>68466</StartMilliseconds>
+    <EndMilliseconds>68767</EndMilliseconds>
+    <Text>They [@are@] tomatoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>68768</StartMilliseconds>
+    <EndMilliseconds>69937</EndMilliseconds>
+    <Text>They are [@tomatoes@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>69938</StartMilliseconds>
+    <EndMilliseconds>75906</EndMilliseconds>
+    <Text>They are tomatoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>75907</StartMilliseconds>
+    <EndMilliseconds>80328</EndMilliseconds>
+    <Text>They are red peppers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>80329</StartMilliseconds>
+    <EndMilliseconds>80594</EndMilliseconds>
+    <Text>[@They@] are red peppers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>80595</StartMilliseconds>
+    <EndMilliseconds>80844</EndMilliseconds>
+    <Text>They [@are@] red peppers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>80845</StartMilliseconds>
+    <EndMilliseconds>81305</EndMilliseconds>
+    <Text>They are [@red@] peppers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>81306</StartMilliseconds>
+    <EndMilliseconds>82320</EndMilliseconds>
+    <Text>They are red [@peppers@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>82321</StartMilliseconds>
+    <EndMilliseconds>101342</EndMilliseconds>
+    <Text>They are red peppers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>101343</StartMilliseconds>
+    <EndMilliseconds>105413</EndMilliseconds>
+    <Text>Wow! Yummy soup.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>105414</StartMilliseconds>
+    <EndMilliseconds>106827</EndMilliseconds>
+    <Text>[@Wow@]! Yummy soup.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>106828</StartMilliseconds>
+    <EndMilliseconds>107561</EndMilliseconds>
+    <Text>Wow! [@Yummy@] soup.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>107562</StartMilliseconds>
+    <EndMilliseconds>108741</EndMilliseconds>
+    <Text>Wow! Yummy [@soup@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>108742</StartMilliseconds>
+    <EndMilliseconds>111390</EndMilliseconds>
+    <Text>Wow! Yummy soup.</Text>
+  </Paragraph>
+</Subtitle>

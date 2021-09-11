@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>5747</EndMilliseconds>
+    <Text>Freddy hops in yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>5748</StartMilliseconds>
+    <EndMilliseconds>6173</EndMilliseconds>
+    <Text>[@Freddy@] hops in yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>6174</StartMilliseconds>
+    <EndMilliseconds>6678</EndMilliseconds>
+    <Text>Freddy [@hops@] in yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>6679</StartMilliseconds>
+    <EndMilliseconds>6909</EndMilliseconds>
+    <Text>Freddy hops [@in@] yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>6910</StartMilliseconds>
+    <EndMilliseconds>7849</EndMilliseconds>
+    <Text>Freddy hops in [@yellow@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>7850</StartMilliseconds>
+    <EndMilliseconds>9983</EndMilliseconds>
+    <Text>Freddy hops in yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>9984</StartMilliseconds>
+    <EndMilliseconds>10147</EndMilliseconds>
+    <Text>[e@Freddy hops in yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>10148</StartMilliseconds>
+    <EndMilliseconds>10582</EndMilliseconds>
+    <Text>Freddy hops in red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>10583</StartMilliseconds>
+    <EndMilliseconds>11093</EndMilliseconds>
+    <Text>[@Freddy@] hops in red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>11094</StartMilliseconds>
+    <EndMilliseconds>11523</EndMilliseconds>
+    <Text>Freddy [@hops@] in red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>11524</StartMilliseconds>
+    <EndMilliseconds>11712</EndMilliseconds>
+    <Text>Freddy hops [@in@] red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>11713</StartMilliseconds>
+    <EndMilliseconds>12576</EndMilliseconds>
+    <Text>Freddy hops in [@red@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>12577</StartMilliseconds>
+    <EndMilliseconds>14139</EndMilliseconds>
+    <Text>Freddy hops in red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>14140</StartMilliseconds>
+    <EndMilliseconds>14299</EndMilliseconds>
+    <Text>[e@Freddy hops in red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>14300</StartMilliseconds>
+    <EndMilliseconds>15191</EndMilliseconds>
+    <Text>Freddy is orange!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>15192</StartMilliseconds>
+    <EndMilliseconds>15654</EndMilliseconds>
+    <Text>[@Freddy@] is orange!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>15655</StartMilliseconds>
+    <EndMilliseconds>15930</EndMilliseconds>
+    <Text>Freddy [@is@] orange!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>15931</StartMilliseconds>
+    <EndMilliseconds>16873</EndMilliseconds>
+    <Text>Freddy is [@orange@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>16874</StartMilliseconds>
+    <EndMilliseconds>17071</EndMilliseconds>
+    <Text>Freddy is orange!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>17072</StartMilliseconds>
+    <EndMilliseconds>17162</EndMilliseconds>
+    <Text>[e@Freddy is orange!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>17163</StartMilliseconds>
+    <EndMilliseconds>18112</EndMilliseconds>
+    <Text>Fanny hops in red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>18113</StartMilliseconds>
+    <EndMilliseconds>18768</EndMilliseconds>
+    <Text>[s@Fanny hops in red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>18769</StartMilliseconds>
+    <EndMilliseconds>19194</EndMilliseconds>
+    <Text>[@Fanny@] hops in red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>19195</StartMilliseconds>
+    <EndMilliseconds>19584</EndMilliseconds>
+    <Text>Fanny [@hops@] in red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>19585</StartMilliseconds>
+    <EndMilliseconds>19768</EndMilliseconds>
+    <Text>Fanny hops [@in@] red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>19769</StartMilliseconds>
+    <EndMilliseconds>20605</EndMilliseconds>
+    <Text>Fanny hops in [@red@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>20606</StartMilliseconds>
+    <EndMilliseconds>22517</EndMilliseconds>
+    <Text>Fanny hops in red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>22518</StartMilliseconds>
+    <EndMilliseconds>23020</EndMilliseconds>
+    <Text>[e@Fanny hops in red.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>23021</StartMilliseconds>
+    <EndMilliseconds>23703</EndMilliseconds>
+    <Text>Fanny hops in blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>23704</StartMilliseconds>
+    <EndMilliseconds>24192</EndMilliseconds>
+    <Text>[@Fanny@] hops in blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>24193</StartMilliseconds>
+    <EndMilliseconds>24535</EndMilliseconds>
+    <Text>Fanny [@hops@] in blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>24536</StartMilliseconds>
+    <EndMilliseconds>24793</EndMilliseconds>
+    <Text>Fanny hops [@in@] blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>24794</StartMilliseconds>
+    <EndMilliseconds>25445</EndMilliseconds>
+    <Text>Fanny hops in [@blue@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>25446</StartMilliseconds>
+    <EndMilliseconds>25601</EndMilliseconds>
+    <Text>Fanny hops in blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>25602</StartMilliseconds>
+    <EndMilliseconds>25836</EndMilliseconds>
+    <Text>[e@Fanny hops in blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>25837</StartMilliseconds>
+    <EndMilliseconds>27094</EndMilliseconds>
+    <Text>Fanny is purple!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>27095</StartMilliseconds>
+    <EndMilliseconds>27537</EndMilliseconds>
+    <Text>[s@Fanny is purple!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>27538</StartMilliseconds>
+    <EndMilliseconds>27984</EndMilliseconds>
+    <Text>[@Fanny@] is purple!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>27985</StartMilliseconds>
+    <EndMilliseconds>28261</EndMilliseconds>
+    <Text>Fanny [@is@] purple!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>28262</StartMilliseconds>
+    <EndMilliseconds>29167</EndMilliseconds>
+    <Text>Fanny is [@purple@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>29168</StartMilliseconds>
+    <EndMilliseconds>29841</EndMilliseconds>
+    <Text>Fanny is purple!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>29842</StartMilliseconds>
+    <EndMilliseconds>29940</EndMilliseconds>
+    <Text>[e@Fanny is purple!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>29941</StartMilliseconds>
+    <EndMilliseconds>30642</EndMilliseconds>
+    <Text>Felix hops in blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>30643</StartMilliseconds>
+    <EndMilliseconds>31169</EndMilliseconds>
+    <Text>[@Felix@] hops in blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>31170</StartMilliseconds>
+    <EndMilliseconds>31492</EndMilliseconds>
+    <Text>Felix [@hops@] in blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>31493</StartMilliseconds>
+    <EndMilliseconds>31733</EndMilliseconds>
+    <Text>Felix hops [@in@] blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>31734</StartMilliseconds>
+    <EndMilliseconds>32444</EndMilliseconds>
+    <Text>Felix hops in [@blue@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>32445</StartMilliseconds>
+    <EndMilliseconds>34121</EndMilliseconds>
+    <Text>Felix hops in blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>34122</StartMilliseconds>
+    <EndMilliseconds>34276</EndMilliseconds>
+    <Text>[e@Felix hops in blue.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>34277</StartMilliseconds>
+    <EndMilliseconds>35166</EndMilliseconds>
+    <Text>Felix hops in yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>35167</StartMilliseconds>
+    <EndMilliseconds>35656</EndMilliseconds>
+    <Text>[@Felix@] hops in yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>35657</StartMilliseconds>
+    <EndMilliseconds>36054</EndMilliseconds>
+    <Text>Felix [@hops@] in yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>36055</StartMilliseconds>
+    <EndMilliseconds>36253</EndMilliseconds>
+    <Text>Felix hops [@in@] yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>36254</StartMilliseconds>
+    <EndMilliseconds>37139</EndMilliseconds>
+    <Text>Felix hops in [@yellow@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>37140</StartMilliseconds>
+    <EndMilliseconds>37444</EndMilliseconds>
+    <Text>Felix hops in yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>37445</StartMilliseconds>
+    <EndMilliseconds>38613</EndMilliseconds>
+    <Text>[e@Felix hops in yellow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>38614</StartMilliseconds>
+    <EndMilliseconds>39109</EndMilliseconds>
+    <Text>Felix is green!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>39110</StartMilliseconds>
+    <EndMilliseconds>39595</EndMilliseconds>
+    <Text>[@Felix@] is green!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>39596</StartMilliseconds>
+    <EndMilliseconds>39891</EndMilliseconds>
+    <Text>Felix [@is@] green!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>39892</StartMilliseconds>
+    <EndMilliseconds>40733</EndMilliseconds>
+    <Text>Felix is [@green@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>40734</StartMilliseconds>
+    <EndMilliseconds>40856</EndMilliseconds>
+    <Text>Felix is green!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>40857</StartMilliseconds>
+    <EndMilliseconds>40933</EndMilliseconds>
+    <Text>[e@Felix is green!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>40934</StartMilliseconds>
+    <EndMilliseconds>43341</EndMilliseconds>
+    <Text>"I missed you!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>43342</StartMilliseconds>
+    <EndMilliseconds>43760</EndMilliseconds>
+    <Text>[s@"I missed you!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>43761</StartMilliseconds>
+    <EndMilliseconds>44106</EndMilliseconds>
+    <Text>"[@I@] missed you!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>44107</StartMilliseconds>
+    <EndMilliseconds>44516</EndMilliseconds>
+    <Text>"I [@missed@] you!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>44517</StartMilliseconds>
+    <EndMilliseconds>45305</EndMilliseconds>
+    <Text>"I missed [@you@]!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>45306</StartMilliseconds>
+    <EndMilliseconds>46598</EndMilliseconds>
+    <Text>"I missed you!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>46599</StartMilliseconds>
+    <EndMilliseconds>47005</EndMilliseconds>
+    <Text>[e@"I missed you!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>47006</StartMilliseconds>
+    <EndMilliseconds>47608</EndMilliseconds>
+    <Text>Now they are all brown!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>47609</StartMilliseconds>
+    <EndMilliseconds>48232</EndMilliseconds>
+    <Text>[@Now@] they are all brown!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>48233</StartMilliseconds>
+    <EndMilliseconds>48407</EndMilliseconds>
+    <Text>Now [@they@] are all brown!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>48408</StartMilliseconds>
+    <EndMilliseconds>48670</EndMilliseconds>
+    <Text>Now they [@are@] all brown!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>48671</StartMilliseconds>
+    <EndMilliseconds>49280</EndMilliseconds>
+    <Text>Now they are [@all@] brown!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>49281</StartMilliseconds>
+    <EndMilliseconds>50392</EndMilliseconds>
+    <Text>Now they are all [@brown@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>50393</StartMilliseconds>
+    <EndMilliseconds>53783</EndMilliseconds>
+    <Text>Now they are all brown!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>53784</StartMilliseconds>
+    <EndMilliseconds>53952</EndMilliseconds>
+    <Text>[e@Now they are all brown!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>53953</StartMilliseconds>
+    <EndMilliseconds>55249</EndMilliseconds>
+    <Text>"Oh no! My paint!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>55250</StartMilliseconds>
+    <EndMilliseconds>55859</EndMilliseconds>
+    <Text>[s@"Oh no! My paint!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>55860</StartMilliseconds>
+    <EndMilliseconds>56564</EndMilliseconds>
+    <Text>"[@Oh@] no! My paint!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>56565</StartMilliseconds>
+    <EndMilliseconds>57478</EndMilliseconds>
+    <Text>"Oh [@no@]! My paint!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>57479</StartMilliseconds>
+    <EndMilliseconds>57856</EndMilliseconds>
+    <Text>"Oh no! [@My@] paint!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>57857</StartMilliseconds>
+    <EndMilliseconds>59261</EndMilliseconds>
+    <Text>"Oh no! My [@paint@]!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>59262</StartMilliseconds>
+    <EndMilliseconds>62188</EndMilliseconds>
+    <Text>"Oh no! My paint!"</Text>
+  </Paragraph>
+</Subtitle>

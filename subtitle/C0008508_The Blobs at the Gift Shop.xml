@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>1</StartMilliseconds>
+    <EndMilliseconds>4341</EndMilliseconds>
+    <Text>Here come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>4342</StartMilliseconds>
+    <EndMilliseconds>4605</EndMilliseconds>
+    <Text>[@Here@] come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>4606</StartMilliseconds>
+    <EndMilliseconds>4900</EndMilliseconds>
+    <Text>Here [@come@] the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>4901</StartMilliseconds>
+    <EndMilliseconds>5128</EndMilliseconds>
+    <Text>Here come [@the@] blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>5129</StartMilliseconds>
+    <EndMilliseconds>6134</EndMilliseconds>
+    <Text>Here come the [@blobs@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>6135</StartMilliseconds>
+    <EndMilliseconds>10816</EndMilliseconds>
+    <Text>Here come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>10817</StartMilliseconds>
+    <EndMilliseconds>11239</EndMilliseconds>
+    <Text>What do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>11240</StartMilliseconds>
+    <EndMilliseconds>11456</EndMilliseconds>
+    <Text>[@What@] do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>11457</StartMilliseconds>
+    <EndMilliseconds>11595</EndMilliseconds>
+    <Text>What [@do@] they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>11596</StartMilliseconds>
+    <EndMilliseconds>11834</EndMilliseconds>
+    <Text>What do [@they@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>11835</StartMilliseconds>
+    <EndMilliseconds>12463</EndMilliseconds>
+    <Text>What do they [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>12464</StartMilliseconds>
+    <EndMilliseconds>17360</EndMilliseconds>
+    <Text>What do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>17361</StartMilliseconds>
+    <EndMilliseconds>17600</EndMilliseconds>
+    <Text>They see a gift shop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>17601</StartMilliseconds>
+    <EndMilliseconds>17867</EndMilliseconds>
+    <Text>[@They@] see a gift shop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>17868</StartMilliseconds>
+    <EndMilliseconds>18228</EndMilliseconds>
+    <Text>They [@see@] a gift shop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>18229</StartMilliseconds>
+    <EndMilliseconds>18552</EndMilliseconds>
+    <Text>They see [@a@] gift shop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>18553</StartMilliseconds>
+    <EndMilliseconds>18785</EndMilliseconds>
+    <Text>They see a [@gift@] shop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>18786</StartMilliseconds>
+    <EndMilliseconds>19345</EndMilliseconds>
+    <Text>They see a gift [@shop@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>19346</StartMilliseconds>
+    <EndMilliseconds>20799</EndMilliseconds>
+    <Text>They see a gift shop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>20800</StartMilliseconds>
+    <EndMilliseconds>21200</EndMilliseconds>
+    <Text>The blobs go inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>21201</StartMilliseconds>
+    <EndMilliseconds>21474</EndMilliseconds>
+    <Text>[@The@] blobs go inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>21475</StartMilliseconds>
+    <EndMilliseconds>22065</EndMilliseconds>
+    <Text>The [@blobs@] go inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>22066</StartMilliseconds>
+    <EndMilliseconds>22218</EndMilliseconds>
+    <Text>The blobs [@go@] inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>22219</StartMilliseconds>
+    <EndMilliseconds>22934</EndMilliseconds>
+    <Text>The blobs go [@inside@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>22935</StartMilliseconds>
+    <EndMilliseconds>55331</EndMilliseconds>
+    <Text>The blobs go inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>55332</StartMilliseconds>
+    <EndMilliseconds>55674</EndMilliseconds>
+    <Text>They get four T-shirts.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>55675</StartMilliseconds>
+    <EndMilliseconds>56006</EndMilliseconds>
+    <Text>[@They@] get four T-shirts.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>56007</StartMilliseconds>
+    <EndMilliseconds>56450</EndMilliseconds>
+    <Text>They [@get@] four T-shirts.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>56451</StartMilliseconds>
+    <EndMilliseconds>56986</EndMilliseconds>
+    <Text>They get [@four@] T-shirts.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>56987</StartMilliseconds>
+    <EndMilliseconds>58044</EndMilliseconds>
+    <Text>They get four [@T-shirts@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>58045</StartMilliseconds>
+    <EndMilliseconds>67147</EndMilliseconds>
+    <Text>They get four T-shirts.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>67148</StartMilliseconds>
+    <EndMilliseconds>67634</EndMilliseconds>
+    <Text>They get four caps.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>67635</StartMilliseconds>
+    <EndMilliseconds>67920</EndMilliseconds>
+    <Text>[@They@] get four caps.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>67921</StartMilliseconds>
+    <EndMilliseconds>68271</EndMilliseconds>
+    <Text>They [@get@] four caps.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>68272</StartMilliseconds>
+    <EndMilliseconds>68620</EndMilliseconds>
+    <Text>They get [@four@] caps.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>68621</StartMilliseconds>
+    <EndMilliseconds>69600</EndMilliseconds>
+    <Text>They get four [@caps@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>69601</StartMilliseconds>
+    <EndMilliseconds>82454</EndMilliseconds>
+    <Text>They get four caps.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>82455</StartMilliseconds>
+    <EndMilliseconds>82743</EndMilliseconds>
+    <Text>They get four balloons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>82744</StartMilliseconds>
+    <EndMilliseconds>83135</EndMilliseconds>
+    <Text>[@They@] get four balloons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>83136</StartMilliseconds>
+    <EndMilliseconds>83472</EndMilliseconds>
+    <Text>They [@get@] four balloons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>83473</StartMilliseconds>
+    <EndMilliseconds>83880</EndMilliseconds>
+    <Text>They get [@four@] balloons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>83881</StartMilliseconds>
+    <EndMilliseconds>85061</EndMilliseconds>
+    <Text>They get four [@balloons@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>85062</StartMilliseconds>
+    <EndMilliseconds>89097</EndMilliseconds>
+    <Text>They get four balloons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>89098</StartMilliseconds>
+    <EndMilliseconds>89852</EndMilliseconds>
+    <Text>They get four cups.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>89853</StartMilliseconds>
+    <EndMilliseconds>90137</EndMilliseconds>
+    <Text>[@They@] get four cups.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>90138</StartMilliseconds>
+    <EndMilliseconds>90479</EndMilliseconds>
+    <Text>They [@get@] four cups.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>90480</StartMilliseconds>
+    <EndMilliseconds>90892</EndMilliseconds>
+    <Text>They get [@four@] cups.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>90893</StartMilliseconds>
+    <EndMilliseconds>91891</EndMilliseconds>
+    <Text>They get four [@cups@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>91892</StartMilliseconds>
+    <EndMilliseconds>104310</EndMilliseconds>
+    <Text>They get four cups.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>104311</StartMilliseconds>
+    <EndMilliseconds>104725</EndMilliseconds>
+    <Text>They get four bags.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>104726</StartMilliseconds>
+    <EndMilliseconds>104931</EndMilliseconds>
+    <Text>[@They@] get four bags.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>104932</StartMilliseconds>
+    <EndMilliseconds>105255</EndMilliseconds>
+    <Text>They [@get@] four bags.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>105256</StartMilliseconds>
+    <EndMilliseconds>105707</EndMilliseconds>
+    <Text>They get [@four@] bags.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>105708</StartMilliseconds>
+    <EndMilliseconds>106520</EndMilliseconds>
+    <Text>They get four [@bags@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>106521</StartMilliseconds>
+    <EndMilliseconds>115782</EndMilliseconds>
+    <Text>They get four bags.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>115783</StartMilliseconds>
+    <EndMilliseconds>116002</EndMilliseconds>
+    <Text>But there are only three blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>116003</StartMilliseconds>
+    <EndMilliseconds>116208</EndMilliseconds>
+    <Text>[@But@] there are only three blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>116209</StartMilliseconds>
+    <EndMilliseconds>116434</EndMilliseconds>
+    <Text>But [@there@] are only three blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>116435</StartMilliseconds>
+    <EndMilliseconds>116611</EndMilliseconds>
+    <Text>But there [@are@] only three blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>116612</StartMilliseconds>
+    <EndMilliseconds>117134</EndMilliseconds>
+    <Text>But there are [@only@] three blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>117135</StartMilliseconds>
+    <EndMilliseconds>117531</EndMilliseconds>
+    <Text>But there are only [@three@] blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>117532</StartMilliseconds>
+    <EndMilliseconds>118371</EndMilliseconds>
+    <Text>But there are only three [@blobs@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>118372</StartMilliseconds>
+    <EndMilliseconds>122047</EndMilliseconds>
+    <Text>But there are only three blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>122048</StartMilliseconds>
+    <EndMilliseconds>122545</EndMilliseconds>
+    <Text>Look! They get a teddy bear!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>122546</StartMilliseconds>
+    <EndMilliseconds>123389</EndMilliseconds>
+    <Text>[@Look@]! They get a teddy bear!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>123390</StartMilliseconds>
+    <EndMilliseconds>124612</EndMilliseconds>
+    <Text>Look! They get a teddy bear!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>124613</StartMilliseconds>
+    <EndMilliseconds>124879</EndMilliseconds>
+    <Text>Look! [@They@] get a teddy bear!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>124880</StartMilliseconds>
+    <EndMilliseconds>125085</EndMilliseconds>
+    <Text>Look! They [@get@] a teddy bear!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>125086</StartMilliseconds>
+    <EndMilliseconds>125270</EndMilliseconds>
+    <Text>Look! They get [@a@] teddy bear!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>125271</StartMilliseconds>
+    <EndMilliseconds>125642</EndMilliseconds>
+    <Text>Look! They get a [@teddy@] bear!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>125643</StartMilliseconds>
+    <EndMilliseconds>126167</EndMilliseconds>
+    <Text>Look! They get a teddy [@bear@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>126168</StartMilliseconds>
+    <EndMilliseconds>127476</EndMilliseconds>
+    <Text>Look! They get a teddy bear!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>127477</StartMilliseconds>
+    <EndMilliseconds>128528</EndMilliseconds>
+    <Text>Blobs, what are you doing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>128529</StartMilliseconds>
+    <EndMilliseconds>129574</EndMilliseconds>
+    <Text>[@Blobs@], what are you doing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>129575</StartMilliseconds>
+    <EndMilliseconds>129837</EndMilliseconds>
+    <Text>Blobs, [@what@] are you doing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>129838</StartMilliseconds>
+    <EndMilliseconds>129977</EndMilliseconds>
+    <Text>Blobs, what [@are@] you doing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>129978</StartMilliseconds>
+    <EndMilliseconds>130181</EndMilliseconds>
+    <Text>Blobs, what are [@you@] doing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>130182</StartMilliseconds>
+    <EndMilliseconds>130912</EndMilliseconds>
+    <Text>Blobs, what are you [@doing@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>130913</StartMilliseconds>
+    <EndMilliseconds>133636</EndMilliseconds>
+    <Text>Blobs, what are you doing?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>133637</StartMilliseconds>
+    <EndMilliseconds>133952</EndMilliseconds>
+    <Text>[i@Click!@i] They take a picture!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>133953</StartMilliseconds>
+    <EndMilliseconds>135166</EndMilliseconds>
+    <Text>[i@[@Click@]!@i] They take a picture!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>135167</StartMilliseconds>
+    <EndMilliseconds>135516</EndMilliseconds>
+    <Text>[i@Click!@i] [@They@] take a picture!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>135517</StartMilliseconds>
+    <EndMilliseconds>135752</EndMilliseconds>
+    <Text>[i@Click!@i] They [@take@] a picture!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>135753</StartMilliseconds>
+    <EndMilliseconds>135924</EndMilliseconds>
+    <Text>[i@Click!@i] They take [@a@] picture!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>135925</StartMilliseconds>
+    <EndMilliseconds>136949</EndMilliseconds>
+    <Text>[i@Click!@i] They take a [@picture@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>136950</StartMilliseconds>
+    <EndMilliseconds>138566</EndMilliseconds>
+    <Text>[i@Click!@i] They take a picture!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>138567</StartMilliseconds>
+    <EndMilliseconds>139437</EndMilliseconds>
+    <Text>Silly blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>139438</StartMilliseconds>
+    <EndMilliseconds>139992</EndMilliseconds>
+    <Text>[@Silly@] blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>139993</StartMilliseconds>
+    <EndMilliseconds>140897</EndMilliseconds>
+    <Text>Silly [@blobs@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>140898</StartMilliseconds>
+    <EndMilliseconds>142131</EndMilliseconds>
+    <Text>Silly blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>91</Number>
+    <StartMilliseconds>142132</StartMilliseconds>
+    <EndMilliseconds>142358</EndMilliseconds>
+    <Text>Good-bye!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>92</Number>
+    <StartMilliseconds>142359</StartMilliseconds>
+    <EndMilliseconds>143249</EndMilliseconds>
+    <Text>[@Good-bye@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>93</Number>
+    <StartMilliseconds>143250</StartMilliseconds>
+    <EndMilliseconds>145301</EndMilliseconds>
+    <Text>Good-bye!</Text>
+  </Paragraph>
+</Subtitle>

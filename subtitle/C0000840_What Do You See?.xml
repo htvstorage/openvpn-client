@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>3510</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>3511</StartMilliseconds>
+    <EndMilliseconds>3981</EndMilliseconds>
+    <Text>[@What@] do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3982</StartMilliseconds>
+    <EndMilliseconds>4237</EndMilliseconds>
+    <Text>What [@do@] you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>4238</StartMilliseconds>
+    <EndMilliseconds>4492</EndMilliseconds>
+    <Text>What do [@you@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>4493</StartMilliseconds>
+    <EndMilliseconds>5236</EndMilliseconds>
+    <Text>What do you [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>5237</StartMilliseconds>
+    <EndMilliseconds>6059</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>6060</StartMilliseconds>
+    <EndMilliseconds>6412</EndMilliseconds>
+    <Text>[e@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>6413</StartMilliseconds>
+    <EndMilliseconds>7324</EndMilliseconds>
+    <Text>I see a starfish.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>7325</StartMilliseconds>
+    <EndMilliseconds>7655</EndMilliseconds>
+    <Text>[s@I see a starfish.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>7656</StartMilliseconds>
+    <EndMilliseconds>8096</EndMilliseconds>
+    <Text>[@I@] see a starfish.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>8097</StartMilliseconds>
+    <EndMilliseconds>8295</EndMilliseconds>
+    <Text>I [@see@] a starfish.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>8296</StartMilliseconds>
+    <EndMilliseconds>8475</EndMilliseconds>
+    <Text>I see [@a@] starfish.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>8476</StartMilliseconds>
+    <EndMilliseconds>9649</EndMilliseconds>
+    <Text>I see a [@starfish@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>9650</StartMilliseconds>
+    <EndMilliseconds>12016</EndMilliseconds>
+    <Text>I see a starfish.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>12017</StartMilliseconds>
+    <EndMilliseconds>12412</EndMilliseconds>
+    <Text>[e@I see a starfish.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>12413</StartMilliseconds>
+    <EndMilliseconds>13467</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>13468</StartMilliseconds>
+    <EndMilliseconds>13937</EndMilliseconds>
+    <Text>[s@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>13938</StartMilliseconds>
+    <EndMilliseconds>14267</EndMilliseconds>
+    <Text>[@What@] do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>14268</StartMilliseconds>
+    <EndMilliseconds>14474</EndMilliseconds>
+    <Text>What [@do@] you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>14475</StartMilliseconds>
+    <EndMilliseconds>14718</EndMilliseconds>
+    <Text>What do [@you@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>14719</StartMilliseconds>
+    <EndMilliseconds>15413</EndMilliseconds>
+    <Text>What do you [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>15414</StartMilliseconds>
+    <EndMilliseconds>16575</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>16576</StartMilliseconds>
+    <EndMilliseconds>16935</EndMilliseconds>
+    <Text>[e@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>16936</StartMilliseconds>
+    <EndMilliseconds>17638</EndMilliseconds>
+    <Text>I see a turtle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>17639</StartMilliseconds>
+    <EndMilliseconds>18088</EndMilliseconds>
+    <Text>[@I@] see a turtle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>18089</StartMilliseconds>
+    <EndMilliseconds>18357</EndMilliseconds>
+    <Text>I [@see@] a turtle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>18358</StartMilliseconds>
+    <EndMilliseconds>18555</EndMilliseconds>
+    <Text>I see [@a@] turtle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>18556</StartMilliseconds>
+    <EndMilliseconds>19290</EndMilliseconds>
+    <Text>I see a [@turtle@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>19291</StartMilliseconds>
+    <EndMilliseconds>21732</EndMilliseconds>
+    <Text>I see a turtle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>21733</StartMilliseconds>
+    <EndMilliseconds>22139</EndMilliseconds>
+    <Text>[e@I see a turtle.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>22140</StartMilliseconds>
+    <EndMilliseconds>23101</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>23102</StartMilliseconds>
+    <EndMilliseconds>23528</EndMilliseconds>
+    <Text>[@What@] do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>23529</StartMilliseconds>
+    <EndMilliseconds>23757</EndMilliseconds>
+    <Text>What [@do@] you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>23758</StartMilliseconds>
+    <EndMilliseconds>23960</EndMilliseconds>
+    <Text>What do [@you@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>23961</StartMilliseconds>
+    <EndMilliseconds>24698</EndMilliseconds>
+    <Text>What do you [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>24699</StartMilliseconds>
+    <EndMilliseconds>25698</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>25699</StartMilliseconds>
+    <EndMilliseconds>26074</EndMilliseconds>
+    <Text>[e@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>26075</StartMilliseconds>
+    <EndMilliseconds>27024</EndMilliseconds>
+    <Text>I see an octopus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>27025</StartMilliseconds>
+    <EndMilliseconds>27415</EndMilliseconds>
+    <Text>[@I@] see an octopus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>27416</StartMilliseconds>
+    <EndMilliseconds>27655</EndMilliseconds>
+    <Text>I [@see@] an octopus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>27656</StartMilliseconds>
+    <EndMilliseconds>27821</EndMilliseconds>
+    <Text>I see [@an@] octopus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>27822</StartMilliseconds>
+    <EndMilliseconds>28992</EndMilliseconds>
+    <Text>I see an [@octopus@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>28993</StartMilliseconds>
+    <EndMilliseconds>31688</EndMilliseconds>
+    <Text>I see an octopus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>31689</StartMilliseconds>
+    <EndMilliseconds>32088</EndMilliseconds>
+    <Text>[e@I see an octopus.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>32089</StartMilliseconds>
+    <EndMilliseconds>33118</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>33119</StartMilliseconds>
+    <EndMilliseconds>33589</EndMilliseconds>
+    <Text>[s@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>33590</StartMilliseconds>
+    <EndMilliseconds>34033</EndMilliseconds>
+    <Text>[@What@] do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>34034</StartMilliseconds>
+    <EndMilliseconds>34249</EndMilliseconds>
+    <Text>What [@do@] you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>34250</StartMilliseconds>
+    <EndMilliseconds>34501</EndMilliseconds>
+    <Text>What do [@you@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>34502</StartMilliseconds>
+    <EndMilliseconds>35182</EndMilliseconds>
+    <Text>What do you [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>35183</StartMilliseconds>
+    <EndMilliseconds>38459</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>38460</StartMilliseconds>
+    <EndMilliseconds>38815</EndMilliseconds>
+    <Text>[e@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>38816</StartMilliseconds>
+    <EndMilliseconds>39873</EndMilliseconds>
+    <Text>I see a shark.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>39874</StartMilliseconds>
+    <EndMilliseconds>40439</EndMilliseconds>
+    <Text>[s@I see a shark.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>40440</StartMilliseconds>
+    <EndMilliseconds>40806</EndMilliseconds>
+    <Text>[@I@] see a shark.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>40807</StartMilliseconds>
+    <EndMilliseconds>41018</EndMilliseconds>
+    <Text>I [@see@] a shark.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>41019</StartMilliseconds>
+    <EndMilliseconds>41314</EndMilliseconds>
+    <Text>I see [@a@] shark.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>41315</StartMilliseconds>
+    <EndMilliseconds>42007</EndMilliseconds>
+    <Text>I see a [@shark@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>42008</StartMilliseconds>
+    <EndMilliseconds>45484</EndMilliseconds>
+    <Text>I see a shark.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>45485</StartMilliseconds>
+    <EndMilliseconds>45818</EndMilliseconds>
+    <Text>[e@I see a shark.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>45819</StartMilliseconds>
+    <EndMilliseconds>47057</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>47058</StartMilliseconds>
+    <EndMilliseconds>47704</EndMilliseconds>
+    <Text>[s@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>47705</StartMilliseconds>
+    <EndMilliseconds>48037</EndMilliseconds>
+    <Text>[@What@] do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>48038</StartMilliseconds>
+    <EndMilliseconds>48239</EndMilliseconds>
+    <Text>What [@do@] you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>48240</StartMilliseconds>
+    <EndMilliseconds>48462</EndMilliseconds>
+    <Text>What do [@you@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>48463</StartMilliseconds>
+    <EndMilliseconds>49100</EndMilliseconds>
+    <Text>What do you [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>49101</StartMilliseconds>
+    <EndMilliseconds>49520</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>49521</StartMilliseconds>
+    <EndMilliseconds>49838</EndMilliseconds>
+    <Text>[e@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>49839</StartMilliseconds>
+    <EndMilliseconds>50379</EndMilliseconds>
+    <Text>I see a crab.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>50380</StartMilliseconds>
+    <EndMilliseconds>50832</EndMilliseconds>
+    <Text>[s@I see a crab.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>50833</StartMilliseconds>
+    <EndMilliseconds>51252</EndMilliseconds>
+    <Text>[@I@] see a crab.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>51253</StartMilliseconds>
+    <EndMilliseconds>51504</EndMilliseconds>
+    <Text>I [@see@] a crab.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>51505</StartMilliseconds>
+    <EndMilliseconds>51714</EndMilliseconds>
+    <Text>I see [@a@] crab.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>51715</StartMilliseconds>
+    <EndMilliseconds>52595</EndMilliseconds>
+    <Text>I see a [@crab@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>52596</StartMilliseconds>
+    <EndMilliseconds>55376</EndMilliseconds>
+    <Text>I see a crab.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>55377</StartMilliseconds>
+    <EndMilliseconds>55764</EndMilliseconds>
+    <Text>[e@I see a crab.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>55765</StartMilliseconds>
+    <EndMilliseconds>56686</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>56687</StartMilliseconds>
+    <EndMilliseconds>57191</EndMilliseconds>
+    <Text>[@What@] do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>57192</StartMilliseconds>
+    <EndMilliseconds>57435</EndMilliseconds>
+    <Text>What [@do@] you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>57436</StartMilliseconds>
+    <EndMilliseconds>57707</EndMilliseconds>
+    <Text>What do [@you@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>57708</StartMilliseconds>
+    <EndMilliseconds>58387</EndMilliseconds>
+    <Text>What do you [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>58388</StartMilliseconds>
+    <EndMilliseconds>59280</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>59281</StartMilliseconds>
+    <EndMilliseconds>59617</EndMilliseconds>
+    <Text>[e@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>59618</StartMilliseconds>
+    <EndMilliseconds>60494</EndMilliseconds>
+    <Text>I see a clam.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>60495</StartMilliseconds>
+    <EndMilliseconds>60862</EndMilliseconds>
+    <Text>[@I@] see a clam.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>60863</StartMilliseconds>
+    <EndMilliseconds>61012</EndMilliseconds>
+    <Text>I [@see@] a clam.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>61013</StartMilliseconds>
+    <EndMilliseconds>61235</EndMilliseconds>
+    <Text>I see [@a@] clam.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>61236</StartMilliseconds>
+    <EndMilliseconds>61988</EndMilliseconds>
+    <Text>I see a [@clam@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>61989</StartMilliseconds>
+    <EndMilliseconds>63442</EndMilliseconds>
+    <Text>I see a clam.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>63443</StartMilliseconds>
+    <EndMilliseconds>63818</EndMilliseconds>
+    <Text>[e@I see a clam.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>91</Number>
+    <StartMilliseconds>63819</StartMilliseconds>
+    <EndMilliseconds>64784</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>92</Number>
+    <StartMilliseconds>64785</StartMilliseconds>
+    <EndMilliseconds>65230</EndMilliseconds>
+    <Text>[@What@] do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>93</Number>
+    <StartMilliseconds>65231</StartMilliseconds>
+    <EndMilliseconds>65419</EndMilliseconds>
+    <Text>What [@do@] you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>94</Number>
+    <StartMilliseconds>65420</StartMilliseconds>
+    <EndMilliseconds>65627</EndMilliseconds>
+    <Text>What do [@you@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>95</Number>
+    <StartMilliseconds>65628</StartMilliseconds>
+    <EndMilliseconds>66410</EndMilliseconds>
+    <Text>What do you [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>96</Number>
+    <StartMilliseconds>66411</StartMilliseconds>
+    <EndMilliseconds>67445</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>97</Number>
+    <StartMilliseconds>67446</StartMilliseconds>
+    <EndMilliseconds>67811</EndMilliseconds>
+    <Text>[e@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>98</Number>
+    <StartMilliseconds>67812</StartMilliseconds>
+    <EndMilliseconds>68663</EndMilliseconds>
+    <Text>I see a seal.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>99</Number>
+    <StartMilliseconds>68664</StartMilliseconds>
+    <EndMilliseconds>69277</EndMilliseconds>
+    <Text>[s@I see a seal.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>100</Number>
+    <StartMilliseconds>69278</StartMilliseconds>
+    <EndMilliseconds>69670</EndMilliseconds>
+    <Text>[@I@] see a seal.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>101</Number>
+    <StartMilliseconds>69671</StartMilliseconds>
+    <EndMilliseconds>69920</EndMilliseconds>
+    <Text>I [@see@] a seal.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>102</Number>
+    <StartMilliseconds>69921</StartMilliseconds>
+    <EndMilliseconds>70144</EndMilliseconds>
+    <Text>I see [@a@] seal.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>103</Number>
+    <StartMilliseconds>70145</StartMilliseconds>
+    <EndMilliseconds>71110</EndMilliseconds>
+    <Text>I see a [@seal@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>104</Number>
+    <StartMilliseconds>71111</StartMilliseconds>
+    <EndMilliseconds>73437</EndMilliseconds>
+    <Text>I see a seal.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>105</Number>
+    <StartMilliseconds>73438</StartMilliseconds>
+    <EndMilliseconds>73879</EndMilliseconds>
+    <Text>[e@I see a seal.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>106</Number>
+    <StartMilliseconds>73880</StartMilliseconds>
+    <EndMilliseconds>74809</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>107</Number>
+    <StartMilliseconds>74810</StartMilliseconds>
+    <EndMilliseconds>75151</EndMilliseconds>
+    <Text>[@What@] do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>108</Number>
+    <StartMilliseconds>75152</StartMilliseconds>
+    <EndMilliseconds>75361</EndMilliseconds>
+    <Text>What [@do@] you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>109</Number>
+    <StartMilliseconds>75362</StartMilliseconds>
+    <EndMilliseconds>75629</EndMilliseconds>
+    <Text>What do [@you@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>110</Number>
+    <StartMilliseconds>75630</StartMilliseconds>
+    <EndMilliseconds>76333</EndMilliseconds>
+    <Text>What do you [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>111</Number>
+    <StartMilliseconds>76334</StartMilliseconds>
+    <EndMilliseconds>76889</EndMilliseconds>
+    <Text>What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>112</Number>
+    <StartMilliseconds>76890</StartMilliseconds>
+    <EndMilliseconds>77242</EndMilliseconds>
+    <Text>[e@What do you see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>113</Number>
+    <StartMilliseconds>77243</StartMilliseconds>
+    <EndMilliseconds>78230</EndMilliseconds>
+    <Text>I see a dolphin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>114</Number>
+    <StartMilliseconds>78231</StartMilliseconds>
+    <EndMilliseconds>78738</EndMilliseconds>
+    <Text>[s@I see a dolphin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>115</Number>
+    <StartMilliseconds>78739</StartMilliseconds>
+    <EndMilliseconds>79174</EndMilliseconds>
+    <Text>[@I@] see a dolphin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>116</Number>
+    <StartMilliseconds>79175</StartMilliseconds>
+    <EndMilliseconds>79342</EndMilliseconds>
+    <Text>I [@see@] a dolphin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>117</Number>
+    <StartMilliseconds>79343</StartMilliseconds>
+    <EndMilliseconds>79530</EndMilliseconds>
+    <Text>I see [@a@] dolphin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>118</Number>
+    <StartMilliseconds>79531</StartMilliseconds>
+    <EndMilliseconds>80722</EndMilliseconds>
+    <Text>I see a [@dolphin@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>119</Number>
+    <StartMilliseconds>80723</StartMilliseconds>
+    <EndMilliseconds>86094</EndMilliseconds>
+    <Text>I see a dolphin.</Text>
+  </Paragraph>
+</Subtitle>

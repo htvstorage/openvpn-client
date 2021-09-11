@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>2174</EndMilliseconds>
+    <Text>The sun is hot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>2175</StartMilliseconds>
+    <EndMilliseconds>2339</EndMilliseconds>
+    <Text>[@The@] sun is hot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>2340</StartMilliseconds>
+    <EndMilliseconds>2770</EndMilliseconds>
+    <Text>The [@sun@] is hot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2771</StartMilliseconds>
+    <EndMilliseconds>3075</EndMilliseconds>
+    <Text>The sun [@is@] hot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>3076</StartMilliseconds>
+    <EndMilliseconds>3792</EndMilliseconds>
+    <Text>The sun is [@hot@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>3793</StartMilliseconds>
+    <EndMilliseconds>4939</EndMilliseconds>
+    <Text>The sun is hot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>4940</StartMilliseconds>
+    <EndMilliseconds>5078</EndMilliseconds>
+    <Text>[e@The sun is hot.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>5079</StartMilliseconds>
+    <EndMilliseconds>6000</EndMilliseconds>
+    <Text>The water is cold.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>6001</StartMilliseconds>
+    <EndMilliseconds>6827</EndMilliseconds>
+    <Text>[s@The water is cold.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>6828</StartMilliseconds>
+    <EndMilliseconds>7021</EndMilliseconds>
+    <Text>[@The@] water is cold.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>7022</StartMilliseconds>
+    <EndMilliseconds>7544</EndMilliseconds>
+    <Text>The [@water@] is cold.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>7545</StartMilliseconds>
+    <EndMilliseconds>7783</EndMilliseconds>
+    <Text>The water [@is@] cold.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>7784</StartMilliseconds>
+    <EndMilliseconds>8717</EndMilliseconds>
+    <Text>The water is [@cold@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>8718</StartMilliseconds>
+    <EndMilliseconds>9718</EndMilliseconds>
+    <Text>The water is cold.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>9719</StartMilliseconds>
+    <EndMilliseconds>9903</EndMilliseconds>
+    <Text>[e@The water is cold.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>9904</StartMilliseconds>
+    <EndMilliseconds>10694</EndMilliseconds>
+    <Text>My swim ring floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>10695</StartMilliseconds>
+    <EndMilliseconds>11398</EndMilliseconds>
+    <Text>[s@My swim ring floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>11399</StartMilliseconds>
+    <EndMilliseconds>11710</EndMilliseconds>
+    <Text>[@My@] swim ring floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>11711</StartMilliseconds>
+    <EndMilliseconds>12182</EndMilliseconds>
+    <Text>My [@swim@] ring floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>12183</StartMilliseconds>
+    <EndMilliseconds>12646</EndMilliseconds>
+    <Text>My swim [@ring@] floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>12647</StartMilliseconds>
+    <EndMilliseconds>13646</EndMilliseconds>
+    <Text>My swim ring [@floats@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>13647</StartMilliseconds>
+    <EndMilliseconds>14545</EndMilliseconds>
+    <Text>My swim ring floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>14546</StartMilliseconds>
+    <EndMilliseconds>14733</EndMilliseconds>
+    <Text>[e@My swim ring floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>14734</StartMilliseconds>
+    <EndMilliseconds>15674</EndMilliseconds>
+    <Text>My shoe sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>15675</StartMilliseconds>
+    <EndMilliseconds>16834</EndMilliseconds>
+    <Text>[s@My shoe sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>16835</StartMilliseconds>
+    <EndMilliseconds>17136</EndMilliseconds>
+    <Text>[@My@] shoe sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>17137</StartMilliseconds>
+    <EndMilliseconds>17631</EndMilliseconds>
+    <Text>My [@shoe@] sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>17632</StartMilliseconds>
+    <EndMilliseconds>18626</EndMilliseconds>
+    <Text>My shoe [@sinks@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>18627</StartMilliseconds>
+    <EndMilliseconds>19865</EndMilliseconds>
+    <Text>My shoe sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>19866</StartMilliseconds>
+    <EndMilliseconds>20040</EndMilliseconds>
+    <Text>[e@My shoe sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>20041</StartMilliseconds>
+    <EndMilliseconds>20485</EndMilliseconds>
+    <Text>I throw the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>20486</StartMilliseconds>
+    <EndMilliseconds>22033</EndMilliseconds>
+    <Text>[s@I throw the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>22034</StartMilliseconds>
+    <EndMilliseconds>22408</EndMilliseconds>
+    <Text>[@I@] throw the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>22409</StartMilliseconds>
+    <EndMilliseconds>22783</EndMilliseconds>
+    <Text>I [@throw@] the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>22784</StartMilliseconds>
+    <EndMilliseconds>22954</EndMilliseconds>
+    <Text>I throw [@the@] ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>22955</StartMilliseconds>
+    <EndMilliseconds>23779</EndMilliseconds>
+    <Text>I throw the [@ball@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>23780</StartMilliseconds>
+    <EndMilliseconds>24840</EndMilliseconds>
+    <Text>I throw the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>24841</StartMilliseconds>
+    <EndMilliseconds>25013</EndMilliseconds>
+    <Text>[e@I throw the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>25014</StartMilliseconds>
+    <EndMilliseconds>25658</EndMilliseconds>
+    <Text>I catch the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>25659</StartMilliseconds>
+    <EndMilliseconds>27156</EndMilliseconds>
+    <Text>[s@I catch the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>27157</StartMilliseconds>
+    <EndMilliseconds>27634</EndMilliseconds>
+    <Text>[@I@] catch the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>27635</StartMilliseconds>
+    <EndMilliseconds>28020</EndMilliseconds>
+    <Text>I [@catch@] the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>28021</StartMilliseconds>
+    <EndMilliseconds>28190</EndMilliseconds>
+    <Text>I catch [@the@] ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>28191</StartMilliseconds>
+    <EndMilliseconds>28945</EndMilliseconds>
+    <Text>I catch the [@ball@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>28946</StartMilliseconds>
+    <EndMilliseconds>30016</EndMilliseconds>
+    <Text>I catch the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>30017</StartMilliseconds>
+    <EndMilliseconds>30167</EndMilliseconds>
+    <Text>[e@I catch the ball.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>30168</StartMilliseconds>
+    <EndMilliseconds>31412</EndMilliseconds>
+    <Text>It is sunny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>31413</StartMilliseconds>
+    <EndMilliseconds>31882</EndMilliseconds>
+    <Text>[s@It is sunny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>31883</StartMilliseconds>
+    <EndMilliseconds>32142</EndMilliseconds>
+    <Text>[@It@] is sunny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>32143</StartMilliseconds>
+    <EndMilliseconds>32426</EndMilliseconds>
+    <Text>It [@is@] sunny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>32427</StartMilliseconds>
+    <EndMilliseconds>33248</EndMilliseconds>
+    <Text>It is [@sunny@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>33249</StartMilliseconds>
+    <EndMilliseconds>35627</EndMilliseconds>
+    <Text>It is sunny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>35628</StartMilliseconds>
+    <EndMilliseconds>35811</EndMilliseconds>
+    <Text>[e@It is sunny.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>35812</StartMilliseconds>
+    <EndMilliseconds>37469</EndMilliseconds>
+    <Text>It is rainy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>37470</StartMilliseconds>
+    <EndMilliseconds>38133</EndMilliseconds>
+    <Text>[s@It is rainy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>38134</StartMilliseconds>
+    <EndMilliseconds>38389</EndMilliseconds>
+    <Text>[@It@] is rainy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>38390</StartMilliseconds>
+    <EndMilliseconds>38660</EndMilliseconds>
+    <Text>It [@is@] rainy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>38661</StartMilliseconds>
+    <EndMilliseconds>39602</EndMilliseconds>
+    <Text>It is [@rainy@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>39603</StartMilliseconds>
+    <EndMilliseconds>42331</EndMilliseconds>
+    <Text>It is rainy!</Text>
+  </Paragraph>
+</Subtitle>

@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>1</StartMilliseconds>
+    <EndMilliseconds>786</EndMilliseconds>
+    <Text>Here come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>787</StartMilliseconds>
+    <EndMilliseconds>1024</EndMilliseconds>
+    <Text>[@Here@] come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>1025</StartMilliseconds>
+    <EndMilliseconds>1270</EndMilliseconds>
+    <Text>Here [@come@] the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>1271</StartMilliseconds>
+    <EndMilliseconds>1484</EndMilliseconds>
+    <Text>Here come [@the@] blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>1485</StartMilliseconds>
+    <EndMilliseconds>2270</EndMilliseconds>
+    <Text>Here come the [@blobs@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>2271</StartMilliseconds>
+    <EndMilliseconds>5941</EndMilliseconds>
+    <Text>Here come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>5942</StartMilliseconds>
+    <EndMilliseconds>6134</EndMilliseconds>
+    <Text>What do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>6135</StartMilliseconds>
+    <EndMilliseconds>6422</EndMilliseconds>
+    <Text>[@What@] do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>6423</StartMilliseconds>
+    <EndMilliseconds>6566</EndMilliseconds>
+    <Text>What [@do@] they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>6567</StartMilliseconds>
+    <EndMilliseconds>6818</EndMilliseconds>
+    <Text>What do [@they@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>6819</StartMilliseconds>
+    <EndMilliseconds>7249</EndMilliseconds>
+    <Text>What do they [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>7250</StartMilliseconds>
+    <EndMilliseconds>8767</EndMilliseconds>
+    <Text>What do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>8768</StartMilliseconds>
+    <EndMilliseconds>8967</EndMilliseconds>
+    <Text>They see bumper cars!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>8968</StartMilliseconds>
+    <EndMilliseconds>9154</EndMilliseconds>
+    <Text>[@They@] see bumper cars!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>9155</StartMilliseconds>
+    <EndMilliseconds>9769</EndMilliseconds>
+    <Text>They [@see@] bumper cars!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>9770</StartMilliseconds>
+    <EndMilliseconds>10217</EndMilliseconds>
+    <Text>They see [@bumper@] cars!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>10218</StartMilliseconds>
+    <EndMilliseconds>10987</EndMilliseconds>
+    <Text>They see bumper [@cars@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>10988</StartMilliseconds>
+    <EndMilliseconds>23251</EndMilliseconds>
+    <Text>They see bumper cars!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>23252</StartMilliseconds>
+    <EndMilliseconds>23595</EndMilliseconds>
+    <Text>The blobs get into a car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>23596</StartMilliseconds>
+    <EndMilliseconds>23876</EndMilliseconds>
+    <Text>[@The@] blobs get into a car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>23877</StartMilliseconds>
+    <EndMilliseconds>24388</EndMilliseconds>
+    <Text>The [@blobs@] get into a car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>24389</StartMilliseconds>
+    <EndMilliseconds>24593</EndMilliseconds>
+    <Text>The blobs [@get@] into a car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>24594</StartMilliseconds>
+    <EndMilliseconds>24941</EndMilliseconds>
+    <Text>The blobs get [@into@] a car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>24942</StartMilliseconds>
+    <EndMilliseconds>25106</EndMilliseconds>
+    <Text>The blobs get into [@a@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>25107</StartMilliseconds>
+    <EndMilliseconds>25727</EndMilliseconds>
+    <Text>The blobs get into a [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>25728</StartMilliseconds>
+    <EndMilliseconds>42066</EndMilliseconds>
+    <Text>The blobs get into a car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>42067</StartMilliseconds>
+    <EndMilliseconds>42319</EndMilliseconds>
+    <Text>The bumper car goes forward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>42320</StartMilliseconds>
+    <EndMilliseconds>42639</EndMilliseconds>
+    <Text>[@The@] bumper car goes forward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>42640</StartMilliseconds>
+    <EndMilliseconds>43056</EndMilliseconds>
+    <Text>The [@bumper@] car goes forward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>43057</StartMilliseconds>
+    <EndMilliseconds>43462</EndMilliseconds>
+    <Text>The bumper [@car@] goes forward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>43463</StartMilliseconds>
+    <EndMilliseconds>43906</EndMilliseconds>
+    <Text>The bumper car [@goes@] forward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>43907</StartMilliseconds>
+    <EndMilliseconds>44973</EndMilliseconds>
+    <Text>The bumper car goes [@forward@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>44974</StartMilliseconds>
+    <EndMilliseconds>45612</EndMilliseconds>
+    <Text>The bumper car goes forward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>45613</StartMilliseconds>
+    <EndMilliseconds>45805</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>45806</StartMilliseconds>
+    <EndMilliseconds>46751</EndMilliseconds>
+    <Text>[i@[@Bump@]!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>46752</StartMilliseconds>
+    <EndMilliseconds>53774</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>53775</StartMilliseconds>
+    <EndMilliseconds>54444</EndMilliseconds>
+    <Text>The car goes backward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>54445</StartMilliseconds>
+    <EndMilliseconds>54672</EndMilliseconds>
+    <Text>[@The@] car goes backward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>54673</StartMilliseconds>
+    <EndMilliseconds>55019</EndMilliseconds>
+    <Text>The [@car@] goes backward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>55020</StartMilliseconds>
+    <EndMilliseconds>55405</EndMilliseconds>
+    <Text>The car [@goes@] backward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>55406</StartMilliseconds>
+    <EndMilliseconds>56221</EndMilliseconds>
+    <Text>The car goes [@backward@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>56222</StartMilliseconds>
+    <EndMilliseconds>58222</EndMilliseconds>
+    <Text>The car goes backward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>58223</StartMilliseconds>
+    <EndMilliseconds>58443</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>58444</StartMilliseconds>
+    <EndMilliseconds>59124</EndMilliseconds>
+    <Text>[i@[@Bump@]!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>59125</StartMilliseconds>
+    <EndMilliseconds>65257</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>65258</StartMilliseconds>
+    <EndMilliseconds>65642</EndMilliseconds>
+    <Text>The car goes left.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>65643</StartMilliseconds>
+    <EndMilliseconds>65883</EndMilliseconds>
+    <Text>[@The@] car goes left.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>65884</StartMilliseconds>
+    <EndMilliseconds>66300</EndMilliseconds>
+    <Text>The [@car@] goes left.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>66301</StartMilliseconds>
+    <EndMilliseconds>66666</EndMilliseconds>
+    <Text>The car [@goes@] left.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>66667</StartMilliseconds>
+    <EndMilliseconds>67271</EndMilliseconds>
+    <Text>The car goes [@left@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>67272</StartMilliseconds>
+    <EndMilliseconds>68175</EndMilliseconds>
+    <Text>The car goes left.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>68176</StartMilliseconds>
+    <EndMilliseconds>68404</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>68405</StartMilliseconds>
+    <EndMilliseconds>69232</EndMilliseconds>
+    <Text>[i@[@Bump@]!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>69233</StartMilliseconds>
+    <EndMilliseconds>72959</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>72960</StartMilliseconds>
+    <EndMilliseconds>73217</EndMilliseconds>
+    <Text>The car goes right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>73218</StartMilliseconds>
+    <EndMilliseconds>73475</EndMilliseconds>
+    <Text>[@The@] car goes right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>73476</StartMilliseconds>
+    <EndMilliseconds>73911</EndMilliseconds>
+    <Text>The [@car@] goes right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>73912</StartMilliseconds>
+    <EndMilliseconds>74219</EndMilliseconds>
+    <Text>The car [@goes@] right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>74220</StartMilliseconds>
+    <EndMilliseconds>74842</EndMilliseconds>
+    <Text>The car goes [@right@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>74843</StartMilliseconds>
+    <EndMilliseconds>75984</EndMilliseconds>
+    <Text>The car goes right.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>75985</StartMilliseconds>
+    <EndMilliseconds>76251</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>76252</StartMilliseconds>
+    <EndMilliseconds>76943</EndMilliseconds>
+    <Text>[i@[@Bump@]!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>76944</StartMilliseconds>
+    <EndMilliseconds>86220</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>86221</StartMilliseconds>
+    <EndMilliseconds>86515</EndMilliseconds>
+    <Text>The car goes slow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>86516</StartMilliseconds>
+    <EndMilliseconds>86765</EndMilliseconds>
+    <Text>[@The@] car goes slow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>86766</StartMilliseconds>
+    <EndMilliseconds>87204</EndMilliseconds>
+    <Text>The [@car@] goes slow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>87205</StartMilliseconds>
+    <EndMilliseconds>87634</EndMilliseconds>
+    <Text>The car [@goes@] slow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>87635</StartMilliseconds>
+    <EndMilliseconds>88285</EndMilliseconds>
+    <Text>The car goes [@slow@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>88286</StartMilliseconds>
+    <EndMilliseconds>90230</EndMilliseconds>
+    <Text>The car goes slow.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>90231</StartMilliseconds>
+    <EndMilliseconds>90472</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>90473</StartMilliseconds>
+    <EndMilliseconds>91615</EndMilliseconds>
+    <Text>[i@[@Bump@]!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>91616</StartMilliseconds>
+    <EndMilliseconds>94509</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>94510</StartMilliseconds>
+    <EndMilliseconds>95236</EndMilliseconds>
+    <Text>The car goes fast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>95237</StartMilliseconds>
+    <EndMilliseconds>95458</EndMilliseconds>
+    <Text>[@The@] car goes fast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>95459</StartMilliseconds>
+    <EndMilliseconds>95775</EndMilliseconds>
+    <Text>The [@car@] goes fast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>95776</StartMilliseconds>
+    <EndMilliseconds>96125</EndMilliseconds>
+    <Text>The car [@goes@] fast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>96126</StartMilliseconds>
+    <EndMilliseconds>96793</EndMilliseconds>
+    <Text>The car goes [@fast@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>96794</StartMilliseconds>
+    <EndMilliseconds>97794</EndMilliseconds>
+    <Text>The car goes fast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>97795</StartMilliseconds>
+    <EndMilliseconds>98069</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>98070</StartMilliseconds>
+    <EndMilliseconds>98532</EndMilliseconds>
+    <Text>[i@[@Bump@]!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>98533</StartMilliseconds>
+    <EndMilliseconds>102441</EndMilliseconds>
+    <Text>[i@Bump!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>102442</StartMilliseconds>
+    <EndMilliseconds>102793</EndMilliseconds>
+    <Text>The car goes really fast!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>102794</StartMilliseconds>
+    <EndMilliseconds>102978</EndMilliseconds>
+    <Text>[@The@] car goes really fast!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>102979</StartMilliseconds>
+    <EndMilliseconds>103320</EndMilliseconds>
+    <Text>The [@car@] goes really fast!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>103321</StartMilliseconds>
+    <EndMilliseconds>103646</EndMilliseconds>
+    <Text>The car [@goes@] really fast!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>103647</StartMilliseconds>
+    <EndMilliseconds>104104</EndMilliseconds>
+    <Text>The car goes [@really@] fast!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>104105</StartMilliseconds>
+    <EndMilliseconds>104871</EndMilliseconds>
+    <Text>The car goes really [@fast@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>104872</StartMilliseconds>
+    <EndMilliseconds>105760</EndMilliseconds>
+    <Text>The car goes really fast!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>105761</StartMilliseconds>
+    <EndMilliseconds>106012</EndMilliseconds>
+    <Text>[i@Vroom!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>106013</StartMilliseconds>
+    <EndMilliseconds>107187</EndMilliseconds>
+    <Text>[i@[@Vroom@]!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>91</Number>
+    <StartMilliseconds>107188</StartMilliseconds>
+    <EndMilliseconds>107750</EndMilliseconds>
+    <Text>[i@Vroom!@i]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>92</Number>
+    <StartMilliseconds>107751</StartMilliseconds>
+    <EndMilliseconds>107876</EndMilliseconds>
+    <Text>Blobs, where are you going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>93</Number>
+    <StartMilliseconds>107877</StartMilliseconds>
+    <EndMilliseconds>108785</EndMilliseconds>
+    <Text>[@Blobs@], where are you going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>94</Number>
+    <StartMilliseconds>108786</StartMilliseconds>
+    <EndMilliseconds>109136</EndMilliseconds>
+    <Text>Blobs, [@where@] are you going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>95</Number>
+    <StartMilliseconds>109137</StartMilliseconds>
+    <EndMilliseconds>109328</EndMilliseconds>
+    <Text>Blobs, where [@are@] you going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>96</Number>
+    <StartMilliseconds>109329</StartMilliseconds>
+    <EndMilliseconds>109501</EndMilliseconds>
+    <Text>Blobs, where are [@you@] going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>97</Number>
+    <StartMilliseconds>109502</StartMilliseconds>
+    <EndMilliseconds>110486</EndMilliseconds>
+    <Text>Blobs, where are you [@going@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>98</Number>
+    <StartMilliseconds>110487</StartMilliseconds>
+    <EndMilliseconds>112657</EndMilliseconds>
+    <Text>Blobs, where are you going?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>99</Number>
+    <StartMilliseconds>112658</StartMilliseconds>
+    <EndMilliseconds>112961</EndMilliseconds>
+    <Text>Silly blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>100</Number>
+    <StartMilliseconds>112962</StartMilliseconds>
+    <EndMilliseconds>113655</EndMilliseconds>
+    <Text>[@Silly@] blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>101</Number>
+    <StartMilliseconds>113656</StartMilliseconds>
+    <EndMilliseconds>114551</EndMilliseconds>
+    <Text>Silly [@blobs@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>102</Number>
+    <StartMilliseconds>114552</StartMilliseconds>
+    <EndMilliseconds>115455</EndMilliseconds>
+    <Text>Silly blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>103</Number>
+    <StartMilliseconds>115456</StartMilliseconds>
+    <EndMilliseconds>115667</EndMilliseconds>
+    <Text>Good-bye!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>104</Number>
+    <StartMilliseconds>115668</StartMilliseconds>
+    <EndMilliseconds>116497</EndMilliseconds>
+    <Text>[@Good-bye@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>105</Number>
+    <StartMilliseconds>116498</StartMilliseconds>
+    <EndMilliseconds>118077</EndMilliseconds>
+    <Text>Good-bye!</Text>
+  </Paragraph>
+</Subtitle>

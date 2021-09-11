@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>1</StartMilliseconds>
+    <EndMilliseconds>734</EndMilliseconds>
+    <Text>I put on Mommy's dress.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>735</StartMilliseconds>
+    <EndMilliseconds>1156</EndMilliseconds>
+    <Text>[@I@] put on Mommy's dress.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>1157</StartMilliseconds>
+    <EndMilliseconds>1420</EndMilliseconds>
+    <Text>I [@put@] on Mommy's dress.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>1421</StartMilliseconds>
+    <EndMilliseconds>1612</EndMilliseconds>
+    <Text>I put [@on@] Mommy's dress.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>1613</StartMilliseconds>
+    <EndMilliseconds>2312</EndMilliseconds>
+    <Text>I put on [@Mommy's@] dress.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>2313</StartMilliseconds>
+    <EndMilliseconds>3231</EndMilliseconds>
+    <Text>I put on Mommy's [@dress@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>3232</StartMilliseconds>
+    <EndMilliseconds>7804</EndMilliseconds>
+    <Text>I put on Mommy's dress.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>7805</StartMilliseconds>
+    <EndMilliseconds>8230</EndMilliseconds>
+    <Text>[e@I put on Mommy's dress.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>8231</StartMilliseconds>
+    <EndMilliseconds>8877</EndMilliseconds>
+    <Text>I put on Daddy's shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>8878</StartMilliseconds>
+    <EndMilliseconds>9166</EndMilliseconds>
+    <Text>[@I@] put on Daddy's shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>9167</StartMilliseconds>
+    <EndMilliseconds>9441</EndMilliseconds>
+    <Text>I [@put@] on Daddy's shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>9442</StartMilliseconds>
+    <EndMilliseconds>9721</EndMilliseconds>
+    <Text>I put [@on@] Daddy's shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>9722</StartMilliseconds>
+    <EndMilliseconds>10179</EndMilliseconds>
+    <Text>I put on [@Daddy's@] shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>10180</StartMilliseconds>
+    <EndMilliseconds>11241</EndMilliseconds>
+    <Text>I put on Daddy's [@shirt@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>11242</StartMilliseconds>
+    <EndMilliseconds>15803</EndMilliseconds>
+    <Text>I put on Daddy's shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>15804</StartMilliseconds>
+    <EndMilliseconds>16003</EndMilliseconds>
+    <Text>[e@I put on Daddy's shirt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>16004</StartMilliseconds>
+    <EndMilliseconds>17143</EndMilliseconds>
+    <Text>I put on Mommy's scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>17144</StartMilliseconds>
+    <EndMilliseconds>17464</EndMilliseconds>
+    <Text>[@I@] put on Mommy's scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>17465</StartMilliseconds>
+    <EndMilliseconds>17651</EndMilliseconds>
+    <Text>I [@put@] on Mommy's scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>17652</StartMilliseconds>
+    <EndMilliseconds>17910</EndMilliseconds>
+    <Text>I put [@on@] Mommy's scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>17911</StartMilliseconds>
+    <EndMilliseconds>18463</EndMilliseconds>
+    <Text>I put on [@Mommy's@] scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>18464</StartMilliseconds>
+    <EndMilliseconds>19508</EndMilliseconds>
+    <Text>I put on Mommy's [@scarf@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>19509</StartMilliseconds>
+    <EndMilliseconds>23499</EndMilliseconds>
+    <Text>I put on Mommy's scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>23500</StartMilliseconds>
+    <EndMilliseconds>23679</EndMilliseconds>
+    <Text>[e@I put on Mommy's scarf.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>23680</StartMilliseconds>
+    <EndMilliseconds>24482</EndMilliseconds>
+    <Text>I put on Daddy's tie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>24483</StartMilliseconds>
+    <EndMilliseconds>24792</EndMilliseconds>
+    <Text>[@I@] put on Daddy's tie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>24793</StartMilliseconds>
+    <EndMilliseconds>25031</EndMilliseconds>
+    <Text>I [@put@] on Daddy's tie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>25032</StartMilliseconds>
+    <EndMilliseconds>25320</EndMilliseconds>
+    <Text>I put [@on@] Daddy's tie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>25321</StartMilliseconds>
+    <EndMilliseconds>25904</EndMilliseconds>
+    <Text>I put on [@Daddy's@] tie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>25905</StartMilliseconds>
+    <EndMilliseconds>26774</EndMilliseconds>
+    <Text>I put on Daddy's [@tie@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>26775</StartMilliseconds>
+    <EndMilliseconds>31101</EndMilliseconds>
+    <Text>I put on Daddy's tie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>31102</StartMilliseconds>
+    <EndMilliseconds>31534</EndMilliseconds>
+    <Text>[e@I put on Daddy's tie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>31535</StartMilliseconds>
+    <EndMilliseconds>32481</EndMilliseconds>
+    <Text>I put on Mommy's shoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>32482</StartMilliseconds>
+    <EndMilliseconds>32795</EndMilliseconds>
+    <Text>[@I@] put on Mommy's shoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>32796</StartMilliseconds>
+    <EndMilliseconds>33016</EndMilliseconds>
+    <Text>I [@put@] on Mommy's shoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>33017</StartMilliseconds>
+    <EndMilliseconds>33290</EndMilliseconds>
+    <Text>I put [@on@] Mommy's shoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>33291</StartMilliseconds>
+    <EndMilliseconds>33785</EndMilliseconds>
+    <Text>I put on [@Mommy's@] shoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>33786</StartMilliseconds>
+    <EndMilliseconds>34825</EndMilliseconds>
+    <Text>I put on Mommy's [@shoes@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>34826</StartMilliseconds>
+    <EndMilliseconds>38847</EndMilliseconds>
+    <Text>I put on Mommy's shoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>38848</StartMilliseconds>
+    <EndMilliseconds>39201</EndMilliseconds>
+    <Text>[e@I put on Mommy's shoes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>39351</StartMilliseconds>
+    <EndMilliseconds>39900</EndMilliseconds>
+    <Text>I put on Daddy's boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>39901</StartMilliseconds>
+    <EndMilliseconds>40251</EndMilliseconds>
+    <Text>[@I@] put on Daddy's boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>40252</StartMilliseconds>
+    <EndMilliseconds>40435</EndMilliseconds>
+    <Text>I [@put@] on Daddy's boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>40436</StartMilliseconds>
+    <EndMilliseconds>40740</EndMilliseconds>
+    <Text>I put [@on@] Daddy's boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>40741</StartMilliseconds>
+    <EndMilliseconds>41388</EndMilliseconds>
+    <Text>I put on [@Daddy's@] boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>41389</StartMilliseconds>
+    <EndMilliseconds>42314</EndMilliseconds>
+    <Text>I put on Daddy's [@boots@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>42315</StartMilliseconds>
+    <EndMilliseconds>46756</EndMilliseconds>
+    <Text>I put on Daddy's boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>46757</StartMilliseconds>
+    <EndMilliseconds>47019</EndMilliseconds>
+    <Text>[e@I put on Daddy's boots.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>47020</StartMilliseconds>
+    <EndMilliseconds>47731</EndMilliseconds>
+    <Text>I put on Mommy's jewelry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>47732</StartMilliseconds>
+    <EndMilliseconds>48120</EndMilliseconds>
+    <Text>[@I@] put on Mommy's jewelry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>48121</StartMilliseconds>
+    <EndMilliseconds>48370</EndMilliseconds>
+    <Text>I [@put@] on Mommy's jewelry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>48371</StartMilliseconds>
+    <EndMilliseconds>48628</EndMilliseconds>
+    <Text>I put [@on@] Mommy's jewelry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>48629</StartMilliseconds>
+    <EndMilliseconds>49185</EndMilliseconds>
+    <Text>I put on [@Mommy's@] jewelry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>49186</StartMilliseconds>
+    <EndMilliseconds>50161</EndMilliseconds>
+    <Text>I put on Mommy's [@jewelry@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>50162</StartMilliseconds>
+    <EndMilliseconds>54218</EndMilliseconds>
+    <Text>I put on Mommy's jewelry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>54219</StartMilliseconds>
+    <EndMilliseconds>54733</EndMilliseconds>
+    <Text>[e@I put on Mommy's jewelry.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>54734</StartMilliseconds>
+    <EndMilliseconds>55335</EndMilliseconds>
+    <Text>I put on Daddy's watch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>55336</StartMilliseconds>
+    <EndMilliseconds>55672</EndMilliseconds>
+    <Text>[@I@] put on Daddy's watch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>55673</StartMilliseconds>
+    <EndMilliseconds>55875</EndMilliseconds>
+    <Text>I [@put@] on Daddy's watch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>55876</StartMilliseconds>
+    <EndMilliseconds>56160</EndMilliseconds>
+    <Text>I put [@on@] Daddy's watch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>56161</StartMilliseconds>
+    <EndMilliseconds>56687</EndMilliseconds>
+    <Text>I put on [@Daddy's@] watch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>56688</StartMilliseconds>
+    <EndMilliseconds>57841</EndMilliseconds>
+    <Text>I put on Daddy's [@watch@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>57842</StartMilliseconds>
+    <EndMilliseconds>61890</EndMilliseconds>
+    <Text>I put on Daddy's watch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>61891</StartMilliseconds>
+    <EndMilliseconds>62409</EndMilliseconds>
+    <Text>[e@I put on Daddy's watch.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>62410</StartMilliseconds>
+    <EndMilliseconds>63485</EndMilliseconds>
+    <Text>I put on Mommy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>63486</StartMilliseconds>
+    <EndMilliseconds>63809</EndMilliseconds>
+    <Text>[@I@] put on Mommy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>63810</StartMilliseconds>
+    <EndMilliseconds>64050</EndMilliseconds>
+    <Text>I [@put@] on Mommy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>64051</StartMilliseconds>
+    <EndMilliseconds>64295</EndMilliseconds>
+    <Text>I put [@on@] Mommy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>64296</StartMilliseconds>
+    <EndMilliseconds>64772</EndMilliseconds>
+    <Text>I put on [@Mommy's@] hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>64773</StartMilliseconds>
+    <EndMilliseconds>65627</EndMilliseconds>
+    <Text>I put on Mommy's [@hat@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>65628</StartMilliseconds>
+    <EndMilliseconds>69379</EndMilliseconds>
+    <Text>I put on Mommy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>69380</StartMilliseconds>
+    <EndMilliseconds>69797</EndMilliseconds>
+    <Text>[e@I put on Mommy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>69798</StartMilliseconds>
+    <EndMilliseconds>70914</EndMilliseconds>
+    <Text>I put on Daddy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>70915</StartMilliseconds>
+    <EndMilliseconds>71168</EndMilliseconds>
+    <Text>[@I@] put on Daddy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>71169</StartMilliseconds>
+    <EndMilliseconds>71409</EndMilliseconds>
+    <Text>I [@put@] on Daddy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>71410</StartMilliseconds>
+    <EndMilliseconds>71790</EndMilliseconds>
+    <Text>I put [@on@] Daddy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>71791</StartMilliseconds>
+    <EndMilliseconds>72389</EndMilliseconds>
+    <Text>I put on [@Daddy's@] hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>72390</StartMilliseconds>
+    <EndMilliseconds>73035</EndMilliseconds>
+    <Text>I put on Daddy's [@hat@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>73036</StartMilliseconds>
+    <EndMilliseconds>77394</EndMilliseconds>
+    <Text>I put on Daddy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>77395</StartMilliseconds>
+    <EndMilliseconds>77802</EndMilliseconds>
+    <Text>[e@I put on Daddy's hat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>77803</StartMilliseconds>
+    <EndMilliseconds>78153</EndMilliseconds>
+    <Text>We are going out!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>78154</StartMilliseconds>
+    <EndMilliseconds>78439</EndMilliseconds>
+    <Text>[@We@] are going out!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>78440</StartMilliseconds>
+    <EndMilliseconds>78701</EndMilliseconds>
+    <Text>We [@are@] going out!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>78702</StartMilliseconds>
+    <EndMilliseconds>79179</EndMilliseconds>
+    <Text>We are [@going@] out!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>79180</StartMilliseconds>
+    <EndMilliseconds>79979</EndMilliseconds>
+    <Text>We are going [@out@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>79980</StartMilliseconds>
+    <EndMilliseconds>84794</EndMilliseconds>
+    <Text>We are going out!</Text>
+  </Paragraph>
+</Subtitle>

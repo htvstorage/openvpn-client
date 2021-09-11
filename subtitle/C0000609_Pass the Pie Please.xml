@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1995</EndMilliseconds>
+    <Text>Pass the bread please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1996</StartMilliseconds>
+    <EndMilliseconds>2416</EndMilliseconds>
+    <Text>[@Pass@] the bread please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>2417</StartMilliseconds>
+    <EndMilliseconds>2665</EndMilliseconds>
+    <Text>Pass [@the@] bread please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2666</StartMilliseconds>
+    <EndMilliseconds>3054</EndMilliseconds>
+    <Text>Pass the [@bread@] please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>3055</StartMilliseconds>
+    <EndMilliseconds>3921</EndMilliseconds>
+    <Text>Pass the bread [@please@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>3922</StartMilliseconds>
+    <EndMilliseconds>9817</EndMilliseconds>
+    <Text>Pass the bread please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>9818</StartMilliseconds>
+    <EndMilliseconds>10084</EndMilliseconds>
+    <Text>[e@Pass the bread please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>10085</StartMilliseconds>
+    <EndMilliseconds>11851</EndMilliseconds>
+    <Text>Pass the butter please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>11852</StartMilliseconds>
+    <EndMilliseconds>12209</EndMilliseconds>
+    <Text>[s@Pass the butter please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>12210</StartMilliseconds>
+    <EndMilliseconds>12654</EndMilliseconds>
+    <Text>[@Pass@] the butter please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>12655</StartMilliseconds>
+    <EndMilliseconds>12875</EndMilliseconds>
+    <Text>Pass [@the@] butter please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>12876</StartMilliseconds>
+    <EndMilliseconds>13450</EndMilliseconds>
+    <Text>Pass the [@butter@] please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>13451</StartMilliseconds>
+    <EndMilliseconds>14222</EndMilliseconds>
+    <Text>Pass the butter [@please@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>14223</StartMilliseconds>
+    <EndMilliseconds>20254</EndMilliseconds>
+    <Text>Pass the butter please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>20255</StartMilliseconds>
+    <EndMilliseconds>20534</EndMilliseconds>
+    <Text>[e@Pass the butter please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>20535</StartMilliseconds>
+    <EndMilliseconds>21417</EndMilliseconds>
+    <Text>Pass the chicken please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>21418</StartMilliseconds>
+    <EndMilliseconds>21845</EndMilliseconds>
+    <Text>[s@Pass the chicken please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>21846</StartMilliseconds>
+    <EndMilliseconds>22278</EndMilliseconds>
+    <Text>[@Pass@] the chicken please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>22279</StartMilliseconds>
+    <EndMilliseconds>22513</EndMilliseconds>
+    <Text>Pass [@the@] chicken please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>22514</StartMilliseconds>
+    <EndMilliseconds>23228</EndMilliseconds>
+    <Text>Pass the [@chicken@] please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>23229</StartMilliseconds>
+    <EndMilliseconds>24080</EndMilliseconds>
+    <Text>Pass the chicken [@please@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>24081</StartMilliseconds>
+    <EndMilliseconds>29676</EndMilliseconds>
+    <Text>Pass the chicken please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>29677</StartMilliseconds>
+    <EndMilliseconds>29962</EndMilliseconds>
+    <Text>[e@Pass the chicken please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>29963</StartMilliseconds>
+    <EndMilliseconds>31169</EndMilliseconds>
+    <Text>Pass the rice please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>31170</StartMilliseconds>
+    <EndMilliseconds>31555</EndMilliseconds>
+    <Text>[s@Pass the rice please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>31556</StartMilliseconds>
+    <EndMilliseconds>31998</EndMilliseconds>
+    <Text>[@Pass@] the rice please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>31999</StartMilliseconds>
+    <EndMilliseconds>32212</EndMilliseconds>
+    <Text>Pass [@the@] rice please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>32213</StartMilliseconds>
+    <EndMilliseconds>32578</EndMilliseconds>
+    <Text>Pass the [@rice@] please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>32579</StartMilliseconds>
+    <EndMilliseconds>33295</EndMilliseconds>
+    <Text>Pass the rice [@please@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>33296</StartMilliseconds>
+    <EndMilliseconds>38297</EndMilliseconds>
+    <Text>Pass the rice please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>38298</StartMilliseconds>
+    <EndMilliseconds>38561</EndMilliseconds>
+    <Text>[e@Pass the rice please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>38562</StartMilliseconds>
+    <EndMilliseconds>39791</EndMilliseconds>
+    <Text>Pass the corn please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>39792</StartMilliseconds>
+    <EndMilliseconds>40198</EndMilliseconds>
+    <Text>[s@Pass the corn please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>40199</StartMilliseconds>
+    <EndMilliseconds>40577</EndMilliseconds>
+    <Text>[@Pass@] the corn please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>40578</StartMilliseconds>
+    <EndMilliseconds>40821</EndMilliseconds>
+    <Text>Pass [@the@] corn please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>40822</StartMilliseconds>
+    <EndMilliseconds>41332</EndMilliseconds>
+    <Text>Pass the [@corn@] please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>41333</StartMilliseconds>
+    <EndMilliseconds>42093</EndMilliseconds>
+    <Text>Pass the corn [@please@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>42094</StartMilliseconds>
+    <EndMilliseconds>47182</EndMilliseconds>
+    <Text>Pass the corn please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>47183</StartMilliseconds>
+    <EndMilliseconds>47477</EndMilliseconds>
+    <Text>[e@Pass the corn please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>47478</StartMilliseconds>
+    <EndMilliseconds>48837</EndMilliseconds>
+    <Text>Pass the milk please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>48838</StartMilliseconds>
+    <EndMilliseconds>49280</EndMilliseconds>
+    <Text>[s@Pass the milk please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>49281</StartMilliseconds>
+    <EndMilliseconds>49699</EndMilliseconds>
+    <Text>[@Pass@] the milk please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>49700</StartMilliseconds>
+    <EndMilliseconds>49992</EndMilliseconds>
+    <Text>Pass [@the@] milk please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>49993</StartMilliseconds>
+    <EndMilliseconds>50343</EndMilliseconds>
+    <Text>Pass the [@milk@] please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>50344</StartMilliseconds>
+    <EndMilliseconds>51108</EndMilliseconds>
+    <Text>Pass the milk [@please@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>51109</StartMilliseconds>
+    <EndMilliseconds>56989</EndMilliseconds>
+    <Text>Pass the milk please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>56990</StartMilliseconds>
+    <EndMilliseconds>57224</EndMilliseconds>
+    <Text>[e@Pass the milk please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>57225</StartMilliseconds>
+    <EndMilliseconds>57993</EndMilliseconds>
+    <Text>Pass the pie please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>57994</StartMilliseconds>
+    <EndMilliseconds>58363</EndMilliseconds>
+    <Text>[s@Pass the pie please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>58364</StartMilliseconds>
+    <EndMilliseconds>58704</EndMilliseconds>
+    <Text>[@Pass@] the pie please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>58705</StartMilliseconds>
+    <EndMilliseconds>58983</EndMilliseconds>
+    <Text>Pass [@the@] pie please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>58984</StartMilliseconds>
+    <EndMilliseconds>59442</EndMilliseconds>
+    <Text>Pass the [@pie@] please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>59443</StartMilliseconds>
+    <EndMilliseconds>60527</EndMilliseconds>
+    <Text>Pass the pie [@please@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>60528</StartMilliseconds>
+    <EndMilliseconds>63547</EndMilliseconds>
+    <Text>Pass the pie please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>63548</StartMilliseconds>
+    <EndMilliseconds>63804</EndMilliseconds>
+    <Text>[e@Pass the pie please.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>63805</StartMilliseconds>
+    <EndMilliseconds>65167</EndMilliseconds>
+    <Text>Thank you.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>65168</StartMilliseconds>
+    <EndMilliseconds>65607</EndMilliseconds>
+    <Text>[s@Thank you.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>65608</StartMilliseconds>
+    <EndMilliseconds>65957</EndMilliseconds>
+    <Text>[@Thank@] you.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>65958</StartMilliseconds>
+    <EndMilliseconds>66675</EndMilliseconds>
+    <Text>Thank [@you@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>66676</StartMilliseconds>
+    <EndMilliseconds>69958</EndMilliseconds>
+    <Text>Thank you.</Text>
+  </Paragraph>
+</Subtitle>

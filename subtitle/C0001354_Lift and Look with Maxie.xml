@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>218</EndMilliseconds>
+    <Text>Open the car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>219</StartMilliseconds>
+    <EndMilliseconds>723</EndMilliseconds>
+    <Text>[@Open@] the car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>724</StartMilliseconds>
+    <EndMilliseconds>875</EndMilliseconds>
+    <Text>Open [@the@] car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>876</StartMilliseconds>
+    <EndMilliseconds>1526</EndMilliseconds>
+    <Text>Open the [@car@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>1527</StartMilliseconds>
+    <EndMilliseconds>1657</EndMilliseconds>
+    <Text>Open the car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>1658</StartMilliseconds>
+    <EndMilliseconds>1778</EndMilliseconds>
+    <Text>[e@Open the car.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>1779</StartMilliseconds>
+    <EndMilliseconds>1942</EndMilliseconds>
+    <Text>Grandma has one box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>1943</StartMilliseconds>
+    <EndMilliseconds>2428</EndMilliseconds>
+    <Text>[@Grandma@] has one box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>2429</StartMilliseconds>
+    <EndMilliseconds>2859</EndMilliseconds>
+    <Text>Grandma [@has@] one box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>2860</StartMilliseconds>
+    <EndMilliseconds>3332</EndMilliseconds>
+    <Text>Grandma has [@one@] box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>3333</StartMilliseconds>
+    <EndMilliseconds>4050</EndMilliseconds>
+    <Text>Grandma has one [@box@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>4051</StartMilliseconds>
+    <EndMilliseconds>6327</EndMilliseconds>
+    <Text>Grandma has one box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>6328</StartMilliseconds>
+    <EndMilliseconds>6536</EndMilliseconds>
+    <Text>[e@Grandma has one box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>6537</StartMilliseconds>
+    <EndMilliseconds>6882</EndMilliseconds>
+    <Text>Open the gate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>6883</StartMilliseconds>
+    <EndMilliseconds>7422</EndMilliseconds>
+    <Text>[@Open@] the gate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>7423</StartMilliseconds>
+    <EndMilliseconds>7603</EndMilliseconds>
+    <Text>Open [@the@] gate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>7604</StartMilliseconds>
+    <EndMilliseconds>8259</EndMilliseconds>
+    <Text>Open the [@gate@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>8260</StartMilliseconds>
+    <EndMilliseconds>8441</EndMilliseconds>
+    <Text>Open the gate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>8442</StartMilliseconds>
+    <EndMilliseconds>8596</EndMilliseconds>
+    <Text>Two pets.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>8597</StartMilliseconds>
+    <EndMilliseconds>9247</EndMilliseconds>
+    <Text>[@Two@] pets.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>9248</StartMilliseconds>
+    <EndMilliseconds>9998</EndMilliseconds>
+    <Text>Two [@pets@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>9999</StartMilliseconds>
+    <EndMilliseconds>12120</EndMilliseconds>
+    <Text>Two pets.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>12121</StartMilliseconds>
+    <EndMilliseconds>12341</EndMilliseconds>
+    <Text>[e@Two pets.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>12342</StartMilliseconds>
+    <EndMilliseconds>12614</EndMilliseconds>
+    <Text>Open the door.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>12615</StartMilliseconds>
+    <EndMilliseconds>13187</EndMilliseconds>
+    <Text>[@Open@] the door.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>13188</StartMilliseconds>
+    <EndMilliseconds>13378</EndMilliseconds>
+    <Text>Open [@the@] door.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>13379</StartMilliseconds>
+    <EndMilliseconds>13979</EndMilliseconds>
+    <Text>Open the [@door@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>13980</StartMilliseconds>
+    <EndMilliseconds>14231</EndMilliseconds>
+    <Text>Open the door.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>14232</StartMilliseconds>
+    <EndMilliseconds>14360</EndMilliseconds>
+    <Text>[e@Open the door.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>14361</StartMilliseconds>
+    <EndMilliseconds>14580</EndMilliseconds>
+    <Text>Three friends.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>14581</StartMilliseconds>
+    <EndMilliseconds>14922</EndMilliseconds>
+    <Text>[@Three@] friends.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>14923</StartMilliseconds>
+    <EndMilliseconds>15869</EndMilliseconds>
+    <Text>Three [@friends@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>15870</StartMilliseconds>
+    <EndMilliseconds>17673</EndMilliseconds>
+    <Text>Three friends.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>17674</StartMilliseconds>
+    <EndMilliseconds>17885</EndMilliseconds>
+    <Text>[e@Three friends.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>17886</StartMilliseconds>
+    <EndMilliseconds>18126</EndMilliseconds>
+    <Text>Open the window.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>18127</StartMilliseconds>
+    <EndMilliseconds>18755</EndMilliseconds>
+    <Text>[@Open@] the window.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>18756</StartMilliseconds>
+    <EndMilliseconds>18885</EndMilliseconds>
+    <Text>Open [@the@] window.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>18886</StartMilliseconds>
+    <EndMilliseconds>19699</EndMilliseconds>
+    <Text>Open the [@window@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>19703</StartMilliseconds>
+    <EndMilliseconds>19880</EndMilliseconds>
+    <Text>Open the window.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>19881</StartMilliseconds>
+    <EndMilliseconds>19991</EndMilliseconds>
+    <Text>[e@Open the window.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>19992</StartMilliseconds>
+    <EndMilliseconds>20811</EndMilliseconds>
+    <Text>Four flowers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>20812</StartMilliseconds>
+    <EndMilliseconds>21119</EndMilliseconds>
+    <Text>[s@Four flowers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>21120</StartMilliseconds>
+    <EndMilliseconds>21528</EndMilliseconds>
+    <Text>[@Four@] flowers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>21529</StartMilliseconds>
+    <EndMilliseconds>22717</EndMilliseconds>
+    <Text>Four [@flowers@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>22718</StartMilliseconds>
+    <EndMilliseconds>24626</EndMilliseconds>
+    <Text>Four flowers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>24627</StartMilliseconds>
+    <EndMilliseconds>24819</EndMilliseconds>
+    <Text>[e@Four flowers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>24820</StartMilliseconds>
+    <EndMilliseconds>25076</EndMilliseconds>
+    <Text>Open the book.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>25077</StartMilliseconds>
+    <EndMilliseconds>25632</EndMilliseconds>
+    <Text>[@Open@] the book.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>25633</StartMilliseconds>
+    <EndMilliseconds>25812</EndMilliseconds>
+    <Text>Open [@the@] book.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>25813</StartMilliseconds>
+    <EndMilliseconds>26509</EndMilliseconds>
+    <Text>Open the [@book@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>26510</StartMilliseconds>
+    <EndMilliseconds>26739</EndMilliseconds>
+    <Text>Open the book.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>26740</StartMilliseconds>
+    <EndMilliseconds>26901</EndMilliseconds>
+    <Text>Five butterflies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>26902</StartMilliseconds>
+    <EndMilliseconds>27307</EndMilliseconds>
+    <Text>[@Five@] butterflies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>27308</StartMilliseconds>
+    <EndMilliseconds>28715</EndMilliseconds>
+    <Text>Five [@butterflies@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>28716</StartMilliseconds>
+    <EndMilliseconds>30595</EndMilliseconds>
+    <Text>Five butterflies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>30596</StartMilliseconds>
+    <EndMilliseconds>30744</EndMilliseconds>
+    <Text>[e@Five butterflies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>30745</StartMilliseconds>
+    <EndMilliseconds>30912</EndMilliseconds>
+    <Text>Open the box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>30913</StartMilliseconds>
+    <EndMilliseconds>31445</EndMilliseconds>
+    <Text>[@Open@] the box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>31446</StartMilliseconds>
+    <EndMilliseconds>31643</EndMilliseconds>
+    <Text>Open [@the@] box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>31644</StartMilliseconds>
+    <EndMilliseconds>32429</EndMilliseconds>
+    <Text>Open the [@box@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>32430</StartMilliseconds>
+    <EndMilliseconds>32645</EndMilliseconds>
+    <Text>Open the box.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>32646</StartMilliseconds>
+    <EndMilliseconds>32925</EndMilliseconds>
+    <Text>Six toys.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>32926</StartMilliseconds>
+    <EndMilliseconds>33525</EndMilliseconds>
+    <Text>[@Six@] toys.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>33526</StartMilliseconds>
+    <EndMilliseconds>34511</EndMilliseconds>
+    <Text>Six [@toys@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>34512</StartMilliseconds>
+    <EndMilliseconds>36293</EndMilliseconds>
+    <Text>Six toys.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>36294</StartMilliseconds>
+    <EndMilliseconds>36481</EndMilliseconds>
+    <Text>[e@Six toys.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>36482</StartMilliseconds>
+    <EndMilliseconds>36780</EndMilliseconds>
+    <Text>Open the closet.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>36781</StartMilliseconds>
+    <EndMilliseconds>37317</EndMilliseconds>
+    <Text>[@Open@] the closet.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>37318</StartMilliseconds>
+    <EndMilliseconds>37531</EndMilliseconds>
+    <Text>Open [@the@] closet.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>37532</StartMilliseconds>
+    <EndMilliseconds>38304</EndMilliseconds>
+    <Text>Open the [@closet@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>38305</StartMilliseconds>
+    <EndMilliseconds>38554</EndMilliseconds>
+    <Text>Open the closet.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>38555</StartMilliseconds>
+    <EndMilliseconds>38843</EndMilliseconds>
+    <Text>Seven hats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>38844</StartMilliseconds>
+    <EndMilliseconds>39424</EndMilliseconds>
+    <Text>[@Seven@] hats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>39425</StartMilliseconds>
+    <EndMilliseconds>40129</EndMilliseconds>
+    <Text>Seven [@hats@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>40130</StartMilliseconds>
+    <EndMilliseconds>41403</EndMilliseconds>
+    <Text>Seven hats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>41404</StartMilliseconds>
+    <EndMilliseconds>41538</EndMilliseconds>
+    <Text>[e@Seven hats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>41539</StartMilliseconds>
+    <EndMilliseconds>41751</EndMilliseconds>
+    <Text>Open the refrigerator.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>41752</StartMilliseconds>
+    <EndMilliseconds>42329</EndMilliseconds>
+    <Text>[@Open@] the refrigerator.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>42330</StartMilliseconds>
+    <EndMilliseconds>42505</EndMilliseconds>
+    <Text>Open [@the@] refrigerator.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>42506</StartMilliseconds>
+    <EndMilliseconds>43755</EndMilliseconds>
+    <Text>Open the [@refrigerator@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>43756</StartMilliseconds>
+    <EndMilliseconds>44015</EndMilliseconds>
+    <Text>Open the refrigerator.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>44016</StartMilliseconds>
+    <EndMilliseconds>44215</EndMilliseconds>
+    <Text>Eight bottles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>44216</StartMilliseconds>
+    <EndMilliseconds>44545</EndMilliseconds>
+    <Text>[@Eight@] bottles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>44546</StartMilliseconds>
+    <EndMilliseconds>45642</EndMilliseconds>
+    <Text>Eight [@bottles@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>45643</StartMilliseconds>
+    <EndMilliseconds>47637</EndMilliseconds>
+    <Text>Eight bottles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>47638</StartMilliseconds>
+    <EndMilliseconds>47818</EndMilliseconds>
+    <Text>[e@Eight bottles.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>47819</StartMilliseconds>
+    <EndMilliseconds>48075</EndMilliseconds>
+    <Text>Open the oven.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>48076</StartMilliseconds>
+    <EndMilliseconds>48577</EndMilliseconds>
+    <Text>[@Open@] the oven.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>48578</StartMilliseconds>
+    <EndMilliseconds>48771</EndMilliseconds>
+    <Text>Open [@the@] oven.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>48772</StartMilliseconds>
+    <EndMilliseconds>49500</EndMilliseconds>
+    <Text>Open the [@oven@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>91</Number>
+    <StartMilliseconds>49501</StartMilliseconds>
+    <EndMilliseconds>49711</EndMilliseconds>
+    <Text>Open the oven.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>92</Number>
+    <StartMilliseconds>49712</StartMilliseconds>
+    <EndMilliseconds>49812</EndMilliseconds>
+    <Text>[e@Open the oven.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>93</Number>
+    <StartMilliseconds>49813</StartMilliseconds>
+    <EndMilliseconds>49999</EndMilliseconds>
+    <Text>Nine cookies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>94</Number>
+    <StartMilliseconds>50000</StartMilliseconds>
+    <EndMilliseconds>50510</EndMilliseconds>
+    <Text>[@Nine@] cookies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>95</Number>
+    <StartMilliseconds>50511</StartMilliseconds>
+    <EndMilliseconds>51630</EndMilliseconds>
+    <Text>Nine [@cookies@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>96</Number>
+    <StartMilliseconds>51631</StartMilliseconds>
+    <EndMilliseconds>53260</EndMilliseconds>
+    <Text>Nine cookies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>97</Number>
+    <StartMilliseconds>53261</StartMilliseconds>
+    <EndMilliseconds>53411</EndMilliseconds>
+    <Text>[e@Nine cookies.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>98</Number>
+    <StartMilliseconds>53412</StartMilliseconds>
+    <EndMilliseconds>53659</EndMilliseconds>
+    <Text>Open the lid.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>99</Number>
+    <StartMilliseconds>53660</StartMilliseconds>
+    <EndMilliseconds>54174</EndMilliseconds>
+    <Text>[@Open@] the lid.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>100</Number>
+    <StartMilliseconds>54175</StartMilliseconds>
+    <EndMilliseconds>54368</EndMilliseconds>
+    <Text>Open [@the@] lid.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>101</Number>
+    <StartMilliseconds>54369</StartMilliseconds>
+    <EndMilliseconds>55120</EndMilliseconds>
+    <Text>Open the [@lid@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>102</Number>
+    <StartMilliseconds>55121</StartMilliseconds>
+    <EndMilliseconds>55386</EndMilliseconds>
+    <Text>Open the lid.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>103</Number>
+    <StartMilliseconds>55387</StartMilliseconds>
+    <EndMilliseconds>55580</EndMilliseconds>
+    <Text>Ten candles on a cake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>104</Number>
+    <StartMilliseconds>55581</StartMilliseconds>
+    <EndMilliseconds>55976</EndMilliseconds>
+    <Text>[@Ten@] candles on a cake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>105</Number>
+    <StartMilliseconds>55977</StartMilliseconds>
+    <EndMilliseconds>56503</EndMilliseconds>
+    <Text>Ten [@candles@] on a cake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>106</Number>
+    <StartMilliseconds>56504</StartMilliseconds>
+    <EndMilliseconds>56730</EndMilliseconds>
+    <Text>Ten candles [@on@] a cake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>107</Number>
+    <StartMilliseconds>56731</StartMilliseconds>
+    <EndMilliseconds>56900</EndMilliseconds>
+    <Text>Ten candles on [@a@] cake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>108</Number>
+    <StartMilliseconds>56901</StartMilliseconds>
+    <EndMilliseconds>57667</EndMilliseconds>
+    <Text>Ten candles on a [@cake@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>109</Number>
+    <StartMilliseconds>57668</StartMilliseconds>
+    <EndMilliseconds>63322</EndMilliseconds>
+    <Text>Ten candles on a cake.</Text>
+  </Paragraph>
+</Subtitle>

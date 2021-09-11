@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>345</EndMilliseconds>
+    <Text>Sally is a princess.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>346</StartMilliseconds>
+    <EndMilliseconds>1126</EndMilliseconds>
+    <Text>[@Sally@] is a princess.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>1127</StartMilliseconds>
+    <EndMilliseconds>1389</EndMilliseconds>
+    <Text>Sally [@is@] a princess.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>1390</StartMilliseconds>
+    <EndMilliseconds>1632</EndMilliseconds>
+    <Text>Sally is [@a@] princess.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>1633</StartMilliseconds>
+    <EndMilliseconds>2796</EndMilliseconds>
+    <Text>Sally is a [@princess@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>2797</StartMilliseconds>
+    <EndMilliseconds>8317</EndMilliseconds>
+    <Text>Sally is a princess.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>8318</StartMilliseconds>
+    <EndMilliseconds>8471</EndMilliseconds>
+    <Text>[e@Sally is a princess.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>8472</StartMilliseconds>
+    <EndMilliseconds>8960</EndMilliseconds>
+    <Text>Jack is a pirate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>8961</StartMilliseconds>
+    <EndMilliseconds>9532</EndMilliseconds>
+    <Text>[@Jack@] is a pirate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>9533</StartMilliseconds>
+    <EndMilliseconds>9776</EndMilliseconds>
+    <Text>Jack [@is@] a pirate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>9777</StartMilliseconds>
+    <EndMilliseconds>9973</EndMilliseconds>
+    <Text>Jack is [@a@] pirate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>9974</StartMilliseconds>
+    <EndMilliseconds>11275</EndMilliseconds>
+    <Text>Jack is a [@pirate@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>11276</StartMilliseconds>
+    <EndMilliseconds>17487</EndMilliseconds>
+    <Text>Jack is a pirate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>17488</StartMilliseconds>
+    <EndMilliseconds>17616</EndMilliseconds>
+    <Text>[e@Jack is a pirate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>17617</StartMilliseconds>
+    <EndMilliseconds>18082</EndMilliseconds>
+    <Text>Jane is an astronaut.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>18083</StartMilliseconds>
+    <EndMilliseconds>18730</EndMilliseconds>
+    <Text>[@Jane@] is an astronaut.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>18731</StartMilliseconds>
+    <EndMilliseconds>18929</EndMilliseconds>
+    <Text>Jane [@is@] an astronaut.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>18930</StartMilliseconds>
+    <EndMilliseconds>19218</EndMilliseconds>
+    <Text>Jane is [@an@] astronaut.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>19219</StartMilliseconds>
+    <EndMilliseconds>20530</EndMilliseconds>
+    <Text>Jane is an [@astronaut@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>20531</StartMilliseconds>
+    <EndMilliseconds>25257</EndMilliseconds>
+    <Text>Jane is an astronaut.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>25258</StartMilliseconds>
+    <EndMilliseconds>25418</EndMilliseconds>
+    <Text>[e@Jane is an astronaut.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>25419</StartMilliseconds>
+    <EndMilliseconds>25948</EndMilliseconds>
+    <Text>Tommy is a clown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>25949</StartMilliseconds>
+    <EndMilliseconds>26591</EndMilliseconds>
+    <Text>[@Tommy@] is a clown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>26592</StartMilliseconds>
+    <EndMilliseconds>26825</EndMilliseconds>
+    <Text>Tommy [@is@] a clown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>26826</StartMilliseconds>
+    <EndMilliseconds>27035</EndMilliseconds>
+    <Text>Tommy is [@a@] clown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>27036</StartMilliseconds>
+    <EndMilliseconds>28229</EndMilliseconds>
+    <Text>Tommy is a [@clown@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>28230</StartMilliseconds>
+    <EndMilliseconds>32785</EndMilliseconds>
+    <Text>Tommy is a clown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>32786</StartMilliseconds>
+    <EndMilliseconds>32936</EndMilliseconds>
+    <Text>[e@Tommy is a clown.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>32937</StartMilliseconds>
+    <EndMilliseconds>33346</EndMilliseconds>
+    <Text>Lisa is an angel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>33347</StartMilliseconds>
+    <EndMilliseconds>34159</EndMilliseconds>
+    <Text>[@Lisa@] is an angel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>34160</StartMilliseconds>
+    <EndMilliseconds>34460</EndMilliseconds>
+    <Text>Lisa [@is@] an angel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>34461</StartMilliseconds>
+    <EndMilliseconds>34714</EndMilliseconds>
+    <Text>Lisa is [@an@] angel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>34715</StartMilliseconds>
+    <EndMilliseconds>35762</EndMilliseconds>
+    <Text>Lisa is an [@angel@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>35763</StartMilliseconds>
+    <EndMilliseconds>41237</EndMilliseconds>
+    <Text>Lisa is an angel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>41238</StartMilliseconds>
+    <EndMilliseconds>41407</EndMilliseconds>
+    <Text>[e@Lisa is an angel.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>41408</StartMilliseconds>
+    <EndMilliseconds>41959</EndMilliseconds>
+    <Text>Jason is a cowboy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>41960</StartMilliseconds>
+    <EndMilliseconds>42735</EndMilliseconds>
+    <Text>[@Jason@] is a cowboy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>42736</StartMilliseconds>
+    <EndMilliseconds>42996</EndMilliseconds>
+    <Text>Jason [@is@] a cowboy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>42997</StartMilliseconds>
+    <EndMilliseconds>43197</EndMilliseconds>
+    <Text>Jason is [@a@] cowboy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>43198</StartMilliseconds>
+    <EndMilliseconds>44392</EndMilliseconds>
+    <Text>Jason is a [@cowboy@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>44393</StartMilliseconds>
+    <EndMilliseconds>49444</EndMilliseconds>
+    <Text>Jason is a cowboy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>49445</StartMilliseconds>
+    <EndMilliseconds>49618</EndMilliseconds>
+    <Text>[e@Jason is a cowboy.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>49619</StartMilliseconds>
+    <EndMilliseconds>49824</EndMilliseconds>
+    <Text>Julie is a wizard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>49825</StartMilliseconds>
+    <EndMilliseconds>50503</EndMilliseconds>
+    <Text>[@Julie@] is a wizard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>50504</StartMilliseconds>
+    <EndMilliseconds>50868</EndMilliseconds>
+    <Text>Julie [@is@] a wizard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>50869</StartMilliseconds>
+    <EndMilliseconds>51065</EndMilliseconds>
+    <Text>Julie is [@a@] wizard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>51066</StartMilliseconds>
+    <EndMilliseconds>52044</EndMilliseconds>
+    <Text>Julie is a [@wizard@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>52045</StartMilliseconds>
+    <EndMilliseconds>56118</EndMilliseconds>
+    <Text>Julie is a wizard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>56119</StartMilliseconds>
+    <EndMilliseconds>56282</EndMilliseconds>
+    <Text>[e@Julie is a wizard.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>56283</StartMilliseconds>
+    <EndMilliseconds>56955</EndMilliseconds>
+    <Text>I am a ghost.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>56956</StartMilliseconds>
+    <EndMilliseconds>57533</EndMilliseconds>
+    <Text>[@I@] am a ghost.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>57534</StartMilliseconds>
+    <EndMilliseconds>57859</EndMilliseconds>
+    <Text>I [@am@] a ghost.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>57860</StartMilliseconds>
+    <EndMilliseconds>58170</EndMilliseconds>
+    <Text>I am [@a@] ghost.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>58171</StartMilliseconds>
+    <EndMilliseconds>59266</EndMilliseconds>
+    <Text>I am a [@ghost@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>59267</StartMilliseconds>
+    <EndMilliseconds>59959</EndMilliseconds>
+    <Text>I am a ghost.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>59960</StartMilliseconds>
+    <EndMilliseconds>60076</EndMilliseconds>
+    <Text>[e@I am a ghost.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>60077</StartMilliseconds>
+    <EndMilliseconds>62400</EndMilliseconds>
+    <Text>Boo!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>62401</StartMilliseconds>
+    <EndMilliseconds>63358</EndMilliseconds>
+    <Text>[@Boo@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>63359</StartMilliseconds>
+    <EndMilliseconds>66054</EndMilliseconds>
+    <Text>Boo!</Text>
+  </Paragraph>
+</Subtitle>

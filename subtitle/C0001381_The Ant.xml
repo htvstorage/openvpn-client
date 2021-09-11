@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>188</EndMilliseconds>
+    <Text>Crawl down the wall.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>189</StartMilliseconds>
+    <EndMilliseconds>771</EndMilliseconds>
+    <Text>[@Crawl@] down the wall.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>772</StartMilliseconds>
+    <EndMilliseconds>1122</EndMilliseconds>
+    <Text>Crawl [@down@] the wall.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>1123</StartMilliseconds>
+    <EndMilliseconds>1335</EndMilliseconds>
+    <Text>Crawl down [@the@] wall.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>1336</StartMilliseconds>
+    <EndMilliseconds>1989</EndMilliseconds>
+    <Text>Crawl down the [@wall@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>1990</StartMilliseconds>
+    <EndMilliseconds>3780</EndMilliseconds>
+    <Text>Crawl down the wall.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>3781</StartMilliseconds>
+    <EndMilliseconds>4021</EndMilliseconds>
+    <Text>[e@Crawl down the wall.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>4022</StartMilliseconds>
+    <EndMilliseconds>4254</EndMilliseconds>
+    <Text>Climb over the sofa.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>4255</StartMilliseconds>
+    <EndMilliseconds>4888</EndMilliseconds>
+    <Text>[@Climb@] over the sofa.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>4889</StartMilliseconds>
+    <EndMilliseconds>5264</EndMilliseconds>
+    <Text>Climb [@over@] the sofa.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>5265</StartMilliseconds>
+    <EndMilliseconds>5496</EndMilliseconds>
+    <Text>Climb over [@the@] sofa.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>5497</StartMilliseconds>
+    <EndMilliseconds>6313</EndMilliseconds>
+    <Text>Climb over the [@sofa@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>6314</StartMilliseconds>
+    <EndMilliseconds>7873</EndMilliseconds>
+    <Text>Climb over the sofa.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>7874</StartMilliseconds>
+    <EndMilliseconds>8018</EndMilliseconds>
+    <Text>[e@Climb over the sofa.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>8019</StartMilliseconds>
+    <EndMilliseconds>8350</EndMilliseconds>
+    <Text>Crawl under the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>8351</StartMilliseconds>
+    <EndMilliseconds>8837</EndMilliseconds>
+    <Text>[@Crawl@] under the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>8838</StartMilliseconds>
+    <EndMilliseconds>9232</EndMilliseconds>
+    <Text>Crawl [@under@] the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>9233</StartMilliseconds>
+    <EndMilliseconds>9411</EndMilliseconds>
+    <Text>Crawl under [@the@] table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>9412</StartMilliseconds>
+    <EndMilliseconds>10163</EndMilliseconds>
+    <Text>Crawl under the [@table@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>10164</StartMilliseconds>
+    <EndMilliseconds>12364</EndMilliseconds>
+    <Text>Crawl under the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>12365</StartMilliseconds>
+    <EndMilliseconds>12535</EndMilliseconds>
+    <Text>[e@Crawl under the table.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>12536</StartMilliseconds>
+    <EndMilliseconds>12711</EndMilliseconds>
+    <Text>Climb over the slippers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>12712</StartMilliseconds>
+    <EndMilliseconds>13391</EndMilliseconds>
+    <Text>[@Climb@] over the slippers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>13392</StartMilliseconds>
+    <EndMilliseconds>13748</EndMilliseconds>
+    <Text>Climb [@over@] the slippers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>13749</StartMilliseconds>
+    <EndMilliseconds>13996</EndMilliseconds>
+    <Text>Climb over [@the@] slippers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>13997</StartMilliseconds>
+    <EndMilliseconds>15019</EndMilliseconds>
+    <Text>Climb over the [@slippers@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>15020</StartMilliseconds>
+    <EndMilliseconds>16496</EndMilliseconds>
+    <Text>Climb over the slippers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>16497</StartMilliseconds>
+    <EndMilliseconds>16683</EndMilliseconds>
+    <Text>[e@Climb over the slippers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>16684</StartMilliseconds>
+    <EndMilliseconds>16955</EndMilliseconds>
+    <Text>Crawl past the cat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>16956</StartMilliseconds>
+    <EndMilliseconds>17588</EndMilliseconds>
+    <Text>[@Crawl@] past the cat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>17589</StartMilliseconds>
+    <EndMilliseconds>18019</EndMilliseconds>
+    <Text>Crawl [@past@] the cat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>18020</StartMilliseconds>
+    <EndMilliseconds>18297</EndMilliseconds>
+    <Text>Crawl past [@the@] cat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>18298</StartMilliseconds>
+    <EndMilliseconds>19040</EndMilliseconds>
+    <Text>Crawl past the [@cat@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>19041</StartMilliseconds>
+    <EndMilliseconds>21133</EndMilliseconds>
+    <Text>Crawl past the cat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>21134</StartMilliseconds>
+    <EndMilliseconds>21346</EndMilliseconds>
+    <Text>[e@Crawl past the cat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>21347</StartMilliseconds>
+    <EndMilliseconds>21599</EndMilliseconds>
+    <Text>Climb up the chair.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>21600</StartMilliseconds>
+    <EndMilliseconds>22123</EndMilliseconds>
+    <Text>[@Climb@] up the chair.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>22124</StartMilliseconds>
+    <EndMilliseconds>22327</EndMilliseconds>
+    <Text>Climb [@up@] the chair.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>22328</StartMilliseconds>
+    <EndMilliseconds>22519</EndMilliseconds>
+    <Text>Climb up [@the@] chair.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>22520</StartMilliseconds>
+    <EndMilliseconds>23166</EndMilliseconds>
+    <Text>Climb up the [@chair@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>23167</StartMilliseconds>
+    <EndMilliseconds>25056</EndMilliseconds>
+    <Text>Climb up the chair.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>25057</StartMilliseconds>
+    <EndMilliseconds>25204</EndMilliseconds>
+    <Text>[e@Climb up the chair.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>25206</StartMilliseconds>
+    <EndMilliseconds>25997</EndMilliseconds>
+    <Text>Crawl onto the plate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>25998</StartMilliseconds>
+    <EndMilliseconds>26564</EndMilliseconds>
+    <Text>[@Crawl@] onto the plate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>26565</StartMilliseconds>
+    <EndMilliseconds>27065</EndMilliseconds>
+    <Text>Crawl [@onto@] the plate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>27066</StartMilliseconds>
+    <EndMilliseconds>27278</EndMilliseconds>
+    <Text>Crawl onto [@the@] plate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>27279</StartMilliseconds>
+    <EndMilliseconds>27967</EndMilliseconds>
+    <Text>Crawl onto the [@plate@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>27968</StartMilliseconds>
+    <EndMilliseconds>29381</EndMilliseconds>
+    <Text>Crawl onto the plate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>29382</StartMilliseconds>
+    <EndMilliseconds>29552</EndMilliseconds>
+    <Text>[e@Crawl onto the plate.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>29553</StartMilliseconds>
+    <EndMilliseconds>29754</EndMilliseconds>
+    <Text>A piece of pie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>29755</StartMilliseconds>
+    <EndMilliseconds>30052</EndMilliseconds>
+    <Text>[@A@] piece of pie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>30053</StartMilliseconds>
+    <EndMilliseconds>30465</EndMilliseconds>
+    <Text>A [@piece@] of pie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>30466</StartMilliseconds>
+    <EndMilliseconds>30700</EndMilliseconds>
+    <Text>A piece [@of@] pie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>30701</StartMilliseconds>
+    <EndMilliseconds>31437</EndMilliseconds>
+    <Text>A piece of [@pie@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>31438</StartMilliseconds>
+    <EndMilliseconds>31526</EndMilliseconds>
+    <Text>A piece of pie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>31527</StartMilliseconds>
+    <EndMilliseconds>31624</EndMilliseconds>
+    <Text>Yum, yum, yum!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>31625</StartMilliseconds>
+    <EndMilliseconds>32169</EndMilliseconds>
+    <Text>[@Yum@], yum, yum!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>32170</StartMilliseconds>
+    <EndMilliseconds>32606</EndMilliseconds>
+    <Text>Yum, [@yum@], yum!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>32607</StartMilliseconds>
+    <EndMilliseconds>33351</EndMilliseconds>
+    <Text>Yum, yum, [@yum@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>33355</StartMilliseconds>
+    <EndMilliseconds>38548</EndMilliseconds>
+    <Text>Yum, yum, yum!</Text>
+  </Paragraph>
+</Subtitle>

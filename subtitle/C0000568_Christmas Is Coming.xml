@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1158</EndMilliseconds>
+    <Text>We hang.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1159</StartMilliseconds>
+    <EndMilliseconds>1621</EndMilliseconds>
+    <Text>[@We@] hang.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>1622</StartMilliseconds>
+    <EndMilliseconds>2570</EndMilliseconds>
+    <Text>We [@hang@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2571</StartMilliseconds>
+    <EndMilliseconds>5415</EndMilliseconds>
+    <Text>We hang.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>5416</StartMilliseconds>
+    <EndMilliseconds>5617</EndMilliseconds>
+    <Text>[e@We hang.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>5618</StartMilliseconds>
+    <EndMilliseconds>6550</EndMilliseconds>
+    <Text>We shop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>6551</StartMilliseconds>
+    <EndMilliseconds>7052</EndMilliseconds>
+    <Text>[@We@] shop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>7053</StartMilliseconds>
+    <EndMilliseconds>7970</EndMilliseconds>
+    <Text>We [@shop@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>7971</StartMilliseconds>
+    <EndMilliseconds>10344</EndMilliseconds>
+    <Text>We shop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>10345</StartMilliseconds>
+    <EndMilliseconds>10670</EndMilliseconds>
+    <Text>[e@We shop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>10671</StartMilliseconds>
+    <EndMilliseconds>11381</EndMilliseconds>
+    <Text>We wrap.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>11382</StartMilliseconds>
+    <EndMilliseconds>11677</EndMilliseconds>
+    <Text>[@We@] wrap.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>11678</StartMilliseconds>
+    <EndMilliseconds>12731</EndMilliseconds>
+    <Text>We [@wrap@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>12732</StartMilliseconds>
+    <EndMilliseconds>15967</EndMilliseconds>
+    <Text>We wrap.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>15968</StartMilliseconds>
+    <EndMilliseconds>16221</EndMilliseconds>
+    <Text>[e@We wrap.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>16222</StartMilliseconds>
+    <EndMilliseconds>16992</EndMilliseconds>
+    <Text>We share.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>16993</StartMilliseconds>
+    <EndMilliseconds>17414</EndMilliseconds>
+    <Text>[@We@] share.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>17415</StartMilliseconds>
+    <EndMilliseconds>18492</EndMilliseconds>
+    <Text>We [@share@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>18493</StartMilliseconds>
+    <EndMilliseconds>21766</EndMilliseconds>
+    <Text>We share.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>21767</StartMilliseconds>
+    <EndMilliseconds>22005</EndMilliseconds>
+    <Text>[e@We share.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>22006</StartMilliseconds>
+    <EndMilliseconds>22805</EndMilliseconds>
+    <Text>We bake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>22806</StartMilliseconds>
+    <EndMilliseconds>23266</EndMilliseconds>
+    <Text>[@We@] bake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>23267</StartMilliseconds>
+    <EndMilliseconds>24290</EndMilliseconds>
+    <Text>We [@bake@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>24291</StartMilliseconds>
+    <EndMilliseconds>29422</EndMilliseconds>
+    <Text>We bake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>29423</StartMilliseconds>
+    <EndMilliseconds>29676</EndMilliseconds>
+    <Text>[e@We bake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>29677</StartMilliseconds>
+    <EndMilliseconds>30581</EndMilliseconds>
+    <Text>We eat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>30582</StartMilliseconds>
+    <EndMilliseconds>31026</EndMilliseconds>
+    <Text>[@We@] eat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>31027</StartMilliseconds>
+    <EndMilliseconds>32026</EndMilliseconds>
+    <Text>We [@eat@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>32027</StartMilliseconds>
+    <EndMilliseconds>37321</EndMilliseconds>
+    <Text>We eat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>37322</StartMilliseconds>
+    <EndMilliseconds>37609</EndMilliseconds>
+    <Text>[e@We eat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>37610</StartMilliseconds>
+    <EndMilliseconds>38235</EndMilliseconds>
+    <Text>We sing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>38236</StartMilliseconds>
+    <EndMilliseconds>38695</EndMilliseconds>
+    <Text>[@We@] sing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>38696</StartMilliseconds>
+    <EndMilliseconds>39602</EndMilliseconds>
+    <Text>We [@sing@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>39603</StartMilliseconds>
+    <EndMilliseconds>46358</EndMilliseconds>
+    <Text>We sing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>46359</StartMilliseconds>
+    <EndMilliseconds>46619</EndMilliseconds>
+    <Text>[e@We sing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>46620</StartMilliseconds>
+    <EndMilliseconds>47520</EndMilliseconds>
+    <Text>We speak. "Merry Christmas!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>47521</StartMilliseconds>
+    <EndMilliseconds>47930</EndMilliseconds>
+    <Text>[@We@] speak. "Merry Christmas!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>47931</StartMilliseconds>
+    <EndMilliseconds>49003</EndMilliseconds>
+    <Text>We [@speak@]. "Merry Christmas!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>49004</StartMilliseconds>
+    <EndMilliseconds>49913</EndMilliseconds>
+    <Text>We speak. "[@Merry@] Christmas!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>49914</StartMilliseconds>
+    <EndMilliseconds>51458</EndMilliseconds>
+    <Text>We speak. "Merry [@Christmas@]!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>51459</StartMilliseconds>
+    <EndMilliseconds>63092</EndMilliseconds>
+    <Text>We speak. "Merry Christmas!"</Text>
+  </Paragraph>
+</Subtitle>

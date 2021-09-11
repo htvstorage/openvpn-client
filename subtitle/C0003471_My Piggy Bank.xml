@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>1967</EndMilliseconds>
+    <Text>Look! A penny!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>1968</StartMilliseconds>
+    <EndMilliseconds>2621</EndMilliseconds>
+    <Text>[@Look@]! A penny!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>2622</StartMilliseconds>
+    <EndMilliseconds>2947</EndMilliseconds>
+    <Text>Look! A penny!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>2948</StartMilliseconds>
+    <EndMilliseconds>3180</EndMilliseconds>
+    <Text>Look! [@A@] penny!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>3181</StartMilliseconds>
+    <EndMilliseconds>3933</EndMilliseconds>
+    <Text>Look! A [@penny@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>3934</StartMilliseconds>
+    <EndMilliseconds>4823</EndMilliseconds>
+    <Text>Look! A penny!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>4824</StartMilliseconds>
+    <EndMilliseconds>5039</EndMilliseconds>
+    <Text>[e@Look! A penny!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>5040</StartMilliseconds>
+    <EndMilliseconds>5824</EndMilliseconds>
+    <Text>That's one cent.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>5825</StartMilliseconds>
+    <EndMilliseconds>6327</EndMilliseconds>
+    <Text>[@That's@] one cent.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>6328</StartMilliseconds>
+    <EndMilliseconds>6993</EndMilliseconds>
+    <Text>That's [@one@] cent.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>6994</StartMilliseconds>
+    <EndMilliseconds>7831</EndMilliseconds>
+    <Text>That's one [@cent@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>7832</StartMilliseconds>
+    <EndMilliseconds>11441</EndMilliseconds>
+    <Text>That's one cent.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>11442</StartMilliseconds>
+    <EndMilliseconds>11682</EndMilliseconds>
+    <Text>[e@That's one cent.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>11683</StartMilliseconds>
+    <EndMilliseconds>14915</EndMilliseconds>
+    <Text>Oh! A nickel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>14916</StartMilliseconds>
+    <EndMilliseconds>15507</EndMilliseconds>
+    <Text>[s@Oh! A nickel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>15508</StartMilliseconds>
+    <EndMilliseconds>16282</EndMilliseconds>
+    <Text>[@Oh@]! A nickel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>16283</StartMilliseconds>
+    <EndMilliseconds>16650</EndMilliseconds>
+    <Text>Oh! [@A@] nickel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>16651</StartMilliseconds>
+    <EndMilliseconds>17502</EndMilliseconds>
+    <Text>Oh! A [@nickel@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>17503</StartMilliseconds>
+    <EndMilliseconds>18306</EndMilliseconds>
+    <Text>Oh! A nickel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>18307</StartMilliseconds>
+    <EndMilliseconds>18478</EndMilliseconds>
+    <Text>[e@Oh! A nickel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>18479</StartMilliseconds>
+    <EndMilliseconds>19517</EndMilliseconds>
+    <Text>That's five cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>19518</StartMilliseconds>
+    <EndMilliseconds>19985</EndMilliseconds>
+    <Text>[s@That's five cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>19986</StartMilliseconds>
+    <EndMilliseconds>20613</EndMilliseconds>
+    <Text>[@That's@] five cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>20614</StartMilliseconds>
+    <EndMilliseconds>21150</EndMilliseconds>
+    <Text>That's [@five@] cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>21151</StartMilliseconds>
+    <EndMilliseconds>22026</EndMilliseconds>
+    <Text>That's five [@cents@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>22027</StartMilliseconds>
+    <EndMilliseconds>25006</EndMilliseconds>
+    <Text>That's five cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>25007</StartMilliseconds>
+    <EndMilliseconds>25230</EndMilliseconds>
+    <Text>[e@That's five cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>25231</StartMilliseconds>
+    <EndMilliseconds>28415</EndMilliseconds>
+    <Text>Cool! A dime!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>28416</StartMilliseconds>
+    <EndMilliseconds>29191</EndMilliseconds>
+    <Text>[s@Cool! A dime!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>29192</StartMilliseconds>
+    <EndMilliseconds>30175</EndMilliseconds>
+    <Text>[@Cool@]! A dime!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>30176</StartMilliseconds>
+    <EndMilliseconds>30446</EndMilliseconds>
+    <Text>Cool! [@A@] dime!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>30447</StartMilliseconds>
+    <EndMilliseconds>31482</EndMilliseconds>
+    <Text>Cool! A [@dime@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>31483</StartMilliseconds>
+    <EndMilliseconds>31937</EndMilliseconds>
+    <Text>Cool! A dime!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>31938</StartMilliseconds>
+    <EndMilliseconds>32083</EndMilliseconds>
+    <Text>[e@Cool! A dime!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>32084</StartMilliseconds>
+    <EndMilliseconds>33757</EndMilliseconds>
+    <Text>That's ten cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>33758</StartMilliseconds>
+    <EndMilliseconds>34254</EndMilliseconds>
+    <Text>[s@That's ten cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>34255</StartMilliseconds>
+    <EndMilliseconds>34806</EndMilliseconds>
+    <Text>[@That's@] ten cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>34807</StartMilliseconds>
+    <EndMilliseconds>35256</EndMilliseconds>
+    <Text>That's [@ten@] cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>35257</StartMilliseconds>
+    <EndMilliseconds>36266</EndMilliseconds>
+    <Text>That's ten [@cents@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>36267</StartMilliseconds>
+    <EndMilliseconds>38492</EndMilliseconds>
+    <Text>That's ten cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>38493</StartMilliseconds>
+    <EndMilliseconds>38734</EndMilliseconds>
+    <Text>[e@That's ten cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>38735</StartMilliseconds>
+    <EndMilliseconds>43161</EndMilliseconds>
+    <Text>Ooh! A quarter!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>43162</StartMilliseconds>
+    <EndMilliseconds>43827</EndMilliseconds>
+    <Text>[s@Ooh! A quarter!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>43828</StartMilliseconds>
+    <EndMilliseconds>44578</EndMilliseconds>
+    <Text>[@Ooh@]! A quarter!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>44579</StartMilliseconds>
+    <EndMilliseconds>44929</EndMilliseconds>
+    <Text>Ooh! [@A@] quarter!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>44930</StartMilliseconds>
+    <EndMilliseconds>45945</EndMilliseconds>
+    <Text>Ooh! A [@quarter@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>45946</StartMilliseconds>
+    <EndMilliseconds>46759</EndMilliseconds>
+    <Text>Ooh! A quarter!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>46760</StartMilliseconds>
+    <EndMilliseconds>46946</EndMilliseconds>
+    <Text>[e@Ooh! A quarter!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>46947</StartMilliseconds>
+    <EndMilliseconds>47830</EndMilliseconds>
+    <Text>That's twenty-five cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>47831</StartMilliseconds>
+    <EndMilliseconds>48251</EndMilliseconds>
+    <Text>[s@That's twenty-five cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>48252</StartMilliseconds>
+    <EndMilliseconds>48692</EndMilliseconds>
+    <Text>[@That's@] twenty-five cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>48693</StartMilliseconds>
+    <EndMilliseconds>50218</EndMilliseconds>
+    <Text>That's [@twenty-five@] cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>50219</StartMilliseconds>
+    <EndMilliseconds>51258</EndMilliseconds>
+    <Text>That's twenty-five [@cents@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>51259</StartMilliseconds>
+    <EndMilliseconds>53419</EndMilliseconds>
+    <Text>That's twenty-five cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>53420</StartMilliseconds>
+    <EndMilliseconds>53640</EndMilliseconds>
+    <Text>[e@That's twenty-five cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>53641</StartMilliseconds>
+    <EndMilliseconds>56581</EndMilliseconds>
+    <Text>Wow! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>56582</StartMilliseconds>
+    <EndMilliseconds>57337</EndMilliseconds>
+    <Text>[s@Wow! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>57338</StartMilliseconds>
+    <EndMilliseconds>58433</EndMilliseconds>
+    <Text>[@Wow@]! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>58434</StartMilliseconds>
+    <EndMilliseconds>58775</EndMilliseconds>
+    <Text>Wow! [@A@] dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>58776</StartMilliseconds>
+    <EndMilliseconds>59859</EndMilliseconds>
+    <Text>Wow! A [@dollar@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>59860</StartMilliseconds>
+    <EndMilliseconds>60260</EndMilliseconds>
+    <Text>Wow! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>60261</StartMilliseconds>
+    <EndMilliseconds>60422</EndMilliseconds>
+    <Text>[e@Wow! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>60423</StartMilliseconds>
+    <EndMilliseconds>61077</EndMilliseconds>
+    <Text>That's one hundred cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>61078</StartMilliseconds>
+    <EndMilliseconds>61496</EndMilliseconds>
+    <Text>[s@That's one hundred cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>61498</StartMilliseconds>
+    <EndMilliseconds>61984</EndMilliseconds>
+    <Text>[@That's@] one hundred cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>61985</StartMilliseconds>
+    <EndMilliseconds>62638</EndMilliseconds>
+    <Text>That's [@one@] hundred cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>62639</StartMilliseconds>
+    <EndMilliseconds>63641</EndMilliseconds>
+    <Text>That's one [@hundred@] cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>63642</StartMilliseconds>
+    <EndMilliseconds>64720</EndMilliseconds>
+    <Text>That's one hundred [@cents@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>64721</StartMilliseconds>
+    <EndMilliseconds>65207</EndMilliseconds>
+    <Text>That's one hundred cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>65208</StartMilliseconds>
+    <EndMilliseconds>65353</EndMilliseconds>
+    <Text>[e@That's one hundred cents.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>65354</StartMilliseconds>
+    <EndMilliseconds>73663</EndMilliseconds>
+    <Text>A penny! A nickel! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>73664</StartMilliseconds>
+    <EndMilliseconds>74029</EndMilliseconds>
+    <Text>[s@A penny! A nickel! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>74030</StartMilliseconds>
+    <EndMilliseconds>74374</EndMilliseconds>
+    <Text>[@A@] penny! A nickel! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>74375</StartMilliseconds>
+    <EndMilliseconds>75076</EndMilliseconds>
+    <Text>A [@penny@]! A nickel! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>75077</StartMilliseconds>
+    <EndMilliseconds>77082</EndMilliseconds>
+    <Text>A penny! A nickel! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>77083</StartMilliseconds>
+    <EndMilliseconds>77375</EndMilliseconds>
+    <Text>A penny! [@A@] nickel! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>77376</StartMilliseconds>
+    <EndMilliseconds>78127</EndMilliseconds>
+    <Text>A penny! A [@nickel@]! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>78128</StartMilliseconds>
+    <EndMilliseconds>79959</EndMilliseconds>
+    <Text>A penny! A nickel! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>79960</StartMilliseconds>
+    <EndMilliseconds>80293</EndMilliseconds>
+    <Text>A penny! A nickel! [@A@] dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>80294</StartMilliseconds>
+    <EndMilliseconds>81132</EndMilliseconds>
+    <Text>A penny! A nickel! A [@dime@]! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>81133</StartMilliseconds>
+    <EndMilliseconds>82583</EndMilliseconds>
+    <Text>A penny! A nickel! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>82584</StartMilliseconds>
+    <EndMilliseconds>82875</EndMilliseconds>
+    <Text>A penny! A nickel! A dime! [@A@] quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>82876</StartMilliseconds>
+    <EndMilliseconds>83816</EndMilliseconds>
+    <Text>A penny! A nickel! A dime! A [@quarter@]! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>83817</StartMilliseconds>
+    <EndMilliseconds>85524</EndMilliseconds>
+    <Text>A penny! A nickel! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>85525</StartMilliseconds>
+    <EndMilliseconds>85860</EndMilliseconds>
+    <Text>A penny! A nickel! A dime! A quarter! [@A@] dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>85861</StartMilliseconds>
+    <EndMilliseconds>86651</EndMilliseconds>
+    <Text>A penny! A nickel! A dime! A quarter! A [@dollar@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>86652</StartMilliseconds>
+    <EndMilliseconds>87208</EndMilliseconds>
+    <Text>A penny! A nickel! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>87209</StartMilliseconds>
+    <EndMilliseconds>87350</EndMilliseconds>
+    <Text>[e@A penny! A nickel! A dime! A quarter! A dollar!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>87351</StartMilliseconds>
+    <EndMilliseconds>87609</EndMilliseconds>
+    <Text>My piggy bank is full.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>87610</StartMilliseconds>
+    <EndMilliseconds>88158</EndMilliseconds>
+    <Text>[@My@] piggy bank is full.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>91</Number>
+    <StartMilliseconds>88159</StartMilliseconds>
+    <EndMilliseconds>88441</EndMilliseconds>
+    <Text>My [@piggy@] bank is full.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>92</Number>
+    <StartMilliseconds>88442</StartMilliseconds>
+    <EndMilliseconds>88825</EndMilliseconds>
+    <Text>My piggy [@bank@] is full.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>93</Number>
+    <StartMilliseconds>88826</StartMilliseconds>
+    <EndMilliseconds>89167</EndMilliseconds>
+    <Text>My piggy bank [@is@] full.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>94</Number>
+    <StartMilliseconds>89168</StartMilliseconds>
+    <EndMilliseconds>89845</EndMilliseconds>
+    <Text>My piggy bank is [@full@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>95</Number>
+    <StartMilliseconds>89846</StartMilliseconds>
+    <EndMilliseconds>91535</EndMilliseconds>
+    <Text>My piggy bank is full.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>96</Number>
+    <StartMilliseconds>91536</StartMilliseconds>
+    <EndMilliseconds>95312</EndMilliseconds>
+    <Text>Happy Father's Day!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>97</Number>
+    <StartMilliseconds>95313</StartMilliseconds>
+    <EndMilliseconds>95874</EndMilliseconds>
+    <Text>[s@Happy Father's Day!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>98</Number>
+    <StartMilliseconds>95875</StartMilliseconds>
+    <EndMilliseconds>96436</EndMilliseconds>
+    <Text>[@Happy@] Father's Day!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>99</Number>
+    <StartMilliseconds>96437</StartMilliseconds>
+    <EndMilliseconds>97107</EndMilliseconds>
+    <Text>Happy [@Father's@] Day!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>100</Number>
+    <StartMilliseconds>97108</StartMilliseconds>
+    <EndMilliseconds>97990</EndMilliseconds>
+    <Text>Happy Father's [@Day@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>101</Number>
+    <StartMilliseconds>97991</StartMilliseconds>
+    <EndMilliseconds>103379</EndMilliseconds>
+    <Text>Happy Father's Day!</Text>
+  </Paragraph>
+</Subtitle>

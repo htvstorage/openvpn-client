@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>5394</EndMilliseconds>
+    <Text>Timmy is sad.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>5395</StartMilliseconds>
+    <EndMilliseconds>5761</EndMilliseconds>
+    <Text>[@Timmy@] is sad.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>5762</StartMilliseconds>
+    <EndMilliseconds>6057</EndMilliseconds>
+    <Text>Timmy [@is@] sad.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>6058</StartMilliseconds>
+    <EndMilliseconds>6977</EndMilliseconds>
+    <Text>Timmy is [@sad@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>6978</StartMilliseconds>
+    <EndMilliseconds>8978</EndMilliseconds>
+    <Text>Timmy is sad.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>8979</StartMilliseconds>
+    <EndMilliseconds>9213</EndMilliseconds>
+    <Text>[e@Timmy is sad.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>9214</StartMilliseconds>
+    <EndMilliseconds>15505</EndMilliseconds>
+    <Text>Aunt Tara is sadder.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>15506</StartMilliseconds>
+    <EndMilliseconds>16522</EndMilliseconds>
+    <Text>[s@Aunt Tara is sadder.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>16523</StartMilliseconds>
+    <EndMilliseconds>17016</EndMilliseconds>
+    <Text>[@Aunt@] Tara is sadder.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>17017</StartMilliseconds>
+    <EndMilliseconds>17631</EndMilliseconds>
+    <Text>Aunt [@Tara@] is sadder.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>17632</StartMilliseconds>
+    <EndMilliseconds>17837</EndMilliseconds>
+    <Text>Aunt Tara [@is@] sadder.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>17838</StartMilliseconds>
+    <EndMilliseconds>18678</EndMilliseconds>
+    <Text>Aunt Tara is [@sadder@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>18679</StartMilliseconds>
+    <EndMilliseconds>20089</EndMilliseconds>
+    <Text>Aunt Tara is sadder.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>20090</StartMilliseconds>
+    <EndMilliseconds>20279</EndMilliseconds>
+    <Text>[e@Aunt Tara is sadder.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>20280</StartMilliseconds>
+    <EndMilliseconds>24141</EndMilliseconds>
+    <Text>Mr. Tan is saddest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>24142</StartMilliseconds>
+    <EndMilliseconds>25156</EndMilliseconds>
+    <Text>[s@Mr. Tan is saddest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>25157</StartMilliseconds>
+    <EndMilliseconds>26205</EndMilliseconds>
+    <Text>[@Mr. Tan@] is saddest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>26206</StartMilliseconds>
+    <EndMilliseconds>26448</EndMilliseconds>
+    <Text>Mr. Tan [@is@] saddest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>26449</StartMilliseconds>
+    <EndMilliseconds>27619</EndMilliseconds>
+    <Text>Mr. Tan is [@saddest@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>27620</StartMilliseconds>
+    <EndMilliseconds>29077</EndMilliseconds>
+    <Text>Mr. Tan is saddest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>29078</StartMilliseconds>
+    <EndMilliseconds>29280</EndMilliseconds>
+    <Text>[e@Mr. Tan is saddest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>29281</StartMilliseconds>
+    <EndMilliseconds>33997</EndMilliseconds>
+    <Text>Mr. Tan needs a hug!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>33998</StartMilliseconds>
+    <EndMilliseconds>35011</EndMilliseconds>
+    <Text>[s@Mr. Tan needs a hug!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>35012</StartMilliseconds>
+    <EndMilliseconds>36075</EndMilliseconds>
+    <Text>[@Mr. Tan@] needs a hug!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>36076</StartMilliseconds>
+    <EndMilliseconds>36311</EndMilliseconds>
+    <Text>Mr. Tan [@needs@] a hug!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>36312</StartMilliseconds>
+    <EndMilliseconds>36519</EndMilliseconds>
+    <Text>Mr. Tan needs [@a@] hug!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>36520</StartMilliseconds>
+    <EndMilliseconds>37367</EndMilliseconds>
+    <Text>Mr. Tan needs a [@hug@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>37368</StartMilliseconds>
+    <EndMilliseconds>38479</EndMilliseconds>
+    <Text>Mr. Tan needs a hug!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>38480</StartMilliseconds>
+    <EndMilliseconds>38673</EndMilliseconds>
+    <Text>[e@Mr. Tan needs a hug!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>38674</StartMilliseconds>
+    <EndMilliseconds>44015</EndMilliseconds>
+    <Text>Stan's shoes are old.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>44016</StartMilliseconds>
+    <EndMilliseconds>45011</EndMilliseconds>
+    <Text>[s@Stan's shoes are old.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>45012</StartMilliseconds>
+    <EndMilliseconds>45913</EndMilliseconds>
+    <Text>[@Stan's@] shoes are old.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>45914</StartMilliseconds>
+    <EndMilliseconds>46421</EndMilliseconds>
+    <Text>Stan's [@shoes@] are old.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>46422</StartMilliseconds>
+    <EndMilliseconds>46712</EndMilliseconds>
+    <Text>Stan's shoes [@are@] old.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>46713</StartMilliseconds>
+    <EndMilliseconds>47829</EndMilliseconds>
+    <Text>Stan's shoes are [@old@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>47830</StartMilliseconds>
+    <EndMilliseconds>49592</EndMilliseconds>
+    <Text>Stan's shoes are old.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>49593</StartMilliseconds>
+    <EndMilliseconds>49808</EndMilliseconds>
+    <Text>[e@Stan's shoes are old.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>49809</StartMilliseconds>
+    <EndMilliseconds>52565</EndMilliseconds>
+    <Text>Sarah's shoes are older.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>52566</StartMilliseconds>
+    <EndMilliseconds>54663</EndMilliseconds>
+    <Text>[s@Sarah's shoes are older.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>54664</StartMilliseconds>
+    <EndMilliseconds>55486</EndMilliseconds>
+    <Text>[@Sarah's@] shoes are older.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>55487</StartMilliseconds>
+    <EndMilliseconds>56199</EndMilliseconds>
+    <Text>Sarah's [@shoes@] are older.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>56200</StartMilliseconds>
+    <EndMilliseconds>56437</EndMilliseconds>
+    <Text>Sarah's shoes [@are@] older.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>56438</StartMilliseconds>
+    <EndMilliseconds>57465</EndMilliseconds>
+    <Text>Sarah's shoes are [@older@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>57466</StartMilliseconds>
+    <EndMilliseconds>58936</EndMilliseconds>
+    <Text>Sarah's shoes are older.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>58937</StartMilliseconds>
+    <EndMilliseconds>59164</EndMilliseconds>
+    <Text>[e@Sarah's shoes are older.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>59165</StartMilliseconds>
+    <EndMilliseconds>63113</EndMilliseconds>
+    <Text>Sam's shoes are oldest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>63114</StartMilliseconds>
+    <EndMilliseconds>64413</EndMilliseconds>
+    <Text>[s@Sam's shoes are oldest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>64414</StartMilliseconds>
+    <EndMilliseconds>65031</EndMilliseconds>
+    <Text>[@Sam's@] shoes are oldest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>65032</StartMilliseconds>
+    <EndMilliseconds>65712</EndMilliseconds>
+    <Text>Sam's [@shoes@] are oldest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>65713</StartMilliseconds>
+    <EndMilliseconds>65966</EndMilliseconds>
+    <Text>Sam's shoes [@are@] oldest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>65967</StartMilliseconds>
+    <EndMilliseconds>67132</EndMilliseconds>
+    <Text>Sam's shoes are [@oldest@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>67133</StartMilliseconds>
+    <EndMilliseconds>68066</EndMilliseconds>
+    <Text>Sam's shoes are oldest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>68067</StartMilliseconds>
+    <EndMilliseconds>68282</EndMilliseconds>
+    <Text>[e@Sam's shoes are oldest.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>68283</StartMilliseconds>
+    <EndMilliseconds>74356</EndMilliseconds>
+    <Text>Sam needs new shoes!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>74357</StartMilliseconds>
+    <EndMilliseconds>74983</EndMilliseconds>
+    <Text>[s@Sam needs new shoes!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>74984</StartMilliseconds>
+    <EndMilliseconds>75629</EndMilliseconds>
+    <Text>[@Sam@] needs new shoes!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>75630</StartMilliseconds>
+    <EndMilliseconds>76002</EndMilliseconds>
+    <Text>Sam [@needs@] new shoes!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>76003</StartMilliseconds>
+    <EndMilliseconds>76231</EndMilliseconds>
+    <Text>Sam needs [@new@] shoes!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>76232</StartMilliseconds>
+    <EndMilliseconds>77381</EndMilliseconds>
+    <Text>Sam needs new [@shoes@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>77382</StartMilliseconds>
+    <EndMilliseconds>82308</EndMilliseconds>
+    <Text>Sam needs new shoes!</Text>
+  </Paragraph>
+</Subtitle>

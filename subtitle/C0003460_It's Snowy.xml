@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>5231</EndMilliseconds>
+    <Text>It's foggy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>5232</StartMilliseconds>
+    <EndMilliseconds>5640</EndMilliseconds>
+    <Text>[@It's@] foggy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>5641</StartMilliseconds>
+    <EndMilliseconds>6784</EndMilliseconds>
+    <Text>It's [@foggy@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>6785</StartMilliseconds>
+    <EndMilliseconds>10273</EndMilliseconds>
+    <Text>It's foggy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>10274</StartMilliseconds>
+    <EndMilliseconds>12690</EndMilliseconds>
+    <Text>[e@It's foggy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>12691</StartMilliseconds>
+    <EndMilliseconds>15659</EndMilliseconds>
+    <Text>It's chilly!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>15660</StartMilliseconds>
+    <EndMilliseconds>16011</EndMilliseconds>
+    <Text>[s@It's chilly!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>16012</StartMilliseconds>
+    <EndMilliseconds>16497</EndMilliseconds>
+    <Text>[@It's@] chilly!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>16498</StartMilliseconds>
+    <EndMilliseconds>17568</EndMilliseconds>
+    <Text>It's [@chilly@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>17569</StartMilliseconds>
+    <EndMilliseconds>21181</EndMilliseconds>
+    <Text>It's chilly!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>21182</StartMilliseconds>
+    <EndMilliseconds>21676</EndMilliseconds>
+    <Text>[e@It's chilly!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>21677</StartMilliseconds>
+    <EndMilliseconds>23201</EndMilliseconds>
+    <Text>It's cloudy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>23202</StartMilliseconds>
+    <EndMilliseconds>23598</EndMilliseconds>
+    <Text>[s@It's cloudy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>23599</StartMilliseconds>
+    <EndMilliseconds>23988</EndMilliseconds>
+    <Text>[@It's@] cloudy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>23989</StartMilliseconds>
+    <EndMilliseconds>25183</EndMilliseconds>
+    <Text>It's [@cloudy@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>25184</StartMilliseconds>
+    <EndMilliseconds>25659</EndMilliseconds>
+    <Text>It's cloudy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>25660</StartMilliseconds>
+    <EndMilliseconds>27151</EndMilliseconds>
+    <Text>[e@It's cloudy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>27152</StartMilliseconds>
+    <EndMilliseconds>32009</EndMilliseconds>
+    <Text>It's windy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>32010</StartMilliseconds>
+    <EndMilliseconds>32409</EndMilliseconds>
+    <Text>[s@It's windy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>32410</StartMilliseconds>
+    <EndMilliseconds>32755</EndMilliseconds>
+    <Text>[@It's@] windy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>32756</StartMilliseconds>
+    <EndMilliseconds>33787</EndMilliseconds>
+    <Text>It's [@windy@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>33788</StartMilliseconds>
+    <EndMilliseconds>35873</EndMilliseconds>
+    <Text>It's windy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>35874</StartMilliseconds>
+    <EndMilliseconds>37228</EndMilliseconds>
+    <Text>[e@It's windy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>37229</StartMilliseconds>
+    <EndMilliseconds>38186</EndMilliseconds>
+    <Text>It's stormy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>38187</StartMilliseconds>
+    <EndMilliseconds>38466</EndMilliseconds>
+    <Text>[@It's@] stormy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>38467</StartMilliseconds>
+    <EndMilliseconds>40111</EndMilliseconds>
+    <Text>It's [@stormy@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>40112</StartMilliseconds>
+    <EndMilliseconds>41797</EndMilliseconds>
+    <Text>It's stormy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>41798</StartMilliseconds>
+    <EndMilliseconds>42969</EndMilliseconds>
+    <Text>[e@It's stormy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>42970</StartMilliseconds>
+    <EndMilliseconds>48272</EndMilliseconds>
+    <Text>It's snowy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>48273</StartMilliseconds>
+    <EndMilliseconds>48710</EndMilliseconds>
+    <Text>[s@It's snowy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>48711</StartMilliseconds>
+    <EndMilliseconds>49129</EndMilliseconds>
+    <Text>[@It's@] snowy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>49130</StartMilliseconds>
+    <EndMilliseconds>50465</EndMilliseconds>
+    <Text>It's [@snowy@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>50466</StartMilliseconds>
+    <EndMilliseconds>51236</EndMilliseconds>
+    <Text>It's snowy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>51237</StartMilliseconds>
+    <EndMilliseconds>54202</EndMilliseconds>
+    <Text>[e@It's snowy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>54203</StartMilliseconds>
+    <EndMilliseconds>57720</EndMilliseconds>
+    <Text>It's sunny!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>57721</StartMilliseconds>
+    <EndMilliseconds>58285</EndMilliseconds>
+    <Text>[s@It's sunny!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>58286</StartMilliseconds>
+    <EndMilliseconds>58641</EndMilliseconds>
+    <Text>[@It's@] sunny!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>58642</StartMilliseconds>
+    <EndMilliseconds>59715</EndMilliseconds>
+    <Text>It's [@sunny@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>59716</StartMilliseconds>
+    <EndMilliseconds>64388</EndMilliseconds>
+    <Text>It's sunny!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>64389</StartMilliseconds>
+    <EndMilliseconds>66667</EndMilliseconds>
+    <Text>[e@It's sunny!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>66668</StartMilliseconds>
+    <EndMilliseconds>70759</EndMilliseconds>
+    <Text>Now I can play outside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>70760</StartMilliseconds>
+    <EndMilliseconds>71267</EndMilliseconds>
+    <Text>[s@Now I can play outside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>71268</StartMilliseconds>
+    <EndMilliseconds>71715</EndMilliseconds>
+    <Text>[@Now@] I can play outside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>71716</StartMilliseconds>
+    <EndMilliseconds>71896</EndMilliseconds>
+    <Text>Now [@I@] can play outside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>71897</StartMilliseconds>
+    <EndMilliseconds>72083</EndMilliseconds>
+    <Text>Now I [@can@] play outside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>72084</StartMilliseconds>
+    <EndMilliseconds>72329</EndMilliseconds>
+    <Text>Now I can [@play@] outside!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>72330</StartMilliseconds>
+    <EndMilliseconds>73623</EndMilliseconds>
+    <Text>Now I can play [@outside@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>73627</StartMilliseconds>
+    <EndMilliseconds>79216</EndMilliseconds>
+    <Text>Now I can play outside!</Text>
+  </Paragraph>
+</Subtitle>

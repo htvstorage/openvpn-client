@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>134</StartMilliseconds>
+    <EndMilliseconds>2984</EndMilliseconds>
+    <Text>Here come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>2985</StartMilliseconds>
+    <EndMilliseconds>3262</EndMilliseconds>
+    <Text>[@Here@] come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3263</StartMilliseconds>
+    <EndMilliseconds>3540</EndMilliseconds>
+    <Text>Here [@come@] the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>3541</StartMilliseconds>
+    <EndMilliseconds>3754</EndMilliseconds>
+    <Text>Here come [@the@] blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>3755</StartMilliseconds>
+    <EndMilliseconds>4571</EndMilliseconds>
+    <Text>Here come the [@blobs@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>4572</StartMilliseconds>
+    <EndMilliseconds>6315</EndMilliseconds>
+    <Text>Here come the blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>6316</StartMilliseconds>
+    <EndMilliseconds>6772</EndMilliseconds>
+    <Text>What do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>6773</StartMilliseconds>
+    <EndMilliseconds>7179</EndMilliseconds>
+    <Text>[@What@] do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>7180</StartMilliseconds>
+    <EndMilliseconds>7329</EndMilliseconds>
+    <Text>What [@do@] they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>7330</StartMilliseconds>
+    <EndMilliseconds>7567</EndMilliseconds>
+    <Text>What do [@they@] see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>7568</StartMilliseconds>
+    <EndMilliseconds>8104</EndMilliseconds>
+    <Text>What do they [@see@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>8105</StartMilliseconds>
+    <EndMilliseconds>11428</EndMilliseconds>
+    <Text>What do they see?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>11429</StartMilliseconds>
+    <EndMilliseconds>11616</EndMilliseconds>
+    <Text>They see a house of mirrors!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>11617</StartMilliseconds>
+    <EndMilliseconds>11835</EndMilliseconds>
+    <Text>[@They@] see a house of mirrors!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>11836</StartMilliseconds>
+    <EndMilliseconds>12225</EndMilliseconds>
+    <Text>They [@see@] a house of mirrors!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>12226</StartMilliseconds>
+    <EndMilliseconds>12446</EndMilliseconds>
+    <Text>They see [@a@] house of mirrors!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>12447</StartMilliseconds>
+    <EndMilliseconds>12831</EndMilliseconds>
+    <Text>They see a [@house@] of mirrors!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>12832</StartMilliseconds>
+    <EndMilliseconds>13016</EndMilliseconds>
+    <Text>They see a house [@of@] mirrors!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>13017</StartMilliseconds>
+    <EndMilliseconds>14180</EndMilliseconds>
+    <Text>They see a house of [@mirrors@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>14181</StartMilliseconds>
+    <EndMilliseconds>20854</EndMilliseconds>
+    <Text>They see a house of mirrors!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>20855</StartMilliseconds>
+    <EndMilliseconds>21047</EndMilliseconds>
+    <Text>The blobs run inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>21048</StartMilliseconds>
+    <EndMilliseconds>21240</EndMilliseconds>
+    <Text>[@The@] blobs run inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>21241</StartMilliseconds>
+    <EndMilliseconds>21845</EndMilliseconds>
+    <Text>The [@blobs@] run inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>21846</StartMilliseconds>
+    <EndMilliseconds>22117</EndMilliseconds>
+    <Text>The blobs [@run@] inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>22118</StartMilliseconds>
+    <EndMilliseconds>23032</EndMilliseconds>
+    <Text>The blobs run [@inside@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>23033</StartMilliseconds>
+    <EndMilliseconds>40815</EndMilliseconds>
+    <Text>The blobs run inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>40816</StartMilliseconds>
+    <EndMilliseconds>41029</EndMilliseconds>
+    <Text>They see big blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>41030</StartMilliseconds>
+    <EndMilliseconds>41454</EndMilliseconds>
+    <Text>[@They@] see big blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>41455</StartMilliseconds>
+    <EndMilliseconds>41858</EndMilliseconds>
+    <Text>They [@see@] big blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>41859</StartMilliseconds>
+    <EndMilliseconds>42245</EndMilliseconds>
+    <Text>They see [@big@] blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>42246</StartMilliseconds>
+    <EndMilliseconds>43364</EndMilliseconds>
+    <Text>They see big [@blobs@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>43365</StartMilliseconds>
+    <EndMilliseconds>51643</EndMilliseconds>
+    <Text>They see big blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>51644</StartMilliseconds>
+    <EndMilliseconds>51941</EndMilliseconds>
+    <Text>They see small blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>51942</StartMilliseconds>
+    <EndMilliseconds>52240</EndMilliseconds>
+    <Text>[@They@] see small blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>52241</StartMilliseconds>
+    <EndMilliseconds>52590</EndMilliseconds>
+    <Text>They [@see@] small blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>52591</StartMilliseconds>
+    <EndMilliseconds>53274</EndMilliseconds>
+    <Text>They see [@small@] blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>53275</StartMilliseconds>
+    <EndMilliseconds>54269</EndMilliseconds>
+    <Text>They see small [@blobs@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>54270</StartMilliseconds>
+    <EndMilliseconds>68718</EndMilliseconds>
+    <Text>They see small blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>68719</StartMilliseconds>
+    <EndMilliseconds>68926</EndMilliseconds>
+    <Text>They see tall blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>68927</StartMilliseconds>
+    <EndMilliseconds>69313</EndMilliseconds>
+    <Text>[@They@] see tall blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>69314</StartMilliseconds>
+    <EndMilliseconds>69621</EndMilliseconds>
+    <Text>They [@see@] tall blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>69622</StartMilliseconds>
+    <EndMilliseconds>70103</EndMilliseconds>
+    <Text>They see [@tall@] blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>70104</StartMilliseconds>
+    <EndMilliseconds>71007</EndMilliseconds>
+    <Text>They see tall [@blobs@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>71008</StartMilliseconds>
+    <EndMilliseconds>79577</EndMilliseconds>
+    <Text>They see tall blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>79578</StartMilliseconds>
+    <EndMilliseconds>79834</EndMilliseconds>
+    <Text>They see short blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>79835</StartMilliseconds>
+    <EndMilliseconds>80153</EndMilliseconds>
+    <Text>[@They@] see short blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>80154</StartMilliseconds>
+    <EndMilliseconds>80447</EndMilliseconds>
+    <Text>They [@see@] short blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>80448</StartMilliseconds>
+    <EndMilliseconds>81034</EndMilliseconds>
+    <Text>They see [@short@] blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>81035</StartMilliseconds>
+    <EndMilliseconds>81941</EndMilliseconds>
+    <Text>They see short [@blobs@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>81942</StartMilliseconds>
+    <EndMilliseconds>95641</EndMilliseconds>
+    <Text>They see short blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>95642</StartMilliseconds>
+    <EndMilliseconds>95891</EndMilliseconds>
+    <Text>They see thin blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>95892</StartMilliseconds>
+    <EndMilliseconds>96138</EndMilliseconds>
+    <Text>[@They@] see thin blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>96139</StartMilliseconds>
+    <EndMilliseconds>96649</EndMilliseconds>
+    <Text>They [@see@] thin blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>96650</StartMilliseconds>
+    <EndMilliseconds>96994</EndMilliseconds>
+    <Text>They see [@thin@] blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>96995</StartMilliseconds>
+    <EndMilliseconds>98222</EndMilliseconds>
+    <Text>They see thin [@blobs@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>98223</StartMilliseconds>
+    <EndMilliseconds>107377</EndMilliseconds>
+    <Text>They see thin blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>107378</StartMilliseconds>
+    <EndMilliseconds>107635</EndMilliseconds>
+    <Text>They see wide blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>107636</StartMilliseconds>
+    <EndMilliseconds>107925</EndMilliseconds>
+    <Text>[@They@] see wide blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>107926</StartMilliseconds>
+    <EndMilliseconds>108255</EndMilliseconds>
+    <Text>They [@see@] wide blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>108256</StartMilliseconds>
+    <EndMilliseconds>108868</EndMilliseconds>
+    <Text>They see [@wide@] blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>108869</StartMilliseconds>
+    <EndMilliseconds>109764</EndMilliseconds>
+    <Text>They see wide [@blobs@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>109765</StartMilliseconds>
+    <EndMilliseconds>118170</EndMilliseconds>
+    <Text>They see wide blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>118171</StartMilliseconds>
+    <EndMilliseconds>118390</EndMilliseconds>
+    <Text>Blobs, what do you see now?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>118391</StartMilliseconds>
+    <EndMilliseconds>119256</EndMilliseconds>
+    <Text>[@Blobs@], what do you see now?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>119257</StartMilliseconds>
+    <EndMilliseconds>119580</EndMilliseconds>
+    <Text>Blobs, [@what@] do you see now?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>119581</StartMilliseconds>
+    <EndMilliseconds>119747</EndMilliseconds>
+    <Text>Blobs, what [@do@] you see now?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>119748</StartMilliseconds>
+    <EndMilliseconds>119897</EndMilliseconds>
+    <Text>Blobs, what do [@you@] see now?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>119898</StartMilliseconds>
+    <EndMilliseconds>120140</EndMilliseconds>
+    <Text>Blobs, what do you [@see@] now?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>120141</StartMilliseconds>
+    <EndMilliseconds>121676</EndMilliseconds>
+    <Text>Blobs, what do you see [@now@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>121677</StartMilliseconds>
+    <EndMilliseconds>123967</EndMilliseconds>
+    <Text>Blobs, what do you see now?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>123968</StartMilliseconds>
+    <EndMilliseconds>124179</EndMilliseconds>
+    <Text>They see many, many, many blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>124180</StartMilliseconds>
+    <EndMilliseconds>124501</EndMilliseconds>
+    <Text>[@They@] see many, many, many blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>124502</StartMilliseconds>
+    <EndMilliseconds>124838</EndMilliseconds>
+    <Text>They [@see@] many, many, many blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>124839</StartMilliseconds>
+    <EndMilliseconds>125410</EndMilliseconds>
+    <Text>They see [@many@], many, many blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>125411</StartMilliseconds>
+    <EndMilliseconds>125890</EndMilliseconds>
+    <Text>They see many, [@many@], many blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>125891</StartMilliseconds>
+    <EndMilliseconds>126543</EndMilliseconds>
+    <Text>They see many, many, [@many@] blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>126544</StartMilliseconds>
+    <EndMilliseconds>127369</EndMilliseconds>
+    <Text>They see many, many, many [@blobs@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>127370</StartMilliseconds>
+    <EndMilliseconds>130128</EndMilliseconds>
+    <Text>They see many, many, many blobs.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>130129</StartMilliseconds>
+    <EndMilliseconds>130408</EndMilliseconds>
+    <Text>Silly blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>130409</StartMilliseconds>
+    <EndMilliseconds>131019</EndMilliseconds>
+    <Text>[@Silly@] blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>131020</StartMilliseconds>
+    <EndMilliseconds>131950</EndMilliseconds>
+    <Text>Silly [@blobs@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>131951</StartMilliseconds>
+    <EndMilliseconds>136349</EndMilliseconds>
+    <Text>Silly blobs!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>136350</StartMilliseconds>
+    <EndMilliseconds>136603</EndMilliseconds>
+    <Text>Good-bye!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>136604</StartMilliseconds>
+    <EndMilliseconds>137458</EndMilliseconds>
+    <Text>[@Good-bye@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>137459</StartMilliseconds>
+    <EndMilliseconds>139758</EndMilliseconds>
+    <Text>Good-bye!</Text>
+  </Paragraph>
+</Subtitle>

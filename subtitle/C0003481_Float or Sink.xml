@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>6206</EndMilliseconds>
+    <Text>The toy duck floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>6207</StartMilliseconds>
+    <EndMilliseconds>6459</EndMilliseconds>
+    <Text>[@The@] toy duck floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>6460</StartMilliseconds>
+    <EndMilliseconds>6968</EndMilliseconds>
+    <Text>The [@toy@] duck floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>6969</StartMilliseconds>
+    <EndMilliseconds>7373</EndMilliseconds>
+    <Text>The toy [@duck@] floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>7374</StartMilliseconds>
+    <EndMilliseconds>8340</EndMilliseconds>
+    <Text>The toy duck [@floats@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>8341</StartMilliseconds>
+    <EndMilliseconds>9998</EndMilliseconds>
+    <Text>The toy duck floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>9999</StartMilliseconds>
+    <EndMilliseconds>10340</EndMilliseconds>
+    <Text>[e@The toy duck floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>10341</StartMilliseconds>
+    <EndMilliseconds>11846</EndMilliseconds>
+    <Text>My shoe sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>11847</StartMilliseconds>
+    <EndMilliseconds>13259</EndMilliseconds>
+    <Text>[s@My shoe sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>13260</StartMilliseconds>
+    <EndMilliseconds>13580</EndMilliseconds>
+    <Text>[@My@] shoe sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>13581</StartMilliseconds>
+    <EndMilliseconds>14091</EndMilliseconds>
+    <Text>My [@shoe@] sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>14092</StartMilliseconds>
+    <EndMilliseconds>15122</EndMilliseconds>
+    <Text>My shoe [@sinks@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>15123</StartMilliseconds>
+    <EndMilliseconds>18954</EndMilliseconds>
+    <Text>My shoe sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>18955</StartMilliseconds>
+    <EndMilliseconds>19681</EndMilliseconds>
+    <Text>[e@My shoe sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>19682</StartMilliseconds>
+    <EndMilliseconds>23061</EndMilliseconds>
+    <Text>The ball floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>23062</StartMilliseconds>
+    <EndMilliseconds>23716</EndMilliseconds>
+    <Text>[s@The ball floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>23717</StartMilliseconds>
+    <EndMilliseconds>24096</EndMilliseconds>
+    <Text>[@The@] ball floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>24097</StartMilliseconds>
+    <EndMilliseconds>24573</EndMilliseconds>
+    <Text>The [@ball@] floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>24574</StartMilliseconds>
+    <EndMilliseconds>25669</EndMilliseconds>
+    <Text>The ball [@floats@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>25670</StartMilliseconds>
+    <EndMilliseconds>27194</EndMilliseconds>
+    <Text>The ball floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>27195</StartMilliseconds>
+    <EndMilliseconds>27621</EndMilliseconds>
+    <Text>[e@The ball floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>27622</StartMilliseconds>
+    <EndMilliseconds>32531</EndMilliseconds>
+    <Text>My towel sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>32532</StartMilliseconds>
+    <EndMilliseconds>33328</EndMilliseconds>
+    <Text>[s@My towel sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>33329</StartMilliseconds>
+    <EndMilliseconds>33657</EndMilliseconds>
+    <Text>[@My@] towel sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>33658</StartMilliseconds>
+    <EndMilliseconds>34330</EndMilliseconds>
+    <Text>My [@towel@] sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>34331</StartMilliseconds>
+    <EndMilliseconds>35395</EndMilliseconds>
+    <Text>My towel [@sinks@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>35396</StartMilliseconds>
+    <EndMilliseconds>38778</EndMilliseconds>
+    <Text>My towel sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>38779</StartMilliseconds>
+    <EndMilliseconds>39605</EndMilliseconds>
+    <Text>[e@My towel sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>39606</StartMilliseconds>
+    <EndMilliseconds>43020</EndMilliseconds>
+    <Text>The cup floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>43021</StartMilliseconds>
+    <EndMilliseconds>43560</EndMilliseconds>
+    <Text>[s@The cup floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>43561</StartMilliseconds>
+    <EndMilliseconds>43899</EndMilliseconds>
+    <Text>[@The@] cup floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>43900</StartMilliseconds>
+    <EndMilliseconds>44427</EndMilliseconds>
+    <Text>The [@cup@] floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>44428</StartMilliseconds>
+    <EndMilliseconds>45582</EndMilliseconds>
+    <Text>The cup [@floats@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>45583</StartMilliseconds>
+    <EndMilliseconds>46891</EndMilliseconds>
+    <Text>The cup floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>46892</StartMilliseconds>
+    <EndMilliseconds>47239</EndMilliseconds>
+    <Text>[e@The cup floats.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>47240</StartMilliseconds>
+    <EndMilliseconds>48548</EndMilliseconds>
+    <Text>My spoon sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>48549</StartMilliseconds>
+    <EndMilliseconds>49529</EndMilliseconds>
+    <Text>[s@My spoon sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>49530</StartMilliseconds>
+    <EndMilliseconds>49834</EndMilliseconds>
+    <Text>[@My@] spoon sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>49835</StartMilliseconds>
+    <EndMilliseconds>50516</EndMilliseconds>
+    <Text>My [@spoon@] sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>50517</StartMilliseconds>
+    <EndMilliseconds>51689</EndMilliseconds>
+    <Text>My spoon [@sinks@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>51690</StartMilliseconds>
+    <EndMilliseconds>54706</EndMilliseconds>
+    <Text>My spoon sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>54707</StartMilliseconds>
+    <EndMilliseconds>55000</EndMilliseconds>
+    <Text>[e@My spoon sinks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>55001</StartMilliseconds>
+    <EndMilliseconds>56962</EndMilliseconds>
+    <Text>Uh-oh, here comes Mama!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>56963</StartMilliseconds>
+    <EndMilliseconds>57239</EndMilliseconds>
+    <Text>[s@Uh-oh, here comes Mama!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>57240</StartMilliseconds>
+    <EndMilliseconds>58607</EndMilliseconds>
+    <Text>[@Uh-oh@], here comes Mama!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>58608</StartMilliseconds>
+    <EndMilliseconds>58916</EndMilliseconds>
+    <Text>Uh-oh, [@here@] comes Mama!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>58917</StartMilliseconds>
+    <EndMilliseconds>59202</EndMilliseconds>
+    <Text>Uh-oh, here [@comes@] Mama!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>59203</StartMilliseconds>
+    <EndMilliseconds>60126</EndMilliseconds>
+    <Text>Uh-oh, here comes [@Mama@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>60127</StartMilliseconds>
+    <EndMilliseconds>61251</EndMilliseconds>
+    <Text>Uh-oh, here comes Mama!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>61252</StartMilliseconds>
+    <EndMilliseconds>61516</EndMilliseconds>
+    <Text>[e@Uh-oh, here comes Mama!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>61517</StartMilliseconds>
+    <EndMilliseconds>62110</EndMilliseconds>
+    <Text>I sink!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>62111</StartMilliseconds>
+    <EndMilliseconds>62716</EndMilliseconds>
+    <Text>[@I@] sink!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>62717</StartMilliseconds>
+    <EndMilliseconds>63912</EndMilliseconds>
+    <Text>I [@sink@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>63913</StartMilliseconds>
+    <EndMilliseconds>69110</EndMilliseconds>
+    <Text>I sink!</Text>
+  </Paragraph>
+</Subtitle>

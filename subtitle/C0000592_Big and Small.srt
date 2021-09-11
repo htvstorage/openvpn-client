@@ -1,0 +1,232 @@
+1
+00:00:06,250 --> 00:00:10,039
+My hat is small.
+
+2
+00:00:10,040 --> 00:00:10,411
+<font color="#ffff54">My</font> hat is small.
+
+3
+00:00:10,412 --> 00:00:10,826
+My <font color="#ffff54">hat</font> is small.
+
+4
+00:00:10,827 --> 00:00:11,087
+My hat <font color="#ffff54">is</font> small.
+
+5
+00:00:11,088 --> 00:00:12,064
+My hat is <font color="#ffff54">small</font>.
+
+6
+00:00:12,065 --> 00:00:13,576
+My hat is small.
+
+7
+00:00:13,577 --> 00:00:14,502
+<font color="#ffff54">My hat is small.</font>
+
+8
+00:00:14,503 --> 00:00:15,044
+Your hat is big.
+
+9
+00:00:15,045 --> 00:00:15,451
+<font color="#ffff54">Your</font> hat is big.
+
+10
+00:00:15,452 --> 00:00:15,990
+Your <font color="#ffff54">hat</font> is big.
+
+11
+00:00:15,991 --> 00:00:16,346
+Your hat <font color="#ffff54">is</font> big.
+
+12
+00:00:16,347 --> 00:00:17,295
+Your hat is <font color="#ffff54">big</font>.
+
+13
+00:00:17,296 --> 00:00:18,315
+Your hat is big.
+
+14
+00:00:18,316 --> 00:00:18,590
+<font color="#ffff54">Your hat is big.</font>
+
+15
+00:00:18,591 --> 00:00:21,080
+My bag is light.
+
+16
+00:00:21,081 --> 00:00:21,890
+<font color="#ffff54">My bag is light.</font>
+
+17
+00:00:21,891 --> 00:00:22,293
+<font color="#ffff54">My</font> bag is light.
+
+18
+00:00:22,294 --> 00:00:22,766
+My <font color="#ffff54">bag</font> is light.
+
+19
+00:00:22,767 --> 00:00:23,090
+My bag <font color="#ffff54">is</font> light.
+
+20
+00:00:23,091 --> 00:00:23,891
+My bag is <font color="#ffff54">light</font>.
+
+21
+00:00:23,892 --> 00:00:25,333
+My bag is light.
+
+22
+00:00:25,334 --> 00:00:26,255
+<font color="#ffff54">My bag is light.</font>
+
+23
+00:00:26,256 --> 00:00:26,916
+Your bag is heavy.
+
+24
+00:00:26,917 --> 00:00:27,344
+<font color="#ffff54">Your</font> bag is heavy.
+
+25
+00:00:27,345 --> 00:00:27,754
+Your <font color="#ffff54">bag</font> is heavy.
+
+26
+00:00:27,755 --> 00:00:28,040
+Your bag <font color="#ffff54">is</font> heavy.
+
+27
+00:00:28,041 --> 00:00:28,924
+Your bag is <font color="#ffff54">heavy</font>.
+
+28
+00:00:28,925 --> 00:00:30,281
+Your bag is heavy.
+
+29
+00:00:30,282 --> 00:00:30,664
+<font color="#ffff54">Your bag is heavy.</font>
+
+30
+00:00:30,665 --> 00:00:32,842
+My train is short.
+
+31
+00:00:32,843 --> 00:00:33,357
+<font color="#ffff54">My train is short.</font>
+
+32
+00:00:33,358 --> 00:00:33,838
+<font color="#ffff54">My</font> train is short.
+
+33
+00:00:33,839 --> 00:00:34,300
+My <font color="#ffff54">train</font> is short.
+
+34
+00:00:34,301 --> 00:00:34,481
+My train <font color="#ffff54">is</font> short.
+
+35
+00:00:34,482 --> 00:00:35,378
+My train is <font color="#ffff54">short</font>.
+
+36
+00:00:35,379 --> 00:00:36,547
+My train is short.
+
+37
+00:00:36,548 --> 00:00:37,067
+<font color="#ffff54">My train is short.</font>
+
+38
+00:00:37,068 --> 00:00:37,919
+Your train is long.
+
+39
+00:00:37,920 --> 00:00:38,422
+<font color="#ffff54">Your</font> train is long.
+
+40
+00:00:38,423 --> 00:00:38,795
+Your <font color="#ffff54">train</font> is long.
+
+41
+00:00:38,796 --> 00:00:39,040
+Your train <font color="#ffff54">is</font> long.
+
+42
+00:00:39,041 --> 00:00:40,015
+Your train is <font color="#ffff54">long</font>.
+
+43
+00:00:40,016 --> 00:00:41,530
+Your train is long.
+
+44
+00:00:41,531 --> 00:00:42,078
+<font color="#ffff54">Your train is long.</font>
+
+45
+00:00:42,079 --> 00:00:44,416
+My book is open.
+
+46
+00:00:44,417 --> 00:00:45,285
+<font color="#ffff54">My book is open.</font>
+
+47
+00:00:45,286 --> 00:00:45,708
+<font color="#ffff54">My</font> book is open.
+
+48
+00:00:45,709 --> 00:00:45,972
+My <font color="#ffff54">book</font> is open.
+
+49
+00:00:45,973 --> 00:00:46,265
+My book <font color="#ffff54">is</font> open.
+
+50
+00:00:46,266 --> 00:00:47,095
+My book is <font color="#ffff54">open</font>.
+
+51
+00:00:47,096 --> 00:00:49,115
+My book is open.
+
+52
+00:00:49,116 --> 00:00:49,975
+<font color="#ffff54">My book is open.</font>
+
+53
+00:00:49,976 --> 00:00:50,412
+Your book is closed.
+
+54
+00:00:50,413 --> 00:00:50,777
+<font color="#ffff54">Your</font> book is closed.
+
+55
+00:00:50,778 --> 00:00:51,117
+Your <font color="#ffff54">book</font> is closed.
+
+56
+00:00:51,118 --> 00:00:51,418
+Your book <font color="#ffff54">is</font> closed.
+
+57
+00:00:51,419 --> 00:00:52,563
+Your book is <font color="#ffff54">closed</font>.
+
+58
+00:00:52,564 --> 00:00:55,047
+Your book is closed.
+

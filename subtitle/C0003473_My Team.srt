@@ -1,0 +1,308 @@
+1
+00:00:04,333 --> 00:00:07,733
+She is first.
+
+2
+00:00:07,734 --> 00:00:08,084
+<font color="#ffff54">She is first.</font>
+
+3
+00:00:08,085 --> 00:00:08,555
+<font color="#ffff54">She</font> is first.
+
+4
+00:00:08,556 --> 00:00:08,873
+She <font color="#ffff54">is</font> first.
+
+5
+00:00:08,874 --> 00:00:09,604
+She is <font color="#ffff54">first</font>.
+
+6
+00:00:09,605 --> 00:00:15,767
+She is first.
+
+7
+00:00:15,768 --> 00:00:15,941
+<font color="#ffff54">She is first.</font>
+
+8
+00:00:15,942 --> 00:00:17,668
+He is second.
+
+9
+00:00:17,669 --> 00:00:18,710
+<font color="#ffff54">He is second.</font>
+
+10
+00:00:18,711 --> 00:00:19,037
+<font color="#ffff54">He</font> is second.
+
+11
+00:00:19,038 --> 00:00:19,325
+He <font color="#ffff54">is</font> second.
+
+12
+00:00:19,326 --> 00:00:20,029
+He is <font color="#ffff54">second</font>.
+
+13
+00:00:20,030 --> 00:00:26,016
+He is second.
+
+14
+00:00:26,017 --> 00:00:26,280
+<font color="#ffff54">He is second.</font>
+
+15
+00:00:26,281 --> 00:00:27,903
+She is third.
+
+16
+00:00:27,904 --> 00:00:28,776
+<font color="#ffff54">She is third.</font>
+
+17
+00:00:28,777 --> 00:00:29,224
+<font color="#ffff54">She</font> is third.
+
+18
+00:00:29,225 --> 00:00:29,514
+She <font color="#ffff54">is</font> third.
+
+19
+00:00:29,515 --> 00:00:30,207
+She is <font color="#ffff54">third</font>.
+
+20
+00:00:30,208 --> 00:00:34,962
+She is third.
+
+21
+00:00:34,963 --> 00:00:35,207
+<font color="#ffff54">She is third.</font>
+
+22
+00:00:35,208 --> 00:00:36,870
+He is fourth.
+
+23
+00:00:36,871 --> 00:00:37,868
+<font color="#ffff54">He is fourth.</font>
+
+24
+00:00:37,869 --> 00:00:38,208
+<font color="#ffff54">He</font> is fourth.
+
+25
+00:00:38,209 --> 00:00:38,524
+He <font color="#ffff54">is</font> fourth.
+
+26
+00:00:38,525 --> 00:00:39,209
+He is <font color="#ffff54">fourth</font>.
+
+27
+00:00:39,210 --> 00:00:47,804
+He is fourth.
+
+28
+00:00:47,805 --> 00:00:48,019
+<font color="#ffff54">He is fourth.</font>
+
+29
+00:00:48,020 --> 00:00:49,590
+He is fifth.
+
+30
+00:00:49,591 --> 00:00:50,746
+<font color="#ffff54">He is fifth.</font>
+
+31
+00:00:50,747 --> 00:00:51,059
+<font color="#ffff54">He</font> is fifth.
+
+32
+00:00:51,060 --> 00:00:51,339
+He <font color="#ffff54">is</font> fifth.
+
+33
+00:00:51,340 --> 00:00:51,962
+He is <font color="#ffff54">fifth</font>.
+
+34
+00:00:51,963 --> 00:00:57,427
+He is fifth.
+
+35
+00:00:57,428 --> 00:00:57,678
+<font color="#ffff54">He is fifth.</font>
+
+36
+00:00:57,679 --> 00:00:59,234
+She is sixth.
+
+37
+00:00:59,235 --> 00:01:00,080
+<font color="#ffff54">She is sixth.</font>
+
+38
+00:01:00,081 --> 00:01:00,662
+<font color="#ffff54">She</font> is sixth.
+
+39
+00:01:00,663 --> 00:01:00,950
+She <font color="#ffff54">is</font> sixth.
+
+40
+00:01:00,951 --> 00:01:01,880
+She is <font color="#ffff54">sixth</font>.
+
+41
+00:01:01,881 --> 00:01:06,165
+She is sixth.
+
+42
+00:01:06,166 --> 00:01:06,406
+<font color="#ffff54">She is sixth.</font>
+
+43
+00:01:06,407 --> 00:01:08,018
+He is seventh.
+
+44
+00:01:08,019 --> 00:01:08,832
+<font color="#ffff54">He is seventh.</font>
+
+45
+00:01:08,833 --> 00:01:09,243
+<font color="#ffff54">He</font> is seventh.
+
+46
+00:01:09,244 --> 00:01:09,448
+He <font color="#ffff54">is</font> seventh.
+
+47
+00:01:09,449 --> 00:01:10,443
+He is <font color="#ffff54">seventh</font>.
+
+48
+00:01:10,444 --> 00:01:13,811
+He is seventh.
+
+49
+00:01:13,812 --> 00:01:14,085
+<font color="#ffff54">He is seventh.</font>
+
+50
+00:01:14,086 --> 00:01:15,669
+She is eighth.
+
+51
+00:01:15,670 --> 00:01:16,726
+<font color="#ffff54">She is eighth.</font>
+
+52
+00:01:16,727 --> 00:01:17,176
+<font color="#ffff54">She</font> is eighth.
+
+53
+00:01:17,177 --> 00:01:17,552
+She <font color="#ffff54">is</font> eighth.
+
+54
+00:01:17,553 --> 00:01:18,375
+She is <font color="#ffff54">eighth</font>.
+
+55
+00:01:18,376 --> 00:01:21,290
+She is eighth.
+
+56
+00:01:21,291 --> 00:01:21,686
+<font color="#ffff54">She is eighth.</font>
+
+57
+00:01:21,687 --> 00:01:23,220
+She is ninth.
+
+58
+00:01:23,221 --> 00:01:24,033
+<font color="#ffff54">She is ninth.</font>
+
+59
+00:01:24,034 --> 00:01:24,530
+<font color="#ffff54">She</font> is ninth.
+
+60
+00:01:24,531 --> 00:01:24,865
+She <font color="#ffff54">is</font> ninth.
+
+61
+00:01:24,866 --> 00:01:25,859
+She is <font color="#ffff54">ninth</font>.
+
+62
+00:01:25,860 --> 00:01:28,523
+She is ninth.
+
+63
+00:01:28,524 --> 00:01:28,800
+<font color="#ffff54">She is ninth.</font>
+
+64
+00:01:28,801 --> 00:01:30,437
+I am tenth.
+
+65
+00:01:30,438 --> 00:01:31,247
+<font color="#ffff54">I am tenth.</font>
+
+66
+00:01:31,248 --> 00:01:31,775
+<font color="#ffff54">I</font> am tenth.
+
+67
+00:01:31,776 --> 00:01:32,049
+I <font color="#ffff54">am</font> tenth.
+
+68
+00:01:32,050 --> 00:01:32,955
+I am <font color="#ffff54">tenth</font>.
+
+69
+00:01:32,956 --> 00:01:36,648
+I am tenth.
+
+70
+00:01:36,649 --> 00:01:36,873
+<font color="#ffff54">I am tenth.</font>
+
+71
+00:01:36,874 --> 00:01:38,877
+My team is great!
+
+72
+00:01:38,878 --> 00:01:39,411
+<font color="#ffff54">My team is great!</font>
+
+73
+00:01:39,412 --> 00:01:39,975
+<font color="#ffff54">My</font> team is great!
+
+74
+00:01:39,976 --> 00:01:40,449
+My <font color="#ffff54">team</font> is great!
+
+75
+00:01:40,450 --> 00:01:40,674
+My team <font color="#ffff54">is</font> great!
+
+76
+00:01:40,675 --> 00:01:41,640
+My team is <font color="#ffff54">great</font>!
+
+77
+00:01:41,641 --> 00:01:44,310
+My team is great!
+

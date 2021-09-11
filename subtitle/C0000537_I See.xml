@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>198</StartMilliseconds>
+    <EndMilliseconds>11852</EndMilliseconds>
+    <Text>I see a rock.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>11853</StartMilliseconds>
+    <EndMilliseconds>12151</EndMilliseconds>
+    <Text>[@I@] see a rock.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>12152</StartMilliseconds>
+    <EndMilliseconds>12464</EndMilliseconds>
+    <Text>I [@see@] a rock.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>12465</StartMilliseconds>
+    <EndMilliseconds>12712</EndMilliseconds>
+    <Text>I see [@a@] rock.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>12713</StartMilliseconds>
+    <EndMilliseconds>13412</EndMilliseconds>
+    <Text>I see a [@rock@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>13413</StartMilliseconds>
+    <EndMilliseconds>16266</EndMilliseconds>
+    <Text>I see a rock.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>16267</StartMilliseconds>
+    <EndMilliseconds>19643</EndMilliseconds>
+    <Text>I see an ant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>19644</StartMilliseconds>
+    <EndMilliseconds>19900</EndMilliseconds>
+    <Text>[@I@] see an ant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>19901</StartMilliseconds>
+    <EndMilliseconds>20249</EndMilliseconds>
+    <Text>I [@see@] an ant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>20250</StartMilliseconds>
+    <EndMilliseconds>20546</EndMilliseconds>
+    <Text>I see [@an@] ant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>20547</StartMilliseconds>
+    <EndMilliseconds>21346</EndMilliseconds>
+    <Text>I see an [@ant@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>21347</StartMilliseconds>
+    <EndMilliseconds>26583</EndMilliseconds>
+    <Text>I see an ant.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>26584</StartMilliseconds>
+    <EndMilliseconds>30235</EndMilliseconds>
+    <Text>I see a flower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>30236</StartMilliseconds>
+    <EndMilliseconds>30580</EndMilliseconds>
+    <Text>[@I@] see a flower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>30581</StartMilliseconds>
+    <EndMilliseconds>30820</EndMilliseconds>
+    <Text>I [@see@] a flower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>30821</StartMilliseconds>
+    <EndMilliseconds>31088</EndMilliseconds>
+    <Text>I see [@a@] flower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>31089</StartMilliseconds>
+    <EndMilliseconds>32186</EndMilliseconds>
+    <Text>I see a [@flower@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>32187</StartMilliseconds>
+    <EndMilliseconds>34539</EndMilliseconds>
+    <Text>I see a flower.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>34540</StartMilliseconds>
+    <EndMilliseconds>39959</EndMilliseconds>
+    <Text>I see a butterfly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>39960</StartMilliseconds>
+    <EndMilliseconds>40294</EndMilliseconds>
+    <Text>[@I@] see a butterfly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>40295</StartMilliseconds>
+    <EndMilliseconds>40565</EndMilliseconds>
+    <Text>I [@see@] a butterfly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>40566</StartMilliseconds>
+    <EndMilliseconds>40823</EndMilliseconds>
+    <Text>I see [@a@] butterfly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>40824</StartMilliseconds>
+    <EndMilliseconds>42159</EndMilliseconds>
+    <Text>I see a [@butterfly@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>42160</StartMilliseconds>
+    <EndMilliseconds>43947</EndMilliseconds>
+    <Text>I see a butterfly.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>43948</StartMilliseconds>
+    <EndMilliseconds>48230</EndMilliseconds>
+    <Text>I see a bee.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>48231</StartMilliseconds>
+    <EndMilliseconds>48532</EndMilliseconds>
+    <Text>[@I@] see a bee.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>48533</StartMilliseconds>
+    <EndMilliseconds>48794</EndMilliseconds>
+    <Text>I [@see@] a bee.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>48795</StartMilliseconds>
+    <EndMilliseconds>49059</EndMilliseconds>
+    <Text>I see [@a@] bee.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>49060</StartMilliseconds>
+    <EndMilliseconds>49819</EndMilliseconds>
+    <Text>I see a [@bee@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>49820</StartMilliseconds>
+    <EndMilliseconds>54985</EndMilliseconds>
+    <Text>I see a bee.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>54986</StartMilliseconds>
+    <EndMilliseconds>62571</EndMilliseconds>
+    <Text>I see a tree.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>62572</StartMilliseconds>
+    <EndMilliseconds>62872</EndMilliseconds>
+    <Text>[@I@] see a tree.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>62873</StartMilliseconds>
+    <EndMilliseconds>63159</EndMilliseconds>
+    <Text>I [@see@] a tree.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>63160</StartMilliseconds>
+    <EndMilliseconds>63345</EndMilliseconds>
+    <Text>I see [@a@] tree.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>63346</StartMilliseconds>
+    <EndMilliseconds>64162</EndMilliseconds>
+    <Text>I see a [@tree@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>64163</StartMilliseconds>
+    <EndMilliseconds>66091</EndMilliseconds>
+    <Text>I see a tree.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>66092</StartMilliseconds>
+    <EndMilliseconds>71907</EndMilliseconds>
+    <Text>I see a cat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>71908</StartMilliseconds>
+    <EndMilliseconds>72195</EndMilliseconds>
+    <Text>[@I@] see a cat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>72196</StartMilliseconds>
+    <EndMilliseconds>72442</EndMilliseconds>
+    <Text>I [@see@] a cat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>72443</StartMilliseconds>
+    <EndMilliseconds>72640</EndMilliseconds>
+    <Text>I see [@a@] cat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>72641</StartMilliseconds>
+    <EndMilliseconds>73332</EndMilliseconds>
+    <Text>I see a [@cat@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>73333</StartMilliseconds>
+    <EndMilliseconds>75071</EndMilliseconds>
+    <Text>I see a cat.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>75072</StartMilliseconds>
+    <EndMilliseconds>75349</EndMilliseconds>
+    <Text>Oh, run!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>75350</StartMilliseconds>
+    <EndMilliseconds>75855</EndMilliseconds>
+    <Text>[@Oh@], run!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>75856</StartMilliseconds>
+    <EndMilliseconds>77440</EndMilliseconds>
+    <Text>Oh, [@run@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>77441</StartMilliseconds>
+    <EndMilliseconds>81134</EndMilliseconds>
+    <Text>Oh, run!</Text>
+  </Paragraph>
+</Subtitle>

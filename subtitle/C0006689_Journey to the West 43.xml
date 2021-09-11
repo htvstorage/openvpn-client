@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>4164</EndMilliseconds>
+    <Text>[g@Golden Horn scowled at Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>4165</StartMilliseconds>
+    <EndMilliseconds>8061</EndMilliseconds>
+    <Text>"I doubt you have a gourd like mine."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>8062</StartMilliseconds>
+    <EndMilliseconds>10982</EndMilliseconds>
+    <Text>[g@"I do," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>10983</StartMilliseconds>
+    <EndMilliseconds>13607</EndMilliseconds>
+    <Text>He held up the real gourd.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>13608</StartMilliseconds>
+    <EndMilliseconds>16473</EndMilliseconds>
+    <Text>The demon looked carefully at the gourd.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>16474</StartMilliseconds>
+    <EndMilliseconds>19961</EndMilliseconds>
+    <Text>[g@"That does look like my gourd.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>19962</StartMilliseconds>
+    <EndMilliseconds>23514</EndMilliseconds>
+    <Text>But my gourd is magical."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>23515</StartMilliseconds>
+    <EndMilliseconds>26714</EndMilliseconds>
+    <Text>"My gourd is magical too," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>26715</StartMilliseconds>
+    <EndMilliseconds>28647</EndMilliseconds>
+    <Text>[g@The demon rubbed his chin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>28648</StartMilliseconds>
+    <EndMilliseconds>32119</EndMilliseconds>
+    <Text>"What can your gourd do?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>32120</StartMilliseconds>
+    <EndMilliseconds>35106</EndMilliseconds>
+    <Text>"It can hold a demon," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>35107</StartMilliseconds>
+    <EndMilliseconds>37798</EndMilliseconds>
+    <Text>"All I have to do is say the demon's name.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>37799</StartMilliseconds>
+    <EndMilliseconds>41565</EndMilliseconds>
+    <Text>The demon will get sucked in and then turn into liquid."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>41566</StartMilliseconds>
+    <EndMilliseconds>44243</EndMilliseconds>
+    <Text>[g@Golden Horn raised his eyebrows.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>44244</StartMilliseconds>
+    <EndMilliseconds>47659</EndMilliseconds>
+    <Text>"My gourd can do that too.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>47660</StartMilliseconds>
+    <EndMilliseconds>51277</EndMilliseconds>
+    <Text>[g@Let's see whose gourd works better.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>51278</StartMilliseconds>
+    <EndMilliseconds>54852</EndMilliseconds>
+    <Text>I'll go first.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>54853</StartMilliseconds>
+    <EndMilliseconds>59044</EndMilliseconds>
+    <Text>Um, I forgot your name."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>59045</StartMilliseconds>
+    <EndMilliseconds>62250</EndMilliseconds>
+    <Text>"Kong Sunwu," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>62251</StartMilliseconds>
+    <EndMilliseconds>66056</EndMilliseconds>
+    <Text>[g@"Oh yes. Now I remember."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>66057</StartMilliseconds>
+    <EndMilliseconds>71687</EndMilliseconds>
+    <Text>Golden Horn held up his gourd. "Kong Sunwu!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>71688</StartMilliseconds>
+    <EndMilliseconds>74569</EndMilliseconds>
+    <Text>Nothing happened.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>74570</StartMilliseconds>
+    <EndMilliseconds>77803</EndMilliseconds>
+    <Text>[g@Golden Horn looked at his gourd.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>77804</StartMilliseconds>
+    <EndMilliseconds>81800</EndMilliseconds>
+    <Text>"Why isn't my gourd working?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>81801</StartMilliseconds>
+    <EndMilliseconds>88458</EndMilliseconds>
+    <Text>"Let me try mine," said Wukong. "Golden Horn!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>88459</StartMilliseconds>
+    <EndMilliseconds>93023</EndMilliseconds>
+    <Text>[i@Shloomp!@i] Instantly the demon was sucked into the gourd.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>93024</StartMilliseconds>
+    <EndMilliseconds>95267</EndMilliseconds>
+    <Text>[g@"Ha-ha!" Wukong laughed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>95268</StartMilliseconds>
+    <EndMilliseconds>99128</EndMilliseconds>
+    <Text>"Golden Horn will soon be turned into liquid!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>99129</StartMilliseconds>
+    <EndMilliseconds>103234</EndMilliseconds>
+    <Text>He closed the gourd and ran into the cave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>103235</StartMilliseconds>
+    <EndMilliseconds>108136</EndMilliseconds>
+    <Text>[g@Several demons were inside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>108137</StartMilliseconds>
+    <EndMilliseconds>111077</EndMilliseconds>
+    <Text>The monkey waved his iron bar at them.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>111078</StartMilliseconds>
+    <EndMilliseconds>115376</EndMilliseconds>
+    <Text>"Get out of here before I clobber you all!" he shouted.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>115377</StartMilliseconds>
+    <EndMilliseconds>122197</EndMilliseconds>
+    <Text>"Ahh!" The demons screamed and ran out of the cave.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>122198</StartMilliseconds>
+    <EndMilliseconds>128758</EndMilliseconds>
+    <Text>After a quick search of the cave, Wukong found his companions.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>128759</StartMilliseconds>
+    <EndMilliseconds>132795</EndMilliseconds>
+    <Text>"We thought you were trapped under mountains," said the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>132796</StartMilliseconds>
+    <EndMilliseconds>137225</EndMilliseconds>
+    <Text>[g@"I was freed a couple of hours ago," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>137226</StartMilliseconds>
+    <EndMilliseconds>139504</EndMilliseconds>
+    <Text>He untied the monk.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>139505</StartMilliseconds>
+    <EndMilliseconds>142891</EndMilliseconds>
+    <Text>"A couple of hours ago?" asked Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>142892</StartMilliseconds>
+    <EndMilliseconds>145690</EndMilliseconds>
+    <Text>[g@"What were you doing for all that time?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>145691</StartMilliseconds>
+    <EndMilliseconds>149620</EndMilliseconds>
+    <Text>We were scared to death in here!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>149621</StartMilliseconds>
+    <EndMilliseconds>151099</EndMilliseconds>
+    <Text>Wukong shrugged.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>151100</StartMilliseconds>
+    <EndMilliseconds>153125</EndMilliseconds>
+    <Text>[g@"I couldn't free you right away.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>153126</StartMilliseconds>
+    <EndMilliseconds>157747</EndMilliseconds>
+    <Text>I had to get rid of the demon first."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>157748</StartMilliseconds>
+    <EndMilliseconds>163181</EndMilliseconds>
+    <Text>[g@The monkey untied Bajie and Wujing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>163182</StartMilliseconds>
+    <EndMilliseconds>166600</EndMilliseconds>
+    <Text>They all went outside.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>166601</StartMilliseconds>
+    <EndMilliseconds>170209</EndMilliseconds>
+    <Text>"It's still early in the afternoon," said Wujing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>170210</StartMilliseconds>
+    <EndMilliseconds>173059</EndMilliseconds>
+    <Text>"Let's start walking now."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>173060</StartMilliseconds>
+    <EndMilliseconds>175395</EndMilliseconds>
+    <Text>"Yes," said the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>175396</StartMilliseconds>
+    <EndMilliseconds>181690</EndMilliseconds>
+    <Text>"I want to be as far from this mountain as I can by nighttime."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>181691</StartMilliseconds>
+    <EndMilliseconds>185818</EndMilliseconds>
+    <Text>The travelers hurried west along the road.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>185819</StartMilliseconds>
+    <EndMilliseconds>191077</EndMilliseconds>
+    <Text>They hadn't gone far when an old man approached them.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>191078</StartMilliseconds>
+    <EndMilliseconds>195055</EndMilliseconds>
+    <Text>"Give me back my gourd!" said the old man.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>195056</StartMilliseconds>
+    <EndMilliseconds>197560</EndMilliseconds>
+    <Text>[g@Wukong stepped forward.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>197561</StartMilliseconds>
+    <EndMilliseconds>200455</EndMilliseconds>
+    <Text>"What gourd? I don't have a gourd."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>200456</StartMilliseconds>
+    <EndMilliseconds>204413</EndMilliseconds>
+    <Text>"I know you have my gourd," said the man.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>204414</StartMilliseconds>
+    <EndMilliseconds>208166</EndMilliseconds>
+    <Text>"I don't know what you're talking about," said the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>208167</StartMilliseconds>
+    <EndMilliseconds>210783</EndMilliseconds>
+    <Text>There was a flash of light.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>210784</StartMilliseconds>
+    <EndMilliseconds>214622</EndMilliseconds>
+    <Text>[g@Then Laozi the sage stood before the travelers.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>214623</StartMilliseconds>
+    <EndMilliseconds>216578</EndMilliseconds>
+    <Text>He looked angry.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>216579</StartMilliseconds>
+    <EndMilliseconds>220473</EndMilliseconds>
+    <Text>"Give me my gourd, Wukong!" boomed the sage.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>220474</StartMilliseconds>
+    <EndMilliseconds>224073</EndMilliseconds>
+    <Text>[g@Wukong laughed. "Relax, Laozi.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>224074</StartMilliseconds>
+    <EndMilliseconds>226422</EndMilliseconds>
+    <Text>I was just joking around.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>226423</StartMilliseconds>
+    <EndMilliseconds>228015</EndMilliseconds>
+    <Text>[g@I knew it was you.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>228016</StartMilliseconds>
+    <EndMilliseconds>229955</EndMilliseconds>
+    <Text>Here's your gourd."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>229956</StartMilliseconds>
+    <EndMilliseconds>236033</EndMilliseconds>
+    <Text>Wukong took the gourd out of his robe and handed it to the sage.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>236034</StartMilliseconds>
+    <EndMilliseconds>240253</EndMilliseconds>
+    <Text>"Why did that demon have your gourd?" asked the monkey.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>240254</StartMilliseconds>
+    <EndMilliseconds>243391</EndMilliseconds>
+    <Text>"Golden Horn works for me," said Laozi.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>243392</StartMilliseconds>
+    <EndMilliseconds>245959</EndMilliseconds>
+    <Text>"I sent him here to cause trouble for you.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>245960</StartMilliseconds>
+    <EndMilliseconds>251242</EndMilliseconds>
+    <Text>Buddha wanted to make sure you are all serious [n@about reaching the Western Paradise.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>251243</StartMilliseconds>
+    <EndMilliseconds>253661</EndMilliseconds>
+    <Text>You fought well, Wukong."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>253662</StartMilliseconds>
+    <EndMilliseconds>256207</EndMilliseconds>
+    <Text>[g@Wukong glanced at the gourd.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>256208</StartMilliseconds>
+    <EndMilliseconds>259512</EndMilliseconds>
+    <Text>"Golden Horn is probably all liquid by now."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>259513</StartMilliseconds>
+    <EndMilliseconds>261420</EndMilliseconds>
+    <Text>[g@"No," said Laozi.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>261421</StartMilliseconds>
+    <EndMilliseconds>264734</EndMilliseconds>
+    <Text>"The gourd won't harm him. Good-bye."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>264735</StartMilliseconds>
+    <EndMilliseconds>271114</EndMilliseconds>
+    <Text>The sage vanished.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>271115</StartMilliseconds>
+    <EndMilliseconds>275076</EndMilliseconds>
+    <Text>[g@The group continued west.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>275077</StartMilliseconds>
+    <EndMilliseconds>278546</EndMilliseconds>
+    <Text>As night fell they arrived at a monastery.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>278547</StartMilliseconds>
+    <EndMilliseconds>287217</EndMilliseconds>
+    <Text>After a small dinner with the monastery's monks, everyone went to bed.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>287218</StartMilliseconds>
+    <EndMilliseconds>294332</EndMilliseconds>
+    <Text>The Tang Monk was almost asleep when [n@he heard a moaning sound from outside.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>294333</StartMilliseconds>
+    <EndMilliseconds>297567</EndMilliseconds>
+    <Text>[g@The monk sat up, trembling with fear.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>297568</StartMilliseconds>
+    <EndMilliseconds>300658</EndMilliseconds>
+    <Text>Was a ghost approaching?@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>300659</StartMilliseconds>
+    <EndMilliseconds>307313</EndMilliseconds>
+    <Text>[g@Slowly his door creaked open.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>307314</StartMilliseconds>
+    <EndMilliseconds>310683</EndMilliseconds>
+    <Text>A man stood in the doorway, dripping wet.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>310684</StartMilliseconds>
+    <EndMilliseconds>315863</EndMilliseconds>
+    <Text>[g@He looked at the monk and held out his hands.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>315864</StartMilliseconds>
+    <EndMilliseconds>322449</EndMilliseconds>
+    <Text>"Please help me!"@g]</Text>
+  </Paragraph>
+</Subtitle>

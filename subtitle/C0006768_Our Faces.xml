@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>2698</EndMilliseconds>
+    <Text>"Let's draw our faces," Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>2699</StartMilliseconds>
+    <EndMilliseconds>3190</EndMilliseconds>
+    <Text>"[@Let's@] draw our faces," Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3191</StartMilliseconds>
+    <EndMilliseconds>3666</EndMilliseconds>
+    <Text>"Let's [@draw@] our faces," Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>3667</StartMilliseconds>
+    <EndMilliseconds>4107</EndMilliseconds>
+    <Text>"Let's draw [@our@] faces," Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>4108</StartMilliseconds>
+    <EndMilliseconds>5180</EndMilliseconds>
+    <Text>"Let's draw our [@faces@]," Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>5181</StartMilliseconds>
+    <EndMilliseconds>5375</EndMilliseconds>
+    <Text>"Let's draw our faces," Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>5376</StartMilliseconds>
+    <EndMilliseconds>6150</EndMilliseconds>
+    <Text>"Let's draw our faces," [@Ms. White@] said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>6151</StartMilliseconds>
+    <EndMilliseconds>6976</EndMilliseconds>
+    <Text>"Let's draw our faces," Ms. White [@said@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>6977</StartMilliseconds>
+    <EndMilliseconds>7212</EndMilliseconds>
+    <Text>"Let's draw our faces," Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>7213</StartMilliseconds>
+    <EndMilliseconds>7352</EndMilliseconds>
+    <Text>[e@"Let's draw our faces," Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>7353</StartMilliseconds>
+    <EndMilliseconds>7712</EndMilliseconds>
+    <Text>"Okay!" said the class.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>7713</StartMilliseconds>
+    <EndMilliseconds>8644</EndMilliseconds>
+    <Text>"[@Okay@]!" said the class.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>8645</StartMilliseconds>
+    <EndMilliseconds>9175</EndMilliseconds>
+    <Text>"Okay!" said the class.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>9176</StartMilliseconds>
+    <EndMilliseconds>9663</EndMilliseconds>
+    <Text>"Okay!" [@said@] the class.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>9664</StartMilliseconds>
+    <EndMilliseconds>9859</EndMilliseconds>
+    <Text>"Okay!" said [@the@] class.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>9860</StartMilliseconds>
+    <EndMilliseconds>10583</EndMilliseconds>
+    <Text>"Okay!" said the [@class@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>10584</StartMilliseconds>
+    <EndMilliseconds>10660</EndMilliseconds>
+    <Text>"Okay!" said the class.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>10661</StartMilliseconds>
+    <EndMilliseconds>10736</EndMilliseconds>
+    <Text>[e@"Okay!" said the class.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>10737</StartMilliseconds>
+    <EndMilliseconds>11514</EndMilliseconds>
+    <Text>"I have a round face," Tom said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>11515</StartMilliseconds>
+    <EndMilliseconds>11952</EndMilliseconds>
+    <Text>"[@I@] have a round face," Tom said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>11953</StartMilliseconds>
+    <EndMilliseconds>12341</EndMilliseconds>
+    <Text>"I [@have@] a round face," Tom said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>12342</StartMilliseconds>
+    <EndMilliseconds>12585</EndMilliseconds>
+    <Text>"I have [@a@] round face," Tom said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>12586</StartMilliseconds>
+    <EndMilliseconds>13174</EndMilliseconds>
+    <Text>"I have a [@round@] face," Tom said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>13175</StartMilliseconds>
+    <EndMilliseconds>13919</EndMilliseconds>
+    <Text>"I have a round [@face@]," Tom said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>13920</StartMilliseconds>
+    <EndMilliseconds>14473</EndMilliseconds>
+    <Text>"I have a round face," Tom said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>14474</StartMilliseconds>
+    <EndMilliseconds>14876</EndMilliseconds>
+    <Text>"I have a round face," [@Tom@] said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>14877</StartMilliseconds>
+    <EndMilliseconds>15556</EndMilliseconds>
+    <Text>"I have a round face," Tom [@said@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>15557</StartMilliseconds>
+    <EndMilliseconds>19439</EndMilliseconds>
+    <Text>"I have a round face," Tom said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>19440</StartMilliseconds>
+    <EndMilliseconds>19617</EndMilliseconds>
+    <Text>[e@"I have a round face," Tom said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>19618</StartMilliseconds>
+    <EndMilliseconds>20258</EndMilliseconds>
+    <Text>"I have brown eyes," Gina said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>20259</StartMilliseconds>
+    <EndMilliseconds>20624</EndMilliseconds>
+    <Text>"[@I@] have brown eyes," Gina said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>20625</StartMilliseconds>
+    <EndMilliseconds>21044</EndMilliseconds>
+    <Text>"I [@have@] brown eyes," Gina said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>21045</StartMilliseconds>
+    <EndMilliseconds>21540</EndMilliseconds>
+    <Text>"I have [@brown@] eyes," Gina said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>21541</StartMilliseconds>
+    <EndMilliseconds>22438</EndMilliseconds>
+    <Text>"I have brown [@eyes@]," Gina said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>22439</StartMilliseconds>
+    <EndMilliseconds>23031</EndMilliseconds>
+    <Text>"I have brown eyes," Gina said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>23032</StartMilliseconds>
+    <EndMilliseconds>23649</EndMilliseconds>
+    <Text>"I have brown eyes," [@Gina@] said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>23650</StartMilliseconds>
+    <EndMilliseconds>24321</EndMilliseconds>
+    <Text>"I have brown eyes," Gina [@said@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>24322</StartMilliseconds>
+    <EndMilliseconds>29339</EndMilliseconds>
+    <Text>"I have brown eyes," Gina said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>29340</StartMilliseconds>
+    <EndMilliseconds>29548</EndMilliseconds>
+    <Text>[e@"I have brown eyes," Gina said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>29549</StartMilliseconds>
+    <EndMilliseconds>30302</EndMilliseconds>
+    <Text>"I have a little nose," Bob said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>30303</StartMilliseconds>
+    <EndMilliseconds>30710</EndMilliseconds>
+    <Text>"[@I@] have a little nose," Bob said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>30711</StartMilliseconds>
+    <EndMilliseconds>31322</EndMilliseconds>
+    <Text>"I [@have@] a little nose," Bob said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>31323</StartMilliseconds>
+    <EndMilliseconds>31664</EndMilliseconds>
+    <Text>"I have [@a@] little nose," Bob said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>31665</StartMilliseconds>
+    <EndMilliseconds>32171</EndMilliseconds>
+    <Text>"I have a [@little@] nose," Bob said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>32172</StartMilliseconds>
+    <EndMilliseconds>33077</EndMilliseconds>
+    <Text>"I have a little [@nose@]," Bob said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>33078</StartMilliseconds>
+    <EndMilliseconds>33521</EndMilliseconds>
+    <Text>"I have a little nose," Bob said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>33522</StartMilliseconds>
+    <EndMilliseconds>34051</EndMilliseconds>
+    <Text>"I have a little nose," [@Bob@] said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>34052</StartMilliseconds>
+    <EndMilliseconds>34877</EndMilliseconds>
+    <Text>"I have a little nose," Bob [@said@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>34878</StartMilliseconds>
+    <EndMilliseconds>39369</EndMilliseconds>
+    <Text>"I have a little nose," Bob said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>39370</StartMilliseconds>
+    <EndMilliseconds>39617</EndMilliseconds>
+    <Text>[e@"I have a little nose," Bob said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>39618</StartMilliseconds>
+    <EndMilliseconds>40167</EndMilliseconds>
+    <Text>"I have a big mouth," Jenny said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>40168</StartMilliseconds>
+    <EndMilliseconds>40510</EndMilliseconds>
+    <Text>"[@I@] have a big mouth," Jenny said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>40511</StartMilliseconds>
+    <EndMilliseconds>40750</EndMilliseconds>
+    <Text>"I [@have@] a big mouth," Jenny said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>40751</StartMilliseconds>
+    <EndMilliseconds>40967</EndMilliseconds>
+    <Text>"I have [@a@] big mouth," Jenny said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>40968</StartMilliseconds>
+    <EndMilliseconds>41311</EndMilliseconds>
+    <Text>"I have a [@big@] mouth," Jenny said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>41312</StartMilliseconds>
+    <EndMilliseconds>42204</EndMilliseconds>
+    <Text>"I have a big [@mouth@]," Jenny said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>42205</StartMilliseconds>
+    <EndMilliseconds>42836</EndMilliseconds>
+    <Text>"I have a big mouth," Jenny said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>42837</StartMilliseconds>
+    <EndMilliseconds>43390</EndMilliseconds>
+    <Text>"I have a big mouth," [@Jenny@] said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>43391</StartMilliseconds>
+    <EndMilliseconds>44016</EndMilliseconds>
+    <Text>"I have a big mouth," Jenny [@said@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>44017</StartMilliseconds>
+    <EndMilliseconds>47496</EndMilliseconds>
+    <Text>"I have a big mouth," Jenny said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>47497</StartMilliseconds>
+    <EndMilliseconds>47700</EndMilliseconds>
+    <Text>[e@"I have a big mouth," Jenny said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>47701</StartMilliseconds>
+    <EndMilliseconds>48258</EndMilliseconds>
+    <Text>"I have two ears," Roy said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>48259</StartMilliseconds>
+    <EndMilliseconds>48711</EndMilliseconds>
+    <Text>"[@I@] have two ears," Roy said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>48712</StartMilliseconds>
+    <EndMilliseconds>49174</EndMilliseconds>
+    <Text>"I [@have@] two ears," Roy said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>49175</StartMilliseconds>
+    <EndMilliseconds>49800</EndMilliseconds>
+    <Text>"I have [@two@] ears," Roy said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>49801</StartMilliseconds>
+    <EndMilliseconds>50599</EndMilliseconds>
+    <Text>"I have two [@ears@]," Roy said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>50600</StartMilliseconds>
+    <EndMilliseconds>51167</EndMilliseconds>
+    <Text>"I have two ears," Roy said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>51168</StartMilliseconds>
+    <EndMilliseconds>51767</EndMilliseconds>
+    <Text>"I have two ears," [@Roy@] said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>51768</StartMilliseconds>
+    <EndMilliseconds>52501</EndMilliseconds>
+    <Text>"I have two ears," Roy [@said@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>52502</StartMilliseconds>
+    <EndMilliseconds>57334</EndMilliseconds>
+    <Text>"I have two ears," Roy said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>57335</StartMilliseconds>
+    <EndMilliseconds>57542</EndMilliseconds>
+    <Text>[e@"I have two ears," Roy said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>57543</StartMilliseconds>
+    <EndMilliseconds>58131</EndMilliseconds>
+    <Text>"I have long hair," Lisa said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>58132</StartMilliseconds>
+    <EndMilliseconds>58513</EndMilliseconds>
+    <Text>"[@I@] have long hair," Lisa said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>58514</StartMilliseconds>
+    <EndMilliseconds>58944</EndMilliseconds>
+    <Text>"I [@have@] long hair," Lisa said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>58945</StartMilliseconds>
+    <EndMilliseconds>59587</EndMilliseconds>
+    <Text>"I have [@long@] hair," Lisa said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>59588</StartMilliseconds>
+    <EndMilliseconds>60455</EndMilliseconds>
+    <Text>"I have long [@hair@]," Lisa said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>60456</StartMilliseconds>
+    <EndMilliseconds>60953</EndMilliseconds>
+    <Text>"I have long hair," Lisa said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>60954</StartMilliseconds>
+    <EndMilliseconds>61533</EndMilliseconds>
+    <Text>"I have long hair," [@Lisa@] said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>61534</StartMilliseconds>
+    <EndMilliseconds>62220</EndMilliseconds>
+    <Text>"I have long hair," Lisa [@said@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>80</Number>
+    <StartMilliseconds>62221</StartMilliseconds>
+    <EndMilliseconds>67695</EndMilliseconds>
+    <Text>"I have long hair," Lisa said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>81</Number>
+    <StartMilliseconds>67696</StartMilliseconds>
+    <EndMilliseconds>67949</EndMilliseconds>
+    <Text>[e@"I have long hair," Lisa said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>82</Number>
+    <StartMilliseconds>67950</StartMilliseconds>
+    <EndMilliseconds>68967</EndMilliseconds>
+    <Text>"Great job, class!" Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>83</Number>
+    <StartMilliseconds>68968</StartMilliseconds>
+    <EndMilliseconds>69698</EndMilliseconds>
+    <Text>"[@Great@] job, class!" Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>84</Number>
+    <StartMilliseconds>69699</StartMilliseconds>
+    <EndMilliseconds>70266</EndMilliseconds>
+    <Text>"Great [@job@], class!" Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>85</Number>
+    <StartMilliseconds>70267</StartMilliseconds>
+    <EndMilliseconds>71060</EndMilliseconds>
+    <Text>"Great job, [@class@]!" Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>86</Number>
+    <StartMilliseconds>71061</StartMilliseconds>
+    <EndMilliseconds>71462</EndMilliseconds>
+    <Text>"Great job, class!" Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>87</Number>
+    <StartMilliseconds>71463</StartMilliseconds>
+    <EndMilliseconds>72236</EndMilliseconds>
+    <Text>"Great job, class!" [@Ms. White@] said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>88</Number>
+    <StartMilliseconds>72237</StartMilliseconds>
+    <EndMilliseconds>72923</EndMilliseconds>
+    <Text>"Great job, class!" Ms. White [@said@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>89</Number>
+    <StartMilliseconds>72924</StartMilliseconds>
+    <EndMilliseconds>73517</EndMilliseconds>
+    <Text>"Great job, class!" Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>90</Number>
+    <StartMilliseconds>73518</StartMilliseconds>
+    <EndMilliseconds>73759</EndMilliseconds>
+    <Text>[e@"Great job, class!" Ms. White said.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>91</Number>
+    <StartMilliseconds>73760</StartMilliseconds>
+    <EndMilliseconds>74653</EndMilliseconds>
+    <Text>"What nice faces!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>92</Number>
+    <StartMilliseconds>74654</StartMilliseconds>
+    <EndMilliseconds>75157</EndMilliseconds>
+    <Text>"[@What@] nice faces!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>93</Number>
+    <StartMilliseconds>75158</StartMilliseconds>
+    <EndMilliseconds>75998</EndMilliseconds>
+    <Text>"What [@nice@] faces!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>94</Number>
+    <StartMilliseconds>75999</StartMilliseconds>
+    <EndMilliseconds>77209</EndMilliseconds>
+    <Text>"What nice [@faces@]!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>95</Number>
+    <StartMilliseconds>77210</StartMilliseconds>
+    <EndMilliseconds>82910</EndMilliseconds>
+    <Text>"What nice faces!"</Text>
+  </Paragraph>
+</Subtitle>

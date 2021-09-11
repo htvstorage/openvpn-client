@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>2826</EndMilliseconds>
+    <Text>Who is playing in the bushes?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>2827</StartMilliseconds>
+    <EndMilliseconds>3202</EndMilliseconds>
+    <Text>[@Who@] is playing in the bushes?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>3203</StartMilliseconds>
+    <EndMilliseconds>3482</EndMilliseconds>
+    <Text>Who [@is@] playing in the bushes?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>3483</StartMilliseconds>
+    <EndMilliseconds>4024</EndMilliseconds>
+    <Text>Who is [@playing@] in the bushes?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>4025</StartMilliseconds>
+    <EndMilliseconds>4204</EndMilliseconds>
+    <Text>Who is playing [@in@] the bushes?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>4205</StartMilliseconds>
+    <EndMilliseconds>4383</EndMilliseconds>
+    <Text>Who is playing in [@the@] bushes?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>4384</StartMilliseconds>
+    <EndMilliseconds>5417</EndMilliseconds>
+    <Text>Who is playing in the [@bushes@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>5418</StartMilliseconds>
+    <EndMilliseconds>6034</EndMilliseconds>
+    <Text>Who is playing in the bushes?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>6035</StartMilliseconds>
+    <EndMilliseconds>6272</EndMilliseconds>
+    <Text>[e@Who is playing in the bushes?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>6273</StartMilliseconds>
+    <EndMilliseconds>7908</EndMilliseconds>
+    <Text>A bird!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>7909</StartMilliseconds>
+    <EndMilliseconds>8485</EndMilliseconds>
+    <Text>[s@A bird!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>8486</StartMilliseconds>
+    <EndMilliseconds>8822</EndMilliseconds>
+    <Text>[@A@] bird!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>8823</StartMilliseconds>
+    <EndMilliseconds>9832</EndMilliseconds>
+    <Text>A [@bird@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>9833</StartMilliseconds>
+    <EndMilliseconds>10379</EndMilliseconds>
+    <Text>A bird!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>10380</StartMilliseconds>
+    <EndMilliseconds>10554</EndMilliseconds>
+    <Text>[e@A bird!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>10555</StartMilliseconds>
+    <EndMilliseconds>11745</EndMilliseconds>
+    <Text>Who is hiding in the tree?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>11746</StartMilliseconds>
+    <EndMilliseconds>12013</EndMilliseconds>
+    <Text>[s@Who is hiding in the tree?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>12014</StartMilliseconds>
+    <EndMilliseconds>12399</EndMilliseconds>
+    <Text>[@Who@] is hiding in the tree?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>12400</StartMilliseconds>
+    <EndMilliseconds>12679</EndMilliseconds>
+    <Text>Who [@is@] hiding in the tree?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>12680</StartMilliseconds>
+    <EndMilliseconds>13182</EndMilliseconds>
+    <Text>Who is [@hiding@] in the tree?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>13183</StartMilliseconds>
+    <EndMilliseconds>13371</EndMilliseconds>
+    <Text>Who is hiding [@in@] the tree?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>13372</StartMilliseconds>
+    <EndMilliseconds>13577</EndMilliseconds>
+    <Text>Who is hiding in [@the@] tree?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>13578</StartMilliseconds>
+    <EndMilliseconds>14296</EndMilliseconds>
+    <Text>Who is hiding in the [@tree@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>14297</StartMilliseconds>
+    <EndMilliseconds>14659</EndMilliseconds>
+    <Text>Who is hiding in the tree?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>14660</StartMilliseconds>
+    <EndMilliseconds>14811</EndMilliseconds>
+    <Text>[e@Who is hiding in the tree?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>14812</StartMilliseconds>
+    <EndMilliseconds>16374</EndMilliseconds>
+    <Text>A squirrel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>16375</StartMilliseconds>
+    <EndMilliseconds>16887</EndMilliseconds>
+    <Text>[s@A squirrel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>16888</StartMilliseconds>
+    <EndMilliseconds>17160</EndMilliseconds>
+    <Text>[@A@] squirrel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>17161</StartMilliseconds>
+    <EndMilliseconds>18319</EndMilliseconds>
+    <Text>A [@squirrel@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>18320</StartMilliseconds>
+    <EndMilliseconds>22012</EndMilliseconds>
+    <Text>A squirrel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>22013</StartMilliseconds>
+    <EndMilliseconds>22209</EndMilliseconds>
+    <Text>[e@A squirrel!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>22210</StartMilliseconds>
+    <EndMilliseconds>23099</EndMilliseconds>
+    <Text>Who is sleeping in the rocks?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>23100</StartMilliseconds>
+    <EndMilliseconds>23447</EndMilliseconds>
+    <Text>[s@Who is sleeping in the rocks?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>23448</StartMilliseconds>
+    <EndMilliseconds>23777</EndMilliseconds>
+    <Text>[@Who@] is sleeping in the rocks?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>23778</StartMilliseconds>
+    <EndMilliseconds>23952</EndMilliseconds>
+    <Text>Who [@is@] sleeping in the rocks?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>23953</StartMilliseconds>
+    <EndMilliseconds>24644</EndMilliseconds>
+    <Text>Who is [@sleeping@] in the rocks?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>24645</StartMilliseconds>
+    <EndMilliseconds>24842</EndMilliseconds>
+    <Text>Who is sleeping [@in@] the rocks?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>24843</StartMilliseconds>
+    <EndMilliseconds>25065</EndMilliseconds>
+    <Text>Who is sleeping in [@the@] rocks?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>25066</StartMilliseconds>
+    <EndMilliseconds>26054</EndMilliseconds>
+    <Text>Who is sleeping in the [@rocks@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>26055</StartMilliseconds>
+    <EndMilliseconds>27607</EndMilliseconds>
+    <Text>Who is sleeping in the rocks?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>27608</StartMilliseconds>
+    <EndMilliseconds>27807</EndMilliseconds>
+    <Text>[e@Who is sleeping in the rocks?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>27808</StartMilliseconds>
+    <EndMilliseconds>28640</EndMilliseconds>
+    <Text>A snake!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>28641</StartMilliseconds>
+    <EndMilliseconds>29046</EndMilliseconds>
+    <Text>[s@A snake!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>29047</StartMilliseconds>
+    <EndMilliseconds>29417</EndMilliseconds>
+    <Text>[@A@] snake!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>29418</StartMilliseconds>
+    <EndMilliseconds>30394</EndMilliseconds>
+    <Text>A [@snake@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>30395</StartMilliseconds>
+    <EndMilliseconds>33446</EndMilliseconds>
+    <Text>A snake!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>33447</StartMilliseconds>
+    <EndMilliseconds>33649</EndMilliseconds>
+    <Text>[e@A snake!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>33650</StartMilliseconds>
+    <EndMilliseconds>34536</EndMilliseconds>
+    <Text>Who is swimming in the river?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>34537</StartMilliseconds>
+    <EndMilliseconds>34932</EndMilliseconds>
+    <Text>[s@Who is swimming in the river?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>34933</StartMilliseconds>
+    <EndMilliseconds>35234</EndMilliseconds>
+    <Text>[@Who@] is swimming in the river?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>35235</StartMilliseconds>
+    <EndMilliseconds>35441</EndMilliseconds>
+    <Text>Who [@is@] swimming in the river?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>35442</StartMilliseconds>
+    <EndMilliseconds>36076</EndMilliseconds>
+    <Text>Who is [@swimming@] in the river?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>36077</StartMilliseconds>
+    <EndMilliseconds>36225</EndMilliseconds>
+    <Text>Who is swimming [@in@] the river?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>36226</StartMilliseconds>
+    <EndMilliseconds>36379</EndMilliseconds>
+    <Text>Who is swimming in [@the@] river?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>36380</StartMilliseconds>
+    <EndMilliseconds>37123</EndMilliseconds>
+    <Text>Who is swimming in the [@river@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>37124</StartMilliseconds>
+    <EndMilliseconds>37391</EndMilliseconds>
+    <Text>Who is swimming in the river?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>37392</StartMilliseconds>
+    <EndMilliseconds>37476</EndMilliseconds>
+    <Text>[e@Who is swimming in the river?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>37477</StartMilliseconds>
+    <EndMilliseconds>38369</EndMilliseconds>
+    <Text>A duck!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>38370</StartMilliseconds>
+    <EndMilliseconds>38931</EndMilliseconds>
+    <Text>[s@A duck!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>38932</StartMilliseconds>
+    <EndMilliseconds>39407</EndMilliseconds>
+    <Text>[@A@] duck!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>39408</StartMilliseconds>
+    <EndMilliseconds>40099</EndMilliseconds>
+    <Text>A [@duck@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>40100</StartMilliseconds>
+    <EndMilliseconds>42833</EndMilliseconds>
+    <Text>A duck!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>42834</StartMilliseconds>
+    <EndMilliseconds>43078</EndMilliseconds>
+    <Text>[e@A duck!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>43079</StartMilliseconds>
+    <EndMilliseconds>49955</EndMilliseconds>
+    <Text>Who is in the tent?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>49956</StartMilliseconds>
+    <EndMilliseconds>50211</EndMilliseconds>
+    <Text>[s@Who is in the tent?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>50212</StartMilliseconds>
+    <EndMilliseconds>50566</EndMilliseconds>
+    <Text>[@Who@] is in the tent?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>50567</StartMilliseconds>
+    <EndMilliseconds>50768</EndMilliseconds>
+    <Text>Who [@is@] in the tent?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>50769</StartMilliseconds>
+    <EndMilliseconds>50952</EndMilliseconds>
+    <Text>Who is [@in@] the tent?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>50953</StartMilliseconds>
+    <EndMilliseconds>51161</EndMilliseconds>
+    <Text>Who is in [@the@] tent?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>51162</StartMilliseconds>
+    <EndMilliseconds>51847</EndMilliseconds>
+    <Text>Who is in the [@tent@]?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>51848</StartMilliseconds>
+    <EndMilliseconds>52359</EndMilliseconds>
+    <Text>Who is in the tent?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>52360</StartMilliseconds>
+    <EndMilliseconds>52537</EndMilliseconds>
+    <Text>[e@Who is in the tent?</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>52538</StartMilliseconds>
+    <EndMilliseconds>53764</EndMilliseconds>
+    <Text>Me!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>53765</StartMilliseconds>
+    <EndMilliseconds>54719</EndMilliseconds>
+    <Text>[@Me@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>54720</StartMilliseconds>
+    <EndMilliseconds>59693</EndMilliseconds>
+    <Text>Me!</Text>
+  </Paragraph>
+</Subtitle>

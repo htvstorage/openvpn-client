@@ -1,0 +1,248 @@
+1
+00:00:01,958 --> 00:00:10,938
+The kitten is cute.
+
+2
+00:00:10,939 --> 00:00:11,189
+<font color="#ffff54">The</font> kitten is cute.
+
+3
+00:00:11,190 --> 00:00:11,793
+The <font color="#ffff54">kitten</font> is cute.
+
+4
+00:00:11,794 --> 00:00:12,111
+The kitten <font color="#ffff54">is</font> cute.
+
+5
+00:00:12,112 --> 00:00:13,111
+The kitten is <font color="#ffff54">cute</font>.
+
+6
+00:00:13,112 --> 00:00:13,637
+The kitten is cute.
+
+7
+00:00:13,638 --> 00:00:14,095
+<font color="#ffff54">The kitten is cute.</font>
+
+8
+00:00:14,096 --> 00:00:27,442
+The puppy is cute.
+
+9
+00:00:27,443 --> 00:00:28,172
+<font color="#ffff54">The puppy is cute.</font>
+
+10
+00:00:28,173 --> 00:00:28,423
+<font color="#ffff54">The</font> puppy is cute.
+
+11
+00:00:28,424 --> 00:00:29,051
+The <font color="#ffff54">puppy</font> is cute.
+
+12
+00:00:29,052 --> 00:00:29,469
+The puppy <font color="#ffff54">is</font> cute.
+
+13
+00:00:29,470 --> 00:00:30,449
+The puppy is <font color="#ffff54">cute</font>.
+
+14
+00:00:30,450 --> 00:00:31,025
+The puppy is cute.
+
+15
+00:00:31,026 --> 00:00:31,500
+<font color="#ffff54">The puppy is cute.</font>
+
+16
+00:00:31,501 --> 00:00:43,765
+The duckling is cute.
+
+17
+00:00:43,766 --> 00:00:44,264
+<font color="#ffff54">The duckling is cute.</font>
+
+18
+00:00:44,265 --> 00:00:44,539
+<font color="#ffff54">The</font> duckling is cute.
+
+19
+00:00:44,540 --> 00:00:45,126
+The <font color="#ffff54">duckling</font> is cute.
+
+20
+00:00:45,127 --> 00:00:45,519
+The duckling <font color="#ffff54">is</font> cute.
+
+21
+00:00:45,520 --> 00:00:46,446
+The duckling is <font color="#ffff54">cute</font>.
+
+22
+00:00:46,447 --> 00:00:47,357
+The duckling is cute.
+
+23
+00:00:47,358 --> 00:00:48,294
+<font color="#ffff54">The duckling is cute.</font>
+
+24
+00:00:48,295 --> 00:00:59,681
+The chick is cute.
+
+25
+00:00:59,682 --> 00:01:00,155
+<font color="#ffff54">The chick is cute.</font>
+
+26
+00:01:00,156 --> 00:01:00,437
+<font color="#ffff54">The</font> chick is cute.
+
+27
+00:01:00,438 --> 00:01:00,942
+The <font color="#ffff54">chick</font> is cute.
+
+28
+00:01:00,943 --> 00:01:01,335
+The chick <font color="#ffff54">is</font> cute.
+
+29
+00:01:01,336 --> 00:01:02,286
+The chick is <font color="#ffff54">cute</font>.
+
+30
+00:01:02,287 --> 00:01:03,078
+The chick is cute.
+
+31
+00:01:03,079 --> 00:01:03,569
+<font color="#ffff54">The chick is cute.</font>
+
+32
+00:01:03,570 --> 00:01:11,448
+The piglet is cute.
+
+33
+00:01:11,449 --> 00:01:11,905
+<font color="#ffff54">The piglet is cute.</font>
+
+34
+00:01:11,906 --> 00:01:12,208
+<font color="#ffff54">The</font> piglet is cute.
+
+35
+00:01:12,209 --> 00:01:12,886
+The <font color="#ffff54">piglet</font> is cute.
+
+36
+00:01:12,887 --> 00:01:13,207
+The piglet <font color="#ffff54">is</font> cute.
+
+37
+00:01:13,208 --> 00:01:14,127
+The piglet is <font color="#ffff54">cute</font>.
+
+38
+00:01:14,128 --> 00:01:15,381
+The piglet is cute.
+
+39
+00:01:15,382 --> 00:01:16,587
+<font color="#ffff54">The piglet is cute.</font>
+
+40
+00:01:16,588 --> 00:01:27,458
+The lamb is cute.
+
+41
+00:01:27,459 --> 00:01:27,980
+<font color="#ffff54">The lamb is cute.</font>
+
+42
+00:01:27,981 --> 00:01:28,231
+<font color="#ffff54">The</font> lamb is cute.
+
+43
+00:01:28,232 --> 00:01:28,751
+The <font color="#ffff54">lamb</font> is cute.
+
+44
+00:01:28,752 --> 00:01:29,100
+The lamb <font color="#ffff54">is</font> cute.
+
+45
+00:01:29,101 --> 00:01:30,007
+The lamb is <font color="#ffff54">cute</font>.
+
+46
+00:01:30,008 --> 00:01:30,700
+The lamb is cute.
+
+47
+00:01:30,701 --> 00:01:31,248
+<font color="#ffff54">The lamb is cute.</font>
+
+48
+00:01:31,249 --> 00:01:34,985
+The calf is cute.
+
+49
+00:01:34,986 --> 00:01:35,544
+<font color="#ffff54">The calf is cute.</font>
+
+50
+00:01:35,545 --> 00:01:35,821
+<font color="#ffff54">The</font> calf is cute.
+
+51
+00:01:35,822 --> 00:01:36,322
+The <font color="#ffff54">calf</font> is cute.
+
+52
+00:01:36,323 --> 00:01:36,633
+The calf <font color="#ffff54">is</font> cute.
+
+53
+00:01:36,634 --> 00:01:37,591
+The calf is <font color="#ffff54">cute</font>.
+
+54
+00:01:37,592 --> 00:01:38,458
+The calf is cute.
+
+55
+00:01:38,459 --> 00:01:39,226
+<font color="#ffff54">The calf is cute.</font>
+
+56
+00:01:39,227 --> 00:01:47,242
+I love them all!
+
+57
+00:01:47,243 --> 00:01:47,724
+<font color="#ffff54">I love them all!</font>
+
+58
+00:01:47,725 --> 00:01:48,138
+<font color="#ffff54">I</font> love them all!
+
+59
+00:01:48,139 --> 00:01:48,475
+I <font color="#ffff54">love</font> them all!
+
+60
+00:01:48,476 --> 00:01:48,786
+I love <font color="#ffff54">them</font> all!
+
+61
+00:01:48,787 --> 00:01:49,776
+I love them <font color="#ffff54">all</font>!
+
+62
+00:01:49,777 --> 00:01:52,196
+I love them all!
+

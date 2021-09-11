@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>5750</EndMilliseconds>
+    <Text>The creature had a pig's snout and ears.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>5751</StartMilliseconds>
+    <EndMilliseconds>8881</EndMilliseconds>
+    <Text>[g@But he ran on two legs like a person.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>8882</StartMilliseconds>
+    <EndMilliseconds>10872</EndMilliseconds>
+    <Text>He swung the rake again.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>10873</StartMilliseconds>
+    <EndMilliseconds>14052</EndMilliseconds>
+    <Text>Wukong blocked the rake with his iron bar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>14053</StartMilliseconds>
+    <EndMilliseconds>18197</EndMilliseconds>
+    <Text>[i@Clang!@i] Then he swung the bar at the pig's feet.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>18198</StartMilliseconds>
+    <EndMilliseconds>20449</EndMilliseconds>
+    <Text>[g@"Oof!" cried the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>20450</StartMilliseconds>
+    <EndMilliseconds>23271</EndMilliseconds>
+    <Text>He fell facedown in the dirt.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>23272</StartMilliseconds>
+    <EndMilliseconds>25050</EndMilliseconds>
+    <Text>[g@He jumped back up.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>25051</StartMilliseconds>
+    <EndMilliseconds>28500</EndMilliseconds>
+    <Text>"You'll wish you hadn't done that!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>28501</StartMilliseconds>
+    <EndMilliseconds>37688</EndMilliseconds>
+    <Text>Wukong leaped out of the way as the pig's [n@rake slammed down, smashing a boulder.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>37689</StartMilliseconds>
+    <EndMilliseconds>43332</EndMilliseconds>
+    <Text>The two fought, kicking up dust and rocks.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>43333</StartMilliseconds>
+    <EndMilliseconds>46354</EndMilliseconds>
+    <Text>The Tang Monk hid behind his horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>46355</StartMilliseconds>
+    <EndMilliseconds>51272</EndMilliseconds>
+    <Text>[g@"Surrender now!" Wukong swung his iron bar again.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>51273</StartMilliseconds>
+    <EndMilliseconds>53452</EndMilliseconds>
+    <Text>"I am Sun Wukong.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>53453</StartMilliseconds>
+    <EndMilliseconds>57348</EndMilliseconds>
+    <Text>Five hundred years ago, I caused lots of trouble in Heaven.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>57349</StartMilliseconds>
+    <EndMilliseconds>61913</EndMilliseconds>
+    <Text>The Jade Emperor's entire army couldn't stop me!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>61914</StartMilliseconds>
+    <EndMilliseconds>64437</EndMilliseconds>
+    <Text>[g@"I've heard of you," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>64438</StartMilliseconds>
+    <EndMilliseconds>67278</EndMilliseconds>
+    <Text>"But you don't seem so powerful to me!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>67279</StartMilliseconds>
+    <EndMilliseconds>69983</EndMilliseconds>
+    <Text>[g@He lunged at the monkey again.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>69984</StartMilliseconds>
+    <EndMilliseconds>72417</EndMilliseconds>
+    <Text>Wukong jumped out of the way.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>72418</StartMilliseconds>
+    <EndMilliseconds>75510</EndMilliseconds>
+    <Text>"I thought you were being punished," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>75511</StartMilliseconds>
+    <EndMilliseconds>77723</EndMilliseconds>
+    <Text>[g@He swung his rake again.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>77724</StartMilliseconds>
+    <EndMilliseconds>80385</EndMilliseconds>
+    <Text>"Weren't you trapped under a mountain?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>80386</StartMilliseconds>
+    <EndMilliseconds>82950</EndMilliseconds>
+    <Text>"I'm free now," said Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>82951</StartMilliseconds>
+    <EndMilliseconds>85888</EndMilliseconds>
+    <Text>"I'm going to the West with the Tang Monk to—"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>85889</StartMilliseconds>
+    <EndMilliseconds>88504</EndMilliseconds>
+    <Text>[g@"The Tang Monk!" cried the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>88505</StartMilliseconds>
+    <EndMilliseconds>90722</EndMilliseconds>
+    <Text>He dropped his rake.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>90723</StartMilliseconds>
+    <EndMilliseconds>93261</EndMilliseconds>
+    <Text>"I'm supposed to go with him too!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>93262</StartMilliseconds>
+    <EndMilliseconds>96550</EndMilliseconds>
+    <Text>"You are?" asked Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>96551</StartMilliseconds>
+    <EndMilliseconds>100338</EndMilliseconds>
+    <Text>"I was sent to Earth as a punishment," said the pig.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>100339</StartMilliseconds>
+    <EndMilliseconds>104320</EndMilliseconds>
+    <Text>[g@"My name is Zhu Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>104321</StartMilliseconds>
+    <EndMilliseconds>107174</EndMilliseconds>
+    <Text>I caused trouble in Heaven too.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>107175</StartMilliseconds>
+    <EndMilliseconds>114529</EndMilliseconds>
+    <Text>Guanyin said I would be forgiven if I helped protect the Tang Monk."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>114530</StartMilliseconds>
+    <EndMilliseconds>116605</EndMilliseconds>
+    <Text>[g@Wukong rubbed his chin.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>116606</StartMilliseconds>
+    <EndMilliseconds>122998</EndMilliseconds>
+    <Text>"Okay," he said. "You can carry the bags."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>122999</StartMilliseconds>
+    <EndMilliseconds>128395</EndMilliseconds>
+    <Text>Zhu Bajie joined the group, and the three of them continued west.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>128396</StartMilliseconds>
+    <EndMilliseconds>132551</EndMilliseconds>
+    <Text>As they traveled, the pig kept complaining.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>132552</StartMilliseconds>
+    <EndMilliseconds>136091</EndMilliseconds>
+    <Text>[g@"These bags are so heavy!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>136092</StartMilliseconds>
+    <EndMilliseconds>139338</EndMilliseconds>
+    <Text>Do we really need to bring them?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>139339</StartMilliseconds>
+    <EndMilliseconds>141872</EndMilliseconds>
+    <Text>"Stop complaining," snapped Wukong.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>141873</StartMilliseconds>
+    <EndMilliseconds>146987</EndMilliseconds>
+    <Text>"Going to the Western Paradise is [i@supposed@i] to be difficult."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>146988</StartMilliseconds>
+    <EndMilliseconds>151081</EndMilliseconds>
+    <Text>[g@The pig moaned. "I'm hungry too.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>151082</StartMilliseconds>
+    <EndMilliseconds>153585</EndMilliseconds>
+    <Text>When are we going to eat lunch?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>153586</StartMilliseconds>
+    <EndMilliseconds>155687</EndMilliseconds>
+    <Text>The Tang Monk frowned.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>155688</StartMilliseconds>
+    <EndMilliseconds>157611</EndMilliseconds>
+    <Text>[g@"We just ate breakfast.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>157612</StartMilliseconds>
+    <EndMilliseconds>160373</EndMilliseconds>
+    <Text>How can you be hungry again?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>160374</StartMilliseconds>
+    <EndMilliseconds>165413</EndMilliseconds>
+    <Text>They went around a bend and saw a large tiger.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>165414</StartMilliseconds>
+    <EndMilliseconds>169360</EndMilliseconds>
+    <Text>Bajie and Wukong quickly pulled out their weapons.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>169361</StartMilliseconds>
+    <EndMilliseconds>172119</EndMilliseconds>
+    <Text>[g@"Who are you?" yelled Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>172120</StartMilliseconds>
+    <EndMilliseconds>174754</EndMilliseconds>
+    <Text>"What are you doing here?"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>174755</StartMilliseconds>
+    <EndMilliseconds>181123</EndMilliseconds>
+    <Text>"My master, the great king Yellow Wind, [n@is hosting a feast," said the tiger.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>181124</StartMilliseconds>
+    <EndMilliseconds>184073</EndMilliseconds>
+    <Text>[g@He looked at the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>184074</StartMilliseconds>
+    <EndMilliseconds>187559</EndMilliseconds>
+    <Text>"I'm gathering people to eat."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>187560</StartMilliseconds>
+    <EndMilliseconds>192749</EndMilliseconds>
+    <Text>The Tang Monk's face turned pale, and he fell off his horse.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>192750</StartMilliseconds>
+    <EndMilliseconds>196616</EndMilliseconds>
+    <Text>"Don't you dare harm our master!" Bajie warned.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>196617</StartMilliseconds>
+    <EndMilliseconds>198366</EndMilliseconds>
+    <Text>[g@"He is the Tang Monk.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>198367</StartMilliseconds>
+    <EndMilliseconds>201994</EndMilliseconds>
+    <Text>He's going to the West to get the True Scriptures."@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>201995</StartMilliseconds>
+    <EndMilliseconds>204805</EndMilliseconds>
+    <Text>The tiger's eyes opened wide.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>204806</StartMilliseconds>
+    <EndMilliseconds>209814</EndMilliseconds>
+    <Text>"I heard that eating the Tang Monk will make someone live forever."</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>209815</StartMilliseconds>
+    <EndMilliseconds>213383</EndMilliseconds>
+    <Text>[g@The tiger showed his claws.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>213384</StartMilliseconds>
+    <EndMilliseconds>215945</EndMilliseconds>
+    <Text>Then he lunged at Bajie.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>215946</StartMilliseconds>
+    <EndMilliseconds>218242</EndMilliseconds>
+    <Text>[g@The pig hit him with the rake.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>218243</StartMilliseconds>
+    <EndMilliseconds>220937</EndMilliseconds>
+    <Text>The tiger tumbled over.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>64</Number>
+    <StartMilliseconds>220938</StartMilliseconds>
+    <EndMilliseconds>224479</EndMilliseconds>
+    <Text>Wukong ran toward the tiger with his iron bar.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>65</Number>
+    <StartMilliseconds>224480</StartMilliseconds>
+    <EndMilliseconds>229079</EndMilliseconds>
+    <Text>The tiger dodged the bar and then almost got hit by the rake again.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>66</Number>
+    <StartMilliseconds>229080</StartMilliseconds>
+    <EndMilliseconds>231845</EndMilliseconds>
+    <Text>He turned and fled.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>67</Number>
+    <StartMilliseconds>231846</StartMilliseconds>
+    <EndMilliseconds>237332</EndMilliseconds>
+    <Text>[g@Wukong and Bajie ran after the tiger.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>68</Number>
+    <StartMilliseconds>237333</StartMilliseconds>
+    <EndMilliseconds>240195</EndMilliseconds>
+    <Text>For a moment they lost him.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>69</Number>
+    <StartMilliseconds>240196</StartMilliseconds>
+    <EndMilliseconds>245166</EndMilliseconds>
+    <Text>Then they spotted a flash of orange behind some bushes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>70</Number>
+    <StartMilliseconds>245167</StartMilliseconds>
+    <EndMilliseconds>248364</EndMilliseconds>
+    <Text>"There he is!" whispered Bajie.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>71</Number>
+    <StartMilliseconds>248365</StartMilliseconds>
+    <EndMilliseconds>251907</EndMilliseconds>
+    <Text>The monkey and pig sneaked up to the bushes.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>72</Number>
+    <StartMilliseconds>251908</StartMilliseconds>
+    <EndMilliseconds>254113</EndMilliseconds>
+    <Text>[g@But the tiger wasn't there.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>73</Number>
+    <StartMilliseconds>254114</StartMilliseconds>
+    <EndMilliseconds>261657</EndMilliseconds>
+    <Text>Instead a tiger skin lay over a rock.@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>74</Number>
+    <StartMilliseconds>261658</StartMilliseconds>
+    <EndMilliseconds>267323</EndMilliseconds>
+    <Text>Wukong laughed. "He was so scared, he ran right out of his skin!"</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>75</Number>
+    <StartMilliseconds>267324</StartMilliseconds>
+    <EndMilliseconds>269685</EndMilliseconds>
+    <Text>[g@He slapped Bajie on the back.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>76</Number>
+    <StartMilliseconds>269686</StartMilliseconds>
+    <EndMilliseconds>274618</EndMilliseconds>
+    <Text>"We are great protectors!"@g]</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>77</Number>
+    <StartMilliseconds>274619</StartMilliseconds>
+    <EndMilliseconds>279399</EndMilliseconds>
+    <Text>The two friends walked back to the road, laughing.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>78</Number>
+    <StartMilliseconds>279400</StartMilliseconds>
+    <EndMilliseconds>282714</EndMilliseconds>
+    <Text>But suddenly their laughter stopped.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>79</Number>
+    <StartMilliseconds>282715</StartMilliseconds>
+    <EndMilliseconds>291828</EndMilliseconds>
+    <Text>"Oh no!" cried Wukong. "Where is the Tang Monk?"</Text>
+  </Paragraph>
+</Subtitle>

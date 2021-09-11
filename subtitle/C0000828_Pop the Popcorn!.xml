@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Subtitle>
+  <Paragraph>
+    <Number>1</Number>
+    <StartMilliseconds>0</StartMilliseconds>
+    <EndMilliseconds>504</EndMilliseconds>
+    <Text>Put a pan on the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>2</Number>
+    <StartMilliseconds>505</StartMilliseconds>
+    <EndMilliseconds>749</EndMilliseconds>
+    <Text>[@Put@] a pan on the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>3</Number>
+    <StartMilliseconds>750</StartMilliseconds>
+    <EndMilliseconds>948</EndMilliseconds>
+    <Text>Put [@a@] pan on the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>4</Number>
+    <StartMilliseconds>949</StartMilliseconds>
+    <EndMilliseconds>1324</EndMilliseconds>
+    <Text>Put a [@pan@] on the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>5</Number>
+    <StartMilliseconds>1325</StartMilliseconds>
+    <EndMilliseconds>1494</EndMilliseconds>
+    <Text>Put a pan [@on@] the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>6</Number>
+    <StartMilliseconds>1495</StartMilliseconds>
+    <EndMilliseconds>1684</EndMilliseconds>
+    <Text>Put a pan on [@the@] stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>7</Number>
+    <StartMilliseconds>1685</StartMilliseconds>
+    <EndMilliseconds>2467</EndMilliseconds>
+    <Text>Put a pan on the [@stove@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>8</Number>
+    <StartMilliseconds>2468</StartMilliseconds>
+    <EndMilliseconds>6480</EndMilliseconds>
+    <Text>Put a pan on the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>9</Number>
+    <StartMilliseconds>6481</StartMilliseconds>
+    <EndMilliseconds>6746</EndMilliseconds>
+    <Text>[e@Put a pan on the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>10</Number>
+    <StartMilliseconds>6747</StartMilliseconds>
+    <EndMilliseconds>7064</EndMilliseconds>
+    <Text>Turn on the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>11</Number>
+    <StartMilliseconds>7065</StartMilliseconds>
+    <EndMilliseconds>7419</EndMilliseconds>
+    <Text>[@Turn@] on the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>12</Number>
+    <StartMilliseconds>7420</StartMilliseconds>
+    <EndMilliseconds>7620</EndMilliseconds>
+    <Text>Turn [@on@] the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>13</Number>
+    <StartMilliseconds>7621</StartMilliseconds>
+    <EndMilliseconds>7789</EndMilliseconds>
+    <Text>Turn on [@the@] stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>14</Number>
+    <StartMilliseconds>7790</StartMilliseconds>
+    <EndMilliseconds>8499</EndMilliseconds>
+    <Text>Turn on the [@stove@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>15</Number>
+    <StartMilliseconds>8500</StartMilliseconds>
+    <EndMilliseconds>13843</EndMilliseconds>
+    <Text>Turn on the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>16</Number>
+    <StartMilliseconds>13844</StartMilliseconds>
+    <EndMilliseconds>14094</EndMilliseconds>
+    <Text>[e@Turn on the stove.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>17</Number>
+    <StartMilliseconds>14095</StartMilliseconds>
+    <EndMilliseconds>14443</EndMilliseconds>
+    <Text>Pour the oil in the pan.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>18</Number>
+    <StartMilliseconds>14444</StartMilliseconds>
+    <EndMilliseconds>14721</EndMilliseconds>
+    <Text>[@Pour@] the oil in the pan.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>19</Number>
+    <StartMilliseconds>14722</StartMilliseconds>
+    <EndMilliseconds>14936</EndMilliseconds>
+    <Text>Pour [@the@] oil in the pan.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>20</Number>
+    <StartMilliseconds>14937</StartMilliseconds>
+    <EndMilliseconds>15339</EndMilliseconds>
+    <Text>Pour the [@oil@] in the pan.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>21</Number>
+    <StartMilliseconds>15340</StartMilliseconds>
+    <EndMilliseconds>15511</EndMilliseconds>
+    <Text>Pour the oil [@in@] the pan.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>22</Number>
+    <StartMilliseconds>15512</StartMilliseconds>
+    <EndMilliseconds>15699</EndMilliseconds>
+    <Text>Pour the oil in [@the@] pan.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>23</Number>
+    <StartMilliseconds>15700</StartMilliseconds>
+    <EndMilliseconds>16326</EndMilliseconds>
+    <Text>Pour the oil in the [@pan@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>24</Number>
+    <StartMilliseconds>16327</StartMilliseconds>
+    <EndMilliseconds>21514</EndMilliseconds>
+    <Text>Pour the oil in the pan.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>25</Number>
+    <StartMilliseconds>21515</StartMilliseconds>
+    <EndMilliseconds>21751</EndMilliseconds>
+    <Text>[e@Pour the oil in the pan.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>26</Number>
+    <StartMilliseconds>21752</StartMilliseconds>
+    <EndMilliseconds>22329</EndMilliseconds>
+    <Text>Add some corn.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>27</Number>
+    <StartMilliseconds>22330</StartMilliseconds>
+    <EndMilliseconds>22665</EndMilliseconds>
+    <Text>[@Add@] some corn.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>28</Number>
+    <StartMilliseconds>22666</StartMilliseconds>
+    <EndMilliseconds>22945</EndMilliseconds>
+    <Text>Add [@some@] corn.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>29</Number>
+    <StartMilliseconds>22946</StartMilliseconds>
+    <EndMilliseconds>23558</EndMilliseconds>
+    <Text>Add some [@corn@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>30</Number>
+    <StartMilliseconds>23559</StartMilliseconds>
+    <EndMilliseconds>28015</EndMilliseconds>
+    <Text>Add some corn.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>31</Number>
+    <StartMilliseconds>28016</StartMilliseconds>
+    <EndMilliseconds>28283</EndMilliseconds>
+    <Text>[e@Add some corn.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>32</Number>
+    <StartMilliseconds>28284</StartMilliseconds>
+    <EndMilliseconds>28630</EndMilliseconds>
+    <Text>Put the lid on.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>33</Number>
+    <StartMilliseconds>28631</StartMilliseconds>
+    <EndMilliseconds>28904</EndMilliseconds>
+    <Text>[@Put@] the lid on.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>34</Number>
+    <StartMilliseconds>28905</StartMilliseconds>
+    <EndMilliseconds>29130</EndMilliseconds>
+    <Text>Put [@the@] lid on.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>35</Number>
+    <StartMilliseconds>29131</StartMilliseconds>
+    <EndMilliseconds>29312</EndMilliseconds>
+    <Text>Put the [@lid@] on.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>36</Number>
+    <StartMilliseconds>29313</StartMilliseconds>
+    <EndMilliseconds>29859</EndMilliseconds>
+    <Text>Put the lid [@on@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>37</Number>
+    <StartMilliseconds>29860</StartMilliseconds>
+    <EndMilliseconds>34197</EndMilliseconds>
+    <Text>Put the lid on.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>38</Number>
+    <StartMilliseconds>34198</StartMilliseconds>
+    <EndMilliseconds>34402</EndMilliseconds>
+    <Text>[e@Put the lid on.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>39</Number>
+    <StartMilliseconds>34403</StartMilliseconds>
+    <EndMilliseconds>34533</EndMilliseconds>
+    <Text>Wait, wait, wait.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>40</Number>
+    <StartMilliseconds>34534</StartMilliseconds>
+    <EndMilliseconds>35211</EndMilliseconds>
+    <Text>[@Wait@], wait, wait.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>41</Number>
+    <StartMilliseconds>35212</StartMilliseconds>
+    <EndMilliseconds>35770</EndMilliseconds>
+    <Text>Wait, [@wait@], wait.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>42</Number>
+    <StartMilliseconds>35771</StartMilliseconds>
+    <EndMilliseconds>36457</EndMilliseconds>
+    <Text>Wait, wait, [@wait@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>43</Number>
+    <StartMilliseconds>36458</StartMilliseconds>
+    <EndMilliseconds>40594</EndMilliseconds>
+    <Text>Wait, wait, wait.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>44</Number>
+    <StartMilliseconds>40595</StartMilliseconds>
+    <EndMilliseconds>40819</EndMilliseconds>
+    <Text>[e@Wait, wait, wait.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>45</Number>
+    <StartMilliseconds>40820</StartMilliseconds>
+    <EndMilliseconds>41378</EndMilliseconds>
+    <Text>Pop, pop, pop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>46</Number>
+    <StartMilliseconds>41379</StartMilliseconds>
+    <EndMilliseconds>41870</EndMilliseconds>
+    <Text>[@Pop@], pop, pop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>47</Number>
+    <StartMilliseconds>41871</StartMilliseconds>
+    <EndMilliseconds>42256</EndMilliseconds>
+    <Text>Pop, [@pop@], pop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>48</Number>
+    <StartMilliseconds>42257</StartMilliseconds>
+    <EndMilliseconds>42910</EndMilliseconds>
+    <Text>Pop, pop, [@pop@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>49</Number>
+    <StartMilliseconds>42911</StartMilliseconds>
+    <EndMilliseconds>47167</EndMilliseconds>
+    <Text>Pop, pop, pop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>50</Number>
+    <StartMilliseconds>47168</StartMilliseconds>
+    <EndMilliseconds>47416</EndMilliseconds>
+    <Text>[e@Pop, pop, pop.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>51</Number>
+    <StartMilliseconds>47417</StartMilliseconds>
+    <EndMilliseconds>47844</EndMilliseconds>
+    <Text>Shake, shake, shake the salt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>52</Number>
+    <StartMilliseconds>47845</StartMilliseconds>
+    <EndMilliseconds>48320</EndMilliseconds>
+    <Text>[@Shake@], shake, shake the salt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>53</Number>
+    <StartMilliseconds>48321</StartMilliseconds>
+    <EndMilliseconds>48886</EndMilliseconds>
+    <Text>Shake, [@shake@], shake the salt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>54</Number>
+    <StartMilliseconds>48887</StartMilliseconds>
+    <EndMilliseconds>49340</EndMilliseconds>
+    <Text>Shake, shake, [@shake@] the salt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>55</Number>
+    <StartMilliseconds>49341</StartMilliseconds>
+    <EndMilliseconds>49585</EndMilliseconds>
+    <Text>Shake, shake, shake [@the@] salt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>56</Number>
+    <StartMilliseconds>49586</StartMilliseconds>
+    <EndMilliseconds>50222</EndMilliseconds>
+    <Text>Shake, shake, shake the [@salt@].</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>57</Number>
+    <StartMilliseconds>50223</StartMilliseconds>
+    <EndMilliseconds>55146</EndMilliseconds>
+    <Text>Shake, shake, shake the salt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>58</Number>
+    <StartMilliseconds>55147</StartMilliseconds>
+    <EndMilliseconds>55403</EndMilliseconds>
+    <Text>[e@Shake, shake, shake the salt.</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>59</Number>
+    <StartMilliseconds>55404</StartMilliseconds>
+    <EndMilliseconds>55922</EndMilliseconds>
+    <Text>Popcorn is everywhere!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>60</Number>
+    <StartMilliseconds>55923</StartMilliseconds>
+    <EndMilliseconds>56583</EndMilliseconds>
+    <Text>[@Popcorn@] is everywhere!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>61</Number>
+    <StartMilliseconds>56584</StartMilliseconds>
+    <EndMilliseconds>56817</EndMilliseconds>
+    <Text>Popcorn [@is@] everywhere!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>62</Number>
+    <StartMilliseconds>56818</StartMilliseconds>
+    <EndMilliseconds>58094</EndMilliseconds>
+    <Text>Popcorn is [@everywhere@]!</Text>
+  </Paragraph>
+  <Paragraph>
+    <Number>63</Number>
+    <StartMilliseconds>58095</StartMilliseconds>
+    <EndMilliseconds>61268</EndMilliseconds>
+    <Text>Popcorn is everywhere!</Text>
+  </Paragraph>
+</Subtitle>
