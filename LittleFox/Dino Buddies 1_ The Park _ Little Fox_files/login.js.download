@@ -1,0 +1,219 @@
+var Login={chk:function()
+{if(Cookie.get('fx0')&&Cookie.get('fx7'))
+{return true;}
+return false;},userStatus:function()
+{var ck_fx5=Cookie.get('fx5');if(ck_fx5=='UP'||ck_fx5=='UE'||ck_fx5=='AE')
+{var ustat='free';}
+else if(ck_fx5=='US'||ck_fx5=='AS')
+{var ustat='pause';}
+else if(ck_fx5=='RA')
+{var ustat='refund';}
+else if(ck_fx5=='UA'||ck_fx5=='UR')
+{var ustat='ok';}
+else
+{var ustat='free';}
+return ustat;},need:function()
+{var loginchk=this.chk();var usrstat=this.userStatus();if(loginchk==false)
+{this.needPop();}
+else
+{if(usrstat=='ok')
+{return true;}
+else if(usrstat=='free')
+{this.needSubscribe();}
+else if(usrstat=='pause')
+{this.needPause();return false;}
+else if(usrstat=='refund')
+{this.needRefund();return false;}
+else
+{}}
+return false;},needPopup:function()
+{var loginchk=this.chk();var usrstat=this.userStatus();if(loginchk==false)
+{this.needPop();}
+else
+{if(usrstat=='ok')
+{return true;}
+else if(usrstat=='free')
+{this.needSubscribe();}
+else
+{}}
+return false;},needPb:function()
+{var loginchk=this.chk();var usrstat=this.userStatus();if(loginchk==false)
+{this.needPop();}
+return loginchk;},needWithoutStat:function(url,returnyn)
+{var url=url||'';var returnyn=returnyn||'y';var loginchk=this.chk();if(loginchk==false)
+{this.needPop(url);}
+else
+{if(returnyn=='n')
+{_redir(url);}}
+if(returnyn!='n')
+{return loginchk;}},goToLogin:function(url,dev)
+{if(typeof dev==='undefined'||dev=='')
+var https_str="https://";else
+var https_str="http://";var urlToGo=url||location.href;if(window.opener!=null)
+{try
+{window.opener.Login.goToLogin(url,dev);window.open('about:blank','_self').close();}
+catch(e)
+{location.href=https_str+G_HOST_NAME+ROOT_PATH+'/login';}}else{_redir(https_str+G_HOST_NAME+ROOT_PATH+'/login',{url:urlToGo},'post');}},goToJoin:function(url)
+{var urlToGo=url||location.href;if(window.opener!=null)
+{try
+{window.opener.Login.goToJoin(url);self.close();}
+catch(e)
+{location.href=ROOT_PATH+'/user/join';}}else{_redir(ROOT_PATH+'/user/join',{url:urlToGo},'post');}},goToPayment:function(url)
+{var urlToGo=url||location.href;if(window.opener!=null)
+{window.opener.location.href=ROOT_PATH+'/user/payment';self.close();}else{_redir(ROOT_PATH+'/user/payment',{url:urlToGo},'post');}},goHome:function()
+{alert('You have been automatically logged out for security reasons.');var _go_url='/';if(window.opener!=null)
+{self.close();opener.location.href=_go_url;}
+else
+{_redir(_go_url);}},goLogin:function()
+{alert(GLOBAL_LOGIN_TO_CONTINUE);var _go_url=ROOT_PATH+'/login';if(window.opener)
+{try
+{opener.document.location.href=_go_url;opener=window;window.close();}
+catch(e)
+{location.href=_go_url;}}
+else
+{_redir(_go_url);}},needPop:function(url)
+{popup_is=true;if(location.href.indexOf("ezwel.")!=-1){lang_common_log_in="회원가입";lang_common_login_to_continue="회원가입 후에 사용할 수 있습니다.";var url=url||'';var title=POP_TITLE;var body="<span class='layerpop_s_txt'>"+lang_common_login_to_continue+"</span>";var btns=[{"name":lang_common_log_in,"class":"bt_gra_blue","onclick":"Login.goToJoin('"+url+"')","href":""},{"name":lang_common_cancel,"class":"bt_gra_gray","onclick":"Layerpop.close()","href":""}];}else{if(location.href.indexOf("supplement/ebook/")!=-1||location.href.indexOf("flashcards")!=-1){if(LANG=='ko')
+var payment_url=ROOT_PATH+"/help/fee";else
+var payment_url=ROOT_PATH+"/subscribe/join";var url=url||'';var title=POP_TITLE;var body="<span class='layerpop_s_txt'>"+lang_common_login_to_continue+"</span>";var btns=[{"name":lang_common_log_in,"class":"bt_gra_blue","onclick":"Login.goToLogin('"+url+"')","href":""},{"name":lang_common_go_payment,"class":"bt_gra_gray","onclick":"Login.goToPayment('"+payment_url+"')","href":""}];}else{if(LANG=='ko')
+var payment_url=ROOT_PATH+"/help/fee";else
+var payment_url=ROOT_PATH+"/subscribe/join";var url=url||'';var title=POP_TITLE;var body="<span class='layerpop_s_txt'>"+lang_common_login_to_continue+"</span>";var btns=[{"name":lang_common_log_in,"class":"bt_gra_blue","onclick":"Login.goToLogin('"+url+"')","href":""},{"name":lang_common_go_payment,"class":"bt_gra_gray","onclick":"location.href='"+payment_url+"'","href":""}];}}
+Layerpop.layer_module(title,body,btns,'s');$("#lp_body").find("input[name='info_login_id']").focus();},goLogout_showLoginPop:function()
+{var current_path=window.location.pathname.split('/');if(current_path.length>=3){if(current_path[2].indexOf('main')>-1){location.reload();return;}}else{location.href=ROOT_PATH;return;}
+changeFormToLogout();Login.loginPopup();},loginPopup:function()
+{body=$('<div class="layerpop_m"><'+'/'+'div>');var text='';text+='<form id="frmLogin" action="'+ROOT_PATH+'/login/auth_process" method="post" onsubmit="return login_form_proc();" >';text+='<div class="pass_check_cont" style="border-bottom:0px;width:95%;padding:20px 10px 0px 10px">';text+='<label style="width: 20%; height: 26px;line-height: 26px;vertical-align: middle;padding-right: 10px;text-align:left;font-size: 13px;color: #575757;font-weight: bold;display: inline-block;float: left;margin-bottom: 7px;">'+GLOBAL_ID+'<'+'/'+'label>';text+='<span style="width: 70%; display: inline-block;margin-bottom: 7px;">';text+='<input type="text" class="pass_check_cont_id" name="loginid" id="loginid" style="background-color:#FFFFFF;" value="'+sv_loginid+'">';text+='</span>';text+='<label style="width: 20%; height: 26px;line-height: 26px;vertical-align: middle;padding-right: 10px;text-align:left;font-size: 13px;color: #575757;font-weight: bold;display: inline-block;float: left;margin-bottom: 7px;">'+GLOBAL_PASSWORD+'<'+'/'+'label>';text+='<span style="width: 70%; display: inline-block;margin-bottom: 7px;">';text+='<input type="password" class="pass_check_cont_pass" name="loginpw" id="loginpw" onkeyup="Login.loginEnter()" value="'+sv_loginpw+'">';text+='<input id="mode" name="mode" type="hidden" value="iframe">';text+='<input id="referer" name="referer" type="hidden" value="'+document.location.href+'">';text+='</span>';text+='<div class="pop_center" style = "width:100%;">';text+='<button type="submit" name="Send" class="bt_gra_blue" style="margin:10px 0px;" onfocus="this.blur();">'+GLOBAL_LOG_IN+'</button>';text+='</div>';text+='</div>';text+='</form>';body.append(text);body=body.html();Layerpop2.layer_module(lang_common_log_in,body,new Array(),'s');$('#lp_body2').find("input[name='info_login_id']").focus();$('#lp_body2').addClass('loginform_in_layer');$('#lp_film2').unbind('click');$('#lp_film2').addClass('loginform_in_layer');},loginEnter:function()
+{if(event.keyCode==13)
+login_form_proc();},needSubscribe:function()
+{var url=ROOT_PATH+"/user/payment";var title=POP_TITLE;var body="<span class='layerpop_s_txt'>"+lang_common_renew_subscription_message+"</span>";var btns="";if(window.opener!=null)
+{btns=[{"name":lang_common_yes,"class":"bt_gra_blue","onclick":"opener.location.href='"+url+"';window.close();","href":""},{"name":lang_common_no,"class":"bt_gra_gray","onclick":"Layerpop.close()","href":""}];}else{btns=[{"name":lang_common_yes,"class":"bt_gra_blue","onclick":"location.href='"+url+"'","href":""},{"name":lang_common_no,"class":"bt_gra_gray","onclick":"Layerpop.close()","href":""}];}
+Layerpop.layer_module(title,body,btns,'s');$('.login_want_cont').css({"line-height":"1.5","margin-top":"22px","height":"68px"});},needPause:function()
+{var url=ROOT_PATH+"/user/payment";var body="<span class='layerpop_s_txt'>일시정지 해제 뒤 유료컨텐츠 이용이 가능합니다.</span>";var btns=[{"name":"일시정지 해제","class":"bt_gra_blue","onclick":"location.href='"+ROOT_PATH+"/user/info_service_status'","href":""},{"name":"취소","class":"bt_gra_gray","onclick":"Layerpop.close()","href":""}];Layerpop.layer_module(POP_TITLE,body,btns,'s');$('.login_want_cont').css({"line-height":"1.5","margin-top":"22px","height":"68px"});},needRefund:function()
+{var url=ROOT_PATH+"/user/payment";var body="<span class='layerpop_s_txt'>환불 대기 중으로 유료 컨텐츠 이용이 불가능합니다.</span>";var btns=[{"name":"일시정지 해제","class":"bt_gra_blue","onclick":"location.href='"+ROOT_PATH+"/user/info_service_status'","href":""},{"name":"취소","class":"bt_gra_gray","onclick":"Layerpop.close()","href":""}];Layerpop.layer_module(POP_TITLE,body,btns,'s');$('.login_want_cont').css({"line-height":"1.5","margin-top":"22px","height":"68px"});},needLinks:function(id_arr)
+{id_arr.each(function(s){if($(s)!=null){var href=$(s).readAttribute('href');var urlToGo=href||'';Event.observe(s,'click',function(event){if(Login.needWithoutStat(urlToGo)===false)
+{Event.stop(event);return;}});}});}};var child_check_is=false;var lang_login=LANG;function moveToKorean()
+{location.href='https://www.littlefox.co.kr';}
+function login_process()
+{if(child_check_is==false){if($('#loginid').val()=="")
+{view_error_msg(GLOBAL_MAIN_PLEASE_ENTER_A_USERNAME);$('#loginid').focus();return false;}
+if($('#loginpw').val()=="")
+{view_error_msg(GLOBAL_MAIN_PLEASE_ENTER_A_PASSWORD);$('#loginpw').focus();return false;}}
+load_black();if($('#lp_film'))
+{$('#lp_film').css({'background-color':'white','display':'block',opacity:0});$('#lp_film').fadeTo(200,0.8);$('#lp_body').append($('<div id="load_img"></div>').css({'position':'absolute','top':'0px','left':'0px'}).append($('<span></span>').append('<div class="loading_box"><img src="/static/layout/global/img/common/roading_img.gif?2" class="loading_img" width="150"></div>')));$('#lp_body').show();Layerpop.center("load_img");{$('#loginid').prop("disabled",true);$('#loginpw').prop("disabled",true);$('#lp_film').unbind('click');$('#lp_body .bt_x_close').remove();}}
+var chk_url=ROOT_PATH+"/login/auth_process";var _referer="";try
+{_referer=$('#REFERER_URL').val();}
+catch(e)
+{}
+if(_referer=="undefined")_referer="";$.ajax({type:'post',url:chk_url,dataType:'json',data:{loginid:$('#loginid').val(),loginpw:$('#loginpw').val(),referer:_referer,sv_login:($('#sv_login').is(':checked'))?$('#sv_login').val():''},success:function(data){if(data['error'])
+{if(data['error']=='login_to_korean'){view_error_msg("한국 사이트(www.littlefox.co.kr) 가입 회원입니다.<br>한국 사이트에서 로그인해주세요.");Layerpop.close();Layerpop.layer_module('Little Fox',"한국 사이트(www.littlefox.co.kr) 가입 회원입니다.<br>한국 사이트에서 로그인해주세요.",[{"name":'한국 사이트로 이동',"class":"bt_gra_blue","onclick":"moveToKorean()","href":""}],'s','',true);return;}
+view_error_msg(data['error']);{$('#lp_body').focus();$('#loginid').prop("disabled",false);$('#loginpw').prop("disabled",false);}
+return false;}
+else
+{if(typeof data.login_info.vCountryCode!=='undefined'&&data.login_info.vCountryCode!=''){trace('lang_login is '+lang_login);lang_login=data.login_info.vCountryCode.toLowerCase();if(lang_login=='us')lang_login='en';}
+if(data['child_list'])
+{open_child_selected(data);}
+else
+{if(typeof($("#REFERER_URL").val())=="undefined"){complete_confirm();}else{if($("#REFERER_URL").val()!=""){complete_confirm($("#REFERER_URL").val());}else{complete_confirm();}}}}},error:function(){location.href="/";}});}
+function open_child_selected(data)
+{var code=ustoen(data.login_info.vCountryCode);trace(code);$(window).unbind("keydown");$(window).unbind("keyup");var select_user=[];select_user['kr']='사용자 선택';select_user['en']="Select User";select_user['cn']='请选择用户';select_user['tw']='選擇使用者';select_user['hk']='選擇使用者';select_user['jp']='ユーザー選択';var global_main_parent_user=[];global_main_parent_user['kr']='기본 사용자';global_main_parent_user['en']='Parent User';global_main_parent_user['cn']='父母用户';global_main_parent_user['tw']='父母帳戶';global_main_parent_user['hk']='父母帳戶';global_main_parent_user['jp']='保護者会員';var global_main_child_user=[];global_main_child_user['kr']='추가 사용자';global_main_child_user['en']='Child User';global_main_child_user['cn']='孩子用户';global_main_child_user['tw']='孩子帳號';global_main_child_user['hk']='孩子帳號';global_main_child_user['jp']='こども会員';var global_main_select_user_message1=[];global_main_select_user_message1['kr']='기본 사용자 이외에 최대 3명까지 추가 사용자를 만들 수 있습니다.';global_main_select_user_message1['en']='Up to 3 additional users per account.';global_main_select_user_message1['cn']='每个ID可以添加4名家庭成员。';global_main_select_user_message1['tw']='每個ID可以添加4名家庭成員。';global_main_select_user_message1['hk']='每個ID可以添加4名家庭成員。';global_main_select_user_message1['jp']='ひとつのIDで家族4名まで個別アカウントを作成して学習できます。';var global_main_select_user_message2=[];global_main_select_user_message2['kr']='2명이 동시에 접속해서 사용할 수 없습니다.';global_main_select_user_message2['en']='Only one user can use Little Fox at a time.';global_main_select_user_message2['cn']='两个孩子用户不能同时登录。';global_main_select_user_message2['tw']='兩個孩子使用者不能同時登入';global_main_select_user_message2['hk']='兩個孩子使用者不能同時登入';global_main_select_user_message2['jp']='2人以上の同時ログインはできません。';var global_main_select_user_message3=[];global_main_select_user_message3['kr']='만약 동시에 접속하면 먼저 사용하던 사람의 접속이 끊기게 됩니다.';global_main_select_user_message3['en']='If a user (User &#34;A&#34;) logs in while another user (User &#34;B&#34;) is logged in, <br>(User &#34;B&#34;) will get logged out.';global_main_select_user_message3['cn']='同时登录的瞬间，首先登录的用户自动下线。';global_main_select_user_message3['tw']='兩人同時登入時，先登入的使用者將被強制登出';global_main_select_user_message3['hk']='兩人同時登入時，先登入的使用者將被強制登出';global_main_select_user_message3['jp']='同時ログインした場合は先にログイン中のユーザーを自動ログアウトします。';var global_main_enter=[];global_main_enter['kr']='입장';global_main_enter['en']='Enter';global_main_enter['cn']='进入';global_main_enter['tw']='進場';global_main_enter['hk']='進場';global_main_enter['jp']='入場';var title=select_user[code];var div=$('<div><'+'/'+'div>');var form=$('<form><'+'/'+'form>').append('<input type="hidden" name="login_info[\'p_fu_id\']" value="'+data['login_info']['p_fu_id']+'" key="p_fu_id">').append('<input type="hidden" name="login_info[\'vFuName\']" value="'+data['login_info']['vFuName']+'" key="vFuName">').append('<input type="hidden" name="login_info[\'vFuNick\']" value="'+data['login_info']['vFuNick']+'" key="vFuNick">').append('<input type="hidden" name="login_info[\'vFuId\']" value="'+data['login_info']['vFuId']+'" key="vFuId">').append('<input type="hidden" name="login_info[\'user_key\']" value="'+data['login_info']['user_key']+'" key="user_key">').append('<input type="hidden" name="login_info[\'vCustmize\']" value="'+data['login_info']['vCustmize']+'" key="vCustmize">').append('<input type="hidden" name="login_info[\'child_cnt\']" value="'+data['login_info']['child_cnt']+'" key="child_cnt">').append('<input type="hidden" name="login_info[\'p_fu_id\']" value="'+data['login_info']['p_fu_id']+'" key="p_fu_id">').appendTo(div);var tbody=$('<tbody><'+'/'+'tbody>');$.each(data['child_list'],function(key,value){var user_division=(value['FU_ID']==data['login_info']['p_fu_id'])?global_main_parent_user[code]:global_main_child_user[code]+" "+key;$('<tr><'+'/'+'tr>').attr('fu_id',value['FU_ID']).append($('<td><'+'/'+'td>').addClass('user_select_table_td01').text(user_division)).append($('<td><'+'/'+'td>').addClass('user_select_table_td02').text(value['FU_NICK'])).append($('<td><'+'/'+'td>').addClass('user_select_table_td03').append($('<button><'+'/'+'button>').attr({'onclick':'select_child(\''+value['FU_ID']+'\',\''+value['FU_NICK']+'\', \''+value['FU_LEVEL']+'\', \''+value['SCHOOL_GRADE']+'\', \''+value['P_FU_ID']+'\')','type':'button'}).addClass('bt_gra_gray').text(global_main_enter[code]))).appendTo(tbody);});$('<div><'+'/'+'div>').addClass('user_select_table_box').append($('<table><'+'/'+'table>').addClass('user_select_table').append(tbody)).appendTo(div);$('<div><'+'/'+'div>').addClass('user_select_yellow_box').append($('<ul><'+'/'+'ul>').append($('<li><'+'/'+'li>').html(global_main_select_user_message1[code])).append($('<li><'+'/'+'li>').html(global_main_select_user_message2[code])).append($('<li><'+'/'+'li>').html(global_main_select_user_message3[code]))).appendTo(div);Layerpop.layer_module(title,div.html(),new Array(),'m');{$('#loginid').prop("disabled",true);$('#loginpw').prop("disabled",true);$('#lp_film').unbind('click');$('#lp_body .bt_x_close').remove();}}
+function get_saved_data(obj_name)
+{var data={};$(obj_name).each(function(){data[$(this).attr('key')]=$(this).val();});return data;}
+function select_child(fu_id,fu_nick,fu_level,fu_grade)
+{load_black();if($('#lp_film'))
+{$('#lp_film').css({'background-color':'white','display':'block',opacity:0});$('#lp_film').fadeTo(200,0.8);$('#lp_body').append($('<div id="load_img"></div>').css({'position':'absolute','top':'0px','left':'0px'}).append($('<span></span>').append('<div class="loading_box"><img src="/static/layout/global/img/common/roading_img.gif?2" class="loading_img" width="150"></div>')));$('#lp_body').show();Layerpop.center("load_img");{$('#loginid').prop("disabled",true);$('#loginpw').prop("disabled",true);$('#lp_film').unbind('click');$('#lp_body .bt_x_close').remove();}}
+sel_fu_id=fu_id;var chk_url=ROOT_PATH+"/login/run_login";var login_info_data=get_saved_data('input:hidden[name*="login_info"]');login_info_data['vFuId']=fu_id;login_info_data['vFuNick']=fu_nick;login_info_data['vFuLevel']=fu_level;login_info_data['vFuGrade']=fu_grade;$.ajax({type:'post',url:chk_url,dataType:'json',data:{login_info:login_info_data},cache:false,success:function(result){if($('input:hidden[name="login_info[p_fu_id]"]').val()==fu_id)
+{$('.logout_info_relation').text(main_parent);}
+else
+{$('.logout_info_relation').text(main_child_user);}
+$('.logout_info_username').text(fu_nick);Layerpop.close();var ul=$('<ul></ul>');var i=0;if(Cookie.get('recently_read'))
+{Cookie.get('recently_read');}
+for(i;i<4;i++)
+{ul.append($('<li></li>').append($('<span></span>').addClass('bg_main logout_recently_img_blank')));}
+$('.logout_recently ul, .logout_recently a').remove();$('.logout_recently').append(ul).append($('<a></a>').addClass('bg_main logout_recently_img_more').append($('<span></span>').text(default_more)));if(Cookie.get('login_last_date'))
+{$('#login_last_date').text(Cookie.get('login_last_date'));}
+$('.logout_info_child').css('display','none');referer_url=$("#REFERER_URL").val();try
+{if(typeof(referer_url)=="undefined"){coupon_confirm();}else
+if(referer_url!=""){coupon_confirm(referer_url);}else{try
+{if(login_is==false){complete_confirm();}else{coupon_confirm();}}
+catch(e)
+{coupon_confirm();}}}
+catch(e)
+{try
+{if(login_is==false){complete_confirm();}else{coupon_confirm();}}
+catch(e)
+{coupon_confirm();}}},error:function(){}});}
+var info={view:function()
+{if(G_USER_ID!=G_USER_LOGIN_ID){view_error_msg(GLOBAL_PARENT_ACCESS);}else{$.post(ROOT_PATH+"/user/info_getUser_id",function(data){if(data){var title='<div class="layerpop_m_tit"><span>'+GLOBAL_INPUT_PASSWORD+'<'+'/'+'span><'+'/'+'div>';var div=$('<div class="layerpop_m"><'+'/'+'div>');var text='';text+='<form id="info_frm">';text+='<div class="pass_check_cont">';text+='<label>'+GLOBAL_ID+'<'+'/'+'label>';text+='<span>';text+='<input type="text" class="pass_check_cont_id" name="info_login_id" id="info_login_id" value="'+data+'">';text+='<'+'/'+'span>';text+='<label>'+GLOBAL_PASSWORD+'<'+'/'+'label>';text+='<span>';text+='<input type="password" class="pass_check_cont_pass" name="info_login_pw" id="info_login_pw" onkeyup="info.enter()">';text+='<a href="javascript:info.check()" class="pass_check_cont_login">'+GLOBAL_LOG_IN+'<'+'/'+'a>';text+='<'+'/'+'span>';text+='<'+'/'+'div>';text+='<div class="pass_check_cont_txt">'+GLOBAL_PASSWORD_INFORMATION+'<'+'/'+'div>';text+='<'+'/'+'form>';div.append(text);Layerpop.layer_module(title,div.html(),new Array(),'m');$("#info_login_pw").focus();}});}},check:function(){$.post(ROOT_PATH+"/user/info_password_check",$("#info_frm").serialize(),function(data){if(data){if(data==1){location.href=ROOT_PATH+"/user/info";}else{alert(GLOBAL_PASSWORD_NOT_EQUAL);info.view();}}});},enter:function(){if(event.keyCode==13)info.check();}}
+var login_on={check:function(){var chk_url=ROOT_PATH+"/login/auth_process";$.ajax({type:'post',url:chk_url,dataType:'json',data:{loginid:$('#info_login_id').val(),loginpw:$('#info_login_pw').val(),sv_login:(sv_loginid!='')?'on':''},success:function(data){if(data['error']){view_error_msg(data['error']);return false;}
+else{if(data['child_list'])
+{open_child_selected(data);}
+else
+{if($("#REFERER_URL").val()!=""&&$("#REFERER_URL").val()=="undefined"){complete_confirm($("#REFERER_URL").val());}else{complete_confirm();}}}},error:function(){location.href="/";}});},enter:function(){if(event.keyCode==13)login_on.check();}};function ustoen(code){code=code.toLowerCase();if(code=='us')code='en';return code;}
+function msgToGlobal(str)
+{var code=ustoen(str);var msg=[];var button=[];msg['en']="You are subscribed to our global service (www.littlefox.com). <br>Please go to the site to login.";msg['cn']="您加入的是www.littlefox.com网站的会员。<br>请移至该网站登录。谢谢！";msg['tw']="您加入的是www.littlefox.com網站的會員。<br>請移至該網站登入。謝謝！";msg['hk']="您加入的是www.littlefox.com網站的會員。<br>請移至該網站登入。謝謝！";msg['jp']="日本語サイト(www.littlefox.com)<br>の会員です。<br>日本語サイトをご利用ください。";button['en']="Go";button['cn']="移至该网站";button['tw']="移至該網站";button['hk']="移至該網站";button['jp']="移動";var msg=msg[code];var msg2=button[code];Layerpop.close();Layerpop.layer_module('Little Fox',msg,[{"name":msg2,"class":"bt_gra_blue","onclick":"moveToGlobal('"+code+"')","href":""}],'s','',true);}
+function msgToKorean()
+{var msg='한국 사이트(www.littlefox.co.kr)<br>가입 회원입니다.<br>한국 사이트에서 로그인해주세요.';var msg2='한국 사이트로 이동';Layerpop.close();Layerpop.layer_module('Little Fox',msg,[{"name":msg2,"class":"bt_gra_blue","onclick":"moveToKorean()","href":""}],'s','',true);}
+function pwdMsgToKorean(code)
+{code=code.toLowerCase();if(code=='us')code='en';var msg_to_korean=['en','cn','tw','hk','jp'];var button_to_korean=['en','cn','tw','hk','jp'];msg_to_korean['en']="You are subscribed to our global service (www.littlefox.com).<br>Please go to the site to find your password.";msg_to_korean['cn']="您加入的是www.littlefox.com网站的会员。<br>请移至该网站进行密码查找。谢谢！";msg_to_korean['tw']="您加入的是www.littlefox.com網站的會員。<br>請移至該網站進行密碼查找。謝謝！";msg_to_korean['hk']="您加入的是www.littlefox.com網站的會員。<br>請移至該網站進行密碼查找。謝謝！";msg_to_korean['jp']="日本語サイト(www.littlefox.com)の会員です。パスワードの再設定は日本語サイトをご利用ください。";button_to_korean['en']="Go";button_to_korean['cn']="移至该网站";button_to_korean['tw']="移至該網站";button_to_korean['hk']="移至該網站";button_to_korean['jp']="移動";var msg=msg_to_korean[code];var msg2=button_to_korean[code];Layerpop.close();Layerpop.layer_module('Little Fox',msg,[{"name":msg2,"class":"bt_gra_blue","onclick":"moveToGlobal('"+code+"')","href":""}],'s','',true);}
+function moveToGlobal(code)
+{location.href='https://www.littlefox.com/'+code;}
+var search_email="";function open_find_id(){var title=main_find_id;var div=$('<div><'+'/'+'div>');var find_id='\n'+' <div class="txt_blue">'+main_input_email+'</div>\n'+' <div class="email_add">\n'+' <label><span class="txt">'+main_email_address2+'</span></label>\n'+' <span><input type="text" class="layerpop_find_id_name" id="email" value="" style="width:200px;" onkeydown="if(event.keyCode == \'13\') $(\'#lp_body button\').trigger(\'click\');" /></span>\n'+' </div>\n'+'';$('<div class="find_id_box"><'+'/'+'div>').html(find_id).appendTo(div);var btns=[{"name":main_find,"class":"bt_gra_blue","id":"find_id","href":"","onclick":"sub_idFind()"}];Layerpop.layer_module(title,$(div).html(),btns,'s2');$("#lp_film").unbind("click");$("#email").focus();}
+var g_find_type=null;function sub_idFind(type)
+{var chk_data="";var type=type||'id';g_find_type=type;if(type=='id'){search_email=$('#email').val();}
+if(type=='pw'){search_email=$('#login_id').val();}
+load_image_open();if(type=='id')
+{if(search_email=='')
+{var str='';str+='<div class="layerpop_s" style="position: absolute; left: 44px; top: 43px;">';str+=' <div class="layerpop_s_tit"><span class="">Little Fox</span></div>';str+=' <div class="layerpop_s_cont layerpop_s2_txt">이메일 주소를 입력해주세요.</div>';str+=' <div class="pop_center">';str+='  <button type="button" name="확인" class="bt_gra_blue" onfocus="this.blur();" onclick="Layerpop.close()">확인</button>';str+=' </div>';str+=' <a onclick="Layerpop.close()" class="bt_x_close">×</a>';str+='</div>';LayerPopNew.alert(str);return;}
+chk_data={'email':search_email};}else if(type=='pw')
+{if(search_email==''){var str='';str+='<div class="layerpop_s" style="position: absolute; left: 44px; top: 43px;">';str+=' <div class="layerpop_s_tit"><span class="">Little Fox</span></div>';str+=' <div class="layerpop_s_cont layerpop_s2_txt">아이디를 입력해주세요.</div>';str+=' <div class="pop_center">';str+='  <button type="button" name="확인" class="bt_gra_blue" onfocus="this.blur();" onclick="Layerpop.close()">확인</button>';str+=' </div>';str+=' <a onclick="Layerpop.close()" class="bt_x_close">×</a>';str+='</div>';LayerPopNew.alert(str);return;}
+chk_data={'login_id':search_email};}
+if(search_email==""){alert(please_enter_a_email);return;}
+var chk_url="/ko/main/id_find";$.ajax({type:'post',url:chk_url,dataType:'json',data:chk_data,cache:false,success:function(data){if(data==null){if(g_find_type=='id'){find_id_faile();}else{var str='';str+='<div class="layerpop_s" style="position: absolute; left: 44px; top: 43px;">';str+=' <div class="layerpop_s_tit"><span class="">비밀번호 찾기</span></div>';str+=' <div class="layerpop_s_cont layerpop_s2_txt">해당되는 정보가 없습니다.</div>';str+=' <div class="pop_center">';str+='  <button type="button" name="확인" class="bt_gra_blue" onfocus="this.blur();" onclick="Layerpop.close()">확인</button>';str+=' </div>';str+=' <a onclick="Layerpop.close()" class="bt_x_close">×</a>';str+='</div>';LayerPopNew.alert(str);}}else{if(typeof(data['0'])!="undefined"){if(g_find_type=='id'){if(data['0'].COUNTRY_CODE!='KR'){idfind_msgToGlobal(data['0'].COUNTRY_CODE,data['0'].EMAIL);return;}
+if(data.length==1){account_sleep_popup(base64_encode(json_encode(data[0])));}else{find_id_ok(data);}}else{if(LANG=='ko'&&data[0].COUNTRY_CODE!='KR'){pwdMsgToKorean(data[0].COUNTRY_CODE);return;}
+find_id_ok2(data);}}else{if(g_find_type=='id'){find_id_faile();}else{alert('해당되는 정보가 없습니다.');}}}},error:function(){}});}
+var account_email='';var global_fu_id='';function account_sleep_popup(data)
+{$('#fade').show();data=base64_decode(data);data=json_decode(data);$('#lp_film').hide();$('#lp_body').hide();if(typeof data.email=="undefined")
+{data.email=data.EMAIL;}
+if(typeof data.sleep_date=="undefined")
+{data.sleep_date=data.SLEEP_DATE;}
+if(typeof data.fu_id=="undefined")
+{data.fu_id=data.FU_ID;}
+var exp=(data.email).split('@');var email_head=substr(exp[0],0,exp[0].length-2)+'**';account_email=email_head+'@'+exp[1];$('#pop_account .layerpop_list').html(str_replace("2015년 00월 00일",substr(data.sleep_date,0,4)+"년 "+(substr(data.sleep_date,5,2)*1)+"월 "+(substr(data.sleep_date,8,2)*1)+"일 ",$('#pop_account .layerpop_list').html()));$('#pop_account .txtEmail').html(account_email);$('#pop_account .txtFuId').html(data.fu_id);if($('#pop_account > .bt_x_close').length===0){$('#pop_account').append('<a onclick="accountClose()" class="bt_x_close">×</a>');}
+global_fu_id=data.fu_id;$('#pop_account').show();}
+function account_sleep_popup2(data){$('#fade').show();$('#lp_film').hide();$('#lp_body').hide();var exp=data.EMAIL.split('@');var email_head=substr(exp[0],0,exp[0].length-2)+'**';account_email=email_head+'@'+exp[1];$('#pop_account .layerpop_list').html(str_replace("2015년 00월 00일",substr(data.SLEEP_DATE,0,4)+"년 "
++(substr(data.SLEEP_DATE,5,2)*1)+"월 "+(substr(data.SLEEP_DATE,8,2)*1)+"일 ",$('#pop_account .layerpop_list').html()));$('#pop_account .txtEmail').html(account_email);$('#pop_account .txtFuId').html(data.FU_ID);if($('#pop_account > .bt_x_close').length===0){$('#pop_account').append('<a onclick="accountClose()" class="bt_x_close">×</a>');}
+global_fu_id=data.FU_ID;$('#pop_account').show();}
+function account_sleep_mail()
+{$('#pop_account').hide();$('#fade').hide();load_image_open();var chk_url=ROOT_PATH+"/main/account_sleep_reset";var chk_data={'vFuId':global_fu_id};$.ajax({type:'post',url:chk_url,dataType:'json',data:chk_data,cache:false,success:function(data){var title="리틀팍스";var btns=[{"name":"확인","class":"bt_gra_blue","onclick":"Layerpop.close();","href":""}];var div=$('<div><'+'/'+'div>');$('<div><'+'/'+'div>').addClass('find_id_box').append("<div class=\"txt_blue\">휴면계정 해제 메일 인증 전송이 완료되었습니다.</div>").appendTo(div);Layerpop.layer_module(title,$(div).html(),btns,'s2');},error:function(){}});}
+var check_data=null;function find_id_ok(data){check_data=data;var title=main_find_id+" "+main_result;var btns=[{"name":main_sign_in,"class":"bt_gra_blue","onclick":"Login.goToLogin()","href":""}];var div=$('<div><'+'/'+'div>');var id_lists='<div class="find_id_result_list">\n'+'<table width="100%" border="0" cellpadding="0" cellspacing="0" summary="">\n'+'<caption>-</caption>\n'+'<colgroup>\n'+'<col width="160">\n'+'<col width="100">\n'+'<col width="">\n'+'</colgroup>\n'+'<thead>\n'+'<tr>\n'+'<th colspan="2">아이디</th>\n'+'<th class="last">가입일</th>\n'+'</tr>\n'+'</thead>\n'+'<tbody>\n'+'';if(data.length>1){for(data_no=0;data_no<data.length;data_no++){id_lists+='<tr>\n';if(data[data_no].SLEEP_DATE!=null)
+{id_lists+='<td class="first" style="color:#b0b0b0;">'+data[data_no].LOGIN_ID+'</td>\n'+'<td>\n'+'<a href="javascript:void(0);" onclick="javascript:account_sleep_popup(\''+base64_encode(json_encode(data[data_no]))+'\');" class="bt_type_s">휴면계정 해제</a>\n';}else{id_lists+='<td class="first">'+data[data_no].LOGIN_ID+'</td>\n'+'<td>\n'+'<a href="javascript:void(0);" onclick="javascript:open_forgot_password();" class="bt_type_s">비밀번호 찾기</a>\n';}
+id_lists+='</td>\n'+'<td class="last">'+data[data_no].REG_DATE+'</td>\n'+'</tr>\n';}}
+else{id_lists+='<tr>\n'+'<td class="first">'+data[0].LOGIN_ID+'</td>\n'+'<td>\n'+'<a href="javascript:void(0);" onclick="javascript:open_forgot_password();" class="bt_type_s">비밀번호 찾기</a>\n'+'</td>\n'+'<td class="last">'+data[0].REG_DATE+'</td>\n'+'</tr>\n';}
+id_lists+='</tbody>\n'+'</table>\n'+'</div>\n';;$('<div><'+'/'+'div>').addClass('find_id_result_box').append("<div class='txt_grey'><ul><li>"+main_the_member_information_is_follows+"</li><li>"+main_to_protect_your_privacy_two_digit_id_not_published+"</li></ul></div>"+id_lists).appendTo(div);Layerpop.layer_module(title,$(div).html(),btns,'s2');}
+var mail_head="";function find_id_ok2(data){check_data=data;var exp=check_data[0]['EMAIL'].split('@');var email_head=substr(exp[0],0,exp[0].length-2)+" <input type='text' style='width:20px;text-align:center;' onkeyup=\"if(this.value!='') $('#passkey2').focus();\" maxlength=1 value='' id='passkey1'><input type='text' style='width:20px;text-align:center;' maxlength=1 value='' id='passkey2'  onkeydown=\"if(this.value=='' && event.keyCode==8) { $('#passkey1').focus(); } if(event.keyCode == '13') $('#pwFind2 button').trigger('click');\"> ";$('#pwFind2_email_guide').html(email_head+'<span>@'+exp[1]+'</span>');$('#pwFind2_email_tail').html('@'+exp[1]);Layerpop.close();pwFind2Show();$('#passkey1').focus();mail_head=substr(exp[0],0,exp[0].length-2);$('#pwFind2_email_send').unbind("click").on('click',function(){if($('#lp_body').is(':visible')){$('#lp_body button').trigger('click');}else{if($('#passkey1').val()==''||$('#passkey2').val()==''){view_error_msg('이메일 주소를 입력해 주세요.');$('body').focus();return;}
+if(mail_head+$('#passkey1').val()+$('#passkey2').val()==check_data[0]['EMAIL'].split('@')[0]){pwFindClose();do_password_reset();}else{view_error_msg('입력한 이메일 주소와 회원정보에 등록된 이메일 주소가\n일치하지 않습니다.');$('body').focus();return;}}});return;}
+function password_reset(){var title=main_forgot_password;var btns=[{"name":main_find,"class":"bt_gra_blue","onclick":"sub_idFind('pw')"}];var div=$('<div><'+'/'+'div>');var find_pw='\n'+'<div class="txt_blue">'+main_input_id_to_find_password+'</div>\n'+'<div class="email_add">\n'+' <label><span class="txt">'+main_id+'</span></label>\n'+' <span><input type="text" class="layerpop_find_id_name" id="login_id" value="" style="width:200px;" onkeydown="if(event.keyCode == \'13\') $(\'#lp_body button\').trigger(\'click\');" /></span>\n'+'</div>\n';$('<div class="find_id_box"><'+'/'+'div>').html(find_pw).appendTo(div);Layerpop.layer_module(title,$(div).html(),btns,'s2');$("#lp_film").unbind("click");_global_login=$("div.main_login_box");$("#login_id").focus();}
+function sub_password_reset(){if($('#login_id').val()==""){$("div.main_login_box").parent()
+alert(main_please_enter_a_id);$('#login_id').focus();return false;}
+else{var chk_url=ROOT_PATH+"/main/password_reset";var chk_data={'login_id':$('#login_id').val()};$.ajax({type:'post',url:chk_url,dataType:'json',data:chk_data,cache:false,success:function(data){if(data['result']=="OK"){mail_to_reset_password_ok(data['email']);}
+else if(data['result']=="ERROR2"){alert("해당되는 정보가 없습니다.");}
+else{mail_to_reset_password_faile();}},error:function(){}});}}
+function do_password_reset(){load_image_open();var chk_url=ROOT_PATH+"/main/password_reset";var chk_data={'login_id':search_email};$.ajax({type:'post',url:chk_url,dataType:'json',data:chk_data,cache:false,success:function(data){if(data['result']=="OK"){mail_to_reset_password_ok(data['email']);}
+else if(data['result']=="ERROR2"){view_error_msg("해당되는 정보가 없습니다.");}
+else{mail_to_reset_password_faile();}},error:function(){}});}
+function coupon_confirm(){load_image_open();complete_confirm();};function login_after_function(referer_url){Layerpop.close();complete_confirm(referer_url);}
+function complete_confirm(referer_url)
+{var after_url=location.href;var chk_url=ROOT_PATH+"/profile/complete_notice";$.ajax({type:'post',url:chk_url,dataType:'text',data:{},cache:false,success:function(){if(referer_url==undefined){if(after_url.split('/').indexOf('login')>-1){location.href="/";}else{location.href=after_url;}}else{location.href=referer_url;}},error:function(){if(referer_url==undefined){location.href="/";}
+else{location.href=referer_url;}}});return true;}
+function changeFormToLogout(){if(ROOT_PATH==='/ko'){var login_box=document.getElementsByClassName('login_box')[1];login_box.parentNode.removeChild(login_box);$('.login_box').show();}else{var text_subscribe='Subscribe';var text_login='Log In';switch(ROOT_PATH){case'/cn':text_subscribe='加入会员';text_login='登录';break;case'/jp':text_subscribe='新規登録';text_login='ログイン';break;case'/tw':text_subscribe='加入會員';text_login='登入';break;default:break;}
+var html='';html='<div class="gnb_info on">';html+='<span class="login_box" style="position: relative;">';html+=' <span class="logout" onclick="location.href=\''+ROOT_PATH+'/subscribe/join\';">'+text_subscribe+'</span>';html+=' <span class="line" style="margin:0 7px;"></span>';html+=' <span class="logout" onclick="location.href=\''+ROOT_PATH+'/login\';">'+text_login+'</span>';html+='</span>';html+='</div>';$('.user_menu').siblings().replaceWith(html);}}
+function login_form_proc(){$('#frmLogin').attr('target','frmLoginTarget');$('#frmLogin').attr('mode','iframe');if($('#loginid').val()==""){var str='';str+='<div class="layerpop_s" style="position: absolute; left: 44px; top: 43px;">';str+=' <div class="layerpop_s_tit"><span class="">Little Fox</span></div>';str+=' <div class="layerpop_s_cont layerpop_s2_txt">'+GLOBAL_MAIN_PLEASE_ENTER_A_USERNAME+'</div>';str+=' <div class="pop_center">';str+='  <button type="button" name="확인" class="bt_gra_blue" onfocus="this.blur();" onclick="Layerpop.close()">'+BUTTON_OK+'</button>';str+=' </div>';str+=' <a onclick="Layerpop.close()" class="bt_x_close">×</a>';str+='</div>';LayerPopNew.alert(str);return false;}
+if($('#loginpw').val()==""){var str='';str+='<div class="layerpop_s" style="position: absolute; left: 44px; top: 43px;">';str+=' <div class="layerpop_s_tit"><span class="">Little Fox</span></div>';str+=' <div class="layerpop_s_cont layerpop_s2_txt">'+GLOBAL_MAIN_PLEASE_ENTER_A_PASSWORD+'</div>';str+=' <div class="pop_center">';str+='  <button type="button" name="확인" class="bt_gra_blue" onfocus="this.blur();" onclick="Layerpop.close()">'+BUTTON_OK+'</button>';str+=' </div>';str+=' <a onclick="Layerpop.close()" class="bt_x_close">×</a>';str+='</div>';LayerPopNew.alert(str);return false;}
+$('.loginform_in_layer').children().hide();load_image_open();}
+function login_iframe_return(data){data=base64_decode(data);data=json_decode(data);if(data['error']){view_error_msg(data['error']);{$('.loginform_in_layer').children().show();$('#loginid').prop("disabled",false);$('#loginpw').prop("disabled",false);}
+return false;}
+else{if(data['child_list'])
+{if(typeof(data['referer_url'])!="undefined"){referer_url=data['referer_url'];}
+open_child_selected(data)
+$('#lp_body').find("button").eq(0).focus();}
+else
+{try{if(typeof(data['referer_url'])=="undefined"){location.href="http://<?=$_SERVER['HTTP_HOST']?>";}else if(data['referer_url']!=""){location.href=data['referer_url'];}else{location.href="http://<?=$_SERVER['HTTP_HOST']?>";}}
+catch(e){}}}}

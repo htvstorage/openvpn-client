@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);*,body,html{padding:0;margin:0}html,body,div,p,iframe,frameset,h1,h2,h3,h4,h5,h6,strong,span,b,em,var,label,legend,ul,ol,li,dl,dt,dd,table,thead,tbody,tfoot,tr,th,td,caption,form,fieldset,input,textarea,sub,sup,img,a,del,button,small,menu,header,footer,address,section,article,nav,hgroup,aside,details{padding:0;margin:0;font-family:'Noto Sans','Nanum Gothic','나눔고딕','Malgun Gothic','맑은 고딕',Tahoma,Dotum,'돋움',sans-serif}ol,ul,li{list-style:none}table{border-collapse:collapse;border-spacing:0}button,a,img{border:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}a,a:link,a:focus,a:hover,a:active,a:visited{display:inline-block;color:#666;text-decoration:none}html,body{overflow:hidden;background-color:#000}.hidden{overflow:hidden;margin:0
+!important;padding:0
+!important;width:0 !important;height:0 !important;font-size:0 !important;line-height:0 !important}.ui-radiobox label,label.ui-radiobox{position:relative;cursor:pointer}.ui-radiobox.disabled label,label.ui-radiobox.disabled{cursor:default}.ui-radiobox input[type="radio"]{position:absolute;width:1px;height:1px;clip:rect(0 0 0 0);overflow:hidden}.ui-radiobox input[type="radio"]+span{position:relative;display:inline-block;line-height:1.2;font-size:inherit;padding-left:1.5em}.ui-radiobox input[type="radio"]+span:before{position:absolute;display:inline-block;content:'';left:0;top:0;bottom:0;margin:auto 0;width:18px;height:18px;border:1px
+solid #ccc;border-radius:50%;background:#fff;box-sizing:border-box}.ui-radiobox input[type="radio"]:checked+span:before{background:#f4f4f4}.ui-radiobox input[type="radio"]:checked+span:after{position:absolute;content:'';left:5px;top:0;bottom:0;margin:auto 0;width:8px;height:8px;border-radius:50%;background:#419af3}.ui-radiobox.no-label input[type="radio"]+span{padding-left:19px}.ui-radiobox.disabled{color:#808080}.ui-radiobox.disabled input[type="radio"]+span:before{background:#f7f7f7;border-color:#bababa}.ui-radiobox.disabled input[type="radio"]:checked+span:before{background:#ededed}.ui-radiobox.disabled input[type="radio"]:checked+span:after{background:#ccc}.litteFoxplayer{width:100%;height:100%}.player_bar_cont{position:fixed;left:0;bottom:0;width:100%;z-index:9}.player_cont{position:relative}.prev_timer{position:absolute;right:17px;top:17px;width:170px;height:36px;text-align:center;color:#fff;font-size:16px;line-height:36px;background:rgba(0,0,0,0.85)}.btn_skip,.btn_skip:link,.btn_skip:visited{position:absolute;right:17px;bottom:17px;width:149px;height:53px;text-align:center;color:#fff;font-size:30px;font-weight:bold;line-height:43px;background:rgba(0,0,0,0.85);z-index:2}.btn_skip:hover,.btn_skip:active,.btn_skip:focus{background:rgba(0, 0, 0, 0.2)}@media screen and (max-width:799px){.btn_skip,.btn_skip:link,.btn_skip:visited{width:75px;height:26px;font-size:15px;line-height:20px}}.video_subtitle{margin:0
+auto;width:98%;height:100px;overflow:hidden;text-align:center}.video_subtitle
+.inner{display:table;width:100%;height:100%}.video_subtitle
+*{font-size:inherit}.video_subtitle
+p{display:table-cell;width:100%;height:100%;vertical-align:middle;color:#fff;font-weight:bold;line-height:1.2;letter-spacing:1px;word-break:break-all;text-align:center}.video_subtitle
+span.word{color:#ff2}.video_subtitle p
+span{display:inline-block;text-align:left}@media screen and (max-width:1023px) and (min-width:800px){.video_subtitle{height:80px}}@media screen and (max-width:799px) and (min-width:641px){.video_subtitle{height:80px}.video_subtitle
+p{letter-spacing:0.03em}}@media screen and (max-width:640px){.video_subtitle{height:50px}.video_subtitle
+p{letter-spacing:0.03em}}.player-coaching{display:none;position:fixed;top:0;left:0;width:100%;height:100%;z-index:10;background:rgba(0,0,0,0.7)}.player-coaching.on{display:block}.player-coaching
+img{position:absolute;bottom:0;width:100%;z-index:10}.player-coaching
+label{position:fixed;top:32px;right:89px;color:#fff;font-size:20px;z-index:1}.player-coaching input[type="checkbox"]{margin-top:-3px;margin-right:8px;width:18px;height:18px}.player-coaching
+button{position:fixed;top:30px;right:30px;width:28px;height:29px;background:url(https://img.littlefox.com/static/player_h5/img/icon_close.png?20210903174354) no-repeat;background-size:100%;z-index:1}.player_time_bar{display:table;width:100%;height:22px;padding:3px
+0 1px;z-index:9}.player_time_bar
+.time{display:table-cell;text-align:center;color:#fff;font-size:12px}.player_time_bar
+.time_area{display:table-cell;width:90%;vertical-align:middle}.player_time_bar
+.time_bg{width:100%;height:5px;background-color:#3a3837}.player_time_bar .time_bg
+.timebar_state{display:block;position:relative;height:5px;background:#73706e}.player_time_bar .time_bg .timebar_state:hover,
+.player_time_bar .time_bg .timebar_state:active,
+.player_time_bar .time_bg .timebar_state:focus{background:#7ecbda}.player_time_bar .time_bg .timebar_state:after{display:none;content:"";position:absolute;right:-6px;top:-6px;width:18px;height:18px;background:url(https://img.littlefox.com/static/player_h5/img/timebar_circle.png?20210903174354) 0 0 no-repeat}.player_time_bar .time_bg .timebar_state:hover:after,
+.player_time_bar .time_bg .timebar_state:active:after,
+.player_time_bar .time_bg .timebar_state:focus:after{display:block}.player_control{display:table;position:relative;width:100%;height:63px;background:url(https://img.littlefox.com/static/player_h5/img/player_control_bg.png?20210903174354) 0 2px repeat-x}.player_control:before{display:block;content:"";clear:both;position:absolute;left:0;top:2px;width:4px;height:61px;background:url(https://img.littlefox.com/static/player_h5/img/player_control_left_bg.png?20210903174354) left top no-repeat}.player_control:after{display:block;content:"";clear:both;position:absolute;right:0;top:2px;width:4px;height:61px;background:url(https://img.littlefox.com/static/player_h5/img/player_control_right_bg.png?20210903174354) right top no-repeat}.player_control .left, .player_control
+.right{position:relative;height:61px}.player_control
+.left{display:table-cell}.player_control
+.right{display:table-cell;text-align:right}.player_control
+.paging{position:absolute;left:100px;top:15px;height:32px;z-index:3;padding-left:28px}.player_control .paging
+a{vertical-align:middle;cursor:pointer}.player_control .paging
+a.prev{position:absolute;left:0;top:3px;width:25px;height:28px;background:url(https://img.littlefox.com/static/player_h5/img/player_paging_parv.png?20210903174354) 0 center no-repeat}.player_control .paging
+a.next{width:25px;height:28px;background:url(https://img.littlefox.com/static/player_h5/img/player_paging_next.png?20210903174354) 0 center no-repeat}.player_control .paging
+a.num{width:32px;height:32px;text-align:center;color:#fff;font-family:'Noto Sans','Nanum Gothic','나눔고딕','Malgun Gothic','맑은 고딕',Tahoma,Dotum,'돋움',Arial,sans-serif;font-weight:bold;font-size:16px;line-height:30px;background:url(https://img.littlefox.com/static/player_h5/img/player_paging_off.png?20210903174354) 0 0 no-repeat}.player_control .paging a.num+a.num{margin-left:4px}.player_control .paging a.num:hover,
+.player_control .paging a.num:active,
+.player_control .paging
+a.num.on{color:#000;background-image:url(https://img.littlefox.com/static/player_h5/img/player_paging_on.png?20210903174354)}.player_control a.control>span:after{display:block;content:"";position:absolute;top:4px;width:4px;height:53px;background:url(https://img.littlefox.com/static/player_h5/img/player_control_bar_bg.png?20210903174354) right top repeat-y;z-index:1}.player_control .left a.control span:after{right:-4px}.player_control .right a.control span:after{left:-6px}.player_control
+a.control{display:none;width:77px;height:57px;vertical-align:middle}.player_control a.control>span{display:block;position:relative;width:100%;height:100%;vertical-align:middle;font-size:0;line-height:0;background:0 2px no-repeat;z-index:2}.player_control
+a.control.show{display:inline-block}.player_control a.control.btn_play>span{background-image:url(https://img.littlefox.com/static/player_h5/img/control_btn_play.png?20210903174354)}.player_control a.control.btn_pause>span{background-image:url(https://img.littlefox.com/static/player_h5/img/control_btn_pause.png?20210903174354)}.player_control a.control.btn_replay>span{background-image:url(https://img.littlefox.com/static/player_h5/img/control_btn_replay.png?20210903174354)}.player_control a.control.btn_wordbook>span{background-image:url(https://img.littlefox.com/static/player_h5/img/control_btn_wordbook.png?20210903174354)}.player_control a.control.btn_subtitle>span{background-image:url(https://img.littlefox.com/static/player_h5/img/control_btn_subtitle_off.png?20210903174354)}.player_control a.control.btn_subtitle_on>span{background-image:url(https://img.littlefox.com/static/player_h5/img/control_btn_subtitle_on.png?20210903174354)}.player_control a.control.btn_enlarge>span{background-image:url(https://img.littlefox.com/static/player_h5/img/control_btn_enlarge.png?20210903174354)}.player_control a.control.btn_minify>span{background-image:url(https://img.littlefox.com/static/player_h5/img/control_btn_minify.png?20210903174354)}.player_control a.control.btn_sound_off>span{background-image:url(https://img.littlefox.com/static/player_h5/img/control_btn_sound_off.png?20210903174354)}.player_control a.control.btn_sound_on>span{background-image:url(https://img.littlefox.com/static/player_h5/img/control_btn_sound_on.png?20210903174354)}.player_control
+a.control.btn_speed{width:93px;text-align:center}.player_control a.control.btn_speed>span{width:auto;height:auto}.player_control a.control.btn_close>span{background-image:url(https://img.littlefox.com/static/player_h5/img/control_btn_close.png?20210903174354)}.player_control a.control:focus,
+.player_control a.control:hover,
+.player_control a.control:active{background:url(https://img.littlefox.com/static/player_h5/img/player_control_on.png?20210903174354) 0 4px no-repeat;background-size:cover}.player_control a.control.btn_speed .icon-box
+img{margin:18px
+0;vertical-align:middle}.player_control a.control.btn_speed .icon-box
+span{color:#fff;font-size:16px;vertical-align:middle}.player_control a.control.btn_speed .choose-box{display:none;position:absolute;top:-253px;margin-left:-20px;width:153px;padding:10px
+14px;font-size:14px;border:1px
+solid rgba(128,128,128,0.8);background-color:rgba(0,0,0,0.8);box-sizing:border-box}.player_control a.control.btn_speed .choose-box:before,
+.player_control a.control.btn_speed .choose-box:after{content:'';display:block;position:absolute;left:50%;width:0;height:0;border-style:solid;border-width:11px 8px 0;transform:translateX(-50%)}.player_control a.control.btn_speed .choose-box:before{bottom:-12px;border-color:rgba(128,128,128,0.8) transparent transparent}.player_control a.control.btn_speed .choose-box:after{bottom:-10px;border-color:#000 transparent transparent}.player_control a.control.btn_speed .choose-box
+.txt{display:block;margin-bottom:13px;padding-bottom:9px;color:#fff;text-align:left;border-bottom:1px solid rgba(255,255,255,0.2)}.player_control a.control.btn_speed .choose-box
+input{color:#fff}.player_control a.control.btn_speed .choose-box
+label{display:block;padding-bottom:17px;text-align:left;color:#fff}.player_control a.control.btn_speed .choose-box label:last-child{padding-bottom:0}.player_control a.control.btn_speed .choose-box input[type="radio"]+span{padding-left:2em}.player_control a.control.btn_speed .choose-box input[type="radio"]+span:after{left:5px}@media screen and (max-width:797px){.player-coaching
+label{top:16px;right:49px;font-size:12px}.player-coaching
+button{width:14px;height:14px;right:18px;top:18px}.player-coaching input[type="checkbox"]{width:13px;height:13px}.player_control{height:31.5px;background-size:38.5px 30.5px}.player_control:before,.player_control:after{background-size:2px 30.5px}.player_control .left, .player_control
+.right{height:30.5px}.player_control
+.paging{left:45px;top:5px;height:30.5px;padding-left:16px}.player_control .paging a.prev,
+.player_control .paging
+a.next{width:12.5px;height:12.5px;background-size:12.5px}.player_control .paging
+a.num{margin-left:2px;width:16px;height:16px;font-size:11px;line-height:14px;font-weight:normal;background-size:16px}.player_control a.control span:after{width:2px;height:30.5px;background-size:2px 30.5px}.player_control
+a.control{width:38.5px;height:30.5px}.player_control a.control
+span{background-size:38.5px 31.5px}.player_control
+a.control.btn_speed{width:46.5px}.player_control a.control.btn_speed .icon-box
+img{margin:8px
+0;width:15px}.player_control a.control.btn_speed .icon-box
+span{font-size:10px}.player_control a.control.btn_speed .choose-box{top:-179px;margin-left:-38px;padding:6px
+11px;width:114px;height:166px;font-size:11px}.player_control a.control.btn_speed .choose-box
+.txt{margin-bottom:10px;padding-bottom:7px}.player_control a.control.btn_speed .choose-box
+label{padding-bottom:9px}.player_control a.control.btn_speed .choose-box input[type="radio"]+span:after{left:3px}.player_control .ui-radiobox input[type="radio"]+span:before{width:12px;height:12px}.player_control .ui-radiobox input[type="radio"]:checked+span:after{width:6px;height:6px}.player_control a.control.btn_speed .choose-box:before,
+.player_control a.control.btn_speed .choose-box:after{border-width:9px 6px 0}.player_control a.control.btn_speed .choose-box:before{bottom:-10px}.player_control a.control.btn_speed .choose-box:after{bottom:-8px}}.player_end{display:block;position:absolute;left:0;top:0;width:100%;height:100%;text-align:center;z-index:1}.player_end
+.btn_wrap{position:relative;top:70%;margin:0
+auto;width:50%;text-align:center}.player_end
+a{position:relative;width:154px;height:53px;background:0 0 no-repeat;background-size:154px;height:53px;z-index:2}.player_end a+a{margin-left:50px}.player_end
+.btn_replay{background-image:url(https://img.littlefox.com/static/player_h5/img/btn_replay.png?20210903174354)}.player_end
+.btn_next{background-image:url(https://img.littlefox.com/static/player_h5/img/btn_next.png?20210903174354)}@media screen and (max-width:640px){.player_end
+a{width:50px;height:17px;background-size:50px;height:17px}.player_end a+a{margin-left:17px}}@media screen and (max-width:1023px) and (min-width:641px){.player_end
+a{width:100px;height:34px;background-size:100px;height:34px}.player_end a+a{margin-left:34px}}.player_link{text-align:center}.player_link a+a{margin-left:-21px}.player_link
+.link{position:relative;width:85px;height:85px;background:url(https://img.littlefox.com/static/player_h5/img/player_icon_ebook.png?20210903174354) 0 13px no-repeat}.player_link .link:focus,
+.player_link .link:hover,
+.player_link .link:active{background-position:left bottom}.player_link .link
+span{position:absolute;left:50%;bottom:-10px;margin-left:-37px;width:73px;height:21px;text-align:center;color:#000;line-height:19px;background-color:#fff;z-index:2}.player_link .link:focus span,
+.player_link .link:hover span,
+.player_link .link:active
+span{display:inline-block}.player_link
+.link.eBook{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_ebook.png?20210903174354)}.player_link
+.link.quiz{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_quiz.png?20210903174354)}.player_link
+.link.crossword{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_crossword.png?20210903174354)}.player_link
+.link.starWords{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_starWords.png?20210903174354)}.player_link
+.link.recorder{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_recorder.png?20210903174354)}.player_link
+.link.mp3Download{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_mp3Download.png?20210903174354)}.player_link
+.link.printAbleBook{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_printAbleBook.png?20210903174354)}.player_link
+.link.text{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_text.png?20210903174354)}.player_link
+.link.writing_topics{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_writing_topics.png?20210903174354)}.player_link
+.link.flash_card{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_flash_card.png?20210903174354)}.player_link
+.link.with_mom{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_with_mom.png?20210903174354)}.player_link
+.link.topic{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_topic.png?20210903174354)}.player_link
+.link.tracing{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_tracing.png?20210903174354)}.player_link
+.link.worksheet{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_worksheet.png?20210903174354)}.player_link
+.link.paint{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_paint.png?20210903174354)}.player_link
+.link.flashcard{background-image:url(https://img.littlefox.com/static/player_h5/img/player_link_flashcard.png?20210903174354)}.player_link .link.mp3Download span,
+.player_link .link.printAbleBook span,
+.player_link .link.writing_topics span,
+.player_link .link.with_mom
+span{margin-left:-50px;width:100px}.player_link .link.flash_card
+span{margin-left:-80px;width:160px}@media screen and (max-width:797px){.player_link a+a{margin-left:-10px}.player_link
+.link{width:42px;height:42px;background-position:0 6px;background-size:42px 85px}.player_link .link
+span{margin-left:-16px;width:32px;height:18px;font-size:11px}.player_link .link.mp3Download span,
+.player_link .link.printAbleBook span,
+.player_link .link.writing_topics span,
+.player_link .link.with_mom
+span{margin-left:-25px;width:50px}}.preview_layer{display:table;position:absolute;left:0;top:0;width:100%;height:100%;text-align:center;background:#8fcdc3;background-size:100% 100%;z-index:10}.preview_layer
+.bg{position:absolute;left:0;bottom:0;width:100%;height:auto}.preview_layer
+.preview_cont{display:table-cell;vertical-align:middle;z-index:11}.preview_layer .preview_cont>p{position:absolute;left:50%;top:50%;margin:-250px 0 0 -344px;width:688px;height:64px}.preview_layer
+.pre_content{margin:120px
+auto 55px;text-align:center}.preview_layer .pre_content a+a{margin-left:177px}.preview_layer
+.btn{padding-bottom:50px}@media screen and (max-width:830px){.preview_layer .preview_cont>p{margin-top:-250px}.preview_layer .pre_content
+a{display:block}.preview_layer .pre_content a+a{margin:30px
+0 0}}.videoobj-play-btn{position:absolute}.video{position:relative}.sound_layer{display:none;position:absolute;left:4%;top:3%;padding:0
+14px 0 50px;height:42px;color:#fff;font-size:20px;font-weight:bold;line-height:42px;background:rgba(0, 0, 0, 0.85) url(https://img.littlefox.com/static/player_h5/img/sound_layer_img.png?20210903174354) 17px 10px no-repeat}.sound_layer.show{display:block}
