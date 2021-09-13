@@ -247,7 +247,7 @@ const requestListener = function (req, res) {
                         }
                         console.log("start index " + ix);
                         for (i in contentsA) {
-                            if (ix > 0 && i >= ix) {
+                            if (ix > 0 && i+1 >= ix) {
                                 contents += contentsA[i] + ',';
                             } else if (ix == 0) {
                                 contents += contentsA[i] + ',';
