@@ -249,11 +249,11 @@ const requestListener = function (req, res) {
                         for (i in contentsA) {
                             if (ix > 0 && i >= ix) {
                                 contents += contentsA[i] + ',';
-                            } else {
+                            } else if (ix == 0) {
                                 contents += contentsA[i] + ',';
                             }
                         }
-                        
+
                         contents = contents.substr(0, contents.length - 1);
                         console.log(contents);
                         data = data.toString().replace('XXXXXXXXXXXXXXXXXXXXXXXX', contents);
