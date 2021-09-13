@@ -6,7 +6,7 @@ const host = 'localhost';
 const port = 8000;
 const path = require('path');
 const url = require('url');
-
+const mapCache = {};
 const requestListener = function (req, res) {
     // console.log(req);
     var urld = decodeURI(req.url);
@@ -29,12 +29,20 @@ const requestListener = function (req, res) {
         '.pdf': 'application/pdf',
         '.doc': 'application/msword'
       };
+
     switch (urld) {
         case "/player":
             break;
         case "":
             break;
         default:
+            // console.log(mapCache[urld])
+            if(mapCache[urld] != null){
+                res.setHeader('Content-type', map[ext] || 'text/plain' );
+                res.end(mapCache[urld]);
+                // console.log("Return");                  
+                return;
+            }
             fs.exists(__dirname + urld, function (exists) {
                 if (!exists) {
                     console.log("Not found!" + req.url);
@@ -51,6 +59,7 @@ const requestListener = function (req, res) {
                       // if the file is found, set Content-type and send data
                       res.setHeader('Content-type', map[ext] || 'text/plain' );
                       res.end(data);
+                      mapCache[urld] = data;
                     }
                   });
             });
