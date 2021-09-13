@@ -1,0 +1,5 @@
+.stream{position:relative;height:5px}.stream
+.track{height:inherit;border-radius:5px;background:#ccc}.stream
+.bar{height:inherit;border-radius:5px;background:#5bbc95}.stream
+.btn{position:absolute;width:11px;height:11px;top:0;margin-left:-5px;margin-top:-3px;background:#5bbc95;border-radius:6px}.stream.disabled .bar, .stream.disabled
+.btn{background:#ccc}.video_subtitle.hide{display:none}.layer_end{display:none}.videoobj-play-btn .video-overlay-play-button{position:absolute;left:50%;top:50%;width:20%;height:20%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%)}
