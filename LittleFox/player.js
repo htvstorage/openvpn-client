@@ -7,7 +7,7 @@ const port = 8000;
 const path = require('path');
 const url = require('url');
 const mapCache = {};
-
+const jsdom = require("jsdom");
 
 const getScript = (url) => {
     return new Promise((resolve, reject) => {
@@ -58,6 +58,11 @@ const map = {
     '.pdf': 'application/pdf',
     '.doc': 'application/msword'
 };
+var stringToHTML = function (str) {
+	var parser = new DOMParser();
+	var doc = parser.parseFromString(str, 'text/html');
+	return doc;
+};
 
 const requestListener = function (req, res) {
     // console.log(req);
@@ -88,11 +93,38 @@ const requestListener = function (req, res) {
         console.log('idx:' + idx);
         console.log('videoId:' + videoId);
         var turl = "https://www.littlefox.com/en/readers/contents_list/" + storyId;
-        var x = getScript(turl);
-        x.then(data => {
+        var xc= getScript(turl);
+        xc.then(data => {
             console.log(data)
             res.writeHead(200, { 'Content-type': 'text/html', 'Set-Cookie': 'root="littlefox"' });
             res.end(data);
+
+           const dom = new jsdom.JSDOM(data.toString());
+           var a= dom.window.document.querySelectorAll('tr[data-fcid]');
+           for (let i of a) {
+            console.log("============" +i.getAttribute("data-fcid"));
+            x=i.getAttribute("data-fcid");
+            // x1=x.substr("javascript:Player.view(".length,x.length);
+            // //console.log(x1);
+            // x1=x1.substr(0,x1.indexOf(","));
+            x1=x;
+            x1=x1.replace(/\"/g,"");
+            console.log(x1);
+            //base64_encode("{\"fc_ids\":\"C0007022\",\"w\":1288,\"h\":810}")
+            v="{\"fc_ids\":\""+x1+"\",\"w\":1288,\"h\":810}";
+            console.log(v);
+            var buff = new Buffer(v);
+            var base64data = buff.toString('base64');
+
+            console.log(base64data);
+
+            
+            buff = new Buffer(base64data, 'base64');
+            let text = buff.toString('ascii');
+            console.log(text);
+            // ax[ii] = base64_encode(v);
+            // ii++;
+           }
         });
         return;
     }
