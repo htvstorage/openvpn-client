@@ -95,7 +95,13 @@ const requestListener = function (req, res) {
         console.log('storyId:' + storyId);
         console.log('idx:' + idx);
         console.log('videoId:' + videoId);
-
+        var turl = "https://www.littlefox.com/en/readers/contents_list/"+storyId;
+        var x = getScript(turl);
+        x.then(data => {
+            console.log(data)
+            res.writeHead(200, { 'Content-type': 'text/html', 'Set-Cookie': 'root="littlefox"' });
+            res.end(data);
+        });        
         return;
     }
 
@@ -119,7 +125,7 @@ const requestListener = function (req, res) {
     }
 
     switch (urld) {
-        case "/littlefox":
+        case "/littlefox","/littlefox/",'/littlefox','/littlefox/':
             var x = getScript("https://www.littlefox.com/en");
             x.then(data => {
                 // console.log(data)
