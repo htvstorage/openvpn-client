@@ -1,6 +1,5 @@
 const http = require("http");
 const https = require('https');
-// const console = require("console");
 var util = require('util');
 const fs = require('fs');
 const host = 'localhost';
@@ -12,27 +11,20 @@ const mapCache = {};
 
 const getScript = (url) => {
     return new Promise((resolve, reject) => {
-
-
         let client = http;
-
         if (url.toString().indexOf("https") === 0) {
             client = https;
         }
-
         client.get(url, (resp) => {
             let data = '';
-
             // A chunk of data has been recieved.
             resp.on('data', (chunk) => {
                 data += chunk;
             });
-
             // The whole response has been received. Print out the result.
             resp.on('end', () => {
                 resolve(data);
             });
-
         }).on("error", (err) => {
             reject(err);
         });
@@ -84,7 +76,7 @@ const requestListener = function (req, res) {
         storyId = tmp.substr(0, tmp.indexOf('?'));
         if (tmp.indexOf('idx=') >= 0) {
             var length = (tmp.indexOf('&', tmp.indexOf('idx=')) == -1 ?
-            tmp.length : tmp.indexOf('&', tmp.indexOf('idx='))) - tmp.indexOf('idx=') - 'idx='.length;
+                tmp.length : tmp.indexOf('&', tmp.indexOf('idx='))) - tmp.indexOf('idx=') - 'idx='.length;
             idx = tmp.substr(tmp.indexOf('idx=') + 'idx='.length, length);
         }
         if (tmp.indexOf('id=') >= 0) {
@@ -95,13 +87,13 @@ const requestListener = function (req, res) {
         console.log('storyId:' + storyId);
         console.log('idx:' + idx);
         console.log('videoId:' + videoId);
-        var turl = "https://www.littlefox.com/en/readers/contents_list/"+storyId;
+        var turl = "https://www.littlefox.com/en/readers/contents_list/" + storyId;
         var x = getScript(turl);
         x.then(data => {
             console.log(data)
             res.writeHead(200, { 'Content-type': 'text/html', 'Set-Cookie': 'root="littlefox"' });
             res.end(data);
-        });        
+        });
         return;
     }
 
@@ -125,7 +117,7 @@ const requestListener = function (req, res) {
     }
 
     switch (urld) {
-        case "/littlefox","/littlefox/",'/littlefox','/littlefox/':
+        case "/littlefox", "/littlefox/", '/littlefox', '/littlefox/':
             var x = getScript("https://www.littlefox.com/en");
             x.then(data => {
                 // console.log(data)
