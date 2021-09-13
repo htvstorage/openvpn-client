@@ -247,7 +247,8 @@ const requestListener = function (req, res) {
                         }
                         console.log("start index " + ix);
                         for (i in contentsA) {
-                            if (ix > 0 && i+1 >= ix) {
+                            if (ix > 0 && Number(i)+1 >= ix) {
+                                // console.log(i + " " + ix + " " + contentsA[i]);
                                 contents += contentsA[i] + ',';
                             } else if (ix == 0) {
                                 contents += contentsA[i] + ',';
@@ -255,7 +256,7 @@ const requestListener = function (req, res) {
                         }
 
                         contents = contents.substr(0, contents.length - 1);
-                        console.log(contents);
+                        // console.log(contents);
                         data = data.toString().replace('XXXXXXXXXXXXXXXXXXXXXXXX', contents);
                         // console.log(data);
 
