@@ -73,6 +73,7 @@ const requestListener = function (req, res) {
     // based on the URL path, extract the file extention. e.g. .js, .doc, ...
     const ext = path.parse(pathname).ext;
     // console.log(parsedUrl);
+    console.log(req.url);
     if (urld.indexOf('/littlefox/player/story=') >= 0) {
         console.log(urld);
         var storyId = "";
@@ -247,7 +248,7 @@ const requestListener = function (req, res) {
                         }
                         console.log("start index " + ix);
                         for (i in contentsA) {
-                            if (ix > 0 && Number(i)+1 >= ix) {
+                            if (ix > 0 && Number(i) + 1 >= ix) {
                                 // console.log(i + " " + ix + " " + contentsA[i]);
                                 contents += contentsA[i] + ',';
                             } else if (ix == 0) {
@@ -272,24 +273,78 @@ const requestListener = function (req, res) {
 
     var cookies = parseCookies(req);
     switch (cookies['root']) {
-        case '/littlefox', "littlefox":
+        case '/littlefox':
+        case "littlefox":
             var turl = "";
             if (urld != "/littlefox") {
-                turl = "https://www.littlefox.com/" + urld;
+                fs.exists(__dirname + urld, function (exists) {
+                    if (!exists) {
+                        turl = "https://www.littlefox.com/" + urld;
+                        var x = getScript(turl);
+                        x.then(data => {
+                            // console.log(data)
+                            res.writeHead(200, { 'Content-type': 'text/html', 'Set-Cookie': 'root="littlefox"' });
+                            res.end(data);
+                        });
+                        return;
+                    }   
+
+                    if (mapCache[urld] != null) {
+                        // res.setHeader('Content-type', map[ext] || 'text/plain');
+                        if (urld == "/player.html") {
+                            res.writeHead(200, {
+                                'Set-Cookie': 'h5play_info=eyJmY19pZHMiOiJDMDAwMTI4NiIsInciOjEyODgsImgiOjgxMH0=',
+                                'Content-Type': map[ext] || 'text/plain'
+                            });
+                        } else {
+                            res.setHeader('Content-type', map[ext] || 'text/plain');
+                        }
+                        res.end(mapCache[urld]);
+                        // console.log("Return");                  
+                        return;
+                    }                    
+                    fs.readFile(__dirname + urld, function (err, data) {
+                        if (err) {
+                            res.statusCode = 500;
+                            res.end(`Error getting the file: ${err}.`);
+                        } else {
+                            // if the file is found, set Content-type and send data
+                            // res.setHeader('Content-type', map[ext] || 'text/plain');
+                            if (urld == "/player.html") {
+                                res.writeHead(200, {
+                                    'Set-Cookie': 'h5play_info=eyJmY19pZHMiOiJDMDAwMTI4NiIsInciOjEyODgsImgiOjgxMH0=',
+                                    'Content-Type': map[ext] || 'text/plain'
+                                });
+                                data = data.toString().replace('XXXXXXXXXXXXXXXXXXXXXXXX', '{"fc_id":"C0007600","cont_step_no":"13409","fs_id":"FS0102","charge":"F","type":"S","content_level":"LV01","cont_name":"Dino Buddies 9","cont_sub_name":"The Egg","title_time":"9.288","video_url":"\/contents_5\/hls\/1080\/1dc8df3be5\/m2f81e0248\/4a852d555ec295ffa8a5c7596a2f30fa.m3u8?0517094831","purge_val":"","next_fc_id":"C0007601","ebook":"Y","quiz":"Y","crossword":"N","starwords":"Y","recorder":"Y","mp3download":"Y","printablebook":"Y","text":"Y","writing_topics":"N","flash_card":"N","with_mom":"N","topic":"N","tracing":"Y","worksheet":"N","paint":"N","flashcards":"Y","play_subtime":"0","play_time":"129.35","mod_date":"20190517094836"},{"fc_id":"C0007592","cont_step_no":"13401","fs_id":"FS0102","charge":"F","type":"S","content_level":"LV01","cont_name":"Dino Buddies 1","cont_sub_name":"The Park","title_time":"9.288","video_url":"\/contents_5\/hls\/1080\/fc797469c9\/m025d17513\/becb9d0a684eddf7ab309c7c14069fa8.m3u8?0517091304","purge_val":"","next_fc_id":"C0007593","ebook":"F","quiz":"F","crossword":"N","starwords":"Y","recorder":"Y","mp3download":"F","printablebook":"F","text":"F","writing_topics":"N","flash_card":"N","with_mom":"N","topic":"N","tracing":"F","worksheet":"N","paint":"N","flashcards":"F","play_subtime":"0","play_time":"140.89","mod_date":"20200903040254"}')
+                                console.log(data);
+                            } else {
+                                res.setHeader('Content-type', map[ext] || 'text/plain');
+                            }
+                            res.end(data);
+                            mapCache[urld] = data;
+                        }
+                    });                                              
+                });
             } else {
                 turl = "https://www.littlefox.com/en";
+                var x = getScript(turl);
+                x.then(data => {
+                    // console.log(data)
+                    res.writeHead(200, { 'Content-type': 'text/html', 'Set-Cookie': 'root="littlefox"' });
+                    res.end(data);
+                });
             }
-            var x = getScript(turl);
-            x.then(data => {
-                // console.log(data)
-                res.writeHead(200, { 'Content-type': 'text/html', 'Set-Cookie': 'root="littlefox"' });
-                res.end(data);
-            });
             return;
+            default:
+                console.log("Nothing ");
     }
-
+    console.log("Come hear " + urld);
+    
     switch (urld) {
-        case "/littlefox", "/littlefox/", '/littlefox', '/littlefox/':
+        case "/littlefox":
+        case "/littlefox/":
+        case '/littlefox':
+        case '/littlefox/':
             var x = getScript("https://www.littlefox.com/en");
             x.then(data => {
                 // console.log(data)
