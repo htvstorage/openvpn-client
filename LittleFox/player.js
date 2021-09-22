@@ -7,7 +7,9 @@ const port = 8000;
 const path = require('path');
 const url = require('url');
 const mapCache = {};
+var mapRes = {};
 const jsdom = require("jsdom");
+var playerText = null;
 
 const getScript = (url) => {
     return new Promise((resolve, reject) => {
@@ -76,6 +78,7 @@ const requestListener = function (req, res) {
     console.log(req.url);
     if (urld.indexOf('/littlefox/player/story=') >= 0) {
         console.log(urld);
+      
         var storyId = "";
         var videoId = "";
         var idx = "";
@@ -98,6 +101,42 @@ const requestListener = function (req, res) {
         console.log('storyId:' + storyId);
         // console.log('idx:' + idx);
         // console.log('videoId:' + videoId);
+
+
+        if (mapRes[storyId] != null) {
+            // if the file is found, set Content-type and send data
+            // res.setHeader('Content-type', map[ext] || 'text/plain');
+
+            res.writeHead(200, {
+                'Set-Cookie': 'h5play_info=eyJmY19pZHMiOiJDMDAwMTI4NiIsInciOjEyODgsImgiOjgxMH0=',
+                'Content-Type': 'text/html',
+            });
+            var data = playerText;
+            var contentsA = mapRes[storyId];
+            var contents = '';
+            var ix = 0;
+            if (idx != "") {
+                ix = Number(idx);
+            }
+            console.log("start index " + ix);
+            for (i in contentsA) {
+                if (ix > 0 && Number(i) + 1 >= ix) {
+                    // console.log(i + " " + ix + " " + contentsA[i]);
+                    contents += contentsA[i] + ',';
+                } else if (ix == 0) {
+                    contents += contentsA[i] + ',';
+                }
+            }
+
+            contents = contents.substr(0, contents.length - 1);
+            // console.log(contents);
+            data = data.toString().replace('XXXXXXXXXXXXXXXXXXXXXXXX', contents);
+            // console.log(data);
+
+            res.end(data);
+            return;
+        }
+
         var turl = "https://www.littlefox.com/en/readers/contents_list/" + storyId;
         var xc = getScript(turl);
         var resData = [];
@@ -236,6 +275,12 @@ const requestListener = function (req, res) {
                         // if the file is found, set Content-type and send data
                         // res.setHeader('Content-type', map[ext] || 'text/plain');
 
+                        if(playerText == null){
+                            playerText = data;
+                        }
+
+                        mapRes[storyId] = contentsA;
+
                         res.writeHead(200, {
                             'Set-Cookie': 'h5play_info=eyJmY19pZHMiOiJDMDAwMTI4NiIsInciOjEyODgsImgiOjgxMH0=',
                             'Content-Type': 'text/html',
@@ -287,7 +332,7 @@ const requestListener = function (req, res) {
                             res.end(data);
                         });
                         return;
-                    }   
+                    }
 
                     if (mapCache[urld] != null) {
                         // res.setHeader('Content-type', map[ext] || 'text/plain');
@@ -302,7 +347,7 @@ const requestListener = function (req, res) {
                         res.end(mapCache[urld]);
                         // console.log("Return");                  
                         return;
-                    }                    
+                    }
                     fs.readFile(__dirname + urld, function (err, data) {
                         if (err) {
                             res.statusCode = 500;
@@ -323,7 +368,7 @@ const requestListener = function (req, res) {
                             res.end(data);
                             mapCache[urld] = data;
                         }
-                    });                                              
+                    });
                 });
             } else {
                 turl = "https://www.littlefox.com/en";
@@ -335,11 +380,11 @@ const requestListener = function (req, res) {
                 });
             }
             return;
-            default:
-                console.log("Nothing ");
+        default:
+            console.log("Nothing ");
     }
     console.log("Come hear " + urld);
-    
+
     switch (urld) {
         case "/littlefox":
         case "/littlefox/":
