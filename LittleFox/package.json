@@ -12,6 +12,7 @@
   "dependencies": {
     "http": "0.0.1-security",
     "jsdom": "^17.0.0",
+    "log4js": "^6.3.0",
     "node-fetch": "^3.0.0"
   }
 }

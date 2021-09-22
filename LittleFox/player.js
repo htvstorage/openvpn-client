@@ -11,6 +11,13 @@ var mapRes = {};
 const jsdom = require("jsdom");
 var playerText = null;
 
+const log4js = require("log4js");
+log4js.configure({
+  appenders: { cheese: { type: "file", filename: "cheese.log" },console: { type: "console" }  },
+  categories: { default: { appenders: ["cheese","console"], level: "info" } }
+});
+const logger = log4js.getLogger("cheese");
+
 const getScript = (url) => {
     return new Promise((resolve, reject) => {
         let client = http;
@@ -67,7 +74,8 @@ var stringToHTML = function (str) {
 };
 
 const requestListener = function (req, res) {
-    // console.log(req);
+    // console.log(req.socket.remoteAddress);
+    logger.info(req.url);
     var urld = decodeURI(req.url);
     const parsedUrl = url.parse(req.url);
     // extract URL path
@@ -75,7 +83,7 @@ const requestListener = function (req, res) {
     // based on the URL path, extract the file extention. e.g. .js, .doc, ...
     const ext = path.parse(pathname).ext;
     // console.log(parsedUrl);
-    console.log(req.url);
+    // console.log(req.url);
     if (urld.indexOf('/littlefox/player/story=') >= 0) {
         console.log(urld);
       
