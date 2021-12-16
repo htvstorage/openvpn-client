@@ -4,6 +4,7 @@
  * To change this template file, choose Tools Templates
  * and open the template in the editor.
  */
+
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -28,7 +29,7 @@ public class MetricsBenchmark {
     private final LongAdder current = new LongAdder();
     private final LongAdder totalTime = new LongAdder();
     private final LongAdder totalCurrentTime = new LongAdder();
-    private final concurrentHashMap<String, AtomicLong> threshold = new ConcurrentHashMap>()
+    private final ConcurrentHashMap<String, AtomicLong> threshold = new ConcurrentHashMap<>();
     public static Long[] thresholdTime = new Long[] { 100L, 200L, 300L, 500L, 1000L, 5000L };
     private long minProcessTime = Long.MAX_VALUE;
     private long maxProcessTime;
@@ -42,15 +43,15 @@ public class MetricsBenchmark {
     private double avgCurSize;
     private double throughput;
     private final LongAdder totalBytes = new LongAdder();
-    private final LongAdder totalCurThroughput = new LongAdder();=
-    private double avgtps;
+    private final LongAdder totalCurThroughput = new LongAdder();
+    private double avgTps;
     private double minTps = Double.MAX_VALUE;
     private double maxTps;
     private long lastTime;
     private long startTime;
     public long intervalStatistic = Long.getLong("intervalStatistic", 5000);
     public long msgStatistic = Long.getLong("numberMsgStatistic", 1000000);
-    private static int maxobjectLength = 0;
+    private static int maxObjectlength = 0;
     private static int[] headLen = new int[19];
     private static int[] max = new int[19];
     private final static String[] names = new String[] { "Metrics object ", " Total ",
@@ -59,14 +60,19 @@ public class MetricsBenchmark {
             " maxCurSize ", " avgCurSize", "Throughput ", " TotalMB", "Threshold" };
 
     static {
-        for (int i = 0; i < headLen.Length; i++) {
+        for (int i = 0; i < headLen.length; i++) {
             headLen[i] = names[i].length();
         }
     }
     private final String[] values = new String[19];
     private long lastTotalMsg = 0;
     private final DecimalFormat decimalFormat = new DecimalFormat("###,##0.000");
-    private static final ThreadLocal<SimpleDateFormat> dateFormat=new ThreadLocal<SimpleDateFormat>(){@Override protected SimpleDateFormat initialValue(){return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.S");}};
+    private static final ThreadLocal<SimpleDateFormat> dateFormat = new ThreadLocal<SimpleDateFormat>() {
+        @Override
+        protected SimpleDateFormat initialValue() {
+            return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.S");
+        }
+    };
     private final StringBuilder sb = new StringBuilder();
     private final StringBuilder sbh = new StringBuilder();
     private static final ReentrantLock rtLock = new ReentrantLock();
@@ -115,16 +121,16 @@ public class MetricsBenchmark {
             rtLock.lock();
             try {
                 if (!settedThreshold) {
-                    object o = config;
+                    Object o = config;
                     if (o != null) {
-                        String r = (string) o;
+                        String r = (String) o;
                         String[] rs = r.split("");
                         List<Long> ll = new ArrayList();
                         for (String s : rs) {
                             try {
-                                Long l = Long.valueof(s.trim());
+                                Long l = Long.valueOf(s.trim());
                                 if (l > 0) {
-                                    ll.add(L);
+                                    ll.add(l);
                                 }
                             } catch (Exception e) {
                                 logger.error(e, e);
@@ -132,18 +138,18 @@ public class MetricsBenchmark {
                         }
 
                         if (ll.size() > 2) {
-                            Collections.sort(LL);
+                            Collections.sort(ll);
                             Long[] th = new Long[ll.size()];
                             ll.toArray(th);
                             logger.info("Config threshold time " + th);
-                            Logger.info("Config threshold time " + ll);
+                            logger.info("Config threshold time " + ll);
                             thresholdTime = th;
                         }
                     }
                     settedThreshold = true;
                 }
             } catch (Exception ex) {
-                Logger.error(ex.getMessage(), ex);
+                logger.error(ex.getMessage(), ex);
             } finally {
                 rtLock.unlock();
             }
@@ -156,11 +162,11 @@ public class MetricsBenchmark {
 
     public void statisticMetris(long incommingTime, long messageSize, String objectName) {
         if (metricName == null || metricName.isEmpty()) {
-        metricName = objectName;
+            metricName = objectName;
         }
         if (startTime == 0) {
-        startTime = System.currentTimeMillis() - 1;
-        lastTime = startTime;
+            startTime = System.currentTimeMillis() - 1;
+            lastTime = startTime;
         }
         total.increment();
         current.increment();
@@ -169,120 +175,141 @@ public class MetricsBenchmark {
         totalTime.add(processTime);
         totalCurrentTime.add(processTime);
         if (processTime < minProcessTime) {
-        minProcessTime = processTime;
+            minProcessTime = processTime;
         }
-        String rangekey = getRange (processTime);
-        =
+        String rangeKey = getRange(processTime);
         AtomicLong al = threshold.get(rangeKey);
-        if (al null) {
-        obj Lock.lock();
-        try {
-        al =
-        threshold.get(rangeKey);
         if (al == null) {
-        al = new AtomicLong (o);
-        threshold.put(rangekey, al);
+            objLock.lock();
+            try {
+                al = threshold.get(rangeKey);
+                if (al == null) {
+                    al = new AtomicLong(0);
+                    threshold.put(rangeKey, al);
+                }
+            } catch (Exception e) {
+                logger.error(e.getMessage(), e);
+            } finally {
+                objLock.unlock();
+            }
         }
-        } catch (Exception e) {
-        Logger.error(e.getMessage(), e);
-        } finally {
-        objLock.unlock();
-        }
-        }
-        long value al.incrementAndGet();
+        long value = al.incrementAndGet();
         if (value >= Long.MAX_VALUE - 10) {
-        al.set(0);
+            al.set(0);
         }
         if (maxProcessTime < processTime) {
-        maxProcessTime = processTime;
+            maxProcessTime = processTime;
         }
         if (processTime < minCurrentProcessTime) {
-        minCurrentProcessTime = processTime;
+            minCurrentProcessTime = processTime;
         }
-        if (max Current ProcessTime < processTime) {
-        maxCurrentProcessTime = processTime;
+        if (maxCurrentProcessTime < processTime) {
+            maxCurrentProcessTime = processTime;
         }
-        if (maxcursize < messageSize) {
-        max CurSize = messageSize;
+        if (maxCurSize < messageSize) {
+            maxCurSize = messageSize;
         }
         if (minCurSize > messageSize) {
-        minCurSize = messageSize;
+            minCurSize = messageSize;
         }
         totalCurThroughput.add(messageSize);
         totalBytes.add(messageSize);
         totalCurThroughput.add(messageSize);
         totalBytes.add(messageSize);
-        if (currentTime lastTime > intervalstatistic || total.sum() - lastTotalMsg >= msgStatistic) {
-        objLock.lock();
-        try {
-        if (currentTime - lastTime > intervalstatistic || total.sum() - lastTotalMsg >= msgStatistic) {
-        currentTps = current. sum() * 1000.0 / (currentTime - lastTime);
-        avgTps = total.sum() * 1000.0 / (currentTime - startTime);
-        avgProcessTime = (double) totalTime.sum() / total.sum();
-        avgCurrentProcessTime = (double) totalCurrentTime.sum() / current.sum();
-        if (minTps > currentTps) {
-        mintos = currentTps;
-        }
-        if (maxTps < currentTps) {
-        maxTps = currentTps;
-        }
-        avgCurSize = totalcurThroughput.sum() * 1.0 / current.sum();
-        throughput = totalCurThroughput.sum() * 1.0 / (currentTime - lastTime);
-        Long lines = lineCounter.getAndIncrement();
-        sb.setLength(0);
-        sbh.setLength();
-        boolean f = true;
-        for (Entry<String, AtomicLong> e : threshold.entrySet()) {
-        if (!f) {
-        sbh.append(" ");
-        }
-        f = false;
-        sbh.append(e.getKey().append("=").append(e.getValue().get());
-        }
-        int idx = 0;
-        values[idx++] = objectName;
-        values[idx++] = total.toString();
-        values[idx++] = decimalFormat.format(avgTps);
-        values[idx++] = String.valueof (minProcessTime);
-        values[idx++] = String.valueof (maxProcessTime);
-        values[idx++] = decimalFormat.format(avgProcessTime);
-        values[idx++] = current.toString();
-        values[idx++] = decimalFormat.format(currentTps);
-        values[idx++] = decimalFormat.format(minTps);
-        values[idx++] = decimalFormat.format(maxTps);
-        values[idx++] = String.valueof(minCurrent ProcessTime);values[idx++]=String.valueof(maxCurrentProcessTime);values[idx++]=decimalFormat.format(avgCurrentProcessTime);values[idx++]=String.valueof(minCurSize);values[idx++]=String.valueof(maxcursize);values[idx++]=decimalFormat.format(avgCurSize);values[idx++]String.valueof(maxCurSize);values[idx++]decimalFormat.format(avgCurSize);values[idx++]=decimalFormat.format(throughput);values[idx++]=decimalFormat.format(totalBytes.sum()*1.0/1024/1024);values[idx++]=sbh.toString();
+        if (currentTime - lastTime > intervalStatistic || total.sum() - lastTotalMsg >= msgStatistic) {
+            objLock.lock();
+            try {
+                if (currentTime - lastTime > intervalStatistic || total.sum() - lastTotalMsg >= msgStatistic) {
+                    currentTps = current.sum() * 1000.0 / (currentTime - lastTime);
+                    avgTps = total.sum() * 1000.0 / (currentTime - startTime);
+                    avgProcessTime = (double) totalTime.sum() / total.sum();
+                    avgCurrentProcessTime = (double) totalCurrentTime.sum() / current.sum();
+                    if (minTps > currentTps) {
+                        minTps = currentTps;
+                    }
+                    if (maxTps < currentTps) {
+                        maxTps = currentTps;
+                    }
+                    avgCurSize = totalCurThroughput.sum() * 1.0 / current.sum();
+                    throughput = totalCurThroughput.sum() * 1.0 / (currentTime - lastTime);
+                    Long lines = lineCounter.getAndIncrement();
+                    sb.setLength(0);
+                    sbh.setLength(0);
+                    boolean f = true;
+                    for (Entry<String, AtomicLong> e : threshold.entrySet()) {
+                        if (!f) {
+                            sbh.append(" ");
+                        }
+                        f = false;
+                        sbh.append(e.getKey()).append("=").append(e.getValue().get());
+                    }
+                    int idx = 0;
+                    values[idx++] = objectName;
+                    values[idx++] = total.toString();
+                    values[idx++] = decimalFormat.format(avgTps);
+                    values[idx++] = String.valueOf(minProcessTime);
+                    values[idx++] = String.valueOf(maxProcessTime);
+                    values[idx++] = decimalFormat.format(avgProcessTime);
+                    values[idx++] = current.toString();
+                    values[idx++] = decimalFormat.format(currentTps);
+                    values[idx++] = decimalFormat.format(minTps);
+                    values[idx++] = decimalFormat.format(maxTps);
+                    values[idx++] = String.valueOf(minCurrentProcessTime);
+                    values[idx++] = String.valueOf(maxCurrentProcessTime);
+                    values[idx++] = decimalFormat.format(avgCurrentProcessTime);
+                    values[idx++] = String.valueOf(minCurSize);
+                    values[idx++] = String.valueOf(maxCurSize);
+                    values[idx++] = decimalFormat.format(avgCurSize);
+                    values[idx++] = decimalFormat.format(throughput);
+                    values[idx++] = decimalFormat.format(totalBytes.sum() * 1.0 / 1024 / 1024);
+                    values[idx++] = sbh.toString();
 
-    String format;if(ma xobjectLength<objectName.length())
-    {
-        maxobjectLength = objectName.length();
-    }if(lines%headcycle==0)
-    {
-        max[0] = max objectLength + 2;
-        for (int i = 0; i < values. Length; i++) {
-        headLen[i] = Math.max (Math.max(names[i].length(), values[i].length() + 2), max
-        nax[i]);
-        format = String.format("9" + head Len[i] + "SI", names[i]);
-        sb.append(format);
+                    String format;
+                    if (maxObjectlength < objectName.length()) {
+                        maxObjectlength = objectName.length();
+                    }
+                    if (lines % headcycle == 0) {
+                        max[0] = maxObjectlength + 2;
+                        for (int i = 0; i < values.length; i++) {
+                            headLen[i] = Math.max(Math.max(names[i].length(), values[i].length() + 2), max[i]);
+                            format = String.format("%" + headLen[i] + "s|", names[i]);
+                            sb.append(format);
+                        }
+                        logger.info(sb.toString());
+                        for (int i = 0; i < max.length; i++) {
+                            max[i] = 0;
+                        }
+                    }
+                    sb.setLength(0);
+                    for (int i = 1; i < max.length; i++) {
+                        if (max[i] < values[i].length() + 2) {
+                            max[i] = values[i].length() + 2;
+                        }
+                    }
+                    for (int i = 0; i < values.length; i++) {
+                        format = String.format("%" + headLen[i] + "s", values[i]);
+                        sb.append(format).append("|");
+                    }
+
+                    logger.info(sb.toString());
+                    sb.setLength(0);
+                    sbh.setLength(0);
+                    current.reset();
+
+                    totalCurrentTime.reset();
+                    lastTime = System.currentTimeMillis();
+                    maxCurrentProcessTime = 0;
+                    minCurrentProcessTime = Double.MAX_VALUE;
+                    lastTotalMsg = total.sum();
+                    maxCurSize = 0;
+                    minCurSize = Long.MAX_VALUE;
+                    totalCurThroughput.reset();
+                }
+            } catch (Exception ex) {
+                logger.error(ex.getMessage(), ex);
+            } finally {
+                objLock.unlock();
+            }
         }
-        Logger.info(sb.toString());
-        for (int i = 0; i < max. length; i++) {
-        max[i] = 0;
-        }
-        }sb.setLength();for(
-    int i = 1;i<max.length;i++)
-    {
-        if (max[i] < values[i].length() + 2) {
-            max[i] = values[i].length() + 2;
-        }
-    }=for(
-    int i = 0;i<values.length;i++)
-    {
-        format String.format("9" + headLen[i] + "s", values[i]);
-        sb.append(format).append("");
-        }logger.info(sb.toString());sb.setLength();sbh.setLength();current.reset();
-    total currentTime.reset();lastTime=System.currentTimeMillis();maxCurrentProcessTime=0;minCurrentProcessTime=Double.MAX_VALUE;lastTotalMsg=total.sum();maxCurSize=0;minCurSize=Long.MAX_VALUE;totalcurThroughput.reset();}}catch(Exception ex)
-    {
-        logger.error(ex.getMessage(), ex);
-    }finally
-    {}
-}}}
+    }
+}
