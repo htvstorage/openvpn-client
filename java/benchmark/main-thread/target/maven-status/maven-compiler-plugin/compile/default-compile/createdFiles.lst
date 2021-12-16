@@ -1,2 +1,4 @@
 org/art/mainthread/Main.class
 org/art/mainthread/ThreadInfo.class
+MetricsBenchmark.class
+MetricsBenchmark$1.class
