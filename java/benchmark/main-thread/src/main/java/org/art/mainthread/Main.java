@@ -17,13 +17,13 @@ public class Main {
 
         LOG.info("Main thread info: {}", mainThreadInfo.toString());
 
-        while(true){
-            try{
-                           Thread.sleep(2000);
-            }catch( Exception ex){}
+        // while(true){
+        //     try{
+        //                    Thread.sleep(2000);
+        //     }catch( Exception ex){}
 
  
-            LOG.info("Main thread info: {}", mainThreadInfo.toString());
-        }
+        //     LOG.info("Main thread info: {}", mainThreadInfo.toString());
+        // }
     }
 }

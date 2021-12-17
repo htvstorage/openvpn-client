@@ -55,7 +55,7 @@ public class MetricsBenchmark {
     private static int[] headLen = new int[19];
     private static int[] max = new int[19];
     private final static String[] names = new String[] { "Metrics object ", " Total ",
-            " avgTps ", " mintime ", " maxTime ", " avgTime ", " current ", " curTps ",
+            " avgTps ", " minTime ", " maxTime ", " avgTime ", " current ", " curTps ",
             " minTps ", " maxTps ", " minCurTime ", " maxCurTime ", " avgCurTime ", " minCurSize ",
             " maxCurSize ", " avgCurSize", "Throughput ", " TotalMB", "Threshold" };
 
@@ -212,8 +212,6 @@ public class MetricsBenchmark {
         if (minCurSize > messageSize) {
             minCurSize = messageSize;
         }
-        totalCurThroughput.add(messageSize);
-        totalBytes.add(messageSize);
         totalCurThroughput.add(messageSize);
         totalBytes.add(messageSize);
         if (currentTime - lastTime > intervalStatistic || total.sum() - lastTotalMsg >= msgStatistic) {
