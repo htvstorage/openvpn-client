@@ -7,13 +7,4 @@
       <class name="MainLogTest"/>
     </classes>
   </test> <!-- Surefire test -->
-  <test name="Surefire test(failed)">
-    <classes>
-      <class name="MainLogTest">
-        <methods>
-          <include name="testMain"/>
-        </methods>
-      </class> <!-- MainLogTest -->
-    </classes>
-  </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

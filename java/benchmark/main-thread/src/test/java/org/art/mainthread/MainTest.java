@@ -9,7 +9,6 @@ public class MainTest {
     @Test
     public void testMain() throws Exception {
         Main.main(new String[]{});
-        // MainLog.main(new String[]{});
     }
 
 }

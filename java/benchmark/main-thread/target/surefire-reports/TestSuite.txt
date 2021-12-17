@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.865 sec <<< FAILURE! - in TestSuite
-testMain(MainLogTest)  Time elapsed: 0.54 sec  <<< FAILURE!
-org.apache.logging.log4j.core.config.ConfigurationException: No appenders are available for AsyncAppender Async
-	at MainLogTest.testMain(MainLogTest.java:10)
-
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.226 sec - in TestSuite

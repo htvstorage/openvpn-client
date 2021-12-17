@@ -1,4 +1,5 @@
 org/art/mainthread/Main.class
 org/art/mainthread/ThreadInfo.class
 MetricsBenchmark.class
+MainLog.class
 MetricsBenchmark$1.class
