@@ -1,0 +1,28 @@
+=============== Dec 24, 2021 (UTC) ===============
+10:53:36.212979 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:53:36.216900 db@open opening
+10:53:36.217726 version@stat F·[] S·0B[] Sc·[]
+10:53:36.219029 db@janitor F·2 G·0
+10:53:36.219055 db@open done T·2.1409ms
+10:53:36.225057 db@close closing
+10:53:36.225174 db@close done T·96.632µs
+=============== Dec 24, 2021 (UTC) ===============
+10:54:18.657738 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:54:18.657852 version@stat F·[] S·0B[] Sc·[]
+10:54:18.657870 db@open opening
+10:54:18.657902 journal@recovery F·1
+10:54:18.660713 journal@recovery recovering @1
+10:54:18.664438 memdb@flush created L0@2 N·624 S·50KiB "\x02d\xfc..\x19Ba,v432":"\xfe\x88\xcf..H\xef\xcc,v362"
+10:54:18.667348 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+10:54:18.672634 db@janitor F·3 G·0
+10:54:18.672667 db@open done T·14.789035ms
+=============== Dec 27, 2021 (UTC) ===============
+03:59:35.593041 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:59:35.595034 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+03:59:35.595069 db@open opening
+03:59:35.595114 journal@recovery F·1
+03:59:35.597967 journal@recovery recovering @3
+03:59:35.625487 memdb@flush created L0@5 N·10101 S·515KiB "Dat..ion,v626":"unc..own,v631"
+03:59:35.628870 version@stat F·[2] S·565KiB[565KiB] Sc·[0.50]
+03:59:35.634370 db@janitor F·4 G·0
+03:59:35.634412 db@open done T·39.334686ms

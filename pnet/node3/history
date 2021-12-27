@@ -1,0 +1,7 @@
+admin.nodeInfo;
+admin.peers
+admin.addPeer("enode://9f621b1db450ae1c3f687ec06165d7dcd26f9e2d921251e1cf8e9aace2f0d602dc8842090be8732206a6bf50132420e8c482bf85fe70679781e40bced5b19465@127.0.0.1:3010");
+admin.peers
+eth.accounts;
+eth.getBalance("0x953b21e1ce4609958a011a0a8fa12b7582f5570e");
+admin.nodeInfo
