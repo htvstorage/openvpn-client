@@ -1,0 +1,5 @@
+clique.propose("0xebda65bcc6b131f61bdd60be76bf29447249a432",true);
+eth.coinbase;
+eth.getBalance(eth.coinbase)
+personal.listWallets
+eth.getBalance(eth.coinbase)

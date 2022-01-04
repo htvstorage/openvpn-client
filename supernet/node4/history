@@ -1,0 +1,8 @@
+clique.propose("0xebda65bcc6b131f61bdd60be76bf29447249a432",true);
+eth.coinbase
+clique.getSnapshot()
+clique.propose("0xe07d046cfaa4f7fd1f6cf810be7d0359216f417b",true)
+clique.getSnapshot()
+miner.start()
+clique.propose("0xe07d046cfaa4f7fd1f6cf810be7d0359216f417b",true)
+personal.listWallets

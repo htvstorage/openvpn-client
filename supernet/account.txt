@@ -1,0 +1,71 @@
+rd password.txt
+geth --datadir node3/ account new --password password.txt
+geth --datadir node4/ account new --password password.txt
+geth --datadir node5/ account new --password password.txtINFO [01-04|09:57:09.386] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-04|09:57:09.387] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+
+Your new key was generated
+
+Public address of the key:   0x39a9Da4C40E157bCB54ab2F3C9f06B6EBd30A897
+Path of the secret key file: node1/keystore/UTC--2022-01-04T09-57-09.387221250Z--39a9da4c40e157bcb54ab2f3c9f06b6ebd30a897
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+gitpod /workspace/openvpn-client/supernet $ geth --datadir node2/ account new --password password.txt
+INFO [01-04|09:57:13.848] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-04|09:57:13.848] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+
+Your new key was generated
+
+Public address of the key:   0xAaE0f0D0D914B204d2ffD78e5774ab9C8838C467
+Path of the secret key file: node2/keystore/UTC--2022-01-04T09-57-13.848701488Z--aae0f0d0d914b204d2ffd78e5774ab9c8838c467
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+gitpod /workspace/openvpn-client/supernet $ geth --datadir node3/ account new --password password.txt
+INFO [01-04|09:57:17.518] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-04|09:57:17.518] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+
+Your new key was generated
+
+Public address of the key:   0xEbda65BcC6B131f61BDd60bE76BF29447249a432
+Path of the secret key file: node3/keystore/UTC--2022-01-04T09-57-17.518959420Z--ebda65bcc6b131f61bdd60be76bf29447249a432
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+gitpod /workspace/openvpn-client/supernet $ geth --datadir node4/ account new --password password.txt
+INFO [01-04|09:57:20.937] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-04|09:57:20.937] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+
+Your new key was generated
+
+Public address of the key:   0xe07D046CFaa4f7fD1F6cF810BE7D0359216F417b
+Path of the secret key file: node4/keystore/UTC--2022-01-04T09-57-20.937618089Z--e07d046cfaa4f7fd1f6cf810be7d0359216f417b
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+gitpod /workspace/openvpn-client/supernet $ geth --datadir node5/ account new --password password.txt
+INFO [01-04|09:57:29.156] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-04|09:57:29.156] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+
+Your new key was generated
+
+Public address of the key:   0x25434eF1548c39A6Df6DE872EeD77de0b15Cc354
+Path of the secret key file: node5/keystore/UTC--2022-01-04T09-57-29.157022558Z--25434ef1548c39a6df6de872eed77de0b15cc354
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
