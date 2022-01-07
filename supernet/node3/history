@@ -8,3 +8,5 @@ miner.stop()
 miner.start()
 clique.propose("0xe07d046cfaa4f7fd1f6cf810be7d0359216f417b",true)
 personal.listWallets
+miner.start()
+personal.listWallets

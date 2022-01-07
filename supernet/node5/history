@@ -3,3 +3,4 @@ eth.coinbase;
 eth.getBalance(eth.coinbase)
 personal.listWallets
 eth.getBalance(eth.coinbase)
+eth.getBalance(eth.coinbase);
