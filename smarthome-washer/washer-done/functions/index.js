@@ -358,7 +358,7 @@ app.onDisconnect((body, headers) => {
 //   }
 // });
 
-eapp.all('/requestsync*', function(request, response) {
+eapp.all('/requestsync*', async function(request, response) {
   response.set('Access-Control-Allow-Origin', '*');
   console.info(`Request SYNC for user ${USER_ID}`);
   try {
@@ -377,6 +377,18 @@ eapp.all('/requestsync*', function(request, response) {
 
 var httpServer = http.createServer(eapp);
 httpServer.listen(8080);
+
+
+const express2 = require('express')
+const bodyParser = require('body-parser')
+
+// ... app code here
+
+const expressApp = express2().use(bodyParser.json())
+
+expressApp.post('/fulfillment', app)
+
+expressApp.listen(3000)
 
 /**
  * Send a REPORT STATE call to the homegraph when data for any device id
