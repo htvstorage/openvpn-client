@@ -227,7 +227,7 @@ app.onSync((body) => {
 const queryFirebase = async (deviceId) => {
   // const snapshot = await firebaseRef.child(deviceId).once('value');
   // const snapshotVal = snapshot.val();
-  console.log("deviceId", deviceId);
+  console.log("deviceId--", deviceId);
   return {
     on: true,
     isPaused: true,
@@ -375,8 +375,17 @@ eapp.all('/requestsync*', async function(request, response) {
   }
 });
 
+eapp.all('/*', function(req, res, next) {
+  console.error('Intercepting requests ...',req.query);
+  console.error('Intercepting body ...',req.body);
+  console.error('Intercepting header ...',req.headers);
+  next();  // call next() here to move on to next middleware/router
+});
+
 var httpServer = http.createServer(eapp);
 httpServer.listen(8080);
+
+
 
 
 const express2 = require('express')
@@ -385,8 +394,26 @@ const bodyParser = require('body-parser')
 // ... app code here
 
 const expressApp = express2().use(bodyParser.json())
+// let demoLogger = (req, res, next) => { 
+//   console.error('Intercepting requests ...',req.url);
+//   console.error('Intercepting requests ...',req.query);
+//   console.error('Intercepting body ...',req.body);
+//   console.error('Intercepting header ...',req.headers);
+//   next();  // call next() here to move on to next middleware/router  
+// };
+// expressApp.use(demoLogger);
+
+expressApp.all('/*', function(req, res, next) {
+  console.error('Intercepting requests ...',req.url);
+  console.error('Intercepting requests ...',req.query);
+  console.error('Intercepting body ...',req.body);
+  console.error('Intercepting header ...',req.headers);
+  next();  // call next() here to move on to next middleware/router
+});
 
 expressApp.post('/fulfillment', app)
+
+
 
 expressApp.listen(3000)
 
