@@ -406,7 +406,7 @@ const expressApp = express2().use(bodyParser.json())
 expressApp.all('/*', function(req, res, next) {
   console.error('Intercepting requests ...',req.url);
   console.error('Intercepting requests ...',req.query);
-  console.error('Intercepting body ...',req.body);
+  console.error('Intercepting body ...',JSON.stringify(req.body));
   console.error('Intercepting header ...',req.headers);
   next();  // call next() here to move on to next middleware/router
 });
