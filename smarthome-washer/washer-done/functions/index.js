@@ -224,14 +224,20 @@ app.onSync((body) => {
   };
 });
 
+var storeState = { on: true,
+  isPaused: false,
+  isRunning: false
+};
+
+
 const queryFirebase = async (deviceId) => {
   // const snapshot = await firebaseRef.child(deviceId).once('value');
   // const snapshotVal = snapshot.val();
   console.log("deviceId--", deviceId);
   return {
-    on: true,
-    isPaused: true,
-    isRunning: false,
+    on: storeState.on,
+    isPaused: storeState.isPaused,
+    isRunning: storeState.isRunning,
   };
 };
 const queryDevice = async (deviceId) => {
@@ -281,14 +287,17 @@ const updateDevice = async (execution, deviceId) => {
     case 'action.devices.commands.OnOff':
       state = {on: params.on};
       //ref = firebaseRef.child(deviceId).child('OnOff');
+      storeState.on = state.on;
       break;
     case 'action.devices.commands.StartStop':
       state = {isRunning: params.start};
       //ref = firebaseRef.child(deviceId).child('StartStop');
+      storeState.isRunning = state.isRunning;
       break;
     case 'action.devices.commands.PauseUnpause':
       state = {isPaused: params.pause};
       //ref = firebaseRef.child(deviceId).child('StartStop');
+      storeState.isPaused = state.isPaused;
       break;
   }
 
