@@ -16,7 +16,7 @@
 
 'use strict';
 
-const functions = require('firebase-functions');
+//const functions = require('firebase-functions');
 const {smarthome} = require('actions-on-google');
 const {google} = require('googleapis');
 const util = require('util');
@@ -26,6 +26,7 @@ admin.initializeApp();
 //const firebaseRef = admin.database().ref('/');
 // Initialize Homegraph
 const auth = new google.auth.GoogleAuth({
+  keyFilename: 'smart-home-key.json',
   scopes: ['https://www.googleapis.com/auth/homegraph'],
 });
 const homegraph = google.homegraph({
