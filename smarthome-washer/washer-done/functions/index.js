@@ -209,17 +209,20 @@ app.onSync((body) => {
           defaultNames: ['My Washer'],
           name: 'Washer',
           nicknames: ['Washer'],
-        },
-        deviceInfo: {
-          manufacturer: 'Acme Co',
-          model: 'acme-washer',
-          hwVersion: '1.0',
-          swVersion: '1.0.1',
-        },
-        willReportState: true,
-        attributes: {
-          pausable: true,
-        },
+        }
+      }, {
+        id: 'light',
+        type: 'action.devices.types.LIGHT',
+        traits: [
+          'action.devices.traits.Brightness',
+          'action.devices.traits.OnOff',
+          'action.devices.traits.ColorSetting'
+        ],
+        name: {
+          defaultNames: [`Smart Lamp`],
+          name: 'Smart Lamp',
+          nicknames: ['abc']         
+        }     
       }],
     },
   };
