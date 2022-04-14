@@ -1,0 +1,24 @@
+language: node_js
+
+sudo: false
+
+matrix:
+  include:
+    - node_js: node
+      script:
+        - npm run-script test
+
+node_js:
+  - 6
+  - 7
+  - 8
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - npm config set spin false
+
+after_success:
+  - nyc npm test && nyc report --reporter=text-lcov | coveralls
