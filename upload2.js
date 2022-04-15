@@ -43,6 +43,7 @@ var server = http.createServer(function (request, response) {
     // request.pipe(outputFile);
 
     form.parse(request, function (err, fields, files) {
+      try{
       //   res.writeHead(200, { 'content-type': 'text/plain' });
       //   res.write('received upload:\n\n');
       //   res.end(util.inspect({ fields: fields, files: files }));
@@ -65,6 +66,10 @@ var server = http.createServer(function (request, response) {
           }
         }
       }
+    
+    }catch(error){
+      console.log(error);
+    }
     });
 
 
