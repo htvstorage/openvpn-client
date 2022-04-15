@@ -98,9 +98,9 @@ alexaApp.discovery((request, response) => {
   console.error('Discovery==============================');
   response.endpoint(
     {
-        "endpointId": "sample-bulb-05",
+        "endpointId": "sample-bulb-07",
         "manufacturerName": "Smart Device Company",
-        "friendlyName": "Livingroom lamp",
+        "friendlyName": "SongNam Lamp",
         "description": "Virtual smart light bulb",
         "displayCategories": ["LIGHT"],
         "additionalAttributes":  {
@@ -169,6 +169,76 @@ alexaApp.cameraStreamController((request, response) => {
   });
 });
 
+
+alexaApp.powerController((req, res) => {
+    console.error('powerController==============================');
+
+    var payload = req.data;
+
+
+    console.log("Payload ", payload);
+    console.log("Req ", req);
+        var request = req;
+     //var request = JSON.parse(payload);
+    //     //get device ID passed in during discovery
+
+        var requestMethod = request.header.name;
+        var responseHeader = request.header;
+        responseHeader.namespace = "Alexa";
+        responseHeader.name = "Response";
+        responseHeader.messageId = responseHeader.messageId + "-R";
+        // get user token pass in request
+        var requestToken = request.data.directive.endpoint.scope.token;
+        var powerResult;
+
+        if (requestMethod === "TurnOn") {
+
+            // Make the call to your device cloud for control
+            // powerResult = stubControlFunctionToYourCloud(endpointId, token, request);
+            powerResult = "ON";
+        }
+       else if (requestMethod === "TurnOff") {
+            // Make the call to your device cloud for control and check for success
+            // powerResult = stubControlFunctionToYourCloud(endpointId, token, request);
+            powerResult = "OFF";
+        }
+        // Return the updated powerState.  Always include EndpointHealth in your Alexa.Response
+        var contextResult = {
+            "properties": [{
+                "namespace": "Alexa.PowerController",
+                "name": "powerState",
+                "value": powerResult,
+                "timeOfSample": "2017-09-03T16:20:50.52Z", //retrieve from result.
+                "uncertaintyInMilliseconds": 50
+            },
+            {
+                "namespace": "Alexa.EndpointHealth",
+                "name": "connectivity",
+                "value": {
+                "value": "OK"
+            },
+            "timeOfSample": "2022-03-09T22:43:17.877738+00:00",
+            "uncertaintyInMilliseconds": 0
+            }]
+        };
+        var responseText = {
+            context: contextResult,
+            event: {
+                header: responseHeader,
+                endpoint: {
+                    scope: {
+                        type: "BearerToken",
+                        token: requestToken
+                    },
+                    endpointId: "sample-bulb-01"
+                },
+                payload: {}
+            }
+        };
+        // log("DEBUG", "Alexa.PowerController ", JSON.stringify(responseText));
+        //context.succeed(response);
+        res.endpoint(responseText);
+});
 
 
 app.listen(PORT);
