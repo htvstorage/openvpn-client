@@ -1,0 +1,15 @@
+#Fri Jul 01 04:37:48 UTC 2022
+configuration*?=298DA59337C2D2E0E80A72FC0A96B9F2F2781EDA
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/TopicRoutingRules.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/DumpToStringListener.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/KafkaTableForBridge.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/Rule.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/test/java/org/apache/hadoop/hbase/kafka/TestQualifierMatching.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/test/java/org/apache/hadoop/hbase/kafka/TestProcessMutations.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/KafkaBridgeConnection.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/test/java/org/apache/hadoop/hbase/kafka/TestRouteRules.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/DropRule.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/TopicRule.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/KafkaProxy.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/test/java/org/apache/hadoop/hbase/kafka/ProducerForTesting.java=1656648146448
+/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/test/java/org/apache/hadoop/hbase/kafka/TestDropRule.java=1656648146448

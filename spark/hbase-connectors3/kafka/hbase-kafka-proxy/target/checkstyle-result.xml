@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.28">
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/DropRule.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/DumpToStringListener.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/KafkaBridgeConnection.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/KafkaProxy.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/KafkaTableForBridge.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/Rule.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/TopicRoutingRules.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/main/java/org/apache/hadoop/hbase/kafka/TopicRule.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/test/java/org/apache/hadoop/hbase/kafka/ProducerForTesting.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/test/java/org/apache/hadoop/hbase/kafka/TestDropRule.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/test/java/org/apache/hadoop/hbase/kafka/TestProcessMutations.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/test/java/org/apache/hadoop/hbase/kafka/TestQualifierMatching.java">
+</file>
+<file name="/workspace/hadoop/hbase-connectors/kafka/hbase-kafka-proxy/src/test/java/org/apache/hadoop/hbase/kafka/TestRouteRules.java">
+</file>
+</checkstyle>

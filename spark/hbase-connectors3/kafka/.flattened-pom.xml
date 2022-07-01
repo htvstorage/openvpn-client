@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.apache.hbase.connectors</groupId>
+    <artifactId>hbase-connectors</artifactId>
+    <version>1.0.1-SNAPSHOT</version>
+    <relativePath>../</relativePath>
+  </parent>
+  <groupId>org.apache.hbase.connectors</groupId>
+  <artifactId>kafka</artifactId>
+  <version>1.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Apache HBase - Kafka</name>
+  <description>Kafka Proxy for Apache HBase</description>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <modules>
+    <module>hbase-kafka-model</module>
+    <module>hbase-kafka-proxy</module>
+  </modules>
+  <properties>
+    <avro.version>1.7.7</avro.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.apache.avro</groupId>
+        <artifactId>avro</artifactId>
+        <version>${avro.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.hbase.connectors.kafka</groupId>
+        <artifactId>hbase-kafka-model</artifactId>
+        <version>${revision}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
