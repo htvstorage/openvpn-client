@@ -36,10 +36,12 @@ log4js.configure({
 
   for(let x of abc){
     console.log("====================== Name " + x +" ======================");
-    for(let p of pages ){
+    var p = 0;
+    while(true){
       var url = urlp1 + x + urlp2 + p;
       console.log(url);
-      await page.setDefaultNavigationTimeout(0);
+      // await page.setDefaultNavigationTimeout(0);
+      try{
       await page.goto(url);
       await page.screenshot({ path: 'images/name_'+x+'_'+p + '.png' });
       const ar = await page.evaluate(async () => {
@@ -60,20 +62,27 @@ log4js.configure({
           resolve(ax);
         });
       });
+
       const vv = await ar;
 
       for(let v of vv){
         console.log(v);
         logger.info(v);
       }
-
+      p++;
       if(vv.length == 0){
         break;
       }
+            
+      }catch(e){
+        console.log(e);
+      }
+
+
     }
 
-
-
+    console.log("================================================ END " + x + " ================================================"); 
+    logger.info("================================================ END " + x + " ================================================");
   }
  
 })();
