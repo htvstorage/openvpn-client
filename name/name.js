@@ -6,14 +6,14 @@ import log4js from "log4js";
 //sudo apt-get install -y libatk-bridge2.0-0 libgtk-3.0 libasound2 libgbm-dev
 var logger = log4js.getLogger();
 
-log4js.configure({
-  appenders: {
-    everything: { type: "file", filename: "all-the-logs.log" },
-  },
-  categories: {
-    default: { appenders: ["everything"], level: "debug" },
-  },
-});
+// log4js.configure({
+//   appenders: {
+//     everything: { type: "file", filename: "all-the-logs.log" },
+//   },
+//   categories: {
+//     default: { appenders: ["everything"], level: "debug" },
+//   },
+// });
 
 (async () => {
   const browser = await puppeteer.launch();
@@ -35,6 +35,14 @@ log4js.configure({
   var stories = "https://tenchocon.vn/";
 
   for(let x of abc){
+    log4js.configure({
+      appenders: {
+        everything: { type: "file", filename: x+".log" },
+      },
+      categories: {
+        default: { appenders: ["everything"], level: "debug" },
+      },
+    });    
     console.log("====================== Name " + x +" ======================");
     var p = 0;
     while(true){
@@ -48,16 +56,21 @@ log4js.configure({
         // a = document.querySelectorAll("a.btn.btn-sm.btn-abc");
         var sex = document.querySelectorAll("#ContentPlaceHolderTenChCon_DataList1")[0].querySelectorAll("a.Sex")
         var sexf = document.querySelectorAll("#ContentPlaceHolderTenChCon_DataList1")[0].querySelectorAll("a.SexFalse")
+        var sext = document.querySelectorAll("#ContentPlaceHolderTenChCon_DataList1")[0].querySelectorAll("a.SexTrue")
         ax = [];
         ii = 0;
         for (let i of sex) {
           // console.log(i.innerText);
-          ax.push(i.innerText);
+          ax.push("SEXN "+i.innerText);
         }    
         for (let i of sexf) {
           // console.log(i.innerText);
-          ax.push(i.innerText);
+          ax.push("SEXF "+i.innerText);
         }
+        for (let i of sext) {
+          // console.log(i.innerText);
+          ax.push("SEXT "+i.innerText);
+        }        
         return new Promise(resolve => {
           resolve(ax);
         });
@@ -85,4 +98,6 @@ log4js.configure({
     logger.info("================================================ END " + x + " ================================================");
   }
  
+  browser.close();
+  
 })();
