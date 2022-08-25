@@ -48,12 +48,11 @@ log4js.configure({
         var idx = pointStr.indexOf("/");
         for(var i = idx; i >=0 ; i--){
           if(pointStr.charAt(i) == ' '){
-            // console.log(z.substring(i,idx) + " " + z);
+            console.log(pointStr.substring(i+1,idx) + " " + pointStr.substring(0,i));
             break;
           }
         }
-        console.log(z.substring(idx1,idx2));
-
+        // console.log(z.substring(idx1,idx2));
         break;        
       } catch (e) {
         console.log(e);
