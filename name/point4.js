@@ -25,13 +25,13 @@ log4js.configure({
   var names = [];
   // for (let f of myArgs) {
   var data = fs.readFileSync(myArgs[0], { encoding: 'utf8', flag: 'r' });
-  var nn = data.split("\n");
-  for (let n of nn) dem.push(n.trim());
+  var nn = data.split("\n");  
+  for (let n of nn) if (n.length > 0 ) dem.push(n.trim());
   // }
 
   data = fs.readFileSync(myArgs[1], { encoding: 'utf8', flag: 'r' });
   var nn = data.split("\n");
-  for (let n of nn) names.push(n.trim());
+  for (let n of nn)  if (n.length > 0 )  names.push(n.trim());
 
   //Trịnh Trúc Nhã Phương
   var urlp1 = "https://tenchocon.vn/name/Tr%E1%BB%8Bnh-";
