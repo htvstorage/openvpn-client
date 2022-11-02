@@ -3,36 +3,27 @@
 import { tsvParse, csvParse } from  "d3-dsv";
 import { timeParse } from "d3-time-format";
 
-// import {csvParse} from "https://cdn.skypack.dev/d3-dsv@3";
 function parseData(parse) {
 	return function(d) {
-		// console.log(d)
-		d.date = parse(d.date);
-
-		console.log(d.date);		
+		d.date = parse(d.date);				
 		d.open = +d.open;
 		d.high = +d.high;
 		d.low = +d.low;
 		d.close = +d.close;
 		d.volume = +d.volume;
-		// console.log(typeof(d))		
-		// console.log(d)
 		return d;
 	};
 }
 
 
 function parseData2(parse) {
-	return function(d) {
-		console.log(d);
-		d.date = parse(d.date);
-		console.log(d.date);
+	return function(d) {		
+		d.date = parse(d.date);		
 		d.open = +d.priceOpen;
 		d.high = +d.priceHigh;
 		d.low = +d.priceLow;
 		d.close = +d.priceClose;
 		d.volume = +d.totalVolume;
-
 		return d;
 	};
 }
@@ -66,6 +57,6 @@ export function getData2(symbol) {
 		"method": "GET",
 		"mode": "cors"
 	  }).then(response => response.text())
-		.then(data =>{ var x = JSON.parse(data); for(let e of x){  parseData2(parseDate2)(e); }; console.log(x[0]); x=x.sort(function(a, b){var z=a.date - b.date;console.log(z + " " + b.date + " " + a.date); return z});  return x; } )
+		.then(data =>{ var x = JSON.parse(data); for(let e of x){  parseData2(parseDate2)(e); }; x=x.sort(function(a, b){var z=a.date - b.date;console.log(z + " " + b.date + " " + a.date); return z});  return x; } )
 	return promiseMSFT;
 }
