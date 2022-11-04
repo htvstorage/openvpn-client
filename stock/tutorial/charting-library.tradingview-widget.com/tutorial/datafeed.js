@@ -140,9 +140,9 @@ async function getAllSymbols() {
 	return allSymbols;
 }
 
-function parseData2(parse) {
+function parseData() {
 	return function(d) {		
-		d.date = parse(d.date);		
+		d.time = new Date(d.date).getTime();		
 		d.open = +d.priceOpen;
 		d.high = +d.priceHigh;
 		d.low = +d.priceLow;
@@ -151,8 +151,8 @@ function parseData2(parse) {
 		return d;
 	};
 }
-const parseDate = timeParse("%Y-%m-%d");
-const parseDate2 = timeParse("%Y-%m-%dT%H:%M:%S");
+// const parseDate = timeParse("%Y-%m-%d");
+// const parseDate2 = timeParse("%Y-%m-%dT%H:%M:%S");
 
 export function getData(symbol, from, to) {
 	let url = "https://restv2.fireant.vn/symbols/"+symbol+"/historical-quotes?startDate="+from+"&endDate="+to+"&offset=0&limit=2000000";
@@ -175,7 +175,14 @@ export function getData(symbol, from, to) {
 		"method": "GET",
 		"mode": "cors"
 	  }).then(response => response.text())
-		.then(data =>{ var x = JSON.parse(data); for(let e of x){  parseData2(parseDate2)(e); }; x=x.sort(function(a, b){var z=a.date - b.date;console.log(z + " " + b.date + " " + a.date); return z});  return x; } )
+		.then(data =>{ var x = JSON.parse(data); 
+			for(let e of x){  parseData()(e);  
+			// console.log(e);
+			};
+			x=x.sort(function(a, b){var z=a.time - b.time;
+			// console.log(z + " " + b.date + " " + a.date); 			
+			return z}); 
+			return x; } )
 	return promiseMSFT;
 }
 
@@ -259,7 +266,35 @@ export default {
 			const fs = fd.getFullYear()+"-"+(fd.getMonth()+1)+"-"+fd.getDate()
 			const ts = td.getFullYear()+"-"+(td.getMonth()+1)+"-"+td.getDate()
 			let data =await getData(parsedSymbol.toSymbol,fs,ts);
+			// console.log("Data=>>>>>>> " ,data)
+
 			// return;
+			let bars = [];
+			data.forEach(bar=> {
+				console.log(bar.time); 
+				if (bar.time >= from*1000 && bar.time < to*1000) {
+					console.log("Bar ",bar);
+					bars = [...bars, {
+						time: bar.time,
+						low: bar.low/bar.adjRatio,
+						high: bar.high/bar.adjRatio,
+						open: bar.open/bar.adjRatio,
+						close: bar.close/bar.adjRatio,
+						volumefrom: bar.totalValue,
+						volumeto: bar.totalVolume,
+						volume: bar.volume,
+					}];
+				}
+			});		
+			if (firstDataRequest) {
+				lastBarsCache.set(symbolInfo.full_name, {
+					...bars[bars.length - 1],
+				});
+			}
+			console.log(`[getBars]: returned ${bars.length} bar(s)`);
+			onHistoryCallback(bars, {
+				noData: false,
+			});				
 		}
 		const query = Object.keys(urlParameters)
 			.map(name => `${name}=${encodeURIComponent(urlParameters[name])}`)
@@ -276,12 +311,16 @@ export default {
 			let bars = [];
 			data.Data.forEach(bar => {
 				if (bar.time >= from && bar.time < to) {
+					console.log("Bar ",bar);
 					bars = [...bars, {
 						time: bar.time * 1000,
 						low: bar.low,
 						high: bar.high,
 						open: bar.open,
 						close: bar.close,
+						volumefrom: bar.volumefrom,
+						volumeto: bar.volumeto,
+						volume: bar.volumeto,
 					}];
 				}
 			});
