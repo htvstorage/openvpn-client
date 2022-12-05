@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "json2csv": "^5.0.7",
     "log4js": "^6.6.1",
     "puppeteer": "^16.2.0",
     "xml2json": "^0.12.0"
