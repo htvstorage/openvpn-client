@@ -31,7 +31,7 @@ log4js.configure({
       },
       "referrer": "https://finance.vietstock.vn/doanh-nghiep-a-z?page=0",
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "body": "catID=0&industryID=0&page=3&pageSize=1000&type=0&code=&businessTypeID=0&orderBy=Code&orderDir=ASC&__RequestVerificationToken=OG2V3lTnmB0D7vZLkd9pAilFPditBUL6KpJk7C4Fa2-V0LLJuTOgsHRCOyFMXiqz17v8zJfkTNd0K8HGetRIYr1LLGi0hfCIxLSyEJGoG6AvXJeCRtV1ni_2fMEBgh8A0",
+      "body": "catID=0&industryID=0&page="+i+"&pageSize=1000&type=0&code=&businessTypeID=0&orderBy=Code&orderDir=ASC&__RequestVerificationToken=OG2V3lTnmB0D7vZLkd9pAilFPditBUL6KpJk7C4Fa2-V0LLJuTOgsHRCOyFMXiqz17v8zJfkTNd0K8HGetRIYr1LLGi0hfCIxLSyEJGoG6AvXJeCRtV1ni_2fMEBgh8A0",
       "method": "POST",
       "mode": "cors"
     });
@@ -80,6 +80,6 @@ log4js.configure({
     result = data2.includes("\"");
 
     console.log("result ", result)
-    console.log(data2);
+    // console.log(data2);
   });
 })();
