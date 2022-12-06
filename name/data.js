@@ -49,7 +49,7 @@ log4js.configure({
   let result = data.includes("\"");
 
   console.log("result ", result)
-  
+
 
   // fs.readFile('cop.json', (err, data) => {
   //   if (err) throw err;
@@ -84,50 +84,57 @@ log4js.configure({
   // });
   data = fs.readFileSync('cop.json');
   cop = JSON.parse(data);
-  console.log(cop.length);  
+  console.log(cop.length);
   let counter = 0;
-  for(let x of cop){
+  let csv = new json2csv2.Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });
 
-    if(x.Code.length < 4){
-    fs.appendFile('code.txt', x.Code+"\n", function (err) {
-      if (err) throw err;
-      console.log('Saved!');
+
+  for (let x of cop) {
+
+    if (x.Code.length < 4) {
+      fs.appendFile('code.txt', x.Code + "\n", function (err) {
+        if (err) throw err;
+        // console.log('Saved!');
+      });
+
+      console.log(x.Code)
+
+      let z = getTrans(x.Code);
+      z.then((ret) => {
+        counter++;
+        console.log(ret.data.length, ret.status, ret.execute_time_ms, counter, ret.Code);
+        let data2 = csv.parse(ret.data);
+        fs.appendFile("./trans/" + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+          if (err) throw err;          
+        });
+        })
+      }
+
+
+  }
+  }) ();
+
+
+  async function getTrans(symbol) {
+    let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol=" + symbol + "&page=1&per_page=2000000", {
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site"
+      },
+      "referrer": "https://24hmoney.vn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": null,
+      "method": "GET",
+      "mode": "cors"
     });
-
-    console.log(x.Code)
-
-    let z =   getTrans(x.Code);    
-    z.then((ret) =>{
-      counter++;
-      console.log(ret.data.length,ret.status,ret.execute_time_ms, counter, ret.Code);
-    })
-  }
-
+    let x = await a.json();
+    // console.log(x.data.length,x.status,x.execute_time_ms);
+    x["Code"] = symbol;
+    return x;
 
   }
-})();
-
-
-async function  getTrans(symbol){
-let a =  await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol="+symbol+"&page=1&per_page=2000000", {
-  "headers": {
-    "accept": "application/json, text/plain, */*",
-    "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-    "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-    "sec-ch-ua-mobile": "?0",
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-site"
-  },
-  "referrer": "https://24hmoney.vn/",
-  "referrerPolicy": "strict-origin-when-cross-origin",
-  "body": null,
-  "method": "GET",
-  "mode": "cors"
-});
-let x = await a.json();
-// console.log(x.data.length,x.status,x.execute_time_ms);
-x["Code"] = symbol;
-return x;
-
-}
