@@ -16,9 +16,9 @@ log4js.configure({
 (async () => {
   let cop = [];
   let data = null;
-  data = fs.readFileSync('cop.json');
-  cop = JSON.parse(data);
-  console.log(cop.length);
+  // data = fs.readFileSync('cop.json');
+  // cop = JSON.parse(data);
+  // console.log(cop.length);
   let counter = 0;
   let csv = new json2csv2.Parser(
     {
@@ -28,12 +28,36 @@ log4js.configure({
         'sellCount', 'sellForeignQuantity', 'sellForeignValue', 'sellQuantity', 'symbol', 'totalValue']
     });
 
+    let fet =  await fetch("https://bgapidatafeed.vps.com.vn/getlistallstock", {
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "if-none-match": "W/\"5ac92-c+NqjXQ6D2JFKgaxgUoTpIzr5z8\"",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site"
+      },
+      "referrer": "https://banggia.vps.com.vn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": null,
+      "method": "GET",
+      "mode": "cors"
+    });
+    // fet.then(response => response.json())
+	  // .then(data => console.log(data));
 
+    let xx = await fet.json();
+    console.log(xx.length)
+    cop = [...cop,...xx];
   for (let x of cop) {
-
+    x['Code'] = x.stock_code;
+    x['Exchange']=x.post_to;
     // if (x.Code.length < 4) {
      let a =  x.Exchange.toUpperCase()
-    if (a == "HNX" || a == "UPCOM"||a == "HOSE") {
+    // if (a == "HNX" || a == "UPCOM"||a == "HOSE") {
+      if (true) {
       setTimeout(() => {
         let z = getPrices(x.Code);
         z.then((ret) => {
