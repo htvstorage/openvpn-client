@@ -21,26 +21,30 @@ log4js.configure({
   console.log(cop.length);
   let counter = 0;
   let csv = new json2csv2.Parser(
-    { fields: ['adjRatio', 'buyCount', 'buyForeignQuantity', 'buyForeignValue', 'buyQuantity', 'currentForeignRoom', 
-    'date', 'dealVolume', 'priceAverage', 'priceBasic', 'priceClose', 'priceHigh', 'priceLow', 'priceOpen', 
-    'propTradingNetDealValue', 'propTradingNetPTValue', 'propTradingNetValue', 'putthroughValue', 'putthroughVolume', 
-    'sellCount', 'sellForeignQuantity', 'sellForeignValue', 'sellQuantity', 'symbol', 'totalValue'] });
+    {
+      fields: ['adjRatio', 'buyCount', 'buyForeignQuantity', 'buyForeignValue', 'buyQuantity', 'currentForeignRoom',
+        'date', 'dealVolume', 'priceAverage', 'priceBasic', 'priceClose', 'priceHigh', 'priceLow', 'priceOpen',
+        'propTradingNetDealValue', 'propTradingNetPTValue', 'propTradingNetValue', 'putthroughValue', 'putthroughVolume',
+        'sellCount', 'sellForeignQuantity', 'sellForeignValue', 'sellQuantity', 'symbol', 'totalValue']
+    });
 
 
   for (let x of cop) {
 
-    if (x.Code.length < 4) {
-      setTimeout(() => {        
+    // if (x.Code.length < 4) {
+     let a =  x.Exchange.toUpperCase()
+    if (a == "HNX" || a == "UPCOM"||a == "HOSE") {
+      setTimeout(() => {
         let z = getPrices(x.Code);
         z.then((ret) => {
           counter++;
           console.log(counter, ret.Code);
           let data2 = csv.parse(ret.data);
-          fs.appendFile("./his/" + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+          fs.appendFile("./his/" + ret.Code + "_" + x.Exchange + '_trans.txt', data2 + "\n", function (err) {
             if (err) throw err;
           });
         })
-      }, 100);      
+      }, 100);
     }
   }
 })();
