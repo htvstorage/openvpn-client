@@ -57,3 +57,7 @@
 8.3,0,2300,"bu","09:45:49",2900
 8.3,0,500,"bu","09:30:34",600
 8.3,0,100,"unknown","09:00:17",100
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

@@ -2841,3 +2841,7 @@
 58,-0.3,100,"sd","09:15:45",16100
 58.2,-0.1,600,"sd","09:15:14",16000
 58.3,0,15400,"bu","09:15:02",15400
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

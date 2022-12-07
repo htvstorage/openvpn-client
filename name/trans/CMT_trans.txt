@@ -4,3 +4,7 @@
 11,-1.3,1000,"sd","14:00:49",2600
 11,-1.3,1000,"sd","14:00:40",1600
 12,-0.3,600,"unknown","10:24:53",600
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

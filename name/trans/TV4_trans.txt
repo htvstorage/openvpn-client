@@ -2,3 +2,7 @@
 13.3,0,100,"bu","14:11:45",20100
 13.3,0,10000,"bu","13:20:20",20000
 13.3,0,10000,"bu","13:11:21",10000
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

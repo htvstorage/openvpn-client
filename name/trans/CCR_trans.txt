@@ -12,3 +12,7 @@
 12,-1,500,"sd","13:30:31",1500
 13,0,200,"unknown","09:54:13",1000
 13,0,800,"sd","09:36:47",800
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

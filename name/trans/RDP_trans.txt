@@ -140,3 +140,7 @@
 7.4,0.48,5000,"bu","09:15:40",30400
 7.4,0.48,400,"bu","09:15:40",25400
 7.4,0.48,25000,"bu","09:15:02",25000
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

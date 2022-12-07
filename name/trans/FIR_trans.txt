@@ -211,3 +211,7 @@
 47.1,0,500,"bu","09:15:40",23700
 47,-0.1,300,"bu","09:15:24",23200
 47,-0.1,22900,"bu","09:15:02",22900
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

@@ -3,3 +3,7 @@
 9,-0.9,10700,"bu","13:53:19",10900
 9.6,-0.3,100,"sd","13:35:20",200
 9.6,-0.3,100,"sd","13:00:07",100
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

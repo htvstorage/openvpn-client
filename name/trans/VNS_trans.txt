@@ -7,3 +7,7 @@
 16,-0.9,100,"unknown","14:05:17",900
 16.8,-0.1,400,"sd","13:10:06",800
 16.8,-0.1,400,"bu","13:06:45",400
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

@@ -1330,3 +1330,7 @@
 11.05,0,200,"sd","09:15:25",27800
 11.1,0.05,1000,"bu","09:15:22",27600
 11.1,0.05,26600,"bu","09:15:02",26600
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

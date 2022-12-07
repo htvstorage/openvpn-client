@@ -663,3 +663,7 @@
 9.2,0.1,100,"bu","09:15:04",7800
 9.12,0.02,700,"unknown","09:15:03",7700
 8.61,-0.49,7000,"unknown","09:15:03",7000
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

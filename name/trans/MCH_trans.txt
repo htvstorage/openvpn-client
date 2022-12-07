@@ -53,3 +53,7 @@
 76.4,0.9,200,"bu","09:39:09",700
 76.5,1,400,"sd","09:07:32",500
 76.4,0.9,100,"unknown","09:00:14",100
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

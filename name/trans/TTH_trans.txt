@@ -203,3 +203,7 @@
 2.7,0,300,"bu","09:00:16",4700
 2.7,0,2200,"sd","09:00:10",4400
 2.7,0,2200,"sd","09:00:07",2200
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

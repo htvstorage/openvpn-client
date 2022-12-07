@@ -1796,3 +1796,7 @@
 85.1,0.1,200,"bu","09:15:51",10900
 85.1,0.1,100,"bu","09:15:51",10700
 85,0,10600,"unknown","09:15:05",10600
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

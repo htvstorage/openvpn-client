@@ -236,3 +236,7 @@
 32,-0.2,200,"sd","09:10:14",700
 32.2,0,200,"unknown","09:04:20",500
 32.2,0,300,"sd","09:04:12",300
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

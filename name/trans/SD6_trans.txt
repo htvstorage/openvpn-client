@@ -17,3 +17,7 @@
 3.4,0,500,"unknown","09:31:42",2500
 3.4,0,1500,"bu","09:29:13",2000
 3.4,0,500,"bu","09:18:15",500
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

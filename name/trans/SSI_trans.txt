@@ -17983,3 +17983,7 @@
 20.45,-0.35,400,"bu","09:15:04",443600
 20.4,-0.4,100,"sd","09:15:03",443200
 20.4,-0.4,443100,"unknown","09:15:00",443100
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

@@ -131,3 +131,7 @@
 11.6,-0.2,100,"bu","09:21:21",4300
 11.6,-0.2,3000,"unknown","09:17:13",4200
 11.8,0,1200,"bu","09:00:36",1200
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

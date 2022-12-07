@@ -320,3 +320,7 @@
 5.8,-0.1,1600,"bu","09:01:33",2900
 5.9,0,300,"bu","09:01:12",1300
 5.9,0,1000,"bu","09:00:24",1000
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

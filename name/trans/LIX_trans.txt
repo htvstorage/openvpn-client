@@ -36,3 +36,7 @@
 40,-0.2,5000,"bu","09:28:55",8500
 40,-0.2,3000,"bu","09:26:11",3500
 40.2,0,500,"bu","09:15:04",500
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

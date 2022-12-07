@@ -356,3 +356,7 @@
 9.4,0.5,800,"bu","09:00:11",7600
 9.4,0.5,200,"bu","09:00:06",6800
 9.7,0.8,6600,"bu","09:00:04",6600
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

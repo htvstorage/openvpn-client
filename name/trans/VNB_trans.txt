@@ -50,3 +50,7 @@
 8.2,0,400,"bu","09:21:51",800
 8.1,-0.1,200,"sd","09:19:40",400
 8.2,0,200,"unknown","09:09:27",200
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

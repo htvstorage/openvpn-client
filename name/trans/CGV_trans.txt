@@ -6,3 +6,7 @@
 2.6,-0.3,2000,"sd","14:32:14",2300
 2.7,-0.2,200,"bu","14:26:44",300
 2.6,-0.3,100,"sd","10:15:35",100
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

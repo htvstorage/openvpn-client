@@ -2,3 +2,7 @@
 17.5,2.2,100,"sd","10:31:45",600
 17.5,2.2,300,"sd","10:06:04",500
 17.5,2.2,200,"sd","09:57:30",200
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

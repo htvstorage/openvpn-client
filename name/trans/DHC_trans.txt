@@ -1000,3 +1000,7 @@
 37.05,-0.35,200,"sd","09:18:04",5600
 37.35,-0.05,500,"bu","09:18:02",5400
 37.4,0,4900,"bu","09:15:01",4900
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

@@ -12,3 +12,7 @@
 8,-0.2,2100,"sd","10:08:54",3200
 8,-0.2,1000,"sd","09:44:20",1100
 8,-0.2,100,"sd","09:21:19",100
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

@@ -105,3 +105,7 @@
 10.3,-0.25,1000,"bu","09:24:24",3300
 10.2,-0.35,300,"sd","09:20:11",2300
 10.5,-0.05,2000,"unknown","09:15:05",2000
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

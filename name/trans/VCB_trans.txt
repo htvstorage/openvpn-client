@@ -1604,3 +1604,7 @@
 85,0,300,"bu","09:16:07",14200
 85,0,200,"bu","09:15:51",13900
 85,0,13700,"bu","09:15:04",13700
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

@@ -2378,3 +2378,7 @@
 19.35,-0.55,500,"bu","09:15:13",20900
 19.5,-0.4,500,"unknown","09:15:12",20400
 19.3,-0.6,19900,"sd","09:15:06",19900
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

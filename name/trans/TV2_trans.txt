@@ -160,3 +160,7 @@
 21.25,-0.15,1000,"bu","09:25:57",1500
 21.25,-0.15,200,"bu","09:25:57",500
 21.35,-0.05,300,"bu","09:15:04",300
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

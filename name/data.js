@@ -82,15 +82,17 @@ log4js.configure({
   //   // console.log("result ", result)
   //   // console.log(data2);
   // });
-  data = fs.readFileSync('cop.json');
-  cop = JSON.parse(data);
-  console.log(cop.length);
+  // data = fs.readFileSync('cop.json');
+  // cop = JSON.parse(data);
+  // console.log(cop.length);
   let counter = 0;
-  let csv = new json2csv2.Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });
+  let csv = new json2csv2.Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });  
+  cop = await getlistallstock();
+  
 
 
   for (let x of cop) {
-
+    x['Code'] = x.stock_code;
     if (x.Code.length < 4) {
       fs.appendFile('code.txt', x.Code + "\n", function (err) {
         if (err) throw err;
@@ -137,4 +139,30 @@ log4js.configure({
     x["Code"] = symbol;
     return x;
 
+  }
+
+
+  async function getlistallstock(){
+    let cop = [];
+    let fet =  await fetch("https://bgapidatafeed.vps.com.vn/getlistallstock", {
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "if-none-match": "W/\"5ac92-c+NqjXQ6D2JFKgaxgUoTpIzr5z8\"",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site"
+      },
+      "referrer": "https://banggia.vps.com.vn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": null,
+      "method": "GET",
+      "mode": "cors"
+    });
+    let xx = await fet.json();
+    console.log(xx.length)
+    cop = [...cop,...xx];
+    return cop;
   }

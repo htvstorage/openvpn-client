@@ -240,3 +240,7 @@
 10.3,0,200,"sd","09:02:28",1500
 10.4,0.1,1000,"bu","09:01:30",1300
 10.4,0.1,300,"sd","09:01:15",300
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

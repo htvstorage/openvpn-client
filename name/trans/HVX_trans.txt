@@ -72,3 +72,7 @@
 3.03,0,600,"bu","09:43:40",1100
 3.03,0,400,"sd","09:21:18",500
 3.03,0,100,"sd","09:20:08",100
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

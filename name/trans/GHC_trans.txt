@@ -9,3 +9,7 @@
 26,0.1,1000,"sd","09:37:34",2400
 26,0.1,900,"unknown","09:24:09",1400
 26,0.1,500,"sd","09:20:44",500
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

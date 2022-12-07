@@ -1407,3 +1407,7 @@
 15.3,0.1,2700,"bu","09:00:04",6100
 15.8,0.6,3000,"bu","09:00:02",3400
 13.7,-1.5,400,"unknown","09:00:01",400
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"

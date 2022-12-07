@@ -6,3 +6,7 @@
 72,0,400,"sd","13:22:17",2000
 72,0,100,"bu","13:20:41",1600
 63,-9,1500,"sd","09:27:50",1500
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
