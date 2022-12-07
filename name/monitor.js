@@ -86,9 +86,9 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
               if (watchlist.includes(ret.Code)) {
                 // logger.info("\n",ret.Code,"\n",data2.substr(0,data2.indexOf("\n",200)));
               }
-              fs.appendFile("./trans/" + ret.Code + '_trans.txt', data2 + "\n", function (err) {
-                if (err) throw err;
-              });
+              // fs.appendFile("./trans/" + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+              //   if (err) throw err;
+              // });
             })
           }, 100);
         }
