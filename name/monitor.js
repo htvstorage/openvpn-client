@@ -1,48 +1,188 @@
 import fetch from "node-fetch";
 import fs from "fs";
 import log4js from "log4js";
-import {Parser} from "json2csv"
+import { Parser } from "json2csv"
 var logger = log4js.getLogger();
 
 log4js.configure({
   appenders: {
     everything: { type: "file", filename: "diem.log" },
+    console: { type: "console" },
   },
   categories: {
-    default: { appenders: ["everything"], level: "debug" },
+    default: { appenders: ["console", "everything"], level: "debug" },
+    app: { appenders: ["console"], level: "info" }
   },
 });
+
+// main
+let stockdata = {};
+let checkSymbol = {};
+let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
 (async () => {
   let cop = [];
 
-  let counter = 0;
+  let requested = 0;
+  let responsed = 0;
   let csv = new Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });
   cop = await getlistallstock();
+  let watchlist = ['HPG', 'DCM', 'HSG', 'NKG', 'VIX', 'SHS'];
 
-
+  let total_check = 0;
   for (let x of cop) {
-    x['Code'] = x.stock_code;
-    if (x.Code.length < 4) {
-      fs.appendFile('code.txt', x.Code + "\n", function (err) {
-        if (err) throw err;
-      });
-
-      console.log(x.Code)
-
-      let z = getTrans(x.Code);
-      z.then((ret) => {
-        counter++;
-        console.log(ret.data.length, ret.status, ret.execute_time_ms, counter, ret.Code);
-        let data2 = csv.parse(ret.data);
-        fs.appendFile("./trans/" + ret.Code + '_trans.txt', data2 + "\n", function (err) {
-          if (err) throw err;
-        });
-      })
+    if (x.stock_code.length < 4) {
+      total_check++;
     }
   }
+ 
+
+
+  while (true) {
+    getliststockdata(cop, stockdata);
+    try {
+      let localReq = 0;
+      let localRes = 0;
+      logger.info("Checking", requested, responsed)
+      let sum = {};
+
+      sum['total_vol'] = 0;
+      sum['bu'] = 0;
+      sum['sd'] = 0;
+      sum['other'] = 0;
+      sum['total_val'] = 0;
+      sum['total_vol2'] = 0;
+      for (let x of cop) {
+        x['Code'] = x.stock_code;
+        if (x.Code.length < 4) {
+          logger.trace(x.Code);
+          setTimeout(() => {
+            let z = getTrans(x.Code);
+            requested++;
+            localReq++;
+            z.then((ret) => {
+              responsed++;
+              localRes++;
+              if (logger.isTraceEnabled)
+                logger.trace(ret.data.length, ret.status, ret.execute_time_ms, requested, responsed, ret.Code);
+              let add = {};
+
+              add['total_vol'] = 0;
+              add['bu'] = 0;
+              add['sd'] = 0;
+              add['other'] = 0;
+              add['total_val'] = 0;
+              add['total_vol2'] = 0;
+              add['symbol'] = ret.Code;
+              summarySymbol(add, ret.data);
+              summarySum(sum, add);
+              // logger.debug(sum, localRes, cop.length);
+              if (localRes == total_check) {
+                logger.info(sum);
+                logger.info(checkSymbol);
+                
+              }
+              let data2 = csv.parse(ret.data);
+              if (watchlist.includes(ret.Code)) {
+                // logger.info("\n",ret.Code,"\n",data2.substr(0,data2.indexOf("\n",200)));
+              }
+              fs.appendFile("./trans/" + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+                if (err) throw err;
+              });
+            })
+          }, 100);
+        }
+      }
+    } catch (error) {
+      logger.error(error);
+    } finally {
+      await wait(30000);
+    }
+
+  }
+
 })();
 
+
+
+function summary(sum, data) {
+  for (let e of data) {
+    sum['total_vol'] += e.match_qtty;
+    sum['total_val'] += e.match_qtty * e.price;
+    switch (e.side) {
+      case "bu":
+        sum['bu'] += e.match_qtty;
+        break;
+      case "sd":
+        sum['sd'] += e.match_qtty;
+        break;
+      default:
+        sum['other'] += e.match_qtty;
+    }
+  }
+
+  if (data.length > 0) {
+    sum['total_vol2'] += data[0].total_vol;
+  }
+}
+
+function summarySum(sum, add) {
+  sum['total_vol'] += add['total_vol'];
+  sum['total_val'] += add['total_val']
+  sum['bu'] += add['bu']
+  sum['sd'] += add['sd']
+  sum['other'] += add['other']
+  sum['total_vol2'] += add['total_vol2']
+
+}
+function summarySymbol(sum, data) {
+  for (let e of data) {
+    sum['total_vol'] += e.match_qtty;
+    sum['total_val'] += e.match_qtty * e.price;
+    switch (e.side) {
+      case "bu":
+        sum['bu'] += e.match_qtty;
+        break;
+      case "sd":
+        sum['sd'] += e.match_qtty;
+        break;
+      default:
+        sum['other'] += e.match_qtty;
+    }
+  }
+
+  if (data.length > 0) {
+    sum['total_vol2'] += data[0].total_vol;
+    let price = stockdata[sum.symbol];
+    
+    if(price != undefined && data[0].price == price.c && sum.total_vol > 10000){
+      // console.log(sum, price.c , data[0]);
+    }
+    
+    if(price != undefined){
+      let ratio = (price.lastPrice-price.r)*100/price.r;
+      let set = checkSymbol[Math.round(ratio)];
+      if(set == null || set == undefined){
+        set = new Set();
+        checkSymbol[Math.round(ratio)] = set;
+      }
+      set.add([sum.symbol,formater.format(ratio), sum.total_vol]);
+    }
+
+  }
+
+  if ((sum.bu > 1.2 * sum.sd) && sum.total_vol > 200000) {
+    // console.log(sum.symbol, sum.bu, sum.sd, sum.total_vol, data[0].price)
+  }  
+}
+
+function wait(ms) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(0);
+    }, ms);
+  });
+}
 
 async function getTrans(symbol) {
   let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol=" + symbol + "&page=1&per_page=2000000", {
@@ -60,7 +200,7 @@ async function getTrans(symbol) {
     "body": null,
     "method": "GET",
     "mode": "cors"
-  });
+  }, { timeout: 1000 });
   let x = await a.json();
   x["Code"] = symbol;
   return x;
@@ -85,7 +225,7 @@ async function getlistallstock() {
     "body": null,
     "method": "GET",
     "mode": "cors"
-  });
+  }, { timeout: 5000 });
   let xx = await fet.json();
   console.log(xx.length)
   cop = [...cop, ...xx];
@@ -163,3 +303,41 @@ function loadCoporate() {
   cop = JSON.parse(data);
   console.log(cop.length);
 }
+
+async function getliststockdata(list, ret) {
+  let maxURLLength = 2048;
+  let url = "https://bgapidatafeed.vps.com.vn/getliststockdata/";
+
+  for (let i = 0; i < list.length; i++) {
+    url = url + list[i].stock_code + ",";
+    if (url.length > 2024 || i == list.length - 1) {
+      url.slice(0, -1);      
+      let a = fetch(url, {
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+          "cache-control": "max-age=0",
+          "if-none-match": "W/\"4d40-JGO04TIpDa6yRnuWE3iB61BlloY\"",
+          "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-origin",
+          "cookie": "_fbp=fb.2.1669623965921.1893403188; _ga_M9VTXEHK9C=GS1.1.1669958644.2.0.1669958644.0.0.0; _gid=GA1.3.658451143.1670224721; _ga=GA1.1.1812813168.1668398014; _ga_4WDBKERLGC=GS1.1.1670316124.25.0.1670316124.0.0.0; _ga_QW53DJZL1X=GS1.1.1670384164.2.1.1670384195.0.0.0; _ga_790K9595DC=GS1.1.1670384139.11.1.1670384402.0.0.0"
+        },
+        "referrer": "https://bgapidatafeed.vps.com.vn/",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "body": null,
+        "method": "GET",
+        "mode": "cors"
+      });      
+      a.then(res => res.json()).then(data => {
+        for (let e of data) {
+          ret[e.sym] = e;
+        }                
+      });
+      url = "https://bgapidatafeed.vps.com.vn/getliststockdata/";
+    }
+  }
+}
+
