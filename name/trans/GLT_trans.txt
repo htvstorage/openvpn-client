@@ -3,3 +3,10 @@
 "price","change","match_qtty","side","time","total_vol"
 "price","change","match_qtty","side","time","total_vol"
 "price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+23,0.4,200,"bu","09:12:18",200
+"price","change","match_qtty","side","time","total_vol"
+23,0.4,200,"bu","09:12:18",200

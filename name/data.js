@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 import fs from "fs";
 import log4js from "log4js";
-import json2csv2 from "json2csv"
+import {Parser} from "json2csv"
 var logger = log4js.getLogger();
 
 log4js.configure({
@@ -15,6 +15,85 @@ log4js.configure({
 
 (async () => {
   let cop = [];
+
+  let counter = 0;
+  let csv = new Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });
+  cop = await getlistallstock();
+
+
+  for (let x of cop) {
+    x['Code'] = x.stock_code;
+    if (x.Code.length < 4) {
+      fs.appendFile('code.txt', x.Code + "\n", function (err) {
+        if (err) throw err;
+      });
+
+      console.log(x.Code)
+
+      let z = getTrans(x.Code);
+      z.then((ret) => {
+        counter++;
+        console.log(ret.data.length, ret.status, ret.execute_time_ms, counter, ret.Code);
+        let data2 = csv.parse(ret.data);
+        fs.appendFile("./trans/" + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+          if (err) throw err;
+        });
+      })
+    }
+  }
+})();
+
+
+async function getTrans(symbol) {
+  let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol=" + symbol + "&page=1&per_page=2000000", {
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "referrer": "https://24hmoney.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors"
+  });
+  let x = await a.json();
+  x["Code"] = symbol;
+  return x;
+
+}
+
+async function getlistallstock() {
+  let cop = [];
+  let fet = await fetch("https://bgapidatafeed.vps.com.vn/getlistallstock", {
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "if-none-match": "W/\"5ac92-c+NqjXQ6D2JFKgaxgUoTpIzr5z8\"",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "referrer": "https://banggia.vps.com.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors"
+  });
+  let xx = await fet.json();
+  console.log(xx.length)
+  cop = [...cop, ...xx];
+  return cop;
+}
+
+
+async function getCoporate() {
   for (let i = 1; i < 1; i++) {
     let a = await fetch("https://finance.vietstock.vn/data/corporateaz", {
       "headers": {
@@ -37,132 +116,50 @@ log4js.configure({
     });
 
     let x = await a.json();
-
     cop = [...cop, ...x]
-
     console.log(x.length, " ", i)
   }
   console.log(cop.length)
   let data = JSON.stringify(cop);
   // fs.writeFileSync('cop.json', data);
-
   let result = data.includes("\"");
-
   console.log("result ", result)
 
-
-  // fs.readFile('cop.json', (err, data) => {
-  //   if (err) throw err;
-  //   cop = JSON.parse(data);
-  //   //console.log(cop)    
-
-  //   // json2csv.json2csv(cop, (err, csv) => {
-  //   //   if (err) {
-  //   //     throw err
-  //   //   }
-  //   //   // print CSV string
-  //   // // console.log(csv)
-  //   //   // write CSV to a file
-  //   //   fs.writeFileSync('todos.csv', csv)
-  //   // })
-
-  //   // json2csv2({data: cop, fields: ['ID', 'CatID', 'Exchange','IndustryName', 'Code', 'Name','TotalShares', 'URL', 'Row','TotalRecord']}, function(err, csv) {
-  //   //   if (err) console.log(err);
-  //   //   fs.writeFile('cop.csv', csv, function(err) {
-  //   //     if (err) throw err;
-  //   //     console.log('cars file saved');
-  //   //   });
-  //   // });
-  //   // let csv = new json2csv2.Parser({ data: cop, fields: ['ID', 'CatID', 'Exchange', 'IndustryName', 'Code', 'Name', 'TotalShares', 'URL', 'Row', 'TotalRecord'] });
-
-  //   // let data2 = csv.parse(cop)
-  //   // fs.writeFileSync('cop.csv', data2);
-  //   // result = data2.includes("\"");
-
-  //   // console.log("result ", result)
-  //   // console.log(data2);
-  // });
-  // data = fs.readFileSync('cop.json');
-  // cop = JSON.parse(data);
-  // console.log(cop.length);
-  let counter = 0;
-  let csv = new json2csv2.Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });  
-  cop = await getlistallstock();
-  
+}
 
 
-  for (let x of cop) {
-    x['Code'] = x.stock_code;
-    if (x.Code.length < 4) {
-      fs.appendFile('code.txt', x.Code + "\n", function (err) {
-        if (err) throw err;
-        // console.log('Saved!');
-      });
+function loadCoporate() {
+  fs.readFile('cop.json', (err, data) => {
+    if (err) throw err;
+    cop = JSON.parse(data);
+    //console.log(cop)    
+    // json2csv.json2csv(cop, (err, csv) => {
+    //   if (err) {
+    //     throw err
+    //   }
+    //   // print CSV string
+    // // console.log(csv)
+    //   // write CSV to a file
+    //   fs.writeFileSync('todos.csv', csv)
+    // })
 
-      console.log(x.Code)
+    // json2csv2({data: cop, fields: ['ID', 'CatID', 'Exchange','IndustryName', 'Code', 'Name','TotalShares', 'URL', 'Row','TotalRecord']}, function(err, csv) {
+    //   if (err) console.log(err);
+    //   fs.writeFile('cop.csv', csv, function(err) {
+    //     if (err) throw err;
+    //     console.log('cars file saved');
+    //   });
+    // });
+    // let csv = new json2csv2.Parser({ data: cop, fields: ['ID', 'CatID', 'Exchange', 'IndustryName', 'Code', 'Name', 'TotalShares', 'URL', 'Row', 'TotalRecord'] });
 
-      let z = getTrans(x.Code);
-      z.then((ret) => {
-        counter++;
-        console.log(ret.data.length, ret.status, ret.execute_time_ms, counter, ret.Code);
-        let data2 = csv.parse(ret.data);
-        fs.appendFile("./trans/" + ret.Code + '_trans.txt', data2 + "\n", function (err) {
-          if (err) throw err;          
-        });
-        })
-      }
+    // let data2 = csv.parse(cop)
+    // fs.writeFileSync('cop.csv', data2);
+    // result = data2.includes("\"");
 
-
-  }
-  }) ();
-
-
-  async function getTrans(symbol) {
-    let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol=" + symbol + "&page=1&per_page=2000000", {
-      "headers": {
-        "accept": "application/json, text/plain, */*",
-        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-site"
-      },
-      "referrer": "https://24hmoney.vn/",
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "body": null,
-      "method": "GET",
-      "mode": "cors"
-    });
-    let x = await a.json();
-    // console.log(x.data.length,x.status,x.execute_time_ms);
-    x["Code"] = symbol;
-    return x;
-
-  }
-
-
-  async function getlistallstock(){
-    let cop = [];
-    let fet =  await fetch("https://bgapidatafeed.vps.com.vn/getlistallstock", {
-      "headers": {
-        "accept": "application/json, text/plain, */*",
-        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-        "if-none-match": "W/\"5ac92-c+NqjXQ6D2JFKgaxgUoTpIzr5z8\"",
-        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-site"
-      },
-      "referrer": "https://banggia.vps.com.vn/",
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "body": null,
-      "method": "GET",
-      "mode": "cors"
-    });
-    let xx = await fet.json();
-    console.log(xx.length)
-    cop = [...cop,...xx];
-    return cop;
-  }
+    // console.log("result ", result)
+    // console.log(data2);
+  });
+  data = fs.readFileSync('cop.json');
+  cop = JSON.parse(data);
+  console.log(cop.length);
+}

@@ -75,3 +75,12 @@
 "price","change","match_qtty","side","time","total_vol"
 "price","change","match_qtty","side","time","total_vol"
 "price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+2.8,0,300,"unknown","09:00:12",500
+3.1,0.3,200,"bu","09:00:03",200
+"price","change","match_qtty","side","time","total_vol"
+2.8,0,300,"unknown","09:00:12",500
+3.1,0.3,200,"bu","09:00:03",200
