@@ -3,7 +3,8 @@ import fs from "fs";
 import log4js from "log4js";
 import {Parser} from "json2csv"
 var logger = log4js.getLogger();
-
+import {SMA,EMA} from 'technicalindicators';
+import IchimokuCloud from 'technicalindicators'
 log4js.configure({
   appenders: {
     everything: { type: "file", filename: "diem.log" },
@@ -19,31 +20,81 @@ log4js.configure({
   let counter = 0;
   let csv = new Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });
   cop = await getlistallstock();
+  loadData("./his/HPG_HOSE_trans.txt");
 
+  // for (let x of cop) {
+  //   x['Code'] = x.stock_code;
+  //   if (x.Code.length < 4) {
+  //     fs.appendFile('code.txt', x.Code + "\n", function (err) {
+  //       if (err) throw err;
+  //     });
 
-  for (let x of cop) {
-    x['Code'] = x.stock_code;
-    if (x.Code.length < 4) {
-      fs.appendFile('code.txt', x.Code + "\n", function (err) {
-        if (err) throw err;
-      });
+  //     console.log(x.Code)
 
-      console.log(x.Code)
-
-      let z = getTrans(x.Code);
-      z.then((ret) => {
-        counter++;
-        console.log(ret.data.length, ret.status, ret.execute_time_ms, counter, ret.Code);
-        let data2 = csv.parse(ret.data);
-        fs.appendFile("./trans/" + ret.Code + '_trans.txt', data2 + "\n", function (err) {
-          if (err) throw err;
-        });
-      })
-    }
-  }
+  //     let z = getTrans(x.Code);
+  //     z.then((ret) => {
+  //       counter++;
+  //       console.log(ret.data.length, ret.status, ret.execute_time_ms, counter, ret.Code);
+  //       let data2 = csv.parse(ret.data);
+  //       fs.appendFile("./trans/" + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+  //         if (err) throw err;
+  //       });
+  //     })
+  //   }
+  // }
 })();
 
+async function loadData(path){
 
+  var data = fs.readFileSync(path)
+    .toString()
+    .split('\n')
+    .map(e => e.trim()) 
+    .map(e => e.split(',').map(e => e.trim())); 
+  let head = data[0];
+  data = data.slice(1);
+  data = data.map(e=>{ let x = {}; 
+    for(let i=0; i< head.length;i++){
+      x[head[i].replaceAll("\"","")] = e[i];
+    }
+    return x;
+  })
+  console.log(data);
+
+  SMA.calculate({period : 5, values : [1,2,3,4,5,6,7,8,9]});
+  // const SMA = require('technicalindicators').SMA;
+  // var prices = [1,2,3,4,5,6,7,8,9,10,12,13,15];
+  // var period = 10;
+  // SMA.calculate({period : period, values : prices})
+  var prices = data.map(e=> +e.priceClose);
+  var high = data.map(e=> +e.priceHigh);
+  var low = data.map(e=> +e.priceLow);
+  console.log(prices);
+  let sma = SMA.calculate({period : 5, values : prices});
+  let ema =EMA.calculate({period : 5, values : prices});
+  console.log(sma);
+  console.log(ema);
+  var ichimokuInput = {
+    high  : high,
+    low   : low,
+    conversionPeriod: 9,
+    basePeriod: 26,
+    spanPeriod: 52,
+    displacement: 26
+  }
+  // input.high = high;
+  // input.low = low;
+  var ichimoku =  IchimokuCloud.ichimokucloud(ichimokuInput)
+  var results = []
+  // ichimokuInput.high.forEach((high, index) => {
+  //   var result = ichimoku.nextValue({ high: high, low: ichimokuInput.low[index]})
+  //   if (result)
+  //     results.push(result)
+  // })  
+
+  console.log(ichimoku);
+  
+}
 async function getTrans(symbol) {
   let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol=" + symbol + "&page=1&per_page=2000000", {
     "headers": {
