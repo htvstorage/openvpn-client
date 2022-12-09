@@ -2,6 +2,7 @@ import fetch from "node-fetch";
 import fs from "fs";
 import log4js from "log4js";
 import { Parser } from "json2csv"
+import path from "path";
 var logger = log4js.getLogger();
 
 log4js.configure({
@@ -36,13 +37,22 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     }
   }
 
-
   getliststockdata(cop, stockdata);
   try {
     let localReq = 0;
     let localRes = 0;
     logger.info("Checking", requested, responsed)
 
+    let dir = "./trans/" + getNow() + "/";
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir);
+    } else {
+      let files = fs.readdirSync(dir);
+      for (const file of files) {
+        fs.unlinkSync(path.join(dir, file));
+      }
+    }
+    logger.debug("Done remove directory ", dir);
     for (let x of cop) {
       x['Code'] = x.stock_code;
       if (x.Code.length < 4) {
@@ -65,10 +75,6 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
             if (watchlist.includes(ret.Code)) {
               // logger.info("\n",ret.Code,"\n",data2.substr(0,data2.indexOf("\n",200)));
             }
-            let dir = "./trans/" + getNow() + "/";
-            if (!fs.existsSync(dir)) {
-              fs.mkdirSync(dir);
-            }
             fs.appendFile(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
               if (err) throw err;
             });
@@ -81,11 +87,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   } finally {
     await wait(30000);
   }
-
-
 })();
-
-
 
 function summary(sum, data) {
   for (let e of data) {
@@ -102,7 +104,6 @@ function summary(sum, data) {
         sum['other'] += e.match_qtty;
     }
   }
-
   if (data.length > 0) {
     sum['total_vol2'] += data[0].total_vol;
   }
