@@ -1,0 +1,8 @@
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+5.4,0,100,"unknown","13:14:01",8900
+4.9,-0.5,7000,"sd","11:21:18",8800
+5.1,-0.3,1500,"unknown","11:17:24",1800
+5.2,-0.2,100,"unknown","11:17:11",300
+5.3,-0.1,100,"unknown","11:16:52",200
+5.7,0.3,100,"unknown","09:03:38",100

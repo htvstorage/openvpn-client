@@ -1,0 +1,16 @@
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+"price","change","match_qtty","side","time","total_vol"
+16,0,200,"unknown","10:19:45",700
+16,0,500,"unknown","09:42:28",500
+"price","change","match_qtty","side","time","total_vol"
+16,0,200,"bu","10:19:45",700
+16,0,500,"unknown","09:42:28",500
