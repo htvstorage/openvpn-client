@@ -3,7 +3,7 @@ import fs from "fs";
 import log4js from "log4js";
 import { Parser } from "json2csv"
 var logger = log4js.getLogger();
-import { SMA, EMA } from 'technicalindicators';
+import { SMA, EMA , RSI, StochasticRSI, MACD, MFI } from 'technicalindicators';
 import IchimokuCloud from 'technicalindicators'
 import path from "path";
 
@@ -143,13 +143,13 @@ async function checkMA(prices, vol, symbol, path) {
     if ((prices[prices.length - 1] >= smaRet[1][smaRet[1].length - 1]) && ( smaRet[1][smaRet[1].length - 1] > smaRet[2][smaRet[2].length - 1])) {
       logger.info("Price over SMA9", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[1][smaRet[1].length - 1])
 
-      let delta =  prices[prices.length - 1] - smaRet[2][smaRet[2].length - 1];
-      gap.push({
-        ratio: (delta / smaRet[2][smaRet[2].length - 1]), "symbol": symbol, "path": path,
-        "price": prices[prices.length - 1],
-        "ma25": smaRet[2][smaRet[2].length - 1],
-        "vol": smaVolRet[0][smaVolRet[0].length - 1]
-      });      
+      // let delta =  prices[prices.length - 1] - smaRet[2][smaRet[2].length - 1];
+      // gap.push({
+      //   ratio: (delta / smaRet[2][smaRet[2].length - 1]), "symbol": symbol, "path": path,
+      //   "price": prices[prices.length - 1],
+      //   "ma25": smaRet[2][smaRet[2].length - 1],
+      //   "vol": smaVolRet[0][smaVolRet[0].length - 1]
+      // });      
     } else {
       // logger.info("Price under SMA9", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[1][smaRet[1].length - 1])
     }
@@ -174,6 +174,30 @@ async function checkMA(prices, vol, symbol, path) {
     } else {
       // logger.info("Price under SMA50", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[3][smaRet[3].length - 1], smaVolRet[0][smaVolRet[0].length - 1])
     }
+
+
+    var inputRSI = {
+      values : prices,
+      period : 14
+    };
+    var rsi = RSI.calculate(inputRSI);
+
+    // console.log(rsi[rsi.length-1]);
+    var p1=path.indexOf("/",0)+1;
+    var p2=path.indexOf("_",0);
+    var symbol  = path.substr(p1,p2-p1);
+    console.log(symbol)
+    if(rsi[rsi.length-1] <= 40 && symbol.length == 3){
+      let delta =  prices[prices.length - 1] - smaRet[2][smaRet[2].length - 1];
+      gap.push({
+        ratio: (delta / smaRet[2][smaRet[2].length - 1]), "symbol": symbol, "path": path,
+        "price": prices[prices.length - 1],
+        "ma25": smaRet[2][smaRet[2].length - 1],
+        "vol": smaVolRet[0][smaVolRet[0].length - 1],
+        "rsi ": rsi[rsi.length-1]
+      });  
+    }
+
   }
 }
 
