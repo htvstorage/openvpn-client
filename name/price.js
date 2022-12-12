@@ -68,7 +68,7 @@ log4js.configure({
             if (err) throw err;
           });
         })
-      }, 100);
+      }, 200);
     }
   }
 })();
@@ -98,9 +98,16 @@ async function getTrans(symbol) {
 
 }
 
+function getNow() {
+  let fd = new Date();
+  return fd.getFullYear()
+    + "-" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
+    + "-" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate());
+}
 
 async function getPrices(symbol) {
-  let a = await fetch("https://restv2.fireant.vn/symbols/" + symbol + "/historical-quotes?startDate=2000-12-06&endDate=2022-12-06&offset=0&limit=20000000", {
+  // 2022-12-06
+  let a = await fetch("https://restv2.fireant.vn/symbols/" + symbol + "/historical-quotes?startDate=2000-12-06&endDate="+getNow()+"&offset=0&limit=20000000", {
     "headers": {
       "accept": "application/json, text/plain, */*",
       "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",

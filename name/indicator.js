@@ -5,12 +5,15 @@ import { Parser } from "json2csv"
 var logger = log4js.getLogger();
 import { SMA, EMA } from 'technicalindicators';
 import IchimokuCloud from 'technicalindicators'
+import path from "path";
+
 log4js.configure({
   appenders: {
     everything: { type: "file", filename: "diem.log" },
+    console: { type: "console" },
   },
   categories: {
-    default: { appenders: ["everything"], level: "debug" },
+    default: { appenders: ["everything", "console"], level: "INFO" },
   },
 });
 
@@ -20,7 +23,29 @@ log4js.configure({
   let counter = 0;
   let csv = new Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });
   cop = await getlistallstock();
-  loadData("./his/HPG_HOSE_trans.txt");
+
+
+  let dir = "./his/";
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir);
+  }
+  let files = fs.readdirSync(dir);
+  for (const file of files) {
+    loadData(path.join(dir, file).toString());
+  }
+
+  gap.sort((a, b) => {
+    if (a.ratio < b.ratio) return -1;
+    if (a.ratio > b.ratio) return 1;
+    return 0;
+  });
+
+
+  // console.log(gap);
+
+  for (let e of gap) {
+    logger.info(e);
+  }
 
   // for (let x of cop) {
   //   x['Code'] = x.stock_code;
@@ -45,7 +70,6 @@ log4js.configure({
 })();
 
 async function loadData(path) {
-
   var data = fs.readFileSync(path)
     .toString()
     .split('\n')
@@ -60,21 +84,19 @@ async function loadData(path) {
     }
     return x;
   })
+  data = data.reverse();
+  data = data.slice(1);
+  // console.log(data[0]);
   if (logger.isDebugEnabled)
     logger.debug(data);
 
-  var prices = data.map(e => +e.priceClose);
+  var prices = data.map(e => +e.priceClose / +e.adjRatio);
   var high = data.map(e => +e.priceHigh);
   var low = data.map(e => +e.priceLow);
-  console.log(prices);
+  var vol = data.map(e => +e.dealVolume);
+  // console.log(prices);
 
-  let periods = [5, 9, 20, 50, 100, 200];
-
-  let smaRet = periods.map(e => { return SMA.calculate({ period: e, values: prices }); });
-  let emaRet = periods.map(e => { return EMA.calculate({ period: e, values: prices }); });
-
-  console.log(smaRet.length);
-  console.log(emaRet.length);
+  checkMA(prices, vol, path.substr(4, 3), path);
 
   var ichimokuInput = {
     high: high,
@@ -86,10 +108,76 @@ async function loadData(path) {
   }
 
   var ichimoku = IchimokuCloud.ichimokucloud(ichimokuInput)
-  if(logger.isDebugEnabled)
+  if (logger.isDebugEnabled)
     logger.debug(ichimoku);
 
 }
+let gap = [];
+async function checkMA(prices, vol, symbol, path) {
+  let periods = [5, 8, 20, 50, 100, 200];
+
+  let smaRet = periods.map(e => { return SMA.calculate({ period: e, values: prices }); });
+  let smaVolRet = periods.map(e => { return SMA.calculate({ period: e, values: vol }); });
+  let emaRet = periods.map(e => { return EMA.calculate({ period: e, values: prices }); });
+  // console.log(prices.length);
+  // console.log(smaRet[0].length);
+  // console.log(emaRet.length);
+  // console.log(prices[prices.length-1],smaRet[0][smaRet[0].length-1])
+
+  if (smaVolRet[0][smaVolRet[0].length - 1] > 100000) {
+    if ((prices[prices.length - 1] >= smaRet[0][smaRet[0].length - 1])) {
+      // logger.info(path);
+      // logger.info("Price over SMA5", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[0][smaRet[0].length - 1])
+
+      // let delta =  prices[prices.length - 1] - smaRet[2][smaRet[2].length - 1];
+      // gap.push({
+      //   ratio: (delta / smaRet[2][smaRet[2].length - 1]), "symbol": symbol, "path": path,
+      //   "price": prices[prices.length - 1],
+      //   "ma25": smaRet[2][smaRet[2].length - 1],
+      //   "vol": smaVolRet[0][smaVolRet[0].length - 1]
+      // });
+    } else {
+      // logger.info("Price under SMA5", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[0][smaRet[0].length - 1])
+    }
+
+    if ((prices[prices.length - 1] >= smaRet[1][smaRet[1].length - 1]) && ( smaRet[1][smaRet[1].length - 1] > smaRet[2][smaRet[2].length - 1])) {
+      logger.info("Price over SMA9", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[1][smaRet[1].length - 1])
+
+      let delta =  prices[prices.length - 1] - smaRet[2][smaRet[2].length - 1];
+      gap.push({
+        ratio: (delta / smaRet[2][smaRet[2].length - 1]), "symbol": symbol, "path": path,
+        "price": prices[prices.length - 1],
+        "ma25": smaRet[2][smaRet[2].length - 1],
+        "vol": smaVolRet[0][smaVolRet[0].length - 1]
+      });      
+    } else {
+      // logger.info("Price under SMA9", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[1][smaRet[1].length - 1])
+    }
+
+    if ((prices[prices.length - 1] >= smaRet[2][smaRet[2].length - 1])) {
+      // logger.info("Price over SMA20", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[2][smaRet[2].length - 1])
+    } else {
+      // logger.info("Price under SMA25", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[2][smaRet[2].length - 1], smaVolRet[0][smaVolRet[0].length - 1])
+
+      let delta = smaRet[2][smaRet[2].length - 1] - prices[prices.length - 1];
+      // gap.push({
+      //   ratio: (delta / smaRet[2][smaRet[2].length - 1]), "symbol": symbol, "path": path,
+      //   "price": prices[prices.length - 1],
+      //   "ma25": smaRet[2][smaRet[2].length - 1],
+      //   "vol": smaVolRet[0][smaVolRet[0].length - 1]
+      // });
+
+
+    }
+    if ((prices[prices.length - 1] >= smaRet[3][smaRet[3].length - 1])) {
+      // logger.info("Price over SMA50", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[3][smaRet[3].length - 1])
+    } else {
+      // logger.info("Price under SMA50", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[3][smaRet[3].length - 1], smaVolRet[0][smaVolRet[0].length - 1])
+    }
+  }
+}
+
+
 async function getTrans(symbol) {
   let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol=" + symbol + "&page=1&per_page=2000000", {
     "headers": {
@@ -178,32 +266,35 @@ function loadCoporate() {
   fs.readFile('cop.json', (err, data) => {
     if (err) throw err;
     cop = JSON.parse(data);
-    //console.log(cop)    
-    // json2csv.json2csv(cop, (err, csv) => {
-    //   if (err) {
-    //     throw err
-    //   }
-    //   // print CSV string
-    // // console.log(csv)
-    //   // write CSV to a file
-    //   fs.writeFileSync('todos.csv', csv)
-    // })
-
-    // json2csv2({data: cop, fields: ['ID', 'CatID', 'Exchange','IndustryName', 'Code', 'Name','TotalShares', 'URL', 'Row','TotalRecord']}, function(err, csv) {
-    //   if (err) console.log(err);
-    //   fs.writeFile('cop.csv', csv, function(err) {
-    //     if (err) throw err;
-    //     console.log('cars file saved');
-    //   });
-    // });
-    // let csv = new json2csv2.Parser({ data: cop, fields: ['ID', 'CatID', 'Exchange', 'IndustryName', 'Code', 'Name', 'TotalShares', 'URL', 'Row', 'TotalRecord'] });
-
-    // let data2 = csv.parse(cop)
-    // fs.writeFileSync('cop.csv', data2);
-    // result = data2.includes("\"");
-
-    // console.log("result ", result)
-    // console.log(data2);
+    /**
+     * 
+        console.log(cop)    
+        json2csv.json2csv(cop, (err, csv) => {
+          if (err) {
+            throw err
+          }
+          // print CSV string
+        // console.log(csv)
+          // write CSV to a file
+          fs.writeFileSync('todos.csv', csv)
+        })
+    
+        json2csv2({data: cop, fields: ['ID', 'CatID', 'Exchange','IndustryName', 'Code', 'Name','TotalShares', 'URL', 'Row','TotalRecord']}, function(err, csv) {
+          if (err) console.log(err);
+          fs.writeFile('cop.csv', csv, function(err) {
+            if (err) throw err;
+            console.log('cars file saved');
+          });
+        });
+        let csv = new json2csv2.Parser({ data: cop, fields: ['ID', 'CatID', 'Exchange', 'IndustryName', 'Code', 'Name', 'TotalShares', 'URL', 'Row', 'TotalRecord'] });
+    
+        let data2 = csv.parse(cop)
+        fs.writeFileSync('cop.csv', data2);
+        result = data2.includes("\"");
+    
+        console.log("result ", result)
+        console.log(data2);
+     */
   });
   data = fs.readFileSync('cop.json');
   cop = JSON.parse(data);
