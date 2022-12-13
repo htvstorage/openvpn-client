@@ -2,10 +2,12 @@ import fetch from "node-fetch";
 import fs from "fs";
 import log4js from "log4js";
 import { Parser } from "json2csv"
-var logger = log4js.getLogger();
-import { SMA, EMA , RSI, StochasticRSI, MACD, MFI } from 'technicalindicators';
+import { SMA, EMA, RSI, StochasticRSI, MACD, MFI } from 'technicalindicators';
 import IchimokuCloud from 'technicalindicators'
 import path from "path";
+import { Symbol, Stock } from "./StockData.js";
+
+var logger = log4js.getLogger();
 
 log4js.configure({
   appenders: {
@@ -16,6 +18,12 @@ log4js.configure({
     default: { appenders: ["everything", "console"], level: "INFO" },
   },
 });
+
+
+
+
+
+
 
 (async () => {
   let cop = [];
@@ -41,32 +49,10 @@ log4js.configure({
   });
 
 
-  // console.log(gap);
-
   for (let e of gap) {
     logger.info(e);
   }
 
-  // for (let x of cop) {
-  //   x['Code'] = x.stock_code;
-  //   if (x.Code.length < 4) {
-  //     fs.appendFile('code.txt', x.Code + "\n", function (err) {
-  //       if (err) throw err;
-  //     });
-
-  //     console.log(x.Code)
-
-  //     let z = getTrans(x.Code);
-  //     z.then((ret) => {
-  //       counter++;
-  //       console.log(ret.data.length, ret.status, ret.execute_time_ms, counter, ret.Code);
-  //       let data2 = csv.parse(ret.data);
-  //       fs.appendFile("./trans/" + ret.Code + '_trans.txt', data2 + "\n", function (err) {
-  //         if (err) throw err;
-  //       });
-  //     })
-  //   }
-  // }
 })();
 
 async function loadData(path) {
@@ -91,10 +77,12 @@ async function loadData(path) {
     logger.debug(data);
 
   var prices = data.map(e => +e.priceClose / +e.adjRatio);
-  var high = data.map(e => +e.priceHigh);
-  var low = data.map(e => +e.priceLow);
+  var high = data.map(e => +e.priceHigh / +e.adjRatio);
+  var low = data.map(e => +e.priceBasic / +e.adjRatio);
+  var basic = data.map(e => +e.priceLow / +e.adjRatio);
   var vol = data.map(e => +e.dealVolume);
   // console.log(prices);
+  var sym = new Symbol("symbol", high, low, prices, vol);
 
   checkMA(prices, vol, path.substr(4, 3), path);
 
@@ -113,6 +101,10 @@ async function loadData(path) {
 
 }
 let gap = [];
+
+
+
+
 async function checkMA(prices, vol, symbol, path) {
   let periods = [5, 8, 20, 50, 100, 200];
 
@@ -124,8 +116,8 @@ async function checkMA(prices, vol, symbol, path) {
   // console.log(emaRet.length);
   // console.log(prices[prices.length-1],smaRet[0][smaRet[0].length-1])
 
-  if (smaVolRet[0][smaVolRet[0].length - 1] > 100000) {
-    if ((prices[prices.length - 1] >= smaRet[0][smaRet[0].length - 1])) {
+  if (smaVolRet[0][-1] > 100000) {
+    if ((prices[-1] >= smaRet[0][- 1])) {
       // logger.info(path);
       // logger.info("Price over SMA5", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[0][smaRet[0].length - 1])
 
@@ -140,8 +132,8 @@ async function checkMA(prices, vol, symbol, path) {
       // logger.info("Price under SMA5", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[0][smaRet[0].length - 1])
     }
 
-    if ((prices[prices.length - 1] >= smaRet[1][smaRet[1].length - 1]) && ( smaRet[1][smaRet[1].length - 1] > smaRet[2][smaRet[2].length - 1])) {
-      logger.info("Price over SMA9", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[1][smaRet[1].length - 1])
+    if ((prices[- 1] >= smaRet[1][- 1]) && (smaRet[1][- 1] > smaRet[2][- 1])) {
+      logger.info("Price over SMA9", symbol, "prices ", prices[- 1], " sma ", smaRet[1][- 1])
 
       // let delta =  prices[prices.length - 1] - smaRet[2][smaRet[2].length - 1];
       // gap.push({
@@ -166,8 +158,6 @@ async function checkMA(prices, vol, symbol, path) {
       //   "ma25": smaRet[2][smaRet[2].length - 1],
       //   "vol": smaVolRet[0][smaVolRet[0].length - 1]
       // });
-
-
     }
     if ((prices[prices.length - 1] >= smaRet[3][smaRet[3].length - 1])) {
       // logger.info("Price over SMA50", symbol, "prices ", prices[prices.length - 1], " sma ", smaRet[3][smaRet[3].length - 1])
@@ -177,25 +167,25 @@ async function checkMA(prices, vol, symbol, path) {
 
 
     var inputRSI = {
-      values : prices,
-      period : 14
+      values: prices,
+      period: 14
     };
     var rsi = RSI.calculate(inputRSI);
 
     // console.log(rsi[rsi.length-1]);
-    var p1=path.indexOf("/",0)+1;
-    var p2=path.indexOf("_",0);
-    var symbol  = path.substr(p1,p2-p1);
+    var p1 = path.indexOf("/", 0) + 1;
+    var p2 = path.indexOf("_", 0);
+    var symbol = path.substr(p1, p2 - p1);
     console.log(symbol)
-    if(rsi[rsi.length-1] <= 40 && symbol.length == 3){
-      let delta =  prices[prices.length - 1] - smaRet[2][smaRet[2].length - 1];
+    if (rsi[rsi.length - 1] <= 40 && symbol.length == 3) {
+      let delta = prices[prices.length - 1] - smaRet[2][smaRet[2].length - 1];
       gap.push({
         ratio: (delta / smaRet[2][smaRet[2].length - 1]), "symbol": symbol, "path": path,
         "price": prices[prices.length - 1],
         "ma25": smaRet[2][smaRet[2].length - 1],
         "vol": smaVolRet[0][smaVolRet[0].length - 1],
-        "rsi ": rsi[rsi.length-1]
-      });  
+        "rsi ": rsi[rsi.length - 1]
+      });
     }
 
   }
