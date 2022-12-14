@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 import fs from "fs";
 import log4js from "log4js";
 import { Parser } from "json2csv"
-import { SMA, EMA, RSI, StochasticRSI, MACD, MFI } from 'technicalindicators';
+import { SMA, EMA, RSI, StochasticRSI, MACD, MFI,BollingerBands } from 'technicalindicators';
 import IchimokuCloud from 'technicalindicators'
 import path from "path";
 import { Symbol, Stock } from "./StockData.js";
@@ -106,11 +106,13 @@ let gap = [];
 
 
 async function checkMA(prices, vol, symbol, path) {
-  let periods = [5, 8, 20, 50, 100, 200];
+  let shortPeriods = [5, 8, 20, 50];
+  let longPeriods = [5, 8, 20, 50];
 
-  let smaRet = periods.map(e => { return SMA.calculate({ period: e, values: prices }); });
-  let smaVolRet = periods.map(e => { return SMA.calculate({ period: e, values: vol }); });
-  let emaRet = periods.map(e => { return EMA.calculate({ period: e, values: prices }); });
+
+  let smaRet = shortPeriods.map(e => { return SMA.calculate({ period: e, values: prices }); });
+  let smaVolRet = shortPeriods.map(e => { return SMA.calculate({ period: e, values: vol }); });
+  let emaRet = shortPeriods.map(e => { return EMA.calculate({ period: e, values: prices }); });
   // console.log(prices.length);
   // console.log(smaRet[0].length);
   // console.log(emaRet.length);
