@@ -1,2 +1,2 @@
-"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
-"SC5","hose:2919",17000,700,700,"09:53:00",17000,"sd",0,0,"R"
+"price","change","match_qtty","side","time","total_vol"
+17,0,700,"sd","09:53:00",700

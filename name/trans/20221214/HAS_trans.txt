@@ -1,2 +1,2 @@
-"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
-"HAS","hose:1292",6700,500,500,"13:00:20",6800,"bu",-100,-1.5,"D"
+"price","change","match_qtty","side","time","total_vol"
+6.7,-0.1,500,"bu","13:00:20",500

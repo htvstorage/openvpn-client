@@ -1,2 +1,2 @@
-"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
-"HOT","hose:1376",25450,100,100,"09:33:33",24200,"bu",1250,5.2,"U"
+"price","change","match_qtty","side","time","total_vol"
+25.45,1.25,100,"bu","09:33:33",100

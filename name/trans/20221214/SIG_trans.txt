@@ -1,1 +1,6 @@
-"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"price","change","match_qtty","side","time","total_vol"
+6.9,0.4,400,"bu","11:10:23",1700
+6.9,0.4,300,"bu","11:07:24",1300
+6.9,0.4,300,"bu","10:34:15",1000
+6.9,0.4,200,"bu","10:01:21",700
+7,0.5,500,"unknown","09:28:57",500

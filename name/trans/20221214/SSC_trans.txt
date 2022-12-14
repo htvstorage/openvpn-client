@@ -1,2 +1,2 @@
-"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
-"SSC","hose:2906",28550,100,100,"09:24:19",29750,"sd",-1200,-4,"D"
+"price","change","match_qtty","side","time","total_vol"
+28.55,-1.2,100,"sd","09:24:19",100

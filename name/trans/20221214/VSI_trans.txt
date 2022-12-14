@@ -1,4 +1,4 @@
-"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
-"VSI","hose:3839",18900,100,300,"13:58:28",17700,"bu",1200,6.8,"C"
-"VSI","hose:3839",18900,100,200,"09:50:21",17700,"sd",1200,6.8,"C"
-"VSI","hose:3839",18900,100,100,"09:44:24",17700,"bu",1200,6.8,"C"
+"price","change","match_qtty","side","time","total_vol"
+18.9,1.2,100,"bu","13:58:28",300
+18.9,1.2,100,"sd","09:50:21",200
+18.9,1.2,100,"bu","09:44:24",100

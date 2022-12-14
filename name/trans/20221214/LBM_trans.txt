@@ -1,4 +1,4 @@
-"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
-"LBM","hose:1889",40400,500,800,"14:45:04",40450,"bu",-50,-0.1,"D"
-"LBM","hose:1889",40000,200,300,"13:51:33",40450,"sd",-450,-1.1,"D"
-"LBM","hose:1889",40000,100,100,"13:51:33",40450,"sd",-450,-1.1,"D"
+"price","change","match_qtty","side","time","total_vol"
+40.4,-0.05,500,"bu","14:45:04",800
+40,-0.45,200,"sd","13:51:33",300
+40,-0.45,100,"sd","13:51:33",100

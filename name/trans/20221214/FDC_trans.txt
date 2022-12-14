@@ -1,2 +1,2 @@
-"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
-"FDC","hose:976",20400,100,100,"09:32:18",19850,"bu",550,2.8,"U"
+"price","change","match_qtty","side","time","total_vol"
+20.4,0.55,100,"bu","09:32:18",100
