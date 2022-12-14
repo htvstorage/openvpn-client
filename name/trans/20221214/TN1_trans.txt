@@ -1,0 +1,5 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"TN1","hose:73",18650,100,1800,"10:16:37",18700,"bu",-50,-0.3,"D"
+"TN1","hose:73",18500,100,1700,"09:22:58",18700,"sd",-200,-1.1,"D"
+"TN1","hose:73",18500,1100,1600,"09:22:58",18700,"sd",-200,-1.1,"D"
+"TN1","hose:73",18650,500,500,"09:15:02",18700,"unknown",-50,-0.3,"D"

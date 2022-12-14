@@ -1,0 +1,4 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"VCF","hose:3840",237800,100,300,"14:45:04",222300,"unknown",15500,7,"C"
+"VCF","hose:3840",224000,100,200,"10:47:06",222300,"sd",1700,0.8,"U"
+"VCF","hose:3840",222300,100,100,"09:15:02",222300,"unknown",0,0,"R"

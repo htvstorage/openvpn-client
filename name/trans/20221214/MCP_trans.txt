@@ -1,0 +1,4 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"MCP","hose:2019",17800,100,300,"14:16:16",16800,"bu",1000,6,"U"
+"MCP","hose:2019",16800,100,200,"11:28:03",16800,"bu",0,0,"R"
+"MCP","hose:2019",16800,100,100,"11:10:46",16800,"bu",0,0,"R"

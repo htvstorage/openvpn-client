@@ -1,0 +1,5 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"IMP","hose:1416",62500,2000,2300,"14:45:07",62800,"bu",-300,-0.5,"D"
+"IMP","hose:1416",60200,100,300,"13:55:40",62800,"sd",-2600,-4.1,"D"
+"IMP","hose:1416",60200,100,200,"13:52:45",62800,"sd",-2600,-4.1,"D"
+"IMP","hose:1416",60000,100,100,"13:44:31",62800,"sd",-2800,-4.5,"D"

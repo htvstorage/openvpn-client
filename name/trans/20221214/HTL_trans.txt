@@ -1,0 +1,4 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"HTL","hose:1374",16600,100,400,"14:11:11",16600,"sd",0,0,"R"
+"HTL","hose:1374",17000,100,300,"14:04:53",16600,"sd",400,2.4,"U"
+"HTL","hose:1374",16600,200,200,"14:04:53",16600,"sd",0,0,"R"

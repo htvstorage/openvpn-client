@@ -1,0 +1,2 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"TRC","hose:3480",33900,100,100,"14:45:04",33000,"unknown",900,2.7,"U"

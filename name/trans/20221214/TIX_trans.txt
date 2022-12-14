@@ -1,0 +1,5 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"TIX","hose:3490",32500,200,2400,"13:08:31",32500,"unknown",0,0,"R"
+"TIX","hose:3490",32500,400,2200,"13:08:31",32500,"unknown",0,0,"R"
+"TIX","hose:3490",32500,1000,1800,"13:00:03",32500,"bu",0,0,"R"
+"TIX","hose:3490",32500,800,800,"09:24:46",32500,"bu",0,0,"R"

@@ -1,0 +1,2 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"BBC","hose:190",59600,100,100,"09:20:54",59800,"unknown",-200,-0.3,"D"

@@ -1,0 +1,5 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"VPS","hose:3842",8900,300,1000,"13:19:07",9190,"sd",-290,-3.2,"D"
+"VPS","hose:3842",8900,500,700,"09:34:34",9190,"sd",-290,-3.2,"D"
+"VPS","hose:3842",8900,100,200,"09:34:34",9190,"sd",-290,-3.2,"D"
+"VPS","hose:3842",8910,100,100,"09:34:34",9190,"sd",-280,-3,"D"

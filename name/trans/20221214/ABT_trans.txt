@@ -1,0 +1,5 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"ABT","hose:3",37250,100,400,"09:26:38",34850,"bu",2400,6.9,"C"
+"ABT","hose:3",37200,100,300,"09:26:31",34850,"bu",2350,6.7,"U"
+"ABT","hose:3",34000,100,200,"09:19:18",34850,"bu",-850,-2.4,"D"
+"ABT","hose:3",34000,100,100,"09:18:40",34850,"sd",-850,-2.4,"D"

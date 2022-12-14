@@ -1,0 +1,5 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"TCR","hose:3479",3740,100,900,"13:06:17",3600,"bu",140,3.9,"U"
+"TCR","hose:3479",3600,400,800,"11:01:56",3600,"sd",0,0,"R"
+"TCR","hose:3479",3790,100,400,"09:58:36",3600,"bu",190,5.3,"U"
+"TCR","hose:3479",3600,300,300,"09:28:13",3600,"bu",0,0,"R"

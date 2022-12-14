@@ -1,0 +1,2 @@
+"symbol","stockNo","price","vol","accumulatedVol","time","ref","side","priceChange","priceChangePercent","changeType"
+"PGV","hose:4401",18450,100,100,"09:25:59",17950,"bu",500,2.8,"U"
