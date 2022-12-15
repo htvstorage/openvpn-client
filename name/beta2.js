@@ -13,7 +13,7 @@ var logger = log4js.getLogger();
 
 log4js.configure({
   appenders: {
-    everything: { type: "file", filename: "beta.log" },
+    everything: { type: "file", filename: "beta2.log" },
     console: { type: "console" },
   },
   categories: {
@@ -33,29 +33,75 @@ log4js.configure({
 
   let req = 0;
   let res = 0;
+  let set = new Set();
   for (let e of listed) {
     if (e.code.length >= 4) {
       continue;
     }
     try {
-      let r =  Exchange.ratios(e.code);
+      // let r =  Exchange.ratios(e.code);
+
+      let r = Exchange.fundamental(e.code);
       req++;
       r.then(res => res.json()).then(data => {
         try {
-          logger.info(data.data[0]['value'], e.code)
+          if (data.beta != undefined)
+            logger.info("Beta",req, res, data.beta, e.code)
+          else {
+            // logger.info(data, e.code)
+            set.add(e.code);
+          }
         } catch (error) {
-          logger.error(data, e.code)
-        }        
+          // logger.error(data, e.code)
+          set.add(e.code);
+        }
         res++;
       })
-      
-      while (req - res >= 10) {
+
+      while (req - res >= 100) {
         await wait(100);
       }
       // let x = await r.json();
       // logger.info(x.data[0]['value'], e.code)
     } catch (err) {
       console.log(err)
+    }
+  }
+  logger.info("retry ==================")
+  req = 0;
+  res = 0;
+  while (true) {
+    if (set.size == 0) {
+      logger.info("Break set is zero!")
+      break;
+    }
+    let list = set;
+    for (let e of list) {
+      try {
+        let r = Exchange.fundamental(e);
+        req++;
+        r.then(res => res.json()).then(data => {
+          try {
+            if (data.beta != undefined) {
+              logger.info("Beta",req, res, data.beta, e)
+              set.delete(e);
+            }
+            else {
+              // set.add(e);
+            }
+          } catch (error) {
+            // set.add(e);
+          }
+          res++;
+        })
+
+        while (req - res >= 5) {
+          await wait(10);
+        }
+      } catch (err) {
+        console.log(err)
+      }
+
     }
   }
 })();
