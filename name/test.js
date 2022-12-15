@@ -145,72 +145,71 @@ import fetch from "node-fetch";
     //   // console.log(x);
     //   console.log(ok++, " ", e.stock_code);
 
-  a.then(async (res)=> res.json()).then(async x=>{
-    {
-      x["symbol"] = e.stock_code;
-      let nok = false;
-      while(x["beta"] == null || x["beta"] == undefined){
+    a.then(async (res) => res.json()).then(async x => {
+      {
+        x["symbol"] = e.stock_code;
+        let nok = false;
+        while (x["beta"] == null || x["beta"] == undefined) {
           console.log(ok, " ERROR ", e.stock_code);
 
           let a2 = await fund(e.stock_code);
 
           x = await a2.json();
           nok = true;
-        // return;
-      }
+          // return;
+        }
 
-      if(nok){
-        console.log(ok, " ERROR2 ", e.stock_code);
-      }
-      ok++;
-      // console.log(ok++, " ", e.stock_code);
-      fundamental.push(x);
-      // console.log(x);
+        if (nok) {
+          console.log(ok, " ERROR2 ", e.stock_code);
+        }
+        ok++;
+        // console.log(ok++, " ", e.stock_code);
+        fundamental.push(x);
+        // console.log(x);
 
-      if(req == ok){
-        fundamental= fundamental.sort((a, b) => {
-          if (a.beta > b.beta) return -1;
-          if (a.beta < b.beta) return 1;
-          return 0;
+        if (req == ok) {
+          fundamental = fundamental.sort((a, b) => {
+            if (a.beta > b.beta) return -1;
+            if (a.beta < b.beta) return 1;
+            return 0;
 
-        })                
+          })
 
-        for (let i = 0; i < 100; i++)
-          console.log(fundamental[i].symbol,fundamental[i].beta )
-
-          for(let e of fundamental){
-            if(e.symbol == "CEO"){
+          for (let i = 0; i < 100; i++)
+            console.log(fundamental[i].symbol, fundamental[i].beta)
+          for (let e of fundamental) {
+            if (e.symbol == "CEO") {
               console.log(e)
             }
           }
+        }
       }
-    }
 
-  })
-  // }, 500);
-
+    })
+    // }, 500);
 
 
 
 
-}
-    // fundamental.sort((a, b) => {
-    //   if (a.beta > b.beta) return 1;
-    //   if (a.beta < b.beta) return -1;
-    //   return 0;
 
-    // })
+  }
+  // fundamental.sort((a, b) => {
+  //   if (a.beta > b.beta) return 1;
+  //   if (a.beta < b.beta) return -1;
+  //   return 0;
 
-    // for (let i = 0; i < 10; i++)
-    //   console.log(fundamental[i])
+  // })
 
-
-}) ();
+  // for (let i = 0; i < 10; i++)
+  //   console.log(fundamental[i])
 
 
-function fund(stock_code){
+})();
 
-  let a =  fetch("https://restv2.fireant.vn/symbols/" + stock_code + "/fundamental", {
+
+function fund(stock_code) {
+
+  let a = fetch("https://restv2.fireant.vn/symbols/" + stock_code + "/fundamental", {
     "headers": {
       "accept": "application/json, text/plain, */*",
       "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",

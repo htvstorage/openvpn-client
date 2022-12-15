@@ -13,7 +13,7 @@ var logger = log4js.getLogger();
 
 log4js.configure({
   appenders: {
-    everything: { type: "file", filename: "stock.log" },
+    everything: { type: "file", filename: "beta.log" },
     console: { type: "console" },
   },
   categories: {
@@ -41,8 +41,9 @@ log4js.configure({
       // r.then(res => res.text()).then(data=>{
       //   console.log(data, e.code,);
       // })
-      let x = await r.text();
-      console.log(x, e.code);
+      let x = await r.json();
+      // console.log(x.data[0]['value'], e.code);
+      logger.info(x.data[0]['value'],e.code)
     } catch (err) { 
       console.log(err)
 
