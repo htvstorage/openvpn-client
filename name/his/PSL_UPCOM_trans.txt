@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,200,0,"2022-12-14T00:00:00",0,17,17,17,17,17,17,,,,0,0,0,0,0,4100,"PSL",0
+1,0,0,0,1000,0,"2022-12-19T00:00:00",200,14.8,15,14.8,14.8,14.8,14.8,,,,0,0,0,0,0,3800,"PSL",2960000
+1,0,0,0,1000,0,"2022-12-16T00:00:00",100,15,15,15,15,15,15,0,0,0,0,0,0,0,0,18300,"PSL",1500000
+1,0,0,0,700,0,"2022-12-15T00:00:00",100,15,17,15,15,15,15,0,0,0,0,0,0,0,0,3900,"PSL",1500000
+1,0,0,0,200,0,"2022-12-14T00:00:00",0,17,17,17,17,17,17,0,0,0,0,0,0,0,0,4100,"PSL",0
 1,0,0,0,1200,0,"2022-12-13T00:00:00",0,17,17,17,17,17,17,0,0,0,0,0,0,0,0,5600,"PSL",0
 1,8,0,0,1209,0,"2022-12-12T00:00:00",700,17,15.4,16.9,17,16.9,17,0,0,0,0,0,11,0,0,6900,"PSL",11889997
 1,12,0,0,1321,0,"2022-12-09T00:00:00",600,15.4,14.7,16.5,16.5,14.7,14.7,0,0,0,0,0,6,0,0,900,"PSL",9229998

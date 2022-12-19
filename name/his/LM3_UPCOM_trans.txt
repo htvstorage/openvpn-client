@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,0,"2022-12-14T00:00:00",0,3.8,3.8,3.8,3.8,3.8,3.8,,,,0,0,0,0,0,0,"LM3",0
+1,0,0,0,0,0,"2022-12-19T00:00:00",0,3.8,3.8,3.8,3.8,3.8,3.8,,,,0,0,0,0,0,0,"LM3",0
+1,0,0,0,0,0,"2022-12-16T00:00:00",0,3.8,3.8,3.8,3.8,3.8,3.8,0,0,0,0,0,0,0,0,15900,"LM3",0
+1,0,0,0,0,0,"2022-12-15T00:00:00",0,3.8,3.8,3.8,3.8,3.8,3.8,0,0,0,0,0,0,0,0,0,"LM3",0
+1,0,0,0,0,0,"2022-12-14T00:00:00",0,3.8,3.8,3.8,3.8,3.8,3.8,0,0,0,0,0,0,0,0,0,"LM3",0
 1,0,0,0,0,0,"2022-12-13T00:00:00",0,3.8,3.8,3.8,3.8,3.8,3.8,0,0,0,0,0,0,0,0,0,"LM3",0
 1,0,0,0,0,0,"2022-12-12T00:00:00",0,3.8,3.8,3.8,3.8,3.8,3.8,0,0,0,0,0,0,0,0,0,"LM3",0
 1,0,0,0,0,0,"2022-12-09T00:00:00",0,3.8,3.8,3.8,3.8,3.8,3.8,0,0,0,0,0,9,0,0,20614,"LM3",0

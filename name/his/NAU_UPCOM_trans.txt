@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,600,1798099,"2022-12-14T00:00:00",0,3.6,3.6,3.6,3.6,3.6,3.6,,,,0,0,0,0,0,0,"NAU",0
+1,0,0,0,600,1798099,"2022-12-19T00:00:00",0,3.6,3.6,3.6,3.6,3.6,3.6,,,,0,0,0,0,0,0,"NAU",0
+1,0,0,0,400,1798099,"2022-12-16T00:00:00",0,3.6,3.6,3.6,3.6,3.6,3.6,0,0,0,0,0,0,0,0,0,"NAU",0
+1,0,0,0,500,1798099,"2022-12-15T00:00:00",0,3.6,3.6,3.6,3.6,3.6,3.6,0,0,0,0,0,0,0,0,0,"NAU",0
+1,0,0,0,600,1798099,"2022-12-14T00:00:00",0,3.6,3.6,3.6,3.6,3.6,3.6,0,0,0,0,0,0,0,0,0,"NAU",0
 1,0,0,0,1200,1798099,"2022-12-13T00:00:00",0,3.6,3.6,3.6,3.6,3.6,3.6,0,0,0,0,0,0,0,0,0,"NAU",0
 1,11,0,0,2501,1798099,"2022-12-12T00:00:00",0,3.6,3.6,3.6,3.6,3.6,3.6,0,0,0,0,0,0,0,0,0,"NAU",0
 1,5,0,0,500,1798099,"2022-12-09T00:00:00",0,3.6,3.6,3.6,3.6,3.6,3.6,0,0,0,0,0,0,0,0,0,"NAU",0

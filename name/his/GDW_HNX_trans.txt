@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,100,4127196,"2022-12-14T00:00:00",0,21,21,21,21,21,21,,,,0,0,0,0,0,100,"GDW",0
+1,0,0,0,900,4127196,"2022-12-19T00:00:00",0,21,21,21,21,21,21,,,,0,0,0,0,0,0,"GDW",0
+1,0,0,0,700,4127196,"2022-12-16T00:00:00",0,21,21,21,21,21,21,0,0,0,0,0,0,0,0,100,"GDW",0
+1,0,0,0,600,4127196,"2022-12-15T00:00:00",0,21,21,21,21,21,21,0,0,0,0,0,0,0,0,100,"GDW",0
+1,0,0,0,100,4127196,"2022-12-14T00:00:00",0,21,21,21,21,21,21,0,0,0,0,0,0,0,0,100,"GDW",0
 1,0,0,0,1200,4127196,"2022-12-13T00:00:00",100,21,20.8,21,21,21,21,0,0,0,0,0,0,0,0,200,"GDW",2100000
 1,5,0,0,700,4127196,"2022-12-12T00:00:00",300,20.86667,22.8,20.8,21,20.8,21,0,0,0,0,0,6,0,0,600,"GDW",6260001
 1,7,0,0,402,4127196,"2022-12-09T00:00:00",0,22.8,22.8,22.8,22.8,22.8,22.8,0,0,0,0,0,3,0,0,178,"GDW",0

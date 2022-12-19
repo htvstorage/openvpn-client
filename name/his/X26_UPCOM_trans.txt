@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,1700,2450000,"2022-12-14T00:00:00",0,16,16,16,16,16,16,,,,0,0,0,0,0,0,"X26",0
+1,0,0,0,2500,2450000,"2022-12-19T00:00:00",0,16,16,16,16,16,16,,,,0,0,0,0,0,0,"X26",0
+1,0,0,0,2400,2450000,"2022-12-16T00:00:00",0,16,16,16,16,16,16,0,0,0,0,0,0,0,0,0,"X26",0
+1,0,0,0,1600,2450000,"2022-12-15T00:00:00",0,16,16,16,16,16,16,0,0,0,0,0,0,0,0,0,"X26",0
+1,0,0,0,1700,2450000,"2022-12-14T00:00:00",0,16,16,16,16,16,16,0,0,0,0,0,0,0,0,0,"X26",0
 1,0,0,0,1400,2450000,"2022-12-13T00:00:00",0,16,16,16,16,16,16,0,0,0,0,0,0,0,0,0,"X26",0
 1,5,0,0,1400,2450000,"2022-12-12T00:00:00",0,16,16,16,16,16,16,0,0,0,0,0,0,0,0,0,"X26",0
 1,6,0,0,1500,2450000,"2022-12-09T00:00:00",0,16,16,16,16,16,16,0,0,0,0,0,0,0,0,0,"X26",0

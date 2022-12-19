@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,6016945,"2022-12-14T00:00:00",0,29,29,29,29,29,29,,,,0,0,0,0,0,700,"SGH",0
+1,0,0,0,2200,6016945,"2022-12-19T00:00:00",0,35,35,35,35,35,35,,,,0,0,0,0,0,700,"SGH",0
+1,0,0,0,1200,6016945,"2022-12-16T00:00:00",100,35,31.9,35,35,35,35,0,0,0,0,0,0,0,0,1600,"SGH",3500000
+1,0,0,0,2300,6016945,"2022-12-15T00:00:00",800,30.45,29,31.9,31.9,26.1,26.1,0,0,0,0,0,0,0,0,800,"SGH",24360000
+1,0,0,0,0,6016945,"2022-12-14T00:00:00",0,29,29,29,29,29,29,0,0,0,0,0,0,0,0,700,"SGH",0
 1,0,0,0,0,6016945,"2022-12-13T00:00:00",0,29,29,29,29,29,29,0,0,0,0,0,0,0,0,700,"SGH",0
 1,0,0,0,0,6016945,"2022-12-12T00:00:00",0,29,29,29,29,29,29,0,0,0,0,0,6,0,0,747,"SGH",0
 1,1,0,0,2,6016945,"2022-12-09T00:00:00",0,29,29,29,29,29,29,0,0,0,0,0,7,0,0,847,"SGH",0

@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,27966905,"2022-12-14T00:00:00",0,1,1,1,1,1,1,,,,0,0,0,0,0,0,"KSH",0
+1,0,0,0,0,27964905,"2022-12-19T00:00:00",0,0.9,0.9,0.9,0.9,0.9,0.9,,,,0,0,0,0,0,0,"KSH",0
+1,0,2000,1833420,1051200,27964905,"2022-12-16T00:00:00",1047300,0.91671,1,1,1,0.9,1,0,0,0,0,0,0,0,0,2737700,"KSH",960070383
+1,0,0,0,0,27966905,"2022-12-15T00:00:00",0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,"KSH",0
+1,0,0,0,0,27966905,"2022-12-14T00:00:00",0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,"KSH",0
 1,0,0,0,0,27966905,"2022-12-13T00:00:00",0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,"KSH",0
 1,0,0,0,0,27966905,"2022-12-12T00:00:00",0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,"KSH",0
 1,290,0,0,2334291,27966905,"2022-12-09T00:00:00",1413300,1,0.9,1,1,0.9,1,0,0,0,0,0,156,0,0,1935986,"KSH",1381020228

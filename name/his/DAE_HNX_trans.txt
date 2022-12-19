@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,200,723111,"2022-12-14T00:00:00",0,18,18,18,18,18,18,,,,0,0,0,0,0,800,"DAE",0
+1,0,0,0,200,723111,"2022-12-19T00:00:00",0,18,18,18,18,18,18,,,,0,0,0,0,0,1800,"DAE",0
+1,0,0,0,300,723111,"2022-12-16T00:00:00",0,18,18,18,18,18,18,0,0,0,0,0,0,0,0,900,"DAE",0
+1,0,0,0,500,723111,"2022-12-15T00:00:00",100,18,18,18,18,18,18,0,0,0,0,0,0,0,0,800,"DAE",1800000
+1,0,0,0,200,723111,"2022-12-14T00:00:00",0,18,18,18,18,18,18,0,0,0,0,0,0,0,0,800,"DAE",0
 1,0,0,0,300,723111,"2022-12-13T00:00:00",0,18,18,18,18,18,18,0,0,0,0,0,0,0,0,1700,"DAE",0
 1,2,0,0,200,723111,"2022-12-12T00:00:00",0,18,18,18,18,18,18,0,0,0,0,0,3,0,0,300,"DAE",0
 1,7,0,0,402,723111,"2022-12-09T00:00:00",0,18,18,18,18,18,18,0,0,0,0,0,4,0,0,322,"DAE",0

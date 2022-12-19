@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,3200,0,"2022-12-14T00:00:00",0,55,55,55,55,55,55,,,,0,0,0,0,0,2800,"HEC",0
+1,0,0,0,3100,0,"2022-12-19T00:00:00",100,51.9,52,51.9,51.9,51.9,51.9,,,,0,0,0,0,0,2100,"HEC",5190000
+1,0,0,0,3900,0,"2022-12-16T00:00:00",600,52,55,52,52,52,52,0,0,0,0,0,0,0,0,3400,"HEC",31200000
+1,0,0,0,3300,0,"2022-12-15T00:00:00",0,55,55,55,55,55,55,0,0,0,0,0,0,0,0,2800,"HEC",0
+1,0,0,0,3200,0,"2022-12-14T00:00:00",0,55,55,55,55,55,55,0,0,0,0,0,0,0,0,2800,"HEC",0
 1,0,0,0,3200,0,"2022-12-13T00:00:00",0,55,55,55,55,55,55,0,0,0,0,0,0,0,0,2800,"HEC",0
 1,6,0,0,7023,0,"2022-12-12T00:00:00",0,55,55,55,55,55,55,0,0,0,197600000,3800,4,0,0,6300,"HEC",197600000
 1,4,0,0,3223,0,"2022-12-09T00:00:00",0,55,55,55,55,55,55,0,0,0,0,0,3,0,0,2700,"HEC",0

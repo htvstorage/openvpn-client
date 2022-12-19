@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,6340012,"2022-12-14T00:00:00",0,7.3,7.3,7.3,7.3,7.3,7.3,,,,0,0,0,0,0,0,"XPH",0
+1,0,0,0,0,6340012,"2022-12-19T00:00:00",0,7.5,7.5,7.5,7.5,7.5,7.5,,,,0,0,0,0,0,0,"XPH",0
+1,0,0,0,900,6340012,"2022-12-16T00:00:00",600,7.51667,7.3,7.3,8,7,8,0,0,0,0,0,0,0,0,22800,"XPH",4510002
+1,0,0,0,0,6340012,"2022-12-15T00:00:00",0,7.3,7.3,7.3,7.3,7.3,7.3,0,0,0,0,0,0,0,0,0,"XPH",0
+1,0,0,0,0,6340012,"2022-12-14T00:00:00",0,7.3,7.3,7.3,7.3,7.3,7.3,0,0,0,0,0,0,0,0,0,"XPH",0
 1,0,0,0,0,6340012,"2022-12-13T00:00:00",0,7.3,7.3,7.3,7.3,7.3,7.3,0,0,0,0,0,0,0,0,0,"XPH",0
 1,0,0,0,0,6340012,"2022-12-12T00:00:00",0,7.3,7.3,7.3,7.3,7.3,7.3,0,0,0,0,0,0,0,0,0,"XPH",0
 1,2,0,0,101,6340012,"2022-12-09T00:00:00",100,7.3,8.5,7.3,7.3,7.3,7.3,0,0,0,0,0,11,0,0,46200,"XPH",730000
