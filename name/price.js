@@ -64,7 +64,7 @@ log4js.configure({
           counter++;
           console.log(counter, ret.Code);
           let data2 = csv.parse(ret.data);
-          fs.appendFile("./his/" + ret.Code + "_" + x.Exchange + '_trans.txt', data2 + "\n", function (err) {
+          fs.writeFile("./his/" + ret.Code + "_" + x.Exchange + '_trans.txt', data2 + "\n", function (err) {
             if (err) throw err;
           });
         })

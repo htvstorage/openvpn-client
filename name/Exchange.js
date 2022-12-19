@@ -105,7 +105,11 @@ function loadCoporate() {
 
 
 //VND
-
+import http from "http";
+import https from "http";
+const httpAgent = new http.Agent({ keepAlive: true });
+const httpsAgent = new https.Agent({ keepAlive: true });
+const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
 
 Exchange.ratios = async function (symbol) {
   //itemCode:51003,51016,51001,51002,51004,57066,51007,51006,51012,51033,51035
