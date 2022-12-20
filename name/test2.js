@@ -47,8 +47,7 @@ import fs from "fs";
     }
 
     console.log(a.length)
-    a = a.sort((x, y) => {
-        console.log(x["symbol"])
+    a = a.sort((x, y) => {        
         let t = x[2]["value"] - (y[2]["value"]);
         return t > 0? 1 : t < 0 ? -1 : 0
     });
@@ -56,9 +55,10 @@ import fs from "fs";
     
 
     for (var i = 0; i < a.length; i++) {
-        console.log(a[i]["symbol"],a[i][2]["value"]);
+        if(stockData[a[i]["symbol"]].fundamental.avgVolume10d > 500000 && stockData[a[i]["symbol"]].fundamental.marketCap > 100000000000)
+            console.log(a[i]["symbol"],a[i][2]["value"]);
     }
 
-    console.log(b[0]);
+    // console.log(stockData["NKG"]);
 
 })();
