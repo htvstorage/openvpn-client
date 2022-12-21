@@ -2,6 +2,14 @@ import fetch from "node-fetch";
 import fs from "fs";
 import log4js from "log4js";
 import json2csv2 from "json2csv"
+
+import http from "node:http";
+import https from "node:https";
+
+const httpAgent = new http.Agent({ keepAlive: true });
+const httpsAgent = new https.Agent({ keepAlive: true });
+const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
+
 var logger = log4js.getLogger();
 
 log4js.configure({
@@ -121,8 +129,9 @@ async function getPrices(symbol) {
     "referrerPolicy": "no-referrer",
     "body": null,
     "method": "GET",
-    "mode": "cors"
-  });
+    "mode": "cors",
+    agent
+  } , {timeout:1000});
   let x = await a.json();
   return { 'data': x, 'Code': symbol };
 }

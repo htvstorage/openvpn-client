@@ -7,9 +7,6 @@ import https from "node:https";
 const httpAgent = new http.Agent({ keepAlive: true });
 const httpsAgent = new https.Agent({ keepAlive: true });
 const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
-
-
-
 var logger = log4js.getLogger();
 
 
@@ -209,7 +206,8 @@ Exchange.ratios = async function (symbol) {
     "referrerPolicy": "strict-origin-when-cross-origin",
     "body": null,
     "method": "GET",
-    "mode": "cors"
+    "mode": "cors",
+    agent
   });
 }
 

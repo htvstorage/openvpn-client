@@ -42,8 +42,19 @@ log4js.configure({
       let r = Exchange.ratios(e.code);
       // let r = Exchange.fundamental(e.code);
       req++;
-      r.then(res => res.json()).then(data => {
+      r.then(res => {
+            return res.text();
+        // try {
+        //   let f = () => { return res.json()};
+        //   return new Function('f', `return f()`)(f);     
+        // } catch (e) {
+        //   if (e.name !== 'SyntaxError') throw e 
+        //   console.log(e)
+        // }
+      }).then(data => {                
         try {
+          console.log(data);
+          data = JSON.parse(data);
           if (data.data[0]['value'] != undefined)
             logger.info("Beta", req, res, data.data[0]['value'], e.code)
           else {
@@ -80,16 +91,24 @@ log4js.configure({
         let r = Exchange.ratios(e.code);
         // let r = Exchange.fundamental(e);
         req++;
-        r.then(res => res.json()).then(data => {
+        r.then(res => { return res.text();
+          // let f = () => { return res.json() };
+          // let fe = new Function('f', `return f()`);
+          // return fe(f);
+        }).then(data => {
           try {
+            // console.log(data);
+            data = JSON.parse(data);
             if (data.data[0]['value'] != undefined) {
               logger.info("Beta", req, res, data.data[0]['value'], e)
               set.delete(e);
+              console.log("delete")
             }
             else {
               // set.add(e);
             }
           } catch (error) {
+            console.log(error)
             // set.add(e);
           }
           res++;

@@ -103,6 +103,8 @@ log4js.configure({
       }
 
     }
+    set.delete('GCF');
+    logger.info(set);
   }
 })();
 
