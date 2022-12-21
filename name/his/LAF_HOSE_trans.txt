@@ -1,5 +1,7 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,6935867,"2022-12-19T00:00:00",0,16,16,16,16,16,16,,,,0,0,0,0,0,0,"LAF",0
+1,3,0,0,201,6935867,"2022-12-21T00:00:00",200,16.425,16.45,15.3,17.55,15.3,17.55,,,,0,0,21,0,0,5225,"LAF",3285000
+1,1,0,0,100,6935867,"2022-12-20T00:00:00",100,16.45,16,16.45,16.45,16.45,16.45,0,0,0,0,0,11,0,0,3129,"LAF",1645000
+1,1,0,0,100,6935867,"2022-12-19T00:00:00",0,16,16,16,16,16,16,0,0,0,0,0,6,0,0,1825,"LAF",0
 1,0,0,0,0,6935867,"2022-12-16T00:00:00",0,16,16,16,16,16,16,0,0,0,0,0,8,0,0,1125,"LAF",0
 1,7,0,0,1221,6935867,"2022-12-15T00:00:00",900,14.9,15,16,16.05,14,16.05,0,0,0,0,0,9,0,0,1734,"LAF",13410000
 1,1,0,0,31,6935867,"2022-12-14T00:00:00",0,15,15,15,15,15,15,0,0,0,0,0,8,0,0,1206,"LAF",0

@@ -1,5 +1,7 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,0,"2022-12-19T00:00:00",0,38.3,38.3,38.3,38.3,38.3,38.3,,,,0,0,0,0,0,0,"UIC",0
+1,14,0,0,2501,0,"2022-12-21T00:00:00",800,36.375,38.25,38,38,36,37,,,,0,0,9,0,0,8400,"UIC",29100000
+1,14,0,0,1552,0,"2022-12-20T00:00:00",400,38.25,38.3,38.25,38.25,38.25,38.25,0,0,0,0,0,9,0,0,2610,"UIC",15300000
+1,10,0,0,3502,0,"2022-12-19T00:00:00",0,38.3,38.3,38.3,38.3,38.3,38.3,0,0,0,0,0,7,0,0,2500,"UIC",0
 1,12,0,0,1002,0,"2022-12-16T00:00:00",100,38.3,38.5,38.3,38.3,38.3,38.3,0,0,0,0,0,7,0,0,3400,"UIC",3830000
 1,4,0,0,600,0,"2022-12-15T00:00:00",300,38.5,39,38.5,38.5,38.5,38.5,0,0,0,0,0,8,0,0,3000,"UIC",11550000
 1,8,0,0,1400,0,"2022-12-14T00:00:00",600,39.166669999999996,40.2,39,39.5,39,39.5,0,0,0,0,0,15,0,0,5900,"UIC",23500002
