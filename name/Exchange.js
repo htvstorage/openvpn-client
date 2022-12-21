@@ -1,8 +1,18 @@
 import fetch from "node-fetch";
 import fs from "fs";
 import log4js from "log4js";
+import http from "node:http";
+import https from "node:https";
+
+const httpAgent = new http.Agent({ keepAlive: true });
+const httpsAgent = new https.Agent({ keepAlive: true });
+const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
+
+
 
 var logger = log4js.getLogger();
+
+
 
 export function Exchange() {
 
@@ -33,21 +43,21 @@ Exchange.transaction = async function (symbol) {
 }
 
 
-Exchange.finacialReport = async function (symbol, period) {
-  let ret = { data: { headers: [], rows: [] } };
+Exchange.finacialReport = async function (symbol) {
+  let ret = {
+    1: { 1: { data: { headers: [], rows: [] } }, 2: { data: { headers: [], rows: [] } }, 3: { data: { headers: [], rows: [] } } },
+    2: { 1: { data: { headers: [], rows: [] } }, 2: { data: { headers: [], rows: [] } }, 3: { data: { headers: [], rows: [] } } },
+  };
 
-  let js = function(data){
+  let js = function (data) {
     this.data = data;
-    this.json = function(){
+    this.json = function () {
       return this.data;
     }
   };
 
-  let f = async (symbol, page, period) => {
-    if (period == undefined) {
-      period = 2;
-    }
-    return fetch("https://api-finance-t19.24hmoney.vn/v1/ios/company/financial-report?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&" + "symbol=" + symbol + "&period=" + period + "&view=2&page=" + page + "&expanded=true", {
+  let f = async (symbol, page, period, views) => {
+    return fetch("https://api-finance-t19.24hmoney.vn/v1/ios/company/financial-report?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&" + "symbol=" + symbol + "&period=" + period + "&view=" + views + "&page=" + page + "&expanded=true", {
       "headers": {
         "accept": "application/json, text/plain, */*",
         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -61,34 +71,48 @@ Exchange.finacialReport = async function (symbol, period) {
       "referrerPolicy": "strict-origin-when-cross-origin",
       "body": null,
       "method": "GET",
-      "mode": "cors"
-    });
+      "mode": "cors",
+      agent
+    }, { timeout: 1000 });
   }
-  let a = f(symbol, 1, period);
+  let periods = [1, 2]
+  let views = [1, 2, 3];
   let promise = new Promise((resolve, reject) => {
-    a.then(res => res.json()).then(data => {
-      ret.data.headers = [...ret.data.headers, ...data.data.headers]
-      ret.data.rows = [...ret.data.rows, ...data.data.rows]
-      if (data.total_page > 1) {
-        for (let i = 2; i <= data.total_page; i++) {
-          let b = f(symbol, i, period);
-          b.then(res => res.json()).then(data => {
-            ret.data.headers = [...ret.data.headers, ...data.data.headers]
-            // ret.data.rows = [...ret.data.rows, ...data.data.rows]            
-            ret.data.rows.forEach((value, index) => {
-              value.values = [...value.values, ...data.data.rows[index].values]
-            });
-            if (i == data.total_page) {
-              resolve(new js(ret));
+    for (let period of periods) {
+      for (let view of views) {
+        let a = f(symbol, 1, period, view);
+        a.then(res => res.json()).then(data => {
+          ret[period][view].data.headers = [...ret[period][view].data.headers, ...data.data.headers]
+          ret[period][view].data.rows = [...ret[period][view].data.rows, ...data.data.rows]
+          if (data.total_page > 1) {
+            for (let i = 2; i <= data.total_page; i++) {
+              let b = f(symbol, i, period, view);
+              b.then(res => res.json()).then(data => {
+                ret[period][view].data.headers = [...ret[period][view].data.headers, ...data.data.headers]
+                // ret.data.rows = [...ret.data.rows, ...data.data.rows]            
+                ret[period][view].data.rows.forEach((value, index) => {
+                  value.values = [...value.values, ...data.data.rows[index].values]
+                });
+                if (i == data.total_page) {
+                  if (ret[1][1].data.rows.length > 0 && ret[1][2].data.rows.length > 0 && ret[1][3].data.rows.length > 0
+                    && ret[2][1].data.rows.length > 0 && ret[2][2].data.rows.length > 0 && ret[2][3].data.rows.length > 0
+                  )
+                    resolve(new js(ret));
+                }
+              })
             }
-          })
-        }
+          }
+          else {
+            if (ret[1][1].data.rows.length > 0 && ret[1][2].data.rows.length > 0 && ret[1][3].data.rows.length > 0
+              && ret[2][1].data.rows.length > 0 && ret[2][2].data.rows.length > 0 && ret[2][3].data.rows.length > 0)
+              resolve(new js(ret));
+          }
+        });
+
       }
-      else {
-        resolve(new js(ret));
-      }
-    });
+    }
   });
+
   return promise;
 }
 
@@ -166,11 +190,7 @@ function loadCoporate() {
 
 
 //VND
-import http from "http";
-import https from "http";
-const httpAgent = new http.Agent({ keepAlive: true });
-const httpsAgent = new https.Agent({ keepAlive: true });
-const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
+
 
 Exchange.ratios = async function (symbol) {
   //itemCode:51003,51016,51001,51002,51004,57066,51007,51006,51012,51033,51035
@@ -229,7 +249,8 @@ Exchange.fundamental = async function (stock_code) {
     "referrerPolicy": "no-referrer",
     "body": null,
     "method": "GET",
-    "mode": "cors"
+    "mode": "cors",
+    agent
   });
 
   return a;
@@ -251,6 +272,7 @@ Exchange.financialIndicators = async function (symbol) {
     "body": null,
     "method": "GET",
     "mode": "cors",
-    "credentials": "include"
+    "credentials": "include",
+    agent
   });
 }

@@ -62,16 +62,15 @@ import fs from "fs";
 
     // console.log(stockData["MSN"])
 
-    // let rp = Exchange.finacialReport("SCC",2);
+    let rp = Exchange.finacialReport("HPG");
 
-    // rp.then(res=>{
-    //         return res.json()
-    //         // console.log(res);
-    //     // console.log(res.data.headers,"\n",res.data.rows);
-    // }).then((data)=>{
-        
-    //     console.log(data.data.headers,"\n",data.data.rows);
-    // }
-    // )
+    rp.then(res=>{
+            return res.json()
+            // console.log(res);
+        // console.log(res.data.headers,"\n",res.data.rows);
+    }).then((data)=>{        
+        console.log(data[1][3].data.headers,"\n",data[1][3].data.rows);
+    }
+    )
 
 })();

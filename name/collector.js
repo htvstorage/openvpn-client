@@ -1,4 +1,4 @@
-import fetch from "node-fetch";
+import fetch from "fetch";
 import fs from "fs";
 import log4js from "log4js";
 import { Parser } from "json2csv"
@@ -99,8 +99,8 @@ async function collect(stockData, symbol) {
 
     let check = [(e) => { return e.beta != undefined },
     (e) => { return e.length > 0 },
-    (e) => {       
-      return (e.data != undefined)&& (e.data.headers != undefined)&& (e.data.rows.length > 0)
+    (e) => {
+      return (e[1][1].data != undefined) && (e[1][1].data.rows != undefined) && (e[1][1].data.rows.length > 0)
     }];
 
     let ret = func.map(e => e(symbol));
