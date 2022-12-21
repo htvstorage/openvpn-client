@@ -59,6 +59,19 @@ import fs from "fs";
             console.log(a[i]["symbol"],a[i][2]["value"]);
     }
 
-    // console.log(stockData["NKG"]);
+
+    // console.log(stockData["MSN"])
+
+    // let rp = Exchange.finacialReport("SCC",2);
+
+    // rp.then(res=>{
+    //         return res.json()
+    //         // console.log(res);
+    //     // console.log(res.data.headers,"\n",res.data.rows);
+    // }).then((data)=>{
+        
+    //     console.log(data.data.headers,"\n",data.data.rows);
+    // }
+    // )
 
 })();

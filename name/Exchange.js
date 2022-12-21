@@ -32,6 +32,67 @@ Exchange.transaction = async function (symbol) {
   return x;
 }
 
+
+Exchange.finacialReport = async function (symbol, period) {
+  let ret = { data: { headers: [], rows: [] } };
+
+  let js = function(data){
+    this.data = data;
+    this.json = function(){
+      return this.data;
+    }
+  };
+
+  let f = async (symbol, page, period) => {
+    if (period == undefined) {
+      period = 2;
+    }
+    return fetch("https://api-finance-t19.24hmoney.vn/v1/ios/company/financial-report?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&" + "symbol=" + symbol + "&period=" + period + "&view=2&page=" + page + "&expanded=true", {
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site"
+      },
+      "referrer": "https://24hmoney.vn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": null,
+      "method": "GET",
+      "mode": "cors"
+    });
+  }
+  let a = f(symbol, 1, period);
+  let promise = new Promise((resolve, reject) => {
+    a.then(res => res.json()).then(data => {
+      ret.data.headers = [...ret.data.headers, ...data.data.headers]
+      ret.data.rows = [...ret.data.rows, ...data.data.rows]
+      if (data.total_page > 1) {
+        for (let i = 2; i <= data.total_page; i++) {
+          let b = f(symbol, i, period);
+          b.then(res => res.json()).then(data => {
+            ret.data.headers = [...ret.data.headers, ...data.data.headers]
+            // ret.data.rows = [...ret.data.rows, ...data.data.rows]            
+            ret.data.rows.forEach((value, index) => {
+              value.values = [...value.values, ...data.data.rows[index].values]
+            });
+            if (i == data.total_page) {
+              resolve(new js(ret));
+            }
+          })
+        }
+      }
+      else {
+        resolve(new js(ret));
+      }
+    });
+  });
+  return promise;
+}
+
+
 //VPS
 Exchange.getlistallstock = async function () {
   let cop = [];
