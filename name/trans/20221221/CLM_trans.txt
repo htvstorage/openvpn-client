@@ -1,0 +1,4 @@
+"price","change","match_qtty","side","time","total_vol"
+53.1,-5.3,100,"unknown","14:21:13",400
+53.2,-5.2,100,"unknown","14:21:05",300
+58,-0.4,200,"unknown","13:37:29",200
