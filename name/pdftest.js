@@ -9,9 +9,10 @@ import PDFParser from "pdf2json";
 import { writeFile } from "fs/promises"
 // import { fs } from "fs/promises"
 import { PDFDocument } from 'pdf-lib'
-import {PDFRawStream,decodePDFRawStream} from 'pdf-lib'
-import pdf from 'pdfjs';
-
+import { PDFRawStream, decodePDFRawStream } from 'pdf-lib'
+import { Console } from "console";
+import pdf from "pdfjs-dist/legacy/build/pdf.js";
+import PDFPageProxy from "pdfjs-dist/legacy/build/pdf.js";
 
 //https://static2.vietstock.vn/vietstock/2022/12/1/20221201_20221201___thong_ke_giao_dich_tu_doanh.pdf
 //https://static2.vietstock.vn/vietstock/2022/9/8/20220908_20220908___thong_ke_giao_dich_tu_doanh.pdf
@@ -76,10 +77,9 @@ function wait(ms) {
     const pdfParser = new PDFParser();
     let promise = new Promise((resolve, reject) => {
         pdfParser.on("pdfParser_dataError", errData => console.error(errData.parserError));
-        pdfParser.on("pdfParser_dataReady", pdfData => {
-            console.log(JSON.stringify(pdfParser.getAllFieldsTypes()))
+        pdfParser.on("pdfParser_dataReady", pdfData => {            
             pdfData.Pages.forEach((p, i) => {
-               
+
                 p.Texts.forEach((t, ti) => {
                     t["P"] = i; items.push(t); t["text"] = decodeURIComponent(t.R[0].T)
                     t["pw"] = p.Width
@@ -87,6 +87,8 @@ function wait(ms) {
             });
             resolve(items);
         });
+        // pdfParser.on("data",  data => this.emit("data", data));
+        // data => this.emit("data", data));
         pdfParser.loadPDF("./pdf/20221222_20221222___thong_ke_giao_dich_tu_doanh.pdf");
     });
 
@@ -99,7 +101,7 @@ function wait(ms) {
     let z = 0;
 
     const SGD = "SỞ GIAO DỊCH CHỨNG KHOÁN TP. HỒ CHÍ MINH";
-    let M1, B1, M2, B2, M3, B3, M4, B4, MA, END, E5 , STT;
+    let M1, B1, M2, B2, M3, B3, M4, B4, MA, END, E5, STT;
     let next = M1;
     let idx = 0;
     for (let i of items) {
@@ -171,13 +173,13 @@ function wait(ms) {
     let begin = false;
 
     let decode = (record, idx, val, e1, e2) => {
-        if (val.x >= (e1.x + e1.w/e1.pw) && (val.x + val.w / val.pw) < e2.x) {
+        if (val.x >= (e1.x + e1.w / e1.pw) && (val.x + val.w / val.pw) < e2.x) {
             // console.log(val.text);       
             record[idx] = val.text;
         }
     }
     let decode2 = (record, idx, val, e1, e2) => {
-        if (val.x >= (e1.x + e1.w/e1.pw) && (val.x + val.w / val.pw) < e2.x) {      
+        if (val.x >= (e1.x + e1.w / e1.pw) && (val.x + val.w / val.pw) < e2.x) {
             record[idx] = val.text;
         }
     }
@@ -194,7 +196,7 @@ function wait(ms) {
         // }
 
         if (val.x >= MA.x && (val.x + val.w / val.pw) < M1.x) {
-                    // console.log(val.text);
+            // console.log(val.text);
             begin = true;
             symbol = val.text;
             sum.push(record);
@@ -233,29 +235,45 @@ function wait(ms) {
 
     console.log(head);
 
-    head.forEach((v,i)=>{
-        if(v== undefined){
+    head.forEach((v, i) => {
+        if (v == undefined) {
             return;
         }
-        let zz = sum.filter((e)=>{return e[i] != undefined}).map(e=>+(e[i].replace(/,/g, '')));
+        let zz = sum.filter((e) => { return e[i] != undefined }).map(e => +(e[i].replace(/,/g, '')));
         let v1 = zz.slice(1);
-        let v2= v1.reduce((a,b)=>a+b,0)
-        if(v2 != +(v.replace(/,/g, ''))){
+        let v2 = v1.reduce((a, b) => a + b, 0)
+        if (v2 != +(v.replace(/,/g, ''))) {
             // console.log("Co sai du lieu ", i, v,v2)
             // console.log(zz);
-        }else{
+        } else {
             // console.log("Ok  ", i, v,v2)
         }
     })
-  
+
 
 
     //  console.log(v2,zz[0]);    
-    const pdfData =  fs.readFileSync("./pdf/20221222_20221222___thong_ke_giao_dich_tu_doanh.pdf");
+    const pdfData = fs.readFileSync("./pdf/20221222_20221222___thong_ke_giao_dich_tu_doanh.pdf");
 
-    const ext = new pdf.ExternalDocument(pdfData)
+    const loadingTask = pdf.getDocument("./pdf/20221222_20221222___thong_ke_giao_dich_tu_doanh.pdf");
+        const doc = await loadingTask.promise;
 
-    console.log(ext.gettable());
+    // console.log(doc.getPage(1).then(p=>{console.log(p)}))
+
+(await doc.getPage(1)).getTextContent().then(function (ops) {
+    console.log(JSON.stringify(ops))
+
+    // for (var i=0; i < ops.fnArray.length; i++) {
+    //     // if (ops.fnArray[i] == pdf.OPS.paintJpegXObject) {
+    //         // window.objs.push(ops.argsArray[i][0])
+    //         console.log(ops.argsArray[i])
+    //     // }
+    // }
+})
+
+
+// (await doc.getPage(1)).getTextContent().then( ct=>{console.log(ct)});
+
 
     // const pdfDoc = await PDFDocument.load(pdfData);
     // const pages = pdfDoc.getPages()
@@ -296,4 +314,4 @@ function wait(ms) {
     //     }
     // })
 
-})();
+}) ();
