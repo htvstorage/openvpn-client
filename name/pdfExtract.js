@@ -125,9 +125,11 @@ function wait(ms) {
 
     const SGD = "SỞ GIAO DỊCH CHỨNG KHOÁN TP. HỒ CHÍ MINH";
     let next = 0;
+    let END = null;
     for (let t of items) {
         if(t.str == SGD){
             if(next >0){
+                END = t;
                 break;
             }
             next++;
@@ -137,7 +139,9 @@ function wait(ms) {
     }
 
 
-    
+    let l = items.filter((e, i) => {
+        return e.P < END.P;
+    })
 
 
 
@@ -150,10 +154,10 @@ function wait(ms) {
         }
     }
     sum = [];
-    items.forEach((val, idx) => {
-        // if (val.y <= M1.y && val.P <= M1.P) {
-        //     return;
-        // }
+    l.forEach((val, idx) => {
+        if (val.transform[5]  >= txt1[1] && val.P <= 1) {
+            return;
+        }
 
 
         if (val.str == ' ') {
@@ -178,7 +182,27 @@ function wait(ms) {
     sum.push(record) //last
 
     for (let e of sum) {
-        console.log(e);
+        // console.log(e);
     }
+
+    let head = sum[0];
+
+
+    console.log(head);
+
+    head.forEach((v, i) => {
+        if (v == undefined) {
+            return;
+        }
+        let zz = sum.filter((e) => { return e[i] != undefined }).map(e => +(e[i].replace(/,/g, '')));
+        let v1 = zz.slice(1);
+        let v2 = v1.reduce((a, b) => a + b, 0)
+        if (v2 != +(v.replace(/,/g, ''))) {
+            // console.log("Co sai du lieu ", i, v,v2)
+            // console.log(zz);
+        } else {
+            console.log("Ok  ", i, v,v2)
+        }
+    })    
 
 })();
