@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,0,"2022-12-21T00:00:00",0,18,18,18,18,18,18,,,,0,0,0,0,0,3000,"TDF",0
+1,0,0,0,0,0,"2022-12-26T00:00:00",0,18,18,18,18,18,18,,,,0,0,0,0,0,100,"TDF",0
+1,0,0,0,0,0,"2022-12-23T00:00:00",0,18,18,18,18,18,18,0,0,0,0,0,0,0,0,0,"TDF",0
+1,0,0,0,0,0,"2022-12-22T00:00:00",0,18,18,18,18,18,18,0,0,0,0,0,2,0,0,3500,"TDF",0
+1,0,0,0,0,0,"2022-12-21T00:00:00",0,18,18,18,18,18,18,0,0,0,0,0,1,0,0,3000,"TDF",0
 1,0,0,0,0,0,"2022-12-20T00:00:00",0,18,18,18,18,18,18,0,0,0,0,0,0,0,0,0,"TDF",0
 1,1,0,0,100,0,"2022-12-19T00:00:00",0,18,18,18,18,18,18,0,0,0,0,0,0,0,0,0,"TDF",0
 1,3,0,0,1600,0,"2022-12-16T00:00:00",900,18,18,18,18,18,18,0,0,0,0,0,3,0,0,1400,"TDF",16200000

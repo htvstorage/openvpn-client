@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,5804100,"2022-12-21T00:00:00",0,1.1,1.1,1.1,1.1,1.1,1.1,,,,0,0,0,0,0,0,"KHL",0
+1,0,0,0,0,5804100,"2022-12-26T00:00:00",0,1,1,1,1,1,1,,,,0,0,0,0,0,0,"KHL",0
+1,10,0,0,5434,5804100,"2022-12-23T00:00:00",5400,1,1.1,1,1.1,1,1.1,0,0,0,0,0,12,0,0,39298,"KHL",5529978
+1,0,0,0,0,5804100,"2022-12-22T00:00:00",0,1.1,1.1,1.1,1.1,1.1,1.1,0,0,0,0,0,0,0,0,0,"KHL",0
+1,0,0,0,0,5804100,"2022-12-21T00:00:00",0,1.1,1.1,1.1,1.1,1.1,1.1,0,0,0,0,0,0,0,0,0,"KHL",0
 1,0,0,0,0,5804100,"2022-12-20T00:00:00",0,1.1,1.1,1.1,1.1,1.1,1.1,0,0,0,0,0,0,0,0,0,"KHL",0
 1,0,0,0,0,5804100,"2022-12-19T00:00:00",0,1.1,1.1,1.1,1.1,1.1,1.1,0,0,0,0,0,0,0,0,0,"KHL",0
 1,7,0,0,18599,5804100,"2022-12-16T00:00:00",12500,1.1,1.1,1.1,1.1,1.1,1.1,0,0,0,0,0,16,0,0,49510,"KHL",13750000
