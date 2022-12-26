@@ -59,6 +59,9 @@ log4js.configure({
     let xx = await fet.json();
     console.log(xx.length)
     cop = [...cop,...xx];
+
+    let req = 0;
+    let res = 0;
   for (let x of cop) {
     x['Code'] = x.stock_code;
     x['Exchange']=x.post_to;
@@ -66,8 +69,9 @@ log4js.configure({
      let a =  x.Exchange.toUpperCase()
     // if (a == "HNX" || a == "UPCOM"||a == "HOSE") {
       if (true) {
-      setTimeout(() => {
+      // setTimeout(() => {
         let z = getPrices(x.Code);
+        req++;
         z.then((ret) => {
           counter++;
           console.log(counter, ret.Code);
@@ -75,12 +79,25 @@ log4js.configure({
           fs.writeFile("./his/" + ret.Code + "_" + x.Exchange + '_trans.txt', data2 + "\n", function (err) {
             if (err) throw err;
           });
+          res++;
         })
-      }, 200);
+      // }, 500);
+    }
+    // console.log(req,res)
+    while(req - res >= 100){
+      await wait(100)
     }
   }
 })();
 
+
+function wait(ms) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(0);
+    }, ms);
+  });
+}
 
 async function getTrans(symbol) {
   let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol=" + symbol + "&page=1&per_page=2000000", {
