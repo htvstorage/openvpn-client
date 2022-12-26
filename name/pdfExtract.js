@@ -70,11 +70,11 @@ function wait(ms) {
 
     for (let file of files) {
         if (file.includes("202205")
-        // || file.includes("202206")
-        // || file.includes("202207")
-        // || file.includes("202208")
-        // || file.includes("202209")
-        // || file.includes("202210")
+            // || file.includes("202206")
+            // || file.includes("202207")
+            // || file.includes("202208")
+            // || file.includes("202209")
+            // || file.includes("202210")
         ) {
             continue;
         }
@@ -232,13 +232,13 @@ function wait(ms) {
             if (i = 0) return;
             let t = summarySymbol[v[0]];
             if (t == undefined) {
-                t = [0, 0, 0, 0,];
+                t = [0, 0, 0, 0, 0, 0, 0, 0,];
                 summarySymbol[v[0]] = t;
             }
 
             for (i = 1; i <= 4; i++) {
-                if(v[i] != undefined)
-                   t[i-1] += +(v[i].replace(/,/g, ''));
+                if (v[i] != undefined)
+                    t[i - 1] += +(v[i].replace(/,/g, ''));
             }
         });
     }
@@ -246,6 +246,6 @@ function wait(ms) {
 
     // console.log(summarySymbol)
 
-    fs.writeFile("symbol.json",JSON.stringify(summarySymbol),(e)=>{});
+    fs.writeFile("symbol.json", JSON.stringify(summarySymbol), (e) => { });
 
 })();
