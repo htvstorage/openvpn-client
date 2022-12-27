@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 import fs from "fs";
 import log4js from "log4js";
-import { Parser } from "json2csv"                                                                                                                                                                                                                                                                                                                                                                                                                                              
+import { Parser } from "json2csv"
 import { SMA, EMA, RSI, StochasticRSI, MACD, MFI, BollingerBands } from 'technicalindicators';
 import IchimokuCloud from 'technicalindicators'
 import path from "path";
@@ -40,27 +40,32 @@ log4js.configure({
     fs.mkdirSync(dir);
   }
   let files = fs.readdirSync(dir);
+  let stat = {req:0,res:0}
 
+  // files = ["HPG_HOSE_trans.txt"]
   for (const file of files) {
     if (symbols.has(file)) {
-      loadData(path.join(dir, file).toString());
+      stat.req++;
     }
   }
 
-  gap.sort((a, b) => {
-    if (a.ratio < b.ratio) return -1;
-    if (a.ratio > b.ratio) return 1;
-    return 0;
+
+  let promise = new Promise((resolve, reject) => {
+    for (const file of files) {
+      if (symbols.has(file)) {
+        loadData(path.join(dir, file).toString(), resolve, stat);
+      }
+    }
   });
 
+  let ret = await promise;
 
-  for (let e of gap) {
-    logger.info(e);
-  }
-
+  console.log(ret)
+  fs.writeFile("NDTNN.json",JSON.stringify(ret),e=>{});
 })();
 
-async function loadData(path) {
+let summarySymbol ={};
+async function loadData(path, resolve, stat) {
   var data = fs.readFileSync(path)
     .toString()
     .split('\n')
@@ -75,8 +80,8 @@ async function loadData(path) {
     }
     return x;
   })
-  data = data.reverse();
-  data = data.slice(1);
+  // data = data.reverse();
+  // data = data.slice(1);
 
   if (logger.isDebugEnabled)
     logger.debug(data);
@@ -87,24 +92,77 @@ async function loadData(path) {
   var basic = data.map(e => +e.priceBasic / +e.adjRatio);
   var open = data.map(e => +e.priceOpen / +e.adjRatio);
   var vol = data.map(e => +e.dealVolume);
+  let check = (val)=>{
+      if(val == undefined || Number.isNaN(val)){
+        // console.log(path,val)
+        return 0;
+      }
+      return val;
+  }
+  var NN = data.map(e => {
+    // console.log(e)
+    return [check(+e.buyForeignQuantity), check(+e.buyForeignValue), check(+e.sellForeignQuantity), check(+e.sellForeignValue),check(+e.priceClose)];
+  })
 
-  var sym = new Symbol("symbol", high, low, prices, vol);
 
-
-  checkMA(high, low, basic, prices, vol, path.substr(4, 3), path);
-
-  var ichimokuInput = {
-    high: high,
-    low: low,
-    conversionPeriod: 9,
-    basePeriod: 26,
-    spanPeriod: 52,
-    displacement: 26
+  
+  let session = 0;
+  let NNS;
+  if(session > 0){
+    NNS = NN.slice(0,session);
+  }else{
+    NNS = NN;
   }
 
-  var ichimoku = IchimokuCloud.ichimokucloud(ichimokuInput)
-  if (logger.isDebugEnabled)
-    logger.debug(ichimoku);
+
+
+  let NN2 = NNS.reduce((a, b) => [a[0] + b[0], a[1] + b[1], a[2] + b[2], a[3] + b[3], a[4]], [0, 0, 0, 0, NN[0][4]]);
+  stat.res++;
+  // console.log(NN);
+  if(stat.res%10 == 0 ){
+    console.log(stat);
+  }
+
+  if(path.substr(4, 3)=="HPG" || path.substr(4, 3)== "XDC"
+  || path.substr(4, 3)== "PDR"
+  ){
+    console.log(NN2)
+    // console.log(NN)
+    for(let e of NN){
+      console.log(e)
+    }
+  }
+  if(NN2[0] != 0 || NN2[2] != 0)
+    summarySymbol[path.substr(4, 3)] = NN2;
+  if(stat.res == stat.req){
+    resolve(summarySymbol);
+  }
+
+  
+ 
+
+  
+
+
+
+
+  // var sym = new Symbol("symbol", high, low, prices, vol);
+
+
+  // checkMA(high, low, basic, prices, vol, path.substr(4, 3), path);
+
+  // var ichimokuInput = {
+  //   high: high,
+  //   low: low,
+  //   conversionPeriod: 9,
+  //   basePeriod: 26,
+  //   spanPeriod: 52,
+  //   displacement: 26
+  // }
+
+  // var ichimoku = IchimokuCloud.ichimokucloud(ichimokuInput)
+  // if (logger.isDebugEnabled)
+  //   logger.debug(ichimoku);
 
 }
 let gap = [];
@@ -141,24 +199,24 @@ async function checkMA(high, low, basic, prices, vol, symbol, path) {
       return path.includes("HOSE") ? "HOSE" : path.includes("HNX") ? "HNX" : "UPCOM";
     }
 
-    if(
+    if (
       (smaVolRet[0].at(-1) > 1.2 * smaVolRet[1].at(-1))
-      &&(smaVolRet[0].at(-2) > 1.2 * smaVolRet[1].at(-2))
-      &&(smaVolRet[0].at(-3) > 1.2 * smaVolRet[1].at(-3))
-      &&(smaVolRet[0].at(-4) > 1.2 * smaVolRet[1].at(-4))
-      && (((prices.at(-1) - min) * 100.0 / min) <15)
-    ){
+      && (smaVolRet[0].at(-2) > 1.2 * smaVolRet[1].at(-2))
+      && (smaVolRet[0].at(-3) > 1.2 * smaVolRet[1].at(-3))
+      && (smaVolRet[0].at(-4) > 1.2 * smaVolRet[1].at(-4))
+      && (((prices.at(-1) - min) * 100.0 / min) < 15)
+    ) {
 
-    console.log(ex(path).padEnd(5), symbol,
-      "min", min.toFixed(2).padEnd(6),
-      "max", max.toFixed(2).padEnd(6),
-      "ratio", ((prices.at(-1) - min) * 100.0 / min).toFixed(2).padEnd(6),
-      " rsi ", (rsi.at(-1) + "").padEnd(5),
-      " vol ", (vol.at(-1) + "").padEnd(8),
-      " sma5 ", smaVolRet[0].at(-1).toString().padEnd(8),
-      "lastprice", prices.at(-1).toFixed(2).padEnd(6),
-      "change", (prices.at(-1) - basic.at(-1)).toFixed(2).padStart(5).padEnd(6),
-      "%", ((prices.at(-1) - basic.at(-1))*100/basic.at(-1)).toFixed(2).padStart(5).padEnd(6)
+      console.log(ex(path).padEnd(5), symbol,
+        "min", min.toFixed(2).padEnd(6),
+        "max", max.toFixed(2).padEnd(6),
+        "ratio", ((prices.at(-1) - min) * 100.0 / min).toFixed(2).padEnd(6),
+        " rsi ", (rsi.at(-1) + "").padEnd(5),
+        " vol ", (vol.at(-1) + "").padEnd(8),
+        " sma5 ", smaVolRet[0].at(-1).toString().padEnd(8),
+        "lastprice", prices.at(-1).toFixed(2).padEnd(6),
+        "change", (prices.at(-1) - basic.at(-1)).toFixed(2).padStart(5).padEnd(6),
+        "%", ((prices.at(-1) - basic.at(-1)) * 100 / basic.at(-1)).toFixed(2).padStart(5).padEnd(6)
       )
     }
     if (ratio > 1.3) {

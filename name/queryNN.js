@@ -49,7 +49,7 @@ import fs from "fs";
     // console.log(list)
 
     console.log("Ma".padEnd(3), "Gia".padEnd(5),
-        "Mua-Ban(KL)".padEnd(10),
+        "Mua-Ban(KL)".padEnd(20),
         "Mua-Ban(Val)".padEnd(20),
         "Mua-Ban(Goc)".padEnd(20),
         "LaiLo".padEnd(20),
@@ -64,7 +64,7 @@ import fs from "fs";
             continue;
         }
         console.log(e[0], e[5].toFixed(2).padEnd(5),
-            (e[1] - e[3]).toString().padEnd(10),
+            (e[1] - e[3]).toString().padEnd(20),
             ((e[1] - e[3]) * e[5] * 1000).toFixed(2).padEnd(20),
             (e[2] - e[4]).toFixed(2).padEnd(20),
             ((e[1] - e[3]) * e[5] * 1000 - (e[2] - e[4])).toFixed(2).padEnd(20),
