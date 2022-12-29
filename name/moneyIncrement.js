@@ -40,7 +40,7 @@ log4js.configure({
     fs.mkdirSync(dir);
   }
   let files = fs.readdirSync(dir);
-  let stat = {req:0,res:0}
+  let stat = { req: 0, res: 0 }
 
   // files = ["HPG_HOSE_trans.txt"]
   for (const file of files) {
@@ -61,10 +61,12 @@ log4js.configure({
   let ret = await promise;
 
   console.log(ret)
-  fs.writeFile("NDTNN.json",JSON.stringify(ret),e=>{});
+  fs.writeFile("NDTNN.json", JSON.stringify(ret), e => { });
 })();
 
-let summarySymbol ={};
+
+
+let summarySymbol = {};
 async function loadData(path, resolve, stat) {
   var data = fs.readFileSync(path)
     .toString()
@@ -92,25 +94,25 @@ async function loadData(path, resolve, stat) {
   var basic = data.map(e => +e.priceBasic / +e.adjRatio);
   var open = data.map(e => +e.priceOpen / +e.adjRatio);
   var vol = data.map(e => +e.dealVolume);
-  let check = (val)=>{
-      if(val == undefined || Number.isNaN(val)){
-        // console.log(path,val)
-        return 0;
-      }
-      return val;
+  let check = (val) => {
+    if (val == undefined || Number.isNaN(val)) {
+      // console.log(path,val)
+      return 0;
+    }
+    return val;
   }
   var NN = data.map(e => {
     // console.log(e)
-    return [check(+e.buyForeignQuantity), check(+e.buyForeignValue), check(+e.sellForeignQuantity), check(+e.sellForeignValue),check(+e.priceClose)];
+    return [check(+e.buyForeignQuantity), check(+e.buyForeignValue), check(+e.sellForeignQuantity), check(+e.sellForeignValue), check(+e.priceClose)];
   })
 
 
-  
+
   let session = 0;
   let NNS;
-  if(session > 0){
-    NNS = NN.slice(0,session);
-  }else{
+  if (session > 0) {
+    NNS = NN.slice(0, session);
+  } else {
     NNS = NN;
   }
 
@@ -119,50 +121,27 @@ async function loadData(path, resolve, stat) {
   let NN2 = NNS.reduce((a, b) => [a[0] + b[0], a[1] + b[1], a[2] + b[2], a[3] + b[3], a[4]], [0, 0, 0, 0, NN[0][4]]);
   stat.res++;
   // console.log(NN);
-  if(stat.res%10 == 0 ){
+  if (stat.res % 10 == 0) {
     console.log(stat);
   }
 
-  if(path.substr(4, 3)=="HPG" || path.substr(4, 3)== "XDC"
-  || path.substr(4, 3)== "PDR"
-  ){
+  if (path.substr(4, 3) == "HPG" || path.substr(4, 3) == "XDC"
+    || path.substr(4, 3) == "PDR"
+  ) {
     console.log(NN2)
     // console.log(NN)
-    for(let e of NN){
+    for (let e of NN) {
       console.log(e)
     }
   }
-  if(NN2[0] != 0 || NN2[2] != 0)
+  if (NN2[0] != 0 || NN2[2] != 0)
     summarySymbol[path.substr(4, 3)] = NN2;
-  if(stat.res == stat.req){
+  if (stat.res == stat.req) {
     resolve(summarySymbol);
   }
 
   
- 
 
-  
-
-
-
-
-  // var sym = new Symbol("symbol", high, low, prices, vol);
-
-
-  // checkMA(high, low, basic, prices, vol, path.substr(4, 3), path);
-
-  // var ichimokuInput = {
-  //   high: high,
-  //   low: low,
-  //   conversionPeriod: 9,
-  //   basePeriod: 26,
-  //   spanPeriod: 52,
-  //   displacement: 26
-  // }
-
-  // var ichimoku = IchimokuCloud.ichimokucloud(ichimokuInput)
-  // if (logger.isDebugEnabled)
-  //   logger.debug(ichimoku);
 
 }
 let gap = [];
