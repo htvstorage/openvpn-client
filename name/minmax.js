@@ -8,8 +8,9 @@ import path from "path";
 import { Symbol, Stock } from "./StockData.js";
 import { Exchange } from "./Exchange.js";
 import { type } from "os";
+import json2csv2 from "json2csv"
 import { create, all } from 'mathjs'
-const config ={}
+const config = {}
 const math = create(all, config)
 
 var logger = log4js.getLogger();
@@ -45,7 +46,7 @@ log4js.configure({
   let files = fs.readdirSync(dir);
   let stat = { req: 0, res: 0 }
 
-  files = ["SAB_HOSE_trans.txt"]
+  files = ["HPG_HOSE_trans.txt"]
   for (const file of files) {
     if (symbols.has(file)) {
       stat.req++;
@@ -85,7 +86,7 @@ async function loadData(path, resolve, stat) {
     return x;
   })
   data = data.reverse();
-  // data = data.slice(1);
+  data = data.slice(1);
 
   if (logger.isDebugEnabled)
     logger.debug(data);
@@ -98,6 +99,7 @@ async function loadData(path, resolve, stat) {
   }
 
   var NN = data.map(e => {
+
     return {
       priceClose: check(+e.priceClose / +e.adjRatio),
       priceHigh: check(+e.priceHigh / +e.adjRatio),
@@ -106,11 +108,14 @@ async function loadData(path, resolve, stat) {
       priceOpen: check(+e.priceOpen / +e.adjRatio),
       priceAverage: check(+e.priceAverage / +e.adjRatio),
       dealVolume: check(+e.dealVolume),
-      date: new Date(e.date),
+      date: new Date(e.date.replace(/"/g, '')),
     };
   })
 
 
+  // NN.forEach(e => {
+  //   console.log(e.date)
+  // });
 
   let session = 0;
   let NNS;
@@ -121,7 +126,7 @@ async function loadData(path, resolve, stat) {
   }
 
 
-  let checkSession = 2;
+  let checkSession = 10;
   let ft = {
     min: 0,
     max: 1
@@ -146,7 +151,8 @@ async function loadData(path, resolve, stat) {
   }
 
 
-  var MM = data.map((e, i, a) => {
+  var MM = NNS.map((e, i, a) => {
+
     return {
       min: {
         priceClose: cal(e.priceClose, i, a, "priceClose", ft.min),
@@ -182,49 +188,68 @@ async function loadData(path, resolve, stat) {
 
   let checkDelta = [];
   let counter = 0;
-  let promise = new Promise((sol,reject)=>{
+  let promise = new Promise((sol, reject) => {
 
     MM.forEach((e, i) => {
-      if (e.max.priceHigh != 0||e.min.priceLow != 0) {
+      if (e.max.priceHigh != 0 || e.min.priceLow != 0) {
         checkDelta.push(counter);
         counter = 0;
       } else {
         counter++;
       }
-  
-      if(i == MM.length -1){
+
+      if (i == MM.length - 1) {
         sol(checkDelta);
       }
 
-      if(counter == 27){
-        console.log("max", i, e.max.priceHigh,e.date,"=======");
+      if (counter == 27) {
+        console.log("max", i, e.max.priceHigh, e.date, "=======");
       }
       if (e.max.priceHigh > 0)
-        console.log("max", i, e.max.priceHigh,e.date);
-  
+        console.log("max", i, e.max.priceHigh, e.date);
+
       if (e.min.priceLow > 0)
-        console.log("min", i, e.min.priceLow,e.date);
+        console.log("min", i, e.min.priceLow, e.date);
     })
   });
-  
 
-  promise.then(data=>{
+
+  promise.then(data => {
     console.log(math.mean(data));
     console.log(data)
   })
 
-  
 
+  let out = NNS.map((e, i) => {
+    let ec = Object.assign({}, e);
+    ec["maxPriceHigh"] = MM[i].max.priceHigh;
+    ec["minPriceLow"] = MM[i].min.priceLow;
+    return ec;
+  })
 
   if (stat.res == stat.req) {
     resolve(summarySymbol);
   }
+  // priceClose: check(+e.priceClose / +e.adjRatio),
+  // priceHigh: check(+e.priceHigh / +e.adjRatio),
+  // priceLow: check(+e.priceLow / +e.adjRatio),
+  // priceBasic: check(+e.priceBasic / +e.adjRatio),
+  // priceOpen: check(+e.priceOpen / +e.adjRatio),
+  // priceAverage: check(+e.priceAverage / +e.adjRatio),
+  // dealVolume: check(+e.dealVolume),
+  // date: new Date(e.date),
+
+  let csv = new json2csv2.Parser(
+    {
+      fields: ['date', 'dealVolume', 'priceAverage', 'priceBasic', 'priceClose', 'priceHigh', 'priceLow', 'priceOpen', 'maxPriceHigh', 'minPriceLow']
+    });
 
 
 
-
-
-
+  let data2 = csv.parse(out);
+  fs.writeFile("./minmax.csv", data2 + "\n", function (err) {
+    if (err) throw err;
+  });
 
 
 
