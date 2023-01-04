@@ -3,6 +3,7 @@ import fs from "fs";
 import log4js from "log4js";
 import http from "node:http";
 import https from "node:https";
+import { resolve } from "path";
 
 const httpAgent = new http.Agent({ keepAlive: true });
 const httpsAgent = new https.Agent({ keepAlive: true });
@@ -139,6 +140,84 @@ Exchange.getlistallstock = async function () {
   cop = [...cop, ...xx];
   return cop;
 }
+
+
+Exchange.getlistallsymbol = async function () {
+  let exchange = ['hose','hnx','upcom']
+  let ret = [];
+  let c = 0;
+
+
+  let f = async (resolve) => {
+    for (let ex of exchange) {
+      console.log(ex)
+      let z = fetch("https://bgapidatafeed.vps.com.vn/getlistckindex/" + ex, {
+        "method": "GET",
+        "mode": "cors"
+      });
+      z.then(res => res.text()
+      ).then(data => {
+        c++;
+        let a=data.slice(1,-1).split(",").map(e=>e.replaceAll("\"", ""));        
+        ret = [...ret, ...a];
+        if (c == exchange.length) {
+          resolve(ret);
+          // console.log(ret.length)
+        }
+      })
+    }
+  }
+  let promise = new Promise(f);
+  return promise;
+}
+
+
+
+
+Exchange.getliststockdata = async function (list, ret) {
+  let maxURLLength = 2048;
+  let url = "https://bgapidatafeed.vps.com.vn/getliststockdata/";
+  let promise = new Promise((resolve) => {
+    for (let i = 0; i < list.length; i++) {
+      url = url + list[i] + ",";
+      if (url.length > 2024 || i == list.length - 1) {
+        url.slice(0, -1);
+        let a = fetch(url, {
+          "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+            "cache-control": "max-age=0",
+            "if-none-match": "W/\"4d40-JGO04TIpDa6yRnuWE3iB61BlloY\"",
+            "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "same-origin",
+            "cookie": "_fbp=fb.2.1669623965921.1893403188; _ga_M9VTXEHK9C=GS1.1.1669958644.2.0.1669958644.0.0.0; _gid=GA1.3.658451143.1670224721; _ga=GA1.1.1812813168.1668398014; _ga_4WDBKERLGC=GS1.1.1670316124.25.0.1670316124.0.0.0; _ga_QW53DJZL1X=GS1.1.1670384164.2.1.1670384195.0.0.0; _ga_790K9595DC=GS1.1.1670384139.11.1.1670384402.0.0.0"
+          },
+          "referrer": "https://bgapidatafeed.vps.com.vn/",
+          "referrerPolicy": "strict-origin-when-cross-origin",
+          "body": null,
+          "method": "GET",
+          "mode": "cors",
+          agent
+        });
+        a.then(res => res.json()).then(data => {
+          for (let e of data) {
+            // console.log(Object.keys(ret).length)
+            ret[e.sym] = e;
+          }
+          if (Object.keys(ret).length == list.length) {
+            resolve(ret);
+          }
+        });
+        url = "https://bgapidatafeed.vps.com.vn/getliststockdata/";
+      }
+    }
+  })
+  return promise;
+}
+
 
 Exchange.getCoporate = async function () {
   for (let i = 1; i < 1; i++) {
