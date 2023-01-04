@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,4880900,0,"2023-01-03T00:00:00",3503600,10.2798,9.4,10.6,10.7,9.6,9.6,,,,0,0,0,0,0,4151800,"C4G",36016307280
+1,0,0,0,4490700,0,"2023-01-04T00:00:00",3136700,10.89664,10.3,10.7,11.3,10.6,10.7,,,,0,0,0,0,0,4627300,"C4G",34179490688
+1,1764,0,0,4882684,0,"2023-01-03T00:00:00",3503600,10.3,9.4,10.6,10.7,9.6,9.6,0,0,0,0,0,1982,0,0,4153026,"C4G",36016307280
 1,825,0,0,2543819,0,"2022-12-30T00:00:00",1343300,9.4,9.3,9.5,9.7,8.9,9,0,0,0,0,0,1093,0,0,2519867,"C4G",12676023584
 1,670,0,0,2031469,0,"2022-12-29T00:00:00",1119600,9.3,9.1,9.2,9.6,8.8,8.9,0,0,0,0,0,1174,0,0,2565016,"C4G",10464565320
 1,601,0,0,1424635,0,"2022-12-28T00:00:00",654400,9.1,9.1,9.1,9.3,8.8,9.3,0,0,0,0,0,698,0,0,1669530,"C4G",5939262416

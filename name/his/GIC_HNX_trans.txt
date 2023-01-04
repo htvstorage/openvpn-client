@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,5700,5321100,"2023-01-03T00:00:00",1400,10.42143,10.4,10.6,10.6,10.4,10.4,,,,0,0,0,0,0,4700,"GIC",14590002
+1,0,0,0,4600,5321100,"2023-01-04T00:00:00",100,10.7,10.6,10.7,10.7,10.7,10.7,,,,0,0,0,0,0,2900,"GIC",1070000
+1,13,0,0,5705,5321100,"2023-01-03T00:00:00",1400,10.42143,10.4,10.6,10.6,10.4,10.4,0,0,0,0,0,10,0,0,4700,"GIC",14590002
 1,11,1000,10400000,5605,5321100,"2022-12-30T00:00:00",1000,10.4,10.4,10.4,10.4,10.4,10.4,0,0,0,0,0,6,0,0,5100,"GIC",10400000
 1,11,0,0,7005,5322100,"2022-12-29T00:00:00",2000,10.41,10.4,10.4,10.5,10.4,10.5,0,0,0,0,0,10,0,0,7200,"GIC",20820000
 1,9,0,0,5605,5322100,"2022-12-28T00:00:00",100,10.4,10.3,10.4,10.4,10.4,10.4,0,0,0,0,0,8,0,0,4000,"GIC",1040000

@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,3000000,"2023-01-03T00:00:00",23100,0.44818,0.41,0.5,0.5,0.41,0.41,,,,0,0,0,0,0,0,"CVHM2217",10352958
+1,0,172800,65897280,0,3000000,"2023-01-04T00:00:00",235200,0.38135,0.5,0.49,0.52,0.36,0.42,,,,0,0,0,0,0,0,"CVHM2217",89693520
+1,0,0,0,0,3000000,"2023-01-03T00:00:00",23100,0.44818,0.41,0.5,0.5,0.41,0.41,0,0,0,0,0,0,0,0,0,"CVHM2217",10352958
 1,0,0,0,0,2959100,"2022-12-30T00:00:00",25000,0.39512,0.44,0.41,0.45,0.36,0.45,0,0,0,0,0,0,0,0,0,"CVHM2217",9878000
 1,0,0,0,0,2951000,"2022-12-29T00:00:00",8000,0.44163,0.48,0.44,0.45,0.36,0.45,0,0,0,0,0,0,0,0,0,"CVHM2217",3533040
 1,0,0,0,0,2951000,"2022-12-28T00:00:00",101000,0.42892,0.51,0.48,0.5,0.34,0.35,-14215000,0,-14215000,0,0,0,40900,17542828,0,"CVHM2217",43320920

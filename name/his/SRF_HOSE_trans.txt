@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,18932307,"2023-01-03T00:00:00",1000,10.146,10.4,9.9,10.7,9.81,9.81,,,,0,0,0,0,0,0,"SRF",10146000
+1,0,0,0,0,18932307,"2023-01-04T00:00:00",2900,10.32276,9.9,9.41,10.5,9.41,10.5,,,,0,0,0,0,0,0,"SRF",29936004
+1,15,0,0,10595,18932307,"2023-01-03T00:00:00",1000,10.146,10.4,9.9,10.7,9.81,9.81,0,0,0,0,0,9,0,0,1838,"SRF",10146000
 1,7,0,0,12299,18932307,"2022-12-30T00:00:00",5000,10.3016,10.4,10.4,10.4,9.68,9.68,0,0,0,0,0,14,0,0,11838,"SRF",51508000
 1,14,0,0,22800,18932307,"2022-12-29T00:00:00",1700,10.35824,10.4,10.4,10.4,9.69,10.4,0,0,0,0,0,10,0,0,7038,"SRF",17609008
 1,21,0,0,6995,18932307,"2022-12-28T00:00:00",1400,9.887139999999999,9.82,10.4,10.4,9.5,9.51,0,0,0,0,0,14,0,0,7038,"SRF",13841996

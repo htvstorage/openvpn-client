@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,80400,20275187,"2023-01-03T00:00:00",40800,5.7590699999999995,5.5,5.9,6,5.4,5.4,,,,0,0,0,0,0,128200,"PSI",234970056
+1,0,0,0,117000,20275287,"2023-01-04T00:00:00",45200,5.92633,5.9,5.9,6.1,5.8,5.9,,,,0,0,0,0,0,203300,"PSI",267870116
+1,59,0,0,80530,20275187,"2023-01-03T00:00:00",40800,5.7590699999999995,5.5,5.9,6,5.4,5.4,0,0,0,0,0,56,0,0,128255,"PSI",234970056
 1,48,0,0,36462,20275187,"2022-12-30T00:00:00",2700,5.47778,5.5,5.5,5.7,5.3,5.5,0,0,0,0,0,32,0,0,87100,"PSI",14790006
 1,53,0,0,63941,20275187,"2022-12-29T00:00:00",22000,5.32727,5.4,5.5,5.5,5.2,5.4,0,0,0,0,0,30,100,532727,56700,"PSI",117199940
 1,42,0,0,79213,20275187,"2022-12-28T00:00:00",21100,5.46019,5.5,5.4,5.5,5.4,5.5,0,0,0,0,0,32,0,0,112214,"PSI",115210009

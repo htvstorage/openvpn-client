@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,66600,0,"2023-01-03T00:00:00",38400,12.14922,12.6,12.2,12.5,12,12.3,,,,0,0,0,0,0,112400,"AFX",466530048
+1,0,0,0,70800,0,"2023-01-04T00:00:00",39400,12.09543,12.1,12.2,12.5,12,12.1,,,,5750000000,500000,0,0,0,136100,"AFX",6226559942
+1,84,0,0,66840,0,"2023-01-03T00:00:00",38400,12.1,12.6,12.2,12.5,12,12.3,0,0,0,0,0,70,0,0,112400,"AFX",466530048
 1,53,0,0,83819,0,"2022-12-30T00:00:00",61400,12.6,12,13,13.6,11.8,13.6,0,0,0,0,0,75,0,0,165606,"AFX",774920190
 1,59,0,0,1069225,0,"2022-12-29T00:00:00",1046700,12,12.1,12.2,12.4,11.9,12.4,0,0,0,0,0,51,0,0,1125511,"AFX",12559457970
 1,32,0,0,38709,0,"2022-12-28T00:00:00",8400,12.1,12,12.1,12.4,11.9,11.9,0,0,0,0,0,54,0,0,105411,"AFX",101269980

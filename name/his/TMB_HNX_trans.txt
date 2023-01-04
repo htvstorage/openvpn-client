@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,3000,0,"2023-01-03T00:00:00",3000,20.22333,22.4,20.8,20.8,20.2,20.3,,,,0,0,0,0,0,15900,"TMB",60669990
+1,0,0,0,300,0,"2023-01-04T00:00:00",0,20.8,20.8,20.8,20.8,20.8,20.8,,,,0,0,0,0,0,16000,"TMB",0
+1,5,0,0,3000,0,"2023-01-03T00:00:00",3000,20.22333,22.4,20.8,20.8,20.2,20.3,0,0,0,0,0,51,0,0,15901,"TMB",60669990
 1,5,0,0,650,0,"2022-12-30T00:00:00",300,21.733330000000002,20.6,22.4,22.4,20.9,20.9,0,0,0,0,0,24,0,0,13900,"TMB",6519999
 1,8,0,0,705,0,"2022-12-29T00:00:00",100,20.6,20.6,20.6,20.6,20.6,20.6,0,0,0,0,0,16,0,0,10300,"TMB",2060000
 1,23,0,0,3890,0,"2022-12-28T00:00:00",3200,19.375,18.8,20.6,20.6,18.8,20.1,0,0,0,0,0,21,0,0,9902,"TMB",62000000

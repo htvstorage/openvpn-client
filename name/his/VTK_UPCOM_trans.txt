@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,2100,2395633,"2023-01-03T00:00:00",400,34.9,35.9,35.8,35.8,34,34,,,,0,0,0,0,0,8500,"VTK",13960000
+1,0,100,3512222,4800,2395533,"2023-01-04T00:00:00",900,35.12222,34.9,35,36,35,36,,,,0,0,0,0,0,9400,"VTK",31609998
+1,12,0,0,2301,2395633,"2023-01-03T00:00:00",400,34.9,35.9,35.8,35.8,34,34,0,0,0,0,0,21,0,0,8535,"VTK",13960000
 1,21,0,0,7655,2395633,"2022-12-30T00:00:00",5600,35.9,34.5,36.1,36.1,35,35,0,0,0,0,0,36,0,0,21156,"VTK",201009984
 1,13,0,0,5601,2395633,"2022-12-29T00:00:00",100,34.5,33.3,34.5,34.5,34.5,34.5,0,0,0,0,0,9,0,0,8328,"VTK",3450000
 1,34,0,0,5178,2395633,"2022-12-28T00:00:00",100,33.3,33.3,33.3,33.3,33.3,33.3,0,0,0,0,0,9,0,0,3772,"VTK",3330000

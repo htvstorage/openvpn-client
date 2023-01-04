@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,12679895,"2023-01-03T00:00:00",0,33.9,33.9,33.9,33.9,33.9,33.9,,,,0,0,0,0,0,111200,"VRG",0
+1,0,0,0,100,12679895,"2023-01-04T00:00:00",100,28.9,33.9,28.9,28.9,28.9,28.9,,,,0,0,0,0,0,90700,"VRG",2890000
+1,1,0,0,1,12679895,"2023-01-03T00:00:00",0,33.9,33.9,33.9,33.9,33.9,33.9,0,0,0,0,0,37,0,0,111283,"VRG",0
 1,15,0,0,50000,12679895,"2022-12-30T00:00:00",50000,33.9,32.7,27.8,36,27.8,36,0,0,0,0,0,34,0,0,104602,"VRG",1693730000
 1,16,0,0,35000,12679895,"2022-12-29T00:00:00",33600,32.7,30,26,33.5,25.5,33.5,0,0,0,0,0,34,0,0,89802,"VRG",1098050016
 1,10,0,0,27500,12679895,"2022-12-28T00:00:00",20000,30,27.5,30,30,30,30,0,0,0,0,0,34,0,0,91672,"VRG",600000000

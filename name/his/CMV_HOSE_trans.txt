@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,0,"2023-01-03T00:00:00",4400,10.08523,10.8,10.1,10.5,10.05,10.05,,,,0,0,0,0,0,0,"CMV",44375012
+1,0,0,0,0,0,"2023-01-04T00:00:00",200,10.45,10.1,10.1,10.8,10.1,10.8,,,,0,0,0,0,0,0,"CMV",2090000
+1,16,0,0,9779,0,"2023-01-03T00:00:00",4400,10.08523,10.8,10.1,10.5,10.05,10.05,0,0,0,0,0,24,0,0,10928,"CMV",44375012
 1,12,0,0,15300,0,"2022-12-30T00:00:00",11000,10.14736,10.7,10.8,11,9.96,10.6,0,0,0,0,0,26,0,0,22838,"CMV",111620960
 1,15,0,0,1899,0,"2022-12-29T00:00:00",300,10.51667,10,10.7,10.7,10.4,10.4,0,0,0,0,0,17,0,0,7293,"CMV",3155001
 1,31,0,0,12996,0,"2022-12-28T00:00:00",6000,9.79017,9.51,10,10.15,9.03,9.48,0,0,0,0,0,27,0,0,11476,"CMV",58741020

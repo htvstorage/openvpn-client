@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,11819673,"2023-01-03T00:00:00",7400,8.72514,8.39,8.21,8.83,7.89,7.89,,,,0,0,0,0,0,0,"VPS",64566036
+1,0,0,0,0,11819673,"2023-01-04T00:00:00",49100,8.62709,8.21,8.7,8.7,8.56,8.7,,,,0,0,0,0,0,0,"VPS",423590119
+1,51,0,0,27707,11819673,"2023-01-03T00:00:00",7400,8.72514,8.39,8.21,8.83,7.89,7.89,0,0,0,0,0,41,0,0,52700,"VPS",64566036
 1,19,0,0,7596,11819673,"2022-12-30T00:00:00",200,8.395,8.4,8.39,8.4,8.39,8.4,0,0,0,0,0,21,0,0,13990,"VPS",1679000
 1,42,0,0,22249,11819673,"2022-12-29T00:00:00",16100,8.40075,9.02,8.4,9,8.39,8.4,0,0,0,0,0,45,0,0,35978,"VPS",135252075
 1,30,0,0,19078,11819673,"2022-12-28T00:00:00",8300,8.61843,8.75,9.02,9.07,8.4,9.07,0,0,0,0,0,30,0,0,36205,"VPS",71532969

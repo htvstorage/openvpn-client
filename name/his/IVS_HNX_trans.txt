@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,2200,12329064,38200,19276500,"2023-01-03T00:00:00",17000,5.60412,5.4,5.7,5.7,5.3,5.4,,,,0,0,0,0,0,34200,"IVS",95270040
+1,0,6300,36001791,40700,19270200,"2023-01-04T00:00:00",15100,5.71457,5.7,5.8,5.8,5.6,5.8,,,,0,0,0,0,0,55700,"IVS",86290007
+1,25,2200,12329064,38201,19276500,"2023-01-03T00:00:00",17000,5.60412,5.4,5.7,5.7,5.3,5.4,0,0,0,0,0,53,0,0,34200,"IVS",95270040
 1,40,0,0,53748,19278700,"2022-12-30T00:00:00",8500,5.36353,5.4,5.4,5.5,5.1,5.2,0,0,0,0,0,38,0,0,27300,"IVS",45590005
 1,29,0,0,35111,19278700,"2022-12-29T00:00:00",6500,5.4,5.4,5.4,5.4,5.4,5.4,0,0,0,0,0,31,0,0,27500,"IVS",35100000
 1,28,7500,40500000,27100,19261700,"2022-12-28T00:00:00",12300,5.4,5.4,5.4,5.4,5.4,5.4,0,0,0,0,0,36,0,0,35300,"IVS",66420000

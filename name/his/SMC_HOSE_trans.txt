@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,0,"2023-01-03T00:00:00",273000,10.03351,9.67,10.3,10.3,9.67,9.87,,,,0,0,0,0,0,0,"SMC",2739148230
+1,0,0,0,0,0,"2023-01-04T00:00:00",148700,10.22592,10.3,10.2,10.6,10,10.5,,,,0,0,0,0,0,0,"SMC",1520594304
+1,289,0,0,545447,0,"2023-01-03T00:00:00",273000,10.03351,9.67,10.3,10.3,9.67,9.87,0,0,0,0,0,204,0,0,418383,"SMC",2739148230
 1,142,0,0,160127,0,"2022-12-30T00:00:00",62500,9.679440000000001,9.67,9.67,9.7,9.56,9.56,0,0,0,0,0,88,0,0,157389,"SMC",604965000
 1,200,0,0,255587,0,"2022-12-29T00:00:00",77500,9.66001,9.8,9.67,9.79,9.5,9.79,0,0,0,0,0,138,0,0,212639,"SMC",748650775
 1,284,0,0,401278,0,"2022-12-28T00:00:00",167400,9.86625,9.99,9.8,10.1,9.63,9.8,-190000,0,-190000,0,0,206,0,0,427629,"SMC",1651610250

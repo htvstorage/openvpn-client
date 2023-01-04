@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,0,"2023-01-03T00:00:00",952800,5.08074,4.92,5,5.2,5,5.05,,,,0,0,0,0,0,0,"PSH",4840929072
+1,0,0,0,0,0,"2023-01-04T00:00:00",1315700,4.973439999999999,5,4.87,5.29,4.87,5,,,,0,0,0,0,0,0,"PSH",6543555008
+1,724,0,0,1750847,0,"2023-01-03T00:00:00",952800,5.08074,4.92,5,5.2,5,5.05,0,0,0,0,0,685,0,0,1923523,"PSH",4840929072
 1,1162,0,0,3410740,0,"2022-12-30T00:00:00",1604000,4.87765,4.6,4.92,4.92,4.6,4.67,0,0,0,0,0,489,0,0,1840226,"PSH",7823750600
 1,869,0,0,1966395,0,"2022-12-29T00:00:00",1042800,4.6540799999999996,4.87,4.6,4.87,4.56,4.87,0,0,0,0,0,616,0,0,1996909,"PSH",4853274624
 1,1551,0,0,6318813,0,"2022-12-28T00:00:00",3048300,4.953930000000001,4.75,4.87,5.08,4.76,5.08,0,0,0,0,0,1453,0,0,5323814,"PSH",15101064819

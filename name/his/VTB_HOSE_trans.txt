@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,5316365,"2023-01-03T00:00:00",700,14.75714,15,14.95,15,13.95,14.9,,,,0,0,0,0,0,0,"VTB",10329998
+1,0,0,0,0,5317465,"2023-01-04T00:00:00",300,14.26667,14.95,14.8,14.8,14,14,,,,0,0,0,0,0,0,"VTB",4280001
+1,6,0,0,1000,5316365,"2023-01-03T00:00:00",700,14.75714,15,14.95,15,13.95,14.9,0,0,0,0,0,18,0,0,13429,"VTB",10329998
 1,13,0,0,2901,5316365,"2022-12-30T00:00:00",2900,14.16897,14.4,15,15.3,13.4,15.3,0,0,0,0,0,29,0,0,23429,"VTB",41090013
 1,13,0,0,13199,5316365,"2022-12-29T00:00:00",12800,13.96641,13.5,14.4,14.4,13.55,13.9,0,0,0,0,0,24,1100,15240000,14664,"VTB",178770048
 1,12,0,0,1810,5316365,"2022-12-28T00:00:00",1500,13.1,13.8,13.5,13.75,12.85,13.05,0,0,0,0,0,25,0,0,11931,"VTB",19650000

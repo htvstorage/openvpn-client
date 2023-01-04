@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,20647420,"2023-01-03T00:00:00",0,34.5,34.5,34.5,34.5,34.5,34.5,,,,0,0,0,0,0,0,"S4A",0
+1,0,0,0,0,20647420,"2023-01-04T00:00:00",0,34.5,34.5,34.5,34.5,34.5,34.5,,,,0,0,0,0,0,0,"S4A",0
+1,4,0,0,300,20647420,"2023-01-03T00:00:00",0,34.5,34.5,34.5,34.5,34.5,34.5,0,0,0,0,0,7,0,0,4236,"S4A",0
 1,10,100,3450000,1200,20647420,"2022-12-30T00:00:00",200,34.5,33.9,34.5,34.5,34.5,34.5,0,0,0,0,0,4,0,0,2100,"S4A",6900000
 1,11,0,0,2401,20647520,"2022-12-29T00:00:00",0,33.9,33.9,33.9,33.9,33.9,33.9,0,0,0,0,0,9,0,0,12800,"S4A",0
 1,14,1300,44190000,4201,20647520,"2022-12-28T00:00:00",1300,33.992309999999996,34,33.9,34,33.9,34,0,0,0,0,0,10,0,0,6400,"S4A",44190003

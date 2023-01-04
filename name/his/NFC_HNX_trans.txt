@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,100,7708317,"2023-01-03T00:00:00",0,14.7,14.7,14.7,14.7,14.7,14.7,,,,0,0,0,0,0,200,"NFC",0
+1,0,0,0,0,7708317,"2023-01-04T00:00:00",0,14.7,14.7,14.7,14.7,14.7,14.7,,,,0,0,0,0,0,300,"NFC",0
+1,1,0,0,100,7708317,"2023-01-03T00:00:00",0,14.7,14.7,14.7,14.7,14.7,14.7,0,0,0,0,0,2,0,0,200,"NFC",0
 1,7,0,0,3500,7708317,"2022-12-30T00:00:00",300,14.7,13.4,14.7,14.7,14.7,14.7,0,0,0,0,0,2,0,0,300,"NFC",4410000
 1,4,0,0,600,7708317,"2022-12-29T00:00:00",200,14.65,14.5,13.4,15.9,13.4,15.9,0,0,0,0,0,4,0,0,500,"NFC",2930000
 1,6,0,0,1400,7708317,"2022-12-28T00:00:00",1100,14.5,13.2,14.5,14.5,14.5,14.5,0,0,0,0,0,2,0,0,1500,"NFC",15950000
