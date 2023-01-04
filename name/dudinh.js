@@ -68,16 +68,18 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       for (let i = 0; i < 10; i++) {
         console.log(top[i])
       }
+
       topG1.sort((a, b) => {
         return a.v > b.v ? -1 : a.v < b.v ? 1 : 0
       })
+
       console.log("================================================")
       for (let i = 0; i < 10; i++) {
         console.log(topG1[i])
       }
     })
-    try {
 
+    try {
 
     } catch (error) {
       logger.error(error);
