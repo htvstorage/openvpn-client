@@ -10,6 +10,7 @@ import { Exchange } from "./Exchange.js";
 import { type } from "os";
 import json2csv2 from "json2csv"
 import { create, all } from 'mathjs'
+import TA from 'ta-math'
 const config = {}
 const math = create(all, config)
 
@@ -113,6 +114,28 @@ async function loadData(path, resolve, stat) {
   })
 
 
+  var taa = data.map(e => {
+
+    return [new Date(e.date.replace(/"/g, '')), 
+    check(+e.priceOpen / +e.adjRatio),
+    check(+e.priceHigh / +e.adjRatio),
+    check(+e.priceLow / +e.adjRatio),
+    check(+e.priceClose / +e.adjRatio),
+    check(+e.dealVolume),
+    ];
+  })
+
+
+  
+  const ta = new TA(taa, TA.exchangeFormat);
+
+  let ret = ta.zigzag(35);
+  let mm ={};
+  ret.time.forEach((e,i)=>{
+    mm[e] = ret.price[i];
+  })
+
+  console.log(ret)
   // NN.forEach(e => {
   //   console.log(e.date)
   // });
@@ -224,6 +247,10 @@ async function loadData(path, resolve, stat) {
     let ec = Object.assign({}, e);
     ec["maxPriceHigh"] = MM[i].max.priceHigh;
     ec["minPriceLow"] = MM[i].min.priceLow;
+
+    let x = mm[e.date];
+
+    ec["ZigZag"] = x == undefined || x == null? 0: x;
     return ec;
   })
 
@@ -241,7 +268,7 @@ async function loadData(path, resolve, stat) {
 
   let csv = new json2csv2.Parser(
     {
-      fields: ['date', 'dealVolume', 'priceAverage', 'priceBasic', 'priceClose', 'priceHigh', 'priceLow', 'priceOpen', 'maxPriceHigh', 'minPriceLow']
+      fields: ['date', 'dealVolume', 'priceAverage', 'priceBasic', 'priceClose', 'priceHigh', 'priceLow', 'priceOpen', 'maxPriceHigh', 'minPriceLow', 'ZigZag']
     });
 
 
