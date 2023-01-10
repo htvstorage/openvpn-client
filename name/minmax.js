@@ -116,7 +116,7 @@ async function loadData(path, resolve, stat) {
 
   var taa = data.map(e => {
 
-    return [new Date(e.date.replace(/"/g, '')), 
+    return [new Date(e.date.replace(/"/g, '')),
     check(+e.priceOpen / +e.adjRatio),
     check(+e.priceHigh / +e.adjRatio),
     check(+e.priceLow / +e.adjRatio),
@@ -125,13 +125,100 @@ async function loadData(path, resolve, stat) {
     ];
   })
 
+  let Pivot = [];
 
-  
+  let zigzag = (a, depth, dev) => {
+
+
+    let findZig = (a, index, length, isHigh) => {
+      let da = index >= length ? a[index - length] : [0, 0, 0, 0, 0, 0];
+      // console.log(da,index)
+      let p = isHigh ? da[2] : da[3];
+      if (length == 0) {
+        return [da[0], p, index]
+      } else if (length * 2 <= index) {
+        let isFound = true;
+        for (let i = 0; i < length - 1; i++) {
+          if ((isHigh && a[index-i][2] > p) || (!isHigh && a[index-i][3] < p)) {
+            isFound = false;
+            break;
+          }
+        }
+        for (let i = length + 1; i < 2 * length; i++) {
+          if ((isHigh && a[index-i][2] >= p) || (!isHigh && a[index-i][3] <= p)) {
+            isFound = false;
+            break;
+          }
+        }
+        if (isFound) {
+          return [da[0], p, index - length]
+        }
+      }
+    }
+
+ 
+    let length = Math.floor(depth/2)
+
+    let newPivot = (z,isHigh, dev)=>{
+      let s = Pivot.length;
+      let lastPivot = s> 0?Pivot[s-1]:null
+      if( lastPivot != null){
+        if(lastPivot.isHigh == isHigh){
+          let m = isHigh ? 1 : -1
+          let isMore = z[1] * m > lastPivot.e[1] * m
+          if(isMore){
+            lastPivot.e = z;
+          }
+        }
+        else{
+          console.log(Math.abs((lastPivot.e[1] - z[1])*100/lastPivot.e[1]) ,dev)
+          if(Math.abs((lastPivot.e[1] - z[1])*100/lastPivot.e[1]) >= dev){
+            Pivot.push({s:lastPivot.e,e:z,isHigh:isHigh});
+            console.log({s:lastPivot,e:z,isHigh:isHigh})
+          }
+        }
+
+      }else{
+        Pivot.push({s:z,e:z,isHigh:isHigh});
+        console.log({s:z,e:z,isHigh:isHigh})
+      }
+    }
+
+    for(let i =0; i < taa.length; i++){
+      let z = findZig(taa,i,length,true);
+      // console.log(z)
+      if(z != undefined)
+        newPivot(z,true,dev)
+      let z1 = findZig(taa,i,length,false);
+      if(z1 != undefined)
+        newPivot(z1,false,dev)
+        
+      if(i == taa.length-1){
+        console.log(taa.length)
+        // console.log(Pivot)
+        for(let e of Pivot){
+          console.log(e)
+        }
+      }
+    }
+
+
+
+
+  }
+
+
+  zigzag(data,10,5);
+
+
+
+
+
   const ta = new TA(taa, TA.exchangeFormat);
 
   let ret = ta.zigzag(35);
-  let mm ={};
-  ret.time.forEach((e,i)=>{
+  let mm = {};
+  ret.time.forEach((e, i) => {
     mm[e] = ret.price[i];
   })
 
@@ -225,14 +312,14 @@ async function loadData(path, resolve, stat) {
         sol(checkDelta);
       }
 
-      if (counter == 27) {
-        console.log("max", i, e.max.priceHigh, e.date, "=======");
-      }
-      if (e.max.priceHigh > 0)
-        console.log("max", i, e.max.priceHigh, e.date);
+      // if (counter == 27) {
+      //   console.log("max", i, e.max.priceHigh, e.date, "=======");
+      // }
+      // if (e.max.priceHigh > 0)
+      //   console.log("max", i, e.max.priceHigh, e.date);
 
-      if (e.min.priceLow > 0)
-        console.log("min", i, e.min.priceLow, e.date);
+      // if (e.min.priceLow > 0)
+      //   console.log("min", i, e.min.priceLow, e.date);
     })
   });
 
@@ -250,7 +337,7 @@ async function loadData(path, resolve, stat) {
 
     let x = mm[e.date];
 
-    ec["ZigZag"] = x == undefined || x == null? 0: x;
+    ec["ZigZag"] = x == undefined || x == null ? 0 : x;
     return ec;
   })
 
