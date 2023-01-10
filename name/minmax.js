@@ -127,7 +127,7 @@ async function loadData(path, resolve, stat) {
 
   let Pivot = [];
 
-  let zigzag = (a, depth, dev) => {
+  let zigzag = async (a, depth, dev) => {
 
 
     let findZig = (a, index, length, isHigh) => {
@@ -139,13 +139,13 @@ async function loadData(path, resolve, stat) {
       } else if (length * 2 <= index) {
         let isFound = true;
         for (let i = 0; i < length - 1; i++) {
-          if ((isHigh && a[index-i][2] > p) || (!isHigh && a[index-i][3] < p)) {
+          if ((isHigh && a[index - i][2] > p) || (!isHigh && a[index - i][3] < p)) {
             isFound = false;
             break;
           }
         }
         for (let i = length + 1; i < 2 * length; i++) {
-          if ((isHigh && a[index-i][2] >= p) || (!isHigh && a[index-i][3] <= p)) {
+          if ((isHigh && a[index - i][2] >= p) || (!isHigh && a[index - i][3] <= p)) {
             isFound = false;
             break;
           }
@@ -156,61 +156,69 @@ async function loadData(path, resolve, stat) {
       }
     }
 
- 
-    let length = Math.floor(depth/2)
 
-    let newPivot = (z,isHigh, dev)=>{
+    let length = Math.floor(depth / 2)
+
+    let newPivot = (z, isHigh, dev) => {
       let s = Pivot.length;
-      let lastPivot = s> 0?Pivot[s-1]:null
-      if( lastPivot != null){
-        if(lastPivot.isHigh == isHigh){
+      let lastPivot = s > 0 ? Pivot[s - 1] : null
+      if (lastPivot != null) {
+        if (lastPivot.isHigh == isHigh) {
           let m = isHigh ? 1 : -1
           let isMore = z[1] * m > lastPivot.e[1] * m
-          if(isMore){
+          if (isMore) {
             lastPivot.e = z;
           }
         }
-        else{
-          console.log(Math.abs((lastPivot.e[1] - z[1])*100/lastPivot.e[1]) ,dev)
-          if(Math.abs((lastPivot.e[1] - z[1])*100/lastPivot.e[1]) >= dev){
-            Pivot.push({s:lastPivot.e,e:z,isHigh:isHigh});
-            console.log({s:lastPivot,e:z,isHigh:isHigh})
+        else {
+          console.log(Math.abs((lastPivot.e[1] - z[1]) * 100 / lastPivot.e[1]), dev)
+          if (Math.abs((lastPivot.e[1] - z[1]) * 100 / lastPivot.e[1]) >= dev) {
+            Pivot.push({ s: lastPivot.e, e: z, isHigh: isHigh });
+            console.log({ s: lastPivot, e: z, isHigh: isHigh })
           }
         }
 
-      }else{
-        Pivot.push({s:z,e:z,isHigh:isHigh});
-        console.log({s:z,e:z,isHigh:isHigh})
+      } else {
+        Pivot.push({ s: z, e: z, isHigh: isHigh });
+        console.log({ s: z, e: z, isHigh: isHigh })
       }
     }
 
-    for(let i =0; i < taa.length; i++){
-      let z = findZig(taa,i,length,true);
-      // console.log(z)
-      if(z != undefined)
-        newPivot(z,true,dev)
-      let z1 = findZig(taa,i,length,false);
-      if(z1 != undefined)
-        newPivot(z1,false,dev)
-        
-      if(i == taa.length-1){
-        console.log(taa.length)
-        // console.log(Pivot)
-        for(let e of Pivot){
-          console.log(e)
+
+
+    let promise = new Promise((resolve) => {
+      for (let i = 0; i < taa.length; i++) {
+        let z = findZig(taa, i, length, true);
+        // console.log(z)
+        if (z != undefined)
+          newPivot(z, true, dev)
+        let z1 = findZig(taa, i, length, false);
+        if (z1 != undefined)
+          newPivot(z1, false, dev)
+
+        if (i == taa.length - 1) {
+          // console.log(taa.length)
+          // // console.log(Pivot)
+          // for (let e of Pivot) {
+          //   console.log(e)
+          // }
+          resolve(Pivot)
         }
       }
-    }
+    })
 
 
 
+    return await promise;
 
   }
 
 
-  zigzag(data,10,5);
+  let p = await zigzag(data, 10, 5);
 
-
+  for (let e of p) {
+    console.log(e)
+  }
 
 
 
