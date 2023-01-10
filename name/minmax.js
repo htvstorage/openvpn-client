@@ -230,6 +230,13 @@ async function loadData(path, resolve, stat) {
     mm[e] = ret.price[i];
   })
 
+  let mm2 = {};
+
+  p.forEach((e,i)=>{
+    mm2[e.s[0]] = e.s[1]
+    mm2[e.e[0]] = e.e[1]
+  })
+
   console.log(ret)
   // NN.forEach(e => {
   //   console.log(e.date)
@@ -346,6 +353,8 @@ async function loadData(path, resolve, stat) {
     let x = mm[e.date];
 
     ec["ZigZag"] = x == undefined || x == null ? 0 : x;
+    let x1 = mm2[e.date];
+    ec["ZigZag1"] = x1 == undefined || x1 == null ? 0 : x1;
     return ec;
   })
 
@@ -363,7 +372,7 @@ async function loadData(path, resolve, stat) {
 
   let csv = new json2csv2.Parser(
     {
-      fields: ['date', 'dealVolume', 'priceAverage', 'priceBasic', 'priceClose', 'priceHigh', 'priceLow', 'priceOpen', 'maxPriceHigh', 'minPriceLow', 'ZigZag']
+      fields: ['date', 'dealVolume', 'priceAverage', 'priceBasic', 'priceClose', 'priceHigh', 'priceLow', 'priceOpen', 'maxPriceHigh', 'minPriceLow', 'ZigZag','ZigZag1']
     });
 
 
