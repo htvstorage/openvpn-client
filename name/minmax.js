@@ -138,13 +138,13 @@ async function loadData(path, resolve, stat) {
         return [da[0], p, index]
       } else if (length * 2 <= index) {
         let isFound = true;
-        for (let i = 0; i < length - 1; i++) {
+        for (let i = 0; i <= length - 1; i++) {
           if ((isHigh && a[index - i][2] > p) || (!isHigh && a[index - i][3] < p)) {
             isFound = false;
             break;
           }
         }
-        for (let i = length + 1; i < 2 * length; i++) {
+        for (let i = length + 1; i <= 2 * length; i++) {
           if ((isHigh && a[index - i][2] >= p) || (!isHigh && a[index - i][3] <= p)) {
             isFound = false;
             break;
@@ -217,7 +217,8 @@ async function loadData(path, resolve, stat) {
   let p = await zigzag(data, 10, 5);
 
   for (let e of p) {
-    console.log(e)
+    // console.log(e)
+    console.log((e.e[1]-e.s[1])*100/e.s[1])
   }
 
 
