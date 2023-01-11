@@ -37,11 +37,12 @@ import fs from "fs";
     list = list.map(e => [...e, ration(e), lailo(e)])
 
     list.sort((a, b) => {
-        // let x1 = a[1] - a[3]      
-        // let x2 = b[1] - b[3]
-        // let x3 = a[1] > b[1] ? 1: a[1] < b[1]?-1: (a[3] > b[3] ? 1: a[3] < b[3]?-1:0)
-        // return (x1 > x2?-1: x1 < x2 ?1: x3)
-        let x1 = a[7] > b[7] ? 1 : a[7] < b[7] ? -1 : 0
+        let x1 = a[1] - a[3]      
+        let x2 = b[1] - b[3]
+        let x3 = a[1] > b[1] ? 1: a[1] < b[1]?-1: (a[3] > b[3] ? 1: a[3] < b[3]?-1:0)
+        return (x1 > x2?-1: x1 < x2 ?1: x3)
+        // let x1 = a[7] > b[7] ? -1 : a[7] < b[7] ? 1 : 0
+
         // console.log(a[7], b[7])
         return x1;
     });

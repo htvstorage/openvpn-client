@@ -30,6 +30,8 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   let top = []
   let topG1 = []
   let delta = {};
+
+  let intervalGet;
   while (true) {
     top.length = 0;
     topG1.length = 0;

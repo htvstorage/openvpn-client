@@ -20,7 +20,7 @@ function url(date) {
     let dir = "./pdf";
     let req = 0;
     let res = 0;
-    for (var i = 1; i < 3; i++) {
+    for (var i = 1; i < 30; i++) {
         let x = url(new Date(Date.now() - i * 24 * 60 * 60 * 1000));
         const response = fetch(x.url);
         req++;
@@ -70,11 +70,15 @@ function wait(ms) {
 
     for (let file of files) {
         if (file.includes("202205")
-            // || file.includes("202206")
-            // || file.includes("202207")
-            // || file.includes("202208")
-            // || file.includes("202209")
-            // || file.includes("202210")
+            || file.includes("202206")
+            || file.includes("202207")
+            || file.includes("202208")
+            || file.includes("202209")
+            || file.includes("202210")
+            || file.includes("202211")
+            || file.includes("202212")            
+            || file.includes("2022120")
+            || file.includes("2022121")
         ) {
             continue;
         }
