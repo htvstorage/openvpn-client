@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,14,0,0,4730,0,"2023-01-10T00:00:00",2200,22.2,22.4,22.4,22.4,22,22.2,,,,0,0,16,0,0,7100,"SNZ",48829990
+1,0,0,0,4700,0,"2023-01-11T00:00:00",200,22.5,22.2,22.5,22.5,22.5,22.5,,,,0,0,0,0,0,27500,"SNZ",4500000
+1,14,0,0,4730,0,"2023-01-10T00:00:00",2200,22.2,22.4,22.4,22.4,22,22.2,0,0,0,0,0,16,0,0,7100,"SNZ",48829990
 1,14,0,0,4231,0,"2023-01-09T00:00:00",1000,22.4,22.6,22.4,22.4,22.4,22.4,0,0,0,0,0,15,0,0,4500,"SNZ",22400000
 1,28,0,0,9135,0,"2023-01-06T00:00:00",3800,22.6,22.7,22.7,22.7,22.5,22.7,0,0,0,0,0,22,0,0,5900,"SNZ",86019992
 1,17,0,0,4032,0,"2023-01-05T00:00:00",1100,22.7,22.8,21.9,22.8,21.9,22.8,0,0,0,0,0,17,0,0,6400,"SNZ",24989998

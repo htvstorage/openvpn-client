@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,22,0,0,15000,12785977,"2023-01-10T00:00:00",1900,5.4594700000000005,5.81,5.43,5.5,5.43,5.43,,,,0,0,16,0,0,4601,"LEC",10372993
+1,26,0,0,17298,12785977,"2023-01-11T00:00:00",800,5.435,5.43,5.44,5.45,5.43,5.43,,,,0,0,8,0,0,1817,"LEC",4348000
+1,22,0,0,15000,12785977,"2023-01-10T00:00:00",1900,5.4594700000000005,5.81,5.43,5.5,5.43,5.43,0,0,0,0,0,16,0,0,4601,"LEC",10372993
 1,38,0,0,9699,12785977,"2023-01-09T00:00:00",1700,5.71882,5.9,5.81,5.81,5.5,5.5,0,0,0,0,0,42,0,0,9013,"LEC",9721994
 1,14,0,0,5398,12785977,"2023-01-06T00:00:00",1600,5.89875,5.9,5.9,5.9,5.89,5.9,0,0,0,0,0,30,0,0,6714,"LEC",9438000
 1,13,0,0,4598,12785977,"2023-01-05T00:00:00",2900,5.92759,5.78,5.9,5.96,5.9,5.96,0,0,0,0,0,25,0,0,8248,"LEC",17190011

@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,45,0,0,73510,32547280,"2023-01-10T00:00:00",23000,7.4,7.5,7.3,7.5,7.3,7.5,,,,0,0,40,0,0,97300,"VNB",169050000
+1,0,100,742429,241800,32547180,"2023-01-11T00:00:00",45700,7.42429,7.4,7.5,7.5,7.3,7.4,,,,0,0,0,0,0,91100,"VNB",339290053
+1,45,0,0,73510,32547280,"2023-01-10T00:00:00",23000,7.4,7.5,7.3,7.5,7.3,7.5,0,0,0,0,0,40,0,0,97300,"VNB",169050000
 1,39,0,0,41500,32547280,"2023-01-09T00:00:00",9300,7.5,7.6,7.5,7.6,7.4,7.6,0,0,0,0,0,41,0,0,80200,"VNB",69710010
 1,33,0,0,49200,32547280,"2023-01-06T00:00:00",19800,7.6,7.6,7.7,7.8,7.5,7.7,0,0,0,0,0,60,0,0,107900,"VNB",150570090
 1,51,0,0,92100,32547280,"2023-01-05T00:00:00",32300,7.6,7.5,7.8,7.8,7.5,7.5,0,0,0,0,0,92,0,0,89400,"VNB",246619867

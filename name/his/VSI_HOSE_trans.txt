@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,12,0,0,902,6369840,"2023-01-10T00:00:00",500,18.09,18.35,17.95,18.3,17.95,18.3,,,,0,0,10,0,0,11200,"VSI",9045000
+1,8,0,0,902,6369840,"2023-01-11T00:00:00",100,19.1,17.95,19.1,19.1,19.1,19.1,,,,0,0,12,0,0,66100,"VSI",1910000
+1,12,0,0,902,6369840,"2023-01-10T00:00:00",500,18.09,18.35,17.95,18.3,17.95,18.3,0,0,0,0,0,10,0,0,11200,"VSI",9045000
 1,10,0,0,611,6369840,"2023-01-09T00:00:00",200,18.1,18.3,18.35,18.35,17.85,17.85,0,0,0,0,0,9,0,0,9900,"VSI",3620000
 1,9,100,1830000,1302,6369840,"2023-01-06T00:00:00",200,18.3,18.3,18.3,18.3,18.3,18.3,0,0,0,0,0,8,0,0,4000,"VSI",3660000
 1,10,0,0,1600,6369940,"2023-01-05T00:00:00",400,18.6125,18.3,18.3,19.55,18.3,19.55,0,0,0,0,0,13,0,0,11349,"VSI",7445000

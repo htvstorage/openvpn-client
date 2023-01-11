@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,16,1500,74207145,14335,4557768,"2023-01-10T00:00:00",10500,49.47143,51,50,50,49.3,49.3,,,,0,0,34,0,0,26700,"LHC",519450015
+1,0,1500,76505670,214400,4556268,"2023-01-11T00:00:00",208800,51.00378,50,52,53,49,49,,,,0,0,0,0,0,240300,"LHC",10649589264
+1,16,1500,74207145,14335,4557768,"2023-01-10T00:00:00",10500,49.47143,51,50,50,49.3,49.3,0,0,0,0,0,34,0,0,26700,"LHC",519450015
 1,9,0,0,3815,4559268,"2023-01-09T00:00:00",0,51,51,51,51,51,51,0,0,0,0,0,28,0,0,166700,"LHC",0
 1,18,100,5043548,7536,4559268,"2023-01-06T00:00:00",3100,50.435480000000005,51,51,51,49.5,50,0,0,0,0,0,30,0,0,19300,"LHC",156349988
 1,22,0,0,9554,4559368,"2023-01-05T00:00:00",4100,50.47561,51.8,51,51,50,51,0,0,0,0,0,33,0,0,20002,"LHC",206950001

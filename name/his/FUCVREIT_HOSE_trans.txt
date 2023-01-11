@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,6,0,0,1315,2349910,"2023-01-10T00:00:00",0,7.19,7.19,7.19,7.19,7.19,7.19,,,,0,0,11,0,0,9700,"FUCVREIT",0
+1,14,0,0,2470,2349910,"2023-01-11T00:00:00",1300,7.072310000000001,7.19,7.19,7.19,6.71,7.1,,,,0,0,18,160,1131569.6,9960,"FUCVREIT",9194003
+1,6,0,0,1315,2349910,"2023-01-10T00:00:00",0,7.19,7.19,7.19,7.19,7.19,7.19,0,0,0,0,0,11,0,0,9700,"FUCVREIT",0
 1,20,0,0,4660,2349910,"2023-01-09T00:00:00",800,6.5425,6.9,7.19,7.19,6.45,6.45,0,0,0,0,0,14,0,0,11115,"FUCVREIT",5234000
 1,8,0,0,1850,2349910,"2023-01-06T00:00:00",200,6.9,6.6,6.9,6.9,6.9,6.9,0,0,0,0,0,12,0,0,7529,"FUCVREIT",1380000
 1,7,0,0,1802,2349710,"2023-01-05T00:00:00",0,6.6,6.6,6.6,6.6,6.6,6.6,0,0,0,0,0,7,0,0,6100,"FUCVREIT",0

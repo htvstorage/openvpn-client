@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,77,0,0,73299,0,"2023-01-10T00:00:00",62100,68.13366,69.1,68,69.1,67.8,69.1,,,,0,0,63,0,0,95000,"KSF",4231100286
+1,0,0,0,75900,0,"2023-01-11T00:00:00",68500,67.00146000000001,68,66.9,67.7,66.8,66.8,,,,0,0,0,0,0,106800,"KSF",4589600010
+1,77,0,0,73299,0,"2023-01-10T00:00:00",62100,68.13366,69.1,68,69.1,67.8,69.1,0,0,0,0,0,63,0,0,95000,"KSF",4231100286
 1,88,0,0,97799,0,"2023-01-09T00:00:00",88900,68.6748,69.9,69.1,69.9,68.2,69.9,0,0,0,0,0,73,0,0,117200,"KSF",6105189720
 1,65,0,0,59502,0,"2023-01-06T00:00:00",47600,70.07647,70.4,69.9,70.7,69.9,70.5,0,0,0,0,0,56,0,0,86800,"KSF",3335639972
 1,76,0,0,69402,0,"2023-01-05T00:00:00",61100,70.38347,71,70.4,71.4,70.1,71,0,0,0,0,0,59,0,0,85900,"KSF",4300430017

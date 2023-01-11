@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,103,0,0,74149,19230101,"2023-01-10T00:00:00",28400,2.98296,2.98,3,3.1,2.84,2.91,,,,0,0,64,0,0,57578,"HVX",84716064
+1,57,0,0,36170,19230101,"2023-01-11T00:00:00",9900,3.0009099999999997,3,3,3.03,2.98,3,,,,0,0,42,0,0,52750,"HVX",29709009
+1,103,0,0,74149,19230101,"2023-01-10T00:00:00",28400,2.98296,2.98,3,3.1,2.84,2.91,0,0,0,0,0,64,0,0,57578,"HVX",84716064
 1,31,0,0,29699,19230101,"2023-01-09T00:00:00",5800,2.9817199999999997,2.99,2.98,3,2.98,3,0,0,0,0,0,41,0,0,46250,"HVX",17293976
 1,59,0,0,56099,19230101,"2023-01-06T00:00:00",18400,2.96815,2.95,2.99,2.99,2.92,2.93,0,0,0,0,0,58,0,0,64200,"HVX",54613960
 1,55,0,0,25599,19230101,"2023-01-05T00:00:00",14000,2.88014,2.94,2.95,2.95,2.81,2.81,0,0,0,0,0,73,0,0,55384,"HVX",40321960

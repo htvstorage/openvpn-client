@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,106,0,0,77700,105914023,"2023-01-10T00:00:00",10300,12.6,12.6,12.4,12.6,12.4,12.6,,,,0,0,47,0,0,71182,"SGP",129719951
+1,0,0,0,97700,105914023,"2023-01-11T00:00:00",30900,12.70615,12.6,12.7,12.9,12.5,12.9,,,,0,0,0,0,0,113200,"SGP",392620035
+1,106,0,0,77700,105914023,"2023-01-10T00:00:00",10300,12.6,12.6,12.4,12.6,12.4,12.6,0,0,0,0,0,47,0,0,71182,"SGP",129719951
 1,127,0,0,52595,105914023,"2023-01-09T00:00:00",30500,12.6,12.8,12.6,12.8,12.5,12.8,0,0,0,0,0,70,0,0,111779,"SGP",385060060
 1,130,0,0,67338,105914023,"2023-01-06T00:00:00",16500,12.8,12.9,12.7,13,12.5,12.8,0,0,0,0,0,81,0,0,85279,"SGP",210830070
 1,98,0,0,94010,105914023,"2023-01-05T00:00:00",64000,12.9,12.8,12.8,13,12.6,12.8,0,0,0,0,0,135,0,0,189904,"SGP",828090240

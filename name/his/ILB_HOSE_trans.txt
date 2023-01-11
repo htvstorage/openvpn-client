@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,16,0,0,12806,11638900,"2023-01-10T00:00:00",2300,25,25,25,25,25,25,,,,0,0,11,0,0,5003,"ILB",57500000
+1,41,5000,125780000,42006,11633900,"2023-01-11T00:00:00",24300,25.259259999999998,25,26,26,25,25,,,,0,0,37,0,0,27806,"ILB",613800018
+1,16,0,0,12806,11638900,"2023-01-10T00:00:00",2300,25,25,25,25,25,25,0,0,0,0,0,11,0,0,5003,"ILB",57500000
 1,20,0,0,9535,11638900,"2023-01-09T00:00:00",1000,25,25,25,25,25,25,0,0,0,0,0,5,0,0,3203,"ILB",25000000
 1,27,4000,102950000,20541,11638900,"2023-01-06T00:00:00",6200,25.73387,25.5,25,26,25,25.6,-263000,0,-263000,0,0,20,0,0,13246,"ILB",159549994
 1,32,1800,45610000,24311,11642900,"2023-01-05T00:00:00",3700,25.38919,25.5,25.5,25.5,25,25.5,0,0,0,0,0,15,0,0,8749,"ILB",93940003

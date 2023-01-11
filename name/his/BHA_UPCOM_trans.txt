@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,9,800,11983032,21000,32338200,"2023-01-10T00:00:00",3300,15,14.7,15,15.9,12.5,12.5,,,,0,0,8,0,0,12100,"BHA",49430007
+1,0,0,0,15000,32338200,"2023-01-11T00:00:00",0,15,15,15,15,15,15,,,,0,0,0,0,0,9700,"BHA",0
+1,9,800,11983032,21000,32338200,"2023-01-10T00:00:00",3300,15,14.7,15,15.9,12.5,12.5,0,0,0,0,0,8,0,0,12100,"BHA",49430007
 1,5,0,0,7900,32339000,"2023-01-09T00:00:00",6600,14.7,12.8,14.7,14.7,14.7,14.7,0,0,0,0,0,2,0,0,6600,"BHA",97020000
 1,5,0,0,6200,32339000,"2023-01-06T00:00:00",100,12.8,15,12.8,12.8,12.8,12.8,0,0,0,0,0,3,0,0,1300,"BHA",1280000
 1,2,0,0,4800,32339000,"2023-01-05T00:00:00",0,15,15,15,15,15,15,0,0,0,0,0,3,0,0,4000,"BHA",0

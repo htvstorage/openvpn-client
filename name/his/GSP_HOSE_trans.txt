@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,90,0,0,117607,0,"2023-01-10T00:00:00",14800,9.507909999999999,9.51,9.64,9.64,9.41,9.51,,,,0,0,61,0,0,76100,"GSP",140717068
+1,83,0,0,102953,0,"2023-01-11T00:00:00",31500,9.51762,9.64,9.6,9.82,9.5,9.82,,,,0,0,77,0,0,337000,"GSP",299805030
+1,90,0,0,117607,0,"2023-01-10T00:00:00",14800,9.507909999999999,9.51,9.64,9.64,9.41,9.51,0,0,0,0,0,61,0,0,76100,"GSP",140717068
 1,96,0,0,116365,0,"2023-01-09T00:00:00",73500,9.58276,9.68,9.51,9.9,9.5,9.8,0,0,0,0,0,119,0,0,216654,"GSP",704332860
 1,123,0,0,254746,0,"2023-01-06T00:00:00",180500,9.79966,9.8,9.68,9.9,9.68,9.68,0,0,0,0,0,161,0,0,367999,"GSP",1768838630
 1,186,0,0,403644,0,"2023-01-05T00:00:00",167700,9.71726,9.76,9.8,9.83,9.65,9.76,0,0,0,0,0,152,0,0,281749,"GSP",1629584502

@@ -1,5 +1,6 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,18,0,0,36400,75464700,"2023-01-10T00:00:00",33600,20.3,18.9,19,20.9,19,19.7,,,,0,0,22,0,0,86000,"SGI",681290064
+1,0,0,0,33600,75464700,"2023-01-11T00:00:00",1400,19.20714,20.3,19.8,19.8,18.1,18.1,,,,0,0,0,0,0,48800,"SGI",26889996
+1,18,0,0,36400,75464700,"2023-01-10T00:00:00",33600,20.3,18.9,19,20.9,19,19.7,0,0,0,0,0,22,0,0,86000,"SGI",681290064
 1,7,0,0,4800,75464700,"2023-01-09T00:00:00",200,18.9,20,19.8,19.8,18,18,0,0,0,0,0,22,0,0,91900,"SGI",3780000
 1,8,0,0,26500,75464700,"2023-01-06T00:00:00",10200,20,19.1,19,20,19,20,0,0,0,0,0,19,0,0,72700,"SGI",203799978
 1,13,0,0,34600,75464700,"2023-01-05T00:00:00",8900,19.1,19.9,19.9,19.9,18.2,18.2,0,0,0,0,0,21,0,0,87800,"SGI",170219976
