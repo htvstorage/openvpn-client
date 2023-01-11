@@ -171,7 +171,7 @@ async function loadData(path, resolve, stat) {
           }
         }
         else {
-          console.log(Math.abs((lastPivot.e[1] - z[1]) * 100 / lastPivot.e[1]), dev)
+          // console.log(Math.abs((lastPivot.e[1] - z[1]) * 100 / lastPivot.e[1]), dev)
           if (Math.abs((lastPivot.e[1] - z[1]) * 100 / lastPivot.e[1]) >= dev) {
             Pivot.push({ s: lastPivot.e, e: z, isHigh: isHigh });
             console.log({ s: lastPivot, e: z, isHigh: isHigh })

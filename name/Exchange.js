@@ -41,6 +41,31 @@ Exchange.transaction = async function (symbol) {
 }
 
 
+Exchange.transaction = async function (symbol,per_page) {
+  let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol="
+    + symbol
+    + "&page=1&per_page="+per_page, {
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "referrer": "https://24hmoney.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors",
+    agent
+  });
+  let x = await a.json();
+  x["Code"] = symbol;
+  return x;
+}
+
 Exchange.finacialReport = async function (symbol) {
   let ret = {
     1: { 1: { data: { headers: [], rows: [] } }, 2: { data: { headers: [], rows: [] } }, 3: { data: { headers: [], rows: [] } } },
