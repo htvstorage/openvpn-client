@@ -88,12 +88,12 @@ async function loadData(path, resolve, stat) {
   if (logger.isDebugEnabled)
     logger.debug(data);
 
-  var prices = data.map(e => +e.priceClose / +e.adjRatio);
-  var high = data.map(e => +e.priceHigh / +e.adjRatio);
-  var low = data.map(e => +e.priceLow / +e.adjRatio);
-  var basic = data.map(e => +e.priceBasic / +e.adjRatio);
-  var open = data.map(e => +e.priceOpen / +e.adjRatio);
-  var vol = data.map(e => +e.dealVolume);
+  // var prices = data.map(e => +e.priceClose / +e.adjRatio);
+  // var high = data.map(e => +e.priceHigh / +e.adjRatio);
+  // var low = data.map(e => +e.priceLow / +e.adjRatio);
+  // var basic = data.map(e => +e.priceBasic / +e.adjRatio);
+  // var open = data.map(e => +e.priceOpen / +e.adjRatio);
+  // var vol = data.map(e => +e.dealVolume);
   let check = (val) => {
     if (val == undefined || Number.isNaN(val)) {
       // console.log(path,val)
@@ -107,6 +107,9 @@ async function loadData(path, resolve, stat) {
   })
 
 
+
+  var args = process.argv.slice(2);
+  args.forEach()
 
   let session = 3;
   let NNS;

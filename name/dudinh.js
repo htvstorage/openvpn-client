@@ -159,16 +159,34 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       console.log("================================================")
       console.log("======================TPS=======================")
 
+      let t =0;
+      let g = 0;
 
       for (let i = 0; i < maxPrint; i++) {
-        console.log(i % 2 == 0 ? colours.fg.blue : colours.fg.magenta, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        if(x[i]['%'] > 0){
+          t++;
+          console.log(t % 2 == 0 ? colours.fg.green : colours.fg.magenta, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        }else if(x[i]['%'] < 0){
+          g++;
+          console.log(g % 2 == 0 ? colours.fg.red : colours.fg.blue, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        }else{
+          console.log(colours.fg.yellow, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        }     
       }
       console.log("======================VOL=======================")
       x.sort((a, b) => {
         return a.lot > b.lot ? -1 : a.lot < b.lot ? 1 : 0
-      })
+      })      
       for (let i = 0; i < maxPrint; i++) {
-        console.log(i % 2 == 0 ? colours.fg.blue : colours.fg.magenta, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        if(x[i]['%'] > 0){
+          t++;
+          console.log(t % 2 == 0 ? colours.fg.green : colours.fg.magenta, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        }else if(x[i]['%'] < 0){
+          g++;
+          console.log(g % 2 == 0 ? colours.fg.red : colours.fg.blue, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        }else{
+          console.log(colours.fg.yellow, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        }
       }
     })
 
