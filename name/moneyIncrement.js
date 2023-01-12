@@ -134,13 +134,33 @@ async function loadData(path, resolve, stat) {
       console.log(e)
     }
   }
-  if (NN2[0] != 0 || NN2[2] != 0)
+
+  // NN2 = NN2.map((e) => {
+  //   return {
+  //     b: e[0],
+  //     bv: e[1],
+  //     s: e[2],
+  //     sv: e[3],
+  //     p: e[4]
+  //   };
+  // });
+  let e = NN2;
+  NN2 = {
+        b: e[0],
+        bv: e[1],
+        s: e[2],
+        sv: e[3],
+        p: e[4]
+      };
+  // if (NN2[0] != 0 || NN2[2] != 0)
+  if (NN2.b != 0 || NN2.s != 0)
     summarySymbol[path.substr(4, 3)] = NN2;
+
   if (stat.res == stat.req) {
     resolve(summarySymbol);
   }
 
-  
+
 
 
 }
