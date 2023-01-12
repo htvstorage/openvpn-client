@@ -22,7 +22,22 @@ log4js.configure({
 });
 
 
+let ss = 5;
+
 (async () => {
+
+  var args = process.argv.slice(2);
+  let vss = null;
+  for (let v of args) {
+    if (v.includes("ss="))
+      vss = v;
+    break;
+  }
+
+  ss = vss == null ? 5 : Number.parseInt(vss.substring(3));
+  if (ss == undefined || ss < 0 || Number.isNaN(ss)) {
+    ss = 5;
+  }
 
   let company = [];
   let counter = 0;
@@ -108,10 +123,10 @@ async function loadData(path, resolve, stat) {
 
 
 
-  var args = process.argv.slice(2);
-  args.forEach()
 
-  let session = 3;
+
+  // console.log("Number Session ", ss)
+  let session = ss;
   let NNS;
   if (session > 0) {
     NNS = NN.slice(0, session);
@@ -149,12 +164,12 @@ async function loadData(path, resolve, stat) {
   // });
   let e = NN2;
   NN2 = {
-        b: e[0],
-        bv: e[1],
-        s: e[2],
-        sv: e[3],
-        p: e[4]
-      };
+    b: e[0],
+    bv: e[1],
+    s: e[2],
+    sv: e[3],
+    p: e[4]
+  };
   // if (NN2[0] != 0 || NN2[2] != 0)
   if (NN2.b != 0 || NN2.s != 0)
     summarySymbol[path.substr(4, 3)] = NN2;
