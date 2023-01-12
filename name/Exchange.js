@@ -41,10 +41,10 @@ Exchange.transaction = async function (symbol) {
 }
 
 
-Exchange.transaction = async function (symbol,per_page) {
+Exchange.transaction = async function (symbol, per_page) {
   let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol="
     + symbol
-    + "&page=1&per_page="+per_page, {
+    + "&page=1&per_page=" + per_page, {
     "headers": {
       "accept": "application/json, text/plain, */*",
       "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -168,7 +168,7 @@ Exchange.getlistallstock = async function () {
 
 
 Exchange.getlistallsymbol = async function () {
-  let exchange = ['hose','hnx','upcom']
+  let exchange = ['hose', 'hnx', 'upcom']
   let ret = [];
   let c = 0;
 
@@ -183,7 +183,7 @@ Exchange.getlistallsymbol = async function () {
       z.then(res => res.text()
       ).then(data => {
         c++;
-        let a=data.slice(1,-1).split(",").map(e=>e.replaceAll("\"", ""));        
+        let a = data.slice(1, -1).split(",").map(e => e.replaceAll("\"", ""));
         ret = [...ret, ...a];
         if (c == exchange.length) {
           resolve(ret);
@@ -243,6 +243,34 @@ Exchange.getliststockdata = async function (list, ret) {
   return promise;
 }
 
+// fetch("https://bgapidatafeed.vps.com.vn/getliststocktrade/AAA", {
+//   "headers": {
+//     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+//     "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+//     "cache-control": "max-age=0",
+//     "if-none-match": "W/\"25a64-SgVo+ex6TslKyOzpmFN38r8EP3g\"",
+//     "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+//     "sec-ch-ua-mobile": "?0",
+//     "sec-fetch-dest": "document",
+//     "sec-fetch-mode": "navigate",
+//     "sec-fetch-site": "none",
+//     "sec-fetch-user": "?1",
+//     "upgrade-insecure-requests": "1",
+//     "cookie": "_fbp=fb.2.1669623965921.1893403188; _ga_M9VTXEHK9C=GS1.1.1669958644.2.0.1669958644.0.0.0; _ga_4WDBKERLGC=GS1.1.1673506896.55.1.1673507722.0.0.0; _ga_790K9595DC=GS1.1.1673510859.35.1.1673510873.0.0.0; _gid=GA1.3.1853708949.1673510901; _ga_QW53DJZL1X=GS1.1.1673510874.9.1.1673511108.0.0.0; _ga=GA1.1.1812813168.1668398014"
+//   },
+//   "referrerPolicy": "strict-origin-when-cross-origin",
+//   "body": null,
+//   "method": "GET",
+//   "mode": "cors"
+// });
+
+Exchange.getliststocktrade = async function (symbol) {
+  return fetch("https://bgapidatafeed.vps.com.vn/getliststocktrade/" + symbol, {
+    "method": "GET",
+    "mode": "cors",
+    // agent
+  });
+}
 
 Exchange.getCoporate = async function () {
   for (let i = 1; i < 1; i++) {

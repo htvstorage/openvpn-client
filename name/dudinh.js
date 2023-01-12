@@ -30,12 +30,37 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   let top = []
   let topG1 = []
   let delta = {};
+  let deltaBatch = {};
 
   let intervalGet;
+  
+  let asyncBatch = async()=>{
+    while(true){
+      console.log("Console " + Date.now())
+      try{
+        for(let symbol of listSymbol){
+         let z =  Exchange.transaction(symbol,200);
+         if(symbol == 'HPG')
+          z.then(data=>{
+            console.log(data)
+          })
+        }
+      }catch(err){
+        logger.error(err)
+      }finally{
+        await wait(20000);
+      }      
+    }
+  }
+
+  asyncBatch();
+
+
   while (true) {
     top.length = 0;
     topG1.length = 0;
     let z = Exchange.getliststockdata(listSymbol, stockdata);
+
     z.then(data => {
       console.log(data['HPG'])
 
@@ -51,25 +76,36 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
         if (s.c == +a1[0] || s.c == s.lastPrice) {
           // console.log(a,s)
-          top.push({ symbol: key, p: atco ? s.lastPrice : +a1[0], v: atco ? (+a1[1] + +a2[1]) * 10 : +a1[1] * 10, atco: atco ? +a1[1] * 10 : 0, total: s.lot * 10, c: s.c, f: s.f, r: s.r, l: s.lastPrice, '%': ((s.lastPrice - s.r) * 100 / s.r) });
+          top.push({
+            symbol: key, p: atco ? s.lastPrice : +a1[0], v: atco ? (+a1[1] + +a2[1]) * 10 : +a1[1] * 10,
+            atco: atco ? +a1[1] * 10 : 0, total: s.lot * 10, c: s.c, f: s.f, r: s.r, l: s.lastPrice, '%': ((s.lastPrice - s.r) * 100 / s.r)
+          });
         }
-        topG1.push({ symbol: key, p: atco ? s.lastPrice : +a1[0], v: +a1[1] * 10, atco: atco ? +a1[1] * 10 : 0, total: s.lot * 10, c: s.c, f: s.f, r: s.r, l: s.lastPrice, '%': ((s.lastPrice - s.r) * 100 / s.r) });
+        topG1.push({
+          symbol: key, p: atco ? s.lastPrice : +a1[0], v: +a1[1] * 10,
+          atco: atco ? +a1[1] * 10 : 0, total: s.lot * 10, c: s.c, f: s.f, r: s.r, l: s.lastPrice, '%': ((s.lastPrice - s.r) * 100 / s.r)
+        });
         let e = delta[key];
         if (e == undefined || e == null)
-          delta[key] = { symbol: key, p: atco ? s.lastPrice : +a1[0], v: atco ? (+a1[1] + +a2[1]) * 10 : +a1[1] * 10, atco: atco ? +a1[1] * 10 : 0, total: s.lot * 10, delta: 0, tps: 0, time: Date.now(), c: s.c, f: s.f, r: s.r, l: s.lastPrice, '%': ((s.lastPrice - s.r) * 100 / s.r) }
+          delta[key] = {
+            symbol: key, p: atco ? s.lastPrice : +a1[0], v: atco ? (+a1[1] + +a2[1]) * 10 : +a1[1] * 10,
+            atco: atco ? +a1[1] * 10 : 0, total: s.lot * 10, delta: 0, tps: 0, time: Date.now(), c: s.c, f: s.f, r: s.r, l: s.lastPrice, '%': ((s.lastPrice - s.r) * 100 / s.r)
+          }
         else {
           let now = Date.now();
           let x = now - e.time;
           if (x >= 60 * 1000)
             delta[key] = {
-              symbol: key, p: atco ? s.lastPrice : +a1[0], v: atco ? (+a1[1] + +a2[1]) * 10 : +a1[1] * 10, atco: atco ? +a1[1] * 10 : 0, total: s.lot * 10, lot: s.lot * 10, delta: (s.lot * 10 - e.total),
+              symbol: key, p: atco ? s.lastPrice : +a1[0], v: atco ? (+a1[1] + +a2[1]) * 10 : +a1[1] * 10,
+              atco: atco ? +a1[1] * 10 : 0, total: s.lot * 10, lot: s.lot * 10, delta: (s.lot * 10 - e.total),
               tps: (s.lot * 10 - e.total) * 1000 / (Date.now() - e.time),
               time: now
               , c: s.c, f: s.f, r: s.r, l: s.lastPrice, '%': ((s.lastPrice - s.r) * 100 / s.r)
             }
           else {
             delta[key] = {
-              symbol: key, p: atco ? s.lastPrice : +a1[0], v: atco ? (+a1[1] + +a2[1]) * 10 : +a1[1] * 10, atco: atco ? +a1[1] * 10 : 0, total: e.total, lot: s.lot * 10, delta: (s.lot * 10 - e.total),
+              symbol: key, p: atco ? s.lastPrice : +a1[0], v: atco ? (+a1[1] + +a2[1]) * 10 : +a1[1] * 10,
+              atco: atco ? +a1[1] * 10 : 0, total: e.total, lot: s.lot * 10, delta: (s.lot * 10 - e.total),
               tps: (s.lot * 10 - e.total) * 1000 / (Date.now() - e.time),
               time: e.time
               , c: s.c, f: s.f, r: s.r, l: s.lastPrice, '%': ((s.lastPrice - s.r) * 100 / s.r)
@@ -77,6 +113,8 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
           }
         }
       }
+
+      
       let format = (k, v) => {
         switch (k) {
           case 'p':
@@ -159,32 +197,32 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       console.log("================================================")
       console.log("======================TPS=======================")
 
-      let t =0;
+      let t = 0;
       let g = 0;
 
       for (let i = 0; i < maxPrint; i++) {
-        if(x[i]['%'] > 0){
+        if (x[i]['%'] > 0) {
           t++;
           console.log(t % 2 == 0 ? colours.fg.green : colours.fg.magenta, JSON.stringify(x[i], format).replaceAll("\"", ""))
-        }else if(x[i]['%'] < 0){
+        } else if (x[i]['%'] < 0) {
           g++;
           console.log(g % 2 == 0 ? colours.fg.red : colours.fg.blue, JSON.stringify(x[i], format).replaceAll("\"", ""))
-        }else{
+        } else {
           console.log(colours.fg.yellow, JSON.stringify(x[i], format).replaceAll("\"", ""))
-        }     
+        }
       }
       console.log("======================VOL=======================")
       x.sort((a, b) => {
         return a.lot > b.lot ? -1 : a.lot < b.lot ? 1 : 0
-      })      
+      })
       for (let i = 0; i < maxPrint; i++) {
-        if(x[i]['%'] > 0){
+        if (x[i]['%'] > 0) {
           t++;
           console.log(t % 2 == 0 ? colours.fg.green : colours.fg.magenta, JSON.stringify(x[i], format).replaceAll("\"", ""))
-        }else if(x[i]['%'] < 0){
+        } else if (x[i]['%'] < 0) {
           g++;
           console.log(g % 2 == 0 ? colours.fg.red : colours.fg.blue, JSON.stringify(x[i], format).replaceAll("\"", ""))
-        }else{
+        } else {
           console.log(colours.fg.yellow, JSON.stringify(x[i], format).replaceAll("\"", ""))
         }
       }
