@@ -36,10 +36,9 @@ Exchange.transaction = async function (symbol) {
     "mode": "cors"
   });
   if (txt.startsWith("{") && txt.endsWith("}")) {
-    // let x = JSON.parse(txt);
-    // x["Code"] = symbol;
-    // return x;
-    return { "Code": symbol }
+    let x = JSON.parse(txt);
+    x["Code"] = symbol;
+    return x;
   } else {
     return { "Code": symbol }
   }

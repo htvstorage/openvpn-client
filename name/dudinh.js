@@ -34,23 +34,69 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   let deltaBatch = {};
 
   let intervalGet;
-  
-  let asyncBatch = async()=>{
-    while(true){
+
+  let asyncBatch = async () => {
+    while (true) {
       console.log("Console " + Date.now())
-      try{
-        for(let symbol of listSymbol){
-         let z =  Exchange.transaction(symbol,200);
-         if(symbol == 'HPG')
-          z.then(data=>{
-            // console.log(data)
+      let from = Date.now() + 7 * 60 * 60 * 1000 - 50 * 60 * 1000;
+      function date2str(date) {
+        let t = date.getFullYear() + "-"
+          + (date.getMonth() + 1 < 10 ? ("0" + (date.getMonth() + 1)) : date.getMonth() + 1) + "-"
+          + (date.getDate() < 10 ? "0" + date.getDate() : date.getDate())
+        return t;
+      }
+      let strdate = date2str(new Date());
+      // console.log(date2str(new Date()))
+      try {
+        let promise = new Promise((resolve) => { });
+        let ret = {};
+        for (let symbol of listSymbol) {
+          let z = Exchange.transaction(symbol, 2000000);
+          z.then(data => {
+            if (symbol == 'HPG') {
+              // console.log(data)
+            }
+            ret[symbol] = data;
+            if (data.data != undefined) {
+              // {
+              //   price: 10.75,
+              //   change: 0.25,
+              //   match_qtty: 5000,
+              //   total_vol: 21338100,
+              //   time: '14:29:14',
+              //   side: 'sd'
+              // }
+              let f = 0;
+              let first;
+              let last;
+              for (let p of data.data) {
+                let time = new Date(strdate + "T" + p.time);
+
+                if (time >= from) {
+                  if (f == 0) {
+                    first = p;
+                    f++;
+                  }
+                  last = p;
+                  // console.log(p.time, time, new Date(from))
+                  // console.log(p)
+                }
+              }
+              if (first != undefined && last != undefined){
+                let delta = ((first.change - last.change) * 100 / (first.price - first.change)).toFixed(2) ;
+                if (Math.abs(delta)>2)
+                  console.log("Change", symbol, (first.change - last.change).toFixed(2), delta,"%", first.price, first.total_vol)
+              }
+         
+            }
+
           })
         }
-      }catch(err){
+      } catch (err) {
         logger.error(err)
-      }finally{
+      } finally {
         await wait(20000);
-      }      
+      }
     }
   }
 
@@ -115,7 +161,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         }
       }
 
-      
+
       let format = (k, v) => {
         switch (k) {
           case 'p':
