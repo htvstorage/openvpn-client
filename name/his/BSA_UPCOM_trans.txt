@@ -1,5 +1,7 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,10500,0,"2023-01-11T00:00:00",1000,17.04,17.1,17,17.1,17,17.1,,,,0,0,0,0,0,8900,"BSA",17040000
+1,0,0,0,9300,0,"2023-01-13T00:00:00",0,17.3,17.3,17.3,17.3,17.3,17.3,,,,0,0,0,0,0,3500,"BSA",0
+1,0,0,0,9700,0,"2023-01-12T00:00:00",1000,17.3,17,17.3,17.3,17.3,17.3,0,0,0,0,0,0,0,0,8200,"BSA",17300000
+1,12,0,0,10503,0,"2023-01-11T00:00:00",1000,17,17.1,17,17.1,17,17.1,0,0,0,0,0,6,0,0,8948,"BSA",17040000
 1,15,0,0,11164,0,"2023-01-10T00:00:00",1300,17.1,17.2,17.2,17.2,17,17.1,0,0,0,0,0,6,0,0,4134,"BSA",22180002
 1,15,0,0,11705,0,"2023-01-09T00:00:00",2900,17.2,17,17.2,17.2,17.2,17.2,0,0,0,0,0,10,0,0,9334,"BSA",49880000
 1,14,0,0,22555,0,"2023-01-06T00:00:00",7000,17,17.6,17,17.2,17,17.2,0,0,0,0,0,11,0,0,18600,"BSA",119199990

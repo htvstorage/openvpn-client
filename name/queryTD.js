@@ -28,15 +28,21 @@ import { colours } from "./Utils.js";
     //     bvtt:d[7], 
     //    }    
 
+
+    list = list.map(e=>{
+        e["mb"] = e.mkl + e.mtt - e.bkl - e.btt;
+        e["mbv"] = e.mvkl + e.mvtt - e.bvkl - e.bvtt;
+        return e;
+    });
+    // console.log(list)
     list = list.sort((a, b) => {
-        // let x1 = (a[1] + a[5]) / (a[2]+a[6] == 0? 1: a[2]+a[6]);
-        // let x2 = (b[1] + b[5]) / (b[2]+b[6] == 0? 1: b[2]+b[6]);
 
         let x3 = a.mkl > b.mkl ? 1 : a.mkl < b.mkl ? -1 : (a.bkl > b.bkl ? 1 : a.bkl < b.bkl ? -1 : 0)
-        // let x4 = a[1]+a[5] - a[2] - a[6]
-        // return (x2 > x1?1: x2 < x1 ?-1: x3)
-        // console.log(x3)
-        return x3;
+        let t = a.mb - b.mb
+        let x1 = t> 0 ? -1: t < 0? 1: 0;
+        t = a.mbv - b.mbv
+        let x2 = t> 0 ? -1: t < 0? 1: 0;
+        return x2;
     });
 
     // console.log(list)
@@ -55,6 +61,8 @@ import { colours } from "./Utils.js";
             case 'mvkl':
             case 'bvkl':
             case 'mkl':
+                case 'mb':
+                    case 'mbv':                                    
                 return v.toString().padEnd(10)
             case 'symbol':
                 return v.toString().padEnd(5)

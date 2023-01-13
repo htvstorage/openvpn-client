@@ -1,5 +1,7 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,4000,28181353,"2023-01-11T00:00:00",0,28,28,28,28,28,28,,,,0,0,0,0,0,13000,"CDN",0
+1,0,0,0,4200,28181353,"2023-01-13T00:00:00",0,27.9,27.9,27.9,27.9,27.9,27.9,,,,0,0,0,0,0,11400,"CDN",0
+1,0,0,0,4300,28181353,"2023-01-12T00:00:00",100,27.9,28,27.9,27.9,27.9,27.9,0,0,0,0,0,0,0,0,8700,"CDN",2790000
+1,10,0,0,4000,28181353,"2023-01-11T00:00:00",0,28,28,28,28,28,28,0,0,0,0,0,23,0,0,13111,"CDN",0
 1,13,100,2800000,11200,28181353,"2023-01-10T00:00:00",100,28,26.5,28,28,28,28,0,0,0,0,0,6,0,0,3770,"CDN",2800000
 1,12,0,0,14200,28181453,"2023-01-09T00:00:00",0,26.5,26.5,26.5,26.5,26.5,26.5,0,0,0,0,0,10,0,0,5410,"CDN",0
 1,8,100,2650000,7900,28181453,"2023-01-06T00:00:00",100,26.5,28.2,26.5,26.5,26.5,26.5,0,0,0,0,0,27,0,0,31800,"CDN",2650000

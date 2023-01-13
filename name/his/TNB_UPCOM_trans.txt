@@ -1,5 +1,7 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,3700,0,"2023-01-11T00:00:00",200,12,12,12,12,12,12,,,,0,0,0,0,0,1100,"TNB",2400000
+1,0,0,0,700,0,"2023-01-13T00:00:00",0,12,12,12,12,12,12,,,,0,0,0,0,0,800,"TNB",0
+1,0,0,0,800,0,"2023-01-12T00:00:00",0,12,12,12,12,12,12,0,0,0,0,0,0,0,0,800,"TNB",0
+1,4,0,0,3700,0,"2023-01-11T00:00:00",200,12,12,12,12,12,12,0,0,0,0,0,8,0,0,1147,"TNB",2400000
 1,6,0,0,604,0,"2023-01-10T00:00:00",0,12,12,12,12,12,12,0,0,0,0,0,7,0,0,2154,"TNB",0
 1,15,0,0,2738,0,"2023-01-09T00:00:00",400,12,11.2,10.2,12.7,10.2,12.6,0,0,0,0,0,9,0,0,1184,"TNB",4810000
 1,10,0,0,1598,0,"2023-01-06T00:00:00",0,11.2,11.2,11.2,11.2,11.2,11.2,0,0,0,0,0,3,0,0,700,"TNB",0

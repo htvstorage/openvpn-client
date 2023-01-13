@@ -1,5 +1,7 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,1000,7348800,"2023-01-11T00:00:00",1000,7.69,8.4,8,8,7.6,7.7,,,,0,0,0,0,0,16600,"MEL",7690000
+1,0,0,0,2300,7348800,"2023-01-13T00:00:00",200,7.65,8,8,8,7.3,7.3,,,,0,0,0,0,0,4300,"MEL",1530000
+1,0,0,0,2900,7348800,"2023-01-12T00:00:00",100,8,8,8,8,8,8,0,0,0,0,0,0,0,0,3700,"MEL",800000
+1,11,0,0,1020,7348800,"2023-01-11T00:00:00",1000,7.69,8.4,8,8,7.6,7.7,0,0,0,0,0,22,0,0,16619,"MEL",7690000
 1,5,0,0,1319,7348800,"2023-01-10T00:00:00",0,8.4,8.4,8.4,8.4,8.4,8.4,0,0,0,0,0,9,0,0,4119,"MEL",0
 1,4,0,0,400,7348800,"2023-01-09T00:00:00",0,8.4,8.4,8.4,8.4,8.4,8.4,0,0,0,0,0,11,0,0,6019,"MEL",0
 1,10,0,0,2102,7348800,"2023-01-06T00:00:00",500,8.12,8,8.4,8.5,7.9,8.5,0,0,0,0,0,15,0,0,18719,"MEL",4060000

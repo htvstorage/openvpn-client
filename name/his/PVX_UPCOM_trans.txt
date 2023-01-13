@@ -1,5 +1,7 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,195394488,"2023-01-11T00:00:00",0,2.5,2.5,2.5,2.5,2.5,2.5,,,,0,0,0,0,0,0,"PVX",0
+1,0,0,0,2554500,195394488,"2023-01-13T00:00:00",667700,2.5823400000000003,2.5,2.5,2.6,2.5,2.5,,,,0,0,0,0,0,3473400,"PVX",1724228418
+1,0,0,0,0,195394488,"2023-01-12T00:00:00",0,2.5,2.5,2.5,2.5,2.5,2.5,0,0,0,0,0,0,0,0,0,"PVX",0
+1,0,0,0,0,195394488,"2023-01-11T00:00:00",0,2.5,2.5,2.5,2.5,2.5,2.5,0,0,0,0,0,0,0,0,0,"PVX",0
 1,0,0,0,0,195394488,"2023-01-10T00:00:00",0,2.5,2.5,2.5,2.5,2.5,2.5,0,0,0,0,0,0,0,0,0,"PVX",0
 1,0,0,0,0,195394488,"2023-01-09T00:00:00",0,2.5,2.5,2.5,2.5,2.5,2.5,0,0,0,0,0,0,0,0,0,"PVX",0
 1,613,0,0,4904836,195394488,"2023-01-06T00:00:00",2351500,2.5,2.3,2.4,2.6,2.3,2.5,0,0,0,0,0,431,0,0,4174066,"PVX",5771615660

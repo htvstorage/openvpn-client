@@ -1,5 +1,7 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,2200,1347500,"2023-01-11T00:00:00",1300,9.7,8.5,9.7,9.7,9.7,9.7,,,,0,0,0,0,0,1700,"BMN",12610000
+1,0,0,0,2000,1347500,"2023-01-13T00:00:00",100,8.8,9.7,8.8,8.8,8.8,8.8,,,,0,0,0,0,0,2800,"BMN",880000
+1,0,0,0,1400,1347500,"2023-01-12T00:00:00",400,9.7,9.7,9.7,9.7,9.7,9.7,0,0,0,0,0,0,0,0,3700,"BMN",3880000
+1,11,0,0,2299,1347500,"2023-01-11T00:00:00",1300,9.7,8.5,9.7,9.7,9.7,9.7,0,0,0,0,0,4,0,0,1749,"BMN",12610000
 1,6,0,0,900,1347500,"2023-01-10T00:00:00",0,8.5,8.5,8.5,8.5,8.5,8.5,0,0,0,0,0,3,0,0,1101,"BMN",0
 1,8,0,0,4999,1347500,"2023-01-09T00:00:00",100,8.5,7.4,8.5,8.5,8.5,8.5,0,0,0,0,0,1,0,0,100,"BMN",850000
 1,2,0,0,600,1347500,"2023-01-06T00:00:00",100,7.4,8.6,7.4,7.4,7.4,7.4,0,0,0,0,0,4,0,0,2449,"BMN",740000

@@ -16,11 +16,19 @@ function url(date) {
     const url = 'https://static2.vietstock.vn/vietstock/' + date.getFullYear() + '/' + (date.getMonth() + 1) + '/' + date.getDate() + '/' + file;
     return { url, file };
 }
+
+function date2str(date) {
+    let t = date.getFullYear() + ""
+        + (date.getMonth() + 1 < 10 ? ("0" + (date.getMonth() + 1)) : date.getMonth() + 1) + ""
+        + (date.getDate() < 10 ? "0" + date.getDate() : date.getDate())    
+    let file = t + '_' + t + '___thong_ke_giao_dich_tu_doanh.pdf';
+    return file;
+}
 (async () => {
     let dir = "./pdf";
     let req = 0;
     let res = 0;
-    for (var i = 1; i < 30; i++) {
+    for (var i = 1; i < 10; i++) {
         let x = url(new Date(Date.now() - i * 24 * 60 * 60 * 1000));
         const response = fetch(x.url);
         req++;
@@ -39,7 +47,7 @@ function url(date) {
     }
     console.log('Done!');
 })
-// ();
+    ();
 
 
 function wait(ms) {
@@ -67,7 +75,26 @@ function wait(ms) {
 
 
     let total = {};
+    //'20230112', '20230111', '20230110', '20230109', '20230108'
+    let whitelist = []
 
+    let recently = 42;
+    let check = {};
+    let fileFiltered = [];
+    for(let file of files){
+        check[file] = 0;
+    }
+
+    for (var i = 10; i < 10000; i++) {
+        let x = date2str(new Date(Date.now() - i * 24 * 60 * 60 * 1000));
+        if(check[x] != undefined){
+            fileFiltered.push(x);
+            if(fileFiltered.length == recently){
+                break;
+            }
+        }
+    }
+    files = fileFiltered;
     for (let file of files) {
         if (file.includes("202205")
             || file.includes("202206")
@@ -75,12 +102,24 @@ function wait(ms) {
             || file.includes("202208")
             || file.includes("202209")
             || file.includes("202210")
-            || file.includes("202211")
-            || file.includes("202212")
-            || file.includes("2022120")
-            || file.includes("2022121")
+            // || file.includes("202211")
+            // || file.includes("202212")
+            // || file.includes("2022120")
+            // || file.includes("2022121")
         ) {
             continue;
+        }
+        if (whitelist != undefined && whitelist.length > 0) {
+            let out = true;
+            for (let p of whitelist) {
+                if (file.includes(p)) {
+                    out = false;
+                    break;
+                }
+            }
+            if (out) {
+                continue;
+            }
         }
         console.log(file.substring(0, 8));
 
@@ -212,7 +251,7 @@ function wait(ms) {
                 console.log("Co sai du lieu ===========================================", i, v, v2)
                 // console.log(zz);
             } else {
-                console.log("Ok  ", i, v, v2)
+                // console.log("Ok  ", i, v, v2)
             }
         })
 
@@ -249,15 +288,16 @@ function wait(ms) {
     for (let k of Object.keys(summarySymbol)) {
         let d = summarySymbol[k];
         symbols.push(
-            {symbol:k,
-             mkl: d[0],
-             bkl: d[1],
-             mvkl: d[2],
-             bvkl: d[3],
-             mtt: d[4],
-             btt: d[5],
-             mvtt:d[6], 
-             bvtt:d[7], 
+            {
+                symbol: k,
+                mkl: d[0],
+                bkl: d[1],
+                mvkl: d[2],
+                bvkl: d[3],
+                mtt: d[4],
+                btt: d[5],
+                mvtt: d[6],
+                bvtt: d[7],
             }
         );
     }
@@ -266,8 +306,8 @@ function wait(ms) {
 
 
 
-    fs.writeFile("symbol.json", JSON.stringify(symbols,(k,v)=>{
+    fs.writeFile("symbol.json", JSON.stringify(symbols, (k, v) => {
         return v;
-    },''), (e) => { });
+    }, ''), (e) => { });
 
 })();

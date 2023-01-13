@@ -11,29 +11,27 @@ const httpsAgent = new https.Agent({ keepAlive: true });
 const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
 
 (async () => {
-  let a = await fetch("https://bgapidatafeed.vps.com.vn/getliststocktrade/AAA/", {
+  let a = await fetch("https://bgapidatafeed.vps.com.vn/getliststocktrade/SAB", {
+    "credentials": "omit",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) SFive/73.0 Chrome/73.0.3683.104 Safari/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "vi-VN,vi;q=0.8,en-US;q=0.5,en;q=0.3",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-site"
+    },
+    "referrer": "https://banggia.vps.com.vn/",
     "method": "GET",
-    "mode": "cors",
-    agent
-  });
-  let z = await a.text()
+    "mode": "cors"
+});
+
+let z = await a.text()
 
 
 
   console.log(z.length)
 
-
-
-
-  superagent.get('https://bgapidatafeed.vps.com.vn/getliststocktrade/AAA/')
-    .set('connection', 'keep-alive')
-    .set('user-agent','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36')
-    .end((err, res) => {
-      if (err) { return console.log(err); }
-      console.log(res);
-      console.log(res.body);
-      // console.log(res.body);
-    });
 
 
 })()

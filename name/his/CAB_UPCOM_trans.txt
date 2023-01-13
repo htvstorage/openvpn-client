@@ -1,5 +1,7 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,400,0,"2023-01-11T00:00:00",400,13.375,15.5,13.9,13.9,13.2,13.2,,,,0,0,0,0,0,3500,"CAB",5350000
+1,0,0,0,4200,0,"2023-01-13T00:00:00",100,14.8,12.9,14.8,14.8,14.8,14.8,,,,0,0,0,0,0,1500,"CAB",1480000
+1,0,0,0,4100,0,"2023-01-12T00:00:00",900,12.93333,13.4,15.2,15.3,11.7,11.8,0,0,0,0,0,0,0,0,3600,"CAB",11639997
+1,6,0,0,455,0,"2023-01-11T00:00:00",400,13.4,15.5,13.9,13.9,13.2,13.2,0,0,0,0,0,10,0,0,3500,"CAB",5350000
 1,8,0,0,6300,0,"2023-01-10T00:00:00",300,15.5,13.7,15.5,15.6,15.5,15.6,0,0,0,0,0,9,0,0,4200,"CAB",4659999
 1,5,0,0,2100,0,"2023-01-09T00:00:00",400,13.7,14.6,14.1,14.1,12.5,12.5,0,0,0,0,0,10,0,0,1600,"CAB",5480000
 1,3,0,0,1100,0,"2023-01-06T00:00:00",1100,14.6,16.6,14.2,16.4,14.2,14.6,0,0,0,0,0,15,0,0,3000,"CAB",16040002

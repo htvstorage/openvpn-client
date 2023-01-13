@@ -1,5 +1,7 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,19,0,0,11912,0,"2023-01-11T00:00:00",600,36.191669999999995,38,36.15,36.4,36.15,36.4,,,,0,0,14,0,0,4563,"UIC",21715002
+1,0,0,0,0,0,"2023-01-13T00:00:00",0,36.3,36.3,36.3,36.3,36.3,36.3,,,,0,0,0,0,0,0,"UIC",0
+1,22,0,0,5912,0,"2023-01-12T00:00:00",1300,36.22308,36.15,36.3,36.3,36.2,36.2,0,0,0,0,0,9,0,0,4200,"UIC",47090004
+1,19,0,0,11912,0,"2023-01-11T00:00:00",600,36.191669999999995,38,36.15,36.4,36.15,36.4,0,0,0,0,0,14,0,0,4563,"UIC",21715002
 1,9,0,0,2702,0,"2023-01-10T00:00:00",0,38,38,38,38,38,38,0,0,0,0,0,13,0,0,2912,"UIC",0
 1,22,0,0,3601,0,"2023-01-09T00:00:00",400,38,38,38,38,38,38,0,0,0,0,0,12,0,0,2912,"UIC",15200000
 1,16,0,0,3102,0,"2023-01-06T00:00:00",100,38,38.45,38,38,38,38,0,0,0,0,0,12,0,0,4703,"UIC",3800000
