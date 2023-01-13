@@ -68,10 +68,9 @@ Exchange.transaction = async function (symbol, per_page) {
   });
   let txt = await a.text();
   if (txt.startsWith("{") && txt.endsWith("}")) {
-    // let x = JSON.parse(txt);
-    // x["Code"] = symbol;
-    // return x;
-    return { "Code": symbol }
+    let x = JSON.parse(txt);
+    x["Code"] = symbol;
+    return x;
   } else {
     return { "Code": symbol }
   }
@@ -239,13 +238,13 @@ Exchange.getliststockdata = async function (list, ret) {
           "mode": "cors",
           agent
         });
-        a.then(res => res.text()).then(txt => {          
+        a.then(res => res.text()).then(txt => {
           let data = [];
           if (txt.startsWith("[{") && txt.endsWith("}]")) {
             data = JSON.parse(txt);
           }
           for (let e of data) {
-            // console.log(bject.keys(ret).length)
+            // console.log(Object.keys(ret).length)
             ret[e.sym] = e;
           }
           if (Object.keys(ret).length == list.length) {
