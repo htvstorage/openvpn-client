@@ -35,9 +35,14 @@ Exchange.transaction = async function (symbol) {
     "method": "GET",
     "mode": "cors"
   });
-  let x = await a.json();
-  x["Code"] = symbol;
-  return x;
+  if (txt.startsWith("{") && txt.endsWith("}")) {
+    // let x = JSON.parse(txt);
+    // x["Code"] = symbol;
+    // return x;
+    return { "Code": symbol }
+  } else {
+    return { "Code": symbol }
+  }
 }
 
 
@@ -61,9 +66,16 @@ Exchange.transaction = async function (symbol, per_page) {
     "mode": "cors",
     agent
   });
-  let x = await a.json();
-  x["Code"] = symbol;
-  return x;
+  let txt = await a.text();
+  if (txt.startsWith("{") && txt.endsWith("}")) {
+    // let x = JSON.parse(txt);
+    // x["Code"] = symbol;
+    // return x;
+    return { "Code": symbol }
+  } else {
+    return { "Code": symbol }
+  }
+
 }
 
 Exchange.finacialReport = async function (symbol) {
@@ -227,9 +239,13 @@ Exchange.getliststockdata = async function (list, ret) {
           "mode": "cors",
           agent
         });
-        a.then(res => res.json()).then(data => {
+        a.then(res => res.text()).then(txt => {          
+          let data = [];
+          if (txt.startsWith("[{") && txt.endsWith("}]")) {
+            data = JSON.parse(txt);
+          }
           for (let e of data) {
-            // console.log(Object.keys(ret).length)
+            // console.log(bject.keys(ret).length)
             ret[e.sym] = e;
           }
           if (Object.keys(ret).length == list.length) {

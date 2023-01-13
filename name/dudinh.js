@@ -3,6 +3,7 @@ import fs from "fs";
 import log4js from "log4js";
 import { Parser } from "json2csv"
 import { Exchange } from "./Exchange.js";
+import draftlog from 'draftlog'
 var logger = log4js.getLogger();
 
 log4js.configure({
@@ -42,7 +43,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
          let z =  Exchange.transaction(symbol,200);
          if(symbol == 'HPG')
           z.then(data=>{
-            console.log(data)
+            // console.log(data)
           })
         }
       }catch(err){
