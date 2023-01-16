@@ -4,12 +4,26 @@ import log4js from "log4js";
 import { Parser } from "json2csv"
 import { Exchange } from "./Exchange.js";
 import draftlog from 'draftlog'
+import Table from "tty-table";
+import CliTable3 from "cli-table3";
+import chalk from "chalk";
 var logger = log4js.getLogger();
+
 
 log4js.configure({
   appenders: {
-    everything: { type: "file", filename: "diem.log" },
-    console: { type: "console" },
+    everything: {
+      type: "file", filename: "table.log", layout: {
+        type: "pattern",
+        pattern: "%m%n",
+      },
+    },
+    console: {
+      type: "console", layout: {
+        type: "pattern",
+        pattern: "%m%n",
+      },
+    },
   },
   categories: {
     default: { appenders: ["console", "everything"], level: "debug" },
@@ -37,8 +51,8 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
   let asyncBatch = async () => {
     while (true) {
-      console.log("Console " + Date.now())
-      let from = Date.now() + 7 * 60 * 60 * 1000 - 50 * 60 * 1000;
+      // console.log("Console " + Date.now())
+      let from = Date.now() + 7 * 60 * 60 * 1000 - 5 * 60 * 60 * 1000;
       function date2str(date) {
         let t = date.getFullYear() + "-"
           + (date.getMonth() + 1 < 10 ? ("0" + (date.getMonth() + 1)) : date.getMonth() + 1) + "-"
@@ -48,50 +62,127 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       let strdate = date2str(new Date());
       // console.log(date2str(new Date()))
       try {
-        let promise = new Promise((resolve) => { });
-        let ret = {};
-        for (let symbol of listSymbol) {
-          let z = Exchange.transaction(symbol, 2000000);
-          z.then(data => {
-            if (symbol == 'HPG') {
-              // console.log(data)
-            }
-            ret[symbol] = data;
-            if (data.data != undefined) {
-              // {
-              //   price: 10.75,
-              //   change: 0.25,
-              //   match_qtty: 5000,
-              //   total_vol: 21338100,
-              //   time: '14:29:14',
-              //   side: 'sd'
-              // }
-              let f = 0;
-              let first;
-              let last;
-              for (let p of data.data) {
-                let time = new Date(strdate + "T" + p.time);
 
-                if (time >= from) {
-                  if (f == 0) {
-                    first = p;
-                    f++;
+        let stat = {
+          req: 0,
+          res: 0
+        }
+        let table = [];
+        let promise = new Promise((resolve) => {
+          let ret = {};
+          for (let symbol of listSymbol) {
+            stat.req++;
+            let z = Exchange.transaction(symbol, 2000000);
+            z.then(data => {
+              if (symbol == 'HPG') {
+                // console.log(data)
+              }
+              stat.res++;
+              ret[symbol] = data;
+              if (data.data != undefined) {
+                // {
+                //   price: 10.75,
+                //   change: 0.25,
+                //   match_qtty: 5000,
+                //   total_vol: 21338100,
+                //   time: '14:29:14',
+                //   side: 'sd'
+                // }
+                let f = 0;
+                let first;
+                let last;
+                for (let p of data.data) {
+                  let time = new Date(strdate + "T" + p.time);
+
+                  if (time >= from) {
+                    if (f == 0) {
+                      first = p;
+                      f++;
+                    }
+                    last = p;
+                    // console.log(p.time, time, new Date(from))
+                    // console.log(p)
                   }
-                  last = p;
-                  // console.log(p.time, time, new Date(from))
-                  // console.log(p)
+                }
+                if (first != undefined && last != undefined) {
+                  let delta = ((first.change - last.change) * 100 / (first.price - first.change)).toFixed(2);
+                  // if (Math.abs(delta) > 2)
+                  // console.log("Change", symbol, (first.change - last.change).toFixed(2), delta, "%", first.price, first.total_vol)
+
+                  table.push({
+                    symbol: symbol,
+                    change: (first.change - last.change),
+                    delta: delta,
+                    price: first.price,
+                    vol: first.total_vol
+                  })
                 }
               }
-              if (first != undefined && last != undefined){
-                let delta = ((first.change - last.change) * 100 / (first.price - first.change)).toFixed(2) ;
-                if (Math.abs(delta)>2)
-                  console.log("Change", symbol, (first.change - last.change).toFixed(2), delta,"%", first.price, first.total_vol)
-              }
-         
-            }
 
+              if (stat.req == stat.res) {
+                // console.log("Resolve", stat,table)
+                resolve(table);
+              }
+            })
+          }
+        });
+
+
+        promise.then(table => {
+          // console.log("table", table)
+          if (table == undefined || table.length == 0) {
+            return;
+          }
+          var clitable = new CliTable3({ head: ['(Change1)', ...Object.keys(table[0])] })
+
+          table = table.filter((e)=>{
+            return e.vol >= 50000;
           })
-        }
+          table.sort((a, b) => {
+            let x = a.delta - b.delta;
+            return x > 0 ? -1 : x < 0 ? 1 : 0;
+          })
+          let coloring = (e) => {
+            let o = []
+            let rt = e['%']
+            let f = chalk.yellow;
+            if (e.l == e.c) {
+              f = chalk.magenta;
+            } else if (e.l > e.r && e.l < e.c) {
+              f = chalk.green;
+            } else if (e.l == e.f) {
+              f = chalk.blue;
+            } else if (e.l < e.r && e.l > e.f) {
+              f = chalk.red;
+            }
+            Object.keys(e).forEach((k, i) => {
+              switch (k) {
+                case '%':
+                case 'tps':
+                  o.push(f(e[k].toFixed(2)))
+                  break;
+                case 'time':
+                  o.push(f(format(k, e[k])))
+                  break;
+                default:
+                  o.push(f(e[k]));
+              }
+            });
+            return o;
+          }
+          table.slice(0, 15).forEach((e, i) => {
+            clitable.push([i, ...coloring(e)]);
+          })
+          console.log(clitable.toString())
+          clitable = new CliTable3({ head: ['(Change2)', ...Object.keys(table[0])] })
+
+          table.slice(table.length - 15, table.length).forEach((e, i) => {
+            clitable.push([i, ...coloring(e)]);
+          })
+          console.log(clitable.toString())
+
+        });
+
       } catch (err) {
         logger.error(err)
       } finally {
@@ -107,10 +198,9 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     top.length = 0;
     topG1.length = 0;
     let z = Exchange.getliststockdata(listSymbol, stockdata);
-
+    let str = [];
     z.then(data => {
-      console.log(data['HPG'])
-
+      // console.log(data['HPG'])
       for (let key of Object.keys(data)) {
         let s = data[key];
         let g1 = s.g1;
@@ -192,9 +282,10 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
         }
       }
-      console.log("================================================")
-      console.log("===================Du Dinh======================")
+      // console.log("================================================")
+      // console.log("===================Du Dinh======================")
       let maxPrint = 15;
+      let table = [];
       top.sort((a, b) => {
         return a.v > b.v ? -1 : a.v < b.v ? 1 : 0
       })
@@ -205,7 +296,8 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
           break;
         if (top[idx].total > 0) {
           c++;
-          console.log(JSON.stringify(top[idx], format).replaceAll("\"", ""))
+          // console.log(JSON.stringify(top[idx], format).replaceAll("\"", ""))
+          table.push(top[idx]);
         }
         idx++;
         if (c > maxPrint) {
@@ -217,21 +309,102 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         return a.v > b.v ? -1 : a.v < b.v ? 1 : 0
       })
 
-      console.log("================================================")
+      var clitable = new CliTable3({ head: ['(DuDinh)', ...Object.keys(table[0])] })
+      let coloring = (e) => {
+        let o = []
+        let rt = e['%']
+        let f = chalk.yellow;
+
+        if (e.l == e.c) {
+          f = chalk.magenta;
+        } else if (e.l > e.r && e.l < e.c) {
+          f = chalk.green;
+        } else if (e.l == e.f) {
+          f = chalk.blue;
+        } else if (e.l < e.r && e.l > e.f) {
+          f = chalk.red;
+        }
+        Object.keys(e).forEach((k, i) => {
+          switch (k) {
+            case '%':
+            case 'tps':
+              o.push(f(e[k].toFixed(2)))
+              break;
+            case 'time':
+              o.push(f(format(k, e[k])))
+              break;
+            default:
+              o.push(f(e[k]));
+          }
+        });
+        return o;
+      }
+
+      let colorTop = (e) => {
+        let o = []
+        let rt = e['%']
+        let f = chalk.yellow;
+
+        if (e.l == e.c) {
+          f = chalk.magenta;
+        } else if (e.l > e.r && e.l < e.c) {
+          f = chalk.green;
+        } else if (e.l == e.f) {
+          f = chalk.blue;
+        } else if (e.l < e.r && e.l > e.f) {
+          f = chalk.red;
+        }
+        Object.keys(e).forEach((k, i) => {
+          let f = i % 2 == 0 ? chalk.magenta : chalk.magentaBright;
+          switch (k) {
+            case '%':
+            case 'tps':
+              o.push(f(e[k].toFixed(2)))
+              break;
+            case 'time':
+              o.push(f(format(k, e[k])))
+              break;
+            default:
+              o.push(f(e[k]));
+          }
+        });
+        return o;
+      }
+
+      table.forEach((e, i) => {
+        clitable.push([i, ...coloring(e)]);
+      })
+
+      console.log(clitable.toString())
+      // str.push(clitable.toString())
+      // console.log("================================================")
       c = 0;
       idx = 0;
+      table.length = 0;
+
       while (true) {
         if (topG1[idx] == undefined)
           break;
         if (topG1[idx].total > 0) {
           c++;
-          console.log(JSON.stringify(topG1[idx], format).replaceAll("\"", ""))
+          // console.log(JSON.stringify(topG1[idx], format).replaceAll("\"", ""))
+          table.push(topG1[idx]);
         }
         idx++;
         if (c > maxPrint) {
           break;
         }
       }
+
+      var clitable = new CliTable3({ head: ['(G1)', ...Object.keys(table[0])] })
+
+      table.forEach((e, i) => {
+        clitable.push([i, ...coloring(e)]);
+      })
+
+      console.log(clitable.toString())
+      // str.push(clitable.toString())
+
 
       let x = []
       for (let key of Object.keys(delta)) {
@@ -241,38 +414,68 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       x.sort((a, b) => {
         return a.tps > b.tps ? -1 : a.tps < b.tps ? 1 : 0
       })
-      console.log("================================================")
-      console.log("======================TPS=======================")
+
+      // console.log("================================================")
+      // console.log("======================TPS=======================")
+
+
+
+
 
       let t = 0;
       let g = 0;
-
+      table.length = 0;
       for (let i = 0; i < maxPrint; i++) {
-        if (x[i]['%'] > 0) {
-          t++;
-          console.log(t % 2 == 0 ? colours.fg.green : colours.fg.magenta, JSON.stringify(x[i], format).replaceAll("\"", ""))
-        } else if (x[i]['%'] < 0) {
-          g++;
-          console.log(g % 2 == 0 ? colours.fg.red : colours.fg.blue, JSON.stringify(x[i], format).replaceAll("\"", ""))
-        } else {
-          console.log(colours.fg.yellow, JSON.stringify(x[i], format).replaceAll("\"", ""))
-        }
+        // if (x[i]['%'] > 0) {
+        //   t++;
+        //   console.log(t % 2 == 0 ? colours.fg.green : colours.fg.magenta, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        // } else if (x[i]['%'] < 0) {
+        //   g++;
+        //   console.log(g % 2 == 0 ? colours.fg.red : colours.fg.blue, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        // } else {
+        //   console.log(colours.fg.yellow, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        // }
+        table.push(x[i]);
       }
-      console.log("======================VOL=======================")
+      var clitable = new CliTable3({ head: ['(TPS)', ...Object.keys(table[0])] })
+      table.forEach((e, i) => {
+        clitable.push([i, ...coloring(e)]);
+      })
+
+      console.log(clitable.toString())
+      // str.push(clitable.toString())
+
+      // console.log("======================VOL=======================")
       x.sort((a, b) => {
         return a.lot > b.lot ? -1 : a.lot < b.lot ? 1 : 0
       })
+      table.length = 0;
+      // clitable.length = 0;
       for (let i = 0; i < maxPrint; i++) {
-        if (x[i]['%'] > 0) {
-          t++;
-          console.log(t % 2 == 0 ? colours.fg.green : colours.fg.magenta, JSON.stringify(x[i], format).replaceAll("\"", ""))
-        } else if (x[i]['%'] < 0) {
-          g++;
-          console.log(g % 2 == 0 ? colours.fg.red : colours.fg.blue, JSON.stringify(x[i], format).replaceAll("\"", ""))
-        } else {
-          console.log(colours.fg.yellow, JSON.stringify(x[i], format).replaceAll("\"", ""))
-        }
+        // if (x[i]['%'] > 0) {
+        //   t++;
+        //   console.log(t % 2 == 0 ? colours.fg.green : colours.fg.magenta, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        // } else if (x[i]['%'] < 0) {
+        //   g++;
+        //   console.log(g % 2 == 0 ? colours.fg.red : colours.fg.blue, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        // } else {
+        //   console.log(colours.fg.yellow, JSON.stringify(x[i], format).replaceAll("\"", ""))
+        // }
+        table.push(x[i]);
       }
+
+      // console.table(table)
+      var clitable = new CliTable3({ head: ['(VOL)', ...Object.keys(table[0])] })
+
+      table.forEach((e, i) => {
+        clitable.push([i, ...coloring(e)]);
+      })
+
+      console.log(clitable.toString())
+      // str.push(clitable.toString())
+
+      // console.log(str[0],"\n",str[1],"\n",str[2],"\n",str[3])
+
     })
 
     try {
