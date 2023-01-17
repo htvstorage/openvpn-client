@@ -52,7 +52,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   let asyncBatch = async () => {
     while (true) {
       // console.log("Console " + Date.now())
-      let from = Date.now() + 7 * 60 * 60 * 1000 - 5 * 60 * 60 * 1000;
+      let from = Date.now() + 7 * 60 * 60 * 1000 - 5 * 60 * 1000;
       function date2str(date) {
         let t = date.getFullYear() + "-"
           + (date.getMonth() + 1 < 10 ? ("0" + (date.getMonth() + 1)) : date.getMonth() + 1) + "-"
@@ -113,6 +113,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
                     symbol: symbol,
                     change: (first.change - last.change),
                     delta: delta,
+                    'change%': (first.change * 100 / (first.price - first.change)).toFixed(2),
                     price: first.price,
                     vol: first.total_vol
                   })
@@ -135,7 +136,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
           }
           var clitable = new CliTable3({ head: ['(Change1)', ...Object.keys(table[0])] })
 
-          table = table.filter((e)=>{
+          table = table.filter((e) => {
             return e.vol >= 50000;
           })
           table.sort((a, b) => {
@@ -309,7 +310,6 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         return a.v > b.v ? -1 : a.v < b.v ? 1 : 0
       })
 
-      var clitable = new CliTable3({ head: ['(DuDinh)', ...Object.keys(table[0])] })
       let coloring = (e) => {
         let o = []
         let rt = e['%']
@@ -371,11 +371,17 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         return o;
       }
 
-      table.forEach((e, i) => {
-        clitable.push([i, ...coloring(e)]);
-      })
+      if (table.length > 0) {
+        var clitable = new CliTable3({ head: ['(DuDinh)', ...Object.keys(table[0])] })
 
-      console.log(clitable.toString())
+
+        table.forEach((e, i) => {
+          clitable.push([i, ...coloring(e)]);
+        })
+
+        console.log(clitable.toString())
+      }
+
       // str.push(clitable.toString())
       // console.log("================================================")
       c = 0;

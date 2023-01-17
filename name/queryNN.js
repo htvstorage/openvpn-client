@@ -46,8 +46,8 @@ import { colours } from "./Utils.js";
         return val;
     };
     list = list.map(e => {
-        e[lailo] = lailo(e);
-        e[ration] = ration(e);
+        e['lailo'] = lailo(e);
+        e['ration'] = ration(e);
         return e;
     })
 
@@ -64,28 +64,39 @@ import { colours } from "./Utils.js";
 
     // console.log(list)
 
-    console.log("Ma".padEnd(3), "Gia".padEnd(5),
-        "Mua-Ban(KL)".padEnd(20),
-        "Mua-Ban(Val)".padEnd(20),
-        "Mua-Ban(Goc)".padEnd(20),
-        "LaiLo".padEnd(20),
-        "LaiLo(%)".padEnd(8),
-        "Mua".padEnd(10), "Ban".padEnd(10), "Mua(Val)".padEnd(20), "Ban(Val)".padEnd(20))
+    // console.log("Ma".padEnd(3), "Gia".padEnd(5),
+    //     "Mua-Ban(KL)".padEnd(20),
+    //     "Mua-Ban(Val)".padEnd(20),
+    //     "Mua-Ban(Goc)".padEnd(20),
+    //     "LaiLo".padEnd(20),
+    //     "LaiLo(%)".padEnd(8),
+    //     "Mua".padEnd(10), "Ban".padEnd(10), "Mua(Val)".padEnd(20), "Ban(Val)".padEnd(20))
 
     let i =0;
-    for (let e of list) {
-        // console.log(e)
-        if (e.p == undefined || e.b == undefined) {
-            console.log(e)
-            continue;
-        }
-        console.log(i++%2 == 0? colours.fg.green:colours.fg.magenta,e.symbol, e.p.toFixed(2).padEnd(5),
-            (e.b - e.s).toString().padEnd(20),
-            ((e.b - e.s) * e.p * 1000).toFixed(2).padEnd(20),
-            (e.bv - e.sv).toFixed(2).padEnd(20),
-            ((e.b - e.s) * e.p * 1000 - (e.bv - e.sv)).toFixed(2).padEnd(20),
-            (((e.b - e.s) * e.p * 1000 - (e.bv - e.sv)) / (e.bv - e.sv) * 100).toFixed(2).padEnd(8),
-            e.b.toString().padEnd(10), e.s.toString().padEnd(10), e.bv.toString().padEnd(20), e.sv.toString().padEnd(20))
-    }
+    // for (let e of list) {
+    //     // console.log(e)
+    //     if (e.p == undefined || e.b == undefined) {
+    //         console.log(e)
+    //         continue;
+    //     }
+    //     console.log(i++%2 == 0? colours.fg.green:colours.fg.magenta,e.symbol, e.p.toFixed(2).padEnd(5),
+    //         (e.b - e.s).toString().padEnd(20),
+    //         ((e.b - e.s) * e.p * 1000).toFixed(2).padEnd(20),
+    //         (e.bv - e.sv).toFixed(2).padEnd(20),
+    //         ((e.b - e.s) * e.p * 1000 - (e.bv - e.sv)).toFixed(2).padEnd(20),
+    //         (((e.b - e.s) * e.p * 1000 - (e.bv - e.sv)) / (e.bv - e.sv) * 100).toFixed(2).padEnd(8),
+    //         e.b.toString().padEnd(10), e.s.toString().padEnd(10), e.bv.toString().padEnd(20), e.sv.toString().padEnd(20))
+    // }
+
+    list = list.map(e=>{ 
+        e['b-s'] = e.b - e.s
+        e['b-s(valbyp)'] = (e.b - e.s)*1000*e.p;
+        e['b-s(val)'] = (e.bv - e.sv);
+        e['lailo'] =(((e.b - e.s) * e.p * 1000 - (e.bv - e.sv)) / (e.bv - e.sv) * 100).toFixed(2);
+        
+        return e;
+    })
+
+    console.table(list);
 
 })();

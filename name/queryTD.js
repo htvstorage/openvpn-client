@@ -74,7 +74,7 @@ import { colours } from "./Utils.js";
     for (let e of list) {
         // console.log(e)
         i++;
-        console.log(i % 2 == 0 ? colours.fg.magenta : colours.fg.green, JSON.stringify(e, format).replaceAll('"', ''))
+        // console.log(i % 2 == 0 ? colours.fg.magenta : colours.fg.green, JSON.stringify(e, format).replaceAll('"', ''))
     }
-
+    console.table(list)
 })();

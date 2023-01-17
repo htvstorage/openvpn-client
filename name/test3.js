@@ -7,6 +7,7 @@ import https from "node:https";
 import { resolve } from "path";
 import chalk from "chalk";
 import Table2 from 'cli-table3'
+import term from 'term.js'
 // import superagent from 'superagent'
 const httpAgent = new http.Agent({ keepAlive: true });
 const httpsAgent = new https.Agent({ keepAlive: true });
