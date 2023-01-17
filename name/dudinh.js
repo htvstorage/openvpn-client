@@ -52,7 +52,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   let asyncBatch = async () => {
     while (true) {
       // console.log("Console " + Date.now())
-      let from = Date.now() + 7 * 60 * 60 * 1000 - 5 * 60 * 1000;
+      let from = Date.now() + 7 * 60 * 60 * 1000 - 6* 50 * 60 * 1000;
       function date2str(date) {
         let t = date.getFullYear() + "-"
           + (date.getMonth() + 1 < 10 ? ("0" + (date.getMonth() + 1)) : date.getMonth() + 1) + "-"
@@ -68,10 +68,13 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
           res: 0
         }
         let table = [];
-        let promise = new Promise((resolve) => {
+        let promise = new Promise(async(resolve) => {
           let ret = {};
           for (let symbol of listSymbol) {
             stat.req++;
+            if(stat.req - stat.res >= 200){
+              await wait(100);
+            }
             let z = Exchange.transaction(symbol, 2000000);
             z.then(data => {
               if (symbol == 'HPG') {
@@ -174,13 +177,23 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
           table.slice(0, 15).forEach((e, i) => {
             clitable.push([i, ...coloring(e)]);
           })
-          console.log(clitable.toString())
+          // console.log(clitable.toString())
+          let tb1 = clitable.toString();
           clitable = new CliTable3({ head: ['(Change2)', ...Object.keys(table[0])] })
 
           table.slice(table.length - 15, table.length).forEach((e, i) => {
             clitable.push([i, ...coloring(e)]);
           })
-          console.log(clitable.toString())
+          // console.log(clitable.toString())
+          let tb2 = clitable.toString();
+          
+          let a1= tb1.split("\n");
+          let a2= tb2.split("\n");
+          let z = a1.map((v,i)=>{
+            return v + "   " + a2[i] +"\n"
+          })
+          let c= z.reduce((a,b)=> a+b,"");
+          console.log(c)
 
         });
 
