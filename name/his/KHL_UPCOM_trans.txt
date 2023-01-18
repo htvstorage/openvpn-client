@@ -1,5 +1,8 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,10000,5804100,"2023-01-13T00:00:00",300,0.9,1,0.9,0.9,0.9,0.9,,,,0,0,0,0,0,52800,"KHL",270000
+1,0,0,0,0,5804100,"2023-01-18T00:00:00",0,0.9,0.9,0.9,0.9,0.9,0.9,,,,0,0,0,0,0,0,"KHL",0
+1,0,0,0,0,5804100,"2023-01-17T00:00:00",0,0.9,0.9,0.9,0.9,0.9,0.9,0,0,0,0,0,0,0,0,0,"KHL",0
+1,0,0,0,0,5804100,"2023-01-16T00:00:00",0,0.9,0.9,0.9,0.9,0.9,0.9,0,0,0,0,0,0,0,0,0,"KHL",0
+1,22,0,0,27913,5804100,"2023-01-13T00:00:00",24900,0.9,1,0.9,0.9,0.9,0.9,0,0,0,0,0,9,0,0,32100,"KHL",22410000
 1,0,0,0,0,5804100,"2023-01-12T00:00:00",0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,"KHL",0
 1,0,0,0,0,5804100,"2023-01-11T00:00:00",0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,"KHL",0
 1,0,0,0,0,5804100,"2023-01-10T00:00:00",0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,"KHL",0

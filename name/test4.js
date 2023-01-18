@@ -24,6 +24,8 @@ import blessed from 'blessed'
         smartCSR: true
     });
 
+    Number.is
+
     var body = blessed.box({
         top: 0,
         left: 0,
