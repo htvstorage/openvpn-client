@@ -123,14 +123,26 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
                     return ((v.change - last[i].change)).toFixed(2);
                   });
 
-                  table.push({
+                  let e = {
                     symbol: symbol,
                     change: change,
-                    delta: delta,
                     'change%': (first.at(-1).change * 100 / (first.at(-1).price - first.at(-1).change)).toFixed(2),
                     price: first.at(-1).price,
-                    vol: first.at(-1).total_vol
-                  })
+                    vol: first.at(-1).total_vol,
+                    deltaLast: delta.at(-1),
+                    delta: delta,
+                  };
+
+                  t.forEach((v, i) => {
+                    if (i >= 3) {
+                      return;
+                    }
+                    e['delta' + t.at(i)] = delta.at(i) == undefined ? "" : delta.at(i);
+                  });
+                  if(symbol == 'BID'){
+                    console.log(e,first,last)
+                  }
+                  table.push(e)
                 }
               }
 
@@ -144,14 +156,14 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
 
         promise.then(table => {
-          console.log("table", table[0])
+          // console.log("table", table[0])
           if (table == undefined || table.length == 0) {
             return;
           }
           var clitable = new CliTable3({ head: ['(Change1)', ...Object.keys(table[0])] })
 
           table = table.filter((e) => {
-            return e.vol >= 50000;
+            return e.vol >= 150000;
           })
           table.sort((a, b) => {
             let x = a.delta.at(-1) - b.delta.at(-1);
@@ -186,7 +198,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
             return o;
           }
 
-          console.log("table", table[0])
+          // console.log("table", table[0])
           table.slice(0, 15).forEach((e, i) => {
             clitable.push([i, ...coloring(e)]);
           })
