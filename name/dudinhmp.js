@@ -206,7 +206,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
           // let tb1 = clitable.toString();
           clitable = new CliTable3({ head: ['(Change2)', ...Object.keys(table[0])] })
 
-          table.slice(table.length - 15, table.length).forEach((e, i) => {
+          table.slice(Math.max(table.length - 15,0), table.length).forEach((e, i) => {
             clitable.push([i, ...coloring(e)]);
           })
           logger.info(clitable.toString())
