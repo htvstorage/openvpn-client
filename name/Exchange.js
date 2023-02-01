@@ -334,6 +334,41 @@ function loadCoporate() {
 
 //VND
 
+Exchange.vndGetAllSymbols = async function () {
+  let a = await fetch("https://finfo-api.vndirect.com.vn/v4/stocks?q=type:stock,ifc~floor:HOSE,HNX,UPCOM&size=9999", {
+    "headers": {
+      "content-type": "application/json",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "referrer": "https://dstock.vndirect.com.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors"
+  });
+
+  let z = await a.text()
+  
+  if (z.startsWith("{") && z.endsWith("}")) {
+  //   {
+  //     "code": "ENF",
+  //     "type": "IFC",
+  //     "floor": "UPCOM",
+  //     "status": "delisted",
+  //     "companyName": "Quỹ Đầu tư Năng động Eastspring Investments Việt Nam",
+  //     "companyNameEng": "Eastspring Investments Vietnam Navigator Fund",
+  //     "shortName": "Quỹ đầu tư ENF",
+  //     "listedDate": "2001-01-01",
+  //     "delistedDate": "2001-01-01",
+  //     "companyId": "3903"
+  // }
+    let js = JSON.parse(z);
+    return js.data.filter(e=>{return e.status == "listed"})
+  } else {
+    return null;
+  }
+}
 
 Exchange.ratios = async function (symbol) {
   //itemCode:51003,51016,51001,51002,51004,57066,51007,51006,51012,51033,51035
@@ -418,5 +453,14 @@ Exchange.financialIndicators = async function (symbol) {
     "mode": "cors",
     "credentials": "include",
     agent
+  });
+}
+
+
+Exchange.wait= function (ms) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(0);
+    }, ms);
   });
 }
