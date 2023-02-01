@@ -7,6 +7,7 @@ import draftlog from 'draftlog'
 import Table from "tty-table";
 import CliTable3 from "cli-table3";
 import chalk from "chalk";
+import path from "path";
 var logger = log4js.getLogger();
 
 
@@ -44,11 +45,11 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   console.log(listSymbol.length)
 
   let bs = {};
-  
- {
-  
- }
-  let asyncBatch = async () => {    
+
+  {
+
+  }
+  let asyncBatch = async () => {
     while (true) {
       let t = [2, 5, 10, 30, 60, 2 * 60, 3 * 60, 8 * 60]
       let from = t.map(e => {
@@ -76,10 +77,10 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
             if (stat.req - stat.res >= 200) {
               await wait(100);
             }
-           let a= {
-              sd:0,
-              bu:0,
-              uk:0
+            let a = {
+              sd: 0,
+              bu: 0,
+              uk: 0
             }
             let z = Exchange.transaction(symbol, 2000000);
             z.then(data => {
@@ -138,8 +139,8 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
                     }
                     e['delta' + t.at(i)] = delta.at(i) == undefined ? "" : delta.at(i);
                   });
-                  if(symbol == 'BID'){
-                    console.log(e,first,last)
+                  if (symbol == 'BID') {
+                    console.log(e, first, last)
                   }
                   table.push(e)
                 }
@@ -205,7 +206,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
           // let tb1 = clitable.toString();
           clitable = new CliTable3({ head: ['(Change2)', ...Object.keys(table[0])] })
 
-          table.slice(Math.max(table.length - 15,0), table.length).forEach((e, i) => {
+          table.slice(Math.max(table.length - 15, 0), table.length).forEach((e, i) => {
             clitable.push([i, ...coloring(e)]);
           })
           logger.info(clitable.toString())
@@ -236,15 +237,114 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
 
 
-async function processData(){
+async function processData() {
   let dir = "./trans/";
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
   }
-  let files = fs.readdirSync(dir);
-  console.log(files)
+  // let __dirname = fs.realpathSync('.');
+
+  let getAllFiles = (p, o) => {
+    let files = fs.readdirSync(p);
+    o = o || [];
+    files.forEach((f) => {
+      if (fs.statSync(p + "/" + f).isDirectory()) {
+        getAllFiles(p + "/" + f, o);
+      } else {
+        o.push(path.join(p, "/", f));
+      }
+    })
+
+
+  }
+  // let files = fs.readdirSync(dir);
+  let files = [];
+  getAllFiles(dir, files);
+  // console.log(files.at(-1))
+
+  // files.forEach();
+
+
+  processOne('./trans/20230201/HPG_trans.txt')
+
+
 }
 
+async function processOne(file) {
+
+  let data = fs.readFile(file, readHandler)
+  let strdate = file.substr(file.indexOf("trans/") + "trans/".length, 8)
+  strdate = strdate.slice(0, 4) + "-" + strdate.slice(4, 6) + "-" + strdate.slice(6);
+  function readHandler(err, buffer) {
+    let data = buffer.toString("utf8")
+      .split('\n')
+      .map(e => e.trim())
+      .map(e => e.split(',').map(e => e.trim()));
+    let head = data[0];
+    data = data.slice(1);
+    data = data.map(e => {
+      let x = {};
+      for (let i = 0; i < head.length; i++) {
+        if (e.length < head.length) {
+          continue;
+        }
+        x[head[i].replaceAll("\"", "")] = e[i].replaceAll("\"", "");
+        if (x.time != undefined) {
+          x.datetime = (new Date(strdate + "T" + x.time)).getTime();
+        }
+      }
+      return x;
+    })
+    data = data.reverse();
+    data = data.slice(1);
+    let newData = {};
+    let interval = 5 * 60 * 1000;
+
+    data.sort((a,b)=>{
+      let c =a.datetime - b.datetime;
+      return c < 0? -1: c> 0? 1:0
+     })
+    data.forEach((v, i) => {
+      let k = Math.floor(v.datetime / interval)*interval;
+      if (newData[k] == undefined) {
+        newData[k] = {};
+      }
+      let e = newData[k];
+      let p = +v.price;
+      console.log(p)
+      e.c = p;
+      if (e.h == undefined) {
+        e.h = p
+      }
+      if (e.l == undefined) {
+        e.l = p
+      }
+      if (e.h < p) {
+        e.h = p;
+      }
+      if (e.l > p) {
+        e.l = p;
+      }
+      if (e.o == undefined) {
+        e.o = p;
+      }      
+    });
+
+
+   let x= Object.keys(newData).map(k=>{ let e = newData[k]; e.datetime = +k; e.date = (new Date(+k)).toISOString(); return e})
+   x.sort((a,b)=>{
+    let c =a.datetime - b.datetime;
+    return c < 0? -1: c> 0? 1:0
+
+   })
+    console.table(x)
+    if (logger.isDebugEnabled)
+      logger.debug(data[0], data.at(-1));
+
+  }
+
+
+}
 
 function wait(ms) {
   return new Promise(resolve => {
