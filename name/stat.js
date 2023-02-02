@@ -21,7 +21,7 @@ function getNow() {
 
     let dto = Date.now() / 1000 + 7 * 60 * 60
     let dfrom = new Date(dto - 1 * 24 * 60 * 60);
-    let symbols = ['HPG', 'PLC', 'SHS', 'VIX', 'KSB', 'VN30', 'VNINDEX']
+    let symbols = ['HPG', 'VNINDEX']
     const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
     const logger = new Console({ stdout: ts })
 

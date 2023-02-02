@@ -54,11 +54,6 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   })
   console.log(listSymbol.length)
 
-  let bs = {};
-
-  {
-
-  }
   let asyncBatch = async () => {
     while (true) {
       let t = [2, 5, 10, 30, 60, 2 * 60, 3 * 60, 8 * 60]
@@ -254,6 +249,15 @@ async function processData() {
   }
   // let __dirname = fs.realpathSync('.');
 
+  let allSymbols = await Exchange.vndGetAllSymbols();
+
+  let symbolExchange = {};
+
+  allSymbols.forEach(v => {
+    symbolExchange[v.code] = v.floor;
+  });
+
+
   let getAllFiles = (p, o) => {
     let files = fs.readdirSync(p);
     o = o || [];
@@ -264,27 +268,177 @@ async function processData() {
         o.push(path.join(p, "/", f));
       }
     })
-
-
   }
+
+
+
   // let files = fs.readdirSync(dir);
   let files = [];
   getAllFiles(dir, files);
+  let mapFiles = {};
+  let t = fs.readdirSync(dir);
+  for (let p of t) {
+    let p2 = dir + "/" + p;
+    let pa = fs.readdirSync(p2);
+    mapFiles[p] = pa.map(e => { return (p2 + "/" + e).replaceAll("//", "/") })
+  }
+
+  // console.log(mapFiles)
   // console.log(files.at(-1))
+  // files.forEach((f) => {
+  //   // console.log(f)
+  //   try {
+  //     processOne(f, symbolExchange)
+  //   } catch (error) {
+  //     console.log(f, error)
+  //   }
+  // });
 
-  // files.forEach();
+  let dateKeys = Object.keys(mapFiles);
+  let datekey;
+  let p = { req: 0, res: 0 }
+  while ((datekey = dateKeys.pop()) != undefined) {
+    console.log(datekey)
+
+    files = mapFiles[datekey];
+    p.req++;
+    let out = {};
+    let promise = new Promise((resolve, reject) => {
+      let stat = { req: 0, res: 0 };
+      let length = files.length;
+      files.forEach(async (f) => {
+        try {
+          processOne(f, symbolExchange, out, stat, resolve, length)
+        } catch (error) {
+          console.log(f, error)
+        }
+        // console.log(stat.req, stat.res)
+        while (stat.req - stat.res >= 100) {
+          await wait(10);
+        }
+      });
+    })
 
 
-  processOne('./trans/20230202/HPG_trans.txt')
+    promise.then(res => {
+      p.res++;
+      // console.log(datekey, Object.keys(res),res)
+      // {
+      //   c: 9.59,
+      //   h: 9.59,
+      //   l: 9.59,
+      //   o: 9.59,
+      //   sd: 600,
+      //   val_sd: 5754000,
+      //   total_vol: 600,
+      //   sum_vol: 600,
+      //   val: 5754000,
+      //   datetime: 1675329300000,
+      //   date: '2023-02-02T09:15:00.000Z',
+      //   pbu: 0,
+      //   psd: 100,
+      //   puk: 0,
+      //   bs: 0,
+      //   sb: Infinity,
+      //   abu: 482.4,
+      //   asd: 1282.4,
+      //   auk: 70.6,
+      //   rsd: 0.5
+      // }
+      // let vnindex = {
+      //   c: 0,
+      //   h: 0,
+      //   l: 0,
+      //   o: 0,
+      //   sd: 0,
+      //   val_sd: 0,
+      //   total_vol: 0,
+      //   sum_vol: 0,
+      //   val: 0,
+      //   datetime: 0,
+      //   date: 0,
+      //   pbu: 0,
+      //   psd: 0,
+      //   puk: 0,
+      //   bs: 0,
+      //   sb: 0,
+      //   abu: 0,
+      //   asd: 0,
+      //   auk: 0,
+      //   rsd: 0
+      // }
+      let newData = {}
+
+      let pp = new Promise((resolve, reject) => {
+        let length = Object.keys(res).length;
+        // let res = 0; 
+        Object.keys(res).forEach((symbol, index) => {
+          let symbolData = res[symbol];
+          let count = 0;
+          if (symbolData.floor == 'HOSE') {
+            let x = symbolData.data;
+            x.forEach((v) => {
+              let k = v.datetime;
+
+              if (newData[k] == undefined) {
+                newData[k] = {};
+              }
+              let e = newData[k];
+              // e.sd = (e.sd == undefined) ? ((v.sd == undefined) ? 0 : v.sd) : e.sd + v.sd;
+              // e.bu = (e.bu == undefined) ? ((v.bu == undefined) ? 0 : v.bu) : e.bu + v.bu;
+              // e.uk = (e.uk == undefined) ? ((v.uk == undefined) ? 0 : v.uk) : e.uk + v.uk;
+              if(Number.isNaN(v.sd)){
+                console.log(v)
+              }
+
+              if(!Number.isNaN(e.sd)){
+                // console.log(e)
+              }else{
+                console.log("VVVVVVVVV",v, v.sd == undefined,e.sd)
+                return;
+              }              
+              if(e.sd == undefined){
+                if(v.sd == undefined) e.sd = 0;
+                else e.sd = +v.sd;
+              }else{
+                e.sd = e.sd + +v.sd;
+              }
+
+     
+              // logger.info("Val", e.sd, v.sd )
+              count++;
+            })
 
 
+          }
+          // res++;
+          // console.log(index,length,symbolData.floor,x.length,count)
+          if (index + 1 == length) {
+            console.table(newData)
+          }
+        })
+
+      });
+
+    });
+
+
+
+    while (p.req - p.res >= 1) {
+      await wait(100);
+    }
+  }
+  // console.log(mapFiles)
+  // processOne('./trans/20230202/HPG_trans.txt')
+  // processOne('trans/20221207/AAA_trans.txt')
 }
 
-async function processOne(file) {
-
+async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
+  stat.req++;
   let data = fs.readFile(file, readHandler)
-  let strdate = file.substr(file.indexOf("trans/") + "trans/".length, 8)
-  strdate = strdate.slice(0, 4) + "-" + strdate.slice(4, 6) + "-" + strdate.slice(6);
+  let strdate0 = file.substr(file.indexOf("trans/") + "trans/".length, 8)
+  let strdate = strdate0.slice(0, 4) + "-" + strdate0.slice(4, 6) + "-" + strdate0.slice(6);
+  let symbol = file.substr(file.lastIndexOf("/") + 1, 3);
   function readHandler(err, buffer) {
     let data = buffer.toString("utf8")
       .split('\n')
@@ -308,20 +462,24 @@ async function processOne(file) {
     data = data.reverse();
     data = data.slice(1);
     let newData = {};
-    let interval = 1 * 60 * 1000;
+    let interval = 5 * 60 * 1000;
 
     data.sort((a, b) => {
       let c = a.datetime - b.datetime;
       return c < 0 ? -1 : c > 0 ? 1 : 0
     })
     data.forEach((v, i) => {
+      // console.log(v)
       let k = Math.floor(v.datetime / interval) * interval;
+      if (Number.isNaN(k)) {
+        return;
+      }
       if (newData[k] == undefined) {
         newData[k] = {};
       }
       let e = newData[k];
       let p = +v.price;
-      console.log(v)
+      // console.log(v)
       e.c = p;
       if (e.h == undefined) e.h = p
       if (e.l == undefined) e.l = p
@@ -329,18 +487,28 @@ async function processOne(file) {
       if (e.l > p) e.l = p;
       if (e.o == undefined) e.o = p;
 
+      let val = +v.match_qtty * p * 1000;
       switch (v.side) {
         case 'bu':
           e.bu = (e.bu == undefined) ? +v.match_qtty : e.bu + +v.match_qtty;
+          e.val_bu = (e.val_bu == undefined) ? val : e.val_bu + val;
           break;
         case 'sd':
           e.sd = (e.sd == undefined) ? +v.match_qtty : e.sd + +v.match_qtty;
+          e.val_sd = (e.val_sd == undefined) ? val : e.val_sd + val;
           break;
         default:
           e.uk = (e.uk == undefined) ? +v.match_qtty : e.uk + +v.match_qtty;
+          e.val_uk = (e.val_uk == undefined) ? val : e.val_uk + val;
       }
       e.total_vol = +v.total_vol;
       e.sum_vol = (e.sum_vol == undefined) ? +v.match_qtty : e.sum_vol + +v.match_qtty
+      e.val = (e.val == undefined) ? val : e.val + val;
+
+      // "price","change","match_qtty","side","time","total_vol"
+      // 7.6,-0.39,371100,"unknown","14:45:01",3774200
+      // 7.61,-0.38,3000,"sd","14:30:10",3403100
+      // 7.61,-0.38,1000,"sd","14:29:59",3400100
 
     });
 
@@ -349,14 +517,17 @@ async function processOne(file) {
       return {
         uk: (a.uk == undefined ? 0 : a.uk) + (b.uk == undefined ? 0 : b.uk),
         bu: (a.bu == undefined ? 0 : a.bu) + (b.bu == undefined ? 0 : b.bu),
-        sd: (a.sd == undefined ? 0 : a.sd) + (b.sd == undefined ? 0 : b.sd)
+        sd: (a.sd == undefined ? 0 : a.sd) + (b.sd == undefined ? 0 : b.sd),
+        sum_vol: (a.sum_vol == undefined ? 0 : a.sum_vol) + (b.sum_vol == undefined ? 0 : b.sum_vol),
       }
-    }, { uk: 0, bu: 0, sd: 0 })
+    }, { uk: 0, bu: 0, sd: 0, sum_vol: 0 })
 
     let length = Object.values(newData).length;
-    console.log(avg)
+    // console.log(avg, file)
     let x = Object.keys(newData).map(k => {
-      let e = newData[k]; e.datetime = +k; e.date = (new Date(+k)).toISOString();
+      let e = newData[k];
+      // console.log(k,e)
+      e.datetime = +k; e.date = (new Date(+k)).toISOString();
       let uk = (e.uk == undefined ? 0 : e.uk);
       let bu = (e.bu == undefined ? 0 : e.bu);
       let sd = (e.sd == undefined ? 0 : e.sd);
@@ -375,28 +546,57 @@ async function processOne(file) {
       return e
     })
 
+    if (x.length == 0) {
+      stat.res++;
+      if (stat.res == totalFile) {
+        console.log(stat, totalFile)
+        resolve(out)
+      }
+      return;
+    }
     x.sort((a, b) => {
       let c = a.datetime - b.datetime;
       return c < 0 ? -1 : c > 0 ? 1 : 0
     })
     let strtable = getTable(x);
-    let as =strtable.split("\n");    
-    let header =  as[2] + "\n" + as[1] + "\n" + as[2];
+    let as = strtable.split("\n");
+    let header = as[2] + "\n" + as[1] + "\n" + as[2];
     let str = "";
-    as.forEach((l,i)=>{
-      str += l+"\n";
-      if(i > 3 && (i-3) % 20 == 0){
-        str += header+"\n";
+    as.forEach((l, i) => {
+      str += l + "\n";
+      if (i > 3 && (i - 3) % 20 == 0) {
+        str += header + "\n";
       }
     })
 
     // console.log(str)
-    console.log(as[1].charCodeAt(0),as[1][0])
-    logger.log(str);
-    console.table(x)
-    if (logger.isDebugEnabled)
-      logger.debug(data[0], data.at(-1));
+    // console.log(as[1].charCodeAt(0), as[1][0])
+    // logger.log(str);
+    // console.table(x)
+    // if (logger.isDebugEnabled)
+    // logger.debug(data[0], data.at(-1));
+    // console.table(symbol)
 
+    let dir = "./agg/" + strdate0 + "/";
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir);
+    } else {
+      // let files = fs.readdirSync(dir);
+      // for (const file of files) {
+      //   fs.unlinkSync(path.join(dir, file));
+      // }
+    }
+    let floor = symbolExchange[symbol];
+    if (floor == undefined) floor = "UKN";
+    fs.writeFileSync(dir + symbol + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
+    fs.writeFileSync(dir + symbol + "_" + floor + "_5p.json", JSON.stringify(x), (e) => { if (e) { console.log(e) } })
+    out[symbol] = { floor: floor, data: x };
+    // console.log(stat)
+    stat.res++;
+    if (stat.res == totalFile) {
+      console.log(stat, totalFile)
+      resolve(out)
+    }
   }
 
 
