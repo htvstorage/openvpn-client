@@ -9,6 +9,16 @@ import CliTable3 from "cli-table3";
 import chalk from "chalk";
 import path from "path";
 var logger = log4js.getLogger();
+import { Console } from 'node:console'
+import { Transform } from 'node:stream'
+
+const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
+const log = new Console({ stdout: ts })
+
+function getTable(data) {
+  log.table(data)
+  return (ts.read() || '').toString()
+}
 
 
 log4js.configure({
@@ -265,7 +275,7 @@ async function processData() {
   // files.forEach();
 
 
-  processOne('./trans/20230201/HPG_trans.txt')
+  processOne('./trans/20230202/HPG_trans.txt')
 
 
 }
@@ -298,45 +308,91 @@ async function processOne(file) {
     data = data.reverse();
     data = data.slice(1);
     let newData = {};
-    let interval = 5 * 60 * 1000;
+    let interval = 1 * 60 * 1000;
 
-    data.sort((a,b)=>{
-      let c =a.datetime - b.datetime;
-      return c < 0? -1: c> 0? 1:0
-     })
+    data.sort((a, b) => {
+      let c = a.datetime - b.datetime;
+      return c < 0 ? -1 : c > 0 ? 1 : 0
+    })
     data.forEach((v, i) => {
-      let k = Math.floor(v.datetime / interval)*interval;
+      let k = Math.floor(v.datetime / interval) * interval;
       if (newData[k] == undefined) {
         newData[k] = {};
       }
       let e = newData[k];
       let p = +v.price;
-      console.log(p)
+      console.log(v)
       e.c = p;
-      if (e.h == undefined) {
-        e.h = p
+      if (e.h == undefined) e.h = p
+      if (e.l == undefined) e.l = p
+      if (e.h < p) e.h = p;
+      if (e.l > p) e.l = p;
+      if (e.o == undefined) e.o = p;
+
+      switch (v.side) {
+        case 'bu':
+          e.bu = (e.bu == undefined) ? +v.match_qtty : e.bu + +v.match_qtty;
+          break;
+        case 'sd':
+          e.sd = (e.sd == undefined) ? +v.match_qtty : e.sd + +v.match_qtty;
+          break;
+        default:
+          e.uk = (e.uk == undefined) ? +v.match_qtty : e.uk + +v.match_qtty;
       }
-      if (e.l == undefined) {
-        e.l = p
-      }
-      if (e.h < p) {
-        e.h = p;
-      }
-      if (e.l > p) {
-        e.l = p;
-      }
-      if (e.o == undefined) {
-        e.o = p;
-      }      
+      e.total_vol = +v.total_vol;
+      e.sum_vol = (e.sum_vol == undefined) ? +v.match_qtty : e.sum_vol + +v.match_qtty
+
     });
 
 
-   let x= Object.keys(newData).map(k=>{ let e = newData[k]; e.datetime = +k; e.date = (new Date(+k)).toISOString(); return e})
-   x.sort((a,b)=>{
-    let c =a.datetime - b.datetime;
-    return c < 0? -1: c> 0? 1:0
+    let avg = Object.values(newData).reduce((a, b) => {
+      return {
+        uk: (a.uk == undefined ? 0 : a.uk) + (b.uk == undefined ? 0 : b.uk),
+        bu: (a.bu == undefined ? 0 : a.bu) + (b.bu == undefined ? 0 : b.bu),
+        sd: (a.sd == undefined ? 0 : a.sd) + (b.sd == undefined ? 0 : b.sd)
+      }
+    }, { uk: 0, bu: 0, sd: 0 })
 
-   })
+    let length = Object.values(newData).length;
+    console.log(avg)
+    let x = Object.keys(newData).map(k => {
+      let e = newData[k]; e.datetime = +k; e.date = (new Date(+k)).toISOString();
+      let uk = (e.uk == undefined ? 0 : e.uk);
+      let bu = (e.bu == undefined ? 0 : e.bu);
+      let sd = (e.sd == undefined ? 0 : e.sd);
+      let t = uk + bu + sd;
+      e.pbu = Math.round(bu / t * 1000) / 10
+      e.psd = Math.round(sd / t * 1000) / 10
+      e.puk = Math.round(uk / t * 1000) / 10
+      e.bs = Math.round(bu / sd * 10) / 10
+      e.sb = Math.round(sd / bu * 10) / 10
+      e.abu = Math.round(avg.bu / length * 10) / 10;
+      e.asd = Math.round(avg.sd / length * 10) / 10;
+      e.auk = Math.round(avg.uk / length * 10) / 10;
+      if (e.uk != undefined) e.ruk = Math.round(e.uk / e.auk * 10) / 10;
+      if (e.sd != undefined) e.rsd = Math.round(e.sd / e.asd * 10) / 10;
+      if (e.bu != undefined) e.rbu = Math.round(e.bu / e.abu * 10) / 10;
+      return e
+    })
+
+    x.sort((a, b) => {
+      let c = a.datetime - b.datetime;
+      return c < 0 ? -1 : c > 0 ? 1 : 0
+    })
+    let strtable = getTable(x);
+    let as =strtable.split("\n");    
+    let header =  as[2] + "\n" + as[1] + "\n" + as[2];
+    let str = "";
+    as.forEach((l,i)=>{
+      str += l+"\n";
+      if(i > 3 && (i-3) % 20 == 0){
+        str += header+"\n";
+      }
+    })
+
+    // console.log(str)
+    console.log(as[1].charCodeAt(0),as[1][0])
+    logger.log(str);
     console.table(x)
     if (logger.isDebugEnabled)
       logger.debug(data[0], data.at(-1));

@@ -42,39 +42,39 @@ function getNow() {
     }
 
     for (let symbol of symbols) {
-        let a = await  fetch("https://api-common-t19.24hmoney.vn/web-hook/open-api/tradingview/history?symbol=HPG&resolution=5&from_ts=1674809165&to_ts=1675250225", {
-            "headers": {
-              "accept": "*/*",
-              "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-              "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-              "sec-ch-ua-mobile": "?0",
-              "sec-fetch-dest": "empty",
-              "sec-fetch-mode": "cors",
-              "sec-fetch-site": "same-site"
-            },
-            "referrer": "https://24hmoney.vn/",
-            "referrerPolicy": "strict-origin-when-cross-origin",
-            "body": null,
-            "method": "GET",
-            "mode": "cors"
-          });
-
-        // let a = await fetch("https://histdatafeed.vps.com.vn/tradingview/history?symbol=" + symbol + "&resolution=5&from=" + dfrom + "&to=" + dto, {
+        // let a = await  fetch("https://api-common-t19.24hmoney.vn/web-hook/open-api/tradingview/history?symbol=HPG&resolution=1&from_ts=1674809165&to_ts=1675250225", {
         //     "headers": {
-        //         "accept": "*/*",
-        //         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-        //         "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-        //         "sec-ch-ua-mobile": "?0",
-        //         "sec-fetch-dest": "empty",
-        //         "sec-fetch-mode": "cors",
-        //         "sec-fetch-site": "same-site"
+        //       "accept": "*/*",
+        //       "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        //       "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        //       "sec-ch-ua-mobile": "?0",
+        //       "sec-fetch-dest": "empty",
+        //       "sec-fetch-mode": "cors",
+        //       "sec-fetch-site": "same-site"
         //     },
-        //     "referrer": "https://chart.vps.com.vn/",
+        //     "referrer": "https://24hmoney.vn/",
         //     "referrerPolicy": "strict-origin-when-cross-origin",
         //     "body": null,
         //     "method": "GET",
         //     "mode": "cors"
-        // });
+        //   });
+
+        let a = await fetch("https://histdatafeed.vps.com.vn/tradingview/history?symbol=" + symbol + "&resolution=1&from=" + dfrom + "&to=" + dto, {
+            "headers": {
+                "accept": "*/*",
+                "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+                "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site"
+            },
+            "referrer": "https://chart.vps.com.vn/",
+            "referrerPolicy": "strict-origin-when-cross-origin",
+            "body": null,
+            "method": "GET",
+            "mode": "cors"
+        });
 
 
         let z = await a.json()
