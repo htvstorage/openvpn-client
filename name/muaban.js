@@ -391,18 +391,16 @@ async function processData() {
                 console.log(v)
               }
 
-              if(!Number.isNaN(e.sd)){
+              if(!Number.isNaN(v.sd)){
                 // console.log(e)
               }else{
                 console.log("VVVVVVVVV",v, v.sd == undefined,e.sd)
                 return;
               }              
               if(e.sd == undefined){
-                if(v.sd == undefined) e.sd = 0;
-                else e.sd = +v.sd;
-              }else{
-                e.sd = e.sd + +v.sd;
+                e.sd = [];            
               }
+              e.sd.push(v.sd);
 
      
               // logger.info("Val", e.sd, v.sd )
