@@ -294,8 +294,8 @@ async function processData() {
   //     console.log(f, error)
   //   }
   // });
-
-  let dateKeys = ['20230203','20230202','20230201']//
+  let dateKeys = [];
+  // let dateKeys = ['20230203','20230202','20230201','20230131','20230130']//
   // let dateKeys = Object.keys(mapFiles);
   let datekey;
   let p = { req: 0, res: 0 }
@@ -421,13 +421,13 @@ async function processData() {
 
             let dir = "./vnindex/" + datekey + "/";
             if (!fs.existsSync(dir)) {
-              fs.mkdirSync(dir,{ recursive: true });
+              fs.mkdirSync(dir, { recursive: true });
             }
             console.table(str)
-            let floor = "HOSE";            
+            let floor = "HOSE";
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
-            
+
 
           }
         })
@@ -443,7 +443,7 @@ async function processData() {
     }
   }
   // console.log(mapFiles)
-  // processOne('./trans/20230202/HPG_trans.txt')
+  processOne('./trans/20230201/HPG_trans.txt', { HPG: 'HOSE' }, {}, { req: 0, res: 0 }, (a) => { }, 1)
   // processOne('trans/20221207/AAA_trans.txt')
 }
 
@@ -476,7 +476,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     data = data.reverse();
     data = data.slice(1);
     let newData = {};
-    let interval = 1 * 60 * 1000;
+    let interval = 5 * 60 * 1000;
 
     data.sort((a, b) => {
       let c = a.datetime - b.datetime;
@@ -522,13 +522,14 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
       accum.acum_val = (accum.acum_val == undefined) ? val : accum.acum_val + val;
       e.acum_val = accum.acum_val;
 
-
       // "price","change","match_qtty","side","time","total_vol"
       // 7.6,-0.39,371100,"unknown","14:45:01",3774200
       // 7.61,-0.38,3000,"sd","14:30:10",3403100
       // 7.61,-0.38,1000,"sd","14:29:59",3400100
 
     });
+
+
 
 
     let avg = Object.values(newData).reduce((a, b) => {
@@ -545,7 +546,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     let x = Object.keys(newData).map(k => {
       let e = newData[k];
       // console.log(k,e)
-      e.datetime = +k; e.date = (new Date(+k)).toISOString();
+      e.datetime = +k;
+      e.date = (new Date(+k)).toISOString();
       let uk = (e.uk == undefined ? 0 : e.uk);
       let bu = (e.bu == undefined ? 0 : e.bu);
       let sd = (e.sd == undefined ? 0 : e.sd);
@@ -561,6 +563,10 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
       if (e.uk != undefined) e.ruk = Math.round(e.uk / e.auk * 10) / 10;
       if (e.sd != undefined) e.rsd = Math.round(e.sd / e.asd * 10) / 10;
       if (e.bu != undefined) e.rbu = Math.round(e.bu / e.abu * 10) / 10;
+      let val_sd = ((e.val_sd == undefined) ? 0 : e.val_sd);
+      let val_bu = ((e.val_bu == undefined) ? 0 : e.val_bu);
+      e['bu-sd'] = bu - sd;
+      e['bu-sd_val'] = val_bu - val_sd;
       return e
     })
 
@@ -575,6 +581,13 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     x.sort((a, b) => {
       let c = a.datetime - b.datetime;
       return c < 0 ? -1 : c > 0 ? 1 : 0
+    })
+    accum = {};
+    x.forEach(e => {
+      accum.acum_busd = (accum.acum_busd == undefined) ? e['bu-sd'] : accum.acum_busd + e['bu-sd'];
+      accum.acum_busd_val = (accum.acum_busd_val == undefined) ? e['bu-sd_val'] : accum.acum_busd_val + e['bu-sd_val'];
+      e['acum_busd'] = accum.acum_busd;
+      e['acum_busd_val'] = accum.acum_busd_val;
     })
     let strtable = getTable(x);
     let as = strtable.split("\n");
