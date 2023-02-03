@@ -294,9 +294,9 @@ async function processData() {
   //     console.log(f, error)
   //   }
   // });
-  let dateKeys = [];
+  // let dateKeys = [];
   // let dateKeys = ['20230203','20230202','20230201','20230131','20230130']//
-  // let dateKeys = Object.keys(mapFiles);
+  let dateKeys = Object.keys(mapFiles);
   let datekey;
   let p = { req: 0, res: 0 }
   while ((datekey = dateKeys.pop()) != undefined) {
