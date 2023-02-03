@@ -11,6 +11,7 @@ import path from "path";
 var logger = log4js.getLogger();
 import { Console } from 'node:console'
 import { Transform } from 'node:stream'
+import { e } from "mathjs";
 
 const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
 const log = new Console({ stdout: ts })
@@ -294,7 +295,8 @@ async function processData() {
   //   }
   // });
 
-  let dateKeys = Object.keys(mapFiles);
+  let dateKeys = ['20230203','20230202','20230201']//
+  // let dateKeys = Object.keys(mapFiles);
   let datekey;
   let p = { req: 0, res: 0 }
   while ((datekey = dateKeys.pop()) != undefined) {
@@ -344,66 +346,34 @@ async function processData() {
       //   asd: 1282.4,
       //   auk: 70.6,
       //   rsd: 0.5
-      // }
-      // let vnindex = {
-      //   c: 0,
-      //   h: 0,
-      //   l: 0,
-      //   o: 0,
-      //   sd: 0,
-      //   val_sd: 0,
-      //   total_vol: 0,
-      //   sum_vol: 0,
-      //   val: 0,
-      //   datetime: 0,
-      //   date: 0,
-      //   pbu: 0,
-      //   psd: 0,
-      //   puk: 0,
-      //   bs: 0,
-      //   sb: 0,
-      //   abu: 0,
-      //   asd: 0,
-      //   auk: 0,
-      //   rsd: 0
-      // }
+      // }    
       let newData = {}
 
       let pp = new Promise((resolve, reject) => {
         let length = Object.keys(res).length;
         // let res = 0; 
+        let accum = 0;
         Object.keys(res).forEach((symbol, index) => {
           let symbolData = res[symbol];
           let count = 0;
           if (symbolData.floor == 'HOSE') {
             let x = symbolData.data;
+
+            // console.table(x)        
             x.forEach((v) => {
               let k = v.datetime;
 
               if (newData[k] == undefined) {
-                newData[k] = {};
+                newData[k] = { datetime: k };
               }
               let e = newData[k];
-              // e.sd = (e.sd == undefined) ? ((v.sd == undefined) ? 0 : v.sd) : e.sd + v.sd;
-              // e.bu = (e.bu == undefined) ? ((v.bu == undefined) ? 0 : v.bu) : e.bu + v.bu;
-              // e.uk = (e.uk == undefined) ? ((v.uk == undefined) ? 0 : v.uk) : e.uk + v.uk;
-              if(Number.isNaN(v.sd)){
-                console.log(v)
-              }
+              let prop = ['sd', 'bu', 'uk', 'val_sd', 'val_bu', 'val_uk', 'sum_vol', 'val']
 
-              if(!Number.isNaN(v.sd)){
-                // console.log(e)
-              }else{
-                console.log("VVVVVVVVV",v, v.sd == undefined,e.sd)
-                return;
-              }              
-              if(e.sd == undefined){
-                e.sd = [];            
-              }
-              e.sd.push(v.sd);
-
-     
-              // logger.info("Val", e.sd, v.sd )
+              prop.forEach(p => {
+                let vv = ((v[p] == undefined) ? 0 : v[p]);
+                e[p] = (e[p] == undefined) ? vv : e[p] + vv;
+              })
+              e.date = (new Date(k)).toISOString();
               count++;
             })
 
@@ -412,7 +382,53 @@ async function processData() {
           // res++;
           // console.log(index,length,symbolData.floor,x.length,count)
           if (index + 1 == length) {
-            console.table(newData)
+            let values = Object.values(newData);
+            values.sort((a, b) => {
+              let c = a.datetime - b.datetime;
+              return c < 0 ? -1 : c > 0 ? 1 : 0
+            })
+            let accum_val = 0;
+            let total_vol = 0;
+            let acum_busd = 0;
+            let acum_busd_val = 0;
+            values.forEach(e => {
+              accum_val += e.val == undefined ? 0 : e.val;
+              total_vol += e.sum_vol == undefined ? 0 : e.sum_vol;
+              acum_busd += e.bu - e.sd;
+              acum_busd_val += e.val_bu - e.val_sd;
+              e['acum_val'] = accum_val;
+              e['total_vol'] = total_vol;
+              e['bu-sd'] = e.bu - e.sd;
+              e['bu-sd_val'] = e.val_bu - e.val_sd;
+              e['acum_busd'] = acum_busd;
+              e['acum_busd_val'] = acum_busd_val;
+            })
+            let val = Object.values(newData).map(e => e.val).reduce((a, b) => a + b, 0);
+            let vol = Object.values(newData).map(e => e.sum_vol).reduce((a, b) => a + b, 0);
+            // console.log(val, vol)
+            // console.table(values)
+
+            let strtable = getTable(values);
+            let as = strtable.split("\n");
+            let header = as[2] + "\n" + as[1] + "\n" + as[2];
+            let str = "";
+            as.forEach((l, i) => {
+              str += l + "\n";
+              if (i > 3 && (i - 3) % 20 == 0) {
+                str += header + "\n";
+              }
+            })
+
+            let dir = "./vnindex/" + datekey + "/";
+            if (!fs.existsSync(dir)) {
+              fs.mkdirSync(dir,{ recursive: true });
+            }
+            console.table(str)
+            let floor = "HOSE";            
+            fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
+            fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
+            
+
           }
         })
 
@@ -460,12 +476,13 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     data = data.reverse();
     data = data.slice(1);
     let newData = {};
-    let interval = 5 * 60 * 1000;
+    let interval = 1 * 60 * 1000;
 
     data.sort((a, b) => {
       let c = a.datetime - b.datetime;
       return c < 0 ? -1 : c > 0 ? 1 : 0
     })
+    let accum = {};
     data.forEach((v, i) => {
       // console.log(v)
       let k = Math.floor(v.datetime / interval) * interval;
@@ -502,6 +519,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
       e.total_vol = +v.total_vol;
       e.sum_vol = (e.sum_vol == undefined) ? +v.match_qtty : e.sum_vol + +v.match_qtty
       e.val = (e.val == undefined) ? val : e.val + val;
+      accum.acum_val = (accum.acum_val == undefined) ? val : accum.acum_val + val;
+      e.acum_val = accum.acum_val;
+
 
       // "price","change","match_qtty","side","time","total_vol"
       // 7.6,-0.39,371100,"unknown","14:45:01",3774200
