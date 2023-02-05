@@ -478,6 +478,8 @@ async function processData() {
             writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_SD_" + datekey + ".xlsx", max.sd)
             console.log(table(max.bu));
             console.log(table(max.sd));
+            fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_TOP_SD_" + datekey + "_table.log", table(max.sd), (e) => { if (e) { console.log(e) } })
+            fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_TOP_BU_" + datekey + "_table.log", table(max.bu), (e) => { if (e) { console.log(e) } })
           }
         })
 
