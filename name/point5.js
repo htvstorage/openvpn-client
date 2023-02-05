@@ -3,6 +3,7 @@ import fetch from "node-fetch";
 import fs from "fs";
 import parser from "xml2json";
 import log4js from "log4js";
+import xlsx from "xlsx"
 //sudo apt-get install -y libatk-bridge2.0-0 libgtk-3.0 libasound2 libgbm-dev
 var logger = log4js.getLogger();
 
@@ -76,4 +77,23 @@ log4js.configure({
     console.log("====================== END " + f + " ======================");
     logger.log("====================== END " + f + " ======================");
   }
+
+  let table = [{name:"Hung",tuoi:45}]
+
+  // XLSX.utils.table_to_book(table);
+
+  let Headers = ['ChangeId', 'ChangeDescription', 'ChangeDate', 'Enhancement/Fix', 'ExcutorTeam'];
+let Data = ['INC1234', 'Multiple Cert cleanup', '04/07/2022', 'Enhancement', 'IlevelSupport'];
+
+let workbook = xlsx.utils.book_new();
+let worksheet = xlsx.utils.aoa_to_sheet([]);
+
+xlsx.utils.book_append_sheet(workbook, worksheet);
+
+xlsx.utils.sheet_add_aoa(worksheet, [Headers], { origin: 'A1' });
+xlsx.utils.sheet_add_aoa(worksheet, [Data], { origin: 'A2' });
+
+
+xlsx.writeFile(workbook, "Test.xlsx");
+console.log("written")
 })();

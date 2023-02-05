@@ -12,6 +12,7 @@ var logger = log4js.getLogger();
 import { Console } from 'node:console'
 import { Transform } from 'node:stream'
 import { e } from "mathjs";
+import xlsx from "xlsx"
 
 const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
 const log = new Console({ stdout: ts })
@@ -21,6 +22,12 @@ function getTable(data) {
   return (ts.read() || '').toString()
 }
 
+function writeArrayJson2Xlsx(filename, array) {
+  let workbook = xlsx.utils.book_new();
+  let worksheet = xlsx.utils.json_to_sheet(array);
+  xlsx.utils.book_append_sheet(workbook, worksheet);
+  xlsx.writeFile(workbook, filename);
+}
 
 log4js.configure({
   appenders: {
@@ -294,9 +301,9 @@ async function processData() {
   //     console.log(f, error)
   //   }
   // });
-  // let dateKeys = [];
+  let dateKeys = ['20230201'];
   // let dateKeys = ['20230203','20230202','20230201','20230131','20230130']//
-  let dateKeys = Object.keys(mapFiles);
+  // let dateKeys = Object.keys(mapFiles);
   let datekey;
   let p = { req: 0, res: 0 }
   while ((datekey = dateKeys.pop()) != undefined) {
@@ -427,7 +434,7 @@ async function processData() {
             let floor = "HOSE";
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
-
+            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_5p.xlsx", values)
 
           }
         })
@@ -446,6 +453,8 @@ async function processData() {
   processOne('./trans/20230201/HPG_trans.txt', { HPG: 'HOSE' }, {}, { req: 0, res: 0 }, (a) => { }, 1)
   // processOne('trans/20221207/AAA_trans.txt')
 }
+
+
 
 async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
   stat.req++;
@@ -483,6 +492,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
       return c < 0 ? -1 : c > 0 ? 1 : 0
     })
     let accum = {};
+    let max = { sd: [], bu: [] }
     data.forEach((v, i) => {
       // console.log(v)
       let k = Math.floor(v.datetime / interval) * interval;
@@ -507,10 +517,44 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
         case 'bu':
           e.bu = (e.bu == undefined) ? +v.match_qtty : e.bu + +v.match_qtty;
           e.val_bu = (e.val_bu == undefined) ? val : e.val_bu + val;
+          if (max.bu.length == 0) { v.count = 1; max.bu.push(v); }
+          else {
+            max.bu.every((el, i) => {
+              if (+v.match_qtty >= +el.match_qtty) {
+                v.count = max.bu[i].count +1;
+                max.bu[i] = v;
+                return false;   
+              } else {
+                if (i + 1 == max.bu.length && i + 1 <= 50) {
+                  v.count = 1;
+                  max.bu.push(v);
+                  return false;
+                }
+              }
+              return true;
+            });
+          }
           break;
         case 'sd':
           e.sd = (e.sd == undefined) ? +v.match_qtty : e.sd + +v.match_qtty;
           e.val_sd = (e.val_sd == undefined) ? val : e.val_sd + val;
+          if (max.sd.length == 0) { v.count = 1; max.sd.push(v); }
+          else {
+            max.sd.every((el, i) => {
+              if (+v.match_qtty >= +el.match_qtty) {
+                v.count = max.sd[i].count +1;
+                max.sd[i] = v;
+                return false;   
+              } else {
+                if (i + 1 == max.sd.length && i + 1 <= 50) {
+                  v.count = 1;
+                  max.sd.push(v);
+                  return false;
+                }
+              }
+              return true;
+            });
+          }
           break;
         default:
           e.uk = (e.uk == undefined) ? +v.match_qtty : e.uk + +v.match_qtty;
@@ -621,8 +665,10 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     if (floor == undefined) floor = "UKN";
     fs.writeFileSync(dir + symbol + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
     fs.writeFileSync(dir + symbol + "_" + floor + "_5p.json", JSON.stringify(x), (e) => { if (e) { console.log(e) } })
-    out[symbol] = { floor: floor, data: x };
-    // console.log(stat)
+    out[symbol] = { floor: floor, data: x, max: max };
+    console.log(symbol)
+    console.table(max.sd)
+    console.table(max.bu)
     stat.res++;
     if (stat.res == totalFile) {
       console.log(stat, totalFile)
