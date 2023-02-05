@@ -474,8 +474,8 @@ async function processData() {
               })
               return str;
             }
-            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_" + datekey + ".xlsx", max.bu)
-            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_" + datekey + ".xlsx", max.sd)
+            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_BU_" + datekey + ".xlsx", max.bu)
+            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_SD_" + datekey + ".xlsx", max.sd)
             console.log(table(max.bu));
             console.log(table(max.sd));
           }
