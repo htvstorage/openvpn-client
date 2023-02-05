@@ -300,10 +300,10 @@ async function processData() {
   //   } catch (error) {
   //     console.log(f, error)
   //   }
-  // });
-  let dateKeys = ['20230201'];
+  // // });
+  // let dateKeys = ['20230201'];
   // let dateKeys = ['20230203','20230202','20230201','20230131','20230130']//
-  // let dateKeys = Object.keys(mapFiles);
+  let dateKeys = Object.keys(mapFiles);
   let datekey;
   let p = { req: 0, res: 0 }
   while ((datekey = dateKeys.pop()) != undefined) {
@@ -434,7 +434,7 @@ async function processData() {
             let floor = "HOSE";
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
-            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_5p.xlsx", values)
+            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_5p_"+datekey+".xlsx", values)
 
           }
         })
@@ -450,7 +450,7 @@ async function processData() {
     }
   }
   // console.log(mapFiles)
-  processOne('./trans/20230201/HPG_trans.txt', { HPG: 'HOSE' }, {}, { req: 0, res: 0 }, (a) => { }, 1)
+  // processOne('./trans/20230201/HPG_trans.txt', { HPG: 'HOSE' }, {}, { req: 0, res: 0 }, (a) => { }, 1)
   // processOne('trans/20221207/AAA_trans.txt')
 }
 
@@ -666,9 +666,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     fs.writeFileSync(dir + symbol + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
     fs.writeFileSync(dir + symbol + "_" + floor + "_5p.json", JSON.stringify(x), (e) => { if (e) { console.log(e) } })
     out[symbol] = { floor: floor, data: x, max: max };
-    console.log(symbol)
-    console.table(max.sd)
-    console.table(max.bu)
+    // console.log(symbol)
+    // console.table(max.sd)
+    // console.table(max.bu)
     stat.res++;
     if (stat.res == totalFile) {
       console.log(stat, totalFile)
