@@ -301,9 +301,9 @@ async function processData() {
   //     console.log(f, error)
   //   }
   // // });
-  // let dateKeys = ['20230201'];
+  let dateKeys = ['20230201'];
   // let dateKeys = ['20230203','20230202','20230201','20230131','20230130']//
-  let dateKeys = Object.keys(mapFiles);
+  // let dateKeys = Object.keys(mapFiles);
   let datekey;
   let p = { req: 0, res: 0 }
   while ((datekey = dateKeys.pop()) != undefined) {
@@ -355,7 +355,7 @@ async function processData() {
       //   rsd: 0.5
       // }    
       let newData = {}
-
+      let max = { sd: [], bu: [] };
       let pp = new Promise((resolve, reject) => {
         let length = Object.keys(res).length;
         // let res = 0; 
@@ -384,7 +384,18 @@ async function processData() {
               count++;
             })
 
+            let m = symbolData.max;
+            m.sd.every(sd => {
+              sd.symbol = symbol;
+              max.sd.push(sd);
+              return true;
+            })
 
+            m.bu.every(bu => {
+              bu.symbol = symbol;
+              max.bu.push(bu);
+              return true;
+            });
           }
           // res++;
           // console.log(index,length,symbolData.floor,x.length,count)
@@ -434,8 +445,39 @@ async function processData() {
             let floor = "HOSE";
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
-            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_5p_"+datekey+".xlsx", values)
+            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_5p_" + datekey + ".xlsx", values)
 
+
+            //max
+            max.bu.sort((a, b) => {
+              let c = a.datetime - b.datetime;
+              let x = +a.match_qtty - +b.match_qtty;
+              return c < 0 ? -1 : c > 0 ? 1 : (x < 0 ? 1 : x > 0 ? -1 : 0);
+            })
+
+            max.sd.sort((a, b) => {
+              let c = a.datetime - b.datetime;
+              let x = +a.match_qtty - +b.match_qtty;
+              return c < 0 ? -1 : c > 0 ? 1 : (x < 0 ? 1 : x > 0 ? -1 : 0);
+            })
+            // console.table(max.bu);
+            function table(x){
+              let xstr = getTable(x);
+              let xas = xstr.split("\n");
+              let xheader = xas[2] + "\n" + xas[1] + "\n" + xas[2];
+              let str = "";
+              xas.forEach((l, i) => {
+                str += l + "\n";
+                if (i > 3 && (i - 3) % 20 == 0) {
+                  str += xheader + "\n";
+                }
+              })
+              return str;
+            }
+            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_" + datekey + ".xlsx", max.bu)
+            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_" + datekey + ".xlsx", max.sd)
+            console.log(table(max.bu));
+            console.log(table(max.sd));
           }
         })
 
@@ -521,9 +563,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
           else {
             max.bu.every((el, i) => {
               if (+v.match_qtty >= +el.match_qtty) {
-                v.count = max.bu[i].count +1;
+                v.count = max.bu[i].count + 1;
                 max.bu[i] = v;
-                return false;   
+                return false;
               } else {
                 if (i + 1 == max.bu.length && i + 1 <= 50) {
                   v.count = 1;
@@ -542,9 +584,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
           else {
             max.sd.every((el, i) => {
               if (+v.match_qtty >= +el.match_qtty) {
-                v.count = max.sd[i].count +1;
+                v.count = max.sd[i].count + 1;
                 max.sd[i] = v;
-                return false;   
+                return false;
               } else {
                 if (i + 1 == max.sd.length && i + 1 <= 50) {
                   v.count = 1;
