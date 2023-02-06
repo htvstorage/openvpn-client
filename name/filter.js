@@ -8,7 +8,25 @@ import path from "path";
 import { Symbol, Stock } from "./StockData.js";
 import { Exchange } from "./Exchange.js";
 import { filter } from "mathjs";
+import { Console } from 'node:console'
+import { Transform } from 'node:stream'
+import { e } from "mathjs";
+import xlsx from "xlsx"
 
+const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
+const log = new Console({ stdout: ts })
+
+function getTable(data) {
+  log.table(data)
+  return (ts.read() || '').toString()
+}
+
+function writeArrayJson2Xlsx(filename, array) {
+  let workbook = xlsx.utils.book_new();
+  let worksheet = xlsx.utils.json_to_sheet(array);
+  xlsx.utils.book_append_sheet(workbook, worksheet);
+  xlsx.writeFile(workbook, filename);
+}
 
 var logger = log4js.getLogger();
 
@@ -214,6 +232,30 @@ async function industry() {
   let ret = await promise;
 
   console.table(ret)
+
+
+  let strtable = getTable(ret);
+  let as = strtable.split("\n");
+  let header = as[2] + "\n" + as[1] + "\n" + as[2];
+  let str = "";
+  as.forEach((l, i) => {
+    str += l + "\n";
+    if (i > 3 && (i - 3) % 20 == 0) {
+      str += header + "\n";
+    }
+  })
+
+  dir = "./filter/";
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+  console.table(str)
+  let floor = "HOSE";
+  fs.writeFileSync(dir + "Filter" + "_table.log", str, (e) => { if (e) { console.log(e) } })
+  fs.writeFileSync(dir + "Filter" + "_5p.json", JSON.stringify(ret), (e) => { if (e) { console.log(e) } })
+  writeArrayJson2Xlsx(dir + "Filter" + "_5p_" + ".xlsx", Object.values(ret))
+
+
   fs.writeFile("NDTNN.json", JSON.stringify(ret), e => { });
 })();
 
