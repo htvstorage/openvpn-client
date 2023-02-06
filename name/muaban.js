@@ -353,9 +353,12 @@ async function processData() {
       //   asd: 1282.4,
       //   auk: 70.6,
       //   rsd: 0.5
-      // }    
+      // }      
+
       let newData = {}
       let max = { sd: [], bu: [] };
+      let top = {};
+
       let pp = new Promise((resolve, reject) => {
         let length = Object.keys(res).length;
         // let res = 0; 
@@ -396,8 +399,30 @@ async function processData() {
               max.bu.push(bu);
               return true;
             });
+
+            let t = symbolData.top;
+            Object.keys(t).forEach((k) => {
+              let tk = t[k];
+              tk.topbu.forEach(e => {
+                e.vol = e.count * (+e.match_qtty)
+                e.symbol = symbol;
+                e.key = k;
+              })
+              tk.topsd.forEach(e => {
+                e.vol = e.count * (+e.match_qtty)
+                e.symbol = symbol;
+                e.key = k;
+              })
+              tk.key = k;
+
+              if (top[k] == undefined) top[k] = { ...tk };
+              else {
+                top[k].topbu.push(...tk.topbu)
+                top[k].topsd.push(...tk.topsd)
+              }
+            });
+
           }
-          // res++;
           // console.log(index,length,symbolData.floor,x.length,count)
           if (index + 1 == length) {
             let values = Object.values(newData);
@@ -461,7 +486,7 @@ async function processData() {
               return c < 0 ? -1 : c > 0 ? 1 : (x < 0 ? 1 : x > 0 ? -1 : 0);
             })
             // console.table(max.bu);
-            function table(x){
+            function table(x) {
               let xstr = getTable(x);
               let xas = xstr.split("\n");
               let xheader = xas[2] + "\n" + xas[1] + "\n" + xas[2];
@@ -478,6 +503,18 @@ async function processData() {
             writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_SD_" + datekey + ".xlsx", max.sd)
             console.log(table(max.bu));
             console.log(table(max.sd));
+            let topValues = Object.values(top).sort((a, b) => {
+              let c = a.key - b.key;
+              return c < 0 ? -1 : c > 0 ? 1 : 0;
+            })
+            function sort(a,b){
+              let c = a.vol - b.vol;
+              return c < 0? -1: c> 0? 1:0;
+            }
+            topValues.forEach(t=>{
+              console.table(t.topsd.sort(sort));
+              console.table(t.topbu.sort(sort));
+            })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_TOP_SD_" + datekey + "_table.log", table(max.sd), (e) => { if (e) { console.log(e) } })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_TOP_BU_" + datekey + "_table.log", table(max.bu), (e) => { if (e) { console.log(e) } })
           }
@@ -494,7 +531,7 @@ async function processData() {
     }
   }
   // console.log(mapFiles)
-  // processOne('./trans/20230201/HPG_trans.txt', { HPG: 'HOSE' }, {}, { req: 0, res: 0 }, (a) => { }, 1)
+  processOne('./trans/20230206/HPG_trans.txt', { HPG: 'HOSE' }, {}, { req: 0, res: 0 }, (a) => { }, 1)
   // processOne('trans/20221207/AAA_trans.txt')
 }
 
@@ -502,6 +539,10 @@ async function processData() {
 
 async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
   stat.req++;
+  let maxTopInterval = 10;
+  let maxTopAll = 50;
+  let interval = 5 * 60 * 1000;
+
   let data = fs.readFile(file, readHandler)
   let strdate0 = file.substr(file.indexOf("trans/") + "trans/".length, 8)
   let strdate = strdate0.slice(0, 4) + "-" + strdate0.slice(4, 6) + "-" + strdate0.slice(6);
@@ -528,15 +569,19 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     })
     data = data.reverse();
     data = data.slice(1);
-    let newData = {};
-    let interval = 5 * 60 * 1000;
+
+
 
     data.sort((a, b) => {
       let c = a.datetime - b.datetime;
       return c < 0 ? -1 : c > 0 ? 1 : 0
     })
+
+    let newData = {};
     let accum = {};
     let max = { sd: [], bu: [] }
+    let top = {};
+
     data.forEach((v, i) => {
       // console.log(v)
       let k = Math.floor(v.datetime / interval) * interval;
@@ -546,6 +591,11 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
       if (newData[k] == undefined) {
         newData[k] = {};
       }
+
+      if (top[k] == undefined) {
+        top[k] = { topsd: [], topbu: [] }
+      }
+      let te = top[k];
       let e = newData[k];
       let p = +v.price;
       // console.log(v)
@@ -569,9 +619,27 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
                 max.bu[i] = v;
                 return false;
               } else {
-                if (i + 1 == max.bu.length && i + 1 <= 50) {
+                if (i + 1 == max.bu.length && i + 1 <= maxTopAll) {
                   v.count = 1;
                   max.bu.push(v);
+                  return false;
+                }
+              }
+              return true;
+            });
+          }
+
+          if (te.topbu.length == 0) { let nn = { ...v }; nn.count = 1; te.topbu.push(nn) }
+          else {
+            te.topbu.every((el, i) => {
+              if (+v.match_qtty >= +el.match_qtty) {
+                let nn = { ...v };
+                nn.count = te.topbu[i].count + 1;
+                te.topbu[i] = nn;
+                return false;
+              } else {
+                if (i + 1 == te.topbu.length && i + 1 <= maxTopInterval) {
+                  let nn = { ...v }; nn.count = 1; te.topbu.push(nn)
                   return false;
                 }
               }
@@ -590,9 +658,27 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
                 max.sd[i] = v;
                 return false;
               } else {
-                if (i + 1 == max.sd.length && i + 1 <= 50) {
+                if (i + 1 == max.sd.length && i + 1 <= maxTopAll) {
                   v.count = 1;
                   max.sd.push(v);
+                  return false;
+                }
+              }
+              return true;
+            });
+          }
+
+          if (te.topsd.length == 0) { let nn = { ...v }; nn.count = 1; te.topsd.push(nn) }
+          else {
+            te.topsd.every((el, i) => {
+              if (+v.match_qtty >= +el.match_qtty) {
+                let nn = { ...v };
+                nn.count = te.topsd[i].count + 1;
+                te.topsd[i] = nn;
+                return false;
+              } else {
+                if (i + 1 == te.topsd.length && i + 1 <= maxTopInterval) {
+                  let nn = { ...v }; nn.count = 1; te.topsd.push(nn)
                   return false;
                 }
               }
@@ -688,10 +774,13 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
       }
     })
 
-    // console.log(str)
-    // console.log(as[1].charCodeAt(0), as[1][0])
-    // logger.log(str);
     // console.table(x)
+
+    function sort(a, b) {
+      let c = a.datetime - b.datetime;
+      return c < 0 ? -1 : c > 0 ? 1 : 0
+    };
+    // Object.values(top).map(e => { console.table(e.topsd.sort(sort)); console.table(e.topbu.sort(sort)); })
     // if (logger.isDebugEnabled)
     // logger.debug(data[0], data.at(-1));
     // console.table(symbol)
@@ -699,17 +788,12 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     let dir = "./agg/" + strdate0 + "/";
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir);
-    } else {
-      // let files = fs.readdirSync(dir);
-      // for (const file of files) {
-      //   fs.unlinkSync(path.join(dir, file));
-      // }
     }
     let floor = symbolExchange[symbol];
     if (floor == undefined) floor = "UKN";
     fs.writeFileSync(dir + symbol + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
     fs.writeFileSync(dir + symbol + "_" + floor + "_5p.json", JSON.stringify(x), (e) => { if (e) { console.log(e) } })
-    out[symbol] = { floor: floor, data: x, max: max };
+    out[symbol] = { floor: floor, data: x, max: max, top: top };
     // console.log(symbol)
     // console.table(max.sd)
     // console.table(max.bu)
