@@ -349,26 +349,211 @@ Exchange.vndGetAllSymbols = async function () {
   });
 
   let z = await a.text()
-  
+
   if (z.startsWith("{") && z.endsWith("}")) {
-  //   {
-  //     "code": "ENF",
-  //     "type": "IFC",
-  //     "floor": "UPCOM",
-  //     "status": "delisted",
-  //     "companyName": "Quỹ Đầu tư Năng động Eastspring Investments Việt Nam",
-  //     "companyNameEng": "Eastspring Investments Vietnam Navigator Fund",
-  //     "shortName": "Quỹ đầu tư ENF",
-  //     "listedDate": "2001-01-01",
-  //     "delistedDate": "2001-01-01",
-  //     "companyId": "3903"
-  // }
+    //   {
+    //     "code": "ENF",
+    //     "type": "IFC",
+    //     "floor": "UPCOM",
+    //     "status": "delisted",
+    //     "companyName": "Quỹ Đầu tư Năng động Eastspring Investments Việt Nam",
+    //     "companyNameEng": "Eastspring Investments Vietnam Navigator Fund",
+    //     "shortName": "Quỹ đầu tư ENF",
+    //     "listedDate": "2001-01-01",
+    //     "delistedDate": "2001-01-01",
+    //     "companyId": "3903"
+    // }
     let js = JSON.parse(z);
-    return js.data.filter(e=>{return e.status == "listed"})
+    return js.data.filter(e => { return e.status == "listed" })
   } else {
     return null;
   }
 }
+
+Exchange.vndIndustryClassification = async () => {
+
+  let a = await fetch("https://finfo-api.vndirect.com.vn/v4/industry_classification?q=industryLevel:2", {
+    "headers": {
+      "content-type": "application/json",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "referrer": "https://dstock.vndirect.com.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors",
+    agent
+  });
+
+  let z = await a.text();
+  if (z.startsWith("{") && z.endsWith("}")) {
+    return JSON.parse(z).data;
+  }
+  return {};
+}
+Exchange.vndIndustryPE = async () => {
+  let a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=code:0500,1300,1700,2300,2700,3300,3500,3700,4500,5300,5500,5700,6500,7500,8300,8500,8600,8700,9500&where=ratioCode:PRICE_TO_EARNINGS~group:INDUSTRY&order=reportDate", {
+    "headers": {
+      "content-type": "application/json",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "referrer": "https://dstock.vndirect.com.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors",
+    agent
+  });
+  let z = await a.text();
+  if (z.startsWith("{") && z.endsWith("}")) {
+    return JSON.parse(z).data;
+  }
+  return {};
+}
+
+Exchange.vndIndustryPB = async () => {
+  let a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=code:0500,1300,1700,2300,2700,3300,3500,3700,4500,5300,5500,5700,6500,7500,8300,8500,8600,8700,9500&where=ratioCode:PRICE_TO_BOOK~group:INDUSTRY&order=reportDate", {
+    "headers": {
+      "content-type": "application/json",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "referrer": "https://dstock.vndirect.com.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors",
+    agent
+  });
+  
+  let z = await a.text();  
+  if (z.startsWith("{") && z.endsWith("}")) {
+    return JSON.parse(z).data;
+  }
+  return {};
+}
+Exchange.vndIndustryRatio = async (code) => {
+
+
+  let a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=itemCode:51003,51016,51001,51002,51004,57066,51007,51006,51012,51033,51035,&where=code:" + code + "~reportDate:gt:2022-12-23&order=reportDate&fields=itemCode,value", {
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "content-type": "application/json",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "referrer": "https://dstock.vndirect.com.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors",
+    agent
+  });
+  let z = await a.text();
+  // console.log("zzzz",z)
+  let out = [];
+  if (z.startsWith("{") && z.endsWith("}")) {
+    out = [...JSON.parse(z).data];
+  }else{
+    console.log("Error ",code,z)
+  }
+
+  a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=itemCode:52002,52001,53007,&where=code:HPG~reportDate:gt:2022-09-24&order=reportDate&fields=itemCode,value", {
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "content-type": "application/json",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "referrer": "https://dstock.vndirect.com.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors",
+    agent
+  });
+  z = await a.text();
+
+  if (z.startsWith("{") && z.endsWith("}")) {
+    out.push(...JSON.parse(z).data);
+  }else{
+    console.log("Error ",code)
+  }
+  // '51003': VONHOA
+  // '51016': KLGDTB10P
+  // '51001': MAX52T
+  // '51002': MIN52T
+  // '51004': CPLH
+  // '57066': FREEFL
+  // '51007': BETA
+  // '51006': PE
+  // '51012': PB
+  // '51033': COTUC
+  // '51035': BVPS
+  // '52002': ROAE
+  // '52001': ROAA
+  // '53007': EPS
+
+  let map = {
+    '51003': 'VONHOA',
+    '51016': 'KLGDTB10P',
+    '51001': 'MAX52T',
+    '51002': 'MIN52T',
+    '51004': 'CPLH',
+    '57066': 'FREEFL',
+    '51007': 'BETA',
+    '51006': 'PE',
+    '51012': 'PB',
+    '51033': 'COTUC',
+    '51035': 'BVPS',
+    '52002': 'ROAE',
+    '52001': 'ROAA',
+    '53007': 'EPS'
+  }
+  let out2 = {};
+  out.forEach(v=>{
+    out2[map[v.itemCode]] = v.value;
+  })
+  // console.table([out2])
+  out2.symbol = code;
+  return out2;
+}
+
+
+
+Exchange.vndRatio =async ()=>{
+
+  let a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?where=reportDate:gt:2022-12-23~itemCode:51012,51006&filter=code:HPG,HSG,TVN,NKG,DTL,POM,TMG,CKD,TIS,SMC,TLH,VGS,TKU,TTS,CBI,HMC,TNB,VGL,VCA,TNI,TDS,MEL,CKA,NSH,BCA,KMT,KVC,ITQ,HSV,TNS,KCB,KKC,DPS,HLA&order=reportDate", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+    "content-type": "application/json",
+    "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site"
+  },
+  "referrer": "https://dstock.vndirect.com.vn/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors"
+});
+
+z = await a.json()
+}
+
 
 Exchange.ratios = async function (symbol) {
   //itemCode:51003,51016,51001,51002,51004,57066,51007,51006,51012,51033,51035
@@ -457,7 +642,7 @@ Exchange.financialIndicators = async function (symbol) {
 }
 
 
-Exchange.wait= function (ms) {
+Exchange.wait = function (ms) {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve(0);
