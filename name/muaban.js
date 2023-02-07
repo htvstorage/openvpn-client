@@ -301,7 +301,7 @@ async function processData() {
   //     console.log(f, error)
   //   }
   // // });
-  let dateKeys = ['20230201'];
+  let dateKeys = ['20230207'];
   // let dateKeys = ['20230203','20230202','20230201','20230131','20230130']//
   // let dateKeys = Object.keys(mapFiles);
   let datekey;
@@ -466,7 +466,7 @@ async function processData() {
             if (!fs.existsSync(dir)) {
               fs.mkdirSync(dir, { recursive: true });
             }
-            console.table(str)
+            // console.table(str)
             let floor = "HOSE";
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
@@ -501,20 +501,20 @@ async function processData() {
             }
             writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_BU_" + datekey + ".xlsx", max.bu)
             writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_SD_" + datekey + ".xlsx", max.sd)
-            console.log(table(max.bu));
-            console.log(table(max.sd));
+            // console.log(table(max.bu));
+            // console.log(table(max.sd));
             let topValues = Object.values(top).sort((a, b) => {
               let c = a.key - b.key;
               return c < 0 ? -1 : c > 0 ? 1 : 0;
             })
-            function sort(a,b){
+            function sort(a, b) {
               let c = a.vol - b.vol;
-              return c < 0? -1: c> 0? 1:0;
+              return c < 0 ? -1 : c > 0 ? 1 : 0;
             }
-            topValues.forEach(t=>{
-              console.table(t.topsd.sort(sort));
-              console.table(t.topbu.sort(sort));
-            })
+            // topValues.forEach(t => {
+            //   console.table(t.topsd.sort(sort));
+            //   console.table(t.topbu.sort(sort));
+            // })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_TOP_SD_" + datekey + "_table.log", table(max.sd), (e) => { if (e) { console.log(e) } })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_TOP_BU_" + datekey + "_table.log", table(max.bu), (e) => { if (e) { console.log(e) } })
           }
@@ -531,7 +531,7 @@ async function processData() {
     }
   }
   // console.log(mapFiles)
-  processOne('./trans/20230206/HPG_trans.txt', { HPG: 'HOSE' }, {}, { req: 0, res: 0 }, (a) => { }, 1)
+  // processOne('./trans/20230206/HPG_trans.txt', { HPG: 'HOSE' }, {}, { req: 0, res: 0 }, (a) => { }, 1)
   // processOne('trans/20221207/AAA_trans.txt')
 }
 
@@ -793,6 +793,10 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     if (floor == undefined) floor = "UKN";
     fs.writeFileSync(dir + symbol + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
     fs.writeFileSync(dir + symbol + "_" + floor + "_5p.json", JSON.stringify(x), (e) => { if (e) { console.log(e) } })
+    writeArrayJson2Xlsx(dir + symbol + "_" + floor + "_" + strdate0 + "_1N.xls", x)
+    let csv = new Parser({ fields: ["abu","acum_busd","acum_busd_val","acum_val","asd","auk","bs","bu","bu-sd","bu-sd_val","c","date","datetime","h","l","o","pbu","psd","puk","rbu","rsd","ruk","sb","sd","sum_vol","total_vol","uk","val","val_bu","val_sd","val_uk"] });
+    let data2 = csv.parse(x);
+    fs.writeFileSync(dir + symbol + "_" + floor + "_1N.csv", data2+"\n", (e) => { if (e) { console.log(e) } })
     out[symbol] = { floor: floor, data: x, max: max, top: top };
     // console.log(symbol)
     // console.table(max.sd)

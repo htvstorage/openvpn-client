@@ -1,0 +1,4 @@
+   79  for x in `ls agg/*/HPG*table.log`; do echo $x; tail -n1 $x; done >> HPG.log
+   80  for x in `ls agg/*/HPG*table.log`; do echo $x; tail -n2 $x; done > HPG.log
+   81  for x in `ls agg/*/HPG*table.log`; do echo $x; tail -n3 $x; done > HPG.log
+   82  for x in `ls agg/*/HPG*csv`; do echo $x; tail -n3 $x; done > HPG.log
