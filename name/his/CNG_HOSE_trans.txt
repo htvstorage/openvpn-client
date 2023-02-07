@@ -1,5 +1,5 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,1300,34585616,0,11252767,"2023-02-07T00:00:00",18500,26.60432,26.6,26.5,26.75,26.5,26.6,,,,0,0,0,0,0,0,"CNG",492179920
+1,0,2100,55752207,0,11251967,"2023-02-07T00:00:00",37700,26.548669999999998,26.6,26.45,26.75,26.25,26.6,,,,0,0,0,100,2654867,0,"CNG",1000884859
 1,140,0,0,143006,11252667,"2023-02-06T00:00:00",61500,26.55772,26.95,26.6,26.8,26.2,26.8,0,0,0,0,0,129,3700,98690000,207167,"CNG",1633299780
 1,152,8200,222540000,160823,11251767,"2023-02-03T00:00:00",64900,26.997,26.95,26.95,27.3,26.85,27.3,0,0,0,0,0,149,4100,111050000,211519,"CNG",1752105300
 1,186,0,0,243422,11259967,"2023-02-02T00:00:00",84000,26.84381,27.25,26.95,27.3,26.6,27,0,0,0,0,0,211,1400,37790000,261563,"CNG",2254880040

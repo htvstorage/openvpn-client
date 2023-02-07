@@ -1,5 +1,5 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,26000,267108400,0,31892906,"2023-02-07T00:00:00",224100,10.273399999999999,10.2,10.15,10.45,10.1,10.4,,,,0,0,0,1000,10273400,0,"VIP",2302268940
+1,0,26500,268268510,0,31892406,"2023-02-07T00:00:00",594700,10.12334,10.2,10,10.45,9.95,10.4,,,,0,0,0,1000,10123340,0,"VIP",6020350298
 1,478,44100,438770000,1065154,31918906,"2023-02-06T00:00:00",465600,9.93017,9.63,10.2,10.25,9.65,9.65,0,0,0,0,0,411,0,0,1195572,"VIP",4623487152
 1,393,54600,525530000,871217,31963006,"2023-02-03T00:00:00",496900,9.63041,9.63,9.63,9.84,9.59,9.84,0,0,0,0,0,269,0,0,750653,"VIP",4785350729
 1,695,1500,14420000,1690632,32017606,"2023-02-02T00:00:00",724900,9.55552,9.65,9.63,9.8,9.09,9.65,0,0,0,0,0,380,0,0,1528273,"VIP",6926796448

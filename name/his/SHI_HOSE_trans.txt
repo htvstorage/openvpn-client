@@ -1,5 +1,5 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,79023415,"2023-02-07T00:00:00",438400,15.22611,15.4,15.15,15.5,15.1,15.5,,,,0,0,0,1100,16748721,0,"SHI",6675126624
+1,0,0,0,0,79023415,"2023-02-07T00:00:00",851900,15.15613,15.4,15.05,15.5,15,15.5,,,,0,0,0,8300,125795879,0,"SHI",12911507147
 1,130,0,0,1099244,78990715,"2023-02-06T00:00:00",1024500,15.40642,15.5,15.4,15.5,15,15.4,0,0,0,0,0,152,21400,329290000,1292886,"SHI",15783877290
 1,169,600,9300000,772219,78990715,"2023-02-03T00:00:00",694100,15.49583,15.7,15.5,15.7,15.45,15.7,0,0,0,0,0,167,45600,706160000,1131166,"SHI",10755655603
 1,220,0,0,801642,78991315,"2023-02-02T00:00:00",719600,15.55602,15.8,15.7,15.8,15.4,15.8,0,0,0,0,0,221,32700,508460000,989600,"SHI",11194111992

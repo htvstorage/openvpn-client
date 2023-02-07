@@ -1,5 +1,5 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,10568721,"2023-02-07T00:00:00",116600,18.43087,18.35,18.35,18.55,18.35,18.35,,,,0,0,0,0,0,0,"CDC",2149039442
+1,0,0,0,0,10568721,"2023-02-07T00:00:00",192800,18.37417,18.35,18.3,18.55,18.2,18.35,,,,0,0,0,0,0,0,"CDC",3542539976
 1,259,0,0,346423,10564421,"2023-02-06T00:00:00",299700,18.270400000000002,18.4,18.35,18.55,18.1,18.4,0,0,0,360000000,20000,194,3500,63870000,373214,"CDC",5835638880
 1,243,0,0,297815,10562421,"2023-02-03T00:00:00",245000,18.46863,18.6,18.4,18.6,18.2,18.6,0,0,0,18891350000,1050000,164,3600,66620000,318361,"CDC",23416164350
 1,229,0,0,284509,10562421,"2023-02-02T00:00:00",232100,18.41198,18.5,18.6,18.65,18.2,18.5,0,0,0,0,0,170,4300,79430000,330814,"CDC",4273420558

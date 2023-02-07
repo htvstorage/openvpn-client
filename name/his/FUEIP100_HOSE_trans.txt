@@ -1,5 +1,5 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,5651600,"2023-02-07T00:00:00",5000,7.5968,7.65,7.58,7.62,7.58,7.62,,,,0,0,0,0,0,0,"FUEIP100",37984000
+1,0,0,0,0,5651600,"2023-02-07T00:00:00",27100,7.529229999999999,7.65,7.47,7.64,7.47,7.62,,,,0,0,0,0,0,0,"FUEIP100",204042133
 1,881,0,0,8422500,5651600,"2023-02-06T00:00:00",35800,7.57874,7.62,7.65,7.65,7.5,7.58,0,0,0,0,0,732,0,0,10789200,"FUEIP100",271318892
 1,856,0,0,8172032,5651600,"2023-02-03T00:00:00",29700,7.64249,7.57,7.62,7.69,7.58,7.69,0,0,0,0,0,761,0,0,10541600,"FUEIP100",226981953
 1,754,500,3831775,7609440,5652100,"2023-02-02T00:00:00",46800,7.66355,7.69,7.57,7.88,7.57,7.87,0,0,0,0,0,709,0,0,9884400,"FUEIP100",358654140

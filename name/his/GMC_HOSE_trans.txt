@@ -1,5 +1,5 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,13502974,"2023-02-07T00:00:00",3500,10.25,10.3,10.25,10.25,10.25,10.25,,,,0,0,0,0,0,0,"GMC",35875000
+1,0,0,0,0,13502974,"2023-02-07T00:00:00",11100,10.215770000000001,10.3,10.2,10.25,10.2,10.25,,,,0,0,0,0,0,0,"GMC",113395047
 1,44,800,8160000,50178,13474774,"2023-02-06T00:00:00",22000,10.242049999999999,10.2,10.3,10.4,10.1,10.1,0,0,0,0,0,53,5000,52000000,59990,"GMC",225325100
 1,33,0,0,23979,13462774,"2023-02-03T00:00:00",1500,10.25,10.3,10.2,10.3,10.2,10.3,0,0,0,0,0,42,0,0,75436,"GMC",15375000
 1,68,500,5200000,158499,13462774,"2023-02-02T00:00:00",76600,10.15725,10.3,10.3,10.5,9.9,10.3,0,0,0,0,0,49,28200,282000000,169737,"GMC",778045350

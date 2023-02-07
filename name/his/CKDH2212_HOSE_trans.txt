@@ -1,5 +1,5 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,0,3000000,"2023-02-07T00:00:00",2500,0.0296,0.02,0.03,0.03,0.02,0.03,,,,0,0,0,0,0,0,"CKDH2212",74000
+1,0,0,0,0,3000000,"2023-02-07T00:00:00",4300,0.029769999999999998,0.02,0.03,0.03,0.02,0.03,,,,0,0,0,0,0,0,"CKDH2212",128011
 1,0,0,0,0,3000000,"2023-02-06T00:00:00",7700,0.02078,0.03,0.02,0.03,0.02,0.03,0,0,0,0,0,0,0,0,0,"CKDH2212",160006
 1,0,0,0,0,3000000,"2023-02-03T00:00:00",11700,0.03128,0.03,0.03,0.04,0.03,0.04,0,0,0,0,0,0,0,0,0,"CKDH2212",365976
 1,0,0,0,0,3000000,"2023-02-02T00:00:00",9000,0.02978,0.02,0.03,0.03,0.02,0.03,0,0,0,0,0,0,0,0,0,"CKDH2212",268020

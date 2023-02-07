@@ -1,5 +1,5 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,100,320525,0,53868246,"2023-02-07T00:00:00",145200,3.20525,3.2,3.19,3.23,3.16,3.19,,,,0,0,0,6300,20193075,0,"JVC",465402300
+1,0,100,318158,0,53868246,"2023-02-07T00:00:00",392000,3.18158,3.2,3.16,3.23,3.16,3.19,,,,0,0,0,10000,31815800,0,"JVC",1247179360
 1,474,0,0,1734756,53854246,"2023-02-06T00:00:00",311500,3.1684099999999997,3.22,3.2,3.22,3.11,3.11,0,0,0,0,0,216,12700,40300000,641916,"JVC",986959715
 1,342,100,320000,1183812,53840746,"2023-02-03T00:00:00",311800,3.21935,3.22,3.22,3.25,3.17,3.22,0,0,0,0,0,310,13800,44450000,870920,"JVC",1003793330
 1,572,500,1620000,1276047,53832446,"2023-02-02T00:00:00",491700,3.19611,3.22,3.22,3.25,3.14,3.22,0,0,0,0,0,313,14100,45180000,1017583,"JVC",1571527287

@@ -1,5 +1,5 @@
 "adjRatio","buyCount","buyForeignQuantity","buyForeignValue","buyQuantity","currentForeignRoom","date","dealVolume","priceAverage","priceBasic","priceClose","priceHigh","priceLow","priceOpen","propTradingNetDealValue","propTradingNetPTValue","propTradingNetValue","putthroughValue","putthroughVolume","sellCount","sellForeignQuantity","sellForeignValue","sellQuantity","symbol","totalValue"
-1,0,0,0,1100,10805092,"2023-02-07T00:00:00",200,10,9.4,10,10,10,10,,,,0,0,0,0,0,2100,"THP",2000000
+1,0,0,0,1300,10805092,"2023-02-07T00:00:00",200,10,9.4,10,10,10,10,,,,0,0,0,0,0,2100,"THP",2000000
 1,12,0,0,4036,10805092,"2023-02-06T00:00:00",1600,9.4,10,11.2,11.2,9.2,9.4,0,0,0,0,0,16,0,0,23500,"THP",15060000
 1,2,0,0,300,10805092,"2023-02-03T00:00:00",0,10,10,10,10,10,10,0,0,0,0,0,7,0,0,13500,"THP",0
 1,6,0,0,1736,10805092,"2023-02-02T00:00:00",1100,10,10.6,10,10,10,10,0,0,0,0,0,7,0,0,27400,"THP",11000000
