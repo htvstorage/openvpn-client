@@ -301,7 +301,24 @@ async function processData() {
   //     console.log(f, error)
   //   }
   // // });
-  let dateKeys = ['20230207'];
+
+  var args = process.argv.slice(2);
+  let vss = null;
+  for (let v of args) {
+    if (v.includes("date="))
+      vss = v;
+    break;
+  }
+
+  let ss = vss == null ? [] : vss.substring("date=".length).split(",");
+
+  let dateKeys ;
+
+  if(ss.length == 0){
+    dateKeys = Object.keys(mapFiles);
+  }else{
+    dateKeys = [...ss];
+  }
   // let dateKeys = ['20230203','20230202','20230201','20230131','20230130']//
   // let dateKeys = Object.keys(mapFiles);
   let datekey;
@@ -465,6 +482,11 @@ async function processData() {
             let dir = "./vnindex/" + datekey + "/";
             if (!fs.existsSync(dir)) {
               fs.mkdirSync(dir, { recursive: true });
+            } else {
+              let files = fs.readdirSync(dir);
+              for (const file of files) {
+                fs.unlinkSync(path.join(dir, file));
+              }
             }
             // console.table(str)
             let floor = "HOSE";
@@ -499,8 +521,9 @@ async function processData() {
               })
               return str;
             }
-            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_BU_" + datekey + ".xlsx", max.bu)
-            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_TOP_SD_" + datekey + ".xlsx", max.sd)
+            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_MAX_BU_" + datekey + ".xlsx", max.bu)
+            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_MAX_SD_" + datekey + ".xlsx", max.sd)
+
             // console.log(table(max.bu));
             // console.log(table(max.sd));
             let topValues = Object.values(top).sort((a, b) => {
@@ -511,12 +534,21 @@ async function processData() {
               let c = a.vol - b.vol;
               return c < 0 ? -1 : c > 0 ? 1 : 0;
             }
-            // topValues.forEach(t => {
-            //   console.table(t.topsd.sort(sort));
-            //   console.table(t.topbu.sort(sort));
-            // })
-            fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_TOP_SD_" + datekey + "_table.log", table(max.sd), (e) => { if (e) { console.log(e) } })
-            fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_TOP_BU_" + datekey + "_table.log", table(max.bu), (e) => { if (e) { console.log(e) } })
+            let topbustr = "";
+            let topsdstr = "";
+            topValues.forEach(t => {
+              t.topsd.sort(sort);
+              t.topbu.sort(sort);
+              topbustr  += table(t.topbu) + "\n";      
+              topsdstr  += table(t.topsd) + "\n";      
+            })
+
+            fs.appendFileSync(dir + "VNINDEX" + "_" + floor + "_TOP_SD_" + datekey + "_table.log", topsdstr, (e) => { if (e) { console.log(e) } })
+            fs.appendFileSync(dir + "VNINDEX" + "_" + floor + "_TOP_BU_" + datekey + "_table.log", topbustr, (e) => { if (e) { console.log(e) } })
+
+
+            fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_MAX_SD_" + datekey + "_table.log", table(max.bu), (e) => { if (e) { console.log(e) } })
+            fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_MAX_BU_" + datekey + "_table.log", table(max.bu), (e) => { if (e) { console.log(e) } })
           }
         })
 
@@ -794,9 +826,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     fs.writeFileSync(dir + symbol + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
     fs.writeFileSync(dir + symbol + "_" + floor + "_5p.json", JSON.stringify(x), (e) => { if (e) { console.log(e) } })
     writeArrayJson2Xlsx(dir + symbol + "_" + floor + "_" + strdate0 + "_1N.xls", x)
-    let csv = new Parser({ fields: ["abu","acum_busd","acum_busd_val","acum_val","asd","auk","bs","bu","bu-sd","bu-sd_val","c","date","datetime","h","l","o","pbu","psd","puk","rbu","rsd","ruk","sb","sd","sum_vol","total_vol","uk","val","val_bu","val_sd","val_uk"] });
+    let csv = new Parser({ fields: ["abu", "acum_busd", "acum_busd_val", "acum_val", "asd", "auk", "bs", "bu", "bu-sd", "bu-sd_val", "c", "date", "datetime", "h", "l", "o", "pbu", "psd", "puk", "rbu", "rsd", "ruk", "sb", "sd", "sum_vol", "total_vol", "uk", "val", "val_bu", "val_sd", "val_uk"] });
     let data2 = csv.parse(x);
-    fs.writeFileSync(dir + symbol + "_" + floor + "_1N.csv", data2+"\n", (e) => { if (e) { console.log(e) } })
+    fs.writeFileSync(dir + symbol + "_" + floor + "_1N.csv", data2 + "\n", (e) => { if (e) { console.log(e) } })
     out[symbol] = { floor: floor, data: x, max: max, top: top };
     // console.log(symbol)
     // console.table(max.sd)

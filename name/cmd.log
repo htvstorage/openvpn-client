@@ -2,3 +2,5 @@
    80  for x in `ls agg/*/HPG*table.log`; do echo $x; tail -n2 $x; done > HPG.log
    81  for x in `ls agg/*/HPG*table.log`; do echo $x; tail -n3 $x; done > HPG.log
    82  for x in `ls agg/*/HPG*csv`; do echo $x; tail -n3 $x; done > HPG.log
+
+   for x in `ls *csv`; do awk -F, 'END{print substr(FILENAME,0,3)" "$2" "$3 }' $x; done |sort -nk3 > all

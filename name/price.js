@@ -22,7 +22,7 @@ log4js.configure({
 });
 
 (async () => {
-  let cop = [];
+  let cop = [{stock_code:'VNINDEX',post_to:'HOSE'}];
   let data = null;
   // data = fs.readFileSync('cop.json');
   // cop = JSON.parse(data);
