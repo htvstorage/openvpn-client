@@ -3,4 +3,15 @@
    81  for x in `ls agg/*/HPG*table.log`; do echo $x; tail -n3 $x; done > HPG.log
    82  for x in `ls agg/*/HPG*csv`; do echo $x; tail -n3 $x; done > HPG.log
 
-   for x in `ls *csv`; do awk -F, 'END{print substr(FILENAME,0,3)" "$2" "$3 }' $x; done |sort -nk3 > all
+for x in `ls agg/20230201/*csv`; do awk -F, 'END{print substr(FILENAME,14,3)" "$2" "$3 }' $x; done |sort -nk3 > all
+
+
+for x in `ls agg/*/VCB*csv`; do awk -F, 'END{print substr(FILENAME,5,8)" "substr(FILENAME,14,3)" "$2" "$3 }' $x; done |sort -nk1|egrep -v "20221207|20221208|20221209"
+
+
+for x in `ls vnindex/*/VN*csv`; do awk -F, 'END{print substr(FILENAME,9,8)" "substr(FILENAME,18,7)" "$1" "$2 }' $x; done |sort -nk1|egrep -v "20221207|20221208|20221209"
+
+for s in `cat symbols.txt`; do 
+echo $s; 
+for x in `ls agg/*/$s*csv`; do awk -F, 'END{print substr(FILENAME,5,8)" "substr(FILENAME,14,3)" "$2" "$3 }' $x; done |sort -nk1|egrep -v "20221207|20221208|20221209" >> all/$s.txt
+done
