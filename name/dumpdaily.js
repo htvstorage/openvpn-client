@@ -3,7 +3,12 @@ import fs from "fs";
 import log4js from "log4js";
 import { Parser } from "json2csv"
 import path from "path";
+import http from "node:http";
+import https from "node:https";
 var logger = log4js.getLogger();
+const httpAgent = new http.Agent({ keepAlive: true });
+const httpsAgent = new https.Agent({ keepAlive: true });
+const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
 
 log4js.configure({
   appenders: {
@@ -42,7 +47,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     let localReq = 0;
     let localRes = 0;
     logger.info("Checking", requested, responsed)
-
+    let t1 = Date.now();
     let dir = "./trans/" + getNow() + "/";
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir);
@@ -53,39 +58,46 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       }
     }
     logger.debug("Done remove directory ", dir);
+
+    let stat = { req: 0, res: 0 }
     for (let x of cop) {
       x['Code'] = x.stock_code;
       if (x.Code.length < 4) {
         logger.trace(x.Code);
 
-        setTimeout(() => {
-          let z = getTrans(x.Code);
-          requested++;
-          localReq++;
-          z.then((ret) => {
-            responsed++;
-            localRes++;
-            if (logger.isTraceEnabled)
-              logger.trace(ret.data.length, ret.status, ret.execute_time_ms, requested, responsed, ret.Code);
+        // setTimeout(() => {
+        stat.req++;
+        while(stat.req - stat.res >= 100){
+          await wait(200);
+        }
+        let z = getTrans(x.Code);
+        requested++;
+        localReq++;
+        z.then((ret) => {
+          stat.res++;
+          responsed++;
+          localRes++;
+          if (logger.isTraceEnabled)
+            logger.trace(ret.data.length, ret.status, ret.execute_time_ms, requested, responsed, ret.Code);
 
-            if (localRes == total_check) {
-              logger.info("Done " + getNow());
-            }
-            let data2 = csv.parse(ret.data);
-            if (watchlist.includes(ret.Code)) {
-              // logger.info("\n",ret.Code,"\n",data2.substr(0,data2.indexOf("\n",200)));
-            }
-            fs.appendFile(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
-              if (err) throw err;
-            });
-          })
-        }, 100);
+          if (localRes == total_check) {
+            logger.info("Done " + getNow() + " " + (Date.now() - t1)/1000 + " ms");
+          }
+          let data2 = csv.parse(ret.data);
+          if (watchlist.includes(ret.Code)) {
+            // logger.info("\n",ret.Code,"\n",data2.substr(0,data2.indexOf("\n",200)));
+          }
+          fs.appendFile(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+            if (err) throw err;
+          });
+        })
+        // }, 100);
       }
     }
   } catch (error) {
     logger.error(error);
   } finally {
-    await wait(30000);
+    await wait(1000);
   }
 })();
 
@@ -189,7 +201,8 @@ async function getTrans(symbol) {
     "referrerPolicy": "strict-origin-when-cross-origin",
     "body": null,
     "method": "GET",
-    "mode": "cors"
+    "mode": "cors",
+    agent,
   }, { timeout: 1000 });
   let x = await a.json();
   x["Code"] = symbol;
