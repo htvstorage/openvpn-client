@@ -1,0 +1,82 @@
+jdeps --print-module-deps --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib/*" --module-path="./lib/*" ./netty-all-4.1.76.Final-SNAPSHOT.jar
+
+
+jdeps --print-module-deps --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib/*" --module-path="./lib/*" ./netty-example-4.1.76.Final-SNAPSHOT.jar
+
+
+
+
+jdeps --print-module-deps --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib/*" --module-path="./lib/*" *
+
+mvn dependency:copy-dependencies -DoutputDirectory=target/lib -DincludeScope=runtime 
+
+
+jdeps --class-path './libs/*' -recursive --dot-output dots netty-example-4.1.76.Final-SN^CSHOT.jar 
+
+
+
+jdeps  --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib/*" --module-path="./lib/*" --dot-output dots ./netty-example-4.1.76.Final-SNAPSHOT.jar
+
+
+dot -Tpng -O dots/summary.dot
+
+sudo apt-get install graphviz
+
+
+
+jdeps  --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib2/*" --module-path="./lib2/*" ./netty-example-4.1.76.Final-SNAPSHOT.jar
+
+
+jdeps  --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib/*" --module-path="./lib/*" ./main-thread-1.0-SNAPSHOT.jar
+
+
+jdeps  --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib2/*" --module-path="./lib2/*" ./netty-example-4.1.76.Final-SNAPSHOT.jar > deps
+
+ awk '{if (NF==3) print $0}' deps |awk -F "->" '{print  $1}'|sort|uniq
+
+
+jdeps  --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib2/*" --module-path="./lib2/*" ./netty-example-4.1.76.Final-SNAPSHOT.jar|awk '{if (NF==3) print $0}'|awk -F "->" '{print  $1}'|sort|uniq 
+
+
+jdeps  --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib/*" --module-path="./lib/*" ./main-thread-1.0-SNAPSHOT.jar|awk '{if (NF==3) print $0}'|awk -F "->" '{print  $1}'|sort|uniq 
+
+
+
+jdeps  --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib/*" --module-path="./lib/*" ./thread-safe-queue-1.0-SNAPSHOT.jar|awk '{if (NF==3) print $0}'|awk -F "->" '{print  $1}'|sort|uniq
+
+
+
+
+jdeps  --ignore-missing-deps --recursive --multi-release 17 --class-path="./*" --module-path="./*" ./CbaProcess.jar
+
+
+
+jdeps  --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib/*" --module-path="./lib/*" ./trino-cli-399-SNAPSHOT.jar|awk '{if (NF==3) print $0}'|awk -F "->" '{print  $1}'|sort|uniq
+
+
+
+jdeps  --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib/*" --module-path="./lib/*" -verbose:class ./trino-cli-399-SNAPSHOT.jar
+
+
+jdeps  --print-module-deps --ignore-missing-deps --recursive --multi-release 17 --class-path="./lib/*" --module-path="./lib/*" ./deps-1.0-SNAPSHOT.jar
+
+
+jdeps  --print-module-deps --ignore-missing-deps --recursive --multi-release 17  ./deps-1.0-SNAPSHOT.jar
+
+
+
+$JAVA_HOME/bin/jlink \
+    --verbose \
+    --add-modules java.base,java.management,java.naming,java.net.http,java.security.jgss,java.security.sasl,java.sql,jdk.httpserver,jdk.unsupported \
+    --strip-debug \
+    --no-man-pages \
+    --no-header-files \
+    --compress=2 \
+    --output /customjre
+
+
+    0100109106 
+
+    CMND
+    Toi cam doan s6 li~u khai tren la dung va chju trach nhi~m tru&c phap lu~t vS nhfrng s6 li~u da khai./.
+
