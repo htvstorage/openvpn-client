@@ -71,3 +71,4 @@ for s in `cat symbols.txt`; do
    awk 'BEGIN{sum = 0}{ sum += $4}END{print $2" "sum}' process/$s.txt
 done
 
+while true; do node dumpdaily.js; node muaban.js date=20230208 ; ./top.sh; sleep 300; done
