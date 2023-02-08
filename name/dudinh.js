@@ -502,7 +502,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     } catch (error) {
       logger.error(error);
     } finally {
-      await wait(10000);
+      await wait(20000);
     }
   }
 

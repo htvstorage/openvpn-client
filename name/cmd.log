@@ -72,3 +72,7 @@ for s in `cat symbols.txt`; do
 done
 
 while true; do node dumpdaily.js; node muaban.js date=20230208 ; ./top.sh; sleep 300; done
+
+while true; do node quickdumpdaily.js; node muaban.js date=20230208 ; ./top.sh; sleep 20; done
+
+while true; do node quickdumpdaily.js; node muaban.js date=20230208 ; cp agg/20230208/HPG_HOSE_table.log HPG.log; sleep 20; done
