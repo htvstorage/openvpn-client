@@ -576,7 +576,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
   stat.req++;
   let maxTopInterval = 10;
   let maxTopAll = 50;
-  let interval = 5 * 60 * 1000;
+  let interval = 2 * 60 * 1000;
 
   let data = fs.readFile(file, readHandler)
   let strdate0 = file.substr(file.indexOf("trans/") + "trans/".length, 8)

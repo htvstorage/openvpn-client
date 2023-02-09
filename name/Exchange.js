@@ -13,7 +13,6 @@ var logger = log4js.getLogger();
 
 
 export function Exchange() {
-
 }
 //24hmoney
 Exchange.transaction = async function (symbol) {
@@ -427,8 +426,8 @@ Exchange.vndIndustryPB = async () => {
     "mode": "cors",
     agent
   });
-  
-  let z = await a.text();  
+
+  let z = await a.text();
   if (z.startsWith("{") && z.endsWith("}")) {
     return JSON.parse(z).data;
   }
@@ -460,8 +459,8 @@ Exchange.vndIndustryRatio = async (code) => {
   let out = [];
   if (z.startsWith("{") && z.endsWith("}")) {
     out = [...JSON.parse(z).data];
-  }else{
-    console.log("Error ",code,z)
+  } else {
+    console.log("Error ", code, z)
   }
 
   a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=itemCode:52002,52001,53007,&where=code:HPG~reportDate:gt:2022-09-24&order=reportDate&fields=itemCode,value", {
@@ -486,8 +485,8 @@ Exchange.vndIndustryRatio = async (code) => {
 
   if (z.startsWith("{") && z.endsWith("}")) {
     out.push(...JSON.parse(z).data);
-  }else{
-    console.log("Error ",code)
+  } else {
+    console.log("Error ", code)
   }
   // '51003': VONHOA
   // '51016': KLGDTB10P
@@ -521,7 +520,7 @@ Exchange.vndIndustryRatio = async (code) => {
     '53007': 'EPS'
   }
   let out2 = {};
-  out.forEach(v=>{
+  out.forEach(v => {
     out2[map[v.itemCode]] = v.value;
   })
   // console.table([out2])
@@ -531,27 +530,27 @@ Exchange.vndIndustryRatio = async (code) => {
 
 
 
-Exchange.vndRatio =async ()=>{
+Exchange.vndRatio = async () => {
 
   let a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?where=reportDate:gt:2022-12-23~itemCode:51012,51006&filter=code:HPG,HSG,TVN,NKG,DTL,POM,TMG,CKD,TIS,SMC,TLH,VGS,TKU,TTS,CBI,HMC,TNB,VGL,VCA,TNI,TDS,MEL,CKA,NSH,BCA,KMT,KVC,ITQ,HSV,TNS,KCB,KKC,DPS,HLA&order=reportDate", {
-  "headers": {
-    "accept": "*/*",
-    "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-    "content-type": "application/json",
-    "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-    "sec-ch-ua-mobile": "?0",
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-site"
-  },
-  "referrer": "https://dstock.vndirect.com.vn/",
-  "referrerPolicy": "strict-origin-when-cross-origin",
-  "body": null,
-  "method": "GET",
-  "mode": "cors"
-});
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "content-type": "application/json",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "referrer": "https://dstock.vndirect.com.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors"
+  });
 
-z = await a.json()
+  z = await a.json()
 }
 
 
@@ -649,3 +648,239 @@ Exchange.wait = function (ms) {
     }, ms);
   });
 }
+
+
+Exchange.VietStock = function () {
+
+}
+Exchange.VietStock.GetStockDealDetail = async function (code) {
+
+  let a = await fetch("https://finance.vietstock.vn/data/getstockdealdetail", {
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "x-requested-with": "XMLHttpRequest",
+      "cookie": "_ga=GA1.2.70802173.1668475499; _cc_id=bd4b49a4b7a58cfaeb38724516b82171; dable_uid=35370669.1668475569175; dable_uid=35370669.1668475569175; __gads=ID=af0897d5e697b47b-2219cdf973d800fc:T=1668475507:S=ALNI_MaL0TTHW6nK5yq36h7SKojzDZdS3w; AnonymousNotification=; language=vi-VN; Theme=Light; panoramaId=4d0c5a1ada413b921c9b37c6d8d4a9fb927a0d4a71477931e7d9d438d60721a2; ASP.NET_SessionId=othnew1qjmrsmavlddx3gz03; __RequestVerificationToken=NoSSGh71lr_0dIZznhkpmZ385YIe4tzWFi7Equ0cI1OLPzQE_NN6582kenS7hjrexZqey2gS68XSXMGlmvBAynOFK2r7ob3SuvcOuu5DRQY1; isShowLogin=true; _gid=GA1.2.535529265.1675913802; __gpi=UID=00000b7c20f7c81e:T=1668475507:RT=1675913766:S=ALNI_MbZNgtWTtbRI1MrLcfM5qFq0RIBMQ; panoramaId_expiry=1676000168434; cto_bundle=bIiAtF9GalVXbDclMkJNeHNwS0pTN0VtbThsUHd2YjlJRWRyT0gxVmg3cjl0MDVldkNuM1BiWDNnZzdSMnpQUElEQ2tTRXB5cklHTml6SFdSdEZmMHBFSHNvT1FITWtTZTFlQzZhRFFvSExkbmhxN0I5a1ltSTNwb0lEVEtZa0JvMDB4dmNGUElaanlOSTBmSVdRVnRMa1ZwZVo5QSUzRCUzRA; vts_usr_lg=51B4A9EA2E6C8B85E4AC3D8540AC7931336BBB7C1C0A447BE4A45C579B217BDF940DA17645BE1258B9E289B651394628DB88F2AF4AD8E2E4FA1416F5E1B569C7B07A34A61A493D4C3205EE75073AF3B5FD82BD13D88EDB7B5189EE0A7EBF2B4068F4815CD11862503D34B9A26F23D48FE48BA7075D5813716CDB6160FAFF28BD; vst_usr_lg_token=OKKGaBD+xki/sFtdIz95ew==; finance_viewedstock=HPG,"
+    },
+    "referrer": "https://finance.vietstock.vn/HPG/thong-ke-giao-dich.htm",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": "code=" + code + "&seq=0&__RequestVerificationToken=0eTIXSDv3VjEnVLpLXeAIh9eJcf_0DdtKOoMJY825I3ypV_jLcbrBY1zR5H85bcZZfr4GR4t13esW3MCjlTZq_IXBJjNf2M0ZwIu0L_Wt9AsyRr8m6BdyPjltdoLyZzV0",
+    "method": "POST",
+    "mode": "cors",
+    agent
+  });
+  let data = await a.json();
+  // console.table(data);
+  return { Code: code, data: data };
+}
+
+Exchange.TCBS = function () {
+
+}
+
+
+Exchange.TCBS.intraday = async function (code) {
+  let a = await fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page=0&size=2000000&headIndex=-1", {
+    "headers": {
+      "accept": "application/json",
+      "accept-language": "vi",
+      "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoZW5fc2VydmljZSIsImV4cCI6MTY3NTk2NDQzNiwianRpIjoiIiwiaWF0IjoxNjc1OTM1NjM2LCJzdWIiOiIxMDAwMDM2Nzk2NCIsImN1c3RvZHlJRCI6IjEwNUNENjQ5ODgiLCJlbWFpbCI6IlRSSU5IVkFOSFVOR0BHTUFJTC5DT00iLCJyb2xlcyI6WyJjdXN0b21lciJdLCJzdGVwdXBfZXhwIjowLCJzb3RwX3NpZ24iOiIiLCJjbGllbnRfa2V5IjoiMTAwMDAzNjc5NjQuQWFrSzlTSWNPVnFWR1lwYkVFZXMiLCJzZXNzaW9uSUQiOiIxYzRkNTkwNS1jOWFiLTQ2NTItOTUwYi03NzM0NTM3MDkzNjciLCJhY2NvdW50X3N0YXR1cyI6IjEiLCJvdHAiOiIiLCJvdHBUeXBlIjoiIiwib3RwU291cmNlIjoiVENJTlZFU1QiLCJvdHBTZXNzaW9uSWQiOiIifQ.9OhqnK7Msi_JC7VMT6AXLcihhZjdE7YZeRrZdNiw6__JgxNe_Q7f2UYqgIMd-blN8bo6FUOVJSMA9V8vRtQrtAc8FdBXYhz6p8_-bAlA78qZmwfn7AUHdGbZW5_bO6NDrk9Y_hhakROlehcqVHuDbZwNuJHQgoH-qsF0Gnqamt0povTNoCx-Lq8-_CSSxFHRriAURWk_l2SLFciPIBLOnmnrT8RNwg4lPMX3NY7bLKokUJinQP32iJeegMhGnuVfYn7nlWGhMFhQGfFJIP1aE3z_m-8KpZwJAAN6VlWAKSpN_v1aaLMqQn6ol6KkZh2KEyEz_hPwOPFAyawBMenyXw",
+      "content-type": "application/json",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "referrer": "https://tcinvest.tcbs.com.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors",
+    agent
+  });
+
+  let data = await a.json();
+  // console.table(data.data)
+  return { Code: code, data: data.data };
+}
+
+
+
+Exchange.VCI = function () {
+
+}
+
+
+Exchange.VCI.getAll = async function (code) {
+  let a = await fetch("https://mt.vcsc.com.vn/api/market-watch/LEData/getAll", {
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "content-type": "application/json",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "cookie": "_gcl_au=1.1.1709771188.1675938152; _gid=GA1.3.1706305419.1675938152; _fbp=fb.2.1675938153544.2137347642; lang=vi; _gat_UA-199803197-1=1; _ga=GA1.1.1389260542.1675938152; _ga_EWEC6D4464=GS1.1.1675938152.1.1.1675938310.57.0.0"
+    },
+    "referrer": "https://mt.vcsc.com.vn/board",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": "{\"symbol\":\"" + code + "\",\"limit\":2000000,\"truncTime\":null}",
+    "method": "POST",
+    "mode": "cors",
+    agent
+  });
+
+  let data = await a.json();
+  // console.table(data.data)
+  return { Code: code, data: data };
+}
+
+Exchange.SSI = function () {
+
+}
+
+Exchange.SSI.graphql = async function (code) {
+  let stockNo = map[code];
+  if (stockNo == undefined) { }
+  let a = await fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "content-type": "application/json",
+      "g-captcha": "",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "referrer": "https://iboard.ssi.com.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": "{\"operationName\":\"leTables\",\"variables\":{\"stockNo\":\"" + stockNo + "\"},\"query\":\"query leTables($stockNo: String) {\\n  leTables(stockNo: $stockNo) {\\n    stockNo\\n    price\\n    vol\\n    accumulatedVol\\n    time\\n    ref\\n    side\\n    priceChange\\n    priceChangePercent\\n    changeType\\n    __typename\\n  }\\n  stockRealtime(stockNo: $stockNo) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    __typename\\n  }\\n}\\n\"}",
+    "method": "POST",
+    "mode": "cors",
+    agent
+  });
+
+  let data = await a.json();
+  // console.table(data.data.leTables)
+  return { Code: code, data: data.data.leTables, stockRealtime: data.data.stockRealtime };
+}
+
+let map = {};
+Exchange.SSI.getlistallsymbol = async function () {
+  let ex = ['hose', 'hnx', 'upcom']
+  let ret = [];
+
+  let promise = new Promise((resolve, reject) => {
+    let c = 0;
+    ex.forEach(async e => {
+      let a = await fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
+        "headers": {
+          "accept": "*/*",
+          "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+          "content-type": "application/json",
+          "g-captcha": "",
+          "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-site"
+        },
+        "referrer": "https://iboard.ssi.com.vn/",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "body": "{\"operationName\":\"stockRealtimes\",\"variables\":{\"exchange\":\"" + e + "\"},\"query\":\"query stockRealtimes($exchange: String) {\\n  stockRealtimes(exchange: $exchange) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    stockType\\n    exchange\\n    prevMatchedPrice\\n    lastMatchedPrice\\n    matchedPrice\\n    matchedVolume\\n    priceChange\\n    priceChangePercent\\n    highest\\n    avgPrice\\n    lowest\\n    nmTotalTradedQty\\n    best1Bid\\n    best1BidVol\\n    best2Bid\\n    best2BidVol\\n    best3Bid\\n    best3BidVol\\n    best4Bid\\n    best4BidVol\\n    best5Bid\\n    best5BidVol\\n    best6Bid\\n    best6BidVol\\n    best7Bid\\n    best7BidVol\\n    best8Bid\\n    best8BidVol\\n    best9Bid\\n    best9BidVol\\n    best10Bid\\n    best10BidVol\\n    best1Offer\\n    best1OfferVol\\n    best2Offer\\n    best2OfferVol\\n    best3Offer\\n    best3OfferVol\\n    best4Offer\\n    best4OfferVol\\n    best5Offer\\n    best5OfferVol\\n    best6Offer\\n    best6OfferVol\\n    best7Offer\\n    best7OfferVol\\n    best8Offer\\n    best8OfferVol\\n    best9Offer\\n    best9OfferVol\\n    best10Offer\\n    best10OfferVol\\n    buyForeignQtty\\n    buyForeignValue\\n    sellForeignQtty\\n    sellForeignValue\\n    caStatus\\n    tradingStatus\\n    remainForeignQtty\\n    currentBidQty\\n    currentOfferQty\\n    session\\n    __typename\\n  }\\n}\\n\"}",
+        "method": "POST",
+        "mode": "cors"
+      });
+      let data = await a.json();
+      ret.push(...data.data.stockRealtimes);
+      c++;
+      if (c == 3) {
+        resolve(ret)
+      }
+    });
+  })
+
+  await promise;
+  // avgPrice: 4530.86
+  // best1Bid: 4500
+  // best1BidVol: 20900
+  // best1Offer: 4600
+  // best1OfferVol: 12700
+  // best2Bid: 4400
+  // best2BidVol: 136500
+  // best2Offer: 4700
+  // best2OfferVol: 70800
+  // best3Bid: 4300
+  // best3BidVol: 171400
+  // best3Offer: 4800
+  // best3OfferVol: 46900
+  // best4Bid: 0
+  // best4BidVol: 0
+  // best4Offer: 4900
+  // best4OfferVol: 84800
+  // best5Bid: 0
+  // best5BidVol: 0
+  // best5Offer: 5000
+  // best5OfferVol: 71500
+  // best6Bid: 0
+  // best6BidVol: 0
+  // best6Offer: 5100
+  // best6OfferVol: 28400
+  // best7Bid: 0
+  // best7BidVol: 0
+  // best7Offer: 0
+  // best7OfferVol: 0
+  // best8Bid: 0
+  // best8BidVol: 0
+  // best8Offer: 0
+  // best8OfferVol: 0
+  // best9Bid: 0
+  // best9BidVol: 0
+  // best9Offer: 0
+  // best9OfferVol: 0
+  // best10Bid: 0
+  // best10BidVol: 0
+  // best10Offer: 0
+  // best10OfferVol: 0
+  // buyForeignQtty: 3100
+  // buyForeignValue: 14260000
+  // caStatus: ""
+  // ceiling: 5100
+  // currentBidQty: 328800
+  // currentOfferQty: 315100
+  // exchange: "hnx"
+  // floor: 4300
+  // highest: 4700
+  // lastMatchedPrice: 4500
+  // lowest: 4500
+  // matchedPrice: 4500
+  // matchedVolume: 500
+  // nmTotalTradedQty: 314600
+  // prevMatchedPrice: 0
+  // priceChange: "-200.00"
+  // priceChangePercent: "-4.3"
+  // refPrice: 4700
+  // remainForeignQtty: 33775916
+  // sellForeignQtty: null
+  // sellForeignValue: null
+  // session: "C"
+  // stockNo: "hnx:77359"
+  // stockSymbol: "AAV"
+  // stockType: "s"
+  // tradingStatus: null
+  ret.forEach(e => {
+    map[e.stockSymbol] = e.stockNo;
+  });
+
+  console.log(map.size)
+  return ret;
+}
+

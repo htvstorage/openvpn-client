@@ -5,6 +5,7 @@ import { Parser } from "json2csv"
 import path from "path";
 import http from "node:http";
 import https from "node:https";
+import { Exchange } from "./Exchange.js";
 var logger = log4js.getLogger();
 const httpAgent = new http.Agent({ keepAlive: true });
 const httpsAgent = new https.Agent({ keepAlive: true });
@@ -26,12 +27,24 @@ let stockdata = {};
 let checkSymbol = {};
 let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
+
+
 (async () => {
+  await Exchange.SSI.getlistallsymbol();
+  var args = process.argv.slice(2);
+  let vss = null;
+  for (let v of args) {
+    if (v.includes("stock="))
+      vss = v;
+    break;
+  }
+  let ss = vss == null ? "24HMONEY" : vss.substring("stock=".length);
+
   let cop = [];
 
   let requested = 0;
   let responsed = 0;
-  let csv = new Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });
+  let csv = new Parser({ fields: ['Stockcode', 'Package', 'TradingDate', 'Price', 'Vol', 'TotalVol', 'TotalVal', 'Change', 'IsBuy', 'PerChange'] });
   cop = await getlistallstock();
   let watchlist = ['HPG', 'DCM', 'HSG', 'NKG', 'VIX', 'SHS'];
 
@@ -48,51 +61,101 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     let localRes = 0;
     logger.info("Checking", requested, responsed)
     let t1 = Date.now();
-    let dir = "./trans/" + getNow() + "/";
+    let dir = "/workspace/stockstorage/";
+    let csv = null;
+    let fun = () => { }
+    switch (ss.toUpperCase()) {
+      case "24HMONEY":
+        dir += "./trans/" + getNow() + "/";
+        csv = new Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });
+        fun = getTrans;
+        break;
+      case "VIETSTOCK":
+        dir += "./vietstocktrans/" + getNow() + "/";
+        csv = new Parser({ fields: ['Stockcode', 'Package', 'TradingDate', 'Price', 'Vol', 'TotalVol', 'TotalVal', 'Change', 'IsBuy', 'PerChange'] });
+        fun = Exchange.VietStock.GetStockDealDetail;
+        break;
+      case "SSI":
+        dir += "./ssitrans/" + getNow() + "/";
+        csv = new Parser({ fields: ["stockNo", "price", "vol", "accumulatedVol", "time", "ref", "side", "priceChange", "priceChangePercent", "changeType", "__typename"] });
+        fun = Exchange.SSI.graphql;
+        break;
+      case "TCBS":
+        dir += "./tcbstrans/" + getNow() + "/";
+        csv = new Parser({ fields: ["p", "v", "cp", "rcp", "a", "ba", "sa", "hl", "pcp", "t"] });
+        fun = Exchange.TCBS.intraday;
+        break;
+      case "VCI":
+        dir += "./vcitrans/" + getNow() + "/";
+        csv = new Parser({ fields: ["id", "symbol", "truncTime", "matchType", "matchVol", "matchPrice", "accumulatedVolume", "createdAt", "updatedAt"] });
+        fun = Exchange.VCI.getAll;
+        break;
+    }
+
     if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir);
+      fs.mkdirSync(dir, { recursive: true });
     } else {
       let files = fs.readdirSync(dir);
       for (const file of files) {
-        // fs.unlinkSync(path.join(dir, file));
+        fs.unlinkSync(path.join(dir, file));
       }
     }
     logger.debug("Done remove directory ", dir);
 
     let stat = { req: 0, res: 0 }
-    cop = [{stock_code:'HPG'},{stock_code:'SBS'},{stock_code:'CTG'},{stock_code:'PLC'},]
     for (let x of cop) {
       x['Code'] = x.stock_code;
       if (x.Code.length < 4) {
         logger.trace(x.Code);
-
-        // setTimeout(() => {
-        stat.req++;
-        while(stat.req - stat.res >= 100){
+        while (stat.req - stat.res >= 50) {
           await wait(200);
         }
-        let z = getTrans(x.Code);
+        // let z = getTrans(x.Code);
+        // let z = Exchange.VietStock.GetStockDealDetail(x.Code);
+        // console.log(x.Code)
+        stat.req++;
+        let z = fun(x.Code);
         requested++;
         localReq++;
         z.then((ret) => {
           stat.res++;
+          if (stat.res % 10 == 0) {
+            console.log(stat)
+          }
           responsed++;
           localRes++;
           if (logger.isTraceEnabled)
-            logger.trace(ret.data.length, ret.status, ret.execute_time_ms, requested, responsed, ret.Code);
+            logger.trace(ret.data.length);
 
           if (localRes == total_check) {
-            logger.info("Done " + getNow() + " " + (Date.now() - t1)/1000 + " ms");
+            logger.info("Done " + getNow() + " " + (Date.now() - t1) / 1000 + " ms");
           }
+          if (ret.data.length == 0) {
+            return;
+          }
+
+
+          // 
           let data2 = csv.parse(ret.data);
           if (watchlist.includes(ret.Code)) {
             // logger.info("\n",ret.Code,"\n",data2.substr(0,data2.indexOf("\n",200)));
           }
-          fs.writeFileSync(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
-            if (err) throw err;
-          });
+          switch (ss.toUpperCase()) {
+            case "SSI":
+              fs.appendFile(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+                if (err) throw err;
+              });
+              fs.appendFile(dir + ret.Code + '_stockRealtime.json', JSON.stringify(ret.stockRealtime) + "\n", function (err) {
+                if (err) throw err;
+              });
+              break;
+            default:
+              fs.appendFile(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+                if (err) throw err;
+              });
+          }
+
         })
-        // }, 100);
       }
     }
   } catch (error) {
@@ -276,32 +339,6 @@ function loadCoporate() {
   fs.readFile('cop.json', (err, data) => {
     if (err) throw err;
     cop = JSON.parse(data);
-    //console.log(cop)    
-    // json2csv.json2csv(cop, (err, csv) => {
-    //   if (err) {
-    //     throw err
-    //   }
-    //   // print CSV string
-    // // console.log(csv)
-    //   // write CSV to a file
-    //   fs.writeFileSync('todos.csv', csv)
-    // })
-
-    // json2csv2({data: cop, fields: ['ID', 'CatID', 'Exchange','IndustryName', 'Code', 'Name','TotalShares', 'URL', 'Row','TotalRecord']}, function(err, csv) {
-    //   if (err) console.log(err);
-    //   fs.writeFile('cop.csv', csv, function(err) {
-    //     if (err) throw err;
-    //     console.log('cars file saved');
-    //   });
-    // });
-    // let csv = new json2csv2.Parser({ data: cop, fields: ['ID', 'CatID', 'Exchange', 'IndustryName', 'Code', 'Name', 'TotalShares', 'URL', 'Row', 'TotalRecord'] });
-
-    // let data2 = csv.parse(cop)
-    // fs.writeFileSync('cop.csv', data2);
-    // result = data2.includes("\"");
-
-    // console.log("result ", result)
-    // console.log(data2);
   });
   data = fs.readFileSync('cop.json');
   cop = JSON.parse(data);
