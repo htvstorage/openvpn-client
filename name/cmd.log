@@ -13,7 +13,7 @@ for x in `ls vnindex/*/VN*csv`; do awk -F, 'END{print substr(FILENAME,9,8)" "sub
 
 for s in `ls agg/20230207/*.csv`; do echo $s|cut -d/ -f 3|cut -d_ -f1; done > symbols2.txt
 for s in `ls agg/20230207/*HOSE*.csv`; do echo $s|cut -d "/" -f 3|cut -d "_" -f1; done > hose.txt
-for s in `ls agg/20230207/*HOSE*.csv`; do echo $s|awk -F/ '{print substr($3,0,3)}' done > hose.txt
+for s in `ls agg/20230207/*HOSE*.csv`; do echo $s|awk -F/ '{print substr($3,0,3)}'; done > hose.txt
 total=`cat symbols.txt |wc -l`;
 count=0;
 for s in `cat symbols.txt`; do 
@@ -76,3 +76,22 @@ while true; do node dumpdaily.js; node muaban.js date=20230208 ; ./top.sh; sleep
 while true; do node quickdumpdaily.js; node muaban.js date=20230208 ; ./top.sh; sleep 20; done
 
 while true; do node quickdumpdaily.js; node muaban.js date=20230208 ; cp agg/20230208/HPG_HOSE_table.log HPG.log; sleep 20; done
+
+ln -s agg/`date +"%Y%m%d"`/HPG_HOSE_table.log HPG`date +"%Y%m%d"`.log
+while true; do node quickdumpdaily.js; node muaban.js date=`date +"%Y%m%d"` ; cp agg/`date +"%Y%m%d"`/HPG_HOSE_table.log HPG.log; sleep 20; done
+
+ln -s vnindex/`date +"%Y%m%d"`/VNINDEX_HOSE_table.log VNINDEX`date +"%Y%m%d"`.log
+while true; do node dumpdaily.js; node muaban.js date=`date +"%Y%m%d"` ; ./top.sh; sleep 200; done
+
+
+s="SBS STB PLC CTG MBB"
+for x in $s ;do echo $x; 
+ln -s $PWD/agg/`date +"%Y%m%d"`/$x"_*_table.log" links/$x`date +"%Y%m%d"`.log
+done
+
+ln -s agg/`date +"%Y%m%d"`/HPG_HOSE_table.log HPG`date +"%Y%m%d"`.log
+
+ln -s $PWD/agg/`date +"%Y%m%d"`/CTG_HOSE_table.log links/CTG_`date +"%Y%m%d"`.log
+
+
+while true; do node quickdumpdaily.js; node muaban.js date=`date +"%Y%m%d"` ; cp agg/`date +"%Y%m%d"`/HPG_HOSE_table.log HPG.log; sleep 20; done
