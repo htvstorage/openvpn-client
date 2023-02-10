@@ -86,12 +86,12 @@ while true; do node dumpdaily.js; node muaban.js date=`date +"%Y%m%d"` ; ./top.s
 
 s="SBS STB PLC CTG MBB"
 for x in $s ;do echo $x; 
-ln -s $PWD/agg/`date +"%Y%m%d"`/$x"_*_table.log" links/$x`date +"%Y%m%d"`.log
+ln -s $PWD/agg/`date +"%Y%m%d"`/$x"_"*"_table.log" links/$x`date +"%Y%m%d"`.log
 done
 
 ln -s agg/`date +"%Y%m%d"`/HPG_HOSE_table.log HPG`date +"%Y%m%d"`.log
 
-ln -s $PWD/agg/`date +"%Y%m%d"`/CTG_HOSE_table.log links/CTG_`date +"%Y%m%d"`.log
+ln -s $PWD/agg/`date +"%Y%m%d"`/CTG_*_table.log links/CTG_`date +"%Y%m%d"`.log
 
 
 while true; do node quickdumpdaily.js; node muaban.js date=`date +"%Y%m%d"` ; cp agg/`date +"%Y%m%d"`/HPG_HOSE_table.log HPG.log; sleep 20; done
