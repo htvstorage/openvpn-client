@@ -1,0 +1,82 @@
+20221212 DTL 0 0 5400000  
+20221212 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221213 DTL -100 -2660000 13540000  8100000
+20221213 DTL 200 5440000 5440000 5440000 
+20221213 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221214 DTL 0 100000 10700000  5300000
+20221214 DTL 200 5400000 5400000 5400000 
+20221214 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221215 DTL -1000 -26200000 26200000  20960000
+20221215 DTL -200 -5240000 5240000  5240000
+20221215 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221216 DTL -300 -7860000 7860000  7860000
+20221216 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221219 DTL -300 -7860000 7860000  7860000
+20221219 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221220 DTL -100 -2640000 7920000 2640000 
+20221220 DTL 100 2680000 13240000 5320000 
+20221220 DTL -200 -5280000 5280000  5280000
+20221220 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221221 DTL -200 -5300000 10660000 2680000 7980000
+20221221 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221222 DTL 300 8040000 8040000 8040000 
+20221222 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221223 DTL 200 5360000 5360000 5360000 
+20221223 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221226 DTL 200 5300000 5300000 5300000 
+20221226 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221227 DTL 200 5340000 5340000 5340000 
+20221227 DTL 400 10680000 10680000 5340000 
+20221227 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221228 DTL -200 -5240000 5240000  5240000
+20221228 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221229 DTL 200 5240000 5240000 5240000 
+20221229 DTL 400 10500000 10500000 5260000 
+20221229 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221230 DTL -200 -5300000 5300000  5300000
+20221230 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230103 DTL -300 -7800000 7800000  7800000
+20230103 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230104 DTL -200 -5240000 5240000  5240000
+20230104 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230105 DTL -1300 -33980000 33980000  33980000
+20230105 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230106 DTL 0 0 7860000  
+20230106 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230109 DTL -200 -5260000 5260000  5260000
+20230109 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230110 DTL -300 -7890000 7890000  7890000
+20230110 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230113 DTL -300 -7935000 7935000  7935000
+20230113 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230116 DTL -200 -5290000 5290000  5290000
+20230116 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230117 DTL -1300 -34415000 34415000  29095000
+20230117 DTL -1400 -37060000 37060000  2645000
+20230117 DTL -200 -5320000 5320000  5320000
+20230117 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230118 DTL 100 2640000 18720000 10680000 
+20230118 DTL -300 -8040000 8040000  8040000
+20230118 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230119 DTL 400 11420000 11420000 11420000 
+20230119 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230131 DTL 0 310000 11110000  5400000
+20230131 DTL 200 5710000 5710000 5710000 
+20230131 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230201 DTL 200 5400000 5400000 5400000 
+20230201 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230202 DTL 200 5440000 5440000 5440000 
+20230202 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230203 DTL -300 -8190000 8190000  8190000
+20230203 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230206 DTL 0 0 8235000  
+20230206 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 DTL 0 0 8250000  
+20230207 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230208 DTL 200 5460000 5460000 5460000 
+20230208 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230209 DTL 300 8160000 8160000 8160000 
+20230209 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 DTL 0 20000 10900000  5440000
+20230210 DTL 200 5460000 5460000 5460000 
+20230210 DTL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

@@ -1,0 +1,22 @@
+20221228 BDB 0 0 1080000  
+20221228 BDB "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230105 BDB 0 0 1180000  
+20230105 BDB "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230201 BDB -100 -1290000 1290000  1290000
+20230201 BDB -200 -2580000 2580000  1290000
+20230201 BDB "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230206 BDB 0 0 1290000  
+20230206 BDB 0 0 2470000  
+20230206 BDB "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 BDB -1100 -11880000 11880000  11880000
+20230207 BDB 2800 29850000 53610000 38520000 
+20230207 BDB -800 -8670000 15090000 3210000 
+20230207 BDB "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230208 BDB 0 0 1170000  
+20230208 BDB "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230209 BDB 0 0 1250000  
+20230209 BDB 500 6250000 7500000 6250000 
+20230209 BDB "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 BDB 0 0 1250000  
+20230210 BDB 500 6250000 7500000 6250000 
+20230210 BDB "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

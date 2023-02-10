@@ -1,0 +1,14 @@
+20221212 VDT 100 2620000 2620000 2620000 
+20221212 VDT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221216 VDT 100 2600000 2600000 2600000 
+20221216 VDT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221222 VDT 100 2890000 2890000 2890000 
+20221222 VDT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221223 VDT 0 0 2460000  
+20221223 VDT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221227 VDT 0 0 2790000  
+20221227 VDT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 VDT 100 3180000 3180000 3180000 
+20230207 VDT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 VDT 100 3180000 3180000 3180000 
+20230210 VDT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

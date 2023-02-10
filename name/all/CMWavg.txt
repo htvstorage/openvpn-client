@@ -1,0 +1,5 @@
+20230207 CMW 200 2400000 2400000 2400000 
+20230207 CMW -600 -7200000 12000000  9600000
+20230207 CMW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230208 CMW -400 -4760000 4760000  4760000
+20230208 CMW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

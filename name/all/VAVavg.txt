@@ -1,0 +1,70 @@
+20221212 VAV 100 2650000 2650000 2650000 
+20221212 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221213 VAV 0 0 2690000  
+20221213 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221215 VAV 0 0 5320000  
+20221215 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221216 VAV 100 2700000 2700000 2700000 
+20221216 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221220 VAV 0 0 2650000  
+20221220 VAV 100 2650000 5300000 2650000 
+20221220 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221223 VAV 0 0 56760000  
+20221223 VAV 200 5180000 61940000 5180000 
+20221223 VAV 5000 129020000 185780000 123840000 
+20221223 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221227 VAV 0 0 10280000  
+20221227 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221230 VAV 0 0 25500000  
+20221230 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230104 VAV 0 0 2550000  
+20230104 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230105 VAV 0 0 20020000  
+20230105 VAV 0 0 2170000  
+20230105 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230106 VAV -100 -2200000 2200000  2200000
+20230106 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230109 VAV -100 -2240000 2240000  2240000
+20230109 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230111 VAV 300 7500000 7500000 7500000 
+20230111 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230112 VAV 0 0 19630000  
+20230112 VAV 0 0 2130000  
+20230112 VAV 0 0 7130000  
+20230112 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230116 VAV 0 0 2090000  
+20230116 VAV 0 270000 6620000 2400000 
+20230116 VAV -100 -2130000 4220000  2130000
+20230116 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230117 VAV 0 0 2490000  
+20230117 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230118 VAV 0 0 14410000  
+20230118 VAV 0 0 16860000  
+20230118 VAV 0 0 2160000  
+20230118 VAV 0 0 29310000  
+20230118 VAV 1000 26000000 55310000 26000000 
+20230118 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230119 VAV 0 0 2180000  
+20230119 VAV -400 -8800000 10980000  8800000
+20230119 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230127 VAV -100 -2530000 2530000  2530000
+20230127 VAV -200 -5060000 5060000  2530000
+20230127 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230130 VAV 0 0 2220000  
+20230130 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230131 VAV 0 0 2550000  
+20230131 VAV 200 5100000 7650000 5100000 
+20230131 VAV 400 10200000 12750000 5100000 
+20230131 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230201 VAV 0 0 2220000  
+20230201 VAV 400 10800000 13020000 10800000 
+20230201 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230202 VAV 0 0 2230000  
+20230202 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 VAV 0 0 2360000  
+20230207 VAV -200 -4720000 7080000  4720000
+20230207 VAV -200 -4720000 9440000  
+20230207 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230208 VAV -200 -4580000 11660000  
+20230208 VAV -200 -4580000 4580000  4580000
+20230208 VAV "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

@@ -1,0 +1,24 @@
+20221212 VHH 100 600000 600000 600000 
+20221212 VHH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221214 VHH 100 600000 600000 600000 
+20221214 VHH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221223 VHH 100 600000 600000 600000 
+20221223 VHH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221227 VHH 100 600000 600000 600000 
+20221227 VHH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230109 VHH 100 690000 1200000  
+20230109 VHH 100 690000 690000 690000 
+20230109 VHH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230110 VHH 100 690000 690000 690000 
+20230110 VHH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230113 VHH 100 790000 790000 790000 
+20230113 VHH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230118 VHH 100 900000 900000 900000 
+20230118 VHH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230203 VHH 100 1030000 1030000 1030000 
+20230203 VHH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230206 VHH 0 0 900000  
+20230206 VHH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 VHH -100 -900000 900000  900000
+20230207 VHH 1400 12600000 14400000 13500000 
+20230207 VHH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

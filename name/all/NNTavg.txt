@@ -1,0 +1,21 @@
+20221228 NNT 0 0 3490000  
+20221228 NNT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230111 NNT 0 0 2970000  
+20230111 NNT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230119 NNT 200 6820000 6820000 6820000 
+20230119 NNT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230127 NNT 0 0 2900000  
+20230127 NNT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230131 NNT 900 29969999.999999996 29969999.999999996 29969999.999999996 
+20230131 NNT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230202 NNT 0 0 2860000  
+20230202 NNT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230206 NNT -100 -3279999.9999999995 3279999.9999999995  3279999.9999999995
+20230206 NNT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 NNT -200 -6559999.999999999 6559999.999999999  6559999.999999999
+20230207 NNT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230208 NNT 0 0 2900000  
+20230208 NNT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 NNT 0 0 6659999.999999999  
+20230210 NNT 100 3329999.9999999995 9989999.999999998 3329999.9999999995 
+20230210 NNT "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

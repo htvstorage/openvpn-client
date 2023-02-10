@@ -1,0 +1,25 @@
+20221221 SJE 0 0 2630000  
+20221221 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221227 SJE 2000 51870000 51870000 28490000 
+20221227 SJE 900 23380000 23380000 23380000 
+20221227 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230106 SJE -100 -2590000 2590000  2590000
+20230106 SJE -500 -12950000 12950000  10360000
+20230106 SJE -800 -20720000 20720000  7770000
+20230106 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230118 SJE -100 -2550000 2550000  2550000
+20230118 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230127 SJE -100 -2360000 2360000  2360000
+20230127 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230201 SJE -100 -2360000 2360000  2360000
+20230201 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230202 SJE 200 4720000 4720000 4720000 
+20230202 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 SJE -1000 -25000000 25000000  25000000
+20230207 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230209 SJE 300 7500000 7500000 7500000 
+20230209 SJE -400 -10000000 25000000  17500000
+20230209 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 SJE 300 7500000 7500000 7500000 
+20230210 SJE -400 -10000000 25000000  17500000
+20230210 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

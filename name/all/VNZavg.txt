@@ -1,0 +1,18 @@
+20230201 VNZ -100 -33600000 33600000  33600000
+20230201 VNZ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230202 VNZ -100 -38640000 38640000  38640000
+20230202 VNZ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230203 VNZ -100 -44430000 44430000  44430000
+20230203 VNZ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230206 VNZ -100 -51090000 51090000  51090000
+20230206 VNZ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 VNZ -100 -58750000 58750000  58750000
+20230207 VNZ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230208 VNZ -100 -67560000 67560000  67560000
+20230208 VNZ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230209 VNZ -100 -77690000 77690000  77690000
+20230209 VNZ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 VNZ -100 -89340000 89340000  89340000
+20230210 VNZ -200 -178680000 178680000  89340000
+20230210 VNZ -300 -268020000 268020000  89340000
+20230210 VNZ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

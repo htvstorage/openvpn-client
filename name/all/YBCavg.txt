@@ -1,0 +1,45 @@
+20221216 YBC -100 -570000 570000  570000
+20221216 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221219 YBC 0 0 500000  
+20221219 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221221 YBC -100 -440000.00000000006 440000.00000000006  440000.00000000006
+20221221 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221227 YBC -100 -380000 380000  380000
+20221227 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230113 YBC -4000 -17200000 17200000  17200000
+20230113 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230117 YBC 0 0 4900000  
+20230117 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230118 YBC 0 0 5600000  
+20230118 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230119 YBC 100 640000 640000 640000 
+20230119 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230127 YBC 100 720000 720000 720000 
+20230127 YBC -700 -5040000 7920000 720000 
+20230127 YBC -800 -5760000 7200000  6480000
+20230127 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230130 YBC 0 20000 1420000  700000
+20230130 YBC -100 -630000 2070000  650000
+20230130 YBC 100 720000 720000 720000 
+20230130 YBC 900 5570000 8270000 6200000 
+20230130 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230131 YBC 100 730000 730000 730000 
+20230131 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230201 YBC -1300 -8610000 23870000  5940000
+20230201 YBC -400 -2670000 17930000  6400000
+20230201 YBC -500 -3200000 4600000  3200000
+20230201 YBC 600 3730000 11530000 6930000 
+20230201 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230202 YBC -100 -560000 560000  560000
+20230202 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 YBC -100 -480000 480000  480000
+20230207 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230208 YBC 1000 4800000 4800000 4800000 
+20230208 YBC 900 4250000 5350000  550000
+20230208 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230209 YBC -100 -590000 590000  590000
+20230209 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 YBC 0 0 2010000  
+20230210 YBC -100 -660000 2670000  660000
+20230210 YBC -100 -660000 3330000  
+20230210 YBC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

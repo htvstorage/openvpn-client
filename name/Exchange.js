@@ -4,6 +4,7 @@ import log4js from "log4js";
 import http from "node:http";
 import https from "node:https";
 import { resolve } from "path";
+import { start } from "repl";
 
 const httpAgent = new http.Agent({ keepAlive: true });
 const httpsAgent = new https.Agent({ keepAlive: true });
@@ -797,7 +798,8 @@ Exchange.SSI.getlistallsymbol = async function () {
         "referrerPolicy": "strict-origin-when-cross-origin",
         "body": "{\"operationName\":\"stockRealtimes\",\"variables\":{\"exchange\":\"" + e + "\"},\"query\":\"query stockRealtimes($exchange: String) {\\n  stockRealtimes(exchange: $exchange) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    stockType\\n    exchange\\n    prevMatchedPrice\\n    lastMatchedPrice\\n    matchedPrice\\n    matchedVolume\\n    priceChange\\n    priceChangePercent\\n    highest\\n    avgPrice\\n    lowest\\n    nmTotalTradedQty\\n    best1Bid\\n    best1BidVol\\n    best2Bid\\n    best2BidVol\\n    best3Bid\\n    best3BidVol\\n    best4Bid\\n    best4BidVol\\n    best5Bid\\n    best5BidVol\\n    best6Bid\\n    best6BidVol\\n    best7Bid\\n    best7BidVol\\n    best8Bid\\n    best8BidVol\\n    best9Bid\\n    best9BidVol\\n    best10Bid\\n    best10BidVol\\n    best1Offer\\n    best1OfferVol\\n    best2Offer\\n    best2OfferVol\\n    best3Offer\\n    best3OfferVol\\n    best4Offer\\n    best4OfferVol\\n    best5Offer\\n    best5OfferVol\\n    best6Offer\\n    best6OfferVol\\n    best7Offer\\n    best7OfferVol\\n    best8Offer\\n    best8OfferVol\\n    best9Offer\\n    best9OfferVol\\n    best10Offer\\n    best10OfferVol\\n    buyForeignQtty\\n    buyForeignValue\\n    sellForeignQtty\\n    sellForeignValue\\n    caStatus\\n    tradingStatus\\n    remainForeignQtty\\n    currentBidQty\\n    currentOfferQty\\n    session\\n    __typename\\n  }\\n}\\n\"}",
         "method": "POST",
-        "mode": "cors"
+        "mode": "cors",
+        agent
       });
       let data = await a.json();
       ret.push(...data.data.stockRealtimes);
@@ -884,3 +886,95 @@ Exchange.SSI.getlistallsymbol = async function () {
   return ret;
 }
 
+Exchange.VCBS = function () { }
+Exchange.VCBS.priceBoard = async function (code) {
+  let a = await fetch("https://priceboard.vcbs.com.vn/PriceBoard/Acc/amw", {
+    "headers": {
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "content-type": "application/json",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "x-requested-with": "XMLHttpRequest",
+      "cookie": "_ga=GA1.3.1462273620.1676000765; _gid=GA1.3.531209726.1676000765; ASPSESSIONIDQGTATBRQ=DLMJOOMCMMCHNKALIEEGHGFB; ASP.NET_SessionId=egc5dlcqa0cqvj5ckgnfblkc; delChartCookie=2; viewIdselectTab=1; critIdselectTab=-11; groupIdTab=; TabIdselectTab=4; LISTSETTINGMKT=%7C%7CCookie%7C%7CHOSE%7C%7CCookie%7C%7C30%7C%7CCookie%7C%7CHNX%7C%7CCookie%7C%7CHNX30%7C%7CCookie%7C%7CUPCOM%7C%7CCookie%7C%7CHNXMan%7C%7CCookie%7C%7CHNXFin%7C%7CCookie%7C%7CSML%7C%7CCookie%7C%7CMID%7C%7CCookie%7C%7CALL%7C%7CCookie%7C%7CXALL%7C%7CCookie%7C%7C100%7C%7CCookie%7C%7CHNXCON%7C%7CCookie%7C%7CETF%7C%7CCookie%7C%7CHNXMSCap%7C%7CCookie%7C%7CHNX30TRI%7C%7CCookie%7C%7CHNXLCap%7C%7CCookie%7C%7CX50%7C%7CCookie%7C%7CSI; checkAllMkt=true; HOSE=true; 30=true; HNX=true; HNX30=true; UPCOM=true; HNXFin=true; SML=true; MID=true; ALL=true; XALL=true; 100=true; HNXMan=true; HNXCON=true; ETF=true; HNXMSCap=true; HNX30TRI=true; HNXLCap=true; X50=true; SI=true; s_8_s=false"
+    },
+    "referrer": "https://priceboard.vcbs.com.vn/Priceboard",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": "{\"selectedStocks\":\"" + code + "\",\"criteriaId\":1,\"marketId\":0,\"lastSeq\":0,\"isReqTL\":true,\"isReqMK\":false,\"tlSymbol\":\"" + code + "\",\"pthMktId\":\"\",\"isIncrValue\":true,\"isOddLot\":false}",
+    "method": "POST",
+    "mode": "cors",
+    agent
+  });
+
+  let data = await a.json();
+  let his = data.tl.f.map(e => {
+    let o = {};
+    o.symbol = e.s;
+    o.time = e.f.i[0];
+    o.price = e.f.i[1];
+    o.change = e.f.i[2];
+    o.vol = e.f.i[3];
+    o.total = e.f.i[4];
+    o.side = e.f.i[5];
+    return o;
+  })
+  his.reverse();
+  // console.table(data.data.leTables)
+  return { Code: code, data: his, };
+}
+
+Exchange.MBS = function () { }
+Exchange.MBS.pbRltCharts = async function (code) {
+
+  let start = 1421028900;
+  let end = Math.floor(Date.now() / 1000);
+  let out = { t: [], v: [], o: [], c: [], h: [], l: [] };
+  while (true) {
+    let a = await fetch("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution="+"1"+"&from=" + start + "&to=" + end, {
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "content-type": "text/plain",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site"
+      },
+      "referrer": "https://sweb.mbs.com.vn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": null,
+      "method": "GET",
+      "mode": "cors",
+      agent
+    });
+    let z = await a.json();
+    if (z.t.length == 0) {
+      break;
+    } else if (z.t.at(-1) == start) {
+      out.t.push(...z.t);
+      out.v.push(...z.v);
+      out.o.push(...z.o);
+      out.c.push(...z.c);
+      out.h.push(...z.h);
+      out.l.push(...z.l);
+      break;
+    } else {
+      out.t.push(...z.t);
+      out.v.push(...z.v);
+      out.o.push(...z.o);
+      out.c.push(...z.c);
+      out.h.push(...z.h);
+      out.l.push(...z.l);
+      start = z.t.at(-1);
+    }
+  }
+
+ out= out.t.map((e, i) => {
+    return { symbol: code, time: out.t[i], close: out.c[i], open: out.o[i], high: out.h[i], low: out.l[i] }
+  })
+  return { Code: code, data: out, };
+}

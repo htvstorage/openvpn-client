@@ -1,0 +1,44 @@
+20221214 QTC -40500 -526500000 526500000  526500000
+20221214 QTC -40800 -530430000 530430000  3930000
+20221214 QTC -64500 -836080000 877380000 20650000 
+20221214 QTC -65500 -851530000 851530000  321100000
+20221214 QTC -65600 -852830000 852830000  1300000
+20221214 QTC -65900 -856730000 856730000  3900000
+20221214 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221219 QTC 42000 684600000 684600000 684600000 
+20221219 QTC 42000 684600000 686120000  
+20221219 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221220 QTC 42000 684600000 684600000 684600000 
+20221220 QTC 42000 684600000 686120000  
+20221220 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221226 QTC -100 -1400000 1400000  1400000
+20221226 QTC -200 -2800000 2800000  1400000
+20221226 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221227 QTC 100 1400000 1400000 1400000 
+20221227 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221229 QTC -46000 -644000000 644000000  644000000
+20221229 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230109 QTC 100 1400000 1400000 1400000 
+20230109 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230111 QTC 0 0 1400000  
+20230111 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230113 QTC 700 9800000 9800000 9800000 
+20230113 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230116 QTC 0 0 1260000  
+20230116 QTC 100 1400000 124100000  
+20230116 QTC 100 1400000 2660000 1400000 
+20230116 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230117 QTC 300 4140000 4140000 4140000 
+20230117 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230119 QTC 0 0 1370000  
+20230119 QTC 100 1380000 2750000 1380000 
+20230119 QTC 200 2760000 4130000 1380000 
+20230119 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230131 QTC 100 1380000 1380000 1380000 
+20230131 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230202 QTC 100 1380000 1380000 1380000 
+20230202 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 QTC 200 2760000 2760000 2760000 
+20230207 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 QTC 0 0 1380000  
+20230210 QTC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

@@ -1,0 +1,66 @@
+20221212 QHW 1000 22000000 22000000 22000000 
+20221212 QHW -1000 -22000000 66000000  44000000
+20221212 QHW -1100 -24200000 68200000  2200000
+20221212 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221214 QHW 0 0 11000000  2200000
+20221214 QHW 100 2200000 2200000 2200000 
+20221214 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221215 QHW 700 14700000 14700000 14700000 
+20221215 QHW 700 14700000 21000000  
+20221215 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221216 QHW 0 0 2410000  
+20221216 QHW -1000 -20000000 22410000  10000000
+20221216 QHW -500 -10000000 12410000  10000000
+20221216 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221220 QHW 0 0 2340000  
+20221220 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221222 QHW 0 0 139360000  
+20221222 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221226 QHW 1000 22800000 22800000 22800000 
+20221226 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230103 QHW 300 6750000 6750000 6750000 
+20230103 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230105 QHW -1500 -30000000 30000000  30000000
+20230105 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230110 QHW -100 -1700000 1700000  1700000
+20230110 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230113 QHW 100 1950000 1950000 1950000 
+20230113 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230116 QHW 100 1660000.0000000002 1660000.0000000002 1660000.0000000002 
+20230116 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230118 QHW 0 0 1450000  
+20230118 QHW 0 0 3350000  
+20230118 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230119 QHW 0 480000 3380000 1930000 
+20230119 QHW -100 -1450000 1450000  1450000
+20230119 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230127 QHW -100 -1460000 1460000  1460000
+20230127 QHW -100 -1460000 3400000  
+20230127 QHW -100 -1460000 5340000  
+20230127 QHW 400 8240000 15040000 9700000 
+20230127 QHW 500 10180000 16980000 1939999.9999999998 
+20230127 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230130 QHW -100 -1630000 1630000  1630000
+20230130 QHW 100 2470000 5730000 4100000 
+20230130 QHW 200 4520000 7780000 2050000 
+20230130 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230131 QHW -100 -2000000 2000000  2000000
+20230131 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230201 QHW -100 -2150000 2150000  2150000
+20230201 QHW -700 -15050000 15050000  12900000
+20230201 QHW -700 -15050000 21500000  
+20230201 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230202 QHW 0 0 1830000  
+20230202 QHW 100 2470000 4300000 2470000 
+20230202 QHW 500 11070000 12900000 8600000 
+20230202 QHW 500 11070000 15050000  
+20230202 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230203 QHW 0 0 2460000  
+20230203 QHW -300 -6450000 8910000  6450000
+20230203 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230206 QHW 0 0 2560000  
+20230206 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 QHW -100 -2180000 2180000  2180000
+20230207 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230209 QHW -100 -2180000 2180000  2180000
+20230209 QHW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

@@ -1,0 +1,29 @@
+20221212 PWS 100 940000 1880000  
+20221212 PWS 100 940000 940000 940000 
+20221212 PWS 300 2820000 3760000 1880000 
+20221212 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221216 PWS 0 0 1080000  
+20221216 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221219 PWS 100 1200000 1200000 1200000 
+20221219 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221221 PWS 100 1200000 1200000 1200000 
+20221221 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221222 PWS 100 1380000 1380000 1380000 
+20221222 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230105 PWS 0 0 2920000  
+20230105 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230112 PWS 300 3630000 3630000 3630000 
+20230112 PWS 400 4840000 4840000 1210000 
+20230112 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230113 PWS -300 -3300000 3300000  3300000
+20230113 PWS -500 -5500000 5500000  2200000
+20230113 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230118 PWS 100 1100000 1100000 1100000 
+20230118 PWS 200 2200000 2200000 1100000 
+20230118 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 PWS 200 2200000 2200000 2200000 
+20230207 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230209 PWS 0 0 3300000  
+20230209 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 PWS -100 -940000 940000  940000
+20230210 PWS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

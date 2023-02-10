@@ -1,0 +1,36 @@
+20221212 MQN 100 2450000 2450000 2450000 
+20221212 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221216 MQN -200 -4600000 4600000  4600000
+20221216 MQN -400 -9200000 9200000  4600000
+20221216 MQN -500 -11500000 11500000  2300000
+20221216 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221220 MQN -200 -4600000 4600000  4600000
+20221220 MQN -400 -9200000 9200000  4600000
+20221220 MQN -500 -11500000 11500000  2300000
+20221220 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221221 MQN -500 -11250000 11250000  11250000
+20221221 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221227 MQN 0 0 2570000  
+20221227 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221230 MQN 0 0 2930000  
+20221230 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230119 MQN 0 0 3279999.9999999995  
+20230119 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230127 MQN -100 -2800000 2800000  2800000
+20230127 MQN -100 -2800000 6090000  
+20230127 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230131 MQN 0 0 5200000 2600000 
+20230131 MQN -100 -2600000 2600000  2600000
+20230131 MQN 300 7800000 13000000 7800000 
+20230131 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230201 MQN -400 -8880000 8880000  8880000
+20230201 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230202 MQN 100 2490000 2490000 2490000 
+20230202 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 MQN 0 0 2300000  
+20230207 MQN 0 0 4600000  
+20230207 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230209 MQN 100 2300000 2300000 2300000 
+20230209 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 MQN 100 2300000 2300000 2300000 
+20230210 MQN "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

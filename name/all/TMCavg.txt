@@ -1,0 +1,43 @@
+20221213 TMC 0 0 1200000  
+20221213 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221214 TMC 0 0 1250000  
+20221214 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221215 TMC 0 0 1250000  
+20221215 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221219 TMC 0 0 1290000  
+20221219 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221220 TMC 100 1170000 1170000 1170000 
+20221220 TMC 300 3510000 3510000 2340000 
+20221220 TMC 400 4680000 4680000 1170000 
+20221220 TMC 600 7020000 12870000  
+20221220 TMC 600 7020000 14070000  
+20221220 TMC 600 7020000 7020000 2340000 
+20221220 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221227 TMC 100 1250000 1250000 1250000 
+20221227 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221228 TMC 100 1280000 44680000 1280000 
+20221228 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230106 TMC -200 -2360000 2360000  2360000
+20230106 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230109 TMC 1000 11500000 11500000 11500000 
+20230109 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230110 TMC 1000 11500000 11500000 11500000 
+20230110 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230113 TMC -200 -2080000 2080000  2080000
+20230113 TMC -25200 -262080000 262080000  260000000
+20230113 TMC -30200 -314080000 314080000  52000000
+20230113 TMC -35200 -366080000 366080000  52000000
+20230113 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230117 TMC 0 0 1100000  
+20230117 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230130 TMC 300 3540000 3540000 3540000 
+20230130 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230201 TMC -100 -1100000 1100000  1100000
+20230201 TMC -400 -4400000 4400000  3300000
+20230201 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230203 TMC 200 2200000 2200000 2200000 
+20230203 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 TMC 0 0 52500000  
+20230207 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 TMC 0 0 2100000  
+20230210 TMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

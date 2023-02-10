@@ -1,0 +1,15 @@
+20230116 VTJ 0 0 380000  
+20230116 VTJ -100 -350000 1130000  
+20230116 VTJ -100 -350000 730000  350000
+20230116 VTJ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230117 VTJ -200 -720000 720000  720000
+20230117 VTJ -300 -1080000 1080000  360000
+20230117 VTJ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230130 VTJ 500 1950000 1950000 1950000 
+20230130 VTJ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 VTJ 0 0 720000  
+20230207 VTJ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230209 VTJ -100 -330000 330000  330000
+20230209 VTJ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 VTJ -100 -310000 310000  310000
+20230210 VTJ "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

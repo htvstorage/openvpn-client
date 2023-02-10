@@ -1,0 +1,51 @@
+20221213 ICI 200 1420000 1420000 1420000 
+20221213 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230103 ICI 0 0 1220000  
+20230103 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230105 ICI 0 0 530000  
+20230105 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230106 ICI 100 470000 470000 470000 
+20230106 ICI 300 1650000 1650000 1180000 
+20230106 ICI 300 1650000 2120000  
+20230106 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230110 ICI 100 530000 530000 530000 
+20230110 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230111 ICI 200 1180000 1180000 1180000 
+20230111 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230112 ICI 200 1300000 1300000 1300000 
+20230112 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230113 ICI -3000 -16800000 16800000  16800000
+20230113 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230116 ICI 500 3150000 3150000 3150000 
+20230116 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230117 ICI 200 1400000 1400000 1400000 
+20230117 ICI 300 1940000 1940000 540000 
+20230117 ICI 400 2480000 2480000 540000 
+20230117 ICI 800 4640000 4640000 2160000 
+20230117 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230119 ICI 0 0 640000  
+20230119 ICI -100 -580000 1220000  580000
+20230119 ICI 800 5360000 7160000 5940000 
+20230119 ICI 800 5360000 9140000  
+20230119 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230127 ICI 200 1440000 1440000 1440000 
+20230127 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230201 ICI 1200 7440000 7440000 6200000 
+20230201 ICI 200 1240000 1240000 1240000 
+20230201 ICI 2200 13640000 13640000 6200000 
+20230201 ICI 2400 14880000 14880000 1240000 
+20230201 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230202 ICI 200 1400000 1400000 1400000 
+20230202 ICI 300 2050000 2050000 650000 
+20230202 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230203 ICI -7900 -45820000 45820000  45820000
+20230203 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 ICI 100 650000 650000 650000 
+20230207 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230208 ICI 100 690000 690000 690000 
+20230208 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 ICI 1200 7080000 7080000 7080000 
+20230210 ICI 1300 7670000 7670000 590000 
+20230210 ICI 2700 15930000 15930000 8260000 
+20230210 ICI 2800 16520000 16520000 590000 
+20230210 ICI "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

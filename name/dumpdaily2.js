@@ -90,6 +90,11 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         csv = new Parser({ fields: ["id", "symbol", "truncTime", "matchType", "matchVol", "matchPrice", "accumulatedVolume", "createdAt", "updatedAt"] });
         fun = Exchange.VCI.getAll;
         break;
+      case "VCBS":
+        dir += "./vcbstrans/" + getNow() + "/";
+        csv = new Parser({ fields: ['symbol','time','price','change','vol','total','side'] });
+        fun = Exchange.VCBS.priceBoard;
+        break;
     }
 
     if (!fs.existsSync(dir)) {

@@ -1,0 +1,35 @@
+20221212 KHD 100 680000 680000 680000 
+20221212 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221214 KHD 0 0 740000  
+20221214 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221223 KHD 300 2550000 2550000 2550000 
+20221223 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221226 KHD 100 860000 1530000  
+20221226 KHD 100 860000 860000 860000 
+20221226 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230113 KHD 0 0 750000  
+20230113 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230117 KHD 0 0 1300000  650000
+20230117 KHD -1000 -6500000 20800000  9750000
+20230117 KHD 1000 6500000 7800000 6500000 
+20230117 KHD 100 650000 650000 650000 
+20230117 KHD -1100 -7150000 21450000  650000
+20230117 KHD -1100 -7150000 27300000  
+20230117 KHD 500 3250000 11050000  3250000
+20230117 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230118 KHD 200 1480000 1480000 1480000 
+20230118 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230202 KHD 5000 41000000 41820000 41000000 
+20230202 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230206 KHD -100 -700000 700000  700000
+20230206 KHD -1100 -7700000 7700000  7000000
+20230206 KHD -2100 -14700000 14700000  7000000
+20230206 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 KHD 100 790000 790000 790000 
+20230207 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230209 KHD -200 -1580000 1580000  1580000
+20230209 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230210 KHD -200 -1360000 1360000  1360000
+20230210 KHD -200 -1360000 2720000  
+20230210 KHD -700 -4760000 6120000  3400000
+20230210 KHD "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
