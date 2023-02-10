@@ -8,7 +8,16 @@ import Table from "tty-table";
 import CliTable3 from "cli-table3";
 import chalk from "chalk";
 var logger = log4js.getLogger();
+import { Console } from 'node:console'
+import { Transform } from 'node:stream'
 
+const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
+const log = new Console({ stdout: ts })
+
+function getTable(data) {
+  log.table(data)
+  return (ts.read() || '').toString()
+}
 
 log4js.configure({
   appenders: {
@@ -48,11 +57,15 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   let deltaBatch = {};
 
   let intervalGet;
+  let dir = "topdudinh"
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
 
   let asyncBatch = async () => {
     while (true) {
       // console.log("Console " + Date.now())
-      let from = Date.now() + 7 * 60 * 60 * 1000 - 6* 50 * 60 * 1000;
+      let from = Date.now() + 7 * 60 * 60 * 1000 - 6 * 50 * 60 * 1000;
       function date2str(date) {
         let t = date.getFullYear() + "-"
           + (date.getMonth() + 1 < 10 ? ("0" + (date.getMonth() + 1)) : date.getMonth() + 1) + "-"
@@ -68,11 +81,11 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
           res: 0
         }
         let table = [];
-        let promise = new Promise(async(resolve) => {
+        let promise = new Promise(async (resolve) => {
           let ret = {};
           for (let symbol of listSymbol) {
             stat.req++;
-            if(stat.req - stat.res >= 200){
+            if (stat.req - stat.res >= 200) {
               await wait(100);
             }
             let z = Exchange.transaction(symbol, 2000000);
@@ -178,6 +191,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
             clitable.push([i, ...coloring(e)]);
           })
           // console.log(clitable.toString())
+          fs.appendFileSync(dir + "/change.log", getTable(table.slice(0, 15)) + "\n", (e) => { });
           let tb1 = clitable.toString();
           clitable = new CliTable3({ head: ['(Change2)', ...Object.keys(table[0])] })
 
@@ -186,14 +200,15 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
           })
           // console.log(clitable.toString())
           let tb2 = clitable.toString();
-          
-          let a1= tb1.split("\n");
-          let a2= tb2.split("\n");
-          let z = a1.map((v,i)=>{
-            return v + "   " + a2[i] +"\n"
+
+          let a1 = tb1.split("\n");
+          let a2 = tb2.split("\n");
+          let z = a1.map((v, i) => {
+            return v + "   " + a2[i] + "\n"
           })
-          let c= z.reduce((a,b)=> a+b,"");
+          let c = z.reduce((a, b) => a + b, "");
           console.log(c)
+          fs.appendFileSync(dir + "/change.log", getTable(table.slice(table.length - 15, table.length)) + "\n", (e) => { });
 
         });
 
@@ -391,8 +406,10 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         table.forEach((e, i) => {
           clitable.push([i, ...coloring(e)]);
         })
+        let dudinh = clitable.toString();
+        console.log(dudinh)
+        fs.appendFileSync(dir+"/dudinh.log", getTable(table)+"\n", (e)=>{});
 
-        console.log(clitable.toString())
       }
 
       // str.push(clitable.toString())
@@ -421,8 +438,11 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         clitable.push([i, ...coloring(e)]);
       })
 
-      console.log(clitable.toString())
+      // console.log(clitable.toString())
       // str.push(clitable.toString())
+      let dudinh = clitable.toString();
+      console.log(dudinh)
+      fs.appendFileSync(dir+"/topG1.log", getTable(table)+"\n", (e)=>{});
 
 
       let x = []
@@ -461,7 +481,10 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         clitable.push([i, ...coloring(e)]);
       })
 
-      console.log(clitable.toString())
+      // console.log(clitable.toString())
+      let tps = clitable.toString();
+      console.log(tps)
+      fs.appendFileSync(dir+"/tps.log", getTable(table)+"\n", (e)=>{});
       // str.push(clitable.toString())
 
       // console.log("======================VOL=======================")
@@ -490,7 +513,11 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         clitable.push([i, ...coloring(e)]);
       })
 
-      console.log(clitable.toString())
+      let vol = clitable.toString();
+      console.log(vol)
+      
+      fs.appendFileSync(dir+"/vol.log", getTable(table)+"\n", (e)=>{});
+      // console.log(clitable.toString())
       // str.push(clitable.toString())
 
       // console.log(str[0],"\n",str[1],"\n",str[2],"\n",str[3])
