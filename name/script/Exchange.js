@@ -655,8 +655,8 @@ Exchange.VietStock = function () {
 
 }
 Exchange.VietStock.GetStockDealDetail = async function (code) {
-
-  let a = await fetch("https://finance.vietstock.vn/data/getstockdealdetail", {
+  let vietFetch = async(code)=>{
+    return await fetch("https://finance.vietstock.vn/data/getstockdealdetail", {
     "headers": {
       "accept": "*/*",
       "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -676,7 +676,16 @@ Exchange.VietStock.GetStockDealDetail = async function (code) {
     "mode": "cors",
     agent
   });
-  let data = await a.json();
+  }
+  let a = await vietFetch(code);
+
+  let data = await a.text();
+  while(!data.startsWith("[")){
+    await Exchange.wait(200);
+    a = await vietFetch(code);
+    data = await a.text();
+  }
+  data = JSON.parse(data);
   // console.table(data);
   return { Code: code, data: data };
 }
@@ -749,28 +758,45 @@ Exchange.SSI = function () {
 Exchange.SSI.graphql = async function (code) {
   let stockNo = map[code];
   if (stockNo == undefined) { }
-  let a = await fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
-    "headers": {
-      "accept": "*/*",
-      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-      "content-type": "application/json",
-      "g-captcha": "",
-      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-      "sec-ch-ua-mobile": "?0",
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-site"
-    },
-    "referrer": "https://iboard.ssi.com.vn/",
-    "referrerPolicy": "strict-origin-when-cross-origin",
-    "body": "{\"operationName\":\"leTables\",\"variables\":{\"stockNo\":\"" + stockNo + "\"},\"query\":\"query leTables($stockNo: String) {\\n  leTables(stockNo: $stockNo) {\\n    stockNo\\n    price\\n    vol\\n    accumulatedVol\\n    time\\n    ref\\n    side\\n    priceChange\\n    priceChangePercent\\n    changeType\\n    __typename\\n  }\\n  stockRealtime(stockNo: $stockNo) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    __typename\\n  }\\n}\\n\"}",
-    "method": "POST",
-    "mode": "cors",
-    agent
-  });
 
-  let data = await a.json();
-  // console.table(data.data.leTables)
+  let fetchGQL = (stockNo) => {
+    return fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "content-type": "application/json",
+        "g-captcha": "",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site"
+      },
+      "referrer": "https://iboard.ssi.com.vn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": "{\"operationName\":\"leTables\",\"variables\":{\"stockNo\":\"" + stockNo + "\"},\"query\":\"query leTables($stockNo: String) {\\n  leTables(stockNo: $stockNo) {\\n    stockNo\\n    price\\n    vol\\n    accumulatedVol\\n    time\\n    ref\\n    side\\n    priceChange\\n    priceChangePercent\\n    changeType\\n    __typename\\n  }\\n  stockRealtime(stockNo: $stockNo) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    __typename\\n  }\\n}\\n\"}",
+      "method": "POST",
+      "mode": "cors",
+      agent
+    });
+  }
+  let a = await fetchGQL(stockNo);
+  let data = await a.text();
+  data = data.trim();
+
+  while (!(data.startsWith("{") && data.endsWith("}"))) {
+    if (logger.isDebugEnabled) {
+      logger.debug(data)
+    }
+    await Exchange.wait(200);
+
+    a = await fetchGQL(stockNo);
+    data = await a.text();
+    data = data.trim();
+  }
+  Exchange.wait()
+  data = JSON.parse(data);
+  // console.table(data.data.leTables)  
   return { Code: code, data: data.data.leTables, stockRealtime: data.data.stockRealtime };
 }
 
@@ -932,13 +958,13 @@ Exchange.MBS.pbRltCharts = async function (code, resolution) {
   let start = 1421028900;
   let end = Math.floor(Date.now() / 1000);
   let out = { t: [], v: [], o: [], c: [], h: [], l: [] };
-  let resol = ["1","5","60","D"]
-  if(!resol.includes(resolution)){
+  let resol = ["1", "5", "60", "D"]
+  if (!resol.includes(resolution)) {
     resolution = "5";
   }
   // console.log("resolution",resolution)
   while (true) {
-    let a = await fetch("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution="+resolution+"&from=" + start + "&to=" + end, {
+    let a = await fetch("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution=" + resolution + "&from=" + start + "&to=" + end, {
       "headers": {
         "accept": "*/*",
         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -978,8 +1004,8 @@ Exchange.MBS.pbRltCharts = async function (code, resolution) {
     }
   }
 
- out= out.t.map((e, i) => {
-    return { symbol: code, time: out.t[i], close: out.c[i], open: out.o[i], high: out.h[i], low: out.l[i], vol:out.v[i] }
+  out = out.t.map((e, i) => {
+    return { symbol: code, time: out.t[i], close: out.c[i], open: out.o[i], high: out.h[i], low: out.l[i], vol: out.v[i] }
   })
   return { Code: code, data: out, };
 }

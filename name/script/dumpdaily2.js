@@ -84,6 +84,14 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         csv = new Parser({ fields: ["stockNo", "price", "vol", "accumulatedVol", "time", "ref", "side", "priceChange", "priceChangePercent", "changeType", "__typename"] });
         fun = Exchange.SSI.graphql;
         dir2 = "./trans/" + getNow() + "/";
+        if (!fs.existsSync(dir2)) {
+          fs.mkdirSync(dir2, { recursive: true });
+        } else {
+          let files = fs.readdirSync(dir2);
+          for (const file of files) {
+            fs.unlinkSync(path.join(dir2, file));
+          }
+        }
         break;
       case "TCBS":
         dir += "./tcbstrans/" + getNow() + "/";
@@ -111,24 +119,17 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       }
     }
 
-    if (!fs.existsSync(dir2)) {
-      fs.mkdirSync(dir2, { recursive: true });
-    } else {
-      let files = fs.readdirSync(dir2);
-      for (const file of files) {
-        fs.unlinkSync(path.join(dir2, file));
-      }
-    }
+
     logger.debug("Done remove directory ", dir);
 
     let stat = { req: 0, res: 0 }
     cop = ssiCop;
-
+    total_check = cop.length;
     for (let x of cop) {
       x['Code'] = x.stock_code;
       if (x.Code.length < 4) {
         logger.trace(x.Code);
-        while (stat.req - stat.res >= 10) {
+        while (stat.req - stat.res >= 500) {
           await wait(200);
         }
         // let z = getTrans(x.Code);
