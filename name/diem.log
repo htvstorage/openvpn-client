@@ -241,3 +241,1641 @@
 [2023-02-10T03:35:03.801] [DEBUG] default - Done remove directory  ./trans/20230210/
 [2023-02-10T03:35:37.070] [INFO] default - Checking 0 0
 [2023-02-10T03:35:37.072] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:36:07.576] [INFO] default - Checking 0 0
+[2023-02-10T03:36:07.577] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:36:38.273] [INFO] default - Checking 0 0
+[2023-02-10T03:36:38.275] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:36:39.094] [INFO] default - Checking 0 0
+[2023-02-10T03:36:39.128] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:36:57.784] [INFO] default - Done 20230210 18.689 ms
+[2023-02-10T03:37:06.780] [INFO] default - Checking 0 0
+[2023-02-10T03:37:06.782] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:37:39.722] [INFO] default - Checking 0 0
+[2023-02-10T03:37:39.723] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:38:10.675] [INFO] default - Checking 0 0
+[2023-02-10T03:38:10.677] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:38:41.029] [INFO] default - Checking 0 0
+[2023-02-10T03:38:41.031] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:39:12.940] [INFO] default - Checking 0 0
+[2023-02-10T03:39:12.942] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:39:42.279] [INFO] default - Checking 0 0
+[2023-02-10T03:39:42.281] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:40:13.180] [INFO] default - Checking 0 0
+[2023-02-10T03:40:13.182] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:40:30.831] [INFO] default - Checking 0 0
+[2023-02-10T03:40:30.864] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:40:43.347] [INFO] default - Checking 0 0
+[2023-02-10T03:40:43.348] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:40:51.439] [INFO] default - Done 20230210 20.607 ms
+[2023-02-10T03:41:13.258] [INFO] default - Checking 0 0
+[2023-02-10T03:41:13.259] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:41:43.169] [INFO] default - Checking 0 0
+[2023-02-10T03:41:43.171] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:42:13.060] [INFO] default - Checking 0 0
+[2023-02-10T03:42:13.063] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:42:42.938] [INFO] default - Checking 0 0
+[2023-02-10T03:42:42.940] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:42:53.916] [INFO] default - Checking 0 0
+[2023-02-10T03:42:53.918] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230210/
+[2023-02-10T03:43:10.866] [INFO] default - Checking 0 0
+[2023-02-10T03:43:10.875] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230210/
+[2023-02-10T03:43:14.131] [INFO] default - Checking 0 0
+[2023-02-10T03:43:14.132] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:43:19.066] [INFO] default - Done 20230210 8.198 ms
+[2023-02-10T03:43:34.838] [INFO] default - Checking 0 0
+[2023-02-10T03:43:34.839] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcitrans/20230210/
+[2023-02-10T03:43:49.173] [INFO] default - Checking 0 0
+[2023-02-10T03:43:49.175] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:43:56.129] [INFO] default - Checking 0 0
+[2023-02-10T03:43:56.145] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcitrans/20230210/
+[2023-02-10T03:44:05.136] [INFO] default - Checking 0 0
+[2023-02-10T03:44:05.140] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcitrans/20230210/
+[2023-02-10T03:44:14.931] [INFO] default - Checking 0 0
+[2023-02-10T03:44:14.936] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcitrans/20230210/
+[2023-02-10T03:44:19.507] [INFO] default - Checking 0 0
+[2023-02-10T03:44:19.509] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:44:25.119] [INFO] default - Checking 0 0
+[2023-02-10T03:44:25.156] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:44:34.791] [INFO] default - Checking 0 0
+[2023-02-10T03:44:34.792] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vietstocktrans/20230210/
+[2023-02-10T03:44:41.443] [INFO] default - Done 20230210 16.323 ms
+[2023-02-10T03:44:48.189] [INFO] default - Checking 0 0
+[2023-02-10T03:44:48.191] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:45:23.458] [INFO] default - Checking 0 0
+[2023-02-10T03:45:23.460] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:45:34.014] [INFO] default - Done 20230210 59.222 ms
+[2023-02-10T03:45:49.435] [INFO] default - Checking 0 0
+[2023-02-10T03:45:49.436] [DEBUG] default - Done remove directory  /workspace/stockstorage/./tcbstrans/20230210/
+[2023-02-10T03:45:54.721] [INFO] default - Checking 0 0
+[2023-02-10T03:45:54.723] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:45:59.411] [INFO] default - Done 20230210 9.975 ms
+[2023-02-10T03:46:25.433] [INFO] default - Checking 0 0
+[2023-02-10T03:46:25.435] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:46:56.936] [INFO] default - Checking 0 0
+[2023-02-10T03:46:56.938] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:47:27.498] [INFO] default - Checking 0 0
+[2023-02-10T03:47:27.500] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:47:58.572] [INFO] default - Checking 0 0
+[2023-02-10T03:47:58.573] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:48:14.563] [INFO] default - Checking 0 0
+[2023-02-10T03:48:14.596] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:48:28.565] [INFO] default - Checking 0 0
+[2023-02-10T03:48:28.567] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:48:33.437] [INFO] default - Done 20230210 18.873 ms
+[2023-02-10T03:49:00.671] [INFO] default - Checking 0 0
+[2023-02-10T03:49:00.672] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:49:34.214] [INFO] default - Checking 0 0
+[2023-02-10T03:49:34.217] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:50:04.772] [INFO] default - Checking 0 0
+[2023-02-10T03:50:04.775] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:50:38.149] [INFO] default - Checking 0 0
+[2023-02-10T03:50:38.150] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:51:09.245] [INFO] default - Checking 0 0
+[2023-02-10T03:51:09.247] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:51:42.727] [INFO] default - Checking 0 0
+[2023-02-10T03:51:42.728] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:52:07.152] [INFO] default - Checking 0 0
+[2023-02-10T03:52:07.190] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:52:14.065] [INFO] default - Checking 0 0
+[2023-02-10T03:52:14.066] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:52:26.505] [INFO] default - Done 20230210 19.352 ms
+[2023-02-10T03:52:45.441] [INFO] default - Checking 0 0
+[2023-02-10T03:52:45.443] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:53:16.309] [INFO] default - Checking 0 0
+[2023-02-10T03:53:16.310] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:53:46.533] [INFO] default - Checking 0 0
+[2023-02-10T03:53:46.535] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:54:17.403] [INFO] default - Checking 0 0
+[2023-02-10T03:54:17.405] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:54:51.368] [INFO] default - Checking 0 0
+[2023-02-10T03:54:51.369] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:55:22.474] [INFO] default - Checking 0 0
+[2023-02-10T03:55:22.476] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:55:53.649] [INFO] default - Checking 0 0
+[2023-02-10T03:55:53.651] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:56:00.401] [INFO] default - Checking 0 0
+[2023-02-10T03:56:00.438] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:56:14.435] [INFO] default - Done 20230210 14.033 ms
+[2023-02-10T03:56:24.657] [INFO] default - Checking 0 0
+[2023-02-10T03:56:24.659] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:56:54.955] [INFO] default - Checking 0 0
+[2023-02-10T03:56:54.957] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:57:27.009] [INFO] default - Checking 0 0
+[2023-02-10T03:57:27.011] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:57:57.515] [INFO] default - Checking 0 0
+[2023-02-10T03:57:57.517] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:58:30.315] [INFO] default - Checking 0 0
+[2023-02-10T03:58:30.317] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:59:00.584] [INFO] default - Checking 0 0
+[2023-02-10T03:59:00.586] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:59:32.633] [INFO] default - Checking 0 0
+[2023-02-10T03:59:32.635] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:59:47.752] [INFO] default - Checking 0 0
+[2023-02-10T03:59:47.788] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T03:59:57.119] [INFO] default - Checking 0 0
+[2023-02-10T03:59:57.120] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:00:04.054] [INFO] default - Done 20230210 16.301 ms
+[2023-02-10T04:00:21.374] [INFO] default - Checking 0 0
+[2023-02-10T04:00:21.376] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:00:51.463] [INFO] default - Checking 0 0
+[2023-02-10T04:00:51.464] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:01:22.313] [INFO] default - Checking 0 0
+[2023-02-10T04:01:22.315] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:01:54.993] [INFO] default - Checking 0 0
+[2023-02-10T04:01:54.995] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:02:27.960] [INFO] default - Checking 0 0
+[2023-02-10T04:02:27.962] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:03:00.272] [INFO] default - Checking 0 0
+[2023-02-10T04:03:00.274] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:03:33.047] [INFO] default - Checking 0 0
+[2023-02-10T04:03:33.049] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:03:37.940] [INFO] default - Checking 0 0
+[2023-02-10T04:03:37.976] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:03:57.154] [INFO] default - Done 20230210 19.213 ms
+[2023-02-10T04:04:05.794] [INFO] default - Checking 0 0
+[2023-02-10T04:04:05.795] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:04:41.194] [INFO] default - Checking 0 0
+[2023-02-10T04:04:41.196] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:05:12.222] [INFO] default - Checking 0 0
+[2023-02-10T04:05:12.224] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:05:43.574] [INFO] default - Checking 0 0
+[2023-02-10T04:05:43.575] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:06:06.890] [INFO] default - Checking 0 0
+[2023-02-10T04:06:06.892] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:06:40.582] [INFO] default - Checking 0 0
+[2023-02-10T04:06:40.584] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:07:11.721] [INFO] default - Checking 0 0
+[2023-02-10T04:07:11.722] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:07:31.168] [INFO] default - Checking 0 0
+[2023-02-10T04:07:31.216] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:07:42.946] [INFO] default - Checking 0 0
+[2023-02-10T04:07:42.948] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:07:52.441] [INFO] default - Done 20230210 21.271 ms
+[2023-02-10T04:08:14.467] [INFO] default - Checking 0 0
+[2023-02-10T04:08:14.470] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:08:45.841] [INFO] default - Checking 0 0
+[2023-02-10T04:08:45.842] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:09:20.857] [INFO] default - Checking 0 0
+[2023-02-10T04:09:20.859] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:09:57.092] [INFO] default - Checking 0 0
+[2023-02-10T04:09:57.093] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:10:28.400] [INFO] default - Checking 0 0
+[2023-02-10T04:10:28.402] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:10:59.388] [INFO] default - Checking 0 0
+[2023-02-10T04:10:59.389] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:11:26.673] [INFO] default - Checking 0 0
+[2023-02-10T04:11:26.722] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:11:31.861] [INFO] default - Checking 0 0
+[2023-02-10T04:11:31.863] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:11:38.878] [INFO] default - Done 20230210 12.204 ms
+[2023-02-10T04:12:01.995] [INFO] default - Checking 0 0
+[2023-02-10T04:12:01.996] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:12:33.613] [INFO] default - Checking 0 0
+[2023-02-10T04:12:33.614] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:12:51.663] [INFO] default - Checking 0 0
+[2023-02-10T04:12:51.664] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcbstrans/20230210/
+[2023-02-10T04:13:04.549] [INFO] default - Checking 0 0
+[2023-02-10T04:13:04.550] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:13:35.692] [INFO] default - Checking 0 0
+[2023-02-10T04:13:35.694] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:13:49.955] [INFO] default - Checking 0 0
+[2023-02-10T04:13:49.956] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcbstrans/20230210/
+[2023-02-10T04:14:06.432] [INFO] default - Checking 0 0
+[2023-02-10T04:14:06.434] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:14:36.006] [INFO] default - Checking 0 0
+[2023-02-10T04:14:36.008] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcbstrans/20230210/
+[2023-02-10T04:14:40.761] [INFO] default - Checking 0 0
+[2023-02-10T04:14:40.762] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:15:12.838] [INFO] default - Checking 0 0
+[2023-02-10T04:15:12.840] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:15:13.392] [INFO] default - Checking 0 0
+[2023-02-10T04:15:13.430] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:15:31.657] [INFO] default - Done 20230210 18.263 ms
+[2023-02-10T04:15:40.802] [INFO] default - Checking 0 0
+[2023-02-10T04:15:40.804] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:16:12.323] [INFO] default - Checking 0 0
+[2023-02-10T04:16:12.325] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:16:18.875] [INFO] default - Done 20230210 102.868 ms
+[2023-02-10T04:16:47.649] [INFO] default - Checking 0 0
+[2023-02-10T04:16:47.650] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:17:11.712] [INFO] default - Checking 0 0
+[2023-02-10T04:17:11.714] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:17:21.901] [INFO] default - Checking 0 0
+[2023-02-10T04:17:21.921] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcbstrans/20230210/
+[2023-02-10T04:17:44.190] [INFO] default - Checking 0 0
+[2023-02-10T04:17:44.192] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:18:16.094] [INFO] default - Checking 0 0
+[2023-02-10T04:18:16.096] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:18:18.703] [INFO] default - Checking 0 0
+[2023-02-10T04:18:18.704] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcbstrans/20230210/
+[2023-02-10T04:18:47.244] [INFO] default - Checking 0 0
+[2023-02-10T04:18:47.246] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:19:06.142] [INFO] default - Checking 0 0
+[2023-02-10T04:19:06.199] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:19:17.475] [INFO] default - Done 20230210 11.332 ms
+[2023-02-10T04:19:18.295] [INFO] default - Checking 0 0
+[2023-02-10T04:19:18.297] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:19:22.789] [INFO] default - Checking 0 0
+[2023-02-10T04:19:22.790] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcbstrans/20230210/
+[2023-02-10T04:19:50.361] [INFO] default - Checking 0 0
+[2023-02-10T04:19:50.363] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:20:22.755] [INFO] default - Checking 0 0
+[2023-02-10T04:20:22.757] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:20:54.662] [INFO] default - Checking 0 0
+[2023-02-10T04:20:54.664] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:21:07.883] [INFO] default - Done 20230210 105.093 ms
+[2023-02-10T04:21:26.255] [INFO] default - Checking 0 0
+[2023-02-10T04:21:26.257] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:21:57.747] [INFO] default - Checking 0 0
+[2023-02-10T04:21:57.749] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:22:29.671] [INFO] default - Checking 0 0
+[2023-02-10T04:22:29.673] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:22:52.585] [INFO] default - Checking 0 0
+[2023-02-10T04:22:52.626] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:23:01.991] [INFO] default - Checking 0 0
+[2023-02-10T04:23:01.992] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:23:12.441] [INFO] default - Done 20230210 19.855 ms
+[2023-02-10T04:23:33.612] [INFO] default - Checking 0 0
+[2023-02-10T04:23:33.614] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:24:10.154] [INFO] default - Checking 0 0
+[2023-02-10T04:24:10.155] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:24:42.154] [INFO] default - Checking 0 0
+[2023-02-10T04:24:42.155] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:25:15.779] [INFO] default - Checking 0 0
+[2023-02-10T04:25:15.781] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:25:48.421] [INFO] default - Checking 0 0
+[2023-02-10T04:25:48.422] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:26:20.300] [INFO] default - Checking 0 0
+[2023-02-10T04:26:20.303] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:26:47.153] [INFO] default - Checking 0 0
+[2023-02-10T04:26:47.203] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:26:54.025] [INFO] default - Checking 0 0
+[2023-02-10T04:26:54.026] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:26:56.506] [INFO] default - Done 20230210 9.352 ms
+[2023-02-10T04:27:26.818] [INFO] default - Checking 0 0
+[2023-02-10T04:27:26.820] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:28:01.020] [INFO] default - Checking 0 0
+[2023-02-10T04:28:01.022] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:28:33.830] [INFO] default - Checking 0 0
+[2023-02-10T04:28:33.831] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:29:05.810] [INFO] default - Checking 0 0
+[2023-02-10T04:29:05.812] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:29:39.237] [INFO] default - Checking 0 0
+[2023-02-10T04:29:39.239] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:30:11.646] [INFO] default - Checking 0 0
+[2023-02-10T04:30:11.648] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:30:33.337] [INFO] default - Checking 0 0
+[2023-02-10T04:30:33.380] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:30:44.014] [INFO] default - Checking 0 0
+[2023-02-10T04:30:44.015] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:30:49.999] [INFO] default - Done 20230210 16.661 ms
+[2023-02-10T04:31:15.706] [INFO] default - Checking 0 0
+[2023-02-10T04:31:15.708] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:31:47.821] [INFO] default - Checking 0 0
+[2023-02-10T04:31:47.823] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:32:20.225] [INFO] default - Checking 0 0
+[2023-02-10T04:32:20.227] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:32:52.315] [INFO] default - Checking 0 0
+[2023-02-10T04:32:52.317] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:33:24.330] [INFO] default - Checking 0 0
+[2023-02-10T04:33:24.333] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:34:01.982] [INFO] default - Checking 0 0
+[2023-02-10T04:34:01.984] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:34:24.872] [INFO] default - Checking 0 0
+[2023-02-10T04:34:24.915] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:34:33.578] [INFO] default - Checking 0 0
+[2023-02-10T04:34:33.579] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:34:40.154] [INFO] default - Done 20230210 15.28 ms
+[2023-02-10T04:35:06.814] [INFO] default - Checking 0 0
+[2023-02-10T04:35:06.815] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:35:39.637] [INFO] default - Checking 0 0
+[2023-02-10T04:35:39.639] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:36:11.072] [INFO] default - Checking 0 0
+[2023-02-10T04:36:11.074] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:36:42.654] [INFO] default - Checking 0 0
+[2023-02-10T04:36:42.655] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:37:15.639] [INFO] default - Checking 0 0
+[2023-02-10T04:37:15.641] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:37:47.240] [INFO] default - Checking 0 0
+[2023-02-10T04:37:47.241] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:38:15.892] [INFO] default - Checking 0 0
+[2023-02-10T04:38:15.954] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:38:18.726] [INFO] default - Checking 0 0
+[2023-02-10T04:38:18.727] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:38:35.501] [INFO] default - Done 20230210 19.608 ms
+[2023-02-10T04:38:49.355] [INFO] default - Checking 0 0
+[2023-02-10T04:38:49.358] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:39:20.806] [INFO] default - Checking 0 0
+[2023-02-10T04:39:20.808] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:39:54.370] [INFO] default - Checking 0 0
+[2023-02-10T04:39:54.371] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:40:25.849] [INFO] default - Checking 0 0
+[2023-02-10T04:40:25.851] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:40:57.765] [INFO] default - Checking 0 0
+[2023-02-10T04:40:57.767] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:41:29.363] [INFO] default - Checking 0 0
+[2023-02-10T04:41:29.364] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:42:00.982] [INFO] default - Checking 0 0
+[2023-02-10T04:42:00.984] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:42:10.024] [INFO] default - Checking 0 0
+[2023-02-10T04:42:10.074] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:42:21.347] [INFO] default - Done 20230210 11.32 ms
+[2023-02-10T04:42:32.719] [INFO] default - Checking 0 0
+[2023-02-10T04:42:32.721] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:43:04.496] [INFO] default - Checking 0 0
+[2023-02-10T04:43:04.497] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:43:41.241] [INFO] default - Checking 0 0
+[2023-02-10T04:43:41.243] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:44:13.214] [INFO] default - Checking 0 0
+[2023-02-10T04:44:13.217] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:44:45.884] [INFO] default - Checking 0 0
+[2023-02-10T04:44:45.886] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:45:17.538] [INFO] default - Checking 0 0
+[2023-02-10T04:45:17.540] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:45:49.628] [INFO] default - Checking 0 0
+[2023-02-10T04:45:49.630] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:45:56.182] [INFO] default - Checking 0 0
+[2023-02-10T04:45:56.226] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:46:13.998] [INFO] default - Done 20230210 17.816 ms
+[2023-02-10T04:46:20.896] [INFO] default - Checking 0 0
+[2023-02-10T04:46:20.898] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:46:52.800] [INFO] default - Checking 0 0
+[2023-02-10T04:46:52.801] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:47:27.113] [INFO] default - Checking 0 0
+[2023-02-10T04:47:27.115] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:47:59.065] [INFO] default - Checking 0 0
+[2023-02-10T04:47:59.066] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:48:30.917] [INFO] default - Checking 0 0
+[2023-02-10T04:48:30.919] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:49:05.584] [INFO] default - Checking 0 0
+[2023-02-10T04:49:05.586] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:49:36.743] [INFO] default - Checking 0 0
+[2023-02-10T04:49:36.745] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:49:49.791] [INFO] default - Checking 0 0
+[2023-02-10T04:49:49.835] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:50:04.025] [INFO] default - Done 20230210 14.233 ms
+[2023-02-10T04:50:08.183] [INFO] default - Checking 0 0
+[2023-02-10T04:50:08.184] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:50:39.844] [INFO] default - Checking 0 0
+[2023-02-10T04:50:39.845] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:51:11.756] [INFO] default - Checking 0 0
+[2023-02-10T04:51:11.759] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:51:45.294] [INFO] default - Checking 0 0
+[2023-02-10T04:51:45.296] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:52:10.372] [INFO] default - Checking 0 0
+[2023-02-10T04:52:10.374] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:52:42.079] [INFO] default - Checking 0 0
+[2023-02-10T04:52:42.080] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:53:14.951] [INFO] default - Checking 0 0
+[2023-02-10T04:53:14.952] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:53:39.221] [INFO] default - Checking 0 0
+[2023-02-10T04:53:39.262] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:53:46.771] [INFO] default - Checking 0 0
+[2023-02-10T04:53:46.773] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:53:58.434] [INFO] default - Done 20230210 19.212 ms
+[2023-02-10T04:54:10.869] [INFO] default - Checking 0 0
+[2023-02-10T04:54:10.871] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:54:35.197] [INFO] default - Checking 0 0
+[2023-02-10T04:54:35.200] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:54:59.648] [INFO] default - Checking 0 0
+[2023-02-10T04:54:59.650] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:55:32.636] [INFO] default - Checking 0 0
+[2023-02-10T04:55:32.637] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:56:05.353] [INFO] default - Checking 0 0
+[2023-02-10T04:56:05.354] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:56:30.272] [INFO] default - Checking 0 0
+[2023-02-10T04:56:30.274] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:57:01.919] [INFO] default - Checking 0 0
+[2023-02-10T04:57:01.921] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:57:33.288] [INFO] default - Checking 0 0
+[2023-02-10T04:57:33.330] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:57:35.287] [INFO] default - Checking 0 0
+[2023-02-10T04:57:35.288] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:57:48.956] [INFO] default - Done 20230210 15.667 ms
+[2023-02-10T04:58:06.603] [INFO] default - Checking 0 0
+[2023-02-10T04:58:06.605] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:58:30.067] [INFO] default - Checking 0 0
+[2023-02-10T04:58:30.069] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:59:00.787] [INFO] default - Checking 0 0
+[2023-02-10T04:59:00.788] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T04:59:32.831] [INFO] default - Checking 0 0
+[2023-02-10T04:59:32.834] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:00:05.037] [INFO] default - Checking 0 0
+[2023-02-10T05:00:05.039] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:00:39.166] [INFO] default - Checking 0 0
+[2023-02-10T05:00:39.168] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:01:11.328] [INFO] default - Checking 0 0
+[2023-02-10T05:01:11.330] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:01:24.049] [INFO] default - Checking 0 0
+[2023-02-10T05:01:24.106] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:01:42.595] [INFO] default - Done 20230210 18.545 ms
+[2023-02-10T05:01:46.589] [INFO] default - Checking 0 0
+[2023-02-10T05:01:46.591] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:02:18.387] [INFO] default - Checking 0 0
+[2023-02-10T05:02:18.389] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:02:49.939] [INFO] default - Checking 0 0
+[2023-02-10T05:02:49.941] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:03:22.373] [INFO] default - Checking 0 0
+[2023-02-10T05:03:22.375] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:03:55.342] [INFO] default - Checking 0 0
+[2023-02-10T05:03:55.344] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:04:28.697] [INFO] default - Checking 0 0
+[2023-02-10T05:04:28.699] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:05:00.535] [INFO] default - Checking 0 0
+[2023-02-10T05:05:00.537] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:05:17.875] [INFO] default - Checking 0 0
+[2023-02-10T05:05:17.921] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:05:33.501] [INFO] default - Done 20230210 15.625 ms
+[2023-02-10T05:05:33.779] [INFO] default - Checking 0 0
+[2023-02-10T05:05:33.781] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:06:04.975] [INFO] default - Checking 0 0
+[2023-02-10T05:06:04.976] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:06:37.082] [INFO] default - Checking 0 0
+[2023-02-10T05:06:37.083] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:07:09.445] [INFO] default - Checking 0 0
+[2023-02-10T05:07:09.448] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:07:41.688] [INFO] default - Checking 0 0
+[2023-02-10T05:07:41.690] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:08:14.608] [INFO] default - Checking 0 0
+[2023-02-10T05:08:14.610] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:08:46.505] [INFO] default - Checking 0 0
+[2023-02-10T05:08:46.507] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:09:08.383] [INFO] default - Checking 0 0
+[2023-02-10T05:09:08.426] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:09:18.329] [INFO] default - Checking 0 0
+[2023-02-10T05:09:18.331] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:09:22.085] [INFO] default - Done 20230210 13.702 ms
+[2023-02-10T05:09:50.467] [INFO] default - Checking 0 0
+[2023-02-10T05:09:50.469] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:10:22.714] [INFO] default - Checking 0 0
+[2023-02-10T05:10:22.715] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:10:56.478] [INFO] default - Checking 0 0
+[2023-02-10T05:10:56.480] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:11:29.692] [INFO] default - Checking 0 0
+[2023-02-10T05:11:29.694] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:12:01.045] [INFO] default - Checking 0 0
+[2023-02-10T05:12:01.048] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:12:32.858] [INFO] default - Checking 0 0
+[2023-02-10T05:12:32.860] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:12:56.689] [INFO] default - Checking 0 0
+[2023-02-10T05:12:56.759] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:13:04.547] [INFO] default - Checking 0 0
+[2023-02-10T05:13:04.548] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:13:15.504] [INFO] default - Done 20230210 18.814 ms
+[2023-02-10T05:13:38.016] [INFO] default - Checking 0 0
+[2023-02-10T05:13:38.017] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:14:09.700] [INFO] default - Checking 0 0
+[2023-02-10T05:14:09.702] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:14:41.072] [INFO] default - Checking 0 0
+[2023-02-10T05:14:41.074] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:15:16.613] [INFO] default - Checking 0 0
+[2023-02-10T05:15:16.614] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:15:49.041] [INFO] default - Checking 0 0
+[2023-02-10T05:15:49.043] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:16:20.576] [INFO] default - Checking 0 0
+[2023-02-10T05:16:20.578] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:16:50.134] [INFO] default - Checking 0 0
+[2023-02-10T05:16:50.186] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:16:52.702] [INFO] default - Checking 0 0
+[2023-02-10T05:16:52.703] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:17:03.435] [INFO] default - Done 20230210 13.3 ms
+[2023-02-10T05:17:22.602] [INFO] default - Checking 0 0
+[2023-02-10T05:17:22.604] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:17:46.263] [INFO] default - Checking 0 0
+[2023-02-10T05:17:46.264] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:18:18.084] [INFO] default - Checking 0 0
+[2023-02-10T05:18:18.086] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:18:50.247] [INFO] default - Checking 0 0
+[2023-02-10T05:18:50.249] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:19:21.731] [INFO] default - Checking 0 0
+[2023-02-10T05:19:21.732] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:19:53.378] [INFO] default - Checking 0 0
+[2023-02-10T05:19:53.379] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:20:24.549] [INFO] default - Checking 0 0
+[2023-02-10T05:20:24.550] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:20:38.383] [INFO] default - Checking 0 0
+[2023-02-10T05:20:38.441] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:20:53.327] [INFO] default - Done 20230210 14.943 ms
+[2023-02-10T05:20:57.201] [INFO] default - Checking 0 0
+[2023-02-10T05:20:57.203] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:21:28.393] [INFO] default - Checking 0 0
+[2023-02-10T05:21:28.394] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:21:52.261] [INFO] default - Checking 0 0
+[2023-02-10T05:21:52.263] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:22:24.029] [INFO] default - Checking 0 0
+[2023-02-10T05:22:24.031] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:22:58.473] [INFO] default - Checking 0 0
+[2023-02-10T05:22:58.475] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:23:22.061] [INFO] default - Checking 0 0
+[2023-02-10T05:23:22.062] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:23:45.902] [INFO] default - Checking 0 0
+[2023-02-10T05:23:45.904] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:24:10.164] [INFO] default - Checking 0 0
+[2023-02-10T05:24:10.166] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:24:28.267] [INFO] default - Checking 0 0
+[2023-02-10T05:24:28.318] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:24:42.365] [INFO] default - Checking 0 0
+[2023-02-10T05:24:42.366] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:24:43.438] [INFO] default - Done 20230210 15.17 ms
+[2023-02-10T05:25:15.345] [INFO] default - Checking 0 0
+[2023-02-10T05:25:15.346] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:25:47.970] [INFO] default - Checking 0 0
+[2023-02-10T05:25:47.971] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:26:22.735] [INFO] default - Checking 0 0
+[2023-02-10T05:26:22.737] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:26:55.050] [INFO] default - Checking 0 0
+[2023-02-10T05:26:55.051] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:27:26.244] [INFO] default - Checking 0 0
+[2023-02-10T05:27:26.246] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:27:59.671] [INFO] default - Checking 0 0
+[2023-02-10T05:27:59.672] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:28:20.577] [INFO] default - Checking 0 0
+[2023-02-10T05:28:20.628] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:28:26.150] [INFO] default - Checking 0 0
+[2023-02-10T05:28:26.151] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:28:40.500] [INFO] default - Done 20230210 19.922 ms
+[2023-02-10T05:28:57.648] [INFO] default - Checking 0 0
+[2023-02-10T05:28:57.650] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:29:29.271] [INFO] default - Checking 0 0
+[2023-02-10T05:29:29.272] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:30:00.855] [INFO] default - Checking 0 0
+[2023-02-10T05:30:00.857] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:30:33.486] [INFO] default - Checking 0 0
+[2023-02-10T05:30:33.488] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:31:05.633] [INFO] default - Checking 0 0
+[2023-02-10T05:31:05.634] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:31:37.611] [INFO] default - Checking 0 0
+[2023-02-10T05:31:37.612] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:32:11.496] [INFO] default - Checking 0 0
+[2023-02-10T05:32:11.497] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:32:14.968] [INFO] default - Checking 0 0
+[2023-02-10T05:32:15.039] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:32:32.435] [INFO] default - Done 20230210 17.466 ms
+[2023-02-10T05:32:39.782] [INFO] default - Checking 0 0
+[2023-02-10T05:32:39.784] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:33:12.586] [INFO] default - Checking 0 0
+[2023-02-10T05:33:12.588] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:33:45.001] [INFO] default - Checking 0 0
+[2023-02-10T05:33:45.003] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:34:17.538] [INFO] default - Checking 0 0
+[2023-02-10T05:34:17.540] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:34:50.377] [INFO] default - Checking 0 0
+[2023-02-10T05:34:50.378] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:35:22.802] [INFO] default - Checking 0 0
+[2023-02-10T05:35:22.804] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:35:55.964] [INFO] default - Checking 0 0
+[2023-02-10T05:35:55.966] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:36:06.756] [INFO] default - Checking 0 0
+[2023-02-10T05:36:06.819] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:36:21.498] [INFO] default - Done 20230210 14.741 ms
+[2023-02-10T05:36:32.934] [INFO] default - Checking 0 0
+[2023-02-10T05:36:32.935] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:37:04.834] [INFO] default - Checking 0 0
+[2023-02-10T05:37:04.836] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:37:37.527] [INFO] default - Checking 0 0
+[2023-02-10T05:37:37.528] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:38:10.346] [INFO] default - Checking 0 0
+[2023-02-10T05:38:10.348] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:38:41.776] [INFO] default - Checking 0 0
+[2023-02-10T05:38:41.777] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:39:09.586] [INFO] default - Checking 0 0
+[2023-02-10T05:39:09.587] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230210/
+[2023-02-10T05:39:15.339] [INFO] default - Checking 0 0
+[2023-02-10T05:39:15.341] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:39:47.851] [INFO] default - Checking 0 0
+[2023-02-10T05:39:47.853] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:39:56.244] [INFO] default - Checking 0 0
+[2023-02-10T05:39:56.287] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:40:13.026] [INFO] default - Done 20230210 16.781 ms
+[2023-02-10T05:40:20.566] [INFO] default - Checking 0 0
+[2023-02-10T05:40:20.567] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:40:52.538] [INFO] default - Checking 0 0
+[2023-02-10T05:40:52.540] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:41:24.191] [INFO] default - Checking 0 0
+[2023-02-10T05:41:24.192] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:41:55.805] [INFO] default - Checking 0 0
+[2023-02-10T05:41:55.807] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:42:00.342] [INFO] default - Checking 0 0
+[2023-02-10T05:42:00.367] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230210/
+[2023-02-10T05:42:28.169] [INFO] default - Checking 0 0
+[2023-02-10T05:42:28.170] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:42:59.670] [INFO] default - Checking 0 0
+[2023-02-10T05:42:59.672] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:43:32.251] [INFO] default - Checking 0 0
+[2023-02-10T05:43:32.253] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:43:47.879] [INFO] default - Checking 0 0
+[2023-02-10T05:43:47.921] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:43:58.989] [INFO] default - Done 20230210 11.109 ms
+[2023-02-10T05:44:04.825] [INFO] default - Checking 0 0
+[2023-02-10T05:44:04.827] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:44:36.878] [INFO] default - Checking 0 0
+[2023-02-10T05:44:36.880] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:44:45.476] [INFO] default - Checking 0 0
+[2023-02-10T05:44:45.601] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230210/
+[2023-02-10T05:45:09.985] [INFO] default - Checking 0 0
+[2023-02-10T05:45:09.987] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:45:41.993] [INFO] default - Checking 0 0
+[2023-02-10T05:45:41.995] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:46:16.210] [INFO] default - Checking 0 0
+[2023-02-10T05:46:16.212] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:46:47.891] [INFO] default - Checking 0 0
+[2023-02-10T05:46:47.892] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:47:19.646] [INFO] default - Checking 0 0
+[2023-02-10T05:47:19.648] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:47:36.413] [INFO] default - Checking 0 0
+[2023-02-10T05:47:36.457] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:47:51.651] [INFO] default - Done 20230210 15.237 ms
+[2023-02-10T05:47:52.407] [INFO] default - Checking 0 0
+[2023-02-10T05:47:52.409] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:48:25.098] [INFO] default - Checking 0 0
+[2023-02-10T05:48:25.100] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:48:57.350] [INFO] default - Checking 0 0
+[2023-02-10T05:48:57.352] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:49:29.823] [INFO] default - Checking 0 0
+[2023-02-10T05:49:29.825] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:49:45.302] [INFO] default - Done 20230210 299.825 ms
+[2023-02-10T05:50:02.131] [INFO] default - Checking 0 0
+[2023-02-10T05:50:02.132] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:50:33.366] [INFO] default - Checking 0 0
+[2023-02-10T05:50:33.368] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:51:06.039] [INFO] default - Checking 0 0
+[2023-02-10T05:51:06.041] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:51:27.133] [INFO] default - Checking 0 0
+[2023-02-10T05:51:27.170] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:51:38.369] [INFO] default - Checking 0 0
+[2023-02-10T05:51:38.370] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:51:44.507] [INFO] default - Done 20230210 17.373 ms
+[2023-02-10T05:52:09.980] [INFO] default - Checking 0 0
+[2023-02-10T05:52:09.982] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:52:41.700] [INFO] default - Checking 0 0
+[2023-02-10T05:52:41.702] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:53:13.529] [INFO] default - Checking 0 0
+[2023-02-10T05:53:13.531] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:53:45.230] [INFO] default - Checking 0 0
+[2023-02-10T05:53:45.232] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:54:17.534] [INFO] default - Checking 0 0
+[2023-02-10T05:54:17.536] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:54:48.908] [INFO] default - Checking 0 0
+[2023-02-10T05:54:48.910] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:55:21.087] [INFO] default - Checking 0 0
+[2023-02-10T05:55:21.089] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:55:27.361] [INFO] default - Checking 0 0
+[2023-02-10T05:55:27.429] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:55:44.895] [INFO] default - Done 20230210 17.533 ms
+[2023-02-10T05:55:53.547] [INFO] default - Checking 0 0
+[2023-02-10T05:55:53.549] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:56:13.036] [INFO] default - Checking 0 0
+[2023-02-10T05:56:13.037] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230210/
+[2023-02-10T05:56:25.871] [INFO] default - Checking 0 0
+[2023-02-10T05:56:25.873] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:56:59.806] [INFO] default - Checking 0 0
+[2023-02-10T05:56:59.808] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:57:31.710] [INFO] default - Checking 0 0
+[2023-02-10T05:57:31.712] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:58:03.771] [INFO] default - Checking 0 0
+[2023-02-10T05:58:03.773] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:58:22.618] [INFO] default - Done 20230210 129.581 ms
+[2023-02-10T05:58:35.967] [INFO] default - Checking 0 0
+[2023-02-10T05:58:35.969] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:59:07.945] [INFO] default - Checking 0 0
+[2023-02-10T05:59:07.946] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:59:19.204] [INFO] default - Checking 0 0
+[2023-02-10T05:59:19.249] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T05:59:35.296] [INFO] default - Done 20230210 16.091 ms
+[2023-02-10T05:59:40.375] [INFO] default - Checking 0 0
+[2023-02-10T05:59:40.377] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:00:12.031] [INFO] default - Checking 0 0
+[2023-02-10T06:00:12.033] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:00:44.371] [INFO] default - Checking 0 0
+[2023-02-10T06:00:44.372] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:01:16.574] [INFO] default - Checking 0 0
+[2023-02-10T06:01:16.576] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:01:48.473] [INFO] default - Checking 0 0
+[2023-02-10T06:01:48.475] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:02:20.622] [INFO] default - Checking 0 0
+[2023-02-10T06:02:20.624] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:02:51.701] [INFO] default - Checking 0 0
+[2023-02-10T06:02:51.703] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:03:11.124] [INFO] default - Checking 0 0
+[2023-02-10T06:03:11.168] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:03:26.290] [INFO] default - Checking 0 0
+[2023-02-10T06:03:26.292] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:03:28.617] [INFO] default - Done 20230210 17.492 ms
+[2023-02-10T06:03:59.424] [INFO] default - Checking 0 0
+[2023-02-10T06:03:59.425] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:04:30.917] [INFO] default - Checking 0 0
+[2023-02-10T06:04:30.919] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:05:03.848] [INFO] default - Checking 0 0
+[2023-02-10T06:05:03.849] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:05:35.959] [INFO] default - Checking 0 0
+[2023-02-10T06:05:35.961] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:06:08.126] [INFO] default - Checking 0 0
+[2023-02-10T06:06:08.127] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:06:40.818] [INFO] default - Checking 0 0
+[2023-02-10T06:06:40.819] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:07:04.391] [INFO] default - Checking 0 0
+[2023-02-10T06:07:04.438] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:07:14.111] [INFO] default - Checking 0 0
+[2023-02-10T06:07:14.112] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:07:23.507] [INFO] default - Done 20230210 19.115 ms
+[2023-02-10T06:07:46.568] [INFO] default - Checking 0 0
+[2023-02-10T06:07:46.570] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:08:19.008] [INFO] default - Checking 0 0
+[2023-02-10T06:08:19.010] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:08:50.872] [INFO] default - Checking 0 0
+[2023-02-10T06:08:50.874] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:09:23.090] [INFO] default - Checking 0 0
+[2023-02-10T06:09:23.092] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:09:54.456] [INFO] default - Checking 0 0
+[2023-02-10T06:09:54.457] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:10:26.097] [INFO] default - Checking 0 0
+[2023-02-10T06:10:26.099] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:10:57.399] [INFO] default - Checking 0 0
+[2023-02-10T06:10:57.400] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:10:58.690] [INFO] default - Checking 0 0
+[2023-02-10T06:10:58.741] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:11:14.998] [INFO] default - Done 20230210 16.307 ms
+[2023-02-10T06:11:25.966] [INFO] default - Checking 0 0
+[2023-02-10T06:11:25.967] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:11:58.116] [INFO] default - Checking 0 0
+[2023-02-10T06:11:58.117] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:12:30.267] [INFO] default - Checking 0 0
+[2023-02-10T06:12:30.269] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:13:02.718] [INFO] default - Checking 0 0
+[2023-02-10T06:13:02.721] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:13:35.749] [INFO] default - Checking 0 0
+[2023-02-10T06:13:35.751] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:14:07.520] [INFO] default - Checking 0 0
+[2023-02-10T06:14:07.523] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:14:42.924] [INFO] default - Checking 0 0
+[2023-02-10T06:14:42.925] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:14:49.750] [INFO] default - Checking 0 0
+[2023-02-10T06:14:49.804] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:15:02.907] [INFO] default - Done 20230210 13.156 ms
+[2023-02-10T06:15:15.512] [INFO] default - Checking 0 0
+[2023-02-10T06:15:15.514] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:15:48.451] [INFO] default - Checking 0 0
+[2023-02-10T06:15:48.452] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:16:22.538] [INFO] default - Checking 0 0
+[2023-02-10T06:16:22.540] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:16:55.947] [INFO] default - Checking 0 0
+[2023-02-10T06:16:55.949] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:17:28.235] [INFO] default - Checking 0 0
+[2023-02-10T06:17:28.238] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:18:01.114] [INFO] default - Checking 0 0
+[2023-02-10T06:18:01.115] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:18:33.512] [INFO] default - Checking 0 0
+[2023-02-10T06:18:33.514] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:18:38.343] [INFO] default - Checking 0 0
+[2023-02-10T06:18:38.392] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:18:56.262] [INFO] default - Done 20230210 17.917 ms
+[2023-02-10T06:19:01.644] [INFO] default - Checking 0 0
+[2023-02-10T06:19:01.646] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:19:34.090] [INFO] default - Checking 0 0
+[2023-02-10T06:19:34.091] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:20:06.535] [INFO] default - Checking 0 0
+[2023-02-10T06:20:06.536] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:20:41.616] [INFO] default - Checking 0 0
+[2023-02-10T06:20:41.618] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:21:14.491] [INFO] default - Checking 0 0
+[2023-02-10T06:21:14.492] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:21:46.000] [INFO] default - Checking 0 0
+[2023-02-10T06:21:46.001] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:22:20.814] [INFO] default - Checking 0 0
+[2023-02-10T06:22:20.816] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:22:31.742] [INFO] default - Checking 0 0
+[2023-02-10T06:22:31.786] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:22:51.877] [INFO] default - Done 20230210 20.134 ms
+[2023-02-10T06:22:53.891] [INFO] default - Checking 0 0
+[2023-02-10T06:22:53.893] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:23:26.247] [INFO] default - Checking 0 0
+[2023-02-10T06:23:26.249] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:23:59.459] [INFO] default - Checking 0 0
+[2023-02-10T06:23:59.461] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:24:31.739] [INFO] default - Checking 0 0
+[2023-02-10T06:24:31.741] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:25:05.757] [INFO] default - Checking 0 0
+[2023-02-10T06:25:05.758] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:25:38.608] [INFO] default - Checking 0 0
+[2023-02-10T06:25:38.610] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:26:12.058] [INFO] default - Checking 0 0
+[2023-02-10T06:26:12.060] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:26:29.147] [INFO] default - Checking 0 0
+[2023-02-10T06:26:29.194] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:26:44.784] [INFO] default - Checking 0 0
+[2023-02-10T06:26:44.786] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:26:48.501] [INFO] default - Done 20230210 19.353 ms
+[2023-02-10T06:27:17.645] [INFO] default - Checking 0 0
+[2023-02-10T06:27:17.646] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:27:50.536] [INFO] default - Checking 0 0
+[2023-02-10T06:27:50.538] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:28:22.980] [INFO] default - Checking 0 0
+[2023-02-10T06:28:22.982] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:29:00.973] [INFO] default - Checking 0 0
+[2023-02-10T06:29:00.975] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:29:38.672] [INFO] default - Checking 0 0
+[2023-02-10T06:29:38.673] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:30:12.163] [INFO] default - Checking 0 0
+[2023-02-10T06:30:12.164] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:30:24.699] [INFO] default - Checking 0 0
+[2023-02-10T06:30:24.756] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:30:44.997] [INFO] default - Done 20230210 20.297 ms
+[2023-02-10T06:30:47.177] [INFO] default - Checking 0 0
+[2023-02-10T06:30:47.178] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:31:20.269] [INFO] default - Checking 0 0
+[2023-02-10T06:31:20.270] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:31:54.940] [INFO] default - Checking 0 0
+[2023-02-10T06:31:54.942] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:32:27.834] [INFO] default - Checking 0 0
+[2023-02-10T06:32:27.835] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:33:00.242] [INFO] default - Checking 0 0
+[2023-02-10T06:33:00.243] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:33:33.697] [INFO] default - Checking 0 0
+[2023-02-10T06:33:33.698] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:34:06.793] [INFO] default - Checking 0 0
+[2023-02-10T06:34:06.795] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:34:21.464] [INFO] default - Checking 0 0
+[2023-02-10T06:34:21.511] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:34:40.045] [INFO] default - Checking 0 0
+[2023-02-10T06:34:40.046] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:35:10.495] [INFO] default - Checking 0 0
+[2023-02-10T06:35:10.496] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:35:43.195] [INFO] default - Checking 0 0
+[2023-02-10T06:35:43.197] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:36:14.141] [INFO] default - Checking 0 0
+[2023-02-10T06:36:14.142] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:36:45.311] [INFO] default - Checking 0 0
+[2023-02-10T06:36:45.313] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:37:16.292] [INFO] default - Checking 0 0
+[2023-02-10T06:37:16.293] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:37:47.955] [INFO] default - Checking 0 0
+[2023-02-10T06:37:47.957] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:38:05.473] [INFO] default - Checking 0 0
+[2023-02-10T06:38:05.502] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:38:21.476] [INFO] default - Checking 0 0
+[2023-02-10T06:38:21.478] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:38:27.430] [INFO] default - Done 20230210 21.956 ms
+[2023-02-10T06:38:54.280] [INFO] default - Checking 0 0
+[2023-02-10T06:38:54.282] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:39:27.610] [INFO] default - Checking 0 0
+[2023-02-10T06:39:27.612] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:40:01.059] [INFO] default - Checking 0 0
+[2023-02-10T06:40:01.061] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:40:34.719] [INFO] default - Checking 0 0
+[2023-02-10T06:40:34.721] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:41:08.475] [INFO] default - Checking 0 0
+[2023-02-10T06:41:08.477] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:41:42.347] [INFO] default - Checking 0 0
+[2023-02-10T06:41:42.348] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:42:03.953] [INFO] default - Checking 0 0
+[2023-02-10T06:42:03.985] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:42:17.305] [INFO] default - Checking 0 0
+[2023-02-10T06:42:17.307] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:42:25.501] [INFO] default - Done 20230210 21.547 ms
+[2023-02-10T06:42:52.149] [INFO] default - Checking 0 0
+[2023-02-10T06:42:52.151] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:43:27.501] [INFO] default - Checking 0 0
+[2023-02-10T06:43:27.503] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:43:59.968] [INFO] default - Checking 0 0
+[2023-02-10T06:43:59.969] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:44:33.379] [INFO] default - Checking 0 0
+[2023-02-10T06:44:33.381] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:45:06.054] [INFO] default - Checking 0 0
+[2023-02-10T06:45:06.056] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:45:39.726] [INFO] default - Checking 0 0
+[2023-02-10T06:45:39.728] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:46:02.456] [INFO] default - Checking 0 0
+[2023-02-10T06:46:02.491] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:46:12.587] [INFO] default - Checking 0 0
+[2023-02-10T06:46:12.588] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:46:46.085] [INFO] default - Checking 0 0
+[2023-02-10T06:46:46.086] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:47:19.414] [INFO] default - Checking 0 0
+[2023-02-10T06:47:19.415] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:47:51.322] [INFO] default - Checking 0 0
+[2023-02-10T06:47:51.323] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:48:26.173] [INFO] default - Checking 0 0
+[2023-02-10T06:48:26.175] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:48:58.229] [INFO] default - Checking 0 0
+[2023-02-10T06:48:58.231] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:49:29.612] [INFO] default - Checking 0 0
+[2023-02-10T06:49:29.613] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:49:45.396] [INFO] default - Checking 0 0
+[2023-02-10T06:49:45.420] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:50:02.952] [INFO] default - Checking 0 0
+[2023-02-10T06:50:02.954] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:50:07.807] [INFO] default - Done 20230210 22.41 ms
+[2023-02-10T06:50:37.163] [INFO] default - Checking 0 0
+[2023-02-10T06:50:37.166] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:51:11.968] [INFO] default - Checking 0 0
+[2023-02-10T06:51:11.970] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:51:48.596] [INFO] default - Checking 0 0
+[2023-02-10T06:51:48.597] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:52:21.755] [INFO] default - Checking 0 0
+[2023-02-10T06:52:21.757] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:52:54.924] [INFO] default - Checking 0 0
+[2023-02-10T06:52:54.926] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:53:29.557] [INFO] default - Checking 0 0
+[2023-02-10T06:53:29.559] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:53:44.397] [INFO] default - Checking 0 0
+[2023-02-10T06:53:44.430] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:54:03.684] [INFO] default - Done 20230210 19.286 ms
+[2023-02-10T06:54:05.719] [INFO] default - Checking 0 0
+[2023-02-10T06:54:05.720] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:54:39.619] [INFO] default - Checking 0 0
+[2023-02-10T06:54:39.621] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:55:12.972] [INFO] default - Checking 0 0
+[2023-02-10T06:55:12.973] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:55:47.766] [INFO] default - Checking 0 0
+[2023-02-10T06:55:47.768] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:56:20.864] [INFO] default - Checking 0 0
+[2023-02-10T06:56:20.865] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:56:54.313] [INFO] default - Checking 0 0
+[2023-02-10T06:56:54.315] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:57:27.889] [INFO] default - Checking 0 0
+[2023-02-10T06:57:27.890] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:57:41.093] [INFO] default - Checking 0 0
+[2023-02-10T06:57:41.128] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:57:58.493] [INFO] default - Done 20230210 17.399 ms
+[2023-02-10T06:58:01.206] [INFO] default - Checking 0 0
+[2023-02-10T06:58:01.208] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:58:35.222] [INFO] default - Checking 0 0
+[2023-02-10T06:58:35.224] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:59:09.914] [INFO] default - Checking 0 0
+[2023-02-10T06:59:09.916] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T06:59:45.060] [INFO] default - Checking 0 0
+[2023-02-10T06:59:45.062] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:00:17.804] [INFO] default - Checking 0 0
+[2023-02-10T07:00:17.805] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:00:50.621] [INFO] default - Checking 0 0
+[2023-02-10T07:00:50.622] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:01:26.811] [INFO] default - Checking 0 0
+[2023-02-10T07:01:26.813] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:01:36.418] [INFO] default - Checking 0 0
+[2023-02-10T07:01:36.452] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:01:57.111] [INFO] default - Done 20230210 20.692 ms
+[2023-02-10T07:02:01.591] [INFO] default - Checking 0 0
+[2023-02-10T07:02:01.593] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:02:34.904] [INFO] default - Checking 0 0
+[2023-02-10T07:02:34.906] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:03:10.541] [INFO] default - Checking 0 0
+[2023-02-10T07:03:10.542] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:03:48.323] [INFO] default - Checking 0 0
+[2023-02-10T07:03:48.325] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:04:22.578] [INFO] default - Checking 0 0
+[2023-02-10T07:04:22.580] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:04:56.711] [INFO] default - Checking 0 0
+[2023-02-10T07:04:56.712] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:05:33.500] [INFO] default - Checking 0 0
+[2023-02-10T07:05:33.502] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:05:34.357] [INFO] default - Checking 0 0
+[2023-02-10T07:05:34.396] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:05:54.596] [INFO] default - Done 20230210 20.238 ms
+[2023-02-10T07:06:05.812] [INFO] default - Checking 0 0
+[2023-02-10T07:06:05.814] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:06:42.386] [INFO] default - Checking 0 0
+[2023-02-10T07:06:42.388] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:07:15.982] [INFO] default - Checking 0 0
+[2023-02-10T07:07:15.984] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:07:50.662] [INFO] default - Checking 0 0
+[2023-02-10T07:07:50.664] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:08:29.287] [INFO] default - Checking 0 0
+[2023-02-10T07:08:29.289] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:09:03.556] [INFO] default - Checking 0 0
+[2023-02-10T07:09:03.557] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:09:37.427] [INFO] default - Checking 0 0
+[2023-02-10T07:09:37.460] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:09:37.658] [INFO] default - Checking 0 0
+[2023-02-10T07:09:37.659] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:10:01.273] [INFO] default - Done 20230210 23.845 ms
+[2023-02-10T07:10:10.700] [INFO] default - Checking 0 0
+[2023-02-10T07:10:10.701] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:10:45.244] [INFO] default - Checking 0 0
+[2023-02-10T07:10:45.246] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:11:19.812] [INFO] default - Checking 0 0
+[2023-02-10T07:11:19.814] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:11:54.221] [INFO] default - Checking 0 0
+[2023-02-10T07:11:54.223] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:12:29.856] [INFO] default - Checking 0 0
+[2023-02-10T07:12:29.857] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:13:03.493] [INFO] default - Checking 0 0
+[2023-02-10T07:13:03.495] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:13:21.917] [INFO] default - Checking 0 0
+[2023-02-10T07:13:21.918] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230210/
+[2023-02-10T07:13:37.516] [INFO] default - Checking 0 0
+[2023-02-10T07:13:37.517] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:13:38.472] [INFO] default - Checking 0 0
+[2023-02-10T07:13:38.518] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:13:49.514] [INFO] default - Done 20230210 27.596 ms
+[2023-02-10T07:13:57.337] [INFO] default - Done 20230210 18.862 ms
+[2023-02-10T07:14:08.161] [INFO] default - Checking 0 0
+[2023-02-10T07:14:08.163] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:14:42.676] [INFO] default - Checking 0 0
+[2023-02-10T07:14:42.678] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:15:17.285] [INFO] default - Checking 0 0
+[2023-02-10T07:15:17.287] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:15:52.205] [INFO] default - Checking 0 0
+[2023-02-10T07:15:52.207] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:16:29.861] [INFO] default - Checking 0 0
+[2023-02-10T07:16:29.863] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:17:04.077] [INFO] default - Checking 0 0
+[2023-02-10T07:17:04.079] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:17:34.624] [INFO] default - Checking 0 0
+[2023-02-10T07:17:34.669] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:17:38.455] [INFO] default - Checking 0 0
+[2023-02-10T07:17:38.457] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:17:59.762] [INFO] default - Done 20230210 25.136 ms
+[2023-02-10T07:18:11.685] [INFO] default - Checking 0 0
+[2023-02-10T07:18:11.687] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:18:46.643] [INFO] default - Checking 0 0
+[2023-02-10T07:18:46.645] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:19:21.538] [INFO] default - Checking 0 0
+[2023-02-10T07:19:21.540] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:19:54.938] [INFO] default - Checking 0 0
+[2023-02-10T07:19:54.940] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:20:31.239] [INFO] default - Checking 0 0
+[2023-02-10T07:20:31.241] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:21:08.234] [INFO] default - Checking 0 0
+[2023-02-10T07:21:08.235] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:21:37.853] [INFO] default - Checking 0 0
+[2023-02-10T07:21:37.898] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:21:42.729] [INFO] default - Checking 0 0
+[2023-02-10T07:21:42.730] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:21:52.783] [INFO] default - Done 20230210 14.929 ms
+[2023-02-10T07:22:15.994] [INFO] default - Checking 0 0
+[2023-02-10T07:22:15.995] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:22:47.834] [INFO] default - Checking 0 0
+[2023-02-10T07:22:47.835] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230210/
+[2023-02-10T07:22:52.522] [INFO] default - Checking 0 0
+[2023-02-10T07:22:52.524] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:23:27.588] [INFO] default - Done 20230210 39.753 ms
+[2023-02-10T07:23:30.733] [INFO] default - Checking 0 0
+[2023-02-10T07:23:30.734] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:24:06.190] [INFO] default - Checking 0 0
+[2023-02-10T07:24:06.191] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:24:34.432] [INFO] default - Checking 0 0
+[2023-02-10T07:24:34.433] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230210/
+[2023-02-10T07:24:39.997] [INFO] default - Checking 0 0
+[2023-02-10T07:24:39.999] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:25:17.096] [INFO] default - Checking 0 0
+[2023-02-10T07:25:17.097] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:25:25.847] [INFO] default - Done 20230210 51.413 ms
+[2023-02-10T07:25:29.912] [INFO] default - Checking 0 0
+[2023-02-10T07:25:29.987] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:25:49.982] [INFO] default - Done 20230210 20.069 ms
+[2023-02-10T07:25:53.776] [INFO] default - Checking 0 0
+[2023-02-10T07:25:53.778] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:26:31.141] [INFO] default - Checking 0 0
+[2023-02-10T07:26:31.143] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:27:06.156] [INFO] default - Checking 0 0
+[2023-02-10T07:27:06.157] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:27:41.965] [INFO] default - Checking 0 0
+[2023-02-10T07:27:41.967] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:28:17.828] [INFO] default - Checking 0 0
+[2023-02-10T07:28:17.830] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:28:49.824] [INFO] default - Checking 0 0
+[2023-02-10T07:28:49.871] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230210/
+[2023-02-10T07:28:55.371] [INFO] default - Checking 0 0
+[2023-02-10T07:28:55.372] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:29:28.552] [INFO] default - Checking 0 0
+[2023-02-10T07:29:28.596] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:29:31.684] [INFO] default - Checking 0 0
+[2023-02-10T07:29:31.685] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:29:42.196] [INFO] default - Done 20230210 52.371 ms
+[2023-02-10T07:29:51.507] [INFO] default - Done 20230210 22.954 ms
+[2023-02-10T07:30:05.261] [INFO] default - Checking 0 0
+[2023-02-10T07:30:05.262] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:30:41.074] [INFO] default - Checking 0 0
+[2023-02-10T07:30:41.076] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:31:16.404] [INFO] default - Checking 0 0
+[2023-02-10T07:31:16.406] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:31:53.293] [INFO] default - Checking 0 0
+[2023-02-10T07:31:53.295] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:32:29.072] [INFO] default - Checking 0 0
+[2023-02-10T07:32:29.074] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:33:04.718] [INFO] default - Checking 0 0
+[2023-02-10T07:33:04.719] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:33:30.151] [INFO] default - Checking 0 0
+[2023-02-10T07:33:30.190] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:33:39.047] [INFO] default - Checking 0 0
+[2023-02-10T07:33:39.048] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:33:52.442] [INFO] default - Done 20230210 22.289 ms
+[2023-02-10T07:34:08.984] [INFO] default - Checking 0 0
+[2023-02-10T07:34:08.986] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:34:44.226] [INFO] default - Checking 0 0
+[2023-02-10T07:34:44.230] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:35:21.254] [INFO] default - Checking 0 0
+[2023-02-10T07:35:21.256] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:36:11.089] [INFO] default - Checking 0 0
+[2023-02-10T07:36:11.091] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:36:49.288] [INFO] default - Checking 0 0
+[2023-02-10T07:36:49.290] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:37:25.186] [INFO] default - Checking 0 0
+[2023-02-10T07:37:25.188] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:37:31.557] [INFO] default - Checking 0 0
+[2023-02-10T07:37:31.598] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:37:53.157] [INFO] default - Done 20230210 21.599 ms
+[2023-02-10T07:41:33.203] [INFO] default - Checking 0 0
+[2023-02-10T07:41:33.244] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:45:28.894] [INFO] default - Checking 0 0
+[2023-02-10T07:45:28.930] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:45:52.579] [INFO] default - Done 20230210 23.684 ms
+[2023-02-10T07:49:31.531] [INFO] default - Checking 0 0
+[2023-02-10T07:49:31.571] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:49:59.438] [INFO] default - Done 20230210 27.906 ms
+[2023-02-10T07:53:37.710] [INFO] default - Checking 0 0
+[2023-02-10T07:53:37.771] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:54:00.146] [INFO] default - Done 20230210 22.436 ms
+[2023-02-10T07:57:39.056] [INFO] default - Checking 0 0
+[2023-02-10T07:57:39.096] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T07:58:03.867] [INFO] default - Done 20230210 24.81 ms
+[2023-02-10T08:01:42.786] [INFO] default - Checking 0 0
+[2023-02-10T08:01:42.826] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:01:57.435] [INFO] default - Done 20230210 14.648 ms
+[2023-02-10T08:05:36.776] [INFO] default - Checking 0 0
+[2023-02-10T08:05:36.822] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:05:59.746] [INFO] default - Done 20230210 22.969 ms
+[2023-02-10T08:09:38.694] [INFO] default - Checking 0 0
+[2023-02-10T08:09:38.740] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:09:57.868] [INFO] default - Done 20230210 19.173 ms
+[2023-02-10T08:13:35.950] [INFO] default - Checking 0 0
+[2023-02-10T08:13:35.998] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:17:11.646] [INFO] default - Checking 0 0
+[2023-02-10T08:17:11.653] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:17:29.514] [INFO] default - Done 20230210 17.867 ms
+[2023-02-10T08:21:08.874] [INFO] default - Checking 0 0
+[2023-02-10T08:21:08.906] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:21:26.683] [INFO] default - Done 20230210 17.808 ms
+[2023-02-10T08:25:05.752] [INFO] default - Checking 0 0
+[2023-02-10T08:25:05.785] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:25:22.789] [INFO] default - Done 20230210 17.036 ms
+[2023-02-10T08:29:02.156] [INFO] default - Checking 0 0
+[2023-02-10T08:29:02.191] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:29:24.480] [INFO] default - Done 20230210 22.323 ms
+[2023-02-10T08:33:02.769] [INFO] default - Checking 0 0
+[2023-02-10T08:33:02.808] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:33:19.157] [INFO] default - Done 20230210 16.387 ms
+[2023-02-10T08:36:58.634] [INFO] default - Checking 0 0
+[2023-02-10T08:36:58.669] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:37:19.162] [INFO] default - Done 20230210 20.527 ms
+[2023-02-10T08:40:58.581] [INFO] default - Checking 0 0
+[2023-02-10T08:40:58.622] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:41:18.775] [INFO] default - Done 20230210 20.192 ms
+[2023-02-10T08:44:58.424] [INFO] default - Checking 0 0
+[2023-02-10T08:44:58.465] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:45:18.437] [INFO] default - Done 20230210 20.011 ms
+[2023-02-10T08:48:57.275] [INFO] default - Checking 0 0
+[2023-02-10T08:48:57.321] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:49:35.594] [INFO] default - Done 20230210 38.318 ms
+[2023-02-10T08:53:14.916] [INFO] default - Checking 0 0
+[2023-02-10T08:53:14.962] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:57:01.603] [INFO] default - Checking 0 0
+[2023-02-10T08:57:01.621] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T08:57:38.822] [INFO] default - Done 20230210 37.218 ms
+[2023-02-10T09:01:18.275] [INFO] default - Checking 0 0
+[2023-02-10T09:01:18.317] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:01:57.259] [INFO] default - Done 20230210 38.983 ms
+[2023-02-10T09:05:36.484] [INFO] default - Checking 0 0
+[2023-02-10T09:05:36.532] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:06:04.355] [INFO] default - Done 20230210 27.87 ms
+[2023-02-10T09:09:42.620] [INFO] default - Checking 0 0
+[2023-02-10T09:09:42.667] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:10:01.480] [INFO] default - Done 20230210 18.859 ms
+[2023-02-10T09:13:40.035] [INFO] default - Checking 0 0
+[2023-02-10T09:13:40.068] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:13:57.968] [INFO] default - Done 20230210 17.932 ms
+[2023-02-10T09:17:37.023] [INFO] default - Checking 0 0
+[2023-02-10T09:17:37.056] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:17:58.881] [INFO] default - Done 20230210 21.857 ms
+[2023-02-10T09:21:37.934] [INFO] default - Checking 0 0
+[2023-02-10T09:21:37.974] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:21:57.661] [INFO] default - Done 20230210 19.726 ms
+[2023-02-10T09:25:36.863] [INFO] default - Checking 0 0
+[2023-02-10T09:25:36.898] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:25:55.524] [INFO] default - Done 20230210 18.661 ms
+[2023-02-10T09:29:34.214] [INFO] default - Checking 0 0
+[2023-02-10T09:29:34.249] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:29:51.564] [INFO] default - Done 20230210 17.349 ms
+[2023-02-10T09:33:30.855] [INFO] default - Checking 0 0
+[2023-02-10T09:33:30.889] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:33:50.988] [INFO] default - Done 20230210 20.132 ms
+[2023-02-10T09:37:29.219] [INFO] default - Checking 0 0
+[2023-02-10T09:37:29.257] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:37:43.838] [INFO] default - Done 20230210 14.618 ms
+[2023-02-10T09:41:23.585] [INFO] default - Checking 0 0
+[2023-02-10T09:41:23.618] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:41:43.583] [INFO] default - Done 20230210 19.998 ms
+[2023-02-10T09:45:21.971] [INFO] default - Checking 0 0
+[2023-02-10T09:45:22.004] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:45:43.121] [INFO] default - Done 20230210 21.149 ms
+[2023-02-10T09:49:22.513] [INFO] default - Checking 0 0
+[2023-02-10T09:49:22.548] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T09:49:41.978] [INFO] default - Done 20230210 19.463 ms
+[2023-02-10T11:00:30.493] [INFO] default - Checking 0 0
+[2023-02-10T11:00:30.526] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T11:00:44.167] [INFO] default - Checking 0 0
+[2023-02-10T11:00:44.190] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T11:00:51.401] [INFO] default - Done 20230210 20.907 ms
+[2023-02-10T11:00:58.678] [INFO] default - Checking 0 0
+[2023-02-10T11:00:58.686] [DEBUG] default - Done remove directory  ./trans/20230210/
+[2023-02-10T11:01:07.218] [INFO] default - Checking 0 0
+[2023-02-10T11:01:07.249] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230210/
+[2023-02-10T11:01:18.239] [INFO] default - Checking 0 0
+[2023-02-10T11:01:18.258] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230210/
+[2023-02-10T11:01:21.884] [INFO] default - Done 20230210 23.206 ms
+[2023-02-10T11:01:28.596] [INFO] default - Done 20230210 10.356 ms
+[2023-02-10T11:01:39.192] [INFO] default - Checking 0 0
+[2023-02-10T11:01:39.198] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcitrans/20230210/
+[2023-02-10T11:01:59.620] [INFO] default - Done 20230210 20.427 ms
+[2023-02-10T11:02:27.002] [INFO] default - Checking 0 0
+[2023-02-10T11:02:27.017] [DEBUG] default - Done remove directory  /workspace/stockstorage/./tcbstrans/20230210/
+[2023-02-10T11:02:38.536] [INFO] default - Done 20230210 11.534 ms
+[2023-02-10T11:02:55.755] [INFO] default - Checking 0 0
+[2023-02-10T11:02:55.772] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vietstocktrans/20230210/
+[2023-02-10T11:03:53.163] [INFO] default - Done 20230210 57.407 ms
+[2023-02-10T11:04:04.545] [INFO] default - Checking 0 0
+[2023-02-10T11:04:04.546] [DEBUG] default - Done remove directory  /workspace/stockstorage/./trans/20230210/
+[2023-02-10T11:04:28.040] [INFO] default - Checking 0 0
+[2023-02-10T11:04:28.053] [DEBUG] default - Done remove directory  /workspace/stockstorage/./trans/20230210/
+[2023-02-10T11:04:54.692] [INFO] default - Done 20230210 26.651 ms
+[2023-02-10T11:07:27.778] [INFO] default - Checking 0 0
+[2023-02-10T11:07:27.796] [DEBUG] default - Done remove directory  /workspace/stockstorage/./vcbstrans/20230210/
+[2023-02-10T11:09:37.074] [INFO] default - Done 20230210 129.295 ms
+[2023-02-13T02:05:53.522] [INFO] default - Checking 0 0
+[2023-02-13T02:05:53.524] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:08:25.429] [INFO] default - Checking 0 0
+[2023-02-13T02:08:25.430] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:12:56.670] [INFO] default - Checking 0 0
+[2023-02-13T02:12:56.671] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:16:20.644] [INFO] default - Checking 0 0
+[2023-02-13T02:16:20.646] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:16:47.605] [INFO] default - Checking 0 0
+[2023-02-13T02:16:47.606] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:19:45.962] [INFO] default - Checking 0 0
+[2023-02-13T02:19:45.964] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:19:58.866] [INFO] default - Checking 0 0
+[2023-02-13T02:19:58.868] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:30:21.113] [INFO] default - Checking 0 0
+[2023-02-13T02:30:21.118] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:32:44.393] [INFO] default - Checking 0 0
+[2023-02-13T02:32:44.399] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:46:21.092] [INFO] default - Checking 0 0
+[2023-02-13T02:46:21.098] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:46:32.143] [INFO] default - Checking 0 0
+[2023-02-13T02:46:32.146] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:48:45.420] [INFO] default - Done 20230213 133.275 ms
+[2023-02-13T02:51:33.412] [INFO] default - Checking 0 0
+[2023-02-13T02:51:33.555] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:53:18.631] [INFO] default - Done 20230213 105.218 ms
+[2023-02-13T02:55:21.450] [INFO] default - Checking 0 0
+[2023-02-13T02:55:21.599] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:56:04.080] [INFO] default - Checking 0 0
+[2023-02-13T02:56:04.081] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:56:36.684] [INFO] default - Checking 0 0
+[2023-02-13T02:56:36.685] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:56:51.225] [INFO] default - Checking 0 0
+[2023-02-13T02:56:51.226] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:58:28.233] [INFO] default - Checking 0 0
+[2023-02-13T02:58:28.235] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:58:41.081] [INFO] default - Checking 0 0
+[2023-02-13T02:58:41.083] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T02:58:51.006] [INFO] default - Done 20230213 9.923 ms
+[2023-02-13T02:59:50.113] [INFO] default - Checking 0 0
+[2023-02-13T02:59:50.114] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T03:01:39.441] [INFO] default - Done 20230213 109.327 ms
+[2023-02-13T03:08:09.141] [INFO] default - Checking 0 0
+[2023-02-13T03:08:09.142] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:08:25.390] [INFO] default - Checking 0 0
+[2023-02-13T03:08:25.392] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:08:30.527] [INFO] default - Done 20230213 21.385 ms
+[2023-02-13T03:08:55.604] [INFO] default - Checking 0 0
+[2023-02-13T03:08:55.606] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:09:30.117] [INFO] default - Checking 0 0
+[2023-02-13T03:09:30.119] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:10:01.086] [INFO] default - Checking 0 0
+[2023-02-13T03:10:01.087] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:10:31.985] [INFO] default - Checking 0 0
+[2023-02-13T03:10:31.987] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:11:03.590] [INFO] default - Checking 0 0
+[2023-02-13T03:11:03.592] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:11:34.432] [INFO] default - Checking 0 0
+[2023-02-13T03:11:34.435] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:12:09.906] [INFO] default - Checking 0 0
+[2023-02-13T03:12:09.908] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:12:41.486] [INFO] default - Checking 0 0
+[2023-02-13T03:12:41.488] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:13:12.461] [INFO] default - Checking 0 0
+[2023-02-13T03:13:12.463] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:13:44.296] [INFO] default - Checking 0 0
+[2023-02-13T03:13:44.298] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:13:50.013] [INFO] default - Checking 0 0
+[2023-02-13T03:13:50.052] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:14:07.217] [INFO] default - Done 20230213 17.203 ms
+[2023-02-13T03:16:07.272] [INFO] default - Checking 0 0
+[2023-02-13T03:16:07.273] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T03:16:37.562] [INFO] default - Done 20230213 30.288 ms
+[2023-02-13T03:18:20.893] [INFO] default - Checking 0 0
+[2023-02-13T03:18:20.894] [DEBUG] default - Done remove directory  /workspace/stockstorage/./mbstrans/20230213/
+[2023-02-13T03:19:26.914] [INFO] default - Checking 0 0
+[2023-02-13T03:19:26.954] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:19:44.526] [INFO] default - Done 20230213 17.611 ms
+[2023-02-13T03:22:35.447] [INFO] default - Done 20230213 254.553 ms
+[2023-02-13T03:25:05.437] [INFO] default - Checking 0 0
+[2023-02-13T03:25:05.479] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:25:22.684] [INFO] default - Done 20230213 17.246 ms
+[2023-02-13T03:30:43.271] [INFO] default - Checking 0 0
+[2023-02-13T03:30:43.386] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:31:04.963] [INFO] default - Done 20230213 21.69 ms
+[2023-02-13T03:36:25.804] [INFO] default - Checking 0 0
+[2023-02-13T03:36:25.853] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:36:39.405] [INFO] default - Done 20230213 13.6 ms
+[2023-02-13T03:41:59.805] [INFO] default - Checking 0 0
+[2023-02-13T03:41:59.874] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:42:18.547] [INFO] default - Done 20230213 18.741 ms
+[2023-02-13T03:46:56.301] [INFO] default - Checking 0 0
+[2023-02-13T03:46:56.349] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T03:47:15.003] [INFO] default - Checking 0 0
+[2023-02-13T03:47:15.033] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T03:47:23.690] [INFO] default - Done 20230213 8.685 ms
+[2023-02-13T03:47:38.568] [INFO] default - Checking 0 0
+[2023-02-13T03:47:38.569] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:47:50.631] [INFO] default - Done 20230213 12.062 ms
+[2023-02-13T03:53:10.820] [INFO] default - Checking 0 0
+[2023-02-13T03:53:10.874] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:53:29.517] [INFO] default - Done 20230213 18.696 ms
+[2023-02-13T03:58:50.112] [INFO] default - Checking 0 0
+[2023-02-13T03:58:50.152] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T03:59:09.965] [INFO] default - Done 20230213 19.852 ms
+[2023-02-13T04:01:00.910] [INFO] default - Checking 0 0
+[2023-02-13T04:01:00.991] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:01:12.250] [INFO] default - Checking 0 0
+[2023-02-13T04:01:12.263] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:01:23.705] [INFO] default - Checking 0 0
+[2023-02-13T04:01:23.729] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:01:51.719] [INFO] default - Checking 0 0
+[2023-02-13T04:01:51.746] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:02:09.247] [INFO] default - Checking 0 0
+[2023-02-13T04:02:09.275] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:02:26.533] [INFO] default - Done 20230213 17.285 ms
+[2023-02-13T04:03:32.452] [INFO] default - Checking 0 0
+[2023-02-13T04:03:32.488] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:04:14.297] [INFO] default - Checking 0 0
+[2023-02-13T04:04:14.310] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:04:45.708] [INFO] default - Checking 0 0
+[2023-02-13T04:04:45.714] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:05:25.886] [INFO] default - Checking 0 0
+[2023-02-13T04:05:25.917] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:05:53.362] [INFO] default - Checking 0 0
+[2023-02-13T04:05:53.388] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:06:09.525] [INFO] default - Checking 0 0
+[2023-02-13T04:06:09.534] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:06:14.028] [INFO] default - Done 20230213 4.502 ms
+[2023-02-13T04:09:44.819] [INFO] default - Checking 0 0
+[2023-02-13T04:09:44.879] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:10:13.139] [INFO] default - Checking 0 0
+[2023-02-13T04:10:13.153] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:10:21.849] [INFO] default - Checking 0 0
+[2023-02-13T04:10:21.884] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:10:26.115] [INFO] default - Done 20230213 4.265 ms
+[2023-02-13T04:17:35.126] [INFO] default - Checking 0 0
+[2023-02-13T04:17:35.186] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:21:59.572] [INFO] default - Checking 0 0
+[2023-02-13T04:21:59.575] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:22:47.477] [INFO] default - Checking 0 0
+[2023-02-13T04:22:47.535] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:32:14.070] [INFO] default - Checking 0 0
+[2023-02-13T04:32:14.094] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T04:32:29.085] [INFO] default - Done 20230213 15.013 ms
+[2023-02-13T04:33:31.467] [INFO] default - Checking 0 0
+[2023-02-13T04:33:31.550] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:33:50.722] [INFO] default - Checking 0 0
+[2023-02-13T04:33:50.749] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:34:45.389] [INFO] default - Checking 0 0
+[2023-02-13T04:34:45.454] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:36:55.773] [INFO] default - Checking 0 0
+[2023-02-13T04:36:55.787] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:40:19.637] [INFO] default - Checking 0 0
+[2023-02-13T04:40:19.667] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T04:40:31.034] [INFO] default - Done 20230213 11.395 ms
+[2023-02-13T04:42:40.116] [INFO] default - Checking 0 0
+[2023-02-13T04:42:40.215] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:48:45.912] [INFO] default - Checking 0 0
+[2023-02-13T04:48:45.967] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:49:40.445] [INFO] default - Checking 0 0
+[2023-02-13T04:49:40.489] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:50:29.977] [INFO] default - Checking 0 0
+[2023-02-13T04:50:30.031] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T04:52:38.713] [INFO] default - Checking 0 0
+[2023-02-13T04:52:38.733] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T04:52:54.521] [INFO] default - Done 20230213 15.807 ms
+[2023-02-13T04:53:34.888] [INFO] default - Checking 0 0
+[2023-02-13T04:53:34.966] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T05:03:56.389] [INFO] default - Checking 0 0
+[2023-02-13T05:03:56.440] [DEBUG] default - Done remove directory  /workspace/stockstorage/./ssitrans/20230213/
+[2023-02-13T06:36:21.098] [INFO] default - Checking 0 0
+[2023-02-13T06:36:21.100] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:36:52.729] [INFO] default - Checking 0 0
+[2023-02-13T06:36:52.747] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:36:56.685] [INFO] default - Checking 0 0
+[2023-02-13T06:36:56.686] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:37:12.913] [INFO] default - Done 20230213 20.182 ms
+[2023-02-13T06:37:29.887] [INFO] default - Checking 0 0
+[2023-02-13T06:37:29.889] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:38:05.333] [INFO] default - Checking 0 0
+[2023-02-13T06:38:05.335] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:38:40.119] [INFO] default - Checking 0 0
+[2023-02-13T06:38:40.121] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:39:15.203] [INFO] default - Checking 0 0
+[2023-02-13T06:39:15.205] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:39:50.201] [INFO] default - Checking 0 0
+[2023-02-13T06:39:50.203] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:40:25.156] [INFO] default - Checking 0 0
+[2023-02-13T06:40:25.159] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:40:51.557] [INFO] default - Checking 0 0
+[2023-02-13T06:40:51.594] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:41:00.543] [INFO] default - Checking 0 0
+[2023-02-13T06:41:00.545] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:41:12.960] [INFO] default - Done 20230213 21.402 ms
+[2023-02-13T06:41:35.825] [INFO] default - Checking 0 0
+[2023-02-13T06:41:35.827] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:42:11.907] [INFO] default - Checking 0 0
+[2023-02-13T06:42:11.909] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:42:49.143] [INFO] default - Checking 0 0
+[2023-02-13T06:42:49.178] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:42:52.347] [INFO] default - Checking 0 0
+[2023-02-13T06:42:52.348] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:43:09.470] [INFO] default - Done 20230213 20.326 ms
+[2023-02-13T06:43:15.959] [INFO] default - Checking 0 0
+[2023-02-13T06:43:15.961] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:43:51.323] [INFO] default - Checking 0 0
+[2023-02-13T06:43:51.325] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:44:26.686] [INFO] default - Checking 0 0
+[2023-02-13T06:44:26.688] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:45:01.604] [INFO] default - Checking 0 0
+[2023-02-13T06:45:01.606] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:45:09.993] [INFO] default - Checking 0 0
+[2023-02-13T06:45:10.031] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:45:25.925] [INFO] default - Done 20230213 15.931 ms
+[2023-02-13T06:45:36.819] [INFO] default - Checking 0 0
+[2023-02-13T06:45:36.821] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:46:11.564] [INFO] default - Checking 0 0
+[2023-02-13T06:46:11.566] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:46:47.112] [INFO] default - Checking 0 0
+[2023-02-13T06:46:47.113] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:47:22.688] [INFO] default - Checking 0 0
+[2023-02-13T06:47:22.690] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:47:26.366] [INFO] default - Checking 0 0
+[2023-02-13T06:47:26.403] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:47:39.834] [INFO] default - Done 20230213 13.467 ms
+[2023-02-13T06:47:51.857] [INFO] default - Checking 0 0
+[2023-02-13T06:47:51.860] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:48:27.791] [INFO] default - Checking 0 0
+[2023-02-13T06:48:27.792] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:49:07.929] [INFO] default - Checking 0 0
+[2023-02-13T06:49:07.931] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:49:39.528] [INFO] default - Checking 0 0
+[2023-02-13T06:49:39.564] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:49:43.014] [INFO] default - Checking 0 0
+[2023-02-13T06:49:43.015] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:49:55.653] [INFO] default - Done 20230213 16.124 ms
+[2023-02-13T06:50:17.039] [INFO] default - Checking 0 0
+[2023-02-13T06:50:17.041] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:50:52.510] [INFO] default - Checking 0 0
+[2023-02-13T06:50:52.512] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:51:28.804] [INFO] default - Checking 0 0
+[2023-02-13T06:51:28.805] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:51:54.800] [INFO] default - Checking 0 0
+[2023-02-13T06:51:54.837] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:52:04.051] [INFO] default - Checking 0 0
+[2023-02-13T06:52:04.052] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:52:13.633] [INFO] default - Done 20230213 18.832 ms
+[2023-02-13T06:52:40.407] [INFO] default - Checking 0 0
+[2023-02-13T06:52:40.409] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:53:15.946] [INFO] default - Checking 0 0
+[2023-02-13T06:53:15.948] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:53:51.607] [INFO] default - Checking 0 0
+[2023-02-13T06:53:51.608] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:54:13.653] [INFO] default - Checking 0 0
+[2023-02-13T06:54:13.689] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:54:27.197] [INFO] default - Checking 0 0
+[2023-02-13T06:54:27.199] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:54:27.929] [INFO] default - Done 20230213 14.274 ms
+[2023-02-13T06:55:03.035] [INFO] default - Checking 0 0
+[2023-02-13T06:55:03.036] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:55:44.340] [INFO] default - Checking 0 0
+[2023-02-13T06:55:44.342] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:56:20.702] [INFO] default - Checking 0 0
+[2023-02-13T06:56:20.704] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:56:27.361] [INFO] default - Checking 0 0
+[2023-02-13T06:56:27.397] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:56:47.960] [INFO] default - Done 20230213 20.598 ms
+[2023-02-13T06:58:47.447] [INFO] default - Checking 0 0
+[2023-02-13T06:58:47.481] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T06:59:08.522] [INFO] default - Done 20230213 21.074 ms
+[2023-02-13T07:01:08.405] [INFO] default - Checking 0 0
+[2023-02-13T07:01:08.444] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:01:31.519] [INFO] default - Done 20230213 23.113 ms
+[2023-02-13T07:03:31.222] [INFO] default - Checking 0 0
+[2023-02-13T07:03:31.258] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:03:57.519] [INFO] default - Done 20230213 26.296 ms
+[2023-02-13T07:05:57.534] [INFO] default - Checking 0 0
+[2023-02-13T07:05:57.570] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:06:24.468] [INFO] default - Done 20230213 26.933 ms
+[2023-02-13T07:08:24.884] [INFO] default - Checking 0 0
+[2023-02-13T07:08:24.920] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:08:42.620] [INFO] default - Done 20230213 17.735 ms
+[2023-02-13T07:10:42.312] [INFO] default - Checking 0 0
+[2023-02-13T07:10:42.349] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:11:06.084] [INFO] default - Done 20230213 23.771 ms
+[2023-02-13T07:13:06.401] [INFO] default - Checking 0 0
+[2023-02-13T07:13:06.436] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:13:25.962] [INFO] default - Done 20230213 19.56 ms
+[2023-02-13T07:15:26.211] [INFO] default - Checking 0 0
+[2023-02-13T07:15:26.249] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:15:41.789] [INFO] default - Done 20230213 15.577 ms
+[2023-02-13T07:17:42.343] [INFO] default - Checking 0 0
+[2023-02-13T07:17:42.386] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:18:03.662] [INFO] default - Done 20230213 21.318 ms
+[2023-02-13T07:20:04.523] [INFO] default - Checking 0 0
+[2023-02-13T07:20:04.558] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:20:27.417] [INFO] default - Done 20230213 22.893 ms
+[2023-02-13T07:22:28.638] [INFO] default - Checking 0 0
+[2023-02-13T07:22:28.690] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:22:44.219] [INFO] default - Done 20230213 15.58 ms
+[2023-02-13T07:24:45.127] [INFO] default - Checking 0 0
+[2023-02-13T07:24:45.167] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:25:04.111] [INFO] default - Done 20230213 18.983 ms
+[2023-02-13T07:27:05.394] [INFO] default - Checking 0 0
+[2023-02-13T07:27:05.431] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:27:20.355] [INFO] default - Done 20230213 14.96 ms
+[2023-02-13T07:29:21.746] [INFO] default - Checking 0 0
+[2023-02-13T07:29:21.781] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:29:40.965] [INFO] default - Done 20230213 19.218 ms
+[2023-02-13T07:31:42.291] [INFO] default - Checking 0 0
+[2023-02-13T07:31:42.327] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:32:01.471] [INFO] default - Done 20230213 19.179 ms
+[2023-02-13T07:34:02.215] [INFO] default - Checking 0 0
+[2023-02-13T07:34:02.251] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:34:26.980] [INFO] default - Done 20230213 24.763 ms
+[2023-02-13T07:35:31.440] [INFO] default - Checking 0 0
+[2023-02-13T07:35:31.480] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:35:50.493] [INFO] default - Done 20230213 19.052 ms
+[2023-02-13T07:36:31.874] [INFO] default - Checking 0 0
+[2023-02-13T07:36:31.909] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:36:49.811] [INFO] default - Done 20230213 17.936 ms
+[2023-02-13T07:37:31.036] [INFO] default - Checking 0 0
+[2023-02-13T07:37:31.071] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:37:44.433] [INFO] default - Done 20230213 13.396 ms
+[2023-02-13T07:38:26.633] [INFO] default - Checking 0 0
+[2023-02-13T07:38:26.670] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:38:42.968] [INFO] default - Done 20230213 16.334 ms
+[2023-02-13T07:39:24.408] [INFO] default - Checking 0 0
+[2023-02-13T07:39:24.444] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:39:44.522] [INFO] default - Done 20230213 20.112 ms
+[2023-02-13T07:40:26.005] [INFO] default - Checking 0 0
+[2023-02-13T07:40:26.044] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:40:45.466] [INFO] default - Done 20230213 19.46 ms
+[2023-02-13T07:41:26.334] [INFO] default - Checking 0 0
+[2023-02-13T07:41:26.370] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:41:43.119] [INFO] default - Done 20230213 16.784 ms
+[2023-02-13T07:42:24.229] [INFO] default - Checking 0 0
+[2023-02-13T07:42:24.265] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:42:44.966] [INFO] default - Done 20230213 20.736 ms
+[2023-02-13T07:43:26.191] [INFO] default - Checking 0 0
+[2023-02-13T07:43:26.227] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:43:47.470] [INFO] default - Done 20230213 21.279 ms
+[2023-02-13T07:44:28.549] [INFO] default - Checking 0 0
+[2023-02-13T07:44:28.584] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:44:51.110] [INFO] default - Done 20230213 22.56 ms
+[2023-02-13T07:45:33.241] [INFO] default - Checking 0 0
+[2023-02-13T07:45:33.279] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:45:55.961] [INFO] default - Done 20230213 22.719 ms
+[2023-02-13T07:46:37.452] [INFO] default - Checking 0 0
+[2023-02-13T07:46:37.489] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:46:56.472] [INFO] default - Done 20230213 19.019 ms
+[2023-02-13T07:47:38.196] [INFO] default - Checking 0 0
+[2023-02-13T07:47:38.230] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:47:58.518] [INFO] default - Done 20230213 20.321 ms
+[2023-02-13T07:48:40.336] [INFO] default - Checking 0 0
+[2023-02-13T07:48:40.375] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:48:59.585] [INFO] default - Done 20230213 19.248 ms
+[2023-02-13T07:49:41.016] [INFO] default - Checking 0 0
+[2023-02-13T07:49:41.050] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:49:55.968] [INFO] default - Done 20230213 14.951 ms
+[2023-02-13T07:50:36.580] [INFO] default - Checking 0 0
+[2023-02-13T07:50:36.616] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:50:58.978] [INFO] default - Done 20230213 22.397 ms
+[2023-02-13T07:51:40.428] [INFO] default - Checking 0 0
+[2023-02-13T07:51:40.463] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:51:58.826] [INFO] default - Done 20230213 18.396 ms
+[2023-02-13T07:52:41.062] [INFO] default - Checking 0 0
+[2023-02-13T07:52:41.099] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:53:03.972] [INFO] default - Done 20230213 22.908 ms
+[2023-02-13T07:53:45.785] [INFO] default - Checking 0 0
+[2023-02-13T07:53:45.823] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:54:08.962] [INFO] default - Done 20230213 23.176 ms
+[2023-02-13T07:54:50.590] [INFO] default - Checking 0 0
+[2023-02-13T07:54:50.625] [DEBUG] default - Done remove directory  ./trans/20230213/
+[2023-02-13T07:55:04.648] [INFO] default - Done 20230213 14.057 ms
+[2023-02-13T07:55:46.254] [INFO] default - Checking 0 0
+[2023-02-13T07:55:46.290] [DEBUG] default - Done remove directory  ./trans/20230213/
