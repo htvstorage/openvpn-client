@@ -33,11 +33,14 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   await Exchange.SSI.getlistallsymbol();
   var args = process.argv.slice(2);
   let vss = null;
+  let resolution = "5"
   for (let v of args) {
     if (v.includes("stock="))
       vss = v;
-    break;
+    if (v.includes("resolution="))
+      resolution = v;
   }
+  resolution = resolution == null ? "5" : resolution.substring("resolution=".length);
   let ss = vss == null ? "24HMONEY" : vss.substring("stock=".length);
 
   let cop = [];
@@ -97,7 +100,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         break;
       case "MBS":
         dir += "./mbstrans/" + getNow() + "/";
-        csv = new Parser({ fields: ['symbol','time','close','open','high','low'] });
+        csv = new Parser({ fields: ['symbol', 'time', 'close', 'open', 'high', 'low', 'vol'] });
         fun = Exchange.MBS.pbRltCharts;
         break;
     }
@@ -113,60 +116,66 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     logger.debug("Done remove directory ", dir);
 
     let stat = { req: 0, res: 0 }
+    cop = cop.filter(e => { return e.stock_code.length == 3 });
+    cop.push(...[{ stock_code: 'VNINDEX' }, { stock_code: 'VN30' }, { stock_code: 'HNXINDEX' }, { stock_code: 'UPCOMINDEX' }])
+    total_check == cop.length;
     for (let x of cop) {
       x['Code'] = x.stock_code;
-      if (x.Code.length < 4) {
-        logger.trace(x.Code);
-        while (stat.req - stat.res >= 20) {
-          await wait(200);
-        }
-        // let z = getTrans(x.Code);
-        // let z = Exchange.VietStock.GetStockDealDetail(x.Code);
-        // console.log(x.Code)
-        stat.req++;
-        let z = fun(x.Code);
-        requested++;
-        localReq++;
-        z.then((ret) => {
-          stat.res++;
-          if (stat.res % 10 == 0) {
-            console.log(stat)
-          }
-          responsed++;
-          localRes++;
-          if (logger.isTraceEnabled)
-            logger.trace(ret.data.length);
-
-          if (localRes == total_check) {
-            logger.info("Done " + getNow() + " " + (Date.now() - t1) / 1000 + " ms");
-          }
-          if (ret.data.length == 0) {
-            return;
-          }
-
-
-          // 
-          let data2 = csv.parse(ret.data);
-          if (watchlist.includes(ret.Code)) {
-            // logger.info("\n",ret.Code,"\n",data2.substr(0,data2.indexOf("\n",200)));
-          }
-          switch (ss.toUpperCase()) {
-            case "SSI":
-              fs.appendFile(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
-                if (err) throw err;
-              });
-              fs.appendFile(dir + ret.Code + '_stockRealtime.json', JSON.stringify(ret.stockRealtime) + "\n", function (err) {
-                if (err) throw err;
-              });
-              break;
-            default:
-              fs.appendFile(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
-                if (err) throw err;
-              });
-          }
-
-        })
+      // if (x.Code.length != 3) {
+      //   continue;
+      // }
+      logger.trace(x.Code);
+      while (stat.req - stat.res >= 50) {
+        await wait(200);
       }
+      stat.req++;
+      let z = fun(x.Code, resolution);
+      requested++;
+      localReq++;
+      z.then((ret) => {
+        stat.res++;
+        if (stat.res % 10 == 0) {
+          console.log(stat)
+        }
+        responsed++;
+        localRes++;
+        if (logger.isTraceEnabled)
+          logger.trace(ret.data.length);
+
+        if (localRes == total_check) {
+          logger.info("Done " + getNow() + " " + (Date.now() - t1) / 1000 + " ms");
+        }
+        if (ret.data.length == 0) {
+          return;
+        }
+
+
+        // 
+        let data2 = csv.parse(ret.data);
+        if (watchlist.includes(ret.Code)) {
+          // logger.info("\n",ret.Code,"\n",data2.substr(0,data2.indexOf("\n",200)));
+        }
+        switch (ss.toUpperCase()) {
+          case "SSI":
+            fs.appendFile(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+              if (err) throw err;
+            });
+            fs.appendFile(dir + ret.Code + '_stockRealtime.json', JSON.stringify(ret.stockRealtime) + "\n", function (err) {
+              if (err) throw err;
+            });
+            break;
+          case "MBS":
+            fs.appendFile(dir + ret.Code + "_" + resolution + '_trans.txt', data2 + "\n", function (err) {
+              if (err) throw err;
+            });
+            break;
+          default:
+            fs.appendFile(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+              if (err) throw err;
+            });
+        }
+
+      })
     }
   } catch (error) {
     logger.error(error);

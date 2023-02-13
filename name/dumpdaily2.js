@@ -30,7 +30,10 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
 
 (async () => {
-  await Exchange.SSI.getlistallsymbol();
+  let ssiSymbol = await Exchange.SSI.getlistallsymbol();
+  let ssiCop =ssiSymbol.filter(e=>{return e.stockSymbol.length == 3}).map(e=>{ return {stock_code:e.stockSymbol}});
+  console.table(ssiSymbol.length)
+  console.table(ssiCop.length)
   var args = process.argv.slice(2);
   let vss = null;
   for (let v of args) {
@@ -62,6 +65,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     logger.info("Checking", requested, responsed)
     let t1 = Date.now();
     let dir = "/workspace/stockstorage/";
+    let dir2 = "./";
     let csv = null;
     let fun = () => { }
     switch (ss.toUpperCase()) {
@@ -79,6 +83,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         dir += "./ssitrans/" + getNow() + "/";
         csv = new Parser({ fields: ["stockNo", "price", "vol", "accumulatedVol", "time", "ref", "side", "priceChange", "priceChangePercent", "changeType", "__typename"] });
         fun = Exchange.SSI.graphql;
+        dir2 = "./trans/" + getNow() + "/";
         break;
       case "TCBS":
         dir += "./tcbstrans/" + getNow() + "/";
@@ -92,7 +97,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         break;
       case "VCBS":
         dir += "./vcbstrans/" + getNow() + "/";
-        csv = new Parser({ fields: ['symbol','time','price','change','vol','total','side'] });
+        csv = new Parser({ fields: ['symbol', 'time', 'price', 'change', 'vol', 'total', 'side'] });
         fun = Exchange.VCBS.priceBoard;
         break;
     }
@@ -105,14 +110,25 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         fs.unlinkSync(path.join(dir, file));
       }
     }
+
+    if (!fs.existsSync(dir2)) {
+      fs.mkdirSync(dir2, { recursive: true });
+    } else {
+      let files = fs.readdirSync(dir2);
+      for (const file of files) {
+        fs.unlinkSync(path.join(dir2, file));
+      }
+    }
     logger.debug("Done remove directory ", dir);
 
     let stat = { req: 0, res: 0 }
+    cop = ssiCop;
+
     for (let x of cop) {
       x['Code'] = x.stock_code;
       if (x.Code.length < 4) {
         logger.trace(x.Code);
-        while (stat.req - stat.res >= 50) {
+        while (stat.req - stat.res >= 10) {
           await wait(200);
         }
         // let z = getTrans(x.Code);
@@ -147,12 +163,25 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
           }
           switch (ss.toUpperCase()) {
             case "SSI":
-              fs.appendFile(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
+              // csv = new Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });
+              // csv = new Parser({ fields: ["stockNo", "price", "vol", "accumulatedVol", "time", "ref", "side", "priceChange", "priceChangePercent", "changeType", "__typename"] });
+              let newData = ret.data.map(e => {
+                let ne = { price: e.price, change: e.priceChange, match_qtty: e.vol, side: e.side, time: e.time, total_vol: e.accumulatedVol };
+                // console.log(ne)
+                return ne;
+              })
+              fs.appendFileSync(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {
                 if (err) throw err;
               });
-              fs.appendFile(dir + ret.Code + '_stockRealtime.json', JSON.stringify(ret.stockRealtime) + "\n", function (err) {
+              fs.appendFileSync(dir + ret.Code + '_stockRealtime.json', JSON.stringify(ret.stockRealtime) + "\n", function (err) {
                 if (err) throw err;
               });
+
+              let csv2 = new Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });
+              let newData2= csv2.parse(newData);
+              fs.appendFileSync(dir2 + ret.Code + '_trans.txt', newData2 + "\n", function (err) {
+                if (err) throw err;
+              });              
               break;
             default:
               fs.appendFile(dir + ret.Code + '_trans.txt', data2 + "\n", function (err) {

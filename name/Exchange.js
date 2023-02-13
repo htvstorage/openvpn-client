@@ -927,13 +927,18 @@ Exchange.VCBS.priceBoard = async function (code) {
 }
 
 Exchange.MBS = function () { }
-Exchange.MBS.pbRltCharts = async function (code) {
-
+Exchange.MBS.pbRltCharts = async function (code, resolution) {
+  // console.log("resolution",resolution)
   let start = 1421028900;
   let end = Math.floor(Date.now() / 1000);
   let out = { t: [], v: [], o: [], c: [], h: [], l: [] };
+  let resol = ["1","5","60","D"]
+  if(!resol.includes(resolution)){
+    resolution = "5";
+  }
+  // console.log("resolution",resolution)
   while (true) {
-    let a = await fetch("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution="+"1"+"&from=" + start + "&to=" + end, {
+    let a = await fetch("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution="+resolution+"&from=" + start + "&to=" + end, {
       "headers": {
         "accept": "*/*",
         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -974,7 +979,7 @@ Exchange.MBS.pbRltCharts = async function (code) {
   }
 
  out= out.t.map((e, i) => {
-    return { symbol: code, time: out.t[i], close: out.c[i], open: out.o[i], high: out.h[i], low: out.l[i] }
+    return { symbol: code, time: out.t[i], close: out.c[i], open: out.o[i], high: out.h[i], low: out.l[i], vol:out.v[i] }
   })
   return { Code: code, data: out, };
 }

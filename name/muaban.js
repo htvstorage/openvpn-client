@@ -496,7 +496,7 @@ async function processData() {
             // console.table(Object.keys(values[0]).sort())
             let csv = new Parser({ fields: ['acum_busd', 'acum_busd_val', 'acum_val', 'bu', 'bu-sd', 'bu-sd_val', 'date', 'datetime', 'sd', 'sum_vol', 'total_vol', 'uk', 'val', 'val_bu', 'val_sd', 'val_uk'] });
             let data2 = csv.parse(values);
-            fs.writeFileSync(dir  + "VNINDEX" +"_" + floor + "_" + datekey + "_5phut.csv", data2 + "\n", (e) => { if (e) { console.log(e) } })
+            fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_" + datekey + "_5phut.csv", data2 + "\n", (e) => { if (e) { console.log(e) } })
 
             //max
             max.bu.sort((a, b) => {
@@ -598,6 +598,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
         x[head[i].replaceAll("\"", "")] = e[i].replaceAll("\"", "");
         if (x.time != undefined) {
           x.datetime = (new Date(strdate + "T" + x.time)).getTime();
+          if (x.datetime > (Date.now() + 7 * 60 * 60 * 1000)) {
+            console.log(symbol, file, e)
+          }
         }
       }
       return x;
@@ -640,8 +643,11 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
       if (e.h < p) e.h = p;
       if (e.l > p) e.l = p;
       if (e.o == undefined) e.o = p;
-
-      let val = +v.match_qtty * p * 1000;
+      let short = false;
+      if (v.price.indexOf(".") > 0) {
+        short = true;
+      }
+      let val = short ? +v.match_qtty * p * 1000 : +v.match_qtty * p;
       switch (v.side) {
         case 'bu':
           e.bu = (e.bu == undefined) ? +v.match_qtty : e.bu + +v.match_qtty;
@@ -833,7 +839,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     let data2 = csv.parse(x);
     fs.writeFileSync(dir + symbol + "_" + floor + "_1N.csv", data2 + "\n", (e) => { if (e) { console.log(e) } })
     let temp = x.at(-1);
-    if( (x.acum_busd < 0 && x.acum_busd_val > 0) || (x.acum_busd > 0 && x.acum_busd_val < 0 )){
+    if ((x.acum_busd < 0 && x.acum_busd_val > 0) || (x.acum_busd > 0 && x.acum_busd_val < 0)) {
       x.symbol = symbol;
       console.table([x]);
 
