@@ -1,2 +1,2 @@
-"abu","acum_busd","acum_busd_val","acum_val","asd","auk","bs","bu","bu-sd","bu-sd_val","c","date","datetime","h","l","o","pbu","psd","puk","rbu","rsd","ruk","sb","sd","sum_vol","total_vol","uk","val","val_bu","val_sd","val_uk"
-0,0,0,214500,0,5500,NaN,,0,0,39,"2023-02-02T14:42:00.000Z",1675348920000,39,39,39,0,0,100,,,1,NaN,,5500,5500,5500,214500,,,214500
+"abu","acum_busd","acum_busd_val","acum_val_bu","acum_val_sd","acum_val","avg_val_bu","avg_val_sd","rbusd","asd","auk","bs","bu","bu-sd","bu-sd_val","c","date","datetime","h","l","o","pbu","psd","puk","rbu","rsd","ruk","sb","sd","sum_vol","total_vol","uk","val","val_bu","val_sd","val_uk"
+0,0,0,0,0,214500,0,0,NaN,0,5500,NaN,,0,0,39,"2023-02-02T14:42:00.000Z",1675348920000,39,39,39,0,0,100,,,1,NaN,,5500,5500,5500,214500,,,214500
