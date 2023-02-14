@@ -1066,3 +1066,60 @@ Exchange.MBS.pbRltCharts = async function (code, resolution) {
   })
   return { Code: code, data: out, };
 }
+
+Exchange.MBS.pbRltCharts2 = async function (code, resolution,from) {
+  // console.log("resolution",resolution)
+  let start = from;
+  let end = Math.floor(Date.now() / 1000);
+  let out = { t: [], v: [], o: [], c: [], h: [], l: [] };
+  let resol = ["1", "5", "60", "D"]
+  if (!resol.includes(resolution)) {
+    resolution = "5";
+  }
+  // console.log("resolution",resolution)
+  while (true) {
+    let a = await fetch("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution=" + resolution + "&from=" + start + "&to=" + end, {
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "content-type": "text/plain",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site"
+      },
+      "referrer": "https://sweb.mbs.com.vn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": null,
+      "method": "GET",
+      "mode": "cors",
+      agent
+    });
+    let z = await a.json();
+    if (z.t.length == 0) {
+      break;
+    } else if (z.t.at(-1) == start) {
+      out.t.push(...z.t);
+      out.v.push(...z.v);
+      out.o.push(...z.o);
+      out.c.push(...z.c);
+      out.h.push(...z.h);
+      out.l.push(...z.l);
+      break;
+    } else {
+      out.t.push(...z.t);
+      out.v.push(...z.v);
+      out.o.push(...z.o);
+      out.c.push(...z.c);
+      out.h.push(...z.h);
+      out.l.push(...z.l);
+      start = z.t.at(-1);
+    }
+  }
+
+  // out = out.t.map((e, i) => {
+  //   return { symbol: code, time: out.t[i], close: out.c[i], open: out.o[i], high: out.h[i], low: out.l[i], vol: out.v[i] }
+  // })
+  return { Code: code, data: out, };
+}

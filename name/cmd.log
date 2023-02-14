@@ -94,7 +94,7 @@ for x in $s ;do echo $x;
 ln -s $PWD/agg/`date +"%Y%m%d"`/$x"_"*"_table.log" links/$x`date +"%Y%m%d"`.log
 done
 
-s="HPG SBS STB PLC CTG MBB"
+s="HPG SBS STB PLC CTG MBB HBC"
 for x in $s ;do echo $x; 
 ln -s $PWD/agg/`date +"%Y%m%d"`/$x"_"*"_table.log" links/$x`date +"%Y%m%d"`.log
 done
@@ -141,3 +141,11 @@ done
 
 
 
+
+
+nohup node  script/dumpdaily2.js stock=24HMONEY >> dum.log 2>&1 < /dev/null &
+nohup node  script/dumpdaily2.js stock=VIETSTOCK >> dum.log 2>&1 < /dev/null &
+nohup node  script/dumpdaily2.js stock=SSI >> dum.log 2>&1 < /dev/null &
+nohup node  script/dumpdaily2.js stock=TCBS >> dum.log 2>&1 < /dev/null &
+nohup node  script/dumpdaily2.js stock=VCI >> dum.log 2>&1 < /dev/null &
+nohup node  script/dumpdaily2.js stock=VCBS >> dum.log 2>&1 < /dev/null &
