@@ -655,32 +655,32 @@ Exchange.VietStock = function () {
 
 }
 Exchange.VietStock.GetStockDealDetail = async function (code) {
-  let vietFetch = async(code)=>{
+  let vietFetch = async (code) => {
     return await fetch("https://finance.vietstock.vn/data/getstockdealdetail", {
-    "headers": {
-      "accept": "*/*",
-      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-      "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
-      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-      "sec-ch-ua-mobile": "?0",
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-origin",
-      "x-requested-with": "XMLHttpRequest",
-      "cookie": "_ga=GA1.2.70802173.1668475499; _cc_id=bd4b49a4b7a58cfaeb38724516b82171; dable_uid=35370669.1668475569175; dable_uid=35370669.1668475569175; __gads=ID=af0897d5e697b47b-2219cdf973d800fc:T=1668475507:S=ALNI_MaL0TTHW6nK5yq36h7SKojzDZdS3w; AnonymousNotification=; language=vi-VN; Theme=Light; panoramaId=4d0c5a1ada413b921c9b37c6d8d4a9fb927a0d4a71477931e7d9d438d60721a2; ASP.NET_SessionId=othnew1qjmrsmavlddx3gz03; __RequestVerificationToken=NoSSGh71lr_0dIZznhkpmZ385YIe4tzWFi7Equ0cI1OLPzQE_NN6582kenS7hjrexZqey2gS68XSXMGlmvBAynOFK2r7ob3SuvcOuu5DRQY1; isShowLogin=true; _gid=GA1.2.535529265.1675913802; __gpi=UID=00000b7c20f7c81e:T=1668475507:RT=1675913766:S=ALNI_MbZNgtWTtbRI1MrLcfM5qFq0RIBMQ; panoramaId_expiry=1676000168434; cto_bundle=bIiAtF9GalVXbDclMkJNeHNwS0pTN0VtbThsUHd2YjlJRWRyT0gxVmg3cjl0MDVldkNuM1BiWDNnZzdSMnpQUElEQ2tTRXB5cklHTml6SFdSdEZmMHBFSHNvT1FITWtTZTFlQzZhRFFvSExkbmhxN0I5a1ltSTNwb0lEVEtZa0JvMDB4dmNGUElaanlOSTBmSVdRVnRMa1ZwZVo5QSUzRCUzRA; vts_usr_lg=51B4A9EA2E6C8B85E4AC3D8540AC7931336BBB7C1C0A447BE4A45C579B217BDF940DA17645BE1258B9E289B651394628DB88F2AF4AD8E2E4FA1416F5E1B569C7B07A34A61A493D4C3205EE75073AF3B5FD82BD13D88EDB7B5189EE0A7EBF2B4068F4815CD11862503D34B9A26F23D48FE48BA7075D5813716CDB6160FAFF28BD; vst_usr_lg_token=OKKGaBD+xki/sFtdIz95ew==; finance_viewedstock=HPG,"
-    },
-    "referrer": "https://finance.vietstock.vn/HPG/thong-ke-giao-dich.htm",
-    "referrerPolicy": "strict-origin-when-cross-origin",
-    "body": "code=" + code + "&seq=0&__RequestVerificationToken=0eTIXSDv3VjEnVLpLXeAIh9eJcf_0DdtKOoMJY825I3ypV_jLcbrBY1zR5H85bcZZfr4GR4t13esW3MCjlTZq_IXBJjNf2M0ZwIu0L_Wt9AsyRr8m6BdyPjltdoLyZzV0",
-    "method": "POST",
-    "mode": "cors",
-    agent
-  });
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "x-requested-with": "XMLHttpRequest",
+        "cookie": "_ga=GA1.2.70802173.1668475499; _cc_id=bd4b49a4b7a58cfaeb38724516b82171; dable_uid=35370669.1668475569175; dable_uid=35370669.1668475569175; __gads=ID=af0897d5e697b47b-2219cdf973d800fc:T=1668475507:S=ALNI_MaL0TTHW6nK5yq36h7SKojzDZdS3w; AnonymousNotification=; language=vi-VN; Theme=Light; panoramaId=4d0c5a1ada413b921c9b37c6d8d4a9fb927a0d4a71477931e7d9d438d60721a2; ASP.NET_SessionId=othnew1qjmrsmavlddx3gz03; __RequestVerificationToken=NoSSGh71lr_0dIZznhkpmZ385YIe4tzWFi7Equ0cI1OLPzQE_NN6582kenS7hjrexZqey2gS68XSXMGlmvBAynOFK2r7ob3SuvcOuu5DRQY1; isShowLogin=true; _gid=GA1.2.535529265.1675913802; __gpi=UID=00000b7c20f7c81e:T=1668475507:RT=1675913766:S=ALNI_MbZNgtWTtbRI1MrLcfM5qFq0RIBMQ; panoramaId_expiry=1676000168434; cto_bundle=bIiAtF9GalVXbDclMkJNeHNwS0pTN0VtbThsUHd2YjlJRWRyT0gxVmg3cjl0MDVldkNuM1BiWDNnZzdSMnpQUElEQ2tTRXB5cklHTml6SFdSdEZmMHBFSHNvT1FITWtTZTFlQzZhRFFvSExkbmhxN0I5a1ltSTNwb0lEVEtZa0JvMDB4dmNGUElaanlOSTBmSVdRVnRMa1ZwZVo5QSUzRCUzRA; vts_usr_lg=51B4A9EA2E6C8B85E4AC3D8540AC7931336BBB7C1C0A447BE4A45C579B217BDF940DA17645BE1258B9E289B651394628DB88F2AF4AD8E2E4FA1416F5E1B569C7B07A34A61A493D4C3205EE75073AF3B5FD82BD13D88EDB7B5189EE0A7EBF2B4068F4815CD11862503D34B9A26F23D48FE48BA7075D5813716CDB6160FAFF28BD; vst_usr_lg_token=OKKGaBD+xki/sFtdIz95ew==; finance_viewedstock=HPG,"
+      },
+      "referrer": "https://finance.vietstock.vn/HPG/thong-ke-giao-dich.htm",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": "code=" + code + "&seq=0&__RequestVerificationToken=0eTIXSDv3VjEnVLpLXeAIh9eJcf_0DdtKOoMJY825I3ypV_jLcbrBY1zR5H85bcZZfr4GR4t13esW3MCjlTZq_IXBJjNf2M0ZwIu0L_Wt9AsyRr8m6BdyPjltdoLyZzV0",
+      "method": "POST",
+      "mode": "cors",
+      agent
+    });
   }
   let a = await vietFetch(code);
 
   let data = await a.text();
-  while(!data.startsWith("[")){
+  while (!data.startsWith("[")) {
     await Exchange.wait(200);
     a = await vietFetch(code);
     data = await a.text();
@@ -726,27 +726,37 @@ Exchange.VCI = function () {
 
 
 Exchange.VCI.getAll = async function (code) {
-  let a = await fetch("https://mt.vcsc.com.vn/api/market-watch/LEData/getAll", {
-    "headers": {
-      "accept": "application/json, text/plain, */*",
-      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-      "content-type": "application/json",
-      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-      "sec-ch-ua-mobile": "?0",
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-origin",
-      "cookie": "_gcl_au=1.1.1709771188.1675938152; _gid=GA1.3.1706305419.1675938152; _fbp=fb.2.1675938153544.2137347642; lang=vi; _gat_UA-199803197-1=1; _ga=GA1.1.1389260542.1675938152; _ga_EWEC6D4464=GS1.1.1675938152.1.1.1675938310.57.0.0"
-    },
-    "referrer": "https://mt.vcsc.com.vn/board",
-    "referrerPolicy": "strict-origin-when-cross-origin",
-    "body": "{\"symbol\":\"" + code + "\",\"limit\":2000000,\"truncTime\":null}",
-    "method": "POST",
-    "mode": "cors",
-    agent
-  });
-
-  let data = await a.json();
+  let f = async (code) => {
+    return await fetch("https://mt.vcsc.com.vn/api/market-watch/LEData/getAll", {
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "content-type": "application/json",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "cookie": "_gcl_au=1.1.1709771188.1675938152; _gid=GA1.3.1706305419.1675938152; _fbp=fb.2.1675938153544.2137347642; lang=vi; _gat_UA-199803197-1=1; _ga=GA1.1.1389260542.1675938152; _ga_EWEC6D4464=GS1.1.1675938152.1.1.1675938310.57.0.0"
+      },
+      "referrer": "https://mt.vcsc.com.vn/board",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": "{\"symbol\":\"" + code + "\",\"limit\":2000000,\"truncTime\":null}",
+      "method": "POST",
+      "mode": "cors",
+      agent
+    });
+  }
+  let a = await f(code);
+  let data = await a.text();
+  while (!data.startsWith("[")) {
+    logger.warn(code, data);
+    await Exchange.wait(200);
+    a = await f(code);
+    data = await a.text();
+  }
+  data = JSON.parse(data);
+  // let data = await a.json();
   // console.table(data.data)
   return { Code: code, data: data };
 }
