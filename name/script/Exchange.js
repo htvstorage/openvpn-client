@@ -941,7 +941,31 @@ Exchange.SSI.vn30 = async () => {
     "method": "POST",
     "mode": "cors"
   });
-  
+
+  return await a.json();
+}
+
+
+Exchange.SSI.stockRealtimes = async (exchange ) => {
+  let a = await fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "content-type": "application/json",
+      "g-captcha": "",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "referrer": "https://iboard.ssi.com.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": "{\"operationName\":\"stockRealtimes\",\"variables\":{\"exchange\":\""+exchange+"\"},\"query\":\"query stockRealtimes($exchange: String) {\\n  stockRealtimes(exchange: $exchange) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    stockType\\n    exchange\\n    prevMatchedPrice\\n    lastMatchedPrice\\n    matchedPrice\\n    matchedVolume\\n    priceChange\\n    priceChangePercent\\n    highest\\n    avgPrice\\n    lowest\\n    nmTotalTradedQty\\n    best1Bid\\n    best1BidVol\\n    best2Bid\\n    best2BidVol\\n    best3Bid\\n    best3BidVol\\n    best4Bid\\n    best4BidVol\\n    best5Bid\\n    best5BidVol\\n    best6Bid\\n    best6BidVol\\n    best7Bid\\n    best7BidVol\\n    best8Bid\\n    best8BidVol\\n    best9Bid\\n    best9BidVol\\n    best10Bid\\n    best10BidVol\\n    best1Offer\\n    best1OfferVol\\n    best2Offer\\n    best2OfferVol\\n    best3Offer\\n    best3OfferVol\\n    best4Offer\\n    best4OfferVol\\n    best5Offer\\n    best5OfferVol\\n    best6Offer\\n    best6OfferVol\\n    best7Offer\\n    best7OfferVol\\n    best8Offer\\n    best8OfferVol\\n    best9Offer\\n    best9OfferVol\\n    best10Offer\\n    best10OfferVol\\n    buyForeignQtty\\n    buyForeignValue\\n    sellForeignQtty\\n    sellForeignValue\\n    caStatus\\n    tradingStatus\\n    remainForeignQtty\\n    currentBidQty\\n    currentOfferQty\\n    session\\n    __typename\\n  }\\n}\\n\"}",
+    "method": "POST",
+    "mode": "cors"
+  });
+
   return await a.json();
 }
 
