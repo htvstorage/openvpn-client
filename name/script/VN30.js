@@ -18,7 +18,7 @@ log4js.configure({
         console: { type: "console" },
     },
     categories: {
-        default: { appenders: ["console", "everything"], level: "debug" },
+        default: { appenders: [ "everything"], level: "debug" },
         app: { appenders: ["console"], level: "info" }
     },
 });
@@ -113,6 +113,8 @@ function getTable(data) {
     }
 
     let exchange = ["vn30", "hose", "hnx", "upcom"]
+
+    let all = [];
     for (let ex of exchange) {
         data = await Exchange.SSI.stockRealtimes(ex);
         data = data.data.stockRealtimes.map(e => {
@@ -123,6 +125,7 @@ function getTable(data) {
 
             return ne;
         });
+
         bid = data.reduce((a, b) => {
             let ne = {};
             bids.forEach(k => {
@@ -160,11 +163,18 @@ function getTable(data) {
         let totalbid = Object.values(bid).reduce(rd, 0);
         let totalask = Object.values(ask).reduce(rd, 0);
         console.log(ex,"bid ",totalbid , " ask ", totalask, " delta(bid-ask) " , totalbid - totalask)
+        all.push(...data);
     }
 
 
+    logger.info(getTable(all.sort((a, b) => {
+        let c = (checkNull(a.best1OfferVol) - checkNull(a.best1BidVol))  - (checkNull(b.best1OfferVol) - checkNull(b.best1BidVol));
+        return c < 0 ? 1 : c > 0 ? -1 : 0
 
-
-
+    })));
+    //nmTotalTradedQty
+    all = all.filter(e=>{return e.stockSymbol.length == 3;})
+    logger.info(getTable(all.slice(0,15)));
+    logger.info(getTable(all.slice(all.length-15,all.length)));
 
 })();
