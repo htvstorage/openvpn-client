@@ -238,6 +238,7 @@ Exchange.getliststockdata = async function (list, ret) {
           agent
         });
         a.then(res => res.text()).then(txt => {
+
           let data = [];
           if (txt.startsWith("[{") && txt.endsWith("}]")) {
             data = JSON.parse(txt);
@@ -946,7 +947,7 @@ Exchange.SSI.vn30 = async () => {
 }
 
 
-Exchange.SSI.stockRealtimes = async (exchange ) => {
+Exchange.SSI.stockRealtimes = async (exchange) => {
   let a = await fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
     "headers": {
       "accept": "*/*",
@@ -961,7 +962,7 @@ Exchange.SSI.stockRealtimes = async (exchange ) => {
     },
     "referrer": "https://iboard.ssi.com.vn/",
     "referrerPolicy": "strict-origin-when-cross-origin",
-    "body": "{\"operationName\":\"stockRealtimes\",\"variables\":{\"exchange\":\""+exchange+"\"},\"query\":\"query stockRealtimes($exchange: String) {\\n  stockRealtimes(exchange: $exchange) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    stockType\\n    exchange\\n    prevMatchedPrice\\n    lastMatchedPrice\\n    matchedPrice\\n    matchedVolume\\n    priceChange\\n    priceChangePercent\\n    highest\\n    avgPrice\\n    lowest\\n    nmTotalTradedQty\\n    best1Bid\\n    best1BidVol\\n    best2Bid\\n    best2BidVol\\n    best3Bid\\n    best3BidVol\\n    best4Bid\\n    best4BidVol\\n    best5Bid\\n    best5BidVol\\n    best6Bid\\n    best6BidVol\\n    best7Bid\\n    best7BidVol\\n    best8Bid\\n    best8BidVol\\n    best9Bid\\n    best9BidVol\\n    best10Bid\\n    best10BidVol\\n    best1Offer\\n    best1OfferVol\\n    best2Offer\\n    best2OfferVol\\n    best3Offer\\n    best3OfferVol\\n    best4Offer\\n    best4OfferVol\\n    best5Offer\\n    best5OfferVol\\n    best6Offer\\n    best6OfferVol\\n    best7Offer\\n    best7OfferVol\\n    best8Offer\\n    best8OfferVol\\n    best9Offer\\n    best9OfferVol\\n    best10Offer\\n    best10OfferVol\\n    buyForeignQtty\\n    buyForeignValue\\n    sellForeignQtty\\n    sellForeignValue\\n    caStatus\\n    tradingStatus\\n    remainForeignQtty\\n    currentBidQty\\n    currentOfferQty\\n    session\\n    __typename\\n  }\\n}\\n\"}",
+    "body": "{\"operationName\":\"stockRealtimes\",\"variables\":{\"exchange\":\"" + exchange + "\"},\"query\":\"query stockRealtimes($exchange: String) {\\n  stockRealtimes(exchange: $exchange) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    stockType\\n    exchange\\n    prevMatchedPrice\\n    lastMatchedPrice\\n    matchedPrice\\n    matchedVolume\\n    priceChange\\n    priceChangePercent\\n    highest\\n    avgPrice\\n    lowest\\n    nmTotalTradedQty\\n    best1Bid\\n    best1BidVol\\n    best2Bid\\n    best2BidVol\\n    best3Bid\\n    best3BidVol\\n    best4Bid\\n    best4BidVol\\n    best5Bid\\n    best5BidVol\\n    best6Bid\\n    best6BidVol\\n    best7Bid\\n    best7BidVol\\n    best8Bid\\n    best8BidVol\\n    best9Bid\\n    best9BidVol\\n    best10Bid\\n    best10BidVol\\n    best1Offer\\n    best1OfferVol\\n    best2Offer\\n    best2OfferVol\\n    best3Offer\\n    best3OfferVol\\n    best4Offer\\n    best4OfferVol\\n    best5Offer\\n    best5OfferVol\\n    best6Offer\\n    best6OfferVol\\n    best7Offer\\n    best7OfferVol\\n    best8Offer\\n    best8OfferVol\\n    best9Offer\\n    best9OfferVol\\n    best10Offer\\n    best10OfferVol\\n    buyForeignQtty\\n    buyForeignValue\\n    sellForeignQtty\\n    sellForeignValue\\n    caStatus\\n    tradingStatus\\n    remainForeignQtty\\n    currentBidQty\\n    currentOfferQty\\n    session\\n    __typename\\n  }\\n}\\n\"}",
     "method": "POST",
     "mode": "cors"
   });
@@ -1014,6 +1015,8 @@ Exchange.MBS.pbRltCharts = async function (code, resolution) {
   // console.log("resolution",resolution)
   let start = 1421028900;
   let end = Math.floor(Date.now() / 1000);
+  let delta = 12 * 30 * 24 * 60 * 60;
+  let end2 = start + delta;
   let out = { t: [], v: [], o: [], c: [], h: [], l: [] };
   let resol = ["1", "5", "60", "D"]
   if (!resol.includes(resolution)) {
@@ -1021,7 +1024,7 @@ Exchange.MBS.pbRltCharts = async function (code, resolution) {
   }
   // console.log("resolution",resolution)
   while (true) {
-    let a = await fetch("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution=" + resolution + "&from=" + start + "&to=" + end, {
+    let a = await fetch("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution=" + resolution + "&from=" + start + "&to=" + end2, {
       "headers": {
         "accept": "*/*",
         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -1041,15 +1044,13 @@ Exchange.MBS.pbRltCharts = async function (code, resolution) {
     });
     let z = await a.json();
     if (z.t.length == 0) {
-      break;
-    } else if (z.t.at(-1) == start) {
-      out.t.push(...z.t);
-      out.v.push(...z.v);
-      out.o.push(...z.o);
-      out.c.push(...z.c);
-      out.h.push(...z.h);
-      out.l.push(...z.l);
-      break;
+      if (end - start <= 0) {
+        break;
+      }
+      // console.log("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution=" + resolution + "&from=" + start + "&to=" + end2);
+      start = end2;
+      end2 = start + delta;
+      await Exchange.wait(100);
     } else {
       out.t.push(...z.t);
       out.v.push(...z.v);
@@ -1057,7 +1058,9 @@ Exchange.MBS.pbRltCharts = async function (code, resolution) {
       out.c.push(...z.c);
       out.h.push(...z.h);
       out.l.push(...z.l);
-      start = z.t.at(-1);
+      if (start == z.t.at(-1)) start = end2;
+      else start = z.t.at(-1);
+      end2 = start + delta;
     }
   }
 
@@ -1067,18 +1070,23 @@ Exchange.MBS.pbRltCharts = async function (code, resolution) {
   return { Code: code, data: out, };
 }
 
-Exchange.MBS.pbRltCharts2 = async function (code, resolution,from) {
+Exchange.MBS.pbRltCharts2 = async function (code, resolution, from) {
   // console.log("resolution",resolution)
   let start = from;
+  if (start == undefined) start = 1421028900;
+
+  // start = 1421028900;
   let end = Math.floor(Date.now() / 1000);
+  let end2 = start + 6 * 30 * 24 * 60 * 60;
   let out = { t: [], v: [], o: [], c: [], h: [], l: [] };
   let resol = ["1", "5", "60", "D"]
   if (!resol.includes(resolution)) {
     resolution = "5";
   }
-  // console.log("resolution",resolution)
+  console.log("resolution", resolution, start, end2)
+  let c = 0;
   while (true) {
-    let a = await fetch("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution=" + resolution + "&from=" + start + "&to=" + end, {
+    let a = await fetch("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution=" + resolution + "&from=" + start + "&to=" + end2, {
       "headers": {
         "accept": "*/*",
         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -1098,28 +1106,33 @@ Exchange.MBS.pbRltCharts2 = async function (code, resolution,from) {
     });
     let z = await a.json();
     if (z.t.length == 0) {
-      break;
-    } else if (z.t.at(-1) == start) {
+      if (end - start <= 0) {
+
+        // console.log("break")
+        break;
+      }
+      // console.log("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution=" + resolution + "&from=" + start + "&to=" + end2);
+      start = end2;
+      end2 = start + 6 * 30 * 24 * 60 * 60;
+    }
+    else {
       out.t.push(...z.t);
       out.v.push(...z.v);
       out.o.push(...z.o);
       out.c.push(...z.c);
       out.h.push(...z.h);
       out.l.push(...z.l);
-      break;
-    } else {
-      out.t.push(...z.t);
-      out.v.push(...z.v);
-      out.o.push(...z.o);
-      out.c.push(...z.c);
-      out.h.push(...z.h);
-      out.l.push(...z.l);
-      start = z.t.at(-1);
+      if (start == z.t.at(-1)) start = end2;
+      else start = z.t.at(-1);
+      end2 = start + 6 * 30 * 24 * 60 * 60;
+      // console.table(z)
+      // console.log("Chan",start,end2)
     }
   }
 
   // out = out.t.map((e, i) => {
   //   return { symbol: code, time: out.t[i], close: out.c[i], open: out.o[i], high: out.h[i], low: out.l[i], vol: out.v[i] }
   // })
+
   return { Code: code, data: out, };
 }

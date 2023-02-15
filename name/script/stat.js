@@ -76,17 +76,17 @@ function getNow() {
         //     "method": "GET",
         //     "mode": "cors"
         // });
-        let a = await Exchange.MBS.pbRltCharts2("HPG", "5", Math.floor((Date.now() - 30 * 24 * 60 * 60 * 1000) / 1000))
-        console.log(a)
-        // let z = await a.json()
+        let a = await Exchange.MBS.pbRltCharts2(symbol, "D") // Math.floor((Date.now() - 10000 * 24 * 60 * 60 * 1000) / 1000)
         let z = a.data;
         if (z.o == undefined) continue;
 
+        console.log("LENGTH",a.data.o.length);
+        
         let convert = (z, period) => {
             let zx = {};
             z.o.map((e, i) => {
                 let k = Math.floor(z.t[i] / period) * period;
-                console.log(k, z.t[i])
+                // console.log(k, z.t[i])
                 let ne = zx[k];
                 if (ne == undefined) {
                     ne = {};
@@ -114,10 +114,10 @@ function getNow() {
             return out;
         }
 
-        z = convert(z, 15 * 60);
+        // z = convert(z, 30 * 60);
         // console.log(z)
 
-        let z1 = z.o.map((e, i) => { return { c: z.c[i], h: z.h[i], l: z.l[i], o: z.o[i], t: z.t[i], v: z.v[i] } })
+        let z1 = z.o.map((e, i) => { return { c: z.c[i], h: z.h[i], l: z.l[i], o: z.o[i], t: z.t[i], v: z.v[i], pc: ((z.h[i]-z.o[i])/z.o[i]*100).toFixed(2),pclow: ((z.h[i]-z.l[i])/z.o[i]*100).toFixed(2) } })
 
         let z2 = z1.reduce((a, b) => { return { v: (a.v + b.v) } }, { v: 0 })
 
@@ -137,28 +137,61 @@ function getNow() {
         // console.log(str.length) // 105
         // console.log(str)
         // console.table(z.h)
-        let z4 = z1.map(e => e.h - e.l);
-        console.log(stats.stdev(z4))
+        let z4 = z1.map(e => (e.h - e.c)/e.o*100); ///e.o*100
+        console.log(stats.stdev(z4),stats.mean(z4),stats.median(z4))
         let o = stats.indexOfOutliers(z4, stats.outlierMethod.MAD, 3);
+
+        if(o.length == 0){
+            continue;
+        }
         let out = [];
         let sum = 0;
+        let out2 = [];
         o.forEach(e => {
             // console.log(z4[e], z1[e]);
-            out.push(z1[e]);
+            out2.push(z4[e]);
             sum += z1[e].h;
             let min = 9999999;
-            for (let i = 0; i < 5; i++) {
-                if (e + i > z1.length) { break; }
-                if (min > z1[e + i].l)
+            for (let i = 0; i < 15; i++) {
+
+                if (e + i >= z1.length) { break; }
+                if (i>= 0 && min > z1[e + i].c)
+                    min = z1[e + i].l;
+                if (i>= 1 && min > z1[e + i].l)
                     min = z1[e + i].l;
             }
+
             sum += -min;
+            z1[e].sell = z1[e].h;
+            z1[e].buy = min;
+            z1[e].pcC = (z4[e]).toFixed(2);
+            out.push(z1[e]);
         })
         console.log(o)
+        console.log(stats.stdev(z4),stats.mean(z4),stats.median(z4))
+        console.log(stats.stdev(out2),stats.mean(out2),stats.median(out2))
         console.table(out)
-        console.table(z1.slice(0, 15));
-        console.table(z1.slice(z1.length - 15, z1.length));
+        console.table(z1.slice(0, 5));
+        console.table(z1.slice(z1.length - 5, z1.length));
         console.log("sum ", sum)
+        console.log(stats.stdev(z4),stats.mean(z4),stats.median(z4))
+        console.log(stats.stdev(out2),stats.mean(out2),stats.median(out2))
+
+        let z5 = [...z4];
+        z5.sort();
+        console.table(z5.slice(0,5))
+        console.table(z5.slice(z5.length-5,z5.length))
+        let c = 0;
+        z5.every(e=>{            
+            c++;
+            if(e == 0)
+                return true;
+        })
+        // let p = Math.floor(z5.length *6/100)
+        console.table(z5.slice(c-2,c+5))
+
+        console.log(c,c/z5.length*100,z5.length)
+
         fs.writeFile(dir + symbol + "_report_5phut_table.txt", str, (e) => { })
         let csv = new Parser({ fields: Object.keys[z3[0]] });
         let data2 = csv.parse(z3);

@@ -486,6 +486,8 @@ async function processData() {
               e['avg_busd'] = Math.round(values.at(-1)['acum_busd'] / values.length * 10) / 10;
               e['avg_busd_val'] = Math.round(values.at(-1)['acum_busd_val'] / values.length * 10) / 10;
               e['rbusd'] = Math.round(e['bu-sd_val'] / e['avg_busd_val'] * 10) / 10;
+              e['rbu'] = Math.round(e['val_bu'] / e['avg_val_bu'] * 10) / 10;
+              e['rsd'] = Math.round(e['val_sd'] / e['avg_val_sd'] * 10) / 10;
             })
             let val = Object.values(newData).map(e => e.val).reduce((a, b) => a + b, 0);
             let vol = Object.values(newData).map(e => e.sum_vol).reduce((a, b) => a + b, 0);
@@ -518,7 +520,7 @@ async function processData() {
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
             writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_5p_" + datekey + ".xlsx", values)
             // console.table(Object.keys(values[0]).sort())
-            let csv = new Parser({ fields: ['acum_busd', 'acum_busd_val', "acum_val_bu", "acum_val_sd", 'acum_val', "accum_bu", "accum_sd", "avg_val_bu", "avg_val_sd", "avg_val", "avg_vol", "avg_bu", "avg_sd", "avg_busd", "avg_busd_val", "rbusd", 'bu', 'bu-sd', 'bu-sd_val', 'date', 'datetime', 'sd', 'sum_vol', 'total_vol', 'uk', 'val', 'val_bu', 'val_sd', 'val_uk'] });
+            let csv = new Parser({ fields: ['acum_busd', 'acum_busd_val', "acum_val_bu", "acum_val_sd", 'acum_val', "accum_bu", "accum_sd", "avg_val_bu", "avg_val_sd", "avg_val", "avg_vol", "avg_bu", "avg_sd", "avg_busd", "avg_busd_val", "rbusd", 'rbu', 'rsd', 'bu', 'bu-sd', 'bu-sd_val', 'date', 'datetime', 'sd', 'sum_vol', 'total_vol', 'uk', 'val', 'val_bu', 'val_sd', 'val_uk'] });
             let data2 = csv.parse(values);
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_" + datekey + "_5phut.csv", data2 + "\n", (e) => { if (e) { console.log(e) } })
 

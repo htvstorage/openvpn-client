@@ -110,10 +110,10 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     } else {
       let files = fs.readdirSync(dir);
       for (const file of files) {
-        fs.unlinkSync(path.join(dir, file));
+        // fs.unlinkSync(path.join(dir, file));
       }
     }
-    logger.debug("Done remove directory ", dir);
+    // logger.debug("Done remove directory ", dir);
 
     let stat = { req: 0, res: 0 }
     cop = cop.filter(e => { return e.stock_code.length == 3 });
@@ -125,7 +125,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       //   continue;
       // }
       logger.trace(x.Code);
-      while (stat.req - stat.res >= 50) {
+      while (stat.req - stat.res >= 100) {
         await wait(200);
       }
       stat.req++;
@@ -165,7 +165,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
             });
             break;
           case "MBS":
-            fs.appendFile(dir + ret.Code + "_" + resolution + '_trans.txt', data2 + "\n", function (err) {
+            fs.writeFile(dir + ret.Code + "_" + resolution + '_trans.txt', data2 + "\n", function (err) {
               if (err) throw err;
             });
             break;

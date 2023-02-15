@@ -88,13 +88,14 @@ ln -s vnindex/`date +"%Y%m%d"`/VNINDEX_HOSE_table.log VNINDEX`date +"%Y%m%d"`.lo
 while true; do node script/dumpdaily.js; node script/muaban.js date=`date +"%Y%m%d"` ; ./top.sh; sleep 200; done
 
 while true; do node script/dumpdaily2.js stock=ssi; node script/muaban.js date=`date +"%Y%m%d"` ; ./top.sh; sleep 200; done
+while true; do node script/quickdumpdaily.js; node script/muaban.js date=`date +"%Y%m%d"` ; cp agg/`date +"%Y%m%d"`/HPG_HOSE_table.log HPG.log; sleep 20; done
 
 s="HPG SBS STB PLC CTG MBB"
 for x in $s ;do echo $x; 
 ln -s $PWD/agg/`date +"%Y%m%d"`/$x"_"*"_table.log" links/$x`date +"%Y%m%d"`.log
 done
 
-s="HPG SBS STB PLC CTG MBB HBC"
+s="HPG SBS STB PLC CTG MBB HBC HHV KSB LCG NKG"
 for x in $s ;do echo $x; 
 ln -s $PWD/agg/`date +"%Y%m%d"`/$x"_"*"_table.log" links/$x`date +"%Y%m%d"`.log
 done
@@ -149,3 +150,8 @@ nohup node  script/dumpdaily2.js stock=SSI >> dum.log 2>&1 < /dev/null &
 nohup node  script/dumpdaily2.js stock=TCBS >> dum.log 2>&1 < /dev/null &
 nohup node  script/dumpdaily2.js stock=VCI >> dum.log 2>&1 < /dev/null &
 nohup node  script/dumpdaily2.js stock=VCBS >> dum.log 2>&1 < /dev/null &
+
+
+
+
+while true; do node script/stat.js >> stat.log sleep 30; done
