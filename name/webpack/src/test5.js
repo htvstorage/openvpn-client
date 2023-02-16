@@ -10,6 +10,7 @@ import fs from "fs";
 import * as XLSX from "xlsx"
 
 XLSX.set_fs(fs);
+
 (async () => {
 
 
@@ -33,7 +34,6 @@ XLSX.set_fs(fs);
 
   XLSX.utils.book_append_sheet(workbook, worksheet);
   XLSX.writeFile(workbook, "Test.XLSX");
-  fs.writeFile("abc.xls","abc",(e)=>{});
   console.log("written")
 
 
