@@ -155,3 +155,21 @@ nohup node  script/dumpdaily2.js stock=VCBS >> dum.log 2>&1 < /dev/null &
 
 
 while true; do node script/stat.js >> stat.log sleep 30; done
+
+while true; do echo > stat.log; sleep 300; done
+
+
+
+
+s="VRE VHM"
+for x in $s ;do echo $x; 
+ln -s $PWD/agg/`date +"%Y%m%d"`/$x"_"*"_table.log" links/$x`date +"%Y%m%d"`.log
+done
+
+
+s="VRE VHM"
+for x in $s ;do echo $x; 
+d=`date +"%d"`
+d=`bc <<< $d' - 1'`
+ln -s $PWD/agg/`date +"%Y%m"$d`/$x"_"*"_table.log" links/$x`date +"%Y%m"$d`.log
+done

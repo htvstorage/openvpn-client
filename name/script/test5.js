@@ -7,7 +7,7 @@ import https from "node:https";
 import { Console } from 'node:console'
 import { Transform } from 'node:stream'
 import fs from "fs";
-import xlsx from "xlsx"
+import XLSX from "xlsx"
 
 (async () => {
 
@@ -17,21 +17,21 @@ import xlsx from "xlsx"
   let Headers = ['ChangeId', 'ChangeDescription', 'ChangeDate', 'Enhancement/Fix', 'ExcutorTeam'];
   let Data = ['INC1234', 'Multiple Cert cleanup', '04/07/2022', 'Enhancement', 'IlevelSupport'];
 
-  let workbook = xlsx.utils.book_new();
+  let workbook = XLSX.utils.book_new();
 
 
-  // xlsx.utils.sheet_add_aoa(worksheet, [Headers], { origin: 'A1' });
-  // xlsx.utils.sheet_add_aoa(worksheet, [Data], { origin: 'A2' });
+  // XLSX.utils.sheet_add_aoa(worksheet, [Headers], { origin: 'A1' });
+  // XLSX.utils.sheet_add_aoa(worksheet, [Data], { origin: 'A2' });
 
 
   let a = await Exchange.vndGetAllSymbols();
   console.log(a)
 
 
-  let worksheet = xlsx.utils.json_to_sheet(a);
+  let worksheet = XLSX.utils.json_to_sheet(a);
 
-  xlsx.utils.book_append_sheet(workbook, worksheet);
-  xlsx.writeFile(workbook, "Test.xlsx");
+  XLSX.utils.book_append_sheet(workbook, worksheet);
+  XLSX.writeFile(workbook, "Test.XLSX");
   console.log("written")
 
 
@@ -58,10 +58,10 @@ import xlsx from "xlsx"
   let z = await kq.json();
 
   console.table(z)
-  workbook = xlsx.utils.book_new();
-  worksheet = xlsx.utils.json_to_sheet(z);
+  workbook = XLSX.utils.book_new();
+  worksheet = XLSX.utils.json_to_sheet(z);
 
-  xlsx.utils.book_append_sheet(workbook, worksheet);
-  xlsx.writeFile(workbook, "KQKD.xlsx");
+  XLSX.utils.book_append_sheet(workbook, worksheet);
+  XLSX.writeFile(workbook, "KQKD.XLSX");
   console.log("written")
 })();
