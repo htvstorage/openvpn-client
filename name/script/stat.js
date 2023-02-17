@@ -10,6 +10,9 @@ import fs from "fs";
 import { Parser } from "json2csv"
 import path from "path";
 import stats from "stats-analysis";
+import plotly from "plotly";
+
+const plot = plotly("trinhvanhung", "sA4eZJ1ZDhxO8uHe1bA1");
 
 function getNow() {
     let fd = new Date();
@@ -22,7 +25,7 @@ function getNow() {
 
     let dto = Date.now() / 1000 + 7 * 60 * 60
     let dfrom = new Date(dto - 100 * 24 * 60 * 60);
-    let symbols = ['HPG']
+    let symbols = ['SAB', 'CEO', 'HPG', 'PLC']
     const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
     const logger = new Console({ stdout: ts })
 
@@ -80,8 +83,8 @@ function getNow() {
         let z = a.data;
         if (z.o == undefined) continue;
 
-        console.log("LENGTH",a.data.o.length);
-        
+        console.log("LENGTH", a.data.o.length);
+
         let convert = (z, period) => {
             let zx = {};
             z.o.map((e, i) => {
@@ -117,7 +120,7 @@ function getNow() {
         // z = convert(z, 30 * 60);
         // console.log(z)
 
-        let z1 = z.o.map((e, i) => { return { c: z.c[i], h: z.h[i], l: z.l[i], o: z.o[i], t: z.t[i], v: z.v[i], pc: ((z.h[i]-z.o[i])/z.o[i]*100).toFixed(2),pclow: ((z.h[i]-z.l[i])/z.o[i]*100).toFixed(2) } })
+        let z1 = z.o.map((e, i) => { return { c: z.c[i], h: z.h[i], l: z.l[i], o: z.o[i], t: z.t[i], v: z.v[i], pc: ((z.h[i] - z.o[i]) / z.o[i] * 100).toFixed(2), pclow: ((z.h[i] - z.l[i]) / z.o[i] * 100).toFixed(2) } })
 
         let z2 = z1.reduce((a, b) => { return { v: (a.v + b.v) } }, { v: 0 })
 
@@ -137,11 +140,12 @@ function getNow() {
         // console.log(str.length) // 105
         // console.log(str)
         // console.table(z.h)
-        let z4 = z1.map(e => (e.h - e.c)/e.o*100); ///e.o*100
-        console.log(stats.stdev(z4),stats.mean(z4),stats.median(z4))
+        let z4 = z1.map(e => (e.c - e.o) / e.o * 100); ///e.o*100
+        let z6 = z1.map(e => (e.h - e.o) / e.o * 100); ///e.o*100
+        console.log(stats.stdev(z4), stats.mean(z4), stats.median(z4))
         let o = stats.indexOfOutliers(z4, stats.outlierMethod.MAD, 3);
 
-        if(o.length == 0){
+        if (o.length == 0) {
             continue;
         }
         let out = [];
@@ -155,9 +159,9 @@ function getNow() {
             for (let i = 0; i < 15; i++) {
 
                 if (e + i >= z1.length) { break; }
-                if (i>= 0 && min > z1[e + i].c)
+                if (i >= 0 && min > z1[e + i].c)
                     min = z1[e + i].l;
-                if (i>= 1 && min > z1[e + i].l)
+                if (i >= 1 && min > z1[e + i].l)
                     min = z1[e + i].l;
             }
 
@@ -167,30 +171,30 @@ function getNow() {
             z1[e].pcC = (z4[e]).toFixed(2);
             out.push(z1[e]);
         })
-        console.log(o)
-        console.log(stats.stdev(z4),stats.mean(z4),stats.median(z4))
-        console.log(stats.stdev(out2),stats.mean(out2),stats.median(out2))
-        console.table(out)
+        // console.log(o)
+        console.log(stats.stdev(z4), stats.mean(z4), stats.median(z4))
+        console.log(stats.stdev(out2), stats.mean(out2), stats.median(out2))
+        // console.table(out)
         console.table(z1.slice(0, 5));
         console.table(z1.slice(z1.length - 5, z1.length));
         console.log("sum ", sum)
-        console.log(stats.stdev(z4),stats.mean(z4),stats.median(z4))
-        console.log(stats.stdev(out2),stats.mean(out2),stats.median(out2))
+        console.log(stats.stdev(z4), stats.mean(z4), stats.median(z4))
+        console.log(stats.stdev(out2), stats.mean(out2), stats.median(out2))
 
         let z5 = [...z4];
         z5.sort();
-        console.table(z5.slice(0,5))
-        console.table(z5.slice(z5.length-5,z5.length))
+        console.table(z5.slice(0, 5))
+        console.table(z5.slice(z5.length - 5, z5.length))
         let c = 0;
-        z5.every(e=>{            
+        z5.every(e => {
             c++;
-            if(e == 0)
+            if (e == 0)
                 return true;
         })
         // let p = Math.floor(z5.length *6/100)
-        console.table(z5.slice(c-2,c+5))
+        console.table(z5.slice(c - 2, c + 5))
 
-        console.log(c,c/z5.length*100,z5.length)
+        console.log(c, c / z5.length * 100, z5.length)
 
         fs.writeFile(dir + symbol + "_report_5phut_table.txt", str, (e) => { })
         let csv = new Parser({ fields: Object.keys[z3[0]] });
@@ -198,6 +202,43 @@ function getNow() {
         fs.writeFile(dir + symbol + "_5phut_table.json", JSON.stringify(z3), (e) => { })
         fs.writeFile(dir + symbol + "_5phut_table.csv", data2, (e) => { })
 
+
+        var data = [
+            {
+                x: z4,
+                type: "histogram",
+                opacity: 0.5,
+                marker: {
+                   color: 'green',
+                },
+            },
+            {
+                x: z6,
+                type: "histogram",
+                opacity: 0.5,
+                marker: {
+                   color: 'red',
+                },
+            },
+        ];
+
+        var layout = {
+            title: "Sac xuat " + symbol,
+            xaxis: {
+                title: "Close - Open",
+                //   showgrid: false,
+                //   zeroline: false
+            },
+            yaxis: {
+                title: "Close - High",
+                //   showline: false
+            }
+        };
+        // fileopt: "overwrite"         
+        var graphOptions = { layout: layout, filename: "horizontal-histogram" + symbol, fileopt: "overwrite" };
+        plot.plot(data, graphOptions, function (err, msg) {
+            console.log(msg);
+        });
 
     }
 
