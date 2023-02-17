@@ -16,9 +16,11 @@
     "webpack-xlsx-loader": "^1.0.0"
   },
   "dependencies": {
+    "bufferutil": "^4.0.7",
     "node-fetch": "^3.3.0",
     "puppeteer": "^19.7.1",
     "request": "^2.88.2",
+    "utf-8-validate": "^5.0.10",
     "xlsx": "^0.18.5"
   }
 }

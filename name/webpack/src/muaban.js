@@ -12,8 +12,9 @@ var logger = log4js.getLogger();
 import { Console } from 'node:console'
 import { Transform } from 'node:stream'
 import { e } from "mathjs";
-import xlsx from "xlsx"
+import * as xlsx from "xlsx"
 
+xlsx.set_fs(fs);
 const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
 const log = new Console({ stdout: ts })
 

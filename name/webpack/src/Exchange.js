@@ -436,59 +436,61 @@ Exchange.vndIndustryPB = async () => {
   return {};
 }
 Exchange.vndIndustryRatio = async (code) => {
+  let f = async (code) => {
+    let a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=itemCode:51003,51016,51001,51002,51004,57066,51007,51006,51012,51033,51035,&where=code:" + code + "~reportDate:gt:2022-12-23&order=reportDate&fields=itemCode,value", {
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "content-type": "application/json",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site"
+      },
+      "referrer": "https://dstock.vndirect.com.vn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": null,
+      "method": "GET",
+      "mode": "cors",
+      agent
+    });
+    let z = await a.text();
+    // console.log("zzzz",z)
+    let out = [];
+    if (z.startsWith("{") && z.endsWith("}")) {
+      out = [...JSON.parse(z).data];
+    } else {
+      console.log("Error ", code, z)
+    }
 
+    a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=itemCode:52002,52001,53007,&where=code:HPG~reportDate:gt:2022-09-24&order=reportDate&fields=itemCode,value", {
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "content-type": "application/json",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site"
+      },
+      "referrer": "https://dstock.vndirect.com.vn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": null,
+      "method": "GET",
+      "mode": "cors",
+      agent
+    });
+    z = await a.text();
 
-  let a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=itemCode:51003,51016,51001,51002,51004,57066,51007,51006,51012,51033,51035,&where=code:" + code + "~reportDate:gt:2022-12-23&order=reportDate&fields=itemCode,value", {
-    "headers": {
-      "accept": "*/*",
-      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-      "content-type": "application/json",
-      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-      "sec-ch-ua-mobile": "?0",
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-site"
-    },
-    "referrer": "https://dstock.vndirect.com.vn/",
-    "referrerPolicy": "strict-origin-when-cross-origin",
-    "body": null,
-    "method": "GET",
-    "mode": "cors",
-    agent
-  });
-  let z = await a.text();
-  // console.log("zzzz",z)
-  let out = [];
-  if (z.startsWith("{") && z.endsWith("}")) {
-    out = [...JSON.parse(z).data];
-  } else {
-    console.log("Error ", code, z)
-  }
+    if (z.startsWith("{") && z.endsWith("}")) {
+      out.push(...JSON.parse(z).data);
+    } else {
+      console.log("Error ", code)
+    }
 
-  a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=itemCode:52002,52001,53007,&where=code:HPG~reportDate:gt:2022-09-24&order=reportDate&fields=itemCode,value", {
-    "headers": {
-      "accept": "*/*",
-      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-      "content-type": "application/json",
-      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-      "sec-ch-ua-mobile": "?0",
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-site"
-    },
-    "referrer": "https://dstock.vndirect.com.vn/",
-    "referrerPolicy": "strict-origin-when-cross-origin",
-    "body": null,
-    "method": "GET",
-    "mode": "cors",
-    agent
-  });
-  z = await a.text();
-
-  if (z.startsWith("{") && z.endsWith("}")) {
-    out.push(...JSON.parse(z).data);
-  } else {
-    console.log("Error ", code)
+    return out;
   }
   // '51003': VONHOA
   // '51016': KLGDTB10P
@@ -504,6 +506,12 @@ Exchange.vndIndustryRatio = async (code) => {
   // '52002': ROAE
   // '52001': ROAA
   // '53007': EPS
+  let out = await f(code);
+  console.log("out",out.length)
+  while(out.length != 14){
+    await Exchange.wait(100);
+    out = await f(code);
+  }
 
   let map = {
     '51003': 'VONHOA',
@@ -1047,7 +1055,7 @@ Exchange.MBS.pbRltCharts = async function (code, resolution) {
     if (z.t.length == 0) {
       if (end - start <= 0) {
         break;
-      }      
+      }
       start = end2;
       end2 = start + delta;
       await Exchange.wait(100);

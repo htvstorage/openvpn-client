@@ -11,11 +11,11 @@ import { filter } from "mathjs";
 import { Console } from 'node:console'
 import { Transform } from 'node:stream'
 import { e } from "mathjs";
-import xlsx from "xlsx"
+import * as xlsx from "xlsx"
 
 const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
 const log = new Console({ stdout: ts })
-
+xlsx.set_fs(fs);
 function getTable(data) {
   log.table(data)
   return (ts.read() || '').toString()
@@ -91,23 +91,23 @@ async function download() {
 
 
   }
-  // console.table(ratiosa)
+  console.table(ratiosa)
 
-  // fs.writeFile("./profile/ratio.json", JSON.stringify(ratiosa), (e)=>{});
+  fs.writeFile("./profile/ratio.json", JSON.stringify(ratiosa), (e) => { });
 
 
-  industry.forEach(e => {
-    let ne = {};
-    ne.industryCode = e.industryCode;
-    ne.name = e.vietnameseName;
-    mapIndustry[e.industryCode] = ne;
-    e.codeList.split(",").forEach(s => { mapSymbol[s] = ne });
-  }
-  )
+  // industry.forEach(e => {
+  //   let ne = {};
+  //   ne.industryCode = e.industryCode;
+  //   ne.name = e.vietnameseName;
+  //   mapIndustry[e.industryCode] = ne;
+  //   e.codeList.split(",").forEach(s => { mapSymbol[s] = ne });
+  // }
+  // )
 
   // console.table(industry)
-  console.table(industryPE)
-  console.table(industryPB)
+  // console.table(industryPE)
+  // console.table(industryPB)
 }
 
 async function industry() {
@@ -180,17 +180,17 @@ async function industry() {
   var args = process.argv.slice(2);
   let vss = null;
   for (let v of args) {
-    if (v.includes("ss="))
+    if (v.includes("download"))
       vss = v;
     break;
   }
 
-  ss = vss == null ? 5 : Number.parseInt(vss.substring(3));
-  if (ss == undefined || ss < 0 || Number.isNaN(ss)) {
-    ss = 5;
+  ss = vss == null ? undefined : vss;
+
+  if (ss != undefined && ss.includes("download")) {
+    await download();
   }
 
-  // await download();
 
   let out = await industry();
 
@@ -250,9 +250,13 @@ async function industry() {
     fs.mkdirSync(dir, { recursive: true });
   }
   console.table(str)
-  let floor = "HOSE";
+  // let floor = "HOSE";
+
+  let csv = new Parser({ fields: [...Object.keys(Object.values(ret)[0])] });
+  let data2 = csv.parse(Object.values(ret));
   fs.writeFileSync(dir + "Filter" + "_table.log", str, (e) => { if (e) { console.log(e) } })
   fs.writeFileSync(dir + "Filter" + "_5p.json", JSON.stringify(ret), (e) => { if (e) { console.log(e) } })
+  fs.writeFileSync(dir + "Filter" + "_5p.csv", data2, (e) => { if (e) { console.log(e) } })
   writeArrayJson2Xlsx(dir + "Filter" + "_5p_" + ".xlsx", Object.values(ret))
 
 

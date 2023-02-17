@@ -3,16 +3,11 @@ let __dirname = "./";
 const main = {
   entry: './src/test5.js',
   output: {
-    filename: 'main.js',
+    filename: 'test5.js',
     path: path.resolve(__dirname, 'dist'),
   },
   target: 'node',
   mode: 'production',
-  module: {
-    rules: [
-      { test: /\.xlsx$/, loader: "webpack-xlsx-loader" }
-    ]
-  }
 };
 
 
@@ -24,11 +19,21 @@ const backend = {
   },
   target: 'node',
   mode: 'production',
-  module: {
-    rules: [
-      { test: /\.xlsx$/, loader: "webpack-xlsx-loader" }
-    ]
-  }
 };
 
-export default [backend,main];
+const multi = {
+  entry: {
+    filter: './src/filter.js',
+    dudinh: './src/dudinh.js',
+    getprices: './src/price.js',
+    dumpdaily: './src/dumpdaily.js',
+    buysell: './src/muaban.js',
+  },
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+  target: 'node',
+  mode: 'production',
+};
+export default [backend, main, multi];
