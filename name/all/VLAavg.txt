@@ -1,42 +1,44 @@
-20221216 VLA 100 5300000 5300000 5300000 
-20221216 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221223 VLA 0 0 5200000  
-20221223 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221226 VLA 17100 889200000 889200000 889200000 
-20221226 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221227 VLA 0 0 1020000000  
-20221227 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221228 VLA 22700 1155430000 1155430000 1155430000 
-20221228 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221230 VLA 0 0 1515000000  
-20221230 VLA -200 -9180000 1524180000  9180000
-20221230 VLA -200 -9180000 1547130000  
-20221230 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230103 VLA 100 5000000 5000000 5000000 
-20230103 VLA 19900 996000000 1014000000  9000000
-20230103 VLA 19900 996000000 1032000000  
-20230103 VLA 20000 1001000000 1037000000 5000000 
-20230103 VLA 20100 1005000000 1005000000 1000000000 
-20230103 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230104 VLA 400 22000000 22000000 22000000 
-20230104 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230105 VLA 0 0 24750000  
-20230105 VLA -100 -4400000 40150000 5500000 
-20230105 VLA 100 6600000 51150000 11000000 
-20230105 VLA -200 -9900000 34650000  9900000
-20230105 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230106 VLA 200 12100000 12100000 12100000 
-20230106 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230110 VLA 200 12100000 12100000 12100000 
-20230110 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230117 VLA -400 -21800000 21800000  21800000
-20230117 VLA -500 -27250000 27250000  5450000
-20230117 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230118 VLA 100 5800000 5800000 5800000 
-20230118 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230130 VLA 100 6380000 6380000 6380000 
-20230130 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 VLA 100 6380000 6380000 6380000 
-20230207 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221216 VLA 100 5300 5300  100
+20221216 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221223 VLA 0 0 0  100
+20221223 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221226 VLA 17100 889200 889200  17100
+20221226 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221227 VLA 0 0 0  20000
+20221227 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221228 VLA 22700 1155430000 1155430000  22700
+20221228 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221230 VLA 0 0 0  30000
+20221230 VLA -200 -9180000 0 200 200
+20221230 VLA -200 -9180000 0  500
+20221230 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230103 VLA 100 5000 5000  100
+20230103 VLA 19900 996000 1005000 200 200
+20230103 VLA 19900 996000 1005000  400
+20230103 VLA 20000 1001000 1010000  100
+20230103 VLA 20100 1005000 1005000  20000
+20230103 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230104 VLA 400 22000 22000  400
+20230104 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230105 VLA 0 0 0  500
+20230105 VLA 100 -9883500 16500  200
+20230105 VLA -100 -9894500 5500  100
+20230105 VLA -200 -9900000 0 200 200
+20230105 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230106 VLA 200 12100000 12100000  200
+20230106 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230110 VLA 200 12100000 12100000  200
+20230110 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230117 VLA -400 -21800000 0 400 400
+20230117 VLA -500 -27250000 0 100 100
+20230117 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230118 VLA 100 5800 5800  100
+20230118 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230130 VLA 100 6380000 6380000  100
+20230130 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 VLA 100 6380000 6380000  100
+20230207 VLA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
 20230210 VLA 100 6380000 6380000 6380000 
 20230210 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230213 VLA 100 6380000 6380000 6380000 
+20230213 VLA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

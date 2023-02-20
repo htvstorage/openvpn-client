@@ -1,20 +1,22 @@
-20230103 HBH -100 -860000 9500000  5180000
-20230103 HBH 300 2100000 2100000 2100000 
-20230103 HBH 600 4320000 4320000 2220000 
-20230103 HBH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230113 HBH 100 790000 790000 790000 
-20230113 HBH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230117 HBH 100 900000 900000 900000 
-20230117 HBH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230130 HBH 0 0 1800000  
-20230130 HBH -1700 -13600000 15400000  11200000
-20230130 HBH -2400 -19200000 21000000  5600000
-20230130 HBH -300 -2400000 4200000  2400000
-20230130 HBH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230131 HBH -1000 -7000000 18230000  
-20230131 HBH -1000 -7000000 7000000  7000000
-20230131 HBH -1000 -7000000 9130000  
-20230131 HBH -1800 -12600000 24540000  5600000
-20230131 HBH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 HBH 0 0 3500000  
-20230207 HBH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230103 HBH -100 -2957900 2222100 700 700
+20230103 HBH 300 2100 2100  300
+20230103 HBH 600 2222100 2222100  300
+20230103 HBH "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230113 HBH 100 790000 790000  100
+20230113 HBH "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230117 HBH 100 900 900  100
+20230117 HBH "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230130 HBH 0 0 0  200
+20230130 HBH -1700 -13600 0 1400 1400
+20230130 HBH -2400 -19200 0 700 700
+20230130 HBH -300 -2400 0 300 300
+20230130 HBH "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230131 HBH -1000 -7000 0 1000 1000
+20230131 HBH -1000 -7000 0  1300
+20230131 HBH -1000 -7000 0  300
+20230131 HBH -1800 -12600 0 800 900
+20230131 HBH "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 HBH 0 0 0  500
+20230207 HBH "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230213 HBH 0 0 3500  
+20230213 HBH "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

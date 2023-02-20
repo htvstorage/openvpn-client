@@ -1,61 +1,72 @@
-20221212 VGR 1000 34000000 34000000 34000000 
-20221212 VGR 1000 34000000 53560000  
-20221212 VGR 500 17750000 69810000  16250000
-20221212 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221213 VGR 0 600000 20400000  9900000
-20221213 VGR -100 -2700000 23700000  3300000
-20221213 VGR 300 10500000 10500000 10500000 
-20221213 VGR -300 -9300000 30300000  6600000
-20221213 VGR -400 -12600000 33600000  3300000
-20221213 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221214 VGR -500 -16700000 16700000  16700000
-20221214 VGR -600 -20070000 20070000  3370000.0000000005
-20221214 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221215 VGR 0 0 57600000  
-20221215 VGR 1000 36000000 93600000 36000000 
-20221215 VGR 1200 43200000 100800000 7200000 
-20221215 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221216 VGR 0 0 49000000  
-20221216 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221219 VGR 0 0 28000000 3500000 
-20221219 VGR -100 -3500000 24500000 3500000 14000000
-20221219 VGR 200 7000000 7000000 7000000 
-20221219 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221223 VGR 400 18630000 53730000  17550000
-20221223 VGR 900 36180000 36180000 36180000 
-20221223 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230103 VGR 0 0 3840000  
-20230103 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230111 VGR 500 19000000 19000000 19000000 
-20230111 VGR 600 22800000 22800000 3800000 
-20230111 VGR 700 26600000 26600000 3800000 
-20230111 VGR 700 26600000 45600000  
-20230111 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230118 VGR 0 0 3229999.9999999995  
-20230118 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230119 VGR 0 0 2780000  
-20230119 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230130 VGR -100 -3190000 3190000  3190000
-20230130 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230131 VGR 100 3350000 3350000 3350000 
-20230131 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230201 VGR 0 0 2950000  
-20230201 VGR 0 0 6300000  
-20230201 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230202 VGR 200 6770000 12130000 9450000 2680000
-20230202 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230203 VGR 0 0 3479999.9999999995  
-20230203 VGR 200 6959999.999999999 10439999.999999998 6959999.999999999 
-20230203 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230206 VGR 0 0 10600000  
-20230206 VGR 0 0 3000000  
-20230206 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 VGR -100 -3050000 3050000  3050000
-20230207 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230208 VGR 100 3479999.9999999995 6970000 3479999.9999999995 
-20230208 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230209 VGR 0 0 3080000  
-20230209 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230210 VGR 0 0 3520000.0000000005  
-20230210 VGR 200 7080000 10600000 7080000 
-20230210 VGR "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221212 VGR 1000 34000 34000  1000
+20221212 VGR 1000 34000 34000  600
+20221212 VGR 500 -16216000 34000 500 500
+20221212 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221213 VGR 0 600 10500 300 300
+20221213 VGR -100 -2700 10500 100 100
+20221213 VGR 300 10500 10500  300
+20221213 VGR -300 -9300 10500 200 200
+20221213 VGR -400 -12600 10500 100 100
+20221213 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221214 VGR -500 -16700000 0 500 500
+20221214 VGR -600 -20070000 0 100 100
+20221214 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221215 VGR 0 0 0  1600
+20221215 VGR 1000 36000 36000  1000
+20221215 VGR 1200 43200 43200  200
+20221215 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221216 VGR 0 0 0  1400
+20221216 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221219 VGR 0 0 14000  100
+20221219 VGR -100 -3500 10500 400 500
+20221219 VGR 200 7000 7000  200
+20221219 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221223 VGR 400 18630000 36180000 500 500
+20221223 VGR 900 36180000 36180000  900
+20221223 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230103 VGR 0 0 0  100
+20230103 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230111 VGR 500 19000 19000  500
+20230111 VGR 600 22800 22800  100
+20230111 VGR 700 26600 26600  100
+20230111 VGR 700 26600 26600  500
+20230111 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230118 VGR 0 0 0  100
+20230118 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230119 VGR 0 0 0  100
+20230119 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230130 VGR -100 -3190000 0 100 100
+20230130 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230131 VGR 100 3350000 3350000  100
+20230131 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230201 VGR 0 0 0  100
+20230201 VGR 0 0 0  100
+20230201 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230202 VGR 200 6770000 9450000 100 400
+20230202 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230203 VGR 0 0 0  100
+20230203 VGR 200 6959999.999999999 6959999.999999999  200
+20230203 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230206 VGR 0 0 0  100
+20230206 VGR 0 0 0  200
+20230206 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 VGR -100 -3050000 0 100 100
+20230207 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230208 VGR 100 3479999.9999999995 3479999.9999999995  200
+20230208 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230209 VGR 0 0 0  100
+20230209 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230210 VGR 0 0 0  100
+20230210 VGR 200 7080000 7080000  200
+20230210 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230213 VGR 0 0 0  100
+20230213 VGR 100 3510000 3510000  100
+20230213 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230214 VGR 0 0 0  100
+20230214 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230216 VGR 0 0 0  100
+20230216 VGR 100 3550000 3550000  100
+20230216 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230220 VGR 0 0 0  100
+20230220 VGR 100 3720000 3720000  100
+20230220 VGR "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

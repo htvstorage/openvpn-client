@@ -1,59 +1,66 @@
-20221212 PMP 100 1400000 1400000 1400000 
-20221212 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221215 PMP -500 -6900000 13800000  
-20221215 PMP -500 -6900000 6900000  6900000
-20221215 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221219 PMP 0 10000 2590000 1300000 
-20221219 PMP -100 -1290000 1290000  1290000
-20221219 PMP -500 -6490000 9090000  6500000
-20221219 PMP -700 -9090000 11690000  2600000
-20221219 PMP -700 -9090000 12990000  
-20221219 PMP -700 -9090000 16890000  
-20221219 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221220 PMP 0 10000 2590000 1300000 
-20221220 PMP -100 -1290000 1290000  1290000
-20221220 PMP -500 -6490000 9090000  6500000
-20221220 PMP -700 -9090000 11690000  2600000
-20221220 PMP -700 -9090000 12990000  
-20221220 PMP -700 -9090000 16890000  
-20221220 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221221 PMP -1000 -12000000 12000000  10800000
-20221221 PMP -100 -1200000 1200000  1200000
-20221221 PMP -1100 -13200000 13200000  1200000
-20221221 PMP -1900 -22800000 22800000  9600000
-20221221 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221223 PMP -100 -1160000 1160000  1160000
-20221223 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221229 PMP 100 1200000 1200000 1200000 
-20221229 PMP 1100 13200000 13200000 12000000 
-20221229 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230103 PMP 0 0 1210000  
-20230103 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230104 PMP 0 0 2400000  
-20230104 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230106 PMP 200 2400000 2400000 2400000 
-20230106 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230109 PMP 0 0 2420000  
-20230109 PMP 0 0 6080000  
-20230109 PMP 900 10980000 17060000 10980000 
-20230109 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230111 PMP 500 6100000 6100000 6100000 
-20230111 PMP 500 6100000 7320000  
-20230111 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230117 PMP 600 7200000 9600000  1200000
-20230117 PMP 700 8400000 8400000 8400000 
-20230117 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230119 PMP 500 5900000 5900000 5900000 
-20230119 PMP 700 8260000 8260000 2360000 
-20230119 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230127 PMP -100 -1180000 1180000  1180000
-20230127 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230201 PMP -1200 -14160000 14160000  10620000
-20230201 PMP -300 -3540000 3540000  3540000
-20230201 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 PMP 600 6900000 9200000  1150000
-20230207 PMP 700 8050000 8050000 8050000 
-20230207 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230209 PMP 600 6900000 9200000  1150000
-20230209 PMP 700 8050000 8050000 8050000 
-20230209 PMP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221212 PMP 100 1400 1400  100
+20221212 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221215 PMP -500 -6900000 0  500
+20221215 PMP -500 -6900000 0 500 500
+20221215 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221219 PMP 0 -1288700 1300  100
+20221219 PMP -100 -1290000 0 100 100
+20221219 PMP -500 -1295200 1300 500 500
+20221219 PMP -700 -1297800 1300  100
+20221219 PMP -700 -1297800 1300 200 200
+20221219 PMP -700 -1297800 1300  300
+20221219 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221220 PMP 0 -1288700 1300  100
+20221220 PMP -100 -1290000 0 100 100
+20221220 PMP -500 -1295200 1300 500 500
+20221220 PMP -700 -1297800 1300  100
+20221220 PMP -700 -1297800 1300 200 200
+20221220 PMP -700 -1297800 1300  300
+20221220 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221221 PMP -1000 -12000 0 900 900
+20221221 PMP -100 -1200 0 100 100
+20221221 PMP -1100 -13200 0 100 100
+20221221 PMP -1900 -22800 0 800 800
+20221221 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221223 PMP -100 -1160000 0 100 100
+20221223 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221229 PMP 100 1200 1200  100
+20221229 PMP 1100 13200 13200  1000
+20221229 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230103 PMP 0 0 0  100
+20230103 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230104 PMP 0 0 0  200
+20230104 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230106 PMP 200 2400 2400  200
+20230106 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230109 PMP 0 0 0  200
+20230109 PMP 0 0 0  300
+20230109 PMP 900 10980000 10980000  900
+20230109 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230111 PMP 500 6100000 6100000  100
+20230111 PMP 500 6100000 6100000  500
+20230111 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230117 PMP 600 7200 8400 100 100
+20230117 PMP 700 8400 8400  700
+20230117 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230119 PMP 500 5900000 5900000  500
+20230119 PMP 700 8260000 8260000  200
+20230119 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230127 PMP -100 -1180000 0 100 100
+20230127 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230201 PMP -1200 -14160000 0 900 900
+20230201 PMP -300 -3540000 0 300 300
+20230201 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 PMP 600 6900000 8050000 100 100
+20230207 PMP 700 8050000 8050000  700
+20230207 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230209 PMP 600 6900000 8050000 100 100
+20230209 PMP 700 8050000 8050000  700
+20230209 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230213 PMP -100 -1100000 0 100 100
+20230213 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230216 PMP 0 0 1100000  100
+20230216 PMP 0 0 1100000  100
+20230216 PMP -100 -1100000 0 100 100
+20230216 PMP 500 5500000 6600000  500
+20230216 PMP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

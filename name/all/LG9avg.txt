@@ -1,22 +1,26 @@
-20230130 LG9 0 0 32199999.999999996  
-20230130 LG9 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230131 LG9 0 0 5120000  
-20230131 LG9 0 0 520000  
-20230131 LG9 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230201 LG9 1000 4700000 4700000 4700000 
-20230201 LG9 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230202 LG9 -2000 -8000000 8000000  8000000
-20230202 LG9 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230203 LG9 0 0 459999.99999999994  
-20230203 LG9 -500 -2250000 2710000  2250000
-20230203 LG9 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 LG9 500 2550000 2550000 2550000 
-20230207 LG9 500 2550000 3570000  
-20230207 LG9 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230208 LG9 -300 -1320000 1320000  1320000
-20230208 LG9 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230209 LG9 0 0 450000  
-20230209 LG9 100 500000 2950000 1500000 1000000
-20230209 LG9 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230210 LG9 -100 -490000.00000000006 490000.00000000006  490000.00000000006
-20230210 LG9 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230130 LG9 0 0 0  7000
+20230130 LG9 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230131 LG9 0 0 0  100
+20230131 LG9 0 0 0  1000
+20230131 LG9 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230201 LG9 1000 4700000 4700000  1000
+20230201 LG9 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230202 LG9 -2000 -8000 0 2000 2000
+20230202 LG9 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230203 LG9 0 0 0  100
+20230203 LG9 -500 -2250000 0 500 500
+20230203 LG9 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 LG9 500 2550000 2550000  200
+20230207 LG9 500 2550000 2550000  500
+20230207 LG9 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230208 LG9 -300 -1320000 0 300 300
+20230208 LG9 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230209 LG9 0 0 0  100
+20230209 LG9 100 500 1500 200 500
+20230209 LG9 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230210 LG9 -100 -490000.00000000006 0 100 100
+20230210 LG9 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230213 LG9 -100 -490000.00000000006 490000.00000000006  490000.00000000006
+20230213 LG9 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230220 LG9 -100 -500000 0 100 100
+20230220 LG9 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

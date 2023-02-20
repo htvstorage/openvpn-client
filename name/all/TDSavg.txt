@@ -1,74 +1,84 @@
-20221212 TDS 300 4440000 4440000 4440000 
-20221212 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221216 TDS 0 0 6750000  
-20221216 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221223 TDS -3000 -39000000 39000000  39000000
-20221223 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221230 TDS -2000 -25000000 25000000  25000000
-20221230 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230104 TDS 0 0 125000000  
-20230104 TDS 0 0 62500000  
-20230104 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230106 TDS 1900 23370000 23370000 12300000 
-20230106 TDS 600 7380000 7380000 7380000 
-20230106 TDS 800 10170000 36570000  13200000
-20230106 TDS 900 11070000 11070000 3690000 
-20230106 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230109 TDS 0 0 1380000  
-20230109 TDS 0 -50000 4030000 1300000 
-20230109 TDS -100 -1350000 2730000  1350000
-20230109 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230110 TDS 200 2280000 2280000 2280000 
-20230110 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230111 TDS 100 1300000 1300000 1300000 
-20230111 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230113 TDS -100 -1230000 1230000  1230000
-20230113 TDS -200 -2460000 2460000  1230000
-20230113 TDS -300 -3690000 3690000  1230000
-20230113 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230116 TDS 0 -110000 2710000 1300000 
-20230116 TDS 100 1190000 4010000 1300000 
-20230116 TDS -100 -1410000 1410000  1410000
-20230116 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230117 TDS 100 1300000 1300000 1300000 
-20230117 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230118 TDS -2000 -24400000 24400000  24400000
-20230118 TDS -2000 -24400000 48800000 12200000 
-20230118 TDS -3000 -36600000 36600000  12200000
-20230118 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230119 TDS 100 1300000 1300000 1300000 
-20230119 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230127 TDS -100 -1200000 11200000  
-20230127 TDS -100 -1200000 1200000  1200000
-20230127 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230130 TDS 0 220000 2620000  1200000
-20230130 TDS 0 220000 3820000  
-20230130 TDS 1000 13220000 16820000 13000000 
-20230130 TDS 100 1420000 1420000 1420000 
-20230130 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230131 TDS 100 1300000 1300000 1300000 
-20230131 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230201 TDS 100 1300000 1300000 1300000 
-20230201 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230202 TDS 0 180000 3560000  1120000
-20230202 TDS 100 1300000 1300000 1300000 
-20230202 TDS 100 1300000 2440000  
-20230202 TDS 100 1420000 10860000  1200000
-20230202 TDS 200 2620000 6000000 2440000 
-20230202 TDS 200 2620000 9660000  
-20230202 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230203 TDS 100 1300000 1300000 1300000 
-20230203 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230206 TDS 0 0 1120000  
-20230206 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 TDS 0 0 1230000  
-20230207 TDS 100 1280000 2510000 1280000 
-20230207 TDS 200 2560000 3790000 1280000 
-20230207 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230208 TDS 100 1200000 1200000 1200000 
-20230208 TDS 100 1200000 2400000  
-20230208 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230209 TDS 0 0 1300000  
-20230209 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230210 TDS 0 0 2560000  
-20230210 TDS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221212 TDS 300 4440000 4440000  300
+20221212 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221216 TDS 0 0 0  500
+20221216 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221223 TDS -3000 -39000 0 3000 3000
+20221223 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221230 TDS -2000 -25000000 0 2000 2000
+20221230 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230104 TDS 0 0 0  5000
+20230104 TDS 0 0 0  5000
+20230104 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230106 TDS 1900 23370000 23370000  1000
+20230106 TDS 600 7380000 7380000  600
+20230106 TDS 800 23356800 23370000 1100 1100
+20230106 TDS 900 11070000 11070000  300
+20230106 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230109 TDS 0 0 0  100
+20230109 TDS 0 -1348700 1300  100
+20230109 TDS -100 -1350000 0 100 100
+20230109 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230110 TDS 200 2280000 2280000  200
+20230110 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230111 TDS 100 1300 1300  100
+20230111 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230113 TDS -100 -1230000 0 100 100
+20230113 TDS -200 -2460000 0 100 100
+20230113 TDS -300 -3690000 0 100 100
+20230113 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230116 TDS 0 -1408700 1300  100
+20230116 TDS 100 -1407400 2600  100
+20230116 TDS -100 -1410000 0 100 100
+20230116 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230117 TDS 100 1300 1300  100
+20230117 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230118 TDS -2000 -24400000 0 2000 2000
+20230118 TDS -2000 -24400000 12200000  1000
+20230118 TDS -3000 -36600000 0 1000 1000
+20230118 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230119 TDS 100 1300 1300  100
+20230119 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230127 TDS -100 -1200 0 100 100
+20230127 TDS -100 -1200 0  800
+20230127 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230130 TDS 0 1418800 1420000  100
+20230130 TDS 0 1418800 1420000 100 100
+20230130 TDS 1000 1431800 1433000  1000
+20230130 TDS 100 1420000 1420000  100
+20230130 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230131 TDS 100 1300 1300  100
+20230131 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230201 TDS 100 1300 1300  100
+20230201 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230202 TDS 0 -1118700 1300 100 100
+20230202 TDS 100 1300 1300  100
+20230202 TDS 100 1300 1300  100
+20230202 TDS 100 1320100 2441300 100 100
+20230202 TDS 200 1321300 2441300  200
+20230202 TDS 200 1321300 2441300  300
+20230202 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230203 TDS 100 1300 1300  100
+20230203 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230206 TDS 0 0 0  100
+20230206 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 TDS 0 0 0  100
+20230207 TDS 100 1280000 1280000  100
+20230207 TDS 200 2560000 2560000  100
+20230207 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230208 TDS 100 1200 1200  100
+20230208 TDS 100 1200 1200  100
+20230208 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230209 TDS 0 0 0  100
+20230209 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230210 TDS 0 0 0  200
+20230210 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230213 TDS 100 1400000 1400000  100
+20230213 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230214 TDS -300 -3600000 0 300 300
+20230214 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230217 TDS 100 1540000 1540000  100
+20230217 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230220 TDS 0 -40000 1310000 100 100
+20230220 TDS 100 1310000 1310000  100
+20230220 TDS 100 1310000 1310000  100
+20230220 TDS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

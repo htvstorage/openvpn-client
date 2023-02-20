@@ -1,55 +1,67 @@
-20221212 GTS 100 969999.9999999999 969999.9999999999 969999.9999999999 
-20221212 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221213 GTS 0 0 969999.9999999999  
-20221213 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221214 GTS -100 -969999.9999999999 969999.9999999999  969999.9999999999
-20221214 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221215 GTS -100 -980000.0000000001 980000.0000000001  980000.0000000001
-20221215 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221216 GTS -300 -2700000 2700000  2700000
-20221216 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221220 GTS 0 0 980000.0000000001  
-20221220 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221221 GTS 100 1000000 1000000 1000000 
-20221221 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221228 GTS -500 -4950000 4950000  4950000
-20221228 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230105 GTS 0 0 2550000  
-20230105 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230106 GTS -100 -969999.9999999999 969999.9999999999  969999.9999999999
-20230106 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230111 GTS 200 2039999.9999999998 2039999.9999999998 2039999.9999999998 
-20230111 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230112 GTS 100 1019999.9999999999 1019999.9999999999 1019999.9999999999 
-20230112 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230113 GTS 0 -10000.000000000233 3490000 1739999.9999999998 
-20230113 GTS -200 -1750000 1750000  1750000
-20230113 GTS 300 2600000 7840000 2610000 
-20230113 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230116 GTS 100 980000.0000000001 980000.0000000001 980000.0000000001 
-20230116 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230118 GTS 0 -60000.00000000023 3860000 950000 
-20230118 GTS -100 -1010000.0000000002 2910000 950000 
-20230118 GTS 100 889999.9999999998 4810000 950000 
-20230118 GTS -100 -980000.0000000001 980000.0000000001  980000.0000000001
-20230118 GTS -200 -1960000.0000000002 1960000.0000000002  980000.0000000001
-20230118 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230119 GTS 100 950000 950000 950000 
-20230119 GTS 200 1900000 1900000 950000 
-20230119 GTS 300 2850000 2850000 950000 
-20230119 GTS 400 3800000 3800000 950000 
-20230119 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230130 GTS 0 0 2850000  
-20230130 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230131 GTS 0 0 919999.9999999999  
-20230131 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230201 GTS 0 0 910000  
-20230201 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230202 GTS -100 -900000 900000  900000
-20230202 GTS -200 -1850000 1850000  950000
-20230202 GTS -300 -2850000 2850000  1000000
-20230202 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 GTS 0 0 9700000  
-20230207 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230210 GTS 500 5000000 5000000 5000000 
-20230210 GTS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221212 GTS 100 969999.9999999999 969999.9999999999  100
+20221212 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221213 GTS 0 0 0  100
+20221213 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221214 GTS -100 -969999.9999999999 0 100 100
+20221214 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221215 GTS -100 -980000.0000000001 0 100 100
+20221215 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221216 GTS -300 -2700 0 300 300
+20221216 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221220 GTS 0 0 0  100
+20221220 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221221 GTS 100 1000 1000  100
+20221221 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221228 GTS -500 -4950000 0 500 500
+20221228 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230105 GTS 0 0 0  300
+20230105 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230106 GTS -100 -969999.9999999999 0 100 100
+20230106 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230111 GTS 200 2039999.9999999998 2039999.9999999998  200
+20230111 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230112 GTS 100 1019999.9999999999 1019999.9999999999  100
+20230112 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230113 GTS 0 -10000.000000000233 1739999.9999999998  200
+20230113 GTS -200 -1750000 0 200 200
+20230113 GTS 300 2600000 4350000  500
+20230113 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230116 GTS 100 980000.0000000001 980000.0000000001  100
+20230116 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230118 GTS 0 -60000.00000000023 1900000  100
+20230118 GTS -100 -1010000.0000000002 950000  100
+20230118 GTS 100 889999.9999999998 2850000  100
+20230118 GTS -100 -980000.0000000001 0 100 100
+20230118 GTS -200 -1960000.0000000002 0 100 100
+20230118 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230119 GTS 100 950000 950000  100
+20230119 GTS 200 1900000 1900000  100
+20230119 GTS 300 2850000 2850000  100
+20230119 GTS 400 3800000 3800000  100
+20230119 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230130 GTS 0 0 0  300
+20230130 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230131 GTS 0 0 0  100
+20230131 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230201 GTS 0 0 0  100
+20230201 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230202 GTS -100 -900 0 100 100
+20230202 GTS -200 -950900 0 100 100
+20230202 GTS -300 -951900 0 100 100
+20230202 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 GTS 0 0 0  1000
+20230207 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230210 GTS 500 5000 5000  500
+20230210 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230213 GTS -1100 -10120000 0 1100 1100
+20230213 GTS -1800 -16420000 0 700 700
+20230213 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230214 GTS -700 -6230000 0 700 700
+20230214 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230220 GTS 100 860000 860000  100
+20230220 GTS 100 860000 860000  100
+20230220 GTS 100 860000 860000  300
+20230220 GTS 500 4660000 4660000  400
+20230220 GTS 700 6560000 6560000  200
+20230220 GTS 800 7510000 7510000  100
+20230220 GTS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

@@ -1,46 +1,49 @@
-20221212 SIC 0 0 11400000  
-20221212 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221222 SIC -2000 -37000000 37000000  37000000
-20221222 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221228 SIC -1000 -17100000 17100000  17100000
-20221228 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221229 SIC 0 130000 3630000  1750000
-20221229 SIC 100 1880000 1880000 1880000 
-20221229 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221230 SIC 100 1900000 1900000 1900000 
-20221230 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230103 SIC 0 0 2090000  
-20230103 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230104 SIC -3000 -57000000 57000000  57000000
-20230104 SIC -3000 -57000000 59280000  
-20230104 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230105 SIC -200 -4120000 4120000  4120000
-20230105 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230109 SIC 0 0 1860000.0000000002  
-20230109 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230110 SIC 1000 20000000 20000000 20000000 
-20230110 SIC 4000 80000000 80000000 60000000 
-20230110 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230111 SIC 0 0 4380000  
-20230111 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230112 SIC 168400 3536640000 3546660000 3540600000 
-20230112 SIC 168900 3547140000 3557160000 10500000 
-20230112 SIC 168900 3547140000 3645360000  
-20230112 SIC 169300 3555540000 3653760000 8400000 
-20230112 SIC 169500 3559740000 3657960000 4200000 
-20230112 SIC -200 -3960000 3960000  3960000
-20230112 SIC -200 -3960000 6060000  
-20230112 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230116 SIC -200 -3779999.9999999995 3779999.9999999995  3779999.9999999995
-20230116 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230118 SIC 0 0 2050000  
-20230118 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230201 SIC -200 -4300000 12900000 4300000 8600000
-20230201 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230206 SIC 100 2250000 2250000 2250000 
-20230206 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 SIC 100 2350000 2350000 2350000 
-20230207 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230208 SIC 100 2500000 2500000 2500000 
-20230208 SIC 200 4620000 4620000 2120000 
-20230208 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221212 SIC 0 0 0  600
+20221212 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221222 SIC -2000 -37000000 0 2000 2000
+20221222 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221228 SIC -1000 -17100000 0 1000 1000
+20221228 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221229 SIC 0 130000 1880000 100 100
+20221229 SIC 100 1880000 1880000  100
+20221229 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221230 SIC 100 1900 1900  100
+20221230 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230103 SIC 0 0 0  100
+20230103 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230104 SIC -3000 -57000 0  100
+20230104 SIC -3000 -57000 0 3000 3000
+20230104 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230105 SIC -200 -4120000 0 200 200
+20230105 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230109 SIC 0 0 0  100
+20230109 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230110 SIC 1000 20000 20000  1000
+20230110 SIC 4000 80000 80000  3000
+20230110 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230111 SIC 0 0 0  200
+20230111 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230112 SIC 168400 -419400 3540600  168600
+20230112 SIC 168900 -408900 3551100  4200
+20230112 SIC 168900 -408900 3551100  500
+20230112 SIC 169300 -400500 3559500  400
+20230112 SIC 169500 -396300 3563700  200
+20230112 SIC -200 -3960000 0  100
+20230112 SIC -200 -3960000 0 200 200
+20230112 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230116 SIC -200 -3779999.9999999995 0 200 200
+20230116 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230118 SIC 0 0 0  100
+20230118 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230201 SIC -200 -4300000 4300000 400 600
+20230201 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230206 SIC 100 2250000 2250000  100
+20230206 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 SIC 100 2350000 2350000  100
+20230207 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230208 SIC 100 2500 2500  100
+20230208 SIC 200 2122500 2122500  100
+20230208 SIC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230213 SIC 100 2500 2500 2500 
+20230213 SIC 200 2122500 2122500 2120000 
+20230213 SIC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

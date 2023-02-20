@@ -1,49 +1,58 @@
-20221212 VE8 0 0 940000  
-20221212 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221213 VE8 -100 -440000.00000000006 440000.00000000006  440000.00000000006
-20221213 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221214 VE8 0 0 1800000  
-20221214 VE8 600 2700000 4500000 2700000 
-20221214 VE8 600 2700000 4960000  
-20221214 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221215 VE8 200 980000.0000000001 1900000 980000.0000000001 
-20221215 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221219 VE8 200 980000.0000000001 980000.0000000001 980000.0000000001 
-20221219 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221220 VE8 -1000 -4600000 4600000  4600000
-20221220 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221222 VE8 100 480000 480000 480000 
-20221222 VE8 -1900 -8720000 9680000  9200000
-20221222 VE8 -2800 -12860000 13820000  4140000
-20221222 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221223 VE8 -100 -430000 430000  430000
-20221223 VE8 -100 -430000 900000  
-20221223 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221227 VE8 -100 -459999.99999999994 459999.99999999994  459999.99999999994
-20221227 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221228 VE8 600 2760000 2760000 2760000 
-20221228 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221230 VE8 -400 -1720000 1720000  1720000
-20221230 VE8 -400 -1720000 2200000  
-20221230 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230105 VE8 0 0 1440000  
-20230105 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230111 VE8 -100 -440000.00000000006 440000.00000000006  440000.00000000006
-20230111 VE8 -100 -440000.00000000006 910000  
-20230111 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230113 VE8 0 0 940000  
-20230113 VE8 100 480000 1420000 480000 
-20230113 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230118 VE8 -500 -2350000 2350000  2350000
-20230118 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230127 VE8 100 490000.00000000006 490000.00000000006 490000.00000000006 
-20230127 VE8 300 1470000.0000000002 1470000.0000000002 980000.0000000001 
-20230127 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 VE8 -100 -449999.99999999953 10350000 530000 
-20230207 VE8 -200 -979999.9999999995 8820000 3920000.0000000005 4900000
-20230207 VE8 -200 -979999.9999999995 9820000  
-20230207 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230208 VE8 0 0 2120000  
-20230208 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230209 VE8 500 2850000 2850000 2850000 
-20230209 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221212 VE8 0 0 0  200
+20221212 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221213 VE8 -100 -440000.00000000006 0 100 100
+20221213 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221214 VE8 0 0 0  400
+20221214 VE8 600 2700000 2700000  100
+20221214 VE8 600 2700000 2700000  600
+20221214 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221215 VE8 200 980000.0000000001 980000.0000000001  400
+20221215 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221219 VE8 200 980000.0000000001 980000.0000000001  200
+20221219 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221220 VE8 -1000 -4600000 0 1000 1000
+20221220 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221222 VE8 100 480000 480000  100
+20221222 VE8 -1900 -8720000 480000 2000 2000
+20221222 VE8 -2800 -12860000 480000 900 900
+20221222 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221223 VE8 -100 -430000 0  100
+20221223 VE8 -100 -430000 0 100 100
+20221223 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221227 VE8 -100 -459999.99999999994 0 100 100
+20221227 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221228 VE8 600 2760000 2760000  600
+20221228 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221230 VE8 -400 -1720000 0  100
+20221230 VE8 -400 -1720000 0 400 400
+20221230 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230105 VE8 0 0 0  300
+20230105 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230111 VE8 -100 -440000.00000000006 0  100
+20230111 VE8 -100 -440000.00000000006 0 100 100
+20230111 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230113 VE8 0 0 0  200
+20230113 VE8 100 480000 480000  100
+20230113 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230118 VE8 -500 -2350000 0 500 500
+20230118 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230127 VE8 100 490000.00000000006 490000.00000000006  100
+20230127 VE8 300 1470000.0000000002 1470000.0000000002  200
+20230127 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 VE8 -100 -449999.99999999953 4450000  100
+20230207 VE8 -200 -979999.9999999995 3920000.0000000005 1000 1800
+20230207 VE8 -200 -979999.9999999995 3920000.0000000005  200
+20230207 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230208 VE8 0 0 0  400
+20230208 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230209 VE8 500 2850000 2850000  500
+20230209 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230213 VE8 500 2850000 2850000 2850000 
+20230213 VE8 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230216 VE8 -100 -520000 0 100 100
+20230216 VE8 -100 -520000 0  300
+20230216 VE8 100 540000 1060000  200
+20230216 VE8 100 540000 1060000  200
+20230216 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230220 VE8 500 2800000 2800000  500
+20230220 VE8 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

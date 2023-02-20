@@ -1,69 +1,74 @@
-20221220 PMC 0 360000.00000000093 13720000 7040000.000000001 
-20221220 PMC -100 -6680000 6680000  6680000
-20221220 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221221 PMC -100 -6690000.000000001 6690000.000000001  6690000.000000001
-20221221 PMC -300 -20050000 20050000  13360000
-20221221 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221222 PMC 0 0 42240000  
-20221222 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221223 PMC 0 0 105000000  
-20221223 PMC 0 0 112000000  
-20221223 PMC 0 0 70000000  
-20221223 PMC 0 0 98000000  
-20221223 PMC 100 7000000 126010000 7000000 
-20221223 PMC 100 7000000 161510000  
-20221223 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221226 PMC -300 -21900000 21900000  21900000
-20221226 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221227 PMC 0 0 22170000  
-20221227 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221228 PMC 200 15000000 15000000 15000000 
-20221228 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221229 PMC 0 0 65520000.00000001  
-20221229 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221230 PMC 0 0 22140000  
-20221230 PMC 4300 324540000 346680000 324540000 
-20221230 PMC 4300 324540000 363680000  
-20221230 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230103 PMC -100 -8100000 8100000  8100000
-20230103 PMC -300 -24000000 48910000 8400000 
-20230103 PMC -300 -24000000 57010000  
-20230103 PMC -300 -24300000 24300000  16200000
-20230103 PMC -400 -32400000 32400000  8100000
-20230103 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230104 PMC 0 0 15800000 7900000 
-20230104 PMC 0 0 39200000  
-20230104 PMC -100 -7900000 7900000  7900000
-20230104 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230105 PMC 0 0 14680000  
-20230105 PMC 0 0 7600000  
-20230105 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230106 PMC -700 -46200000 46200000  46200000
-20230106 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230110 PMC 8000 559200000 559200000 559200000 
-20230110 PMC 8000 559200000 565910000  
-20230110 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230111 PMC 300 22050000 22050000 22050000 
-20230111 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230112 PMC -100 -6800000 6800000  6800000
-20230112 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230113 PMC 100 7100000 7100000 7100000 
-20230113 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230119 PMC 0 0 6820000  
-20230119 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230201 PMC 2100 147240000 245740000  6650000
-20230201 PMC 2200 153890000 167090000  6600000
-20230201 PMC 2300 160490000 160490000 140000000 
-20230201 PMC 300 20490000 20490000 20490000 
-20230201 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230203 PMC 100 6659999.999999999 6659999.999999999 6659999.999999999 
-20230203 PMC 5800 386279999.99999994 386279999.99999994 379619999.99999994 
-20230203 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230206 PMC 900 65800000 79200000 72500000 6700000
-20230206 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 PMC -100 -6720000 97720000  6720000
-20230207 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230209 PMC -100 -6720000 97720000  6720000
-20230209 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221220 PMC 0 360000.00000000093 7040000.000000001  100
+20221220 PMC -100 -6680000 0 100 100
+20221220 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221221 PMC -100 -6690000.000000001 0 100 100
+20221221 PMC -300 -20050000 0 200 200
+20221221 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221222 PMC 0 0 0  600
+20221222 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221223 PMC 0 0 0  100
+20221223 PMC 0 0 0  100
+20221223 PMC 0 0 0  1000
+20221223 PMC 0 0 0  400
+20221223 PMC 100 7000 7000  200
+20221223 PMC 100 7000 7000  500
+20221223 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221226 PMC -300 -21900 0 300 300
+20221226 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221227 PMC 0 0 0  300
+20221227 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221228 PMC 200 15000 15000  200
+20221228 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221229 PMC 0 0 0  800
+20221229 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221230 PMC 0 0 0  300
+20221230 PMC 4300 243621000 243621000  200
+20221230 PMC 4300 243621000 243621000  4300
+20221230 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230103 PMC -100 -8100 0 100 100
+20230103 PMC -300 -24000 8400  100
+20230103 PMC -300 -24000 8400  200
+20230103 PMC -300 -24300 0 200 200
+20230103 PMC -400 -32400 0 100 100
+20230103 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230104 PMC 0 0 7900  100
+20230104 PMC 0 0 7900  300
+20230104 PMC -100 -7900 0 100 100
+20230104 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230105 PMC 0 0 0  100
+20230105 PMC 0 0 0  100
+20230105 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230106 PMC -700 -46200 0 700 700
+20230106 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230110 PMC 8000 559200000 559200000  100
+20230110 PMC 8000 559200000 559200000  8000
+20230110 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230111 PMC 300 22050000 22050000  300
+20230111 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230112 PMC -100 -6800 0 100 100
+20230112 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230113 PMC 100 7100 7100  100
+20230113 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230119 PMC 0 0 0  100
+20230119 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230201 PMC 2100 13973400 20630000 100 1100
+20230201 PMC 2200 20623400 20630000 100 100
+20230201 PMC 2300 20630000 20630000  2000
+20230201 PMC 300 20490000 20490000  300
+20230201 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230203 PMC 100 6659999.999999999 6659999.999999999  100
+20230203 PMC 5800 386279999.99999994 386279999.99999994  5700
+20230203 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230206 PMC 900 72493300 72500000 100 1100
+20230206 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 PMC -100 -6720000 0 100 1400
+20230207 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230209 PMC -100 -6720000 0 100 1400
+20230209 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
 20230210 PMC -100 -6720000 97720000  6720000
 20230210 PMC "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230213 PMC -100 -6750000 0 100 100
+20230213 PMC -400 -27180000 0 300 300
+20230213 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230216 PMC -100 -6880000 0 100 1200
+20230216 PMC "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

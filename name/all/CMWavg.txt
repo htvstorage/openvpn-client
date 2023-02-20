@@ -1,5 +1,17 @@
-20230207 CMW 200 2400000 2400000 2400000 
-20230207 CMW -600 -7200000 12000000  9600000
-20230207 CMW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230208 CMW -400 -4760000 4760000  4760000
-20230208 CMW "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230207 CMW 200 2400 2400  200
+20230207 CMW -600 -7200 2400 800 800
+20230207 CMW "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230208 CMW -400 -4760000 0 400 400
+20230208 CMW "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230214 CMW 0 0 0  100
+20230214 CMW -100 -1020000 0 100 100
+20230214 CMW -100 -1020000 0  700
+20230214 CMW "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230216 CMW 0 0 0  100
+20230216 CMW "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230220 CMW 0 130000 910000  100
+20230220 CMW 100 1040000 1820000  100
+20230220 CMW -100 -780000 0 100 100
+20230220 CMW -300 -2050000 2730000  100
+20230220 CMW -400 -2960000 1820000 500 500
+20230220 CMW "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

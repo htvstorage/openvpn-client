@@ -1,23 +1,28 @@
-20221214 MAS 200 7100000 7100000 7100000 
-20221214 MAS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221216 MAS 600 23100000 23100000 23100000 
-20221216 MAS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221221 MAS 200 7600000 7600000 7600000 
-20221221 MAS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221223 MAS -200 -7600000 7600000  7600000
-20221223 MAS -700 -26600000 26600000  19000000
-20221223 MAS -700 -26600000 34200000  
-20221223 MAS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221229 MAS 200 7600000 7600000 7600000 
-20221229 MAS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230104 MAS -200 -6840000.000000001 6840000.000000001  6840000.000000001
-20230104 MAS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 MAS 0 0 329000000  
-20230207 MAS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230209 MAS -100 -3290000 3290000  3290000
-20230209 MAS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230210 MAS 10000 333000000 1051500000  
-20230210 MAS 10000 333000000 1396500000  
-20230210 MAS 10000 333000000 333000000 333000000 
-20230210 MAS 10000 333000000 672000000  
-20230210 MAS "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221214 MAS 200 7100000 7100000  200
+20221214 MAS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221216 MAS 600 23100000 23100000  600
+20221216 MAS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221221 MAS 200 7600 7600  200
+20221221 MAS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221223 MAS -200 -7600 0 200 200
+20221223 MAS -700 -26600 0  200
+20221223 MAS -700 -26600 0 500 500
+20221223 MAS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221229 MAS 200 7600 7600  200
+20221229 MAS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230104 MAS -200 -6840000.000000001 0 200 200
+20230104 MAS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 MAS 0 0 0  10000
+20230207 MAS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230209 MAS -100 -3290000 0 100 100
+20230209 MAS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230210 MAS 10000 333000000 333000000  10000
+20230210 MAS 10000 333000000 333000000  10000
+20230210 MAS 10000 333000000 333000000  10000
+20230210 MAS 10000 333000000 333000000  11000
+20230210 MAS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230216 MAS -10000 -345000000 0 10000 10000
+20230216 MAS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230220 MAS 1600 56800000 56800000  1600
+20230220 MAS 2000 71000000 71000000  400
+20230220 MAS "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

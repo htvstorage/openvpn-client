@@ -1,82 +1,85 @@
-20221212 PSL 200 3400000 3400000 3400000 
-20221212 PSL 400 6800000 6800000 3400000 
-20221212 PSL 600 10200000 10200000 3400000 
-20221212 PSL 700 11890000 11890000 1689999.9999999998 
-20221212 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221215 PSL 0 0 1500000  
-20221215 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221216 PSL -100 -1500000 1500000  1500000
-20221216 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221219 PSL 0 0 2960000  
-20221219 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221220 PSL 0 0 1480000  
-20221220 PSL 0 0 4380000  
-20221220 PSL 0 0 8730000  
-20221220 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221221 PSL 100 1460000 1460000 1460000 
-20221221 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221223 PSL -200 -2960000 2960000  2960000
-20221223 PSL -300 -4440000 4440000  1480000
-20221223 PSL -300 -4440000 5920000  
-20221223 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221229 PSL 100 1670000 1670000 1670000 
-20221229 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230104 PSL 400 6320000 6320000 6320000 
-20230104 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230105 PSL 0 0 1450000  
-20230105 PSL 100 1500000 2950000 1500000 
-20230105 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230109 PSL 0 0 7500000  
-20230109 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230110 PSL -100 -1390000 4190000  1390000
-20230110 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230111 PSL 0 0 1590000  
-20230111 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230112 PSL 0 0 12000000  
-20230112 PSL 100 1710000.0000000002 13710000 1710000.0000000002 
-20230112 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230113 PSL 0 0 4800000  
-20230113 PSL -400 -6080000 10880000  6080000
-20230113 PSL -400 -6080000 12380000  
-20230113 PSL -800 -12080000 21380000 1500000 
-20230113 PSL -900 -13580000 19880000  7500000
-20230113 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230117 PSL 600 10500000 10500000 10500000 
-20230117 PSL 800 13900000 13900000 3400000 
-20230117 PSL 800 13900000 19000000  
-20230117 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230118 PSL 0 0 3200000  
-20230118 PSL 100 1720000 4920000 1720000 
-20230118 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230119 PSL 0 0 1639999.9999999998  
-20230119 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230127 PSL 0 0 1639999.9999999998  
-20230127 PSL 0 0 4919999.999999999  
-20230127 PSL -100 -1639999.9999999998 6559999.999999999  1639999.9999999998
-20230127 PSL -100 -1639999.9999999998 8199999.999999999  
-20230127 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230130 PSL 0 0 1680000  
-20230130 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230131 PSL -400 -6020000 12420000  
-20230131 PSL -400 -6020000 6020000  6020000
-20230131 PSL -500 -7620000 14020000  1600000
-20230131 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230201 PSL -100 -1560000 1560000  1560000
-20230201 PSL 1300 21130000 33250000  4500000
-20230201 PSL 1600 25630000 28750000 27190000 
-20230201 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230202 PSL -600 -8760000 12240000 1739999.9999999998 
-20230202 PSL -700 -10210000 13690000  1450000
-20230202 PSL -700 -10500000 10500000  10500000
-20230202 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 PSL 0 0 1520000  
-20230207 PSL 0 0 3040000  
-20230207 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230208 PSL 300 4560000 4560000 4560000 
-20230208 PSL 500 7600000 7600000 3040000 
-20230208 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230209 PSL 100 1590000 1590000 1590000 
-20230209 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230210 PSL 0 0 3040000  
-20230210 PSL 0 0 4560000  
-20230210 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221212 PSL 200 3400 3400  200
+20221212 PSL 400 6800 6800  200
+20221212 PSL 600 10200 10200  200
+20221212 PSL 700 1700199.9999999998 1700199.9999999998  100
+20221212 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221215 PSL 0 0 0  100
+20221215 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221216 PSL -100 -1500 0 100 100
+20221216 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221219 PSL 0 0 0  200
+20221219 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221220 PSL 0 0 0  100
+20221220 PSL 0 0 0  200
+20221220 PSL 0 0 0  300
+20221220 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221221 PSL 100 1460000 1460000  100
+20221221 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221223 PSL -200 -2960000 0 200 200
+20221223 PSL -300 -4440000 0  100
+20221223 PSL -300 -4440000 0 100 100
+20221223 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221229 PSL 100 1670000 1670000  100
+20221229 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230104 PSL 400 6320000 6320000  400
+20230104 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230105 PSL 0 0 0  100
+20230105 PSL 100 1500 1500  100
+20230105 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230109 PSL 0 0 0  500
+20230109 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230110 PSL -100 -1390000 0 100 300
+20230110 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230111 PSL 0 0 0  100
+20230111 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230112 PSL 0 0 0  800
+20230112 PSL 100 1710000.0000000002 1710000.0000000002  100
+20230112 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230113 PSL 0 0 0  300
+20230113 PSL -400 -6080000 0  100
+20230113 PSL -400 -6080000 0 400 400
+20230113 PSL -800 -6086000 1500  100
+20230113 PSL -900 -6087500 0 500 500
+20230113 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230117 PSL 600 10500000 10500000  600
+20230117 PSL 800 10503400 10503400  200
+20230117 PSL 800 10503400 10503400  300
+20230117 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230118 PSL 0 0 0  200
+20230118 PSL 100 1720000 1720000  100
+20230118 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230119 PSL 0 0 0  100
+20230119 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230127 PSL 0 0 0  100
+20230127 PSL 0 0 0  200
+20230127 PSL -100 -1639999.9999999998 0  100
+20230127 PSL -100 -1639999.9999999998 0 100 100
+20230127 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230130 PSL 0 0 0  100
+20230130 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230131 PSL -400 -3023000 0  400
+20230131 PSL -400 -3023000 0 400 400
+20230131 PSL -500 -3024600 0 100 100
+20230131 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230201 PSL -100 -1560000 0 100 100
+20230201 PSL 1300 51100 1615600 300 300
+20230201 PSL 1600 55600 1615600  1700
+20230201 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230202 PSL -600 1729499.9999999998 1739999.9999999998  100
+20230202 PSL -700 -10500 0 700 700
+20230202 PSL -700 279499.99999999977 1739999.9999999998 100 100
+20230202 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 PSL 0 0 0  100
+20230207 PSL 0 0 0  100
+20230207 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230208 PSL 300 4560000 4560000  300
+20230208 PSL 500 7600000 7600000  200
+20230208 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230209 PSL 100 1590000 1590000  100
+20230209 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230210 PSL 0 0 0  100
+20230210 PSL 0 0 0  200
+20230210 PSL "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230213 PSL 0 0 3040000  
+20230213 PSL 0 0 4560000  
+20230213 PSL "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

@@ -1,25 +1,32 @@
-20221221 SJE 0 0 2630000  
-20221221 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221227 SJE 2000 51870000 51870000 28490000 
-20221227 SJE 900 23380000 23380000 23380000 
-20221227 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230106 SJE -100 -2590000 2590000  2590000
-20230106 SJE -500 -12950000 12950000  10360000
-20230106 SJE -800 -20720000 20720000  7770000
-20230106 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230118 SJE -100 -2550000 2550000  2550000
-20230118 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230127 SJE -100 -2360000 2360000  2360000
-20230127 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230201 SJE -100 -2360000 2360000  2360000
-20230201 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230202 SJE 200 4720000 4720000 4720000 
-20230202 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 SJE -1000 -25000000 25000000  25000000
-20230207 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230209 SJE 300 7500000 7500000 7500000 
-20230209 SJE -400 -10000000 25000000  17500000
-20230209 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221221 SJE 0 0 0  100
+20221221 SJE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221227 SJE 2000 33688200 33688200  1100
+20221227 SJE 900 5198200 5198200  900
+20221227 SJE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230106 SJE -100 -2590000 0 100 100
+20230106 SJE -500 -12950000 0 400 400
+20230106 SJE -800 -20720000 0 300 300
+20230106 SJE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230118 SJE -100 -2550000 0 100 100
+20230118 SJE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230127 SJE -100 -2360000 0 100 100
+20230127 SJE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230201 SJE -100 -2360000 0 100 100
+20230201 SJE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230202 SJE 200 4720000 4720000  200
+20230202 SJE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 SJE -1000 -25000 0 1000 1000
+20230207 SJE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230209 SJE 300 7500 7500  300
+20230209 SJE -400 -10000 7500 700 700
+20230209 SJE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
 20230210 SJE 300 7500000 7500000 7500000 
 20230210 SJE -400 -10000000 25000000  17500000
 20230210 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230213 SJE 300 7500 7500 7500 
+20230213 SJE -400 -10000 25000  17500
+20230213 SJE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230216 SJE 100 2630000 2630000  100
+20230216 SJE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230220 SJE 100 2800000 2800000  100
+20230220 SJE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

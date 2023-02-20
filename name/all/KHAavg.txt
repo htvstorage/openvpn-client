@@ -1,50 +1,64 @@
-20221212 KHA 0 0 13450000  
-20221212 KHA 0 0 6700000  
-20221212 KHA -100 -1250000 14700000  1250000
-20221212 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221220 KHA 100 1380000 1380000 1380000 
-20221220 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221230 KHA 0 0 1460000  
-20221230 KHA 0 0 2640000  
-20221230 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230110 KHA 0 0 1450000  
-20230110 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230113 KHA 0 0 2600000  
-20230113 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230119 KHA -100 -1120000 1120000  1120000
-20230119 KHA -100 -1120000 2240000  
-20230119 KHA -100 -880000 22460000 1350000 
-20230119 KHA -200 -2230000 21110000  
-20230119 KHA -200 -2230000 3350000  1110000
-20230119 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230127 KHA 100 1280000 1280000 1280000 
-20230127 KHA 100 1280000 3520000  
-20230127 KHA 200 2530000 4770000 1250000 
-20230127 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230130 KHA -500 -5950000 5950000  5950000
-20230130 KHA -700 -8350000 8350000  2400000
-20230130 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230131 KHA 0 0 33320000  
-20230131 KHA 1100 13090000 46410000 4760000 
-20230131 KHA 200 2380000 35700000 2380000 
-20230131 KHA 700 8330000 41650000 5950000 
-20230131 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230201 KHA 200 2240000 2240000 2240000 
-20230201 KHA 200 2240000 5600000  
-20230201 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230202 KHA 0 0 12000000  
-20230202 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230206 KHA -200 -2400000 2400000  2400000
-20230206 KHA -600 -7200000 7200000  4800000
-20230206 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 KHA 0 0 1200000  
-20230207 KHA 100 1200000 2400000 1200000 
-20230207 KHA -800 -9600000 13200000  10800000
-20230207 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230208 KHA -100 -1180000 1180000  1180000
-20230208 KHA -100 -1180000 2360000  
-20230208 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230209 KHA 0 0 1350000  
-20230209 KHA 0 200000 6350000  2400000
-20230209 KHA 200 2600000 3950000 2600000 
-20230209 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221212 KHA 0 0 0  500
+20221212 KHA 0 0 0  500
+20221212 KHA -100 -1250000 0 100 100
+20221212 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221220 KHA 100 1380000 1380000  100
+20221220 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221230 KHA 0 0 0  100
+20221230 KHA 0 0 0  100
+20221230 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230110 KHA 0 0 0  100
+20230110 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230113 KHA 0 0 0  200
+20230113 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230119 KHA -100 -1120000 0  100
+20230119 KHA -100 -1120000 0 100 100
+20230119 KHA -100 -880000 1350000  100
+20230119 KHA -200 -2230000 0 100 100
+20230119 KHA -200 -2230000 0  1600
+20230119 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230127 KHA 100 1280000 1280000  100
+20230127 KHA 100 1280000 1280000  200
+20230127 KHA 200 2530000 2530000  100
+20230127 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230130 KHA -500 -5950000 0 500 500
+20230130 KHA -700 -5952400 0 200 200
+20230130 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230131 KHA 0 0 0  2800
+20230131 KHA 1100 13090000 13090000  400
+20230131 KHA 200 2380000 2380000  200
+20230131 KHA 700 8330000 8330000  500
+20230131 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230201 KHA 200 2240000 2240000  200
+20230201 KHA 200 2240000 2240000  300
+20230201 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230202 KHA 0 0 0  1000
+20230202 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230206 KHA -200 -2400 0 200 200
+20230206 KHA -600 -7200 0 400 400
+20230206 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 KHA 0 0 0  100
+20230207 KHA 100 1200 1200  100
+20230207 KHA -800 -9600 1200 900 900
+20230207 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230208 KHA -100 -1180000 0  100
+20230208 KHA -100 -1180000 0 100 100
+20230208 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230209 KHA 0 0 0  100
+20230209 KHA 0 200 2600 200 200
+20230209 KHA 200 2600 2600  200
+20230209 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230213 KHA 0 0 1350000  
+20230213 KHA 0 200 1355000  2400
+20230213 KHA 200 2600 1352600 2600 
+20230213 KHA "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230217 KHA 1100 11900000 11900000  400
+20230217 KHA 500 5400000 5400000  500
+20230217 KHA 600 6500000 6500000  100
+20230217 KHA 800 8660000 8660000  200
+20230217 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230220 KHA 1300 13300000 15300000  500
+20230220 KHA -200 -2000000 0  100
+20230220 KHA -200 -2000000 0 200 200
+20230220 KHA 800 8200000 10200000  1000
+20230220 KHA "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

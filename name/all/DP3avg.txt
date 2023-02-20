@@ -1,63 +1,77 @@
-20221213 DP3 -200 -17800000 17800000  17800000
-20221213 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221214 DP3 0 0 9050000  
-20221214 DP3 -400 -35640000 44690000  35640000
-20221214 DP3 -500 -44550000 53600000  8910000
-20221214 DP3 -600 -53460000 62510000  8910000
-20221214 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221215 DP3 -400 -37600000 37600000  37600000
-20221215 DP3 -500 -47000000 47000000  9400000
-20221215 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221216 DP3 -100 -9200000 48760000  
-20221216 DP3 -100 -9200000 9200000  9200000
-20221216 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221219 DP3 0 0 9300000  
-20221219 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221228 DP3 -200 -18600000 18600000  18600000
-20221228 DP3 -300 -27900000 27900000  9300000
-20221228 DP3 -400 -37200000 37200000  9300000
-20221228 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20221230 DP3 -100 -9400000 18800000  
-20221230 DP3 -100 -9400000 9400000  9400000
-20221230 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230106 DP3 100 9300000 9300000 9300000 
-20230106 DP3 200 18600000 18600000 9300000 
-20230106 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230116 DP3 -100 -9100000 9100000  9100000
-20230116 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230119 DP3 100 9500000 18950000  
-20230119 DP3 100 9500000 9500000 9500000 
-20230119 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230127 DP3 -100 -9500000 9500000  9500000
-20230127 DP3 -400 -38000000 38000000  28500000
-20230127 DP3 -400 -38000000 95000000  
-20230127 DP3 -500 -47500000 104500000  9500000
-20230127 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230130 DP3 -300 -28740000 28740000  28740000
-20230130 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230131 DP3 100 10000000 10000000 10000000 
-20230131 DP3 100 10000000 38800000  
-20230131 DP3 100 10000000 48680000  
-20230131 DP3 -100 -9400000 68080000  19400000
-20230131 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230201 DP3 -100 -9700000 9700000  9700000
-20230201 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230202 DP3 -200 -19400000 19400000  19400000
-20230202 DP3 -500 -48500000 341000000  
-20230202 DP3 -500 -48500000 48500000  29100000
-20230202 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230203 DP3 -100 -9000000 18750000  
-20230203 DP3 -100 -9000000 9000000  9000000
-20230203 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 DP3 0 850000 18850000 9850000 
-20230207 DP3 100 10700000 28700000 9850000 
-20230207 DP3 -100 -9000000 9000000  9000000
-20230207 DP3 200 21000000 39000000 10300000 
-20230207 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230208 DP3 0 0 9300000  
-20230208 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230209 DP3 -100 -9310000 18630000  9310000
-20230209 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230210 DP3 -500 -47750000 105050000  
-20230210 DP3 -500 -47750000 47750000  47750000
-20230210 DP3 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221213 DP3 -200 -17800 0 200 200
+20221213 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221214 DP3 0 0 0  100
+20221214 DP3 -400 -35640000 0 400 400
+20221214 DP3 -500 -44550000 0 100 100
+20221214 DP3 -600 -53460000 0 100 100
+20221214 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221215 DP3 -400 -37600 0 400 400
+20221215 DP3 -500 -47000 0 100 100
+20221215 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221216 DP3 -100 -9200 0 100 100
+20221216 DP3 -100 -9200 0  400
+20221216 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221219 DP3 0 0 0  100
+20221219 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221228 DP3 -200 -18600 0 200 200
+20221228 DP3 -300 -27900 0 100 100
+20221228 DP3 -400 -37200 0 100 100
+20221228 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20221230 DP3 -100 -9400 0  100
+20221230 DP3 -100 -9400 0 100 100
+20221230 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230106 DP3 100 9300 9300  100
+20230106 DP3 200 18600 18600  100
+20230106 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230116 DP3 -100 -9100 0 100 100
+20230116 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230119 DP3 100 9500 9500  100
+20230119 DP3 100 9500 9500  100
+20230119 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230127 DP3 -100 -9500 0 100 100
+20230127 DP3 -400 -38000 0 300 300
+20230127 DP3 -400 -38000 0  600
+20230127 DP3 -500 -47500 0 100 100
+20230127 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230130 DP3 -300 -28740000 0 300 300
+20230130 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230131 DP3 100 10000 10000  100
+20230131 DP3 100 10000 10000  100
+20230131 DP3 100 10000 10000  300
+20230131 DP3 -100 -9400 10000 200 200
+20230131 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230201 DP3 -100 -9700 0 100 100
+20230201 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230202 DP3 -200 -19400 0 200 200
+20230202 DP3 -500 -48500 0  3000
+20230202 DP3 -500 -48500 0 300 300
+20230202 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230203 DP3 -100 -9000 0  100
+20230203 DP3 -100 -9000 0 100 100
+20230203 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 DP3 0 9841000 9850000  100
+20230207 DP3 100 19691000 19700000  100
+20230207 DP3 -100 -9000 0 100 100
+20230207 DP3 200 19701300 19710300  100
+20230207 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230208 DP3 0 0 0  100
+20230208 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230209 DP3 -100 -9310000 0 100 200
+20230209 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230210 DP3 -500 -47750000 0 500 500
+20230210 DP3 -500 -47750000 0  600
+20230210 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230213 DP3 -200 -19100000 0 200 200
+20230213 DP3 -600 -57500000 0 400 400
+20230213 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230216 DP3 -1700 -161500000 0 1000 1000
+20230216 DP3 -200 -19000000 0 200 200
+20230216 DP3 -700 -66500000 0 500 500
+20230216 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230217 DP3 200 19700000 19700000  100
+20230217 DP3 200 19700000 19700000  200
+20230217 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230220 DP3 0 0 19600000 100 100
+20230220 DP3 100 9800000 19600000 100 100
+20230220 DP3 200 19600000 19600000  200
+20230220 DP3 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

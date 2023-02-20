@@ -1,8 +1,10 @@
-20221219 KCE -100 -850000 850000  850000
-20221219 KCE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230118 KCE 0 0 969999.9999999999  
-20230118 KCE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
-20230207 KCE 0 0 1110000  
-20230207 KCE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20221219 KCE -100 -850000 0 100 100
+20221219 KCE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230118 KCE 0 0 0  100
+20230118 KCE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230207 KCE 0 0 0  100
+20230207 KCE "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
 20230210 KCE 0 0 1110000  
 20230210 KCE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
+20230213 KCE 0 0 1110000  
+20230213 KCE "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
