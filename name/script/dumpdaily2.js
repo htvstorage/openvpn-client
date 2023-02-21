@@ -64,7 +64,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     let localRes = 0;
     logger.info("Checking", requested, responsed)
     let t1 = Date.now();
-    let dir = "/workspace/stockstorage/";
+    let dir = "/workspace/newstorage/";
     let dir2 = "./trans";
     let csv = null;
     let fun = () => { }
