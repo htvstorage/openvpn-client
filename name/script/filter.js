@@ -66,14 +66,14 @@ async function download() {
   let ratiosa = []
   while (true) {
 
-    if (stat2.req - stat2.res >= 10) {
+    if (stat2.req - stat2.res >= 5) {
       if (stat2.res % 10 == 0) {
         console.log(stat2, queue.length)
       }
       await Exchange.wait(500);
       continue;
     }
-    queue.reverse();
+    // queue.reverse();
     let symbol = queue.pop();
     if (symbol == undefined) {
       break;
@@ -93,7 +93,7 @@ async function download() {
   }
   // console.table(ratiosa)
 
-  // fs.writeFile("./profile/ratio.json", JSON.stringify(ratiosa), (e)=>{});
+  fs.writeFile("./profile/ratio.json", JSON.stringify(ratiosa), (e)=>{});
 
 
   industry.forEach(e => {
@@ -180,17 +180,18 @@ async function industry() {
   var args = process.argv.slice(2);
   let vss = null;
   for (let v of args) {
-    if (v.includes("ss="))
+    if (v.includes("download"))
       vss = v;
     break;
   }
 
-  ss = vss == null ? 5 : Number.parseInt(vss.substring(3));
-  if (ss == undefined || ss < 0 || Number.isNaN(ss)) {
-    ss = 5;
-  }
+  ss = vss == null ? undefined : vss;
+  // if (ss == undefined || ss < 0 || Number.isNaN(ss)) {
+  //   ss = 5;
+  // }
 
-  // await download();
+  if(ss.includes("download"))
+    await download();
 
   let out = await industry();
 
