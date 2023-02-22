@@ -6,6 +6,9 @@ import os
 import codecs
 import re
 
+
+# pip install googletrans==3.1.0a0
+
 from googletrans import Translator
 
 
@@ -24,9 +27,9 @@ all_languages = {'af': 'afrikaans', 'sq': 'albanian', 'am': 'amharic', 'ar': 'ar
 
 dirname = os.path.dirname(__file__)
 src_filename = os.path.join(
-    dirname, '1_node_exporter_for_prometheus_dashboard_cn_0413_consulmanager_rev25.json')
+    dirname, 'Gsma.txt')
 destLangCodeList = [
-    'en'
+    'vi'
 ]
 translator = Translator()
 
@@ -57,34 +60,38 @@ for destLangCode in destLangCodeList:
         # print(content)
         ls = content.split("\n")
 
-        i = 1;
-        new = "";
+        i = 1
+        new = ""
+        songngu = ""
         for x in ls:
-            # print(x)
-            
-            if re.search(u'[\u4e00-\u9fff]', x):
-                print(str(i) + '---------------' +'found chinese character in ' + x)   
-                x2 = x.split(":")
-                print(x2[0])
-                print(x2[1])
-                print(len(x2[0])) 
-                print(len(x))
-                x3 = x[len(x2[0]):len(x)]
-                print(x3)
-                if not re.search(u'[\u4e00-\u9fff]', x2[0]):
-                    translated_json = translateString(x3, destLangCode)
-                    translated_json = translated_json.replace("$ ","$");
-                    new = new + "\n" + x2[0]  + translated_json
-                else:
-                    translated_json = translateString(x, destLangCode)
-                    translated_json = translated_json.replace("$ ","$");
-                    new = new + "\n"   + translated_json                   
-                print(translated_json) 
-                i = i+1
-                # new = new + "\n" + x2[0]  + translated_json
-            else:
-                new = new + "\n" + x
-               
+            print(x)
+
+            # if re.search(u'[\u4e00-\u9fff]', x):
+            # print(str(i) + '---------------' +
+            #       'found chinese character in ' + x)
+            # x2 = x.split(":")
+            # print(x2[0])
+            # print(x2[1])
+            # print(len(x2[0]))
+            # print(len(x))
+            # x3 = x[len(x2[0]):len(x)]
+            # print(x3)
+            # if not re.search(u'[\u4e00-\u9fff]', x2[0]):
+            #     translated_json = translateString(x3, destLangCode)
+            #     translated_json = translated_json.replace("$ ", "$")
+            #     new = new + "\n" + x2[0] + translated_json
+            # else:
+            translated_json = translateString(x, destLangCode)
+            # translated_json = translated_json.replace("$ ", "$")
+            new = new + "\n" + translated_json
+            songngu = songngu + "\n" + x + "\n" + translated_json
+
+            print(translated_json)
+            i = i+1
+            # new = new + "\n" + x2[0]  + translated_json
+            # else:
+            #     new = new + "\n" + x
+
             # translator.dectect(x)
             # translated_json = translateString(x, destLangCode)
             # print(translated_json)
@@ -96,8 +103,8 @@ for destLangCode in destLangCodeList:
         # with open(dest_filename, 'w', encoding="utf-8") as fout:
         #     json_dumps_str = json.dumps(translated_json, indent=4, ensure_ascii=False)
         #     fout.write(json_dumps_str)
-        print(new)
+        print(songngu)
         f = open("translated2.json", "w", encoding='utf-8')
-        f.write(new)
-        f.close()        
+        f.write(songngu)
+        f.close()
     print('done')
