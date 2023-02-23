@@ -1,8 +1,0 @@
-20221230 CH5 -3900 -15210000 0 3900 3900
-20221230 CH5 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230207 CH5 -3900 -15210000 0 3900 3900
-20230207 CH5 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230209 CH5 -3900 -15210000 0 3900 3900
-20230209 CH5 "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230213 CH5 -3900 -15210000 15210000  15210000
-20230213 CH5 "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"

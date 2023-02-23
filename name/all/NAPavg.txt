@@ -1,23 +1,4 @@
-20221229 NAP 1800 -989100 20900 100 100
-20221229 NAP 1900 20900 20900  1900
-20221229 NAP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230110 NAP -100 -919999.9999999999 0 100 100
-20230110 NAP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230111 NAP -100 -869999.9999999999 0 100 100
-20230111 NAP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230112 NAP -100 -810000 0 100 100
-20230112 NAP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230116 NAP -3000 -22200000 0 3000 3000
-20230116 NAP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230201 NAP -3000 -22200000 0 3000 3000
-20230201 NAP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230207 NAP -500 -3450000 0 500 500
-20230207 NAP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230208 NAP 100 690000 690000  100
-20230208 NAP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230210 NAP -100 -750000 0 100 100
-20230210 NAP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230220 NAP 100 820000 820000  100
-20230220 NAP 600 4920000 6560000 200 200
-20230220 NAP 800 6560000 6560000  700
-20230220 NAP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
+20230223 NAP 0 0 0  100
+20230223 NAP -200 -1800000 0 200 300
+20230223 NAP 400 4140000 5940000  600
+20230223 NAP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"

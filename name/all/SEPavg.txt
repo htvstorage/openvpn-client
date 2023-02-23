@@ -1,8 +1,0 @@
-20230131 SEP -700 -10640000 0 700 700
-20230131 SEP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230207 SEP -100 -1420000 0 100 100
-20230207 SEP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230209 SEP -100 -1420000 0 100 100
-20230209 SEP "acum_busd" "acum_busd_val" "acum_val_bu" "sd" "sum_vol"
-20230213 SEP -100 -1420000 1420000  1420000
-20230213 SEP "acum_busd" "acum_busd_val" "acum_val" "val_bu" "val_sd"
