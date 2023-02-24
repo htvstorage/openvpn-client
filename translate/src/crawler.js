@@ -145,7 +145,7 @@ function getTable(data) {
     let promise = new Promise(async resolve => {
         for (let url of extendURL) {
             // console.log(url)
-            while (stat.req - stat.res >= 200) {
+            while (stat.req - stat.res >= 5) {
                 await wait(20);
             }
 
@@ -252,7 +252,7 @@ function getTable(data) {
                 let uk = page.querySelector("span.uk.dpron-i");
                 let pronuk = uk != undefined ? uk.querySelector("span.pron.dpron") : ""
                 let us = page.querySelector("span.us.dpron-i");
-                let pronus = uk != undefined ? us.querySelector("span.pron.dpron") : ""
+                let pronus = us != undefined ? us.querySelector("span.pron.dpron") : ""
                 // console.table([{
                 //     title: title!= undefined ? innertext(title.innerHTML): "",
                 //     uk: uk != undefined ? innertext(uk.innerHTML).replaceAll("Your browser doesn't support HTML5 audio","") : "",
