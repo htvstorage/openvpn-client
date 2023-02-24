@@ -323,7 +323,8 @@ async function loadData(path, resolve, stat, filter) {
   let data30 = filterData.slice(0, 30);
   let sum = data30.reduce((a, b) => { return { dealVolume: (a.dealVolume + b.dealVolume), totalValue: (a.totalValue + b.totalValue) } }, { dealVolume: 0, totalValue: 0 })
   let avg = { symbol: symbol, avgValue: sum.totalValue / data30.length, avgVol: sum.dealVolume / data30.length };
-
+  avg.avgValue = Math.floor(avg.avgValue*100)/100
+  avg.avgVol = Math.floor(avg.avgVol*100)/100
 
   if (avg.avgValue < config.avgValue || avg.avgVol < config.avgVol) {
     stat.res++;
@@ -335,7 +336,7 @@ async function loadData(path, resolve, stat, filter) {
   filterData = filterData.reverse();
   let prices = filterData.map(e => e.priceClose);
 
-  let shortPeriods = [10, 100, 200];
+  let shortPeriods = [5, 10, 20, 50, 100, 200];
 
 
   let smaRet = shortPeriods.map(e => { return SMA.calculate({ period: e, values: prices }); });
@@ -350,11 +351,22 @@ async function loadData(path, resolve, stat, filter) {
   // }
 
   // console.table(filterData.slice(-10,-1));
-  avg.sma10 = smaRet[0].at(-1);
-  avg.sma100 = smaRet[1].at(-1);
-  avg.sma200 = smaRet[2].at(-1);
-  avg.sma200pct = (Math.floor((prices.at(-1) - smaRet[2].at(-1))/smaRet[2].at(-1)*100)*100/100);
-  avg.price = prices.at(-1);
+  avg.sma5 = Math.floor(smaRet[0].at(-1)*100)/100;
+  avg.sma10 = Math.floor(smaRet[1].at(-1)*100)/100;
+  avg.sma20 = Math.floor(smaRet[1].at(-1)*100)/100;
+  avg.sma50 = Math.floor(smaRet[3].at(-1)*100)/100;
+  avg.sma100 = Math.floor(smaRet[4].at(-1)*100)/100;
+  avg.sma200 = Math.floor(smaRet[5].at(-1)*100)/100;
+  avg.sma200pct = (Math.floor((prices.at(-1) - smaRet[5].at(-1)) / smaRet[5].at(-1) * 10000)  / 100);
+  avg.sma100pct = (Math.floor((prices.at(-1) - smaRet[4].at(-1)) / smaRet[4].at(-1) * 10000)  / 100);
+  avg.sma50pct = (Math.floor((prices.at(-1) - smaRet[3].at(-1)) / smaRet[3].at(-1) * 10000)  / 100);
+  avg.sma20pct = (Math.floor((prices.at(-1) - smaRet[3].at(-1)) / smaRet[2].at(-1) * 10000)  / 100);
+  avg.sma10pct = (Math.floor((prices.at(-1) - smaRet[1].at(-1)) / smaRet[1].at(-1) * 10000)  / 100);
+  avg.sma5pct = (Math.floor((prices.at(-1) - smaRet[0].at(-1)) / smaRet[0].at(-1) * 10000)  / 100);
+  avg.priceClose = Math.floor(prices.at(-1)*100)/100;
+  avg.priceLow = Math.floor(filterData.at(-1).priceLow*100)/100;
+  avg.priceHigh = Math.floor(filterData.at(-1).priceHigh*100)/100;
+  avg.priceOpen = Math.floor(filterData.at(-1).priceOpen*100)/100;
   // let pbe = filter[symbol];
   // if (pbe == undefined) {
   //   stat.res++;
@@ -366,7 +378,7 @@ async function loadData(path, resolve, stat, filter) {
 
 
 
-  avg = { ...avg}
+  avg = { ...avg }
   console.table([avg])
   summarySymbol[symbol] = avg;
 

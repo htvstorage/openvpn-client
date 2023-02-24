@@ -1,7 +1,7 @@
 for s in `cat symbols.txt`; do 
 echo $s; 
-for x in `ls agg/*/$s*csv`; do awk -F, 'BEGIN{val_sd=0;val_bu=0;}{val_sd += $30; val_bu += $29;}END{print substr(FILENAME,5,8)" "substr(FILENAME,14,3)" "$2" "$3" "$4" "val_bu" "val_sd }' $x; done |sort -nk1|egrep -v "20221207|20221208|20221209" > all/$s.txt
-for x in `ls agg/*/$s*csv`; do awk -F, '{print substr(FILENAME,5,8)" "substr(FILENAME,14,3)" "$2" "$3" "$4" "$29" "$30 }' $x; done |sort -nk1|egrep -v "20221207|20221208|20221209" > all/$s"avg".txt
+for x in `ls agg/*/$s*csv`; do awk -F, 'BEGIN{val_sd=0;val_bu=0;}{val_sd += $35; val_bu += $34;}END{print substr(FILENAME,5,8)" "substr(FILENAME,14,3)" "$2" "$3" "$6" "val_bu" "val_sd }' $x; done |sort -nk1|egrep -v "20221207|20221208|20221209" > all/$s.txt
+for x in `ls agg/*/$s*csv`; do awk -F, '{print substr(FILENAME,5,8)" "substr(FILENAME,14,3)" "$2" "$3" "$4" "$5" "$6 }' $x; done |sort -nk1|egrep -v "20221207|20221208|20221209" > all/$s"avg".txt
 done
 
 total=`cat symbols.txt |wc -l`;
@@ -9,7 +9,7 @@ count=0;
 for s in `cat symbols.txt`; do
 count=`bc <<< $count' +1'`
 echo $s" "$count"/"$total" "`bc <<< 'scale=4; '$count'*100/'$total`
-   tail -n 10 all/$s.txt > process/$s.txt
+   tail -n 15 all/$s.txt > process/$s.txt
 done
 
 
@@ -18,7 +18,7 @@ for s in `cat symbols.txt`; do
 done
 
 for s in `cat symbols.txt`; do 
-   awk 'BEGIN{sum = 0; sum_sd; sum_bu}{ sum += $4; sum_sd += $7; sum_bu += $6;}END{if(sum_sd == 0) sum_sd = 0.001; print $2" "sum" bu "sum_bu" sd "sum_sd" busd "(sum_bu/sum_sd)}' process/$s.txt
+   awk 'BEGIN{sum = 0; sum_sd; sum_bu; sum_val}{ sum += $4; sum_sd += $7; sum_bu += $6; sum_val+= $5}END{if(sum_sd == 0) sum_sd = 0.001; print $2" "sum" bu "sum_bu" sd "sum_sd" sum_val "sum_val" busd "(sum_bu/sum_sd)}' process/$s.txt
 done
 
 

@@ -15,6 +15,7 @@
     "google-translate-api": "^2.3.0",
     "googletrans": "^1.0.4",
     "http": "^0.0.1-security",
+    "innertext": "^1.0.3",
     "jsdom": "^21.1.0",
     "node-fetch": "^3.3.0"
   }

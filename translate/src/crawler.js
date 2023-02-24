@@ -9,20 +9,19 @@ const httpAgent = new http.Agent({ keepAlive: true });
 const httpsAgent = new https.Agent({ keepAlive: true });
 const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
 
-const fetchPlus = (url, options = {}, retries) => {
-    fetch(url, options)
-        .then(res => {
-            if (res.ok) {
-                console.log("==============", res)
-                return res;
-            }
-            if (retries > 0) {
-                return fetchPlus(url, options, retries - 1)
-            }
-            throw new Error(res.status)
-        })
-        .catch(error => console.error(error.message))
+const Console = require('node:console').Console;
+const Transform = require('node:stream').Transform;
+const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
+const log = new Console({ stdout: ts })
+const innertext = require('innertext');
+
+
+function getTable(data) {
+    log.table(data)
+    return (ts.read() || '').toString()
 }
+
+
 (async () => {
 
     var args = process.argv.slice(2);
@@ -79,7 +78,7 @@ const fetchPlus = (url, options = {}, retries) => {
 
         console.table(guideURL);
 
-        stat = { req: 0, res: 0, length: guideURL.length }
+        stat = { req: 0, res: 0, length: guideURL.length, start: Date.now() }
         promise = new Promise(async resolve => {
             for (let url of guideURL) {
                 // console.log(c)
@@ -105,7 +104,7 @@ const fetchPlus = (url, options = {}, retries) => {
                 a.then(res => res.text()).then(text => {
                     stat.res++;
                     let domtxt = text;
-                    console.log(stat, (Math.floor(stat.res * 10000 / stat.length) / 100) + "%")
+                    console.log(stat, (Math.floor(stat.res * 10000 / stat.length) / 100) + "%", " tps ", stat.res * 1000 / (Date.now() - stat.start))
                     const dom = new JSDOM(domtxt);
                     let hrefs = dom.window.document.querySelectorAll("a.tc-bd[title]");
                     for (let e of hrefs) {
@@ -126,20 +125,44 @@ const fetchPlus = (url, options = {}, retries) => {
 
         await promise;
     } else {
-        let buf = fs.readFileSync("extendURL.txt");
-        let urls = new String(buf).split("\n");
-        console.log(urls.at(-2));
-        console.log(urls.at(-1));
-        extendURL.push(...urls);
+        if (args.length == 0) {
+            return;
+        }
+        let urls = [];
+        for (let f of args) {
+            let buf = fs.readFileSync(f);
+            let urls = new String(buf).split("\n");
+            console.log(urls.at(-2));
+            console.log(urls.at(-1));
+            extendURL.push(...urls);
+        }
     }
 
-    stat = { req: 0, res: 0, length: extendURL.length }
+    stat = { req: 0, res: 0, length: extendURL.length, start: Date.now() }
+
+    let divTag = {};
+
     let promise = new Promise(async resolve => {
         for (let url of extendURL) {
-            console.log(url)
-            while (stat.req - stat.res >= 20) {
+            // console.log(url)
+            while (stat.req - stat.res >= 200) {
                 await wait(20);
             }
+
+            const fetchPlus = (url, options = {}, retries) => {
+                fetch(url, options)
+                    .then(res => {
+                        if (res.ok) {
+                            return res;
+                        }
+                        if (retries > 0) {
+                            return fetchPlus(url, options, retries - 1)
+                        }
+                        throw new Error(res.status)
+                    })
+                    .catch(error => console.error(error.message))
+            }
+
             let a = fetch(url, {
                 "headers": {
                     "accept": "application/json, text/plain, */*",
@@ -153,7 +176,8 @@ const fetchPlus = (url, options = {}, retries) => {
                 "body": null,
                 "method": "GET",
                 "mode": "cors",
-                agent
+                // agent,
+                timeout: 100
             });
             // AND (both classes)
 
@@ -175,41 +199,84 @@ const fetchPlus = (url, options = {}, retries) => {
             a.then(res => res.text()).then(text => {
                 stat.res++;
                 let domtxt = text;
-                console.log(stat, (Math.floor(stat.res * 10000 / stat.length) / 100) + "%")
+                if (stat.res % 10 == 0) {
+                    console.log(stat, (Math.floor(stat.res * 10000 / stat.length) / 100) + "%", " tps ", stat.res * 1000 / (Date.now() - stat.start), " ", Object.keys(divTag).length)
+                    fs.writeFileSync("./tag.txt", getTable(divTag), e => { });
+                }
                 const dom = new JSDOM(domtxt);
                 let document = dom.window.document;
-                let page = document.querySelector("div.page");
-                let dic = page.querySelectorAll("div.pr.dictionary")
-                for(let d of dic){
-                    let title = d.querySelector("div.di-title");
-                    let des = d.nextElementSibling;
-                    while(des != undefined){
-                        console.log(des.textContent)
-                        des = des.nextElementSibling;
+                if (document == null || document == undefined) {
+                    console.log("PRO:", url)
+                    // console.log(domtxt)
+                }
+                let page = document.querySelector("#page-content");
+                if (page == null || page == undefined) {
+                    console.log("PRO:", url)
+                    // console.log(domtxt)
+                }
+                // let dic = page.querySelectorAll("div.pr.dictionary")
+                // for (let d of dic) {
+                //     let title = d.querySelector("div.di-title");
+                //     let des = d.nextElementSibling;
+                //     while (des != undefined) {
+                //         // console.log(des.textContent)
+                //         des = des.nextElementSibling;
 
+                //     }
+                // }
+
+                let f = (n) => {
+                    var children = n.children;
+                    for (let c of children) {
+                        // console.log(c.tagName,c.getAttribute("class"));
+                        if (divTag[c.tagName + "." + c.getAttribute("class")] == undefined) {
+                            let t = c.innerHTML;
+                            t = innertext(t);
+                            while (t.includes("  ")) { t = t.replaceAll("  ", " "); }
+                            divTag[c.tagName + "." + c.getAttribute("class")] = t;
+                        }
+                        if (c.getAttribute("class") == null || c.getAttribute("class") == undefined) {
+                            // console.log(c);
+                        }
+                        f(c);
                     }
+                }
+                // f(page);
 
+                let title = page.querySelector("div.di-title");
+                if (title == null) {
+                    return;
+                    // console.log("abc ", url, innertext(page.innerHTML))
+                }
 
+                let uk = page.querySelector("span.uk.dpron-i");
+                let pronuk = uk != undefined ? uk.querySelector("span.pron.dpron") : ""
+                let us = page.querySelector("span.us.dpron-i");
+                let pronus = uk != undefined ? us.querySelector("span.pron.dpron") : ""
+                // console.table([{
+                //     title: title!= undefined ? innertext(title.innerHTML): "",
+                //     uk: uk != undefined ? innertext(uk.innerHTML).replaceAll("Your browser doesn't support HTML5 audio","") : "",
+                //     ukp: pronuk != undefined ? pronuk.textContent : "",
+                //     us: us != undefined ? innertext(us.innerHTML).replaceAll("Your browser doesn't support HTML5 audio","") : "",
+                //     usp: pronus != undefined ? pronus.textContent : "",
+                //     // url: url,
+                //     // page: page.innerHTML,
+
+                // }])
+
+                let ou = {
+                    title: title != undefined ? innertext(title.innerHTML) : "",
+                    uk: uk != undefined ? innertext(uk.innerHTML).replaceAll("Your browser doesn't support HTML5 audio", "") : "",
+                    ukp: pronuk != undefined ? pronuk.textContent : "",
+                    us: us != undefined ? innertext(us.innerHTML).replaceAll("Your browser doesn't support HTML5 audio", "") : "",
+                    usp: pronus != undefined ? pronus.textContent : "",
+                    // url: url,
+                    // page: page.innerHTML,
 
                 }
 
+                fs.appendFileSync(args[0] + ".dic", JSON.stringify(ou) + "\n", e => { });
 
-                let header = page.querySelector("div.di-title")
-                let header = page.querySelector("")
-                let header = page.querySelector("")
-                let header = page.querySelector("")
-                let header = page.querySelector("")
-                // console.log(url)
-                console.log(hrefs[0].textContent);
-
-                // for(let e of hrefs){
-                //     // console.log(e.getAttribute("href"));
-                //     extendURL.push("https://dictionary.cambridge.org"+e.getAttribute("href"));
-                //     fs.appendFileSync("extendURL.txt","https://dictionary.cambridge.org"+e.getAttribute("href")+"\n");
-                // }
-                // if (stat.res == stat.length) {
-                //     resolve(extendURL);
-                // }
 
             })
 
