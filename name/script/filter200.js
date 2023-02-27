@@ -12,6 +12,7 @@ import { Console } from 'node:console'
 import { Transform } from 'node:stream'
 import { e } from "mathjs";
 import xlsx from "xlsx"
+import stats from "stats-analysis";
 
 const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
 const log = new Console({ stdout: ts })
@@ -312,19 +313,24 @@ async function loadData(path, resolve, stat, filter) {
 
 
   let config = {
-    avgValue: 10000000000,
-    avgVol: 100000,
+    avgValue: 5000000000,
+    avgVol: 70000,
   }
 
   let symbol = data[0].symbol;
 
-
+  let days = [7, 15, 30, 100, 200, 365, 500];
 
   let data30 = filterData.slice(0, 30);
+
+  let data7 = filterData.slice(0, 7);
+  let datax = days.map(e => filterData.slice(0, e));
+
+
   let sum = data30.reduce((a, b) => { return { dealVolume: (a.dealVolume + b.dealVolume), totalValue: (a.totalValue + b.totalValue) } }, { dealVolume: 0, totalValue: 0 })
   let avg = { symbol: symbol, avgValue: sum.totalValue / data30.length, avgVol: sum.dealVolume / data30.length };
-  avg.avgValue = Math.floor(avg.avgValue*100)/100
-  avg.avgVol = Math.floor(avg.avgVol*100)/100
+  avg.avgValue = Math.floor(avg.avgValue * 100) / 100
+  avg.avgVol = Math.floor(avg.avgVol * 100) / 100
 
   if (avg.avgValue < config.avgValue || avg.avgVol < config.avgVol) {
     stat.res++;
@@ -336,7 +342,33 @@ async function loadData(path, resolve, stat, filter) {
   filterData = filterData.reverse();
   let prices = filterData.map(e => e.priceClose);
 
-  let shortPeriods = [5, 10, 20, 50, 100, 200];
+  // let hl7 = [...data7.map(e => e.priceHigh), ...data7.map(e => e.priceLow)];
+  // let c7 = data7.map(e => e.priceClose);
+  // let m = stats.mean(c7);
+  // let std = stats.stdev(c7);
+  // let m2 = stats.mean(hl7);
+  // let std2 = stats.stdev(hl7);
+  // let min = Math.min(...hl7);
+  // let max = Math.max(...hl7);
+
+  let hl = days.map((e, i) => { return [...datax[i].map(e => e.priceHigh), ...datax[i].map(e => e.priceLow)] })
+  let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
+  days.forEach((e, i) => {
+    avg["mean" + e] = Math.floor(stats.mean(c[i]) * 100) / 100;
+    avg["std" + e] = Math.floor(stats.stdev(c[i]) * 100) / 100;
+    avg["meanHL" + e] = Math.floor(stats.stdev(hl[i]) * 100) / 100;
+    avg["stdHL" + e] = Math.floor(stats.stdev(hl[i]) * 100) / 100;
+    let min = Math.min(...hl[i]);
+    let max = Math.max(...hl[i]);
+    avg["min" + e] = min;
+    avg["max" + e] = max;
+    avg["%MM" + e] = Math.floor((max - min) / max * 10000) / 100;
+    avg["%PriceMax" + e] = Math.floor((max - prices.at(-1)) / max * 10000) / 100;
+    avg["%PriceMin" + e] = Math.floor((prices.at(-1) - min) / max * 10000) / 100;
+  });
+
+
+  let shortPeriods = [5, 10, 20, 30, 50, 100, 200];
 
 
   let smaRet = shortPeriods.map(e => { return SMA.calculate({ period: e, values: prices }); });
@@ -351,22 +383,36 @@ async function loadData(path, resolve, stat, filter) {
   // }
 
   // console.table(filterData.slice(-10,-1));
-  avg.sma5 = Math.floor(smaRet[0].at(-1)*100)/100;
-  avg.sma10 = Math.floor(smaRet[1].at(-1)*100)/100;
-  avg.sma20 = Math.floor(smaRet[1].at(-1)*100)/100;
-  avg.sma50 = Math.floor(smaRet[3].at(-1)*100)/100;
-  avg.sma100 = Math.floor(smaRet[4].at(-1)*100)/100;
-  avg.sma200 = Math.floor(smaRet[5].at(-1)*100)/100;
-  avg.sma200pct = (Math.floor((prices.at(-1) - smaRet[5].at(-1)) / smaRet[5].at(-1) * 10000)  / 100);
-  avg.sma100pct = (Math.floor((prices.at(-1) - smaRet[4].at(-1)) / smaRet[4].at(-1) * 10000)  / 100);
-  avg.sma50pct = (Math.floor((prices.at(-1) - smaRet[3].at(-1)) / smaRet[3].at(-1) * 10000)  / 100);
-  avg.sma20pct = (Math.floor((prices.at(-1) - smaRet[3].at(-1)) / smaRet[2].at(-1) * 10000)  / 100);
-  avg.sma10pct = (Math.floor((prices.at(-1) - smaRet[1].at(-1)) / smaRet[1].at(-1) * 10000)  / 100);
-  avg.sma5pct = (Math.floor((prices.at(-1) - smaRet[0].at(-1)) / smaRet[0].at(-1) * 10000)  / 100);
-  avg.priceClose = Math.floor(prices.at(-1)*100)/100;
-  avg.priceLow = Math.floor(filterData.at(-1).priceLow*100)/100;
-  avg.priceHigh = Math.floor(filterData.at(-1).priceHigh*100)/100;
-  avg.priceOpen = Math.floor(filterData.at(-1).priceOpen*100)/100;
+  shortPeriods.forEach((e, i) => {
+    avg["sma" + e] = Math.floor(smaRet[i].at(-1) * 100) / 100;
+    avg["sma" + e + "%"] = (Math.floor((prices.at(-1) - smaRet[i].at(-1)) / smaRet[i].at(-1) * 10000) / 100);
+  })
+
+  // avg.sma5 = Math.floor(smaRet[0].at(-1) * 100) / 100;
+  // avg.sma10 = Math.floor(smaRet[1].at(-1) * 100) / 100;
+  // avg.sma20 = Math.floor(smaRet[1].at(-1) * 100) / 100;
+  // avg.sma50 = Math.floor(smaRet[3].at(-1) * 100) / 100;
+  // avg.sma100 = Math.floor(smaRet[4].at(-1) * 100) / 100;
+  // avg.sma200 = Math.floor(smaRet[5].at(-1) * 100) / 100;
+  // avg.sma200pct = (Math.floor((prices.at(-1) - smaRet[5].at(-1)) / smaRet[5].at(-1) * 10000) / 100);
+  // avg.sma100pct = (Math.floor((prices.at(-1) - smaRet[4].at(-1)) / smaRet[4].at(-1) * 10000) / 100);
+  // avg.sma50pct = (Math.floor((prices.at(-1) - smaRet[3].at(-1)) / smaRet[3].at(-1) * 10000) / 100);
+  // avg.sma20pct = (Math.floor((prices.at(-1) - smaRet[3].at(-1)) / smaRet[2].at(-1) * 10000) / 100);
+  // avg.sma10pct = (Math.floor((prices.at(-1) - smaRet[1].at(-1)) / smaRet[1].at(-1) * 10000) / 100);
+  // avg.sma5pct = (Math.floor((prices.at(-1) - smaRet[0].at(-1)) / smaRet[0].at(-1) * 10000) / 100);
+  avg.priceClose = Math.floor(prices.at(-1) * 100) / 100;
+  avg.priceLow = Math.floor(filterData.at(-1).priceLow * 100) / 100;
+  avg.priceHigh = Math.floor(filterData.at(-1).priceHigh * 100) / 100;
+  avg.priceOpen = Math.floor(filterData.at(-1).priceOpen * 100) / 100;
+  // avg.mean = Math.floor(m * 100) / 100;
+  // avg.meanhl = Math.floor(m2 * 100) / 100;
+  // avg.stdev = Math.floor(std * 100) / 100;
+  // avg.stdevhl = Math.floor(std2 * 100) / 100;
+  // avg.pct = Math.floor(std / m * 10000) / 100;
+  // avg.pcthl = Math.floor(std2 / m2 * 10000) / 100;
+  // avg.min = min;
+  // avg.max = max;
+  // avg.pctminmax = Math.floor((max - min) / max * 10000) / 100;
   // let pbe = filter[symbol];
   // if (pbe == undefined) {
   //   stat.res++;
