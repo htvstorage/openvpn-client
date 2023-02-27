@@ -152,8 +152,13 @@ nohup node  script/dumpdaily2.js stock=VCI >> dum.log 2>&1 < /dev/null &
 nohup node  script/dumpdaily2.js stock=VCBS >> dum.log 2>&1 < /dev/null &
 
 
+8 11 65 68
+70
+78
+83
+84
 
-
+grep "res: 1000" nohup.out |sort -k14|awk '{x=substr($16,length("split/extendURL.txt.")+2,2); a[x]=x}END{for(i=1;i<77;i++) if(a[i <10?"0"i:i] == "") print i}'
 
 while true; do node script/dumpdaily2.js stock=ssi; node script/muaban.js date=`date +"%Y%m%d"` ; ./top.sh; sleep 60; done >> dum.log 2>&1 < /dev/null &
 while true; do node script/quickdumpdaily.js; node script/muaban.js date=`date +"%Y%m%d"` ; cp agg/`date +"%Y%m%d"`/HPG_HOSE_table.log HPG.log; sleep 20; done >> dum.log 2>&1 < /dev/null &
