@@ -1,0 +1,940 @@
+{"title":"anti-Catholicism","uk":"uk / ˌæn.ti.kəˈθɒl.ɪ.sɪ.z ə m /","ukp":"/ˌæn.ti.kəˈθɒl.ɪ.sɪ.zəm/","us":"us  / ˌæn.taɪ.kəˈθɑː.lə.sɪ.z ə m /","usp":"/ˌæn.taɪ.kəˈθɑː.lə.sɪ.zəm/"}
+{"title":"anti-cellulite","uk":"uk  / ˌæn.tiˈsel.jə.laɪt /","ukp":"/ˌæn.tiˈsel.jə.laɪt/","us":"us  / ˌæn.taɪˈsel.jə.laɪt /","usp":"/ˌæn.taɪˈsel.jə.laɪt/"}
+{"title":"anti-choice","uk":"uk  / ˌæn.tiˈtʃɔɪs /","ukp":"/ˌæn.tiˈtʃɔɪs/","us":"us  / ˌæn.t̬iˈtʃɔɪs /","usp":"/ˌæn.t̬iˈtʃɔɪs/"}
+{"title":"anti-cholesterol","uk":"uk  / ˌæn.ti.kəˈles.t ə r.ɒl /","ukp":"/ˌæn.ti.kəˈles.tər.ɒl/","us":"us  / ˌæn.taɪ.kəˈles.tə.rɑːl /","usp":"/ˌæn.taɪ.kəˈles.tə.rɑːl/"}
+{"title":"anti-church","uk":"uk / ˌæn.tiˈtʃɜːtʃ /","ukp":"/ˌæn.tiˈtʃɜːtʃ/","us":"us  / ˌæn.taɪˈtʃɝːtʃ /","usp":"/ˌæn.taɪˈtʃɝːtʃ/"}
+{"title":"anti-Christian","uk":"uk  / ˌæn.tiˈkrɪs.tʃən /","ukp":"/ˌæn.tiˈkrɪs.tʃən/","us":"us  / ˌæn.taɪˈkrɪs.tʃən /","usp":"/ˌæn.taɪˈkrɪs.tʃən/"}
+{"title":"anti-censorship","uk":"uk  / ˌæn.tiˈsen.sə.ʃɪp /","ukp":"/ˌæn.tiˈsen.sə.ʃɪp/","us":"us  / ˌæn.taɪˈsen.sɚ.ʃɪp /","usp":"/ˌæn.taɪˈsen.sɚ.ʃɪp/"}
+{"title":"anti-Christianity","uk":"uk / ˌæn.tiˌkrɪs.tiˈæn.ə.ti /","ukp":"/ˌæn.tiˌkrɪs.tiˈæn.ə.ti/","us":"us / ˌæn.taɪˌkrɪs.tʃiˈæn.ə.t̬i /","usp":"/ˌæn.taɪˌkrɪs.tʃiˈæn.ə.t̬i/"}
+{"title":"anti-city","uk":"uk / ˌæn.tiˈsɪt.i /","ukp":"/ˌæn.tiˈsɪt.i/","us":"us  / ˌæn.taɪˈsɪt̬.i /","usp":"/ˌæn.taɪˈsɪt̬.i/"}
+{"title":"anti-clotting","uk":"uk / ˌæn.tiˈklɒt.ɪŋ /","ukp":"/ˌæn.tiˈklɒt.ɪŋ/","us":"us  / ˌæn.taɪˈklɑː.t̬ɪŋ /","usp":"/ˌæn.taɪˈklɑː.t̬ɪŋ/"}
+{"title":"anti-colonial","uk":"uk / ˌæn.ti.kəˈləʊ.ni.əl /","ukp":"/ˌæn.ti.kəˈləʊ.ni.əl/","us":"us  / ˌæn.taɪ.kəˈloʊ.ni.əl /","usp":"/ˌæn.taɪ.kəˈloʊ.ni.əl/"}
+{"title":"anti-classical","uk":"uk / ˌæn.tiˈklæs.ɪ.k ə l /","ukp":"/ˌæn.tiˈklæs.ɪ.kəl/","us":"us  / ˌæn.taɪˈklæs.ɪ.k ə l /","usp":"/ˌæn.taɪˈklæs.ɪ.kəl/"}
+{"title":"anti-collision","uk":"uk / ˌæn.ti.kəˈlɪʒ. ə n /","ukp":"/ˌæn.ti.kəˈlɪʒ.ən/","us":"us  / ˌæn.taɪ.kəˈlɪʒ. ə n /","usp":"/ˌæn.taɪ.kəˈlɪʒ.ən/"}
+{"title":"anti-colonialism","uk":"uk / ˌæn.ti.kəˈləʊ.ni.ə.lɪ.z ə m /","ukp":"/ˌæn.ti.kəˈləʊ.ni.ə.lɪ.zəm/","us":"us  / ˌæn.taɪ.kəˈloʊ.ni.ə.lɪ.z ə m /","usp":"/ˌæn.taɪ.kəˈloʊ.ni.ə.lɪ.zəm/"}
+{"title":"anti-colonialist","uk":"uk / ˌæn.ti.kəˈləʊ.ni.ə.lɪst /","ukp":"/ˌæn.ti.kəˈləʊ.ni.ə.lɪst/","us":"us  / ˌæn.taɪ.kəˈloʊ.ni.ə.lɪst /","usp":"/ˌæn.taɪ.kəˈloʊ.ni.ə.lɪst/"}
+{"title":"anti-commercial","uk":"uk / ˌæn.ti.kəˈmɜː.ʃ ə l /","ukp":"/ˌæn.ti.kəˈmɜː.ʃəl/","us":"us  / ˌæn.taɪ.kəˈmɝː.ʃ ə l /","usp":"/ˌæn.taɪ.kəˈmɝː.ʃəl/"}
+{"title":"anti-commercialism","uk":"uk / ˌæn.ti.kəˈmɜː.ʃ ə l.ɪ.z ə m /","ukp":"/ˌæn.ti.kəˈmɜː.ʃəl.ɪ.zəm/","us":"us  / ˌæn.taɪ.kəˈmɝː.ʃ ə l.ɪ.z ə m /","usp":"/ˌæn.taɪ.kəˈmɝː.ʃəl.ɪ.zəm/"}
+{"title":"anti-communism","uk":"uk / ˌæn.tiˈkɒm.jə.nɪ.z ə m /","ukp":"/ˌæn.tiˈkɒm.jə.nɪ.zəm/","us":"us  / ˌæn.taɪˈkɑː.mjə.nɪ.z ə m /","usp":"/ˌæn.taɪˈkɑː.mjə.nɪ.zəm/"}
+{"title":"anti-communist","uk":"uk / ˌæn.tiˈkɒm.jə.nɪst /","ukp":"/ˌæn.tiˈkɒm.jə.nɪst/","us":"us  / ˌæn.taɪˈkɑː.mjə.nɪst /","usp":"/ˌæn.taɪˈkɑː.mjə.nɪst/"}
+{"title":"anti-competitive","uk":"uk  / ˌæntikəmˈpetɪtɪv /","ukp":"/ˌæntikəmˈpetɪtɪv/","us":"us  / ˌæntaɪ- /","usp":"/ˌæntaɪ-/"}
+{"title":"anti-conservation","uk":"uk / ˌæn.tiˌkɒn.səˈveɪ.ʃ ə n /","ukp":"/ˌæn.tiˌkɒn.səˈveɪ.ʃən/","us":"us / ˌæn.taɪˌkɑːn.sɚˈveɪ.ʃ ə n /","usp":"/ˌæn.taɪˌkɑːn.sɚˈveɪ.ʃən/"}
+{"title":"anti-conglomerate","uk":"uk / ˌæn.ti.kənˈɡlɒm. ə r.ət /","ukp":"/ˌæn.ti.kənˈɡlɒm.ər.ət/","us":"us  / ˌæn.taɪ.kənˈɡlɑː.mɚ.ət /","usp":"/ˌæn.taɪ.kənˈɡlɑː.mɚ.ət/"}
+{"title":"anti-conservationist","uk":"uk / ˌæn.tiˌkɒn.səˈveɪ.ʃ ə n.ɪst /","ukp":"/ˌæn.tiˌkɒn.səˈveɪ.ʃən.ɪst/","us":"us / ˌæn.taɪˌkɑːn.sɚˈveɪ.ʃ ə n.ɪst /","usp":"/ˌæn.taɪˌkɑːn.sɚˈveɪ.ʃən.ɪst/"}
+{"title":"anti-consumer","uk":"uk / ˌæn.ti.kənˈsjuː.mə r /","ukp":"/ˌæn.ti.kənˈsjuː.mər/","us":"us  / ˌæn.taɪ.kənˈsuː.mɚ /","usp":"/ˌæn.taɪ.kənˈsuː.mɚ/"}
+{"title":"anti-consumerism","uk":"uk / ˌæn.ti.kənˈsjuː.mə.rɪ.z ə m /","ukp":"/ˌæn.ti.kənˈsjuː.mə.rɪ.zəm/","us":"us / ˌæn.taɪ.kənˈsuː.mɚ.ɪ.z ə m /","usp":"/ˌæn.taɪ.kənˈsuː.mɚ.ɪ.zəm/"}
+{"title":"anti-consumerist","uk":"uk  / ˌæn.ti.kənˈsjuː.mər.ɪst /","ukp":"/ˌæn.ti.kənˈsjuː.mər.ɪst/","us":"us  / ˌæn.t̬i.kənˈsuː.mɚ.ɪst /","usp":"/ˌæn.t̬i.kənˈsuː.mɚ.ɪst/"}
+{"title":"anti-conventional","uk":"uk / ˌæn.ti.kənˈven.ʃ ə n. ə l /","ukp":"/ˌæn.ti.kənˈven.ʃən.əl/","us":"us  / ˌæn.taɪ.kənˈven.ʃ ə n. ə l /","usp":"/ˌæn.taɪ.kənˈven.ʃən.əl/"}
+{"title":"anti-corporate","uk":"uk / ˌæn.tiˈkɔː.p ə r.ət /","ukp":"/ˌæn.tiˈkɔː.pər.ət/","us":"us  / ˌæn.taɪˈkɔːr.pɚ.ət /","usp":"/ˌæn.taɪˈkɔːr.pɚ.ət/"}
+{"title":"anti-corrosion","uk":"uk / ˌæn.ti.kəˈrəʊ.ʒ ə n /","ukp":"/ˌæn.ti.kəˈrəʊ.ʒən/","us":"us  / ˌæn.taɪ.kəˈroʊ.ʒ ə n /","usp":"/ˌæn.taɪ.kəˈroʊ.ʒən/"}
+{"title":"anti-corrosive","uk":"uk / ˌæn.ti.kəˈrəʊ.sɪv /","ukp":"/ˌæn.ti.kəˈrəʊ.sɪv/","us":"us  / ˌæn.taɪ.kəˈroʊ.sɪv /","usp":"/ˌæn.taɪ.kəˈroʊ.sɪv/"}
+{"title":"anti-corruption","uk":"uk / ˌæn.ti.kəˈrʌp.ʃ ə n /","ukp":"/ˌæn.ti.kəˈrʌp.ʃən/","us":"us  / ˌæn.taɪ.kəˈrʌp.ʃ ə n /","usp":"/ˌæn.taɪ.kəˈrʌp.ʃən/"}
+{"title":"anti-counterfeiting","uk":"uk / ˌæn.tiˈkaʊn.tə.fɪt.ɪŋ /","ukp":"/ˌæn.tiˈkaʊn.tə.fɪt.ɪŋ/","us":"us  / ˌæn.taɪˈkaʊn.t̬ɚ.fɪt.ɪŋ /","usp":"/ˌæn.taɪˈkaʊn.t̬ɚ.fɪt.ɪŋ/"}
+{"title":"anti-crack","uk":"uk / ˌæn.tiˈkræk /","ukp":"/ˌæn.tiˈkræk/","us":"us  / ˌæn.taɪˈkræk /","usp":"/ˌæn.taɪˈkræk/"}
+{"title":"anti-crime","uk":"uk / ˌæn.tiˈkraɪm /","ukp":"/ˌæn.tiˈkraɪm/","us":"us  / ˌæn.taɪˈkraɪm /","usp":"/ˌæn.taɪˈkraɪm/"}
+{"title":"anti-cult","uk":"uk / ˌæn.tiˈkʌlt /","ukp":"/ˌæn.tiˈkʌlt/","us":"us  / ˌæn.taɪˈkʌlt /","usp":"/ˌæn.taɪˈkʌlt/"}
+{"title":"anti-cruelty","uk":"uk / ˌæn.tiˈkruː.əl.ti /","ukp":"/ˌæn.tiˈkruː.əl.ti/","us":"us / ˌæn.taɪˈkruː.əl.ti /","usp":"/ˌæn.taɪˈkruː.əl.ti/"}
+{"title":"anti-creative","uk":"uk / ˌæn.ti.kriˈeɪ.tɪv /","ukp":"/ˌæn.ti.kriˈeɪ.tɪv/","us":"us  / ˌæn.taɪ.kriˈeɪ.t̬ɪv /","usp":"/ˌæn.taɪ.kriˈeɪ.t̬ɪv/"}
+{"title":"anti-dandruff","uk":"uk / ˌæn.tiˈdæn.drʌf /","ukp":"/ˌæn.tiˈdæn.drʌf/","us":"us  / ˌæn.taɪˈdæn.drəf /","usp":"/ˌæn.taɪˈdæn.drəf/"}
+{"title":"anti-cultural","uk":"uk / ˌæn.tiˈkʌl.tʃ ə r. ə l /","ukp":"/ˌæn.tiˈkʌl.tʃər.əl/","us":"us  / ˌæn.taɪˈkʌl.tʃɚ. ə l /","usp":"/ˌæn.taɪˈkʌl.tʃɚ.əl/"}
+{"title":"anti-Darwinian","uk":"uk / ˌæn.ti.dɑːˈwɪn.i.ən /","ukp":"/ˌæn.ti.dɑːˈwɪn.i.ən/","us":"us  / ˌæn.taɪ.dɑːrˈwɪn.i.ən /","usp":"/ˌæn.taɪ.dɑːrˈwɪn.i.ən/"}
+{"title":"anti-Darwinism","uk":"uk / ˌæn.tiˈdɑː.wɪn.ɪ.z ə m /","ukp":"/ˌæn.tiˈdɑː.wɪn.ɪ.zəm/","us":"us  / ˌæn.taɪˈdɑːr.wɪn.ɪ.z ə m /","usp":"/ˌæn.taɪˈdɑːr.wɪn.ɪ.zəm/"}
+{"title":"anti-defamation","uk":"uk / ˌæn.tiˌdef.əˈmeɪ.ʃ ə n /","ukp":"/ˌæn.tiˌdef.əˈmeɪ.ʃən/","us":"us / ˌæn.taɪˌdef.əˈmeɪ.ʃ ə n /","usp":"/ˌæn.taɪˌdef.əˈmeɪ.ʃən/"}
+{"title":"anti-depression","uk":"uk / ˌæn.ti.dɪˈpreʃ. ə n /","ukp":"/ˌæn.ti.dɪˈpreʃ.ən/","us":"us  / ˌæn.taɪ.dɪˈpreʃ. ə n /","usp":"/ˌæn.taɪ.dɪˈpreʃ.ən/"}
+{"title":"anti-diabetes","uk":"uk  / ˌæn.ti.daɪ.əˈbiː.tiːz /","ukp":"/ˌæn.ti.daɪ.əˈbiː.tiːz/","us":"us  / ˌæn.taɪ.daɪ.əˈbiː.t̬iːz /","usp":"/ˌæn.taɪ.daɪ.əˈbiː.t̬iːz/"}
+{"title":"anti-development","uk":"uk / ˌæn.ti.dɪˈvel.əp.mənt /","ukp":"/ˌæn.ti.dɪˈvel.əp.mənt/","us":"us  / ˌæn.taɪ.dɪˈvel.əp.mənt /","usp":"/ˌæn.taɪ.dɪˈvel.əp.mənt/"}
+{"title":"anti-diabetic","uk":"uk / ˌæn.tiˌdaɪ.əˈbet.ɪk /","ukp":"/ˌæn.tiˌdaɪ.əˈbet.ɪk/","us":"us / ˌæn.taɪˌdaɪ.əˈbet̬.ɪk /","usp":"/ˌæn.taɪˌdaɪ.əˈbet̬.ɪk/"}
+{"title":"anti-diarrhea","uk":"uk / ˌæn.ti.daɪ.əˈriː.ə /","ukp":"/ˌæn.ti.daɪ.əˈriː.ə/","us":"us / ˌæn.taɪ.daɪ.əˈriː.ə /","usp":"/ˌæn.taɪ.daɪ.əˈriː.ə/"}
+{"title":"anti-diarrhoea","uk":"uk / ˌæn.ti.daɪ.əˈriː.ə /","ukp":"/ˌæn.ti.daɪ.əˈriː.ə/","us":"us / ˌæn.taɪ.daɪ.əˈriː.ə /","usp":"/ˌæn.taɪ.daɪ.əˈriː.ə/"}
+{"title":"anti-diarrhoeal","uk":"uk  / ˌæn.ti.daɪ.əˈriː.əl /","ukp":"/ˌæn.ti.daɪ.əˈriː.əl/","us":"us  / ˌæn.taɪ.daɪ.əˈriː.əl /","usp":"/ˌæn.taɪ.daɪ.əˈriː.əl/"}
+{"title":"anti-dilution","uk":"uk / ˌæn.ti.daɪˈluː.ʃ ə n /","ukp":"/ˌæn.ti.daɪˈluː.ʃən/","us":"us / ˌæn.taɪ.dɪˈluː.ʃ ə n /","usp":"/ˌæn.taɪ.dɪˈluː.ʃən/"}
+{"title":"anti-discrimination","uk":"uk / ˌæn.ti.dɪ.skrɪm.ɪˈneɪ.ʃ ə n /","ukp":"/ˌæn.ti.dɪ.skrɪm.ɪˈneɪ.ʃən/","us":"us / ˌæn.t̬i.dɪˌskrɪm.əˈneɪ.ʃ ə n /","usp":"/ˌæn.t̬i.dɪˌskrɪm.əˈneɪ.ʃən/"}
+{"title":"anti-draft","uk":"uk / ˌæn.tiˈdrɑːft /","ukp":"/ˌæn.tiˈdrɑːft/","us":"us / ˌæn.t̬iˈdræft /","usp":"/ˌæn.t̬iˈdræft/"}
+{"title":"anti-dogmatic","uk":"uk / ˌæn.ti.dɒɡˈmæt.ɪk /","ukp":"/ˌæn.ti.dɒɡˈmæt.ɪk/","us":"us / ˌæn.t̬i.dɑːɡˈmæt̬.ɪk /","usp":"/ˌæn.t̬i.dɑːɡˈmæt̬.ɪk/"}
+{"title":"anti-economic","uk":"uk / ˌæn.ti.iː.kəˈnɒm.ɪk /","ukp":"/ˌæn.ti.iː.kəˈnɒm.ɪk/","us":"us / ˌæn.t̬i.iː.kəˈnɑː.mɪk /","usp":"/ˌæn.t̬i.iː.kəˈnɑː.mɪk/"}
+{"title":"anti-egalitarian","uk":"uk / ˌæn.ti.ɪ.ɡæl.ɪˈteə.ri.ən /","ukp":"/ˌæn.ti.ɪ.ɡæl.ɪˈteə.ri.ən/","us":"us / ˌæn.t̬i.ɪˌɡæl.ɪˈter.i.ən /","usp":"/ˌæn.t̬i.ɪˌɡæl.ɪˈter.i.ən/"}
+{"title":"anti-elite","uk":"uk / ˌæn.ti.ɪˈliːt /","ukp":"/ˌæn.ti.ɪˈliːt/","us":"us / ˌæn.t̬i.ɪˈliːt /","usp":"/ˌæn.t̬i.ɪˈliːt/"}
+{"title":"anti-dumping","uk":"uk  / ˌæn.tiˈdʌm.pɪŋ /","ukp":"/ˌæn.tiˈdʌm.pɪŋ/","us":"us  / ˌæn.taɪˈdʌm.pɪŋ /","usp":"/ˌæn.taɪˈdʌm.pɪŋ/"}
+{"title":"anti-elitist","uk":"uk / ˌæn.ti.ɪˈliː.tɪst /","ukp":"/ˌæn.ti.ɪˈliː.tɪst/","us":"us / ˌæn.t̬i.ɪˈliː.t̬ɪst /","usp":"/ˌæn.t̬i.ɪˈliː.t̬ɪst/"}
+{"title":"anti-elitism","uk":"uk / ˌæn.ti.ɪˈliː.tɪ.z ə m /","ukp":"/ˌæn.ti.ɪˈliː.tɪ.zəm/","us":"us / ˌæn.t̬i.ɪˈliː.tɪ.z ə m /","usp":"/ˌæn.t̬i.ɪˈliː.tɪ.zəm/"}
+{"title":"anti-emetic","uk":"uk / ˌæn.ti.ɪˈmet.ɪk /","ukp":"/ˌæn.ti.ɪˈmet.ɪk/","us":"us / ˌæn.taɪ.ɪˈmet̬.ɪk /","usp":"/ˌæn.taɪ.ɪˈmet̬.ɪk/"}
+{"title":"anti-environmental","uk":"uk / ˌæn.ti.ɪnˌvaɪ.r ə nˈmen.t ə l /","ukp":"/ˌæn.ti.ɪnˌvaɪ.rənˈmen.təl/","us":"us / ˌæn.t̬i.ɪnˌvaɪ.r ə nˈmen.t̬ ə l /","usp":"/ˌæn.t̬i.ɪnˌvaɪ.rənˈmen.t̬əl/"}
+{"title":"anti-English","uk":"uk / ˌæn.tiˈɪŋ.ɡlɪʃ /","ukp":"/ˌæn.tiˈɪŋ.ɡlɪʃ/","us":"us / ˌæn.t̬iˈɪŋ.ɡlɪʃ /","usp":"/ˌæn.t̬iˈɪŋ.ɡlɪʃ/"}
+{"title":"anti-epileptic","uk":"uk / ˌæn.tiˌep.ɪˈlep.tɪk /","ukp":"/ˌæn.tiˌep.ɪˈlep.tɪk/","us":"us / ˌæn.t̬iˌep.əˈlep.tɪk /","usp":"/ˌæn.t̬iˌep.əˈlep.tɪk/"}
+{"title":"anti-epilepsy","uk":"uk / ˌæn.tiˈep.ɪ.lep.si /","ukp":"/ˌæn.tiˈep.ɪ.lep.si/","us":"us / ˌæn.t̬iˈep.ə.lep.si /","usp":"/ˌæn.t̬iˈep.ə.lep.si/"}
+{"title":"anti-erotic","uk":"uk / ˌæn.ti.ɪˈrɒt.ɪk /","ukp":"/ˌæn.ti.ɪˈrɒt.ɪk/","us":"us / ˌæn.t̬i.ɪˈrɑː.t̬ɪk /","usp":"/ˌæn.t̬i.ɪˈrɑː.t̬ɪk/"}
+{"title":"anti-estrogen","uk":"uk / ˌæn.tiˈiː.strə.dʒ ə n /","ukp":"/ˌæn.tiˈiː.strə.dʒən/","us":"us / ˌæn.t̬iˈes.trə.dʒ ə n /","usp":"/ˌæn.t̬iˈes.trə.dʒən/"}
+{"title":"anti-establishment","uk":"uk / ˌæn.ti.ɪˈstæb.lɪʃ.mənt /","ukp":"/ˌæn.ti.ɪˈstæb.lɪʃ.mənt/","us":"us / ˌæn.t̬i.ɪˈstæb.lɪʃ.mənt /","usp":"/ˌæn.t̬i.ɪˈstæb.lɪʃ.mənt/"}
+{"title":"anti-inflammation","uk":"uk / ˌæn.tiˌɪn.fləˈmeɪ.ʃ ə n /","ukp":"/ˌæn.tiˌɪn.fləˈmeɪ.ʃən/","us":"us / ˌæn.t̬iˌɪn.fləˈmeɪ.ʃ ə n /","usp":"/ˌæn.t̬iˌɪn.fləˈmeɪ.ʃən/"}
+{"title":"anti-inflation","uk":"uk / ˌæn.ti.ɪnˈfleɪ.ʃ ə n /","ukp":"/ˌæn.ti.ɪnˈfleɪ.ʃən/","us":"us / ˌæn.t̬i.ɪnˈfleɪ.ʃ ə n /","usp":"/ˌæn.t̬i.ɪnˈfleɪ.ʃən/"}
+{"title":"anti-evolution","uk":"uk / ˌæn.tiˌiː.vəˈluː.ʃ ə n /","ukp":"/ˌæn.tiˌiː.vəˈluː.ʃən/","us":"us / ˌæn.t̬iˌev.əˈluː.ʃ ə n /","usp":"/ˌæn.t̬iˌev.əˈluː.ʃən/"}
+{"title":"anti-inflammatory","uk":"uk  / ˌæn.ti.ɪnˈflæm.ə.t ə r.i /","ukp":"/ˌæn.ti.ɪnˈflæm.ə.tər.i/","us":"us  / ˌæn.t̬i.ɪnˈflæm.ə.tɔːr.i /","usp":"/ˌæn.t̬i.ɪnˈflæm.ə.tɔːr.i/"}
+{"title":"anti-institutional","uk":"uk / ˌæn.tiˌɪn.stɪˈtʃuː.ʃ ə n. ə l /","ukp":"/ˌæn.tiˌɪn.stɪˈtʃuː.ʃən.əl/","us":"us / ˌæn.t̬iˌɪn.stəˈtuː.ʃ ə n. ə l /","usp":"/ˌæn.t̬iˌɪn.stəˈtuː.ʃən.əl/"}
+{"title":"anti-inflationary","uk":"uk / ˌæn.ti.ɪnˈfleɪ.ʃ ə n. ə r.i /","ukp":"/ˌæn.ti.ɪnˈfleɪ.ʃən.ər.i/","us":"us / ˌæn.t̬i.ɪnˈfleɪ.ʃ ə n.er.i /","usp":"/ˌæn.t̬i.ɪnˈfleɪ.ʃən.er.i/"}
+{"title":"anti-kickback","uk":"uk / ˌæn.tiˈkɪk.bæk /","ukp":"/ˌæn.tiˈkɪk.bæk/","us":"us / ˌæn.t̬iˈkɪk.bæk /","usp":"/ˌæn.t̬iˈkɪk.bæk/"}
+{"title":"anti-jamming","uk":"uk / ˌæn.tiˈdʒæm.ɪŋ /","ukp":"/ˌæn.tiˈdʒæm.ɪŋ/","us":"us / ˌæn.t̬iˈdʒæm.ɪŋ /","usp":"/ˌæn.t̬iˈdʒæm.ɪŋ/"}
+{"title":"anti-labour","uk":"uk / ˌæn.tiˈleɪ.bə r /","ukp":"/ˌæn.tiˈleɪ.bər/","us":"us / ˌæn.t̬iˈleɪ.bɚ /","usp":"/ˌæn.t̬iˈleɪ.bɚ/"}
+{"title":"anti-labor","uk":"uk / ˌæn.tiˈleɪ.bə r /","ukp":"/ˌæn.tiˈleɪ.bər/","us":"us / ˌæn.t̬iˈleɪ.bɚ /","usp":"/ˌæn.t̬iˈleɪ.bɚ/"}
+{"title":"anti-leprosy","uk":"uk / ˌæn.tiˈlep.rə.si /","ukp":"/ˌæn.tiˈlep.rə.si/","us":"us / ˌæn.t̬iˈlep.rə.si /","usp":"/ˌæn.t̬iˈlep.rə.si/"}
+{"title":"anti-liberal","uk":"uk / ˌæn.tiˈlɪb. ə r. ə l /","ukp":"/ˌæn.tiˈlɪb.ər.əl/","us":"us / ˌæn.t̬iˈlɪb. ə r. ə l /","usp":"/ˌæn.t̬iˈlɪb.ər.əl/"}
+{"title":"anti-liberalism","uk":"uk / ˌæn.tiˈlɪb. ə r. ə l.ɪ.z ə m /","ukp":"/ˌæn.tiˈlɪb.ər.əl.ɪ.zəm/","us":"us / ˌæn.t̬iˈlɪb. ə r. ə l.ɪ.z ə m /","usp":"/ˌæn.t̬iˈlɪb.ər.əl.ɪ.zəm/"}
+{"title":"anti-libertarian","uk":"uk / ˌæn.tiˌlɪb.əˈteə.ri.ən /","ukp":"/ˌæn.tiˌlɪb.əˈteə.ri.ən/","us":"us / ˌæn.t̬iˌlɪb.ɚˈter.i.ən /","usp":"/ˌæn.t̬iˌlɪb.ɚˈter.i.ən/"}
+{"title":"anti-life","uk":"uk  / ˌæn.tiˈlaɪf /","ukp":"/ˌæn.tiˈlaɪf/","us":"us  / ˌæn.t̬iˈlaɪf /","usp":"/ˌæn.t̬iˈlaɪf/"}
+{"title":"anti-literary","uk":"uk / ˌæn.ti.ˈlɪt. ə r. ə r.i /","ukp":"/ˌæn.ti.ˈlɪt.ər.ər.i/","us":"us / ˌæn.t̬iˈlɪt̬.ə.rer.i /","usp":"/ˌæn.t̬iˈlɪt̬.ə.rer.i/"}
+{"title":"anti-litter","uk":"uk / ˌæn.tiˈlɪt.ə r /","ukp":"/ˌæn.tiˈlɪt.ər/","us":"us / ˌæn.t̬iˈlɪt̬.ɚ /","usp":"/ˌæn.t̬iˈlɪt̬.ɚ/"}
+{"title":"anti-littering","uk":"uk / ˌæn.tiˈlɪt.ər.ɪŋ /","ukp":"/ˌæn.tiˈlɪt.ər.ɪŋ/","us":"us / ˌæn.t̬iˈlɪt̬.ɚ.ɪŋ /","usp":"/ˌæn.t̬iˈlɪt̬.ɚ.ɪŋ/"}
+{"title":"anti-lock","uk":"uk  / ˌæn.tiˈlɒk /","ukp":"/ˌæn.tiˈlɒk/","us":"us  / ˌæn.t̬iˈlɑːk /","usp":"/ˌæn.t̬iˈlɑːk/"}
+{"title":"anti-malaria","uk":"uk / ˌæn.ti.məˈleə.ri.ə /","ukp":"/ˌæn.ti.məˈleə.ri.ə/","us":"us / ˌæn.t̬i.məˈler.i.ə /","usp":"/ˌæn.t̬i.məˈler.i.ə/"}
+{"title":"anti-malarial","uk":"uk  / ˌæn.ti.məˈleə.ri.əl /","ukp":"/ˌæn.ti.məˈleə.ri.əl/","us":"us  / ˌæn.taɪ.məˈler.i.əl /","usp":"/ˌæn.taɪ.məˈler.i.əl/"}
+{"title":"anti-marijuana","uk":"uk / ˌæn.tiˌmær.əˈwɑː.nə /","ukp":"/ˌæn.tiˌmær.əˈwɑː.nə/","us":"us / ˌæn.t̬iˌmer.əˈwɑː.nə /","usp":"/ˌæn.t̬iˌmer.əˈwɑː.nə/"}
+{"title":"anti-management","uk":"uk / ˌæn.tiˈmæn.ɪdʒ.mənt /","ukp":"/ˌæn.tiˈmæn.ɪdʒ.mənt/","us":"us / ˌæn.t̬iˈmæn.ədʒ.mənt /","usp":"/ˌæn.t̬iˈmæn.ədʒ.mənt/"}
+{"title":"anti-market","uk":"uk / ˌæn.tiˈmɑː.kɪt /","ukp":"/ˌæn.tiˈmɑː.kɪt/","us":"us / ˌæn.t̬iˈmɑːr.kɪt /","usp":"/ˌæn.t̬iˈmɑːr.kɪt/"}
+{"title":"anti-materialism","uk":"uk / ˌæn.ti.məˈtɪə.ri.ə.lɪ.z ə m /","ukp":"/ˌæn.ti.məˈtɪə.ri.ə.lɪ.zəm/","us":"us / ˌæn.t̬i.məˈtɪr.i.ə.lɪ.z ə m /","usp":"/ˌæn.t̬i.məˈtɪr.i.ə.lɪ.zəm/"}
+{"title":"anti-materialist","uk":"uk / ˌæn.ti.məˈtɪə.ri.ə.lɪst /","ukp":"/ˌæn.ti.məˈtɪə.ri.ə.lɪst/","us":"us / ˌæn.t̬i.məˈtɪr.i.ə.lɪst /","usp":"/ˌæn.t̬i.məˈtɪr.i.ə.lɪst/"}
+{"title":"anti-metaphysical","uk":"uk / ˌæn.tiˌmet.əˈfɪz.ɪ.k ə l /","ukp":"/ˌæn.tiˌmet.əˈfɪz.ɪ.kəl/","us":"us / ˌæn.t̬iˌmet̬.əˈfɪz.ɪ.k ə l /","usp":"/ˌæn.t̬iˌmet̬.əˈfɪz.ɪ.kəl/"}
+{"title":"anti-merger","uk":"uk / ˌæn.tiˈmɜː.dʒə r /","ukp":"/ˌæn.tiˈmɜː.dʒər/","us":"us / ˌæn.t̬iˈmɝː.dʒɚ /","usp":"/ˌæn.t̬iˈmɝː.dʒɚ/"}
+{"title":"anti-militarism","uk":"uk / ˌæn.tiˈmɪl.ɪ.t ə r.ɪ.z ə m /","ukp":"/ˌæn.tiˈmɪl.ɪ.tər.ɪ.zəm/","us":"us / ˌæn.t̬iˈmɪl.ə.tɚ.ɪ.z ə m /","usp":"/ˌæn.t̬iˈmɪl.ə.tɚ.ɪ.zəm/"}
+{"title":"anti-militaristic","uk":"uk / ˌæn.tiˌmɪl.ɪ.t ə rˈɪs.tɪk /","ukp":"/ˌæn.tiˌmɪl.ɪ.tərˈɪs.tɪk/","us":"us / ˌæn.t̬iˌmɪl.ə.tɚˈɪs.tɪk /","usp":"/ˌæn.t̬iˌmɪl.ə.tɚˈɪs.tɪk/"}
+{"title":"anti-militarist","uk":"uk / ˌæn.tiˈmɪl.ɪ.t ə r.ɪst /","ukp":"/ˌæn.tiˈmɪl.ɪ.tər.ɪst/","us":"us / ˌæn.t̬iˈmɪl.ə.tɚ.ɪst /","usp":"/ˌæn.t̬iˈmɪl.ə.tɚ.ɪst/"}
+{"title":"anti-military","uk":"uk / ˌæn.tiˈmɪl.ɪ.t ə r.i /","ukp":"/ˌæn.tiˈmɪl.ɪ.tər.i/","us":"us / ˌæn.t̬iˈmɪl.ə.ter.i /","usp":"/ˌæn.t̬iˈmɪl.ə.ter.i/"}
+{"title":"anti-missile","uk":"uk / ˌæn.tiˈmɪs.aɪl /","ukp":"/ˌæn.tiˈmɪs.aɪl/","us":"us / ˌæn.t̬iˈmɪs.əl /","usp":"/ˌæn.t̬iˈmɪs.əl/"}
+{"title":"anti-mine","uk":"uk / ˌæn.tiˈmaɪn /","ukp":"/ˌæn.tiˈmaɪn/","us":"us / ˌæn.t̬iˈmaɪn /","usp":"/ˌæn.t̬iˈmaɪn/"}
+{"title":"anti-modern","uk":"uk / ˌæn.tiˈmɒd. ə n /","ukp":"/ˌæn.tiˈmɒd.ən/","us":"us / ˌæn.t̬iˈmɑː.dɚn /","usp":"/ˌæn.t̬iˈmɑː.dɚn/"}
+{"title":"anti-modernism","uk":"uk / ˌæn.tiˈmɒd. ə n.ɪ.z ə m /","ukp":"/ˌæn.tiˈmɒd.ən.ɪ.zəm/","us":"us / ˌæn.t̬iˈmɑː.dɚn.ɪ.z ə m /","usp":"/ˌæn.t̬iˈmɑː.dɚn.ɪ.zəm/"}
+{"title":"anti-modernist","uk":"uk / ˌæn.tiˈmɒd. ə n.ɪst /","ukp":"/ˌæn.tiˈmɒd.ən.ɪst/","us":"us / ˌæn.t̬iˈmɑː.dɚn.ɪst /","usp":"/ˌæn.t̬iˈmɑː.dɚn.ɪst/"}
+{"title":"anti-monarchical","uk":"uk / ˌæn.ti.məˈnɑː.kɪ.k ə l /","ukp":"/ˌæn.ti.məˈnɑː.kɪ.kəl/","us":"us / ˌæn.t̬i.məˈnɑːr.kɪ.k ə l /","usp":"/ˌæn.t̬i.məˈnɑːr.kɪ.kəl/"}
+{"title":"anti-monarchist","uk":"uk / ˌæn.tiˈmɒn.ə.kɪst /","ukp":"/ˌæn.tiˈmɒn.ə.kɪst/","us":"us / ˌæn.t̬iˈmɑː.nɚ.kɪst /","usp":"/ˌæn.t̬iˈmɑː.nɚ.kɪst/"}
+{"title":"anti-monopoly","uk":"uk / ˌæn.ti.məˈnɒp. ə l.i /","ukp":"/ˌæn.ti.məˈnɒp.əl.i/","us":"us / ˌæn.t̬i.məˈnɑː.p ə l.i /","usp":"/ˌæn.t̬i.məˈnɑː.pəl.i/"}
+{"title":"anti-mosquito","uk":"uk / ˌæn.ti.məˈskiː.təʊ /","ukp":"/ˌæn.ti.məˈskiː.təʊ/","us":"us / ˌæn.t̬i.məˈskiː.t̬oʊ /","usp":"/ˌæn.t̬i.məˈskiː.t̬oʊ/"}
+{"title":"anti-narcotics","uk":"uk / ˌæn.ti.nɑːˈkɒt.ɪks /","ukp":"/ˌæn.ti.nɑːˈkɒt.ɪks/","us":"us / ˌæn.t̬i.nɑːrˈkɑːt̬.ɪks /","usp":"/ˌæn.t̬i.nɑːrˈkɑːt̬.ɪks/"}
+{"title":"anti-musical","uk":"uk / ˌæn.tiˈmjuː.zɪ.k ə l /","ukp":"/ˌæn.tiˈmjuː.zɪ.kəl/","us":"us / ˌæn.t̬iˈmjuː.zɪ.k ə l /","usp":"/ˌæn.t̬iˈmjuː.zɪ.kəl/"}
+{"title":"anti-narrative","uk":"uk / ˈæn.tiˌnær.ə.tɪv /","ukp":"/ˈæn.tiˌnær.ə.tɪv/","us":"us / ˌæn.t̬iˈner.ə.t̬ɪv /","usp":"/ˌæn.t̬iˈner.ə.t̬ɪv/"}
+{"title":"anti-national","uk":"uk / ˌæn.tiˈnæʃ. ə n. ə l /","ukp":"/ˌæn.tiˈnæʃ.ən.əl/","us":"us / ˌæn.t̬iˈnæʃ. ə n. ə l /","usp":"/ˌæn.t̬iˈnæʃ.ən.əl/"}
+{"title":"anti-nationalist","uk":"uk / ˌæn.tiˈnæʃ. ə n. ə l.ɪst /","ukp":"/ˌæn.tiˈnæʃ.ən.əl.ɪst/","us":"us / ˌæn.t̬iˈnæʃ. ə n. ə l.ɪst /","usp":"/ˌæn.t̬iˈnæʃ.ən.əl.ɪst/"}
+{"title":"anti-nausea","uk":"uk / ˌæn.tiˈnɔː.si.ə /","ukp":"/ˌæn.tiˈnɔː.si.ə/","us":"us / ˌæn.t̬iˈnɑː.zi.ə /","usp":"/ˌæn.t̬iˈnɑː.zi.ə/"}
+{"title":"anti-natural","uk":"uk / ˌæn.tiˈnætʃ. ə r. ə l /","ukp":"/ˌæn.tiˈnætʃ.ər.əl/","us":"us / ˌæn.t̬iˈnætʃ.ɚ.əl /","usp":"/ˌæn.t̬iˈnætʃ.ɚ.əl/"}
+{"title":"anti-nepotism","uk":"uk / ˌæn.tiˈnep.ə.tɪ.z ə m /","ukp":"/ˌæn.tiˈnep.ə.tɪ.zəm/","us":"us / ˌæn.t̬iˈnep.ə.tɪ.z ə m /","usp":"/ˌæn.t̬iˈnep.ə.tɪ.zəm/"}
+{"title":"anti-nuclear","uk":"uk  / ˌæn.tiˈnjuː.klɪə r /","ukp":"/ˌæn.tiˈnjuː.klɪər/","us":"us  / ˌæn.t̬iˈnuː.klɪr /","usp":"/ˌæn.t̬iˈnuː.klɪr/"}
+{"title":"anti-noise","uk":"uk  / ˈæn.ti.nɔɪz /","ukp":"/ˈæn.ti.nɔɪz/","us":"us  / ˈæn.t̬i.nɔɪz /","usp":"/ˈæn.t̬i.nɔɪz/"}
+{"title":"anti-evolutionary","uk":"uk / ˌæn.tiˌiː.vəˈluː.ʃ ə n. ə r.i /","ukp":"/ˌæn.tiˌiː.vəˈluː.ʃən.ər.i/","us":"us / ˌæn.t̬iˌev.əˈluː.ʃ ə n.er.i /","usp":"/ˌæn.t̬iˌev.əˈluː.ʃən.er.i/"}
+{"title":"anti-evolutionism","uk":"uk / ˌæn.tiˌiː.vəˈluːʃ ə n.ɪ.z ə m /","ukp":"/ˌæn.tiˌiː.vəˈluːʃən.ɪ.zəm/","us":"us / ˌæn.taɪˌev.əˈluː.ʃ ə n.ɪ.z ə m /","usp":"/ˌæn.taɪˌev.əˈluː.ʃən.ɪ.zəm/"}
+{"title":"anti-evolutionist","uk":"uk / ˌæn.tiˌiː.vəˈluːʃ ə n.ɪst /","ukp":"/ˌæn.tiˌiː.vəˈluːʃən.ɪst/","us":"us / ˌæn.taɪˌev.əˈluː.ʃ ə n.ɪst /","usp":"/ˌæn.taɪˌev.əˈluː.ʃən.ɪst/"}
+{"title":"anti-family","uk":"uk / ˌæn.tiˈfæm. ə l.i /","ukp":"/ˌæn.tiˈfæm.əl.i/","us":"us / ˌæn.t̬iˈfæm. ə l.i /","usp":"/ˌæn.t̬iˈfæm.əl.i/"}
+{"title":"anti-fashion","uk":"uk / ˌæn.tiˈfæʃ. ə n /","ukp":"/ˌæn.tiˈfæʃ.ən/","us":"us / ˌæn.t̬iˈfæʃ. ə n /","usp":"/ˌæn.t̬iˈfæʃ.ən/"}
+{"title":"anti-fascism","uk":"uk / ˌæn.tiˈfæʃ.ɪ.z ə m /","ukp":"/ˌæn.tiˈfæʃ.ɪ.zəm/","us":"us / ˌæn.t̬iˈfæʃ.ɪ.z ə m /","usp":"/ˌæn.t̬iˈfæʃ.ɪ.zəm/"}
+{"title":"anti-fatigue","uk":"uk / ˌæn.ti.fəˈtiːɡ /","ukp":"/ˌæn.ti.fəˈtiːɡ/","us":"us / ˌæn.t̬i.fəˈtiːɡ /","usp":"/ˌæn.t̬i.fəˈtiːɡ/"}
+{"title":"anti-fascist","uk":"uk  / ˌæn.tiˈfæʃ.ɪst /","ukp":"/ˌæn.tiˈfæʃ.ɪst/","us":"us  / ˌæn.t̬iˈfæʃ.ɪst /","usp":"/ˌæn.t̬iˈfæʃ.ɪst/"}
+{"title":"anti-federal","uk":"uk  / ˌæn.tiˈfed. ə r. ə l /","ukp":"/ˌæn.tiˈfed.ər.əl/","us":"us  / ˌæn.t̬iˈfed.ɚ. ə l /","usp":"/ˌæn.t̬iˈfed.ɚ.əl/"}
+{"title":"anti-federalist","uk":"uk  / ˌæn.tiˈfed. ə r. ə l.ist /","ukp":"/ˌæn.tiˈfed.ər.əl.ist/","us":"us  / ˌæn.t̬iˈfed.ɚ. ə l.ist /","usp":"/ˌæn.t̬iˈfed.ɚ.əl.ist/"}
+{"title":"anti-feminism","uk":"uk / ˌæn.tiˈfem.ɪ.nɪ.z ə m /","ukp":"/ˌæn.tiˈfem.ɪ.nɪ.zəm/","us":"us / ˌæn.t̬iˈfem.ə.nɪ.z ə m /","usp":"/ˌæn.t̬iˈfem.ə.nɪ.zəm/"}
+{"title":"anti-feminist","uk":"uk / ˌæn.tiˈfem.ɪ.nɪst /","ukp":"/ˌæn.tiˈfem.ɪ.nɪst/","us":"us / ˌæn.t̬iˈfem.ə.nɪst /","usp":"/ˌæn.t̬iˈfem.ə.nɪst/"}
+{"title":"anti-football","uk":"uk  / ˈæn.tiˌfʊt.bɔːl /","ukp":"/ˈæn.tiˌfʊt.bɔːl/","us":"us  / ˈæn.t̬iˌfʊt.bɑːl /","usp":"/ˈæn.t̬iˌfʊt.bɑːl/"}
+{"title":"anti-flu","uk":"uk / ˌæn.tiˈfluː /","ukp":"/ˌæn.tiˈfluː/","us":"us / ˌæn.t̬iˈfluː /","usp":"/ˌæn.t̬iˈfluː/"}
+{"title":"anti-foreigner","uk":"uk / ˌæn.tiˈfɒr.ə.nə r /","ukp":"/ˌæn.tiˈfɒr.ə.nər/","us":"us / ˌæn.t̬iˈfɔːr.ə.nɚ /","usp":"/ˌæn.t̬iˈfɔːr.ə.nɚ/"}
+{"title":"anti-foreign","uk":"uk / ˌæn.tiˈfɒr.ən /","ukp":"/ˌæn.tiˈfɒr.ən/","us":"us / ˌæn.t̬iˈfɔːr.ən /","usp":"/ˌæn.t̬iˈfɔːr.ən/"}
+{"title":"anti-gambling","uk":"uk / ˌæn.tiˈɡæm.blɪŋ /","ukp":"/ˌæn.tiˈɡæm.blɪŋ/","us":"us / ˌæn.t̬iˈɡæm.blɪŋ /","usp":"/ˌæn.t̬iˈɡæm.blɪŋ/"}
+{"title":"anti-fur","uk":"uk / ˌæn.tiˈfɜː r /","ukp":"/ˌæn.tiˈfɜːr/","us":"us / ˌæn.t̬iˈfɝː /","usp":"/ˌæn.t̬iˈfɝː/"}
+{"title":"anti-fraud","uk":"uk / ˌæn.tiˈfrɔːd /","ukp":"/ˌæn.tiˈfrɔːd/","us":"us / ˌæn.t̬iˈfrɑːd /","usp":"/ˌæn.t̬iˈfrɑːd/"}
+{"title":"anti-gang","uk":"uk / ˌæn.tiˈɡæŋ /","ukp":"/ˌæn.tiˈɡæŋ/","us":"us / ˌæn.t̬iˈɡæŋ /","usp":"/ˌæn.t̬iˈɡæŋ/"}
+{"title":"anti-government","uk":"uk / ˌæn.tiˈɡʌv. ə n.mənt /","ukp":"/ˌæn.tiˈɡʌv.ən.mənt/","us":"us / ˌæn.t̬iˈɡʌv.ɚn.mənt /","usp":"/ˌæn.t̬iˈɡʌv.ɚn.mənt/"}
+{"title":"anti-glare","uk":"uk / ˌæn.tiˈɡleə r /","ukp":"/ˌæn.tiˈɡleər/","us":"us / ˌæn.t̬iˈɡler /","usp":"/ˌæn.t̬iˈɡler/"}
+{"title":"anti-globalization","uk":"uk / ˌæn.tiˌɡləʊ.b ə l.aɪˈzeɪ.ʃ ə n /","ukp":"/ˌæn.tiˌɡləʊ.bəl.aɪˈzeɪ.ʃən/","us":"us / ˌæn.t̬iˌɡloʊ.b ə l.aɪˈzeɪ.ʃ ə n /","usp":"/ˌæn.t̬iˌɡloʊ.bəl.aɪˈzeɪ.ʃən/"}
+{"title":"anti-gravity","uk":"uk / ˌæn.tiˈɡræv.ə.ti /","ukp":"/ˌæn.tiˈɡræv.ə.ti/","us":"us / ˌæn.t̬iˈɡræv.ə.t̬i /","usp":"/ˌæn.t̬iˈɡræv.ə.t̬i/"}
+{"title":"Anti-Gravity yoga","uk":"uk  / ˌæn.ti.ɡræv.ə.ti ˈjəʊ.ɡə /","ukp":"/ˌæn.ti.ɡræv.ə.ti ˈjəʊ.ɡə/","us":"us  / ˌæn.t̬i.ɡræv.ə.t̬i ˈjoʊ.ɡə /","usp":"/ˌæn.t̬i.ɡræv.ə.t̬i ˈjoʊ.ɡə/"}
+{"title":"anti-gun","uk":"uk / ˌæn.tiˈɡʌn /","ukp":"/ˌæn.tiˈɡʌn/","us":"us / ˌæn.t̬iˈɡʌn /","usp":"/ˌæn.t̬iˈɡʌn/"}
+{"title":"anti-herpes","uk":"uk / ˌæn.tiˈhɜː.piːz /","ukp":"/ˌæn.tiˈhɜː.piːz/","us":"us / ˌæn.t̬iˈhɝː.piːz /","usp":"/ˌæn.t̬iˈhɝː.piːz/"}
+{"title":"anti-hijacking","uk":"uk / ˌæn.tiˈhaɪ.dʒæk.ɪŋ /","ukp":"/ˌæn.tiˈhaɪ.dʒæk.ɪŋ/","us":"us / ˌæn.t̬iˈhaɪ.dʒæk.ɪŋ /","usp":"/ˌæn.t̬iˈhaɪ.dʒæk.ɪŋ/"}
+{"title":"anti-growth","uk":"uk / ˌæn.tiˈɡrəʊθ /","ukp":"/ˌæn.tiˈɡrəʊθ/","us":"us / ˌæn.t̬iˈɡroʊθ /","usp":"/ˌæn.t̬iˈɡroʊθ/"}
+{"title":"anti-harassment","uk":"uk / ˌæn.tiˈhær.əs.mənt /","ukp":"/ˌæn.tiˈhær.əs.mənt/","us":"us / ˌæn.t̬i.həˈræs.mənt /","usp":"/ˌæn.t̬i.həˈræs.mənt/"}
+{"title":"anti-historical","uk":"uk / ˌæn.ti.hɪˈstɒr.ɪ.k ə l /","ukp":"/ˌæn.ti.hɪˈstɒr.ɪ.kəl/","us":"us / ˌæn.t̬i.hɪˈstɔːr.ɪ.kəl /","usp":"/ˌæn.t̬i.hɪˈstɔːr.ɪ.kəl/"}
+{"title":"anti-HIV","uk":"uk / ˌæn.tiˌeɪtʃ.aɪˈviː /","ukp":"/ˌæn.tiˌeɪtʃ.aɪˈviː/","us":"us / ˌæn.t̬iˌeɪtʃ.aɪˈviː /","usp":"/ˌæn.t̬iˌeɪtʃ.aɪˈviː/"}
+{"title":"anti-guerrilla","uk":"uk / ˌæn.ti.ɡəˈrɪl.ə /","ukp":"/ˌæn.ti.ɡəˈrɪl.ə/","us":"us / ˌæn.t̬i.ɡəˈrɪl.ə /","usp":"/ˌæn.t̬i.ɡəˈrɪl.ə/"}
+{"title":"anti-hierarchical","uk":"uk / ˌæn.tiˌhaɪəˈrɑː.kɪ.k ə l /","ukp":"/ˌæn.tiˌhaɪəˈrɑː.kɪ.kəl/","us":"us / ˌæn.t̬iˌhaɪ.əˈrɑːr.kɪ.k ə l /","usp":"/ˌæn.t̬iˌhaɪ.əˈrɑːr.kɪ.kəl/"}
+{"title":"anti-homosexual","uk":"uk / ˌæn.tiˌhəʊ.məˈsek.ʃu.əl /","ukp":"/ˌæn.tiˌhəʊ.məˈsek.ʃu.əl/","us":"us / ˌæn.t̬iˌhoʊ.moʊˈsek.ʃu.əl /","usp":"/ˌæn.t̬iˌhoʊ.moʊˈsek.ʃu.əl/"}
+{"title":"anti-humanism","uk":"uk / ˌæn.tiˈhjuː.mə.nɪ.z ə m /","ukp":"/ˌæn.tiˈhjuː.mə.nɪ.zəm/","us":"us / ˌæn.t̬iˈhjuː.mə.nɪ.z ə m /","usp":"/ˌæn.t̬iˈhjuː.mə.nɪ.zəm/"}
+{"title":"anti-humanist","uk":"uk / ˌæn.tiˈhjuː.mə.nɪst /","ukp":"/ˌæn.tiˈhjuː.mə.nɪst/","us":"us / ˌæn.t̬iˈhjuː.mə.nɪst /","usp":"/ˌæn.t̬iˈhjuː.mə.nɪst/"}
+{"title":"anti-humanitarian","uk":"uk / ˌæn.ti.hjuːˌmæn.ɪˈteə.ri.ən /","ukp":"/ˌæn.ti.hjuːˌmæn.ɪˈteə.ri.ən/","us":"us / ˌæn.t̬i.hjuːˌmæn.ɪˈter.i.ən /","usp":"/ˌæn.t̬i.hjuːˌmæn.ɪˈter.i.ən/"}
+{"title":"anti-hunger","uk":"uk / ˌæn.tiˈhʌŋ.ɡə r /","ukp":"/ˌæn.tiˈhʌŋ.ɡər/","us":"us / ˌæn.t̬iˈhʌŋ.ɡɚ /","usp":"/ˌæn.t̬iˈhʌŋ.ɡɚ/"}
+{"title":"anti-hunter","uk":"uk / ˌæn.tiˈhʌn.tə r /","ukp":"/ˌæn.tiˈhʌn.tər/","us":"us / ˌæn.t̬iˈhʌn.t̬ɚ /","usp":"/ˌæn.t̬iˈhʌn.t̬ɚ/"}
+{"title":"anti-hunt","uk":"uk  / ˌæn.tiˈhʌnt /","ukp":"/ˌæn.tiˈhʌnt/","us":"us  / ˌæn.taɪˈhʌnt /","usp":"/ˌæn.taɪˈhʌnt/"}
+{"title":"anti-hunting","uk":"uk / ˌæn.tiˈhʌn.tɪŋ /","ukp":"/ˌæn.tiˈhʌn.tɪŋ/","us":"us / ˌæn.t̬iˈhʌn.t̬ɪŋ /","usp":"/ˌæn.t̬iˈhʌn.t̬ɪŋ/"}
+{"title":"anti-icing","uk":"uk / ˌæn.tiˈaɪ.sɪŋ /","ukp":"/ˌæn.tiˈaɪ.sɪŋ/","us":"us / ˌæn.t̬iˈaɪ.sɪŋ /","usp":"/ˌæn.t̬iˈaɪ.sɪŋ/"}
+{"title":"anti-ideological","uk":"uk / ˌæn.tiˌaɪ.di.əˈlɒdʒ.ɪ.k ə l /","ukp":"/ˌæn.tiˌaɪ.di.əˈlɒdʒ.ɪ.kəl/","us":"us / ˌæn.t̬iˌaɪ.di.əˈlɑː.dʒɪ.k ə l /","usp":"/ˌæn.t̬iˌaɪ.di.əˈlɑː.dʒɪ.kəl/"}
+{"title":"anti-imperialism","uk":"uk / ˌæn.ti.ɪmˈpɪə.ri.ə.lɪ.z ə m /","ukp":"/ˌæn.ti.ɪmˈpɪə.ri.ə.lɪ.zəm/","us":"us / ˌæn.t̬i.ɪmˈpɪr.i.ə.lɪ.z ə m /","usp":"/ˌæn.t̬i.ɪmˈpɪr.i.ə.lɪ.zəm/"}
+{"title":"anti-immigrant","uk":"uk / ˌæn.tiˈɪm.ɪ.ɡrənt /","ukp":"/ ˌæn.tiˈɪm.ɪ.ɡrənt/","us":"us / ˌæn.t̬iˈɪm.ə.ɡrənt /","usp":"/ˌæn.t̬iˈɪm.ə.ɡrənt/"}
+{"title":"anti-immigration","uk":"uk / ˌæn.tiˌɪm.ɪˈɡreɪ.ʃ ə n /","ukp":"/ˌæn.tiˌɪm.ɪˈɡreɪ.ʃən/","us":"us / ˌæn.t̬iˌɪm.ə.ˈɡreɪ.ʃ ə n /","usp":"/ˌæn.t̬iˌɪm.ə.ˈɡreɪ.ʃən/"}
+{"title":"anti-imperialist","uk":"uk / ˌæn.ti.ɪmˈpɪə.ri.ə.lɪst /","ukp":"/ˌæn.ti.ɪmˈpɪə.ri.ə.lɪst/","us":"us / ˌæn.t̬i.ɪmˈpɪr.i.ə.lɪst /","usp":"/ˌæn.t̬i.ɪmˈpɪr.i.ə.lɪst/"}
+{"title":"anti-incumbent","uk":"uk / ˌæn.ti.ɪnˈkʌm.b ə nt /","ukp":"/ˌæn.ti.ɪnˈkʌm.bənt/","us":"us / ˌæn.t̬i.ɪnˈkʌm.b ə nt /","usp":"/ˌæn.t̬i.ɪnˈkʌm.bənt/"}
+{"title":"anti-Sovietism","uk":"uk / ˌæn.tiˈsəʊ.vi.ə.tɪ.z ə m /","ukp":"/ˌæn.tiˈsəʊ.vi.ə.tɪ.zəm/","us":"us  / ˌæn.taɪˈsoʊ.vi.ə.tɪ.z ə m /","usp":"/ˌæn.taɪˈsoʊ.vi.ə.tɪ.zəm/"}
+{"title":"anti-infective","uk":"uk / ˌæn.ti.ɪnˈfek.tɪv /","ukp":"/ˌæn.ti.ɪnˈfek.tɪv/","us":"us / ˌæn.t̬i.ɪnˈfek.tɪv /","usp":"/ˌæn.t̬i.ɪnˈfek.tɪv/"}
+{"title":"anti-spam","uk":"uk  / ˌæn.tiˈspæm /","ukp":"/ˌæn.tiˈspæm/","us":"us  / ˌæn.t̬iˈspæm /","usp":"/ˌæn.t̬iˈspæm/"}
+{"title":"anti-speculation","uk":"uk / ˌæn.tiˌspek.jəˈleɪ.ʃ ə n /","ukp":"/ˌæn.tiˌspek.jəˈleɪ.ʃən/","us":"us / ˌæn.taɪˌspek.jəˈleɪ.ʃ ə n /","usp":"/ˌæn.taɪˌspek.jəˈleɪ.ʃən/"}
+{"title":"anti-speculative","uk":"uk / ˌæn.tiˈspek.jə.lə.tɪv /","ukp":"/ˌæn.tiˈspek.jə.lə.tɪv/","us":"us  / ˌæn.taɪˈspek.jə.lə.t̬ɪv /","usp":"/ˌæn.taɪˈspek.jə.lə.t̬ɪv/"}
+{"title":"anti-spyware","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"anti-spending","uk":"uk / ˌæn.tiˈspen.dɪŋ /","ukp":"/ˌæn.tiˈspen.dɪŋ/","us":"us  / ˌæn.taɪˈspen.dɪŋ /","usp":"/ˌæn.taɪˈspen.dɪŋ/"}
+{"title":"anti-Stalinist","uk":"uk / ˌæn.tiˈstɑː.lɪn.ɪst /","ukp":"/ˌæn.tiˈstɑː.lɪn.ɪst/","us":"us  / ˌæn.taɪˈstɑː.lɪn.ɪst /","usp":"/ˌæn.taɪˈstɑː.lɪn.ɪst/"}
+{"title":"anti-state","uk":"uk / ˌæn.tiˈsteɪt /","ukp":"/ˌæn.tiˈsteɪt/","us":"us  / ˌæn.taɪˈsteɪt /","usp":"/ˌæn.taɪˈsteɪt/"}
+{"title":"anti-stick","uk":"uk / ˌæn.tiˈstɪk /","ukp":"/ˌæn.tiˈstɪk/","us":"us  / ˌæn.taɪˈstɪk /","usp":"/ˌæn.taɪˈstɪk/"}
+{"title":"anti-static","uk":"uk  / ˌæn.tiˈstæt.ɪk /","ukp":"/ˌæn.tiˈstæt.ɪk/","us":"us  / ˌæn.t̬iˈstæt̬.ɪk /","usp":"/ˌæn.t̬iˈstæt̬.ɪk/"}
+{"title":"anti-statist","uk":"uk / ˌæn.tiˈsteɪ.tɪst /","ukp":"/ˌæn.tiˈsteɪ.tɪst/","us":"us  / ˌæn.taɪˈsteɪ.t̬ɪst /","usp":"/ˌæn.taɪˈsteɪ.t̬ɪst/"}
+{"title":"anti-student","uk":"uk / ˌæn.tiˈstjuː.d ə nt /","ukp":"/ˌæn.tiˈstjuː.dənt/","us":"us  / ˌæn.taɪˈstuː.d ə nt /","usp":"/ˌæn.taɪˈstuː.dənt/"}
+{"title":"anti-stress","uk":"uk / ˌæn.tiˈstres /","ukp":"/ˌæn.tiˈstres/","us":"us  / ˌæn.taɪˈstres /","usp":"/ˌæn.taɪˈstres/"}
+{"title":"anti-strike","uk":"uk / ˌæn.tiˈstraɪk /","ukp":"/ˌæn.tiˈstraɪk/","us":"us  / ˌæn.taɪˈstraɪk /","usp":"/ˌæn.taɪˈstraɪk/"}
+{"title":"anti-submarine","uk":"uk / ˌæn.tiˌsʌb.məˈriːn /","ukp":"/ˌæn.tiˌsʌb.məˈriːn/","us":"us / ˌæn.taɪˌsʌb.məˈriːn /","usp":"/ˌæn.taɪˌsʌb.məˈriːn/"}
+{"title":"anti-subsidy","uk":"uk / ˌæn.tiˈsʌb.sɪ.di /","ukp":"/ˌæn.tiˈsʌb.sɪ.di/","us":"us  / ˌæn.taɪˈsʌb.sə.di /","usp":"/ˌæn.taɪˈsʌb.sə.di/"}
+{"title":"anti-subversion","uk":"uk / ˌæn.ti.səbˈvɜː.ʃ ə n /","ukp":"/ˌæn.ti.səbˈvɜː.ʃən/","us":"us  / ˌæn.taɪ.səbˈvɝː.ʃ ə n /","usp":"/ˌæn.taɪ.səbˈvɝː.ʃən/"}
+{"title":"anti-subversive","uk":"uk / ˌæn.ti.səbˈvɜː.sɪv /","ukp":"/ˌæn.ti.səbˈvɜː.sɪv/","us":"us  / ˌæn.taɪ.səbˈvɝː.sɪv /","usp":"/ˌæn.taɪ.səbˈvɝː.sɪv/"}
+{"title":"anti-suicide","uk":"uk / ˌæn.tiˈsuː.ɪ.saɪd /","ukp":"/ˌæn.tiˈsuː.ɪ.saɪd/","us":"us  / ˌæn.taɪˈsuː.ə.saɪd /","usp":"/ˌæn.taɪˈsuː.ə.saɪd/"}
+{"title":"anti-syphilitic","uk":"uk / ˌæn.tiˌsɪf.ɪˈlɪt.ɪk /","ukp":"/ˌæn.tiˌsɪf.ɪˈlɪt.ɪk/","us":"us / ˌæn.taɪˌsɪf.əˈlɪt̬.ɪk /","usp":"/ˌæn.taɪˌsɪf.əˈlɪt̬.ɪk/"}
+{"title":"anti-takeover","uk":"uk / ˌæn.tiˈteɪk.əʊ.və r /","ukp":"/ˌæn.tiˈteɪk.əʊ.vər/","us":"us  / ˌæn.taɪˈteɪk.oʊ.vɚ /","usp":"/ˌæn.taɪˈteɪk.oʊ.vɚ/"}
+{"title":"anti-tamper","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"anti-tank","uk":"uk  / ˌæn.tiˈtæŋk /","ukp":"/ˌæn.tiˈtæŋk/","us":"us  / ˌæn.t̬iˈtæŋk /","usp":"/ˌæn.t̬iˈtæŋk/"}
+{"title":"anti-tarnish","uk":"uk / ˌæn.tiˈtɑː.nɪʃ /","ukp":"/ˌæn.tiˈtɑː.nɪʃ/","us":"us  / ˌæn.taɪˈtɑːr.nɪʃ /","usp":"/ˌæn.taɪˈtɑːr.nɪʃ/"}
+{"title":"anti-tax","uk":"uk / ˌæn.tiˈtæks /","ukp":"/ˌæn.tiˈtæks/","us":"us  / ˌæn.taɪˈtæks /","usp":"/ˌæn.taɪˈtæks/"}
+{"title":"anti-technological","uk":"uk / ˌæn.tiˌtek.nəˈlɒdʒ.ɪ.k ə l /","ukp":"/ˌæn.tiˌtek.nəˈlɒdʒ.ɪ.kəl/","us":"us  / ˌæn.taɪˌtek.nəˈlɑː.dʒɪ.k ə l /","usp":"/ˌæn.taɪˌtek.nəˈlɑː.dʒɪ.kəl/"}
+{"title":"anti-technology","uk":"uk / ˌæn.ti.tekˈnɒl.ə.dʒi /","ukp":"/ˌæn.ti.tekˈnɒl.ə.dʒi/","us":"us  / ˌæn.taɪ.tekˈnɑː.lə.dʒi /","usp":"/ˌæn.taɪ.tekˈnɑː.lə.dʒi/"}
+{"title":"anti-terrorist","uk":"uk  / ˌæn.tiˈter.ə.rɪst /","ukp":"/ˌæn.tiˈter.ə.rɪst/","us":"us  / ˌæn.t̬iˈter.ɚ.ɪst /","usp":"/ˌæn.t̬iˈter.ɚ.ɪst/"}
+{"title":"anti-terrorism","uk":"uk / ˌæn.tiˈter. ə r.ɪ.z ə m /","ukp":"/ˌæn.tiˈter.ər.ɪ.zəm/","us":"us  / ˌæn.taɪˈter. ə r.ɪ.z ə m /","usp":"/ˌæn.taɪˈter.ər.ɪ.zəm/"}
+{"title":"anti-theoretical","uk":"uk / ˌæn.ti.θɪəˈret.ɪ.k ə l /","ukp":"/ˌæn.ti.θɪəˈret.ɪ.kəl/","us":"us  / ˌæn.taɪ.θiː.əˈret̬.ə.k ə l /","usp":"/ˌæn.taɪ.θiː.əˈret̬.ə.kəl/"}
+{"title":"anti-theft","uk":"uk / ˌæn.tiˈθeft /","ukp":"/ˌæn.tiˈθeft/","us":"us  / ˌæn.taɪˈθeft /","usp":"/ˌæn.taɪˈθeft/"}
+{"title":"anti-tobacco","uk":"uk / ˌæn.ti.təˈbæk.əʊ /","ukp":"/ˌæn.ti.təˈbæk.əʊ/","us":"us  / ˌæn.taɪ.təˈbæk.oʊ /","usp":"/ˌæn.taɪ.təˈbæk.oʊ/"}
+{"title":"anti-totalitarian","uk":"uk / ˌæn.ti.təʊˌtæl.ɪˈteə.ri.ən /","ukp":"/ˌæn.ti.təʊˌtæl.ɪˈteə.ri.ən/","us":"us  / ˌæn.taɪ.toʊˌtæl.əˈter.i.ən /","usp":"/ˌæn.taɪ.toʊˌtæl.əˈter.i.ən/"}
+{"title":"anti-traditional","uk":"uk / ˌæn.ti.trəˈdɪʃ. ə n. ə l /","ukp":"/ˌæn.ti.trəˈdɪʃ.ən.əl/","us":"us  / ˌæn.taɪ.trəˈdɪʃ. ə n. ə l /","usp":"/ˌæn.taɪ.trəˈdɪʃ.ən.əl/"}
+{"title":"anti-trafficking","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"anti-tubercular","uk":"uk / ˌæn.ti.tʃuːˈbɜː.kjə.lə r /","ukp":"/ˌæn.ti.tʃuːˈbɜː.kjə.lər/","us":"us  / ˌæn.taɪ.tuːˈbɝː.kjə.lɚ /","usp":"/ˌæn.taɪ.tuːˈbɝː.kjə.lɚ/"}
+{"title":"anti-tuberculosis","uk":"uk / ˌæn.ti.tʃuːˌbɜː.kjəˈləʊ.sɪs /","ukp":"/ˌæn.ti.tʃuːˌbɜː.kjəˈləʊ.sɪs/","us":"us  / ˌæn.taɪ.tuːˌbɝː.kjəˈloʊ.sɪs /","usp":"/ˌæn.taɪ.tuːˌbɝː.kjəˈloʊ.sɪs/"}
+{"title":"anti-tuberculous","uk":"uk / ˌæn.ti.tʃuːˈbɜː.kjə.ləs /","ukp":"/ˌæn.ti.tʃuːˈbɜː.kjə.ləs/","us":"us  / ˌæn.taɪ.tuːˈbɝː.kjə.ləs /","usp":"/ˌæn.taɪ.tuːˈbɝː.kjə.ləs/"}
+{"title":"anti-tumor","uk":"uk / ˌæn.tiˈtʃuː.mə r /","ukp":"/ˌæn.tiˈtʃuː.mər/","us":"us  / ˌæn.taɪˈtuː.mɚ /","usp":"/ˌæn.taɪˈtuː.mɚ/"}
+{"title":"anti-tumoral","uk":"uk / ˌæn.tiˈtʃuː.mər.əl /","ukp":"/ˌæn.tiˈtʃuː.mər.əl/","us":"us  / ˌæn.taɪˈtuː.mɚ.əl /","usp":"/ˌæn.taɪˈtuː.mɚ.əl/"}
+{"title":"anti-tumour","uk":"uk / ˌæn.tiˈtʃuː.mə r /","ukp":"/ˌæn.tiˈtʃuː.mər/","us":"us  / ˌæn.taɪˈtuː.mɚ /","usp":"/ˌæn.taɪˈtuː.mɚ/"}
+{"title":"anti-tumoural","uk":"uk / ˌæn.tiˈtʃuː.mər.əl /","ukp":"/ˌæn.tiˈtʃuː.mər.əl/","us":"us  / ˌæn.taɪˈtuː.mɚ.əl /","usp":"/ˌæn.taɪˈtuː.mɚ.əl/"}
+{"title":"anti-typhoid","uk":"uk / ˌæn.tiˈtaɪ.fɔɪd /","ukp":"/ˌæn.tiˈtaɪ.fɔɪd/","us":"us  / ˌæn.taɪˈtaɪ.fɔɪd /","usp":"/ˌæn.taɪˈtaɪ.fɔɪd/"}
+{"title":"anti-ulcer","uk":"uk / ˌæn.tiˈʌl.sə r /","ukp":"/ˌæn.tiˈʌl.sər/","us":"us  / ˌæn.taɪˈʌl.sɚ /","usp":"/ˌæn.taɪˈʌl.sɚ/"}
+{"title":"anti-unemployment","uk":"uk / ˌæn.tiˌʌn.ɪmˈplɔɪ.mənt /","ukp":"/ˌæn.tiˌʌn.ɪmˈplɔɪ.mənt/","us":"us  / ˌæn.taɪˌʌn.ɪmˈplɔɪ.mənt /","usp":"/ˌæn.taɪˌʌn.ɪmˈplɔɪ.mənt/"}
+{"title":"anti-urban","uk":"uk / ˌæn.tiˈɜː.b ə n /","ukp":"/ˌæn.tiˈɜː.bən/","us":"us  / ˌæn.taɪˈɝː.b ə n /","usp":"/ˌæn.taɪˈɝː.bən/"}
+{"title":"anti-union","uk":"uk / ˌæn.tiˈjuː.nj.ən /","ukp":"/ˌæn.tiˈjuː.nj.ən/","us":"us  / ˌæn.taɪˈjuː.nj.ən /","usp":"/ˌæn.taɪˈjuː.nj.ən/"}
+{"title":"anti-university","uk":"uk / ˌæn.tiˌjuː.nɪˈvɜː.sə.ti /","ukp":"/ˌæn.tiˌjuː.nɪˈvɜː.sə.ti/","us":"us  / ˌæn.taɪˌjuː.nəˈvɝː.sə.t̬i /","usp":"/ˌæn.taɪˌjuː.nəˈvɝː.sə.t̬i/"}
+{"title":"anti-vax","uk":"uk / ˌæn.tiˈvæks /","ukp":"/ˌæn.tiˈvæks/","us":"us  / ˌæn.t̬iˈvæks /","usp":"/ˌæn.t̬iˈvæks/"}
+{"title":"anti-violence","uk":"uk / ˌæn.tiˈvaɪə.l ə ns /","ukp":"/ˌæn.tiˈvaɪə.ləns/","us":"us  / ˌæn.taɪˈvaɪə.l ə ns /","usp":"/ˌæn.taɪˈvaɪə.ləns/"}
+{"title":"anti-reflective","uk":"uk / ˌæn.ti.rɪˈflek.tɪv /","ukp":"/ˌæn.ti.rɪˈflek.tɪv/","us":"us  / ˌæn.taɪ.rɪˈflek.tɪv /","usp":"/ˌæn.taɪ.rɪˈflek.tɪv/"}
+{"title":"anti-reform","uk":"uk / ˌæn.ti.rɪˈfɔːm /","ukp":"/ˌæn.ti.rɪˈfɔːm/","us":"us  / ˌæn.taɪ.rɪˈfɔːrm /","usp":"/ˌæn.taɪ.rɪˈfɔːrm/"}
+{"title":"anti-reformist","uk":"uk / ˌæn.ti.rɪˈfɔː.mɪst /","ukp":"/ˌæn.ti.rɪˈfɔː.mɪst/","us":"us / ˌæn.taɪ.rɪˈfɔːr.mɪst /","usp":"/ˌæn.taɪ.rɪˈfɔːr.mɪst/"}
+{"title":"anti-religion","uk":"uk / ˌæn.ti.rɪˈlɪdʒ. ə n /","ukp":"/ˌæn.ti.rɪˈlɪdʒ.ən/","us":"us  / ˌæn.taɪ.rɪˈlɪdʒ. ə n /","usp":"/ˌæn.taɪ.rɪˈlɪdʒ.ən/"}
+{"title":"anti-regulatory","uk":"uk / ˌæn.tiˌreɡ.jəˈleɪ.t ə r.i /","ukp":"/ˌæn.tiˌreɡ.jəˈleɪ.tər.i/","us":"us / ˌæn.taɪˈreɡ.jə.lə.tɔːr.i /","usp":"/ˌæn.taɪˈreɡ.jə.lə.tɔːr.i/"}
+{"title":"anti-religious","uk":"uk / ˌæn.ti.rɪˈlɪdʒ.əs /","ukp":"/ˌæn.ti.rɪˈlɪdʒ.əs/","us":"us  / ˌæn.taɪ.rɪˈlɪdʒ.əs /","usp":"/ˌæn.taɪ.rɪˈlɪdʒ.əs/"}
+{"title":"anti-revolutionary","uk":"uk / ˌæn.tiˌrev.əˈluː.ʃ ə n. ə r.i /","ukp":"/ˌæn.tiˌrev.əˈluː.ʃən.ər.i/","us":"us / ˌæn.taɪˌrev.əˈluː.ʃ ə n.er.i /","usp":"/ˌæn.taɪˌrev.əˈluː.ʃən.er.i/"}
+{"title":"anti-Republican","uk":"uk / ˌæn.ti.rɪˈpʌb.lɪ.kən /","ukp":"/ˌæn.ti.rɪˈpʌb.lɪ.kən/","us":"us  / ˌæn.taɪ.rɪˈpʌb.lɪ.kən /","usp":"/ˌæn.taɪ.rɪˈpʌb.lɪ.kən/"}
+{"title":"anti-riot","uk":"uk / ˌæn.tiˈraɪ.ət /","ukp":"/ˌæn.tiˈraɪ.ət/","us":"us  / ˌæn.taɪˈraɪ.ət /","usp":"/ˌæn.taɪˈraɪ.ət/"}
+{"title":"anti-rock","uk":"uk / ˌæn.tiˈrɒk /","ukp":"/ˌæn.tiˈrɒk/","us":"us  / ˌæn.taɪˈrɑːk /","usp":"/ˌæn.taɪˈrɑːk/"}
+{"title":"anti-ritualism","uk":"uk / ˌæn.tiˈrɪ.tʃu. ə l.ɪ.z ə m /","ukp":"/ˌæn.tiˈrɪ.tʃu.əl.ɪ.zəm/","us":"us  / ˌæn.taɪˈrɪ.tʃu. ə l.ɪ.z ə m /","usp":"/ˌæn.taɪˈrɪ.tʃu.əl.ɪ.zəm/"}
+{"title":"anti-roll","uk":"uk / ˌæn.tiˈrəʊl /","ukp":"/ˌæn.tiˈrəʊl/","us":"us  / ˌæn.taɪˈroʊl /","usp":"/ˌæn.taɪˈroʊl/"}
+{"title":"anti-romantic","uk":"uk / ˌæn.ti.rəʊˈmæn.tɪk /","ukp":"/ˌæn.ti.rəʊˈmæn.tɪk/","us":"us  / ˌæn.taɪ.roʊˈmæn.t̬ɪk /","usp":"/ˌæn.taɪ.roʊˈmæn.t̬ɪk/"}
+{"title":"anti-romanticism","uk":"uk / ˌæn.ti.rəʊˈmæn.tɪ.sɪ.z ə m /","ukp":"/ˌæn.ti.rəʊˈmæn.tɪ.sɪ.zəm/","us":"us  / ˌæn.taɪ.roʊˈmæn.t̬ə.sɪ.z ə m /","usp":"/ˌæn.taɪ.roʊˈmæn.t̬ə.sɪ.zəm/"}
+{"title":"anti-royalist","uk":"uk / ˌæn.tiˈrɔɪ.ə.lɪst /","ukp":"/ˌæn.tiˈrɔɪ.ə.lɪst/","us":"us  / ˌæn.taɪˈrɔɪ.ə.lɪst /","usp":"/ˌæn.taɪˈrɔɪ.ə.lɪst/"}
+{"title":"anti-satellite","uk":"uk / ˌæn.tiˈsæt. ə l.aɪt /","ukp":"/ˌæn.tiˈsæt.əl.aɪt/","us":"us  / ˌæn.taɪˈsæt̬. ə l.aɪt /","usp":"/ˌæn.taɪˈsæt̬.əl.aɪt/"}
+{"title":"anti-rust","uk":"uk / ˌæn.tiˈrʌst /","ukp":"/ˌæn.tiˈrʌst/","us":"us  / ˌæn.taɪˈrʌst /","usp":"/ˌæn.taɪˈrʌst/"}
+{"title":"anti-schizophrenia","uk":"uk / ˌæn.tiˌskɪt.səˈfriː.ni.ə /","ukp":"/ˌæn.tiˌskɪt.səˈfriː.ni.ə/","us":"us / ˌæn.taɪˌskɪt.səˈfriː.ni.ə /","usp":"/ˌæn.taɪˌskɪt.səˈfriː.ni.ə/"}
+{"title":"anti-schizophrenic","uk":"uk / ˌæn.tiˌskɪt.səˈfren.ɪk /","ukp":"/ˌæn.tiˌskɪt.səˈfren.ɪk/","us":"us / ˌæn.taɪˌskɪt.səˈfren.ɪk /","usp":"/ˌæn.taɪˌskɪt.səˈfren.ɪk/"}
+{"title":"anti-science","uk":"uk / ˌæn.tiˈsaɪ.əns /","ukp":"/ˌæn.tiˈsaɪ.əns/","us":"us  / ˌæn.taɪˈsaɪ.əns /","usp":"/ˌæn.taɪˈsaɪ.əns/"}
+{"title":"anti-scientific","uk":"uk / ˌæn.tiˌsaɪ.ənˈtɪf.ɪk /","ukp":"/ˌæn.tiˌsaɪ.ənˈtɪf.ɪk/","us":"us / ˌæn.taɪˌsaɪ.ənˈtɪf.ɪk /","usp":"/ˌæn.taɪˌsaɪ.ənˈtɪf.ɪk/"}
+{"title":"anti-secrecy","uk":"uk / ˌæn.tiˈsiː.krə.si /","ukp":"/ˌæn.tiˈsiː.krə.si/","us":"us  / ˌæn.taɪˈsiː.krə.si /","usp":"/ˌæn.taɪˈsiː.krə.si/"}
+{"title":"anti-segregation","uk":"uk / ˌæn.tiˌseɡ.rɪˈɡeɪ.ʃ ə n /","ukp":"/ˌæn.tiˌseɡ.rɪˈɡeɪ.ʃən/","us":"us / ˌæn.taɪˌseɡ.rəˈɡeɪ.ʃ ə n /","usp":"/ˌæn.taɪˌseɡ.rəˈɡeɪ.ʃən/"}
+{"title":"anti-Semitism","uk":"","us":"us  / ˌæn·tiˈsem·əˌtɪz·əm , ˌæn·tɑɪ- /","usp":"/ˌæn·tiˈsem·əˌtɪz·əm, ˌæn·tɑɪ-/"}
+{"title":"anti-Semite","uk":"","us":"us  / ˌæn·tiˈsem·ɑɪt , ˌæn·tɑɪ- /","usp":"/ˌæn·tiˈsem·ɑɪt, ˌæn·tɑɪ-/"}
+{"title":"anti-seizure","uk":"uk / ˌæn.tiˈsiː.ʒə r /","ukp":"/ˌæn.tiˈsiː.ʒər/","us":"us  / ˌæn.taɪˈsiː.ʒɚ /","usp":"/ˌæn.taɪˈsiː.ʒɚ/"}
+{"title":"anti-sentimental","uk":"uk / ˌæn.tiˌsen.tɪˈmen.t ə l /","ukp":"/ˌæn.tiˌsen.tɪˈmen.təl/","us":"us / ˌæn.taɪˌsen.t̬əˈmen.t ə l̬ /","usp":"/ˌæn.taɪˌsen.t̬əˈmen.təl̬/"}
+{"title":"anti-sex","uk":"uk / ˌæn.tiˈseks /","ukp":"/ˌæn.tiˈseks/","us":"us  / ˌæn.taɪˈseks /","usp":"/ˌæn.taɪˈseks/"}
+{"title":"anti-sexist","uk":"uk / ˌæn.tiˈsek.sɪst /","ukp":"/ˌæn.tiˈsek.sɪst/","us":"us  / ˌæn.taɪˈsek.sɪst /","usp":"/ˌæn.taɪˈsek.sɪst/"}
+{"title":"anti-separatist","uk":"uk / ˌæn.tiˈsep. ə r.ə.tɪst /","ukp":"/ˌæn.tiˈsep.ər.ə.tɪst/","us":"us  / ˌæn.taɪˈsep.ɚ.ə.tɪst /","usp":"/ˌæn.taɪˈsep.ɚ.ə.tɪst/"}
+{"title":"anti-sexual","uk":"uk / ˌæn.tiˈsek.ʃu.əl /","ukp":"/ˌæn.tiˈsek.ʃu.əl/","us":"us  / ˌæn.taɪˈsek.ʃu.əl /","usp":"/ˌæn.taɪˈsek.ʃu.əl/"}
+{"title":"anti-sexuality","uk":"uk / ˌæn.tiˌsek.ʃuˈæl.ə.ti /","ukp":"/ˌæn.tiˌsek.ʃuˈæl.ə.ti/","us":"us / ˌæn.taɪˌsek.ʃuˈæl.ə.t̬i /","usp":"/ˌæn.taɪˌsek.ʃuˈæl.ə.t̬i/"}
+{"title":"anti-shark","uk":"uk / ˌæn.tiˈʃɑːk /","ukp":"/ˌæn.tiˈʃɑːk/","us":"us  / ˌæn.taɪˈʃɑːrk /","usp":"/ˌæn.taɪˈʃɑːrk/"}
+{"title":"anti-ship","uk":"uk / ˌæn.tiˈʃɪp /","ukp":"/ˌæn.tiˈʃɪp/","us":"us  / ˌæn.taɪˈʃɪp /","usp":"/ˌæn.taɪˈʃɪp/"}
+{"title":"anti-shoplifting","uk":"uk / ˌæn.tiˈʃɒp.lɪf.tɪŋ /","ukp":"/ˌæn.tiˈʃɒp.lɪf.tɪŋ/","us":"us  / ˌæn.taɪˈʃɑːp.lɪf.tɪŋ /","usp":"/ˌæn.taɪˈʃɑːp.lɪf.tɪŋ/"}
+{"title":"anti-shock","uk":"uk / ˌæn.tiˈʃɒk /","ukp":"/ˌæn.tiˈʃɒk/","us":"us  / æn.taɪˈʃɑːk /","usp":"/æn.taɪˈʃɑːk/"}
+{"title":"anti-skid","uk":"uk / ˌæn.tiˈskɪd /","ukp":"/ˌæn.tiˈskɪd/","us":"us  / ˌæn.taɪˈskɪd /","usp":"/ˌæn.taɪˈskɪd/"}
+{"title":"anti-slavery","uk":"uk / ˌæn.tiˈsleɪ.v ə r.i /","ukp":"/ˌæn.tiˈsleɪ.vər.i/","us":"us  / ˌæn.taɪˈsleɪ.v ə r.i /","usp":"/ˌæn.taɪˈsleɪ.vər.i/"}
+{"title":"anti-sleep","uk":"uk / ˌæn.tiˈsliːp /","ukp":"/ˌæn.tiˈsliːp/","us":"us  / ˌæn.taɪˈsliːp /","usp":"/ˌæn.taɪˈsliːp/"}
+{"title":"anti-slip","uk":"uk / ˌæn.tiˈslɪp /","ukp":"/ˌæn.tiˈslɪp/","us":"us  / ˌæn.taɪˈslɪp /","usp":"/ˌæn.taɪˈslɪp/"}
+{"title":"anti-smog","uk":"uk / ˌæn.tiˈsmɒɡ /","ukp":"/ˌæn.tiˈsmɒɡ/","us":"us  / ˌæn.taɪˈsmɑːɡ /","usp":"/ˌæn.taɪˈsmɑːɡ/"}
+{"title":"anti-smoke","uk":"uk / ˌæn.tiˈsməʊk /","ukp":"/ˌæn.tiˈsməʊk/","us":"us  / ˌæn.taɪˈsmoʊk /","usp":"/ˌæn.taɪˈsmoʊk/"}
+{"title":"anti-smoker","uk":"uk / ˌæn.tiˈsməʊ.kə r /","ukp":"/ˌæn.tiˈsməʊ.kər/","us":"us  / ˌæn.taɪˈsmoʊ.kɚ /","usp":"/ˌæn.taɪˈsmoʊ.kɚ/"}
+{"title":"anti-smoking","uk":"uk / ˌæn.tiˈsməʊ.kɪŋ /","ukp":"/ˌæn.tiˈsməʊ.kɪŋ/","us":"us  / ˌæn.taɪˈsmoʊ.kɪŋ /","usp":"/ˌæn.taɪˈsmoʊ.kɪŋ/"}
+{"title":"anti-smuggling","uk":"uk / ˌæn.tiˈsmʌɡ.lɪŋ /","ukp":"/ˌæn.tiˈsmʌɡ.lɪŋ/","us":"us  / ˌæn.taɪˈsmʌɡ.lɪŋ /","usp":"/ˌæn.taɪˈsmʌɡ.lɪŋ/"}
+{"title":"anti-snob","uk":"uk / ˌæn.tiˈsnɒb /","ukp":"/ˌæn.tiˈsnɒb/","us":"us  / ˌæn.taɪˈsnɑːb /","usp":"/ˌæn.taɪˈsnɑːb/"}
+{"title":"anti-smut","uk":"uk / ˌæn.tiˈsmʌt /","ukp":"/ˌæn.tiˈsmʌt/","us":"us  / ˌæn.taɪˈsmʌt /","usp":"/ˌæn.taɪˈsmʌt/"}
+{"title":"anti-sodomy","uk":"uk / ˌæn.tiˈsɒd.ə.mi /","ukp":"/ˌæn.tiˈsɒd.ə.mi/","us":"us  / ˌæn.taɪˈsɑː.də.mi /","usp":"/ˌæn.taɪˈsɑː.də.mi/"}
+{"title":"anti-socialist","uk":"uk / ˌæn.tiˈsəʊ.ʃ ə l.ɪst /","ukp":"/ˌæn.tiˈsəʊ.ʃəl.ɪst/","us":"us  / ˌæn.taɪˈsoʊ.ʃ ə l.ɪst /","usp":"/ˌæn.taɪˈsoʊ.ʃəl.ɪst/"}
+{"title":"anti-Soviet","uk":"uk / ˌæn.tiˈsəʊ.vi.ət /","ukp":"/ˌæn.tiˈsəʊ.vi.ət/","us":"us  / ˌæn.taɪˈsoʊ.vi.ət /","usp":"/ˌæn.taɪˈsoʊ.vi.ət/"}
+{"title":"anti-virus","uk":"uk  / ˌæntiˈvaɪərəs /","ukp":"/ˌæntiˈvaɪərəs/","us":"us  / ˌæntaɪ- /","usp":"/ˌæntaɪ-/"}
+{"title":"anti-vivisection","uk":"uk / ˌæn.tiˌvɪv.ɪˈsek.ʃ ə n /","ukp":"/ˌæn.tiˌvɪv.ɪˈsek.ʃən/","us":"us  / ˌæn.taɪˌvɪv.ɪˈsek.ʃ ə n /","usp":"/ˌæn.taɪˌvɪv.ɪˈsek.ʃən/"}
+{"title":"anti-vivisectionist","uk":"uk / ˌæn.tiˌvɪv.ɪˈsek.ʃ ə n.ɪst /","ukp":"/ˌæn.tiˌvɪv.ɪˈsek.ʃən.ɪst/","us":"us  / ˌæn.taɪˌvɪv.ɪˈsek.ʃ ə n.ɪst /","usp":"/ˌæn.taɪˌvɪv.ɪˈsek.ʃən.ɪst/"}
+{"title":"anti-war","uk":"uk  / ˌæn.tiˈwɔː r /","ukp":"/ˌæn.tiˈwɔːr/","us":"us  / ˌæn.t̬iˈwɔːr /","usp":"/ˌæn.t̬iˈwɔːr/"}
+{"title":"anti-wear","uk":"uk / ˌæn.tiˈweə r /","ukp":"/ˌæn.tiˈweər/","us":"us  / ˌæn.taɪˈwer /","usp":"/ˌæn.taɪˈwer/"}
+{"title":"anti-welfare","uk":"uk / ˌæn.tiˈwel.feə r /","ukp":"/ˌæn.tiˈwel.feər/","us":"us  / ˌæn.taɪˈwel.fer /","usp":"/ˌæn.taɪˈwel.fer/"}
+{"title":"anti-Western","uk":"uk / ˌæn.tiˈwes.tən /","ukp":"/ˌæn.tiˈwes.tən/","us":"us  / ˌæn.taɪˈwes.tɚn /","usp":"/ˌæn.taɪˈwes.tɚn/"}
+{"title":"anti-West","uk":"uk / ˌæn.tiˈwest /","ukp":"/ˌæn.tiˈwest/","us":"us  / ˌæn.taɪˈwest /","usp":"/ˌæn.taɪˈwest/"}
+{"title":"anti-whaling","uk":"uk / ˌæn.tiˈweɪ.lɪŋ /","ukp":"/ˌæn.tiˈweɪ.lɪŋ/","us":"us  / ˌæn.taɪˈweɪ.lɪŋ /","usp":"/ˌæn.taɪˈweɪ.lɪŋ/"}
+{"title":"anti-woman","uk":"uk / ˌæn.tiˈwʊm.ən /","ukp":"/ˌæn.tiˈwʊm.ən/","us":"us  / ˌæn.taɪˈwʊm.ən /","usp":"/ˌæn.taɪˈwʊm.ən/"}
+{"title":"anti-wrinkle","uk":"uk / ˌæn.tiˈrɪŋ.k ə l /","ukp":"/ˌæn.tiˈrɪŋ.kəl/","us":"us  / ˌæn.taɪˈrɪŋ.k ə l /","usp":"/ˌæn.taɪˈrɪŋ.kəl/"}
+{"title":"anti-Zionism","uk":"uk / ˌæn.tiˈzaɪ.ə.nɪ.z ə m /","ukp":"/ˌæn.tiˈzaɪ.ə.nɪ.zəm/","us":"us  / ˌæn.taɪˈzaɪ.ə.nɪ.z ə m /","usp":"/ˌæn.taɪˈzaɪ.ə.nɪ.zəm/"}
+{"title":"antibacterial","uk":"uk  / ˌæn.ti.bækˈtɪə.ri.əl /","ukp":"/ˌæn.ti.bækˈtɪə.ri.əl/","us":"us  / ˌæn.t̬i.bækˈtɪr.i.əl /","usp":"/ˌæn.t̬i.bækˈtɪr.i.əl/"}
+{"title":"anti-Zionist","uk":"uk / ˌæn.tiˈzaɪ.ə.nɪst /","ukp":"/ˌæn.tiˈzaɪ.ə.nɪst/","us":"us  / ˌæn.taɪˈzaɪ.ə.nɪst /","usp":"/ˌæn.taɪˈzaɪ.ə.nɪst/"}
+{"title":"antibiotic","uk":"uk  / ˌæn.ti.baɪˈɒt.ɪk /","ukp":"/ˌæn.ti.baɪˈɒt.ɪk/","us":"us  / ˌæn.t̬i.baɪˈɑː.t̬ɪk /","usp":"/ˌæn.t̬i.baɪˈɑː.t̬ɪk/"}
+{"title":"anticarcinogen","uk":"uk  / ˌæn.ti.kɑːˈsɪn.ə.dʒ ə n /","ukp":"/ˌæn.ti.kɑːˈsɪn.ə.dʒən/","us":"us  / ˌæn.taɪ.kɑːrˈsɪn.ə.dʒ ə n /","usp":"/ˌæn.taɪ.kɑːrˈsɪn.ə.dʒən/"}
+{"title":"antic","uk":"uk  / ˈæn.tɪk /","ukp":"/ˈæn.tɪk/","us":"us  / ˈæn.tɪk /","usp":"/ˈæn.tɪk/"}
+{"title":"antibody","uk":"uk  / ˈæn.tiˌbɒd.i /","ukp":"/ˈæn.tiˌbɒd.i/","us":"us  / ˈæn.t̬iˌbɑː.di /","usp":"/ˈæn.t̬iˌbɑː.di/"}
+{"title":"anticarcinogenic","uk":"uk / ˌæn.ti.kɑː.s ə n.əˈdʒen.ɪk /","ukp":"/ˌæn.ti.kɑː.sən.əˈdʒen.ɪk/","us":"us  / ˌæn.taɪ.kɑːr.s ə n.oʊˈdʒen.ɪk /","usp":"/ˌæn.taɪ.kɑːr.sən.oʊˈdʒen.ɪk/"}
+{"title":"anticaries","uk":"uk / ˌæn.tiˈkeə.riːz /","ukp":"/ˌæn.tiˈkeə.riːz/","us":"us  / ˌæn.taɪˈker.iːz /","usp":"/ˌæn.taɪˈker.iːz/"}
+{"title":"antichrist","uk":"uk  / ˈæn.ti.kraɪst /","ukp":"/ˈæn.ti.kraɪst/","us":"us  / ˈæn.t̬i.kraɪst /","usp":"/ˈæn.t̬i.kraɪst/"}
+{"title":"anticipate","uk":"uk  / ænˈtɪs.ɪ.peɪt /","ukp":"/ænˈtɪs.ɪ.peɪt/","us":"us  / ænˈtɪs.ə.peɪt /","usp":"/ænˈtɪs.ə.peɪt/"}
+{"title":"anticipating","uk":"uk  / ænˈtɪs.ɪ.peɪt /","ukp":"/ænˈtɪs.ɪ.peɪt/","us":"us  / ænˈtɪs.ə.peɪt /","usp":"/ænˈtɪs.ə.peɪt/"}
+{"title":"anticipatory bail","uk":"uk / æn.tɪs.ɪˌpeɪ.t ə r.i ˈbeɪl /","ukp":"/æn.tɪs.ɪˌpeɪ.tər.i ˈbeɪl/","us":"us / ænˌtɪs.ə.pə.tɔːr.i ˈbeɪl /","usp":"/ænˌtɪs.ə.pə.tɔːr.i ˈbeɪl/"}
+{"title":"anticipation","uk":"uk  / ænˌtɪs.ɪˈpeɪ.ʃ ə n /","ukp":"/ænˌtɪs.ɪˈpeɪ.ʃən/","us":"us  / ænˌtɪs.əˈpeɪ.ʃ ə n /","usp":"/ænˌtɪs.əˈpeɪ.ʃən/"}
+{"title":"anticipatory breach","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"anticlericalism","uk":"uk  / ˌæn.tiˈkler.ɪ.k ə l.ɪ.z ə m /","ukp":"/ˌæn.tiˈkler.ɪ.kəl.ɪ.zəm/","us":"us  / ˌæn.t̬iˈkler.ɪ.k ə l.ɪ.z ə m /","usp":"/ˌæn.t̬iˈkler.ɪ.kəl.ɪ.zəm/"}
+{"title":"anticlerical","uk":"uk  / ˌæn.tiˈkler.ɪ.k ə l /","ukp":"/ˌæn.tiˈkler.ɪ.kəl/","us":"us  / ˌæn.t̬iˈkler.ɪ.k ə l /","usp":"/ˌæn.t̬iˈkler.ɪ.kəl/"}
+{"title":"anticipated","uk":"uk  / ænˈtɪs.ɪ.peɪt /","ukp":"/ænˈtɪs.ɪ.peɪt/","us":"us  / ænˈtɪs.ə.peɪt /","usp":"/ænˈtɪs.ə.peɪt/"}
+{"title":"anticlimactic","uk":"uk  / ˌæn.ti.klaɪˈmæk.tɪk /","ukp":"/ˌæn.ti.klaɪˈmæk.tɪk/","us":"us  / ˌæn.t̬i.klaɪˈmæk.tɪk /","usp":"/ˌæn.t̬i.klaɪˈmæk.tɪk/"}
+{"title":"anticlimax","uk":"uk  / ˌæn.tiˈklaɪ.mæks /","ukp":"/ˌæn.tiˈklaɪ.mæks/","us":"us  / ˌæn.t̬iˈklaɪ.mæks /","usp":"/ˌæn.t̬iˈklaɪ.mæks/"}
+{"title":"anticline","uk":"uk  / ˈæn.ti.klaɪn /","ukp":"/ˈæn.ti.klaɪn/","us":"us  / ˈæn.t̬i.klaɪn /","usp":"/ˈæn.t̬i.klaɪn/"}
+{"title":"anticlockwise","uk":"uk  / ˌæn.tiˈklɒk.waɪz /","ukp":"/ˌæn.tiˈklɒk.waɪz/","us":"us  / ˌæn.t̬iˈklɑːk.waɪz /","usp":"/ˌæn.t̬iˈklɑːk.waɪz/"}
+{"title":"anticoagulant","uk":"uk  / ˌæn.ti.kəʊˈæɡ.jə.lənt /","ukp":"/ˌæn.ti.kəʊˈæɡ.jə.lənt/","us":"us  / ˌæn.t̬i.koʊˈæɡ.jə.lənt /","usp":"/ˌæn.t̬i.koʊˈæɡ.jə.lənt/"}
+{"title":"anticonvulsant","uk":"uk / ˌæn.ti.kənˈvʌl.s ə nt /","ukp":"/ˌæn.ti.kənˈvʌl.sənt/","us":"us / æn.taɪ.kənˈvʌl.s ə nt /","usp":"/æn.taɪ.kənˈvʌl.sənt/"}
+{"title":"anticyclone","uk":"uk  / ˌæn.tiˈsaɪ.kləʊn /","ukp":"/ˌæn.tiˈsaɪ.kləʊn/","us":"us  / ˌæn.t̬iˈsaɪ.kloʊn /","usp":"/ˌæn.t̬iˈsaɪ.kloʊn/"}
+{"title":"antics","uk":"uk  / ˈæn.tɪks /","ukp":"/ˈæn.tɪks/","us":"us  / ˈæn.t̬ɪks /","usp":"/ˈæn.t̬ɪks/"}
+{"title":"antidepressant","uk":"uk  / ˌæn.ti.dɪˈpres. ə nt /","ukp":"/ˌæn.ti.dɪˈpres.ənt/","us":"us  / ˌæn.t̬i.dɪˈpres. ə nt /","usp":"/ˌæn.t̬i.dɪˈpres.ənt/"}
+{"title":"antidiarrheal","uk":"uk  / ˌæn.tiˌdaɪ.əˈriː.əl /","ukp":"/ˌæn.tiˌdaɪ.əˈriː.əl/","us":"us  / ˌæn.taɪˌdaɪ.əˈriː.əl /","usp":"/ˌæn.taɪˌdaɪ.əˈriː.əl/"}
+{"title":"antidisestablishmentarianism","uk":"uk  / ˌæn.ti.dɪs.ɪˌstæb.lɪʃ.mənˈteə.ri.ə.nɪ.z ə m /","ukp":"/ˌæn.ti.dɪs.ɪˌstæb.lɪʃ.mənˈteə.ri.ə.nɪ.zəm/","us":"us  / ˌæn.t̬i.dɪs.əˌstæb.lɪʃ.mənˈter.i.ə.nɪ.z ə m /","usp":"/ˌæn.t̬i.dɪs.əˌstæb.lɪʃ.mənˈter.i.ə.nɪ.zəm/"}
+{"title":"antidote","uk":"uk  / ˈæn.ti.dəʊt /","ukp":"/ˈæn.ti.dəʊt/","us":"us  / ˈæn.t̬i.doʊt /","usp":"/ˈæn.t̬i.doʊt/"}
+{"title":"Antifa","uk":"uk  / ˈæn.tɪ.fɑː /","ukp":"/ˈæn.tɪ.fɑː/","us":"us  / ˈæn.tɪ.fɑː /","usp":"/ˈæn.tɪ.fɑː/"}
+{"title":"antifreeze","uk":"uk  / ˈæn.ti.friːz /","ukp":"/ˈæn.ti.friːz/","us":"us  / ˈæn.t̬i.friːz /","usp":"/ˈæn.t̬i.friːz/"}
+{"title":"antiserum","uk":"uk / ˈæn.tiˌsɪə.rəm /","ukp":"/ˈæn.tiˌsɪə.rəm/","us":"us  / ˈæn.t̬iˌsɪr.əm /","usp":"/ˈæn.t̬iˌsɪr.əm/"}
+{"title":"antisocial personality disorder","uk":"uk  / æn.tiˌsəʊ.ʃ ə l pɜː.sənˈæl.ə.ti dɪˌsɔː.də r /","ukp":"/æn.tiˌsəʊ.ʃəl pɜː.sənˈæl.ə.ti dɪˌsɔː.dər/","us":"us  / ˌæn.tiˌsoʊ.ʃ ə l ˌpɝː.səˈnæl.ə.t̬i dɪˌsɔːr.dɚ /","usp":"/ˌæn.tiˌsoʊ.ʃəl ˌpɝː.səˈnæl.ə.t̬i dɪˌsɔːr.dɚ/"}
+{"title":"antisocial","uk":"uk  / ˌæn.tiˈsəʊ.ʃ ə l /","ukp":"/ˌæn.tiˈsəʊ.ʃəl/","us":"us  / ˌæn.t̬iˈsoʊ.ʃ ə l /","usp":"/ˌæn.t̬iˈsoʊ.ʃəl/"}
+{"title":"antisocially","uk":"uk  / ˌæn.tiˈsəʊ.ʃ ə l.i /","ukp":"/ˌæn.tiˈsəʊ.ʃəl.i/","us":"us  / ˌæn.t̬iˈsoʊ.ʃ ə l.i /","usp":"/ˌæn.t̬iˈsoʊ.ʃəl.i/"}
+{"title":"antitheses","uk":"","us":""}
+{"title":"antithesis","uk":"uk  / ænˈtɪθ.ə.sɪs /","ukp":"/ænˈtɪθ.ə.sɪs/","us":"us  / ænˈtɪθ.ə.sɪs /","usp":"/ænˈtɪθ.ə.sɪs/"}
+{"title":"antithetical","uk":"uk  / ˌæn.tɪˈθet.ɪ.k ə l /","ukp":"/ˌæn.tɪˈθet.ɪ.kəl/","us":"us  / ˌæn.t̬əˈθet̬.ɪ.k ə l /","usp":"/ˌæn.t̬əˈθet̬.ɪ.kəl/"}
+{"title":"antitoxin","uk":"uk  / ˌæn.tiˈtɒk.sɪn /","ukp":"/ˌæn.tiˈtɒk.sɪn/","us":"us  / ˌæn.t̬iˈtɑːk.sɪn /","usp":"/ˌæn.t̬iˈtɑːk.sɪn/"}
+{"title":"antitrust","uk":"uk  / ˌæn.tiˈtrʌst /","ukp":"/ˌæn.tiˈtrʌst/","us":"us  / ˌæn.t̬iˈtrʌst /","usp":"/ˌæn.t̬iˈtrʌst/"}
+{"title":"antivaxxer","uk":"uk  / ˌæn.tiˈvæks.ə r /","ukp":"/ˌæn.tiˈvæks.ər/","us":"us  / ˌæn.t̬i.ˈvæks.ɚ /","usp":"/ˌæn.t̬i.ˈvæks.ɚ/"}
+{"title":"antitrust law","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"antivenom","uk":"uk / ˌæn.tiˈven.əm /","ukp":"/ˌæn.tiˈven.əm/","us":"us  / ˌæn.t̬iˈven.əm /","usp":"/ˌæn.t̬iˈven.əm/"}
+{"title":"antivenin","uk":"uk / ˌæn.tiˈven.ɪn /","ukp":"/ˌæn.tiˈven.ɪn/","us":"us  / ˌæn.t̬iˈven.ɪn /","usp":"/ˌæn.t̬iˈven.ɪn/"}
+{"title":"antiviral","uk":"uk  / ˌæn.tiˈvaɪə.r ə l /","ukp":"/ˌæn.tiˈvaɪə.rəl/","us":"us  / ˌæn.t̬iˈvaɪ.r ə l /","usp":"/ˌæn.t̬iˈvaɪ.rəl/"}
+{"title":"antiwar","uk":"","us":"us  / ˈæn·tiˈwɔr , ˈæn·tɑɪ- /","usp":"/ˈæn·tiˈwɔr, ˈæn·tɑɪ-/"}
+{"title":"antivirus","uk":"uk  / ˌæn.tiˈvaɪə.rəs /","ukp":"/ˌæn.tiˈvaɪə.rəs/","us":"us  / ˌæn.t̬iˈvaɪ.rəs /","usp":"/ˌæn.t̬iˈvaɪ.rəs/"}
+{"title":"antlers","uk":"","us":"us  / ˈænt·lərz /","usp":"/ˈænt·lərz/"}
+{"title":"antler","uk":"uk  / ˈænt.lə r /","ukp":"/ˈænt.lər/","us":"us  / ˈænt.lɚ /","usp":"/ˈænt.lɚ/"}
+{"title":"antonymous","uk":"uk  / ænˈtɒn.ɪ.məs /","ukp":"/ænˈtɒn.ɪ.məs/","us":"us  / ænˈtɑː.nə.məs /","usp":"/ænˈtɑː.nə.məs/"}
+{"title":"antra","uk":"","us":""}
+{"title":"antonym","uk":"uk  / ˈæn.tə.nɪm /","ukp":"/ˈæn.tə.nɪm/","us":"us  / ˈæn.t̬ ə n.ɪm /","usp":"/ˈæn.t̬ən.ɪm/"}
+{"title":"antrum","uk":"uk  / ˈæn.trəm /","ukp":"/ˈæn.trəm/","us":"us  / ˈæn.trəm /","usp":"/ˈæn.trəm/"}
+{"title":"antsy","uk":"uk  / ˈænt.si /","ukp":"/ˈænt.si/","us":"us  / ˈænt.si /","usp":"/ˈænt.si/"}
+{"title":"anus","uk":"uk  / ˈeɪ.nəs /","ukp":"/ˈeɪ.nəs/","us":"us  / ˈeɪ.nəs /","usp":"/ˈeɪ.nəs/"}
+{"title":"anvil","uk":"uk  / ˈæn.vɪl /","ukp":"/ˈæn.vɪl/","us":"us  / ˈæn.vɪl /","usp":"/ˈæn.vɪl/"}
+{"title":"anxiety","uk":"uk  / æŋˈzaɪ.ə.ti /","ukp":"/æŋˈzaɪ.ə.ti/","us":"us  / æŋˈzaɪ.ə.t̬i /","usp":"/æŋˈzaɪ.ə.t̬i/"}
+{"title":"anxiety disorder","uk":"uk  / æŋˈzaɪ.ə.ti dɪˌsɔː.də r /","ukp":"/æŋˈzaɪ.ə.ti dɪˌsɔː.dər/","us":"us  / æŋˈzaɪ.ə.t̬i dɪˌsɔːr.dɚ /","usp":"/æŋˈzaɪ.ə.t̬i dɪˌsɔːr.dɚ/"}
+{"title":"anxious","uk":"uk  / ˈæŋk.ʃəs /","ukp":"/ˈæŋk.ʃəs/","us":"us  / ˈæŋk.ʃəs /","usp":"/ˈæŋk.ʃəs/"}
+{"title":"anxiously","uk":"uk  / ˈæŋk.ʃəs.li /","ukp":"/ˈæŋk.ʃəs.li/","us":"us  / ˈæŋk.ʃəs.li /","usp":"/ˈæŋk.ʃəs.li/"}
+{"title":"any day now","uk":"","us":""}
+{"title":"any amount of","uk":"","us":""}
+{"title":"any fool","uk":"","us":""}
+{"title":"any","uk":"uk  / ˈen.i /","ukp":"/ˈen.i/","us":"us  / ˈen.i /","usp":"/ˈen.i/"}
+{"title":"any minute/moment/second/time now","uk":"","us":""}
+{"title":"any more","uk":"","us":""}
+{"title":"any number of things","uk":"","us":""}
+{"title":"any other business","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"any port in a storm","uk":"","us":""}
+{"title":"any publicity is good publicity","uk":"","us":""}
+{"title":"any way you slice it","uk":"","us":""}
+{"title":"anyhoo","uk":"uk  / ˈen.i.huː /","ukp":"/ˈen.i.huː/","us":"us  / ˈen.i.huː /","usp":"/ˈen.i.huː/"}
+{"title":"anybody","uk":"uk  / ˈen.iˌbɒd.i /","ukp":"/ˈen.iˌbɒd.i/","us":"us  / ˈen.iˌbɑː.di /","usp":"/ˈen.iˌbɑː.di/"}
+{"title":"anyhow","uk":"uk  / ˈen.i.haʊ /","ukp":"/ˈen.i.haʊ/","us":"us  / ˈen.i.haʊ /","usp":"/ˈen.i.haʊ/"}
+{"title":"anyone","uk":"uk  / ˈen.i.wʌn /","ukp":"/ˈen.i.wʌn/","us":"us  / ˈen.i.wʌn /","usp":"/ˈen.i.wʌn/"}
+{"title":"anyone who is/was anyone","uk":"","us":""}
+{"title":"anymore","uk":"uk  / ˌen.iˈmɔː r /","ukp":"/ˌen.iˈmɔːr/","us":"us  / ˌen.iˈmɔːr /","usp":"/ˌen.iˈmɔːr/"}
+{"title":"anyplace","uk":"uk  / ˈen.i.pleɪs /","ukp":"/ˈen.i.pleɪs/","us":"us  / ˈen.i.pleɪs /","usp":"/ˈen.i.pleɪs/"}
+{"title":"anyroad","uk":"uk  / ˈen.i.rəʊd /","ukp":"/ˈen.i.rəʊd/","us":"us  / ˈen.i.roʊd /","usp":"/ˈen.i.roʊd/"}
+{"title":"anti-obesity","uk":"uk / ˌæn.ti.əʊˈbiː.sə.ti /","ukp":"/ˌæn.ti.əʊˈbiː.sə.ti/","us":"us / ˌæn.t̬i.oʊˈbiː.sə.t̬i /","usp":"/ˌæn.t̬i.oʊˈbiː.sə.t̬i/"}
+{"title":"anti-outsourcing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"anti-oestrogen","uk":"uk / ˌæn.tiˈiː.strə.dʒ ə n /","ukp":"/ˌæn.tiˈiː.strə.dʒən/","us":"us / ˌæn.t̬iˈes.trə.dʒ ə n /","usp":"/ˌæn.t̬iˈes.trə.dʒən/"}
+{"title":"anti-papal","uk":"uk / ˌæn.tiˈpeɪ.p ə l /","ukp":"/ˌæn.tiˈpeɪ.pəl/","us":"us / ˌæn.t̬iˈpeɪ.p ə l /","usp":"/ˌæn.t̬iˈpeɪ.pəl/"}
+{"title":"anti-parasitic","uk":"uk / ˌæn.tiˌpær.əˈsɪt.ɪk /","ukp":"/ˌæn.tiˌpær.əˈsɪt.ɪk/","us":"us / ˌæn.t̬iˌper.əˈsɪt̬.ɪk /","usp":"/ˌæn.t̬iˌper.əˈsɪt̬.ɪk/"}
+{"title":"anti-party","uk":"uk / ˌæn.tiˈpɑː.ti /","ukp":"/ˌæn.tiˈpɑː.ti/","us":"us  / ˌæn.taɪˈpɑːr.t̬i /","usp":"/ˌæn.taɪˈpɑːr.t̬i/"}
+{"title":"anti-personnel","uk":"uk  / ˌæn.ti.pɜː.s ə nˈel /","ukp":"/ˌæn.ti.pɜː.sənˈel/","us":"us  / ˌæn.t̬i.pɝː.s ə nˈel /","usp":"/ˌæn.t̬i.pɝː.sənˈel/"}
+{"title":"anti-pesticide","uk":"uk / ˌæn.tiˈpes.tɪ.saɪd /","ukp":"/ˌæn.tiˈpes.tɪ.saɪd/","us":"us  / ˌæn.taɪˈpes.tə.saɪd /","usp":"/ˌæn.taɪˈpes.tə.saɪd/"}
+{"title":"anti-phishing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"anti-piracy","uk":"uk / ˌæn.tiˈpaɪ.rə.si /","ukp":"/ˌæn.tiˈpaɪ.rə.si/","us":"us  / ˌæn.taɪˈpaɪ.rə.si /","usp":"/ˌæn.taɪˈpaɪ.rə.si/"}
+{"title":"anti-plague","uk":"uk / ˌæn.tiˈpleɪɡ /","ukp":"/ˌæn.tiˈpleɪɡ/","us":"us  / ˌæn.taɪˈpleɪɡ /","usp":"/ˌæn.taɪˈpleɪɡ/"}
+{"title":"anti-plaque","uk":"uk / ˌæn.tiˈplɑːk /","ukp":"/ˌæn.tiˈplɑːk/","us":"us  / ˌæn.taɪˈplæk /","usp":"/ˌæn.taɪˈplæk/"}
+{"title":"anti-platelet","uk":"uk / ˌæn.tiˈpleɪt.lət /","ukp":"/ˌæn.tiˈpleɪt.lət/","us":"us  / ˌæn.taɪˈpleɪt.lət /","usp":"/ˌæn.taɪˈpleɪt.lət/"}
+{"title":"anti-pleasure","uk":"uk / ˌæn.tiˈpleʒ.ə r /","ukp":"/ˌæn.tiˈpleʒ.ər/","us":"us  / ˌæn.taɪˈpleʒ.ɚ /","usp":"/ˌæn.taɪˈpleʒ.ɚ/"}
+{"title":"anti-poaching","uk":"uk / ˌæn.tiˈpəʊ.tʃɪŋ /","ukp":"/ˌæn.tiˈpəʊ.tʃɪŋ/","us":"us  / ˌæn.taɪˈpoʊ.tʃɪŋ /","usp":"/ˌæn.taɪˈpoʊ.tʃɪŋ/"}
+{"title":"anti-police","uk":"uk / ˌæn.ti.pəˈliːs /","ukp":"/ˌæn.ti.pəˈliːs/","us":"us  / ˌæn.taɪ.pəˈliːs /","usp":"/ˌæn.taɪ.pəˈliːs/"}
+{"title":"anti-political","uk":"uk / ˌæn.ti.pəˈlɪt.ɪ.k ə l /","ukp":"/ˌæn.ti.pəˈlɪt.ɪ.kəl/","us":"us  / ˌæn.taɪ.pəˈlɪt̬.ə.k ə l /","usp":"/ˌæn.taɪ.pəˈlɪt̬.ə.kəl/"}
+{"title":"anti-popular","uk":"uk / ˌæn.tiˈpɒp.jə.lə r /","ukp":"/ˌæn.tiˈpɒp.jə.lər/","us":"us  / ˌæn.taɪˈpɑː.pjə.lɚ /","usp":"/ˌæn.taɪˈpɑː.pjə.lɚ/"}
+{"title":"anti-politics","uk":"uk / ˌæn.tiˈpɒl.ə.tɪks /","ukp":"/ˌæn.tiˈpɒl.ə.tɪks/","us":"us  / ˌæn.taɪˈpɑː.lə.tɪks /","usp":"/ˌæn.taɪˈpɑː.lə.tɪks/"}
+{"title":"anti-porn","uk":"uk / ˌæn.tiˈpɔːn /","ukp":"/ˌæn.tiˈpɔːn/","us":"us  / ˌæn.taɪˈpɔːrn /","usp":"/ˌæn.taɪˈpɔːrn/"}
+{"title":"anti-pornography","uk":"uk / ˌæn.ti.pɔːˈnɒɡ.rə.fi /","ukp":"/ˌæn.ti.pɔːˈnɒɡ.rə.fi/","us":"us  / ˌæn.taɪ.pɔːrˈnɑː.ɡrə.fi /","usp":"/ˌæn.taɪ.pɔːrˈnɑː.ɡrə.fi/"}
+{"title":"anti-pot","uk":"uk / ˌæn.tiˈpɒt /","ukp":"/ˌæn.tiˈpɒt/","us":"us  / ˌæn.taɪˈpɑːt /","usp":"/ˌæn.taɪˈpɑːt/"}
+{"title":"anti-predator","uk":"uk / ˌæn.tiˈpred.ə.tə r /","ukp":"/ˌæn.tiˈpred.ə.tər/","us":"us  / ˌæn.taɪˈpred.ə.t̬ɚ /","usp":"/ˌæn.taɪˈpred.ə.t̬ɚ/"}
+{"title":"anti-poverty","uk":"uk / ˌæn.tiˈpɒv.ə.ti /","ukp":"/ˌæn.tiˈpɒv.ə.ti/","us":"us  / ˌæn.taɪˈpɑː.vɚ.t̬i /","usp":"/ˌæn.taɪˈpɑː.vɚ.t̬i/"}
+{"title":"anti-press","uk":"uk / ˌæn.tiˈpres /","ukp":"/ˌæn.tiˈpres/","us":"us  / ˌæn.taɪˈpres /","usp":"/ˌæn.taɪˈpres/"}
+{"title":"anti-predatory","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"anti-profiteering","uk":"uk / ˌæn.tiˌprɒf.ɪˈtɪə.rɪŋ /","ukp":"/ˌæn.tiˌprɒf.ɪˈtɪə.rɪŋ/","us":"us / ˌæn.taɪˌprɑː.fəˈtɪr.ɪŋ /","usp":"/ˌæn.taɪˌprɑː.fəˈtɪr.ɪŋ/"}
+{"title":"anti-progressive","uk":"uk / ˌæn.ti.prəˈɡres.ɪv /","ukp":"/ˌæn.ti.prəˈɡres.ɪv/","us":"us  / ˌæn.taɪ.prəˈɡres.ɪv /","usp":"/ˌæn.taɪ.prəˈɡres.ɪv/"}
+{"title":"anti-prostitution","uk":"uk / ˌæn.tiˌprɒs.tɪˈtʃuː.ʃ ə n /","ukp":"/ˌæn.tiˌprɒs.tɪˈtʃuː.ʃən/","us":"us / ˌæn.taɪˌprɑː.stəˈtuː.ʃ ə n /","usp":"/ˌæn.taɪˌprɑː.stəˈtuː.ʃən/"}
+{"title":"anti-pruritic","uk":"uk / ˌæn.ti.prʊəˈrɪt.ɪk /","ukp":"/ˌæn.ti.prʊəˈrɪt.ɪk/","us":"us  / ˌæn.taɪ.prʊˈrɪt̬.ɪk /","usp":"/ˌæn.taɪ.prʊˈrɪt̬.ɪk/"}
+{"title":"anti-rachitic","uk":"uk / ˌæn.ti.rəˈkɪt.ɪk /","ukp":"/ˌæn.ti.rəˈkɪt.ɪk/","us":"us  / ˌæn.taɪ.rəˈkɪt.ɪk /","usp":"/ˌæn.taɪ.rəˈkɪt.ɪk/"}
+{"title":"anti-rabies","uk":"uk / ˌæn.tiˈreɪ.biːz /","ukp":"/ˌæn.tiˈreɪ.biːz/","us":"us  / ˌæn.taɪˈreɪ.biːz /","usp":"/ˌæn.taɪˈreɪ.biːz/"}
+{"title":"anti-racism","uk":"uk / ˌæn.tiˈreɪ.sɪ.z ə m /","ukp":"/ˌæn.tiˈreɪ.sɪ.zəm/","us":"us  / ˌæn.taɪˈreɪ.sɪ.z ə m /","usp":"/ˌæn.taɪˈreɪ.sɪ.zəm/"}
+{"title":"anti-racketeering","uk":"uk / ˌæn.tiˌræk.əˈtɪə.rɪŋ /","ukp":"/ˌæn.tiˌræk.əˈtɪə.rɪŋ/","us":"us / ˌæn.taɪˌræk.əˈtɪr.ɪŋ /","usp":"/ˌæn.taɪˌræk.əˈtɪr.ɪŋ/"}
+{"title":"anti-radar","uk":"uk / ˌæn.tiˈreɪ.dɑː r /","ukp":"/ˌæn.tiˈreɪ.dɑːr/","us":"us  / ˌæn.taɪˈreɪ.dɑːr /","usp":"/ˌæn.taɪˈreɪ.dɑːr/"}
+{"title":"anti-radical","uk":"uk / ˌæn.tiˈræd.ɪ.k ə l /","ukp":"/ˌæn.tiˈræd.ɪ.kəl/","us":"us  / ˌæn.taɪˈræd.ɪ.k ə l /","usp":"/ˌæn.taɪˈræd.ɪ.kəl/"}
+{"title":"anti-radicalism","uk":"uk / ˌæn.tiˈræd.ɪ.k ə l.ɪ.z ə m /","ukp":"/ˌæn.tiˈræd.ɪ.kəl.ɪ.zəm/","us":"us  / ˌæn.taɪˈræd.ɪ.k ə l.ɪ.z ə m /","usp":"/ˌæn.taɪˈræd.ɪ.kəl.ɪ.zəm/"}
+{"title":"anti-rape","uk":"uk / ˌæn.tiˈreɪp /","ukp":"/ˌæn.tiˈreɪp/","us":"us  / ˌæn.taɪˈreɪp /","usp":"/ˌæn.taɪˈreɪp/"}
+{"title":"anti-rational","uk":"uk / ˌæn.tiˈræʃ. ə n. ə l /","ukp":"/ˌæn.tiˈræʃ.ən.əl/","us":"us  / ˌæn.taɪˈræʃ. ə n. ə l /","usp":"/ˌæn.taɪˈræʃ.ən.əl/"}
+{"title":"anti-rationalism","uk":"uk / ˌæn.tiˈræʃ. ə n. ə l.ɪ.z ə m /","ukp":"/ˌæn.tiˈræʃ.ən.əl.ɪ.zəm/","us":"us  / ˌæn.taɪˈræʃ. ə n. ə l.ɪ.z ə m /","usp":"/ˌæn.taɪˈræʃ.ən.əl.ɪ.zəm/"}
+{"title":"anti-rationalist","uk":"uk / ˌæn.tiˈræʃ. ə n. ə l.ɪst /","ukp":"/ˌæn.tiˈræʃ.ən.əl.ɪst/","us":"us  / ˌæn.taɪˈræʃ. ə n. ə l.ɪst /","usp":"/ˌæn.taɪˈræʃ.ən.əl.ɪst/"}
+{"title":"anti-rationality","uk":"uk / ˌæn.tiˌræʃ. ə nˈæl.ə.ti /","ukp":"/ˌæn.tiˌræʃ.ənˈæl.ə.ti/","us":"us / ˌæn.taɪˌræʃ. ə nˈæl.ə.t̬i /","usp":"/ˌæn.taɪˌræʃ.ənˈæl.ə.t̬i/"}
+{"title":"anti-realism","uk":"uk / ˌæn.tiˈrɪə.lɪ.z ə m /","ukp":"/ˌæn.tiˈrɪə.lɪ.zəm/","us":"us  / ˌæn.taɪˈriː.ə.lɪ.z ə m /","usp":"/ˌæn.taɪˈriː.ə.lɪ.zəm/"}
+{"title":"anti-realist","uk":"uk / ˌæn.tiˈrɪə.lɪst /","ukp":"/ˌæn.tiˈrɪə.lɪst/","us":"us  / ˌæn.taɪˈriː.ə.lɪst /","usp":"/ˌæn.taɪˈriː.ə.lɪst/"}
+{"title":"anti-recession","uk":"uk / ˌæn.ti.rɪˈseʃ. ə n /","ukp":"/ˌæn.ti.rɪˈseʃ.ən/","us":"us  / ˌæn.taɪ.rɪˈseʃ. ə n /","usp":"/ˌæn.taɪ.rɪˈseʃ.ən/"}
+{"title":"anti-recessionary","uk":"uk / ˌæn.ti.rɪˈseʃ. ə n. ə r.i /","ukp":"/ˌæn.ti.rɪˈseʃ.ən.ər.i/","us":"us  / ˌæn.taɪ.rɪˈseʃ.ə.ner.i /","usp":"/ˌæn.taɪ.rɪˈseʃ.ə.ner.i/"}
+{"title":"anti-red","uk":"uk / ˌæn.tiˈred /","ukp":"/ˌæn.tiˈred/","us":"us  / ˌæn.taɪˈred /","usp":"/ˌæn.taɪˈred/"}
+{"title":"anti-reductionism","uk":"uk / ˌæn.ti.rɪˈdʌk.ʃ ə n.ɪ.z ə m /","ukp":"/ˌæn.ti.rɪˈdʌk.ʃən.ɪ.zəm/","us":"us  / ˌæn.taɪ.rɪˈdʌk.ʃ ə n.ɪ.z ə m /","usp":"/ˌæn.taɪ.rɪˈdʌk.ʃən.ɪ.zəm/"}
+{"title":"anti-reductionist","uk":"uk / ˌæn.ti.rɪˈdʌk.ʃ ə n.ɪst /","ukp":"/ˌæn.ti.rɪˈdʌk.ʃən.ɪst/","us":"us  / ˌæn.taɪ.rɪˈdʌk.ʃ ə n.ɪst /","usp":"/ˌæn.taɪ.rɪˈdʌk.ʃən.ɪst/"}
+{"title":"anti-reflection","uk":"uk / ˌæn.ti.rɪˈflek.ʃ ə n /","ukp":"/ˌæn.ti.rɪˈflek.ʃən/","us":"us  / ˌæn.taɪ.rɪˈflek.ʃ ə n /","usp":"/ˌæn.taɪ.rɪˈflek.ʃən/"}
+{"title":"antigen test","uk":"uk / ˈæn.tɪ.dʒən ˌtest /","ukp":"/ˈæn.tɪ.dʒən ˌtest/","us":"us  / ˈæn.tɪ.dʒen ˌtest /","usp":"/ˈæn.tɪ.dʒen ˌtest/"}
+{"title":"antigen","uk":"uk  / ˈæn.tɪ.dʒən /","ukp":"/ˈæn.tɪ.dʒən/","us":"us  / ˈæn.tɪ.dʒən /","usp":"/ˈæn.tɪ.dʒən/"}
+{"title":"antigenic","uk":"uk / ˌæn.tɪˈdʒen.ɪk /","ukp":"/ˌæn.tɪˈdʒen.ɪk/","us":"us / ˌæn.tɪˈdʒen.ɪk /","usp":"/ˌæn.tɪˈdʒen.ɪk/"}
+{"title":"Antigua and Barbuda","uk":"uk  / ænˌtiː.ɡə ənd bɑːˈbjuː.də /","ukp":"/ænˌtiː.ɡə ənd bɑːˈbjuː.də/","us":"us  / ænˌtɪɡ.wə ənd bɑːrˈbuː.də /","usp":"/ænˌtɪɡ.wə ənd bɑːrˈbuː.də/"}
+{"title":"antiheroes","uk":"","us":""}
+{"title":"antihistamine","uk":"uk  / ˌæn.tiˈhɪs.tə.mɪn /","ukp":"/ˌæn.tiˈhɪs.tə.mɪn/","us":"us  / ˌæn.t̬iˈhɪs.tə.mɪn /","usp":"/ˌæn.t̬iˈhɪs.tə.mɪn/"}
+{"title":"antihero","uk":"uk  / ˈæn.tiˌhɪə.rəʊ /","ukp":"/ˈæn.tiˌhɪə.rəʊ/","us":"us  / ˈæn.t̬iˌhɪr.oʊ /","usp":"/ˈæn.t̬iˌhɪr.oʊ/"}
+{"title":"Antiguan","uk":"uk  / ænˈtiː.ɡən /","ukp":"/ænˈtiː.ɡən/","us":"us  / ænˈtɪɡ.wən /","usp":"/ænˈtɪɡ.wən/"}
+{"title":"antiknocking","uk":"uk  / ˌæn.tiˈnɒk.ɪŋ /","ukp":"/ˌæn.tiˈnɒk.ɪŋ/","us":"us  / ˌæn.t̬iˈnɑː.kɪŋ /","usp":"/ˌæn.t̬iˈnɑː.kɪŋ/"}
+{"title":"antiknock","uk":"uk  / ˌæn.tiˈnɒk /","ukp":"/ˌæn.tiˈnɒk/","us":"us  / ˌæn.t̬iˈnɑːk /","usp":"/ˌæn.t̬iˈnɑːk/"}
+{"title":"antilepton","uk":"uk  / ˌæn.tiˈlep.tɒn /","ukp":"/ˌæn.tiˈlep.tɒn/","us":"us  / ˌæn.t̬iˈlep.tɑːn /","usp":"/ˌæn.t̬iˈlep.tɑːn/"}
+{"title":"antilogarithm","uk":"uk  / ˌæn.tiˈlɒɡ.ə.rɪ.ð ə m /","ukp":"/ˌæn.tiˈlɒɡ.ə.rɪ.ðəm/","us":"us  / ˌæn.t̬iˈlɑː.ɡɚ.ɪ.ð ə m /","usp":"/ˌæn.t̬iˈlɑː.ɡɚ.ɪ.ðəm/"}
+{"title":"antimacassar","uk":"uk  / ˌæn.ti.məˈkæs.ə r /","ukp":"/ˌæn.ti.məˈkæs.ər/","us":"us  / ˌæn.t̬i.məˈkæs.ɚ /","usp":"/ˌæn.t̬i.məˈkæs.ɚ/"}
+{"title":"antimicrobial","uk":"uk  / ˌæn.ti.maɪˈkrəʊ.bi.əl /","ukp":"/ˌæn.ti.maɪˈkrəʊ.bi.əl/","us":"us  / ˌæn.t̬i.maɪˈkroʊ.bi.əl /","usp":"/ˌæn.t̬i.maɪˈkroʊ.bi.əl/"}
+{"title":"antimatter","uk":"uk  / ˈæn.tiˌmæt.ə r /","ukp":"/ˈæn.tiˌmæt.ər/","us":"us  / ˈæn.t̬iˌmæt̬.ɚ /","usp":"/ˈæn.t̬iˌmæt̬.ɚ/"}
+{"title":"antimony","uk":"uk  / ˈæn.tɪ.mə.ni /","ukp":"/ˈæn.tɪ.mə.ni/","us":"us  / ˈæn.t̬ə.moʊ.ni /","usp":"/ˈæn.t̬ə.moʊ.ni/"}
+{"title":"antineutrino","uk":"uk  / ˌæn.ti.njuːˈtriː.nəʊ /","ukp":"/ˌæn.ti.njuːˈtriː.nəʊ/","us":"us  / ˌæn.t̬i.nuːˈtriː.noʊ /","usp":"/ˌæn.t̬i.nuːˈtriː.noʊ/"}
+{"title":"antinome","uk":"uk / ˈæn.tɪ.nəʊm /","ukp":"/ˈæn.tɪ.nəʊm/","us":"us / ˈæn.tə.noʊm /","usp":"/ˈæn.tə.noʊm/"}
+{"title":"antinode","uk":"uk  / ˈæn.ti.nəʊd /","ukp":"/ˈæn.ti.nəʊd/","us":"us  / ˈæn.t̬i.noʊd /","usp":"/ˈæn.t̬i.noʊd/"}
+{"title":"antinomy","uk":"uk / ænˈtɪn.ə.mi /","ukp":"/ænˈtɪn.ə.mi/","us":"us  / ænˈtɪn.ə.mi /","usp":"/ænˈtɪn.ə.mi/"}
+{"title":"antioxidant","uk":"uk  / ˌæn.tiˈɒk.sɪ.d ə nt /","ukp":"/ˌæn.tiˈɒk.sɪ.dənt/","us":"us  / ˌæn.t̬iˈɑːk.sɪ.d ə nt /","usp":"/ˌæn.t̬iˈɑːk.sɪ.dənt/"}
+{"title":"antiparticle","uk":"uk  / ˈæn.tiˌpɑː.tɪ.k ə l /","ukp":"/ˈæn.tiˌpɑː.tɪ.kəl/","us":"us  / ˈæn.t̬iˌpɑːr.t̬ə.k ə l /","usp":"/ˈæn.t̬iˌpɑːr.t̬ə.kəl/"}
+{"title":"antipasti","uk":"","us":""}
+{"title":"antipathetic","uk":"uk  / ˌæn.ti.pəˈθet.ɪk /","ukp":"/ˌæn.ti.pəˈθet.ɪk/","us":"us  / ˌæn.t̬i.pəˈθet̬.ɪk /","usp":"/ˌæn.t̬i.pəˈθet̬.ɪk/"}
+{"title":"antipasto","uk":"uk  / ˌæn.tiˈpæs.təʊ /","ukp":"/ˌæn.tiˈpæs.təʊ/","us":"us  / ˌæn.t̬iˈpɑː.stoʊ /","usp":"/ˌæn.t̬iˈpɑː.stoʊ/"}
+{"title":"antipathy","uk":"uk  / ænˈtɪp.ə.θi /","ukp":"/ænˈtɪp.ə.θi/","us":"us  / ænˈtɪp.ə.θi /","usp":"/ænˈtɪp.ə.θi/"}
+{"title":"antiphonal","uk":"uk  / ænˈtɪf.ə.n ə l /","ukp":"/ænˈtɪf.ə.nəl/","us":"us  / ænˈtɪf.ə.n ə l /","usp":"/ænˈtɪf.ə.nəl/"}
+{"title":"antiperspirant","uk":"uk  / ˌæn.tiˈpɜː.spər.ənt /","ukp":"/ˌæn.tiˈpɜː.spər.ənt/","us":"us  / ˌæn.t̬iˈpɝː.spɚ.ənt /","usp":"/ˌæn.t̬iˈpɝː.spɚ.ənt/"}
+{"title":"Antipodean","uk":"uk  / ænˌtɪp.əˈdiː.ən /","ukp":"/ænˌtɪp.əˈdiː.ən/","us":"us  / ænˌtɪp.əˈdiː.ən /","usp":"/ænˌtɪp.əˈdiː.ən/"}
+{"title":"antiquarian","uk":"uk  / ˌæn.tɪˈkweə.ri.ən /","ukp":"/ˌæn.tɪˈkweə.ri.ən/","us":"us  / ˌæn.t̬əˈkwer.i.ən /","usp":"/ˌæn.t̬əˈkwer.i.ən/"}
+{"title":"antiquarianism","uk":"uk  / ˌæn.tɪˈkweə.ri.ə.nɪ.z ə m /","ukp":"/ˌæn.tɪˈkweə.ri.ə.nɪ.zəm/","us":"us  / ˌæn.t̬əˈkwer.i.ə.nɪ.z ə m /","usp":"/ˌæn.t̬əˈkwer.i.ə.nɪ.zəm/"}
+{"title":"antiquark","uk":"uk  / ˈæn.tiˌkwɑːk /","ukp":"/ˈæn.tiˌkwɑːk/","us":"us  / ˈæn.t̬iˌkwɑːrk /","usp":"/ˈæn.t̬iˌkwɑːrk/"}
+{"title":"antiquary","uk":"uk  / ˈæn.tɪ.kw ə r.i /","ukp":"/ˈæn.tɪ.kwər.i/","us":"us  / ˈæn.t̬ə.kwer.i /","usp":"/ˈæn.t̬ə.kwer.i/"}
+{"title":"antiproton","uk":"uk  / ˈæn.tiˌprəʊ.tɒn /","ukp":"/ˈæn.tiˌprəʊ.tɒn/","us":"us  / ˈæn.t̬iˌproʊ.t̬ɑːn /","usp":"/ˈæn.t̬iˌproʊ.t̬ɑːn/"}
+{"title":"antiquated","uk":"uk  / ˈæn.tɪ.kweɪ.tɪd /","ukp":"/ˈæn.tɪ.kweɪ.tɪd/","us":"us  / ˈæn.t̬ə.kweɪ.t̬ɪd /","usp":"/ˈæn.t̬ə.kweɪ.t̬ɪd/"}
+{"title":"antiquity","uk":"uk  / ænˈtɪk.wə.ti /","ukp":"/ænˈtɪk.wə.ti/","us":"us  / ænˈtɪk.wə.t̬i /","usp":"/ænˈtɪk.wə.t̬i/"}
+{"title":"antiracist","uk":"uk  / ˌæn.tiˈreɪ.sɪst /","ukp":"/ˌæn.tiˈreɪ.sɪst/","us":"us  / ˌæn.t̬iˈreɪ.sɪst /","usp":"/ˌæn.t̬iˈreɪ.sɪst/"}
+{"title":"antiretroviral","uk":"uk  / æn.tiˌret.rəʊˈvaɪə.r ə l /","ukp":"/æn.tiˌret.rəʊˈvaɪə.rəl/","us":"us  / æn.t̬iˌret.roʊˈvaɪ.r ə l /","usp":"/æn.t̬iˌret.roʊˈvaɪ.rəl/"}
+{"title":"antique","uk":"uk  / ænˈtiːk /","ukp":"/ænˈtiːk/","us":"us  / ænˈtiːk /","usp":"/ænˈtiːk/"}
+{"title":"antirrhinum","uk":"uk  / ˌæn.tɪˈraɪ.nəm /","ukp":"/ˌæn.tɪˈraɪ.nəm/","us":"us  / ˌæn.t̬ɪˈraɪ.nəm /","usp":"/ˌæn.t̬ɪˈraɪ.nəm/"}
+{"title":"antisemite","uk":"uk  / ˌæn.tiˈsem.aɪt /","ukp":"/ˌæn.tiˈsem.aɪt/","us":"us  / ˌæn.t̬iˈsem.aɪt /","usp":"/ˌæn.t̬iˈsem.aɪt/"}
+{"title":"antisemitic","uk":"uk  / ˌæn.ti.səˈmɪ.tɪk /","ukp":"/ˌæn.ti.səˈmɪ.tɪk/","us":"us  / ˌæn.t̬i.səˈmɪ.tɪk /","usp":"/ˌæn.t̬i.səˈmɪ.tɪk/"}
+{"title":"antisemitism","uk":"uk  / ˌæn.tiˈsem.ɪt.ɪ.z ə m /","ukp":"/ˌæn.tiˈsem.ɪt.ɪ.zəm/","us":"us  / ˌæn.t̬iˈsem.ə.tɪ.z ə m /","usp":"/ˌæn.t̬iˈsem.ə.tɪ.zəm/"}
+{"title":"antiseptic","uk":"uk  / ˌæn.tiˈsep.tɪk /","ukp":"/ˌæn.tiˈsep.tɪk/","us":"us  / ˌæn.t̬iˈsep.tɪk /","usp":"/ˌæn.t̬iˈsep.tɪk/"}
+{"title":"anything","uk":"uk  / ˈen.i.θɪŋ /","ukp":"/ˈen.i.θɪŋ/","us":"us  / ˈen.i.θɪŋ /","usp":"/ˈen.i.θɪŋ/"}
+{"title":"anything but","uk":"","us":""}
+{"title":"anything like","uk":"","us":""}
+{"title":"anything's possible","uk":"","us":""}
+{"title":"anytime","uk":"uk  / ˈen.i.taɪm /","ukp":"/ˈen.i.taɪm/","us":"us  / ˈen.i.taɪm /","usp":"/ˈen.i.taɪm/"}
+{"title":"anyway","uk":"uk  / ˈen.i.weɪ /","ukp":"/ˈen.i.weɪ/","us":"us  / ˈen.i.weɪ /","usp":"/ˈen.i.weɪ/"}
+{"title":"anyways","uk":"uk  / ˈen.i.weɪz /","ukp":"/ˈen.i.weɪz/","us":"us  / ˈen.i.weɪz /","usp":"/ˈen.i.weɪz/"}
+{"title":"anywhere near","uk":"","us":""}
+{"title":"anywhere","uk":"uk  / ˈen.i.weə r /","ukp":"/ˈen.i.weər/","us":"us  / ˈen.i.wer /","usp":"/ˈen.i.wer/"}
+{"title":"Anzac","uk":"uk  / ˈæn.zæk /","ukp":"/ˈæn.zæk/","us":"us  / ˈæn.zæk /","usp":"/ˈæn.zæk/"}
+{"title":"Anzac biscuit","uk":"uk  / ˈæn.zæk ˌbɪs.kɪt /","ukp":"/ˈæn.zæk ˌbɪs.kɪt/","us":"us  / ˈæn.zæk ˌbɪs.kɪt /","usp":"/ˈæn.zæk ˌbɪs.kɪt/"}
+{"title":"AOB","uk":"uk  / ˌeɪ.əʊˈbiː /","ukp":"/ˌeɪ.əʊˈbiː/","us":"us  / ˌeɪ.oʊˈbiː /","usp":"/ˌeɪ.oʊˈbiː/"}
+{"title":"AOD","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"aortic","uk":"uk  / eɪˈɔː.tɪk /","ukp":"/eɪˈɔː.tɪk/","us":"us  / eɪˈɔːr.t̬ɪk /","usp":"/eɪˈɔːr.t̬ɪk/"}
+{"title":"aorta","uk":"uk  / eɪˈɔː.tə /","ukp":"/eɪˈɔː.tə/","us":"us  / eɪˈɔːr.t̬ə /","usp":"/eɪˈɔːr.t̬ə/"}
+{"title":"aortic aneurysm","uk":"uk  / eɪˌɔː.tɪk ˈæn.jə.rɪ.z ə m /","ukp":"/eɪˌɔː.tɪk ˈæn.jə.rɪ.zəm/","us":"us  / eɪˌɔːr.t̬ɪk ˈæn.jɚ.ɪ.z ə m /","usp":"/eɪˌɔːr.t̬ɪk ˈæn.jɚ.ɪ.zəm/"}
+{"title":"aortic root surgery","uk":"uk  / eɪˌɔː.tɪk ˈruːt ˌsɜː.dʒ ə r.i /","ukp":"/eɪˌɔː.tɪk ˈruːt ˌsɜː.dʒər.i/","us":"us  / eɪˌɔːr.t̬ɪk ˈruːt ˌsɝː.dʒ ə r.i /","usp":"/eɪˌɔːr.t̬ɪk ˈruːt ˌsɝː.dʒər.i/"}
+{"title":"aortic coarctation","uk":"uk  / eɪˌɔː.tɪk kəʊ.ɑːkˈteɪ.ʃ ə n /","ukp":"/eɪˌɔː.tɪk kəʊ.ɑːkˈteɪ.ʃən/","us":"us  / eɪˈɔr.t̬ɪk ˌkoʊ.ɑːrkˈteɪ.ʃ ə n /","usp":"/eɪˈɔr.t̬ɪk ˌkoʊ.ɑːrkˈteɪ.ʃən/"}
+{"title":"aortic stenosis","uk":"uk  / eɪˌɔː.tɪk stɪˈnəʊ.sɪs /","ukp":"/eɪˌɔː.tɪk stɪˈnəʊ.sɪs/","us":"us  / eɪˌɔːr.t̬ɪk stəˈnoʊ.sɪs /","usp":"/eɪˌɔːr.t̬ɪk stəˈnoʊ.sɪs/"}
+{"title":"aortic valve disease","uk":"uk  / eɪˌɔː.tɪk ˈvælv dɪˌziːz /","ukp":"/eɪˌɔː.tɪk ˈvælv dɪˌziːz/","us":"us  / eɪˈɔr.t̬ɪk ˈvælv dɪˌziːz /","usp":"/eɪˈɔr.t̬ɪk ˈvælv dɪˌziːz/"}
+{"title":"APA","uk":"uk  / ˌeɪ.piːˈeɪ /","ukp":"/ˌeɪ.piːˈeɪ/","us":"us  / ˌeɪ.piːˈeɪ /","usp":"/ˌeɪ.piːˈeɪ/"}
+{"title":"AP","uk":"uk  / ˌeɪˈpiː /","ukp":"/ˌeɪˈpiː/","us":"us  / ˌeɪˈpiː /","usp":"/ˌeɪˈpiː/"}
+{"title":"apace","uk":"uk  / əˈpeɪs /","ukp":"/əˈpeɪs/","us":"us  / əˈpeɪs /","usp":"/əˈpeɪs/"}
+{"title":"APACS","uk":"uk  / ˈeɪpæks /","ukp":"/ˈeɪpæks/","us":"us ","usp":""}
+{"title":"Apache","uk":"uk  / əˈpætʃ.i /","ukp":"/əˈpætʃ.i/","us":"us  / əˈpætʃ.i /","usp":"/əˈpætʃ.i/"}
+{"title":"apart from","uk":"","us":""}
+{"title":"aparthotel","uk":"uk  / əˈpɑːt.həʊˌtel /","ukp":"/əˈpɑːt.həʊˌtel/","us":"us  / əˈpɑːrt.hoʊˌtel /","usp":"/əˈpɑːrt.hoʊˌtel/"}
+{"title":"apart","uk":"uk  / əˈpɑːt /","ukp":"/əˈpɑːt/","us":"us  / əˈpɑːrt /","usp":"/əˈpɑːrt/"}
+{"title":"apartheid","uk":"uk  / əˈpɑː.taɪt /","ukp":"/əˈpɑː.taɪt/","us":"us  / əˈpɑːr.taɪt /","usp":"/əˈpɑːr.taɪt/"}
+{"title":"apartments","uk":"","us":""}
+{"title":"apartment","uk":"uk  / əˈpɑːt.mənt /","ukp":"/əˈpɑːt.mənt/","us":"us  / əˈpɑːrt.mənt /","usp":"/əˈpɑːrt.mənt/"}
+{"title":"apartment building","uk":"uk  / əˈpɑːt.mənt ˌbɪl.dɪŋ /","ukp":"/əˈpɑːt.mənt ˌbɪl.dɪŋ/","us":"us  / əˈpɑːrt.mənt ˌbɪl.dɪŋ /","usp":"/əˈpɑːrt.mənt ˌbɪl.dɪŋ/"}
+{"title":"apathetic","uk":"uk  / ˌæp.əˈθet.ɪk /","ukp":"/ˌæp.əˈθet.ɪk/","us":"us  / ˌæp.əˈθet̬.ɪk /","usp":"/ˌæp.əˈθet̬.ɪk/"}
+{"title":"apathy","uk":"uk  / ˈæp.ə.θi /","ukp":"/ˈæp.ə.θi/","us":"us  / ˈæp.ə.θi /","usp":"/ˈæp.ə.θi/"}
+{"title":"apatosaurus","uk":"uk  / əˌpæt.əˈsɔː.rəs /","ukp":"/əˌpæt.əˈsɔː.rəs/","us":"us  / əˌpæt̬.əˈsɔːr.əs /","usp":"/əˌpæt̬.əˈsɔːr.əs/"}
+{"title":"APB","uk":"uk  / ˌeɪ.piˈbiː /","ukp":"/ˌeɪ.piˈbiː/","us":"us  / ˌeɪ.piˈbiː /","usp":"/ˌeɪ.piˈbiː/"}
+{"title":"APCIMS","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"ape","uk":"uk  / eɪp /","ukp":"/eɪp/","us":"us  / eɪp /","usp":"/eɪp/"}
+{"title":"aped","uk":"uk  / eɪp /","ukp":"/eɪp/","us":"us  / eɪp /","usp":"/eɪp/"}
+{"title":"Apertura and Clausura","uk":"uk  / æp.ɜːˌtʊə.rə ən klaʊˈzʊə.rə /","ukp":"/æp.ɜːˌtʊə.rə ən klaʊˈzʊə.rə/","us":"us  / æp.ɝːˌtʊr.ə ən klaʊˈzʊr.ə /","usp":"/æp.ɝːˌtʊr.ə ən klaʊˈzʊr.ə/"}
+{"title":"aperitif","uk":"uk  / əˌper.əˈtiːf /","ukp":"/əˌper.əˈtiːf/","us":"us  / əˌper.əˈtiːf /","usp":"/əˌper.əˈtiːf/"}
+{"title":"aperture","uk":"uk  / ˈæp.ə.tʃə r /","ukp":"/ˈæp.ə.tʃər/","us":"us  / ˈæp.ɚ.tʃɚ /","usp":"/ˈæp.ɚ.tʃɚ/"}
+{"title":"apexes","uk":"","us":""}
+{"title":"apex","uk":"uk  / ˈeɪ.peks /","ukp":"/ˈeɪ.peks/","us":"us  / ˈeɪ.peks /","usp":"/ˈeɪ.peks/"}
+{"title":"Apgar score","uk":"uk  / ˈæp.ɡɑː ˌskɔː r /","ukp":"/ˈæp.ɡɑː ˌskɔːr/","us":"us  / ˈæp.ɡɑːr ˌskɔːr /","usp":"/ˈæp.ɡɑːr ˌskɔːr/"}
+{"title":"aphantasia","uk":"uk  / ˌeɪ.fænˈteɪ.zi.ə /","ukp":"/ˌeɪ.fænˈteɪ.zi.ə/","us":"us  / ˌeɪ.fænˈteɪ.ʒə /","usp":"/ˌeɪ.fænˈteɪ.ʒə/"}
+{"title":"apoplectic","uk":"uk  / ˌæp.əˈplek.tɪk /","ukp":"/ˌæp.əˈplek.tɪk/","us":"us  / ˌæp.əˈplek.tɪk /","usp":"/ˌæp.əˈplek.tɪk/"}
+{"title":"apoplexy","uk":"uk  / ˈæp.ə.plek.si /","ukp":"/ˈæp.ə.plek.si/","us":"us  / ˈæp.ə.plek.si /","usp":"/ˈæp.ə.plek.si/"}
+{"title":"apostasy","uk":"uk  / əˈpɒs.tə.si /","ukp":"/əˈpɒs.tə.si/","us":"us  / əˈpɑː.stə.si /","usp":"/əˈpɑː.stə.si/"}
+{"title":"apostate","uk":"uk  / əˈpɒs.teɪt /","ukp":"/əˈpɒs.teɪt/","us":"us  / əˈpɑː.steɪt /","usp":"/əˈpɑː.steɪt/"}
+{"title":"apostle","uk":"uk  / əˈpɒs. ə l /","ukp":"/əˈpɒs.əl/","us":"us  / əˈpɑː.s ə l /","usp":"/əˈpɑː.səl/"}
+{"title":"apostille","uk":"uk  / ˈæp.ə.stiːl /","ukp":"/ˈæp.ə.stiːl/","us":"us  / ˈæp.ə.stiːl /","usp":"/ˈæp.ə.stiːl/"}
+{"title":"apostolic","uk":"uk  / ˌæp.əˈstɒl.ɪk /","ukp":"/ˌæp.əˈstɒl.ɪk/","us":"us  / ˌæp.əˈstɑː.lɪk /","usp":"/ˌæp.əˈstɑː.lɪk/"}
+{"title":"apostrophe","uk":"uk  / əˈpɒs.trə.fi /","ukp":"/əˈpɒs.trə.fi/","us":"us  / əˈpɑː.strə.fi /","usp":"/əˈpɑː.strə.fi/"}
+{"title":"apothecary","uk":"uk  / əˈpɒθ.ə.k ə r.i /","ukp":"/əˈpɒθ.ə.kər.i/","us":"us  / əˈpɑː.θəˌker.i /","usp":"/əˈpɑː.θəˌker.i/"}
+{"title":"apotheoses","uk":"","us":""}
+{"title":"apothegm","uk":"uk  / ˈæp.ə.θem /","ukp":"/ˈæp.ə.θem/","us":"us  / ˈæp.ə.θem /","usp":"/ˈæp.ə.θem/"}
+{"title":"apotheosis","uk":"uk  / əˌpɒθ.iˈəʊ.sɪs /","ukp":"/əˌpɒθ.iˈəʊ.sɪs/","us":"us  / əˌpɑː.θiˈoʊ.sɪs /","usp":"/əˌpɑː.θiˈoʊ.sɪs/"}
+{"title":"apotropaic","uk":"uk  / ˌæp.ə.trəˈpeɪ.ɪk /","ukp":"/ˌæp.ə.trəˈpeɪ.ɪk/","us":"us  / ˌæp.ə.trəˈpeɪ.ɪk /","usp":"/ˌæp.ə.trəˈpeɪ.ɪk/"}
+{"title":"App Store","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"app","uk":"uk  / æp /","ukp":"/æp/","us":"us  / æp /","usp":"/æp/"}
+{"title":"appal","uk":"uk  / əˈpɔːl /","ukp":"/əˈpɔːl/","us":"us  / əˈpɑːl /","usp":"/əˈpɑːl/"}
+{"title":"appall","uk":"uk  / əˈpɔːl /","ukp":"/əˈpɔːl/","us":"us  / əˈpɑːl /","usp":"/əˈpɑːl/"}
+{"title":"appalled","uk":"uk  / əˈpɔːld /","ukp":"/əˈpɔːld/","us":"us  / əˈpɑːld /","usp":"/əˈpɑːld/"}
+{"title":"appalling","uk":"uk  / əˈpɔː.lɪŋ /","ukp":"/əˈpɔː.lɪŋ/","us":"us  / əˈpɑː.lɪŋ /","usp":"/əˈpɑː.lɪŋ/"}
+{"title":"appallingly","uk":"uk  / əˈpɔː.lɪŋ.li /","ukp":"/əˈpɔː.lɪŋ.li/","us":"us  / əˈpɑː.lɪŋ.li /","usp":"/əˈpɑː.lɪŋ.li/"}
+{"title":"apparatchik","uk":"uk  / ˌæp.əˈrætʃ.ɪk /","ukp":"/ˌæp.əˈrætʃ.ɪk/","us":"us  / ˌɑː.pəˈrɑː.tʃɪk /","usp":"/ˌɑː.pəˈrɑː.tʃɪk/"}
+{"title":"apparatuses","uk":"","us":""}
+{"title":"apparatus","uk":"uk  / ˌæp.əˈreɪ.təs /","ukp":"/ˌæp.əˈreɪ.təs/","us":"us  / ˌæp.əˈræt̬.əs /","usp":"/ˌæp.əˈræt̬.əs/"}
+{"title":"apparel","uk":"uk  / əˈpær. ə l /","ukp":"/əˈpær.əl/","us":"us  / əˈper. ə l /","usp":"/əˈper.əl/"}
+{"title":"apparent","uk":"uk  / əˈpær. ə nt /","ukp":"/əˈpær.ənt/","us":"us  / əˈper. ə nt /","usp":"/əˈper.ənt/"}
+{"title":"apparent damage","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"apparently","uk":"uk  / əˈpær. ə nt.li /","ukp":"/əˈpær.ənt.li/","us":"us  / əˈper. ə nt.li /","usp":"/əˈper.ənt.li/"}
+{"title":"appeal bond","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"apparition","uk":"uk  / ˌæp.əˈrɪʃ. ə n /","ukp":"/ˌæp.əˈrɪʃ.ən/","us":"us  / ˌæp.əˈrɪʃ. ə n /","usp":"/ˌæp.əˈrɪʃ.ən/"}
+{"title":"appeal court","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"appeal","uk":"uk  / əˈpiːl /","ukp":"/əˈpiːl/","us":"us  / əˈpiːl /","usp":"/əˈpiːl/"}
+{"title":"appealed","uk":"uk  / əˈpiːl /","ukp":"/əˈpiːl/","us":"us  / əˈpiːl /","usp":"/əˈpiːl/"}
+{"title":"appealingly","uk":"uk  / əˈpiː.lɪŋ.li /","ukp":"/əˈpiː.lɪŋ.li/","us":"us  / əˈpiː.lɪŋ.li /","usp":"/əˈpiː.lɪŋ.li/"}
+{"title":"appealing","uk":"uk  / əˈpiː.lɪŋ /","ukp":"/əˈpiː.lɪŋ/","us":"us  / əˈpiː.lɪŋ /","usp":"/əˈpiː.lɪŋ/"}
+{"title":"appeals board","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"appeals court","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"appear for someone","uk":"uk  / əˈpɪə r /","ukp":"/əˈpɪər/","us":"us  / əˈpɪr /","usp":"/əˈpɪr/"}
+{"title":"appear","uk":"uk  / əˈpɪə r /","ukp":"/əˈpɪər/","us":"us  / əˈpɪr /","usp":"/əˈpɪr/"}
+{"title":"appearance","uk":"uk  / əˈpɪə.r ə ns /","ukp":"/əˈpɪə.rəns/","us":"us  / əˈpɪr. ə ns /","usp":"/əˈpɪr.əns/"}
+{"title":"appearances","uk":"","us":"us  / əˈpɪər·ən·səz /","usp":"/əˈpɪər·ən·səz/"}
+{"title":"appease","uk":"uk  / əˈpiːz /","ukp":"/əˈpiːz/","us":"us  / əˈpiːz /","usp":"/əˈpiːz/"}
+{"title":"appeared","uk":"uk  / əˈpɪə r /","ukp":"/əˈpɪər/","us":"us  / əˈpɪr /","usp":"/əˈpɪr/"}
+{"title":"appeased","uk":"uk  / əˈpiːz /","ukp":"/əˈpiːz/","us":"us  / əˈpiːz /","usp":"/əˈpiːz/"}
+{"title":"appearing","uk":"uk  / əˈpɪə r /","ukp":"/əˈpɪər/","us":"us  / əˈpɪr /","usp":"/əˈpɪr/"}
+{"title":"aphasia","uk":"uk  / əˈfeɪ.ʒə /","ukp":"/əˈfeɪ.ʒə/","us":"us  / əˈfeɪ.ʒə /","usp":"/əˈfeɪ.ʒə/"}
+{"title":"aphasic","uk":"uk  / əˈfeɪ.zɪk /","ukp":"/əˈfeɪ.zɪk/","us":"us  / əˈfeɪ.zɪk /","usp":"/əˈfeɪ.zɪk/"}
+{"title":"appeasement","uk":"uk  / əˈpiːz.mənt /","ukp":"/əˈpiːz.mənt/","us":"us  / əˈpiːz.mənt /","usp":"/əˈpiːz.mənt/"}
+{"title":"aphelia","uk":"","us":""}
+{"title":"aphelion","uk":"uk  / æfˈiː.li.ən /","ukp":"/æfˈiː.li.ən/","us":"us  / æfˈiː.li.ən /","usp":"/æfˈiː.li.ən/"}
+{"title":"aphesis","uk":"uk / ˈæf.ə.sɪs /","ukp":"/ˈæf.ə.sɪs/","us":"us / ˈæf.ə.sɪs /","usp":"/ˈæf.ə.sɪs/"}
+{"title":"apheresis","uk":"uk / æfˈɪə.rə.sɪs /","ukp":"/æfˈɪə.rə.sɪs/","us":"us / əˈfer.ə.sɪs /","usp":"/əˈfer.ə.sɪs/"}
+{"title":"aphetic","uk":"uk / əˈfet.ɪk /","ukp":"/əˈfet.ɪk/","us":"us / əˈfet̬.ɪk /","usp":"/əˈfet̬.ɪk/"}
+{"title":"aphid","uk":"uk  / ˈeɪ.fɪd /","ukp":"/ˈeɪ.fɪd/","us":"us  / ˈeɪ.fɪd /","usp":"/ˈeɪ.fɪd/"}
+{"title":"aphrodisiac","uk":"uk  / ˌæf.rəˈdɪz.i.æk /","ukp":"/ˌæf.rəˈdɪz.i.æk/","us":"us  / ˌæf.rəˈdɪzˈdiː.ʒæk /","usp":"/ˌæf.rəˈdɪzˈdiː.ʒæk/"}
+{"title":"aphorism","uk":"uk  / ˈæf.ə.rɪ.z ə m /","ukp":"/ˈæf.ə.rɪ.zəm/","us":"us  / ˈæf.ɚ.ɪ.z ə m /","usp":"/ˈæf.ɚ.ɪ.zəm/"}
+{"title":"Aphrodite","uk":"uk  / ˌæf.rəˈdaɪ.ti /","ukp":"/ˌæf.rəˈdaɪ.ti/","us":"us  / ˌæf.rəˈdaɪ.t̬i /","usp":"/ˌæf.rəˈdaɪ.t̬i/"}
+{"title":"API","uk":"uk  / ˌeɪ.piˈaɪ /","ukp":"/ˌeɪ.piˈaɪ/","us":"us  / ˌeɪ.piˈaɪ /","usp":"/ˌeɪ.piˈaɪ/"}
+{"title":"Apia","uk":"uk  / ɑːˈpiː.ə /","ukp":"/ɑːˈpiː.ə/","us":"us  / ɑːˈpiː.ə /","usp":"/ɑːˈpiː.ə/"}
+{"title":"apiarist","uk":"uk  / ˈeɪ.pi.ə.rɪst /","ukp":"/ˈeɪ.pi.ə.rɪst/","us":"us  / ˈeɪ.pi.er.ɪst /","usp":"/ˈeɪ.pi.er.ɪst/"}
+{"title":"apical","uk":"uk  / ˈeɪ.pɪ.k ə l /","ukp":"/ˈeɪ.pɪ.kəl/","us":"us  / ˈeɪ.pɪ.k ə l /","usp":"/ˈeɪ.pɪ.kəl/"}
+{"title":"apiary","uk":"uk  / ˈeɪ.pi.ə.ri /","ukp":"/ˈeɪ.pi.ə.ri/","us":"us  / ˈeɪ.pi.er.i /","usp":"/ˈeɪ.pi.er.i/"}
+{"title":"apices","uk":"uk  / ˈeɪ.pɪ.siːz /","ukp":"/ˈeɪ.pɪ.siːz/","us":"us  / ˈeɪ.pɪ.siːz /","usp":"/ˈeɪ.pɪ.siːz/"}
+{"title":"apiculture","uk":"uk  / ˈeɪ.pɪ.kʌl.tʃə r /","ukp":"/ˈeɪ.pɪ.kʌl.tʃər/","us":"us  / ˈeɪ.pɪ.kʌl.tʃɚ /","usp":"/ˈeɪ.pɪ.kʌl.tʃɚ/"}
+{"title":"apiece","uk":"uk  / əˈpiːs /","ukp":"/əˈpiːs/","us":"us  / əˈpiːs /","usp":"/əˈpiːs/"}
+{"title":"aplenty","uk":"uk  / əˈplen.ti /","ukp":"/əˈplen.ti/","us":"us  / əˈplen.t̬i /","usp":"/əˈplen.t̬i/"}
+{"title":"aping","uk":"uk  / eɪp /","ukp":"/eɪp/","us":"us  / eɪp /","usp":"/eɪp/"}
+{"title":"aplomb","uk":"uk  / əˈplɒm /","ukp":"/əˈplɒm/","us":"us  / əˈplɑːm /","usp":"/əˈplɑːm/"}
+{"title":"apnea","uk":"uk  / ˈæp.ni.ə /","ukp":"/ˈæp.ni.ə/","us":"us  / ˈæp.ni.ə /","usp":"/ˈæp.ni.ə/"}
+{"title":"apnoea","uk":"uk  / ˈæp.ni.ə /","ukp":"/ˈæp.ni.ə/","us":"us  / ˈæp.ni.ə /","usp":"/ˈæp.ni.ə/"}
+{"title":"apocalypse","uk":"uk  / əˈpɒk.ə.lɪps /","ukp":"/əˈpɒk.ə.lɪps/","us":"us  / əˈpɑː.kə.lɪps /","usp":"/əˈpɑː.kə.lɪps/"}
+{"title":"apocalyptic","uk":"uk  / əˌpɒk.əˈlɪp.tɪk /","ukp":"/əˌpɒk.əˈlɪp.tɪk/","us":"us  / əˌpɑː.kəˈlɪp.t̬ɪ.k /","usp":"/əˌpɑː.kəˈlɪp.t̬ɪ.k/"}
+{"title":"apocryphal","uk":"uk  / əˈpɒk.rɪ.f ə l /","ukp":"/əˈpɒk.rɪ.fəl/","us":"us  / əˈpɑː.krə.f ə l /","usp":"/əˈpɑː.krə.fəl/"}
+{"title":"apogee","uk":"uk  / ˈæp.ə.dʒiː /","ukp":"/ˈæp.ə.dʒiː/","us":"us  / ˈæp.ə.dʒiː /","usp":"/ˈæp.ə.dʒiː/"}
+{"title":"apoliticism","uk":"uk  / ˌeɪ.pəˈlɪt.ɪ.sɪ.z ə m /","ukp":"/ˌeɪ.pəˈlɪt.ɪ.sɪ.zəm/","us":"us  / ˌeɪ.pəˈlɪt̬.ə.sɪ.z ə m /","usp":"/ˌeɪ.pəˈlɪt̬.ə.sɪ.zəm/"}
+{"title":"Apollo","uk":"uk  / əˈpɒl.əʊ /","ukp":"/əˈpɒl.əʊ/","us":"us  / əˈpɑː.loʊ /","usp":"/əˈpɑː.loʊ/"}
+{"title":"apolitical","uk":"uk  / ˌeɪ.pəˈlɪt.ɪ.k ə l /","ukp":"/ˌeɪ.pəˈlɪt.ɪ.kəl/","us":"us  / ˌeɪ.pəˈlɪt̬.ɪ.k ə l /","usp":"/ˌeɪ.pəˈlɪt̬.ɪ.kəl/"}
+{"title":"apologetically","uk":"uk  / əˌpɒl.əˈdʒet.ɪ.k ə l.i /","ukp":"/əˌpɒl.əˈdʒet.ɪ.kəl.i/","us":"us  / əˌpɑː.ləˈdʒet̬.ɪ.k ə l.i /","usp":"/əˌpɑː.ləˈdʒet̬.ɪ.kəl.i/"}
+{"title":"apologetic","uk":"uk  / əˌpɒl.əˈdʒet.ɪk /","ukp":"/əˌpɒl.əˈdʒet.ɪk/","us":"us  / əˌpɑː.ləˈdʒet̬.ɪk /","usp":"/əˌpɑː.ləˈdʒet̬.ɪk/"}
+{"title":"apologist","uk":"uk  / əˈpɒl.ə.dʒɪst /","ukp":"/əˈpɒl.ə.dʒɪst/","us":"us  / əˈpɑː.lə.dʒɪst /","usp":"/əˈpɑː.lə.dʒɪst/"}
+{"title":"apologize","uk":"uk  / əˈpɒl.ə.dʒaɪz /","ukp":"/əˈpɒl.ə.dʒaɪz/","us":"us  / əˈpɑː.lə.dʒaɪz /","usp":"/əˈpɑː.lə.dʒaɪz/"}
+{"title":"apologizing","uk":"uk  / əˈpɒl.ə.dʒaɪz /","ukp":"/əˈpɒl.ə.dʒaɪz/","us":"us  / əˈpɑː.lə.dʒaɪz /","usp":"/əˈpɑː.lə.dʒaɪz/"}
+{"title":"apologized","uk":"uk  / əˈpɒl.ə.dʒaɪz /","ukp":"/əˈpɒl.ə.dʒaɪz/","us":"us  / əˈpɑː.lə.dʒaɪz /","usp":"/əˈpɑː.lə.dʒaɪz/"}
+{"title":"apology","uk":"uk  / əˈpɒl.ə.dʒi /","ukp":"/əˈpɒl.ə.dʒi/","us":"us  / əˈpɑː.lə.dʒi /","usp":"/əˈpɑː.lə.dʒi/"}
+{"title":"aponeuroses","uk":"","us":""}
+{"title":"aponeurosis","uk":"uk  / ˌæp.ə.njʊəˈrəʊ.sɪs /","ukp":"/ˌæp.ə.njʊəˈrəʊ.sɪs/","us":"us  / ˌæp.ə.nʊˈroʊ.sɪs /","usp":"/ˌæp.ə.nʊˈroʊ.sɪs/"}
+{"title":"apophatic","uk":"uk  / ˌæp.əˈfæt.ɪk /","ukp":"/ˌæp.əˈfæt.ɪk/","us":"us  / ˌæp.əˈfæt̬.ɪk /","usp":"/ˌæp.əˈfæt̬.ɪk/"}
+{"title":"application software","uk":"uk / ˌæp.lɪˈkeɪ.ʃ ə n ˌsɒft.weə r /","ukp":"/ˌæp.lɪˈkeɪ.ʃən ˌsɒft.weər/","us":"us / ˌæp.ləˈkeɪ.ʃ ə n ˌsɑːft.wer /","usp":"/ˌæp.ləˈkeɪ.ʃən ˌsɑːft.wer/"}
+{"title":"applicative","uk":"uk / əˈplɪk.ə.tɪv /","ukp":"/əˈplɪk.ə.tɪv/","us":"us / əˈplɪk.ə.t̬ɪv /","usp":"/əˈplɪk.ə.t̬ɪv/"}
+{"title":"applicator","uk":"uk  / ˈæp.lɪ.keɪ.tə r /","ukp":"/ˈæp.lɪ.keɪ.tər/","us":"us  / ˈæp.lə.keɪ.t̬ɚ /","usp":"/ˈæp.lə.keɪ.t̬ɚ/"}
+{"title":"applied","uk":"uk  / əˈplaɪd /","ukp":"/əˈplaɪd/","us":"us  / əˈplaɪd /","usp":"/əˈplaɪd/"}
+{"title":"applied economics","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"applied linguistics","uk":"uk  / əˌplaɪd lɪŋˈɡwɪs.tɪks /","ukp":"/əˌplaɪd lɪŋˈɡwɪs.tɪks/","us":"us  / əˌplaɪd lɪŋˈɡwɪs.tɪks /","usp":"/əˌplaɪd lɪŋˈɡwɪs.tɪks/"}
+{"title":"appliquéd","uk":"uk  / əˈpliː.keɪd /","ukp":"/əˈpliː.keɪd/","us":"us  / ˈæp.lə.keɪd /","usp":"/ˈæp.lə.keɪd/"}
+{"title":"appliqué","uk":"uk  / əˈpliː.keɪ /","ukp":"/əˈpliː.keɪ/","us":"us  / ˈæp.lə.keɪ /","usp":"/ˈæp.lə.keɪ/"}
+{"title":"apply","uk":"uk  / əˈplaɪ /","ukp":"/əˈplaɪ/","us":"us  / əˈplaɪ /","usp":"/əˈplaɪ/"}
+{"title":"appointed","uk":"uk  / əˈpɔɪn.tɪd /","ukp":"/əˈpɔɪn.tɪd/","us":"us  / əˈpɔɪn.t̬ɪd /","usp":"/əˈpɔɪn.t̬ɪd/"}
+{"title":"applying","uk":"uk  / əˈplaɪ /","ukp":"/əˈplaɪ/","us":"us  / əˈplaɪ /","usp":"/əˈplaɪ/"}
+{"title":"appoint","uk":"uk  / əˈpɔɪnt /","ukp":"/əˈpɔɪnt/","us":"us  / əˈpɔɪnt /","usp":"/əˈpɔɪnt/"}
+{"title":"appointee","uk":"uk  / əˌpɔɪnˈtiː /","ukp":"/əˌpɔɪnˈtiː/","us":"us  / əˌpɔɪnˈtiː /","usp":"/əˌpɔɪnˈtiː/"}
+{"title":"appointment book","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"appointing","uk":"uk  / əˈpɔɪnt /","ukp":"/əˈpɔɪnt/","us":"us  / əˈpɔɪnt /","usp":"/əˈpɔɪnt/"}
+{"title":"appointment","uk":"uk  / əˈpɔɪnt.mənt /","ukp":"/əˈpɔɪnt.mənt/","us":"us  / əˈpɔɪnt.mənt /","usp":"/əˈpɔɪnt.mənt/"}
+{"title":"appointment letter","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"apportion","uk":"uk  / əˈpɔː.ʃ ə n /","ukp":"/əˈpɔː.ʃən/","us":"us  / əˈpɔːr.ʃ ə n /","usp":"/əˈpɔːr.ʃən/"}
+{"title":"apportioned","uk":"uk  / əˈpɔː.ʃ ə n /","ukp":"/əˈpɔː.ʃən/","us":"us  / əˈpɔːr.ʃ ə n /","usp":"/əˈpɔːr.ʃən/"}
+{"title":"apportioning","uk":"uk  / əˈpɔː.ʃ ə n /","ukp":"/əˈpɔː.ʃən/","us":"us  / əˈpɔːr.ʃ ə n /","usp":"/əˈpɔːr.ʃən/"}
+{"title":"apportionment","uk":"uk  / əˈpɔːʃ ə nmənt /","ukp":"/əˈpɔːʃənmənt/","us":"us ","usp":""}
+{"title":"appose","uk":"uk  / əˈpəʊz /","ukp":"/əˈpəʊz/","us":"us  / əˈpoʊz /","usp":"/əˈpoʊz/"}
+{"title":"apposition","uk":"uk  / ˌæp.əˈzɪʃ. ə n /","ukp":"/ˌæp.əˈzɪʃ.ən/","us":"us  / ˌæp.əˈzɪʃ. ə n /","usp":"/ˌæp.əˈzɪʃ.ən/"}
+{"title":"apposite","uk":"uk  / ˈæp.ə.zɪt /","ukp":"/ˈæp.ə.zɪt/","us":"us  / ˈæp.ə.zɪt /","usp":"/ˈæp.ə.zɪt/"}
+{"title":"appositive","uk":"uk  / əˈpɒz.ə.tɪv /","ukp":"/əˈpɒz.ə.tɪv/","us":"us  / əˈpɑː.zə.t̬ɪv /","usp":"/əˈpɑː.zə.t̬ɪv/"}
+{"title":"appositively","uk":"uk / əˈpɒz.ə.tɪv.li /","ukp":"/əˈpɒz.ə.tɪv.li/","us":"us / əˈpɑː.zə.t̬ɪv.li /","usp":"/əˈpɑː.zə.t̬ɪv.li/"}
+{"title":"appraisal","uk":"uk  / əˈpreɪ.z ə l /","ukp":"/əˈpreɪ.zəl/","us":"us  / əˈpreɪ.z ə l /","usp":"/əˈpreɪ.zəl/"}
+{"title":"appraised","uk":"uk  / əˈpreɪz /","ukp":"/əˈpreɪz/","us":"us  / əˈpreɪz /","usp":"/əˈpreɪz/"}
+{"title":"appraise","uk":"uk  / əˈpreɪz /","ukp":"/əˈpreɪz/","us":"us  / əˈpreɪz /","usp":"/əˈpreɪz/"}
+{"title":"appraisee","uk":"uk  / ə.preɪˈziː /","ukp":"/ə.preɪˈziː/","us":"us  / ə.preɪˈziː /","usp":"/ə.preɪˈziː/"}
+{"title":"appraising","uk":"uk  / əˈpreɪz /","ukp":"/əˈpreɪz/","us":"us  / əˈpreɪz /","usp":"/əˈpreɪz/"}
+{"title":"appraiser","uk":"uk  / əˈpreɪ.zə r /","ukp":"/əˈpreɪ.zər/","us":"us  / əˈpreɪ.zɚ /","usp":"/əˈpreɪ.zɚ/"}
+{"title":"appreciable","uk":"uk  / əˈpriː.ʃə.b ə l /","ukp":"/əˈpriː.ʃə.bəl/","us":"us  / əˈpriː.ʃə.b ə l /","usp":"/əˈpriː.ʃə.bəl/"}
+{"title":"appreciably","uk":"uk  / əˈpriː.ʃə.bli /","ukp":"/əˈpriː.ʃə.bli/","us":"us  / əˈpriː.ʃə.bli /","usp":"/əˈpriː.ʃə.bli/"}
+{"title":"appreciate","uk":"uk  / əˈpriː.ʃi.eɪt /","ukp":"/əˈpriː.ʃi.eɪt/","us":"us  / əˈpriː.ʃi.eɪt /","usp":"/əˈpriː.ʃi.eɪt/"}
+{"title":"appreciated","uk":"uk  / əˈpriː.ʃi.eɪt /","ukp":"/əˈpriː.ʃi.eɪt/","us":"us  / əˈpriː.ʃi.eɪt /","usp":"/əˈpriː.ʃi.eɪt/"}
+{"title":"appreciating","uk":"uk  / əˈpriː.ʃi.eɪt /","ukp":"/əˈpriː.ʃi.eɪt/","us":"us  / əˈpriː.ʃi.eɪt /","usp":"/əˈpriː.ʃi.eɪt/"}
+{"title":"appreciation","uk":"uk  / əˌpriː.ʃiˈeɪ.ʃ ə n /","ukp":"/əˌpriː.ʃiˈeɪ.ʃən/","us":"us  / əˌpriː.ʃiˈeɪ.ʃ ə n /","usp":"/əˌpriː.ʃiˈeɪ.ʃən/"}
+{"title":"appreciatively","uk":"uk  / əˈpriː.ʃə.tɪv.li /","ukp":"/əˈpriː.ʃə.tɪv.li/","us":"us  / əˈpriː.ʃə.t̬ɪv.li /","usp":"/əˈpriː.ʃə.t̬ɪv.li/"}
+{"title":"appreciative","uk":"uk  / əˈpriː.ʃə.tɪv /","ukp":"/əˈpriː.ʃə.tɪv/","us":"us  / əˈpriː.ʃə.t̬ɪv /","usp":"/əˈpriː.ʃə.t̬ɪv/"}
+{"title":"apprehend","uk":"uk  / ˌæp.rɪˈhend /","ukp":"/ˌæp.rɪˈhend/","us":"us  / ˌæp.rəˈhend /","usp":"/ˌæp.rəˈhend/"}
+{"title":"apprehended","uk":"uk  / ˌæp.rɪˈhend /","ukp":"/ˌæp.rɪˈhend/","us":"us  / ˌæp.rəˈhend /","usp":"/ˌæp.rəˈhend/"}
+{"title":"apprehending","uk":"uk  / ˌæp.rɪˈhend /","ukp":"/ˌæp.rɪˈhend/","us":"us  / ˌæp.rəˈhend /","usp":"/ˌæp.rəˈhend/"}
+{"title":"apprehensible","uk":"uk  / ˌæp.rɪˈhen.sə.b ə l /","ukp":"/ˌæp.rɪˈhen.sə.bəl/","us":"us  / ˌæp.rəˈhen.sə.b ə l /","usp":"/ˌæp.rəˈhen.sə.bəl/"}
+{"title":"apprehension","uk":"uk  / ˌæp.rɪˈhen.ʃ ə n /","ukp":"/ˌæp.rɪˈhen.ʃən/","us":"us  / ˌæp.rəˈhen.ʃ ə n /","usp":"/ˌæp.rəˈhen.ʃən/"}
+{"title":"apprehensive","uk":"uk  / ˌæp.rɪˈhen.sɪv /","ukp":"/ˌæp.rɪˈhen.sɪv/","us":"us  / ˌæp.rəˈhen.sɪv /","usp":"/ˌæp.rəˈhen.sɪv/"}
+{"title":"apprehensively","uk":"uk  / ˌæp.rɪˈhen.sɪv.li /","ukp":"/ˌæp.rɪˈhen.sɪv.li/","us":"us  / ˌæp.rəˈhen.sɪv.li /","usp":"/ˌæp.rəˈhen.sɪv.li/"}
+{"title":"apprentice","uk":"uk  / əˈpren.tɪs /","ukp":"/əˈpren.tɪs/","us":"us  / əˈpren.t̬ɪs /","usp":"/əˈpren.t̬ɪs/"}
+{"title":"apprenticed","uk":"uk  / əˈpren.tɪs /","ukp":"/əˈpren.tɪs/","us":"us  / əˈpren.t̬ɪs /","usp":"/əˈpren.t̬ɪs/"}
+{"title":"apprenticeship","uk":"uk  / əˈpren.tɪs.ʃɪp /","ukp":"/əˈpren.tɪs.ʃɪp/","us":"us  / əˈpren.t̬ɪs.ʃɪp /","usp":"/əˈpren.t̬ɪs.ʃɪp/"}
+{"title":"appeasing","uk":"uk  / əˈpiːz /","ukp":"/əˈpiːz/","us":"us  / əˈpiːz /","usp":"/əˈpiːz/"}
+{"title":"appellant","uk":"uk / əˈpel.ənt /","ukp":"/əˈpel.ənt/","us":"us / əˈpel.ənt /","usp":"/əˈpel.ənt/"}
+{"title":"appellate","uk":"uk  / əˈpel.ət /","ukp":"/əˈpel.ət/","us":"us  / əˈpel.ət /","usp":"/əˈpel.ət/"}
+{"title":"appellation","uk":"uk  / ˌæp.əˈleɪ.ʃ ə n /","ukp":"/ˌæp.əˈleɪ.ʃən/","us":"us  / ˌæp.əˈleɪ.ʃ ə n /","usp":"/ˌæp.əˈleɪ.ʃən/"}
+{"title":"appellate jurisdiction","uk":"uk  / əˌpel.ət dʒʊə.rɪsˈdɪk.ʃ ə n /","ukp":"/əˌpel.ət dʒʊə.rɪsˈdɪk.ʃən/","us":"us  / əˌpel.ət dʒʊr.ɪsˈdɪk.ʃ ə n /","usp":"/əˌpel.ət dʒʊr.ɪsˈdɪk.ʃən/"}
+{"title":"append","uk":"uk  / əˈpend /","ukp":"/əˈpend/","us":"us  / əˈpend /","usp":"/əˈpend/"}
+{"title":"appended","uk":"uk  / əˈpend /","ukp":"/əˈpend/","us":"us  / əˈpend /","usp":"/əˈpend/"}
+{"title":"appendage","uk":"uk  / əˈpen.dɪdʒ /","ukp":"/əˈpen.dɪdʒ/","us":"us  / əˈpen.dɪdʒ /","usp":"/əˈpen.dɪdʒ/"}
+{"title":"appendectomy","uk":"uk  / ˌæp.enˈdek.tə.mi /","ukp":"/ˌæp.enˈdek.tə.mi/","us":"us  / ˌæp.enˈdek.tə.mi /","usp":"/ˌæp.enˈdek.tə.mi/"}
+{"title":"appendices","uk":"","us":""}
+{"title":"appendicitis","uk":"uk  / əˌpen.dɪˈsaɪ.tɪs /","ukp":"/əˌpen.dɪˈsaɪ.tɪs/","us":"us  / əˌpen.dəˈsaɪ.t̬əs /","usp":"/əˌpen.dəˈsaɪ.t̬əs/"}
+{"title":"appendicular","uk":"uk  / ˌæp.ənˈdɪk.jə.lə r /","ukp":"/ˌæp.ənˈdɪk.jə.lər/","us":"us  / ˌæp.ənˈdɪk.jə.lɚ /","usp":"/ˌæp.ənˈdɪk.jə.lɚ/"}
+{"title":"appending","uk":"uk  / əˈpend /","ukp":"/əˈpend/","us":"us  / əˈpend /","usp":"/əˈpend/"}
+{"title":"appendix","uk":"uk  / əˈpen.dɪks /","ukp":"/əˈpen.dɪks/","us":"us  / əˈpen.dɪks /","usp":"/əˈpen.dɪks/"}
+{"title":"appendixes","uk":"","us":""}
+{"title":"appertain to something","uk":"uk  / ˌæp.əˈteɪn /","ukp":"/ˌæp.əˈteɪn/","us":"us  / ˌæp.ɚˈteɪn /","usp":"/ˌæp.ɚˈteɪn/"}
+{"title":"appetite","uk":"uk  / ˈæp.ə.taɪt /","ukp":"/ˈæp.ə.taɪt/","us":"us  / ˈæp.ə.taɪt /","usp":"/ˈæp.ə.taɪt/"}
+{"title":"appetizer","uk":"uk  / ˈæp.ə.taɪ.zə r /","ukp":"/ˈæp.ə.taɪ.zər/","us":"us  / ˈæp.ə.taɪ.zɚ /","usp":"/ˈæp.ə.taɪ.zɚ/"}
+{"title":"appetizingly","uk":"uk / ˈæp.ɪ.taɪ.zɪŋ.li /","ukp":"/ˈæp.ɪ.taɪ.zɪŋ.li/","us":"us / ˈæp.ə.taɪ.zɪŋ.li /","usp":"/ˈæp.ə.taɪ.zɪŋ.li/"}
+{"title":"appetizing","uk":"uk  / ˈæp.ə.taɪ.zɪŋ /","ukp":"/ˈæp.ə.taɪ.zɪŋ/","us":"us  / ˈæp.ə.taɪ.zɪŋ /","usp":"/ˈæp.ə.taɪ.zɪŋ/"}
+{"title":"applauded","uk":"uk  / əˈplɔːd /","ukp":"/əˈplɔːd/","us":"us  / əˈplɑːd /","usp":"/əˈplɑːd/"}
+{"title":"applaud","uk":"uk  / əˈplɔːd /","ukp":"/əˈplɔːd/","us":"us  / əˈplɑːd /","usp":"/əˈplɑːd/"}
+{"title":"applauding","uk":"uk  / əˈplɔːd /","ukp":"/əˈplɔːd/","us":"us  / əˈplɑːd /","usp":"/əˈplɑːd/"}
+{"title":"applause","uk":"uk  / əˈplɔːz /","ukp":"/əˈplɔːz/","us":"us  / əˈplɑːz /","usp":"/əˈplɑːz/"}
+{"title":"apple cider vinegar","uk":"uk / ˌæp. ə l ˌsaɪ.də ˈvɪn.ɪ.ɡə r /","ukp":"/ˌæp.əl ˌsaɪ.də ˈvɪn.ɪ.ɡər/","us":"us / ˌæp. ə l ˌsaɪ.dɚ ˈvɪn.ə.ɡɚ /","usp":"/ˌæp.əl ˌsaɪ.dɚ ˈvɪn.ə.ɡɚ/"}
+{"title":"apple butter","uk":"uk  / ˌæp. ə l ˈbʌt.ə r /","ukp":"/ˌæp.əl ˈbʌt.ər/","us":"us  / ˈæp. ə l ˌbʌt̬.ɚ /","usp":"/ˈæp.əl ˌbʌt̬.ɚ/"}
+{"title":"apple","uk":"uk  / ˈæp. ə l /","ukp":"/ˈæp.əl/","us":"us  / ˈæp. ə l /","usp":"/ˈæp.əl/"}
+{"title":"apple green","uk":"uk / ˌæp. ə l ˈɡriːn /","ukp":"/ˌæp.əl ˈɡriːn/","us":"us  / ˌæp. ə l ˈɡriːn /","usp":"/ˌæp.əl ˈɡriːn/"}
+{"title":"apple juice","uk":"uk  / ˈæp. ə l ˌdʒuːs /","ukp":"/ˈæp.əl ˌdʒuːs/","us":"us  / ˈæp. ə l ˌdʒuːs /","usp":"/ˈæp.əl ˌdʒuːs/"}
+{"title":"apple pie","uk":"uk  / ˌæp. ə l ˈpaɪ /","ukp":"/ˌæp.əl ˈpaɪ/","us":"us  / ˌæp. ə l ˈpaɪ /","usp":"/ˌæp.əl ˈpaɪ/"}
+{"title":"apple sauce","uk":"uk  / ˌæp. ə l ˈsɔːs /","ukp":"/ˌæp.əl ˈsɔːs/","us":"us  / ˈæp. ə l ˌsɑːs /","usp":"/ˈæp.əl ˌsɑːs/"}
+{"title":"applecart","uk":"uk / ˈæp. ə l.kɑːt /","ukp":"/ˈæp.əl.kɑːt/","us":"us / ˈæp. ə l.kɑːrt /","usp":"/ˈæp.əl.kɑːrt/"}
+{"title":"applejack","uk":"uk  / ˈæp. ə l.dʒæk /","ukp":"/ˈæp.əl.dʒæk/","us":"us  / ˈæp. ə l.dʒæk /","usp":"/ˈæp.əl.dʒæk/"}
+{"title":"applesauce","uk":"uk  / ˌæp. ə l ˈsɔːs /","ukp":"/ˌæp.əl ˈsɔːs/","us":"us  / ˈæp. ə l ˌsɑːs /","usp":"/ˈæp.əl ˌsɑːs/"}
+{"title":"applet","uk":"uk  / ˈæp.lət /","ukp":"/ˈæp.lət/","us":"us  / ˈæp.lət /","usp":"/ˈæp.lət/"}
+{"title":"appliance","uk":"uk  / əˈplaɪ.əns /","ukp":"/əˈplaɪ.əns/","us":"us  / əˈplaɪ.əns /","usp":"/əˈplaɪ.əns/"}
+{"title":"applicability","uk":"uk  / əˌplɪk.əˈbɪl.ə.ti /","ukp":"/əˌplɪk.əˈbɪl.ə.ti/","us":"us  / ˌæ.plɪk.əˈbɪl.ə.t̬i /","usp":"/ˌæ.plɪk.əˈbɪl.ə.t̬i/"}
+{"title":"applicable","uk":"uk  / əˈplɪk.ə.b ə l /","ukp":"/əˈplɪk.ə.bəl/","us":"us  / əˈplɪk.ə.b ə l /","usp":"/əˈplɪk.ə.bəl/"}
+{"title":"application for listing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"applicant","uk":"uk  / ˈæp.lɪ.kənt /","ukp":"/ˈæp.lɪ.kənt/","us":"us  / ˈæp.lə.kənt /","usp":"/ˈæp.lə.kənt/"}
+{"title":"application","uk":"uk  / ˌæp.lɪˈkeɪ.ʃ ə n /","ukp":"/ˌæp.lɪˈkeɪ.ʃən/","us":"us  / ˌæp.ləˈkeɪ.ʃ ə n /","usp":"/ˌæp.ləˈkeɪ.ʃən/"}
+{"title":"application for quotation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"application form","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"application letter","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"application money","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"apt","uk":"uk  / æpt /","ukp":"/æpt/","us":"us  / æpt /","usp":"/æpt/"}
+{"title":"aptitude","uk":"uk  / ˈæp.tɪ.tʃuːd /","ukp":"/ˈæp.tɪ.tʃuːd/","us":"us  / ˈæp.tə.tuːd /","usp":"/ˈæp.tə.tuːd/"}
+{"title":"aptitude test","uk":"uk  / ˈæp.tɪ.tjuːd ˌtest /","ukp":"/ˈæp.tɪ.tjuːd ˌtest/","us":"us  / ˈæp.tə.tuːd ˌtest /","usp":"/ˈæp.tə.tuːd ˌtest/"}
+{"title":"aptness","uk":"uk  / ˈæpt.nəs /","ukp":"/ˈæpt.nəs/","us":"us  / ˈæpt.nəs /","usp":"/ˈæpt.nəs/"}
+{"title":"aqua","uk":"uk  / ˈæk.wə /","ukp":"/ˈæk.wə/","us":"us  / ˈɑː.kwə /","usp":"/ˈɑː.kwə/"}
+{"title":"aqua-aerobics","uk":"uk  / ˌæk.wə.eəˈrəʊ.bɪks /","ukp":"/ˌæk.wə.eəˈrəʊ.bɪks/","us":"us  / ˌæk.wə.erˈoʊ.bɪks /","usp":"/ˌæk.wə.erˈoʊ.bɪks/"}
+{"title":"Aqua-Lung","uk":"uk  / ˈæk.wə.lʌŋ /","ukp":"/ˈæk.wə.lʌŋ/","us":"us  / ˈæk.wə.lʌŋ /","usp":"/ˈæk.wə.lʌŋ/"}
+{"title":"aptly","uk":"uk  / ˈæpt.li /","ukp":"/ˈæpt.li/","us":"us  / ˈæpt.li /","usp":"/ˈæpt.li/"}
+{"title":"aquacise","uk":"uk  / ˈæk.wə.saɪz /","ukp":"/ˈæk.wə.saɪz/","us":"us  / ˈɑːk.wə.saɪz /","usp":"/ˈɑːk.wə.saɪz/"}
+{"title":"aquaculture","uk":"uk  / ˈæk.wə.kʌl.tʃə r /","ukp":"/ˈæk.wə.kʌl.tʃər/","us":"us  / ˈæk.wə.kʌl.tʃɚ /","usp":"/ˈæk.wə.kʌl.tʃɚ/"}
+{"title":"aquafaba","uk":"uk  / æk.wəˈfɑː.bə /","ukp":"/æk.wəˈfɑː.bə/","us":"us  / ɑːk.wəˈfɑː.bə /","usp":"/ɑːk.wəˈfɑː.bə/"}
+{"title":"aquaphobia","uk":"uk  / ˌæk.wəˈfəʊ.bi.ə /","ukp":"/ˌæk.wəˈfəʊ.bi.ə/","us":"us / ˌɑː.kwəˈfoʊ.bi.ə /","usp":"/ˌɑː.kwəˈfoʊ.bi.ə/"}
+{"title":"aquamarine","uk":"uk  / ˌæk.wə.məˈriːn /","ukp":"/ˌæk.wə.məˈriːn/","us":"us  / ˌæk.wə.məˈriːn /","usp":"/ˌæk.wə.məˈriːn/"}
+{"title":"aquaplane","uk":"uk  / ˈæk.wə.pleɪn /","ukp":"/ˈæk.wə.pleɪn/","us":"us  / ˈæk.wə.pleɪn /","usp":"/ˈæk.wə.pleɪn/"}
+{"title":"aquaplaned","uk":"uk  / ˈæk.wə.pleɪn /","ukp":"/ˈæk.wə.pleɪn/","us":"us  / ˈæk.wə.pleɪn /","usp":"/ˈæk.wə.pleɪn/"}
+{"title":"aquaplaning","uk":"uk  / ˈæk.wə.pleɪn.ɪŋ /","ukp":"/ˈæk.wə.pleɪn.ɪŋ/","us":"us  / ˈæk.wə.pleɪn.ɪŋ /","usp":"/ˈæk.wə.pleɪn.ɪŋ/"}
+{"title":"aquaponics","uk":"uk  / ˌæk.wəˈpɒn.ɪks /","ukp":"/ˌæk.wəˈpɒn.ɪks/","us":"us  / ˌɑː.kwəˈpɑː.nɪks /","usp":"/ˌɑː.kwəˈpɑː.nɪks/"}
+{"title":"aquaria","uk":"","us":""}
+{"title":"Aquarian","uk":"uk  / əˈkweə.ri.ən /","ukp":"/əˈkweə.ri.ən/","us":"us  / əˈkwer.i.ən /","usp":"/əˈkwer.i.ən/"}
+{"title":"aquarium","uk":"uk  / əˈkweə.ri.əm /","ukp":"/əˈkweə.ri.əm/","us":"us  / əˈkwer.i.əm /","usp":"/əˈkwer.i.əm/"}
+{"title":"Aquarius","uk":"uk  / əˈkweə.ri.əs /","ukp":"/əˈkweə.ri.əs/","us":"us  / əˈkwer.i.əs /","usp":"/əˈkwer.i.əs/"}
+{"title":"aquarobics","uk":"uk  / ˌæk.wə.ˈrəʊ.bɪks /","ukp":"/ˌæk.wə.ˈrəʊ.bɪks/","us":"us / ˌɑːk.wəˈroʊ.bɪks /","usp":"/ˌɑːk.wəˈroʊ.bɪks/"}
+{"title":"aquatic","uk":"uk  / əˈkwæt.ɪk /","ukp":"/əˈkwæt.ɪk/","us":"us  / əˈkwæt̬.ɪk /","usp":"/əˈkwæt̬.ɪk/"}
+{"title":"aquatically","uk":"uk  / əˈkwæt.ɪ.k ə l.i /","ukp":"/əˈkwæt.ɪ.kəl.i/","us":"us  / əˈkwæt̬.ɪ.k ə l.i /","usp":"/əˈkwæt̬.ɪ.kəl.i/"}
+{"title":"aquatics","uk":"uk  / əˈkwæt.ɪks /","ukp":"/əˈkwæt.ɪks/","us":"us  / əˈkwæt̬.ɪks /","usp":"/əˈkwæt̬.ɪks/"}
+{"title":"aquatint","uk":"uk  / ˈæk.wə.tɪnt /","ukp":"/ˈæk.wə.tɪnt/","us":"us  / ˈæk.wə.tɪnt /","usp":"/ˈæk.wə.tɪnt/"}
+{"title":"aqueduct","uk":"uk  / ˈæk.wə.dʌkt /","ukp":"/ˈæk.wə.dʌkt/","us":"us  / ˈæk.wə.dʌkt /","usp":"/ˈæk.wə.dʌkt/"}
+{"title":"aqueous humor","uk":"uk  / ˌeɪ.kwi.əs ˈhjuː.mə r /","ukp":"/ˌeɪ.kwi.əs ˈhjuː.mər/","us":"us  / ˌeɪ.kwi.əs ˈhjuː.mɚ /","usp":"/ˌeɪ.kwi.əs ˈhjuː.mɚ/"}
+{"title":"aqueous","uk":"uk  / ˈeɪ.kwi.əs /","ukp":"/ˈeɪ.kwi.əs/","us":"us  / ˈeɪ.kwi.əs /","usp":"/ˈeɪ.kwi.əs/"}
+{"title":"aqueous humour","uk":"uk  / ˌeɪ.kwi.əs ˈhjuː.mə r /","ukp":"/ˌeɪ.kwi.əs ˈhjuː.mər/","us":"us  / ˌeɪ.kwi.əs ˈhjuː.mɚ /","usp":"/ˌeɪ.kwi.əs ˈhjuː.mɚ/"}
+{"title":"aquifer","uk":"uk  / ˈæk.wɪ.fə r /","ukp":"/ˈæk.wɪ.fər/","us":"us  / ˈɑːkwə.fɚ /","usp":"/ˈɑːkwə.fɚ/"}
+{"title":"aquiline","uk":"uk  / ˈæk.wɪ.laɪn /","ukp":"/ˈæk.wɪ.laɪn/","us":"us  / ˈæk.wə.laɪn /","usp":"/ˈæk.wə.laɪn/"}
+{"title":"aquiver","uk":"uk  / əˈkwɪv.ə r /","ukp":"/əˈkwɪv.ər/","us":"us  / əˈkwɪv.ɚ /","usp":"/əˈkwɪv.ɚ/"}
+{"title":"AR","uk":"","us":""}
+{"title":"Arab","uk":"uk  / ˈær.əb /","ukp":"/ˈær.əb/","us":"us  / ˈer.əb /","usp":"/ˈer.əb/"}
+{"title":"arabesque","uk":"uk  / ˌær.əˈbesk /","ukp":"/ˌær.əˈbesk/","us":"us  / ˌer.əˈbesk /","usp":"/ˌer.əˈbesk/"}
+{"title":"Arabia","uk":"uk / əˈreɪ.bi.ə /","ukp":"/əˈreɪ.bi.ə/","us":"us / əˈreɪ.bi.ə /","usp":"/əˈreɪ.bi.ə/"}
+{"title":"Arabian","uk":"uk / əˈreɪ.bi.ən /","ukp":"/əˈreɪ.bi.ən/","us":"us / əˈreɪ.bi.ən /","usp":"/əˈreɪ.bi.ən/"}
+{"title":"Arabic","uk":"uk  / ˈær.ə.bɪk /","ukp":"/ˈær.ə.bɪk/","us":"us  / ˈer.ə.bɪk /","usp":"/ˈer.ə.bɪk/"}
+{"title":"Arabic numeral","uk":"uk  / ˌær.ə.bɪk ˈnjuː.mə.rəl /","ukp":"/ˌær.ə.bɪk ˈnjuː.mə.rəl/","us":"us  / ˌer.ə.bɪk ˈnuː.mə.rəl /","usp":"/ˌer.ə.bɪk ˈnuː.mə.rəl/"}
+{"title":"arabica","uk":"uk  / əˈræb.ɪ.kə /","ukp":"/əˈræb.ɪ.kə/","us":"us  / əˈræb.ɪ.kə /","usp":"/əˈræb.ɪ.kə/"}
+{"title":"arable","uk":"uk  / ˈær.ə.b ə l /","ukp":"/ˈær.ə.bəl/","us":"us  / ˈer.ə.b ə l /","usp":"/ˈer.ə.bəl/"}
+{"title":"arachnid","uk":"uk  / əˈræk.nɪd /","ukp":"/əˈræk.nɪd/","us":"us  / əˈræk.nɪd /","usp":"/əˈræk.nɪd/"}
+{"title":"arachnoid","uk":"uk  / əˈræk.nɔɪd /","ukp":"/əˈræk.nɔɪd/","us":"us  / əˈræk.nɔɪd /","usp":"/əˈræk.nɔɪd/"}
+{"title":"arachnophobia","uk":"uk  / əˈræk.nəˌfəʊ.bi.ə /","ukp":"/əˈræk.nəˌfəʊ.bi.ə/","us":"us  / əˈræk.nəˌfoʊ.bi.ə /","usp":"/əˈræk.nəˌfoʊ.bi.ə/"}
+{"title":"Aramaic","uk":"uk  / ær.əˈmeɪ.ɪk /","ukp":"/ær.əˈmeɪ.ɪk/","us":"us  / er.əˈmeɪ.ɪk /","usp":"/er.əˈmeɪ.ɪk/"}
+{"title":"Aran","uk":"","us":""}
+{"title":"arb","uk":"uk  / ɑːb /","ukp":"/ɑːb/","us":"us ","usp":""}
+{"title":"arancini","uk":"uk  / ær.ənˈtʃiː.ni /","ukp":"/ær.ənˈtʃiː.ni/","us":"us  / ær.ənˈtʃiː.ni /","usp":"/ær.ənˈtʃiː.ni/"}
+{"title":"arbiter","uk":"uk  / ˈɑː.bɪ.tə r /","ukp":"/ˈɑː.bɪ.tər/","us":"us  / ˈɑːr.bə.t̬ɚ /","usp":"/ˈɑːr.bə.t̬ɚ/"}
+{"title":"arbitrage","uk":"uk  / ˌɑː.bɪˈtrɑːʒ /","ukp":"/ˌɑː.bɪˈtrɑːʒ/","us":"us  / ˈɑːr.bɪ.trɑːʒ /","usp":"/ˈɑːr.bɪ.trɑːʒ/"}
+{"title":"arbitrageur","uk":"uk  / ˌɑː.bɪ.trɑːˈʒɜː r /","ukp":"/ˌɑː.bɪ.trɑːˈʒɜːr/","us":"us  / ˈɑːr.bɪ.trɑː.ʒɚ /","usp":"/ˈɑːr.bɪ.trɑː.ʒɚ/"}
+{"title":"arbitrarily","uk":"uk  / ˌɑː.bɪˈtreə.r ə l.i /","ukp":"/ˌɑː.bɪˈtreə.rəl.i/","us":"us  / ˌɑːr.bəˈtrer. ə l.i /","usp":"/ˌɑːr.bəˈtrer.əl.i/"}
+{"title":"arbitrariness","uk":"uk  / ˈɑː.bɪ.trər.i.nəs /","ukp":"/ˈɑː.bɪ.trər.i.nəs/","us":"us  / ˈɑːr.bə.trer.i.nəs /","usp":"/ˈɑːr.bə.trer.i.nəs/"}
+{"title":"arbitrary","uk":"uk  / ˈɑː.bɪ.trər.i /","ukp":"/ˈɑː.bɪ.trər.i/","us":"us  / ˈɑːr.bə.trer.i /","usp":"/ˈɑːr.bə.trer.i/"}
+{"title":"arbitrated","uk":"uk  / ˈɑː.bɪ.treɪt /","ukp":"/ˈɑː.bɪ.treɪt/","us":"us  / ˈɑːr.bə.treɪt /","usp":"/ˈɑːr.bə.treɪt/"}
+{"title":"arbitrate","uk":"uk  / ˈɑː.bɪ.treɪt /","ukp":"/ˈɑː.bɪ.treɪt/","us":"us  / ˈɑːr.bə.treɪt /","usp":"/ˈɑːr.bə.treɪt/"}
+{"title":"arbitrating","uk":"uk  / ˈɑː.bɪ.treɪt /","ukp":"/ˈɑː.bɪ.treɪt/","us":"us  / ˈɑːr.bə.treɪt /","usp":"/ˈɑːr.bə.treɪt/"}
+{"title":"arbitration","uk":"uk  / ˌɑː.bɪˈtreɪ.ʃ ə n /","ukp":"/ˌɑː.bɪˈtreɪ.ʃən/","us":"us  / ˌɑːr.bəˈtreɪ.ʃ ə n /","usp":"/ˌɑːr.bəˈtreɪ.ʃən/"}
+{"title":"arbor","uk":"uk  / ˈɑː.bə r /","ukp":"/ˈɑː.bər/","us":"us  / ˈɑːr.bɚ /","usp":"/ˈɑːr.bɚ/"}
+{"title":"arbitrator","uk":"uk  / ˈɑː.bɪ.treɪ.tə r /","ukp":"/ˈɑː.bɪ.treɪ.tər/","us":"us  / ˈɑːr.bə.treɪ.t̬ɚ /","usp":"/ˈɑːr.bə.treɪ.t̬ɚ/"}
+{"title":"arboreal","uk":"uk  / ɑːˈbɔː.ri.əl /","ukp":"/ɑːˈbɔː.ri.əl/","us":"us  / ɑːrˈbɔːr.i.əl /","usp":"/ɑːrˈbɔːr.i.əl/"}
+{"title":"arborescent","uk":"uk / ˌɑː.b ə rˈes. ə nt /","ukp":"/ˌɑː.bərˈes.ənt/","us":"us / ˌɑːr.bɚˈes. ə nt /","usp":"/ˌɑːr.bɚˈes.ənt/"}
+{"title":"arboreta","uk":"","us":""}
+{"title":"arborio","uk":"uk / ɑːˈbɔː.ri.əʊ /","ukp":"/ɑːˈbɔː.ri.əʊ/","us":"us / ɑːrˈbɔːr.i.oʊ /","usp":"/ɑːrˈbɔːr.i.oʊ/"}
+{"title":"arboretum","uk":"uk  / ˌɑː.bərˈiː.təm /","ukp":"/ˌɑː.bərˈiː.təm/","us":"us  / ˌɑːr.bərˈiː.t̬əm /","usp":"/ˌɑːr.bərˈiː.t̬əm/"}
+{"title":"arborio rice","uk":"uk  / ɑːˌbɒr.i.əʊ ˈraɪs /","ukp":"/ɑːˌbɒr.i.əʊ ˈraɪs/","us":"us  / ɑːrˈbɔːr.i.oʊ ˈraɪs /","usp":"/ɑːrˈbɔːr.i.oʊ ˈraɪs/"}
+{"title":"arborization","uk":"uk / ˌɑː.b ə r.aɪˈzeɪ.ʃ ə n /","ukp":"/ˌɑː.bər.aɪˈzeɪ.ʃən/","us":"us / ˌɑːr.bɚ.əˈzeɪ.ʃ ə n /","usp":"/ˌɑːr.bɚ.əˈzeɪ.ʃən/"}
+{"title":"arborize","uk":"uk / ˈɑː.b ə r.aɪz /","ukp":"/ˈɑː.bər.aɪz/","us":"us / ˈɑːr.bɚ.aɪz /","usp":"/ˈɑːr.bɚ.aɪz/"}
+{"title":"arborist","uk":"uk  / ˈɑː.bə.rɪst /","ukp":"/ˈɑː.bə.rɪst/","us":"us  / ˈɑːr.bɚ.ɪst /","usp":"/ˈɑːr.bɚ.ɪst/"}
+{"title":"arbour","uk":"uk  / ˈɑː.bə r /","ukp":"/ˈɑː.bər/","us":"us  / ˈɑːr.bɚ /","usp":"/ˈɑːr.bɚ/"}
+{"title":"arc lamp","uk":"uk  / ˈɑːk ˌlæmp /","ukp":"/ˈɑːk ˌlæmp/","us":"us  / ˈɑːrk ˌlæmp /","usp":"/ˈɑːrk ˌlæmp/"}
+{"title":"arc","uk":"uk  / ɑːk /","ukp":"/ɑːk/","us":"us  / ɑːrk /","usp":"/ɑːrk/"}
+{"title":"arc welding","uk":"uk  / ˈɑːk ˌwel.dɪŋ /","ukp":"/ˈɑːk ˌwel.dɪŋ/","us":"us  / ˈɑːrk ˌwel.dɪŋ /","usp":"/ˈɑːrk ˌwel.dɪŋ/"}
+{"title":"arcade","uk":"uk  / ɑːˈkeɪd /","ukp":"/ɑːˈkeɪd/","us":"us  / ɑːrˈkeɪd /","usp":"/ɑːrˈkeɪd/"}
+{"title":"Arcadia","uk":"uk  / ɑːˈkeɪ.di.ə /","ukp":"/ɑːˈkeɪ.di.ə/","us":"us  / ɑːrˈkeɪ.di.ə /","usp":"/ɑːrˈkeɪ.di.ə/"}
+{"title":"Arcadian","uk":"uk  / ɑːˈkeɪ.di.ən /","ukp":"/ɑːˈkeɪ.di.ən/","us":"us  / ɑːrˈkeɪ.di.ən /","usp":"/ɑːrˈkeɪ.di.ən/"}
+{"title":"arcane","uk":"uk  / ɑːˈkeɪn /","ukp":"/ɑːˈkeɪn/","us":"us  / ɑːrˈkeɪn /","usp":"/ɑːrˈkeɪn/"}
+{"title":"arced","uk":"uk  / ɑːk /","ukp":"/ɑːk/","us":"us  / ɑːrk /","usp":"/ɑːrk/"}
+{"title":"arch-villain","uk":"uk  / ˌɑːtʃˈvɪl.ən /","ukp":"/ˌɑːtʃˈvɪl.ən/","us":"us  / ˌɑːrtʃˈvɪl.ən /","usp":"/ˌɑːrtʃˈvɪl.ən/"}
+{"title":"arch-enemy","uk":"uk  / ˌɑːtʃˈen.ə.mi /","ukp":"/ˌɑːtʃˈen.ə.mi/","us":"us  / ˌɑːrtʃˈen.ə.mi /","usp":"/ˌɑːrtʃˈen.ə.mi/"}
+{"title":"arch","uk":"uk  / ɑːtʃ /","ukp":"/ɑːtʃ/","us":"us  / ɑːrtʃ /","usp":"/ɑːrtʃ/"}
+{"title":"archaea","uk":"uk  / ɑːˈkiː.ə /","ukp":"/ɑːˈkiː.ə/","us":"us / ɑːrˈkiː.ə /","usp":"/ɑːrˈkiː.ə/"}
+{"title":"archaeological","uk":"uk  / ˌɑː.ki.əˈlɒdʒ.ɪ.k ə l /","ukp":"/ˌɑː.ki.əˈlɒdʒ.ɪ.kəl/","us":"us  / ˌɑːr.ki.əˈlɑː.dʒɪ.k ə l /","usp":"/ˌɑːr.ki.əˈlɑː.dʒɪ.kəl/"}
+{"title":"archaeologically","uk":"uk  / ˌɑː.ki.əˈlɒdʒ.ɪ.k ə l.i /","ukp":"/ˌɑː.ki.əˈlɒdʒ.ɪ.kəl.i/","us":"us  / ˌɑːr.ki.əˈlɑː.dʒɪ.k ə l.i /","usp":"/ˌɑːr.ki.əˈlɑː.dʒɪ.kəl.i/"}
+{"title":"archaeology","uk":"uk  / ˌɑː.kiˈɒl.ə.dʒi /","ukp":"/ˌɑː.kiˈɒl.ə.dʒi/","us":"us  / ˌɑːr.kiˈɑː.lə.dʒi /","usp":"/ˌɑːr.kiˈɑː.lə.dʒi/"}
+{"title":"archaeologist","uk":"uk  / ˌɑː.kiˈɒl.ə.dʒɪst /","ukp":"/ˌɑː.kiˈɒl.ə.dʒɪst/","us":"us  / ˌɑːr.kiˈɑː.lə.dʒɪst /","usp":"/ˌɑːr.kiˈɑː.lə.dʒɪst/"}
+{"title":"archaic","uk":"uk  / ɑːˈkeɪ.ɪk /","ukp":"/ɑːˈkeɪ.ɪk/","us":"us  / ɑːrˈkeɪ.ɪk /","usp":"/ɑːrˈkeɪ.ɪk/"}
+{"title":"archaically","uk":"uk  / ɑːˈkeɪ.ɪ.k ə l.i /","ukp":"/ɑːˈkeɪ.ɪ.kəl.i/","us":"us  / ɑːrˈkeɪ.ɪ.k ə l.i /","usp":"/ɑːrˈkeɪ.ɪ.kəl.i/"}
+{"title":"archaism","uk":"uk  / ɑːˈkeɪ.ɪ.z ə m /","ukp":"/ɑːˈkeɪ.ɪ.zəm/","us":"us  / ɑːrˈkeɪ.ɪ.z ə m /","usp":"/ɑːrˈkeɪ.ɪ.zəm/"}
+{"title":"archangel","uk":"uk  / ˈɑː.keɪn.dʒ ə l /","ukp":"/ˈɑː.keɪn.dʒəl/","us":"us  / ˈɑːr.keɪn.dʒ ə l /","usp":"/ˈɑːr.keɪn.dʒəl/"}
+{"title":"archbishop","uk":"uk  / ˌɑːtʃˈbɪʃ.əp /","ukp":"/ˌɑːtʃˈbɪʃ.əp/","us":"us  / ˌɑːrtʃˈbɪʃ.əp /","usp":"/ˌɑːrtʃˈbɪʃ.əp/"}
+{"title":"apprenticing","uk":"uk  / əˈpren.tɪs /","ukp":"/əˈpren.tɪs/","us":"us  / əˈpren.t̬ɪs /","usp":"/əˈpren.t̬ɪs/"}
+{"title":"apprise","uk":"uk  / əˈpraɪz /","ukp":"/əˈpraɪz/","us":"us  / əˈpraɪz /","usp":"/əˈpraɪz/"}
+{"title":"apprised","uk":"uk  / əˈpraɪz /","ukp":"/əˈpraɪz/","us":"us  / əˈpraɪz /","usp":"/əˈpraɪz/"}
+{"title":"apprising","uk":"uk  / əˈpraɪz /","ukp":"/əˈpraɪz/","us":"us  / əˈpraɪz /","usp":"/əˈpraɪz/"}
+{"title":"approachable","uk":"uk  / əˈprəʊ.tʃə.b ə l /","ukp":"/əˈprəʊ.tʃə.bəl/","us":"us  / əˈproʊ.tʃə.b ə l /","usp":"/əˈproʊ.tʃə.bəl/"}
+{"title":"approached","uk":"uk  / əˈprəʊtʃ /","ukp":"/əˈprəʊtʃ/","us":"us  / əˈproʊtʃ /","usp":"/əˈproʊtʃ/"}
+{"title":"approach","uk":"uk  / əˈprəʊtʃ /","ukp":"/əˈprəʊtʃ/","us":"us  / əˈproʊtʃ /","usp":"/əˈproʊtʃ/"}
+{"title":"approaching","uk":"uk  / əˈprəʊtʃ /","ukp":"/əˈprəʊtʃ/","us":"us  / əˈproʊtʃ /","usp":"/əˈproʊtʃ/"}
+{"title":"approbate","uk":"uk / ˈæp.rə.beɪt /","ukp":"/ˈæp.rə.beɪt/","us":"us / ˈæp.rə.beɪt /","usp":"/ˈæp.rə.beɪt/"}
+{"title":"approbation","uk":"uk  / ˌæp.rəˈbeɪ.ʃ ə n /","ukp":"/ˌæp.rəˈbeɪ.ʃən/","us":"us  / ˌæp.rəˈbeɪ.ʃ ə n /","usp":"/ˌæp.rəˈbeɪ.ʃən/"}
+{"title":"appropriacy","uk":"uk  / əˈprəʊ.pri.ə.si /","ukp":"/əˈprəʊ.pri.ə.si/","us":"us  / əˈproʊ.pri.ə.si /","usp":"/əˈproʊ.pri.ə.si/"}
+{"title":"appropriately","uk":"uk  / əˈprəʊ.pri.ət.li /","ukp":"/əˈprəʊ.pri.ət.li/","us":"us  / əˈproʊ.pri.ət.li /","usp":"/əˈproʊ.pri.ət.li/"}
+{"title":"appropriated","uk":"uk  / əˈprəʊ.pri.eɪt /","ukp":"/əˈprəʊ.pri.eɪt/","us":"us  / əˈproʊ.pri.eɪt /","usp":"/əˈproʊ.pri.eɪt/"}
+{"title":"appropriate","uk":"uk  / əˈprəʊ.pri.ət /","ukp":"/əˈprəʊ.pri.ət/","us":"us  / əˈproʊ.pri.ət /","usp":"/əˈproʊ.pri.ət/"}
+{"title":"appropriateness","uk":"uk  / əˈprəʊ.pri.ət.nəs /","ukp":"/əˈprəʊ.pri.ət.nəs/","us":"us  / əˈproʊ.pri.ət.nəs /","usp":"/əˈproʊ.pri.ət.nəs/"}
+{"title":"appropriation account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"appropriation","uk":"uk  / əˌprəʊ.priˈeɪ.ʃ ə n /","ukp":"/əˌprəʊ.priˈeɪ.ʃən/","us":"us  / əˌproʊ.priˈeɪ.ʃ ə n /","usp":"/əˌproʊ.priˈeɪ.ʃən/"}
+{"title":"approval","uk":"uk  / əˈpruː.v ə l /","ukp":"/əˈpruː.vəl/","us":"us  / əˈpruː.v ə l /","usp":"/əˈpruː.vəl/"}
+{"title":"approved","uk":"uk  / əˈpruːvd /","ukp":"/əˈpruːvd/","us":"us  / əˈpruːvd /","usp":"/əˈpruːvd/"}
+{"title":"approve","uk":"uk  / əˈpruːv /","ukp":"/əˈpruːv/","us":"us  / əˈpruːv /","usp":"/əˈpruːv/"}
+{"title":"appropriating","uk":"uk  / əˈprəʊ.pri.eɪt /","ukp":"/əˈprəʊ.pri.eɪt/","us":"us  / əˈproʊ.pri.eɪt /","usp":"/əˈproʊ.pri.eɪt/"}
+{"title":"approved accounts","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"approved contractor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"approved vendor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"approved school","uk":"uk  / əˌpruːvd ˈskuːl /","ukp":"/əˌpruːvd ˈskuːl/","us":"us  / əˌpruːvd ˈskuːl /","usp":"/əˌpruːvd ˈskuːl/"}
+{"title":"approver","uk":"uk  / əˈpruː.və r /","ukp":"/əˈpruː.vər/","us":"us  / əˈpruː.vɚ /","usp":"/əˈpruː.vɚ/"}
+{"title":"approving","uk":"uk  / əˈpruː.vɪŋ /","ukp":"/əˈpruː.vɪŋ/","us":"us  / əˈpruː.vɪŋ /","usp":"/əˈpruː.vɪŋ/"}
+{"title":"approx.","uk":"uk  / əˈprɒks /","ukp":"/əˈprɒks/","us":"us ","usp":""}
+{"title":"approvingly","uk":"uk  / əˈpruː.vɪŋ.li /","ukp":"/əˈpruː.vɪŋ.li/","us":"us  / əˈpruː.vɪŋ.li /","usp":"/əˈpruː.vɪŋ.li/"}
+{"title":"approximant","uk":"uk  / əˈprɒk.sɪ.mənt /","ukp":"/əˈprɒk.sɪ.mənt/","us":"us  / əˈprɑːk.sə.mənt /","usp":"/əˈprɑːk.sə.mənt/"}
+{"title":"approximated","uk":"uk  / əˈprɒk.sɪ.meɪt /","ukp":"/əˈprɒk.sɪ.meɪt/","us":"us  / əˈprɑːk.sə.meɪt /","usp":"/əˈprɑːk.sə.meɪt/"}
+{"title":"approximate","uk":"uk  / əˈprɒk.sɪ.mət /","ukp":"/əˈprɒk.sɪ.mət/","us":"us  / əˈprɑːk.sə.mət /","usp":"/əˈprɑːk.sə.mət/"}
+{"title":"approximately","uk":"uk  / əˈprɒk.sɪ.mət.li /","ukp":"/əˈprɒk.sɪ.mət.li/","us":"us  / əˈprɑːk.sə.mət.li /","usp":"/əˈprɑːk.sə.mət.li/"}
+{"title":"approximating","uk":"uk  / əˈprɒk.sɪ.meɪt /","ukp":"/əˈprɒk.sɪ.meɪt/","us":"us  / əˈprɑːk.sə.meɪt /","usp":"/əˈprɑːk.sə.meɪt/"}
+{"title":"appurtenance","uk":"uk  / əˈpɜː.t ə n.əns /","ukp":"/əˈpɜː.tən.əns/","us":"us  / əˈpɝː.t̬ ə n.əns /","usp":"/əˈpɝː.t̬ən.əns/"}
+{"title":"approximation","uk":"uk  / əˌprɒk.sɪˈmeɪ.ʃ ə n /","ukp":"/əˌprɒk.sɪˈmeɪ.ʃən/","us":"us  / əˌprɑːk.səˈmeɪ.ʃ ə n /","usp":"/əˌprɑːk.səˈmeɪ.ʃən/"}
+{"title":"APR","uk":"uk  / ˌeɪ.piˈɑː r /","ukp":"/ˌeɪ.piˈɑːr/","us":"us  / ˌeɪ.piˈɑːr /","usp":"/ˌeɪ.piˈɑːr/"}
+{"title":"après-ski","uk":"uk  / ˌæp.reɪˈskiː /","ukp":"/ˌæp.reɪˈskiː/","us":"us  / ˌæp.reɪˈskiː /","usp":"/ˌæp.reɪˈskiː/"}
+{"title":"April","uk":"uk  / ˈeɪ.pr ə l /","ukp":"/ˈeɪ.prəl/","us":"us  / ˈeɪ.pr ə l /","usp":"/ˈeɪ.prəl/"}
+{"title":"apricot","uk":"uk  / ˈeɪ.prɪ.kɒt /","ukp":"/ˈeɪ.prɪ.kɒt/","us":"us  / ˈeɪ.prɪ.kɑːt /","usp":"/ˈeɪ.prɪ.kɑːt/"}
+{"title":"April Fool's Day","uk":"uk  / ˌeɪ.pr ə l ˈfuːlz ˌdeɪ /","ukp":"/ˌeɪ.prəl ˈfuːlz ˌdeɪ/","us":"us  / ˌeɪ.pr ə l ˈfuːlz ˌdeɪ /","usp":"/ˌeɪ.prəl ˈfuːlz ˌdeɪ/"}
+{"title":"apriplum","uk":"uk  / ˈeɪ.prɪ.plʌm /","ukp":"/ˈeɪ.prɪ.plʌm/","us":"us  / ˈeɪ.prɪ.plʌm /","usp":"/ˈeɪ.prɪ.plʌm/"}
+{"title":"April fool","uk":"uk  / ˌeɪ.pr ə l ˈfuːl /","ukp":"/ˌeɪ.prəl ˈfuːl/","us":"us  / ˌeɪ.pr ə l ˈfuːl /","usp":"/ˌeɪ.prəl ˈfuːl/"}
+{"title":"aprium","uk":"uk  / ˈeɪ.pri.əm /","ukp":"/ˈeɪ.pri.əm/","us":"us  / ˈeɪ.pri.əm /","usp":"/ˈeɪ.pri.əm/"}
+{"title":"apropos","uk":"uk  / ˌæp.rəˈpəʊ /","ukp":"/ˌæp.rəˈpəʊ/","us":"us  / ˌæp.rəˈpoʊ /","usp":"/ˌæp.rəˈpoʊ/"}
+{"title":"apron","uk":"uk  / ˈeɪ.prən /","ukp":"/ˈeɪ.prən/","us":"us  / ˈeɪ.prən /","usp":"/ˈeɪ.prən/"}
+{"title":"areal","uk":"uk  / ˈeə.ri.əl /","ukp":"/ˈeə.ri.əl/","us":"us  / ˈer.i- /","usp":"/ˈer.i-/"}
+{"title":"apse","uk":"uk  / æps /","ukp":"/æps/","us":"us  / æps /","usp":"/æps/"}
+{"title":"aren't","uk":"uk  / ɑːnt /","ukp":"/ɑːnt/","us":"us  / ɑːrnt /","usp":"/ɑːrnt/"}
+{"title":"aren’t I?","uk":"","us":""}
+{"title":"arena football","uk":"uk  / əˌriː.nə ˈfʊt.bɔːl /","ukp":"/əˌriː.nə ˈfʊt.bɔːl /","us":"us  / əˌriː.nə ˈfʊt.bɑːl /","usp":"/əˌriː.nə ˈfʊt.bɑːl/"}
+{"title":"arena","uk":"uk  / əˈriː.nə /","ukp":"/əˈriː.nə/","us":"us  / əˈriː.nə /","usp":"/əˈriː.nə/"}
+{"title":"arenaceous","uk":"uk  / ær.ɪˈneɪ.ʃəs /","ukp":"/ær.ɪˈneɪ.ʃəs/","us":"us  / ær.ɪˈneɪ.ʃəs /","usp":"/ær.ɪˈneɪ.ʃəs/"}
+{"title":"areola","uk":"uk  / əˈriː. ə l.ə /","ukp":"/əˈriː.əl.ə/","us":"us  / əˈriː. ə l.ə /","usp":"/əˈriː.əl.ə/"}
+{"title":"arenite","uk":"uk  / ˈær.ə.naɪt /","ukp":"/ˈær.ə.naɪt/","us":"us  / ˈær.ə.naɪt /","usp":"/ˈær.ə.naɪt/"}
+{"title":"areolae","uk":"","us":""}
+{"title":"arepa","uk":"uk  / əˈreɪ.pə /","ukp":"/əˈreɪ.pə/","us":"us  / əˈreɪ.pə /","usp":"/əˈreɪ.pə/"}
+{"title":"Ares","uk":"uk  / ˈeə.riːz /","ukp":"/ˈeə.riːz/","us":"us  / ˈer.iːz /","usp":"/ˈer.iːz/"}
+{"title":"argan oil","uk":"uk  / ˈɑː.ɡən ɔɪl /","ukp":"/ˈɑː.ɡən ɔɪl/","us":"us  / ˈɑːr.ɡən ɔɪl /","usp":"/ˈɑːr.ɡən ɔɪl/"}
+{"title":"argent","uk":"uk  / ˈɑː.dʒ ə nt /","ukp":"/ˈɑː.dʒənt/","us":"us  / ˈɑːr.dʒ ə nt /","usp":"/ˈɑːr.dʒənt/"}
+{"title":"Argentina","uk":"uk  / ˌɑː.dʒ ə nˈtiː.nə /","ukp":"/ˌɑː.dʒənˈtiː.nə/","us":"us  / ˌɑːr.dʒ ə nˈtiː.nə /","usp":"/ˌɑːr.dʒənˈtiː.nə/"}
+{"title":"arête","uk":"uk  / əˈret /","ukp":"/əˈret/","us":"us  / əˈret /","usp":"/əˈret/"}
+{"title":"Argentinian","uk":"uk  / ˌɑː.dʒ ə nˈtɪn.i.ən /","ukp":"/ˌɑː.dʒənˈtɪn.i.ən/","us":"us  / ˌɑːr.dʒ ə nˈtɪn.i.ən /","usp":"/ˌɑːr.dʒənˈtɪn.i.ən/"}
+{"title":"argon","uk":"uk  / ˈɑː.ɡɒn /","ukp":"/ˈɑː.ɡɒn/","us":"us  / ˈɑːr.ɡɑːn /","usp":"/ˈɑːr.ɡɑːn/"}
+{"title":"argot","uk":"uk  / ˈɑː.ɡəʊ /","ukp":"/ˈɑː.ɡəʊ/","us":"us  / ˈɑːr.ɡoʊ /","usp":"/ˈɑːr.ɡoʊ/"}
+{"title":"arguable","uk":"uk  / ˈɑːɡ.ju.ə.b ə l /","ukp":"/ˈɑːɡ.ju.ə.bəl/","us":"us  / ˈɑːrɡ.ju.ə.b ə l /","usp":"/ˈɑːrɡ.ju.ə.bəl/"}
+{"title":"arguably","uk":"uk  / ˈɑːɡ.ju.ə.bli /","ukp":"/ˈɑːɡ.ju.ə.bli/","us":"us  / ˈɑːrɡ.ju.ə.bli /","usp":"/ˈɑːrɡ.ju.ə.bli/"}
+{"title":"argue the toss","uk":"","us":""}
+{"title":"argue","uk":"uk  / ˈɑːɡ.juː /","ukp":"/ˈɑːɡ.juː/","us":"us  / ˈɑːrɡ.juː /","usp":"/ˈɑːrɡ.juː/"}
+{"title":"argued","uk":"uk  / ˈɑːɡ.juː /","ukp":"/ˈɑːɡ.juː/","us":"us  / ˈɑːrɡ.juː /","usp":"/ˈɑːrɡ.juː/"}
+{"title":"arguing","uk":"uk  / ˈɑːɡ.juː /","ukp":"/ˈɑːɡ.juː/","us":"us  / ˈɑːrɡ.juː /","usp":"/ˈɑːrɡ.juː/"}
+{"title":"argumentation","uk":"uk  / ˈɑːɡ.jə.menˈteɪ.ʃ ə n /","ukp":"/ˈɑːɡ.jə.menˈteɪ.ʃən/","us":"us  / ˈɑːrɡ.jə.menˈteɪ.ʃ ə n /","usp":"/ˈɑːrɡ.jə.menˈteɪ.ʃən/"}
+{"title":"argument","uk":"uk  / ˈɑːɡ.jə.mənt /","ukp":"/ˈɑːɡ.jə.mənt/","us":"us  / ˈɑːrɡ.jə.mənt /","usp":"/ˈɑːrɡ.jə.mənt/"}
+{"title":"argumentative","uk":"uk  / ˌɑːɡ.jəˈmen.tə.tɪv /","ukp":"/ˌɑːɡ.jəˈmen.tə.tɪv/","us":"us  / ˌɑːrɡ.jəˈmen.t̬ə.t̬ɪv /","usp":"/ˌɑːrɡ.jəˈmen.t̬ə.t̬ɪv/"}
+{"title":"argumentatively","uk":"uk  / ˌɑːɡ.jəˈmen.tə.tɪv.li /","ukp":"/ˌɑːɡ.jəˈmen.tə.tɪv.li/","us":"us  / ˌɑːrɡ.jəˈmen.t̬ə.t̬ɪv.li /","usp":"/ˌɑːrɡ.jəˈmen.t̬ə.t̬ɪv.li/"}
+{"title":"argy-bargy","uk":"uk  / ˌɑː.dʒiˈbɑː.dʒi /","ukp":"/ˌɑː.dʒiˈbɑː.dʒi/","us":"us  / ˌɑːr.dʒiˈbɑːr.dʒi /","usp":"/ˌɑːr.dʒiˈbɑːr.dʒi/"}
+{"title":"argyle","uk":"uk  / ɑːˈɡaɪl /","ukp":"/ɑːˈɡaɪl/","us":"us  / ɑːrˈɡaɪl /","usp":"/ɑːrˈɡaɪl/"}
+{"title":"Argyll","uk":"uk  / ɑːˈɡaɪl /","ukp":"/ɑːˈɡaɪl/","us":"us  / ɑːrˈɡaɪl /","usp":"/ɑːrˈɡaɪl/"}
+{"title":"Argyll and Bute","uk":"uk  / ɑːˌɡaɪl ən ˈbjuːt /","ukp":"/ɑːˌɡaɪl ən ˈbjuːt/","us":"us  / ɑːrˌɡaɪl ən ˈbjuːt /","usp":"/ɑːrˌɡaɪl ən ˈbjuːt/"}
+{"title":"aria","uk":"uk  / ˈɑː.ri.ə /","ukp":"/ˈɑː.ri.ə/","us":"us  / ˈɑːr.i.ə /","usp":"/ˈɑːr.i.ə/"}
+{"title":"ariary","uk":"uk  / ɑː.riˈɑː.ri /","ukp":"/ɑː.riˈɑː.ri/","us":"us  / ɑː.riˈɑː.ri /","usp":"/ɑː.riˈɑː.ri/"}
+{"title":"Arian","uk":"uk  / ˈeə.ri.ən /","ukp":"/ˈeə.ri.ən/","us":"us  / ˈer.i.ən /","usp":"/ˈer.i.ən/"}
+{"title":"arid","uk":"uk  / ˈær.ɪd /","ukp":"/ˈær.ɪd/","us":"us  / ˈer.ɪd /","usp":"/ˈer.ɪd/"}
+{"title":"aridity","uk":"uk  / ær.ɪd.ə.ti /","ukp":"/ær.ɪd.ə.ti/","us":"us  / erˈɪd.ət̬i /","usp":"/erˈɪd.ət̬i/"}
+{"title":"Aries","uk":"uk  / ˈeə.riːz /","ukp":"/ˈeə.riːz/","us":"us  / ˈer.iːz /","usp":"/ˈer.iːz/"}
+{"title":"aright","uk":"uk  / əˈraɪt /","ukp":"/əˈraɪt/","us":"us  / əˈraɪt /","usp":"/əˈraɪt/"}
+{"title":"arise","uk":"uk  / əˈraɪz /","ukp":"/əˈraɪz/","us":"us  / əˈraɪz /","usp":"/əˈraɪz/"}
+{"title":"arisen","uk":"","us":""}
+{"title":"arising","uk":"","us":""}
+{"title":"aristocracy","uk":"uk  / ˌær.ɪˈstɒk.rə.si /","ukp":"/ˌær.ɪˈstɒk.rə.si/","us":"us  / ˌer.əˈstɑː.krə.si /","usp":"/ˌer.əˈstɑː.krə.si/"}
+{"title":"aristocratic","uk":"uk  / ˌær.ɪ.stəˈkræt.ɪk /","ukp":"/ˌær.ɪ.stəˈkræt.ɪk/","us":"us  / ˌer.ə.stəˈkræt̬.ɪk /","usp":"/ˌer.ə.stəˈkræt̬.ɪk/"}
+{"title":"aristocrat","uk":"uk  / ˈær.ɪ.stə.kræt /","ukp":"/ˈær.ɪ.stə.kræt/","us":"us  / əˈrɪs.stə.kræt /","usp":"/əˈrɪs.stə.kræt/"}
+{"title":"archbishopric","uk":"uk  / ˌɑːtʃˈbɪʃ.ə.prɪk /","ukp":"/ˌɑːtʃˈbɪʃ.ə.prɪk/","us":"us  / ˌɑːrtʃˈbɪʃ.ə.prɪk /","usp":"/ˌɑːrtʃˈbɪʃ.ə.prɪk/"}
+{"title":"archdeacon","uk":"uk  / ˌɑːtʃˈdiː.kən /","ukp":"/ˌɑːtʃˈdiː.kən/","us":"us  / ˌɑːrtʃˈdiː.kən /","usp":"/ˌɑːrtʃˈdiː.kən/"}
+{"title":"archdiocese","uk":"uk  / ˌɑːtʃˈdaɪ.ə.sɪs /","ukp":"/ˌɑːtʃˈdaɪ.ə.sɪs/","us":"us  / ˌɑːrtʃˈdaɪ.ə.sɪs /","usp":"/ˌɑːrtʃˈdaɪ.ə.sɪs/"}
+{"title":"archduke","uk":"uk  / ˌɑːtʃˈdʒuːk /","ukp":"/ˌɑːtʃˈdʒuːk/","us":"us  / ˌɑːrtʃˈduːk /","usp":"/ˌɑːrtʃˈduːk/"}
+{"title":"archduchess","uk":"uk / ˌɑːtʃˈdʌtʃ.es /","ukp":"/ˌɑːtʃˈdʌtʃ.es/","us":"us / ˌɑːrtʃˈdʌtʃ.es /","usp":"/ˌɑːrtʃˈdʌtʃ.es/"}
+{"title":"arched","uk":"uk  / ɑːtʃt /","ukp":"/ɑːtʃt/","us":"us  / ɑːrːtʃt /","usp":"/ɑːrːtʃt/"}
+{"title":"archeology","uk":"uk  / ˌɑː.kiˈɒl.ə.dʒi /","ukp":"/ˌɑː.kiˈɒl.ə.dʒi/","us":"us  / ˌɑːr.kiˈɑː.lə.dʒi /","usp":"/ˌɑːr.kiˈɑː.lə.dʒi/"}
+{"title":"archer","uk":"uk  / ˈɑː.tʃə r /","ukp":"/ˈɑː.tʃər/","us":"us  / ˈɑːr.tʃɚ /","usp":"/ˈɑːr.tʃɚ/"}
+{"title":"archery","uk":"uk  / ˈɑː.tʃ ə r.i /","ukp":"/ˈɑː.tʃər.i/","us":"us  / ˈɑːr.tʃɚ.i /","usp":"/ˈɑːr.tʃɚ.i/"}
+{"title":"Arches National Park","uk":"uk / ˌɑː.tʃɪz ˌnæʃ. ə n. ə l ˈpɑːk /","ukp":"/ˌɑː.tʃɪz ˌnæʃ.ən.əl ˈpɑːk/","us":"us  / ˌɑːr.tʃəz ˌnæʃ. ə n. ə l ˈpɑːrk /","usp":"/ˌɑːr.tʃəz ˌnæʃ.ən.əl ˈpɑːrk/"}
+{"title":"archetypal","uk":"uk  / ˌɑː.kɪˈtaɪ.p ə l /","ukp":"/ˌɑː.kɪˈtaɪ.pəl/","us":"us  / ˌɑːr.kəˈtaɪ.p ə l /","usp":"/ˌɑːr.kəˈtaɪ.pəl/"}
+{"title":"archetypically","uk":"uk  / ˌɑː.kɪˈtɪp.ɪ.k ə l.i /","ukp":"/ˌɑː.kɪˈtɪp.ɪ.kəl.i/","us":"us  / ˌɑːr.kəˈtɪp.ɪ.k ə l.i /","usp":"/ˌɑːr.kəˈtɪp.ɪ.kəl.i/"}
+{"title":"archetype","uk":"uk  / ˈɑː.kɪ.taɪp /","ukp":"/ˈɑː.kɪ.taɪp/","us":"us  / ˈɑːr.kə.taɪp /","usp":"/ˈɑːr.kə.taɪp/"}
+{"title":"arching","uk":"uk  / ɑːtʃ /","ukp":"/ɑːtʃ/","us":"us  / ɑːrtʃ /","usp":"/ɑːrtʃ/"}
+{"title":"Archimedes","uk":"uk  / ˌɑː.kɪˈmiː.diːz /","ukp":"/ˌɑː.kɪˈmiː.diːz/","us":"us  / ˌɑːr.kəˈmiː.diːz /","usp":"/ˌɑːr.kəˈmiː.diːz/"}
+{"title":"archipelagoes","uk":"","us":""}
+{"title":"archipelago","uk":"uk  / ˌɑː.kɪˈpel.ə.ɡəʊ /","ukp":"/ˌɑː.kɪˈpel.ə.ɡəʊ/","us":"us  / ˌɑːr.kəˈpel.ə.ɡoʊ /","usp":"/ˌɑːr.kəˈpel.ə.ɡoʊ/"}
+{"title":"architectural","uk":"uk  / ˌɑː.kɪˈtek.tʃ ə r. ə l /","ukp":"/ˌɑː.kɪˈtek.tʃər.əl/","us":"us  / ˌɑːr.kəˈtek.tʃɚ. ə l /","usp":"/ˌɑːr.kəˈtek.tʃɚ.əl/"}
+{"title":"architect","uk":"uk  / ˈɑː.kɪ.tekt /","ukp":"/ˈɑː.kɪ.tekt/","us":"us  / ˈɑːr.kə.tekt /","usp":"/ˈɑːr.kə.tekt/"}
+{"title":"architecturally","uk":"uk  / ˌɑː.kɪˈtek.tʃ ə r. ə l.i /","ukp":"/ˌɑː.kɪˈtek.tʃər.əl.i/","us":"us  / ˌɑːr.kəˈtek.tʃɚ. ə l.i /","usp":"/ˌɑːr.kəˈtek.tʃɚ.əl.i/"}
+{"title":"architecture","uk":"uk  / ˈɑː.kɪ.tek.tʃə r /","ukp":"/ˈɑː.kɪ.tek.tʃər/","us":"us  / ˈɑːr.kə.tek.tʃɚ /","usp":"/ˈɑːr.kə.tek.tʃɚ/"}
+{"title":"architrave","uk":"uk  / ˈɑː.kɪ.treɪv /","ukp":"/ˈɑː.kɪ.treɪv/","us":"us  / ˈɑːr.kə.treɪv /","usp":"/ˈɑːr.kə.treɪv/"}
+{"title":"archival","uk":"uk  / ˌɑːˈkaɪ.v ə l /","ukp":"/ˌɑːˈkaɪ.vəl/","us":"us  / ˌɑːrˈkaɪ.v ə l /","usp":"/ˌɑːrˈkaɪ.vəl/"}
+{"title":"archive","uk":"uk  / ˈɑː.kaɪv /","ukp":"/ˈɑː.kaɪv/","us":"us  / ˈɑːr.kaɪv /","usp":"/ˈɑːr.kaɪv/"}
+{"title":"archived","uk":"uk  / ˈɑː.kaɪv /","ukp":"/ˈɑː.kaɪv/","us":"us  / ˈɑːr.kaɪv /","usp":"/ˈɑːr.kaɪv/"}
+{"title":"archiving","uk":"uk  / ˈɑː.kaɪv /","ukp":"/ˈɑː.kaɪv/","us":"us  / ˈɑːr.kaɪv /","usp":"/ˈɑːr.kaɪv/"}
+{"title":"archivist","uk":"uk  / ˈɑː.kɪ.vɪst /","ukp":"/ˈɑː.kɪ.vɪst/","us":"us  / ˈɑːr.kə.vɪst /","usp":"/ˈɑːr.kə.vɪst/"}
+{"title":"archly","uk":"uk  / ˈɑːtʃ.li /","ukp":"/ˈɑːtʃ.li/","us":"us  / ˈɑːrtʃ.li /","usp":"/ˈɑːrtʃ.li/"}
+{"title":"archpriest","uk":"uk  / ˌɑːtʃˈpriːst /","ukp":"/ˌɑːtʃˈpriːst/","us":"us  / ˌɑːrtʃˈpriːst /","usp":"/ˌɑːrtʃˈpriːst/"}
+{"title":"archway","uk":"uk  / ˈɑːtʃ.weɪ /","ukp":"/ˈɑːtʃ.weɪ/","us":"us  / ˈɑːrtʃ.weɪ /","usp":"/ˈɑːrtʃ.weɪ/"}
+{"title":"arcing","uk":"uk  / ɑːk /","ukp":"/ɑːk/","us":"us  / ɑːrk /","usp":"/ɑːrk/"}
+{"title":"arcuate","uk":"uk  / ˈɑː.kju.ət /","ukp":"/ˈɑː.kju.ət/","us":"us  / ˈɑːr.kju.ət /","usp":"/ˈɑːr.kju.ət/"}
+{"title":"Arctic","uk":"uk  / ˈɑːk.tɪk /","ukp":"/ˈɑːk.tɪk/","us":"us  / ˈɑːrk.tɪk /","usp":"/ˈɑːrk.tɪk/"}
+{"title":"ardent","uk":"uk  / ˈɑː.d ə nt /","ukp":"/ˈɑː.dənt/","us":"us  / ˈɑːr.d ə nt /","usp":"/ˈɑːr.dənt/"}
+{"title":"ardently","uk":"uk  / ˈɑː.d ə nt.li /","ukp":"/ˈɑː.dənt.li/","us":"us  / ˈɑːr.d ə nt.li /","usp":"/ˈɑːr.dənt.li/"}
+{"title":"ardor","uk":"uk  / ˈɑː.də r /","ukp":"/ˈɑː.dər/","us":"us  / ˈɑːr.dɚ /","usp":"/ˈɑːr.dɚ/"}
+{"title":"ardour","uk":"uk  / ˈɑː.də r /","ukp":"/ˈɑː.dər/","us":"us  / ˈɑːr.dɚ /","usp":"/ˈɑːr.dɚ/"}
+{"title":"arcus","uk":"uk  / ˈɑː.kəs /","ukp":"/ˈɑː.kəs/","us":"us  / ˈɑːr.kəs /","usp":"/ˈɑːr.kəs/"}
+{"title":"ARDS","uk":"uk  / ˌeɪ.ɑː.diːˈes /","ukp":"/ˌeɪ.ɑː.diːˈes/","us":"us  / ˌeɪ.ɑːr.diːˈes /","usp":"/ˌeɪ.ɑːr.diːˈes/"}
+{"title":"arduous","uk":"uk  / ˈɑː.dʒu.əs /","ukp":"/ˈɑː.dʒu.əs/","us":"us  / ˈɑːr.dʒu.əs /","usp":"/ˈɑːr.dʒu.əs/"}
+{"title":"arduously","uk":"uk  / ˈɑː.dʒu.əs.li /","ukp":"/ˈɑː.dʒu.əs.li/","us":"us  / ˈɑːr.dʒu.əs.li /","usp":"/ˈɑːr.dʒu.əs.li/"}
+{"title":"arduousness","uk":"uk  / ˈɑː.dʒu.əs.nəs /","ukp":"/ˈɑː.dʒu.əs.nəs/","us":"us  / ˈɑːr.dʒu.əs.nəs /","usp":"/ˈɑːr.dʒu.əs.nəs/"}
+{"title":"are","uk":"uk  strong / ɑː r /","ukp":"strong /ɑːr/","us":"us  strong / ɑːr /","usp":"strong /ɑːr/"}
+{"title":"are my eyes deceiving me?","uk":"","us":""}
+{"title":"area franchise","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"area code","uk":"uk  / ˈeə.ri.ə ˌkəʊd /","ukp":"/ˈeə.ri.ə ˌkəʊd/","us":"us  / ˈer.i.ə ˌkoʊd /","usp":"/ˈer.i.ə ˌkoʊd/"}
+{"title":"area franchisee","uk":"","us":""}
+{"title":"area","uk":"uk  / ˈeə.ri.ə /","ukp":"/ˈeə.ri.ə/","us":"us  / ˈer.i.ə /","usp":"/ˈer.i.ə/"}
+{"title":"area studies","uk":"","us":""}
+{"title":"armoury","uk":"uk  / ˈɑː.m ə r.i /","ukp":"/ˈɑː.mər.i/","us":"us  / ˈɑːr.mɚ.i /","usp":"/ˈɑːr.mɚ.i/"}
+{"title":"armrest","uk":"uk  / ˈɑːm.rest /","ukp":"/ˈɑːm.rest/","us":"us  / ˈɑːrm.rest /","usp":"/ˈɑːrm.rest/"}
+{"title":"armpit","uk":"uk  / ˈɑːm.pɪt /","ukp":"/ˈɑːm.pɪt/","us":"us  / ˈɑːrm.pɪt /","usp":"/ˈɑːrm.pɪt/"}
+{"title":"arms","uk":"uk  / ɑːmz /","ukp":"/ɑːmz/","us":"us  / ɑːmz /","usp":"/ɑːmz/"}
+{"title":"arms race","uk":"uk  / ˈɑːmz ˌreɪs /","ukp":"/ˈɑːmz ˌreɪs/","us":"us  / ˈɑːmz ˌreɪs /","usp":"/ˈɑːmz ˌreɪs/"}
+{"title":"arms control","uk":"uk  / ˈɑːmz kənˌtrəʊl /","ukp":"/ˈɑːmz kənˌtrəʊl/","us":"us  / ˈɑːmz kənˌtroʊl /","usp":"/ˈɑːmz kənˌtroʊl/"}
+{"title":"army","uk":"uk  / ˈɑː.mi /","ukp":"/ˈɑː.mi/","us":"us  / ˈɑːr.mi /","usp":"/ˈɑːr.mi/"}
+{"title":"army disposals store","uk":"uk  / ˌɑː.mi dɪˈspəʊ.z ə lz ˌstɔː r /","ukp":"/ˌɑː.mi dɪˈspəʊ.zəlz ˌstɔːr/","us":"us  / ˌɑːr.mi dɪˈspoʊ.z ə lz ˌstɔːr /","usp":"/ˌɑːr.mi dɪˈspoʊ.zəlz ˌstɔːr/"}
+{"title":"army surplus","uk":"uk  / ˌɑː.mi ˈsɜː.pləs /","ukp":"/ˌɑː.mi ˈsɜː.pləs/","us":"us  / ˌɑːr.mi ˈsɝː.pləs /","usp":"/ˌɑːr.mi ˈsɝː.pləs/"}
+{"title":"army surplus store","uk":"uk  / ˌɑː.mi ˈsɜː.pləs ˌstɔː r /","ukp":"/ˌɑː.mi ˈsɜː.pləs ˌstɔːr/","us":"us  / ˌɑːr.mi ˈsɝː.pləs ˌstɔːr /","usp":"/ˌɑːr.mi ˈsɝː.pləs ˌstɔːr/"}
+{"title":"army-navy store","uk":"uk  / ˌɑː.miˈneɪ.vi ˌstɔː r /","ukp":"/ˌɑː.miˈneɪ.vi ˌstɔːr/","us":"us  / ˌɑːr.miˈneɪ.vi ˌstɔːr /","usp":"/ˌɑːr.miˈneɪ.vi ˌstɔːr/"}
+{"title":"Arnold Palmer","uk":"uk  / ˌɑː.nəld ˈpɑː.mə r /","ukp":"/ˌɑː.nəld ˈpɑː.mər/","us":"us  / ˌɑːr.nəld ˈpɑːl.mɚ /","usp":"/ˌɑːr.nəld ˈpɑːl.mɚ/"}
+{"title":"arnica","uk":"uk  / ˈɑː.nɪk.ə /","ukp":"/ˈɑː.nɪk.ə/","us":"us  / ˈɑːr.nɪk.ə /","usp":"/ˈɑːr.nɪk.ə/"}
+{"title":"aro","uk":"uk / ˈeɪ.rəʊ /","ukp":"/ˈeɪ.rəʊ/","us":"us / ˈeɪ.roʊ /","usp":"/ˈeɪ.roʊ/"}
+{"title":"Arnold-Chiari malformation","uk":"uk  / ˌɑː.n ə ld.kiːˈɑːri mæl.fɔːˌmeɪ.ʃ ə n /","ukp":"/ˌɑː.nəld.kiːˈɑːri mæl.fɔːˌmeɪ.ʃən/","us":"us  / ˌɑːr.n ə ld.kiˈɑːr.i mæl.fɔːrˌmeɪ.ʃ ə n /","usp":"/ˌɑːr.nəld.kiˈɑːr.i mæl.fɔːrˌmeɪ.ʃən/"}
+{"title":"aroma","uk":"uk  / əˈrəʊ.mə /","ukp":"/əˈrəʊ.mə/","us":"us  / əˈroʊ.mə /","usp":"/əˈroʊ.mə/"}
+{"title":"aromatherapeutic","uk":"uk  / əˌrəʊ.mə.θe.rəˈpjuː.tɪk /","ukp":"/əˌrəʊ.mə.θe.rəˈpjuː.tɪk/","us":"us  / əˌroʊ.mə.θe.rəˈpjuː.t̬ɪk /","usp":"/əˌroʊ.mə.θe.rəˈpjuː.t̬ɪk/"}
+{"title":"aromantic","uk":"uk  / ˌeɪ.rəʊˈmæn.tɪk /","ukp":"/ˌeɪ.rəʊˈmæn.tɪk/","us":"us  / ˌeɪ.roʊˈmæn.t̬ɪk /","usp":"/ˌeɪ.roʊˈmæn.t̬ɪk/"}
+{"title":"aromatherapy","uk":"uk  / əˌrəʊ.məˈθer.ə.pi /","ukp":"/əˌrəʊ.məˈθer.ə.pi/","us":"us  / əˌroʊ.məˈθer.ə.pi /","usp":"/əˌroʊ.məˈθer.ə.pi/"}
+{"title":"aromatherapist","uk":"uk  / əˌrəʊ.məˈθer.ə.pɪst /","ukp":"/əˌrəʊ.məˈθer.ə.pɪst/","us":"us  / əˌroʊ.məˈθer.ə.pɪst /","usp":"/əˌroʊ.məˈθer.ə.pɪst/"}
+{"title":"aromatic","uk":"uk  / ˌær.əˈmæt.ɪk /","ukp":"/ˌær.əˈmæt.ɪk/","us":"us  / ˌer.əˈmæt̬.ɪk /","usp":"/ˌer.əˈmæt̬.ɪk/"}
+{"title":"aronia","uk":"uk  / əˈrəʊ.ni.ə /","ukp":"/əˈrəʊ.ni.ə/","us":"us  / əˈroʊ.ni.ə /","usp":"/əˈroʊ.ni.ə/"}
+{"title":"arose","uk":"uk  / əˈrəʊz /","ukp":"/əˈrəʊz/","us":"us  / əˈroʊz /","usp":"/əˈroʊz/"}
+{"title":"around Robin Hood's barn","uk":"","us":""}
+{"title":"around and around","uk":"","us":""}
+{"title":"around the bend","uk":"","us":""}
+{"title":"around","uk":"uk  / əˈraʊnd /","ukp":"/əˈraʊnd/","us":"us  / əˈraʊnd /","usp":"/əˈraʊnd/"}

@@ -1,0 +1,935 @@
+{"title":"baby talk","uk":"uk  / ˈbeɪ.bi ˌtɔːk /","ukp":"/ˈbeɪ.bi ˌtɔːk/","us":"us  / ˈbeɪ.bi ˌtɑːk /","usp":"/ˈbeɪ.bi ˌtɑːk/"}
+{"title":"baby wipe","uk":"uk  / ˈbeɪ.bi ˌwaɪp /","ukp":"/ˈbeɪ.bi ˌwaɪp/","us":"us  / ˈbeɪ.bi ˌwaɪp /","usp":"/ˈbeɪ.bi ˌwaɪp/"}
+{"title":"baby tooth","uk":"uk  / ˈbeɪ.bi ˌtuːθ /","ukp":"/ˈbeɪ.bi ˌtuːθ/","us":"us  / ˈbeɪ.bi ˌtuːθ /","usp":"/ˈbeɪ.bi ˌtuːθ/"}
+{"title":"baby's breath","uk":"uk  / ˈbeɪ.biz ˌbreθ /","ukp":"/ˈbeɪ.biz ˌbreθ/","us":"us  / ˈbeɪ.biz ˌbreθ /","usp":"/ˈbeɪ.biz ˌbreθ/"}
+{"title":"babyccino","uk":"uk  / beɪ.biˈtʃiː.nəʊ /","ukp":"/beɪ.biˈtʃiː.nəʊ/","us":"us  / beɪ.biˈtʃiː.noʊ /","usp":"/beɪ.biˈtʃiː.noʊ/"}
+{"title":"Babygro","uk":"uk  / ˈbeɪ.biˌɡrəʊ /","ukp":"/ˈbeɪ.biˌɡrəʊ/","us":"us  / ˈbeɪ.biˌɡroʊ /","usp":"/ˈbeɪ.biˌɡroʊ/"}
+{"title":"babyhood","uk":"uk  / ˈbeɪ.bi.hʊd /","ukp":"/ˈbeɪ.bi.hʊd/","us":"us  / ˈbeɪ.bi.hʊd /","usp":"/ˈbeɪ.bi.hʊd/"}
+{"title":"babying","uk":"uk  / ˈbeɪ.bi /","ukp":"/ˈbeɪ.bi/","us":"us  / ˈbeɪ.bi /","usp":"/ˈbeɪ.bi/"}
+{"title":"babysat","uk":"","us":""}
+{"title":"babymoon","uk":"uk  / ˈbeɪ.bi.muːn /","ukp":"/ˈbeɪ.bi.muːn/","us":"us  / ˈbeɪ.bi.muːn /","usp":"/ˈbeɪ.bi.muːn/"}
+{"title":"babyish","uk":"uk  / ˈbeɪ.bi.ɪʃ /","ukp":"/ˈbeɪ.bi.ɪʃ/","us":"us  / ˈbeɪ.bi.ɪʃ /","usp":"/ˈbeɪ.bi.ɪʃ/"}
+{"title":"babysit","uk":"uk  / ˈbeɪ.bi.sɪt /","ukp":"/ˈbeɪ.bi.sɪt/","us":"us  / ˈbeɪ.bi.sɪt /","usp":"/ˈbeɪ.bi.sɪt/"}
+{"title":"babysitter","uk":"uk  / ˈbeɪ.biˌsɪt.ə r /","ukp":"/ˈbeɪ.biˌsɪt.ər/","us":"us  / ˈbeɪ.biˌsɪt̬.ɚ /","usp":"/ˈbeɪ.biˌsɪt̬.ɚ/"}
+{"title":"babysitting","uk":"uk  / ˈbeɪ.biˌsɪt.ɪŋ /","ukp":"/ˈbeɪ.biˌsɪt.ɪŋ/","us":"us  / ˈbeɪ.biˌsɪt̬.ɪŋ /","usp":"/ˈbeɪ.biˌsɪt̬.ɪŋ/"}
+{"title":"babysitting agency","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"babysitting service","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"baccalaureate","uk":"uk  / ˌbæk.əˈlɔː.ri.ət /","ukp":"/ˌbæk.əˈlɔː.ri.ət/","us":"us  / ˌbæk.əˈlɔːr.i.ət /","usp":"/ˌbæk.əˈlɔːr.i.ət/"}
+{"title":"Bacchus","uk":"uk  / ˈbæk.əs /","ukp":"/ˈbæk.əs/","us":"us  / ˈbɑːk.əs /","usp":"/ˈbɑːk.əs/"}
+{"title":"bacchanalian","uk":"uk  / ˌbæk.əˈneɪ.li.ən /","ukp":"/ˌbæk.əˈneɪ.li.ən/","us":"us  / ˌbæk.əˈneɪ.li.ən /","usp":"/ˌbæk.əˈneɪ.li.ən/"}
+{"title":"baccy","uk":"uk  / ˈbæk.i /","ukp":"/ˈbæk.i/","us":"us  / ˈbæk.i /","usp":"/ˈbæk.i/"}
+{"title":"bachelor","uk":"uk  / ˈbætʃ. ə l.ə r /","ukp":"/ˈbætʃ.əl.ər/","us":"us  / ˈbætʃ. ə l.ɚ /","usp":"/ˈbætʃ.əl.ɚ/"}
+{"title":"bachelor apartment","uk":"uk  / ˈbætʃ. ə l.ər əˌpɑːt.mənt /","ukp":"/ ˈbætʃ.əl.ər əˌpɑːt.mənt/","us":"us  / ˈbætʃ. ə l.ɚ əˌpɑːrt.mənt /","usp":"/ ˈbætʃ.əl.ɚ əˌpɑːrt.mənt/"}
+{"title":"Bachelor of Business Administration","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bachelor pad","uk":"uk  / ˈbætʃ. ə l.ə ˌpæd /","ukp":"/ˈbætʃ.əl.ə ˌpæd/","us":"us  / ˈbætʃ. ə l.ɚ ˌpæd /","usp":"/ˈbætʃ.əl.ɚ ˌpæd/"}
+{"title":"bachelor's degree","uk":"uk  / ˌbætʃ. ə l.əz dɪˈɡriː /","ukp":"/ˌbætʃ.əl.əz dɪˈɡriː/","us":"us  / ˌbætʃ. ə l.ɚz dɪˈɡriː /","usp":"/ˌbætʃ.əl.ɚz dɪˈɡriː/"}
+{"title":"bachelor party","uk":"uk  / ˈbætʃ. ə l.ə ˌpɑː.ti /","ukp":"/ˈbætʃ.əl.ə ˌpɑː.ti/","us":"us  / ˈbætʃ. ə l.ɚ ˌpɑːr.t̬i /","usp":"/ˈbætʃ.əl.ɚ ˌpɑːr.t̬i/"}
+{"title":"bachelorette","uk":"uk  / ˌbætʃ. ə l.əˈret /","ukp":"/ˌbætʃ.əl.əˈret/","us":"us  / ˌbætʃ. ə l.əˈret /","usp":"/ˌbætʃ.əl.əˈret/"}
+{"title":"bachelorette party","uk":"uk  / bætʃ. ə l.əˈret ˌpɑː.ti /","ukp":"/bætʃ.əl.əˈret ˌpɑː.ti/","us":"us  / bætʃ. ə l.əˈret ˌpɑːr.t̬i /","usp":"/bætʃ.əl.əˈret ˌpɑːr.t̬i/"}
+{"title":"bachelorhood","uk":"uk  / ˈbætʃ. ə l.ə.hʊd /","ukp":"/ˈbætʃ.əl.ə.hʊd/","us":"us  / ˈbætʃ. ə l.ɚ.hʊd /","usp":"/ˈbætʃ.əl.ɚ.hʊd/"}
+{"title":"bacilli","uk":"","us":""}
+{"title":"bacillus","uk":"uk  / bəˈsɪl.əs /","ukp":"/bəˈsɪl.əs/","us":"us  / bəˈsɪl.əs /","usp":"/bəˈsɪl.əs/"}
+{"title":"back alley","uk":"uk  / ˈbæk ˌæl.i /","ukp":"/ˈbæk ˌæl.i/","us":"us  / ˈbæk ˌæl.i /","usp":"/ˈbæk ˌæl.i/"}
+{"title":"back away","uk":"uk  / bæk /","ukp":"/bæk/","us":"us  / bæk /","usp":"/bæk/"}
+{"title":"back and forth","uk":"","us":""}
+{"title":"back bacon","uk":"uk  / ˈbæk ˌbeɪ.k ə n /","ukp":"/ˈbæk ˌbeɪ.kən/","us":"us  / ˈbæk ˌbeɪ.k ə n /","usp":"/ˈbæk ˌbeɪ.kən/"}
+{"title":"back catalogue","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"back copy","uk":"uk  / ˈbæk ˌkɒp.i /","ukp":"/ˈbæk ˌkɒp.i/","us":"us  / ˈbæk ˌkɑː.pi /","usp":"/ˈbæk ˌkɑː.pi/"}
+{"title":"back","uk":"uk  / bæk /","ukp":"/bæk/","us":"us  / bæk /","usp":"/bæk/"}
+{"title":"back door","uk":"uk  / ˌbæk ˈdɔː r /","ukp":"/ˌbæk ˈdɔːr/","us":"us  / ˌbæk ˈdɔːr /","usp":"/ˌbæk ˈdɔːr/"}
+{"title":"back east","uk":"","us":""}
+{"title":"back down","uk":"uk  / bæk /","ukp":"/bæk/","us":"us  / bæk /","usp":"/bæk/"}
+{"title":"back end","uk":"uk  / ˈbæk ˌend /","ukp":"/ˈbæk ˌend/","us":"us  / ˈbæk ˌend /","usp":"/ˈbæk ˌend/"}
+{"title":"back in the day","uk":"","us":""}
+{"title":"back four","uk":"uk  / ˌbæk ˈfɔː r /","ukp":"/ˌbæk ˈfɔːr/","us":"us  / ˌbæk ˈfɔːr /","usp":"/ˌbæk ˈfɔːr/"}
+{"title":"back in the saddle","uk":"","us":""}
+{"title":"utter","uk":"uk  / ˈʌt.ə r /","ukp":"/ˈʌt.ər/","us":"us  / ˈʌ.t̬ɚ /","usp":"/ˈʌ.t̬ɚ/"}
+{"title":"utterance","uk":"uk  / ˈʌt. ə r. ə ns /","ukp":"/ˈʌt.ər.əns/","us":"us  / ˈʌ.t̬ɚ. ə ns /","usp":"/ˈʌ.t̬ɚ.əns/"}
+{"title":"uttered","uk":"uk  / ˈʌt.ə r /","ukp":"/ˈʌt.ər/","us":"us  / ˈʌ.t̬ɚ /","usp":"/ˈʌ.t̬ɚ/"}
+{"title":"uttering","uk":"uk  / ˈʌt.ə r /","ukp":"/ˈʌt.ər/","us":"us  / ˈʌ.t̬ɚ /","usp":"/ˈʌ.t̬ɚ/"}
+{"title":"utterly","uk":"uk  / ˈʌt. ə l.i /","ukp":"/ˈʌt.əl.i/","us":"us  / ˈʌ.t̬ɚ.li /","usp":"/ˈʌ.t̬ɚ.li/"}
+{"title":"UUP","uk":"uk  / ˌjuːjuːˈpiː /","ukp":"/ˌjuːjuːˈpiː/","us":"us  / ˌjuːjuːˈpiː /","usp":"/ˌjuːjuːˈpiː/"}
+{"title":"UTV","uk":"uk  / ˌjuː.tiːˈviː /","ukp":"/ˌjuː.tiːˈviː/","us":"us  / ˌjuː.tiːˈviː /","usp":"/ˌjuː.tiːˈviː/"}
+{"title":"UV","uk":"uk  / juːˈviː /","ukp":"/juːˈviː/","us":"us  / juːˈviː /","usp":"/juːˈviː/"}
+{"title":"UVA","uk":"uk  / ˌjuːviːˈeɪ /","ukp":"/ˌjuːviːˈeɪ/","us":"us  / ˌjuːviːˈeɪ /","usp":"/ˌjuːviːˈeɪ/"}
+{"title":"UVB","uk":"uk  / ˌjuːviːˈbiː /","ukp":"/ˌjuːviːˈbiː/","us":"us  / ˌjuːviːˈbiː /","usp":"/ˌjuːviːˈbiː/"}
+{"title":"uvula","uk":"uk  / ˈjuː.vjə.lə /","ukp":"/ˈjuː.vjə.lə/","us":"us  / ˈjuː.vjə.lə /","usp":"/ˈjuː.vjə.lə/"}
+{"title":"uvulae","uk":"","us":""}
+{"title":"uvular","uk":"uk  / ˈjuː.vjə.lə r /","ukp":"/ˈjuː.vjə.lər/","us":"us  / ˈjuː.vjə.lɚ /","usp":"/ˈjuː.vjə.lɚ/"}
+{"title":"UW","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"UX","uk":"uk  / ˌjuːˈeks /","ukp":"/ˌjuːˈeks/","us":"us  / ˌjuːˈeks /","usp":"/ˌjuːˈeks/"}
+{"title":"uxorial","uk":"uk  / ʌkˈsɔː.ri.əl /","ukp":"/ʌkˈsɔː.ri.əl/","us":"us  / ʌkˈsɔːr.i.əl /","usp":"/ʌkˈsɔːr.i.əl/"}
+{"title":"uxoricide","uk":"uk  / ʌkˈsɔː.rɪ.saɪd /","ukp":"/ʌkˈsɔː.rɪ.saɪd/","us":"us  / ʌkˈsɔːr.ɪ.saɪd /","usp":"/ʌkˈsɔːr.ɪ.saɪd/"}
+{"title":"uxorious","uk":"uk  / ʌkˈsɔː.ri.əs /","ukp":"/ʌkˈsɔː.ri.əs/","us":"us  / ʌkˈsɔːr.i.əs /","usp":"/ʌkˈsɔːr.i.əs/"}
+{"title":"Uzbek","uk":"uk  / ˈʊz.bek /","ukp":"/ˈʊz.bek/","us":"us  / ˈʊz.bek /","usp":"/ˈʊz.bek/"}
+{"title":"Uzbekistan","uk":"uk  / ʊzˌbek.ɪˈstɑːn /","ukp":"/ʊzˌbek.ɪˈstɑːn/","us":"us  / ʊzˌbek.ɪˈstɑːn /","usp":"/ʊzˌbek.ɪˈstɑːn/"}
+{"title":"Uzi","uk":"uk  / ˈuː.zi /","ukp":"/ˈuː.zi/","us":"us  / ˈuː.zi /","usp":"/ˈuː.zi/"}
+{"title":"urogenital","uk":"uk  / ˌjʊə.rəʊˈdʒen.ɪ.t ə l /","ukp":"/ˌjʊə.rəʊˈdʒen.ɪ.təl/","us":"us  / ˌjʊr.oʊˈdʒen.ə.t̬ ə l /","usp":"/ˌjʊr.oʊˈdʒen.ə.t̬əl/"}
+{"title":"urologist","uk":"uk  / jʊəˈrɒl.ə.dʒɪst /","ukp":"/jʊəˈrɒl.ə.dʒɪst/","us":"us  / jʊrˈɑː.lə.dʒɪst /","usp":"/jʊrˈɑː.lə.dʒɪst/"}
+{"title":"urology","uk":"uk  / jʊəˈrɒl.ə.dʒi /","ukp":"/jʊəˈrɒl.ə.dʒi/","us":"us  / jʊˈrɑː.lə.dʒi /","usp":"/jʊˈrɑː.lə.dʒi/"}
+{"title":"ursine","uk":"uk  / ˈɜː.saɪn /","ukp":"/ˈɜː.saɪn/","us":"us  / ˈɜ˞ː.saɪn /","usp":"/ˈɜ˞ː.saɪn/"}
+{"title":"urticaria","uk":"uk  / ˌɜː.tɪˈkeə.ri.ə /","ukp":"/ˌɜː.tɪˈkeə.ri.ə/","us":"us  / ˌɜːr.t̬ɪˈker.ɪ.ə /","usp":"/ˌɜːr.t̬ɪˈker.ɪ.ə/"}
+{"title":"Uruguay","uk":"uk  / ˈjʊə.rə.ɡwaɪ /","ukp":"/ˈjʊə.rə.ɡwaɪ/","us":"us  / ˈjʊr.ə.ɡwaɪ /","usp":"/ˈjʊr.ə.ɡwaɪ/"}
+{"title":"Uruguayan","uk":"uk  / ˌjʊə.rəˈɡwaɪ.ən /","ukp":"/ˌjʊə.rəˈɡwaɪ.ən/","us":"us  / ˌjʊr.əˈɡwaɪ.ən /","usp":"/ˌjʊr.əˈɡwaɪ.ən/"}
+{"title":"US Virgin Islands","uk":"uk  / juːˌes ˈvɜː.dʒɪn ˌaɪ.ləndz /","ukp":"/juːˌes ˈvɜː.dʒɪn ˌaɪ.ləndz/","us":"us  / ˌjuːˌes ˌvɝː.dʒɪn ˈaɪ.ləndz /","usp":"/ˌjuːˌes ˌvɝː.dʒɪn ˈaɪ.ləndz/"}
+{"title":"us","uk":"uk  strong / ʌs /","ukp":"strong /ʌs/","us":"us  strong / ʌs /","usp":"strong /ʌs/"}
+{"title":"usability","uk":"uk  / ˌjuːzəˈbɪləti /","ukp":"/ˌjuːzəˈbɪləti/","us":"us ","usp":""}
+{"title":"usable","uk":"uk  / ˈjuː.zə.b ə l /","ukp":"/ˈjuː.zə.bəl/","us":"us  / ˈjuː.zə.b ə l /","usp":"/ˈjuː.zə.bəl/"}
+{"title":"usage","uk":"uk  / ˈjuː.sɪdʒ /","ukp":"/ˈjuː.sɪdʒ/","us":"us  / ˈjuː.sɪdʒ /","usp":"/ˈjuː.sɪdʒ/"}
+{"title":"usance","uk":"uk  / ˈjuːz ə ns /","ukp":"/ˈjuːzəns/","us":"us ","usp":""}
+{"title":"usance bill","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"USB","uk":"uk  / ˌjuː.esˈbiː /","ukp":"/ˌjuː.esˈbiː/","us":"us  / ˌjuː.esˈbiː /","usp":"/ˌjuː.esˈbiː/"}
+{"title":"USB stick","uk":"uk  / juː.esˈbiː ˌstɪk /","ukp":"/juː.esˈbiː ˌstɪk/","us":"us  / juː.esˈbiː ˌstɪk /","usp":"/juː.esˈbiː ˌstɪk/"}
+{"title":"use something up","uk":"uk  / juːz /","ukp":"/juːz/","us":"us  / juːz /","usp":"/juːz/"}
+{"title":"use","uk":"uk  / juːz /","ukp":"/juːz/","us":"us  / juːz /","usp":"/juːz/"}
+{"title":"use your head","uk":"","us":""}
+{"title":"use your loaf","uk":"","us":""}
+{"title":"use-it-or-lose-it","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"use-by date","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"used to","uk":"","us":"us  / ˈjus·tu , -tə /","usp":"/ˈjus·tu, -tə/"}
+{"title":"used","uk":"uk  / juːst /","ukp":"/juːst/","us":"us  / juːst /","usp":"/juːst/"}
+{"title":"useful idiot","uk":"uk  / ˌjuːs.f ə l ˈɪd.i.ət /","ukp":"/ˌjuːs.fəl ˈɪd.i.ət/","us":"us  / ˌjuːs.f ə l ˈɪd.i.ət /","usp":"/ˌjuːs.fəl ˈɪd.i.ət/"}
+{"title":"useful life","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"useful","uk":"uk  / ˈjuːs.f ə l /","ukp":"/ˈjuːs.fəl/","us":"us  / ˈjuːs.f ə l /","usp":"/ˈjuːs.fəl/"}
+{"title":"usefulness","uk":"uk  / ˈjuːs.f ə l.nəs /","ukp":"/ˈjuːs.fəl.nəs/","us":"us  / ˈjuːs.f ə l.nəs /","usp":"/ˈjuːs.fəl.nəs/"}
+{"title":"usefully","uk":"uk  / ˈjuːs.f ə l.i /","ukp":"/ˈjuːs.fəl.i/","us":"us  / ˈjuːs.f ə l.i /","usp":"/ˈjuːs.fəl.i/"}
+{"title":"useless","uk":"uk  / ˈjuːs.ləs /","ukp":"/ˈjuːs.ləs/","us":"us  / ˈjuːs.ləs /","usp":"/ˈjuːs.ləs/"}
+{"title":"uselessly","uk":"uk  / ˈjuːs.ləs.li /","ukp":"/ˈjuːs.ləs.li/","us":"us  / ˈjuːs.ləs.li /","usp":"/ˈjuːs.ləs.li/"}
+{"title":"uselessness","uk":"uk  / ˈjuːs.ləs.nəs /","ukp":"/ˈjuːs.ləs.nəs/","us":"us  / ˈjuːs.ləs.nəs /","usp":"/ˈjuːs.ləs.nəs/"}
+{"title":"user","uk":"uk  / ˈjuː.zə r /","ukp":"/ˈjuː.zər/","us":"us  / ˈjuː.zɚ /","usp":"/ˈjuː.zɚ/"}
+{"title":"user acceptance test","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"user account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"user experience","uk":"uk  / ˈjuː.zər ɪkˌspɪə.ri. ə ns /","ukp":"/ˈjuː.zər ɪkˌspɪə.ri.əns/","us":"us  / ˈjuː.zɚ ɪkˌspɪr.i. ə ns /","usp":"/ˈjuː.zɚ ɪkˌspɪr.i.əns/"}
+{"title":"user group","uk":"uk  / ˈjuː.zə ˌɡruːp /","ukp":"/ˈjuː.zə ˌɡruːp/","us":"us  / ˈjuː.zɚ ˌɡruːp /","usp":"/ˈjuː.zɚ ˌɡruːp/"}
+{"title":"user ID","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"user fee","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"user-centred","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"user interface","uk":"uk  / ˌjuː.zər ˈɪn.tə.feɪs /","ukp":"/ˌjuː.zər ˈɪn.tə.feɪs/","us":"us  / ˌjuː.zɚ ˈɪn.t̬ɚ.feɪs /","usp":"/ˌjuː.zɚ ˈɪn.t̬ɚ.feɪs/"}
+{"title":"user-friendliness","uk":"uk  / ˌjuː.zəˈfrend.li.nəs /","ukp":"/ˌjuː.zəˈfrend.li.nəs/","us":"us  / ˌjuː.zɚˈfrend.li.nəs /","usp":"/ˌjuː.zɚˈfrend.li.nəs/"}
+{"title":"user-friendly","uk":"uk  / ˌjuː.zəˈfrend.li /","ukp":"/ˌjuː.zəˈfrend.li/","us":"us  / ˌjuː.zɚˈfrend.li /","usp":"/ˌjuː.zɚˈfrend.li/"}
+{"title":"username","uk":"uk  / ˈjuː.zə.neɪm /","ukp":"/ˈjuː.zə.neɪm/","us":"us  / ˈjuː.zɚ.neɪm /","usp":"/ˈjuː.zɚ.neɪm/"}
+{"title":"usher something in","uk":"uk  / ˈʌʃ.ə r /","ukp":"/ˈʌʃ.ər/","us":"us  / ˈʌʃ.ɚ /","usp":"/ˈʌʃ.ɚ/"}
+{"title":"usher","uk":"uk  / ˈʌʃ.ə r /","ukp":"/ˈʌʃ.ər/","us":"us  / ˈʌʃ.ɚ /","usp":"/ˈʌʃ.ɚ/"}
+{"title":"ushered","uk":"uk  / ˈʌʃ.ə r /","ukp":"/ˈʌʃ.ər/","us":"us  / ˈʌʃ.ɚ /","usp":"/ˈʌʃ.ɚ/"}
+{"title":"back off","uk":"uk  / bæk /","ukp":"/bæk/","us":"us  / bæk /","usp":"/bæk/"}
+{"title":"usherette","uk":"uk  / ˌʌʃ.əˈret /","ukp":"/ˌʌʃ.əˈret/","us":"us  / ˌʌʃ.əˈret /","usp":"/ˌʌʃ.əˈret/"}
+{"title":"back onto something","uk":"uk  / bæk /","ukp":"/bæk/","us":"us  / bæk /","usp":"/bæk/"}
+{"title":"back office","uk":"uk  / ˌbæk ˈɒf.ɪs /","ukp":"/ˌbæk ˈɒf.ɪs/","us":"us  / ˌbæk ˈɑː.fɪs /","usp":"/ˌbæk ˈɑː.fɪs/"}
+{"title":"back out (of sth)","uk":"uk  / bæk /","ukp":"/bæk/","us":"us ","usp":""}
+{"title":"back order","uk":"uk  / ˈbæk ˌɔː.də r /","ukp":"/ˈbæk ˌɔː.dər/","us":"us  / ˈbæk ˌɔːr.dɚ /","usp":"/ˈbæk ˌɔːr.dɚ/"}
+{"title":"back out","uk":"uk  / bæk /","ukp":"/bæk/","us":"us  / bæk /","usp":"/bæk/"}
+{"title":"back passage","uk":"uk  / ˌbæk ˈpæs.ɪdʒ /","ukp":"/ˌbæk ˈpæs.ɪdʒ/","us":"us  / ˌbæk ˈpæs.ɪdʒ /","usp":"/ˌbæk ˈpæs.ɪdʒ/"}
+{"title":"back pass","uk":"uk  / ˈbæk ˌpɑːs /","ukp":"/ˈbæk ˌpɑːs/","us":"us  / ˈbæk ˌpæs /","usp":"/ˈbæk ˌpæs/"}
+{"title":"back pages","uk":"uk  / ˌbæk ˈpeɪ.dʒɪz /","ukp":"/ˌbæk ˈpeɪ.dʒɪz/","us":"us  / ˌbæk ˈpeɪ.dʒɪz /","usp":"/ˌbæk ˈpeɪ.dʒɪz/"}
+{"title":"back pay","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"back road","uk":"uk  / ˈbæk ˌrəʊd /","ukp":"/ˈbæk ˌrəʊd/","us":"us  / ˈbæk ˌroʊd /","usp":"/ˈbæk ˌroʊd/"}
+{"title":"back saw","uk":"uk  / ˈbæk ˌsɔː /","ukp":"/ˈbæk ˌsɔː/","us":"us  / ˈbæk ˌsɑː /","usp":"/ˈbæk ˌsɑː/"}
+{"title":"back shift","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"back seat","uk":"uk  / ˌbæk ˈsiːt /","ukp":"/ˌbæk ˈsiːt/","us":"us  / ˌbæk ˈsiːt /","usp":"/ˌbæk ˈsiːt/"}
+{"title":"back story","uk":"uk  / ˈbæk ˌstɔː.ri /","ukp":"/ˈbæk ˌstɔː.ri/","us":"us  / ˈbæk ˌstɔːr.i /","usp":"/ˈbæk ˌstɔːr.i/"}
+{"title":"back talk","uk":"uk  / ˈbæk ˌtɔːk /","ukp":"/ˈbæk ˌtɔːk/","us":"us  / ˈbæk ˌtɑːk /","usp":"/ˈbæk ˌtɑːk/"}
+{"title":"back someone up","uk":"uk  / bæk /","ukp":"/bæk/","us":"us  / bæk /","usp":"/bæk/"}
+{"title":"back tax","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"back the wrong horse","uk":"","us":""}
+{"title":"back then","uk":"","us":""}
+{"title":"back to basics","uk":"","us":""}
+{"title":"back to back","uk":"uk  / ˌbæk.təˈbæk /","ukp":"/ˌbæk.təˈbæk/","us":"us  / ˌbæk.təˈbæk /","usp":"/ˌbæk.təˈbæk/"}
+{"title":"back to front","uk":"","us":""}
+{"title":"back to square one","uk":"","us":""}
+{"title":"back to the drawing board","uk":"","us":""}
+{"title":"(back) on your feet","uk":"","us":""}
+{"title":"back-alley abortion","uk":"uk  / ˌbækˌæl.i əˈbɔː.ʃ ə n /","ukp":"/ˌbækˌæl.i əˈbɔː.ʃən/","us":"us  / ˌbækˌæl.i əˈbɔːr.ʃ ə n /","usp":"/ˌbækˌæl.i əˈbɔːr.ʃən/"}
+{"title":"back-channel","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"back-end loading","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"back-end load","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"back-to-back loan","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"backache","uk":"uk  / ˈbæk.eɪk /","ukp":"/ˈbæk.eɪk/","us":"us  / ˈbæk.eɪk /","usp":"/ˈbæk.eɪk/"}
+{"title":"backbeat","uk":"uk  / ˈbæk.biːt /","ukp":"/ˈbæk.biːt/","us":"us  / ˈbæk.biːt /","usp":"/ˈbæk.biːt/"}
+{"title":"backbench","uk":"uk  / ˌbækˈbentʃ /","ukp":"/ˌbækˈbentʃ/","us":"us  / ˌbækˈbentʃ /","usp":"/ˌbækˈbentʃ/"}
+{"title":"backbite","uk":"uk  / ˈbæk.baɪt /","ukp":"/ˈbæk.baɪt/","us":"us  / ˈbæk.baɪt /","usp":"/ˈbæk.baɪt/"}
+{"title":"backbencher","uk":"uk  / ˌbækˈben.tʃə r /","ukp":"/ˌbækˈben.tʃər/","us":"us  / ˌbækˈben.tʃɚ /","usp":"/ˌbækˈben.tʃɚ/"}
+{"title":"backbiting","uk":"uk  / ˈbækˌbaɪ.tɪŋ /","ukp":"/ˈbækˌbaɪ.tɪŋ/","us":"us  / ˈbækˌbaɪ.t̬ɪŋ /","usp":"/ˈbækˌbaɪ.t̬ɪŋ/"}
+{"title":"backbone network","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"backboard","uk":"uk  / ˈbæk.bɔːd /","ukp":"/ˈbæk.bɔːd/","us":"us  / ˈbæk.bɔːrd /","usp":"/ˈbæk.bɔːrd/"}
+{"title":"backbreaking","uk":"uk  / ˈbækˌbreɪ.kɪŋ /","ukp":"/ˈbækˌbreɪ.kɪŋ/","us":"us  / ˈbækˌbreɪ.kɪŋ /","usp":"/ˈbækˌbreɪ.kɪŋ/"}
+{"title":"backbone","uk":"uk  / ˈbæk.bəʊn /","ukp":"/ˈbæk.bəʊn/","us":"us  / ˈbæk.boʊn /","usp":"/ˈbæk.boʊn/"}
+{"title":"backchat","uk":"uk  / ˈbæk.tʃæt /","ukp":"/ˈbæk.tʃæt/","us":"us  / ˈbæk.tʃæt /","usp":"/ˈbæk.tʃæt/"}
+{"title":"backchannel","uk":"uk  / ˈbækˌtʃæn. ə l /","ukp":"/ˈbækˌtʃæn.əl/","us":"us  / ˈbækˌtʃæn. ə l /","usp":"/ˈbækˌtʃæn.əl/"}
+{"title":"backcomb","uk":"uk  / ˈbæk.kəʊm /","ukp":"/ˈbæk.kəʊm/","us":"us  / ˈbæk.koʊm /","usp":"/ˈbæk.koʊm/"}
+{"title":"backcombing","uk":"uk  / ˈbæk.kəʊm /","ukp":"/ˈbæk.kəʊm/","us":"us  / ˈbæk.koʊm /","usp":"/ˈbæk.koʊm/"}
+{"title":"backcombed","uk":"uk  / ˈbæk.kəʊm /","ukp":"/ˈbæk.kəʊm/","us":"us  / ˈbæk.koʊm /","usp":"/ˈbæk.koʊm/"}
+{"title":"backcountry","uk":"uk  / ˈbækˌkʌn.tri /","ukp":"/ˈbækˌkʌn.tri/","us":"us  / ˈbækˌkʌn.tri /","usp":"/ˈbækˌkʌn.tri/"}
+{"title":"backdated","uk":"uk  / ˌbækˈdeɪt /","ukp":"/ˌbækˈdeɪt/","us":"us  / ˈbæk.deɪt /","usp":"/ˈbæk.deɪt/"}
+{"title":"backdate","uk":"uk  / ˌbækˈdeɪt /","ukp":"/ˌbækˈdeɪt/","us":"us  / ˈbæk.deɪt /","usp":"/ˈbæk.deɪt/"}
+{"title":"backdoor","uk":"uk  / ˈbæk.dɔː r /","ukp":"/ˈbæk.dɔːr/","us":"us  / ˈbæk.dɔːr /","usp":"/ˈbæk.dɔːr/"}
+{"title":"backdating","uk":"uk  / ˌbækˈdeɪt /","ukp":"/ˌbækˈdeɪt/","us":"us  / ˈbæk.deɪt /","usp":"/ˈbæk.deɪt/"}
+{"title":"backed bill","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"-backed","uk":"uk  / -bækt /","ukp":"/ -bækt/","us":"us  / -bækt /","usp":"/ -bækt/"}
+{"title":"backdrop","uk":"uk  / ˈbæk.drɒp /","ukp":"/ˈbæk.drɒp/","us":"us  / ˈbæk.drɑːp /","usp":"/ˈbæk.drɑːp/"}
+{"title":"backed up","uk":"uk  / ˌbækt ˈʌp /","ukp":"/ˌbækt ˈʌp/","us":"us  / ˌbækt ˈʌp /","usp":"/ˌbækt ˈʌp/"}
+{"title":"backer","uk":"uk  / ˈbæk.ə r /","ukp":"/ˈbæk.ər/","us":"us  / ˈbæk.ɚ /","usp":"/ˈbæk.ɚ/"}
+{"title":"backfill","uk":"uk  / ˈbæk.fɪl /","ukp":"/ˈbæk.fɪl/","us":"us  / ˈbæk.fɪl /","usp":"/ˈbæk.fɪl/"}
+{"title":"backfired","uk":"uk  / ˌbækˈfaɪə r /","ukp":"/ˌbækˈfaɪər/","us":"us  / ˌbækˈfaɪr /","usp":"/ˌbækˈfaɪr/"}
+{"title":"backfire","uk":"uk  / ˌbækˈfaɪə r /","ukp":"/ˌbækˈfaɪər/","us":"us  / ˌbækˈfaɪr /","usp":"/ˌbækˈfaɪr/"}
+{"title":"backfiring","uk":"uk  / ˌbækˈfaɪə r /","ukp":"/ˌbækˈfaɪər/","us":"us  / ˌbækˈfaɪr /","usp":"/ˌbækˈfaɪr/"}
+{"title":"backflip","uk":"uk  / ˈbæk.flɪp /","ukp":"/ˈbæk.flɪp/","us":"us  / ˈbæk.flɪp /","usp":"/ˈbæk.flɪp/"}
+{"title":"backgammon","uk":"uk  / ˈbæk.ɡæm. ə n /","ukp":"/ˈbæk.ɡæm.ən/","us":"us  / ˈbæk.ɡæm. ə n /","usp":"/ˈbæk.ɡæm.ən/"}
+{"title":"background check","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"background radiation","uk":"uk  / ˌbæk.ɡraʊnd reɪ.diˈeɪ.ʃ ə n /","ukp":"/ˌbæk.ɡraʊnd reɪ.diˈeɪ.ʃən/","us":"us  / ˌbæk.ɡraʊnd reɪ.diˈeɪ.ʃ ə n /","usp":"/ˌbæk.ɡraʊnd reɪ.diˈeɪ.ʃən/"}
+{"title":"background","uk":"uk  / ˈbæk.ɡraʊnd /","ukp":"/ˈbæk.ɡraʊnd/","us":"us  / ˈbæk.ɡraʊnd /","usp":"/ˈbæk.ɡraʊnd/"}
+{"title":"background variable","uk":"uk / ˌbæk.ɡraʊnd ˈveə.ri.ə.b ə l /","ukp":"/ˌbæk.ɡraʊnd ˈveə.ri.ə.bəl/","us":"us / ˌbæk.ɡraʊnd ˈver.i.ə.b ə l /","usp":"/ˌbæk.ɡraʊnd ˈver.i.ə.bəl/"}
+{"title":"backhand","uk":"uk  / ˈbæk.hænd /","ukp":"/ˈbæk.hænd/","us":"us  / ˈbæk.hænd /","usp":"/ˈbæk.hænd/"}
+{"title":"backhanded","uk":"uk  / ˌbækˈhæn.dɪd /","ukp":"/ˌbækˈhæn.dɪd/","us":"us  / ˌbækˈhæn.dɪd /","usp":"/ˌbækˈhæn.dɪd/"}
+{"title":"backhanded compliment","uk":"uk / ˌbæk.hæn.dɪd ˈkɒm.plɪ.mənt /","ukp":"/ˌbæk.hæn.dɪd ˈkɒm.plɪ.mənt/","us":"us / ˌbæk.hæn.dɪd ˈkɑːm.plə.mənt /","usp":"/ˌbæk.hæn.dɪd ˈkɑːm.plə.mənt/"}
+{"title":"backhaul","uk":"uk  / ˈbækˌhɔːl /","ukp":"/ˈbækˌhɔːl/","us":"us  / ˈbækˌhɑːl /","usp":"/ˈbækˌhɑːl/"}
+{"title":"backhander","uk":"uk  / ˌbækˈhæn.də r /","ukp":"/ˌbækˈhæn.dər/","us":"us  / ˌbækˈhæn.dɚ /","usp":"/ˌbækˈhæn.dɚ/"}
+{"title":"backheel","uk":"uk  / ˈbæk.hiːl /","ukp":"/ˈbæk.hiːl/","us":"us  / ˈbæk.hiːl /","usp":"/ˈbæk.hiːl/"}
+{"title":"backhoe","uk":"uk  / ˈbæk.həʊ /","ukp":"/ˈbæk.həʊ/","us":"us  / ˈbæk.hoʊ /","usp":"/ˈbæk.hoʊ/"}
+{"title":"backie","uk":"uk  / ˈbæk.i /","ukp":"/ˈbæk.i/","us":"us  / ˈbæk.i /","usp":"/ˈbæk.i/"}
+{"title":"backing singer","uk":"uk  / ˈbæk.ɪŋ ˌsɪŋ.ə r /","ukp":"/ˈbæk.ɪŋ ˌsɪŋ.ər/","us":"us  / ˈbæk.ɪŋ ˌsɪŋ.ɚ /","usp":"/ˈbæk.ɪŋ ˌsɪŋ.ɚ/"}
+{"title":"backing dancer","uk":"uk  / ˈbæk.ɪŋ ˌdɑːn.sə r /","ukp":"/ˈbæk.ɪŋ ˌdɑːn.sər/","us":"us  / ˈbæk.ɪŋ ˌdæn.sɚ /","usp":"/ˈbæk.ɪŋ ˌdæn.sɚ/"}
+{"title":"backing","uk":"uk  / ˈbæk.ɪŋ /","ukp":"/ˈbæk.ɪŋ/","us":"us  / ˈbæk.ɪŋ /","usp":"/ˈbæk.ɪŋ/"}
+{"title":"backlash","uk":"uk  / ˈbæk.læʃ /","ukp":"/ˈbæk.læʃ/","us":"us  / ˈbæk.læʃ /","usp":"/ˈbæk.læʃ/"}
+{"title":"backless","uk":"uk  / ˈbæk.ləs /","ukp":"/ˈbæk.ləs/","us":"us  / ˈbæk.ləs /","usp":"/ˈbæk.ləs/"}
+{"title":"backlist","uk":"uk  / ˈbæk.lɪst /","ukp":"/ˈbæk.lɪst/","us":"us  / ˈbæk.lɪst /","usp":"/ˈbæk.lɪst/"}
+{"title":"backlit","uk":"uk  / ˈbæk.lɪt /","ukp":"/ˈbæk.lɪt/","us":"us  / ˈbæk.lɪt /","usp":"/ˈbæk.lɪt/"}
+{"title":"backload","uk":"uk  / ˈbækˌləʊd /","ukp":"/ˈbækˌləʊd/","us":"us ","usp":""}
+{"title":"backloading","uk":"uk  / ˈbækˌləʊdɪŋ /","ukp":"/ˈbækˌləʊdɪŋ/","us":"us ","usp":""}
+{"title":"backlogged","uk":"uk  / ˈbæk.lɒɡd /","ukp":"/ˈbæk.lɒɡd/","us":"us  / ˈbæk.lɑːɡd /","usp":"/ˈbæk.lɑːɡd/"}
+{"title":"backlog","uk":"uk  / ˈbæk.lɒɡ /","ukp":"/ˈbæk.lɒɡ/","us":"us  / ˈbæk.lɑːɡ /","usp":"/ˈbæk.lɑːɡ/"}
+{"title":"backpacked","uk":"uk  / ˈbæk.pæk /","ukp":"/ˈbæk.pæk/","us":"us  / ˈbæk.pæk /","usp":"/ˈbæk.pæk/"}
+{"title":"backpack","uk":"uk  / ˈbæk.pæk /","ukp":"/ˈbæk.pæk/","us":"us  / ˈbæk.pæk /","usp":"/ˈbæk.pæk/"}
+{"title":"backpacker","uk":"uk  / ˈbæk.pæk.ə r /","ukp":"/ˈbæk.pæk.ər/","us":"us  / ˈbæk.pæk.ɚ /","usp":"/ˈbæk.pæk.ɚ/"}
+{"title":"backpacking","uk":"uk  / ˈbækˌpæk.ɪŋ /","ukp":"/ˈbækˌpæk.ɪŋ/","us":"us  / ˈbækˌpæk.ɪŋ /","usp":"/ˈbækˌpæk.ɪŋ/"}
+{"title":"backpedalled","uk":"","us":""}
+{"title":"backpedal","uk":"uk  / ˈbækˌped. ə l /","ukp":"/ˈbækˌped.əl/","us":"us  / ˈbækˌped. ə l /","usp":"/ˈbækˌped.əl/"}
+{"title":"backpedalling","uk":"","us":""}
+{"title":"backronym","uk":"uk  / ˈbæk.rə.nɪm /","ukp":"/ˈbæk.rə.nɪm/","us":"us  / ˈbæk.rə.nɪm /","usp":"/ˈbæk.rə.nɪm/"}
+{"title":"backroom","uk":"uk  / ˌbækˈruːm /","ukp":"/ˌbækˈruːm/","us":"us  / ˌbækˈruːm /","usp":"/ˌbækˈruːm/"}
+{"title":"badness","uk":"uk  / ˈbæd.nəs /","ukp":"/ˈbæd.nəs/","us":"us  / ˈbæd.nəs /","usp":"/ˈbæd.nəs/"}
+{"title":"bae","uk":"uk  / beɪ /","ukp":"/beɪ/","us":"us  / beɪ /","usp":"/beɪ/"}
+{"title":"baffled","uk":"uk  / ˈbæf. ə l /","ukp":"/ˈbæf.əl/","us":"us  / ˈbæf. ə l /","usp":"/ˈbæf.əl/"}
+{"title":"baffle","uk":"uk  / ˈbæf. ə l /","ukp":"/ˈbæf.əl/","us":"us  / ˈbæf. ə l /","usp":"/ˈbæf.əl/"}
+{"title":"bafflement","uk":"uk  / ˈbæf. ə l.mənt /","ukp":"/ˈbæf.əl.mənt/","us":"us  / ˈbæf. ə l.mənt /","usp":"/ˈbæf.əl.mənt/"}
+{"title":"baffling","uk":"uk  / ˈbæf.lɪŋ /","ukp":"/ˈbæf.lɪŋ/","us":"us  / ˈbæf.lɪŋ /","usp":"/ˈbæf.lɪŋ/"}
+{"title":"bag drop","uk":"uk  / ˈbæɡ ˌdrɒp /","ukp":"/ˈbæɡ ˌdrɒp/","us":"us  / ˈbæɡ ˌdrɑːp /","usp":"/ˈbæɡ ˌdrɑːp/"}
+{"title":"bag for life","uk":"uk  / ˌbæɡ fə ˈlaɪf /","ukp":"/ˌbæɡ fə ˈlaɪf/","us":"us  / ˌbæɡ fɚ ˈlaɪf /","usp":"/ˌbæɡ fɚ ˈlaɪf/"}
+{"title":"bag lady","uk":"uk  / ˈbæɡ ˌleɪ.di /","ukp":"/ˈbæɡ ˌleɪ.di/","us":"us  / ˈbæɡ ˌleɪ.di /","usp":"/ˈbæɡ ˌleɪ.di/"}
+{"title":"bag lunch","uk":"uk  / ˈbæɡ ˌlʌntʃ /","ukp":"/ˈbæɡ ˌlʌntʃ/","us":"us  / ˈbæɡ ˌlʌntʃ /","usp":"/ˈbæɡ ˌlʌntʃ/"}
+{"title":"bag","uk":"uk  / bæɡ /","ukp":"/bæɡ/","us":"us  / bæɡ /","usp":"/bæɡ/"}
+{"title":"bag of bones","uk":"uk  / ˌbæɡ əv ˈbəʊnz /","ukp":"/ˌbæɡ əv ˈbəʊnz/","us":"us  / ˌbæɡ əv ˈboʊnz /","usp":"/ˌbæɡ əv ˈboʊnz/"}
+{"title":"bagatelle","uk":"uk  / ˌbæɡ.əˈtel /","ukp":"/ˌbæɡ.əˈtel/","us":"us  / ˌbæɡ.əˈtel /","usp":"/ˌbæɡ.əˈtel/"}
+{"title":"bagful","uk":"uk  / ˈbæɡ.fʊl /","ukp":"/ˈbæɡ.fʊl/","us":"us  / ˈbæɡ.fʊl /","usp":"/ˈbæɡ.fʊl/"}
+{"title":"bagel","uk":"uk  / ˈbeɪ.ɡ ə l /","ukp":"/ˈbeɪ.ɡəl/","us":"us  / ˈbeɪ.ɡ ə l /","usp":"/ˈbeɪ.ɡəl/"}
+{"title":"baggage allowance","uk":"uk  / ˈbæɡ.ɪdʒ əˌlaʊ. ə ns /","ukp":"/ˈbæɡ.ɪdʒ əˌlaʊ.əns/","us":"us  / ˈbæɡ.ɪdʒ əˌlaʊ. ə ns /","usp":"/ˈbæɡ.ɪdʒ əˌlaʊ.əns/"}
+{"title":"baggage","uk":"uk  / ˈbæɡ.ɪdʒ /","ukp":"/ˈbæɡ.ɪdʒ/","us":"us  / ˈbæɡ.ɪdʒ /","usp":"/ˈbæɡ.ɪdʒ/"}
+{"title":"baggage claim","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"baggage car","uk":"uk  / ˈbæɡ.ɪdʒ ˌkɑː r /","ukp":"/ˈbæɡ.ɪdʒ ˌkɑːr/","us":"us  / ˈbæɡ.ɪdʒ ˌkɑːr /","usp":"/ˈbæɡ.ɪdʒ ˌkɑːr/"}
+{"title":"baggage drop","uk":"uk  / ˈbæɡ.ɪdʒ ˌdrɒp /","ukp":"/ˈbæɡ.ɪdʒ ˌdrɒp/","us":"us  / ˈbæɡ.ɪdʒ ˌdrɑːp /","usp":"/ˈbæɡ.ɪdʒ ˌdrɑːp/"}
+{"title":"baggage handler","uk":"uk  / ˈbæɡ.ɪdʒ ˌhænd.lə r /","ukp":"/ˈbæɡ.ɪdʒ ˌhænd.lər/","us":"us  / ˈbæɡ.ɪdʒ ˌhænd.lɚ /","usp":"/ˈbæɡ.ɪdʒ ˌhænd.lɚ/"}
+{"title":"baggage handling","uk":"uk / ˈbæɡ.ɪdʒ ˌhænd.lɪŋ /","ukp":"/ˈbæɡ.ɪdʒ ˌhænd.lɪŋ/","us":"us  / ˈbæɡ.ɪdʒ ˌhænd.lɪŋ /","usp":"/ˈbæɡ.ɪdʒ ˌhænd.lɪŋ/"}
+{"title":"baggage room","uk":"uk  / ˈbæɡ.ɪdʒ ˌruːm /","ukp":"/ˈbæɡ.ɪdʒ ˌruːm/","us":"us  / ˈbæɡ.ɪdʒ ˌruːm /","usp":"/ˈbæɡ.ɪdʒ ˌruːm/"}
+{"title":"bagged","uk":"","us":""}
+{"title":"bagger","uk":"uk  / ˈbæɡ.ə r /","ukp":"/ˈbæɡ.ər/","us":"us  / ˈbæɡ.ɚ /","usp":"/ˈbæɡ.ɚ/"}
+{"title":"bagging","uk":"","us":""}
+{"title":"Baghdad","uk":"uk  / bæɡˈdæd /","ukp":"/bæɡˈdæd/","us":"us  / ˈbæɡ.dæd /","usp":"/ˈbæɡ.dæd/"}
+{"title":"baggy","uk":"uk  / ˈbæɡ.i /","ukp":"/ˈbæɡ.i/","us":"us  / ˈbæɡ.i /","usp":"/ˈbæɡ.i/"}
+{"title":"bagman","uk":"uk  / ˈbæɡ.mæn /","ukp":"/ˈbæɡ.mæn/","us":"us  / ˈbæɡ.mæn /","usp":"/ˈbæɡ.mæn/"}
+{"title":"bagpipe","uk":"uk  / ˈbæɡ.paɪp /","ukp":"/ˈbæɡ.paɪp/","us":"us  / ˈbæɡ.paɪp /","usp":"/ˈbæɡ.paɪp/"}
+{"title":"bags I...","uk":"","us":""}
+{"title":"bagpipes","uk":"uk  / ˈbæɡ.paɪps /","ukp":"/ˈbæɡ.paɪps/","us":"us  / ˈbæɡ.paɪps /","usp":"/ˈbæɡ.paɪps/"}
+{"title":"bags under your eyes","uk":"","us":""}
+{"title":"bags of something","uk":"","us":""}
+{"title":"bagsy","uk":"uk  / ˈbæɡ.zi /","ukp":"/ˈbæɡ.zi/","us":"us  / ˈbæɡ.zi /","usp":"/ˈbæɡ.zi/"}
+{"title":"bah","uk":"uk  / bɑː /","ukp":"/bɑː/","us":"us  / bɑː /","usp":"/bɑː/"}
+{"title":"baguette","uk":"uk  / bæɡˈet /","ukp":"/bæɡˈet/","us":"us  / bæɡˈet /","usp":"/bæɡˈet/"}
+{"title":"bah humbug","uk":"","us":""}
+{"title":"Bahasa Malaysia","uk":"uk  / bəˌhɑː.sə məˈleɪ.zi.ə /","ukp":"/bəˌhɑː.sə məˈleɪ.zi.ə/","us":"us  / bəˌhɑː.sə məˈleɪ.ʒə /","usp":"/bəˌhɑː.sə məˈleɪ.ʒə/"}
+{"title":"Bahamian","uk":"uk  / bəˈheɪ.mi.ən /","ukp":"/bəˈheɪ.mi.ən/","us":"us  / bəˈheɪ.mi.ən /","usp":"/bəˈheɪ.mi.ən/"}
+{"title":"Bahrain","uk":"uk  / bɑːˈreɪn /","ukp":"/bɑːˈreɪn/","us":"us  / bɑːˈreɪn /","usp":"/bɑːˈreɪn/"}
+{"title":"Bahraini","uk":"uk  / bɑːˈreɪ.ni /","ukp":"/bɑːˈreɪ.ni/","us":"us  / bɑːˈreɪ.ni /","usp":"/bɑːˈreɪ.ni/"}
+{"title":"baht","uk":"uk  / bɑːt /","ukp":"/bɑːt/","us":"us  / bɑːt /","usp":"/bɑːt/"}
+{"title":"bail","uk":"uk  / beɪl /","ukp":"/beɪl/","us":"us  / beɪl /","usp":"/beɪl/"}
+{"title":"bail bond","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bailable","uk":"uk  / ˈbeɪləbl /","ukp":"/ˈbeɪləbl/","us":"us ","usp":""}
+{"title":"bail out","uk":"uk  / beɪl /","ukp":"/beɪl/","us":"us  / beɪl /","usp":"/beɪl/"}
+{"title":"bailed","uk":"uk  / beɪl /","ukp":"/beɪl/","us":"us  / beɪl /","usp":"/beɪl/"}
+{"title":"bailee","uk":"uk  / beɪˈliː /","ukp":"/beɪˈliː/","us":"us ","usp":""}
+{"title":"backroom boys","uk":"uk  / ˈbæk.ruːm ˌbɔɪz /","ukp":"/ˈbæk.ruːm ˌbɔɪz/","us":"us  / ˈbæk.ruːm ˌbɔɪz /","usp":"/ˈbæk.ruːm ˌbɔɪz/"}
+{"title":"backseat driver","uk":"uk  / ˌbæk.siːt ˈdraɪ.və r /","ukp":"/ˌbæk.siːt ˈdraɪ.vər/","us":"us  / ˌbæk.siːt ˈdraɪ.vɚ /","usp":"/ˌbæk.siːt ˈdraɪ.vɚ/"}
+{"title":"backseat","uk":"","us":"us  / ˈbækˈsit /","usp":"/ˈbækˈsit/"}
+{"title":"backside","uk":"uk  / ˈbæk.saɪd /","ukp":"/ˈbæk.saɪd/","us":"us  / ˈbæk.saɪd /","usp":"/ˈbæk.saɪd/"}
+{"title":"backslapping","uk":"uk  / ˈbækˌslæp.ɪŋ /","ukp":"/ˈbækˌslæp.ɪŋ/","us":"us  / ˈbækˌslæp.ɪŋ /","usp":"/ˈbækˌslæp.ɪŋ/"}
+{"title":"backslash","uk":"uk  / ˈbæk.slæʃ /","ukp":"/ˈbæk.slæʃ/","us":"us  / ˈbæk.slæʃ /","usp":"/ˈbæk.slæʃ/"}
+{"title":"backspace","uk":"uk  / ˈbæk.speɪs /","ukp":"/ˈbæk.speɪs/","us":"us  / ˈbæk.speɪs /","usp":"/ˈbæk.speɪs/"}
+{"title":"backslide","uk":"uk  / ˈbæk.slaɪd /","ukp":"/ˈbæk.slaɪd/","us":"us  / ˈbæk.slaɪd /","usp":"/ˈbæk.slaɪd/"}
+{"title":"backsplash","uk":"uk  / ˈbæk.splæʃ /","ukp":"/ˈbæk.splæʃ/","us":"us  / ˈbæk.splæʃ /","usp":"/ˈbæk.splæʃ/"}
+{"title":"backspin","uk":"uk / ˈbæk.spɪn /","ukp":"/ˈbæk.spɪn/","us":"us / ˈbæk.spɪn /","usp":"/ˈbæk.spɪn/"}
+{"title":"backstabber","uk":"uk  / ˈbækˌstæb.ə r /","ukp":"/ˈbækˌstæb.ər/","us":"us  / ˈbækˌstæb.ɚ /","usp":"/ˈbækˌstæb.ɚ/"}
+{"title":"backstabbing","uk":"uk  / ˈbækˌstæb.ɪŋ /","ukp":"/ˈbækˌstæb.ɪŋ/","us":"us  / ˈbækˌstæb.ɪŋ /","usp":"/ˈbækˌstæb.ɪŋ/"}
+{"title":"backstage","uk":"uk  / bækˈsteɪdʒ /","ukp":"/bækˈsteɪdʒ/","us":"us  / bækˈsteɪdʒ /","usp":"/bækˈsteɪdʒ/"}
+{"title":"backstop","uk":"uk  / ˈbæk.stɒp /","ukp":"/ˈbæk.stɒp/","us":"us  / ˈbæk.stɑːp /","usp":"/ˈbæk.stɑːp/"}
+{"title":"backstreet abortion","uk":"uk  / ˌbæk.striːt əˈbɔː.ʃ ə n /","ukp":"/ˌbæk.striːt əˈbɔː.ʃən/","us":"us  / ˌbæk.striːt əˈbɔːr.ʃ ə n /","usp":"/ˌbæk.striːt əˈbɔːr.ʃən/"}
+{"title":"backstreet","uk":"uk  / ˈbæk.striːt /","ukp":"/ˈbæk.striːt/","us":"us  / ˈbæk.striːt /","usp":"/ˈbæk.striːt/"}
+{"title":"backstroke","uk":"uk  / ˈbæk.strəʊk /","ukp":"/ˈbæk.strəʊk/","us":"us  / ˈbæk.stroʊk /","usp":"/ˈbæk.stroʊk/"}
+{"title":"backtick","uk":"uk  / ˈbæk.tɪk /","ukp":"/ˈbæk.tɪk/","us":"us  / ˈbæk.tɪk /","usp":"/ˈbæk.tɪk/"}
+{"title":"backtrack","uk":"uk  / ˈbæk.træk /","ukp":"/ˈbæk.træk/","us":"us  / ˈbæk.træk /","usp":"/ˈbæk.træk/"}
+{"title":"backtracked","uk":"uk  / ˈbæk.træk /","ukp":"/ˈbæk.træk/","us":"us  / ˈbæk.træk /","usp":"/ˈbæk.træk/"}
+{"title":"backstreets","uk":"uk  / ˈbæk.striːts /","ukp":"/ˈbæk.striːts/","us":"us  / ˈbæk.striːts /","usp":"/ˈbæk.striːts/"}
+{"title":"backup dancer","uk":"uk  / ˈbæk.ʌp ˌdɑːn.sə r /","ukp":"/ˈbæk.ʌp ˌdɑːn.sər/","us":"us  / ˈbæk.ʌp ˌdæn.sɚ /","usp":"/ˈbæk.ʌp ˌdæn.sɚ/"}
+{"title":"backtracking","uk":"uk  / ˈbæk.træk /","ukp":"/ˈbæk.træk/","us":"us  / ˈbæk.træk /","usp":"/ˈbæk.træk/"}
+{"title":"backup","uk":"uk  / ˈbæk.ʌp /","ukp":"/ˈbæk.ʌp/","us":"us  / ˈbæk.ʌp /","usp":"/ˈbæk.ʌp/"}
+{"title":"backup singer","uk":"uk  / ˈbæk.ʌp ˌsɪŋ.ə r /","ukp":"/ˈbæk.ʌp ˌsɪŋ.ər/","us":"us  / ˈbæk.ʌp ˌsɪŋ.ɚ /","usp":"/ˈbæk.ʌp ˌsɪŋ.ɚ/"}
+{"title":"backup software","uk":"uk  / ˈbæk.ʌp ˌsɒft.weə r /","ukp":"/ˈbæk.ʌp ˌsɒft.weər/","us":"us  / ˈbæk.ʌp ˌsɑːft.wer /","usp":"/ˈbæk.ʌp ˌsɑːft.wer/"}
+{"title":"backup withholding","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"backward","uk":"uk  / ˈbæk.wəd /","ukp":"/ˈbæk.wəd/","us":"us  / ˈbæk.wɚd /","usp":"/ˈbæk.wɚd/"}
+{"title":"backward compatible","uk":"uk  / ˌbæk.wəd kəmˈpæt.ə.b ə l /","ukp":"/ˌbæk.wəd kəmˈpæt.ə.bəl/","us":"us  / ˌbæk.wɚd kəmˈpæt̬.ə.b ə l /","usp":"/ˌbæk.wɚd kəmˈpæt̬.ə.bəl/"}
+{"title":"backward integration","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"backward-looking","uk":"uk  / ˈbæk.wədˌlʊk.ɪŋ /","ukp":"/ˈbæk.wədˌlʊk.ɪŋ/","us":"us  / ˈbæk.wɚdˌlʊk.ɪŋ /","usp":"/ˈbæk.wɚdˌlʊk.ɪŋ/"}
+{"title":"backwardation","uk":"uk  / ˌbækwəˈdeɪʃn /","ukp":"/ˌbækwəˈdeɪʃn/","us":"us  / -wɚd /","usp":"/-wɚd/"}
+{"title":"backwardness","uk":"uk  / ˈbæk.wəd.nəs /","ukp":"/ˈbæk.wəd.nəs/","us":"us  / ˈbæk.wɚd.nəs /","usp":"/ˈbæk.wɚd.nəs/"}
+{"title":"backwater","uk":"uk  / ˈbæk.wɔː.tə r /","ukp":"/ˈbæk.wɔː.tər/","us":"us  / ˈbæk.wɑː.t̬ɚ /","usp":"/ˈbæk.wɑː.t̬ɚ/"}
+{"title":"backwards","uk":"uk  / ˈbæk.wədz /","ukp":"/ˈbæk.wədz/","us":"us  / ˈbæk.wɚdz /","usp":"/ˈbæk.wɚdz/"}
+{"title":"backwash","uk":"uk  / ˈbæk.wɒʃ /","ukp":"/ˈbæk.wɒʃ/","us":"us  / ˈbæk.wɑːʃ /","usp":"/ˈbæk.wɑːʃ/"}
+{"title":"backyard","uk":"uk  / ˌbækˈjɑːd /","ukp":"/ˌbækˈjɑːd/","us":"us  / ˌbækˈjɑːrd /","usp":"/ˌbækˈjɑːrd/"}
+{"title":"BACS","uk":"uk  / bæks /","ukp":"/bæks/","us":"us ","usp":""}
+{"title":"bacon","uk":"uk  / ˈbeɪ.k ə n /","ukp":"/ˈbeɪ.kən/","us":"us  / ˈbeɪ.k ə n /","usp":"/ˈbeɪ.kən/"}
+{"title":"bacterial","uk":"uk  / bækˈtɪə.ri.əl /","ukp":"/bækˈtɪə.ri.əl/","us":"us  / bækˈtɪr.i.əl /","usp":"/bækˈtɪr.i.əl/"}
+{"title":"bacteria","uk":"uk  / bækˈtɪə.ri.ə /","ukp":"/bækˈtɪə.ri.ə/","us":"us  / bækˈtɪr.i.ə /","usp":"/bækˈtɪr.i.ə/"}
+{"title":"bacteriologist","uk":"uk  / bækˌtɪə.riˈɒl.ə.dʒɪst /","ukp":"/bækˌtɪə.riˈɒl.ə.dʒɪst/","us":"us  / bækˌtɪr.iˈɑː.lə.dʒɪst /","usp":"/bækˌtɪr.iˈɑː.lə.dʒɪst/"}
+{"title":"bacteriological","uk":"uk  / bækˌtɪə.ri.əˈlɒdʒ.ɪ.k ə l /","ukp":"/bækˌtɪə.ri.əˈlɒdʒ.ɪ.kəl/","us":"us  / bækˌtɪr.i.əˈlɑː.dʒɪ.k ə l /","usp":"/bækˌtɪr.i.əˈlɑː.dʒɪ.kəl/"}
+{"title":"bacteriology","uk":"uk  / bækˌtɪə.riˈɒl.ə.dʒi /","ukp":"/bækˌtɪə.riˈɒl.ə.dʒi/","us":"us  / bækˌtɪr.iˈɑː.lə.dʒi /","usp":"/bækˌtɪr.iˈɑː.lə.dʒi/"}
+{"title":"bacteriophage","uk":"uk  / bækˈtɪə.ri.əʊ.feɪdʒ /","ukp":"/bækˈtɪə.ri.əʊ.feɪdʒ/","us":"us  / bækˈtɪr.i.ə.feɪdʒ /","usp":"/bækˈtɪr.i.ə.feɪdʒ/"}
+{"title":"bacterium","uk":"uk  / bækˈtɪə.ri.əm /","ukp":"/bækˈtɪə.ri.əm/","us":"us  / bækˈtɪr.i.əm /","usp":"/bækˈtɪr.i.əm/"}
+{"title":"Bactrian","uk":"uk  / ˈbæk.tri.ən /","ukp":"/ˈbæk.tri.ən/","us":"us  / ˈbæk.tri.ən /","usp":"/ˈbæk.tri.ən/"}
+{"title":"bad actor","uk":"uk  / ˌbæd ˈæk.tə r /","ukp":"/ˌbæd ˈæk.tər/","us":"us  / ˌbæd ˈæk.tɚ /","usp":"/ˌbæd ˈæk.tɚ/"}
+{"title":"bad asset","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bad bank","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bad blood","uk":"uk  / ˌbæd ˈblʌd /","ukp":"/ˌbæd ˈblʌd/","us":"us  / ˌbæd ˈblʌd /","usp":"/ˌbæd ˈblʌd/"}
+{"title":"bad","uk":"uk  / bæd /","ukp":"/bæd/","us":"us  / bæd /","usp":"/bæd/"}
+{"title":"bad check","uk":"uk  / ˌbæd ˈtʃek /","ukp":"/ˌbæd ˈtʃek/","us":"us  / ˌbæd ˈtʃek /","usp":"/ˌbæd ˈtʃek/"}
+{"title":"bad breath","uk":"uk  / ˌbæd ˈbreθ /","ukp":"/ˌbæd ˈbreθ/","us":"us  / ˌbæd ˈbreθ /","usp":"/ˌbæd ˈbreθ/"}
+{"title":"bad cheque","uk":"uk  / ˌbæd ˈtʃek /","ukp":"/ˌbæd ˈtʃek/","us":"us  / ˌbæd ˈtʃek /","usp":"/ˌbæd ˈtʃek/"}
+{"title":"bad debt provision","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bad credit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bad debt","uk":"uk  / ˌbæd ˈdet /","ukp":"/ˌbæd ˈdet/","us":"us  / ˌbæd ˈdet /","usp":"/ˌbæd ˈdet/"}
+{"title":"bad debt recovery","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bad feelings","uk":"","us":""}
+{"title":"bad faith","uk":"uk  / ˌbæd ˈfeɪθ /","ukp":"/ˌbæd ˈfeɪθ/","us":"us  / ˌbæd ˈfeɪθ /","usp":"/ˌbæd ˈfeɪθ/"}
+{"title":"bad feeling","uk":"uk  / ˌbæd ˈfiː.lɪŋ /","ukp":"/ˌbæd ˈfiː.lɪŋ/","us":"us  / ˌbæd ˈfiː.lɪŋ /","usp":"/ˌbæd ˈfiː.lɪŋ/"}
+{"title":"bad form","uk":"","us":""}
+{"title":"bad hair day","uk":"uk  / ˌbæd ˈheə ˌdeɪ /","ukp":"/ˌbæd ˈheə ˌdeɪ/","us":"us  / ˌbæd ˈher ˌdeɪ /","usp":"/ˌbæd ˈher ˌdeɪ/"}
+{"title":"bad investment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bad language","uk":"uk  / ˌbæd ˈlæŋ.ɡwɪdʒ /","ukp":"/ˌbæd ˈlæŋ.ɡwɪdʒ/","us":"us  / ˌbæd ˈlæŋ.ɡwɪdʒ /","usp":"/ˌbæd ˈlæŋ.ɡwɪdʒ/"}
+{"title":"bad loan","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bad lot","uk":"uk  / ˌbæd ˈlɒt /","ukp":"/ˌbæd ˈlɒt/","us":"us  / ˌbæd ˈlɑːt /","usp":"/ˌbæd ˈlɑːt/"}
+{"title":"bad title","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bad-mouth","uk":"uk  / ˈbæd.maʊθ /","ukp":"/ˈbæd.maʊθ/","us":"us  / ˈbæd.maʊθ /","usp":"/ˈbæd.maʊθ/"}
+{"title":"bad/big boy","uk":"","us":""}
+{"title":"bad-mouthing","uk":"uk  / ˈbædˌmaʊ.θɪŋ /","ukp":"/ˈbædˌmaʊ.θɪŋ/","us":"us  / ˈbædˌmaʊ.θɪŋ /","usp":"/ˈbædˌmaʊ.θɪŋ/"}
+{"title":"bad-tempered","uk":"uk  / ˌbædˈtemp.əd /","ukp":"/ˌbædˈtemp.əd/","us":"us  / ˌbædˈtemp.ɚd /","usp":"/ˌbædˈtemp.ɚd/"}
+{"title":"bad/hard/tough luck!","uk":"","us":""}
+{"title":"badass","uk":"uk  / ˈbæd.æs /","ukp":"/ˈbæd.æs/","us":"us  / ˈbæd.æs /","usp":"/ˈbæd.æs/"}
+{"title":"baddy","uk":"uk  / ˈbæd.i /","ukp":"/ˈbæd.i/","us":"us  / ˈbæd.i /","usp":"/ˈbæd.i/"}
+{"title":"bade","uk":"uk  / bæd /","ukp":"/bæd/","us":"us  / bæd /","usp":"/bæd/"}
+{"title":"badge in","uk":"uk  / bædʒ /","ukp":"/bædʒ/","us":"us / bædʒ /","usp":"/bædʒ/"}
+{"title":"badged","uk":"uk  / bædʒd /","ukp":"/bædʒd/","us":"us  / bædʒd /","usp":"/bædʒd/"}
+{"title":"badge","uk":"uk  / bædʒ /","ukp":"/bædʒ/","us":"us  / bædʒ /","usp":"/bædʒ/"}
+{"title":"badger","uk":"uk  / ˈbædʒ.ə r /","ukp":"/ˈbædʒ.ər/","us":"us  / ˈbædʒ.ɚ /","usp":"/ˈbædʒ.ɚ/"}
+{"title":"badgered","uk":"uk  / ˈbædʒ.ə r /","ukp":"/ˈbædʒ.ər/","us":"us  / ˈbædʒ.ɚ /","usp":"/ˈbædʒ.ɚ/"}
+{"title":"badgering","uk":"uk  / ˈbædʒ.ə r /","ukp":"/ˈbædʒ.ər/","us":"us  / ˈbædʒ.ɚ /","usp":"/ˈbædʒ.ɚ/"}
+{"title":"badging","uk":"uk  / ˈbædʒ.ɪŋ /","ukp":"/ˈbædʒ.ɪŋ/","us":"us  / ˈbædʒ.ɪŋ /","usp":"/ˈbædʒ.ɪŋ/"}
+{"title":"badinage","uk":"uk  / ˈbæd.ɪ.nɑːʒ /","ukp":"/ˈbæd.ɪ.nɑːʒ/","us":"us  / ˈbæd.ɪ.nɑːʒ /","usp":"/ˈbæd.ɪ.nɑːʒ/"}
+{"title":"Badlands National Park","uk":"uk  / ˌbæd.lændz ˌnæʃ. ə n. ə l ˈpɑːk /","ukp":"/ˌbæd.lændz ˌnæʃ.ən.əl ˈpɑːk/","us":"us  / ˌbæd.lændz ˌnæʃ. ə n. ə l ˈpɑːrk /","usp":"/ˌbæd.lændz ˌnæʃ.ən.əl ˈpɑːrk/"}
+{"title":"badlands","uk":"uk  / ˈbæd.lændz /","ukp":"/ˈbæd.lændz/","us":"us  / ˈbæd.lændz /","usp":"/ˈbæd.lændz/"}
+{"title":"badmouthed","uk":"uk  / ˈbæd.maʊθ /","ukp":"/ˈbæd.maʊθ/","us":"us  / ˈbæd.maʊθ /","usp":"/ˈbæd.maʊθ/"}
+{"title":"badly off","uk":"uk  / ˌbæd.li ˈɒf /","ukp":"/ˌbæd.li ˈɒf/","us":"us  / ˌbæd.li ˈɑːf /","usp":"/ˌbæd.li ˈɑːf/"}
+{"title":"badly","uk":"uk  / ˈbæd.li /","ukp":"/ˈbæd.li/","us":"us  / ˈbæd.li /","usp":"/ˈbæd.li/"}
+{"title":"badminton","uk":"uk  / ˈbæd.mɪn.t ə n /","ukp":"/ˈbæd.mɪn.tən/","us":"us  / ˈbæd.mɪn.t ə n /","usp":"/ˈbæd.mɪn.tən/"}
+{"title":"balance ball","uk":"uk  / ˈbæl. ə ns ˌbɔːl /","ukp":"/ˈbæl.əns ˌbɔːl/","us":"us  / ˈbæl. ə ns ˌbɑːl /","usp":"/ˈbæl.əns ˌbɑːl/"}
+{"title":"badmouthing","uk":"uk  / ˈbæd.maʊθ /","ukp":"/ˈbæd.maʊθ/","us":"us  / ˈbæd.maʊθ /","usp":"/ˈbæd.maʊθ/"}
+{"title":"balance bike","uk":"uk  / ˈbæl.əns ˌbaɪk /","ukp":"/ˈbæl.əns ˌbaɪk/","us":"us  / ˈbæl.əns ˌbaɪk /","usp":"/ˈbæl.əns ˌbaɪk/"}
+{"title":"balance brought down","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balance carried down","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balance of payments capital account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balance of payments","uk":"uk  / ˌbæl. ə ns əv ˈpeɪ.mənts /","ukp":"/ˌbæl.əns əv ˈpeɪ.mənts/","us":"us  / ˌbæl. ə ns əv ˈpeɪ.mənts /","usp":"/ˌbæl.əns əv ˈpeɪ.mənts/"}
+{"title":"balance of probabilities","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balance of trade","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balance of payments current account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balance sheet","uk":"uk  / ˈbæl. ə ns ˌʃiːt /","ukp":"/ˈbæl.əns ˌʃiːt/","us":"us  / ˈbæl. ə ns ˌʃiːt /","usp":"/ˈbæl.əns ˌʃiːt/"}
+{"title":"balance something against something","uk":"uk  / ˈbæl. ə ns /","ukp":"/ˈbæl.əns/","us":"us  / ˈbæl. ə ns /","usp":"/ˈbæl.əns/"}
+{"title":"balance the books","uk":"","us":""}
+{"title":"balance of power","uk":"uk  / ˌbæl. ə ns əv ˈpaʊə r /","ukp":"/ˌbæl.əns əv ˈpaʊər/","us":"us  / ˌbæl. ə ns əv ˈpaʊ.ɚ /","usp":"/ˌbæl.əns əv ˈpaʊ.ɚ/"}
+{"title":"balance the budget","uk":"","us":""}
+{"title":"balance transfer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balanced budget","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balanced","uk":"uk  / ˈbæl. ə nst /","ukp":"/ˈbæl.ənst/","us":"us  / ˈbæl. ə nst /","usp":"/ˈbæl.ənst/"}
+{"title":"balanced diet","uk":"uk  / ˌbæl. ə nst ˈdaɪ.ət /","ukp":"/ˌbæl.ənst ˈdaɪ.ət/","us":"us  / ˌbæl. ə nst ˈdaɪ.ət /","usp":"/ˌbæl.ənst ˈdaɪ.ət/"}
+{"title":"balanced fund","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balanced equation","uk":"uk  / ˌbæl. ə nst ɪˈkweɪ.ʒ ə n /","ukp":"/ˌbæl.ənst ɪˈkweɪ.ʒən/","us":"us  / ˌbæl. ə nst ɪˈkweɪ.ʒ ə n /","usp":"/ˌbæl.ənst ɪˈkweɪ.ʒən/"}
+{"title":"balanced scorecard","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balancing","uk":"uk  / ˈbæl. ə ns /","ukp":"/ˈbæl.əns/","us":"us  / ˈbæl. ə ns /","usp":"/ˈbæl.əns/"}
+{"title":"balancing act","uk":"uk  / ˈbæl. ə n.sɪŋ ˌækt /","ukp":"/ˈbæl.ən.sɪŋ ˌækt/","us":"us  / ˈbæl. ə n.sɪŋ ˌækt /","usp":"/ˈbæl.ən.sɪŋ ˌækt/"}
+{"title":"balayage","uk":"uk  / ˈbæl.eɪ.ɑːʒ /","ukp":"/ˈbæl.eɪ.ɑːʒ/","us":"us  / ˈbæl.eɪ.ɑːʒ /","usp":"/ˈbæl.eɪ.ɑːʒ/"}
+{"title":"balcony","uk":"uk  / ˈbæl.kə.ni /","ukp":"/ˈbæl.kə.ni/","us":"us  / ˈbæl.kə.ni /","usp":"/ˈbæl.kə.ni/"}
+{"title":"bald","uk":"uk  / bɔːld /","ukp":"/bɔːld/","us":"us  / bɑːld /","usp":"/bɑːld/"}
+{"title":"bald eagle","uk":"uk  / ˌbɔːld ˈiː.ɡ ə l /","ukp":"/ˌbɔːld ˈiː.ɡəl/","us":"us  / ˌbɑːld ˈiː.ɡ ə l /","usp":"/ˌbɑːld ˈiː.ɡəl/"}
+{"title":"bald spot","uk":"uk  / ˈbɔːld ˌspɒt /","ukp":"/ˈbɔːld ˌspɒt/","us":"us  / ˈbɑːld ˌspɑːt /","usp":"/ˈbɑːld ˌspɑːt/"}
+{"title":"bald patch","uk":"uk  / ˈbɔːld ˌpætʃ /","ukp":"/ˈbɔːld ˌpætʃ/","us":"us  / ˈbɑːld ˌpætʃ /","usp":"/ˈbɑːld ˌpætʃ/"}
+{"title":"bald-faced","uk":"uk  / ˈbɔːld.feɪst /","ukp":"/ˈbɔːld.feɪst/","us":"us  / ˈbɑːld.feɪst /","usp":"/ˈbɑːld.feɪst/"}
+{"title":"balderdash","uk":"uk  / ˈbɔːl.də.dæʃ /","ukp":"/ˈbɔːl.də.dæʃ/","us":"us  / ˈbɑːl.dɚ.dæʃ /","usp":"/ˈbɑːl.dɚ.dæʃ/"}
+{"title":"balding","uk":"uk  / ˈbɔːl.dɪŋ /","ukp":"/ˈbɔːl.dɪŋ/","us":"us  / ˈbɑːl.dɪŋ /","usp":"/ˈbɑːl.dɪŋ/"}
+{"title":"baldly","uk":"uk  / ˈbɔːld.li /","ukp":"/ˈbɔːld.li/","us":"us  / ˈbɑːld.li /","usp":"/ˈbɑːld.li/"}
+{"title":"baldness","uk":"uk  / ˈbɔːld.nəs /","ukp":"/ˈbɔːld.nəs/","us":"us  / ˈbɑːld.nəs /","usp":"/ˈbɑːld.nəs/"}
+{"title":"baldy","uk":"uk  / ˈbɔːl.di /","ukp":"/ˈbɔːl.di/","us":"us  / ˈbɑːl.di /","usp":"/ˈbɑːl.di/"}
+{"title":"bale","uk":"uk  / beɪl /","ukp":"/beɪl/","us":"us  / beɪl /","usp":"/beɪl/"}
+{"title":"bale out","uk":"uk  / beɪl /","ukp":"/beɪl/","us":"us  / beɪl /","usp":"/beɪl/"}
+{"title":"baled","uk":"uk  / beɪl /","ukp":"/beɪl/","us":"us  / beɪl /","usp":"/beɪl/"}
+{"title":"baleen","uk":"uk  / bəˈliːn /","ukp":"/bəˈliːn/","us":"us  / bəˈliːn /","usp":"/bəˈliːn/"}
+{"title":"balefully","uk":"uk  / ˈbeɪl.f ə l.i /","ukp":"/ˈbeɪl.fəl.i/","us":"us  / ˈbeɪl.f ə l.i /","usp":"/ˈbeɪl.fəl.i/"}
+{"title":"baleful","uk":"uk  / ˈbeɪl.f ə l /","ukp":"/ˈbeɪl.fəl/","us":"us  / ˈbeɪl.f ə l /","usp":"/ˈbeɪl.fəl/"}
+{"title":"baler","uk":"uk / ˈbeɪ.lə r /","ukp":"/ˈbeɪ.lər/","us":"us / ˈbeɪ.lɚ /","usp":"/ˈbeɪ.lɚ/"}
+{"title":"Balint's syndrome","uk":"uk  / ˈbæl.ɪnts ˌsɪn.drəʊm /","ukp":"/ˈbæl.ɪnts ˌsɪn.drəʊm/","us":"us  / ˈbæl.ɪnts ˌsɪn.droʊm /","usp":"/ˈbæl.ɪnts ˌsɪn.droʊm/"}
+{"title":"baling","uk":"uk  / beɪl /","ukp":"/beɪl/","us":"us  / beɪl /","usp":"/beɪl/"}
+{"title":"balk","uk":"uk  / bɔːk /","ukp":"/bɔːk/","us":"us  / bɑːlk /","usp":"/bɑːlk/"}
+{"title":"Balkan","uk":"uk  / ˈbɔːl.kən /","ukp":"/ˈbɔːl.kən/","us":"us  / ˈbɔːl.kən /","usp":"/ˈbɔːl.kən/"}
+{"title":"balked","uk":"uk  / bɔːk /","ukp":"/bɔːk/","us":"us  / bɑːlk /","usp":"/bɑːlk/"}
+{"title":"balking","uk":"uk  / bɔːk /","ukp":"/bɔːk/","us":"us  / bɑːlk /","usp":"/bɑːlk/"}
+{"title":"ball bearing","uk":"uk  / ˌbɔːl ˈbeə.rɪŋ /","ukp":"/ˌbɔːl ˈbeə.rɪŋ/","us":"us  / ˌbɑːl ˈber.ɪŋ /","usp":"/ˌbɑːl ˈber.ɪŋ/"}
+{"title":"ball and chain","uk":"uk / ˌbɔːl ən ˈtʃeɪn /","ukp":"/ˌbɔːl ən ˈtʃeɪn/","us":"us / ˌbɑːl ən ˈtʃeɪn /","usp":"/ˌbɑːl ən ˈtʃeɪn/"}
+{"title":"ball","uk":"uk  / bɔːl /","ukp":"/bɔːl/","us":"us  / bɑːl /","usp":"/bɑːl/"}
+{"title":"ball game","uk":"uk  / ˈbɔːl ˌɡeɪm /","ukp":"/ˈbɔːl ˌɡeɪm/","us":"us  / ˈbɑːl ˌɡeɪm /","usp":"/ˈbɑːl ˌɡeɪm/"}
+{"title":"ball boy","uk":"uk  / ˈbɔːl ˌbɔɪ /","ukp":"/ˈbɔːl ˌbɔɪ/","us":"us  / ˈbɑːl ˌbɔɪ /","usp":"/ˈbɑːl ˌbɔɪ/"}
+{"title":"ball girl","uk":"uk  / ˈbɔːl ˌɡɜːl /","ukp":"/ˈbɔːl ˌɡɜːl/","us":"us  / ˈbɑːl ˌɡɝːl /","usp":"/ˈbɑːl ˌɡɝːl/"}
+{"title":"Ball jar","uk":"uk  / ˈbɔːl ˌdʒɑː r /","ukp":"/ˈbɔːl ˌdʒɑːr/","us":"us  / ˈbɑːl ˌdʒɑːr /","usp":"/ˈbɑːl ˌdʒɑːr/"}
+{"title":"ball pond","uk":"uk  / ˈbɔːl ˌpɒnd /","ukp":"/ˈbɔːl ˌpɒnd/","us":"us  / ˈbɑːl ˌpɑːnd /","usp":"/ˈbɑːl ˌpɑːnd/"}
+{"title":"ball pit","uk":"uk  / ˈbɔːl ˌpɪt /","ukp":"/ˈbɔːl ˌpɪt/","us":"us  / ˈbɑːl ˌpɪt /","usp":"/ˈbɑːl ˌpɪt/"}
+{"title":"ball sack","uk":"uk  / ˈbɔːl ˌsæk /","ukp":"/ˈbɔːl ˌsæk/","us":"us  / ˈbɑːl ˌsæk /","usp":"/ˈbɑːl ˌsæk/"}
+{"title":"ball pool","uk":"uk  / ˈbɔːl ˌpuːl /","ukp":"/ˈbɔːl ˌpuːl/","us":"us  / ˈbɑːl ˌpuːl /","usp":"/ˈbɑːl ˌpuːl/"}
+{"title":"ball up","uk":"uk  / bɔːl /","ukp":"/bɔːl/","us":"us  / bɑːl /","usp":"/bɑːl/"}
+{"title":"ball-ache","uk":"uk  / ˈbɔːl.eɪk /","ukp":"/ˈbɔːl.eɪk/","us":"us  / ˈbɑːl.eɪk /","usp":"/ˈbɑːl.eɪk/"}
+{"title":"ball-and-socket joint","uk":"uk  / ˌbɔːl.ənˈsɒk.ɪt dʒɔɪnt /","ukp":"/ˌbɔːl.ənˈsɒk.ɪt dʒɔɪnt/","us":"us  / ˌbɑːl.ənˈsɑː.kɪt dʒɔɪnt /","usp":"/ˌbɑːl.ənˈsɑː.kɪt dʒɔɪnt/"}
+{"title":"ball-tampering","uk":"uk  / ˈbɔːlˌtæm.pə.rɪŋ /","ukp":"/ˈbɔːlˌtæm.pə.rɪŋ/","us":"us  / ˈbɑːlˌtæm.pɚ.ɪŋ /","usp":"/ˈbɑːlˌtæm.pɚ.ɪŋ/"}
+{"title":"ballad","uk":"uk  / ˈbæl.əd /","ukp":"/ˈbæl.əd/","us":"us  / ˈbæl.əd /","usp":"/ˈbæl.əd/"}
+{"title":"ballade","uk":"uk  / bælˈɑːd /","ukp":"/bælˈɑːd/","us":"us  / bælˈɑːd /","usp":"/bælˈɑːd/"}
+{"title":"ballast","uk":"uk  / ˈbæl.əst /","ukp":"/ˈbæl.əst/","us":"us  / ˈbæl.əst /","usp":"/ˈbæl.əst/"}
+{"title":"ballcock","uk":"uk  / ˈbɔːl.kɒk /","ukp":"/ˈbɔːl.kɒk/","us":"us  / ˈbɑːl.kɑːk /","usp":"/ˈbɑːl.kɑːk/"}
+{"title":"baller","uk":"uk  / ˈbɔː.lə r /","ukp":"/ˈbɔː.lər/","us":"us  / ˈbɑː.lɚ /","usp":"/ˈbɑː.lɚ/"}
+{"title":"ballerina","uk":"uk  / ˌbæl.əˈriː.nə /","ukp":"/ˌbæl.əˈriː.nə/","us":"us  / ˌbæl.əˈriː.nə /","usp":"/ˌbæl.əˈriː.nə/"}
+{"title":"ballet","uk":"uk  / ˈbæl.eɪ /","ukp":"/ˈbæl.eɪ/","us":"us  / bælˈeɪ /","usp":"/bælˈeɪ/"}
+{"title":"ballet shoe","uk":"uk  / ˈbæl.eɪ ˌʃuː /","ukp":"/ˈbæl.eɪ ˌʃuː/","us":"us  / bælˈeɪ ˌʃuː /","usp":"/bælˈeɪ ˌʃuː/"}
+{"title":"balletic","uk":"uk  / bəˈlet.ɪk /","ukp":"/bəˈlet.ɪk/","us":"us  / bəˈlet̬.ɪk /","usp":"/bəˈlet̬.ɪk/"}
+{"title":"ballgame","uk":"uk  / ˈbɔːl.ɡeɪm /","ukp":"/ˈbɔːl.ɡeɪm/","us":"us  / ˈbɑːl.ɡeɪm /","usp":"/ˈbɑːl.ɡeɪm/"}
+{"title":"ballgown","uk":"uk  / ˈbɔːl.ɡaʊn /","ukp":"/ˈbɔːl.ɡaʊn/","us":"us  / ˈbɑːl.ɡaʊn /","usp":"/ˈbɑːl.ɡaʊn/"}
+{"title":"ballistic","uk":"uk  / bəˈlɪs.tɪk /","ukp":"/bəˈlɪs.tɪk/","us":"us  / bəˈlɪs.tɪk /","usp":"/bəˈlɪs.tɪk/"}
+{"title":"ballistic missile","uk":"uk  / bəˌlɪs.tɪk ˈmɪs.aɪl /","ukp":"/bəˌlɪs.tɪk ˈmɪs.aɪl/","us":"us  / bəˌlɪs.tɪk ˈmɪs. ə l /","usp":"/bəˌlɪs.tɪk ˈmɪs.əl/"}
+{"title":"ballistics","uk":"uk  / bəˈlɪs.tɪks /","ukp":"/bəˈlɪs.tɪks/","us":"us  / bəˈlɪs.tɪks /","usp":"/bəˈlɪs.tɪks/"}
+{"title":"ballon","uk":"uk  / ˈbæl.ən /","ukp":"/ˈbæl.ən/","us":"us  / ˈbæl.ən /","usp":"/ˈbæl.ən/"}
+{"title":"balloon mortgage","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balloon loan","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balloon","uk":"uk  / bəˈluːn /","ukp":"/bəˈluːn/","us":"us  / bəˈluːn /","usp":"/bəˈluːn/"}
+{"title":"balloon payment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"ballooned","uk":"uk  / bəˈluːn /","ukp":"/bəˈluːn/","us":"us  / bəˈluːn /","usp":"/bəˈluːn/"}
+{"title":"ballooning","uk":"uk  / bəˈluːn /","ukp":"/bəˈluːn/","us":"us  / bəˈluːn /","usp":"/bəˈluːn/"}
+{"title":"balloonist","uk":"uk  / bəˈluː.nɪst /","ukp":"/bəˈluː.nɪst/","us":"us  / bəˈluː.nɪst /","usp":"/bəˈluː.nɪst/"}
+{"title":"ballot","uk":"uk  / ˈbæl.ət /","ukp":"/ˈbæl.ət/","us":"us  / ˈbæl.ət /","usp":"/ˈbæl.ət/"}
+{"title":"ballot box","uk":"uk  / ˈbæl.ət ˌbɒks /","ukp":"/ˈbæl.ət ˌbɒks/","us":"us  / ˈbæl.ət ˌbɑːks /","usp":"/ˈbæl.ət ˌbɑːks/"}
+{"title":"ballot rigging","uk":"uk  / ˈbæl.ət ˌrɪɡ.ɪŋ /","ukp":"/ˈbæl.ət ˌrɪɡ.ɪŋ/","us":"us  / ˈbæl.ət ˌrɪɡ.ɪŋ /","usp":"/ˈbæl.ət ˌrɪɡ.ɪŋ/"}
+{"title":"balloted","uk":"uk  / ˈbæl.ət /","ukp":"/ˈbæl.ət/","us":"us  / ˈbæl.ət /","usp":"/ˈbæl.ət/"}
+{"title":"ballotine","uk":"uk  / ˈbæl.ə.tiːn /","ukp":"/ˈbæl.ə.tiːn/","us":"us  / ˈbæl.ə.tiːn /","usp":"/ˈbæl.ə.tiːn/"}
+{"title":"balloting","uk":"uk  / ˈbæl.ət /","ukp":"/ˈbæl.ət/","us":"us  / ˈbæl.ət /","usp":"/ˈbæl.ət/"}
+{"title":"ballplayer","uk":"uk  / ˈbɔːl.pleɪ.ə r /","ukp":"/ˈbɔːl.pleɪ.ər/","us":"us  / ˈbɑːl.pleɪ.ɚ /","usp":"/ˈbɑːl.pleɪ.ɚ/"}
+{"title":"ballpoint pen","uk":"uk  / ˌbɔːl.pɔɪnt ˈpen /","ukp":"/ˌbɔːl.pɔɪnt ˈpen/","us":"us  / ˌbɑːl.pɔɪnt ˈpen /","usp":"/ˌbɑːl.pɔɪnt ˈpen/"}
+{"title":"ballpark","uk":"uk  / ˈbɔːl.pɑːk /","ukp":"/ˈbɔːl.pɑːk/","us":"us  / ˈbɑːl.pɑːrk /","usp":"/ˈbɑːl.pɑːrk/"}
+{"title":"bailey","uk":"uk  / ˈbeɪ.li /","ukp":"/ˈbeɪ.li/","us":"us  / ˈbeɪ.li /","usp":"/ˈbeɪ.li/"}
+{"title":"bailiff","uk":"uk  / ˈbeɪ.lɪf /","ukp":"/ˈbeɪ.lɪf/","us":"us  / ˈbeɪ.lɪf /","usp":"/ˈbeɪ.lɪf/"}
+{"title":"bailing","uk":"uk  / beɪl /","ukp":"/beɪl/","us":"us  / beɪl /","usp":"/beɪl/"}
+{"title":"bailor","uk":"uk  / ˈbeɪlə r /","ukp":"/ˈbeɪlər/","us":"us ","usp":""}
+{"title":"bailiwick","uk":"uk  / ˈbeɪ.li.wɪk /","ukp":"/ˈbeɪ.li.wɪk/","us":"us  / ˈbeɪ.li.wɪk /","usp":"/ˈbeɪ.li.wɪk/"}
+{"title":"bailment","uk":"uk  / ˈbeɪlmənt /","ukp":"/ˈbeɪlmənt/","us":"us ","usp":""}
+{"title":"bailout","uk":"uk  / ˈbeɪl.aʊt /","ukp":"/ˈbeɪl.aʊt/","us":"us  / ˈbeɪl.aʊt /","usp":"/ˈbeɪl.aʊt/"}
+{"title":"bails","uk":"uk  / beɪlz /","ukp":"/beɪlz/","us":"us  / beɪlz /","usp":"/beɪlz/"}
+{"title":"bain-marie","uk":"uk  / ˌbæn.məˈriː /","ukp":"/ˌbæn.məˈriː/","us":"us  / ˌbæn.məˈriː /","usp":"/ˌbæn.məˈriː/"}
+{"title":"bairn","uk":"uk  / beən /","ukp":"/beən/","us":"us  / bern /","usp":"/bern/"}
+{"title":"bait","uk":"uk  / beɪt /","ukp":"/beɪt/","us":"us  / beɪt /","usp":"/beɪt/"}
+{"title":"bait-and-switch","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"baited","uk":"uk  / beɪt /","ukp":"/beɪt/","us":"us  / beɪt /","usp":"/beɪt/"}
+{"title":"baiter","uk":"uk  / ˈbeɪ.tə r /","ukp":"/ˈbeɪ.tər/","us":"us  / ˈbeɪ.t̬ɚ /","usp":"/ˈbeɪ.t̬ɚ/"}
+{"title":"-baiting","uk":"uk  / -beɪ.tɪŋ /","ukp":"/-beɪ.tɪŋ/","us":"us  / -beɪ.t̬ɪŋ /","usp":"/-beɪ.t̬ɪŋ/"}
+{"title":"baize","uk":"uk  / beɪz /","ukp":"/beɪz/","us":"us  / beɪz /","usp":"/beɪz/"}
+{"title":"bak","uk":"","us":""}
+{"title":"bake","uk":"uk  / beɪk /","ukp":"/beɪk/","us":"us  / beɪk /","usp":"/beɪk/"}
+{"title":"bake sale","uk":"uk  / ˈbeɪk ˌseɪl /","ukp":"/ˈbeɪk ˌseɪl/","us":"us  / ˈbeɪk ˌseɪl /","usp":"/ˈbeɪk ˌseɪl/"}
+{"title":"baked","uk":"uk  / beɪk /","ukp":"/beɪk/","us":"us  / beɪk /","usp":"/beɪk/"}
+{"title":"baked Alaska","uk":"uk  / ˌbeɪkt əˈlæs.kə /","ukp":"/ˌbeɪkt əˈlæs.kə/","us":"us  / ˌbeɪkt əˈlæs.kə /","usp":"/ˌbeɪkt əˈlæs.kə/"}
+{"title":"baked beans","uk":"uk  / ˌbeɪkt ˈbiːnz /","ukp":"/ˌbeɪkt ˈbiːnz/","us":"us  / ˌbeɪkt ˈbiːnz /","usp":"/ˌbeɪkt ˈbiːnz/"}
+{"title":"baked goods","uk":"uk  / ˌbeɪkt ˈɡʊdz /","ukp":"/ˌbeɪkt ˈɡʊdz/","us":"us  / ˌbeɪkt ˈɡʊdz /","usp":"/ˌbeɪkt ˈɡʊdz/"}
+{"title":"baked potato","uk":"uk  / ˌbeɪkt pəˈteɪ.təʊ /","ukp":"/ˌbeɪkt pəˈteɪ.təʊ/","us":"us  / ˌbeɪkt pəˈteɪ.t̬oʊ /","usp":"/ˌbeɪkt pəˈteɪ.t̬oʊ/"}
+{"title":"Bakelite","uk":"uk  / ˈbeɪ.kə.laɪt /","ukp":"/ˈbeɪ.kə.laɪt/","us":"us  / ˈbeɪ.kə.laɪt /","usp":"/ˈbeɪ.kə.laɪt/"}
+{"title":"baker","uk":"uk  / ˈbeɪ.kə r /","ukp":"/ˈbeɪ.kər/","us":"us  / ˈbeɪ.kɚ /","usp":"/ˈbeɪ.kɚ/"}
+{"title":"baker's","uk":"uk / ˈbeɪ.kəz /","ukp":"/ˈbeɪ.kəz/","us":"us / ˈbeɪ.kɚz /","usp":"/ˈbeɪ.kɚz/"}
+{"title":"baker's dozen","uk":"uk  / ˌbeɪ.kəz ˈdʌz. ə n /","ukp":"/ˌbeɪ.kəz ˈdʌz.ən/","us":"us  / ˌbeɪ.kɚz ˈdʌz. ə n /","usp":"/ˌbeɪ.kɚz ˈdʌz.ən/"}
+{"title":"baker's yeast","uk":"uk  / ˌbeɪ.kəz ˈjiːst /","ukp":"/ˌbeɪ.kəz ˈjiːst/","us":"us  / ˌbeɪ.kɚz ˈjiːst /","usp":"/ˌbeɪ.kɚz ˈjiːst/"}
+{"title":"bakery","uk":"uk  / ˈbeɪ.k ə r.i /","ukp":"/ˈbeɪ.kər.i/","us":"us  / ˈbeɪ.kɚ.i /","usp":"/ˈbeɪ.kɚ.i/"}
+{"title":"bakeware","uk":"uk  / ˈbeɪk.weə r /","ukp":"/ˈbeɪk.weər/","us":"us  / ˈbeɪk.wer /","usp":"/ˈbeɪk.wer/"}
+{"title":"Bakewell pudding","uk":"uk  / ˌbeɪk.wel ˈpʊd.ɪŋ /","ukp":"/ˌbeɪk.wel ˈpʊd.ɪŋ/","us":"us  / ˌbeɪk.wel ˈpʊd.ɪŋ /","usp":"/ˌbeɪk.wel ˈpʊd.ɪŋ/"}
+{"title":"Bakewell tart","uk":"uk  / ˌbeɪk.wel ˈtɑːt /","ukp":"/ˌbeɪk.wel ˈtɑːt/","us":"us  / ˌbeɪk.wel ˈtɑːrt /","usp":"/ˌbeɪk.wel ˈtɑːrt/"}
+{"title":"baking","uk":"uk  / ˈbeɪ.kɪŋ /","ukp":"/ˈbeɪ.kɪŋ/","us":"us  / ˈbeɪ.kɪŋ /","usp":"/ˈbeɪ.kɪŋ/"}
+{"title":"baking chocolate","uk":"uk  / ˈbeɪ.kɪŋ ˌtʃɒk.lət /","ukp":"/ˈbeɪ.kɪŋ ˌtʃɒk.lət/","us":"us  / ˈbeɪ.kɪŋ ˌtʃɑːk.lət /","usp":"/ˈbeɪ.kɪŋ ˌtʃɑːk.lət/"}
+{"title":"baking parchment","uk":"uk  / ˈbeɪ.kɪŋ ˌpɑːtʃ.mənt /","ukp":"/ˈbeɪ.kɪŋ ˌpɑːtʃ.mənt/","us":"us  / ˈbeɪ.kɪŋ ˌpɑːrtʃ.mənt /","usp":"/ˈbeɪ.kɪŋ ˌpɑːrtʃ.mənt/"}
+{"title":"baking sheet","uk":"uk  / ˈbeɪ.kɪŋ ˌʃiːt /","ukp":"/ˈbeɪ.kɪŋ ˌʃiːt/","us":"us  / ˈbeɪ.kɪŋ ˌʃiːt /","usp":"/ˈbeɪ.kɪŋ ˌʃiːt/"}
+{"title":"baking powder","uk":"uk  / ˈbeɪ.kɪŋ ˌpaʊ.də r /","ukp":"/ˈbeɪ.kɪŋ ˌpaʊ.dər/","us":"us  / ˈbeɪ.kɪŋ ˌpaʊ.dɚ /","usp":"/ˈbeɪ.kɪŋ ˌpaʊ.dɚ/"}
+{"title":"baking soda","uk":"uk  / ˈbeɪ.kɪŋ ˌsəʊ.də /","ukp":"/ˈbeɪ.kɪŋ ˌsəʊ.də/","us":"us  / ˈbeɪ.kɪŋ ˌsoʊ.də /","usp":"/ˈbeɪ.kɪŋ ˌsoʊ.də/"}
+{"title":"baking tray","uk":"uk  / ˈbeɪ.kɪŋ ˌtreɪ /","ukp":"/ˈbeɪ.kɪŋ ˌtreɪ/","us":"us  / ˈbeɪ.kɪŋ ˌtreɪ /","usp":"/ˈbeɪ.kɪŋ ˌtreɪ/"}
+{"title":"bakkie","uk":"uk  / ˈbæk.i /","ukp":"/ˈbæk.i/","us":"us  / ˈbæk.i /","usp":"/ˈbæk.i/"}
+{"title":"baklava","uk":"uk  / ˈbæk.lə.vɑː /","ukp":"/ˈbæk.lə.vɑː/","us":"us  / ˌbɑːk.lə.ˈvɑː /","usp":"/ˌbɑːk.lə.ˈvɑː/"}
+{"title":"baksheesh","uk":"uk  / bækˈʃiːʃ /","ukp":"/bækˈʃiːʃ/","us":"us  / bækˈʃiːʃ /","usp":"/bækˈʃiːʃ/"}
+{"title":"Baku","uk":"uk  / ˈbæk.uː /","ukp":"/ˈbæk.uː/","us":"us  / bɑːˈkuː /","usp":"/bɑːˈkuː/"}
+{"title":"balaclava","uk":"uk  / ˌbæl.əˈklɑː.və /","ukp":"/ˌbæl.əˈklɑː.və/","us":"us  / ˌbæl.əˈklɑː.və /","usp":"/ˌbæl.əˈklɑː.və/"}
+{"title":"balalaika","uk":"uk  / ˌbæl.əˈlaɪ.kə /","ukp":"/ˌbæl.əˈlaɪ.kə/","us":"us  / ˌbæl.əˈlaɪ.kə /","usp":"/ˌbæl.əˈlaɪ.kə/"}
+{"title":"balance (something) out/up","uk":"uk  / ˈbæl. ə ns /","ukp":"/ˈbæl.əns/","us":"us  / ˈbæl. ə ns /","usp":"/ˈbæl.əns/"}
+{"title":"bank teller","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"balance","uk":"uk  / ˈbæl. ə ns /","ukp":"/ˈbæl.əns/","us":"us  / ˈbæl. ə ns /","usp":"/ˈbæl.əns/"}
+{"title":"bank trust department","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank transfer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank-certified cheque","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bankability","uk":"uk  / bæŋ.kəˈbɪl.ə.ti /","ukp":"/bæŋ.kəˈbɪl.ə.ti/","us":"us  / bæŋ.kəˈbɪl.ə.t̬i /","usp":"/bæŋ.kəˈbɪl.ə.t̬i/"}
+{"title":"bankable","uk":"uk  / ˈbæŋ.kə.b ə l /","ukp":"/ˈbæŋ.kə.bəl/","us":"us  / ˈbæŋ.kə.b ə l /","usp":"/ˈbæŋ.kə.bəl/"}
+{"title":"bankbook","uk":"uk  / ˈbæŋkbʊk /","ukp":"/ˈbæŋkbʊk/","us":"us ","usp":""}
+{"title":"banked","uk":"uk  / bæŋk /","ukp":"/bæŋk/","us":"us  / bæŋk /","usp":"/bæŋk/"}
+{"title":"banker's acceptance","uk":"","us":""}
+{"title":"banker","uk":"uk  / ˈbæŋ.kə r /","ukp":"/ˈbæŋ.kər/","us":"us  / ˈbæŋ.kɚ /","usp":"/ˈbæŋ.kɚ/"}
+{"title":"banker's discount","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"banker's card","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"banker's hours","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"banker's draft","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"banker's order","uk":"uk  / ˌbæŋ.kəz ˈɔː.də r /","ukp":"/ˌbæŋ.kəz ˈɔː.dər/","us":"us  / ˌbæŋ.kɚz ˈɔːr.dɚ /","usp":"/ˌbæŋ.kɚz ˈɔːr.dɚ/"}
+{"title":"banker's reference","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Bankers' Automated Clearing System","uk":"","us":""}
+{"title":"bankers' bank","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"banknote","uk":"uk  / ˈbæŋk.nəʊt /","ukp":"/ˈbæŋk.nəʊt/","us":"us  / ˈbæŋk.noʊt /","usp":"/ˈbæŋk.noʊt/"}
+{"title":"banking","uk":"uk  / ˈbæŋ.kɪŋ /","ukp":"/ˈbæŋ.kɪŋ/","us":"us  / ˈbæŋ.kɪŋ /","usp":"/ˈbæŋ.kɪŋ/"}
+{"title":"bankrolled","uk":"uk  / ˈbæŋk.rəʊl /","ukp":"/ˈbæŋk.rəʊl/","us":"us  / ˈbæŋk.roʊl /","usp":"/ˈbæŋk.roʊl/"}
+{"title":"bankroll","uk":"uk  / ˈbæŋk.rəʊl /","ukp":"/ˈbæŋk.rəʊl/","us":"us  / ˈbæŋk.roʊl /","usp":"/ˈbæŋk.roʊl/"}
+{"title":"bankrolling","uk":"uk  / ˈbæŋk.rəʊl /","ukp":"/ˈbæŋk.rəʊl/","us":"us  / ˈbæŋk.roʊl /","usp":"/ˈbæŋk.roʊl/"}
+{"title":"bankruptcy court","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bankruptcy","uk":"uk  / ˈbæŋ.krəpt.si /","ukp":"/ˈbæŋ.krəpt.si/","us":"us  / ˈbæŋ.krəpt.si /","usp":"/ˈbæŋ.krəpt.si/"}
+{"title":"bankrupt","uk":"uk  / ˈbæŋ.krʌpt /","ukp":"/ˈbæŋ.krʌpt/","us":"us  / ˈbæŋ.krʌpt /","usp":"/ˈbæŋ.krʌpt/"}
+{"title":"bankruptcy judge","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bankruptcy notice","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bankruptcy order","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bankruptcy petition","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bankruptcy proceedings","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bankruptcy protection","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bankrupted","uk":"uk  / ˈbæŋ.krʌpt /","ukp":"/ˈbæŋ.krʌpt/","us":"us  / ˈbæŋ.krʌpt /","usp":"/ˈbæŋ.krʌpt/"}
+{"title":"bankrupting","uk":"uk  / ˈbæŋ.krʌpt /","ukp":"/ˈbæŋ.krʌpt/","us":"us  / ˈbæŋ.krʌpt /","usp":"/ˈbæŋ.krʌpt/"}
+{"title":"banksman","uk":"uk  / ˈbæŋks.mən /","ukp":"/ˈbæŋks.mən/","us":"us  / ˈbæŋks.mən /","usp":"/ˈbæŋks.mən/"}
+{"title":"bannable","uk":"uk  / ˈbæn.ə.b ə l /","ukp":"/ˈbæn.ə.bəl/","us":"us  / ˈbæn.ə.b ə l /","usp":"/ˈbæn.ə.bəl/"}
+{"title":"banned","uk":"","us":""}
+{"title":"banner ad","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"banner","uk":"uk  / ˈbæn.ə r /","ukp":"/ˈbæn.ər/","us":"us  / ˈbæn.ɚ /","usp":"/ˈbæn.ɚ/"}
+{"title":"banner advertisement","uk":"uk  / ˈbæn.ər ədˌvɜː.tɪs.mənt /","ukp":"/ˈbæn.ər ədˌvɜː.tɪs.mənt/","us":"us  / ˈbæn.ɚ ˌæd.vɝː.taɪz.mənt /","usp":"/ˈbæn.ɚ ˌæd.vɝː.taɪz.mənt/"}
+{"title":"banner headline","uk":"uk  / ˌbæn.ə ˈhed.laɪn /","ukp":"/ˌbæn.ə ˈhed.laɪn/","us":"us  / ˌbæn.ɚ ˈhed.laɪn /","usp":"/ˌbæn.ɚ ˈhed.laɪn/"}
+{"title":"banner towing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"banning","uk":"","us":""}
+{"title":"bannister","uk":"uk  / ˈbæn.ɪ.stə r /","ukp":"/ˈbæn.ɪ.stər/","us":"us  / ˈbæn.ə.stɚ /","usp":"/ˈbæn.ə.stɚ/"}
+{"title":"bannock","uk":"uk  / ˈbæn.ək /","ukp":"/ˈbæn.ək/","us":"us  / ˈbæn.ək /","usp":"/ˈbæn.ək/"}
+{"title":"banns","uk":"uk  / bænz /","ukp":"/bænz/","us":"us  / bænz /","usp":"/bænz/"}
+{"title":"banoffee pie","uk":"uk  / bəˌnɒf.i ˈpaɪ /","ukp":"/bəˌnɒf.i ˈpaɪ/","us":"us  / bəˌnɑː.fi ˈpaɪ /","usp":"/bəˌnɑː.fi ˈpaɪ/"}
+{"title":"banquet","uk":"uk  / ˈbæŋ.kwɪt /","ukp":"/ˈbæŋ.kwɪt/","us":"us  / ˈbæŋ.kwət /","usp":"/ˈbæŋ.kwət/"}
+{"title":"banqueting","uk":"uk  / ˈbæŋ.kwɪ.tɪŋ /","ukp":"/ˈbæŋ.kwɪ.tɪŋ/","us":"us  / ˈbæŋ.kwə.t̬ɪŋ /","usp":"/ˈbæŋ.kwə.t̬ɪŋ/"}
+{"title":"banishment","uk":"uk  / ˈbæn.ɪʃ.mənt /","ukp":"/ˈbæn.ɪʃ.mənt/","us":"us  / ˈbæn.ɪʃ.mənt /","usp":"/ˈbæn.ɪʃ.mənt/"}
+{"title":"banister","uk":"uk  / ˈbæn.ɪ.stə r /","ukp":"/ˈbæn.ɪ.stər/","us":"us  / ˈbæn.ə.stɚ /","usp":"/ˈbæn.ə.stɚ/"}
+{"title":"banjoes","uk":"","us":""}
+{"title":"Banjul","uk":"uk  / bænˈdʒuːl /","ukp":"/bænˈdʒuːl/","us":"us  / ˈbɑːn.dʒuːl /","usp":"/ˈbɑːn.dʒuːl/"}
+{"title":"banjo","uk":"uk  / ˈbæn.dʒəʊ /","ukp":"/ˈbæn.dʒəʊ/","us":"us  / ˈbæn.dʒoʊ /","usp":"/ˈbæn.dʒoʊ/"}
+{"title":"bank account","uk":"uk  / ˈbæŋk əˌkaʊnt /","ukp":"/ˈbæŋk əˌkaʊnt/","us":"us  / ˈbæŋk əˌkaʊnt /","usp":"/ˈbæŋk əˌkaʊnt/"}
+{"title":"bank acquisition","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank","uk":"uk  / bæŋk /","ukp":"/bæŋk/","us":"us  / bæŋk /","usp":"/bæŋk/"}
+{"title":"bank advance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank assets","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank authorization letter","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank assistant","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank balance","uk":"uk  / ˈbæŋk ˌbæl. ə ns /","ukp":"/ˈbæŋk ˌbæl.əns/","us":"us  / ˈbæŋk ˌbæl. ə ns /","usp":"/ˈbæŋk ˌbæl.əns/"}
+{"title":"bank bill","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank borrowing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank certificate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank card","uk":"uk  / ˈbæŋk ˌkɑːd /","ukp":"/ˈbæŋk ˌkɑːd/","us":"us  / ˈbæŋk ˌkɑːrd /","usp":"/ˈbæŋk ˌkɑːrd/"}
+{"title":"bank charge","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank charges","uk":"uk  / ˈbæŋk ˌtʃɑːdʒɪz /","ukp":"/ˈbæŋk ˌtʃɑːdʒɪz/","us":"us  / ˈbæŋk ˌtʃɑːrdʒɪz /","usp":"/ˈbæŋk ˌtʃɑːrdʒɪz/"}
+{"title":"bank cheque","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank clerk","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank credit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank debt","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank deposit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank draft","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank giro credit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank facility","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank guarantee","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank guarantee fund","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank identification number","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank holiday","uk":"uk  / ˌbæŋk ˈhɒl.ə.deɪ /","ukp":"/ˌbæŋk ˈhɒl.ə.deɪ/","us":"us  / ˌbæŋk ˈhɑː.lə.deɪ /","usp":"/ˌbæŋk ˈhɑː.lə.deɪ/"}
+{"title":"bank interest","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank lending","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank lending rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank loan","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank mandate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank manager","uk":"uk  / ˈbæŋk ˌmæn.ɪ.dʒə r /","ukp":"/ˈbæŋk ˌmæn.ɪ.dʒər/","us":"us  / ˈbæŋk ˌmæn.ə.dʒɚ /","usp":"/ˈbæŋk ˌmæn.ə.dʒɚ/"}
+{"title":"bank money","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank of issue","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Bank of Mum and Dad","uk":"","us":""}
+{"title":"bank on someone/something","uk":"uk  / bæŋk /","ukp":"/bæŋk/","us":"us  / bæŋk /","usp":"/bæŋk/"}
+{"title":"bank order","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank overdraft","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank reconciliation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank rate","uk":"uk  / ˈbæŋk ˌreɪt /","ukp":"/ˈbæŋk ˌreɪt/","us":"us  / ˈbæŋk ˌreɪt /","usp":"/ˈbæŋk ˌreɪt/"}
+{"title":"bank reference","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank reserves","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank run","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bank statement","uk":"uk  / ˈbæŋk ˌsteɪt.mənt /","ukp":"/ˈbæŋk ˌsteɪt.mənt/","us":"us  / ˈbæŋk ˌsteɪt.mənt /","usp":"/ˈbæŋk ˌsteɪt.mənt/"}
+{"title":"ballroom","uk":"uk  / ˈbɔːl.ruːm /","ukp":"/ˈbɔːl.ruːm/","us":"us  / ˈbɑːl.ruːm /","usp":"/ˈbɑːl.ruːm/"}
+{"title":"ballroom dancing","uk":"uk  / ˌbɔːl.rʊm ˈdɑːn.sɪŋ /","ukp":"/ˌbɔːl.rʊm ˈdɑːn.sɪŋ/","us":"us  / ˌbɑːl.rʊm ˈdæn.sɪŋ /","usp":"/ˌbɑːl.rʊm ˈdæn.sɪŋ/"}
+{"title":"balls","uk":"uk  / bɔːlz /","ukp":"/bɔːlz/","us":"us  / bɑːlz /","usp":"/bɑːlz/"}
+{"title":"balls (something) up","uk":"uk  / bɔːlz /","ukp":"/bɔːlz/","us":"us  / bɑːlz /","usp":"/bɑːlz/"}
+{"title":"balls-to-the-wall","uk":"uk  / ˌbɔːlz.tə.ðəˈwɔːl /","ukp":"/ˌbɔːlz.tə.ðəˈwɔːl/","us":"us  / ˌbɑːlz..tə.ðəˈwɑːl /","usp":"/ˌbɑːlz..tə.ðəˈwɑːl/"}
+{"title":"ballsy","uk":"uk  / ˈbɔːl.zi /","ukp":"/ˈbɔːl.zi/","us":"us  / ˈbɑːl.zi /","usp":"/ˈbɑːl.zi/"}
+{"title":"bally","uk":"uk  / ˈbæl.i /","ukp":"/ˈbæl.i/","us":"us  / ˈbæl.i /","usp":"/ˈbæl.i/"}
+{"title":"ballyhoo","uk":"uk  / ˌbæl.iˈhuː /","ukp":"/ˌbæl.iˈhuː/","us":"us  / ˌbæl.iˈhuː /","usp":"/ˌbæl.iˈhuː/"}
+{"title":"balm","uk":"uk  / bɑːm /","ukp":"/bɑːm/","us":"us  / bɑːm /","usp":"/bɑːm/"}
+{"title":"balmy","uk":"uk  / ˈbɑː.mi /","ukp":"/ˈbɑː.mi/","us":"us  / ˈbɑː.mi /","usp":"/ˈbɑː.mi/"}
+{"title":"baloney","uk":"uk  / bəˈləʊ.ni /","ukp":"/bəˈləʊ.ni/","us":"us  / bəˈloʊ.ni /","usp":"/bəˈloʊ.ni/"}
+{"title":"balsa wood","uk":"uk  / ˈbɒl.sə ˌwʊd /","ukp":"/ˈbɒl.sə ˌwʊd/","us":"us  / ˈbɑːl.sə ˌwʊd /","usp":"/ˈbɑːl.sə ˌwʊd/"}
+{"title":"balsam","uk":"uk  / ˈbɒl.s ə m /","ukp":"/ˈbɒl.səm/","us":"us  / ˈbɑːl.s ə m /","usp":"/ˈbɑːl.səm/"}
+{"title":"balsamic vinegar","uk":"uk  / bɔːlˌsæm.ɪk ˈvɪn.ɪ.ɡə r /","ukp":"/bɔːlˌsæm.ɪk ˈvɪn.ɪ.ɡər/","us":"us / bɔːlˈsɑːm.ɪk ˈvɪn.ə.ɡɚ /","usp":"/bɔːlˈsɑːm.ɪk ˈvɪn.ə.ɡɚ/"}
+{"title":"balti","uk":"uk  / ˈbɒl.ti /","ukp":"/ˈbɒl.ti/","us":"us  / ˈboʊl.ti /","usp":"/ˈboʊl.ti/"}
+{"title":"Baltic Exchange","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Baltic","uk":"uk  / ˈbɔːl.tɪk /","ukp":"/ˈbɔːl.tɪk/","us":"us  / ˈbɔːl.tɪk /","usp":"/ˈbɔːl.tɪk/"}
+{"title":"Baltic International Freight Futures Exchange","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Baltimore","uk":"uk  / ˈbɔːl.tɪ.mɔː r /","ukp":"/ˈbɔːl.tɪ.mɔːr/","us":"us  / ˈbɔːl.tə.mɔːr /","usp":"/ˈbɔːl.tə.mɔːr/"}
+{"title":"Baltimorean","uk":"uk  / ˌbɔːl.tɪˈmɔː.ri.ən /","ukp":"/ˌbɔːl.tɪˈmɔː.ri.ən/","us":"us  / ˌbɔːl.təˈmɔːr.i.ən /","usp":"/ˌbɔːl.təˈmɔːr.i.ən/"}
+{"title":"balustrade","uk":"uk  / ˌbæl.əˈstreɪd /","ukp":"/ˌbæl.əˈstreɪd/","us":"us  / ˈbæl.ə.streɪd /","usp":"/ˈbæl.ə.streɪd/"}
+{"title":"bam","uk":"uk  / bæm /","ukp":"/bæm/","us":"us  / bæm /","usp":"/bæm/"}
+{"title":"Bamako","uk":"uk  / ˌbæm.əˈkəʊ /","ukp":"/ˌbæm.əˈkəʊ/","us":"us  / ˌbæm.əˈkoʊ /","usp":"/ˌbæm.əˈkoʊ/"}
+{"title":"bamboo","uk":"uk  / bæmˈbuː /","ukp":"/bæmˈbuː/","us":"us  / bæmˈbuː /","usp":"/bæmˈbuː/"}
+{"title":"bamboozle","uk":"uk  / bæmˈbuː.z ə l /","ukp":"/bæmˈbuː.zəl/","us":"us  / bæmˈbuː.z ə l /","usp":"/bæmˈbuː.zəl/"}
+{"title":"bamboozled","uk":"uk  / bæmˈbuː.z ə l /","ukp":"/bæmˈbuː.zəl/","us":"us  / bæmˈbuː.z ə l /","usp":"/bæmˈbuː.zəl/"}
+{"title":"bamboozling","uk":"uk  / bæmˈbuː.z ə l /","ukp":"/bæmˈbuː.zəl/","us":"us  / bæmˈbuː.z ə l /","usp":"/bæmˈbuː.zəl/"}
+{"title":"BAME","uk":"uk  / ˌbiː.eɪ.emˈiː /","ukp":"/ˌbiː.eɪ.emˈiː/","us":"us  / ˌbiː.eɪ.emˈiː /","usp":"/ˌbiː.eɪ.emˈiː/"}
+{"title":"ban","uk":"uk  / bæn /","ukp":"/bæn/","us":"us  / bæn /","usp":"/bæn/"}
+{"title":"banal","uk":"uk  / bəˈnɑːl /","ukp":"/bəˈnɑːl/","us":"us  / bəˈnɑːl /","usp":"/bəˈnɑːl/"}
+{"title":"banality","uk":"uk  / bəˈnɑː.lə.ti /","ukp":"/bəˈnɑː.lə.ti/","us":"us  / bəˈnɑː.lə.t̬i /","usp":"/bəˈnɑː.lə.t̬i/"}
+{"title":"banana","uk":"uk  / bəˈnɑː.nə /","ukp":"/bəˈnɑː.nə/","us":"us  / bəˈnæn.ə /","usp":"/bəˈnæn.ə/"}
+{"title":"banana boat","uk":"uk  / bəˈnɑː.nə ˌbəʊt /","ukp":"/bəˈnɑː.nə ˌbəʊt/","us":"us  / bəˈnæn.ə ˌboʊt /","usp":"/bəˈnæn.ə ˌboʊt/"}
+{"title":"banana pepper","uk":"uk  / bəˌnɑː.nə ˈpep.ə r /","ukp":"/bəˌnɑː.nə ˈpep.ər/","us":"us  / bəˈnæn.ə ˌpep.ɚ /","usp":"/bəˈnæn.ə ˌpep.ɚ/"}
+{"title":"banana clip","uk":"uk  / bəˈnɑː.nə ˌklɪp /","ukp":"/bəˈnɑː.nə ˌklɪp/","us":"us  / bəˈnæn.ə ˌklɪp /","usp":"/bəˈnæn.ə ˌklɪp/"}
+{"title":"banana republic","uk":"uk  / bəˌnɑː.nə rɪˈpʌb.lɪk /","ukp":"/bəˌnɑː.nə rɪˈpʌb.lɪk/","us":"us  / bəˌnæn.ə rɪˈpʌb.lɪk /","usp":"/bəˌnæn.ə rɪˈpʌb.lɪk/"}
+{"title":"banana skin","uk":"uk  / bəˈnɑː.nə ˌskɪn /","ukp":"/bəˈnɑː.nə ˌskɪn/","us":"us  / bəˈnæn.ə ˌskɪn /","usp":"/bəˈnæn.ə ˌskɪn/"}
+{"title":"banana split","uk":"uk  / bəˌnɑː.nə ˈsplɪt /","ukp":"/bəˌnɑː.nə ˈsplɪt/","us":"us  / bəˌnæn.ə ˈsplɪt /","usp":"/bəˌnæn.ə ˈsplɪt/"}
+{"title":"bananas","uk":"uk  / bəˈnɑː.nəz /","ukp":"/bəˈnɑː.nəz/","us":"us  / bəˈnæn.əz /","usp":"/bəˈnæn.əz/"}
+{"title":"bananas Foster","uk":"uk  / bəˌnɑː.nəz ˈfɒs.tə r /","ukp":"/bəˌnɑː.nəz ˈfɒs.tər/","us":"us  / bəˌnæn.əz ˈfɑː.stɚ /","usp":"/bəˌnæn.əz ˈfɑː.stɚ/"}
+{"title":"banausic","uk":"uk  / bəˈnɔː.sɪk /","ukp":"/bəˈnɔː.sɪk/","us":"us  / bəˈnɑː.sɪk /","usp":"/bəˈnɑː.sɪk/"}
+{"title":"bancassurance","uk":"uk  / ˈbæŋ.kə.ʃʊə.rens /","ukp":"/ˈbæŋ.kə.ʃʊə.rens/","us":"us  / ˈbæŋ.kə.ʃʊr. e ns /","usp":"/ˈbæŋ.kə.ʃʊr.ens/"}
+{"title":"band saw","uk":"uk  / ˈbænd ˌsɔː /","ukp":"/ˈbænd ˌsɔː/","us":"us  / ˈbænd ˌsɑː /","usp":"/ˈbænd ˌsɑː/"}
+{"title":"band","uk":"uk  / bænd /","ukp":"/bænd/","us":"us  / bænd /","usp":"/bænd/"}
+{"title":"band together","uk":"uk  / bænd /","ukp":"/bænd/","us":"us  / bænd /","usp":"/bænd/"}
+{"title":"Band-Aid","uk":"uk  / ˈbænd.eɪd /","ukp":"/ˈbænd.eɪd/","us":"us  / ˈbænd.eɪd /","usp":"/ˈbænd.eɪd/"}
+{"title":"band-aid solution","uk":"uk  / ˌbænd.eɪd səˈluː.ʃ ə n /","ukp":"/ˌbænd.eɪd səˈluː.ʃən/","us":"us  / ˌbænd.eɪd səˈluː.ʃ ə n /","usp":"/ˌbænd.eɪd səˈluː.ʃən/"}
+{"title":"bandage","uk":"uk  / ˈbæn.dɪdʒ /","ukp":"/ˈbæn.dɪdʒ/","us":"us  / ˈbæn.dɪdʒ /","usp":"/ˈbæn.dɪdʒ/"}
+{"title":"banquette","uk":"uk  / bæŋˈket /","ukp":"/bæŋˈket/","us":"us  / bæŋˈket /","usp":"/bæŋˈket/"}
+{"title":"banshee","uk":"uk  / ˈbæn.ʃiː /","ukp":"/ˈbæn.ʃiː/","us":"us  / ˈbæn.ʃiː /","usp":"/ˈbæn.ʃiː/"}
+{"title":"bantamweight","uk":"uk  / ˈbæn.təm.weɪt /","ukp":"/ˈbæn.təm.weɪt/","us":"us  / ˈbæn.t̬əm.weɪt /","usp":"/ˈbæn.t̬əm.weɪt/"}
+{"title":"bantam","uk":"uk  / ˈbæn.təm /","ukp":"/ˈbæn.təm/","us":"us  / ˈbæn.t̬əm /","usp":"/ˈbæn.t̬əm/"}
+{"title":"banter","uk":"uk  / ˈbæn.tə r /","ukp":"/ˈbæn.tər/","us":"us  / ˈbæn.t̬ɚ /","usp":"/ˈbæn.t̬ɚ/"}
+{"title":"bantered","uk":"uk  / ˈbæn.tə r /","ukp":"/ˈbæn.tər/","us":"us  / ˈbæn.t̬ɚ /","usp":"/ˈbæn.t̬ɚ/"}
+{"title":"bantering","uk":"uk  / ˈbæn.tə.rɪŋ /","ukp":"/ˈbæn.tə.rɪŋ/","us":"us  / ˈbæn.t̬ɚ.ɪŋ /","usp":"/ˈbæn.t̬ɚ.ɪŋ/"}
+{"title":"bants","uk":"uk  / bænts /","ukp":"/bænts/","us":"us  / bænts /","usp":"/bænts/"}
+{"title":"Bantu","uk":"uk  / ˈbæn.tuː /","ukp":"/ˈbæn.tuː/","us":"us  / ˈbæn.tuː /","usp":"/ˈbæn.tuː/"}
+{"title":"Bantu knots","uk":"uk  / ˈbæn.tuː ˌnɒts /","ukp":"/ˈbæn.tuː ˌnɒts/","us":"us  / ˈbæn.tuː ˌnɑːts /","usp":"/ˈbæn.tuː ˌnɑːts/"}
+{"title":"banyan","uk":"uk  / ˈbæn.jæn /","ukp":"/ˈbæn.jæn/","us":"us  / ˈbæn.jæn /","usp":"/ˈbæn.jæn/"}
+{"title":"baobab","uk":"uk  / ˈbeɪ.əʊ.bæb /","ukp":"/ˈbeɪ.əʊ.bæb/","us":"us  / ˈbeɪ.oʊ.bæb /","usp":"/ˈbeɪ.oʊ.bæb/"}
+{"title":"bao","uk":"uk  / baʊ /","ukp":"/baʊ/","us":"us  / baʊ /","usp":"/baʊ/"}
+{"title":"bap","uk":"uk  / bæp /","ukp":"/bæp/","us":"us  / bæp /","usp":"/bæp/"}
+{"title":"baptism","uk":"uk  / ˈbæp.tɪ.z ə m /","ukp":"/ˈbæp.tɪ.zəm/","us":"us  / ˈbæp.tɪ.z ə m /","usp":"/ˈbæp.tɪ.zəm/"}
+{"title":"baptismal","uk":"uk  / bæpˈtɪz.m ə l /","ukp":"/bæpˈtɪz.məl/","us":"us  / bæpˈtɪz.m ə l /","usp":"/bæpˈtɪz.məl/"}
+{"title":"Baptist","uk":"uk  / ˈbæp.tɪst /","ukp":"/ˈbæp.tɪst/","us":"us  / ˈbæp.tɪst /","usp":"/ˈbæp.tɪst/"}
+{"title":"baptize","uk":"uk  / bæpˈtaɪz /","ukp":"/bæpˈtaɪz/","us":"us  / bæpˈtaɪz /","usp":"/bæpˈtaɪz/"}
+{"title":"baptized","uk":"uk  / bæpˈtaɪz /","ukp":"/bæpˈtaɪz/","us":"us  / bæpˈtaɪz /","usp":"/bæpˈtaɪz/"}
+{"title":"baptizing","uk":"uk  / bæpˈtaɪz /","ukp":"/bæpˈtaɪz/","us":"us  / bæpˈtaɪz /","usp":"/bæpˈtaɪz/"}
+{"title":"bar chart","uk":"uk  / ˈbɑː ˌtʃɑːt /","ukp":"/ˈbɑː ˌtʃɑːt/","us":"us  / ˈbɑːr ˌtʃɑːrt /","usp":"/ˈbɑːr ˌtʃɑːrt/"}
+{"title":"bar code","uk":"uk  / ˈbɑː ˌkəʊd /","ukp":"/ˈbɑː ˌkəʊd/","us":"us  / ˈbɑːr ˌkoʊd /","usp":"/ˈbɑːr ˌkoʊd/"}
+{"title":"bar graph","uk":"uk  / ˈbɑː ˌɡrɑːf /","ukp":"/ˈbɑː ˌɡrɑːf/","us":"us  / ˈbɑːr ˌɡræf /","usp":"/ˈbɑːr ˌɡræf/"}
+{"title":"bar","uk":"uk  / bɑː r /","ukp":"/bɑːr/","us":"us  / bɑːr /","usp":"/bɑːr/"}
+{"title":"bar line","uk":"uk  / ˈbɑː ˌlaɪn /","ukp":"/ˈbɑː ˌlaɪn/","us":"us  / ˈbɑːr ˌlaɪn /","usp":"/ˈbɑːr ˌlaɪn/"}
+{"title":"Bar Harbor","uk":"uk  / ˌbɑː ˈhɑː.bə r /","ukp":"/ˌbɑː ˈhɑː.bər/","us":"us  / ˌbɑːr ˈhɑːr.bɚ /","usp":"/ˌbɑːr ˈhɑːr.bɚ/"}
+{"title":"bar magnet","uk":"uk / ˈbɑː ˌmæɡ.nət /","ukp":"/ˈbɑː ˌmæɡ.nət/","us":"us  / ˈbɑːr ˌmæɡ.nət /","usp":"/ˈbɑːr ˌmæɡ.nət/"}
+{"title":"bar mitzvah","uk":"uk  / ˌbɑː ˈmɪts.və /","ukp":"/ˌbɑː ˈmɪts.və/","us":"us  / ˌbɑːr ˈmɪts.və /","usp":"/ˌbɑːr ˈmɪts.və/"}
+{"title":"bar stool","uk":"uk  / ˈbɑː ˌstuːl /","ukp":"/ˈbɑː ˌstuːl/","us":"us  / ˈbɑːr ˌstuːl /","usp":"/ˈbɑːr ˌstuːl/"}
+{"title":"bar-coded","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bar-hop","uk":"uk  / ˈbɑːˌhɒp /","ukp":"/ˈbɑːˌhɒp/","us":"us  / ˈbɑːrˌhɑːp /","usp":"/ˈbɑːrˌhɑːp/"}
+{"title":"Barbadian","uk":"uk  / bɑːˈbeɪ.di.ən /","ukp":"/bɑːˈbeɪ.di.ən/","us":"us  / bɑːrˈbeɪ.di.ən /","usp":"/bɑːrˈbeɪ.di.ən/"}
+{"title":"barb","uk":"uk  / bɑːb /","ukp":"/bɑːb/","us":"us  / bɑːrb /","usp":"/bɑːrb/"}
+{"title":"Barbados","uk":"uk  / bɑːˈbeɪ.dɒs /","ukp":"/bɑːˈbeɪ.dɒs/","us":"us  / bɑːrˈbeɪ.doʊs /","usp":"/bɑːrˈbeɪ.doʊs/"}
+{"title":"barbarian","uk":"uk  / bɑːˈbeə.ri.ən /","ukp":"/bɑːˈbeə.ri.ən/","us":"us  / bɑːrˈber.i.ən /","usp":"/bɑːrˈber.i.ən/"}
+{"title":"barbaric","uk":"uk  / bɑːˈbær.ɪk /","ukp":"/bɑːˈbær.ɪk/","us":"us  / bɑːrˈber.ɪk /","usp":"/bɑːrˈber.ɪk/"}
+{"title":"barbarically","uk":"uk  / bɑːˈbær.ɪ.k ə l.i /","ukp":"/bɑːˈbær.ɪ.kəl.i/","us":"us  / bɑːrˈber.ɪ.k ə l.i /","usp":"/bɑːrˈber.ɪ.kəl.i/"}
+{"title":"barbarity","uk":"uk  / bɑːˈbær.ə.ti /","ukp":"/bɑːˈbær.ə.ti/","us":"us  / bɑːrˈber.ə.t̬i /","usp":"/bɑːrˈber.ə.t̬i/"}
+{"title":"barbarism","uk":"uk  / ˈbɑː.bə.rɪ.z ə m /","ukp":"/ˈbɑː.bə.rɪ.zəm/","us":"us  / ˈbɑːr.bɚ.ɪ.z ə m /","usp":"/ˈbɑːr.bɚ.ɪ.zəm/"}
+{"title":"barbarous","uk":"uk  / ˈbɑː.b ə r.əs /","ukp":"/ˈbɑː.bər.əs/","us":"us  / ˈbɑːr.bɚ.əs /","usp":"/ˈbɑːr.bɚ.əs/"}
+{"title":"barbecue","uk":"uk  / ˈbɑː.bɪ.kjuː /","ukp":"/ˈbɑː.bɪ.kjuː/","us":"us  / ˈbɑːr.bə.kjuː /","usp":"/ˈbɑːr.bə.kjuː/"}
+{"title":"barbecue pit","uk":"uk / ˈbɑː.bɪ.kjuː ˌpɪt /","ukp":"/ˈbɑː.bɪ.kjuː ˌpɪt/","us":"us / ˈbɑːr.bə.kjuː ˌpɪt /","usp":"/ˈbɑːr.bə.kjuː ˌpɪt/"}
+{"title":"barbecue sauce","uk":"uk  / ˌbɑː.bɪ.kjuː ˈsɔːs /","ukp":"/ˌbɑː.bɪ.kjuː ˈsɔːs/","us":"us  / ˌbɑːr.bə.kjuː ˈsɑːs /","usp":"/ˌbɑːr.bə.kjuː ˈsɑːs/"}
+{"title":"barbecued","uk":"uk  / ˈbɑː.bɪ.kjuː /","ukp":"/ˈbɑː.bɪ.kjuː/","us":"us  / ˈbɑːr.bə.kjuː /","usp":"/ˈbɑːr.bə.kjuː/"}
+{"title":"barbecuing","uk":"uk  / ˈbɑː.bɪ.kjuː /","ukp":"/ˈbɑː.bɪ.kjuː/","us":"us  / ˈbɑːr.bə.kjuː /","usp":"/ˈbɑːr.bə.kjuː/"}
+{"title":"barbed","uk":"uk  / bɑːbd /","ukp":"/bɑːbd/","us":"us  / bɑːrbd /","usp":"/bɑːrbd/"}
+{"title":"bandage dress","uk":"uk  / ˈbæn.dɪdʒ ˌdres /","ukp":"/ˈbæn.dɪdʒ ˌdres/","us":"us  / ˈbæn.dɪdʒ ˌdres /","usp":"/ˈbæn.dɪdʒ ˌdres/"}
+{"title":"bandaged","uk":"uk  / ˈbæn.dɪdʒ /","ukp":"/ˈbæn.dɪdʒ/","us":"us  / ˈbæn.dɪdʒ /","usp":"/ˈbæn.dɪdʒ/"}
+{"title":"bandaging","uk":"uk  / ˈbæn.dɪdʒ /","ukp":"/ˈbæn.dɪdʒ/","us":"us  / ˈbæn.dɪdʒ /","usp":"/ˈbæn.dɪdʒ/"}
+{"title":"bandanna","uk":"uk  / bænˈdæn.ə /","ukp":"/bænˈdæn.ə/","us":"us  / bænˈdæn.ə /","usp":"/bænˈdæn.ə/"}
+{"title":"bandana","uk":"uk  / bænˈdæn.ə /","ukp":"/bænˈdæn.ə/","us":"us  / bænˈdæn.ə /","usp":"/bænˈdæn.ə/"}
+{"title":"Bandar Seri Begawan","uk":"uk  / ˌbæn.də ser.i bəˈɡɑː.wən /","ukp":"/ˌbæn.də ser.i bəˈɡɑː.wən/","us":"us  / ˌbɑːn.dɚ ser.i bəˈɡɑː.wən /","usp":"/ˌbɑːn.dɚ ser.i bəˈɡɑː.wən/"}
+{"title":"bandeau","uk":"uk  / ˈbæn.dəʊ /","ukp":"/ˈbæn.dəʊ/","us":"us  / bænˈdoʊ /","usp":"/bænˈdoʊ/"}
+{"title":"bandeau dress","uk":"uk  / ˈbæn.dəʊ ˌdres /","ukp":"/ˈbæn.dəʊ ˌdres/","us":"us  / bænˈdoʊ ˌdres /","usp":"/bænˈdoʊ ˌdres/"}
+{"title":"bandh","uk":"uk  / bʌnd /","ukp":"/bʌnd/","us":"us  / bʌnd /","usp":"/bʌnd/"}
+{"title":"bandicoot","uk":"uk  / ˈbæn.di.kuːt /","ukp":"/ˈbæn.di.kuːt/","us":"us  / ˈbæn.di.kuːt /","usp":"/ˈbæn.di.kuːt/"}
+{"title":"bandit","uk":"uk  / ˈbæn.dɪt /","ukp":"/ˈbæn.dɪt/","us":"us  / ˈbæn.dɪt /","usp":"/ˈbæn.dɪt/"}
+{"title":"bandleader","uk":"uk  / ˈbændˌliː.də r /","ukp":"/ˈbændˌliː.dər/","us":"us  / ˈbændˌliː.dɚ /","usp":"/ˈbændˌliː.dɚ/"}
+{"title":"bandmaster","uk":"uk  / ˈbændˌmɑː.stə r /","ukp":"/ˈbændˌmɑː.stər/","us":"us  / ˈbændˌmæs.tɚ /","usp":"/ˈbændˌmæs.tɚ/"}
+{"title":"bandobast","uk":"uk  / ˈbʌn.də.bʌst /","ukp":"/ˈbʌn.də.bʌst/","us":"us  / ˈbʌn.də.bʌst /","usp":"/ˈbʌn.də.bʌst/"}
+{"title":"bandsman","uk":"uk  / ˈbændz.mən /","ukp":"/ˈbændz.mən/","us":"us  / ˈbændz.mən /","usp":"/ˈbændz.mən/"}
+{"title":"bandstand","uk":"uk  / ˈbænd.stænd /","ukp":"/ˈbænd.stænd/","us":"us  / ˈbænd.stænd /","usp":"/ˈbænd.stænd/"}
+{"title":"bandura","uk":"uk / bænˈduː.rə /","ukp":"/bænˈduː.rə/","us":"us / bænˈduː.rə /","usp":"/bænˈduː.rə/"}
+{"title":"bandwagon","uk":"uk  / ˈbændˌwæɡ. ə n /","ukp":"/ˈbændˌwæɡ.ən/","us":"us  / ˈbændˌwæɡ. ə n /","usp":"/ˈbændˌwæɡ.ən/"}
+{"title":"bandy something about","uk":"","us":"us / ˈbæn·di·əˈbɑʊt /","usp":"/ˈbæn·di·əˈbɑʊt/"}
+{"title":"bandy","uk":"uk  / ˈbæn.di /","ukp":"/ˈbæn.di/","us":"us  / ˈbæn.di /","usp":"/ˈbæn.di/"}
+{"title":"bandwidth","uk":"uk  / ˈbænd.wɪtθ /","ukp":"/ˈbænd.wɪtθ/","us":"us  / ˈbænd.wɪtθ /","usp":"/ˈbænd.wɪtθ/"}
+{"title":"bandy something around","uk":"uk  / ˈbæn.di /","ukp":"/ˈbæn.di/","us":"us  / ˈbæn.di /","usp":"/ˈbæn.di/"}
+{"title":"bandy words","uk":"","us":""}
+{"title":"bane","uk":"uk  / beɪn /","ukp":"/beɪn/","us":"us  / beɪn /","usp":"/beɪn/"}
+{"title":"baneful","uk":"uk  / ˈbeɪn.f ə l /","ukp":"/ˈbeɪn.fəl/","us":"us  / ˈbeɪn.f ə l /","usp":"/ˈbeɪn.fəl/"}
+{"title":"bang for the buck","uk":"","us":""}
+{"title":"Banffshire","uk":"uk  / ˈbænf.ʃə r /","ukp":"/ˈbænf.ʃər/","us":"us  / ˈbænf.ʃɚ /","usp":"/ˈbænf.ʃɚ/"}
+{"title":"bang goes something","uk":"","us":""}
+{"title":"bang","uk":"uk  / bæŋ /","ukp":"/bæŋ/","us":"us  / bæŋ /","usp":"/bæŋ/"}
+{"title":"bang on","uk":"uk  / bæŋ /","ukp":"/bæŋ/","us":"us  / bæŋ /","usp":"/bæŋ/"}
+{"title":"bang someone up","uk":"uk  / bæŋ /","ukp":"/bæŋ/","us":"us  / bæŋ /","usp":"/bæŋ/"}
+{"title":"bang/beat the drum","uk":"","us":""}
+{"title":"bang to rights","uk":"","us":""}
+{"title":"banged","uk":"uk  / bæŋ /","ukp":"/bæŋ/","us":"us  / bæŋ /","usp":"/bæŋ/"}
+{"title":"banging","uk":"uk  / ˈbæŋ.ɪŋ /","ukp":"/ˈbæŋ.ɪŋ/","us":"us  / ˈbæŋ.ɪŋ /","usp":"/ˈbæŋ.ɪŋ/"}
+{"title":"banger","uk":"uk  / ˈbæŋ.ə r /","ukp":"/ˈbæŋ.ər/","us":"us  / ˈbæŋ.ɚ /","usp":"/ˈbæŋ.ɚ/"}
+{"title":"Bangkok","uk":"uk  / bæŋˈkɒk /","ukp":"/bæŋˈkɒk/","us":"us  / bæŋˈkɑːk /","usp":"/bæŋˈkɑːk/"}
+{"title":"Bangla","uk":"uk  / ˈbʌŋ.lə /","ukp":"/ˈbʌŋ.lə/","us":"us  / ˈbæŋ.ɡləː /","usp":"/ˈbæŋ.ɡləː/"}
+{"title":"Bangladesh","uk":"uk  / ˌbæŋ.ɡləˈdeʃ /","ukp":"/ˌbæŋ.ɡləˈdeʃ/","us":"us  / ˌbæŋ.ɡləˈdeʃ /","usp":"/ˌbæŋ.ɡləˈdeʃ/"}
+{"title":"Bangladeshi","uk":"uk  / ˌbæŋ.ɡləˈdeʃ.i /","ukp":"/ˌbæŋ.ɡləˈdeʃ.i/","us":"us  / ˌbæŋ.ɡləˈdeʃ.i /","usp":"/ˌbæŋ.ɡləˈdeʃ.i/"}
+{"title":"bangle","uk":"uk  / ˈbæŋ.ɡ ə l /","ukp":"/ˈbæŋ.ɡəl/","us":"us  / ˈbæŋ.ɡ ə l /","usp":"/ˈbæŋ.ɡəl/"}
+{"title":"Bangor","uk":"uk / ˈbæŋ.ɡə r /","ukp":"/ˈbæŋ.ɡər/","us":"us  / ˈbæŋ.ɡɔːr /","usp":"/ˈbæŋ.ɡɔːr/"}
+{"title":"bangs","uk":"uk  / bæŋz /","ukp":"/bæŋz/","us":"us  / bæŋz /","usp":"/bæŋz/"}
+{"title":"banh mi","uk":"uk  / ˌbɑːn ˈmiː /","ukp":"/ˌbɑːn ˈmiː/","us":"us  / ˌbɑːn ˈmiː /","usp":"/ˌbɑːn ˈmiː/"}
+{"title":"Bangui","uk":"uk / ˌbæŋˈɡiː /","ukp":"/ˌbæŋˈɡiː/","us":"us  / ˌbɑːŋˈɡiː /","usp":"/ˌbɑːŋˈɡiː/"}
+{"title":"banishing","uk":"uk  / ˈbæn.ɪʃ /","ukp":"/ˈbæn.ɪʃ/","us":"us  / ˈbæn.ɪʃ /","usp":"/ˈbæn.ɪʃ/"}
+{"title":"banished","uk":"uk  / ˈbæn.ɪʃ /","ukp":"/ˈbæn.ɪʃ/","us":"us  / ˈbæn.ɪʃ /","usp":"/ˈbæn.ɪʃ/"}
+{"title":"banish","uk":"uk  / ˈbæn.ɪʃ /","ukp":"/ˈbæn.ɪʃ/","us":"us  / ˈbæn.ɪʃ /","usp":"/ˈbæn.ɪʃ/"}
+{"title":"barbed wire","uk":"uk  / ˌbɑːbd ˈwaɪə r /","ukp":"/ˌbɑːbd ˈwaɪər/","us":"us  / ˌbɑːrbd ˈwaɪr /","usp":"/ˌbɑːrbd ˈwaɪr/"}
+{"title":"barbell","uk":"uk  / ˈbɑː.bel /","ukp":"/ˈbɑː.bel/","us":"us  / ˈbɑːr.bel /","usp":"/ˈbɑːr.bel/"}
+{"title":"barber's","uk":"uk  / ˈbɑː.bəz /","ukp":"/ˈbɑː.bəz/","us":"us  / ˈbɑːr.bɚz /","usp":"/ˈbɑːr.bɚz/"}
+{"title":"barber","uk":"uk  / ˈbɑː.bə r /","ukp":"/ˈbɑː.bər/","us":"us  / ˈbɑːr.bɚ /","usp":"/ˈbɑːr.bɚ/"}
+{"title":"barbershop","uk":"uk  / ˈbɑː.bə.ʃɒp /","ukp":"/ˈbɑː.bə.ʃɒp/","us":"us  / ˈbɑːr.bɚ.ʃɑːp /","usp":"/ˈbɑːr.bɚ.ʃɑːp/"}
+{"title":"barbie","uk":"uk  / ˈbɑː.bi /","ukp":"/ˈbɑː.bi/","us":"us  / ˈbɑːr.bi /","usp":"/ˈbɑːr.bi/"}
+{"title":"barber's pole","uk":"uk  / ˈbɑː.bəz pəʊl /","ukp":"/ˈbɑː.bəz pəʊl/","us":"us  / ˈbɑːr.bɚz poʊl /","usp":"/ˈbɑːr.bɚz poʊl/"}
+{"title":"barbiturate","uk":"uk  / bɑːˈbɪtʃ. ə r.ət /","ukp":"/bɑːˈbɪtʃ.ər.ət/","us":"us  / bɑːˈbɪtʃ. ə r.ət /","usp":"/bɑːˈbɪtʃ.ər.ət/"}
+{"title":"Barbudan","uk":"uk  / bɑːˈbjuː.dən /","ukp":"/bɑːˈbjuː.dən/","us":"us  / bɑːrˈbuː.dən /","usp":"/bɑːrˈbuː.dən/"}
+{"title":"Barbour","uk":"uk  / ˈbɑː.bə r /","ukp":"/ˈbɑː.bər/","us":"us  / ˈbɑːr.bɚ /","usp":"/ˈbɑːr.bɚ/"}
+{"title":"Barcelona","uk":"uk  / ˌbɑː.səˈləʊ.nə /","ukp":"/ˌbɑː.səˈləʊ.nə/","us":"us  / ˌbɑːr.səˈloʊ.nə /","usp":"/ˌbɑːr.səˈloʊ.nə/"}
+{"title":"bard","uk":"uk  / bɑːd /","ukp":"/bɑːd/","us":"us  / bɑːrd /","usp":"/bɑːrd/"}
+{"title":"bare naked","uk":"","us":""}
+{"title":"bare infinitive","uk":"uk  / ˌbeər ɪnˈfɪn.ɪ.tɪv /","ukp":"/ˌbeər ɪnˈfɪn.ɪ.tɪv/","us":"us  / ˌber ɪnˈfɪn.ə.t̬ɪv /","usp":"/ˌber ɪnˈfɪn.ə.t̬ɪv/"}
+{"title":"bare","uk":"uk  / beə r /","ukp":"/beər/","us":"us  / ber /","usp":"/ber/"}
+{"title":"bare trustee","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bare your heart/soul","uk":"","us":""}
+{"title":"barebacking","uk":"uk  / ˈbeə.bæk.ɪŋ /","ukp":"/ˈbeə.bæk.ɪŋ/","us":"us  / ˈber.bæk.ɪŋ /","usp":"/ˈber.bæk.ɪŋ/"}
+{"title":"bareback","uk":"uk  / ˈbeə.bæk /","ukp":"/ˈbeə.bæk/","us":"us  / ˈber.bæk /","usp":"/ˈber.bæk/"}
+{"title":"bared","uk":"uk  / beə r /","ukp":"/beər/","us":"us  / ber /","usp":"/ber/"}
+{"title":"bareboat charter","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"barefoot","uk":"uk  / ˈbeə.fʊt /","ukp":"/ˈbeə.fʊt/","us":"us  / ˈber.fʊt /","usp":"/ˈber.fʊt/"}
+{"title":"barefaced","uk":"uk  / ˈbeə.feɪst /","ukp":"/ˈbeə.feɪst/","us":"us  / ˈber.feɪst /","usp":"/ˈber.feɪst/"}
+{"title":"bareheaded","uk":"uk  / ˌbeəˈhed.ɪd /","ukp":"/ˌbeəˈhed.ɪd/","us":"us  / ˈberˌhed.ɪd /","usp":"/ˈberˌhed.ɪd/"}
+{"title":"barf","uk":"uk  / bɑːf /","ukp":"/bɑːf/","us":"us  / bɑːrf /","usp":"/bɑːrf/"}
+{"title":"barely","uk":"uk  / ˈbeə.li /","ukp":"/ˈbeə.li/","us":"us  / ˈber.li /","usp":"/ˈber.li/"}
+{"title":"barf bag","uk":"uk  / ˈbɑːf ˌbæɡ /","ukp":"/ˈbɑːf ˌbæɡ/","us":"us  / ˈbɑːrf ˌbæɡ /","usp":"/ˈbɑːrf ˌbæɡ/"}
+{"title":"barfing","uk":"uk  / bɑːf /","ukp":"/bɑːf/","us":"us  / bɑːrf /","usp":"/bɑːrf/"}
+{"title":"barfed","uk":"uk  / bɑːf /","ukp":"/bɑːf/","us":"us  / bɑːrf /","usp":"/bɑːrf/"}
+{"title":"bargain","uk":"uk  / ˈbɑː.ɡɪn /","ukp":"/ˈbɑː.ɡɪn/","us":"us  / ˈbɑːr.ɡɪn /","usp":"/ˈbɑːr.ɡɪn/"}
+{"title":"bargain bin","uk":"uk  / ˈbɑː.ɡɪn ˌbɪn /","ukp":"/ˈbɑː.ɡɪn ˌbɪn/","us":"us  / ˈbɑːr.ɡɪn ˌbɪn /","usp":"/ˈbɑːr.ɡɪn ˌbɪn/"}
+{"title":"bargain basement","uk":"uk  / ˌbɑː.ɡɪn ˈbeɪs.mənt /","ukp":"/ˌbɑː.ɡɪn ˈbeɪs.mənt/","us":"us  / ˌbɑːr.ɡɪn ˈbeɪs.mənt /","usp":"/ˌbɑːr.ɡɪn ˈbeɪs.mənt/"}
+{"title":"bargain for/on something","uk":"uk  / ˈbɑː.ɡɪn /","ukp":"/ˈbɑː.ɡɪn/","us":"us  / ˈbɑːr.ɡɪn /","usp":"/ˈbɑːr.ɡɪn/"}
+{"title":"bargain hunter","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bargain on something","uk":"","us":"us  / ˈbɑr·ɡən /","usp":"/ˈbɑr·ɡən/"}
+{"title":"bargain something away","uk":"uk  / ˈbɑː.ɡɪn /","ukp":"/ˈbɑː.ɡɪn/","us":"us  / ˈbɑːr.ɡɪn /","usp":"/ˈbɑːr.ɡɪn/"}
+{"title":"bargain-priced","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bargained","uk":"uk  / ˈbɑː.ɡɪn /","ukp":"/ˈbɑː.ɡɪn/","us":"us  / ˈbɑːr.ɡɪn /","usp":"/ˈbɑːr.ɡɪn/"}
+{"title":"bargainer","uk":"uk / ˈbɑː.ɡɪn.ə r /","ukp":"/ˈbɑː.ɡɪn.ər/","us":"us  / ˈbɑːr.ɡɪn.ɚ /","usp":"/ˈbɑːr.ɡɪn.ɚ/"}
+{"title":"bargaining","uk":"uk  / ˈbɑːɡɪnɪŋ /","ukp":"/ˈbɑːɡɪnɪŋ/","us":"us ","usp":""}
+{"title":"bargaining agent","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"bargaining power","uk":"uk  / ˈbɑː.ɡɪ.nɪŋ ˌpaʊə r /","ukp":"/ˈbɑː.ɡɪ.nɪŋ ˌpaʊər/","us":"us  / ˈbɑːr.ɡɪ.nɪŋ ˌpaʊ.ɚ /","usp":"/ˈbɑːr.ɡɪ.nɪŋ ˌpaʊ.ɚ/"}
+{"title":"bargaining chip","uk":"uk  / ˈbɑː.ɡɪ.nɪŋ ˌtʃɪp /","ukp":"/ˈbɑː.ɡɪ.nɪŋ ˌtʃɪp/","us":"us  / ˈbɑːr.ɡɪ.nɪŋ ˌtʃɪp /","usp":"/ˈbɑːr.ɡɪ.nɪŋ ˌtʃɪp/"}
+{"title":"bargaining unit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"barge","uk":"uk  / bɑːdʒ /","ukp":"/bɑːdʒ/","us":"us  / bɑːrdʒ /","usp":"/bɑːrdʒ/"}
+{"title":"barge in","uk":"uk  / bɑːdʒ /","ukp":"/bɑːdʒ/","us":"us  / bɑːrdʒ /","usp":"/bɑːrdʒ/"}
+{"title":"baronet","uk":"uk  / ˈbær. ə n.et /","ukp":"/ˈbær.ən.et/","us":"us  / ˈber. ə n.et /","usp":"/ˈber.ən.et/"}
+{"title":"baronetcy","uk":"uk  / ˈbær. ə n.et.si /","ukp":"/ˈbær.ən.et.si/","us":"us  / ˈber. ə n.et.si /","usp":"/ˈber.ən.et.si/"}
+{"title":"barony","uk":"uk  / ˈbær. ə n.i /","ukp":"/ˈbær.ən.i/","us":"us  / ˈber. ə n.i /","usp":"/ˈber.ən.i/"}
+{"title":"baronial","uk":"uk  / bəˈrəʊ.ni.əl /","ukp":"/bəˈrəʊ.ni.əl/","us":"us  / bəˈroʊ.ni.əl /","usp":"/bəˈroʊ.ni.əl/"}
+{"title":"baroque","uk":"uk  / bəˈrɒk /","ukp":"/bəˈrɒk/","us":"us  / bəˈroʊk /","usp":"/bəˈroʊk/"}
+{"title":"barquette","uk":"uk  / bɑːˈket /","ukp":"/bɑːˈket/","us":"us  / bɑːrˈket /","usp":"/bɑːrˈket/"}
+{"title":"barrack for someone","uk":"uk  / ˈbær.ək /","ukp":"/ˈbær.ək/","us":"us  / ˈber.ək /","usp":"/ˈber.ək/"}
+{"title":"barrack","uk":"uk  / ˈbær.ək /","ukp":"/ˈbær.ək/","us":"us  / ˈber.ək /","usp":"/ˈber.ək/"}
+{"title":"barracked","uk":"uk  / ˈbær.ək /","ukp":"/ˈbær.ək/","us":"us  / ˈber.ək /","usp":"/ˈber.ək/"}
+{"title":"barracking","uk":"uk  / ˈbær.ə.kɪŋ /","ukp":"/ˈbær.ə.kɪŋ/","us":"us  / ˈber.ə.kɪŋ /","usp":"/ˈber.ə.kɪŋ/"}
+{"title":"barracuda","uk":"uk  / ˌbær.əˈkuː.də /","ukp":"/ˌbær.əˈkuː.də/","us":"us  / ˌber.əˈkuː.də /","usp":"/ˌber.əˈkuː.də/"}
+{"title":"barracks","uk":"uk  / ˈbær.əks /","ukp":"/ˈbær.əks/","us":"us  / ˈber.əks /","usp":"/ˈber.əks/"}
+{"title":"barrage","uk":"uk  / ˈbær.ɑːʒ /","ukp":"/ˈbær.ɑːʒ/","us":"us  / bəˈrɑːʒ /","usp":"/bəˈrɑːʒ/"}
+{"title":"barrage balloon","uk":"uk  / ˈbær.ɑːʒ bəˌluːn /","ukp":"/ˈbær.ɑːʒ bəˌluːn/","us":"us  / bəˈrɑːʒ bəˌluːn /","usp":"/bəˈrɑːʒ bəˌluːn/"}
+{"title":"barramundi","uk":"uk  / ˌbær.əˈmʌn.di /","ukp":"/ˌbær.əˈmʌn.di/","us":"us  / ˌber.əˈmʌn.di /","usp":"/ˌber.əˈmʌn.di/"}
+{"title":"barred","uk":"uk  / bɑːd /","ukp":"/bɑːd/","us":"us  / bɑːrd /","usp":"/bɑːrd/"}
+{"title":"barre","uk":"uk  / bɑː r /","ukp":"/bɑːr/","us":"us  / bɑːr /","usp":"/bɑːr/"}
+{"title":"barrel organ","uk":"uk  / ˈbær. ə l ˌɔː.ɡən /","ukp":"/ˈbær.əl ˌɔː.ɡən/","us":"us  / ˈbær. ə l ˌɔːr.ɡən /","usp":"/ˈbær.əl ˌɔːr.ɡən/"}
+{"title":"barrel","uk":"uk  / ˈbær. ə l /","ukp":"/ˈbær.əl/","us":"us  / ˈber. ə l /","usp":"/ˈber.əl/"}
+{"title":"barrel roll","uk":"uk  / ˈbær. ə l ˌrəʊl /","ukp":"/ˈbær.əl ˌrəʊl/","us":"us  / ˈbær. ə l ˌroʊl /","usp":"/ˈbær.əl ˌroʊl/"}
+{"title":"barrelling","uk":"","us":""}
+{"title":"barrelled","uk":"","us":""}
+{"title":"barren","uk":"uk  / ˈbær. ə n /","ukp":"/ˈbær.ən/","us":"us  / ˈber. ə n /","usp":"/ˈber.ən/"}
+{"title":"Barrett's esophagus","uk":"uk  / ˌbær.əts iˈsɒf.ə.ɡəs /","ukp":"/ˌbær.əts iˈsɒf.ə.ɡəs/","us":"us  / ˌber.əts iˈsɑːf.ə.ɡəs /","usp":"/ˌber.əts iˈsɑːf.ə.ɡəs/"}
+{"title":"barrenness","uk":"uk  / ˈbær. ə n.nəs /","ukp":"/ˈbær.ən.nəs/","us":"us  / ˈber. ə n.nəs /","usp":"/ˈber.ən.nəs/"}
+{"title":"Barrett's oesophagus","uk":"uk  / ˌbær.əts iˈsɒf.ə.ɡəs /","ukp":"/ˌbær.əts iˈsɒf.ə.ɡəs/","us":"us  / ˌber.əts iˈsɑːf.ə.ɡəs /","usp":"/ˌber.əts iˈsɑːf.ə.ɡəs/"}
+{"title":"barrette","uk":"uk  / bəˈret /","ukp":"/bəˈret/","us":"us  / bəˈret /","usp":"/bəˈret/"}
+{"title":"barricaded","uk":"uk  / ˈbær.ɪ.keɪd /","ukp":"/ˈbær.ɪ.keɪd/","us":"us  / ˈber.ə.keɪd /","usp":"/ˈber.ə.keɪd/"}
+{"title":"barricade","uk":"uk  / ˈbær.ɪ.keɪd /","ukp":"/ˈbær.ɪ.keɪd/","us":"us  / ˈber.ə.keɪd /","usp":"/ˈber.ə.keɪd/"}
+{"title":"barricading","uk":"uk  / ˈbær.ɪ.keɪd /","ukp":"/ˈbær.ɪ.keɪd/","us":"us  / ˈber.ə.keɪd /","usp":"/ˈber.ə.keɪd/"}
+{"title":"barrier","uk":"uk  / ˈbær.i.ə r /","ukp":"/ˈbær.i.ər/","us":"us  / ˈber.i.ɚ /","usp":"/ˈber.i.ɚ/"}
+{"title":"barrier cream","uk":"uk  / ˈbær.i.ə ˌkriːm /","ukp":"/ˈbær.i.ə ˌkriːm/","us":"us  / ˈber.i.ɚ ˌkriːm /","usp":"/ˈber.i.ɚ ˌkriːm/"}
+{"title":"barrier gesture","uk":"uk  / ˈbær.i.ə ˌdʒes.tʃə r /","ukp":"/ˈbær.i.ə ˌdʒes.tʃər/","us":"us / ˈber.i.ɚ ˌdʒes.tʃɚ /","usp":"/ˈber.i.ɚ ˌdʒes.tʃɚ/"}
+{"title":"barrier reef","uk":"uk  / ˌbær.i.ə ˈriːf /","ukp":"/ˌbær.i.ə ˈriːf/","us":"us  / ˌber.i.ɚ ˈriːf /","usp":"/ˌber.i.ɚ ˈriːf/"}
+{"title":"barrier to exit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"barrier to entry","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"barrier to trade","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"barrier-free","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"barring","uk":"uk  / ˈbɑː.rɪŋ /","ukp":"/ˈbɑː.rɪŋ/","us":"us  / ˈbɑːr.ɪŋ /","usp":"/ˈbɑːr.ɪŋ/"}
+{"title":"barrio","uk":"uk  / ˈbær.i.əʊ /","ukp":"/ˈbær.i.əʊ/","us":"us  / ˈbɑːr.i.oʊ /","usp":"/ˈbɑːr.i.oʊ/"}
+{"title":"barrister","uk":"uk  / ˈbær.ɪ.stə r /","ukp":"/ˈbær.ɪ.stər/","us":"us  / ˈber.ə.stɚ /","usp":"/ˈber.ə.stɚ/"}
+{"title":"barrow","uk":"uk  / ˈbær.əʊ /","ukp":"/ˈbær.əʊ/","us":"us  / ˈber.oʊ /","usp":"/ˈber.oʊ/"}
+{"title":"bartender","uk":"uk  / ˈbɑːˌten.də r /","ukp":"/ˈbɑːˌten.dər/","us":"us  / ˈbɑːrˌten.dɚ /","usp":"/ˈbɑːrˌten.dɚ/"}
+{"title":"barrow boy","uk":"uk  / ˈbær.əʊ ˌbɔɪ /","ukp":"/ˈbær.əʊ ˌbɔɪ/","us":"us  / ˈbær.oʊ ˌbɔɪ /","usp":"/ˈbær.oʊ ˌbɔɪ/"}
+{"title":"bartered","uk":"uk  / ˈbɑː.tə r /","ukp":"/ˈbɑː.tər/","us":"us  / ˈbɑːr.t̬ɚ /","usp":"/ˈbɑːr.t̬ɚ/"}
+{"title":"barter","uk":"uk  / ˈbɑː.tə r /","ukp":"/ˈbɑː.tər/","us":"us  / ˈbɑːr.t̬ɚ /","usp":"/ˈbɑːr.t̬ɚ/"}
+{"title":"bartering","uk":"uk  / ˈbɑː.tə r /","ukp":"/ˈbɑː.tər/","us":"us  / ˈbɑːr.t̬ɚ /","usp":"/ˈbɑːr.t̬ɚ/"}
+{"title":"Bartlett","uk":"uk  / ˈbɑːt.lət /","ukp":"/ˈbɑːt.lət/","us":"us  / ˈbɑːrt.lət /","usp":"/ˈbɑːrt.lət/"}
+{"title":"baryon","uk":"uk  / ˈbær.i.ɒn /","ukp":"/ˈbær.i.ɒn/","us":"us  / ˈber.i.ɑːn /","usp":"/ˈber.i.ɑːn/"}
+{"title":"bas mitzvah","uk":"","us":"us  / ˌbɑs ˈmɪts·və /","usp":"/ˌbɑs ˈmɪts·və/"}
+{"title":"bas-relief","uk":"uk  / ˌbæs.rɪˈliːf /","ukp":"/ˌbæs.rɪˈliːf/","us":"us  / ˌbæs.rɪˈliːf /","usp":"/ˌbæs.rɪˈliːf/"}
+{"title":"basal","uk":"uk  / ˈbeɪ.səl /","ukp":"/ˈbeɪ.səl/","us":"us  / ˈbeɪ.səl /","usp":"/ˈbeɪ.səl/"}
+{"title":"basal cell carcinoma","uk":"uk  / ˌbeɪ.səl ˌsel kɑː.sɪˈnəʊ.mə /","ukp":"/ˌbeɪ.səl ˌsel kɑː.sɪˈnəʊ.mə/","us":"us  / ˌbeɪ.səl ˌsel kɑːr.səˈnoʊ.mə /","usp":"/ˌbeɪ.səl ˌsel kɑːr.səˈnoʊ.mə/"}
+{"title":"basalt","uk":"uk  / ˈbæs.ɒlt /","ukp":"/ˈbæs.ɒlt/","us":"us  / ˈbæs.ɑːlt /","usp":"/ˈbæs.ɑːlt/"}
+{"title":"basaltic","uk":"uk  / bəˈsɔːl.tɪk /","ukp":"/bəˈsɔːl.tɪk/","us":"us  / bəˈsɑːl.tɪk /","usp":"/bəˈsɑːl.tɪk/"}
+{"title":"base camp","uk":"uk  / ˈbeɪs ˌkæmp /","ukp":"/ˈbeɪs ˌkæmp/","us":"us  / ˈbeɪs ˌkæmp /","usp":"/ˈbeɪs ˌkæmp/"}
+{"title":"base currency","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"base","uk":"uk  / beɪs /","ukp":"/beɪs/","us":"us  / beɪs /","usp":"/beɪs/"}
+{"title":"base hit","uk":"uk  / ˈbeɪs ˌhɪt /","ukp":"/ˈbeɪs ˌhɪt/","us":"us  / ˌbeɪs ˈhɪt /","usp":"/ˌbeɪs ˈhɪt/"}
+{"title":"base form","uk":"uk  / ˈbeɪs ˌfɔːm /","ukp":"/ˈbeɪs ˌfɔːm/","us":"us  / ˈbeɪs ˌfɔːrm /","usp":"/ˈbeɪs ˌfɔːrm/"}
+{"title":"base jumper","uk":"uk  / ˈbeɪs ˌdʒʌm.pə r /","ukp":"/ˈbeɪs ˌdʒʌm.pər/","us":"us  / ˈbeɪs ˌdʒʌm.pɚ /","usp":"/ˈbeɪs ˌdʒʌm.pɚ/"}
+{"title":"base jumping","uk":"uk  / ˈbeɪs ˌdʒʌm.pɪŋ /","ukp":"/ˈbeɪs ˌdʒʌm.pɪŋ/","us":"us  / ˈbeɪs ˌdʒʌm.pɪŋ /","usp":"/ˈbeɪs ˌdʒʌm.pɪŋ/"}
+{"title":"base layer","uk":"uk  / ˈbeɪs ˌleɪ.ə r /","ukp":"/ˈbeɪs ˌleɪ.ər/","us":"us  / ˈbeɪs ˌleɪ.ɚ /","usp":"/ˈbeɪs ˌleɪ.ɚ/"}
+{"title":"base metal","uk":"uk  / ˌbeɪs ˈmet. ə l /","ukp":"/ˌbeɪs ˈmet.əl/","us":"us  / ˌbeɪs ˈmet̬. ə l /","usp":"/ˌbeɪs ˈmet̬.əl/"}
+{"title":"base pay","uk":"uk  / ˌbeɪs ˈpeɪ /","ukp":"/ˌbeɪs ˈpeɪ/","us":"us  / ˌbeɪs ˈpeɪ /","usp":"/ˌbeɪs ˈpeɪ/"}
+{"title":"base price","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"base salary","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"base rate","uk":"uk  / ˈbeɪs ˌreɪt /","ukp":"/ˈbeɪs ˌreɪt/","us":"us  / ˈbeɪs ˌreɪt /","usp":"/ˈbeɪs ˌreɪt/"}
+{"title":"base something on something","uk":"uk  / beɪs /","ukp":"/beɪs/","us":"us  / beɪs /","usp":"/beɪs/"}
+{"title":"base wage","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"baseball","uk":"uk  / ˈbeɪs.bɔːl /","ukp":"/ˈbeɪs.bɔːl/","us":"us  / ˈbeɪs.bɑːl /","usp":"/ˈbeɪs.bɑːl/"}
+{"title":"baseball cap","uk":"uk  / ˈbeɪs.bɔːl ˌkæp /","ukp":"/ˈbeɪs.bɔːl ˌkæp/","us":"us  / ˈbeɪs.bɑːl ˌkæp /","usp":"/ˈbeɪs.bɑːl ˌkæp/"}
+{"title":"baseball jacket","uk":"uk  / ˈbeɪs.bɔːl ˌdʒæk.ɪt /","ukp":"/ˈbeɪs.bɔːl ˌdʒæk.ɪt/","us":"us  / ˈbeɪs.bɑːl ˌdʒæk.ɪt /","usp":"/ˈbeɪs.bɑːl ˌdʒæk.ɪt/"}
+{"title":"baseband chip","uk":"uk  / ˈbeɪs.bænd ˌtʃɪp /","ukp":"/ˈbeɪs.bænd ˌtʃɪp/","us":"us  / ˈbeɪs.bænd ˌtʃɪp /","usp":"/ˈbeɪs.bænd ˌtʃɪp/"}
+{"title":"baseboard","uk":"uk  / ˈbeɪs.bɔːd /","ukp":"/ˈbeɪs.bɔːd/","us":"us  / ˈbeɪs.bɔːrd /","usp":"/ˈbeɪs.bɔːrd/"}
+{"title":"Basel","uk":"uk / ˈbɑː.z ə l /","ukp":"/ˈbɑː.zəl/","us":"us / ˈbɑː.z ə l /","usp":"/ˈbɑː.zəl/"}
+{"title":"-based","uk":"uk  / -beɪst /","ukp":"/ -beɪst/","us":"us  / -beɪst /","usp":"/ -beɪst/"}
+{"title":"Basel Accord","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Basel ratios","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"baseless","uk":"uk  / ˈbeɪs.ləs /","ukp":"/ˈbeɪs.ləs/","us":"us  / ˈbeɪs.ləs /","usp":"/ˈbeɪs.ləs/"}
+{"title":"baseline","uk":"uk  / ˈbeɪs.laɪn /","ukp":"/ˈbeɪs.laɪn/","us":"us  / ˈbeɪs.laɪn /","usp":"/ˈbeɪs.laɪn/"}
+{"title":"basely","uk":"uk  / ˈbeɪs.li /","ukp":"/ˈbeɪs.li/","us":"us  / ˈbeɪs.li /","usp":"/ˈbeɪs.li/"}
+{"title":"basement","uk":"uk  / ˈbeɪs.mənt /","ukp":"/ˈbeɪs.mənt/","us":"us  / ˈbeɪs.mənt /","usp":"/ˈbeɪs.mənt/"}
+{"title":"baseness","uk":"uk  / ˈbeɪs.nəs /","ukp":"/ˈbeɪs.nəs/","us":"us  / ˈbeɪs.nəs /","usp":"/ˈbeɪs.nəs/"}
+{"title":"bases","uk":"uk  / ˈbeɪ.sɪz /","ukp":"/ˈbeɪ.sɪz/","us":"us  / ˈbeɪ.sɪz /","usp":"/ˈbeɪ.sɪz/"}
+{"title":"bash","uk":"uk  / bæʃ /","ukp":"/bæʃ/","us":"us  / bæʃ /","usp":"/bæʃ/"}
+{"title":"bathing suit","uk":"uk  / ˈbeɪ.ðɪŋ ˌsuːt /","ukp":"/ˈbeɪ.ðɪŋ ˌsuːt/","us":"us  / ˈbeɪ.ðɪŋ ˌsuːt /","usp":"/ˈbeɪ.ðɪŋ ˌsuːt/"}
+{"title":"bathing trunks","uk":"uk  / ˈbeɪ.ðɪŋ ˌtrʌŋks /","ukp":"/ˈbeɪ.ðɪŋ ˌtrʌŋks/","us":"us  / ˈbeɪ.ðɪŋ ˌtrʌŋks /","usp":"/ˈbeɪ.ðɪŋ ˌtrʌŋks/"}
+{"title":"bathos","uk":"uk  / ˈbeɪ.θɒs /","ukp":"/ˈbeɪ.θɒs/","us":"us  / ˈbeɪ.θɑːs /","usp":"/ˈbeɪ.θɑːs/"}
+{"title":"bathrobe","uk":"uk  / ˈbɑːθ.rəʊb /","ukp":"/ˈbɑːθ.rəʊb/","us":"us  / ˈbæθ.roʊb /","usp":"/ˈbæθ.roʊb/"}
+{"title":"bathroom","uk":"uk  / ˈbɑːθ.ruːm /","ukp":"/ˈbɑːθ.ruːm/","us":"us  / ˈbæθ.ruːm /","usp":"/ˈbæθ.ruːm/"}
+{"title":"bathroom fittings","uk":"uk  / ˈbɑːθ.ruːm ˌfɪt.ɪŋz /","ukp":"/ˈbɑːθ.ruːm ˌfɪt.ɪŋz/","us":"us  / ˈbæθ.rʊm ˌfɪt̬.ɪŋz /","usp":"/ˈbæθ.rʊm ˌfɪt̬.ɪŋz/"}
+{"title":"bathroom suite","uk":"uk  / ˈbɑːθ.rʊm ˌswiːt /","ukp":"/ˈbɑːθ.rʊm ˌswiːt/","us":"us  / ˈbæθ.rʊm ˌswiːt /","usp":"/ˈbæθ.rʊm ˌswiːt/"}
+{"title":"bathroom tissue","uk":"uk  / ˈbɑːθ.rʊm ˌtɪʃ.uː /","ukp":"/ˈbɑːθ.rʊm ˌtɪʃ.uː/","us":"us  / ˈbæθ.rʊm ˌtɪʃ.uː /","usp":"/ˈbæθ.rʊm ˌtɪʃ.uː/"}
+{"title":"baths","uk":"","us":""}
+{"title":"bathtime","uk":"uk  / ˈbɑːθ.taɪm /","ukp":"/ˈbɑːθ.taɪm/","us":"us  / ˈbæθ.taɪm /","usp":"/ˈbæθ.taɪm/"}
+{"title":"bathtub","uk":"uk  / ˈbɑːθ.tʌb /","ukp":"/ˈbɑːθ.tʌb/","us":"us  / ˈbæθ.tʌb /","usp":"/ˈbæθ.tʌb/"}
+{"title":"bathwater","uk":"uk  / ˈbɑːθ.wɔː.tə r /","ukp":"/ˈbɑːθ.wɔː.tər/","us":"us  / ˈbæθ.wɑː.t̬ɚ /","usp":"/ˈbæθ.wɑː.t̬ɚ/"}
+{"title":"bathymetric","uk":"uk  / ˌbæθ.ɪˈmet.rɪk /","ukp":"/ˌbæθ.ɪˈmet.rɪk/","us":"us  / ˌbæθ.ɪˈmet.rɪk /","usp":"/ˌbæθ.ɪˈmet.rɪk/"}
+{"title":"bathymetry","uk":"uk  / ˌbəˈθɪm.ə.tri /","ukp":"/ˌbəˈθɪm.ə.tri/","us":"us  / ˌbəˈθɪm.ə.tri /","usp":"/ˌbəˈθɪm.ə.tri/"}
+{"title":"batik","uk":"uk  / bætˈiːk /","ukp":"/bætˈiːk/","us":"us  / bætˈiːk /","usp":"/bætˈiːk/"}
+{"title":"batman","uk":"uk  / ˈbæt.mən /","ukp":"/ˈbæt.mən/","us":"us  / ˈbæt.mən /","usp":"/ˈbæt.mən/"}
+{"title":"Baton Rouge","uk":"uk  / ˌbæt. ə n ˈruːʒ /","ukp":"/ˌbæt.ən ˈruːʒ/","us":"us  / ˌbæt. ə n ˈruːʒ /","usp":"/ˌbæt.ən ˈruːʒ/"}
+{"title":"baton","uk":"uk  / ˈbæt.ɒn /","ukp":"/ˈbæt.ɒn/","us":"us  / bəˈtɑːn /","usp":"/bəˈtɑːn/"}
+{"title":"batshit","uk":"uk  / ˈbæt.ʃɪt /","ukp":"/ˈbæt.ʃɪt/","us":"us  / ˈbæt.ʃɪt /","usp":"/ˈbæt.ʃɪt/"}
+{"title":"Batswana","uk":"uk  / bætˈswɑː.nə /","ukp":"/bætˈswɑː.nə/","us":"us  / bɑːtˈswɑː.nə /","usp":"/bɑːtˈswɑː.nə/"}
+{"title":"baton charge","uk":"uk  / ˈbæt.ɒn ˌtʃɑːdʒ /","ukp":"/ˈbæt.ɒn ˌtʃɑːdʒ/","us":"us  / bəˈtɑːn ˌtʃɑːrdʒ /","usp":"/bəˈtɑːn ˌtʃɑːrdʒ/"}
+{"title":"batsman","uk":"uk  / ˈbæt.smən /","ukp":"/ˈbæt.smən/","us":"us  / ˈbæt.smən /","usp":"/ˈbæt.smən/"}
+{"title":"batswoman","uk":"uk  / ˈbætˌswʊm.ən /","ukp":"/ˈbætˌswʊm.ən/","us":"us  / ˈbætˌswʊm.ən /","usp":"/ˈbætˌswʊm.ən/"}
+{"title":"batted","uk":"","us":""}
+{"title":"battalion","uk":"uk  / bəˈtæl.i.ən /","ukp":"/bəˈtæl.i.ən/","us":"us  / bəˈtæl.i.ən /","usp":"/bəˈtæl.i.ən/"}
+{"title":"batten","uk":"uk  / ˈbæt. ə n /","ukp":"/ˈbæt.ən/","us":"us  / ˈbæt̬. ə n /","usp":"/ˈbæt̬.ən/"}
+{"title":"batten on someone","uk":"uk  / ˈbæt. ə n /","ukp":"/ˈbæt.ən/","us":"us  / ˈbæt̬. ə n /","usp":"/ˈbæt̬.ən/"}
+{"title":"batten down the hatches","uk":"","us":""}
+{"title":"battened","uk":"uk  / ˈbæt. ə n /","ukp":"/ˈbæt.ən/","us":"us  / ˈbæt̬. ə n /","usp":"/ˈbæt̬.ən/"}
+{"title":"battening","uk":"uk  / ˈbæt. ə n /","ukp":"/ˈbæt.ən/","us":"us  / ˈbæt̬. ə n /","usp":"/ˈbæt̬.ən/"}
+{"title":"batter's box","uk":"uk  / ˈbæt.əz ˌbɒks /","ukp":"/ˈbæt.əz ˌbɒks/","us":"us  / ˈbæt̬.ɚz ˌbɑːks /","usp":"/ˈbæt̬.ɚz ˌbɑːks/"}
+{"title":"batter","uk":"uk  / ˈbæt.ə r /","ukp":"/ˈbæt.ər/","us":"us  / ˈbæt̬.ɚ /","usp":"/ˈbæt̬.ɚ/"}
+{"title":"battered","uk":"uk  / ˈbæt.əd /","ukp":"/ˈbæt.əd/","us":"us  / ˈbæt̬.ɚd /","usp":"/ˈbæt̬.ɚd/"}
+{"title":"battering","uk":"uk  / ˈbæt. ə r.ɪŋ /","ukp":"/ˈbæt.ər.ɪŋ/","us":"us  / ˈbæt̬.ɚ.ɪŋ /","usp":"/ˈbæt̬.ɚ.ɪŋ/"}
+{"title":"battering ram","uk":"uk  / ˈbæt. ə r.ɪŋ ˌræm /","ukp":"/ˈbæt.ər.ɪŋ ˌræm/","us":"us  / ˈbæt̬.ɚ.ɪŋ ˌræm /","usp":"/ˈbæt̬.ɚ.ɪŋ ˌræm/"}
+{"title":"battery electric vehicle","uk":"uk / ˌbæt. ə r.i iˌlek.trɪk ˈvɪə.k ə l /","ukp":"/ˌbæt.ər.i iˌlek.trɪk ˈvɪə.kəl/","us":"us / ˌbæt̬.ɚ.i iˌlek.trɪk ˈviː.ə.k ə l /","usp":"/ˌbæt̬.ɚ.i iˌlek.trɪk ˈviː.ə.kəl/"}
+{"title":"battery","uk":"uk  / ˈbæt. ə r.i /","ukp":"/ˈbæt.ər.i/","us":"us  / ˈbæt̬.ɚ.i /","usp":"/ˈbæt̬.ɚ.i/"}
+{"title":"battery life","uk":"uk  / ˈbæt. ə r.i ˌlaɪf /","ukp":"/ˈbæt.ər.i ˌlaɪf/","us":"us  / ˈbæt̬.ɚ.i ˌlaɪf /","usp":"/ˈbæt̬.ɚ.i ˌlaɪf/"}
+{"title":"batting","uk":"uk  / ˈbæt.ɪŋ /","ukp":"/ˈbæt.ɪŋ/","us":"us  / ˈbæt̬.ɪŋ /","usp":"/ˈbæt̬.ɪŋ/"}
+{"title":"batting average","uk":"uk  / ˈbæt.ɪŋ ˌæv. ə r.ɪdʒ /","ukp":"/ˈbæt.ɪŋ ˌæv.ər.ɪdʒ/","us":"us  / ˈbæt̬.ɪŋ ˌæv.ɚ.ɪdʒ /","usp":"/ˈbæt̬.ɪŋ ˌæv.ɚ.ɪdʒ/"}
+{"title":"battle cry","uk":"uk  / ˈbæt ə l ˌkraɪ /","ukp":"/ˈbætəl ˌkraɪ/","us":"us  / ˈbæt̬. ə l ˌkraɪ /","usp":"/ˈbæt̬.əl ˌkraɪ/"}
+{"title":"battle","uk":"uk  / ˈbæt. ə l /","ukp":"/ˈbæt.əl/","us":"us  / ˈbæt̬. ə l /","usp":"/ˈbæt̬.əl/"}
+{"title":"battle of wits","uk":"","us":""}
+{"title":"bash on","uk":"uk  / bæʃ /","ukp":"/bæʃ/","us":"us  / bæʃ /","usp":"/bæʃ/"}
+{"title":"bash something out","uk":"uk  / bæʃ /","ukp":"/bæʃ/","us":"us  / bæʃ /","usp":"/bæʃ/"}
+{"title":"bash through ( something )","uk":"uk  / bæʃ /","ukp":"/bæʃ/","us":"us  / bæʃ /","usp":"/bæʃ/"}
+{"title":"bashed","uk":"uk  / bæʃ /","ukp":"/bæʃ/","us":"us  / bæʃ /","usp":"/bæʃ/"}
+{"title":"basher","uk":"uk  / ˈbæʃ.ə r /","ukp":"/ˈbæʃ.ər/","us":"us  / ˈbæʃ.ɚ /","usp":"/ˈbæʃ.ɚ/"}
+{"title":"bashful","uk":"uk  / ˈbæʃ.f ə l /","ukp":"/ˈbæʃ.fəl/","us":"us  / ˈbæʃ.f ə l /","usp":"/ˈbæʃ.fəl/"}
+{"title":"bashfully","uk":"uk  / ˈbæʃ.f ə l.i /","ukp":"/ˈbæʃ.fəl.i/","us":"us  / ˈbæʃ.f ə l.i /","usp":"/ˈbæʃ.fəl.i/"}
+{"title":"bashfulness","uk":"uk  / ˈbæʃ.f ə l.nəs /","ukp":"/ˈbæʃ.fəl.nəs/","us":"us  / ˈbæʃ.f ə l.nəs /","usp":"/ˈbæʃ.fəl.nəs/"}
+{"title":"bashing","uk":"uk  / ˈbæʃ.ɪŋ /","ukp":"/ˈbæʃ.ɪŋ/","us":"us  / ˈbæʃ.ɪŋ /","usp":"/ˈbæʃ.ɪŋ/"}
+{"title":"basic amenities","uk":"","us":""}
+{"title":"basic","uk":"uk  / ˈbeɪ.sɪk /","ukp":"/ˈbeɪ.sɪk/","us":"us  / ˈbeɪ.sɪk /","usp":"/ˈbeɪ.sɪk/"}
+{"title":"basic income","uk":"uk / ˌbeɪ.sɪk ˈɪŋ.kʌm /","ukp":"/ˌbeɪ.sɪk ˈɪŋ.kʌm/","us":"us / ˌbeɪ.sɪk ˈɪn.kʌm /","usp":"/ˌbeɪ.sɪk ˈɪn.kʌm/"}
+{"title":"basic industry","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"basic pay, salary, wage, etc.","uk":"","us":""}
+{"title":"basic pay","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"basic price","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"basic rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"basic wage","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"basic salary","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"basics","uk":"uk  / ˈbeɪ.sɪks /","ukp":"/ˈbeɪ.sɪks/","us":"us  / ˈbeɪ.sɪks /","usp":"/ˈbeɪ.sɪks/"}
+{"title":"basilar","uk":"uk  / ˈbæz.ɪ.lə r /","ukp":"/ˈbæz.ɪ.lər/","us":"us  / ˈbæz.ɪ.lɚ /","usp":"/ˈbæz.ɪ.lɚ/"}
+{"title":"basil","uk":"uk  / ˈbæz. ə l /","ukp":"/ˈbæz.əl/","us":"us  / ˈbeɪ.z ə l /","usp":"/ˈbeɪ.zəl/"}
+{"title":"basilic","uk":"uk  / bəˈsɪl.ɪk /","ukp":"/bəˈsɪl.ɪk/","us":"us  / bəˈsɪl.ɪk /","usp":"/bəˈsɪl.ɪk/"}
+{"title":"basilect","uk":"uk  / ˈbæz.ə.lekt /","ukp":"/ˈbæz.ə.lekt/","us":"us  / ˈbæz.ə.lekt /","usp":"/ˈbæz.ə.lekt/"}
+{"title":"basically","uk":"uk  / ˈbeɪ.sɪ.k ə l.i /","ukp":"/ˈbeɪ.sɪ.kəl.i/","us":"us  / ˈbeɪ.sɪ.k ə l.i /","usp":"/ˈbeɪ.sɪ.kəl.i/"}
+{"title":"basilica","uk":"uk  / bəˈsɪl.ɪ.kə /","ukp":"/bəˈsɪl.ɪ.kə/","us":"us  / bəˈsɪl.ɪ.kə /","usp":"/bəˈsɪl.ɪ.kə/"}
+{"title":"basilisk","uk":"uk  / ˈbæz.ə.lɪsk /","ukp":"/ˈbæz.ə.lɪsk/","us":"us  / ˈbæz.ə.lɪsk /","usp":"/ˈbæz.ə.lɪsk/"}
+{"title":"basing","uk":"uk  / beɪs /","ukp":"/beɪs/","us":"us  / beɪs /","usp":"/beɪs/"}
+{"title":"basin","uk":"uk  / ˈbeɪ.s ə n /","ukp":"/ˈbeɪ.sən/","us":"us  / ˈbeɪ.s ə n /","usp":"/ˈbeɪ.sən/"}

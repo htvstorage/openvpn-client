@@ -1,0 +1,943 @@
+{"title":"thunderclap","uk":"uk  / ˈθʌn.də.klæp /","ukp":"/ˈθʌn.də.klæp/","us":"us  / ˈθʌn.dɚ.klæp /","usp":"/ˈθʌn.dɚ.klæp/"}
+{"title":"thundered","uk":"uk  / ˈθʌn.də r /","ukp":"/ˈθʌn.dər/","us":"us  / ˈθʌn.dɚ /","usp":"/ˈθʌn.dɚ/"}
+{"title":"thundercloud","uk":"uk  / ˈθʌn.də.klaʊd /","ukp":"/ˈθʌn.də.klaʊd/","us":"us  / ˈθʌn.dɚ.klaʊd /","usp":"/ˈθʌn.dɚ.klaʊd/"}
+{"title":"thundering","uk":"uk  / ˈθʌn.d ə r.ɪŋ /","ukp":"/ˈθʌn.dər.ɪŋ/","us":"us  / ˈθʌn.dɚ.ɪŋ /","usp":"/ˈθʌn.dɚ.ɪŋ/"}
+{"title":"thunderbolt","uk":"uk  / ˈθʌn.də.bəʊlt /","ukp":"/ˈθʌn.də.bəʊlt/","us":"us  / ˈθʌn.dɚ.boʊlt /","usp":"/ˈθʌn.dɚ.boʊlt/"}
+{"title":"thunderstruck","uk":"uk  / ˈθʌn.də.strʌk /","ukp":"/ˈθʌn.də.strʌk/","us":"us  / ˈθʌn.dɚ.strʌk /","usp":"/ˈθʌn.dɚ.strʌk/"}
+{"title":"thunderous","uk":"uk  / ˈθʌn.d ə r.əs /","ukp":"/ˈθʌn.dər.əs/","us":"us  / ˈθʌn.dɚ.əs /","usp":"/ˈθʌn.dɚ.əs/"}
+{"title":"thundersnow","uk":"uk  / ˈθʌn.də.snəʊ /","ukp":"/ˈθʌn.də.snəʊ/","us":"us  / ˈθʌn.dɚ.snoʊ /","usp":"/ˈθʌn.dɚ.snoʊ/"}
+{"title":"thunderstorm","uk":"uk  / ˈθʌn.də.stɔːm /","ukp":"/ˈθʌn.də.stɔːm/","us":"us  / ˈθʌn.dɚ.stɔːrm /","usp":"/ˈθʌn.dɚ.stɔːrm/"}
+{"title":"Thur.","uk":"","us":""}
+{"title":"thundery","uk":"uk  / ˈθʌn.d ə r.i /","ukp":"/ˈθʌn.dər.i/","us":"us  / ˈθʌn.dɚ.i /","usp":"/ˈθʌn.dɚ.i/"}
+{"title":"thunk","uk":"uk  / θʌŋk /","ukp":"/θʌŋk/","us":"us  / θʌŋk /","usp":"/θʌŋk/"}
+{"title":"Thursday","uk":"uk  / ˈθɜːz.deɪ /","ukp":"/ˈθɜːz.deɪ/","us":"us  / ˈθɝːz.deɪ /","usp":"/ˈθɝːz.deɪ/"}
+{"title":"thus far","uk":"","us":""}
+{"title":"thusly","uk":"uk  / ˈðʌs.li /","ukp":"/ˈðʌs.li/","us":"us  / ˈðʌs.li /","usp":"/ˈðʌs.li/"}
+{"title":"thus","uk":"uk  / ðʌs /","ukp":"/ðʌs/","us":"us  / ðʌs /","usp":"/ðʌs/"}
+{"title":"thwack","uk":"uk  / θwæk /","ukp":"/θwæk/","us":"us  / θwæk /","usp":"/θwæk/"}
+{"title":"thwacked","uk":"uk  / θwæk /","ukp":"/θwæk/","us":"us  / θwæk /","usp":"/θwæk/"}
+{"title":"thwacking","uk":"uk  / θwæk /","ukp":"/θwæk/","us":"us  / θwæk /","usp":"/θwæk/"}
+{"title":"thwarted","uk":"uk  / θwɔːt /","ukp":"/θwɔːt/","us":"us  / θwɔːrt /","usp":"/θwɔːrt/"}
+{"title":"thwart","uk":"uk  / θwɔːt /","ukp":"/θwɔːt/","us":"us  / θwɔːrt /","usp":"/θwɔːrt/"}
+{"title":"thx","uk":"","us":""}
+{"title":"thwarting","uk":"uk  / θwɔːt /","ukp":"/θwɔːt/","us":"us  / θwɔːrt /","usp":"/θwɔːrt/"}
+{"title":"thy","uk":"uk  / ðaɪ /","ukp":"/ðaɪ/","us":"us  / ðaɪ /","usp":"/ðaɪ/"}
+{"title":"thylacine","uk":"uk  / ˈθaɪ.lə.siːn /","ukp":"/ˈθaɪ.lə.siːn/","us":"us  / ˈθaɪ.lə.siːn /","usp":"/ˈθaɪ.lə.siːn/"}
+{"title":"thyme","uk":"uk  / taɪm /","ukp":"/taɪm/","us":"us  / taɪm /","usp":"/taɪm/"}
+{"title":"thymus","uk":"uk  / ˈθaɪ.məs /","ukp":"/ˈθaɪ.məs/","us":"us  / ˈθaɪ.məs /","usp":"/ˈθaɪ.məs/"}
+{"title":"thyreoid","uk":"uk  / ˈθaɪ.ri.ɔɪd /","ukp":"/ˈθaɪ.ri.ɔɪd/","us":"us  / ˈθaɪ.riˌɔɪd /","usp":"/ˈθaɪ.riˌɔɪd/"}
+{"title":"thyristor","uk":"uk  / θaɪˈrɪs.tə r /","ukp":"/θaɪˈrɪs.tər/","us":"us  / θaɪˈrɪs.tɚ /","usp":"/θaɪˈrɪs.tɚ/"}
+{"title":"thyrohyoid","uk":"uk  / θaɪ.rəʊˈhaɪ.ɔɪd /","ukp":"/θaɪ.rəʊˈhaɪ.ɔɪd/","us":"us  / θaɪ.roʊˈhaɪ.ɔɪd /","usp":"/θaɪ.roʊˈhaɪ.ɔɪd/"}
+{"title":"thyroid","uk":"uk  / ˈθaɪ.rɔɪd /","ukp":"/ˈθaɪ.rɔɪd/","us":"us  / ˈθaɪ.rɔɪd /","usp":"/ˈθaɪ.rɔɪd/"}
+{"title":"thyroid (gland)","uk":"","us":"us  / ˈθɑɪ·rɔɪd (ˌɡlænd) /","usp":"/ˈθɑɪ·rɔɪd (ˌɡlænd)/"}
+{"title":"thyroid nodule","uk":"uk  / ˈθaɪ.rɔɪd ˌnɒd.juːl /","ukp":"/ˈθaɪ.rɔɪd ˌnɒd.juːl/","us":"us  / ˈθaɪ.rɔɪd ˌnɑː.djuːl /","usp":"/ˈθaɪ.rɔɪd ˌnɑː.djuːl/"}
+{"title":"thyroid-stimulating hormone","uk":"uk  / ˌθaɪ.rɔɪdˌstɪm.jə.leɪ.tɪŋ ˈhɔː.məʊn /","ukp":"/ˌθaɪ.rɔɪdˌstɪm.jə.leɪ.tɪŋ ˈhɔː.məʊn/","us":"us  / ˌθaɪ.rɔɪdˌstɪm.jəˌleɪ.t̬ɪŋ ˈhɔːr.moʊn /","usp":"/ˌθaɪ.rɔɪdˌstɪm.jəˌleɪ.t̬ɪŋ ˈhɔːr.moʊn/"}
+{"title":"thyroxine","uk":"uk  / θaɪˈrɒk.sɪn /","ukp":"/θaɪˈrɒk.sɪn/","us":"us  / θaɪˈrɑːk.sɪn /","usp":"/θaɪˈrɑːk.sɪn/"}
+{"title":"thyself","uk":"uk  / ðaɪˈself /","ukp":"/ðaɪˈself/","us":"us  / ðaɪˈself /","usp":"/ðaɪˈself/"}
+{"title":"ti","uk":"uk  / tiː /","ukp":"/tiː/","us":"us  / tiː /","usp":"/tiː/"}
+{"title":"tia","uk":"uk  / ˌtiː.aɪˈeɪ /","ukp":"/ˌtiː.aɪˈeɪ/","us":"us  / ˌtiː.aɪˈeɪ /","usp":"/ˌtiː.aɪˈeɪ/"}
+{"title":"tiara","uk":"uk  / tiˈɑː.rə /","ukp":"/tiˈɑː.rə/","us":"us  / tiˈer.ə /","usp":"/tiˈer.ə/"}
+{"title":"Tibet","uk":"uk  / tɪˈbet /","ukp":"/tɪˈbet/","us":"us  / tɪˈbet /","usp":"/tɪˈbet/"}
+{"title":"tide someone over (something)","uk":"uk  / taɪd /","ukp":"/taɪd/","us":"us  / taɪd /","usp":"/taɪd/"}
+{"title":"tide table","uk":"uk  / ˈtaɪd ˌteɪ.b ə l /","ukp":"/ˈtaɪd ˌteɪ.bəl/","us":"us  / ˈtaɪd ˌteɪ.b ə l /","usp":"/ˈtaɪd ˌteɪ.bəl/"}
+{"title":"tidemark","uk":"uk  / ˈtaɪd.mɑːk /","ukp":"/ˈtaɪd.mɑːk/","us":"us  / ˈtaɪd.mɑːrk /","usp":"/ˈtaɪd.mɑːrk/"}
+{"title":"tidied","uk":"uk  / ˈtaɪ.di /","ukp":"/ˈtaɪ.di/","us":"us  / ˈtaɪ.di /","usp":"/ˈtaɪ.di/"}
+{"title":"tidily","uk":"uk  / ˈtaɪ.d ə l.i /","ukp":"/ˈtaɪ.dəl.i/","us":"us  / ˈtaɪ.d ə l.i /","usp":"/ˈtaɪ.dəl.i/"}
+{"title":"tidiness","uk":"uk  / ˈtaɪ.di.nəs /","ukp":"/ˈtaɪ.di.nəs/","us":"us  / ˈtaɪ.di.nəs /","usp":"/ˈtaɪ.di.nəs/"}
+{"title":"tidings","uk":"uk  / ˈtaɪ.dɪŋz /","ukp":"/ˈtaɪ.dɪŋz/","us":"us  / ˈtaɪ.dɪŋz /","usp":"/ˈtaɪ.dɪŋz/"}
+{"title":"tidy something away","uk":"uk  / ˈtaɪ.di /","ukp":"/ˈtaɪ.di/","us":"us  / ˈtaɪ.di /","usp":"/ˈtaɪ.di/"}
+{"title":"tidy","uk":"uk  / ˈtaɪ.di /","ukp":"/ˈtaɪ.di/","us":"us  / ˈtaɪ.di /","usp":"/ˈtaɪ.di/"}
+{"title":"tidy-up","uk":"uk  / ˌtaɪ.diˈʌp /","ukp":"/ˌtaɪ.diˈʌp/","us":"us  / ˌtaɪ.diˈʌp /","usp":"/ˌtaɪ.diˈʌp/"}
+{"title":"tidying","uk":"uk  / ˈtaɪ.di /","ukp":"/ˈtaɪ.di/","us":"us  / ˈtaɪ.di /","usp":"/ˈtaɪ.di/"}
+{"title":"tie (something) in","uk":"uk  / taɪ /","ukp":"/taɪ/","us":"us  / taɪ /","usp":"/taɪ/"}
+{"title":"tie (something) in with something","uk":"uk  / taɪ /","ukp":"/taɪ/","us":"us  / taɪ /","usp":"/taɪ/"}
+{"title":"tie","uk":"uk  / taɪ /","ukp":"/taɪ/","us":"us  / taɪ /","usp":"/taɪ/"}
+{"title":"tie clip","uk":"uk  / ˈtaɪ ˌklɪp /","ukp":"/ˈtaɪ ˌklɪp/","us":"us  / ˈtaɪ ˌklɪp /","usp":"/ˈtaɪ ˌklɪp/"}
+{"title":"tie sb into sth","uk":"uk  / taɪ /","ukp":"/taɪ/","us":"us ","usp":""}
+{"title":"tie someone (up) in knots","uk":"","us":""}
+{"title":"tie someone down","uk":"uk  / taɪ /","ukp":"/taɪ/","us":"us  / taɪ /","usp":"/taɪ/"}
+{"title":"tie someone up","uk":"uk  / taɪ /","ukp":"/taɪ/","us":"us  / taɪ /","usp":"/taɪ/"}
+{"title":"tie something to something","uk":"","us":"us  / tɑɪ /","usp":"/tɑɪ/"}
+{"title":"tie up with sb/sth","uk":"uk  / taɪ /","ukp":"/taɪ/","us":"us ","usp":""}
+{"title":"tie the knot","uk":"","us":""}
+{"title":"tie-breaker","uk":"uk  / ˈtaɪˌbreɪ.kə r /","ukp":"/ˈtaɪˌbreɪ.kər/","us":"us  / ˈtaɪˌbreɪ.kɚ /","usp":"/ˈtaɪˌbreɪ.kɚ/"}
+{"title":"tie-dye","uk":"uk  / ˈtaɪ.daɪ /","ukp":"/ˈtaɪ.daɪ/","us":"us  / ˈtaɪ.daɪ /","usp":"/ˈtaɪ.daɪ/"}
+{"title":"tied agent","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tied aid","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tied loan","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tied cottage","uk":"uk  / ˌtaɪd ˈkɒt.ɪdʒ /","ukp":"/ˌtaɪd ˈkɒt.ɪdʒ/","us":"us  / ˌtaɪd ˈkɑː.t̬ɪdʒ /","usp":"/ˌtaɪd ˈkɑː.t̬ɪdʒ/"}
+{"title":"tied house","uk":"uk  / ˌtaɪd ˈhaʊs /","ukp":"/ˌtaɪd ˈhaʊs/","us":"us  / ˌtaɪd ˈhaʊs /","usp":"/ˌtaɪd ˈhaʊs/"}
+{"title":"tied to your mother's/wife's apron strings","uk":"","us":""}
+{"title":"tiepin","uk":"uk  / ˈtaɪ.pɪn /","ukp":"/ˈtaɪ.pɪn/","us":"us  / ˈtaɪ.pɪn /","usp":"/ˈtaɪ.pɪn/"}
+{"title":"tier","uk":"uk  / tɪə r /","ukp":"/tɪər/","us":"us  / tɪr /","usp":"/tɪr/"}
+{"title":"Tier 1 capital","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Tier 2 capital","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"-tiered","uk":"uk  / -tɪəd /","ukp":"/ -tɪəd/","us":"us  / -tɪrd /","usp":"/ -tɪrd/"}
+{"title":"tiering","uk":"uk  / tɪə r /","ukp":"/tɪər/","us":"us  / tɪr /","usp":"/tɪr/"}
+{"title":"tiff","uk":"uk  / tɪf /","ukp":"/tɪf/","us":"us  / tɪf /","usp":"/tɪf/"}
+{"title":"tifo","uk":"uk  / ˈtiː.fəʊ /","ukp":"/ˈtiː.fəʊ/","us":"us  / ˈtiː.foʊ /","usp":"/ˈtiː.foʊ/"}
+{"title":"tiffin","uk":"uk  / ˈtɪf.ɪn /","ukp":"/ˈtɪf.ɪn/","us":"us  / ˈtɪf.ɪn /","usp":"/ˈtɪf.ɪn/"}
+{"title":"tiffin box","uk":"","us":""}
+{"title":"tiger economy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tiger mother","uk":"uk / ˈtaɪ.ɡə ˌmʌð.ə r /","ukp":"/ˈtaɪ.ɡə ˌmʌð.ər/","us":"us  / ˈtaɪ.ɡɚ ˌmʌð.ɚ /","usp":"/ˈtaɪ.ɡɚ ˌmʌð.ɚ/"}
+{"title":"tiger bread","uk":"uk / ˈtaɪ.ɡə ˌbred /","ukp":"/ˈtaɪ.ɡə ˌbred/","us":"us  / ˈtaɪ.ɡɚ ˌbred /","usp":"/ˈtaɪ.ɡɚ ˌbred/"}
+{"title":"tiger","uk":"uk  / ˈtaɪ.ɡə r /","ukp":"/ˈtaɪ.ɡər/","us":"us  / ˈtaɪ.ɡɚ /","usp":"/ˈtaɪ.ɡɚ/"}
+{"title":"tight","uk":"uk  / taɪt /","ukp":"/taɪt/","us":"us  / taɪt /","usp":"/taɪt/"}
+{"title":"tight money","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tight monetary policy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"timorousness","uk":"uk  / ˈtɪm. ə r.əs.nəs /","ukp":"/ˈtɪm.ər.əs.nəs/","us":"us  / ˈtɪm.ɚ.əs.nəs /","usp":"/ˈtɪm.ɚ.əs.nəs/"}
+{"title":"timpani","uk":"uk  / ˈtɪm.pə.ni /","ukp":"/ˈtɪm.pə.ni/","us":"us  / ˈtɪm.pə.ni /","usp":"/ˈtɪm.pə.ni/"}
+{"title":"timpanist","uk":"uk  / ˈtɪm.pə.nɪst /","ukp":"/ˈtɪm.pə.nɪst/","us":"us  / ˈtɪm.pə.nɪst /","usp":"/ˈtɪm.pə.nɪst/"}
+{"title":"tin","uk":"uk  / tɪn /","ukp":"/tɪn/","us":"us  / tɪn /","usp":"/tɪn/"}
+{"title":"tin ear","uk":"uk  / ˌtɪn ˈɪə r /","ukp":"/ˌtɪn ˈɪər/","us":"us  / ˌtɪn ˈɪr /","usp":"/ˌtɪn ˈɪr/"}
+{"title":"tin can","uk":"","us":"us / ˈtɪn ˈkæn /","usp":"/ˈtɪn ˈkæn/"}
+{"title":"tin god","uk":"uk  / ˌtɪn ˈɡɒd /","ukp":"/ˌtɪn ˈɡɒd/","us":"us  / ˌtɪn ˈɡɑːd /","usp":"/ˌtɪn ˈɡɑːd/"}
+{"title":"tin hat","uk":"uk  / ˌtɪn ˈhæt /","ukp":"/ˌtɪn ˈhæt/","us":"us  / ˌtɪn ˈhæt /","usp":"/ˌtɪn ˈhæt/"}
+{"title":"tin opener","uk":"uk  / ˈtɪn ˌəʊ.p ə n.ə r /","ukp":"/ˈtɪn ˌəʊ.pən.ər/","us":"us  / ˈtɪn ˌoʊ.p ə n.ɚ /","usp":"/ˈtɪn ˌoʊ.pən.ɚ/"}
+{"title":"Tin Pan Alley","uk":"uk  / ˌtɪn ˌpæn ˈæl.i /","ukp":"/ˌtɪn ˌpæn ˈæl.i/","us":"us  / ˌtɪn ˌpæn ˈæl.i /","usp":"/ˌtɪn ˌpæn ˈæl.i/"}
+{"title":"tin whistle","uk":"uk  / ˌtɪn ˈwɪs. ə l /","ukp":"/ˌtɪn ˈwɪs.əl/","us":"us  / ˌtɪn ˈwɪs. ə l /","usp":"/ˌtɪn ˈwɪs.əl/"}
+{"title":"tin-eared","uk":"uk  / ˌtɪn ˈɪəd /","ukp":"/ˌtɪn ˈɪəd/","us":"us  / ˌtɪn ˈɪrd /","usp":"/ˌtɪn ˈɪrd/"}
+{"title":"tincture","uk":"uk  / ˈtɪŋk.tʃə r /","ukp":"/ˈtɪŋk.tʃər/","us":"us  / ˈtɪŋk.tʃɚ /","usp":"/ˈtɪŋk.tʃɚ/"}
+{"title":"tincy","uk":"uk  / ˈtɪn.si /","ukp":"/ˈtɪn.si/","us":""}
+{"title":"tinder","uk":"uk  / ˈtɪn.də r /","ukp":"/ˈtɪn.dər/","us":"us  / ˈtɪn.dɚ /","usp":"/ˈtɪn.dɚ/"}
+{"title":"tinderbox","uk":"uk  / ˈtɪn.də.bɒks /","ukp":"/ˈtɪn.də.bɒks/","us":"us  / ˈtɪn.dɚ.bɑːks /","usp":"/ˈtɪn.dɚ.bɑːks/"}
+{"title":"tinfoil hat","uk":"uk  / ˌtɪn.fɔɪl ˈhæt /","ukp":"/ˌtɪn.fɔɪl ˈhæt/","us":"us  / ˌtɪn.fɔɪl ˈhæt /","usp":"/ˌtɪn.fɔɪl ˈhæt/"}
+{"title":"tine","uk":"uk  / taɪn /","ukp":"/taɪn/","us":"us  / taɪn /","usp":"/taɪn/"}
+{"title":"tinfoil","uk":"uk  / ˈtɪn.fɔɪl /","ukp":"/ˈtɪn.fɔɪl/","us":"us  / ˈtɪn.fɔɪl /","usp":"/ˈtɪn.fɔɪl/"}
+{"title":"ting","uk":"uk  / tɪŋ /","ukp":"/tɪŋ/","us":"us  / tɪŋ /","usp":"/tɪŋ/"}
+{"title":"ting-a-ling","uk":"uk  / ˌtɪŋ.əˈlɪŋ /","ukp":"/ˌtɪŋ.əˈlɪŋ/","us":"us  / ˌtɪŋ.əˈlɪŋ /","usp":"/ˌtɪŋ.əˈlɪŋ/"}
+{"title":"tinged","uk":"uk  / tɪndʒd /","ukp":"/tɪndʒd/","us":"us  / tɪndʒd /","usp":"/tɪndʒd/"}
+{"title":"tinge","uk":"uk  / tɪndʒ /","ukp":"/tɪndʒ/","us":"us  / tɪndʒ /","usp":"/tɪndʒ/"}
+{"title":"tinging","uk":"uk  / tɪndʒ /","ukp":"/tɪndʒ/","us":"us  / tɪndʒ /","usp":"/tɪndʒ/"}
+{"title":"tingled","uk":"uk  / ˈtɪŋ.ɡ ə l /","ukp":"/ˈtɪŋ.ɡəl/","us":"us  / ˈtɪŋ.ɡ ə l /","usp":"/ˈtɪŋ.ɡəl/"}
+{"title":"tingle","uk":"uk  / ˈtɪŋ.ɡ ə l /","ukp":"/ˈtɪŋ.ɡəl/","us":"us  / ˈtɪŋ.ɡ ə l /","usp":"/ˈtɪŋ.ɡəl/"}
+{"title":"tingling","uk":"uk  / ˈtɪŋ.ɡ ə l /","ukp":"/ˈtɪŋ.ɡəl/","us":"us  / ˈtɪŋ.ɡ ə l /","usp":"/ˈtɪŋ.ɡəl/"}
+{"title":"tingly","uk":"uk  / ˈtɪŋ.ɡ ə l.i /","ukp":"/ˈtɪŋ.ɡəl.i/","us":"us  / ˈtɪŋ.ɡ ə l.i /","usp":"/ˈtɪŋ.ɡəl.i/"}
+{"title":"tinkered","uk":"uk  / ˈtɪŋ.kə r /","ukp":"/ˈtɪŋ.kər/","us":"us  / ˈtɪŋ.kɚ /","usp":"/ˈtɪŋ.kɚ/"}
+{"title":"tinker","uk":"uk  / ˈtɪŋ.kə r /","ukp":"/ˈtɪŋ.kər/","us":"us  / ˈtɪŋ.kɚ /","usp":"/ˈtɪŋ.kɚ/"}
+{"title":"tinkering","uk":"uk  / ˈtɪŋ.kə r /","ukp":"/ˈtɪŋ.kər/","us":"us  / ˈtɪŋ.kɚ /","usp":"/ˈtɪŋ.kɚ/"}
+{"title":"tinkled","uk":"uk  / ˈtɪŋ.k ə l /","ukp":"/ˈtɪŋ.kəl/","us":"us  / ˈtɪŋ.k ə l /","usp":"/ˈtɪŋ.kəl/"}
+{"title":"tinkle","uk":"uk  / ˈtɪŋ.k ə l /","ukp":"/ˈtɪŋ.kəl/","us":"us  / ˈtɪŋ.k ə l /","usp":"/ˈtɪŋ.kəl/"}
+{"title":"tinkling","uk":"uk  / ˈtɪŋ.k ə l /","ukp":"/ˈtɪŋ.kəl/","us":"us  / ˈtɪŋ.k ə l /","usp":"/ˈtɪŋ.kəl/"}
+{"title":"tinned","uk":"uk  / tɪnd /","ukp":"/tɪnd/","us":"us  / tɪnd /","usp":"/tɪnd/"}
+{"title":"tinnie","uk":"uk  / ˈtɪn.i /","ukp":"/ˈtɪn.i/","us":"us  / ˈtɪn.i /","usp":"/ˈtɪn.i/"}
+{"title":"tinnitus","uk":"uk  / ˈtɪn.ɪ.təs /","ukp":"/ˈtɪn.ɪ.təs/","us":"us  / ˈtɪn.ə.t̬əs /","usp":"/ˈtɪn.ə.t̬əs/"}
+{"title":"tinny","uk":"uk  / ˈtɪn.i /","ukp":"/ˈtɪn.i/","us":"us  / ˈtɪn.i /","usp":"/ˈtɪn.i/"}
+{"title":"tinplate","uk":"uk  / ˈtɪn.pleɪt /","ukp":"/ˈtɪn.pleɪt/","us":"us  / ˈtɪn.pleɪt /","usp":"/ˈtɪn.pleɪt/"}
+{"title":"tinplated","uk":"uk  / ˌtɪnˈpleɪ.tɪd /","ukp":"/ˌtɪnˈpleɪ.tɪd/","us":"us  / ˌtɪnˈpleɪ.t̬ɪd /","usp":"/ˌtɪnˈpleɪ.t̬ɪd/"}
+{"title":"tinpot","uk":"uk  / ˈtɪn.pɒt /","ukp":"/ˈtɪn.pɒt/","us":"us  / ˈtɪn.pɑːt /","usp":"/ˈtɪn.pɑːt/"}
+{"title":"tinselly","uk":"uk  / ˈtɪn.s ə l.i /","ukp":"/ˈtɪn.səl.i/","us":"us  / ˈtɪn.s ə l.i /","usp":"/ˈtɪn.səl.i/"}
+{"title":"tinsel","uk":"uk  / ˈtɪn.s ə l /","ukp":"/ˈtɪn.səl/","us":"us  / ˈtɪn.s ə l /","usp":"/ˈtɪn.səl/"}
+{"title":"tinted","uk":"uk  / ˈtɪn.tɪd /","ukp":"/ˈtɪn.tɪd/","us":"us  / ˈtɪn.t̬ɪd /","usp":"/ˈtɪn.t̬ɪd/"}
+{"title":"tinting","uk":"uk  / tɪnt /","ukp":"/tɪnt/","us":"us  / tɪnt /","usp":"/tɪnt/"}
+{"title":"tint","uk":"uk  / tɪnt /","ukp":"/tɪnt/","us":"us  / tɪnt /","usp":"/tɪnt/"}
+{"title":"tiny","uk":"uk  / ˈtaɪ.ni /","ukp":"/ˈtaɪ.ni/","us":"us  / ˈtaɪ.ni /","usp":"/ˈtaɪ.ni/"}
+{"title":"tip (something/someone) over","uk":"uk  / tɪp /","ukp":"/tɪp/","us":"us  / tɪp /","usp":"/tɪp/"}
+{"title":"tip","uk":"uk  / tɪp /","ukp":"/tɪp/","us":"us  / tɪp /","usp":"/tɪp/"}
+{"title":"'tis","uk":"uk  / tɪz /","ukp":"/tɪz/","us":"us  / tɪz /","usp":"/tɪz/"}
+{"title":"tip over into something","uk":"uk  / tɪp /","ukp":"/tɪp/","us":"us  / tɪp /","usp":"/tɪp/"}
+{"title":"tisane","uk":"uk  / tɪˈzæn /","ukp":"/tɪˈzæn/","us":"us  / tɪˈzæn /","usp":"/tɪˈzæn/"}
+{"title":"tissue culture","uk":"uk  / ˈtɪʃ.uː ˌkʌl.tʃə r /","ukp":"/ˈtɪʃ.uː ˌkʌl.tʃər/","us":"us  / ˈtɪʃ.uː ˌkʌl.tʃɚ /","usp":"/ˈtɪʃ.uː ˌkʌl.tʃɚ/"}
+{"title":"tissue","uk":"uk  / ˈtɪʃ.uː /","ukp":"/ˈtɪʃ.uː/","us":"us  / ˈtɪʃ.uː /","usp":"/ˈtɪʃ.uː/"}
+{"title":"tissue paper","uk":"uk ","ukp":"","us":"us  / ˈtɪʃ·u ˌpeɪ·pər /","usp":"/ˈtɪʃ·u ˌpeɪ·pər/"}
+{"title":"tit for tat","uk":"uk  / ˌtɪt fə ˈtæt /","ukp":"/ˌtɪt fə ˈtæt/","us":"us  / ˌtɪt fɚ ˈtæt /","usp":"/ˌtɪt fɚ ˈtæt/"}
+{"title":"tit","uk":"uk  / tɪt /","ukp":"/tɪt/","us":"us  / tɪt /","usp":"/tɪt/"}
+{"title":"titan","uk":"uk  / ˈtaɪ.t ə n /","ukp":"/ˈtaɪ.tən/","us":"us  / ˈtaɪ.t ə n /","usp":"/ˈtaɪ.tən/"}
+{"title":"titanium","uk":"uk  / tɪˈteɪ.ni.əm /","ukp":"/tɪˈteɪ.ni.əm/","us":"us  / taɪˈteɪ.ni.əm /","usp":"/taɪˈteɪ.ni.əm/"}
+{"title":"titanic","uk":"uk  / taɪˈtæn.ɪk /","ukp":"/taɪˈtæn.ɪk/","us":"us  / taɪˈtæn.ɪk /","usp":"/taɪˈtæn.ɪk/"}
+{"title":"titchy","uk":"uk  / ˈtɪtʃ.i /","ukp":"/ˈtɪtʃ.i/","us":"us  / ˈtɪtʃ.i /","usp":"/ˈtɪtʃ.i/"}
+{"title":"titch","uk":"uk  / tɪtʃ /","ukp":"/tɪtʃ/","us":"us  / tɪtʃ /","usp":"/tɪtʃ/"}
+{"title":"titbit","uk":"uk  / ˈtɪt.bɪt /","ukp":"/ˈtɪt.bɪt/","us":"us  / ˈtɪt.bɪt /","usp":"/ˈtɪt.bɪt/"}
+{"title":"Titian","uk":"uk  / ˈtɪʃ. ə n /","ukp":"/ˈtɪʃ.ən/","us":"us  / ˈtɪʃ. ə n /","usp":"/ˈtɪʃ.ən/"}
+{"title":"tithe","uk":"uk  / taɪð /","ukp":"/taɪð/","us":"us  / taɪð /","usp":"/taɪð/"}
+{"title":"titillate","uk":"uk  / ˈtɪt.ɪ.leɪt /","ukp":"/ˈtɪt.ɪ.leɪt/","us":"us  / ˈtɪt̬. ə l.eɪt /","usp":"/ˈtɪt̬.əl.eɪt/"}
+{"title":"titillation","uk":"uk  / ˌtɪt.ɪˈleɪ.ʃ ə n /","ukp":"/ˌtɪt.ɪˈleɪ.ʃən/","us":"us  / ˌtɪt̬. ə lˈeɪ.ʃ ə n /","usp":"/ˌtɪt̬.əlˈeɪ.ʃən/"}
+{"title":"titillated","uk":"uk  / ˈtɪt.ɪ.leɪt /","ukp":"/ˈtɪt.ɪ.leɪt/","us":"us  / ˈtɪt̬. ə l.eɪt /","usp":"/ˈtɪt̬.əl.eɪt/"}
+{"title":"titillating","uk":"uk  / ˈtɪt.ɪ.leɪ.tɪŋ /","ukp":"/ˈtɪt.ɪ.leɪ.tɪŋ/","us":"us  / ˈtɪt̬. ə l.eɪ.t̬ɪŋ /","usp":"/ˈtɪt̬.əl.eɪ.t̬ɪŋ/"}
+{"title":"titivate","uk":"uk  / ˈtɪt.ɪ.veɪt /","ukp":"/ˈtɪt.ɪ.veɪt/","us":"us  / ˈtɪt̬.ə.veɪt /","usp":"/ˈtɪt̬.ə.veɪt/"}
+{"title":"titivated","uk":"uk  / ˈtɪt.ɪ.veɪt /","ukp":"/ˈtɪt.ɪ.veɪt/","us":"us  / ˈtɪt̬.ə.veɪt /","usp":"/ˈtɪt̬.ə.veɪt/"}
+{"title":"titivating","uk":"uk  / ˈtɪt.ɪ.veɪt /","ukp":"/ˈtɪt.ɪ.veɪt/","us":"us  / ˈtɪt̬.ə.veɪt /","usp":"/ˈtɪt̬.ə.veɪt/"}
+{"title":"title case","uk":"uk  / ˈtaɪ.t ə l ˌkeɪs /","ukp":"/ˈtaɪ.təl ˌkeɪs/","us":"us  / ˈtaɪ.t̬ ə l ˌkeɪs /","usp":"/ˈtaɪ.t̬əl ˌkeɪs/"}
+{"title":"title bar","uk":"uk  / ˈtaɪ.t ə l ˌbɑː r /","ukp":"/ˈtaɪ.təl ˌbɑːr/","us":"us  / ˈtaɪ.t̬ ə l ˌbɑːr /","usp":"/ˈtaɪ.t̬əl ˌbɑːr/"}
+{"title":"title","uk":"uk  / ˈtaɪ.t ə l /","ukp":"/ˈtaɪ.təl/","us":"us  / ˈtaɪ.t̬ ə l /","usp":"/ˈtaɪ.t̬əl/"}
+{"title":"title holder","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"title inflation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"title deed","uk":"uk  / ˈtaɪ.t ə l ˌdiːd /","ukp":"/ˈtaɪ.təl ˌdiːd/","us":"us  / ˈtaɪ.t̬ ə l ˌdiːd /","usp":"/ˈtaɪ.t̬əl ˌdiːd/"}
+{"title":"title page","uk":"uk  / ˈtaɪ.t ə l ˌpeɪdʒ /","ukp":"/ˈtaɪ.təl ˌpeɪdʒ/","us":"us  / ˈtaɪ.t̬ ə l ˌpeɪdʒ /","usp":"/ˈtaɪ.t̬əl ˌpeɪdʒ/"}
+{"title":"title race","uk":"uk  / ˈtaɪ.t ə l ˌreɪs /","ukp":"/ˈtaɪ.təl ˌreɪs/","us":"us  / ˈtaɪ.t̬ ə l ˌreɪs /","usp":"/ˈtaɪ.t̬əl ˌreɪs/"}
+{"title":"title role","uk":"uk  / ˈtaɪ.t ə l ˌrəʊl /","ukp":"/ˈtaɪ.təl ˌrəʊl/","us":"us  / ˈtaɪ.t̬ ə l ˌroʊl /","usp":"/ˈtaɪ.t̬əl ˌroʊl/"}
+{"title":"title track","uk":"uk  / ˈtaɪ.t ə l ˌtræk /","ukp":"/ˈtaɪ.təl ˌtræk/","us":"us  / ˈtaɪ.t̬ ə l ˌtræk /","usp":"/ˈtaɪ.t̬əl ˌtræk/"}
+{"title":"titled","uk":"uk  / ˈtaɪ.t ə ld /","ukp":"/ˈtaɪ.təld/","us":"us  / ˈtaɪ.t̬ ə ld /","usp":"/ˈtaɪ.t̬əld/"}
+{"title":"titration","uk":"uk  / taɪˈtreɪ.ʃ ə n /","ukp":"/taɪˈtreɪ.ʃən/","us":"us  / taɪˈtreɪ.ʃ ə n /","usp":"/taɪˈtreɪ.ʃən/"}
+{"title":"titrate","uk":"uk  / taɪˈtreɪt /","ukp":"/taɪˈtreɪt/","us":"us  / taɪˈtreɪt /","usp":"/taɪˈtreɪt/"}
+{"title":"titleholder","uk":"uk  / ˈtaɪ.t ə lˌhəʊl.də r /","ukp":"/ˈtaɪ.təlˌhəʊl.dər/","us":"us  / ˈtaɪ.t̬ ə lˌhoʊl.dɚ /","usp":"/ˈtaɪ.t̬əlˌhoʊl.dɚ/"}
+{"title":"tittered","uk":"uk  / ˈtɪt.ə r /","ukp":"/ˈtɪt.ər/","us":"us  / ˈtɪt̬.ɚ /","usp":"/ˈtɪt̬.ɚ/"}
+{"title":"titter","uk":"uk  / ˈtɪt.ə r /","ukp":"/ˈtɪt.ər/","us":"us  / ˈtɪt̬.ɚ /","usp":"/ˈtɪt̬.ɚ/"}
+{"title":"tittering","uk":"uk  / ˈtɪt.ə.rɪŋ /","ukp":"/ˈtɪt.ə.rɪŋ/","us":"us  / ˈtɪt̬.ɚ.ɪŋ /","usp":"/ˈtɪt̬.ɚ.ɪŋ/"}
+{"title":"tittle-tattle","uk":"uk  / ˈtɪt. ə lˌtæt. ə l /","ukp":"/ˈtɪt.əlˌtæt.əl/","us":"us  / ˈtɪt̬. ə lˌtæt̬. ə l /","usp":"/ˈtɪt̬.əlˌtæt̬.əl/"}
+{"title":"titty","uk":"uk  / ˈtɪt.i /","ukp":"/ˈtɪt.i/","us":"us  / ˈtɪt̬.i /","usp":"/ˈtɪt̬.i/"}
+{"title":"titular","uk":"uk  / ˈtɪtʃ.ə.lə r /","ukp":"/ˈtɪtʃ.ə.lər/","us":"us  / ˈtɪtʃ.ə.lɚ /","usp":"/ˈtɪtʃ.ə.lɚ/"}
+{"title":"tizzy","uk":"uk  / ˈtɪz.i /","ukp":"/ˈtɪz.i/","us":"us  / ˈtɪz.i /","usp":"/ˈtɪz.i/"}
+{"title":"tjanting tool","uk":"uk  / ˈtjæntɪŋ ˌtuːl /","ukp":"/ˈtjæntɪŋ ˌtuːl/","us":"us  / ˈtjæntɪŋ ˌtuːl /","usp":"/ˈtjæntɪŋ ˌtuːl/"}
+{"title":"TKL","uk":"uk  / ˌtiː.keɪˈel /","ukp":"/ˌtiː.keɪˈel/","us":"us  / ˌtiː.keɪˈel /","usp":"/ˌtiː.keɪˈel/"}
+{"title":"timbre","uk":"uk  / ˈtæm.bə r /","ukp":"/ˈtæm.bər/","us":"us  / ˈtæm.bɚ /","usp":"/ˈtæm.bɚ/"}
+{"title":"time after time","uk":"","us":""}
+{"title":"time and (time) again","uk":"","us":""}
+{"title":"time and tide wait for no man","uk":"","us":""}
+{"title":"time and a half","uk":"uk  / ˌtaɪm ənd ə ˈhɑːf /","ukp":"/ˌtaɪm ənd ə ˈhɑːf/","us":"us  / ˌtaɪm ənd ə ˈhæf /","usp":"/ˌtaɪm ənd ə ˈhæf/"}
+{"title":"time","uk":"uk  / taɪm /","ukp":"/taɪm/","us":"us  / taɪm /","usp":"/taɪm/"}
+{"title":"time bill","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time capsule","uk":"uk  / ˈtaɪm ˌkæp.sjuːl /","ukp":"/ˈtaɪm ˌkæp.sjuːl/","us":"us  / ˈtaɪm ˌkæp.s ə l /","usp":"/ˈtaɪm ˌkæp.səl/"}
+{"title":"time bomb","uk":"uk  / ˈtaɪm ˌbɒm /","ukp":"/ˈtaɪm ˌbɒm/","us":"us  / ˈtaɪm ˌbɑːm /","usp":"/ˈtaɪm ˌbɑːm/"}
+{"title":"time card","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time charter","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time clock","uk":"uk  / ˈtaɪm ˌklɒk /","ukp":"/ˈtaɪm ˌklɒk/","us":"us  / ˈtaɪm ˌklɑːk /","usp":"/ˈtaɪm ˌklɑːk/"}
+{"title":"time deposit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time flies","uk":"","us":""}
+{"title":"time in lieu","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time frame","uk":"uk  / ˈtaɪm ˌfreɪm /","ukp":"/ˈtaɪm ˌfreɪm/","us":"us  / ˈtaɪm ˌfreɪm /","usp":"/ˈtaɪm ˌfreɪm/"}
+{"title":"time hangs heavy","uk":"","us":""}
+{"title":"time is money","uk":"","us":""}
+{"title":"time is of the essence","uk":"","us":""}
+{"title":"time is on someone's side","uk":"","us":""}
+{"title":"time lag","uk":"uk  / ˈtaɪm ˌlæɡ /","ukp":"/ˈtaɪm ˌlæɡ/","us":"us  / ˈtaɪm ˌlæɡ /","usp":"/ˈtaɪm ˌlæɡ/"}
+{"title":"time loop","uk":"uk  / ˈtaɪm ˌluːp /","ukp":"/ˈtaɪm ˌluːp/","us":"us  / ˈtaɪm ˌluːp /","usp":"/ˈtaɪm ˌluːp/"}
+{"title":"time limit","uk":"uk  / ˈtaɪm ˌlɪm.ɪt /","ukp":"/ˈtaɪm ˌlɪm.ɪt/","us":"us  / ˈtaɪm ˌlɪm.ɪt /","usp":"/ˈtaɪm ˌlɪm.ɪt/"}
+{"title":"time machine","uk":"uk  / ˈtaɪm məˌʃiːn /","ukp":"/ˈtaɪm məˌʃiːn/","us":"us  / ˈtaɪm məˌʃiːn /","usp":"/ˈtaɪm məˌʃiːn/"}
+{"title":"time management","uk":"uk  / ˈtaɪm ˌmæn.ɪdʒ.mənt /","ukp":"/ˈtaɪm ˌmæn.ɪdʒ.mənt/","us":"us  / ˈtaɪm ˌmæn.ɪdʒ.mənt /","usp":"/ˈtaɪm ˌmæn.ɪdʒ.mənt/"}
+{"title":"time off","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time on your hands","uk":"","us":""}
+{"title":"time off in lieu","uk":"uk  / ˌtaɪm ɒf ɪn ˈljuː /","ukp":"/ˌtaɪm ɒf ɪn ˈljuː/","us":"us  / ˌtaɪm ɑːf ɪn ˈluː /","usp":"/ˌtaɪm ɑːf ɪn ˈluː/"}
+{"title":"time series","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time sharing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time signal","uk":"uk  / ˈtaɪm ˌsɪɡ.nəl /","ukp":"/ˈtaɪm ˌsɪɡ.nəl/","us":"us  / ˈtaɪm ˌsɪɡ.nəl /","usp":"/ˈtaɪm ˌsɪɡ.nəl/"}
+{"title":"time signature","uk":"uk  / ˈtaɪm ˌsɪɡ.nɪ.tʃə r /","ukp":"/ˈtaɪm ˌsɪɡ.nɪ.tʃər/","us":"us  / ˈtaɪm ˌsɪɡ.nɪ.tʃɚ /","usp":"/ˈtaɪm ˌsɪɡ.nɪ.tʃɚ/"}
+{"title":"time slot","uk":"uk  / ˈtaɪm ˌslɒt /","ukp":"/ˈtaɪm ˌslɒt/","us":"us  / ˈtaɪm ˌslɑːt /","usp":"/ˈtaɪm ˌslɑːt/"}
+{"title":"time span","uk":"uk  / ˈtaɪm.spæn /","ukp":"/ˈtaɪm.spæn/","us":"us  / ˈtaɪm.spæn /","usp":"/ˈtaɪm.spæn/"}
+{"title":"time stands still","uk":"","us":""}
+{"title":"time to market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time switch","uk":"uk  / ˈtaɪm ˌswɪtʃ /","ukp":"/ˈtaɪm ˌswɪtʃ/","us":"us  / ˈtaɪm ˌswɪtʃ /","usp":"/ˈtaɪm ˌswɪtʃ/"}
+{"title":"time travel","uk":"uk  / ˈtaɪm ˌtræv. ə l /","ukp":"/ˈtaɪm ˌtræv.əl/","us":"us  / ˈtaɪm ˌtræv. ə l /","usp":"/ˈtaɪm ˌtræv.əl/"}
+{"title":"time traveler","uk":"uk  / ˈtaɪm ˌtræv. ə l.ə r /","ukp":"/ˈtaɪm ˌtræv.əl.ər/","us":"us  / ˈtaɪm ˌtræv. ə l.ɚ /","usp":"/ˈtaɪm ˌtræv.əl.ɚ/"}
+{"title":"time traveller","uk":"uk  / ˈtaɪm ˌtræv. ə l.ə r /","ukp":"/ˈtaɪm ˌtræv.əl.ər/","us":"us  / ˈtaɪm ˌtræv. ə l.ɚ /","usp":"/ˈtaɪm ˌtræv.əl.ɚ/"}
+{"title":"time trial","uk":"uk  / ˈtaɪm ˌtraɪəl /","ukp":"/ˈtaɪm ˌtraɪəl/","us":"us  / ˈtaɪm ˌtraɪəl /","usp":"/ˈtaɪm ˌtraɪəl/"}
+{"title":"time trialing","uk":"uk  / ˈtaɪm ˌtraɪ.əl.ɪŋ /","ukp":"/ˈtaɪm ˌtraɪ.əl.ɪŋ/","us":"us  / ˈtaɪm ˌtraɪ.əl.ɪŋ /","usp":"/ˈtaɪm ˌtraɪ.əl.ɪŋ/"}
+{"title":"time trialist","uk":"uk  / ˈtaɪm ˌtraɪ.ə.lɪst /","ukp":"/ˈtaɪm ˌtraɪ.ə.lɪst/","us":"us  / ˈtaɪm ˌtraɪ.ə.lɪst /","usp":"/ˈtaɪm ˌtraɪ.ə.lɪst/"}
+{"title":"time trialling","uk":"uk  / ˈtaɪm ˌtraɪ.əl.ɪŋ /","ukp":"/ˈtaɪm ˌtraɪ.əl.ɪŋ/","us":"us  / ˈtaɪm ˌtraɪ.əl.ɪŋ /","usp":"/ˈtaɪm ˌtraɪ.əl.ɪŋ/"}
+{"title":"time warp","uk":"uk  / ˈtaɪm ˌwɔːp /","ukp":"/ˈtaɪm ˌwɔːp/","us":"us  / ˈtaɪm ˌwɔːrp /","usp":"/ˈtaɪm ˌwɔːrp/"}
+{"title":"time value of money","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time will tell","uk":"","us":""}
+{"title":"time zone","uk":"uk  / ˈtaɪm ˌzəʊn /","ukp":"/ˈtaɪm ˌzəʊn/","us":"us  / ˈtaɪm ˌzoʊn /","usp":"/ˈtaɪm ˌzoʊn/"}
+{"title":"time's a great healer","uk":"","us":""}
+{"title":"time-and-motion study","uk":"uk  / ˌtaɪm. ə ndˈməʊ.ʃ ə n ˌstʌd.i /","ukp":"/ˌtaɪm.əndˈməʊ.ʃən ˌstʌd.i/","us":"us  / ˌtaɪm.ənˈmoʊ.ʃ ə n ˌstʌd.i /","usp":"/ˌtaɪm.ənˈmoʊ.ʃən ˌstʌd.i/"}
+{"title":"time’s up","uk":"","us":""}
+{"title":"time-based","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time-honored","uk":"uk  / ˈtaɪmˌɒn.əd /","ukp":"/ˈtaɪmˌɒn.əd/","us":"us  / ˈtaɪmˌɑː.nɚd /","usp":"/ˈtaɪmˌɑː.nɚd/"}
+{"title":"time-consuming","uk":"uk  / ˈtaɪm.kənˌsjuː.mɪŋ /","ukp":"/ˈtaɪm.kənˌsjuː.mɪŋ/","us":"us  / ˈtaɪm.kənˌsuː.mɪŋ /","usp":"/ˈtaɪm.kənˌsuː.mɪŋ/"}
+{"title":"time-honoured","uk":"uk  / ˈtaɪmˌɒn.əd /","ukp":"/ˈtaɪmˌɒn.əd/","us":"us  / ˈtaɪmˌɑː.nɚd /","usp":"/ˈtaɪmˌɑː.nɚd/"}
+{"title":"time-poor","uk":"uk  / ˌtaɪmˈpɔː r /","ukp":"/ˌtaɪmˈpɔːr/","us":"us  / ˌtaɪmˈpʊr /","usp":"/ˌtaɪmˈpʊr/"}
+{"title":"time-lapse","uk":"uk  / ˈtaɪm.læps /","ukp":"/ˈtaɪm.læps/","us":"us  / ˈtaɪm.læps /","usp":"/ˈtaɪm.læps/"}
+{"title":"time-release","uk":"uk  / ˈtaɪm.rɪˌliːs /","ukp":"/ˈtaɪm.rɪˌliːs/","us":"us  / ˈtaɪm.rɪˌliːs /","usp":"/ˈtaɪm.rɪˌliːs/"}
+{"title":"time-scale promotion","uk":"uk  / ˈtaɪm.skeɪl prəˌməʊ.ʃ ə n /","ukp":"/ˈtaɪm.skeɪl prəˌməʊ.ʃən/","us":"us  / ˈtaɪm.skeɪl prəˌmoʊ.ʃ ə n /","usp":"/ˈtaɪm.skeɪl prəˌmoʊ.ʃən/"}
+{"title":"time-sensitive","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"time-server","uk":"uk  / ˈtaɪmˌsɜː.və r /","ukp":"/ˈtaɪmˌsɜː.vər/","us":"us  / ˈtaɪmˌsɝː.vɚ /","usp":"/ˈtaɪmˌsɝː.vɚ/"}
+{"title":"time-serving","uk":"uk  / ˈtaɪmˌsɜː.vɪŋ /","ukp":"/ˈtaɪmˌsɜː.vɪŋ/","us":"us  / ˈtaɪmˌsɝː.vɪŋ /","usp":"/ˈtaɪmˌsɝː.vɪŋ/"}
+{"title":"time-tested","uk":"uk  / ˈtaɪmˌtes.tɪd /","ukp":"/ˈtaɪmˌtes.tɪd/","us":"us  / ˈtaɪmˌtes.tɪd /","usp":"/ˈtaɪmˌtes.tɪd/"}
+{"title":"time-waster","uk":"uk  / ˈtaɪm ˌweɪ.stə r /","ukp":"/ˈtaɪm ˌweɪ.stər/","us":"us  / ˈtaɪm ˌweɪ.stɚ /","usp":"/ˈtaɪm ˌweɪ.stɚ/"}
+{"title":"time-wasting","uk":"uk  / ˈtaɪmˌweɪ.stɪŋ /","ukp":"/ˈtaɪmˌweɪ.stɪŋ/","us":"us  / ˈtaɪmˌweɪ.stɪŋ /","usp":"/ˈtaɪmˌweɪ.stɪŋ/"}
+{"title":"timed","uk":"uk  / taɪm /","ukp":"/taɪm/","us":"us  / taɪm /","usp":"/taɪm/"}
+{"title":"timed ticket","uk":"uk  / ˌtaɪmd ˈtɪk.ɪt /","ukp":"/ˌtaɪmd ˈtɪk.ɪt/","us":"us  / ˌtaɪmd ˈtɪk.ɪt /","usp":"/ˌtaɪmd ˈtɪk.ɪt/"}
+{"title":"timekeeper","uk":"uk  / ˈtaɪmˌkiː.pə r /","ukp":"/ˈtaɪmˌkiː.pər/","us":"us  / ˈtaɪmˌkiː.pɚ /","usp":"/ˈtaɪmˌkiː.pɚ/"}
+{"title":"timekeeping","uk":"uk  / ˈtaɪmˌkiː.pɪŋ /","ukp":"/ˈtaɪmˌkiː.pɪŋ/","us":"us  / ˈtaɪmˌkiː.pɪŋ /","usp":"/ˈtaɪmˌkiː.pɪŋ/"}
+{"title":"timeless","uk":"uk  / ˈtaɪm.ləs /","ukp":"/ˈtaɪm.ləs/","us":"us  / ˈtaɪm.ləs /","usp":"/ˈtaɪm.ləs/"}
+{"title":"timelessly","uk":"uk  / ˈtaɪm.ləs.li /","ukp":"/ˈtaɪm.ləs.li/","us":"us  / ˈtaɪm.ləs.li /","usp":"/ˈtaɪm.ləs.li/"}
+{"title":"timelessness","uk":"uk  / ˈtaɪm.ləs.nəs /","ukp":"/ˈtaɪm.ləs.nəs/","us":"us  / ˈtaɪm.ləs.nəs /","usp":"/ˈtaɪm.ləs.nəs/"}
+{"title":"timeliness","uk":"uk  / ˈtaɪm.li.nəs /","ukp":"/ˈtaɪm.li.nəs/","us":"us  / ˈtaɪm.li.nəs /","usp":"/ˈtaɪm.li.nəs/"}
+{"title":"timeline","uk":"uk  / ˈtaɪm.laɪn /","ukp":"/ˈtaɪm.laɪn/","us":"us  / ˈtaɪm.laɪn /","usp":"/ˈtaɪm.laɪn/"}
+{"title":"timely","uk":"uk  / ˈtaɪm.li /","ukp":"/ˈtaɪm.li/","us":"us  / ˈtaɪm.li /","usp":"/ˈtaɪm.li/"}
+{"title":"timepiece","uk":"uk  / ˈtaɪm.piːs /","ukp":"/ˈtaɪm.piːs/","us":"us  / ˈtaɪm.piːs /","usp":"/ˈtaɪm.piːs/"}
+{"title":"timeout","uk":"uk  / ˌtaɪmˈaʊt /","ukp":"/ˌtaɪmˈaʊt/","us":"us  / ˌtaɪmˈaʊt /","usp":"/ˌtaɪmˈaʊt/"}
+{"title":"timer","uk":"uk  / ˈtaɪ.mə r /","ukp":"/ˈtaɪ.mər/","us":"us  / ˈtaɪ.mɚ /","usp":"/ˈtaɪ.mɚ/"}
+{"title":"times have changed","uk":"","us":""}
+{"title":"times","uk":"uk  / taɪmz /","ukp":"/taɪmz/","us":"us  / taɪmz /","usp":"/taɪmz/"}
+{"title":"timesaving","uk":"uk  / ˈtaɪmˌseɪ.vɪŋ /","ukp":"/ˈtaɪmˌseɪ.vɪŋ/","us":"us  / ˈtaɪmˌseɪ.vɪŋ /","usp":"/ˈtaɪmˌseɪ.vɪŋ/"}
+{"title":"timeshare","uk":"uk  / ˈtaɪm.ʃeə r /","ukp":"/ˈtaɪm.ʃeər/","us":"us  / ˈtaɪm.ʃer /","usp":"/ˈtaɪm.ʃer/"}
+{"title":"timescale","uk":"uk  / ˈtaɪm.skeɪl /","ukp":"/ˈtaɪm.skeɪl/","us":"us  / ˈtaɪm.skeɪl /","usp":"/ˈtaɪm.skeɪl/"}
+{"title":"timesharing","uk":"uk  / ˈtaɪmˌʃeə.rɪŋ /","ukp":"/ˈtaɪmˌʃeə.rɪŋ/","us":"us  / ˈtaɪmˌʃer.ɪŋ /","usp":"/ˈtaɪmˌʃer.ɪŋ/"}
+{"title":"timesheet","uk":"uk  / ˈtaɪm.ʃiːt /","ukp":"/ˈtaɪm.ʃiːt/","us":"us  / ˈtaɪm.ʃiːt /","usp":"/ˈtaɪm.ʃiːt/"}
+{"title":"timestamp","uk":"uk  / ˈtaɪm.stæmp /","ukp":"/ˈtaɪm.stæmp/","us":"us  / ˈtaɪm.stæmp /","usp":"/ˈtaɪm.stæmp/"}
+{"title":"timetabled","uk":"uk  / ˈtaɪmˌteɪ.b ə l /","ukp":"/ˈtaɪmˌteɪ.bəl/","us":"us  / ˈtaɪmˌteɪ.b ə l /","usp":"/ˈtaɪmˌteɪ.bəl/"}
+{"title":"timetable","uk":"uk  / ˈtaɪmˌteɪ.b ə l /","ukp":"/ˈtaɪmˌteɪ.bəl/","us":"us  / ˈtaɪmˌteɪ.b ə l /","usp":"/ˈtaɪmˌteɪ.bəl/"}
+{"title":"timetabling","uk":"uk  / ˈtaɪmˌteɪ.b ə l /","ukp":"/ˈtaɪmˌteɪ.bəl/","us":"us  / ˈtaɪmˌteɪ.b ə l /","usp":"/ˈtaɪmˌteɪ.bəl/"}
+{"title":"timeworn","uk":"uk  / ˈtaɪm.wɔːn /","ukp":"/ˈtaɪm.wɔːn/","us":"us  / ˈtaɪm.wɔːrn /","usp":"/ˈtaɪm.wɔːrn/"}
+{"title":"timid","uk":"uk  / ˈtɪm.ɪd /","ukp":"/ˈtɪm.ɪd/","us":"us  / ˈtɪm.ɪd /","usp":"/ˈtɪm.ɪd/"}
+{"title":"timidity","uk":"uk  / tɪˈmɪd.ə.ti /","ukp":"/tɪˈmɪd.ə.ti/","us":"us  / tɪˈmɪd.ə.t̬i /","usp":"/tɪˈmɪd.ə.t̬i/"}
+{"title":"timidly","uk":"uk  / ˈtɪm.ɪd.li /","ukp":"/ˈtɪm.ɪd.li/","us":"us  / ˈtɪm.ɪd.li /","usp":"/ˈtɪm.ɪd.li/"}
+{"title":"timing","uk":"uk  / ˈtaɪ.mɪŋ /","ukp":"/ˈtaɪ.mɪŋ/","us":"us  / ˈtaɪ.mɪŋ /","usp":"/ˈtaɪ.mɪŋ/"}
+{"title":"timocracy","uk":"uk  / tɪˈmɒk.rə.si /","ukp":"/tɪˈmɒk.rə.si/","us":"us  / tɪˈmɑː.krə.si /","usp":"/tɪˈmɑː.krə.si/"}
+{"title":"timorous","uk":"uk  / ˈtɪm. ə r.əs /","ukp":"/ˈtɪm.ər.əs/","us":"us  / ˈtɪm.ɚ.əs /","usp":"/ˈtɪm.ɚ.əs/"}
+{"title":"tip sheet","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"timorously","uk":"uk  / ˈtɪm. ə r.əs.li /","ukp":"/ˈtɪm.ər.əs.li/","us":"us  / ˈtɪm.ɚ.əs.li /","usp":"/ˈtɪm.ɚ.əs.li/"}
+{"title":"tip someone off","uk":"uk  / tɪp /","ukp":"/tɪp/","us":"us  / tɪp /","usp":"/tɪp/"}
+{"title":"tip someone the wink","uk":"","us":""}
+{"title":"tip the balance","uk":"","us":""}
+{"title":"tip the balance/scales","uk":"","us":""}
+{"title":"tip truck","uk":"uk  / ˈtɪp ˌtrʌk /","ukp":"/ˈtɪp ˌtrʌk/","us":"us  / ˈtɪp ˌtrʌk /","usp":"/ˈtɪp ˌtrʌk/"}
+{"title":"tip your hand","uk":"","us":""}
+{"title":"tip-top","uk":"uk  / ˈtɪp.tɒp /","ukp":"/ˈtɪp.tɒp/","us":"us  / ˈtɪp.tɑːp /","usp":"/ˈtɪp.tɑːp/"}
+{"title":"tipi","uk":"uk  / ˈtiː.piː /","ukp":"/ˈtiː.piː/","us":"us  / ˈtiː.piː /","usp":"/ˈtiː.piː/"}
+{"title":"Tipp-Ex","uk":"uk  / ˈtɪp.eks /","ukp":"/ˈtɪp.eks/","us":"us  / ˈtɪp.eks /","usp":"/ˈtɪp.eks/"}
+{"title":"tipped","uk":"","us":""}
+{"title":"tippee","uk":"uk  / tɪˈpiː /","ukp":"/tɪˈpiː/","us":"us ","usp":""}
+{"title":"tippee trading","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tipper truck","uk":"uk  / ˈtɪp.ə ˌtrʌk /","ukp":"/ˈtɪp.ə ˌtrʌk/","us":"us  / ˈtɪp.ɚ ˌtrʌk /","usp":"/ˈtɪp.ɚ ˌtrʌk/"}
+{"title":"tipper","uk":"uk  / ˈtɪp.ə r /","ukp":"/ˈtɪp.ər/","us":"us  / ˈtɪp.ɚ /","usp":"/ˈtɪp.ɚ/"}
+{"title":"tipping","uk":"uk  / ˈtɪpɪŋ /","ukp":"/ˈtɪpɪŋ/","us":"us ","usp":""}
+{"title":"tippet","uk":"uk  / ˈtɪp.ɪt /","ukp":"/ˈtɪp.ɪt/","us":"us  / ˈtɪp.ɪt /","usp":"/ˈtɪp.ɪt/"}
+{"title":"tipping point","uk":"uk  / ˈtɪp.ɪŋ ˌpɔɪnt /","ukp":"/ˈtɪp.ɪŋ ˌpɔɪnt/","us":"us  / ˈtɪp.ɪŋ ˌpɔɪnt /","usp":"/ˈtɪp.ɪŋ ˌpɔɪnt/"}
+{"title":"tipple","uk":"uk  / ˈtɪp. ə l /","ukp":"/ˈtɪp.əl/","us":"us  / ˈtɪp. ə l /","usp":"/ˈtɪp.əl/"}
+{"title":"tippler","uk":"uk  / ˈtɪp.lə r /","ukp":"/ˈtɪp.lər/","us":"us  / ˈtɪp.lɚ /","usp":"/ˈtɪp.lɚ/"}
+{"title":"tippy","uk":"uk / ˈtɪp.i /","ukp":"/ˈtɪp.i/","us":"us / ˈtɪp.i /","usp":"/ˈtɪp.i/"}
+{"title":"TIPS","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tippy top","uk":"uk  / ˈtɪp.i ˌtɒp /","ukp":"/ˈtɪp.i ˌtɒp/","us":"us  / ˈtɪp.i ˌtɑːp /","usp":"/ˈtɪp.i ˌtɑːp/"}
+{"title":"tipsily","uk":"uk  / ˈtɪp.s ə l.i /","ukp":"/ˈtɪp.səl.i/","us":"us  / ˈtɪp.s ə l.i /","usp":"/ˈtɪp.səl.i/"}
+{"title":"tipsiness","uk":"uk  / ˈtɪp.si.nəs /","ukp":"/ˈtɪp.si.nəs/","us":"us  / ˈtɪp.si.nəs /","usp":"/ˈtɪp.si.nəs/"}
+{"title":"tipster","uk":"uk  / ˈtɪp.stə r /","ukp":"/ˈtɪp.stər/","us":"us  / ˈtɪp.stɚ /","usp":"/ˈtɪp.stɚ/"}
+{"title":"tipsy","uk":"uk  / ˈtɪp.si /","ukp":"/ˈtɪp.si/","us":"us  / ˈtɪp.si /","usp":"/ˈtɪp.si/"}
+{"title":"tiptoe around something/someone","uk":"uk  / ˈtɪp.təʊ /","ukp":"/ˈtɪp.təʊ/","us":"us  / ˈtɪp.toʊ /","usp":"/ˈtɪp.toʊ/"}
+{"title":"tiptoe","uk":"uk  / ˈtɪp.təʊ /","ukp":"/ˈtɪp.təʊ/","us":"us  / ˈtɪp.toʊ /","usp":"/ˈtɪp.toʊ/"}
+{"title":"tiptoed","uk":"uk  / ˈtɪp.təʊ /","ukp":"/ˈtɪp.təʊ/","us":"us  / ˈtɪp.toʊ /","usp":"/ˈtɪp.toʊ/"}
+{"title":"tiptoeing","uk":"uk  / ˈtɪp.təʊ /","ukp":"/ˈtɪp.təʊ/","us":"us  / ˈtɪp.toʊ /","usp":"/ˈtɪp.toʊ/"}
+{"title":"tiptop","uk":"","us":"us  / ˈtɪpˌtɑp /","usp":"/ˈtɪpˌtɑp/"}
+{"title":"TIR","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tiramisù","uk":"uk  / ˌtɪr.ə.mɪˈsuː /","ukp":"/ˌtɪr.ə.mɪˈsuː/","us":"us  / ˌtɪr.əˈmiː.suː /","usp":"/ˌtɪr.əˈmiː.suː/"}
+{"title":"tirade","uk":"uk  / taɪˈreɪd /","ukp":"/taɪˈreɪd/","us":"us  / ˈtaɪ.reɪd /","usp":"/ˈtaɪ.reɪd/"}
+{"title":"tire","uk":"uk  / taɪə r /","ukp":"/taɪər/","us":"us  / taɪr /","usp":"/taɪr/"}
+{"title":"tire kicker","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tire pressure","uk":"","us":""}
+{"title":"tire of something/someone","uk":"uk  / taɪə r /","ukp":"/taɪər/","us":"us  / taɪr /","usp":"/taɪr/"}
+{"title":"tire someone out","uk":"uk  / taɪə r /","ukp":"/taɪər/","us":"us  / taɪr /","usp":"/taɪr/"}
+{"title":"tired and emotional","uk":"","us":""}
+{"title":"tired out","uk":"uk  / ˌtaɪəd ˈaʊt /","ukp":"/ˌtaɪəd ˈaʊt/","us":"us  / ˌtaɪrd ˈaʊt /","usp":"/ˌtaɪrd ˈaʊt/"}
+{"title":"tired","uk":"uk  / taɪəd /","ukp":"/taɪəd/","us":"us  / taɪrd /","usp":"/taɪrd/"}
+{"title":"tiredly","uk":"uk  / ˈtaɪəd.li /","ukp":"/ˈtaɪəd.li/","us":"us  / ˈtaɪrd.li /","usp":"/ˈtaɪrd.li/"}
+{"title":"tiredness","uk":"uk  / ˈtaɪəd.nəs /","ukp":"/ˈtaɪəd.nəs/","us":"us  / ˈtaɪrd.nəs /","usp":"/ˈtaɪrd.nəs/"}
+{"title":"tireless","uk":"uk  / ˈtaɪə.ləs /","ukp":"/ˈtaɪə.ləs/","us":"us  / ˈtaɪr.ləs /","usp":"/ˈtaɪr.ləs/"}
+{"title":"tirelessly","uk":"uk  / ˈtaɪə.ləs.li /","ukp":"/ˈtaɪə.ləs.li/","us":"us  / ˈtaɪr.ləs.li /","usp":"/ˈtaɪr.ləs.li/"}
+{"title":"tiresomely","uk":"uk  / ˈtaɪə.səm.li /","ukp":"/ˈtaɪə.səm.li/","us":"us  / ˈtaɪr.səm.li /","usp":"/ˈtaɪr.səm.li/"}
+{"title":"tiresome","uk":"uk  / ˈtaɪə.səm /","ukp":"/ˈtaɪə.səm/","us":"us  / ˈtaɪr.səm /","usp":"/ˈtaɪr.səm/"}
+{"title":"to ring/sound the alarm bell","uk":"","us":""}
+{"title":"tiring","uk":"uk  / ˈtaɪə.rɪŋ /","ukp":"/ˈtaɪə.rɪŋ/","us":"us  / ˈtaɪ.rɪŋ /","usp":"/ˈtaɪ.rɪŋ/"}
+{"title":"to say the least","uk":"","us":""}
+{"title":"to say nothing of ...","uk":"","us":""}
+{"title":"to some extent","uk":"","us":""}
+{"title":"to someone’s credit","uk":"","us":""}
+{"title":"to someone's face","uk":"","us":""}
+{"title":"to spare","uk":"","us":""}
+{"title":"to someone's way of thinking","uk":"","us":""}
+{"title":"to start with","uk":"","us":""}
+{"title":"to such an extent","uk":"","us":""}
+{"title":"to tell ( you ) the truth","uk":"","us":""}
+{"title":"to that effect","uk":"","us":""}
+{"title":"to the best of my knowledge/belief","uk":"","us":""}
+{"title":"to the bad","uk":"","us":""}
+{"title":"to the best of your ability","uk":"","us":""}
+{"title":"to the bitter end","uk":"","us":""}
+{"title":"to the best of my recollection","uk":"","us":""}
+{"title":"to the bone","uk":"","us":""}
+{"title":"to the contrary","uk":"","us":""}
+{"title":"to the core","uk":"","us":""}
+{"title":"to the day","uk":"","us":""}
+{"title":"to the exclusion of","uk":"","us":""}
+{"title":"to the extent of","uk":"","us":""}
+{"title":"to the fore","uk":"","us":""}
+{"title":"to the extent that","uk":"","us":""}
+{"title":"to the full/to the fullest","uk":"","us":""}
+{"title":"to the fullest","uk":"","us":""}
+{"title":"to the gills","uk":"","us":""}
+{"title":"to the good","uk":"","us":""}
+{"title":"to the gunwales","uk":"","us":""}
+{"title":"to the hilt","uk":"","us":""}
+{"title":"to the last (man)","uk":"","us":""}
+{"title":"to the letter","uk":"","us":""}
+{"title":"to the last","uk":"","us":""}
+{"title":"to the life","uk":"","us":""}
+{"title":"to the max","uk":"","us":""}
+{"title":"to the nth degree","uk":"","us":""}
+{"title":"to the point","uk":"","us":""}
+{"title":"to the same extent","uk":"","us":""}
+{"title":"to the tune of","uk":"","us":""}
+{"title":"to this day","uk":"","us":""}
+{"title":"to this end","uk":"","us":""}
+{"title":"to top it all","uk":"","us":""}
+{"title":"to top it all off","uk":"","us":""}
+{"title":"to whom it may concern","uk":"","us":""}
+{"title":"to your heart's content","uk":"","us":""}
+{"title":"to what extent?","uk":"","us":""}
+{"title":"to your name","uk":"","us":""}
+{"title":"to wit","uk":"","us":""}
+{"title":"to-be","uk":"uk  / -tə.biː /","ukp":"/ -tə.biː/","us":"us  / -tə.biː /","usp":"/ -tə.biː/"}
+{"title":"(to) give the devil his due","uk":"","us":""}
+{"title":"to-do","uk":"uk  / təˈduː /","ukp":"/təˈduː/","us":"us  / təˈduː /","usp":"/təˈduː/"}
+{"title":"to-do list","uk":"uk  / təˈduː ˌlɪst /","ukp":"/təˈduː ˌlɪst/","us":"us  / təˈduː ˌlɪst /","usp":"/təˈduː ˌlɪst/"}
+{"title":"to/for all intents and purposes","uk":"","us":""}
+{"title":"to-ing and fro-ing","uk":"uk  / ˌtuː.ɪŋ ən ˈfrəʊ.ɪŋ /","ukp":"/ˌtuː.ɪŋ ən ˈfrəʊ.ɪŋ/","us":"us  / ˌtuː.ɪŋ ən ˈfroʊ.ɪŋ /","usp":"/ˌtuː.ɪŋ ən ˈfroʊ.ɪŋ/"}
+{"title":"to/until my dying day","uk":"","us":""}
+{"title":"to/from all appearances","uk":"","us":""}
+{"title":"toad","uk":"uk  / təʊd /","ukp":"/təʊd/","us":"us  / toʊd /","usp":"/toʊd/"}
+{"title":"toad-in-the-hole","uk":"uk  / ˌtəʊd.ɪn.ðəˈhəʊl /","ukp":"/ˌtəʊd.ɪn.ðəˈhəʊl/","us":"us  / ˌtoʊd.ɪn.ðəˈhoʊl /","usp":"/ˌtoʊd.ɪn.ðəˈhoʊl/"}
+{"title":"toadied","uk":"uk  / ˈtəʊ.di /","ukp":"/ˈtəʊ.di/","us":"us  / ˈtoʊ.di /","usp":"/ˈtoʊ.di/"}
+{"title":"toadstool","uk":"uk  / ˈtəʊd.stuːl /","ukp":"/ˈtəʊd.stuːl/","us":"us  / ˈtoʊd.stuːl /","usp":"/ˈtoʊd.stuːl/"}
+{"title":"toady","uk":"uk  / ˈtəʊ.di /","ukp":"/ˈtəʊ.di/","us":"us  / ˈtoʊ.di /","usp":"/ˈtoʊ.di/"}
+{"title":"toadying","uk":"uk  / ˈtəʊ.di.ɪŋ /","ukp":"/ˈtəʊ.di.ɪŋ/","us":"us  / ˈtoʊ.di.ɪŋ /","usp":"/ˈtoʊ.di.ɪŋ/"}
+{"title":"toast rack","uk":"uk  / ˈtəʊst ˌræk /","ukp":"/ˈtəʊst ˌræk/","us":"us  / ˈtoʊst ˌræk /","usp":"/ˈtoʊst ˌræk/"}
+{"title":"toasted","uk":"uk  / təʊst /","ukp":"/təʊst/","us":"us  / toʊst /","usp":"/toʊst/"}
+{"title":"toast","uk":"uk  / təʊst /","ukp":"/təʊst/","us":"us  / toʊst /","usp":"/toʊst/"}
+{"title":"toaster oven","uk":"uk  / ˈtəʊ.stər ˌʌv. ə n /","ukp":"/ˈtəʊ.stər ˌʌv.ən/","us":"us  / ˈtoʊ.stɚ ˌʌv. ə n /","usp":"/ˈtoʊ.stɚ ˌʌv.ən/"}
+{"title":"toaster","uk":"uk  / ˈtəʊ.stə r /","ukp":"/ˈtəʊ.stər/","us":"us  / ˈtoʊ.stɚ /","usp":"/ˈtoʊ.stɚ/"}
+{"title":"toasting","uk":"uk  / təʊst /","ukp":"/təʊst/","us":"us  / toʊst /","usp":"/toʊst/"}
+{"title":"toasting fork","uk":"uk  / ˈtəʊ.stɪŋ ˌfɔːk /","ukp":"/ˈtəʊ.stɪŋ ˌfɔːk/","us":"us  / ˈtoʊ.stɪŋ ˌfɔːrk /","usp":"/ˈtoʊ.stɪŋ ˌfɔːrk/"}
+{"title":"toasty","uk":"uk  / ˈtəʊ.sti /","ukp":"/ˈtəʊ.sti/","us":"us  / ˈtoʊ.sti /","usp":"/ˈtoʊ.sti/"}
+{"title":"tobacco","uk":"uk  / təˈbæk.əʊ /","ukp":"/təˈbæk.əʊ/","us":"us  / təˈbæk.oʊ /","usp":"/təˈbæk.oʊ/"}
+{"title":"tobacconist","uk":"uk  / təˈbæk. ə n.ɪst /","ukp":"/təˈbæk.ən.ɪst/","us":"us  / təˈbæk. ə n.ɪst /","usp":"/təˈbæk.ən.ɪst/"}
+{"title":"Tobagonian","uk":"uk  / ˌtəʊ.bəˈɡəʊ.ni.ən /","ukp":"/ˌtəʊ.bəˈɡəʊ.ni.ən/","us":"us  / ˌtoʊ.bəˈɡoʊ.ni.ən /","usp":"/ˌtoʊ.bəˈɡoʊ.ni.ən/"}
+{"title":"tobogganed","uk":"uk  / təˈbɒɡ. ə n /","ukp":"/təˈbɒɡ.ən/","us":"us  / təˈbɑː.ɡ ə n /","usp":"/təˈbɑː.ɡən/"}
+{"title":"tobogganing","uk":"uk  / təˈbɒɡ. ə n.ɪŋ /","ukp":"/təˈbɒɡ.ən.ɪŋ/","us":"us  / təˈbɑː.ɡ ə n.ɪŋ /","usp":"/təˈbɑː.ɡən.ɪŋ/"}
+{"title":"toboggan","uk":"uk  / təˈbɒɡ. ə n /","ukp":"/təˈbɒɡ.ən/","us":"us  / təˈbɑː.ɡ ə n /","usp":"/təˈbɑː.ɡən/"}
+{"title":"toby jug","uk":"uk  / ˈtəʊ.bi ˌdʒʌɡ /","ukp":"/ˈtəʊ.bi ˌdʒʌɡ/","us":"us  / ˈtoʊ.bi ˌdʒʌɡ /","usp":"/ˈtoʊ.bi ˌdʒʌɡ/"}
+{"title":"TOC","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tod","uk":"uk  / tɒd /","ukp":"/tɒd/","us":"us  / tɑːd /","usp":"/tɑːd/"}
+{"title":"tocopherol","uk":"uk  / tɒˈkɒ.fəˌrɒl /","ukp":"/tɒˈkɒ.fəˌrɒl/","us":"us  / tɑːˈkɑː.fɚˌɑːl /","usp":"/tɑːˈkɑː.fɚˌɑːl/"}
+{"title":"today North America , tomorrow the world","uk":"","us":""}
+{"title":"toddle","uk":"uk  / ˈtɒd. ə l /","ukp":"/ˈtɒd.əl/","us":"us  / ˈtɑː.d ə l /","usp":"/ˈtɑː.dəl/"}
+{"title":"today","uk":"uk  / təˈdeɪ /","ukp":"/təˈdeɪ/","us":"us  / təˈdeɪ /","usp":"/təˈdeɪ/"}
+{"title":"toddled","uk":"uk  / ˈtɒd. ə l /","ukp":"/ˈtɒd.əl/","us":"us  / ˈtɑː.d ə l /","usp":"/ˈtɑː.dəl/"}
+{"title":"toddling","uk":"uk  / ˈtɒd. ə l /","ukp":"/ˈtɒd.əl/","us":"us  / ˈtɑː.d ə l /","usp":"/ˈtɑː.dəl/"}
+{"title":"toddy","uk":"uk  / ˈtɒd.i /","ukp":"/ˈtɒd.i/","us":"us  / ˈtɑː.di /","usp":"/ˈtɑː.di/"}
+{"title":"toddler","uk":"uk  / ˈtɒd.lə r /","ukp":"/ˈtɒd.lər/","us":"us  / ˈtɑːd.lɚ /","usp":"/ˈtɑːd.lɚ/"}
+{"title":"toe cap","uk":"uk  / ˈtəʊ ˌkæp /","ukp":"/ˈtəʊ ˌkæp/","us":"us  / ˈtoʊ ˌkæp /","usp":"/ˈtoʊ ˌkæp/"}
+{"title":"toe","uk":"uk  / təʊ /","ukp":"/təʊ/","us":"us  / toʊ /","usp":"/toʊ/"}
+{"title":"toe the line","uk":"","us":""}
+{"title":"toe poke","uk":"uk  / ˈtəʊ ˌpəʊk /","ukp":"/ˈtəʊ ˌpəʊk/","us":"us  / ˈtoʊ ˌpoʊk /","usp":"/ˈtoʊ ˌpoʊk/"}
+{"title":"toe-curling","uk":"uk  / ˈtəʊˌkɜː.lɪŋ /","ukp":"/ˈtəʊˌkɜː.lɪŋ/","us":"us  / ˈtoʊˌkɝː.lɪŋ /","usp":"/ˈtoʊˌkɝː.lɪŋ/"}
+{"title":"toe-curlingly","uk":"uk  / ˈtəʊˌkɜː.lɪŋ.li /","ukp":"/ˈtəʊˌkɜː.lɪŋ.li/","us":"us  / ˈtoʊˌkɝː.lɪŋ.li /","usp":"/ˈtoʊˌkɝː.lɪŋ.li/"}
+{"title":"toe-to-toe","uk":"uk  / ˌtəʊ.təˈtəʊ /","ukp":"/ˌtəʊ.təˈtəʊ/","us":"us  / ˌtoʊ.təˈtoʊ /","usp":"/ˌtoʊ.təˈtoʊ/"}
+{"title":"TOEFL","uk":"uk  / ˈtəʊ.f ə l /","ukp":"/ˈtəʊ.fəl/","us":"us  / ˈtoʊ.f ə l /","usp":"/ˈtoʊ.fəl/"}
+{"title":"-toed","uk":"uk  / -təʊd /","ukp":"/ -təʊd/","us":"us  / -toʊd /","usp":"/ -toʊd/"}
+{"title":"toehold","uk":"uk  / ˈtəʊ.həʊld /","ukp":"/ˈtəʊ.həʊld/","us":"us  / ˈtoʊ.hoʊld /","usp":"/ˈtoʊ.hoʊld/"}
+{"title":"toenail","uk":"uk  / ˈtəʊ.neɪl /","ukp":"/ˈtəʊ.neɪl/","us":"us  / ˈtoʊ.neɪl /","usp":"/ˈtoʊ.neɪl/"}
+{"title":"TLA","uk":"uk  / ˌtiː.elˈeɪː /","ukp":"/ˌtiː.elˈeɪː/","us":"us ","usp":""}
+{"title":"TLD","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"TLC","uk":"uk  / ˌtiː.elˈsiː /","ukp":"/ˌtiː.elˈsiː/","us":"us  / ˌtiː.elˈsiː /","usp":"/ˌtiː.elˈsiː/"}
+{"title":"TLDR","uk":"","us":""}
+{"title":"TM","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"TN","uk":"","us":""}
+{"title":"TNA","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"TNT","uk":"uk  / ˌtiː.enˈtiː /","ukp":"/ˌtiː.enˈtiː/","us":"us  / ˌtiː.enˈtiː /","usp":"/ˌtiː.enˈtiː/"}
+{"title":"to a fault","uk":"","us":""}
+{"title":"to a man","uk":"","us":""}
+{"title":"to a/some degree","uk":"","us":""}
+{"title":"to a tee","uk":"","us":""}
+{"title":"to","uk":"uk  strong / tuː /","ukp":"strong /tuː/","us":"us  strong / tuː /","usp":"strong /tuː/"}
+{"title":"to add insult to injury","uk":"","us":""}
+{"title":"to be fair","uk":"","us":""}
+{"title":"to and fro","uk":"uk  / ˌtuː ən ˈfrəʊ /","ukp":"/ˌtuː ən ˈfrəʊ/","us":"us  / ˌtuː ən ˈfroʊ /","usp":"/ˌtuː ən ˈfroʊ/"}
+{"title":"to be left on the cutting room floor","uk":"","us":""}
+{"title":"to be on the safe side","uk":"","us":""}
+{"title":"to be reckoned with","uk":"","us":""}
+{"title":"to be sure","uk":"","us":""}
+{"title":"to be wise after the event","uk":"","us":""}
+{"title":"to bits","uk":"","us":""}
+{"title":"to begin with","uk":"","us":""}
+{"title":"to cap it all","uk":"","us":""}
+{"title":"to boot","uk":"","us":""}
+{"title":"to cap it all off","uk":"","us":""}
+{"title":"to coin a phrase","uk":"","us":""}
+{"title":"to crown it all","uk":"","us":""}
+{"title":"to compare apples and/with oranges","uk":"","us":""}
+{"title":"to cut a long story short","uk":"","us":""}
+{"title":"to date","uk":"","us":""}
+{"title":"to death","uk":"","us":""}
+{"title":"to die for","uk":"uk  / təˈdaɪ.fɔː r /","ukp":"/təˈdaɪ.fɔːr/","us":"us  / təˈdaɪ.fɔːr /","usp":"/təˈdaɪ.fɔːr/"}
+{"title":"to do someone a solid","uk":"","us":""}
+{"title":"to err is human (to forgive divine).","uk":"","us":""}
+{"title":"(to give) credit where credit's due","uk":"","us":""}
+{"title":"to guard/protect something jealously","uk":"","us":""}
+{"title":"to go","uk":"","us":""}
+{"title":"to have arrived","uk":"","us":""}
+{"title":"to hell","uk":"","us":""}
+{"title":"to hell with someone/something","uk":"","us":""}
+{"title":"to hold/clutch/clasp/take someone/something to your bosom","uk":"","us":""}
+{"title":"to make matters worse","uk":"","us":""}
+{"title":"to make a long story short","uk":"","us":""}
+{"title":"to my eye","uk":"","us":""}
+{"title":"to my mind","uk":"","us":""}
+{"title":"to no avail","uk":"","us":""}
+{"title":"to overflowing","uk":"","us":""}
+{"title":"to raise/ring/set off/sound alarm bells","uk":"","us":""}
+{"title":"to put it mildly","uk":"","us":""}
+{"title":"topos","uk":"uk  / ˈtɒp.ɒs /","ukp":"/ˈtɒp.ɒs/","us":"us  / ˈtoʊ.poʊs /","usp":"/ˈtoʊ.poʊs/"}
+{"title":"topped","uk":"","us":""}
+{"title":"topper","uk":"uk  / ˈtɒp.ə r /","ukp":"/ˈtɒp.ər/","us":"us  / ˈtɑː.pɚ /","usp":"/ˈtɑː.pɚ/"}
+{"title":"topping","uk":"uk  / ˈtɒp.ɪŋ /","ukp":"/ˈtɒp.ɪŋ/","us":"us  / ˈtɑː.pɪŋ /","usp":"/ˈtɑː.pɪŋ/"}
+{"title":"topple","uk":"uk  / ˈtɒp. ə l /","ukp":"/ˈtɒp.əl/","us":"us  / ˈtɑː.p ə l /","usp":"/ˈtɑː.pəl/"}
+{"title":"toppled","uk":"uk  / ˈtɒp. ə l /","ukp":"/ˈtɒp.əl/","us":"us  / ˈtɑː.p ə l /","usp":"/ˈtɑː.pəl/"}
+{"title":"toppling","uk":"uk  / ˈtɒp. ə l /","ukp":"/ˈtɒp.əl/","us":"us  / ˈtɑː.p ə l /","usp":"/ˈtɑː.pəl/"}
+{"title":"tops","uk":"uk  / tɒps /","ukp":"/tɒps/","us":"us  / tɑːps /","usp":"/tɑːps/"}
+{"title":"topsail","uk":"uk  / ˈtɒp.seɪl /","ukp":"/ˈtɒp.seɪl/","us":"us  / ˈtɑːp.seɪl /","usp":"/ˈtɑːp.seɪl/"}
+{"title":"topspin","uk":"uk  / ˈtɒp.spɪn /","ukp":"/ˈtɒp.spɪn/","us":"us  / ˈtɑːp.spɪn /","usp":"/ˈtɑːp.spɪn/"}
+{"title":"topsoil","uk":"uk  / ˈtɒp.sɔɪl /","ukp":"/ˈtɒp.sɔɪl/","us":"us  / ˈtɑːp.sɔɪl /","usp":"/ˈtɑːp.sɔɪl/"}
+{"title":"toque","uk":"uk  / təʊk /","ukp":"/təʊk/","us":"us  / toʊk /","usp":"/toʊk/"}
+{"title":"topsy-turvy","uk":"uk  / ˌtɒp.siˈtɜː.vi /","ukp":"/ˌtɒp.siˈtɜː.vi/","us":"us  / ˌtɑːp.siˈtɝː.vi /","usp":"/ˌtɑːp.siˈtɝː.vi/"}
+{"title":"tor","uk":"uk  / tɔː r /","ukp":"/tɔːr/","us":"us  / tɔːr /","usp":"/tɔːr/"}
+{"title":"torch bearer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"torch song","uk":"uk  / ˈtɔːtʃ ˌsɒŋ /","ukp":"/ˈtɔːtʃ ˌsɒŋ/","us":"us  / ˈtɔːrtʃ ˌsɑːŋ /","usp":"/ˈtɔːrtʃ ˌsɑːŋ/"}
+{"title":"torch","uk":"uk  / tɔːtʃ /","ukp":"/tɔːtʃ/","us":"us  / tɔːrtʃ /","usp":"/tɔːrtʃ/"}
+{"title":"torched","uk":"uk  / tɔːtʃ /","ukp":"/tɔːtʃ/","us":"us  / tɔːrtʃ /","usp":"/tɔːrtʃ/"}
+{"title":"torching","uk":"uk  / tɔːtʃ /","ukp":"/tɔːtʃ/","us":"us  / tɔːrtʃ /","usp":"/tɔːrtʃ/"}
+{"title":"torchlight","uk":"uk  / ˈtɔːtʃ.laɪt /","ukp":"/ˈtɔːtʃ.laɪt/","us":"us  / ˈtɔːrtʃ.laɪt /","usp":"/ˈtɔːrtʃ.laɪt/"}
+{"title":"tore","uk":"uk  / tɔː r /","ukp":"/tɔːr/","us":"us  / tɔːr /","usp":"/tɔːr/"}
+{"title":"toreador","uk":"uk  / ˈtɒr.i.ə.dɔː r /","ukp":"/ˈtɒr.i.ə.dɔːr/","us":"us  / ˈtɔːr.i.ə.dɔːr /","usp":"/ˈtɔːr.i.ə.dɔːr/"}
+{"title":"torment","uk":"uk  / ˈtɔː.ment /","ukp":"/ˈtɔː.ment/","us":"us  / ˈtɔːr.ment /","usp":"/ˈtɔːr.ment/"}
+{"title":"tormented","uk":"uk  / tɔːˈment /","ukp":"/tɔːˈment/","us":"us  / tɔːrˈment /","usp":"/tɔːrˈment/"}
+{"title":"tormenting","uk":"uk  / tɔːˈment /","ukp":"/tɔːˈment/","us":"us  / tɔːrˈment /","usp":"/tɔːrˈment/"}
+{"title":"tormentor","uk":"uk  / tɔːˈmen.tə r /","ukp":"/tɔːˈmen.tər/","us":"us  / tɔːrˈmen.t̬ɚ /","usp":"/tɔːrˈmen.t̬ɚ/"}
+{"title":"torn between something and something","uk":"","us":""}
+{"title":"torn","uk":"uk  / tɔːn /","ukp":"/tɔːn/","us":"us  / tɔːrn /","usp":"/tɔːrn/"}
+{"title":"tornadoes","uk":"","us":""}
+{"title":"tornado","uk":"uk  / tɔːˈneɪ.dəʊ /","ukp":"/tɔːˈneɪ.dəʊ/","us":"us  / tɔːrˈneɪ.doʊ /","usp":"/tɔːrˈneɪ.doʊ/"}
+{"title":"Toronto","uk":"uk  / təˈrɒn.təʊ /","ukp":"/təˈrɒn.təʊ/","us":"us  / təˈrɑːn.t̬oʊ /","usp":"/təˈrɑːn.t̬oʊ/"}
+{"title":"torpedo","uk":"uk  / tɔːˈpiː.dəʊ /","ukp":"/tɔːˈpiː.dəʊ/","us":"us  / tɔːrˈpiː.doʊ /","usp":"/tɔːrˈpiː.doʊ/"}
+{"title":"torpedoed","uk":"uk  / tɔːˈpiː.dəʊ /","ukp":"/tɔːˈpiː.dəʊ/","us":"us  / tɔːrˈpiː.doʊ /","usp":"/tɔːrˈpiː.doʊ/"}
+{"title":"torpedoes","uk":"","us":""}
+{"title":"torpedoing","uk":"uk  / tɔːˈpiː.dəʊ /","ukp":"/tɔːˈpiː.dəʊ/","us":"us  / tɔːrˈpiː.doʊ /","usp":"/tɔːrˈpiː.doʊ/"}
+{"title":"torpid","uk":"uk  / ˈtɔː.pɪd /","ukp":"/ˈtɔː.pɪd/","us":"us  / ˈtɔːr.pɪd /","usp":"/ˈtɔːr.pɪd/"}
+{"title":"torpidly","uk":"uk  / ˈtɔː.pɪd.li /","ukp":"/ˈtɔː.pɪd.li/","us":"us  / ˈtɔːr.pɪd.li /","usp":"/ˈtɔːr.pɪd.li/"}
+{"title":"torpor","uk":"uk  / ˈtɔː.pə r /","ukp":"/ˈtɔː.pər/","us":"us  / ˈtɔːr.pɚ /","usp":"/ˈtɔːr.pɚ/"}
+{"title":"torque","uk":"uk  / tɔːk /","ukp":"/tɔːk/","us":"us  / tɔːrk /","usp":"/tɔːrk/"}
+{"title":"torr","uk":"uk  / tɔː /","ukp":"/tɔː/","us":"us  / tɔːr /","usp":"/tɔːr/"}
+{"title":"torrent","uk":"uk  / ˈtɒr. ə nt /","ukp":"/ˈtɒr.ənt/","us":"us  / ˈtɔːr. ə nt /","usp":"/ˈtɔːr.ənt/"}
+{"title":"torrential","uk":"uk  / təˈren.ʃ ə l /","ukp":"/təˈren.ʃəl/","us":"us  / tɔːˈren.ʃ ə l /","usp":"/tɔːˈren.ʃəl/"}
+{"title":"Torres Strait Islander","uk":"uk / ˌtɒr.ɪs ˌstreɪt ˈaɪ.lən.də r /","ukp":"/ˌtɒr.ɪs ˌstreɪt ˈaɪ.lən.dər/","us":"us / ˌtɑː.rɪs ˌstreɪt ˈaɪ.lən.dɚ /","usp":"/ˌtɑː.rɪs ˌstreɪt ˈaɪ.lən.dɚ/"}
+{"title":"torrid","uk":"uk  / ˈtɒr.ɪd /","ukp":"/ˈtɒr.ɪd/","us":"us  / ˈtɔːr.ɪd /","usp":"/ˈtɔːr.ɪd/"}
+{"title":"torsion","uk":"uk  / ˈtɔː.ʃ ə n /","ukp":"/ˈtɔː.ʃən/","us":"us  / ˈtɔːr.ʃ ə n /","usp":"/ˈtɔːr.ʃən/"}
+{"title":"torso","uk":"uk  / ˈtɔː.səʊ /","ukp":"/ˈtɔː.səʊ/","us":"us  / ˈtɔːr.soʊ /","usp":"/ˈtɔːr.soʊ/"}
+{"title":"torte","uk":"uk  / ˈtɔːt /","ukp":"/ˈtɔːt/","us":"us  / ˈtɔːrt /","usp":"/ˈtɔːrt/"}
+{"title":"tortellini","uk":"uk  / ˌtɔː.t ə lˈiː.ni /","ukp":"/ˌtɔː.təlˈiː.ni/","us":"us  / ˌtɔːr.t̬əˈliː.ni /","usp":"/ˌtɔːr.t̬əˈliː.ni/"}
+{"title":"tort","uk":"uk  / ˈtɔːt /","ukp":"/ˈtɔːt/","us":"us  / ˈtɔːrt /","usp":"/ˈtɔːrt/"}
+{"title":"tortilla","uk":"uk  / tɔːˈtiː.ə /","ukp":"/tɔːˈtiː.ə/","us":"us  / tɔːrˈtiː.jə /","usp":"/tɔːrˈtiː.jə/"}
+{"title":"tortilla chip","uk":"uk  / tɔːˈtiː.ə ˌtʃɪp /","ukp":"/tɔːˈtiː.ə ˌtʃɪp/","us":"us  / tɔːrˈtiː.jə ˌtʃɪp /","usp":"/tɔːrˈtiː.jə ˌtʃɪp/"}
+{"title":"tortilla chips","uk":"","us":"us / tɔrˈti·ə ˌtʃɪps /","usp":"/tɔrˈti·ə ˌtʃɪps/"}
+{"title":"tortoise","uk":"uk  / ˈtɔː.təs /","ukp":"/ˈtɔː.təs/","us":"us  / ˈtɔːr.t̬əs /","usp":"/ˈtɔːr.t̬əs/"}
+{"title":"tortoiseshell","uk":"uk  / ˈtɔː.təʃ.ʃel /","ukp":"/ˈtɔː.təʃ.ʃel/","us":"us  / ˈtɔːr.t̬əs.ʃel /","usp":"/ˈtɔːr.t̬əs.ʃel/"}
+{"title":"tortoiseshell butterfly","uk":"uk  / ˌtɔː.təʃ.ʃel ˈbʌt.ə.flaɪ /","ukp":"/ˌtɔː.təʃ.ʃel ˈbʌt.ə.flaɪ/","us":"us  / ˌtɔːr.t̬əs.ʃel ˈbʌt̬.ɚ.flaɪ /","usp":"/ˌtɔːr.t̬əs.ʃel ˈbʌt̬.ɚ.flaɪ/"}
+{"title":"tortuously","uk":"uk  / ˈtɔː.tʃu.əs.li /","ukp":"/ˈtɔː.tʃu.əs.li/","us":"us  / ˈtɔːr.tʃu.əs.li /","usp":"/ˈtɔːr.tʃu.əs.li/"}
+{"title":"tortuous","uk":"uk  / ˈtɔː.tʃu.əs /","ukp":"/ˈtɔː.tʃu.əs/","us":"us  / ˈtɔːr.tʃu.əs /","usp":"/ˈtɔːr.tʃu.əs/"}
+{"title":"tortuousness","uk":"uk  / ˈtɔː.tʃu.əs.nəs /","ukp":"/ˈtɔː.tʃu.əs.nəs/","us":"us  / ˈtɔːr.tʃu.əs.nəs /","usp":"/ˈtɔːr.tʃu.əs.nəs/"}
+{"title":"torture","uk":"uk  / ˈtɔː.tʃə r /","ukp":"/ˈtɔː.tʃər/","us":"us  / ˈtɔːr.tʃɚ /","usp":"/ˈtɔːr.tʃɚ/"}
+{"title":"tortured","uk":"uk  / ˈtɔː.tʃəd /","ukp":"/ˈtɔː.tʃəd/","us":"us  / ˈtɔːr.tʃɚd /","usp":"/ˈtɔːr.tʃɚd/"}
+{"title":"torturer","uk":"uk  / ˈtɔː.tʃ ə r.ə r /","ukp":"/ˈtɔː.tʃər.ər/","us":"us  / ˈtɔːr..tʃ ə r.ɚ /","usp":"/ˈtɔːr..tʃər.ɚ/"}
+{"title":"torturing","uk":"uk  / ˈtɔː.tʃə r /","ukp":"/ˈtɔː.tʃər/","us":"us  / ˈtɔːr.tʃɚ /","usp":"/ˈtɔːr.tʃɚ/"}
+{"title":"torturous","uk":"uk  / ˈtɔː.tʃ ə r.əs /","ukp":"/ˈtɔː.tʃər.əs/","us":"us  / ˈtɔːr.tʃ ə r.əs /","usp":"/ˈtɔːr.tʃər.əs/"}
+{"title":"Toryism","uk":"uk  / ˈtɔː.ri.ɪ.z ə m /","ukp":"/ˈtɔː.ri.ɪ.zəm/","us":"us  / ˈtɔːr.i.ɪ.z ə m /","usp":"/ˈtɔːr.i.ɪ.zəm/"}
+{"title":"torus","uk":"uk / ˈtɔː.rəs /","ukp":"/ˈtɔː.rəs/","us":"us / ˈtɔː.rəs /","usp":"/ˈtɔː.rəs/"}
+{"title":"Tory","uk":"uk  / ˈtɔː.ri /","ukp":"/ˈtɔː.ri/","us":"us  / ˈtɔːr.i /","usp":"/ˈtɔːr.i/"}
+{"title":"TOS","uk":"uk  / ˌtiː.əʊˈes /","ukp":"/ˌtiː.əʊˈes/","us":"us  / ˈtiːˌoʊˈes /","usp":"/ˈtiːˌoʊˈes/"}
+{"title":"tosh","uk":"uk  / tɒʃ /","ukp":"/tɒʃ/","us":"us  / tɑːʃ /","usp":"/tɑːʃ/"}
+{"title":"toss (and turn)","uk":"","us":""}
+{"title":"toss something around","uk":"uk  / tɒs /","ukp":"/tɒs/","us":"us  / tɑːs /","usp":"/tɑːs/"}
+{"title":"toss","uk":"uk  / tɒs /","ukp":"/tɒs/","us":"us  / tɑːs /","usp":"/tɑːs/"}
+{"title":"toss something aside","uk":"uk  / tɒs /","ukp":"/tɒs/","us":"us  / tɑːs /","usp":"/tɑːs/"}
+{"title":"toss something away","uk":"uk  / tɒs /","ukp":"/tɒs/","us":"us  / tɑːs /","usp":"/tɑːs/"}
+{"title":"toss something off","uk":"uk  / tɒs /","ukp":"/tɒs/","us":"us  / tɑːs /","usp":"/tɑːs/"}
+{"title":"toss something out","uk":"uk  / tɒs /","ukp":"/tɒs/","us":"us  / tɑːs /","usp":"/tɑːs/"}
+{"title":"tosser","uk":"uk  / ˈtɒs.ə r /","ukp":"/ˈtɒs.ər/","us":"us  / ˈtɑː.sɚ /","usp":"/ˈtɑː.sɚ/"}
+{"title":"toss up","uk":"uk  / tɒs /","ukp":"/tɒs/","us":"us  / tɑːs /","usp":"/tɑːs/"}
+{"title":"tossed","uk":"uk  / tɒs /","ukp":"/tɒs/","us":"us  / tɑːs /","usp":"/tɑːs/"}
+{"title":"tot something up","uk":"uk  / tɒt /","ukp":"/tɒt/","us":"us  / tɑːt /","usp":"/tɑːt/"}
+{"title":"tot","uk":"uk  / tɒt /","ukp":"/tɒt/","us":"us  / tɑːt /","usp":"/tɑːt/"}
+{"title":"tossing","uk":"uk  / tɒs /","ukp":"/tɒs/","us":"us  / tɑːs /","usp":"/tɑːs/"}
+{"title":"total cost of ownership","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Total Football","uk":"uk  / ˌtəʊ.t ə l ˈfʊt.bɔːl /","ukp":"/ˌtəʊ.təl ˈfʊt.bɔːl/","us":"us  / ˌtoʊ.t̬ ə l ˈfʊt.bɑːl /","usp":"/ˌtoʊ.t̬əl ˈfʊt.bɑːl/"}
+{"title":"total","uk":"uk  / ˈtəʊ.t ə l /","ukp":"/ˈtəʊ.təl/","us":"us  / ˈtoʊ.t̬ ə l /","usp":"/ˈtoʊ.t̬əl/"}
+{"title":"total physical response","uk":"uk  / ˌtəʊ.t ə l ˌfɪz.ɪ.k ə l rɪˈspɒns /","ukp":"/ˌtəʊ.təl ˌfɪz.ɪ.kəl rɪˈspɒns/","us":"us  / ˌtoʊ.t̬ ə l ˌfɪz.ɪ.k ə l rɪˈspɑːns /","usp":"/ˌtoʊ.t̬əl ˌfɪz.ɪ.kəl rɪˈspɑːns/"}
+{"title":"total productive maintenance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"total quality management","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tone poem","uk":"uk  / ˈtəʊn ˌpəʊ.ɪm /","ukp":"/ˈtəʊn ˌpəʊ.ɪm/","us":"us  / ˈtoʊn ˌpoʊ.əm /","usp":"/ˈtoʊn ˌpoʊ.əm/"}
+{"title":"tone something down","uk":"uk  / təʊn /","ukp":"/təʊn/","us":"us  / toʊn /","usp":"/toʊn/"}
+{"title":"tone-deaf","uk":"uk  / ˌtəʊnˈdef /","ukp":"/ˌtəʊnˈdef/","us":"us  / ˌtoʊnˈdef /","usp":"/ˌtoʊnˈdef/"}
+{"title":"toned","uk":"uk  / təʊnd /","ukp":"/təʊnd/","us":"us  / toʊnd /","usp":"/toʊnd/"}
+{"title":"tonelessly","uk":"uk  / ˈtəʊn.ləs.li /","ukp":"/ˈtəʊn.ləs.li/","us":"us  / ˈtoʊn.ləs.li /","usp":"/ˈtoʊn.ləs.li/"}
+{"title":"toneless","uk":"uk  / ˈtəʊn.ləs /","ukp":"/ˈtəʊn.ləs/","us":"us  / ˈtoʊn.ləs /","usp":"/ˈtoʊn.ləs/"}
+{"title":"toner","uk":"uk  / ˈtəʊ.nə r /","ukp":"/ˈtəʊ.nər/","us":"us  / ˈtoʊ.nɚ /","usp":"/ˈtoʊ.nɚ/"}
+{"title":"tong","uk":"uk  / tɒŋ /","ukp":"/tɒŋ/","us":"us  / tɑːŋ /","usp":"/tɑːŋ/"}
+{"title":"Tonga","uk":"uk  / ˈtɒŋ.ə /","ukp":"/ˈtɒŋ.ə/","us":"us  / ˈtɑːŋ.ə /","usp":"/ˈtɑːŋ.ə/"}
+{"title":"Tongan","uk":"uk  / ˈtɒŋ.ən /","ukp":"/ˈtɒŋ.ən/","us":"us  / ˈtɑːŋ.ən /","usp":"/ˈtɑːŋ.ən/"}
+{"title":"tongs","uk":"uk  / tɒŋz /","ukp":"/tɒŋz/","us":"us  / tɑːŋz /","usp":"/tɑːŋz/"}
+{"title":"tongue depressor","uk":"uk  / ˈtʌŋ dɪˌpres.ə r /","ukp":"/ˈtʌŋ dɪˌpres.ər/","us":"us  / ˈtʌŋ dɪˌpres.ɚ /","usp":"/ˈtʌŋ dɪˌpres.ɚ/"}
+{"title":"tongue","uk":"uk  / tʌŋ /","ukp":"/tʌŋ/","us":"us  / tʌŋ /","usp":"/tʌŋ/"}
+{"title":"tongue in cheek","uk":"uk  / ˌtʌŋ.ɪnˈtʃiːk /","ukp":"/ˌtʌŋ.ɪnˈtʃiːk/","us":"us  / ˌtʌŋ.ɪnˈtʃiːk /","usp":"/ˌtʌŋ.ɪnˈtʃiːk/"}
+{"title":"tongue-lashing","uk":"uk  / ˈtʌŋˌlæʃ.ɪŋ /","ukp":"/ˈtʌŋˌlæʃ.ɪŋ/","us":"us  / ˈtʌŋˌlæʃ.ɪŋ /","usp":"/ˈtʌŋˌlæʃ.ɪŋ/"}
+{"title":"tongue-tied","uk":"uk  / ˈtʌŋ.taɪd /","ukp":"/ˈtʌŋ.taɪd/","us":"us  / ˈtʌŋ.taɪd /","usp":"/ˈtʌŋ.taɪd/"}
+{"title":"tongue-twister","uk":"uk  / ˈtʌŋˌtwɪs.tə r /","ukp":"/ˈtʌŋˌtwɪs.tər/","us":"us  / ˈtʌŋˌtwɪs.tɚ /","usp":"/ˈtʌŋˌtwɪs.tɚ/"}
+{"title":"-tongued","uk":"uk  / -tʌŋd /","ukp":"/ -tʌŋd/","us":"us  / -tʌŋd /","usp":"/ -tʌŋd/"}
+{"title":"tongues wagging","uk":"","us":""}
+{"title":"tonic","uk":"uk  / ˈtɒn.ɪk /","ukp":"/ˈtɒn.ɪk/","us":"us  / ˈtɑː.nɪk /","usp":"/ˈtɑː.nɪk/"}
+{"title":"tonic (water)","uk":"","us":"us  / ˈtɑn·ɪk (ˈwɔ·t̬ər , ˈwɑt̬·ər) /","usp":"/ˈtɑn·ɪk (ˈwɔ·t̬ər, ˈwɑt̬·ər)/"}
+{"title":"tonka bean","uk":"uk  / ˈtɒŋ.kə ˌbiːn /","ukp":"/ˈtɒŋ.kə ˌbiːn/","us":"us  / ˈtɑːŋ.kə ˌbiːn /","usp":"/ˈtɑːŋ.kə ˌbiːn/"}
+{"title":"tonight","uk":"uk  / təˈnaɪt /","ukp":"/təˈnaɪt/","us":"us  / təˈnaɪt /","usp":"/təˈnaɪt/"}
+{"title":"toning","uk":"uk  / təʊn /","ukp":"/təʊn/","us":"us  / toʊn /","usp":"/toʊn/"}
+{"title":"tonne","uk":"uk  / tʌn /","ukp":"/tʌn/","us":"us  / tʌn /","usp":"/tʌn/"}
+{"title":"tonnage","uk":"uk  / ˈtʌn.ɪdʒ /","ukp":"/ˈtʌn.ɪdʒ/","us":"us  / ˈtʌn.ɪdʒ /","usp":"/ˈtʌn.ɪdʒ/"}
+{"title":"tonsil tennis","uk":"uk  / ˈtɒn.s ə l ˌten.ɪs /","ukp":"/ˈtɒn.səl ˌten.ɪs/","us":"us  / ˈtɑːn.s ə l ˌten.ɪs /","usp":"/ˈtɑːn.səl ˌten.ɪs/"}
+{"title":"tonsil","uk":"uk  / ˈtɒn.s ə lz /","ukp":"/ˈtɒn.səlz/","us":"us  / ˈtɑːn.s ə lz /","usp":"/ˈtɑːn.səlz/"}
+{"title":"tonsils","uk":"","us":"us  / ˈtɑn·səlz /","usp":"/ˈtɑn·səlz/"}
+{"title":"tonsorial","uk":"uk  / tɒnˈsɔː.ri.əl /","ukp":"/tɒnˈsɔː.ri.əl/","us":"us  / tɑːnˈsɔːr.i.əl /","usp":"/tɑːnˈsɔːr.i.əl/"}
+{"title":"tonsillitis","uk":"uk  / ˌtɒn.sɪˈlaɪ.təs /","ukp":"/ˌtɒn.sɪˈlaɪ.təs/","us":"us  / ˌtɑːn.sɪˈlaɪ.t̬əs /","usp":"/ˌtɑːn.sɪˈlaɪ.t̬əs/"}
+{"title":"tonsure","uk":"uk  / ˈtɒn.ʃə r /","ukp":"/ˈtɒn.ʃər/","us":"us  / ˈtɑːn.ʃɚ /","usp":"/ˈtɑːn.ʃɚ/"}
+{"title":"tony","uk":"uk  / ˈtəʊn.i /","ukp":"/ˈtəʊn.i/","us":"us  / ˈtoʊn.i /","usp":"/ˈtoʊn.i/"}
+{"title":"too","uk":"uk  / tuː /","ukp":"/tuː/","us":"us  / tuː /","usp":"/tuː/"}
+{"title":"too big for your britches","uk":"","us":""}
+{"title":"too big for your boots","uk":"","us":""}
+{"title":"too bad","uk":"","us":""}
+{"title":"too cool for school","uk":"","us":""}
+{"title":"too little, too late","uk":"","us":""}
+{"title":"too good to miss","uk":"","us":""}
+{"title":"too good to be true","uk":"","us":""}
+{"title":"too many cooks spoil the soup","uk":"","us":""}
+{"title":"too many chiefs and not enough Indians","uk":"","us":""}
+{"title":"too much information","uk":"","us":""}
+{"title":"too many cooks spoil the broth","uk":"","us":""}
+{"title":"too much like hard work","uk":"","us":""}
+{"title":"total shareholder return","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"too much","uk":"","us":""}
+{"title":"too much of a good thing","uk":"","us":""}
+{"title":"totalitarian","uk":"uk  / təʊˌtæl.ɪˈteə.ri.ən /","ukp":"/təʊˌtæl.ɪˈteə.ri.ən/","us":"us  / toʊˌtæl.əˈter.i.ən /","usp":"/toʊˌtæl.əˈter.i.ən/"}
+{"title":"totalitarianism","uk":"uk  / təʊˌtæl.ɪˈteə.ri.ə.nɪ.z ə m /","ukp":"/təʊˌtæl.ɪˈteə.ri.ə.nɪ.zəm/","us":"us  / toʊˌtæl.əˈter.i.ə.nɪ.z ə m /","usp":"/toʊˌtæl.əˈter.i.ə.nɪ.zəm/"}
+{"title":"totalled","uk":"","us":""}
+{"title":"totality","uk":"uk  / təʊˈtæl.ə.ti /","ukp":"/təʊˈtæl.ə.ti/","us":"us  / toʊˈtæl.ə.t̬i /","usp":"/toʊˈtæl.ə.t̬i/"}
+{"title":"totalling","uk":"","us":""}
+{"title":"totally","uk":"uk  / ˈtəʊ.t ə l.i /","ukp":"/ˈtəʊ.təl.i/","us":"us  / ˈtoʊ.t̬ ə l.i /","usp":"/ˈtoʊ.t̬əl.i/"}
+{"title":"tote","uk":"uk  / təʊt /","ukp":"/təʊt/","us":"us  / toʊt /","usp":"/toʊt/"}
+{"title":"tote bag","uk":"uk  / ˈtəʊt ˌbæɡ /","ukp":"/ˈtəʊt ˌbæɡ/","us":"us  / ˈtoʊt ˌbæɡ /","usp":"/ˈtoʊt ˌbæɡ/"}
+{"title":"toted","uk":"uk  / təʊt /","ukp":"/təʊt/","us":"us  / toʊt /","usp":"/toʊt/"}
+{"title":"totem","uk":"uk  / ˈtəʊ.təm /","ukp":"/ˈtəʊ.təm/","us":"us  / ˈtoʊ.t̬əm /","usp":"/ˈtoʊ.t̬əm/"}
+{"title":"totemic","uk":"uk  / təʊˈtem.ɪk /","ukp":"/təʊˈtem.ɪk/","us":"us  / toʊˈtem.ɪk /","usp":"/toʊˈtem.ɪk/"}
+{"title":"totem pole","uk":"uk  / ˈtəʊ.təm ˌpəʊl /","ukp":"/ˈtəʊ.təm ˌpəʊl/","us":"us  / ˈtoʊ.t̬əm ˌpoʊl /","usp":"/ˈtoʊ.t̬əm ˌpoʊl/"}
+{"title":"toting","uk":"uk  / təʊt /","ukp":"/təʊt/","us":"us  / toʊt /","usp":"/toʊt/"}
+{"title":"totes","uk":"uk  / təʊts /","ukp":"/təʊts/","us":"us  / toʊts /","usp":"/toʊts/"}
+{"title":"toto","uk":"uk  / ˈtəʊ.təʊ /","ukp":"/ˈtəʊ.təʊ/","us":"us  / ˈtoʊ.t̬oʊ /","usp":"/ˈtoʊ.t̬oʊ/"}
+{"title":"tottered","uk":"uk  / ˈtɒt.ə r /","ukp":"/ˈtɒt.ər/","us":"us  / ˈtɑː.t̬ɚ /","usp":"/ˈtɑː.t̬ɚ/"}
+{"title":"totter","uk":"uk  / ˈtɒt.ə r /","ukp":"/ˈtɒt.ər/","us":"us  / ˈtɑː.t̬ɚ /","usp":"/ˈtɑː.t̬ɚ/"}
+{"title":"tottering","uk":"uk  / ˈtɒt. ə r.ɪŋ /","ukp":"/ˈtɒt.ər.ɪŋ/","us":"us  / ˈtɑː.t̬ɚ.ɪŋ /","usp":"/ˈtɑː.t̬ɚ.ɪŋ/"}
+{"title":"tottery","uk":"uk  / ˈtɒt. ə r.i /","ukp":"/ˈtɒt.ər.i/","us":"us  / ˈtɑː.t̬ɚ.i /","usp":"/ˈtɑː.t̬ɚ.i/"}
+{"title":"totty","uk":"uk  / ˈtɒt.i /","ukp":"/ˈtɒt.i/","us":"us  / ˈtɑː.t̬i /","usp":"/ˈtɑː.t̬i/"}
+{"title":"toucan","uk":"uk  / ˈtuː.kən /","ukp":"/ˈtuː.kən/","us":"us  / ˈtuː.kæn /","usp":"/ˈtuː.kæn/"}
+{"title":"touch base (with someone )","uk":"","us":""}
+{"title":"touch base","uk":"","us":""}
+{"title":"touch football","uk":"uk  / ˌtʌtʃ ˈfʊt.bɔːl /","ukp":"/ˌtʌtʃ ˈfʊt.bɔːl/","us":"us  / ˌtʌtʃ ˈfʊt.bɑːl /","usp":"/ˌtʌtʃ ˈfʊt.bɑːl/"}
+{"title":"touch down","uk":"uk  / tʌtʃ /","ukp":"/tʌtʃ/","us":"us  / tʌtʃ /","usp":"/tʌtʃ/"}
+{"title":"touch","uk":"uk  / tʌtʃ /","ukp":"/tʌtʃ/","us":"us  / tʌtʃ /","usp":"/tʌtʃ/"}
+{"title":"touch on something","uk":"","us":"us  / tʌtʃ /","usp":"/tʌtʃ/"}
+{"title":"touch on/upon something","uk":"uk  / tʌtʃ /","ukp":"/tʌtʃ/","us":"us  / tʌtʃ /","usp":"/tʌtʃ/"}
+{"title":"touch screen","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"touch something in","uk":"uk  / tʌtʃ /","ukp":"/tʌtʃ/","us":"us  / tʌtʃ /","usp":"/tʌtʃ/"}
+{"title":"touch something off","uk":"uk  / tʌtʃ /","ukp":"/tʌtʃ/","us":"us  / tʌtʃ /","usp":"/tʌtʃ/"}
+{"title":"touch something up","uk":"uk  / tʌtʃ /","ukp":"/tʌtʃ/","us":"us  / tʌtʃ /","usp":"/tʌtʃ/"}
+{"title":"touch wood","uk":"","us":""}
+{"title":"touch-and-go","uk":"uk  / ˌtʌtʃ.ənˈɡəʊ /","ukp":"/ˌtʌtʃ.ənˈɡəʊ/","us":"us  / ˌtʌtʃ.ənˈɡoʊ /","usp":"/ˌtʌtʃ.ənˈɡoʊ/"}
+{"title":"Touch-Tone","uk":"uk  / ˈtʌtʃ.təʊn /","ukp":"/ˈtʌtʃ.təʊn/","us":"us  / ˈtʌtʃ.toʊn /","usp":"/ˈtʌtʃ.toʊn/"}
+{"title":"touch-type","uk":"uk  / ˈtʌtʃ.taɪp /","ukp":"/ˈtʌtʃ.taɪp/","us":"us  / ˈtʌtʃ.taɪp /","usp":"/ˈtʌtʃ.taɪp/"}
+{"title":"touch-typed","uk":"uk  / ˈtʌtʃ.taɪp /","ukp":"/ˈtʌtʃ.taɪp/","us":"us  / ˈtʌtʃ.taɪp /","usp":"/ˈtʌtʃ.taɪp/"}
+{"title":"touch-typing","uk":"uk  / ˈtʌtʃ.taɪp /","ukp":"/ˈtʌtʃ.taɪp/","us":"us  / ˈtʌtʃ.taɪp /","usp":"/ˈtʌtʃ.taɪp/"}
+{"title":"touch/strike/hit a (raw) nerve","uk":"","us":""}
+{"title":"touché","uk":"uk  / tuːˈʃeɪ /","ukp":"/tuːˈʃeɪ/","us":"us  / tuːˈʃeɪ /","usp":"/tuːˈʃeɪ/"}
+{"title":"touchdown","uk":"uk  / ˈtʌtʃ.daʊn /","ukp":"/ˈtʌtʃ.daʊn/","us":"us  / ˈtʌtʃ.daʊn /","usp":"/ˈtʌtʃ.daʊn/"}
+{"title":"touched","uk":"uk  / tʌtʃt /","ukp":"/tʌtʃt/","us":"us  / tʌtʃt /","usp":"/tʌtʃt/"}
+{"title":"touchiness","uk":"uk  / ˈtʌtʃ.i.nəs /","ukp":"/ˈtʌtʃ.i.nəs/","us":"us  / ˈtʌtʃ.i.nəs /","usp":"/ˈtʌtʃ.i.nəs/"}
+{"title":"touchily","uk":"uk  / ˈtʌtʃ. ə l.i /","ukp":"/ˈtʌtʃ.əl.i/","us":"us  / ˈtʌtʃ. ə l.i /","usp":"/ˈtʌtʃ.əl.i/"}
+{"title":"touching","uk":"uk  / ˈtʌtʃ.ɪŋ /","ukp":"/ˈtʌtʃ.ɪŋ/","us":"us  / ˈtʌtʃ.ɪŋ /","usp":"/ˈtʌtʃ.ɪŋ/"}
+{"title":"touchingly","uk":"uk  / ˈtʌtʃ.ɪŋ.li /","ukp":"/ˈtʌtʃ.ɪŋ.li/","us":"us  / ˈtʌtʃ.ɪŋ.li /","usp":"/ˈtʌtʃ.ɪŋ.li/"}
+{"title":"toerag","uk":"uk  / ˈtəʊ.ræɡ /","ukp":"/ˈtəʊ.ræɡ/","us":"us  / ˈtoʊ.ræɡ /","usp":"/ˈtoʊ.ræɡ/"}
+{"title":"toff","uk":"uk  / tɒf /","ukp":"/tɒf/","us":"us  / tɑːf /","usp":"/tɑːf/"}
+{"title":"toffee","uk":"uk  / ˈtɒf.i /","ukp":"/ˈtɒf.i/","us":"us  / ˈtɑː.fi /","usp":"/ˈtɑː.fi/"}
+{"title":"toffee apple","uk":"uk  / ˈtɒf.i ˌæp. ə l /","ukp":"/ˈtɒf.i ˌæp.əl/","us":"us  / ˈtɑː.fi ˌæp. ə l /","usp":"/ˈtɑː.fi ˌæp.əl/"}
+{"title":"toffee-nosed","uk":"uk  / ˈtɒf.i.nəʊzd /","ukp":"/ˈtɒf.i.nəʊzd/","us":"us  / ˈtɑː.fi.noʊzd /","usp":"/ˈtɑː.fi.noʊzd/"}
+{"title":"tofu","uk":"uk  / ˈtəʊ.fuː /","ukp":"/ˈtəʊ.fuː/","us":"us  / ˈtoʊ.fuː /","usp":"/ˈtoʊ.fuː/"}
+{"title":"tog","uk":"uk  / tɒɡ /","ukp":"/tɒɡ/","us":"us  / tɑːɡ /","usp":"/tɑːɡ/"}
+{"title":"togetherness","uk":"uk  / təˈɡeð.ə.nəs /","ukp":"/təˈɡeð.ə.nəs/","us":"us  / təˈɡeð.ɚ.nəs /","usp":"/təˈɡeð.ɚ.nəs/"}
+{"title":"toga","uk":"uk  / ˈtəʊ.ɡə /","ukp":"/ˈtəʊ.ɡə/","us":"us  / ˈtoʊ.ɡə /","usp":"/ˈtoʊ.ɡə/"}
+{"title":"together","uk":"uk  / təˈɡeð.ə r /","ukp":"/təˈɡeð.ər/","us":"us  / təˈɡeð.ɚ /","usp":"/təˈɡeð.ɚ/"}
+{"title":"toggled","uk":"uk  / ˈtɒɡ. ə l /","ukp":"/ˈtɒɡ.əl/","us":"us  / ˈtɑː.ɡ ə l /","usp":"/ˈtɑː.ɡəl/"}
+{"title":"toggling","uk":"uk  / ˈtɒɡ. ə l /","ukp":"/ˈtɒɡ.əl/","us":"us  / ˈtɑː.ɡ ə l /","usp":"/ˈtɑː.ɡəl/"}
+{"title":"toggle","uk":"uk  / ˈtɒɡ. ə l /","ukp":"/ˈtɒɡ.əl/","us":"us  / ˈtɑː.ɡ ə l /","usp":"/ˈtɑː.ɡəl/"}
+{"title":"Togo","uk":"uk  / ˈtəʊ.ɡəʊ /","ukp":"/ˈtəʊ.ɡəʊ/","us":"us  / ˈtoʊ.ɡoʊ /","usp":"/ˈtoʊ.ɡoʊ/"}
+{"title":"Togolese","uk":"uk  / ˌtəʊ.ɡəˈliːz /","ukp":"/ˌtəʊ.ɡəˈliːz/","us":"us  / ˌtoʊ.ɡəˈliːz /","usp":"/ˌtoʊ.ɡəˈliːz/"}
+{"title":"tohubohu","uk":"uk  / ˌtəʊ.huːˈbəʊ.huː /","ukp":"/ˌtəʊ.huːˈbəʊ.huː/","us":"us  / ˌtoʊ.huːˈboʊ.huː /","usp":"/ˌtoʊ.huːˈboʊ.huː/"}
+{"title":"toil","uk":"uk  / tɔɪl /","ukp":"/tɔɪl/","us":"us  / tɔɪl /","usp":"/tɔɪl/"}
+{"title":"toiled","uk":"uk  / tɔɪl /","ukp":"/tɔɪl/","us":"us  / tɔɪl /","usp":"/tɔɪl/"}
+{"title":"toilet","uk":"uk  / ˈtɔɪ.lət /","ukp":"/ˈtɔɪ.lət/","us":"us  / ˈtɔɪ.lət /","usp":"/ˈtɔɪ.lət/"}
+{"title":"toilet bag","uk":"uk  / ˈtɔɪ.lət ˌbæɡ /","ukp":"/ˈtɔɪ.lət ˌbæɡ/","us":"us  / ˈtɔɪ.lət ˌbæɡ /","usp":"/ˈtɔɪ.lət ˌbæɡ/"}
+{"title":"toilet bowl","uk":"uk  / ˈtɔɪ.lət ˌbəʊl /","ukp":"/ˈtɔɪ.lət ˌbəʊl/","us":"us  / ˈtɔɪ.lət ˌboʊl /","usp":"/ˈtɔɪ.lət ˌboʊl/"}
+{"title":"toilet brush","uk":"uk  / ˈtɔɪ.lət ˌbrʌʃ /","ukp":"/ˈtɔɪ.lət ˌbrʌʃ/","us":"us  / ˈtɔɪ.lət ˌbrʌʃ /","usp":"/ˈtɔɪ.lət ˌbrʌʃ/"}
+{"title":"toilet paper","uk":"uk  / ˈtɔɪ.lət ˌpeɪ.pə r /","ukp":"/ˈtɔɪ.lət ˌpeɪ.pər/","us":"us  / ˈtɔɪ.lət ˌpeɪ.pɚ /","usp":"/ˈtɔɪ.lət ˌpeɪ.pɚ/"}
+{"title":"toilet soap","uk":"uk  / ˈtɔɪ.lət ˌsəʊp /","ukp":"/ˈtɔɪ.lət ˌsəʊp/","us":"us  / ˈtɔɪ.lət ˌsoʊp /","usp":"/ˈtɔɪ.lət ˌsoʊp/"}
+{"title":"toilet roll","uk":"uk  / ˈtɔɪ.lət ˌrəʊl /","ukp":"/ˈtɔɪ.lət ˌrəʊl/","us":"us  / ˈtɔɪ.lət ˌroʊl /","usp":"/ˈtɔɪ.lət ˌroʊl/"}
+{"title":"toilet tissue","uk":"uk  / ˈtɔɪ.lət ˌtɪʃ.uː /","ukp":"/ˈtɔɪ.lət ˌtɪʃ.uː/","us":"us  / ˈtɔɪ.lət ˌtɪʃ.uː /","usp":"/ˈtɔɪ.lət ˌtɪʃ.uː/"}
+{"title":"toilet-trained","uk":"uk  / ˈtɔɪ.lət.treɪnd /","ukp":"/ˈtɔɪ.lət.treɪnd/","us":"us  / ˈtɔɪ.lət.treɪnd /","usp":"/ˈtɔɪ.lət.treɪnd/"}
+{"title":"toilet water","uk":"uk  / ˈtɔɪ.lət ˌwɔː.tə r /","ukp":"/ˈtɔɪ.lət ˌwɔː.tər/","us":"us  / ˈtɔɪ.lət ˌwɑː.t̬ɚ /","usp":"/ˈtɔɪ.lət ˌwɑː.t̬ɚ/"}
+{"title":"toiletries","uk":"uk  / ˈtɔɪ.lə.triz /","ukp":"/ˈtɔɪ.lə.triz/","us":"us  / ˈtɔɪ.lə.triz /","usp":"/ˈtɔɪ.lə.triz/"}
+{"title":"toiletry bag","uk":"uk / ˈtɔɪ.lə.tri ˌbæɡ /","ukp":"/ˈtɔɪ.lə.tri ˌbæɡ/","us":"us  / ˈtɔɪ.lə.tri ˌbæɡ /","usp":"/ˈtɔɪ.lə.tri ˌbæɡ/"}
+{"title":"toiling","uk":"uk  / tɔɪl /","ukp":"/tɔɪl/","us":"us  / tɔɪl /","usp":"/tɔɪl/"}
+{"title":"toilsome","uk":"uk  / ˈtɔɪl.səm /","ukp":"/ˈtɔɪl.səm/","us":"us  / ˈtɔɪl.səm /","usp":"/ˈtɔɪl.səm/"}
+{"title":"toke","uk":"uk  / təʊk /","ukp":"/təʊk/","us":"us  / toʊk /","usp":"/toʊk/"}
+{"title":"token coinage","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"token money","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"token strike","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"token","uk":"uk  / ˈtəʊ.k ə n /","ukp":"/ˈtəʊ.kən/","us":"us  / ˈtoʊ.k ə n /","usp":"/ˈtoʊ.kən/"}
+{"title":"tokenism","uk":"uk  / ˈtəʊ.k ə n.ɪ.z ə m /","ukp":"/ˈtəʊ.kən.ɪ.zəm/","us":"us  / ˈtoʊ.k ə n.ɪ.z ə m /","usp":"/ˈtoʊ.kən.ɪ.zəm/"}
+{"title":"tokenistic","uk":"uk  / ˌtəʊ.k ə nˈɪs.tɪk /","ukp":"/ˌtəʊ.kənˈɪs.tɪk/","us":"us / ˌtoʊ.k ə nˈɪs.tɪk /","usp":"/ˌtoʊ.kənˈɪs.tɪk/"}
+{"title":"tokenization","uk":"uk / ˌtəʊ.k ə n.aɪˈzeɪ.ʃ ə n /","ukp":"/ˌtəʊ.kən.aɪˈzeɪ.ʃən/","us":"us / ˌtoʊ.k ə n.aɪˈzeɪ.ʃ ə n /","usp":"/ˌtoʊ.kən.aɪˈzeɪ.ʃən/"}
+{"title":"tokenize","uk":"uk / ˈtəʊ.k ə n.aɪz /","ukp":"/ˈtəʊ.kən.aɪz/","us":"us / ˈtoʊ.k ə n.aɪz /","usp":"/ˈtoʊ.kən.aɪz/"}
+{"title":"Tokyo","uk":"uk  / ˈtəʊ.ki.əʊ /","ukp":"/ˈtəʊ.ki.əʊ/","us":"us  / ˈtoʊ.ki.oʊ /","usp":"/ˈtoʊ.ki.oʊ/"}
+{"title":"told","uk":"uk  / təʊld /","ukp":"/təʊld/","us":"us  / toʊld /","usp":"/toʊld/"}
+{"title":"told you (so)","uk":"","us":""}
+{"title":"tolerable","uk":"uk  / ˈtɒl. ə r.ə.b ə l /","ukp":"/ˈtɒl.ər.ə.bəl/","us":"us  / ˈtɑː.lɚ.ə.b ə l /","usp":"/ˈtɑː.lɚ.ə.bəl/"}
+{"title":"tolerably","uk":"uk  / ˈtɒl. ə r.ə.bli /","ukp":"/ˈtɒl.ər.ə.bli/","us":"us  / ˈtɑː.lɚ.ə.bli /","usp":"/ˈtɑː.lɚ.ə.bli/"}
+{"title":"top management","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tolerant","uk":"uk  / ˈtɒl. ə r. ə nt /","ukp":"/ˈtɒl.ər.ənt/","us":"us  / ˈtɑː.lɚ. ə nt /","usp":"/ˈtɑː.lɚ.ənt/"}
+{"title":"tolerance","uk":"uk  / ˈtɒl. ə r. ə ns /","ukp":"/ˈtɒl.ər.əns/","us":"us  / ˈtɑː.lɚ. ə ns /","usp":"/ˈtɑː.lɚ.əns/"}
+{"title":"top of mind","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"top out","uk":"uk  / tɒp /","ukp":"/tɒp/","us":"us ","usp":""}
+{"title":"top round","uk":"uk / ˈtɒp ˌraʊnd /","ukp":"/ˈtɒp ˌraʊnd/","us":"us / ˈtɑːp ˌraʊnd /","usp":"/ˈtɑːp ˌraʊnd/"}
+{"title":"top rate","uk":"uk  / ˌtɒp ˈreɪt /","ukp":"/ˌtɒp ˈreɪt/","us":"us  / ˌtɑːp ˈreɪt /","usp":"/ˌtɑːp ˈreɪt/"}
+{"title":"top something off","uk":"uk  / tɒp /","ukp":"/tɒp/","us":"us  / tɑːp /","usp":"/tɑːp/"}
+{"title":"top secret","uk":"uk  / ˌtɒp ˈsiː.krət /","ukp":"/ˌtɒp ˈsiː.krət/","us":"us  / ˌtɑːp ˈsiː.krət /","usp":"/ˌtɑːp ˈsiː.krət/"}
+{"title":"top surgery","uk":"uk / ˈtɒp ˌsɜː.dʒ ə r.i /","ukp":"/ˈtɒp ˌsɜː.dʒər.i/","us":"us / ˈtɑːp ˌsɝː.dʒ ə r.i /","usp":"/ˈtɑːp ˌsɝː.dʒər.i/"}
+{"title":"top something up","uk":"uk  / tɒp /","ukp":"/tɒp/","us":"us  / tɑːp /","usp":"/tɑːp/"}
+{"title":"top ten","uk":"uk  / ˌtɒp ˈten /","ukp":"/ˌtɒp ˈten/","us":"us  / ˌtɑːp ˈten /","usp":"/ˌtɑːp ˈten/"}
+{"title":"top-down","uk":"uk  / ˌtɒpˈdaʊn /","ukp":"/ˌtɒpˈdaʊn/","us":"us  / ˌtɑːpˈdaʊn /","usp":"/ˌtɑːpˈdaʊn/"}
+{"title":"top-drawer","uk":"uk  / ˌtɒpˈdrɔː r /","ukp":"/ˌtɒpˈdrɔːr/","us":"us  / ˌtɑːpˈdrɔːr /","usp":"/ˌtɑːpˈdrɔːr/"}
+{"title":"top-grossing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"top-heavy","uk":"uk  / ˌtɒpˈhev.i /","ukp":"/ˌtɒpˈhev.i/","us":"us  / ˌtɑːpˈhev.i /","usp":"/ˌtɑːpˈhev.i/"}
+{"title":"top-level","uk":"uk  / ˌtɒpˈlev. ə l /","ukp":"/ˌtɒpˈlev.əl/","us":"us  / ˌtɑːpˈlev. ə l /","usp":"/ˌtɑːpˈlev.əl/"}
+{"title":"top-notch","uk":"uk  / ˌtɒpˈnɒtʃ /","ukp":"/ˌtɒpˈnɒtʃ/","us":"us  / ˌtɑːpˈnɑːtʃ /","usp":"/ˌtɑːpˈnɑːtʃ/"}
+{"title":"top-performing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"top-of-the-line","uk":"uk  / ˌtɒp.əv.ðəˈlaɪn /","ukp":"/ˌtɒp.əv.ðəˈlaɪn/","us":"us  / ˌtɑːp.əv.ðəˈlaɪn /","usp":"/ˌtɑːp.əv.ðəˈlaɪn/"}
+{"title":"top-of-the-range","uk":"uk  / ˌtɒp.əv.ðəˈreɪndʒ /","ukp":"/ˌtɒp.əv.ðəˈreɪndʒ/","us":"us  / ˌtɑːp.əv.ðəˈreɪndʒ /","usp":"/ˌtɑːp.əv.ðəˈreɪndʒ/"}
+{"title":"top-ranked","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"top-ranking","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"top-rated","uk":"uk  / ˌtɒpˈreɪ.tɪd /","ukp":"/ˌtɒpˈreɪ.tɪd/","us":"us  / ˌtɑːpˈreɪ.t̬ɪd /","usp":"/ˌtɑːpˈreɪ.t̬ɪd/"}
+{"title":"top-security","uk":"uk  / ˌtɒp.sɪˈkjʊə.rə.ti /","ukp":"/ˌtɒp.sɪˈkjʊə.rə.ti/","us":"us  / ˌtɑːp.sɪˈkjʊr.ə.t̬i /","usp":"/ˌtɑːp.sɪˈkjʊr.ə.t̬i/"}
+{"title":"top-up card","uk":"uk  / ˈtɒp.ʌp ˌkɑːd /","ukp":"/ˈtɒp.ʌp ˌkɑːd/","us":"us  / ˈtɑːp.ʌp ˌkɑːrd /","usp":"/ˈtɑːp.ʌp ˌkɑːrd/"}
+{"title":"top-selling","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"top-up fees","uk":"uk  / ˈtɒp.ʌp ˌfiːz /","ukp":"/ˈtɒp.ʌp ˌfiːz/","us":"us  / ˈtɑːp.ʌp ˌfiːz /","usp":"/ˈtɑːp.ʌp ˌfiːz/"}
+{"title":"top-up pension","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"topaz","uk":"uk  / ˈtəʊ.pæz /","ukp":"/ˈtəʊ.pæz/","us":"us  / ˈtoʊ.pæz /","usp":"/ˈtoʊ.pæz/"}
+{"title":"topcoat","uk":"uk  / ˈtɒp.kəʊt /","ukp":"/ˈtɒp.kəʊt/","us":"us  / ˈtɑːp.koʊt /","usp":"/ˈtɑːp.koʊt/"}
+{"title":"topee","uk":"uk  / ˈtəʊ.piː /","ukp":"/ˈtəʊ.piː/","us":"us  / ˈtoʊ.piː /","usp":"/ˈtoʊ.piː/"}
+{"title":"topiary","uk":"uk  / ˈtəʊ.pj ə r.i /","ukp":"/ˈtəʊ.pjər.i/","us":"us  / ˈtoʊ.pi.er /","usp":"/ˈtoʊ.pi.er/"}
+{"title":"topic","uk":"uk  / ˈtɒp.ɪk /","ukp":"/ˈtɒp.ɪk/","us":"us  / ˈtɑː.pɪk /","usp":"/ˈtɑː.pɪk/"}
+{"title":"topicality","uk":"uk  / ˌtɒp.ɪˈkæl.ə.ti /","ukp":"/ˌtɒp.ɪˈkæl.ə.ti/","us":"us  / ˌtɑː.pɪˈkæl.ə.t̬i /","usp":"/ˌtɑː.pɪˈkæl.ə.t̬i/"}
+{"title":"topical","uk":"uk  / ˈtɒp.ɪ.k ə l /","ukp":"/ˈtɒp.ɪ.kəl/","us":"us  / ˈtɑː.pɪ.k ə l /","usp":"/ˈtɑː.pɪ.kəl/"}
+{"title":"topknot","uk":"uk  / ˈtɒp.nɒt /","ukp":"/ˈtɒp.nɒt/","us":"us  / ˈtɑːp.nɑːt /","usp":"/ˈtɑːp.nɑːt/"}
+{"title":"topically","uk":"uk  / ˈtɒp.ɪ.k ə l.i /","ukp":"/ˈtɒp.ɪ.kəl.i/","us":"us  / ˈtɑː.pɪ.k ə l.i /","usp":"/ˈtɑː.pɪ.kəl.i/"}
+{"title":"topless","uk":"uk  / ˈtɒp.ləs /","ukp":"/ˈtɒp.ləs/","us":"us  / ˈtɑːp.ləs /","usp":"/ˈtɑːp.ləs/"}
+{"title":"topmost","uk":"uk  / ˈtɒp.məʊst /","ukp":"/ˈtɒp.məʊst/","us":"us  / ˈtɑːp.moʊst /","usp":"/ˈtɑːp.moʊst/"}
+{"title":"topographer","uk":"uk  / təˈpɒɡ.rə.fə r /","ukp":"/təˈpɒɡ.rə.fər/","us":"us  / təˈpɑː.ɡrə.fɚ /","usp":"/təˈpɑː.ɡrə.fɚ/"}
+{"title":"topographical","uk":"uk  / ˌtɒp.əˈɡræf.ɪ.k ə l /","ukp":"/ˌtɒp.əˈɡræf.ɪ.kəl/","us":"us  / ˌtɑː.pəˈɡræf.ɪ.k ə l /","usp":"/ˌtɑː.pəˈɡræf.ɪ.kəl/"}
+{"title":"topographically","uk":"uk  / ˌtɒp.əˈɡræf.ɪ.k ə l.i /","ukp":"/ˌtɒp.əˈɡræf.ɪ.kəl.i/","us":"us  / ˌtɑː.pəˈɡræf.ɪ.k ə l.i /","usp":"/ˌtɑː.pəˈɡræf.ɪ.kəl.i/"}
+{"title":"topography","uk":"uk  / təˈpɒɡ.rə.fi /","ukp":"/təˈpɒɡ.rə.fi/","us":"us  / təˈpɑː.ɡrə.fi /","usp":"/təˈpɑː.ɡrə.fi/"}
+{"title":"topology","uk":"uk  / tɒpˈɒl.ə.dʒi /","ukp":"/tɒpˈɒl.ə.dʒi/","us":"us  / təˈpɑː.lə.dʒi /","usp":"/təˈpɑː.lə.dʒi/"}
+{"title":"toponym","uk":"uk  / ˈtɒp.ə.nɪm /","ukp":"/ˈtɒp.ə.nɪm/","us":"us  / ˈtɑː.pə.nɪm /","usp":"/ˈtɑː.pə.nɪm/"}
+{"title":"tolerantly","uk":"uk  / ˈtɒl. ə r. ə nt.li /","ukp":"/ˈtɒl.ər.ənt.li/","us":"us  / ˈtɑː.lɚ. ə nt.li /","usp":"/ˈtɑː.lɚ.ənt.li/"}
+{"title":"tolerated","uk":"uk  / ˈtɒl. ə r.eɪt /","ukp":"/ˈtɒl.ər.eɪt/","us":"us  / ˈtɑː.lə.reɪt /","usp":"/ˈtɑː.lə.reɪt/"}
+{"title":"tolerate","uk":"uk  / ˈtɒl. ə r.eɪt /","ukp":"/ˈtɒl.ər.eɪt/","us":"us  / ˈtɑː.lə.reɪt /","usp":"/ˈtɑː.lə.reɪt/"}
+{"title":"tolerating","uk":"uk  / ˈtɒl. ə r.eɪt /","ukp":"/ˈtɒl.ər.eɪt/","us":"us  / ˈtɑː.lə.reɪt /","usp":"/ˈtɑː.lə.reɪt/"}
+{"title":"toll booth","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"toll","uk":"uk  / təʊl /","ukp":"/təʊl/","us":"us  / toʊl /","usp":"/toʊl/"}
+{"title":"toll bridge","uk":"uk  / ˈtəʊl ˌbrɪdʒ /","ukp":"/ˈtəʊl ˌbrɪdʒ/","us":"us  / ˈtoʊl ˌbrɪdʒ /","usp":"/ˈtoʊl ˌbrɪdʒ/"}
+{"title":"toll call","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"toll plaza","uk":"uk  / ˈtəʊl ˌplɑː.zə /","ukp":"/ˈtəʊl ˌplɑː.zə/","us":"us  / ˈtoʊl ˌplɑː.zə /","usp":"/ˈtoʊl ˌplɑː.zə/"}
+{"title":"toll road","uk":"uk  / ˈtəʊl ˌrəʊd /","ukp":"/ˈtəʊl ˌrəʊd/","us":"us  / ˈtoʊl ˌroʊd /","usp":"/ˈtoʊl ˌroʊd/"}
+{"title":"toll-free","uk":"uk  / ˌtəʊlˈfriː /","ukp":"/ˌtəʊlˈfriː/","us":"us  / ˌtoʊlˈfriː /","usp":"/ˌtoʊlˈfriː/"}
+{"title":"tollbooth","uk":"uk  / ˈtɒl.buːθ /","ukp":"/ˈtɒl.buːθ/","us":"us  / ˈtoʊl.buːθ /","usp":"/ˈtoʊl.buːθ/"}
+{"title":"tolled","uk":"uk  / təʊld /","ukp":"/təʊld/","us":"us  / toʊld /","usp":"/toʊld/"}
+{"title":"tollgate","uk":"uk  / ˈtəʊl.ɡeɪt /","ukp":"/ˈtəʊl.ɡeɪt/","us":"us  / ˈtoʊl.ɡeɪt /","usp":"/ˈtoʊl.ɡeɪt/"}
+{"title":"tollhouse","uk":"uk  / ˈtəʊl.haʊs /","ukp":"/ˈtəʊl.haʊs/","us":"us  / ˈtoʊl.haʊs /","usp":"/ˈtoʊl.haʊs/"}
+{"title":"tolling","uk":"uk  / ˈtəʊ.lɪŋ /","ukp":"/ˈtəʊ.lɪŋ/","us":"us  / ˈtoʊ.lɪŋ /","usp":"/ˈtoʊ.lɪŋ/"}
+{"title":"tolling agreement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tollway","uk":"uk  / ˈtɒl.weɪ /","ukp":"/ˈtɒl.weɪ/","us":"us  / ˈtoʊl.weɪ /","usp":"/ˈtoʊl.weɪ/"}
+{"title":"tom","uk":"uk  / tɒm /","ukp":"/tɒm/","us":"us  / tɑːm /","usp":"/tɑːm/"}
+{"title":"Tom, Dick, and Harry","uk":"uk  / ˌtɒm ˌdɪk ənd ˈhær.i /","ukp":"/ˌtɒm ˌdɪk ənd ˈhær.i/","us":"us  / ˌtɑːm ˌdɪk ənd ˈher.i /","usp":"/ˌtɑːm ˌdɪk ənd ˈher.i/"}
+{"title":"tom-tom","uk":"uk  / ˈtɒmˌtɒm /","ukp":"/ˈtɒmˌtɒm/","us":"us  / ˈtɑːmˌtɑːm /","usp":"/ˈtɑːmˌtɑːm/"}
+{"title":"tomatillo","uk":"uk / ˌtɒm.əˈtiː.jəʊ /","ukp":"/ˌtɒm.əˈtiː.jəʊ/","us":"us / ˌtoʊ.məˈtiː.joʊ /","usp":"/ˌtoʊ.məˈtiː.joʊ/"}
+{"title":"tomahawk","uk":"uk  / ˈtɒm.ə.hɔːk /","ukp":"/ˈtɒm.ə.hɔːk/","us":"us  / ˈtɑː.mə.hɑːk /","usp":"/ˈtɑː.mə.hɑːk/"}
+{"title":"tomato","uk":"uk  / təˈmɑː.təʊ /","ukp":"/təˈmɑː.təʊ/","us":"us  / təˈmeɪ.t̬oʊ /","usp":"/təˈmeɪ.t̬oʊ/"}
+{"title":"tomato ketchup","uk":"uk  / təˌmɑː.təʊ ˈketʃ.ʌp /","ukp":"/təˌmɑː.təʊ ˈketʃ.ʌp/","us":"us  / təˌmeɪ.t̬oʊ ˈketʃ.ʌp /","usp":"/təˌmeɪ.t̬oʊ ˈketʃ.ʌp/"}
+{"title":"tomatoes","uk":"","us":""}
+{"title":"tomb","uk":"uk  / tuːm /","ukp":"/tuːm/","us":"us  / tuːm /","usp":"/tuːm/"}
+{"title":"tombola","uk":"uk  / tɒmˈbəʊ.lə /","ukp":"/tɒmˈbəʊ.lə/","us":"us  / tɑːmˈboʊ.lə /","usp":"/tɑːmˈboʊ.lə/"}
+{"title":"tombolo","uk":"uk  / ˈtɒm.bə.ləʊ /","ukp":"/ˈtɒm.bə.ləʊ/","us":"us  / ˈtɑːm.bə.loʊ /","usp":"/ˈtɑːm.bə.loʊ/"}
+{"title":"tomboy","uk":"uk  / ˈtɒm.bɔɪ /","ukp":"/ˈtɒm.bɔɪ/","us":"us  / ˈtɑːm.bɔɪ /","usp":"/ˈtɑːm.bɔɪ/"}
+{"title":"tombstone ad","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tombstone","uk":"uk  / ˈtuːm.stəʊn /","ukp":"/ˈtuːm.stəʊn/","us":"us  / ˈtuːm.stoʊn /","usp":"/ˈtuːm.stoʊn/"}
+{"title":"tombstone advertisement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tombstoning","uk":"uk  / ˈtuːm.stəʊ.nɪŋ /","ukp":"/ˈtuːm.stəʊ.nɪŋ/","us":"us  / ˈtuːm.stoʊ.nɪŋ /","usp":"/ˈtuːm.stoʊ.nɪŋ/"}
+{"title":"tomcat","uk":"uk  / ˈtɒm.kæt /","ukp":"/ˈtɒm.kæt/","us":"us  / ˈtɑːm.kæt /","usp":"/ˈtɑːm.kæt/"}
+{"title":"tome","uk":"uk  / təʊm /","ukp":"/təʊm/","us":"us  / toʊm /","usp":"/toʊm/"}
+{"title":"tomfoolery","uk":"uk  / ˌtɒmˈfuː.l ə r.i /","ukp":"/ˌtɒmˈfuː.lər.i/","us":"us  / ˌtɑːmˈfuː.lɚ.i /","usp":"/ˌtɑːmˈfuː.lɚ.i/"}
+{"title":"tommy gun","uk":"uk  / ˈtɒm.i ɡʌn /","ukp":"/ˈtɒm.i ɡʌn/","us":"us  / ˈtɑː.mi ɡʌn /","usp":"/ˈtɑː.mi ɡʌn/"}
+{"title":"tomography","uk":"uk  / təˈmɒɡ.rə.fi /","ukp":"/təˈmɒɡ.rə.fi/","us":"us  / təˈmɑːɡ.rə.fi /","usp":"/təˈmɑːɡ.rə.fi/"}
+{"title":"tomorrow","uk":"uk  / təˈmɒr.əʊ /","ukp":"/təˈmɒr.əʊ/","us":"us  / təˈmɔːr.oʊ /","usp":"/təˈmɔːr.oʊ/"}
+{"title":"tonality","uk":"uk  / təʊˈnæl.ə.ti /","ukp":"/təʊˈnæl.ə.ti/","us":"us  / toʊˈnæl.ə.t̬i /","usp":"/toʊˈnæl.ə.t̬i/"}
+{"title":"ton","uk":"uk  / tʌn /","ukp":"/tʌn/","us":"us  / tʌn /","usp":"/tʌn/"}
+{"title":"tonal","uk":"uk  / ˈtəʊ.n ə l /","ukp":"/ˈtəʊ.nəl/","us":"us  / ˈtoʊ.n ə l /","usp":"/ˈtoʊ.nəl/"}
+{"title":"tone dialling","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tone in","uk":"uk  / təʊn /","ukp":"/təʊn/","us":"us  / toʊn /","usp":"/toʊn/"}
+{"title":"tone","uk":"uk  / təʊn /","ukp":"/təʊn/","us":"us  / toʊn /","usp":"/toʊn/"}
+{"title":"too old","uk":"","us":""}
+{"title":"tone language","uk":"uk  / ˈtəʊn ˌlæŋ.ɡwɪdʒ /","ukp":"/ˈtəʊn ˌlæŋ.ɡwɪdʒ/","us":"us  / ˈtoʊn ˌlæŋ.ɡwɪdʒ /","usp":"/ˈtoʊn ˌlæŋ.ɡwɪdʒ/"}
+{"title":"too right","uk":"","us":""}
+{"title":"toodle-oo","uk":"uk  / ˌtuː.d ə lˈuː /","ukp":"/ˌtuː.dəlˈuː/","us":"us  / ˌtuː.d ə lˈuː /","usp":"/ˌtuː.dəlˈuː/"}
+{"title":"took","uk":"uk  / tʊk /","ukp":"/tʊk/","us":"us  / tʊk /","usp":"/tʊk/"}
+{"title":"tool","uk":"uk  / tuːl /","ukp":"/tuːl/","us":"us  / tuːl /","usp":"/tuːl/"}
+{"title":"tool (something/someone) up","uk":"uk  / tuːl /","ukp":"/tuːl/","us":"us ","usp":""}
+{"title":"tool kit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tool shop","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"toolbar","uk":"uk  / ˈtuːl.bɑː r /","ukp":"/ˈtuːl.bɑːr/","us":"us  / ˈtuːl.bɑːr /","usp":"/ˈtuːl.bɑːr/"}
+{"title":"toolbox","uk":"uk  / ˈtuːl.bɒks /","ukp":"/ˈtuːl.bɒks/","us":"us  / ˈtuːl.bɑːks /","usp":"/ˈtuːl.bɑːks/"}
+{"title":"tooled","uk":"uk  / tuːld /","ukp":"/tuːld/","us":"us  / tuːld /","usp":"/tuːld/"}
+{"title":"toolkit","uk":"uk  / ˈtuːlˌkɪt /","ukp":"/ˈtuːlˌkɪt/","us":"us  / ˈtuːlˌkɪt /","usp":"/ˈtuːlˌkɪt/"}
+{"title":"tooling","uk":"uk  / ˈtuːlɪŋ /","ukp":"/ˈtuːlɪŋ/","us":"us ","usp":""}
+{"title":"tooled up","uk":"uk  / ˌtuːld ˈʌp /","ukp":"/ˌtuːld ˈʌp/","us":"us  / ˌtuːld ˈʌp /","usp":"/ˌtuːld ˈʌp/"}
+{"title":"toolmaker","uk":"uk  / ˈtuːlˌmeɪkə r /","ukp":"/ˈtuːlˌmeɪkər/","us":"us ","usp":""}
+{"title":"toolmaking","uk":"uk  / ˈtuːlˌmeɪkɪŋ /","ukp":"/ˈtuːlˌmeɪkɪŋ/","us":"us ","usp":""}
+{"title":"toolshed","uk":"uk  / ˈtuːlˌʃed /","ukp":"/ˈtuːlˌʃed/","us":"us  / ˈtuːlˌʃed /","usp":"/ˈtuːlˌʃed/"}
+{"title":"tooltip","uk":"uk  / ˈtuːl.tɪp /","ukp":"/ˈtuːl.tɪp/","us":"us  / ˈtuːl.tɪp /","usp":"/ˈtuːl.tɪp/"}
+{"title":"toonie","uk":"uk  / ˈtuː.ni /","ukp":"/ˈtuː.ni/","us":"us  / ˈtuː.ni /","usp":"/ˈtuː.ni/"}
+{"title":"toot","uk":"uk  / tuːt /","ukp":"/tuːt/","us":"us  / tuːt /","usp":"/tuːt/"}
+{"title":"tooted","uk":"uk  / tuːt /","ukp":"/tuːt/","us":"us  / tuːt /","usp":"/tuːt/"}
+{"title":"tooth fairy","uk":"uk  / ˈtuːθ ˌfeə.ri /","ukp":"/ˈtuːθ ˌfeə.ri/","us":"us  / ˈtuːθ ˌfer.i /","usp":"/ˈtuːθ ˌfer.i/"}
+{"title":"tooth","uk":"uk  / tuːθ /","ukp":"/tuːθ/","us":"us  / tuːθ /","usp":"/tuːθ/"}
+{"title":"toothache","uk":"uk  / ˈtuːθ.eɪk /","ukp":"/ˈtuːθ.eɪk/","us":"us  / ˈtuːθ.eɪk /","usp":"/ˈtuːθ.eɪk/"}
+{"title":"toothbrush","uk":"uk  / ˈtuːθ.brʌʃ /","ukp":"/ˈtuːθ.brʌʃ/","us":"us  / ˈtuːθ.brʌʃ /","usp":"/ˈtuːθ.brʌʃ/"}
+{"title":"-toothed","uk":"uk  / -tuːθt /","ukp":"/ -tuːθt/","us":"us  / -tuːθt /","usp":"/ -tuːθt/"}
+{"title":"toothless","uk":"uk  / ˈtuːθ.ləs /","ukp":"/ˈtuːθ.ləs/","us":"us  / ˈtuːθ.ləs /","usp":"/ˈtuːθ.ləs/"}
+{"title":"toothpaste","uk":"uk  / ˈtuːθ.peɪst /","ukp":"/ˈtuːθ.peɪst/","us":"us  / ˈtuːθ.peɪst /","usp":"/ˈtuːθ.peɪst/"}
+{"title":"toothpick","uk":"uk  / ˈtuːθ.pɪk /","ukp":"/ˈtuːθ.pɪk/","us":"us  / ˈtuːθ.pɪk /","usp":"/ˈtuːθ.pɪk/"}
+{"title":"toothsome","uk":"uk  / ˈtuːθ.səm /","ukp":"/ˈtuːθ.səm/","us":"us  / ˈtuːθ.səm /","usp":"/ˈtuːθ.səm/"}
+{"title":"toothy","uk":"uk  / ˈtuː.θi /","ukp":"/ˈtuː.θi/","us":"us  / ˈtuː.θi /","usp":"/ˈtuː.θi/"}
+{"title":"tooting","uk":"uk  / tuːt /","ukp":"/tuːt/","us":"us  / tuːt /","usp":"/tuːt/"}
+{"title":"tootle","uk":"uk  / ˈtuː.t ə l /","ukp":"/ˈtuː.təl/","us":"us  / ˈtuː.t̬ ə l /","usp":"/ˈtuː.t̬əl/"}
+{"title":"tootling","uk":"uk  / ˈtuː.t ə l /","ukp":"/ˈtuː.təl/","us":"us  / ˈtuː.t̬ ə l /","usp":"/ˈtuː.t̬əl/"}
+{"title":"tootled","uk":"uk  / ˈtuː.t ə l /","ukp":"/ˈtuː.təl/","us":"us  / ˈtuː.t̬ ə l /","usp":"/ˈtuː.t̬əl/"}
+{"title":"tootsie","uk":"uk  / ˈtʊt.si /","ukp":"/ˈtʊt.si/","us":"us  / ˈtʊt.si /","usp":"/ˈtʊt.si/"}
+{"title":"top and tail","uk":"","us":""}
+{"title":"top brass","uk":"uk  / ˌtɒp ˈbrɑːs /","ukp":"/ˌtɒp ˈbrɑːs/","us":"us  / ˌtɑːp ˈbræs /","usp":"/ˌtɑːp ˈbræs/"}
+{"title":"top dog","uk":"uk  / ˌtɒp ˈdɒɡ /","ukp":"/ˌtɒp ˈdɒɡ/","us":"us  / ˌtɑːp ˈdɑːɡ /","usp":"/ˌtɑːp ˈdɑːɡ/"}
+{"title":"top","uk":"uk  / tɒp /","ukp":"/tɒp/","us":"us  / tɑːp /","usp":"/tɑːp/"}
+{"title":"top copy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"top end","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"top dollar","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"top floor","uk":"uk  / ˌtɒp ˈflɔː r /","ukp":"/ˌtɒp ˈflɔːr/","us":"us  / ˌtɑːp ˈflɔːr /","usp":"/ˌtɑːp ˈflɔːr/"}
+{"title":"top half","uk":"uk  / ˈtɒp ˌhɑːf /","ukp":"/ˈtɒp ˌhɑːf/","us":"us  / ˈtɑːp ˌhæf /","usp":"/ˈtɑːp ˌhæf/"}
+{"title":"top hat pension","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"top hat","uk":"uk  / ˌtɒp ˈhæt /","ukp":"/ˌtɒp ˈhæt/","us":"us  / ˌtɑːp ˈhæt /","usp":"/ˌtɑːp ˈhæt/"}
+{"title":"top level domain","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"touchless","uk":"uk  / ˈtʌtʃ.ləs /","ukp":"/ˈtʌtʃ.ləs/","us":"us  / ˈtʌtʃ.ləs /","usp":"/ˈtʌtʃ.ləs/"}
+{"title":"touchline","uk":"uk  / ˈtʌtʃ.laɪn /","ukp":"/ˈtʌtʃ.laɪn/","us":"us  / ˈtʌtʃ.laɪn /","usp":"/ˈtʌtʃ.laɪn/"}
+{"title":"touchpad","uk":"uk  / ˈtʌtʃ.pæd /","ukp":"/ˈtʌtʃ.pæd/","us":"us  / ˈtʌtʃ.pæd /","usp":"/ˈtʌtʃ.pæd/"}
+{"title":"touchpaper","uk":"uk  / ˈtʌtʃˌpeɪ.pə r /","ukp":"/ˈtʌtʃˌpeɪ.pər/","us":"us  / ˈtʌtʃˌpeɪ.pɚ /","usp":"/ˈtʌtʃˌpeɪ.pɚ/"}
+{"title":"touchstone","uk":"uk  / ˈtʌtʃ.stəʊn /","ukp":"/ˈtʌtʃ.stəʊn/","us":"us  / ˈtʌtʃ.stoʊn /","usp":"/ˈtʌtʃ.stoʊn/"}
+{"title":"touchscreen","uk":"uk  / ˈtʌtʃ.skriːn /","ukp":"/ˈtʌtʃ.skriːn/","us":"us  / ˈtʌtʃ.skriːn /","usp":"/ˈtʌtʃ.skriːn/"}
+{"title":"touchpoint","uk":"uk  / ˈtʌtʃ.pɔɪnt /","ukp":"/ˈtʌtʃ.pɔɪnt/","us":"us  / ˈtʌtʃ.pɔɪnt /","usp":"/ˈtʌtʃ.pɔɪnt/"}
+{"title":"touchy","uk":"uk  / ˈtʌtʃ.i /","ukp":"/ˈtʌtʃ.i/","us":"us  / ˈtʌtʃ.i /","usp":"/ˈtʌtʃ.i/"}
+{"title":"touchy-feely","uk":"uk  / ˌtʌtʃ.iˈfiː.li /","ukp":"/ˌtʌtʃ.iˈfiː.li/","us":"us  / ˌtʌtʃ.iˈfiː.li /","usp":"/ˌtʌtʃ.iˈfiː.li/"}
+{"title":"tough cookie","uk":"uk  / ˌtʌf ˈkʊk.i /","ukp":"/ˌtʌf ˈkʊk.i/","us":"us  / ˌtʌf ˈkʊk.i /","usp":"/ˌtʌf ˈkʊk.i/"}
+{"title":"tough","uk":"uk  / tʌf /","ukp":"/tʌf/","us":"us  / tʌf /","usp":"/tʌf/"}
+{"title":"tough love","uk":"uk  / ˌtʌf ˈlʌv /","ukp":"/ˌtʌf ˈlʌv/","us":"us  / ˌtʌf ˈlʌv /","usp":"/ˌtʌf ˈlʌv/"}
+{"title":"tough something out","uk":"uk  / tʌf /","ukp":"/tʌf/","us":"us  / tʌf /","usp":"/tʌf/"}
+{"title":"tough luck","uk":"","us":""}
+{"title":"toughen someone up","uk":"","us":"us  / ˈtʌf·ən /","usp":"/ˈtʌf·ən/"}
+{"title":"tough-minded","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"toughened","uk":"uk  / ˈtʌf. ə n /","ukp":"/ˈtʌf.ən/","us":"us  / ˈtʌf. ə n /","usp":"/ˈtʌf.ən/"}
+{"title":"toughen","uk":"uk  / ˈtʌf. ə n /","ukp":"/ˈtʌf.ən/","us":"us  / ˈtʌf. ə n /","usp":"/ˈtʌf.ən/"}
+{"title":"toughie","uk":"uk  / ˈtʌf.i /","ukp":"/ˈtʌf.i/","us":"us  / ˈtʌf.i /","usp":"/ˈtʌf.i/"}
+{"title":"toughening","uk":"uk  / ˈtʌf. ə n /","ukp":"/ˈtʌf.ən/","us":"us  / ˈtʌf. ə n /","usp":"/ˈtʌf.ən/"}
+{"title":"toughly","uk":"uk  / ˈtʌf.li /","ukp":"/ˈtʌf.li/","us":"us  / ˈtʌf.li /","usp":"/ˈtʌf.li/"}
+{"title":"toughness","uk":"uk  / ˈtʌf.nəs /","ukp":"/ˈtʌf.nəs/","us":"us  / ˈtʌf.nəs /","usp":"/ˈtʌf.nəs/"}
+{"title":"toupée","uk":"uk  / ˈtuː.peɪ /","ukp":"/ˈtuː.peɪ/","us":"us  / tuːˈpeɪ /","usp":"/tuːˈpeɪ/"}
+{"title":"tour company","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tour","uk":"uk  / tʊə r /","ukp":"/tʊər/","us":"us  / tʊr /","usp":"/tʊr/"}
+{"title":"tour guide","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tour de force","uk":"uk  / ˌtʊə də ˈfɔːs /","ukp":"/ˌtʊə də ˈfɔːs/","us":"us  / ˌtʊr də ˈfɔːrs /","usp":"/ˌtʊr də ˈfɔːrs/"}
+{"title":"tour of duty","uk":"uk  / ˌtʊər əv ˈdjuː.ti /","ukp":"/ˌtʊər əv ˈdjuː.ti/","us":"us  / ˌtʊr əv ˈduː.t̬i /","usp":"/ˌtʊr əv ˈduː.t̬i/"}
+{"title":"tour operator","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"toured","uk":"uk  / tʊə r /","ukp":"/tʊər/","us":"us  / tʊr /","usp":"/tʊr/"}
+{"title":"Tourette's syndrome","uk":"uk  / tʊəˈrets ˌsɪn.drəʊm /","ukp":"/tʊəˈrets ˌsɪn.drəʊm/","us":"us  / tʊˈrets ˌsɪn.droʊm /","usp":"/tʊˈrets ˌsɪn.droʊm/"}
+{"title":"touring","uk":"uk  / ˈtʊə.rɪŋ /","ukp":"/ˈtʊə.rɪŋ/","us":"us  / ˈtʊr.ɪŋ /","usp":"/ˈtʊr.ɪŋ/"}
+{"title":"tourism","uk":"uk  / ˈtʊə.rɪ.z ə m /","ukp":"/ˈtʊə.rɪ.zəm/","us":"us  / ˈtʊr.ɪ.z ə m /","usp":"/ˈtʊr.ɪ.zəm/"}
+{"title":"tourist","uk":"uk  / ˈtʊə.rɪst /","ukp":"/ˈtʊə.rɪst/","us":"us  / ˈtʊr.ɪst /","usp":"/ˈtʊr.ɪst/"}
+{"title":"tourist board","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tourist attraction","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tourist class","uk":"uk  / ˈtʊə.rɪst ˌklɑːs /","ukp":"/ˈtʊə.rɪst ˌklɑːs/","us":"us  / ˈtʊr.ɪst ˌklæs /","usp":"/ˈtʊr.ɪst ˌklæs/"}
+{"title":"tourist information office","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tourist office","uk":"uk  / ˈtʊə.rɪst ˌɒf.ɪs /","ukp":"/ˈtʊə.rɪst ˌɒf.ɪs/","us":"us  / ˈtʊr.ɪst ˌɑː.fɪs /","usp":"/ˈtʊr.ɪst ˌɑː.fɪs/"}
+{"title":"tourist trap","uk":"uk  / ˈtʊə.rɪst ˌtræp /","ukp":"/ˈtʊə.rɪst ˌtræp/","us":"us  / ˈtʊr.ɪst ˌtræp /","usp":"/ˈtʊr.ɪst ˌtræp/"}
+{"title":"touristy","uk":"uk  / ˈtʊə.rɪ.sti /","ukp":"/ˈtʊə.rɪ.sti/","us":"us  / ˈtʊr.ɪ.sti /","usp":"/ˈtʊr.ɪ.sti/"}
+{"title":"touristic","uk":"uk  / tʊəˈrɪs.tɪk /","ukp":"/tʊəˈrɪs.tɪk/","us":"us  / tɚˈɪs.tɪk /","usp":"/tɚˈɪs.tɪk/"}
+{"title":"tourniquet","uk":"uk  / ˈtʊə.nɪ.keɪ /","ukp":"/ˈtʊə.nɪ.keɪ/","us":"us  / ˈtɝː.nɪ.kɪt /","usp":"/ˈtɝː.nɪ.kɪt/"}
+{"title":"tournament","uk":"uk  / ˈtʊə.nə.mənt /","ukp":"/ˈtʊə.nə.mənt/","us":"us  / ˈtɝː.nə.mənt /","usp":"/ˈtɝː.nə.mənt/"}
+{"title":"track shoe","uk":"uk  / ˈtræk ˌʃuː /","ukp":"/ˈtræk ˌʃuː/","us":"us  / ˈtræk ˌʃuː /","usp":"/ˈtræk ˌʃuː/"}
+{"title":"track record","uk":"uk  / ˈtræk ˌrek.ɔːd /","ukp":"/ˈtræk ˌrek.ɔːd/","us":"us  / ˈtræk ˌrek.ɚd /","usp":"/ˈtræk ˌrek.ɚd/"}
+{"title":"track something/someone down","uk":"uk  / træk /","ukp":"/træk/","us":"us  / træk /","usp":"/træk/"}
+{"title":"trackback","uk":"uk  / ˈtræk.bæk /","ukp":"/ˈtræk.bæk/","us":"us  / ˈtræk.bæk /","usp":"/ˈtræk.bæk/"}
+{"title":"trackball","uk":"uk  / ˈtræk.bɔːl /","ukp":"/ˈtræk.bɔːl/","us":"us  / ˈtræk.bɔːl /","usp":"/ˈtræk.bɔːl/"}
+{"title":"tracked","uk":"uk  / træk /","ukp":"/træk/","us":"us  / træk /","usp":"/træk/"}
+{"title":"tracker","uk":"uk  / ˈtræk.ə r /","ukp":"/ˈtræk.ər/","us":"us  / ˈtræk.ɚ /","usp":"/ˈtræk.ɚ/"}
+{"title":"tracker fund","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tracker dog","uk":"uk  / ˈtræk.ə ˌdɒɡ /","ukp":"/ˈtræk.ə ˌdɒɡ/","us":"us  / ˈtræk.ɚ ˌdɑːɡ /","usp":"/ˈtræk.ɚ ˌdɑːɡ/"}
+{"title":"trackie","uk":"uk / ˈtræk.i /","ukp":"/ˈtræk.i/","us":"us / ˈtræk.i /","usp":"/ˈtræk.i/"}
+{"title":"tracking","uk":"uk  / ˈtræk.ɪŋ /","ukp":"/ˈtræk.ɪŋ/","us":"us  / ˈtræk.ɪŋ /","usp":"/ˈtræk.ɪŋ/"}
+{"title":"tracking poll","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tracking station","uk":"uk  / ˈtræk.ɪŋ ˌsteɪ.ʃ ə n /","ukp":"/ˈtræk.ɪŋ ˌsteɪ.ʃən/","us":"us  / ˈtræk.ɪŋ ˌsteɪ.ʃ ə n /","usp":"/ˈtræk.ɪŋ ˌsteɪ.ʃən/"}
+{"title":"tracking stock","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tracking study","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trackless","uk":"uk  / ˈtræk.ləs /","ukp":"/ˈtræk.ləs/","us":"us  / ˈtræk.ləs /","usp":"/ˈtræk.ləs/"}
+{"title":"trackpad","uk":"uk  / ˈtræk.pæd /","ukp":"/ˈtræk.pæd/","us":"us  / ˈtræk.pæd /","usp":"/ˈtræk.pæd/"}
+{"title":"tracksuit bottoms","uk":"uk  / ˈtræk.suːt ˌbɒt. ə mz /","ukp":"/ˈtræk.suːt ˌbɒt.əmz/","us":"us  / ˈtræk.suːt ˌbɑː.t̬əmz /","usp":"/ˈtræk.suːt ˌbɑː.t̬əmz/"}
+{"title":"tracksuit","uk":"uk  / ˈtræk.suːt /","ukp":"/ˈtræk.suːt/","us":"us  / ˈtræk.suːt /","usp":"/ˈtræk.suːt/"}
+{"title":"tracksuit manager","uk":"uk  / ˈtræk.suː.t ˌmæn.ɪ.dʒə r /","ukp":"/ˈtræk.suː.t ˌmæn.ɪ.dʒər/","us":"us  / ˈtræk.suː.t ˌmæn.ə.dʒɚ /","usp":"/ˈtræk.suː.t ˌmæn.ə.dʒɚ/"}
+{"title":"tracksuited","uk":"uk  / ˈtræk.suː.tɪd /","ukp":"/ˈtræk.suː.tɪd/","us":"us  / ˈtræk.suː.t̬ɪd /","usp":"/ˈtræk.suː.t̬ɪd/"}
+{"title":"tracky","uk":"uk  / ˈtræk.i /","ukp":"/ˈtræk.i/","us":"us  / ˈtræk.i /","usp":"/ˈtræk.i/"}
+{"title":"tract house","uk":"uk  / ˈtrækt ˌhaʊs /","ukp":"/ˈtrækt ˌhaʊs/","us":"us  / ˈtrækt ˌhaʊs /","usp":"/ˈtrækt ˌhaʊs/"}
+{"title":"tractability","uk":"uk  / ˌtræk.təˈbɪl.ə.ti /","ukp":"/ˌtræk.təˈbɪl.ə.ti/","us":"us  / ˌtræk.təˈbɪl.ə.t̬i /","usp":"/ˌtræk.təˈbɪl.ə.t̬i/"}
+{"title":"tract","uk":"uk  / trækt /","ukp":"/trækt/","us":"us  / trækt /","usp":"/trækt/"}
+{"title":"tractable","uk":"uk  / ˈtræk.tə.b ə l /","ukp":"/ˈtræk.tə.bəl/","us":"us  / ˈtræk.tə.b ə l /","usp":"/ˈtræk.tə.bəl/"}
+{"title":"traction engine","uk":"uk  / ˈtræk.ʃ ə n ˌen.dʒɪn /","ukp":"/ˈtræk.ʃən ˌen.dʒɪn/","us":"us  / ˈtræk.ʃ ə n ˌen.dʒɪn /","usp":"/ˈtræk.ʃən ˌen.dʒɪn/"}
+{"title":"traction","uk":"uk  / ˈtræk.ʃ ə n /","ukp":"/ˈtræk.ʃən/","us":"us  / ˈtræk.ʃ ə n /","usp":"/ˈtræk.ʃən/"}
+{"title":"tractor","uk":"uk  / ˈtræk.tə r /","ukp":"/ˈtræk.tər/","us":"us  / ˈtræk.tɚ /","usp":"/ˈtræk.tɚ/"}
+{"title":"tractor-trailer","uk":"uk  / ˌtræk.təˈtreɪ.lə r /","ukp":"/ˌtræk.təˈtreɪ.lər/","us":"us  / ˌtræk.tɚˈtreɪ.lɚ /","usp":"/ˌtræk.tɚˈtreɪ.lɚ/"}
+{"title":"trad","uk":"uk  / træd /","ukp":"/træd/","us":"us  / træd /","usp":"/træd/"}
+{"title":"trad climbing","uk":"uk  / ˈtræd ˌklaɪ.mɪŋ /","ukp":"/ˈtræd ˌklaɪ.mɪŋ/","us":"us  / ˈtræd ˌklaɪ.mɪŋ /","usp":"/ˈtræd ˌklaɪ.mɪŋ/"}
+{"title":"trad jazz","uk":"uk  / ˌtræd ˈdʒæz /","ukp":"/ˌtræd ˈdʒæz/","us":"us  / ˌtræd ˈdʒæz /","usp":"/ˌtræd ˈdʒæz/"}
+{"title":"tradable","uk":"uk  / ˈtreɪdəbl /","ukp":"/ˈtreɪdəbl/","us":"us ","usp":""}
+{"title":"trade advertising","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade agreement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade association","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade","uk":"uk  / treɪd /","ukp":"/treɪd/","us":"us  / treɪd /","usp":"/treɪd/"}
+{"title":"trade barrier","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade balance","uk":"uk  / ˈtreɪd ˌbæl. ə ns /","ukp":"/ˈtreɪd ˌbæl.əns/","us":"us  / ˈtreɪd ˌbæl. ə ns /","usp":"/ˈtreɪd ˌbæl.əns/"}
+{"title":"trade bill","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade buyer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade counter","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade credit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade creditor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade cycle","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade debt","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"toxic","uk":"uk  / ˈtɒk.sɪk /","ukp":"/ˈtɒk.sɪk/","us":"us  / ˈtɑːk.sɪk /","usp":"/ˈtɑːk.sɪk/"}
+{"title":"toxic debt","uk":"uk  / ˌtɒk.sɪk ˈdet /","ukp":"/ˌtɒk.sɪk ˈdet/","us":"us  / ˌtɑːk.sɪk ˈdet /","usp":"/ˌtɑːk.sɪk ˈdet/"}
+{"title":"toxic asset","uk":"uk  / ˌtɒk.sɪk ˈæs.et /","ukp":"/ˌtɒk.sɪk ˈæs.et/","us":"us  / ˌtɑːk.sɪk ˈæs.et /","usp":"/ˌtɑːk.sɪk ˈæs.et/"}
+{"title":"toxic masculinity","uk":"uk  / ˌtɒk.sɪk mæs.kjəˈlɪn.ə.ti /","ukp":"/ˌtɒk.sɪk mæs.kjəˈlɪn.ə.ti/","us":"us  / ˌtɑːk.sɪk mæs.kjəˈlɪn.ə.t̬i /","usp":"/ˌtɑːk.sɪk mæs.kjəˈlɪn.ə.t̬i/"}
+{"title":"toxicity","uk":"uk  / tɒkˈsɪs.ɪ.ti /","ukp":"/tɒkˈsɪs.ɪ.ti/","us":"us  / taːkˈsis.ə.t̬i /","usp":"/taːkˈsis.ə.t̬i/"}

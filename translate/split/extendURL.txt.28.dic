@@ -1,0 +1,962 @@
+{"title":"ilk","uk":"uk  / ɪlk /","ukp":"/ɪlk/","us":"us  / ɪlk /","usp":"/ɪlk/"}
+{"title":"ill","uk":"uk  / ɪl /","ukp":"/ɪl/","us":"us  / ɪl /","usp":"/ɪl/"}
+{"title":"ill at ease","uk":"","us":""}
+{"title":"ill will","uk":"uk  / ˌɪl ˈwɪl /","ukp":"/ˌɪl ˈwɪl/","us":"us  / ˌɪl ˈwɪl /","usp":"/ˌɪl ˈwɪl/"}
+{"title":"ill health","uk":"uk  / ˌɪl ˈhelθ /","ukp":"/ˌɪl ˈhelθ/","us":"us  / ˌɪl ˈhelθ /","usp":"/ˌɪl ˈhelθ/"}
+{"title":"ill-advised","uk":"uk  / ˌɪl.ədˈvaɪzd /","ukp":"/ˌɪl.ədˈvaɪzd/","us":"us  / ˌɪl.ədˈvaɪzd /","usp":"/ˌɪl.ədˈvaɪzd/"}
+{"title":"ill-assorted","uk":"uk  / ˌɪl.əˈsɔː.tɪd /","ukp":"/ˌɪl.əˈsɔː.tɪd/","us":"us  / ˌɪlˈsɔːr.t̬ɪd /","usp":"/ˌɪlˈsɔːr.t̬ɪd/"}
+{"title":"ill-bred","uk":"uk  / ˌɪlˈbred /","ukp":"/ˌɪlˈbred/","us":"us  / ˌɪlˈbred /","usp":"/ˌɪlˈbred/"}
+{"title":"ill-breeding","uk":"uk  / ˌɪlˈbriː.dɪŋ /","ukp":"/ˌɪlˈbriː.dɪŋ/","us":"us  / ˌɪlˈbriː.dɪŋ /","usp":"/ˌɪlˈbriː.dɪŋ/"}
+{"title":"ill-conceived","uk":"uk  / ˌɪl.kənˈsiːvd /","ukp":"/ˌɪl.kənˈsiːvd/","us":"us  / ˌɪl.kənˈsiːvd /","usp":"/ˌɪl.kənˈsiːvd/"}
+{"title":"ill-defined","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"ill-disposed","uk":"uk  / ˌɪl.dɪˈspəʊsd /","ukp":"/ˌɪl.dɪˈspəʊsd/","us":"us  / ˌɪl.dɪˈspoʊzd /","usp":"/ˌɪl.dɪˈspoʊzd/"}
+{"title":"ill-equipped","uk":"uk  / ˌɪl.ɪˈkwɪpt /","ukp":"/ˌɪl.ɪˈkwɪpt/","us":"us  / ˌɪl.ɪˈkwɪpt /","usp":"/ˌɪl.ɪˈkwɪpt/"}
+{"title":"ill-fated","uk":"uk  / ˌɪlˈfeɪ.tɪd /","ukp":"/ˌɪlˈfeɪ.tɪd/","us":"us  / ˌɪlˈfeɪ.t̬ɪd /","usp":"/ˌɪlˈfeɪ.t̬ɪd/"}
+{"title":"ill-fitting","uk":"uk  / ˌɪlˈfɪt.ɪŋ /","ukp":"/ˌɪlˈfɪt.ɪŋ/","us":"us  / ˌɪlˈfɪt̬.ɪŋ /","usp":"/ˌɪlˈfɪt̬.ɪŋ/"}
+{"title":"ill-gotten","uk":"uk  / ˌɪlˈɡɒt. ə n /","ukp":"/ˌɪlˈɡɒt.ən/","us":"us  / ˌɪlˈɡɑː.t̬ ə n /","usp":"/ˌɪlˈɡɑː.t̬ən/"}
+{"title":"ill-informed","uk":"uk  / ˌɪl.ɪnˈfɔːmd /","ukp":"/ˌɪl.ɪnˈfɔːmd/","us":"us  / ˌɪl.ɪnˈfɔːrmd /","usp":"/ˌɪl.ɪnˈfɔːrmd/"}
+{"title":"ill-mannered","uk":"uk  / ˌɪlˈmæn.əd /","ukp":"/ˌɪlˈmæn.əd/","us":"us  / ˌɪlˈmæn.ɚd /","usp":"/ˌɪlˈmæn.ɚd/"}
+{"title":"ill-prepared","uk":"uk  / ˌɪl.prɪˈpeəd /","ukp":"/ˌɪl.prɪˈpeəd/","us":"us  / ˌɪl.prɪˈperd /","usp":"/ˌɪl.prɪˈperd/"}
+{"title":"ill-starred","uk":"uk  / ˌɪlˈstɑːd /","ukp":"/ˌɪlˈstɑːd/","us":"us  / ˌɪlˈstɑːrd /","usp":"/ˌɪlˈstɑːrd/"}
+{"title":"ill-tempered","uk":"uk  / ˌɪlˈtem.pəd /","ukp":"/ˌɪlˈtem.pəd/","us":"us  / ˌɪlˈtem.pɚd /","usp":"/ˌɪlˈtem.pɚd/"}
+{"title":"ill-timed","uk":"uk  / ˌɪlˈtaɪmd /","ukp":"/ˌɪlˈtaɪmd/","us":"us  / ˌɪlˈtaɪmd /","usp":"/ˌɪlˈtaɪmd/"}
+{"title":"implacably","uk":"uk  / ɪmˈplæk.ə.bli /","ukp":"/ɪmˈplæk.ə.bli/","us":"us  / ɪmˈplæk.ə.bli /","usp":"/ɪmˈplæk.ə.bli/"}
+{"title":"implantable","uk":"uk  / ɪmˈplɑːnt.ə.bəl /","ukp":"/ɪmˈplɑːnt.ə.bəl/","us":"us  / ɪmˈplæn.tə.bəl /","usp":"/ɪmˈplæn.tə.bəl/"}
+{"title":"implant","uk":"uk  / ɪmˈplɑːnt /","ukp":"/ɪmˈplɑːnt/","us":"us  / ɪmˈplænt /","usp":"/ɪmˈplænt/"}
+{"title":"implanted","uk":"uk  / ɪmˈplɑːnt /","ukp":"/ɪmˈplɑːnt/","us":"us  / ɪmˈplænt /","usp":"/ɪmˈplænt/"}
+{"title":"implantation","uk":"uk  / ɪm.plɑːnˈteɪ.ʃ ə n /","ukp":"/ɪm.plɑːnˈteɪ.ʃən/","us":"us  / ˌɪm.plænˈteɪ.ʃ ə n /","usp":"/ˌɪm.plænˈteɪ.ʃən/"}
+{"title":"implanting","uk":"uk  / ɪmˈplɑːnt /","ukp":"/ɪmˈplɑːnt/","us":"us  / ɪmˈplænt /","usp":"/ɪmˈplænt/"}
+{"title":"implausibility","uk":"uk  / ɪmˌplɔː.zəˈbɪl.ə.ti /","ukp":"/ɪmˌplɔː.zəˈbɪl.ə.ti/","us":"us  / ɪmˌplɑː.zəˈbɪl.ə.t̬i /","usp":"/ɪmˌplɑː.zəˈbɪl.ə.t̬i/"}
+{"title":"implausible","uk":"uk  / ɪmˈplɔː.zə.b ə l /","ukp":"/ɪmˈplɔː.zə.bəl/","us":"us  / ɪmˈplɑː.zə.b ə l /","usp":"/ɪmˈplɑː.zə.bəl/"}
+{"title":"implausibly","uk":"uk  / ɪmˈplɔː.zə.bli /","ukp":"/ɪmˈplɔː.zə.bli/","us":"us  / ɪmˈplɑː.zə.bli /","usp":"/ɪmˈplɑː.zə.bli/"}
+{"title":"implementation","uk":"uk  / ˌɪm.plɪ.menˈteɪ.ʃ ə n /","ukp":"/ˌɪm.plɪ.menˈteɪ.ʃən/","us":"us  / ˌɪm.plə.menˈteɪ.ʃ ə n /","usp":"/ˌɪm.plə.menˈteɪ.ʃən/"}
+{"title":"implement","uk":"uk  / ˈɪm.plɪ.ment /","ukp":"/ˈɪm.plɪ.ment/","us":"us  / ˈɪm.plə.ment /","usp":"/ˈɪm.plə.ment/"}
+{"title":"implemented","uk":"uk  / ˈɪm.plɪ.ment /","ukp":"/ˈɪm.plɪ.ment/","us":"us  / ˈɪm.plə.ment /","usp":"/ˈɪm.plə.ment/"}
+{"title":"implementer","uk":"uk  / ˈɪmplɪmentə r /","ukp":"/ˈɪmplɪmentər/","us":"us ","usp":""}
+{"title":"implementing","uk":"uk  / ˈɪm.plɪ.ment /","ukp":"/ˈɪm.plɪ.ment/","us":"us  / ˈɪm.plə.ment /","usp":"/ˈɪm.plə.ment/"}
+{"title":"implicate","uk":"uk  / ˈɪm.plɪ.keɪt /","ukp":"/ˈɪm.plɪ.keɪt/","us":"us  / ˈɪm.plə.keɪt /","usp":"/ˈɪm.plə.keɪt/"}
+{"title":"implicated","uk":"uk  / ˈɪm.plɪ.keɪt /","ukp":"/ˈɪm.plɪ.keɪt/","us":"us  / ˈɪm.plə.keɪt /","usp":"/ˈɪm.plə.keɪt/"}
+{"title":"implicating","uk":"uk  / ˈɪm.plɪ.keɪt /","ukp":"/ˈɪm.plɪ.keɪt/","us":"us  / ˈɪm.plə.keɪt /","usp":"/ˈɪm.plə.keɪt/"}
+{"title":"implication","uk":"uk  / ˌɪm.plɪˈkeɪ.ʃ ə n /","ukp":"/ˌɪm.plɪˈkeɪ.ʃən/","us":"us  / ˌɪm.pləˈkeɪ.ʃ ə n /","usp":"/ˌɪm.pləˈkeɪ.ʃən/"}
+{"title":"implicit","uk":"uk  / ɪmˈplɪs.ɪt /","ukp":"/ɪmˈplɪs.ɪt/","us":"us  / ɪmˈplɪs.ɪt /","usp":"/ɪmˈplɪs.ɪt/"}
+{"title":"implicit knowledge","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"implicitly","uk":"uk  / ɪmˈplɪs.ɪt.li /","ukp":"/ɪmˈplɪs.ɪt.li/","us":"us  / ɪmˈplɪs.ɪt.li /","usp":"/ɪmˈplɪs.ɪt.li/"}
+{"title":"implied","uk":"uk  / ɪmˈplaɪd /","ukp":"/ɪmˈplaɪd/","us":"us ","usp":""}
+{"title":"implied condition","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"implied contract","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"implied term","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"implied trust","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"implied warranty","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"imploded","uk":"uk  / ɪmˈpləʊd /","ukp":"/ɪmˈpləʊd/","us":"us  / ɪmˈploʊd /","usp":"/ɪmˈploʊd/"}
+{"title":"implode","uk":"uk  / ɪmˈpləʊd /","ukp":"/ɪmˈpləʊd/","us":"us  / ɪmˈploʊd /","usp":"/ɪmˈploʊd/"}
+{"title":"imploding","uk":"uk  / ɪmˈpləʊd /","ukp":"/ɪmˈpləʊd/","us":"us  / ɪmˈploʊd /","usp":"/ɪmˈploʊd/"}
+{"title":"implore","uk":"uk  / ɪmˈplɔː r /","ukp":"/ɪmˈplɔːr/","us":"us  / ɪmˈplɔːr /","usp":"/ɪmˈplɔːr/"}
+{"title":"implored","uk":"uk  / ɪmˈplɔː r /","ukp":"/ɪmˈplɔːr/","us":"us  / ɪmˈplɔːr /","usp":"/ɪmˈplɔːr/"}
+{"title":"imploring","uk":"uk  / ɪmˈplɔː.rɪŋ /","ukp":"/ɪmˈplɔː.rɪŋ/","us":"us  / ɪmˈplɔːr.ɪŋ /","usp":"/ɪmˈplɔːr.ɪŋ/"}
+{"title":"imploringly","uk":"uk  / ɪmˈplɔː.rɪŋ.li /","ukp":"/ɪmˈplɔː.rɪŋ.li/","us":"us  / ɪmˈplɔːr.ɪŋ.li /","usp":"/ɪmˈplɔːr.ɪŋ.li/"}
+{"title":"implosion","uk":"uk  / ɪmˈpləʊ.ʒ ə n /","ukp":"/ɪmˈpləʊ.ʒən/","us":"us  / ɪmˈploʊ.ʒ ə n /","usp":"/ɪmˈploʊ.ʒən/"}
+{"title":"implying","uk":"uk  / ɪmˈplaɪ /","ukp":"/ɪmˈplaɪ/","us":"us  / ɪmˈplaɪ /","usp":"/ɪmˈplaɪ/"}
+{"title":"imply","uk":"uk  / ɪmˈplaɪ /","ukp":"/ɪmˈplaɪ/","us":"us  / ɪmˈplaɪ /","usp":"/ɪmˈplaɪ/"}
+{"title":"impolitely","uk":"uk  / ˌɪm.p ə lˈaɪt.li /","ukp":"/ˌɪm.pəlˈaɪt.li/","us":"us  / ˌɪm.p ə lˈaɪt.li /","usp":"/ˌɪm.pəlˈaɪt.li/"}
+{"title":"impolite","uk":"uk  / ˌɪm.p ə lˈaɪt /","ukp":"/ˌɪm.pəlˈaɪt/","us":"us  / ˌɪm.p ə lˈaɪt /","usp":"/ˌɪm.pəlˈaɪt/"}
+{"title":"impoliteness","uk":"uk  / ˌɪm.p ə lˈaɪt.nəs /","ukp":"/ˌɪm.pəlˈaɪt.nəs/","us":"us  / ˌɪm.p ə lˈaɪt.nəs /","usp":"/ˌɪm.pəlˈaɪt.nəs/"}
+{"title":"impolitic","uk":"uk  / ɪmˈpɒl.ɪ.tɪk /","ukp":"/ɪmˈpɒl.ɪ.tɪk/","us":"us  / ɪmˈpɑː.lə.t̬ɪk /","usp":"/ɪmˈpɑː.lə.t̬ɪk/"}
+{"title":"imponderable","uk":"uk  / ɪmˈpɒn.d ə r.ə.b ə l /","ukp":"/ɪmˈpɒn.dər.ə.bəl/","us":"us  / ɪmˈpɑːn.d ə r.ə.b ə l /","usp":"/ɪmˈpɑːn.dər.ə.bəl/"}
+{"title":"import controls","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"import","uk":"uk  / ɪmˈpɔːt /","ukp":"/ɪmˈpɔːt/","us":"us  / ˈɪm.pɔːrt /","usp":"/ˈɪm.pɔːrt/"}
+{"title":"import duty","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"import levy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"import licence","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"import license","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"import permit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"immolation","uk":"uk  / ˌɪm.əˈleɪ.ʃ ə n /","ukp":"/ˌɪm.əˈleɪ.ʃən/","us":"us  / ˌɪm.əˈleɪ.ʃ ə n /","usp":"/ˌɪm.əˈleɪ.ʃən/"}
+{"title":"immoral","uk":"uk  / ɪˈmɒr. ə l /","ukp":"/ɪˈmɒr.əl/","us":"us  / ɪˈmɔːr. ə l /","usp":"/ɪˈmɔːr.əl/"}
+{"title":"immorally","uk":"uk  / ɪˈmɒr. ə l.i /","ukp":"/ɪˈmɒr.əl.i/","us":"us  / ɪˈmɔːr. ə l.i /","usp":"/ɪˈmɔːr.əl.i/"}
+{"title":"immorality","uk":"uk  / ˌɪm.əˈræl.ə.ti /","ukp":"/ˌɪm.əˈræl.ə.ti/","us":"us  / ˌɪm.əˈræl.ə.t̬i /","usp":"/ˌɪm.əˈræl.ə.t̬i/"}
+{"title":"immortal","uk":"uk  / ɪˈmɔː.t ə l /","ukp":"/ɪˈmɔː.təl/","us":"us  / ɪˈmɔːr.t̬ ə l /","usp":"/ɪˈmɔːr.t̬əl/"}
+{"title":"immortality","uk":"uk  / ˌɪm.ɔːˈtæl.ə.ti /","ukp":"/ˌɪm.ɔːˈtæl.ə.ti/","us":"us  / ˌɪm.ɔːrˈtæl.ə.t̬i /","usp":"/ˌɪm.ɔːrˈtæl.ə.t̬i/"}
+{"title":"immortalized","uk":"uk  / ɪˈmɔː.t ə l.aɪz /","ukp":"/ɪˈmɔː.təl.aɪz/","us":"us  / ɪˈmɔːr.t̬ ə l.aɪz /","usp":"/ɪˈmɔːr.t̬əl.aɪz/"}
+{"title":"immortalize","uk":"uk  / ɪˈmɔː.t ə l.aɪz /","ukp":"/ɪˈmɔː.təl.aɪz/","us":"us  / ɪˈmɔːr.t̬ ə l.aɪz /","usp":"/ɪˈmɔːr.t̬əl.aɪz/"}
+{"title":"immortalizing","uk":"uk  / ɪˈmɔː.t ə l.aɪz /","ukp":"/ɪˈmɔː.təl.aɪz/","us":"us  / ɪˈmɔːr.t̬ ə l.aɪz /","usp":"/ɪˈmɔːr.t̬əl.aɪz/"}
+{"title":"immovable","uk":"uk  / ɪˈmuː.və.b ə l /","ukp":"/ɪˈmuː.və.bəl/","us":"us  / ɪˈmuː.və.b ə l /","usp":"/ɪˈmuː.və.bəl/"}
+{"title":"immovable property","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"immune response","uk":"uk  / ɪˈmjuːn rɪˌspɒns /","ukp":"/ɪˈmjuːn rɪˌspɒns/","us":"us  / ɪˈmjuːn rɪˌspɑːns /","usp":"/ɪˈmjuːn rɪˌspɑːns/"}
+{"title":"immune","uk":"uk  / ɪˈmjuːn /","ukp":"/ɪˈmjuːn/","us":"us  / ɪˈmjuːn /","usp":"/ɪˈmjuːn/"}
+{"title":"immune thrombocytopenic purpura","uk":"uk  / ɪˌmjuːn θrɒm.bəʊ.saɪ.təˌpen.ɪk ˈpɜː.pjʊə.rə /","ukp":"/ɪˌmjuːn θrɒm.bəʊ.saɪ.təˌpen.ɪk ˈpɜː.pjʊə.rə/","us":"us  / ɪˈmjuːn ˌθrɑːm.boʊ.saɪ.t̬əˈpiː.nɪk ˈpɝː.pjɚ.ə /","usp":"/ɪˈmjuːn ˌθrɑːm.boʊ.saɪ.t̬əˈpiː.nɪk ˈpɝː.pjɚ.ə/"}
+{"title":"immune system","uk":"uk  / ɪˈmjuːn ˌsɪs.təm /","ukp":"/ɪˈmjuːn ˌsɪs.təm/","us":"us  / ɪˈmjuːn ˌsɪs.təm /","usp":"/ɪˈmjuːn ˌsɪs.təm/"}
+{"title":"immunity","uk":"uk  / ɪˈmjuː.nə.ti /","ukp":"/ɪˈmjuː.nə.ti/","us":"us  / ɪˈmjuː.nə.t̬i /","usp":"/ɪˈmjuː.nə.t̬i/"}
+{"title":"immunization","uk":"uk  / ˌim.jə.naɪˈzeɪ.ʃ ə n /","ukp":"/ˌim.jə.naɪˈzeɪ.ʃən/","us":"us  / ˌim.jə.nəˈzeɪ.ʃ ə n /","usp":"/ˌim.jə.nəˈzeɪ.ʃən/"}
+{"title":"immunize","uk":"uk  / ˈɪm.jə.naɪz /","ukp":"/ˈɪm.jə.naɪz/","us":"us  / ˈɪm.jə.naɪz /","usp":"/ˈɪm.jə.naɪz/"}
+{"title":"immunized","uk":"uk  / ˈɪm.jə.naɪz /","ukp":"/ˈɪm.jə.naɪz/","us":"us  / ˈɪm.jə.naɪz /","usp":"/ˈɪm.jə.naɪz/"}
+{"title":"immunizing","uk":"uk  / ˈɪm.jə.naɪz /","ukp":"/ˈɪm.jə.naɪz/","us":"us  / ˈɪm.jə.naɪz /","usp":"/ˈɪm.jə.naɪz/"}
+{"title":"immunocompromised","uk":"uk  / ˌɪm.jə.nəʊˈkɒm.prə.maɪzd /","ukp":"/ˌɪm.jə.nəʊˈkɒm.prə.maɪzd/","us":"us  / ˌɪm.jəˌnoʊˈkɑːm.prə.maɪzd /","usp":"/ˌɪm.jəˌnoʊˈkɑːm.prə.maɪzd/"}
+{"title":"immunodeficiency","uk":"uk  / ˌɪm.jə.nəʊ.dɪˈfɪʃ. ə n.si /","ukp":"/ˌɪm.jə.nəʊ.dɪˈfɪʃ.ən.si/","us":"us  / ˌɪm.jə.noʊ.dɪˈfɪʃ. ə n.si /","usp":"/ˌɪm.jə.noʊ.dɪˈfɪʃ.ən.si/"}
+{"title":"immunohistochemical","uk":"uk  / ˌɪm.jəːn.əʊˌhɪs.təʊˈkem.ɪ.k ə l /","ukp":"/ˌɪm.jəːn.əʊˌhɪs.təʊˈkem.ɪ.kəl/","us":"us  / ˌɪm.jə.noʊˌhɪs.təˈkem.ɪ.k ə l /","usp":"/ˌɪm.jə.noʊˌhɪs.təˈkem.ɪ.kəl/"}
+{"title":"immunoglobulin","uk":"uk  / ˌɪm.jəːn.əʊˈɡlɒb.jə.lɪn /","ukp":"/ˌɪm.jəːn.əʊˈɡlɒb.jə.lɪn/","us":"us  / ˌɪm.jə.noʊˈɡlɑː.bjə.lɪn /","usp":"/ˌɪm.jə.noʊˈɡlɑː.bjə.lɪn/"}
+{"title":"immunological","uk":"uk  / ɪm.jə.nəˈlɒdʒ.ɪ.kel /","ukp":"/ɪm.jə.nəˈlɒdʒ.ɪ.kel/","us":"us  / ˌɪm.jə.nəˈlɑː.dʒɪ.k ə l /","usp":"/ˌɪm.jə.nəˈlɑː.dʒɪ.kəl/"}
+{"title":"immunosuppressed","uk":"uk  / ˌɪm.jə.nəʊ.səˈprest /","ukp":"/ˌɪm.jə.nəʊ.səˈprest/","us":"us  / ˌɪm.jəˌnoʊ.səˈprest /","usp":"/ˌɪm.jəˌnoʊ.səˈprest/"}
+{"title":"immunology","uk":"uk  / ˌɪm.jəˈnɒl.ə.dʒi /","ukp":"/ˌɪm.jəˈnɒl.ə.dʒi/","us":"us  / ˌɪm.jəˈnɑː.lə.dʒi /","usp":"/ˌɪm.jəˈnɑː.lə.dʒi/"}
+{"title":"immunosuppression","uk":"uk  / ˌɪm.jə.nəʊ.səˈpreʃ. ə n /","ukp":"/ˌɪm.jə.nəʊ.səˈpreʃ.ən/","us":"us  / ˌɪm.jə.noʊ.səˈpreʃ. ə n /","usp":"/ˌɪm.jə.noʊ.səˈpreʃ.ən/"}
+{"title":"immunosuppressive","uk":"uk  / ˌɪm.jə.nəʊ.səˈpres.ɪv /","ukp":"/ˌɪm.jə.nəʊ.səˈpres.ɪv/","us":"us  / ˌɪm.jəˌnoʊ.səˈpres.ɪv /","usp":"/ˌɪm.jəˌnoʊ.səˈpres.ɪv/"}
+{"title":"immunotherapy","uk":"uk  / ˌɪm.jə.nəʊˈθe.rə.pi /","ukp":"/ˌɪm.jə.nəʊˈθe.rə.pi/","us":"us  / ˌɪm.jə.noʊˈθer.ə.pi /","usp":"/ˌɪm.jə.noʊˈθer.ə.pi/"}
+{"title":"immure","uk":"uk  / ɪˈmjʊə r /","ukp":"/ɪˈmjʊər/","us":"us  / ɪˈmjʊr /","usp":"/ɪˈmjʊr/"}
+{"title":"immutability","uk":"uk  / ɪˌmjuː.təˈbɪl.ə.ti /","ukp":"/ɪˌmjuː.təˈbɪl.ə.ti/","us":"us  / ɪˌmjuː.t̬əˈbɪl.ə.t̬i /","usp":"/ɪˌmjuː.t̬əˈbɪl.ə.t̬i/"}
+{"title":"immured","uk":"uk  / ɪˈmjʊəd /","ukp":"/ɪˈmjʊəd/","us":"us  / ɪˈmjʊrd /","usp":"/ɪˈmjʊrd/"}
+{"title":"immutable","uk":"uk  / ɪˈmjuː.tə.b ə l /","ukp":"/ɪˈmjuː.tə.bəl/","us":"us  / ɪˈmjuː.t̬ə.b ə l /","usp":"/ɪˈmjuː.t̬ə.bəl/"}
+{"title":"imo","uk":"","us":""}
+{"title":"imp","uk":"uk  / ɪmp /","ukp":"/ɪmp/","us":"us  / ɪmp /","usp":"/ɪmp/"}
+{"title":"impact assessment","uk":"uk  / ˈɪm.pækt əˌses.mənt /","ukp":"/ˈɪm.pækt əˌses.mənt/","us":"us  / ˈɪm.pækt əˌses.mənt /","usp":"/ˈɪm.pækt əˌses.mənt/"}
+{"title":"impact statement","uk":"uk  / ˈɪm.pækt ˌsteɪt.mənt /","ukp":"/ˈɪm.pækt ˌsteɪt.mənt/","us":"us  / ˈɪm.pækt ˌsteɪt.mənt /","usp":"/ˈɪm.pækt ˌsteɪt.mənt/"}
+{"title":"impact","uk":"uk  / ˈɪm.pækt /","ukp":"/ˈɪm.pækt/","us":"us  / ˈɪm.pækt /","usp":"/ˈɪm.pækt/"}
+{"title":"impacted","uk":"uk  / ɪmˈpæk.tɪd /","ukp":"/ɪmˈpæk.tɪd/","us":"us  / ɪmˈpæk.tɪd /","usp":"/ɪmˈpæk.tɪd/"}
+{"title":"impactful","uk":"uk  / ɪmˈpækt.f ə l /","ukp":"/ɪmˈpækt.fəl/","us":"us  / ɪmˈpækt.f ə l /","usp":"/ɪmˈpækt.fəl/"}
+{"title":"impacting","uk":"uk  / ɪmˈpækt /","ukp":"/ɪmˈpækt/","us":"us  / ɪmˈpækt /","usp":"/ɪmˈpækt/"}
+{"title":"impair","uk":"uk  / ɪmˈpeə r /","ukp":"/ɪmˈpeər/","us":"us  / ɪmˈper /","usp":"/ɪmˈper/"}
+{"title":"impaired","uk":"uk  / ɪmˈpeəd /","ukp":"/ɪmˈpeəd/","us":"us  / ɪmˈperd /","usp":"/ɪmˈperd/"}
+{"title":"impairing","uk":"uk  / ɪmˈpeə r /","ukp":"/ɪmˈpeər/","us":"us  / ɪmˈper /","usp":"/ɪmˈper/"}
+{"title":"import quota","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"import restrictions","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"impairment","uk":"uk  / ɪmˈpeə.mənt /","ukp":"/ɪmˈpeə.mənt/","us":"us  / ɪmˈper.mənt /","usp":"/ɪmˈper.mənt/"}
+{"title":"import surcharge","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"import tariff","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"import-export","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"importance","uk":"uk  / ɪmˈpɔː.t ə ns /","ukp":"/ɪmˈpɔː.təns/","us":"us  / ɪmˈpɔːr.t ə ns /","usp":"/ɪmˈpɔːr.təns/"}
+{"title":"importantly","uk":"uk  / ɪmˈpɔː.t ə nt.li /","ukp":"/ɪmˈpɔː.tənt.li/","us":"us  / ɪmˈpɔːr.t ə nt.li /","usp":"/ɪmˈpɔːr.tənt.li/"}
+{"title":"important","uk":"uk  / ɪmˈpɔː.t ə nt /","ukp":"/ɪmˈpɔː.tənt/","us":"us  / ɪmˈpɔːr.t ə nt /","usp":"/ɪmˈpɔːr.tənt/"}
+{"title":"importation","uk":"uk  / ˌɪm.pɔːˈteɪ.ʃ ə n /","ukp":"/ˌɪm.pɔːˈteɪ.ʃən/","us":"us  / ˌɪm.pɔːrˈteɪ.ʃ ə n /","usp":"/ˌɪm.pɔːrˈteɪ.ʃən/"}
+{"title":"imported","uk":"uk  / ɪmˈpɔːt /","ukp":"/ɪmˈpɔːt/","us":"us  / ˈɪm.pɔːrt /","usp":"/ˈɪm.pɔːrt/"}
+{"title":"importer","uk":"uk  / ɪmˈpɔː.tə r /","ukp":"/ɪmˈpɔː.tər/","us":"us  / ɪmˈpɔːr.t̬ɚ /","usp":"/ɪmˈpɔːr.t̬ɚ/"}
+{"title":"importing","uk":"uk  / ɪmˈpɔːt /","ukp":"/ɪmˈpɔːt/","us":"us  / ˈɪm.pɔːrt /","usp":"/ˈɪm.pɔːrt/"}
+{"title":"importunate","uk":"uk  / ɪmˈpɔː.tjə.nət /","ukp":"/ɪmˈpɔː.tjə.nət/","us":"us  / ɪmˈpɔːr.tʃə.nət /","usp":"/ɪmˈpɔːr.tʃə.nət/"}
+{"title":"importune","uk":"uk  / ˌɪm.pɔːˈtʃuːn /","ukp":"/ˌɪm.pɔːˈtʃuːn/","us":"us  / ˌɪm.pɔːrˈtuːn /","usp":"/ˌɪm.pɔːrˈtuːn/"}
+{"title":"importuned","uk":"uk  / ˌɪm.pɔːˈtʃuːn /","ukp":"/ˌɪm.pɔːˈtʃuːn/","us":"us  / ˌɪm.pɔːrˈtuːn /","usp":"/ˌɪm.pɔːrˈtuːn/"}
+{"title":"importuning","uk":"uk  / ˌɪm.pɔːˈtʃuːn /","ukp":"/ˌɪm.pɔːˈtʃuːn/","us":"us  / ˌɪm.pɔːrˈtuːn /","usp":"/ˌɪm.pɔːrˈtuːn/"}
+{"title":"impose","uk":"uk  / ɪmˈpəʊz /","ukp":"/ɪmˈpəʊz/","us":"us  / ɪmˈpoʊz /","usp":"/ɪmˈpoʊz/"}
+{"title":"imposing","uk":"uk  / ɪmˈpəʊ.zɪŋ /","ukp":"/ɪmˈpəʊ.zɪŋ/","us":"us  / ɪmˈpoʊ.zɪŋ /","usp":"/ɪmˈpoʊ.zɪŋ/"}
+{"title":"imposed","uk":"uk  / ɪmˈpəʊz /","ukp":"/ɪmˈpəʊz/","us":"us  / ɪmˈpoʊz /","usp":"/ɪmˈpoʊz/"}
+{"title":"imposition","uk":"uk  / ˌɪm.pəˈzɪʃ. ə n /","ukp":"/ˌɪm.pəˈzɪʃ.ən/","us":"us  / ˌɪm.pəˈzɪʃ. ə n /","usp":"/ˌɪm.pəˈzɪʃ.ən/"}
+{"title":"impossibility","uk":"uk  / ɪmˌpɒs.əˈbɪl.ə.ti /","ukp":"/ɪmˌpɒs.əˈbɪl.ə.ti/","us":"us  / ɪmˌpɑː.səˈbɪl.ə.t̬i /","usp":"/ɪmˌpɑː.səˈbɪl.ə.t̬i/"}
+{"title":"impossibly","uk":"uk  / ɪmˈpɒs.ə.bli /","ukp":"/ɪmˈpɒs.ə.bli/","us":"us  / ɪmˈpɑː.sə.bli /","usp":"/ɪmˈpɑː.sə.bli/"}
+{"title":"impossible","uk":"uk  / ɪmˈpɒs.ə.b ə l /","ukp":"/ɪmˈpɒs.ə.bəl/","us":"us  / ɪmˈpɑː.sə.b ə l /","usp":"/ɪmˈpɑː.sə.bəl/"}
+{"title":"impostor","uk":"uk  / ɪmˈpɒs.tə r /","ukp":"/ɪmˈpɒs.tər/","us":"us  / ɪmˈpɑː.stɚ /","usp":"/ɪmˈpɑː.stɚ/"}
+{"title":"impostor syndrome","uk":"uk  / ɪmˈpɒs.tə ˌsɪn.drəʊm /","ukp":"/ɪmˈpɒs.tə ˌsɪn.drəʊm/","us":"us  / ɪmˈpɑː.stɚ ˌsɪn.droʊm /","usp":"/ɪmˈpɑː.stɚ ˌsɪn.droʊm/"}
+{"title":"imposture","uk":"uk  / ɪmˈpɒs.tjə r /","ukp":"/ɪmˈpɒs.tjər/","us":"us  / ɪmˈpɑː.stʃɚ /","usp":"/ɪmˈpɑː.stʃɚ/"}
+{"title":"impotence","uk":"uk  / ˈɪm.pə.t ə ns /","ukp":"/ˈɪm.pə.təns/","us":"us  / ˈɪm.pə.t̬ ə ns /","usp":"/ˈɪm.pə.t̬əns/"}
+{"title":"impotent","uk":"uk  / ˈɪm.pə.t ə nt /","ukp":"/ˈɪm.pə.tənt/","us":"us  / ˈɪm.pə.t̬ ə nt /","usp":"/ˈɪm.pə.t̬ənt/"}
+{"title":"impound","uk":"uk  / ɪmˈpaʊnd /","ukp":"/ɪmˈpaʊnd/","us":"us  / ɪmˈpaʊnd /","usp":"/ɪmˈpaʊnd/"}
+{"title":"impounded","uk":"uk  / ɪmˈpaʊnd /","ukp":"/ɪmˈpaʊnd/","us":"us  / ɪmˈpaʊnd /","usp":"/ɪmˈpaʊnd/"}
+{"title":"impounding","uk":"uk  / ɪmˈpaʊnd /","ukp":"/ɪmˈpaʊnd/","us":"us  / ɪmˈpaʊnd /","usp":"/ɪmˈpaʊnd/"}
+{"title":"impoverish","uk":"uk  / ɪmˈpɒv. ə r.ɪʃ /","ukp":"/ɪmˈpɒv.ər.ɪʃ/","us":"us  / ɪmˈpɑː.vɚ.ɪʃ /","usp":"/ɪmˈpɑː.vɚ.ɪʃ/"}
+{"title":"impoverished","uk":"uk  / ɪmˈpɒv. ə r.ɪʃt /","ukp":"/ɪmˈpɒv.ər.ɪʃt/","us":"us  / ɪmˈpɑː.vɚ.ɪʃt /","usp":"/ɪmˈpɑː.vɚ.ɪʃt/"}
+{"title":"impoverishing","uk":"uk  / ɪmˈpɒv. ə r.ɪʃ /","ukp":"/ɪmˈpɒv.ər.ɪʃ/","us":"us  / ɪmˈpɑː.vɚ.ɪʃ /","usp":"/ɪmˈpɑː.vɚ.ɪʃ/"}
+{"title":"impoverishment","uk":"uk  / ɪmˈpɒv. ə r.ɪʃ.mənt /","ukp":"/ɪmˈpɒv.ər.ɪʃ.mənt/","us":"us  / ɪmˈpɑː.vɚ.ɪʃ.mənt /","usp":"/ɪmˈpɑː.vɚ.ɪʃ.mənt/"}
+{"title":"impracticable","uk":"uk  / ɪmˈpræk.tɪ.kə.b ə l /","ukp":"/ɪmˈpræk.tɪ.kə.bəl/","us":"us  / ɪmˈpræk.tɪ.kə.b ə l /","usp":"/ɪmˈpræk.tɪ.kə.bəl/"}
+{"title":"impractical","uk":"uk  / ɪmˈpræk.tɪ.k ə l /","ukp":"/ɪmˈpræk.tɪ.kəl/","us":"us  / ɪmˈpræk.tɪ.k ə l /","usp":"/ɪmˈpræk.tɪ.kəl/"}
+{"title":"imprecation","uk":"uk  / ˌɪm.prəˈkeɪ.ʃ ə n /","ukp":"/ˌɪm.prəˈkeɪ.ʃən/","us":"us  / ˌɪm.prəˈkeɪ.ʃ ə n /","usp":"/ˌɪm.prəˈkeɪ.ʃən/"}
+{"title":"imprecise","uk":"uk  / ˌɪm.prɪˈsaɪs /","ukp":"/ˌɪm.prɪˈsaɪs/","us":"us  / ˌɪm.prɪˈsaɪs /","usp":"/ˌɪm.prɪˈsaɪs/"}
+{"title":"impregnable","uk":"uk  / ɪmˈpreɡ.nə.b ə l /","ukp":"/ɪmˈpreɡ.nə.bəl/","us":"us  / ɪmˈpreɡ.nə.b ə l /","usp":"/ɪmˈpreɡ.nə.bəl/"}
+{"title":"imprecision","uk":"uk  / ˌɪm.prɪˈsɪʒ. ə n /","ukp":"/ˌɪm.prɪˈsɪʒ.ən/","us":"us  / ˌɪm.prɪˈsɪʒ. ə n /","usp":"/ˌɪm.prɪˈsɪʒ.ən/"}
+{"title":"impregnate","uk":"uk  / ˈɪm.preɡ.neɪt /","ukp":"/ˈɪm.preɡ.neɪt/","us":"us  / ɪmˈpreɡ.neɪt /","usp":"/ɪmˈpreɡ.neɪt/"}
+{"title":"impregnated","uk":"uk  / ˈɪm.preɡ.neɪt /","ukp":"/ˈɪm.preɡ.neɪt/","us":"us  / ɪmˈpreɡ.neɪt /","usp":"/ɪmˈpreɡ.neɪt/"}
+{"title":"impregnating","uk":"uk  / ˈɪm.preɡ.neɪt /","ukp":"/ˈɪm.preɡ.neɪt/","us":"us  / ɪmˈpreɡ.neɪt /","usp":"/ɪmˈpreɡ.neɪt/"}
+{"title":"impresario","uk":"uk  / ˌɪm.prəˈsɑː.ri.əʊ /","ukp":"/ˌɪm.prəˈsɑː.ri.əʊ/","us":"us  / ˌɪm.prəˈsɑːr.i.oʊ /","usp":"/ˌɪm.prəˈsɑːr.i.oʊ/"}
+{"title":"impress","uk":"uk  / ɪmˈpres /","ukp":"/ɪmˈpres/","us":"us  / ɪmˈpres /","usp":"/ɪmˈpres/"}
+{"title":"impress something on/upon someone","uk":"uk  / ɪmˈpres /","ukp":"/ɪmˈpres/","us":"us  / ɪmˈpres /","usp":"/ɪmˈpres/"}
+{"title":"impressed","uk":"uk  / ɪmˈpres /","ukp":"/ɪmˈpres/","us":"us  / ɪmˈpres /","usp":"/ɪmˈpres/"}
+{"title":"impressionable","uk":"uk  / ɪmˈpreʃ. ə n.ə.b ə l /","ukp":"/ɪmˈpreʃ.ən.ə.bəl/","us":"us  / ɪmˈpreʃ. ə n.ə.b ə l /","usp":"/ɪmˈpreʃ.ən.ə.bəl/"}
+{"title":"impression","uk":"uk  / ɪmˈpreʃ. ə n /","ukp":"/ɪmˈpreʃ.ən/","us":"us  / ɪmˈpreʃ. ə n /","usp":"/ɪmˈpreʃ.ən/"}
+{"title":"Impressionism","uk":"uk  / ɪmˈpreʃ. ə n.ɪ.z ə m /","ukp":"/ɪmˈpreʃ.ən.ɪ.zəm/","us":"us  / ɪmˈpreʃ. ə n.ɪ.z ə m /","usp":"/ɪmˈpreʃ.ən.ɪ.zəm/"}
+{"title":"impressionistic","uk":"uk  / ɪmˌpreʃ. ə nˈɪs.tɪk /","ukp":"/ɪmˌpreʃ.ənˈɪs.tɪk/","us":"us  / ɪmˌpreʃ. ə nˈɪs.tɪk /","usp":"/ɪmˌpreʃ.ənˈɪs.tɪk/"}
+{"title":"impressionist","uk":"uk  / ɪmˈpreʃ. ə n.ɪst /","ukp":"/ɪmˈpreʃ.ən.ɪst/","us":"us  / ɪmˈpreʃ. ə n.ɪst /","usp":"/ɪmˈpreʃ.ən.ɪst/"}
+{"title":"impressive","uk":"uk  / ɪmˈpres.ɪv /","ukp":"/ɪmˈpres.ɪv/","us":"us  / ɪmˈpres.ɪv /","usp":"/ɪmˈpres.ɪv/"}
+{"title":"imprest","uk":"uk  / ˈɪmprest /","ukp":"/ˈɪmprest/","us":"us  / ˈɪmprest /","usp":"/ˈɪmprest/"}
+{"title":"impressively","uk":"uk  / ɪmˈpres.ɪv.li /","ukp":"/ɪmˈpres.ɪv.li/","us":"us  / ɪmˈpres.ɪv.li /","usp":"/ɪmˈpres.ɪv.li/"}
+{"title":"imprest system","uk":"uk  / ˈɪmprest ˌsɪstəm /","ukp":"/ˈɪmprest ˌsɪstəm/","us":"us  / ˈɪmprest ˌsɪstəm /","usp":"/ˈɪmprest ˌsɪstəm/"}
+{"title":"imprimatur","uk":"uk  / ˌɪm.prɪˈmeɪ.tə r /","ukp":"/ˌɪm.prɪˈmeɪ.tər/","us":"us  / ˌɪm.prɪˈmeɪ.t̬ɚ /","usp":"/ˌɪm.prɪˈmeɪ.t̬ɚ/"}
+{"title":"imprinted","uk":"uk  / ɪmˈprɪnt /","ukp":"/ɪmˈprɪnt/","us":"us  / ɪmˈprɪnt /","usp":"/ɪmˈprɪnt/"}
+{"title":"imprint","uk":"uk  / ɪmˈprɪnt /","ukp":"/ɪmˈprɪnt/","us":"us  / ɪmˈprɪnt /","usp":"/ɪmˈprɪnt/"}
+{"title":"imprinting","uk":"uk  / ɪmˈprɪnt /","ukp":"/ɪmˈprɪnt/","us":"us  / ɪmˈprɪnt /","usp":"/ɪmˈprɪnt/"}
+{"title":"imprisonable","uk":"uk  / ɪmˈprɪz. ə n.ə.b ə l /","ukp":"/ɪmˈprɪz.ən.ə.bəl/","us":"us  / ɪmˈprɪz. ə n.ə.b ə l /","usp":"/ɪmˈprɪz.ən.ə.bəl/"}
+{"title":"imprison","uk":"uk  / ɪmˈprɪz. ə n /","ukp":"/ɪmˈprɪz.ən/","us":"us  / ɪmˈprɪz. ə n /","usp":"/ɪmˈprɪz.ən/"}
+{"title":"imprisoned","uk":"uk  / ɪmˈprɪz. ə n /","ukp":"/ɪmˈprɪz.ən/","us":"us  / ɪmˈprɪz. ə n /","usp":"/ɪmˈprɪz.ən/"}
+{"title":"imprisoning","uk":"uk  / ɪmˈprɪz. ə n /","ukp":"/ɪmˈprɪz.ən/","us":"us  / ɪmˈprɪz. ə n /","usp":"/ɪmˈprɪz.ən/"}
+{"title":"improbability","uk":"uk  / ɪmˌprɒb.əˈbɪl.ə.ti /","ukp":"/ɪmˌprɒb.əˈbɪl.ə.ti/","us":"us  / ˌɪm.prɑː.bəˈbɪl.ə.t̬i /","usp":"/ˌɪm.prɑː.bəˈbɪl.ə.t̬i/"}
+{"title":"imprisonment","uk":"uk  / ɪmˈprɪz. ə n.mənt /","ukp":"/ɪmˈprɪz.ən.mənt/","us":"us  / ɪmˈprɪz. ə n.mənt /","usp":"/ɪmˈprɪz.ən.mənt/"}
+{"title":"improbable","uk":"uk  / ɪmˈprɒb.ə.b ə l /","ukp":"/ɪmˈprɒb.ə.bəl/","us":"us  / ɪmˈprɑː.bə.b ə l /","usp":"/ɪmˈprɑː.bə.bəl/"}
+{"title":"improbably","uk":"uk  / ɪmˈprɒb.ə.bli /","ukp":"/ɪmˈprɒb.ə.bli/","us":"us  / ɪmˈprɑː.bə.bli /","usp":"/ɪmˈprɑː.bə.bli/"}
+{"title":"impromptu","uk":"uk  / ɪmˈprɒmp.tʃuː /","ukp":"/ɪmˈprɒmp.tʃuː/","us":"us  / ɪmˈprɑːmp.tuː /","usp":"/ɪmˈprɑːmp.tuː/"}
+{"title":"improper","uk":"uk  / ɪmˈprɒp.ə r /","ukp":"/ɪmˈprɒp.ər/","us":"us  / ɪmˈprɑː.pɚ /","usp":"/ɪmˈprɑː.pɚ/"}
+{"title":"improper fraction","uk":"uk  / ɪmˌprɒp.ə ˈfræk.ʃ ə n /","ukp":"/ɪmˌprɒp.ə ˈfræk.ʃən/","us":"us  / ɪmˌprɑː.pɚ ˈfræk.ʃ ə n /","usp":"/ɪmˌprɑː.pɚ ˈfræk.ʃən/"}
+{"title":"improperly","uk":"uk  / ɪmˈprɒp.ə.li /","ukp":"/ɪmˈprɒp.ə.li/","us":"us  / ɪmˈprɑː.pɚ.li /","usp":"/ɪmˈprɑː.pɚ.li/"}
+{"title":"impropriety","uk":"uk  / ˌɪm.prəˈpraɪ.ə.ti /","ukp":"/ˌɪm.prəˈpraɪ.ə.ti/","us":"us  / ˌɪm.prəˈpraɪ.ə.t̬i /","usp":"/ˌɪm.prəˈpraɪ.ə.t̬i/"}
+{"title":"improv","uk":"uk  / ˈɪm.prɒv /","ukp":"/ˈɪm.prɒv/","us":"us  / ˈɪm.prɑːv /","usp":"/ˈɪm.prɑːv/"}
+{"title":"improve on/upon something","uk":"uk  / ɪmˈpruːv /","ukp":"/ɪmˈpruːv/","us":"us  / ɪmˈpruːv /","usp":"/ɪmˈpruːv/"}
+{"title":"improve","uk":"uk  / ɪmˈpruːv /","ukp":"/ɪmˈpruːv/","us":"us  / ɪmˈpruːv /","usp":"/ɪmˈpruːv/"}
+{"title":"improved","uk":"uk  / ɪmˈpruːvd /","ukp":"/ɪmˈpruːvd/","us":"us ","usp":""}
+{"title":"improvidence","uk":"uk  / ɪmˈprɒv.ɪ.d ə ns /","ukp":"/ɪmˈprɒv.ɪ.dəns/","us":"us  / ɪmˈprɑː.və.d ə ns /","usp":"/ɪmˈprɑː.və.dəns/"}
+{"title":"improver","uk":"uk  / ɪmˈpruː.və r /","ukp":"/ɪmˈpruː.vər/","us":"us  / ɪmˈpruː.vɚ /","usp":"/ɪmˈpruː.vɚ/"}
+{"title":"improvement","uk":"uk  / ɪmˈpruːv.mənt /","ukp":"/ɪmˈpruːv.mənt/","us":"us  / ɪmˈpruːv.mənt /","usp":"/ɪmˈpruːv.mənt/"}
+{"title":"improvident","uk":"uk  / ɪmˈprɒv.ɪ.d ə nt /","ukp":"/ɪmˈprɒv.ɪ.dənt/","us":"us  / ɪmˈprɑː.və.d ə nt /","usp":"/ɪmˈprɑː.və.dənt/"}
+{"title":"improving","uk":"uk  / ɪmˈpruːv /","ukp":"/ɪmˈpruːv/","us":"us  / ɪmˈpruːv /","usp":"/ɪmˈpruːv/"}
+{"title":"improvisation","uk":"uk  / ˌɪm.prə.vaɪˈzeɪ.ʃ ə n /","ukp":"/ˌɪm.prə.vaɪˈzeɪ.ʃən/","us":"us  / ɪmˌprɑː.vəˈzeɪ.ʃ ə n /","usp":"/ɪmˌprɑː.vəˈzeɪ.ʃən/"}
+{"title":"improvisatory","uk":"uk  / ˌɪm.prə.vaɪˈzeɪ.t ə r.i /","ukp":"/ˌɪm.prə.vaɪˈzeɪ.tər.i/","us":"us  / ˌɪm.prəˈvaɪ.zə.tɔːr.i /","usp":"/ˌɪm.prəˈvaɪ.zə.tɔːr.i/"}
+{"title":"improvised","uk":"uk  / ˈɪm.prə.vaɪz /","ukp":"/ˈɪm.prə.vaɪz/","us":"us  / ˈɪm.prə.vaɪz /","usp":"/ˈɪm.prə.vaɪz/"}
+{"title":"improvise","uk":"uk  / ˈɪm.prə.vaɪz /","ukp":"/ˈɪm.prə.vaɪz/","us":"us  / ˈɪm.prə.vaɪz /","usp":"/ˈɪm.prə.vaɪz/"}
+{"title":"improviser","uk":"uk  / ˈɪm.prə.vaɪ.zə r /","ukp":"/ˈɪm.prə.vaɪ.zər/","us":"us  / ˈɪm.prə.vaɪ.zɚ /","usp":"/ˈɪm.prə.vaɪ.zɚ/"}
+{"title":"imprudence","uk":"uk  / ɪmˈpruː.d ə ns /","ukp":"/ɪmˈpruː.dəns/","us":"us  / ɪmˈpruː.d ə ns /","usp":"/ɪmˈpruː.dəns/"}
+{"title":"improvising","uk":"uk  / ˈɪm.prə.vaɪz /","ukp":"/ˈɪm.prə.vaɪz/","us":"us  / ˈɪm.prə.vaɪz /","usp":"/ˈɪm.prə.vaɪz/"}
+{"title":"imprudent","uk":"uk  / ɪmˈpruː.d ə nt /","ukp":"/ɪmˈpruː.dənt/","us":"us  / ɪmˈpruː.d ə nt /","usp":"/ɪmˈpruː.dənt/"}
+{"title":"impudence","uk":"uk  / ˈɪm.pjə.d ə ns /","ukp":"/ˈɪm.pjə.dəns/","us":"us  / ˈɪm.pjə.d ə ns /","usp":"/ˈɪm.pjə.dəns/"}
+{"title":"impugn","uk":"uk  / ɪmˈpjuːn /","ukp":"/ɪmˈpjuːn/","us":"us  / ɪmˈpjuːn /","usp":"/ɪmˈpjuːn/"}
+{"title":"impudent","uk":"uk  / ˈɪm.pjə.d ə nt /","ukp":"/ˈɪm.pjə.dənt/","us":"us  / ˈɪm.pjə.d ə nt /","usp":"/ˈɪm.pjə.dənt/"}
+{"title":"impugned","uk":"uk  / ɪmˈpjuːn /","ukp":"/ɪmˈpjuːn/","us":"us  / ɪmˈpjuːn /","usp":"/ɪmˈpjuːn/"}
+{"title":"impugning","uk":"uk  / ɪmˈpjuːn /","ukp":"/ɪmˈpjuːn/","us":"us  / ɪmˈpjuːn /","usp":"/ɪmˈpjuːn/"}
+{"title":"imperceptibly","uk":"uk  / ˌɪm.pəˈsep.tə.bli /","ukp":"/ˌɪm.pəˈsep.tə.bli/","us":"us  / ˌɪm.pɚˈsep.tə.bli /","usp":"/ˌɪm.pɚˈsep.tə.bli/"}
+{"title":"impulse","uk":"uk  / ˈɪm.pʌls /","ukp":"/ˈɪm.pʌls/","us":"us  / ˈɪm.pʌls /","usp":"/ˈɪm.pʌls/"}
+{"title":"imperfect competition","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"imperfect market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"imperfect","uk":"uk  / ɪmˈpɜː.fekt /","ukp":"/ɪmˈpɜː.fekt/","us":"us  / ɪmˈpɝː.fekt /","usp":"/ɪmˈpɝː.fekt/"}
+{"title":"imperfection","uk":"uk  / ˌɪm.pəˈfek.ʃ ə n /","ukp":"/ˌɪm.pəˈfek.ʃən/","us":"us  / ˌɪm.pɚˈfek.ʃ ə n /","usp":"/ˌɪm.pɚˈfek.ʃən/"}
+{"title":"imperfectly","uk":"uk  / ɪmˈpɜː.fekt.li /","ukp":"/ɪmˈpɜː.fekt.li/","us":"us  / ɪmˈpɝː.fekt.li /","usp":"/ɪmˈpɝː.fekt.li/"}
+{"title":"imperial","uk":"uk  / ɪmˈpɪə.ri.əl /","ukp":"/ɪmˈpɪə.ri.əl/","us":"us  / ɪmˈpɪr.i.əl /","usp":"/ɪmˈpɪr.i.əl/"}
+{"title":"imperialism","uk":"uk  / ɪmˈpɪə.ri.ə.lɪ.z ə m /","ukp":"/ɪmˈpɪə.ri.ə.lɪ.zəm/","us":"us  / ɪmˈpɪr.i.ə.lɪ.z ə m /","usp":"/ɪmˈpɪr.i.ə.lɪ.zəm/"}
+{"title":"imperil","uk":"uk  / ɪmˈper. ə l /","ukp":"/ɪmˈper.əl/","us":"us  / ɪmˈper. ə l /","usp":"/ɪmˈper.əl/"}
+{"title":"imperilled","uk":"","us":""}
+{"title":"imperialist","uk":"uk  / ɪmˈpɪə.ri.ə.lɪst /","ukp":"/ɪmˈpɪə.ri.ə.lɪst/","us":"us  / ɪmˈpɪr.i.ə.lɪst /","usp":"/ɪmˈpɪr.i.ə.lɪst/"}
+{"title":"imperilling","uk":"","us":""}
+{"title":"imperiously","uk":"uk  / ɪmˈpɪə.ri.əs.li /","ukp":"/ɪmˈpɪə.ri.əs.li/","us":"us  / ɪmˈpɪr.i.əs.li /","usp":"/ɪmˈpɪr.i.əs.li/"}
+{"title":"imperious","uk":"uk  / ɪmˈpɪə.ri.əs /","ukp":"/ɪmˈpɪə.ri.əs/","us":"us  / ɪmˈpɪr.i.əs /","usp":"/ɪmˈpɪr.i.əs/"}
+{"title":"imperiousness","uk":"uk  / ɪmˈpɪə.ri.əs.nəs /","ukp":"/ɪmˈpɪə.ri.əs.nəs/","us":"us  / ɪmˈpɪr.i.əs.nəs /","usp":"/ɪmˈpɪr.i.əs.nəs/"}
+{"title":"impermanence","uk":"uk  / ɪmˈpɜː.mə.nəns /","ukp":"/ɪmˈpɜː.mə.nəns/","us":"us  / ɪmˈpɝː.mə.nəns /","usp":"/ɪmˈpɝː.mə.nəns/"}
+{"title":"imperishable","uk":"uk  / ɪmˈper.ɪ.ʃə.b ə l /","ukp":"/ɪmˈper.ɪ.ʃə.bəl/","us":"us  / ɪmˈper.ɪ.ʃə.b ə l /","usp":"/ɪmˈper.ɪ.ʃə.bəl/"}
+{"title":"impermanent","uk":"uk  / ɪmˈpɜː.mə.nənt /","ukp":"/ɪmˈpɜː.mə.nənt/","us":"us  / ɪmˈpɝː.mə.nənt /","usp":"/ɪmˈpɝː.mə.nənt/"}
+{"title":"impermeable","uk":"uk  / ɪmˈpɜː.mi.ə.b ə l /","ukp":"/ɪmˈpɜː.mi.ə.bəl/","us":"us  / ɪmˈpɝː.mi.ə.b ə l /","usp":"/ɪmˈpɝː.mi.ə.bəl/"}
+{"title":"impermissible","uk":"uk  / ˌɪm.pəˈmɪs.ə.b ə l /","ukp":"/ˌɪm.pəˈmɪs.ə.bəl/","us":"us  / ˌɪm.pɚˈmɪs.ə.b ə l /","usp":"/ˌɪm.pɚˈmɪs.ə.bəl/"}
+{"title":"impersonal","uk":"uk  / ɪmˈpɜː.s ə n. ə l /","ukp":"/ɪmˈpɜː.sən.əl/","us":"us  / ɪmˈpɝː.s ə n. ə l /","usp":"/ɪmˈpɝː.sən.əl/"}
+{"title":"impersonate","uk":"uk  / ɪmˈpɜː.s ə n.eɪt /","ukp":"/ɪmˈpɜː.sən.eɪt/","us":"us  / ɪmˈpɝː.s ə n.eɪt /","usp":"/ɪmˈpɝː.sən.eɪt/"}
+{"title":"impersonated","uk":"uk  / ɪmˈpɜː.s ə n.eɪt /","ukp":"/ɪmˈpɜː.sən.eɪt/","us":"us  / ɪmˈpɝː.s ə n.eɪt /","usp":"/ɪmˈpɝː.sən.eɪt/"}
+{"title":"impersonating","uk":"uk  / ɪmˈpɜː.s ə n.eɪt /","ukp":"/ɪmˈpɜː.sən.eɪt/","us":"us  / ɪmˈpɝː.s ə n.eɪt /","usp":"/ɪmˈpɝː.sən.eɪt/"}
+{"title":"impersonator","uk":"uk  / ɪmˈpɜː.s ə n.eɪ.tə r /","ukp":"/ɪmˈpɜː.sən.eɪ.tər/","us":"us  / ɪmˈpɝː.s ə n.eɪ.t̬ɚ /","usp":"/ɪmˈpɝː.sən.eɪ.t̬ɚ/"}
+{"title":"impersonation","uk":"uk  / ɪmˌpɜː.s ə nˈeɪ.ʃ ə n /","ukp":"/ɪmˌpɜː.sənˈeɪ.ʃən/","us":"us  / ɪmˌpɝː.s ə nˈeɪ.ʃ ə n /","usp":"/ɪmˌpɝː.sənˈeɪ.ʃən/"}
+{"title":"impertinence","uk":"uk  / ɪmˈpɜː.tɪ.nəns /","ukp":"/ɪmˈpɜː.tɪ.nəns/","us":"us  / ɪmˈpɝː.t̬ ə n.əns /","usp":"/ɪmˈpɝː.t̬ən.əns/"}
+{"title":"impertinently","uk":"uk  / ɪmˈpɜː.tɪ.nənt.li /","ukp":"/ɪmˈpɜː.tɪ.nənt.li/","us":"us  / ɪmˈpɝː.t̬ ə n. ə nt.li /","usp":"/ɪmˈpɝː.t̬ən.ənt.li/"}
+{"title":"impertinent","uk":"uk  / ɪmˈpɜː.tɪ.nənt /","ukp":"/ɪmˈpɜː.tɪ.nənt/","us":"us  / ɪmˈpɝː.t̬ ə n. ə nt /","usp":"/ɪmˈpɝː.t̬ən.ənt/"}
+{"title":"imperturbably","uk":"uk  / ˌɪm.pəˈtɜː.bə.bli /","ukp":"/ˌɪm.pəˈtɜː.bə.bli/","us":"us  / ˌɪm.pɚˈtɝː.bə.bli /","usp":"/ˌɪm.pɚˈtɝː.bə.bli/"}
+{"title":"imperturbable","uk":"uk  / ˌɪm.pəˈtɜː.bə.b ə l /","ukp":"/ˌɪm.pəˈtɜː.bə.bəl/","us":"us  / ˌɪm.pɚˈtɝː.bə.b ə l /","usp":"/ˌɪm.pɚˈtɝː.bə.bəl/"}
+{"title":"impervious","uk":"uk  / ɪmˈpɜː.vi.əs /","ukp":"/ɪmˈpɜː.vi.əs/","us":"us  / ɪmˈpɝː.vi.əs /","usp":"/ɪmˈpɝː.vi.əs/"}
+{"title":"impetuously","uk":"uk  / ɪmˈpetʃ.u.əs.li /","ukp":"/ɪmˈpetʃ.u.əs.li/","us":"us  / ɪmˈpetʃ.u.əs.li /","usp":"/ɪmˈpetʃ.u.əs.li/"}
+{"title":"impetigo","uk":"uk  / ˌɪm.pəˈtaɪ.ɡəʊ /","ukp":"/ˌɪm.pəˈtaɪ.ɡəʊ/","us":"us  / ˌɪm.pəˈtaɪ.ɡoʊ /","usp":"/ˌɪm.pəˈtaɪ.ɡoʊ/"}
+{"title":"impetuous","uk":"uk  / ɪmˈpetʃ.u.əs /","ukp":"/ɪmˈpetʃ.u.əs/","us":"us  / ɪmˈpetʃ.u.əs /","usp":"/ɪmˈpetʃ.u.əs/"}
+{"title":"impiety","uk":"uk  / ɪmˈpaɪ.ə.ti /","ukp":"/ɪmˈpaɪ.ə.ti/","us":"us  / ɪmˈpaɪ.ə.t̬i /","usp":"/ɪmˈpaɪ.ə.t̬i/"}
+{"title":"impetuousness","uk":"uk  / ɪmˈpetʃ.u.əs.nəs /","ukp":"/ɪmˈpetʃ.u.əs.nəs/","us":"us  / ɪmˈpetʃ.u.əs.nəs /","usp":"/ɪmˈpetʃ.u.əs.nəs/"}
+{"title":"impinge on/upon someone/something","uk":"uk  / ɪmˈpɪndʒ /","ukp":"/ɪmˈpɪndʒ/","us":"us  / ɪmˈpɪndʒ /","usp":"/ɪmˈpɪndʒ/"}
+{"title":"impetus","uk":"uk  / ˈɪm.pɪ.təs /","ukp":"/ˈɪm.pɪ.təs/","us":"us  / ˈɪm.pə.t̬əs /","usp":"/ˈɪm.pə.t̬əs/"}
+{"title":"impingement","uk":"uk  / ɪmˈpɪndʒ.mənt /","ukp":"/ɪmˈpɪndʒ.mənt/","us":"us  / ɪmˈpɪndʒ.mənt /","usp":"/ɪmˈpɪndʒ.mənt/"}
+{"title":"impious","uk":"uk  / ˈɪm.paɪ.əs /","ukp":"/ˈɪm.paɪ.əs/","us":"us  / ˈɪm.pi.əs /","usp":"/ˈɪm.pi.əs/"}
+{"title":"impiously","uk":"uk  / ˈɪm.paɪ.əs.li /","ukp":"/ˈɪm.paɪ.əs.li/","us":"us  / ˈɪm.pi.əs.li /","usp":"/ˈɪm.pi.əs.li/"}
+{"title":"impiousness","uk":"uk  / ˈɪm.paɪ.əs.nəs /","ukp":"/ˈɪm.paɪ.əs.nəs/","us":"us  / ˈɪm.pi.əs.nəs /","usp":"/ˈɪm.pi.əs.nəs/"}
+{"title":"impishness","uk":"uk  / ˈɪm.pɪʃ.nəs /","ukp":"/ˈɪm.pɪʃ.nəs/","us":"us  / ˈɪm.pɪʃ.nəs /","usp":"/ˈɪm.pɪʃ.nəs/"}
+{"title":"impishly","uk":"uk  / ˈɪm.pɪʃ.li /","ukp":"/ˈɪm.pɪʃ.li/","us":"us  / ˈɪm.pɪʃ.li /","usp":"/ˈɪm.pɪʃ.li/"}
+{"title":"impish","uk":"uk  / ˈɪm.pɪʃ /","ukp":"/ˈɪm.pɪʃ/","us":"us  / ˈɪm.pɪʃ /","usp":"/ˈɪm.pɪʃ/"}
+{"title":"implacability","uk":"uk / ɪmˌplæk.əˈbɪl.ə.ti /","ukp":"/ɪmˌplæk.əˈbɪl.ə.ti/","us":"us / ɪmˌplæk.əˈbɪl.ə.t̬i /","usp":"/ɪmˌplæk.əˈbɪl.ə.t̬i/"}
+{"title":"impulse buying","uk":"uk  / ˈɪm.pʌls ˌbaɪ.ɪŋ /","ukp":"/ˈɪm.pʌls ˌbaɪ.ɪŋ/","us":"us  / ˈɪm.pʌls ˌbaɪ.ɪŋ /","usp":"/ˈɪm.pʌls ˌbaɪ.ɪŋ/"}
+{"title":"impulse buy","uk":"uk  / ˈɪm.pʌls ˌbaɪ /","ukp":"/ˈɪm.pʌls ˌbaɪ/","us":"us  / ˈɪm.pʌls ˌbaɪ /","usp":"/ˈɪm.pʌls ˌbaɪ/"}
+{"title":"implacable","uk":"uk  / ɪmˈplæk.ə.b ə l /","ukp":"/ɪmˈplæk.ə.bəl/","us":"us  / ɪmˈplæk.ə.b ə l /","usp":"/ɪmˈplæk.ə.bəl/"}
+{"title":"impulse purchase","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"impulsive","uk":"uk  / ɪmˈpʌl.sɪv /","ukp":"/ɪmˈpʌl.sɪv/","us":"us  / ɪmˈpʌl.sɪv /","usp":"/ɪmˈpʌl.sɪv/"}
+{"title":"impulsively","uk":"uk  / ɪmˈpʌl.sɪv.li /","ukp":"/ɪmˈpʌl.sɪv.li/","us":"us  / ɪmˈpʌl.sɪv.li /","usp":"/ɪmˈpʌl.sɪv.li/"}
+{"title":"impulsiveness","uk":"uk  / ɪmˈpʌl.sɪv.nəs /","ukp":"/ɪmˈpʌl.sɪv.nəs/","us":"us  / ɪmˈpʌl.sɪv.nəs /","usp":"/ɪmˈpʌl.sɪv.nəs/"}
+{"title":"impunity","uk":"uk  / ɪmˈpjuː.nə.ti /","ukp":"/ɪmˈpjuː.nə.ti/","us":"us  / ɪmˈpjuː.ə.t̬i /","usp":"/ɪmˈpjuː.ə.t̬i/"}
+{"title":"impure","uk":"uk  / ɪmˈpjʊə r /","ukp":"/ɪmˈpjʊər/","us":"us  / ɪmˈpjʊr /","usp":"/ɪmˈpjʊr/"}
+{"title":"impurity","uk":"uk  / ɪmˈpjʊə.rə.ti /","ukp":"/ɪmˈpjʊə.rə.ti/","us":"us  / ɪmˈpjʊr.ə.t̬i /","usp":"/ɪmˈpjʊr.ə.t̬i/"}
+{"title":"imputation","uk":"uk  / ˌɪm.pjuˈteɪ.ʃ ə n /","ukp":"/ˌɪm.pjuˈteɪ.ʃən/","us":"us  / ˌɪm.pjəˈteɪ.ʃ ə n /","usp":"/ˌɪm.pjəˈteɪ.ʃən/"}
+{"title":"imputation system","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"impute","uk":"uk  / ɪmˈpjuːt /","ukp":"/ɪmˈpjuːt/","us":"us ","usp":""}
+{"title":"imputed interest","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"impute something to someone","uk":"uk  / ɪmˈpjuːt /","ukp":"/ɪmˈpjuːt/","us":"us  / ɪmˈpjuːt /","usp":"/ɪmˈpjuːt/"}
+{"title":"imputed value","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in (a) large part","uk":"","us":""}
+{"title":"in (all) fairness","uk":"","us":""}
+{"title":"in a ... place","uk":"","us":""}
+{"title":"in a body","uk":"","us":""}
+{"title":"in a class by your/it self","uk":"","us":""}
+{"title":"in a cast","uk":"","us":""}
+{"title":"in a dream","uk":"","us":""}
+{"title":"in a flash","uk":"","us":""}
+{"title":"in","uk":"uk  / ɪn /","ukp":"/ɪn/","us":"us  / ɪn /","usp":"/ɪn/"}
+{"title":"in a heartbeat","uk":"","us":""}
+{"title":"in a flutter","uk":"","us":""}
+{"title":"in a holding pattern","uk":"","us":""}
+{"title":"in a huff","uk":"","us":""}
+{"title":"in a nutshell","uk":"","us":""}
+{"title":"in a manner of speaking","uk":"","us":""}
+{"title":"in a pinch","uk":"","us":""}
+{"title":"in a spin","uk":"","us":""}
+{"title":"in a stew","uk":"","us":""}
+{"title":"in a way","uk":"","us":""}
+{"title":"in a word","uk":"","us":""}
+{"title":"in a world of your own","uk":"","us":""}
+{"title":"in absentia","uk":"uk  / ˌɪn æbˈsen.ti.ə /","ukp":"/ˌɪn æbˈsen.ti.ə/","us":"us  / ˌɪn æbˈsen.ti.ə /","usp":"/ˌɪn æbˈsen.ti.ə/"}
+{"title":"in actuality","uk":"","us":""}
+{"title":"in actual fact","uk":"","us":""}
+{"title":"in addition (to)","uk":"","us":""}
+{"title":"in advance of something / someone","uk":"","us":""}
+{"title":"in aid of someone / something","uk":"","us":""}
+{"title":"in advance","uk":"","us":""}
+{"title":"in all but name","uk":"","us":""}
+{"title":"in all conscience","uk":"","us":""}
+{"title":"in all honesty/seriousness/truthfulness","uk":"","us":""}
+{"title":"in all likelihood","uk":"","us":""}
+{"title":"in all","uk":"","us":""}
+{"title":"in all modesty","uk":"","us":""}
+{"title":"in seventh heaven","uk":"","us":""}
+{"title":"in shirtsleeves","uk":"","us":""}
+{"title":"in short","uk":"","us":""}
+{"title":"in short supply","uk":"","us":""}
+{"title":"in single/double figures","uk":"","us":""}
+{"title":"in small doses","uk":"","us":""}
+{"title":"in situ","uk":"uk  / ˌɪn ˈsɪtʃ.uː /","ukp":"/ˌɪn ˈsɪtʃ.uː/","us":"us  / ˌɪn ˈsɪtʃ.uː /","usp":"/ˌɪn ˈsɪtʃ.uː/"}
+{"title":"in so many words","uk":"","us":""}
+{"title":"in someone's capable hands","uk":"","us":""}
+{"title":"in someone's crosshairs","uk":"","us":""}
+{"title":"in someone’s debt","uk":"","us":""}
+{"title":"in someone's direction","uk":"","us":""}
+{"title":"in someone’s employ","uk":"","us":""}
+{"title":"in someone's good/bad books","uk":"","us":""}
+{"title":"in someone's eyes","uk":"","us":""}
+{"title":"in someone's hour of need","uk":"","us":""}
+{"title":"in someone's judgment","uk":"","us":""}
+{"title":"in someone's words","uk":"","us":""}
+{"title":"in spades","uk":"","us":""}
+{"title":"in someone's infinite wisdom","uk":"","us":""}
+{"title":"in spite of something","uk":"","us":""}
+{"title":"in step with someone/something","uk":"","us":""}
+{"title":"in stitches","uk":"","us":""}
+{"title":"in store (for someone/something )","uk":"","us":""}
+{"title":"in terms of something","uk":"","us":""}
+{"title":"in tandem","uk":"","us":""}
+{"title":"in terror of your life","uk":"","us":""}
+{"title":"in that event","uk":"","us":""}
+{"title":"in the (grand) scheme of things","uk":"","us":""}
+{"title":"in the air","uk":"","us":""}
+{"title":"in that case","uk":"","us":""}
+{"title":"in the area of","uk":"","us":""}
+{"title":"in the back of your mind","uk":"","us":""}
+{"title":"in the bag","uk":"","us":""}
+{"title":"in the balance","uk":"","us":""}
+{"title":"in the black","uk":"","us":""}
+{"title":"in the bosom of something","uk":"","us":""}
+{"title":"in the blink of an eye","uk":"","us":""}
+{"title":"in the brain/looks department","uk":"","us":""}
+{"title":"in the buff","uk":"","us":""}
+{"title":"in the cards","uk":"","us":""}
+{"title":"in the can","uk":"","us":""}
+{"title":"in the case of something/someone","uk":"","us":""}
+{"title":"in the classroom","uk":"","us":""}
+{"title":"in the clear","uk":"","us":""}
+{"title":"in the club","uk":"","us":""}
+{"title":"in the cold light of day","uk":"","us":""}
+{"title":"in the course of time","uk":"","us":""}
+{"title":"in the country of the blind, the one-eyed man is king","uk":"","us":""}
+{"title":"in doubt","uk":"","us":""}
+{"title":"in duplicate","uk":"","us":""}
+{"title":"in due course","uk":"","us":""}
+{"title":"in earnest","uk":"","us":""}
+{"title":"in effect","uk":"","us":""}
+{"title":"in embryo","uk":"","us":""}
+{"title":"in either event","uk":"","us":""}
+{"title":"in escrow","uk":"","us":""}
+{"title":"in essence","uk":"","us":""}
+{"title":"in every way","uk":"","us":""}
+{"title":"in fact","uk":"","us":""}
+{"title":"in extremis","uk":"uk  / ˌɪn ɪkˈstriː.mɪs /","ukp":"/ˌɪn ɪkˈstriː.mɪs/","us":"us  / ˌɪn ɪkˈstriː.mɪs /","usp":"/ˌɪn ɪkˈstriː.mɪs/"}
+{"title":"in fits of laughter","uk":"","us":""}
+{"title":"in floods of tears","uk":"","us":""}
+{"title":"in flagrante","uk":"uk  / ˌɪn fləˈɡræn.teɪ /","ukp":"/ˌɪn fləˈɡræn.teɪ/","us":"us  / ˌɪn fləˈɡræn.teɪ /","usp":"/ˌɪn fləˈɡræn.teɪ/"}
+{"title":"in flower","uk":"","us":""}
+{"title":"in foal","uk":"","us":""}
+{"title":"in for it","uk":"","us":""}
+{"title":"in for a penny (in for a pound)","uk":"","us":""}
+{"title":"in for something","uk":"","us":""}
+{"title":"in front of","uk":"","us":""}
+{"title":"in force","uk":"","us":""}
+{"title":"in front","uk":"","us":""}
+{"title":"in formation","uk":"","us":""}
+{"title":"in full flow","uk":"","us":""}
+{"title":"in full cry","uk":"","us":""}
+{"title":"in full swing","uk":"","us":""}
+{"title":"in full","uk":"","us":""}
+{"title":"in full view","uk":"","us":""}
+{"title":"in glorious technicolor","uk":"","us":""}
+{"title":"in general","uk":"","us":""}
+{"title":"in future","uk":"","us":""}
+{"title":"in God's/heaven's name","uk":"","us":""}
+{"title":"in good conscience","uk":"","us":""}
+{"title":"in good faith","uk":"","us":""}
+{"title":"in good hands","uk":"","us":""}
+{"title":"in good, bad, etc. repair","uk":"","us":""}
+{"title":"in hand","uk":"","us":""}
+{"title":"in harness with","uk":"","us":""}
+{"title":"in high gear","uk":"","us":""}
+{"title":"in good time","uk":"","us":""}
+{"title":"in himself","uk":"","us":""}
+{"title":"in his/her/their wisdom","uk":"","us":""}
+{"title":"in hock","uk":"","us":""}
+{"title":"in hot pursuit","uk":"","us":""}
+{"title":"in hot water","uk":"","us":""}
+{"title":"in inverted commas","uk":"","us":""}
+{"title":"in jest","uk":"","us":""}
+{"title":"in lieu of","uk":"","us":""}
+{"title":"in knots","uk":"","us":""}
+{"title":"in kind","uk":"","us":""}
+{"title":"in limbo","uk":"","us":""}
+{"title":"in line for something","uk":"","us":""}
+{"title":"in lockstep","uk":"","us":""}
+{"title":"in line with something","uk":"","us":""}
+{"title":"in light of something","uk":"","us":""}
+{"title":"in luck","uk":"","us":""}
+{"title":"in loco parentis","uk":"uk  / ɪn ˌləʊ.kəʊ pəˈren.tɪs /","ukp":"/ɪn ˌləʊ.kəʊ pəˈren.tɪs/","us":"us  / ɪn ˌloʊ.koʊ pəˈren.t̬ɪs /","usp":"/ɪn ˌloʊ.koʊ pəˈren.t̬ɪs/"}
+{"title":"in medias res","uk":"uk  / ɪn ˌmiː.di.æs ˈreɪs /","ukp":"/ɪn ˌmiː.di.æs ˈreɪs/","us":"us  / ɪn ˌmiː.di.æs ˈreɪs /","usp":"/ɪn ˌmiː.di.æs ˈreɪs/"}
+{"title":"in memory of someone","uk":"","us":""}
+{"title":"in midstream","uk":"","us":""}
+{"title":"in miniature","uk":"","us":""}
+{"title":"in my book","uk":"","us":""}
+{"title":"in mint condition","uk":"","us":""}
+{"title":"in my day","uk":"","us":""}
+{"title":"in myself","uk":"","us":""}
+{"title":"in no time (at all)","uk":"","us":""}
+{"title":"in name only","uk":"","us":""}
+{"title":"in no way","uk":"","us":""}
+{"title":"in no uncertain terms","uk":"","us":""}
+{"title":"in on something","uk":"","us":""}
+{"title":"in on the ground floor","uk":"","us":""}
+{"title":"in order for something to happen","uk":"","us":""}
+{"title":"in ones and twos","uk":"","us":""}
+{"title":"in order","uk":"","us":""}
+{"title":"in order to do something","uk":"","us":""}
+{"title":"in other words","uk":"","us":""}
+{"title":"in outline","uk":"","us":""}
+{"title":"in passing","uk":"","us":""}
+{"title":"in part","uk":"","us":""}
+{"title":"in person","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in phase/out of phase","uk":"","us":""}
+{"title":"in plain sight","uk":"","us":""}
+{"title":"in pieces","uk":"","us":""}
+{"title":"in pocket","uk":"","us":""}
+{"title":"in regard to someone/something","uk":"","us":""}
+{"title":"in relation to something","uk":"","us":""}
+{"title":"in respect of something","uk":"","us":""}
+{"title":"in rem","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in return for something","uk":"","us":""}
+{"title":"in ribbons","uk":"","us":""}
+{"title":"in rotation","uk":"","us":""}
+{"title":"in sb's gift/in the gift of sb","uk":"","us":""}
+{"title":"in safe keeping","uk":"","us":""}
+{"title":"in safe hands","uk":"","us":""}
+{"title":"in all my (born) days","uk":"","us":""}
+{"title":"in all weathers","uk":"","us":""}
+{"title":"in secret","uk":"","us":""}
+{"title":"in anticipation (of)","uk":"","us":""}
+{"title":"in any event","uk":"","us":""}
+{"title":"in any case","uk":"","us":""}
+{"title":"in arrears","uk":"","us":""}
+{"title":"in attendance","uk":"","us":""}
+{"title":"in back of","uk":"","us":""}
+{"title":"in balance","uk":"","us":""}
+{"title":"in ballast","uk":"","us":""}
+{"title":"in bed","uk":"","us":""}
+{"title":"in black and white","uk":"","us":""}
+{"title":"in bold (type/print)","uk":"","us":""}
+{"title":"in blissful ignorance","uk":"","us":""}
+{"title":"in bounds","uk":"","us":""}
+{"title":"in brief","uk":"","us":""}
+{"title":"in buckets","uk":"","us":""}
+{"title":"in broad daylight","uk":"","us":""}
+{"title":"in bulk","uk":"","us":""}
+{"title":"in bud","uk":"","us":""}
+{"title":"in business","uk":"","us":""}
+{"title":"in calf","uk":"","us":""}
+{"title":"in care","uk":"","us":""}
+{"title":"in camera","uk":"uk  / ˌɪn ˈkæm.rə /","ukp":"/ˌɪn ˈkæm.rə/","us":"us  / ˌɪn ˈkæm.rə /","usp":"/ˌɪn ˈkæm.rə/"}
+{"title":"in case of something","uk":"","us":""}
+{"title":"in chains","uk":"","us":""}
+{"title":"in chambers","uk":"","us":""}
+{"title":"in charge (of something/someone )","uk":"","us":""}
+{"title":"in charge","uk":"","us":""}
+{"title":"in check","uk":"","us":""}
+{"title":"in common with someone/something","uk":"","us":""}
+{"title":"in cold blood","uk":"","us":""}
+{"title":"in commission","uk":"","us":""}
+{"title":"in concert","uk":"","us":""}
+{"title":"in conclusion","uk":"","us":""}
+{"title":"in confidence","uk":"","us":""}
+{"title":"in connection with something","uk":"","us":""}
+{"title":"in convoy","uk":"","us":""}
+{"title":"in crisis","uk":"","us":""}
+{"title":"in deadly earnest","uk":"","us":""}
+{"title":"in days gone by","uk":"","us":""}
+{"title":"in deep (trouble)","uk":"","us":""}
+{"title":"in deep doo-doo","uk":"","us":""}
+{"title":"in depth","uk":"uk  / ˈɪn.depθ /","ukp":"/ˈɪn.depθ/","us":"us  / ˈɪn.depθ /","usp":"/ˈɪn.depθ/"}
+{"title":"in dire straits","uk":"","us":""}
+{"title":"in detail","uk":"","us":""}
+{"title":"in dispute","uk":"","us":""}
+{"title":"in disguise","uk":"","us":""}
+{"title":"in double-quick time","uk":"","us":""}
+{"title":"in the dark","uk":"","us":""}
+{"title":"in the dead of night/winter","uk":"","us":""}
+{"title":"in the depth(s) of somewhere","uk":"","us":""}
+{"title":"in the depth(s) of winter","uk":"","us":""}
+{"title":"in the depths of something","uk":"","us":""}
+{"title":"in the distant past/future","uk":"","us":""}
+{"title":"in the distance","uk":"","us":""}
+{"title":"in the doghouse","uk":"","us":""}
+{"title":"in the doldrums","uk":"","us":""}
+{"title":"in the dumps","uk":"","us":""}
+{"title":"in the end","uk":"","us":""}
+{"title":"in the event of something","uk":"","us":""}
+{"title":"in the event","uk":"","us":""}
+{"title":"in the fast lane","uk":"","us":""}
+{"title":"in the extreme","uk":"","us":""}
+{"title":"in the face of something","uk":"","us":""}
+{"title":"in the final analysis","uk":"","us":""}
+{"title":"in the first place","uk":"","us":""}
+{"title":"in the first instance","uk":"","us":""}
+{"title":"in the firing line","uk":"","us":""}
+{"title":"in the first/second place","uk":"","us":""}
+{"title":"in the flesh","uk":"","us":""}
+{"title":"in the flower of someone's youth","uk":"","us":""}
+{"title":"in the fullness of time","uk":"","us":""}
+{"title":"in the future","uk":"","us":""}
+{"title":"in the hands of someone","uk":"","us":""}
+{"title":"in the game","uk":"","us":""}
+{"title":"in the heat of the moment","uk":"","us":""}
+{"title":"in the hole","uk":"","us":""}
+{"title":"in the interim","uk":"","us":""}
+{"title":"in the hot seat","uk":"","us":""}
+{"title":"in the lap of the gods","uk":"","us":""}
+{"title":"in the lap of luxury","uk":"","us":""}
+{"title":"in the light of something","uk":"","us":""}
+{"title":"in the last/final analysis","uk":"","us":""}
+{"title":"in the line of duty","uk":"","us":""}
+{"title":"in the long run","uk":"","us":""}
+{"title":"in the making","uk":"","us":""}
+{"title":"in the manner of something","uk":"","us":""}
+{"title":"in the market for something","uk":"","us":""}
+{"title":"in the middle of something","uk":"","us":""}
+{"title":"in the midst of something","uk":"","us":""}
+{"title":"in the mold of someone/something","uk":"","us":""}
+{"title":"in the money","uk":"","us":""}
+{"title":"in the morning","uk":"","us":""}
+{"title":"in the name of something","uk":"","us":""}
+{"title":"in the neighborhood of something","uk":"","us":""}
+{"title":"in the near future","uk":"","us":""}
+{"title":"in the neighbourhood of something","uk":"","us":""}
+{"title":"in the nick of time","uk":"","us":""}
+{"title":"in-pack promotion","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in-plant","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in-residence","uk":"uk  / ɪnˈrez.ɪ.d ə ns /","ukp":"/ɪnˈrez.ɪ.dəns/","us":"us  / ɪnˈrez.ɪ.d ə ns /","usp":"/ɪnˈrez.ɪ.dəns/"}
+{"title":"in-running","uk":"uk  / ˈɪnˌrʌn.ɪŋ /","ukp":"/ˈɪnˌrʌn.ɪŋ/","us":"us  / ˈɪnˌrʌn.ɪŋ /","usp":"/ˈɪnˌrʌn.ɪŋ/"}
+{"title":"in-play","uk":"uk  / ˈɪnˌpleɪ /","ukp":"/ˈɪnˌpleɪ/","us":"us  / ˈɪnˌpleɪ /","usp":"/ˈɪnˌpleɪ/"}
+{"title":"in-service","uk":"uk  / ˌɪnˈsɜː.vɪs /","ukp":"/ˌɪnˈsɜː.vɪs/","us":"us  / ˌɪnˈsɝː.vɪs /","usp":"/ˌɪnˈsɝː.vɪs/"}
+{"title":"in-service withdrawal","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in-state","uk":"","us":""}
+{"title":"in-store pickup","uk":"uk  / ɪnˌstɔː ˈpɪk.ʌp /","ukp":"/ɪnˌstɔː ˈpɪk.ʌp/","us":"us  / ɪnˌstɔːr ˈpɪk.ʌp /","usp":"/ɪnˌstɔːr ˈpɪk.ʌp/"}
+{"title":"in-store","uk":"uk  / ˌɪnˈstɔː r /","ukp":"/ˌɪnˈstɔːr/","us":"us  / ˌɪnˈstɔːr /","usp":"/ˌɪnˈstɔːr/"}
+{"title":"in-the-money option","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in/by fits and starts","uk":"","us":""}
+{"title":"in/for the foreseeable future","uk":"","us":""}
+{"title":"in/on a loop","uk":"","us":""}
+{"title":"in/into force","uk":"","us":""}
+{"title":"in/out of contention for something","uk":"","us":""}
+{"title":"in/out of keeping (with something )","uk":"","us":""}
+{"title":"in/out of the running","uk":"","us":""}
+{"title":"in/through all the years","uk":"","us":""}
+{"title":"in/within spitting distance","uk":"","us":""}
+{"title":"inability","uk":"uk  / ˌɪn.əˈbɪl.ə.ti /","ukp":"/ˌɪn.əˈbɪl.ə.ti/","us":"us  / ˌɪn.əˈbɪl.ə.t̬i /","usp":"/ˌɪn.əˈbɪl.ə.t̬i/"}
+{"title":"inaccessibility","uk":"uk  / ˌɪn.əkˌses.əˈbɪl.ə.ti /","ukp":"/ˌɪn.əkˌses.əˈbɪl.ə.ti/","us":"us  / ˌɪn.əkˌses.əˈbɪl.ə.t̬i /","usp":"/ˌɪn.əkˌses.əˈbɪl.ə.t̬i/"}
+{"title":"inaccuracy","uk":"uk  / ɪnˈæk.jə.rə.si /","ukp":"/ɪnˈæk.jə.rə.si/","us":"us  / ɪnˈæk.jɚ.ə.si /","usp":"/ɪnˈæk.jɚ.ə.si/"}
+{"title":"inaccessible","uk":"uk  / ˌɪn.əkˈses.ə.b ə l /","ukp":"/ˌɪn.əkˈses.ə.bəl/","us":"us  / ˌɪn.əkˈses.ə.b ə l /","usp":"/ˌɪn.əkˈses.ə.bəl/"}
+{"title":"inaccurate","uk":"uk  / ɪnˈæk.jə.rət /","ukp":"/ɪnˈæk.jə.rət/","us":"us  / ɪnˈæk.jɚ.ət /","usp":"/ɪnˈæk.jɚ.ət/"}
+{"title":"inaccurately","uk":"uk  / ɪnˈæk.jə.rət.li /","ukp":"/ɪnˈæk.jə.rət.li/","us":"us  / ɪnˈæk.jɚ.ət.li /","usp":"/ɪnˈæk.jɚ.ət.li/"}
+{"title":"inaction","uk":"uk  / ɪnˈæk.ʃ ə n /","ukp":"/ɪnˈæk.ʃən/","us":"us  / ɪnˈæk.ʃ ə n /","usp":"/ɪnˈæk.ʃən/"}
+{"title":"inactive account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"inactive","uk":"uk  / ɪnˈæk.tɪv /","ukp":"/ɪnˈæk.tɪv/","us":"us  / ɪnˈæk.tɪv /","usp":"/ɪnˈæk.tɪv/"}
+{"title":"inactivity","uk":"uk  / ˌɪn.ækˈtɪv.ə.ti /","ukp":"/ˌɪn.ækˈtɪv.ə.ti/","us":"us  / ˌɪn.ækˈtɪv.ə.t̬i /","usp":"/ˌɪn.ækˈtɪv.ə.t̬i/"}
+{"title":"inadequacy","uk":"uk  / ɪˈnæd.ɪ.kwə.si /","ukp":"/ɪˈnæd.ɪ.kwə.si/","us":"us  / ɪˈnæd.ə.kwə.si /","usp":"/ɪˈnæd.ə.kwə.si/"}
+{"title":"inadequately","uk":"uk  / ɪˈnæd.ɪ.kwət.li /","ukp":"/ɪˈnæd.ɪ.kwət.li/","us":"us  / ɪˈnæd.ə.kwət.li /","usp":"/ɪˈnæd.ə.kwət.li/"}
+{"title":"inadequate","uk":"uk  / ɪˈnæd.ɪ.kwət /","ukp":"/ɪˈnæd.ɪ.kwət/","us":"us  / ɪˈnæd.ə.kwət /","usp":"/ɪˈnæd.ə.kwət/"}
+{"title":"inadmissible","uk":"uk  / ˌɪn.ədˈmɪs.ə.b ə l /","ukp":"/ˌɪn.ədˈmɪs.ə.bəl/","us":"us  / ˌɪn.ədˈmɪs.ə.b ə l /","usp":"/ˌɪn.ədˈmɪs.ə.bəl/"}
+{"title":"inadvertence","uk":"uk  / ˌɪn.ədˈvɜː.t ə ns /","ukp":"/ˌɪn.ədˈvɜː.təns/","us":"us  / ˌɪn.ədˈvɝː.t̬ ə ns /","usp":"/ˌɪn.ədˈvɝː.t̬əns/"}
+{"title":"inadvertent","uk":"uk  / ˌɪn.ədˈvɜː.t ə nt /","ukp":"/ˌɪn.ədˈvɜː.tənt/","us":"us  / ˌɪn.ədˈvɝː.t̬ ə nt /","usp":"/ˌɪn.ədˈvɝː.t̬ənt/"}
+{"title":"inadvertently","uk":"uk  / ˌɪn.ədˈvɜː.t ə nt.li /","ukp":"/ˌɪn.ədˈvɜː.tənt.li/","us":"us  / ˌɪn.ədˈvɝː.t̬ ə nt.li /","usp":"/ˌɪn.ədˈvɝː.t̬ənt.li/"}
+{"title":"inalienable","uk":"uk  / ɪˈneɪ.li.ə.nə.b ə l /","ukp":"/ɪˈneɪ.li.ə.nə.bəl/","us":"us  / ɪˈneɪ.li.ə.nə.b ə l /","usp":"/ɪˈneɪ.li.ə.nə.bəl/"}
+{"title":"inadvisable","uk":"uk  / ˌɪn.ədˈvaɪ.zə.b ə l /","ukp":"/ˌɪn.ədˈvaɪ.zə.bəl/","us":"us  / ˌɪn.ədˈvaɪ.zə.b ə l /","usp":"/ˌɪn.ədˈvaɪ.zə.bəl/"}
+{"title":"inalienable right","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"inamorata","uk":"uk  / ɪˌnæm.əˈrɑː.tə /","ukp":"/ɪˌnæm.əˈrɑː.tə/","us":"us  / ɪˌnæm.əˈrɑː.t̬ə /","usp":"/ɪˌnæm.əˈrɑː.t̬ə/"}
+{"title":"inanely","uk":"uk  / ɪˈneɪn.li /","ukp":"/ɪˈneɪn.li/","us":"us  / ɪˈneɪn.li /","usp":"/ɪˈneɪn.li/"}
+{"title":"inane","uk":"uk  / ɪˈneɪn /","ukp":"/ɪˈneɪn/","us":"us  / ɪˈneɪn /","usp":"/ɪˈneɪn/"}
+{"title":"inanity","uk":"uk  / ɪˈnæn.ə.ti /","ukp":"/ɪˈnæn.ə.ti/","us":"us  / ɪˈnæn.ə.t̬i /","usp":"/ɪˈnæn.ə.t̬i/"}
+{"title":"inanimate","uk":"uk  / ɪˈnæn.ɪ.mət /","ukp":"/ɪˈnæn.ɪ.mət/","us":"us  / ɪˈnæn.ə.mət /","usp":"/ɪˈnæn.ə.mət/"}
+{"title":"inapplicable","uk":"uk  / ˌɪn.əˈplɪk.ə.b ə l /","ukp":"/ˌɪn.əˈplɪk.ə.bəl/","us":"us  / ˌɪn.əˈplɪk.ə.b ə l /","usp":"/ˌɪn.əˈplɪk.ə.bəl/"}
+{"title":"inappropriacy","uk":"uk  / ˌɪn.əˈprəʊ.pri.ə.si /","ukp":"/ˌɪn.əˈprəʊ.pri.ə.si/","us":"us  / ˌɪn.əˈproʊ.pri.ə.si /","usp":"/ˌɪn.əˈproʊ.pri.ə.si/"}
+{"title":"in use","uk":"","us":""}
+{"title":"in unison","uk":"","us":""}
+{"title":"in view of something","uk":"","us":""}
+{"title":"in vitro","uk":"uk  / ˌɪn ˈviː.trəʊ /","ukp":"/ˌɪn ˈviː.trəʊ/","us":"us  / ˌɪn ˈviː.troʊ /","usp":"/ˌɪn ˈviː.troʊ/"}
+{"title":"in vitro fertilization","uk":"uk  / ɪn ˌviː.trəʊ fɜː.tɪ.laɪˈzeɪ.ʃ ə n /","ukp":"/ɪn ˌviː.trəʊ fɜː.tɪ.laɪˈzeɪ.ʃən/","us":"us  / ɪn ˌviː.troʊ ˌfɝː.t̬ ə l.aɪˈzeɪ.ʃ ə n /","usp":"/ɪn ˌviː.troʊ ˌfɝː.t̬əl.aɪˈzeɪ.ʃən/"}
+{"title":"in vivo","uk":"uk  / ˌɪn ˈviː.vəʊ /","ukp":"/ˌɪn ˈviː.vəʊ/","us":"us  / ˌɪn ˈviː.voʊ /","usp":"/ˌɪn ˈviː.voʊ/"}
+{"title":"in words of one syllable","uk":"","us":""}
+{"title":"in writing","uk":"","us":""}
+{"title":"in years","uk":"","us":""}
+{"title":"in your backyard","uk":"","us":""}
+{"title":"in your birthday suit","uk":"","us":""}
+{"title":"in your bones","uk":"","us":""}
+{"title":"in your dreams!","uk":"","us":""}
+{"title":"in your element","uk":"","us":""}
+{"title":"in your face","uk":"","us":""}
+{"title":"in your face","uk":"uk  / ˌɪn.jəˈfeɪs /","ukp":"/ˌɪn.jəˈfeɪs/","us":"us  / ˌɪn.jəˈfeɪs /","usp":"/ˌɪn.jəˈfeɪs/"}
+{"title":"in your heart of hearts","uk":"","us":""}
+{"title":"in your keeping","uk":"","us":""}
+{"title":"in your mind's eye","uk":"","us":""}
+{"title":"in your own time","uk":"","us":""}
+{"title":"in your own right","uk":"","us":""}
+{"title":"in your own words","uk":"","us":""}
+{"title":"in your salad days","uk":"","us":""}
+{"title":"in your stocking(ed) feet","uk":"","us":""}
+{"title":"in your tracks","uk":"","us":""}
+{"title":"in your/its prime","uk":"","us":""}
+{"title":"(in) between times","uk":"","us":""}
+{"title":"(in) any way, shape, or form","uk":"","us":""}
+{"title":"(in) care of","uk":"","us":""}
+{"title":"(in) the middle of nowhere","uk":"","us":""}
+{"title":"in-basket","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in-app","uk":"uk  / ˈɪnˌæp /","ukp":"/ˈɪnˌæp/","us":"us  / ˈɪnˌæp /","usp":"/ˈɪnˌæp/"}
+{"title":"in-between","uk":"uk  / ˌɪn.bɪˈtwiːn /","ukp":"/ˌɪn.bɪˈtwiːn/","us":"us  / ˌɪn.bɪˈtwiːn /","usp":"/ˌɪn.bɪˈtwiːn/"}
+{"title":"in-box","uk":"","us":"us  / ˈɪnˌbɑks /","usp":"/ˈɪnˌbɑks/"}
+{"title":"in-car","uk":"uk  / ˈɪn.kɑː r /","ukp":"/ˈɪn.kɑːr/","us":"us  / ˈɪn.kɑːr /","usp":"/ˈɪn.kɑːr/"}
+{"title":"in-company","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in-depth interview","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in-flight","uk":"uk  / ˈɪn.flaɪt /","ukp":"/ˈɪn.flaɪt/","us":"us  / ˈɪn.flaɪt /","usp":"/ˈɪn.flaɪt/"}
+{"title":"in-game","uk":"uk  / ˈɪnˌɡeɪm /","ukp":"/ˈɪnˌɡeɪm/","us":"us  / ˈɪnˌɡeɪm /","usp":"/ˈɪnˌɡeɪm/"}
+{"title":"in-group","uk":"uk  / ˈɪn.ɡruːp /","ukp":"/ˈɪn.ɡruːp/","us":"us  / ˈɪn.ɡruːp /","usp":"/ˈɪn.ɡruːp/"}
+{"title":"in-house magazine","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in-home","uk":"uk  / ˌɪnˈhəʊm /","ukp":"/ˌɪnˈhəʊm/","us":"us  / ˌɪnˈhoʊm /","usp":"/ˌɪnˈhoʊm/"}
+{"title":"in-house","uk":"uk  / ˌɪnˈhaʊs /","ukp":"/ˌɪnˈhaʊs/","us":"us  / ˌɪnˈhaʊs /","usp":"/ˌɪnˈhaʊs/"}
+{"title":"in-joke","uk":"uk  / ˈɪn.dʒəʊk /","ukp":"/ˈɪn.dʒəʊk/","us":"us  / ˈɪn.dʒoʊk /","usp":"/ˈɪn.dʒoʊk/"}
+{"title":"in-law","uk":"uk  / ˈɪn.lɔː /","ukp":"/ˈɪn.lɔː/","us":"us  / ˈɪn.lɑː /","usp":"/ˈɪn.lɑː/"}
+{"title":"in-law suite","uk":"uk  / ˈɪn.lɔː ˌswiːt /","ukp":"/ˈɪn.lɔː ˌswiːt/","us":"us  / ˈɪn.lɑː ˌswiːt /","usp":"/ˈɪn.lɑː ˌswiːt/"}
+{"title":"in-line","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in-pack premium","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"in the not-too-distant future","uk":"","us":""}
+{"title":"in the offing","uk":"","us":""}
+{"title":"in the nude","uk":"","us":""}
+{"title":"in the open","uk":"","us":""}
+{"title":"in the original","uk":"","us":""}
+{"title":"in the ordinary way","uk":"","us":""}
+{"title":"in the person of someone","uk":"","us":""}
+{"title":"in the palm of your hand","uk":"","us":""}
+{"title":"in the pink","uk":"","us":""}
+{"title":"in the pipeline","uk":"","us":""}
+{"title":"in the process","uk":"","us":""}
+{"title":"in the raw","uk":"","us":""}
+{"title":"in the red","uk":"","us":""}
+{"title":"in the running","uk":"","us":""}
+{"title":"in the right place at the right time","uk":"","us":""}
+{"title":"in the same boat","uk":"","us":""}
+{"title":"in the same breath","uk":"","us":""}
+{"title":"in the same league (as someone/something )","uk":"","us":""}
+{"title":"in the shadow of someone","uk":"","us":""}
+{"title":"in the shape of something","uk":"","us":""}
+{"title":"in the short run","uk":"","us":""}
+{"title":"in the strictest confidence","uk":"","us":""}
+{"title":"in the teeth of something","uk":"","us":""}
+{"title":"in the thick of something","uk":"","us":""}
+{"title":"in the tradition of someone/something","uk":"","us":""}
+{"title":"in the twinkling of an eye","uk":"","us":""}
+{"title":"in the wake of something","uk":"","us":""}
+{"title":"in the vicinity of","uk":"","us":""}
+{"title":"in the way","uk":"","us":""}
+{"title":"in the weeds","uk":"","us":""}
+{"title":"in the wilderness","uk":"","us":""}
+{"title":"in the wind","uk":"","us":""}
+{"title":"in the world","uk":"","us":""}
+{"title":"in the works","uk":"","us":""}
+{"title":"in the wrong","uk":"","us":""}
+{"title":"in the wrong place at the wrong time","uk":"","us":""}
+{"title":"in the zone","uk":"","us":""}
+{"title":"in theory","uk":"","us":""}
+{"title":"in this day and age","uk":"","us":""}
+{"title":"in those days","uk":"","us":""}
+{"title":"in too deep","uk":"","us":""}
+{"title":"in touch (with someone )","uk":"","us":""}
+{"title":"in toto","uk":"uk  / ˌɪn ˈtəʊ.təʊ /","ukp":"/ˌɪn ˈtəʊ.təʊ/","us":"us  / ˌɪn ˈtoʊ.t̬oʊ /","usp":"/ˌɪn ˈtoʊ.t̬oʊ/"}
+{"title":"in tow","uk":"","us":""}
+{"title":"in tray","uk":"uk  / ˈɪn ˌtreɪ /","ukp":"/ˈɪn ˌtreɪ/","us":"us  / ˈɪn ˌtreɪ /","usp":"/ˈɪn ˌtreɪ/"}
+{"title":"in tune with someone/something","uk":"","us":""}
+{"title":"in truth","uk":"","us":""}
+{"title":"in turn","uk":"","us":""}
+{"title":"in two shakes (of a lamb's tail)","uk":"","us":""}
+{"title":"in triplicate","uk":"","us":""}
+{"title":"incised","uk":"uk  / ɪnˈsaɪz /","ukp":"/ɪnˈsaɪz/","us":"us  / ɪnˈsaɪz /","usp":"/ɪnˈsaɪz/"}
+{"title":"incising","uk":"uk  / ɪnˈsaɪz /","ukp":"/ɪnˈsaɪz/","us":"us  / ɪnˈsaɪz /","usp":"/ɪnˈsaɪz/"}
+{"title":"incise","uk":"uk  / ɪnˈsaɪz /","ukp":"/ɪnˈsaɪz/","us":"us  / ɪnˈsaɪz /","usp":"/ɪnˈsaɪz/"}
+{"title":"incisive","uk":"uk  / ɪnˈsaɪ.sɪv /","ukp":"/ɪnˈsaɪ.sɪv/","us":"us  / ɪnˈsaɪ.sɪv /","usp":"/ɪnˈsaɪ.sɪv/"}
+{"title":"incision","uk":"uk  / ɪnˈsɪʒ. ə n /","ukp":"/ɪnˈsɪʒ.ən/","us":"us  / ɪnˈsɪʒ. ə n /","usp":"/ɪnˈsɪʒ.ən/"}
+{"title":"incisively","uk":"uk  / ɪnˈsaɪ.sɪv.li /","ukp":"/ɪnˈsaɪ.sɪv.li/","us":"us  / ɪnˈsaɪ.sɪv.li /","usp":"/ɪnˈsaɪ.sɪv.li/"}
+{"title":"incisiveness","uk":"uk  / ɪnˈsaɪ.sɪv.nəs /","ukp":"/ɪnˈsaɪ.sɪv.nəs/","us":"us  / ɪnˈsaɪ.sɪv.nəs /","usp":"/ɪnˈsaɪ.sɪv.nəs/"}
+{"title":"incisura","uk":"uk  / ˌɪn.sɪˈʒʊə.rə /","ukp":"/ˌɪn.sɪˈʒʊə.rə/","us":"us  / ˌɪn.sɪˈʒʊr.ə /","usp":"/ˌɪn.sɪˈʒʊr.ə/"}
+{"title":"incisor","uk":"uk  / ɪnˈsaɪ.zə r /","ukp":"/ɪnˈsaɪ.zər/","us":"us  / ɪnˈsaɪ.zɚ /","usp":"/ɪnˈsaɪ.zɚ/"}
+{"title":"incisurae","uk":"","us":""}
+{"title":"incited","uk":"uk  / ɪnˈsaɪt /","ukp":"/ɪnˈsaɪt/","us":"us  / ɪnˈsaɪt /","usp":"/ɪnˈsaɪt/"}
+{"title":"incite","uk":"uk  / ɪnˈsaɪt /","ukp":"/ɪnˈsaɪt/","us":"us  / ɪnˈsaɪt /","usp":"/ɪnˈsaɪt/"}
+{"title":"incitement","uk":"uk  / ɪnˈsaɪt.mənt /","ukp":"/ɪnˈsaɪt.mənt/","us":"us  / ɪnˈsaɪt.mənt /","usp":"/ɪnˈsaɪt.mənt/"}
+{"title":"incivility","uk":"uk  / ˌɪn.sɪˈvɪl.ə.ti /","ukp":"/ˌɪn.sɪˈvɪl.ə.ti/","us":"us  / ˌɪn.sɪˈvɪl.ə.t̬i /","usp":"/ˌɪn.sɪˈvɪl.ə.t̬i/"}
+{"title":"inciting","uk":"uk  / ɪnˈsaɪt /","ukp":"/ɪnˈsaɪt/","us":"us  / ɪnˈsaɪt /","usp":"/ɪnˈsaɪt/"}
+{"title":"inclemency","uk":"uk  / ɪnˈklem.ən.si /","ukp":"/ɪnˈklem.ən.si/","us":"us  / ɪnˈklem.ən.si /","usp":"/ɪnˈklem.ən.si/"}
+{"title":"incl.","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"inclement","uk":"uk  / ɪnˈklem. ə nt /","ukp":"/ɪnˈklem.ənt/","us":"us  / ɪnˈklem. ə nt /","usp":"/ɪnˈklem.ənt/"}
+{"title":"incline your head","uk":"","us":""}
+{"title":"incline to/towards something","uk":"uk  / ɪnˈklaɪn /","ukp":"/ɪnˈklaɪn/","us":"us  / ɪnˈklaɪn /","usp":"/ɪnˈklaɪn/"}
+{"title":"incline","uk":"uk  / ɪnˈklaɪn /","ukp":"/ɪnˈklaɪn/","us":"us  / ɪnˈklaɪn /","usp":"/ɪnˈklaɪn/"}
+{"title":"inclination","uk":"uk  / ˌɪn.klɪˈneɪ.ʃ ə n /","ukp":"/ˌɪn.klɪˈneɪ.ʃən/","us":"us  / ˌɪn.kləˈneɪ.ʃ ə n /","usp":"/ˌɪn.kləˈneɪ.ʃən/"}
+{"title":"inclined","uk":"uk  / ɪnˈklaɪnd /","ukp":"/ɪnˈklaɪnd/","us":"us  / ɪnˈklaɪnd /","usp":"/ɪnˈklaɪnd/"}
+{"title":"includable","uk":"uk / ɪnˈkluː.də.b ə l /","ukp":"/ɪnˈkluː.də.bəl/","us":"us / ɪnˈkluː.də.b ə l /","usp":"/ɪnˈkluː.də.bəl/"}
+{"title":"inclining","uk":"uk  / ɪnˈklaɪn /","ukp":"/ɪnˈklaɪn/","us":"us  / ɪnˈklaɪn /","usp":"/ɪnˈklaɪn/"}
+{"title":"included","uk":"uk  / ɪnˈkluː.dɪd /","ukp":"/ɪnˈkluː.dɪd/","us":"us  / ɪnˈkluː.dɪd /","usp":"/ɪnˈkluː.dɪd/"}
+{"title":"including","uk":"uk  / ɪnˈkluː.dɪŋ /","ukp":"/ɪnˈkluː.dɪŋ/","us":"us  / ɪnˈkluː.dɪŋ /","usp":"/ɪnˈkluː.dɪŋ/"}
+{"title":"include","uk":"uk  / ɪnˈkluːd /","ukp":"/ɪnˈkluːd/","us":"us  / ɪnˈkluːd /","usp":"/ɪnˈkluːd/"}
+{"title":"inclusion","uk":"uk  / ɪnˈkluː.ʒ ə n /","ukp":"/ɪnˈkluː.ʒən/","us":"us  / ɪnˈkluː.ʒ ə n /","usp":"/ɪnˈkluː.ʒən/"}
+{"title":"inclusive","uk":"uk  / ɪnˈkluː.sɪv /","ukp":"/ɪnˈkluː.sɪv/","us":"us ","usp":""}
+{"title":"inclusiveness","uk":"uk  / ɪnˈkluː.sɪv.nəs /","ukp":"/ɪnˈkluː.sɪv.nəs/","us":"us  / ɪnˈkluː.sɪv.nəs /","usp":"/ɪnˈkluː.sɪv.nəs/"}
+{"title":"inclusivity","uk":"uk  / ˌɪn.kluːˈsɪv.ɪ.ti /","ukp":"/ˌɪn.kluːˈsɪv.ɪ.ti/","us":"us  / ˌɪn.kluːˈsɪv.ə.t̬i /","usp":"/ˌɪn.kluːˈsɪv.ə.t̬i/"}
+{"title":"incognito","uk":"uk  / ˌɪn.kɒɡˈniː.təʊ /","ukp":"/ˌɪn.kɒɡˈniː.təʊ/","us":"us  / ˌɪn.kɑːɡˈniː.t̬oʊ /","usp":"/ˌɪn.kɑːɡˈniː.t̬oʊ/"}
+{"title":"incoherence","uk":"uk  / ˌɪn.kəʊˈhɪə.r ə ns /","ukp":"/ˌɪn.kəʊˈhɪə.rəns/","us":"us  / ˌɪn.koʊˈhɪr. ə ns /","usp":"/ˌɪn.koʊˈhɪr.əns/"}
+{"title":"incoherently","uk":"uk  / ˌɪn.kəʊˈhɪə.r ə nt.li /","ukp":"/ˌɪn.kəʊˈhɪə.rənt.li/","us":"us  / ˌɪn.koʊˈhɪr. ə nt.li /","usp":"/ˌɪn.koʊˈhɪr.ənt.li/"}
+{"title":"incoherent","uk":"uk  / ˌɪn.kəʊˈhɪə.r ə nt /","ukp":"/ˌɪn.kəʊˈhɪə.rənt/","us":"us  / ˌɪn.koʊˈhɪr. ə nt /","usp":"/ˌɪn.koʊˈhɪr.ənt/"}
+{"title":"income","uk":"uk  / ˈɪŋ.kʌm /","ukp":"/ˈɪŋ.kʌm/","us":"us  / ˈɪn.kʌm /","usp":"/ˈɪn.kʌm/"}
+{"title":"income bond","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income effect","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income and expenditure account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income elasticity of demand","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income fund","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income group","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income insurance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income protection insurance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income statement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income share","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income stock","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"inappropriateness","uk":"uk  / ˌɪn.əˈprəʊ.pri.ət.nəs /","ukp":"/ˌɪn.əˈprəʊ.pri.ət.nəs/","us":"us  / ˌɪn.əˈproʊ.pri.ət.nəs /","usp":"/ˌɪn.əˈproʊ.pri.ət.nəs/"}
+{"title":"inappropriately","uk":"uk  / ˌɪn.əˈprəʊ.pri.ət.li /","ukp":"/ˌɪn.əˈprəʊ.pri.ət.li/","us":"us  / ˌɪn.əˈproʊ.pri.ət.li /","usp":"/ˌɪn.əˈproʊ.pri.ət.li/"}
+{"title":"inapt","uk":"uk  / ɪˈnæpt /","ukp":"/ɪˈnæpt/","us":"us  / ɪˈnæpt /","usp":"/ɪˈnæpt/"}
+{"title":"inappropriate","uk":"uk  / ˌɪn.əˈprəʊ.pri.ət /","ukp":"/ˌɪn.əˈprəʊ.pri.ət/","us":"us  / ˌɪn.əˈproʊ.pri.ət /","usp":"/ˌɪn.əˈproʊ.pri.ət/"}
+{"title":"inarticulacy","uk":"uk  / ˌɪn.ɑːˈtɪk.jə.lə.si /","ukp":"/ˌɪn.ɑːˈtɪk.jə.lə.si/","us":"us  / ˌɪn.ɑːrˈtɪk.jə.lə.si /","usp":"/ˌɪn.ɑːrˈtɪk.jə.lə.si/"}
+{"title":"inarticulately","uk":"uk  / ˌɪn.ɑːˈtɪk.jə.lət.li /","ukp":"/ˌɪn.ɑːˈtɪk.jə.lət.li/","us":"us  / ˌɪn.ɑːrˈtɪk.jə.lət.li /","usp":"/ˌɪn.ɑːrˈtɪk.jə.lət.li/"}
+{"title":"inarticulate","uk":"uk  / ˌɪn.ɑːˈtɪk.jə.lət /","ukp":"/ˌɪn.ɑːˈtɪk.jə.lət/","us":"us  / ˌɪn.ɑːrˈtɪk.jə.lət /","usp":"/ˌɪn.ɑːrˈtɪk.jə.lət/"}
+{"title":"inasmuch as","uk":"uk  / ɪn.əzˈmʌtʃ əz /","ukp":"/ɪn.əzˈmʌtʃ əz/","us":"us  / ɪn.əzˈmʌtʃ əz /","usp":"/ɪn.əzˈmʌtʃ əz/"}
+{"title":"inattention","uk":"uk  / ˌɪn.əˈten.ʃ ə n /","ukp":"/ˌɪn.əˈten.ʃən/","us":"us  / ˌɪn.əˈten.ʃ ə n /","usp":"/ˌɪn.əˈten.ʃən/"}
+{"title":"inattentively","uk":"uk  / ˌɪn.əˈten.tɪv.li /","ukp":"/ˌɪn.əˈten.tɪv.li/","us":"us  / ˌɪn.əˈten.t̬ɪv.li /","usp":"/ˌɪn.əˈten.t̬ɪv.li/"}
+{"title":"inattentive","uk":"uk  / ˌɪn.əˈten.tɪv /","ukp":"/ˌɪn.əˈten.tɪv/","us":"us  / ˌɪn.əˈten.t̬ɪv /","usp":"/ˌɪn.əˈten.t̬ɪv/"}
+{"title":"inaudibility","uk":"uk  / ɪˌnɔː.dəˈbɪl.ə.ti /","ukp":"/ɪˌnɔː.dəˈbɪl.ə.ti/","us":"us  / ɪˌnɑː.dəˈbɪl.ə.t̬i /","usp":"/ɪˌnɑː.dəˈbɪl.ə.t̬i/"}
+{"title":"inaudible","uk":"uk  / ɪˈnɔː.də.b ə l /","ukp":"/ɪˈnɔː.də.bəl/","us":"us  / ɪˈnɑː.də.b ə l /","usp":"/ɪˈnɑː.də.bəl/"}
+{"title":"inaudibly","uk":"uk  / ɪˈnɔː.də.bli /","ukp":"/ɪˈnɔː.də.bli/","us":"us  / ɪˈnɑː.də.bli /","usp":"/ɪˈnɑː.də.bli/"}
+{"title":"inaugural","uk":"uk  / ɪˈnɔː.ɡjə.rəl /","ukp":"/ɪˈnɔː.ɡjə.rəl/","us":"us  / ɪˈnɑː.ɡjə.rəl /","usp":"/ɪˈnɑː.ɡjə.rəl/"}
+{"title":"inaugurate","uk":"uk  / ɪˈnɔː.ɡjə.reɪt /","ukp":"/ɪˈnɔː.ɡjə.reɪt/","us":"us  / ɪˈnɑː.ɡjə.reɪt /","usp":"/ɪˈnɑː.ɡjə.reɪt/"}
+{"title":"inaugurated","uk":"uk  / ɪˈnɔː.ɡjə.reɪt /","ukp":"/ɪˈnɔː.ɡjə.reɪt/","us":"us  / ɪˈnɑː.ɡjə.reɪt /","usp":"/ɪˈnɑː.ɡjə.reɪt/"}
+{"title":"inaugurating","uk":"uk  / ɪˈnɔː.ɡjə.reɪt /","ukp":"/ɪˈnɔː.ɡjə.reɪt/","us":"us  / ɪˈnɑː.ɡjə.reɪt /","usp":"/ɪˈnɑː.ɡjə.reɪt/"}
+{"title":"inauguration","uk":"uk  / ɪˌnɔː.ɡjəˈreɪ.ʃ ə n /","ukp":"/ɪˌnɔː.ɡjəˈreɪ.ʃən/","us":"us  / ɪˌnɑː.ɡjəˈreɪ.ʃ ə n /","usp":"/ɪˌnɑː.ɡjəˈreɪ.ʃən/"}
+{"title":"Inauguration Day","uk":"uk  / ɪ.nɔː.ɡjʊˈreɪ.ʃ ə n ˌdeɪ /","ukp":"/ɪ.nɔː.ɡjʊˈreɪ.ʃən ˌdeɪ/","us":"us  / ɪ.nɑː.ɡjʊˈreɪ.ʃ ə n ˌdeɪ /","usp":"/ɪ.nɑː.ɡjʊˈreɪ.ʃən ˌdeɪ/"}
+{"title":"inauspicious","uk":"uk  / ˌɪn.ɔːˈspɪʃ.əs /","ukp":"/ˌɪn.ɔːˈspɪʃ.əs/","us":"us  / ˌɪn.ɑːˈspɪʃ.əs /","usp":"/ˌɪn.ɑːˈspɪʃ.əs/"}
+{"title":"inauspiciously","uk":"uk  / ˌɪn.ɔːˈspɪʃ.əs.li /","ukp":"/ˌɪn.ɔːˈspɪʃ.əs.li/","us":"us  / ˌɪn.ɑːˈspɪʃ.əs.li /","usp":"/ˌɪn.ɑːˈspɪʃ.əs.li/"}
+{"title":"inauthentic","uk":"uk  / ɪn.ɔːˈθen.tɪk /","ukp":"/ɪn.ɔːˈθen.tɪk/","us":"us  / ɪn.ɑːˈθen.t̬ɪk /","usp":"/ɪn.ɑːˈθen.t̬ɪk/"}
+{"title":"inborn","uk":"uk  / ˌɪnˈbɔːn /","ukp":"/ˌɪnˈbɔːn/","us":"us  / ˈɪn.bɔːrn /","usp":"/ˈɪn.bɔːrn/"}
+{"title":"inbounds pass","uk":"uk  / ˌɪn.baʊndz ˈpɑːs /","ukp":"/ˌɪn.baʊndz ˈpɑːs/","us":"us  / ˌɪn.baʊndz ˈpæs /","usp":"/ˌɪn.baʊndz ˈpæs/"}
+{"title":"inbox","uk":"uk  / ˈɪn.bɒks /","ukp":"/ˈɪn.bɒks/","us":"us  / ˈɪn.bɑːks /","usp":"/ˈɪn.bɑːks/"}
+{"title":"inbound","uk":"uk  / ˈɪn.baʊnd /","ukp":"/ˈɪn.baʊnd/","us":"us  / ˈɪn.baʊnd /","usp":"/ˈɪn.baʊnd/"}
+{"title":"inbound telemarketing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"inbreeding","uk":"uk  / ˌɪnˈbriː.dɪŋ /","ukp":"/ˌɪnˈbriː.dɪŋ/","us":"us  / ˈɪn.briː.dɪŋ /","usp":"/ˈɪn.briː.dɪŋ/"}
+{"title":"inbred","uk":"uk  / ˌɪnˈbred /","ukp":"/ˌɪnˈbred/","us":"us  / ˈɪn.bred /","usp":"/ˈɪn.bred/"}
+{"title":"inbuilt","uk":"uk  / ˈɪn.bɪlt /","ukp":"/ˈɪn.bɪlt/","us":"us  / ˈɪn.bɪlt /","usp":"/ˈɪn.bɪlt/"}
+{"title":"Inc.","uk":"uk  / ɪŋk /","ukp":"/ɪŋk/","us":"us  / ɪŋk /","usp":"/ɪŋk/"}
+{"title":"incalculable","uk":"uk  / ɪnˈkæl.kjə.lə.b ə l /","ukp":"/ɪnˈkæl.kjə.lə.bəl/","us":"us  / ɪnˈkæl.kjə.lə.b ə l /","usp":"/ɪnˈkæl.kjə.lə.bəl/"}
+{"title":"incalculably","uk":"uk  / ɪnˈkæl.kjə.lə.bli /","ukp":"/ɪnˈkæl.kjə.lə.bli/","us":"us  / ɪnˈkæl.kjə.lə.bli /","usp":"/ɪnˈkæl.kjə.lə.bli/"}
+{"title":"incandescence","uk":"uk  / ˌɪn.kænˈdes. ə ns /","ukp":"/ˌɪn.kænˈdes.əns/","us":"us  / ˌɪn.kænˈdes. ə ns /","usp":"/ˌɪn.kænˈdes.əns/"}
+{"title":"incandescent","uk":"uk  / ˌɪn.kænˈdes. ə nt /","ukp":"/ˌɪn.kænˈdes.ənt/","us":"us  / ˌɪn.kænˈdes. ə nt /","usp":"/ˌɪn.kænˈdes.ənt/"}
+{"title":"incantation","uk":"uk  / ˌɪn.kænˈteɪ.ʃ ə n /","ukp":"/ˌɪn.kænˈteɪ.ʃən/","us":"us  / ˌɪn.kænˈteɪ.ʃ ə n /","usp":"/ˌɪn.kænˈteɪ.ʃən/"}
+{"title":"incapable","uk":"uk  / ɪnˈkeɪ.pə.b ə l /","ukp":"/ɪnˈkeɪ.pə.bəl/","us":"us  / ɪnˈkeɪ.pə.b ə l /","usp":"/ɪnˈkeɪ.pə.bəl/"}
+{"title":"incapacitate","uk":"uk  / ˌɪn.kəˈpæs.ɪ.teɪt /","ukp":"/ˌɪn.kəˈpæs.ɪ.teɪt/","us":"us  / ˌɪn.kəˈpæs.ə.teɪt /","usp":"/ˌɪn.kəˈpæs.ə.teɪt/"}
+{"title":"incapacitating","uk":"uk  / ˌɪn.kəˈpæs.ɪ.teɪ.tɪŋ /","ukp":"/ˌɪn.kəˈpæs.ɪ.teɪ.tɪŋ/","us":"us  / ˌɪn.kəˈpæs.ə.teɪ.t̬ɪŋ /","usp":"/ˌɪn.kəˈpæs.ə.teɪ.t̬ɪŋ/"}
+{"title":"incapacitated","uk":"uk  / ˌɪn.kəˈpæs.ɪ.teɪt /","ukp":"/ˌɪn.kəˈpæs.ɪ.teɪt/","us":"us  / ˌɪn.kəˈpæs.ə.teɪt /","usp":"/ˌɪn.kəˈpæs.ə.teɪt/"}
+{"title":"incapacity","uk":"uk  / ˌɪn.kəˈpæs.ə.ti /","ukp":"/ˌɪn.kəˈpæs.ə.ti/","us":"us  / ˌɪn.kəˈpæs.ə.t̬i /","usp":"/ˌɪn.kəˈpæs.ə.t̬i/"}
+{"title":"incapacity benefit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"incapping","uk":"uk  / ˈɪnˌkæp.ɪŋ /","ukp":"/ˈɪnˌkæp.ɪŋ/","us":"us  / ˈɪnˌkæp.ɪŋ /","usp":"/ˈɪnˌkæp.ɪŋ/"}
+{"title":"incarcerated","uk":"uk  / ɪnˈkɑː.s ə r.eɪt /","ukp":"/ɪnˈkɑː.sər.eɪt/","us":"us  / ɪnˈkɑːr.sə.reɪt /","usp":"/ɪnˈkɑːr.sə.reɪt/"}
+{"title":"incarcerate","uk":"uk  / ɪnˈkɑː.s ə r.eɪt /","ukp":"/ɪnˈkɑː.sər.eɪt/","us":"us  / ɪnˈkɑːr.sə.reɪt /","usp":"/ɪnˈkɑːr.sə.reɪt/"}
+{"title":"incarcerating","uk":"uk  / ɪnˈkɑː.s ə r.eɪt /","ukp":"/ɪnˈkɑː.sər.eɪt/","us":"us  / ɪnˈkɑːr.sə.reɪt /","usp":"/ɪnˈkɑːr.sə.reɪt/"}
+{"title":"inconsolably","uk":"uk  / ˌɪn.kənˈsəʊ.lə.bli /","ukp":"/ˌɪn.kənˈsəʊ.lə.bli/","us":"us  / ˌɪn.kənˈsoʊ.lə.b ə l /","usp":"/ˌɪn.kənˈsoʊ.lə.bəl/"}
+{"title":"inconspicuously","uk":"uk  / ˌɪn.kənˈspɪk.ju.əs.li /","ukp":"/ˌɪn.kənˈspɪk.ju.əs.li/","us":"us  / ˌɪn.kənˈspɪk.ju.əs.li /","usp":"/ˌɪn.kənˈspɪk.ju.əs.li/"}
+{"title":"inconspicuous","uk":"uk  / ˌɪn.kənˈspɪk.ju.əs /","ukp":"/ˌɪn.kənˈspɪk.ju.əs/","us":"us  / ˌɪn.kənˈspɪk.ju.əs /","usp":"/ˌɪn.kənˈspɪk.ju.əs/"}
+{"title":"inconstancy","uk":"uk  / ɪnˈkɒn.st ə n.si /","ukp":"/ɪnˈkɒn.stən.si/","us":"us  / ɪnˈkɑːn.st ə n.si /","usp":"/ɪnˈkɑːn.stən.si/"}
+{"title":"inconstant","uk":"uk  / ɪnˈkɒn.st ə nt /","ukp":"/ɪnˈkɒn.stənt/","us":"us  / ɪnˈkɑːn.st ə nt /","usp":"/ɪnˈkɑːn.stənt/"}
+{"title":"incontestable","uk":"uk  / ˌɪn.kənˈtes.tə.b ə l /","ukp":"/ˌɪn.kənˈtes.tə.bəl/","us":"us  / ˌɪn.kənˈtes.tə.b ə l /","usp":"/ˌɪn.kənˈtes.tə.bəl/"}
+{"title":"incontestably","uk":"uk  / ˌɪn.kənˈtes.tə.bli /","ukp":"/ˌɪn.kənˈtes.tə.bli/","us":"us  / ˌɪn.kənˈtes.tə.bli /","usp":"/ˌɪn.kənˈtes.tə.bli/"}
+{"title":"incontinence","uk":"uk  / ɪnˈkɒn.tɪ.nəns /","ukp":"/ɪnˈkɒn.tɪ.nəns/","us":"us  / ɪnˈkɑːn.tə.nəns /","usp":"/ɪnˈkɑːn.tə.nəns/"}
+{"title":"incontinent","uk":"uk  / ɪnˈkɒn.tɪ.nənt /","ukp":"/ɪnˈkɒn.tɪ.nənt/","us":"us  / ɪnˈkɑːn.tə.nənt /","usp":"/ɪnˈkɑːn.tə.nənt/"}
+{"title":"incontrovertibly","uk":"uk  / ɪnˌkɒn.trəˈvɜː.tə.bli /","ukp":"/ɪnˌkɒn.trəˈvɜː.tə.bli/","us":"us  / ɪnˌkɑːn.trəˈvɝː.t̬ə.bli /","usp":"/ɪnˌkɑːn.trəˈvɝː.t̬ə.bli/"}
+{"title":"incontrovertible","uk":"uk  / ɪnˌkɒn.trəˈvɜː.tə.b ə l /","ukp":"/ɪnˌkɒn.trəˈvɜː.tə.bəl/","us":"us  / ɪnˌkɑːn.trəˈvɝː.t̬ə.b ə l /","usp":"/ɪnˌkɑːn.trəˈvɝː.t̬ə.bəl/"}
+{"title":"inconvenienced","uk":"uk  / ˌɪn.kənˈviː.ni.əns /","ukp":"/ˌɪn.kənˈviː.ni.əns/","us":"us  / ˌɪn.kənˈviːn.jəns /","usp":"/ˌɪn.kənˈviːn.jəns/"}
+{"title":"inconvenience","uk":"uk  / ˌɪn.kənˈviː.ni.əns /","ukp":"/ˌɪn.kənˈviː.ni.əns/","us":"us  / ˌɪn.kənˈviːn.jəns /","usp":"/ˌɪn.kənˈviːn.jəns/"}
+{"title":"inconveniencing","uk":"uk  / ˌɪn.kənˈviː.ni.əns /","ukp":"/ˌɪn.kənˈviː.ni.əns/","us":"us  / ˌɪn.kənˈviːn.jəns /","usp":"/ˌɪn.kənˈviːn.jəns/"}
+{"title":"inconvenient","uk":"uk  / ˌɪn.kənˈviː.ni.ənt /","ukp":"/ˌɪn.kənˈviː.ni.ənt/","us":"us  / ˌɪn.kənˈviːn.jənt /","usp":"/ˌɪn.kənˈviːn.jənt/"}
+{"title":"inconveniently","uk":"uk  / ˌɪn.kənˈviː.ni.ənt.li /","ukp":"/ˌɪn.kənˈviː.ni.ənt.li/","us":"us  / ˌɪn.kənˈviːn.jənt.li /","usp":"/ˌɪn.kənˈviːn.jənt.li/"}
+{"title":"inconvertible","uk":"uk  / ˌɪnkənˈvɜːtɪbl /","ukp":"/ˌɪnkənˈvɜːtɪbl/","us":"us ","usp":""}
+{"title":"inconvertible currency","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"incorporate","uk":"uk  / ɪnˈkɔː.p ə r.eɪt /","ukp":"/ɪnˈkɔː.pər.eɪt/","us":"us  / ɪnˈkɔːr.pɚ.eɪt /","usp":"/ɪnˈkɔːr.pɚ.eɪt/"}
+{"title":"Incorporated","uk":"uk  / ɪnˈkɔː.p ə r.eɪ.tɪd /","ukp":"/ɪnˈkɔː.pər.eɪ.tɪd/","us":"us  / ɪnˈkɔːr.pə.reɪ.t̬ɪd /","usp":"/ɪnˈkɔːr.pə.reɪ.t̬ɪd/"}
+{"title":"incorporating","uk":"uk  / ɪnˈkɔː.p ə r.eɪt /","ukp":"/ɪnˈkɔː.pər.eɪt/","us":"us  / ɪnˈkɔːr.pɚ.eɪt /","usp":"/ɪnˈkɔːr.pɚ.eɪt/"}
+{"title":"incorporeal hereditament","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"incorporeal","uk":"uk  / ˌɪn.kɔːˈpɔː.ri.əl /","ukp":"/ˌɪn.kɔːˈpɔː.ri.əl/","us":"us  / ˌɪn.kɔːrˈpɔːr.i.əl /","usp":"/ˌɪn.kɔːrˈpɔːr.i.əl/"}
+{"title":"incorporation","uk":"uk  / ɪnˌkɔː.p ə rˈeɪ.ʃ ə n /","ukp":"/ɪnˌkɔː.pərˈeɪ.ʃən/","us":"us  / ɪnˌkɔːr.pəˈreɪ.ʃ ə n /","usp":"/ɪnˌkɔːr.pəˈreɪ.ʃən/"}
+{"title":"incorrect","uk":"uk  / ˌɪn.k ə rˈekt /","ukp":"/ˌɪn.kərˈekt/","us":"us  / ˌɪn.kəˈrekt /","usp":"/ˌɪn.kəˈrekt/"}
+{"title":"incorrectly","uk":"uk  / ˌɪn.k ə rˈekt.li /","ukp":"/ˌɪn.kərˈekt.li/","us":"us  / ˌɪn.kəˈrekt.li /","usp":"/ˌɪn.kəˈrekt.li/"}
+{"title":"incorrigible","uk":"uk  / ɪnˈkɒr.ə.dʒə.b ə l /","ukp":"/ɪnˈkɒr.ə.dʒə.bəl/","us":"us  / ɪnˈkɔːr.ə.dʒə.b ə l /","usp":"/ɪnˈkɔːr.ə.dʒə.bəl/"}
+{"title":"incorrigibly","uk":"uk  / ɪnˈkɒr.ə.dʒə.bli /","ukp":"/ɪnˈkɒr.ə.dʒə.bli/","us":"us  / ɪnˈkɔːr.ə.dʒə.bli /","usp":"/ɪnˈkɔːr.ə.dʒə.bli/"}
+{"title":"incorruptibility","uk":"uk  / ˌɪn.kə.rʌp.təˈbɪl.ə.ti /","ukp":"/ˌɪn.kə.rʌp.təˈbɪl.ə.ti/","us":"us  / ˌɪn.kə.rʌp.təˈbɪl.ə.t̬i /","usp":"/ˌɪn.kə.rʌp.təˈbɪl.ə.t̬i/"}
+{"title":"incorruptibly","uk":"uk  / ˌɪn.kəˈrʌp.tə.bli /","ukp":"/ˌɪn.kəˈrʌp.tə.bli/","us":"us  / ˌɪn.kəˈrʌp.tə.bli /","usp":"/ˌɪn.kəˈrʌp.tə.bli/"}
+{"title":"incorruptible","uk":"uk  / ˌɪn.kəˈrʌp.tə.b ə l /","ukp":"/ˌɪn.kəˈrʌp.tə.bəl/","us":"us  / ˌɪn.kəˈrʌp.tə.b ə l /","usp":"/ˌɪn.kəˈrʌp.tə.bəl/"}
+{"title":"Incoterm","uk":"uk  / ˈɪnkəʊtɜːm /","ukp":"/ˈɪnkəʊtɜːm/","us":"us ","usp":""}
+{"title":"increased","uk":"uk  / ɪnˈkriːs /","ukp":"/ɪnˈkriːs/","us":"us  / ɪnˈkriːs /","usp":"/ɪnˈkriːs/"}
+{"title":"increasing","uk":"uk  / ɪnˈkriːs /","ukp":"/ɪnˈkriːs/","us":"us  / ɪnˈkriːs /","usp":"/ɪnˈkriːs/"}
+{"title":"increase","uk":"uk  / ɪnˈkriːs /","ukp":"/ɪnˈkriːs/","us":"us  / ɪnˈkriːs /","usp":"/ɪnˈkriːs/"}
+{"title":"increasingly","uk":"uk  / ɪnˈkriː.sɪŋ.li /","ukp":"/ɪnˈkriː.sɪŋ.li/","us":"us  / ɪnˈkriː.sɪŋ.li /","usp":"/ɪnˈkriː.sɪŋ.li/"}
+{"title":"incredibly","uk":"uk  / ɪnˈkred.ə.bli /","ukp":"/ɪnˈkred.ə.bli/","us":"us  / ɪnˈkred.ə.bli /","usp":"/ɪnˈkred.ə.bli/"}
+{"title":"incredible","uk":"uk  / ɪnˈkred.ə.b ə l /","ukp":"/ɪnˈkred.ə.bəl/","us":"us  / ɪnˈkred.ə.b ə l /","usp":"/ɪnˈkred.ə.bəl/"}
+{"title":"incredulity","uk":"uk  / ˌɪn.krəˈdʒuː.lə.ti /","ukp":"/ˌɪn.krəˈdʒuː.lə.ti/","us":"us  / ˌɪn.krəˈduː.lə.t̬i /","usp":"/ˌɪn.krəˈduː.lə.t̬i/"}
+{"title":"incredulous","uk":"uk  / ɪnˈkredʒ.ə.ləs /","ukp":"/ɪnˈkredʒ.ə.ləs/","us":"us  / ɪnˈkredʒ.ə.ləs /","usp":"/ɪnˈkredʒ.ə.ləs/"}
+{"title":"incredulously","uk":"uk  / ɪnˈkredʒ.ə.ləs.li /","ukp":"/ɪnˈkredʒ.ə.ləs.li/","us":"us  / ɪnˈkredʒ.ə.ləs.li /","usp":"/ɪnˈkredʒ.ə.ləs.li/"}
+{"title":"increment","uk":"uk  / ˈɪŋ.krə.mənt /","ukp":"/ˈɪŋ.krə.mənt/","us":"us ","usp":""}
+{"title":"incremental","uk":"uk  / ˌɪŋ.krəˈmen.t ə l /","ukp":"/ˌɪŋ.krəˈmen.təl/","us":"us  / ˌɪŋ.krəˈmen.t̬ ə l /","usp":"/ˌɪŋ.krəˈmen.t̬əl/"}
+{"title":"incremental cost","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"incrementally","uk":"uk  / ˌɪŋ.krəˈmen.t ə l.i /","ukp":"/ˌɪŋ.krəˈmen.təl.i/","us":"us  / ˌɪŋ.krəˈmen.t̬ ə l.i /","usp":"/ˌɪŋ.krəˈmen.t̬əl.i/"}
+{"title":"incriminate","uk":"uk  / ɪnˈkrɪm.ɪ.neɪt /","ukp":"/ɪnˈkrɪm.ɪ.neɪt/","us":"us  / ɪnˈkrɪm.ə.neɪt /","usp":"/ɪnˈkrɪm.ə.neɪt/"}
+{"title":"incriminated","uk":"uk  / ɪnˈkrɪm.ɪ.neɪt /","ukp":"/ɪnˈkrɪm.ɪ.neɪt/","us":"us  / ɪnˈkrɪm.ə.neɪt /","usp":"/ɪnˈkrɪm.ə.neɪt/"}
+{"title":"income support","uk":"uk  / ˌɪn.kʌm səˈpɔːt /","ukp":"/ˌɪn.kʌm səˈpɔːt/","us":"us  / ˌɪn.kʌm səˈpɔːrt /","usp":"/ˌɪn.kʌm səˈpɔːrt/"}
+{"title":"income stream","uk":"uk  / ˈɪŋ.kʌm ˌstriːm /","ukp":"/ˈɪŋ.kʌm ˌstriːm/","us":"us  / ˈɪn.kʌm ˌstriːm /","usp":"/ˈɪn.kʌm ˌstriːm/"}
+{"title":"incriminating","uk":"uk  / ɪnˈkrɪm.ɪ.neɪ.tɪŋ /","ukp":"/ɪnˈkrɪm.ɪ.neɪ.tɪŋ/","us":"us  / ɪnˈkrɪm.ə.neɪ.t̬ɪŋ /","usp":"/ɪnˈkrɪm.ə.neɪ.t̬ɪŋ/"}
+{"title":"income tax bracket","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income tax deduction","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income-generating","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"income tax","uk":"uk  / ˈɪn.kʌm ˌtæks /","ukp":"/ˈɪn.kʌm ˌtæks/","us":"us  / ˈɪn.kʌm ˌtæks /","usp":"/ˈɪn.kʌm ˌtæks/"}
+{"title":"income-oriented","uk":"uk  / ˈɪŋ.kʌmˌɔː.ri.en.tɪd /","ukp":"/ˈɪŋ.kʌmˌɔː.ri.en.tɪd/","us":"us  / ˈɪn.kʌmˌɔːr.i.en.t̬ɪd /","usp":"/ˈɪn.kʌmˌɔːr.i.en.t̬ɪd/"}
+{"title":"incomes policy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"incomings","uk":"uk  / ˈɪnkʌmɪŋz /","ukp":"/ˈɪnkʌmɪŋz/","us":"us ","usp":""}
+{"title":"incoming","uk":"uk  / ˈɪnˌkʌm.ɪŋ /","ukp":"/ˈɪnˌkʌm.ɪŋ/","us":"us  / ˈɪnˌkʌm.ɪŋ /","usp":"/ˈɪnˌkʌm.ɪŋ/"}
+{"title":"incommunicado","uk":"uk  / ˌɪn.kəˌmjuː.nɪˈkɑː.dəʊ /","ukp":"/ˌɪn.kəˌmjuː.nɪˈkɑː.dəʊ/","us":"us  / ˌɪn.kəˌmjuː.nɪˈkɑː.doʊ /","usp":"/ˌɪn.kəˌmjuː.nɪˈkɑː.doʊ/"}
+{"title":"incomparable","uk":"uk  / ɪnˈkɒm.p ə r.ə.b ə l /","ukp":"/ɪnˈkɒm.pər.ə.bəl/","us":"us  / ɪnˈkɑːm.pɚ.ə.b ə l /","usp":"/ɪnˈkɑːm.pɚ.ə.bəl/"}
+{"title":"incomparably","uk":"uk / ɪnˈkɒm.p ə r.ə.bli /","ukp":"/ɪnˈkɒm.pər.ə.bli/","us":"us  / ɪnˈkɑːm.pɚ.ə.bli /","usp":"/ɪnˈkɑːm.pɚ.ə.bli/"}
+{"title":"incompatibility","uk":"uk  / ˌɪn.kəmˌpæt.əˈbɪl.ə.ti /","ukp":"/ˌɪn.kəmˌpæt.əˈbɪl.ə.ti/","us":"us  / ˌɪn.kəmˌpæt̬.əˈbɪl.ə.t̬i /","usp":"/ˌɪn.kəmˌpæt̬.əˈbɪl.ə.t̬i/"}
+{"title":"incompatible","uk":"uk  / ˌɪn.kəmˈpæt.ə.b ə l /","ukp":"/ˌɪn.kəmˈpæt.ə.bəl/","us":"us  / ˌɪn.kəmˈpæt̬.ə.b ə l /","usp":"/ˌɪn.kəmˈpæt̬.ə.bəl/"}
+{"title":"incompetence","uk":"uk  / ɪnˈkɒm.pɪ.t ə ns /","ukp":"/ɪnˈkɒm.pɪ.təns/","us":"us  / ɪnˈkɑːm.pə.t̬əns /","usp":"/ɪnˈkɑːm.pə.t̬əns/"}
+{"title":"incompetently","uk":"uk  / ɪnˈkɒm.pɪ.t ə nt.li /","ukp":"/ɪnˈkɒm.pɪ.tənt.li/","us":"us  / ɪnˈkɑːm.pə.t̬ənt.li /","usp":"/ɪnˈkɑːm.pə.t̬ənt.li/"}
+{"title":"incompetent","uk":"uk  / ɪnˈkɒm.pɪ.t ə nt /","ukp":"/ɪnˈkɒm.pɪ.tənt/","us":"us  / ɪnˈkɑːm.pə.t̬ənt /","usp":"/ɪnˈkɑːm.pə.t̬ənt/"}
+{"title":"incomplete","uk":"uk  / ˌɪn.kəmˈpliːt /","ukp":"/ˌɪn.kəmˈpliːt/","us":"us  / ˌɪn.kəmˈpliːt /","usp":"/ˌɪn.kəmˈpliːt/"}
+{"title":"incompletely","uk":"uk  / ˌɪn.kəmˈpliːt.li /","ukp":"/ˌɪn.kəmˈpliːt.li/","us":"us  / ˌɪn.kəmˈpliːt.li /","usp":"/ˌɪn.kəmˈpliːt.li/"}
+{"title":"incompleteness","uk":"uk  / ˌɪn.kəmˈpliːt.nəs /","ukp":"/ˌɪn.kəmˈpliːt.nəs/","us":"us  / ˌɪn.kəmˈpliːt.nəs /","usp":"/ˌɪn.kəmˈpliːt.nəs/"}
+{"title":"incomprehensibility","uk":"uk  / ɪnˌkɒm.prɪˌhen.səˈbɪl.ə.ti /","ukp":"/ɪnˌkɒm.prɪˌhen.səˈbɪl.ə.ti/","us":"us  / ˌɪn.kɑːm.prə.hen.səˈbɪl.ə.t̬i /","usp":"/ˌɪn.kɑːm.prə.hen.səˈbɪl.ə.t̬i/"}
+{"title":"incomprehensibly","uk":"uk  / ɪnˌkɒm.prɪˈhen.sə.bli /","ukp":"/ɪnˌkɒm.prɪˈhen.sə.bli/","us":"us  / ɪnˌkɑːm.prəˈhen.sə.bli /","usp":"/ɪnˌkɑːm.prəˈhen.sə.bli/"}
+{"title":"incomprehensible","uk":"uk  / ɪnˌkɒm.prɪˈhen.sə.b ə l /","ukp":"/ɪnˌkɒm.prɪˈhen.sə.bəl/","us":"us  / ɪnˌkɑːm.prəˈhen.sə.b ə l /","usp":"/ɪnˌkɑːm.prəˈhen.sə.bəl/"}
+{"title":"incomprehension","uk":"uk  / ɪnˌkɒm.prɪˈhen.ʃ ə n /","ukp":"/ɪnˌkɒm.prɪˈhen.ʃən/","us":"us  / ˌɪn.kɑːm.prəˈhen.ʃ ə n /","usp":"/ˌɪn.kɑːm.prəˈhen.ʃən/"}
+{"title":"inconceivable","uk":"uk  / ˌɪn.kənˈsiː.və.b ə l /","ukp":"/ˌɪn.kənˈsiː.və.bəl/","us":"us  / ˌɪn.kənˈsiː.və.b ə l /","usp":"/ˌɪn.kənˈsiː.və.bəl/"}
+{"title":"inconceivably","uk":"uk  / ˌɪn.kənˈsiː.və.bli /","ukp":"/ˌɪn.kənˈsiː.və.bli/","us":"us  / ˌɪn.kənˈsiː.və.bli /","usp":"/ˌɪn.kənˈsiː.və.bli/"}
+{"title":"inconclusively","uk":"uk  / ˌɪn.kəŋˈkluː.sɪv.li /","ukp":"/ˌɪn.kəŋˈkluː.sɪv.li/","us":"us  / ˌɪn.kəŋˈkluː.sɪv.li /","usp":"/ˌɪn.kəŋˈkluː.sɪv.li/"}
+{"title":"inconclusive","uk":"uk  / ˌɪn.kəŋˈkluː.sɪv /","ukp":"/ˌɪn.kəŋˈkluː.sɪv/","us":"us  / ˌɪn.kəŋˈkluː.sɪv /","usp":"/ˌɪn.kəŋˈkluː.sɪv/"}
+{"title":"incongruent","uk":"uk  / ɪnˈkɒŋ.ɡru.ənt /","ukp":"/ɪnˈkɒŋ.ɡru.ənt/","us":"us  / ˌɪn.kəŋˈɡru.ənt /","usp":"/ˌɪn.kəŋˈɡru.ənt/"}
+{"title":"incongruence","uk":"uk  / ɪnˈkɒŋ.ɡru.əns /","ukp":"/ɪnˈkɒŋ.ɡru.əns/","us":"us  / ɪnˈkɑːŋ.ɡru.əns /","usp":"/ɪnˈkɑːŋ.ɡru.əns/"}
+{"title":"incongruity","uk":"uk  / ˌɪn.kəŋˈɡruː.ə.ti /","ukp":"/ˌɪn.kəŋˈɡruː.ə.ti/","us":"us  / ˌɪn.kənˈɡruː.ə.t̬i /","usp":"/ˌɪn.kənˈɡruː.ə.t̬i/"}
+{"title":"incongruous","uk":"uk  / ɪnˈkɒŋ.ɡru.əs /","ukp":"/ɪnˈkɒŋ.ɡru.əs/","us":"us  / ɪnˈkɑːŋ.ɡru.əs /","usp":"/ɪnˈkɑːŋ.ɡru.əs/"}
+{"title":"incongruously","uk":"uk  / ɪnˈkɒŋ.ɡru.əs.li /","ukp":"/ɪnˈkɒŋ.ɡru.əs.li/","us":"us  / ɪnˈkɑːŋ.ɡru.əs.li /","usp":"/ɪnˈkɑːŋ.ɡru.əs.li/"}
+{"title":"inconsequent","uk":"uk  / ˌɪnˈkɒn.sɪ.kwənt /","ukp":"/ˌɪnˈkɒn.sɪ.kwənt/","us":"us  / ˌɪnˈkɑːn.sə.kwənt /","usp":"/ˌɪnˈkɑːn.sə.kwənt/"}
+{"title":"inconsequential","uk":"uk  / ɪnˌkɒn.sɪˈkwen.ʃ ə l /","ukp":"/ɪnˌkɒn.sɪˈkwen.ʃəl/","us":"us  / ɪnˌkɑːn.sɪˈkwen.ʃ ə l /","usp":"/ɪnˌkɑːn.sɪˈkwen.ʃəl/"}
+{"title":"inconsequentially","uk":"uk  / ɪnˌkɒn.sɪˈkwen.ʃ ə l.i /","ukp":"/ɪnˌkɒn.sɪˈkwen.ʃəl.i/","us":"us  / ɪnˌkɑːn.sɪˈkwen.ʃ ə l.i /","usp":"/ɪnˌkɑːn.sɪˈkwen.ʃəl.i/"}
+{"title":"inconsiderable","uk":"uk  / ˌɪn.kənˈsɪd. ə r.ə.b ə l /","ukp":"/ˌɪn.kənˈsɪd.ər.ə.bəl/","us":"us  / ˌɪn.kənˈsɪd. ə r.ə.b ə l /","usp":"/ˌɪn.kənˈsɪd.ər.ə.bəl/"}
+{"title":"inconsiderately","uk":"uk  / ˌɪn.kənˈsɪd. ə r.ət.li /","ukp":"/ˌɪn.kənˈsɪd.ər.ət.li/","us":"us  / ˌɪn.kənˈsɪd. ə r.ət.li /","usp":"/ˌɪn.kənˈsɪd.ər.ət.li/"}
+{"title":"inconsiderate","uk":"uk  / ˌɪn.kənˈsɪd. ə r.ət /","ukp":"/ˌɪn.kənˈsɪd.ər.ət/","us":"us  / ˌɪn.kənˈsɪd. ə r.ət /","usp":"/ˌɪn.kənˈsɪd.ər.ət/"}
+{"title":"inconsiderateness","uk":"uk  / ˌɪn.kənˈsɪd. ə r.ət.nəs /","ukp":"/ˌɪn.kənˈsɪd.ər.ət.nəs/","us":"us  / ˌɪn.kənˈsɪd. ə r.ət.nəs /","usp":"/ˌɪn.kənˈsɪd.ər.ət.nəs/"}
+{"title":"inconsistency","uk":"uk  / ˌɪn.kənˈsɪs.t ə n.si /","ukp":"/ˌɪn.kənˈsɪs.tən.si/","us":"us  / ˌɪn.kənˈsɪs.t ə n.si /","usp":"/ˌɪn.kənˈsɪs.tən.si/"}
+{"title":"inconsistently","uk":"uk  / ˌɪn.kənˈsɪs.t ə nt.li /","ukp":"/ˌɪn.kənˈsɪs.tənt.li/","us":"us  / ˌɪn.kənˈsɪs.t ə nt.li /","usp":"/ˌɪn.kənˈsɪs.tənt.li/"}
+{"title":"inconsistent","uk":"uk  / ˌɪn.kənˈsɪs.t ə nt /","ukp":"/ˌɪn.kənˈsɪs.tənt/","us":"us  / ˌɪn.kənˈsɪs.t ə nt /","usp":"/ˌɪn.kənˈsɪs.tənt/"}
+{"title":"incarceration","uk":"uk  / ɪnˌkɑː.s ə rˈeɪ.ʃ ə n /","ukp":"/ɪnˌkɑː.sərˈeɪ.ʃən/","us":"us  / ɪnˌkɑːr.səˈreɪ.ʃ ə n /","usp":"/ɪnˌkɑːr.səˈreɪ.ʃən/"}
+{"title":"inconsolable","uk":"uk  / ˌɪn.kənˈsəʊ.lə.b ə l /","ukp":"/ˌɪn.kənˈsəʊ.lə.bəl/","us":"us  / ˌɪn.kənˈsoʊ.lə.b ə l /","usp":"/ˌɪn.kənˈsoʊ.lə.bəl/"}
+{"title":"incarnate","uk":"uk  / ɪnˈkɑː.nət /","ukp":"/ɪnˈkɑː.nət/","us":"us  / ɪnˈkɑːr.nət /","usp":"/ɪnˈkɑːr.nət/"}
+{"title":"incarnation","uk":"uk  / ˌɪn.kɑːˈneɪ.ʃ ə n /","ukp":"/ˌɪn.kɑːˈneɪ.ʃən/","us":"us  / ˌɪn.kɑːrˈneɪ.ʃ ə n /","usp":"/ˌɪn.kɑːrˈneɪ.ʃən/"}
+{"title":"incautious","uk":"uk  / ɪnˈkɔː.ʃəs /","ukp":"/ɪnˈkɔː.ʃəs/","us":"us  / ɪnˈkɑː.ʃəs /","usp":"/ɪnˈkɑː.ʃəs/"}
+{"title":"incautiously","uk":"uk  / ɪnˈkɔː.ʃəs.li /","ukp":"/ɪnˈkɔː.ʃəs.li/","us":"us  / ɪnˈkɑː.ʃəs.li /","usp":"/ɪnˈkɑː.ʃəs.li/"}
+{"title":"incel","uk":"uk  / ˈɪn.sel /","ukp":"/ˈɪn.sel/","us":"us  / ˈɪn.sel /","usp":"/ˈɪn.sel/"}
+{"title":"incendiary","uk":"uk  / ɪnˈsen.di.ə.ri /","ukp":"/ɪnˈsen.di.ə.ri/","us":"us  / ɪnˈsen.di.er.i /","usp":"/ɪnˈsen.di.er.i/"}
+{"title":"incensed","uk":"uk  / ɪnˈsenst /","ukp":"/ɪnˈsenst/","us":"us  / ɪnˈsenst /","usp":"/ɪnˈsenst/"}
+{"title":"incense","uk":"uk  / ˈɪn.sens /","ukp":"/ˈɪn.sens/","us":"us  / ˈɪn.sens /","usp":"/ˈɪn.sens/"}
+{"title":"incensing","uk":"uk  / ɪnˈsens /","ukp":"/ɪnˈsens/","us":"us  / ɪnˈsens /","usp":"/ɪnˈsens/"}
+{"title":"incentive","uk":"uk  / ɪnˈsen.tɪv /","ukp":"/ɪnˈsen.tɪv/","us":"us  / ɪnˈsen.t̬ɪv /","usp":"/ɪnˈsen.t̬ɪv/"}
+{"title":"incentive marketing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"incentive fee","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"incentive stock option","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"incentive wage","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"incentivize","uk":"uk  / ɪnˈsen.tɪ.vaɪz /","ukp":"/ɪnˈsen.tɪ.vaɪz/","us":"us  / ɪnˈsen.t̬ə.vaɪz /","usp":"/ɪnˈsen.t̬ə.vaɪz/"}
+{"title":"incentivized","uk":"uk  / ɪnˈsen.tɪ.vaɪz /","ukp":"/ɪnˈsen.tɪ.vaɪz/","us":"us  / ɪnˈsen.t̬ə.vaɪz /","usp":"/ɪnˈsen.t̬ə.vaɪz/"}
+{"title":"incentivizing","uk":"uk  / ɪnˈsen.tɪ.vaɪz /","ukp":"/ɪnˈsen.tɪ.vaɪz/","us":"us  / ɪnˈsen.t̬ə.vaɪz /","usp":"/ɪnˈsen.t̬ə.vaɪz/"}
+{"title":"incept","uk":"uk  / ɪnˈsept /","ukp":"/ɪnˈsept/","us":"us  / ɪnˈsept /","usp":"/ɪnˈsept/"}
+{"title":"inception","uk":"uk  / ɪnˈsep.ʃ ə n /","ukp":"/ɪnˈsep.ʃən/","us":"us  / ɪnˈsep.ʃ ə n /","usp":"/ɪnˈsep.ʃən/"}
+{"title":"incessant","uk":"uk  / ɪnˈses. ə nt /","ukp":"/ɪnˈses.ənt/","us":"us  / ɪnˈses. ə nt /","usp":"/ɪnˈses.ənt/"}
+{"title":"incest","uk":"uk  / ˈɪn.sest /","ukp":"/ˈɪn.sest/","us":"us  / ˈɪn.sest /","usp":"/ˈɪn.sest/"}
+{"title":"incessantly","uk":"uk  / ɪnˈses. ə nt.li /","ukp":"/ɪnˈses.ənt.li/","us":"us  / ɪnˈses. ə nt.li /","usp":"/ɪnˈses.ənt.li/"}
+{"title":"incestuous","uk":"uk  / ɪnˈses.tʃu.əs /","ukp":"/ɪnˈses.tʃu.əs/","us":"us  / ɪnˈses.tʃu.əs /","usp":"/ɪnˈses.tʃu.əs/"}
+{"title":"incestuously","uk":"uk  / ɪnˈses.tʃu.əs.li /","ukp":"/ɪnˈses.tʃu.əs.li/","us":"us  / ɪnˈses.tʃu.əs.li /","usp":"/ɪnˈses.tʃu.əs.li/"}
+{"title":"incestuousness","uk":"uk  / ɪnˈses.tʃu.əs.nəs /","ukp":"/ɪnˈses.tʃu.əs.nəs/","us":"us  / ɪnˈses.tʃu.əs.nəs /","usp":"/ɪnˈses.tʃu.əs.nəs/"}
+{"title":"inch","uk":"uk  / ɪntʃ /","ukp":"/ɪntʃ/","us":"us  / ɪntʃ /","usp":"/ɪntʃ/"}
+{"title":"inch by inch","uk":"","us":""}
+{"title":"incharge","uk":"uk  / ˈɪn.tʃɑːdʒ /","ukp":"/ˈɪn.tʃɑːdʒ/","us":"us  / ˈɪn.tʃɑːrdʒ /","usp":"/ˈɪn.tʃɑːrdʒ/"}
+{"title":"inchoate","uk":"uk  / ɪnˈkəʊ.eɪt /","ukp":"/ɪnˈkəʊ.eɪt/","us":"us  / ɪnˈkoʊ.eɪt /","usp":"/ɪnˈkoʊ.eɪt/"}
+{"title":"inched","uk":"uk  / ɪntʃ /","ukp":"/ɪntʃ/","us":"us  / ɪntʃ /","usp":"/ɪntʃ/"}
+{"title":"inching","uk":"uk  / ɪntʃ /","ukp":"/ɪntʃ/","us":"us  / ɪntʃ /","usp":"/ɪntʃ/"}
+{"title":"incidence","uk":"uk  / ˈɪn.sɪ.d ə ns /","ukp":"/ˈɪn.sɪ.dəns/","us":"us  / ˈɪn.sɪ.d ə ns /","usp":"/ˈɪn.sɪ.dəns/"}
+{"title":"incident","uk":"uk  / ˈɪn.sɪ.d ə nt /","ukp":"/ˈɪn.sɪ.dənt/","us":"us  / ˈɪn.sɪ.d ə nt /","usp":"/ˈɪn.sɪ.dənt/"}
+{"title":"incident light","uk":"uk  / ˌɪn.sɪ.d ə nt ˈlaɪt /","ukp":"/ˌɪn.sɪ.dənt ˈlaɪt/","us":"us  / ˈɪn.sɪ.d ə nt ˌlaɪt /","usp":"/ˈɪn.sɪ.dənt ˌlaɪt/"}
+{"title":"incident ray","uk":"uk  / ˈɪn.sɪ.d ə nt ˌreɪ /","ukp":"/ˈɪn.sɪ.dənt ˌreɪ/","us":"us  / ˈɪn.sɪ.d ə nt ˌreɪ /","usp":"/ˈɪn.sɪ.dənt ˌreɪ/"}
+{"title":"incidental","uk":"uk  / ˌɪn.sɪˈden.t ə l /","ukp":"/ˌɪn.sɪˈden.təl/","us":"us  / ˌɪn.sɪˈden.t̬ ə l /","usp":"/ˌɪn.sɪˈden.t̬əl/"}
+{"title":"incidental damages","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"incidental music","uk":"uk  / ˌɪn.sɪ.den.t ə l ˈmjuː.zɪk /","ukp":"/ˌɪn.sɪ.den.təl ˈmjuː.zɪk/","us":"us  / ˌɪn.sɪ.den.t̬ ə l ˈmjuː.zɪk /","usp":"/ˌɪn.sɪ.den.t̬əl ˈmjuː.zɪk/"}
+{"title":"incidentals","uk":"uk  / ɪn.sɪˈden.t ə lz /","ukp":"/ɪn.sɪˈden.təlz/","us":"us  / ɪn.sɪˈden.t̬ ə lz /","usp":"/ɪn.sɪˈden.t̬əlz/"}
+{"title":"incidentally","uk":"uk  / ˌɪn.sɪˈden.t ə l.i /","ukp":"/ˌɪn.sɪˈden.təl.i/","us":"us  / ˌɪn.sɪˈden.t̬ ə l.i /","usp":"/ˌɪn.sɪˈden.t̬əl.i/"}
+{"title":"incinerated","uk":"uk  / ɪnˈsɪn. ə r.eɪt /","ukp":"/ɪnˈsɪn.ər.eɪt/","us":"us  / ɪnˈsɪn.ə.reɪt /","usp":"/ɪnˈsɪn.ə.reɪt/"}
+{"title":"incinerate","uk":"uk  / ɪnˈsɪn. ə r.eɪt /","ukp":"/ɪnˈsɪn.ər.eɪt/","us":"us  / ɪnˈsɪn.ə.reɪt /","usp":"/ɪnˈsɪn.ə.reɪt/"}
+{"title":"incinerating","uk":"uk  / ɪnˈsɪn. ə r.eɪt /","ukp":"/ɪnˈsɪn.ər.eɪt/","us":"us  / ɪnˈsɪn.ə.reɪt /","usp":"/ɪnˈsɪn.ə.reɪt/"}
+{"title":"incineration","uk":"uk  / ɪnˌsɪn. ə rˈeɪ.ʃ ə n /","ukp":"/ɪnˌsɪn.ərˈeɪ.ʃən/","us":"us  / ɪnˌsɪn.əˈreɪ.ʃ ə n /","usp":"/ɪnˌsɪn.əˈreɪ.ʃən/"}
+{"title":"incinerator","uk":"uk  / ɪnˈsɪn. ə r.eɪ.tə r /","ukp":"/ɪnˈsɪn.ər.eɪ.tər/","us":"us  / ɪnˈsɪn.ə.reɪ.t̬ɚ /","usp":"/ɪnˈsɪn.ə.reɪ.t̬ɚ/"}
+{"title":"incipient","uk":"uk  / ɪnˈsɪp.i.ənt /","ukp":"/ɪnˈsɪp.i.ənt/","us":"us  / ɪnˈsɪp.i.ənt /","usp":"/ɪnˈsɪp.i.ənt/"}
+{"title":"incrimination","uk":"uk  / ɪnˌkrɪm.ɪˈneɪ.ʃ ə n /","ukp":"/ɪnˌkrɪm.ɪˈneɪ.ʃən/","us":"us  / ɪnˌkrɪm.əˈneɪ.ʃ ə n /","usp":"/ɪnˌkrɪm.əˈneɪ.ʃən/"}
+{"title":"incrustation","uk":"uk  / ˌɪn.krʌsˈteɪ.ʃ ə n /","ukp":"/ˌɪn.krʌsˈteɪ.ʃən/","us":"us  / ˌɪn.krʌsˈteɪ.ʃ ə n /","usp":"/ˌɪn.krʌsˈteɪ.ʃən/"}
+{"title":"incubate","uk":"uk  / ˈɪŋ.kjə.beɪt /","ukp":"/ˈɪŋ.kjə.beɪt/","us":"us  / ˈɪŋ.kjə.beɪt /","usp":"/ˈɪŋ.kjə.beɪt/"}
+{"title":"incubated","uk":"uk  / ˈɪŋ.kjə.beɪt /","ukp":"/ˈɪŋ.kjə.beɪt/","us":"us  / ˈɪŋ.kjə.beɪt /","usp":"/ˈɪŋ.kjə.beɪt/"}
+{"title":"incubating","uk":"uk  / ˈɪŋ.kjə.beɪt /","ukp":"/ˈɪŋ.kjə.beɪt/","us":"us  / ˈɪŋ.kjə.beɪt /","usp":"/ˈɪŋ.kjə.beɪt/"}
+{"title":"incubation","uk":"uk  / ˌɪŋ.kjəˈbeɪ.ʃ ə n /","ukp":"/ˌɪŋ.kjəˈbeɪ.ʃən/","us":"us  / ˌɪŋ.kjəˈbeɪ.ʃ ə n /","usp":"/ˌɪŋ.kjəˈbeɪ.ʃən/"}
+{"title":"incubation period","uk":"uk  / ˌɪŋ.kjəˈbeɪ.ʃ ə n ˌpɪə.ri.əd /","ukp":"/ˌɪŋ.kjəˈbeɪ.ʃən ˌpɪə.ri.əd/","us":"us  / ˌɪŋ.kjəˈbeɪ.ʃ ə n ˌpɪr.i.əd /","usp":"/ˌɪŋ.kjəˈbeɪ.ʃən ˌpɪr.i.əd/"}
+{"title":"incubi","uk":"","us":""}
+{"title":"incubator space","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"incubator","uk":"uk  / ˈɪŋ.kjə.beɪ.tə r /","ukp":"/ˈɪŋ.kjə.beɪ.tər/","us":"us  / ˈɪŋ.kjə.beɪ.t̬ɚ /","usp":"/ˈɪŋ.kjə.beɪ.t̬ɚ/"}
+{"title":"incudes","uk":"","us":""}
+{"title":"incubus","uk":"uk  / ˈɪŋ.kjʊ.bəs /","ukp":"/ˈɪŋ.kjʊ.bəs/","us":"us  / ˈɪŋ.kjʊ.bəs /","usp":"/ˈɪŋ.kjʊ.bəs/"}
+{"title":"inculcate","uk":"uk  / ˈɪŋ.kʌl.keɪt /","ukp":"/ˈɪŋ.kʌl.keɪt/","us":"us  / ˈɪŋ.kʌl.keɪt /","usp":"/ˈɪŋ.kʌl.keɪt/"}
+{"title":"inculcated","uk":"uk  / ˈɪŋ.kʌl.keɪt /","ukp":"/ˈɪŋ.kʌl.keɪt/","us":"us  / ˈɪŋ.kʌl.keɪt /","usp":"/ˈɪŋ.kʌl.keɪt/"}
+{"title":"inculcating","uk":"uk  / ˈɪŋ.kʌl.keɪt /","ukp":"/ˈɪŋ.kʌl.keɪt/","us":"us  / ˈɪŋ.kʌl.keɪt /","usp":"/ˈɪŋ.kʌl.keɪt/"}
+{"title":"inculcation","uk":"uk  / ˌɪŋ.kʌlˈkeɪ.ʃ ə n /","ukp":"/ˌɪŋ.kʌlˈkeɪ.ʃən/","us":"us  / ˌɪŋ.kʌlˈkeɪ.ʃ ə n /","usp":"/ˌɪŋ.kʌlˈkeɪ.ʃən/"}
+{"title":"incumbency","uk":"uk  / ɪnˈkʌm.b ə n.si /","ukp":"/ɪnˈkʌm.bən.si/","us":"us  / ɪnˈkʌm.b ə n.si /","usp":"/ɪnˈkʌm.bən.si/"}
+{"title":"incumbent","uk":"uk  / ɪnˈkʌm.b ə nt /","ukp":"/ɪnˈkʌm.bənt/","us":"us  / ɪnˈkʌm.b ə nt /","usp":"/ɪnˈkʌm.bənt/"}
+{"title":"incur","uk":"uk  / ɪnˈkɜː r /","ukp":"/ɪnˈkɜːr/","us":"us  / ɪnˈkɝː /","usp":"/ɪnˈkɝː/"}
+{"title":"incurably","uk":"uk  / ɪnˈkjʊə.rə.bli /","ukp":"/ɪnˈkjʊə.rə.bli/","us":"us  / ɪnˈkjʊr.ə.bli /","usp":"/ɪnˈkjʊr.ə.bli/"}
+{"title":"incurable","uk":"uk  / ɪnˈkjʊə.rə.b ə l /","ukp":"/ɪnˈkjʊə.rə.bəl/","us":"us  / ɪnˈkjʊr.ə.b ə l /","usp":"/ɪnˈkjʊr.ə.bəl/"}
+{"title":"incurious","uk":"uk  / ɪnˈkjʊə.ri.əs /","ukp":"/ɪnˈkjʊə.ri.əs/","us":"us  / ɪnˈkjʊr.i.əs /","usp":"/ɪnˈkjʊr.i.əs/"}
+{"title":"incurred","uk":"","us":""}
+{"title":"incurring","uk":"","us":""}
+{"title":"incursion","uk":"uk  / ɪnˈkɜː.ʒ ə n /","ukp":"/ɪnˈkɜː.ʒən/","us":"us  / ɪnˈkɝː.ʒ ə n /","usp":"/ɪnˈkɝː.ʒən/"}
+{"title":"incus","uk":"uk  / ˈɪŋ.kəs /","ukp":"/ˈɪŋ.kəs/","us":"us  / ˈɪŋ.kəs /","usp":"/ˈɪŋ.kəs/"}
+{"title":"incy","uk":"uk  / ˈɪn.si /","ukp":"/ˈɪn.si/","us":"us / ˈɪn.si /","usp":"/ˈɪn.si/"}

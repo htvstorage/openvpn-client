@@ -1,0 +1,938 @@
+{"title":"fly-tip","uk":"uk  / ˈflaɪ.tɪp /","ukp":"/ˈflaɪ.tɪp/","us":"us  / ˈflaɪ.tɪp /","usp":"/ˈflaɪ.tɪp/"}
+{"title":"flyaway","uk":"uk  / ˈflaɪ.ə.weɪ /","ukp":"/ˈflaɪ.ə.weɪ/","us":"us  / ˈflaɪ.ə.weɪ /","usp":"/ˈflaɪ.ə.weɪ/"}
+{"title":"flyback","uk":"uk  / ˈflaɪbæk /","ukp":"/ˈflaɪbæk/","us":"us ","usp":""}
+{"title":"flyback interview","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fly-tipping","uk":"uk  / ˈflaɪˌtɪp.ɪŋ /","ukp":"/ˈflaɪˌtɪp.ɪŋ/","us":"us  / ˈflaɪˌtɪp.ɪŋ /","usp":"/ˈflaɪˌtɪp.ɪŋ/"}
+{"title":"flyby","uk":"uk  / ˈflaɪ.baɪ /","ukp":"/ˈflaɪ.baɪ/","us":"us  / ˈflaɪ.baɪ /","usp":"/ˈflaɪ.baɪ/"}
+{"title":"flycatcher","uk":"uk  / ˈflaɪˌkætʃ.ə r /","ukp":"/ˈflaɪˌkætʃ.ər/","us":"us  / ˈflaɪˌkætʃ.ɚ /","usp":"/ˈflaɪˌkætʃ.ɚ/"}
+{"title":"flying","uk":"uk  / ˈflaɪ.ɪŋ /","ukp":"/ˈflaɪ.ɪŋ/","us":"us  / ˈflaɪ.ɪŋ /","usp":"/ˈflaɪ.ɪŋ/"}
+{"title":"flyer","uk":"uk  / ˈflaɪ.ə r /","ukp":"/ˈflaɪ.ər/","us":"us  / ˈflaɪ.ɚ /","usp":"/ˈflaɪ.ɚ/"}
+{"title":"flying boat","uk":"uk  / ˈflaɪ.ɪŋ ˌbəʊt /","ukp":"/ˈflaɪ.ɪŋ ˌbəʊt/","us":"us  / ˈflaɪ.ɪŋ ˌboʊt /","usp":"/ˈflaɪ.ɪŋ ˌboʊt/"}
+{"title":"flying buttress","uk":"uk  / ˌflaɪ.ɪŋ ˈbʌt.rəs /","ukp":"/ˌflaɪ.ɪŋ ˈbʌt.rəs/","us":"us  / ˌflaɪ.ɪŋ ˈbʌt.rəs /","usp":"/ˌflaɪ.ɪŋ ˈbʌt.rəs/"}
+{"title":"flying doctor","uk":"uk  / ˌflaɪ.ɪŋ ˈdɒk.tə r /","ukp":"/ˌflaɪ.ɪŋ ˈdɒk.tər/","us":"us  / ˌflaɪ.ɪŋ ˈdɑːk.tɚ /","usp":"/ˌflaɪ.ɪŋ ˈdɑːk.tɚ/"}
+{"title":"flying fish","uk":"uk  / ˌflaɪ.ɪŋ ˈfɪʃ /","ukp":"/ˌflaɪ.ɪŋ ˈfɪʃ/","us":"us  / ˌflaɪ.ɪŋ ˈfɪʃ /","usp":"/ˌflaɪ.ɪŋ ˈfɪʃ/"}
+{"title":"flying fox","uk":"uk  / ˌflaɪ.ɪŋ ˈfɒks /","ukp":"/ˌflaɪ.ɪŋ ˈfɒks/","us":"us  / ˌflaɪ.ɪŋ ˈfɑːks /","usp":"/ˌflaɪ.ɪŋ ˈfɑːks/"}
+{"title":"flying picket","uk":"uk  / ˌflaɪ.ɪŋ ˈpɪk.ɪt /","ukp":"/ˌflaɪ.ɪŋ ˈpɪk.ɪt/","us":"us  / ˌflaɪ.ɪŋ ˈpɪk.ɪt /","usp":"/ˌflaɪ.ɪŋ ˈpɪk.ɪt/"}
+{"title":"flying squad","uk":"uk  / ˈflaɪ.ɪŋ ˌskwɒd /","ukp":"/ˈflaɪ.ɪŋ ˌskwɒd/","us":"us  / ˈflaɪ.ɪŋ ˌskwɑːd /","usp":"/ˈflaɪ.ɪŋ ˌskwɑːd/"}
+{"title":"flying saucer","uk":"uk  / ˌflaɪ.ɪŋ ˈsɔː.sə r /","ukp":"/ˌflaɪ.ɪŋ ˈsɔː.sər/","us":"us  / ˌflaɪ.ɪŋ ˈsɑː.sɚ /","usp":"/ˌflaɪ.ɪŋ ˈsɑː.sɚ/"}
+{"title":"flying squirrel","uk":"uk  / ˌflaɪ.ɪŋ ˈskwɪr. ə l /","ukp":"/ˌflaɪ.ɪŋ ˈskwɪr.əl/","us":"us  / ˌflaɪ.ɪŋ ˈskwɝː. ə l /","usp":"/ˌflaɪ.ɪŋ ˈskwɝː.əl/"}
+{"title":"flying start","uk":"uk  / ˌflaɪ.ɪŋ ˈstɑːt /","ukp":"/ˌflaɪ.ɪŋ ˈstɑːt/","us":"us  / ˌflaɪ.ɪŋ ˈstɑːrt /","usp":"/ˌflaɪ.ɪŋ ˈstɑːrt/"}
+{"title":"flying suit","uk":"uk  / ˈflaɪ.ɪŋ ˌsuːt /","ukp":"/ˈflaɪ.ɪŋ ˌsuːt/","us":"us  / ˈflaɪ.ɪŋ ˌsuːt /","usp":"/ˈflaɪ.ɪŋ ˌsuːt/"}
+{"title":"flying visit","uk":"uk  / ˌflaɪ.ɪŋ ˈvɪz.ɪt /","ukp":"/ˌflaɪ.ɪŋ ˈvɪz.ɪt/","us":"us  / ˌflaɪ.ɪŋ ˈvɪz.ɪt /","usp":"/ˌflaɪ.ɪŋ ˈvɪz.ɪt/"}
+{"title":"flyleaf","uk":"uk  / ˈflaɪ.liːf /","ukp":"/ˈflaɪ.liːf/","us":"us  / ˈflaɪ.liːf /","usp":"/ˈflaɪ.liːf/"}
+{"title":"flyleaves","uk":"","us":""}
+{"title":"flyover country","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"flyover","uk":"uk  / ˈflaɪˌəʊ.və r /","ukp":"/ˈflaɪˌəʊ.vər/","us":"us  / ˈflaɪˌoʊ.vɚ /","usp":"/ˈflaɪˌoʊ.vɚ/"}
+{"title":"flypaper","uk":"uk  / ˈflaɪˌpeɪ.pə r /","ukp":"/ˈflaɪˌpeɪ.pər/","us":"us  / ˈflaɪˌpeɪ.pɚ /","usp":"/ˈflaɪˌpeɪ.pɚ/"}
+{"title":"flypast","uk":"uk  / ˈflaɪ.pɑːst /","ukp":"/ˈflaɪ.pɑːst/","us":"us  / ˈflaɪ.pæst /","usp":"/ˈflaɪ.pæst/"}
+{"title":"flysheet","uk":"uk  / ˈflaɪ.ʃiːt /","ukp":"/ˈflaɪ.ʃiːt/","us":"us  / ˈflaɪ.ʃiːt /","usp":"/ˈflaɪ.ʃiːt/"}
+{"title":"flywheel","uk":"uk  / ˈflaɪ.wiːl /","ukp":"/ˈflaɪ.wiːl/","us":"us  / ˈflaɪ.wiːl /","usp":"/ˈflaɪ.wiːl/"}
+{"title":"flyweight","uk":"uk  / ˈflaɪ.weɪt /","ukp":"/ˈflaɪ.weɪt/","us":"us  / ˈflaɪ.weɪt /","usp":"/ˈflaɪ.weɪt/"}
+{"title":"FM","uk":"uk  / ˌefˈem /","ukp":"/ˌefˈem/","us":"us  / ˌefˈem /","usp":"/ˌefˈem/"}
+{"title":"FMCG","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"FMLA","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"FMQs","uk":"uk  / ˌef.emˈkjuːz /","ukp":"/ˌef.emˈkjuːz/","us":"us  / ˌef.emˈkjuːz /","usp":"/ˌef.emˈkjuːz/"}
+{"title":"FMV","uk":"uk  / ˌef.emˈviː /","ukp":"/ˌef.emˈviː/","us":"us  / ˌef.emˈviː /","usp":"/ˌef.emˈviː/"}
+{"title":"foal","uk":"uk  / fəʊl /","ukp":"/fəʊl/","us":"us  / foʊl /","usp":"/foʊl/"}
+{"title":"foaled","uk":"uk  / fəʊl /","ukp":"/fəʊl/","us":"us  / foʊl /","usp":"/foʊl/"}
+{"title":"foaling","uk":"uk  / fəʊl /","ukp":"/fəʊl/","us":"us  / foʊl /","usp":"/foʊl/"}
+{"title":"foam at the mouth","uk":"","us":""}
+{"title":"foam board","uk":"uk  / ˈfəʊmbɔːd /","ukp":"/ˈfəʊmbɔːd/","us":"us  / ˈfoʊmbɔːrd /","usp":"/ˈfoʊmbɔːrd/"}
+{"title":"foam","uk":"uk  / fəʊm /","ukp":"/fəʊm/","us":"us  / foʊm /","usp":"/foʊm/"}
+{"title":"foam pie","uk":"uk  / ˌfəʊm ˈpaɪ /","ukp":"/ˌfəʊm ˈpaɪ/","us":"us  / ˌfoʊm ˈpaɪ /","usp":"/ˌfoʊm ˈpaɪ/"}
+{"title":"foaming","uk":"uk  / fəʊm /","ukp":"/fəʊm/","us":"us  / foʊm /","usp":"/foʊm/"}
+{"title":"foamed","uk":"uk  / fəʊm /","ukp":"/fəʊm/","us":"us  / foʊm /","usp":"/foʊm/"}
+{"title":"foam rubber","uk":"uk  / ˌfəʊm ˈrʌb.ə r /","ukp":"/ˌfəʊm ˈrʌb.ər/","us":"us  / ˌfoʊm ˈrʌb.ɚ /","usp":"/ˌfoʊm ˈrʌb.ɚ/"}
+{"title":"foamy","uk":"uk  / ˈfəʊ.mi /","ukp":"/ˈfəʊ.mi/","us":"us  / ˈfoʊ.mi /","usp":"/ˈfoʊ.mi/"}
+{"title":"FOB airport","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fob sb off (with sth)","uk":"uk  / fɒb /","ukp":"/fɒb/","us":"us ","usp":""}
+{"title":"fob","uk":"uk  / fɒb /","ukp":"/fɒb/","us":"us  / fɑːb /","usp":"/fɑːb/"}
+{"title":"fob someone off","uk":"uk  / fɒb /","ukp":"/fɒb/","us":"us  / fɑːb /","usp":"/fɑːb/"}
+{"title":"fob something off on someone","uk":"uk  / fɒb /","ukp":"/fɒb/","us":"us  / fɑːb /","usp":"/fɑːb/"}
+{"title":"focaccia","uk":"uk  / fəˈkætʃ.ə /","ukp":"/fəˈkætʃ.ə/","us":"us  / fəˈkɑːtʃ.i.ə /","usp":"/fəˈkɑːtʃ.i.ə/"}
+{"title":"focal","uk":"uk  / ˈfəʊ.k ə l /","ukp":"/ˈfəʊ.kəl/","us":"us  / ˈfoʊ.k ə l /","usp":"/ˈfoʊ.kəl/"}
+{"title":"focal segmental glomerulosclerosis","uk":"uk  / ˌfəʊ.k ə l seɡˌmen.t ə l ɡlə.mɜː.jə.ləʊ.skləˈrəʊ.sɪs /","ukp":"/ˌfəʊ.kəl seɡˌmen.təl ɡlə.mɜː.jə.ləʊ.skləˈrəʊ.sɪs/","us":"us  / ˌfoʊ.k ə l seɡˌmen.t̬ ə l ɡləˌmɝː.jə.loʊ.skləˈroʊ.sɪs /","usp":"/ˌfoʊ.kəl seɡˌmen.t̬əl ɡləˌmɝː.jə.loʊ.skləˈroʊ.sɪs/"}
+{"title":"focal length","uk":"uk  / ˌfəʊ.k ə l ˈleŋθ /","ukp":"/ˌfəʊ.kəl ˈleŋθ/","us":"us  / ˌfoʊ.k ə l ˈleŋθ /","usp":"/ˌfoʊ.kəl ˈleŋθ/"}
+{"title":"focal point","uk":"uk  / ˌfəʊ.k ə l ˈpɔɪnt /","ukp":"/ˌfəʊ.kəl ˈpɔɪnt/","us":"us  / ˌfoʊ.k ə l ˈpɔɪnt /","usp":"/ˌfoʊ.kəl ˈpɔɪnt/"}
+{"title":"foci","uk":"","us":""}
+{"title":"focus (something) on someone/something","uk":"uk  / ˈfəʊ.kəs /","ukp":"/ˈfəʊ.kəs/","us":"us  / ˈfoʊ.kəs /","usp":"/ˈfoʊ.kəs/"}
+{"title":"focus group","uk":"uk  / ˈfəʊ.kəs ˌɡruːp /","ukp":"/ˈfəʊ.kəs ˌɡruːp/","us":"us  / ˈfoʊ.kəs ˌɡruːp /","usp":"/ˈfoʊ.kəs ˌɡruːp/"}
+{"title":"focus","uk":"uk  / ˈfəʊ.kəs /","ukp":"/ˈfəʊ.kəs/","us":"us  / ˈfoʊ.kəs /","usp":"/ˈfoʊ.kəs/"}
+{"title":"focus list","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"focused","uk":"uk  / ˈfəʊ.kəst /","ukp":"/ˈfəʊ.kəst/","us":"us  / ˈfoʊ.kəst /","usp":"/ˈfoʊ.kəst/"}
+{"title":"focuses","uk":"","us":""}
+{"title":"fodder","uk":"uk  / ˈfɒd.ə r /","ukp":"/ˈfɒd.ər/","us":"us  / ˈfɑː.dɚ /","usp":"/ˈfɑː.dɚ/"}
+{"title":"foe","uk":"uk  / fəʊ /","ukp":"/fəʊ/","us":"us  / foʊ /","usp":"/foʊ/"}
+{"title":"foehn","uk":"uk  / fɜːn /","ukp":"/fɜːn/","us":"us  / fɜːn /","usp":"/fɜːn/"}
+{"title":"foetal","uk":"uk  / ˈfiː.t ə l /","ukp":"/ˈfiː.təl/","us":"us  / ˈfiː.t̬ ə l /","usp":"/ˈfiː.t̬əl/"}
+{"title":"foetal position","uk":"uk  / ˈfiː.t ə l pəˌzɪʃ. ə n /","ukp":"/ˈfiː.təl pəˌzɪʃ.ən/","us":"us  / ˈfiː.t̬ ə l pəˌzɪʃ. ə n /","usp":"/ˈfiː.t̬əl pəˌzɪʃ.ən/"}
+{"title":"foeticide","uk":"uk  / ˈfiː.tɪ.saɪd /","ukp":"/ˈfiː.tɪ.saɪd/","us":"us  / ˈfiː.t̬ə.saɪd /","usp":"/ˈfiː.t̬ə.saɪd/"}
+{"title":"foetid","uk":"uk  / ˈfet.ɪd /","ukp":"/ˈfet.ɪd/","us":"us  / ˈfet̬.ɪd /","usp":"/ˈfet̬.ɪd/"}
+{"title":"foetus","uk":"uk  / ˈfiː.təs /","ukp":"/ˈfiː.təs/","us":"us  / ˈfiː.t̬əs /","usp":"/ˈfiː.t̬əs/"}
+{"title":"fog bank","uk":"uk  / ˈfɒɡ ˌbæŋk /","ukp":"/ˈfɒɡ ˌbæŋk/","us":"us  / ˈfɑːɡ ˌbæŋk /","usp":"/ˈfɑːɡ ˌbæŋk/"}
+{"title":"fog","uk":"uk  / fɒɡ /","ukp":"/fɒɡ/","us":"us  / fɑːɡ /","usp":"/fɑːɡ/"}
+{"title":"fog light","uk":"uk  / ˈfɒɡ ˌlaɪt /","ukp":"/ˈfɒɡ ˌlaɪt/","us":"us  / ˈfɑːɡ ˌlaɪt /","usp":"/ˈfɑːɡ ˌlaɪt/"}
+{"title":"fog machine","uk":"uk  / ˈfɒɡ məˈʃiːn /","ukp":"/ˈfɒɡ məˈʃiːn/","us":"us  / ˈfɑːɡ məˈʃiːn /","usp":"/ˈfɑːɡ məˈʃiːn/"}
+{"title":"fog up","uk":"uk  / fɒɡ /","ukp":"/fɒɡ/","us":"us  / fɑːɡ /","usp":"/fɑːɡ/"}
+{"title":"fogbound","uk":"uk  / ˈfɒɡ.baʊnd /","ukp":"/ˈfɒɡ.baʊnd/","us":"us  / ˈfɑːɡ.baʊnd /","usp":"/ˈfɑːɡ.baʊnd/"}
+{"title":"fogey","uk":"uk  / ˈfəʊ.ɡi /","ukp":"/ˈfəʊ.ɡi/","us":"us  / ˈfoʊ.ɡi /","usp":"/ˈfoʊ.ɡi/"}
+{"title":"fogged","uk":"","us":""}
+{"title":"fogger","uk":"uk  / ˈfɒɡ.ə r /","ukp":"/ˈfɒɡ.ər/","us":"us  / ˈfɑː.ɡɚ /","usp":"/ˈfɑː.ɡɚ/"}
+{"title":"fogging","uk":"","us":""}
+{"title":"foggy","uk":"uk  / ˈfɒɡ.i /","ukp":"/ˈfɒɡ.i/","us":"us  / ˈfɑː.ɡi /","usp":"/ˈfɑː.ɡi/"}
+{"title":"foghorn","uk":"uk  / ˈfɒɡ.hɔːn /","ukp":"/ˈfɒɡ.hɔːn/","us":"us  / ˈfɑːɡ.hɔːrn /","usp":"/ˈfɑːɡ.hɔːrn/"}
+{"title":"foible","uk":"uk  / ˈfɔɪ.b ə l /","ukp":"/ˈfɔɪ.bəl/","us":"us  / ˈfɔɪ.b ə l /","usp":"/ˈfɔɪ.bəl/"}
+{"title":"foie gras","uk":"uk  / ˌfwɑː ˈɡrɑː /","ukp":"/ˌfwɑː ˈɡrɑː/","us":"us  / ˌfwɑː ˈɡrɑː /","usp":"/ˌfwɑː ˈɡrɑː/"}
+{"title":"foiled","uk":"uk  / fɔɪl /","ukp":"/fɔɪl/","us":"us  / fɔɪl /","usp":"/fɔɪl/"}
+{"title":"foiling","uk":"uk  / fɔɪl /","ukp":"/fɔɪl/","us":"us  / fɔɪl /","usp":"/fɔɪl/"}
+{"title":"foil","uk":"uk  / fɔɪl /","ukp":"/fɔɪl/","us":"us  / fɔɪl /","usp":"/fɔɪl/"}
+{"title":"foist something on someone","uk":"uk  / fɔɪst /","ukp":"/fɔɪst/","us":"us  / fɔɪst /","usp":"/fɔɪst/"}
+{"title":"FOK","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foist something on/upon someone","uk":"uk  / fɔɪst /","ukp":"/fɔɪst/","us":"us / fɔɪst /","usp":"/fɔɪst/"}
+{"title":"folate","uk":"uk  / ˈfəu.leɪt /","ukp":"/ˈfəu.leɪt/","us":"us  / ˈfou.leɪt /","usp":"/ˈfou.leɪt/"}
+{"title":"fold in something","uk":"","us":"us  / foʊld /","usp":"/foʊld/"}
+{"title":"fold sth into sth","uk":"uk  / fəʊld /","ukp":"/fəʊld/","us":"us ","usp":""}
+{"title":"fold something in/fold something into something","uk":"uk  / fəʊld /","ukp":"/fəʊld/","us":"us  / foʊld /","usp":"/foʊld/"}
+{"title":"fold","uk":"uk  / fəʊld /","ukp":"/fəʊld/","us":"us  / foʊld /","usp":"/foʊld/"}
+{"title":"fold your arms","uk":"","us":""}
+{"title":"fold-out","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foldable","uk":"uk  / ˈfəʊl.də.b ə l /","ukp":"/ˈfəʊl.də.bəl/","us":"us  / ˈfoʊl.də.b ə l /","usp":"/ˈfoʊl.də.bəl/"}
+{"title":"foldaway","uk":"uk  / ˈfəʊld.ə.weɪ /","ukp":"/ˈfəʊld.ə.weɪ/","us":"us  / ˈfoʊld.ə.weɪ /","usp":"/ˈfoʊld.ə.weɪ/"}
+{"title":"folded","uk":"uk  / fəʊld /","ukp":"/fəʊld/","us":"us  / foʊld /","usp":"/foʊld/"}
+{"title":"folder","uk":"uk  / ˈfəʊl.də r /","ukp":"/ˈfəʊl.dər/","us":"us  / ˈfoʊl.dɚ /","usp":"/ˈfoʊl.dɚ/"}
+{"title":"folding","uk":"uk  / ˈfəʊl.dɪŋ /","ukp":"/ˈfəʊl.dɪŋ/","us":"us  / ˈfoʊl.dɪŋ /","usp":"/ˈfoʊl.dɪŋ/"}
+{"title":"folderol","uk":"uk  / ˈfɒl.dɪ.rɒl /","ukp":"/ˈfɒl.dɪ.rɒl/","us":"us  / ˈfɑːl.də.rɑːl /","usp":"/ˈfɑːl.də.rɑːl/"}
+{"title":"foliage","uk":"uk  / ˈfəʊ.li.ɪdʒ /","ukp":"/ˈfəʊ.li.ɪdʒ/","us":"us  / ˈfoʊ.li.ɪdʒ /","usp":"/ˈfoʊ.li.ɪdʒ/"}
+{"title":"foliated","uk":"uk  / ˈfəʊ.li.eɪ.tɪd /","ukp":"/ˈfəʊ.li.eɪ.tɪd/","us":"us  / ˈfoʊ.liˌeɪ.t̬ɪd /","usp":"/ˈfoʊ.liˌeɪ.t̬ɪd/"}
+{"title":"foliation","uk":"uk  / ˌfəʊ.liˈeɪ.ʃ ə n /","ukp":"/ˌfəʊ.liˈeɪ.ʃən/","us":"us  / ˌfoʊ.liˈeɪ.ʃ ə n /","usp":"/ˌfoʊ.liˈeɪ.ʃən/"}
+{"title":"folic acid","uk":"uk  / ˌfəʊ.lɪk ˈæs.ɪd /","ukp":"/ˌfəʊ.lɪk ˈæs.ɪd/","us":"us  / ˌfoʊ.lɪk ˈæs.ɪd /","usp":"/ˌfoʊ.lɪk ˈæs.ɪd/"}
+{"title":"folio","uk":"uk  / ˈfəʊ.li.əʊ /","ukp":"/ˈfəʊ.li.əʊ/","us":"us  / ˈfoʊ.li.oʊ /","usp":"/ˈfoʊ.li.oʊ/"}
+{"title":"folk art","uk":"uk  / ˈfəʊk ˌɑːt /","ukp":"/ˈfəʊk ˌɑːt/","us":"us  / ˈfoʊk ˌɑːrt /","usp":"/ˈfoʊk ˌɑːrt/"}
+{"title":"folk","uk":"uk  / fəʊk /","ukp":"/fəʊk/","us":"us  / foʊk /","usp":"/foʊk/"}
+{"title":"folk etymology","uk":"uk  / ˌfəʊk ˌet.ɪˈmɒl.ə.dʒi /","ukp":"/ˌfəʊk ˌet.ɪˈmɒl.ə.dʒi/","us":"us  / ˌfoʊk ˌet̬.ɪˈmɑː.lə.dʒi /","usp":"/ˌfoʊk ˌet̬.ɪˈmɑː.lə.dʒi/"}
+{"title":"folk hero","uk":"uk  / ˈfəʊk ˌhɪə.rəʊ /","ukp":"/ˈfəʊk ˌhɪə.rəʊ/","us":"us  / ˈfoʊk ˌhɪr.oʊ /","usp":"/ˈfoʊk ˌhɪr.oʊ/"}
+{"title":"folk medicine","uk":"uk  / ˈfəʊk ˌmed.ɪ.s ə n /","ukp":"/ˈfəʊk ˌmed.ɪ.sən/","us":"us  / ˈfoʊk ˌmed.ɪ.sən /","usp":"/ˈfoʊk ˌmed.ɪ.sən/"}
+{"title":"folk singer","uk":"","us":"us  / ˈfoʊk ˌsɪŋ·ər /","usp":"/ˈfoʊk ˌsɪŋ·ər/"}
+{"title":"folk music","uk":"","us":"us  / ˈfoʊk ˌmju·zɪk /","usp":"/ˈfoʊk ˌmju·zɪk/"}
+{"title":"folk memory","uk":"uk  / ˈfəʊk ˌmem. ə r.i /","ukp":"/ˈfəʊk ˌmem.ər.i/","us":"us  / ˈfoʊk ˌmem.ɚ.i /","usp":"/ˈfoʊk ˌmem.ɚ.i/"}
+{"title":"folk rock","uk":"uk  / ˌfəʊk ˈrɒk /","ukp":"/ˌfəʊk ˈrɒk/","us":"us  / ˌfoʊk ˈrɑːk /","usp":"/ˌfoʊk ˈrɑːk/"}
+{"title":"folk song","uk":"uk  / ˈfəʊk ˌsɒŋ /","ukp":"/ˈfəʊk ˌsɒŋ/","us":"us  / ˈfoʊk ˌsɑːŋ /","usp":"/ˈfoʊk ˌsɑːŋ/"}
+{"title":"folk tale","uk":"uk  / ˈfəʊk ˌteɪl /","ukp":"/ˈfəʊk ˌteɪl/","us":"us  / ˈfoʊk ˌteɪl /","usp":"/ˈfoʊk ˌteɪl/"}
+{"title":"folklore","uk":"uk  / ˈfəʊk.lɔː r /","ukp":"/ˈfəʊk.lɔːr/","us":"us  / ˈfoʊk.lɔːr /","usp":"/ˈfoʊk.lɔːr/"}
+{"title":"folks","uk":"","us":"us  / foʊks /","usp":"/foʊks/"}
+{"title":"folksy","uk":"uk  / ˈfəʊk.si /","ukp":"/ˈfəʊk.si/","us":"us  / ˈfoʊk.si /","usp":"/ˈfoʊk.si/"}
+{"title":"folktale","uk":"","us":"us  / ˈfoʊkˌteɪl /","usp":"/ˈfoʊkˌteɪl/"}
+{"title":"follicle","uk":"uk  / ˈfɒl.ɪ.k ə l /","ukp":"/ˈfɒl.ɪ.kəl/","us":"us  / ˈfɑː.lɪ.k ə l /","usp":"/ˈfɑː.lɪ.kəl/"}
+{"title":"follicular","uk":"uk  / fɒˈlɪk.jə.lə r /","ukp":"/fɒˈlɪk.jə.lər/","us":"us  / fɑːˈlɪk.jə.lɚ /","usp":"/fɑːˈlɪk.jə.lɚ/"}
+{"title":"follow (a) fashion","uk":"","us":""}
+{"title":"follow in someone's footsteps","uk":"","us":""}
+{"title":"follow (something) through","uk":"uk  / ˈfɒl.əʊ /","ukp":"/ˈfɒl.əʊ/","us":"us  / ˈfɑː.loʊ /","usp":"/ˈfɑː.loʊ/"}
+{"title":"follow","uk":"uk  / ˈfɒl.əʊ /","ukp":"/ˈfɒl.əʊ/","us":"us  / ˈfɑː.loʊ /","usp":"/ˈfɑː.loʊ/"}
+{"title":"follow on","uk":"uk  / ˈfɒl.əʊ /","ukp":"/ˈfɒl.əʊ/","us":"us  / ˈfɑː.loʊ /","usp":"/ˈfɑː.loʊ/"}
+{"title":"follow sth up with sth","uk":"uk  / ˈfɒləʊ /","ukp":"/ˈfɒləʊ/","us":"us ","usp":""}
+{"title":"follow something up","uk":"uk  / ˈfɒl.əʊ /","ukp":"/ˈfɒl.əʊ/","us":"us  / ˈfɑː.loʊ /","usp":"/ˈfɑː.loʊ/"}
+{"title":"follow suit","uk":"","us":""}
+{"title":"follow the crowd","uk":"","us":""}
+{"title":"follow through (on/with sth)","uk":"uk  / ˈfɒləʊ /","ukp":"/ˈfɒləʊ/","us":"us ","usp":""}
+{"title":"follow your nose","uk":"","us":""}
+{"title":"follow-the-leader","uk":"uk  / ˌfɒl.əʊ.ðəˈliː.də r /","ukp":"/ˌfɒl.əʊ.ðəˈliː.dər/","us":"us  / ˌfɑː.loʊ.ðəˈliː.dɚ /","usp":"/ˌfɑː.loʊ.ðəˈliː.dɚ/"}
+{"title":"follow-my-leader","uk":"uk  / ˌfɒl.əʊ.məˈliː.də r /","ukp":"/ˌfɒl.əʊ.məˈliː.dər/","us":"us  / ˌfɑː.loʊ.məˈliː.dɚ /","usp":"/ˌfɑː.loʊ.məˈliː.dɚ/"}
+{"title":"follow/steer/take the middle course/way/path","uk":"","us":""}
+{"title":"follower","uk":"uk  / ˈfɒl.əʊ.ə r /","ukp":"/ˈfɒl.əʊ.ər/","us":"us  / ˈfɑː.loʊ.ɚ /","usp":"/ˈfɑː.loʊ.ɚ/"}
+{"title":"followed","uk":"uk  / ˈfɒl.əʊ /","ukp":"/ˈfɒl.əʊ/","us":"us  / ˈfɑː.loʊ /","usp":"/ˈfɑː.loʊ/"}
+{"title":"following","uk":"uk  / ˈfɒl.əʊ.ɪŋ /","ukp":"/ˈfɒl.əʊ.ɪŋ/","us":"us  / ˈfɑː.loʊ.ɪŋ /","usp":"/ˈfɑː.loʊ.ɪŋ/"}
+{"title":"following wind","uk":"","us":""}
+{"title":"folx","uk":"uk  / fəʊks /","ukp":"/fəʊks/","us":"us  / foʊks /","usp":"/foʊks/"}
+{"title":"folly","uk":"uk  / ˈfɒl.i /","ukp":"/ˈfɒl.i/","us":"us  / ˈfɑː.li /","usp":"/ˈfɑː.li/"}
+{"title":"foment","uk":"uk  / fəʊˈment /","ukp":"/fəʊˈment/","us":"us  / foʊˈment /","usp":"/foʊˈment/"}
+{"title":"fomenting","uk":"uk  / fəʊˈment /","ukp":"/fəʊˈment/","us":"us  / foʊˈment /","usp":"/foʊˈment/"}
+{"title":"fomented","uk":"uk  / fəʊˈment /","ukp":"/fəʊˈment/","us":"us  / foʊˈment /","usp":"/foʊˈment/"}
+{"title":"fomite","uk":"uk  / ˈfəʊ.maɪt /","ukp":"/ˈfəʊ.maɪt/","us":"us  / ˈfoʊ.maɪt /","usp":"/ˈfoʊ.maɪt/"}
+{"title":"FOMO","uk":"uk  / ˈfəʊ.məʊ /","ukp":"/ˈfəʊ.məʊ/","us":"us  / ˈfoʊ.moʊ /","usp":"/ˈfoʊ.moʊ/"}
+{"title":"fondant","uk":"uk  / ˈfɒn.d ə nt /","ukp":"/ˈfɒn.dənt/","us":"us  / ˈfɑːn.d ə nt /","usp":"/ˈfɑːn.dənt/"}
+{"title":"fond","uk":"uk  / fɒnd /","ukp":"/fɒnd/","us":"us  / fɑːnd /","usp":"/fɑːnd/"}
+{"title":"fondle","uk":"uk  / ˈfɒn.d ə l /","ukp":"/ˈfɒn.dəl/","us":"us  / ˈfɑːn.d ə l /","usp":"/ˈfɑːn.dəl/"}
+{"title":"fondled","uk":"uk  / ˈfɒn.d ə l /","ukp":"/ˈfɒn.dəl/","us":"us  / ˈfɑːn.d ə l /","usp":"/ˈfɑːn.dəl/"}
+{"title":"fondling","uk":"uk  / ˈfɒn.d ə l /","ukp":"/ˈfɒn.dəl/","us":"us  / ˈfɑːn.d ə l /","usp":"/ˈfɑːn.dəl/"}
+{"title":"fondness","uk":"uk  / ˈfɒnd.nəs /","ukp":"/ˈfɒnd.nəs/","us":"us  / ˈfɑːnd.nəs /","usp":"/ˈfɑːnd.nəs/"}
+{"title":"fondly","uk":"uk  / ˈfɒnd.li /","ukp":"/ˈfɒnd.li/","us":"us  / ˈfɑːnd.li /","usp":"/ˈfɑːnd.li/"}
+{"title":"fondue","uk":"uk  / fɒnˈduː /","ukp":"/fɒnˈduː/","us":"us  / fɑːnˈduː /","usp":"/fɑːnˈduː/"}
+{"title":"fondue set","uk":"uk  / ˈfɒn.duː ˌset /","ukp":"/ˈfɒn.duː ˌset/","us":"us  / fɑːnˈduː ˌset /","usp":"/fɑːnˈduː ˌset/"}
+{"title":"fontina","uk":"uk / fɒnˈtiː.nə /","ukp":"/fɒnˈtiː.nə/","us":"us / ˌfɑːnˈtiː.nə /","usp":"/ˌfɑːnˈtiː.nə/"}
+{"title":"font","uk":"uk  / fɒnt /","ukp":"/fɒnt/","us":"us  / fɑːnt /","usp":"/fɑːnt/"}
+{"title":"food","uk":"uk  / fuːd /","ukp":"/fuːd/","us":"us  / fuːd /","usp":"/fuːd/"}
+{"title":"food additive","uk":"uk  / ˈfuːd ˌæd.ɪ.tɪv /","ukp":"/ˈfuːd ˌæd.ɪ.tɪv/","us":"us  / ˈfuːd ˌæd.ə.t̬ɪv /","usp":"/ˈfuːd ˌæd.ə.t̬ɪv/"}
+{"title":"food baby","uk":"uk  / ˈfuːd ˌbeɪ.bi /","ukp":"/ˈfuːd ˌbeɪ.bi/","us":"us  / ˈfuːd ˌbeɪ.bi /","usp":"/ˈfuːd ˌbeɪ.bi/"}
+{"title":"food bank","uk":"uk  / ˈfuːd ˌbæŋk /","ukp":"/ˈfuːd ˌbæŋk/","us":"us  / ˈfuːd ˌbæŋk /","usp":"/ˈfuːd ˌbæŋk/"}
+{"title":"food cart","uk":"uk  / ˈfuːd ˌkɑːt /","ukp":"/ˈfuːd ˌkɑːt/","us":"us  / ˈfuːd ˌkɑːrt /","usp":"/ˈfuːd ˌkɑːrt/"}
+{"title":"food for thought","uk":"","us":""}
+{"title":"food court","uk":"uk  / ˈfuːd ˌkɔːt /","ukp":"/ˈfuːd ˌkɔːt/","us":"us  / ˈfuːd ˌkɔːrt /","usp":"/ˈfuːd ˌkɔːrt/"}
+{"title":"food chain","uk":"uk  / ˈfuːd ˌtʃeɪn /","ukp":"/ˈfuːd ˌtʃeɪn/","us":"us  / ˈfuːd ˌtʃeɪn /","usp":"/ˈfuːd ˌtʃeɪn/"}
+{"title":"food group","uk":"uk  / ˈfuːd ˌɡruːp /","ukp":"/ˈfuːd ˌɡruːp/","us":"us  / ˈfuːd ˌɡruːp /","usp":"/ˈfuːd ˌɡruːp/"}
+{"title":"food insecure","uk":"uk  / ˌfuːd ɪn.sɪˈkjʊə r /","ukp":"/ˌfuːd ɪn.sɪˈkjʊər/","us":"us  / ˌfuːd ɪn.səˈkjʊr /","usp":"/ˌfuːd ɪn.səˈkjʊr/"}
+{"title":"food insecurity","uk":"uk  / ˌfuːd.ɪn.sɪˈkjʊə.rə.ti /","ukp":"/ˌfuːd.ɪn.sɪˈkjʊə.rə.ti/","us":"us  / ˌfuːd.ˌɪn.səˈkjʊr.ə.t̬i /","usp":"/ˌfuːd.ˌɪn.səˈkjʊr.ə.t̬i/"}
+{"title":"food miles","uk":"uk  / ˈfuːd ˌmaɪlz /","ukp":"/ˈfuːd ˌmaɪlz/","us":"us  / ˈfuːd ˌmaɪlz /","usp":"/ˈfuːd ˌmaɪlz/"}
+{"title":"food pantry","uk":"uk  / ˈfuːd ˌpæn.tri /","ukp":"/ˈfuːd ˌpæn.tri/","us":"us  / ˈfuːd ˌpæn.tri /","usp":"/ˈfuːd ˌpæn.tri/"}
+{"title":"food poisoning","uk":"uk  / ˈfuːd ˌpɔɪ.z ə n.ɪŋ /","ukp":"/ˈfuːd ˌpɔɪ.zən.ɪŋ/","us":"us  / ˈfuːd ˌpɔɪ.z ə n.ɪŋ /","usp":"/ˈfuːd ˌpɔɪ.zən.ɪŋ/"}
+{"title":"food poverty","uk":"uk  / ˈfuːd ˌpɒv.ə.ti /","ukp":"/ˈfuːd ˌpɒv.ə.ti/","us":"us  / ˌfuːd ˈpɑː.vɚ.t̬i /","usp":"/ˌfuːd ˈpɑː.vɚ.t̬i/"}
+{"title":"food secure","uk":"uk / ˌfuːd sɪˈkjʊə r /","ukp":"/ˌfuːd sɪˈkjʊər/","us":"us / ˌfuːd səˈkjʊr /","usp":"/ˌfuːd səˈkjʊr/"}
+{"title":"food processor","uk":"uk  / ˈfuːd ˌprəʊ.ses.ə r /","ukp":"/ˈfuːd ˌprəʊ.ses.ər/","us":"us  / ˈfuːd ˌprɑː.ses.ɚ /","usp":"/ˈfuːd ˌprɑː.ses.ɚ/"}
+{"title":"food security","uk":"uk  / ˌfuːd sɪˈkjʊə.rɪ.ti /","ukp":"/ˌfuːd sɪˈkjʊə.rɪ.ti/","us":"us  / ˌfuːd sɪˈkjʊr.ə.t̬i /","usp":"/ˌfuːd sɪˈkjʊr.ə.t̬i/"}
+{"title":"food service","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"food technology","uk":"uk  / ˈfuːd tekˌnɒl.ə.dʒi /","ukp":"/ˈfuːd tekˌnɒl.ə.dʒi/","us":"us  / ˈfuːd tekˌnɑː.lə.dʒi /","usp":"/ˈfuːd tekˌnɑː.lə.dʒi/"}
+{"title":"food stamp","uk":"uk  / ˈfuːd ˌstæmp /","ukp":"/ˈfuːd ˌstæmp/","us":"us  / ˈfuːd ˌstæmp /","usp":"/ˈfuːd ˌstæmp/"}
+{"title":"food truck","uk":"uk  / ˈfuːd ˌtrʌk /","ukp":"/ˈfuːd ˌtrʌk/","us":"us  / ˈfuːd ˌtrʌk /","usp":"/ˈfuːd ˌtrʌk/"}
+{"title":"food web","uk":"uk  / ˈfuːd ˌweb /","ukp":"/ˈfuːd ˌweb/","us":"us  / ˈfuːd ˌweb /","usp":"/ˈfuːd ˌweb/"}
+{"title":"foodie","uk":"uk  / ˈfuː.di /","ukp":"/ˈfuː.di/","us":"us  / ˈfuː.di /","usp":"/ˈfuː.di/"}
+{"title":"fooding and lodging","uk":"uk  / ˌfuː.dɪŋ ən ˈlɒdʒ.ɪŋ /","ukp":"/ˌfuː.dɪŋ ən ˈlɒdʒ.ɪŋ/","us":"us  / ˌfuː.dɪŋ ən ˈlɑː.dʒɪŋ /","usp":"/ˌfuː.dɪŋ ən ˈlɑː.dʒɪŋ/"}
+{"title":"foodstuff","uk":"uk  / ˈfuːd.stʌf /","ukp":"/ˈfuːd.stʌf/","us":"us  / ˈfuːd.stʌf /","usp":"/ˈfuːd.stʌf/"}
+{"title":"fool around","uk":"uk  / fuːl /","ukp":"/fuːl/","us":"us  / fuːl /","usp":"/fuːl/"}
+{"title":"fool with something","uk":"uk  / fuːl /","ukp":"/fuːl/","us":"us  / fuːl /","usp":"/fuːl/"}
+{"title":"fool","uk":"uk  / fuːl /","ukp":"/fuːl/","us":"us  / fuːl /","usp":"/fuːl/"}
+{"title":"fool's errand","uk":"uk  / ˌfuːlz ˈer.ənd /","ukp":"/ˌfuːlz ˈer.ənd/","us":"us  / ˌfuːlz ˈer.ənd /","usp":"/ˌfuːlz ˈer.ənd/"}
+{"title":"fool's gold","uk":"uk  / ˌfuːlz ˈɡəʊld /","ukp":"/ˌfuːlz ˈɡəʊld/","us":"us  / ˌfuːlz ˈɡoʊld /","usp":"/ˌfuːlz ˈɡoʊld/"}
+{"title":"fool's paradise","uk":"uk  / ˌfuːlz ˈpær.ə.daɪs /","ukp":"/ˌfuːlz ˈpær.ə.daɪs/","us":"us  / ˌfuːlz ˈper.ə.daɪs /","usp":"/ˌfuːlz ˈper.ə.daɪs/"}
+{"title":"fooled","uk":"uk  / fuːl /","ukp":"/fuːl/","us":"us  / fuːl /","usp":"/fuːl/"}
+{"title":"foolery","uk":"uk  / ˈfuː.l ə r.i /","ukp":"/ˈfuː.lər.i/","us":"us  / ˈfuː.lɚ.i /","usp":"/ˈfuː.lɚ.i/"}
+{"title":"foolhardy","uk":"uk  / ˈfuːlˌhɑː.di /","ukp":"/ˈfuːlˌhɑː.di/","us":"us  / ˈfuːlˌhɑːr.di /","usp":"/ˈfuːlˌhɑːr.di/"}
+{"title":"fooling","uk":"uk  / fuːl /","ukp":"/fuːl/","us":"us  / fuːl /","usp":"/fuːl/"}
+{"title":"foolish","uk":"uk  / ˈfuː.lɪʃ /","ukp":"/ˈfuː.lɪʃ/","us":"us  / ˈfuː.lɪʃ /","usp":"/ˈfuː.lɪʃ/"}
+{"title":"foolishly","uk":"uk  / ˈfuː.lɪʃ.li /","ukp":"/ˈfuː.lɪʃ.li/","us":"us  / ˈfuː.lɪʃ.li /","usp":"/ˈfuː.lɪʃ.li/"}
+{"title":"foolishness","uk":"uk  / ˈfuː.lɪʃ.nəs /","ukp":"/ˈfuː.lɪʃ.nəs/","us":"us  / ˈfuː.lɪʃ.nəs /","usp":"/ˈfuː.lɪʃ.nəs/"}
+{"title":"foolproof","uk":"uk  / ˈfuːl.pruːf /","ukp":"/ˈfuːl.pruːf/","us":"us  / ˈfuːl.pruːf /","usp":"/ˈfuːl.pruːf/"}
+{"title":"foolscap","uk":"uk  / ˈfuːl.skæp /","ukp":"/ˈfuːl.skæp/","us":"us  / ˈfuːl.skæp /","usp":"/ˈfuːl.skæp/"}
+{"title":"foosball","uk":"uk  / ˈfuːz.bɑːl /","ukp":"/ˈfuːz.bɑːl/","us":"us  / ˈfuːz.bɑːl /","usp":"/ˈfuːz.bɑːl/"}
+{"title":"foot fault","uk":"uk  / ˈfʊt ˌfɒlt /","ukp":"/ˈfʊt ˌfɒlt/","us":"us  / ˈfʊt ˌfɑːlt /","usp":"/ˈfʊt ˌfɑːlt/"}
+{"title":"foot","uk":"uk  / fʊt /","ukp":"/fʊt/","us":"us  / fʊt /","usp":"/fʊt/"}
+{"title":"foot the bill","uk":"","us":""}
+{"title":"foot soldier","uk":"uk  / ˈfʊt ˌsəʊl.dʒə r /","ukp":"/ˈfʊt ˌsəʊl.dʒər/","us":"us  / ˈfʊt ˌsoʊl.dʒɚ /","usp":"/ˈfʊt ˌsoʊl.dʒɚ/"}
+{"title":"foot-and-mouth","uk":"uk  / ˌfʊt.ənˈmaʊθ /","ukp":"/ˌfʊt.ənˈmaʊθ/","us":"us  / ˌfʊt.ənˈmaʊθ /","usp":"/ˌfʊt.ənˈmaʊθ/"}
+{"title":"foot traffic","uk":"uk  / ˈfʊt ˌtræf.ɪk /","ukp":"/ˈfʊt ˌtræf.ɪk/","us":"us  / ˈfʊt ˌtræf.ɪk /","usp":"/ˈfʊt ˌtræf.ɪk/"}
+{"title":"footage","uk":"uk  / ˈfʊt.ɪdʒ /","ukp":"/ˈfʊt.ɪdʒ/","us":"us  / ˈfʊt̬.ɪdʒ /","usp":"/ˈfʊt̬.ɪdʒ/"}
+{"title":"football boot","uk":"uk  / ˈfʊt.bɔːl ˌbuːt /","ukp":"/ˈfʊt.bɔːl ˌbuːt/","us":"us  / ˈfʊt.bɑːl ˌbuːt /","usp":"/ˈfʊt.bɑːl ˌbuːt/"}
+{"title":"football player","uk":"uk  / ˈfʊt.bɔːl ˌpleɪ.ə r /","ukp":"/ˈfʊt.bɔːl ˌpleɪ.ər/","us":"us  / ˈfʊt.bɔːl ˌpleɪ.ɚ /","usp":"/ˈfʊt.bɔːl ˌpleɪ.ɚ/"}
+{"title":"football","uk":"uk  / ˈfʊt.bɔːl /","ukp":"/ˈfʊt.bɔːl/","us":"us  / ˈfʊt.bɑːl /","usp":"/ˈfʊt.bɑːl/"}
+{"title":"football pools","uk":"uk  / ˈfʊt.bɔːl ˌpuːlz /","ukp":"/ˈfʊt.bɔːl ˌpuːlz/","us":"us  / ˈfʊt.bɑːl ˌpuːlz /","usp":"/ˈfʊt.bɑːl ˌpuːlz/"}
+{"title":"football pyramid","uk":"uk  / ˈfʊt.bɔːl ˌpɪr.ə.mɪd /","ukp":"/ˈfʊt.bɔːl ˌpɪr.ə.mɪd/","us":"us  / ˈfʊt.bɑːl ˌpɪr.ə.mɪd /","usp":"/ˈfʊt.bɑːl ˌpɪr.ə.mɪd/"}
+{"title":"footballer's wife","uk":"uk  / ˌfʊt.bɔː.ləz ˈwaɪf /","ukp":"/ˌfʊt.bɔː.ləz ˈwaɪf/","us":"us  / ˌfʊt.bɑː.lɚz ˈwaɪf /","usp":"/ˌfʊt.bɑː.lɚz ˈwaɪf/"}
+{"title":"footballer","uk":"uk  / ˈfʊt.bɔː.lə r /","ukp":"/ˈfʊt.bɔː.lər/","us":"us  / ˈfʊt.bɑː.lɚ /","usp":"/ˈfʊt.bɑː.lɚ/"}
+{"title":"footballing","uk":"uk  / ˈfʊt.bɔː.lɪŋ /","ukp":"/ˈfʊt.bɔː.lɪŋ/","us":"us  / ˈfʊt.bɑː.lɪŋ /","usp":"/ˈfʊt.bɑː.lɪŋ/"}
+{"title":"footboard","uk":"uk / ˈfʊt.bɔːd /","ukp":"/ˈfʊt.bɔːd/","us":"us / ˈfʊt.bɔːrd /","usp":"/ˈfʊt.bɔːrd/"}
+{"title":"footbrake","uk":"uk  / ˈfʊt.breɪk /","ukp":"/ˈfʊt.breɪk/","us":"us  / ˈfʊt.breɪk /","usp":"/ˈfʊt.breɪk/"}
+{"title":"footbridge","uk":"uk  / ˈfʊt.brɪdʒ /","ukp":"/ˈfʊt.brɪdʒ/","us":"us  / ˈfʊt.brɪdʒ /","usp":"/ˈfʊt.brɪdʒ/"}
+{"title":"-footed","uk":"uk  / -fʊt.ɪd /","ukp":"/ -fʊt.ɪd/","us":"us  / -fʊt̬.ɪd /","usp":"/ -fʊt̬.ɪd/"}
+{"title":"footer","uk":"uk  / ˈfʊt.ə r /","ukp":"/ˈfʊt.ər/","us":"us  / ˈfʊt̬.ɚ /","usp":"/ˈfʊt̬.ɚ/"}
+{"title":"footgolf","uk":"uk  / ˈfʊt.ɡɒlf /","ukp":"/ˈfʊt.ɡɒlf/","us":"us  / ˈfʊt.ɡɑːlf /","usp":"/ˈfʊt.ɡɑːlf/"}
+{"title":"footfall","uk":"uk  / ˈfʊt.fɔːl /","ukp":"/ˈfʊt.fɔːl/","us":"us  / ˈfʊt.fɑːl /","usp":"/ˈfʊt.fɑːl/"}
+{"title":"footgolfer","uk":"uk  / ˈfʊt.ɡɒl.fə r /","ukp":"/ˈfʊt.ɡɒl.fər/","us":"us  / ˈfʊt.ɡɑːl.fɚ /","usp":"/ˈfʊt.ɡɑːl.fɚ/"}
+{"title":"foothill","uk":"uk  / ˈfʊt.hɪl /","ukp":"/ˈfʊt.hɪl/","us":"us  / ˈfʊt.hɪl /","usp":"/ˈfʊt.hɪl/"}
+{"title":"foothold","uk":"uk  / ˈfʊt.həʊld /","ukp":"/ˈfʊt.həʊld/","us":"us  / ˈfʊt.hoʊld /","usp":"/ˈfʊt.hoʊld/"}
+{"title":"footing","uk":"uk  / ˈfʊt.ɪŋ /","ukp":"/ˈfʊt.ɪŋ/","us":"us  / ˈfʊt̬.ɪŋ /","usp":"/ˈfʊt̬.ɪŋ/"}
+{"title":"footling","uk":"uk  / ˈfuː.t ə l.ɪŋ /","ukp":"/ˈfuː.təl.ɪŋ/","us":"us  / ˈfuː.t̬ ə l.ɪŋ /","usp":"/ˈfuː.t̬əl.ɪŋ/"}
+{"title":"footlights","uk":"uk  / ˈfʊt.laɪts /","ukp":"/ˈfʊt.laɪts/","us":"us  / ˈfʊt.laɪts /","usp":"/ˈfʊt.laɪts/"}
+{"title":"footlocker","uk":"uk  / ˈfʊt.lɒk.ə r /","ukp":"/ˈfʊt.lɒk.ər/","us":"us  / ˈfʊt.lɑː.kɚ /","usp":"/ˈfʊt.lɑː.kɚ/"}
+{"title":"for keeps","uk":"","us":""}
+{"title":"for life","uk":"","us":""}
+{"title":"for love nor money","uk":"","us":""}
+{"title":"for luck","uk":"","us":""}
+{"title":"for my money","uk":"","us":""}
+{"title":"for old times' sake","uk":"","us":""}
+{"title":"for one thing","uk":"","us":""}
+{"title":"for real","uk":"","us":""}
+{"title":"for short","uk":"","us":""}
+{"title":"for one","uk":"","us":""}
+{"title":"for starters","uk":"","us":""}
+{"title":"for sure","uk":"","us":""}
+{"title":"for that matter","uk":"","us":""}
+{"title":"for the asking","uk":"","us":""}
+{"title":"for the best","uk":"","us":""}
+{"title":"for the common good","uk":"","us":""}
+{"title":"for the better","uk":"","us":""}
+{"title":"for the duration","uk":"","us":""}
+{"title":"for the heck of it","uk":"","us":""}
+{"title":"for the life of you","uk":"","us":""}
+{"title":"for the hell of it","uk":"","us":""}
+{"title":"for the most part","uk":"","us":""}
+{"title":"for the moment","uk":"","us":""}
+{"title":"for the rest","uk":"","us":""}
+{"title":"for the time being","uk":"","us":""}
+{"title":"for the worse","uk":"","us":""}
+{"title":"for toffee","uk":"","us":""}
+{"title":"for what it's worth","uk":"","us":""}
+{"title":"for years","uk":"","us":""}
+{"title":"for-profit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fora","uk":"","us":""}
+{"title":"forage","uk":"uk  / ˈfɒr.ɪdʒ /","ukp":"/ˈfɒr.ɪdʒ/","us":"us  / ˈfɔːr.ɪdʒ /","usp":"/ˈfɔːr.ɪdʒ/"}
+{"title":"foraged","uk":"uk  / ˈfɒr.ɪdʒ /","ukp":"/ˈfɒr.ɪdʒ/","us":"us  / ˈfɔːr.ɪdʒ /","usp":"/ˈfɔːr.ɪdʒ/"}
+{"title":"forager","uk":"uk  / ˈfɒr.ɪdʒ.ə r /","ukp":"/ˈfɒr.ɪdʒ.ər/","us":"us  / ˈfɔːr.ɪdʒ.ɚ /","usp":"/ˈfɔːr.ɪdʒ.ɚ/"}
+{"title":"foraging","uk":"uk  / ˈfɒr.ɪdʒ /","ukp":"/ˈfɒr.ɪdʒ/","us":"us  / ˈfɔːr.ɪdʒ /","usp":"/ˈfɔːr.ɪdʒ/"}
+{"title":"foramen","uk":"uk  / fəˈreɪ.mən /","ukp":"/fəˈreɪ.mən/","us":"us  / fəˈreɪ.mən /","usp":"/fəˈreɪ.mən/"}
+{"title":"foramina","uk":"","us":""}
+{"title":"foray","uk":"uk  / ˈfɒr.eɪ /","ukp":"/ˈfɒr.eɪ/","us":"us  / ˈfɔːr.eɪ /","usp":"/ˈfɔːr.eɪ/"}
+{"title":"forbad","uk":"","us":""}
+{"title":"forbade","uk":"","us":""}
+{"title":"forbear","uk":"uk  / fɔːˈbeə r /","ukp":"/fɔːˈbeər/","us":"us  / fɔːrˈber /","usp":"/fɔːrˈber/"}
+{"title":"forbearance","uk":"uk  / fɔːˈbeə.r ə ns /","ukp":"/fɔːˈbeə.rəns/","us":"us  / fɔːrˈber. ə ns /","usp":"/fɔːrˈber.əns/"}
+{"title":"forbearing","uk":"uk  / fɔːˈbeə.rɪŋ /","ukp":"/fɔːˈbeə.rɪŋ/","us":"us  / fɔːrˈber.ɪŋ /","usp":"/fɔːrˈber.ɪŋ/"}
+{"title":"forbid","uk":"uk  / fəˈbɪd /","ukp":"/fəˈbɪd/","us":"us  / fɚˈbɪd /","usp":"/fɚˈbɪd/"}
+{"title":"forbidden","uk":"uk  / fəˈbɪd. ə n /","ukp":"/fəˈbɪd.ən/","us":"us  / fɚˈbɪd. ə n /","usp":"/fɚˈbɪd.ən/"}
+{"title":"forbidden fruit","uk":"","us":""}
+{"title":"forbidding","uk":"uk  / fəˈbɪd.ɪŋ /","ukp":"/fəˈbɪd.ɪŋ/","us":"us  / fɚˈbɪd.ɪŋ /","usp":"/fɚˈbɪd.ɪŋ/"}
+{"title":"forbiddingly","uk":"uk  / fəˈbɪd.ɪŋ.li /","ukp":"/fəˈbɪd.ɪŋ.li/","us":"us  / fɚˈbɪd.ɪŋ.li /","usp":"/fɚˈbɪd.ɪŋ.li/"}
+{"title":"forbore","uk":"uk  / fɔːˈbɔː r /","ukp":"/fɔːˈbɔːr/","us":"us  / fɔːrˈbɔːr /","usp":"/fɔːrˈbɔːr/"}
+{"title":"forborne","uk":"uk  / fɔːˈbɔːn /","ukp":"/fɔːˈbɔːn/","us":"us  / fɔːrˈbɔːrn /","usp":"/fɔːrˈbɔːrn/"}
+{"title":"force a laugh/smile","uk":"","us":""}
+{"title":"force an/the issue","uk":"","us":""}
+{"title":"force","uk":"uk  / fɔːs /","ukp":"/fɔːs/","us":"us  / fɔːrs /","usp":"/fɔːrs/"}
+{"title":"force field analysis","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"force majeure","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"force multiplier","uk":"uk  / ˈfɔːs ˌmʌl.tɪ.plaɪ.ə r /","ukp":"/ˈfɔːs ˌmʌl.tɪ.plaɪ.ər/","us":"us  / ˈfɔːrs ˌmʌl.t̬ə.plaɪ.ɚ /","usp":"/ˈfɔːrs ˌmʌl.t̬ə.plaɪ.ɚ/"}
+{"title":"force someone's hand","uk":"","us":""}
+{"title":"force sb out","uk":"uk  / fɔːs /","ukp":"/fɔːs/","us":"us ","usp":""}
+{"title":"force of habit","uk":"","us":""}
+{"title":"force sth down","uk":"uk  / fɔːs /","ukp":"/fɔːs/","us":"us ","usp":""}
+{"title":"force sth out (of sth)","uk":"uk  / fɔːs /","ukp":"/fɔːs/","us":"us ","usp":""}
+{"title":"force sth up","uk":"uk  / fɔːs /","ukp":"/fɔːs/","us":"us ","usp":""}
+{"title":"force the pace","uk":"","us":""}
+{"title":"force-fed","uk":"uk  / ˈfɔːs.fiːd /","ukp":"/ˈfɔːs.fiːd/","us":"us  / ˈfɔːrs.fiːd /","usp":"/ˈfɔːrs.fiːd/"}
+{"title":"force-feed","uk":"uk  / ˈfɔːs.fiːd /","ukp":"/ˈfɔːs.fiːd/","us":"us  / ˈfɔːrs.fiːd /","usp":"/ˈfɔːrs.fiːd/"}
+{"title":"force/ram something down someone's throat","uk":"","us":""}
+{"title":"forced labour","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forced","uk":"uk  / fɔːst /","ukp":"/fɔːst/","us":"us  / fɔːrst /","usp":"/fɔːrst/"}
+{"title":"forced liquidation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"force-feeding","uk":"uk  / ˈfɔːs.fiːd /","ukp":"/ˈfɔːs.fiːd/","us":"us  / ˈfɔːrs.fiːd /","usp":"/ˈfɔːrs.fiːd/"}
+{"title":"forced saving","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forced marriage","uk":"uk  / ˌfɔːst ˈmær.ɪdʒ /","ukp":"/ˌfɔːst ˈmær.ɪdʒ/","us":"us  / ˌfɔːrst ˈmer.ɪdʒ /","usp":"/ˌfɔːrst ˈmer.ɪdʒ/"}
+{"title":"forced seller","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forced selling","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forceful","uk":"uk  / ˈfɔːs.f ə l /","ukp":"/ˈfɔːs.fəl/","us":"us  / ˈfɔːrs.f ə l /","usp":"/ˈfɔːrs.fəl/"}
+{"title":"forcefully","uk":"uk  / ˈfɔːs.f ə l.i /","ukp":"/ˈfɔːs.fəl.i/","us":"us  / ˈfɔːrs.f ə l.i /","usp":"/ˈfɔːrs.fəl.i/"}
+{"title":"forcefulness","uk":"uk  / ˈfɔːs.f ə l.nəs /","ukp":"/ˈfɔːs.fəl.nəs/","us":"us  / ˈfɔːrs.f ə l.nəs /","usp":"/ˈfɔːrs.fəl.nəs/"}
+{"title":"forcemeat","uk":"uk / ˈfɔːs.miːt /","ukp":"/ˈfɔːs.miːt/","us":"us / ˈfɔːrs.miːt /","usp":"/ˈfɔːrs.miːt/"}
+{"title":"forceps","uk":"uk  / ˈfɔː.seps /","ukp":"/ˈfɔː.seps/","us":"us  / ˈfɔːr.seps /","usp":"/ˈfɔːr.seps/"}
+{"title":"forcible","uk":"uk  / ˈfɔː.sə.b ə l /","ukp":"/ˈfɔː.sə.bəl/","us":"us  / ˈfɔːr.sə.b ə l /","usp":"/ˈfɔːr.sə.bəl/"}
+{"title":"forcibly","uk":"uk  / ˈfɔː.sə.bli /","ukp":"/ˈfɔː.sə.bli/","us":"us  / ˈfɔːr.sə.bli /","usp":"/ˈfɔːr.sə.bli/"}
+{"title":"forcing","uk":"uk  / fɔːs /","ukp":"/fɔːs/","us":"us  / fɔːrs /","usp":"/fɔːrs/"}
+{"title":"ford","uk":"uk  / fɔːd /","ukp":"/fɔːd/","us":"us  / fɔːrd /","usp":"/fɔːrd/"}
+{"title":"fordable","uk":"uk  / ˈfɔː.də.b ə l /","ukp":"/ˈfɔː.də.bəl/","us":"us  / ˈfɔːr.də.b ə l /","usp":"/ˈfɔːr.də.bəl/"}
+{"title":"forded","uk":"uk  / fɔːd /","ukp":"/fɔːd/","us":"us  / fɔːrd /","usp":"/fɔːrd/"}
+{"title":"fording","uk":"uk  / fɔːd /","ukp":"/fɔːd/","us":"us  / fɔːrd /","usp":"/fɔːrd/"}
+{"title":"fore","uk":"uk  / fɔː r /","ukp":"/fɔːr/","us":"us  / fɔːr /","usp":"/fɔːr/"}
+{"title":"forearm","uk":"uk  / ˈfɔː.rɑːm /","ukp":"/ˈfɔː.rɑːm/","us":"us  / ˈfɔːr.ɑːrm /","usp":"/ˈfɔːr.ɑːrm/"}
+{"title":"forearmed","uk":"uk  / fɔːˈrɑːmd /","ukp":"/fɔːˈrɑːmd/","us":"us  / fɔːrˈɑːrmd /","usp":"/fɔːrˈɑːrmd/"}
+{"title":"forebear","uk":"uk  / ˈfɔː.beə r /","ukp":"/ˈfɔː.beər/","us":"us  / ˈfɔːr.ber /","usp":"/ˈfɔːr.ber/"}
+{"title":"foreboding","uk":"uk  / fɔːˈbəʊ.dɪŋ /","ukp":"/fɔːˈbəʊ.dɪŋ/","us":"us  / fɔːrˈboʊ.dɪŋ /","usp":"/fɔːrˈboʊ.dɪŋ/"}
+{"title":"forecast","uk":"uk  / ˈfɔː.kɑːst /","ukp":"/ˈfɔː.kɑːst/","us":"us  / ˈfɔːr.kæst /","usp":"/ˈfɔːr.kæst/"}
+{"title":"footman","uk":"uk  / ˈfʊt.mən /","ukp":"/ˈfʊt.mən/","us":"us  / ˈfʊt.mən /","usp":"/ˈfʊt.mən/"}
+{"title":"footnote","uk":"uk  / ˈfʊt.nəʊt /","ukp":"/ˈfʊt.nəʊt/","us":"us  / ˈfʊt.noʊt /","usp":"/ˈfʊt.noʊt/"}
+{"title":"footloose","uk":"uk  / ˈfʊt.luːs /","ukp":"/ˈfʊt.luːs/","us":"us  / ˈfʊt.luːs /","usp":"/ˈfʊt.luːs/"}
+{"title":"footpath","uk":"uk  / ˈfʊt.pɑːθ /","ukp":"/ˈfʊt.pɑːθ/","us":"us  / ˈfʊt.pæθ /","usp":"/ˈfʊt.pæθ/"}
+{"title":"footplate","uk":"uk  / ˈfʊt.pleɪt /","ukp":"/ˈfʊt.pleɪt/","us":"us  / ˈfʊt.pleɪt /","usp":"/ˈfʊt.pleɪt/"}
+{"title":"footprint","uk":"uk  / ˈfʊt.prɪnt /","ukp":"/ˈfʊt.prɪnt/","us":"us  / ˈfʊt.prɪnt /","usp":"/ˈfʊt.prɪnt/"}
+{"title":"footsie","uk":"uk  / ˈfʊt.si /","ukp":"/ˈfʊt.si/","us":"us  / ˈfʊt.si /","usp":"/ˈfʊt.si/"}
+{"title":"footslogging","uk":"uk  / ˈfʊtˌslɒɡ.ɪŋ /","ukp":"/ˈfʊtˌslɒɡ.ɪŋ/","us":"us  / ˈfʊtˌslɑː.ɡɪŋ /","usp":"/ˈfʊtˌslɑː.ɡɪŋ/"}
+{"title":"footsore","uk":"uk  / ˈfʊt.sɔː r /","ukp":"/ˈfʊt.sɔːr/","us":"us  / ˈfʊt.sɔːr /","usp":"/ˈfʊt.sɔːr/"}
+{"title":"footstep","uk":"uk  / ˈfʊt.step /","ukp":"/ˈfʊt.step/","us":"us  / ˈfʊt.step /","usp":"/ˈfʊt.step/"}
+{"title":"footsteps","uk":"","us":""}
+{"title":"footway","uk":"uk  / ˈfʊt.weɪ /","ukp":"/ˈfʊt.weɪ/","us":"us  / ˈfʊt.weɪ /","usp":"/ˈfʊt.weɪ/"}
+{"title":"footstool","uk":"uk  / ˈfʊt.stuːl /","ukp":"/ˈfʊt.stuːl/","us":"us  / ˈfʊt.stuːl /","usp":"/ˈfʊt.stuːl/"}
+{"title":"footwear","uk":"uk  / ˈfʊt.weə r /","ukp":"/ˈfʊt.weər/","us":"us  / ˈfʊt.wer /","usp":"/ˈfʊt.wer/"}
+{"title":"footy","uk":"uk  / ˈfʊt.i /","ukp":"/ˈfʊt.i/","us":"us  / ˈfʊt̬.i /","usp":"/ˈfʊt̬.i/"}
+{"title":"footwork","uk":"uk  / ˈfʊt.wɜːk /","ukp":"/ˈfʊt.wɜːk/","us":"us  / ˈfʊt.wɝːk /","usp":"/ˈfʊt.wɝːk/"}
+{"title":"fop","uk":"uk  / fɒp /","ukp":"/fɒp/","us":"us  / fɑːp /","usp":"/fɑːp/"}
+{"title":"foppish","uk":"uk  / ˈfɒp.ɪʃ /","ukp":"/ˈfɒp.ɪʃ/","us":"us  / ˈfɑː.pɪʃ /","usp":"/ˈfɑː.pɪʃ/"}
+{"title":"for (good) luck","uk":"","us":""}
+{"title":"for a laugh","uk":"","us":""}
+{"title":"for a price","uk":"","us":""}
+{"title":"for a man/woman/person of his/her years","uk":"","us":""}
+{"title":"for","uk":"uk  strong / fɔː r /","ukp":"strong /fɔːr/","us":"us  strong / fɔːr /","usp":"strong /fɔːr/"}
+{"title":"for all I care","uk":"","us":""}
+{"title":"for a song","uk":"","us":""}
+{"title":"for all intents and purposes","uk":"","us":""}
+{"title":"for all someone cares/knows","uk":"","us":""}
+{"title":"for all the difference something makes","uk":"","us":""}
+{"title":"for all","uk":"","us":""}
+{"title":"for all the world","uk":"","us":""}
+{"title":"for all you are worth","uk":"","us":""}
+{"title":"for cheap","uk":"","us":""}
+{"title":"for anything (in the world)","uk":"","us":""}
+{"title":"for better or (for) worse","uk":"","us":""}
+{"title":"for company","uk":"","us":""}
+{"title":"for dear life","uk":"","us":""}
+{"title":"for crying out loud!","uk":"","us":""}
+{"title":"for effect","uk":"","us":""}
+{"title":"for fear that/of something","uk":"","us":""}
+{"title":"for example","uk":"","us":""}
+{"title":"for fun","uk":"","us":""}
+{"title":"for future reference","uk":"","us":""}
+{"title":"for goodness’ sake","uk":"","us":""}
+{"title":"for good","uk":"","us":""}
+{"title":"for good measure","uk":"","us":""}
+{"title":"for hours, days, etc. on end","uk":"","us":""}
+{"title":"for instance","uk":"","us":""}
+{"title":"for its own sake","uk":"","us":""}
+{"title":"for it","uk":"","us":""}
+{"title":"foreign to","uk":"","us":""}
+{"title":"foreign trade zone","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign trade","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign-owned","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreigner","uk":"uk  / ˈfɒr.ə.nə r /","ukp":"/ˈfɒr.ə.nər/","us":"us  / ˈfɔːr.ə.nɚ /","usp":"/ˈfɔːr.ə.nɚ/"}
+{"title":"foreknowledge","uk":"uk  / fɔːˈnɒl.ɪdʒ /","ukp":"/fɔːˈnɒl.ɪdʒ/","us":"us  / fɔːrˈnɑː.lɪdʒ /","usp":"/fɔːrˈnɑː.lɪdʒ/"}
+{"title":"foreign-returned","uk":"uk  / ˌfɒr.ən.rɪˈtɜːnd /","ukp":"/ˌfɒr.ən.rɪˈtɜːnd/","us":"us  / ˌfɔːr.ən.rɪˈtɝːnd /","usp":"/ˌfɔːr.ən.rɪˈtɝːnd/"}
+{"title":"foreleg","uk":"uk  / ˈfɔː.leɡ /","ukp":"/ˈfɔː.leɡ/","us":"us  / ˈfɔːr.leɡ /","usp":"/ˈfɔːr.leɡ/"}
+{"title":"forelock","uk":"uk  / ˈfɔː.lɒk /","ukp":"/ˈfɔː.lɒk/","us":"us  / ˈfɔːr.lɑːk /","usp":"/ˈfɔːr.lɑːk/"}
+{"title":"foremast","uk":"uk  / ˈfɔː.mɑːst /","ukp":"/ˈfɔː.mɑːst/","us":"us  / ˈfɔːr.mæst /","usp":"/ˈfɔːr.mæst/"}
+{"title":"foreman","uk":"uk  / ˈfɔː.mən /","ukp":"/ˈfɔː.mən/","us":"us  / ˈfɔːr.mən /","usp":"/ˈfɔːr.mən/"}
+{"title":"foremother","uk":"uk  / ˈfɔːˌmʌð.ə r /","ukp":"/ˈfɔːˌmʌð.ər/","us":"us  / ˈfɔːrˌmʌð.ɚ /","usp":"/ˈfɔːrˌmʌð.ɚ/"}
+{"title":"foremost","uk":"uk  / ˈfɔː.məʊst /","ukp":"/ˈfɔː.məʊst/","us":"us  / ˈfɔːr.moʊst /","usp":"/ˈfɔːr.moʊst/"}
+{"title":"forename","uk":"uk  / ˈfɔː.neɪm /","ukp":"/ˈfɔː.neɪm/","us":"us  / ˈfɔːr.neɪm /","usp":"/ˈfɔːr.neɪm/"}
+{"title":"forensic accountant","uk":"uk  / fəˌren.zɪk əˈkaʊn.t ə nt /","ukp":"/fəˌren.zɪk əˈkaʊn.tənt/","us":"us  / fəˌren.zɪk əˈkaʊn.t ə nt /","usp":"/fəˌren.zɪk əˈkaʊn.tənt/"}
+{"title":"forensic","uk":"uk  / fəˈren.zɪk /","ukp":"/fəˈren.zɪk/","us":"us ","usp":""}
+{"title":"forensic accounting","uk":"uk  / fəˌren.zɪk əˈkaʊn.tɪŋ /","ukp":"/fəˌren.zɪk əˈkaʊn.tɪŋ/","us":"us  / fəˌren.zɪk əˈkaʊn.t̬ɪŋ /","usp":"/fəˌren.zɪk əˈkaʊn.t̬ɪŋ/"}
+{"title":"forensic audit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forensic auditor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forensically","uk":"uk  / fəˈrenz.ɪ.k ə l.i /","ukp":"/fəˈrenz.ɪ.kəl.i/","us":"us  / fəˈrenz.ɪ.k ə l.i /","usp":"/fəˈrenz.ɪ.kəl.i/"}
+{"title":"foreplay","uk":"uk  / ˈfɔː.pleɪ /","ukp":"/ˈfɔː.pleɪ/","us":"us  / ˈfɔːr.pleɪ /","usp":"/ˈfɔːr.pleɪ/"}
+{"title":"forensics","uk":"uk  / fəˈren.zɪks /","ukp":"/fəˈren.zɪks/","us":"us  / fəˈren.zɪks /","usp":"/fəˈren.zɪks/"}
+{"title":"forerunner","uk":"uk  / ˈfɔːˌrʌn.ə r /","ukp":"/ˈfɔːˌrʌn.ər/","us":"us  / ˈfɔːrˌrʌn.ɚ /","usp":"/ˈfɔːrˌrʌn.ɚ/"}
+{"title":"foresaw","uk":"","us":""}
+{"title":"foresee","uk":"uk  / fəˈsiː /","ukp":"/fəˈsiː/","us":"us  / fɚˈsiː /","usp":"/fɚˈsiː/"}
+{"title":"foreseen","uk":"","us":""}
+{"title":"foreseeable","uk":"uk  / fɔːˈsiː.ə.b ə l /","ukp":"/fɔːˈsiː.ə.bəl/","us":"us  / fɔːrˈsiː.ə.b ə l /","usp":"/fɔːrˈsiː.ə.bəl/"}
+{"title":"foreshadowed","uk":"uk  / fɔːˈʃæd.əʊ /","ukp":"/fɔːˈʃæd.əʊ/","us":"us  / fɔːrˈʃæd.oʊ /","usp":"/fɔːrˈʃæd.oʊ/"}
+{"title":"foreshadow","uk":"uk  / fɔːˈʃæd.əʊ /","ukp":"/fɔːˈʃæd.əʊ/","us":"us  / fɔːrˈʃæd.oʊ /","usp":"/fɔːrˈʃæd.oʊ/"}
+{"title":"foreshadowing","uk":"","us":"us / fɔrˈʃæd·oʊ·ɪŋ , foʊr- /","usp":"/fɔrˈʃæd·oʊ·ɪŋ, foʊr-/"}
+{"title":"foreshorten","uk":"uk  / fɔːˈʃɔː.t ə n /","ukp":"/fɔːˈʃɔː.tən/","us":"us  / fɔːrˈʃɔːr.t̬ ə n /","usp":"/fɔːrˈʃɔːr.t̬ən/"}
+{"title":"foreshortened","uk":"uk  / fɔːˈʃɔː.t ə nd /","ukp":"/fɔːˈʃɔː.tənd/","us":"us  / fɔːrˈʃɔːr.t̬ ə nd /","usp":"/fɔːrˈʃɔːr.t̬ənd/"}
+{"title":"foreshortening","uk":"uk  / fɔːˈʃɔː.t ə n /","ukp":"/fɔːˈʃɔː.tən/","us":"us  / fɔːrˈʃɔːr.t̬ ə n /","usp":"/fɔːrˈʃɔːr.t̬ən/"}
+{"title":"foreskin","uk":"uk  / ˈfɔː.skɪn /","ukp":"/ˈfɔː.skɪn/","us":"us  / ˈfɔːr.skɪn /","usp":"/ˈfɔːr.skɪn/"}
+{"title":"foresight","uk":"uk  / ˈfɔː.saɪt /","ukp":"/ˈfɔː.saɪt/","us":"us  / ˈfɔːr.saɪt /","usp":"/ˈfɔːr.saɪt/"}
+{"title":"forest fire","uk":"uk  / ˈfɒr.ɪst ˌfaɪə r /","ukp":"/ˈfɒr.ɪst ˌfaɪər/","us":"us  / ˈfɔːr.ɪst ˌfaɪr /","usp":"/ˈfɔːr.ɪst ˌfaɪr/"}
+{"title":"forest","uk":"uk  / ˈfɒr.ɪst /","ukp":"/ˈfɒr.ɪst/","us":"us  / ˈfɔːr.ɪst /","usp":"/ˈfɔːr.ɪst/"}
+{"title":"forest ranger","uk":"uk  / ˌfɒr.ɪst ˈreɪn.dʒə r /","ukp":"/ˌfɒr.ɪst ˈreɪn.dʒər/","us":"us  / ˌfɔːr.ɪst ˈreɪn.dʒɚ /","usp":"/ˌfɔːr.ɪst ˈreɪn.dʒɚ/"}
+{"title":"Forest school","uk":"uk / ˈfɒr.ɪst ˌskuːl /","ukp":"/ˈfɒr.ɪst ˌskuːl/","us":"us / ˈfɔːr.ɪst ˌskuːl /","usp":"/ˈfɔːr.ɪst ˌskuːl/"}
+{"title":"forestall","uk":"uk  / fɔːˈstɔːl /","ukp":"/fɔːˈstɔːl/","us":"us  / fɔːrˈstɑːl /","usp":"/fɔːrˈstɑːl/"}
+{"title":"forestalled","uk":"uk  / fɔːˈstɔːl /","ukp":"/fɔːˈstɔːl/","us":"us  / fɔːrˈstɑːl /","usp":"/fɔːrˈstɑːl/"}
+{"title":"forestalling","uk":"uk  / fɔːˈstɔːl /","ukp":"/fɔːˈstɔːl/","us":"us  / fɔːrˈstɑːl /","usp":"/fɔːrˈstɑːl/"}
+{"title":"forecast-beating","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forested","uk":"uk  / ˈfɒr.ɪ.stɪd /","ukp":"/ˈfɒr.ɪ.stɪd/","us":"us  / ˈfɔːr.ə.stɪd /","usp":"/ˈfɔːr.ə.stɪd/"}
+{"title":"forester","uk":"uk  / ˈfɒr.ɪ.stə r /","ukp":"/ˈfɒr.ɪ.stər/","us":"us  / ˈfɔːr.ə.stɚ /","usp":"/ˈfɔːr.ə.stɚ/"}
+{"title":"forecaster","uk":"uk  / ˈfɔː.kɑː.stə r /","ukp":"/ˈfɔː.kɑː.stər/","us":"us  / ˈfɔːr.kæs.tɚ /","usp":"/ˈfɔːr.kæs.tɚ/"}
+{"title":"forecasting","uk":"uk  / ˈfɔːkɑːstɪŋ /","ukp":"/ˈfɔːkɑːstɪŋ/","us":"us  / ˈfɔrkæstɪŋ /","usp":"/ˈfɔrkæstɪŋ/"}
+{"title":"foreclose","uk":"uk  / fɔːˈkləʊz /","ukp":"/fɔːˈkləʊz/","us":"us  / fɔːrˈkloʊz /","usp":"/fɔːrˈkloʊz/"}
+{"title":"foreclosed","uk":"uk  / fɔːˈkləʊz /","ukp":"/fɔːˈkləʊz/","us":"us  / fɔːrˈkloʊz /","usp":"/fɔːrˈkloʊz/"}
+{"title":"foreclosing","uk":"uk  / fɔːˈkləʊz /","ukp":"/fɔːˈkləʊz/","us":"us  / fɔːrˈkloʊz /","usp":"/fɔːrˈkloʊz/"}
+{"title":"foreclosure","uk":"uk  / fɔːˈkləʊ.ʒə r /","ukp":"/fɔːˈkləʊ.ʒər/","us":"us  / fɔːrˈkloʊ.ʒɚ /","usp":"/fɔːrˈkloʊ.ʒɚ/"}
+{"title":"forecourt","uk":"uk  / ˈfɔː.kɔːt /","ukp":"/ˈfɔː.kɔːt/","us":"us  / ˈfɔːr.kɔːrt /","usp":"/ˈfɔːr.kɔːrt/"}
+{"title":"foredoomed","uk":"uk  / fɔːˈduːmd /","ukp":"/fɔːˈduːmd/","us":"us  / fɔːrˈduːmd /","usp":"/fɔːrˈduːmd/"}
+{"title":"forefather","uk":"uk  / ˈfɔːˌfɑː.ðə r /","ukp":"/ˈfɔːˌfɑː.ðər/","us":"us  / ˈfɔːrˌfɑː.ðɚ /","usp":"/ˈfɔːrˌfɑː.ðɚ/"}
+{"title":"forefeet","uk":"","us":""}
+{"title":"forefathers","uk":"","us":"us  / ˈfɔrˌfɑð·ərz , ˈfoʊr- /","usp":"/ˈfɔrˌfɑð·ərz, ˈfoʊr-/"}
+{"title":"forefinger","uk":"uk  / ˈfɔːˌfɪŋ.ɡə r /","ukp":"/ˈfɔːˌfɪŋ.ɡər/","us":"us  / ˈfɔːrˌfɪŋ.ɡɚ /","usp":"/ˈfɔːrˌfɪŋ.ɡɚ/"}
+{"title":"forego","uk":"uk  / fɔːˈɡəʊ /","ukp":"/fɔːˈɡəʊ/","us":"us  / fɔːrˈɡoʊ /","usp":"/fɔːrˈɡoʊ/"}
+{"title":"forefoot","uk":"uk  / ˈfɔː.fʊt /","ukp":"/ˈfɔː.fʊt/","us":"us  / ˈfɔːr.fʊt /","usp":"/ˈfɔːr.fʊt/"}
+{"title":"foregoing","uk":"uk  / ˈfɔː.ɡəʊ.ɪŋ /","ukp":"/ˈfɔː.ɡəʊ.ɪŋ/","us":"us  / ˈfɔːr.ɡoʊ.ɪŋ /","usp":"/ˈfɔːr.ɡoʊ.ɪŋ/"}
+{"title":"foregone conclusion","uk":"uk  / ˌfɔː.ɡɒn kənˈkluːʒ ə n /","ukp":"/ˌfɔː.ɡɒn kənˈkluːʒən/","us":"us  / ˌfɔːr.ɡɑːn kənˈkluːʒ ə n /","usp":"/ˌfɔːr.ɡɑːn kənˈkluːʒən/"}
+{"title":"foregrounded","uk":"uk  / ˈfɔː.ɡraʊnd /","ukp":"/ˈfɔː.ɡraʊnd/","us":"us  / ˈfɔːr.ɡraʊnd /","usp":"/ˈfɔːr.ɡraʊnd/"}
+{"title":"foreground","uk":"uk  / ˈfɔː.ɡraʊnd /","ukp":"/ˈfɔː.ɡraʊnd/","us":"us  / ˈfɔːr.ɡraʊnd /","usp":"/ˈfɔːr.ɡraʊnd/"}
+{"title":"foregrounding","uk":"uk  / ˈfɔː.ɡraʊnd /","ukp":"/ˈfɔː.ɡraʊnd/","us":"us  / ˈfɔːr.ɡraʊnd /","usp":"/ˈfɔːr.ɡraʊnd/"}
+{"title":"forehand","uk":"uk  / ˈfɔː.hænd /","ukp":"/ˈfɔː.hænd/","us":"us  / ˈfɔːr.hænd /","usp":"/ˈfɔːr.hænd/"}
+{"title":"forehead","uk":"uk  / ˈfɒr.ɪd /","ukp":"/ˈfɒr.ɪd/","us":"us  / ˈfɑː.rɪd /","usp":"/ˈfɑː.rɪd/"}
+{"title":"foreign","uk":"uk  / ˈfɒr.ən /","ukp":"/ˈfɒr.ən/","us":"us  / ˈfɔːr.ən /","usp":"/ˈfɔːr.ən/"}
+{"title":"foreign affairs","uk":"uk  / ˌfɒr.ən əˈfeəz /","ukp":"/ˌfɒr.ən əˈfeəz/","us":"us  / ˌfɔːr.ən əˈferz /","usp":"/ˌfɔːr.ən əˈferz/"}
+{"title":"foreign aid","uk":"uk  / ˌfɒr.ən ˈeɪd /","ukp":"/ˌfɒr.ən ˈeɪd/","us":"us  / ˌfɔːr.ən ˈeɪd /","usp":"/ˌfɔːr.ən ˈeɪd/"}
+{"title":"Foreign and Commonwealth Office","uk":"uk  / ˌfɒr.ən ən ˈkɒm.ən.welθ ˌɒf.ɪs /","ukp":"/ˌfɒr.ən ən ˈkɒm.ən.welθ ˌɒf.ɪs/","us":"us  / ˌfɔːr.ən ən ˈkɑː.mən.welθ ˌɑː.fɪs /","usp":"/ˌfɔːr.ən ən ˈkɑː.mən.welθ ˌɑː.fɪs/"}
+{"title":"foreign bond","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign currency account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign currency","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign currency reserves","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign currency risk","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign direct investment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign debt","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign exchange broker","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign exchange dealer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign exchange market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign exchange trader","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign exchange","uk":"uk  / ˌfɒr.ən ɪksˈtʃeɪndʒ /","ukp":"/ˌfɒr.ən ɪksˈtʃeɪndʒ/","us":"us  / ˌfɔːr.ən ɪksˈtʃeɪndʒ /","usp":"/ˌfɔːr.ən ɪksˈtʃeɪndʒ/"}
+{"title":"foreign exchange reserves","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign investment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign liquor","uk":"uk  / ˌfɒr.ən ˈlɪk.ə r /","ukp":"/ˌfɒr.ən ˈlɪk.ər/","us":"us  / ˌfɔːr.ən ˈlɪk.ɚ /","usp":"/ˌfɔːr.ən ˈlɪk.ɚ/"}
+{"title":"foreign loan","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foreign policy","uk":"uk  / ˌfɒr.ən ˈpɒl.ə.si /","ukp":"/ˌfɒr.ən ˈpɒl.ə.si/","us":"us  / ˌfɔːr.ən ˈpɑː.lə.si /","usp":"/ˌfɔːr.ən ˈpɑː.lə.si/"}
+{"title":"foreign ownership","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Foreign Secretary","uk":"uk  / ˌfɒr.ən ˈsek.rə.t ə r.i /","ukp":"/ˌfɒr.ən ˈsek.rə.tər.i/","us":"us  / ˌfɔːr.ən ˈsek.rə.ter.i /","usp":"/ˌfɔːr.ən ˈsek.rə.ter.i/"}
+{"title":"foreign reserves","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forestry","uk":"uk  / ˈfɒr.ɪ.stri /","ukp":"/ˈfɒr.ɪ.stri/","us":"us  / ˈfɔːr.ə.stri /","usp":"/ˈfɔːr.ə.stri/"}
+{"title":"foretell","uk":"uk  / fɔːˈtel /","ukp":"/fɔːˈtel/","us":"us  / fɔːrˈtel /","usp":"/fɔːrˈtel/"}
+{"title":"foretaste","uk":"uk  / ˈfɔː.teɪst /","ukp":"/ˈfɔː.teɪst/","us":"us  / ˈfɔːr.teɪst /","usp":"/ˈfɔːr.teɪst/"}
+{"title":"foretold","uk":"","us":""}
+{"title":"forethought","uk":"uk  / ˈfɔː.θɔːt /","ukp":"/ˈfɔː.θɔːt/","us":"us  / ˈfɔːr.θɑːt /","usp":"/ˈfɔːr.θɑːt/"}
+{"title":"forever and a day","uk":"","us":""}
+{"title":"forewarn","uk":"uk  / fɔːˈwɔːn /","ukp":"/fɔːˈwɔːn/","us":"us  / fɔːrˈwɔːrn /","usp":"/fɔːrˈwɔːrn/"}
+{"title":"forever","uk":"uk  / fəˈre.və r /","ukp":"/fəˈre.vər/","us":"us  / fɔːˈrev.ɚ /","usp":"/fɔːˈrev.ɚ/"}
+{"title":"forewarned","uk":"uk  / fɔːˈwɔːn /","ukp":"/fɔːˈwɔːn/","us":"us  / fɔːrˈwɔːrn /","usp":"/fɔːrˈwɔːrn/"}
+{"title":"forewarned is forearmed","uk":"","us":""}
+{"title":"forewarning","uk":"uk  / fɔːˈwɔːn /","ukp":"/fɔːˈwɔːn/","us":"us  / fɔːrˈwɔːrn /","usp":"/fɔːrˈwɔːrn/"}
+{"title":"forewoman","uk":"uk  / ˈfɔːˌwʊm.ən /","ukp":"/ˈfɔːˌwʊm.ən/","us":"us  / ˈfɔːrˌwʊm.ən /","usp":"/ˈfɔːrˌwʊm.ən/"}
+{"title":"foreword","uk":"uk  / ˈfɔː.wɜːd /","ukp":"/ˈfɔː.wɜːd/","us":"us  / ˈfɔːr.wɝːd /","usp":"/ˈfɔːr.wɝːd/"}
+{"title":"forfaiting","uk":"uk  / ˈfɔːfɪtɪŋ /","ukp":"/ˈfɔːfɪtɪŋ/","us":"us ","usp":""}
+{"title":"forex","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forfeitable","uk":"uk  / ˈfɔː.fɪ.tə.b ə l /","ukp":"/ˈfɔː.fɪ.tə.bəl/","us":"us / ˈfɔːr.fɪ.t̬ə.b ə l /","usp":"/ˈfɔːr.fɪ.t̬ə.bəl/"}
+{"title":"forfeiting","uk":"uk  / ˈfɔː.fɪt /","ukp":"/ˈfɔː.fɪt/","us":"us  / ˈfɔːr.fɪt /","usp":"/ˈfɔːr.fɪt/"}
+{"title":"forfeited","uk":"uk  / ˈfɔː.fɪt /","ukp":"/ˈfɔː.fɪt/","us":"us  / ˈfɔːr.fɪt /","usp":"/ˈfɔːr.fɪt/"}
+{"title":"forfeit","uk":"uk  / ˈfɔː.fɪt /","ukp":"/ˈfɔː.fɪt/","us":"us  / ˈfɔːr.fɪt /","usp":"/ˈfɔːr.fɪt/"}
+{"title":"forfeiture","uk":"uk  / ˈfɔː.fɪ.tʃə r /","ukp":"/ˈfɔː.fɪ.tʃər/","us":"us  / ˈfɔːr.fə.tʃɚ /","usp":"/ˈfɔːr.fə.tʃɚ/"}
+{"title":"forgave","uk":"uk  / fəˈɡeɪv /","ukp":"/fəˈɡeɪv/","us":"us  / fɚˈɡeɪv /","usp":"/fɚˈɡeɪv/"}
+{"title":"forge ahead","uk":"uk  / fɔːdʒ /","ukp":"/fɔːdʒ/","us":"us  / fɔːrdʒ /","usp":"/fɔːrdʒ/"}
+{"title":"forge","uk":"uk  / fɔːdʒ /","ukp":"/fɔːdʒ/","us":"us  / fɔːrdʒ /","usp":"/fɔːrdʒ/"}
+{"title":"forged","uk":"uk  / fɔːdʒ /","ukp":"/fɔːdʒ/","us":"us  / fɔːrdʒ /","usp":"/fɔːrdʒ/"}
+{"title":"forgery","uk":"uk  / ˈfɔː.dʒ ə r.i /","ukp":"/ˈfɔː.dʒər.i/","us":"us  / ˈfɔːr.dʒɚ.i /","usp":"/ˈfɔːr.dʒɚ.i/"}
+{"title":"forger","uk":"uk  / ˈfɔː.dʒə r /","ukp":"/ˈfɔː.dʒər/","us":"us  / ˈfɔːr.dʒɚ /","usp":"/ˈfɔːr.dʒɚ/"}
+{"title":"forget","uk":"uk  / fəˈɡet /","ukp":"/fəˈɡet/","us":"us  / fɚˈɡet /","usp":"/fɚˈɡet/"}
+{"title":"forget (about) it","uk":"","us":""}
+{"title":"forget it","uk":"","us":""}
+{"title":"forgetful","uk":"uk  / fəˈɡet.f ə l /","ukp":"/fəˈɡet.fəl/","us":"us  / fɚˈɡet.f ə l /","usp":"/fɚˈɡet.fəl/"}
+{"title":"forget-me-not","uk":"uk  / fəˈɡet.mi.nɒt /","ukp":"/fəˈɡet.mi.nɒt/","us":"us  / fɚˈɡet.mi.nɑːt /","usp":"/fɚˈɡet.mi.nɑːt/"}
+{"title":"forgetfully","uk":"uk  / fəˈɡet.f ə l.i /","ukp":"/fəˈɡet.fəl.i/","us":"us  / fɚˈɡet.f ə l.i /","usp":"/fɚˈɡet.fəl.i/"}
+{"title":"forgetfulness","uk":"uk  / fəˈɡet.f ə l.nəs /","ukp":"/fəˈɡet.fəl.nəs/","us":"us  / fɚˈɡet.f ə l.nəs /","usp":"/fɚˈɡet.fəl.nəs/"}
+{"title":"forgettable","uk":"uk  / fəˈɡet.ə.b ə l /","ukp":"/fəˈɡet.ə.bəl/","us":"us  / fɚˈɡet̬.ə.b ə l /","usp":"/fɚˈɡet̬.ə.bəl/"}
+{"title":"forgivable","uk":"uk  / fəˈɡɪv.ə.b ə l /","ukp":"/fəˈɡɪv.ə.bəl/","us":"us  / fɚˈɡɪv.ə.b ə l /","usp":"/fɚˈɡɪv.ə.bəl/"}
+{"title":"forging","uk":"uk  / fɔːdʒ /","ukp":"/fɔːdʒ/","us":"us  / fɔːrdʒ /","usp":"/fɔːrdʒ/"}
+{"title":"forgive","uk":"uk  / fəˈɡɪv /","ukp":"/fəˈɡɪv/","us":"us  / fɚˈɡɪv /","usp":"/fɚˈɡɪv/"}
+{"title":"forgive a loan/debt","uk":"","us":""}
+{"title":"forgive and forget","uk":"","us":""}
+{"title":"forgive me","uk":"","us":""}
+{"title":"forgiving","uk":"uk  / fəˈɡɪv.ɪŋ /","ukp":"/fəˈɡɪv.ɪŋ/","us":"us  / fɚˈɡɪv.ɪŋ /","usp":"/fɚˈɡɪv.ɪŋ/"}
+{"title":"forgiveness","uk":"uk  / fəˈɡɪv.nəs /","ukp":"/fəˈɡɪv.nəs/","us":"us  / fɚˈɡɪv.nəs /","usp":"/fɚˈɡɪv.nəs/"}
+{"title":"forgo","uk":"uk  / fɔːˈɡəʊ /","ukp":"/fɔːˈɡəʊ/","us":"us  / fɔːrˈɡoʊ /","usp":"/fɔːrˈɡoʊ/"}
+{"title":"fork out sth","uk":"uk  / fɔːk /","ukp":"/fɔːk/","us":"us  / fɔːrk /","usp":"/fɔːrk/"}
+{"title":"fork over something","uk":"","us":"us / fɔrk /","usp":"/fɔrk/"}
+{"title":"fork","uk":"uk  / fɔːk /","ukp":"/fɔːk/","us":"us  / fɔːrk /","usp":"/fɔːrk/"}
+{"title":"fork-tender","uk":"uk / ˌfɔːkˈten.də r /","ukp":"/ˌfɔːkˈten.dər/","us":"us / ˌfɔːrkˈten.dɚ /","usp":"/ˌfɔːrkˈten.dɚ/"}
+{"title":"fork over/up something","uk":"uk  / fɔːk /","ukp":"/fɔːk/","us":"us  / fɔːrk /","usp":"/fɔːrk/"}
+{"title":"forked","uk":"uk  / fɔːkt /","ukp":"/fɔːkt/","us":"us  / fɔːrkt /","usp":"/fɔːrkt/"}
+{"title":"forked tongue","uk":"uk  / ˌfɔːkt ˈtʌŋ /","ukp":"/ˌfɔːkt ˈtʌŋ/","us":"us  / ˌfɔːrkt ˈtʌŋ /","usp":"/ˌfɔːrkt ˈtʌŋ/"}
+{"title":"forkful","uk":"uk  / ˈfɔːk.fʊl /","ukp":"/ˈfɔːk.fʊl/","us":"us  / ˈfɔːrk.fʊl /","usp":"/ˈfɔːrk.fʊl/"}
+{"title":"forking","uk":"uk  / fɔːk /","ukp":"/fɔːk/","us":"us  / fɔːrk /","usp":"/fɔːrk/"}
+{"title":"forklift","uk":"uk  / ˈfɔːklɪft /","ukp":"/ˈfɔːklɪft/","us":"us  / ˈfɔrkˌlift /","usp":"/ˈfɔrkˌlift/"}
+{"title":"forklift truck","uk":"uk  / ˌfɔːk.lɪft ˈtrʌk /","ukp":"/ˌfɔːk.lɪft ˈtrʌk/","us":"us  / ˌfɔːrk.lɪft ˈtrʌk /","usp":"/ˌfɔːrk.lɪft ˈtrʌk/"}
+{"title":"forlornly","uk":"uk  / fəˈlɔːn.li /","ukp":"/fəˈlɔːn.li/","us":"us  / fɚˈlɔːrn.li /","usp":"/fɚˈlɔːrn.li/"}
+{"title":"forlorn","uk":"uk  / fəˈlɔːn /","ukp":"/fəˈlɔːn/","us":"us  / fɚˈlɔːrn /","usp":"/fɚˈlɔːrn/"}
+{"title":"form","uk":"uk  / fɔːm /","ukp":"/fɔːm/","us":"us  / fɔːrm /","usp":"/fɔːrm/"}
+{"title":"form letter","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"form of address","uk":"uk  / ˌfɔːm əv əˈdres /","ukp":"/ˌfɔːm əv əˈdres/","us":"us  / ˌfɔːrm əv ˈæd.res /","usp":"/ˌfɔːrm əv ˈæd.res/"}
+{"title":"form room","uk":"uk  / ˈfɔːm ˌruːm /","ukp":"/ˈfɔːm ˌruːm/","us":"us  / ˈfɔːrm ˌruːm /","usp":"/ˈfɔːrm ˌruːm/"}
+{"title":"form-fitting","uk":"uk  / ˈfɔːmˌfɪt.ɪŋ /","ukp":"/ˈfɔːmˌfɪt.ɪŋ/","us":"us  / ˈfɔːrmˌfɪt̬.ɪŋ /","usp":"/ˈfɔːrmˌfɪt̬.ɪŋ/"}
+{"title":"formal","uk":"uk  / ˈfɔː.məl /","ukp":"/ˈfɔː.məl/","us":"us  / ˈfɔːr.məl /","usp":"/ˈfɔːr.məl/"}
+{"title":"formal contract","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"formaldehyde","uk":"uk  / fɔːˈmæl.də.haɪd /","ukp":"/fɔːˈmæl.də.haɪd/","us":"us  / fɔːrˈmæl.də.haɪd /","usp":"/fɔːrˈmæl.də.haɪd/"}
+{"title":"formalism","uk":"uk  / ˈfɔː.m ə l.ɪ.z ə m /","ukp":"/ˈfɔː.məl.ɪ.zəm/","us":"us  / ˈfɔːr.m ə l.ɪ.z ə m /","usp":"/ˈfɔːr.məl.ɪ.zəm/"}
+{"title":"formalities","uk":"","us":""}
+{"title":"formality","uk":"uk  / fɔːˈmæl.ə.ti /","ukp":"/fɔːˈmæl.ə.ti/","us":"us  / fɔːˈmæl.ə.t̬i /","usp":"/fɔːˈmæl.ə.t̬i/"}
+{"title":"formalize","uk":"uk  / ˈfɔː.mə.laɪz /","ukp":"/ˈfɔː.mə.laɪz/","us":"us  / ˈfɔːr.mə.laɪz /","usp":"/ˈfɔːr.mə.laɪz/"}
+{"title":"formalized","uk":"uk  / ˈfɔː.mə.laɪz /","ukp":"/ˈfɔː.mə.laɪz/","us":"us  / ˈfɔːr.mə.laɪz /","usp":"/ˈfɔːr.mə.laɪz/"}
+{"title":"formalizing","uk":"uk  / ˈfɔː.mə.laɪz /","ukp":"/ˈfɔː.mə.laɪz/","us":"us  / ˈfɔːr.mə.laɪz /","usp":"/ˈfɔːr.mə.laɪz/"}
+{"title":"formally","uk":"uk  / ˈfɔː.mə.li /","ukp":"/ˈfɔː.mə.li/","us":"us  / ˈfɔːr.mə.li /","usp":"/ˈfɔːr.mə.li/"}
+{"title":"format","uk":"uk  / ˈfɔː.mæt /","ukp":"/ˈfɔː.mæt/","us":"us  / ˈfɔːr.mæt /","usp":"/ˈfɔːr.mæt/"}
+{"title":"formative","uk":"uk  / ˈfɔː.mə.tɪv /","ukp":"/ˈfɔː.mə.tɪv/","us":"us  / ˈfɔːr.mə.t̬ɪv /","usp":"/ˈfɔːr.mə.t̬ɪv/"}
+{"title":"formation","uk":"uk  / fɔːˈmeɪ.ʃ ə n /","ukp":"/fɔːˈmeɪ.ʃən/","us":"us  / fɔːrˈmeɪ.ʃ ə n /","usp":"/fɔːrˈmeɪ.ʃən/"}
+{"title":"formatted","uk":"","us":""}
+{"title":"formatting","uk":"uk  / ˈfɔːmætɪŋ /","ukp":"/ˈfɔːmætɪŋ/","us":"us ","usp":""}
+{"title":"formed","uk":"uk  / fɔːm /","ukp":"/fɔːm/","us":"us  / fɔːrm /","usp":"/fɔːrm/"}
+{"title":"former","uk":"uk  / ˈfɔː.mə r /","ukp":"/ˈfɔː.mər/","us":"us  / ˈfɔːr.mɚ /","usp":"/ˈfɔːr.mɚ/"}
+{"title":"formerly","uk":"uk  / ˈfɔː.mə.li /","ukp":"/ˈfɔː.mə.li/","us":"us  / ˈfɔːr.mɚ.li /","usp":"/ˈfɔːr.mɚ.li/"}
+{"title":"formic acid","uk":"uk  / ˌfɔː.mɪk ˈæs.ɪd /","ukp":"/ˌfɔː.mɪk ˈæs.ɪd/","us":"us  / ˌfɔːr.mɪk ˈæs.ɪd /","usp":"/ˌfɔːr.mɪk ˈæs.ɪd/"}
+{"title":"Formica","uk":"uk  / fɔːˈmaɪ.kə /","ukp":"/fɔːˈmaɪ.kə/","us":"us  / fɔːrˈmaɪ.kə /","usp":"/fɔːrˈmaɪ.kə/"}
+{"title":"formidable","uk":"uk  / fɔːˈmɪd.ə.b ə l /","ukp":"/fɔːˈmɪd.ə.bəl/","us":"us  / fɔːrˈmɪd.ə.b ə l /","usp":"/fɔːrˈmɪd.ə.bəl/"}
+{"title":"forming","uk":"uk  / fɔːm /","ukp":"/fɔːm/","us":"us  / fɔːrm /","usp":"/fɔːrm/"}
+{"title":"formidably","uk":"uk  / fɔːˈmɪd.ə.bli /","ukp":"/fɔːˈmɪd.ə.bli/","us":"us  / fɔːrˈmɪd.ə.bli /","usp":"/fɔːrˈmɪd.ə.bli/"}
+{"title":"formless","uk":"uk  / ˈfɔːm.ləs /","ukp":"/ˈfɔːm.ləs/","us":"us  / ˈfɔːrm.ləs /","usp":"/ˈfɔːrm.ləs/"}
+{"title":"formula investing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"formulae","uk":"","us":""}
+{"title":"formula","uk":"uk  / ˈfɔː.mjə.lə /","ukp":"/ˈfɔː.mjə.lə/","us":"us  / ˈfɔːr.mjə.lə /","usp":"/ˈfɔːr.mjə.lə/"}
+{"title":"formulaic","uk":"uk  / ˌfɔː.mjəˈleɪ.ɪk /","ukp":"/ˌfɔː.mjəˈleɪ.ɪk/","us":"us  / ˌfɔːr.mjəˈleɪ.ɪk /","usp":"/ˌfɔːr.mjəˈleɪ.ɪk/"}
+{"title":"formulate","uk":"uk  / ˈfɔː.mjə.leɪt /","ukp":"/ˈfɔː.mjə.leɪt/","us":"us  / ˈfɔːr.mjə.leɪt /","usp":"/ˈfɔːr.mjə.leɪt/"}
+{"title":"formulated","uk":"uk  / ˈfɔː.mjə.leɪt /","ukp":"/ˈfɔː.mjə.leɪt/","us":"us  / ˈfɔːr.mjə.leɪt /","usp":"/ˈfɔːr.mjə.leɪt/"}
+{"title":"formulating","uk":"uk  / ˈfɔː.mjə.leɪt /","ukp":"/ˈfɔː.mjə.leɪt/","us":"us  / ˈfɔːr.mjə.leɪt /","usp":"/ˈfɔːr.mjə.leɪt/"}
+{"title":"formulation","uk":"uk  / ˌfɔː.mjəˈleɪ.ʃ ə n /","ukp":"/ˌfɔː.mjəˈleɪ.ʃən/","us":"us  / ˌfɔːr.mjəˈleɪ.ʃ ə n /","usp":"/ˌfɔːr.mjəˈleɪ.ʃən/"}
+{"title":"foul play","uk":"uk  / ˌfaʊl ˈpleɪ /","ukp":"/ˌfaʊl ˈpleɪ/","us":"us  / ˌfaʊl ˈpleɪ /","usp":"/ˌfaʊl ˈpleɪ/"}
+{"title":"foul shot","uk":"uk  / ˌfaʊl ˈʃɒt /","ukp":"/ˌfaʊl ˈʃɒt/","us":"us  / ˈfɑʊl ˌʃɑːt /","usp":"/ˈfɑʊl ˌʃɑːt/"}
+{"title":"foul throw","uk":"uk  / ˌfaʊl ˈθrəʊ /","ukp":"/ˌfaʊl ˈθrəʊ/","us":"us  / ˈfaʊl ˌθroʊ /","usp":"/ˈfaʊl ˌθroʊ/"}
+{"title":"foul-mouthed","uk":"uk  / ˌfaʊlˈmaʊðd /","ukp":"/ˌfaʊlˈmaʊðd/","us":"us  / ˌfaʊlˈmaʊðd /","usp":"/ˌfaʊlˈmaʊðd/"}
+{"title":"fouled","uk":"uk  / faʊl /","ukp":"/faʊl/","us":"us  / faʊl /","usp":"/faʊl/"}
+{"title":"fouling","uk":"uk  / faʊl /","ukp":"/faʊl/","us":"us  / faʊl /","usp":"/faʊl/"}
+{"title":"found","uk":"uk  / faʊnd /","ukp":"/faʊnd/","us":"us  / faʊnd /","usp":"/faʊnd/"}
+{"title":"foundation course","uk":"uk  / faʊnˈdeɪ.ʃ ə n ˌkɔːs /","ukp":"/faʊnˈdeɪ.ʃən ˌkɔːs/","us":"us  / faʊnˈdeɪ.ʃ ə n ˌkɔːrs /","usp":"/faʊnˈdeɪ.ʃən ˌkɔːrs/"}
+{"title":"foundation","uk":"uk  / faʊnˈdeɪ.ʃ ə n /","ukp":"/faʊnˈdeɪ.ʃən/","us":"us  / faʊnˈdeɪ.ʃ ə n /","usp":"/faʊnˈdeɪ.ʃən/"}
+{"title":"foundation stone","uk":"uk  / faʊnˈdeɪ.ʃ ə n ˌstəʊn /","ukp":"/faʊnˈdeɪ.ʃən ˌstəʊn/","us":"us  / faʊnˈdeɪ.ʃ ə n ˌstoʊn /","usp":"/faʊnˈdeɪ.ʃən ˌstoʊn/"}
+{"title":"foundational","uk":"uk  / faʊnˈdeɪ.ʃ ə n. ə l /","ukp":"/faʊnˈdeɪ.ʃən.əl/","us":"us  / faʊnˈdeɪ.ʃ ə n. ə l /","usp":"/faʊnˈdeɪ.ʃən.əl/"}
+{"title":"foundations","uk":"","us":""}
+{"title":"founded","uk":"uk  / faʊnd /","ukp":"/faʊnd/","us":"us  / faʊnd /","usp":"/faʊnd/"}
+{"title":"founder","uk":"uk  / ˈfaʊn.də r /","ukp":"/ˈfaʊn.dər/","us":"us  / ˈfaʊn.dɚ /","usp":"/ˈfaʊn.dɚ/"}
+{"title":"foundered","uk":"uk  / ˈfaʊn.də r /","ukp":"/ˈfaʊn.dər/","us":"us  / ˈfaʊn.dɚ /","usp":"/ˈfaʊn.dɚ/"}
+{"title":"founder member","uk":"uk  / ˌfaʊn.də ˈmem.bə r /","ukp":"/ˌfaʊn.də ˈmem.bər/","us":"us  / ˌfaʊn.dɚ ˈmem.bɚ /","usp":"/ˌfaʊn.dɚ ˈmem.bɚ/"}
+{"title":"foundering","uk":"uk  / ˈfaʊn.də r /","ukp":"/ˈfaʊn.dər/","us":"us  / ˈfaʊn.dɚ /","usp":"/ˈfaʊn.dɚ/"}
+{"title":"founding","uk":"uk  / faʊnd /","ukp":"/faʊnd/","us":"us  / faʊnd /","usp":"/faʊnd/"}
+{"title":"founding member","uk":"uk  / ˌfaʊn.dɪŋ ˈmem.bə r /","ukp":"/ˌfaʊn.dɪŋ ˈmem.bər/","us":"us  / ˌfaʊn.dɪŋ ˈmem.bɚ /","usp":"/ˌfaʊn.dɪŋ ˈmem.bɚ/"}
+{"title":"foundling","uk":"uk  / ˈfaʊnd.lɪŋ /","ukp":"/ˈfaʊnd.lɪŋ/","us":"us  / ˈfaʊnd.lɪŋ /","usp":"/ˈfaʊnd.lɪŋ/"}
+{"title":"founding father","uk":"uk  / ˌfaʊn.dɪŋ ˈfɑː.ðə r /","ukp":"/ˌfaʊn.dɪŋ ˈfɑː.ðər/","us":"us  / ˌfaʊn.dɪŋ ˈfɑː.ðɚ /","usp":"/ˌfaʊn.dɪŋ ˈfɑː.ðɚ/"}
+{"title":"foundry","uk":"uk  / ˈfaʊn.dri /","ukp":"/ˈfaʊn.dri/","us":"us  / ˈfaʊn.dri /","usp":"/ˈfaʊn.dri/"}
+{"title":"fount","uk":"uk  / faʊnt /","ukp":"/faʊnt/","us":"us  / faʊnt /","usp":"/faʊnt/"}
+{"title":"fountain","uk":"uk  / ˈfaʊn.tɪn /","ukp":"/ˈfaʊn.tɪn/","us":"us  / ˈfaʊn.t ə n /","usp":"/ˈfaʊn.tən/"}
+{"title":"fountain pen","uk":"uk  / ˈfaʊn.tɪn ˌpen /","ukp":"/ˈfaʊn.tɪn ˌpen/","us":"us  / ˈfaʊn.tɪn ˌpen /","usp":"/ˈfaʊn.tɪn ˌpen/"}
+{"title":"four five one","uk":"uk  / ˌfɔː faɪv ˈwʌn /","ukp":"/ˌfɔː faɪv ˈwʌn/","us":"us  / ˌfɔːr faɪv ˈwʌn /","usp":"/ˌfɔːr faɪv ˈwʌn/"}
+{"title":"fountainhead","uk":"uk  / ˈfaʊn.tɪn.hed /","ukp":"/ˈfaʊn.tɪn.hed/","us":"us  / ˈfaʊn.t ə n.hed /","usp":"/ˈfaʊn.tən.hed/"}
+{"title":"four","uk":"uk  / fɔː r /","ukp":"/fɔːr/","us":"us  / fɔːr /","usp":"/fɔːr/"}
+{"title":"four four two","uk":"uk  / ˌfɔː fɔː ˈtuː /","ukp":"/ˌfɔː fɔː ˈtuː/","us":"us  / ˌfɔːr fɔːr ˈtuː /","usp":"/ˌfɔːr fɔːr ˈtuː/"}
+{"title":"four three two one","uk":"uk  / ˌfɔː θriː tuː ˈwʌn /","ukp":"/ˌfɔː θriː tuː ˈwʌn/","us":"us  / ˌfɔːr θriː tuː ˈwʌn /","usp":"/ˌfɔːr θriː tuː ˈwʌn/"}
+{"title":"four-colour process","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"four-by-four","uk":"uk  / ˌfɔː.baɪˈfɔː r /","ukp":"/ˌfɔː.baɪˈfɔːr/","us":"us  / ˌfɔːr.baɪˈfɔːr /","usp":"/ˌfɔːr.baɪˈfɔːr/"}
+{"title":"four-digit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"four-eyes","uk":"uk  / ˈfɔː.raɪz /","ukp":"/ˈfɔː.raɪz/","us":"us  / ˈfɔːr.aɪz /","usp":"/ˈfɔːr.aɪz/"}
+{"title":"four-four time","uk":"uk  / fɔːˈfɔː ˌtaɪm /","ukp":"/fɔːˈfɔː ˌtaɪm/","us":"us  / fɔːrˈfɔːr ˌtaɪm /","usp":"/fɔːrˈfɔːr ˌtaɪm/"}
+{"title":"four-leaf clover","uk":"uk  / ˌfɔː.liːf ˈkləʊ.və r /","ukp":"/ˌfɔː.liːf ˈkləʊ.vər/","us":"us  / ˌfɔːr.liːf ˈkloʊ.vɚ /","usp":"/ˌfɔːr.liːf ˈkloʊ.vɚ/"}
+{"title":"four-legged friend","uk":"uk  / ˌfɔː.leɡ.ɪd ˈfrend /","ukp":"/ˌfɔː.leɡ.ɪd ˈfrend/","us":"us  / ˌfɔːr.leɡ.ɪd ˈfrend /","usp":"/ˌfɔːr.leɡ.ɪd ˈfrend/"}
+{"title":"four-letter word","uk":"uk  / ˌfɔːlet.ə ˈwɜːd /","ukp":"/ˌfɔːlet.ə ˈwɜːd/","us":"us  / ˌfɔː.let̬.ɚ ˈwɝːd /","usp":"/ˌfɔː.let̬.ɚ ˈwɝːd/"}
+{"title":"four-oh-four","uk":"uk  / ˌfɔː.rəʊˈfɔː /","ukp":"/ˌfɔː.rəʊˈfɔː/","us":"us  / ˌfɔːr.oʊˈfɔːr /","usp":"/ˌfɔːr.oʊˈfɔːr/"}
+{"title":"four-pack","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"four-poster bed","uk":"uk  / ˌfɔː.pəʊ.stə ˈbed /","ukp":"/ˌfɔː.pəʊ.stə ˈbed/","us":"us  / ˌfɔːr.poʊ.stɚ ˈbed /","usp":"/ˌfɔːr.poʊ.stɚ ˈbed/"}
+{"title":"four-square","uk":"uk  / ˈfɔː.skweə r /","ukp":"/ˈfɔː.skweər/","us":"us  / ˈfɔːr.skwer /","usp":"/ˈfɔːr.skwer/"}
+{"title":"four-wheel drive","uk":"uk  / ˌfɔː.wiːl ˈdraɪv /","ukp":"/ˌfɔː.wiːl ˈdraɪv/","us":"us  / ˌfɔːr.wiːl ˈdraɪv /","usp":"/ˌfɔːr.wiːl ˈdraɪv/"}
+{"title":"four-way stop","uk":"uk / ˌfɔː.weɪ ˈstɒp /","ukp":"/ˌfɔː.weɪ ˈstɒp/","us":"us / ˌfɔːr.weɪ ˈstɑːp /","usp":"/ˌfɔːr.weɪ ˈstɑːp/"}
+{"title":"four-wheeler","uk":"uk  / ˌfɔːˈwiː.lə r /","ukp":"/ˌfɔːˈwiː.lər/","us":"us  / ˌfɔːrˈwiː.lɚ /","usp":"/ˌfɔːrˈwiː.lɚ/"}
+{"title":"four-star","uk":"uk  / ˌfɔːˈstɑː r /","ukp":"/ˌfɔːˈstɑːr/","us":"us  / ˌfɔːrˈstɑːr /","usp":"/ˌfɔːrˈstɑːr/"}
+{"title":"fourfold","uk":"uk  / ˈfɔː.fəʊld /","ukp":"/ˈfɔː.fəʊld/","us":"us  / ˈfɔːr.foʊld /","usp":"/ˈfɔːr.foʊld/"}
+{"title":"fornicate","uk":"uk  / ˈfɔː.nɪ.keɪt /","ukp":"/ˈfɔː.nɪ.keɪt/","us":"us  / ˈfɔːr.nə.keɪt /","usp":"/ˈfɔːr.nə.keɪt/"}
+{"title":"fourteen","uk":"uk  / ˌfɔːˈtiːn /","ukp":"/ˌfɔːˈtiːn/","us":"us  / ˌfɔːrˈtiːn /","usp":"/ˌfɔːrˈtiːn/"}
+{"title":"foursome","uk":"uk  / ˈfɔː.səm /","ukp":"/ˈfɔː.səm/","us":"us  / ˈfɔːr.səm /","usp":"/ˈfɔːr.səm/"}
+{"title":"fornicating","uk":"uk  / ˈfɔː.nɪ.keɪt /","ukp":"/ˈfɔː.nɪ.keɪt/","us":"us  / ˈfɔːr.nə.keɪt /","usp":"/ˈfɔːr.nə.keɪt/"}
+{"title":"fornicated","uk":"uk  / ˈfɔː.nɪ.keɪt /","ukp":"/ˈfɔː.nɪ.keɪt/","us":"us  / ˈfɔːr.nə.keɪt /","usp":"/ˈfɔːr.nə.keɪt/"}
+{"title":"fornication","uk":"uk  / ˌfɔː.nɪˈkeɪ.ʃ ə n /","ukp":"/ˌfɔː.nɪˈkeɪ.ʃən/","us":"us  / ˌfɔːr.nəˈkeɪ.ʃ ə n /","usp":"/ˌfɔːr.nəˈkeɪ.ʃən/"}
+{"title":"fornicator","uk":"uk  / ˈfɔː.nɪ.keɪ.tə r /","ukp":"/ˈfɔː.nɪ.keɪ.tər/","us":"us  / ˈfɔːr.nə.keɪ.t̬ɚ /","usp":"/ˈfɔːr.nə.keɪ.t̬ɚ/"}
+{"title":"fornices","uk":"","us":""}
+{"title":"fornix","uk":"uk  / ˈfɔː.nɪks /","ukp":"/ˈfɔː.nɪks/","us":"us  / ˈfɔːr.nɪks /","usp":"/ˈfɔːr.nɪks/"}
+{"title":"forsake","uk":"uk  / fɔːˈseɪk /","ukp":"/fɔːˈseɪk/","us":"us  / fɔːrˈseɪk /","usp":"/fɔːrˈseɪk/"}
+{"title":"forsaken","uk":"","us":""}
+{"title":"forsaking","uk":"","us":""}
+{"title":"forsook","uk":"","us":""}
+{"title":"forswear","uk":"uk  / fɔːˈsweə r /","ukp":"/fɔːˈsweər/","us":"us  / fɔːrˈswer /","usp":"/fɔːrˈswer/"}
+{"title":"Fort Knox","uk":"uk  / ˌfɔːt ˈnɒks /","ukp":"/ˌfɔːt ˈnɒks/","us":"us  / ˌfɔːrt ˈnɑːks /","usp":"/ˌfɔːrt ˈnɑːks/"}
+{"title":"forsythia","uk":"uk  / fɔːˈsaɪ.θi.ə /","ukp":"/fɔːˈsaɪ.θi.ə/","us":"us  / fɔːrˈsaɪ.θi.ə /","usp":"/fɔːrˈsaɪ.θi.ə/"}
+{"title":"fort","uk":"uk  / fɔːt /","ukp":"/fɔːt/","us":"us  / fɔːrt /","usp":"/fɔːrt/"}
+{"title":"Fortaleza","uk":"uk  / ˌfɔː.təˈleɪ.zə /","ukp":"/ˌfɔː.təˈleɪ.zə/","us":"us  / ˌfɔːr.t̬əˈleɪ.zə /","usp":"/ˌfɔːr.t̬əˈleɪ.zə/"}
+{"title":"forte","uk":"uk  / ˈfɔː.teɪ /","ukp":"/ˈfɔː.teɪ/","us":"us  / ˈfɔːr.teɪ /","usp":"/ˈfɔːr.teɪ/"}
+{"title":"forth","uk":"uk  / fɔːθ /","ukp":"/fɔːθ/","us":"us  / fɔːrθ /","usp":"/fɔːrθ/"}
+{"title":"forthright","uk":"uk  / ˈfɔːθ.raɪt /","ukp":"/ˈfɔːθ.raɪt/","us":"us  / ˈfɔːrθ.raɪt /","usp":"/ˈfɔːrθ.raɪt/"}
+{"title":"forthcoming","uk":"uk  / ˈfɔːθˌkʌm.ɪŋ /","ukp":"/ˈfɔːθˌkʌm.ɪŋ/","us":"us  / ˈfɔːrθˌkʌm.ɪŋ /","usp":"/ˈfɔːrθˌkʌm.ɪŋ/"}
+{"title":"forthrightness","uk":"uk  / ˈfɔːθ.raɪt.nəs /","ukp":"/ˈfɔːθ.raɪt.nəs/","us":"us  / ˈfɔːrθ.raɪt.nəs /","usp":"/ˈfɔːrθ.raɪt.nəs/"}
+{"title":"forthwith","uk":"uk  / ˌfɔːθˈwɪθ /","ukp":"/ˌfɔːθˈwɪθ/","us":"us  / ˌfɔːrθˈwɪθ /","usp":"/ˌfɔːrθˈwɪθ/"}
+{"title":"forties","uk":"uk  / ˈfɔː.tiz /","ukp":"/ˈfɔː.tiz/","us":"us  / ˈfɔːr.t̬iz /","usp":"/ˈfɔːr.t̬iz/"}
+{"title":"fortieth","uk":"uk  / ˈfɔː.ti.əθ /","ukp":"/ˈfɔː.ti.əθ/","us":"us  / ˈfɔːr.t̬i.əθ /","usp":"/ˈfɔːr.t̬i.əθ/"}
+{"title":"fortification","uk":"uk  / ˌfɔː.tɪ.fɪˈkeɪ.ʃ ə n /","ukp":"/ˌfɔː.tɪ.fɪˈkeɪ.ʃən/","us":"us  / ˌfɔːr.t̬ə.fəˈkeɪ.ʃ ə n /","usp":"/ˌfɔːr.t̬ə.fəˈkeɪ.ʃən/"}
+{"title":"fortified","uk":"","us":"us  / ˈfɔr·t̬əˌfɑɪd /","usp":"/ˈfɔr·t̬əˌfɑɪd/"}
+{"title":"fortified wine","uk":"uk  / ˌfɔː.tɪ.faɪd ˈwaɪn /","ukp":"/ˌfɔː.tɪ.faɪd ˈwaɪn/","us":"us  / ˌfɔːr.t̬ə.faɪd ˈwaɪn /","usp":"/ˌfɔːr.t̬ə.faɪd ˈwaɪn/"}
+{"title":"fortify","uk":"uk  / ˈfɔː.tɪ.faɪ /","ukp":"/ˈfɔː.tɪ.faɪ/","us":"us  / ˈfɔːr.t̬ə.faɪ /","usp":"/ˈfɔːr.t̬ə.faɪ/"}
+{"title":"fortifying","uk":"uk  / ˈfɔː.tɪ.faɪ /","ukp":"/ˈfɔː.tɪ.faɪ/","us":"us  / ˈfɔːr.t̬ə.faɪ /","usp":"/ˈfɔːr.t̬ə.faɪ/"}
+{"title":"fortis","uk":"uk  / ˈfɔː.tɪs /","ukp":"/ˈfɔː.tɪs/","us":"us  / ˈfɔːr.t̬ɪs /","usp":"/ˈfɔːr.t̬ɪs/"}
+{"title":"fortnight","uk":"uk  / ˈfɔːt.naɪt /","ukp":"/ˈfɔːt.naɪt/","us":"us  / ˈfɔːrt.naɪt /","usp":"/ˈfɔːrt.naɪt/"}
+{"title":"fortitude","uk":"uk  / ˈfɔː.tɪ.tʃuːd /","ukp":"/ˈfɔː.tɪ.tʃuːd/","us":"us  / ˈfɔːr.t̬ə.tuːd /","usp":"/ˈfɔːr.t̬ə.tuːd/"}
+{"title":"fortnightly","uk":"uk  / ˈfɔːt.naɪt.li /","ukp":"/ˈfɔːt.naɪt.li/","us":"us  / ˈfɔːrt.naɪt.li /","usp":"/ˈfɔːrt.naɪt.li/"}
+{"title":"Fortran","uk":"uk  / ˈfɔːtræn /","ukp":"/ˈfɔːtræn/","us":"us ","usp":""}
+{"title":"fortress","uk":"uk  / ˈfɔː.trəs /","ukp":"/ˈfɔː.trəs/","us":"us  / ˈfɔːr.trəs /","usp":"/ˈfɔːr.trəs/"}
+{"title":"fortuitous","uk":"uk  / fɔːˈtʃuː.ɪ.təs /","ukp":"/fɔːˈtʃuː.ɪ.təs/","us":"us  / fɔːrˈtuː.ə.t̬əs /","usp":"/fɔːrˈtuː.ə.t̬əs/"}
+{"title":"fortuitously","uk":"uk  / fɔːˈtʃuː.ɪ.təs.li /","ukp":"/fɔːˈtʃuː.ɪ.təs.li/","us":"us  / fɔːrˈtuː.ə.t̬əs.li /","usp":"/fɔːrˈtuː.ə.t̬əs.li/"}
+{"title":"fortuitousness","uk":"uk  / fɔːˈtʃuː.ɪ.təs.nəs /","ukp":"/fɔːˈtʃuː.ɪ.təs.nəs/","us":"us  / fɔːrˈtuː.ə.t̬əs.nəs /","usp":"/fɔːrˈtuː.ə.t̬əs.nəs/"}
+{"title":"fortunate","uk":"uk  / ˈfɔː.tʃ ə n.ət /","ukp":"/ˈfɔː.tʃən.ət/","us":"us  / ˈfɔːr.tʃ ə n.ət /","usp":"/ˈfɔːr.tʃən.ət/"}
+{"title":"fortunately","uk":"uk  / ˈfɔː.tʃ ə n.ət.li /","ukp":"/ˈfɔː.tʃən.ət.li/","us":"us  / ˈfɔːr.tʃ ə n.ət.li /","usp":"/ˈfɔːr.tʃən.ət.li/"}
+{"title":"Fortune 500","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fortune cookie","uk":"uk  / ˈfɔː.tʃuːn ˌkʊk.i /","ukp":"/ˈfɔː.tʃuːn ˌkʊk.i/","us":"us  / ˈfɔːr.tʃuːn ˌkʊk.i /","usp":"/ˈfɔːr.tʃuːn ˌkʊk.i/"}
+{"title":"fortune","uk":"uk  / ˈfɔː.tʃuːn /","ukp":"/ˈfɔː.tʃuːn/","us":"us  / ˈfɔːr.tʃuːn /","usp":"/ˈfɔːr.tʃuːn/"}
+{"title":"fortune hunter","uk":"uk  / ˈfɔː.tʃuːn ˌhʌn.tə r /","ukp":"/ˈfɔː.tʃuːn ˌhʌn.tər/","us":"us  / ˈfɔːr.tʃuːn ˌhʌn.t̬ɚ /","usp":"/ˈfɔːr.tʃuːn ˌhʌn.t̬ɚ/"}
+{"title":"fortune smiles on someone","uk":"","us":""}
+{"title":"fortune teller","uk":"uk  / ˈfɔː.tʃuːn ˌtel.ə r /","ukp":"/ˈfɔː.tʃuːn ˌtel.ər/","us":"us  / ˈfɔːr.tʃuːn ˌtel.ɚ /","usp":"/ˈfɔːr.tʃuːn ˌtel.ɚ/"}
+{"title":"forty","uk":"uk  / ˈfɔː.ti /","ukp":"/ˈfɔː.ti/","us":"us  / ˈfɔːr.t̬i /","usp":"/ˈfɔːr.t̬i/"}
+{"title":"forty winks","uk":"uk  / ˌfɔː.ti ˈwɪŋks /","ukp":"/ˌfɔː.ti ˈwɪŋks/","us":"us  / ˌfɔːr.t̬i ˈwɪŋks /","usp":"/ˌfɔːr.t̬i ˈwɪŋks/"}
+{"title":"fortyfold","uk":"uk  / ˈfɔː.ti.fəʊld /","ukp":"/ˈfɔː.ti.fəʊld/","us":"us  / ˈfɔːr.t̬i.foʊld /","usp":"/ˈfɔːr.t̬i.foʊld/"}
+{"title":"forward contract","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forum","uk":"uk  / ˈfɔː.rəm /","ukp":"/ˈfɔː.rəm/","us":"us  / ˈfɔːr.əm /","usp":"/ˈfɔːr.əm/"}
+{"title":"forward cover","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forward","uk":"uk  / ˈfɔː.wəd /","ukp":"/ˈfɔː.wəd/","us":"us  / ˈfɔːr.wɚd /","usp":"/ˈfɔːr.wɚd/"}
+{"title":"forward exchange rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forward integration","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forward market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forward multiple","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forward observer","uk":"uk  / ˌfɔː.wəd əbˈzɜː.və r /","ukp":"/ˌfɔː.wəd əbˈzɜː.vər/","us":"us  / ˌfɔːr.wɚd əbˈzɝː.vɚ /","usp":"/ˌfɔːr.wɚd əbˈzɝː.vɚ/"}
+{"title":"forward price","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forward rate agreement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forward slash","uk":"uk  / ˈfɔː.wəd ˌslæʃ /","ukp":"/ˈfɔː.wəd ˌslæʃ/","us":"us  / ˈfɔːr.wɚd ˌslæʃ /","usp":"/ˈfɔːr.wɚd ˌslæʃ/"}
+{"title":"forward selling","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forward sale","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forward trading","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forward thinking","uk":"uk  / ˌfɔː.wəd ˈθɪŋ.kɪŋ /","ukp":"/ˌfɔː.wəd ˈθɪŋ.kɪŋ/","us":"us  / ˌfɔːr.wɚd ˈθɪŋ.kɪŋ /","usp":"/ˌfɔːr.wɚd ˈθɪŋ.kɪŋ/"}
+{"title":"forward-looking","uk":"uk  / ˈfɔː.wədˌlʊk.ɪŋ /","ukp":"/ˈfɔː.wədˌlʊk.ɪŋ/","us":"us  / ˈfɔːr.wɚdˌlʊk.ɪŋ /","usp":"/ˈfɔːr.wɚdˌlʊk.ɪŋ/"}
+{"title":"forwarded","uk":"uk  / ˈfɔː.wəd /","ukp":"/ˈfɔː.wəd/","us":"us  / ˈfɔːr.wɚd /","usp":"/ˈfɔːr.wɚd/"}
+{"title":"forwarder","uk":"uk  / ˈfɔːwədə r /","ukp":"/ˈfɔːwədər/","us":"us ","usp":""}
+{"title":"forwarding","uk":"uk  / ˈfɔːwədɪŋ /","ukp":"/ˈfɔːwədɪŋ/","us":"us ","usp":""}
+{"title":"forwarding address","uk":"uk  / ˈfɔː.wə.dɪŋ əˌdres /","ukp":"/ˈfɔː.wə.dɪŋ əˌdres/","us":"us  / ˈfɔːr.wɚ.dɪŋ ˌæd.res /","usp":"/ˈfɔːr.wɚ.dɪŋ ˌæd.res/"}
+{"title":"forwarding agent","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"forwardness","uk":"uk  / ˈfɔː.wəd.nəs /","ukp":"/ˈfɔː.wəd.nəs/","us":"us  / ˈfɔːr.wɚd.nəs /","usp":"/ˈfɔːr.wɚd.nəs/"}
+{"title":"forwent","uk":"uk  / fɔːˈwent /","ukp":"/fɔːˈwent/","us":"us  / fɔːrˈwent /","usp":"/fɔːrˈwent/"}
+{"title":"forwards","uk":"uk  / ˈfɔː.wədz /","ukp":"/ˈfɔː.wədz/","us":"us  / ˈfɔːr.wɚdz /","usp":"/ˈfɔːr.wɚdz/"}
+{"title":"fossae","uk":"","us":""}
+{"title":"fossa","uk":"uk  / ˈfɒs.ə /","ukp":"/ˈfɒs.ə/","us":"us  / ˈfɑː.sə /","usp":"/ˈfɑː.sə/"}
+{"title":"fossick","uk":"uk  / ˈfɒs.ɪk /","ukp":"/ˈfɒs.ɪk/","us":"us  / ˈfɑː.sɪk /","usp":"/ˈfɑː.sɪk/"}
+{"title":"fossil","uk":"uk  / ˈfɒs. ə l /","ukp":"/ˈfɒs.əl/","us":"us  / ˈfɑː.s ə l /","usp":"/ˈfɑː.səl/"}
+{"title":"fossil record","uk":"uk  / ˌfɒs. ə l ˈrek.ɔːd /","ukp":"/ˌfɒs.əl ˈrek.ɔːd/","us":"us  / ˌfɑː.s ə l ˈrek.ɚd /","usp":"/ˌfɑː.səl ˈrek.ɚd/"}
+{"title":"fossil fuel","uk":"uk  / ˈfɒs. ə l ˌfjʊəl /","ukp":"/ˈfɒs.əl ˌfjʊəl/","us":"us  / ˈfɑː.s ə l ˌfjʊəl /","usp":"/ˈfɑː.səl ˌfjʊəl/"}
+{"title":"fossilization","uk":"uk  / ˌfɒs.ɪ.laɪˈzeɪ.ʃ ə n /","ukp":"/ˌfɒs.ɪ.laɪˈzeɪ.ʃən/","us":"us  / ˌfɑː.s ə l.əˈzeɪ.ʃ ə n /","usp":"/ˌfɑː.səl.əˈzeɪ.ʃən/"}
+{"title":"fossilized","uk":"uk  / ˈfɒs.ɪ.laɪzd /","ukp":"/ˈfɒs.ɪ.laɪzd/","us":"us  / ˈfɑː.s ə l.aɪzd /","usp":"/ˈfɑː.səl.aɪzd/"}
+{"title":"fossilize","uk":"uk  / ˈfɒs.ɪ.laɪz /","ukp":"/ˈfɒs.ɪ.laɪz/","us":"us  / ˈfɑː.s ə l.aɪz /","usp":"/ˈfɑː.səl.aɪz/"}
+{"title":"fossilizing","uk":"uk  / ˈfɒs.ɪ.laɪz /","ukp":"/ˈfɒs.ɪ.laɪz/","us":"us  / ˈfɑː.s ə l.aɪz /","usp":"/ˈfɑː.səl.aɪz/"}
+{"title":"fostering","uk":"uk  / ˈfɒs.tə r /","ukp":"/ˈfɒs.tər/","us":"us  / ˈfɑː.stɚ /","usp":"/ˈfɑː.stɚ/"}
+{"title":"fostered","uk":"uk  / ˈfɒs.tə r /","ukp":"/ˈfɒs.tər/","us":"us  / ˈfɑː.stɚ /","usp":"/ˈfɑː.stɚ/"}
+{"title":"foster","uk":"uk  / ˈfɒs.tə r /","ukp":"/ˈfɒs.tər/","us":"us  / ˈfɑː.stɚ /","usp":"/ˈfɑː.stɚ/"}
+{"title":"Foucault pendulum","uk":"uk  / ˌfuː.kəʊ ˈpen.dʒ ə l.əm /","ukp":"/ˌfuː.kəʊ ˈpen.dʒəl.əm/","us":"us  / fuːˌkoʊ ˈpen.dʒ ə l.əm /","usp":"/fuːˌkoʊ ˈpen.dʒəl.əm/"}
+{"title":"fought","uk":"uk  / fɔːt /","ukp":"/fɔːt/","us":"us  / fɑːt /","usp":"/fɑːt/"}
+{"title":"foul","uk":"uk  / faʊl /","ukp":"/faʊl/","us":"us  / faʊl /","usp":"/faʊl/"}
+{"title":"foul bill of lading","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"foul ball","uk":"uk  / ˌfaʊl ˈbɔːl /","ukp":"/ˌfaʊl ˈbɔːl/","us":"us  / ˌfaʊl ˈbɑːl /","usp":"/ˌfaʊl ˈbɑːl/"}
+{"title":"foul (something) up","uk":"uk  / faʊl /","ukp":"/faʊl/","us":"us  / faʊl /","usp":"/faʊl/"}
+{"title":"fracturing","uk":"uk  / ˈfræk.tʃə r /","ukp":"/ˈfræk.tʃər/","us":"us  / ˈfræk.tʃɚ /","usp":"/ˈfræk.tʃɚ/"}
+{"title":"frag bomb","uk":"uk  / ˈfræɡ ˌbɒm /","ukp":"/ˈfræɡ ˌbɒm/","us":"us  / ˈfræɡ ˌbɑːm /","usp":"/ˈfræɡ ˌbɑːm/"}
+{"title":"fragility","uk":"uk  / frəˈdʒɪl.ə.ti /","ukp":"/frəˈdʒɪl.ə.ti/","us":"us  / frəˈdʒɪl.ə.t̬i /","usp":"/frəˈdʒɪl.ə.t̬i/"}
+{"title":"fragment","uk":"uk  / ˈfræɡ.mənt /","ukp":"/ˈfræɡ.mənt/","us":"us  / ˈfræɡ.mənt /","usp":"/ˈfræɡ.mənt/"}
+{"title":"fragile","uk":"uk  / ˈfrædʒ.aɪl /","ukp":"/ˈfrædʒ.aɪl/","us":"us  / ˈfrædʒ. ə l /","usp":"/ˈfrædʒ.əl/"}
+{"title":"fragmentary","uk":"uk  / fræɡˈmen.t ə r.i /","ukp":"/fræɡˈmen.tər.i/","us":"us  / ˈfræɡ.mən.ter.i /","usp":"/ˈfræɡ.mən.ter.i/"}
+{"title":"fragmentation bomb","uk":"uk  / fræɡ.menˈteɪ.ʃ ə n ˌbɒm /","ukp":"/fræɡ.menˈteɪ.ʃən ˌbɒm/","us":"us  / fræɡ.menˈteɪ.ʃ ə n ˌbɑːm /","usp":"/fræɡ.menˈteɪ.ʃən ˌbɑːm/"}
+{"title":"fragmentation","uk":"uk  / ˌfræɡ.menˈteɪ.ʃ ə n /","ukp":"/ˌfræɡ.menˈteɪ.ʃən/","us":"us  / ˌfræɡ.menˈteɪ.ʃ ə n /","usp":"/ˌfræɡ.menˈteɪ.ʃən/"}
+{"title":"fragmented","uk":"uk  / fræɡˈmen.tɪd /","ukp":"/fræɡˈmen.tɪd/","us":"us  / fræɡˈmen.t̬ɪd /","usp":"/fræɡˈmen.t̬ɪd/"}
+{"title":"fragmenting","uk":"uk  / fræɡˈment /","ukp":"/fræɡˈment/","us":"us  / fræɡˈment /","usp":"/fræɡˈment/"}
+{"title":"fragranced","uk":"uk  / ˈfreɪ.ɡr ə nst /","ukp":"/ˈfreɪ.ɡrənst/","us":"us  / ˈfreɪ.ɡr ə nst /","usp":"/ˈfreɪ.ɡrənst/"}
+{"title":"fragrance","uk":"uk  / ˈfreɪ.ɡr ə ns /","ukp":"/ˈfreɪ.ɡrəns/","us":"us  / ˈfreɪ.ɡr ə ns /","usp":"/ˈfreɪ.ɡrəns/"}
+{"title":"fragrant","uk":"uk  / ˈfreɪ.ɡr ə nt /","ukp":"/ˈfreɪ.ɡrənt/","us":"us  / ˈfreɪ.ɡr ə nt /","usp":"/ˈfreɪ.ɡrənt/"}
+{"title":"frail","uk":"uk  / freɪl /","ukp":"/freɪl/","us":"us  / freɪl /","usp":"/freɪl/"}
+{"title":"frailty","uk":"uk  / ˈfreɪl.ti /","ukp":"/ˈfreɪl.ti/","us":"us  / ˈfreɪl.t̬i /","usp":"/ˈfreɪl.t̬i/"}
+{"title":"frame","uk":"uk  / freɪm /","ukp":"/freɪm/","us":"us  / freɪm /","usp":"/freɪm/"}
+{"title":"frame of mind","uk":"","us":""}
+{"title":"frame of reference","uk":"","us":"us / ˈfreɪm əv ˈref·ər·əns , ˈref·rəns /","usp":"/ˈfreɪm əv ˈref·ər·əns, ˈref·rəns/"}
+{"title":"frame rate","uk":"uk  / ˈfreɪm ˌreɪt /","ukp":"/ˈfreɪm ˌreɪt/","us":"us  / ˈfreɪm ˌreɪt /","usp":"/ˈfreɪm ˌreɪt/"}
+{"title":"frame-up","uk":"uk  / ˈfreɪm.ʌp /","ukp":"/ˈfreɪm.ʌp/","us":"us  / ˈfreɪm.ʌp /","usp":"/ˈfreɪm.ʌp/"}
+{"title":"framed","uk":"uk  / freɪmd /","ukp":"/freɪmd/","us":"us  / freɪmd /","usp":"/freɪmd/"}
+{"title":"frames","uk":"","us":"us  / freɪmz /","usp":"/freɪmz/"}
+{"title":"framework agreement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"framework","uk":"uk  / ˈfreɪm.wɜːk /","ukp":"/ˈfreɪm.wɜːk/","us":"us  / ˈfreɪm.wɝːk /","usp":"/ˈfreɪm.wɝːk/"}
+{"title":"franc","uk":"uk  / fræŋk /","ukp":"/fræŋk/","us":"us  / fræŋk /","usp":"/fræŋk/"}
+{"title":"France","uk":"uk  / frɑːns /","ukp":"/frɑːns/","us":"us  / fræns /","usp":"/fræns/"}
+{"title":"franchised","uk":"uk  / ˈfræn.tʃaɪz /","ukp":"/ˈfræn.tʃaɪz/","us":"us  / ˈfræn.tʃaɪz /","usp":"/ˈfræn.tʃaɪz/"}
+{"title":"franchise","uk":"uk  / ˈfræn.tʃaɪz /","ukp":"/ˈfræn.tʃaɪz/","us":"us  / ˈfræn.tʃaɪz /","usp":"/ˈfræn.tʃaɪz/"}
+{"title":"franchisee","uk":"uk  / ˌfræn.tʃaɪˈziː /","ukp":"/ˌfræn.tʃaɪˈziː/","us":"us  / ˌfræn.tʃaɪˈziː /","usp":"/ˌfræn.tʃaɪˈziː/"}
+{"title":"franchiser","uk":"uk  / ˈfræn.tʃaɪ.zə r /","ukp":"/ˈfræn.tʃaɪ.zər/","us":"us  / ˈfræn.tʃaɪ.zɚ /","usp":"/ˈfræn.tʃaɪ.zɚ/"}
+{"title":"franchising","uk":"uk  / ˈfræn.tʃaɪ.zɪŋ /","ukp":"/ˈfræn.tʃaɪ.zɪŋ/","us":"us  / ˈfræn.tʃaɪ.zɪŋ /","usp":"/ˈfræn.tʃaɪ.zɪŋ/"}
+{"title":"Franciscan","uk":"uk  / frænˈsɪs.kən /","ukp":"/frænˈsɪs.kən/","us":"us  / frænˈsɪs.kən /","usp":"/frænˈsɪs.kən/"}
+{"title":"Franco-","uk":"uk  / fræŋ.kəʊ- /","ukp":"/fræŋ.kəʊ-/","us":"us  / fræŋ.koʊ- /","usp":"/fræŋ.koʊ-/"}
+{"title":"francophone","uk":"uk  / ˈfræŋ.kə.fəʊn /","ukp":"/ˈfræŋ.kə.fəʊn/","us":"us  / ˈfræŋ.koʊ.foʊn /","usp":"/ˈfræŋ.koʊ.foʊn/"}
+{"title":"frangipane","uk":"uk  / ˈfræn.dʒɪ.peɪn /","ukp":"/ˈfræn.dʒɪ.peɪn/","us":"us  / ˈfrɑːn.dʒɪ.peɪn /","usp":"/ˈfrɑːn.dʒɪ.peɪn/"}
+{"title":"franked","uk":"uk  / fræŋk /","ukp":"/fræŋk/","us":"us  / fræŋk /","usp":"/fræŋk/"}
+{"title":"frank","uk":"uk  / fræŋk /","ukp":"/fræŋk/","us":"us  / fræŋk /","usp":"/fræŋk/"}
+{"title":"Franken-","uk":"uk  / fræŋ.kən- /","ukp":"/fræŋ.kən-/","us":"us  / fræŋ.kən- /","usp":"/fræŋ.kən-/"}
+{"title":"Frankenfood","uk":"uk / ˈfræŋ.kən.fuːd /","ukp":"/ˈfræŋ.kən.fuːd/","us":"us / ˈfræŋ.kən.fuːd /","usp":"/ˈfræŋ.kən.fuːd/"}
+{"title":"Frankenstein","uk":"uk  / ˈfræŋ.kən.staɪn /","ukp":"/ˈfræŋ.kən.staɪn/","us":"us  / ˈfræŋ.kən.staɪn /","usp":"/ˈfræŋ.kən.staɪn/"}
+{"title":"Frankfurt am Main","uk":"uk  / ˌfræŋk.fɜːt æm ˈmaɪn /","ukp":"/ˌfræŋk.fɜːt æm ˈmaɪn/","us":"us  / ˌfræŋk.fɜ˞ːt æm ˈmaɪn /","usp":"/ˌfræŋk.fɜ˞ːt æm ˈmaɪn/"}
+{"title":"Frankfort","uk":"uk / ˈfræŋk.fɔːt /","ukp":"/ˈfræŋk.fɔːt/","us":"us  / ˈfræŋk.fɚt /","usp":"/ˈfræŋk.fɚt/"}
+{"title":"frankfurter","uk":"uk  / ˈfræŋk.fɜː.tə r /","ukp":"/ˈfræŋk.fɜː.tər/","us":"us  / ˈfræŋk.fɝː.t̬ɚ /","usp":"/ˈfræŋk.fɝː.t̬ɚ/"}
+{"title":"frankincense","uk":"uk  / ˈfræŋ.kɪn.sens /","ukp":"/ˈfræŋ.kɪn.sens/","us":"us  / ˈfræŋ.kɪn.sens /","usp":"/ˈfræŋ.kɪn.sens/"}
+{"title":"franking","uk":"uk  / fræŋk /","ukp":"/fræŋk/","us":"us  / fræŋk /","usp":"/fræŋk/"}
+{"title":"franking machine","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"frankly","uk":"uk  / ˈfræŋ.kli /","ukp":"/ˈfræŋ.kli/","us":"us  / ˈfræŋ.kli /","usp":"/ˈfræŋ.kli/"}
+{"title":"free and easy","uk":"","us":""}
+{"title":"free and clear","uk":"","us":""}
+{"title":"free association","uk":"uk  / ˌfriː ə.səʊ.siˈeɪ.ʃ ə n /","ukp":"/ˌfriː ə.səʊ.siˈeɪ.ʃən/","us":"us  / ˌfriː ə.soʊ.siˈeɪ.ʃ ə n /","usp":"/ˌfriː ə.soʊ.siˈeɪ.ʃən/"}
+{"title":"free cashflow","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free carrier","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Free Church","uk":"uk  / ˌfriː ˈtʃɜːtʃ /","ukp":"/ˌfriː ˈtʃɜːtʃ/","us":"us  / ˌfriː ˈtʃɝːtʃ /","usp":"/ˌfriː ˈtʃɝːtʃ/"}
+{"title":"free climber","uk":"uk  / ˈfriː ˌklaɪ.mə r /","ukp":"/ˈfriː ˌklaɪ.mər/","us":"us  / ˈfriː ˌklaɪ.mɚ /","usp":"/ˈfriː ˌklaɪ.mɚ/"}
+{"title":"free climbing","uk":"uk  / ˈfriː ˌklaɪ.mɪŋ /","ukp":"/ˈfriː ˌklaɪ.mɪŋ/","us":"us  / ˈfriː ˌklaɪ.mɪŋ /","usp":"/ˈfriː ˌklaɪ.mɪŋ/"}
+{"title":"free collective bargaining","uk":"uk  / ˌfriː kə.lek.tɪv ˈbɑː.ɡɪn.ɪŋ /","ukp":"/ˌfriː kə.lek.tɪv ˈbɑː.ɡɪn.ɪŋ/","us":"us  / ˌfriː kə.lek.tɪv ˈbɑːr.ɡɪn.ɪŋ /","usp":"/ˌfriː kə.lek.tɪv ˈbɑːr.ɡɪn.ɪŋ/"}
+{"title":"free competition","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free country","uk":"uk  / ˌfriː ˈkʌn.tri /","ukp":"/ˌfriː ˈkʌn.tri/","us":"us  / ˌfriː ˈkʌn.tri /","usp":"/ˌfriː ˈkʌn.tri/"}
+{"title":"free economy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free enterprise","uk":"uk  / ˌfriː ˈen.tə.praɪz /","ukp":"/ˌfriː ˈen.tə.praɪz/","us":"us  / ˌfriː ˈen.t̬ɚ.praɪz /","usp":"/ˌfriː ˈen.t̬ɚ.praɪz/"}
+{"title":"free gift","uk":"uk  / ˌfriː ˈɡɪft /","ukp":"/ˌfriː ˈɡɪft/","us":"us  / ˌfriː ˈɡɪft /","usp":"/ˌfriː ˈɡɪft/"}
+{"title":"free fall","uk":"uk ","ukp":"","us":"us / ˈfri ˌfɔl /","usp":"/ˈfri ˌfɔl/"}
+{"title":"free hand","uk":"uk  / ˌfriː ˈhænd /","ukp":"/ˌfriː ˈhænd/","us":"us  / ˌfriː ˈhænd /","usp":"/ˌfriː ˈhænd/"}
+{"title":"free house","uk":"uk  / ˌfriː ˈhaʊs /","ukp":"/ˌfriː ˈhaʊs/","us":"us  / ˌfriː ˈhaʊs /","usp":"/ˌfriː ˈhaʊs/"}
+{"title":"free issue","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free jazz","uk":"uk  / ˌfriː ˈdʒæz /","ukp":"/ˌfriː ˈdʒæz/","us":"us  / ˌfriː ˈdʒæz /","usp":"/ˌfriː ˈdʒæz/"}
+{"title":"free love","uk":"uk  / ˌfriː ˈlʌv /","ukp":"/ˌfriː ˈlʌv/","us":"us  / ˌfriː ˈlʌv /","usp":"/ˌfriː ˈlʌv/"}
+{"title":"free lunch","uk":"","us":""}
+{"title":"free kick","uk":"uk  / ˌfriː ˈkɪk /","ukp":"/ˌfriː ˈkɪk/","us":"us  / ˌfriː ˈkɪk /","usp":"/ˌfriː ˈkɪk/"}
+{"title":"free marketer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free movement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free market","uk":"uk  / ˌfriː ˈmɑː.kɪt /","ukp":"/ˌfriː ˈmɑː.kɪt/","us":"us  / ˌfriː ˈmɑːr.kɪt /","usp":"/ˌfriː ˈmɑːr.kɪt/"}
+{"title":"free marketeer","uk":"uk  / ˌfriː mɑː.kɪˈtɪə r /","ukp":"/ˌfriː mɑː.kɪˈtɪər/","us":"us  / ˌfriː mɑːr.kɪˈtɪr /","usp":"/ˌfriː mɑːr.kɪˈtɪr/"}
+{"title":"free of particular average","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free of charge","uk":"uk  / ˌfriː əv ˈtʃɑːdʒ /","ukp":"/ˌfriː əv ˈtʃɑːdʒ/","us":"us  / ˌfriː əv ˈtʃɑːrdʒ /","usp":"/ˌfriː əv ˈtʃɑːrdʒ/"}
+{"title":"free on board","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free offer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free pardon","uk":"uk  / ˌfriː ˈpɑː.d ə n /","ukp":"/ˌfriː ˈpɑː.dən/","us":"us  / ˌfriː ˈpɑːr.d ə n /","usp":"/ˌfriː ˈpɑːr.dən/"}
+{"title":"free pass","uk":"uk  / ˌfriː ˈpɑːs /","ukp":"/ˌfriː ˈpɑːs/","us":"us  / ˌfriː ˈpæs /","usp":"/ˌfriː ˈpæs/"}
+{"title":"free port","uk":"uk  / ˌfriː ˈpɔːt /","ukp":"/ˌfriː ˈpɔːt/","us":"us  / ˌfriː ˈpɔːrt /","usp":"/ˌfriː ˈpɔːrt/"}
+{"title":"free press","uk":"uk  / ˌfriː ˈpres /","ukp":"/ˌfriː ˈpres/","us":"us  / ˌfriː ˈpres /","usp":"/ˌfriː ˈpres/"}
+{"title":"free radical","uk":"uk  / ˌfriː ˈræd.ɪ.k ə l /","ukp":"/ˌfriː ˈræd.ɪ.kəl/","us":"us  / ˌfriː ˈræd.ɪ.k ə l /","usp":"/ˌfriː ˈræd.ɪ.kəl/"}
+{"title":"free rein","uk":"","us":"us / ˈfri ˈreɪn /","usp":"/ˈfri ˈreɪn/"}
+{"title":"free rider","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free runner","uk":"uk / ˈfriː ˌrʌn.ə r /","ukp":"/ˈfriː ˌrʌn.ər/","us":"us / ˈfriː ˌrʌn.ɚ /","usp":"/ˈfriː ˌrʌn.ɚ/"}
+{"title":"free running","uk":"uk  / ˌfriː ˈrʌn.ɪŋ /","ukp":"/ˌfriː ˈrʌn.ɪŋ/","us":"us  / ˌfriː ˈrʌn.ɪŋ /","usp":"/ˌfriː ˈrʌn.ɪŋ/"}
+{"title":"free school","uk":"uk  / ˈfriː ˌskuːl /","ukp":"/ˈfriː ˌskuːl/","us":"us  / ˈfriː ˌskuːl /","usp":"/ˈfriː ˌskuːl/"}
+{"title":"free software","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free soloing","uk":"uk  / ˈfriː ˌsəʊ.ləʊ.ɪŋ /","ukp":"/ˈfriː ˌsəʊ.ləʊ.ɪŋ/","us":"us  / ˈfriː ˌsoʊ.loʊ.ɪŋ /","usp":"/ˈfriː ˌsoʊ.loʊ.ɪŋ/"}
+{"title":"free soloist","uk":"uk  / ˈfriː ˌsəʊ.ləʊ.ɪst /","ukp":"/ˈfriː ˌsəʊ.ləʊ.ɪst/","us":"us  / ˈfriː ˌsoʊ.loʊ.ɪst /","usp":"/ˈfriː ˌsoʊ.loʊ.ɪst/"}
+{"title":"free someone from/of something","uk":"uk  / friː /","ukp":"/friː/","us":"us  / friː /","usp":"/friː/"}
+{"title":"free speech","uk":"uk  / ˌfriː ˈspiːtʃ /","ukp":"/ˌfriː ˈspiːtʃ/","us":"us  / ˌfriː ˈspiːtʃ /","usp":"/ˌfriː ˈspiːtʃ/"}
+{"title":"free solo","uk":"uk  / ˈfriː ˌsəʊ.ləʊ /","ukp":"/ˈfriː ˌsəʊ.ləʊ/","us":"us  / ˈfriː ˌsoʊ.loʊ /","usp":"/ˈfriː ˌsoʊ.loʊ/"}
+{"title":"free spirit","uk":"uk  / ˌfriː ˈspɪr.ɪt /","ukp":"/ˌfriː ˈspɪr.ɪt/","us":"us  / ˌfriː ˈspɪr.ət /","usp":"/ˌfriː ˈspɪr.ət/"}
+{"title":"free time","uk":"uk  / ˌfriː ˈtaɪm /","ukp":"/ˌfriː ˈtaɪm/","us":"us  / ˌfriː ˈtaɪm /","usp":"/ˌfriː ˈtaɪm/"}
+{"title":"free throw","uk":"uk  / ˌfriː ˈθrəʊ /","ukp":"/ˌfriː ˈθrəʊ/","us":"us  / ˈfriː ˌθroʊ /","usp":"/ˈfriː ˌθroʊ/"}
+{"title":"free trade","uk":"uk  / ˌfriː ˈtreɪd /","ukp":"/ˌfriː ˈtreɪd/","us":"us  / ˌfriː ˈtreɪd /","usp":"/ˌfriː ˈtreɪd/"}
+{"title":"free trade area","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free trade zone","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free trader","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free transfer","uk":"uk  / ˌfriː ˈtræns.fɜː r /","ukp":"/ˌfriː ˈtræns.fɜːr/","us":"us  / ˌfriː ˈtræns.fɝː /","usp":"/ˌfriː ˈtræns.fɝː/"}
+{"title":"free trial","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free up something","uk":"","us":"us  / fri /","usp":"/fri/"}
+{"title":"free verse","uk":"uk  / ˌfriː ˈvɜːs /","ukp":"/ˌfriː ˈvɜːs/","us":"us  / ˌfriː ˈvɝːs /","usp":"/ˌfriː ˈvɝːs/"}
+{"title":"free will","uk":"uk  / ˌfriː ˈwɪl /","ukp":"/ˌfriː ˈwɪl/","us":"us  / ˌfriː ˈwɪl /","usp":"/ˌfriː ˈwɪl/"}
+{"title":"free with","uk":"","us":""}
+{"title":"free zone","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free-floating","uk":"uk  / ˌfriːˈfləʊ.tɪŋ /","ukp":"/ˌfriːˈfləʊ.tɪŋ/","us":"us  / ˌfriːˈfloʊ.t̬ɪŋ /","usp":"/ˌfriːˈfloʊ.t̬ɪŋ/"}
+{"title":"free-flowing","uk":"uk  / ˌfriːˈfləʊ.ɪŋ /","ukp":"/ˌfriːˈfləʊ.ɪŋ/","us":"us  / ˌfriːˈfloʊ.ɪŋ /","usp":"/ˌfriːˈfloʊ.ɪŋ/"}
+{"title":"free-for-all","uk":"uk  / ˌfriː.fəˈrɔːl /","ukp":"/ˌfriː.fəˈrɔːl/","us":"us  / ˌfriː.fəˈrɑːl /","usp":"/ˌfriː.fəˈrɑːl/"}
+{"title":"free-form","uk":"uk  / ˈfriː.fɔːm /","ukp":"/ˈfriː.fɔːm/","us":"us  / ˈfriː.fɔːrm /","usp":"/ˈfriː.fɔːrm/"}
+{"title":"free-standing insert","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"free-range","uk":"uk  / ˌfriːˈreɪndʒ /","ukp":"/ˌfriːˈreɪndʒ/","us":"us  / ˌfriːˈreɪndʒ /","usp":"/ˌfriːˈreɪndʒ/"}
+{"title":"free-to-air","uk":"uk  / ˌfriː.tuˈeə r /","ukp":"/ˌfriː.tuˈeər/","us":"us  / ˌfriːtuˈer /","usp":"/ˌfriːtuˈer/"}
+{"title":"freebase","uk":"uk  / ˈfriː.beɪs /","ukp":"/ˈfriː.beɪs/","us":"us  / ˈfriː.beɪs /","usp":"/ˈfriː.beɪs/"}
+{"title":"freebased","uk":"uk  / ˈfriː.beɪs /","ukp":"/ˈfriː.beɪs/","us":"us  / ˈfriː.beɪs /","usp":"/ˈfriː.beɪs/"}
+{"title":"freebasing","uk":"uk  / ˈfriː.beɪ.sɪŋ /","ukp":"/ˈfriː.beɪ.sɪŋ/","us":"us  / ˈfriː.beɪ.sɪŋ /","usp":"/ˈfriː.beɪ.sɪŋ/"}
+{"title":"freebie","uk":"uk  / ˈfriː.bi /","ukp":"/ˈfriː.bi/","us":"us  / ˈfriː.bi /","usp":"/ˈfriː.bi/"}
+{"title":"freecycle","uk":"uk  / ˈfriːˌsaɪ.k ə l /","ukp":"/ˈfriːˌsaɪ.kəl/","us":"us  / ˈfriːˌsaɪ.k ə l /","usp":"/ˈfriːˌsaɪ.kəl/"}
+{"title":"freedive","uk":"uk  / ˈfriː.daɪv /","ukp":"/ˈfriː.daɪv/","us":"us  / ˈfriː.daɪv /","usp":"/ˈfriː.daɪv/"}
+{"title":"freed","uk":"uk  / friː /","ukp":"/friː/","us":"us  / friː /","usp":"/friː/"}
+{"title":"freediving","uk":"uk  / ˈfriː.daɪ.vɪŋ /","ukp":"/ˈfriː.daɪ.vɪŋ/","us":"us  / ˈfriː.daɪ.vɪŋ /","usp":"/ˈfriː.daɪ.vɪŋ/"}
+{"title":"freedman","uk":"uk  / ˈfriːd.mæn /","ukp":"/ˈfriːd.mæn/","us":"us  / ˈfriːd.mæn /","usp":"/ˈfriːd.mæn/"}
+{"title":"freedmen","uk":"","us":""}
+{"title":"freediver","uk":"uk  / ˈfriː.daɪ.və r /","ukp":"/ˈfriː.daɪ.vər/","us":"us  / ˈfriː.daɪ.vɚ /","usp":"/ˈfriː.daɪ.vɚ/"}
+{"title":"freedom fighter","uk":"uk  / ˈfriː.dəm ˌfaɪ.tə r /","ukp":"/ˈfriː.dəm ˌfaɪ.tər/","us":"us  / ˈfriː.dəm ˌfaɪ.t̬ɚ /","usp":"/ˈfriː.dəm ˌfaɪ.t̬ɚ/"}
+{"title":"freedom","uk":"uk  / ˈfriː.dəm /","ukp":"/ˈfriː.dəm/","us":"us  / ˈfriː.dəm /","usp":"/ˈfriː.dəm/"}
+{"title":"freedom of association","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"freedom of contract","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"freedom of information","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Freedom Rider","uk":"uk  / ˈfriː.dəm ˌraɪ.də r /","ukp":"/ˈfriː.dəm ˌraɪ.dər/","us":"us  / ˈfriː.dəm ˌraɪ.dɚ /","usp":"/ˈfriː.dəm ˌraɪ.dɚ/"}
+{"title":"freefall","uk":"uk  / ˌfriːˈfɔːl /","ukp":"/ˌfriːˈfɔːl/","us":"us  / ˌfriːˈfɑːl /","usp":"/ˌfriːˈfɑːl/"}
+{"title":"Freefone","uk":"uk  / ˈfriː.fəʊn /","ukp":"/ˈfriː.fəʊn/","us":"us  / ˈfriː.foʊn /","usp":"/ˈfriː.foʊn/"}
+{"title":"freeganism","uk":"uk / ˈfriː.ɡən.ɪ.z ə m /","ukp":"/ˈfriː.ɡən.ɪ.zəm/","us":"us  / ˈfriː.ɡən.ɪ.z ə m /","usp":"/ˈfriː.ɡən.ɪ.zəm/"}
+{"title":"freegan","uk":"uk  / ˈfriː.ɡən /","ukp":"/ˈfriː.ɡən/","us":"us  / ˈfriː.ɡən /","usp":"/ˈfriː.ɡən/"}
+{"title":"freehand","uk":"uk  / ˈfriː.hænd /","ukp":"/ˈfriː.hænd/","us":"us  / ˈfriː.hænd /","usp":"/ˈfriː.hænd/"}
+{"title":"freehold estate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"freehold","uk":"uk  / ˈfriː.həʊld /","ukp":"/ˈfriː.həʊld/","us":"us  / ˈfriː.hoʊld /","usp":"/ˈfriː.hoʊld/"}
+{"title":"freehold possession","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"freeholder","uk":"uk  / ˈfriː.həʊl.də r /","ukp":"/ˈfriː.həʊl.dər/","us":"us  / ˈfriː.hoʊl.dɚ /","usp":"/ˈfriː.hoʊl.dɚ/"}
+{"title":"fourteener","uk":"uk  / ˌfɔːˈtiː.nə r /","ukp":"/ˌfɔːˈtiː.nər/","us":"us  / ˌfɔːrˈtiː.nɚ /","usp":"/ˌfɔːrˈtiː.nɚ/"}
+{"title":"fourteenth","uk":"uk  / ˌfɔːˈtiːnθ /","ukp":"/ˌfɔːˈtiːnθ/","us":"us  / ˌfɔːrˈtiːnθ /","usp":"/ˌfɔːrˈtiːnθ/"}
+{"title":"fourth","uk":"uk  / fɔːθ /","ukp":"/fɔːθ/","us":"us  / fɔːrθ /","usp":"/fɔːrθ/"}
+{"title":"fourth market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fourth official","uk":"uk  / ˌfɔːθ əˈfɪʃ. ə l /","ukp":"/ˌfɔːθ əˈfɪʃ.əl/","us":"us  / ˌfɔːrθ əˈfɪʃ. ə l /","usp":"/ˌfɔːrθ əˈfɪʃ.əl/"}
+{"title":"fourth quarter","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fourth wall","uk":"uk  / ˌfɔːθ ˈwɔːl /","ukp":"/ˌfɔːθ ˈwɔːl/","us":"us  / ˌfɔːrθ ˈwɑːl /","usp":"/ˌfɔːrθ ˈwɑːl/"}
+{"title":"fourth-generation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fovea","uk":"uk  / ˈfəʊ.vi.ə /","ukp":"/ˈfəʊ.vi.ə/","us":"us  / ˈfoʊ.vi.ə /","usp":"/ˈfoʊ.vi.ə/"}
+{"title":"foveae","uk":"","us":""}
+{"title":"fox hunt","uk":"uk  / ˈfɒks ˌhʌnt /","ukp":"/ˈfɒks ˌhʌnt/","us":"us  / ˈfɑːks ˌhʌnt /","usp":"/ˈfɑːks ˌhʌnt/"}
+{"title":"fowl","uk":"uk  / faʊl /","ukp":"/faʊl/","us":"us  / faʊl /","usp":"/faʊl/"}
+{"title":"fox","uk":"uk  / fɒks /","ukp":"/fɒks/","us":"us  / fɑːks /","usp":"/fɑːks/"}
+{"title":"fox hunting","uk":"uk  / ˈfɒks ˌhʌn.tɪŋ /","ukp":"/ˈfɒks ˌhʌn.tɪŋ/","us":"us  / ˈfɑːks ˌhʌn.t̬ɪŋ /","usp":"/ˈfɑːks ˌhʌn.t̬ɪŋ/"}
+{"title":"fox in the box","uk":"uk  / ˌfɒks ɪn ðə ˈbɒks /","ukp":"/ˌfɒks ɪn ðə ˈbɒks/","us":"us  / ˌfɑːks ɪn ðə ˈbɑːks /","usp":"/ˌfɑːks ɪn ðə ˈbɑːks/"}
+{"title":"fox terrier","uk":"uk  / ˌfɒks ˈter.i.ə r /","ukp":"/ˌfɒks ˈter.i.ər/","us":"us  / ˌfɑːks ˈter.i.ɚ /","usp":"/ˌfɑːks ˈter.i.ɚ/"}
+{"title":"foxed","uk":"uk  / fɒks /","ukp":"/fɒks/","us":"us  / fɑːks /","usp":"/fɑːks/"}
+{"title":"foxglove","uk":"uk  / ˈfɒks.ɡlʌv /","ukp":"/ˈfɒks.ɡlʌv/","us":"us  / ˈfɑːks.ɡlʌv /","usp":"/ˈfɑːks.ɡlʌv/"}
+{"title":"foxhole","uk":"uk  / ˈfɒks.həʊl /","ukp":"/ˈfɒks.həʊl/","us":"us  / ˈfɑːks.hoʊl /","usp":"/ˈfɑːks.hoʊl/"}
+{"title":"foxing","uk":"uk  / fɒks /","ukp":"/fɒks/","us":"us  / fɑːks /","usp":"/fɑːks/"}
+{"title":"foxhound","uk":"uk  / ˈfɒks.haʊnd /","ukp":"/ˈfɒks.haʊnd/","us":"us  / ˈfɑːks.haʊnd /","usp":"/ˈfɑːks.haʊnd/"}
+{"title":"foxtrot","uk":"uk  / ˈfɒks.trɒt /","ukp":"/ˈfɒks.trɒt/","us":"us  / ˈfɑːks.trɑːt /","usp":"/ˈfɑːks.trɑːt/"}
+{"title":"foxy","uk":"uk  / ˈfɒk.si /","ukp":"/ˈfɒk.si/","us":"us  / ˈfɑːk.si /","usp":"/ˈfɑːk.si/"}
+{"title":"foyer","uk":"uk  / ˈfɔɪ.eɪ /","ukp":"/ˈfɔɪ.eɪ/","us":"us  / ˈfɔɪ.ɚ /","usp":"/ˈfɔɪ.ɚ/"}
+{"title":"FPA","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fps","uk":"uk  / ˌef.piːˈes /","ukp":"/ˌef.piːˈes/","us":"us  / ˌef.piːˈes /","usp":"/ˌef.piːˈes/"}
+{"title":"Fr.","uk":"","us":""}
+{"title":"fracas","uk":"uk  / ˈfræk.ɑː /","ukp":"/ˈfræk.ɑː/","us":"us  / ˈfreɪ.kəs /","usp":"/ˈfreɪ.kəs/"}
+{"title":"fracking","uk":"uk  / ˈfræk.ɪŋ /","ukp":"/ˈfræk.ɪŋ/","us":"us  / ˈfræk.ɪŋ /","usp":"/ˈfræk.ɪŋ/"}
+{"title":"fractal","uk":"uk  / ˈfræk.t ə l /","ukp":"/ˈfræk.təl/","us":"us  / ˈfræk.t ə l /","usp":"/ˈfræk.təl/"}
+{"title":"fractional","uk":"uk  / ˈfræk.ʃ ə n. ə l /","ukp":"/ˈfræk.ʃən.əl/","us":"us  / ˈfræk.ʃ ə n. ə l /","usp":"/ˈfræk.ʃən.əl/"}
+{"title":"fraction","uk":"uk  / ˈfræk.ʃ ə n /","ukp":"/ˈfræk.ʃən/","us":"us  / ˈfræk.ʃ ə n /","usp":"/ˈfræk.ʃən/"}
+{"title":"fractional distillation","uk":"uk  / ˌfræk.ʃ ə n. ə l dɪs.tɪˈleɪ.ʃ ə n /","ukp":"/ˌfræk.ʃən.əl dɪs.tɪˈleɪ.ʃən/","us":"us  / ˌfræk.ʃ ə n. ə l dɪs.təˈleɪ.ʃ ə n /","usp":"/ˌfræk.ʃən.əl dɪs.təˈleɪ.ʃən/"}
+{"title":"fractional owner","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fractional ownership","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fractional reserve banking","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fractional share","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fractionally","uk":"uk  / ˈfræk.ʃ ə n. ə l.i /","ukp":"/ˈfræk.ʃən.əl.i/","us":"us  / ˈfræk.ʃ ə n. ə l.i /","usp":"/ˈfræk.ʃən.əl.i/"}
+{"title":"fractiousness","uk":"uk  / ˈfræk.ʃəs.nəs /","ukp":"/ˈfræk.ʃəs.nəs/","us":"us  / ˈfræk.ʃəs.nəs /","usp":"/ˈfræk.ʃəs.nəs/"}
+{"title":"fractious","uk":"uk  / ˈfræk.ʃəs /","ukp":"/ˈfræk.ʃəs/","us":"us  / ˈfræk.ʃəs /","usp":"/ˈfræk.ʃəs/"}
+{"title":"fracture","uk":"uk  / ˈfræk.tʃə r /","ukp":"/ˈfræk.tʃər/","us":"us  / ˈfræk.tʃɚ /","usp":"/ˈfræk.tʃɚ/"}
+{"title":"freight forwarder","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"fractured","uk":"uk  / ˈfræk.tʃə r /","ukp":"/ˈfræk.tʃər/","us":"us  / ˈfræk.tʃɚ /","usp":"/ˈfræk.tʃɚ/"}
+{"title":"freight paid","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"freight prepaid","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Freight Transport Association","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"freight train","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"freightage","uk":"uk  / ˈfreɪtɪdʒ /","ukp":"/ˈfreɪtɪdʒ/","us":"us ","usp":""}
+{"title":"freighted","uk":"uk  / freɪt /","ukp":"/freɪt/","us":"us  / freɪt /","usp":"/freɪt/"}
+{"title":"freighting","uk":"uk  / freɪt /","ukp":"/freɪt/","us":"us  / freɪt /","usp":"/freɪt/"}
+{"title":"freighter","uk":"uk  / ˈfreɪ.tə r /","ukp":"/ˈfreɪ.tər/","us":"us  / ˈfreɪ.t̬ɚ /","usp":"/ˈfreɪ.t̬ɚ/"}
+{"title":"French","uk":"uk  / frentʃ /","ukp":"/frentʃ/","us":"us  / frentʃ /","usp":"/frentʃ/"}
+{"title":"French bean","uk":"uk  / ˌfrentʃ ˈbiːn /","ukp":"/ˌfrentʃ ˈbiːn/","us":"us  / ˌfrentʃ ˈbiːn /","usp":"/ˌfrentʃ ˈbiːn/"}
+{"title":"French bread","uk":"uk  / ˌfrentʃ ˈbred /","ukp":"/ˌfrentʃ ˈbred/","us":"us  / ˌfrentʃ ˈbred /","usp":"/ˌfrentʃ ˈbred/"}
+{"title":"French cricket","uk":"uk  / ˌfrentʃ ˈkrɪk.ɪt /","ukp":"/ˌfrentʃ ˈkrɪk.ɪt/","us":"us  / ˌfrentʃ ˈkrɪk.ɪt /","usp":"/ˌfrentʃ ˈkrɪk.ɪt/"}
+{"title":"French Canadian","uk":"uk  / ˌfrentʃ kəˈneɪ.di.ən /","ukp":"/ˌfrentʃ kəˈneɪ.di.ən/","us":"us  / ˌfrentʃ kəˈneɪ.di.ən /","usp":"/ˌfrentʃ kəˈneɪ.di.ən/"}
+{"title":"French disease","uk":"uk  / ˈfrentʃ dɪˌziːz /","ukp":"/ˈfrentʃ dɪˌziːz/","us":"us  / ˈfrentʃ dɪˌziːz /","usp":"/ˈfrentʃ dɪˌziːz/"}
+{"title":"French doors","uk":"uk  / ˌfrentʃ ˈdɔːz /","ukp":"/ˌfrentʃ ˈdɔːz/","us":"us  / ˌfrentʃ ˈdɔːrz /","usp":"/ˌfrentʃ ˈdɔːrz/"}
+{"title":"French dressing","uk":"uk  / ˌfrentʃ ˈdres.ɪŋ /","ukp":"/ˌfrentʃ ˈdres.ɪŋ/","us":"us  / ˌfrentʃ ˈdres.ɪŋ /","usp":"/ˌfrentʃ ˈdres.ɪŋ/"}
+{"title":"French Foreign Legion","uk":"uk  / ˌfrentʃ fɒr.ən ˈliː.dʒ ə n /","ukp":"/ˌfrentʃ fɒr.ən ˈliː.dʒən/","us":"us  / ˌfrentʃ fɔːr.ən ˈliː.dʒ ə n /","usp":"/ˌfrentʃ fɔːr.ən ˈliː.dʒən/"}
+{"title":"French fries","uk":"","us":"us  / ˈfrentʃ ˈfrɑɪz /","usp":"/ˈfrentʃ ˈfrɑɪz/"}
+{"title":"French fry","uk":"uk  / ˌfrentʃ ˈfraɪ /","ukp":"/ˌfrentʃ ˈfraɪ/","us":"us  / ˌfrentʃ ˈfraɪ /","usp":"/ˌfrentʃ ˈfraɪ/"}
+{"title":"French horn","uk":"uk  / ˌfrentʃ ˈhɔːn /","ukp":"/ˌfrentʃ ˈhɔːn/","us":"us  / ˌfrentʃ ˈhɔːrn /","usp":"/ˌfrentʃ ˈhɔːrn/"}
+{"title":"French kiss","uk":"uk  / ˌfrentʃ ˈkɪs /","ukp":"/ˌfrentʃ ˈkɪs/","us":"us  / ˌfrentʃ ˈkɪs /","usp":"/ˌfrentʃ ˈkɪs/"}
+{"title":"French knickers","uk":"uk  / ˌfrentʃ ˈnɪk.əz /","ukp":"/ˌfrentʃ ˈnɪk.əz/","us":"us  / ˌfrentʃ ˈnɪk.ɚz /","usp":"/ˌfrentʃ ˈnɪk.ɚz/"}
+{"title":"French letter","uk":"uk  / ˌfrentʃ ˈlet.ə r /","ukp":"/ˌfrentʃ ˈlet.ər/","us":"us  / ˌfrentʃ ˈlet̬.ɚ /","usp":"/ˌfrentʃ ˈlet̬.ɚ/"}
+{"title":"French loaf","uk":"uk  / ˌfrentʃ ˈləʊf /","ukp":"/ˌfrentʃ ˈləʊf/","us":"us  / ˌfrentʃ ˈloʊf /","usp":"/ˌfrentʃ ˈloʊf/"}
+{"title":"French manicure","uk":"uk  / ˌfrentʃ ˈmæn.ɪ.kjʊə r /","ukp":"/ˌfrentʃ ˈmæn.ɪ.kjʊər/","us":"us  / ˌfrentʃ ˈmæn.ɪ.kjʊr /","usp":"/ˌfrentʃ ˈmæn.ɪ.kjʊr/"}
+{"title":"French pastry","uk":"uk / ˌfrentʃ ˈpeɪ.stri /","ukp":"/ˌfrentʃ ˈpeɪ.stri/","us":"us / ˌfrentʃ ˈpeɪ.stri /","usp":"/ˌfrentʃ ˈpeɪ.stri/"}
+{"title":"French Polynesia","uk":"uk  / ˌfrentʃ ˌpɒl.ɪˈniː.ʒə /","ukp":"/ˌfrentʃ ˌpɒl.ɪˈniː.ʒə/","us":"us  / ˌfrentʃ ˌpɑː.ləˈniː.ʒə /","usp":"/ˌfrentʃ ˌpɑː.ləˈniː.ʒə/"}
+{"title":"French press","uk":"uk  / ˌfrentʃ ˈpres /","ukp":"/ˌfrentʃ ˈpres/","us":"us  / ˌfrentʃ ˈpres /","usp":"/ˌfrentʃ ˈpres/"}
+{"title":"French silk pie","uk":"uk / ˌfrentʃ ˌsɪlk ˈpaɪ /","ukp":"/ˌfrentʃ ˌsɪlk ˈpaɪ/","us":"us / ˌfrentʃ ˌsɪlk ˈpaɪ /","usp":"/ˌfrentʃ ˌsɪlk ˈpaɪ/"}
+{"title":"French stick","uk":"uk  / ˌfrentʃ ˈstɪk /","ukp":"/ˌfrentʃ ˈstɪk/","us":"us  / ˌfrentʃ ˈstɪk /","usp":"/ˌfrentʃ ˈstɪk/"}
+{"title":"French tip","uk":"uk  / ˌfrentʃ ˈtɪp /","ukp":"/ˌfrentʃ ˈtɪp/","us":"us  / ˌfrentʃ ˈtɪp /","usp":"/ˌfrentʃ ˈtɪp/"}
+{"title":"French toast","uk":"uk  / ˌfrentʃ ˈtəʊst /","ukp":"/ˌfrentʃ ˈtəʊst/","us":"us  / ˌfrentʃ ˈtoʊst /","usp":"/ˌfrentʃ ˈtoʊst/"}
+{"title":"French tuck","uk":"uk  / ˌfrentʃ ˈtʌk /","ukp":"/ˌfrentʃ ˈtʌk/","us":"us  / ˌfrentʃ ˈtʌk /","usp":"/ˌfrentʃ ˈtʌk/"}
+{"title":"French windows","uk":"uk  / ˌfrentʃ ˈwɪn.dəʊz /","ukp":"/ˌfrentʃ ˈwɪn.dəʊz/","us":"us  / ˌfrentʃ ˈwɪn.doʊz /","usp":"/ˌfrentʃ ˈwɪn.doʊz/"}
+{"title":"Frenchman","uk":"uk  / ˈfrentʃ.mən /","ukp":"/ˈfrentʃ.mən/","us":"us  / ˈfrentʃ.mən /","usp":"/ˈfrentʃ.mən/"}
+{"title":"Frenching","uk":"","us":""}
+{"title":"Frenchwoman","uk":"uk  / ˈfrentʃˌwʊm.ən /","ukp":"/ˈfrentʃˌwʊm.ən/","us":"us  / ˈfrentʃˌwʊm.ən /","usp":"/ˈfrentʃˌwʊm.ən/"}
+{"title":"frenemy","uk":"uk  / ˈfren.ə.mi /","ukp":"/ˈfren.ə.mi/","us":"us  / ˈfren.ə.mi /","usp":"/ˈfren.ə.mi/"}
+{"title":"french-polish","uk":"uk  / ˌfrentʃ ˈpɒl.ɪʃ /","ukp":"/ˌfrentʃ ˈpɒl.ɪʃ/","us":"us  / ˌfrentʃ ˈpɑː.lɪʃ /","usp":"/ˌfrentʃ ˈpɑː.lɪʃ/"}
+{"title":"frenula","uk":"","us":""}
+{"title":"frenetically","uk":"uk  / frəˈnet.ɪ.k ə l.i /","ukp":"/frəˈnet.ɪ.kəl.i/","us":"us  / frəˈnet̬.ɪ.k ə l.i /","usp":"/frəˈnet̬.ɪ.kəl.i/"}
+{"title":"frenetic","uk":"uk  / frəˈnet.ɪk /","ukp":"/frəˈnet.ɪk/","us":"us  / frəˈnet̬.ɪk /","usp":"/frəˈnet̬.ɪk/"}
+{"title":"frenulum","uk":"uk  / ˈfriːn.jə.ləm /","ukp":"/ˈfriːn.jə.ləm/","us":"us  / ˈfren.jə.ləm /","usp":"/ˈfren.jə.ləm/"}
+{"title":"frenzied","uk":"uk  / ˈfren.ziːd /","ukp":"/ˈfren.ziːd/","us":"us  / ˈfren.ziːd /","usp":"/ˈfren.ziːd/"}
+{"title":"frequency discount","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"frenzy","uk":"uk  / ˈfren.zi /","ukp":"/ˈfren.zi/","us":"us  / ˈfren.zi /","usp":"/ˈfren.zi/"}
+{"title":"frequency","uk":"uk  / ˈfriː.kwən.si /","ukp":"/ˈfriː.kwən.si/","us":"us  / ˈfriː.kwən.si /","usp":"/ˈfriː.kwən.si/"}
+{"title":"frankness","uk":"uk  / ˈfræŋk.nəs /","ukp":"/ˈfræŋk.nəs/","us":"us  / ˈfræŋk.nəs /","usp":"/ˈfræŋk.nəs/"}
+{"title":"frantic","uk":"uk  / ˈfræn.tɪk /","ukp":"/ˈfræn.tɪk/","us":"us  / ˈfræn.t̬ɪk /","usp":"/ˈfræn.t̬ɪk/"}
+{"title":"frappé","uk":"uk  / ˈfræp.eɪ /","ukp":"/ˈfræp.eɪ/","us":"us  / fræpˈeɪ /","usp":"/fræpˈeɪ/"}
+{"title":"frantically","uk":"uk  / ˈfræn.tɪ.k ə l.i /","ukp":"/ˈfræn.tɪ.kəl.i/","us":"us  / ˈfræn.t̬ɪ.k ə l.i /","usp":"/ˈfræn.t̬ɪ.kəl.i/"}
+{"title":"frat","uk":"uk  / fræt /","ukp":"/fræt/","us":"us  / fræt /","usp":"/fræt/"}
+{"title":"frat boy","uk":"uk  / ˈfræt ˌbɔɪ /","ukp":"/ˈfræt ˌbɔɪ/","us":"us  / ˈfræt ˌbɔɪ /","usp":"/ˈfræt ˌbɔɪ/"}
+{"title":"fraternal twin","uk":"uk  / frəˌtɜː.nəl ˈtwɪn /","ukp":"/frəˌtɜː.nəl ˈtwɪn/","us":"us  / frəˌtɝː.nəl ˈtwɪn /","usp":"/frəˌtɝː.nəl ˈtwɪn/"}
+{"title":"fraternally","uk":"uk  / frəˈtɜː.n ə l.i /","ukp":"/frəˈtɜː.nəl.i/","us":"us  / frəˈtɝː.n ə l.i /","usp":"/frəˈtɝː.nəl.i/"}
+{"title":"fraternal","uk":"uk  / frəˈtɜː.n ə l /","ukp":"/frəˈtɜː.nəl/","us":"us  / frəˈtɝː.n ə l /","usp":"/frəˈtɝː.nəl/"}

@@ -1,0 +1,936 @@
+{"title":"carcinogenesis","uk":"uk  / ˌkɑː.sɪn.əˈdʒen.ə.sɪs /","ukp":"/ˌkɑː.sɪn.əˈdʒen.ə.sɪs/","us":"us  / ˌkɑːr.sə.nəˈdʒen.ə.sɪs /","usp":"/ˌkɑːr.sə.nəˈdʒen.ə.sɪs/"}
+{"title":"carcinoid","uk":"uk  / ˈkɑː.sɪ.nɔɪd /","ukp":"/ˈkɑː.sɪ.nɔɪd/","us":"us  / ˈkɑːr.səˌnɔɪd /","usp":"/ˈkɑːr.səˌnɔɪd/"}
+{"title":"carcinogenic","uk":"uk  / ˌkɑː.sɪ.nəˈdʒen.ɪk /","ukp":"/ˌkɑː.sɪ.nəˈdʒen.ɪk/","us":"us  / ˌkɑːr.s ə n.oʊˈdʒen.ɪk /","usp":"/ˌkɑːr.sən.oʊˈdʒen.ɪk/"}
+{"title":"carcinogen","uk":"uk  / kɑːˈsɪn.ə.dʒ ə n /","ukp":"/kɑːˈsɪn.ə.dʒən/","us":"us  / kɑːrˈsɪn.ə.dʒ ə n /","usp":"/kɑːrˈsɪn.ə.dʒən/"}
+{"title":"carcinoma","uk":"uk  / kɑː.sɪˈnəʊ.mə /","ukp":"/kɑː.sɪˈnəʊ.mə/","us":"us  / kɑːr.səˈnoʊ.mə /","usp":"/kɑːr.səˈnoʊ.mə/"}
+{"title":"card catalogue","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"card index","uk":"uk  / ˈkɑːd ˌɪn.deks /","ukp":"/ˈkɑːd ˌɪn.deks/","us":"us  / ˈkɑːrd ˌɪn.deks /","usp":"/ˈkɑːrd ˌɪn.deks/"}
+{"title":"card","uk":"uk  / kɑːd /","ukp":"/kɑːd/","us":"us  / kɑːrd /","usp":"/kɑːrd/"}
+{"title":"card not present","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"card present","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"card sharp","uk":"uk  / ˈkɑːd ˌʃɑːp /","ukp":"/ˈkɑːd ˌʃɑːp/","us":"us  / ˈkɑːrd ˌʃɑːrp /","usp":"/ˈkɑːrd ˌʃɑːrp/"}
+{"title":"card reader","uk":"uk  / ˈkɑːd ˌriː.də r /","ukp":"/ˈkɑːd ˌriː.dər/","us":"us  / ˈkɑːrd ˌriː.dɚ /","usp":"/ˈkɑːrd ˌriː.dɚ/"}
+{"title":"card table","uk":"uk  / ˈkɑːd ˌteɪ.b ə l /","ukp":"/ˈkɑːd ˌteɪ.bəl/","us":"us  / ˈkɑːrd ˌteɪ.b ə l /","usp":"/ˈkɑːrd ˌteɪ.bəl/"}
+{"title":"card vote","uk":"uk  / ˈkɑːd ˌvəʊt /","ukp":"/ˈkɑːd ˌvəʊt/","us":"us  / ˈkɑːrd ˌvoʊt /","usp":"/ˈkɑːrd ˌvoʊt/"}
+{"title":"card-carrying member","uk":"uk  / ˌkɑːd.kær.i.ɪŋ ˈmem.bə r /","ukp":"/ˌkɑːd.kær.i.ɪŋ ˈmem.bər/","us":"us  / ˌkɑːrd.ker.i.ɪŋ ˈmem.bɚ /","usp":"/ˌkɑːrd.ker.i.ɪŋ ˈmem.bɚ/"}
+{"title":"cardamom","uk":"uk  / ˈkɑː.də.məm /","ukp":"/ˈkɑː.də.məm/","us":"us  / ˈkɑːr.də.məm /","usp":"/ˈkɑːr.də.məm/"}
+{"title":"cardboard","uk":"uk  / ˈkɑːd.bɔːd /","ukp":"/ˈkɑːd.bɔːd/","us":"us  / ˈkɑːrd.bɔːrd /","usp":"/ˈkɑːrd.bɔːrd/"}
+{"title":"cardboard cutout","uk":"uk  / ˌkɑːd.bɔːd ˈkʌt.aʊt /","ukp":"/ˌkɑːd.bɔːd ˈkʌt.aʊt/","us":"us  / ˌkɑːrd.bɔːrd ˈkʌt̬.aʊt /","usp":"/ˌkɑːrd.bɔːrd ˈkʌt̬.aʊt/"}
+{"title":"carded","uk":"uk  / kɑːd /","ukp":"/kɑːd/","us":"us  / kɑːrd /","usp":"/kɑːrd/"}
+{"title":"cardi-","uk":"uk  / kɑː.di- /","ukp":"/kɑː.di-/","us":"us  / kɑːr.di- /","usp":"/kɑːr.di-/"}
+{"title":"cardholder","uk":"uk  / ˈkɑːdˌhəʊl.də r /","ukp":"/ˈkɑːdˌhəʊl.dər/","us":"us  / ˈkɑːrdˌhoʊl.dɚ /","usp":"/ˈkɑːrdˌhoʊl.dɚ/"}
+{"title":"cardiac ablation","uk":"uk  / ˌkɑː.di.æk əˈbleɪ.ʃ ə n /","ukp":"/ˌkɑː.di.æk əˈbleɪ.ʃən/","us":"us  / ˌkɑːr.di.æk əˈbleɪ.ʃ ə n /","usp":"/ˌkɑːr.di.æk əˈbleɪ.ʃən/"}
+{"title":"cardiac","uk":"uk  / ˈkɑː.di.æk /","ukp":"/ˈkɑː.di.æk/","us":"us  / ˈkɑːr.di.æk /","usp":"/ˈkɑːr.di.æk/"}
+{"title":"cardiac catheterization","uk":"uk  / ˌkɑː.di.æk kæθ.ə.tə.raɪˈzeɪ.ʃ ə n /","ukp":"/ˌkɑː.di.æk kæθ.ə.tə.raɪˈzeɪ.ʃən/","us":"us  / ˌkɑːr.di.æk kæθ.ə.t̬ɚ.əˈzeɪ.ʃ ə n /","usp":"/ˌkɑːr.di.æk kæθ.ə.t̬ɚ.əˈzeɪ.ʃən/"}
+{"title":"cardiac arrest","uk":"uk  / ˌkɑː.di.æk əˈrest /","ukp":"/ˌkɑː.di.æk əˈrest/","us":"us  / ˌkɑːr.di.æk əˈrest /","usp":"/ˌkɑːr.di.æk əˈrest/"}
+{"title":"cardiac resynchronization therapy","uk":"uk  / ˌkɑː.di.æk riː.sɪŋ.krə.naɪˈzeɪ.ʃ ə n ˌθer.ə.pi /","ukp":"/ˌkɑː.di.æk riː.sɪŋ.krə.naɪˈzeɪ.ʃən ˌθer.ə.pi/","us":"us  / ˌkɑːr.di.æk riː.sɪŋ.krə.nəˈzeɪ.ʃ ə n ˌθer.ə.pi /","usp":"/ˌkɑːr.di.æk riː.sɪŋ.krə.nəˈzeɪ.ʃən ˌθer.ə.pi/"}
+{"title":"Cardiff","uk":"uk  / ˈkɑː.dɪf /","ukp":"/ˈkɑː.dɪf/","us":"us  / ˈkɑːr.dɪf /","usp":"/ˈkɑːr.dɪf/"}
+{"title":"cardigan","uk":"uk  / ˈkɑː.dɪ.ɡən /","ukp":"/ˈkɑː.dɪ.ɡən/","us":"us  / ˈkɑːr.dɪ.ɡən /","usp":"/ˈkɑːr.dɪ.ɡən/"}
+{"title":"Cardiganshire","uk":"uk  / ˈkɑː.dɪ.ɡən.ʃə r /","ukp":"/ˈkɑː.dɪ.ɡən.ʃər/","us":"us  / ˈkɑːr.dɪ.ɡən.ʃɚ /","usp":"/ˈkɑːr.dɪ.ɡən.ʃɚ/"}
+{"title":"cardinal (number)","uk":"","us":"us  / ˈkɑr·d ə n·əl (ˈnʌm·bər) /","usp":"/ˈkɑr·dən·əl (ˈnʌm·bər)/"}
+{"title":"cardinal","uk":"uk  / ˈkɑː.dɪ.n ə l /","ukp":"/ˈkɑː.dɪ.nəl/","us":"us  / ˈkɑːr.dɪ.n ə l /","usp":"/ˈkɑːr.dɪ.nəl/"}
+{"title":"cardinal point","uk":"uk  / ˌkɑː.dɪ.nəl ˈpɔɪnt /","ukp":"/ˌkɑː.dɪ.nəl ˈpɔɪnt/","us":"us  / ˌkɑːr.dɪ.nəl ˈpɔɪnt /","usp":"/ˌkɑːr.dɪ.nəl ˈpɔɪnt/"}
+{"title":"cardinal vowel","uk":"uk  / ˌkɑː.dɪ.nəl ˈvaʊəl /","ukp":"/ˌkɑː.dɪ.nəl ˈvaʊəl/","us":"us  / ˌkɑːr.dɪ.nəl ˈvaʊəl /","usp":"/ˌkɑːr.dɪ.nəl ˈvaʊəl/"}
+{"title":"cardinality","uk":"uk  / ˈkɑː.dɪnˈæl.ə.ti /","ukp":"/ˈkɑː.dɪnˈæl.ə.ti/","us":"us  / ˈkɑːr.dɪnˈæl.ə.t̬i /","usp":"/ˈkɑːr.dɪnˈæl.ə.t̬i/"}
+{"title":"carding","uk":"uk  / ˈkɑː.dɪŋ /","ukp":"/ˈkɑː.dɪŋ/","us":"us  / ˈkɑːr.dɪŋ /","usp":"/ˈkɑːr.dɪŋ/"}
+{"title":"carbohydrase","uk":"uk  / ˌkɑː.bəʊˈhaɪ.dreɪz /","ukp":"/ˌkɑː.bəʊˈhaɪ.dreɪz/","us":"us  / ˌkɑːr.boʊˈhaɪ.dreɪz /","usp":"/ˌkɑːr.boʊˈhaɪ.dreɪz/"}
+{"title":"cardio","uk":"uk  / ˈkɑː.di.əʊ /","ukp":"/ˈkɑː.di.əʊ/","us":"us  / ˈkɑːr.di.oʊ /","usp":"/ˈkɑːr.di.oʊ/"}
+{"title":"carbohydrate","uk":"uk  / ˌkɑː.bəʊˈhaɪ.dreɪt /","ukp":"/ˌkɑː.bəʊˈhaɪ.dreɪt/","us":"us  / ˌkɑːr.boʊˈhaɪ.dreɪt /","usp":"/ˌkɑːr.boʊˈhaɪ.dreɪt/"}
+{"title":"carbolic acid","uk":"uk  / kɑːˌbɒl.ɪk ˈæs.ɪd /","ukp":"/kɑːˌbɒl.ɪk ˈæs.ɪd/","us":"us  / kɑːrˌbɑː.lɪk ˈæs.ɪd /","usp":"/kɑːrˌbɑː.lɪk ˈæs.ɪd/"}
+{"title":"carbolic soap","uk":"uk  / kɑːˌbɒl.ɪk ˈsəʊp /","ukp":"/kɑːˌbɒl.ɪk ˈsəʊp/","us":"us  / kɑːrˌbɑː.lɪk ˈsoʊp /","usp":"/kɑːrˌbɑː.lɪk ˈsoʊp/"}
+{"title":"carbon abatement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carbon absorption","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carbon","uk":"uk  / ˈkɑː.b ə n /","ukp":"/ˈkɑː.bən/","us":"us  / ˈkɑːr.b ə n /","usp":"/ˈkɑːr.bən/"}
+{"title":"carbon calculator","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carbon budget","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carbon capture","uk":"uk  / ˈkɑː.b ə n ˌkæp.tʃə r /","ukp":"/ˈkɑː.bən ˌkæp.tʃər/","us":"us  / ˈkɑːr.b ə n ˌkæp.tʃɚ /","usp":"/ˈkɑːr.bən ˌkæp.tʃɚ/"}
+{"title":"carbon chain","uk":"uk  / ˈkɑː.b ə n ˌtʃeɪn /","ukp":"/ˈkɑː.bən ˌtʃeɪn/","us":"us  / ˈkɑːr.b ə n ˌtʃeɪn /","usp":"/ˈkɑːr.bən ˌtʃeɪn/"}
+{"title":"carbon credit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carbon credits","uk":"uk  / ˈkɑː.b ə n ˌkred.ɪts /","ukp":"/ˈkɑː.bən ˌkred.ɪts/","us":"us  / ˈkɑːr.b ə n ˌkred.ɪts /","usp":"/ˈkɑːr.bən ˌkred.ɪts/"}
+{"title":"carbon copy","uk":"uk  / ˌkɑː.b ə n ˈkɒp.i /","ukp":"/ˌkɑː.bən ˈkɒp.i/","us":"us  / ˌkɑːr.b ə n ˈkɑː.pi /","usp":"/ˌkɑːr.bən ˈkɑː.pi/"}
+{"title":"carbon debt","uk":"uk  / ˌkɑː.b ə n ˈdet /","ukp":"/ˌkɑː.bən ˈdet/","us":"us  / ˌkɑːr.b ə n ˈdet /","usp":"/ˌkɑːr.bən ˈdet/"}
+{"title":"carbon dating","uk":"uk  / ˌkɑː.b ə n ˈdeɪ.tɪŋ /","ukp":"/ˌkɑː.bən ˈdeɪ.tɪŋ/","us":"us  / ˌkɑːr.b ə n ˈdeɪ.t̬ɪŋ /","usp":"/ˌkɑːr.bən ˈdeɪ.t̬ɪŋ/"}
+{"title":"carbon dioxide","uk":"uk  / ˌkɑː.b ə n daɪˈɒk.saɪd /","ukp":"/ˌkɑː.bən daɪˈɒk.saɪd/","us":"us  / ˌkɑːr.b ə n daɪˈɑːk.saɪd /","usp":"/ˌkɑːr.bən daɪˈɑːk.saɪd/"}
+{"title":"carbon emissions trading","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carbon emissions","uk":"uk  / ˈkɑː.b ə n iˌmɪʃ. ə nz /","ukp":"/ˈkɑː.bən iˌmɪʃ.ənz/","us":"us  / ˈkɑːr.b ə n iˌmɪʃ. ə nz /","usp":"/ˈkɑːr.bən iˌmɪʃ.ənz/"}
+{"title":"carbon footprint","uk":"uk  / ˌkɑː.b ə n ˈfʊt.prɪnt /","ukp":"/ˌkɑː.bən ˈfʊt.prɪnt/","us":"us  / ˌkɑːr.b ə n ˈfʊt.prɪnt /","usp":"/ˌkɑːr.bən ˈfʊt.prɪnt/"}
+{"title":"carbon monoxide","uk":"uk  / ˌkɑː.b ə n məˈnɒk.saɪd /","ukp":"/ˌkɑː.bən məˈnɒk.saɪd/","us":"us  / ˌkɑːr.b ə n məˈnɑːk.saɪd /","usp":"/ˌkɑːr.bən məˈnɑːk.saɪd/"}
+{"title":"carbon negative","uk":"uk / ˌkɑː.b ə n ˈneɡ.ə.tɪv /","ukp":"/ˌkɑː.bən ˈneɡ.ə.tɪv/","us":"us  / ˌkɑːr.b ə n ˈneɡ.ə.t̬ɪv /","usp":"/ˌkɑːr.bən ˈneɡ.ə.t̬ɪv/"}
+{"title":"carbon neutral","uk":"uk  / ˌkɑː.b ə n ˈnjuː.trəl /","ukp":"/ˌkɑː.bən ˈnjuː.trəl/","us":"us  / ˌkɑːr.b ə n ˈnuː.trəl /","usp":"/ˌkɑːr.bən ˈnuː.trəl/"}
+{"title":"carbon neutrality","uk":"uk / ˌkɑː.b ə n njuːˈtræl.ə.ti /","ukp":"/ˌkɑː.bən njuːˈtræl.ə.ti/","us":"us / ˌkɑːr.b ə n nuːˈtræl.ə.t̬i /","usp":"/ˌkɑːr.bən nuːˈtræl.ə.t̬i/"}
+{"title":"carbon offset","uk":"uk  / ˌkɑː.b ə n ˈɒf.set /","ukp":"/ˌkɑː.bən ˈɒf.set/","us":"us  / ˌkɑːr.b ə n ˈɑːf.set /","usp":"/ˌkɑːr.bən ˈɑːf.set/"}
+{"title":"carbon offsetting","uk":"uk / ˌkɑː.b ə n ˈɒf.set.ɪŋ /","ukp":"/ˌkɑː.bən ˈɒf.set.ɪŋ/","us":"us / ˌkɑːr.b ə n ˈɑːf.set̬.ɪŋ /","usp":"/ˌkɑːr.bən ˈɑːf.set̬.ɪŋ/"}
+{"title":"carbon paper","uk":"uk  / ˈkɑː.b ə n ˌpeɪ.pə r /","ukp":"/ˈkɑː.bən ˌpeɪ.pər/","us":"us  / ˈkɑːr.b ə n ˌpeɪ.pɚ /","usp":"/ˈkɑːr.bən ˌpeɪ.pɚ/"}
+{"title":"carbon sink","uk":"uk  / ˈkɑː.b ə n ˌsɪŋk /","ukp":"/ˈkɑː.bən ˌsɪŋk/","us":"us  / ˈkɑːr.b ə n ˌsɪŋk /","usp":"/ˈkɑːr.bən ˌsɪŋk/"}
+{"title":"carbon tax","uk":"uk  / ˈkɑː.b ə n ˌtæks /","ukp":"/ˈkɑː.bən ˌtæks/","us":"us  / ˈkɑːr.b ə n ˌtæks /","usp":"/ˈkɑːr.bən ˌtæks/"}
+{"title":"carbon trading","uk":"uk  / ˈkɑː.b ə n ˌtreɪ.dɪŋ /","ukp":"/ˈkɑː.bən ˌtreɪ.dɪŋ/","us":"us  / ˈkɑːr.b ə n ˌtreɪ.dɪŋ /","usp":"/ˈkɑːr.bən ˌtreɪ.dɪŋ/"}
+{"title":"carbon-zero","uk":"uk  / ˌkɑː.b ə nˈzɪə.rəʊ /","ukp":"/ˌkɑː.bənˈzɪə.rəʊ/","us":"us  / ˌkɑːr.b ə nˈzɪr.oʊ /","usp":"/ˌkɑːr.bənˈzɪr.oʊ/"}
+{"title":"carbonara","uk":"uk  / ˌkɑː.bəˈnɑː.rə /","ukp":"/ˌkɑː.bəˈnɑː.rə/","us":"us  / ˌkɑːr.bəˈnɑːr.ə /","usp":"/ˌkɑːr.bəˈnɑːr.ə/"}
+{"title":"carbonate","uk":"uk  / ˈkɑː.b ə n.eɪt /","ukp":"/ˈkɑː.bən.eɪt/","us":"us  / ˈkɑːr.b ə n.eɪt /","usp":"/ˈkɑːr.bən.eɪt/"}
+{"title":"carbonic","uk":"uk  / kɑːˈbɒn.ɪk /","ukp":"/kɑːˈbɒn.ɪk/","us":"us  / kɑːrˈbɑː.nɪk /","usp":"/kɑːrˈbɑː.nɪk/"}
+{"title":"carbonated","uk":"uk  / ˈkɑː.b ə n.eɪ.tɪd /","ukp":"/ˈkɑː.bən.eɪ.tɪd/","us":"us  / ˈkɑːr.b ə n.eɪ.t̬ɪd /","usp":"/ˈkɑːr.bən.eɪ.t̬ɪd/"}
+{"title":"carbonic acid","uk":"uk  / kɑːˌbɒn.ɪk ˈæs.ɪd /","ukp":"/kɑːˌbɒn.ɪk ˈæs.ɪd/","us":"us  / kɑːrˌbɑː.nɪk ˈæs.ɪd /","usp":"/kɑːrˌbɑː.nɪk ˈæs.ɪd/"}
+{"title":"carbonization","uk":"uk / ˌkɑː.bə.naɪˈzeɪ.ʃ ə n /","ukp":"/ˌkɑː.bə.naɪˈzeɪ.ʃən/","us":"us  / ˌkɑːr.bə.nəˈzeɪ.ʃ ə n /","usp":"/ˌkɑːr.bə.nəˈzeɪ.ʃən/"}
+{"title":"carbonize","uk":"uk  / ˈkɑː.b ə n.aɪz /","ukp":"/ˈkɑː.bən.aɪz/","us":"us  / ˈkɑːr.b ə n.aɪz /","usp":"/ˈkɑːr.bən.aɪz/"}
+{"title":"carboniferous","uk":"uk  / ˌkɑː.bəˈnɪf. ə r.əs /","ukp":"/ˌkɑː.bəˈnɪf.ər.əs/","us":"us  / ˌkɑːr.bəˈnɪf.ɚ.əs /","usp":"/ˌkɑːr.bəˈnɪf.ɚ.əs/"}
+{"title":"carbonized","uk":"uk  / ˈkɑː.b ə n.aɪz /","ukp":"/ˈkɑː.bən.aɪz/","us":"us  / ˈkɑːr.b ə n.aɪz /","usp":"/ˈkɑːr.bən.aɪz/"}
+{"title":"carbonizing","uk":"uk  / ˈkɑː.b ə n.aɪz /","ukp":"/ˈkɑː.bən.aɪz/","us":"us  / ˈkɑːr.b ə n.aɪz /","usp":"/ˈkɑːr.bən.aɪz/"}
+{"title":"carbonnade","uk":"uk / ˌkɑː.b ə nˈeɪd /","ukp":"/ˌkɑː.bənˈeɪd/","us":"us / ˌkɑːr.bəˈnɑːd /","usp":"/ˌkɑːr.bəˈnɑːd/"}
+{"title":"careerist","uk":"uk  / kəˈrɪə.rɪst /","ukp":"/kəˈrɪə.rɪst/","us":"us  / kəˈrɪr.ɪst /","usp":"/kəˈrɪr.ɪst/"}
+{"title":"careers","uk":"uk  / kəˈrɪəz /","ukp":"/kəˈrɪəz/","us":"us  / kəˈrɪrz /","usp":"/kəˈrɪrz/"}
+{"title":"careers officer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"careful","uk":"uk  / ˈkeə.f ə l /","ukp":"/ˈkeə.fəl/","us":"us  / ˈker.f ə l /","usp":"/ˈker.fəl/"}
+{"title":"carefree","uk":"uk  / ˈkeə.friː /","ukp":"/ˈkeə.friː/","us":"us  / ˈker.friː /","usp":"/ˈker.friː/"}
+{"title":"carefully","uk":"uk  / ˈkeə.f ə l.i /","ukp":"/ˈkeə.fəl.i/","us":"us  / ˈker.f ə l.i /","usp":"/ˈker.fəl.i/"}
+{"title":"carefulness","uk":"uk  / ˈkeə.f ə l.nəs /","ukp":"/ˈkeə.fəl.nəs/","us":"us  / ˈker.f ə l.nəs /","usp":"/ˈker.fəl.nəs/"}
+{"title":"caregiver","uk":"uk  / ˈkeəˌɡɪv.ə r /","ukp":"/ˈkeəˌɡɪv.ər/","us":"us  / ˈkerˌɡɪv.ɚ /","usp":"/ˈkerˌɡɪv.ɚ/"}
+{"title":"careless","uk":"uk  / ˈkeə.ləs /","ukp":"/ˈkeə.ləs/","us":"us  / ˈker.ləs /","usp":"/ˈker.ləs/"}
+{"title":"carelessly","uk":"uk  / ˈkeə.ləs.li /","ukp":"/ˈkeə.ləs.li/","us":"us  / ˈker.ləs.li /","usp":"/ˈker.ləs.li/"}
+{"title":"carelessness","uk":"uk  / ˈkeə.ləs.nəs /","ukp":"/ˈkeə.ləs.nəs/","us":"us  / ˈker.ləs.nəs /","usp":"/ˈker.ləs.nəs/"}
+{"title":"carer","uk":"uk  / ˈkeə.rə r /","ukp":"/ˈkeə.rər/","us":"us  / ˈker.ɚ /","usp":"/ˈker.ɚ/"}
+{"title":"caress","uk":"uk  / kəˈres /","ukp":"/kəˈres/","us":"us  / kəˈres /","usp":"/kəˈres/"}
+{"title":"caressed","uk":"uk  / kəˈres /","ukp":"/kəˈres/","us":"us  / kəˈres /","usp":"/kəˈres/"}
+{"title":"caressing","uk":"uk  / kəˈres /","ukp":"/kəˈres/","us":"us  / kəˈres /","usp":"/kəˈres/"}
+{"title":"caret","uk":"uk  / ˈkær.ət /","ukp":"/ˈkær.ət/","us":"us  / ˈker.ət /","usp":"/ˈker.ət/"}
+{"title":"caretaker","uk":"uk  / ˈkeəˌteɪ.kə r /","ukp":"/ˈkeəˌteɪ.kər/","us":"us  / ˈkerˌteɪ.kɚ /","usp":"/ˈkerˌteɪ.kɚ/"}
+{"title":"caretaker government","uk":"uk  / ˌkeə.teɪ.kə ˈɡʌv. ə n.mənt /","ukp":"/ˌkeə.teɪ.kə ˈɡʌv.ən.mənt/","us":"us  / ˌker.teɪ.kɚ ˈɡʌv.ɚn.mənt /","usp":"/ˌker.teɪ.kɚ ˈɡʌv.ɚn.mənt/"}
+{"title":"caretaking","uk":"uk  / ˈkeəˌteɪ.kɪŋ /","ukp":"/ˈkeəˌteɪ.kɪŋ/","us":"us  / ˈkerˌteɪ.kɪŋ /","usp":"/ˈkerˌteɪ.kɪŋ/"}
+{"title":"careworn","uk":"uk  / ˈkeə.wɔːn /","ukp":"/ˈkeə.wɔːn/","us":"us  / ˈker.wɔːrn /","usp":"/ˈker.wɔːrn/"}
+{"title":"carfare","uk":"uk  / ˈkɑː.feə r /","ukp":"/ˈkɑː.feər/","us":"us  / ˈkɑːr.fer /","usp":"/ˈkɑːr.fer/"}
+{"title":"cargo","uk":"uk  / ˈkɑː.ɡəʊ /","ukp":"/ˈkɑː.ɡəʊ/","us":"us  / ˈkɑːr.ɡoʊ /","usp":"/ˈkɑːr.ɡoʊ/"}
+{"title":"cargo area","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cargo bike","uk":"uk / ˈkɑː.ɡəʊ ˌbaɪk /","ukp":"/ˈkɑː.ɡəʊ ˌbaɪk/","us":"us  / ˈkɑːr.ɡoʊ ˌbaɪk /","usp":"/ˈkɑːr.ɡoʊ ˌbaɪk/"}
+{"title":"cargo bay","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cargo carrier","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cargo forwarder","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cargo handling","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cargo hold","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cargo pants","uk":"uk  / ˈkɑː.ɡəʊ ˌpænts /","ukp":"/ˈkɑː.ɡəʊ ˌpænts/","us":"us  / ˈkɑːr.ɡoʊ ˌpænts /","usp":"/ˈkɑːr.ɡoʊ ˌpænts/"}
+{"title":"cargoes","uk":"","us":""}
+{"title":"carhop","uk":"uk  / ˈkɑː.hɒp /","ukp":"/ˈkɑː.hɒp/","us":"us  / ˈkɑːr.hɑːp /","usp":"/ˈkɑːr.hɑːp/"}
+{"title":"Caribbean English","uk":"","us":"us / ˈkær·əˈbi·ən ˈɪŋ·ɡlɪʃ , kəˈrɪb·i·ən , ˈɪŋ·lɪʃ /","usp":"/ˈkær·əˈbi·ən ˈɪŋ·ɡlɪʃ, kəˈrɪb·i·ən, ˈɪŋ·lɪʃ/"}
+{"title":"Caribbean","uk":"uk  / ˌkær.ɪˈbiː.ən /","ukp":"/ˌkær.ɪˈbiː.ən/","us":"us  / ˌker.ɪˈbiː.ən /","usp":"/ˌker.ɪˈbiː.ən/"}
+{"title":"caribou","uk":"uk  / ˈkær.ɪ.buː /","ukp":"/ˈkær.ɪ.buː/","us":"us  / ˈker.ɪ.buː /","usp":"/ˈker.ɪ.buː/"}
+{"title":"caricature","uk":"uk  / ˈkær.ɪ.kə.tʃʊə r /","ukp":"/ˈkær.ɪ.kə.tʃʊər/","us":"us  / ˈker.ə.kə.tʃʊr /","usp":"/ˈker.ə.kə.tʃʊr/"}
+{"title":"caricatured","uk":"uk  / ˈkær.ɪ.kə.tʃʊə r /","ukp":"/ˈkær.ɪ.kə.tʃʊər/","us":"us  / ˈker.ə.kə.tʃʊr /","usp":"/ˈker.ə.kə.tʃʊr/"}
+{"title":"caricaturing","uk":"uk  / ˈkær.ɪ.kə.tʃʊə r /","ukp":"/ˈkær.ɪ.kə.tʃʊər/","us":"us  / ˈker.ə.kə.tʃʊr /","usp":"/ˈker.ə.kə.tʃʊr/"}
+{"title":"caricaturist","uk":"uk  / ˌkær.ɪ.kəˈtʃʊə.rɪst /","ukp":"/ˌkær.ɪ.kəˈtʃʊə.rɪst/","us":"us  / ˌker.ə.kəˈtʃʊr.ɪst /","usp":"/ˌker.ə.kəˈtʃʊr.ɪst/"}
+{"title":"CARICOM","uk":"uk  / ˈkærikɒm /","ukp":"/ˈkærikɒm/","us":"us ","usp":""}
+{"title":"caries","uk":"uk  / ˈkeə.riːz /","ukp":"/ˈkeə.riːz/","us":"us  / ˈker.iːz /","usp":"/ˈker.iːz/"}
+{"title":"carillon","uk":"uk  / kəˈrɪl.jən /","ukp":"/kəˈrɪl.jən/","us":"us  / ˈkær.ə.lɑːn /","usp":"/ˈkær.ə.lɑːn/"}
+{"title":"caring","uk":"uk  / ˈkeə.rɪŋ /","ukp":"/ˈkeə.rɪŋ/","us":"us  / ˈker.ɪŋ /","usp":"/ˈker.ɪŋ/"}
+{"title":"caring profession","uk":"uk  / ˈkeə.rɪŋ prəˌfeʃ. ə n /","ukp":"/ˈkeə.rɪŋ prəˌfeʃ.ən/","us":"us  / ˈker.ɪŋ prəˌfeʃ. ə n /","usp":"/ˈker.ɪŋ prəˌfeʃ.ən/"}
+{"title":"Carioca","uk":"uk  / ˌkær.iˈəʊ.kə /","ukp":"/ˌkær.iˈəʊ.kə/","us":"us  / ˌker.iˈoʊ.kə /","usp":"/ˌker.iˈoʊ.kə/"}
+{"title":"carjacker","uk":"uk  / ˈkɑːˌdʒæk.ə r /","ukp":"/ˈkɑːˌdʒæk.ər/","us":"us  / ˈkɑːrˌdʒæk.ɚ /","usp":"/ˈkɑːrˌdʒæk.ɚ/"}
+{"title":"carpenter ant","uk":"uk  / ˈkɑː.pɪn.tər ˌænt /","ukp":"/ˈkɑː.pɪn.tər ˌænt/","us":"us  / ˈkɑːr.pɪn.t̬ɚ ˌænt /","usp":"/ˈkɑːr.pɪn.t̬ɚ ˌænt/"}
+{"title":"carjacking","uk":"uk  / ˈkɑːˌdʒæk.ɪŋ /","ukp":"/ˈkɑːˌdʒæk.ɪŋ/","us":"us  / ˈkɑːrˌdʒæk.ɪŋ /","usp":"/ˈkɑːrˌdʒæk.ɪŋ/"}
+{"title":"carpentry","uk":"uk  / ˈkɑː.pɪn.tri /","ukp":"/ˈkɑː.pɪn.tri/","us":"us  / ˈkɑːr.pɪn.tri /","usp":"/ˈkɑːr.pɪn.tri/"}
+{"title":"carpet bomb","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carpet","uk":"uk  / ˈkɑː.pɪt /","ukp":"/ˈkɑː.pɪt/","us":"us  / ˈkɑːr.pət /","usp":"/ˈkɑːr.pət/"}
+{"title":"carpet slipper","uk":"uk  / ˈkɑː.pɪt ˌslɪp.ə r /","ukp":"/ˈkɑː.pɪt ˌslɪp.ər/","us":"us  / ˈkɑːr.pɪt ˌslɪp.ɚ /","usp":"/ˈkɑːr.pɪt ˌslɪp.ɚ/"}
+{"title":"carpet sweeper","uk":"uk  / ˈkɑː.pɪt ˌswiː.pə r /","ukp":"/ˈkɑː.pɪt ˌswiː.pər/","us":"us  / ˈkɑːr.pɪt ˌswiː.pɚ /","usp":"/ˈkɑːr.pɪt ˌswiː.pɚ/"}
+{"title":"carpet-bombing","uk":"uk  / ˈkɑː.pɪtˌbɒm.ɪŋ /","ukp":"/ˈkɑː.pɪtˌbɒm.ɪŋ/","us":"us  / ˈkɑːr.pɪtˌbɑː.mɪŋ /","usp":"/ˈkɑːr.pɪtˌbɑː.mɪŋ/"}
+{"title":"carpetbagger","uk":"uk  / ˈkɑː.pɪtˌbæɡ.ə r /","ukp":"/ˈkɑː.pɪtˌbæɡ.ər/","us":"us  / ˈkɑːr.pətˌbæɡ.ɚ /","usp":"/ˈkɑːr.pətˌbæɡ.ɚ/"}
+{"title":"carpeted","uk":"uk  / ˈkɑː.pə.tɪd /","ukp":"/ˈkɑː.pə.tɪd/","us":"us  / ˈkɑːr.pə.t̬ɪd /","usp":"/ˈkɑːr.pə.t̬ɪd/"}
+{"title":"carpeting","uk":"uk  / ˈkɑː.pɪ.tɪŋ /","ukp":"/ˈkɑː.pɪ.tɪŋ/","us":"us  / ˈkɑː.pə.t̬ɪŋ /","usp":"/ˈkɑː.pə.t̬ɪŋ/"}
+{"title":"carpi","uk":"","us":""}
+{"title":"carping","uk":"uk  / kɑːp /","ukp":"/kɑːp/","us":"us  / kɑːrp /","usp":"/kɑːrp/"}
+{"title":"carpometacarpal","uk":"uk  / ˌkɑː.pəʊ.met.əˈkɑː.pəl /","ukp":"/ˌkɑː.pəʊ.met.əˈkɑː.pəl/","us":"us  / ˌkɑːr.pə.met̬.əˈkɑːr.pəl /","usp":"/ˌkɑːr.pə.met̬.əˈkɑːr.pəl/"}
+{"title":"carpool lane","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carpool","uk":"uk  / ˈkɑːˌpuːl /","ukp":"/ˈkɑːˌpuːl/","us":"us  / ˈkɑːrˌpuːl /","usp":"/ˈkɑːrˌpuːl/"}
+{"title":"carpooling","uk":"uk  / ˈkɑːˌpuː.lɪŋ /","ukp":"/ˈkɑːˌpuː.lɪŋ/","us":"us  / ˈkɑːrˌpuː.lɪŋ /","usp":"/ˈkɑːrˌpuː.lɪŋ/"}
+{"title":"carport","uk":"uk  / ˈkɑː.pɔːt /","ukp":"/ˈkɑː.pɔːt/","us":"us  / ˈkɑːr.pɔːrt /","usp":"/ˈkɑːr.pɔːrt/"}
+{"title":"carpus","uk":"uk  / ˈkɑː.pəs /","ukp":"/ˈkɑː.pəs/","us":"us  / ˈkɑːr.pəs /","usp":"/ˈkɑːr.pəs/"}
+{"title":"carr. fwd.","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carrageenan","uk":"uk / ˌkær.əˈɡiː.nən /","ukp":"/ˌkær.əˈɡiː.nən/","us":"us / ˌkær.əˈɡiː.nən /","usp":"/ˌkær.əˈɡiː.nən/"}
+{"title":"carragheen","uk":"uk  / ˈkær.ə.ɡiːn /","ukp":"/ˈkær.ə.ɡiːn/","us":"us  / ˈker.ə.ɡiːn /","usp":"/ˈker.ə.ɡiːn/"}
+{"title":"carrel","uk":"uk  / ˈkær. ə l /","ukp":"/ˈkær.əl/","us":"us  / ˈker. ə l /","usp":"/ˈker.əl/"}
+{"title":"carriage and freight","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carriage and insurance paid","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carriage","uk":"uk  / ˈkær.ɪdʒ /","ukp":"/ˈkær.ɪdʒ/","us":"us  / ˈker.ɪdʒ /","usp":"/ˈker.ɪdʒ/"}
+{"title":"carriage forward","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carriage clock","uk":"uk  / ˈkær.ɪdʒ ˌklɒk /","ukp":"/ˈkær.ɪdʒ ˌklɒk/","us":"us  / ˈker.ɪdʒ ˌklɑːk /","usp":"/ˈker.ɪdʒ ˌklɑːk/"}
+{"title":"carriage paid","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carriage return","uk":"uk  / ˈkær.ɪdʒ rɪˌtɜːn /","ukp":"/ˈkær.ɪdʒ rɪˌtɜːn/","us":"us  / ˈker.ɪdʒ rɪˌtɝːn /","usp":"/ˈker.ɪdʒ rɪˌtɝːn/"}
+{"title":"carriageway","uk":"uk  / ˈkær.ɪdʒ.weɪ /","ukp":"/ˈkær.ɪdʒ.weɪ/","us":"us  / ˈker.ɪdʒ.weɪ /","usp":"/ˈker.ɪdʒ.weɪ/"}
+{"title":"carried down","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carried forward","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carried interest","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carried","uk":"uk  / ˈkær.i /","ukp":"/ˈkær.i/","us":"us  / ˈker.i /","usp":"/ˈker.i/"}
+{"title":"carried over","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carrier's lien","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carrier","uk":"uk  / ˈkær.i.ə r /","ukp":"/ˈkær.i.ər/","us":"us  / ˈker.i.ɚ /","usp":"/ˈker.i.ɚ/"}
+{"title":"carrier pigeon","uk":"uk  / ˈkær.i.ə ˌpɪdʒ.ən /","ukp":"/ˈkær.i.ə ˌpɪdʒ.ən/","us":"us  / ˈker.i.ɚ ˌpɪdʒ.ən /","usp":"/ˈker.i.ɚ ˌpɪdʒ.ən/"}
+{"title":"carrier's risk","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carrion crow","uk":"uk  / ˈkær.i.ən ˌkrəʊ /","ukp":"/ˈkær.i.ən ˌkrəʊ/","us":"us  / ˈker.i.ən ˌkroʊ /","usp":"/ˈker.i.ən ˌkroʊ/"}
+{"title":"carrion","uk":"uk  / ˈkær.i.ən /","ukp":"/ˈkær.i.ən/","us":"us  / ˈker.i.ən /","usp":"/ˈker.i.ən/"}
+{"title":"carrot and stick","uk":"","us":""}
+{"title":"carrot","uk":"uk  / ˈkær.ət /","ukp":"/ˈkær.ət/","us":"us  / ˈker.ət /","usp":"/ˈker.ət/"}
+{"title":"carrot-top","uk":"uk  / ˈkær.ət.tɒp /","ukp":"/ˈkær.ət.tɒp/","us":"us  / ˈker.ət.tɑːp /","usp":"/ˈker.ət.tɑːp/"}
+{"title":"carroty","uk":"uk  / ˈkær.ə.ti /","ukp":"/ˈkær.ə.ti/","us":"us  / ˈker.ə.t̬i /","usp":"/ˈker.ə.t̬i/"}
+{"title":"carry (something) on","uk":"uk  / ˈkær.i /","ukp":"/ˈkær.i/","us":"us  / ˈker.i /","usp":"/ˈker.i/"}
+{"title":"cark","uk":"uk  / kɑːk /","ukp":"/kɑːk/","us":"us  / kɑːrk /","usp":"/kɑːrk/"}
+{"title":"carry a torch for someone","uk":"","us":""}
+{"title":"Carlsbad Caverns National Park","uk":"uk  / ˌkɑːlz.bæd ˌkæv. ə nz ˌnæʃ. ə n. ə l ˈpɑːk /","ukp":"/ˌkɑːlz.bæd ˌkæv.ənz ˌnæʃ.ən.əl ˈpɑːk/","us":"us  / ˌkɑːrlz.bæd ˌkæv.ɚnz ˌnæʃ. ə n. ə l ˈpɑːrk /","usp":"/ˌkɑːrlz.bæd ˌkæv.ɚnz ˌnæʃ.ən.əl ˈpɑːrk/"}
+{"title":"carry","uk":"uk  / ˈkær.i /","ukp":"/ˈkær.i/","us":"us  / ˈker.i /","usp":"/ˈker.i/"}
+{"title":"Carmarthenshire","uk":"uk  / kəˈmɑː.ð ə n.ʃə r /","ukp":"/kəˈmɑː.ðən.ʃər/","us":"us  / kɑːrˈmɑːr.ðən.ʃɚ /","usp":"/kɑːrˈmɑːr.ðən.ʃɚ/"}
+{"title":"carnage","uk":"uk  / ˈkɑː.nɪdʒ /","ukp":"/ˈkɑː.nɪdʒ/","us":"us  / ˈkɑːr.nɪdʒ /","usp":"/ˈkɑːr.nɪdʒ/"}
+{"title":"carmine","uk":"uk  / ˈkɑː.maɪn /","ukp":"/ˈkɑː.maɪn/","us":"us  / ˈkɑːr.maɪn /","usp":"/ˈkɑːr.maɪn/"}
+{"title":"carnal","uk":"uk  / ˈkɑː.n ə l /","ukp":"/ˈkɑː.nəl/","us":"us  / ˈkɑːr.n ə l /","usp":"/ˈkɑːr.nəl/"}
+{"title":"carnal knowledge","uk":"uk  / ˌkɑː.nəl ˈnɒl.ɪdʒ /","ukp":"/ˌkɑː.nəl ˈnɒl.ɪdʒ/","us":"us  / ˌkɑːr.nəl ˈnɑː.lɪdʒ /","usp":"/ˌkɑːr.nəl ˈnɑː.lɪdʒ/"}
+{"title":"carmaker","uk":"uk  / ˈkɑːˌmeɪkə r /","ukp":"/ˈkɑːˌmeɪkər/","us":"us ","usp":""}
+{"title":"carnality","uk":"uk  / kɑːˈnæl.ə.ti /","ukp":"/kɑːˈnæl.ə.ti/","us":"us  / kɑːrˈnæl.ə.t̬i /","usp":"/kɑːrˈnæl.ə.t̬i/"}
+{"title":"carne asada","uk":"uk / ˌkɑː.neɪ əˈsɑː.də /","ukp":"/ˌkɑː.neɪ əˈsɑː.də/","us":"us / ˌkɑːr.neɪ əˈsɑː.də /","usp":"/ˌkɑːr.neɪ əˈsɑː.də/"}
+{"title":"carnation","uk":"uk  / kɑːˈneɪ.ʃ ə n /","ukp":"/kɑːˈneɪ.ʃən/","us":"us  / kɑːrˈneɪ.ʃ ə n /","usp":"/kɑːrˈneɪ.ʃən/"}
+{"title":"carnelian","uk":"uk  / kɑːˈniː.li.ən /","ukp":"/kɑːˈniː.li.ən/","us":"us  / kɑːrˈniː.li.ən /","usp":"/kɑːrˈniː.li.ən/"}
+{"title":"carnet","uk":"uk  / ˈkɑːneɪ /","ukp":"/ˈkɑːneɪ/","us":"us ","usp":""}
+{"title":"carnivorous","uk":"uk  / kɑːˈnɪv. ə r.əs /","ukp":"/kɑːˈnɪv.ər.əs/","us":"us  / kɑːrˈnɪv.ɚ.əs /","usp":"/kɑːrˈnɪv.ɚ.əs/"}
+{"title":"carnivore","uk":"uk  / ˈkɑː.nɪ.vɔː r /","ukp":"/ˈkɑː.nɪ.vɔːr/","us":"us  / ˈkɑːr.nə.vɔːr /","usp":"/ˈkɑːr.nə.vɔːr/"}
+{"title":"carnival","uk":"uk  / ˈkɑː.nɪ.v ə l /","ukp":"/ˈkɑː.nɪ.vəl/","us":"us  / ˈkɑːr.nə.v ə l /","usp":"/ˈkɑːr.nə.vəl/"}
+{"title":"carob","uk":"uk  / ˈkær.əb /","ukp":"/ˈkær.əb/","us":"us  / ˈker.əb /","usp":"/ˈker.əb/"}
+{"title":"carol","uk":"uk  / ˈkær. ə l /","ukp":"/ˈkær.əl/","us":"us  / ˈker. ə l /","usp":"/ˈker.əl/"}
+{"title":"carol singer","uk":"uk  / ˈkær. ə l ˌsɪŋ.ə r /","ukp":"/ˈkær.əl ˌsɪŋ.ər/","us":"us  / ˈker. ə l ˌsɪŋ.ɚ /","usp":"/ˈker.əl ˌsɪŋ.ɚ/"}
+{"title":"carol singing","uk":"uk  / ˈkær. ə l ˌsɪŋ.ɪŋ /","ukp":"/ˈkær.əl ˌsɪŋ.ɪŋ/","us":"us  / ˈker. ə l ˌsɪŋ.ɪŋ /","usp":"/ˈker.əl ˌsɪŋ.ɪŋ/"}
+{"title":"Carolean","uk":"uk / ˌkær.əˈliː.ən /","ukp":"/ˌkær.əˈliː.ən/","us":"us / ˌker.əˈliː.ən /","usp":"/ˌker.əˈliː.ən/"}
+{"title":"caroler","uk":"uk  / ˈkær. ə l.ə r /","ukp":"/ˈkær.əl.ər/","us":"us  / ˈker. ə l.ɚ /","usp":"/ˈker.əl.ɚ/"}
+{"title":"Caroline","uk":"uk / ˈkær.ə.laɪn /","ukp":"/ˈkær.ə.laɪn/","us":"us / ˈker.ə.laɪn /","usp":"/ˈker.ə.laɪn/"}
+{"title":"caroling","uk":"uk  / ˈkær. ə l.ɪŋ /","ukp":"/ˈkær.əl.ɪŋ/","us":"us  / ˈker. ə l.ɪŋ /","usp":"/ˈker.əl.ɪŋ/"}
+{"title":"carolling","uk":"","us":""}
+{"title":"carolled","uk":"","us":""}
+{"title":"carom","uk":"uk  / ˈkær.əm /","ukp":"/ˈkær.əm/","us":"us  / ˈker.əm /","usp":"/ˈker.əm/"}
+{"title":"carotene","uk":"uk  / ˈkær.ə.tiːn /","ukp":"/ˈkær.ə.tiːn/","us":"us  / ˈker.ə.tiːn /","usp":"/ˈker.ə.tiːn/"}
+{"title":"caron","uk":"uk  / ˈkær.ən /","ukp":"/ˈkær.ən/","us":"us  / ˈker.ən /","usp":"/ˈker.ən/"}
+{"title":"carotid angioplasty","uk":"uk  / kəˌrɒt.ɪd ˈæn.dʒi.əʊ.plæs.ti /","ukp":"/kəˌrɒt.ɪd ˈæn.dʒi.əʊ.plæs.ti/","us":"us  / kəˌrɑː.t̬ɪd ˈæn.dʒi.oʊ.plæs.ti /","usp":"/kəˌrɑː.t̬ɪd ˈæn.dʒi.oʊ.plæs.ti/"}
+{"title":"carotid","uk":"uk  / kəˈrɒt.ɪd /","ukp":"/kəˈrɒt.ɪd/","us":"us  / kəˈrɑː.t̬ɪd /","usp":"/kəˈrɑː.t̬ɪd/"}
+{"title":"carotid angioplasty and stenting","uk":"uk  / kəˌrɒt.ɪd æn.dʒi.ə.plæs.ti ən ˈsten.tɪŋ /","ukp":"/kəˌrɒt.ɪd æn.dʒi.ə.plæs.ti ən ˈsten.tɪŋ/","us":"us  / kəˈrɑːt̬.ɪd ˈæn.dʒi.əˌplæs.ti ən ˈsten.tɪŋ /","usp":"/kəˈrɑːt̬.ɪd ˈæn.dʒi.əˌplæs.ti ən ˈsten.tɪŋ/"}
+{"title":"carotid artery","uk":"uk  / kəˌrɒt.ɪd ˈɑː.t ə r.i /","ukp":"/kəˌrɒt.ɪd ˈɑː.tər.i/","us":"us  / kəˌrɑː.t̬ɪd ˈɑːr.t̬ɚ.i /","usp":"/kəˌrɑː.t̬ɪd ˈɑːr.t̬ɚ.i/"}
+{"title":"carotid artery stenosis","uk":"uk  / kəˌrɒt.ɪd ˌɑː.t ə r.i stɪˈnəʊ.sɪs /","ukp":"/kəˌrɒt.ɪd ˌɑː.tər.i stɪˈnəʊ.sɪs/","us":"us  / kəˈrɑːt̬.ɪd ˌɑːr.t̬ə.ri stəˈnoʊ.sɪs /","usp":"/kəˈrɑːt̬.ɪd ˌɑːr.t̬ə.ri stəˈnoʊ.sɪs/"}
+{"title":"carotid stenting","uk":"uk  / kəˌrɒt.ɪd ˈsten.tɪŋ /","ukp":"/kəˌrɒt.ɪd ˈsten.tɪŋ/","us":"us  / kəˌkeɪprɑːt̬.ɪd ˈsten.tɪŋ /","usp":"/kəˌkeɪprɑːt̬.ɪd ˈsten.tɪŋ/"}
+{"title":"carotid endarterectomy","uk":"uk  / kəˌrɒt.ɪd en.dɑː.tərˈek.tə.mi /","ukp":"/kəˌrɒt.ɪd en.dɑː.tərˈek.tə.mi/","us":"us  / kəˈrɑːt̬.ɪd enˌdɑːr.t̬əˈrek.tə.mi /","usp":"/kəˈrɑːt̬.ɪd enˌdɑːr.t̬əˈrek.tə.mi/"}
+{"title":"carousal","uk":"uk  / kəˈraʊ.z ə l /","ukp":"/kəˈraʊ.zəl/","us":"us  / kəˈraʊ.z ə l /","usp":"/kəˈraʊ.zəl/"}
+{"title":"carouse","uk":"uk  / kəˈraʊz /","ukp":"/kəˈraʊz/","us":"us  / kəˈraʊz /","usp":"/kəˈraʊz/"}
+{"title":"caroused","uk":"uk  / kəˈraʊz /","ukp":"/kəˈraʊz/","us":"us  / kəˈraʊz /","usp":"/kəˈraʊz/"}
+{"title":"carousel","uk":"uk  / ˌkær.əˈsel /","ukp":"/ˌkær.əˈsel/","us":"us  / ˌker.əˈsel /","usp":"/ˌker.əˈsel/"}
+{"title":"carousing","uk":"uk  / kəˈraʊz /","ukp":"/kəˈraʊz/","us":"us  / kəˈraʊz /","usp":"/kəˈraʊz/"}
+{"title":"carp","uk":"uk  / kɑːp /","ukp":"/kɑːp/","us":"us  / kɑːrp /","usp":"/kɑːrp/"}
+{"title":"carpaccio","uk":"uk  / kɑːˈpætʃ.i.əʊ /","ukp":"/kɑːˈpætʃ.i.əʊ/","us":"us  / kɑːrˈpætʃ.i.oʊ /","usp":"/kɑːrˈpætʃ.i.oʊ/"}
+{"title":"carpal tunnel syndrome","uk":"uk  / ˌkɑː.p ə l ˈtʌn. ə l ˌsɪn.drəʊm /","ukp":"/ˌkɑː.pəl ˈtʌn.əl ˌsɪn.drəʊm/","us":"us  / ˌkɑːr.p ə l ˈtʌn. ə l ˌsɪndroʊm /","usp":"/ˌkɑːr.pəl ˈtʌn.əl ˌsɪndroʊm/"}
+{"title":"carpal","uk":"uk  / ˈkɑː.pəl /","ukp":"/ˈkɑː.pəl/","us":"us  / ˈkɑːr.pəl /","usp":"/ˈkɑːr.pəl/"}
+{"title":"carpe diem","uk":"uk  / ˌkɑː.peɪˈdiː.em /","ukp":"/ˌkɑː.peɪˈdiː.em/","us":"us  / ˌkɑːr.pəi ˈdiː.em /","usp":"/ˌkɑːr.pəi ˈdiː.em/"}
+{"title":"carped","uk":"uk  / kɑːp /","ukp":"/kɑːp/","us":"us  / kɑːrp /","usp":"/kɑːrp/"}
+{"title":"carpel","uk":"uk  / ˈkɑː.pel /","ukp":"/ˈkɑː.pel/","us":"us  / ˈkɑːr.pel /","usp":"/ˈkɑːr.pel/"}
+{"title":"carpenter","uk":"uk  / ˈkɑː.pɪn.tə r /","ukp":"/ˈkɑː.pɪn.tər/","us":"us  / ˈkɑːr.pɪn.t̬ɚ /","usp":"/ˈkɑːr.pɪn.t̬ɚ/"}
+{"title":"cardiogram","uk":"uk  / ˈkɑː.di.ə.ɡræm /","ukp":"/ˈkɑː.di.ə.ɡræm/","us":"us  / ˈkɑːr.di.ə.ɡræm /","usp":"/ˈkɑːr.di.ə.ɡræm/"}
+{"title":"cardiograph","uk":"uk  / ˈkɑː.di.ə.ɡrɑːf /","ukp":"/ˈkɑː.di.ə.ɡrɑːf/","us":"us  / ˈkɑːr.di.ə.ɡræf /","usp":"/ˈkɑːr.di.ə.ɡræf/"}
+{"title":"cardiography","uk":"uk  / ˌkɑː.diˈɒɡ.rə.fi /","ukp":"/ˌkɑː.diˈɒɡ.rə.fi/","us":"us  / ˌkɑːr.diˈɑː.ɡrə.fi /","usp":"/ˌkɑːr.diˈɑː.ɡrə.fi/"}
+{"title":"cardiologist","uk":"uk  / ˌkɑː.diˈɒl.ə.dʒɪst /","ukp":"/ˌkɑː.diˈɒl.ə.dʒɪst/","us":"us  / ˌkɑːr.diˈɑː.lə.dʒɪst /","usp":"/ˌkɑːr.diˈɑː.lə.dʒɪst/"}
+{"title":"cardiological","uk":"uk  / ˌkɑː.di.əˈlɒdʒ.ɪ.k ə l /","ukp":"/ˌkɑː.di.əˈlɒdʒ.ɪ.kəl/","us":"us  / ˌkɑːr.di.əˈlɑː.dʒɪ.k ə l /","usp":"/ˌkɑːr.di.əˈlɑː.dʒɪ.kəl/"}
+{"title":"cardiology","uk":"uk  / ˌkɑː.diˈɒl.ə.dʒi /","ukp":"/ˌkɑː.diˈɒl.ə.dʒi/","us":"us  / ˌkɑːr.diˈɑː.lə.dʒi /","usp":"/ˌkɑːr.diˈɑː.lə.dʒi/"}
+{"title":"cardiomyopathy","uk":"uk  / ˌkɑː.di.əʊ.maɪˈɒp.ə.θi /","ukp":"/ˌkɑː.di.əʊ.maɪˈɒp.ə.θi/","us":"us  / ˌkɑːr.di.oʊ.maɪˈɑːp.ə.θi /","usp":"/ˌkɑːr.di.oʊ.maɪˈɑːp.ə.θi/"}
+{"title":"cardiopulmonary","uk":"uk  / ˌkɑː.di.əʊˈpʊl.mə.n ə r.i /","ukp":"/ˌkɑː.di.əʊˈpʊl.mə.nər.i/","us":"us  / ˌkɑːr.di.oʊˈpʊl.mə.ner.i /","usp":"/ˌkɑːr.di.oʊˈpʊl.mə.ner.i/"}
+{"title":"cardiorespiratory","uk":"uk  / ˌkɑː.di.əʊ.rɪˈspɪr.ə.tri /","ukp":"/ˌkɑː.di.əʊ.rɪˈspɪr.ə.tri/","us":"us  / ˌkɑːr.di.oʊˈres.pɚ.ə.tɔːr.i /","usp":"/ˌkɑːr.di.oʊˈres.pɚ.ə.tɔːr.i/"}
+{"title":"cardiothoracic","uk":"uk  / ˌkɑː.di.əʊ.θeˈræs.ɪk /","ukp":"/ˌkɑː.di.əʊ.θeˈræs.ɪk/","us":"us  / ˌkɑːr.diˌoʊ.θəˈræs.ɪk /","usp":"/ˌkɑːr.diˌoʊ.θəˈræs.ɪk/"}
+{"title":"cardiovascular","uk":"uk  / ˌkɑː.di.əʊˈvæs.kjə.lə r /","ukp":"/ˌkɑː.di.əʊˈvæs.kjə.lər/","us":"us  / ˌkɑːr.di.oʊˈvæs.kjə.lɚ /","usp":"/ˌkɑːr.di.oʊˈvæs.kjə.lɚ/"}
+{"title":"cardioversion","uk":"uk  / ˌkɑː.di.əˈvɜː.ʒən /","ukp":"/ˌkɑː.di.əˈvɜː.ʒən/","us":"us  / ˌkɑːr.di.oʊˈvɝː.ʒən /","usp":"/ˌkɑːr.di.oʊˈvɝː.ʒən/"}
+{"title":"cardioverter","uk":"uk  / ˈkɑː.di.əˌvɜː.tə r /","ukp":"/ˈkɑː.di.əˌvɜː.tər/","us":"us  / ˈkɑːr.di.oʊˌvɝː..t̬ɚ /","usp":"/ˈkɑːr.di.oʊˌvɝː..t̬ɚ/"}
+{"title":"cardoon","uk":"uk / kɑːˈduːn /","ukp":"/kɑːˈduːn/","us":"us / kɑːrˈduːn /","usp":"/kɑːrˈduːn/"}
+{"title":"cardphone","uk":"uk  / ˈkɑːd.fəʊn /","ukp":"/ˈkɑːd.fəʊn/","us":"us  / ˈkɑːrd.foʊn /","usp":"/ˈkɑːrd.foʊn/"}
+{"title":"cards","uk":"","us":"us  / kɑrdz /","usp":"/kɑrdz/"}
+{"title":"cardy","uk":"uk  / ˈkɑː.di /","ukp":"/ˈkɑː.di/","us":"us  / ˈkɑːr.di /","usp":"/ˈkɑːr.di/"}
+{"title":"care and maintenance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"care for someone","uk":"uk  / keə r /","ukp":"/keər/","us":"us  / ker /","usp":"/ker/"}
+{"title":"care","uk":"uk  / keə r /","ukp":"/keər/","us":"us  / ker /","usp":"/ker/"}
+{"title":"care home","uk":"uk  / ˈkeə ˌhəʊm /","ukp":"/ˈkeə ˌhəʊm/","us":"us  / ˈker ˌhoʊm /","usp":"/ˈker ˌhoʊm/"}
+{"title":"care in the community","uk":"","us":""}
+{"title":"care label","uk":"uk  / ˈkeə ˌleɪ.b ə l /","ukp":"/ˈkeə ˌleɪ.bəl/","us":"us  / ˈker ˌleɪ.b ə l /","usp":"/ˈker ˌleɪ.bəl/"}
+{"title":"care line","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"care navigation","uk":"uk / ˈkeə næv.ɪˌɡeɪ.ʃ ə n /","ukp":"/ˈkeə næv.ɪˌɡeɪ.ʃən/","us":"us  / ˈker næv.əˌɡeɪ.ʃ ə n /","usp":"/ˈker næv.əˌɡeɪ.ʃən/"}
+{"title":"care navigator","uk":"uk / ˈkeə næv.ɪˌɡeɪ.tə r /","ukp":"/ˈkeə næv.ɪˌɡeɪ.tər/","us":"us / ˈker næv.əˌɡeɪ.t̬ɚ /","usp":"/ˈker næv.əˌɡeɪ.t̬ɚ/"}
+{"title":"care of","uk":"","us":""}
+{"title":"cared","uk":"uk  / keə r /","ukp":"/keər/","us":"us  / ker /","usp":"/ker/"}
+{"title":"cared-for","uk":"uk  / ˈkeədˌfɔː r /","ukp":"/ˈkeədˌfɔːr/","us":"us  / ˈkerdˌfɔːr /","usp":"/ˈkerdˌfɔːr/"}
+{"title":"careened","uk":"uk  / kəˈriːn /","ukp":"/kəˈriːn/","us":"us  / kəˈriːn /","usp":"/kəˈriːn/"}
+{"title":"careen","uk":"uk  / kəˈriːn /","ukp":"/kəˈriːn/","us":"us  / kəˈriːn /","usp":"/kəˈriːn/"}
+{"title":"careening","uk":"uk  / kəˈriːn /","ukp":"/kəˈriːn/","us":"us  / kəˈriːn /","usp":"/kəˈriːn/"}
+{"title":"career","uk":"uk  / kəˈrɪə r /","ukp":"/kəˈrɪər/","us":"us  / kəˈrɪr /","usp":"/kəˈrɪr/"}
+{"title":"career break","uk":"uk  / kəˈrɪə ˌbreɪk /","ukp":"/kəˈrɪə ˌbreɪk/","us":"us  / kəˈrɪr ˌbreɪk /","usp":"/kəˈrɪr ˌbreɪk/"}
+{"title":"career change","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"career counselling","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"career counsellor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"career development","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"career fair","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"career ladder","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"career outplacement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"career move","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"career path","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"career progression","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"career structure","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"career woman","uk":"uk  / kəˈrɪə ˌwʊm.ən /","ukp":"/kəˈrɪə ˌwʊm.ən/","us":"us  / kəˈrɪr ˌwʊm.ən /","usp":"/kəˈrɪr ˌwʊm.ən/"}
+{"title":"career-defining","uk":"uk  / kəˈrɪə.dɪˌfaɪ.nɪŋ /","ukp":"/kəˈrɪə.dɪˌfaɪ.nɪŋ/","us":"us  / kəˈrɪr.dɪˌfaɪ.nɪŋ /","usp":"/kəˈrɪr.dɪˌfaɪ.nɪŋ/"}
+{"title":"career-limiting","uk":"uk  / kəˈrɪəˌlɪm.ɪ.tɪŋ /","ukp":"/kəˈrɪəˌlɪm.ɪ.tɪŋ/","us":"us  / kəˈrɪrˌlɪm.ɪ.t̬ɪŋ /","usp":"/kəˈrɪrˌlɪm.ɪ.t̬ɪŋ/"}
+{"title":"careered","uk":"uk  / kəˈrɪə r /","ukp":"/kəˈrɪər/","us":"us  / kəˈrɪr /","usp":"/kəˈrɪr/"}
+{"title":"careering","uk":"uk  / kəˈrɪə r /","ukp":"/kəˈrɪər/","us":"us  / kəˈrɪr /","usp":"/kəˈrɪr/"}
+{"title":"cash management account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash management","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash merger","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash mountain","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash on delivery","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash out sth","uk":"uk  / kæʃ /","ukp":"/kæʃ/","us":"us  / kæʃ /","usp":"/kæʃ/"}
+{"title":"cash outlay","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash pile","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash position","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash price","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash ratio","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash ratio deposits","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash received book","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash receipt","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash register","uk":"uk  / ˈkæʃ ˌredʒ.ɪ.stə r /","ukp":"/ˈkæʃ ˌredʒ.ɪ.stər/","us":"us  / ˈkæʃ ˌredʒ.ɪ.stɚ /","usp":"/ˈkæʃ ˌredʒ.ɪ.stɚ/"}
+{"title":"cash reserve ratio","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash reserves","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash sale","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash settlement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash shell","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash till","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash turnover","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash up","uk":"uk  / kæʃ /","ukp":"/kæʃ/","us":"us  / kæʃ /","usp":"/kæʃ/"}
+{"title":"cash-and-shares","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash with order","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash-and-carry","uk":"uk  / ˌkæʃ.ənˈkær.i /","ukp":"/ˌkæʃ.ənˈkær.i/","us":"us  / ˌkæʃ.ənˈker.i /","usp":"/ˌkæʃ.ənˈker.i/"}
+{"title":"cash-based","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash-generative","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash-in-transit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash-only","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash-rich","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash-starved","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash-strapped","uk":"uk  / ˈkæʃ.stræpt /","ukp":"/ˈkæʃ.stræpt/","us":"us  / ˈkæʃ.stræpt /","usp":"/ˈkæʃ.stræpt/"}
+{"title":"cashable","uk":"uk  / ˈkæʃəbl /","ukp":"/ˈkæʃəbl/","us":"us ","usp":""}
+{"title":"cashback","uk":"uk  / ˈkæʃ.bæk /","ukp":"/ˈkæʃ.bæk/","us":"us  / ˈkæʃ.bæk /","usp":"/ˈkæʃ.bæk/"}
+{"title":"cashed","uk":"uk  / kæʃ /","ukp":"/kæʃ/","us":"us  / kæʃ /","usp":"/kæʃ/"}
+{"title":"cashew","uk":"uk  / ˈkæʃ.uː /","ukp":"/ˈkæʃ.uː/","us":"us  / ˈkæʃ.uː /","usp":"/ˈkæʃ.uː/"}
+{"title":"cashflow statement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cashier's cheque","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cashier","uk":"uk  / kæʃˈɪə r /","ukp":"/kæʃˈɪər/","us":"us  / kæʃˈɪr /","usp":"/kæʃˈɪr/"}
+{"title":"cashiered","uk":"uk  / kæʃˈɪə r /","ukp":"/kæʃˈɪər/","us":"us  / kæʃˈɪr /","usp":"/kæʃˈɪr/"}
+{"title":"cashiering","uk":"uk  / kæʃˈɪə r /","ukp":"/kæʃˈɪər/","us":"us  / kæʃˈɪr /","usp":"/kæʃˈɪr/"}
+{"title":"cashing","uk":"uk  / kæʃ /","ukp":"/kæʃ/","us":"us  / kæʃ /","usp":"/kæʃ/"}
+{"title":"cashless","uk":"uk  / ˈkæʃ.ləs /","ukp":"/ˈkæʃ.ləs/","us":"us  / ˈkæʃ.ləs /","usp":"/ˈkæʃ.ləs/"}
+{"title":"cashout","uk":"uk / ˈkæʃ.aʊt /","ukp":"/ˈkæʃ.aʊt/","us":"us / ˈkæʃ.aʊt /","usp":"/ˈkæʃ.aʊt/"}
+{"title":"cashout merger","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cashmere","uk":"uk  / ˈkæʃ.mɪə r /","ukp":"/ˈkæʃ.mɪər/","us":"us  / ˈkæʃ.mɪr /","usp":"/ˈkæʃ.mɪr/"}
+{"title":"cashpoint","uk":"uk  / ˈkæʃ.pɔɪnt /","ukp":"/ˈkæʃ.pɔɪnt/","us":"us  / ˈkæʃ.pɔɪnt /","usp":"/ˈkæʃ.pɔɪnt/"}
+{"title":"cashpoint card","uk":"uk  / ˈkæʃ.pɔɪnt ˌkɑːd /","ukp":"/ˈkæʃ.pɔɪnt ˌkɑːd/","us":"us  / ˈkæʃ.pɔɪnt ˌkɑːrd /","usp":"/ˈkæʃ.pɔɪnt ˌkɑːrd/"}
+{"title":"carry a tune","uk":"","us":""}
+{"title":"carry something forward/over","uk":"uk  / ˈkær.i /","ukp":"/ˈkær.i/","us":"us  / ˈker.i /","usp":"/ˈker.i/"}
+{"title":"carry someone through ( something )","uk":"uk  / ˈkær.i /","ukp":"/ˈkær.i/","us":"us  / ˈker.i /","usp":"/ˈker.i/"}
+{"title":"carry something off","uk":"uk  / ˈkær.i /","ukp":"/ˈkær.i/","us":"us  / ˈker.i /","usp":"/ˈker.i/"}
+{"title":"carry someone away","uk":"uk  / ˈkær.i /","ukp":"/ˈkær.i/","us":"us  / ˈker.i /","usp":"/ˈker.i/"}
+{"title":"carry something over","uk":"uk  / ˈkær.i /","ukp":"/ˈkær.i/","us":"us  / ˈker.i /","usp":"/ˈker.i/"}
+{"title":"carry something out","uk":"uk  / ˈkær.i /","ukp":"/ˈkær.i/","us":"us  / ˈker.i /","usp":"/ˈker.i/"}
+{"title":"carry sth back","uk":"uk  / ˈkæri /","ukp":"/ˈkæri/","us":"us ","usp":""}
+{"title":"carry sth forward","uk":"uk  / ˈkæri /","ukp":"/ˈkæri/","us":"us ","usp":""}
+{"title":"carry the ball","uk":"","us":""}
+{"title":"carry the can","uk":"","us":""}
+{"title":"carry the day","uk":"","us":""}
+{"title":"carry trade","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carry weight","uk":"","us":""}
+{"title":"carry your bat","uk":"","us":""}
+{"title":"carry/take coals to Newcastle","uk":"","us":""}
+{"title":"carryall","uk":"uk  / ˈkær.i.ɔːl /","ukp":"/ˈkær.i.ɔːl/","us":"us  / ˈker.i.ɑːl /","usp":"/ˈker.i.ɑːl/"}
+{"title":"carryback","uk":"uk  / ˈkæriˌbæk /","ukp":"/ˈkæriˌbæk/","us":"us ","usp":""}
+{"title":"carrycot","uk":"uk  / ˈkær.i.kɒt /","ukp":"/ˈkær.i.kɒt/","us":"us  / ˈker.i.kɑːt /","usp":"/ˈker.i.kɑːt/"}
+{"title":"carryforward","uk":"uk  / ˌkæriˈfɔːwəd /","ukp":"/ˌkæriˈfɔːwəd/","us":"us ","usp":""}
+{"title":"carrying amount","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carrying capacity","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carrying case","uk":"uk  / ˈkær.i.ɪŋ ˌkeɪs /","ukp":"/ˈkær.i.ɪŋ ˌkeɪs/","us":"us  / ˈker.i.ɪŋ ˌkeɪs /","usp":"/ˈker.i.ɪŋ ˌkeɪs/"}
+{"title":"carrying","uk":"uk  / ˈkær.i /","ukp":"/ˈkær.i/","us":"us  / ˈker.i /","usp":"/ˈker.i/"}
+{"title":"carrying charge","uk":"uk  / ˈkær.i.ɪŋ ˌtʃɑːdʒ /","ukp":"/ˈkær.i.ɪŋ ˌtʃɑːdʒ/","us":"us  / ˈker.i.ɪŋ ˌtʃɑːrdʒ /","usp":"/ˈker.i.ɪŋ ˌtʃɑːrdʒ/"}
+{"title":"carrying cost","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carrying value","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"carrying-on","uk":"uk  / ˌkær.i.ɪŋˈɒn /","ukp":"/ˌkær.i.ɪŋˈɒn/","us":"us  / ˌker.i.ɪŋˈɑːn /","usp":"/ˌker.i.ɪŋˈɑːn/"}
+{"title":"carryings-on","uk":"","us":""}
+{"title":"carryover","uk":"uk  / ˈkæriˌəʊvə r /","ukp":"/ˈkæriˌəʊvər/","us":"us ","usp":""}
+{"title":"carryout","uk":"uk  / ˈkær.i.aʊt /","ukp":"/ˈkær.i.aʊt/","us":"us  / ˈker.i.aʊt /","usp":"/ˈker.i.aʊt/"}
+{"title":"carsick","uk":"uk  / ˈkɑː.sɪk /","ukp":"/ˈkɑː.sɪk/","us":"us  / ˈkɑːr.sɪk /","usp":"/ˈkɑːr.sɪk/"}
+{"title":"carsickness","uk":"uk  / ˈkɑːˌsɪk.nəs /","ukp":"/ˈkɑːˌsɪk.nəs/","us":"us  / ˈkɑːrˌsɪk.nəs /","usp":"/ˈkɑːrˌsɪk.nəs/"}
+{"title":"Carson City","uk":"uk  / ˌkɑː.s ə n ˈsɪt.i /","ukp":"/ˌkɑː.sən ˈsɪt.i /","us":"us  / ˌkɑːr.s ə n ˈsɪt̬.i /","usp":"/ˌkɑːr.sən ˈsɪt̬.i /"}
+{"title":"cart away something/someone","uk":"","us":""}
+{"title":"cart track","uk":"uk  / ˈkɑːt ˌtræk /","ukp":"/ˈkɑːt ˌtræk/","us":"us  / ˈkɑːrt ˌtræk /","usp":"/ˈkɑːrt ˌtræk/"}
+{"title":"cart","uk":"uk  / kɑːt /","ukp":"/kɑːt/","us":"us  / kɑːrt /","usp":"/kɑːrt/"}
+{"title":"cartage","uk":"uk  / ˈkɑː.tɪdʒ /","ukp":"/ˈkɑː.tɪdʒ/","us":"us  / ˈkɑːr.tɪdʒ /","usp":"/ˈkɑːr.tɪdʒ/"}
+{"title":"Cartagena","uk":"uk  / ˌkɑː.təˈɡeɪ.nə /","ukp":"/ˌkɑː.təˈɡeɪ.nə/","us":"us  / ˌkɑːr.t̬əˈɡeɪ.nə /","usp":"/ˌkɑːr.t̬əˈɡeɪ.nə/"}
+{"title":"carte blanche","uk":"uk  / ˌkɑːt ˈblɑ̃ːʃ /","ukp":"/ˌkɑːt ˈblɑ̃ːʃ/","us":"us  / ˌkɑːrt ˈblɑːnʃ /","usp":"/ˌkɑːrt ˈblɑːnʃ/"}
+{"title":"carted","uk":"uk  / kɑːt /","ukp":"/kɑːt/","us":"us  / kɑːrt /","usp":"/kɑːrt/"}
+{"title":"cartel","uk":"uk  / kɑːˈtel /","ukp":"/kɑːˈtel/","us":"us  / kɑːrˈtel /","usp":"/kɑːrˈtel/"}
+{"title":"Cartesian","uk":"uk  / kɑːˈti.zi.ən /","ukp":"/kɑːˈti.zi.ən/","us":"us  / kɑːrˈti.ʒ ə n /","usp":"/kɑːrˈti.ʒən/"}
+{"title":"carter","uk":"uk  / ˈkɑː.tə r /","ukp":"/ˈkɑː.tər/","us":"us  / ˈkɑːr.t̬ɚ /","usp":"/ˈkɑːr.t̬ɚ/"}
+{"title":"carthorse","uk":"uk  / ˈkɑːt.hɔːs /","ukp":"/ˈkɑːt.hɔːs/","us":"us  / ˈkɑːrt.hɔːrs /","usp":"/ˈkɑːrt.hɔːrs/"}
+{"title":"carting","uk":"uk  / kɑːt /","ukp":"/kɑːt/","us":"us  / kɑːrt /","usp":"/kɑːrt/"}
+{"title":"cash account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash accounting","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cartilage","uk":"uk  / ˈkɑː.t ə l.ɪdʒ /","ukp":"/ˈkɑː.təl.ɪdʒ/","us":"us  / ˈkɑːr.t̬ ə l.ɪdʒ /","usp":"/ˈkɑːr.t̬əl.ɪdʒ/"}
+{"title":"cash advance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cartilaginous","uk":"uk  / ˌkɑː.tɪˈlædʒ.ɪ.nəs /","ukp":"/ˌkɑː.tɪˈlædʒ.ɪ.nəs/","us":"us  / ˌkɑːr.t̬ ə lˈædʒ.ə.nəs /","usp":"/ˌkɑːr.t̬əlˈædʒ.ə.nəs/"}
+{"title":"cash against documents","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash at bank","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash bar","uk":"uk  / ˈkæʃ ˌbɑː r /","ukp":"/ˈkæʃ ˌbɑːr/","us":"us  / ˈkæʃ ˌbɑːr /","usp":"/ˈkæʃ ˌbɑːr/"}
+{"title":"cash balance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash basis","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash basis accounting","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash before delivery","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash bid","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash box","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash book","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash budget","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash burn rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash buyer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash call","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash collections","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash column","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash card","uk":"uk  / ˈkæʃ ˌkɑːd /","ukp":"/ˈkæʃ ˌkɑːd/","us":"us  / ˈkæʃ ˌkɑːrd /","usp":"/ˈkæʃ ˌkɑːrd/"}
+{"title":"cash commodity","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash conversion","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash conversion period","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash cow","uk":"uk  / ˈkæʃ ˌkaʊ /","ukp":"/ˈkæʃ ˌkaʊ/","us":"us  / ˈkæʃ ˌkaʊ /","usp":"/ˈkæʃ ˌkaʊ/"}
+{"title":"cash crisis","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash crop","uk":"uk  / ˈkæʃ ˌkrɒp /","ukp":"/ˈkæʃ ˌkrɒp/","us":"us  / ˈkæʃ ˌkrɑːp /","usp":"/ˈkæʃ ˌkrɑːp/"}
+{"title":"cash crunch","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash cycle","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash deal","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash deposit ratio","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash desk","uk":"uk  / ˈkæʃ ˌdesk /","ukp":"/ˈkæʃ ˌdesk/","us":"us  / ˈkæʃ ˌdesk /","usp":"/ˈkæʃ ˌdesk/"}
+{"title":"cash discount","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash dispenser","uk":"uk  / ˈkæʃ dɪˌspen.sə r /","ukp":"/ˈkæʃ dɪˌspen.sər/","us":"us  / ˈkæʃ dɪˌspen.sɚ /","usp":"/ˈkæʃ dɪˌspen.sɚ/"}
+{"title":"cash dividend","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash equivalent","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash drawer","uk":"uk  / ˈkæʃ ˌdrɔː r /","ukp":"/ˈkæʃ ˌdrɔːr/","us":"us  / ˈkæʃ ˌdrɔːr /","usp":"/ˈkæʃ ˌdrɔːr/"}
+{"title":"cash flow","uk":"uk  / ˈkæʃ ˌfləʊ /","ukp":"/ˈkæʃ ˌfləʊ/","us":"us  / ˈkæʃ ˌfloʊ /","usp":"/ˈkæʃ ˌfloʊ/"}
+{"title":"cash flow forecast","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash generation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash generator","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash gifting","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash handling","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash holdings","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash in advance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash in on something","uk":"uk  / kæʃ /","ukp":"/kæʃ/","us":"us  / kæʃ /","usp":"/kæʃ/"}
+{"title":"cash in hand","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash in something","uk":"uk  / kæʃ /","ukp":"/kæʃ/","us":"us  / kæʃ /","usp":"/kæʃ/"}
+{"title":"cash ISA","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash issue","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cash machine","uk":"uk  / ˈkæʃ məˌʃiːn /","ukp":"/ˈkæʃ məˌʃiːn/","us":"us  / ˈkæʃ məˌʃiːn /","usp":"/ˈkæʃ məˌʃiːn/"}
+{"title":"catalogue","uk":"uk  / ˈkæt. ə l.ɒɡ /","ukp":"/ˈkæt.əl.ɒɡ/","us":"us  / ˈkæt̬. ə l.ɑːɡ /","usp":"/ˈkæt̬.əl.ɑːɡ/"}
+{"title":"catalogue price","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"catalogued","uk":"uk  / ˈkæt. ə l.ɒɡ /","ukp":"/ˈkæt.əl.ɒɡ/","us":"us  / ˈkæt̬. ə l.ɑːɡ /","usp":"/ˈkæt̬.əl.ɑːɡ/"}
+{"title":"cataloguing","uk":"uk  / ˈkæt. ə l.ɒɡ /","ukp":"/ˈkæt.əl.ɒɡ/","us":"us  / ˈkæt̬. ə l.ɑːɡ /","usp":"/ˈkæt̬.əl.ɑːɡ/"}
+{"title":"Catalonia","uk":"uk  / ˌkæt.əˈləʊ.ni.ə /","ukp":"/ˌkæt.əˈləʊ.ni.ə/","us":"us  / ˌkæt̬.əˈloʊ.ni.ə /","usp":"/ˌkæt̬.əˈloʊ.ni.ə/"}
+{"title":"catalyse","uk":"uk  / ˈkæt. ə l.aɪz /","ukp":"/ˈkæt.əl.aɪz/","us":"us  / ˈkæt̬. ə l.aɪz /","usp":"/ˈkæt̬.əl.aɪz/"}
+{"title":"catalysis","uk":"uk  / kəˈtæl.ə.sɪs /","ukp":"/kəˈtæl.ə.sɪs/","us":"us  / kəˈtæl.ə.sɪs /","usp":"/kəˈtæl.ə.sɪs/"}
+{"title":"catalytic","uk":"uk  / ˌkæt.əˈlɪt.ɪk /","ukp":"/ˌkæt.əˈlɪt.ɪk/","us":"us  / ˌkæt̬.əˈlɪt̬.ɪk /","usp":"/ˌkæt̬.əˈlɪt̬.ɪk/"}
+{"title":"catalytic converter","uk":"uk  / ˌkæt.ə.lɪt.ɪk kənˈvɜː.tə r /","ukp":"/ˌkæt.ə.lɪt.ɪk kənˈvɜː.tər/","us":"us  / ˌkæt̬.ə.lɪt̬.ɪk kənˈvɝː.t̬ɚ /","usp":"/ˌkæt̬.ə.lɪt̬.ɪk kənˈvɝː.t̬ɚ/"}
+{"title":"catalyst","uk":"uk  / ˈkæt. ə l.ɪst /","ukp":"/ˈkæt.əl.ɪst/","us":"us  / ˈkæt̬. ə l.ɪst /","usp":"/ˈkæt̬.əl.ɪst/"}
+{"title":"catalyze","uk":"uk  / ˈkæt. ə l.aɪz /","ukp":"/ˈkæt.əl.aɪz/","us":"us  / ˈkæt̬. ə l.aɪz /","usp":"/ˈkæt̬.əl.aɪz/"}
+{"title":"cataphatic","uk":"uk  / ˌkæt.əˈfæt.ɪk /","ukp":"/ˌkæt.əˈfæt.ɪk/","us":"us  / ˌkæt̬.əˈfæt̬.ɪk /","usp":"/ˌkæt̬.əˈfæt̬.ɪk/"}
+{"title":"cataphor","uk":"uk  / ˈkæt.əˌfɔː r /","ukp":"/ˈkæt.əˌfɔːr/","us":"us / ˈkæt̬.əˌfɔːr /","usp":"/ˈkæt̬.əˌfɔːr/"}
+{"title":"catamaran","uk":"uk  / ˈkæt.ə.mə.ræn /","ukp":"/ˈkæt.ə.mə.ræn/","us":"us  / ˈkæt̬.ə.mə.ræn /","usp":"/ˈkæt̬.ə.mə.ræn/"}
+{"title":"cataphora","uk":"uk  / kəˈtæf. ə r.ə /","ukp":"/kəˈtæf.ər.ə/","us":"us  / kəˈtæf. ə r.ə /","usp":"/kəˈtæf.ər.ə/"}
+{"title":"cataphoric","uk":"uk  / ˌkæt.əˈfɒr.ɪk /","ukp":"/ˌkæt.əˈfɒr.ɪk/","us":"us  / ˌkæt̬.əˈfɔːr.ɪk /","usp":"/ˌkæt̬.əˈfɔːr.ɪk/"}
+{"title":"cataphorically","uk":"uk  / ˌkæt.əˈfɒr.ɪ.k ə l.i /","ukp":"/ˌkæt.əˈfɒr.ɪ.kəl.i/","us":"us  / ˌkæt̬.əˈfɔːr.ɪ.k ə l.i /","usp":"/ˌkæt̬.əˈfɔːr.ɪ.kəl.i/"}
+{"title":"catapult","uk":"uk  / ˈkæt.ə.pʌlt /","ukp":"/ˈkæt.ə.pʌlt/","us":"us  / ˈkæt̬.ə.pʌlt /","usp":"/ˈkæt̬.ə.pʌlt/"}
+{"title":"catapulting","uk":"uk  / ˈkæt.ə.pʌlt /","ukp":"/ˈkæt.ə.pʌlt/","us":"us  / ˈkæt̬.ə.pʌlt /","usp":"/ˈkæt̬.ə.pʌlt/"}
+{"title":"catapulted","uk":"uk  / ˈkæt.ə.pʌlt /","ukp":"/ˈkæt.ə.pʌlt/","us":"us  / ˈkæt̬.ə.pʌlt /","usp":"/ˈkæt̬.ə.pʌlt/"}
+{"title":"cataract","uk":"uk  / ˈkæt.ə.rækt /","ukp":"/ˈkæt.ə.rækt/","us":"us  / ˈkæt̬.ə.rækt /","usp":"/ˈkæt̬.ə.rækt/"}
+{"title":"catarrh","uk":"uk  / kəˈtɑː r /","ukp":"/kəˈtɑːr/","us":"us  / kəˈtɑːr /","usp":"/kəˈtɑːr/"}
+{"title":"catastrophe adjuster","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"catastrophe","uk":"uk  / kəˈtæs.trə.fi /","ukp":"/kəˈtæs.trə.fi/","us":"us  / kəˈtæs.trə.fi /","usp":"/kəˈtæs.trə.fi/"}
+{"title":"catastrophe bond","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"catastrophic","uk":"uk  / ˌkæt.əˈstrɒf.ɪk /","ukp":"/ˌkæt.əˈstrɒf.ɪk/","us":"us  / ˌkæt̬.əˈstrɑː.fɪk /","usp":"/ˌkæt̬.əˈstrɑː.fɪk/"}
+{"title":"catastrophize","uk":"uk  / kəˈtæs.trə.faɪz /","ukp":"/kəˈtæs.trə.faɪz/","us":"us  / kəˈtæs.trə.faɪz /","usp":"/kəˈtæs.trə.faɪz/"}
+{"title":"catatonic","uk":"uk  / ˌkæt.əˈtɒn.ɪk /","ukp":"/ˌkæt.əˈtɒn.ɪk/","us":"us  / ˌkæt̬.əˈtɑː.nɪk /","usp":"/ˌkæt̬.əˈtɑː.nɪk/"}
+{"title":"catawampus","uk":"uk  / ˌkæt.əˈwɒm.pəs /","ukp":"/ˌkæt.əˈwɒm.pəs/","us":"us  / ˌkæt̬.əˈwɑːm.pəs /","usp":"/ˌkæt̬.əˈwɑːm.pəs/"}
+{"title":"catch a break","uk":"","us":""}
+{"title":"catcall","uk":"uk  / ˈkæt.kɔːl /","ukp":"/ˈkæt.kɔːl/","us":"us  / ˈkæt.kɑːl /","usp":"/ˈkæt.kɑːl/"}
+{"title":"catch (someone) up","uk":"uk  / kætʃ /","ukp":"/kætʃ/","us":"us  / kætʃ /","usp":"/kætʃ/"}
+{"title":"catch and face","uk":"","us":""}
+{"title":"catch fire","uk":"","us":""}
+{"title":"catch","uk":"uk  / kætʃ /","ukp":"/kætʃ/","us":"us  / kætʃ /","usp":"/kætʃ/"}
+{"title":"catch on","uk":"uk  / kætʃ /","ukp":"/kætʃ/","us":"us  / kætʃ /","usp":"/kætʃ/"}
+{"title":"catch sight of/catch a glimpse of","uk":"","us":""}
+{"title":"catch sight of someone/something","uk":"","us":""}
+{"title":"catch someone napping","uk":"","us":""}
+{"title":"catch someone off guard","uk":"","us":""}
+{"title":"catch someone on the hop","uk":"","us":""}
+{"title":"catch someone on the wrong foot","uk":"","us":""}
+{"title":"catch someone red-handed","uk":"","us":""}
+{"title":"catch someone out","uk":"uk  / kætʃ /","ukp":"/kætʃ/","us":"us  / kætʃ /","usp":"/kætʃ/"}
+{"title":"catch someone up on something","uk":"uk  / kætʃ /","ukp":"/kætʃ/","us":"us  / kætʃ /","usp":"/kætʃ/"}
+{"title":"catch someone with their pants/trousers down","uk":"","us":""}
+{"title":"catch someone's attention, imagination, interest, etc.","uk":"","us":""}
+{"title":"catch the light","uk":"","us":""}
+{"title":"catch someone's eye","uk":"","us":""}
+{"title":"casing","uk":"uk  / ˈkeɪ.sɪŋ /","ukp":"/ˈkeɪ.sɪŋ/","us":"us  / ˈkeɪ.sɪŋ /","usp":"/ˈkeɪ.sɪŋ/"}
+{"title":"casino","uk":"uk  / kəˈsiː.nəʊ /","ukp":"/kəˈsiː.nəʊ/","us":"us  / kəˈsiː.noʊ /","usp":"/kəˈsiː.noʊ/"}
+{"title":"casita","uk":"uk / kəˈsiː.tə /","ukp":"/kəˈsiː.tə/","us":"us / kəˈsiː.t̬ə /","usp":"/kəˈsiː.t̬ə/"}
+{"title":"casino banking","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cask","uk":"uk  / kɑːsk /","ukp":"/kɑːsk/","us":"us  / kæsk /","usp":"/kæsk/"}
+{"title":"casket","uk":"uk  / ˈkɑː.skɪt /","ukp":"/ˈkɑː.skɪt/","us":"us  / ˈkæs.kɪt /","usp":"/ˈkæs.kɪt/"}
+{"title":"cassava","uk":"uk  / kəˈsɑː.və /","ukp":"/kəˈsɑː.və/","us":"us  / kəˈsɑː.və /","usp":"/kəˈsɑː.və/"}
+{"title":"casserole","uk":"uk  / ˈkæs. ə r.əʊl /","ukp":"/ˈkæs.ər.əʊl/","us":"us  / ˈkæs.ə.roʊl /","usp":"/ˈkæs.ə.roʊl/"}
+{"title":"cassette","uk":"uk  / kəˈset /","ukp":"/kəˈset/","us":"us  / kəˈset /","usp":"/kəˈset/"}
+{"title":"cassette player","uk":"uk  / kəˈset ˌpleɪ.ə r /","ukp":"/kəˈset ˌpleɪ.ər/","us":"us  / kəˈset ˌpleɪ.ɚ /","usp":"/kəˈset ˌpleɪ.ɚ/"}
+{"title":"cassette recorder","uk":"uk  / kəˈset rɪˌkɔː.də r /","ukp":"/kəˈset rɪˌkɔː.dər/","us":"us  / kəˈset rɪˌkɔːr.dɚ /","usp":"/kəˈset rɪˌkɔːr.dɚ/"}
+{"title":"cassock","uk":"uk  / ˈkæs.ək /","ukp":"/ˈkæs.ək/","us":"us  / ˈkæs.ək /","usp":"/ˈkæs.ək/"}
+{"title":"cassoulet","uk":"uk / ˈkæs.u.leɪ /","ukp":"/ˈkæs.u.leɪ/","us":"us / kæs.əˈleɪ /","usp":"/kæs.əˈleɪ/"}
+{"title":"cassowary","uk":"uk  / ˈkæs.ə.weə.ri /","ukp":"/ˈkæs.ə.weə.ri/","us":"us  / ˈkæs.ə.wer.i /","usp":"/ˈkæs.ə.wer.i/"}
+{"title":"cast a look, glance, smile, etc.","uk":"","us":""}
+{"title":"cast a shadow over/on something","uk":"","us":""}
+{"title":"cast a spell","uk":"","us":""}
+{"title":"cast a/your vote","uk":"","us":""}
+{"title":"cast about","uk":"","us":"us  / kæst /","usp":"/kæst/"}
+{"title":"cast","uk":"uk  / kɑːst /","ukp":"/kɑːst/","us":"us  / kæst /","usp":"/kæst/"}
+{"title":"cast an/your eye over something","uk":"","us":""}
+{"title":"cast aspersions on someone/something","uk":"","us":""}
+{"title":"cast around","uk":"uk  / kɑːst /","ukp":"/kɑːst/","us":"us  / kæst /","usp":"/kæst/"}
+{"title":"cast doubt on something","uk":"","us":""}
+{"title":"cast doubt/suspicion on someone/something","uk":"","us":""}
+{"title":"cast light on something","uk":"","us":""}
+{"title":"cast list","uk":"uk  / ˈkɑːst ˌlɪst /","ukp":"/ˈkɑːst ˌlɪst/","us":"us  / ˈkæst ˌlɪst /","usp":"/ˈkæst ˌlɪst/"}
+{"title":"cast iron","uk":"uk  / ˌkɑːst ˈaɪən /","ukp":"/ˌkɑːst ˈaɪən/","us":"us  / ˌkæst ˈaɪrn /","usp":"/ˌkæst ˈaɪrn/"}
+{"title":"cast off","uk":"uk  / kɑːst /","ukp":"/kɑːst/","us":"us  / kæst /","usp":"/kæst/"}
+{"title":"cast pearls before swine","uk":"","us":""}
+{"title":"cast on","uk":"uk  / kɑːst /","ukp":"/kɑːst/","us":"us  / kæst /","usp":"/kæst/"}
+{"title":"cast someone adrift","uk":"","us":""}
+{"title":"cast someone/something aside/away/off","uk":"uk  / kɑːst /","ukp":"/kɑːst/","us":"us  / kæst /","usp":"/kæst/"}
+{"title":"cast someone/something out","uk":"uk  / kɑːst /","ukp":"/kɑːst/","us":"us  / kæst /","usp":"/kæst/"}
+{"title":"cast your mind back","uk":"","us":""}
+{"title":"cast your net wide","uk":"","us":""}
+{"title":"cast-iron guarantee, alibi, etc.","uk":"","us":""}
+{"title":"cast/shed/throw light on something","uk":"","us":""}
+{"title":"cast-offs","uk":"uk  / ˈkɑːst.ɒfs /","ukp":"/ˈkɑːst.ɒfs/","us":"us  / ˈkæst.ɑːfs /","usp":"/ˈkæst.ɑːfs/"}
+{"title":"castaway","uk":"uk  / ˈkɑː.stə.weɪ /","ukp":"/ˈkɑː.stə.weɪ/","us":"us  / ˈkæs.tə.weɪ /","usp":"/ˈkæs.tə.weɪ/"}
+{"title":"castanets","uk":"uk  / ˌkæs.təˈnets /","ukp":"/ˌkæs.təˈnets/","us":"us  / ˌkæs.təˈnets /","usp":"/ˌkæs.təˈnets/"}
+{"title":"caste","uk":"uk  / kɑːst /","ukp":"/kɑːst/","us":"us  / kæst /","usp":"/kæst/"}
+{"title":"castellated","uk":"uk  / ˈkæs.tə.leɪ.tɪd /","ukp":"/ˈkæs.tə.leɪ.tɪd/","us":"us  / ˈkæs.tə.leɪ.t̬ɪd /","usp":"/ˈkæs.tə.leɪ.t̬ɪd/"}
+{"title":"caster sugar","uk":"uk  / ˈkɑː.stə ˌʃʊɡ.ə r /","ukp":"/ˈkɑː.stə ˌʃʊɡ.ər/","us":"us  / ˈkæs.tɚ ˌʃʊɡ.ɚ /","usp":"/ˈkæs.tɚ ˌʃʊɡ.ɚ/"}
+{"title":"caster","uk":"uk  / ˈkɑː.stə r /","ukp":"/ˈkɑː.stər/","us":"us  / ˈkæs.tɚ /","usp":"/ˈkæs.tɚ/"}
+{"title":"castigate","uk":"uk  / ˈkæs.tɪ.ɡeɪt /","ukp":"/ˈkæs.tɪ.ɡeɪt/","us":"us  / ˈkæs.tə.ɡeɪt /","usp":"/ˈkæs.tə.ɡeɪt/"}
+{"title":"castigated","uk":"uk  / ˈkæs.tɪ.ɡeɪt /","ukp":"/ˈkæs.tɪ.ɡeɪt/","us":"us  / ˈkæs.tə.ɡeɪt /","usp":"/ˈkæs.tə.ɡeɪt/"}
+{"title":"castigating","uk":"uk  / ˈkæs.tɪ.ɡeɪt /","ukp":"/ˈkæs.tɪ.ɡeɪt/","us":"us  / ˈkæs.tə.ɡeɪt /","usp":"/ˈkæs.tə.ɡeɪt/"}
+{"title":"Castilian","uk":"uk  / kæsˈtɪl.jən /","ukp":"/kæsˈtɪl.jən/","us":"us  / kæsˈtɪl.jən /","usp":"/kæsˈtɪl.jən/"}
+{"title":"casting couch","uk":"uk  / ˈkɑː.stɪŋ ˌkaʊtʃ /","ukp":"/ˈkɑː.stɪŋ ˌkaʊtʃ/","us":"us  / ˈkæs.tɪŋ ˌkaʊtʃ /","usp":"/ˈkæs.tɪŋ ˌkaʊtʃ/"}
+{"title":"casting vote","uk":"uk  / ˌkɑː.stɪŋ ˈvəʊt /","ukp":"/ˌkɑː.stɪŋ ˈvəʊt/","us":"us  / ˌkæs.tɪŋ ˈvoʊt /","usp":"/ˌkæs.tɪŋ ˈvoʊt/"}
+{"title":"castle","uk":"uk  / ˈkɑː.s ə l /","ukp":"/ˈkɑː.səl/","us":"us  / ˈkæs. ə l /","usp":"/ˈkæs.əl/"}
+{"title":"castles in the air","uk":"","us":""}
+{"title":"castling","uk":"uk  / ˈkɑː.s ə l /","ukp":"/ˈkɑː.səl/","us":"us  / ˈkæs. ə l /","usp":"/ˈkæs.əl/"}
+{"title":"castoff","uk":"","us":"us  / ˈkæstˌɔf /","usp":"/ˈkæstˌɔf/"}
+{"title":"castled","uk":"uk  / ˈkɑː.s ə l /","ukp":"/ˈkɑː.səl/","us":"us  / ˈkæs. ə l /","usp":"/ˈkæs.əl/"}
+{"title":"castor oil","uk":"uk  / ˌkɑː.stər ˈɔɪl /","ukp":"/ˌkɑː.stər ˈɔɪl/","us":"us  / ˌkæs.tɚ ˈɔɪl /","usp":"/ˌkæs.tɚ ˈɔɪl/"}
+{"title":"castor","uk":"uk  / ˈkɑː.stə r /","ukp":"/ˈkɑː.stər/","us":"us  / ˈkæs.tɚ /","usp":"/ˈkæs.tɚ/"}
+{"title":"castrate","uk":"uk  / kæsˈtreɪt /","ukp":"/kæsˈtreɪt/","us":"us  / kæsˈtreɪt /","usp":"/kæsˈtreɪt/"}
+{"title":"castrated","uk":"uk  / kæsˈtreɪ.tɪd /","ukp":"/kæsˈtreɪ.tɪd/","us":"us  / ˈkæs.treɪ.t̬ɪd /","usp":"/ˈkæs.treɪ.t̬ɪd/"}
+{"title":"castrating","uk":"uk  / kæsˈtreɪt /","ukp":"/kæsˈtreɪt/","us":"us  / kæsˈtreɪt /","usp":"/kæsˈtreɪt/"}
+{"title":"castration","uk":"uk  / kæsˈtreɪ.ʃ ə n /","ukp":"/kæsˈtreɪ.ʃən/","us":"us  / kæsˈtreɪ.ʃ ə n /","usp":"/kæsˈtreɪ.ʃən/"}
+{"title":"Castries","uk":"uk  / kæsˈtriːz /","ukp":"/kæsˈtriːz/","us":"us  / kæsˈtriːz /","usp":"/kæsˈtriːz/"}
+{"title":"casual Friday","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"casualization","uk":"uk  / ˌkæʒ.ju.ə.laɪˈzeɪ.ʃ ə n /","ukp":"/ˌkæʒ.ju.ə.laɪˈzeɪ.ʃən/","us":"us  / ˌkæʒ.uː.ə.laɪˈzeɪ.ʃ ə n /","usp":"/ˌkæʒ.uː.ə.laɪˈzeɪ.ʃən/"}
+{"title":"casual","uk":"uk  / ˈkæʒ.ju.əl /","ukp":"/ˈkæʒ.ju.əl/","us":"us  / ˈkæʒ.uː.əl /","usp":"/ˈkæʒ.uː.əl/"}
+{"title":"casually","uk":"uk  / ˈkæʒ.u.ə.li /","ukp":"/ˈkæʒ.u.ə.li/","us":"us  / ˈkæʒ.uː.ə.li /","usp":"/ˈkæʒ.uː.ə.li/"}
+{"title":"casualty","uk":"uk  / ˈkæʒ.ju.əl.ti /","ukp":"/ˈkæʒ.ju.əl.ti/","us":"us  / ˈkæʒ.ju.əl.ti /","usp":"/ˈkæʒ.ju.əl.ti/"}
+{"title":"casualty assistance officer","uk":"uk  / ˌkæʒ.ju.əl.ti əˈsɪs.t ə ns ˌɒf.ɪ.sə r /","ukp":"/ˌkæʒ.ju.əl.ti əˈsɪs.təns ˌɒf.ɪ.sər/","us":"us  / ˌkæʒ.ju.əl.ti əˈsɪs.t ə ns ˌɑː.fɪ.sɚ /","usp":"/ˌkæʒ.ju.əl.ti əˈsɪs.təns ˌɑː.fɪ.sɚ/"}
+{"title":"casualty insurance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"casualty notification officer","uk":"uk  / ˌkæʒ.ju.əl.ti nəʊ.tɪ.fɪˈkeɪ.ʃ ə n ˌɒf.ɪ.sə r /","ukp":"/ˌkæʒ.ju.əl.ti nəʊ.tɪ.fɪˈkeɪ.ʃən ˌɒf.ɪ.sər/","us":"us  / ˌkæʒ.ju.əl.ti noʊ.t̬ə.fəˈkeɪ.ʃ ə n ˌɑː.fɪ.sɚ /","usp":"/ˌkæʒ.ju.əl.ti noʊ.t̬ə.fəˈkeɪ.ʃən ˌɑː.fɪ.sɚ/"}
+{"title":"casualty loss","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"casualty officer","uk":"uk  / ˈkæʒ.ju.əl.ti ˌɒf.ɪ.sə r /","ukp":"/ˈkæʒ.ju.əl.ti ˌɒf.ɪ.sər/","us":"us  / ˈkæʒ.ju.əl.ti ˌɑː.fɪ.sɚ /","usp":"/ˈkæʒ.ju.əl.ti ˌɑː.fɪ.sɚ/"}
+{"title":"casuistry","uk":"uk  / ˈkæz.ju.ɪ.stri /","ukp":"/ˈkæz.ju.ɪ.stri/","us":"us  / ˈkæz.u.ɪ.stri /","usp":"/ˈkæz.u.ɪ.stri/"}
+{"title":"cat burglar","uk":"uk  / ˈkæt ˌbɜː.ɡlə r /","ukp":"/ˈkæt ˌbɜː.ɡlər/","us":"us  / ˈkæt ˌbɝː.ɡlɚ /","usp":"/ˈkæt ˌbɝː.ɡlɚ/"}
+{"title":"cat","uk":"uk  / kæt /","ukp":"/kæt/","us":"us  / kæt /","usp":"/kæt/"}
+{"title":"cat café","uk":"uk  / ˈkæt ˌkæf.eɪ /","ukp":"/ˈkæt ˌkæf.eɪ/","us":"us  / ˈkæt kæf.ˌeɪ /","usp":"/ˈkæt kæf.ˌeɪ/"}
+{"title":"cat flap","uk":"uk  / ˈkæt ˌflæp /","ukp":"/ˈkæt ˌflæp/","us":"us  / ˈkæt ˌflæp /","usp":"/ˈkæt ˌflæp/"}
+{"title":"cat lady","uk":"uk  / ˈkæt ˌleɪ.di /","ukp":"/ˈkæt ˌleɪ.di/","us":"us  / ˈkæt ˌleɪ.di /","usp":"/ˈkæt ˌleɪ.di/"}
+{"title":"CAT standard","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CAT scan","uk":"uk  / ˈkæt ˌskæn /","ukp":"/ˈkæt ˌskæn/","us":"us  / ˈkæt ˌskæn /","usp":"/ˈkæt ˌskæn/"}
+{"title":"cat's cradle","uk":"uk  / ˌkæts ˈkreɪ.d ə l /","ukp":"/ˌkæts ˈkreɪ.dəl/","us":"us  / ˌkæts ˈkreɪ.d ə l /","usp":"/ˌkæts ˈkreɪ.dəl/"}
+{"title":"cat-o'-nine-tails","uk":"uk  / ˌkæt.əˈnaɪn.teɪlz /","ukp":"/ˌkæt.əˈnaɪn.teɪlz/","us":"us  / ˌkæt̬.əˈnaɪn.teɪlz /","usp":"/ˌkæt̬.əˈnaɪn.teɪlz/"}
+{"title":"cat's eyes","uk":"uk  / ˈkæts aɪz /","ukp":"/ˈkæts aɪz/","us":"us  / ˈkæts aɪz /","usp":"/ˈkæts aɪz/"}
+{"title":"cat-sit","uk":"uk  / ˈkætˌsɪt /","ukp":"/ˈkætˌsɪt/","us":"us  / ˈkætˌsɪt /","usp":"/ˈkætˌsɪt/"}
+{"title":"cat-sitter","uk":"uk  / ˈkætˌsɪt.ə r /","ukp":"/ˈkætˌsɪt.ər/","us":"us  / ˈkætˌsɪt̬.ɚ /","usp":"/ˈkætˌsɪt̬.ɚ/"}
+{"title":"cat-sitting","uk":"uk  / ˈkætˌsɪt.ɪŋ /","ukp":"/ˈkætˌsɪt.ɪŋ/","us":"us  / ˈkætˌsɪt̬.ɪŋ /","usp":"/ˈkætˌsɪt̬.ɪŋ/"}
+{"title":"cataclysm","uk":"uk  / ˈkæt.ə.klɪ.z ə m /","ukp":"/ˈkæt.ə.klɪ.zəm/","us":"us  / ˈkæt̬.ə.klɪ.z ə m /","usp":"/ˈkæt̬.ə.klɪ.zəm/"}
+{"title":"cataclysmically","uk":"uk  / ˌkæt.əˈklɪz.mɪk.li /","ukp":"/ˌkæt.əˈklɪz.mɪk.li/","us":"us  / ˌkæt̬.əˈklɪz.mɪk.li /","usp":"/ˌkæt̬.əˈklɪz.mɪk.li/"}
+{"title":"cataclysmic","uk":"uk  / ˌkæt.əˈklɪz.mɪk /","ukp":"/ˌkæt.əˈklɪz.mɪk/","us":"us  / ˌkæt̬.əˈklɪz.mɪk /","usp":"/ˌkæt̬.əˈklɪz.mɪk/"}
+{"title":"catacomb","uk":"uk  / ˈkæt.ə.kuːm /","ukp":"/ˈkæt.ə.kuːm/","us":"us  / ˈkæt̬.ə.kuːm /","usp":"/ˈkæt̬.ə.kuːm/"}
+{"title":"catafalque","uk":"uk / ˈkæt.ə.fælk /","ukp":"/ˈkæt.ə.fælk/","us":"us / ˈkæt̬.ə.fɑːlk /","usp":"/ˈkæt̬.ə.fɑːlk/"}
+{"title":"Catalan","uk":"uk  / ˈkæt.ə.læn /","ukp":"/ˈkæt.ə.læn/","us":"us  / ˈkæt̬.ə.lɑːn /","usp":"/ˈkæt̬.ə.lɑːn/"}
+{"title":"catalepsy","uk":"uk  / ˈkæt.ə.lep.si /","ukp":"/ˈkæt.ə.lep.si/","us":"us  / ˈkæt̬.ə.lep.si /","usp":"/ˈkæt̬.ə.lep.si/"}
+{"title":"cataleptic","uk":"uk  / ˌkæt.əˈlep.tɪk /","ukp":"/ˌkæt.əˈlep.tɪk/","us":"us  / ˌkæt̬.əˈlep.tɪk /","usp":"/ˌkæt̬.əˈlep.tɪk/"}
+{"title":"catalog","uk":"uk  / ˈkæt. ə l.ɒɡ /","ukp":"/ˈkæt.əl.ɒɡ/","us":"us  / ˈkæt̬. ə l.ɑːɡ /","usp":"/ˈkæt̬.əl.ɑːɡ/"}
+{"title":"cartload","uk":"uk  / ˈkɑːt.ləʊd /","ukp":"/ˈkɑːt.ləʊd/","us":"us  / ˈkɑːrt.loʊd /","usp":"/ˈkɑːrt.loʊd/"}
+{"title":"cartographer","uk":"uk  / kɑːˈtɒɡ.rə.fə r /","ukp":"/kɑːˈtɒɡ.rə.fər/","us":"us  / kɑːrˈtɑː.ɡrə.fɚ /","usp":"/kɑːrˈtɑː.ɡrə.fɚ/"}
+{"title":"cartographic","uk":"uk  / ˌkɑː.təˈɡræf.ɪk /","ukp":"/ˌkɑː.təˈɡræf.ɪk/","us":"us  / ˌkɑːr.t̬əˈɡræf.ɪk /","usp":"/ˌkɑːr.t̬əˈɡræf.ɪk/"}
+{"title":"cartography","uk":"uk  / kɑːˈtɒɡ.rə.fi /","ukp":"/kɑːˈtɒɡ.rə.fi/","us":"us  / kɑːrˈtɑː.ɡrə.fi /","usp":"/kɑːrˈtɑː.ɡrə.fi/"}
+{"title":"carton","uk":"uk  / ˈkɑː.t ə n /","ukp":"/ˈkɑː.tən/","us":"us  / ˈkɑːr.t̬ ə n /","usp":"/ˈkɑːr.t̬ən/"}
+{"title":"cartoonish","uk":"uk  / kɑːˈtuː.nɪʃ /","ukp":"/kɑːˈtuː.nɪʃ/","us":"us  / kɑːrˈtuː.nɪʃ /","usp":"/kɑːrˈtuː.nɪʃ/"}
+{"title":"cartoon","uk":"uk  / kɑːˈtuːn /","ukp":"/kɑːˈtuːn/","us":"us  / kɑːrˈtuːn /","usp":"/kɑːrˈtuːn/"}
+{"title":"cartoonist","uk":"uk  / kɑːˈtuː.nɪst /","ukp":"/kɑːˈtuː.nɪst/","us":"us  / kɑːrˈtuː.nɪst /","usp":"/kɑːrˈtuː.nɪst/"}
+{"title":"cartouche","uk":"uk  / kɑːˈtuːʃ /","ukp":"/kɑːˈtuːʃ/","us":"us  / kɑːrˈtuːʃ /","usp":"/kɑːrˈtuːʃ/"}
+{"title":"cartridge","uk":"uk  / ˈkɑː.trɪdʒ /","ukp":"/ˈkɑː.trɪdʒ/","us":"us  / ˈkɑːr.trɪdʒ /","usp":"/ˈkɑːr.trɪdʒ/"}
+{"title":"cartridge paper","uk":"uk  / ˈkɑː.trɪdʒ ˌpeɪ.pə r /","ukp":"/ˈkɑː.trɪdʒ ˌpeɪ.pər/","us":"us  / ˈkɑːr.trɪdʒ ˌpeɪ.pɚ /","usp":"/ˈkɑːr.trɪdʒ ˌpeɪ.pɚ/"}
+{"title":"cartridge pen","uk":"uk  / ˈkɑː.trɪdʒ ˌpen /","ukp":"/ˈkɑː.trɪdʒ ˌpen/","us":"us  / ˈkɑːr.trɪdʒ ˌpen /","usp":"/ˈkɑːr.trɪdʒ ˌpen/"}
+{"title":"cartwheel","uk":"uk  / ˈkɑːt.wiːl /","ukp":"/ˈkɑːt.wiːl/","us":"us  / ˈkɑːrt.wiːl /","usp":"/ˈkɑːrt.wiːl/"}
+{"title":"carve","uk":"uk  / kɑːv /","ukp":"/kɑːv/","us":"us  / kɑːrv /","usp":"/kɑːrv/"}
+{"title":"carve out something","uk":"","us":"us  / kɑrv /","usp":"/kɑrv/"}
+{"title":"carve someone up","uk":"uk  / kɑːv /","ukp":"/kɑːv/","us":"us  / kɑːrv /","usp":"/kɑːrv/"}
+{"title":"carve something out (for yourself )","uk":"uk  / kɑːv /","ukp":"/kɑːv/","us":"us  / kɑːrv /","usp":"/kɑːrv/"}
+{"title":"carved","uk":"uk  / kɑːv /","ukp":"/kɑːv/","us":"us  / kɑːrv /","usp":"/kɑːrv/"}
+{"title":"carver","uk":"uk  / ˈkɑː.və r /","ukp":"/ˈkɑː.vər/","us":"us  / ˈkɑːr.vɚ /","usp":"/ˈkɑːr.vɚ/"}
+{"title":"carved in stone","uk":"","us":""}
+{"title":"carvery","uk":"uk  / ˈkɑː.v ə r.i /","ukp":"/ˈkɑː.vər.i/","us":"us  / ˈkɑːr.vɚ.i /","usp":"/ˈkɑːr.vɚ.i/"}
+{"title":"carving","uk":"uk  / ˈkɑː.vɪŋ /","ukp":"/ˈkɑː.vɪŋ/","us":"us  / ˈkɑːr.vɪŋ /","usp":"/ˈkɑːr.vɪŋ/"}
+{"title":"carving knife","uk":"uk  / ˈkɑː.vɪŋ ˌnaɪf /","ukp":"/ˈkɑː.vɪŋ ˌnaɪf/","us":"us  / ˈkɑːr.vɪŋ ˌnaɪf /","usp":"/ˈkɑːr.vɪŋ ˌnaɪf/"}
+{"title":"casaba","uk":"uk / kəˈsɑː.bə /","ukp":"/kəˈsɑː.bə/","us":"us / kəˈsɑː.bə /","usp":"/kəˈsɑː.bə/"}
+{"title":"Casablanca","uk":"uk  / ˌkæs.əˈblæŋ.kə /","ukp":"/ˌkæs.əˈblæŋ.kə/","us":"us  / ˌkæs.əˈblæŋ.kə /","usp":"/ˌkæs.əˈblæŋ.kə/"}
+{"title":"cascaded","uk":"uk  / kæsˈkeɪd /","ukp":"/kæsˈkeɪd/","us":"us  / kæsˈkeɪd /","usp":"/kæsˈkeɪd/"}
+{"title":"cascade","uk":"uk  / kæsˈkeɪd /","ukp":"/kæsˈkeɪd/","us":"us  / kæsˈkeɪd /","usp":"/kæsˈkeɪd/"}
+{"title":"cascading","uk":"uk  / kæsˈkeɪd /","ukp":"/kæsˈkeɪd/","us":"us  / kæsˈkeɪd /","usp":"/kæsˈkeɪd/"}
+{"title":"Casanova","uk":"uk  / ˌkæs.əˈnəʊ.və /","ukp":"/ˌkæs.əˈnəʊ.və/","us":"us  / ˌkæs.əˈnoʊ.və /","usp":"/ˌkæs.əˈnoʊ.və/"}
+{"title":"cascading style sheet","uk":"uk  / kæsˌkeɪ.dɪŋ ˈstaɪl ˌʃiːt /","ukp":"/kæsˌkeɪ.dɪŋ ˈstaɪl ˌʃiːt/","us":"us  / kæsˌkeɪ.dɪŋ ˈstaɪl ˌʃiːt /","usp":"/kæsˌkeɪ.dɪŋ ˈstaɪl ˌʃiːt/"}
+{"title":"cascara sagrada","uk":"uk / kæsˌkɑː.rə səˈɡrɑː.də /","ukp":"/kæsˌkɑː.rə səˈɡrɑː.də/","us":"us / kæsˌker.ə səˈɡrɑː.də /","usp":"/kæsˌker.ə səˈɡrɑː.də/"}
+{"title":"case law","uk":"uk  / ˈkeɪs ˌlɔː /","ukp":"/ˈkeɪs ˌlɔː/","us":"us  / ˈkeɪs ˌlɑː /","usp":"/ˈkeɪs ˌlɑː/"}
+{"title":"case history","uk":"uk  / ˌkeɪs ˈhɪs.t ə r.i /","ukp":"/ˌkeɪs ˈhɪs.tər.i/","us":"us  / ˌkeɪs ˈhɪs.tɚ.i /","usp":"/ˌkeɪs ˈhɪs.tɚ.i/"}
+{"title":"case","uk":"uk  / keɪs /","ukp":"/keɪs/","us":"us  / keɪs /","usp":"/keɪs/"}
+{"title":"case rate discount","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"case stated","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"case study","uk":"uk  / ˈkeɪs ˌstʌd.i /","ukp":"/ˈkeɪs ˌstʌd.i/","us":"us  / ˈkeɪs ˌstʌd.i /","usp":"/ˈkeɪs ˌstʌd.i/"}
+{"title":"case the joint","uk":"","us":""}
+{"title":"case-by-case","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"case-sensitive","uk":"uk  / ˌkeɪsˈsen.sɪ.tɪv /","ukp":"/ˌkeɪsˈsen.sɪ.tɪv/","us":"us  / ˌkeɪsˈsen.sə.t̬ɪv /","usp":"/ˌkeɪsˈsen.sə.t̬ɪv/"}
+{"title":"cased","uk":"uk  / keɪst /","ukp":"/keɪst/","us":"us  / keɪst /","usp":"/keɪst/"}
+{"title":"casein","uk":"uk  / ˈkeɪ.siːn /","ukp":"/ˈkeɪ.siːn/","us":"us  / ˈkeɪ.siːn /","usp":"/ˈkeɪ.siːn/"}
+{"title":"caseload","uk":"uk  / ˈkeɪs.ləʊd /","ukp":"/ˈkeɪs.ləʊd/","us":"us  / ˈkeɪs.loʊd /","usp":"/ˈkeɪs.loʊd/"}
+{"title":"casement","uk":"uk  / ˈkeɪ.smənt /","ukp":"/ˈkeɪ.smənt/","us":"us  / ˈkeɪ.smənt /","usp":"/ˈkeɪ.smənt/"}
+{"title":"cash","uk":"uk  / kæʃ /","ukp":"/kæʃ/","us":"us  / kæʃ /","usp":"/kæʃ/"}
+{"title":"cauldron","uk":"uk  / ˈkɔːl.dr ə n /","ukp":"/ˈkɔːl.drən/","us":"us  / ˈkɑːl.dr ə n /","usp":"/ˈkɑːl.drən/"}
+{"title":"cauliflower","uk":"uk  / ˈkɒl.ɪˌflaʊ.ə r /","ukp":"/ˈkɒl.ɪˌflaʊ.ər/","us":"us  / ˈkɑː.ləˌflaʊ.ɚ /","usp":"/ˈkɑː.ləˌflaʊ.ɚ/"}
+{"title":"cauliflower cheese","uk":"uk  / ˌkɒl.ɪ.flaʊ.ə ˈtʃiːz /","ukp":"/ˌkɒl.ɪ.flaʊ.ə ˈtʃiːz/","us":"us  / ˌkɑː.lɪ.flaʊ.ɚ ˈtʃiːz /","usp":"/ˌkɑː.lɪ.flaʊ.ɚ ˈtʃiːz/"}
+{"title":"cauliflower ear","uk":"uk  / ˌkɒl.ɪ.flaʊ.ə r ˈɪə r /","ukp":"/ˌkɒl.ɪ.flaʊ.ər ˈɪər/","us":"us  / ˌkɑː.lɪ.flaʊ.ɚ ˈɪr /","usp":"/ˌkɑː.lɪ.flaʊ.ɚ ˈɪr/"}
+{"title":"caulk","uk":"uk  / kɔːk /","ukp":"/kɔːk/","us":"us  / kɑːk /","usp":"/kɑːk/"}
+{"title":"caulking","uk":"uk / ˈkɔː.kɪŋ /","ukp":"/ˈkɔː.kɪŋ/","us":"us  / ˈkɑː.kɪŋ /","usp":"/ˈkɑː.kɪŋ/"}
+{"title":"caulking gun","uk":"uk / ˈkɔː.kɪŋ ˌɡʌn /","ukp":"/ˈkɔː.kɪŋ ˌɡʌn/","us":"us  / ˈkɑː.kɪŋ ˌɡʌn /","usp":"/ˈkɑː.kɪŋ ˌɡʌn/"}
+{"title":"causal","uk":"uk  / ˈkɔː.z ə l /","ukp":"/ˈkɔː.zəl/","us":"us  / ˈkɑː.z ə l /","usp":"/ˈkɑː.zəl/"}
+{"title":"causally","uk":"uk  / ˈkɔː.z ə l.i /","ukp":"/ˈkɔː.zəl.i/","us":"us  / ˈkɑː.z ə l.i /","usp":"/ˈkɑː.zəl.i/"}
+{"title":"causality","uk":"uk  / kɔːˈzæl.ə.ti /","ukp":"/kɔːˈzæl.ə.ti/","us":"us  / kɑːˈzæl.ə.t̬i /","usp":"/kɑːˈzæl.ə.t̬i/"}
+{"title":"causation","uk":"uk  / kɔːˈzeɪ.ʃ ə n /","ukp":"/kɔːˈzeɪ.ʃən/","us":"us  / kɑːˈzeɪ.ʃ ə n /","usp":"/kɑːˈzeɪ.ʃən/"}
+{"title":"causative","uk":"uk  / ˈkɔː.zə.tɪv /","ukp":"/ˈkɔː.zə.tɪv/","us":"us  / ˈkɑː.zə.t̬ɪv /","usp":"/ˈkɑː.zə.t̬ɪv/"}
+{"title":"cause a stink","uk":"","us":""}
+{"title":"cause a disturbance","uk":"","us":""}
+{"title":"cause","uk":"uk  / kɔːz /","ukp":"/kɔːz/","us":"us  / kɑːz /","usp":"/kɑːz/"}
+{"title":"cause and effect diagram","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cause célèbre","uk":"uk  / ˌkɔːz selˈeb.rə /","ukp":"/ˌkɔːz selˈeb.rə/","us":"us  / ˌkɑːz selˈeb.rə /","usp":"/ˌkɑːz selˈeb.rə/"}
+{"title":"cause of action","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cause related marketing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"caused","uk":"uk  / kɔːz /","ukp":"/kɔːz/","us":"us  / kɑːz /","usp":"/kɑːz/"}
+{"title":"causeless","uk":"uk  / ˈkɔːz.ləs /","ukp":"/ˈkɔːz.ləs/","us":"us  / ˈkɑːz.ləs /","usp":"/ˈkɑːz.ləs/"}
+{"title":"causes célèbres","uk":"","us":""}
+{"title":"causeway","uk":"uk  / ˈkɔːz.weɪ /","ukp":"/ˈkɔːz.weɪ/","us":"us  / ˈkɑːz.weɪ /","usp":"/ˈkɑːz.weɪ/"}
+{"title":"causing","uk":"uk  / kɔːz /","ukp":"/kɔːz/","us":"us  / kɑːz /","usp":"/kɑːz/"}
+{"title":"caustic","uk":"uk  / ˈkɔː.stɪk /","ukp":"/ˈkɔː.stɪk/","us":"us  / ˈkɑː.stɪk /","usp":"/ˈkɑː.stɪk/"}
+{"title":"caustically","uk":"uk  / ˈkɔː.stɪ.k ə l.i /","ukp":"/ˈkɔː.stɪ.kəl.i/","us":"us  / ˈkɑː.stɪ.k ə l.i /","usp":"/ˈkɑː.stɪ.kəl.i/"}
+{"title":"caustic soda","uk":"uk  / ˌkɔː.stɪk ˈsəʊ.də /","ukp":"/ˌkɔː.stɪk ˈsəʊ.də/","us":"us  / ˌkɑː.stɪk ˈsoʊ.də /","usp":"/ˌkɑː.stɪk ˈsoʊ.də/"}
+{"title":"cauterization","uk":"uk  / ˌkɔː.tə.raɪˈzeɪ.ʃ ə n /","ukp":"/ˌkɔː.tə.raɪˈzeɪ.ʃən/","us":"us  / ˌkɑː.t̬ɚ.əˈzeɪ.ʃ ə n /","usp":"/ˌkɑː.t̬ɚ.əˈzeɪ.ʃən/"}
+{"title":"cauterize","uk":"uk  / ˈkɔː.t ə r.aɪz /","ukp":"/ˈkɔː.tər.aɪz/","us":"us  / ˈkɑː.t̬ɚ.aɪz /","usp":"/ˈkɑː.t̬ɚ.aɪz/"}
+{"title":"cauterizing","uk":"uk  / ˈkɔː.t ə r.aɪz /","ukp":"/ˈkɔː.tər.aɪz/","us":"us  / ˈkɑː.t̬ɚ.aɪz /","usp":"/ˈkɑː.t̬ɚ.aɪz/"}
+{"title":"cauterized","uk":"uk  / ˈkɔː.t ə r.aɪz /","ukp":"/ˈkɔː.tər.aɪz/","us":"us  / ˈkɑː.t̬ɚ.aɪz /","usp":"/ˈkɑː.t̬ɚ.aɪz/"}
+{"title":"caution against sth","uk":"uk  / ˈkɔːʃ ə n /","ukp":"/ˈkɔːʃən/","us":"us ","usp":""}
+{"title":"caution money","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cautionary","uk":"uk  / ˈkɔː.ʃ ə n. ə r.i /","ukp":"/ˈkɔː.ʃən.ər.i/","us":"us  / ˈkɑː.ʃ ə n.er.i /","usp":"/ˈkɑː.ʃən.er.i/"}
+{"title":"caution","uk":"uk  / ˈkɔː.ʃ ə n /","ukp":"/ˈkɔː.ʃən/","us":"us  / ˈkɑː.ʃ ə n /","usp":"/ˈkɑː.ʃən/"}
+{"title":"cautionary tale","uk":"uk  / ˌkɔː.ʃ ə n. ə r.i ˈteɪl /","ukp":"/ˌkɔː.ʃən.ər.i ˈteɪl/","us":"us  / ˌkɑː.ʃ ə n.er.i ˈteɪl /","usp":"/ˌkɑː.ʃən.er.i ˈteɪl/"}
+{"title":"cautioning","uk":"uk  / ˈkɔː.ʃ ə n /","ukp":"/ˈkɔː.ʃən/","us":"us  / ˈkɑː.ʃ ə n /","usp":"/ˈkɑː.ʃən/"}
+{"title":"cautioned","uk":"uk  / ˈkɔː.ʃ ə n /","ukp":"/ˈkɔː.ʃən/","us":"us  / ˈkɑː.ʃ ə n /","usp":"/ˈkɑː.ʃən/"}
+{"title":"cautious optimism","uk":"","us":""}
+{"title":"cautious","uk":"uk  / ˈkɔː.ʃəs /","ukp":"/ˈkɔː.ʃəs/","us":"us  / ˈkɑː.ʃəs /","usp":"/ˈkɑː.ʃəs/"}
+{"title":"cautiously optimistic","uk":"","us":""}
+{"title":"cautiously","uk":"uk  / ˈkɔː.ʃəs.li /","ukp":"/ˈkɔː.ʃəs.li/","us":"us  / ˈkɑː.ʃəs.li /","usp":"/ˈkɑː.ʃəs.li/"}
+{"title":"cava","uk":"uk  / ˈkɑː.və /","ukp":"/ˈkɑː.və/","us":"us  / ˈkɑː.və /","usp":"/ˈkɑː.və/"}
+{"title":"cautiousness","uk":"uk  / ˈkɔː.ʃəs.nəs /","ukp":"/ˈkɔː.ʃəs.nəs/","us":"us  / ˈkɑː.ʃəs.nəs /","usp":"/ˈkɑː.ʃəs.nəs/"}
+{"title":"cavalier","uk":"uk  / ˌkæv. ə lˈɪə r /","ukp":"/ˌkæv.əlˈɪər/","us":"us  / ˌkæv. ə lˈɪr /","usp":"/ˌkæv.əlˈɪr/"}
+{"title":"cavalcade","uk":"uk  / ˌkæv. ə lˈkeɪd /","ukp":"/ˌkæv.əlˈkeɪd/","us":"us  / ˌkæv. ə lˈkeɪd /","usp":"/ˌkæv.əlˈkeɪd/"}
+{"title":"cavalry","uk":"uk  / ˈkæv. ə l.ri /","ukp":"/ˈkæv.əl.ri/","us":"us  / ˈkæv. ə l.ri /","usp":"/ˈkæv.əl.ri/"}
+{"title":"cavalryman","uk":"uk  / ˈkæv. ə l.ri.mən /","ukp":"/ˈkæv.əl.ri.mən/","us":"us  / ˈkæv. ə l.ri.mən /","usp":"/ˈkæv.əl.ri.mən/"}
+{"title":"catharsis","uk":"uk  / kəˈθɑː.sɪs /","ukp":"/kəˈθɑː.sɪs/","us":"us  / kəˈθɑːr.sɪs /","usp":"/kəˈθɑːr.sɪs/"}
+{"title":"cave","uk":"uk  / keɪv /","ukp":"/keɪv/","us":"us  / keɪv /","usp":"/keɪv/"}
+{"title":"cathartic","uk":"uk  / kəˈθɑː.tɪk /","ukp":"/kəˈθɑː.tɪk/","us":"us  / kəˈθɑːr.tɪk /","usp":"/kəˈθɑːr.tɪk/"}
+{"title":"catherine wheel","uk":"uk  / ˈkæθ.rɪn ˌwiːl /","ukp":"/ˈkæθ.rɪn ˌwiːl/","us":"us  / ˈkæθ.rɪn ˌwiːl /","usp":"/ˈkæθ.rɪn ˌwiːl/"}
+{"title":"cathedral","uk":"uk  / kəˈθiː.drəl /","ukp":"/kəˈθiː.drəl/","us":"us  / kəˈθiː.drəl /","usp":"/kəˈθiː.drəl/"}
+{"title":"catheter ablation","uk":"uk / ˌkæθ.ə.tər əˈbleɪ.ʃ ə n /","ukp":"/ˌkæθ.ə.tər əˈbleɪ.ʃən/","us":"us / ˌkæθ.ə.t̬ɚ æbˈleɪ.ʃ ə n /","usp":"/ˌkæθ.ə.t̬ɚ æbˈleɪ.ʃən/"}
+{"title":"catheter","uk":"uk  / ˈkæθ.ə.tə r /","ukp":"/ˈkæθ.ə.tər/","us":"us  / ˈkæθ.ə.t̬ɚ /","usp":"/ˈkæθ.ə.t̬ɚ/"}
+{"title":"catheterization","uk":"uk  / ˌkæθ.ə.tə.raɪˈzeɪ.ʃ ə n /","ukp":"/ˌkæθ.ə.tə.raɪˈzeɪ.ʃən/","us":"us  / ˌkæθ.ə.t̬ɚ.əˈzeɪ.ʃ ə n /","usp":"/ˌkæθ.ə.t̬ɚ.əˈzeɪ.ʃən/"}
+{"title":"catheterize","uk":"uk  / ˈkæθ.ə.tə.raɪz /","ukp":"/ˈkæθ.ə.tə.raɪz/","us":"us  / ˈkæθ.ə.t̬əˌraɪz /","usp":"/ˈkæθ.ə.t̬əˌraɪz/"}
+{"title":"cathode","uk":"uk  / ˈkæθ.əʊd /","ukp":"/ˈkæθ.əʊd/","us":"us  / ˈkæθ.oʊd /","usp":"/ˈkæθ.oʊd/"}
+{"title":"cathode ray","uk":"uk  / ˈkæθ.əʊd ˌreɪ /","ukp":"/ˈkæθ.əʊd ˌreɪ/","us":"us  / ˈkæθ.oʊd ˌreɪ /","usp":"/ˈkæθ.oʊd ˌreɪ/"}
+{"title":"cathode ray tube","uk":"uk  / ˌkæθ.əʊd ˈreɪ tjuːb /","ukp":"/ˌkæθ.əʊd ˈreɪ tjuːb/","us":"us  / ˌkæθ.oʊd ˈreɪ tuːb /","usp":"/ˌkæθ.oʊd ˈreɪ tuːb/"}
+{"title":"catholic","uk":"uk  / ˈkæθ. ə l.ɪk /","ukp":"/ˈkæθ.əl.ɪk/","us":"us  / ˈkæθ. ə l.ɪk /","usp":"/ˈkæθ.əl.ɪk/"}
+{"title":"Catholicism","uk":"uk  / kəˈθɒl.ɪ.sɪ.z ə m /","ukp":"/kəˈθɒl.ɪ.sɪ.zəm/","us":"us  / kəˈθɑː.lə.sɪ.z ə m /","usp":"/kəˈθɑː.lə.sɪ.zəm/"}
+{"title":"cation","uk":"uk  / ˈkæt.aɪ.ən /","ukp":"/ˈkæt.aɪ.ən/","us":"us  / ˈkæt.aɪ.ən /","usp":"/ˈkæt.aɪ.ən/"}
+{"title":"catkin","uk":"uk  / ˈkæt.kɪn /","ukp":"/ˈkæt.kɪn/","us":"us  / ˈkæt.kɪn /","usp":"/ˈkæt.kɪn/"}
+{"title":"catnapped","uk":"uk  / ˈkæt.næp /","ukp":"/ˈkæt.næp/","us":"us  / ˈkæt.næp /","usp":"/ˈkæt.næp/"}
+{"title":"catnap","uk":"uk  / ˈkæt.næp /","ukp":"/ˈkæt.næp/","us":"us  / ˈkæt.næp /","usp":"/ˈkæt.næp/"}
+{"title":"catnapping","uk":"uk  / ˈkæt.næp /","ukp":"/ˈkæt.næp/","us":"us  / ˈkæt.næp /","usp":"/ˈkæt.næp/"}
+{"title":"catnip","uk":"uk  / ˈkæt.nɪp /","ukp":"/ˈkæt.nɪp/","us":"us  / ˈkæt.nɪp /","usp":"/ˈkæt.nɪp/"}
+{"title":"catsuit","uk":"uk  / ˈkæt.suːt /","ukp":"/ˈkæt.suːt/","us":"us  / ˈkæt.suːt /","usp":"/ˈkæt.suːt/"}
+{"title":"cattery","uk":"uk  / ˈkæt. ə r.i /","ukp":"/ˈkæt.ər.i/","us":"us  / ˈkæt̬.ɚ.i /","usp":"/ˈkæt̬.ɚ.i/"}
+{"title":"catsup","uk":"uk  / ˈkæt.səp /","ukp":"/ˈkæt.səp/","us":"us  / ˈkæt.səp /","usp":"/ˈkæt.səp/"}
+{"title":"cattily","uk":"uk  / ˈkæt. ə l.i /","ukp":"/ˈkæt.əl.i/","us":"us  / ˈkæt̬.ə.li /","usp":"/ˈkæt̬.ə.li/"}
+{"title":"cattiness","uk":"uk  / ˈkæt.i.nəs /","ukp":"/ˈkæt.i.nəs/","us":"us  / ˈkæt̬.i.nəs /","usp":"/ˈkæt̬.i.nəs/"}
+{"title":"cattle cake","uk":"uk  / ˈkæt. ə l ˌkeɪk /","ukp":"/ˈkæt.əl ˌkeɪk/","us":"us  / ˈkæt̬. ə l ˌkeɪk /","usp":"/ˈkæt̬.əl ˌkeɪk/"}
+{"title":"cattle","uk":"uk  / ˈkæt. ə l /","ukp":"/ˈkæt.əl/","us":"us  / ˈkæt̬. ə l /","usp":"/ˈkæt̬.əl/"}
+{"title":"cattle guard","uk":"uk / ˈkæt. ə l ˌɡɑːd /","ukp":"/ˈkæt.əl ˌɡɑːd/","us":"us  / ˈkæt̬. ə l ˌɡɑːrd /","usp":"/ˈkæt̬.əl ˌɡɑːrd/"}
+{"title":"cattle grid","uk":"uk  / ˈkæt. ə l ˌɡrɪd /","ukp":"/ˈkæt.əl ˌɡrɪd/","us":"us  / ˈkæt̬. ə l ˌɡrɪd /","usp":"/ˈkæt̬.əl ˌɡrɪd/"}
+{"title":"cattle market","uk":"uk  / ˈkæt. ə l ˌmɑː.kɪt /","ukp":"/ˈkæt.əl ˌmɑː.kɪt/","us":"us  / ˈkæt̬. ə l ˌmɑːr.kɪt /","usp":"/ˈkæt̬.əl ˌmɑːr.kɪt/"}
+{"title":"CATV","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"catty-corner","uk":"uk  / ˈkæt.iˌkɔː.nə r /","ukp":"/ˈkæt.iˌkɔː.nər/","us":"us  / ˈkæt̬.iˌkɔːr.nɚ /","usp":"/ˈkæt̬.iˌkɔːr.nɚ/"}
+{"title":"catty","uk":"uk  / ˈkæt.i /","ukp":"/ˈkæt.i/","us":"us  / ˈkæt̬.i /","usp":"/ˈkæt̬.i/"}
+{"title":"Caucasian","uk":"uk  / kɔːˈkeɪ.ʒ ə n /","ukp":"/kɔːˈkeɪ.ʒən/","us":"us  / kɑːˈkeɪ.ʒ ə n /","usp":"/kɑːˈkeɪ.ʒən/"}
+{"title":"Caucasus","uk":"uk  / ˈkɔː.kə.səs /","ukp":"/ˈkɔː.kə.səs/","us":"us  / ˈkɑː.kə.səs /","usp":"/ˈkɑː.kə.səs/"}
+{"title":"catwalk","uk":"uk  / ˈkæt.wɔːk /","ukp":"/ˈkæt.wɔːk/","us":"us  / ˈkæt.wɑːk /","usp":"/ˈkæt.wɑːk/"}
+{"title":"cauda","uk":"uk  / ˈkɔː.də /","ukp":"/ˈkɔː.də/","us":"us  / ˈkɑː.də /","usp":"/ˈkɑː.də/"}
+{"title":"caucus","uk":"uk  / ˈkɔː.kəs /","ukp":"/ˈkɔː.kəs/","us":"us  / ˈkɑː.kəs /","usp":"/ˈkɑː.kəs/"}
+{"title":"cauda equina","uk":"uk  / ˌkɔː.də ekˈwaɪ.nə /","ukp":"/ˌkɔː.də ekˈwaɪ.nə/","us":"us  / ˌkɑː.də ɪkˈwaɪ.nə /","usp":"/ˌkɑː.də ɪkˈwaɪ.nə/"}
+{"title":"caudae equinae","uk":"","us":""}
+{"title":"caudae","uk":"","us":""}
+{"title":"caudal","uk":"uk  / ˈkɔː.dəl /","ukp":"/ˈkɔː.dəl/","us":"us  / ˈkɔː.d ə l /","usp":"/ˈkɔː.dəl/"}
+{"title":"caught","uk":"uk  / kɔːt /","ukp":"/kɔːt/","us":"us  / kɑːt /","usp":"/kɑːt/"}
+{"title":"caught in the crossfire","uk":"","us":""}
+{"title":"caught up in something","uk":"","us":""}
+{"title":"caul","uk":"uk  / kɔːl /","ukp":"/kɔːl/","us":"us  / kɑːl /","usp":"/kɑːl/"}
+{"title":"cave in","uk":"uk  / keɪv /","ukp":"/keɪv/","us":"us  / keɪv /","usp":"/keɪv/"}
+{"title":"caveat emptor","uk":"uk  / ˌkæv.i.æt ˈemp.tɔː r /","ukp":"/ˌkæv.i.æt ˈemp.tɔːr/","us":"us  / ˌkæv.i.æt ˈemp.tɔːr /","usp":"/ˌkæv.i.æt ˈemp.tɔːr/"}
+{"title":"caveat","uk":"uk  / ˈkæv.i.æt /","ukp":"/ˈkæv.i.æt/","us":"us  / ˈkæv.i.æt /","usp":"/ˈkæv.i.æt/"}
+{"title":"caveman","uk":"uk  / ˈkeɪv.mæn /","ukp":"/ˈkeɪv.mæn/","us":"us  / ˈkeɪv.mæn /","usp":"/ˈkeɪv.mæn/"}
+{"title":"caver","uk":"uk  / ˈkeɪ.və r /","ukp":"/ˈkeɪ.vər/","us":"us  / ˈkeɪ.vɚ /","usp":"/ˈkeɪ.vɚ/"}
+{"title":"cavern","uk":"uk  / ˈkæv. ə n /","ukp":"/ˈkæv.ən/","us":"us  / ˈkæv.ɚn /","usp":"/ˈkæv.ɚn/"}
+{"title":"cavernous","uk":"uk  / ˈkæv. ə n.əs /","ukp":"/ˈkæv.ən.əs/","us":"us  / ˈkæv.ɚn.əs /","usp":"/ˈkæv.ɚn.əs/"}
+{"title":"cavernoma","uk":"uk  / kæv.əˈnəʊ.mə /","ukp":"/kæv.əˈnəʊ.mə/","us":"us  / ˌkæv.ɚˈnoʊ.mə /","usp":"/ˌkæv.ɚˈnoʊ.mə/"}
+{"title":"caviar","uk":"uk  / ˈkæv.i.ɑː r /","ukp":"/ˈkæv.i.ɑːr/","us":"us  / ˈkæv.i.ɑːr /","usp":"/ˈkæv.i.ɑːr/"}
+{"title":"cavil","uk":"uk  / ˈkæv. ə l /","ukp":"/ˈkæv.əl/","us":"us  / ˈkæv. ə l /","usp":"/ˈkæv.əl/"}
+{"title":"caving","uk":"uk  / ˈkeɪ.vɪŋ /","ukp":"/ˈkeɪ.vɪŋ/","us":"us  / ˈkeɪ.vɪŋ /","usp":"/ˈkeɪ.vɪŋ/"}
+{"title":"cavitation","uk":"uk  / ˌkæv.ɪˈteɪ.ʃ ə n /","ukp":"/ˌkæv.ɪˈteɪ.ʃən/","us":"us  / ˌkæv.əˈteɪ.ʃ ə n /","usp":"/ˌkæv.əˈteɪ.ʃən/"}
+{"title":"cavity wall","uk":"uk  / ˌkæv.ɪ.ti ˈwɔːl /","ukp":"/ˌkæv.ɪ.ti ˈwɔːl/","us":"us  / ˌkæv.ə.t̬i ˈwɑːl /","usp":"/ˌkæv.ə.t̬i ˈwɑːl/"}
+{"title":"cavity","uk":"uk  / ˈkæv.ə.ti /","ukp":"/ˈkæv.ə.ti/","us":"us  / ˈkæv.ə.t̬i /","usp":"/ˈkæv.ə.t̬i/"}
+{"title":"cavolo nero","uk":"uk  / ˌkæv.ə.ləʊ ˈneə.rəʊ /","ukp":"/ˌkæv.ə.ləʊ ˈneə.rəʊ/","us":"us  / ˌkæv.ə.loʊ ˈner.oʊ /","usp":"/ˌkæv.ə.loʊ ˈner.oʊ/"}
+{"title":"cavort","uk":"uk  / kəˈvɔːt /","ukp":"/kəˈvɔːt/","us":"us  / kəˈvɔːrt /","usp":"/kəˈvɔːrt/"}
+{"title":"cavorted","uk":"uk  / kəˈvɔːt /","ukp":"/kəˈvɔːt/","us":"us  / kəˈvɔːrt /","usp":"/kəˈvɔːrt/"}
+{"title":"cavorting","uk":"uk  / kəˈvɔːt /","ukp":"/kəˈvɔːt/","us":"us  / kəˈvɔːrt /","usp":"/kəˈvɔːrt/"}
+{"title":"cawed","uk":"uk  / kɔː /","ukp":"/kɔː/","us":"us  / kɑː /","usp":"/kɑː/"}
+{"title":"caw","uk":"uk  / kɔː /","ukp":"/kɔː/","us":"us  / kɑː /","usp":"/kɑː/"}
+{"title":"cavum","uk":"uk  / ˈkɑː.vəm /","ukp":"/ˈkɑː.vəm/","us":"us  / ˈkeɪ.vəm /","usp":"/ˈkeɪ.vəm/"}
+{"title":"cawing","uk":"uk  / kɔː /","ukp":"/kɔː/","us":"us  / kɑː /","usp":"/kɑː/"}
+{"title":"caxirola","uk":"uk  / kæʃ.iˈrəʊ.lə /","ukp":"/kæʃ.iˈrəʊ.lə/","us":"us  / kæʃ.iˈroʊ.lə /","usp":"/kæʃ.iˈroʊ.lə/"}
+{"title":"cayman","uk":"uk  / ˈkeɪ.mən /","ukp":"/ˈkeɪ.mən/","us":"us  / ˈkeɪ.mən /","usp":"/ˈkeɪ.mən/"}
+{"title":"Cayman Islander","uk":"uk  / ˈkeɪ.mən ˌaɪ.lən.də r /","ukp":"/ˈkeɪ.mən ˌaɪ.lən.dər/","us":"us  / ˈkeɪ.mən ˌaɪ.lən.dɚ /","usp":"/ˈkeɪ.mən ˌaɪ.lən.dɚ/"}
+{"title":"cayenne pepper","uk":"uk  / ˌkeɪ.en ˈpep.ə r /","ukp":"/ˌkeɪ.en ˈpep.ər/","us":"us  / ˌkaɪ.en ˈpep.ɚ /","usp":"/ˌkaɪ.en ˈpep.ɚ/"}
+{"title":"CB","uk":"uk  / ˌsiːˈbiː /","ukp":"/ˌsiːˈbiː/","us":"us  / ˌsiːˈbiː /","usp":"/ˌsiːˈbiː/"}
+{"title":"CBA","uk":"uk  / ˌsiː.biːˈeɪ /","ukp":"/ˌsiː.biːˈeɪ/","us":"us  / ˌsiː.biːˈeɪ /","usp":"/ˌsiː.biːˈeɪ/"}
+{"title":"CBD","uk":"uk  / ˌsiː.biːˈdiː /","ukp":"/ˌsiː.biːˈdiː/","us":"us  / ˌsiː.biːˈdiː /","usp":"/ˌsiː.biːˈdiː/"}
+{"title":"CBOE","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CBOs","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CBRN","uk":"uk  / ˌsiː.biː.ɑːrˈen /","ukp":"/ˌsiː.biː.ɑːrˈen/","us":"us  / ˌsiː.biː.ɑːrˈen /","usp":"/ˌsiː.biː.ɑːrˈen/"}
+{"title":"CBRN suit","uk":"uk / ˌsiː.biː.ɑːrˈen ˌsuːt /","ukp":"/ˌsiː.biː.ɑːrˈen ˌsuːt/","us":"us / ˌsiː.biː.ɑːrˈen ˌsuːt /","usp":"/ˌsiː.biː.ɑːrˈen ˌsuːt/"}
+{"title":"CBS","uk":"uk  / ˌsiː.biːˈes /","ukp":"/ˌsiː.biːˈes/","us":"us  / ˌsiː.biːˈes /","usp":"/ˌsiː.biːˈes/"}
+{"title":"CBT","uk":"uk  / ˌsiː.biːˈtiː /","ukp":"/ˌsiː.biːˈtiː/","us":"us  / ˌsiː.biːˈtiː /","usp":"/ˌsiː.biːˈtiː/"}
+{"title":"CBU","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cc","uk":"uk  / ˌsiːˈsiː /","ukp":"/ˌsiːˈsiː/","us":"us  / ˌsiːˈsiː /","usp":"/ˌsiːˈsiː/"}
+{"title":"CCI","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CCO","uk":"uk  / ˌsiː.siːˈəʊ /","ukp":"/ˌsiː.siːˈəʊ/","us":"us  / ˌsiː.siːˈoʊ /","usp":"/ˌsiː.siːˈoʊ/"}
+{"title":"CCS","uk":"uk  / ˌsiː.siːˈes /","ukp":"/ˌsiː.siːˈes/","us":"us  / ˌsiː.siːˈes /","usp":"/ˌsiː.siːˈes/"}
+{"title":"CCTV","uk":"uk  / ˌsiː.siː.tiːˈviː /","ukp":"/ˌsiː.siː.tiːˈviː/","us":"us  / ˌsiː.siː.tiːˈviː /","usp":"/ˌsiː.siː.tiːˈviː/"}
+{"title":"CD","uk":"uk  / ˌsiːˈdiː /","ukp":"/ˌsiːˈdiː/","us":"us  / ˌsiːˈdiː /","usp":"/ˌsiːˈdiː/"}
+{"title":"CD burner","uk":"uk  / ˌsiːˈdiː ˌbɜː.nə r /","ukp":"/ˌsiːˈdiː ˌbɜː.nər/","us":"us  / ˌsiːˈdiː ˌbɝː.nɚ /","usp":"/ˌsiːˈdiː ˌbɝː.nɚ/"}
+{"title":"CD player","uk":"uk  / ˌsiːˈdiː ˌpleɪ.ə r /","ukp":"/ˌsiːˈdiː ˌpleɪ.ər/","us":"us  / ˌsiːˈdiː ˌpleɪ.ɚ /","usp":"/ˌsiːˈdiː ˌpleɪ.ɚ/"}
+{"title":"CD writer","uk":"uk  / ˌsiːˈdiː ˌraɪ.tə r /","ukp":"/ˌsiːˈdiː ˌraɪ.tər/","us":"us  / ˌsiːˈdiː ˌraɪ.t̬ɚ /","usp":"/ˌsiːˈdiː ˌraɪ.t̬ɚ/"}
+{"title":"CD-ROM","uk":"uk  / ˌsiː.diːˈrɒm /","ukp":"/ˌsiː.diːˈrɒm/","us":"us  / ˌsiː.diːˈrɑːm /","usp":"/ˌsiː.diːˈrɑːm/"}
+{"title":"CDC","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CD-RW","uk":"uk  / ˌsiː.diː.ɑːˈdʌb. ə l.juː /","ukp":"/ˌsiː.diː.ɑːˈdʌb.əl.juː/","us":"us  / ˌsiː.diː.ɑːrˈdʌb. ə l.juː /","usp":"/ˌsiː.diː.ɑːrˈdʌb.əl.juː/"}
+{"title":"catch the sun","uk":"","us":""}
+{"title":"CDMA","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"catch your breath","uk":"","us":""}
+{"title":"catch up with someone","uk":"uk  / kætʃ /","ukp":"/kætʃ/","us":"us  / kætʃ /","usp":"/kætʃ/"}
+{"title":"catch your death of cold","uk":"","us":""}
+{"title":"catch-22","uk":"uk  / ˌkætʃ.twen.tiˈtuː /","ukp":"/ˌkætʃ.twen.tiˈtuː/","us":"us  / ˌkætʃ.twen.tiˈtuː /","usp":"/ˌkætʃ.twen.tiˈtuː/"}
+{"title":"catch-up TV","uk":"uk  / ˌkætʃ.ʌp tiːˈviː /","ukp":"/ˌkætʃ.ʌp tiːˈviː/","us":"us  / ˌkætʃ.ʌp tiːˈviː /","usp":"/ˌkætʃ.ʌp tiːˈviː/"}
+{"title":"catch-all","uk":"uk  / ˈkætʃ.ɔːl /","ukp":"/ˈkætʃ.ɔːl/","us":"us  / ˈkætʃ.ɑːl /","usp":"/ˈkætʃ.ɑːl/"}
+{"title":"catch/cop/get some z's","uk":"","us":""}
+{"title":"catch/get someone's drift","uk":"","us":""}
+{"title":"catcher","uk":"uk  / ˈkætʃ.ə r /","ukp":"/ˈkætʃ.ər/","us":"us  / ˈketʃ.ɚ /","usp":"/ˈketʃ.ɚ/"}
+{"title":"catching","uk":"uk  / ˈkætʃ.ɪŋ /","ukp":"/ˈkætʃ.ɪŋ/","us":"us  / ˈkætʃ.ɪŋ /","usp":"/ˈkætʃ.ɪŋ/"}
+{"title":"catchment area","uk":"uk  / ˈkætʃ.mənt ˌeə.ri.ə /","ukp":"/ˈkætʃ.mənt ˌeə.ri.ə/","us":"us  / ˈkætʃ.mənt ˌer.i.ə /","usp":"/ˈkætʃ.mənt ˌer.i.ə/"}
+{"title":"catchphrase","uk":"uk  / ˈkætʃ.freɪz /","ukp":"/ˈkætʃ.freɪz/","us":"us  / ˈkætʃ.freɪz /","usp":"/ˈkætʃ.freɪz/"}
+{"title":"catchword","uk":"uk  / ˈkætʃ.wɜːd /","ukp":"/ˈkætʃ.wɜːd/","us":"us  / ˈkætʃ.wɝːd /","usp":"/ˈkætʃ.wɝːd/"}
+{"title":"catchup","uk":"uk  / ˈkætʃ.ʌp /","ukp":"/ˈkætʃ.ʌp/","us":"us  / ˈkætʃ.ʌp /","usp":"/ˈkætʃ.ʌp/"}
+{"title":"catchy","uk":"uk  / ˈkætʃ.i /","ukp":"/ˈkætʃ.i/","us":"us  / ˈkætʃ.i /","usp":"/ˈkætʃ.i/"}
+{"title":"catechism","uk":"uk  / ˈkæt.ə.kɪ.z ə m /","ukp":"/ˈkæt.ə.kɪ.zəm/","us":"us  / ˈkæt̬.ə.kɪ.z ə m /","usp":"/ˈkæt̬.ə.kɪ.zəm/"}
+{"title":"categoric","uk":"uk / ˌkæt.əˈɡɒr.ɪk /","ukp":"/ˌkæt.əˈɡɒr.ɪk/","us":"us  / ˌkæt̬.əˈɡɔːr.ɪk /","usp":"/ˌkæt̬.əˈɡɔːr.ɪk/"}
+{"title":"categorical","uk":"uk  / ˌkæt.əˈɡɒr.ɪ.k ə l /","ukp":"/ˌkæt.əˈɡɒr.ɪ.kəl/","us":"us  / ˌkæt̬.əˈɡɔːr.ɪ.k ə l /","usp":"/ˌkæt̬.əˈɡɔːr.ɪ.kəl/"}
+{"title":"categorical variable","uk":"uk / kæt.əˌɡɒr.ɪ.k ə l ˈveə.ri.ə.b ə l /","ukp":"/kæt.əˌɡɒr.ɪ.kəl ˈveə.ri.ə.bəl/","us":"us / ˈkæt̬.əˌɡɔːr.ɪ.k ə l ˈver.i.ə.b ə l /","usp":"/ˈkæt̬.əˌɡɔːr.ɪ.kəl ˈver.i.ə.bəl/"}
+{"title":"categorically","uk":"uk  / ˌkæt.əˈɡɒr.ɪ.k ə l.i /","ukp":"/ˌkæt.əˈɡɒr.ɪ.kəl.i/","us":"us  / ˌkæt̬.əˈɡɔːr.ɪ.k ə l.i /","usp":"/ˌkæt̬.əˈɡɔːr.ɪ.kəl.i/"}
+{"title":"categorization","uk":"uk  / ˌkæt.ə.ɡ ə r.aɪˈzeɪ.ʃ ə n /","ukp":"/ˌkæt.ə.ɡər.aɪˈzeɪ.ʃən/","us":"us  / ˌkæt̬.ə.ɡə.rəˈzeɪ.ʃ ə n /","usp":"/ˌkæt̬.ə.ɡə.rəˈzeɪ.ʃən/"}
+{"title":"categorize","uk":"uk  / ˈkæt.ə.ɡ ə r.aɪz /","ukp":"/ˈkæt.ə.ɡər.aɪz/","us":"us  / ˈkæt̬.ə.ɡə.raɪz /","usp":"/ˈkæt̬.ə.ɡə.raɪz/"}
+{"title":"categorized","uk":"uk  / ˈkæt.ə.ɡ ə r.aɪz /","ukp":"/ˈkæt.ə.ɡər.aɪz/","us":"us  / ˈkæt̬.ə.ɡə.raɪz /","usp":"/ˈkæt̬.ə.ɡə.raɪz/"}
+{"title":"categorizing","uk":"uk  / ˈkæt.ə.ɡ ə r.aɪz /","ukp":"/ˈkæt.ə.ɡər.aɪz/","us":"us  / ˈkæt̬.ə.ɡə.raɪz /","usp":"/ˈkæt̬.ə.ɡə.raɪz/"}
+{"title":"category extension","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"category","uk":"uk  / ˈkæt.ə.ɡri /","ukp":"/ˈkæt.ə.ɡri/","us":"us  / ˈkæt̬.ə.ɡri /","usp":"/ˈkæt̬.ə.ɡri/"}
+{"title":"category killer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"category leader","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"category manager","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"category management","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"category mistake","uk":"uk  / ˌkæt.ə.ɡri mɪˈsteɪk /","ukp":"/ˌkæt.ə.ɡri mɪˈsteɪk/","us":"us  / ˌkæt̬.ɪ.ɡɔːr.i mɪˈsteɪk /","usp":"/ˌkæt̬.ɪ.ɡɔːr.i mɪˈsteɪk/"}
+{"title":"cater for someone/something","uk":"uk  / ˈkeɪ.tə r /","ukp":"/ˈkeɪ.tər/","us":"us  / ˈkeɪ.t̬ɚ /","usp":"/ˈkeɪ.t̬ɚ/"}
+{"title":"cater","uk":"uk  / ˈkeɪ.tə r /","ukp":"/ˈkeɪ.tər/","us":"us  / ˈkeɪ.t̬ɚ /","usp":"/ˈkeɪ.t̬ɚ/"}
+{"title":"catered","uk":"uk  / ˈkeɪtəd /","ukp":"/ˈkeɪtəd/","us":"us ","usp":""}
+{"title":"caterer","uk":"uk  / ˈkeɪ.t ə r.ə r /","ukp":"/ˈkeɪ.tər.ər/","us":"us  / ˈkeɪ.t̬ɚ.ɚ /","usp":"/ˈkeɪ.t̬ɚ.ɚ/"}
+{"title":"catering","uk":"uk  / ˈkeɪ.t ə r.ɪŋ /","ukp":"/ˈkeɪ.tər.ɪŋ/","us":"us  / ˈkeɪ.t̬ɚ.ɪŋ /","usp":"/ˈkeɪ.t̬ɚ.ɪŋ/"}
+{"title":"Caterpillar track","uk":"uk  / ˈkæt.ə.pɪl.ə ˌtræk /","ukp":"/ˈkæt.ə.pɪl.ə ˌtræk/","us":"us  / ˈkæt̬.ɚ.pɪl.ɚ ˌtræk /","usp":"/ˈkæt̬.ɚ.pɪl.ɚ ˌtræk/"}
+{"title":"caterpillar","uk":"uk  / ˈkæt.ə.pɪl.ə r /","ukp":"/ˈkæt.ə.pɪl.ər/","us":"us  / ˈkæt̬.ɚ.pɪl.ɚ /","usp":"/ˈkæt̬.ɚ.pɪl.ɚ/"}
+{"title":"cater to someone/something","uk":"uk  / ˈkeɪ.tə r /","ukp":"/ˈkeɪ.tər/","us":"us  / ˈkeɪ.t̬ɚ /","usp":"/ˈkeɪ.t̬ɚ/"}
+{"title":"Caterpillar tractor","uk":"uk  / ˈkæt.ə.pɪl.ə ˌtræk.tə r /","ukp":"/ˈkæt.ə.pɪl.ə ˌtræk.tər/","us":"us  / ˈkæt̬.ɚ.pɪl.ɚ ˌtræk.tɚ /","usp":"/ˈkæt̬.ɚ.pɪl.ɚ ˌtræk.tɚ/"}
+{"title":"caterwauled","uk":"uk  / ˈkæt.ə.wɔːl /","ukp":"/ˈkæt.ə.wɔːl/","us":"us  / ˈkæt̬.ɚ.wɑːl /","usp":"/ˈkæt̬.ɚ.wɑːl/"}
+{"title":"caterwaul","uk":"uk  / ˈkæt.ə.wɔːl /","ukp":"/ˈkæt.ə.wɔːl/","us":"us  / ˈkæt̬.ɚ.wɑːl /","usp":"/ˈkæt̬.ɚ.wɑːl/"}
+{"title":"caterwauling","uk":"uk  / ˈkæt.ə.wɔː.lɪŋ /","ukp":"/ˈkæt.ə.wɔː.lɪŋ/","us":"us  / ˈkæt̬.ɚ.wɑː.lɪŋ /","usp":"/ˈkæt̬.ɚ.wɑː.lɪŋ/"}
+{"title":"catfishing","uk":"uk  / ˈkæt.fɪʃ.ɪŋ /","ukp":"/ˈkæt.fɪʃ.ɪŋ/","us":"us  / ˈkæt.fɪʃ.ɪŋ /","usp":"/ˈkæt.fɪʃ.ɪŋ/"}
+{"title":"catfish","uk":"uk  / ˈkæt.fɪʃ /","ukp":"/ˈkæt.fɪʃ/","us":"us  / ˈkæt.fɪʃ /","usp":"/ˈkæt.fɪʃ/"}
+{"title":"catharses","uk":"","us":""}
+{"title":"catgut","uk":"uk  / ˈkæt.ɡʌt /","ukp":"/ˈkæt.ɡʌt/","us":"us  / ˈkæt.ɡʌt /","usp":"/ˈkæt.ɡʌt/"}
+{"title":"centenary","uk":"uk  / senˈtiː.n ə r.i /","ukp":"/senˈtiː.nər.i/","us":"us  / ˈsen.t e n.er.i /","usp":"/ˈsen.ten.er.i/"}
+{"title":"centennial","uk":"uk  / senˈten.i.əl /","ukp":"/senˈten.i.əl/","us":"us  / senˈten.i.əl /","usp":"/senˈten.i.əl/"}
+{"title":"center around/on something","uk":"uk  / ˈsen.tə r /","ukp":"/ˈsen.tər/","us":"us  / ˈsen.t̬ɚ /","usp":"/ˈsen.t̬ɚ/"}
+{"title":"center","uk":"uk  / ˈsen.tə r /","ukp":"/ˈsen.tər/","us":"us  / ˈsen.t̬ɚ /","usp":"/ˈsen.t̬ɚ/"}
+{"title":"center circle","uk":"uk  / ˌsen.tə ˈsɜː.k ə l /","ukp":"/ˌsen.tə ˈsɜː.kəl/","us":"us  / ˌsen.t̬ɚ ˈsɝː.k ə l /","usp":"/ˌsen.t̬ɚ ˈsɝː.kəl/"}
+{"title":"center forward","uk":"","us":""}
+{"title":"center half","uk":"uk  / ˌsen.tə ˈhɑːf /","ukp":"/ˌsen.tə ˈhɑːf/","us":"us  / ˌsen.t̬ɚ ˈhæf /","usp":"/ˌsen.t̬ɚ ˈhæf/"}
+{"title":"center of gravity","uk":"","us":""}
+{"title":"center on something","uk":"","us":"us  / ˈsen·tər /","usp":"/ˈsen·tər/"}
+{"title":"center stage","uk":"","us":""}
+{"title":"center spread","uk":"","us":""}
+{"title":"centerfold","uk":"uk  / ˈsen.tə.fəʊld /","ukp":"/ˈsen.tə.fəʊld/","us":"us  / ˈsen.t̬ɚ.foʊld /","usp":"/ˈsen.t̬ɚ.foʊld/"}
+{"title":"center spot","uk":"uk  / ˈsen.tə ˌspɒt /","ukp":"/ˈsen.tə ˌspɒt/","us":"us  / ˈsen.t̬ɚ ˌspɑːt /","usp":"/ˈsen.t̬ɚ ˌspɑːt/"}
+{"title":"centers of gravity","uk":"","us":""}
+{"title":"centerpiece","uk":"uk  / ˈsen.tə.piːs /","ukp":"/ˈsen.tə.piːs/","us":"us  / ˈsen.t̬ɚ.piːs /","usp":"/ˈsen.t̬ɚ.piːs/"}
+{"title":"centi-","uk":"uk  / sen.tɪ- /","ukp":"/sen.tɪ-/","us":"us  / sen.t̬ə- /","usp":"/sen.t̬ə-/"}
+{"title":"centigram","uk":"uk  / ˈsen.tɪ.ɡræm /","ukp":"/ˈsen.tɪ.ɡræm/","us":"us  / ˈsen.t̬ə.ɡræm /","usp":"/ˈsen.t̬ə.ɡræm/"}
+{"title":"centiliter","uk":"uk  / ˈsen.tiˌliː.tə r /","ukp":"/ˈsen.tiˌliː.tər/","us":"us  / ˈsen.t̬əˌliːt̬ɚ /","usp":"/ˈsen.t̬əˌliːt̬ɚ/"}
+{"title":"centigrade","uk":"uk  / ˈsen.tɪ.ɡreɪd /","ukp":"/ˈsen.tɪ.ɡreɪd/","us":"us  / ˈsen.t̬ə.ɡreɪd /","usp":"/ˈsen.t̬ə.ɡreɪd/"}
+{"title":"centilitre","uk":"uk  / ˈsen.tiˌliː.tə r /","ukp":"/ˈsen.tiˌliː.tər/","us":"us  / ˈsen.təˌliːt̬ɚ /","usp":"/ˈsen.təˌliːt̬ɚ/"}
+{"title":"centimeter","uk":"uk  / ˈsen.tɪˌmiː.tə r /","ukp":"/ˈsen.tɪˌmiː.tər/","us":"us  / ˈsen.t̬əˌmiː.t̬ɚ /","usp":"/ˈsen.t̬əˌmiː.t̬ɚ/"}
+{"title":"centimetre","uk":"uk  / ˈsen.tɪˌmiː.tə r /","ukp":"/ˈsen.tɪˌmiː.tər/","us":"us  / ˈsen.t̬əˌmiː.t̬ɚ /","usp":"/ˈsen.t̬əˌmiː.t̬ɚ/"}
+{"title":"centipede","uk":"uk  / ˈsen.tɪ.piːd /","ukp":"/ˈsen.tɪ.piːd/","us":"us  / ˈsen.t̬ə.piːd /","usp":"/ˈsen.t̬ə.piːd/"}
+{"title":"Central African","uk":"uk  / ˌsen.trəl ˈæf.rɪ.kən /","ukp":"/ˌsen.trəl ˈæf.rɪ.kən/","us":"us  / ˌsen.trəl ˈæf.rɪ.kən /","usp":"/ˌsen.trəl ˈæf.rɪ.kən/"}
+{"title":"Central America","uk":"uk  / ˌsen.trəl əˈmer.ɪ.kə /","ukp":"/ˌsen.trəl əˈmer.ɪ.kə/","us":"us  / ˌsen.trəl əˈmer.ɪ.kə /","usp":"/ˌsen.trəl əˈmer.ɪ.kə/"}
+{"title":"central","uk":"uk  / ˈsen.trəl /","ukp":"/ˈsen.trəl/","us":"us  / ˈsen.trəl /","usp":"/ˈsen.trəl/"}
+{"title":"Central American","uk":"uk  / ˌsen.trəl əˈmer.ɪ.kən /","ukp":"/ˌsen.trəl əˈmer.ɪ.kən/","us":"us  / ˌsen.trəl əˈmer.ɪ.kən /","usp":"/ˌsen.trəl əˈmer.ɪ.kən/"}
+{"title":"central bank","uk":"uk  / ˌsen.trəl ˈbæŋk /","ukp":"/ˌsen.trəl ˈbæŋk/","us":"us  / ˌsen.trəl ˈbæŋk /","usp":"/ˌsen.trəl ˈbæŋk/"}
+{"title":"central business district","uk":"uk  / ˌsen.trəl ˈbɪz.nɪs ˌdɪs.trɪkt /","ukp":"/ˌsen.trəl ˈbɪz.nɪs ˌdɪs.trɪkt/","us":"us  / ˌsen.trəl ˈbɪz.nɪs ˌdɪs.trɪkt /","usp":"/ˌsen.trəl ˈbɪz.nɪs ˌdɪs.trɪkt/"}
+{"title":"Central Belt","uk":"uk  / ˈsen.trəl ˌbelt /","ukp":"/ˈsen.trəl ˌbelt/","us":"us  / ˈsen.trəl ˌbelt /","usp":"/ˈsen.trəl ˌbelt/"}
+{"title":"Central Canada","uk":"uk  / ˌsen.trəl ˈkæn.ə.də /","ukp":"/ˌsen.trəl ˈkæn.ə.də/","us":"us  / ˌsen.trəl ˈkæn.ə.də /","usp":"/ˌsen.trəl ˈkæn.ə.də/"}
+{"title":"central counterparty","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Central European Summer Time","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Central Daylight Time","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"central defender","uk":"uk  / ˌsen.trəl dɪˈfen.də r /","ukp":"/ˌsen.trəl dɪˈfen.dər/","us":"us  / ˌsen.trəl dɪˈfen.dɚ /","usp":"/ˌsen.trəl dɪˈfen.dɚ/"}
+{"title":"central giant cell granuloma","uk":"uk  / ˌsen.trəl ˌdʒaɪ. ə nt sel ɡræn.jəˈləʊ.mə /","ukp":"/ˌsen.trəl ˌdʒaɪ.ənt sel ɡræn.jəˈləʊ.mə/","us":"us  / ˌsen.trəl ˌdʒaɪ. ə nt sel ˌɡræn.jəˈloʊ.mə /","usp":"/ˌsen.trəl ˌdʒaɪ.ənt sel ˌɡræn.jəˈloʊ.mə/"}
+{"title":"central government borrowing requirement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"central government","uk":"uk  / ˌsen.trəl ˈɡʌv. ə n.mənt /","ukp":"/ˌsen.trəl ˈɡʌv.ən.mənt/","us":"us  / ˌsen.trəl ˈɡʌv.ɚn.mənt /","usp":"/ˌsen.trəl ˈɡʌv.ɚn.mənt/"}
+{"title":"Central European Time","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"central heating","uk":"uk  / ˌsen.trəl ˈhiː.tɪŋ /","ukp":"/ˌsen.trəl ˈhiː.tɪŋ/","us":"us  / ˌsen.trəl ˈhiː.t̬ɪŋ /","usp":"/ˌsen.trəl ˈhiː.t̬ɪŋ/"}
+{"title":"central midfielder","uk":"uk  / ˌsen.trəl mɪdˈfiːl.də r /","ukp":"/ˌsen.trəl mɪdˈfiːl.dər/","us":"us  / ˌsen.trəl ˈmɪd.fiːl.dɚ /","usp":"/ˌsen.trəl ˈmɪd.fiːl.dɚ/"}
+{"title":"central nervous system","uk":"uk  / ˌsen.trəl ˈnɜː.vəs ˌsɪs.təm /","ukp":"/ˌsen.trəl ˈnɜː.vəs ˌsɪs.təm/","us":"us  / ˌsen.trəl ˈnɝː.vəs ˌsɪs.təm /","usp":"/ˌsen.trəl ˈnɝː.vəs ˌsɪs.təm/"}
+{"title":"CDN","uk":"uk  / ˌsiː.diːˈen /","ukp":"/ˌsiː.diːˈen/","us":"us  / ˌsiː.diːˈen /","usp":"/ˌsiː.diːˈen/"}
+{"title":"CDOs","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CDT","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CDW","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CE","uk":"uk  / ˌsiːˈiː /","ukp":"/ˌsiːˈiː/","us":"us  / ˌsiːˈiː /","usp":"/ˌsiːˈiː/"}
+{"title":"cease","uk":"uk  / siːs /","ukp":"/siːs/","us":"us  / siːs /","usp":"/siːs/"}
+{"title":"ceased","uk":"uk  / siːs /","ukp":"/siːs/","us":"us  / siːs /","usp":"/siːs/"}
+{"title":"cease and desist","uk":"","us":""}
+{"title":"ceasefire","uk":"uk  / ˈsiːs.faɪə r /","ukp":"/ˈsiːs.faɪər/","us":"us  / ˈsiːs.faɪr /","usp":"/ˈsiːs.faɪr/"}
+{"title":"ceasing","uk":"uk  / siːs /","ukp":"/siːs/","us":"us  / siːs /","usp":"/siːs/"}
+{"title":"ceaseless","uk":"uk  / ˈsiːs.ləs /","ukp":"/ˈsiːs.ləs/","us":"us  / ˈsiːs.ləs /","usp":"/ˈsiːs.ləs/"}
+{"title":"ceaselessly","uk":"uk  / ˈsiːs.ləs.li /","ukp":"/ˈsiːs.ləs.li/","us":"us  / ˈsiːs.ləs.li /","usp":"/ˈsiːs.ləs.li/"}
+{"title":"ceca","uk":"","us":""}
+{"title":"cecum","uk":"uk  / ˈsiː.kəm /","ukp":"/ˈsiː.kəm/","us":"us  / ˈsiː.kəm /","usp":"/ˈsiː.kəm/"}
+{"title":"cede","uk":"uk  / siːd /","ukp":"/siːd/","us":"us  / siːd /","usp":"/siːd/"}
+{"title":"cedar","uk":"uk  / ˈsiː.də r /","ukp":"/ˈsiː.dər/","us":"us  / ˈsiː.dɚ /","usp":"/ˈsiː.dɚ/"}
+{"title":"ceded","uk":"uk  / siːd /","ukp":"/siːd/","us":"us  / siːd /","usp":"/siːd/"}
+{"title":"cedilla","uk":"uk  / səˈdɪl.ə /","ukp":"/səˈdɪl.ə/","us":"us  / səˈdɪl.ə /","usp":"/səˈdɪl.ə/"}
+{"title":"Ceefax","uk":"uk  / ˈsiː.fæks /","ukp":"/ˈsiː.fæks/","us":"us  / ˈsiː.fæks /","usp":"/ˈsiː.fæks/"}
+{"title":"ceding","uk":"uk  / siːd /","ukp":"/siːd/","us":"us  / siːd /","usp":"/siːd/"}
+{"title":"ceilidh","uk":"uk  / ˈkeɪ.li /","ukp":"/ˈkeɪ.li/","us":"us  / ˈkeɪ.li /","usp":"/ˈkeɪ.li/"}
+{"title":"ceiling","uk":"uk  / ˈsiː.lɪŋ /","ukp":"/ˈsiː.lɪŋ/","us":"us  / ˈsiː.lɪŋ /","usp":"/ˈsiː.lɪŋ/"}
+{"title":"celeb","uk":"uk  / səˈleb /","ukp":"/səˈleb/","us":"us  / səˈleb /","usp":"/səˈleb/"}
+{"title":"celebrant","uk":"uk  / ˈsel.ə.br ə nt /","ukp":"/ˈsel.ə.brənt/","us":"us  / ˈsel.ə.br ə nt /","usp":"/ˈsel.ə.brənt/"}
+{"title":"celebrate","uk":"uk  / ˈsel.ə.breɪt /","ukp":"/ˈsel.ə.breɪt/","us":"us  / ˈsel.ə.breɪt /","usp":"/ˈsel.ə.breɪt/"}
+{"title":"celebrated","uk":"uk  / ˈsel.ə.breɪ.tɪd /","ukp":"/ˈsel.ə.breɪ.tɪd/","us":"us  / ˈsel.ə.breɪ.t̬ɪd /","usp":"/ˈsel.ə.breɪ.t̬ɪd/"}
+{"title":"celebrating","uk":"uk  / ˈsel.ə.breɪt /","ukp":"/ˈsel.ə.breɪt/","us":"us  / ˈsel.ə.breɪt /","usp":"/ˈsel.ə.breɪt/"}
+{"title":"celebratory","uk":"uk  / ˌsel.əˈbreɪ.t ə r.i /","ukp":"/ˌsel.əˈbreɪ.tər.i/","us":"us  / ˌsel.əˈbreɪ.t̬ɚ.i /","usp":"/ˌsel.əˈbreɪ.t̬ɚ.i/"}
+{"title":"celebration","uk":"uk  / ˌsel.əˈbreɪ.ʃ ə n /","ukp":"/ˌsel.əˈbreɪ.ʃən/","us":"us  / ˌsel.əˈbreɪ.ʃ ə n /","usp":"/ˌsel.əˈbreɪ.ʃən/"}
+{"title":"celeriac","uk":"uk  / səˈler.i.æk /","ukp":"/səˈler.i.æk/","us":"us  / səˈler.i.æk /","usp":"/səˈler.i.æk/"}
+{"title":"celebrity","uk":"uk  / səˈleb.rə.ti /","ukp":"/səˈleb.rə.ti/","us":"us  / səˈleb.rə.t̬i /","usp":"/səˈleb.rə.t̬i/"}
+{"title":"celerity","uk":"uk  / səˈler.ə.ti /","ukp":"/səˈler.ə.ti/","us":"us  / səˈler.ə.t̬i /","usp":"/səˈler.ə.t̬i/"}
+{"title":"celery root","uk":"uk / ˈsel. ə r.i ˌruːt /","ukp":"/ˈsel.ər.i ˌruːt/","us":"us / ˈsel.ɚ.i ˌruːt /","usp":"/ˈsel.ɚ.i ˌruːt/"}
+{"title":"celery","uk":"uk  / ˈsel. ə r.i /","ukp":"/ˈsel.ər.i/","us":"us  / ˈsel.ɚ.i /","usp":"/ˈsel.ɚ.i/"}
+{"title":"celestial","uk":"uk  / sɪˈles.ti.əl /","ukp":"/sɪˈles.ti.əl/","us":"us  / sɪˈles.tʃ ə l /","usp":"/sɪˈles.tʃəl/"}
+{"title":"celiac disease","uk":"uk  / ˈsiː.liː.æk dɪˌziːz /","ukp":"/ˈsiː.liː.æk dɪˌziːz/","us":"us  / ˈsiː.liː.æk dɪˌziːz /","usp":"/ˈsiː.liː.æk dɪˌziːz/"}
+{"title":"celiac","uk":"uk / ˈsiː.li.æk /","ukp":"/ˈsiː.li.æk/","us":"us / ˈsiː.li.æk /","usp":"/ˈsiː.li.æk/"}
+{"title":"celibacy","uk":"uk  / ˈsel.ə.bə.si /","ukp":"/ˈsel.ə.bə.si/","us":"us  / ˈsel.ə.bə.si /","usp":"/ˈsel.ə.bə.si/"}
+{"title":"celibate","uk":"uk  / ˈsel.ə.bət /","ukp":"/ˈsel.ə.bət/","us":"us  / ˈsel.ə.bət /","usp":"/ˈsel.ə.bət/"}
+{"title":"cell","uk":"uk  / sel /","ukp":"/sel/","us":"us  / sel /","usp":"/sel/"}
+{"title":"cell phone","uk":"uk  / ˈsel fəʊn /","ukp":"/ˈsel fəʊn/","us":"us  / ˈsel foʊn /","usp":"/ˈsel foʊn/"}
+{"title":"cell sap","uk":"uk  / ˈsel ˌsæp /","ukp":"/ˈsel ˌsæp/","us":"us  / ˈsel ˌsæp /","usp":"/ˈsel ˌsæp/"}
+{"title":"cell tower","uk":"uk  / ˈsel ˌtaʊ.ə r /","ukp":"/ˈsel ˌtaʊ.ər/","us":"us  / ˈsel ˌtaʊ.ɚ /","usp":"/ˈsel ˌtaʊ.ɚ/"}
+{"title":"cell wall","uk":"uk  / ˈsel ˌwɔːl /","ukp":"/ˈsel ˌwɔːl/","us":"us  / ˈsel ˌwɔːl /","usp":"/ˈsel ˌwɔːl/"}
+{"title":"-celled","uk":"uk  / -seld /","ukp":"/ -seld/","us":"us  / -seld /","usp":"/ -seld/"}
+{"title":"cellar","uk":"uk  / ˈsel.ə r /","ukp":"/ˈsel.ər/","us":"us  / ˈsel.ɚ /","usp":"/ˈsel.ɚ/"}
+{"title":"cellist","uk":"uk  / ˈtʃel.ɪst /","ukp":"/ˈtʃel.ɪst/","us":"us  / ˈtʃel.ɪst /","usp":"/ˈtʃel.ɪst/"}
+{"title":"cellmate","uk":"uk  / ˈsel.meɪt /","ukp":"/ˈsel.meɪt/","us":"us  / ˈsel.meɪt /","usp":"/ˈsel.meɪt/"}
+{"title":"cello","uk":"uk  / ˈtʃel.əʊ /","ukp":"/ˈtʃel.əʊ/","us":"us  / ˈtʃel.oʊ /","usp":"/ˈtʃel.oʊ/"}
+{"title":"Cellophane","uk":"uk  / ˈsel.ə.feɪn /","ukp":"/ˈsel.ə.feɪn/","us":"us  / ˈsel.ə.feɪn /","usp":"/ˈsel.ə.feɪn/"}
+{"title":"cellophane noodle","uk":"uk  / ˌsel.ə.feɪn ˈnuː.d ə l /","ukp":"/ˌsel.ə.feɪn ˈnuː.dəl/","us":"us  / ˈsel.ə.feɪn ˌnuː.d ə l /","usp":"/ˈsel.ə.feɪn ˌnuː.dəl/"}
+{"title":"cellular phone","uk":"uk ","ukp":"","us":"us  / ˈsel·jə·lər ˈfoʊn /","usp":"/ˈsel·jə·lər ˈfoʊn/"}
+{"title":"cellular","uk":"uk  / ˈsel.jə.lə r /","ukp":"/ˈsel.jə.lər/","us":"us  / ˈsel.jə.lɚ /","usp":"/ˈsel.jə.lɚ/"}
+{"title":"cellulite","uk":"uk  / ˈsel.jə.laɪt /","ukp":"/ˈsel.jə.laɪt/","us":"us  / ˈsel.jə.laɪt /","usp":"/ˈsel.jə.laɪt/"}
+{"title":"cellulitis","uk":"uk  / ˌsel.jəˈlaɪ.tɪs /","ukp":"/ˌsel.jəˈlaɪ.tɪs/","us":"us  / ˌsel.jəˈlaɪ.t̬ɪs /","usp":"/ˌsel.jəˈlaɪ.t̬ɪs/"}
+{"title":"celluloid","uk":"uk  / ˈsel.jə.lɔɪd /","ukp":"/ˈsel.jə.lɔɪd/","us":"us  / ˈsel.jə.lɔɪd /","usp":"/ˈsel.jə.lɔɪd/"}
+{"title":"cellulose","uk":"uk  / ˈsel.jə.ləʊs /","ukp":"/ˈsel.jə.ləʊs/","us":"us  / ˈsel.jə.loʊs /","usp":"/ˈsel.jə.loʊs/"}
+{"title":"Celt","uk":"uk  / kelt /","ukp":"/kelt/","us":"us  / kelt /","usp":"/kelt/"}
+{"title":"Celsius","uk":"uk  / ˈsel.si.əs /","ukp":"/ˈsel.si.əs/","us":"us  / ˈsel.si.əs /","usp":"/ˈsel.si.əs/"}
+{"title":"Celtic","uk":"uk  / ˈkel.tɪk /","ukp":"/ˈkel.tɪk/","us":"us  / ˈkel.tɪk /","usp":"/ˈkel.tɪk/"}
+{"title":"Celtic tiger","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cement","uk":"uk  / sɪˈment /","ukp":"/sɪˈment/","us":"us  / səˈment /","usp":"/səˈment/"}
+{"title":"cement mixer","uk":"uk  / sɪˈment ˌmɪk.sə r /","ukp":"/sɪˈment ˌmɪk.sər/","us":"us  / sɪˈment ˌmɪk.sɚ /","usp":"/sɪˈment ˌmɪk.sɚ/"}
+{"title":"cementation","uk":"uk  / ˌsiːˌmenˈteɪ.ʃ ə n /","ukp":"/ˌsiːˌmenˈteɪ.ʃən/","us":"us  / ˌsiːˌmenˈteɪ.ʃ ə n /","usp":"/ˌsiːˌmenˈteɪ.ʃən/"}
+{"title":"cementing","uk":"uk  / sɪˈment /","ukp":"/sɪˈment/","us":"us  / səˈment /","usp":"/səˈment/"}
+{"title":"cemented","uk":"uk  / sɪˈment /","ukp":"/sɪˈment/","us":"us  / səˈment /","usp":"/səˈment/"}
+{"title":"cemetery","uk":"uk  / ˈsem.ə.tri /","ukp":"/ˈsem.ə.tri/","us":"us  / ˈsem.ə.ter.i /","usp":"/ˈsem.ə.ter.i/"}
+{"title":"cenotaph","uk":"uk  / ˈsen.ə.tɑːf /","ukp":"/ˈsen.ə.tɑːf/","us":"us  / ˈsen.ə.tɑːf /","usp":"/ˈsen.ə.tɑːf/"}
+{"title":"censer","uk":"uk  / ˈsen.sə r /","ukp":"/ˈsen.sər/","us":"us  / ˈsen.sɚ /","usp":"/ˈsen.sɚ/"}
+{"title":"censored","uk":"uk  / ˈsen.sə r /","ukp":"/ˈsen.sər/","us":"us  / ˈsen.sɚ /","usp":"/ˈsen.sɚ/"}
+{"title":"censor","uk":"uk  / ˈsen.sə r /","ukp":"/ˈsen.sər/","us":"us  / ˈsen.sɚ /","usp":"/ˈsen.sɚ/"}
+{"title":"censoring","uk":"uk  / ˈsen.sə r /","ukp":"/ˈsen.sər/","us":"us  / ˈsen.sɚ /","usp":"/ˈsen.sɚ/"}
+{"title":"censorious","uk":"uk  / senˈsɔː.ri.əs /","ukp":"/senˈsɔː.ri.əs/","us":"us  / senˈsɔr.i.əs /","usp":"/senˈsɔr.i.əs/"}
+{"title":"censorship","uk":"uk  / ˈsen.sə.ʃɪp /","ukp":"/ˈsen.sə.ʃɪp/","us":"us  / ˈsen.sɚ.ʃɪp /","usp":"/ˈsen.sɚ.ʃɪp/"}
+{"title":"censure","uk":"uk  / ˈsen.ʃə r /","ukp":"/ˈsen.ʃər/","us":"us  / ˈsen.ʃɚ /","usp":"/ˈsen.ʃɚ/"}
+{"title":"censured","uk":"uk  / ˈsen.ʃə r /","ukp":"/ˈsen.ʃər/","us":"us  / ˈsen.ʃɚ /","usp":"/ˈsen.ʃɚ/"}
+{"title":"censuring","uk":"uk  / ˈsen.ʃə r /","ukp":"/ˈsen.ʃər/","us":"us  / ˈsen.ʃɚ /","usp":"/ˈsen.ʃɚ/"}
+{"title":"centaur","uk":"uk  / ˈsen.tɔː r /","ukp":"/ˈsen.tɔːr/","us":"us  / ˈsen.tɔːr /","usp":"/ˈsen.tɔːr/"}
+{"title":"census","uk":"uk  / ˈsen.səs /","ukp":"/ˈsen.səs/","us":"us  / ˈsen.səs /","usp":"/ˈsen.səs/"}
+{"title":"cent","uk":"uk  / sent /","ukp":"/sent/","us":"us  / sent /","usp":"/sent/"}
+{"title":"central processing unit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"central processor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"centenarian","uk":"uk  / ˌsen.təˈneə.ri.ən /","ukp":"/ˌsen.təˈneə.ri.ən/","us":"us  / ˌsen.t̬əˈner.i.ən /","usp":"/ˌsen.t̬əˈner.i.ən/"}
+{"title":"central reservation","uk":"uk  / ˌsen.trəl rez.əˈveɪ.ʃ ə n /","ukp":"/ˌsen.trəl rez.əˈveɪ.ʃən/","us":"us  / ˌsen.trəl rez.ɚˈveɪ.ʃ ə n /","usp":"/ˌsen.trəl rez.ɚˈveɪ.ʃən/"}
+{"title":"central sleep apnea","uk":"uk  / ˌsen.trəl ˈsliːp ˌæp.ni.ə /","ukp":"/ˌsen.trəl ˈsliːp ˌæp.ni.ə/","us":"us  / ˈsen.trəl ˈsliːp ˌæp.ni.ə /","usp":"/ˈsen.trəl ˈsliːp ˌæp.ni.ə/"}
+{"title":"Central Standard Time","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"central sleep apnoea","uk":"uk  / ˌsen.trəl ˈsliːp ˌæp.ni.ə /","ukp":"/ˌsen.trəl ˈsliːp ˌæp.ni.ə/","us":"us  / ˈsen.trəl ˈsliːp ˌæp.ni.ə /","usp":"/ˈsen.trəl ˈsliːp ˌæp.ni.ə/"}
+{"title":"centralis","uk":"uk  / senˈtrɑː.lɪs /","ukp":"/senˈtrɑː.lɪs/","us":"us  / senˈtræl.ɪs /","usp":"/senˈtræl.ɪs/"}
+{"title":"centralism","uk":"uk  / ˈsen.trə.lɪ.z ə m /","ukp":"/ˈsen.trə.lɪ.zəm/","us":"us  / ˈsen.trə.lɪ.z ə m /","usp":"/ˈsen.trə.lɪ.zəm/"}
+{"title":"centrality","uk":"uk  / senˈtræl.ɪti /","ukp":"/senˈtræl.ɪti/","us":"us  / senˈtræl.ə.t̬i /","usp":"/senˈtræl.ə.t̬i/"}
+{"title":"centralization","uk":"uk  / ˌsen.trə.laɪ.ˈzeɪ.ʃ ə n /","ukp":"/ˌsen.trə.laɪ.ˈzeɪ.ʃən/","us":"us  / ˌsen.trə.lə.ˈzeɪ.ʃ ə n /","usp":"/ˌsen.trə.lə.ˈzeɪ.ʃən/"}
+{"title":"centralized","uk":"uk  / ˈsentr ə laɪzd /","ukp":"/ˈsentrəlaɪzd/","us":"us ","usp":""}
+{"title":"centralize","uk":"uk  / ˈsen.trə.laɪz /","ukp":"/ˈsen.trə.laɪz/","us":"us  / ˈsen.trə.laɪz /","usp":"/ˈsen.trə.laɪz/"}

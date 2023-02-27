@@ -1,0 +1,928 @@
+{"title":"chip (something) in","uk":"uk  / tʃɪp /","ukp":"/tʃɪp/","us":"us  / tʃɪp /","usp":"/tʃɪp/"}
+{"title":"chip away at something","uk":"uk  / tʃɪp /","ukp":"/tʃɪp/","us":"us  / tʃɪp /","usp":"/tʃɪp/"}
+{"title":"chip card","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"chip and PIN","uk":"uk  / ˌtʃɪp ən ˈpɪn /","ukp":"/ˌtʃɪp ən ˈpɪn/","us":"us  / ˌtʃɪp ən ˈpɪn /","usp":"/ˌtʃɪp ən ˈpɪn/"}
+{"title":"chip","uk":"uk  / tʃɪp /","ukp":"/tʃɪp/","us":"us  / tʃɪp /","usp":"/tʃɪp/"}
+{"title":"chip something away","uk":"uk  / tʃɪp /","ukp":"/tʃɪp/","us":"us  / tʃɪp /","usp":"/tʃɪp/"}
+{"title":"chip shop","uk":"uk  / ˈtʃɪp ˌʃɒp /","ukp":"/ˈtʃɪp ˌʃɒp/","us":"us  / ˈtʃɪp ˌʃɑːp /","usp":"/ˈtʃɪp ˌʃɑːp/"}
+{"title":"chipboard","uk":"uk  / ˈtʃɪp.bɔːd /","ukp":"/ˈtʃɪp.bɔːd/","us":"us  / ˈtʃɪp.bɔːrd /","usp":"/ˈtʃɪp.bɔːrd/"}
+{"title":"chipmaker","uk":"uk  / ˈtʃɪpˌmeɪkə r /","ukp":"/ˈtʃɪpˌmeɪkər/","us":"us ","usp":""}
+{"title":"chipolata","uk":"uk  / ˌtʃɪp.əˈlɑː.tə /","ukp":"/ˌtʃɪp.əˈlɑː.tə/","us":"us  / ˌtʃɪp.əˈlɑː.t̬ə /","usp":"/ˌtʃɪp.əˈlɑː.t̬ə/"}
+{"title":"chipotle","uk":"uk  / tʃɪˈpəʊt.leɪ /","ukp":"/tʃɪˈpəʊt.leɪ/","us":"us  / tʃɪˈpoʊt.leɪ /","usp":"/tʃɪˈpoʊt.leɪ/"}
+{"title":"chipmunk","uk":"uk  / ˈtʃɪp.mʌŋk /","ukp":"/ˈtʃɪp.mʌŋk/","us":"us  / ˈtʃɪp.mʌŋk /","usp":"/ˈtʃɪp.mʌŋk/"}
+{"title":"chipped","uk":"uk  / tʃɪpt /","ukp":"/tʃɪpt/","us":"us  / tʃɪpt /","usp":"/tʃɪpt/"}
+{"title":"chipped beef","uk":"uk / ˌtʃɪpt ˈbiːf /","ukp":"/ˌtʃɪpt ˈbiːf/","us":"us / ˌtʃɪpt ˈbiːf /","usp":"/ˌtʃɪpt ˈbiːf/"}
+{"title":"chipper","uk":"uk  / ˈtʃɪp.ə r /","ukp":"/ˈtʃɪp.ər/","us":"us  / ˈtʃɪp.ɚ /","usp":"/ˈtʃɪp.ɚ/"}
+{"title":"chipping","uk":"uk  / ˈtʃɪp.ɪŋ /","ukp":"/ˈtʃɪp.ɪŋ/","us":"us  / ˈtʃɪp.ɪŋ /","usp":"/ˈtʃɪp.ɪŋ/"}
+{"title":"chips","uk":"uk  / tʃɪps /","ukp":"/tʃɪps/","us":"us  / tʃɪps /","usp":"/tʃɪps/"}
+{"title":"chippy","uk":"uk  / ˈtʃɪp.i /","ukp":"/ˈtʃɪp.i/","us":"us  / ˈtʃɪp.i /","usp":"/ˈtʃɪp.i/"}
+{"title":"chipset","uk":"uk  / ˈtʃɪpset /","ukp":"/ˈtʃɪpset/","us":"us ","usp":""}
+{"title":"chirimoya","uk":"uk / ˌtʃɪr.i ˈmɔɪ.ə /","ukp":"/ˌtʃɪr.i ˈmɔɪ.ə/","us":"us / ˌtʃɪr.i ˈmɔɪ.ə /","usp":"/ˌtʃɪr.i ˈmɔɪ.ə/"}
+{"title":"chiropody","uk":"uk  / kɪˈrɒp.ə.di /","ukp":"/kɪˈrɒp.ə.di/","us":"us  / kɪˈrɑː.pə.di /","usp":"/kɪˈrɑː.pə.di/"}
+{"title":"chiropodist","uk":"uk  / kɪˈrɒp.ə.dɪst /","ukp":"/kɪˈrɒp.ə.dɪst/","us":"us  / kɪˈrɑː.pə.dɪst /","usp":"/kɪˈrɑː.pə.dɪst/"}
+{"title":"chiropractic","uk":"uk  / ˌkaɪ ə .rəʊˈpræk.tɪk /","ukp":"/ˌkaɪə.rəʊˈpræk.tɪk/","us":"us  / ˌkaɪ ə .roʊˈpræk.tɪk /","usp":"/ˌkaɪə.roʊˈpræk.tɪk/"}
+{"title":"chiropractor","uk":"uk  / ˈkaɪ.rəʊ.præk.tə r /","ukp":"/ˈkaɪ.rəʊ.præk.tər/","us":"us  / ˈkaɪ.roʊ.præk.tɚ /","usp":"/ˈkaɪ.roʊ.præk.tɚ/"}
+{"title":"chirped","uk":"uk  / tʃɜːp /","ukp":"/tʃɜːp/","us":"us  / tʃɝːp /","usp":"/tʃɝːp/"}
+{"title":"chirp","uk":"uk  / tʃɜːp /","ukp":"/tʃɜːp/","us":"us  / tʃɝːp /","usp":"/tʃɝːp/"}
+{"title":"chirpily","uk":"uk  / ˈtʃɜː.p ə l.i /","ukp":"/ˈtʃɜː.pəl.i/","us":"us  / ˈtʃɝː.p ə l.i /","usp":"/ˈtʃɝː.pəl.i/"}
+{"title":"chirpiness","uk":"uk  / ˈtʃɜː.pi.nəs /","ukp":"/ˈtʃɜː.pi.nəs/","us":"us  / ˈtʃɝː.pi.nəs /","usp":"/ˈtʃɝː.pi.nəs/"}
+{"title":"chirping","uk":"uk  / tʃɜːp /","ukp":"/tʃɜːp/","us":"us  / tʃɝːp /","usp":"/tʃɝːp/"}
+{"title":"chirpse","uk":"uk  / tʃɜːps /","ukp":"/tʃɜːps/","us":"us  / tʃɜ˞ːps /","usp":"/tʃɜ˞ːps/"}
+{"title":"chisel","uk":"uk  / ˈtʃɪz. ə l /","ukp":"/ˈtʃɪz.əl/","us":"us  / ˈtʃɪz. ə l /","usp":"/ˈtʃɪz.əl/"}
+{"title":"chirpy","uk":"uk  / ˈtʃɜː.pi /","ukp":"/ˈtʃɜː.pi/","us":"us  / ˈtʃɝː.pi /","usp":"/ˈtʃɝː.pi/"}
+{"title":"chiselled","uk":"uk  / ˈtʃɪz. ə ld /","ukp":"/ˈtʃɪz.əld/","us":"us  / ˈtʃɪz. ə ld /","usp":"/ˈtʃɪz.əld/"}
+{"title":"chiseled","uk":"uk  / ˈtʃɪz. ə ld /","ukp":"/ˈtʃɪz.əld/","us":"us  / ˈtʃɪz. ə ld /","usp":"/ˈtʃɪz.əld/"}
+{"title":"Chișinău","uk":"uk  / ˌkɪʃ.ɪˈnaʊ /","ukp":"/ˌkɪʃ.ɪˈnaʊ/","us":"us  / ˌkɪʃ.ɪˈnaʊ /","usp":"/ˌkɪʃ.ɪˈnaʊ/"}
+{"title":"chit","uk":"uk  / tʃɪt /","ukp":"/tʃɪt/","us":"us  / tʃɪt /","usp":"/tʃɪt/"}
+{"title":"chit-chat","uk":"uk  / ˈtʃɪt.tʃæt /","ukp":"/ˈtʃɪt.tʃæt/","us":"us  / ˈtʃɪt.tʃæt /","usp":"/ˈtʃɪt.tʃæt/"}
+{"title":"chitchat","uk":"","us":"us  / ˈtʃɪtˌtʃæt /","usp":"/ˈtʃɪtˌtʃæt/"}
+{"title":"choke something back","uk":"uk  / tʃəʊk /","ukp":"/tʃəʊk/","us":"us  / tʃoʊk /","usp":"/tʃoʊk/"}
+{"title":"choke up on something","uk":"uk  / tʃəʊk /","ukp":"/tʃəʊk/","us":"us  / tʃoʊk /","usp":"/tʃoʊk/"}
+{"title":"choke up","uk":"uk  / tʃəʊk /","ukp":"/tʃəʊk/","us":"us  / tʃoʊk /","usp":"/tʃoʊk/"}
+{"title":"chokeberry","uk":"uk  / ˈtʃəʊk.b ə r.i /","ukp":"/ˈtʃəʊk.bər.i/","us":"us  / ˈtʃoʊk.ber.i /","usp":"/ˈtʃoʊk.ber.i/"}
+{"title":"choked","uk":"uk  / tʃəʊkt /","ukp":"/tʃəʊkt/","us":"us  / tʃoʊkt /","usp":"/tʃoʊkt/"}
+{"title":"chokecherry","uk":"uk  / ˈtʃəʊkˌtʃer.i /","ukp":"/ˈtʃəʊkˌtʃer.i/","us":"us  / ˈtʃoʊkˌtʃer.i /","usp":"/ˈtʃoʊkˌtʃer.i/"}
+{"title":"chokehold","uk":"uk  / ˈtʃəʊk.həʊld /","ukp":"/ˈtʃəʊk.həʊld/","us":"us  / ˈtʃoʊk.hoʊld /","usp":"/ˈtʃoʊk.hoʊld/"}
+{"title":"choker","uk":"uk  / ˈtʃəʊ.kə r /","ukp":"/ˈtʃəʊ.kər/","us":"us  / ˈtʃoʊ.kɚ /","usp":"/ˈtʃoʊ.kɚ/"}
+{"title":"cholent","uk":"uk / ˈtʃɒl. ə nt /","ukp":"/ˈtʃɒl.ənt/","us":"us / ˈtʃoʊ.l ə nt /","usp":"/ˈtʃoʊ.lənt/"}
+{"title":"choking","uk":"uk  / tʃəʊk /","ukp":"/tʃəʊk/","us":"us  / tʃoʊk /","usp":"/tʃoʊk/"}
+{"title":"choleric","uk":"uk  / kɒlˈer.ɪk /","ukp":"/kɒlˈer.ɪk/","us":"us  / kəˈler.ɪk /","usp":"/kəˈler.ɪk/"}
+{"title":"cholera","uk":"uk  / ˈkɒl. ə r.ə /","ukp":"/ˈkɒl.ər.ə/","us":"us  / ˈkɑː.lɚ.ə /","usp":"/ˈkɑː.lɚ.ə/"}
+{"title":"cholesterol","uk":"uk  / kəˈles.t ə r.ɒl /","ukp":"/kəˈles.tər.ɒl/","us":"us  / kəˈles.tə.rɑːl /","usp":"/kəˈles.tə.rɑːl/"}
+{"title":"Chomolungma","uk":"uk  / ˌtʃəʊ.məˈlʊŋ.mə /","ukp":"/ˌtʃəʊ.məˈlʊŋ.mə/","us":"us  / ˌtʃoʊ.məˈlʊŋ.mə /","usp":"/ˌtʃoʊ.məˈlʊŋ.mə/"}
+{"title":"chomp","uk":"uk  / tʃɒmp /","ukp":"/tʃɒmp/","us":"us  / tʃɑːmp /","usp":"/tʃɑːmp/"}
+{"title":"chomped","uk":"uk  / tʃɒmp /","ukp":"/tʃɒmp/","us":"us  / tʃɑːmp /","usp":"/tʃɑːmp/"}
+{"title":"chomping","uk":"uk  / tʃɒmp /","ukp":"/tʃɒmp/","us":"us  / tʃɑːmp /","usp":"/tʃɑːmp/"}
+{"title":"chondroid","uk":"uk  / ˈkɒn.drɔɪd /","ukp":"/ˈkɒn.drɔɪd/","us":"us  / ˈkɑːn.drɔɪd /","usp":"/ˈkɑːn.drɔɪd/"}
+{"title":"chondroid chordoma","uk":"uk  / ˌkɒn.drɔɪd kɔːˈdəʊ.mə /","ukp":"/ˌkɒn.drɔɪd kɔːˈdəʊ.mə/","us":"us  / ˌkɑːn.drɔɪd kɔrˈdoʊ.mə /","usp":"/ˌkɑːn.drɔɪd kɔrˈdoʊ.mə/"}
+{"title":"choo-choo","uk":"uk  / ˈtʃuː.tʃuː /","ukp":"/ˈtʃuː.tʃuː/","us":"us  / ˈtʃuː.tʃuː /","usp":"/ˈtʃuː.tʃuː/"}
+{"title":"chondrosarcoma","uk":"uk  / ˌkɒn.drəʊ.sɑːˈkəʊ.mə /","ukp":"/ˌkɒn.drəʊ.sɑːˈkəʊ.mə/","us":"us  / ˌkɑːn.droʊ.sɑːrˈkoʊ.mə /","usp":"/ˌkɑːn.droʊ.sɑːrˈkoʊ.mə/"}
+{"title":"chook","uk":"uk  / tʃʊk /","ukp":"/tʃʊk/","us":"us  / tʃʊk /","usp":"/tʃʊk/"}
+{"title":"choose to do something","uk":"","us":""}
+{"title":"choose up sb/sth","uk":"uk  / tʃuːz /","ukp":"/tʃuːz/","us":"us  / tʃuːz /","usp":"/tʃuːz/"}
+{"title":"choose","uk":"uk  / tʃuːz /","ukp":"/tʃuːz/","us":"us  / tʃuːz /","usp":"/tʃuːz/"}
+{"title":"choosing","uk":"","us":""}
+{"title":"chop and change","uk":"","us":""}
+{"title":"choosy","uk":"uk  / ˈtʃuː.zi /","ukp":"/ˈtʃuː.zi/","us":"us  / ˈtʃuː.zi /","usp":"/ˈtʃuː.zi/"}
+{"title":"chop","uk":"uk  / tʃɒp /","ukp":"/tʃɒp/","us":"us  / tʃɑːp /","usp":"/tʃɑːp/"}
+{"title":"chop something down","uk":"uk  / tʃɒp /","ukp":"/tʃɒp/","us":"us  / tʃɑːp /","usp":"/tʃɑːp/"}
+{"title":"chop shop","uk":"uk  / ˈtʃɒp ˌʃɒp /","ukp":"/ˈtʃɒp ˌʃɒp/","us":"us  / ˈtʃɑːp ˌʃɑːp /","usp":"/ˈtʃɑːp ˌʃɑːp/"}
+{"title":"chop something off","uk":"uk  / tʃɒp /","ukp":"/tʃɒp/","us":"us  / tʃɑːp /","usp":"/tʃɑːp/"}
+{"title":"chop suey","uk":"uk  / ˌtʃɒp ˈsuː.i /","ukp":"/ˌtʃɒp ˈsuː.i/","us":"us  / ˌtʃɑːp ˈsuː.i /","usp":"/ˌtʃɑːp ˈsuː.i/"}
+{"title":"chop-chop","uk":"uk  / ˌtʃɒpˈtʃɒp /","ukp":"/ˌtʃɒpˈtʃɒp/","us":"us  / ˌtʃɑːpˈtʃɑːp /","usp":"/ˌtʃɑːpˈtʃɑːp/"}
+{"title":"chophouse","uk":"uk  / ˈtʃɒp.haʊs /","ukp":"/ˈtʃɒp.haʊs/","us":"us  / ˈtʃɑːp.haʊs /","usp":"/ˈtʃɑːp.haʊs/"}
+{"title":"chopped","uk":"","us":""}
+{"title":"chopped liver","uk":"uk / ˌtʃɒpt ˈlɪv.ə r /","ukp":"/ˌtʃɒpt ˈlɪv.ər/","us":"us / ˌtʃɑːpt ˈlɪv.ɚ /","usp":"/ˌtʃɑːpt ˈlɪv.ɚ/"}
+{"title":"choppers","uk":"","us":""}
+{"title":"chopper","uk":"uk  / ˈtʃɒp.ə r /","ukp":"/ˈtʃɒp.ər/","us":"us  / ˈtʃɑː.pɚ /","usp":"/ˈtʃɑː.pɚ/"}
+{"title":"chopping","uk":"","us":""}
+{"title":"chopping board","uk":"uk  / ˈtʃɒp.ɪŋ ˌbɔːd /","ukp":"/ˈtʃɒp.ɪŋ ˌbɔːd/","us":"us  / ˈtʃɑː.pɪŋ ˌbɔːrd /","usp":"/ˈtʃɑː.pɪŋ ˌbɔːrd/"}
+{"title":"chops","uk":"","us":""}
+{"title":"choppy","uk":"uk  / ˈtʃɒp.i /","ukp":"/ˈtʃɒp.i/","us":"us  / ˈtʃɑː.pi /","usp":"/ˈtʃɑː.pi/"}
+{"title":"chopstick","uk":"uk  / ˈtʃɒp.stɪk /","ukp":"/ˈtʃɒp.stɪk/","us":"us  / ˈtʃɑːp.stɪk /","usp":"/ˈtʃɑːp.stɪk/"}
+{"title":"chuck something in","uk":"uk  / tʃʌk /","ukp":"/tʃʌk/","us":"us  / tʃʌk /","usp":"/tʃʌk/"}
+{"title":"choral","uk":"uk  / ˈkɔː.r ə l /","ukp":"/ˈkɔː.rəl/","us":"us  / ˈkɔːr. ə l /","usp":"/ˈkɔːr.əl/"}
+{"title":"chuck steak","uk":"uk  / ˌtʃʌk ˈsteɪk /","ukp":"/ˌtʃʌk ˈsteɪk/","us":"us  / ˌtʃʌk ˈsteɪk /","usp":"/ˌtʃʌk ˈsteɪk/"}
+{"title":"chuck/throw/toss something/someone overboard","uk":"","us":""}
+{"title":"chucking","uk":"uk  / tʃʌk /","ukp":"/tʃʌk/","us":"us  / tʃʌk /","usp":"/tʃʌk/"}
+{"title":"chucked","uk":"uk  / tʃʌk /","ukp":"/tʃʌk/","us":"us  / tʃʌk /","usp":"/tʃʌk/"}
+{"title":"chuckled","uk":"uk  / ˈtʃʌk. ə l /","ukp":"/ˈtʃʌk.əl/","us":"us  / ˈtʃʌk. ə l /","usp":"/ˈtʃʌk.əl/"}
+{"title":"chuckle","uk":"uk  / ˈtʃʌk. ə l /","ukp":"/ˈtʃʌk.əl/","us":"us  / ˈtʃʌk. ə l /","usp":"/ˈtʃʌk.əl/"}
+{"title":"chuckling","uk":"uk  / ˈtʃʌk. ə l /","ukp":"/ˈtʃʌk.əl/","us":"us  / ˈtʃʌk. ə l /","usp":"/ˈtʃʌk.əl/"}
+{"title":"chuckwagon","uk":"uk / ˈtʃʌk.wæɡ.ən /","ukp":"/ˈtʃʌk.wæɡ.ən/","us":"us / ˈtʃʌk.wæɡ.ən /","usp":"/ˈtʃʌk.wæɡ.ən/"}
+{"title":"chuffed","uk":"uk  / tʃʌft /","ukp":"/tʃʌft/","us":"us  / tʃʌft /","usp":"/tʃʌft/"}
+{"title":"chuff","uk":"uk  / tʃʌf /","ukp":"/tʃʌf/","us":"us  / tʃʌf /","usp":"/tʃʌf/"}
+{"title":"chugger","uk":"uk  / ˈtʃʌɡ.ə r /","ukp":"/ˈtʃʌɡ.ər/","us":"us  / ˈtʃʌɡ.ɚ /","usp":"/ˈtʃʌɡ.ɚ/"}
+{"title":"chuffing","uk":"uk  / ˈtʃʌf.ɪŋ /","ukp":"/ˈtʃʌf.ɪŋ/","us":"us  / ˈtʃʌf.ɪŋ /","usp":"/ˈtʃʌf.ɪŋ/"}
+{"title":"chug","uk":"uk  / tʃʌɡ /","ukp":"/tʃʌɡ/","us":"us  / tʃʌɡ /","usp":"/tʃʌɡ/"}
+{"title":"chugging","uk":"uk  / ˈtʃʌɡ.ɪŋ /","ukp":"/ˈtʃʌɡ.ɪŋ/","us":"us  / ˈtʃʌɡ.ɪŋ /","usp":"/ˈtʃʌɡ.ɪŋ/"}
+{"title":"chum up","uk":"uk  / tʃʌm /","ukp":"/tʃʌm/","us":"us  / tʃʌm /","usp":"/tʃʌm/"}
+{"title":"chummy","uk":"uk  / ˈtʃʌm.i /","ukp":"/ˈtʃʌm.i/","us":"us  / ˈtʃʌm.i /","usp":"/ˈtʃʌm.i/"}
+{"title":"chum","uk":"uk  / tʃʌm /","ukp":"/tʃʌm/","us":"us  / tʃʌm /","usp":"/tʃʌm/"}
+{"title":"chump","uk":"uk  / tʃʌmp /","ukp":"/tʃʌmp/","us":"us  / tʃʌmp /","usp":"/tʃʌmp/"}
+{"title":"chump chop","uk":"uk  / ˌtʃʌmp ˈtʃɒp /","ukp":"/ˌtʃʌmp ˈtʃɒp/","us":"us  / ˌtʃʌmp ˈtʃɑːp /","usp":"/ˌtʃʌmp ˈtʃɑːp/"}
+{"title":"chunder","uk":"uk  / ˈtʃʌn.də r /","ukp":"/ˈtʃʌn.dər/","us":"us  / ˈtʃʌn.dɚ /","usp":"/ˈtʃʌn.dɚ/"}
+{"title":"chundered","uk":"uk  / ˈtʃʌn.də r /","ukp":"/ˈtʃʌn.dər/","us":"us  / ˈtʃʌn.dɚ /","usp":"/ˈtʃʌn.dɚ/"}
+{"title":"chundering","uk":"uk  / ˈtʃʌn.də r /","ukp":"/ˈtʃʌn.dər/","us":"us  / ˈtʃʌn.dɚ /","usp":"/ˈtʃʌn.dɚ/"}
+{"title":"chunk","uk":"uk  / tʃʌŋk /","ukp":"/tʃʌŋk/","us":"us  / tʃʌŋk /","usp":"/tʃʌŋk/"}
+{"title":"chunking","uk":"uk  / tʃʌŋ.kɪŋ /","ukp":"/tʃʌŋ.kɪŋ/","us":"us  / tʃʌŋ.kɪŋ /","usp":"/tʃʌŋ.kɪŋ/"}
+{"title":"chunky","uk":"uk  / ˈtʃʌŋ.ki /","ukp":"/ˈtʃʌŋ.ki/","us":"us  / ˈtʃʌŋ.ki /","usp":"/ˈtʃʌŋ.ki/"}
+{"title":"chunni","uk":"uk  / ˈtʃʊn.i /","ukp":"/ˈtʃʊn.i/","us":"us  / ˈtʃʊn.i /","usp":"/ˈtʃʊn.i/"}
+{"title":"chuntered","uk":"uk  / ˈtʃʌn.tə r /","ukp":"/ˈtʃʌn.tər/","us":"us  / ˈtʃʌn.t̬ɚ /","usp":"/ˈtʃʌn.t̬ɚ/"}
+{"title":"chunter","uk":"uk  / ˈtʃʌn.tə r /","ukp":"/ˈtʃʌn.tər/","us":"us  / ˈtʃʌn.t̬ɚ /","usp":"/ˈtʃʌn.t̬ɚ/"}
+{"title":"chuntering","uk":"uk  / ˈtʃʌn.tə r /","ukp":"/ˈtʃʌn.tər/","us":"us  / ˈtʃʌn.t̬ɚ /","usp":"/ˈtʃʌn.t̬ɚ/"}
+{"title":"chupatti","uk":"uk  / tʃəˈpæt.i /","ukp":"/tʃəˈpæt.i/","us":"us  / tʃəˈpæt̬.i /","usp":"/tʃəˈpæt̬.i/"}
+{"title":"church","uk":"uk  / tʃɜːtʃ /","ukp":"/tʃɜːtʃ/","us":"us  / tʃɝːtʃ /","usp":"/tʃɝːtʃ/"}
+{"title":"church year","uk":"uk  / ˌtʃɜːtʃ ˈjɪə r /","ukp":"/ˌtʃɜːtʃ ˈjɪər/","us":"us  / ˌtʃɝːtʃ ˈjɪr /","usp":"/ˌtʃɝːtʃ ˈjɪr/"}
+{"title":"churchgoing","uk":"uk  / ˈtʃɜːtʃˌɡəʊ.ɪŋ /","ukp":"/ˈtʃɜːtʃˌɡəʊ.ɪŋ/","us":"us  / ˈtʃɝːtʃˌɡoʊ.ɪŋ /","usp":"/ˈtʃɝːtʃˌɡoʊ.ɪŋ/"}
+{"title":"churchman","uk":"uk  / ˈtʃɜːtʃ.mən /","ukp":"/ˈtʃɜːtʃ.mən/","us":"us  / ˈtʃɝːtʃ.mən /","usp":"/ˈtʃɝːtʃ.mən/"}
+{"title":"churchgoer","uk":"uk  / ˈtʃɜːtʃˌɡəʊ.ə r /","ukp":"/ˈtʃɜːtʃˌɡəʊ.ər/","us":"us  / ˈtʃɝːtʃˌɡoʊ.ɚ /","usp":"/ˈtʃɝːtʃˌɡoʊ.ɚ/"}
+{"title":"churchwoman","uk":"uk  / ˈtʃɜːtʃˌwʊm.ən /","ukp":"/ˈtʃɜːtʃˌwʊm.ən/","us":"us  / ˈtʃɝːtʃˌwʊm.ən /","usp":"/ˈtʃɝːtʃˌwʊm.ən/"}
+{"title":"churchy","uk":"uk  / ˈtʃɜː.tʃi /","ukp":"/ˈtʃɜː.tʃi/","us":"us  / ˈtʃɝː.tʃi /","usp":"/ˈtʃɝː.tʃi/"}
+{"title":"churidars","uk":"uk  / ˈtʃʊə.rɪ.dɑːz /","ukp":"/ˈtʃʊə.rɪ.dɑːz/","us":"us  / ˈtʃʊr.ɪ.dɑːrz /","usp":"/ˈtʃʊr.ɪ.dɑːrz/"}
+{"title":"churchyard","uk":"uk  / ˈtʃɜːtʃ.jɑːd /","ukp":"/ˈtʃɜːtʃ.jɑːd/","us":"us  / ˈtʃɝːtʃ.jɑːrd /","usp":"/ˈtʃɝːtʃ.jɑːrd/"}
+{"title":"churlish","uk":"uk  / ˈtʃɜː.lɪʃ /","ukp":"/ˈtʃɜː.lɪʃ/","us":"us  / ˈtʃɝː.lɪʃ /","usp":"/ˈtʃɝː.lɪʃ/"}
+{"title":"churlishly","uk":"uk  / ˈtʃɜː.lɪʃ.li /","ukp":"/ˈtʃɜː.lɪʃ.li/","us":"us  / ˈtʃɝː.lɪʃ.li /","usp":"/ˈtʃɝː.lɪʃ.li/"}
+{"title":"churlishness","uk":"uk  / ˈtʃɜː.lɪʃ.nəs /","ukp":"/ˈtʃɜː.lɪʃ.nəs/","us":"us  / ˈtʃɝː.lɪʃ.nəs /","usp":"/ˈtʃɝː.lɪʃ.nəs/"}
+{"title":"churn rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"churn something out","uk":"uk  / tʃɜːn /","ukp":"/tʃɜːn/","us":"us  / tʃɝːn /","usp":"/tʃɝːn/"}
+{"title":"churned","uk":"uk  / tʃɜːn /","ukp":"/tʃɜːn/","us":"us  / tʃɝːn /","usp":"/tʃɝːn/"}
+{"title":"churn","uk":"uk  / tʃɜːn /","ukp":"/tʃɜːn/","us":"us  / tʃɝːn /","usp":"/tʃɝːn/"}
+{"title":"cisnormative","uk":"uk / ˌsɪsˈnɔː.mə.tɪv /","ukp":"/ˌsɪsˈnɔː.mə.tɪv/","us":"us / ˌsɪsˈnɔːr.mə.t̬ɪv /","usp":"/ˌsɪsˈnɔːr.mə.t̬ɪv/"}
+{"title":"cisnormativity","uk":"uk / ˌsɪs.nɔː.məˈtɪv.ə.ti /","ukp":"/ˌsɪs.nɔː.məˈtɪv.ə.ti/","us":"us / ˌsɪs.nɔːr.məˈt̬ɪv.ə.t̬i /","usp":"/ˌsɪs.nɔːr.məˈt̬ɪv.ə.t̬i/"}
+{"title":"cissy","uk":"uk  / ˈsɪs.i /","ukp":"/ˈsɪs.i/","us":"us  / ˈsɪs.i /","usp":"/ˈsɪs.i/"}
+{"title":"cisplatin","uk":"uk  / sɪsˈplæt.ɪn /","ukp":"/sɪsˈplæt.ɪn/","us":"us  / sɪsˈplæt̬.ən /","usp":"/sɪsˈplæt̬.ən/"}
+{"title":"Cistercian","uk":"uk  / sɪˈstɜː.ʃ ə n /","ukp":"/sɪˈstɜː.ʃən/","us":"us  / sɪˈstɝː.ʃ ə n /","usp":"/sɪˈstɝː.ʃən/"}
+{"title":"cistern","uk":"uk  / ˈsɪs.tən /","ukp":"/ˈsɪs.tən/","us":"us  / ˈsɪs.tɚn /","usp":"/ˈsɪs.tɚn/"}
+{"title":"citation","uk":"uk  / saɪˈteɪ.ʃ ə n /","ukp":"/saɪˈteɪ.ʃən/","us":"us  / saɪˈteɪ.ʃ ə n /","usp":"/saɪˈteɪ.ʃən/"}
+{"title":"citadel","uk":"uk  / ˈsɪt.ə.del /","ukp":"/ˈsɪt.ə.del/","us":"us  / ˈsɪt̬.ə.del /","usp":"/ˈsɪt̬.ə.del/"}
+{"title":"cite","uk":"uk  / saɪt /","ukp":"/saɪt/","us":"us  / saɪt /","usp":"/saɪt/"}
+{"title":"citified","uk":"uk / ˈsɪt.i.faɪd /","ukp":"/ˈsɪt.i.faɪd/","us":"us / ˈsɪt̬.i.faɪd /","usp":"/ˈsɪt̬.i.faɪd/"}
+{"title":"cited","uk":"uk  / saɪt /","ukp":"/saɪt/","us":"us  / saɪt /","usp":"/saɪt/"}
+{"title":"citing","uk":"uk  / saɪt /","ukp":"/saɪt/","us":"us  / saɪt /","usp":"/saɪt/"}
+{"title":"citizen","uk":"uk  / ˈsɪt.ɪ.z ə n /","ukp":"/ˈsɪt.ɪ.zən/","us":"us  / ˈsɪt̬.ə.z ə n /","usp":"/ˈsɪt̬.ə.zən/"}
+{"title":"citizen journalist","uk":"uk  / ˌsɪt.ɪ.z ə n ˈdʒɜː.nə.lɪst /","ukp":"/ˌsɪt.ɪ.zən ˈdʒɜː.nə.lɪst/","us":"us  / ˌsɪt̬.ə.z ə n ˈdʒɝː.nə.lɪst /","usp":"/ˌsɪt̬.ə.zən ˈdʒɝː.nə.lɪst/"}
+{"title":"citizen journalism","uk":"uk  / ˌsɪt.ɪ.z ə n ˈdʒɜː.nə.lɪ.z ə m /","ukp":"/ˌsɪt.ɪ.zən ˈdʒɜː.nə.lɪ.zəm/","us":"us  / ˌsɪt̬.ə.z ə n ˈdʒɝː.nə.lɪ.z ə m /","usp":"/ˌsɪt̬.ə.zən ˈdʒɝː.nə.lɪ.zəm/"}
+{"title":"citizen science","uk":"","us":""}
+{"title":"citizen scientist","uk":"uk  / ˌsɪt.ɪ.z ə n ˈsaɪ.ən.tɪst /","ukp":"/ˌsɪt.ɪ.zən ˈsaɪ.ən.tɪst/","us":"us  / ˈsɪt̬.ə.z ə n ˌsaɪ.ən.tɪst /","usp":"/ˈsɪt̬.ə.zən ˌsaɪ.ən.tɪst/"}
+{"title":"Citizen's Advice Bureau","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"citizen's arrest","uk":"uk  / ˌsɪt.ɪ.z ə nz əˈrest /","ukp":"/ˌsɪt.ɪ.zənz əˈrest/","us":"us  / ˌsɪt̬.ə.z ə nz əˈrest /","usp":"/ˌsɪt̬.ə.zənz əˈrest/"}
+{"title":"citizen's charter","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Citizens Advice","uk":"uk  / ˌsɪt.ɪ.z ə nz ədˈvaɪs /","ukp":"/ˌsɪt.ɪ.zənz ədˈvaɪs/","us":"us  / ˌsɪt̬.ə.z ə nz ədˈvaɪs /","usp":"/ˌsɪt̬.ə.zənz ədˈvaɪs/"}
+{"title":"Citizens' Band","uk":"uk  / ˌsɪt.ɪ.z ə nz ˈbænd /","ukp":"/ˌsɪt.ɪ.zənz ˈbænd/","us":"us  / ˌsɪt̬.ə.z ə nz ˈbænd /","usp":"/ˌsɪt̬.ə.zənz ˈbænd/"}
+{"title":"citizenship","uk":"uk  / ˈsɪt.ɪ.z ə n.ʃɪp /","ukp":"/ˈsɪt.ɪ.zən.ʃɪp/","us":"us  / ˈsɪt̬.ə.z ə n.ʃɪp /","usp":"/ˈsɪt̬.ə.zən.ʃɪp/"}
+{"title":"citric acid","uk":"uk  / ˌsɪt.rɪk ˈæs.ɪd /","ukp":"/ˌsɪt.rɪk ˈæs.ɪd/","us":"us  / ˌsɪt.rɪk ˈæs.ɪd /","usp":"/ˌsɪt.rɪk ˈæs.ɪd/"}
+{"title":"citric","uk":"uk  / ˈsɪt.rɪk /","ukp":"/ˈsɪt.rɪk/","us":"us  / ˈsɪt.rɪk /","usp":"/ˈsɪt.rɪk/"}
+{"title":"citron","uk":"uk  / ˈsɪt.r ə n /","ukp":"/ˈsɪt.rən/","us":"us  / ˈsɪt.r ə n /","usp":"/ˈsɪt.rən/"}
+{"title":"citruses","uk":"","us":""}
+{"title":"citronella","uk":"uk  / ˌsɪt.r ə nˈel.ə /","ukp":"/ˌsɪt.rənˈel.ə/","us":"us  / ˌsɪt.r ə nˈel.ə /","usp":"/ˌsɪt.rənˈel.ə/"}
+{"title":"citrus","uk":"uk  / ˈsɪt.rəs /","ukp":"/ˈsɪt.rəs/","us":"us  / ˈsɪt.rəs /","usp":"/ˈsɪt.rəs/"}
+{"title":"city","uk":"uk  / ˈsɪt.i /","ukp":"/ˈsɪt.i/","us":"us  / ˈsɪt̬.i /","usp":"/ˈsɪt̬.i/"}
+{"title":"city bank","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"city academy","uk":"","us":""}
+{"title":"city centre","uk":"uk  / ˌsɪt.i ˈsen.tə r /","ukp":"/ˌsɪt.i ˈsen.tər/","us":"us  / ˌsɪt̬.i ˈsen.t̬ɚ /","usp":"/ˌsɪt̬.i ˈsen.t̬ɚ/"}
+{"title":"City Code","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"city council","uk":"uk  / ˌsɪt.i ˈkaʊn.s ə l /","ukp":"/ˌsɪt.i ˈkaʊn.səl/","us":"us  / ˌsɪt̬.i ˈkaʊn.s ə l /","usp":"/ˌsɪt̬.i ˈkaʊn.səl/"}
+{"title":"city councillor","uk":"uk  / ˌsɪt.i ˈkaʊn.s ə l.ə r /","ukp":"/ˌsɪt.i ˈkaʊn.səl.ər/","us":"us  / ˌsɪt̬.i ˈkaʊn.s ə l.ɚ /","usp":"/ˌsɪt̬.i ˈkaʊn.səl.ɚ/"}
+{"title":"city councilmember","uk":"uk  / ˌsɪt.i ˈkaʊn.s ə l.mem.bə r /","ukp":"/ˌsɪt.i ˈkaʊn.səl.mem.bər/","us":"us  / ˌsɪt̬.i ˈkaʊn.s ə lmem.bə r /","usp":"/ˌsɪt̬.i ˈkaʊn.səlmem.bər/"}
+{"title":"city desk","uk":"uk  / ˈsɪt.i ˌdesk /","ukp":"/ˈsɪt.i ˌdesk/","us":"us  / ˈsɪt̬.i ˌdesk /","usp":"/ˈsɪt̬.i ˌdesk/"}
+{"title":"City Group for Smaller Companies","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"city fathers","uk":"uk  / ˌsɪt.i ˈfɑː.ðəz /","ukp":"/ˌsɪt.i ˈfɑː.ðəz/","us":"us  / ˌsɪt̬.i ˈfɑː.ðɚz /","usp":"/ˌsɪt̬.i ˈfɑː.ðɚz/"}
+{"title":"city hall","uk":"uk  / ˌsɪt.i ˈhɔːl /","ukp":"/ˌsɪt.i ˈhɔːl/","us":"us  / ˌsɪt̬.i ˈhɑːl /","usp":"/ˌsɪt̬.i ˈhɑːl/"}
+{"title":"city slicker","uk":"uk  / ˌsɪt.i ˈslɪk.ə r /","ukp":"/ˌsɪt.i ˈslɪk.ər/","us":"us  / ˌsɪt̬.i ˈslɪk.ɚ /","usp":"/ˌsɪt̬.i ˈslɪk.ɚ/"}
+{"title":"city state","uk":"uk  / ˌsɪt.i ˈsteɪt /","ukp":"/ˌsɪt.i ˈsteɪt/","us":"us  / ˌsɪt̬.i ˈsteɪt /","usp":"/ˌsɪt̬.i ˈsteɪt/"}
+{"title":"cityscape","uk":"uk  / ˈsɪt.i.skeɪp /","ukp":"/ˈsɪt.i.skeɪp/","us":"us  / ˈsɪt.i.skeɪp /","usp":"/ˈsɪt.i.skeɪp/"}
+{"title":"citywide","uk":"uk  / sɪt.iˈwaɪd /","ukp":"/sɪt.iˈwaɪd/","us":"us  / ˈsɪt̬ /","usp":"/ˈsɪt̬/"}
+{"title":"civet","uk":"uk  / ˈsɪv.ɪt /","ukp":"/ˈsɪv.ɪt/","us":"us  / ˈsɪv.ɪt /","usp":"/ˈsɪv.ɪt/"}
+{"title":"circulating asset","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"circulated","uk":"uk  / ˈsɜː.kjə.leɪt /","ukp":"/ˈsɜː.kjə.leɪt/","us":"us  / ˈsɝː.kjə.leɪt /","usp":"/ˈsɝː.kjə.leɪt/"}
+{"title":"circulating","uk":"uk  / ˈsɜː.kjə.leɪt /","ukp":"/ˈsɜː.kjə.leɪt/","us":"us  / ˈsɝː.kjə.leɪt /","usp":"/ˈsɝː.kjə.leɪt/"}
+{"title":"circulating capital","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"circulation","uk":"uk  / ˌsɜː.kjəˈleɪ.ʃ ə n /","ukp":"/ˌsɜː.kjəˈleɪ.ʃən/","us":"us  / ˌsɝː.kjəˈleɪ.ʃ ə n /","usp":"/ˌsɝː.kjəˈleɪ.ʃən/"}
+{"title":"circulator","uk":"uk / ˈsɜː.kjə.leɪ.tə r /","ukp":"/ˈsɜː.kjə.leɪ.tər/","us":"us / sɝː.kjə.leɪ.t̬ɚ /","usp":"/sɝː.kjə.leɪ.t̬ɚ/"}
+{"title":"circulatory","uk":"uk  / ˌsɜː.kjəˈleɪ.t ə r.i /","ukp":"/ˌsɜː.kjəˈleɪ.tər.i/","us":"us  / ˈsɝː.kjə.lə.tɔːr.i /","usp":"/ˈsɝː.kjə.lə.tɔːr.i/"}
+{"title":"circumcise","uk":"uk  / ˈsɜː.kəm.saɪz /","ukp":"/ˈsɜː.kəm.saɪz/","us":"us  / ˈsɝː.kəm.saɪz /","usp":"/ˈsɝː.kəm.saɪz/"}
+{"title":"circumcising","uk":"uk  / ˈsɜː.kəm.saɪz /","ukp":"/ˈsɜː.kəm.saɪz/","us":"us  / ˈsɝː.kəm.saɪz /","usp":"/ˈsɝː.kəm.saɪz/"}
+{"title":"circumcised","uk":"uk  / ˈsɜː.kəm.saɪz /","ukp":"/ˈsɜː.kəm.saɪz/","us":"us  / ˈsɝː.kəm.saɪz /","usp":"/ˈsɝː.kəm.saɪz/"}
+{"title":"circumcision","uk":"uk  / ˌsɜː.kəmˈsɪʒ. ə n /","ukp":"/ˌsɜː.kəmˈsɪʒ.ən/","us":"us  / ˌsɝː.kəmˈsɪʒ. ə n /","usp":"/ˌsɝː.kəmˈsɪʒ.ən/"}
+{"title":"circumduction","uk":"uk  / ˌsɜː.kəmˈdʌk.ʃ ə n /","ukp":"/ˌsɜː.kəmˈdʌk.ʃən/","us":"us  / ˌsɝː.kəmˈdʌk.ʃ ə n /","usp":"/ˌsɝː.kəmˈdʌk.ʃən/"}
+{"title":"circumferential","uk":"uk  / ˌsɜː.kəm.f ə rˈen.ʃ ə l /","ukp":"/ˌsɜː.kəm.fərˈen.ʃəl/","us":"us  / ˌsɝː.kəm.f ə rˈen.ʃ ə l /","usp":"/ˌsɝː.kəm.fərˈen.ʃəl/"}
+{"title":"circumflex","uk":"uk  / ˈsɜː.kəm.fleks /","ukp":"/ˈsɜː.kəm.fleks/","us":"us  / ˈsɝː.kəm.fleks /","usp":"/ˈsɝː.kəm.fleks/"}
+{"title":"circumference","uk":"uk  / səˈkʌm.f ə r. ə ns /","ukp":"/səˈkʌm.fər.əns/","us":"us  / sɚˈkʌm.fɚ. ə ns /","usp":"/sɚˈkʌm.fɚ.əns/"}
+{"title":"circumlocution","uk":"uk  / ˌsɜː.kəm.ləˈkjuː.ʃ ə n /","ukp":"/ˌsɜː.kəm.ləˈkjuː.ʃən/","us":"us  / ˌsɝː.kəm.ləˈkjuː.ʃ ə n /","usp":"/ˌsɝː.kəm.ləˈkjuː.ʃən/"}
+{"title":"circumlocutory","uk":"uk  / ˌsɜː.kəm.ləˈkjuː.t ə r.i /","ukp":"/ˌsɜː.kəm.ləˈkjuː.tər.i/","us":"us  / ˌsɝː.kəm.ləˈkjuː.t̬ɚ.i /","usp":"/ˌsɝː.kəm.ləˈkjuː.t̬ɚ.i/"}
+{"title":"circumnavigate","uk":"uk  / ˌsɜː.kəmˈnæv.ɪ.ɡeɪt /","ukp":"/ˌsɜː.kəmˈnæv.ɪ.ɡeɪt/","us":"us  / ˌsɝː.kəmˈnæv.ə.ɡeɪt /","usp":"/ˌsɝː.kəmˈnæv.ə.ɡeɪt/"}
+{"title":"circumnavigating","uk":"uk  / ˌsɜː.kəmˈnæv.ɪ.ɡeɪt /","ukp":"/ˌsɜː.kəmˈnæv.ɪ.ɡeɪt/","us":"us  / ˌsɝː.kəmˈnæv.ə.ɡeɪt /","usp":"/ˌsɝː.kəmˈnæv.ə.ɡeɪt/"}
+{"title":"circumnavigated","uk":"uk  / ˌsɜː.kəmˈnæv.ɪ.ɡeɪt /","ukp":"/ˌsɜː.kəmˈnæv.ɪ.ɡeɪt/","us":"us  / ˌsɝː.kəmˈnæv.ə.ɡeɪt /","usp":"/ˌsɝː.kəmˈnæv.ə.ɡeɪt/"}
+{"title":"circumnavigation","uk":"uk  / ˌsɜː.kəmˌnæv.ɪˈɡeɪ.ʃ ə n /","ukp":"/ˌsɜː.kəmˌnæv.ɪˈɡeɪ.ʃən/","us":"us  / ˌsɝː.kəmˌnæv.əˈɡeɪ.ʃ ə n /","usp":"/ˌsɝː.kəmˌnæv.əˈɡeɪ.ʃən/"}
+{"title":"circumscribe","uk":"uk  / ˈsɜː.kəm.skraɪb /","ukp":"/ˈsɜː.kəm.skraɪb/","us":"us  / ˈsɝː.kəm.skraɪb /","usp":"/ˈsɝː.kəm.skraɪb/"}
+{"title":"circumscribed","uk":"uk  / ˈsɜː.kəm.skraɪb /","ukp":"/ˈsɜː.kəm.skraɪb/","us":"us  / ˈsɝː.kəm.skraɪb /","usp":"/ˈsɝː.kəm.skraɪb/"}
+{"title":"circumscribing","uk":"uk  / ˈsɜː.kəm.skraɪb /","ukp":"/ˈsɜː.kəm.skraɪb/","us":"us  / ˈsɝː.kəm.skraɪb /","usp":"/ˈsɝː.kəm.skraɪb/"}
+{"title":"circumspection","uk":"uk  / ˌsɜː.kəmˈspek.ʃ ə n /","ukp":"/ˌsɜː.kəmˈspek.ʃən/","us":"us  / ˌsɝː.kəmˈspek.ʃ ə n /","usp":"/ˌsɝː.kəmˈspek.ʃən/"}
+{"title":"circumspect","uk":"uk  / ˈsɜː.kəm.spekt /","ukp":"/ˈsɜː.kəm.spekt/","us":"us  / ˈsɝː.kəm.spekt /","usp":"/ˈsɝː.kəm.spekt/"}
+{"title":"circumspectly","uk":"uk  / ˈsɜː.kəm.spekt.li /","ukp":"/ˈsɜː.kəm.spekt.li/","us":"us  / ˈsɝː.kəm.spekt.li /","usp":"/ˈsɝː.kəm.spekt.li/"}
+{"title":"circumstances","uk":"","us":""}
+{"title":"circumstantial","uk":"uk  / ˌsɜː.kəmˈstæn.ʃ ə l /","ukp":"/ˌsɜː.kəmˈstæn.ʃəl/","us":"us  / ˌsɝː.kəmˈstæn.ʃ ə l /","usp":"/ˌsɝː.kəmˈstæn.ʃəl/"}
+{"title":"circumstance","uk":"uk  / ˈsɜː.kəm.stɑːns /","ukp":"/ˈsɜː.kəm.stɑːns/","us":"us  / ˈsɝː.kəm.stæns /","usp":"/ˈsɝː.kəm.stæns/"}
+{"title":"circumvent","uk":"uk  / ˌsɜː.kəmˈvent /","ukp":"/ˌsɜː.kəmˈvent/","us":"us  / ˌsɝː.kəmˈvent /","usp":"/ˌsɝː.kəmˈvent/"}
+{"title":"circumvented","uk":"uk  / ˌsɜː.kəmˈvent /","ukp":"/ˌsɜː.kəmˈvent/","us":"us  / ˌsɝː.kəmˈvent /","usp":"/ˌsɝː.kəmˈvent/"}
+{"title":"circumventing","uk":"uk  / ˌsɜː.kəmˈvent /","ukp":"/ˌsɜː.kəmˈvent/","us":"us  / ˌsɝː.kəmˈvent /","usp":"/ˌsɝː.kəmˈvent/"}
+{"title":"circumvention","uk":"uk  / ˌsɜː.kəmˈven.ʃ ə n /","ukp":"/ˌsɜː.kəmˈven.ʃən/","us":"us  / ˌsɝː.kəmˈven.ʃ ə n /","usp":"/ˌsɝː.kəmˈven.ʃən/"}
+{"title":"circus peanut","uk":"uk / ˌsɜː.kəs ˈpiː.nʌt /","ukp":"/ˌsɜː.kəs ˈpiː.nʌt/","us":"us / ˈsɝː.kəs ˌpiː.nʌt /","usp":"/ˈsɝː.kəs ˌpiː.nʌt/"}
+{"title":"circus","uk":"uk  / ˈsɜː.kəs /","ukp":"/ˈsɜː.kəs/","us":"us  / ˈsɝː.kəs /","usp":"/ˈsɝː.kəs/"}
+{"title":"cirrhosis","uk":"uk  / sɪˈrəʊ.sɪs /","ukp":"/sɪˈrəʊ.sɪs/","us":"us  / səˈroʊ.sɪs /","usp":"/səˈroʊ.sɪs/"}
+{"title":"cirque","uk":"uk  / sɜːk /","ukp":"/sɜːk/","us":"us  / sɜː˞k /","usp":"/sɜː˞k/"}
+{"title":"cirrocumulus","uk":"uk  / ˌsɪr.əʊˈkjuː.mjə.ləs /","ukp":"/ˌsɪr.əʊˈkjuː.mjə.ləs/","us":"us  / ˌsɪr.oʊˈkjuː.mjə.ləs /","usp":"/ˌsɪr.oʊˈkjuː.mjə.ləs/"}
+{"title":"cirrostratus","uk":"uk  / ˌsɪr.əʊˈstrɑː.təs /","ukp":"/ˌsɪr.əʊˈstrɑː.təs/","us":"us  / ˌsɪr.oʊˈstreɪ.t̬əs /","usp":"/ˌsɪr.oʊˈstreɪ.t̬əs/"}
+{"title":"cirrus","uk":"uk  / ˈsɪr.əs /","ukp":"/ˈsɪr.əs/","us":"us  / ˈsɪr.əs /","usp":"/ˈsɪr.əs/"}
+{"title":"cis","uk":"uk  / sɪs /","ukp":"/sɪs/","us":"us / sɪs /","usp":"/sɪs/"}
+{"title":"CISCO","uk":"uk  / ˈsɪskəʊ /","ukp":"/ˈsɪskəʊ/","us":"us ","usp":""}
+{"title":"cisgender","uk":"uk  / sɪsˈdʒen.də r /","ukp":"/sɪsˈdʒen.dər/","us":"us  / sɪsˈdʒen.dɚ /","usp":"/sɪsˈdʒen.dɚ/"}
+{"title":"cishet","uk":"uk / ˈsɪs.het /","ukp":"/ˈsɪs.het/","us":"us / ˈsɪs.het /","usp":"/ˈsɪs.het/"}
+{"title":"cinder","uk":"uk  / ˈsɪn.də r /","ukp":"/ˈsɪn.dər/","us":"us  / ˈsɪn.dɚ /","usp":"/ˈsɪn.dɚ/"}
+{"title":"cinder block","uk":"uk  / ˈsɪn.də ˌblɒk /","ukp":"/ˈsɪn.də ˌblɒk/","us":"us  / ˈsɪn.dɚ ˌblɑːk /","usp":"/ˈsɪn.dɚ ˌblɑːk/"}
+{"title":"Cinderella","uk":"uk  / ˌsɪn.d ə rˈel.ə /","ukp":"/ˌsɪn.dərˈel.ə/","us":"us  / ˌsɪn.d ə rˈel.ə /","usp":"/ˌsɪn.dərˈel.ə/"}
+{"title":"cinder toffee","uk":"uk  / ˌsɪn.də ˈtɒf.i /","ukp":"/ˌsɪn.də ˈtɒf.i/","us":"us  / ˌsɪn.dɚ ˈtɑː.fi /","usp":"/ˌsɪn.dɚ ˈtɑː.fi/"}
+{"title":"cinema","uk":"uk  / ˈsɪn.ə.mɑː /","ukp":"/ˈsɪn.ə.mɑː/","us":"us  / ˈsɪn.ə.mə /","usp":"/ˈsɪn.ə.mə/"}
+{"title":"cinema hall","uk":"uk  / ˈsɪn.ə.mə ˌhɔːl /","ukp":"/ˈsɪn.ə.mə ˌhɔːl/","us":"us  / ˈsɪn.ə.mə ˌhɑːl /","usp":"/ˈsɪn.ə.mə ˌhɑːl/"}
+{"title":"cinemagoer","uk":"uk  / ˈsɪn.ə.məˌɡəʊ.ə r /","ukp":"/ˈsɪn.ə.məˌɡəʊ.ər/","us":"us  / ˈsɪn.ə.məˌɡoʊ.ɚ /","usp":"/ˈsɪn.ə.məˌɡoʊ.ɚ/"}
+{"title":"cinemagoing","uk":"uk  / ˈsɪn.ə.məˌɡəʊ.ɪŋ /","ukp":"/ˈsɪn.ə.məˌɡəʊ.ɪŋ/","us":"us  / ˈsɪn.ə.məˌɡoʊ.ɪŋ /","usp":"/ˈsɪn.ə.məˌɡoʊ.ɪŋ/"}
+{"title":"cinematic","uk":"uk  / ˌsɪn.əˈmæt.ɪk /","ukp":"/ˌsɪn.əˈmæt.ɪk/","us":"us  / ˌsɪn.əˈmæt̬.ɪk /","usp":"/ˌsɪn.əˈmæt̬.ɪk/"}
+{"title":"cinematographer","uk":"uk  / ˌsɪn.ə.məˈtɒɡ.rə.fə r /","ukp":"/ˌsɪn.ə.məˈtɒɡ.rə.fər/","us":"us  / ˌsɪn.ə.məˈtɑː.ɡrə.fɚ /","usp":"/ˌsɪn.ə.məˈtɑː.ɡrə.fɚ/"}
+{"title":"cinematography","uk":"uk  / ˌsɪn.ə.məˈtɒɡ.rə.fi /","ukp":"/ˌsɪn.ə.məˈtɒɡ.rə.fi/","us":"us  / ˌsɪn.ə.məˈtɑː.ɡrə.fi /","usp":"/ˌsɪn.ə.məˈtɑː.ɡrə.fi/"}
+{"title":"cinephile","uk":"uk  / ˈsɪn.ɪ.faɪl /","ukp":"/ˈsɪn.ɪ.faɪl/","us":"us  / ˈsɪn.ɪ.faɪl /","usp":"/ˈsɪn.ɪ.faɪl/"}
+{"title":"cingulate cortex","uk":"uk  / ˌsɪŋ.ɡjə.lət ˈkɔː.teks /","ukp":"/ˌsɪŋ.ɡjə.lət ˈkɔː.teks/","us":"us  / ˌsɪŋ.ɡjə.lət ˈkɔːr.teks /","usp":"/ˌsɪŋ.ɡjə.lət ˈkɔːr.teks/"}
+{"title":"cingulate cortices","uk":"","us":""}
+{"title":"cinnamon bun","uk":"uk  / ˌsɪn.ə.mən ˈbʌn /","ukp":"/ˌsɪn.ə.mən ˈbʌn/","us":"us  / ˌsɪn.ə.mən ˈbʌn /","usp":"/ˌsɪn.ə.mən ˈbʌn/"}
+{"title":"cinnamon roll","uk":"uk  / ˌsɪn.ə.mən ˈrəʊl /","ukp":"/ˌsɪn.ə.mən ˈrəʊl/","us":"us  / ˌsɪn.ə.mən ˈroʊl /","usp":"/ˌsɪn.ə.mən ˈroʊl/"}
+{"title":"cinnamon","uk":"uk  / ˈsɪn.ə.mən /","ukp":"/ˈsɪn.ə.mən/","us":"us  / ˈsɪn.ə.mən /","usp":"/ˈsɪn.ə.mən/"}
+{"title":"CIO","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CIP","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cioppino","uk":"uk / tʃəˈpiː.nəʊ /","ukp":"/tʃəˈpiː.nəʊ/","us":"us / tʃəˈpiː.noʊ /","usp":"/tʃəˈpiː.noʊ/"}
+{"title":"CIPFA","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CIPS","uk":"uk  / sɪps /","ukp":"/sɪps/","us":"us ","usp":""}
+{"title":"cipher","uk":"uk  / ˈsaɪ.fə r /","ukp":"/ˈsaɪ.fər/","us":"us  / ˈsaɪ.fɚ /","usp":"/ˈsaɪ.fɚ/"}
+{"title":"circa","uk":"uk  / ˈsɜː.kə /","ukp":"/ˈsɜː.kə/","us":"us  / ˈsɝː.kə /","usp":"/ˈsɝː.kə/"}
+{"title":"circadian","uk":"uk  / sɜːˈkeɪ.di.ən /","ukp":"/sɜːˈkeɪ.di.ən/","us":"us  / sɝːˈkeɪ.di.ən /","usp":"/sɝːˈkeɪ.di.ən/"}
+{"title":"circle the/your wagons","uk":"","us":""}
+{"title":"circled","uk":"uk  / ˈsɜː.k ə l /","ukp":"/ˈsɜː.kəl/","us":"us  / ˈsɝː.k ə l /","usp":"/ˈsɝː.kəl/"}
+{"title":"circle","uk":"uk  / ˈsɜː.k ə l /","ukp":"/ˈsɜː.kəl/","us":"us  / ˈsɝː.k ə l /","usp":"/ˈsɝː.kəl/"}
+{"title":"circlet","uk":"uk  / ˈsɜː.klət /","ukp":"/ˈsɜː.klət/","us":"us  / ˈsɜ˞ː.klət /","usp":"/ˈsɜ˞ː.klət/"}
+{"title":"circling","uk":"uk  / ˈsɜː.k ə l /","ukp":"/ˈsɜː.kəl/","us":"us  / ˈsɝː.k ə l /","usp":"/ˈsɝː.kəl/"}
+{"title":"circuit board","uk":"uk  / ˈsɜː.kɪt ˌbɔːd /","ukp":"/ˈsɜː.kɪt ˌbɔːd/","us":"us  / ˈsɝː.kɪt ˌbɔːrd /","usp":"/ˈsɝː.kɪt ˌbɔːrd/"}
+{"title":"circuit","uk":"uk  / ˈsɜː.kɪt /","ukp":"/ˈsɜː.kɪt/","us":"us  / ˈsɝː.kɪt /","usp":"/ˈsɝː.kɪt/"}
+{"title":"Circuit Court of Appeals","uk":"uk  / ˌsɜː.kɪt kɔːt əv əˈpiːlz /","ukp":"/ˌsɜː.kɪt kɔːt əv əˈpiːlz/","us":"us  / ˌsɝː.kɪt kɔːrt əv əˈpiːlz /","usp":"/ˌsɝː.kɪt kɔːrt əv əˈpiːlz/"}
+{"title":"circuit court","uk":"uk  / ˈsɜː.kɪt ˌkɔːt /","ukp":"/ˈsɜː.kɪt ˌkɔːt/","us":"us  / ˈsɝː.kɪt ˌkɔːrt /","usp":"/ˈsɝː.kɪt ˌkɔːrt/"}
+{"title":"circuit diagram","uk":"uk  / ˈsɜː.kɪt ˌdaɪ.ə.ɡræm /","ukp":"/ˈsɜː.kɪt ˌdaɪ.ə.ɡræm/","us":"us  / ˈsɝː.kɪt ˌdaɪ.ə.ɡræm /","usp":"/ˈsɝː.kɪt ˌdaɪ.ə.ɡræm/"}
+{"title":"circuit breaker","uk":"uk  / ˈsɜː.kɪt ˌbreɪ.kə r /","ukp":"/ˈsɜː.kɪt ˌbreɪ.kər/","us":"us  / ˈsɝː.kɪt ˌbreɪ.kɚ /","usp":"/ˈsɝː.kɪt ˌbreɪ.kɚ/"}
+{"title":"circuit judge","uk":"uk ","ukp":"","us":"us / ˈsɜr·kət ˌdʒʌdʒ /","usp":"/ˈsɜr·kət ˌdʒʌdʒ/"}
+{"title":"circuit training","uk":"uk  / ˈsɜː.kɪt ˌtreɪ.nɪŋ /","ukp":"/ˈsɜː.kɪt ˌtreɪ.nɪŋ/","us":"us  / ˈsɝː.kɪt ˌtreɪ.nɪŋ /","usp":"/ˈsɝː.kɪt ˌtreɪ.nɪŋ/"}
+{"title":"circuitously","uk":"uk  / sɜːˈkjuː.ɪ.təs.li /","ukp":"/sɜːˈkjuː.ɪ.təs.li/","us":"us  / sɝːˈkjuː.ə.t̬əs.li /","usp":"/sɝːˈkjuː.ə.t̬əs.li/"}
+{"title":"circuitous","uk":"uk  / sɜːˈkjuː.ɪ.təs /","ukp":"/sɜːˈkjuː.ɪ.təs/","us":"us  / sɝːˈkjuː.ə.t̬əs /","usp":"/sɝːˈkjuː.ə.t̬əs/"}
+{"title":"circuitry","uk":"uk  / ˈsɜː.kɪ.tri /","ukp":"/ˈsɜː.kɪ.tri/","us":"us  / ˈsɝː.kɪ.tri /","usp":"/ˈsɝː.kɪ.tri/"}
+{"title":"circular saw","uk":"uk  / ˌsɜː.kjə.lə ˈsɔː /","ukp":"/ˌsɜː.kjə.lə ˈsɔː/","us":"us  / ˌsɝː.kjə.lɚ ˈsɑː /","usp":"/ˌsɝː.kjə.lɚ ˈsɑː/"}
+{"title":"circular","uk":"uk  / ˈsɜː.kjə.lə r /","ukp":"/ˈsɜː.kjə.lər/","us":"us  / ˈsɝː.kjə.lɚ /","usp":"/ˈsɝː.kjə.lɚ/"}
+{"title":"circularity","uk":"uk  / ˌsɜː.kjəˈlær.ə.ti /","ukp":"/ˌsɜː.kjəˈlær.ə.ti/","us":"us  / ˌsɝː.kjəˈler.ə.t̬i /","usp":"/ˌsɝː.kjəˈler.ə.t̬i/"}
+{"title":"churning","uk":"uk  / ˈtʃɜːnɪŋ /","ukp":"/ˈtʃɜːnɪŋ/","us":"us ","usp":""}
+{"title":"circulate","uk":"uk  / ˈsɜː.kjə.leɪt /","ukp":"/ˈsɜː.kjə.leɪt/","us":"us  / ˈsɝː.kjə.leɪt /","usp":"/ˈsɝː.kjə.leɪt/"}
+{"title":"churro","uk":"uk  / ˈtʃʊ.rəʊ /","ukp":"/ˈtʃʊ.rəʊ/","us":"us  / ˈtʃʊ.roʊ /","usp":"/ˈtʃʊ.roʊ/"}
+{"title":"Chutes and Ladders","uk":"uk  / ˌʃuːts ən ˈlæd.əz /","ukp":"/ˌʃuːts ən ˈlæd.əz/","us":"us  / ˌʃuːts ən ˈlæd.ɚz /","usp":"/ˌʃuːts ən ˈlæd.ɚz/"}
+{"title":"chute","uk":"uk  / ʃuːt /","ukp":"/ʃuːt/","us":"us  / ʃuːt /","usp":"/ʃuːt/"}
+{"title":"chutzpah","uk":"uk  / ˈhʊt.spə /","ukp":"/ˈhʊt.spə/","us":"us  / ˈhʊt.spə /","usp":"/ˈhʊt.spə/"}
+{"title":"chutney","uk":"uk  / ˈtʃʌt.ni /","ukp":"/ˈtʃʌt.ni/","us":"us  / ˈtʃʌt.ni /","usp":"/ˈtʃʌt.ni/"}
+{"title":"chyme","uk":"uk  / kaɪm /","ukp":"/kaɪm/","us":"us  / kaɪm /","usp":"/kaɪm/"}
+{"title":"Chyron","uk":"uk  / ˈkaɪ.rɒn /","ukp":"/ˈkaɪ.rɒn/","us":"us  / ˈkaɪ.rɑːn /","usp":"/ˈkaɪ.rɑːn/"}
+{"title":"CI","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"ciabatta","uk":"uk  / tʃəˈbæt.ə /","ukp":"/tʃəˈbæt.ə/","us":"us  / tʃəˈbɑːt.ə /","usp":"/tʃəˈbɑːt.ə/"}
+{"title":"CIB","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"ciao","uk":"uk  / tʃaʊ /","ukp":"/tʃaʊ/","us":"us  / tʃaʊ /","usp":"/tʃaʊ/"}
+{"title":"cicatrices","uk":"","us":""}
+{"title":"cicada","uk":"uk  / sɪˈkɑː.də /","ukp":"/sɪˈkɑː.də/","us":"us  / sɪˈkeɪ.də /","usp":"/sɪˈkeɪ.də/"}
+{"title":"cicatrix","uk":"uk / ˈsɪk.ə.trɪs /","ukp":"/ˈsɪk.ə.trɪs/","us":"us / ˈsɪk.ə.trɪs /","usp":"/ˈsɪk.ə.trɪs/"}
+{"title":"ciclosporin","uk":"uk  / ˌsaɪ.kləˈspɔː.rɪn /","ukp":"/ˌsaɪ.kləˈspɔː.rɪn/","us":"us  / ˌsaɪ.kləˈspɔr.ɪn /","usp":"/ˌsaɪ.kləˈspɔr.ɪn/"}
+{"title":"CID","uk":"uk  / ˌsiː.aɪˈdiː /","ukp":"/ˌsiː.aɪˈdiː/","us":"us  / ˌsiː.aɪˈdiː /","usp":"/ˌsiː.aɪˈdiː/"}
+{"title":"-cide","uk":"uk  / -saɪd /","ukp":"/-saɪd/","us":"us  / -saɪd /","usp":"/-saɪd/"}
+{"title":"cider","uk":"uk  / ˈsaɪ.də r /","ukp":"/ˈsaɪ.dər/","us":"us  / ˈsaɪ.dɚ /","usp":"/ˈsaɪ.dɚ/"}
+{"title":"cider vinegar","uk":"uk / ˌsaɪ.də ˈvɪn.ɪ.ɡə r /","ukp":"/ˌsaɪ.də ˈvɪn.ɪ.ɡər/","us":"us / ˈsaɪ.dɚ ˌvɪn.ɪ.ɡɚ /","usp":"/ˈsaɪ.dɚ ˌvɪn.ɪ.ɡɚ/"}
+{"title":"CIF","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CIFAS","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cig","uk":"uk  / sɪɡ /","ukp":"/sɪɡ/","us":"us  / sɪɡ /","usp":"/sɪɡ/"}
+{"title":"cigar","uk":"uk  / sɪˈɡɑː r /","ukp":"/sɪˈɡɑːr/","us":"us  / səˈɡɑːr /","usp":"/səˈɡɑːr/"}
+{"title":"cigarette","uk":"uk  / ˌsɪɡ. ə rˈet /","ukp":"/ˌsɪɡ.ərˈet/","us":"us  / ˈsɪɡ.ə.ret /","usp":"/ˈsɪɡ.ə.ret/"}
+{"title":"cigarette butt","uk":"uk  / sɪɡ. ə ˈret ˌend /","ukp":"/sɪɡ.əˈret ˌend/","us":"us  / ˈsɪɡ.ə.ret ˌend /","usp":"/ˈsɪɡ.ə.ret ˌend/"}
+{"title":"cigarette holder","uk":"uk  / sɪɡ. ə ˈret ˌhəʊl.də r /","ukp":"/sɪɡ.əˈret ˌhəʊl.dər/","us":"us  / ˈsɪɡ.ə.ret ˌhoʊl.dɚ /","usp":"/ˈsɪɡ.ə.ret ˌhoʊl.dɚ/"}
+{"title":"cigarette lighter","uk":"uk  / sɪɡ. ə ˈret ˌlaɪ.tə r /","ukp":"/sɪɡ.əˈret ˌlaɪ.tər/","us":"us  / ˈsɪɡ.ə.ret ˌlaɪ.t̬ɚ /","usp":"/ˈsɪɡ.ə.ret ˌlaɪ.t̬ɚ/"}
+{"title":"cigarette pants","uk":"uk / sɪɡ. ə rˈet ˌpænts /","ukp":"/sɪɡ.ərˈet ˌpænts/","us":"us  / ˈsɪɡ.ə.ret ˌpænts /","usp":"/ˈsɪɡ.ə.ret ˌpænts/"}
+{"title":"ciggie","uk":"uk  / ˈsɪɡ.i /","ukp":"/ˈsɪɡ.i/","us":"us  / ˈsɪɡ.i /","usp":"/ˈsɪɡ.i/"}
+{"title":"cigarette paper","uk":"uk  / sɪɡ. ə ˈret ˌpeɪ.pə r /","ukp":"/sɪɡ.əˈret ˌpeɪ.pər/","us":"us  / ˈsɪɡ.ə.ret ˌpeɪ.pɚ /","usp":"/ˈsɪɡ.ə.ret ˌpeɪ.pɚ/"}
+{"title":"CII","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cilantro","uk":"uk  / sɪˈlæn.trəʊ /","ukp":"/sɪˈlæn.trəʊ/","us":"us  / səˈlæn.troʊ /","usp":"/səˈlæn.troʊ/"}
+{"title":"cilia","uk":"","us":""}
+{"title":"ciliary","uk":"uk  / ˈsɪl.i.ə.ri /","ukp":"/ˈsɪl.i.ə.ri/","us":"us  / ˈsɪl.i.er.i /","usp":"/ˈsɪl.i.er.i/"}
+{"title":"ciliary muscle","uk":"uk  / ˈsɪl.i.ə.ri ˌmʌs. ə l /","ukp":"/ˈsɪl.i.ə.ri ˌmʌs.əl/","us":"us  / ˈsɪl.i.er.i ˌmʌs. ə l /","usp":"/ˈsɪl.i.er.i ˌmʌs.əl/"}
+{"title":"cilium","uk":"uk  / ˈsɪl.i.əm /","ukp":"/ˈsɪl.i.əm/","us":"us  / ˈsɪl.i.əm /","usp":"/ˈsɪl.i.əm/"}
+{"title":"CIM","uk":"uk  / ˌsiːaɪˈem /","ukp":"/ˌsiːaɪˈem/","us":"us ","usp":""}
+{"title":"CINC","uk":"uk  / sɪŋk /","ukp":"/sɪŋk/","us":"us  / sɪŋk /","usp":"/sɪŋk/"}
+{"title":"cill","uk":"uk  / sɪl /","ukp":"/sɪl/","us":"us  / sɪl /","usp":"/sɪl/"}
+{"title":"Cincinnati","uk":"uk  / ˌsɪn.sɪˈnæt.i /","ukp":"/ˌsɪn.sɪˈnæt.i/","us":"us  / ˌsɪn.sɪˈnæt̬.i /","usp":"/ˌsɪn.sɪˈnæt̬.i/"}
+{"title":"cinch","uk":"uk  / sɪntʃ /","ukp":"/sɪntʃ/","us":"us  / sɪntʃ /","usp":"/sɪntʃ/"}
+{"title":"Cinco de Mayo","uk":"uk  / ˌsiːŋ.kəʊ ðeɪ ˈmaɪ.əʊ /","ukp":"/ˌsiːŋ.kəʊ ðeɪ ˈmaɪ.əʊ/","us":"us  / ˌsɪŋ.koʊ ðeɪ ˈmaɪ.oʊ /","usp":"/ˌsɪŋ.koʊ ðeɪ ˈmaɪ.oʊ/"}
+{"title":"Christmas carol","uk":"uk  / ˌkrɪs.məs ˈkær. ə l /","ukp":"/ˌkrɪs.məs ˈkær.əl/","us":"us  / ˌkrɪs.məs ˈker. ə l /","usp":"/ˌkrɪs.məs ˈker.əl/"}
+{"title":"Christmas cracker","uk":"uk  / ˌkrɪs.məs ˈkræk.ə r /","ukp":"/ˌkrɪs.məs ˈkræk.ər/","us":"us  / ˌkrɪs.məs ˈkræk.ɚ /","usp":"/ˌkrɪs.məs ˈkræk.ɚ/"}
+{"title":"Christmas Day","uk":"uk  / ˌkrɪs.məs ˈdeɪ /","ukp":"/ˌkrɪs.məs ˈdeɪ/","us":"us  / ˌkrɪs.məs ˈdeɪ /","usp":"/ˌkrɪs.məs ˈdeɪ/"}
+{"title":"Christmas disease","uk":"uk  / ˈkrɪs.məs dɪˌziːz /","ukp":"/ˈkrɪs.məs dɪˌziːz/","us":"us  / ˈkrɪs.məs dɪˌziːz /","usp":"/ˈkrɪs.məs dɪˌziːz/"}
+{"title":"Christmas Eve","uk":"uk  / ˌkrɪs.məs ˈiːv /","ukp":"/ˌkrɪs.məs ˈiːv/","us":"us  / ˌkrɪs.məs ˈiːv /","usp":"/ˌkrɪs.məs ˈiːv/"}
+{"title":"Christmas pudding","uk":"uk  / ˌkrɪs.məs ˈpʊd.ɪŋ /","ukp":"/ˌkrɪs.məs ˈpʊd.ɪŋ/","us":"us  / ˌkrɪs.məs ˈpʊd.ɪŋ /","usp":"/ˌkrɪs.məs ˈpʊd.ɪŋ/"}
+{"title":"Christmas stocking","uk":"uk  / ˌkrɪs.məs ˈstɒk.ɪŋ /","ukp":"/ˌkrɪs.məs ˈstɒk.ɪŋ/","us":"us  / ˌkrɪs.məs ˈstɑː.kɪŋ /","usp":"/ˌkrɪs.məs ˈstɑː.kɪŋ/"}
+{"title":"Christmas time","uk":"uk  / ˈkrɪs.məs ˌtaɪm /","ukp":"/ˈkrɪs.məs ˌtaɪm/","us":"us  / ˈkrɪs.məs ˌtaɪm /","usp":"/ˈkrɪs.məs ˌtaɪm/"}
+{"title":"Christmas tree","uk":"uk  / ˈkrɪs.məs ˌtriː /","ukp":"/ˈkrɪs.məs ˌtriː/","us":"us  / ˈkrɪs.məs ˌtriː /","usp":"/ˈkrɪs.məs ˌtriː/"}
+{"title":"Christmastime","uk":"","us":"us  / ˈkrɪs·məsˌtɑɪm /","usp":"/ˈkrɪs·məsˌtɑɪm/"}
+{"title":"Christmassy","uk":"uk  / ˈkrɪs.mə.si /","ukp":"/ˈkrɪs.mə.si/","us":"us  / ˈkrɪs.mə.si /","usp":"/ˈkrɪs.mə.si/"}
+{"title":"chromatic","uk":"uk  / krəˈmæt.ɪk /","ukp":"/krəˈmæt.ɪk/","us":"us  / kroʊˈmæt̬.ɪk /","usp":"/kroʊˈmæt̬.ɪk/"}
+{"title":"chromatic aberration","uk":"uk  / krəˌmæt.ɪk æb.əˈreɪ.ʃ ə n /","ukp":"/krəˌmæt.ɪk æb.əˈreɪ.ʃən/","us":"us  / kroʊˌmæt̬.ɪk æb.əˈreɪ.ʃ ə n /","usp":"/kroʊˌmæt̬.ɪk æb.əˈreɪ.ʃən/"}
+{"title":"chromatid","uk":"uk  / ˈkrəʊmətɪd /","ukp":"/ˈkrəʊmətɪd/","us":"us  / ˈkroʊmətɪd /","usp":"/ˈkroʊmətɪd/"}
+{"title":"chromatography","uk":"uk  / ˌkrəʊ.məˈtɒɡ.rə.fi /","ukp":"/ˌkrəʊ.məˈtɒɡ.rə.fi/","us":"us  / ˌkroʊ.məˈtɑː.ɡrə.fi /","usp":"/ˌkroʊ.məˈtɑː.ɡrə.fi/"}
+{"title":"chrome","uk":"uk  / krəʊm /","ukp":"/krəʊm/","us":"us  / kroʊm /","usp":"/kroʊm/"}
+{"title":"chrome yellow","uk":"uk  / ˌkrəʊm ˈjel.əʊ /","ukp":"/ˌkrəʊm ˈjel.əʊ/","us":"us  / ˌkroʊm ˈjel.oʊ /","usp":"/ˌkroʊm ˈjel.oʊ/"}
+{"title":"chromium","uk":"uk  / ˈkrəʊ.mi.əm /","ukp":"/ˈkrəʊ.mi.əm/","us":"us  / ˈkroʊ.mi.əm /","usp":"/ˈkroʊ.mi.əm/"}
+{"title":"chromosomal","uk":"uk / ˌkrəʊ.məˈsəʊ.m ə l /","ukp":"/ˌkrəʊ.məˈsəʊ.məl/","us":"us / ˌkroʊ.məˈsoʊ.m ə l /","usp":"/ˌkroʊ.məˈsoʊ.məl/"}
+{"title":"chromosome","uk":"uk  / ˈkrəʊ.mə.səʊm /","ukp":"/ˈkrəʊ.mə.səʊm/","us":"us  / ˈkroʊ.mə.soʊm /","usp":"/ˈkroʊ.mə.soʊm/"}
+{"title":"chronic fatigue syndrome","uk":"uk  / ˌkrɒn.ɪk fəˈtiːɡ ˌsɪn.drəʊm /","ukp":"/ˌkrɒn.ɪk fəˈtiːɡ ˌsɪn.drəʊm/","us":"us  / ˌkrɑː.nɪk fəˈtiːɡ ˌsɪn.droʊm /","usp":"/ˌkrɑː.nɪk fəˈtiːɡ ˌsɪn.droʊm/"}
+{"title":"chronic","uk":"uk  / ˈkrɒn.ɪk /","ukp":"/ˈkrɒn.ɪk/","us":"us  / ˈkrɑː.nɪk /","usp":"/ˈkrɑː.nɪk/"}
+{"title":"chronic traumatic encephalopathy","uk":"uk  / ˌkrɒn.ɪk trɔːˌmæt.ɪk ˌen.kef.əˈlɒp.ə.θi /","ukp":"/ˌkrɒn.ɪk trɔːˌmæt.ɪk ˌen.kef.əˈlɒp.ə.θi/","us":"us  / ˌkrɑː.nɪk trɑːˌmæt̬.ɪk enˌsef.əˈlɑː.pə.θi /","usp":"/ˌkrɑː.nɪk trɑːˌmæt̬.ɪk enˌsef.əˈlɑː.pə.θi/"}
+{"title":"chronically","uk":"uk  / ˈkrɒn.ɪ.k ə l.i /","ukp":"/ˈkrɒn.ɪ.kəl.i/","us":"us  / ˈkrɑː.nɪ.k ə l.i /","usp":"/ˈkrɑː.nɪ.kəl.i/"}
+{"title":"chronicity","uk":"uk  / krəˈnɪs.ə.ti /","ukp":"/krəˈnɪs.ə.ti/","us":"us  / krəˈnɪs.ə.t̬i /","usp":"/krəˈnɪs.ə.t̬i/"}
+{"title":"chronicled","uk":"uk  / ˈkrɒn.ɪ.k ə l /","ukp":"/ˈkrɒn.ɪ.kəl/","us":"us  / ˈkrɑː.nɪ.k ə l /","usp":"/ˈkrɑː.nɪ.kəl/"}
+{"title":"chronicle","uk":"uk  / ˈkrɒn.ɪ.k ə l /","ukp":"/ˈkrɒn.ɪ.kəl/","us":"us  / ˈkrɑː.nɪ.k ə l /","usp":"/ˈkrɑː.nɪ.kəl/"}
+{"title":"chronicler","uk":"uk  / ˈkrɒn.ɪ.klə r /","ukp":"/ˈkrɒn.ɪ.klər/","us":"us  / ˈkrɑː.nɪ.klɚ /","usp":"/ˈkrɑː.nɪ.klɚ/"}
+{"title":"chronicling","uk":"uk  / ˈkrɒn.ɪ.k ə l /","ukp":"/ˈkrɒn.ɪ.kəl/","us":"us  / ˈkrɑː.nɪ.k ə l /","usp":"/ˈkrɑː.nɪ.kəl/"}
+{"title":"chronograph","uk":"uk  / ˈkrɒn.ə.ɡrɑːf /","ukp":"/ˈkrɒn.ə.ɡrɑːf/","us":"us  / ˈkrɑː.nə.ɡræf /","usp":"/ˈkrɑː.nə.ɡræf/"}
+{"title":"chronological","uk":"uk  / ˌkrɒn.əˈlɒdʒ.ɪ.k ə l /","ukp":"/ˌkrɒn.əˈlɒdʒ.ɪ.kəl/","us":"us  / ˌkrɒn.əˈlɑː.dʒɪ.k ə l /","usp":"/ˌkrɒn.əˈlɑː.dʒɪ.kəl/"}
+{"title":"chronologically","uk":"uk  / ˌkrɒn.əˈlɒdʒ.ɪ.k ə l.i /","ukp":"/ˌkrɒn.əˈlɒdʒ.ɪ.kəl.i/","us":"us  / ˌkrɒn.əˈlɑː.dʒɪ.k ə l.i /","usp":"/ˌkrɒn.əˈlɑː.dʒɪ.kəl.i/"}
+{"title":"chronology","uk":"uk  / krəˈnɒl.ə.dʒi /","ukp":"/krəˈnɒl.ə.dʒi/","us":"us  / krəˈnɑː.lə.dʒi /","usp":"/krəˈnɑː.lə.dʒi/"}
+{"title":"chronometer","uk":"uk  / krəˈnɒm.ɪ.tə r /","ukp":"/krəˈnɒm.ɪ.tər/","us":"us  / krəˈnɑː.mə.t̬ɚ /","usp":"/krəˈnɑː.mə.t̬ɚ/"}
+{"title":"chrysalises","uk":"","us":""}
+{"title":"chrysalis","uk":"uk  / ˈkrɪs. ə l.ɪs /","ukp":"/ˈkrɪs.əl.ɪs/","us":"us  / ˈkrɪs. ə l.ɪs /","usp":"/ˈkrɪs.əl.ɪs/"}
+{"title":"chrysanthemum","uk":"uk  / krɪˈsænθ.ə.məm /","ukp":"/krɪˈsænθ.ə.məm/","us":"us  / krəˈsænθ.ə.məm /","usp":"/krəˈsænθ.ə.məm/"}
+{"title":"chthonic","uk":"uk  / ˈθɒn.ɪk /","ukp":"/ˈθɒn.ɪk/","us":"us  / ˈθɑː.nɪk /","usp":"/ˈθɑː.nɪk/"}
+{"title":"chub","uk":"uk  / tʃʌb /","ukp":"/tʃʌb/","us":"us  / tʃʌb /","usp":"/tʃʌb/"}
+{"title":"chubbiness","uk":"uk  / ˈtʃʌb.i.nəs /","ukp":"/ˈtʃʌb.i.nəs/","us":"us  / ˈtʃʌb.i.nəs /","usp":"/ˈtʃʌb.i.nəs/"}
+{"title":"chubby","uk":"uk  / ˈtʃʌb.i /","ukp":"/ˈtʃʌb.i/","us":"us  / ˈtʃʌb.i /","usp":"/ˈtʃʌb.i/"}
+{"title":"chubster","uk":"uk  / ˈtʃʌb.stə r /","ukp":"/ˈtʃʌb.stər/","us":"us  / ˈtʃʌb.stɚ /","usp":"/ˈtʃʌb.stɚ/"}
+{"title":"chuck someone under the chin","uk":"","us":""}
+{"title":"chuck someone out","uk":"uk  / tʃʌk /","ukp":"/tʃʌk/","us":"us  / tʃʌk /","usp":"/tʃʌk/"}
+{"title":"chuck","uk":"uk  / tʃʌk /","ukp":"/tʃʌk/","us":"us  / tʃʌk /","usp":"/tʃʌk/"}
+{"title":"chuck something away/out","uk":"uk  / tʃʌk /","ukp":"/tʃʌk/","us":"us  / tʃʌk /","usp":"/tʃʌk/"}
+{"title":"clannishly","uk":"uk  / ˈklæn.ɪʃ.li /","ukp":"/ˈklæn.ɪʃ.li/","us":"us  / ˈklæn.ɪʃ.li /","usp":"/ˈklæn.ɪʃ.li/"}
+{"title":"clannishness","uk":"uk  / ˈklæn.ɪʃ.nəs /","ukp":"/ˈklæn.ɪʃ.nəs/","us":"us  / ˈklæn.ɪʃ.nəs /","usp":"/ˈklæn.ɪʃ.nəs/"}
+{"title":"clannish","uk":"uk  / ˈklæn.ɪʃ /","ukp":"/ˈklæn.ɪʃ/","us":"us  / ˈklæn.ɪʃ /","usp":"/ˈklæn.ɪʃ/"}
+{"title":"clansman","uk":"uk  / ˈklænz.mən /","ukp":"/ˈklænz.mən/","us":"us  / ˈklænz.mən /","usp":"/ˈklænz.mən/"}
+{"title":"clanswoman","uk":"uk  / ˈklænzˌwʊm.ən /","ukp":"/ˈklænzˌwʊm.ən/","us":"us  / ˈklænzˌwʊm.ən /","usp":"/ˈklænzˌwʊm.ən/"}
+{"title":"clap back","uk":"uk  / klæp /","ukp":"/klæp/","us":"us  / klæp /","usp":"/klæp/"}
+{"title":"clap","uk":"uk  / klæp /","ukp":"/klæp/","us":"us  / klæp /","usp":"/klæp/"}
+{"title":"clap someone out","uk":"uk  / klæp /","ukp":"/klæp/","us":"us  / klæp /","usp":"/klæp/"}
+{"title":"clap/lay/set eyes on someone/something","uk":"","us":""}
+{"title":"clapback","uk":"uk  / ˈklæp.bæk /","ukp":"/ˈklæp.bæk/","us":"us  / ˈklæp.bæk /","usp":"/ˈklæp.bæk/"}
+{"title":"clapboard","uk":"uk  / ˈklæp.bɔːd /","ukp":"/ˈklæp.bɔːd/","us":"us  / ˈklæp.bɔːrd /","usp":"/ˈklæp.bɔːrd/"}
+{"title":"clapped","uk":"","us":""}
+{"title":"clapometer","uk":"uk  / klæpˈɒm.ɪ.tə r /","ukp":"/klæpˈɒm.ɪ.tər/","us":"us  / klæpˈɑː.mə.t̬ɚ /","usp":"/klæpˈɑː.mə.t̬ɚ/"}
+{"title":"clapperboard","uk":"uk  / ˈklæp.ə.bɔːd /","ukp":"/ˈklæp.ə.bɔːd/","us":"us  / ˈklæp.ɚ.bɔːrd /","usp":"/ˈklæp.ɚ.bɔːrd/"}
+{"title":"clapper","uk":"uk  / ˈklæp.ə r /","ukp":"/ˈklæp.ər/","us":"us  / ˈklæp.ɚ /","usp":"/ˈklæp.ɚ/"}
+{"title":"clapped out","uk":"uk  / ˌklæpt ˈaʊt /","ukp":"/ˌklæpt ˈaʊt/","us":"us  / ˌklæpt ˈaʊt /","usp":"/ˌklæpt ˈaʊt/"}
+{"title":"clapping","uk":"","us":""}
+{"title":"claqueur","uk":"uk  / klæk.ə r /","ukp":"/klæk.ər/","us":"us  / klæk.ɚ /","usp":"/klæk.ɚ/"}
+{"title":"claptrap","uk":"uk  / ˈklæp.træp /","ukp":"/ˈklæp.træp/","us":"us  / ˈklæp.træp /","usp":"/ˈklæp.træp/"}
+{"title":"claque","uk":"uk  / klæk /","ukp":"/klæk/","us":"us  / klæk /","usp":"/klæk/"}
+{"title":"claret","uk":"uk  / ˈklær.ət /","ukp":"/ˈklær.ət/","us":"us  / ˈkler.ət /","usp":"/ˈkler.ət/"}
+{"title":"clarification","uk":"uk  / ˌklær.ɪ.fɪˈkeɪ.ʃ ə n /","ukp":"/ˌklær.ɪ.fɪˈkeɪ.ʃən/","us":"us  / ˌkler.ə.fəˈkeɪ.ʃ ə n /","usp":"/ˌkler.ə.fəˈkeɪ.ʃən/"}
+{"title":"clarified butter","uk":"uk  / ˌklær.ɪ.faɪd ˈbʌt.ə r /","ukp":"/ˌklær.ɪ.faɪd ˈbʌt.ər/","us":"us  / ˌkler.ə.faɪd ˈbʌt̬.ɚ /","usp":"/ˌkler.ə.faɪd ˈbʌt̬.ɚ/"}
+{"title":"clarify","uk":"uk  / ˈklær.ɪ.faɪ /","ukp":"/ˈklær.ɪ.faɪ/","us":"us  / ˈkler.ə.faɪ /","usp":"/ˈkler.ə.faɪ/"}
+{"title":"clarifying","uk":"uk  / ˈklær.ɪ.faɪ /","ukp":"/ˈklær.ɪ.faɪ/","us":"us  / ˈkler.ə.faɪ /","usp":"/ˈkler.ə.faɪ/"}
+{"title":"clarinet","uk":"uk  / ˌklær.ɪˈnet /","ukp":"/ˌklær.ɪˈnet/","us":"us  / ˌkler.ɪˈnet /","usp":"/ˌkler.ɪˈnet/"}
+{"title":"clarinetist","uk":"uk  / ˌklær.ɪˈnet.ɪst /","ukp":"/ˌklær.ɪˈnet.ɪst/","us":"us  / ˌkler.ɪˈnet̬.ɪst /","usp":"/ˌkler.ɪˈnet̬.ɪst/"}
+{"title":"clarinettist","uk":"uk  / ˌklær.ɪˈnet.ɪst /","ukp":"/ˌklær.ɪˈnet.ɪst/","us":"us  / ˌkler.ɪˈnet̬.ɪst /","usp":"/ˌkler.ɪˈnet̬.ɪst/"}
+{"title":"clarion call","uk":"uk  / ˈklær.i.ən ˌkɔːl /","ukp":"/ˈklær.i.ən ˌkɔːl/","us":"us  / ˈkler.i.ən ˌkɑːl /","usp":"/ˈkler.i.ən ˌkɑːl/"}
+{"title":"Clarkson's disease","uk":"uk  / ˈklɑːk.sənz dɪˈziːz /","ukp":"/ˈklɑːk.sənz dɪˈziːz/","us":"us  / ˈklɑːrk.sənz dɪˌziːz /","usp":"/ˈklɑːrk.sənz dɪˌziːz/"}
+{"title":"clash","uk":"uk  / klæʃ /","ukp":"/klæʃ/","us":"us  / klæʃ /","usp":"/klæʃ/"}
+{"title":"clashed","uk":"uk  / klæʃ /","ukp":"/klæʃ/","us":"us  / klæʃ /","usp":"/klæʃ/"}
+{"title":"clashing","uk":"uk  / klæʃ /","ukp":"/klæʃ/","us":"us  / klæʃ /","usp":"/klæʃ/"}
+{"title":"clarity","uk":"uk  / ˈklær.ə.ti /","ukp":"/ˈklær.ə.ti/","us":"us  / ˈkler.ə.t̬i /","usp":"/ˈkler.ə.t̬i/"}
+{"title":"clasp knife","uk":"uk  / ˈklɑːsp ˌnaɪf /","ukp":"/ˈklɑːsp ˌnaɪf/","us":"us  / ˈklæsp ˌnaɪf /","usp":"/ˈklæsp ˌnaɪf/"}
+{"title":"clasped","uk":"uk  / klɑːsp /","ukp":"/klɑːsp/","us":"us  / klæsp /","usp":"/klæsp/"}
+{"title":"clasp","uk":"uk  / klɑːsp /","ukp":"/klɑːsp/","us":"us  / klæsp /","usp":"/klæsp/"}
+{"title":"clasping","uk":"uk  / klɑːsp /","ukp":"/klɑːsp/","us":"us  / klæsp /","usp":"/klæsp/"}
+{"title":"class A/B/C drug","uk":"","us":""}
+{"title":"class A/B/C share","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"class","uk":"uk  / klɑːs /","ukp":"/klɑːs/","us":"us  / klæs /","usp":"/klæs/"}
+{"title":"class action","uk":"uk  / ˌklɑːs ˈæk.ʃ ə n /","ukp":"/ˌklɑːs ˈæk.ʃən/","us":"us  / ˌklæs ˈæk.ʃ ə n /","usp":"/ˌklæs ˈæk.ʃən/"}
+{"title":"class struggle","uk":"uk  / ˈklɑːs ˌstrʌɡ. ə l /","ukp":"/ˈklɑːs ˌstrʌɡ.əl/","us":"us  / ˈklæs ˌstrʌɡ. ə l /","usp":"/ˈklæs ˌstrʌɡ.əl/"}
+{"title":"class warrior","uk":"uk  / ˌklɑːs ˈwɒr.i.ə r /","ukp":"/ˌklɑːs ˈwɒr.i.ər/","us":"us  / ˌklæs ˈwɔːr.i.ɚ /","usp":"/ˌklæs ˈwɔːr.i.ɚ/"}
+{"title":"class war","uk":"uk  / ˌklɑːs ˈwɔː r /","ukp":"/ˌklɑːs ˈwɔːr/","us":"us  / ˌklæs ˈwɔːr /","usp":"/ˌklæs ˈwɔːr/"}
+{"title":"class-conscious","uk":"uk  / ˈklɑːs.kɒn.ʃəs /","ukp":"/ˈklɑːs.kɒn.ʃəs/","us":"us  / ˈklæs.kɑːn.ʃəs /","usp":"/ˈklæs.kɑːn.ʃəs/"}
+{"title":"classed","uk":"uk  / klɑːs /","ukp":"/klɑːs/","us":"us  / klæs /","usp":"/klæs/"}
+{"title":"civic center","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"civic","uk":"uk  / ˈsɪv.ɪk /","ukp":"/ˈsɪv.ɪk/","us":"us  / ˈsɪv.ɪk /","usp":"/ˈsɪv.ɪk/"}
+{"title":"classic","uk":"uk  / ˈklæs.ɪk /","ukp":"/ˈklæs.ɪk/","us":"us  / ˈklæs.ɪk /","usp":"/ˈklæs.ɪk/"}
+{"title":"civic centre","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"civics","uk":"uk  / ˈsɪv.ɪks /","ukp":"/ˈsɪv.ɪks/","us":"us  / ˈsɪv.ɪks /","usp":"/ˈsɪv.ɪks/"}
+{"title":"civil","uk":"uk  / ˈsɪv. ə l /","ukp":"/ˈsɪv.əl/","us":"us  / ˈsɪv. ə l /","usp":"/ˈsɪv.əl/"}
+{"title":"civil action","uk":"uk  / ˌsɪv. ə l ˈæk.ʃ ə n /","ukp":"/ˌsɪv.əl ˈæk.ʃən/","us":"us  / ˌsɪv. ə l ˈæk.ʃ ə n /","usp":"/ˌsɪv.əl ˈæk.ʃən/"}
+{"title":"civil aviation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"civil commotion","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"civil court","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"civil damages","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"civil defence","uk":"uk  / ˌsɪv. ə l dɪˈfens /","ukp":"/ˌsɪv.əl dɪˈfens/","us":"us  / ˌsɪv. ə l dɪˈfens /","usp":"/ˌsɪv.əl dɪˈfens/"}
+{"title":"civil engineer","uk":"uk  / ˌsɪv. ə l en.dʒɪˈnɪə r /","ukp":"/ˌsɪv.əl en.dʒɪˈnɪər/","us":"us  / ˌsɪv. ə l en.dʒɪˈnɪr /","usp":"/ˌsɪv.əl en.dʒɪˈnɪr/"}
+{"title":"civil defense","uk":"uk / ˌsɪv. ə l dɪˈfens /","ukp":"/ˌsɪv.əl dɪˈfens/","us":"us  / ˌsɪv. ə l dɪˈfens /","usp":"/ˌsɪv.əl dɪˈfens/"}
+{"title":"civil engineering","uk":"uk  / ˌsɪv. ə l en.dʒɪˈnɪə.rɪŋ /","ukp":"/ˌsɪv.əl en.dʒɪˈnɪə.rɪŋ/","us":"us  / ˌsɪv. ə l en.dʒɪˈnɪr.ɪŋ /","usp":"/ˌsɪv.əl en.dʒɪˈnɪr.ɪŋ/"}
+{"title":"civil disobedience","uk":"uk  / ˌsɪv. ə l dɪs.əˈbiː.di.əns /","ukp":"/ˌsɪv.əl dɪs.əˈbiː.di.əns/","us":"us  / ˌsɪv. ə l dɪs.əˈbiː.di.əns /","usp":"/ˌsɪv.əl dɪs.əˈbiː.di.əns/"}
+{"title":"civil liberties","uk":"uk  / ˌsɪv. ə l ˈlɪb.ə.tiz /","ukp":"/ˌsɪv.əl ˈlɪb.ə.tiz/","us":"us  / ˌsɪv. ə l ˈlɪb.ɚ.t̬iz /","usp":"/ˌsɪv.əl ˈlɪb.ɚ.t̬iz/"}
+{"title":"civil liberty","uk":"","us":"us / ˈsɪv·əl ˈlɪb·ər·t̬i /","usp":"/ˈsɪv·əl ˈlɪb·ər·t̬i/"}
+{"title":"civil list","uk":"uk  / ˈsɪv. ə l ˌlɪst /","ukp":"/ˈsɪv.əl ˌlɪst/","us":"us  / ˈsɪv. ə l ˌlɪst /","usp":"/ˈsɪv.əl ˌlɪst/"}
+{"title":"civil law","uk":"uk  / ˌsɪv. ə l ˈlɔː /","ukp":"/ˌsɪv.əl ˈlɔː/","us":"us  / ˌsɪv. ə l ˈlɑː /","usp":"/ˌsɪv.əl ˈlɑː/"}
+{"title":"civil liability","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"civil marriage","uk":"uk  / ˌsɪv. ə l ˈmær.ɪdʒ /","ukp":"/ˌsɪv.əl ˈmær.ɪdʒ/","us":"us  / ˌsɪv. ə l ˈmer.ɪdʒ /","usp":"/ˌsɪv.əl ˈmer.ɪdʒ/"}
+{"title":"civil rights","uk":"uk  / ˌsɪv. ə l ˈraɪts /","ukp":"/ˌsɪv.əl ˈraɪts/","us":"us  / ˌsɪv. ə l ˈraɪts /","usp":"/ˌsɪv.əl ˈraɪts/"}
+{"title":"civil partnership","uk":"uk  / ˌsɪv. ə l ˈpɑːt.nə.ʃɪp /","ukp":"/ˌsɪv.əl ˈpɑːt.nə.ʃɪp/","us":"us  / ˌsɪv. ə l ˈpɑːrt.nɚ.ʃɪp /","usp":"/ˌsɪv.əl ˈpɑːrt.nɚ.ʃɪp/"}
+{"title":"civil servant","uk":"uk  / ˌsɪv. ə l ˈsɜː.v ə nt /","ukp":"/ˌsɪv.əl ˈsɜː.vənt/","us":"us  / ˌsɪv. ə l ˈsɝː.v ə nt /","usp":"/ˌsɪv.əl ˈsɝː.vənt/"}
+{"title":"civil war","uk":"uk  / ˌsɪv. ə l ˈwɔː r /","ukp":"/ˌsɪv.əl ˈwɔːr/","us":"us  / ˌsɪv. ə l ˈwɔːr /","usp":"/ˌsɪv.əl ˈwɔːr/"}
+{"title":"civil year","uk":"uk  / ˈsɪv. ə l ˌjɪə r /","ukp":"/ˈsɪv.əl ˌjɪər/","us":"us  / ˈsɪv. ə l ˌjɪr /","usp":"/ˈsɪv.əl ˌjɪr/"}
+{"title":"civility","uk":"uk  / sɪˈvɪl.ə.ti /","ukp":"/sɪˈvɪl.ə.ti/","us":"us  / sɪˈvɪl.ə.t̬i /","usp":"/sɪˈvɪl.ə.t̬i/"}
+{"title":"civilian","uk":"uk  / sɪˈvɪl.jən /","ukp":"/sɪˈvɪl.jən/","us":"us  / səˈvɪl.jən /","usp":"/səˈvɪl.jən/"}
+{"title":"civilization","uk":"uk  / ˌsɪv. ə l.aɪˈzeɪ.ʃ ə n /","ukp":"/ˌsɪv.əl.aɪˈzeɪ.ʃən/","us":"us  / ˌsɪv. ə l.əˈzeɪ.ʃ ə n /","usp":"/ˌsɪv.əl.əˈzeɪ.ʃən/"}
+{"title":"civilize","uk":"uk  / ˈsɪv. ə l.aɪz /","ukp":"/ˈsɪv.əl.aɪz/","us":"us  / ˈsɪv. ə l.aɪz /","usp":"/ˈsɪv.əl.aɪz/"}
+{"title":"civilized","uk":"uk  / ˈsɪv. ə l.aɪzd /","ukp":"/ˈsɪv.əl.aɪzd/","us":"us  / ˈsɪv. ə l.aɪzd /","usp":"/ˈsɪv.əl.aɪzd/"}
+{"title":"civilizing","uk":"uk  / ˈsɪv. ə l.aɪz /","ukp":"/ˈsɪv.əl.aɪz/","us":"us  / ˈsɪv. ə l.aɪz /","usp":"/ˈsɪv.əl.aɪz/"}
+{"title":"civilly","uk":"uk  / ˈsɪv. ə l.i /","ukp":"/ˈsɪv.əl.i/","us":"us  / ˈsɪv. ə l.i /","usp":"/ˈsɪv.əl.i/"}
+{"title":"civvies","uk":"uk  / ˈsɪv.iz /","ukp":"/ˈsɪv.iz/","us":"us  / ˈsɪv.iz /","usp":"/ˈsɪv.iz/"}
+{"title":"civvy street","uk":"uk  / ˈsɪv.i ˌstriːt /","ukp":"/ˈsɪv.i ˌstriːt/","us":"us  / ˈsɪv.i ˌstriːt /","usp":"/ˈsɪv.i ˌstriːt/"}
+{"title":"CJD","uk":"uk  / ˌsiː.dʒeɪˈdiː /","ukp":"/ˌsiː.dʒeɪˈdiː/","us":"us  / ˌsiː.dʒeɪˈdiː /","usp":"/ˌsiː.dʒeɪˈdiː/"}
+{"title":"CKD","uk":"uk  / ˌsiː.keɪˈdiː /","ukp":"/ˌsiː.keɪˈdiː/","us":"us  / ˈsiːˌkeɪˈdiː /","usp":"/ˈsiːˌkeɪˈdiː/"}
+{"title":"cl","uk":"","us":""}
+{"title":"clabber","uk":"uk / ˈklæb.ə r /","ukp":"/ˈklæb.ər/","us":"us / ˈklæb.ɚ /","usp":"/ˈklæb.ɚ/"}
+{"title":"clacked","uk":"uk  / klæk /","ukp":"/klæk/","us":"us  / klæk /","usp":"/klæk/"}
+{"title":"clacking","uk":"uk  / klæk /","ukp":"/klæk/","us":"us  / klæk /","usp":"/klæk/"}
+{"title":"clabbered","uk":"uk / ˈklæb.əd /","ukp":"/ˈklæb.əd/","us":"us / ˈklæb.ɚd /","usp":"/ˈklæb.ɚd/"}
+{"title":"clack","uk":"uk  / klæk /","ukp":"/klæk/","us":"us  / klæk /","usp":"/klæk/"}
+{"title":"Clackmannanshire","uk":"uk  / klækˈmæn.ən.ʃə r /","ukp":"/klækˈmæn.ən.ʃər/","us":"us  / klækˈmæn.ən.ʃɚ /","usp":"/klækˈmæn.ən.ʃɚ/"}
+{"title":"clad","uk":"uk  / klæd /","ukp":"/klæd/","us":"us  / klæd /","usp":"/klæd/"}
+{"title":"cladding","uk":"uk  / ˈklæd.ɪŋ /","ukp":"/ˈklæd.ɪŋ/","us":"us  / ˈklæd.ɪŋ /","usp":"/ˈklæd.ɪŋ/"}
+{"title":"clade","uk":"uk  / kleɪd /","ukp":"/kleɪd/","us":"us  / kleɪd /","usp":"/kleɪd/"}
+{"title":"clafoutis","uk":"uk  / ˌklæf.ˈuːˌtiː /","ukp":"/ˌklæf.ˈuːˌtiː/","us":"us  / ˌklæf.uːˈtiː /","usp":"/ˌklæf.uːˈtiː/"}
+{"title":"clag","uk":"uk  / klæɡ /","ukp":"/klæɡ/","us":"us  / klæɡ /","usp":"/klæɡ/"}
+{"title":"claggy","uk":"uk  / ˈklæɡ.i /","ukp":"/ˈklæɡ.i/","us":"us  / ˈklæɡ.i /","usp":"/ˈklæɡ.i/"}
+{"title":"claim adjuster","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"claim damages","uk":"","us":""}
+{"title":"claim","uk":"uk  / kleɪm /","ukp":"/kleɪm/","us":"us  / kleɪm /","usp":"/kleɪm/"}
+{"title":"claim someone's life","uk":"","us":""}
+{"title":"claim form","uk":"uk  / ˈkleɪm ˌfɔːm /","ukp":"/ˈkleɪm ˌfɔːm/","us":"us  / ˈkleɪm ˌfɔːrm /","usp":"/ˈkleɪm ˌfɔːrm/"}
+{"title":"claim the moral high ground","uk":"","us":""}
+{"title":"claimant","uk":"uk  / ˈkleɪ.mənt /","ukp":"/ˈkleɪ.mənt/","us":"us  / ˈkleɪ.mənt /","usp":"/ˈkleɪ.mənt/"}
+{"title":"claimed","uk":"uk  / kleɪm /","ukp":"/kleɪm/","us":"us  / kleɪm /","usp":"/kleɪm/"}
+{"title":"claiming","uk":"uk  / kleɪm /","ukp":"/kleɪm/","us":"us  / kleɪm /","usp":"/kleɪm/"}
+{"title":"claims assessor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"claims adjuster","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"clairvoyance","uk":"uk  / ˌkleəˈvɔɪ.əns /","ukp":"/ˌkleəˈvɔɪ.əns/","us":"us  / ˌklerˈvɔɪ.əns /","usp":"/ˌklerˈvɔɪ.əns/"}
+{"title":"clairvoyant","uk":"uk  / ˌkleəˈvɔɪ.ənt /","ukp":"/ˌkleəˈvɔɪ.ənt/","us":"us  / ˌklerˈvɔɪ.ənt /","usp":"/ˌklerˈvɔɪ.ənt/"}
+{"title":"clam","uk":"uk  / klæm /","ukp":"/klæm/","us":"us  / klæm /","usp":"/klæm/"}
+{"title":"clam up","uk":"uk  / klæm /","ukp":"/klæm/","us":"us  / klæm /","usp":"/klæm/"}
+{"title":"clambake","uk":"uk  / ˈklæm.beɪk /","ukp":"/ˈklæm.beɪk/","us":"us  / ˈklæm.beɪk /","usp":"/ˈklæm.beɪk/"}
+{"title":"clambered","uk":"uk  / ˈklæm.bə r /","ukp":"/ˈklæm.bər/","us":"us  / ˈklæm.bɚ /","usp":"/ˈklæm.bɚ/"}
+{"title":"clamber","uk":"uk  / ˈklæm.bə r /","ukp":"/ˈklæm.bər/","us":"us  / ˈklæm.bɚ /","usp":"/ˈklæm.bɚ/"}
+{"title":"clambering","uk":"uk  / ˈklæm.bə r /","ukp":"/ˈklæm.bər/","us":"us  / ˈklæm.bɚ /","usp":"/ˈklæm.bɚ/"}
+{"title":"clamminess","uk":"uk  / ˈklæm.i.nəs /","ukp":"/ˈklæm.i.nəs/","us":"us  / ˈklæm.i.nəs /","usp":"/ˈklæm.i.nəs/"}
+{"title":"clammy","uk":"uk  / ˈklæm.i /","ukp":"/ˈklæm.i/","us":"us  / ˈklæm.i /","usp":"/ˈklæm.i/"}
+{"title":"clamor","uk":"uk  / ˈklæm.ə r /","ukp":"/ˈklæm.ər/","us":"us  / ˈklæm.ɚ /","usp":"/ˈklæm.ɚ/"}
+{"title":"clamorous","uk":"uk  / ˈklæm. ə r.əs /","ukp":"/ˈklæm.ər.əs/","us":"us  / ˈklæm.ɚ.əs /","usp":"/ˈklæm.ɚ.əs/"}
+{"title":"clamour","uk":"uk  / ˈklæm.ə r /","ukp":"/ˈklæm.ər/","us":"us  / ˈklæm.ɚ /","usp":"/ˈklæm.ɚ/"}
+{"title":"clamoured","uk":"uk  / ˈklæm.ə r /","ukp":"/ˈklæm.ər/","us":"us  / ˈklæm.ɚ /","usp":"/ˈklæm.ɚ/"}
+{"title":"clamouring","uk":"uk  / ˈklæm.ə r /","ukp":"/ˈklæm.ər/","us":"us  / ˈklæm.ɚ /","usp":"/ˈklæm.ɚ/"}
+{"title":"clamp","uk":"uk  / klæmp /","ukp":"/klæmp/","us":"us  / klæmp /","usp":"/klæmp/"}
+{"title":"clamp down on something","uk":"uk  / klæmp /","ukp":"/klæmp/","us":"us  / klæmp /","usp":"/klæmp/"}
+{"title":"clamped","uk":"uk  / klæmp /","ukp":"/klæmp/","us":"us  / klæmp /","usp":"/klæmp/"}
+{"title":"clampdown","uk":"uk  / ˈklæmp.daʊn /","ukp":"/ˈklæmp.daʊn/","us":"us  / ˈklæmp.daʊn /","usp":"/ˈklæmp.daʊn/"}
+{"title":"clamping","uk":"uk  / klæmp /","ukp":"/klæmp/","us":"us  / klæmp /","usp":"/klæmp/"}
+{"title":"clams casino","uk":"uk / ˌklæmz kəˈsiː.nəʊ /","ukp":"/ˌklæmz kəˈsiː.nəʊ/","us":"us / ˌklæmz kəˈsiː.noʊ /","usp":"/ˌklæmz kəˈsiː.noʊ/"}
+{"title":"clan","uk":"uk  / klæn /","ukp":"/klæn/","us":"us  / klæn /","usp":"/klæn/"}
+{"title":"clandestine","uk":"uk  / klænˈdes.tɪn /","ukp":"/klænˈdes.tɪn/","us":"us  / klænˈdes.tɪn /","usp":"/klænˈdes.tɪn/"}
+{"title":"clandestinely","uk":"uk  / klænˈdes.tɪn.li /","ukp":"/klænˈdes.tɪn.li/","us":"us  / klænˈdes.tɪn.li /","usp":"/klænˈdes.tɪn.li/"}
+{"title":"clanged","uk":"uk  / klæŋ /","ukp":"/klæŋ/","us":"us  / klæŋ /","usp":"/klæŋ/"}
+{"title":"clang","uk":"uk  / klæŋ /","ukp":"/klæŋ/","us":"us  / klæŋ /","usp":"/klæŋ/"}
+{"title":"clanger","uk":"uk  / ˈklæŋ.ə r /","ukp":"/ˈklæŋ.ər/","us":"us  / ˈklæŋ.ɚ /","usp":"/ˈklæŋ.ɚ/"}
+{"title":"clanging","uk":"uk  / klæŋ /","ukp":"/klæŋ/","us":"us  / klæŋ /","usp":"/klæŋ/"}
+{"title":"clangor","uk":"uk  / ˈklæŋ.ə r /","ukp":"/ˈklæŋ.ər/","us":"us  / ˈklæŋ.ɚ /","usp":"/ˈklæŋ.ɚ/"}
+{"title":"clangorous","uk":"uk  / ˈklæŋ. ə r.əs /","ukp":"/ˈklæŋ.ər.əs/","us":"us  / ˈklæŋ.ɚ.əs /","usp":"/ˈklæŋ.ɚ.əs/"}
+{"title":"clangour","uk":"uk  / ˈklæŋ.ə r /","ukp":"/ˈklæŋ.ər/","us":"us  / ˈklæŋ.ɚ /","usp":"/ˈklæŋ.ɚ/"}
+{"title":"clank","uk":"uk  / klæŋk /","ukp":"/klæŋk/","us":"us  / klæŋk /","usp":"/klæŋk/"}
+{"title":"clanked","uk":"uk  / klæŋk /","ukp":"/klæŋk/","us":"us  / klæŋk /","usp":"/klæŋk/"}
+{"title":"clanking","uk":"uk  / klæŋk /","ukp":"/klæŋk/","us":"us  / klæŋk /","usp":"/klæŋk/"}
+{"title":"classic car","uk":"uk  / ˌklæs.ɪk ˈkɑː r /","ukp":"/ˌklæs.ɪk ˈkɑːr/","us":"us  / ˌklæs.ɪk ˈkɑːr /","usp":"/ˌklæs.ɪk ˈkɑːr/"}
+{"title":"classical","uk":"uk  / ˈklæs.ɪ.k ə l /","ukp":"/ˈklæs.ɪ.kəl/","us":"us  / ˈklæs.ɪ.k ə l /","usp":"/ˈklæs.ɪ.kəl/"}
+{"title":"classical economics","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"classical music","uk":"uk  / ˌklæs.ɪ.k ə l ˈmjuː.zɪk /","ukp":"/ˌklæs.ɪ.kəl ˈmjuː.zɪk/","us":"us  / ˌklæs.ɪ.k ə l ˈmjuː.zɪk /","usp":"/ˌklæs.ɪ.kəl ˈmjuː.zɪk/"}
+{"title":"classically","uk":"uk  / ˈklæs.ɪ.k ə l.i /","ukp":"/ˈklæs.ɪ.kəl.i/","us":"us  / ˈklæs.ɪ.k ə l.i /","usp":"/ˈklæs.ɪ.kəl.i/"}
+{"title":"classicism","uk":"uk  / ˈklæs.ɪ.sɪ.z ə m /","ukp":"/ˈklæs.ɪ.sɪ.zəm/","us":"us  / ˈklæs.ə.sɪ.z ə m /","usp":"/ˈklæs.ə.sɪ.zəm/"}
+{"title":"classicist","uk":"uk  / ˈklæs.ɪ.sɪst /","ukp":"/ˈklæs.ɪ.sɪst/","us":"us  / ˈklæs.ə.sɪst /","usp":"/ˈklæs.ə.sɪst/"}
+{"title":"classifiable","uk":"uk  / ˈklæs.ɪ.faɪ.ə.b ə l /","ukp":"/ˈklæs.ɪ.faɪ.ə.bəl/","us":"us  / ˈklæs.ə.faɪ.ə.b ə l /","usp":"/ˈklæs.ə.faɪ.ə.bəl/"}
+{"title":"classification authority","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"classification","uk":"uk  / ˌklæs.ɪ.fɪˈkeɪ.ʃ ə n /","ukp":"/ˌklæs.ɪ.fɪˈkeɪ.ʃən/","us":"us  / ˌklæs.ə.fəˈkeɪ.ʃ ə n /","usp":"/ˌklæs.ə.fəˈkeɪ.ʃən/"}
+{"title":"classification society","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"classified","uk":"uk  / ˈklæs.ɪ.faɪd /","ukp":"/ˈklæs.ɪ.faɪd/","us":"us  / ˈklæs.ə.faɪd /","usp":"/ˈklæs.ə.faɪd/"}
+{"title":"classified advertisement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"classified ad","uk":"uk  / ˌklæs.ɪ.faɪd ˈæd /","ukp":"/ˌklæs.ɪ.faɪd ˈæd/","us":"us  / ˌklæs.ɪ.faɪd ˈæd /","usp":"/ˌklæs.ɪ.faɪd ˈæd/"}
+{"title":"classified directory","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"classified common stock","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"classifieds","uk":"uk  / ˈklæsɪfaɪdz /","ukp":"/ˈklæsɪfaɪdz/","us":"us ","usp":""}
+{"title":"classify","uk":"uk  / ˈklæs.ɪ.faɪ /","ukp":"/ˈklæs.ɪ.faɪ/","us":"us  / ˈklæs.ə.faɪ /","usp":"/ˈklæs.ə.faɪ/"}
+{"title":"classifying","uk":"uk  / ˈklæs.ɪ.faɪ /","ukp":"/ˈklæs.ɪ.faɪ/","us":"us  / ˈklæs.ə.faɪ /","usp":"/ˈklæs.ə.faɪ/"}
+{"title":"classing","uk":"uk  / klɑːs /","ukp":"/klɑːs/","us":"us  / klæs /","usp":"/klæs/"}
+{"title":"classism","uk":"uk / ˈklɑː.sɪ.z ə m /","ukp":"/ˈklɑː.sɪ.zəm/","us":"us / ˈklæs.ɪ.z ə m /","usp":"/ˈklæs.ɪ.zəm/"}
+{"title":"classist","uk":"uk / ˈklɑː.sɪst /","ukp":"/ˈklɑː.sɪst/","us":"us / ˈklæs.ɪst /","usp":"/ˈklæs.ɪst/"}
+{"title":"classless","uk":"uk  / ˈklɑːs.ləs /","ukp":"/ˈklɑːs.ləs/","us":"us  / ˈklæs.ləs /","usp":"/ˈklæs.ləs/"}
+{"title":"classmate","uk":"uk  / ˈklɑːs.meɪt /","ukp":"/ˈklɑːs.meɪt/","us":"us  / ˈklæs.meɪt /","usp":"/ˈklæs.meɪt/"}
+{"title":"classware","uk":"uk  / ˈklɑːs.weə r /","ukp":"/ˈklɑːs.weər/","us":"us  / ˈklæs.wer /","usp":"/ˈklæs.wer/"}
+{"title":"classroom","uk":"uk  / ˈklɑːs.ruːm /","ukp":"/ˈklɑːs.ruːm/","us":"us  / ˈklæs.ruːm /","usp":"/ˈklæs.ruːm/"}
+{"title":"classwork","uk":"uk  / ˈklɑːs.wɜːk /","ukp":"/ˈklɑːs.wɜːk/","us":"us  / ˈklæs.wɝːk /","usp":"/ˈklæs.wɝːk/"}
+{"title":"classy","uk":"uk  / ˈklɑː.si /","ukp":"/ˈklɑː.si/","us":"us  / ˈklæs.i /","usp":"/ˈklæs.i/"}
+{"title":"clastic","uk":"uk  / ˈklæs.tɪk /","ukp":"/ˈklæs.tɪk/","us":"us  / ˈklæs.tɪk /","usp":"/ˈklæs.tɪk/"}
+{"title":"clatter","uk":"uk  / ˈklæt.ə r /","ukp":"/ˈklæt.ər/","us":"us  / ˈklæt̬.ɚ /","usp":"/ˈklæt̬.ɚ/"}
+{"title":"clattered","uk":"uk  / ˈklæt.ə r /","ukp":"/ˈklæt.ər/","us":"us  / ˈklæt̬.ɚ /","usp":"/ˈklæt̬.ɚ/"}
+{"title":"clattering","uk":"uk  / ˈklæt.ə r /","ukp":"/ˈklæt.ər/","us":"us  / ˈklæt̬.ɚ /","usp":"/ˈklæt̬.ɚ/"}
+{"title":"claused bill of lading","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"clause","uk":"uk  / klɔːz /","ukp":"/klɔːz/","us":"us  / klɑːz /","usp":"/klɑːz/"}
+{"title":"claustrophobia","uk":"uk  / ˌklɒs.trəˈfəʊ.bi.ə /","ukp":"/ˌklɒs.trəˈfəʊ.bi.ə/","us":"us  / ˌklɑː.strəˈfoʊ.bi.ə /","usp":"/ˌklɑː.strəˈfoʊ.bi.ə/"}
+{"title":"claustrophobic","uk":"uk  / ˌklɒs.trəˈfəʊ.bɪk /","ukp":"/ˌklɒs.trəˈfəʊ.bɪk/","us":"us  / ˌklɑː.strəˈfoʊ.bɪk /","usp":"/ˌklɑː.strəˈfoʊ.bɪk/"}
+{"title":"clavichord","uk":"uk  / ˈklæv.ɪ.kɔːd /","ukp":"/ˈklæv.ɪ.kɔːd/","us":"us  / ˈklæv.ɪ.kɔːrd /","usp":"/ˈklæv.ɪ.kɔːrd/"}
+{"title":"clavicle","uk":"uk  / ˈklæv.ɪ.k ə l /","ukp":"/ˈklæv.ɪ.kəl/","us":"us  / ˈklæv.ɪ.k ə l /","usp":"/ˈklæv.ɪ.kəl/"}
+{"title":"clavicular","uk":"uk  / kləˈvɪk.jə.lə r /","ukp":"/kləˈvɪk.jə.lər/","us":"us  / kləˈvɪk.jə.lɚ /","usp":"/kləˈvɪk.jə.lɚ/"}
+{"title":"claw clip","uk":"uk  / ˈklɔː ˌklɪp /","ukp":"/ˈklɔː ˌklɪp/","us":"us  / ˈklɑː ˌklɪp /","usp":"/ˈklɑː ˌklɪp/"}
+{"title":"claw something back","uk":"uk  / klɔː /","ukp":"/klɔː/","us":"us  / klɑː /","usp":"/klɑː/"}
+{"title":"claw","uk":"uk  / klɔː /","ukp":"/klɔː/","us":"us  / klɑː /","usp":"/klɑː/"}
+{"title":"claw your way (somewhere)","uk":"","us":""}
+{"title":"clawback","uk":"uk  / ˈklɔːbæk /","ukp":"/ˈklɔːbæk/","us":"us ","usp":""}
+{"title":"clawed","uk":"uk  / klɔːd /","ukp":"/klɔːd/","us":"us  / klɑːd /","usp":"/klɑːd/"}
+{"title":"clawfoot bath","uk":"uk / ˌklɔː.fʊt ˈbɑːθ /","ukp":"/ˌklɔː.fʊt ˈbɑːθ/","us":"us / ˌklɑː.fʊt ˈbæθ /","usp":"/ˌklɑː.fʊt ˈbæθ/"}
+{"title":"clawfoot bathtub","uk":"uk / ˌklɔː.fʊt ˈbɑːθ.tʌb /","ukp":"/ˌklɔː.fʊt ˈbɑːθ.tʌb/","us":"us / ˌklɑː.fʊt ˈbæθ.tʌb /","usp":"/ˌklɑː.fʊt ˈbæθ.tʌb/"}
+{"title":"clawing","uk":"uk  / klɔː /","ukp":"/klɔː/","us":"us  / klɑː /","usp":"/klɑː/"}
+{"title":"clay","uk":"uk  / kleɪ /","ukp":"/kleɪ/","us":"us  / kleɪ /","usp":"/kleɪ/"}
+{"title":"clay pigeon","uk":"uk  / ˌkleɪ ˈpɪdʒ.ən /","ukp":"/ˌkleɪ ˈpɪdʒ.ən/","us":"us  / ˌkleɪ ˈpɪdʒ.ən /","usp":"/ˌkleɪ ˈpɪdʒ.ən/"}
+{"title":"clayey","uk":"uk  / ˈkleɪ.i /","ukp":"/ˈkleɪ.i/","us":"us  / ˈkleɪ.i /","usp":"/ˈkleɪ.i/"}
+{"title":"clean balance sheet","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"clean (someone/something) up","uk":"uk  / kliːn /","ukp":"/kliːn/","us":"us  / kliːn /","usp":"/kliːn/"}
+{"title":"clean bill of lading","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"clean","uk":"uk  / kliːn /","ukp":"/kliːn/","us":"us  / kliːn /","usp":"/kliːn/"}
+{"title":"clean bowled","uk":"uk  / ˌkliːn ˈbəʊld /","ukp":"/ˌkliːn ˈbəʊld/","us":"us  / ˌkliːn ˈboʊld /","usp":"/ˌkliːn ˈboʊld/"}
+{"title":"clean eating","uk":"uk  / ˌkliːn ˈiː.tɪŋ /","ukp":"/ˌkliːn ˈiː.tɪŋ/","us":"us  / ˌkliːn ˈiː.tɪŋ /","usp":"/ˌkliːn ˈiː.tɪŋ/"}
+{"title":"clean opinion","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"clean freak","uk":"uk  / ˈkliːn ˌfriːk /","ukp":"/ˈkliːn ˌfriːk/","us":"us  / ˈkliːn ˌfriːk /","usp":"/ˈkliːn ˌfriːk/"}
+{"title":"clean something out","uk":"uk  / kliːn /","ukp":"/kliːn/","us":"us  / kliːn /","usp":"/kliːn/"}
+{"title":"clean up after someone","uk":"uk  / kliːn /","ukp":"/kliːn/","us":"us  / kliːn /","usp":"/kliːn/"}
+{"title":"clean-air","uk":"uk  / ˌkliːnˈeə r /","ukp":"/ˌkliːnˈeər/","us":"us  / ˌkliːnˈer /","usp":"/ˌkliːnˈer/"}
+{"title":"clean-limbed","uk":"uk  / ˌkliːnˈlɪmd /","ukp":"/ˌkliːnˈlɪmd/","us":"us  / ˌkliːnˈlɪmd /","usp":"/ˌkliːnˈlɪmd/"}
+{"title":"clean-cut","uk":"uk  / ˌkliːnˈkʌt /","ukp":"/ˌkliːnˈkʌt/","us":"us  / ˌkliːnˈkʌt /","usp":"/ˌkliːnˈkʌt/"}
+{"title":"clean up your act","uk":"","us":""}
+{"title":"clean-living","uk":"uk  / ˈkliːn.lɪv.ɪŋ /","ukp":"/ˈkliːn.lɪv.ɪŋ/","us":"us  / ˈkliːn.lɪv.ɪŋ /","usp":"/ˈkliːn.lɪv.ɪŋ/"}
+{"title":"clean-shaven","uk":"uk  / ˌkliːnˈʃeɪ.v ə n /","ukp":"/ˌkliːnˈʃeɪ.vən/","us":"us  / ˌkliːnˈʃeɪ.v ə n /","usp":"/ˌkliːnˈʃeɪ.vən/"}
+{"title":"cleaned","uk":"uk  / kliːn /","ukp":"/kliːn/","us":"us  / kliːn /","usp":"/kliːn/"}
+{"title":"cleaner's","uk":"","us":""}
+{"title":"cleaner","uk":"uk  / ˈkliː.nə r /","ukp":"/ˈkliː.nər/","us":"us  / ˈkliː.nɚ /","usp":"/ˈkliː.nɚ/"}
+{"title":"cleaning","uk":"uk  / ˈkliː.nɪŋ /","ukp":"/ˈkliː.nɪŋ/","us":"us  / ˈkliː.nɪŋ /","usp":"/ˈkliː.nɪŋ/"}
+{"title":"cleanliness","uk":"uk  / ˈklen.li.nəs /","ukp":"/ˈklen.li.nəs/","us":"us  / ˈklen.li.nəs /","usp":"/ˈklen.li.nəs/"}
+{"title":"cleanliness is next to godliness","uk":"","us":""}
+{"title":"cleanness","uk":"uk  / ˈkliːn.nəs /","ukp":"/ˈkliːn.nəs/","us":"us  / ˈkliːn.nəs /","usp":"/ˈkliːn.nəs/"}
+{"title":"cleanly","uk":"uk  / ˈkliːn.li /","ukp":"/ˈkliːn.li/","us":"us  / ˈkliːn.li /","usp":"/ˈkliːn.li/"}
+{"title":"cleanse","uk":"uk  / klenz /","ukp":"/klenz/","us":"us  / klenz /","usp":"/klenz/"}
+{"title":"cleansed","uk":"uk  / klenz /","ukp":"/klenz/","us":"us  / klenz /","usp":"/klenz/"}
+{"title":"cleanser","uk":"uk  / ˈklen.zə r /","ukp":"/ˈklen.zər/","us":"us  / ˈklen.zɚ /","usp":"/ˈklen.zɚ/"}
+{"title":"cleansing","uk":"uk  / ˈklen.zɪŋ /","ukp":"/ˈklen.zɪŋ/","us":"us  / ˈklen.zɪŋ /","usp":"/ˈklen.zɪŋ/"}
+{"title":"cleantech","uk":"uk  / ˈkliːn.tek /","ukp":"/ˈkliːn.tek/","us":"us  / ˈkliːn.tek /","usp":"/ˈkliːn.tek/"}
+{"title":"cleanup","uk":"","us":"us  / ˈklinˌʌp /","usp":"/ˈklinˌʌp/"}
+{"title":"clear head","uk":"uk  / ˌklɪə ˈhed /","ukp":"/ˌklɪə ˈhed/","us":"us  / ˌklɪr ˈhed /","usp":"/ˌklɪr ˈhed/"}
+{"title":"clear (something) up","uk":"uk  / klɪə r /","ukp":"/klɪər/","us":"us  / klɪr /","usp":"/klɪr/"}
+{"title":"clear l","uk":"uk  / ˌklɪər ˈel /","ukp":"/ˌklɪər ˈel/","us":"us  / ˌklɪr ˈel /","usp":"/ˌklɪr ˈel/"}
+{"title":"clear someone off something","uk":"uk  / klɪə r /","ukp":"/klɪər/","us":"us  / klɪr /","usp":"/klɪr/"}
+{"title":"clear something away","uk":"uk  / klɪə r /","ukp":"/klɪər/","us":"us  / klɪr /","usp":"/klɪr/"}
+{"title":"clear","uk":"uk  / klɪə r /","ukp":"/klɪər/","us":"us  / klɪr /","usp":"/klɪr/"}
+{"title":"clear out","uk":"uk  / klɪə r /","ukp":"/klɪər/","us":"us  / klɪr /","usp":"/klɪr/"}
+{"title":"clear the air","uk":"","us":""}
+{"title":"clear the way (for someone/something )","uk":"","us":""}
+{"title":"clear the decks","uk":"","us":""}
+{"title":"clear the way","uk":"","us":""}
+{"title":"clear your throat","uk":"","us":""}
+{"title":"clear your debts/clear yourself of debts","uk":"","us":""}
+{"title":"clear-headed","uk":"uk  / ˌklɪə ˈhed.ɪd /","ukp":"/ˌklɪə ˈhed.ɪd/","us":"us  / ˌklɪr ˈhed.ɪd /","usp":"/ˌklɪr ˈhed.ɪd/"}
+{"title":"clear-cut","uk":"uk  / ˌklɪəˈkʌt /","ukp":"/ˌklɪəˈkʌt/","us":"us  / ˌklɪrˈkʌt /","usp":"/ˌklɪrˈkʌt/"}
+{"title":"clear-sighted","uk":"uk  / ˌklɪəˈsaɪt.ɪd /","ukp":"/ˌklɪəˈsaɪt.ɪd/","us":"us  / ˌklɪrˈsaɪ.t̬ɪd /","usp":"/ˌklɪrˈsaɪ.t̬ɪd/"}
+{"title":"clear-sightedly","uk":"uk / ˌklɪəˈsaɪ.tɪd.li /","ukp":"/ˌklɪəˈsaɪ.tɪd.li/","us":"us / ˌklɪrˈsaɪ.t̬ɪd.li /","usp":"/ˌklɪrˈsaɪ.t̬ɪd.li/"}
+{"title":"clearance sale","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"clearance","uk":"uk  / ˈklɪə.r ə ns /","ukp":"/ˈklɪə.rəns/","us":"us  / ˈklɪr. ə ns /","usp":"/ˈklɪr.əns/"}
+{"title":"clearer","uk":"uk  / ˈklɪərə r /","ukp":"/ˈklɪərər/","us":"us ","usp":""}
+{"title":"cleared","uk":"uk  / klɪəd /","ukp":"/klɪəd/","us":"us  / klɪrd /","usp":"/klɪrd/"}
+{"title":"clearheaded","uk":"","us":"us  / ˌklɪərˈhed·ɪd /","usp":"/ˌklɪərˈhed·ɪd/"}
+{"title":"clearing","uk":"uk  / ˈklɪə.rɪŋ /","ukp":"/ˈklɪə.rɪŋ/","us":"us  / ˈklɪr.ɪŋ /","usp":"/ˈklɪr.ɪŋ/"}
+{"title":"clearing agent","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"clearing bank","uk":"uk  / ˈklɪə.rɪŋ ˌbæŋk /","ukp":"/ˈklɪə.rɪŋ ˌbæŋk/","us":"us  / ˈklɪr.ɪŋ ˌbæŋk /","usp":"/ˈklɪr.ɪŋ ˌbæŋk/"}
+{"title":"clearing house","uk":"uk  / ˈklɪə.rɪŋ ˌhaʊs /","ukp":"/ˈklɪə.rɪŋ ˌhaʊs/","us":"us  / ˈklɪr.ɪŋ ˌhaʊs /","usp":"/ˈklɪr.ɪŋ ˌhaʊs/"}
+{"title":"clearly","uk":"uk  / ˈklɪə.li /","ukp":"/ˈklɪə.li/","us":"us  / ˈklɪr.li /","usp":"/ˈklɪr.li/"}
+{"title":"Clearnet","uk":"uk  / ˈklɪənet /","ukp":"/ˈklɪənet/","us":"us ","usp":""}
+{"title":"clearway","uk":"uk  / ˈklɪə.weɪ /","ukp":"/ˈklɪə.weɪ/","us":"us  / ˈklɪr.weɪ /","usp":"/ˈklɪr.weɪ/"}
+{"title":"cleats","uk":"","us":""}
+{"title":"cleat","uk":"uk  / kliːt /","ukp":"/kliːt/","us":"us  / kliːt /","usp":"/kliːt/"}
+{"title":"cleavage","uk":"uk  / ˈkliː.vɪdʒ /","ukp":"/ˈkliː.vɪdʒ/","us":"us  / ˈkliː.vɪdʒ /","usp":"/ˈkliː.vɪdʒ/"}
+{"title":"cleave to something","uk":"uk  / kliːv /","ukp":"/kliːv/","us":"us  / kliːv /","usp":"/kliːv/"}
+{"title":"cleave","uk":"uk  / kliːv /","ukp":"/kliːv/","us":"us  / kliːv /","usp":"/kliːv/"}
+{"title":"cleaver","uk":"uk  / ˈkliː.və r /","ukp":"/ˈkliː.vər/","us":"us  / ˈkliː.vɚ /","usp":"/ˈkliː.vɚ/"}
+{"title":"clef","uk":"uk  / klef /","ukp":"/klef/","us":"us  / klef /","usp":"/klef/"}
+{"title":"cleft palate","uk":"uk  / ˌkleft ˈpæl.ət /","ukp":"/ˌkleft ˈpæl.ət/","us":"us  / ˌkleft ˈpæl.ət /","usp":"/ˌkleft ˈpæl.ət/"}
+{"title":"cleft lip","uk":"uk  / ˌkleft ˈlɪp /","ukp":"/ˌkleft ˈlɪp/","us":"us  / ˌkleft ˈlɪp /","usp":"/ˌkleft ˈlɪp/"}
+{"title":"cleft","uk":"uk  / kleft /","ukp":"/kleft/","us":"us  / kleft /","usp":"/kleft/"}
+{"title":"cleft sentence","uk":"uk  / ˌkleft ˈsen.təns /","ukp":"/ˌkleft ˈsen.təns/","us":"us  / ˌkleft ˈsen.təns /","usp":"/ˌkleft ˈsen.təns/"}
+{"title":"cleft stick","uk":"uk  / ˌkleft ˈstɪk /","ukp":"/ˌkleft ˈstɪk/","us":"us  / ˌkleft ˈstɪk /","usp":"/ˌkleft ˈstɪk/"}
+{"title":"clemency","uk":"uk  / ˈklem.ən.si /","ukp":"/ˈklem.ən.si/","us":"us  / ˈklem.ən.si /","usp":"/ˈklem.ən.si/"}
+{"title":"clematis","uk":"uk  / ˈklem.ə.tɪs /","ukp":"/ˈklem.ə.tɪs/","us":"us  / ˈklem.ə.t̬əs /","usp":"/ˈklem.ə.t̬əs/"}
+{"title":"clement","uk":"uk  / ˈklem. ə nt /","ukp":"/ˈklem.ənt/","us":"us  / ˈklem. ə nt /","usp":"/ˈklem.ənt/"}
+{"title":"clementine","uk":"uk  / ˈklem.ən.tiːn /","ukp":"/ˈklem.ən.tiːn/","us":"us  / ˈklem.ən.tiːn /","usp":"/ˈklem.ən.tiːn/"}
+{"title":"clench","uk":"uk  / klentʃ /","ukp":"/klentʃ/","us":"us  / klentʃ /","usp":"/klentʃ/"}
+{"title":"clenched","uk":"uk  / klentʃ /","ukp":"/klentʃ/","us":"us  / klentʃ /","usp":"/klentʃ/"}
+{"title":"clenching","uk":"uk  / klentʃ /","ukp":"/klentʃ/","us":"us  / klentʃ /","usp":"/klentʃ/"}
+{"title":"clepsydra","uk":"uk  / ˈklep.sɪ.drə /","ukp":"/ˈklep.sɪ.drə/","us":"us  / ˈklep.sɪ.drə /","usp":"/ˈklep.sɪ.drə/"}
+{"title":"clergy","uk":"uk  / ˈklɜː.dʒi /","ukp":"/ˈklɜː.dʒi/","us":"us  / ˈklɝː.dʒi /","usp":"/ˈklɝː.dʒi/"}
+{"title":"clergywoman","uk":"uk  / ˈklɜː.dʒiˌwʊm.ən /","ukp":"/ˈklɜː.dʒiˌwʊm.ən/","us":"us  / ˈklɝː.dʒiˌwʊm.ən /","usp":"/ˈklɝː.dʒiˌwʊm.ən/"}
+{"title":"clergyman","uk":"uk  / ˈklɜː.dʒi.mən /","ukp":"/ˈklɜː.dʒi.mən/","us":"us  / ˈklɝː.dʒi.mən /","usp":"/ˈklɝː.dʒi.mən/"}
+{"title":"cleric","uk":"uk  / ˈkler.ɪk /","ukp":"/ˈkler.ɪk/","us":"us  / ˈkler.ɪk /","usp":"/ˈkler.ɪk/"}
+{"title":"clerical assistant","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"clerical","uk":"uk  / ˈkler.ɪ.k ə l /","ukp":"/ˈkler.ɪ.kəl/","us":"us  / ˈkler.ɪ.k ə l /","usp":"/ˈkler.ɪ.kəl/"}
+{"title":"clerical collar","uk":"uk  / ˌkler.ɪ.k ə l ˈkɒl.ə r /","ukp":"/ˌkler.ɪ.kəl ˈkɒl.ər/","us":"us  / ˌkler.ɪ.k ə l ˈkɑː.lɚ /","usp":"/ˌkler.ɪ.kəl ˈkɑː.lɚ/"}
+{"title":"clerked","uk":"uk  / klɑːk /","ukp":"/klɑːk/","us":"us  / klɝːk /","usp":"/klɝːk/"}
+{"title":"clerking","uk":"uk  / klɑːk /","ukp":"/klɑːk/","us":"us  / klɝːk /","usp":"/klɝːk/"}
+{"title":"clerk","uk":"uk  / klɑːk /","ukp":"/klɑːk/","us":"us  / klɝːk /","usp":"/klɝːk/"}
+{"title":"clethra","uk":"uk / ˈkleθ.rə /","ukp":"/ˈkleθ.rə/","us":"us / ˈkleθ.rə /","usp":"/ˈkleθ.rə/"}
+{"title":"Cleveland","uk":"uk  / ˈkliːv.lənd /","ukp":"/ˈkliːv.lənd/","us":"us  / ˈkliːv.lənd /","usp":"/ˈkliːv.lənd/"}
+{"title":"clever dick/clogs","uk":"","us":""}
+{"title":"clever clogs","uk":"uk  / ˈklev.ə ˌklɒɡz /","ukp":"/ˈklev.ə ˌklɒɡz/","us":"us  / ˈklev.ɚ ˌklɑːɡz /","usp":"/ˈklev.ɚ ˌklɑːɡz/"}
+{"title":"clever","uk":"uk  / ˈklev.ə r /","ukp":"/ˈklev.ər/","us":"us  / ˈklev.ɚ /","usp":"/ˈklev.ɚ/"}
+{"title":"clever-clever","uk":"uk  / ˈklev.əˌklev.ə r /","ukp":"/ˈklev.əˌklev.ər/","us":"us  / ˈklev.ɚˌklev.ɚ /","usp":"/ˈklev.ɚˌklev.ɚ/"}
+{"title":"cleverly","uk":"uk  / ˈklev. ə l.i /","ukp":"/ˈklev.əl.i/","us":"us  / ˈklev.ɚ.li /","usp":"/ˈklev.ɚ.li/"}
+{"title":"cleverness","uk":"uk  / ˈklev.ə.nəs /","ukp":"/ˈklev.ə.nəs/","us":"us  / ˈklev.ɚ.nəs /","usp":"/ˈklev.ɚ.nəs/"}
+{"title":"cliché","uk":"uk  / ˈkliː.ʃeɪ /","ukp":"/ˈkliː.ʃeɪ/","us":"us  / kliːˈʃeɪ /","usp":"/kliːˈʃeɪ/"}
+{"title":"clichéd","uk":"uk  / ˈkliː.ʃeɪd /","ukp":"/ˈkliː.ʃeɪd/","us":"us  / kliːˈʃeɪd /","usp":"/kliːˈʃeɪd/"}
+{"title":"cliché-ridden","uk":"uk  / ˈkliː.ʃeɪˌrɪd. ə n /","ukp":"/ˈkliː.ʃeɪˌrɪd.ən/","us":"us  / kliːˈʃeɪˌrɪd. ə n /","usp":"/kliːˈʃeɪˌrɪd.ən/"}
+{"title":"click and collect","uk":"uk  / ˌklɪk ən kəˈlekt /","ukp":"/ˌklɪk ən kəˈlekt/","us":"us  / ˌklɪk ən kəˈlekt /","usp":"/ˌklɪk ən kəˈlekt/"}
+{"title":"click away","uk":"uk  / klɪk /","ukp":"/klɪk/","us":"us  / klɪk /","usp":"/klɪk/"}
+{"title":"click","uk":"uk  / klɪk /","ukp":"/klɪk/","us":"us  / klɪk /","usp":"/klɪk/"}
+{"title":"click fraud","uk":"uk  / ˈklɪk ˌfrɔːd /","ukp":"/ˈklɪk ˌfrɔːd/","us":"us  / ˈklɪk ˌfrɑːd /","usp":"/ˈklɪk ˌfrɑːd/"}
+{"title":"click out","uk":"uk  / klɪk /","ukp":"/klɪk/","us":"us  / klɪk /","usp":"/klɪk/"}
+{"title":"click rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"click-through","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"click-through rate","uk":"uk  / ˈklɪk.θruː ˌreɪt /","ukp":"/ˈklɪk.θruː ˌreɪt/","us":"us  / ˈklɪk.θruː ˌreɪt /","usp":"/ˈklɪk.θruː ˌreɪt/"}
+{"title":"clickable","uk":"uk  / ˈklɪk.ə.b ə l /","ukp":"/ˈklɪk.ə.bəl/","us":"us  / ˈklɪk.ə.b ə l /","usp":"/ˈklɪk.ə.bəl/"}
+{"title":"clickbait","uk":"uk  / ˈklɪk.beɪt /","ukp":"/ˈklɪk.beɪt/","us":"us  / ˈklɪk.beɪt /","usp":"/ˈklɪk.beɪt/"}
+{"title":"clicker","uk":"uk  / ˈklɪk.ə r /","ukp":"/ˈklɪk.ər/","us":"us  / ˈklɪk.ɚ /","usp":"/ˈklɪk.ɚ/"}
+{"title":"clicked","uk":"uk  / klɪk /","ukp":"/klɪk/","us":"us  / klɪk /","usp":"/klɪk/"}
+{"title":"clickpath","uk":"uk  / ˈklɪkpɑːθ /","ukp":"/ˈklɪkpɑːθ/","us":"us ","usp":""}
+{"title":"clicking","uk":"uk  / klɪk /","ukp":"/klɪk/","us":"us  / klɪk /","usp":"/klɪk/"}
+{"title":"clicks and mortar","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"clickstream","uk":"uk  / ˈklɪk.striːm /","ukp":"/ˈklɪk.striːm/","us":"us  / ˈklɪk.striːm /","usp":"/ˈklɪk.striːm/"}
+{"title":"clicktivist","uk":"uk  / ˈklɪk.tɪ.vɪst /","ukp":"/ˈklɪk.tɪ.vɪst/","us":"us  / ˈklɪk.tɪ.vɪst /","usp":"/ˈklɪk.tɪ.vɪst/"}
+{"title":"clicktivism","uk":"uk  / ˈklɪk.tɪ.vɪ.z ə m /","ukp":"/ˈklɪk.tɪ.vɪ.zəm/","us":"us  / ˈklɪk.tɪ.vɪ.z ə m /","usp":"/ˈklɪk.tɪ.vɪ.zəm/"}
+{"title":"client account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"client","uk":"uk  / ˈklaɪ. ə nt /","ukp":"/ˈklaɪ.ənt/","us":"us  / ˈklaɪ. ə nt /","usp":"/ˈklaɪ.ənt/"}
+{"title":"client base","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"client state","uk":"uk  / ˌklaɪ. ə nt ˈsteɪt /","ukp":"/ˌklaɪ.ənt ˈsteɪt/","us":"us  / ˌklaɪ. ə nt ˈsteɪt /","usp":"/ˌklaɪ.ənt ˈsteɪt/"}
+{"title":"client-server","uk":"uk  / ˌklaɪ. ə ntˈsɜː.və r /","ukp":"/ˌklaɪ.əntˈsɜː.vər/","us":"us  / ˌklaɪ. ə ntˈsɝː.vɚ /","usp":"/ˌklaɪ.əntˈsɝː.vɚ/"}
+{"title":"clientele","uk":"uk  / ˌkliː.ɒnˈtel /","ukp":"/ˌkliː.ɒnˈtel/","us":"us  / ˌkliː.ɑːnˈtel /","usp":"/ˌkliː.ɑːnˈtel/"}
+{"title":"cliff edge","uk":"uk  / ˈklɪf ˌedʒ /","ukp":"/ˈklɪf ˌedʒ/","us":"us  / ˈklɪf ˌedʒ /","usp":"/ˈklɪf ˌedʒ/"}
+{"title":"cliff","uk":"uk  / klɪf /","ukp":"/klɪf/","us":"us  / klɪf /","usp":"/klɪf/"}
+{"title":"cliffhanger","uk":"uk  / ˈklɪfˌhæŋ.ə r /","ukp":"/ˈklɪfˌhæŋ.ər/","us":"us  / ˈklɪfˌhæŋ.ɚ /","usp":"/ˈklɪfˌhæŋ.ɚ/"}
+{"title":"clifftop","uk":"uk  / ˈklɪf.tɒp /","ukp":"/ˈklɪf.tɒp/","us":"us  / ˈklɪf.tɑːp /","usp":"/ˈklɪf.tɑːp/"}
+{"title":"CLIL","uk":"uk  / klɪl /","ukp":"/klɪl/","us":"us  / klɪl /","usp":"/klɪl/"}
+{"title":"climactic","uk":"uk  / klaɪˈmæk.tɪk /","ukp":"/klaɪˈmæk.tɪk/","us":"us  / klaɪˈmæk.tɪk /","usp":"/klaɪˈmæk.tɪk/"}
+{"title":"climatarian","uk":"uk  / ˌklaɪ.məˈteə.ri.ən /","ukp":"/ˌklaɪ.məˈteə.ri.ən/","us":"us  / ˌklaɪ.məˈter.i.ən /","usp":"/ˌklaɪ.məˈter.i.ən/"}
+{"title":"climate anxiety","uk":"uk  / ˈklaɪ.mət æŋˌzaɪ.ə.ti /","ukp":"/ˈklaɪ.mət æŋˌzaɪ.ə.ti/","us":"us  / ˈklaɪ.mət æŋˌzaɪ.ə.t̬i /","usp":"/ˈklaɪ.mət æŋˌzaɪ.ə.t̬i/"}
+{"title":"climate breakdown","uk":"uk  / ˈklaɪ.mət ˌbreɪk.daʊn /","ukp":"/ˈklaɪ.mət ˌbreɪk.daʊn/","us":"us  / ˈklaɪ.mət ˌbreɪk.daʊn /","usp":"/ˈklaɪ.mət ˌbreɪk.daʊn/"}
+{"title":"climate","uk":"uk  / ˈklaɪ.mət /","ukp":"/ˈklaɪ.mət/","us":"us  / ˈklaɪ.mət /","usp":"/ˈklaɪ.mət/"}
+{"title":"clock-watcher","uk":"uk  / ˈklɒkˌwɒtʃ.ə r /","ukp":"/ˈklɒkˌwɒtʃ.ər/","us":"us  / ˈklɑːkˌwɑːtʃ.ɚ /","usp":"/ˈklɑːkˌwɑːtʃ.ɚ/"}
+{"title":"climate change","uk":"uk  / ˈklaɪ.mət ˌtʃeɪndʒ /","ukp":"/ˈklaɪ.mət ˌtʃeɪndʒ/","us":"us  / ˈklaɪ.mət ˌtʃeɪndʒ /","usp":"/ˈklaɪ.mət ˌtʃeɪndʒ/"}
+{"title":"clock-watching","uk":"uk  / ˈklɒkˌwɒtʃ.ɪŋ /","ukp":"/ˈklɒkˌwɒtʃ.ɪŋ/","us":"us  / ˈklɑːkˌwɑːtʃ.ɪŋ /","usp":"/ˈklɑːkˌwɑːtʃ.ɪŋ/"}
+{"title":"clocked","uk":"uk  / klɒk /","ukp":"/klɒk/","us":"us  / klɑːk /","usp":"/klɑːk/"}
+{"title":"clocking","uk":"uk  / klɒk /","ukp":"/klɒk/","us":"us  / klɑːk /","usp":"/klɑːk/"}
+{"title":"clockmaker","uk":"uk  / ˈklɒkˌmeɪ.kə r /","ukp":"/ˈklɒkˌmeɪ.kər/","us":"us  / ˈklɑːkˌmeɪ.kɚ /","usp":"/ˈklɑːkˌmeɪ.kɚ/"}
+{"title":"clockmaking","uk":"uk / ˈklɒkˌmeɪ.kɪŋ /","ukp":"/ˈklɒkˌmeɪ.kɪŋ/","us":"us / ˈklɑːkˌmeɪ.kɪŋ /","usp":"/ˈklɑːkˌmeɪ.kɪŋ/"}
+{"title":"clockwise","uk":"uk  / ˈklɒk.waɪz /","ukp":"/ˈklɒk.waɪz/","us":"us  / ˈklɑːk.waɪz /","usp":"/ˈklɑːk.waɪz/"}
+{"title":"clod","uk":"uk  / klɒd /","ukp":"/klɒd/","us":"us  / klɑːd /","usp":"/klɑːd/"}
+{"title":"clockwork","uk":"uk  / ˈklɒk.wɜːk /","ukp":"/ˈklɒk.wɜːk/","us":"us  / ˈklɑːk.wɝːk /","usp":"/ˈklɑːk.wɝːk/"}
+{"title":"clodhopping","uk":"uk  / ˈklɒdˌhɒp.ɪŋ /","ukp":"/ˈklɒdˌhɒp.ɪŋ/","us":"us  / ˈklɑːdˌhɑː.pɪŋ /","usp":"/ˈklɑːdˌhɑː.pɪŋ/"}
+{"title":"clodhopper","uk":"uk  / ˈklɒdˌhɒp.ə r /","ukp":"/ˈklɒdˌhɒp.ər/","us":"us  / ˈklɑːdˌhɑː.pɚ /","usp":"/ˈklɑːdˌhɑː.pɚ/"}
+{"title":"clogged","uk":"uk  / klɒɡd /","ukp":"/klɒɡd/","us":"us  / klɑːɡd /","usp":"/klɑːɡd/"}
+{"title":"clog","uk":"uk  / klɒɡ /","ukp":"/klɒɡ/","us":"us  / klɑːɡ /","usp":"/klɑːɡ/"}
+{"title":"cloister","uk":"uk  / ˈklɔɪ.stə r /","ukp":"/ˈklɔɪ.stər/","us":"us  / ˈklɔɪ.stɚ /","usp":"/ˈklɔɪ.stɚ/"}
+{"title":"cloistered","uk":"uk  / ˈklɔɪ.stəd /","ukp":"/ˈklɔɪ.stəd/","us":"us  / ˈklɔɪ.stɚd /","usp":"/ˈklɔɪ.stɚd/"}
+{"title":"clomp","uk":"uk  / klɒmp /","ukp":"/klɒmp/","us":"us  / klɑːmp /","usp":"/klɑːmp/"}
+{"title":"clone","uk":"uk  / kləʊn /","ukp":"/kləʊn/","us":"us  / kloʊn /","usp":"/kloʊn/"}
+{"title":"cloned","uk":"uk  / kləʊn /","ukp":"/kləʊn/","us":"us  / kloʊn /","usp":"/kloʊn/"}
+{"title":"close (something) down","uk":"uk  / kləʊz /","ukp":"/kləʊz/","us":"us  / kloʊz /","usp":"/kloʊz/"}
+{"title":"close a deal","uk":"","us":""}
+{"title":"cloning","uk":"uk  / ˈkləʊ.nɪŋ /","ukp":"/ˈkləʊ.nɪŋ/","us":"us  / ˈkloʊ.nɪŋ /","usp":"/ˈkloʊ.nɪŋ/"}
+{"title":"close","uk":"uk  / kləʊz /","ukp":"/kləʊz/","us":"us  / kloʊz /","usp":"/kloʊz/"}
+{"title":"close by","uk":"","us":""}
+{"title":"close company","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"close in","uk":"uk  / kləʊz /","ukp":"/kləʊz/","us":"us  / kloʊz /","usp":"/kloʊz/"}
+{"title":"close of business","uk":"uk  / ˌkləʊz əv ˈbɪz.nɪs /","ukp":"/ˌkləʊz əv ˈbɪz.nɪs/","us":"us  / ˌkloʊz əv ˈbɪz.nɪs /","usp":"/ˌkloʊz əv ˈbɪz.nɪs/"}
+{"title":"close of play","uk":"uk  / ˌkləʊz əv ˈpleɪ /","ukp":"/ˌkləʊz əv ˈpleɪ/","us":"us  / ˌkloʊz əv ˈpleɪ /","usp":"/ˌkloʊz əv ˈpleɪ/"}
+{"title":"close on sb/sth","uk":"uk  / kləʊz /","ukp":"/kləʊz/","us":"us  / kloʊz /","usp":"/kloʊz/"}
+{"title":"close out something","uk":"","us":"us  / kloʊz /","usp":"/kloʊz/"}
+{"title":"close ranks","uk":"","us":""}
+{"title":"close on/to","uk":"","us":""}
+{"title":"close season","uk":"uk  / ˌkləʊz ˈsiː.z ə n /","ukp":"/ˌkləʊz ˈsiː.zən/","us":"us  / ˌkloʊz ˈsiː.z ə n /","usp":"/ˌkloʊz ˈsiː.zən/"}
+{"title":"close shave","uk":"uk  / ˌkləʊs ˈʃeɪv /","ukp":"/ˌkləʊs ˈʃeɪv/","us":"us  / ˌkloʊs ˈʃeɪv /","usp":"/ˌkloʊs ˈʃeɪv/"}
+{"title":"close something off","uk":"uk  / kləʊz /","ukp":"/kləʊz/","us":"us  / kloʊz /","usp":"/kloʊz/"}
+{"title":"close to","uk":"","us":""}
+{"title":"close up shop","uk":"","us":""}
+{"title":"close your ears","uk":"","us":""}
+{"title":"close your eyes to something","uk":"","us":""}
+{"title":"close, but no cigar","uk":"","us":""}
+{"title":"close-cropped","uk":"uk  / ˌkləʊsˈkrɒpt /","ukp":"/ˌkləʊsˈkrɒpt/","us":"us  / ˌkloʊsˈkrɑːpt /","usp":"/ˌkloʊsˈkrɑːpt/"}
+{"title":"close-fitting","uk":"uk  / ˌkləʊsˈfɪt.ɪŋ /","ukp":"/ˌkləʊsˈfɪt.ɪŋ/","us":"us  / ˌkloʊsˈfɪt̬.ɪŋ /","usp":"/ˌkloʊsˈfɪt̬.ɪŋ/"}
+{"title":"close-grained","uk":"uk  / ˌkləʊsˈɡreɪnd /","ukp":"/ˌkləʊsˈɡreɪnd/","us":"us  / ˌkloʊsˈɡreɪnd /","usp":"/ˌkloʊsˈɡreɪnd/"}
+{"title":"close-knit","uk":"uk  / ˌkləʊsˈnɪt /","ukp":"/ˌkləʊsˈnɪt/","us":"us  / ˌkloʊsˈnɪt /","usp":"/ˌkloʊsˈnɪt/"}
+{"title":"close-run","uk":"uk  / ˌkləʊsˈrʌn /","ukp":"/ˌkləʊsˈrʌn/","us":"us  / ˌkloʊsˈrʌn /","usp":"/ˌkloʊsˈrʌn/"}
+{"title":"clinical thermometer","uk":"uk  / ˌklɪn.ɪ.k ə l θəˈmɒm.ɪ.tə r /","ukp":"/ˌklɪn.ɪ.kəl θəˈmɒm.ɪ.tər/","us":"us  / ˌklɪn.ɪ.k ə l θɚˈmɑː.mə.t̬ɚ /","usp":"/ˌklɪn.ɪ.kəl θɚˈmɑː.mə.t̬ɚ/"}
+{"title":"clinical trial","uk":"uk  / ˌklɪn.ɪ.k ə l ˈtraɪ.əl /","ukp":"/ˌklɪn.ɪ.kəl ˈtraɪ.əl/","us":"us  / ˌklɪn.ɪ.k ə l ˈtraɪ.əl /","usp":"/ˌklɪn.ɪ.kəl ˈtraɪ.əl/"}
+{"title":"clinically depressed","uk":"uk  / ˌklɪn.ɪ.k ə l.i dɪˈprest /","ukp":"/ˌklɪn.ɪ.kəl.i dɪˈprest/","us":"us  / ˌklɪn.ɪ.k ə l.i dɪˈprest /","usp":"/ˌklɪn.ɪ.kəl.i dɪˈprest/"}
+{"title":"clinically","uk":"uk  / ˈklɪn.ɪ.k ə l.i /","ukp":"/ˈklɪn.ɪ.kəl.i/","us":"us  / ˈklɪn.ɪ.k ə l.i /","usp":"/ˈklɪn.ɪ.kəl.i/"}
+{"title":"clinically obese","uk":"uk  / ˌklɪn.ɪ.k ə l.i əʊˈbiːs /","ukp":"/ˌklɪn.ɪ.kəl.i əʊˈbiːs/","us":"us  / ˌklɪn.ɪ.k ə l.i oʊˈbiːs /","usp":"/ˌklɪn.ɪ.kəl.i oʊˈbiːs/"}
+{"title":"clinician","uk":"uk  / klɪˈnɪʃ. ə n /","ukp":"/klɪˈnɪʃ.ən/","us":"us  / klɪˈnɪʃ. ə n /","usp":"/klɪˈnɪʃ.ən/"}
+{"title":"clink","uk":"uk  / klɪŋk /","ukp":"/klɪŋk/","us":"us  / klɪŋk /","usp":"/klɪŋk/"}
+{"title":"clinked","uk":"uk  / klɪŋk /","ukp":"/klɪŋk/","us":"us  / klɪŋk /","usp":"/klɪŋk/"}
+{"title":"clinker","uk":"uk  / ˈklɪŋ.kə r /","ukp":"/ˈklɪŋ.kər/","us":"us  / ˈklɪŋ.kɚ /","usp":"/ˈklɪŋ.kɚ/"}
+{"title":"clinking","uk":"uk  / ˈklɪŋ.kɪŋ /","ukp":"/ˈklɪŋ.kɪŋ/","us":"us  / ˈklɪŋ.kɪŋ /","usp":"/ˈklɪŋ.kɪŋ/"}
+{"title":"clip art","uk":"uk  / ˈklɪp ˌɑːt /","ukp":"/ˈklɪp ˌɑːt/","us":"us  / ˈklɪp ˌɑːrt /","usp":"/ˈklɪp ˌɑːrt/"}
+{"title":"clip","uk":"uk  / klɪp /","ukp":"/klɪp/","us":"us  / klɪp /","usp":"/klɪp/"}
+{"title":"clip joint","uk":"uk  / ˈklɪp ˌdʒɔɪnt /","ukp":"/ˈklɪp ˌdʒɔɪnt/","us":"us  / ˈklɪp ˌdʒɔɪnt /","usp":"/ˈklɪp ˌdʒɔɪnt/"}
+{"title":"clip someone's wings","uk":"","us":""}
+{"title":"clip-clop","uk":"uk  / ˈklɪp.klɒp /","ukp":"/ˈklɪp.klɒp/","us":"us  / ˈklɪp.klɑːp /","usp":"/ˈklɪp.klɑːp/"}
+{"title":"clip-on","uk":"uk  / ˈklɪp.ɒn /","ukp":"/ˈklɪp.ɒn/","us":"us  / ˈklɪp.ɑːn /","usp":"/ˈklɪp.ɑːn/"}
+{"title":"clipped","uk":"uk  / klɪpt /","ukp":"/klɪpt/","us":"us  / klɪpt /","usp":"/klɪpt/"}
+{"title":"clipper","uk":"uk  / ˈklɪp.ə r /","ukp":"/ˈklɪp.ər/","us":"us  / ˈklɪp.ɚ /","usp":"/ˈklɪp.ɚ/"}
+{"title":"clipboard","uk":"uk  / ˈklɪp.bɔːd /","ukp":"/ˈklɪp.bɔːd/","us":"us  / ˈklɪp.bɔːrd /","usp":"/ˈklɪp.bɔːrd/"}
+{"title":"clippers","uk":"uk  / ˈklɪp.əz /","ukp":"/ˈklɪp.əz/","us":"us  / ˈklɪp.ɚz /","usp":"/ˈklɪp.ɚz/"}
+{"title":"clipping","uk":"uk  / ˈklɪp.ɪŋ /","ukp":"/ˈklɪp.ɪŋ/","us":"us  / ˈklɪp.ɪŋ /","usp":"/ˈklɪp.ɪŋ/"}
+{"title":"cliquey","uk":"uk  / ˈkliː.ki /","ukp":"/ˈkliː.ki/","us":"us  / ˈkliː.ki /","usp":"/ˈkliː.ki/"}
+{"title":"clique","uk":"uk  / kliːk /","ukp":"/kliːk/","us":"us  / klɪk /","usp":"/klɪk/"}
+{"title":"cliquier","uk":"","us":""}
+{"title":"cliquiest","uk":"","us":""}
+{"title":"clit","uk":"uk  / klɪt /","ukp":"/klɪt/","us":"us  / klɪt /","usp":"/klɪt/"}
+{"title":"clitoral","uk":"uk  / ˈklɪt. ə r. ə l /","ukp":"/ˈklɪt.ər.əl/","us":"us  / ˈklɪt̬.ɚ. ə l /","usp":"/ˈklɪt̬.ɚ.əl/"}
+{"title":"clitoridis","uk":"uk  / klɪˈtɒr.ɪ.dɪs /","ukp":"/klɪˈtɒr.ɪ.dɪs/","us":"us  / klɪˈtɔːr.ɪ.dɪs /","usp":"/klɪˈtɔːr.ɪ.dɪs/"}
+{"title":"clitoris","uk":"uk  / ˈklɪt. ə r.ɪs /","ukp":"/ˈklɪt.ər.ɪs/","us":"us  / ˈklɪt̬.ɚ.ɪs /","usp":"/ˈklɪt̬.ɚ.ɪs/"}
+{"title":"cloak","uk":"uk  / kləʊk /","ukp":"/kləʊk/","us":"us  / kloʊk /","usp":"/kloʊk/"}
+{"title":"cloak-and-dagger","uk":"uk  / ˌkləʊk.ənˈdæɡ.ə r /","ukp":"/ˌkləʊk.ənˈdæɡ.ər/","us":"us  / ˌkloʊk.ənˈdæɡ.ɚ /","usp":"/ˌkloʊk.ənˈdæɡ.ɚ/"}
+{"title":"cloaked","uk":"uk  / kləʊk /","ukp":"/kləʊk/","us":"us  / kloʊk /","usp":"/kloʊk/"}
+{"title":"cloaking","uk":"uk  / kləʊk /","ukp":"/kləʊk/","us":"us  / kloʊk /","usp":"/kloʊk/"}
+{"title":"cloakroom","uk":"uk  / ˈkləʊk.ruːm /","ukp":"/ˈkləʊk.ruːm/","us":"us  / ˈkloʊk.ruːm /","usp":"/ˈkloʊk.ruːm/"}
+{"title":"clobber","uk":"uk  / ˈklɒb.ə r /","ukp":"/ˈklɒb.ər/","us":"us  / ˈklɑː.bɚ /","usp":"/ˈklɑː.bɚ/"}
+{"title":"clobbered","uk":"uk  / ˈklɒb.ə r /","ukp":"/ˈklɒb.ər/","us":"us  / ˈklɑː.bɚ /","usp":"/ˈklɑː.bɚ/"}
+{"title":"clobbering","uk":"uk  / ˈklɒb.ə r /","ukp":"/ˈklɒb.ər/","us":"us  / ˈklɑː.bɚ /","usp":"/ˈklɑː.bɚ/"}
+{"title":"cloche","uk":"uk  / klɒʃ /","ukp":"/klɒʃ/","us":"us  / kloʊʃ /","usp":"/kloʊʃ/"}
+{"title":"clock in","uk":"uk  / klɒk /","ukp":"/klɒk/","us":"us  / klɑːk /","usp":"/klɑːk/"}
+{"title":"clock","uk":"uk  / klɒk /","ukp":"/klɒk/","us":"us  / klɑːk /","usp":"/klɑːk/"}
+{"title":"clock out","uk":"uk  / klɒk /","ukp":"/klɒk/","us":"us  / klɑːk /","usp":"/klɑːk/"}
+{"title":"clock something up","uk":"uk  / klɒk /","ukp":"/klɒk/","us":"us  / klɑːk /","usp":"/klɑːk/"}
+{"title":"clock radio","uk":"uk  / ˌklɒk ˈreɪ.di.əʊ /","ukp":"/ˌklɒk ˈreɪ.di.əʊ/","us":"us  / ˌklɑːk ˈreɪ.di.oʊ /","usp":"/ˌklɑːk ˈreɪ.di.oʊ/"}
+{"title":"clock speed","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"clock tower","uk":"uk  / ˈklɒk ˌtaʊ.ə r /","ukp":"/ˈklɒk ˌtaʊ.ər/","us":"us  / ˈklɑːk ˌtaʊ.ɚ /","usp":"/ˈklɑːk ˌtaʊ.ɚ/"}
+{"title":"climate crisis","uk":"uk / ˈklaɪ.mət ˌkraɪ.sɪs /","ukp":"/ˈklaɪ.mət ˌkraɪ.sɪs/","us":"us  / ˈklaɪ.mət ˌkraɪ.sɪs /","usp":"/ˈklaɪ.mət ˌkraɪ.sɪs/"}
+{"title":"climate denialism","uk":"uk  / ˈklaɪ.mət dɪˈnaɪ. ə l.ɪ.z ə m /","ukp":"/ˈklaɪ.mət dɪˈnaɪ.əl.ɪ.zəm/","us":"us  / ˈklaɪ.mət dɪˈnaɪ. ə l.ɪ.z ə m /","usp":"/ˈklaɪ.mət dɪˈnaɪ.əl.ɪ.zəm/"}
+{"title":"climate denialist","uk":"uk  / ˈklaɪ.mət dɪˈnaɪ.ə.lɪst /","ukp":"/ˈklaɪ.mət dɪˈnaɪ.ə.lɪst/","us":"us  / ˈklaɪ.mət dɪˈnaɪ.ə.lɪst /","usp":"/ˈklaɪ.mət dɪˈnaɪ.ə.lɪst/"}
+{"title":"climate denial","uk":"uk  / ˈklaɪ.mət dɪˈnaɪ.əl /","ukp":"/ˈklaɪ.mət dɪˈnaɪ.əl/","us":"us  / ˈklaɪ.mət dɪˈnaɪ.əl /","usp":"/ˈklaɪ.mət dɪˈnaɪ.əl/"}
+{"title":"climate denier","uk":"uk / ˈklaɪ.mət dɪˌnaɪ.ə r /","ukp":"/ˈklaɪ.mət dɪˌnaɪ.ər/","us":"us / ˈklaɪ.mət dɪˌnaɪ.ɚ /","usp":"/ˈklaɪ.mət dɪˌnaɪ.ɚ/"}
+{"title":"climate emergency","uk":"uk  / ˌklaɪ.mət ɪˈmɜː.dʒ ə n.si /","ukp":"/ˌklaɪ.mət ɪˈmɜː.dʒən.si/","us":"us  / ˌklaɪ.mət ɪˈmɜː.dʒ ə n.si /","usp":"/ˌklaɪ.mət ɪˈmɜː.dʒən.si/"}
+{"title":"climate migrant","uk":"uk / ˈklaɪ.mət ˌmaɪ.ɡrənt /","ukp":"/ˈklaɪ.mət ˌmaɪ.ɡrənt/","us":"us  / ˈklaɪ.mət ˌmaɪ.ɡrənt /","usp":"/ˈklaɪ.mət ˌmaɪ.ɡrənt/"}
+{"title":"climate justice","uk":"uk  / ˈklaɪ.mət ˌdʒʌs.tɪs /","ukp":"/ˈklaɪ.mət ˌdʒʌs.tɪs/","us":"us  / ˈklaɪ.mət ˌdʒʌs.tɪs /","usp":"/ˈklaɪ.mət ˌdʒʌs.tɪs/"}
+{"title":"climate strike","uk":"uk  / ˈklaɪ.mət ˌstraɪk /","ukp":"/ˈklaɪ.mət ˌstraɪk/","us":"us / ˈklaɪ.mət ˌstraɪk /","usp":"/ˈklaɪ.mət ˌstraɪk/"}
+{"title":"climate-friendly","uk":"uk  / ˌklaɪ.mətˈfrend.li /","ukp":"/ˌklaɪ.mətˈfrend.li/","us":"us  / ˌklaɪ.mətˈfrend.li /","usp":"/ˌklaɪ.mətˈfrend.li/"}
+{"title":"climate refugee","uk":"uk  / ˈklaɪ.mət ref.juˌdʒiː /","ukp":"/ˈklaɪ.mət ref.juˌdʒiː/","us":"us  / ˈklaɪ.mət ref.jəˌdʒiː /","usp":"/ˈklaɪ.mət ref.jəˌdʒiː/"}
+{"title":"climatological","uk":"uk  / ˌklaɪ.mə.təˈlɒdʒ.ɪ.k ə l /","ukp":"/ˌklaɪ.mə.təˈlɒdʒ.ɪ.kəl/","us":"us  / ˌklaɪ.mə.təˈlɑː.dʒɪ.k ə l /","usp":"/ˌklaɪ.mə.təˈlɑː.dʒɪ.kəl/"}
+{"title":"climatic","uk":"uk  / klaɪˈmæt.ɪk /","ukp":"/klaɪˈmæt.ɪk/","us":"us  / klaɪˈmæt̬.ɪk /","usp":"/klaɪˈmæt̬.ɪk/"}
+{"title":"climatologist","uk":"uk  / ˌklaɪ.məˈtɒl.ə.dʒɪst /","ukp":"/ˌklaɪ.məˈtɒl.ə.dʒɪst/","us":"us  / ˌklaɪ.məˈtɑː.lə.dʒɪst /","usp":"/ˌklaɪ.məˈtɑː.lə.dʒɪst/"}
+{"title":"climatology","uk":"uk  / ˌklaɪ.məˈtɒl.ə.dʒi /","ukp":"/ˌklaɪ.məˈtɒl.ə.dʒi/","us":"us  / ˌklaɪ.məˈtɑː.lə.dʒi /","usp":"/ˌklaɪ.məˈtɑː.lə.dʒi/"}
+{"title":"climaxed","uk":"uk  / ˈklaɪ.mæks /","ukp":"/ˈklaɪ.mæks/","us":"us  / ˈklaɪ.mæks /","usp":"/ˈklaɪ.mæks/"}
+{"title":"climax","uk":"uk  / ˈklaɪ.mæks /","ukp":"/ˈklaɪ.mæks/","us":"us  / ˈklaɪ.mæks /","usp":"/ˈklaɪ.mæks/"}
+{"title":"climaxing","uk":"uk  / ˈklaɪ.mæks /","ukp":"/ˈklaɪ.mæks/","us":"us  / ˈklaɪ.mæks /","usp":"/ˈklaɪ.mæks/"}
+{"title":"climb","uk":"uk  / klaɪm /","ukp":"/klaɪm/","us":"us  / klaɪm /","usp":"/klaɪm/"}
+{"title":"climb down","uk":"uk  / klaɪm /","ukp":"/klaɪm/","us":"us  / klaɪm /","usp":"/klaɪm/"}
+{"title":"climbdown","uk":"uk  / ˈklaɪm.daʊn /","ukp":"/ˈklaɪm.daʊn/","us":"us  / ˈklaɪm.daʊn /","usp":"/ˈklaɪm.daʊn/"}
+{"title":"climbed","uk":"uk  / klaɪm /","ukp":"/klaɪm/","us":"us  / klaɪm /","usp":"/klaɪm/"}
+{"title":"climber","uk":"uk  / ˈklaɪ.mə r /","ukp":"/ˈklaɪ.mər/","us":"us  / ˈklaɪ.mɚ /","usp":"/ˈklaɪ.mɚ/"}
+{"title":"climbing","uk":"uk  / ˈklaɪ.mɪŋ /","ukp":"/ˈklaɪ.mɪŋ/","us":"us  / ˈklaɪ.mɪŋ /","usp":"/ˈklaɪ.mɪŋ/"}
+{"title":"climbing frame","uk":"uk  / ˈklaɪ.mɪŋ ˌfreɪm /","ukp":"/ˈklaɪ.mɪŋ ˌfreɪm/","us":"us  / ˈklaɪ.mɪŋ ˌfreɪm /","usp":"/ˈklaɪ.mɪŋ ˌfreɪm/"}
+{"title":"climbing wall","uk":"uk  / ˈklaɪ.mɪŋ ˌwɔːl /","ukp":"/ˈklaɪ.mɪŋ ˌwɔːl/","us":"us  / ˈklaɪ.mɪŋ ˌwɑːl /","usp":"/ˈklaɪ.mɪŋ ˌwɑːl/"}
+{"title":"clime","uk":"uk  / klaɪmz /","ukp":"/klaɪmz/","us":"us  / klaɪmz /","usp":"/klaɪmz/"}
+{"title":"clin.","uk":"","us":""}
+{"title":"clinch it","uk":"","us":""}
+{"title":"clinch","uk":"uk  / klɪntʃ /","ukp":"/klɪntʃ/","us":"us  / klɪntʃ /","usp":"/klɪntʃ/"}
+{"title":"clinched","uk":"uk  / klɪntʃ /","ukp":"/klɪntʃ/","us":"us  / klɪntʃ /","usp":"/klɪntʃ/"}
+{"title":"clincher","uk":"uk  / ˈklɪn.tʃə r /","ukp":"/ˈklɪn.tʃər/","us":"us  / ˈklɪn.tʃɚ /","usp":"/ˈklɪn.tʃɚ/"}
+{"title":"clinching","uk":"uk  / klɪntʃ /","ukp":"/klɪntʃ/","us":"us  / klɪntʃ /","usp":"/klɪntʃ/"}
+{"title":"cline","uk":"uk  / klaɪn /","ukp":"/klaɪn/","us":"us  / klaɪn /","usp":"/klaɪn/"}
+{"title":"cling (on) to something","uk":"uk  / klɪŋ /","ukp":"/klɪŋ/","us":"us  / klɪŋ /","usp":"/klɪŋ/"}
+{"title":"cling","uk":"uk  / klɪŋ /","ukp":"/klɪŋ/","us":"us  / klɪŋ /","usp":"/klɪŋ/"}
+{"title":"cling film","uk":"uk  / ˈklɪŋ fɪlm /","ukp":"/ˈklɪŋ fɪlm/","us":"us  / ˈklɪŋ fɪlm /","usp":"/ˈklɪŋ fɪlm/"}
+{"title":"cling to something","uk":"uk  / klɪŋ /","ukp":"/klɪŋ/","us":"us  / klɪŋ /","usp":"/klɪŋ/"}
+{"title":"clinging","uk":"uk  / ˈklɪŋ.ɪŋ /","ukp":"/ˈklɪŋ.ɪŋ/","us":"us  / ˈklɪŋ.ɪŋ /","usp":"/ˈklɪŋ.ɪŋ/"}
+{"title":"clingy","uk":"uk  / ˈklɪŋ.i /","ukp":"/ˈklɪŋ.i/","us":"us  / ˈklɪŋ.i /","usp":"/ˈklɪŋ.i/"}
+{"title":"clinical","uk":"uk  / ˈklɪn.ɪ.k ə l /","ukp":"/ˈklɪn.ɪ.kəl/","us":"us  / ˈklɪn.ɪ.k ə l /","usp":"/ˈklɪn.ɪ.kəl/"}
+{"title":"clinic","uk":"uk  / ˈklɪn.ɪk /","ukp":"/ˈklɪn.ɪk/","us":"us  / ˈklɪn.ɪk /","usp":"/ˈklɪn.ɪk/"}
+{"title":"clinical depression","uk":"uk  / ˌklɪn.ɪ.k ə l dɪˈpreʃ. ə n /","ukp":"/ˌklɪn.ɪ.kəl dɪˈpreʃ.ən/","us":"us  / ˌklɪn.ɪ.k ə l dɪˈpreʃ. ə n /","usp":"/ˌklɪn.ɪ.kəl dɪˈpreʃ.ən/"}
+{"title":"clinical governance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"CLU","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"clinical obesity","uk":"uk  / ˌklɪn.ɪ.k ə l əʊˈbiː.sə.ti /","ukp":"/ˌklɪn.ɪ.kəl əʊˈbiː.sə.ti/","us":"us  / ˌklɪn.ɪ.k ə l oʊˈbiː.sə.t̬i /","usp":"/ˌklɪn.ɪ.kəl oʊˈbiː.sə.t̬i/"}
+{"title":"club account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"club","uk":"uk  / klʌb /","ukp":"/klʌb/","us":"us  / klʌb /","usp":"/klʌb/"}
+{"title":"club accounts","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"club cheese","uk":"uk / ˌklʌb ˈtʃiːz /","ukp":"/ˌklʌb ˈtʃiːz/","us":"us / ˈklʌb ˌtʃiːz /","usp":"/ˈklʌb ˌtʃiːz/"}
+{"title":"club sandwich","uk":"uk  / ˌklʌb ˈsæn.wɪdʒ /","ukp":"/ˌklʌb ˈsæn.wɪdʒ/","us":"us  / ˌklʌb ˈsæn.wɪtʃ /","usp":"/ˌklʌb ˈsæn.wɪtʃ/"}
+{"title":"club soda","uk":"uk  / ˌklʌb ˈsəʊ.də /","ukp":"/ˌklʌb ˈsəʊ.də/","us":"us  / ˌklʌb ˈsoʊ.də /","usp":"/ˌklʌb ˈsoʊ.də/"}
+{"title":"club together","uk":"uk  / klʌb /","ukp":"/klʌb/","us":"us  / klʌb /","usp":"/klʌb/"}
+{"title":"club steak","uk":"uk  / ˌklʌb ˈsteɪk /","ukp":"/ˌklʌb ˈsteɪk/","us":"us  / ˈklʌb ˌsteɪk /","usp":"/ˈklʌb ˌsteɪk/"}
+{"title":"clubbed","uk":"","us":""}
+{"title":"clubber","uk":"uk  / ˈklʌb.ə r /","ukp":"/ˈklʌb.ər/","us":"us  / ˈklʌb.ɚ /","usp":"/ˈklʌb.ɚ/"}
+{"title":"clubbing","uk":"uk  / ˈklʌb.ɪŋ /","ukp":"/ˈklʌb.ɪŋ/","us":"us  / ˈklʌb.ɪŋ /","usp":"/ˈklʌb.ɪŋ/"}
+{"title":"clubhouse","uk":"uk  / ˈklʌb.haʊs /","ukp":"/ˈklʌb.haʊs/","us":"us  / ˈklʌb.haʊs /","usp":"/ˈklʌb.haʊs/"}
+{"title":"clubland","uk":"uk  / ˈklʌb.lænd /","ukp":"/ˈklʌb.lænd/","us":"us  / ˈklʌb.lænd /","usp":"/ˈklʌb.lænd/"}
+{"title":"clubs","uk":"","us":"us  / klʌbz /","usp":"/klʌbz/"}
+{"title":"clucked","uk":"uk  / klʌk /","ukp":"/klʌk/","us":"us  / klʌk /","usp":"/klʌk/"}
+{"title":"cluck","uk":"uk  / klʌk /","ukp":"/klʌk/","us":"us  / klʌk /","usp":"/klʌk/"}
+{"title":"clucking","uk":"uk  / klʌk /","ukp":"/klʌk/","us":"us  / klʌk /","usp":"/klʌk/"}
+{"title":"clucky","uk":"uk  / ˈklʌk.i /","ukp":"/ˈklʌk.i/","us":"us  / ˈklʌk.i /","usp":"/ˈklʌk.i/"}
+{"title":"clue in","uk":"uk  / kluː /","ukp":"/kluː/","us":"us  / kluː /","usp":"/kluː/"}
+{"title":"clue","uk":"uk  / kluː /","ukp":"/kluː/","us":"us  / kluː /","usp":"/kluː/"}
+{"title":"clued up","uk":"uk  / ˌkluːd ˈʌp /","ukp":"/ˌkluːd ˈʌp/","us":"us  / ˌkluːd ˈʌp /","usp":"/ˌkluːd ˈʌp/"}
+{"title":"clued in","uk":"uk / ˌkluːd ˈɪn /","ukp":"/ˌkluːd ˈɪn/","us":"us / ˌkluːd ˈɪn /","usp":"/ˌkluːd ˈɪn/"}
+{"title":"clueless","uk":"uk  / ˈkluː.ləs /","ukp":"/ˈkluː.ləs/","us":"us  / ˈkluː.ləs /","usp":"/ˈkluː.ləs/"}
+{"title":"clump","uk":"uk  / klʌmp /","ukp":"/klʌmp/","us":"us  / klʌmp /","usp":"/klʌmp/"}
+{"title":"clumped","uk":"uk  / klʌmp /","ukp":"/klʌmp/","us":"us  / klʌmp /","usp":"/klʌmp/"}
+{"title":"clumping","uk":"uk  / klʌmp /","ukp":"/klʌmp/","us":"us  / klʌmp /","usp":"/klʌmp/"}
+{"title":"clumsily","uk":"uk  / ˈklʌm.z ə l.i /","ukp":"/ˈklʌm.zəl.i/","us":"us  / ˈklʌm.z ə l.i /","usp":"/ˈklʌm.zəl.i/"}
+{"title":"clumsiness","uk":"uk  / ˈklʌm.zi.nəs /","ukp":"/ˈklʌm.zi.nəs/","us":"us  / ˈklʌm.zi.nəs /","usp":"/ˈklʌm.zi.nəs/"}
+{"title":"clumsy","uk":"uk  / ˈklʌm.zi /","ukp":"/ˈklʌm.zi/","us":"us  / ˈklʌm.zi /","usp":"/ˈklʌm.zi/"}
+{"title":"clung","uk":"uk  / klʌŋ /","ukp":"/klʌŋ/","us":"us  / klʌŋ /","usp":"/klʌŋ/"}
+{"title":"clunk","uk":"uk  / klʌŋk /","ukp":"/klʌŋk/","us":"us  / klʌŋk /","usp":"/klʌŋk/"}
+{"title":"clunker","uk":"uk  / ˈklʌŋ.kə r /","ukp":"/ˈklʌŋ.kər/","us":"us  / ˈklʌŋ.kɚ /","usp":"/ˈklʌŋ.kɚ/"}
+{"title":"clunky","uk":"uk  / ˈklʌŋ.ki /","ukp":"/ˈklʌŋ.ki/","us":"us  / ˈklʌŋ.ki /","usp":"/ˈklʌŋ.ki/"}
+{"title":"cluster","uk":"uk  / ˈklʌs.tə r /","ukp":"/ˈklʌs.tər/","us":"us  / ˈklʌs.tɚ /","usp":"/ˈklʌs.tɚ/"}
+{"title":"cluster bomb","uk":"uk  / ˈklʌs.tə ˌbɒm /","ukp":"/ˈklʌs.tə ˌbɒm/","us":"us  / ˈklʌs.tɚ ˌbɑːm /","usp":"/ˈklʌs.tɚ ˌbɑːm/"}
+{"title":"cluster analysis","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cluster headache","uk":"uk  / ˈklʌs.tə ˌhed.eɪk /","ukp":"/ˈklʌs.tə ˌhed.eɪk/","us":"us  / ˈklʌs.tɚ ˌhed.eɪk /","usp":"/ˈklʌs.tɚ ˌhed.eɪk/"}
+{"title":"clusterfuck","uk":"uk  / ˈklʌs.tə.fʌk /","ukp":"/ˈklʌs.tə.fʌk/","us":"us  / ˈklʌs.tɚ.fʌk /","usp":"/ˈklʌs.tɚ.fʌk/"}
+{"title":"clustered","uk":"uk  / ˈklʌs.tə r /","ukp":"/ˈklʌs.tər/","us":"us  / ˈklʌs.tɚ /","usp":"/ˈklʌs.tɚ/"}
+{"title":"clustering","uk":"uk  / ˈklʌs.tə r /","ukp":"/ˈklʌs.tər/","us":"us  / ˈklʌs.tɚ /","usp":"/ˈklʌs.tɚ/"}
+{"title":"clutch at something","uk":"uk  / klʌtʃ /","ukp":"/klʌtʃ/","us":"us  / klʌtʃ /","usp":"/klʌtʃ/"}
+{"title":"clutch","uk":"uk  / klʌtʃ /","ukp":"/klʌtʃ/","us":"us  / klʌtʃ /","usp":"/klʌtʃ/"}
+{"title":"clutch bag","uk":"uk  / ˈklʌtʃ ˌbæɡ /","ukp":"/ˈklʌtʃ ˌbæɡ/","us":"us  / ˈklʌtʃ ˌbæɡ /","usp":"/ˈklʌtʃ ˌbæɡ/"}
+{"title":"clutch your pearls","uk":"","us":""}
+{"title":"clutch/grasp at straws","uk":"","us":""}
+{"title":"clutching","uk":"uk  / klʌtʃ /","ukp":"/klʌtʃ/","us":"us  / klʌtʃ /","usp":"/klʌtʃ/"}
+{"title":"clutched","uk":"uk  / klʌtʃ /","ukp":"/klʌtʃ/","us":"us  / klʌtʃ /","usp":"/klʌtʃ/"}
+{"title":"clutter","uk":"uk  / ˈklʌt.ə r /","ukp":"/ˈklʌt.ər/","us":"us  / ˈklʌt̬.ɚ /","usp":"/ˈklʌt̬.ɚ/"}
+{"title":"cluttered","uk":"uk  / ˈklʌt.əd /","ukp":"/ˈklʌt.əd/","us":"us  / ˈklʌt̬.ɚd /","usp":"/ˈklʌt̬.ɚd/"}
+{"title":"clothes horse","uk":"uk  / ˈkləʊðz ˌhɔːs /","ukp":"/ˈkləʊðz ˌhɔːs/","us":"us  / ˈkloʊðz ˌhɔːrs /","usp":"/ˈkloʊðz ˌhɔːrs/"}
+{"title":"clothes peg","uk":"uk  / ˈkləʊðz ˌpeɡ /","ukp":"/ˈkləʊðz ˌpeɡ/","us":"us  / ˈkloʊðz ˌpeɡ /","usp":"/ˈkloʊðz ˌpeɡ/"}
+{"title":"clothier","uk":"uk / ˈkləʊ.ði.ə r /","ukp":"/ˈkləʊ.ði.ər/","us":"us / ˈkloʊ.ði.ɚ /","usp":"/ˈkloʊ.ði.ɚ/"}
+{"title":"clothesline","uk":"uk  / ˈkləʊðz.laɪn /","ukp":"/ˈkləʊðz.laɪn/","us":"us  / ˈkloʊðz.laɪn /","usp":"/ˈkloʊðz.laɪn/"}
+{"title":"clothespin","uk":"uk  / ˈkləʊðz.pɪn /","ukp":"/ˈkləʊðz.pɪn/","us":"us  / ˈkloʊðz.pɪn /","usp":"/ˈkloʊðz.pɪn/"}
+{"title":"clothing","uk":"uk  / ˈkləʊ.ðɪŋ /","ukp":"/ˈkləʊ.ðɪŋ/","us":"us  / ˈkloʊ.ðɪŋ /","usp":"/ˈkloʊ.ðɪŋ/"}
+{"title":"clotted","uk":"","us":""}
+{"title":"clotted cream","uk":"uk  / ˌklɒt.ɪd ˈkriːm /","ukp":"/ˌklɒt.ɪd ˈkriːm/","us":"us  / ˌklɑː.t̬ɪd ˈkriːm /","usp":"/ˌklɑː.t̬ɪd ˈkriːm/"}
+{"title":"clotting","uk":"uk  / ˈklɒt.ɪŋ /","ukp":"/ˈklɒt.ɪŋ/","us":"us  / ˈklɑːt̬.ɪŋ /","usp":"/ˈklɑːt̬.ɪŋ/"}
+{"title":"cloture","uk":"uk  / ˈkləʊ.tʃʊə r /","ukp":"/ˈkləʊ.tʃʊər/","us":"us  / ˈkloʊ.tʃʊr /","usp":"/ˈkloʊ.tʃʊr/"}
+{"title":"cloud bank","uk":"uk  / ˈklaʊd ˌbæŋk /","ukp":"/ˈklaʊd ˌbæŋk/","us":"us  / ˈklaʊd ˌbæŋk /","usp":"/ˈklaʊd ˌbæŋk/"}
+{"title":"cloud","uk":"uk  / klaʊd /","ukp":"/klaʊd/","us":"us  / klaʊd /","usp":"/klaʊd/"}
+{"title":"cloud chamber","uk":"uk  / ˈklaʊd ˌtʃeɪm.bə r /","ukp":"/ˈklaʊd ˌtʃeɪm.bər/","us":"us  / ˈklaʊd ˌtʃeɪm.bɚ /","usp":"/ˈklaʊd ˌtʃeɪm.bɚ/"}
+{"title":"cloud computing","uk":"uk  / ˌklaʊd kəmˈpjuː.tɪŋ /","ukp":"/ˌklaʊd kəmˈpjuː.tɪŋ/","us":"us  / ˌklaʊd kəmˈpjuː.t̬ɪŋ /","usp":"/ˌklaʊd kəmˈpjuː.t̬ɪŋ/"}
+{"title":"cloud cuckoo land","uk":"uk  / ˌklaʊd ˈkʊk.uː.lænd /","ukp":"/ˌklaʊd ˈkʊk.uː.lænd/","us":"us  / ˌklaʊd ˈkʊk.uː.lænd /","usp":"/ˌklaʊd ˈkʊk.uː.lænd/"}
+{"title":"cloud on title","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"cloud ear","uk":"uk / ˈklaʊd ˌɪə r /","ukp":"/ˈklaʊd ˌɪər/","us":"us / ˈklaʊd ˌɪr /","usp":"/ˈklaʊd ˌɪr/"}
+{"title":"cloud over","uk":"uk  / klaʊd /","ukp":"/klaʊd/","us":"us  / klaʊd /","usp":"/klaʊd/"}
+{"title":"cloud over/up","uk":"","us":"us  / klɑʊd /","usp":"/klɑʊd/"}
+{"title":"cloud seeder","uk":"uk  / ˈklaʊd ˌsiː.də r /","ukp":"/ˈklaʊd ˌsiː.dər/","us":"us  / ˈklaʊd ˌsiː.dɚ /","usp":"/ˈklaʊd ˌsiː.dɚ/"}
+{"title":"cloud storage","uk":"uk  / ˈklaʊd ˌstɔː.rɪdʒ /","ukp":"/ˈklaʊd ˌstɔː.rɪdʒ/","us":"us  / ˈklaʊd ˌstɔːr.ɪdʒ /","usp":"/ˈklaʊd ˌstɔːr.ɪdʒ/"}
+{"title":"cloud seeding","uk":"uk  / ˈklaʊd ˌsiː.dɪŋ /","ukp":"/ˈklaʊd ˌsiː.dɪŋ/","us":"us  / ˈklaʊd ˌsiː.dɪŋ /","usp":"/ˈklaʊd ˌsiː.dɪŋ/"}
+{"title":"cloud-capped","uk":"uk  / ˈklaʊd.kæpt /","ukp":"/ˈklaʊd.kæpt/","us":"us  / ˈklaʊd.kæpt /","usp":"/ˈklaʊd.kæpt/"}
+{"title":"cloudberry","uk":"uk  / ˈklaʊd.b ə r.i /","ukp":"/ˈklaʊd.bər.i/","us":"us  / ˈklaʊd.ber.i /","usp":"/ˈklaʊd.ber.i/"}
+{"title":"clouded","uk":"uk  / klaʊd /","ukp":"/klaʊd/","us":"us  / klaʊd /","usp":"/klaʊd/"}
+{"title":"cloudburst","uk":"uk  / ˈklaʊd.bɜːst /","ukp":"/ˈklaʊd.bɜːst/","us":"us  / ˈklaʊd.bɝːst /","usp":"/ˈklaʊd.bɝːst/"}
+{"title":"clouding","uk":"uk  / klaʊd /","ukp":"/klaʊd/","us":"us  / klaʊd /","usp":"/klaʊd/"}
+{"title":"cloudware","uk":"uk  / ˈklaʊd.weə r /","ukp":"/ˈklaʊd.weər/","us":"us  / ˈklaʊd.wer /","usp":"/ˈklaʊd.wer/"}
+{"title":"cloudscape","uk":"uk  / ˈklaʊd.skeɪp /","ukp":"/ˈklaʊd.skeɪp/","us":"us  / ˈklaʊd.skeɪp /","usp":"/ˈklaʊd.skeɪp/"}
+{"title":"cloudless","uk":"uk  / ˈklaʊd.ləs /","ukp":"/ˈklaʊd.ləs/","us":"us  / ˈklaʊd.ləs /","usp":"/ˈklaʊd.ləs/"}
+{"title":"clouted","uk":"uk  / klaʊt /","ukp":"/klaʊt/","us":"us  / klaʊt /","usp":"/klaʊt/"}
+{"title":"cloudy","uk":"uk  / ˈklaʊ.di /","ukp":"/ˈklaʊ.di/","us":"us  / ˈklaʊ.di /","usp":"/ˈklaʊ.di/"}
+{"title":"clouting","uk":"uk  / klaʊt /","ukp":"/klaʊt/","us":"us  / klaʊt /","usp":"/klaʊt/"}
+{"title":"clout","uk":"uk  / klaʊt /","ukp":"/klaʊt/","us":"us  / klaʊt /","usp":"/klaʊt/"}
+{"title":"clove hitch","uk":"uk  / ˈkləʊv ˌhɪtʃ /","ukp":"/ˈkləʊv ˌhɪtʃ/","us":"us  / ˈkloʊv ˌhɪtʃ /","usp":"/ˈkloʊv ˌhɪtʃ/"}
+{"title":"clove","uk":"uk  / kləʊv /","ukp":"/kləʊv/","us":"us  / kloʊv /","usp":"/kloʊv/"}
+{"title":"cloven","uk":"uk  / ˈkləʊ.v ə n /","ukp":"/ˈkləʊ.vən/","us":"us  / ˈkloʊ.v ə n /","usp":"/ˈkloʊ.vən/"}
+{"title":"clover","uk":"uk  / ˈkləʊ.və r /","ukp":"/ˈkləʊ.vər/","us":"us  / ˈkloʊ.vɚ /","usp":"/ˈkloʊ.vɚ/"}
+{"title":"cloverleaves","uk":"","us":""}
+{"title":"cloverleaf","uk":"uk  / ˈkləʊ.vəˌliːf /","ukp":"/ˈkləʊ.vəˌliːf/","us":"us  / ˈkloʊ.vɚˌliːf /","usp":"/ˈkloʊ.vɚˌliːf/"}
+{"title":"clown","uk":"uk  / klaʊn /","ukp":"/klaʊn/","us":"us  / klaʊn /","usp":"/klaʊn/"}
+{"title":"clowned","uk":"uk  / klaʊn /","ukp":"/klaʊn/","us":"us  / klaʊn /","usp":"/klaʊn/"}
+{"title":"cloy","uk":"uk  / klɔɪ /","ukp":"/klɔɪ/","us":"us  / klɔɪ /","usp":"/klɔɪ/"}
+{"title":"clownfish","uk":"uk  / ˈklaʊn.fɪʃ /","ukp":"/ˈklaʊn.fɪʃ/","us":"us  / ˈklaʊn.fɪʃ /","usp":"/ˈklaʊn.fɪʃ/"}
+{"title":"clowning","uk":"uk  / klaʊn /","ukp":"/klaʊn/","us":"us  / klaʊn /","usp":"/klaʊn/"}
+{"title":"cloying","uk":"uk  / ˈklɔɪ.ɪŋ /","ukp":"/ˈklɔɪ.ɪŋ/","us":"us  / ˈklɔɪ.ɪŋ /","usp":"/ˈklɔɪ.ɪŋ/"}
+{"title":"cloyingly","uk":"uk  / ˈklɔɪ.ɪŋ.li /","ukp":"/ˈklɔɪ.ɪŋ.li/","us":"us  / ˈklɔɪ.ɪŋ.li /","usp":"/ˈklɔɪ.ɪŋ.li/"}
+{"title":"clozapine","uk":"uk  / ˈkləʊz.ə.piːn /","ukp":"/ˈkləʊz.ə.piːn/","us":"us  / ˈkloʊ.zəˌpiːn /","usp":"/ˈkloʊ.zəˌpiːn/"}
+{"title":"cloze test","uk":"uk  / ˈkləʊz ˌtest /","ukp":"/ˈkləʊz ˌtest/","us":"us  / ˈklouz ˌtest /","usp":"/ˈklouz ˌtest/"}
+{"title":"close-up","uk":"uk  / ˈkləʊs.ʌp /","ukp":"/ˈkləʊs.ʌp/","us":"us  / ˈkloʊs.ʌp /","usp":"/ˈkloʊs.ʌp/"}
+{"title":"close/shut the door on something","uk":"","us":""}
+{"title":"closed","uk":"uk  / kləʊzd /","ukp":"/kləʊzd/","us":"us  / kloʊzd /","usp":"/kloʊzd/"}
+{"title":"closed bid","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"closed book","uk":"uk  / ˌkləʊzd ˈbʊk /","ukp":"/ˌkləʊzd ˈbʊk/","us":"us  / ˌkloʊzd ˈbʊk /","usp":"/ˌkloʊzd ˈbʊk/"}
+{"title":"close-set","uk":"uk  / ˌkləʊsˈset /","ukp":"/ˌkləʊsˈset/","us":"us  / ˌkloʊsˈset /","usp":"/ˌkloʊsˈset/"}
+{"title":"closed company","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"closed market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"closed season","uk":"uk  / ˈkləʊzd ˌsiː.z ə n /","ukp":"/ˈkləʊzd ˌsiː.zən/","us":"us  / ˈkloʊzd ˌsiː.z ə n /","usp":"/ˈkloʊzd ˌsiː.zən/"}
+{"title":"closed shop","uk":"uk  / ˌkləʊzd ˈʃɒp /","ukp":"/ˌkləʊzd ˈʃɒp/","us":"us  / ˌkloʊzd ˈʃɑːp /","usp":"/ˌkloʊzd ˈʃɑːp/"}
+{"title":"closed-casket","uk":"uk  / ˌkləʊzdˈkɑː.skɪt /","ukp":"/ˌkləʊzdˈkɑː.skɪt/","us":"us  / ˌkloʊzdˈkæs.kɪt /","usp":"/ˌkloʊzdˈkæs.kɪt/"}
