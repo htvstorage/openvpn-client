@@ -1,0 +1,950 @@
+{"title":"ringed seal","uk":"uk  / ˌrɪŋd ˈsiːl /","ukp":"/ˌrɪŋd ˈsiːl/","us":"us  / ˌrɪŋd ˈsiːl /","usp":"/ˌrɪŋd ˈsiːl/"}
+{"title":"ringer","uk":"uk  / ˈrɪŋ.ə r /","ukp":"/ˈrɪŋ.ər/","us":"us  / ˈrɪŋ.ɚ /","usp":"/ˈrɪŋ.ɚ/"}
+{"title":"ringette","uk":"uk  / rɪŋˈet /","ukp":"/rɪŋˈet/","us":"us  / rɪŋˈet /","usp":"/rɪŋˈet/"}
+{"title":"ringgit","uk":"uk  / ˈrɪŋ.ɡɪt /","ukp":"/ˈrɪŋ.ɡɪt/","us":"us  / ˈrɪŋ.ɡɪt /","usp":"/ˈrɪŋ.ɡɪt/"}
+{"title":"ringleader","uk":"uk  / ˈrɪŋˌliː.də r /","ukp":"/ˈrɪŋˌliː.dər/","us":"us  / ˈrɪŋˌliː.dɚ /","usp":"/ˈrɪŋˌliː.dɚ/"}
+{"title":"ringlet","uk":"uk  / ˈrɪŋ.lət /","ukp":"/ˈrɪŋ.lət/","us":"us  / ˈrɪŋ.lət /","usp":"/ˈrɪŋ.lət/"}
+{"title":"ringmaster","uk":"uk  / ˈrɪŋˌmɑː.stə r /","ukp":"/ˈrɪŋˌmɑː.stər/","us":"us  / ˈrɪŋˌmæs.tɚ /","usp":"/ˈrɪŋˌmæs.tɚ/"}
+{"title":"ringside","uk":"uk  / ˈrɪŋ.saɪd /","ukp":"/ˈrɪŋ.saɪd/","us":"us  / ˈrɪŋ.saɪd /","usp":"/ˈrɪŋ.saɪd/"}
+{"title":"ringtoss","uk":"uk  / ˈrɪŋ.tɒs /","ukp":"/ˈrɪŋ.tɒs/","us":"us  / ˈrɪŋ.tɑːs /","usp":"/ˈrɪŋ.tɑːs/"}
+{"title":"ringtone","uk":"uk  / ˈrɪŋ.təʊn /","ukp":"/ˈrɪŋ.təʊn/","us":"us  / ˈrɪŋ.toʊn /","usp":"/ˈrɪŋ.toʊn/"}
+{"title":"ringworm","uk":"uk  / ˈrɪŋ.wɜːm /","ukp":"/ˈrɪŋ.wɜːm/","us":"us  / ˈrɪŋ.wɝːm /","usp":"/ˈrɪŋ.wɝːm/"}
+{"title":"rink","uk":"uk  / rɪŋk /","ukp":"/rɪŋk/","us":"us  / rɪŋk /","usp":"/rɪŋk/"}
+{"title":"rink hockey","uk":"uk  / ˈrɪŋk ˌhɒk.i /","ukp":"/ˈrɪŋk ˌhɒk.i/","us":"us  / ˈrɪŋk ˌhɑː.ki /","usp":"/ˈrɪŋk ˌhɑː.ki/"}
+{"title":"rinky-dink","uk":"uk  / ˈrɪŋ.ki.dɪŋk /","ukp":"/ˈrɪŋ.ki.dɪŋk/","us":"us  / ˈrɪŋ.ki.dɪŋk /","usp":"/ˈrɪŋ.ki.dɪŋk/"}
+{"title":"rinse something out","uk":"uk  / rɪns /","ukp":"/rɪns/","us":"us  / rɪns /","usp":"/rɪns/"}
+{"title":"rinse aid","uk":"uk  / ˈrɪns ˌeɪd /","ukp":"/ˈrɪns ˌeɪd/","us":"us  / ˈrɪns ˌeɪd /","usp":"/ˈrɪns ˌeɪd/"}
+{"title":"rinse","uk":"uk  / rɪns /","ukp":"/rɪns/","us":"us  / rɪns /","usp":"/rɪns/"}
+{"title":"rinsed","uk":"uk  / rɪns /","ukp":"/rɪns/","us":"us  / rɪns /","usp":"/rɪns/"}
+{"title":"rinsing","uk":"uk  / rɪns /","ukp":"/rɪns/","us":"us  / rɪns /","usp":"/rɪns/"}
+{"title":"Rioja","uk":"uk  / riːˈɒ.kə /","ukp":"/riːˈɒ.kə/","us":"us  / riːˈɑː.kə /","usp":"/riːˈɑː.kə/"}
+{"title":"riot gear","uk":"uk  / ˈraɪ.ət ˌɡɪə r /","ukp":"/ˈraɪ.ət ˌɡɪər/","us":"us  / ˈraɪ.ət ˌɡɪr /","usp":"/ˈraɪ.ət ˌɡɪr/"}
+{"title":"riot","uk":"uk  / ˈraɪ.ət /","ukp":"/ˈraɪ.ət/","us":"us  / ˈraɪ.ət /","usp":"/ˈraɪ.ət/"}
+{"title":"riot police","uk":"uk  / ˈraɪ.ət pəˌliːs /","ukp":"/ˈraɪ.ət pəˌliːs/","us":"us  / ˈraɪ.ət pəˌliːs /","usp":"/ˈraɪ.ət pəˌliːs/"}
+{"title":"rioted","uk":"uk  / ˈraɪ.ət /","ukp":"/ˈraɪ.ət/","us":"us  / ˈraɪ.ət /","usp":"/ˈraɪ.ət/"}
+{"title":"rioting","uk":"uk  / ˈraɪ.ə.tɪŋ /","ukp":"/ˈraɪ.ə.tɪŋ/","us":"us  / ˈraɪ.ə.t̬ɪŋ /","usp":"/ˈraɪ.ə.t̬ɪŋ/"}
+{"title":"rioter","uk":"uk  / ˈraɪ.ə.tə r /","ukp":"/ˈraɪ.ə.tər/","us":"us  / ˈraɪ.ə.t̬ɚ /","usp":"/ˈraɪ.ə.t̬ɚ/"}
+{"title":"riotous","uk":"uk  / ˈraɪ.ə.təs /","ukp":"/ˈraɪ.ə.təs/","us":"us  / ˈraɪ.ə.t̬əs /","usp":"/ˈraɪ.ə.t̬əs/"}
+{"title":"riotously","uk":"uk  / ˈraɪ.ə.təs.li /","ukp":"/ˈraɪ.ə.təs.li/","us":"us  / ˈraɪ.ə.t̬əs.li /","usp":"/ˈraɪ.ə.t̬əs.li/"}
+{"title":"riotousness","uk":"uk  / ˈraɪ.ə.təs.nəs /","ukp":"/ˈraɪ.ə.təs.nəs/","us":"us  / ˈraɪ.ə.t̬əs.nəs /","usp":"/ˈraɪ.ə.t̬əs.nəs/"}
+{"title":"rip","uk":"uk  / rɪp /","ukp":"/rɪp/","us":"us  / rɪp /","usp":"/rɪp/"}
+{"title":"rip current","uk":"uk  / ˈrɪp ˌkʌr. ə nt /","ukp":"/ˈrɪp ˌkʌr.ənt/","us":"us  / ˈrɪp ˌkɝː. ə nt /","usp":"/ˈrɪp ˌkɝː.ənt/"}
+{"title":"rip into sb/sth","uk":"uk  / rɪp /","ukp":"/rɪp/","us":"us  / rɪp /","usp":"/rɪp/"}
+{"title":"roo","uk":"uk  / ruː /","ukp":"/ruː/","us":"us  / ruː /","usp":"/ruː/"}
+{"title":"rood screen","uk":"uk  / ˈruːd ˌskriːn /","ukp":"/ˈruːd ˌskriːn/","us":"us  / ˈruːd ˌskriːn /","usp":"/ˈruːd ˌskriːn/"}
+{"title":"roof","uk":"uk  / ruːf /","ukp":"/ruːf/","us":"us  / ruːf /","usp":"/ruːf/"}
+{"title":"roof garden","uk":"uk  / ˈruːf ˌɡɑː.d ə n /","ukp":"/ˈruːf ˌɡɑː.dən/","us":"us  / ˈruːf ˌɡɑːr.d ə n /","usp":"/ˈruːf ˌɡɑːr.dən/"}
+{"title":"roof rack","uk":"uk  / ˈruːf ˌræk /","ukp":"/ˈruːf ˌræk/","us":"us  / ˈruːf ˌræk /","usp":"/ˈruːf ˌræk/"}
+{"title":"roof something in/over","uk":"uk  / ruːf /","ukp":"/ruːf/","us":"us  / ruːf /","usp":"/ruːf/"}
+{"title":"-roofed","uk":"uk  / -ruːft /","ukp":"/ -ruːft/","us":"us  / -ruːft /","usp":"/ -ruːft/"}
+{"title":"roofer","uk":"uk  / ˈruː.fə r /","ukp":"/ˈruː.fər/","us":"us  / ˈruː.fɚ /","usp":"/ˈruː.fɚ/"}
+{"title":"roofie","uk":"uk  / ˈruː.fi /","ukp":"/ˈruː.fi/","us":"us  / ˈruː.fi /","usp":"/ˈruː.fi/"}
+{"title":"roofing","uk":"uk  / ˈruː.fɪŋ /","ukp":"/ˈruː.fɪŋ/","us":"us  / ˈruː.fɪŋ /","usp":"/ˈruː.fɪŋ/"}
+{"title":"roofless","uk":"uk  / ˈruːf.ləs /","ukp":"/ˈruːf.ləs/","us":"us  / ˈruːf.ləs /","usp":"/ˈruːf.ləs/"}
+{"title":"roofscape","uk":"uk  / ˈruːf.skeɪp /","ukp":"/ˈruːf.skeɪp/","us":"us  / ˈruːf.skeɪp /","usp":"/ˈruːf.skeɪp/"}
+{"title":"rooftop","uk":"uk  / ˈruːf.tɒp /","ukp":"/ˈruːf.tɒp/","us":"us  / ˈruːf.tɑːp /","usp":"/ˈruːf.tɑːp/"}
+{"title":"rooibos","uk":"uk  / ˈrɔɪ.bɒs /","ukp":"/ˈrɔɪ.bɒs/","us":"us  / ˈrɔɪ.bɔːs /","usp":"/ˈrɔɪ.bɔːs/"}
+{"title":"rooked","uk":"uk  / rʊk /","ukp":"/rʊk/","us":"us  / rʊk /","usp":"/rʊk/"}
+{"title":"rook","uk":"uk  / rʊk /","ukp":"/rʊk/","us":"us  / rʊk /","usp":"/rʊk/"}
+{"title":"rookery","uk":"uk  / ˈrʊk. ə r.i /","ukp":"/ˈrʊk.ər.i/","us":"us  / ˈrʊk.ɚ.i /","usp":"/ˈrʊk.ɚ.i/"}
+{"title":"rookie card","uk":"uk  / ˈrʊk.i ˌkɑːd /","ukp":"/ˈrʊk.i ˌkɑːd/","us":"us  / ˈrʊk.i ˌkɑːrd /","usp":"/ˈrʊk.i ˌkɑːrd/"}
+{"title":"rookie mistake","uk":"uk  / ˈrʊk.i mɪˌsteɪk /","ukp":"/ˈrʊk.i mɪˌsteɪk/","us":"us  / ˌrʊk.i mɪˈsteɪk /","usp":"/ˌrʊk.i mɪˈsteɪk/"}
+{"title":"rookie","uk":"uk  / ˈrʊk.i /","ukp":"/ˈrʊk.i/","us":"us  / ˈrʊk.i /","usp":"/ˈrʊk.i/"}
+{"title":"rooking","uk":"uk  / rʊk /","ukp":"/rʊk/","us":"us  / rʊk /","usp":"/rʊk/"}
+{"title":"room and board","uk":"uk  / ˌruːm ən ˈbɔːd /","ukp":"/ˌruːm ən ˈbɔːd/","us":"us  / ˌruːm ən ˈbɔːrd /","usp":"/ˌruːm ən ˈbɔːrd/"}
+{"title":"room for doubt","uk":"","us":""}
+{"title":"room","uk":"uk  / ruːm /","ukp":"/ruːm/","us":"us  / ruːm /","usp":"/ruːm/"}
+{"title":"room for maneuver","uk":"","us":""}
+{"title":"room for improvement","uk":"","us":""}
+{"title":"room for manoeuvre","uk":"","us":""}
+{"title":"room heater","uk":"uk  / ˈruːm ˌhiː.tə r /","ukp":"/ˈruːm ˌhiː.tər/","us":"us  / ˈruːm ˌhiː.t̬ɚ /","usp":"/ˈruːm ˌhiː.t̬ɚ/"}
+{"title":"room parent","uk":"uk  / ˈruːm ˌpeə.r ə nt /","ukp":"/ˈruːm ˌpeə.rənt/","us":"us  / ˈruːm ˌper. ə nt /","usp":"/ˈruːm ˌper.ənt/"}
+{"title":"roomed","uk":"uk  / ruːm /","ukp":"/ruːm/","us":"us  / ruːm /","usp":"/ruːm/"}
+{"title":"room service","uk":"uk  / ˈruːm ˌsɜː.vɪs /","ukp":"/ˈruːm ˌsɜː.vɪs/","us":"us  / ˈruːm ˌsɝː.vɪs /","usp":"/ˈruːm ˌsɝː.vɪs/"}
+{"title":"room temperature","uk":"uk  / ˈruːm ˌtem.prə.tʃə r /","ukp":"/ˈruːm ˌtem.prə.tʃər/","us":"us  / ˈruːm ˌtem.pɚ.ə.tʃɚ /","usp":"/ˈruːm ˌtem.pɚ.ə.tʃɚ/"}
+{"title":"roomer","uk":"uk  / ˈruː.mə r /","ukp":"/ˈruː.mər/","us":"us  / ˈruː.mɚ /","usp":"/ˈruː.mɚ/"}
+{"title":"roomful","uk":"uk  / ˈruːm.fʊl /","ukp":"/ˈruːm.fʊl/","us":"us  / ˈruːm.fʊl /","usp":"/ˈruːm.fʊl/"}
+{"title":"roomie","uk":"uk  / ˈruː.mi /","ukp":"/ˈruː.mi/","us":"us  / ˈruː.mi /","usp":"/ˈruː.mi/"}
+{"title":"rooming house","uk":"uk  / ˈruː.mɪŋ ˌhaʊs /","ukp":"/ˈruː.mɪŋ ˌhaʊs/","us":"us  / ˈruː.mɪŋ ˌhaʊs /","usp":"/ˈruː.mɪŋ ˌhaʊs/"}
+{"title":"rooming-in","uk":"uk  / ˌruː.mɪŋˈɪn /","ukp":"/ˌruː.mɪŋˈɪn/","us":"us  / ˌruː.mɪŋˈɪn /","usp":"/ˌruː.mɪŋˈɪn/"}
+{"title":"roommate","uk":"uk  / ˈruːm.meɪt /","ukp":"/ˈruːm.meɪt/","us":"us  / ˈruːm.meɪt /","usp":"/ˈruːm.meɪt/"}
+{"title":"rooming","uk":"uk  / ruːm /","ukp":"/ruːm/","us":"us  / ruːm /","usp":"/ruːm/"}
+{"title":"roomy","uk":"uk  / ˈruː.mi /","ukp":"/ˈruː.mi/","us":"us  / ˈruː.mi /","usp":"/ˈruː.mi/"}
+{"title":"roost","uk":"uk  / ruːst /","ukp":"/ruːst/","us":"us  / ruːst /","usp":"/ruːst/"}
+{"title":"roosted","uk":"uk  / ruːst /","ukp":"/ruːst/","us":"us  / ruːst /","usp":"/ruːst/"}
+{"title":"roosting","uk":"uk  / ruːst /","ukp":"/ruːst/","us":"us  / ruːst /","usp":"/ruːst/"}
+{"title":"rooster","uk":"uk  / ˈruː.stə r /","ukp":"/ˈruː.stər/","us":"us  / ˈruː.stɚ /","usp":"/ˈruː.stɚ/"}
+{"title":"root","uk":"uk  / ruːt /","ukp":"/ruːt/","us":"us  / ruːt /","usp":"/ruːt/"}
+{"title":"root and branch","uk":"","us":""}
+{"title":"root around (somewhere)","uk":"uk  / ruːt /","ukp":"/ruːt/","us":"us  / ruːt /","usp":"/ruːt/"}
+{"title":"role reversal","uk":"uk  / ˈrəʊl rɪˌvɜː.s ə l /","ukp":"/ˈrəʊl rɪˌvɜː.səl/","us":"us  / ˈroʊl rɪˌvɝː.s ə l /","usp":"/ˈroʊl rɪˌvɝː.səl/"}
+{"title":"role-playing game","uk":"uk  / ˈrəʊl.pleɪ.ɪŋ ˌɡeɪm /","ukp":"/ˈrəʊl.pleɪ.ɪŋ ˌɡeɪm/","us":"us  / ˈroʊl.pleɪ.ɪŋ ˌɡeɪm /","usp":"/ˈroʊl.pleɪ.ɪŋ ˌɡeɪm/"}
+{"title":"role-play","uk":"uk  / ˈrəʊlˌpleɪ /","ukp":"/ˈrəʊlˌpleɪ/","us":"us  / ˈroʊlˌpleɪ /","usp":"/ˈroʊlˌpleɪ/"}
+{"title":"roll around","uk":"uk  / rəʊl /","ukp":"/rəʊl/","us":"us  / roʊl /","usp":"/roʊl/"}
+{"title":"roll (something) out","uk":"uk  / rəʊl /","ukp":"/rəʊl/","us":"us  / roʊl /","usp":"/roʊl/"}
+{"title":"roll","uk":"uk  / rəʊl /","ukp":"/rəʊl/","us":"us  / roʊl /","usp":"/roʊl/"}
+{"title":"roll by","uk":"uk  / rəʊl /","ukp":"/rəʊl/","us":"us  / roʊl /","usp":"/roʊl/"}
+{"title":"roll call","uk":"uk  / ˈrəʊl ˌkɔːl /","ukp":"/ˈrəʊl ˌkɔːl/","us":"us  / ˈroʊl ˌkɑːl /","usp":"/ˈroʊl ˌkɑːl/"}
+{"title":"roll back something","uk":"uk  / rəʊl /","ukp":"/rəʊl/","us":"us  / roʊl /","usp":"/roʊl/"}
+{"title":"roll in","uk":"uk  / rəʊl /","ukp":"/rəʊl/","us":"us  / roʊl /","usp":"/roʊl/"}
+{"title":"roll bar","uk":"uk  / ˈrəʊl ˌbɑː r /","ukp":"/ˈrəʊl ˌbɑːr/","us":"us  / ˈroʊl ˌbɑːr /","usp":"/ˈroʊl ˌbɑːr/"}
+{"title":"roll neck","uk":"uk  / ˈrəʊl nek /","ukp":"/ˈrəʊl nek/","us":"us  / ˈroʊl nek /","usp":"/ˈroʊl nek/"}
+{"title":"roll of honour","uk":"uk  / ˌrəʊl əv ˈɒn.ə r /","ukp":"/ˌrəʊl əv ˈɒn.ər/","us":"us  / ˌroʊl əv ˈɑː.nɚ /","usp":"/ˌroʊl əv ˈɑː.nɚ/"}
+{"title":"roll on the weekend, five o'clock, etc.","uk":"","us":""}
+{"title":"roll out the red carpet (for someone )","uk":"","us":""}
+{"title":"roll out the red carpet","uk":"","us":""}
+{"title":"roll up your sleeves","uk":"","us":""}
+{"title":"roll over","uk":"uk  / rəʊl /","ukp":"/rəʊl/","us":"us  / roʊl /","usp":"/roʊl/"}
+{"title":"roll up!","uk":"uk  / rəʊl /","ukp":"/rəʊl/","us":"us  / roʊl /","usp":"/roʊl/"}
+{"title":"roll your eyes","uk":"","us":""}
+{"title":"roll with the punches","uk":"","us":""}
+{"title":"roll your eyes","uk":"","us":""}
+{"title":"roll-on","uk":"uk  / ˈrəʊl.ɒŋ /","ukp":"/ˈrəʊl.ɒŋ/","us":"us  / ˈroʊl.ɑːn /","usp":"/ˈroʊl.ɑːn/"}
+{"title":"roll-on roll-off","uk":"uk  / ˌrəʊlˌɒn ˌrəʊlˈɒf /","ukp":"/ˌrəʊlˌɒn ˌrəʊlˈɒf/","us":"us  / ˌroʊlˌɑːn ˌroʊlˈɑːf /","usp":"/ˌroʊlˌɑːn ˌroʊlˈɑːf/"}
+{"title":"roll-your-own","uk":"uk  / ˌrəʊl.jɔːrˈəʊn /","ukp":"/ˌrəʊl.jɔːrˈəʊn/","us":"us  / ˌroʊl.jʊrˈoʊn /","usp":"/ˌroʊl.jʊrˈoʊn/"}
+{"title":"rollaway","uk":"uk  / ˈrəʊl.ə.weɪ /","ukp":"/ˈrəʊl.ə.weɪ/","us":"us  / ˈroʊl.ə.weɪ /","usp":"/ˈroʊl.ə.weɪ/"}
+{"title":"rollback","uk":"uk  / ˈrəʊl.bæk /","ukp":"/ˈrəʊl.bæk/","us":"us  / ˈroʊl.bæk /","usp":"/ˈroʊl.bæk/"}
+{"title":"rolled","uk":"uk  / rəʊl /","ukp":"/rəʊl/","us":"us  / roʊl /","usp":"/roʊl/"}
+{"title":"rolled gold","uk":"uk  / ˌrəʊld ˈɡəʊld /","ukp":"/ˌrəʊld ˈɡəʊld/","us":"us  / ˌroʊld ˈɡoʊld /","usp":"/ˌroʊld ˈɡoʊld/"}
+{"title":"rolled into one","uk":"","us":""}
+{"title":"rolled oats","uk":"uk  / ˌrəʊld ˈəʊts /","ukp":"/ˌrəʊld ˈəʊts/","us":"us  / ˌroʊld ˈoʊts /","usp":"/ˌroʊld ˈoʊts/"}
+{"title":"roller","uk":"uk  / ˈrəʊ.lə r /","ukp":"/ˈrəʊ.lər/","us":"us  / ˈroʊ.lɚ /","usp":"/ˈroʊ.lɚ/"}
+{"title":"roller blind","uk":"uk  / ˈrəʊ.lə ˌblaɪnd /","ukp":"/ˈrəʊ.lə ˌblaɪnd/","us":"us  / ˈroʊ.lɚ ˌblaɪnd /","usp":"/ˈroʊ.lɚ ˌblaɪnd/"}
+{"title":"roller coaster","uk":"uk ","ukp":"","us":"us  / ˈroʊ·lər ˌkoʊ·stər /","usp":"/ˈroʊ·lər ˌkoʊ·stər/"}
+{"title":"roller derby","uk":"uk  / ˈrəʊ.lə ˌdɑː.bi /","ukp":"/ˈrəʊ.lə ˌdɑː.bi/","us":"us  / ˈroʊ.lɚ ˌdɝː.bi /","usp":"/ˈroʊ.lɚ ˌdɝː.bi/"}
+{"title":"roller towel","uk":"uk  / ˈrəʊ.lə ˌtaʊəl /","ukp":"/ˈrəʊ.lə ˌtaʊəl/","us":"us  / ˈroʊ.lɚ ˌtaʊəl /","usp":"/ˈroʊ.lɚ ˌtaʊəl/"}
+{"title":"roller skate","uk":"uk  / ˈrəʊ.lə skeɪt /","ukp":"/ˈrəʊ.lə skeɪt/","us":"us  / ˈroʊ.lɚ skeɪt /","usp":"/ˈroʊ.lɚ skeɪt/"}
+{"title":"roller-skating","uk":"uk  / ˈrəʊ.lə.skeɪ.tɪŋ /","ukp":"/ˈrəʊ.lə.skeɪ.tɪŋ/","us":"us  / ˈroʊ.lɚ.skeɪ.t̬ɪŋ /","usp":"/ˈroʊ.lɚ.skeɪ.t̬ɪŋ/"}
+{"title":"rollerblading","uk":"uk  / ˈrəʊ.ləˌbleɪ.dɪŋ /","ukp":"/ˈrəʊ.ləˌbleɪ.dɪŋ/","us":"us  / ˈroʊ.lɚˌbleɪ.dɪŋ /","usp":"/ˈroʊ.lɚˌbleɪ.dɪŋ/"}
+{"title":"Rollerblade","uk":"uk  / ˈrəʊ.lə.bleɪd /","ukp":"/ˈrəʊ.lə.bleɪd/","us":"us  / ˈroʊ.lɚ.bleɪd /","usp":"/ˈroʊ.lɚ.bleɪd/"}
+{"title":"rollercoaster","uk":"uk  / ˈrəʊ.ləˌkəʊ.stə r /","ukp":"/ˈrəʊ.ləˌkəʊ.stər/","us":"us  / ˈroʊ.lɚˌkoʊ.stɚ /","usp":"/ˈroʊ.lɚˌkoʊ.stɚ/"}
+{"title":"rollicking","uk":"uk  / ˈrɒl.ɪ.kɪŋ /","ukp":"/ˈrɒl.ɪ.kɪŋ/","us":"us  / ˈrɑː.lɪ.kɪŋ /","usp":"/ˈrɑː.lɪ.kɪŋ/"}
+{"title":"rolling","uk":"uk  / ˈrəʊ.lɪŋ /","ukp":"/ˈrəʊ.lɪŋ/","us":"us  / ˈroʊ.lɪŋ /","usp":"/ˈroʊ.lɪŋ/"}
+{"title":"rolling contract","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rolling mill","uk":"uk  / ˈrəʊ.lɪŋ ˌmɪl /","ukp":"/ˈrəʊ.lɪŋ ˌmɪl/","us":"us  / ˈroʊ.lɪŋ ˌmɪl /","usp":"/ˈroʊ.lɪŋ ˌmɪl/"}
+{"title":"rolling in the aisles","uk":"","us":""}
+{"title":"rolling settlement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rolling pin","uk":"uk  / ˈrəʊ.lɪŋ ˌpɪn /","ukp":"/ˈrəʊ.lɪŋ ˌpɪn/","us":"us  / ˈroʊ.lɪŋ ˌpɪn /","usp":"/ˈroʊ.lɪŋ ˌpɪn/"}
+{"title":"rolling stock","uk":"uk  / ˈrəʊ.lɪŋ ˌstɒk /","ukp":"/ˈrəʊ.lɪŋ ˌstɒk/","us":"us  / ˈroʊ.lɪŋ ˌstɑːk /","usp":"/ˈroʊ.lɪŋ ˌstɑːk/"}
+{"title":"rollmop","uk":"uk  / ˈrəʊl.mɒp /","ukp":"/ˈrəʊl.mɒp/","us":"us  / ˈroʊl.mɑːp /","usp":"/ˈroʊl.mɑːp/"}
+{"title":"rollout","uk":"uk  / ˈrəʊlˌaʊt /","ukp":"/ˈrəʊlˌaʊt/","us":"us  / ˈroʊlˌaʊt /","usp":"/ˈroʊlˌaʊt/"}
+{"title":"rollover","uk":"uk  / ˈrəʊl.əʊ.və r /","ukp":"/ˈrəʊl.əʊ.vər/","us":"us  / ˈroʊl.oʊ.vɚ /","usp":"/ˈroʊl.oʊ.vɚ/"}
+{"title":"Rolls-Royce","uk":"uk  / ˌrəʊlzˈrɔɪs /","ukp":"/ˌrəʊlzˈrɔɪs/","us":"us  / ˌroʊlzˈrɔɪs /","usp":"/ˌroʊlzˈrɔɪs/"}
+{"title":"rolltop bath","uk":"uk / ˌrəʊl.tɒp ˈbɑːθ /","ukp":"/ˌrəʊl.tɒp ˈbɑːθ/","us":"us / ˌroʊl.tɑːp ˈbæθ /","usp":"/ˌroʊl.tɑːp ˈbæθ/"}
+{"title":"Rolodex","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rolltop desk","uk":"uk  / ˌrəʊl.tɒp ˈdesk /","ukp":"/ˌrəʊl.tɒp ˈdesk/","us":"us  / ˌroʊl.tɑːp ˈdesk /","usp":"/ˌroʊl.tɑːp ˈdesk/"}
+{"title":"roly-poly","uk":"uk  / ˌrəʊ.liˈpəʊ.li /","ukp":"/ˌrəʊ.liˈpəʊ.li/","us":"us  / ˌroʊ.liˈpoʊ.li /","usp":"/ˌroʊ.liˈpoʊ.li/"}
+{"title":"ROM","uk":"uk  / rɒm /","ukp":"/rɒm/","us":"us  / rɑːm /","usp":"/rɑːm/"}
+{"title":"Roma","uk":"uk  / ˈrəʊ.mə /","ukp":"/ˈrəʊ.mə/","us":"us  / ˈroʊ.mə /","usp":"/ˈroʊ.mə/"}
+{"title":"rom com","uk":"uk  / ˈrɒm kɒm /","ukp":"/ˈrɒm kɒm/","us":"us  / ˈrɑːm kɑːm /","usp":"/ˈrɑːm kɑːm/"}
+{"title":"romaine","uk":"uk  / rəˈmeɪn /","ukp":"/rəˈmeɪn/","us":"us  / rəˈmeɪn /","usp":"/rəˈmeɪn/"}
+{"title":"roman","uk":"uk  / ˈrəʊ.mən /","ukp":"/ˈrəʊ.mən/","us":"us  / ˈroʊ.mən /","usp":"/ˈroʊ.mən/"}
+{"title":"Roman alphabet","uk":"uk  / ˌrəʊ.mən ˈæl.fə.bet /","ukp":"/ˌrəʊ.mən ˈæl.fə.bet/","us":"us  / ˌroʊ.mən ˈæl.fə.bet /","usp":"/ˌroʊ.mən ˈæl.fə.bet/"}
+{"title":"Roman candle","uk":"uk  / ˌrəʊ.mən ˈkæn.d ə l /","ukp":"/ˌrəʊ.mən ˈkæn.dəl/","us":"us  / ˌroʊ.mən ˈkæn.d ə l /","usp":"/ˌroʊ.mən ˈkæn.dəl/"}
+{"title":"Roman Catholic","uk":"uk  / ˌrəʊ.mən ˈkæθ. ə l.ɪk /","ukp":"/ˌrəʊ.mən ˈkæθ.əl.ɪk/","us":"us  / ˌroʊ.mən ˈkæθ. ə l.ɪk /","usp":"/ˌroʊ.mən ˈkæθ.əl.ɪk/"}
+{"title":"Roman Catholicism","uk":"uk  / ˌrəʊ.mən kəˈθɒl.ɪ.sɪ.z ə m /","ukp":"/ˌrəʊ.mən kəˈθɒl.ɪ.sɪ.zəm/","us":"us  / ˌroʊ.mən kəˈθɑː.lə.sɪ.z ə m /","usp":"/ˌroʊ.mən kəˈθɑː.lə.sɪ.zəm/"}
+{"title":"Roman law","uk":"uk  / ˌrəʊ.mən ˈlɔː /","ukp":"/ˌrəʊ.mən ˈlɔː/","us":"us  / ˌroʊ.mən ˈlɑː /","usp":"/ˌroʊ.mən ˈlɑː/"}
+{"title":"Roman nose","uk":"uk  / ˌrəʊ.mən ˈnəʊz /","ukp":"/ˌrəʊ.mən ˈnəʊz/","us":"us  / ˌroʊ.mən ˈnoʊz /","usp":"/ˌroʊ.mən ˈnoʊz/"}
+{"title":"Roman numeral","uk":"uk  / ˌrəʊ.mən ˈnjuː.mə.rəl /","ukp":"/ˌrəʊ.mən ˈnjuː.mə.rəl/","us":"us  / ˌroʊ.mən ˈnuː.mə.rəl /","usp":"/ˌroʊ.mən ˈnuː.mə.rəl/"}
+{"title":"romanced","uk":"uk  / rəʊˈmæns /","ukp":"/rəʊˈmæns/","us":"us  / roʊˈmæns /","usp":"/roʊˈmæns/"}
+{"title":"romance","uk":"uk  / rəʊˈmæns /","ukp":"/rəʊˈmæns/","us":"us  / roʊˈmæns /","usp":"/roʊˈmæns/"}
+{"title":"Romanesque","uk":"uk  / ˌrəʊ.məˈnesk /","ukp":"/ˌrəʊ.məˈnesk/","us":"us  / ˌroʊ.məˈnesk /","usp":"/ˌroʊ.məˈnesk/"}
+{"title":"Romania","uk":"uk  / ruˈmeɪ.ni.ə /","ukp":"/ruˈmeɪ.ni.ə/","us":"us  / roʊˈmeɪ.ni.ə /","usp":"/roʊˈmeɪ.ni.ə/"}
+{"title":"Romanian","uk":"uk  / ruˈmeɪ.ni.ən /","ukp":"/ruˈmeɪ.ni.ən/","us":"us  / roʊˈmeɪ.ni.ən /","usp":"/roʊˈmeɪ.ni.ən/"}
+{"title":"romancing","uk":"uk  / rəʊˈmæns /","ukp":"/rəʊˈmæns/","us":"us  / roʊˈmæns /","usp":"/roʊˈmæns/"}
+{"title":"Romano-","uk":"uk  / rə.mɑːnəʊ- /","ukp":"/rə.mɑːnəʊ-/","us":"us  / rə.mɑːnoʊ- /","usp":"/rə.mɑːnoʊ-/"}
+{"title":"romantic","uk":"uk  / rəʊˈmæn.tɪk /","ukp":"/rəʊˈmæn.tɪk/","us":"us  / roʊˈmæn.t̬ɪk /","usp":"/roʊˈmæn.t̬ɪk/"}
+{"title":"romantically","uk":"uk  / rəʊˈmæn.tɪ.k ə l.i /","ukp":"/rəʊˈmæn.tɪ.kəl.i/","us":"us  / roʊˈmæn.t̬ɪ.k ə l.i /","usp":"/roʊˈmæn.t̬ɪ.kəl.i/"}
+{"title":"romanticism","uk":"uk  / rəʊˈmæn.tɪ.sɪ.z ə m /","ukp":"/rəʊˈmæn.tɪ.sɪ.zəm/","us":"us  / roʊˈmæn.t̬ə.sɪ.z ə m /","usp":"/roʊˈmæn.t̬ə.sɪ.zəm/"}
+{"title":"romanticized","uk":"uk  / rəʊˈmæn.tɪ.saɪz /","ukp":"/rəʊˈmæn.tɪ.saɪz/","us":"us  / roʊˈmæn.t̬ə.saɪz /","usp":"/roʊˈmæn.t̬ə.saɪz/"}
+{"title":"romanticize","uk":"uk  / rəʊˈmæn.tɪ.saɪz /","ukp":"/rəʊˈmæn.tɪ.saɪz/","us":"us  / roʊˈmæn.t̬ə.saɪz /","usp":"/roʊˈmæn.t̬ə.saɪz/"}
+{"title":"romanticizing","uk":"uk  / rəʊˈmæn.tɪ.saɪz /","ukp":"/rəʊˈmæn.tɪ.saɪz/","us":"us  / roʊˈmæn.t̬ə.saɪz /","usp":"/roʊˈmæn.t̬ə.saɪz/"}
+{"title":"Rome","uk":"uk  / rəʊm /","ukp":"/rəʊm/","us":"us  / roʊm /","usp":"/roʊm/"}
+{"title":"Rome wasn't built in a day","uk":"","us":""}
+{"title":"Romany","uk":"uk  / ˈrəʊ.mə.ni /","ukp":"/ˈrəʊ.mə.ni/","us":"us  / ˈrɑː.mə.ni /","usp":"/ˈrɑː.mə.ni/"}
+{"title":"Romeo","uk":"uk  / ˈrəʊ.mi.əʊ /","ukp":"/ˈrəʊ.mi.əʊ/","us":"us  / ˈroʊ.mi.oʊ /","usp":"/ˈroʊ.mi.oʊ/"}
+{"title":"ROMI","uk":"","us":""}
+{"title":"romp home/in","uk":"","us":""}
+{"title":"romp through something","uk":"uk  / rɒmp /","ukp":"/rɒmp/","us":"us  / rɑːmp /","usp":"/rɑːmp/"}
+{"title":"romp","uk":"uk  / rɒmp /","ukp":"/rɒmp/","us":"us  / rɑːmp /","usp":"/rɑːmp/"}
+{"title":"romped","uk":"uk  / rɒmp /","ukp":"/rɒmp/","us":"us  / rɑːmp /","usp":"/rɑːmp/"}
+{"title":"rompers","uk":"uk  / ˈrɒm.pəz /","ukp":"/ˈrɒm.pəz/","us":"us  / ˈrɑːm.pɚz /","usp":"/ˈrɑːm.pɚz/"}
+{"title":"RON","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"romping","uk":"uk  / rɒmp /","ukp":"/rɒmp/","us":"us  / rɑːmp /","usp":"/rɑːmp/"}
+{"title":"rona","uk":"uk  / ˈrəʊ.nə /","ukp":"/ˈrəʊ.nə/","us":"us  / ˈroʊ.nə /","usp":"/ˈroʊ.nə/"}
+{"title":"rondo","uk":"uk  / ˈrɒn.dəʊ /","ukp":"/ˈrɒn.dəʊ/","us":"us  / ˈrɑːn.doʊ /","usp":"/ˈrɑːn.doʊ/"}
+{"title":"röntgen","uk":"uk  / ˈrɒnt.ɡən /","ukp":"/ˈrɒnt.ɡən/","us":"us  / ˈrent.ɡən /","usp":"/ˈrent.ɡən/"}
+{"title":"rocket","uk":"uk  / ˈrɒk.ɪt /","ukp":"/ˈrɒk.ɪt/","us":"us  / ˈrɑː.kɪt /","usp":"/ˈrɑː.kɪt/"}
+{"title":"rocket fuel","uk":"uk  / ˈrɒk.ɪt ˌfjʊəl /","ukp":"/ˈrɒk.ɪt ˌfjʊəl/","us":"us  / ˈrɑː.kɪt ˌfjʊəl /","usp":"/ˈrɑː.kɪt ˌfjʊəl/"}
+{"title":"rocket science","uk":"uk  / ˈrɒk.ɪt ˌsaɪ.əns /","ukp":"/ˈrɒk.ɪt ˌsaɪ.əns/","us":"us  / ˈrɑː.kɪt ˌsaɪ.əns /","usp":"/ˈrɑː.kɪt ˌsaɪ.əns/"}
+{"title":"rocket scientist","uk":"uk  / ˈrɒk.ɪt ˌsaɪ.ən.tɪst /","ukp":"/ˈrɒk.ɪt ˌsaɪ.ən.tɪst/","us":"us  / ˈrɑː.kɪt ˌsaɪ.ən.tɪst /","usp":"/ˈrɑː.kɪt ˌsaɪ.ən.tɪst/"}
+{"title":"rocket ship","uk":"uk  / ˈrɒk.ɪt ˌʃɪp /","ukp":"/ˈrɒk.ɪt ˌʃɪp/","us":"us  / ˈrɑː.kɪt ˌʃɪp /","usp":"/ˈrɑː.kɪt ˌʃɪp/"}
+{"title":"rocket-propelled grenade","uk":"uk / ˌrɒk.ɪt.prə.peld ɡrəˈneɪd /","ukp":"/ˌrɒk.ɪt.prə.peld ɡrəˈneɪd/","us":"us  / ˌrɑː.kɪt.prə.peld ɡrəˈneɪd /","usp":"/ˌrɑː.kɪt.prə.peld ɡrəˈneɪd/"}
+{"title":"rocketed","uk":"uk  / ˈrɒk.ɪt /","ukp":"/ˈrɒk.ɪt/","us":"us  / ˈrɑː.kɪt /","usp":"/ˈrɑː.kɪt/"}
+{"title":"rocketing","uk":"uk  / ˈrɒk.ɪt /","ukp":"/ˈrɒk.ɪt/","us":"us  / ˈrɑː.kɪt /","usp":"/ˈrɑː.kɪt/"}
+{"title":"rockfall","uk":"uk  / ˈrɒk.fɔːl /","ukp":"/ˈrɒk.fɔːl/","us":"us  / ˈrɑːk.fɑːl /","usp":"/ˈrɑːk.fɑːl/"}
+{"title":"rocking","uk":"uk  / rɒk /","ukp":"/rɒk/","us":"us  / rɑːk /","usp":"/rɑːk/"}
+{"title":"rocking chair","uk":"uk  / ˈrɒk.ɪŋ ˌtʃeə r /","ukp":"/ˈrɒk.ɪŋ ˌtʃeər/","us":"us  / ˈrɑː.kɪŋ ˌtʃer /","usp":"/ˈrɑː.kɪŋ ˌtʃer/"}
+{"title":"rockmelon","uk":"uk  / ˈrɒkˌmel.ən /","ukp":"/ˈrɒkˌmel.ən/","us":"us  / ˈrɑːkˌmel.ən /","usp":"/ˈrɑːkˌmel.ən/"}
+{"title":"rocking horse","uk":"uk  / ˈrɒk.ɪŋ ˌhɔːs /","ukp":"/ˈrɒk.ɪŋ ˌhɔːs/","us":"us  / ˈrɑː.kɪŋ ˌhɔːrs /","usp":"/ˈrɑː.kɪŋ ˌhɔːrs/"}
+{"title":"Rocky Mountain National Park","uk":"uk / ˌrɒk.i ˌmaʊn.tɪn ˌnæʃ. ə n. ə l ˈpɑːk /","ukp":"/ˌrɒk.i ˌmaʊn.tɪn ˌnæʃ.ən.əl ˈpɑːk/","us":"us  / ˌrɑː.ki ˌmaʊn.t ə n ˌnæʃ. ə n. ə l ˈpɑːrk /","usp":"/ˌrɑː.ki ˌmaʊn.tən ˌnæʃ.ən.əl ˈpɑːrk/"}
+{"title":"rocky","uk":"uk  / ˈrɒk.i /","ukp":"/ˈrɒk.i/","us":"us  / ˈrɑː.ki /","usp":"/ˈrɑː.ki/"}
+{"title":"rocky road","uk":"","us":""}
+{"title":"rod","uk":"uk  / rɒd /","ukp":"/rɒd/","us":"us  / rɑːd /","usp":"/rɑːd/"}
+{"title":"rococo","uk":"uk  / rəˈkəʊ.kəʊ /","ukp":"/rəˈkəʊ.kəʊ/","us":"us  / rəˈkoʊ.koʊ /","usp":"/rəˈkoʊ.koʊ/"}
+{"title":"rode","uk":"uk  / rəʊd /","ukp":"/rəʊd/","us":"us  / roʊd /","usp":"/roʊd/"}
+{"title":"rodent","uk":"uk  / ˈrəʊ.d ə nt /","ukp":"/ˈrəʊ.dənt/","us":"us  / ˈroʊ.d ə nt /","usp":"/ˈroʊ.dənt/"}
+{"title":"rodomontade","uk":"uk  / rɒd.ə.mɒnˈteɪd /","ukp":"/rɒd.ə.mɒnˈteɪd/","us":"us  / rɑː.də.mɑːnˈteɪd /","usp":"/rɑː.də.mɑːnˈteɪd/"}
+{"title":"rodeo","uk":"uk  / rəʊˈdeɪ.əʊ /","ukp":"/rəʊˈdeɪ.əʊ/","us":"us  / ˈroʊ.di.oʊ /","usp":"/ˈroʊ.di.oʊ/"}
+{"title":"roe","uk":"uk  / rəʊ /","ukp":"/rəʊ/","us":"us  / roʊ /","usp":"/roʊ/"}
+{"title":"roe deer","uk":"uk  / ˈrəʊ ˌdɪə r /","ukp":"/ˈrəʊ ˌdɪər/","us":"us  / ˈroʊ ˌdɪr /","usp":"/ˈroʊ ˌdɪr/"}
+{"title":"roentgen","uk":"uk  / ˈrɒnt.ɡən /","ukp":"/ˈrɒnt.ɡən/","us":"us  / ˈrent.ɡən /","usp":"/ˈrent.ɡən/"}
+{"title":"rogan josh","uk":"uk  / ˌrəʊ.ɡən ˈdʒəʊʃ /","ukp":"/ˌrəʊ.ɡən ˈdʒəʊʃ/","us":"us  / ˌroʊ.ɡən ˈdʒoʊʃ /","usp":"/ˌroʊ.ɡən ˈdʒoʊʃ/"}
+{"title":"rofl","uk":"","us":""}
+{"title":"rogered","uk":"uk  / ˈrɒdʒ.ə r /","ukp":"/ˈrɒdʒ.ər/","us":"us  / ˈrɑː.dʒɚ /","usp":"/ˈrɑː.dʒɚ/"}
+{"title":"roger","uk":"uk  / ˈrɒdʒ.ə r /","ukp":"/ˈrɒdʒ.ər/","us":"us  / ˈrɑː.dʒɚ /","usp":"/ˈrɑː.dʒɚ/"}
+{"title":"rogering","uk":"uk  / ˈrɒdʒ.ə r /","ukp":"/ˈrɒdʒ.ər/","us":"us  / ˈrɑː.dʒɚ /","usp":"/ˈrɑː.dʒɚ/"}
+{"title":"rogue","uk":"uk  / rəʊɡ /","ukp":"/rəʊɡ/","us":"us  / roʊɡ /","usp":"/roʊɡ/"}
+{"title":"rogue state","uk":"uk  / ˌrəʊɡ ˈsteɪt /","ukp":"/ˌrəʊɡ ˈsteɪt/","us":"us  / ˌroʊɡ ˈsteɪt /","usp":"/ˌroʊɡ ˈsteɪt/"}
+{"title":"rogue trader","uk":"uk  / ˌrəʊɡ ˈtreɪ.də r /","ukp":"/ˌrəʊɡ ˈtreɪ.dər/","us":"us  / ˌroʊɡ ˈtreɪ.dɚ /","usp":"/ˌroʊɡ ˈtreɪ.dɚ/"}
+{"title":"rogue trading","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rogues' gallery","uk":"uk  / ˌrəʊɡz ˈɡæl.ər.i /","ukp":"/ˌrəʊɡz ˈɡæl.ər.i/","us":"us  / ˌroʊɡz ˈɡæl.ɚ.i /","usp":"/ˌroʊɡz ˈɡæl.ɚ.i/"}
+{"title":"roguish","uk":"uk  / ˈrəʊ.ɡɪʃ /","ukp":"/ˈrəʊ.ɡɪʃ/","us":"us  / ˈroʊ.ɡɪʃ /","usp":"/ˈroʊ.ɡɪʃ/"}
+{"title":"roguishly","uk":"uk  / ˈrəʊ.ɡɪʃ.li /","ukp":"/ˈrəʊ.ɡɪʃ.li/","us":"us  / ˈroʊ.ɡɪʃ.li /","usp":"/ˈroʊ.ɡɪʃ.li/"}
+{"title":"Rohingya","uk":"uk  / rəʊˈhɪndʒ.ə /","ukp":"/rəʊˈhɪndʒ.ə/","us":"us  / roʊˈhɪndʒ.ə /","usp":"/roʊˈhɪndʒ.ə/"}
+{"title":"ROI","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"roguishness","uk":"uk  / ˈrəʊ.ɡɪʃ.nəs /","ukp":"/ˈrəʊ.ɡɪʃ.nəs/","us":"us  / ˈroʊ.ɡɪʃ.nəs /","usp":"/ˈroʊ.ɡɪʃ.nəs/"}
+{"title":"ROIC","uk":"","us":""}
+{"title":"roid","uk":"uk  / rɔɪd /","ukp":"/rɔɪd/","us":"us  / rɔɪd /","usp":"/rɔɪd/"}
+{"title":"roil","uk":"uk  / rɔɪl /","ukp":"/rɔɪl/","us":"us  / rɔɪl /","usp":"/rɔɪl/"}
+{"title":"roister","uk":"uk  / ˈrɔɪ.stə r /","ukp":"/ˈrɔɪ.stər/","us":"us  / ˈrɔɪ.stɚ /","usp":"/ˈrɔɪ.stɚ/"}
+{"title":"roistering","uk":"uk  / ˈrɔɪ.st ə r.ɪŋ /","ukp":"/ˈrɔɪ.stər.ɪŋ/","us":"us  / ˈrɔɪ.stɚ.ɪŋ /","usp":"/ˈrɔɪ.stɚ.ɪŋ/"}
+{"title":"rose-colored glasses","uk":"","us":"us / ˈroʊzˌkʌl·ərd ˈɡlæs·ɪz /","usp":"/ˈroʊzˌkʌl·ərd ˈɡlæs·ɪz/"}
+{"title":"role model","uk":"uk  / ˈrəʊl ˌmɒd. ə l /","ukp":"/ˈrəʊl ˌmɒd.əl/","us":"us  / ˈroʊl ˌmɑː.d ə l /","usp":"/ˈroʊl ˌmɑː.dəl/"}
+{"title":"role","uk":"uk  / rəʊl /","ukp":"/rəʊl/","us":"us  / roʊl /","usp":"/roʊl/"}
+{"title":"roseate","uk":"uk  / ˈrəʊ.zi.ət /","ukp":"/ˈrəʊ.zi.ət/","us":"us  / ˈroʊ.zi.ɪt /","usp":"/ˈroʊ.zi.ɪt/"}
+{"title":"rosella","uk":"uk  / rəʊˈzel.ə /","ukp":"/rəʊˈzel.ə/","us":"us  / roʊˈzel.ə /","usp":"/roʊˈzel.ə/"}
+{"title":"rosebud","uk":"uk  / ˈrəʊz.bʌd /","ukp":"/ˈrəʊz.bʌd/","us":"us  / ˈroʊz.bʌd /","usp":"/ˈroʊz.bʌd/"}
+{"title":"rosemary","uk":"uk  / ˈrəʊz.m ə r.i /","ukp":"/ˈrəʊz.mər.i/","us":"us  / ˈroʊz.mer.i /","usp":"/ˈroʊz.mer.i/"}
+{"title":"rosette","uk":"uk  / rəʊˈzet /","ukp":"/rəʊˈzet/","us":"us  / roʊˈzet /","usp":"/roʊˈzet/"}
+{"title":"rosewood","uk":"uk  / ˈrəʊz.wʊd /","ukp":"/ˈrəʊz.wʊd/","us":"us  / ˈroʊz.wʊd /","usp":"/ˈroʊz.wʊd/"}
+{"title":"Rosh Hashanah","uk":"uk  / ˌrɒʃ hæʃˈɑː.nə /","ukp":"/ˌrɒʃ hæʃˈɑː.nə/","us":"us  / ˌroʊʃ həˈʃɔː.nə /","usp":"/ˌroʊʃ həˈʃɔː.nə/"}
+{"title":"Rosie Lee","uk":"uk  / ˌrəʊ.zi ˈliː /","ukp":"/ˌrəʊ.zi ˈliː/","us":"us  / ˌroʊ.zi ˈliː /","usp":"/ˌroʊ.zi ˈliː/"}
+{"title":"rosin","uk":"uk  / ˈrɒz.ɪn /","ukp":"/ˈrɒz.ɪn/","us":"us  / ˈrɑː.zən /","usp":"/ˈrɑː.zən/"}
+{"title":"Ross and Cromarty","uk":"uk  / ˌrɒs ən ˈkrɒm.ə.ti /","ukp":"/ˌrɒs ən ˈkrɒm.ə.ti/","us":"us  / ˌrɑːs ən ˈkrɑː.mɚ.t̬i /","usp":"/ˌrɑːs ən ˈkrɑː.mɚ.t̬i/"}
+{"title":"rostered day off","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"roster","uk":"uk  / ˈrɒs.tə r /","ukp":"/ˈrɒs.tər/","us":"us  / ˈrɑː.stɚ /","usp":"/ˈrɑː.stɚ/"}
+{"title":"rösti","uk":"uk  / ˈrɒ.sti /","ukp":"/ˈrɒ.sti/","us":"us  / ˈrɑː.sti /","usp":"/ˈrɑː.sti/"}
+{"title":"rostra","uk":"","us":""}
+{"title":"rostrum","uk":"uk  / ˈrɒs.trəm /","ukp":"/ˈrɒs.trəm/","us":"us  / ˈrɑː.strəm /","usp":"/ˈrɑː.strəm/"}
+{"title":"rosy","uk":"uk  / ˈrəʊ.zi /","ukp":"/ˈrəʊ.zi/","us":"us  / ˈroʊ.zi /","usp":"/ˈroʊ.zi/"}
+{"title":"rot","uk":"uk  / rɒt /","ukp":"/rɒt/","us":"us  / rɑːt /","usp":"/rɑːt/"}
+{"title":"rot in jail, prison, etc.","uk":"","us":""}
+{"title":"rota","uk":"uk  / ˈrəʊ.tə /","ukp":"/ˈrəʊ.tə/","us":"us  / ˈroʊ.t̬ə /","usp":"/ˈroʊ.t̬ə/"}
+{"title":"rotary","uk":"uk  / ˈrəʊ.t ə r.i /","ukp":"/ˈrəʊ.tər.i/","us":"us  / ˈroʊ.t̬ɚ.i /","usp":"/ˈroʊ.t̬ɚ.i/"}
+{"title":"rotate","uk":"uk  / rəʊˈteɪt /","ukp":"/rəʊˈteɪt/","us":"us  / ˈroʊ.teɪt /","usp":"/ˈroʊ.teɪt/"}
+{"title":"rotating","uk":"uk  / rəʊˈteɪtɪŋ /","ukp":"/rəʊˈteɪtɪŋ/","us":"us  / ˈrəʊteɪtɪŋ /","usp":"/ˈrəʊteɪtɪŋ/"}
+{"title":"rotated","uk":"uk  / rəʊˈteɪt /","ukp":"/rəʊˈteɪt/","us":"us  / ˈroʊ.teɪt /","usp":"/ˈroʊ.teɪt/"}
+{"title":"rotation","uk":"uk  / rəʊˈteɪ.ʃ ə n /","ukp":"/rəʊˈteɪ.ʃən/","us":"us  / roʊˈteɪ.ʃ ə n /","usp":"/roʊˈteɪ.ʃən/"}
+{"title":"rotational","uk":"uk  / rəʊˈteɪʃ ə n ə l /","ukp":"/rəʊˈteɪʃənəl/","us":"us ","usp":""}
+{"title":"rotator","uk":"uk  / rəʊˈteɪ.tə r /","ukp":"/rəʊˈteɪ.tər/","us":"us  / ˈroʊˌteɪ.t̬ɚ /","usp":"/ˈroʊˌteɪ.t̬ɚ/"}
+{"title":"rotative","uk":"uk / ˈrəʊ.tə.tɪv /","ukp":"/ˈrəʊ.tə.tɪv/","us":"us / ˈroʊ.t̬eɪ.t̬ɪv /","usp":"/ˈroʊ.t̬eɪ.t̬ɪv/"}
+{"title":"rotator cuff","uk":"uk / rəʊˈteɪ.tə ˌkʌf /","ukp":"/rəʊˈteɪ.tə ˌkʌf/","us":"us / ˈroʊ.teɪ.t̬ɚ ˌkʌf /","usp":"/ˈroʊ.teɪ.t̬ɚ ˌkʌf/"}
+{"title":"rotf","uk":"","us":""}
+{"title":"rotavirus","uk":"uk  / ˈrəʊ.təˌvaɪ.rəs /","ukp":"/ˈrəʊ.təˌvaɪ.rəs/","us":"us  / ˈroʊ.t̬əˌvaɪ.rəs /","usp":"/ˈroʊ.t̬əˌvaɪ.rəs/"}
+{"title":"rote","uk":"uk  / rəʊt /","ukp":"/rəʊt/","us":"us  / roʊt /","usp":"/roʊt/"}
+{"title":"rotfl","uk":"","us":""}
+{"title":"rotflol","uk":"","us":""}
+{"title":"roti","uk":"uk  / ˈrəʊ.ti /","ukp":"/ˈrəʊ.ti/","us":"us  / ˈroʊ.t̬i /","usp":"/ˈroʊ.t̬i/"}
+{"title":"rotisserie","uk":"uk  / rəʊˈtɪs. ə r.i /","ukp":"/rəʊˈtɪs.ər.i/","us":"us  / roʊˈtɪs.ɚ.i /","usp":"/roʊˈtɪs.ɚ.i/"}
+{"title":"rotor","uk":"uk  / ˈrəʊ.tə r /","ukp":"/ˈrəʊ.tər/","us":"us  / ˈroʊ.t̬ɚ /","usp":"/ˈroʊ.t̬ɚ/"}
+{"title":"rotted","uk":"","us":""}
+{"title":"rotten","uk":"uk  / ˈrɒt. ə n /","ukp":"/ˈrɒt.ən/","us":"us  / ˈrɑː.t ə n /","usp":"/ˈrɑː.tən/"}
+{"title":"rotter","uk":"uk  / ˈrɒt.ə r /","ukp":"/ˈrɒt.ər/","us":"us  / ˈrɑː.t̬ɚ /","usp":"/ˈrɑː.t̬ɚ/"}
+{"title":"rotting","uk":"","us":""}
+{"title":"rottweiler","uk":"uk  / ˈrɒtˌwaɪ.lə r /","ukp":"/ˈrɒtˌwaɪ.lər/","us":"us  / ˈrɑːtˌwaɪ.lɚ /","usp":"/ˈrɑːtˌwaɪ.lɚ/"}
+{"title":"rotund","uk":"uk  / rəʊˈtʌnd /","ukp":"/rəʊˈtʌnd/","us":"us  / roʊˈtʌnd /","usp":"/roʊˈtʌnd/"}
+{"title":"rotunda","uk":"uk  / rəʊˈtʌn.də /","ukp":"/rəʊˈtʌn.də/","us":"us  / roʊˈtʌn.də /","usp":"/roʊˈtʌn.də/"}
+{"title":"rouble","uk":"uk  / ˈruː.b ə l /","ukp":"/ˈruː.bəl/","us":"us  / ˈruː.b ə l /","usp":"/ˈruː.bəl/"}
+{"title":"rouge","uk":"uk  / ruːʒ /","ukp":"/ruːʒ/","us":"us  / ruːʒ /","usp":"/ruːʒ/"}
+{"title":"root canal","uk":"uk  / ˈruːt kəˌnæl /","ukp":"/ˈruːt kəˌnæl/","us":"us  / ˈruːt kəˌnæl /","usp":"/ˈruːt kəˌnæl/"}
+{"title":"root beer","uk":"uk  / ˈruːt ˌbɪə r /","ukp":"/ˈruːt ˌbɪər/","us":"us  / ˈruːt ˌbɪr /","usp":"/ˈruːt ˌbɪr/"}
+{"title":"root cellar","uk":"uk  / ˈruːt ˌsel.ə r /","ukp":"/ˈruːt ˌsel.ər/","us":"us  / ˈruːt ˌsel.ɚ /","usp":"/ˈruːt ˌsel.ɚ/"}
+{"title":"root crop","uk":"uk  / ˈruːt ˌkrɒp /","ukp":"/ˈruːt ˌkrɒp/","us":"us  / ˈruːt ˌkrɑːp /","usp":"/ˈruːt ˌkrɑːp/"}
+{"title":"root for someone","uk":"uk  / ruːt /","ukp":"/ruːt/","us":"us  / ruːt /","usp":"/ruːt/"}
+{"title":"root of title","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"root hair","uk":"uk  / ˈruːt ˌheə r /","ukp":"/ˈruːt ˌheər/","us":"us  / ˈruːt ˌher /","usp":"/ˈruːt ˌher/"}
+{"title":"root something out/up","uk":"uk  / ruːt /","ukp":"/ruːt/","us":"us  / ruːt /","usp":"/ruːt/"}
+{"title":"root something/someone out","uk":"uk  / ruːt /","ukp":"/ruːt/","us":"us  / ruːt /","usp":"/ruːt/"}
+{"title":"root vegetable","uk":"uk  / ˌruːt ˈvedʒ.tə.b ə l /","ukp":"/ˌruːt ˈvedʒ.tə.bəl/","us":"us  / ˌruːt ˈvedʒ.tə.b ə l /","usp":"/ˌruːt ˈvedʒ.tə.bəl/"}
+{"title":"rootbound","uk":"uk  / ˈruːt.baʊnd /","ukp":"/ˈruːt.baʊnd/","us":"us  / ˈruːt.baʊnd /","usp":"/ˈruːt.baʊnd/"}
+{"title":"rooted","uk":"uk  / ˈruː.tɪd /","ukp":"/ˈruː.tɪd/","us":"us  / ˈruː.t̬ɪd /","usp":"/ˈruː.t̬ɪd/"}
+{"title":"rooted to the spot","uk":"","us":""}
+{"title":"rooting","uk":"uk  / ruːt /","ukp":"/ruːt/","us":"us  / ruːt /","usp":"/ruːt/"}
+{"title":"rootless","uk":"uk  / ˈruːt.ləs /","ukp":"/ˈruːt.ləs/","us":"us  / ˈruːt.ləs /","usp":"/ˈruːt.ləs/"}
+{"title":"roots","uk":"","us":"us  / ruts , rʊts /","usp":"/ruts, rʊts/"}
+{"title":"rootlessness","uk":"uk  / ˈruːt.ləs.nəs /","ukp":"/ˈruːt.ləs.nəs/","us":"us  / ˈruːt.ləs.nəs /","usp":"/ˈruːt.ləs.nəs/"}
+{"title":"roots and all","uk":"","us":""}
+{"title":"rootstock","uk":"uk  / ˈruːt.stɒk /","ukp":"/ˈruːt.stɒk/","us":"us  / ˈruːt.stɑːk /","usp":"/ˈruːt.stɑːk/"}
+{"title":"ROP","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rope ladder","uk":"uk  / ˌrəʊp ˈlæd.ə r /","ukp":"/ˌrəʊp ˈlæd.ər/","us":"us  / ˌroʊp ˈlæd.ɚ /","usp":"/ˌroʊp ˈlæd.ɚ/"}
+{"title":"rope","uk":"uk  / rəʊp /","ukp":"/rəʊp/","us":"us  / roʊp /","usp":"/roʊp/"}
+{"title":"rope bridge","uk":"uk  / ˌrəʊp ˈbrɪdʒ /","ukp":"/ˌrəʊp ˈbrɪdʒ/","us":"us  / ˌroʊp ˈbrɪdʒ /","usp":"/ˌroʊp ˈbrɪdʒ/"}
+{"title":"rope someone in","uk":"","us":"us  / roʊp /","usp":"/roʊp/"}
+{"title":"rope someone in","uk":"uk  / rəʊp /","ukp":"/rəʊp/","us":"us  / roʊp /","usp":"/roʊp/"}
+{"title":"rope light","uk":"uk  / ˈrəʊp ˌlaɪt /","ukp":"/ˈrəʊp ˌlaɪt/","us":"us  / ˈroʊp ˌlaɪt /","usp":"/ˈroʊp ˌlaɪt/"}
+{"title":"rope something/somewhere off","uk":"uk  / rəʊp /","ukp":"/rəʊp/","us":"us  / roʊp /","usp":"/roʊp/"}
+{"title":"rope someone into something","uk":"","us":"us  / roʊp /","usp":"/roʊp/"}
+{"title":"roped","uk":"uk  / rəʊp /","ukp":"/rəʊp/","us":"us  / roʊp /","usp":"/roʊp/"}
+{"title":"ropier","uk":"","us":""}
+{"title":"ropiest","uk":"","us":""}
+{"title":"roping","uk":"uk  / rəʊp /","ukp":"/rəʊp/","us":"us  / roʊp /","usp":"/roʊp/"}
+{"title":"ROPO","uk":"uk  / ˈrəʊ.pəʊ /","ukp":"/ˈrəʊ.pəʊ/","us":"us  / ˈroʊ.poʊ /","usp":"/ˈroʊ.poʊ/"}
+{"title":"ropy","uk":"uk  / ˈrəʊ.pi /","ukp":"/ˈrəʊ.pi/","us":"us  / ˈroʊ.pi /","usp":"/ˈroʊ.pi/"}
+{"title":"ROR","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"RORO","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Rorschach test","uk":"uk  / ˈrɔː.ʃɑːk ˌtest /","ukp":"/ˈrɔː.ʃɑːk ˌtest/","us":"us  / ˈrɔːr.ʃɑːk ˌtest /","usp":"/ˈrɔːr.ʃɑːk ˌtest/"}
+{"title":"rorting","uk":"uk  / rɔːt /","ukp":"/rɔːt/","us":"us  / rɔːrt /","usp":"/rɔːrt/"}
+{"title":"rorted","uk":"uk  / rɔːt /","ukp":"/rɔːt/","us":"us  / rɔːrt /","usp":"/rɔːrt/"}
+{"title":"rort","uk":"uk  / rɔːt /","ukp":"/rɔːt/","us":"us  / rɔːrt /","usp":"/rɔːrt/"}
+{"title":"ROS","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rosacea","uk":"uk  / rəʊˈzeɪ.ʃə /","ukp":"/rəʊˈzeɪ.ʃə/","us":"us  / roʊˈzeɪ.ʃə /","usp":"/roʊˈzeɪ.ʃə/"}
+{"title":"rosary","uk":"uk  / ˈrəʊ.z ə r.i /","ukp":"/ˈrəʊ.zər.i/","us":"us  / ˈroʊ.zɚ.i /","usp":"/ˈroʊ.zɚ.i/"}
+{"title":"rose","uk":"uk  / rəʊz /","ukp":"/rəʊz/","us":"us  / roʊz /","usp":"/roʊz/"}
+{"title":"rose hip","uk":"uk  / ˈrəʊz ˌhɪp /","ukp":"/ˈrəʊz ˌhɪp/","us":"us  / ˈroʊz ˌhɪp /","usp":"/ˈroʊz ˌhɪp/"}
+{"title":"rose window","uk":"uk  / ˌrəʊz ˈwɪn.dəʊ /","ukp":"/ˌrəʊz ˈwɪn.dəʊ/","us":"us  / ˌroʊz ˈwɪn.doʊ /","usp":"/ˌroʊz ˈwɪn.doʊ/"}
+{"title":"rose water","uk":"uk  / ˈrəʊz ˌwɔː.tə r /","ukp":"/ˈrəʊz ˌwɔː.tər/","us":"us  / ˈroʊz ˌwɑː.t̬ɚ /","usp":"/ˈroʊz ˌwɑː.t̬ɚ/"}
+{"title":"rough and ready","uk":"","us":""}
+{"title":"rough and tumble","uk":"","us":"us  / ˈrʌf ən ˈtʌm·bəl /","usp":"/ˈrʌf ən ˈtʌm·bəl/"}
+{"title":"rough cider","uk":"uk  / ˌrʌf ˈsaɪ.də r /","ukp":"/ˌrʌf ˈsaɪ.dər/","us":"us  / ˌrʌf ˈsaɪ.dɚ /","usp":"/ˌrʌf ˈsaɪ.dɚ/"}
+{"title":"rough","uk":"uk  / rʌf /","ukp":"/rʌf/","us":"us  / rʌf /","usp":"/rʌf/"}
+{"title":"rough edges","uk":"","us":""}
+{"title":"rough diamond","uk":"uk  / ˌrʌf ˈdaɪə.mənd /","ukp":"/ˌrʌf ˈdaɪə.mənd/","us":"us  / ˌrʌf ˈdaɪə.mənd /","usp":"/ˌrʌf ˈdaɪə.mənd/"}
+{"title":"rough it","uk":"","us":""}
+{"title":"rough justice/luck","uk":"","us":""}
+{"title":"rough paper","uk":"uk  / ˌrʌf ˈpeɪ.pə r /","ukp":"/ˌrʌf ˈpeɪ.pər/","us":"us  / ˌrʌf ˈpeɪ.pɚ /","usp":"/ˌrʌf ˈpeɪ.pɚ/"}
+{"title":"rough puff pastry","uk":"uk  / ˌrʌf pʌf ˈpeɪ.stri /","ukp":"/ˌrʌf pʌf ˈpeɪ.stri/","us":"us  / ˌrʌf pʌf ˈpeɪ.stri /","usp":"/ˌrʌf pʌf ˈpeɪ.stri/"}
+{"title":"rough sleeping","uk":"uk  / ˌrʌf ˈsliː.pɪŋ /","ukp":"/ˌrʌf ˈsliː.pɪŋ/","us":"us  / ˌrʌf ˈsliː.pɪŋ /","usp":"/ˌrʌf ˈsliː.pɪŋ/"}
+{"title":"rough sleeper","uk":"uk  / ˌrʌf ˈsliː.pə r /","ukp":"/ˌrʌf ˈsliː.pər/","us":"us  / ˌrʌf ˈsliː.pɚ /","usp":"/ˌrʌf ˈsliː.pɚ/"}
+{"title":"rough someone up","uk":"uk  / rʌf /","ukp":"/rʌf/","us":"us  / rʌf /","usp":"/rʌf/"}
+{"title":"rough something in","uk":"uk  / rʌf /","ukp":"/rʌf/","us":"us  / rʌf /","usp":"/rʌf/"}
+{"title":"rough something out","uk":"uk  / rʌf /","ukp":"/rʌf/","us":"us  / rʌf /","usp":"/rʌf/"}
+{"title":"rough trade","uk":"uk  / ˌrʌf ˈtreɪd /","ukp":"/ˌrʌf ˈtreɪd/","us":"us  / ˌrʌf ˈtreɪd /","usp":"/ˌrʌf ˈtreɪd/"}
+{"title":"rough-hewn","uk":"uk  / ˌrʌfˈhjuːn /","ukp":"/ˌrʌfˈhjuːn/","us":"us  / ˌrʌfˈhjuːn /","usp":"/ˌrʌfˈhjuːn/"}
+{"title":"roughage","uk":"uk  / ˈrʌf.ɪdʒ /","ukp":"/ˈrʌf.ɪdʒ/","us":"us  / ˈrʌf.ɪdʒ /","usp":"/ˈrʌf.ɪdʒ/"}
+{"title":"roughcast","uk":"uk  / ˈrʌf.kɑːst /","ukp":"/ˈrʌf.kɑːst/","us":"us  / ˈrʌf.kæst /","usp":"/ˈrʌf.kæst/"}
+{"title":"roughened","uk":"uk  / ˈrʌf. ə n /","ukp":"/ˈrʌf.ən/","us":"us  / ˈrʌf. ə n /","usp":"/ˈrʌf.ən/"}
+{"title":"roughen","uk":"uk  / ˈrʌf. ə n /","ukp":"/ˈrʌf.ən/","us":"us  / ˈrʌf. ə n /","usp":"/ˈrʌf.ən/"}
+{"title":"roughhouse","uk":"uk  / ˈrʌf.haʊs /","ukp":"/ˈrʌf.haʊs/","us":"us  / ˈrʌf.haʊs /","usp":"/ˈrʌf.haʊs/"}
+{"title":"roughening","uk":"uk  / ˈrʌf. ə n /","ukp":"/ˈrʌf.ən/","us":"us  / ˈrʌf. ə n /","usp":"/ˈrʌf.ən/"}
+{"title":"roughhoused","uk":"uk  / ˈrʌf.haʊs /","ukp":"/ˈrʌf.haʊs/","us":"us  / ˈrʌf.haʊs /","usp":"/ˈrʌf.haʊs/"}
+{"title":"roughhousing","uk":"uk  / ˈrʌf.haʊs /","ukp":"/ˈrʌf.haʊs/","us":"us  / ˈrʌf.haʊs /","usp":"/ˈrʌf.haʊs/"}
+{"title":"roughneck","uk":"uk  / ˈrʌf.nek /","ukp":"/ˈrʌf.nek/","us":"us  / ˈrʌf.nek /","usp":"/ˈrʌf.nek/"}
+{"title":"roughly","uk":"uk  / ˈrʌf.li /","ukp":"/ˈrʌf.li/","us":"us  / ˈrʌf.li /","usp":"/ˈrʌf.li/"}
+{"title":"roulade","uk":"uk  / ruːˈlɑːd /","ukp":"/ruːˈlɑːd/","us":"us  / ruːˈlɑːd /","usp":"/ruːˈlɑːd/"}
+{"title":"roughness","uk":"uk  / ˈrʌf.nəs /","ukp":"/ˈrʌf.nəs/","us":"us  / ˈrʌf.nəs /","usp":"/ˈrʌf.nəs/"}
+{"title":"roughshod","uk":"uk / ˈrʌf.ʃɒd /","ukp":"/ˈrʌf.ʃɒd/","us":"us / ˈrʌf.ʃɑːd /","usp":"/ˈrʌf.ʃɑːd/"}
+{"title":"roulette","uk":"uk  / ruːˈlet /","ukp":"/ruːˈlet/","us":"us  / ruːˈlet /","usp":"/ruːˈlet/"}
+{"title":"round about","uk":"","us":""}
+{"title":"round and round","uk":"","us":""}
+{"title":"round","uk":"uk  / raʊnd /","ukp":"/raʊnd/","us":"us  / raʊnd /","usp":"/raʊnd/"}
+{"title":"round brackets","uk":"uk  / ˈraʊnd ˌbræk.ɪts /","ukp":"/ˈraʊnd ˌbræk.ɪts/","us":"us  / ˈraʊnd ˌbræk.ɪts /","usp":"/ˈraʊnd ˌbræk.ɪts/"}
+{"title":"round fare","uk":"uk / ˌraʊnd ˈfeə r /","ukp":"/ˌraʊnd ˈfeər/","us":"us / ˌraʊnd ˈfer /","usp":"/ˌraʊnd ˈfer/"}
+{"title":"round lot","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"round of applause","uk":"","us":""}
+{"title":"round on someone/something","uk":"uk  / raʊnd /","ukp":"/raʊnd/","us":"us  / raʊnd /","usp":"/raʊnd/"}
+{"title":"round something down","uk":"uk  / raʊnd /","ukp":"/raʊnd/","us":"us  / raʊnd /","usp":"/raʊnd/"}
+{"title":"round robin","uk":"uk  / ˌraʊnd ˈrɒb.ɪn /","ukp":"/ˌraʊnd ˈrɒb.ɪn/","us":"us  / ˌraʊnd ˈrɑː.bɪn /","usp":"/ˌraʊnd ˈrɑː.bɪn/"}
+{"title":"round something out","uk":"uk  / raʊnd /","ukp":"/raʊnd/","us":"us  / raʊnd /","usp":"/raʊnd/"}
+{"title":"round something off","uk":"uk  / raʊnd /","ukp":"/raʊnd/","us":"us  / raʊnd /","usp":"/raʊnd/"}
+{"title":"round steak","uk":"uk / ˈraʊnd ˌsteɪk /","ukp":"/ˈraʊnd ˌsteɪk/","us":"us / ˈraʊnd ˌsteɪk /","usp":"/ˈraʊnd ˌsteɪk/"}
+{"title":"round sth down/up","uk":"uk  / raʊnd /","ukp":"/raʊnd/","us":"us ","usp":""}
+{"title":"round something/someone up","uk":"uk  / raʊnd /","ukp":"/raʊnd/","us":"us  / raʊnd /","usp":"/raʊnd/"}
+{"title":"round the corner","uk":"","us":""}
+{"title":"rumbling","uk":"uk  / ˈrʌm.b ə l.ɪŋ /","ukp":"/ˈrʌm.bəl.ɪŋ/","us":"us  / ˈrʌm.b ə l.ɪŋ /","usp":"/ˈrʌm.bəl.ɪŋ/"}
+{"title":"rumbled","uk":"uk  / ˈrʌm.b ə l /","ukp":"/ˈrʌm.bəl/","us":"us  / ˈrʌm.b ə l /","usp":"/ˈrʌm.bəl/"}
+{"title":"rumbustious","uk":"uk  / rʌmˈbʌs.ti.əs /","ukp":"/rʌmˈbʌs.ti.əs/","us":"us  / rʌmˈbʌs.tʃəs /","usp":"/rʌmˈbʌs.tʃəs/"}
+{"title":"rumbustiously","uk":"uk  / rʌmˈbʌs.ti.əs.li /","ukp":"/rʌmˈbʌs.ti.əs.li/","us":"us  / rʌmˈbʌs.tʃəs.li /","usp":"/rʌmˈbʌs.tʃəs.li/"}
+{"title":"rumbustiousness","uk":"uk  / rʌmˈbʌs.ti.əs.nəs /","ukp":"/rʌmˈbʌs.ti.əs.nəs/","us":"us  / rʌmˈbʌs.tʃəs.nəs /","usp":"/rʌmˈbʌs.tʃəs.nəs/"}
+{"title":"ruminate","uk":"uk  / ˈruː.mɪ.neɪt /","ukp":"/ˈruː.mɪ.neɪt/","us":"us  / ˈruː.mə.neɪt /","usp":"/ˈruː.mə.neɪt/"}
+{"title":"ruminated","uk":"uk  / ˈruː.mɪ.neɪt /","ukp":"/ˈruː.mɪ.neɪt/","us":"us  / ˈruː.mə.neɪt /","usp":"/ˈruː.mə.neɪt/"}
+{"title":"ruminant","uk":"uk  / ˈruː.mɪ.nənt /","ukp":"/ˈruː.mɪ.nənt/","us":"us  / ˈruː.mə.nənt /","usp":"/ˈruː.mə.nənt/"}
+{"title":"rumination","uk":"uk  / ˌruː.mɪˈneɪ.ʃ ə n /","ukp":"/ˌruː.mɪˈneɪ.ʃən/","us":"us  / ˌruː.məˈneɪ.ʃ ə n /","usp":"/ˌruː.məˈneɪ.ʃən/"}
+{"title":"ruminative","uk":"uk  / ˈruː.mɪ.nə.tɪv /","ukp":"/ˈruː.mɪ.nə.tɪv/","us":"us  / ˈruː.mə.neɪ.t̬ɪv /","usp":"/ˈruː.mə.neɪ.t̬ɪv/"}
+{"title":"rummage","uk":"uk  / ˈrʌm.ɪdʒ /","ukp":"/ˈrʌm.ɪdʒ/","us":"us  / ˈrʌm.ɪdʒ /","usp":"/ˈrʌm.ɪdʒ/"}
+{"title":"rummage sale","uk":"uk  / ˈrʌm.ɪdʒ ˌseɪl /","ukp":"/ˈrʌm.ɪdʒ ˌseɪl/","us":"us  / ˈrʌm.ɪdʒ ˌseɪl /","usp":"/ˈrʌm.ɪdʒ ˌseɪl/"}
+{"title":"ruminating","uk":"uk  / ˈruː.mɪ.neɪt /","ukp":"/ˈruː.mɪ.neɪt/","us":"us  / ˈruː.mə.neɪt /","usp":"/ˈruː.mə.neɪt/"}
+{"title":"rummaged","uk":"uk  / ˈrʌm.ɪdʒ /","ukp":"/ˈrʌm.ɪdʒ/","us":"us  / ˈrʌm.ɪdʒ /","usp":"/ˈrʌm.ɪdʒ/"}
+{"title":"rummaging","uk":"uk  / ˈrʌm.ɪdʒ /","ukp":"/ˈrʌm.ɪdʒ/","us":"us  / ˈrʌm.ɪdʒ /","usp":"/ˈrʌm.ɪdʒ/"}
+{"title":"rummer","uk":"","us":""}
+{"title":"rummest","uk":"","us":""}
+{"title":"rummy","uk":"uk  / ˈrʌm.i /","ukp":"/ˈrʌm.i/","us":"us  / ˈrʌm.i /","usp":"/ˈrʌm.i/"}
+{"title":"rumored","uk":"uk  / ˈruː.məd /","ukp":"/ˈruː.məd/","us":"us  / ˈruː.mɚd /","usp":"/ˈruː.mɚd/"}
+{"title":"rumor","uk":"uk  / ˈruː.mə r /","ukp":"/ˈruː.mər/","us":"us  / ˈruː.mɚ /","usp":"/ˈruː.mɚ/"}
+{"title":"rumor mill","uk":"uk  / ˈruː.mə ˌmɪl /","ukp":"/ˈruː.mə ˌmɪl/","us":"us  / ˈruː.mɚ ˌmɪl /","usp":"/ˈruː.mɚ ˌmɪl/"}
+{"title":"rumormonger","uk":"uk  / ˈruː.mə.mʌŋ.ɡə r /","ukp":"/ˈruː.mə.mʌŋ.ɡər/","us":"us  / ˈruː.mɚ.mʌŋ.ɡɚ /","usp":"/ˈruː.mɚ.mʌŋ.ɡɚ/"}
+{"title":"rumour mill","uk":"uk  / ˈruː.mə ˌmɪl /","ukp":"/ˈruː.mə ˌmɪl/","us":"us  / ˈruː.mɚ ˌmɪl /","usp":"/ˈruː.mɚ ˌmɪl/"}
+{"title":"rumour","uk":"uk  / ˈruː.mə r /","ukp":"/ˈruː.mər/","us":"us  / ˈruː.mɚ /","usp":"/ˈruː.mɚ/"}
+{"title":"rumour-monger","uk":"uk  / ˈruː.məˌmʌŋ.ɡə r /","ukp":"/ˈruː.məˌmʌŋ.ɡər/","us":"us  / ˈruː.mɚˌmʌŋ.ɡɚ /","usp":"/ˈruː.mɚˌmʌŋ.ɡɚ/"}
+{"title":"rumoured","uk":"uk  / ˈruː.məd /","ukp":"/ˈruː.məd/","us":"us  / ˈruː.mɚd /","usp":"/ˈruː.mɚd/"}
+{"title":"rumple","uk":"uk  / ˈrʌm.p ə l /","ukp":"/ˈrʌm.pəl/","us":"us  / ˈrʌm.p ə l /","usp":"/ˈrʌm.pəl/"}
+{"title":"rump","uk":"uk  / rʌmp /","ukp":"/rʌmp/","us":"us  / rʌmp /","usp":"/rʌmp/"}
+{"title":"rumpled","uk":"uk  / ˈrʌm.p ə ld /","ukp":"/ˈrʌm.pəld/","us":"us  / ˈrʌm.p ə ld /","usp":"/ˈrʌm.pəld/"}
+{"title":"rumpling","uk":"uk  / ˈrʌm.p ə l /","ukp":"/ˈrʌm.pəl/","us":"us  / ˈrʌm.p ə l /","usp":"/ˈrʌm.pəl/"}
+{"title":"rumpus","uk":"uk  / ˈrʌm.pəs /","ukp":"/ˈrʌm.pəs/","us":"us  / ˈrʌm.pəs /","usp":"/ˈrʌm.pəs/"}
+{"title":"rumpus room","uk":"uk  / ˈrʌm.pəs ˌruːm /","ukp":"/ˈrʌm.pəs ˌruːm/","us":"us  / ˈrʌm.pəs ˌruːm /","usp":"/ˈrʌm.pəs ˌruːm/"}
+{"title":"run a bath","uk":"","us":""}
+{"title":"run (something) into something/someone","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run a mile","uk":"","us":""}
+{"title":"run across someone","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run afoul of something","uk":"","us":""}
+{"title":"run against someone/something","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run aground/ashore","uk":"","us":""}
+{"title":"run after someone/something","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run along!","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run amok","uk":"","us":""}
+{"title":"run and run","uk":"","us":""}
+{"title":"run around","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run around after someone","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run around in circles","uk":"","us":""}
+{"title":"run around with someone","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run up against something","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run away","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run wild","uk":"","us":""}
+{"title":"run with it","uk":"","us":""}
+{"title":"run your eye over something","uk":"","us":""}
+{"title":"run with something","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run yourself into the ground","uk":"","us":""}
+{"title":"run-time","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"run-of-the-mill","uk":"uk  / ˌrʌn.əv.ðəˈmɪl /","ukp":"/ˌrʌn.əv.ðəˈmɪl/","us":"us  / ˌrʌn.əv.ðəˈmɪl /","usp":"/ˌrʌn.əv.ðəˈmɪl/"}
+{"title":"run/go deep","uk":"","us":""}
+{"title":"run/go like clockwork","uk":"","us":""}
+{"title":"runaround","uk":"uk  / ˈrʌn.ə.raʊnd /","ukp":"/ˈrʌn.ə.raʊnd/","us":"us  / ˈrʌn.ə.raʊnd /","usp":"/ˈrʌn.ə.raʊnd/"}
+{"title":"runabout","uk":"uk  / ˈrʌn.ə.baʊt /","ukp":"/ˈrʌn.ə.baʊt/","us":"us  / ˈrʌn.ə.baʊt /","usp":"/ˈrʌn.ə.baʊt/"}
+{"title":"runaway","uk":"uk  / ˈrʌn.ə.weɪ /","ukp":"/ˈrʌn.ə.weɪ/","us":"us  / ˈrʌn.ə.weɪ /","usp":"/ˈrʌn.ə.weɪ/"}
+{"title":"rune","uk":"uk  / ruːn /","ukp":"/ruːn/","us":"us  / ruːn /","usp":"/ruːn/"}
+{"title":"rundown","uk":"uk  / ˈrʌn.daʊn /","ukp":"/ˈrʌn.daʊn/","us":"us  / ˈrʌn.daʊn /","usp":"/ˈrʌn.daʊn/"}
+{"title":"rung","uk":"uk  / rʌŋ /","ukp":"/rʌŋ/","us":"us  / rʌŋ /","usp":"/rʌŋ/"}
+{"title":"runic","uk":"uk  / ˈruː.nɪk /","ukp":"/ˈruː.nɪk/","us":"us  / ˈruː.nɪk /","usp":"/ˈruː.nɪk/"}
+{"title":"runnel","uk":"uk  / ˈrʌn. ə l /","ukp":"/ˈrʌn.əl/","us":"us  / ˈrʌn. ə l /","usp":"/ˈrʌn.əl/"}
+{"title":"runner bean","uk":"uk  / ˌrʌn.ə ˈbiːn /","ukp":"/ˌrʌn.ə ˈbiːn/","us":"us  / ˌrʌn.ɚ ˈbiːn /","usp":"/ˌrʌn.ɚ ˈbiːn/"}
+{"title":"runner-up","uk":"uk  / ˌrʌn.əˈrʌp /","ukp":"/ˌrʌn.əˈrʌp/","us":"us  / ˌrʌn.ɚˈʌp /","usp":"/ˌrʌn.ɚˈʌp/"}
+{"title":"runner","uk":"uk  / ˈrʌn.ə r /","ukp":"/ˈrʌn.ər/","us":"us  / ˈrʌn.ɚ /","usp":"/ˈrʌn.ɚ/"}
+{"title":"runners and riders","uk":"","us":""}
+{"title":"runners-up","uk":"","us":""}
+{"title":"running battle","uk":"","us":""}
+{"title":"running back","uk":"uk  / ˈrʌn.ɪŋ ˌbæk /","ukp":"/ˈrʌn.ɪŋ ˌbæk/","us":"us  / ˈrʌn.ɪŋ ˌbæk /","usp":"/ˈrʌn.ɪŋ ˌbæk/"}
+{"title":"running","uk":"uk  / ˈrʌn.ɪŋ /","ukp":"/ˈrʌn.ɪŋ/","us":"us  / ˈrʌn.ɪŋ /","usp":"/ˈrʌn.ɪŋ/"}
+{"title":"running board","uk":"uk / ˈrʌn.ɪŋ ˌbɔːd /","ukp":"/ˈrʌn.ɪŋ ˌbɔːd/","us":"us / ˈrʌn.ɪŋ ˌbɔːrd /","usp":"/ˈrʌn.ɪŋ ˌbɔːrd/"}
+{"title":"running cost","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"running commentary","uk":"uk  / ˌrʌn.ɪŋ ˈkɒm.ən.t ə r.i /","ukp":"/ˌrʌn.ɪŋ ˈkɒm.ən.tər.i/","us":"us  / ˌrʌn.ɪŋ ˈkɑː.mən.ter.i /","usp":"/ˌrʌn.ɪŋ ˈkɑː.mən.ter.i/"}
+{"title":"running costs","uk":"uk  / ˈrʌn.ɪŋ ˌkɒsts /","ukp":"/ˈrʌn.ɪŋ ˌkɒsts/","us":"us  / ˈrʌn.ɪŋ ˌkɑːsts /","usp":"/ˈrʌn.ɪŋ ˌkɑːsts/"}
+{"title":"running mate","uk":"uk  / ˈrʌn.ɪŋ ˌmeɪt /","ukp":"/ˈrʌn.ɪŋ ˌmeɪt/","us":"us  / ˈrʌn.ɪŋ ˌmeɪt /","usp":"/ˈrʌn.ɪŋ ˌmeɪt/"}
+{"title":"running on empty","uk":"","us":""}
+{"title":"running order","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"running repairs","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"running sore","uk":"uk  / ˌrʌn.ɪŋ ˈsɔː r /","ukp":"/ˌrʌn.ɪŋ ˈsɔːr/","us":"us  / ˌrʌn.ɪŋ ˈsɔːr /","usp":"/ˌrʌn.ɪŋ ˈsɔːr/"}
+{"title":"running shoe","uk":"uk  / ˈrʌn.ɪŋ ˌʃuː /","ukp":"/ˈrʌn.ɪŋ ˌʃuː/","us":"us  / ˈrʌn.ɪŋ ˌʃuː /","usp":"/ˈrʌn.ɪŋ ˌʃuː/"}
+{"title":"running stitch","uk":"uk  / ˈrʌn.ɪŋ ˌstɪtʃ /","ukp":"/ˈrʌn.ɪŋ ˌstɪtʃ/","us":"us  / ˈrʌn.ɪŋ ˌstɪtʃ /","usp":"/ˈrʌn.ɪŋ ˌstɪtʃ/"}
+{"title":"running tally","uk":"","us":""}
+{"title":"running time","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"running total","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"running with blood","uk":"","us":""}
+{"title":"running yield","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"running water","uk":"uk  / ˌrʌn.ɪŋ ˈwɔː.tə r /","ukp":"/ˌrʌn.ɪŋ ˈwɔː.tər/","us":"us  / ˌrʌn.ɪŋ ˈwɑː.t̬ɚ /","usp":"/ˌrʌn.ɪŋ ˈwɑː.t̬ɚ/"}
+{"title":"runoff","uk":"","us":"us  / ˈrʌnˌɔf /","usp":"/ˈrʌnˌɔf/"}
+{"title":"runny","uk":"uk  / ˈrʌn.i /","ukp":"/ˈrʌn.i/","us":"us  / ˈrʌn.i /","usp":"/ˈrʌn.i/"}
+{"title":"round trip","uk":"uk  / ˌraʊnd ˈtrɪp /","ukp":"/ˌraʊnd ˈtrɪp/","us":"us  / ˌraʊnd ˈtrɪp /","usp":"/ˌraʊnd ˈtrɪp/"}
+{"title":"round-eyed","uk":"uk  / ˌraʊndˈaɪd /","ukp":"/ˌraʊndˈaɪd/","us":"us  / ˌraʊndˈaɪd /","usp":"/ˌraʊndˈaɪd/"}
+{"title":"round-shouldered","uk":"uk  / ˌraʊndˈʃəʊl.dəd /","ukp":"/ˌraʊndˈʃəʊl.dəd/","us":"us  / ˌraʊndˈʃoʊl.dɚd /","usp":"/ˌraʊndˈʃoʊl.dɚd/"}
+{"title":"round-table","uk":"uk  / ˌraʊndˈteɪ.b ə l /","ukp":"/ˌraʊndˈteɪ.bəl/","us":"us  / ˌraʊndˈteɪ.b ə l /","usp":"/ˌraʊndˈteɪ.bəl/"}
+{"title":"round-trip ticket","uk":"uk  / ˈraʊnd.trɪp ˌtɪk.ɪt /","ukp":"/ˈraʊnd.trɪp ˌtɪk.ɪt/","us":"us  / ˌraʊnd.trɪp ˈtɪk.ɪt /","usp":"/ˌraʊnd.trɪp ˈtɪk.ɪt/"}
+{"title":"round/around the block","uk":"","us":""}
+{"title":"round-the-clock","uk":"uk  / ˌraʊnd.ðəˈklɒk /","ukp":"/ˌraʊnd.ðəˈklɒk/","us":"us  / ˌraʊnd.ðəˈklɑːk /","usp":"/ˌraʊnd.ðəˈklɑːk/"}
+{"title":"round/around the clock","uk":"","us":""}
+{"title":"rounded","uk":"uk  / ˈraʊn.dɪd /","ukp":"/ˈraʊn.dɪd/","us":"us  / ˈraʊn.dɪd /","usp":"/ˈraʊn.dɪd/"}
+{"title":"roundel","uk":"uk  / ˈraʊn.d ə l /","ukp":"/ˈraʊn.dəl/","us":"us  / ˈraʊn.d ə l /","usp":"/ˈraʊn.dəl/"}
+{"title":"roundabout","uk":"uk  / ˈraʊnd.ə.baʊt /","ukp":"/ˈraʊnd.ə.baʊt/","us":"us  / ˈraʊnd.ə.baʊt /","usp":"/ˈraʊnd.ə.baʊt/"}
+{"title":"rounders","uk":"uk  / ˈraʊn.dəz /","ukp":"/ˈraʊn.dəz/","us":"us  / ˈraʊn.dɚz /","usp":"/ˈraʊn.dɚz/"}
+{"title":"roundhouse kick","uk":"uk  / ˌraʊnd.haʊs ˈkɪk /","ukp":"/ˌraʊnd.haʊs ˈkɪk/","us":"us  / ˌraʊnd.haʊs ˈkɪk /","usp":"/ˌraʊnd.haʊs ˈkɪk/"}
+{"title":"rounding","uk":"uk  / ˈraʊn.dɪŋ /","ukp":"/ˈraʊn.dɪŋ/","us":"us  / ˈraʊn.dɪŋ /","usp":"/ˈraʊn.dɪŋ/"}
+{"title":"roundly","uk":"uk  / ˈraʊnd.li /","ukp":"/ˈraʊnd.li/","us":"us  / ˈraʊnd.li /","usp":"/ˈraʊnd.li/"}
+{"title":"rounds","uk":"","us":"us  / rɑʊndz /","usp":"/rɑʊndz/"}
+{"title":"roundtable","uk":"","us":"us  / ˈrɑʊndˌteɪ·bəl /","usp":"/ˈrɑʊndˌteɪ·bəl/"}
+{"title":"roundup","uk":"","us":"us  / ˈrɑʊndˌʌp /","usp":"/ˈrɑʊndˌʌp/"}
+{"title":"roundworm","uk":"uk  / ˈraʊnd.wɜːm /","ukp":"/ˈraʊnd.wɜːm/","us":"us  / ˈraʊnd.wɝːm /","usp":"/ˈraʊnd.wɝːm/"}
+{"title":"rouseabout","uk":"uk  / ˈraʊz.ə.baʊt /","ukp":"/ˈraʊz.ə.baʊt/","us":"us  / ˈraʊz.ə.baʊt /","usp":"/ˈraʊz.ə.baʊt/"}
+{"title":"rouse","uk":"uk  / raʊz /","ukp":"/raʊz/","us":"us  / raʊz /","usp":"/raʊz/"}
+{"title":"roused","uk":"uk  / raʊz /","ukp":"/raʊz/","us":"us  / raʊz /","usp":"/raʊz/"}
+{"title":"roustabout","uk":"uk  / ˈraʊst.ə.baʊt /","ukp":"/ˈraʊst.ə.baʊt/","us":"us  / ˈraʊst.ə.baʊt /","usp":"/ˈraʊst.ə.baʊt/"}
+{"title":"rout someone out","uk":"uk  / raʊt /","ukp":"/raʊt/","us":"us  / raʊt /","usp":"/raʊt/"}
+{"title":"rout","uk":"uk  / raʊt /","ukp":"/raʊt/","us":"us  / raʊt /","usp":"/raʊt/"}
+{"title":"rousing","uk":"uk  / ˈraʊ.zɪŋ /","ukp":"/ˈraʊ.zɪŋ/","us":"us  / ˈraʊ.zɪŋ /","usp":"/ˈraʊ.zɪŋ/"}
+{"title":"Route 128","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"route","uk":"uk  / ruːt /","ukp":"/ruːt/","us":"us  / ruːt /","usp":"/ruːt/"}
+{"title":"route one football","uk":"uk  / ˌruːt ˌwʌn ˈfʊt.bɔːl /","ukp":"/ˌruːt ˌwʌn ˈfʊt.bɔːl/","us":"us  / ˌruːt ˌwʌn ˈfʊt.bɑːl /","usp":"/ˌruːt ˌwʌn ˈfʊt.bɑːl/"}
+{"title":"route march","uk":"uk  / ˈruːt ˌmɑːtʃ /","ukp":"/ˈruːt ˌmɑːtʃ/","us":"us  / ˈruːt ˌmɑːrtʃ /","usp":"/ˈruːt ˌmɑːrtʃ/"}
+{"title":"routed","uk":"uk  / ruːt /","ukp":"/ruːt/","us":"us  / ruːt /","usp":"/ruːt/"}
+{"title":"routeing","uk":"uk  / ˈruːtɪŋ /","ukp":"/ˈruːtɪŋ/","us":"us  / ˈruːtɪŋ , ˈraʊtɪŋ /","usp":"/ˈruːtɪŋ, ˈraʊtɪŋ/"}
+{"title":"router","uk":"uk  / ˈruː.tə r /","ukp":"/ˈruː.tər/","us":"us  / ˈraʊ.t̬ɚ /","usp":"/ˈraʊ.t̬ɚ/"}
+{"title":"routine","uk":"uk  / ruːˈtiːn /","ukp":"/ruːˈtiːn/","us":"us  / ruːˈtiːn /","usp":"/ruːˈtiːn/"}
+{"title":"routinely","uk":"uk  / ruːˈtiːn.li /","ukp":"/ruːˈtiːn.li/","us":"us  / ruːˈtiːn.li /","usp":"/ruːˈtiːn.li/"}
+{"title":"routing","uk":"uk  / ˈruːt.ɪŋ /","ukp":"/ˈruːt.ɪŋ/","us":"us  / ˈruː.t̬ɪŋ /","usp":"/ˈruː.t̬ɪŋ/"}
+{"title":"routing number","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"roux","uk":"uk  / ruː /","ukp":"/ruː/","us":"us  / ruː /","usp":"/ruː/"}
+{"title":"rove","uk":"uk  / rəʊv /","ukp":"/rəʊv/","us":"us  / roʊv /","usp":"/roʊv/"}
+{"title":"roved","uk":"uk  / rəʊv /","ukp":"/rəʊv/","us":"us  / roʊv /","usp":"/roʊv/"}
+{"title":"rover","uk":"uk  / ˈrəʊ.və r /","ukp":"/ˈrəʊ.vər/","us":"us  / ˈroʊ.vɚ /","usp":"/ˈroʊ.vɚ/"}
+{"title":"roving","uk":"uk  / ˈrəʊ.vɪŋ /","ukp":"/ˈrəʊ.vɪŋ/","us":"us  / ˈroʊ.vɪŋ /","usp":"/ˈroʊ.vɪŋ/"}
+{"title":"row house","uk":"","us":"us / ˈroʊˌhɑʊs /","usp":"/ˈroʊˌhɑʊs/"}
+{"title":"row","uk":"uk  / rəʊ /","ukp":"/rəʊ/","us":"us  / roʊ /","usp":"/roʊ/"}
+{"title":"row back","uk":"uk  / rəʊ /","ukp":"/rəʊ/","us":"us  / roʊ /","usp":"/roʊ/"}
+{"title":"row Z","uk":"uk  / ˌrəʊ ˈzed /","ukp":"/ˌrəʊ ˈzed/","us":"us  / ˌroʊ ˈziː /","usp":"/ˌroʊ ˈziː/"}
+{"title":"rowan","uk":"uk  / ˈrəʊ.ən /","ukp":"/ˈrəʊ.ən/","us":"us  / ˈroʊ.ən /","usp":"/ˈroʊ.ən/"}
+{"title":"rowboat","uk":"uk  / ˈrəʊ ˌbəʊt /","ukp":"/ˈrəʊ ˌbəʊt/","us":"us  / ˈroʊ ˌboʊt /","usp":"/ˈroʊ ˌboʊt/"}
+{"title":"rowdily","uk":"uk  / ˈraʊ.d ə l.i /","ukp":"/ˈraʊ.dəl.i/","us":"us  / ˈraʊ.d ə l.i /","usp":"/ˈraʊ.dəl.i/"}
+{"title":"rue the day","uk":"","us":""}
+{"title":"rue","uk":"uk  / ruː /","ukp":"/ruː/","us":"us  / ruː /","usp":"/ruː/"}
+{"title":"rueful","uk":"uk  / ˈruː.f ə l /","ukp":"/ˈruː.fəl/","us":"us  / ˈruː.f ə l /","usp":"/ˈruː.fəl/"}
+{"title":"ruefully","uk":"uk  / ˈruː.f ə l.i /","ukp":"/ˈruː.fəl.i/","us":"us  / ˈruː.f ə l.i /","usp":"/ˈruː.fəl.i/"}
+{"title":"ruff","uk":"uk  / rʌf /","ukp":"/rʌf/","us":"us  / rʌf /","usp":"/rʌf/"}
+{"title":"ruffian","uk":"uk  / ˈrʌf.i.ən /","ukp":"/ˈrʌf.i.ən/","us":"us  / ˈrʌf.i.ən /","usp":"/ˈrʌf.i.ən/"}
+{"title":"ruffle someone's feathers","uk":"","us":""}
+{"title":"ruffle","uk":"uk  / ˈrʌf. ə l /","ukp":"/ˈrʌf.əl/","us":"us  / ˈrʌf. ə l /","usp":"/ˈrʌf.əl/"}
+{"title":"ruffled","uk":"","us":"us  / ˈrʌf·əld /","usp":"/ˈrʌf·əld/"}
+{"title":"ruffling","uk":"uk  / ˈrʌf. ə l /","ukp":"/ˈrʌf.əl/","us":"us  / ˈrʌf. ə l /","usp":"/ˈrʌf.əl/"}
+{"title":"rug","uk":"uk  / rʌɡ /","ukp":"/rʌɡ/","us":"us  / rʌɡ /","usp":"/rʌɡ/"}
+{"title":"rugby","uk":"uk  / ˈrʌɡ.bi /","ukp":"/ˈrʌɡ.bi/","us":"us  / ˈrʌɡ.bi /","usp":"/ˈrʌɡ.bi/"}
+{"title":"rugby ball","uk":"uk / ˈrʌɡ.bi ˌbɔːl /","ukp":"/ˈrʌɡ.bi ˌbɔːl/","us":"us  / ˈrʌɡ.bi ˌbɑːl /","usp":"/ˈrʌɡ.bi ˌbɑːl/"}
+{"title":"rugby league","uk":"uk  / ˌrʌɡ.bi ˈliːɡ /","ukp":"/ˌrʌɡ.bi ˈliːɡ/","us":"us  / ˌrʌɡ.bi ˈliːɡ /","usp":"/ˌrʌɡ.bi ˈliːɡ/"}
+{"title":"rugby union","uk":"uk  / ˌrʌɡ.bi ˈjuː.ni.ən /","ukp":"/ˌrʌɡ.bi ˈjuː.ni.ən/","us":"us  / ˌrʌɡ.bi ˈjuː.ni.ən /","usp":"/ˌrʌɡ.bi ˈjuː.ni.ən/"}
+{"title":"rugged","uk":"uk  / ˈrʌɡ.ɪd /","ukp":"/ˈrʌɡ.ɪd/","us":"us  / ˈrʌɡ.ɪd /","usp":"/ˈrʌɡ.ɪd/"}
+{"title":"ruggedly","uk":"uk  / ˈrʌɡ.ɪd.li /","ukp":"/ˈrʌɡ.ɪd.li/","us":"us  / ˈrʌɡ.ɪd.li /","usp":"/ˈrʌɡ.ɪd.li/"}
+{"title":"rugger","uk":"uk  / ˈrʌɡ.ə r /","ukp":"/ˈrʌɡ.ər/","us":"us  / ˈrʌɡ.ɚ /","usp":"/ˈrʌɡ.ɚ/"}
+{"title":"rugrat","uk":"uk  / ˈrʌɡ.ræt /","ukp":"/ˈrʌɡ.ræt/","us":"us  / ˈrʌɡ.ræt /","usp":"/ˈrʌɡ.ræt/"}
+{"title":"ruined","uk":"uk  / ˈruː.ɪnd /","ukp":"/ˈruː.ɪnd/","us":"us  / ˈruː.ɪnd /","usp":"/ˈruː.ɪnd/"}
+{"title":"ruin","uk":"uk  / ˈruː.ɪn /","ukp":"/ˈruː.ɪn/","us":"us  / ˈruː.ɪn /","usp":"/ˈruː.ɪn/"}
+{"title":"ruination","uk":"uk  / ˌruː.ɪˈneɪ.ʃ ə n /","ukp":"/ˌruː.ɪˈneɪ.ʃən/","us":"us  / ˌruː.əˈneɪ.ʃ ə n /","usp":"/ˌruː.əˈneɪ.ʃən/"}
+{"title":"ruing","uk":"","us":""}
+{"title":"ruining","uk":"uk  / ˈruː.ɪn /","ukp":"/ˈruː.ɪn/","us":"us  / ˈruː.ɪn /","usp":"/ˈruː.ɪn/"}
+{"title":"ruinous","uk":"uk  / ˈruː.ɪ.nəs /","ukp":"/ˈruː.ɪ.nəs/","us":"us  / ˈruː.ə.nəs /","usp":"/ˈruː.ə.nəs/"}
+{"title":"ruinously","uk":"uk  / ˈruː.ɪ.nəs.li /","ukp":"/ˈruː.ɪ.nəs.li/","us":"us  / ˈruː.ə.nəs.li /","usp":"/ˈruː.ə.nəs.li/"}
+{"title":"rule book","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rule","uk":"uk  / ruːl /","ukp":"/ruːl/","us":"us  / ruːl /","usp":"/ruːl/"}
+{"title":"Rule Britannia","uk":"","us":""}
+{"title":"rule of thumb","uk":"","us":"us / ˈrul əv ˈθʌm /","usp":"/ˈrul əv ˈθʌm/"}
+{"title":"rule OK","uk":"","us":""}
+{"title":"rule something or someone in","uk":"uk  / ruːl /","ukp":"/ruːl/","us":"us  / ruːl /","usp":"/ruːl/"}
+{"title":"rule something with an iron hand/fist","uk":"","us":""}
+{"title":"rule something or someone out","uk":"uk  / ruːl /","ukp":"/ruːl/","us":"us  / ruːl /","usp":"/ruːl/"}
+{"title":"rule the roost","uk":"","us":""}
+{"title":"rulebook","uk":"uk  / ˈruːl.bʊk /","ukp":"/ˈruːl.bʊk/","us":"us  / ˈruːl.bʊk /","usp":"/ˈruːl.bʊk/"}
+{"title":"ruled","uk":"uk  / ruːl /","ukp":"/ruːl/","us":"us  / ruːl /","usp":"/ruːl/"}
+{"title":"ruler","uk":"uk  / ˈruː.lə r /","ukp":"/ˈruː.lər/","us":"us  / ˈruː.lɚ /","usp":"/ˈruː.lɚ/"}
+{"title":"rules are made to be broken","uk":"","us":""}
+{"title":"rules of engagement","uk":"uk / ˌruːlz əv ɪnˈɡeɪdʒ.mənt /","ukp":"/ˌruːlz əv ɪnˈɡeɪdʒ.mənt/","us":"us  / ˌruːlz əv ɪnˈɡeɪdʒ.mənt /","usp":"/ˌruːlz əv ɪnˈɡeɪdʒ.mənt/"}
+{"title":"ruling","uk":"uk  / ˈruː.lɪŋ /","ukp":"/ˈruː.lɪŋ/","us":"us  / ˈruː.lɪŋ /","usp":"/ˈruː.lɪŋ/"}
+{"title":"rum baba","uk":"uk  / ˌrʌm ˈbɑː.bɑː /","ukp":"/ˌrʌm ˈbɑː.bɑː/","us":"us  / ˌrʌm ˈbɑː.bɑː /","usp":"/ˌrʌm ˈbɑː.bɑː/"}
+{"title":"rum","uk":"uk  / rʌm /","ukp":"/rʌm/","us":"us  / rʌm /","usp":"/rʌm/"}
+{"title":"rumba","uk":"uk  / ˈrʌm.bə /","ukp":"/ˈrʌm.bə/","us":"us  / ˈrʌm.bə /","usp":"/ˈrʌm.bə/"}
+{"title":"rumble on","uk":"uk  / ˈrʌm.b ə l /","ukp":"/ˈrʌm.bəl/","us":"us  / ˈrʌm.b ə l /","usp":"/ˈrʌm.bəl/"}
+{"title":"rumble strip","uk":"uk  / ˈrʌm.b ə l ˌstrɪp /","ukp":"/ˈrʌm.bəl ˌstrɪp/","us":"us  / ˈrʌm.b ə l ˌstrɪp /","usp":"/ˈrʌm.bəl ˌstrɪp/"}
+{"title":"rumble","uk":"uk  / ˈrʌm.b ə l /","ukp":"/ˈrʌm.bəl/","us":"us  / ˈrʌm.b ə l /","usp":"/ˈrʌm.bəl/"}
+{"title":"rub something down","uk":"uk  / rʌb /","ukp":"/rʌb/","us":"us  / rʌb /","usp":"/rʌb/"}
+{"title":"rub something in","uk":"uk  / rʌb /","ukp":"/rʌb/","us":"us  / rʌb /","usp":"/rʌb/"}
+{"title":"rub something out","uk":"uk  / rʌb /","ukp":"/rʌb/","us":"us  / rʌb /","usp":"/rʌb/"}
+{"title":"rubbed","uk":"","us":""}
+{"title":"rubber","uk":"uk  / ˈrʌb.ə r /","ukp":"/ˈrʌb.ər/","us":"us  / ˈrʌb.ɚ /","usp":"/ˈrʌb.ɚ/"}
+{"title":"rubber cheque","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rubber band","uk":"uk  / ˌrʌb.ə ˈbænd /","ukp":"/ˌrʌb.ə ˈbænd/","us":"us  / ˌrʌb.ɚ ˈbænd /","usp":"/ˌrʌb.ɚ ˈbænd/"}
+{"title":"rubber boot","uk":"uk  / ˌrʌb.ə ˈbuːt /","ukp":"/ˌrʌb.ə ˈbuːt/","us":"us  / ˌrʌb.ɚ ˈbuːt /","usp":"/ˌrʌb.ɚ ˈbuːt/"}
+{"title":"rubber chicken circuit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rubber dinghy","uk":"uk  / ˌrʌb.ə ˈdɪŋ.ɡi /","ukp":"/ˌrʌb.ə ˈdɪŋ.ɡi/","us":"us  / ˌrʌb.ɚ ˈdɪŋ.i /","usp":"/ˌrʌb.ɚ ˈdɪŋ.i/"}
+{"title":"rubber duck","uk":"uk  / ˌrʌb.ə ˈdʌk /","ukp":"/ˌrʌb.ə ˈdʌk/","us":"us  / ˌrʌb.ɚ ˈdʌk /","usp":"/ˌrʌb.ɚ ˈdʌk/"}
+{"title":"rubber plant","uk":"uk  / ˈrʌb.ə ˌplɑːnt /","ukp":"/ˈrʌb.ə ˌplɑːnt/","us":"us  / ˈrʌb.ɚ ˌplænt /","usp":"/ˈrʌb.ɚ ˌplænt/"}
+{"title":"rubber stamp","uk":"uk  / ˌrʌb.ə ˈstæmp /","ukp":"/ˌrʌb.ə ˈstæmp/","us":"us  / ˌrʌb.ɚ ˈstæmp /","usp":"/ˌrʌb.ɚ ˈstæmp/"}
+{"title":"rubber tree","uk":"uk  / ˈrʌb.ə ˌtriː /","ukp":"/ˈrʌb.ə ˌtriː/","us":"us  / ˈrʌb.ɚ ˌtriː /","usp":"/ˈrʌb.ɚ ˌtriː/"}
+{"title":"rubbernecker","uk":"uk  / ˈrʌb.ə.nek.ə r /","ukp":"/ˈrʌb.ə.nek.ər/","us":"us  / ˈrʌb.ɚ.nek.ɚ /","usp":"/ˈrʌb.ɚ.nek.ɚ/"}
+{"title":"rubbernecking","uk":"uk  / ˈrʌb.ə.nek.ɪŋ /","ukp":"/ˈrʌb.ə.nek.ɪŋ/","us":"us  / ˈrʌb.ɚ.nek.ɪŋ /","usp":"/ˈrʌb.ɚ.nek.ɪŋ/"}
+{"title":"rubbery","uk":"uk  / ˈrʌb. ə r.i /","ukp":"/ˈrʌb.ər.i/","us":"us  / ˈrʌb.ɚ.i /","usp":"/ˈrʌb.ɚ.i/"}
+{"title":"rubbing","uk":"","us":""}
+{"title":"rubbing alcohol","uk":"uk  / ˈrʌb.ɪŋ ˌæl.kə.hɒl /","ukp":"/ˈrʌb.ɪŋ ˌæl.kə.hɒl/","us":"us  / ˈrʌb.ɪŋ ˌæl.kə.hɑːl /","usp":"/ˈrʌb.ɪŋ ˌæl.kə.hɑːl/"}
+{"title":"rubbished","uk":"uk  / ˈrʌb.ɪʃ /","ukp":"/ˈrʌb.ɪʃ/","us":"us  / ˈrʌb.ɪʃ /","usp":"/ˈrʌb.ɪʃ/"}
+{"title":"rubbishing","uk":"uk  / ˈrʌb.ɪʃ /","ukp":"/ˈrʌb.ɪʃ/","us":"us  / ˈrʌb.ɪʃ /","usp":"/ˈrʌb.ɪʃ/"}
+{"title":"rubbish","uk":"uk  / ˈrʌb.ɪʃ /","ukp":"/ˈrʌb.ɪʃ/","us":"us  / ˈrʌb.ɪʃ /","usp":"/ˈrʌb.ɪʃ/"}
+{"title":"rubbishy","uk":"uk  / ˈrʌb.ɪ.ʃi /","ukp":"/ˈrʌb.ɪ.ʃi/","us":"us  / ˈrʌb.ɪ.ʃi /","usp":"/ˈrʌb.ɪ.ʃi/"}
+{"title":"rubdown","uk":"uk  / ˈrʌb.daʊn /","ukp":"/ˈrʌb.daʊn/","us":"us  / ˈrʌb.daʊn /","usp":"/ˈrʌb.daʊn/"}
+{"title":"rubble","uk":"uk  / ˈrʌb. ə l /","ukp":"/ˈrʌb.əl/","us":"us  / ˈrʌb. ə l /","usp":"/ˈrʌb.əl/"}
+{"title":"rubella","uk":"uk  / ruːˈbel.ə /","ukp":"/ruːˈbel.ə/","us":"us  / ruːˈbel.ə /","usp":"/ruːˈbel.ə/"}
+{"title":"Rubicon","uk":"uk  / ˈruː.bɪ.kɒn /","ukp":"/ˈruː.bɪ.kɒn/","us":"us  / ˈruː.bɪ.kɑːn /","usp":"/ˈruː.bɪ.kɑːn/"}
+{"title":"rubicund","uk":"uk  / ˈruː.bɪ.kənd /","ukp":"/ˈruː.bɪ.kənd/","us":"us  / ˈruː.bə.kʌnd /","usp":"/ˈruː.bə.kʌnd/"}
+{"title":"ruble","uk":"uk  / ˈruːbl /","ukp":"/ˈruːbl/","us":"us ","usp":""}
+{"title":"rubric","uk":"uk  / ˈruː.brɪk /","ukp":"/ˈruː.brɪk/","us":"us  / ˈruː.brɪk /","usp":"/ˈruː.brɪk/"}
+{"title":"ruby anniversary","uk":"uk  / ˌruː.bi ˌæn.ɪˈvɜː.s ə r.i /","ukp":"/ˌruː.bi ˌæn.ɪˈvɜː.sər.i/","us":"us  / ˌruː.bi ˌæn.əˈvɝː.sɚ.i /","usp":"/ˌruː.bi ˌæn.əˈvɝː.sɚ.i/"}
+{"title":"ruby","uk":"uk  / ˈruː.bi /","ukp":"/ˈruː.bi/","us":"us  / ˈruː.bi /","usp":"/ˈruː.bi/"}
+{"title":"ruby murray","uk":"uk  / ˌruːbi ˈmʌr.i /","ukp":"/ˌruːbi ˈmʌr.i/","us":"us  / ˌruːbi ˈmʌr.i /","usp":"/ˌruːbi ˈmʌr.i/"}
+{"title":"ruby wedding anniversary","uk":"uk  / ˌruː.bi ˈwed.ɪŋ /","ukp":"/ˌruː.bi ˈwed.ɪŋ /","us":"us  / ˌruː.bi ˈwed.ɪŋ /","usp":"/ˌruː.bi ˈwed.ɪŋ /"}
+{"title":"ruche","uk":"uk  / ruːʃ /","ukp":"/ruːʃ/","us":"us  / ruːʃ /","usp":"/ruːʃ/"}
+{"title":"ruched","uk":"uk  / ruːʃt /","ukp":"/ruːʃt/","us":"us  / ruːʃt /","usp":"/ruːʃt/"}
+{"title":"ruck (something) up","uk":"uk  / rʌk /","ukp":"/rʌk/","us":"us  / rʌk /","usp":"/rʌk/"}
+{"title":"ruck","uk":"uk  / rʌk /","ukp":"/rʌk/","us":"us  / rʌk /","usp":"/rʌk/"}
+{"title":"ructions","uk":"uk  / ˈrʌk.ʃ ə nz /","ukp":"/ˈrʌk.ʃənz/","us":"us  / ˈrʌk.ʃ ə nz /","usp":"/ˈrʌk.ʃənz/"}
+{"title":"rucksack","uk":"uk  / ˈrʌk.sæk /","ukp":"/ˈrʌk.sæk/","us":"us  / ˈrʌk.sæk /","usp":"/ˈrʌk.sæk/"}
+{"title":"ruckus","uk":"uk  / ˈrʌk.əs /","ukp":"/ˈrʌk.əs/","us":"us  / ˈrʌk.əs /","usp":"/ˈrʌk.əs/"}
+{"title":"rudder","uk":"uk  / ˈrʌd.ə r /","ukp":"/ˈrʌd.ər/","us":"us  / ˈrʌd.ɚ /","usp":"/ˈrʌd.ɚ/"}
+{"title":"rudderless","uk":"uk  / ˈrʌd.ə.ləs /","ukp":"/ˈrʌd.ə.ləs/","us":"us  / ˈrʌd.ɚ.ləs /","usp":"/ˈrʌd.ɚ.ləs/"}
+{"title":"ruddy","uk":"uk  / ˈrʌd.i /","ukp":"/ˈrʌd.i/","us":"us  / ˈrʌd.i /","usp":"/ˈrʌd.i/"}
+{"title":"rude","uk":"uk  / ruːd /","ukp":"/ruːd/","us":"us  / ruːd /","usp":"/ruːd/"}
+{"title":"rudely","uk":"uk  / ˈruːd.li /","ukp":"/ˈruːd.li/","us":"us  / ˈruːd.li /","usp":"/ˈruːd.li/"}
+{"title":"rudeness","uk":"uk  / ˈruːd.nəs /","ukp":"/ˈruːd.nəs/","us":"us  / ˈruːd.nəs /","usp":"/ˈruːd.nəs/"}
+{"title":"rudimentary","uk":"uk  / ˌruː.dɪˈmen.t ə r.i /","ukp":"/ˌruː.dɪˈmen.tər.i/","us":"us  / ˌruː.dəˈmen.t ə r.i /","usp":"/ˌruː.dəˈmen.tər.i/"}
+{"title":"run away to sea","uk":"","us":""}
+{"title":"run away with someone","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run down the clock","uk":"","us":""}
+{"title":"run dry","uk":"","us":""}
+{"title":"run errands","uk":"","us":""}
+{"title":"run high","uk":"","us":""}
+{"title":"run interference","uk":"","us":""}
+{"title":"run in the family","uk":"","us":""}
+{"title":"run its course","uk":"","us":""}
+{"title":"run of book","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"run of network","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"run of paper","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"run of press","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"run of publication","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"run of site","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"run off with something","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run off","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run on","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run out","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run out of steam","uk":"","us":""}
+{"title":"run out on someone/something","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run rings around someone","uk":"","us":""}
+{"title":"run out the clock","uk":"","us":""}
+{"title":"run over/through something","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run rings round someone","uk":"","us":""}
+{"title":"run roughshod over someone","uk":"","us":""}
+{"title":"run riot","uk":"","us":""}
+{"title":"run round in circles","uk":"","us":""}
+{"title":"run round like a headless chicken","uk":"","us":""}
+{"title":"run someone close","uk":"","us":""}
+{"title":"run someone out of town (on a rail)","uk":"","us":""}
+{"title":"run round","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run someone ragged","uk":"","us":""}
+{"title":"run someone/something to ground","uk":"","us":""}
+{"title":"run someone/something over","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run someone/something down","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run something by someone","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run sth by/past sb","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us ","usp":""}
+{"title":"run something in","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run something up","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run the gamut","uk":"","us":""}
+{"title":"run the gamut of something","uk":"","us":""}
+{"title":"run the gauntlet","uk":"","us":""}
+{"title":"run the risk of doing something","uk":"","us":""}
+{"title":"run the risk of doing something","uk":"","us":""}
+{"title":"run through someone's head/mind","uk":"","us":""}
+{"title":"run the show","uk":"","us":""}
+{"title":"run through someone's mind/head","uk":"","us":""}
+{"title":"run through something","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"run to something","uk":"uk  / rʌn /","ukp":"/rʌn/","us":"us  / rʌn /","usp":"/rʌn/"}
+{"title":"rutabaga","uk":"uk  / ˌruː.təˈbeɪ.ɡə /","ukp":"/ˌruː.təˈbeɪ.ɡə/","us":"us  / ˌruː.t̬əˈbeɪ.ɡə /","usp":"/ˌruː.t̬əˈbeɪ.ɡə/"}
+{"title":"ruthless","uk":"uk  / ˈruːθ.ləs /","ukp":"/ˈruːθ.ləs/","us":"us  / ˈruːθ.ləs /","usp":"/ˈruːθ.ləs/"}
+{"title":"ruthlessly","uk":"uk  / ˈruːθ.ləs.li /","ukp":"/ˈruːθ.ləs.li/","us":"us  / ˈruːθ.ləs.li /","usp":"/ˈruːθ.ləs.li/"}
+{"title":"ruthlessness","uk":"uk  / ˈruːθ.ləs.nəs /","ukp":"/ˈruːθ.ləs.nəs/","us":"us  / ˈruːθ.ləs.nəs /","usp":"/ˈruːθ.ləs.nəs/"}
+{"title":"Rutland","uk":"uk  / ˈrʌt.lənd /","ukp":"/ˈrʌt.lənd/","us":"us  / ˈrʌt.lənd /","usp":"/ˈrʌt.lənd/"}
+{"title":"rutting","uk":"uk  / ˈrʌt.ɪŋ /","ukp":"/ˈrʌt.ɪŋ/","us":"us  / ˈrʌt̬.ɪŋ /","usp":"/ˈrʌt̬.ɪŋ/"}
+{"title":"RV","uk":"uk  / ˌɑːˈviː /","ukp":"/ˌɑːˈviː/","us":"us  / ˌɑːrˈviː /","usp":"/ˌɑːrˈviː/"}
+{"title":"rutted","uk":"uk  / ˈrʌt.ɪd /","ukp":"/ˈrʌt.ɪd/","us":"us  / ˈrʌt̬.ɪd /","usp":"/ˈrʌt̬.ɪd/"}
+{"title":"RW","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Rwanda","uk":"uk  / ruˈæn.də /","ukp":"/ruˈæn.də/","us":"us  / ruˈɑːn.də /","usp":"/ruˈɑːn.də/"}
+{"title":"Rwandan","uk":"uk  / ruˈæn.dən /","ukp":"/ruˈæn.dən/","us":"us  / ruˈɑːn.dən /","usp":"/ruˈɑːn.dən/"}
+{"title":"Rx","uk":"","us":"us  / ˈɑrˈeks /","usp":"/ˈɑrˈeks/"}
+{"title":"rye bread","uk":"uk  / ˈraɪ ˌbred /","ukp":"/ˈraɪ ˌbred/","us":"us  / ˈraɪ ˌbred /","usp":"/ˈraɪ ˌbred/"}
+{"title":"M & A","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rye","uk":"uk  / raɪ /","ukp":"/raɪ/","us":"us  / raɪ /","usp":"/raɪ/"}
+{"title":"ryot","uk":"uk  / ˈraɪ.ət /","ukp":"/ˈraɪ.ət/","us":"us  / ˈraɪ.ət /","usp":"/ˈraɪ.ət/"}
+{"title":"m-learning","uk":"uk  / ˈemˌlɜː.nɪŋ /","ukp":"/ˈemˌlɜː.nɪŋ/","us":"us  / ˈemˌlɝː.nɪŋ /","usp":"/ˈemˌlɝː.nɪŋ/"}
+{"title":"M0","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"m-commerce","uk":"uk  / ˌemˈkɒm.ɜːs /","ukp":"/ˌemˈkɒm.ɜːs/","us":"us  / ˌemˈkɑː.mɝːs /","usp":"/ˌemˈkɑː.mɝːs/"}
+{"title":"M, m","uk":"uk  / em /","ukp":"/em/","us":"us  / em /","usp":"/em/"}
+{"title":"m8","uk":"uk  / meɪt /","ukp":"/meɪt/","us":"us  / meɪt /","usp":"/meɪt/"}
+{"title":"ma'am","uk":"uk  / mɑːm /","ukp":"/mɑːm/","us":"us  / mæm /","usp":"/mæm/"}
+{"title":"ma","uk":"uk  / mɑː /","ukp":"/mɑː/","us":"us  / mɑː /","usp":"/mɑː/"}
+{"title":"mac","uk":"uk  / mæk /","ukp":"/mæk/","us":"us  / mæk /","usp":"/mæk/"}
+{"title":"mac and cheese","uk":"uk / ˌmæk ən ˈtʃiːz /","ukp":"/ˌmæk ən ˈtʃiːz/","us":"us / ˌmæk ən ˈtʃiːz /","usp":"/ˌmæk ən ˈtʃiːz/"}
+{"title":"macadamia","uk":"uk  / ˌmæk.əˈdeɪ.mi.ə /","ukp":"/ˌmæk.əˈdeɪ.mi.ə/","us":"us  / ˌmæk.əˈdeɪ.mi.ə /","usp":"/ˌmæk.əˈdeɪ.mi.ə/"}
+{"title":"macabre","uk":"uk  / məˈkɑː.brə /","ukp":"/məˈkɑː.brə/","us":"us  / məˈkɑː.brə /","usp":"/məˈkɑː.brə/"}
+{"title":"macaque","uk":"uk  / məˈkɑːk /","ukp":"/məˈkɑːk/","us":"us  / məˈkɑːk /","usp":"/məˈkɑːk/"}
+{"title":"macaron","uk":"uk  / ˌmæk. ə rˈɒn /","ukp":"/ˌmæk.ərˈɒn/","us":"us  / ˌmæk.əˈroʊn /","usp":"/ˌmæk.əˈroʊn/"}
+{"title":"macaroni and cheese","uk":"uk  / mæk. ə rˌəʊ.ni ən ˈtʃiːz /","ukp":"/mæk.ərˌəʊ.ni ən ˈtʃiːz/","us":"us  / mæk.əˌroʊ.ni ən ˈtʃiːz /","usp":"/mæk.əˌroʊ.ni ən ˈtʃiːz/"}
+{"title":"macaroni","uk":"uk  / ˌmæk. ə rˈəʊ.ni /","ukp":"/ˌmæk.ərˈəʊ.ni/","us":"us  / ˌmæk.əˈroʊ.ni /","usp":"/ˌmæk.əˈroʊ.ni/"}
+{"title":"macaroni cheese","uk":"uk  / mæk. ə rˌəʊ.ni ˈtʃiːz /","ukp":"/mæk.ərˌəʊ.ni ˈtʃiːz/","us":"us  / mæk.əˌroʊ.ni ˈtʃiːz /","usp":"/mæk.əˌroʊ.ni ˈtʃiːz/"}
+{"title":"macaroon","uk":"uk  / ˌmæk. ə rˈuːn /","ukp":"/ˌmæk.ərˈuːn/","us":"us  / ˌmæk.əˈruːn /","usp":"/ˌmæk.əˈruːn/"}
+{"title":"macaw","uk":"uk  / məˈkɔː /","ukp":"/məˈkɔː/","us":"us  / məˈkɑː /","usp":"/məˈkɑː/"}
+{"title":"macchiato","uk":"uk  / ˌmæk.iˈɑː.təʊ /","ukp":"/ˌmæk.iˈɑː.təʊ/","us":"us  / ˌmɑːk.iˈɑː.t̬oʊ /","usp":"/ˌmɑːk.iˈɑː.t̬oʊ/"}
+{"title":"Macedonia","uk":"uk  / ˌmæs.əˈdəʊ.ni.ə /","ukp":"/ˌmæs.əˈdəʊ.ni.ə/","us":"us  / ˌmæs.əˈdoʊ.ni.ə /","usp":"/ˌmæs.əˈdoʊ.ni.ə/"}
+{"title":"Macedonian","uk":"uk  / ˌmæs.əˈdəʊ.ni.ən /","ukp":"/ˌmæs.əˈdəʊ.ni.ən/","us":"us  / ˌmæs.əˈdoʊ.ni.ən /","usp":"/ˌmæs.əˈdoʊ.ni.ən/"}
+{"title":"mace","uk":"uk  / meɪs /","ukp":"/meɪs/","us":"us  / meɪs /","usp":"/meɪs/"}
+{"title":"macerate","uk":"uk  / ˈmæs.ə.reɪt /","ukp":"/ˈmæs.ə.reɪt/","us":"us  / ˈmæs.ə.reɪt /","usp":"/ˈmæs.ə.reɪt/"}
+{"title":"macerating","uk":"uk  / ˈmæs.ə.reɪt /","ukp":"/ˈmæs.ə.reɪt/","us":"us  / ˈmæs.ə.reɪt /","usp":"/ˈmæs.ə.reɪt/"}
+{"title":"macerated","uk":"uk  / ˈmæs.ə.reɪt /","ukp":"/ˈmæs.ə.reɪt/","us":"us  / ˈmæs.ə.reɪt /","usp":"/ˈmæs.ə.reɪt/"}
+{"title":"MacGuffin","uk":"uk / məˈɡʌf.ɪn /","ukp":"/məˈɡʌf.ɪn/","us":"us  / məˈɡʌf.ɪn /","usp":"/məˈɡʌf.ɪn/"}
+{"title":"Mach","uk":"uk  / mɑːk /","ukp":"/mɑːk/","us":"us  / mɑːk /","usp":"/mɑːk/"}
+{"title":"machair","uk":"uk  / ˈmæk.ə r /","ukp":"/ˈmæk.ər/","us":"us  / ˈmæk.ɚ /","usp":"/ˈmæk.ɚ/"}
+{"title":"mache","uk":"uk / mɑːʃ /","ukp":"/mɑːʃ/","us":"us / mɑːʃ /","usp":"/mɑːʃ/"}
+{"title":"machete","uk":"uk  / məˈʃet.i /","ukp":"/məˈʃet.i/","us":"us  / məˈʃet̬.i /","usp":"/məˈʃet̬.i/"}
+{"title":"Machiavellian","uk":"uk  / ˌmæk.i.əˈvel.i.ən /","ukp":"/ˌmæk.i.əˈvel.i.ən/","us":"us  / ˌmæk.i.əˈvel.i.ən /","usp":"/ˌmæk.i.əˈvel.i.ən/"}
+{"title":"Machiavellianism","uk":"uk  / ˌmæk.i.əˈvel.i.ə.nɪ.z ə m /","ukp":"/ˌmæk.i.əˈvel.i.ə.nɪ.zəm/","us":"us  / ˌmæk.i.əˈvel.i.ə.nɪ.z ə m /","usp":"/ˌmæk.i.əˈvel.i.ə.nɪ.zəm/"}
+{"title":"machinate","uk":"uk  / ˈmæʃ.ɪ.neɪt /","ukp":"/ˈmæʃ.ɪ.neɪt/","us":"us  / ˈmæk.ə.neɪt /","usp":"/ˈmæk.ə.neɪt/"}
+{"title":"machinated","uk":"uk  / ˈmæʃ.ɪ.neɪt /","ukp":"/ˈmæʃ.ɪ.neɪt/","us":"us  / ˈmæk.ə.neɪt /","usp":"/ˈmæk.ə.neɪt/"}
+{"title":"machinating","uk":"uk  / ˈmæʃ.ɪ.neɪt /","ukp":"/ˈmæʃ.ɪ.neɪt/","us":"us  / ˈmæk.ə.neɪt /","usp":"/ˈmæk.ə.neɪt/"}
+{"title":"machinations","uk":"uk  / ˌmæʃ.ɪˈneɪ.ʃ ə nz /","ukp":"/ˌmæʃ.ɪˈneɪ.ʃənz/","us":"us  / ˌmæʃ.əˈneɪ.ʃ ə nz /","usp":"/ˌmæʃ.əˈneɪ.ʃənz/"}
+{"title":"machine carding","uk":"uk  / məˈʃiːn ˌkɑːdɪŋ /","ukp":"/məˈʃiːn ˌkɑːdɪŋ/","us":"us  / məˈʃiːn ˌkɑːrdɪŋ /","usp":"/məˈʃiːn ˌkɑːrdɪŋ/"}
+{"title":"machine code","uk":"uk  / məˈʃiːn ˌkəʊd /","ukp":"/məˈʃiːn ˌkəʊd/","us":"us  / məˈʃiːn ˌkoʊd /","usp":"/məˈʃiːn ˌkoʊd/"}
+{"title":"machine","uk":"uk  / məˈʃiːn /","ukp":"/məˈʃiːn/","us":"us  / məˈʃiːn /","usp":"/məˈʃiːn/"}
+{"title":"machine gun","uk":"uk  / məˈʃiːn ˌɡʌn /","ukp":"/məˈʃiːn ˌɡʌn/","us":"us  / məˈʃiːn ˌɡʌn /","usp":"/məˈʃiːn ˌɡʌn/"}
+{"title":"machine language","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"machine learning","uk":"uk  / məˌʃiːn ˈlɜː.nɪŋ /","ukp":"/məˌʃiːn ˈlɜː.nɪŋ/","us":"us  / məˌʃiːn ˈlɜ˞ː.nɪŋ /","usp":"/məˌʃiːn ˈlɜ˞ː.nɪŋ/"}
+{"title":"machine shop","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"machine translation","uk":"uk  / məˌʃiːn trænsˈleɪ.ʃ ə n /","ukp":"/məˌʃiːn trænsˈleɪ.ʃən/","us":"us  / məˌʃiːn trænsˈleɪ.ʃ ə n /","usp":"/məˌʃiːn trænsˈleɪ.ʃən/"}
+{"title":"machine tool","uk":"uk  / məˈʃiːn ˌtuːl /","ukp":"/məˈʃiːn ˌtuːl/","us":"us  / məˈʃiːn ˌtuːl /","usp":"/məˈʃiːn ˌtuːl/"}
+{"title":"rowdiness","uk":"uk  / ˈraʊ.di.nəs /","ukp":"/ˈraʊ.di.nəs/","us":"us  / ˈraʊ.di.nəs /","usp":"/ˈraʊ.di.nəs/"}
+{"title":"machine-made","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rowdy-sheeter","uk":"uk  / ˈraʊ.diˌʃiː.tə r /","ukp":"/ˈraʊ.diˌʃiː.tər/","us":"us  / ˈraʊ.diˌʃiː.t̬ɚ /","usp":"/ˈraʊ.diˌʃiː.t̬ɚ/"}
+{"title":"rowdy","uk":"uk  / ˈraʊ.di /","ukp":"/ˈraʊ.di/","us":"us  / ˈraʊ.di /","usp":"/ˈraʊ.di/"}
+{"title":"rowdyism","uk":"uk  / ˈraʊ.di.ɪ.z ə m /","ukp":"/ˈraʊ.di.ɪ.zəm/","us":"us  / ˈraʊ.di.ɪ.z ə m /","usp":"/ˈraʊ.di.ɪ.zəm/"}
+{"title":"rowed","uk":"uk  / rəʊ /","ukp":"/rəʊ/","us":"us  / roʊ /","usp":"/roʊ/"}
+{"title":"rower","uk":"uk  / ˈrəʊ.ə r /","ukp":"/ˈrəʊ.ər/","us":"us  / ˈroʊ.ɚ /","usp":"/ˈroʊ.ɚ/"}
+{"title":"rowing","uk":"uk  / ˈrəʊ.ɪŋ /","ukp":"/ˈrəʊ.ɪŋ/","us":"us  / ˈroʊ.ɪŋ /","usp":"/ˈroʊ.ɪŋ/"}
+{"title":"rowhouse","uk":"uk  / ˈrəʊˌhaʊs /","ukp":"/ˈrəʊˌhaʊs/","us":"us  / ˈroʊˌhaʊs /","usp":"/ˈroʊˌhaʊs/"}
+{"title":"Roxburghshire","uk":"uk  / ˈrɒks.b ə r.ə.ʃə r /","ukp":"/ˈrɒks.bər.ə.ʃər/","us":"us  / ˈrɑːks.b ə r.ə.ʃɚ /","usp":"/ˈrɑːks.bər.ə.ʃɚ/"}
+{"title":"rowing machine","uk":"uk  / ˈrəʊ.ɪŋ məˌʃiːn /","ukp":"/ˈrəʊ.ɪŋ məˌʃiːn/","us":"us  / ˈroʊ.ɪŋ məˌʃiːn /","usp":"/ˈroʊ.ɪŋ məˌʃiːn/"}
+{"title":"rowing boat","uk":"uk  / ˈrəʊ.ɪŋ ˌbəʊt /","ukp":"/ˈrəʊ.ɪŋ ˌbəʊt/","us":"us  / ˈroʊ.ɪŋ ˌboʊt /","usp":"/ˈroʊ.ɪŋ ˌboʊt/"}
+{"title":"rowlock","uk":"uk  / ˈrɒ.lək /","ukp":"/ˈrɒ.lək/","us":"us  / ˈroʊ.lɑːk /","usp":"/ˈroʊ.lɑːk/"}
+{"title":"Roy of the Rovers stuff","uk":"uk  / ˌrɔɪ əv ðə ˈrəʊ.vəz ˌstʌf /","ukp":"/ˌrɔɪ əv ðə ˈrəʊ.vəz ˌstʌf/","us":"us  / ˌrɔɪ əv ðə ˈroʊ.vɚz ˌstʌf /","usp":"/ˌrɔɪ əv ðə ˈroʊ.vɚz ˌstʌf/"}
+{"title":"royal","uk":"uk  / ˈrɔɪ.əl /","ukp":"/ˈrɔɪ.əl/","us":"us  / ˈrɔɪ.əl /","usp":"/ˈrɔɪ.əl/"}
+{"title":"royal assent","uk":"uk  / ˌrɔɪ.əl əˈsent /","ukp":"/ˌrɔɪ.əl əˈsent/","us":"us  / ˌrɔɪ.əl əˈsent /","usp":"/ˌrɔɪ.əl əˈsent/"}
+{"title":"royal blue","uk":"uk  / ˌrɔɪ.əl ˈbluː /","ukp":"/ˌrɔɪ.əl ˈbluː/","us":"us  / ˌrɔɪ.əl ˈbluː /","usp":"/ˌrɔɪ.əl ˈbluː/"}
+{"title":"Royal Charter","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Royal Highness","uk":"uk  / ˌrɔɪ.əl ˈhaɪ.nəs /","ukp":"/ˌrɔɪ.əl ˈhaɪ.nəs/","us":"us  / ˌrɔɪ.əl ˈhaɪ.nəs /","usp":"/ˌrɔɪ.əl ˈhaɪ.nəs/"}
+{"title":"royal flush","uk":"uk  / ˌrɔɪ.əl ˈflʌʃ /","ukp":"/ˌrɔɪ.əl ˈflʌʃ/","us":"us  / ˌrɔɪ.əl ˈflʌʃ /","usp":"/ˌrɔɪ.əl ˈflʌʃ/"}
+{"title":"royal jelly","uk":"uk  / ˌrɔɪ.əl ˈdʒel.i /","ukp":"/ˌrɔɪ.əl ˈdʒel.i/","us":"us  / ˌrɔɪ.əl ˈdʒel.i /","usp":"/ˌrɔɪ.əl ˈdʒel.i/"}
+{"title":"royal prerogative","uk":"uk  / ˌrɔɪ.əl prɪˈrɒɡ.ə.tɪv /","ukp":"/ˌrɔɪ.əl prɪˈrɒɡ.ə.tɪv/","us":"us  / ˌrɔɪ.əl prɪˈrɑː.ɡə.t̬ɪv /","usp":"/ˌrɔɪ.əl prɪˈrɑː.ɡə.t̬ɪv/"}
+{"title":"royal pardon","uk":"uk  / ˌrɔɪ.əl ˈpɑː.d ə n /","ukp":"/ˌrɔɪ.əl ˈpɑː.dən/","us":"us  / ˌrɔɪ.əl ˈpɑːr.d ə n /","usp":"/ˌrɔɪ.əl ˈpɑːr.dən/"}
+{"title":"royalist","uk":"uk  / ˈrɔɪ.ə.lɪst /","ukp":"/ˈrɔɪ.ə.lɪst/","us":"us  / ˈrɔɪ.ə.lɪst /","usp":"/ˈrɔɪ.ə.lɪst/"}
+{"title":"RP","uk":"uk  / ˌɑːˈpiː /","ukp":"/ˌɑːˈpiː/","us":"us  / ˌɑːrˈpiː /","usp":"/ˌɑːrˈpiː/"}
+{"title":"royalty","uk":"uk  / ˈrɔɪ.əl.ti /","ukp":"/ˈrɔɪ.əl.ti/","us":"us  / ˈrɔɪ.əl.t̬i /","usp":"/ˈrɔɪ.əl.t̬i/"}
+{"title":"RPI","uk":"uk  / ˌɑː.piːˈaɪ /","ukp":"/ˌɑː.piːˈaɪ/","us":"us  / ˌɑːr.piːˈaɪ /","usp":"/ˌɑːr.piːˈaɪ/"}
+{"title":"rpm","uk":"uk  / ˌɑː.piːˈem /","ukp":"/ˌɑː.piːˈem/","us":"us  / ˌɑːr.piːˈem /","usp":"/ˌɑːr.piːˈem/"}
+{"title":"RR","uk":"","us":""}
+{"title":"RPG","uk":"uk / ˌɑː.piːˈdʒiː /","ukp":"/ˌɑː.piːˈdʒiː/","us":"us  / ˌɑːr.piːˈdʒiː /","usp":"/ˌɑːr.piːˈdʒiː/"}
+{"title":"rRNA","uk":"uk  / ˌɑːr.ɑːr.enˈeɪ /","ukp":"/ˌɑːr.ɑːr.enˈeɪ/","us":"us  / ˌɑːr.ɑːr.enˈeɪ /","usp":"/ˌɑːr.ɑːr.enˈeɪ/"}
+{"title":"RRP","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"RSI","uk":"uk  / ˌɑː.resˈaɪ /","ukp":"/ˌɑː.resˈaɪ/","us":"us  / ˌɑːr.esˈaɪ /","usp":"/ˌɑːr.esˈaɪ/"}
+{"title":"RSS feed","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"RSS","uk":"uk  / ˌɑːr.esˈes /","ukp":"/ˌɑːr.esˈes/","us":"us  / ˌɑːr.esˈes /","usp":"/ˌɑːr.esˈes/"}
+{"title":"RSVP","uk":"uk  / ˌɑː.res.viːˈpiː /","ukp":"/ˌɑː.res.viːˈpiː/","us":"us  / ˌɑːr.es.viːˈpiː /","usp":"/ˌɑːr.es.viːˈpiː/"}
+{"title":"RT","uk":"uk  / ˌɑːˈtiː /","ukp":"/ˌɑːˈtiː/","us":"us  / ˌɑːrˈtiː /","usp":"/ˌɑːrˈtiː/"}
+{"title":"RTA","uk":"uk  / ˌɑː.tiːˈeɪ /","ukp":"/ˌɑː.tiːˈeɪ/","us":"us  / ˌɑːr.tiːˈeɪ /","usp":"/ˌɑːr.tiːˈeɪ/"}
+{"title":"Rt. Hon.","uk":"uk  / ˌraɪt ˈɒn. ə r.ə.b ə l /","ukp":"/ˌraɪt ˈɒn.ər.ə.bəl/","us":"us  / ˌraɪt ˈɑː.nɚ.ə.b ə l /","usp":"/ˌraɪt ˈɑː.nɚ.ə.bəl/"}
+{"title":"RTB","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rub it in","uk":"","us":""}
+{"title":"rub along","uk":"uk  / rʌb /","ukp":"/rʌb/","us":"us  / rʌb /","usp":"/rʌb/"}
+{"title":"rub","uk":"uk  / rʌb /","ukp":"/rʌb/","us":"us  / rʌb /","usp":"/rʌb/"}
+{"title":"rub off","uk":"uk  / rʌb /","ukp":"/rʌb/","us":"us  / rʌb /","usp":"/rʌb/"}
+{"title":"rub off on someone","uk":"","us":"us  / rʌb /","usp":"/rʌb/"}
+{"title":"rub salt in/into the wound","uk":"","us":""}
+{"title":"rub shoulders (with)","uk":"","us":""}
+{"title":"rub someone the wrong way","uk":"","us":""}
+{"title":"rub someone up the wrong way","uk":"","us":""}
+{"title":"rub someone's nose in it","uk":"","us":""}
+{"title":"machine-readable","uk":"uk  / məˌʃiːnˈriː.də.b ə l /","ukp":"/məˌʃiːnˈriː.də.bəl/","us":"us  / məˌʃiːnˈriː.də.b ə l /","usp":"/məˌʃiːnˈriː.də.bəl/"}
+{"title":"machined","uk":"uk  / məˈʃiːn /","ukp":"/məˈʃiːn/","us":"us  / məˈʃiːn /","usp":"/məˈʃiːn/"}
+{"title":"machining","uk":"uk  / məˈʃiː.nɪŋ /","ukp":"/məˈʃiː.nɪŋ/","us":"us  / məˈʃiː.nɪŋ /","usp":"/məˈʃiː.nɪŋ/"}
+{"title":"machinery","uk":"uk  / məˈʃiː.n ə r.i /","ukp":"/məˈʃiː.nər.i/","us":"us  / məˈʃiː.nɚ.i /","usp":"/məˈʃiː.nɚ.i/"}
+{"title":"machinist","uk":"uk  / məˈʃiː.nɪst /","ukp":"/məˈʃiː.nɪst/","us":"us  / məˈʃiː.nɪst /","usp":"/məˈʃiː.nɪst/"}
+{"title":"machismo","uk":"uk  / məˈtʃɪz.məʊ /","ukp":"/məˈtʃɪz.məʊ/","us":"us  / məˈtʃiːz.moʊ /","usp":"/məˈtʃiːz.moʊ/"}
+{"title":"Macintosh","uk":"uk  / ˈmæk.ɪn.tɒʃ /","ukp":"/ˈmæk.ɪn.tɒʃ/","us":"us  / ˈmæk.ɪn.tɑːʃ /","usp":"/ˈmæk.ɪn.tɑːʃ/"}
+{"title":"macho","uk":"uk  / ˈmætʃ.əʊ /","ukp":"/ˈmætʃ.əʊ/","us":"us  / ˈmɑː.tʃoʊ /","usp":"/ˈmɑː.tʃoʊ/"}
+{"title":"mackintosh","uk":"uk  / ˈmæk.ɪn.tɒʃ /","ukp":"/ˈmæk.ɪn.tɒʃ/","us":"us  / ˈmæk.ɪn.tɑːʃ /","usp":"/ˈmæk.ɪn.tɑːʃ/"}
+{"title":"mackerel","uk":"uk  / ˈmæk.rəl /","ukp":"/ˈmæk.rəl/","us":"us  / ˈmæk.rəl /","usp":"/ˈmæk.rəl/"}
+{"title":"macramé","uk":"uk  / məˈkrɑː.meɪ /","ukp":"/məˈkrɑː.meɪ/","us":"us  / məˈkrɑː.meɪ /","usp":"/məˈkrɑː.meɪ/"}
+{"title":"macro hedge fund","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"macro","uk":"uk  / ˈmæk.rəʊ /","ukp":"/ˈmæk.rəʊ/","us":"us  / ˈmæk.roʊ /","usp":"/ˈmæk.roʊ/"}
+{"title":"macrobiotic","uk":"uk  / ˌmæk.rəʊ.baɪˈɒt.ɪk /","ukp":"/ˌmæk.rəʊ.baɪˈɒt.ɪk/","us":"us  / ˌmæk.roʊ.baɪˈɑː.t̬ɪk /","usp":"/ˌmæk.roʊ.baɪˈɑː.t̬ɪk/"}
+{"title":"macrocosm","uk":"uk  / ˈmæk.rəʊˌkɒz. ə m /","ukp":"/ˈmæk.rəʊˌkɒz.əm/","us":"us  / ˈmæk.roʊˌkɑː.z ə m /","usp":"/ˈmæk.roʊˌkɑː.zəm/"}
+{"title":"macroeconomic","uk":"uk  / ˌmæk.rəʊ.iːkəˈnɒm.ɪk /","ukp":"/ˌmæk.rəʊ.iːkəˈnɒm.ɪk/","us":"us  / ˌmæk.roʊ.e.kəˈnɑː.mɪk /","usp":"/ˌmæk.roʊ.e.kəˈnɑː.mɪk/"}
+{"title":"macroeconomics","uk":"uk  / ˌmæk.rəʊ.iːkəˈnɒm.ɪks /","ukp":"/ˌmæk.rəʊ.iːkəˈnɒm.ɪks/","us":"us  / ˌmæk.roʊ.e.kəˈnɑː.mɪks /","usp":"/ˌmæk.roʊ.e.kəˈnɑː.mɪks/"}
+{"title":"macroeconomist","uk":"uk  / ˌmækrəʊɪˈkɒnəmɪst /","ukp":"/ˌmækrəʊɪˈkɒnəmɪst/","us":"us ","usp":""}
+{"title":"macroenvironment","uk":"uk  / ˈmækrəʊɪnˌvaɪrənmənt /","ukp":"/ˈmækrəʊɪnˌvaɪrənmənt/","us":"us ","usp":""}
+{"title":"macroglobulinaemia","uk":"uk  / ˌmæk.rəʊ.ɡlɒb.jə.lɪˈniː.mi.ə /","ukp":"/ˌmæk.rəʊ.ɡlɒb.jə.lɪˈniː.mi.ə/","us":"us  / ˈmæk.roʊˌɡlɑːb.jə.lɪˈniː.mi.ə /","usp":"/ˈmæk.roʊˌɡlɑːb.jə.lɪˈniː.mi.ə/"}
+{"title":"macromarketing","uk":"uk  / ˈmækrəʊˌmɑːkɪtɪŋ /","ukp":"/ˈmækrəʊˌmɑːkɪtɪŋ/","us":"us ","usp":""}
+{"title":"macroglobulinemia","uk":"uk  / ˌmæk.rəʊ.ɡlɒb.jə.lɪˈniː.mi.ə /","ukp":"/ˌmæk.rəʊ.ɡlɒb.jə.lɪˈniː.mi.ə/","us":"us  / ˈmæk.roʊˌɡlɑːb.jə.lɪˈniː.mi.ə /","usp":"/ˈmæk.roʊˌɡlɑːb.jə.lɪˈniː.mi.ə/"}
+{"title":"macromolecule","uk":"uk  / ˈmæk.rəʊˌmɒl.ɪ.kjuːl /","ukp":"/ˈmæk.rəʊˌmɒl.ɪ.kjuːl/","us":"us  / ˈmæk.roʊˌmɑː.lɪ.kjuːl /","usp":"/ˈmæk.roʊˌmɑː.lɪ.kjuːl/"}
+{"title":"macron","uk":"uk  / ˈmæk.rɒn /","ukp":"/ˈmæk.rɒn/","us":"us  / ˈmeɪ.krɑːn /","usp":"/ˈmeɪ.krɑːn/"}
+{"title":"macrophage","uk":"uk  / ˈmæk.rəˈfeɪdʒ /","ukp":"/ˈmæk.rəˈfeɪdʒ/","us":"us  / ˈmæk.rəˌfeɪdʒ /","usp":"/ˈmæk.rəˌfeɪdʒ/"}
+{"title":"macroprudential","uk":"uk  / ˈmækrəʊpruːˌdenʃ ə l /","ukp":"/ˈmækrəʊpruːˌdenʃəl/","us":"us ","usp":""}
+{"title":"macroscopic","uk":"uk  / ˌmæk.rəˈskɒp.ɪk /","ukp":"/ˌmæk.rəˈskɒp.ɪk/","us":"us  / ˌmæk.rəˈskɑː.pɪk /","usp":"/ˌmæk.rəˈskɑː.pɪk/"}
+{"title":"macrosmatic","uk":"uk  / ˌmæk.rəzˈmæt.ɪk /","ukp":"/ˌmæk.rəzˈmæt.ɪk/","us":"us  / ˌmæk.rəzˈmæt̬.ɪk /","usp":"/ˌmæk.rəzˈmæt̬.ɪk/"}
+{"title":"macular degeneration","uk":"uk  / ˌmæk.jə.lə dɪ.dʒen.əˈreɪ.ʃ ə n /","ukp":"/ˌmæk.jə.lə dɪ.dʒen.əˈreɪ.ʃən/","us":"us  / ˈmæk.jə.lɚ dɪˌdʒen.əˈreɪ.ʃ ə n /","usp":"/ˈmæk.jə.lɚ dɪˌdʒen.əˈreɪ.ʃən/"}
+{"title":"macrostructure","uk":"uk  / ˈmæk.rəʊˌstrʌk.tʃə r /","ukp":"/ˈmæk.rəʊˌstrʌk.tʃər/","us":"us  / ˈmæk.roʊˌstrʌk.tʃɚ /","usp":"/ˈmæk.roʊˌstrʌk.tʃɚ/"}
+{"title":"mad cow disease","uk":"uk  / ˌmæd ˈkaʊ dɪˌziːz /","ukp":"/ˌmæd ˈkaʊ dɪˌziːz/","us":"us  / ˌmæd ˈkaʊ dɪˌziːz /","usp":"/ˌmæd ˈkaʊ dɪˌziːz/"}
+{"title":"mad","uk":"uk  / mæd /","ukp":"/mæd/","us":"us  / mæd /","usp":"/mæd/"}
+{"title":"Madagascar","uk":"uk  / ˌmæd.əˈɡæs.kə r /","ukp":"/ˌmæd.əˈɡæs.kər/","us":"us  / ˌmæd.əˈɡæs.kɚ /","usp":"/ˌmæd.əˈɡæs.kɚ/"}
+{"title":"Madame","uk":"","us":"us  / məˈdæm , mæ- /","usp":"/məˈdæm, mæ-/"}
+{"title":"madam","uk":"uk  / ˈmæd.əm /","ukp":"/ˈmæd.əm/","us":"us  / ˈmæd.əm /","usp":"/ˈmæd.əm/"}
+{"title":"madcap","uk":"uk  / ˈmæd.kæp /","ukp":"/ˈmæd.kæp/","us":"us  / ˈmæd.kæp /","usp":"/ˈmæd.kæp/"}
+{"title":"madden","uk":"uk  / ˈmæd. ə n /","ukp":"/ˈmæd.ən/","us":"us  / ˈmæd. ə n /","usp":"/ˈmæd.ən/"}
+{"title":"maddened","uk":"uk  / ˈmæd. ə nd /","ukp":"/ˈmæd.ənd/","us":"us  / ˈmæd. ə nd /","usp":"/ˈmæd.ənd/"}
+{"title":"maddening","uk":"uk  / ˈmæd. ə n.ɪŋ /","ukp":"/ˈmæd.ən.ɪŋ/","us":"us  / ˈmæd. ə n.ɪŋ /","usp":"/ˈmæd.ən.ɪŋ/"}
+{"title":"maddeningly","uk":"uk  / ˈmæd. ə n.ɪŋ.li /","ukp":"/ˈmæd.ən.ɪŋ.li/","us":"us  / ˈmæd. ə n.ɪŋ.li /","usp":"/ˈmæd.ən.ɪŋ.li/"}
+{"title":"madder","uk":"","us":""}
+{"title":"maddest","uk":"","us":""}
+{"title":"madding","uk":"uk  / ˈmæd.ɪŋ /","ukp":"/ˈmæd.ɪŋ/","us":"us  / ˈmæd.ɪŋ /","usp":"/ˈmæd.ɪŋ/"}
+{"title":"made","uk":"uk  / meɪd /","ukp":"/meɪd/","us":"us  / meɪd /","usp":"/meɪd/"}
+{"title":"runt","uk":"uk  / rʌnt /","ukp":"/rʌnt/","us":"us  / rʌnt /","usp":"/rʌnt/"}
+{"title":"rupee","uk":"uk  / ruːˈpiː /","ukp":"/ruːˈpiː/","us":"us  / ˈruː.piː /","usp":"/ˈruː.piː/"}
+{"title":"runway","uk":"uk  / ˈrʌn.weɪ /","ukp":"/ˈrʌn.weɪ/","us":"us  / ˈrʌn.weɪ /","usp":"/ˈrʌn.weɪ/"}
+{"title":"rupiah","uk":"uk  / ruːˈpiː.ə /","ukp":"/ruːˈpiː.ə/","us":"us  / ruːˈpiː.ə /","usp":"/ruːˈpiː.ə/"}
+{"title":"ruptured","uk":"uk  / ˈrʌp.tʃə r /","ukp":"/ˈrʌp.tʃər/","us":"us  / ˈrʌp.tʃɚ /","usp":"/ˈrʌp.tʃɚ/"}
+{"title":"rupturing","uk":"uk  / ˈrʌp.tʃə r /","ukp":"/ˈrʌp.tʃər/","us":"us  / ˈrʌp.tʃɚ /","usp":"/ˈrʌp.tʃɚ/"}
+{"title":"rupture","uk":"uk  / ˈrʌp.tʃə r /","ukp":"/ˈrʌp.tʃər/","us":"us  / ˈrʌp.tʃɚ /","usp":"/ˈrʌp.tʃɚ/"}
+{"title":"rural","uk":"uk  / ˈrʊə.rəl /","ukp":"/ˈrʊə.rəl/","us":"us  / ˈrʊr. ə l /","usp":"/ˈrʊr.əl/"}
+{"title":"rurban","uk":"uk  / ˈrɜːb ə n /","ukp":"/ˈrɜːbən/","us":"us ","usp":""}
+{"title":"ruse","uk":"uk  / ruːz /","ukp":"/ruːz/","us":"us  / ruːz /","usp":"/ruːz/"}
+{"title":"rush hour","uk":"uk  / ˈrʌʃ ˌaʊə r /","ukp":"/ˈrʌʃ ˌaʊər/","us":"us  / ˈrʌʃ ˌaʊr /","usp":"/ˈrʌʃ ˌaʊr/"}
+{"title":"rush into something","uk":"uk  / rʌʃ /","ukp":"/rʌʃ/","us":"us  / rʌʃ /","usp":"/rʌʃ/"}
+{"title":"rush","uk":"uk  / rʌʃ /","ukp":"/rʌʃ/","us":"us  / rʌʃ /","usp":"/rʌʃ/"}
+{"title":"rush job","uk":"uk  / ˈrʌʃ ˌdʒɒb /","ukp":"/ˈrʌʃ ˌdʒɒb/","us":"us  / ˈrʌʃ ˌdʒɑːb /","usp":"/ˈrʌʃ ˌdʒɑːb/"}
+{"title":"rush order","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rush someone into (doing) something","uk":"uk  / rʌʃ /","ukp":"/rʌʃ/","us":"us  / rʌʃ /","usp":"/rʌʃ/"}
+{"title":"rush something out","uk":"uk  / rʌʃ /","ukp":"/rʌʃ/","us":"us  / rʌʃ /","usp":"/rʌʃ/"}
+{"title":"rush sth through","uk":"uk  / rʌʃ /","ukp":"/rʌʃ/","us":"us ","usp":""}
+{"title":"rush/run someone off their feet","uk":"","us":""}
+{"title":"rushed","uk":"uk  / rʌʃt /","ukp":"/rʌʃt/","us":"us  / rʌʃt /","usp":"/rʌʃt/"}
+{"title":"rushing","uk":"uk  / ˈrʌʃ.ɪŋ /","ukp":"/ˈrʌʃ.ɪŋ/","us":"us  / ˈrʌʃ.ɪŋ /","usp":"/ˈrʌʃ.ɪŋ/"}
+{"title":"Russell 2000 index","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rusk","uk":"uk  / rʌsk /","ukp":"/rʌsk/","us":"us  / rʌsk /","usp":"/rʌsk/"}
+{"title":"Russian","uk":"uk  / ˈrʌʃ. ə n /","ukp":"/ˈrʌʃ.ən/","us":"us  / ˈrʌʃ. ə n /","usp":"/ˈrʌʃ.ən/"}
+{"title":"russet","uk":"uk  / ˈrʌs.ɪt /","ukp":"/ˈrʌs.ɪt/","us":"us  / ˈrʌs.ɪt /","usp":"/ˈrʌs.ɪt/"}
+{"title":"Russia","uk":"uk  / ˈrʌʃ.ə /","ukp":"/ˈrʌʃ.ə/","us":"us  / ˈrʌʃ.ə /","usp":"/ˈrʌʃ.ə/"}
+{"title":"Russian doll","uk":"uk  / ˌrʌʃ. ə n ˈdɒl /","ukp":"/ˌrʌʃ.ən ˈdɒl/","us":"us  / ˌrʌʃ. ə n ˈdɑːl /","usp":"/ˌrʌʃ.ən ˈdɑːl/"}
+{"title":"Russian dressing","uk":"uk / ˌrʌʃ. ə n ˈdres.ɪŋ /","ukp":"/ˌrʌʃ.ən ˈdres.ɪŋ/","us":"us / ˌrʌʃ. ə n ˈdres.ɪŋ /","usp":"/ˌrʌʃ.ən ˈdres.ɪŋ/"}
+{"title":"Russian roulette","uk":"uk  / ˌrʌʃ. ə n ruːˈlet /","ukp":"/ˌrʌʃ.ən ruːˈlet/","us":"us  / ˌrʌʃ. ə n ruːˈlet /","usp":"/ˌrʌʃ.ən ruːˈlet/"}
+{"title":"Russian wolfhound","uk":"uk  / ˌrʌʃ. ə n ˈwʊlf.haʊnd /","ukp":"/ˌrʌʃ.ən ˈwʊlf.haʊnd/","us":"us  / ˌrʌʃ. ə n ˈwʊlf.haʊnd /","usp":"/ˌrʌʃ.ən ˈwʊlf.haʊnd/"}
+{"title":"Rust Belt","uk":"uk  / ˈrʌst ˌbelt /","ukp":"/ˈrʌst ˌbelt/","us":"us  / ˈrʌst ˌbelt /","usp":"/ˈrʌst ˌbelt/"}
+{"title":"rust","uk":"uk  / rʌst /","ukp":"/rʌst/","us":"us  / rʌst /","usp":"/rʌst/"}
+{"title":"rustbelt","uk":"uk  / ˈrʌstbelt /","ukp":"/ˈrʌstbelt/","us":"us ","usp":""}
+{"title":"rusted","uk":"uk  / rʌst /","ukp":"/rʌst/","us":"us  / rʌst /","usp":"/rʌst/"}
+{"title":"rusticate","uk":"uk  / ˈrʌs.tɪ.keɪt /","ukp":"/ˈrʌs.tɪ.keɪt/","us":"us  / ˈrʌs.tɪ.keɪt /","usp":"/ˈrʌs.tɪ.keɪt/"}
+{"title":"rustic","uk":"uk  / ˈrʌs.tɪk /","ukp":"/ˈrʌs.tɪk/","us":"us  / ˈrʌs.tɪk /","usp":"/ˈrʌs.tɪk/"}
+{"title":"rusticity","uk":"uk  / rʌsˈtɪs.ə.ti /","ukp":"/rʌsˈtɪs.ə.ti/","us":"us  / rʌsˈtɪs.ə.t̬i /","usp":"/rʌsˈtɪs.ə.t̬i/"}
+{"title":"rustication","uk":"uk  / ˌrʌs.tɪ.ˈkeɪ.ʃ ə n /","ukp":"/ˌrʌs.tɪ.ˈkeɪ.ʃən/","us":"us  / ˌrʌs.tɪ.ˈkeɪ.ʃ ə n /","usp":"/ˌrʌs.tɪ.ˈkeɪ.ʃən/"}
+{"title":"rusting","uk":"uk  / rʌst /","ukp":"/rʌst/","us":"us  / rʌst /","usp":"/rʌst/"}
+{"title":"rustle something up","uk":"uk  / rʌs ə l /","ukp":"/rʌsəl/","us":"us  / rʌs ə l /","usp":"/rʌsəl/"}
+{"title":"rustle","uk":"uk  / rʌs ə l /","ukp":"/rʌsəl/","us":"us  / rʌs ə l /","usp":"/rʌsəl/"}
+{"title":"rustled","uk":"uk  / rʌs ə l /","ukp":"/rʌsəl/","us":"us  / rʌs ə l /","usp":"/rʌsəl/"}
+{"title":"rustler","uk":"uk  / ˈrʌs. ə l.ə r /","ukp":"/ˈrʌs.əl.ər/","us":"us  / ˈrʌs. ə l.ɚ /","usp":"/ˈrʌs.əl.ɚ/"}
+{"title":"rustling","uk":"uk  / ˈrʌs. ə l.ɪŋ /","ukp":"/ˈrʌs.əl.ɪŋ/","us":"us  / ˈrʌs. ə l.ɪŋ /","usp":"/ˈrʌs.əl.ɪŋ/"}
+{"title":"rustproof","uk":"uk  / ˈrʌst.pruːf /","ukp":"/ˈrʌst.pruːf/","us":"us  / ˈrʌst.pruːf /","usp":"/ˈrʌst.pruːf/"}
+{"title":"rustproofed","uk":"uk  / ˈrʌst.pruːf /","ukp":"/ˈrʌst.pruːf/","us":"us  / ˈrʌst.pruːf /","usp":"/ˈrʌst.pruːf/"}
+{"title":"rustproofing","uk":"uk  / ˈrʌst.pruːf /","ukp":"/ˈrʌst.pruːf/","us":"us  / ˈrʌst.pruːf /","usp":"/ˈrʌst.pruːf/"}
+{"title":"rusty","uk":"uk  / ˈrʌs.ti /","ukp":"/ˈrʌs.ti/","us":"us  / ˈrʌs.ti /","usp":"/ˈrʌs.ti/"}
+{"title":"rut","uk":"uk  / rʌt /","ukp":"/rʌt/","us":"us  / rʌt /","usp":"/rʌt/"}
+{"title":"magnified","uk":"uk  / ˈmæɡ.nɪ.faɪ /","ukp":"/ˈmæɡ.nɪ.faɪ/","us":"us  / ˈmæɡ.nə.faɪ /","usp":"/ˈmæɡ.nə.faɪ/"}
+{"title":"magnifier","uk":"uk  / ˈmæɡ.nɪ.faɪ.ə r /","ukp":"/ˈmæɡ.nɪ.faɪ.ər/","us":"us  / ˈmæɡ.nɪ.faɪ.ɚ /","usp":"/ˈmæɡ.nɪ.faɪ.ɚ/"}
+{"title":"magnify","uk":"uk  / ˈmæɡ.nɪ.faɪ /","ukp":"/ˈmæɡ.nɪ.faɪ/","us":"us  / ˈmæɡ.nə.faɪ /","usp":"/ˈmæɡ.nə.faɪ/"}
+{"title":"magnifying","uk":"uk  / ˈmæɡ.nɪ.faɪ /","ukp":"/ˈmæɡ.nɪ.faɪ/","us":"us  / ˈmæɡ.nə.faɪ /","usp":"/ˈmæɡ.nə.faɪ/"}
+{"title":"magnifying glass","uk":"uk  / ˈmæɡ.nɪ.faɪ.ɪŋ ˌɡlɑːs /","ukp":"/ˈmæɡ.nɪ.faɪ.ɪŋ ˌɡlɑːs/","us":"us  / ˈmæɡ.nə.faɪ.ɪŋ ˌɡlæs /","usp":"/ˈmæɡ.nə.faɪ.ɪŋ ˌɡlæs/"}
+{"title":"magnitude","uk":"uk  / ˈmæɡ.nɪ.tʃuːd /","ukp":"/ˈmæɡ.nɪ.tʃuːd/","us":"us  / ˈmæɡ.nə.tuːd /","usp":"/ˈmæɡ.nə.tuːd/"}
+{"title":"magnolia","uk":"uk  / mæɡˈnəʊ.li.ə /","ukp":"/mæɡˈnəʊ.li.ə/","us":"us  / mæɡˈnoʊ.li.ə /","usp":"/mæɡˈnoʊ.li.ə/"}
+{"title":"magnum","uk":"uk  / ˈmæɡ.nəm /","ukp":"/ˈmæɡ.nəm/","us":"us  / ˈmæɡ.nəm /","usp":"/ˈmæɡ.nəm/"}
+{"title":"magnum opus","uk":"uk  / ˌmæɡ.nəm ˈəʊ.pəs /","ukp":"/ˌmæɡ.nəm ˈəʊ.pəs/","us":"us  / ˌmæɡ.nəm ˈoʊ.pəs /","usp":"/ˌmæɡ.nəm ˈoʊ.pəs/"}
+{"title":"magnus","uk":"uk  / ˈmæɡ.nəs /","ukp":"/ˈmæɡ.nəs/","us":"us  / ˈmæɡ.nəs /","usp":"/ˈmæɡ.nəs/"}
+{"title":"magpie","uk":"uk  / ˈmæɡ.paɪ /","ukp":"/ˈmæɡ.paɪ/","us":"us  / ˈmæɡ.paɪ /","usp":"/ˈmæɡ.paɪ/"}
+{"title":"mah-jong","uk":"uk  / ˌmɑːˈdʒɒŋ /","ukp":"/ˌmɑːˈdʒɒŋ/","us":"us  / ˌmɑːˈdʒɑːŋ /","usp":"/ˌmɑːˈdʒɑːŋ/"}
+{"title":"maharaja","uk":"uk  / ˌmɑː.həˈrɑː.dʒə /","ukp":"/ˌmɑː.həˈrɑː.dʒə/","us":"us  / ˌmɑː.həˈrɑː.dʒə /","usp":"/ˌmɑː.həˈrɑː.dʒə/"}
+{"title":"maharani","uk":"uk  / ˌmɑː.həˈrɑː.ni /","ukp":"/ˌmɑː.həˈrɑː.ni/","us":"us  / ˌmɑː.həˈrɑː.ni /","usp":"/ˌmɑː.həˈrɑː.ni/"}
+{"title":"mahi mahi","uk":"uk / ˌmɑː.hi ˈmɑː.hi /","ukp":"/ˌmɑː.hi ˈmɑː.hi/","us":"us / ˌmɑː.hi ˈmɑː.hi /","usp":"/ˌmɑː.hi ˈmɑː.hi/"}
+{"title":"mahogany","uk":"uk  / məˈhɒɡ. ə n.i /","ukp":"/məˈhɒɡ.ən.i/","us":"us  / məˈhɑː.ɡ ə n.i /","usp":"/məˈhɑː.ɡən.i/"}
+{"title":"mahoosive","uk":"uk  / məˈhuː.sɪv /","ukp":"/məˈhuː.sɪv/","us":"us  / məˈhuː.sɪv /","usp":"/məˈhuː.sɪv/"}
+{"title":"mahout","uk":"uk  / məˈhaʊt /","ukp":"/məˈhaʊt/","us":"us  / məˈhaʊt /","usp":"/məˈhaʊt/"}
+{"title":"maid","uk":"uk  / meɪd /","ukp":"/meɪd/","us":"us  / meɪd /","usp":"/meɪd/"}
+{"title":"maid of honor","uk":"uk / ˌmeɪd əv ˈɒn.ə r /","ukp":"/ˌmeɪd əv ˈɒn.ər/","us":"us  / ˌmeɪd əv ˈɑː.nɚ /","usp":"/ˌmeɪd əv ˈɑː.nɚ/"}
+{"title":"maid of honour","uk":"uk  / ˌmeɪd əv ˈɒn.ə r /","ukp":"/ˌmeɪd əv ˈɒn.ər/","us":"us  / ˌmeɪd əv ˈɑː.nɚ /","usp":"/ˌmeɪd əv ˈɑː.nɚ/"}
+{"title":"maiden aunt","uk":"uk  / ˌmeɪ.d ə n ˈɑːnt /","ukp":"/ˌmeɪ.dən ˈɑːnt/","us":"us  / ˌmeɪ.d ə n ˈænt /","usp":"/ˌmeɪ.dən ˈænt/"}
+{"title":"maiden","uk":"uk  / ˈmeɪ.d ə n /","ukp":"/ˈmeɪ.dən/","us":"us  / ˈmeɪ.d ə n /","usp":"/ˈmeɪ.dən/"}
+{"title":"maiden speech","uk":"uk  / ˌmeɪ.d ə n ˈspiːtʃ /","ukp":"/ˌmeɪ.dən ˈspiːtʃ/","us":"us  / ˌmeɪ.d ə n ˈspiːtʃ /","usp":"/ˌmeɪ.dən ˈspiːtʃ/"}
+{"title":"maiden name","uk":"uk  / ˈmeɪ.d ə n ˌneɪm /","ukp":"/ˈmeɪ.dən ˌneɪm/","us":"us  / ˈmeɪ.d ə n ˌneɪm /","usp":"/ˈmeɪ.dən ˌneɪm/"}
+{"title":"maidenhead","uk":"uk  / ˈmeɪ.d ə n.hed /","ukp":"/ˈmeɪ.dən.hed/","us":"us  / ˈmeɪ.d ə n.hed /","usp":"/ˈmeɪ.dən.hed/"}
+{"title":"maiden voyage","uk":"uk  / ˌmeɪ.d ə n ˈvɔɪ.ɪdʒ /","ukp":"/ˌmeɪ.dən ˈvɔɪ.ɪdʒ/","us":"us  / ˌmeɪ.d ə n ˈvɔɪ.ɪdʒ /","usp":"/ˌmeɪ.dən ˈvɔɪ.ɪdʒ/"}
+{"title":"mail bomb","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mail carrier","uk":"uk  / ˈmeɪl ˌkær.i.ə r /","ukp":"/ˈmeɪl ˌkær.i.ər/","us":"us  / ˈmeɪl ˌker.i.ɚ /","usp":"/ˈmeɪl ˌker.i.ɚ/"}
+{"title":"mail","uk":"uk  / meɪl /","ukp":"/meɪl/","us":"us  / meɪl /","usp":"/meɪl/"}
+{"title":"mail client","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mail drop","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mail forwarding service","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mail merge","uk":"uk  / ˈmeɪl ˌmɜːdʒ /","ukp":"/ˈmeɪl ˌmɜːdʒ/","us":"us  / ˈmeɪl ˌmɝːdʒ /","usp":"/ˈmeɪl ˌmɝːdʒ/"}
+{"title":"mail order","uk":"uk  / ˈmeɪl ˌɔː.də r /","ukp":"/ˈmeɪl ˌɔː.dər/","us":"us  / ˈmeɪl ˌɔːr.dɚ /","usp":"/ˈmeɪl ˌɔːr.dɚ/"}
+{"title":"mail order catalogue","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mail sth out","uk":"uk  / meɪl /","ukp":"/meɪl/","us":"us ","usp":""}
+{"title":"mail slot","uk":"uk  / ˈmeɪl ˌslɒt /","ukp":"/ˈmeɪl ˌslɒt/","us":"us  / ˈmeɪl ˌslɑːt /","usp":"/ˈmeɪl ˌslɑːt/"}
+{"title":"mailbag","uk":"uk  / ˈmeɪl.bæɡ /","ukp":"/ˈmeɪl.bæɡ/","us":"us  / ˈmeɪl.bæɡ /","usp":"/ˈmeɪl.bæɡ/"}
+{"title":"mailbox","uk":"uk  / ˈmeɪl.bɒks /","ukp":"/ˈmeɪl.bɒks/","us":"us  / ˈmeɪl.bɑːks /","usp":"/ˈmeɪl.bɑːks/"}
+{"title":"mailed","uk":"uk  / meɪl /","ukp":"/meɪl/","us":"us  / meɪl /","usp":"/meɪl/"}
+{"title":"mailer","uk":"uk  / ˈmeɪlə r /","ukp":"/ˈmeɪlər/","us":"us ","usp":""}
+{"title":"Mailgram","uk":"uk  / ˈmeɪl.ɡræm /","ukp":"/ˈmeɪl.ɡræm/","us":"us  / ˈmeɪl.ɡræm /","usp":"/ˈmeɪl.ɡræm/"}
+{"title":"mailing","uk":"uk  / ˈmeɪlɪŋ /","ukp":"/ˈmeɪlɪŋ/","us":"us ","usp":""}
+{"title":"mailing address","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mailing list","uk":"uk  / ˈmeɪ.lɪŋ ˌlɪst /","ukp":"/ˈmeɪ.lɪŋ ˌlɪst/","us":"us  / ˈmeɪ.lɪŋ ˌlɪst /","usp":"/ˈmeɪ.lɪŋ ˌlɪst/"}
+{"title":"mailing list broker","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mailing machine","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mailing piece","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mailing tube","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Maillard reaction","uk":"uk / ˈmeɪ.ləd riˌæk.ʃ ə n /","ukp":"/ˈmeɪ.ləd riˌæk.ʃən/","us":"us / ˌmaɪ.jɑːrd riˈæk.ʃ ə n /","usp":"/ˌmaɪ.jɑːrd riˈæk.ʃən/"}
+{"title":"mailman","uk":"uk  / ˈmeɪl.mæn /","ukp":"/ˈmeɪl.mæn/","us":"us  / ˈmeɪl.mæn /","usp":"/ˈmeɪl.mæn/"}
+{"title":"mailout","uk":"uk  / ˈmeɪlaʊt /","ukp":"/ˈmeɪlaʊt/","us":"us ","usp":""}
+{"title":"mailroom","uk":"uk  / ˈmeɪlruːm /","ukp":"/ˈmeɪlruːm/","us":"us ","usp":""}
+{"title":"mailshot","uk":"uk  / ˈmeɪl.ʃɒt /","ukp":"/ˈmeɪl.ʃɒt/","us":"us  / ˈmeɪl.ʃɑːt /","usp":"/ˈmeɪl.ʃɑːt/"}
+{"title":"maim","uk":"uk  / meɪm /","ukp":"/meɪm/","us":"us  / meɪm /","usp":"/meɪm/"}
+{"title":"maimed","uk":"uk  / meɪm /","ukp":"/meɪm/","us":"us  / meɪm /","usp":"/meɪm/"}
+{"title":"maiming","uk":"uk  / meɪm /","ukp":"/meɪm/","us":"us  / meɪm /","usp":"/meɪm/"}
+{"title":"main","uk":"uk  / meɪn /","ukp":"/meɪn/","us":"us  / meɪn /","usp":"/meɪn/"}
+{"title":"main course","uk":"uk  / ˌmeɪn ˈkɔːs /","ukp":"/ˌmeɪn ˈkɔːs/","us":"us  / ˌmeɪn ˈkɔːrs /","usp":"/ˌmeɪn ˈkɔːrs/"}
+{"title":"main drag","uk":"uk  / ˌmeɪn ˈdræɡ /","ukp":"/ˌmeɪn ˈdræɡ/","us":"us  / ˌmeɪn ˈdræɡ /","usp":"/ˌmeɪn ˈdræɡ/"}
+{"title":"main line","uk":"uk  / ˌmeɪn ˈlaɪn /","ukp":"/ˌmeɪn ˈlaɪn/","us":"us  / ˌmeɪn ˈlaɪn /","usp":"/ˌmeɪn ˈlaɪn/"}
+{"title":"main market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"main memory","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"main office","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"main road","uk":"uk  / ˌmeɪn ˈrəʊd /","ukp":"/ˌmeɪn ˈrəʊd/","us":"us  / ˌmeɪn ˈroʊd /","usp":"/ˌmeɪn ˈroʊd/"}
+{"title":"main street","uk":"uk  / ˌmeɪn ˈstriːt /","ukp":"/ˌmeɪn ˈstriːt/","us":"us  / ˌmeɪn ˈstriːt /","usp":"/ˌmeɪn ˈstriːt/"}
+{"title":"Maine","uk":"uk  / meɪn /","ukp":"/meɪn/","us":"us  / meɪn /","usp":"/meɪn/"}
+{"title":"mainboard","uk":"uk  / ˈmeɪn.bɔːd /","ukp":"/ˈmeɪn.bɔːd/","us":"us  / ˈmeɪn.bɔːrd /","usp":"/ˈmeɪn.bɔːrd/"}
+{"title":"main verb","uk":"uk  / ˌmeɪn ˈvɜːb /","ukp":"/ˌmeɪn ˈvɜːb/","us":"us  / ˌmeɪn ˈvɝːb /","usp":"/ˌmeɪn ˈvɝːb/"}
+{"title":"Mainer","uk":"uk  / ˈmeɪn.ə r /","ukp":"/ˈmeɪn.ər/","us":"us  / ˈmeɪn.ɚ /","usp":"/ˈmeɪn.ɚ/"}
+{"title":"mainframe","uk":"uk  / ˈmeɪn.freɪm /","ukp":"/ˈmeɪn.freɪm/","us":"us  / ˈmeɪn.freɪm /","usp":"/ˈmeɪn.freɪm/"}
+{"title":"mainland","uk":"uk  / ˈmeɪn.lænd /","ukp":"/ˈmeɪn.lænd/","us":"us  / ˈmeɪn.lænd /","usp":"/ˈmeɪn.lænd/"}
+{"title":"mainlined","uk":"uk  / ˈmeɪn.laɪn /","ukp":"/ˈmeɪn.laɪn/","us":"us  / ˈmeɪn.laɪn /","usp":"/ˈmeɪn.laɪn/"}
+{"title":"mainline","uk":"uk  / ˈmeɪn.laɪn /","ukp":"/ˈmeɪn.laɪn/","us":"us  / ˈmeɪn.laɪn /","usp":"/ˈmeɪn.laɪn/"}
+{"title":"mainlining","uk":"uk  / ˈmeɪn.laɪn /","ukp":"/ˈmeɪn.laɪn/","us":"us  / ˈmeɪn.laɪn /","usp":"/ˈmeɪn.laɪn/"}
+{"title":"mains","uk":"","us":""}
+{"title":"mainly","uk":"uk  / ˈmeɪn.li /","ukp":"/ˈmeɪn.li/","us":"us  / ˈmeɪn.li /","usp":"/ˈmeɪn.li/"}
+{"title":"mainmast","uk":"uk  / ˈmeɪn.mɑːst /","ukp":"/ˈmeɪn.mɑːst/","us":"us  / ˈmeɪn.mæst /","usp":"/ˈmeɪn.mæst/"}
+{"title":"mainsail","uk":"uk  / ˈmeɪn.seɪl /","ukp":"/ˈmeɪn.seɪl/","us":"us  / ˈmeɪn.seɪl /","usp":"/ˈmeɪn.seɪl/"}
+{"title":"mainspring","uk":"uk  / ˈmeɪn.sprɪŋ /","ukp":"/ˈmeɪn.sprɪŋ/","us":"us  / ˈmeɪn.sprɪŋ /","usp":"/ˈmeɪn.sprɪŋ/"}
+{"title":"mainstay","uk":"uk  / ˈmeɪn.steɪ /","ukp":"/ˈmeɪn.steɪ/","us":"us  / ˈmeɪn.steɪ /","usp":"/ˈmeɪn.steɪ/"}
+{"title":"mainstream media","uk":"uk  / ˌmeɪn.striːm ˈmiː.di.ə /","ukp":"/ˌmeɪn.striːm ˈmiː.di.ə/","us":"us  / ˌmeɪn.striːm ˈmiː.di.ə /","usp":"/ˌmeɪn.striːm ˈmiː.di.ə/"}
+{"title":"mainstreamed","uk":"uk  / ˈmeɪn.striːm /","ukp":"/ˈmeɪn.striːm/","us":"us  / ˈmeɪn.striːm /","usp":"/ˈmeɪn.striːm/"}
+{"title":"mainstream","uk":"uk  / ˈmeɪn.striːm /","ukp":"/ˈmeɪn.striːm/","us":"us  / ˈmeɪn.striːm /","usp":"/ˈmeɪn.striːm/"}
+{"title":"mainstreaming","uk":"uk  / ˈmeɪn.striː.mɪŋ /","ukp":"/ˈmeɪn.striː.mɪŋ/","us":"us  / ˈmeɪn.striː.mɪŋ /","usp":"/ˈmeɪn.striː.mɪŋ/"}
+{"title":"maintained","uk":"uk  / meɪnˈteɪn /","ukp":"/meɪnˈteɪn/","us":"us  / meɪnˈteɪn /","usp":"/meɪnˈteɪn/"}
+{"title":"maintaining","uk":"uk  / meɪnˈteɪn /","ukp":"/meɪnˈteɪn/","us":"us  / meɪnˈteɪn /","usp":"/meɪnˈteɪn/"}
+{"title":"maintain","uk":"uk  / meɪnˈteɪn /","ukp":"/meɪnˈteɪn/","us":"us  / meɪnˈteɪn /","usp":"/meɪnˈteɪn/"}
+{"title":"maintenance order","uk":"uk  / ˈmeɪn.tɪ.nəns ˌɔː.də r /","ukp":"/ˈmeɪn.tɪ.nəns ˌɔː.dər/","us":"us  / ˈmeɪn.tɪ.nəns ˌɔːr.dɚ /","usp":"/ˈmeɪn.tɪ.nəns ˌɔːr.dɚ/"}
+{"title":"maisonette","uk":"uk  / ˌmeɪ.z ə nˈet /","ukp":"/ˌmeɪ.zənˈet/","us":"us  / ˌmeɪ.z ə nˈet /","usp":"/ˌmeɪ.zənˈet/"}
+{"title":"maître d'","uk":"uk  / ˌmeɪt.rə ˈdiː /","ukp":"/ˌmeɪt.rə ˈdiː/","us":"us  / ˌmeɪ.t̬ɚ ˈdiː /","usp":"/ˌmeɪ.t̬ɚ ˈdiː/"}
+{"title":"maintenance","uk":"uk  / ˈmeɪn.t ə n.əns /","ukp":"/ˈmeɪn.tən.əns/","us":"us  / ˈmeɪn.t ə n.əns /","usp":"/ˈmeɪn.tən.əns/"}
+{"title":"magistrate","uk":"uk  / ˈmædʒ.ɪ.streɪt /","ukp":"/ˈmædʒ.ɪ.streɪt/","us":"us  / ˈmædʒ.ə.streɪt /","usp":"/ˈmædʒ.ə.streɪt/"}
+{"title":"magistrate judge","uk":"uk  / ˌmædʒ.ɪ.streɪt ˈdʒʌdʒ /","ukp":"/ˌmædʒ.ɪ.streɪt ˈdʒʌdʒ/","us":"us  / ˌmædʒ.ə.streɪt ˈdʒʌdʒ /","usp":"/ˌmædʒ.ə.streɪt ˈdʒʌdʒ/"}

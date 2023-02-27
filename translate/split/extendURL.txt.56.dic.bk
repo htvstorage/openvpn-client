@@ -1,0 +1,932 @@
+{"title":"sportscaster","uk":"uk  / ˈspɔːtsˌkɑː.stə r /","ukp":"/ˈspɔːtsˌkɑː.stər/","us":"us  / ˈspɔːrtsˌkæs.t̬ɚ /","usp":"/ˈspɔːrtsˌkæs.t̬ɚ/"}
+{"title":"sportsmanship","uk":"uk  / ˈspɔːts.mən.ʃɪp /","ukp":"/ˈspɔːts.mən.ʃɪp/","us":"us  / ˈspɔːrts.mən.ʃɪp /","usp":"/ˈspɔːrts.mən.ʃɪp/"}
+{"title":"sportsman","uk":"uk  / ˈspɔːts.mən /","ukp":"/ˈspɔːts.mən/","us":"us  / ˈspɔːrts.mən /","usp":"/ˈspɔːrts.mən/"}
+{"title":"sportsmanlike","uk":"uk  / ˈspɔːts.mən.laɪk /","ukp":"/ˈspɔːts.mən.laɪk/","us":"us  / ˈspɔːrts.mən.laɪk /","usp":"/ˈspɔːrts.mən.laɪk/"}
+{"title":"sportswashing","uk":"uk / ˈspɔːtsˌwɒʃ.ɪŋ /","ukp":"/ˈspɔːtsˌwɒʃ.ɪŋ/","us":"us / ˈspɔːrtsˌwɑː.ʃɪŋ /","usp":"/ˈspɔːrtsˌwɑː.ʃɪŋ/"}
+{"title":"sportsperson","uk":"uk  / ˈspɔːtsˌpɜː.s ə n /","ukp":"/ˈspɔːtsˌpɜː.sən/","us":"us  / ˈspɔːrtsˌpɝː.s ə n /","usp":"/ˈspɔːrtsˌpɝː.sən/"}
+{"title":"sportswoman","uk":"uk  / ˈspɔːtsˌwʊm.ən /","ukp":"/ˈspɔːtsˌwʊm.ən/","us":"us  / ˈspɔːrtsˌwʊm.ən /","usp":"/ˈspɔːrtsˌwʊm.ən/"}
+{"title":"sportswear","uk":"uk  / ˈspɔːts.weə r /","ukp":"/ˈspɔːts.weər/","us":"us  / ˈspɔːrts.wer /","usp":"/ˈspɔːrts.wer/"}
+{"title":"sporty","uk":"uk  / ˈspɔː.ti /","ukp":"/ˈspɔː.ti/","us":"us  / ˈspɔːr.t̬i /","usp":"/ˈspɔːr.t̬i/"}
+{"title":"spot advertising","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"spot","uk":"uk  / spɒt /","ukp":"/spɒt/","us":"us  / spɑːt /","usp":"/spɑːt/"}
+{"title":"spot cash","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"spot cash market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"spot colour","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"spot check","uk":"uk  / ˌspɒt ˈtʃek /","ukp":"/ˌspɒt ˈtʃek/","us":"us  / ˌspɑːt ˈtʃek /","usp":"/ˌspɑːt ˈtʃek/"}
+{"title":"spot delivery","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"spot exchange rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"spot fine","uk":"uk  / ˈspɒt ˌfaɪn /","ukp":"/ˈspɒt ˌfaɪn/","us":"us  / ˈspɑːt ˌfaɪn /","usp":"/ˈspɑːt ˌfaɪn/"}
+{"title":"spot gold","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"spot kick","uk":"uk  / ˈspɒt ˌkɪk /","ukp":"/ˈspɒt ˌkɪk/","us":"us  / ˈspɑːt ˌkɪk /","usp":"/ˈspɑːt ˌkɪk/"}
+{"title":"spot market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"spot price","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"spot on","uk":"uk  / ˌspɒt ˈɒn /","ukp":"/ˌspɒt ˈɒn/","us":"us  / ˌspɑːt ˈɑːn /","usp":"/ˌspɑːt ˈɑːn/"}
+{"title":"spot rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"spot-welding","uk":"uk  / ˈspɒtˌwel.dɪŋ /","ukp":"/ˈspɒtˌwel.dɪŋ/","us":"us  / ˈspɑːtˌwel.dɪŋ /","usp":"/ˈspɑːtˌwel.dɪŋ/"}
+{"title":"spotlessly","uk":"uk  / ˈspɒt.ləs.li /","ukp":"/ˈspɒt.ləs.li/","us":"us  / ˈspɑːt.ləs.li /","usp":"/ˈspɑːt.ləs.li/"}
+{"title":"spotless","uk":"uk  / ˈspɒt.ləs /","ukp":"/ˈspɒt.ləs/","us":"us  / ˈspɑːt.ləs /","usp":"/ˈspɑːt.ləs/"}
+{"title":"spotlit","uk":"","us":""}
+{"title":"spotlight","uk":"uk  / ˈspɒt.laɪt /","ukp":"/ˈspɒt.laɪt/","us":"us  / ˈspɑːt.laɪt /","usp":"/ˈspɑːt.laɪt/"}
+{"title":"spotted","uk":"uk  / ˈspɒt.ɪd /","ukp":"/ˈspɒt.ɪd/","us":"us  / ˈspɑː.t̬ɪd /","usp":"/ˈspɑː.t̬ɪd/"}
+{"title":"spotted dick","uk":"uk  / ˌspɒt.ɪd ˈdɪk /","ukp":"/ˌspɒt.ɪd ˈdɪk/","us":"us  / ˌspɑː.t̬ɪd ˈdɪk /","usp":"/ˌspɑː.t̬ɪd ˈdɪk/"}
+{"title":"spotted gum","uk":"uk  / ˌspɒt.ɪd ˈɡʌm /","ukp":"/ˌspɒt.ɪd ˈɡʌm/","us":"us  / ˌspɑː.t̬ɪd ˈɡʌm /","usp":"/ˌspɑː.t̬ɪd ˈɡʌm/"}
+{"title":"spotter","uk":"uk  / ˈspɒt.ə r /","ukp":"/ˈspɒt.ər/","us":"us  / ˈspɑː.t̬ɚ /","usp":"/ˈspɑː.t̬ɚ/"}
+{"title":"-spotting","uk":"uk  / -spɒt.ɪŋ /","ukp":"/ -spɒt.ɪŋ/","us":"us  / -spɑː.t̬ɪŋ /","usp":"/ -spɑː.t̬ɪŋ/"}
+{"title":"spousal","uk":"uk  / ˈspaʊ.z ə l /","ukp":"/ˈspaʊ.zəl/","us":"us  / ˈspaʊ.z ə l /","usp":"/ˈspaʊ.zəl/"}
+{"title":"spotty","uk":"uk  / ˈspɒt.i /","ukp":"/ˈspɒt.i/","us":"us  / ˈspɑː.t̬i /","usp":"/ˈspɑː.t̬i/"}
+{"title":"spouse","uk":"uk  / spaʊs /","ukp":"/spaʊs/","us":"us  / spaʊs /","usp":"/spaʊs/"}
+{"title":"spouted","uk":"uk  / spaʊt /","ukp":"/spaʊt/","us":"us  / spaʊt /","usp":"/spaʊt/"}
+{"title":"spout","uk":"uk  / spaʊt /","ukp":"/spaʊt/","us":"us  / spaʊt /","usp":"/spaʊt/"}
+{"title":"spouting","uk":"uk  / spaʊt /","ukp":"/spaʊt/","us":"us  / spaʊt /","usp":"/spaʊt/"}
+{"title":"SPP","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"sprained","uk":"uk  / spreɪn /","ukp":"/spreɪn/","us":"us  / spreɪn /","usp":"/spreɪn/"}
+{"title":"sprain","uk":"uk  / spreɪn /","ukp":"/spreɪn/","us":"us  / spreɪn /","usp":"/spreɪn/"}
+{"title":"spraining","uk":"uk  / spreɪn /","ukp":"/spreɪn/","us":"us  / spreɪn /","usp":"/spreɪn/"}
+{"title":"sprang","uk":"uk  / spræŋ /","ukp":"/spræŋ/","us":"us  / spræŋ /","usp":"/spræŋ/"}
+{"title":"sprat","uk":"uk  / spræt /","ukp":"/spræt/","us":"us  / spræt /","usp":"/spræt/"}
+{"title":"sprawled","uk":"uk  / sprɔːld /","ukp":"/sprɔːld/","us":"us  / sprɑːld /","usp":"/sprɑːld/"}
+{"title":"sprawl","uk":"uk  / sprɔːl /","ukp":"/sprɔːl/","us":"us  / sprɑːl /","usp":"/sprɑːl/"}
+{"title":"sprawling","uk":"uk  / ˈsprɔː.lɪŋ /","ukp":"/ˈsprɔː.lɪŋ/","us":"us  / ˈsprɑː.lɪŋ /","usp":"/ˈsprɑː.lɪŋ/"}
+{"title":"spray gun","uk":"uk  / ˈspreɪ ˌɡʌn /","ukp":"/ˈspreɪ ˌɡʌn/","us":"us  / ˈspreɪ ˌɡʌn /","usp":"/ˈspreɪ ˌɡʌn/"}
+{"title":"spray pad","uk":"uk  / ˈspreɪ ˌpæd /","ukp":"/ˈspreɪ ˌpæd/","us":"us  / ˈspreɪ ˌpæd /","usp":"/ˈspreɪ ˌpæd/"}
+{"title":"spray","uk":"uk  / spreɪ /","ukp":"/spreɪ/","us":"us  / spreɪ /","usp":"/spreɪ/"}
+{"title":"spray paint","uk":"uk  / ˈspreɪ ˌpeɪnt /","ukp":"/ˈspreɪ ˌpeɪnt/","us":"us  / ˈspreɪ ˌpeɪnt /","usp":"/ˈspreɪ ˌpeɪnt/"}
+{"title":"spray park","uk":"uk  / ˈspreɪ ˌpɑːk /","ukp":"/ˈspreɪ ˌpɑːk/","us":"us  / ˈspreɪ ˌpɑːrk /","usp":"/ˈspreɪ ˌpɑːrk/"}
+{"title":"spray pool","uk":"uk  / ˈspreɪ ˌpuːl /","ukp":"/ˈspreɪ ˌpuːl/","us":"us  / ˈspreɪ ˌpuːl /","usp":"/ˈspreɪ ˌpuːl/"}
+{"title":"spray tan","uk":"uk  / ˈspreɪ ˌtæn /","ukp":"/ˈspreɪ ˌtæn/","us":"us  / ˈspreɪ ˌtæn /","usp":"/ˈspreɪ ˌtæn/"}
+{"title":"sprayed","uk":"uk  / spreɪ /","ukp":"/spreɪ/","us":"us  / spreɪ /","usp":"/spreɪ/"}
+{"title":"spraying","uk":"uk  / spreɪ /","ukp":"/spreɪ/","us":"us  / spreɪ /","usp":"/spreɪ/"}
+{"title":"sprayer","uk":"uk  / ˈspreɪ.ə r /","ukp":"/ˈspreɪ.ər/","us":"us  / ˈspreɪ.ɚ /","usp":"/ˈspreɪ.ɚ/"}
+{"title":"spread bet","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"spread betting","uk":"uk  / ˌspred ˈbet.ɪŋ /","ukp":"/ˌspred ˈbet.ɪŋ/","us":"us  / ˌspred ˈbet̬.ɪŋ /","usp":"/ˌspred ˈbet̬.ɪŋ/"}
+{"title":"spread like wildfire","uk":"","us":""}
+{"title":"spread","uk":"uk  / spred /","ukp":"/spred/","us":"us  / spred /","usp":"/spred/"}
+{"title":"spread out","uk":"uk  / spred /","ukp":"/spred/","us":"us  / spred /","usp":"/spred/"}
+{"title":"spread something out (over something )","uk":"","us":"us  / spred /","usp":"/spred/"}
+{"title":"spread something over something","uk":"uk  / spred /","ukp":"/spred/","us":"us  / spred /","usp":"/spred/"}
+{"title":"spread your wings","uk":"","us":""}
+{"title":"spread the word","uk":"","us":""}
+{"title":"spread yourself too thin","uk":"","us":""}
+{"title":"spreadeagled","uk":"uk  / ˌspredˈiː.ɡ ə ld /","ukp":"/ˌspredˈiː.ɡəld/","us":"us  / ˌspredˈiː.ɡ ə ld /","usp":"/ˌspredˈiː.ɡəld/"}
+{"title":"spreader","uk":"uk  / ˈspred.ə r /","ukp":"/ˈspred.ər/","us":"us  / ˈspred.ɚ /","usp":"/ˈspred.ɚ/"}
+{"title":"spreadsheet","uk":"uk  / ˈspred.ʃiːt /","ukp":"/ˈspred.ʃiːt/","us":"us  / ˈspred.ʃiːt /","usp":"/ˈspred.ʃiːt/"}
+{"title":"spree","uk":"uk  / spriː /","ukp":"/spriː/","us":"us  / spriː /","usp":"/spriː/"}
+{"title":"sprig","uk":"uk  / sprɪɡ /","ukp":"/sprɪɡ/","us":"us  / sprɪɡ /","usp":"/sprɪɡ/"}
+{"title":"sprightliness","uk":"uk  / ˈspraɪt.li.nəs /","ukp":"/ˈspraɪt.li.nəs/","us":"us  / ˈspraɪt.li.nəs /","usp":"/ˈspraɪt.li.nəs/"}
+{"title":"sprightly","uk":"uk  / ˈspraɪt.li /","ukp":"/ˈspraɪt.li/","us":"us  / ˈspraɪt.li /","usp":"/ˈspraɪt.li/"}
+{"title":"spring break","uk":"uk  / ˌsprɪŋ ˈbreɪk /","ukp":"/ˌsprɪŋ ˈbreɪk/","us":"us  / ˌsprɪŋ ˈbreɪk /","usp":"/ˌsprɪŋ ˈbreɪk/"}
+{"title":"spring","uk":"uk  / sprɪŋ /","ukp":"/sprɪŋ/","us":"us  / sprɪŋ /","usp":"/sprɪŋ/"}
+{"title":"spring chicken","uk":"uk  / ˌsprɪŋ ˈtʃɪk.ɪn /","ukp":"/ˌsprɪŋ ˈtʃɪk.ɪn/","us":"us  / ˌsprɪŋ ˈtʃɪk.ɪn /","usp":"/ˌsprɪŋ ˈtʃɪk.ɪn/"}
+{"title":"spring fever","uk":"uk  / ˌsprɪŋ ˈfiː.və r /","ukp":"/ˌsprɪŋ ˈfiː.vər/","us":"us  / ˌsprɪŋ ˈfiː.vɚ /","usp":"/ˌsprɪŋ ˈfiː.vɚ/"}
+{"title":"spring constant","uk":"uk  / ˈsprɪŋ ˌkɒn.st ə nt /","ukp":"/ˈsprɪŋ ˌkɒn.stənt/","us":"us  / ˈsprɪŋ ˌkɑːn.st ə nt /","usp":"/ˈsprɪŋ ˌkɑːn.stənt/"}
+{"title":"spring for something","uk":"uk  / sprɪŋ /","ukp":"/sprɪŋ/","us":"us  / sprɪŋ /","usp":"/sprɪŋ/"}
+{"title":"spring from something","uk":"uk  / sprɪŋ /","ukp":"/sprɪŋ/","us":"us  / sprɪŋ /","usp":"/sprɪŋ/"}
+{"title":"spring greens","uk":"uk  / ˌsprɪŋ ˈɡriːnz /","ukp":"/ˌsprɪŋ ˈɡriːnz/","us":"us  / ˌsprɪŋ ˈɡriːnz /","usp":"/ˌsprɪŋ ˈɡriːnz/"}
+{"title":"spring onion","uk":"uk  / ˌsprɪŋ ˈʌn.jən /","ukp":"/ˌsprɪŋ ˈʌn.jən/","us":"us  / ˌsprɪŋ ˈʌn.jən /","usp":"/ˌsprɪŋ ˈʌn.jən/"}
+{"title":"spring peeper","uk":"uk  / ˈsprɪŋ ˌpiː.pə r /","ukp":"/ˈsprɪŋ ˌpiː.pər/","us":"us  / ˈsprɪŋ ˌpiː.pɚ /","usp":"/ˈsprɪŋ ˌpiː.pɚ/"}
+{"title":"spring something on someone","uk":"uk  / sprɪŋ /","ukp":"/sprɪŋ/","us":"us  / sprɪŋ /","usp":"/sprɪŋ/"}
+{"title":"spring roll","uk":"uk  / ˌsprɪŋ ˈrəʊl /","ukp":"/ˌsprɪŋ ˈrəʊl/","us":"us  / ˌsprɪŋ ˈroʊl /","usp":"/ˌsprɪŋ ˈroʊl/"}
+{"title":"spring tide","uk":"uk  / ˌsprɪŋ ˈtaɪd /","ukp":"/ˌsprɪŋ ˈtaɪd/","us":"us  / ˌsprɪŋ ˈtaɪd /","usp":"/ˌsprɪŋ ˈtaɪd/"}
+{"title":"spring to life","uk":"","us":""}
+{"title":"spring to mind","uk":"","us":""}
+{"title":"spring up","uk":"uk  / sprɪŋ /","ukp":"/sprɪŋ/","us":"us  / sprɪŋ /","usp":"/sprɪŋ/"}
+{"title":"spring-cleaned","uk":"uk  / ˌsprɪŋˈkliːn /","ukp":"/ˌsprɪŋˈkliːn/","us":"us  / ˌsprɪŋˈkliːn /","usp":"/ˌsprɪŋˈkliːn/"}
+{"title":"spring-clean","uk":"uk  / ˌsprɪŋˈkliːn /","ukp":"/ˌsprɪŋˈkliːn/","us":"us  / ˌsprɪŋˈkliːn /","usp":"/ˌsprɪŋˈkliːn/"}
+{"title":"spring-cleaning","uk":"uk  / ˌsprɪŋˈkliː.nɪŋ /","ukp":"/ˌsprɪŋˈkliː.nɪŋ/","us":"us  / ˌsprɪŋˈkliː.nɪŋ /","usp":"/ˌsprɪŋˈkliː.nɪŋ/"}
+{"title":"springboard","uk":"uk  / ˈsprɪŋ.bɔːd /","ukp":"/ˈsprɪŋ.bɔːd/","us":"us  / ˈsprɪŋ.bɔːrd /","usp":"/ˈsprɪŋ.bɔːrd/"}
+{"title":"spurted","uk":"uk  / spɜːt /","ukp":"/spɜːt/","us":"us  / spɝːt /","usp":"/spɝːt/"}
+{"title":"spurting","uk":"uk  / spɜːt /","ukp":"/spɜːt/","us":"us  / spɝːt /","usp":"/spɝːt/"}
+{"title":"sputter","uk":"uk  / ˈspʌt.ə r /","ukp":"/ˈspʌt.ər/","us":"us  / ˈspʌt̬.ɚ /","usp":"/ˈspʌt̬.ɚ/"}
+{"title":"sputtered","uk":"uk  / ˈspʌt.ə r /","ukp":"/ˈspʌt.ər/","us":"us  / ˈspʌt̬.ɚ /","usp":"/ˈspʌt̬.ɚ/"}
+{"title":"sputtering","uk":"uk  / ˈspʌt.ə r /","ukp":"/ˈspʌt.ər/","us":"us  / ˈspʌt̬.ɚ /","usp":"/ˈspʌt̬.ɚ/"}
+{"title":"sputum","uk":"uk  / ˈspjuː.təm /","ukp":"/ˈspjuː.təm/","us":"us  / ˈspjuː.t̬əm /","usp":"/ˈspjuː.t̬əm/"}
+{"title":"spy on someone/something","uk":"uk  / spaɪ /","ukp":"/spaɪ/","us":"us  / spaɪ /","usp":"/spaɪ/"}
+{"title":"spy out the land","uk":"","us":""}
+{"title":"spy","uk":"uk  / spaɪ /","ukp":"/spaɪ/","us":"us  / spaɪ /","usp":"/spaɪ/"}
+{"title":"spyglass","uk":"uk  / ˈspaɪ.ɡlɑːs /","ukp":"/ˈspaɪ.ɡlɑːs/","us":"us  / ˈspaɪ.ɡlæs /","usp":"/ˈspaɪ.ɡlæs/"}
+{"title":"spyhole","uk":"uk  / ˈspaɪ.həʊl /","ukp":"/ˈspaɪ.həʊl/","us":"us  / ˈspaɪ.hoʊl /","usp":"/ˈspaɪ.hoʊl/"}
+{"title":"spying","uk":"uk  / spaɪ /","ukp":"/spaɪ/","us":"us  / spaɪ /","usp":"/spaɪ/"}
+{"title":"spyware","uk":"uk  / ˈspaɪ.weə r /","ukp":"/ˈspaɪ.weər/","us":"us  / ˈspaɪ.wer /","usp":"/ˈspaɪ.wer/"}
+{"title":"SQC","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"sq.","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"squab","uk":"uk  / skwɒb /","ukp":"/skwɒb/","us":"us  / skwɑːb /","usp":"/skwɑːb/"}
+{"title":"squabble","uk":"uk  / ˈskwɒb. ə l /","ukp":"/ˈskwɒb.əl/","us":"us  / ˈskwɑː.b ə l /","usp":"/ˈskwɑː.bəl/"}
+{"title":"squabbled","uk":"uk  / ˈskwɒb. ə l /","ukp":"/ˈskwɒb.əl/","us":"us  / ˈskwɑː.b ə l /","usp":"/ˈskwɑː.bəl/"}
+{"title":"squabbling","uk":"uk  / ˈskwɒb. ə l /","ukp":"/ˈskwɒb.əl/","us":"us  / ˈskwɑː.b ə l /","usp":"/ˈskwɑː.bəl/"}
+{"title":"squad rotation","uk":"uk  / ˌskwɒd rəʊˈteɪ.ʃ ə n /","ukp":"/ˌskwɒd rəʊˈteɪ.ʃən/","us":"us  / ˌskwɑːd roʊˈteɪ.ʃ ə n /","usp":"/ˌskwɑːd roʊˈteɪ.ʃən/"}
+{"title":"squad car","uk":"uk  / ˈskwɒd ˌkɑː r /","ukp":"/ˈskwɒd ˌkɑːr/","us":"us  / ˈskwɑːd ˌkɑːr /","usp":"/ˈskwɑːd ˌkɑːr/"}
+{"title":"squad","uk":"uk  / skwɒd /","ukp":"/skwɒd/","us":"us  / skwɑːd /","usp":"/skwɑːd/"}
+{"title":"squad sheet","uk":"uk  / ˈskwɒd ˌʃiːt /","ukp":"/ˈskwɒd ˌʃiːt/","us":"us  / ˈskwɑːd ˌʃiːt /","usp":"/ˈskwɑːd ˌʃiːt/"}
+{"title":"squaddie","uk":"uk  / ˈskwɒd.i /","ukp":"/ˈskwɒd.i/","us":"us  / ˈskwɑː.di /","usp":"/ˈskwɑː.di/"}
+{"title":"squadron leader","uk":"uk  / ˈskwɒd.rən ˌliː.də r /","ukp":"/ˈskwɒd.rən ˌliː.dər/","us":"us  / ˈskwɑː.drən ˌliː.dɚ /","usp":"/ˈskwɑː.drən ˌliː.dɚ/"}
+{"title":"squadron","uk":"uk  / ˈskwɒd.rən /","ukp":"/ˈskwɒd.rən/","us":"us  / ˈskwɑː.drən /","usp":"/ˈskwɑː.drən/"}
+{"title":"squalene","uk":"uk  / ˈskweɪ.liːn /","ukp":"/ˈskweɪ.liːn/","us":"us  / ˈskweɪ.liːn /","usp":"/ˈskweɪ.liːn/"}
+{"title":"squalid","uk":"uk  / ˈskwɒl.ɪd /","ukp":"/ˈskwɒl.ɪd/","us":"us  / ˈskwɑː.lɪd /","usp":"/ˈskwɑː.lɪd/"}
+{"title":"squalled","uk":"uk  / skwɔːl /","ukp":"/skwɔːl/","us":"us  / skwɑːl /","usp":"/skwɑːl/"}
+{"title":"squall","uk":"uk  / skwɔːl /","ukp":"/skwɔːl/","us":"us  / skwɑːl /","usp":"/skwɑːl/"}
+{"title":"squalling","uk":"uk  / skwɔːl /","ukp":"/skwɔːl/","us":"us  / skwɑːl /","usp":"/skwɑːl/"}
+{"title":"squally","uk":"uk  / ˈskwɔː.li /","ukp":"/ˈskwɔː.li/","us":"us  / ˈskwɑː.li /","usp":"/ˈskwɑː.li/"}
+{"title":"squalor","uk":"uk  / ˈskwɒl.ə r /","ukp":"/ˈskwɒl.ər/","us":"us  / ˈskwɑː.lɚ /","usp":"/ˈskwɑː.lɚ/"}
+{"title":"squamous","uk":"uk  / ˈskweɪ.məs /","ukp":"/ˈskweɪ.məs/","us":"us  / ˈskweɪ.məs /","usp":"/ˈskweɪ.məs/"}
+{"title":"squandered","uk":"uk  / ˈskwɒn.də r /","ukp":"/ˈskwɒn.dər/","us":"us  / ˈskwɑːn.dɚ /","usp":"/ˈskwɑːn.dɚ/"}
+{"title":"squander","uk":"uk  / ˈskwɒn.də r /","ukp":"/ˈskwɒn.dər/","us":"us  / ˈskwɑːn.dɚ /","usp":"/ˈskwɑːn.dɚ/"}
+{"title":"squandering","uk":"uk  / ˈskwɒn.də r /","ukp":"/ˈskwɒn.dər/","us":"us  / ˈskwɑːn.dɚ /","usp":"/ˈskwɑːn.dɚ/"}
+{"title":"square (something) with something","uk":"uk  / skweə r /","ukp":"/skweər/","us":"us  / skwer /","usp":"/skwer/"}
+{"title":"square ball","uk":"uk  / ˈskweə ˌbɔːl /","ukp":"/ˈskweə ˌbɔːl/","us":"us  / ˈskwer ˌbɑːl /","usp":"/ˈskwer ˌbɑːl/"}
+{"title":"square","uk":"uk  / skweə r /","ukp":"/skweər/","us":"us  / skwer /","usp":"/skwer/"}
+{"title":"square brackets","uk":"uk  / ˈskweə ˌbræk.ɪts /","ukp":"/ˈskweə ˌbræk.ɪts/","us":"us  / ˈskwer ˌbræk.ɪts /","usp":"/ˈskwer ˌbræk.ɪts/"}
+{"title":"square dance","uk":"uk  / ˈskweə ˌdɑːns /","ukp":"/ˈskweə ˌdɑːns/","us":"us  / ˈskwer ˌdæns /","usp":"/ˈskwer ˌdæns/"}
+{"title":"square deal","uk":"uk  / ˌskweə ˈdiːl /","ukp":"/ˌskweə ˈdiːl/","us":"us  / ˌskwer ˈdiːl /","usp":"/ˌskwer ˈdiːl/"}
+{"title":"square knot","uk":"uk  / ˈskweə ˌnɒt /","ukp":"/ˈskweə ˌnɒt/","us":"us  / ˈskwer ˌnɑːt /","usp":"/ˈskwer ˌnɑːt/"}
+{"title":"square meal","uk":"uk  / ˌskweə ˈmɪəl /","ukp":"/ˌskweə ˈmɪəl/","us":"us  / ˌskwer ˈmɪəl /","usp":"/ˌskwer ˈmɪəl/"}
+{"title":"square off","uk":"uk  / skweə r /","ukp":"/skweər/","us":"us  / skwer /","usp":"/skwer/"}
+{"title":"square peg (in a round hole)","uk":"","us":""}
+{"title":"square root","uk":"uk  / ˌskweə ˈruːt /","ukp":"/ˌskweə ˈruːt/","us":"us  / ˌskwer ˈruːt /","usp":"/ˌskwer ˈruːt/"}
+{"title":"square something/someone away","uk":"uk  / skweə r /","ukp":"/skweər/","us":"us  / skwer /","usp":"/skwer/"}
+{"title":"square the circle","uk":"","us":""}
+{"title":"square up","uk":"uk  / skweə r /","ukp":"/skweər/","us":"us  / skwer /","usp":"/skwer/"}
+{"title":"square up to someone/something","uk":"uk  / skweə r /","ukp":"/skweər/","us":"us  / skwer /","usp":"/skwer/"}
+{"title":"square the accounts/books","uk":"","us":""}
+{"title":"square-eyed","uk":"uk  / ˌskweəˈraɪd /","ukp":"/ˌskweəˈraɪd/","us":"us  / ˌskwerˈaɪd /","usp":"/ˌskwerˈaɪd/"}
+{"title":"squared","uk":"uk  / skweəd /","ukp":"/skweəd/","us":"us  / skwerd /","usp":"/skwerd/"}
+{"title":"squaring","uk":"uk  / skweə r /","ukp":"/skweər/","us":"us  / skwer /","usp":"/skwer/"}
+{"title":"squarely","uk":"uk  / ˈskweə.li /","ukp":"/ˈskweə.li/","us":"us  / ˈskwer /","usp":"/ˈskwer/"}
+{"title":"squash ball","uk":"uk  / ˈskwɒʃ ˌbɔːl /","ukp":"/ˈskwɒʃ ˌbɔːl/","us":"us  / ˈskwɑːʃ ˌbɑːl /","usp":"/ˈskwɑːʃ ˌbɑːl/"}
+{"title":"squash","uk":"uk  / skwɒʃ /","ukp":"/skwɒʃ/","us":"us  / skwɑːʃ /","usp":"/skwɑːʃ/"}
+{"title":"squashes","uk":"","us":""}
+{"title":"squashed","uk":"uk  / skwɒʃ /","ukp":"/skwɒʃ/","us":"us  / skwɑːʃ /","usp":"/skwɑːʃ/"}
+{"title":"squashing","uk":"uk  / skwɒʃ /","ukp":"/skwɒʃ/","us":"us  / skwɑːʃ /","usp":"/skwɑːʃ/"}
+{"title":"squashy","uk":"uk  / ˈskwɒʃ.i /","ukp":"/ˈskwɒʃ.i/","us":"us  / ˈskwɑː.ʃi /","usp":"/ˈskwɑː.ʃi/"}
+{"title":"squat","uk":"uk  / skwɒt /","ukp":"/skwɒt/","us":"us  / skwɑːt /","usp":"/skwɑːt/"}
+{"title":"squat thrust","uk":"uk  / ˈskwɒt ˌθrʌst /","ukp":"/ˈskwɒt ˌθrʌst/","us":"us  / ˈskwɑːt ˌθrʌst /","usp":"/ˈskwɑːt ˌθrʌst/"}
+{"title":"squatted","uk":"","us":""}
+{"title":"squattest","uk":"","us":""}
+{"title":"squatter","uk":"uk  / ˈskwɒt.ə r /","ukp":"/ˈskwɒt.ər/","us":"us  / ˈskwɑː.t̬ɚ /","usp":"/ˈskwɑː.t̬ɚ/"}
+{"title":"squatting","uk":"","us":""}
+{"title":"squattocracy","uk":"uk  / ˌskwɒtˈɒk.rə.si /","ukp":"/ˌskwɒtˈɒk.rə.si/","us":"us  / ˌskwɑːˈt̬ɑː.krə.si /","usp":"/ˌskwɑːˈt̬ɑː.krə.si/"}
+{"title":"squatty","uk":"uk  / ˈskwɒt.i /","ukp":"/ˈskwɒt.i/","us":"us  / ˈskwɑː.t̬i /","usp":"/ˈskwɑː.t̬i/"}
+{"title":"squaw","uk":"uk  / skwɔː /","ukp":"/skwɔː/","us":"us  / skwɑː /","usp":"/skwɑː/"}
+{"title":"squawked","uk":"uk  / skwɔːk /","ukp":"/skwɔːk/","us":"us  / skwɑːk /","usp":"/skwɑːk/"}
+{"title":"squawk","uk":"uk  / skwɔːk /","ukp":"/skwɔːk/","us":"us  / skwɑːk /","usp":"/skwɑːk/"}
+{"title":"squawking","uk":"uk  / skwɔːk /","ukp":"/skwɔːk/","us":"us  / skwɑːk /","usp":"/skwɑːk/"}
+{"title":"squeaked","uk":"uk  / skwiːk /","ukp":"/skwiːk/","us":"us  / skwiːk /","usp":"/skwiːk/"}
+{"title":"squeak","uk":"uk  / skwiːk /","ukp":"/skwiːk/","us":"us  / skwiːk /","usp":"/skwiːk/"}
+{"title":"squeaker","uk":"uk  / ˈskwiː.kə r /","ukp":"/ˈskwiː.kər/","us":"us  / ˈskwiː.kɚ /","usp":"/ˈskwiː.kɚ/"}
+{"title":"squeaking","uk":"uk  / skwiːk /","ukp":"/skwiːk/","us":"us  / skwiːk /","usp":"/skwiːk/"}
+{"title":"squeaky-bum time","uk":"uk  / ˌskwiː.kiˈbʌm ˌtaɪm /","ukp":"/ˌskwiː.kiˈbʌm ˌtaɪm/","us":"us  / ˌskwiː.kiˈbʌm ˌtaɪm /","usp":"/ˌskwiː.kiˈbʌm ˌtaɪm/"}
+{"title":"squeaky","uk":"uk  / ˈskwiː.ki /","ukp":"/ˈskwiː.ki/","us":"us  / ˈskwiː.ki /","usp":"/ˈskwiː.ki/"}
+{"title":"squealed","uk":"uk  / skwiːl /","ukp":"/skwiːl/","us":"us  / skwiːl /","usp":"/skwiːl/"}
+{"title":"squeaky-clean","uk":"uk  / ˌskwiː.kiˈkliːn /","ukp":"/ˌskwiː.kiˈkliːn/","us":"us  / ˌskwiː.kiˈkliːn /","usp":"/ˌskwiː.kiˈkliːn/"}
+{"title":"squeal","uk":"uk  / skwiːl /","ukp":"/skwiːl/","us":"us  / skwiːl /","usp":"/skwiːl/"}
+{"title":"squealing","uk":"uk  / skwiːl /","ukp":"/skwiːl/","us":"us  / skwiːl /","usp":"/skwiːl/"}
+{"title":"squeamishly","uk":"uk  / ˈskwiː.mɪʃ.li /","ukp":"/ˈskwiː.mɪʃ.li/","us":"us  / ˈskwiː.mɪʃ.li /","usp":"/ˈskwiː.mɪʃ.li/"}
+{"title":"squeamishness","uk":"uk  / ˈskwiː.mɪʃ.nəs /","ukp":"/ˈskwiː.mɪʃ.nəs/","us":"us  / ˈskwiː.mɪʃ.nəs /","usp":"/ˈskwiː.mɪʃ.nəs/"}
+{"title":"squeamish","uk":"uk  / ˈskwiː.mɪʃ /","ukp":"/ˈskwiː.mɪʃ/","us":"us  / ˈskwiː.mɪʃ /","usp":"/ˈskwiː.mɪʃ/"}
+{"title":"squee","uk":"uk  / skwiː /","ukp":"/skwiː/","us":"us  / skwiː /","usp":"/skwiː/"}
+{"title":"squeegee man","uk":"uk  / ˈskwiː.dʒiː ˌmæn /","ukp":"/ˈskwiː.dʒiː ˌmæn/","us":"us  / ˈskwiː.dʒiː ˌmæn /","usp":"/ˈskwiː.dʒiː ˌmæn/"}
+{"title":"squeegee","uk":"uk  / ˈskwiː.dʒiː /","ukp":"/ˈskwiː.dʒiː/","us":"us  / ˈskwiː.dʒiː /","usp":"/ˈskwiː.dʒiː/"}
+{"title":"squeegee mop","uk":"uk  / ˈskwiː.dʒiː ˌmɒp /","ukp":"/ˈskwiː.dʒiː ˌmɒp/","us":"us  / ˈskwiː.dʒiː ˌmɑːp /","usp":"/ˈskwiː.dʒiː ˌmɑːp/"}
+{"title":"Sr.","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"SRDS","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"SRE","uk":"uk  / ˌes.ɑːrˈiː /","ukp":"/ˌes.ɑːrˈiː/","us":"us  / ˌes.ɑːrˈiː /","usp":"/ˌes.ɑːrˈiː/"}
+{"title":"Sri Lanka","uk":"uk  / ˌsriː ˈlæŋ.kə /","ukp":"/ˌsriː ˈlæŋ.kə/","us":"us  / ˌsriː ˈlæŋ.kə /","usp":"/ˌsriː ˈlæŋ.kə/"}
+{"title":"Sri Lankan","uk":"uk  / ˌsriː ˈlæŋ.kən /","ukp":"/ˌsriː ˈlæŋ.kən/","us":"us  / ˌsriː ˈlæŋ.kən /","usp":"/ˌsriː ˈlæŋ.kən/"}
+{"title":"SRN","uk":"uk  / ˌes.ɑːrˈen /","ukp":"/ˌes.ɑːrˈen/","us":"us  / ˌes.ɑːrˈen /","usp":"/ˌes.ɑːrˈen/"}
+{"title":"sriracha","uk":"uk  / sɪˈrɑː.tʃə /","ukp":"/sɪˈrɑː.tʃə/","us":"us  / sɪˈrɑː.tʃə /","usp":"/sɪˈrɑː.tʃə/"}
+{"title":"SRO","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"SRP","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"SSA","uk":"","us":""}
+{"title":"SRS","uk":"uk  / ˌes.ɑːrˈes /","ukp":"/ˌes.ɑːrˈes/","us":"us  / ˌes.ɑːrˈes /","usp":"/ˌes.ɑːrˈes/"}
+{"title":"SS","uk":"uk  / ˌesˈes /","ukp":"/ˌesˈes/","us":"us  / ˌesˈes /","usp":"/ˌesˈes/"}
+{"title":"SSAS","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"SSD","uk":"uk  / ˌes.esˈdiː /","ukp":"/ˌes.esˈdiː/","us":"us  / ˌes.esˈdiː /","usp":"/ˌes.esˈdiː/"}
+{"title":"SSL","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"ssh","uk":"uk  / ʃː /","ukp":"/ʃː/","us":"us  / ʃː /","usp":"/ʃː/"}
+{"title":"SSP","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"SSRI","uk":"uk  / ˌes.es.ɑːr.ˈaɪ /","ukp":"/ˌes.es.ɑːr.ˈaɪ/","us":"us  / ˌes.es.ɑːr.ˈaɪ /","usp":"/ˌes.es.ɑːr.ˈaɪ/"}
+{"title":"SSSI","uk":"uk  / ˌes.es.esˈaɪ /","ukp":"/ˌes.es.esˈaɪ/","us":"us  / ˌes.es.esˈaɪ /","usp":"/ˌes.es.esˈaɪ/"}
+{"title":"st","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"St Bernard","uk":"uk  / ˌseɪnt ˈbɜː.nəd /","ukp":"/ˌseɪnt ˈbɜː.nəd/","us":"us  / ˌseɪnt bɚˈnɑːrd /","usp":"/ˌseɪnt bɚˈnɑːrd/"}
+{"title":"St John's wort","uk":"uk  / sənt ˌdʒɒnz ˈwɜːt /","ukp":"/sənt ˌdʒɒnz ˈwɜːt/","us":"us  / seɪnt ˌdʒɑːnz ˈwɝːt /","usp":"/seɪnt ˌdʒɑːnz ˈwɝːt/"}
+{"title":"St Kitts and Nevis","uk":"uk  / s ə nt ˌkɪts ənd ˈniː.vɪs /","ukp":"/sənt ˌkɪts ənd ˈniː.vɪs/","us":"us  / seɪnt ˌkɪts ənd ˈniː.vɪs /","usp":"/seɪnt ˌkɪts ənd ˈniː.vɪs/"}
+{"title":"St Vincent and the Grenadines","uk":"uk  / s ə nt ˌvɪn.s ə nt ənd ðə ˌɡren.əˈdiːnz /","ukp":"/sənt ˌvɪn.sənt ənd ðə ˌɡren.əˈdiːnz/","us":"us  / s ə nt ˌvɪn.s ə nt ənd ðə ˌɡren.əˈdiːnz /","usp":"/sənt ˌvɪn.sənt ənd ðə ˌɡren.əˈdiːnz/"}
+{"title":"St Lucia","uk":"uk  / s ə nt ˈluː.ʃə /","ukp":"/sənt ˈluː.ʃə/","us":"us  / seɪnt ˈluː.ʃə /","usp":"/seɪnt ˈluː.ʃə/"}
+{"title":"St Lucian","uk":"uk  / s ə nt ˈluː.ʃ ə n /","ukp":"/sənt ˈluː.ʃən/","us":"us  / seɪnt /","usp":"/seɪnt/"}
+{"title":"stab someone in the back","uk":"","us":""}
+{"title":"stabbed","uk":"","us":""}
+{"title":"stab vest","uk":"uk  / ˈstæb ˌvest /","ukp":"/ˈstæb ˌvest/","us":"us  / ˈstæb ˌvest /","usp":"/ˈstæb ˌvest/"}
+{"title":"stab","uk":"uk  / stæb /","ukp":"/stæb/","us":"us  / stæb /","usp":"/stæb/"}
+{"title":"stabbing","uk":"uk  / ˈstæb.ɪŋ /","ukp":"/ˈstæb.ɪŋ/","us":"us  / ˈstæb.ɪŋ /","usp":"/ˈstæb.ɪŋ/"}
+{"title":"stability","uk":"uk  / stəˈbɪl.ə.ti /","ukp":"/stəˈbɪl.ə.ti/","us":"us  / stəˈbɪl.ə.t̬i /","usp":"/stəˈbɪl.ə.t̬i/"}
+{"title":"stability ball","uk":"uk  / stəˈbɪl.ə.ti ˌbɔːl /","ukp":"/stəˈbɪl.ə.ti ˌbɔːl/","us":"us  / stəˈbɪl.ə.t̬i ˌbɑːl /","usp":"/stəˈbɪl.ə.t̬i ˌbɑːl/"}
+{"title":"stabilization","uk":"uk  / ˌsteɪ.b ə l.aɪˈzeɪ.ʃ ə n /","ukp":"/ˌsteɪ.bəl.aɪˈzeɪ.ʃən/","us":"us  / ˌsteɪ.b ə l.əˈzeɪ.ʃ ə n /","usp":"/ˌsteɪ.bəl.əˈzeɪ.ʃən/"}
+{"title":"stabilize","uk":"uk  / ˈsteɪ.b ə l.aɪz /","ukp":"/ˈsteɪ.bəl.aɪz/","us":"us  / ˈsteɪ.bə.laɪz /","usp":"/ˈsteɪ.bə.laɪz/"}
+{"title":"stabilized","uk":"uk  / ˈsteɪ.b ə l.aɪz /","ukp":"/ˈsteɪ.bəl.aɪz/","us":"us  / ˈsteɪ.bə.laɪz /","usp":"/ˈsteɪ.bə.laɪz/"}
+{"title":"stabilizing","uk":"uk  / ˈsteɪ.b ə l.aɪz /","ukp":"/ˈsteɪ.bəl.aɪz/","us":"us  / ˈsteɪ.bə.laɪz /","usp":"/ˈsteɪ.bə.laɪz/"}
+{"title":"stabilizer","uk":"uk  / ˈsteɪ.b ə l.aɪ.zə r /","ukp":"/ˈsteɪ.bəl.aɪ.zər/","us":"us  / ˈsteɪ.bə.laɪ.zɚ /","usp":"/ˈsteɪ.bə.laɪ.zɚ/"}
+{"title":"stable","uk":"uk  / ˈsteɪ.b ə l /","ukp":"/ˈsteɪ.bəl/","us":"us  / ˈsteɪ.b ə l /","usp":"/ˈsteɪ.bəl/"}
+{"title":"stable boy","uk":"uk  / ˈsteɪ.b ə l ˌbɔɪ /","ukp":"/ˈsteɪ.bəl ˌbɔɪ/","us":"us  / ˈsteɪ.b ə l ˌbɔɪ /","usp":"/ˈsteɪ.bəl ˌbɔɪ/"}
+{"title":"stablemate","uk":"uk  / ˈsteɪ.b ə l.meɪt /","ukp":"/ˈsteɪ.bəl.meɪt/","us":"us  / ˈsteɪ.b ə l.meɪt /","usp":"/ˈsteɪ.bəl.meɪt/"}
+{"title":"stabled","uk":"uk  / ˈsteɪ.b ə l /","ukp":"/ˈsteɪ.bəl/","us":"us  / ˈsteɪ.b ə l /","usp":"/ˈsteɪ.bəl/"}
+{"title":"stabling","uk":"uk  / ˈsteɪ.b ə l.ɪŋ /","ukp":"/ˈsteɪ.bəl.ɪŋ/","us":"us  / ˈsteɪ.b ə l.ɪŋ /","usp":"/ˈsteɪ.bəl.ɪŋ/"}
+{"title":"stably","uk":"uk  / ˈsteɪ.bli /","ukp":"/ˈsteɪ.bli/","us":"us  / ˈsteɪ.bli /","usp":"/ˈsteɪ.bli/"}
+{"title":"staccato","uk":"uk  / stəˈkɑː.təʊ /","ukp":"/stəˈkɑː.təʊ/","us":"us  / stəˈkɑː.t̬oʊ /","usp":"/stəˈkɑː.t̬oʊ/"}
+{"title":"stack system","uk":"uk  / ˈstæk ˌsɪs.təm /","ukp":"/ˈstæk ˌsɪs.təm/","us":"us  / ˈstæk ˌsɪs.təm /","usp":"/ˈstæk ˌsɪs.təm/"}
+{"title":"stack the deck (against someone/something )","uk":"","us":""}
+{"title":"stack","uk":"uk  / stæk /","ukp":"/stæk/","us":"us  / stæk /","usp":"/stæk/"}
+{"title":"stack the cards","uk":"","us":""}
+{"title":"stack the pads","uk":"","us":""}
+{"title":"stack the deck","uk":"","us":""}
+{"title":"stack up","uk":"uk  / stæk /","ukp":"/stæk/","us":"us  / stæk /","usp":"/stæk/"}
+{"title":"stacked","uk":"uk  / stækt /","ukp":"/stækt/","us":"us  / stækt /","usp":"/stækt/"}
+{"title":"stacker","uk":"uk / ˈstæk.ə r /","ukp":"/ˈstæk.ər/","us":"us / ˈstæk.ɚ /","usp":"/ˈstæk.ɚ/"}
+{"title":"stacking","uk":"uk  / stæk /","ukp":"/stæk/","us":"us  / stæk /","usp":"/stæk/"}
+{"title":"stadia","uk":"","us":""}
+{"title":"stadium","uk":"uk  / ˈsteɪ.di.əm /","ukp":"/ˈsteɪ.di.əm/","us":"us  / ˈsteɪ.di.əm /","usp":"/ˈsteɪ.di.əm/"}
+{"title":"staff agency","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"staff appraisal","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"staff","uk":"uk  / stɑːf /","ukp":"/stɑːf/","us":"us  / stæf /","usp":"/stæf/"}
+{"title":"staff association","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"staff development","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"staff headcount","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"staff nurse","uk":"uk  / ˈstɑːf ˌnɜːs /","ukp":"/ˈstɑːf ˌnɜːs/","us":"us  / ˈstæf ˌnɝːs /","usp":"/ˈstæf ˌnɝːs/"}
+{"title":"staff officer","uk":"uk  / ˈstɑːf ˌɒf.ɪ.sə r /","ukp":"/ˈstɑːf ˌɒf.ɪ.sər/","us":"us  / ˈstæf ˌɑː.fɪ.sɚ /","usp":"/ˈstæf ˌɑː.fɪ.sɚ/"}
+{"title":"staffed","uk":"uk  / stɑːf /","ukp":"/stɑːf/","us":"us  / stæf /","usp":"/stæf/"}
+{"title":"staffer","uk":"uk  / ˈstɑːf.ə r /","ukp":"/ˈstɑːf.ər/","us":"us  / ˈstæf.ɚ /","usp":"/ˈstæf.ɚ/"}
+{"title":"staffing","uk":"uk  / ˈstɑː.fɪŋ /","ukp":"/ˈstɑː.fɪŋ/","us":"us  / ˈstæf.ɪŋ /","usp":"/ˈstæf.ɪŋ/"}
+{"title":"Staffordshire","uk":"uk  / ˈstæf.əd.ʃə r /","ukp":"/ˈstæf.əd.ʃər/","us":"us  / ˈstæf.ɚd.ʃɚ /","usp":"/ˈstæf.ɚd.ʃɚ/"}
+{"title":"staffroom","uk":"uk  / ˈstɑːf.ruːm /","ukp":"/ˈstɑːf.ruːm/","us":"us  / ˈstæf.ruːm /","usp":"/ˈstæf.ruːm/"}
+{"title":"stag","uk":"uk  / stæɡ /","ukp":"/stæɡ/","us":"us  / stæɡ /","usp":"/stæɡ/"}
+{"title":"stag night/party","uk":"uk  / ˈstæɡ ˌnaɪt /","ukp":"/ˈstæɡ ˌnaɪt/","us":"us  / ˈstæɡ ˌnaɪt /","usp":"/ˈstæɡ ˌnaɪt/"}
+{"title":"stag party","uk":"uk  / ˈstæɡ ˌpɑː.ti /","ukp":"/ˈstæɡ ˌpɑː.ti/","us":"us  / ˈstæɡ ˌpɑːr.t̬i /","usp":"/ˈstæɡ ˌpɑːr.t̬i/"}
+{"title":"stage door","uk":"uk  / ˌsteɪdʒ ˈdɔː r /","ukp":"/ˌsteɪdʒ ˈdɔːr/","us":"us  / ˌsteɪdʒ ˈdɔːr /","usp":"/ˌsteɪdʒ ˈdɔːr/"}
+{"title":"stage direction","uk":"uk  / ˈsteɪdʒ daɪˌrek.ʃ ə n /","ukp":"/ˈsteɪdʒ daɪˌrek.ʃən/","us":"us  / ˈsteɪdʒ daɪˌrek.ʃ ə n /","usp":"/ˈsteɪdʒ daɪˌrek.ʃən/"}
+{"title":"stage","uk":"uk  / steɪdʒ /","ukp":"/steɪdʒ/","us":"us  / steɪdʒ /","usp":"/steɪdʒ/"}
+{"title":"stage fright","uk":"uk  / ˈsteɪdʒ ˌfraɪt /","ukp":"/ˈsteɪdʒ ˌfraɪt/","us":"us  / ˈsteɪdʒ ˌfraɪt /","usp":"/ˈsteɪdʒ ˌfraɪt/"}
+{"title":"stage invasion","uk":"uk  / ˈsteɪdʒ ɪnˌveɪ.ʒ ə n /","ukp":"/ˈsteɪdʒ ɪnˌveɪ.ʒən/","us":"us  / ˈsteɪdʒ ɪnˌveɪ.ʒ ə n /","usp":"/ˈsteɪdʒ ɪnˌveɪ.ʒən/"}
+{"title":"stage left","uk":"uk  / ˌsteɪdʒ ˈleft /","ukp":"/ˌsteɪdʒ ˈleft/","us":"us  / ˌsteɪdʒ ˈleft /","usp":"/ˌsteɪdʒ ˈleft/"}
+{"title":"stage manager","uk":"uk  / ˈsteɪdʒ ˌmæn.ɪ.dʒə r /","ukp":"/ˈsteɪdʒ ˌmæn.ɪ.dʒər/","us":"us  / ˈsteɪdʒ ˌmæn.ə.dʒɚ /","usp":"/ˈsteɪdʒ ˌmæn.ə.dʒɚ/"}
+{"title":"stage name","uk":"uk  / ˈsteɪdʒ ˌneɪm /","ukp":"/ˈsteɪdʒ ˌneɪm/","us":"us  / ˈsteɪdʒ ˌneɪm /","usp":"/ˈsteɪdʒ ˌneɪm/"}
+{"title":"stage right","uk":"uk  / ˌsteɪdʒ ˈraɪt /","ukp":"/ˌsteɪdʒ ˈraɪt/","us":"us  / ˌsteɪdʒ ˈraɪt /","usp":"/ˌsteɪdʒ ˈraɪt/"}
+{"title":"stage-gate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stage-manage","uk":"uk  / ˈsteɪdʒˌmæn.ɪdʒ /","ukp":"/ˈsteɪdʒˌmæn.ɪdʒ/","us":"us  / ˈsteɪdʒˌmæn.ɪdʒ /","usp":"/ˈsteɪdʒˌmæn.ɪdʒ/"}
+{"title":"stage-managing","uk":"uk  / ˈsteɪdʒˌmæn.ɪdʒ /","ukp":"/ˈsteɪdʒˌmæn.ɪdʒ/","us":"us  / ˈsteɪdʒˌmæn.ɪdʒ /","usp":"/ˈsteɪdʒˌmæn.ɪdʒ/"}
+{"title":"stage-managed","uk":"uk  / ˈsteɪdʒˌmæn.ɪdʒ /","ukp":"/ˈsteɪdʒˌmæn.ɪdʒ/","us":"us  / ˈsteɪdʒˌmæn.ɪdʒ /","usp":"/ˈsteɪdʒˌmæn.ɪdʒ/"}
+{"title":"stage whisper","uk":"uk  / ˈsteɪdʒ ˌwɪs.pə r /","ukp":"/ˈsteɪdʒ ˌwɪs.pər/","us":"us  / ˈsteɪdʒ ˌwɪs.pɚ /","usp":"/ˈsteɪdʒ ˌwɪs.pɚ/"}
+{"title":"stage-struck","uk":"uk  / ˈsteɪdʒ.strʌk /","ukp":"/ˈsteɪdʒ.strʌk/","us":"us  / ˈsteɪdʒ.strʌk /","usp":"/ˈsteɪdʒ.strʌk/"}
+{"title":"staged","uk":"uk  / steɪdʒ /","ukp":"/steɪdʒ/","us":"us  / steɪdʒ /","usp":"/steɪdʒ/"}
+{"title":"stagecoach","uk":"uk  / ˈsteɪdʒ.kəʊtʃ /","ukp":"/ˈsteɪdʒ.kəʊtʃ/","us":"us  / ˈsteɪdʒ.koʊtʃ /","usp":"/ˈsteɪdʒ.koʊtʃ/"}
+{"title":"stagehand","uk":"uk  / ˈsteɪdʒ.hænd /","ukp":"/ˈsteɪdʒ.hænd/","us":"us  / ˈsteɪdʒ.hænd /","usp":"/ˈsteɪdʒ.hænd/"}
+{"title":"stagflation","uk":"uk  / stæɡˈfleɪ.ʃ ə n /","ukp":"/stæɡˈfleɪ.ʃən/","us":"us  / stæɡˈfleɪ.ʃ ə n /","usp":"/stæɡˈfleɪ.ʃən/"}
+{"title":"stagged","uk":"","us":""}
+{"title":"squeegeed","uk":"uk  / ˈskwiː.dʒiː /","ukp":"/ˈskwiː.dʒiː/","us":"us  / ˈskwiː.dʒiː /","usp":"/ˈskwiː.dʒiː/"}
+{"title":"squeegeeing","uk":"uk  / ˈskwiː.dʒiː /","ukp":"/ˈskwiː.dʒiː/","us":"us  / ˈskwiː.dʒiː /","usp":"/ˈskwiː.dʒiː/"}
+{"title":"stagger","uk":"uk  / ˈstæɡ.ə r /","ukp":"/ˈstæɡ.ər/","us":"us  / ˈstæɡ.ɚ /","usp":"/ˈstæɡ.ɚ/"}
+{"title":"squeeze (someone/something) in/squeeze (someone/something) into something","uk":"uk  / skwiːz /","ukp":"/skwiːz/","us":"us  / skwiːz /","usp":"/skwiːz/"}
+{"title":"squeeze sb/sth out","uk":"uk  / skwiːz /","ukp":"/skwiːz/","us":"us ","usp":""}
+{"title":"squeeze bottle","uk":"uk  / ˈskwiːz ˌbɒt. ə l /","ukp":"/ˈskwiːz ˌbɒt.əl/","us":"us  / ˈskwiːz ˌbɑː.t̬ ə l /","usp":"/ˈskwiːz ˌbɑː.t̬əl/"}
+{"title":"squeeze","uk":"uk  / skwiːz /","ukp":"/skwiːz/","us":"us  / skwiːz /","usp":"/skwiːz/"}
+{"title":"squeeze someone dry","uk":"","us":""}
+{"title":"squeeze something out of someone","uk":"uk  / skwiːz /","ukp":"/skwiːz/","us":"us  / skwiːz /","usp":"/skwiːz/"}
+{"title":"squeeze someone/something in","uk":"uk  / skwiːz /","ukp":"/skwiːz/","us":"us  / skwiːz /","usp":"/skwiːz/"}
+{"title":"squeeze sth out of/from sth/sb","uk":"uk  / skwiːz /","ukp":"/skwiːz/","us":"us ","usp":""}
+{"title":"squeezebox","uk":"uk  / ˈskwiːz.bɒks /","ukp":"/ˈskwiːz.bɒks/","us":"us  / ˈskwiːz.bɑːks /","usp":"/ˈskwiːz.bɑːks/"}
+{"title":"squeezed middle","uk":"uk / ˌskwiːzd ˈmɪd. ə l /","ukp":"/ˌskwiːzd ˈmɪd.əl/","us":"us / ˌskwiːzd ˈmɪd. ə l /","usp":"/ˌskwiːzd ˈmɪd.əl/"}
+{"title":"squeezed","uk":"uk  / skwiːz /","ukp":"/skwiːz/","us":"us  / skwiːz /","usp":"/skwiːz/"}
+{"title":"squeezer","uk":"uk  / ˈskwiː.zə r /","ukp":"/ˈskwiː.zər/","us":"us  / ˈskwiː.zɚ /","usp":"/ˈskwiː.zɚ/"}
+{"title":"squeezing","uk":"uk  / skwiːz /","ukp":"/skwiːz/","us":"us  / skwiːz /","usp":"/skwiːz/"}
+{"title":"squeezy","uk":"uk  / ˈskwiː.zi /","ukp":"/ˈskwiː.zi/","us":"us  / ˈskwiː.zi /","usp":"/ˈskwiː.zi/"}
+{"title":"squelched","uk":"uk  / skweltʃ /","ukp":"/skweltʃ/","us":"us  / skweltʃ /","usp":"/skweltʃ/"}
+{"title":"squelch","uk":"uk  / skweltʃ /","ukp":"/skweltʃ/","us":"us  / skweltʃ /","usp":"/skweltʃ/"}
+{"title":"squelchy","uk":"uk  / ˈskwel.tʃi /","ukp":"/ˈskwel.tʃi/","us":"us  / ˈskwel.tʃi /","usp":"/ˈskwel.tʃi/"}
+{"title":"squelching","uk":"uk  / skweltʃ /","ukp":"/skweltʃ/","us":"us  / skweltʃ /","usp":"/skweltʃ/"}
+{"title":"squib","uk":"uk  / skwɪb /","ukp":"/skwɪb/","us":"us  / skwɪb /","usp":"/skwɪb/"}
+{"title":"squid","uk":"uk  / skwɪd /","ukp":"/skwɪd/","us":"us  / skwɪd /","usp":"/skwɪd/"}
+{"title":"squidgy","uk":"uk  / ˈskwɪdʒ.i /","ukp":"/ˈskwɪdʒ.i/","us":"us  / ˈskwɪdʒ.i /","usp":"/ˈskwɪdʒ.i/"}
+{"title":"squiggly","uk":"uk  / ˈskwɪɡ. ə l.i /","ukp":"/ˈskwɪɡ.əl.i/","us":"us  / ˈskwɪɡ. ə l.i /","usp":"/ˈskwɪɡ.əl.i/"}
+{"title":"squiffy","uk":"uk  / ˈskwɪf.i /","ukp":"/ˈskwɪf.i/","us":"us  / ˈskwɪf.i /","usp":"/ˈskwɪf.i/"}
+{"title":"squiggle","uk":"uk  / ˈskwɪɡ. ə l /","ukp":"/ˈskwɪɡ.əl/","us":"us  / ˈskwɪɡ. ə l /","usp":"/ˈskwɪɡ.əl/"}
+{"title":"squillionaire","uk":"uk  / ˌskwɪl.i.əˈneə r /","ukp":"/ˌskwɪl.i.əˈneər/","us":"us  / ˌskwɪl.jəˈner /","usp":"/ˌskwɪl.jəˈner/"}
+{"title":"squillion","uk":"uk  / ˈskwɪl.jən /","ukp":"/ˈskwɪl.jən/","us":"us  / ˈskwɪl.jən /","usp":"/ˈskwɪl.jən/"}
+{"title":"squinched","uk":"uk  / skwɪntʃ /","ukp":"/skwɪntʃ/","us":"us  / skwɪntʃ /","usp":"/skwɪntʃ/"}
+{"title":"squinch","uk":"uk  / skwɪntʃ /","ukp":"/skwɪntʃ/","us":"us  / skwɪntʃ /","usp":"/skwɪntʃ/"}
+{"title":"squinching","uk":"uk  / skwɪntʃ /","ukp":"/skwɪntʃ/","us":"us  / skwɪntʃ /","usp":"/skwɪntʃ/"}
+{"title":"squinted","uk":"uk  / skwɪnt /","ukp":"/skwɪnt/","us":"us  / skwɪnt /","usp":"/skwɪnt/"}
+{"title":"squint","uk":"uk  / skwɪnt /","ukp":"/skwɪnt/","us":"us  / skwɪnt /","usp":"/skwɪnt/"}
+{"title":"squinting","uk":"uk  / skwɪnt /","ukp":"/skwɪnt/","us":"us  / skwɪnt /","usp":"/skwɪnt/"}
+{"title":"squire","uk":"uk  / skwaɪə r /","ukp":"/skwaɪər/","us":"us  / skwaɪr /","usp":"/skwaɪr/"}
+{"title":"squirm","uk":"uk  / skwɜːm /","ukp":"/skwɜːm/","us":"us  / skwɝːm /","usp":"/skwɝːm/"}
+{"title":"squirmed","uk":"uk  / skwɜːm /","ukp":"/skwɜːm/","us":"us  / skwɝːm /","usp":"/skwɝːm/"}
+{"title":"squirming","uk":"uk  / skwɜːm /","ukp":"/skwɜːm/","us":"us  / skwɝːm /","usp":"/skwɝːm/"}
+{"title":"squirrel monkey","uk":"uk  / ˈskwɪr. ə l ˌmʌŋ.ki /","ukp":"/ˈskwɪr.əl ˌmʌŋ.ki/","us":"us  / ˈskwɝː. ə l ˌmʌŋ.ki /","usp":"/ˈskwɝː.əl ˌmʌŋ.ki/"}
+{"title":"squirrel","uk":"uk  / ˈskwɪr. ə l /","ukp":"/ˈskwɪr.əl/","us":"us  / ˈskwɝː. ə l /","usp":"/ˈskwɝː.əl/"}
+{"title":"squirrelly","uk":"uk  / ˈskwɪr. ə l.i /","ukp":"/ˈskwɪr.əl.i/","us":"us  / ˈskwɝː.li /","usp":"/ˈskwɝː.li/"}
+{"title":"squirrel something away","uk":"uk  / ˈskwɪr. ə l /","ukp":"/ˈskwɪr.əl/","us":"us  / ˈskwɝː. ə l /","usp":"/ˈskwɝː.əl/"}
+{"title":"squirted","uk":"uk  / skwɜːt /","ukp":"/skwɜːt/","us":"us  / skwɝːt /","usp":"/skwɝːt/"}
+{"title":"squirt","uk":"uk  / skwɜːt /","ukp":"/skwɜːt/","us":"us  / skwɝːt /","usp":"/skwɝːt/"}
+{"title":"squirt gun","uk":"uk  / ˈskwɜːt ˌɡʌn /","ukp":"/ˈskwɜːt ˌɡʌn/","us":"us  / ˈskwɝːt ˌɡʌn /","usp":"/ˈskwɝːt ˌɡʌn/"}
+{"title":"squirting","uk":"uk  / skwɜːt /","ukp":"/skwɜːt/","us":"us  / skwɝːt /","usp":"/skwɝːt/"}
+{"title":"squished","uk":"uk  / skwɪʃ /","ukp":"/skwɪʃ/","us":"us  / skwɪʃ /","usp":"/skwɪʃ/"}
+{"title":"squishing","uk":"uk  / skwɪʃ /","ukp":"/skwɪʃ/","us":"us  / skwɪʃ /","usp":"/skwɪʃ/"}
+{"title":"squish","uk":"uk  / skwɪʃ /","ukp":"/skwɪʃ/","us":"us  / skwɪʃ /","usp":"/skwɪʃ/"}
+{"title":"squishy","uk":"uk  / ˈskwɪʃ.i /","ukp":"/ˈskwɪʃ.i/","us":"us  / ˈskwɪʃ.i /","usp":"/ˈskwɪʃ.i/"}
+{"title":"springform tin","uk":"uk  / ˌsprɪŋ.fɔːm ˈtɪn /","ukp":"/ˌsprɪŋ.fɔːm ˈtɪn/","us":"us  / ˌsprɪŋ.fɔːrm ˈtɪn /","usp":"/ˌsprɪŋ.fɔːrm ˈtɪn/"}
+{"title":"springbok","uk":"uk  / ˈsprɪŋ.bɒk /","ukp":"/ˈsprɪŋ.bɒk/","us":"us  / ˈsprɪŋ.bɑːk /","usp":"/ˈsprɪŋ.bɑːk/"}
+{"title":"springform pan","uk":"uk  / ˌsprɪŋ.fɔːm ˈpæn /","ukp":"/ˌsprɪŋ.fɔːm ˈpæn/","us":"us  / ˌsprɪŋ.fɔːrm ˈpæn /","usp":"/ˌsprɪŋ.fɔːrm ˈpæn/"}
+{"title":"springtime","uk":"uk  / ˈsprɪŋ.taɪm /","ukp":"/ˈsprɪŋ.taɪm/","us":"us  / ˈsprɪŋ.taɪm /","usp":"/ˈsprɪŋ.taɪm/"}
+{"title":"springy","uk":"uk  / ˈsprɪŋ.i /","ukp":"/ˈsprɪŋ.i/","us":"us  / ˈsprɪŋ.i /","usp":"/ˈsprɪŋ.i/"}
+{"title":"sprinkle","uk":"uk  / ˈsprɪŋ.k ə l /","ukp":"/ˈsprɪŋ.kəl/","us":"us  / ˈsprɪŋ.k ə l /","usp":"/ˈsprɪŋ.kəl/"}
+{"title":"sprinkled","uk":"uk  / ˈsprɪŋ.k ə l /","ukp":"/ˈsprɪŋ.kəl/","us":"us  / ˈsprɪŋ.k ə l /","usp":"/ˈsprɪŋ.kəl/"}
+{"title":"sprinkler system","uk":"uk  / ˈsprɪŋ.k ə l.ə ˌsɪs.təm /","ukp":"/ˈsprɪŋ.kəl.ə ˌsɪs.təm/","us":"us  / ˈsprɪŋ.k ə l.ɚ ˌsɪs.təm /","usp":"/ˈsprɪŋ.kəl.ɚ ˌsɪs.təm/"}
+{"title":"sprinkler","uk":"uk  / ˈsprɪŋ.k ə l.ə r /","ukp":"/ˈsprɪŋ.kəl.ər/","us":"us  / ˈsprɪŋ.k ə l.ɚ /","usp":"/ˈsprɪŋ.kəl.ɚ/"}
+{"title":"sprinkling","uk":"uk  / ˈsprɪŋ.k ə l.ɪŋ /","ukp":"/ˈsprɪŋ.kəl.ɪŋ/","us":"us  / ˈsprɪŋ.k ə l.ɪŋ /","usp":"/ˈsprɪŋ.kəl.ɪŋ/"}
+{"title":"sprinted","uk":"uk  / sprɪnt /","ukp":"/sprɪnt/","us":"us  / sprɪnt /","usp":"/sprɪnt/"}
+{"title":"sprint","uk":"uk  / sprɪnt /","ukp":"/sprɪnt/","us":"us  / sprɪnt /","usp":"/sprɪnt/"}
+{"title":"sprinting","uk":"uk  / sprɪnt /","ukp":"/sprɪnt/","us":"us  / sprɪnt /","usp":"/sprɪnt/"}
+{"title":"sprit","uk":"uk  / sprɪt /","ukp":"/sprɪt/","us":"us  / sprɪt /","usp":"/sprɪt/"}
+{"title":"sprite","uk":"uk  / spraɪt /","ukp":"/spraɪt/","us":"us  / spraɪt /","usp":"/spraɪt/"}
+{"title":"sprinter","uk":"uk  / ˈsprɪn.tə r /","ukp":"/ˈsprɪn.tər/","us":"us  / ˈsprɪn.t̬ɚ /","usp":"/ˈsprɪn.t̬ɚ/"}
+{"title":"spritzed","uk":"uk  / sprɪts /","ukp":"/sprɪts/","us":"us  / sprɪts /","usp":"/sprɪts/"}
+{"title":"spritzer","uk":"uk  / ˈsprɪt.sə r /","ukp":"/ˈsprɪt.sər/","us":"us  / ˈsprɪt.sɚ /","usp":"/ˈsprɪt.sɚ/"}
+{"title":"spritz","uk":"uk  / sprɪts /","ukp":"/sprɪts/","us":"us  / sprɪts /","usp":"/sprɪts/"}
+{"title":"spritzing","uk":"uk  / sprɪts /","ukp":"/sprɪts/","us":"us  / sprɪts /","usp":"/sprɪts/"}
+{"title":"sprocket","uk":"uk  / ˈsprɒk.ɪt ˌwiːl /","ukp":"/ˈsprɒk.ɪt ˌwiːl/","us":"us  / ˈsprɑː.kɪt ˌwiːl /","usp":"/ˈsprɑː.kɪt ˌwiːl/"}
+{"title":"sprog","uk":"uk  / sprɒɡ /","ukp":"/sprɒɡ/","us":"us  / sprɑːɡ /","usp":"/sprɑːɡ/"}
+{"title":"spritzig","uk":"uk  / ˈsprɪt.sɪɡ /","ukp":"/ˈsprɪt.sɪɡ/","us":"us  / ˈsprɪt.sɪɡ /","usp":"/ˈsprɪt.sɪɡ/"}
+{"title":"sprout","uk":"uk  / spraʊt /","ukp":"/spraʊt/","us":"us  / spraʊt /","usp":"/spraʊt/"}
+{"title":"sprouted","uk":"uk  / spraʊt /","ukp":"/spraʊt/","us":"us  / spraʊt /","usp":"/spraʊt/"}
+{"title":"sprouting broccoli","uk":"uk  / ˌspraʊ.tɪŋ ˈbrɒk. ə l.i /","ukp":"/ˌspraʊ.tɪŋ ˈbrɒk.əl.i/","us":"us  / ˌspraʊ.t̬ɪŋ ˈbrɑː.k ə l.i /","usp":"/ˌspraʊ.t̬ɪŋ ˈbrɑː.kəl.i/"}
+{"title":"sprouting","uk":"uk  / spraʊt /","ukp":"/spraʊt/","us":"us  / spraʊt /","usp":"/spraʊt/"}
+{"title":"spruce","uk":"uk  / spruːs /","ukp":"/spruːs/","us":"us  / spruːs /","usp":"/spruːs/"}
+{"title":"spruce someone/something up","uk":"uk  / spruːs /","ukp":"/spruːs/","us":"us  / spruːs /","usp":"/spruːs/"}
+{"title":"sprue","uk":"uk  / spruː /","ukp":"/spruː/","us":"us  / spruː /","usp":"/spruː/"}
+{"title":"sprung","uk":"uk  / sprʌŋ /","ukp":"/sprʌŋ/","us":"us  / sprʌŋ /","usp":"/sprʌŋ/"}
+{"title":"spry","uk":"uk  / spraɪ /","ukp":"/spraɪ/","us":"us  / spraɪ /","usp":"/spraɪ/"}
+{"title":"spud","uk":"uk  / spʌd /","ukp":"/spʌd/","us":"us  / spʌd /","usp":"/spʌd/"}
+{"title":"spumante","uk":"uk  / spuːˈmæn.ti /","ukp":"/spuːˈmæn.ti/","us":"us  / spuːˈmɑːn.ti /","usp":"/spuːˈmɑːn.ti/"}
+{"title":"spud bashing","uk":"uk  / ˈspʌd ˌbæʃ.ɪŋ /","ukp":"/ˈspʌd ˌbæʃ.ɪŋ/","us":"us  / ˈspʌd ˌbæʃ.ɪŋ /","usp":"/ˈspʌd ˌbæʃ.ɪŋ/"}
+{"title":"spume","uk":"uk  / spjuːm /","ukp":"/spjuːm/","us":"us  / spjuːm /","usp":"/spjuːm/"}
+{"title":"spun","uk":"uk  / spʌn /","ukp":"/spʌn/","us":"us  / spʌn /","usp":"/spʌn/"}
+{"title":"spunk","uk":"uk  / spʌŋk /","ukp":"/spʌŋk/","us":"us  / spʌŋk /","usp":"/spʌŋk/"}
+{"title":"spun sugar","uk":"uk / ˌspʌn ˈʃʊɡ.ə r /","ukp":"/ˌspʌn ˈʃʊɡ.ər/","us":"us  / ˌspʌn ˈʃʊɡ.ɚ /","usp":"/ˌspʌn ˈʃʊɡ.ɚ/"}
+{"title":"spunky","uk":"uk  / ˈspʌŋ.ki /","ukp":"/ˈspʌŋ.ki/","us":"us  / ˈspʌŋ.ki /","usp":"/ˈspʌŋ.ki/"}
+{"title":"spur someone on","uk":"","us":"us  / spɜr /","usp":"/spɜr/"}
+{"title":"spur","uk":"uk  / spɜː r /","ukp":"/spɜːr/","us":"us  / spɝː /","usp":"/spɝː/"}
+{"title":"spurious","uk":"uk  / ˈspjʊə.ri.əs /","ukp":"/ˈspjʊə.ri.əs/","us":"us  / ˈspjʊr.i.əs /","usp":"/ˈspjʊr.i.əs/"}
+{"title":"spurned","uk":"uk  / spɜːn /","ukp":"/spɜːn/","us":"us  / spɝːn /","usp":"/spɝːn/"}
+{"title":"spurn","uk":"uk  / spɜːn /","ukp":"/spɜːn/","us":"us  / spɝːn /","usp":"/spɝːn/"}
+{"title":"spurning","uk":"uk  / spɜːn /","ukp":"/spɜːn/","us":"us  / spɝːn /","usp":"/spɝːn/"}
+{"title":"spurred","uk":"","us":""}
+{"title":"spurring","uk":"","us":""}
+{"title":"staggered","uk":"uk  / ˈstæɡ.əd /","ukp":"/ˈstæɡ.əd/","us":"us  / ˈstæɡ.ɚd /","usp":"/ˈstæɡ.ɚd/"}
+{"title":"spurt","uk":"uk  / spɜːt /","ukp":"/spɜːt/","us":"us  / spɝːt /","usp":"/spɝːt/"}
+{"title":"staggered junction","uk":"uk  / ˌstæɡ.əd ˈdʒʌŋk.ʃ ə n /","ukp":"/ˌstæɡ.əd ˈdʒʌŋk.ʃən/","us":"us  / ˌstæɡ.ɚd ˈdʒʌŋk.ʃ ə n /","usp":"/ˌstæɡ.ɚd ˈdʒʌŋk.ʃən/"}
+{"title":"staggering","uk":"uk  / ˈstæɡ. ə r.ɪŋ /","ukp":"/ˈstæɡ.ər.ɪŋ/","us":"us  / ˈstæɡ.ɚ.ɪŋ /","usp":"/ˈstæɡ.ɚ.ɪŋ/"}
+{"title":"staggeringly","uk":"uk  / ˈstæɡ. ə r.ɪŋ.li /","ukp":"/ˈstæɡ.ər.ɪŋ.li/","us":"us  / ˈstæɡ.ɚ.ɪŋ.li /","usp":"/ˈstæɡ.ɚ.ɪŋ.li/"}
+{"title":"stagging","uk":"","us":""}
+{"title":"staging area","uk":"uk  / ˈsteɪ.dʒɪŋ ˌeə.ri.ə /","ukp":"/ˈsteɪ.dʒɪŋ ˌeə.ri.ə/","us":"us  / ˈsteɪ.dʒɪŋ ˌer.i.ə /","usp":"/ˈsteɪ.dʒɪŋ ˌer.i.ə/"}
+{"title":"staging","uk":"uk  / ˈsteɪ.dʒɪŋ /","ukp":"/ˈsteɪ.dʒɪŋ/","us":"us  / ˈsteɪ.dʒɪŋ /","usp":"/ˈsteɪ.dʒɪŋ/"}
+{"title":"staging post","uk":"uk  / ˈsteɪ.dʒɪŋ ˌpəʊst /","ukp":"/ˈsteɪ.dʒɪŋ ˌpəʊst/","us":"us  / ˈsteɪ.dʒɪŋ ˌpoʊst /","usp":"/ˈsteɪ.dʒɪŋ ˌpoʊst/"}
+{"title":"stagnant","uk":"uk  / ˈstæɡ.nənt /","ukp":"/ˈstæɡ.nənt/","us":"us  / ˈstæɡ.nənt /","usp":"/ˈstæɡ.nənt/"}
+{"title":"stagnated","uk":"uk  / stæɡˈneɪt /","ukp":"/stæɡˈneɪt/","us":"us  / ˈstæɡ.neɪt /","usp":"/ˈstæɡ.neɪt/"}
+{"title":"stagnate","uk":"uk  / stæɡˈneɪt /","ukp":"/stæɡˈneɪt/","us":"us  / ˈstæɡ.neɪt /","usp":"/ˈstæɡ.neɪt/"}
+{"title":"stagnating","uk":"uk  / stæɡˈneɪt /","ukp":"/stæɡˈneɪt/","us":"us  / ˈstæɡ.neɪt /","usp":"/ˈstæɡ.neɪt/"}
+{"title":"stagnation","uk":"uk  / stæɡˈneɪ.ʃ ə n /","ukp":"/stæɡˈneɪ.ʃən/","us":"us  / stæɡˈneɪ.ʃ ə n /","usp":"/stæɡˈneɪ.ʃən/"}
+{"title":"stagy","uk":"uk  / ˈsteɪ.dʒi /","ukp":"/ˈsteɪ.dʒi/","us":"us  / ˈsteɪ.dʒi /","usp":"/ˈsteɪ.dʒi/"}
+{"title":"staid","uk":"uk  / steɪd /","ukp":"/steɪd/","us":"us  / steɪd /","usp":"/steɪd/"}
+{"title":"-stained","uk":"uk  / -steɪnd /","ukp":"/ -steɪnd/","us":"us  / -steɪnd /","usp":"/ -steɪnd/"}
+{"title":"stain","uk":"uk  / steɪn /","ukp":"/steɪn/","us":"us  / steɪn /","usp":"/steɪn/"}
+{"title":"staining","uk":"uk  / steɪn /","ukp":"/steɪn/","us":"us  / steɪn /","usp":"/steɪn/"}
+{"title":"stained glass","uk":"uk  / ˌsteɪnd ˈɡlɑːs /","ukp":"/ˌsteɪnd ˈɡlɑːs/","us":"us  / ˌsteɪnd ˈɡlæs /","usp":"/ˌsteɪnd ˈɡlæs/"}
+{"title":"stainless steel","uk":"uk  / ˌsteɪn.ləs ˈstiːl /","ukp":"/ˌsteɪn.ləs ˈstiːl/","us":"us  / ˌsteɪn.ləs ˈstiːl /","usp":"/ˌsteɪn.ləs ˈstiːl/"}
+{"title":"stair","uk":"uk  / steə r /","ukp":"/steər/","us":"us  / ster /","usp":"/ster/"}
+{"title":"staircasing","uk":"uk  / ˈsteə.keɪ.sɪŋ /","ukp":"/ˈsteə.keɪ.sɪŋ/","us":"us  / ˈster.keɪ.sɪŋ /","usp":"/ˈster.keɪ.sɪŋ/"}
+{"title":"stainless","uk":"uk  / ˈsteɪn.ləs /","ukp":"/ˈsteɪn.ləs/","us":"us  / ˈsteɪn.ləs /","usp":"/ˈsteɪn.ləs/"}
+{"title":"stairlift","uk":"uk  / ˈsteə.lɪft /","ukp":"/ˈsteə.lɪft/","us":"us  / ˈster.lɪft /","usp":"/ˈster.lɪft/"}
+{"title":"staircase","uk":"uk  / ˈsteə.keɪs /","ukp":"/ˈsteə.keɪs/","us":"us  / ˈster.keɪs /","usp":"/ˈster.keɪs/"}
+{"title":"stairs","uk":"","us":"us  / steərz /","usp":"/steərz/"}
+{"title":"stairwell","uk":"uk  / ˈsteə.wel /","ukp":"/ˈsteə.wel/","us":"us  / ˈster.wel /","usp":"/ˈster.wel/"}
+{"title":"stairway","uk":"uk  / ˈsteə.weɪ /","ukp":"/ˈsteə.weɪ/","us":"us  / ˈster.weɪ /","usp":"/ˈster.weɪ/"}
+{"title":"stake a claim (to something )","uk":"","us":""}
+{"title":"stake","uk":"uk  / steɪk /","ukp":"/steɪk/","us":"us  / steɪk /","usp":"/steɪk/"}
+{"title":"stake a claim","uk":"","us":""}
+{"title":"stake money","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stake someone to something","uk":"uk  / steɪk /","ukp":"/steɪk/","us":"us  / steɪk /","usp":"/steɪk/"}
+{"title":"stake something on something","uk":"uk  / steɪk /","ukp":"/steɪk/","us":"us  / steɪk /","usp":"/steɪk/"}
+{"title":"stakebuilding","uk":"uk  / ˈsteɪkˌbɪldɪŋ /","ukp":"/ˈsteɪkˌbɪldɪŋ/","us":"us ","usp":""}
+{"title":"stake something out","uk":"uk  / steɪk /","ukp":"/steɪk/","us":"us  / steɪk /","usp":"/steɪk/"}
+{"title":"staked","uk":"uk  / steɪk /","ukp":"/steɪk/","us":"us  / steɪk /","usp":"/steɪk/"}
+{"title":"stakeholder","uk":"uk  / ˈsteɪkˌhəʊl.də r /","ukp":"/ˈsteɪkˌhəʊl.dər/","us":"us  / ˈsteɪkˌhoʊl.dɚ /","usp":"/ˈsteɪkˌhoʊl.dɚ/"}
+{"title":"stakeholder matrix","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stakeholder pension","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stakeholder theory","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stakeout","uk":"uk  / ˈsteɪk.aʊt /","ukp":"/ˈsteɪk.aʊt/","us":"us  / ˈsteɪk.aʊt /","usp":"/ˈsteɪk.aʊt/"}
+{"title":"staking","uk":"uk  / steɪk /","ukp":"/steɪk/","us":"us  / steɪk /","usp":"/steɪk/"}
+{"title":"stalactite","uk":"uk  / ˈstæl.ək.taɪt /","ukp":"/ˈstæl.ək.taɪt/","us":"us  / stə.ˈlæk.taɪt /","usp":"/stə.ˈlæk.taɪt/"}
+{"title":"stalagmite","uk":"uk  / ˈstæl.əɡ.maɪt /","ukp":"/ˈstæl.əɡ.maɪt/","us":"us  / stə.ˈlæɡ.maɪt /","usp":"/stə.ˈlæɡ.maɪt/"}
+{"title":"stale check","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stale","uk":"uk  / steɪl /","ukp":"/steɪl/","us":"us  / steɪl /","usp":"/steɪl/"}
+{"title":"stale cheque","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"staleness","uk":"uk  / ˈsteɪl.nəs /","ukp":"/ˈsteɪl.nəs/","us":"us  / ˈsteɪl.nəs /","usp":"/ˈsteɪl.nəs/"}
+{"title":"stalemate","uk":"uk  / ˈsteɪl.meɪt /","ukp":"/ˈsteɪl.meɪt/","us":"us  / ˈsteɪl.meɪt /","usp":"/ˈsteɪl.meɪt/"}
+{"title":"stand bail","uk":"","us":""}
+{"title":"stand clear","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand down","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand by someone","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand fast/firm","uk":"","us":""}
+{"title":"stand guard","uk":"","us":""}
+{"title":"stand in the way of something/someone","uk":"","us":""}
+{"title":"stand for something","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand in","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand on your dignity","uk":"","us":""}
+{"title":"stand on ceremony","uk":"","us":""}
+{"title":"stand on your hands/head","uk":"","us":""}
+{"title":"stand on your head","uk":"","us":""}
+{"title":"stand or fall by something","uk":"","us":""}
+{"title":"stand on your own (two) feet","uk":"","us":""}
+{"title":"stand out","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand out against something/someone","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand over someone","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand round","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand shoulder to shoulder with someone","uk":"","us":""}
+{"title":"stand someone in good stead","uk":"","us":""}
+{"title":"stand something on its head","uk":"","us":""}
+{"title":"stand the test of time","uk":"","us":""}
+{"title":"stand together","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand up to someone/something","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand up for something/someone","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand up","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand your ground","uk":"","us":""}
+{"title":"stand/stick out a mile","uk":"","us":""}
+{"title":"stand-alone","uk":"uk  / ˈstænd.əˌləʊn /","ukp":"/ˈstænd.əˌləʊn/","us":"us  / ˈstænd.əˌloʊn /","usp":"/ˈstænd.əˌloʊn/"}
+{"title":"stand/stick out like a sore thumb","uk":"","us":""}
+{"title":"stand/walk tall","uk":"","us":""}
+{"title":"standalone brand","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standalone","uk":"uk  / ˈstændəˌləʊn /","ukp":"/ˈstændəˌləʊn/","us":"us ","usp":""}
+{"title":"Standard and Poor's","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standard coinage","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standard cost","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standard","uk":"uk  / ˈstæn.dəd /","ukp":"/ˈstæn.dəd/","us":"us  / ˈstæn.dɚd /","usp":"/ˈstæn.dɚd/"}
+{"title":"standard costing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standard deduction","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standard deviation","uk":"uk  / ˌstæn.dəd ˌdiː.viˈeɪ.ʃ ə n /","ukp":"/ˌstæn.dəd ˌdiː.viˈeɪ.ʃən/","us":"us  / ˌstæn.dɚd ˌdiː.viˈeɪ.ʃ ə n /","usp":"/ˌstæn.dɚd ˌdiː.viˈeɪ.ʃən/"}
+{"title":"standard fire policy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Standard Industrial Classification","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standard form","uk":"uk  / ˈstæn.dəd ˌfɔːm /","ukp":"/ˈstæn.dəd ˌfɔːm/","us":"us  / ˈstæn.dɚd ˌfɔːrm /","usp":"/ˈstæn.dɚd ˌfɔːrm/"}
+{"title":"standard issue","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standard lamp","uk":"uk  / ˈstæn.dəd ˌlæmp /","ukp":"/ˈstæn.dəd ˌlæmp/","us":"us  / ˈstæn.dɚd ˌlæmp /","usp":"/ˈstæn.dɚd ˌlæmp/"}
+{"title":"Stalinist","uk":"uk  / ˈstɑː.lɪn.ɪst /","ukp":"/ˈstɑː.lɪn.ɪst/","us":"us  / ˈstɑː.lən.ɪst /","usp":"/ˈstɑː.lən.ɪst/"}
+{"title":"stalked","uk":"uk  / stɔːk /","ukp":"/stɔːk/","us":"us  / stɑːk /","usp":"/stɑːk/"}
+{"title":"stalk","uk":"uk  / stɔːk /","ukp":"/stɔːk/","us":"us  / stɑːk /","usp":"/stɑːk/"}
+{"title":"stalking","uk":"uk  / ˈstɔː.kɪŋ /","ukp":"/ˈstɔː.kɪŋ/","us":"us  / ˈstɑː.kɪŋ /","usp":"/ˈstɑː.kɪŋ/"}
+{"title":"stalker","uk":"uk  / ˈstɔː.kə r /","ukp":"/ˈstɔː.kər/","us":"us  / ˈstɑː.kɚ /","usp":"/ˈstɑː.kɚ/"}
+{"title":"stalking horse","uk":"uk  / ˈstɔː.kɪŋ ˌhɔːs /","ukp":"/ˈstɔː.kɪŋ ˌhɔːs/","us":"us  / ˈstɑː.kɪŋ ˌhɔːrs /","usp":"/ˈstɑː.kɪŋ ˌhɔːrs/"}
+{"title":"stalled","uk":"uk  / stɔːl /","ukp":"/stɔːl/","us":"us  / stɑːl /","usp":"/stɑːl/"}
+{"title":"stallholder","uk":"uk  / ˈstɔːlˌhəʊl.də r /","ukp":"/ˈstɔːlˌhəʊl.dər/","us":"us  / ˈstɑːlˌhoʊl.dɚ /","usp":"/ˈstɑːlˌhoʊl.dɚ/"}
+{"title":"stall","uk":"uk  / stɔːl /","ukp":"/stɔːl/","us":"us  / stɑːl /","usp":"/stɑːl/"}
+{"title":"stalling","uk":"uk  / stɔːl /","ukp":"/stɔːl/","us":"us  / stɑːl /","usp":"/stɑːl/"}
+{"title":"stalling tactic","uk":"uk  / ˈstɔː.lɪŋ ˌtæk.tɪk /","ukp":"/ˈstɔː.lɪŋ ˌtæk.tɪk/","us":"us  / ˈstɑː.lɪŋ ˌtæk.tɪk /","usp":"/ˈstɑː.lɪŋ ˌtæk.tɪk/"}
+{"title":"stallion","uk":"uk  / ˈstæl.jən /","ukp":"/ˈstæl.jən/","us":"us  / ˈstæl.jən /","usp":"/ˈstæl.jən/"}
+{"title":"stalwart","uk":"uk  / ˈstɔːl.wət /","ukp":"/ˈstɔːl.wət/","us":"us  / ˈstɑːl.wɚt /","usp":"/ˈstɑːl.wɚt/"}
+{"title":"stalwartly","uk":"uk  / ˈstɔːl.wət.li /","ukp":"/ˈstɔːl.wət.li/","us":"us  / ˈstɑːl.wɚt.li /","usp":"/ˈstɑːl.wɚt.li/"}
+{"title":"stamen","uk":"uk  / ˈsteɪ.mən /","ukp":"/ˈsteɪ.mən/","us":"us  / ˈsteɪ.mən /","usp":"/ˈsteɪ.mən/"}
+{"title":"stamina","uk":"uk  / ˈstæm.ɪ.nə /","ukp":"/ˈstæm.ɪ.nə/","us":"us  / ˈstæm.ə.nə /","usp":"/ˈstæm.ə.nə/"}
+{"title":"stammered","uk":"uk  / ˈstæm.ə r /","ukp":"/ˈstæm.ər/","us":"us  / ˈstæm.ɚ /","usp":"/ˈstæm.ɚ/"}
+{"title":"stammer","uk":"uk  / ˈstæm.ə r /","ukp":"/ˈstæm.ər/","us":"us  / ˈstæm.ɚ /","usp":"/ˈstæm.ɚ/"}
+{"title":"stammering","uk":"uk  / ˈstæm.ə r /","ukp":"/ˈstæm.ər/","us":"us  / ˈstæm.ɚ /","usp":"/ˈstæm.ɚ/"}
+{"title":"stammeringly","uk":"uk  / ˈstæm. ə r.ɪŋ.li /","ukp":"/ˈstæm.ər.ɪŋ.li/","us":"us  / ˈstæm.ɚ.ɪŋ.li /","usp":"/ˈstæm.ɚ.ɪŋ.li/"}
+{"title":"stammerer","uk":"uk  / ˈstæm. ə r.ə r /","ukp":"/ˈstæm.ər.ər/","us":"us  / ˈstæm.ɚ.ɚ /","usp":"/ˈstæm.ɚ.ɚ/"}
+{"title":"stamp duty","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stamp on something","uk":"uk  / stæmp /","ukp":"/stæmp/","us":"us  / stæmp /","usp":"/stæmp/"}
+{"title":"stamp","uk":"uk  / stæmp /","ukp":"/stæmp/","us":"us  / stæmp /","usp":"/stæmp/"}
+{"title":"stamp something out","uk":"uk  / stæmp /","ukp":"/stæmp/","us":"us  / stæmp /","usp":"/stæmp/"}
+{"title":"stamped","uk":"","us":"us  / stæmpt /","usp":"/stæmpt/"}
+{"title":"stamped on someone's memory","uk":"","us":""}
+{"title":"stamped addressed envelope","uk":"uk  / ˌstæmpt əˌdrest ˈen.və.ləʊp /","ukp":"/ˌstæmpt əˌdrest ˈen.və.ləʊp/","us":"us  / ˌstæmpt əˌdrest ˈɑːn.və.loʊp /","usp":"/ˌstæmpt əˌdrest ˈɑːn.və.loʊp/"}
+{"title":"stampede","uk":"uk  / stæmˈpiːd /","ukp":"/stæmˈpiːd/","us":"us  / stæmˈpiːd /","usp":"/stæmˈpiːd/"}
+{"title":"stampeded","uk":"uk  / stæmˈpiːd /","ukp":"/stæmˈpiːd/","us":"us  / stæmˈpiːd /","usp":"/stæmˈpiːd/"}
+{"title":"stampeding","uk":"uk  / stæmˈpiːd /","ukp":"/stæmˈpiːd/","us":"us  / stæmˈpiːd /","usp":"/stæmˈpiːd/"}
+{"title":"stamping","uk":"uk  / stæmp /","ukp":"/stæmp/","us":"us  / stæmp /","usp":"/stæmp/"}
+{"title":"stan","uk":"uk  / stæn /","ukp":"/stæn/","us":"us  / stæn /","usp":"/stæn/"}
+{"title":"stanch","uk":"uk  / stɑːntʃ /","ukp":"/stɑːntʃ/","us":"us  / stɑːntʃ /","usp":"/stɑːntʃ/"}
+{"title":"stance","uk":"uk  / stɑːns /","ukp":"/stɑːns/","us":"us  / stæns /","usp":"/stæns/"}
+{"title":"stanched","uk":"uk  / stɑːntʃ /","ukp":"/stɑːntʃ/","us":"us  / stɑːntʃ /","usp":"/stɑːntʃ/"}
+{"title":"stanching","uk":"uk  / stɑːntʃ /","ukp":"/stɑːntʃ/","us":"us  / stɑːntʃ /","usp":"/stɑːntʃ/"}
+{"title":"stanchion","uk":"uk  / ˈstɑːn.tʃ ə n /","ukp":"/ˈstɑːn.tʃən/","us":"us  / ˈstæn.tʃ ə n /","usp":"/ˈstæn.tʃən/"}
+{"title":"stand (out) in relief","uk":"","us":""}
+{"title":"stand a chance","uk":"","us":""}
+{"title":"stand (up) and be counted","uk":"","us":""}
+{"title":"stand accused of something","uk":"","us":""}
+{"title":"stand and deliver!","uk":"","us":""}
+{"title":"stand around","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand aside","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stand back","uk":"uk  / stænd /","ukp":"/stænd/","us":"us  / stænd /","usp":"/stænd/"}
+{"title":"stapling","uk":"uk  / ˈsteɪ.p ə l /","ukp":"/ˈsteɪ.pəl/","us":"us  / ˈsteɪ.p ə l /","usp":"/ˈsteɪ.pəl/"}
+{"title":"star anise","uk":"uk  / ˌstɑːr ˈæn.iːs /","ukp":"/ˌstɑːr ˈæn.iːs/","us":"us  / ˌstɑːr ˈæn.əs /","usp":"/ˌstɑːr ˈæn.əs/"}
+{"title":"star","uk":"uk  / stɑː r /","ukp":"/stɑːr/","us":"us  / stɑːr /","usp":"/stɑːr/"}
+{"title":"star chamber","uk":"uk  / ˌstɑː ˈtʃeɪm.bə r /","ukp":"/ˌstɑː ˈtʃeɪm.bər/","us":"us  / ˌstɑːr ˈtʃeɪm.bɚ /","usp":"/ˌstɑːr ˈtʃeɪm.bɚ/"}
+{"title":"star jump","uk":"uk  / ˈstɑː ˌdʒʌmp /","ukp":"/ˈstɑː ˌdʒʌmp/","us":"us  / ˈstɑːr ˌdʒʌmp /","usp":"/ˈstɑːr ˌdʒʌmp/"}
+{"title":"Star of David","uk":"uk  / ˌstɑː.r əv ˈdeɪ.vɪd /","ukp":"/ˌstɑː.r əv ˈdeɪ.vɪd/","us":"us  / ˌstɑː.r əv ˈdeɪ.vɪd /","usp":"/ˌstɑː.r əv ˈdeɪ.vɪd/"}
+{"title":"star quality","uk":"uk  / ˈstɑː ˌkwɒl.ɪ.ti /","ukp":"/ˈstɑː ˌkwɒl.ɪ.ti/","us":"us  / ˈstɑːr ˌkwɑː.lə.t̬i /","usp":"/ˈstɑːr ˌkwɑː.lə.t̬i/"}
+{"title":"star sign","uk":"uk  / ˈstɑː ˌsaɪn /","ukp":"/ˈstɑː ˌsaɪn/","us":"us  / ˈstɑːr ˌsaɪn /","usp":"/ˈstɑːr ˌsaɪn/"}
+{"title":"Star Wars","uk":"uk  / ˈstɑː ˌwɔːz /","ukp":"/ˈstɑː ˌwɔːz/","us":"us  / ˈstɑːr ˌwɔːrz /","usp":"/ˈstɑːr ˌwɔːrz/"}
+{"title":"star turn","uk":"uk  / ˌstɑː ˈtɜːn /","ukp":"/ˌstɑː ˈtɜːn/","us":"us  / ˌstɑːr ˈtɝːn /","usp":"/ˌstɑːr ˈtɝːn/"}
+{"title":"star-crossed","uk":"uk  / ˌstɑːˈkrɒst /","ukp":"/ˌstɑːˈkrɒst/","us":"us  / ˌstɑːrˈkrɑːst /","usp":"/ˌstɑːrˈkrɑːst/"}
+{"title":"Star-Spangled Banner","uk":"uk  / ˌstɑː.spæŋ.ɡ ə ld ˈbæn.ə r /","ukp":"/ˌstɑː.spæŋ.ɡəld ˈbæn.ər/","us":"us  / ˌstɑːr.spæŋ.ɡ ə ld ˈbæn.ɚ /","usp":"/ˌstɑːr.spæŋ.ɡəld ˈbæn.ɚ/"}
+{"title":"star-struck","uk":"uk  / ˈstɑː.strʌk /","ukp":"/ˈstɑː.strʌk/","us":"us  / ˈstɑːr.strʌk /","usp":"/ˈstɑːr.strʌk/"}
+{"title":"star-studded","uk":"uk  / ˈstɑːˌstʌd.ɪd /","ukp":"/ˈstɑːˌstʌd.ɪd/","us":"us  / ˈstɑːrˌstʌd.ɪd /","usp":"/ˈstɑːrˌstʌd.ɪd/"}
+{"title":"star/top billing","uk":"","us":""}
+{"title":"starboard","uk":"uk  / ˈstɑː.bəd /","ukp":"/ˈstɑː.bəd/","us":"us  / ˈstɑːr.bɚd /","usp":"/ˈstɑːr.bɚd/"}
+{"title":"starch","uk":"uk  / stɑːtʃ /","ukp":"/stɑːtʃ/","us":"us  / stɑːrtʃ /","usp":"/stɑːrtʃ/"}
+{"title":"starched","uk":"uk  / stɑːtʃ /","ukp":"/stɑːtʃ/","us":"us  / stɑːrtʃ /","usp":"/stɑːrtʃ/"}
+{"title":"starchily","uk":"uk  / ˈstɑː.tʃ ə l.i /","ukp":"/ˈstɑː.tʃəl.i/","us":"us  / ˈstɑːr.tʃ ə l.i /","usp":"/ˈstɑːr.tʃəl.i/"}
+{"title":"starching","uk":"uk  / stɑːtʃ /","ukp":"/stɑːtʃ/","us":"us  / stɑːrtʃ /","usp":"/stɑːrtʃ/"}
+{"title":"starchy","uk":"uk  / ˈstɑː.tʃi /","ukp":"/ˈstɑː.tʃi/","us":"us  / ˈstɑːr.tʃi /","usp":"/ˈstɑːr.tʃi/"}
+{"title":"stardust","uk":"uk  / ˈstɑː.dʌst /","ukp":"/ˈstɑː.dʌst/","us":"us  / ˈstɑːr.dʌst /","usp":"/ˈstɑːr.dʌst/"}
+{"title":"stardom","uk":"uk  / ˈstɑː.d ə m /","ukp":"/ˈstɑː.dəm/","us":"us  / ˈstɑːr.d ə m /","usp":"/ˈstɑːr.dəm/"}
+{"title":"stare","uk":"uk  / steə r /","ukp":"/steər/","us":"us  / ster /","usp":"/ster/"}
+{"title":"stare down the barrel of something","uk":"","us":""}
+{"title":"stare someone in the face","uk":"","us":""}
+{"title":"stared","uk":"uk  / steə r /","ukp":"/steər/","us":"us  / ster /","usp":"/ster/"}
+{"title":"starfishes","uk":"","us":""}
+{"title":"starfish","uk":"uk  / ˈstɑː.fɪʃ /","ukp":"/ˈstɑː.fɪʃ/","us":"us  / ˈstɑːr.fɪʃ /","usp":"/ˈstɑːr.fɪʃ/"}
+{"title":"stargaze","uk":"uk / ˈstɑː.ɡeɪz /","ukp":"/ˈstɑː.ɡeɪz/","us":"us / ˈstɑːr.ɡeɪz /","usp":"/ˈstɑːr.ɡeɪz/"}
+{"title":"starfruit","uk":"uk  / ˈstɑː.fruːt /","ukp":"/ˈstɑː.fruːt/","us":"us  / ˈstɑːr.fruːt /","usp":"/ˈstɑːr.fruːt/"}
+{"title":"stargazing","uk":"uk  / ˈstɑːˌɡeɪ.zɪŋ /","ukp":"/ˈstɑːˌɡeɪ.zɪŋ/","us":"us  / ˈstɑːrˌɡeɪ.zɪŋ /","usp":"/ˈstɑːrˌɡeɪ.zɪŋ/"}
+{"title":"stargazer","uk":"uk  / ˈstɑːˌɡeɪ.zə r /","ukp":"/ˈstɑːˌɡeɪ.zər/","us":"us  / ˈstɑːrˌɡeɪ.zɚ /","usp":"/ˈstɑːrˌɡeɪ.zɚ/"}
+{"title":"staring","uk":"uk  / ˈsteə.rɪŋ /","ukp":"/ˈsteə.rɪŋ/","us":"us  / ˈster.ɪŋ /","usp":"/ˈster.ɪŋ/"}
+{"title":"starkers","uk":"uk  / ˈstɑː.kəz /","ukp":"/ˈstɑː.kəz/","us":"us  / ˈstɑːr.kɚz /","usp":"/ˈstɑːr.kɚz/"}
+{"title":"stark","uk":"uk  / stɑːk /","ukp":"/stɑːk/","us":"us  / stɑːrk /","usp":"/stɑːrk/"}
+{"title":"starkly","uk":"uk  / ˈstɑː.kli /","ukp":"/ˈstɑː.kli/","us":"us  / ˈstɑːr.kli /","usp":"/ˈstɑːr.kli/"}
+{"title":"starkness","uk":"uk  / ˈstɑːk.nəs /","ukp":"/ˈstɑːk.nəs/","us":"us  / ˈstɑːrk.nəs /","usp":"/ˈstɑːrk.nəs/"}
+{"title":"starlet","uk":"uk  / ˈstɑː.lət /","ukp":"/ˈstɑː.lət/","us":"us  / ˈstɑːr.lət /","usp":"/ˈstɑːr.lət/"}
+{"title":"starlight","uk":"uk  / ˈstɑː.laɪt /","ukp":"/ˈstɑː.laɪt/","us":"us  / ˈstɑːr.laɪt /","usp":"/ˈstɑːr.laɪt/"}
+{"title":"starling","uk":"uk  / ˈstɑː.lɪŋ /","ukp":"/ˈstɑː.lɪŋ/","us":"us  / ˈstɑːr.lɪŋ /","usp":"/ˈstɑːr.lɪŋ/"}
+{"title":"starlit","uk":"uk  / ˈstɑː.lɪt /","ukp":"/ˈstɑː.lɪt/","us":"us  / ˈstɑːr.lɪt /","usp":"/ˈstɑːr.lɪt/"}
+{"title":"starring","uk":"","us":""}
+{"title":"starred","uk":"uk  / stɑːd /","ukp":"/stɑːd/","us":"us  / stɑːrd /","usp":"/stɑːrd/"}
+{"title":"starry","uk":"uk  / ˈstɑː.ri /","ukp":"/ˈstɑː.ri/","us":"us  / ˈstɑːr.i /","usp":"/ˈstɑːr.i/"}
+{"title":"starry-eyed","uk":"uk  / ˌstɑː.riˈaɪd /","ukp":"/ˌstɑː.riˈaɪd/","us":"us  / ˌstɑː.riˈaɪd /","usp":"/ˌstɑː.riˈaɪd/"}
+{"title":"standard operating procedure","uk":"uk  / ˌstæn.dəd ˈɒp. ə r.eɪ.tɪŋ prəˌsiː.dʒə r /","ukp":"/ˌstæn.dəd ˈɒp.ər.eɪ.tɪŋ prəˌsiː.dʒər/","us":"us  / ˌstæn.dɚd ˈɑː.pə.reɪ.t̬ɪŋ prəˌsiː.dʒɚ /","usp":"/ˌstæn.dɚd ˈɑː.pə.reɪ.t̬ɪŋ prəˌsiː.dʒɚ/"}
+{"title":"standard of living","uk":"uk  / ˌstæn.dəd əv ˈlɪv.ɪŋ /","ukp":"/ˌstæn.dəd əv ˈlɪv.ɪŋ/","us":"us  / ˌstæn.dɚd əv ˈlɪv.ɪŋ /","usp":"/ˌstæn.dɚd əv ˈlɪv.ɪŋ/"}
+{"title":"standard rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Standard Rate and Data Service","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standard spending assessment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standard time","uk":"uk  / ˈstæn.dəd ˌtaɪm /","ukp":"/ˈstæn.dəd ˌtaɪm/","us":"us  / ˈstæn.dɚd ˌtaɪm /","usp":"/ˈstæn.dɚd ˌtaɪm/"}
+{"title":"standard-bearer","uk":"uk  / ˈstæn.dədˌbeə.rə r /","ukp":"/ˈstæn.dədˌbeə.rər/","us":"us  / ˈstæn.dɚdˌber.ɚ /","usp":"/ˈstæn.dɚdˌber.ɚ/"}
+{"title":"standard-form contract","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standard-rated","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standardization","uk":"uk  / ˌstæn.də.daɪˈzeɪ.ʃ ə n /","ukp":"/ˌstæn.də.daɪˈzeɪ.ʃən/","us":"us  / ˌstæn.dɚ.dəˈzeɪ.ʃ ə n /","usp":"/ˌstæn.dɚ.dəˈzeɪ.ʃən/"}
+{"title":"standardized","uk":"uk  / ˈstæn.də.daɪz /","ukp":"/ˈstæn.də.daɪz/","us":"us  / ˈstæn.dɚ.daɪz /","usp":"/ˈstæn.dɚ.daɪz/"}
+{"title":"standardize","uk":"uk  / ˈstæn.də.daɪz /","ukp":"/ˈstæn.də.daɪz/","us":"us  / ˈstæn.dɚ.daɪz /","usp":"/ˈstæn.dɚ.daɪz/"}
+{"title":"standardizing","uk":"uk  / ˈstæn.də.daɪz /","ukp":"/ˈstæn.də.daɪz/","us":"us  / ˈstæn.dɚ.daɪz /","usp":"/ˈstæn.dɚ.daɪz/"}
+{"title":"standby cost","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standby letter of credit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standby","uk":"uk  / ˈstænd.baɪ /","ukp":"/ˈstænd.baɪ/","us":"us  / ˈstænd.baɪ /","usp":"/ˈstænd.baɪ/"}
+{"title":"standfirst","uk":"uk / ˈstænd.fɜːst /","ukp":"/ˈstænd.fɜːst/","us":"us / ˈstænd.fɝːst /","usp":"/ˈstænd.fɝːst/"}
+{"title":"standing","uk":"uk  / ˈstæn.dɪŋ /","ukp":"/ˈstæn.dɪŋ/","us":"us  / ˈstæn.dɪŋ /","usp":"/ˈstæn.dɪŋ/"}
+{"title":"standing desk","uk":"uk  / ˈstæn.dɪŋ ˌdesk /","ukp":"/ˈstæn.dɪŋ ˌdesk/","us":"us  / ˈstæn.dɪŋ ˌdesk /","usp":"/ˈstæn.dɪŋ ˌdesk/"}
+{"title":"standing joke","uk":"uk  / ˌstæn.dɪŋ ˈdʒəʊk /","ukp":"/ˌstæn.dɪŋ ˈdʒəʊk/","us":"us  / ˌstæn.dɪŋ ˈdʒoʊk /","usp":"/ˌstæn.dɪŋ ˈdʒoʊk/"}
+{"title":"standing on your head","uk":"","us":""}
+{"title":"standing order","uk":"uk  / ˌstæn.dɪŋ ˈɔː.də r /","ukp":"/ˌstæn.dɪŋ ˈɔː.dər/","us":"us  / ˌstæn.dɪŋ ˈɔːr.dɚ /","usp":"/ˌstæn.dɪŋ ˈɔːr.dɚ/"}
+{"title":"standing ovation","uk":"uk  / ˌstæn.dɪŋ əʊˈveɪ.ʃ ə n /","ukp":"/ˌstæn.dɪŋ əʊˈveɪ.ʃən/","us":"us  / ˌstæn.dɪŋ oʊˈveɪ.ʃ ə n /","usp":"/ˌstæn.dɪŋ oʊˈveɪ.ʃən/"}
+{"title":"standing room only","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standing stone","uk":"uk  / ˈstæn.dɪŋ ˌstəʊn /","ukp":"/ˈstæn.dɪŋ ˌstəʊn/","us":"us  / ˈstæn.dɪŋ ˌstoʊn /","usp":"/ˈstæn.dɪŋ ˌstoʊn/"}
+{"title":"standing wave","uk":"uk  / ˈstæn.dɪŋ ˌweɪv /","ukp":"/ˈstæn.dɪŋ ˌweɪv/","us":"us  / ˈstæn.dɪŋ ˌweɪv /","usp":"/ˈstæn.dɪŋ ˌweɪv/"}
+{"title":"standoffish","uk":"uk  / ˌstændˈɒf.ɪʃ /","ukp":"/ˌstændˈɒf.ɪʃ/","us":"us  / ˌstændˈɑː.fɪʃ /","usp":"/ˌstændˈɑː.fɪʃ/"}
+{"title":"standoffishly","uk":"uk  / ˌstændˈɒf.ɪʃ.li /","ukp":"/ˌstændˈɒf.ɪʃ.li/","us":"us  / ˌstændˈɑː.fɪʃ.li /","usp":"/ˌstændˈɑː.fɪʃ.li/"}
+{"title":"standoff","uk":"uk  / ˈstænd.ɒf /","ukp":"/ˈstænd.ɒf/","us":"us  / ˈstænd.ɑːf /","usp":"/ˈstænd.ɑːf/"}
+{"title":"standoffishness","uk":"uk  / ˌstændˈɒf.ɪʃ.nəs /","ukp":"/ˌstændˈɒf.ɪʃ.nəs/","us":"us  / ˌstændˈɑː.fɪʃ.nəs /","usp":"/ˌstændˈɑː.fɪʃ.nəs/"}
+{"title":"standout","uk":"uk  / ˈstænd.aʊt /","ukp":"/ˈstænd.aʊt/","us":"us  / ˈstænd.aʊt /","usp":"/ˈstænd.aʊt/"}
+{"title":"standpipe","uk":"uk  / ˈstænd.paɪp /","ukp":"/ˈstænd.paɪp/","us":"us  / ˈstænd.paɪp /","usp":"/ˈstænd.paɪp/"}
+{"title":"standing room","uk":"uk  / ˈstæn.dɪŋ ˌruːm /","ukp":"/ˈstæn.dɪŋ ˌruːm/","us":"us  / ˈstæn.dɪŋ ˌruːm /","usp":"/ˈstæn.dɪŋ ˌruːm/"}
+{"title":"standpoint","uk":"uk  / ˈstænd.pɔɪnt /","ukp":"/ˈstænd.pɔɪnt/","us":"us  / ˈstænd.pɔɪnt /","usp":"/ˈstænd.pɔɪnt/"}
+{"title":"stands","uk":"","us":"us  / stændz /","usp":"/stændz/"}
+{"title":"standstill agreement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"standstill","uk":"uk  / ˈstænd.stɪl /","ukp":"/ˈstænd.stɪl/","us":"us  / ˈstænd.stɪl /","usp":"/ˈstænd.stɪl/"}
+{"title":"stank","uk":"uk  / stæŋk /","ukp":"/stæŋk/","us":"us  / stæŋk /","usp":"/stæŋk/"}
+{"title":"Stanley knife","uk":"uk  / ˈstæn.li naɪf /","ukp":"/ˈstæn.li naɪf/","us":"us  / ˈstæn.li naɪf /","usp":"/ˈstæn.li naɪf/"}
+{"title":"stanza","uk":"uk  / ˈstæn.zə /","ukp":"/ˈstæn.zə/","us":"us  / ˈstæn.zə /","usp":"/ˈstæn.zə/"}
+{"title":"staph","uk":"uk  / stæf /","ukp":"/stæf/","us":"us  / stæf /","usp":"/stæf/"}
+{"title":"stapes","uk":"uk  / ˈsteɪ.piːz /","ukp":"/ˈsteɪ.piːz/","us":"us  / ˈsteɪ.piːz /","usp":"/ˈsteɪ.piːz/"}
+{"title":"Staphylococcus infection","uk":"uk  / ˌstæf.ɪ.ləˌkɒk.əs ɪnˈfek.ʃ ə n /","ukp":"/ˌstæf.ɪ.ləˌkɒk.əs ɪnˈfek.ʃən/","us":"us  / ˌstæf.ə.ləˌkɑː.kəs ɪnˈfek.ʃ ə n /","usp":"/ˌstæf.ə.ləˌkɑː.kəs ɪnˈfek.ʃən/"}
+{"title":"staphylococcus","uk":"uk  / ˌstæf.ɪl.əˈkɒk.əs /","ukp":"/ˌstæf.ɪl.əˈkɒk.əs/","us":"us  / ˌstæf.ə.ləˈkɑː.kəs /","usp":"/ˌstæf.ə.ləˈkɑː.kəs/"}
+{"title":"staple","uk":"uk  / ˈsteɪ.p ə l /","ukp":"/ˈsteɪ.pəl/","us":"us  / ˈsteɪ.p ə l /","usp":"/ˈsteɪ.pəl/"}
+{"title":"staple gun","uk":"uk  / ˈsteɪ.p ə l ɡʌn /","ukp":"/ˈsteɪ.pəl ɡʌn/","us":"us  / ˈsteɪ.p ə l ɡʌn /","usp":"/ˈsteɪ.pəl ɡʌn/"}
+{"title":"stapled","uk":"uk  / ˈsteɪ.p ə l /","ukp":"/ˈsteɪ.pəl/","us":"us  / ˈsteɪ.p ə l /","usp":"/ˈsteɪ.pəl/"}
+{"title":"stapler","uk":"uk  / ˈsteɪ.plə r /","ukp":"/ˈsteɪ.plər/","us":"us  / ˈsteɪ.plɚ /","usp":"/ˈsteɪ.plɚ/"}
+{"title":"state capitalism","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state court","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"State Department","uk":"uk  / ˈsteɪt dɪˌpɑːt.mənt /","ukp":"/ˈsteɪt dɪˌpɑːt.mənt/","us":"us  / ˈsteɪt dɪˌpɑːrt.mənt /","usp":"/ˈsteɪt dɪˌpɑːrt.mənt/"}
+{"title":"State Earnings Related Pension Scheme","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state enrolled nurse","uk":"uk  / ˌsteɪt ɪnˌrəʊld ˈnɜːs /","ukp":"/ˌsteɪt ɪnˌrəʊld ˈnɜːs/","us":"us  / ˌsteɪt ɪnˌroʊld ˈnɝːs /","usp":"/ˌsteɪt ɪnˌroʊld ˈnɝːs/"}
+{"title":"state expenditure","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state fair","uk":"uk  / ˌsteɪt ˈfeə r /","ukp":"/ˌsteɪt ˈfeər/","us":"us  / ˌsteɪt ˈfer /","usp":"/ˌsteɪt ˈfer/"}
+{"title":"state funding","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state funds","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state income tax","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state line","uk":"uk  / ˌsteɪt ˈlaɪn /","ukp":"/ˌsteɪt ˈlaɪn/","us":"us  / ˌsteɪt ˈlaɪn /","usp":"/ˌsteɪt ˈlaɪn/"}
+{"title":"state monopoly","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state of emergency","uk":"uk  / ˌsteɪt əv ɪˈmɜː.dʒ ə n.si /","ukp":"/ˌsteɪt əv ɪˈmɜː.dʒən.si/","us":"us  / ˌsteɪt əv ɪˈmɝː.dʒ ə n.si /","usp":"/ˌsteɪt əv ɪˈmɝː.dʒən.si/"}
+{"title":"state occasion","uk":"uk  / ˌsteɪt əˈkeɪ.ʒ ə n /","ukp":"/ˌsteɪt əˈkeɪ.ʒən/","us":"us  / ˌsteɪt əˈkeɪ.ʒ ə n /","usp":"/ˌsteɪt əˈkeɪ.ʒən/"}
+{"title":"state of mind","uk":"","us":"us  / ˈsteɪt əv ˈmɑɪnd /","usp":"/ˈsteɪt əv ˈmɑɪnd/"}
+{"title":"State of the Union","uk":"uk  / ˌsteɪt əv ðə ˈjuː.nj.ən /","ukp":"/ˌsteɪt əv ðə ˈjuː.nj.ən/","us":"us  / ˌsteɪt̬ əv ðə ˈjuː.nj.ən /","usp":"/ˌsteɪt̬ əv ðə ˈjuː.nj.ən/"}
+{"title":"state ownership","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state pension","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state registered nurse","uk":"uk  / ˌsteɪt ˌredʒ.ɪ.stəd ˈnɜːs /","ukp":"/ˌsteɪt ˌredʒ.ɪ.stəd ˈnɜːs/","us":"us  / ˌsteɪt ˌredʒ.ɪ.stɚd ˈnɝːs /","usp":"/ˌsteɪt ˌredʒ.ɪ.stɚd ˈnɝːs/"}
+{"title":"state premier","uk":"uk  / ˌsteɪt ˈprem.i.ə r /","ukp":"/ˌsteɪt ˈprem.i.ər/","us":"us  / ˌsteɪt prɪ ˈmɪr /","usp":"/ˌsteɪt prɪ ˈmɪr/"}
+{"title":"State Second Pension","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state school","uk":"uk  / ˈsteɪt ˌskuːl /","ukp":"/ˈsteɪt ˌskuːl/","us":"us  / ˈsteɪt ˌskuːl /","usp":"/ˈsteɪt ˌskuːl/"}
+{"title":"state tax","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state visit","uk":"uk  / ˌsteɪt ˈvɪz.ɪt /","ukp":"/ˌsteɪt ˈvɪz.ɪt/","us":"us  / ˌsteɪt ˈvɪz.ɪt /","usp":"/ˌsteɪt ˈvɪz.ɪt/"}
+{"title":"state-backed","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state's evidence","uk":"uk  / ˌsteɪts ˈev.ɪ.d ə ns /","ukp":"/ˌsteɪts ˈev.ɪ.dəns/","us":"us  / ˌsteɪts ˈev.ə.d ə ns /","usp":"/ˌsteɪts ˈev.ə.dəns/"}
+{"title":"state-controlled","uk":"uk  / ˌsteɪt.kənˈtrəʊld /","ukp":"/ˌsteɪt.kənˈtrəʊld/","us":"us  / ˌsteɪt.kənˈtroʊld /","usp":"/ˌsteɪt.kənˈtroʊld/"}
+{"title":"state-owned","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state-of-the-art","uk":"uk  / ˌsteɪt.əv.ðiːˈɑːt /","ukp":"/ˌsteɪt.əv.ðiːˈɑːt/","us":"us  / ˌsteɪt.əv.ðiːˈɑːrt /","usp":"/ˌsteɪt.əv.ðiːˈɑːrt/"}
+{"title":"state-registered","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statecraft","uk":"uk  / ˈsteɪt.krɑːft /","ukp":"/ˈsteɪt.krɑːft/","us":"us  / ˈsteɪt.kræft /","usp":"/ˈsteɪt.kræft/"}
+{"title":"state-wide","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stated","uk":"uk  / steɪt /","ukp":"/steɪt/","us":"us  / steɪt /","usp":"/steɪt/"}
+{"title":"stated case","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stated value","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statehood","uk":"uk  / ˈsteɪt.hʊd /","ukp":"/ˈsteɪt.hʊd/","us":"us  / ˈsteɪt.hʊd /","usp":"/ˈsteɪt.hʊd/"}
+{"title":"statehouse","uk":"uk  / ˈsteɪtˌhaʊs /","ukp":"/ˈsteɪtˌhaʊs/","us":"us  / ˈsteɪtˌhaʊs /","usp":"/ˈsteɪtˌhaʊs/"}
+{"title":"stateless","uk":"uk  / ˈsteɪt.ləs /","ukp":"/ˈsteɪt.ləs/","us":"us  / ˈsteɪt.ləs /","usp":"/ˈsteɪt.ləs/"}
+{"title":"stateliness","uk":"uk  / ˈsteɪt.li.nəs /","ukp":"/ˈsteɪt.li.nəs/","us":"us  / ˈsteɪt.li.nəs /","usp":"/ˈsteɪt.li.nəs/"}
+{"title":"stately","uk":"uk  / ˈsteɪt.li /","ukp":"/ˈsteɪt.li/","us":"us  / ˈsteɪt.li /","usp":"/ˈsteɪt.li/"}
+{"title":"Stars and Stripes","uk":"uk  / ˌstɑːz ən ˈstraɪps /","ukp":"/ˌstɑːz ən ˈstraɪps /","us":"us  / ˌstɑːrz ən ˈstraɪps /","usp":"/ˌstɑːrz ən ˈstraɪps/"}
+{"title":"start (something) off","uk":"uk  / stɑːt /","ukp":"/stɑːt/","us":"us  / stɑːrt /","usp":"/stɑːrt/"}
+{"title":"start ( something ) up","uk":"uk  / stɑːt /","ukp":"/stɑːt/","us":"us  / stɑːrt /","usp":"/stɑːrt/"}
+{"title":"start a new life","uk":"","us":""}
+{"title":"start on at someone","uk":"uk  / stɑːt /","ukp":"/stɑːt/","us":"us  / stɑːrt /","usp":"/stɑːrt/"}
+{"title":"start date","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"start","uk":"uk  / stɑːt /","ukp":"/stɑːt/","us":"us  / stɑːrt /","usp":"/stɑːrt/"}
+{"title":"start on something","uk":"uk  / stɑːt /","ukp":"/stɑːt/","us":"us  / stɑːrt /","usp":"/stɑːrt/"}
+{"title":"start something","uk":"","us":""}
+{"title":"start out","uk":"uk  / stɑːt /","ukp":"/stɑːt/","us":"us  / stɑːrt /","usp":"/stɑːrt/"}
+{"title":"start over","uk":"uk  / stɑːt /","ukp":"/stɑːt/","us":"us  / stɑːrt /","usp":"/stɑːrt/"}
+{"title":"start-up business","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"start-up company","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"start-up cost","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"start/set/get the ball rolling","uk":"","us":""}
+{"title":"started","uk":"uk  / stɑːt /","ukp":"/stɑːt/","us":"us  / stɑːrt /","usp":"/stɑːrt/"}
+{"title":"starter home","uk":"uk  / ˈstɑː.tə ˌhəʊm /","ukp":"/ˈstɑː.tə ˌhəʊm/","us":"us  / ˈstɑːr.t̬ɚ ˌhoʊm /","usp":"/ˈstɑːr.t̬ɚ ˌhoʊm/"}
+{"title":"starter","uk":"uk  / ˈstɑː.tə r /","ukp":"/ˈstɑː.tər/","us":"us  / ˈstɑːr.t̬ɚ /","usp":"/ˈstɑːr.t̬ɚ/"}
+{"title":"starter motor","uk":"uk  / ˈstɑː.tə ˌməʊ.tə r /","ukp":"/ˈstɑː.tə ˌməʊ.tər/","us":"us  / ˈstɑːr.t̬ɚ ˌmoʊ.t̬ɚ /","usp":"/ˈstɑːr.t̬ɚ ˌmoʊ.t̬ɚ/"}
+{"title":"starter kit","uk":"uk  / ˈstɑː.tə ˌkɪt /","ukp":"/ˈstɑː.tə ˌkɪt/","us":"us  / ˈstɑːr.t̬ɚ ˌkɪt /","usp":"/ˈstɑːr.t̬ɚ ˌkɪt/"}
+{"title":"starter plug","uk":"uk  / ˈstɑː.tə ˌplʌɡ /","ukp":"/ˈstɑː.tə ˌplʌɡ/","us":"us  / ˈstɑːr.t̬ɚ ˌplʌɡ /","usp":"/ˈstɑːr.t̬ɚ ˌplʌɡ/"}
+{"title":"starter pack","uk":"uk  / ˈstɑː.tə ˌpæk /","ukp":"/ˈstɑː.tə ˌpæk/","us":"us  / ˈstɑːr.t̬ɚ ˌpæk /","usp":"/ˈstɑːr.t̬ɚ ˌpæk/"}
+{"title":"starting","uk":"uk  / stɑːt /","ukp":"/stɑːt/","us":"us  / stɑːrt /","usp":"/stɑːrt/"}
+{"title":"starting date","uk":"uk  / ˈstɑː.tɪŋ ˌdeɪt /","ukp":"/ˈstɑː.tɪŋ ˌdeɪt/","us":"us  / ˈstɑːr.t̬ɪŋ ˌdeɪt /","usp":"/ˈstɑːr.t̬ɪŋ ˌdeɪt/"}
+{"title":"starting line","uk":"uk  / ˈstɑː.tɪŋ ˌlaɪn /","ukp":"/ˈstɑː.tɪŋ ˌlaɪn/","us":"us  / ˈstɑːr.t̬ɪŋ ˌlaɪn /","usp":"/ˈstɑːr.t̬ɪŋ ˌlaɪn/"}
+{"title":"starting pistol","uk":"uk  / ˈstɑː.tɪŋ ˌpɪs.t ə l /","ukp":"/ˈstɑː.tɪŋ ˌpɪs.təl/","us":"us  / ˈstɑːr.t̬ɪŋ ˌpɪs.t ə l /","usp":"/ˈstɑːr.t̬ɪŋ ˌpɪs.təl/"}
+{"title":"starting price","uk":"uk  / ˈstɑː.tɪŋ ˌpraɪs /","ukp":"/ˈstɑː.tɪŋ ˌpraɪs/","us":"us  / ˈstɑːr.t̬ɪŋ ˌpraɪs /","usp":"/ˈstɑːr.t̬ɪŋ ˌpraɪs/"}
+{"title":"starting point","uk":"uk  / ˈstɑː.tɪŋ ˌpɔɪnt /","ukp":"/ˈstɑː.tɪŋ ˌpɔɪnt/","us":"us  / ˈstɑːr.t̬ɪŋ ˌpɔɪnt /","usp":"/ˈstɑːr.t̬ɪŋ ˌpɔɪnt/"}
+{"title":"starting salary","uk":"uk  / ˈstɑː.tɪŋ ˌsæl. ə r.i /","ukp":"/ˈstɑː.tɪŋ ˌsæl.ər.i/","us":"us  / ˈstɑːr.t̬ɪŋ ˌsæl.ɚ.i /","usp":"/ˈstɑːr.t̬ɪŋ ˌsæl.ɚ.i/"}
+{"title":"starting time","uk":"uk  / ˈstɑː.tɪŋ ˌtaɪm /","ukp":"/ˈstɑː.tɪŋ ˌtaɪm/","us":"us  / ˈstɑːr.t̬ɪŋ ˌtaɪm /","usp":"/ˈstɑːr.t̬ɪŋ ˌtaɪm/"}
+{"title":"startled","uk":"uk  / ˈstɑː.t ə ld /","ukp":"/ˈstɑː.təld/","us":"us  / ˈstɑːr.t̬ ə ld /","usp":"/ˈstɑːr.t̬əld/"}
+{"title":"startle","uk":"uk  / ˈstɑː.t ə l /","ukp":"/ˈstɑː.təl/","us":"us  / ˈstɑːr.t̬ ə l /","usp":"/ˈstɑːr.t̬əl/"}
+{"title":"startling","uk":"uk  / ˈstɑː.t ə lɪŋ /","ukp":"/ˈstɑː.təlɪŋ/","us":"us  / ˈstɑːr.t̬ ə lɪŋ /","usp":"/ˈstɑːr.t̬əlɪŋ/"}
+{"title":"startlingly","uk":"uk  / ˈstɑː.t ə lɪŋ.li /","ukp":"/ˈstɑː.təlɪŋ.li/","us":"us  / ˈstɑːr.t̬ ə lɪŋ.li /","usp":"/ˈstɑːr.t̬əlɪŋ.li/"}
+{"title":"starvation","uk":"uk  / stɑːˈveɪ.ʃ ə n /","ukp":"/stɑːˈveɪ.ʃən/","us":"us  / stɑːrˈveɪ.ʃ ə n /","usp":"/stɑːrˈveɪ.ʃən/"}
+{"title":"starvation diet","uk":"uk  / stɑːˈveɪ.ʃ ə n ˌdaɪ.ət /","ukp":"/stɑːˈveɪ.ʃən ˌdaɪ.ət/","us":"us  / stɑːrˈveɪ.ʃ ə n ˌdaɪ.ət /","usp":"/stɑːrˈveɪ.ʃən ˌdaɪ.ət/"}
+{"title":"starve someone/something of something","uk":"uk  / stɑːv /","ukp":"/stɑːv/","us":"us  / stɑːrv /","usp":"/stɑːrv/"}
+{"title":"starve","uk":"uk  / stɑːv /","ukp":"/stɑːv/","us":"us  / stɑːrv /","usp":"/stɑːrv/"}
+{"title":"starved","uk":"uk  / stɑːvd /","ukp":"/stɑːvd/","us":"us  / stɑːrvd /","usp":"/stɑːrvd/"}
+{"title":"starving","uk":"uk  / ˈstɑː.vɪŋ /","ukp":"/ˈstɑː.vɪŋ/","us":"us  / ˈstɑːr.vɪŋ /","usp":"/ˈstɑːr.vɪŋ/"}
+{"title":"stashing","uk":"uk  / stæʃ /","ukp":"/stæʃ/","us":"us  / stæʃ /","usp":"/stæʃ/"}
+{"title":"stashed","uk":"uk  / stæʃ /","ukp":"/stæʃ/","us":"us  / stæʃ /","usp":"/stæʃ/"}
+{"title":"stash","uk":"uk  / stæʃ /","ukp":"/stæʃ/","us":"us  / stæʃ /","usp":"/stæʃ/"}
+{"title":"stasis","uk":"uk  / ˈsteɪ.sɪs /","ukp":"/ˈsteɪ.sɪs/","us":"us  / ˈsteɪ.sɪs /","usp":"/ˈsteɪ.sɪs/"}
+{"title":"stat","uk":"uk  / stæt /","ukp":"/stæt/","us":"us  / stæt /","usp":"/stæt/"}
+{"title":"state auditor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state bank","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state benefit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"state","uk":"uk  / steɪt /","ukp":"/steɪt/","us":"us  / steɪt /","usp":"/steɪt/"}
+{"title":"state budget deficit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statistical quality control","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statistically","uk":"uk  / stəˈtɪs.tɪ.k ə l.i /","ukp":"/stəˈtɪs.tɪ.kəl.i/","us":"us  / stəˈtɪs.tɪ.k ə l.i /","usp":"/stəˈtɪs.tɪ.kəl.i/"}
+{"title":"statistician","uk":"uk  / ˌstæt.ɪˈstɪʃ. ə n /","ukp":"/ˌstæt.ɪˈstɪʃ.ən/","us":"us  / ˌstæt̬.ɪˈstɪʃ. ə n /","usp":"/ˌstæt̬.ɪˈstɪʃ.ən/"}
+{"title":"statistics","uk":"","us":"us  / stəˈtɪs·tɪks /","usp":"/stəˈtɪs·tɪks/"}
+{"title":"stats","uk":"uk  / stæts /","ukp":"/stæts/","us":"us ","usp":""}
+{"title":"stative","uk":"uk / ˈsteɪ.tɪv /","ukp":"/ˈsteɪ.tɪv/","us":"us / ˈsteɪ.t̬ɪv /","usp":"/ˈsteɪ.t̬ɪv/"}
+{"title":"statuary","uk":"uk  / ˈstætʃ.u. ə r.i /","ukp":"/ˈstætʃ.u.ər.i/","us":"us  / ˈstætʃ.u.er.i /","usp":"/ˈstætʃ.u.er.i/"}
+{"title":"statue","uk":"uk  / ˈstætʃ.uː /","ukp":"/ˈstætʃ.uː/","us":"us  / ˈstætʃ.uː /","usp":"/ˈstætʃ.uː/"}
+{"title":"statuesque","uk":"uk  / ˌstætʃ.uˈesk /","ukp":"/ˌstætʃ.uˈesk/","us":"us  / ˌstætʃ.uˈesk /","usp":"/ˌstætʃ.uˈesk/"}
+{"title":"statuette","uk":"uk  / ˌstætʃ.uˈet /","ukp":"/ˌstætʃ.uˈet/","us":"us  / ˌstætʃ.uˈet /","usp":"/ˌstætʃ.uˈet/"}
+{"title":"stature","uk":"uk  / ˈstætʃ.ə r /","ukp":"/ˈstætʃ.ər/","us":"us  / ˈstætʃ.ɚ /","usp":"/ˈstætʃ.ɚ/"}
+{"title":"status bar","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"status","uk":"uk  / ˈsteɪ.təs /","ukp":"/ˈsteɪ.təs/","us":"us  / ˈsteɪ.t̬əs /","usp":"/ˈsteɪ.t̬əs/"}
+{"title":"status divide","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"status enquiry","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"status report","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"status symbol","uk":"uk  / ˈsteɪ.təs ˌsɪm.b ə l /","ukp":"/ˈsteɪ.təs ˌsɪm.bəl/","us":"us  / ˈsteɪ.t̬əs ˌsɪm.b ə l /","usp":"/ˈsteɪ.t̬əs ˌsɪm.bəl/"}
+{"title":"statute barred","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statute","uk":"uk  / ˈstætʃ.uːt /","ukp":"/ˈstætʃ.uːt/","us":"us  / ˈstætʃ.uːt /","usp":"/ˈstætʃ.uːt/"}
+{"title":"statute law","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statute of limitations","uk":"uk  / ˌstætʃ.uːt əv lɪm.ɪˈteɪ.ʃ ə nz /","ukp":"/ˌstætʃ.uːt əv lɪm.ɪˈteɪ.ʃənz/","us":"us  / ˌstætʃ.uːt əv lɪm.əˈteɪ.ʃ ə nz /","usp":"/ˌstætʃ.uːt əv lɪm.əˈteɪ.ʃənz/"}
+{"title":"statutes of limitations","uk":"","us":""}
+{"title":"statutory body","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory book","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory","uk":"uk  / ˈstætʃ.ə.t ə r.i /","ukp":"/ˈstætʃ.ə.tər.i/","us":"us  / ˈstætʃ.ə.tɔːr.i /","usp":"/ˈstætʃ.ə.tɔːr.i/"}
+{"title":"statutory company","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory maternity benefit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory duty","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory instrument","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory maternity leave","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory rape","uk":"uk  / stætʃ.ə.t ə r.i ˈreɪp /","ukp":"/stætʃ.ə.tər.i ˈreɪp/","us":"us  / ˌstætʃ.ə.tɔːr.i ˈreɪp /","usp":"/ˌstætʃ.ə.tɔːr.i ˈreɪp/"}
+{"title":"statutory maternity pay","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory paternity pay","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory meeting","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory redundancy pay","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory report","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statutory regulation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Statutory Sick Pay","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"staunched","uk":"uk  / stɔːntʃ /","ukp":"/stɔːntʃ/","us":"us  / stɑːntʃ /","usp":"/stɑːntʃ/"}
+{"title":"staunch","uk":"uk  / stɔːntʃ /","ukp":"/stɔːntʃ/","us":"us  / stɑːntʃ /","usp":"/stɑːntʃ/"}
+{"title":"statutory tenant","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"staunchly","uk":"uk  / ˈstɔːntʃ.li /","ukp":"/ˈstɔːntʃ.li/","us":"us  / ˈstɑːntʃ.li /","usp":"/ˈstɑːntʃ.li/"}
+{"title":"staunching","uk":"uk  / stɔːntʃ /","ukp":"/stɔːntʃ/","us":"us  / stɑːntʃ /","usp":"/stɑːntʃ/"}
+{"title":"staunchness","uk":"uk  / ˈstɔːntʃ.nəs /","ukp":"/ˈstɔːntʃ.nəs/","us":"us  / ˈstɑːntʃ.nəs /","usp":"/ˈstɑːntʃ.nəs/"}
+{"title":"stave something in","uk":"uk  / steɪv /","ukp":"/steɪv/","us":"us  / steɪv /","usp":"/steɪv/"}
+{"title":"stave","uk":"uk  / steɪv /","ukp":"/steɪv/","us":"us  / steɪv /","usp":"/steɪv/"}
+{"title":"stave something/someone off","uk":"uk  / steɪv /","ukp":"/steɪv/","us":"us  / steɪv /","usp":"/steɪv/"}
+{"title":"staves","uk":"uk  / steɪvz /","ukp":"/steɪvz/","us":"us  / steɪvz /","usp":"/steɪvz/"}
+{"title":"stately home","uk":"uk  / ˌsteɪt.li ˈhəʊm /","ukp":"/ˌsteɪt.li ˈhəʊm/","us":"us  / ˌsteɪt.li ˈhoʊm /","usp":"/ˌsteɪt.li ˈhoʊm/"}
+{"title":"stay","uk":"uk  / steɪ /","ukp":"/steɪ/","us":"us  / steɪ /","usp":"/steɪ/"}
+{"title":"statement of account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statement","uk":"uk  / ˈsteɪt.mənt /","ukp":"/ˈsteɪt.mənt/","us":"us  / ˈsteɪt.mənt /","usp":"/ˈsteɪt.mənt/"}
+{"title":"statement of affairs","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statement of claim","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statement of earnings","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statement of principles","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statement of purpose","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stateroom","uk":"uk  / ˈsteɪt.ruːm /","ukp":"/ˈsteɪt.ruːm/","us":"us  / ˈsteɪt.ruːm /","usp":"/ˈsteɪt.ruːm/"}
+{"title":"states' rights","uk":"uk  / ˌsteɪts ˈraɪts /","ukp":"/ˌsteɪts ˈraɪts/","us":"us  / ˌsteɪts ˈraɪts /","usp":"/ˌsteɪts ˈraɪts/"}
+{"title":"stateside","uk":"uk  / ˈsteɪt.saɪd /","ukp":"/ˈsteɪt.saɪd/","us":"us  / ˈsteɪt.saɪd /","usp":"/ˈsteɪt.saɪd/"}
+{"title":"statesman","uk":"uk  / ˈsteɪts.mən /","ukp":"/ˈsteɪts.mən/","us":"us  / ˈsteɪts.mən /","usp":"/ˈsteɪts.mən/"}
+{"title":"statesmanlike","uk":"uk  / ˈsteɪt.smən.laɪk /","ukp":"/ˈsteɪt.smən.laɪk/","us":"us  / ˈsteɪt.smən.laɪk /","usp":"/ˈsteɪt.smən.laɪk/"}
+{"title":"stateswoman","uk":"uk  / ˈsteɪtˌswʊm.ən /","ukp":"/ˈsteɪtˌswʊm.ən/","us":"us  / ˈsteɪtˌswʊm.ən /","usp":"/ˈsteɪtˌswʊm.ən/"}
+{"title":"statesmanship","uk":"uk  / ˈsteɪt.smən.ʃɪp /","ukp":"/ˈsteɪt.smən.ʃɪp/","us":"us  / ˈsteɪt.smən.ʃɪp /","usp":"/ˈsteɪt.smən.ʃɪp/"}
+{"title":"statewide","uk":"uk  / ˈsteɪt.waɪd /","ukp":"/ˈsteɪt.waɪd/","us":"us  / ˈsteɪt.waɪd /","usp":"/ˈsteɪt.waɪd/"}
+{"title":"static (electricity)","uk":"","us":"us  / ˈstæt̬·ɪk (ɪˌlekˈtrɪs·ɪ·t̬i) /","usp":"/ˈstæt̬·ɪk (ɪˌlekˈtrɪs·ɪ·t̬i)/"}
+{"title":"static","uk":"uk  / ˈstæt.ɪk /","ukp":"/ˈstæt.ɪk/","us":"us  / ˈstæt̬.ɪk /","usp":"/ˈstæt̬.ɪk/"}
+{"title":"static equilibrium","uk":"uk  / ˌstæt.ɪk iː.kwɪˈlɪb.ri.əm /","ukp":"/ˌstæt.ɪk iː.kwɪˈlɪb.ri.əm/","us":"us  / ˌstæt̬.ɪk iː.kwɪˈlɪb.ri.əm /","usp":"/ˌstæt̬.ɪk iː.kwɪˈlɪb.ri.əm/"}
+{"title":"statin","uk":"uk  / ˈstæt.ɪn /","ukp":"/ˈstæt.ɪn/","us":"us  / ˈstæt̬.ɪn /","usp":"/ˈstæt̬.ɪn/"}
+{"title":"station break","uk":"uk  / ˈsteɪ.ʃ ə n ˌbreɪk /","ukp":"/ˈsteɪ.ʃən ˌbreɪk/","us":"us  / ˈsteɪ.ʃ ə n ˌbreɪk /","usp":"/ˈsteɪ.ʃən ˌbreɪk/"}
+{"title":"station","uk":"uk  / ˈsteɪ.ʃ ə n /","ukp":"/ˈsteɪ.ʃən/","us":"us  / ˈsteɪ.ʃ ə n /","usp":"/ˈsteɪ.ʃən/"}
+{"title":"stating","uk":"uk  / steɪt /","ukp":"/steɪt/","us":"us  / steɪt /","usp":"/steɪt/"}
+{"title":"stationary","uk":"uk  / ˈsteɪ.ʃ ə n. ə r.i /","ukp":"/ˈsteɪ.ʃən.ər.i/","us":"us  / ˈsteɪ.ʃə.ner.i /","usp":"/ˈsteɪ.ʃə.ner.i/"}
+{"title":"station wagon","uk":"uk  / ˈsteɪ.ʃ ə n ˌwæɡ.ən /","ukp":"/ˈsteɪ.ʃən ˌwæɡ.ən/","us":"us  / ˈsteɪ.ʃ ə n ˌwæɡ.ən /","usp":"/ˈsteɪ.ʃən ˌwæɡ.ən/"}
+{"title":"station house","uk":"uk  / ˈsteɪ.ʃ ə n ˌhaʊs /","ukp":"/ˈsteɪ.ʃən ˌhaʊs/","us":"us  / ˈsteɪ.ʃ ə n ˌhaʊs /","usp":"/ˈsteɪ.ʃən ˌhaʊs/"}
+{"title":"stationed","uk":"uk  / ˈsteɪ.ʃ ə n /","ukp":"/ˈsteɪ.ʃən/","us":"us  / ˈsteɪ.ʃ ə n /","usp":"/ˈsteɪ.ʃən/"}
+{"title":"stationery","uk":"uk  / ˈsteɪ.ʃ ə n. ə r.i /","ukp":"/ˈsteɪ.ʃən.ər.i/","us":"us  / ˈsteɪ.ʃə.ner.i /","usp":"/ˈsteɪ.ʃə.ner.i/"}
+{"title":"stationing","uk":"uk  / ˈsteɪ.ʃ ə n /","ukp":"/ˈsteɪ.ʃən/","us":"us  / ˈsteɪ.ʃ ə n /","usp":"/ˈsteɪ.ʃən/"}
+{"title":"stationer","uk":"uk  / ˈsteɪ.ʃ ə n.ə r /","ukp":"/ˈsteɪ.ʃən.ər/","us":"us  / ˈsteɪ.ʃ ə n.ɚ /","usp":"/ˈsteɪ.ʃən.ɚ/"}
+{"title":"stationmaster","uk":"uk  / ˈsteɪ.ʃ ə nˌmɑː.stə r /","ukp":"/ˈsteɪ.ʃənˌmɑː.stər/","us":"us  / ˈsteɪ.ʃ ə nˌmæs.tɚ /","usp":"/ˈsteɪ.ʃənˌmæs.tɚ/"}
+{"title":"statist","uk":"uk  / ˈsteɪtɪst /","ukp":"/ˈsteɪtɪst/","us":"us ","usp":""}
+{"title":"statism","uk":"uk  / ˈsteɪtɪz ə m /","ukp":"/ˈsteɪtɪzəm/","us":"us ","usp":""}
+{"title":"statistic","uk":"uk  / stəˈtɪs.tɪk /","ukp":"/stəˈtɪs.tɪk/","us":"us  / stəˈtɪs.tɪk /","usp":"/stəˈtɪs.tɪk/"}
+{"title":"statistical","uk":"uk  / stəˈtɪs.tɪ.k ə l /","ukp":"/stəˈtɪs.tɪ.kəl/","us":"us  / stəˈtɪs.tɪ.k ə l /","usp":"/stəˈtɪs.tɪ.kəl/"}
+{"title":"statistical method","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statistical office","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"statistical process control","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stay behind","uk":"uk  / steɪ /","ukp":"/steɪ/","us":"us  / steɪ /","usp":"/steɪ/"}
+{"title":"stay away from someone/something","uk":"uk  / steɪ /","ukp":"/steɪ/","us":"us  / steɪ /","usp":"/steɪ/"}
+{"title":"stay of execution","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stay in","uk":"uk  / steɪ /","ukp":"/steɪ/","us":"us  / steɪ /","usp":"/steɪ/"}
+{"title":"stay of proceedings","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stay on","uk":"uk  / steɪ /","ukp":"/steɪ/","us":"us  / steɪ /","usp":"/steɪ/"}
+{"title":"stay on the rails","uk":"","us":""}
+{"title":"stay on the sidelines","uk":"","us":""}
+{"title":"stay out","uk":"uk  / steɪ /","ukp":"/steɪ/","us":"us  / steɪ /","usp":"/steɪ/"}
+{"title":"stay out of something","uk":"uk  / steɪ /","ukp":"/steɪ/","us":"us  / steɪ /","usp":"/steɪ/"}
+{"title":"stay put","uk":"","us":""}
+{"title":"stay over","uk":"uk  / steɪ /","ukp":"/steɪ/","us":"us  / steɪ /","usp":"/steɪ/"}
+{"title":"stay the course","uk":"","us":""}
+{"title":"stay up","uk":"uk  / steɪ /","ukp":"/steɪ/","us":"us  / steɪ /","usp":"/steɪ/"}
+{"title":"staycation","uk":"uk  / steɪˈkeɪ.ʃ ə n /","ukp":"/steɪˈkeɪ.ʃən/","us":"us  / steɪˈkeɪ.ʃ ə n /","usp":"/steɪˈkeɪ.ʃən/"}
+{"title":"stay-at-home","uk":"uk  / ˈsteɪ.ətˌhəʊm /","ukp":"/ˈsteɪ.ətˌhəʊm/","us":"us  / ˈsteɪ.ətˌhoʊm /","usp":"/ˈsteɪ.ətˌhoʊm/"}
+{"title":"stayer","uk":"uk  / ˈsteɪ.ə r /","ukp":"/ˈsteɪ.ər/","us":"us  / ˈsteɪ.ɚ /","usp":"/ˈsteɪ.ɚ/"}
+{"title":"stayed","uk":"uk  / steɪ /","ukp":"/steɪ/","us":"us  / steɪ /","usp":"/steɪ/"}
+{"title":"staying power","uk":"uk  / ˈsteɪ.ɪŋ ˌpaʊə r /","ukp":"/ˈsteɪ.ɪŋ ˌpaʊər/","us":"us  / ˈsteɪ.ɪŋ ˌpaʊ.ɚ /","usp":"/ˈsteɪ.ɪŋ ˌpaʊ.ɚ/"}
+{"title":"staying","uk":"uk  / steɪ /","ukp":"/steɪ/","us":"us  / steɪ /","usp":"/steɪ/"}
+{"title":"STC","uk":"","us":""}
+{"title":"std","uk":"uk  / ˌes.tiːˈdiː /","ukp":"/ˌes.tiːˈdiː/","us":"us  / ˌes.tiːˈdiː /","usp":"/ˌes.tiːˈdiː/"}
+{"title":"stead","uk":"uk  / sted /","ukp":"/sted/","us":"us  / sted /","usp":"/sted/"}
+{"title":"steadfast","uk":"uk  / ˈsted.fɑːst /","ukp":"/ˈsted.fɑːst/","us":"us  / ˈsted.fæst /","usp":"/ˈsted.fæst/"}
+{"title":"steadfastly","uk":"uk  / ˈsted.fɑːst.li /","ukp":"/ˈsted.fɑːst.li/","us":"us  / ˈsted.fæst.li /","usp":"/ˈsted.fæst.li/"}
+{"title":"steadied","uk":"uk  / ˈsted.i /","ukp":"/ˈsted.i/","us":"us  / ˈsted.i /","usp":"/ˈsted.i/"}
+{"title":"steadfastness","uk":"uk  / ˈsted.fɑːst.nəs /","ukp":"/ˈsted.fɑːst.nəs/","us":"us  / ˈsted.fæst.nəs /","usp":"/ˈsted.fæst.nəs/"}
+{"title":"steadily","uk":"uk  / ˈsted. ə l.i /","ukp":"/ˈsted.əl.i/","us":"us  / ˈsted. ə l.i /","usp":"/ˈsted.əl.i/"}
+{"title":"steady on!","uk":"","us":""}
+{"title":"steadiness","uk":"uk  / ˈsted.i.nəs /","ukp":"/ˈsted.i.nəs/","us":"us  / ˈsted.i.nəs /","usp":"/ˈsted.i.nəs/"}
+{"title":"steady/strong nerves","uk":"","us":""}
+{"title":"steady","uk":"uk  / ˈsted.i /","ukp":"/ˈsted.i/","us":"us  / ˈsted.i /","usp":"/ˈsted.i/"}
+{"title":"steadying","uk":"uk  / ˈsted.i /","ukp":"/ˈsted.i/","us":"us  / ˈsted.i /","usp":"/ˈsted.i/"}
+{"title":"steak and kidney pie","uk":"uk  / ˌsteɪk ən ˌkɪd.ni ˈpaɪ /","ukp":"/ˌsteɪk ən ˌkɪd.ni ˈpaɪ/","us":"us  / ˌsteɪk ən ˌkɪd.ni ˈpaɪ /","usp":"/ˌsteɪk ən ˌkɪd.ni ˈpaɪ/"}
+{"title":"steak","uk":"uk  / steɪk /","ukp":"/steɪk/","us":"us  / steɪk /","usp":"/steɪk/"}
+{"title":"steak knife","uk":"uk  / ˈsteɪk ˌnaɪf /","ukp":"/ˈsteɪk ˌnaɪf/","us":"us  / ˈsteɪk ˌnaɪf /","usp":"/ˈsteɪk ˌnaɪf/"}
+{"title":"steak tartare","uk":"uk  / ˌsteɪk tɑːˈtɑː r /","ukp":"/ˌsteɪk tɑːˈtɑːr/","us":"us  / ˌsteɪk tɑːrˈtɑːr /","usp":"/ˌsteɪk tɑːrˈtɑːr/"}
+{"title":"steakhouse","uk":"uk  / ˈsteɪk.haʊs /","ukp":"/ˈsteɪk.haʊs/","us":"us  / ˈsteɪk.haʊs /","usp":"/ˈsteɪk.haʊs/"}
+{"title":"steal someone's heart","uk":"","us":""}
+{"title":"steal a march on someone","uk":"","us":""}
+{"title":"steal someone's thunder","uk":"","us":""}
+{"title":"steal","uk":"uk  / stiːl /","ukp":"/stiːl/","us":"us  / stiːl /","usp":"/stiːl/"}
+{"title":"steal the limelight","uk":"","us":""}
+{"title":"steal the show/scene","uk":"","us":""}
+{"title":"stealth","uk":"uk  / stelθ /","ukp":"/stelθ/","us":"us  / stelθ /","usp":"/stelθ/"}
+{"title":"stealth advertising","uk":"uk  / ˌstelθ ˈæd.və.taɪ.zɪŋ /","ukp":"/ˌstelθ ˈæd.və.taɪ.zɪŋ/","us":"us  / ˌstelθ ˈæd.vɚ.taɪ.zɪŋ /","usp":"/ˌstelθ ˈæd.vɚ.taɪ.zɪŋ/"}
+{"title":"stealth bomber","uk":"uk  / ˈstelθ ˌbɒm.ə r /","ukp":"/ˈstelθ ˌbɒm.ər/","us":"us  / ˈstelθ ˌbɑː.mɚ /","usp":"/ˈstelθ ˌbɑː.mɚ/"}
+{"title":"stealth marketing","uk":"uk  / ˌstelθ ˈmɑː.kɪ.tɪŋ /","ukp":"/ˌstelθ ˈmɑː.kɪ.tɪŋ/","us":"us  / ˌstelθ ˈmɑːr.kɪ.t̬ɪŋ /","usp":"/ˌstelθ ˈmɑːr.kɪ.t̬ɪŋ/"}
+{"title":"stealth tax","uk":"uk  / ˈstelθ ˌtæks /","ukp":"/ˈstelθ ˌtæks/","us":"us  / ˈstelθ ˌtæks /","usp":"/ˈstelθ ˌtæks/"}
+{"title":"stealthing","uk":"uk  / ˈstel.θɪŋ /","ukp":"/ˈstel.θɪŋ/","us":"us  / ˈstel.θɪŋ /","usp":"/ˈstel.θɪŋ/"}
+{"title":"stealthily","uk":"uk  / ˈstel.θ ə l.i /","ukp":"/ˈstel.θəl.i/","us":"us  / ˈstel.θ ə l.i /","usp":"/ˈstel.θəl.i/"}
+{"title":"steam (something) up","uk":"uk  / stiːm /","ukp":"/stiːm/","us":"us  / stiːm /","usp":"/stiːm/"}
+{"title":"stealthy","uk":"uk  / ˈstel.θi /","ukp":"/ˈstel.θi/","us":"us  / ˈstel.θi /","usp":"/ˈstel.θi/"}
+{"title":"steam","uk":"uk  / stiːm /","ukp":"/stiːm/","us":"us  / stiːm /","usp":"/stiːm/"}
+{"title":"steam bath","uk":"uk  / ˈstiːm ˌbɑːθ /","ukp":"/ˈstiːm ˌbɑːθ/","us":"us  / ˈstiːm ˌbæθ /","usp":"/ˈstiːm ˌbæθ/"}
+{"title":"steam cleaner","uk":"uk  / ˌstiːm ˈkliː.nə r /","ukp":"/ˌstiːm ˈkliː.nər/","us":"us  / ˌstiːm ˈkliː.nɚ /","usp":"/ˌstiːm ˈkliː.nɚ/"}
+{"title":"steam engine","uk":"uk  / ˈstiːm ˌen.dʒɪn /","ukp":"/ˈstiːm ˌen.dʒɪn/","us":"us  / ˈstiːm ˌen.dʒɪn /","usp":"/ˈstiːm ˌen.dʒɪn/"}
+{"title":"steam iron","uk":"uk  / ˈstiːm ˌaɪən /","ukp":"/ˈstiːm ˌaɪən/","us":"us  / ˈstiːm ˌaɪrn /","usp":"/ˈstiːm ˌaɪrn/"}
+{"title":"steam locomotive","uk":"uk / ˈstiːm ləʊ.kəˌməʊ.tɪv /","ukp":"/ˈstiːm ləʊ.kəˌməʊ.tɪv/","us":"us  / ˈstiːm loʊ.kəˌmoʊ.t̬ɪv /","usp":"/ˈstiːm loʊ.kəˌmoʊ.t̬ɪv/"}
+{"title":"steam room","uk":"uk  / ˈstiːm ˌruːm /","ukp":"/ˈstiːm ˌruːm/","us":"us  / ˈstiːm ˌruːm /","usp":"/ˈstiːm ˌruːm/"}
+{"title":"steam shovel","uk":"uk  / ˈstiːm ˌʃʌv. ə l /","ukp":"/ˈstiːm ˌʃʌv.əl/","us":"us  / ˈstiːm ˌʃʌv. ə l /","usp":"/ˈstiːm ˌʃʌv.əl/"}
+{"title":"steam train","uk":"uk  / ˈstiːm ˌtreɪn /","ukp":"/ˈstiːm ˌtreɪn/","us":"us  / ˈstiːm ˌtreɪn /","usp":"/ˈstiːm ˌtreɪn/"}
+{"title":"steam-clean","uk":"uk  / ˌstiːmˈkliːn /","ukp":"/ˌstiːmˈkliːn/","us":"us  / ˌstiːmˈkliːn /","usp":"/ˌstiːmˈkliːn/"}
+{"title":"steamboat","uk":"uk  / ˈstiːm.bəʊt /","ukp":"/ˈstiːm.bəʊt/","us":"us  / ˈstiːm.boʊt /","usp":"/ˈstiːm.boʊt/"}
+{"title":"steamed","uk":"uk  / stiːm /","ukp":"/stiːm/","us":"us  / stiːm /","usp":"/stiːm/"}
+{"title":"steamed up","uk":"","us":""}
+{"title":"steamer","uk":"uk  / ˈstiː.mə r /","ukp":"/ˈstiː.mər/","us":"us  / ˈstiː.mɚ /","usp":"/ˈstiː.mɚ/"}
+{"title":"steaming","uk":"uk  / ˈstiː.mɪŋ /","ukp":"/ˈstiː.mɪŋ/","us":"us  / ˈstiː.mɪŋ /","usp":"/ˈstiː.mɪŋ/"}
+{"title":"steampunk","uk":"uk  / ˈstiːm.pʌŋk /","ukp":"/ˈstiːm.pʌŋk/","us":"us  / ˈstiːm.pʌŋk /","usp":"/ˈstiːm.pʌŋk/"}
+{"title":"steamroller","uk":"uk  / ˈstiːmˌrəʊ.lə r /","ukp":"/ˈstiːmˌrəʊ.lər/","us":"us  / ˈstiːmˌroʊ.lɚ /","usp":"/ˈstiːmˌroʊ.lɚ/"}
+{"title":"steamrollered","uk":"uk  / ˈstiːmˌrəʊ.lə r /","ukp":"/ˈstiːmˌrəʊ.lər/","us":"us  / ˈstiːmˌroʊ.lɚ /","usp":"/ˈstiːmˌroʊ.lɚ/"}
+{"title":"steamrollering","uk":"uk  / ˈstiːmˌrəʊ.lə r /","ukp":"/ˈstiːmˌrəʊ.lər/","us":"us  / ˈstiːmˌroʊ.lɚ /","usp":"/ˈstiːmˌroʊ.lɚ/"}
+{"title":"steamship","uk":"uk  / ˈstiːm.ʃɪp /","ukp":"/ˈstiːm.ʃɪp/","us":"us  / ˈstiːm.ʃɪp /","usp":"/ˈstiːm.ʃɪp/"}
+{"title":"steamy","uk":"uk  / ˈstiː.mi /","ukp":"/ˈstiː.mi/","us":"us  / ˈstiː.mi /","usp":"/ˈstiː.mi/"}
+{"title":"stearic acid","uk":"uk  / stiˌærɪk ˈæsɪd /","ukp":"/stiˌærɪk ˈæsɪd/","us":"us  / ˌstɪr.ɪk ˈæsɪd /","usp":"/ˌstɪr.ɪk ˈæsɪd/"}
+{"title":"steed","uk":"uk  / stiːd /","ukp":"/stiːd/","us":"us  / stiːd /","usp":"/stiːd/"}
+{"title":"steel band","uk":"uk  / ˌstiːl ˈbænd /","ukp":"/ˌstiːl ˈbænd/","us":"us  / ˌstiːl ˈbænd /","usp":"/ˌstiːl ˈbænd/"}
+{"title":"steel","uk":"uk  / stiːl /","ukp":"/stiːl/","us":"us  / stiːl /","usp":"/stiːl/"}
+{"title":"steel drum","uk":"uk  / ˌstiːl ˈdrʌm /","ukp":"/ˌstiːl ˈdrʌm/","us":"us  / ˌstiːl ˈdrʌm /","usp":"/ˌstiːl ˈdrʌm/"}
+{"title":"steel grey","uk":"uk  / ˌstiːl ˈɡreɪ /","ukp":"/ˌstiːl ˈɡreɪ/","us":"us  / ˌstiːl ˈɡreɪ /","usp":"/ˌstiːl ˈɡreɪ/"}
+{"title":"steel guitar","uk":"uk  / ˌstiːl ɡɪˈtɑː r /","ukp":"/ˌstiːl ɡɪˈtɑːr/","us":"us  / ˌstiːl ɡɪˈtɑːr /","usp":"/ˌstiːl ɡɪˈtɑːr/"}
+{"title":"steel mill","uk":"uk  / ˈstiːl ˌmɪl /","ukp":"/ˈstiːl ˌmɪl/","us":"us  / ˈstiːl ˌmɪl /","usp":"/ˈstiːl ˌmɪl/"}
+{"title":"steel-capped","uk":"uk  / ˌstiːlˈkæpt /","ukp":"/ˌstiːlˈkæpt/","us":"us  / ˌstiːlˈkæpt /","usp":"/ˌstiːlˈkæpt/"}
+{"title":"steel wool","uk":"uk  / ˌstiːl ˈwʊl /","ukp":"/ˌstiːl ˈwʊl/","us":"us  / ˌstiːl ˈwʊl /","usp":"/ˌstiːl ˈwʊl/"}
+{"title":"steel-gray","uk":"uk  / ˌstiːl ˈɡreɪ /","ukp":"/ˌstiːl ˈɡreɪ/","us":"us  / ˌstiːl ˈɡreɪ /","usp":"/ˌstiːl ˈɡreɪ/"}
+{"title":"steel-toecapped","uk":"uk  / ˌstiːlˈtəʊ.kæpt /","ukp":"/ˌstiːlˈtəʊ.kæpt/","us":"us  / ˌstiːlˈtoʊ.kæpt /","usp":"/ˌstiːlˈtoʊ.kæpt/"}
+{"title":"steel-toed","uk":"uk  / ˌstiːlˈtəʊd /","ukp":"/ˌstiːlˈtəʊd/","us":"us  / ˌstiːlˈtoʊd /","usp":"/ˌstiːlˈtoʊd/"}
+{"title":"Steele-Richardson-Olszewski syndrome","uk":"uk  / stiːlˌrɪtʃ.əd.sən.ɒlsˈzuː.ski ˌsɪn.drəʊm /","ukp":"/stiːlˌrɪtʃ.əd.sən.ɒlsˈzuː.ski ˌsɪn.drəʊm/","us":"us  / stilˌrɪtʃ.ɚd.sən.ɑːlsˈzuː.ski ˌsɪn.droʊm /","usp":"/stilˌrɪtʃ.ɚd.sən.ɑːlsˈzuː.ski ˌsɪn.droʊm/"}
+{"title":"steelmaker","uk":"uk  / ˈstiːlˌmeɪkə r /","ukp":"/ˈstiːlˌmeɪkər/","us":"us ","usp":""}
+{"title":"steelworker","uk":"uk  / ˈstiːlˌwɜː.kə r /","ukp":"/ˈstiːlˌwɜː.kər/","us":"us  / ˈstiːlˌwɝː.kɚ /","usp":"/ˈstiːlˌwɝː.kɚ/"}
+{"title":"steelworks","uk":"uk  / ˈstiːl.wɜːks /","ukp":"/ˈstiːl.wɜːks/","us":"us  / ˈstiːl.wɝːks /","usp":"/ˈstiːl.wɝːks/"}
+{"title":"steely","uk":"uk  / ˈstiː.li /","ukp":"/ˈstiː.li/","us":"us  / ˈstiː.li /","usp":"/ˈstiː.li/"}
+{"title":"steep something/someone in something","uk":"uk  / stiːp /","ukp":"/stiːp/","us":"us  / stiːp /","usp":"/stiːp/"}
+{"title":"steep","uk":"uk  / stiːp /","ukp":"/stiːp/","us":"us  / stiːp /","usp":"/stiːp/"}
+{"title":"steeped","uk":"uk  / stiːp /","ukp":"/stiːp/","us":"us  / stiːp /","usp":"/stiːp/"}
+{"title":"stepwise","uk":"uk  / ˈstep.waɪz /","ukp":"/ˈstep.waɪz/","us":"us  / ˈstep.waɪz /","usp":"/ˈstep.waɪz/"}
+{"title":"-ster","uk":"uk  / -stə r /","ukp":"/ -stər/","us":"us  / -stɚ /","usp":"/ -stɚ/"}
+{"title":"stereo","uk":"uk  / ˈster.i.əʊ /","ukp":"/ˈster.i.əʊ/","us":"us  / ˈster.i.oʊ /","usp":"/ˈster.i.oʊ/"}
+{"title":"stereoscopic","uk":"uk  / ˌster.i.əˈskɒp.ɪk /","ukp":"/ˌster.i.əˈskɒp.ɪk/","us":"us  / ˌster.i.əˈskɑː.pɪk /","usp":"/ˌster.i.əˈskɑː.pɪk/"}
+{"title":"stereotactic","uk":"uk  / ˌster.i.əʊˈtæk.tɪk /","ukp":"/ˌster.i.əʊˈtæk.tɪk/","us":"us  / ˌster.i.əˈtæk.tɪk /","usp":"/ˌster.i.əˈtæk.tɪk/"}
+{"title":"stereotyped","uk":"uk  / ˈster.i.ə.taɪp /","ukp":"/ˈster.i.ə.taɪp/","us":"us  / ˈster.i.ə.taɪp /","usp":"/ˈster.i.ə.taɪp/"}
+{"title":"stereotype","uk":"uk  / ˈster.i.ə.taɪp /","ukp":"/ˈster.i.ə.taɪp/","us":"us  / ˈster.i.ə.taɪp /","usp":"/ˈster.i.ə.taɪp/"}
+{"title":"stereotypical","uk":"uk  / ˌster.i.əˈtɪp.ɪ.k ə l /","ukp":"/ˌster.i.əˈtɪp.ɪ.kəl/","us":"us  / ˌster.i.əˈtɪp.ɪ.k ə l /","usp":"/ˌster.i.əˈtɪp.ɪ.kəl/"}
+{"title":"stereotypically","uk":"uk  / ˌster.i.əˈtɪp.ɪ.k ə l.i /","ukp":"/ˌster.i.əˈtɪp.ɪ.kəl.i/","us":"us  / ˌster.i.əˈtɪp.ɪ.k ə l.i /","usp":"/ˌster.i.əˈtɪp.ɪ.kəl.i/"}
+{"title":"stereotyping","uk":"uk  / ˈster.i.ə.taɪp /","ukp":"/ˈster.i.ə.taɪp/","us":"us  / ˈster.i.ə.taɪp /","usp":"/ˈster.i.ə.taɪp/"}
+{"title":"sterile","uk":"uk  / ˈster.aɪl /","ukp":"/ˈster.aɪl/","us":"us  / ˈster. ə l /","usp":"/ˈster.əl/"}
+{"title":"sterility","uk":"uk  / stəˈrɪl.ə.ti /","ukp":"/stəˈrɪl.ə.ti/","us":"us  / stəˈrɪl.ə.t̬i /","usp":"/stəˈrɪl.ə.t̬i/"}
+{"title":"sterilization","uk":"uk  / ˌster.ɪ.laɪˈzeɪ.ʃ ə n /","ukp":"/ˌster.ɪ.laɪˈzeɪ.ʃən/","us":"us  / ˌster.ə.ləˈzeɪ.ʃ ə n /","usp":"/ˌster.ə.ləˈzeɪ.ʃən/"}
+{"title":"sterilized","uk":"uk  / ˈster.ɪ.laɪz /","ukp":"/ˈster.ɪ.laɪz/","us":"us  / ˈster.ə.laɪz /","usp":"/ˈster.ə.laɪz/"}
+{"title":"sterilize","uk":"uk  / ˈster.ɪ.laɪz /","ukp":"/ˈster.ɪ.laɪz/","us":"us  / ˈster.ə.laɪz /","usp":"/ˈster.ə.laɪz/"}
+{"title":"sterilizer","uk":"uk  / ˈster.ɪ.laɪ.zə r /","ukp":"/ˈster.ɪ.laɪ.zər/","us":"us  / ˈster.ə.laɪ.zɚ /","usp":"/ˈster.ə.laɪ.zɚ/"}
+{"title":"sterilizing","uk":"uk  / ˈster.ɪ.laɪ.zɪŋ /","ukp":"/ˈster.ɪ.laɪ.zɪŋ/","us":"us  / ˈster.ə.laɪ.zɪŋ /","usp":"/ˈster.ə.laɪ.zɪŋ/"}
+{"title":"sterling (silver)","uk":"","us":"us  / ˈstɜr·lɪŋ (ˈsɪl·vər) /","usp":"/ˈstɜr·lɪŋ (ˈsɪl·vər)/"}
+{"title":"sterling","uk":"uk  / ˈstɜː.lɪŋ /","ukp":"/ˈstɜː.lɪŋ/","us":"us  / ˈstɝː.lɪŋ /","usp":"/ˈstɝː.lɪŋ/"}
+{"title":"sterling bond","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"stern","uk":"uk  / stɜːn /","ukp":"/stɜːn/","us":"us  / stɝːn /","usp":"/stɝːn/"}
+{"title":"sterna","uk":"","us":""}
+{"title":"sternal","uk":"uk  / ˈstɜːn.əl /","ukp":"/ˈstɜːn.əl/","us":"us  / ˈstɝː.n ə l /","usp":"/ˈstɝː.nəl/"}
+{"title":"sternness","uk":"uk  / ˈstɜːn.nəs /","ukp":"/ˈstɜːn.nəs/","us":"us  / ˈstɝːn.nəs /","usp":"/ˈstɝːn.nəs/"}
+{"title":"sternly","uk":"uk  / ˈstɜːn.li /","ukp":"/ˈstɜːn.li/","us":"us  / ˈstɝːn.li /","usp":"/ˈstɝːn.li/"}
+{"title":"sternoclavicular","uk":"uk  / ˌstɜːn.əʊ.kləˈvɪk.jə.lə r /","ukp":"/ˌstɜːn.əʊ.kləˈvɪk.jə.lər/","us":"us  / ˌstɝː.noʊ.kləˈvɪk.jə.lɚ /","usp":"/ˌstɝː.noʊ.kləˈvɪk.jə.lɚ/"}
+{"title":"sternocleidomastoid","uk":"uk  / ˌstɜːn.əʊˌklaɪd.əʊˈmæst.ɔɪd /","ukp":"/ˌstɜːn.əʊˌklaɪd.əʊˈmæst.ɔɪd/","us":"us  / ˌstɝː.noʊ.klaɪ.doʊˈmæs.tɔɪd /","usp":"/ˌstɝː.noʊ.klaɪ.doʊˈmæs.tɔɪd/"}
+{"title":"sternum","uk":"uk  / ˈstɜː.nəm /","ukp":"/ˈstɜː.nəm/","us":"us  / ˈstɝː.nəm /","usp":"/ˈstɝː.nəm/"}
+{"title":"sternocostal","uk":"uk  / ˌstɜːn.əʊˈkɒst.əl /","ukp":"/ˌstɜːn.əʊˈkɒst.əl/","us":"us  / ˌstɝː.noʊˈkɑːs.t ə l /","usp":"/ˌstɝː.noʊˈkɑːs.təl/"}
+{"title":"steroid","uk":"uk  / ˈste.rɔɪd /","ukp":"/ˈste.rɔɪd/","us":"us  / ˈster.ɔɪd /","usp":"/ˈster.ɔɪd/"}
+{"title":"Stetson","uk":"uk  / ˈstet.s ə n /","ukp":"/ˈstet.sən/","us":"us  / ˈstet.s ə n /","usp":"/ˈstet.sən/"}
+{"title":"stevedore","uk":"uk  / ˈstiː.və.dɔː r /","ukp":"/ˈstiː.və.dɔːr/","us":"us  / ˈstiː.və.dɔːr /","usp":"/ˈstiː.və.dɔːr/"}
+{"title":"stevedoring","uk":"uk  / ˈstiːvədɔːrɪŋ /","ukp":"/ˈstiːvədɔːrɪŋ/","us":"us ","usp":""}
+{"title":"stevia","uk":"uk  / ˈstev.i.ə /","ukp":"/ˈstev.i.ə/","us":"us  / ˈstiːv.i.ə /","usp":"/ˈstiːv.i.ə/"}
+{"title":"stethoscope","uk":"uk  / ˈsteθ.ə.skəʊp /","ukp":"/ˈsteθ.ə.skəʊp/","us":"us  / ˈsteθ.ə.skoʊp /","usp":"/ˈsteθ.ə.skoʊp/"}
+{"title":"stew (in your own juice)","uk":"","us":""}
+{"title":"stew","uk":"uk  / stjuː /","ukp":"/stjuː/","us":"us  / stuː /","usp":"/stuː/"}
+{"title":"stew (in your own juices)","uk":"","us":""}
+{"title":"stewardess","uk":"uk  / ˈstjuːədes /","ukp":"/ˈstjuːədes/","us":"us ","usp":""}
+{"title":"steward","uk":"uk  / ˈstjuː.əd /","ukp":"/ˈstjuː.əd/","us":"us  / ˈstuː.ɚd /","usp":"/ˈstuː.ɚd/"}
+{"title":"stewardship","uk":"uk  / ˈstjuː.əd.ʃɪp /","ukp":"/ˈstjuː.əd.ʃɪp/","us":"us  / ˈstuː.ɚd.ʃɪp /","usp":"/ˈstuː.ɚd.ʃɪp/"}
+{"title":"stewed","uk":"uk  / stjuːd /","ukp":"/stjuːd/","us":"us  / stuːd /","usp":"/stuːd/"}

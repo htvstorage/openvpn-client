@@ -1,0 +1,914 @@
+{"title":"proctored","uk":"uk  / ˈprɒk.tə r /","ukp":"/ˈprɒk.tər/","us":"us  / ˈprɑːk.tɚ /","usp":"/ˈprɑːk.tɚ/"}
+{"title":"proctoring","uk":"uk  / ˈprɒk.tə r /","ukp":"/ˈprɒk.tər/","us":"us  / ˈprɑːk.tɚ /","usp":"/ˈprɑːk.tɚ/"}
+{"title":"proctor","uk":"uk  / ˈprɒk.tə r /","ukp":"/ˈprɒk.tər/","us":"us  / ˈprɑːk.tɚ /","usp":"/ˈprɑːk.tɚ/"}
+{"title":"proctitis","uk":"uk  / prɒkˈtaɪ.tɪs /","ukp":"/prɒkˈtaɪ.tɪs/","us":"us  / prɑːkˈtaɪ.t̬əs /","usp":"/prɑːkˈtaɪ.t̬əs/"}
+{"title":"procurator","uk":"uk  / ˈprɒk.jʊəˌreɪ.tə r /","ukp":"/ˈprɒk.jʊəˌreɪ.tər/","us":"us  / ˈprɑː.kjʊˌreɪ.t̬ɚ /","usp":"/ˈprɑː.kjʊˌreɪ.t̬ɚ/"}
+{"title":"procurators fiscal","uk":"","us":""}
+{"title":"procurator fiscal","uk":"uk  / ˌprɒk.jʊə.reɪ.tə ˈfɪs.k ə l /","ukp":"/ˌprɒk.jʊə.reɪ.tə ˈfɪs.kəl/","us":"us  / ˌprɑː.kjʊ.reɪ.t̬ɚ ˈfɪs.k ə l /","usp":"/ˌprɑː.kjʊ.reɪ.t̬ɚ ˈfɪs.kəl/"}
+{"title":"procure","uk":"uk  / prəˈkjʊə r /","ukp":"/prəˈkjʊər/","us":"us  / prəˈkjʊr /","usp":"/prəˈkjʊr/"}
+{"title":"procured","uk":"uk  / prəˈkjʊə r /","ukp":"/prəˈkjʊər/","us":"us  / prəˈkjʊr /","usp":"/prəˈkjʊr/"}
+{"title":"procurement","uk":"uk  / prəˈkjʊə.mənt /","ukp":"/prəˈkjʊə.mənt/","us":"us  / prəˈkjʊr.mənt /","usp":"/prəˈkjʊr.mənt/"}
+{"title":"procurer","uk":"uk  / prəˈkjʊə.rə r /","ukp":"/prəˈkjʊə.rər/","us":"us  / prəˈkjʊr.ɚ /","usp":"/prəˈkjʊr.ɚ/"}
+{"title":"procurement officer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"procuring","uk":"uk  / prəˈkjʊə r /","ukp":"/prəˈkjʊər/","us":"us  / prəˈkjʊr /","usp":"/prəˈkjʊr/"}
+{"title":"Proddie","uk":"uk  / ˈprɒd.i /","ukp":"/ˈprɒd.i/","us":"us  / ˈprɑː.di /","usp":"/ˈprɑː.di/"}
+{"title":"prod","uk":"uk  / prɒd /","ukp":"/prɒd/","us":"us  / prɑːd /","usp":"/prɑːd/"}
+{"title":"prodigal","uk":"uk  / ˈprɒd.ɪ.ɡ ə l /","ukp":"/ˈprɒd.ɪ.ɡəl/","us":"us  / ˈprɑː.dɪ.ɡ ə l /","usp":"/ˈprɑː.dɪ.ɡəl/"}
+{"title":"prodigal son","uk":"uk  / ˌprɒd.ɪ.ɡ ə l ˈsʌn /","ukp":"/ˌprɒd.ɪ.ɡəl ˈsʌn/","us":"us  / ˌprɑː.dɪ.ɡ ə l ˈsʌn /","usp":"/ˌprɑː.dɪ.ɡəl ˈsʌn/"}
+{"title":"prodigality","uk":"uk  / ˌprɒd.ɪˈɡæl.ə.ti /","ukp":"/ˌprɒd.ɪˈɡæl.ə.ti/","us":"us  / ˌprɑː.dɪˈɡæl.ə.t̬i /","usp":"/ˌprɑː.dɪˈɡæl.ə.t̬i/"}
+{"title":"prodigally","uk":"uk  / ˈprɒd.ɪ.ɡ ə l.i /","ukp":"/ˈprɒd.ɪ.ɡəl.i/","us":"us  / ˈprɑː.dɪ.ɡ ə l.i /","usp":"/ˈprɑː.dɪ.ɡəl.i/"}
+{"title":"prodigious","uk":"uk  / prəˈdɪdʒ.əs /","ukp":"/prəˈdɪdʒ.əs/","us":"us  / prəˈdɪdʒ.əs /","usp":"/prəˈdɪdʒ.əs/"}
+{"title":"prodigiously","uk":"uk  / prəˈdɪdʒ.əs.li /","ukp":"/prəˈdɪdʒ.əs.li/","us":"us  / prəˈdɪdʒ.əs.li /","usp":"/prəˈdɪdʒ.əs.li/"}
+{"title":"prodigy","uk":"uk  / ˈprɒd.ɪ.dʒi /","ukp":"/ˈprɒd.ɪ.dʒi/","us":"us  / ˈprɑː.də.dʒi /","usp":"/ˈprɑː.də.dʒi/"}
+{"title":"produce box","uk":"uk  / ˈprɒdʒ.uːs ˌbɒks /","ukp":"/ˈprɒdʒ.uːs ˌbɒks/","us":"us  / ˈproʊ.duːs ˌbɑːks /","usp":"/ˈproʊ.duːs ˌbɑːks/"}
+{"title":"produce","uk":"uk  / prəˈdʒuːs /","ukp":"/prəˈdʒuːs/","us":"us  / prəˈduːs /","usp":"/prəˈduːs/"}
+{"title":"produced","uk":"uk  / prəˈdʒuːs /","ukp":"/prəˈdʒuːs/","us":"us  / prəˈduːs /","usp":"/prəˈduːs/"}
+{"title":"producer","uk":"uk  / prəˈdʒuː.sə r /","ukp":"/prəˈdʒuː.sər/","us":"us  / prəˈduː.sɚ /","usp":"/prəˈduː.sɚ/"}
+{"title":"producer goods","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"producer price","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"producer price index","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"producing","uk":"uk  / prəˈdʒuːs /","ukp":"/prəˈdʒuːs/","us":"us  / prəˈduːs /","usp":"/prəˈduːs/"}
+{"title":"product advertising","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product","uk":"uk  / ˈprɒd.ʌkt /","ukp":"/ˈprɒd.ʌkt/","us":"us  / ˈprɑː.dʌkt /","usp":"/ˈprɑː.dʌkt/"}
+{"title":"product awareness","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product base","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product branding","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product breakdown structure","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product catalog","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product catalogue","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product category","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product concept testing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product comparison","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product concept","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product cycle","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product deletion","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product design","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product development","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product development cycle","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product development process","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"problem child","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"problem","uk":"uk  / ˈprɒb.ləm /","ukp":"/ˈprɒb.ləm/","us":"us  / ˈprɑː.bləm /","usp":"/ˈprɑː.bləm/"}
+{"title":"problem page","uk":"uk  / ˈprɒb.ləm ˌpeɪdʒ /","ukp":"/ˈprɒb.ləm ˌpeɪdʒ/","us":"us  / ˈprɑː.bləm ˌpeɪdʒ /","usp":"/ˈprɑː.bləm ˌpeɪdʒ/"}
+{"title":"problem-solving","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"problematic","uk":"uk  / ˌprɒb.ləˈmæt.ɪk /","ukp":"/ˌprɒb.ləˈmæt.ɪk/","us":"us  / ˌprɑː.bləˈmæt̬.ɪk /","usp":"/ˌprɑː.bləˈmæt̬.ɪk/"}
+{"title":"probosces","uk":"","us":""}
+{"title":"problematically","uk":"uk  / ˌprɒb.ləˈmæt.ɪ.k ə l.i /","ukp":"/ˌprɒb.ləˈmæt.ɪ.kəl.i/","us":"us  / ˌprɑː.bləˈmæt̬.ɪ.k ə l.i /","usp":"/ˌprɑː.bləˈmæt̬.ɪ.kəl.i/"}
+{"title":"proboscis","uk":"uk  / prəˈbɒs.ɪs /","ukp":"/prəˈbɒs.ɪs/","us":"us  / proʊˈbɑː.sɪs /","usp":"/proʊˈbɑː.sɪs/"}
+{"title":"probs","uk":"uk  / prɒbz /","ukp":"/prɒbz/","us":"us  / prɑːbz /","usp":"/prɑːbz/"}
+{"title":"procedural law","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"procedurally","uk":"uk  / prəˈsiː.dʒ ə r. ə l.i /","ukp":"/prəˈsiː.dʒər.əl.i/","us":"us  / prəˈsiː.dʒɚ. ə l.i /","usp":"/prəˈsiː.dʒɚ.əl.i/"}
+{"title":"procedural","uk":"uk  / prəˈsiː.dʒ ə r. ə l /","ukp":"/prəˈsiː.dʒər.əl/","us":"us  / prəˈsiː.dʒɚ. ə l /","usp":"/prəˈsiː.dʒɚ.əl/"}
+{"title":"proceed against someone","uk":"uk  / prəˈsiːd /","ukp":"/prəˈsiːd/","us":"us  / proʊˈsiːd /","usp":"/proʊˈsiːd/"}
+{"title":"proceed to sth","uk":"uk  / prəʊˈsiːd /","ukp":"/prəʊˈsiːd/","us":"us ","usp":""}
+{"title":"proceed","uk":"uk  / prəˈsiːd /","ukp":"/prəˈsiːd/","us":"us  / proʊˈsiːd /","usp":"/proʊˈsiːd/"}
+{"title":"procedure","uk":"uk  / prəˈsiː.dʒə r /","ukp":"/prəˈsiː.dʒər/","us":"us  / prəˈsiː.dʒɚ /","usp":"/prəˈsiː.dʒɚ/"}
+{"title":"proceeded","uk":"uk  / prəˈsiːd /","ukp":"/prəˈsiːd/","us":"us  / proʊˈsiːd /","usp":"/proʊˈsiːd/"}
+{"title":"proceeding","uk":"uk  / prəˈsiːd /","ukp":"/prəˈsiːd/","us":"us  / proʊˈsiːd /","usp":"/proʊˈsiːd/"}
+{"title":"proceedings","uk":"uk  / prəˈsiː.dɪŋz /","ukp":"/prəˈsiː.dɪŋz/","us":"us  / proʊˈsiː.dɪŋz /","usp":"/proʊˈsiː.dɪŋz/"}
+{"title":"proceeds","uk":"uk  / ˈprəʊ.siːdz /","ukp":"/ˈprəʊ.siːdz/","us":"us  / ˈproʊ.siːdz /","usp":"/ˈproʊ.siːdz/"}
+{"title":"process analysis","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"process","uk":"uk  / ˈprəʊ.ses /","ukp":"/ˈprəʊ.ses/","us":"us  / ˈprɑː.ses /","usp":"/ˈprɑː.ses/"}
+{"title":"process flow chart","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"process improvement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"process management","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"process owner","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"processed","uk":"uk  / ˈprəʊ.sest /","ukp":"/ˈprəʊ.sest/","us":"us  / ˈprɑː- /","usp":"/ˈprɑː-/"}
+{"title":"processing","uk":"uk  / ˈprəʊ.ses.ɪŋ /","ukp":"/ˈprəʊ.ses.ɪŋ/","us":"us  / ˈprɑː.ses.ɪŋ /","usp":"/ˈprɑː.ses.ɪŋ/"}
+{"title":"procession","uk":"uk  / prəˈseʃ. ə n /","ukp":"/prəˈseʃ.ən/","us":"us  / prəˈseʃ. ə n /","usp":"/prəˈseʃ.ən/"}
+{"title":"processional","uk":"uk  / prəˈseʃ. ə n. ə l /","ukp":"/prəˈseʃ.ən.əl/","us":"us  / prəˈseʃ. ə n. ə l /","usp":"/prəˈseʃ.ən.əl/"}
+{"title":"procidentia","uk":"uk  / prəʊ.sɪˈden.tʃə /","ukp":"/prəʊ.sɪˈden.tʃə/","us":"us  / ˌproʊ.səˈden.tʃə /","usp":"/ˌproʊ.səˈden.tʃə/"}
+{"title":"processus","uk":"uk  / prəʊˈses.əs /","ukp":"/prəʊˈses.əs/","us":"us  / proʊˈses.əs /","usp":"/proʊˈses.əs/"}
+{"title":"processor","uk":"uk  / ˈprəʊ.ses.ə r /","ukp":"/ˈprəʊ.ses.ər/","us":"us  / ˈprɑː.ses.ɚ /","usp":"/ˈprɑː.ses.ɚ/"}
+{"title":"proclaimed","uk":"uk  / prəˈkleɪm /","ukp":"/prəˈkleɪm/","us":"us  / proʊˈkleɪm /","usp":"/proʊˈkleɪm/"}
+{"title":"proclaim","uk":"uk  / prəˈkleɪm /","ukp":"/prəˈkleɪm/","us":"us  / proʊˈkleɪm /","usp":"/proʊˈkleɪm/"}
+{"title":"proclamation","uk":"uk  / ˌprɒk.ləˈmeɪ.ʃ ə n /","ukp":"/ˌprɒk.ləˈmeɪ.ʃən/","us":"us  / ˌprɑː.kləˈmeɪ.ʃ ə n /","usp":"/ˌprɑː.kləˈmeɪ.ʃən/"}
+{"title":"proclaiming","uk":"uk  / prəˈkleɪm /","ukp":"/prəˈkleɪm/","us":"us  / proʊˈkleɪm /","usp":"/proʊˈkleɪm/"}
+{"title":"proclivity","uk":"uk  / prəˈklɪv.ə.ti /","ukp":"/prəˈklɪv.ə.ti/","us":"us  / prəˈklɪv.ə.t̬i /","usp":"/prəˈklɪv.ə.t̬i/"}
+{"title":"procrastinated","uk":"uk  / prəˈkræs.tɪ.neɪt /","ukp":"/prəˈkræs.tɪ.neɪt/","us":"us  / proʊˈkræs.tə.neɪt /","usp":"/proʊˈkræs.tə.neɪt/"}
+{"title":"procrastinate","uk":"uk  / prəˈkræs.tɪ.neɪt /","ukp":"/prəˈkræs.tɪ.neɪt/","us":"us  / proʊˈkræs.tə.neɪt /","usp":"/proʊˈkræs.tə.neɪt/"}
+{"title":"procrastinating","uk":"uk  / prəˈkræs.tɪ.neɪt /","ukp":"/prəˈkræs.tɪ.neɪt/","us":"us  / proʊˈkræs.tə.neɪt /","usp":"/proʊˈkræs.tə.neɪt/"}
+{"title":"procreate","uk":"uk  / ˈprəʊ.kri.eɪt /","ukp":"/ˈprəʊ.kri.eɪt/","us":"us  / ˈproʊ.kri.eɪt /","usp":"/ˈproʊ.kri.eɪt/"}
+{"title":"procrastination","uk":"uk  / prəˌkræs.tɪˈneɪ.ʃ ə n /","ukp":"/prəˌkræs.tɪˈneɪ.ʃən/","us":"us  / proʊˌkræs.tɪˈneɪ.ʃ ə n /","usp":"/proʊˌkræs.tɪˈneɪ.ʃən/"}
+{"title":"procrastinator","uk":"uk  / prəˈkræs.tɪ.neɪ.tə r /","ukp":"/prəˈkræs.tɪ.neɪ.tər/","us":"us  / proʊˈkræs.tə.neɪ.t̬ɚ /","usp":"/proʊˈkræs.tə.neɪ.t̬ɚ/"}
+{"title":"procreated","uk":"uk  / ˈprəʊ.kri.eɪt /","ukp":"/ˈprəʊ.kri.eɪt/","us":"us  / ˈproʊ.kri.eɪt /","usp":"/ˈproʊ.kri.eɪt/"}
+{"title":"procreating","uk":"uk  / ˈprəʊ.kri.eɪt /","ukp":"/ˈprəʊ.kri.eɪt/","us":"us  / ˈproʊ.kri.eɪt /","usp":"/ˈproʊ.kri.eɪt/"}
+{"title":"primmest","uk":"","us":""}
+{"title":"procreation","uk":"uk  / ˌprəʊ.kriˈeɪ.ʃ ə n /","ukp":"/ˌprəʊ.kriˈeɪ.ʃən/","us":"us  / ˌproʊ.kriˈeɪ.ʃ ə n /","usp":"/ˌproʊ.kriˈeɪ.ʃən/"}
+{"title":"primo","uk":"uk / ˈpriː.məʊ /","ukp":"/ˈpriː.məʊ/","us":"us / ˈpriː.moʊ /","usp":"/ˈpriː.moʊ/"}
+{"title":"primogeniture","uk":"uk  / ˌpraɪ.məʊˈdʒen.ɪ.tʃə r /","ukp":"/ˌpraɪ.məʊˈdʒen.ɪ.tʃər/","us":"us  / ˌpraɪ.moʊˈdʒen.ə.tʃɚ /","usp":"/ˌpraɪ.moʊˈdʒen.ə.tʃɚ/"}
+{"title":"primordial","uk":"uk  / praɪˈmɔː.di.əl /","ukp":"/praɪˈmɔː.di.əl/","us":"us  / praɪˈmɔːr.di.əl /","usp":"/praɪˈmɔːr.di.əl/"}
+{"title":"primordial soup","uk":"uk  / praɪˌmɔː.di.əl ˈsuːp /","ukp":"/praɪˌmɔː.di.əl ˈsuːp/","us":"us  / praɪˌmɔːr.di.əl ˈsuːp /","usp":"/praɪˌmɔːr.di.əl ˈsuːp/"}
+{"title":"primp","uk":"uk  / prɪmp /","ukp":"/prɪmp/","us":"us  / prɪmp /","usp":"/prɪmp/"}
+{"title":"primula","uk":"uk  / ˈprɪm.jə.lə /","ukp":"/ˈprɪm.jə.lə/","us":"us  / ˈprɪm.jə.lə /","usp":"/ˈprɪm.jə.lə/"}
+{"title":"primrose","uk":"uk  / ˈprɪm.rəʊz /","ukp":"/ˈprɪm.rəʊz/","us":"us  / ˈprɪm.roʊz /","usp":"/ˈprɪm.roʊz/"}
+{"title":"Primus stove","uk":"uk  / ˈpraɪ.məs ˌstəʊv /","ukp":"/ˈpraɪ.məs ˌstəʊv/","us":"us  / ˈpraɪ.məs ˌstoʊv /","usp":"/ˈpraɪ.məs ˌstoʊv/"}
+{"title":"Prince Charming","uk":"uk  / ˌprɪns ˈtʃɑː.mɪŋ /","ukp":"/ˌprɪns ˈtʃɑː.mɪŋ/","us":"us  / ˌprɪns ˈtʃɑːr.mɪŋ /","usp":"/ˌprɪns ˈtʃɑːr.mɪŋ/"}
+{"title":"prince","uk":"uk  / prɪns /","ukp":"/prɪns/","us":"us  / prɪns /","usp":"/prɪns/"}
+{"title":"prince consort","uk":"uk  / ˌprɪns ˈkɒn.sɔːt /","ukp":"/ˌprɪns ˈkɒn.sɔːt/","us":"us  / ˌprɪns ˈkɑːn.sɔːrt /","usp":"/ˌprɪns ˈkɑːn.sɔːrt/"}
+{"title":"Prince Edward Island","uk":"uk  / ˌprɪns ˈed.wəd ˌaɪ.lənd /","ukp":"/ˌprɪns ˈed.wəd ˌaɪ.lənd/","us":"us  / ˌprɪns ˈed.wɚd ˌaɪ.lənd /","usp":"/ˌprɪns ˈed.wɚd ˌaɪ.lənd/"}
+{"title":"Prince of Wales","uk":"uk  / ˌprɪns.əv ˈweɪlz /","ukp":"/ˌprɪns.əv ˈweɪlz/","us":"us  / ˌprɪns.əv ˈweɪlz /","usp":"/ˌprɪns.əv ˈweɪlz/"}
+{"title":"princely","uk":"uk  / ˈprɪns.li /","ukp":"/ˈprɪns.li/","us":"us  / ˈprɪns.li /","usp":"/ˈprɪns.li/"}
+{"title":"princess","uk":"uk  / prɪnˈses /","ukp":"/prɪnˈses/","us":"us  / prɪnˈses /","usp":"/prɪnˈses/"}
+{"title":"principal area","uk":"uk  / ˌprɪn.sɪ.p ə l ˈeə.ri.ə /","ukp":"/ˌprɪn.sɪ.pəl ˈeə.ri.ə/","us":"us  / ˌprɪn.sɪ.p ə l ˈer.i.ə /","usp":"/ˌprɪn.sɪ.pəl ˈer.i.ə/"}
+{"title":"principal","uk":"uk  / ˈprɪn.sə.p ə l /","ukp":"/ˈprɪn.sə.pəl/","us":"us  / ˈprɪn.sə.p ə l /","usp":"/ˈprɪn.sə.pəl/"}
+{"title":"principal boy","uk":"uk  / ˌprɪn.sɪ.p ə l ˈbɔɪ /","ukp":"/ˌprɪn.sɪ.pəl ˈbɔɪ/","us":"us  / ˌprɪn.sɪ.p ə l ˈbɔɪ /","usp":"/ˌprɪn.sɪ.pəl ˈbɔɪ/"}
+{"title":"principal payment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"principal trading","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"principality","uk":"uk  / ˌprɪn.səˈpæl.ə.ti /","ukp":"/ˌprɪn.səˈpæl.ə.ti/","us":"us  / ˌprɪn.səˈpæl.ə.t̬i /","usp":"/ˌprɪn.səˈpæl.ə.t̬i/"}
+{"title":"principally","uk":"uk  / ˈprɪn.sɪ.p ə l.i /","ukp":"/ˈprɪn.sɪ.pəl.i/","us":"us  / ˈprɪn.sə.p ə l.i /","usp":"/ˈprɪn.sə.pəl.i/"}
+{"title":"principle","uk":"uk  / ˈprɪn.sə.p ə l /","ukp":"/ˈprɪn.sə.pəl/","us":"us  / ˈprɪn.sə.p ə l /","usp":"/ˈprɪn.sə.pəl/"}
+{"title":"principled","uk":"uk  / ˈprɪn.sə.p ə ld /","ukp":"/ˈprɪn.sə.pəld/","us":"us  / ˈprɪn.sə.p ə ld /","usp":"/ˈprɪn.sə.pəld/"}
+{"title":"print ad","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"print advertising","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"print","uk":"uk  / prɪnt /","ukp":"/prɪnt/","us":"us  / prɪnt /","usp":"/prɪnt/"}
+{"title":"print media","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"print on demand","uk":"uk  / ˌprɪnt ɒn dɪˈmɑːnd /","ukp":"/ˌprɪnt ɒn dɪˈmɑːnd/","us":"us  / ˌprɪnt ɑːn dɪˈmænd /","usp":"/ˌprɪnt ɑːn dɪˈmænd/"}
+{"title":"print preview","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"print something out","uk":"uk  / prɪnt /","ukp":"/prɪnt/","us":"us  / prɪnt /","usp":"/prɪnt/"}
+{"title":"print run","uk":"uk  / ˈprɪnt ˌrʌn /","ukp":"/ˈprɪnt ˌrʌn/","us":"us  / ˈprɪnt ˌrʌn /","usp":"/ˈprɪnt ˌrʌn/"}
+{"title":"print space","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"print sth out/off","uk":"uk  / prɪnt /","ukp":"/prɪnt/","us":"us ","usp":""}
+{"title":"printable","uk":"uk  / ˈprɪn.tə.b ə l /","ukp":"/ˈprɪn.tə.bəl/","us":"us  / ˈprɪn.t̬ə.b ə l /","usp":"/ˈprɪn.t̬ə.bəl/"}
+{"title":"printed","uk":"uk  / ˈprɪn.tɪd /","ukp":"/ˈprɪn.tɪd/","us":"us  / ˈprɪn.t̬ɪd /","usp":"/ˈprɪn.t̬ɪd/"}
+{"title":"printed circuit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"printed circuit (board)","uk":"uk  / ˌprɪn.tɪd ˈsɜː.kɪt ˌbɔːd /","ukp":"/ˌprɪn.tɪd ˈsɜː.kɪt ˌbɔːd/","us":"us  / ˌprɪn.t̬ɪd ˈsɝː.kɪt ˌbɔːrd /","usp":"/ˌprɪn.t̬ɪd ˈsɝː.kɪt ˌbɔːrd/"}
+{"title":"printer","uk":"uk  / ˈprɪn.tə r /","ukp":"/ˈprɪn.tər/","us":"us  / ˈprɪn.t̬ɚ /","usp":"/ˈprɪn.t̬ɚ/"}
+{"title":"printed matter","uk":"uk  / ˈprɪn.tɪd ˌmæt.ə r /","ukp":"/ˈprɪn.tɪd ˌmæt.ər/","us":"us  / ˈprɪn.t̬ɪd ˌmæt̬.ɚ /","usp":"/ˈprɪn.t̬ɪd ˌmæt̬.ɚ/"}
+{"title":"printing","uk":"uk  / ˈprɪn.tɪŋ /","ukp":"/ˈprɪn.tɪŋ/","us":"us  / ˈprɪn.t̬ɪŋ /","usp":"/ˈprɪn.t̬ɪŋ/"}
+{"title":"printing press","uk":"uk  / ˈprɪn.tɪŋ ˌpres /","ukp":"/ˈprɪn.tɪŋ ˌpres/","us":"us  / ˈprɪn.t̬ɪŋ ˌpres /","usp":"/ˈprɪn.t̬ɪŋ ˌpres/"}
+{"title":"prion","uk":"uk  / ˈpraɪ.ɒn /","ukp":"/ˈpraɪ.ɒn/","us":"us  / ˈpraɪ.ɑːn /","usp":"/ˈpraɪ.ɑːn/"}
+{"title":"printout","uk":"uk  / ˈprɪnt.aʊt /","ukp":"/ˈprɪnt.aʊt/","us":"us  / ˈprɪnt.aʊt /","usp":"/ˈprɪnt.aʊt/"}
+{"title":"prior","uk":"uk  / praɪə r /","ukp":"/praɪər/","us":"us  / praɪr /","usp":"/praɪr/"}
+{"title":"prioress","uk":"uk  / ˈpraɪə.res /","ukp":"/ˈpraɪə.res/","us":"us  / ˈpraɪ.res /","usp":"/ˈpraɪ.res/"}
+{"title":"prioritize","uk":"uk  / praɪˈɒr.ɪ.taɪz /","ukp":"/praɪˈɒr.ɪ.taɪz/","us":"us  / praɪˈɔːr.ə.taɪz /","usp":"/praɪˈɔːr.ə.taɪz/"}
+{"title":"prioritizing","uk":"uk  / praɪˈɒr.ɪ.taɪz /","ukp":"/praɪˈɒr.ɪ.taɪz/","us":"us  / praɪˈɔːr.ə.taɪz /","usp":"/praɪˈɔːr.ə.taɪz/"}
+{"title":"priority booking","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"priority","uk":"uk  / praɪˈɒr.ə.ti /","ukp":"/praɪˈɒr.ə.ti/","us":"us  / praɪˈɔːr.ə.t̬i /","usp":"/praɪˈɔːr.ə.t̬i/"}
+{"title":"prioritized","uk":"uk  / praɪˈɒr.ɪ.taɪz /","ukp":"/praɪˈɒr.ɪ.taɪz/","us":"us  / praɪˈɔːr.ə.taɪz /","usp":"/praɪˈɔːr.ə.taɪz/"}
+{"title":"priority claim","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"priority lien","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"priory","uk":"uk  / ˈpraɪ.ə.ri /","ukp":"/ˈpraɪ.ə.ri/","us":"us  / ˈpraɪ.ə.ri /","usp":"/ˈpraɪ.ə.ri/"}
+{"title":"prise","uk":"uk  / praɪz /","ukp":"/praɪz/","us":"us  / praɪz /","usp":"/praɪz/"}
+{"title":"prised","uk":"uk  / praɪz /","ukp":"/praɪz/","us":"us  / praɪz /","usp":"/praɪz/"}
+{"title":"prising","uk":"uk  / praɪz /","ukp":"/praɪz/","us":"us  / praɪz /","usp":"/praɪz/"}
+{"title":"prism","uk":"uk  / ˈprɪz. ə m /","ukp":"/ˈprɪz.əm/","us":"us  / ˈprɪz. ə m /","usp":"/ˈprɪz.əm/"}
+{"title":"prismatic","uk":"uk  / prɪzˈmæt.ɪk /","ukp":"/prɪzˈmæt.ɪk/","us":"us  / prɪzˈmæt̬.ɪk /","usp":"/prɪzˈmæt̬.ɪk/"}
+{"title":"prison","uk":"uk  / ˈprɪz. ə n /","ukp":"/ˈprɪz.ən/","us":"us  / ˈprɪz. ə n /","usp":"/ˈprɪz.ən/"}
+{"title":"prison camp","uk":"uk  / ˈprɪz. ə n ˌkæmp /","ukp":"/ˈprɪz.ən ˌkæmp/","us":"us  / ˈprɪz. ə n ˌkæmp /","usp":"/ˈprɪz.ən ˌkæmp/"}
+{"title":"prison officer","uk":"uk  / ˈprɪz. ə n ˌɒf.ɪ.sə r /","ukp":"/ˈprɪz.ən ˌɒf.ɪ.sər/","us":"us  / ˈprɪz. ə n ˌɑː.fɪ.sɚ /","usp":"/ˈprɪz.ən ˌɑː.fɪ.sɚ/"}
+{"title":"prison warden","uk":"uk / ˈprɪz. ə n ˌwɔː.d ə n /","ukp":"/ˈprɪz.ən ˌwɔː.dən/","us":"us / ˈprɪz. ə n ˌwɔːr.d ə n /","usp":"/ˈprɪz.ən ˌwɔːr.dən/"}
+{"title":"prisoner of conscience","uk":"uk  / ˌprɪz. ə n.ər əv ˈkɒn.ʃ ə ns /","ukp":"/ˌprɪz.ən.ər əv ˈkɒn.ʃəns/","us":"us  / ˌprɪz. ə n.ɚ əv ˈkɑːn.ʃ ə ns /","usp":"/ˌprɪz.ən.ɚ əv ˈkɑːn.ʃəns/"}
+{"title":"prisoner","uk":"uk  / ˈprɪz. ə n.ə r /","ukp":"/ˈprɪz.ən.ər/","us":"us  / ˈprɪz. ə n.ɚ /","usp":"/ˈprɪz.ən.ɚ/"}
+{"title":"prissy","uk":"uk  / ˈprɪs.i /","ukp":"/ˈprɪs.i/","us":"us  / ˈprɪs.i /","usp":"/ˈprɪs.i/"}
+{"title":"prisoner of war","uk":"uk  / ˌprɪz. ə n.ə r əv ˈwɔː r /","ukp":"/ˌprɪz.ən.ər əv ˈwɔːr/","us":"us  / ˌprɪz. ə n.ɚ əv ˈwɔːr /","usp":"/ˌprɪz.ən.ɚ əv ˈwɔːr/"}
+{"title":"prissily","uk":"uk  / ˈprɪs. ə l.i /","ukp":"/ˈprɪs.əl.i/","us":"us  / ˈprɪs. ə l.i /","usp":"/ˈprɪs.əl.i/"}
+{"title":"pristine","uk":"uk  / ˈprɪs.tiːn /","ukp":"/ˈprɪs.tiːn/","us":"us  / prɪˈstiːn /","usp":"/prɪˈstiːn/"}
+{"title":"prithee","uk":"uk  / ˈprɪð.i /","ukp":"/ˈprɪð.i/","us":"us  / ˈprɪð.i /","usp":"/ˈprɪð.i/"}
+{"title":"privacy","uk":"uk  / ˈprɪv.ə.si /","ukp":"/ˈprɪv.ə.si/","us":"us  / ˈpraɪ.və.si /","usp":"/ˈpraɪ.və.si/"}
+{"title":"privacy settings","uk":"uk  / ˈprɪv.ə.si ˌset.ɪŋz /","ukp":"/ˈprɪv.ə.si ˌset.ɪŋz/","us":"us  / ˈpraɪ.və.si ˌset̬.ɪŋz /","usp":"/ˈpraɪ.və.si ˌset̬.ɪŋz/"}
+{"title":"private","uk":"uk  / ˈpraɪ.vət /","ukp":"/ˈpraɪ.vət/","us":"us  / ˈpraɪ.vət /","usp":"/ˈpraɪ.vət/"}
+{"title":"private banking","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private bank","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private branch exchange","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private brand","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private business","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private carrier","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private corporation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private company","uk":"uk  / ˌpraɪ.vət ˈkʌm.pə.ni /","ukp":"/ˌpraɪ.vət ˈkʌm.pə.ni/","us":"us  / ˌpraɪ.vət ˈkʌm.pə.ni /","usp":"/ˌpraɪ.vət ˈkʌm.pə.ni/"}
+{"title":"private detective","uk":"uk  / ˌpraɪ.vət dɪˈtek.tɪv /","ukp":"/ˌpraɪ.vət dɪˈtek.tɪv/","us":"us  / ˌpraɪ.vət dɪˈtek.tɪv /","usp":"/ˌpraɪ.vət dɪˈtek.tɪv/"}
+{"title":"private enterprise","uk":"uk  / ˌpraɪ.vət ˈen.tə.praɪz /","ukp":"/ˌpraɪ.vət ˈen.tə.praɪz/","us":"us  / ˌpraɪ.vət ˈen.t̬ɚ.praɪz /","usp":"/ˌpraɪ.vət ˈen.t̬ɚ.praɪz/"}
+{"title":"private equity","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private equity funding","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private equity buyout","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private income","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private investigator","uk":"","us":"us / ˈprɑɪ·vɪt inˈves·tɪˌɡeɪ·tər /","usp":"/ˈprɑɪ·vɪt inˈves·tɪˌɡeɪ·tər/"}
+{"title":"private investment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"private investor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"prizefight","uk":"uk  / ˈpraɪz.faɪt /","ukp":"/ˈpraɪz.faɪt/","us":"us  / ˈpraɪz.faɪt /","usp":"/ˈpraɪz.faɪt/"}
+{"title":"prizefighter","uk":"uk  / ˈpraɪzˌfaɪ.tə r /","ukp":"/ˈpraɪzˌfaɪ.tər/","us":"us  / ˈpraɪzˌfaɪ.t̬ɚ /","usp":"/ˈpraɪzˌfaɪ.t̬ɚ/"}
+{"title":"prizewinning","uk":"uk  / ˈpraɪzˌwɪn.ɪŋ /","ukp":"/ˈpraɪzˌwɪn.ɪŋ/","us":"us  / ˈpraɪzˌwɪn.ɪŋ /","usp":"/ˈpraɪzˌwɪn.ɪŋ/"}
+{"title":"prizing","uk":"uk  / praɪz /","ukp":"/praɪz/","us":"us  / praɪz /","usp":"/praɪz/"}
+{"title":"pro bono","uk":"uk  / ˌprəʊ ˈbəʊ.nəʊ /","ukp":"/ˌprəʊ ˈbəʊ.nəʊ/","us":"us  / ˌproʊ ˈboʊ.noʊ /","usp":"/ˌproʊ ˈboʊ.noʊ/"}
+{"title":"pro","uk":"uk  / prəʊ /","ukp":"/prəʊ/","us":"us  / proʊ /","usp":"/proʊ/"}
+{"title":"pro forma invoice","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"pro forma statement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"pro forma","uk":"uk  / ˌprəʊ ˈfɔː.mə /","ukp":"/ˌprəʊ ˈfɔː.mə/","us":"us  / ˌproʊ ˈfɔːr.mə /","usp":"/ˌproʊ ˈfɔːr.mə/"}
+{"title":"pro rata","uk":"uk  / ˌprəʊ ˈrɑː.tə /","ukp":"/ˌprəʊ ˈrɑː.tə/","us":"us  / ˌproʊ ˈreɪ.t̬ə /","usp":"/ˌproʊ ˈreɪ.t̬ə/"}
+{"title":"pro-abortion","uk":"uk  / ˌprəʊ.əˈbɔː.ʃ ə n /","ukp":"/ˌprəʊ.əˈbɔː.ʃən/","us":"us  / ˌproʊ.əˈbɔːr.ʃ ə n /","usp":"/ˌproʊ.əˈbɔːr.ʃən/"}
+{"title":"pro tem","uk":"uk  / ˌprəʊ ˈtem /","ukp":"/ˌprəʊ ˈtem/","us":"us  / ˌproʊ ˈtem /","usp":"/ˌproʊ ˈtem/"}
+{"title":"pro-business","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"pro-am","uk":"uk  / ˌprəʊˈæm /","ukp":"/ˌprəʊˈæm/","us":"us  / ˌproʊˈæm /","usp":"/ˌproʊˈæm/"}
+{"title":"pro-choice","uk":"uk  / ˌprəʊˈtʃɔɪs /","ukp":"/ˌprəʊˈtʃɔɪs/","us":"us  / ˌproʊˈtʃɔɪs /","usp":"/ˌproʊˈtʃɔɪs/"}
+{"title":"pro-life","uk":"uk  / ˌprəʊˈlaɪf /","ukp":"/ˌprəʊˈlaɪf/","us":"us  / ˌproʊˈlaɪf /","usp":"/ˌproʊˈlaɪf/"}
+{"title":"pro-war","uk":"uk  / ˌprəʊˈwɔː r /","ukp":"/ˌprəʊˈwɔːr/","us":"us  / ˌproʊˈwɔːr /","usp":"/ˌproʊˈwɔːr/"}
+{"title":"proactive aggression","uk":"uk  / prəʊˌæk.tɪv əˈɡreʃ. ə n /","ukp":"/prəʊˌæk.tɪv əˈɡreʃ.ən/","us":"us  / proʊˌæk.tɪv əˈɡreʃ. ə n /","usp":"/proʊˌæk.tɪv əˈɡreʃ.ən/"}
+{"title":"proactive","uk":"uk  / ˌprəʊˈæk.tɪv /","ukp":"/ˌprəʊˈæk.tɪv/","us":"us  / ˌproʊˈæk.tɪv /","usp":"/ˌproʊˈæk.tɪv/"}
+{"title":"proactive marketing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"proactively","uk":"uk  / ˌprəʊˈæk.tɪv.li /","ukp":"/ˌprəʊˈæk.tɪv.li/","us":"us  / ˌproʊˈæk.tɪv.li /","usp":"/ˌproʊˈæk.tɪv.li/"}
+{"title":"prob","uk":"uk  / prɒb /","ukp":"/prɒb/","us":"us  / prɑːb /","usp":"/prɑːb/"}
+{"title":"probabilistic","uk":"uk  / ˌprɒb.ə.b ə lˈɪs.tɪk /","ukp":"/ˌprɒb.ə.bəlˈɪs.tɪk/","us":"us  / ˌprɑː.bə.b ə lˈɪs.tɪk /","usp":"/ˌprɑː.bə.bəlˈɪs.tɪk/"}
+{"title":"probability","uk":"uk  / ˌprɒb.əˈbɪl.ə.ti /","ukp":"/ˌprɒb.əˈbɪl.ə.ti/","us":"us  / ˌprɑː.bəˈbɪl.ə.t̬i /","usp":"/ˌprɑː.bəˈbɪl.ə.t̬i/"}
+{"title":"probability sampling","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"probable","uk":"uk  / ˈprɒb.ə.b ə l /","ukp":"/ˈprɒb.ə.bəl/","us":"us  / ˈprɑː.bə.b ə l /","usp":"/ˈprɑː.bə.bəl/"}
+{"title":"probable cause","uk":"uk  / ˌprɒb.ə.b ə l ˈkɔːz /","ukp":"/ˌprɒb.ə.bəl ˈkɔːz/","us":"us  / ˌprɑː.bə.b ə l ˈkɑːz /","usp":"/ˌprɑː.bə.bəl ˈkɑːz/"}
+{"title":"probably","uk":"uk  / ˈprɒb.ə.bli /","ukp":"/ˈprɒb.ə.bli/","us":"us  / ˈprɑː.bə.bli /","usp":"/ˈprɑː.bə.bli/"}
+{"title":"probate","uk":"uk  / ˈprəʊ.beɪt /","ukp":"/ˈprəʊ.beɪt/","us":"us  / ˈproʊ.beɪt /","usp":"/ˈproʊ.beɪt/"}
+{"title":"probated","uk":"uk  / ˈprəʊ.beɪt /","ukp":"/ˈprəʊ.beɪt/","us":"us  / ˈproʊ.beɪt /","usp":"/ˈproʊ.beɪt/"}
+{"title":"probating","uk":"uk  / ˈprəʊ.beɪt /","ukp":"/ˈprəʊ.beɪt/","us":"us  / ˈproʊ.beɪt /","usp":"/ˈproʊ.beɪt/"}
+{"title":"probation","uk":"uk  / prəˈbeɪ.ʃ ə n /","ukp":"/prəˈbeɪ.ʃən/","us":"us  / proʊˈbeɪ.ʃ ə n /","usp":"/proʊˈbeɪ.ʃən/"}
+{"title":"probation officer","uk":"uk  / prəˈbeɪ.ʃ ə n ˌɒf.ɪ.sə r /","ukp":"/prəˈbeɪ.ʃən ˌɒf.ɪ.sər/","us":"us  / proʊˈbeɪ.ʃ ə n ˌɑː.fɪ.sɚ /","usp":"/proʊˈbeɪ.ʃən ˌɑː.fɪ.sɚ/"}
+{"title":"probationary","uk":"uk  / prəˈbeɪ.ʃ ə n. ə r.i /","ukp":"/prəˈbeɪ.ʃən.ər.i/","us":"us  / proʊˈbeɪ.ʃ ə n.er.i /","usp":"/proʊˈbeɪ.ʃən.er.i/"}
+{"title":"probationer","uk":"uk  / prəˈbeɪ.ʃ ə n.ə r /","ukp":"/prəˈbeɪ.ʃən.ər/","us":"us  / proʊˈbeɪ.ʃ ə n.ɚ /","usp":"/proʊˈbeɪ.ʃən.ɚ/"}
+{"title":"probative","uk":"uk  / ˈprəʊbətɪv /","ukp":"/ˈprəʊbətɪv/","us":"us ","usp":""}
+{"title":"probatory","uk":"uk  / ˈprəʊ.bə.t ə r.i /","ukp":"/ˈprəʊ.bə.tər.i/","us":"us  / ˈproʊ.bə.tɔːr.i /","usp":"/ˈproʊ.bə.tɔːr.i/"}
+{"title":"probing","uk":"uk  / ˈprəʊ.bɪŋ /","ukp":"/ˈprəʊ.bɪŋ/","us":"us  / ˈproʊ.bɪŋ /","usp":"/ˈproʊ.bɪŋ/"}
+{"title":"probed","uk":"uk  / prəʊb /","ukp":"/prəʊb/","us":"us  / proʊb /","usp":"/proʊb/"}
+{"title":"probe","uk":"uk  / prəʊb /","ukp":"/prəʊb/","us":"us  / proʊb /","usp":"/proʊb/"}
+{"title":"probiotic","uk":"uk  / ˌprəʊ.baɪˈɒt.ɪk /","ukp":"/ˌprəʊ.baɪˈɒt.ɪk/","us":"us  / ˌproʊ.baɪˈɑː.t̬ɪk /","usp":"/ˌproʊ.baɪˈɑː.t̬ɪk/"}
+{"title":"probity","uk":"uk  / ˈprəʊ.bə.ti /","ukp":"/ˈprəʊ.bə.ti/","us":"us  / ˈproʊ.bə.t̬i /","usp":"/ˈproʊ.bə.t̬i/"}
+{"title":"profiling","uk":"uk  / ˈprəʊ.faɪ.lɪŋ /","ukp":"/ˈprəʊ.faɪ.lɪŋ/","us":"us  / ˈproʊ.faɪ.lɪŋ /","usp":"/ˈproʊ.faɪ.lɪŋ/"}
+{"title":"profit","uk":"uk  / ˈprɒf.ɪt /","ukp":"/ˈprɒf.ɪt/","us":"us  / ˈprɑː.fɪt /","usp":"/ˈprɑː.fɪt/"}
+{"title":"profit and loss statement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profit center","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profit before tax","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profit centre","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Profit Impact of Marketing Strategy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profit forecast","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profit from something","uk":"uk  / ˈprɒf.ɪt /","ukp":"/ˈprɒf.ɪt/","us":"us  / ˈprɑː.fɪt /","usp":"/ˈprɑː.fɪt/"}
+{"title":"profit motive","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profit margin","uk":"uk  / ˈprɒf.ɪt ˌmɑː.dʒɪn /","ukp":"/ˈprɒf.ɪt ˌmɑː.dʒɪn/","us":"us  / ˈprɑː.fɪt ˌmɑːr.dʒɪn /","usp":"/ˈprɑː.fɪt ˌmɑːr.dʒɪn/"}
+{"title":"profit squeeze","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profit sharing","uk":"uk  / ˈprɒf.ɪt ˌʃeə.rɪŋ /","ukp":"/ˈprɒf.ɪt ˌʃeə.rɪŋ/","us":"us  / ˈprɑː.fɪt ˌʃer.ɪŋ /","usp":"/ˈprɑː.fɪt ˌʃer.ɪŋ/"}
+{"title":"profit-and-loss account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profit warning","uk":"uk  / ˈprɒf.ɪt ˌwɔː.nɪŋ /","ukp":"/ˈprɒf.ɪt ˌwɔː.nɪŋ/","us":"us  / ˈprɑː.fɪt ˌwɔːr.nɪŋ /","usp":"/ˈprɑː.fɪt ˌwɔːr.nɪŋ/"}
+{"title":"profit-takers","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profit-making","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profitability","uk":"uk  / ˌprɒf.ɪ.təˈbɪl.ə.ti /","ukp":"/ˌprɒf.ɪ.təˈbɪl.ə.ti/","us":"us  / ˌprɑː.fɪ.t̬əˈbɪl.ə.t̬i /","usp":"/ˌprɑː.fɪ.t̬əˈbɪl.ə.t̬i/"}
+{"title":"profit-taking","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profitable","uk":"uk  / ˈprɒf.ɪ.tə.b ə l /","ukp":"/ˈprɒf.ɪ.tə.bəl/","us":"us  / ˈprɑː.fɪ.t̬ə.b ə l /","usp":"/ˈprɑː.fɪ.t̬ə.bəl/"}
+{"title":"profitably","uk":"uk  / ˈprɒf.ɪ.tə.bli /","ukp":"/ˈprɒf.ɪ.tə.bli/","us":"us  / ˈprɑː.fɪ.t̬ə.bli /","usp":"/ˈprɑː.fɪ.t̬ə.bli/"}
+{"title":"profiteer","uk":"uk  / ˌprɒf.ɪˈtɪə r /","ukp":"/ˌprɒf.ɪˈtɪər/","us":"us  / ˌprɑː.fəˈtɪr /","usp":"/ˌprɑː.fəˈtɪr/"}
+{"title":"profiteering","uk":"uk  / ˌprɒf.ɪˈtɪə.rɪŋ /","ukp":"/ˌprɒf.ɪˈtɪə.rɪŋ/","us":"us  / ˌprɑː.fəˈtɪr.ɪŋ /","usp":"/ˌprɑː.fəˈtɪr.ɪŋ/"}
+{"title":"profits squeeze","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profiterole","uk":"uk  / prəˈfɪt. ə r.əʊl /","ukp":"/prəˈfɪt.ər.əʊl/","us":"us  / prəˈfɪt̬.ə.roʊl /","usp":"/prəˈfɪt̬.ə.roʊl/"}
+{"title":"profits warning","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"profligacy","uk":"uk  / ˈprɒf.lɪ.ɡə.si /","ukp":"/ˈprɒf.lɪ.ɡə.si/","us":"us  / ˈprɑː.flɪ.ɡə.si /","usp":"/ˈprɑː.flɪ.ɡə.si/"}
+{"title":"profligate","uk":"uk  / ˈprɒf.lɪ.ɡət /","ukp":"/ˈprɒf.lɪ.ɡət/","us":"us  / ˈprɑː.flɪ.ɡət /","usp":"/ˈprɑː.flɪ.ɡət/"}
+{"title":"profound","uk":"uk  / prəˈfaʊnd /","ukp":"/prəˈfaʊnd/","us":"us  / prəˈfaʊnd /","usp":"/prəˈfaʊnd/"}
+{"title":"profoundly","uk":"uk  / prəˈfaʊnd.li /","ukp":"/prəˈfaʊnd.li/","us":"us  / prəˈfaʊnd.li /","usp":"/prəˈfaʊnd.li/"}
+{"title":"profunda","uk":"uk  / prəʊˈfʌn.də /","ukp":"/prəʊˈfʌn.də/","us":"us  / proʊˈfʌn.də /","usp":"/proʊˈfʌn.də/"}
+{"title":"profundity","uk":"uk  / prəˈfʌn.də.ti /","ukp":"/prəˈfʌn.də.ti/","us":"us  / prəˈfʌn.də.t̬i /","usp":"/prəˈfʌn.də.t̬i/"}
+{"title":"profundus","uk":"uk  / prəʊˈfʌn.dəs /","ukp":"/prəʊˈfʌn.dəs/","us":"us  / proʊˈfʌn.dəs /","usp":"/proʊˈfʌn.dəs/"}
+{"title":"profuse","uk":"uk  / prəˈfjuːs /","ukp":"/prəˈfjuːs/","us":"us  / prəˈfjuːs /","usp":"/prəˈfjuːs/"}
+{"title":"profusely","uk":"uk  / prəˈfjuːs.li /","ukp":"/prəˈfjuːs.li/","us":"us  / prəˈfjuːs.li /","usp":"/prəˈfjuːs.li/"}
+{"title":"profusion","uk":"uk  / prəˈfjuː.ʒ ə n /","ukp":"/prəˈfjuː.ʒən/","us":"us  / prəˈfjuː.ʒ ə n /","usp":"/prəˈfjuː.ʒən/"}
+{"title":"progenitor","uk":"uk  / prəʊˈdʒen.ɪ.tə r /","ukp":"/prəʊˈdʒen.ɪ.tər/","us":"us  / proʊˈdʒen.ə.t̬ɚ /","usp":"/proʊˈdʒen.ə.t̬ɚ/"}
+{"title":"progeny","uk":"uk  / ˈprɒdʒ.ə.ni /","ukp":"/ˈprɒdʒ.ə.ni/","us":"us  / ˈprɑː.dʒə.ni /","usp":"/ˈprɑː.dʒə.ni/"}
+{"title":"progesterone","uk":"uk  / prəʊˈdʒes.t ə r.əʊn /","ukp":"/prəʊˈdʒes.tər.əʊn/","us":"us  / proʊˈdʒes.tə.roʊn /","usp":"/proʊˈdʒes.tə.roʊn/"}
+{"title":"prognathism","uk":"uk  / ˈprɒɡ.nə.θɪ.z ə m /","ukp":"/ˈprɒɡ.nə.θɪ.zəm/","us":"us  / ˈprɑːɡ.nə.θɪ.z ə m /","usp":"/ˈprɑːɡ.nə.θɪ.zəm/"}
+{"title":"prognoses","uk":"","us":""}
+{"title":"prognosis","uk":"uk  / prɒɡˈnəʊ.sɪs /","ukp":"/prɒɡˈnəʊ.sɪs/","us":"us  / prɑːɡˈnoʊ.sɪs /","usp":"/prɑːɡˈnoʊ.sɪs/"}
+{"title":"prognostic","uk":"uk  / prɒɡˈnɒs.tɪk /","ukp":"/prɒɡˈnɒs.tɪk/","us":"us  / prɑːɡˈnɑːs.tɪk /","usp":"/prɑːɡˈnɑːs.tɪk/"}
+{"title":"prognosticate","uk":"uk  / prɒɡˈnɒs.tɪ.keɪt /","ukp":"/prɒɡˈnɒs.tɪ.keɪt/","us":"us  / prɑːɡˈnɑː.stə.keɪt /","usp":"/prɑːɡˈnɑː.stə.keɪt/"}
+{"title":"prognostication","uk":"uk  / prɒɡ.nɒs.tɪˈkeɪ.ʃ ə n /","ukp":"/prɒɡ.nɒs.tɪˈkeɪ.ʃən/","us":"us  / prɑːɡ.nɑː.stəˈkeɪ.ʃ ə n /","usp":"/prɑːɡ.nɑː.stəˈkeɪ.ʃən/"}
+{"title":"program file","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"programmable read-only memory","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"programmable","uk":"uk  / prəʊˈɡræm.ə.b ə l /","ukp":"/prəʊˈɡræm.ə.bəl/","us":"us  / ˈproʊ.ɡræm.ə.b ə l /","usp":"/ˈproʊ.ɡræm.ə.bəl/"}
+{"title":"program","uk":"uk  / ˈprəʊ.ɡræm /","ukp":"/ˈprəʊ.ɡræm/","us":"us  / ˈproʊ.ɡræm /","usp":"/ˈproʊ.ɡræm/"}
+{"title":"production chain","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"production control","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"production","uk":"uk  / prəˈdʌk.ʃ ə n /","ukp":"/prəˈdʌk.ʃən/","us":"us  / prəˈdʌk.ʃ ə n /","usp":"/prəˈdʌk.ʃən/"}
+{"title":"production line","uk":"uk  / prəˈdʌk.ʃ ə n ˌlaɪn /","ukp":"/prəˈdʌk.ʃən ˌlaɪn/","us":"us  / prəˈdʌk.ʃ ə n ˌlaɪn /","usp":"/prəˈdʌk.ʃən ˌlaɪn/"}
+{"title":"production facility","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"production manager","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"production platform","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"productise","uk":"uk  / ˈprɒdʌktaɪz /","ukp":"/ˈprɒdʌktaɪz/","us":"us ","usp":""}
+{"title":"productive","uk":"uk  / prəˈdʌk.tɪv /","ukp":"/prəˈdʌk.tɪv/","us":"us  / prəˈdʌk.tɪv /","usp":"/prəˈdʌk.tɪv/"}
+{"title":"productive capacity","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"productively","uk":"uk  / prəˈdʌk.tɪv.li /","ukp":"/prəˈdʌk.tɪv.li/","us":"us  / prəˈdʌk.tɪv.li /","usp":"/prəˈdʌk.tɪv.li/"}
+{"title":"productivity","uk":"uk  / ˌprɒd.ʌkˈtɪv.ə.ti /","ukp":"/ˌprɒd.ʌkˈtɪv.ə.ti/","us":"us  / ˌproʊ.dəkˈtɪv.ə.t̬i /","usp":"/ˌproʊ.dəkˈtɪv.ə.t̬i/"}
+{"title":"productivity bonus","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"productize","uk":"uk  / ˈprɒdʌktaɪz /","ukp":"/ˈprɒdʌktaɪz/","us":"us ","usp":""}
+{"title":"prof","uk":"uk  / prɒf /","ukp":"/prɒf/","us":"us  / prɑːf /","usp":"/prɑːf/"}
+{"title":"profane","uk":"uk  / prəˈfeɪn /","ukp":"/prəˈfeɪn/","us":"us  / prəˈfeɪn /","usp":"/prəˈfeɪn/"}
+{"title":"profanity","uk":"uk  / prəˈfæn.ə.ti /","ukp":"/prəˈfæn.ə.ti/","us":"us  / prəˈfæn.ə.t̬i /","usp":"/prəˈfæn.ə.t̬i/"}
+{"title":"profess","uk":"uk  / prəˈfes /","ukp":"/prəˈfes/","us":"us  / prəˈfes /","usp":"/prəˈfes/"}
+{"title":"professing","uk":"uk  / prəˈfes /","ukp":"/prəˈfes/","us":"us  / prəˈfes /","usp":"/prəˈfes/"}
+{"title":"professed","uk":"uk  / prəˈfest /","ukp":"/prəˈfest/","us":"us  / prəˈfest /","usp":"/prəˈfest/"}
+{"title":"profession","uk":"uk  / prəˈfeʃ. ə n /","ukp":"/prəˈfeʃ.ən/","us":"us  / prəˈfeʃ. ə n /","usp":"/prəˈfeʃ.ən/"}
+{"title":"professional advice","uk":"uk  / prəˌfeʃ. ə n. ə l ədˈvaɪs /","ukp":"/prəˌfeʃ.ən.əl ədˈvaɪs/","us":"us  / prəˌfeʃ. ə n. ə l ədˈvaɪs /","usp":"/prəˌfeʃ.ən.əl ədˈvaɪs/"}
+{"title":"professional development","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"professional","uk":"uk  / prəˈfeʃ. ə n. ə l /","ukp":"/prəˈfeʃ.ən.əl/","us":"us  / prəˈfeʃ. ə n. ə l /","usp":"/prəˈfeʃ.ən.əl/"}
+{"title":"professional foul","uk":"uk  / prəˌfeʃ. ə n. ə l ˈfaʊl /","ukp":"/prəˌfeʃ.ən.əl ˈfaʊl/","us":"us  / prəˌfeʃ. ə n. ə l ˈfaʊl /","usp":"/prəˌfeʃ.ən.əl ˈfaʊl/"}
+{"title":"professional help","uk":"uk  / prəˌfeʃ. ə n. ə l ˈhelp /","ukp":"/prəˌfeʃ.ən.əl ˈhelp/","us":"us  / prəˌfeʃ. ə n. ə l ˈhelp /","usp":"/prəˌfeʃ.ən.əl ˈhelp/"}
+{"title":"professional investor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"professional liability","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"professionality","uk":"uk  / prəˌfeʃ. ə nˈæl.ə.ti /","ukp":"/prəˌfeʃ.ənˈæl.ə.ti/","us":"us  / prəˌfeʃ. ə nˈæl.ə.t̬i /","usp":"/prəˌfeʃ.ənˈæl.ə.t̬i/"}
+{"title":"professionally","uk":"uk  / prəˈfeʃ. ə n. ə l.i /","ukp":"/prəˈfeʃ.ən.əl.i/","us":"us  / prəˈfeʃ. ə n. ə l.i /","usp":"/prəˈfeʃ.ən.əl.i/"}
+{"title":"professionalism","uk":"uk  / prəˈfeʃ. ə n. ə l.ɪ.z ə m /","ukp":"/prəˈfeʃ.ən.əl.ɪ.zəm/","us":"us  / prəˈfeʃ. ə n. ə l.ɪ.z ə m /","usp":"/prəˈfeʃ.ən.əl.ɪ.zəm/"}
+{"title":"professor","uk":"uk  / prəˈfes.ə r /","ukp":"/prəˈfes.ər/","us":"us  / prəˈfes.ɚ /","usp":"/prəˈfes.ɚ/"}
+{"title":"professorial","uk":"uk  / ˌprɒf.əˈsɔː.ri.əl /","ukp":"/ˌprɒf.əˈsɔː.ri.əl/","us":"us  / ˌprɑː.fəˈsɔːr.i.əl /","usp":"/ˌprɑː.fəˈsɔːr.i.əl/"}
+{"title":"proffered","uk":"uk  / ˈprɒf.ə r /","ukp":"/ˈprɒf.ər/","us":"us  / ˈprɑː.fɚ /","usp":"/ˈprɑː.fɚ/"}
+{"title":"proffer","uk":"uk  / ˈprɒf.ə r /","ukp":"/ˈprɒf.ər/","us":"us  / ˈprɑː.fɚ /","usp":"/ˈprɑː.fɚ/"}
+{"title":"professorship","uk":"uk  / prəˈfes.ə.ʃɪp /","ukp":"/prəˈfes.ə.ʃɪp/","us":"us  / prəˈfes.ɚ.ʃɪp /","usp":"/prəˈfes.ɚ.ʃɪp/"}
+{"title":"proffering","uk":"uk  / ˈprɒf.ə r /","ukp":"/ˈprɒf.ər/","us":"us  / ˈprɑː.fɚ /","usp":"/ˈprɑː.fɚ/"}
+{"title":"proficiency","uk":"uk  / prəˈfɪʃ. ə n.si /","ukp":"/prəˈfɪʃ.ən.si/","us":"us  / prəˈfɪʃ. ə n.si /","usp":"/prəˈfɪʃ.ən.si/"}
+{"title":"proficient","uk":"uk  / prəˈfɪʃ. ə nt /","ukp":"/prəˈfɪʃ.ənt/","us":"us  / prəˈfɪʃ. ə nt /","usp":"/prəˈfɪʃ.ənt/"}
+{"title":"proficiently","uk":"uk  / prəˈfɪʃ. ə nt.li /","ukp":"/prəˈfɪʃ.ənt.li/","us":"us  / prəˈfɪʃ. ə nt.li /","usp":"/prəˈfɪʃ.ənt.li/"}
+{"title":"profile picture","uk":"uk / ˈprəʊ.faɪl ˌpɪk.tʃə r /","ukp":"/ˈprəʊ.faɪl ˌpɪk.tʃər/","us":"us / ˈproʊ.faɪl ˌpɪk.tʃɚ /","usp":"/ˈproʊ.faɪl ˌpɪk.tʃɚ/"}
+{"title":"profiled","uk":"uk  / ˈprəʊ.faɪl /","ukp":"/ˈprəʊ.faɪl/","us":"us  / ˈproʊ.faɪl /","usp":"/ˈproʊ.faɪl/"}
+{"title":"profile","uk":"uk  / ˈprəʊ.faɪl /","ukp":"/ˈprəʊ.faɪl/","us":"us  / ˈproʊ.faɪl /","usp":"/ˈproʊ.faɪl/"}
+{"title":"profiler","uk":"uk  / ˈprəʊ.faɪ.lə r /","ukp":"/ˈprəʊ.faɪ.lər/","us":"us  / ˈproʊ.faɪ.lɚ /","usp":"/ˈproʊ.faɪ.lɚ/"}
+{"title":"product differentiation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product diversion","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product endorsement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product engineer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product family","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product fulfillment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product fulfilment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product innovation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product liability","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product launch","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product life cycle management","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product life cycle","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product line","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product line extension","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product line manager","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product line stretching","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product list","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product management","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product manager","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product market expansion grid","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product marketing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product mix","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product orientation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product packaging","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product parity","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product placement","uk":"uk  / ˈprɒd.ʌkt ˌpleɪs.mənt /","ukp":"/ˈprɒd.ʌkt ˌpleɪs.mənt/","us":"us  / ˈprɑː.dʌkt ˌpleɪs.mənt /","usp":"/ˈprɑː.dʌkt ˌpleɪs.mənt/"}
+{"title":"product positioning","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product pricing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product profitability","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product prototyping","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product promotion","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product range","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product rationalization","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product registration","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product relaunch","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product recall","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product repositioning","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product return","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product research","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product substitution","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product review","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product support","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product survey","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product testimonial","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product testing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product trial","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product value chain","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product value proposition","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"product withdrawal","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"programmatic","uk":"uk  / ˌprəʊ.ɡrəˈmæt.ɪk /","ukp":"/ˌprəʊ.ɡrəˈmæt.ɪk/","us":"us  / ˌproʊ.ɡrəˈmæt̬.ɪk /","usp":"/ˌproʊ.ɡrəˈmæt̬.ɪk/"}
+{"title":"programmatically","uk":"uk  / ˌprəʊ.ɡrəˈmæt.ɪ.k ə l.i /","ukp":"/ˌprəʊ.ɡrəˈmæt.ɪ.kəl.i/","us":"us  / ˌproʊ.ɡrəˈmæt̬.ɪ.k ə l.i /","usp":"/ˌproʊ.ɡrəˈmæt̬.ɪ.kəl.i/"}
+{"title":"programme trading","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"programmer","uk":"uk  / ˈprəʊ.ɡræm.ə r /","ukp":"/ˈprəʊ.ɡræm.ər/","us":"us  / ˈproʊ.ɡræm.ɚ /","usp":"/ˈproʊ.ɡræm.ɚ/"}
+{"title":"programme","uk":"uk  / ˈprəʊ.ɡræm /","ukp":"/ˈprəʊ.ɡræm/","us":"us  / ˈproʊ.ɡræm /","usp":"/ˈproʊ.ɡræm/"}
+{"title":"programming","uk":"uk  / ˈprəʊ.ɡræm.ɪŋ /","ukp":"/ˈprəʊ.ɡræm.ɪŋ/","us":"us  / ˈproʊ.ɡræm.ɪŋ /","usp":"/ˈproʊ.ɡræm.ɪŋ/"}
+{"title":"programming language","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"progress payment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"progress","uk":"uk  / ˈprəʊ.ɡres /","ukp":"/ˈprəʊ.ɡres/","us":"us  / ˈprɑː.ɡres /","usp":"/ˈprɑː.ɡres/"}
+{"title":"progress report","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"progressed","uk":"uk  / prəˈɡres /","ukp":"/prəˈɡres/","us":"us  / prəˈɡres /","usp":"/prəˈɡres/"}
+{"title":"progressing","uk":"uk  / prəˈɡres /","ukp":"/prəˈɡres/","us":"us  / prəˈɡres /","usp":"/prəˈɡres/"}
+{"title":"progression","uk":"uk  / prəˈɡreʃ. ə n /","ukp":"/prəˈɡreʃ.ən/","us":"us  / prəˈɡreʃ. ə n /","usp":"/prəˈɡreʃ.ən/"}
+{"title":"progressive simultanagnosia","uk":"uk  / prəˌɡres.ɪv sɪm.əl.teɪn.æɡˈnəʊz.i.ə /","ukp":"/prəˌɡres.ɪv sɪm.əl.teɪn.æɡˈnəʊz.i.ə/","us":"us  / prəˈɡres.ɪv ˌsaɪ.məl.teɪ.næɡˈnoʊ.ʒə /","usp":"/prəˈɡres.ɪv ˌsaɪ.məl.teɪ.næɡˈnoʊ.ʒə/"}
+{"title":"progressive supranuclear palsy","uk":"uk  / prəˌɡres.ɪv suː.prəˈnjuː.kli.ə ˈpɔːl.zi /","ukp":"/prəˌɡres.ɪv suː.prəˈnjuː.kli.ə ˈpɔːl.zi/","us":"us  / prəˈɡres.ɪv ˌsuː.prəˈnuː.kli.ɚ ˈpɔːl.zi /","usp":"/prəˈɡres.ɪv ˌsuː.prəˈnuː.kli.ɚ ˈpɔːl.zi/"}
+{"title":"progressive","uk":"uk  / prəˈɡres.ɪv /","ukp":"/prəˈɡres.ɪv/","us":"us  / prəˈɡres.ɪv /","usp":"/prəˈɡres.ɪv/"}
+{"title":"progressive tax","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"progressivism","uk":"","us":"us / prəˈɡres·ɪˌvɪz·əm /","usp":"/prəˈɡres·ɪˌvɪz·əm/"}
+{"title":"progressively","uk":"uk  / prəˈɡres.ɪv.li /","ukp":"/prəˈɡres.ɪv.li/","us":"us  / prəˈɡres.ɪv.li /","usp":"/prəˈɡres.ɪv.li/"}
+{"title":"prohibited","uk":"uk  / prəˈhɪb.ɪt /","ukp":"/prəˈhɪb.ɪt/","us":"us  / prəˈhɪb.ɪt /","usp":"/prəˈhɪb.ɪt/"}
+{"title":"prohibit","uk":"uk  / prəˈhɪb.ɪt /","ukp":"/prəˈhɪb.ɪt/","us":"us  / prəˈhɪb.ɪt /","usp":"/prəˈhɪb.ɪt/"}
+{"title":"prohibiting","uk":"uk  / prəˈhɪb.ɪt /","ukp":"/prəˈhɪb.ɪt/","us":"us  / prəˈhɪb.ɪt /","usp":"/prəˈhɪb.ɪt/"}
+{"title":"prohibition","uk":"uk  / ˌprəʊ.ɪˈbɪʃ. ə n /","ukp":"/ˌprəʊ.ɪˈbɪʃ.ən/","us":"us  / ˌproʊ.ɪˈbɪʃ. ə n /","usp":"/ˌproʊ.ɪˈbɪʃ.ən/"}
+{"title":"prohibitive","uk":"uk  / prəˈhɪb.ɪ.tɪv /","ukp":"/prəˈhɪb.ɪ.tɪv/","us":"us  / proʊˈhɪb.ə.t̬ɪv /","usp":"/proʊˈhɪb.ə.t̬ɪv/"}
+{"title":"prohibitively","uk":"uk  / prəˈhɪb.ɪ.tɪv.li /","ukp":"/prəˈhɪb.ɪ.tɪv.li/","us":"us  / proʊˈhɪb.ə.t̬ɪv.li /","usp":"/proʊˈhɪb.ə.t̬ɪv.li/"}
+{"title":"project an image","uk":"","us":""}
+{"title":"project","uk":"uk  / ˈprɒdʒ.ekt /","ukp":"/ˈprɒdʒ.ekt/","us":"us  / ˈprɑː.dʒekt /","usp":"/ˈprɑː.dʒekt/"}
+{"title":"project engineer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Project Evaluation and Review Technique","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"project financing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"project finance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"project management","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"project-manage","uk":"uk  / ˌprɒdʒ.ekt ˈmæn.ɪdʒ /","ukp":"/ˌprɒdʒ.ekt ˈmæn.ɪdʒ/","us":"us  / ˌprɑː.dʒekt ˈmæn.ədʒ /","usp":"/ˌprɑː.dʒekt ˈmæn.ədʒ/"}
+{"title":"project planning","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"project manager","uk":"uk  / ˌprɒdʒ.ekt ˈmæn.ɪ.dʒə r /","ukp":"/ˌprɒdʒ.ekt ˈmæn.ɪ.dʒər/","us":"us  / ˌprɑː.dʒekt ˈmæn.ə.dʒɚ /","usp":"/ˌprɑː.dʒekt ˈmæn.ə.dʒɚ/"}
+{"title":"projected growth rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"projected","uk":"uk  / prəˈdʒek.tɪd /","ukp":"/prəˈdʒek.tɪd/","us":"us  / prəˈdʒek.tɪd /","usp":"/prəˈdʒek.tɪd/"}
+{"title":"projected value","uk":"uk  / prəˌdʒek.tɪd ˈvæl.juː /","ukp":"/prəˌdʒek.tɪd ˈvæl.juː/","us":"us  / prəˌdʒek.tɪd ˈvæl.juː /","usp":"/prəˌdʒek.tɪd ˈvæl.juː/"}
+{"title":"projectile","uk":"uk  / prəˈdʒek.taɪl /","ukp":"/prəˈdʒek.taɪl/","us":"us  / prəˈdʒek.t ə l /","usp":"/prəˈdʒek.təl/"}
+{"title":"projectile vomit","uk":"uk  / prəˌdʒek.taɪl ˈvɒm.ɪt /","ukp":"/prəˌdʒek.taɪl ˈvɒm.ɪt/","us":"us  / prəˌdʒek.t ə l ˈvɑː.mɪt /","usp":"/prəˌdʒek.təl ˈvɑː.mɪt/"}
+{"title":"projectile vomiting","uk":"uk  / prəˌdʒek.taɪl ˈvɒm.ɪ.tɪŋ /","ukp":"/prəˌdʒek.taɪl ˈvɒm.ɪ.tɪŋ/","us":"us  / prəˌdʒek.t ə l ˈvɑː.mɪ.t̬ɪŋ /","usp":"/prəˌdʒek.təl ˈvɑː.mɪ.t̬ɪŋ/"}
+{"title":"projecting","uk":"uk  / prəˈdʒekt /","ukp":"/prəˈdʒekt/","us":"us  / prəˈdʒekt /","usp":"/prəˈdʒekt/"}
+{"title":"projectionist","uk":"uk  / prəˈdʒek.ʃ ə n.ɪst /","ukp":"/prəˈdʒek.ʃən.ɪst/","us":"us  / prəˈdʒek.ʃ ə n.ɪst /","usp":"/prəˈdʒek.ʃən.ɪst/"}
+{"title":"projection","uk":"uk  / prəˈdʒek.ʃ ə n /","ukp":"/prəˈdʒek.ʃən/","us":"us  / prəˈdʒek.ʃ ə n /","usp":"/prəˈdʒek.ʃən/"}
+{"title":"prokaryote","uk":"uk  / prəʊˈkær.i.əʊt /","ukp":"/prəʊˈkær.i.əʊt/","us":"us  / proʊˈker.i.oʊt /","usp":"/proʊˈker.i.oʊt/"}
+{"title":"projector","uk":"uk  / prəˈdʒek.tə r /","ukp":"/prəˈdʒek.tər/","us":"us  / prəˈdʒek.tɚ /","usp":"/prəˈdʒek.tɚ/"}
+{"title":"prolapse","uk":"uk  / ˈprəʊ.læps /","ukp":"/ˈprəʊ.læps/","us":"us  / ˈproʊ.læps /","usp":"/ˈproʊ.læps/"}
+{"title":"prolapsed","uk":"uk  / ˈprəʊ.læpst /","ukp":"/ˈprəʊ.læpst/","us":"us  / ˈproʊ.læpst /","usp":"/ˈproʊ.læpst/"}
+{"title":"prole","uk":"uk  / prəʊl /","ukp":"/prəʊl/","us":"us  / proʊl /","usp":"/proʊl/"}
+{"title":"proletarian","uk":"uk  / ˌprəʊ.lɪˈteə.ri.ən /","ukp":"/ˌprəʊ.lɪˈteə.ri.ən/","us":"us  / ˌproʊ.ləˈter.i.ən /","usp":"/ˌproʊ.ləˈter.i.ən/"}
+{"title":"prokaryotic","uk":"uk  / prəʊ.kær.iˈɒt.ɪk /","ukp":"/prəʊ.kær.iˈɒt.ɪk/","us":"us  / proʊ.ker.iˈɑː.t̬ɪk /","usp":"/proʊ.ker.iˈɑː.t̬ɪk/"}
+{"title":"proliferated","uk":"uk  / prəˈlɪf. ə r.eɪt /","ukp":"/prəˈlɪf.ər.eɪt/","us":"us  / prəˈlɪf.ə.reɪt /","usp":"/prəˈlɪf.ə.reɪt/"}
+{"title":"proliferating","uk":"uk  / prəˈlɪf. ə r.eɪt /","ukp":"/prəˈlɪf.ər.eɪt/","us":"us  / prəˈlɪf.ə.reɪt /","usp":"/prəˈlɪf.ə.reɪt/"}
+{"title":"proliferation","uk":"uk  / prəˌlɪf. ə rˈeɪ.ʃ ə n /","ukp":"/prəˌlɪf.ərˈeɪ.ʃən/","us":"us  / prəˌlɪf.əˈreɪ.ʃ ə n /","usp":"/prəˌlɪf.əˈreɪ.ʃən/"}
+{"title":"proliferate","uk":"uk  / prəˈlɪf. ə r.eɪt /","ukp":"/prəˈlɪf.ər.eɪt/","us":"us  / prəˈlɪf.ə.reɪt /","usp":"/prəˈlɪf.ə.reɪt/"}
+{"title":"prolific","uk":"uk  / prəˈlɪf.ɪk /","ukp":"/prəˈlɪf.ɪk/","us":"us  / prəˈlɪf.ɪk /","usp":"/prəˈlɪf.ɪk/"}
+{"title":"prolix","uk":"uk  / ˈprəʊ.lɪks /","ukp":"/ˈprəʊ.lɪks/","us":"us  / ˈproʊ.lɪks /","usp":"/ˈproʊ.lɪks/"}
+{"title":"prolong","uk":"uk  / prəˈlɒŋ /","ukp":"/prəˈlɒŋ/","us":"us  / prəˈlɑːŋ /","usp":"/prəˈlɑːŋ/"}
+{"title":"prolixity","uk":"uk  / prəˈlɪk.sə.ti /","ukp":"/prəˈlɪk.sə.ti/","us":"us  / prəˈlɪk.sə.t̬i /","usp":"/prəˈlɪk.sə.t̬i/"}
+{"title":"prologue","uk":"uk  / ˈprəʊ.lɒɡ /","ukp":"/ˈprəʊ.lɒɡ/","us":"us  / ˈproʊ.lɑːɡ /","usp":"/ˈproʊ.lɑːɡ/"}
+{"title":"prolongation","uk":"uk  / ˌprəʊ.lɒŋˈɡeɪ.ʃ ə n /","ukp":"/ˌprəʊ.lɒŋˈɡeɪ.ʃən/","us":"us  / ˌproʊ.lɑːŋˈɡeɪ.ʃ ə n /","usp":"/ˌproʊ.lɑːŋˈɡeɪ.ʃən/"}
+{"title":"prolonged","uk":"uk  / prəˈlɒŋd /","ukp":"/prəˈlɒŋd/","us":"us  / prəˈlɑːŋd /","usp":"/prəˈlɑːŋd/"}
+{"title":"prolonging","uk":"uk  / prəˈlɒŋ /","ukp":"/prəˈlɒŋ/","us":"us  / prəˈlɑːŋ /","usp":"/prəˈlɑːŋ/"}
+{"title":"prom","uk":"uk  / prɒm /","ukp":"/prɒm/","us":"us  / prɑːm /","usp":"/prɑːm/"}
+{"title":"prom king","uk":"uk  / ˈprɒm ˌkɪŋ /","ukp":"/ˈprɒm ˌkɪŋ/","us":"us  / ˈprɑːm ˌkɪŋ /","usp":"/ˈprɑːm ˌkɪŋ/"}
+{"title":"prom queen","uk":"uk  / ˈprɒm ˌkwiːn /","ukp":"/ˈprɒm ˌkwiːn/","us":"us  / ˈprɑːm ˌkwiːn /","usp":"/ˈprɑːm ˌkwiːn/"}
+{"title":"promedios","uk":"uk  / prəʊ.ˈmed.i.əʊs /","ukp":"/prəʊ.ˈmed.i.əʊs/","us":"us  / proʊ.ˈmed.i.oʊs /","usp":"/proʊ.ˈmed.i.oʊs/"}
+{"title":"promenade","uk":"uk  / ˌprɒm.əˈnɑːd /","ukp":"/ˌprɒm.əˈnɑːd/","us":"us  / ˌprɑː.məˈneɪd /","usp":"/ˌprɑː.məˈneɪd/"}
+{"title":"promenaded","uk":"uk  / ˌprɒm.əˈnɑːd /","ukp":"/ˌprɒm.əˈnɑːd/","us":"us  / ˌprɑː.məˈneɪd /","usp":"/ˌprɑː.məˈneɪd/"}
+{"title":"promenading","uk":"uk  / ˌprɒm.əˈnɑːd /","ukp":"/ˌprɒm.əˈnɑːd/","us":"us  / ˌprɑː.məˈneɪd /","usp":"/ˌprɑː.məˈneɪd/"}
+{"title":"Promethean","uk":"uk  / prəˈmiː.θi.ən /","ukp":"/prəˈmiː.θi.ən/","us":"us  / prəˈmiː.θi.ən /","usp":"/prəˈmiː.θi.ən/"}
+{"title":"Prometheus","uk":"uk  / prəˈmiː.θi.əs /","ukp":"/prəˈmiː.θi.əs/","us":"us  / prəˈmiː.θi.əs /","usp":"/prəˈmiː.θi.əs/"}
+{"title":"prominence","uk":"uk  / ˈprɒm.ɪ.nəns /","ukp":"/ˈprɒm.ɪ.nəns/","us":"us  / ˈprɑː.mə.nəns /","usp":"/ˈprɑː.mə.nəns/"}
+{"title":"prominently","uk":"uk  / ˈprɒm.ɪ.nənt.li /","ukp":"/ˈprɒm.ɪ.nənt.li/","us":"us  / ˈprɑː.mə.nənt.li /","usp":"/ˈprɑː.mə.nənt.li/"}
+{"title":"prominent","uk":"uk  / ˈprɒm.ɪ.nənt /","ukp":"/ˈprɒm.ɪ.nənt/","us":"us  / ˈprɑː.mə.nənt /","usp":"/ˈprɑː.mə.nənt/"}
+{"title":"promiscuity","uk":"uk  / ˌprɒm.ɪˈskjuː.ə.ti /","ukp":"/ˌprɒm.ɪˈskjuː.ə.ti/","us":"us  / ˌprɑː.mɪˈskjuː.ə.t̬i /","usp":"/ˌprɑː.mɪˈskjuː.ə.t̬i/"}
+{"title":"promiscuous","uk":"uk  / prəˈmɪs.kju.əs /","ukp":"/prəˈmɪs.kju.əs/","us":"us  / prəˈmɪs.kju.əs /","usp":"/prəˈmɪs.kju.əs/"}
+{"title":"promiscuously","uk":"uk  / prəˈmɪs.kju.əs.li /","ukp":"/prəˈmɪs.kju.əs.li/","us":"us  / prəˈmɪs.kju.əs.li /","usp":"/prəˈmɪs.kju.əs.li/"}
+{"title":"promise someone the earth/moon","uk":"","us":""}
+{"title":"promise","uk":"uk  / ˈprɒm.ɪs /","ukp":"/ˈprɒm.ɪs/","us":"us  / ˈprɑː.mɪs /","usp":"/ˈprɑː.mɪs/"}
+{"title":"promised","uk":"uk  / ˈprɒm.ɪs /","ukp":"/ˈprɒm.ɪs/","us":"us  / ˈprɑː.mɪs /","usp":"/ˈprɑː.mɪs/"}
+{"title":"Promised Land","uk":"uk  / ˈprɒm.ɪst ˌlænd /","ukp":"/ˈprɒm.ɪst ˌlænd/","us":"us  / ˈprɑː.mɪst ˌlænd /","usp":"/ˈprɑː.mɪst ˌlænd /"}
+{"title":"promisee","uk":"uk  / ˌprɒm.ɪsˈiː /","ukp":"/ˌprɒm.ɪsˈiː/","us":"us  / ˌprɑː.mɪsˈiː /","usp":"/ˌprɑː.mɪsˈiː/"}
+{"title":"promises, promises!","uk":"","us":""}
+{"title":"promising","uk":"uk  / ˈprɒm.ɪ.sɪŋ /","ukp":"/ˈprɒm.ɪ.sɪŋ/","us":"us  / ˈprɑː.mɪ.sɪŋ /","usp":"/ˈprɑː.mɪ.sɪŋ/"}
+{"title":"promisingly","uk":"uk  / ˈprɒm.ɪ.sɪŋ.li /","ukp":"/ˈprɒm.ɪ.sɪŋ.li/","us":"us  / ˈprɑː.mɪ.sɪŋ.li /","usp":"/ˈprɑː.mɪ.sɪŋ.li/"}
+{"title":"promisor","uk":"uk  / ˈprɒm.ɪs.ə r /","ukp":"/ˈprɒm.ɪs.ər/","us":"us  / ˈprɑː.mɪs.ɚ /","usp":"/ˈprɑː.mɪs.ɚ/"}
+{"title":"promissory note","uk":"uk  / ˈprɒm.ɪ.s ə r.i ˌnəʊt /","ukp":"/ˈprɒm.ɪ.sər.i ˌnəʊt/","us":"us  / ˈprɑː.mɪ.sɔːr.i ˌnoʊt /","usp":"/ˈprɑː.mɪ.sɔːr.i ˌnoʊt/"}
+{"title":"promo","uk":"uk  / ˈprəʊ.məʊ /","ukp":"/ˈprəʊ.məʊ/","us":"us  / ˈproʊ.moʊ /","usp":"/ˈproʊ.moʊ/"}
+{"title":"promo code","uk":"uk  / ˈprəʊ.məʊ ˌkəʊd /","ukp":"/ˈprəʊ.məʊ ˌkəʊd/","us":"us  / ˈproʊ.moʊ ˌkoʊd /","usp":"/ˈproʊ.moʊ ˌkoʊd/"}
+{"title":"promontory","uk":"uk  / ˈprɒm.ən.tri /","ukp":"/ˈprɒm.ən.tri/","us":"us  / ˈprɑː.mən.tɔːr /","usp":"/ˈprɑː.mən.tɔːr/"}
+{"title":"promoted","uk":"uk  / prəˈməʊt /","ukp":"/prəˈməʊt/","us":"us  / prəˈmoʊt /","usp":"/prəˈmoʊt/"}
+{"title":"promote","uk":"uk  / prəˈməʊt /","ukp":"/prəˈməʊt/","us":"us  / prəˈmoʊt /","usp":"/prəˈmoʊt/"}
+{"title":"promoter","uk":"uk  / prəˈməʊ.tə r /","ukp":"/prəˈməʊ.tər/","us":"us  / prəˈmoʊ.t̬ɚ /","usp":"/prəˈmoʊ.t̬ɚ/"}
+{"title":"promoting","uk":"uk  / prəˈməʊt /","ukp":"/prəˈməʊt/","us":"us  / prəˈmoʊt /","usp":"/prəˈmoʊt/"}
+{"title":"promotional","uk":"uk  / prəˈməʊ.ʃ ə n. ə l /","ukp":"/prəˈməʊ.ʃən.əl/","us":"us  / prəˈmoʊ.ʃ ə n. ə l /","usp":"/prəˈmoʊ.ʃən.əl/"}
+{"title":"prompt date","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"promotion","uk":"uk  / prəˈməʊ.ʃ ə n /","ukp":"/prəˈməʊ.ʃən/","us":"us  / prəˈmoʊ.ʃ ə n /","usp":"/prəˈmoʊ.ʃən/"}
+{"title":"prompt note","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"prompt","uk":"uk  / prɒmpt /","ukp":"/prɒmpt/","us":"us  / prɑːmpt /","usp":"/prɑːmpt/"}
+{"title":"prompted","uk":"uk  / prɒmpt /","ukp":"/prɒmpt/","us":"us  / prɑːmpt /","usp":"/prɑːmpt/"}
+{"title":"prompting","uk":"uk  / ˈprɒmp.tɪŋ /","ukp":"/ˈprɒmp.tɪŋ/","us":"us  / ˈprɑːmp.tɪŋ /","usp":"/ˈprɑːmp.tɪŋ/"}
+{"title":"promptly","uk":"uk  / ˈprɒmpt.li /","ukp":"/ˈprɒmpt.li/","us":"us  / ˈprɑːmpt.li /","usp":"/ˈprɑːmpt.li/"}
+{"title":"promptness","uk":"uk  / ˈprɒmpt.nəs /","ukp":"/ˈprɒmpt.nəs/","us":"us  / ˈprɑːmpt.nəs /","usp":"/ˈprɑːmpt.nəs/"}
+{"title":"promulgate","uk":"uk  / ˈprɒm. ə l.ɡeɪt /","ukp":"/ˈprɒm.əl.ɡeɪt/","us":"us  / ˈprɑː.məl.ɡeɪt /","usp":"/ˈprɑː.məl.ɡeɪt/"}
+{"title":"promulgated","uk":"uk  / ˈprɒm. ə l.ɡeɪt /","ukp":"/ˈprɒm.əl.ɡeɪt/","us":"us  / ˈprɑː.məl.ɡeɪt /","usp":"/ˈprɑː.məl.ɡeɪt/"}
+{"title":"promulgating","uk":"uk  / ˈprɒm. ə l.ɡeɪt /","ukp":"/ˈprɒm.əl.ɡeɪt/","us":"us  / ˈprɑː.məl.ɡeɪt /","usp":"/ˈprɑː.məl.ɡeɪt/"}
+{"title":"pron","uk":"","us":""}
+{"title":"promulgation","uk":"uk  / ˌprɒm. ə lˈɡeɪ.ʃ ə n /","ukp":"/ˌprɒm.əlˈɡeɪ.ʃən/","us":"us  / ˌprɑː.məlˈɡeɪ.ʃ ə n /","usp":"/ˌprɑː.məlˈɡeɪ.ʃən/"}
+{"title":"pronate","uk":"uk  / ˈprəʊ.neɪt /","ukp":"/ˈprəʊ.neɪt/","us":"us  / ˈproʊˌneɪt /","usp":"/ˈproʊˌneɪt/"}
+{"title":"pronation","uk":"uk  / prəʊˈneɪ.ʃ ə n /","ukp":"/prəʊˈneɪ.ʃən/","us":"us  / proʊˈneɪ.ʃ ə n /","usp":"/proʊˈneɪ.ʃən/"}
+{"title":"pronator","uk":"uk  / prəʊˈneɪt.ə r /","ukp":"/prəʊˈneɪt.ər/","us":"us  / ˈproʊˌneɪ.t̬ɚ /","usp":"/ˈproʊˌneɪ.t̬ɚ/"}
+{"title":"prone positioning","uk":"uk  / ˌprəʊn pəˈzɪʃ. ə n.ɪŋ /","ukp":"/ˌprəʊn pəˈzɪʃ.ən.ɪŋ/","us":"us  / ˌproʊn pəˈzɪʃ. ə n.ɪŋ /","usp":"/ˌproʊn pəˈzɪʃ.ən.ɪŋ/"}
+{"title":"prone","uk":"uk  / prəʊn /","ukp":"/prəʊn/","us":"us  / proʊn /","usp":"/proʊn/"}
+{"title":"proneness","uk":"uk  / ˈprəʊn.nəs /","ukp":"/ˈprəʊn.nəs/","us":"us  / ˈproʊn.nəs /","usp":"/ˈproʊn.nəs/"}
+{"title":"prong","uk":"uk  / prɒŋ /","ukp":"/prɒŋ/","us":"us  / prɑːŋ /","usp":"/prɑːŋ/"}
+{"title":"-pronged","uk":"uk  / -prɒŋd /","ukp":"/ -prɒŋd/","us":"us  / -prɑːŋd /","usp":"/ -prɑːŋd/"}
+{"title":"pronk","uk":"uk  / prɒŋk /","ukp":"/prɒŋk/","us":"us  / prɒŋk /","usp":"/prɒŋk/"}
+{"title":"proning","uk":"uk  / ˈprəʊ.nɪŋ /","ukp":"/ˈprəʊ.nɪŋ/","us":"us  / ˈproʊ.nɪŋ /","usp":"/ˈproʊ.nɪŋ/"}
+{"title":"pronominal","uk":"uk  / prəʊˈnɒm.ɪ.n ə l /","ukp":"/prəʊˈnɒm.ɪ.nəl/","us":"us  / proʊˈnɑː.mə.n ə l /","usp":"/proʊˈnɑː.mə.nəl/"}
+{"title":"pronoun","uk":"uk  / ˈprəʊ.naʊn /","ukp":"/ˈprəʊ.naʊn/","us":"us  / ˈproʊ.naʊn /","usp":"/ˈproʊ.naʊn/"}
+{"title":"pronounce on/upon something","uk":"uk  / prəˈnaʊns /","ukp":"/prəˈnaʊns/","us":"us  / prəˈnaʊns /","usp":"/prəˈnaʊns/"}
+{"title":"pronounced","uk":"uk  / prəˈnaʊnst /","ukp":"/prəˈnaʊnst/","us":"us  / prəˈnaʊnst /","usp":"/prəˈnaʊnst/"}
+{"title":"pronounce","uk":"uk  / prəˈnaʊns /","ukp":"/prəˈnaʊns/","us":"us  / prəˈnaʊns /","usp":"/prəˈnaʊns/"}
+{"title":"pronto","uk":"uk  / ˈprɒn.təʊ /","ukp":"/ˈprɒn.təʊ/","us":"us  / ˈprɑːn.t̬oʊ /","usp":"/ˈprɑːn.t̬oʊ/"}
+{"title":"pronouncing","uk":"uk  / prəˈnaʊns /","ukp":"/prəˈnaʊns/","us":"us  / prəˈnaʊns /","usp":"/prəˈnaʊns/"}
+{"title":"pronunciation","uk":"uk  / prəˌnʌn.siˈeɪ.ʃ ə n /","ukp":"/prəˌnʌn.siˈeɪ.ʃən/","us":"us  / prəˌnʌn.siˈeɪ.ʃ ə n /","usp":"/prəˌnʌn.siˈeɪ.ʃən/"}
+{"title":"proof copy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"pronouncement","uk":"uk  / prəˈnaʊnsmənt /","ukp":"/prəˈnaʊnsmənt/","us":"us  / prəˈnaʊnsmənt /","usp":"/prəˈnaʊnsmənt/"}
+{"title":"proof","uk":"uk  / pruːf /","ukp":"/pruːf/","us":"us  / pruːf /","usp":"/pruːf/"}
+{"title":"proof of purchase","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"proof of title","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"proof positive","uk":"uk  / ˌpruːf ˈpɒz.ə.tɪv /","ukp":"/ˌpruːf ˈpɒz.ə.tɪv/","us":"us  / ˌpruːf ˈpɑː.zə.t̬ɪv /","usp":"/ˌpruːf ˈpɑː.zə.t̬ɪv/"}
+{"title":"proofed","uk":"uk  / pruːf /","ukp":"/pruːf/","us":"us  / pruːf /","usp":"/pruːf/"}
+{"title":"proofing","uk":"uk  / pruːf /","ukp":"/pruːf/","us":"us  / pruːf /","usp":"/pruːf/"}
+{"title":"proofread","uk":"uk  / ˈpruːf.riːd /","ukp":"/ˈpruːf.riːd/","us":"us  / ˈpruːf.riːd /","usp":"/ˈpruːf.riːd/"}
+{"title":"proofreading","uk":"uk  / ˈpruːfˌriː.dɪŋ /","ukp":"/ˈpruːfˌriː.dɪŋ/","us":"us  / ˈpruːfˌriː.dɪŋ /","usp":"/ˈpruːfˌriː.dɪŋ/"}
+{"title":"proofreader","uk":"uk  / ˈpruːfˌriː.də r /","ukp":"/ˈpruːfˌriː.dər/","us":"us  / ˈpruːfˌriː.dɚ /","usp":"/ˈpruːfˌriː.dɚ/"}
+{"title":"prop","uk":"uk  / prɒp /","ukp":"/prɒp/","us":"us  / prɑːp /","usp":"/prɑːp/"}
+{"title":"prop something up","uk":"uk  / prɒp /","ukp":"/prɒp/","us":"us  / prɑːp /","usp":"/prɑːp/"}
+{"title":"propaganda","uk":"uk  / ˌprɒp.əˈɡæn.də /","ukp":"/ˌprɒp.əˈɡæn.də/","us":"us  / ˌprɑː.pəˈɡæn.də /","usp":"/ˌprɑː.pəˈɡæn.də/"}
+{"title":"propagandist","uk":"uk  / ˌprɒp.əˈɡæn.dɪst /","ukp":"/ˌprɒp.əˈɡæn.dɪst/","us":"us  / ˌprɑː.pəˈɡæn.dɪst /","usp":"/ˌprɑː.pəˈɡæn.dɪst/"}
+{"title":"propagandize","uk":"uk  / ˌprɒp.əˈɡæn.daɪz /","ukp":"/ˌprɒp.əˈɡæn.daɪz/","us":"us  / ˌprɑː.pəˈɡæn.daɪz /","usp":"/ˌprɑː.pəˈɡæn.daɪz/"}
+{"title":"propagandized","uk":"uk  / ˌprɒp.əˈɡæn.daɪz /","ukp":"/ˌprɒp.əˈɡæn.daɪz/","us":"us  / ˌprɑː.pəˈɡæn.daɪz /","usp":"/ˌprɑː.pəˈɡæn.daɪz/"}
+{"title":"propagandizing","uk":"uk  / ˌprɒp.əˈɡæn.daɪz /","ukp":"/ˌprɒp.əˈɡæn.daɪz/","us":"us  / ˌprɑː.pəˈɡæn.daɪz /","usp":"/ˌprɑː.pəˈɡæn.daɪz/"}
+{"title":"propagate","uk":"uk  / ˈprɒp.ə.ɡeɪt /","ukp":"/ˈprɒp.ə.ɡeɪt/","us":"us  / ˈprɑː.pə.ɡeɪt /","usp":"/ˈprɑː.pə.ɡeɪt/"}
+{"title":"propagated","uk":"uk  / ˈprɒp.ə.ɡeɪt /","ukp":"/ˈprɒp.ə.ɡeɪt/","us":"us  / ˈprɑː.pə.ɡeɪt /","usp":"/ˈprɑː.pə.ɡeɪt/"}
+{"title":"propagating","uk":"uk  / ˈprɒp.ə.ɡeɪt /","ukp":"/ˈprɒp.ə.ɡeɪt/","us":"us  / ˈprɑː.pə.ɡeɪt /","usp":"/ˈprɑː.pə.ɡeɪt/"}
+{"title":"propagative","uk":"uk / ˈprɒp.ə.ɡə.tɪv /","ukp":"/ˈprɒp.ə.ɡə.tɪv/","us":"us  / ˈprɑː.pə.ɡə.t̬ɪv /","usp":"/ˈprɑː.pə.ɡə.t̬ɪv/"}
+{"title":"propagation","uk":"uk  / ˌprɒp.əˈɡeɪ.ʃ ə n /","ukp":"/ˌprɒp.əˈɡeɪ.ʃən/","us":"us  / ˌprɑː.pəˈɡeɪ.ʃ ə n /","usp":"/ˌprɑː.pəˈɡeɪ.ʃən/"}
+{"title":"propagator","uk":"uk  / ˈprɒp.ə.ɡeɪ.tə r /","ukp":"/ˈprɒp.ə.ɡeɪ.tər/","us":"us  / ˈprɑː.pə.ɡeɪ.t̬ɚ /","usp":"/ˈprɑː.pə.ɡeɪ.t̬ɚ/"}
+{"title":"propane","uk":"uk  / ˈprəʊ.peɪn /","ukp":"/ˈprəʊ.peɪn/","us":"us  / ˈproʊ.peɪn /","usp":"/ˈproʊ.peɪn/"}
+{"title":"propane (gas)","uk":"","us":"us  / ˈproʊ·peɪn (ˌɡæs) /","usp":"/ˈproʊ·peɪn (ˌɡæs)/"}
+{"title":"propanone","uk":"uk  / ˈprəʊ.pə.nəʊn /","ukp":"/ˈprəʊ.pə.nəʊn/","us":"us  / ˈproʊ.pə.noʊn /","usp":"/ˈproʊ.pə.noʊn/"}
+{"title":"propel","uk":"uk  / prəˈpel /","ukp":"/prəˈpel/","us":"us  / prəˈpel /","usp":"/prəˈpel/"}
+{"title":"propellant","uk":"uk  / prəˈpel.ənt /","ukp":"/prəˈpel.ənt/","us":"us  / prəˈpel.ənt /","usp":"/prəˈpel.ənt/"}
+{"title":"propeller","uk":"uk  / prəˈpel.ə r /","ukp":"/prəˈpel.ər/","us":"us  / prəˈpel.ɚ /","usp":"/prəˈpel.ɚ/"}
+{"title":"propelling pencil","uk":"uk  / prəˌpel.ɪŋ ˈpen.s ə l /","ukp":"/prəˌpel.ɪŋ ˈpen.səl/","us":"us  / prəˌpel.ɪŋ ˈpen.s ə l /","usp":"/prəˌpel.ɪŋ ˈpen.səl/"}
+{"title":"propensity","uk":"uk  / prəˈpen.sə.ti /","ukp":"/prəˈpen.sə.ti/","us":"us  / prəˈpen.sə.t̬i /","usp":"/prəˈpen.sə.t̬i/"}
+{"title":"proper fraction","uk":"uk  / ˌprɒp.ə ˈfræk.ʃ ə n /","ukp":"/ˌprɒp.ə ˈfræk.ʃən/","us":"us  / ˌprɑː.pɚ ˈfræk.ʃ ə n /","usp":"/ˌprɑː.pɚ ˈfræk.ʃən/"}
+{"title":"proper","uk":"uk  / ˈprɒp.ə r /","ukp":"/ˈprɒp.ər/","us":"us  / ˈprɑː.pɚ /","usp":"/ˈprɑː.pɚ/"}
+{"title":"properly speaking","uk":"","us":""}
+{"title":"proper noun","uk":"uk  / ˈprɒp.ə ˌnaʊn /","ukp":"/ˈprɒp.ə ˌnaʊn/","us":"us  / ˈprɑː.pɚ ˌnaʊn /","usp":"/ˈprɑː.pɚ ˌnaʊn/"}
+{"title":"properly","uk":"uk  / ˈprɒp. ə l.i /","ukp":"/ˈprɒp.əl.i/","us":"us  / ˈprɑː.pɚ.li /","usp":"/ˈprɑː.pɚ.li/"}
+{"title":"propers","uk":"uk  / ˈprɒp.əz /","ukp":"/ˈprɒp.əz/","us":"us  / ˈprɑː.pɚz /","usp":"/ˈprɑː.pɚz/"}
+{"title":"property and liability insurance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"property","uk":"uk  / ˈprɒp.ə.ti /","ukp":"/ˈprɒp.ə.ti/","us":"us  / ˈprɑː.pɚ.t̬i /","usp":"/ˈprɑː.pɚ.t̬i/"}
+{"title":"property bond","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"property company","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"property damage","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"property developer","uk":"uk  / ˈprɒp.ə.ti dɪˌvel.ə.pə r /","ukp":"/ˈprɒp.ə.ti dɪˌvel.ə.pər/","us":"us  / ˈprɑː.pɚ.t̬i dɪˌvel.ə.pɚ /","usp":"/ˈprɑː.pɚ.t̬i dɪˌvel.ə.pɚ/"}
+{"title":"property guardian","uk":"uk  / ˈprɒp.ə.ti ˌɡɑː.di.ən /","ukp":"/ˈprɒp.ə.ti ˌɡɑː.di.ən/","us":"us  / ˈprɑː.pɚ.t̬i ˌɡɑːr.di.ən /","usp":"/ˈprɑː.pɚ.t̬i ˌɡɑːr.di.ən/"}
+{"title":"property development","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"property guardianship","uk":"uk  / ˈprɒp.ə.ti ˌɡɑː.di.ən.ʃɪp /","ukp":"/ˈprɒp.ə.ti ˌɡɑː.di.ən.ʃɪp/","us":"us  / ˈprɑː.pɚ.t̬i ˌɡɑːr.di.ən.ʃɪp /","usp":"/ˈprɑː.pɚ.t̬i ˌɡɑːr.di.ən.ʃɪp/"}
+{"title":"property investment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"property management","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"property loan","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"property manager","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"property register","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"property tax","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"property rights","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"prophase","uk":"uk  / ˈprəʊ.feɪz /","ukp":"/ˈprəʊ.feɪz/","us":"us  / ˈproʊ.feɪz /","usp":"/ˈproʊ.feɪz/"}
+{"title":"property-owning","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"prophecy","uk":"uk  / ˈprɒf.ə.si /","ukp":"/ˈprɒf.ə.si/","us":"us  / ˈprɑː.fə.si /","usp":"/ˈprɑː.fə.si/"}
+{"title":"prophesied","uk":"uk  / ˈprɒf.ə.saɪ /","ukp":"/ˈprɒf.ə.saɪ/","us":"us  / ˈprɑː.fə.saɪ /","usp":"/ˈprɑː.fə.saɪ/"}
+{"title":"prophesy","uk":"uk  / ˈprɒf.ə.saɪ /","ukp":"/ˈprɒf.ə.saɪ/","us":"us  / ˈprɑː.fə.saɪ /","usp":"/ˈprɑː.fə.saɪ/"}
+{"title":"prophesying","uk":"uk  / ˈprɒf.ə.saɪ /","ukp":"/ˈprɒf.ə.saɪ/","us":"us  / ˈprɑː.fə.saɪ /","usp":"/ˈprɑː.fə.saɪ/"}
+{"title":"prophet","uk":"uk  / ˈprɒf.ɪt /","ukp":"/ˈprɒf.ɪt/","us":"us  / ˈprɑː.fɪt /","usp":"/ˈprɑː.fɪt/"}
+{"title":"prophet of doom","uk":"","us":""}
+{"title":"prophetess","uk":"uk  / ˌprɒf.ɪˈtes /","ukp":"/ˌprɒf.ɪˈtes/","us":"us  / ˈprɑː.fɪ.t̬əs /","usp":"/ˈprɑː.fɪ.t̬əs/"}
+{"title":"prophetic","uk":"uk  / prəˈfet.ɪk /","ukp":"/prəˈfet.ɪk/","us":"us  / prəˈfet̬.ɪk /","usp":"/prəˈfet̬.ɪk/"}
+{"title":"prophetically","uk":"uk  / prəˈfet.ɪ.k ə l.i /","ukp":"/prəˈfet.ɪ.kəl.i/","us":"us  / prəˈfet̬.ɪ.k ə l.i /","usp":"/prəˈfet̬.ɪ.kəl.i/"}
+{"title":"prophylaxis","uk":"uk  / ˌprɒf.ɪˈlæk.sɪs /","ukp":"/ˌprɒf.ɪˈlæk.sɪs/","us":"us  / ˌproʊ.fɪˈlæk.sɪs /","usp":"/ˌproʊ.fɪˈlæk.sɪs/"}
+{"title":"prophylactic","uk":"uk  / ˌprɒf.ɪˈlæk.tɪk /","ukp":"/ˌprɒf.ɪˈlæk.tɪk/","us":"us  / ˌprɑː.fɪˈlæk.tɪk /","usp":"/ˌprɑː.fɪˈlæk.tɪk/"}
+{"title":"propinquity","uk":"uk  / prəˈpɪŋ.kwə.ti /","ukp":"/prəˈpɪŋ.kwə.ti/","us":"us  / proʊˈpɪŋ.kwə.t̬i /","usp":"/proʊˈpɪŋ.kwə.t̬i/"}
+{"title":"propitiate","uk":"uk  / prəˈpɪʃ.i.eɪt /","ukp":"/prəˈpɪʃ.i.eɪt/","us":"us  / prəˈpɪʃ.i.eɪt /","usp":"/prəˈpɪʃ.i.eɪt/"}
+{"title":"propitiation","uk":"uk  / prəˌpɪʃ.iˈeɪ.ʃ ə n /","ukp":"/prəˌpɪʃ.iˈeɪ.ʃən/","us":"us  / prəˌpɪʃ.iˈeɪ.ʃ ə n /","usp":"/prəˌpɪʃ.iˈeɪ.ʃən/"}
+{"title":"propitiating","uk":"uk  / prəˈpɪʃ.i.eɪt /","ukp":"/prəˈpɪʃ.i.eɪt/","us":"us  / prəˈpɪʃ.i.eɪt /","usp":"/prəˈpɪʃ.i.eɪt/"}
+{"title":"propitiated","uk":"uk  / prəˈpɪʃ.i.eɪt /","ukp":"/prəˈpɪʃ.i.eɪt/","us":"us  / prəˈpɪʃ.i.eɪt /","usp":"/prəˈpɪʃ.i.eɪt/"}
+{"title":"propitiatory","uk":"uk  / prəˌpɪʃ.iˈeɪ.t ə r.i /","ukp":"/prəˌpɪʃ.iˈeɪ.tər.i/","us":"us  / prəˈpɪʃ.i.ə.tɔːr.i /","usp":"/prəˈpɪʃ.i.ə.tɔːr.i/"}
+{"title":"propitiously","uk":"uk  / prəˈpɪʃ.əs.li /","ukp":"/prəˈpɪʃ.əs.li/","us":"us  / prəˈpɪʃ.əs.li /","usp":"/prəˈpɪʃ.əs.li/"}
+{"title":"propitious","uk":"uk  / prəˈpɪʃ.əs /","ukp":"/prəˈpɪʃ.əs/","us":"us  / prəˈpɪʃ.əs /","usp":"/prəˈpɪʃ.əs/"}
+{"title":"propofol","uk":"uk  / ˈprɒp.ə.fɒl /","ukp":"/ˈprɒp.ə.fɒl/","us":"us  / ˈproʊ.pəˌfɔːl /","usp":"/ˈproʊ.pəˌfɔːl/"}
+{"title":"proponent","uk":"uk  / prəˈpəʊ.nənt /","ukp":"/prəˈpəʊ.nənt/","us":"us  / prəˈpoʊ.nənt /","usp":"/prəˈpoʊ.nənt/"}
+{"title":"proportional","uk":"uk  / prəˈpɔː.ʃ ə n. ə l /","ukp":"/prəˈpɔː.ʃən.əl/","us":"us  / prəˈpɔːr.ʃ ə n. ə l /","usp":"/prəˈpɔːr.ʃən.əl/"}
+{"title":"proportion","uk":"uk  / prəˈpɔː.ʃ ə n /","ukp":"/prəˈpɔː.ʃən/","us":"us  / prəˈpɔːr.ʃ ə n /","usp":"/prəˈpɔːr.ʃən/"}
+{"title":"proportional tax","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"proportional representation","uk":"uk  / prəˌpɔː.ʃ ə n. ə l rep.rɪ.zenˈteɪ.ʃ ə n /","ukp":"/prəˌpɔː.ʃən.əl rep.rɪ.zenˈteɪ.ʃən/","us":"us  / prəˌpɔːr.ʃ ə n. ə l rep.rɪ.zenˈteɪ.ʃ ə n /","usp":"/prəˌpɔːr.ʃən.əl rep.rɪ.zenˈteɪ.ʃən/"}
+{"title":"proportionality","uk":"uk  / prəˌpɔːʃ ə ˈnæləti /","ukp":"/prəˌpɔːʃəˈnæləti/","us":"us ","usp":""}
+{"title":"proportionally","uk":"uk  / prəˈpɔː.ʃ ə n. ə l.i /","ukp":"/prəˈpɔː.ʃən.əl.i/","us":"us  / prəˈpɔːr.ʃ ə n. ə l.i /","usp":"/prəˈpɔːr.ʃən.əl.i/"}
+{"title":"proportionate","uk":"uk  / prəˈpɔːʃ ə nət /","ukp":"/prəˈpɔːʃənət/","us":"us ","usp":""}
+{"title":"proportionately","uk":"uk  / prəˈpɔːʃ ə nətli /","ukp":"/prəˈpɔːʃənətli/","us":"us ","usp":""}
+{"title":"proportioned","uk":"uk  / prəˈpɔː.ʃ ə nd /","ukp":"/prəˈpɔː.ʃənd/","us":"us  / prəˈpɔːr.ʃ ə nd /","usp":"/prəˈpɔːr.ʃənd/"}
+{"title":"proposed","uk":"uk  / prəˈpəʊzd /","ukp":"/prəˈpəʊzd/","us":"us  / prəˈpoʊzd /","usp":"/prəˈpoʊzd/"}
+{"title":"proposal","uk":"uk  / prəˈpəʊ.z ə l /","ukp":"/prəˈpəʊ.zəl/","us":"us  / prəˈpoʊ.z ə l /","usp":"/prəˈpoʊ.zəl/"}
+{"title":"propose","uk":"uk  / prəˈpəʊz /","ukp":"/prəˈpəʊz/","us":"us  / prəˈpoʊz /","usp":"/prəˈpoʊz/"}
+{"title":"proposer","uk":"uk  / prəˈpəʊ.zə r /","ukp":"/prəˈpəʊ.zər/","us":"us  / prəˈpoʊ.zɚ /","usp":"/prəˈpoʊ.zɚ/"}
+{"title":"proposition","uk":"uk  / ˌprɒp.əˈzɪʃ. ə n /","ukp":"/ˌprɒp.əˈzɪʃ.ən/","us":"us  / ˌprɑː.pəˈzɪʃ. ə n /","usp":"/ˌprɑː.pəˈzɪʃ.ən/"}
+{"title":"proposing","uk":"uk  / prəˈpəʊz /","ukp":"/prəˈpəʊz/","us":"us  / prəˈpoʊz /","usp":"/prəˈpoʊz/"}
+{"title":"propositional","uk":"uk  / ˌprɒp.əˈzɪʃ. ə n. ə l /","ukp":"/ˌprɒp.əˈzɪʃ.ən.əl/","us":"us  / ˌprɑː.pəˈzɪʃ. ə n. ə l /","usp":"/ˌprɑː.pəˈzɪʃ.ən.əl/"}
+{"title":"propositioned","uk":"uk  / ˌprɒp.əˈzɪʃ. ə n /","ukp":"/ˌprɒp.əˈzɪʃ.ən/","us":"us  / ˌprɑː.pəˈzɪʃ. ə n /","usp":"/ˌprɑː.pəˈzɪʃ.ən/"}
+{"title":"propositioning","uk":"uk  / ˌprɒp.əˈzɪʃ. ə n /","ukp":"/ˌprɒp.əˈzɪʃ.ən/","us":"us  / ˌprɑː.pəˈzɪʃ. ə n /","usp":"/ˌprɑː.pəˈzɪʃ.ən/"}
+{"title":"propound","uk":"uk  / prəˈpaʊnd /","ukp":"/prəˈpaʊnd/","us":"us  / prəˈpaʊnd /","usp":"/prəˈpaʊnd/"}
+{"title":"propounded","uk":"uk  / prəˈpaʊnd /","ukp":"/prəˈpaʊnd/","us":"us  / prəˈpaʊnd /","usp":"/prəˈpaʊnd/"}
+{"title":"propped","uk":"","us":""}
+{"title":"propounding","uk":"uk  / prəˈpaʊnd /","ukp":"/prəˈpaʊnd/","us":"us  / prəˈpaʊnd /","usp":"/prəˈpaʊnd/"}
+{"title":"propping","uk":"","us":""}
+{"title":"proprietary","uk":"uk  / prəˈpraɪə.t ə r.i /","ukp":"/prəˈpraɪə.tər.i/","us":"us  / prəˈpraɪə.ter.i /","usp":"/prəˈpraɪə.ter.i/"}
+{"title":"proprietary company","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"proprietary rights","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"proprietary trader","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"proprietary trading","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"proprietor","uk":"uk  / prəˈpraɪə.tə r /","ukp":"/prəˈpraɪə.tər/","us":"us  / prəˈpraɪə.t̬ɚ /","usp":"/prəˈpraɪə.t̬ɚ/"}
+{"title":"proprietorship register","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"proprietorship","uk":"uk  / prəˈpraɪətəʃɪp /","ukp":"/prəˈpraɪətəʃɪp/","us":"us ","usp":""}
+{"title":"proprietorial","uk":"uk  / prəˌpraɪəˈtɔː.ri.əl /","ukp":"/prəˌpraɪəˈtɔː.ri.əl/","us":"us  / prəˌpraɪəˈtɔːr.i.əl /","usp":"/prəˌpraɪəˈtɔːr.i.əl/"}
+{"title":"proprietress","uk":"uk  / prəˈpraɪə.trəs /","ukp":"/prəˈpraɪə.trəs/","us":"us  / prəˈpraɪə.trəs /","usp":"/prəˈpraɪə.trəs/"}
+{"title":"proprioception","uk":"uk  / ˌprəʊ.pri.əˈsep.ʃ ə n /","ukp":"/ˌprəʊ.pri.əˈsep.ʃən/","us":"us  / ˌproʊ.pri.əˈsep.ʃ ə n /","usp":"/ˌproʊ.pri.əˈsep.ʃən/"}
+{"title":"propriety","uk":"uk  / prəˈpraɪə.ti /","ukp":"/prəˈpraɪə.ti/","us":"us  / prəˈpraɪə.t̬i /","usp":"/prəˈpraɪə.t̬i/"}
+{"title":"props","uk":"","us":"us  / ˈprɑps /","usp":"/ˈprɑps/"}
+{"title":"proprioceptive","uk":"uk  / ˌprəʊ.pri.əˈsep.tɪv /","ukp":"/ˌprəʊ.pri.əˈsep.tɪv/","us":"us  / ˌproʊ.pri.əˈsep.tɪv /","usp":"/ˌproʊ.pri.əˈsep.tɪv/"}
+{"title":"proprioceptor","uk":"uk  / ˌprəʊ.pri.əˈsep.tə r /","ukp":"/ˌprəʊ.pri.əˈsep.tər/","us":"us  / ˌproʊ.pri.əˈsep.t̬ɚ /","usp":"/ˌproʊ.pri.əˈsep.t̬ɚ/"}
+{"title":"propulsion","uk":"uk  / prəˈpʌl.ʃ ə n /","ukp":"/prəˈpʌl.ʃən/","us":"us  / prəˈpʌl.ʃ ə n /","usp":"/prəˈpʌl.ʃən/"}
+{"title":"propylene glycol","uk":"uk  / ˌprəʊ.pɪ.liːn ˈɡlaɪ.kɒl /","ukp":"/ˌprəʊ.pɪ.liːn ˈɡlaɪ.kɒl/","us":"us  / ˌproʊ.pɪ.liːn ˈɡlaɪ.kɑːl /","usp":"/ˌproʊ.pɪ.liːn ˈɡlaɪ.kɑːl/"}
+{"title":"prorated","uk":"uk  / prəʊˈreɪ.tɪd /","ukp":"/prəʊˈreɪ.tɪd/","us":"us  / proʊˈreɪ.t̬ɪd /","usp":"/proʊˈreɪ.t̬ɪd/"}
+{"title":"prorate","uk":"uk  / prəʊˈreɪt /","ukp":"/prəʊˈreɪt/","us":"us  / proʊˈreɪt /","usp":"/proʊˈreɪt/"}
+{"title":"prorogation","uk":"uk  / prəʊ.rəˈɡeɪ.ʃ ə n /","ukp":"/prəʊ.rəˈɡeɪ.ʃən/","us":"us  / proʊ.roʊˈɡeɪ.ʃ ə n /","usp":"/proʊ.roʊˈɡeɪ.ʃən/"}
+{"title":"prorogue","uk":"uk  / prəʊˈrəʊɡ /","ukp":"/prəʊˈrəʊɡ/","us":"us  / proʊˈroʊɡ /","usp":"/proʊˈroʊɡ/"}
+{"title":"prosaic","uk":"uk  / prəˈzeɪ.ɪk /","ukp":"/prəˈzeɪ.ɪk/","us":"us  / prəˈzeɪ.ɪk /","usp":"/prəˈzeɪ.ɪk/"}
+{"title":"prosciutto","uk":"uk  / prəˈʃuː.təʊ /","ukp":"/prəˈʃuː.təʊ/","us":"us  / prəˈʃuː.t̬oʊ /","usp":"/prəˈʃuː.t̬oʊ/"}
+{"title":"proscribe","uk":"uk  / prəʊˈskraɪb /","ukp":"/prəʊˈskraɪb/","us":"us  / proʊˈskraɪb /","usp":"/proʊˈskraɪb/"}
+{"title":"proscribed","uk":"uk  / prəʊˈskraɪb /","ukp":"/prəʊˈskraɪb/","us":"us  / proʊˈskraɪb /","usp":"/proʊˈskraɪb/"}
+{"title":"proscribing","uk":"uk  / prəʊˈskraɪb /","ukp":"/prəʊˈskraɪb/","us":"us  / proʊˈskraɪb /","usp":"/proʊˈskraɪb/"}
+{"title":"proscription","uk":"uk  / prəʊˈskrɪp.ʃ ə n /","ukp":"/prəʊˈskrɪp.ʃən/","us":"us  / proʊˈskrɪp.ʃ ə n /","usp":"/proʊˈskrɪp.ʃən/"}
+{"title":"prose","uk":"uk  / prəʊz /","ukp":"/prəʊz/","us":"us  / proʊz /","usp":"/proʊz/"}
+{"title":"Prosecco","uk":"uk  / prəˈsek.əʊ /","ukp":"/prəˈsek.əʊ/","us":"us  / prəˈsek.oʊ /","usp":"/prəˈsek.oʊ/"}
+{"title":"prose poem","uk":"uk  / ˈprəʊz ˌpəʊ.ɪm /","ukp":"/ˈprəʊz ˌpəʊ.ɪm/","us":"us  / ˈproʊz ˌpoʊ.əm /","usp":"/ˈproʊz ˌpoʊ.əm/"}
+{"title":"prosecute","uk":"uk  / ˈprɒs.ɪ.kjuːt /","ukp":"/ˈprɒs.ɪ.kjuːt/","us":"us  / ˈprɑː.sə.kjuːt /","usp":"/ˈprɑː.sə.kjuːt/"}
+{"title":"prosecuted","uk":"uk  / ˈprɒs.ɪ.kjuːt /","ukp":"/ˈprɒs.ɪ.kjuːt/","us":"us  / ˈprɑː.sə.kjuːt /","usp":"/ˈprɑː.sə.kjuːt/"}
+{"title":"prosecuting","uk":"uk  / ˈprɒs.ɪ.kjuːt /","ukp":"/ˈprɒs.ɪ.kjuːt/","us":"us  / ˈprɑː.sə.kjuːt /","usp":"/ˈprɑː.sə.kjuːt/"}
+{"title":"prosecution","uk":"uk  / ˌprɒs.ɪˈkjuː.ʃ ə n /","ukp":"/ˌprɒs.ɪˈkjuː.ʃən/","us":"us  / ˌprɑː.səˈkjuː.ʃ ə n /","usp":"/ˌprɑː.səˈkjuː.ʃən/"}
+{"title":"prosecutorial","uk":"uk  / ˌprɒs.ɪ.kjuːˈtɔː.ri.əl /","ukp":"/ˌprɒs.ɪ.kjuːˈtɔː.ri.əl/","us":"us  / ˌprɑː.sɪ.kjuːˈtɔːr.i.əl /","usp":"/ˌprɑː.sɪ.kjuːˈtɔːr.i.əl/"}
+{"title":"prosecutor","uk":"uk  / ˈprɒs.ɪ.kjuː.tə r /","ukp":"/ˈprɒs.ɪ.kjuː.tər/","us":"us  / ˈprɑː.sə.kjuː.t̬ɚ /","usp":"/ˈprɑː.sə.kjuː.t̬ɚ/"}
+{"title":"proselyte","uk":"uk  / ˈprɒs.ə.laɪt /","ukp":"/ˈprɒs.ə.laɪt/","us":"us  / ˈprɑː.sə.laɪt /","usp":"/ˈprɑː.sə.laɪt/"}
+{"title":"proselytize","uk":"uk  / ˈprɒs. ə l.ɪ.taɪz /","ukp":"/ˈprɒs.əl.ɪ.taɪz/","us":"us  / ˈprɑː.sə.lɪ.taɪz /","usp":"/ˈprɑː.sə.lɪ.taɪz/"}
+{"title":"proselytized","uk":"uk  / ˈprɒs. ə l.ɪ.taɪz /","ukp":"/ˈprɒs.əl.ɪ.taɪz/","us":"us  / ˈprɑː.sə.lɪ.taɪz /","usp":"/ˈprɑː.sə.lɪ.taɪz/"}
+{"title":"proselytizer","uk":"uk  / ˌprɒs. ə l.ɪˈtaɪ.zə r /","ukp":"/ˌprɒs.əl.ɪˈtaɪ.zər/","us":"us  / ˌprɑː.sə.lɪˈtaɪ.zɚ /","usp":"/ˌprɑː.sə.lɪˈtaɪ.zɚ/"}
+{"title":"proselytizing","uk":"uk  / ˈprɒs. ə l.ɪ.taɪz /","ukp":"/ˈprɒs.əl.ɪ.taɪz/","us":"us  / ˈprɑː.sə.lɪ.taɪz /","usp":"/ˈprɑː.sə.lɪ.taɪz/"}
+{"title":"prosodic","uk":"uk  / prəˈsɒd.ɪk /","ukp":"/prəˈsɒd.ɪk/","us":"us  / prəˈsɑː.dɪk /","usp":"/prəˈsɑː.dɪk/"}
+{"title":"prosody","uk":"uk  / ˈprɒs.ə.di /","ukp":"/ˈprɒs.ə.di/","us":"us  / ˈprɑː.sə.di /","usp":"/ˈprɑː.sə.di/"}
+{"title":"prosopagnosia","uk":"uk  / ˌprɒs.əʊ.pæɡˈnəʊz.i.ə /","ukp":"/ˌprɒs.əʊ.pæɡˈnəʊz.i.ə/","us":"us  / ˌprɑː.soʊ.pæɡˈnoʊ.ʒə /","usp":"/ˌprɑː.soʊ.pæɡˈnoʊ.ʒə/"}
+{"title":"prospecting","uk":"uk  / ˈprɒspektɪŋ /","ukp":"/ˈprɒspektɪŋ/","us":"us ","usp":""}
+{"title":"prospected","uk":"uk  / ˈprɒs.pekt /","ukp":"/ˈprɒs.pekt/","us":"us  / ˈprɑː.spekt /","usp":"/ˈprɑː.spekt/"}
+{"title":"prospect","uk":"uk  / ˈprɒs.pekt /","ukp":"/ˈprɒs.pekt/","us":"us  / ˈprɑː.spekt /","usp":"/ˈprɑː.spekt/"}
+{"title":"prospective","uk":"uk  / prəˈspek.tɪv /","ukp":"/prəˈspek.tɪv/","us":"us  / prəˈspek.tɪv /","usp":"/prəˈspek.tɪv/"}
+{"title":"prospectively","uk":"uk  / prəˈspek.tɪv.li /","ukp":"/prəˈspek.tɪv.li/","us":"us  / prəˈspek.tɪv.li /","usp":"/prəˈspek.tɪv.li/"}
+{"title":"prospector","uk":"uk  / prəˈspek.tə r /","ukp":"/prəˈspek.tər/","us":"us  / ˈprɑː.spek.t̬ɚ /","usp":"/ˈprɑː.spek.t̬ɚ/"}
+{"title":"prospectus","uk":"uk  / prəˈspek.təs /","ukp":"/prəˈspek.təs/","us":"us  / prəˈspek.təs /","usp":"/prəˈspek.təs/"}
+{"title":"prospered","uk":"uk  / ˈprɒs.pə r /","ukp":"/ˈprɒs.pər/","us":"us  / ˈprɑː.spɚ /","usp":"/ˈprɑː.spɚ/"}
+{"title":"prosper","uk":"uk  / ˈprɒs.pə r /","ukp":"/ˈprɒs.pər/","us":"us  / ˈprɑː.spɚ /","usp":"/ˈprɑː.spɚ/"}
+{"title":"prospering","uk":"uk  / ˈprɒs.pə r /","ukp":"/ˈprɒs.pər/","us":"us  / ˈprɑː.spɚ /","usp":"/ˈprɑː.spɚ/"}
+{"title":"prosperous","uk":"uk  / ˈprɒs.p ə r.əs /","ukp":"/ˈprɒs.pər.əs/","us":"us  / ˈprɑː.spɚ.əs /","usp":"/ˈprɑː.spɚ.əs/"}
+{"title":"prosperity","uk":"uk  / prɒsˈper.ə.ti /","ukp":"/prɒsˈper.ə.ti/","us":"us  / prɑːˈsper.ə.t̬i /","usp":"/prɑːˈsper.ə.t̬i/"}
+{"title":"prosperously","uk":"uk  / ˈprɒs.p ə r.əs.li /","ukp":"/ˈprɒs.pər.əs.li/","us":"us  / ˈprɑː.spɚ.əs.li /","usp":"/ˈprɑː.spɚ.əs.li/"}
+{"title":"prostate (gland)","uk":"","us":"us  / ˈprɑs·teɪt (ˌɡlænd) /","usp":"/ˈprɑs·teɪt (ˌɡlænd)/"}
+{"title":"prostate","uk":"uk  / ˈprɒs.teɪt /","ukp":"/ˈprɒs.teɪt/","us":"us  / ˈprɑː.steɪt /","usp":"/ˈprɑː.steɪt/"}
+{"title":"prostatic","uk":"uk  / prɒˈstæt.ɪk /","ukp":"/prɒˈstæt.ɪk/","us":"us  / prɑːˈstæt̬.ɪk /","usp":"/prɑːˈstæt̬.ɪk/"}
+{"title":"prostate enlargement","uk":"uk  / ˈprɒs.teɪt enˌlɑːdʒ.mənt /","ukp":"/ˈprɒs.teɪt enˌlɑːdʒ.mənt/","us":"us  / ˈprɑːs.teɪt enˌlɑːrdʒ.mənt /","usp":"/ˈprɑːs.teɪt enˌlɑːrdʒ.mənt/"}
+{"title":"prostatectomy","uk":"uk  / ˌprɒs.təˈtek.tə.mi /","ukp":"/ˌprɒs.təˈtek.tə.mi/","us":"us  / ˌprɑːs.təˈtek.tə.mi /","usp":"/ˌprɑːs.təˈtek.tə.mi/"}
+{"title":"prostheses","uk":"","us":""}
+{"title":"prosthesis","uk":"uk  / ˈprɒs.θə.sɪs /","ukp":"/ˈprɒs.θə.sɪs/","us":"us  / ˈprɑːs.θə.sɪs /","usp":"/ˈprɑːs.θə.sɪs/"}
+{"title":"prosthetic","uk":"uk  / prɒsˈθet.ɪk /","ukp":"/prɒsˈθet.ɪk/","us":"us  / prɑːsˈθet̬.ɪk /","usp":"/prɑːsˈθet̬.ɪk/"}
+{"title":"prosthodontics","uk":"uk  / ˌprɒs.θəˈdɒn.tɪks /","ukp":"/ˌprɒs.θəˈdɒn.tɪks/","us":"us  / ˌprɑːs.θoʊˈdɑːn.t̬ɪks /","usp":"/ˌprɑːs.θoʊˈdɑːn.t̬ɪks/"}
+{"title":"prosthodontist","uk":"uk  / ˌprɒs.θəˈdɒn.tɪst /","ukp":"/ˌprɒs.θəˈdɒn.tɪst/","us":"us  / ˌprɑːs.θoʊˈdɑːn.t̬ɪst /","usp":"/ˌprɑːs.θoʊˈdɑːn.t̬ɪst/"}
+{"title":"prostitute","uk":"uk  / ˈprɒs.tɪ.tʃuːt /","ukp":"/ˈprɒs.tɪ.tʃuːt/","us":"us  / ˈprɑː.stə.tuːt /","usp":"/ˈprɑː.stə.tuːt/"}
+{"title":"prostituted","uk":"uk  / ˈprɒs.tɪ.tʃuːt /","ukp":"/ˈprɒs.tɪ.tʃuːt/","us":"us  / ˈprɑː.stə.tuːt /","usp":"/ˈprɑː.stə.tuːt/"}
+{"title":"prostituting","uk":"uk  / ˈprɒs.tɪ.tʃuːt /","ukp":"/ˈprɒs.tɪ.tʃuːt/","us":"us  / ˈprɑː.stə.tuːt /","usp":"/ˈprɑː.stə.tuːt/"}
+{"title":"prostitution","uk":"uk  / ˌprɒs.tɪˈtʃuː.ʃ ə n /","ukp":"/ˌprɒs.tɪˈtʃuː.ʃən/","us":"us  / ˌprɑː.stəˈtuː.ʃ ə n /","usp":"/ˌprɑː.stəˈtuː.ʃən/"}
+{"title":"prostrate","uk":"uk  / ˈprɒs.treɪt /","ukp":"/ˈprɒs.treɪt/","us":"us  / ˈprɑː.streɪt /","usp":"/ˈprɑː.streɪt/"}
+{"title":"prostration","uk":"uk  / prɒsˈtreɪ.ʃ ə n /","ukp":"/prɒsˈtreɪ.ʃən/","us":"us  / prɑːˈstreɪ.ʃ ə n /","usp":"/prɑːˈstreɪ.ʃən/"}
+{"title":"prosy","uk":"uk  / ˈprəʊ.zi /","ukp":"/ˈprəʊ.zi/","us":"us  / ˈproʊ.zi /","usp":"/ˈproʊ.zi/"}
+{"title":"prosumer","uk":"uk  / prəʊˈsjuː.mə r /","ukp":"/prəʊˈsjuː.mər/","us":"us  / proʊˈsuː.mɚ /","usp":"/proʊˈsuː.mɚ/"}
+{"title":"protagonist","uk":"uk  / prəˈtæɡ. ə n.ɪst /","ukp":"/prəˈtæɡ.ən.ɪst/","us":"us  / prəˈtæɡ. ə n.ɪst /","usp":"/prəˈtæɡ.ən.ɪst/"}
+{"title":"protean","uk":"uk  / prəʊˈtiː.ən /","ukp":"/prəʊˈtiː.ən/","us":"us  / ˈproʊ.t̬i.ən /","usp":"/ˈproʊ.t̬i.ən/"}
+{"title":"protease","uk":"uk  / ˈprəʊ.tiː.eɪz /","ukp":"/ˈprəʊ.tiː.eɪz/","us":"us  / ˈproʊ.t̬i.eɪz /","usp":"/ˈproʊ.t̬i.eɪz/"}
+{"title":"protease inhibitor","uk":"uk  / ˈprəʊ.ti.eɪz ɪnˌhɪb.ɪ.tə r /","ukp":"/ˈprəʊ.ti.eɪz ɪnˌhɪb.ɪ.tər/","us":"us  / ˈproʊ.t̬i.eɪz ɪnˌhɪb.ɪ.t̬ɚ /","usp":"/ˈproʊ.t̬i.eɪz ɪnˌhɪb.ɪ.t̬ɚ/"}
+{"title":"protect","uk":"uk  / prəˈtekt /","ukp":"/prəˈtekt/","us":"us  / prəˈtekt /","usp":"/prəˈtekt/"}
+{"title":"protected characteristic","uk":"uk  / prəˌtek.tɪd kær.ək.təˈrɪs.tɪk /","ukp":"/prəˌtek.tɪd kær.ək.təˈrɪs.tɪk/","us":"us  / prəˌtek.tɪd ker.ək.təˈrɪs.tɪk /","usp":"/prəˌtek.tɪd ker.ək.təˈrɪs.tɪk/"}
+{"title":"protected","uk":"uk  / prəˈtek.tɪd /","ukp":"/prəˈtek.tɪd/","us":"us  / prəˈtek.tɪd /","usp":"/prəˈtek.tɪd/"}
+{"title":"protecting","uk":"uk  / prəˈtekt /","ukp":"/prəˈtekt/","us":"us  / prəˈtekt /","usp":"/prəˈtekt/"}
+{"title":"protection money","uk":"uk  / prəˈtek.ʃ ə n ˌmʌn.i /","ukp":"/prəˈtek.ʃən ˌmʌn.i/","us":"us  / prəˈtek.ʃ ə n ˌmʌn.i /","usp":"/prəˈtek.ʃən ˌmʌn.i/"}
+{"title":"protection racket","uk":"uk  / prəˈtek.ʃ ə n ˌræk.ɪt /","ukp":"/prəˈtek.ʃən ˌræk.ɪt/","us":"us  / prəˈtek.ʃ ə n ˌræk.ɪt /","usp":"/prəˈtek.ʃən ˌræk.ɪt/"}
+{"title":"protection","uk":"uk  / prəˈtek.ʃ ə n /","ukp":"/prəˈtek.ʃən/","us":"us  / prəˈtek.ʃ ə n /","usp":"/prəˈtek.ʃən/"}
+{"title":"protectionism","uk":"uk  / prəˈtek.ʃ ə n.ɪ.z ə m /","ukp":"/prəˈtek.ʃən.ɪ.zəm/","us":"us  / prəˈtek.ʃ ə n.ɪ.z ə m /","usp":"/prəˈtek.ʃən.ɪ.zəm/"}
+{"title":"protective","uk":"uk  / prəˈtek.tɪv /","ukp":"/prəˈtek.tɪv/","us":"us  / prəˈtek.tɪv /","usp":"/prəˈtek.tɪv/"}
+{"title":"protective custody","uk":"uk  / prəˌtek.tɪv ˈkʌs.tə.di /","ukp":"/prəˌtek.tɪv ˈkʌs.tə.di/","us":"us  / prəˌtek.tɪv ˈkʌs.tə.di /","usp":"/prəˌtek.tɪv ˈkʌs.tə.di/"}
+{"title":"protective tariff","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"protectionist","uk":"uk  / prəˈtek.ʃ ə n.ɪst /","ukp":"/prəˈtek.ʃən.ɪst/","us":"us  / prəˈtek.ʃ ə n.ɪst /","usp":"/prəˈtek.ʃən.ɪst/"}
+{"title":"protectively","uk":"uk  / prəˈtek.tɪv.li /","ukp":"/prəˈtek.tɪv.li/","us":"us  / prəˈtek.tɪv.li /","usp":"/prəˈtek.tɪv.li/"}
+{"title":"protectiveness","uk":"uk  / prəˈtek.tɪv.nəs /","ukp":"/prəˈtek.tɪv.nəs/","us":"us  / prəˈtek.tɪv.nəs /","usp":"/prəˈtek.tɪv.nəs/"}
+{"title":"protector","uk":"uk  / prəˈtek.tə r /","ukp":"/prəˈtek.tər/","us":"us  / prəˈtek.tɚ /","usp":"/prəˈtek.tɚ/"}
+{"title":"protectorate","uk":"uk  / prəˈtek.t ə r.ət /","ukp":"/prəˈtek.tər.ət/","us":"us  / prəˈtek.tɚ.ət /","usp":"/prəˈtek.tɚ.ət/"}
+{"title":"protectress","uk":"uk  / prəˈtek.trəs /","ukp":"/prəˈtek.trəs/","us":"us  / prəˈtek.trəs /","usp":"/prəˈtek.trəs/"}
+{"title":"protégé","uk":"uk  / ˈprɒt.ə.ʒeɪ /","ukp":"/ˈprɒt.ə.ʒeɪ/","us":"us  / ˈprɑː.t̬ə.ʒeɪ /","usp":"/ˈprɑː.t̬ə.ʒeɪ/"}
+{"title":"protein shake","uk":"uk / ˌprəʊ.tiːn ˈʃeɪk /","ukp":"/ˌprəʊ.tiːn ˈʃeɪk/","us":"us / ˌproʊ.tiːn ˈʃeɪk /","usp":"/ˌproʊ.tiːn ˈʃeɪk/"}
+{"title":"protein","uk":"uk  / ˈprəʊ.tiːn /","ukp":"/ˈprəʊ.tiːn/","us":"us  / ˈproʊ.tiːn /","usp":"/ˈproʊ.tiːn/"}
+{"title":"proteinuria","uk":"uk  / ˌprəʊ.tiˈnjʊə.ri.ə /","ukp":"/ˌprəʊ.tiˈnjʊə.ri.ə/","us":"us  / ˌproʊ.tiˈnʊr.i.ə /","usp":"/ˌproʊ.tiˈnʊr.i.ə/"}
+{"title":"proximate cause","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"protest","uk":"uk  / ˈprəʊ.test /","ukp":"/ˈprəʊ.test/","us":"us  / ˈproʊ.test /","usp":"/ˈproʊ.test/"}
+{"title":"proximity","uk":"uk  / prɒkˈsɪm.ə.ti /","ukp":"/prɒkˈsɪm.ə.ti/","us":"us  / prɑːkˈsɪm.ə.t̬i /","usp":"/prɑːkˈsɪm.ə.t̬i/"}
+{"title":"proxy","uk":"uk  / ˈprɒk.si /","ukp":"/ˈprɒk.si/","us":"us  / ˈprɑːk.si /","usp":"/ˈprɑːk.si/"}
+{"title":"proxy fight","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"protest march","uk":"uk  / ˈprəʊ.test ˌmɑːtʃ /","ukp":"/ˈprəʊ.test ˌmɑːtʃ/","us":"us  / ˈproʊ.test ˌmɑːrtʃ /","usp":"/ˈproʊ.test ˌmɑːrtʃ/"}
+{"title":"proxy server","uk":"uk  / ˈprɒk.si ˌsɜː.və r /","ukp":"/ˈprɒk.si ˌsɜː.vər/","us":"us  / ˈprɑːk.si ˌsɝː.vɚ /","usp":"/ˈprɑːk.si ˌsɝː.vɚ/"}
+{"title":"proxy statement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"proxy vote","uk":"uk  / ˈprɒk.si ˌvəʊt /","ukp":"/ˈprɒk.si ˌvəʊt/","us":"us  / ˈprɑːk.si ˌvoʊt /","usp":"/ˈprɑːk.si ˌvoʊt/"}
+{"title":"proxy voter","uk":"uk  / ˈprɒk.si ˌvəʊ.tə r /","ukp":"/ˈprɒk.si ˌvəʊ.tər/","us":"us  / ˈprɑːk.si ˌvoʊ.t̬ɚ /","usp":"/ˈprɑːk.si ˌvoʊ.t̬ɚ/"}
+{"title":"proxy voting","uk":"uk  / ˈprɒk.si ˌvəʊ.tɪŋ /","ukp":"/ˈprɒk.si ˌvəʊ.tɪŋ/","us":"us  / ˈprɑːk.si ˌvoʊ.t̬ɪŋ /","usp":"/ˈprɑːk.si ˌvoʊ.t̬ɪŋ/"}
+{"title":"proxy war","uk":"uk  / ˈprɒk.si ˌwɔː r /","ukp":"/ˈprɒk.si ˌwɔːr/","us":"us  / ˈprɑːk.si ˌwɔːr /","usp":"/ˈprɑːk.si ˌwɔːr/"}
+{"title":"Prozac","uk":"uk  / ˈprəʊ.zæk /","ukp":"/ˈprəʊ.zæk/","us":"us  / ˈproʊ.zæk /","usp":"/ˈproʊ.zæk/"}
+{"title":"PRP","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"prude","uk":"uk  / pruːd /","ukp":"/pruːd/","us":"us  / pruːd /","usp":"/pruːd/"}
+{"title":"prudence","uk":"uk  / ˈpruː.d ə ns /","ukp":"/ˈpruː.dəns/","us":"us  / ˈpruː.d ə ns /","usp":"/ˈpruː.dəns/"}
+{"title":"prudential","uk":"uk  / pruːˈd ə n.ʃ ə l /","ukp":"/pruːˈdən.ʃəl/","us":"us  / pruːˈd ə n.ʃ ə l /","usp":"/pruːˈdən.ʃəl/"}
+{"title":"prudent","uk":"uk  / ˈpruː.d ə nt /","ukp":"/ˈpruː.dənt/","us":"us  / ˈpruː.d ə nt /","usp":"/ˈpruː.dənt/"}
+{"title":"prudently","uk":"uk  / ˈpruː.d ə nt.li /","ukp":"/ˈpruː.dənt.li/","us":"us  / ˈpruː.d ə nt.li /","usp":"/ˈpruː.dənt.li/"}
+{"title":"prudish","uk":"uk  / ˈpruː.dɪʃ /","ukp":"/ˈpruː.dɪʃ/","us":"us  / ˈpruː.dɪʃ /","usp":"/ˈpruː.dɪʃ/"}
+{"title":"prudishly","uk":"uk  / ˈpruː.dɪʃ.li /","ukp":"/ˈpruː.dɪʃ.li/","us":"us  / ˈpruː.dɪʃ.li /","usp":"/ˈpruː.dɪʃ.li/"}
+{"title":"prudishness","uk":"uk  / ˈpruː.dɪʃ.nəs /","ukp":"/ˈpruː.dɪʃ.nəs/","us":"us  / ˈpruː.dɪʃ.nəs /","usp":"/ˈpruː.dɪʃ.nəs/"}
+{"title":"prune","uk":"uk  / pruːn /","ukp":"/pruːn/","us":"us  / pruːn /","usp":"/pruːn/"}
+{"title":"pruned","uk":"uk  / pruːn /","ukp":"/pruːn/","us":"us  / pruːn /","usp":"/pruːn/"}
+{"title":"pruning shears","uk":"uk  / ˈpruː.nɪŋ ˌʃɪəz /","ukp":"/ˈpruː.nɪŋ ˌʃɪəz/","us":"us  / ˈpruː.nɪŋ ˌʃɪrz /","usp":"/ˈpruː.nɪŋ ˌʃɪrz/"}
+{"title":"pruning","uk":"uk  / ˈpruːnɪŋ /","ukp":"/ˈpruːnɪŋ/","us":"us ","usp":""}
+{"title":"prurience","uk":"uk  / ˈprʊə.ri.əns /","ukp":"/ˈprʊə.ri.əns/","us":"us  / ˈprʊr.i.əns /","usp":"/ˈprʊr.i.əns/"}
+{"title":"pruriently","uk":"uk  / ˈprʊə.ri.ənt.li /","ukp":"/ˈprʊə.ri.ənt.li/","us":"us  / ˈprʊr.i.ənt.li /","usp":"/ˈprʊr.i.ənt.li/"}
+{"title":"prurient","uk":"uk  / ˈprʊə.ri.ənt /","ukp":"/ˈprʊə.ri.ənt/","us":"us  / ˈprʊr.i.ənt /","usp":"/ˈprʊr.i.ənt/"}
+{"title":"pruritic","uk":"uk  / prʊəˈrɪt.ɪk /","ukp":"/prʊəˈrɪt.ɪk/","us":"us  / prʊˈrɪt̬.ɪk /","usp":"/prʊˈrɪt̬.ɪk/"}
+{"title":"pruritus","uk":"uk  / prʊəˈraɪ.təs /","ukp":"/prʊəˈraɪ.təs/","us":"us  / prʊˈraɪ.t̬əs /","usp":"/prʊˈraɪ.t̬əs/"}
+{"title":"prussic acid","uk":"uk  / ˌprʌs.ɪk ˈæs.ɪd /","ukp":"/ˌprʌs.ɪk ˈæs.ɪd/","us":"us  / ˌprʌs.ɪk ˈæs.ɪd /","usp":"/ˌprʌs.ɪk ˈæs.ɪd/"}
+{"title":"pry","uk":"uk  / praɪ /","ukp":"/praɪ/","us":"us  / praɪ /","usp":"/praɪ/"}
+{"title":"prying","uk":"uk  / praɪ /","ukp":"/praɪ/","us":"us  / praɪ /","usp":"/praɪ/"}
+{"title":"PS","uk":"uk  / ˌpiːˈes /","ukp":"/ˌpiːˈes/","us":"us  / ˌpiːˈes /","usp":"/ˌpiːˈes/"}
+{"title":"PSA","uk":"uk / ˌpiː.esˈeɪ /","ukp":"/ˌpiː.esˈeɪ/","us":"us / ˌpiː.esˈeɪ /","usp":"/ˌpiː.esˈeɪ/"}
+{"title":"PSBR","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"psalm","uk":"uk  / sɑːm /","ukp":"/sɑːm/","us":"us  / sɑːm /","usp":"/sɑːm/"}
+{"title":"PSC","uk":"uk  / ˌpiː.esˈsiː /","ukp":"/ˌpiː.esˈsiː/","us":"us  / ˌpiː.esˈsiː /","usp":"/ˌpiː.esˈsiː/"}
+{"title":"psephologist","uk":"uk  / sɪˈfɒl.ə.dʒɪst /","ukp":"/sɪˈfɒl.ə.dʒɪst/","us":"us  / sɪˈfɑː.lə.dʒɪst /","usp":"/sɪˈfɑː.lə.dʒɪst/"}
+{"title":"pseud","uk":"uk  / sjuːd /","ukp":"/sjuːd/","us":"us  / suːd /","usp":"/suːd/"}
+{"title":"psephology","uk":"uk  / sɪˈfɒl.ə.dʒi /","ukp":"/sɪˈfɒl.ə.dʒi/","us":"us  / sɪˈfɑː.lə.dʒi /","usp":"/sɪˈfɑː.lə.dʒi/"}
+{"title":"pseudo-","uk":"uk  / sjuː.dəʊ- /","ukp":"/sjuː.dəʊ-/","us":"us  / suː.doʊ- /","usp":"/suː.doʊ-/"}
+{"title":"pseudo-science","uk":"uk  / ˈsjuː.dəʊ.saɪ.əns /","ukp":"/ˈsjuː.dəʊ.saɪ.əns/","us":"us  / ˈsuː.doʊ.saɪ.əns /","usp":"/ˈsuː.doʊ.saɪ.əns/"}
+{"title":"pseudonym","uk":"uk  / ˈsjuː.də.nɪm /","ukp":"/ˈsjuː.də.nɪm/","us":"us  / ˈsuː.də.nɪm /","usp":"/ˈsuː.də.nɪm/"}
+{"title":"pseudonymization","uk":"uk  / sjuːˌdɒn.ɪ.maɪˈzeɪ.ʃ ə n /","ukp":"/sjuːˌdɒn.ɪ.maɪˈzeɪ.ʃən/","us":"us  / suːˌdɑːn.ə.məˈzeɪ.ʃ ə n /","usp":"/suːˌdɑːn.ə.məˈzeɪ.ʃən/"}
+{"title":"pseudonymize","uk":"uk  / sjuːˈdɒn.ɪ.maɪz /","ukp":"/sjuːˈdɒn.ɪ.maɪz/","us":"us  / suːˈdɑːn.ə.maɪz /","usp":"/suːˈdɑːn.ə.maɪz/"}
+{"title":"protest song","uk":"uk  / ˈprəʊ.test ˌsɒŋ /","ukp":"/ˈprəʊ.test ˌsɒŋ/","us":"us  / ˈproʊ.test ˌsɑːŋ /","usp":"/ˈproʊ.test ˌsɑːŋ/"}
+{"title":"protest too much","uk":"","us":""}
+{"title":"Protestant","uk":"uk  / ˈprɒt.ɪ.st ə nt /","ukp":"/ˈprɒt.ɪ.stənt/","us":"us  / ˈprɑː.t̬ɪ.st ə nt /","usp":"/ˈprɑː.t̬ɪ.stənt/"}
+{"title":"Protestantism","uk":"uk  / ˈprɒt.ɪ.st ə n.tɪ.z ə m /","ukp":"/ˈprɒt.ɪ.stən.tɪ.zəm/","us":"us  / ˈprɑː.t̬ə.st ə n.tɪ.z ə m /","usp":"/ˈprɑː.t̬ə.stən.tɪ.zəm/"}
+{"title":"protestation","uk":"uk  / ˌprɒt.esˈteɪ.ʃ ə n /","ukp":"/ˌprɒt.esˈteɪ.ʃən/","us":"us  / ˌprɑː.t̬esˈteɪ.ʃ ə n /","usp":"/ˌprɑː.t̬esˈteɪ.ʃən/"}
+{"title":"protested","uk":"uk  / prəˈtest /","ukp":"/prəˈtest/","us":"us  / proʊˈtest /","usp":"/proʊˈtest/"}
+{"title":"protester","uk":"uk  / prəˈtes.tə r /","ukp":"/prəˈtes.tər/","us":"us  / prəˈtes.tɚ /","usp":"/prəˈtes.tɚ/"}
+{"title":"protesting","uk":"uk  / prəˈtest /","ukp":"/prəˈtest/","us":"us  / proʊˈtest /","usp":"/proʊˈtest/"}
+{"title":"protista","uk":"","us":"us  / proʊˈtɪs·tə /","usp":"/proʊˈtɪs·tə/"}
+{"title":"protium","uk":"uk  / ˈprəʊ.ti.əm /","ukp":"/ˈprəʊ.ti.əm/","us":"us  / ˈproʊ.ti.əm /","usp":"/ˈproʊ.ti.əm/"}
+{"title":"proto-","uk":"uk  / prəʊ.təʊ- /","ukp":"/prəʊ.təʊ-/","us":"us  / proʊ.t̬oʊ- /","usp":"/proʊ.t̬oʊ-/"}
+{"title":"Proto-Indo-European","uk":"uk  / ˌprəʊ.təʊˌɪn.dəʊˌjʊə.rəˈpiː.ən /","ukp":"/ˌprəʊ.təʊˌɪn.dəʊˌjʊə.rəˈpiː.ən/","us":"us  / ˌproʊ.t̬oʊˌɪn.doʊˌjʊr.əˈpiː.ən /","usp":"/ˌproʊ.t̬oʊˌɪn.doʊˌjʊr.əˈpiː.ən/"}
+{"title":"protocol","uk":"uk  / ˈprəʊ.tə.kɒl /","ukp":"/ˈprəʊ.tə.kɒl/","us":"us  / ˈproʊ.t̬ə.kɑːl /","usp":"/ˈproʊ.t̬ə.kɑːl/"}
+{"title":"proton","uk":"uk  / ˈprəʊ.tɒn /","ukp":"/ˈprəʊ.tɒn/","us":"us  / ˈproʊ.t̬ɑːn /","usp":"/ˈproʊ.t̬ɑːn/"}
+{"title":"protoplasm","uk":"uk  / ˈprəʊ.tə.plæz. ə m /","ukp":"/ˈprəʊ.tə.plæz.əm/","us":"us  / ˈproʊ.t̬ə.plæz. ə m /","usp":"/ˈproʊ.t̬ə.plæz.əm/"}
+{"title":"protoplasmic","uk":"uk  / ˌprəʊ.təˈplæz.mɪk /","ukp":"/ˌprəʊ.təˈplæz.mɪk/","us":"us  / ˌproʊ.t̬əˈplæz.mɪk /","usp":"/ˌproʊ.t̬əˈplæz.mɪk/"}
+{"title":"prototypical","uk":"uk  / ˌprəʊ.tə.ˈtɪp.ɪ.k ə l /","ukp":"/ˌprəʊ.tə.ˈtɪp.ɪ.kəl/","us":"us  / ˌproʊ.t̬əˈtɪp.ɪ.k ə l /","usp":"/ˌproʊ.t̬əˈtɪp.ɪ.kəl/"}
+{"title":"prototyping","uk":"uk  / ˈprəʊtətaɪpɪŋ /","ukp":"/ˈprəʊtətaɪpɪŋ/","us":"us ","usp":""}
+{"title":"prototype","uk":"uk  / ˈprəʊ.tə.taɪp /","ukp":"/ˈprəʊ.tə.taɪp/","us":"us  / ˈproʊ.t̬ə.taɪp /","usp":"/ˈproʊ.t̬ə.taɪp/"}
+{"title":"protozoa","uk":"","us":""}
+{"title":"protract","uk":"uk  / prəˈtrækt /","ukp":"/prəˈtrækt/","us":"us  / prəˈtrækt /","usp":"/prəˈtrækt/"}
+{"title":"protozoan","uk":"uk / ˌprəʊ.təˈzəʊ.ə /","ukp":"/ˌprəʊ.təˈzəʊ.ə/","us":"us / ˌproʊ.t̬əˈzoʊ.ə /","usp":"/ˌproʊ.t̬əˈzoʊ.ə/"}
+{"title":"protraction","uk":"uk  / prəˈtræk.ʃ ə n /","ukp":"/prəˈtræk.ʃən/","us":"us  / prəˈtræk.ʃ ə n /","usp":"/prəˈtræk.ʃən/"}
+{"title":"protracted","uk":"uk  / prəˈtræk.tɪd /","ukp":"/prəˈtræk.tɪd/","us":"us  / prəˈtræk.tɪd /","usp":"/prəˈtræk.tɪd/"}
+{"title":"protracting","uk":"uk  / prəˈtrækt /","ukp":"/prəˈtrækt/","us":"us  / prəˈtrækt /","usp":"/prəˈtrækt/"}
+{"title":"protruding","uk":"uk  / prəˈtruːd /","ukp":"/prəˈtruːd/","us":"us  / prəˈtruːd /","usp":"/prəˈtruːd/"}
+{"title":"protruded","uk":"uk  / prəˈtruːd /","ukp":"/prəˈtruːd/","us":"us  / prəˈtruːd /","usp":"/prəˈtruːd/"}
+{"title":"protrude","uk":"uk  / prəˈtruːd /","ukp":"/prəˈtruːd/","us":"us  / prəˈtruːd /","usp":"/prəˈtruːd/"}
+{"title":"protractor","uk":"uk  / prəˈtræk.tə r /","ukp":"/prəˈtræk.tər/","us":"us  / prəˈtræk.tɚ /","usp":"/prəˈtræk.tɚ/"}
+{"title":"protuberance","uk":"uk  / prəˈtʃuː.b ə r. ə ns /","ukp":"/prəˈtʃuː.bər.əns/","us":"us  / prəˈtuː.b ə r. ə ns /","usp":"/prəˈtuː.bər.əns/"}
+{"title":"protrusion","uk":"uk  / prəˈtruː.ʒ ə n /","ukp":"/prəˈtruː.ʒən/","us":"us  / prəˈtruː.ʒ ə n /","usp":"/prəˈtruː.ʒən/"}
+{"title":"protuberant","uk":"uk  / prəˈtʃuː.b ə r. ə nt /","ukp":"/prəˈtʃuː.bər.ənt/","us":"us  / prəˈtuː.bɚ. ə nt /","usp":"/prəˈtuː.bɚ.ənt/"}
+{"title":"proudly","uk":"uk  / ˈpraʊd.li /","ukp":"/ˈpraʊd.li/","us":"us  / ˈpraʊd.li /","usp":"/ˈpraʊd.li/"}
+{"title":"proud","uk":"uk  / praʊd /","ukp":"/praʊd/","us":"us  / praʊd /","usp":"/praʊd/"}
+{"title":"provable","uk":"uk  / ˈpruː.və.b ə l /","ukp":"/ˈpruː.və.bəl/","us":"us  / ˈpruː.və.b ə l /","usp":"/ˈpruː.və.bəl/"}
+{"title":"psychological profiling","uk":"uk  / saɪ.k ə lˌɒdʒ.ɪ.k ə l ˈprəʊ.faɪ.lɪŋ /","ukp":"/saɪ.kəlˌɒdʒ.ɪ.kəl ˈprəʊ.faɪ.lɪŋ/","us":"us  / saɪ.kəˌlɑː.dʒɪ.k ə l ˈproʊ.faɪ.lɪŋ /","usp":"/saɪ.kəˌlɑː.dʒɪ.kəl ˈproʊ.faɪ.lɪŋ/"}
+{"title":"psychological test","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"psychological testing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"psychological warfare","uk":"uk  / saɪ.k ə lˌɒdʒ.ɪ.k ə l ˈwɔː.feə r /","ukp":"/saɪ.kəlˌɒdʒ.ɪ.kəl ˈwɔː.feər/","us":"us  / saɪ.kəˌlɑː.dʒɪ.k ə l ˈwɔːr.fer /","usp":"/saɪ.kəˌlɑː.dʒɪ.kəl ˈwɔːr.fer/"}
+{"title":"psychologically","uk":"uk  / ˌsaɪ.k ə lˈɒdʒ.ɪ.k ə l.i /","ukp":"/ˌsaɪ.kəlˈɒdʒ.ɪ.kəl.i/","us":"us  / ˌsaɪ.kəˈlɑː.dʒɪ.k ə l.i /","usp":"/ˌsaɪ.kəˈlɑː.dʒɪ.kəl.i/"}
+{"title":"psychologist","uk":"uk  / saɪˈkɒl.ə.dʒɪst /","ukp":"/saɪˈkɒl.ə.dʒɪst/","us":"us  / saɪˈkɑː.lə.dʒɪst /","usp":"/saɪˈkɑː.lə.dʒɪst/"}
+{"title":"psychometric","uk":"uk  / ˌsaɪ.kəʊˈmet.rɪk /","ukp":"/ˌsaɪ.kəʊˈmet.rɪk/","us":"us  / ˌsaɪ.koʊˈmet.rɪk /","usp":"/ˌsaɪ.koʊˈmet.rɪk/"}
+{"title":"psychology","uk":"uk  / saɪˈkɒl.ə.dʒi /","ukp":"/saɪˈkɒl.ə.dʒi/","us":"us  / saɪˈkɑː.lə.dʒi /","usp":"/saɪˈkɑː.lə.dʒi/"}
+{"title":"psychometric test","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"psychometric testing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"psychopath","uk":"uk  / ˈsaɪ.kə.pæθ /","ukp":"/ˈsaɪ.kə.pæθ/","us":"us  / ˈsaɪ.kə.pæθ /","usp":"/ˈsaɪ.kə.pæθ/"}
+{"title":"psychopathology","uk":"uk  / ˌsaɪ.kəʊ.pəˈθɒl.ə.dʒi /","ukp":"/ˌsaɪ.kəʊ.pəˈθɒl.ə.dʒi/","us":"us  / ˌsaɪ.koʊ.pəˈθɑː.lə.dʒi /","usp":"/ˌsaɪ.koʊ.pəˈθɑː.lə.dʒi/"}
+{"title":"psychopathy","uk":"uk  / saɪˈkɒp.ə.θi /","ukp":"/saɪˈkɒp.ə.θi/","us":"us  / saɪˈkɑː.pə.θi /","usp":"/saɪˈkɑː.pə.θi/"}
+{"title":"psychopathic","uk":"uk  / ˌsaɪ.kəˈpæθ.ɪk /","ukp":"/ˌsaɪ.kəˈpæθ.ɪk/","us":"us  / ˌsaɪ.kəˈpæθ.ɪk /","usp":"/ˌsaɪ.kəˈpæθ.ɪk/"}
+{"title":"psychoses","uk":"","us":""}
+{"title":"psychosis","uk":"uk  / saɪˈkəʊ.sɪs /","ukp":"/saɪˈkəʊ.sɪs/","us":"us  / saɪˈkoʊ.sɪs /","usp":"/saɪˈkoʊ.sɪs/"}
+{"title":"psychosomatic","uk":"uk  / ˌsaɪ.kəʊ.səˈmæt.ɪk /","ukp":"/ˌsaɪ.kəʊ.səˈmæt.ɪk/","us":"us  / ˌsaɪ.koʊ.soʊˈmæt̬.ɪk /","usp":"/ˌsaɪ.koʊ.soʊˈmæt̬.ɪk/"}
+{"title":"psychotherapist","uk":"uk  / ˌsaɪ.kəˈθer.ə.pɪst /","ukp":"/ˌsaɪ.kəˈθer.ə.pɪst/","us":"us  / ˌsaɪ.kəˈθer.ə.pɪst /","usp":"/ˌsaɪ.kəˈθer.ə.pɪst/"}
+{"title":"psychotherapy","uk":"uk  / ˌsaɪ.kəʊˈθer.ə.pi /","ukp":"/ˌsaɪ.kəʊˈθer.ə.pi/","us":"us  / ˌsaɪ.koʊˈθer.ə.pi /","usp":"/ˌsaɪ.koʊˈθer.ə.pi/"}
+{"title":"psychotropic","uk":"uk  / ˌsaɪ.kəˈtrəʊ.pɪk /","ukp":"/ˌsaɪ.kəˈtrəʊ.pɪk/","us":"us  / ˌsaɪ.koʊˈtroʊ.pɪk /","usp":"/ˌsaɪ.koʊˈtroʊ.pɪk/"}
+{"title":"psychosocial","uk":"uk  / ˌsaɪ.kəʊˈsəʊ.ʃəl /","ukp":"/ˌsaɪ.kəʊˈsəʊ.ʃəl/","us":"us  / ˌsaɪ.koʊˈsoʊ.ʃəl /","usp":"/ˌsaɪ.koʊˈsoʊ.ʃəl/"}
+{"title":"psychotic","uk":"uk  / saɪˈkɒt.ɪk /","ukp":"/saɪˈkɒt.ɪk/","us":"us  / -ˈkɑː.t̬ɪk /","usp":"/-ˈkɑː.t̬ɪk/"}
+{"title":"PTA","uk":"uk  / ˌpiː.tiːˈeɪ /","ukp":"/ˌpiː.tiːˈeɪ/","us":"us  / ˌpiː.tiːˈeɪ /","usp":"/ˌpiː.tiːˈeɪ/"}
+{"title":"ptarmigan","uk":"uk  / ˈtɑː.mɪ.ɡən /","ukp":"/ˈtɑː.mɪ.ɡən/","us":"us  / ˈtɑːr.mə.ɡən /","usp":"/ˈtɑːr.mə.ɡən/"}
+{"title":"pt","uk":"uk  / ˌpiːˈtiː /","ukp":"/ˌpiːˈtiː/","us":"us  / ˌpiːˈtiː /","usp":"/ˌpiːˈtiː/"}
+{"title":"pterodactyl","uk":"uk  / ˌter.əˈdæk.tɪl /","ukp":"/ˌter.əˈdæk.tɪl/","us":"us  / ˌter.əˈdæk.t ə l /","usp":"/ˌter.əˈdæk.təl/"}
+{"title":"pterygoid","uk":"uk  / ˈter.ɪ.ɡɔɪd /","ukp":"/ˈter.ɪ.ɡɔɪd/","us":"us  / ˈter.ɪˌɡɔɪd /","usp":"/ˈter.ɪˌɡɔɪd/"}
+{"title":"PTO","uk":"uk  / ˌpiː.tiːˈəʊ /","ukp":"/ˌpiː.tiːˈəʊ/","us":"us  / ˌpiː.tiːˈoʊ /","usp":"/ˌpiː.tiːˈoʊ/"}
+{"title":"ptomaine","uk":"uk  / ˈtəʊ.meɪn /","ukp":"/ˈtəʊ.meɪn/","us":"us  / ˈtoʊ.meɪn /","usp":"/ˈtoʊ.meɪn/"}
+{"title":"PTSD","uk":"uk  / ˌpiː.tiː.esˈdiː /","ukp":"/ˌpiː.tiː.esˈdiː/","us":"us  / ˌpiː.tiː.esˈdiː /","usp":"/ˌpiː.tiː.esˈdiː/"}
+{"title":"Pty","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"pub","uk":"uk  / pʌb /","ukp":"/pʌb/","us":"us  / pʌb /","usp":"/pʌb/"}
+{"title":"pub crawl","uk":"uk  / ˈpʌb ˌkrɔːl /","ukp":"/ˈpʌb ˌkrɔːl/","us":"us  / ˈpʌb ˌkrɑːl /","usp":"/ˈpʌb ˌkrɑːl/"}
+{"title":"pubco","uk":"uk  / ˈpʌbkəʊ /","ukp":"/ˈpʌbkəʊ/","us":"us ","usp":""}
+{"title":"pub grub","uk":"uk  / ˈpʌb ˌɡrʌb /","ukp":"/ˈpʌb ˌɡrʌb/","us":"us  / ˈpʌb ˌɡrʌb /","usp":"/ˈpʌb ˌɡrʌb/"}
+{"title":"pub quiz","uk":"uk  / ˌpʌb ˈkwɪz /","ukp":"/ˌpʌb ˈkwɪz/","us":"us  / ˈpʌb ˌkwɪz /","usp":"/ˈpʌb ˌkwɪz/"}
+{"title":"pube","uk":"uk  / pjuːb /","ukp":"/pjuːb/","us":"us  / pjuːb /","usp":"/pjuːb/"}
+{"title":"puberty","uk":"uk  / ˈpjuː.bə.ti /","ukp":"/ˈpjuː.bə.ti/","us":"us  / ˈpjuː.bɚ.t̬i /","usp":"/ˈpjuː.bɚ.t̬i/"}
+{"title":"pubes","uk":"","us":""}
+{"title":"pubic","uk":"uk  / ˈpjuː.bɪk /","ukp":"/ˈpjuː.bɪk/","us":"us  / ˈpjuː.bɪk /","usp":"/ˈpjuː.bɪk/"}
+{"title":"pubescent","uk":"uk  / pjuːˈbes. ə nt /","ukp":"/pjuːˈbes.ənt/","us":"us  / pjuːˈbes. ə nt /","usp":"/pjuːˈbes.ənt/"}
+{"title":"prove","uk":"uk  / pruːv /","ukp":"/pruːv/","us":"us  / pruːv /","usp":"/pruːv/"}
+{"title":"proven","uk":"uk  / ˈpruː.v ə n /","ukp":"/ˈpruː.vən/","us":"us  / ˈpruː.v ə n /","usp":"/ˈpruː.vən/"}
+{"title":"proven reserves","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"provenance","uk":"uk  / ˈprɒv. ə n.əns /","ukp":"/ˈprɒv.ən.əns/","us":"us  / ˈprɑː.v ə n.əns /","usp":"/ˈprɑː.vən.əns/"}
+{"title":"proverb","uk":"uk  / ˈprɒv.ɜːb /","ukp":"/ˈprɒv.ɜːb/","us":"us  / ˈprɑː.vɝːb /","usp":"/ˈprɑː.vɝːb/"}
+{"title":"proverbial","uk":"uk  / prəˈvɜː.bi.əl /","ukp":"/prəˈvɜː.bi.əl/","us":"us  / prəˈvɝː.bi.əl /","usp":"/prəˈvɝː.bi.əl/"}
+{"title":"proverbially","uk":"uk  / prəˈvɜː.bi.ə.li /","ukp":"/prəˈvɜː.bi.ə.li/","us":"us  / prəˈvɝː.bi.ə.li /","usp":"/prəˈvɝː.bi.ə.li/"}
+{"title":"provide against something","uk":"uk  / prəˈvaɪd /","ukp":"/prəˈvaɪd/","us":"us  / prəˈvaɪd /","usp":"/prəˈvaɪd/"}
+{"title":"provide","uk":"uk  / prəˈvaɪd /","ukp":"/prəˈvaɪd/","us":"us  / prəˈvaɪd /","usp":"/prəˈvaɪd/"}
+{"title":"provide for someone","uk":"uk  / prəˈvaɪd /","ukp":"/prəˈvaɪd/","us":"us  / prəˈvaɪd /","usp":"/prəˈvaɪd/"}
+{"title":"provided (that)","uk":"uk  / prəˈvaɪ.dɪd ðət /","ukp":"/prəˈvaɪ.dɪd ðət/","us":"us  / prəˈvaɪ.dɪd ðət /","usp":"/prəˈvaɪ.dɪd ðət/"}
+{"title":"provided","uk":"uk  / prəˈvaɪd /","ukp":"/prəˈvaɪd/","us":"us  / prəˈvaɪd /","usp":"/prəˈvaɪd/"}
+{"title":"providence","uk":"uk  / ˈprɒv.ɪ.d ə ns /","ukp":"/ˈprɒv.ɪ.dəns/","us":"us  / ˈprɑː.və.d ə ns /","usp":"/ˈprɑː.və.dəns/"}
+{"title":"provident","uk":"uk  / ˈprɒv.ɪ.d ə nt /","ukp":"/ˈprɒv.ɪ.dənt/","us":"us  / ˈprɑː.və.d ə nt /","usp":"/ˈprɑː.və.dənt/"}
+{"title":"provident fund","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"providential","uk":"uk  / ˌprɒv.ɪˈden.ʃ ə l /","ukp":"/ˌprɒv.ɪˈden.ʃəl/","us":"us  / ˌprɑː.vəˈden.ʃ ə l /","usp":"/ˌprɑː.vəˈden.ʃəl/"}
+{"title":"providentially","uk":"uk  / ˌprɒv.ɪˈden.ʃ ə l.i /","ukp":"/ˌprɒv.ɪˈden.ʃəl.i/","us":"us  / ˌprɑː.vəˈden.ʃ ə l.i /","usp":"/ˌprɑː.vəˈden.ʃəl.i/"}
+{"title":"providently","uk":"uk  / ˈprɒv.ɪ.d ə nt.li /","ukp":"/ˈprɒv.ɪ.dənt.li/","us":"us  / ˈprɑː.və.d ə nt.li /","usp":"/ˈprɑː.və.dənt.li/"}
+{"title":"providing","uk":"uk  / prəˈvaɪd /","ukp":"/prəˈvaɪd/","us":"us  / prəˈvaɪd /","usp":"/prəˈvaɪd/"}
+{"title":"provider","uk":"uk  / prəˈvaɪ.də r /","ukp":"/prəˈvaɪ.dər/","us":"us  / prəˈvaɪ.dɚ /","usp":"/prəˈvaɪ.dɚ/"}
+{"title":"province","uk":"uk  / ˈprɒv.ɪns /","ukp":"/ˈprɒv.ɪns/","us":"us  / ˈprɑː.vɪns /","usp":"/ˈprɑː.vɪns/"}
+{"title":"provincialism","uk":"uk  / prəˈvɪn.ʃ ə l.ɪ.z ə m /","ukp":"/prəˈvɪn.ʃəl.ɪ.zəm/","us":"us  / prəˈvɪn.ʃ ə l.ɪ.z ə m /","usp":"/prəˈvɪn.ʃəl.ɪ.zəm/"}
+{"title":"provincial","uk":"uk  / prəˈvɪn.ʃ ə l /","ukp":"/prəˈvɪn.ʃəl/","us":"us  / prəˈvɪn.ʃ ə l /","usp":"/prəˈvɪn.ʃəl/"}
+{"title":"proving","uk":"","us":""}
+{"title":"proving ground","uk":"uk  / ˈpruː.vɪŋ ˌɡraʊnd /","ukp":"/ˈpruː.vɪŋ ˌɡraʊnd/","us":"us  / ˈpruː.vɪŋ ˌɡraʊnd /","usp":"/ˈpruː.vɪŋ ˌɡraʊnd/"}
+{"title":"provision","uk":"uk  / prəˈvɪʒ. ə n /","ukp":"/prəˈvɪʒ.ən/","us":"us  / prəˈvɪʒ. ə n /","usp":"/prəˈvɪʒ.ən/"}
+{"title":"provisional licence","uk":"uk  / prəˌvɪʒ. ə n. ə l ˈlaɪ.s ə ns /","ukp":"/prəˌvɪʒ.ən.əl ˈlaɪ.səns/","us":"us  / prəˌvɪʒ. ə n. ə l ˈlaɪ.s ə ns /","usp":"/prəˌvɪʒ.ən.əl ˈlaɪ.səns/"}
+{"title":"provisional","uk":"uk  / prəˈvɪʒ. ə n. ə l /","ukp":"/prəˈvɪʒ.ən.əl/","us":"us  / prəˈvɪʒ. ə n. ə l /","usp":"/prəˈvɪʒ.ən.əl/"}
+{"title":"provisionally","uk":"uk  / prəˈvɪʒ. ə n. ə l.i /","ukp":"/prəˈvɪʒ.ən.əl.i/","us":"us  / prəˈvɪʒ. ə n. ə l.i /","usp":"/prəˈvɪʒ.ən.əl.i/"}
+{"title":"provisioned","uk":"uk  / prəˈvɪʒ. ə n /","ukp":"/prəˈvɪʒ.ən/","us":"us  / prəˈvɪʒ. ə n /","usp":"/prəˈvɪʒ.ən/"}
+{"title":"provisioning","uk":"uk  / prəˈvɪʒ ə nɪŋ /","ukp":"/prəˈvɪʒənɪŋ/","us":"us ","usp":""}
+{"title":"proviso","uk":"uk  / prəˈvaɪ.zəʊ /","ukp":"/prəˈvaɪ.zəʊ/","us":"us  / prəˈvaɪ.zoʊ /","usp":"/prəˈvaɪ.zoʊ/"}
+{"title":"provocateur","uk":"uk / prəˌvɒk.əˈtɜː r /","ukp":"/prəˌvɒk.əˈtɜːr/","us":"us / proʊˌvɑː.kəˈtɝː /","usp":"/proʊˌvɑː.kəˈtɝː/"}
+{"title":"provocation","uk":"uk  / ˌprɒv.əˈkeɪ.ʃ ə n /","ukp":"/ˌprɒv.əˈkeɪ.ʃən/","us":"us  / ˌprɑː.vəˈkeɪ.ʃ ə n /","usp":"/ˌprɑː.vəˈkeɪ.ʃən/"}
+{"title":"provocatively","uk":"uk  / prəˈvɒk.ə.tɪv.li /","ukp":"/prəˈvɒk.ə.tɪv.li/","us":"us  / prəˈvɑː.kə.t̬ɪv.li /","usp":"/prəˈvɑː.kə.t̬ɪv.li/"}
+{"title":"provocative","uk":"uk  / prəˈvɒk.ə.tɪv /","ukp":"/prəˈvɒk.ə.tɪv/","us":"us  / prəˈvɑː.kə.t̬ɪv /","usp":"/prəˈvɑː.kə.t̬ɪv/"}
+{"title":"provoke","uk":"uk  / prəˈvəʊk /","ukp":"/prəˈvəʊk/","us":"us  / prəˈvoʊk /","usp":"/prəˈvoʊk/"}
+{"title":"provoked","uk":"uk  / prəˈvəʊk /","ukp":"/prəˈvəʊk/","us":"us  / prəˈvoʊk /","usp":"/prəˈvoʊk/"}
+{"title":"provoking","uk":"uk  / prəˈvəʊk /","ukp":"/prəˈvəʊk/","us":"us  / prəˈvoʊk /","usp":"/prəˈvoʊk/"}
+{"title":"provost","uk":"uk  / ˈprɒv.əst /","ukp":"/ˈprɒv.əst/","us":"us  / ˈprɑː.vəst /","usp":"/ˈprɑː.vəst/"}
+{"title":"prow","uk":"uk  / praʊ /","ukp":"/praʊ/","us":"us  / praʊ /","usp":"/praʊ/"}
+{"title":"prowess","uk":"uk  / ˈpraʊ.es /","ukp":"/ˈpraʊ.es/","us":"us  / ˈpraʊ.es /","usp":"/ˈpraʊ.es/"}
+{"title":"prowled","uk":"uk  / praʊl /","ukp":"/praʊl/","us":"us  / praʊl /","usp":"/praʊl/"}
+{"title":"prowl","uk":"uk  / praʊl /","ukp":"/praʊl/","us":"us  / praʊl /","usp":"/praʊl/"}
+{"title":"prowling","uk":"uk  / praʊl /","ukp":"/praʊl/","us":"us  / praʊl /","usp":"/praʊl/"}
+{"title":"prowler","uk":"uk  / ˈpraʊ.lə r /","ukp":"/ˈpraʊ.lər/","us":"us  / ˈpraʊ.lɚ /","usp":"/ˈpraʊ.lɚ/"}
+{"title":"proximal","uk":"uk  / ˈprɒk.sɪ.məl /","ukp":"/ˈprɒk.sɪ.məl/","us":"us  / ˈprɑːk.sə.m ə l /","usp":"/ˈprɑːk.sə.məl/"}
+{"title":"proximally","uk":"uk  / ˈprɒk.sɪ.m ə l.i /","ukp":"/ˈprɒk.sɪ.məl.i/","us":"us  / ˈprɑːk.sə.m ə l.i /","usp":"/ˈprɑːk.sə.məl.i/"}
+{"title":"proximate","uk":"uk / ˈprɒk.sɪ.mət /","ukp":"/ˈprɒk.sɪ.mət/","us":"us / ˈprɑːk.sə.mət /","usp":"/ˈprɑːk.sə.mət/"}
+{"title":"pseudonymous","uk":"uk  / suːˈdɒn.ɪ.məs /","ukp":"/suːˈdɒn.ɪ.məs/","us":"us  / suːˈdɑː.nə.məs /","usp":"/suːˈdɑː.nə.məs/"}
+{"title":"pseudopod","uk":"uk  / ˈsjuː.də.pɒd /","ukp":"/ˈsjuː.də.pɒd/","us":"us  / ˈsuː.də.pɑːd /","usp":"/ˈsuː.də.pɑːd/"}
+{"title":"pseudoscience","uk":"uk  / ˈsjuː.dəʊ.saɪ.əns /","ukp":"/ˈsjuː.dəʊ.saɪ.əns/","us":"us  / ˈsuː.doʊ.saɪ.əns /","usp":"/ˈsuː.doʊ.saɪ.əns/"}
+{"title":"pseudy","uk":"uk  / ˈsuː.di /","ukp":"/ˈsuː.di/","us":"us  / ˈsuː.di /","usp":"/ˈsuː.di/"}
+{"title":"psi","uk":"uk  / psaɪ /","ukp":"/psaɪ/","us":"us  / saɪ /","usp":"/saɪ/"}
+{"title":"psilocybin","uk":"uk  / ˌsaɪ.ləˈsaɪ.bɪn /","ukp":"/ˌsaɪ.ləˈsaɪ.bɪn/","us":"us  / ˌsaɪ.ləˈsaɪ.bɪn /","usp":"/ˌsaɪ.ləˈsaɪ.bɪn/"}
+{"title":"PSNCR","uk":"uk  / ˌpiːesensiːˈɑː r /","ukp":"/ˌpiːesensiːˈɑːr/","us":"us ","usp":""}
+{"title":"psoas","uk":"uk  / ˈsəʊ.æs /","ukp":"/ˈsəʊ.æs/","us":"us  / ˈsoʊ.əs /","usp":"/ˈsoʊ.əs/"}
+{"title":"psst","uk":"uk  / pst /","ukp":"/pst/","us":"us  / pst /","usp":"/pst/"}
+{"title":"psoriasis","uk":"uk  / səˈraɪə.sɪs /","ukp":"/səˈraɪə.sɪs/","us":"us  / səˈraɪə.sɪs /","usp":"/səˈraɪə.sɪs/"}
+{"title":"PSV","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"psych","uk":"uk  / saɪk /","ukp":"/saɪk/","us":"us  / saɪk /","usp":"/saɪk/"}
+{"title":"psych someone out","uk":"uk  / saɪk /","ukp":"/saɪk/","us":"us  / saɪk /","usp":"/saɪk/"}
+{"title":"psych ops","uk":"uk  / ˈsaɪk ɒps /","ukp":"/ˈsaɪk ɒps/","us":"us  / ˈsaɪk ɑːps /","usp":"/ˈsaɪk ɑːps/"}
+{"title":"psych yourself up","uk":"uk  / saɪk /","ukp":"/saɪk/","us":"us  / saɪk /","usp":"/saɪk/"}
+{"title":"psyched","uk":"uk  / saɪkt /","ukp":"/saɪkt/","us":"us  / saɪkt /","usp":"/saɪkt/"}
+{"title":"psyche","uk":"uk  / ˈsaɪ.ki /","ukp":"/ˈsaɪ.ki/","us":"us  / ˈsaɪ.ki /","usp":"/ˈsaɪ.ki/"}
+{"title":"psychedelic","uk":"uk  / ˌsaɪ.kəˈdel.ɪk /","ukp":"/ˌsaɪ.kəˈdel.ɪk/","us":"us  / ˌsaɪ.kəˈdel.ɪk /","usp":"/ˌsaɪ.kəˈdel.ɪk/"}
+{"title":"psychiatric","uk":"uk  / ˌsaɪ.kiˈæt.rɪk /","ukp":"/ˌsaɪ.kiˈæt.rɪk/","us":"us  / ˌsaɪ.kiˈæt.rɪk /","usp":"/ˌsaɪ.kiˈæt.rɪk/"}
+{"title":"psychiatric hospital","uk":"uk  / saɪ.kiˈæt.rɪk ˌhɒs.pɪ.t ə l /","ukp":"/saɪ.kiˈæt.rɪk ˌhɒs.pɪ.təl/","us":"us  / saɪ.kiˈæt.rɪk ˌhɑː.spɪ.t̬ ə l /","usp":"/saɪ.kiˈæt.rɪk ˌhɑː.spɪ.t̬əl/"}
+{"title":"psychiatrically","uk":"uk  / ˌsaɪ.kiˈæt.rɪ.k ə l.i /","ukp":"/ˌsaɪ.kiˈæt.rɪ.kəl.i/","us":"us  / ˌsaɪ.kiˈæt.rɪ.k ə l.i /","usp":"/ˌsaɪ.kiˈæt.rɪ.kəl.i/"}
+{"title":"psychic income","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"psychiatry","uk":"uk  / saɪˈkaɪə.tri /","ukp":"/saɪˈkaɪə.tri/","us":"us  / saɪˈkaɪə.tri /","usp":"/saɪˈkaɪə.tri/"}
+{"title":"psychiatrist","uk":"uk  / saɪˈkaɪə.trɪst /","ukp":"/saɪˈkaɪə.trɪst/","us":"us  / saɪˈkaɪə.trɪst /","usp":"/saɪˈkaɪə.trɪst/"}
+{"title":"psychic","uk":"uk  / ˈsaɪ.kɪk /","ukp":"/ˈsaɪ.kɪk/","us":"us  / ˈsaɪ.kɪk /","usp":"/ˈsaɪ.kɪk/"}
+{"title":"psychical","uk":"uk  / ˈsaɪ.kɪ.k ə l /","ukp":"/ˈsaɪ.kɪ.kəl/","us":"us  / ˈsaɪ.kɪ.k ə l /","usp":"/ˈsaɪ.kɪ.kəl/"}
+{"title":"psycho","uk":"uk  / ˈsaɪ.kəʊ /","ukp":"/ˈsaɪ.kəʊ/","us":"us  / ˈsaɪ.koʊ /","usp":"/ˈsaɪ.koʊ/"}
+{"title":"psychically","uk":"uk  / ˈsaɪ.kɪ.k ə l.i /","ukp":"/ˈsaɪ.kɪ.kəl.i/","us":"us  / ˈsaɪ.kɪ.k ə l.i /","usp":"/ˈsaɪ.kɪ.kəl.i/"}
+{"title":"psychoactive","uk":"uk  / ˌsaɪ.kəʊˈæk.tɪv /","ukp":"/ˌsaɪ.kəʊˈæk.tɪv/","us":"us  / ˌsaɪ.koʊˈæk.tɪv /","usp":"/ˌsaɪ.koʊˈæk.tɪv/"}
+{"title":"psychoanalysing","uk":"uk  / ˌsaɪ.kəʊˈæn. ə l.aɪz /","ukp":"/ˌsaɪ.kəʊˈæn.əl.aɪz/","us":"us  / ˌsaɪ.koʊˈæn. ə l.aɪz /","usp":"/ˌsaɪ.koʊˈæn.əl.aɪz/"}
+{"title":"psychoanalyse","uk":"uk  / ˌsaɪ.kəʊˈæn. ə l.aɪz /","ukp":"/ˌsaɪ.kəʊˈæn.əl.aɪz/","us":"us  / ˌsaɪ.koʊˈæn. ə l.aɪz /","usp":"/ˌsaɪ.koʊˈæn.əl.aɪz/"}
+{"title":"psychoanalysed","uk":"uk  / ˌsaɪ.kəʊˈæn. ə l.aɪz /","ukp":"/ˌsaɪ.kəʊˈæn.əl.aɪz/","us":"us  / ˌsaɪ.koʊˈæn. ə l.aɪz /","usp":"/ˌsaɪ.koʊˈæn.əl.aɪz/"}
+{"title":"psychoanalytic","uk":"uk  / ˌsaɪ.kəʊˈˌæn. ə lˈɪt.ɪk /","ukp":"/ˌsaɪ.kəʊˈˌæn.əlˈɪt.ɪk/","us":"us  / ˌsaɪ.koʊˌæn. ə lˈɪt̬.ɪk /","usp":"/ˌsaɪ.koʊˌæn.əlˈɪt̬.ɪk/"}
+{"title":"psychoanalyst","uk":"uk  / ˌsaɪ.kəʊˈæn. ə l.ɪst /","ukp":"/ˌsaɪ.kəʊˈæn.əl.ɪst/","us":"us  / ˌsaɪ.koʊˈæn. ə l.ɪst /","usp":"/ˌsaɪ.koʊˈæn.əl.ɪst/"}
+{"title":"psychoanalysis","uk":"uk  / ˌsaɪ.kəʊ.əˈnæl.ə.sɪs /","ukp":"/ˌsaɪ.kəʊ.əˈnæl.ə.sɪs/","us":"us  / ˌsaɪ.koʊ.əˈnæl.ə.sɪs /","usp":"/ˌsaɪ.koʊ.əˈnæl.ə.sɪs/"}
+{"title":"psychoanalyze","uk":"uk  / ˌsaɪ.kəʊˈæn. ə l.aɪz /","ukp":"/ˌsaɪ.kəʊˈæn.əl.aɪz/","us":"us  / ˌsaɪ.koʊˈæn. ə l.aɪz /","usp":"/ˌsaɪ.koʊˈæn.əl.aɪz/"}
+{"title":"psychobabble","uk":"uk  / ˈsaɪ.kəʊˌbæb. ə l /","ukp":"/ˈsaɪ.kəʊˌbæb.əl/","us":"us  / ˈsaɪ.koʊˌbæb. ə l /","usp":"/ˈsaɪ.koʊˌbæb.əl/"}
+{"title":"psychographic segmentation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"psychographics","uk":"uk  / ˌsaɪkəˈɡræfɪks /","ukp":"/ˌsaɪkəˈɡræfɪks/","us":"us ","usp":""}
+{"title":"psychokinesis","uk":"uk  / ˌsaɪ.kəʊ.kɪˈniː.sɪs /","ukp":"/ˌsaɪ.kəʊ.kɪˈniː.sɪs/","us":"us  / ˌsaɪ.koʊ.kɪˈniː.sɪs /","usp":"/ˌsaɪ.koʊ.kɪˈniː.sɪs/"}
+{"title":"psychokinetic","uk":"uk  / ˌsaɪ.kəʊ.kɪˈnet.ɪk /","ukp":"/ˌsaɪ.kəʊ.kɪˈnet.ɪk/","us":"us  / ˌsaɪ.koʊ.kɪˈnet̬.ɪk /","usp":"/ˌsaɪ.koʊ.kɪˈnet̬.ɪk/"}
+{"title":"psychological","uk":"uk  / ˌsaɪ.k ə lˈɒdʒ.ɪ.k ə l /","ukp":"/ˌsaɪ.kəlˈɒdʒ.ɪ.kəl/","us":"us  / ˌsaɪ.kəˈlɑː.dʒɪ.k ə l /","usp":"/ˌsaɪ.kəˈlɑː.dʒɪ.kəl/"}
+{"title":"psychological profile","uk":"uk  / saɪ.k ə lˌɒdʒ.ɪ.k ə l ˈprəʊ.faɪl /","ukp":"/saɪ.kəlˌɒdʒ.ɪ.kəl ˈprəʊ.faɪl/","us":"us  / saɪ.kəˌlɑː.dʒɪ.k ə l ˈproʊ.faɪl /","usp":"/saɪ.kəˌlɑː.dʒɪ.kəl ˈproʊ.faɪl/"}
+{"title":"psychological moment","uk":"uk  / saɪ.k ə lˌɒdʒ.ɪ.k ə l ˈməʊ.mənt /","ukp":"/saɪ.kəlˌɒdʒ.ɪ.kəl ˈməʊ.mənt/","us":"us  / saɪ.kəˌlɑː.dʒɪ.k ə l ˈmoʊ.mənt /","usp":"/saɪ.kəˌlɑː.dʒɪ.kəl ˈmoʊ.mənt/"}
+{"title":"puffing","uk":"uk  / pʌf /","ukp":"/pʌf/","us":"us  / pʌf /","usp":"/pʌf/"}

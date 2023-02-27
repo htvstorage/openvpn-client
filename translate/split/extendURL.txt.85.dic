@@ -1,0 +1,938 @@
+{"title":"Mesa Verde National Park","uk":"uk  / ˌmeɪ.sə ˌvɜː.deɪ ˌnæʃ. ə n. ə l ˈpɑːk /","ukp":"/ˌmeɪ.sə ˌvɜː.deɪ ˌnæʃ.ən.əl ˈpɑːk/","us":"us  / ˌmeɪ.sə ˈver.deɪ ˌnæʃ. ə n. ə l ˈpɑːrk /","usp":"/ˌmeɪ.sə ˈver.deɪ ˌnæʃ.ən.əl ˈpɑːrk/"}
+{"title":"merycism","uk":"uk  / meˈrɪs.ɪ.zəm /","ukp":"/meˈrɪs.ɪ.zəm/","us":"us  / ˈmer.ɪˌsɪz.əm /","usp":"/ˈmer.ɪˌsɪz.əm/"}
+{"title":"mesa","uk":"uk  / ˈmeɪ.sə /","ukp":"/ˈmeɪ.sə/","us":"us  / ˈmeɪ.sə /","usp":"/ˈmeɪ.sə/"}
+{"title":"mesclun","uk":"uk / ˈmesk.l ə n /","ukp":"/ˈmesk.lən/","us":"us / ˈmesk.l ə n /","usp":"/ˈmesk.lən/"}
+{"title":"mescaline","uk":"uk  / ˈmes.k ə l.iːn /","ukp":"/ˈmes.kəl.iːn/","us":"us  / ˈmes.k ə l.iːn /","usp":"/ˈmes.kəl.iːn/"}
+{"title":"mesenteric","uk":"uk  / mes.ənˈter.ɪk /","ukp":"/mes.ənˈter.ɪk/","us":"us  / ˌmes.ənˈter.ɪk /","usp":"/ˌmes.ənˈter.ɪk/"}
+{"title":"mesenteric ischaemia","uk":"uk  / mes.ənˌter.ɪk ɪˈskiː.mi.ə /","ukp":"/mes.ənˌter.ɪk ɪˈskiː.mi.ə/","us":"us  / ˌmes.ənˈter.ɪk ɪˈskiː.mi.ə /","usp":"/ˌmes.ənˈter.ɪk ɪˈskiː.mi.ə/"}
+{"title":"mesenteric ischemia","uk":"uk  / mes.ənˌter.ɪk ɪˈskiː.mi.ə /","ukp":"/mes.ənˌter.ɪk ɪˈskiː.mi.ə/","us":"us  / ˌmes.ənˈter.ɪk ɪˈskiː.mi.ə /","usp":"/ˌmes.ənˈter.ɪk ɪˈskiː.mi.ə/"}
+{"title":"mesenteric panniculitis","uk":"uk  / mes.ənˌter.ɪk pə.nɪk.jəˈlaɪ.tɪs /","ukp":"/mes.ənˌter.ɪk pə.nɪk.jəˈlaɪ.tɪs/","us":"us  / ˌmes.ənˈter.ɪk pəˌnɪk.jəˈlaɪ.t̬əs /","usp":"/ˌmes.ənˈter.ɪk pəˌnɪk.jəˈlaɪ.t̬əs/"}
+{"title":"mesentery","uk":"uk  / ˈmes.ən.t ə r.i /","ukp":"/ˈmes.ən.tər.i/","us":"us  / ˈmes.ənˌter.i /","usp":"/ˈmes.ənˌter.i/"}
+{"title":"meshed","uk":"uk  / meʃ /","ukp":"/meʃ/","us":"us  / meʃ /","usp":"/meʃ/"}
+{"title":"meshing","uk":"uk  / meʃ /","ukp":"/meʃ/","us":"us  / meʃ /","usp":"/meʃ/"}
+{"title":"mesh","uk":"uk  / meʃ /","ukp":"/meʃ/","us":"us  / meʃ /","usp":"/meʃ/"}
+{"title":"mesmeric","uk":"uk  / mezˈmer.ɪk /","ukp":"/mezˈmer.ɪk/","us":"us  / mezˈmer.ɪk /","usp":"/mezˈmer.ɪk/"}
+{"title":"mesmerist","uk":"uk  / ˈmez.m ə r.ɪst /","ukp":"/ˈmez.mər.ɪst/","us":"us  / ˈmez.m ə r.ɪst /","usp":"/ˈmez.mər.ɪst/"}
+{"title":"mesmerize","uk":"uk  / ˈmez.mə.raɪz /","ukp":"/ˈmez.mə.raɪz/","us":"us  / ˈmez.mə.raɪz /","usp":"/ˈmez.mə.raɪz/"}
+{"title":"mesmerism","uk":"uk  / ˈmez.m ə r.ɪ.z ə m /","ukp":"/ˈmez.mər.ɪ.zəm/","us":"us  / ˈmez.m ə r.ɪ.z ə m /","usp":"/ˈmez.mər.ɪ.zəm/"}
+{"title":"mesmerized","uk":"uk  / ˈmez.mə.raɪz /","ukp":"/ˈmez.mə.raɪz/","us":"us  / ˈmez.mə.raɪz /","usp":"/ˈmez.mə.raɪz/"}
+{"title":"mesmerizing","uk":"uk  / ˈmez.mə.raɪ.zɪŋ /","ukp":"/ˈmez.mə.raɪ.zɪŋ/","us":"us  / ˈmez.mə.raɪ.zɪŋ /","usp":"/ˈmez.mə.raɪ.zɪŋ/"}
+{"title":"mesocolon","uk":"uk  / ˌmes.əˈkəʊ.lɒn /","ukp":"/ˌmes.əˈkəʊ.lɒn/","us":"us  / ˌmez.əˈkoʊ.lən /","usp":"/ˌmez.əˈkoʊ.lən/"}
+{"title":"mesolithic","uk":"uk  / ˌmes.əˈlɪθ.ɪk /","ukp":"/ˌmes.əˈlɪθ.ɪk/","us":"us  / ˌmez.əˈlɪθ.ɪk /","usp":"/ˌmez.əˈlɪθ.ɪk/"}
+{"title":"mesomorph","uk":"uk  / ˈmes.ə.mɔːf /","ukp":"/ˈmes.ə.mɔːf/","us":"us  / ˈmes.ə.mɔːrf /","usp":"/ˈmes.ə.mɔːrf/"}
+{"title":"meson","uk":"uk  / ˈmiː.zɒn /","ukp":"/ˈmiː.zɒn/","us":"us  / ˈmez.ɑːn /","usp":"/ˈmez.ɑːn/"}
+{"title":"Mesopotamia","uk":"uk  / ˌmes.ə.pəˈteɪ.mi.ə /","ukp":"/ˌmes.ə.pəˈteɪ.mi.ə/","us":"us  / ˌmes.ə.pəˈteɪ.mi.ə /","usp":"/ˌmes.ə.pəˈteɪ.mi.ə/"}
+{"title":"mesophyll","uk":"uk  / ˈmes.əʊ.fɪl /","ukp":"/ˈmes.əʊ.fɪl/","us":"us  / ˈmez.oʊ.fɪl /","usp":"/ˈmez.oʊ.fɪl/"}
+{"title":"mesospheric","uk":"uk / ˌmes.əʊˈsfer.ɪk /","ukp":"/ˌmes.əʊˈsfer.ɪk/","us":"us / ˌmez.oʊ.ˈsfer.ɪk /","usp":"/ˌmez.oʊ.ˈsfer.ɪk/"}
+{"title":"mesosphere","uk":"uk  / ˈmes.əʊ.sfɪə r /","ukp":"/ˈmes.əʊ.sfɪər/","us":"us  / ˈmez.oʊ.sfɪr /","usp":"/ˈmez.oʊ.sfɪr/"}
+{"title":"Mesozoic","uk":"uk  / ˌmes.əˈzəʊ.ɪk /","ukp":"/ˌmes.əˈzəʊ.ɪk/","us":"us  / ˌmez.oʊˈzoʊ.ɪk /","usp":"/ˌmez.oʊˈzoʊ.ɪk/"}
+{"title":"mess","uk":"uk  / mes /","ukp":"/mes/","us":"us  / mes /","usp":"/mes/"}
+{"title":"mess around with something","uk":"uk  / mes /","ukp":"/mes/","us":"us  / mes /","usp":"/mes/"}
+{"title":"mess around","uk":"uk  / mes /","ukp":"/mes/","us":"us  / mes /","usp":"/mes/"}
+{"title":"mess someone about/around","uk":"uk  / mes /","ukp":"/mes/","us":"us  / mes /","usp":"/mes/"}
+{"title":"mess with something/someone","uk":"uk  / mes /","ukp":"/mes/","us":"us  / mes /","usp":"/mes/"}
+{"title":"mess something up","uk":"uk  / mes /","ukp":"/mes/","us":"us  / mes /","usp":"/mes/"}
+{"title":"message","uk":"uk  / ˈmes.ɪdʒ /","ukp":"/ˈmes.ɪdʒ/","us":"us  / ˈmes.ɪdʒ /","usp":"/ˈmes.ɪdʒ/"}
+{"title":"message board","uk":"uk  / ˈmes.ɪdʒ ˌbɔːd /","ukp":"/ˈmes.ɪdʒ ˌbɔːd/","us":"us  / ˈmes.ɪdʒ ˌbɔːrd /","usp":"/ˈmes.ɪdʒ ˌbɔːrd/"}
+{"title":"micellar water","uk":"uk  / ˌmɪ.sel.ə ˈwɔː.tə r /","ukp":"/ˌmɪ.sel.ə ˈwɔː.tər/","us":"us  / ˌmɪ.sel.ɚ ˈwɔː.t̬ɚ /","usp":"/ˌmɪ.sel.ɚ ˈwɔː.t̬ɚ/"}
+{"title":"micelle","uk":"uk  / ˈmɪ.sel /","ukp":"/ˈmɪ.sel /","us":"us / maɪˈsel /","usp":"/maɪˈsel /"}
+{"title":"Michelin star","uk":"uk  / ˌmɪtʃ.ə.lɪn ˈstɑː r /","ukp":"/ˌmɪtʃ.ə.lɪn ˈstɑːr/","us":"us  / ˌmɪtʃ.ə.lɪn ˈstɑːr /","usp":"/ˌmɪtʃ.ə.lɪn ˈstɑːr/"}
+{"title":"Michelin-starred","uk":"uk  / ˌmɪtʃ.ə.lɪn ˈstɑːd /","ukp":"/ˌmɪtʃ.ə.lɪn ˈstɑːd/","us":"us  / ˌmɪtʃ.ə.lɪn ˈstɑːrd /","usp":"/ˌmɪtʃ.ə.lɪn ˈstɑːrd/"}
+{"title":"Michigan","uk":"uk  / ˈmɪʃ.ɪ.ɡən /","ukp":"/ˈmɪʃ.ɪ.ɡən/","us":"us  / ˈmɪʃ.ɪ.ɡən /","usp":"/ˈmɪʃ.ɪ.ɡən/"}
+{"title":"Michigander","uk":"uk  / ˈmɪʃ.ɪ.ɡən.də r /","ukp":"/ˈmɪʃ.ɪ.ɡən.dər/","us":"us  / ˈmɪʃ.ɪ.ɡən.dɚ /","usp":"/ˈmɪʃ.ɪ.ɡən.dɚ/"}
+{"title":"mick","uk":"uk  / mɪk /","ukp":"/mɪk/","us":"us  / mɪk /","usp":"/mɪk/"}
+{"title":"mickey","uk":"uk  / ˈmɪk.i /","ukp":"/ˈmɪk.i/","us":"us  / ˈmɪk.i /","usp":"/ˈmɪk.i/"}
+{"title":"MICR","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Mickey Mouse","uk":"uk  / ˌmɪk.i ˈmaʊs /","ukp":"/ˌmɪk.i ˈmaʊs/","us":"us  / ˌmɪk.i ˈmaʊs /","usp":"/ˌmɪk.i ˈmaʊs/"}
+{"title":"micro","uk":"uk  / ˈmaɪ.krəʊ /","ukp":"/ˈmaɪ.krəʊ/","us":"us  / ˈmaɪ.kroʊ /","usp":"/ˈmaɪ.kroʊ/"}
+{"title":"micro greens","uk":"uk  / ˈmaɪ.krəoʊ ˌɡriːnz /","ukp":"/ˈmaɪ.krəoʊ ˌɡriːnz/","us":"us  / ˈmaɪ.krəoʊ ˌɡriːnz /","usp":"/ˈmaɪ.krəoʊ ˌɡriːnz/"}
+{"title":"micro herb","uk":"uk  / ˈmaɪ.krəʊ ˌhɜːb /","ukp":"/ˈmaɪ.krəʊ ˌhɜːb/","us":"us  / ˈmaɪ.kroʊ ˌɝːb /","usp":"/ˈmaɪ.kroʊ ˌɝːb/"}
+{"title":"micro-cap","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"microaggression","uk":"uk  / ˌmaɪ.krəʊ.əˈɡreʃ. ə n /","ukp":"/ˌmaɪ.krəʊ.əˈɡreʃ.ən/","us":"us  / ˌmaɪ.kroʊ.əˈɡreʃ. ə n /","usp":"/ˌmaɪ.kroʊ.əˈɡreʃ.ən/"}
+{"title":"micro-moment","uk":"uk  / ˈmaɪ.krəʊˌməʊ.mənt /","ukp":"/ˈmaɪ.krəʊˌməʊ.mənt/","us":"us  / ˈmaɪ.kroʊˌmoʊ.mənt /","usp":"/ˈmaɪ.kroʊˌmoʊ.mənt/"}
+{"title":"microbeads","uk":"uk  / ˈmaɪ.krəʊ.biːdz /","ukp":"/ˈmaɪ.krəʊ.biːdz/","us":"us  / ˈmaɪ.kroʊ.biːdz /","usp":"/ˈmaɪ.kroʊ.biːdz/"}
+{"title":"microbe","uk":"uk  / ˈmaɪ.krəʊb /","ukp":"/ˈmaɪ.krəʊb/","us":"us  / ˈmaɪ.kroʊb /","usp":"/ˈmaɪ.kroʊb/"}
+{"title":"microbial","uk":"uk  / maɪˈkrəʊ.bi.əl /","ukp":"/maɪˈkrəʊ.bi.əl/","us":"us  / maɪˈkroʊ.bi.əl /","usp":"/maɪˈkroʊ.bi.əl/"}
+{"title":"microbiological","uk":"uk  / ˌmaɪ.krəʊˌbaɪ.əˈlɒdʒ.ɪ.k ə l /","ukp":"/ˌmaɪ.krəʊˌbaɪ.əˈlɒdʒ.ɪ.kəl/","us":"us  / ˌmaɪ.kroʊˌbaɪ.əˈlɑː.dʒɪ.k ə l /","usp":"/ˌmaɪ.kroʊˌbaɪ.əˈlɑː.dʒɪ.kəl/"}
+{"title":"microbiologist","uk":"uk  / ˌmaɪ.krəʊ.baɪˈɒl.ə.dʒɪst /","ukp":"/ˌmaɪ.krəʊ.baɪˈɒl.ə.dʒɪst/","us":"us  / ˌmaɪ.kroʊ.baɪˈɑː.lə.dʒɪst /","usp":"/ˌmaɪ.kroʊ.baɪˈɑː.lə.dʒɪst/"}
+{"title":"microbiome","uk":"uk  / ˌmaɪ.krəʊ.ˈbaɪ.əʊm /","ukp":"/ˌmaɪ.krəʊ.ˈbaɪ.əʊm/","us":"us  / ˌmaɪ.kroʊ.ˈbaɪ.oʊm /","usp":"/ˌmaɪ.kroʊ.ˈbaɪ.oʊm/"}
+{"title":"microbiology","uk":"uk  / ˌmaɪ.krəʊ.baɪˈɒl.ə.dʒi /","ukp":"/ˌmaɪ.krəʊ.baɪˈɒl.ə.dʒi/","us":"us  / ˌmaɪ.kroʊ.baɪˈɑː.lə.dʒi /","usp":"/ˌmaɪ.kroʊ.baɪˈɑː.lə.dʒi/"}
+{"title":"microblog","uk":"uk  / ˈmaɪ.krəˌblɒɡ /","ukp":"/ˈmaɪ.krəˌblɒɡ/","us":"us  / ˈmaɪ.kroʊˌblɑːɡ /","usp":"/ˈmaɪ.kroʊˌblɑːɡ/"}
+{"title":"microblogging","uk":"uk  / ˈmaɪ.krəˌblɒɡ.ɪŋ /","ukp":"/ˈmaɪ.krəˌblɒɡ.ɪŋ/","us":"us  / ˈmaɪ.kroʊˌblɑː.ɡɪŋ /","usp":"/ˈmaɪ.kroʊˌblɑː.ɡɪŋ/"}
+{"title":"microbrew","uk":"uk  / ˈmaɪ.krə.bruː /","ukp":"/ˈmaɪ.krə.bruː/","us":"us  / ˈmaɪ.krə.bruː /","usp":"/ˈmaɪ.krə.bruː/"}
+{"title":"microbrewery","uk":"uk  / ˈmaɪ.krəʊˌbruː. ə r.i /","ukp":"/ˈmaɪ.krəʊˌbruː.ər.i/","us":"us  / ˈmaɪ.kroʊˌbruː.ɚ.i /","usp":"/ˈmaɪ.kroʊˌbruː.ɚ.i/"}
+{"title":"microbusiness","uk":"uk  / ˈmaɪ.krəʊˌbɪz.nɪs /","ukp":"/ˈmaɪ.krəʊˌbɪz.nɪs/","us":"us  / ˈmaɪ.kroʊˌbɪz.nɪs /","usp":"/ˈmaɪ.kroʊˌbɪz.nɪs/"}
+{"title":"microcephalic","uk":"uk  / ˌmaɪ.krəʊ.sɪfˈæl.ɪk /","ukp":"/ˌmaɪ.krəʊ.sɪfˈæl.ɪk/","us":"us  / ˌmaɪ.kroʊ.səˈfæl.ɪk /","usp":"/ˌmaɪ.kroʊ.səˈfæl.ɪk/"}
+{"title":"microcephaly","uk":"uk  / ˌmaɪ.krəʊ.ˈsef.ə.li /","ukp":"/ˌmaɪ.krəʊ.ˈsef.ə.li/","us":"us  / ˌmaɪ.krəʊ.ˈsef.ə.li /","usp":"/ˌmaɪ.krəʊ.ˈsef.ə.li/"}
+{"title":"microchipped","uk":"uk  / ˈmaɪ.krəʊ.tʃɪpt /","ukp":"/ˈmaɪ.krəʊ.tʃɪpt/","us":"us  / ˈmaɪ.kroʊ.tʃɪpt /","usp":"/ˈmaɪ.kroʊ.tʃɪpt/"}
+{"title":"microchip","uk":"uk  / ˈmaɪ.krəʊ.tʃɪp /","ukp":"/ˈmaɪ.krəʊ.tʃɪp/","us":"us  / ˈmaɪ.kroʊ.tʃɪp /","usp":"/ˈmaɪ.kroʊ.tʃɪp/"}
+{"title":"microclimate","uk":"uk  / ˈmaɪ.krəʊˌklaɪ.mət /","ukp":"/ˈmaɪ.krəʊˌklaɪ.mət/","us":"us  / ˈmaɪ.kroʊˌklaɪ.mət /","usp":"/ˈmaɪ.kroʊˌklaɪ.mət/"}
+{"title":"microcircuit","uk":"uk  / ˈmaɪ.krəʊˌsɜː.kɪt /","ukp":"/ˈmaɪ.krəʊˌsɜː.kɪt/","us":"us  / ˈmaɪ.kroʊˌsɝː.kɪt /","usp":"/ˈmaɪ.kroʊˌsɝː.kɪt/"}
+{"title":"microcomputer","uk":"uk  / ˈmaɪ.krəʊ.kəmˌpjuː.tə r /","ukp":"/ˈmaɪ.krəʊ.kəmˌpjuː.tər/","us":"us  / ˈmaɪ.kroʊ.kəmˌpjuː.t̬ɚ /","usp":"/ˈmaɪ.kroʊ.kəmˌpjuː.t̬ɚ/"}
+{"title":"microcosm","uk":"uk  / ˈmaɪ.krəʊˌkɒz. ə m /","ukp":"/ˈmaɪ.krəʊˌkɒz.əm/","us":"us  / ˈmaɪ.kroʊˌkɑː.z ə m /","usp":"/ˈmaɪ.kroʊˌkɑː.zəm/"}
+{"title":"microcoulomb","uk":"uk  / ˌmaɪ.krəʊˈkuː.lɒm /","ukp":"/ˌmaɪ.krəʊˈkuː.lɒm/","us":"us  / ˌmaɪ.kroʊˈkuː.lɑːm /","usp":"/ˌmaɪ.kroʊˈkuː.lɑːm/"}
+{"title":"microdata","uk":"uk  / ˈmaɪ.krəʊˌdeɪ.tə /","ukp":"/ˈmaɪ.krəʊˌdeɪ.tə/","us":"us  / ˈmaɪ.kroʊˌdeɪ.t̬ə /","usp":"/ˈmaɪ.kroʊˌdeɪ.t̬ə/"}
+{"title":"microcredit","uk":"uk  / ˈmaɪ.krəʊˌkred.ɪt /","ukp":"/ˈmaɪ.krəʊˌkred.ɪt/","us":"us  / ˈmaɪ.kroʊˌkred.ɪt /","usp":"/ˈmaɪ.kroʊˌkred.ɪt/"}
+{"title":"microdose","uk":"uk  / ˈmaɪ.krəʊ.dəʊs /","ukp":"/ˈmaɪ.krəʊ.dəʊs/","us":"us  / ˈmaɪ.kroʊ.doʊs /","usp":"/ˈmaɪ.kroʊ.doʊs/"}
+{"title":"microdosing","uk":"uk / ˈmaɪ.krəʊ.dəʊ.sɪŋ /","ukp":"/ˈmaɪ.krəʊ.dəʊ.sɪŋ/","us":"us / ˈmaɪ.kroʊ.doʊ.sɪŋ /","usp":"/ˈmaɪ.kroʊ.doʊ.sɪŋ/"}
+{"title":"microdot","uk":"uk  / ˈmaɪ.krəʊ.dɒt /","ukp":"/ˈmaɪ.krəʊ.dɒt/","us":"us  / ˈmaɪ.kroʊ.dɑːt /","usp":"/ˈmaɪ.kroʊ.dɑːt/"}
+{"title":"microeconomist","uk":"uk  / ˌmaɪkrəʊɪˈkɒnəmɪst /","ukp":"/ˌmaɪkrəʊɪˈkɒnəmɪst/","us":"us ","usp":""}
+{"title":"microeconomics","uk":"uk  / ˌmaɪ.krəʊ.iː.kəˈnɒm.ɪks /","ukp":"/ˌmaɪ.krəʊ.iː.kəˈnɒm.ɪks/","us":"us  / ˌmaɪ.kroʊ.iː.kəˈnɑː.mɪks /","usp":"/ˌmaɪ.kroʊ.iː.kəˈnɑː.mɪks/"}
+{"title":"microeconomic","uk":"uk  / ˌmaɪkrəʊiːkəˈnɒmɪk /","ukp":"/ˌmaɪkrəʊiːkəˈnɒmɪk/","us":"us ","usp":""}
+{"title":"microengineering","uk":"uk  / ˌmaɪkrəʊendʒɪˈnɪərɪŋ /","ukp":"/ˌmaɪkrəʊendʒɪˈnɪərɪŋ/","us":"us ","usp":""}
+{"title":"microelectronics","uk":"uk  / ˌmaɪ.krəʊˌɪl.ekˈtrɒn.ɪks /","ukp":"/ˌmaɪ.krəʊˌɪl.ekˈtrɒn.ɪks/","us":"us  / ˌmaɪ.kroʊ.ɪˌlekˈtrɑː.nɪks /","usp":"/ˌmaɪ.kroʊ.ɪˌlekˈtrɑː.nɪks/"}
+{"title":"methamphetamine","uk":"uk  / ˌmeθ.æmˈfet.ə.miːn /","ukp":"/ˌmeθ.æmˈfet.ə.miːn/","us":"us  / ˌmeθ.æmˈfet̬.ə.miːn /","usp":"/ˌmeθ.æmˈfet̬.ə.miːn/"}
+{"title":"methadone","uk":"uk  / ˈmeθ.ə.dəʊn /","ukp":"/ˈmeθ.ə.dəʊn/","us":"us  / ˈmeθ.ə.doʊn /","usp":"/ˈmeθ.ə.doʊn/"}
+{"title":"methane","uk":"uk  / ˈmiː.θeɪn /","ukp":"/ˈmiː.θeɪn/","us":"us  / ˈmiː.θeɪn /","usp":"/ˈmiː.θeɪn/"}
+{"title":"methanol","uk":"uk  / ˈmeθ.ə.nɒl /","ukp":"/ˈmeθ.ə.nɒl/","us":"us  / ˈmeθ.ə.nɑːl /","usp":"/ˈmeθ.ə.nɑːl/"}
+{"title":"methinks","uk":"uk  / mɪˈθɪŋks /","ukp":"/mɪˈθɪŋks/","us":"us  / mɪˈθɪŋks /","usp":"/mɪˈθɪŋks/"}
+{"title":"metho","uk":"uk  / ˈmeθ.əʊ /","ukp":"/ˈmeθ.əʊ/","us":"us  / ˈmeθ.oʊ /","usp":"/ˈmeθ.oʊ/"}
+{"title":"method","uk":"uk  / ˈmeθ.əd /","ukp":"/ˈmeθ.əd/","us":"us  / ˈmeθ.əd /","usp":"/ˈmeθ.əd/"}
+{"title":"method acting","uk":"uk  / ˈmeθ.əd ˌæk.tɪŋ /","ukp":"/ˈmeθ.əd ˌæk.tɪŋ/","us":"us  / ˈmeθ.əd ˌæk.tɪŋ /","usp":"/ˈmeθ.əd ˌæk.tɪŋ/"}
+{"title":"method actor","uk":"uk  / ˈmeθ.əd ˌæk.tə r /","ukp":"/ˈmeθ.əd ˌæk.tər/","us":"us  / ˈmeθ.əd ˌæk.tɚ /","usp":"/ˈmeθ.əd ˌæk.tɚ/"}
+{"title":"method study","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"methodically","uk":"uk  / məˈθɒd.ɪ.k ə l.i /","ukp":"/məˈθɒd.ɪ.kəl.i/","us":"us  / məˈθɑː.dɪ.k ə l.i /","usp":"/məˈθɑː.dɪ.kəl.i/"}
+{"title":"methodical","uk":"uk  / məˈθɒd.ɪ.k ə l /","ukp":"/məˈθɒd.ɪ.kəl/","us":"us  / məˈθɑː.dɪ.k ə l /","usp":"/məˈθɑː.dɪ.kəl/"}
+{"title":"Methodism","uk":"uk  / ˈmeθ.ə.dɪ.z ə m /","ukp":"/ˈmeθ.ə.dɪ.zəm/","us":"us  / ˈmeθ.ə.dɪ.z ə m /","usp":"/ˈmeθ.ə.dɪ.zəm/"}
+{"title":"methodological","uk":"uk  / ˌmeθ.ə.d ə lˈɒdʒ.ɪ.k ə l /","ukp":"/ˌmeθ.ə.dəlˈɒdʒ.ɪ.kəl/","us":"us  / ˌmeθ.ə.d ə lˈɑː.dʒɪ.k ə l /","usp":"/ˌmeθ.ə.dəlˈɑː.dʒɪ.kəl/"}
+{"title":"methodologically","uk":"uk  / ˌmeθ.ə.d ə lˈɒdʒ.ɪ.k ə l.i /","ukp":"/ˌmeθ.ə.dəlˈɒdʒ.ɪ.kəl.i/","us":"us  / ˌmeθ.ə.d ə lˈɑː.dʒɪ.k ə l.i /","usp":"/ˌmeθ.ə.dəlˈɑː.dʒɪ.kəl.i/"}
+{"title":"Methodist","uk":"uk  / ˈmeθ.ə.dɪst /","ukp":"/ˈmeθ.ə.dɪst/","us":"us  / ˈmeθ.ə.dɪst /","usp":"/ˈmeθ.ə.dɪst/"}
+{"title":"methodology","uk":"uk  / ˌmeθ.əˈdɒl.ə.dʒi /","ukp":"/ˌmeθ.əˈdɒl.ə.dʒi/","us":"us  / ˌmeθ.əˈdɑː.lə.dʒi /","usp":"/ˌmeθ.əˈdɑː.lə.dʒi/"}
+{"title":"meths","uk":"uk  / meθs /","ukp":"/meθs/","us":"us  / meθs /","usp":"/meθs/"}
+{"title":"Methuselah","uk":"uk  / məˈθjuː.z ə l.ə /","ukp":"/məˈθjuː.zəl.ə/","us":"us  / məˈθjuː.z ə l.ə /","usp":"/məˈθjuː.zəl.ə/"}
+{"title":"methyl","uk":"uk  / ˈmeθ.ɪl /","ukp":"/ˈmeθ.ɪl/","us":"us  / ˈmeθ. ə l /","usp":"/ˈmeθ.əl/"}
+{"title":"methyl orange","uk":"uk  / ˌmeθ. ə l ˈɒr.ɪndʒ /","ukp":"/ˌmeθ.əl ˈɒr.ɪndʒ/","us":"us  / ˌmeθ. ə l ˈɔːr.ɪndʒ /","usp":"/ˌmeθ.əl ˈɔːr.ɪndʒ/"}
+{"title":"methylate","uk":"uk  / ˈmeθ.ɪ.leɪt /","ukp":"/ˈmeθ.ɪ.leɪt/","us":"us  / ˈmeθ.ɪ.leɪt /","usp":"/ˈmeθ.ɪ.leɪt/"}
+{"title":"methylated spirits","uk":"uk  / ˌmeθ.ɪ.leɪ.tɪd ˈspɪr.ɪts /","ukp":"/ˌmeθ.ɪ.leɪ.tɪd ˈspɪr.ɪts/","us":"us  / ˌmeθ.ɪ.leɪ.t̬ɪd ˈspɪr.əts /","usp":"/ˌmeθ.ɪ.leɪ.t̬ɪd ˈspɪr.əts/"}
+{"title":"methylation","uk":"uk  / ˌmeθ.ɪˈleɪ.ʃ ə n /","ukp":"/ˌmeθ.ɪˈleɪ.ʃən/","us":"us  / ˌmeθ.ɪˈleɪ.ʃ ə n /","usp":"/ˌmeθ.ɪˈleɪ.ʃən/"}
+{"title":"meticulous","uk":"uk  / məˈtɪk.jə.ləs /","ukp":"/məˈtɪk.jə.ləs/","us":"us  / məˈtɪk.jə.ləs /","usp":"/məˈtɪk.jə.ləs/"}
+{"title":"meticulously","uk":"uk  / məˈtɪk.jə.ləs.li /","ukp":"/məˈtɪk.jə.ləs.li/","us":"us  / məˈtɪk.jə.ləs.li /","usp":"/məˈtɪk.jə.ləs.li/"}
+{"title":"meticulousness","uk":"uk  / məˈtɪk.jə.ləs.nəs /","ukp":"/məˈtɪk.jə.ləs.nəs/","us":"us  / məˈtɪk.jə.ləs.nəs /","usp":"/məˈtɪk.jə.ləs.nəs/"}
+{"title":"métier","uk":"uk  / ˈmet.i.eɪ /","ukp":"/ˈmet.i.eɪ/","us":"us  / meɪˈtjeɪ /","usp":"/meɪˈtjeɪ/"}
+{"title":"metonym","uk":"uk  / ˈmet.ə.nɪm /","ukp":"/ˈmet.ə.nɪm/","us":"us  / ˈmet̬.ə.nɪm /","usp":"/ˈmet̬.ə.nɪm/"}
+{"title":"metonymy","uk":"uk  / metˈɒn.ə.mi /","ukp":"/metˈɒn.ə.mi/","us":"us  / məˈtɑː.nə.mi /","usp":"/məˈtɑː.nə.mi/"}
+{"title":"metonymic","uk":"uk  / ˌmetˈɒn.ə.mɪk /","ukp":"/ˌmetˈɒn.ə.mɪk/","us":"us  / ˌməˈtɑː.nə.mɪk /","usp":"/ˌməˈtɑː.nə.mɪk/"}
+{"title":"metre","uk":"uk  / ˈmiː.tə r /","ukp":"/ˈmiː.tər/","us":"us  / ˈmiː.t̬ɚ /","usp":"/ˈmiː.t̬ɚ/"}
+{"title":"metric","uk":"uk  / ˈmet.rɪk /","ukp":"/ˈmet.rɪk/","us":"us  / ˈmet.rɪk /","usp":"/ˈmet.rɪk/"}
+{"title":"metric system","uk":"uk ","ukp":"","us":"us  / ˈme·trɪk ˌsɪs·təm /","usp":"/ˈme·trɪk ˌsɪs·təm/"}
+{"title":"metrical","uk":"uk  / ˈmet.rɪk ə l /","ukp":"/ˈmet.rɪkəl/","us":"us  / ˈmet.rɪk ə l /","usp":"/ˈmet.rɪkəl/"}
+{"title":"metric ton","uk":"uk  / ˌmet.rɪk ˈtʌn /","ukp":"/ˌmet.rɪk ˈtʌn/","us":"us  / ˌmet.rɪk ˈtʌn /","usp":"/ˌmet.rɪk ˈtʌn/"}
+{"title":"metrics","uk":"uk  / ˈmetrɪks /","ukp":"/ˈmetrɪks/","us":"us ","usp":""}
+{"title":"metrication","uk":"uk  / ˌmet.rɪˈkeɪ.ʃ ə n /","ukp":"/ˌmet.rɪˈkeɪ.ʃən/","us":"us  / ˌmet.rəˈkeɪ.ʃ ə n /","usp":"/ˌmet.rəˈkeɪ.ʃən/"}
+{"title":"metro","uk":"uk  / ˈmet.rəʊ /","ukp":"/ˈmet.rəʊ/","us":"us  / ˈmet.roʊ /","usp":"/ˈmet.roʊ/"}
+{"title":"MetroCard","uk":"uk  / ˈmet.rəʊ.kɑːd /","ukp":"/ˈmet.rəʊ.kɑːd/","us":"us  / ˈmet.roʊ.kɑːrd /","usp":"/ˈmet.roʊ.kɑːrd/"}
+{"title":"metrological","uk":"uk  / ˌmet.rəˈlɒdʒ.ɪ.k ə l /","ukp":"/ˌmet.rəˈlɒdʒ.ɪ.kəl/","us":"us  / ˌmet.rəˈlɑː.dʒɪ.k ə l /","usp":"/ˌmet.rəˈlɑː.dʒɪ.kəl/"}
+{"title":"microenterprise","uk":"uk  / ˈmaɪkrəʊˌentəpraɪz /","ukp":"/ˈmaɪkrəʊˌentəpraɪz/","us":"us ","usp":""}
+{"title":"microenvironment","uk":"uk  / ˈmaɪkrəʊɪnˌvaɪrənmənt /","ukp":"/ˈmaɪkrəʊɪnˌvaɪrənmənt/","us":"us ","usp":""}
+{"title":"microfiber","uk":"uk  / ˈmaɪ.krəʊˌfaɪ.bə r /","ukp":"/ˈmaɪ.krəʊˌfaɪ.bər/","us":"us  / ˈmaɪ.kroʊˌfaɪ.bɚ /","usp":"/ˈmaɪ.kroʊˌfaɪ.bɚ/"}
+{"title":"microfibre","uk":"uk  / ˈmaɪ.krəʊˌfaɪ.bə r /","ukp":"/ˈmaɪ.krəʊˌfaɪ.bər/","us":"us  / ˈmaɪ.kroʊˌfaɪ.bɚ /","usp":"/ˈmaɪ.kroʊˌfaɪ.bɚ/"}
+{"title":"microfiche","uk":"uk  / ˈmaɪ.krə.fiːʃ /","ukp":"/ˈmaɪ.krə.fiːʃ/","us":"us  / ˈmaɪ.kroʊ.fiːʃ /","usp":"/ˈmaɪ.kroʊ.fiːʃ/"}
+{"title":"microfiche reader","uk":"uk  / ˈmaɪ.krə.fiːʃ ˌriː.də r /","ukp":"/ˈmaɪ.krə.fiːʃ ˌriː.dər/","us":"us  / ˈmaɪ.kroʊ.fiːʃ ˌriː.dɚ /","usp":"/ˈmaɪ.kroʊ.fiːʃ ˌriː.dɚ/"}
+{"title":"microfilmed","uk":"uk  / ˈmaɪ.krəʊ.fɪlm /","ukp":"/ˈmaɪ.krəʊ.fɪlm/","us":"us  / ˈmaɪ.kroʊ.fɪlm /","usp":"/ˈmaɪ.kroʊ.fɪlm/"}
+{"title":"microfilming","uk":"uk  / ˈmaɪ.krəʊ.fɪlm /","ukp":"/ˈmaɪ.krəʊ.fɪlm/","us":"us  / ˈmaɪ.kroʊ.fɪlm /","usp":"/ˈmaɪ.kroʊ.fɪlm/"}
+{"title":"microfinance","uk":"uk  / ˈmaɪ.krəʊˌfaɪ.næns /","ukp":"/ˈmaɪ.krəʊˌfaɪ.næns/","us":"us  / ˈmaɪ.kroʊˌfaɪ.næns /","usp":"/ˈmaɪ.kroʊˌfaɪ.næns/"}
+{"title":"microfilm","uk":"uk  / ˈmaɪ.krəʊ.fɪlm /","ukp":"/ˈmaɪ.krəʊ.fɪlm/","us":"us  / ˈmaɪ.kroʊ.fɪlm /","usp":"/ˈmaɪ.kroʊ.fɪlm/"}
+{"title":"microfinance institution","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"microfossil","uk":"uk  / ˈmaɪ.krəʊˌfɒs. ə l /","ukp":"/ˈmaɪ.krəʊˌfɒs.əl/","us":"us  / ˈmaɪ.kroʊˌfɑː.s ə l /","usp":"/ˈmaɪ.kroʊˌfɑː.səl/"}
+{"title":"microgravity","uk":"uk / ˈmaɪ.krəʊˌɡræv.ə.ti /","ukp":"/ˈmaɪ.krəʊˌɡræv.ə.ti/","us":"us  / ˈmaɪ.kroʊˌɡræv.ə.t̬i /","usp":"/ˈmaɪ.kroʊˌɡræv.ə.t̬i/"}
+{"title":"microgram","uk":"uk  / ˈmaɪ.krəʊ.ɡræm /","ukp":"/ˈmaɪ.krəʊ.ɡræm/","us":"us  / ˈmaɪ.kroʊ.ɡræm /","usp":"/ˈmaɪ.kroʊ.ɡræm/"}
+{"title":"microgrid","uk":"uk  / ˈmaɪ.krəʊˌɡrɪd /","ukp":"/ˈmaɪ.krəʊˌɡrɪd/","us":"us  / ˈmaɪ.kroʊˌɡrɪd /","usp":"/ˈmaɪ.kroʊˌɡrɪd/"}
+{"title":"microlender","uk":"uk  / ˈmaɪkrəʊˌlendə r /","ukp":"/ˈmaɪkrəʊˌlendər/","us":"us ","usp":""}
+{"title":"microloan","uk":"uk  / ˈmaɪ.krəʊ.ləʊn /","ukp":"/ˈmaɪ.krəʊ.ləʊn/","us":"us  / ˈmaɪ.kroʊ.loʊn /","usp":"/ˈmaɪ.kroʊ.loʊn/"}
+{"title":"microlight","uk":"uk  / ˈmaɪ.krəʊ.laɪt /","ukp":"/ˈmaɪ.krəʊ.laɪt/","us":"us  / ˈmaɪ.kroʊ.laɪt /","usp":"/ˈmaɪ.kroʊ.laɪt/"}
+{"title":"micromanaged","uk":"uk  / ˈmaɪ.krəʊˌmæn.ɪdʒ /","ukp":"/ˈmaɪ.krəʊˌmæn.ɪdʒ/","us":"us  / ˈmaɪ.kroʊˌmæn.ɪdʒ /","usp":"/ˈmaɪ.kroʊˌmæn.ɪdʒ/"}
+{"title":"micromanage","uk":"uk  / ˈmaɪ.krəʊˌmæn.ɪdʒ /","ukp":"/ˈmaɪ.krəʊˌmæn.ɪdʒ/","us":"us  / ˈmaɪ.kroʊˌmæn.ɪdʒ /","usp":"/ˈmaɪ.kroʊˌmæn.ɪdʒ/"}
+{"title":"micromanagement","uk":"uk  / ˈmaɪ.krəʊˌmæn.ɪdʒ.mənt /","ukp":"/ˈmaɪ.krəʊˌmæn.ɪdʒ.mənt/","us":"us  / ˈmaɪ.kroʊˌmæn.ɪdʒ.mənt /","usp":"/ˈmaɪ.kroʊˌmæn.ɪdʒ.mənt/"}
+{"title":"micromanager","uk":"uk  / ˈmaɪ.krəʊˌmæn.ɪdʒ.ə r /","ukp":"/ˈmaɪ.krəʊˌmæn.ɪdʒ.ər/","us":"us  / ˈmaɪ.kroʊˌmæn.ə.dʒ.ɚ /","usp":"/ˈmaɪ.kroʊˌmæn.ə.dʒ.ɚ/"}
+{"title":"micromarketing","uk":"uk  / ˈmaɪkrəʊˌmɑːkɪtɪŋ /","ukp":"/ˈmaɪkrəʊˌmɑːkɪtɪŋ/","us":"us ","usp":""}
+{"title":"micromanaging","uk":"uk  / ˈmaɪ.krəʊˌmæn.ɪdʒ /","ukp":"/ˈmaɪ.krəʊˌmæn.ɪdʒ/","us":"us  / ˈmaɪ.kroʊˌmæn.ɪdʒ /","usp":"/ˈmaɪ.kroʊˌmæn.ɪdʒ/"}
+{"title":"micrometer","uk":"uk  / maɪˈkrɒm.ɪ.tə r /","ukp":"/maɪˈkrɒm.ɪ.tər/","us":"us  / maɪˈkrɑː.mə.t̬ɚ /","usp":"/maɪˈkrɑː.mə.t̬ɚ/"}
+{"title":"micrometre","uk":"uk  / ˈmaɪ.krəʊˌmiː.tə r /","ukp":"/ˈmaɪ.krəʊˌmiː.tər/","us":"us  / ˈmaɪ.kroʊˌmiː.t̬ɚ /","usp":"/ˈmaɪ.kroʊˌmiː.t̬ɚ/"}
+{"title":"micron","uk":"uk  / ˈmaɪ.krɒn /","ukp":"/ˈmaɪ.krɒn/","us":"us  / ˈmaɪ.krɑːn /","usp":"/ˈmaɪ.krɑːn/"}
+{"title":"Micronesia","uk":"uk  / ˌmaɪ.krəˈniː.zi.ə /","ukp":"/ˌmaɪ.krəˈniː.zi.ə/","us":"us  / ˌmaɪ.krə.kroʊˈniː.ʒə /","usp":"/ˌmaɪ.krə.kroʊˈniː.ʒə/"}
+{"title":"microneedling","uk":"uk  / ˈmaɪ.krəʊˌniːd.lɪŋ /","ukp":"/ˈmaɪ.krəʊˌniːd.lɪŋ/","us":"us  / ˈmaɪ.kroʊˌniːd.lɪŋ /","usp":"/ˈmaɪ.kroʊˌniːd.lɪŋ/"}
+{"title":"Micronesian","uk":"uk  / ˌmaɪ.krəˈniː.zi.ən /","ukp":"/ˌmaɪ.krəˈniː.zi.ən/","us":"us  / ˌmaɪ.krə.kroʊˈniː.ʒən /","usp":"/ˌmaɪ.krə.kroʊˈniː.ʒən/"}
+{"title":"microorganism","uk":"uk  / ˌmaɪ.krəʊˈɔː.ɡ ə n.ɪ.z ə m /","ukp":"/ˌmaɪ.krəʊˈɔː.ɡən.ɪ.zəm/","us":"us  / ˌmaɪ.kroʊˈɔːr.ɡ ə n.ɪ.z ə m /","usp":"/ˌmaɪ.kroʊˈɔːr.ɡən.ɪ.zəm/"}
+{"title":"micropayment","uk":"uk  / ˈmaɪkrəʊˌpeɪmənt /","ukp":"/ˈmaɪkrəʊˌpeɪmənt/","us":"us ","usp":""}
+{"title":"microphone","uk":"uk  / ˈmaɪ.krə.fəʊn /","ukp":"/ˈmaɪ.krə.fəʊn/","us":"us  / ˈmaɪ.krə.foʊn /","usp":"/ˈmaɪ.krə.foʊn/"}
+{"title":"microplastics","uk":"uk  / ˈmaɪ.krəʊˌplæs.tɪks /","ukp":"/ˈmaɪ.krəʊˌplæs.tɪks/","us":"us  / ˈmaɪ.kroʊˌplæs.tɪks /","usp":"/ˈmaɪ.kroʊˌplæs.tɪks/"}
+{"title":"micropyle","uk":"uk  / ˈmaɪ.krəʊ.paɪl /","ukp":"/ˈmaɪ.krəʊ.paɪl/","us":"us  / ˈmaɪ.kroʊ.paɪl /","usp":"/ˈmaɪ.kroʊ.paɪl/"}
+{"title":"micropower","uk":"uk  / ˈmaɪ.krəʊˌpaʊə r /","ukp":"/ˈmaɪ.krəʊˌpaʊər/","us":"us  / ˈmaɪ.kroʊˌpaʊ.ɚ /","usp":"/ˈmaɪ.kroʊˌpaʊ.ɚ/"}
+{"title":"microprocessor","uk":"uk  / ˌmaɪ.krəʊˈprəʊ.ses.ə r /","ukp":"/ˌmaɪ.krəʊˈprəʊ.ses.ər/","us":"us  / ˌmaɪ.kroʊˈprɑː.ses.ɚ /","usp":"/ˌmaɪ.kroʊˈprɑː.ses.ɚ/"}
+{"title":"microscope","uk":"uk  / ˈmaɪ.krə.skəʊp /","ukp":"/ˈmaɪ.krə.skəʊp/","us":"us  / ˈmaɪ.krə.skoʊp /","usp":"/ˈmaɪ.krə.skoʊp/"}
+{"title":"microscopic","uk":"uk  / ˌmaɪ.krəˈskɒp.ɪk /","ukp":"/ˌmaɪ.krəˈskɒp.ɪk/","us":"us  / ˌmaɪ.krəˈskɑː.pɪk /","usp":"/ˌmaɪ.krəˈskɑː.pɪk/"}
+{"title":"microscopically","uk":"uk  / ˌmaɪ.krəˈskɒp.ɪ.k ə l.i /","ukp":"/ˌmaɪ.krəˈskɒp.ɪ.kəl.i/","us":"us  / ˌmaɪ.krəˈskɑː.pɪ.k ə l.i /","usp":"/ˌmaɪ.krəˈskɑː.pɪ.kəl.i/"}
+{"title":"microscopy","uk":"uk  / maɪˈkrɒs.kə.pi /","ukp":"/maɪˈkrɒs.kə.pi/","us":"us  / maɪˈkrɑː.skə.pi /","usp":"/maɪˈkrɑː.skə.pi/"}
+{"title":"microsecond","uk":"uk  / ˈmaɪ.krəʊˌsek. ə nd /","ukp":"/ˈmaɪ.krəʊˌsek.ənd/","us":"us  / ˈmaɪ.kroʊˌsek. ə nd /","usp":"/ˈmaɪ.kroʊˌsek.ənd/"}
+{"title":"microsite","uk":"uk  / ˈmaɪ.krəˌsaɪt /","ukp":"/ˈmaɪ.krəˌsaɪt/","us":"us  / ˈmaɪ.krəˌsaɪt /","usp":"/ˈmaɪ.krəˌsaɪt/"}
+{"title":"microsurgery","uk":"uk  / ˌmaɪ.krəʊˈsɜː.dʒ ə r.i /","ukp":"/ˌmaɪ.krəʊˈsɜː.dʒər.i/","us":"us  / ˌmaɪ.kroʊˈsɝː.dʒ ə r.i /","usp":"/ˌmaɪ.kroʊˈsɝː.dʒər.i/"}
+{"title":"microvascular","uk":"uk  / ˌmaɪ.krəʊˈvæs.kjə.lə r /","ukp":"/ˌmaɪ.krəʊˈvæs.kjə.lər/","us":"us  / ˌmaɪ.kroʊˈvæs.kjə.lɚ /","usp":"/ˌmaɪ.kroʊˈvæs.kjə.lɚ/"}
+{"title":"microwavable","uk":"uk  / ˌmaɪ.krəˈweɪ.və.b ə l /","ukp":"/ˌmaɪ.krəˈweɪ.və.bəl/","us":"us  / ˌmaɪ.krəˈweɪ.və.b ə l /","usp":"/ˌmaɪ.krəˈweɪ.və.bəl/"}
+{"title":"microwaved","uk":"uk  / ˈmaɪ.krə.weɪv /","ukp":"/ˈmaɪ.krə.weɪv/","us":"us  / ˈmaɪ.kroʊ.weɪv /","usp":"/ˈmaɪ.kroʊ.weɪv/"}
+{"title":"microwaveable","uk":"uk  / ˈmaɪ.krə.weɪ.və.b ə l /","ukp":"/ˈmaɪ.krə.weɪ.və.bəl/","us":"us  / ˈmaɪ.kroʊ.weɪ.və.b ə l /","usp":"/ˈmaɪ.kroʊ.weɪ.və.bəl/"}
+{"title":"microwave","uk":"uk  / ˈmaɪ.krə.weɪv /","ukp":"/ˈmaɪ.krə.weɪv/","us":"us  / ˈmaɪ.kroʊ.weɪv /","usp":"/ˈmaɪ.kroʊ.weɪv/"}
+{"title":"microwaving","uk":"uk  / ˈmaɪ.krə.weɪv /","ukp":"/ˈmaɪ.krə.weɪv/","us":"us  / ˈmaɪ.kroʊ.weɪv /","usp":"/ˈmaɪ.kroʊ.weɪv/"}
+{"title":"micturition","uk":"uk  / ˌmɪk.tʃərˈɪʃ.ən /","ukp":"/ˌmɪk.tʃərˈɪʃ.ən/","us":"us  / ˌmɪk.tʃəˈrɪʃ.ən /","usp":"/ˌmɪk.tʃəˈrɪʃ.ən/"}
+{"title":"mid","uk":"uk  / mɪd /","ukp":"/mɪd/","us":"us  / mɪd /","usp":"/mɪd/"}
+{"title":"Mid Glamorgan","uk":"uk  / ˌmɪd ɡləˈmɔː.ɡən /","ukp":"/ˌmɪd ɡləˈmɔː.ɡən/","us":"us  / ˌmɪd ɡləˈmɔːr.ɡən /","usp":"/ˌmɪd ɡləˈmɔːr.ɡən/"}
+{"title":"mid-afternoon","uk":"uk  / ˌmɪdˌɑːf.təˈnuːn /","ukp":"/ˌmɪdˌɑːf.təˈnuːn/","us":"us  / ˌæf.tɚ.təˈnuːn /","usp":"/ˌæf.tɚ.təˈnuːn/"}
+{"title":"mid-cap","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mid-air","uk":"uk  / ˌmɪdˈeə r /","ukp":"/ˌmɪdˈeər/","us":"us  / ˌmɪdˈer /","usp":"/ˌmɪdˈer/"}
+{"title":"mid-century modern","uk":"uk  / ˌmɪd.sen.tʃ ə r.i ˈmɒd. ə n /","ukp":"/ˌmɪd.sen.tʃər.i ˈmɒd.ən/","us":"us  / ˌmɪd.sen.tʃ ə r.i ˈmɑː.dɚn /","usp":"/ˌmɪd.sen.tʃər.i ˈmɑː.dɚn/"}
+{"title":"mid-market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mid-century","uk":"uk / ˌmɪdˈsen.tʃ ə r.i /","ukp":"/ˌmɪdˈsen.tʃər.i/","us":"us / ˌmɪdˈsen.tʃ ə r.i /","usp":"/ˌmɪdˈsen.tʃər.i/"}
+{"title":"mid-morning","uk":"uk  / ˌmɪdˈmɔː.nɪŋ /","ukp":"/ˌmɪdˈmɔː.nɪŋ/","us":"us  / ˌmɪdˈmɔːr.nɪŋ /","usp":"/ˌmɪdˈmɔːr.nɪŋ/"}
+{"title":"mid-ocean ridge","uk":"uk  / ˌmɪdˌəʊ.ʃ ə n ˈrɪdʒ /","ukp":"/ˌmɪdˌəʊ.ʃən ˈrɪdʒ/","us":"us  / ˌmɪdˌoʊ.ʃ ə n ˈrɪdʒ /","usp":"/ˌmɪdˌoʊ.ʃən ˈrɪdʒ/"}
+{"title":"mid-priced","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mid-ranking","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mid-range","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mid-session","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mid-tier","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mid-table","uk":"uk  / ˌmɪdˈteɪ.b ə l /","ukp":"/ˌmɪdˈteɪ.bəl/","us":"us  / ˌmɪdˈteɪ.b ə l /","usp":"/ˌmɪdˈteɪ.bəl/"}
+{"title":"mid-year","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"midafternoon","uk":"uk  / ˌmɪdˌɑːf.təˈnuːn /","ukp":"/ˌmɪdˌɑːf.təˈnuːn/","us":"us  / ˌæf.tɚ.təˈnuːn /","usp":"/ˌæf.tɚ.təˈnuːn/"}
+{"title":"Midas","uk":"uk  / ˈmaɪ.dəs /","ukp":"/ˈmaɪ.dəs/","us":"us  / ˈmaɪ.dəs /","usp":"/ˈmaɪ.dəs/"}
+{"title":"midair","uk":"uk  / ˌmɪdˈeə r /","ukp":"/ˌmɪdˈeər/","us":"us  / ˌmɪdˈer /","usp":"/ˌmɪdˈer/"}
+{"title":"midazolam","uk":"uk  / mɪˈdæz.ə.ləm /","ukp":"/mɪˈdæz.ə.ləm/","us":"us  / mɪˈdæz.əˌlæm /","usp":"/mɪˈdæz.əˌlæm/"}
+{"title":"midday","uk":"uk  / ˌmɪdˈdeɪ /","ukp":"/ˌmɪdˈdeɪ/","us":"us  / ˌmɪdˈdeɪ /","usp":"/ˌmɪdˈdeɪ/"}
+{"title":"midden","uk":"uk  / ˈmɪd. ə n /","ukp":"/ˈmɪd.ən/","us":"us  / ˈmɪd. ə n /","usp":"/ˈmɪd.ən/"}
+{"title":"middle","uk":"uk  / ˈmɪd. ə l /","ukp":"/ˈmɪd.əl/","us":"us  / ˈmɪd. ə l /","usp":"/ˈmɪd.əl/"}
+{"title":"Middle America","uk":"uk  / ˌmɪd. ə l əˈmer.ɪ.kə /","ukp":"/ˌmɪd.əl əˈmer.ɪ.kə/","us":"us  / ˌmɪd. ə l əˈmer.ɪ.kə /","usp":"/ˌmɪd.əl əˈmer.ɪ.kə/"}
+{"title":"middle C","uk":"uk  / ˌmɪd. ə l ˈsiː /","ukp":"/ˌmɪd.əl ˈsiː/","us":"us  / ˌmɪd. ə l ˈsiː /","usp":"/ˌmɪd.əl ˈsiː/"}
+{"title":"middle age","uk":"uk  / ˌmɪd. ə l ˈeɪdʒ /","ukp":"/ˌmɪd.əl ˈeɪdʒ/","us":"us  / ˌmɪd. ə l ˈeɪdʒ /","usp":"/ˌmɪd.əl ˈeɪdʒ/"}
+{"title":"middle class","uk":"uk  / ˌmɪd. ə l ˈklɑːs /","ukp":"/ˌmɪd.əl ˈklɑːs/","us":"us  / ˌmɪd. ə l ˈklæs /","usp":"/ˌmɪd.əl ˈklæs/"}
+{"title":"Middle Eastern","uk":"uk  / ˌmɪd. ə l ˈiː.st ə n /","ukp":"/ˌmɪd.əl ˈiː.stən/","us":"us  / ˌmɪd. ə l ˈiː.stɚn /","usp":"/ˌmɪd.əl ˈiː.stɚn/"}
+{"title":"middle ear","uk":"uk  / ˌmɪd. ə l ˈɪə r /","ukp":"/ˌmɪd.əl ˈɪər/","us":"us  / ˌmɪd. ə l ˈɪr /","usp":"/ˌmɪd.əl ˈɪr/"}
+{"title":"Middle England","uk":"uk  / ˌmɪd. ə l ˈɪŋ.ɡlənd /","ukp":"/ˌmɪd.əl ˈɪŋ.ɡlənd/","us":"us  / ˌmɪd. ə l ˈɪŋ.ɡlənd /","usp":"/ˌmɪd.əl ˈɪŋ.ɡlənd/"}
+{"title":"middle ground","uk":"uk  / ˌmɪd. ə l ˈɡraʊnd /","ukp":"/ˌmɪd.əl ˈɡraʊnd/","us":"us  / ˌmɪd. ə l ˈɡraʊnd /","usp":"/ˌmɪd.əl ˈɡraʊnd/"}
+{"title":"middle finger","uk":"uk  / ˌmɪd. ə l ˈfɪŋ.ɡə r /","ukp":"/ˌmɪd.əl ˈfɪŋ.ɡər/","us":"us  / ˌmɪd. ə l ˈfɪŋ.ɡɚ /","usp":"/ˌmɪd.əl ˈfɪŋ.ɡɚ/"}
+{"title":"middle income country","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"middle management","uk":"uk  / ˌmɪd. ə l ˈmæn.ɪdʒ.mənt /","ukp":"/ˌmɪd.əl ˈmæn.ɪdʒ.mənt/","us":"us  / ˌmɪd. ə l ˈmæn.ɪdʒ.mənt /","usp":"/ˌmɪd.əl ˈmæn.ɪdʒ.mənt/"}
+{"title":"middle manager","uk":"uk  / ˌmɪd. ə l ˈmæn.ɪdʒ.ə r /","ukp":"/ˌmɪd.əl ˈmæn.ɪdʒ.ər/","us":"us  / ˌmɪd. ə l ˈmæn.ɪdʒ.ɚ /","usp":"/ˌmɪd.əl ˈmæn.ɪdʒ.ɚ/"}
+{"title":"middle name","uk":"uk  / ˌmɪd. ə l ˈneɪm /","ukp":"/ˌmɪd.əl ˈneɪm/","us":"us  / ˌmɪd. ə l ˈneɪm /","usp":"/ˌmɪd.əl ˈneɪm/"}
+{"title":"middle school","uk":"uk  / ˈmɪd. ə l ˌskuːl /","ukp":"/ˈmɪd.əl ˌskuːl/","us":"us  / ˈmɪd. ə l ˌskuːl /","usp":"/ˈmɪd.əl ˌskuːl/"}
+{"title":"middle-age spread","uk":"uk  / ˌmɪd. ə l.eɪdʒ ˈspred /","ukp":"/ˌmɪd.əl.eɪdʒ ˈspred/","us":"us  / ˌmɪd. ə l.eɪdʒ ˈspred /","usp":"/ˌmɪd.əl.eɪdʒ ˈspred/"}
+{"title":"metrologist","uk":"uk  / mɪˈtrɒl.ə.dʒɪst /","ukp":"/mɪˈtrɒl.ə.dʒɪst/","us":"us  / məˈtrɑː.lə.dʒɪst /","usp":"/məˈtrɑː.lə.dʒɪst/"}
+{"title":"metrology","uk":"uk  / mɪˈtrɒl.ə.dʒi /","ukp":"/mɪˈtrɒl.ə.dʒi/","us":"us  / məˈtrɑː.lə.dʒi /","usp":"/məˈtrɑː.lə.dʒi/"}
+{"title":"metronome","uk":"uk  / ˈmet.rə.nəʊm /","ukp":"/ˈmet.rə.nəʊm/","us":"us  / ˈmet.rə.noʊm /","usp":"/ˈmet.rə.noʊm/"}
+{"title":"metropolitan","uk":"uk  / ˌmet.rəˈpɒl.ɪ.t ə n /","ukp":"/ˌmet.rəˈpɒl.ɪ.tən/","us":"us  / ˌmet.rəˈpɑː.lə.t ə n /","usp":"/ˌmet.rəˈpɑː.lə.tən/"}
+{"title":"metropolis","uk":"uk  / məˈtrɒp. ə l.ɪs /","ukp":"/məˈtrɒp.əl.ɪs/","us":"us  / məˈtrɑː.p ə l.ɪs /","usp":"/məˈtrɑː.pəl.ɪs/"}
+{"title":"metropolitan borough","uk":"uk  / met.rəˌpɒl.ɪ.t ə n ˈbʌr.ə /","ukp":"/met.rəˌpɒl.ɪ.tən ˈbʌr.ə/","us":"us  / met.rəˌpɑː.lə.t ə n ˈbɝː.oʊ /","usp":"/met.rəˌpɑː.lə.tən ˈbɝː.oʊ/"}
+{"title":"metrosexual","uk":"uk  / ˌmet.rəʊˈsek.ʃu.əl /","ukp":"/ˌmet.rəʊˈsek.ʃu.əl/","us":"us  / ˌmet.roʊˈsek.ʃu.əl /","usp":"/ˌmet.roʊˈsek.ʃu.əl/"}
+{"title":"metropolitan elite","uk":"uk  / met.rəˌpɒl.ɪ.t ə n eˈliːt /","ukp":"/met.rəˌpɒl.ɪ.tən eˈliːt/","us":"us  / met.rəˌpɑː.lə.t ə n ɪˈliːt /","usp":"/met.rəˌpɑː.lə.tən ɪˈliːt/"}
+{"title":"metropolitan county","uk":"uk  / met.rəˌpɒl.ɪ.t ə n ˈkaʊn.ti /","ukp":"/met.rəˌpɒl.ɪ.tən ˈkaʊn.ti/","us":"us  / met.rəˌpɑː.lə.t ə n ˈkaʊn.t̬i /","usp":"/met.rəˌpɑː.lə.tən ˈkaʊn.t̬i/"}
+{"title":"meuniere","uk":"uk / ˌmɜː.niˈeə r /","ukp":"/ˌmɜː.niˈeər/","us":"us / mɚnˈjer /","usp":"/mɚnˈjer/"}
+{"title":"mettle","uk":"uk  / ˈmet. ə l /","ukp":"/ˈmet.əl/","us":"us  / ˈmet̬. ə l /","usp":"/ˈmet̬.əl/"}
+{"title":"mewing","uk":"uk  / mjuː /","ukp":"/mjuː/","us":"us  / mjuː /","usp":"/mjuː/"}
+{"title":"mewed","uk":"uk  / mjuː /","ukp":"/mjuː/","us":"us  / mjuː /","usp":"/mjuː/"}
+{"title":"mewl","uk":"uk  / mjuːl /","ukp":"/mjuːl/","us":"us  / mjuːl /","usp":"/mjuːl/"}
+{"title":"mew","uk":"uk  / mjuː /","ukp":"/mjuː/","us":"us  / mjuː /","usp":"/mjuː/"}
+{"title":"mewling","uk":"uk  / ˈmjuːl.ɪŋ /","ukp":"/ˈmjuːl.ɪŋ/","us":"us  / ˈmjuːl.ɪŋ /","usp":"/ˈmjuːl.ɪŋ/"}
+{"title":"mews","uk":"uk  / mjuːz /","ukp":"/mjuːz/","us":"us  / mjuːz /","usp":"/mjuːz/"}
+{"title":"Mexican","uk":"uk  / ˈmek.sɪ.k ə n /","ukp":"/ˈmek.sɪ.kən/","us":"us  / ˈmek.sɪ.k ə n /","usp":"/ˈmek.sɪ.kən/"}
+{"title":"Mexican wave","uk":"uk  / ˌmek.sɪ.k ə n ˈweɪv /","ukp":"/ˌmek.sɪ.kən ˈweɪv/","us":"us  / ˌmek.sɪ.k ə n ˈweɪv /","usp":"/ˌmek.sɪ.kən ˈweɪv/"}
+{"title":"Mexican standoff","uk":"uk  / ˌmek.sɪ.k ə n ˈstænd.ɒf /","ukp":"/ˌmek.sɪ.kən ˈstænd.ɒf/","us":"us  / ˌmek.sɪ.k ə n ˈstænd.ɑːf /","usp":"/ˌmek.sɪ.kən ˈstænd.ɑːf/"}
+{"title":"Mexico","uk":"uk  / ˈmek.sɪ.kəʊ /","ukp":"/ˈmek.sɪ.kəʊ/","us":"us  / ˈmek.sɪ.koʊ /","usp":"/ˈmek.sɪ.koʊ/"}
+{"title":"mezzanine","uk":"uk  / ˈmez.ə.niːn /","ukp":"/ˈmez.ə.niːn/","us":"us  / ˈmet.sə.niːn /","usp":"/ˈmet.sə.niːn/"}
+{"title":"mezzanine finance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mezze","uk":"uk / ˈmez.eɪ /","ukp":"/ˈmez.eɪ/","us":"us / ˈmez.eɪ /","usp":"/ˈmez.eɪ/"}
+{"title":"mfg.","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mezzo-soprano","uk":"uk  / ˌmet.səʊ.ʃəˈprɑː.nəʊ /","ukp":"/ˌmet.səʊ.ʃəˈprɑː.nəʊ/","us":"us  / ˌmet.soʊ.səˈpræn.oʊ /","usp":"/ˌmet.soʊ.səˈpræn.oʊ/"}
+{"title":"MFI","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"MFL","uk":"uk  / ˌem.efˈel /","ukp":"/ˌem.efˈel/","us":"us  / ˌem.efˈel /","usp":"/ˌem.efˈel/"}
+{"title":"MFN","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mg","uk":"","us":""}
+{"title":"mgmt.","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"MGO","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"MGUS","uk":"uk  / emˌdʒiː.juːˈes /","ukp":"/emˌdʒiː.juːˈes/","us":"us  / ˈem.dʒiːˌjuːˈes /","usp":"/ˈem.dʒiːˌjuːˈes/"}
+{"title":"MHz","uk":"","us":""}
+{"title":"MI5","uk":"uk  / ˌem.aɪˈfaɪv /","ukp":"/ˌem.aɪˈfaɪv/","us":"us  / ˌem.aɪˈfaɪv /","usp":"/ˌem.aɪˈfaɪv/"}
+{"title":"mi","uk":"uk  / miː /","ukp":"/miː/","us":"us ","usp":""}
+{"title":"MI6","uk":"uk  / ˌem.aɪˈsɪks /","ukp":"/ˌem.aɪˈsɪks/","us":"us  / ˌem.aɪˈsɪks /","usp":"/ˌem.aɪˈsɪks/"}
+{"title":"MIA","uk":"uk  / ˌem.aɪˈeɪ /","ukp":"/ˌem.aɪˈeɪ/","us":"us  / ˌem.aɪˈeɪ /","usp":"/ˌem.aɪˈeɪ/"}
+{"title":"Miami","uk":"uk  / maɪˈæm.i /","ukp":"/maɪˈæm.i/","us":"us  / maɪˈæm.i /","usp":"/maɪˈæm.i/"}
+{"title":"miaow miaow","uk":"uk  / miˈaʊ miˌaʊ /","ukp":"/miˈaʊ miˌaʊ/","us":"us  / miˈaʊ miˌaʊ /","usp":"/miˈaʊ miˌaʊ/"}
+{"title":"miaow","uk":"uk  / ˌmiˈaʊ /","ukp":"/ˌmiˈaʊ/","us":"us  / ˌmiˈaʊ /","usp":"/ˌmiˈaʊ/"}
+{"title":"miaowed","uk":"uk  / ˌmiˈaʊ /","ukp":"/ˌmiˈaʊ/","us":"us  / ˌmiˈaʊ /","usp":"/ˌmiˈaʊ/"}
+{"title":"miaowing","uk":"uk  / ˌmiˈaʊ /","ukp":"/ˌmiˈaʊ/","us":"us  / ˌmiˈaʊ /","usp":"/ˌmiˈaʊ/"}
+{"title":"miasma","uk":"uk  / miˈæz.mə /","ukp":"/miˈæz.mə/","us":"us  / miˈæz.mə /","usp":"/miˈæz.mə/"}
+{"title":"mic","uk":"uk  / maɪk /","ukp":"/maɪk/","us":"us  / maɪk /","usp":"/maɪk/"}
+{"title":"mica","uk":"uk  / ˈmaɪ.kə /","ukp":"/ˈmaɪ.kə/","us":"us  / ˈmaɪ.kə /","usp":"/ˈmaɪ.kə/"}
+{"title":"mic drop","uk":"uk  / ˈmaɪk ˌdrɒp /","ukp":"/ˈmaɪk ˌdrɒp/","us":"us  / ˈmaɪk ˌdrɑːp /","usp":"/ˈmaɪk ˌdrɑːp/"}
+{"title":"micellar","uk":"uk  / ˈmɪ.sel.ə r /","ukp":"/ˈmɪ.sel.ər/","us":"us / maɪˈsel.ɚ /","usp":"/maɪˈsel.ɚ /"}
+{"title":"mice","uk":"uk  / maɪs /","ukp":"/maɪs/","us":"us  / maɪs /","usp":"/maɪs/"}
+{"title":"middle-income","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"middle-aged","uk":"uk  / ˌmɪd. ə lˈeɪdʒd /","ukp":"/ˌmɪd.əlˈeɪdʒd/","us":"us  / ˌmɪd. ə lˈeɪdʒd /","usp":"/ˌmɪd.əlˈeɪdʒd/"}
+{"title":"middle-market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"middle-of-the-road","uk":"uk  / ˌmɪd. ə l.əv.ðəˈrəʊd /","ukp":"/ˌmɪd.əl.əv.ðəˈrəʊd/","us":"us  / ˌmɪd. ə l.əv.ðəˈroʊd /","usp":"/ˌmɪd.əl.əv.ðəˈroʊd/"}
+{"title":"middle-ranking","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"middlebrow","uk":"uk  / ˈmɪd. ə l.braʊ /","ukp":"/ˈmɪd.əl.braʊ/","us":"us  / ˈmɪd. ə l.braʊ /","usp":"/ˈmɪd.əl.braʊ/"}
+{"title":"middleman","uk":"uk  / ˈmɪd. ə l.mæn /","ukp":"/ˈmɪd.əl.mæn/","us":"us  / ˈmɪd. ə l.mæn /","usp":"/ˈmɪd.əl.mæn/"}
+{"title":"middlescence","uk":"uk  / ˌmɪd.əˈles. ə ns /","ukp":"/ˌmɪd.əˈles.əns/","us":"us  / ˌmɪd.əˈles. ə ns /","usp":"/ˌmɪd.əˈles.əns/"}
+{"title":"Middlesex","uk":"uk  / ˈmɪd. ə l.seks /","ukp":"/ˈmɪd.əl.seks/","us":"us  / ˈmɪd. ə l.seks /","usp":"/ˈmɪd.əl.seks/"}
+{"title":"middleweight","uk":"uk  / ˈmɪd. ə l.weɪt /","ukp":"/ˈmɪd.əl.weɪt/","us":"us  / ˈmɪd. ə l.weɪt /","usp":"/ˈmɪd.əl.weɪt/"}
+{"title":"middy","uk":"uk  / ˈmɪd.i /","ukp":"/ˈmɪd.i/","us":"us  / ˈmɪd.i /","usp":"/ˈmɪd.i/"}
+{"title":"middling","uk":"uk  / ˈmɪd. ə l.ɪŋ /","ukp":"/ˈmɪd.əl.ɪŋ/","us":"us  / ˈmɪd. ə l.ɪŋ /","usp":"/ˈmɪd.əl.ɪŋ/"}
+{"title":"midfield","uk":"uk  / ˈmɪd.fiːld /","ukp":"/ˈmɪd.fiːld/","us":"us  / ˈmɪd.fiːld /","usp":"/ˈmɪd.fiːld/"}
+{"title":"midfield anchor","uk":"uk  / ˌmɪd.fiːld ˈæŋ.kə r /","ukp":"/ˌmɪd.fiːld ˈæŋ.kər/","us":"us  / ˌmɪd.fiːld ˈæŋ.kɚ /","usp":"/ˌmɪd.fiːld ˈæŋ.kɚ/"}
+{"title":"midfield diamond","uk":"uk  / ˌmɪd.fiːld ˈdaɪə.mənd /","ukp":"/ˌmɪd.fiːld ˈdaɪə.mənd/","us":"us  / ˌmɪd.fiːld ˈdaɪə.mənd /","usp":"/ˌmɪd.fiːld ˈdaɪə.mənd/"}
+{"title":"midge","uk":"uk  / mɪdʒ /","ukp":"/mɪdʒ/","us":"us  / mɪdʒ /","usp":"/mɪdʒ/"}
+{"title":"midfielder","uk":"uk  / ˌmɪdˈfiːl.də r /","ukp":"/ˌmɪdˈfiːl.dər/","us":"us  / ˌmɪdˈfiːl.dɚ /","usp":"/ˌmɪdˈfiːl.dɚ/"}
+{"title":"midget","uk":"uk  / ˈmɪdʒ.ɪt /","ukp":"/ˈmɪdʒ.ɪt/","us":"us  / ˈmɪdʒ.ɪt /","usp":"/ˈmɪdʒ.ɪt/"}
+{"title":"midi","uk":"uk  / ˈmɪd.i /","ukp":"/ˈmɪd.i/","us":"us  / ˈmɪd.i /","usp":"/ˈmɪd.i/"}
+{"title":"midi system","uk":"uk  / ˈmɪd.i ˌsɪs.təm /","ukp":"/ˈmɪd.i ˌsɪs.təm/","us":"us  / ˈmɪd.i ˌsɪs.təm /","usp":"/ˈmɪd.i ˌsɪs.təm/"}
+{"title":"Midland","uk":"uk  / ˈmɪd.lənd /","ukp":"/ˈmɪd.lənd/","us":"us  / ˈmɪd.lənd /","usp":"/ˈmɪd.lənd/"}
+{"title":"midlife","uk":"uk  / ˈmɪd.laɪf /","ukp":"/ˈmɪd.laɪf/","us":"us  / ˈmɪd.laɪf /","usp":"/ˈmɪd.laɪf/"}
+{"title":"midlife crises","uk":"","us":""}
+{"title":"midlifer","uk":"uk  / ˌmɪdˈlaɪ.fə r /","ukp":"/ˌmɪdˈlaɪ.fər/","us":"us  / ˈmɪdˌlaɪ.fɚ /","usp":"/ˈmɪdˌlaɪ.fɚ/"}
+{"title":"midlife crisis","uk":"uk  / ˌmɪd.laɪf ˈkraɪ.sɪs /","ukp":"/ˌmɪd.laɪf ˈkraɪ.sɪs/","us":"us  / ˌmɪd.laɪf ˈkraɪ.sɪs /","usp":"/ˌmɪd.laɪf ˈkraɪ.sɪs/"}
+{"title":"midline","uk":"uk  / ˈmɪd.laɪn /","ukp":"/ˈmɪd.laɪn/","us":"us  / ˈmɪd.laɪn /","usp":"/ˈmɪd.laɪn/"}
+{"title":"Midlothian","uk":"uk  / ˌmɪdˈləʊ.ði.ən /","ukp":"/ˌmɪdˈləʊ.ði.ən/","us":"us  / ˌmɪdˈloʊ.ði.ən /","usp":"/ˌmɪdˈloʊ.ði.ən/"}
+{"title":"midnight feast","uk":"uk  / ˌmɪd.naɪt ˈfiːst /","ukp":"/ˌmɪd.naɪt ˈfiːst/","us":"us  / ˌmɪd.naɪt ˈfiːst /","usp":"/ˌmɪd.naɪt ˈfiːst/"}
+{"title":"midnight","uk":"uk  / ˈmɪd.naɪt /","ukp":"/ˈmɪd.naɪt/","us":"us  / ˈmɪd.naɪt /","usp":"/ˈmɪd.naɪt/"}
+{"title":"midpoint","uk":"uk  / ˈmɪd.pɔɪnt /","ukp":"/ˈmɪd.pɔɪnt/","us":"us  / ˈmɪd.pɔɪnt /","usp":"/ˈmɪd.pɔɪnt/"}
+{"title":"midriff","uk":"uk  / ˈmɪd.rɪf /","ukp":"/ˈmɪd.rɪf/","us":"us  / ˈmɪd.rɪf /","usp":"/ˈmɪd.rɪf/"}
+{"title":"midshipman","uk":"uk  / ˈmɪdˌʃɪp.mən /","ukp":"/ˈmɪdˌʃɪp.mən/","us":"us  / ˈmɪdˌʃɪp.mən /","usp":"/ˈmɪdˌʃɪp.mən/"}
+{"title":"midsize","uk":"uk  / ˈmɪd.saɪz /","ukp":"/ˈmɪd.saɪz/","us":"us  / ˈmɪd.saɪz /","usp":"/ˈmɪd.saɪz/"}
+{"title":"midst","uk":"uk  / mɪdst /","ukp":"/mɪdst/","us":"us  / mɪdst /","usp":"/mɪdst/"}
+{"title":"midstream","uk":"uk  / ˌmɪdˈstriːm /","ukp":"/ˌmɪdˈstriːm/","us":"us ","usp":""}
+{"title":"midsummer","uk":"uk  / ˌmɪdˈsʌm.ə r /","ukp":"/ˌmɪdˈsʌm.ər/","us":"us  / ˌmɪdˈsʌm.ɚ /","usp":"/ˌmɪdˈsʌm.ɚ/"}
+{"title":"Midsummer's Day","uk":"uk  / ˌmɪd.sʌm.əz ˈdeɪ /","ukp":"/ˌmɪd.sʌm.əz ˈdeɪ/","us":"us  / ˌmɪd.sʌm.ɚz ˈdeɪ /","usp":"/ˌmɪd.sʌm.ɚz ˈdeɪ/"}
+{"title":"midterm","uk":"uk  / ˈmɪd.tɜːm /","ukp":"/ˈmɪd.tɜːm/","us":"us  / ˈmɪd.tɝːm /","usp":"/ˈmɪd.tɝːm/"}
+{"title":"midtown","uk":"uk  / ˈmɪdˌtaʊn /","ukp":"/ˈmɪdˌtaʊn/","us":"us  / ˈmɪdˌtaʊn /","usp":"/ˈmɪdˌtaʊn/"}
+{"title":"midway","uk":"uk  / ˌmɪdˈweɪ /","ukp":"/ˌmɪdˈweɪ/","us":"us  / ˌmɪdˈweɪ /","usp":"/ˌmɪdˈweɪ/"}
+{"title":"Midwestern","uk":"uk  / ˌmɪdˈwes.tən /","ukp":"/ˌmɪdˈwes.tən/","us":"us  / ˌmɪdˈwes.tɚn /","usp":"/ˌmɪdˈwes.tɚn/"}
+{"title":"midweek","uk":"uk  / ˌmɪdˈwiːk /","ukp":"/ˌmɪdˈwiːk/","us":"us  / ˌmɪdˈwiːk /","usp":"/ˌmɪdˈwiːk/"}
+{"title":"midwife","uk":"uk  / ˈmɪd.waɪf /","ukp":"/ˈmɪd.waɪf/","us":"us  / ˈmɪd.waɪf /","usp":"/ˈmɪd.waɪf/"}
+{"title":"midwifery","uk":"uk  / ˌmɪdˈwɪf. ə r.i /","ukp":"/ˌmɪdˈwɪf.ər.i/","us":"us  / ˌmɪdˈwɪf.ɚ.i /","usp":"/ˌmɪdˈwɪf.ɚ.i/"}
+{"title":"midwives","uk":"","us":""}
+{"title":"midwinter","uk":"uk  / ˌmɪdˈwɪn.tə r /","ukp":"/ˌmɪdˈwɪn.tər/","us":"us  / ˌmɪdˈwɪn.t̬ɚ /","usp":"/ˌmɪdˈwɪn.t̬ɚ/"}
+{"title":"mielie","uk":"uk  / ˈmiː.li /","ukp":"/ˈmiː.li/","us":"us  / ˈmiː.li /","usp":"/ˈmiː.li/"}
+{"title":"mielie meal","uk":"uk  / ˈmiː.li ˌmɪəl /","ukp":"/ˈmiː.li ˌmɪəl/","us":"us  / ˈmiː.li ˌmɪəl /","usp":"/ˈmiː.li ˌmɪəl/"}
+{"title":"miffed","uk":"uk  / mɪft /","ukp":"/mɪft/","us":"us  / mɪft /","usp":"/mɪft/"}
+{"title":"mien","uk":"uk  / miːn /","ukp":"/miːn/","us":"us  / miːn /","usp":"/miːn/"}
+{"title":"might I ask/inquire/know","uk":"","us":""}
+{"title":"might just as well","uk":"","us":""}
+{"title":"might've","uk":"uk  / ˈmaɪ.təv /","ukp":"/ˈmaɪ.təv/","us":"us  / ˈmaɪ.t̬əv /","usp":"/ˈmaɪ.t̬əv/"}
+{"title":"might","uk":"uk  / maɪt /","ukp":"/maɪt/","us":"us  / maɪt /","usp":"/maɪt/"}
+{"title":"might-have-been","uk":"uk  / ˈmaɪt.əvˌbiːn /","ukp":"/ˈmaɪt.əvˌbiːn/","us":"us  / ˈmaɪt.əvˌbiːn /","usp":"/ˈmaɪt.əvˌbiːn/"}
+{"title":"mightn't","uk":"uk  / ˈmaɪ.t ə nt /","ukp":"/ˈmaɪ.tənt/","us":"us  / ˈmaɪ.t ə nt /","usp":"/ˈmaɪ.tənt/"}
+{"title":"mightily","uk":"uk  / ˈmaɪ.t ə l.i /","ukp":"/ˈmaɪ.təl.i/","us":"us  / ˈmaɪ.t̬ ə l.i /","usp":"/ˈmaɪ.t̬əl.i/"}
+{"title":"mighty","uk":"uk  / ˈmaɪ.ti /","ukp":"/ˈmaɪ.ti/","us":"us  / ˈmaɪ.t̬i /","usp":"/ˈmaɪ.t̬i/"}
+{"title":"mignon","uk":"uk / ˈmiː.njɒn /","ukp":"/ˈmiː.njɒn/","us":"us / mɪnˈjɑːn /","usp":"/mɪnˈjɑːn/"}
+{"title":"migraine","uk":"uk  / ˈmiː.ɡreɪn /","ukp":"/ˈmiː.ɡreɪn/","us":"us  / ˈmaɪ.ɡreɪn /","usp":"/ˈmaɪ.ɡreɪn/"}
+{"title":"migrant","uk":"uk  / ˈmaɪ.ɡrənt /","ukp":"/ˈmaɪ.ɡrənt/","us":"us  / ˈmaɪ.ɡrənt /","usp":"/ˈmaɪ.ɡrənt/"}
+{"title":"migrate","uk":"uk  / maɪˈɡreɪt /","ukp":"/maɪˈɡreɪt/","us":"us  / ˈmaɪ.ɡreɪt /","usp":"/ˈmaɪ.ɡreɪt/"}
+{"title":"migrated","uk":"uk  / maɪˈɡreɪt /","ukp":"/maɪˈɡreɪt/","us":"us  / ˈmaɪ.ɡreɪt /","usp":"/ˈmaɪ.ɡreɪt/"}
+{"title":"migrating","uk":"uk  / maɪˈɡreɪt /","ukp":"/maɪˈɡreɪt/","us":"us  / ˈmaɪ.ɡreɪt /","usp":"/ˈmaɪ.ɡreɪt/"}
+{"title":"migration","uk":"uk  / maɪˈɡreɪ.ʃ ə n /","ukp":"/maɪˈɡreɪ.ʃən/","us":"us  / maɪˈɡreɪ.ʃ ə n /","usp":"/maɪˈɡreɪ.ʃən/"}
+{"title":"migratory","uk":"uk  / maɪˈɡreɪ.t ə r.i /","ukp":"/maɪˈɡreɪ.tər.i/","us":"us  / ˈmaɪ.ɡrə.tɔːr.i /","usp":"/ˈmaɪ.ɡrə.tɔːr.i/"}
+{"title":"mike","uk":"uk  / maɪk /","ukp":"/maɪk/","us":"us  / maɪk /","usp":"/maɪk/"}
+{"title":"mike check","uk":"uk  / ˈmaɪk ˌtʃek /","ukp":"/ˈmaɪk ˌtʃek/","us":"us  / ˈmaɪk ˌtʃek /","usp":"/ˈmaɪk ˌtʃek/"}
+{"title":"mike someone up","uk":"uk  / maɪk /","ukp":"/maɪk/","us":"us  / maɪk /","usp":"/maɪk/"}
+{"title":".mil","uk":"uk  / ˌdɒtˈmɪl /","ukp":"/ˌdɒtˈmɪl/","us":"us  / ˌdɑːtˈmɪl /","usp":"/ˌdɑːtˈmɪl/"}
+{"title":"mild cognitive impairment","uk":"uk  / ˌmaɪld ˌkɒɡ.nɪ.tɪv ɪmˈpeə.mənt /","ukp":"/ˌmaɪld ˌkɒɡ.nɪ.tɪv ɪmˈpeə.mənt/","us":"us  / ˌmaɪld ˌkɑːɡ.nɪ.t̬ɪv ɪmˈper.mənt /","usp":"/ˌmaɪld ˌkɑːɡ.nɪ.t̬ɪv ɪmˈper.mənt/"}
+{"title":"mild","uk":"uk  / maɪld /","ukp":"/maɪld/","us":"us  / maɪld /","usp":"/maɪld/"}
+{"title":"mild-mannered","uk":"uk  / ˌmaɪldˈmæn.əd /","ukp":"/ˌmaɪldˈmæn.əd/","us":"us  / ˌmaɪldˈmæn.ɚd /","usp":"/ˌmaɪldˈmæn.ɚd/"}
+{"title":"mildew","uk":"uk  / ˈmɪl.dʒuː /","ukp":"/ˈmɪl.dʒuː/","us":"us  / ˈmɪl.duː /","usp":"/ˈmɪl.duː/"}
+{"title":"mildewed","uk":"uk  / ˈmɪl.dʒuːd /","ukp":"/ˈmɪl.dʒuːd/","us":"us  / ˈmɪl.duːd /","usp":"/ˈmɪl.duːd/"}
+{"title":"mildness","uk":"uk  / ˈmaɪld.nəs /","ukp":"/ˈmaɪld.nəs/","us":"us  / ˈmaɪld.nəs /","usp":"/ˈmaɪld.nəs/"}
+{"title":"mildly","uk":"uk  / ˈmaɪld.li /","ukp":"/ˈmaɪld.li/","us":"us  / ˈmaɪld.li /","usp":"/ˈmaɪld.li/"}
+{"title":"mile","uk":"uk  / maɪl /","ukp":"/maɪl/","us":"us  / maɪl /","usp":"/maɪl/"}
+{"title":"milepost","uk":"uk  / ˈmaɪlpəʊst /","ukp":"/ˈmaɪlpəʊst/","us":"us ","usp":""}
+{"title":"miles from anywhere/nowhere","uk":"","us":""}
+{"title":"miles","uk":"","us":""}
+{"title":"mileage","uk":"uk  / ˈmaɪ.lɪdʒ /","ukp":"/ˈmaɪ.lɪdʒ/","us":"us  / ˈmaɪ.lɪdʒ /","usp":"/ˈmaɪ.lɪdʒ/"}
+{"title":"miles too big, small, expensive, etc.","uk":"","us":""}
+{"title":"milestone payment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"milestone birthday","uk":"uk  / ˌmaɪl.stəʊn ˈbɜːθ.deɪ /","ukp":"/ˌmaɪl.stəʊn ˈbɜːθ.deɪ/","us":"us  / ˌmaɪl.stoʊn ˈbɝːθ.deɪ /","usp":"/ˌmaɪl.stoʊn ˈbɝːθ.deɪ/"}
+{"title":"milestone","uk":"uk  / ˈmaɪl.stəʊn /","ukp":"/ˈmaɪl.stəʊn/","us":"us  / ˈmaɪl.stoʊn /","usp":"/ˈmaɪl.stoʊn/"}
+{"title":"MILF","uk":"uk  / mɪlf /","ukp":"/mɪlf/","us":"us  / mɪlf /","usp":"/mɪlf/"}
+{"title":"milieu","uk":"uk  / miːlˈjɜː /","ukp":"/miːlˈjɜː/","us":"us  / miːlˈjɜː /","usp":"/miːlˈjɜː/"}
+{"title":"milieux","uk":"","us":""}
+{"title":"militancy","uk":"uk  / ˈmɪl.t ə n.si /","ukp":"/ˈmɪl.tən.si/","us":"us  / ˈmɪl.ə.t ə n.si /","usp":"/ˈmɪl.ə.tən.si/"}
+{"title":"militantly","uk":"uk  / ˈmɪl.ɪ.t ə nt.li /","ukp":"/ˈmɪl.ɪ.tənt.li/","us":"us  / ˈmɪl.ə.t ə nt.li /","usp":"/ˈmɪl.ə.tənt.li/"}
+{"title":"militant","uk":"uk  / ˈmɪl.ɪ.t ə nt /","ukp":"/ˈmɪl.ɪ.tənt/","us":"us  / ˈmɪl.ə.t ə nt /","usp":"/ˈmɪl.ə.tənt/"}
+{"title":"militarily","uk":"uk  / ˌmɪl.ɪˈter. ə l.i /","ukp":"/ˌmɪl.ɪˈter.əl.i/","us":"us  / ˌmɪl.əˈter. ə l.i /","usp":"/ˌmɪl.əˈter.əl.i/"}
+{"title":"militarism","uk":"uk  / ˈmɪl.ɪ.t ə r.ɪ.z ə m /","ukp":"/ˈmɪl.ɪ.tər.ɪ.zəm/","us":"us  / ˈmɪl.ə.tɚ.ɪ.z ə m /","usp":"/ˈmɪl.ə.tɚ.ɪ.zəm/"}
+{"title":"militarist","uk":"uk  / ˈmɪl.ɪ.t ə r.ɪst /","ukp":"/ˈmɪl.ɪ.tər.ɪst/","us":"us  / ˈmɪl.ə.tə.rɪst /","usp":"/ˈmɪl.ə.tə.rɪst/"}
+{"title":"militaristic","uk":"uk  / ˌmɪl.ɪ.t ə rˈɪs.tɪk /","ukp":"/ˌmɪl.ɪ.tərˈɪs.tɪk/","us":"us  / ˌmɪl.ə.təˈrɪs.tɪk /","usp":"/ˌmɪl.ə.təˈrɪs.tɪk/"}
+{"title":"militarization","uk":"uk  / ˌmɪl.ɪ.t ə r.aɪˈzeɪ.ʃ ə n /","ukp":"/ˌmɪl.ɪ.tər.aɪˈzeɪ.ʃən/","us":"us  / ˌmɪl.ə.tɚ.əˈzeɪ.ʃ ə n /","usp":"/ˌmɪl.ə.tɚ.əˈzeɪ.ʃən/"}
+{"title":"militarized","uk":"uk  / ˈmɪl.ɪ.t ə r.aɪzd /","ukp":"/ˈmɪl.ɪ.tər.aɪzd/","us":"us  / ˈmɪl.ə.tə.raɪzd /","usp":"/ˈmɪl.ə.tə.raɪzd/"}
+{"title":"military","uk":"uk  / ˈmɪl.ɪ.t ə r.i /","ukp":"/ˈmɪl.ɪ.tər.i/","us":"us  / ˈmɪl.ə.ter.i /","usp":"/ˈmɪl.ə.ter.i/"}
+{"title":"military academy","uk":"uk  / ˌmɪl.ɪ.t ə r.i əˈkæd.ə.mi /","ukp":"/ˌmɪl.ɪ.tər.i əˈkæd.ə.mi/","us":"us  / ˌmɪl.ɪ.ter.i əˈkæd.ə.mi /","usp":"/ˌmɪl.ɪ.ter.i əˈkæd.ə.mi/"}
+{"title":"military band","uk":"uk  / ˌmɪl.ɪ.t ə r.i ˈbænd /","ukp":"/ˌmɪl.ɪ.tər.i ˈbænd/","us":"us  / ˌmɪl.ɪ.ter.i ˈbænd /","usp":"/ˌmɪl.ɪ.ter.i ˈbænd/"}
+{"title":"military honors","uk":"uk  / ˌmɪl.ɪ.t ə r.i ˈɒn.əz /","ukp":"/ˌmɪl.ɪ.tər.i ˈɒn.əz/","us":"us  / ˌmɪl.ɪ.ter.i ˈɑː.nɚz /","usp":"/ˌmɪl.ɪ.ter.i ˈɑː.nɚz/"}
+{"title":"military honours","uk":"uk  / ˌmɪl.ɪ.t ə r.i ˈɒn.əz /","ukp":"/ˌmɪl.ɪ.tər.i ˈɒn.əz/","us":"us  / ˌmɪl.ɪ.ter.i ˈɑː.nɚz /","usp":"/ˌmɪl.ɪ.ter.i ˈɑː.nɚz/"}
+{"title":"military policeman","uk":"uk  / ˌmɪl.ɪ.t ə r.i pəˈliːs.mən /","ukp":"/ˌmɪl.ɪ.tər.i pəˈliːs.mən/","us":"us  / ˌmɪl.ɪ.ter.i pəˈliːs.mən /","usp":"/ˌmɪl.ɪ.ter.i pəˈliːs.mən/"}
+{"title":"military service","uk":"uk  / ˌmɪl.ɪ.t ə r.i ˈsɜː.vɪs /","ukp":"/ˌmɪl.ɪ.tər.i ˈsɜː.vɪs/","us":"us  / ˌmɪl.ɪ.ter.i ˈsɝː.vɪs /","usp":"/ˌmɪl.ɪ.ter.i ˈsɝː.vɪs/"}
+{"title":"military time","uk":"uk  / ˈmɪl.ɪ.t ə r.i ˌtaɪm /","ukp":"/ˈmɪl.ɪ.tər.i ˌtaɪm/","us":"us  / ˈmɪl.ə.ter.i ˌtaɪm /","usp":"/ˈmɪl.ə.ter.i ˌtaɪm/"}
+{"title":"militate against something","uk":"uk  / ˈmil.ɪ.teɪt /","ukp":"/ˈmil.ɪ.teɪt/","us":"us  / ˈmil.ə.teɪt /","usp":"/ˈmil.ə.teɪt/"}
+{"title":"militia","uk":"uk  / mɪˈlɪʃ.ə /","ukp":"/mɪˈlɪʃ.ə/","us":"us  / məˈlɪʃ.ə /","usp":"/məˈlɪʃ.ə/"}
+{"title":"militiaman","uk":"uk  / mɪˈlɪʃ.ə.mən /","ukp":"/mɪˈlɪʃ.ə.mən/","us":"us  / məˈlɪʃ.ə.mən /","usp":"/məˈlɪʃ.ə.mən/"}
+{"title":"milk bar","uk":"uk  / ˈmɪlk ˌbɑː r /","ukp":"/ˈmɪlk ˌbɑːr/","us":"us  / ˈmɪlk ˌbɑːr /","usp":"/ˈmɪlk ˌbɑːr/"}
+{"title":"milk","uk":"uk  / mɪlk /","ukp":"/mɪlk/","us":"us  / mɪlk /","usp":"/mɪlk/"}
+{"title":"milk bread","uk":"uk / ˈmɪlk ˌbred /","ukp":"/ˈmɪlk ˌbred/","us":"us / ˈmɪlk ˌbred /","usp":"/ˈmɪlk ˌbred/"}
+{"title":"milk can","uk":"uk / ˈmɪlk ˌkæn /","ukp":"/ˈmɪlk ˌkæn/","us":"us / ˈmɪlk ˌkæn /","usp":"/ˈmɪlk ˌkæn/"}
+{"title":"milk chocolate","uk":"uk  / ˌmɪlk ˈtʃɒk.lət /","ukp":"/ˌmɪlk ˈtʃɒk.lət/","us":"us  / ˌmɪlk ˈtʃɑːk.lət /","usp":"/ˌmɪlk ˈtʃɑːk.lət/"}
+{"title":"milk fat","uk":"uk / ˈmɪlk ˌfæt /","ukp":"/ˈmɪlk ˌfæt/","us":"us / ˈmɪlk ˌfæt /","usp":"/ˈmɪlk ˌfæt/"}
+{"title":"milk float","uk":"uk  / ˈmɪlk ˌfləʊt /","ukp":"/ˈmɪlk ˌfləʊt/","us":"us  / ˈmɪlk ˌfloʊt /","usp":"/ˈmɪlk ˌfloʊt/"}
+{"title":"Milk of Magnesia","uk":"uk  / ˌmɪlk əv mæɡˈniː.ʒə /","ukp":"/ˌmɪlk əv mæɡˈniː.ʒə/","us":"us  / ˌmɪlk əv mæɡˈniː.ʒə /","usp":"/ˌmɪlk əv mæɡˈniː.ʒə/"}
+{"title":"milk run","uk":"uk  / ˈmɪlk ˌrʌn /","ukp":"/ˈmɪlk ˌrʌn/","us":"us  / ˈmɪlk ˌrʌn /","usp":"/ˈmɪlk ˌrʌn/"}
+{"title":"milk round","uk":"uk  / ˈmɪlk ˌraʊnd /","ukp":"/ˈmɪlk ˌraʊnd/","us":"us  / ˈmɪlk ˌraʊnd /","usp":"/ˈmɪlk ˌraʊnd/"}
+{"title":"milk tooth","uk":"uk  / ˈmɪlk ˌtuːθ /","ukp":"/ˈmɪlk ˌtuːθ/","us":"us  / ˈmɪlk ˌtuːθ /","usp":"/ˈmɪlk ˌtuːθ/"}
+{"title":"milk truck","uk":"uk  / ˈmɪlk ˌtrʌk /","ukp":"/ˈmɪlk ˌtrʌk/","us":"us  / ˈmɪlk ˌtrʌk /","usp":"/ˈmɪlk ˌtrʌk/"}
+{"title":"milk vetch","uk":"uk / ˈmɪlk ˌvetʃ /","ukp":"/ˈmɪlk ˌvetʃ/","us":"us / ˈmɪlk ˌvetʃ /","usp":"/ˈmɪlk ˌvetʃ/"}
+{"title":"milked","uk":"uk  / mɪlk /","ukp":"/mɪlk/","us":"us  / mɪlk /","usp":"/mɪlk/"}
+{"title":"milking","uk":"uk  / mɪlk /","ukp":"/mɪlk/","us":"us  / mɪlk /","usp":"/mɪlk/"}
+{"title":"milking machine","uk":"uk  / ˈmɪl.kɪŋ məˌʃiːn /","ukp":"/ˈmɪl.kɪŋ məˌʃiːn/","us":"us  / ˈmɪl.kɪŋ məˌʃiːn /","usp":"/ˈmɪl.kɪŋ məˌʃiːn/"}
+{"title":"milkman","uk":"uk  / ˈmɪlk.mən /","ukp":"/ˈmɪlk.mən/","us":"us  / ˈmɪlk.mən /","usp":"/ˈmɪlk.mən/"}
+{"title":"milkshake","uk":"uk  / ˈmɪlk.ʃeɪk /","ukp":"/ˈmɪlk.ʃeɪk/","us":"us  / ˈmɪlk.ʃeɪk /","usp":"/ˈmɪlk.ʃeɪk/"}
+{"title":"milky","uk":"uk  / ˈmɪl.ki /","ukp":"/ˈmɪl.ki/","us":"us  / ˈmɪl.ki /","usp":"/ˈmɪl.ki/"}
+{"title":"mill around","uk":"uk  / mɪl /","ukp":"/mɪl/","us":"us  / mɪl /","usp":"/mɪl/"}
+{"title":"mill","uk":"uk  / mɪl /","ukp":"/mɪl/","us":"us  / mɪl /","usp":"/mɪl/"}
+{"title":"mill around/about","uk":"","us":""}
+{"title":"milled","uk":"uk  / mɪl /","ukp":"/mɪl/","us":"us  / mɪl /","usp":"/mɪl/"}
+{"title":"millefeuille","uk":"uk / ˌmiːlˈfɜː.jə /","ukp":"/ˌmiːlˈfɜː.jə/","us":"us / mɪlˈfwiː /","usp":"/mɪlˈfwiː/"}
+{"title":"millennia","uk":"","us":""}
+{"title":"Millennium Development Goals","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"millennium","uk":"uk  / mɪˈlen.i.əm /","ukp":"/mɪˈlen.i.əm/","us":"us  / mɪˈlen.i.əm /","usp":"/mɪˈlen.i.əm/"}
+{"title":"mincer","uk":"uk  / ˈmɪn.sə r /","ukp":"/ˈmɪn.sər/","us":"us  / ˈmɪn.sɚ /","usp":"/ˈmɪn.sɚ/"}
+{"title":"millennial","uk":"uk  / mɪˈlen.i.əl /","ukp":"/mɪˈlen.i.əl/","us":"us  / mɪˈlen.i.əl /","usp":"/mɪˈlen.i.əl/"}
+{"title":"mincemeat","uk":"uk  / ˈmɪns.miːt /","ukp":"/ˈmɪns.miːt/","us":"us  / ˈmɪns.miːt /","usp":"/ˈmɪns.miːt/"}
+{"title":"minced","uk":"uk  / mɪnst /","ukp":"/mɪnst/","us":"us  / mɪnst /","usp":"/mɪnst/"}
+{"title":"mind (you)","uk":"","us":""}
+{"title":"mind","uk":"uk  / maɪnd /","ukp":"/maɪnd/","us":"us  / maɪnd /","usp":"/maɪnd/"}
+{"title":"Mind Map","uk":"uk  / ˈmaɪnd ˌmæp /","ukp":"/ˈmaɪnd ˌmæp/","us":"us  / ˈmaɪnd ˌmæp /","usp":"/ˈmaɪnd ˌmæp/"}
+{"title":"mind over matter","uk":"","us":""}
+{"title":"mincing","uk":"uk  / ˈmɪn.sɪŋ /","ukp":"/ˈmɪn.sɪŋ/","us":"us  / ˈmɪn.sɪŋ /","usp":"/ˈmɪn.sɪŋ/"}
+{"title":"mind reader","uk":"uk  / ˈmaɪnd ˌriː.də r /","ukp":"/ˈmaɪnd ˌriː.dər/","us":"us  / ˈmaɪnd ˌriː.dɚ /","usp":"/ˈmaɪnd ˌriː.dɚ/"}
+{"title":"mind share","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mind the store","uk":"","us":""}
+{"title":"mind your p's and q's","uk":"","us":""}
+{"title":"mind your own business","uk":"","us":""}
+{"title":"mind-altering","uk":"uk  / ˈmaɪndˌɒl.tə.rɪŋ /","ukp":"/ˈmaɪndˌɒl.tə.rɪŋ/","us":"us  / ˈmaɪndˌɑːl.t̬ɚ.rɪŋ /","usp":"/ˈmaɪndˌɑːl.t̬ɚ.rɪŋ/"}
+{"title":"mind-blowing","uk":"uk  / ˈmaɪndˌbləʊ.ɪŋ /","ukp":"/ˈmaɪndˌbləʊ.ɪŋ/","us":"us  / ˈmaɪndˌbloʊ.ɪŋ /","usp":"/ˈmaɪndˌbloʊ.ɪŋ/"}
+{"title":"mind-body","uk":"uk  / ˌmaɪndˈbɒd.i /","ukp":"/ˌmaɪndˈbɒd.i/","us":"us  / ˌmaɪndˈbɑː.di /","usp":"/ˌmaɪndˈbɑː.di/"}
+{"title":"mind-boggling","uk":"uk  / ˈmaɪndˌbɒɡ. ə l.ɪŋ /","ukp":"/ˈmaɪndˌbɒɡ.əl.ɪŋ/","us":"us  / ˈmaɪndˌbɑː.ɡ ə l.ɪŋ /","usp":"/ˈmaɪndˌbɑː.ɡəl.ɪŋ/"}
+{"title":"mind-numbing","uk":"uk  / ˈmaɪndˌnʌm.ɪŋ /","ukp":"/ˈmaɪndˌnʌm.ɪŋ/","us":"us  / ˈmaɪndˌnʌm.ɪŋ /","usp":"/ˈmaɪndˌnʌm.ɪŋ/"}
+{"title":"mind-numbingly","uk":"uk  / ˈmaɪndˌnʌm.ɪŋ.li /","ukp":"/ˈmaɪndˌnʌm.ɪŋ.li/","us":"us  / ˈmaɪndˌnʌm.ɪŋ.li /","usp":"/ˈmaɪndˌnʌm.ɪŋ.li/"}
+{"title":"mind-set","uk":"","us":"us / ˈmɑɪndˌset /","usp":"/ˈmɑɪndˌset/"}
+{"title":"mind/watch your manners","uk":"","us":""}
+{"title":"-minded","uk":"uk  / -maɪn.dɪd /","ukp":"/ -maɪn.dɪd/","us":"us  / -maɪn.dɪd /","usp":"/ -maɪn.dɪd/"}
+{"title":"minder","uk":"uk  / ˈmaɪn.də r /","ukp":"/ˈmaɪn.dər/","us":"us  / ˈmaɪn.dɚ /","usp":"/ˈmaɪn.dɚ/"}
+{"title":"mindfulness","uk":"uk  / ˈmaɪnd.f ə l.nəs /","ukp":"/ˈmaɪnd.fəl.nəs/","us":"us  / ˈmaɪnd.f ə l.nəs /","usp":"/ˈmaɪnd.fəl.nəs/"}
+{"title":"mindful","uk":"uk  / ˈmaɪnd.f ə l /","ukp":"/ˈmaɪnd.fəl/","us":"us  / ˈmaɪnd.f ə l /","usp":"/ˈmaɪnd.fəl/"}
+{"title":"mindless","uk":"uk  / ˈmaɪnd.ləs /","ukp":"/ˈmaɪnd.ləs/","us":"us  / ˈmaɪnd.ləs /","usp":"/ˈmaɪnd.ləs/"}
+{"title":"minding","uk":"uk  / maɪnd /","ukp":"/maɪnd/","us":"us  / maɪnd /","usp":"/maɪnd/"}
+{"title":"mindlessly","uk":"uk  / ˈmaɪnd.ləs.li /","ukp":"/ˈmaɪnd.ləs.li/","us":"us  / ˈmaɪnd.ləs.li /","usp":"/ˈmaɪnd.ləs.li/"}
+{"title":"mindscape","uk":"uk  / ˈmaɪnd.skeɪp /","ukp":"/ˈmaɪnd.skeɪp/","us":"us  / ˈmaɪnd.skeɪp /","usp":"/ˈmaɪnd.skeɪp/"}
+{"title":"mindlessness","uk":"uk  / ˈmaɪnd.ləs.nəs /","ukp":"/ˈmaɪnd.ləs.nəs/","us":"us  / ˈmaɪnd.ləs.nəs /","usp":"/ˈmaɪnd.ləs.nəs/"}
+{"title":"mindset","uk":"uk  / ˈmaɪnd.set /","ukp":"/ˈmaɪnd.set/","us":"us  / ˈmaɪnd.set /","usp":"/ˈmaɪnd.set/"}
+{"title":"mine a rich seam of something","uk":"","us":""}
+{"title":"mine detector","uk":"uk  / ˈmaɪn dɪˌtek.tə r /","ukp":"/ˈmaɪn dɪˌtek.tər/","us":"us  / ˈmaɪn dɪˌtek.tɚ /","usp":"/ˈmaɪn dɪˌtek.tɚ/"}
+{"title":"mine","uk":"uk  / maɪn /","ukp":"/maɪn/","us":"us  / maɪn /","usp":"/maɪn/"}
+{"title":"mined","uk":"uk  / maɪn /","ukp":"/maɪn/","us":"us  / maɪn /","usp":"/maɪn/"}
+{"title":"minefield","uk":"uk  / ˈmaɪn.fiːld /","ukp":"/ˈmaɪn.fiːld/","us":"us  / ˈmaɪn.fiːld /","usp":"/ˈmaɪn.fiːld/"}
+{"title":"miner","uk":"uk  / ˈmaɪ.nə r /","ukp":"/ˈmaɪ.nər/","us":"us  / ˈmaɪ.nɚ /","usp":"/ˈmaɪ.nɚ/"}
+{"title":"mineral","uk":"uk  / ˈmɪn. ə r. ə l /","ukp":"/ˈmɪn.ər.əl/","us":"us  / ˈmɪn. ə r. ə l /","usp":"/ˈmɪn.ər.əl/"}
+{"title":"mineral oil","uk":"uk  / ˈmɪn. ə r. ə l ˌɔɪl /","ukp":"/ˈmɪn.ər.əl ˌɔɪl/","us":"us  / ˈmɪn. ə r. ə l ˌɔɪl /","usp":"/ˈmɪn.ər.əl ˌɔɪl/"}
+{"title":"mineral-rich","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mineral water","uk":"uk  / ˈmɪn. ə r. ə l ˌwɔː.tə r /","ukp":"/ˈmɪn.ər.əl ˌwɔː.tər/","us":"us  / ˈmɪn. ə r. ə l ˌwɑː.t̬ɚ /","usp":"/ˈmɪn.ər.əl ˌwɑː.t̬ɚ/"}
+{"title":"mineralogical","uk":"uk  / ˌmɪn.ə.rəˈlɒdʒ.ɪ.kəl /","ukp":"/ˌmɪn.ə.rəˈlɒdʒ.ɪ.kəl/","us":"us  / ˌmɪn.ə.rəˈlɑː.dʒɪ.kəl /","usp":"/ˌmɪn.ə.rəˈlɑː.dʒɪ.kəl/"}
+{"title":"mineralogy","uk":"uk  / ˌmɪn.əˈræl.ə.dʒi /","ukp":"/ˌmɪn.əˈræl.ə.dʒi/","us":"us  / ˌmɪn.əˈræl.ə.dʒi /","usp":"/ˌmɪn.əˈræl.ə.dʒi/"}
+{"title":"mineralogist","uk":"uk  / ˌmɪn. ə r.əˈlɒdʒ.ɪ.k ə l /","ukp":"/ˌmɪn.ər.əˈlɒdʒ.ɪ.kəl/","us":"us  / ˌmɪn. ə r.əˈlɑː.dʒ.ɪ.k ə l /","usp":"/ˌmɪn.ər.əˈlɑː.dʒ.ɪ.kəl/"}
+{"title":"Millennium Exchange","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Minerva","uk":"uk  / mɪˈnɜː.və /","ukp":"/mɪˈnɜː.və/","us":"us  / mɪˈnɜ˞ː.və /","usp":"/mɪˈnɜ˞ː.və/"}
+{"title":"miller","uk":"uk  / ˈmɪl.ə r /","ukp":"/ˈmɪl.ər/","us":"us  / ˈmɪl.ɚ /","usp":"/ˈmɪl.ɚ/"}
+{"title":"millepede","uk":"uk  / ˈmɪl.ɪ.piːd /","ukp":"/ˈmɪl.ɪ.piːd/","us":"us  / ˈmɪl.ə.piːd /","usp":"/ˈmɪl.ə.piːd/"}
+{"title":"millet","uk":"uk  / ˈmɪl.ɪt /","ukp":"/ˈmɪl.ɪt/","us":"us  / ˈmɪl.ɪt /","usp":"/ˈmɪl.ɪt/"}
+{"title":"milli-","uk":"uk  / mɪl.ɪ- /","ukp":"/mɪl.ɪ-/","us":"us  / mɪl.ɪ- /","usp":"/mɪl.ɪ-/"}
+{"title":"milliampere","uk":"uk  / ˌmɪl.iˈæm.peə r /","ukp":"/ˌmɪl.iˈæm.peər/","us":"us  / ˌmɪl.iˈæm.pɪr /","usp":"/ˌmɪl.iˈæm.pɪr/"}
+{"title":"milliard","uk":"uk  / ˈmɪl.i.əd /","ukp":"/ˈmɪl.i.əd/","us":"us  / ˈmɪl.i.əd /","usp":"/ˈmɪl.i.əd/"}
+{"title":"millibar","uk":"uk  / ˈmɪl.ɪ.bɑː r /","ukp":"/ˈmɪl.ɪ.bɑːr/","us":"us  / ˈmɪl.ɪ.bɑːr /","usp":"/ˈmɪl.ɪ.bɑːr/"}
+{"title":"milligram","uk":"uk  / ˈmɪl.ɪ.ɡræm /","ukp":"/ˈmɪl.ɪ.ɡræm/","us":"us  / ˈmɪl.ɪ.ɡræm /","usp":"/ˈmɪl.ɪ.ɡræm/"}
+{"title":"milliliter","uk":"uk  / ˈmɪl.ɪˌliː.tə r /","ukp":"/ˈmɪl.ɪˌliː.tər/","us":"us  / ˈmɪl.əˌliː.t̬ɚ /","usp":"/ˈmɪl.əˌliː.t̬ɚ/"}
+{"title":"millilitre","uk":"uk  / ˈmɪl.ɪˌliː.tə r /","ukp":"/ˈmɪl.ɪˌliː.tər/","us":"us  / ˈmɪl.əˌliː.t̬ɚ /","usp":"/ˈmɪl.əˌliː.t̬ɚ/"}
+{"title":"millimeter","uk":"uk  / ˈmɪl.ɪˌmiː.tə r /","ukp":"/ˈmɪl.ɪˌmiː.tər/","us":"us  / ˈmɪl.əˌmiː.t̬ɚ /","usp":"/ˈmɪl.əˌmiː.t̬ɚ/"}
+{"title":"millimolar","uk":"uk  / ˈmɪl.ɪˌməʊ.lə r /","ukp":"/ˈmɪl.ɪˌməʊ.lər/","us":"us  / ˈmɪl.əˌmoʊ.lɚ /","usp":"/ˈmɪl.əˌmoʊ.lɚ/"}
+{"title":"millimetre","uk":"uk  / ˈmɪl.ɪˌmiː.tə r /","ukp":"/ˈmɪl.ɪˌmiː.tər/","us":"us  / ˈmɪl.əˌmiː.t̬ɚ /","usp":"/ˈmɪl.əˌmiː.t̬ɚ/"}
+{"title":"millimole","uk":"uk  / ˈmɪl.ɪ.məʊl /","ukp":"/ˈmɪl.ɪ.məʊl/","us":"us  / ˈmɪl.ɪ.moʊl /","usp":"/ˈmɪl.ɪ.moʊl/"}
+{"title":"milliner","uk":"uk  / ˈmɪl.ɪ.nə r /","ukp":"/ˈmɪl.ɪ.nər/","us":"us  / ˈmɪl.ə.nɚ /","usp":"/ˈmɪl.ə.nɚ/"}
+{"title":"millinery","uk":"uk  / ˈmɪl.ɪ.n ə r.i /","ukp":"/ˈmɪl.ɪ.nər.i/","us":"us  / ˈmɪl.ə.ner.i /","usp":"/ˈmɪl.ə.ner.i/"}
+{"title":"milling","uk":"uk  / ˈmɪl.ɪŋ /","ukp":"/ˈmɪl.ɪŋ/","us":"us  / ˈmɪl.ɪŋ /","usp":"/ˈmɪl.ɪŋ/"}
+{"title":"million","uk":"uk  / ˈmɪl.jən /","ukp":"/ˈmɪl.jən/","us":"us  / ˈmɪl.jən /","usp":"/ˈmɪl.jən/"}
+{"title":"million-square-foot","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"millionaire","uk":"uk  / ˌmɪl.jəˈneə r /","ukp":"/ˌmɪl.jəˈneər/","us":"us  / ˌmɪl.jəˈner /","usp":"/ˌmɪl.jəˈner/"}
+{"title":"millionaire's shortbread","uk":"uk  / mɪl.jəˌneəz ˈʃɔːt.bred /","ukp":"/mɪl.jəˌneəz ˈʃɔːt.bred/","us":"us  / mɪl.jəˌnerz ˈʃɔːrt.bred /","usp":"/mɪl.jəˌnerz ˈʃɔːrt.bred/"}
+{"title":"millionairess","uk":"uk  / ˌmɪl.jəˈneə.res /","ukp":"/ˌmɪl.jəˈneə.res/","us":"us  / ˌmɪl.jəˈner.es /","usp":"/ˌmɪl.jəˈner.es/"}
+{"title":"millionfold","uk":"uk  / ˈmɪl.jən.fəʊld /","ukp":"/ˈmɪl.jən.fəʊld/","us":"us  / ˈmɪl.jən.foʊld /","usp":"/ˈmɪl.jən.foʊld/"}
+{"title":"millionth","uk":"uk  / ˈmɪl.jənθ /","ukp":"/ˈmɪl.jənθ/","us":"us  / ˈmɪl.jənθ /","usp":"/ˈmɪl.jənθ/"}
+{"title":"millisecond","uk":"uk  / ˈmɪl.ɪˌsek.ənd /","ukp":"/ˈmɪl.ɪˌsek.ənd/","us":"us  / ˈmɪl.əˌsek.ənd /","usp":"/ˈmɪl.əˌsek.ənd/"}
+{"title":"millipede","uk":"uk  / ˈmɪl.ɪ.piːd /","ukp":"/ˈmɪl.ɪ.piːd/","us":"us  / ˈmɪl.ə.piːd /","usp":"/ˈmɪl.ə.piːd/"}
+{"title":"millpond","uk":"uk  / ˈmɪl.pɒnd /","ukp":"/ˈmɪl.pɒnd/","us":"us  / ˈmɪl.pɑːnd /","usp":"/ˈmɪl.pɑːnd/"}
+{"title":"millstone","uk":"uk  / ˈmɪl.stəʊn /","ukp":"/ˈmɪl.stəʊn/","us":"us  / ˈmɪl.stoʊn /","usp":"/ˈmɪl.stoʊn/"}
+{"title":"milometer","uk":"uk  / maɪˈlɒm.ɪ.tə r /","ukp":"/maɪˈlɒm.ɪ.tər/","us":"us  / maɪˈlɑː.mə.t̬ɚ /","usp":"/maɪˈlɑː.mə.t̬ɚ/"}
+{"title":"milquetoast","uk":"uk  / ˈmɪlk.təʊst /","ukp":"/ˈmɪlk.təʊst/","us":"us  / ˈmɪlk.toʊst /","usp":"/ˈmɪlk.toʊst/"}
+{"title":"Milton Keynes","uk":"uk  / ˌmɪl.t ə n ˈkiːnz /","ukp":"/ˌmɪl.tən ˈkiːnz/","us":"us  / ˌmɪl.t ə n ˈkiːnz /","usp":"/ˌmɪl.tən ˈkiːnz/"}
+{"title":"mime artist","uk":"uk  / ˈmaɪm ˌɑː.tɪst /","ukp":"/ˈmaɪm ˌɑː.tɪst/","us":"us  / ˈmaɪm ˌɑːr.t̬ɪst /","usp":"/ˈmaɪm ˌɑːr.t̬ɪst/"}
+{"title":"mime","uk":"uk  / maɪm /","ukp":"/maɪm/","us":"us  / maɪm /","usp":"/maɪm/"}
+{"title":"mimed","uk":"uk  / maɪm /","ukp":"/maɪm/","us":"us  / maɪm /","usp":"/maɪm/"}
+{"title":"mimeograph","uk":"uk  / ˈmɪm.i.ə.ɡrɑːf /","ukp":"/ˈmɪm.i.ə.ɡrɑːf/","us":"us  / ˈmɪm.i.ə.ɡræf /","usp":"/ˈmɪm.i.ə.ɡræf/"}
+{"title":"mimesis","uk":"uk  / mɪˈmiː.sɪs /","ukp":"/mɪˈmiː.sɪs/","us":"us  / mɪˈmiː.sɪs /","usp":"/mɪˈmiː.sɪs/"}
+{"title":"mimetic","uk":"uk  / mɪˈmet.ɪk /","ukp":"/mɪˈmet.ɪk/","us":"us  / mɪˈmet̬.ɪk /","usp":"/mɪˈmet̬.ɪk/"}
+{"title":"mimetically","uk":"uk  / mɪˈmet.ɪ.k ə l.i /","ukp":"/mɪˈmet.ɪ.kəl.i/","us":"us  / mɪˈmet̬.ɪ.k ə l.i /","usp":"/mɪˈmet̬.ɪ.kəl.i/"}
+{"title":"mimicked","uk":"","us":""}
+{"title":"mimic","uk":"uk  / ˈmɪm.ɪk /","ukp":"/ˈmɪm.ɪk/","us":"us  / ˈmɪm.ɪk /","usp":"/ˈmɪm.ɪk/"}
+{"title":"mimicking","uk":"","us":""}
+{"title":"mimicry","uk":"uk  / ˈmɪm.ɪ.kri /","ukp":"/ˈmɪm.ɪ.kri/","us":"us  / ˈmɪm.ɪ.kri /","usp":"/ˈmɪm.ɪ.kri/"}
+{"title":"miming","uk":"uk  / maɪm /","ukp":"/maɪm/","us":"us  / maɪm /","usp":"/maɪm/"}
+{"title":"mimosa","uk":"uk  / mɪˈməʊ.sə /","ukp":"/mɪˈməʊ.sə/","us":"us  / mɪˈmoʊ.sə /","usp":"/mɪˈmoʊ.sə/"}
+{"title":"min.","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minaret","uk":"uk  / ˌmɪn.əˈret /","ukp":"/ˌmɪn.əˈret/","us":"us  / ˌmɪn.əˈret /","usp":"/ˌmɪn.əˈret/"}
+{"title":"minatory","uk":"uk  / ˈmɪn.ə.t ə r.i /","ukp":"/ˈmɪn.ə.tər.i/","us":"us  / ˈmɪn.ə.tɔːr.i /","usp":"/ˈmɪn.ə.tɔːr.i/"}
+{"title":"mince","uk":"uk  / mɪns /","ukp":"/mɪns/","us":"us  / mɪns /","usp":"/mɪns/"}
+{"title":"mince pie","uk":"uk  / ˌmɪns ˈpaɪ /","ukp":"/ˌmɪns ˈpaɪ/","us":"us  / ˌmɪns ˈpaɪ /","usp":"/ˌmɪns ˈpaɪ/"}
+{"title":"minestrone","uk":"uk  / ˌmɪn.ɪˈstrəʊ.ni /","ukp":"/ˌmɪn.ɪˈstrəʊ.ni/","us":"us  / ˌmɪn.əˈstroʊ.ni /","usp":"/ˌmɪn.əˈstroʊ.ni/"}
+{"title":"minesweeper","uk":"uk  / ˈmaɪnˌswiː.pə r /","ukp":"/ˈmaɪnˌswiː.pər/","us":"us  / ˈmaɪnˌswiː.pɚ /","usp":"/ˈmaɪnˌswiː.pɚ/"}
+{"title":"minge","uk":"uk  / mɪndʒ /","ukp":"/mɪndʒ/","us":"us  / mɪndʒ /","usp":"/mɪndʒ/"}
+{"title":"minger","uk":"uk  / ˈmɪŋ.ə r /","ukp":"/ˈmɪŋ.ər/","us":"us  / ˈmɪŋ.ɚ /","usp":"/ˈmɪŋ.ɚ/"}
+{"title":"minging","uk":"uk  / ˈmɪŋ.ɪŋ /","ukp":"/ˈmɪŋ.ɪŋ/","us":"us  / ˈmɪŋ.ɪŋ /","usp":"/ˈmɪŋ.ɪŋ/"}
+{"title":"mingle","uk":"uk  / ˈmɪŋ.ɡ ə l /","ukp":"/ˈmɪŋ.ɡəl/","us":"us  / ˈmɪŋ.ɡ ə l /","usp":"/ˈmɪŋ.ɡəl/"}
+{"title":"mingled","uk":"uk  / ˈmɪŋ.ɡ ə l /","ukp":"/ˈmɪŋ.ɡəl/","us":"us  / ˈmɪŋ.ɡ ə l /","usp":"/ˈmɪŋ.ɡəl/"}
+{"title":"mingy","uk":"uk  / ˈmɪn.dʒi /","ukp":"/ˈmɪn.dʒi/","us":"us  / ˈmɪn.dʒi /","usp":"/ˈmɪn.dʒi/"}
+{"title":"mingling","uk":"uk  / ˈmɪŋ.ɡ ə l /","ukp":"/ˈmɪŋ.ɡəl/","us":"us  / ˈmɪŋ.ɡ ə l /","usp":"/ˈmɪŋ.ɡəl/"}
+{"title":"mini ISA","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mini","uk":"uk  / ˈmɪn.i /","ukp":"/ˈmɪn.i/","us":"us  / ˈmɪn.i /","usp":"/ˈmɪn.i/"}
+{"title":"mini system","uk":"uk  / ˈmɪn.i ˌsɪs.təm /","ukp":"/ˈmɪn.i ˌsɪs.təm/","us":"us  / ˈmɪn.i ˌsɪs.təm /","usp":"/ˈmɪn.i ˌsɪs.təm/"}
+{"title":"mini-break","uk":"uk  / ˈmɪn.i.breɪk /","ukp":"/ˈmɪn.i.breɪk/","us":"us  / ˈmɪn.i.breɪk /","usp":"/ˈmɪn.i.breɪk/"}
+{"title":"mini-cash ISA","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"mini-golf","uk":"uk  / ˈmɪn.i ˌɡɒlf /","ukp":"/ˈmɪn.i ˌɡɒlf/","us":"us  / ˈmɪn.i ˌɡɑːlf /","usp":"/ˈmɪn.i ˌɡɑːlf/"}
+{"title":"mini-roundabout","uk":"uk  / ˌmɪn.iˈraʊnd.ə.baʊt /","ukp":"/ˌmɪn.iˈraʊnd.ə.baʊt/","us":"us  / ˌmɪn.iˈraʊnd.ə.baʊt /","usp":"/ˌmɪn.iˈraʊnd.ə.baʊt/"}
+{"title":"mini-stroke","uk":"uk  / ˌmɪn.i ˈstrəʊk /","ukp":"/ˌmɪn.i ˈstrəʊk/","us":"us  / ˌmɪn.i ˈstroʊk /","usp":"/ˌmɪn.i ˈstroʊk/"}
+{"title":"miniature golf","uk":"uk  / ˌmɪn.ə.tʃə ˈɡɒlf /","ukp":"/ˌmɪn.ə.tʃə ˈɡɒlf/","us":"us  / ˌmɪn.i.ə.tʃɚ ˈɡɑːlf /","usp":"/ˌmɪn.i.ə.tʃɚ ˈɡɑːlf/"}
+{"title":"miniature","uk":"uk  / ˈmɪn.ə.tʃə r /","ukp":"/ˈmɪn.ə.tʃər/","us":"us  / ˈmɪn.i.ə.tʃɚ /","usp":"/ˈmɪn.i.ə.tʃɚ/"}
+{"title":"miniaturization","uk":"uk  / ˌmɪn.ə.tʃ ə r.aɪˈzeɪ.ʃ ə n /","ukp":"/ˌmɪn.ə.tʃər.aɪˈzeɪ.ʃən/","us":"us  / ˌmɪn.i.ə.tʃɚ.əˈzeɪ.ʃ ə n /","usp":"/ˌmɪn.i.ə.tʃɚ.əˈzeɪ.ʃən/"}
+{"title":"miniaturize","uk":"uk  / ˈmɪn.ə.tʃ ə r.aɪz /","ukp":"/ˈmɪn.ə.tʃər.aɪz/","us":"us  / ˈmɪn.ɪ.tʃɚ.aɪz /","usp":"/ˈmɪn.ɪ.tʃɚ.aɪz/"}
+{"title":"miniaturized","uk":"uk  / ˈmɪn.ə.tʃ ə r.aɪzd /","ukp":"/ˈmɪn.ə.tʃər.aɪzd/","us":"us  / ˈmɪn.ɪ.tʃɚ.aɪzd /","usp":"/ˈmɪn.ɪ.tʃɚ.aɪzd/"}
+{"title":"minibeast","uk":"uk  / ˈmɪn.i.biːst /","ukp":"/ˈmɪn.i.biːst/","us":"us  / ˈmɪn.i.biːst /","usp":"/ˈmɪn.i.biːst/"}
+{"title":"minibar","uk":"uk  / ˈmɪn.i.bɑː r /","ukp":"/ˈmɪn.i.bɑːr/","us":"us  / ˈmɪn.i.bɑːr /","usp":"/ˈmɪn.i.bɑːr/"}
+{"title":"minibus","uk":"uk  / ˈmɪn.i.bʌs /","ukp":"/ˈmɪn.i.bʌs/","us":"us  / ˈmɪn.i.bʌs /","usp":"/ˈmɪn.i.bʌs/"}
+{"title":"minicab","uk":"uk  / ˈmɪn.i.kæb /","ukp":"/ˈmɪn.i.kæb/","us":"us  / ˈmɪn.i.kæb /","usp":"/ˈmɪn.i.kæb/"}
+{"title":"minicam","uk":"uk  / ˈmɪn.i.kæm /","ukp":"/ˈmɪn.i.kæm/","us":"us  / ˈmɪn.i.kæm /","usp":"/ˈmɪn.i.kæm/"}
+{"title":"MiniDisc","uk":"uk  / ˈmɪn.i.dɪsk /","ukp":"/ˈmɪn.i.dɪsk/","us":"us  / ˈmɪn.i.dɪsk /","usp":"/ˈmɪn.i.dɪsk/"}
+{"title":"minima","uk":"","us":""}
+{"title":"minim","uk":"uk  / ˈmɪn.ɪm /","ukp":"/ˈmɪn.ɪm/","us":"us  / ˈmɪn.ɪm /","usp":"/ˈmɪn.ɪm/"}
+{"title":"minimalism","uk":"uk  / ˈmɪn.ɪ.m ə l.ɪ.z ə m /","ukp":"/ˈmɪn.ɪ.məl.ɪ.zəm/","us":"us  / ˈmɪn.ə.m ə l.ɪ.z ə m /","usp":"/ˈmɪn.ə.məl.ɪ.zəm/"}
+{"title":"minimal","uk":"uk  / ˈmɪn.ɪ.m ə l /","ukp":"/ˈmɪn.ɪ.məl/","us":"us  / ˈmɪn.ə.m ə l /","usp":"/ˈmɪn.ə.məl/"}
+{"title":"minimalistic","uk":"uk  / ˌmɪn.ɪ.məˈlɪs.tɪk /","ukp":"/ˌmɪn.ɪ.məˈlɪs.tɪk/","us":"us  / ˌmɪn.ə.məˈlɪs.tɪk /","usp":"/ˌmɪn.ə.məˈlɪs.tɪk/"}
+{"title":"minimally","uk":"uk  / ˈmɪn.ɪ.m ə l.i /","ukp":"/ˈmɪn.ɪ.məl.i/","us":"us  / ˈmɪn.ə.m ə l.i /","usp":"/ˈmɪn.ə.məl.i/"}
+{"title":"minimarket","uk":"uk  / ˈmɪniˌmɑːkɪt /","ukp":"/ˈmɪniˌmɑːkɪt/","us":"us ","usp":""}
+{"title":"minimi","uk":"uk  / ˈmɪn.ə.mi /","ukp":"/ˈmɪn.ə.mi/","us":"us  / ˈmɪn.əˌmaɪ /","usp":"/ˈmɪn.əˌmaɪ/"}
+{"title":"minimalist","uk":"uk  / ˈmɪn.ɪ.m ə l.ɪst /","ukp":"/ˈmɪn.ɪ.məl.ɪst/","us":"us  / ˈmɪn.ə.m ə l.ɪst /","usp":"/ˈmɪn.ə.məl.ɪst/"}
+{"title":"minimization","uk":"uk  / ˌmɪn.ɪ.maɪˈzeɪ.ʃ ə n /","ukp":"/ˌmɪn.ɪ.maɪˈzeɪ.ʃən/","us":"us  / ˌmɪn.ə.məˈzeɪ.ʃ ə n /","usp":"/ˌmɪn.ə.məˈzeɪ.ʃən/"}
+{"title":"minimized","uk":"uk  / ˈmɪn.ɪ.maɪz /","ukp":"/ˈmɪn.ɪ.maɪz/","us":"us  / ˈmɪn.ə.maɪz /","usp":"/ˈmɪn.ə.maɪz/"}
+{"title":"minimize","uk":"uk  / ˈmɪn.ɪ.maɪz /","ukp":"/ˈmɪn.ɪ.maɪz/","us":"us  / ˈmɪn.ə.maɪz /","usp":"/ˈmɪn.ə.maɪz/"}
+{"title":"minimizing","uk":"uk  / ˈmɪn.ɪ.maɪz /","ukp":"/ˈmɪn.ɪ.maɪz/","us":"us  / ˈmɪn.ə.maɪz /","usp":"/ˈmɪn.ə.maɪz/"}
+{"title":"minimoon","uk":"uk  / ˈmɪn.i.muːn /","ukp":"/ˈmɪn.i.muːn/","us":"us  / ˈmɪn.i.muːn /","usp":"/ˈmɪn.i.muːn/"}
+{"title":"minimum lending rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minimum","uk":"uk  / ˈmɪn.ɪ.məm /","ukp":"/ˈmɪn.ɪ.məm/","us":"us  / ˈmɪn.ə.məm /","usp":"/ˈmɪn.ə.məm/"}
+{"title":"minimum order quantity","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minimum security prison","uk":"uk / ˌmɪn.ɪ.məm sɪˌkjʊə.rə.ti ˈprɪz. ə n /","ukp":"/ˌmɪn.ɪ.məm sɪˌkjʊə.rə.ti ˈprɪz.ən/","us":"us / ˌmɪn.ə.məm səˌkjʊr.ə.t̬i ˈprɪz. ə n /","usp":"/ˌmɪn.ə.məm səˌkjʊr.ə.t̬i ˈprɪz.ən/"}
+{"title":"minimum wage","uk":"uk  / ˌmɪn.ɪ.məm ˈweɪdʒ /","ukp":"/ˌmɪn.ɪ.məm ˈweɪdʒ/","us":"us  / ˌmɪn.ɪ.məm ˈweɪdʒ /","usp":"/ˌmɪn.ɪ.məm ˈweɪdʒ/"}
+{"title":"misaligning","uk":"uk  / ˌmɪs.əˈlaɪn /","ukp":"/ˌmɪs.əˈlaɪn/","us":"us  / ˌmɪs.əˈlaɪn /","usp":"/ˌmɪs.əˈlaɪn/"}
+{"title":"misallocate","uk":"uk  / mɪsˈæl.ə.keɪt /","ukp":"/mɪsˈæl.ə.keɪt/","us":"us  / mɪsˈæl.ə.keɪt /","usp":"/mɪsˈæl.ə.keɪt/"}
+{"title":"misalignment","uk":"uk  / ˌmɪs.əˈlaɪn.mənt /","ukp":"/ˌmɪs.əˈlaɪn.mənt/","us":"us  / ˌmɪs.əˈlaɪn.mənt /","usp":"/ˌmɪs.əˈlaɪn.mənt/"}
+{"title":"misanalyses","uk":"","us":""}
+{"title":"misallocation","uk":"uk  / ˌmɪs.æl.əˈkeɪ.ʃ ə n /","ukp":"/ˌmɪs.æl.əˈkeɪ.ʃən/","us":"us  / ˌmɪs.æl.əˈkeɪ.ʃ ə n /","usp":"/ˌmɪs.æl.əˈkeɪ.ʃən/"}
+{"title":"misanalysis","uk":"uk  / ˌmɪs.əˈnæl.ə.sɪs /","ukp":"/ˌmɪs.əˈnæl.ə.sɪs/","us":"us  / ˌmɪs.əˈnæl.ə.sɪs /","usp":"/ˌmɪs.əˈnæl.ə.sɪs/"}
+{"title":"misandrist","uk":"uk  / ˈmɪs. ə n.drɪst /","ukp":"/ˈmɪs.ən.drɪst/","us":"us  / ˈmɪs. ə n.drɪst /","usp":"/ˈmɪs.ən.drɪst/"}
+{"title":"misandry","uk":"uk  / mɪˈsæn.dri /","ukp":"/mɪˈsæn.dri/","us":"us  / ˈmɪs.æn.dri /","usp":"/ˈmɪs.æn.dri/"}
+{"title":"misanthrope","uk":"uk  / ˈmɪs. ə n.θrəʊp /","ukp":"/ˈmɪs.ən.θrəʊp/","us":"us  / ˈmɪs. ə n.θroʊp /","usp":"/ˈmɪs.ən.θroʊp/"}
+{"title":"misanthropy","uk":"uk  / mɪˈsæn.θrə.pi /","ukp":"/mɪˈsæn.θrə.pi/","us":"us  / mɪˈsæn.θrə.pi /","usp":"/mɪˈsæn.θrə.pi/"}
+{"title":"misanthropic","uk":"uk  / ˌmɪs. ə nˈθrɒp.ɪk /","ukp":"/ˌmɪs.ənˈθrɒp.ɪk/","us":"us  / ˌmɪs. ə nˈθrɑː.pɪk /","usp":"/ˌmɪs.ənˈθrɑː.pɪk/"}
+{"title":"misapplication","uk":"uk  / ˌmɪs.æp.lɪˈkeɪ.ʃ ə n /","ukp":"/ˌmɪs.æp.lɪˈkeɪ.ʃən/","us":"us  / ˌmɪs.æp.ləˈkeɪ.ʃ ə n /","usp":"/ˌmɪs.æp.ləˈkeɪ.ʃən/"}
+{"title":"misapplied","uk":"uk  / ˌmɪs.əˈplaɪ /","ukp":"/ˌmɪs.əˈplaɪ/","us":"us  / ˌmɪs.əˈplaɪ /","usp":"/ˌmɪs.əˈplaɪ/"}
+{"title":"misapply","uk":"uk  / ˌmɪs.əˈplaɪ /","ukp":"/ˌmɪs.əˈplaɪ/","us":"us  / ˌmɪs.əˈplaɪ /","usp":"/ˌmɪs.əˈplaɪ/"}
+{"title":"misapplying","uk":"uk  / ˌmɪs.əˈplaɪ /","ukp":"/ˌmɪs.əˈplaɪ/","us":"us  / ˌmɪs.əˈplaɪ /","usp":"/ˌmɪs.əˈplaɪ/"}
+{"title":"misapprehension","uk":"uk  / ˌmɪs.æp.rɪˈhen.ʃ ə n /","ukp":"/ˌmɪs.æp.rɪˈhen.ʃən/","us":"us  / ˌmɪs.æp.rəˈhen.ʃ ə n /","usp":"/ˌmɪs.æp.rəˈhen.ʃən/"}
+{"title":"misappropriate","uk":"uk  / ˌmɪs.əˈprəʊ.pri.eɪt /","ukp":"/ˌmɪs.əˈprəʊ.pri.eɪt/","us":"us  / ˌmɪs.əˈproʊ.pri.eɪt /","usp":"/ˌmɪs.əˈproʊ.pri.eɪt/"}
+{"title":"misappropriated","uk":"uk  / ˌmɪs.əˈprəʊ.pri.eɪt /","ukp":"/ˌmɪs.əˈprəʊ.pri.eɪt/","us":"us  / ˌmɪs.əˈproʊ.pri.eɪt /","usp":"/ˌmɪs.əˈproʊ.pri.eɪt/"}
+{"title":"misappropriating","uk":"uk  / ˌmɪs.əˈprəʊ.pri.eɪt /","ukp":"/ˌmɪs.əˈprəʊ.pri.eɪt/","us":"us  / ˌmɪs.əˈproʊ.pri.eɪt /","usp":"/ˌmɪs.əˈproʊ.pri.eɪt/"}
+{"title":"misappropriation","uk":"uk  / ˌmɪs.əˌprəʊ.priˈeɪ.ʃ ə n /","ukp":"/ˌmɪs.əˌprəʊ.priˈeɪ.ʃən/","us":"us  / ˌmɪs.əˌproʊ.priˈeɪ.ʃ ə n /","usp":"/ˌmɪs.əˌproʊ.priˈeɪ.ʃən/"}
+{"title":"misarticulate","uk":"uk  / ˌmɪs.ɑːˈtɪk.jə.leɪt /","ukp":"/ˌmɪs.ɑːˈtɪk.jə.leɪt/","us":"us  / ˌmɪs.ɑːrˈtɪk.jə.leɪt /","usp":"/ˌmɪs.ɑːrˈtɪk.jə.leɪt/"}
+{"title":"misassemble","uk":"uk  / ˌmɪs.əˈsem.b ə l /","ukp":"/ˌmɪs.əˈsem.bəl/","us":"us  / ˌmɪs.əˈsem.b ə l /","usp":"/ˌmɪs.əˈsem.bəl/"}
+{"title":"misattribute","uk":"uk  / ˌmɪs.əˈtrɪb.juːt /","ukp":"/ˌmɪs.əˈtrɪb.juːt/","us":"us  / ˌmɪs.əˈtrɪb.juːt /","usp":"/ˌmɪs.əˈtrɪb.juːt/"}
+{"title":"misassumption","uk":"uk  / ˌmɪs.əˈsʌmp.ʃ ə n /","ukp":"/ˌmɪs.əˈsʌmp.ʃən/","us":"us  / ˌmɪs.əˈsʌmp.ʃ ə n /","usp":"/ˌmɪs.əˈsʌmp.ʃən/"}
+{"title":"misattribution","uk":"uk  / ˌmɪs.æt.rɪˈbjuː.ʃ ə n /","ukp":"/ˌmɪs.æt.rɪˈbjuː.ʃən/","us":"us  / ˌmɪs.æt.rəˈbjuː.ʃ ə n /","usp":"/ˌmɪs.æt.rəˈbjuː.ʃən/"}
+{"title":"misbegotten","uk":"uk  / ˌmɪs.bɪˈɡɒt. ə n /","ukp":"/ˌmɪs.bɪˈɡɒt.ən/","us":"us  / ˌmɪs.bɪˈɡɑː.t̬ ə n /","usp":"/ˌmɪs.bɪˈɡɑː.t̬ən/"}
+{"title":"misbalance","uk":"uk  / mɪsˈbæl. ə ns /","ukp":"/mɪsˈbæl.əns/","us":"us  / ˌmɪsˈbæl. ə ns /","usp":"/ˌmɪsˈbæl.əns/"}
+{"title":"misbehave","uk":"uk  / ˌmɪs.bɪˈheɪv /","ukp":"/ˌmɪs.bɪˈheɪv/","us":"us  / ˌmɪs.bɪˈheɪv /","usp":"/ˌmɪs.bɪˈheɪv/"}
+{"title":"misbehaved","uk":"uk  / ˌmɪs.bɪˈheɪv /","ukp":"/ˌmɪs.bɪˈheɪv/","us":"us  / ˌmɪs.bɪˈheɪv /","usp":"/ˌmɪs.bɪˈheɪv/"}
+{"title":"misbehaving","uk":"uk  / ˌmɪs.bɪˈheɪv /","ukp":"/ˌmɪs.bɪˈheɪv/","us":"us  / ˌmɪs.bɪˈheɪv /","usp":"/ˌmɪs.bɪˈheɪv/"}
+{"title":"misbehavior","uk":"uk  / ˌmɪs.bɪˈheɪ.vjə r /","ukp":"/ˌmɪs.bɪˈheɪ.vjər/","us":"us  / ˌmɪs.bɪˈheɪ.vjɚ /","usp":"/ˌmɪs.bɪˈheɪ.vjɚ/"}
+{"title":"misbehaviour","uk":"uk  / ˌmɪs.bɪˈheɪ.vjə r /","ukp":"/ˌmɪs.bɪˈheɪ.vjər/","us":"us  / ˌmɪs.bɪˈheɪ.vjɚ /","usp":"/ˌmɪs.bɪˈheɪ.vjɚ/"}
+{"title":"misc.","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"miscalculated","uk":"uk  / mɪsˈkæl.kjə.leɪt /","ukp":"/mɪsˈkæl.kjə.leɪt/","us":"us  / mɪsˈkæl.kjə.leɪt /","usp":"/mɪsˈkæl.kjə.leɪt/"}
+{"title":"miscalculate","uk":"uk  / mɪsˈkæl.kjə.leɪt /","ukp":"/mɪsˈkæl.kjə.leɪt/","us":"us  / mɪsˈkæl.kjə.leɪt /","usp":"/mɪsˈkæl.kjə.leɪt/"}
+{"title":"miscalculating","uk":"uk  / mɪsˈkæl.kjə.leɪt /","ukp":"/mɪsˈkæl.kjə.leɪt/","us":"us  / mɪsˈkæl.kjə.leɪt /","usp":"/mɪsˈkæl.kjə.leɪt/"}
+{"title":"miscalculation","uk":"uk  / ˌmɪs.kæl.kjəˈleɪ.ʃ ə n /","ukp":"/ˌmɪs.kæl.kjəˈleɪ.ʃən/","us":"us  / ˌmɪs.kæl.kjəˈleɪ.ʃ ə n /","usp":"/ˌmɪs.kæl.kjəˈleɪ.ʃən/"}
+{"title":"miscaption","uk":"uk  / mɪsˈkæp.ʃ ə n /","ukp":"/mɪsˈkæp.ʃən/","us":"us  / ˌmɪsˈkæp.ʃ ə n /","usp":"/ˌmɪsˈkæp.ʃən/"}
+{"title":"miscarriage","uk":"uk  / ˈmɪsˌkær.ɪdʒ /","ukp":"/ˈmɪsˌkær.ɪdʒ/","us":"us  / ˈmɪsˌker.ɪdʒ /","usp":"/ˈmɪsˌker.ɪdʒ/"}
+{"title":"miscarriage of justice","uk":"uk  / mɪsˌkær.ɪdʒ əv ˈdʒʌs.tɪs /","ukp":"/mɪsˌkær.ɪdʒ əv ˈdʒʌs.tɪs/","us":"us  / mɪsˌker.ɪdʒ əv ˈdʒʌs.tɪs /","usp":"/mɪsˌker.ɪdʒ əv ˈdʒʌs.tɪs/"}
+{"title":"miscarried","uk":"uk  / mɪˈskær.i /","ukp":"/mɪˈskær.i/","us":"us  / ˈmɪsˌker.i /","usp":"/ˈmɪsˌker.i/"}
+{"title":"miscarry","uk":"uk  / mɪˈskær.i /","ukp":"/mɪˈskær.i/","us":"us  / ˈmɪsˌker.i /","usp":"/ˈmɪsˌker.i/"}
+{"title":"miscarrying","uk":"uk  / mɪˈskær.i /","ukp":"/mɪˈskær.i/","us":"us  / ˈmɪsˌker.i /","usp":"/ˈmɪsˌker.i/"}
+{"title":"miscast","uk":"uk  / ˌmɪsˈkɑːst /","ukp":"/ˌmɪsˈkɑːst/","us":"us  / ˌmɪsˈkæst /","usp":"/ˌmɪsˈkæst/"}
+{"title":"miscatalog","uk":"uk  / mɪsˈkæt. ə l.ɒɡ /","ukp":"/mɪsˈkæt.əl.ɒɡ/","us":"us  / ˌmɪsˈkæt̬. ə l.ɑːɡ /","usp":"/ˌmɪsˈkæt̬.əl.ɑːɡ/"}
+{"title":"miscegenation","uk":"uk  / ˌmɪs.ɪ.dʒɪˈneɪ.ʃ ə n /","ukp":"/ˌmɪs.ɪ.dʒɪˈneɪ.ʃən/","us":"us  / mɪsˌedʒ.əˈneɪ.ʃ ə n /","usp":"/mɪsˌedʒ.əˈneɪ.ʃən/"}
+{"title":"miscatalogue","uk":"uk / mɪsˈkæt. ə l.ɒɡ /","ukp":"/mɪsˈkæt.əl.ɒɡ/","us":"us / ˌmɪsˈkæt̬. ə l.ɑːɡ /","usp":"/ˌmɪsˈkæt̬.əl.ɑːɡ/"}
+{"title":"miscellaneous","uk":"uk  / ˌmɪs. ə lˈeɪ.ni.əs /","ukp":"/ˌmɪs.əlˈeɪ.ni.əs/","us":"us  / ˌmɪs. ə lˈeɪ.ni.əs /","usp":"/ˌmɪs.əlˈeɪ.ni.əs/"}
+{"title":"miscellany","uk":"uk  / mɪˈsel.ə.ni /","ukp":"/mɪˈsel.ə.ni/","us":"us  / ˈmɪs.ə.leɪ.ni /","usp":"/ˈmɪs.ə.leɪ.ni/"}
+{"title":"mischaracterization","uk":"uk  / ˌmɪs.kær.ək.tə.raɪˈzeɪ.ʃ ə n /","ukp":"/ˌmɪs.kær.ək.tə.raɪˈzeɪ.ʃən/","us":"us  / ˌmɪs.ker.ək.tə.rəˈzeɪ.ʃ ə n /","usp":"/ˌmɪs.ker.ək.tə.rəˈzeɪ.ʃən/"}
+{"title":"mischance","uk":"uk  / ˌmɪsˈtʃɑːns /","ukp":"/ˌmɪsˈtʃɑːns/","us":"us  / ˌmɪsˈtʃæns /","usp":"/ˌmɪsˈtʃæns/"}
+{"title":"mischaracterize","uk":"uk  / mɪsˈkær.ək.t ə r.aɪz /","ukp":"/mɪsˈkær.ək.tər.aɪz/","us":"us  / mɪsˈker.ək.tə.raɪz /","usp":"/mɪsˈker.ək.tə.raɪz/"}
+{"title":"mischarge","uk":"uk  / mɪsˈtʃɑːdʒ /","ukp":"/mɪsˈtʃɑːdʒ/","us":"us  / ˌmɪsˈtʃɑːrdʒ /","usp":"/ˌmɪsˈtʃɑːrdʒ/"}
+{"title":"mischief-making","uk":"uk  / ˈmɪs.tʃɪfˌmeɪ.kɪŋ /","ukp":"/ˈmɪs.tʃɪfˌmeɪ.kɪŋ/","us":"us  / ˈmɪs.tʃɪfˌmeɪ.kɪŋ /","usp":"/ˈmɪs.tʃɪfˌmeɪ.kɪŋ/"}
+{"title":"mischief","uk":"uk  / ˈmɪs.tʃɪf /","ukp":"/ˈmɪs.tʃɪf/","us":"us  / ˈmɪs.tʃɪf /","usp":"/ˈmɪs.tʃɪf/"}
+{"title":"mischievously","uk":"uk  / ˈmɪs.tʃɪ.vəs.li /","ukp":"/ˈmɪs.tʃɪ.vəs.li/","us":"us  / ˈmɪs.tʃə.vəs.li /","usp":"/ˈmɪs.tʃə.vəs.li/"}
+{"title":"mischievous","uk":"uk  / ˈmɪs.tʃɪ.vəs /","ukp":"/ˈmɪs.tʃɪ.vəs/","us":"us  / ˈmɪs.tʃə.vəs /","usp":"/ˈmɪs.tʃə.vəs/"}
+{"title":"mischievousness","uk":"uk  / ˈmɪs.tʃɪ.vəs.nəs /","ukp":"/ˈmɪs.tʃɪ.vəs.nəs/","us":"us  / ˈmɪs.tʃə.vəs.nəs /","usp":"/ˈmɪs.tʃə.vəs.nəs/"}
+{"title":"miscible","uk":"uk  / ˈmɪs.ə.b ə l /","ukp":"/ˈmɪs.ə.bəl/","us":"us  / ˈmɪs.ə.b ə l /","usp":"/ˈmɪs.ə.bəl/"}
+{"title":"misclassification","uk":"uk  / ˌmɪs.klæs.ɪ.fɪˈkeɪ.ʃ ə n /","ukp":"/ˌmɪs.klæs.ɪ.fɪˈkeɪ.ʃən/","us":"us  / ˌmɪs.klæs.ə.fəˈkeɪ.ʃ ə n /","usp":"/ˌmɪs.klæs.ə.fəˈkeɪ.ʃən/"}
+{"title":"misclassify","uk":"uk  / mɪsˈklæs.ɪ.faɪ /","ukp":"/mɪsˈklæs.ɪ.faɪ/","us":"us  / ˌmɪsˈklæs.ə.faɪ /","usp":"/ˌmɪsˈklæs.ə.faɪ/"}
+{"title":"miscode","uk":"uk  / mɪsˈkəʊd /","ukp":"/mɪsˈkəʊd/","us":"us  / ˌmɪsˈkoʊd /","usp":"/ˌmɪsˈkoʊd/"}
+{"title":"miscommunication","uk":"uk  / ˌmɪs.kə.mjuː.nɪˈkeɪ.ʃ ə n /","ukp":"/ˌmɪs.kə.mjuː.nɪˈkeɪ.ʃən/","us":"us  / ˌmɪs.kə.mjuː.nəˈkeɪ.ʃ ə n /","usp":"/ˌmɪs.kə.mjuː.nəˈkeɪ.ʃən/"}
+{"title":"miscomprehension","uk":"uk  / ˌmɪs.kɒm.prɪˈhen.ʃ ə n /","ukp":"/ˌmɪs.kɒm.prɪˈhen.ʃən/","us":"us  / ˌmɪs.kɑːm.prəˈhen.ʃ ə n /","usp":"/ˌmɪs.kɑːm.prəˈhen.ʃən/"}
+{"title":"misconceive","uk":"uk  / ˌmɪs.kənˈsiːv /","ukp":"/ˌmɪs.kənˈsiːv/","us":"us  / ˌmɪs.kənˈsiːv /","usp":"/ˌmɪs.kənˈsiːv/"}
+{"title":"misconceived","uk":"uk  / ˌmɪs.kənˈsiːvd /","ukp":"/ˌmɪs.kənˈsiːvd/","us":"us  / ˌmɪs.kənˈsiːvd /","usp":"/ˌmɪs.kənˈsiːvd/"}
+{"title":"misconception","uk":"uk  / ˌmɪs.kənˈsep.ʃ ə n /","ukp":"/ˌmɪs.kənˈsep.ʃən/","us":"us  / ˌmɪs.kənˈsep.ʃ ə n /","usp":"/ˌmɪs.kənˈsep.ʃən/"}
+{"title":"misconducted","uk":"uk  / ˌmɪs.kənˈdʌkt /","ukp":"/ˌmɪs.kənˈdʌkt/","us":"us  / ˌmɪs.kənˈdʌkt /","usp":"/ˌmɪs.kənˈdʌkt/"}
+{"title":"misconduct","uk":"uk  / ˌmɪsˈkɒn.dʌkt /","ukp":"/ˌmɪsˈkɒn.dʌkt/","us":"us  / ˌmɪsˈkɑːn.dʌkt /","usp":"/ˌmɪsˈkɑːn.dʌkt/"}
+{"title":"misconducting","uk":"uk  / ˌmɪs.kənˈdʌkt /","ukp":"/ˌmɪs.kənˈdʌkt/","us":"us  / ˌmɪs.kənˈdʌkt /","usp":"/ˌmɪs.kənˈdʌkt/"}
+{"title":"misconnect","uk":"uk  / ˌmɪs.kəˈnekt /","ukp":"/ˌmɪs.kəˈnekt/","us":"us  / ˌmɪs.kəˈnekt /","usp":"/ˌmɪs.kəˈnekt/"}
+{"title":"misconnection","uk":"uk  / ˌmɪs.kəˈnek.ʃ ə n /","ukp":"/ˌmɪs.kəˈnek.ʃən/","us":"us  / ˌmɪs.kəˈnek.ʃ ə n /","usp":"/ˌmɪs.kəˈnek.ʃən/"}
+{"title":"misconstruction","uk":"uk  / ˌmɪs.kənˈstrʌk.ʃ ə n /","ukp":"/ˌmɪs.kənˈstrʌk.ʃən/","us":"us  / ˌmɪs.kənˈstrʌk.ʃ ə n /","usp":"/ˌmɪs.kənˈstrʌk.ʃən/"}
+{"title":"misconstrued","uk":"uk  / ˌmɪs.kənˈstruː /","ukp":"/ˌmɪs.kənˈstruː/","us":"us  / ˌmɪs.kənˈstruː /","usp":"/ˌmɪs.kənˈstruː/"}
+{"title":"misconstrue","uk":"uk  / ˌmɪs.kənˈstruː /","ukp":"/ˌmɪs.kənˈstruː/","us":"us  / ˌmɪs.kənˈstruː /","usp":"/ˌmɪs.kənˈstruː/"}
+{"title":"misconstruing","uk":"uk  / ˌmɪs.kənˈstruː /","ukp":"/ˌmɪs.kənˈstruː/","us":"us  / ˌmɪs.kənˈstruː /","usp":"/ˌmɪs.kənˈstruː/"}
+{"title":"miscopy","uk":"uk  / mɪsˈkɒp.i /","ukp":"/mɪsˈkɒp.i/","us":"us  / ˌmɪsˈkɑː.pi /","usp":"/ˌmɪsˈkɑː.pi/"}
+{"title":"miscorrelation","uk":"uk  / ˌmɪs.kɒr.əˈleɪ.ʃ ə n /","ukp":"/ˌmɪs.kɒr.əˈleɪ.ʃən/","us":"us  / ˌmɪs.kɔːr.əˈleɪ.ʃ ə n /","usp":"/ˌmɪs.kɔːr.əˈleɪ.ʃən/"}
+{"title":"miscount","uk":"uk  / ˌmɪsˈkaʊnt /","ukp":"/ˌmɪsˈkaʊnt/","us":"us  / ˌmɪsˈkaʊnt /","usp":"/ˌmɪsˈkaʊnt/"}
+{"title":"miscounted","uk":"uk  / ˌmɪsˈkaʊnt /","ukp":"/ˌmɪsˈkaʊnt/","us":"us  / ˌmɪsˈkaʊnt /","usp":"/ˌmɪsˈkaʊnt/"}
+{"title":"miscounting","uk":"uk  / ˌmɪsˈkaʊnt /","ukp":"/ˌmɪsˈkaʊnt/","us":"us  / ˌmɪsˈkaʊnt /","usp":"/ˌmɪsˈkaʊnt/"}
+{"title":"miscreant","uk":"uk  / ˈmɪs.kri.ənt /","ukp":"/ˈmɪs.kri.ənt/","us":"us  / ˈmɪs.kri.ənt /","usp":"/ˈmɪs.kri.ənt/"}
+{"title":"miscue","uk":"uk / mɪˈskjuː /","ukp":"/mɪˈskjuː/","us":"us / mɪˈskjuː /","usp":"/mɪˈskjuː/"}
+{"title":"misdate","uk":"uk  / mɪsˈdeɪt /","ukp":"/mɪsˈdeɪt/","us":"us  / ˌmɪsˈdeɪt /","usp":"/ˌmɪsˈdeɪt/"}
+{"title":"misdefine","uk":"uk  / ˌmɪs.dɪˈfaɪn /","ukp":"/ˌmɪs.dɪˈfaɪn/","us":"us  / ˌmɪs.dɪˈfaɪn /","usp":"/ˌmɪs.dɪˈfaɪn/"}
+{"title":"misdeed","uk":"uk  / ˌmɪsˈdiːd /","ukp":"/ˌmɪsˈdiːd/","us":"us  / ˌmɪsˈdiːd /","usp":"/ˌmɪsˈdiːd/"}
+{"title":"misdemeanor","uk":"uk  / ˌmɪs.dɪˈmiː.nə r /","ukp":"/ˌmɪs.dɪˈmiː.nər/","us":"us  / ˌmɪs.dɪˈmiː.nɚ /","usp":"/ˌmɪs.dɪˈmiː.nɚ/"}
+{"title":"misdemeanour","uk":"uk  / ˌmɪs.dɪˈmiː.nə r /","ukp":"/ˌmɪs.dɪˈmiː.nər/","us":"us  / ˌmɪs.dɪˈmiː.nɚ /","usp":"/ˌmɪs.dɪˈmiː.nɚ/"}
+{"title":"misdescription","uk":"uk  / ˌmɪs.dɪˈskrɪp.ʃ ə n /","ukp":"/ˌmɪs.dɪˈskrɪp.ʃən/","us":"us  / ˌmɪs.dɪˈskrɪp.ʃ ə n /","usp":"/ˌmɪs.dɪˈskrɪp.ʃən/"}
+{"title":"misdescribe","uk":"uk  / ˌmɪs.dɪˈskraɪb /","ukp":"/ˌmɪs.dɪˈskraɪb/","us":"us  / ˌmɪs.dɪˈskraɪb /","usp":"/ˌmɪs.dɪˈskraɪb/"}
+{"title":"misdiagnose","uk":"uk  / mɪs.ˈdaɪ.əɡ.nəʊz /","ukp":"/mɪs.ˈdaɪ.əɡ.nəʊz/","us":"us  / ˌmɪs.daɪ.əɡˈnoʊs /","usp":"/ˌmɪs.daɪ.əɡˈnoʊs/"}
+{"title":"misdiagnosis","uk":"uk  / ˌmɪs.daɪ.əɡˈnəʊ.sɪs /","ukp":"/ˌmɪs.daɪ.əɡˈnəʊ.sɪs/","us":"us  / ˌmɪs.daɪ.əɡˈnoʊ.sɪs /","usp":"/ˌmɪs.daɪ.əɡˈnoʊ.sɪs/"}
+{"title":"misdial","uk":"uk  / ˌmɪsˈdaɪ.əl /","ukp":"/ˌmɪsˈdaɪ.əl/","us":"us  / ˌmɪsˈdaɪ.əl /","usp":"/ˌmɪsˈdaɪ.əl/"}
+{"title":"misdirect","uk":"uk  / ˌmɪs.daɪˈrekt /","ukp":"/ˌmɪs.daɪˈrekt/","us":"us  / ˌmɪs.daɪˈrekt /","usp":"/ˌmɪs.daɪˈrekt/"}
+{"title":"misdirected","uk":"uk  / ˌmɪsdaɪˈrektɪd /","ukp":"/ˌmɪsdaɪˈrektɪd/","us":"us ","usp":""}
+{"title":"misdirecting","uk":"uk  / ˌmɪs.daɪˈrekt /","ukp":"/ˌmɪs.daɪˈrekt/","us":"us  / ˌmɪs.daɪˈrekt /","usp":"/ˌmɪs.daɪˈrekt/"}
+{"title":"misdirection","uk":"uk  / ˌmɪs.daɪˈrek.ʃ ə n /","ukp":"/ˌmɪs.daɪˈrek.ʃən/","us":"us  / ˌmɪs.dɪˈrek.ʃ ə n /","usp":"/ˌmɪs.dɪˈrek.ʃən/"}
+{"title":"misdistribution","uk":"uk  / ˌmɪs.dɪs.trɪˈbjuː.ʃ ə n /","ukp":"/ˌmɪs.dɪs.trɪˈbjuː.ʃən/","us":"us  / ˌmɪs.dɪs.trɪˈbjuː.ʃ ə n /","usp":"/ˌmɪs.dɪs.trɪˈbjuː.ʃən/"}
+{"title":"mise en place","uk":"uk / ˌmiːz ɒn ˈplæs /","ukp":"/ˌmiːz ɒn ˈplæs/","us":"us / ˌmiːz oʊn ˈplɑːs /","usp":"/ˌmiːz oʊn ˈplɑːs/"}
+{"title":"mise en scène","uk":"uk  / ˌmiːz ɑ̃ːn ˈsen /","ukp":"/ˌmiːz ɑ̃ːn ˈsen/","us":"us  / ˌmiːz ɑ̃ːn ˈsen /","usp":"/ˌmiːz ɑ̃ːn ˈsen/"}
+{"title":"minus tick","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minus sign","uk":"","us":"us / ˈmɑɪ·nəs ˌsɑɪn /","usp":"/ˈmɑɪ·nəs ˌsɑɪn/"}
+{"title":"minus","uk":"uk  / ˈmaɪ.nəs /","ukp":"/ˈmaɪ.nəs/","us":"us  / ˈmaɪ.nəs /","usp":"/ˈmaɪ.nəs/"}
+{"title":"minuscule","uk":"uk  / ˈmɪn.ə.skjuːl /","ukp":"/ˈmɪn.ə.skjuːl/","us":"us  / ˈmɪn.ə.skjuːl /","usp":"/ˈmɪn.ə.skjuːl/"}
+{"title":"minuses","uk":"","us":""}
+{"title":"minute by minute/hour by hour/day by day, etc.","uk":"","us":""}
+{"title":"minute book","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minute","uk":"uk  / ˈmɪn.ɪt /","ukp":"/ˈmɪn.ɪt/","us":"us  / ˈmɪn.ɪt /","usp":"/ˈmɪn.ɪt/"}
+{"title":"minute hand","uk":"uk  / ˈmɪn.ɪt ˌhænd /","ukp":"/ˈmɪn.ɪt ˌhænd/","us":"us  / ˈmɪn.ɪt ˌhænd /","usp":"/ˈmɪn.ɪt ˌhænd/"}
+{"title":"minute steak","uk":"uk  / ˈmɪn.ɪt ˌsteɪk /","ukp":"/ˈmɪn.ɪt ˌsteɪk/","us":"us  / ˈmɪn.ɪt ˌsteɪk /","usp":"/ˈmɪn.ɪt ˌsteɪk/"}
+{"title":"minute-by-minute/hour-by-hour, etc.","uk":"","us":""}
+{"title":"minuted","uk":"uk  / ˈmɪn.ɪt /","ukp":"/ˈmɪn.ɪt/","us":"us  / ˈmɪn.ɪt /","usp":"/ˈmɪn.ɪt/"}
+{"title":"minuting","uk":"uk  / ˈmɪn.ɪt /","ukp":"/ˈmɪn.ɪt/","us":"us  / ˈmɪn.ɪt /","usp":"/ˈmɪn.ɪt/"}
+{"title":"minutely","uk":"uk  / maɪˈnjuːt.li /","ukp":"/maɪˈnjuːt.li/","us":"us  / maɪˈnuːt.li /","usp":"/maɪˈnuːt.li/"}
+{"title":"minx","uk":"uk  / mɪŋks /","ukp":"/mɪŋks/","us":"us  / mɪŋks /","usp":"/mɪŋks/"}
+{"title":"Miocene","uk":"uk  / ˈmaɪ.ə.siːn /","ukp":"/ˈmaɪ.ə.siːn/","us":"us  / ˈmaɪ.ə.siːn /","usp":"/ˈmaɪ.ə.siːn/"}
+{"title":"MIP","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"miracle fruit","uk":"uk / ˈmɪr.ə.k ə l ˌfruːt /","ukp":"/ˈmɪr.ə.kəl ˌfruːt/","us":"us / ˈmɪr.ə.k ə l ˌfruːt /","usp":"/ˈmɪr.ə.kəl ˌfruːt/"}
+{"title":"miracle","uk":"uk  / ˈmɪr.ə.k ə l /","ukp":"/ˈmɪr.ə.kəl/","us":"us  / ˈmɪr.ə.k ə l /","usp":"/ˈmɪr.ə.kəl/"}
+{"title":"miraculous","uk":"uk  / mɪˈræk.jə.ləs /","ukp":"/mɪˈræk.jə.ləs/","us":"us  / məˈræk.jə.ləs /","usp":"/məˈræk.jə.ləs/"}
+{"title":"miraculously","uk":"uk  / mɪˈræk.jə.ləs.li /","ukp":"/mɪˈræk.jə.ləs.li/","us":"us  / məˈræk.jə.ləs.li /","usp":"/məˈræk.jə.ləs.li/"}
+{"title":"mirage","uk":"uk  / mɪˈrɑːʒ /","ukp":"/mɪˈrɑːʒ/","us":"us  / mɪˈrɑːʒ /","usp":"/mɪˈrɑːʒ/"}
+{"title":"Miranda","uk":"uk  / mɪˈræn.də /","ukp":"/mɪˈræn.də/","us":"us  / məˈræn.də /","usp":"/məˈræn.də/"}
+{"title":"mire","uk":"uk  / maɪə r /","ukp":"/maɪər/","us":"us  / maɪr /","usp":"/maɪr/"}
+{"title":"mired","uk":"uk  / maɪəd /","ukp":"/maɪəd/","us":"us  / maɪrd /","usp":"/maɪrd/"}
+{"title":"mirepoix","uk":"uk / ˌmɪəˈpwɑː /","ukp":"/ˌmɪəˈpwɑː/","us":"us / ˌmɪr.əˈpwɑː /","usp":"/ˌmɪr.əˈpwɑː/"}
+{"title":"mirin","uk":"uk  / ˈmɪr.ɪn /","ukp":"/ˈmɪr.ɪn/","us":"us  / ˈmɪr.ɪn /","usp":"/ˈmɪr.ɪn/"}
+{"title":"mirror image","uk":"uk  / ˌmɪr.ər ˈɪm.ɪdʒ /","ukp":"/ˌmɪr.ər ˈɪm.ɪdʒ/","us":"us  / ˌmɪr.ɚ ˈɪm.ɪdʒ /","usp":"/ˌmɪr.ɚ ˈɪm.ɪdʒ/"}
+{"title":"mirror","uk":"uk  / ˈmɪr.ə r /","ukp":"/ˈmɪr.ər/","us":"us  / ˈmɪr.ɚ /","usp":"/ˈmɪr.ɚ/"}
+{"title":"mirrored","uk":"uk  / ˈmɪr.əd /","ukp":"/ˈmɪr.əd/","us":"us  / ˈmɪr.ɚd /","usp":"/ˈmɪr.ɚd/"}
+{"title":"mirror site","uk":"uk  / ˈmɪr.ə ˌsaɪt /","ukp":"/ˈmɪr.ə ˌsaɪt/","us":"us  / ˈmɪr.ɚ ˌsaɪt /","usp":"/ˈmɪr.ɚ ˌsaɪt/"}
+{"title":"mirroring","uk":"uk  / ˈmɪr.ə r /","ukp":"/ˈmɪr.ər/","us":"us  / ˈmɪr.ɚ /","usp":"/ˈmɪr.ɚ/"}
+{"title":"mirth","uk":"uk  / mɜːθ /","ukp":"/mɜːθ/","us":"us  / mɝːθ /","usp":"/mɝːθ/"}
+{"title":"mirthful","uk":"uk  / ˈmɜːθ.fʊl /","ukp":"/ˈmɜːθ.fʊl/","us":"us  / ˈmɝːθ.fʊl /","usp":"/ˈmɝːθ.fʊl/"}
+{"title":"mirthless","uk":"uk  / ˈmɜːθ.ləs /","ukp":"/ˈmɜːθ.ləs/","us":"us  / ˈmɝːθ.ləs /","usp":"/ˈmɝːθ.ləs/"}
+{"title":"mirthlessly","uk":"uk  / ˈmɜːθ.ləs.li /","ukp":"/ˈmɜːθ.ləs.li/","us":"us  / ˈmɝːθ.ləs.li /","usp":"/ˈmɝːθ.ləs.li/"}
+{"title":"miry","uk":"uk  / ˈmaɪə.ri /","ukp":"/ˈmaɪə.ri/","us":"us  / ˈmaɪ.ri /","usp":"/ˈmaɪ.ri/"}
+{"title":"mis-","uk":"uk  / mɪs- /","ukp":"/mɪs-/","us":"us  / mɪs- /","usp":"/mɪs-/"}
+{"title":"mis-sale","uk":"","us":""}
+{"title":"mis-selling","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"misaddress","uk":"uk  / ˌmɪs.əˈdres /","ukp":"/ˌmɪs.əˈdres/","us":"us  / ˌmɪs.əˈdres /","usp":"/ˌmɪs.əˈdres/"}
+{"title":"mis-sell","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"misaddressed","uk":"uk  / ˌmɪs.əˈdres /","ukp":"/ˌmɪs.əˈdres/","us":"us  / ˌmɪs.əˈdres /","usp":"/ˌmɪs.əˈdres/"}
+{"title":"misaddressing","uk":"uk  / ˌmɪs.əˈdres /","ukp":"/ˌmɪs.əˈdres/","us":"us  / ˌmɪs.əˈdres /","usp":"/ˌmɪs.əˈdres/"}
+{"title":"misadjust","uk":"uk  / ˌmɪs.əˈdʒʌst /","ukp":"/ˌmɪs.əˈdʒʌst/","us":"us  / ˌmɪs.əˈdʒʌst /","usp":"/ˌmɪs.əˈdʒʌst/"}
+{"title":"misadministration","uk":"uk  / ˌmɪs.əd.mɪn.ɪˈstreɪ.ʃ ə n /","ukp":"/ˌmɪs.əd.mɪn.ɪˈstreɪ.ʃən/","us":"us  / ˌmɪs.əd.mɪn.əˈstreɪ.ʃ ə n /","usp":"/ˌmɪs.əd.mɪn.əˈstreɪ.ʃən/"}
+{"title":"misadvise","uk":"uk  / ˌmɪs.ədˈvaɪz /","ukp":"/ˌmɪs.ədˈvaɪz/","us":"us  / ˌmɪs.ədˈvaɪz /","usp":"/ˌmɪs.ədˈvaɪz/"}
+{"title":"misadventure","uk":"uk  / ˌmɪs.ədˈven.tʃə r /","ukp":"/ˌmɪs.ədˈven.tʃər/","us":"us  / ˌmɪs.ədˈven.tʃɚ /","usp":"/ˌmɪs.ədˈven.tʃɚ/"}
+{"title":"misalign","uk":"uk  / ˌmɪs.əˈlaɪn /","ukp":"/ˌmɪs.əˈlaɪn/","us":"us  / ˌmɪs.əˈlaɪn /","usp":"/ˌmɪs.əˈlaɪn/"}
+{"title":"misaligned","uk":"uk  / ˌmɪs.əˈlaɪn /","ukp":"/ˌmɪs.əˈlaɪn/","us":"us  / ˌmɪs.əˈlaɪn /","usp":"/ˌmɪs.əˈlaɪn/"}
+{"title":"minimus","uk":"uk  / ˈmɪn.ɪ.məs /","ukp":"/ˈmɪn.ɪ.məs/","us":"us  / ˈmɪn.ə.məs /","usp":"/ˈmɪn.ə.məs/"}
+{"title":"mining","uk":"uk  / ˈmaɪ.nɪŋ /","ukp":"/ˈmaɪ.nɪŋ/","us":"us  / ˈmaɪ.nɪŋ /","usp":"/ˈmaɪ.nɪŋ/"}
+{"title":"minion","uk":"uk  / ˈmɪn.jən /","ukp":"/ˈmɪn.jən/","us":"us  / ˈmɪn.jən /","usp":"/ˈmɪn.jən/"}
+{"title":"minipill","uk":"uk  / ˈmɪn.i.pɪl /","ukp":"/ˈmɪn.i.pɪl/","us":"us  / ˈmɪn.i.pɪl /","usp":"/ˈmɪn.i.pɪl/"}
+{"title":"miniscule","uk":"","us":"us  / ˈmɪn·əˌskjul /","usp":"/ˈmɪn·əˌskjul/"}
+{"title":"miniseries","uk":"uk  / ˈmɪn.iˌsɪə.riːz /","ukp":"/ˈmɪn.iˌsɪə.riːz/","us":"us  / ˈmɪn.iˌsɪr.iːz /","usp":"/ˈmɪn.iˌsɪr.iːz/"}
+{"title":"minister to someone","uk":"uk  / ˈmɪn.ɪ.stə r /","ukp":"/ˈmɪn.ɪ.stər/","us":"us  / ˈmɪn.ə.stɚ /","usp":"/ˈmɪn.ə.stɚ/"}
+{"title":"miniskirt","uk":"uk  / ˈmɪn.iˌskɜːt /","ukp":"/ˈmɪn.iˌskɜːt/","us":"us  / ˈmɪn.i.skɝːt /","usp":"/ˈmɪn.i.skɝːt/"}
+{"title":"minister","uk":"uk  / ˈmɪn.ɪ.stə r /","ukp":"/ˈmɪn.ɪ.stər/","us":"us  / ˈmɪn.ə.stɚ /","usp":"/ˈmɪn.ə.stɚ/"}
+{"title":"ministerial","uk":"uk  / ˌmɪn.ɪˈstɪə.ri.əl /","ukp":"/ˌmɪn.ɪˈstɪə.ri.əl/","us":"us  / ˌmɪn.əˈstɪr.i.əl /","usp":"/ˌmɪn.əˈstɪr.i.əl/"}
+{"title":"ministrations","uk":"uk  / ˌmɪn.ɪˈstreɪ.ʃ ə nz /","ukp":"/ˌmɪn.ɪˈstreɪ.ʃənz/","us":"us  / ˌmɪn.əˈstreɪ.ʃ ə nz /","usp":"/ˌmɪn.əˈstreɪ.ʃənz/"}
+{"title":"ministering angel","uk":"uk  / ˌmɪn.ɪ.stə.rɪŋ ˈeɪn.dʒ ə l /","ukp":"/ˌmɪn.ɪ.stə.rɪŋ ˈeɪn.dʒəl/","us":"us  / ˌmɪn.ə.stɚ.ɪŋ ˈeɪn.dʒ ə l /","usp":"/ˌmɪn.ə.stɚ.ɪŋ ˈeɪn.dʒəl/"}
+{"title":"ministry","uk":"uk  / ˈmɪn.ɪ.stri /","ukp":"/ˈmɪn.ɪ.stri/","us":"us  / ˈmɪn.ə.stri /","usp":"/ˈmɪn.ə.stri/"}
+{"title":"minivan","uk":"uk  / ˈmɪn.i.væn /","ukp":"/ˈmɪn.i.væn/","us":"us  / ˈmɪn.i.væn /","usp":"/ˈmɪn.i.væn/"}
+{"title":"mink","uk":"uk  / mɪŋk /","ukp":"/mɪŋk/","us":"us  / mɪŋk /","usp":"/mɪŋk/"}
+{"title":"minke whale","uk":"uk  / ˈmɪŋ.kə ˌweɪl /","ukp":"/ˈmɪŋ.kə ˌweɪl/","us":"us  / ˈmɪŋ.kə ˌweɪl /","usp":"/ˈmɪŋ.kə ˌweɪl/"}
+{"title":"Minky","uk":"uk  / ˈmɪŋ.ki /","ukp":"/ˈmɪŋ.ki/","us":"us / ˈmɪŋ.ki /","usp":"/ˈmɪŋ.ki/"}
+{"title":"Minneola","uk":"uk / ˌmɪn.iˈəʊ.lə /","ukp":"/ˌmɪn.iˈəʊ.lə/","us":"us / ˌmɪn.iˈoʊ.lə /","usp":"/ˌmɪn.iˈoʊ.lə/"}
+{"title":"Minnesota","uk":"uk  / mɪn.ɪˈsəʊ.tə /","ukp":"/mɪn.ɪˈsəʊ.tə/","us":"us  / mɪn.ɪˈsoʊ.t̬ə /","usp":"/mɪn.ɪˈsoʊ.t̬ə/"}
+{"title":"Minnesotan","uk":"uk  / mɪn.ɪˈsəʊ.t ə n /","ukp":"/mɪn.ɪˈsəʊ.tən/","us":"us  / mɪn.ɪˈsoʊ.t̬ ə n /","usp":"/mɪn.ɪˈsoʊ.t̬ən/"}
+{"title":"minnow","uk":"uk  / ˈmɪn.əʊ /","ukp":"/ˈmɪn.əʊ/","us":"us  / ˈmɪn.oʊ /","usp":"/ˈmɪn.oʊ/"}
+{"title":"minor in something","uk":"","us":""}
+{"title":"minor","uk":"uk  / ˈmaɪ.nə r /","ukp":"/ˈmaɪ.nər/","us":"us  / ˈmaɪ.nɚ /","usp":"/ˈmaɪ.nɚ/"}
+{"title":"minor league","uk":"uk  / ˈmaɪ.nə ˌliːɡ /","ukp":"/ˈmaɪ.nə ˌliːɡ/","us":"us  / ˈmaɪ.nɚ ˌliːɡ /","usp":"/ˈmaɪ.nɚ ˌliːɡ/"}
+{"title":"minoritize","uk":"uk / maɪˈnɒr.ɪ.taɪz /","ukp":"/maɪˈnɒr.ɪ.taɪz/","us":"us / maɪˈnɔːr.ə.taɪz /","usp":"/maɪˈnɔːr.ə.taɪz/"}
+{"title":"minority business","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minority","uk":"uk  / maɪˈnɒr.ə.ti /","ukp":"/maɪˈnɒr.ə.ti/","us":"us  / maɪˈnɔːr.ə.t̬i /","usp":"/maɪˈnɔːr.ə.t̬i/"}
+{"title":"Minority Business Development Agency","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minority business enterprise","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minority interest","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minority ownership","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minority shareholder","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minority shareholding","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minority stockholder","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minority stake","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minority-owned","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"minotaur","uk":"uk  / ˈmaɪ.nə.tɔː r /","ukp":"/ˈmaɪ.nə.tɔːr/","us":"us  / ˈmɪn.ə.tɔːr /","usp":"/ˈmɪn.ə.tɔːr/"}
+{"title":"minster","uk":"uk  / ˈmɪn.stə r /","ukp":"/ˈmɪn.stər/","us":"us  / ˈmɪn.stɚ /","usp":"/ˈmɪn.stɚ/"}
+{"title":"minstrel show","uk":"uk  / ˈmɪn.strəl ˌʃəʊ /","ukp":"/ˈmɪn.strəl ˌʃəʊ/","us":"us  / ˈmɪn.strəl ˌʃoʊ /","usp":"/ˈmɪn.strəl ˌʃoʊ/"}
+{"title":"minstrel","uk":"uk  / ˈmɪn.strəl /","ukp":"/ˈmɪn.strəl/","us":"us  / ˈmɪn.strəl /","usp":"/ˈmɪn.strəl/"}
+{"title":"mint jelly","uk":"uk  / ˌmɪnt ˈdʒel.i /","ukp":"/ˌmɪnt ˈdʒel.i/","us":"us  / ˌmɪnt ˈdʒel.i /","usp":"/ˌmɪnt ˈdʒel.i/"}
+{"title":"mint sauce","uk":"uk  / ˌmɪnt ˈsɔːs /","ukp":"/ˌmɪnt ˈsɔːs/","us":"us  / ˌmɪnt ˈsɑːs /","usp":"/ˌmɪnt ˈsɑːs/"}
+{"title":"mint julep","uk":"uk  / ˌmɪnt ˈdʒuː.lɪp /","ukp":"/ˌmɪnt ˈdʒuː.lɪp/","us":"us  / ˌmɪnt ˈdʒuː.lɪp /","usp":"/ˌmɪnt ˈdʒuː.lɪp/"}
+{"title":"mint","uk":"uk  / mɪnt /","ukp":"/mɪnt/","us":"us  / mɪnt /","usp":"/mɪnt/"}
+{"title":"mintage","uk":"uk  / ˈmɪntɪdʒ /","ukp":"/ˈmɪntɪdʒ/","us":"us ","usp":""}
+{"title":"minted","uk":"uk  / ˈmɪntɪd /","ukp":"/ˈmɪntɪd/","us":"us ","usp":""}
+{"title":"minting","uk":"uk  / mɪnt /","ukp":"/mɪnt/","us":"us  / mɪnt /","usp":"/mɪnt/"}
+{"title":"minty","uk":"uk  / ˈmɪn.ti /","ukp":"/ˈmɪn.ti/","us":"us  / ˈmɪn.t̬i /","usp":"/ˈmɪn.t̬i/"}
+{"title":"miseducate","uk":"uk  / mɪsˈedʒ.ʊ.keɪt /","ukp":"/mɪsˈedʒ.ʊ.keɪt/","us":"us  / ˌmɪsˈedʒ.ə.keɪt /","usp":"/ˌmɪsˈedʒ.ə.keɪt/"}
+{"title":"miseducation","uk":"uk  / ˌmɪs.edʒ.ʊˈkeɪ.ʃ ə n /","ukp":"/ˌmɪs.edʒ.ʊˈkeɪ.ʃən/","us":"us  / ˌmɪs.edʒ.əˈkeɪ.ʃ ə n /","usp":"/ˌmɪs.edʒ.əˈkeɪ.ʃən/"}
+{"title":"misemphasis","uk":"uk  / mɪsˈem.fə.sɪs /","ukp":"/mɪsˈem.fə.sɪs/","us":"us  / ˌmɪsˈem.fə.sɪs /","usp":"/ˌmɪsˈem.fə.sɪs/"}
+{"title":"misemploy","uk":"uk  / ˌmɪs.ɪmˈplɔɪ /","ukp":"/ˌmɪs.ɪmˈplɔɪ/","us":"us  / ˌmɪs.ɪmˈplɔɪ /","usp":"/ˌmɪs.ɪmˈplɔɪ/"}
+{"title":"miser","uk":"uk  / ˈmaɪ.zə r /","ukp":"/ˈmaɪ.zər/","us":"us  / ˈmaɪ.zɚ /","usp":"/ˈmaɪ.zɚ/"}
+{"title":"miserable","uk":"uk  / ˈmɪz. ə r.ə.b ə l /","ukp":"/ˈmɪz.ər.ə.bəl/","us":"us  / ˈmɪz.ɚ.ə.b ə l /","usp":"/ˈmɪz.ɚ.ə.bəl/"}
+{"title":"miserably","uk":"uk  / ˈmɪz. ə r.ə.bli /","ukp":"/ˈmɪz.ər.ə.bli/","us":"us  / ˈmɪz.ɚ.ə.bli /","usp":"/ˈmɪz.ɚ.ə.bli/"}
+{"title":"miserliness","uk":"uk  / ˈmaɪ.z ə l.i.nəs /","ukp":"/ˈmaɪ.zəl.i.nəs/","us":"us  / ˈmaɪ.zɚ.li.nəs /","usp":"/ˈmaɪ.zɚ.li.nəs/"}
+{"title":"miserly","uk":"uk  / ˈmaɪ.z ə l.i /","ukp":"/ˈmaɪ.zəl.i/","us":"us  / ˈmaɪ.zɚ.li /","usp":"/ˈmaɪ.zɚ.li/"}
+{"title":"misery index","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"misery","uk":"uk  / ˈmɪz. ə r.i /","ukp":"/ˈmɪz.ər.i/","us":"us  / ˈmɪz.ɚ.i /","usp":"/ˈmɪz.ɚ.i/"}
+{"title":"misery loves company","uk":"","us":""}
+{"title":"misestimate","uk":"uk  / mɪsˈes.tɪ.meɪt /","ukp":"/mɪsˈes.tɪ.meɪt/","us":"us  / ˌmɪsˈes.tə.meɪt /","usp":"/ˌmɪsˈes.tə.meɪt/"}
+{"title":"misestimation","uk":"uk  / ˌmɪs.es.tɪˈmeɪ.ʃ ə n /","ukp":"/ˌmɪs.es.tɪˈmeɪ.ʃən/","us":"us  / ˌmɪs.es.təˈmeɪ.ʃ ə n /","usp":"/ˌmɪs.es.təˈmeɪ.ʃən/"}
+{"title":"misfeasance","uk":"uk  / ˌmɪsˈfiːz ə ns /","ukp":"/ˌmɪsˈfiːzəns/","us":"us ","usp":""}
+{"title":"misfeed","uk":"uk  / ˈmɪs.fiːd /","ukp":"/ˈmɪs.fiːd/","us":"us  / ˈmɪs.fiːd /","usp":"/ˈmɪs.fiːd/"}
+{"title":"misfile","uk":"uk  / mɪsˈfaɪl /","ukp":"/mɪsˈfaɪl/","us":"us  / ˌmɪsˈfaɪl /","usp":"/ˌmɪsˈfaɪl/"}
+{"title":"misfield","uk":"uk  / ˈmɪs.fiːld /","ukp":"/ˈmɪs.fiːld/","us":"us  / ˈmɪsˌfiːld /","usp":"/ˈmɪsˌfiːld/"}
+{"title":"misfire","uk":"uk  / ˌmɪsˈfaɪə r /","ukp":"/ˌmɪsˈfaɪər/","us":"us  / ˌmɪsˈfaɪr /","usp":"/ˌmɪsˈfaɪr/"}
+{"title":"misfired","uk":"uk  / ˌmɪsˈfaɪə r /","ukp":"/ˌmɪsˈfaɪər/","us":"us  / ˌmɪsˈfaɪr /","usp":"/ˌmɪsˈfaɪr/"}
+{"title":"misfiring","uk":"uk  / ˌmɪsˈfaɪə r /","ukp":"/ˌmɪsˈfaɪər/","us":"us  / ˌmɪsˈfaɪr /","usp":"/ˌmɪsˈfaɪr/"}
+{"title":"misfocus","uk":"uk  / mɪsˈfəʊ.kəs /","ukp":"/mɪsˈfəʊ.kəs/","us":"us  / ˌmɪsˈfoʊ.kəs /","usp":"/ˌmɪsˈfoʊ.kəs/"}
+{"title":"misfortune","uk":"uk  / ˌmɪsˈfɔː.tʃuːn /","ukp":"/ˌmɪsˈfɔː.tʃuːn/","us":"us  / ˌmɪsˈfɔːr.tʃən /","usp":"/ˌmɪsˈfɔːr.tʃən/"}
+{"title":"misfit","uk":"uk  / ˈmɪs.fɪt /","ukp":"/ˈmɪs.fɪt/","us":"us  / ˈmɪs.fɪt /","usp":"/ˈmɪs.fɪt/"}
+{"title":"misgender","uk":"uk  / mɪsˈdʒen.də r /","ukp":"/mɪsˈdʒen.dər/","us":"us  / mɪsˈdʒen.dɚ /","usp":"/mɪsˈdʒen.dɚ/"}
+{"title":"misgauge","uk":"uk  / mɪsˈɡeɪdʒ /","ukp":"/mɪsˈɡeɪdʒ/","us":"us  / ˌmɪsˈɡeɪdʒ /","usp":"/ˌmɪsˈɡeɪdʒ/"}
+{"title":"misgiving","uk":"uk  / ˌmɪsˈɡɪv.ɪŋ /","ukp":"/ˌmɪsˈɡɪv.ɪŋ/","us":"us  / ˌmɪsˈɡɪv.ɪŋ /","usp":"/ˌmɪsˈɡɪv.ɪŋ/"}
+{"title":"misgoverned","uk":"uk  / ˌmɪsˈɡʌv. ə n /","ukp":"/ˌmɪsˈɡʌv.ən/","us":"us  / ˌmɪsˈɡʌv.ɚn /","usp":"/ˌmɪsˈɡʌv.ɚn/"}
+{"title":"misfunction","uk":"uk  / mɪsˈfʌŋk.ʃ ə n /","ukp":"/mɪsˈfʌŋk.ʃən/","us":"us  / ˌmɪsˈfʌŋk.ʃ ə n /","usp":"/ˌmɪsˈfʌŋk.ʃən/"}
+{"title":"misgovern","uk":"uk  / ˌmɪsˈɡʌv. ə n /","ukp":"/ˌmɪsˈɡʌv.ən/","us":"us  / ˌmɪsˈɡʌv.ɚn /","usp":"/ˌmɪsˈɡʌv.ɚn/"}
+{"title":"misgoverning","uk":"uk  / ˌmɪsˈɡʌv. ə n /","ukp":"/ˌmɪsˈɡʌv.ən/","us":"us  / ˌmɪsˈɡʌv.ɚn /","usp":"/ˌmɪsˈɡʌv.ɚn/"}
+{"title":"misgrade","uk":"uk  / mɪsˈɡreɪd /","ukp":"/mɪsˈɡreɪd/","us":"us  / ˌmɪsˈɡreɪd /","usp":"/ˌmɪsˈɡreɪd/"}
+{"title":"misgovernment","uk":"uk  / ˌmɪsˈɡʌv. ə n.mənt /","ukp":"/ˌmɪsˈɡʌv.ən.mənt/","us":"us  / ˌmɪsˈɡʌv.ɚn.mənt /","usp":"/ˌmɪsˈɡʌv.ɚn.mənt/"}
+{"title":"misguidedly","uk":"uk  / ˌmɪsˈɡaɪ.dɪd.li /","ukp":"/ˌmɪsˈɡaɪ.dɪd.li/","us":"us  / ˌmɪsˈɡaɪ.dɪd.li /","usp":"/ˌmɪsˈɡaɪ.dɪd.li/"}
+{"title":"misguided","uk":"uk  / ˌmɪsˈɡaɪ.dɪd /","ukp":"/ˌmɪsˈɡaɪ.dɪd/","us":"us  / ˌmɪsˈɡaɪ.dɪd /","usp":"/ˌmɪsˈɡaɪ.dɪd/"}
+{"title":"mishandle","uk":"uk  / ˌmɪsˈhæn.d ə l /","ukp":"/ˌmɪsˈhæn.dəl/","us":"us  / ˌmɪsˈhæn.d ə l /","usp":"/ˌmɪsˈhæn.dəl/"}
+{"title":"mishandled","uk":"uk  / ˌmɪsˈhæn.d ə l /","ukp":"/ˌmɪsˈhæn.dəl/","us":"us  / ˌmɪsˈhæn.d ə l /","usp":"/ˌmɪsˈhæn.dəl/"}
+{"title":"mishap","uk":"uk  / ˈmɪs.hæp /","ukp":"/ˈmɪs.hæp/","us":"us  / ˈmɪs.hæp /","usp":"/ˈmɪs.hæp/"}
+{"title":"mishandling","uk":"uk  / ˌmɪsˈhæn.d ə l.ɪŋ /","ukp":"/ˌmɪsˈhæn.dəl.ɪŋ/","us":"us  / ˌmɪsˈhæn.d ə l.ɪŋ /","usp":"/ˌmɪsˈhæn.dəl.ɪŋ/"}
+{"title":"mishit","uk":"uk  / mɪsˈhɪt /","ukp":"/mɪsˈhɪt/","us":"us  / mɪsˈhɪt /","usp":"/mɪsˈhɪt/"}
+{"title":"mishear","uk":"uk  / ˌmɪsˈhɪə r /","ukp":"/ˌmɪsˈhɪər/","us":"us  / ˌmɪsˈhɪr /","usp":"/ˌmɪsˈhɪr/"}
+{"title":"mishmash","uk":"uk  / ˈmɪʃ.mæʃ /","ukp":"/ˈmɪʃ.mæʃ/","us":"us  / ˈmɪʃ.mæʃ /","usp":"/ˈmɪʃ.mæʃ/"}
+{"title":"misidentification","uk":"uk  / ˌmɪs.aɪ.den.tɪ.fɪˈkeɪ.ʃ ə n /","ukp":"/ˌmɪs.aɪ.den.tɪ.fɪˈkeɪ.ʃən/","us":"us  / ˌmɪs.aɪ.den.t̬ə.fəˈkeɪ.ʃ ə n /","usp":"/ˌmɪs.aɪ.den.t̬ə.fəˈkeɪ.ʃən/"}
+{"title":"misidentify","uk":"uk  / ˌmɪs.aɪˈden.tɪ.faɪ /","ukp":"/ˌmɪs.aɪˈden.tɪ.faɪ/","us":"us  / ˌmɪs.aɪˈden.t̬ə.faɪ /","usp":"/ˌmɪs.aɪˈden.t̬ə.faɪ/"}
+{"title":"misinformation","uk":"uk  / ˌmɪs.ɪn.fəˈmeɪ.ʃ ə n /","ukp":"/ˌmɪs.ɪn.fəˈmeɪ.ʃən/","us":"us  / ˌmɪs.ɪn.fɚˈmeɪ.ʃ ə n /","usp":"/ˌmɪs.ɪn.fɚˈmeɪ.ʃən/"}
+{"title":"misinformed","uk":"uk  / ˌmɪs.ɪnˈfɔːm /","ukp":"/ˌmɪs.ɪnˈfɔːm/","us":"us  / ˌmɪs.ɪnˈfɔːrm /","usp":"/ˌmɪs.ɪnˈfɔːrm/"}
+{"title":"misinform","uk":"uk  / ˌmɪs.ɪnˈfɔːm /","ukp":"/ˌmɪs.ɪnˈfɔːm/","us":"us  / ˌmɪs.ɪnˈfɔːrm /","usp":"/ˌmɪs.ɪnˈfɔːrm/"}
+{"title":"misinforming","uk":"uk  / ˌmɪs.ɪnˈfɔːm /","ukp":"/ˌmɪs.ɪnˈfɔːm/","us":"us  / ˌmɪs.ɪnˈfɔːrm /","usp":"/ˌmɪs.ɪnˈfɔːrm/"}
+{"title":"mispronunciation","uk":"uk  / ˌmɪs.prəˌnʌn.siˈeɪ.ʃ ə n /","ukp":"/ˌmɪs.prəˌnʌn.siˈeɪ.ʃən/","us":"us  / ˌmɪs.prəˌnʌn.siˈeɪ.ʃ ə n /","usp":"/ˌmɪs.prəˌnʌn.siˈeɪ.ʃən/"}
+{"title":"misquoted","uk":"uk  / ˌmɪsˈkwəʊt /","ukp":"/ˌmɪsˈkwəʊt/","us":"us  / ˌmɪsˈkwoʊt /","usp":"/ˌmɪsˈkwoʊt/"}
+{"title":"misquote","uk":"uk  / ˌmɪsˈkwəʊt /","ukp":"/ˌmɪsˈkwəʊt/","us":"us  / ˌmɪsˈkwoʊt /","usp":"/ˌmɪsˈkwoʊt/"}
+{"title":"misquotation","uk":"uk  / ˌmɪs.kwəʊˈteɪ.ʃ ə n /","ukp":"/ˌmɪs.kwəʊˈteɪ.ʃən/","us":"us  / ˌmɪs.kwoʊˈteɪ.ʃ ə n /","usp":"/ˌmɪs.kwoʊˈteɪ.ʃən/"}
+{"title":"misquoting","uk":"uk  / ˌmɪsˈkwəʊt /","ukp":"/ˌmɪsˈkwəʊt/","us":"us  / ˌmɪsˈkwoʊt /","usp":"/ˌmɪsˈkwoʊt/"}
+{"title":"misrecord","uk":"uk  / ˌmɪs.rɪˈkɔːd /","ukp":"/ˌmɪs.rɪˈkɔːd/","us":"us  / ˌmɪs.rɪˈkɔːrd /","usp":"/ˌmɪs.rɪˈkɔːrd/"}
+{"title":"misreading","uk":"uk  / ˌmɪsˈriː.dɪŋ /","ukp":"/ˌmɪsˈriː.dɪŋ/","us":"us  / ˌmɪsˈriː.dɪŋ /","usp":"/ˌmɪsˈriː.dɪŋ/"}
+{"title":"misread","uk":"uk  / ˌmɪsˈriːd /","ukp":"/ˌmɪsˈriːd/","us":"us  / ˌmɪsˈriːd /","usp":"/ˌmɪsˈriːd/"}
+{"title":"misremember","uk":"uk  / ˌmɪs.rɪˈmem.bə r /","ukp":"/ˌmɪs.rɪˈmem.bər/","us":"us  / ˌmɪs.rɪˈmem.bɚ /","usp":"/ˌmɪs.rɪˈmem.bɚ/"}
+{"title":"misrender","uk":"uk  / mɪsˈren.də r /","ukp":"/mɪsˈren.dər/","us":"us  / ˌmɪsˈren.dɚ /","usp":"/ˌmɪsˈren.dɚ/"}
+{"title":"misreport","uk":"uk  / ˌmɪs.rɪˈpɔːt /","ukp":"/ˌmɪs.rɪˈpɔːt/","us":"us  / ˌmɪs.rɪˈpɔːrt /","usp":"/ˌmɪs.rɪˈpɔːrt/"}
+{"title":"misreported","uk":"uk  / ˌmɪs.rɪˈpɔːt /","ukp":"/ˌmɪs.rɪˈpɔːt/","us":"us  / ˌmɪs.rɪˈpɔːrt /","usp":"/ˌmɪs.rɪˈpɔːrt/"}
+{"title":"misreporting","uk":"uk  / ˌmɪs.rɪˈpɔːt /","ukp":"/ˌmɪs.rɪˈpɔːt/","us":"us  / ˌmɪs.rɪˈpɔːrt /","usp":"/ˌmɪs.rɪˈpɔːrt/"}
+{"title":"misrepresent","uk":"uk  / ˌmɪs.rep.rɪˈzent /","ukp":"/ˌmɪs.rep.rɪˈzent/","us":"us  / ˌmɪs.rep.rɪˈzent /","usp":"/ˌmɪs.rep.rɪˈzent/"}
+{"title":"misrepresentation","uk":"uk  / ˌmɪs.rep.rɪ.zenˈteɪ.ʃ ə n /","ukp":"/ˌmɪs.rep.rɪ.zenˈteɪ.ʃən/","us":"us  / ˌmɪs.rep.rɪ.zenˈteɪ.ʃ ə n /","usp":"/ˌmɪs.rep.rɪ.zenˈteɪ.ʃən/"}
+{"title":"misrepresented","uk":"uk  / ˌmɪs.rep.rɪˈzent /","ukp":"/ˌmɪs.rep.rɪˈzent/","us":"us  / ˌmɪs.rep.rɪˈzent /","usp":"/ˌmɪs.rep.rɪˈzent/"}
+{"title":"misrepresenting","uk":"uk  / ˌmɪs.rep.rɪˈzent /","ukp":"/ˌmɪs.rep.rɪˈzent/","us":"us  / ˌmɪs.rep.rɪˈzent /","usp":"/ˌmɪs.rep.rɪˈzent/"}
+{"title":"misroute","uk":"uk  / mɪsˈruːt /","ukp":"/mɪsˈruːt/","us":"us  / ˌmɪsˈruːt /","usp":"/ˌmɪsˈruːt/"}
+{"title":"misrule","uk":"uk  / ˌmɪsˈruːl /","ukp":"/ˌmɪsˈruːl/","us":"us  / ˌmɪsˈruːl /","usp":"/ˌmɪsˈruːl/"}
+{"title":"miss a chance/opportunity","uk":"","us":""}
+{"title":"miss","uk":"uk  / mɪs /","ukp":"/mɪs/","us":"us  / mɪs /","usp":"/mɪs/"}
+{"title":"miss someone/something out","uk":"uk  / mɪs /","ukp":"/mɪs/","us":"us  / mɪs /","usp":"/mɪs/"}
+{"title":"miss the boat","uk":"","us":""}
+{"title":"miss the mark","uk":"","us":""}
+{"title":"miss the point","uk":"","us":""}
+{"title":"missed","uk":"uk  / mɪs /","ukp":"/mɪs/","us":"us  / mɪs /","usp":"/mɪs/"}
+{"title":"missell","uk":"uk  / ˌmɪsˈsel /","ukp":"/ˌmɪsˈsel/","us":"us  / ˌmɪsˈsel /","usp":"/ˌmɪsˈsel/"}
+{"title":"misselling","uk":"uk  / ˌmɪsˈsel.ɪŋ /","ukp":"/ˌmɪsˈsel.ɪŋ/","us":"us  / ˌmɪsˈsel.ɪŋ /","usp":"/ˌmɪsˈsel.ɪŋ/"}
+{"title":"misshape","uk":"uk  / mɪsˈʃeɪp /","ukp":"/mɪsˈʃeɪp/","us":"us  / ˌmɪsˈʃeɪp /","usp":"/ˌmɪsˈʃeɪp/"}
+{"title":"misshapen","uk":"uk  / mɪsˈʃeɪ.p ə n /","ukp":"/mɪsˈʃeɪ.pən/","us":"us  / mɪsˈʃeɪ.p ə n /","usp":"/mɪsˈʃeɪ.pən/"}
+{"title":"missile","uk":"uk  / ˈmɪs.aɪl /","ukp":"/ˈmɪs.aɪl/","us":"us  / ˈmɪs. ə l /","usp":"/ˈmɪs.əl/"}
+{"title":"missing","uk":"uk  / ˈmɪs.ɪŋ /","ukp":"/ˈmɪs.ɪŋ/","us":"us  / ˈmɪs.ɪŋ /","usp":"/ˈmɪs.ɪŋ/"}
+{"title":"missing link","uk":"uk  / ˌmɪs.ɪŋ ˈlɪŋk /","ukp":"/ˌmɪs.ɪŋ ˈlɪŋk/","us":"us  / ˌmɪs.ɪŋ ˈlɪŋk /","usp":"/ˌmɪs.ɪŋ ˈlɪŋk/"}
+{"title":"missing person","uk":"uk  / ˌmɪs.ɪŋ ˈpɜː.s ə n /","ukp":"/ˌmɪs.ɪŋ ˈpɜː.sən/","us":"us  / ˌmɪs.ɪŋ ˈpɝː.s ə n /","usp":"/ˌmɪs.ɪŋ ˈpɝː.sən/"}
+{"title":"mission creep","uk":"uk  / ˈmɪʃ. ə n ˌkriːp /","ukp":"/ˈmɪʃ.ən ˌkriːp/","us":"us  / ˈmɪʃ. ə n ˌkriːp /","usp":"/ˈmɪʃ.ən ˌkriːp/"}
+{"title":"mission statement","uk":"uk  / ˈmɪʃ. ə n ˌsteɪt.mənt /","ukp":"/ˈmɪʃ.ən ˌsteɪt.mənt/","us":"us  / ˈmɪʃ. ə n ˌsteɪt.mənt /","usp":"/ˈmɪʃ.ən ˌsteɪt.mənt/"}
+{"title":"mission","uk":"uk  / ˈmɪʃ. ə n /","ukp":"/ˈmɪʃ.ən/","us":"us  / ˈmɪʃ. ə n /","usp":"/ˈmɪʃ.ən/"}
+{"title":"mission-critical","uk":"uk  / ˌmɪʃ. ə nˈkrɪt.ɪ.k ə l /","ukp":"/ˌmɪʃ.ənˈkrɪt.ɪ.kəl/","us":"us  / ˌmɪʃ. ə nˈkrɪt̬.ɪ.k ə l /","usp":"/ˌmɪʃ.ənˈkrɪt̬.ɪ.kəl/"}
+{"title":"mission control","uk":"uk  / ˌmɪʃ. ə n kənˈtrəʊl /","ukp":"/ˌmɪʃ.ən kənˈtrəʊl/","us":"us  / ˌmɪʃ. ə n kənˈtroʊl /","usp":"/ˌmɪʃ.ən kənˈtroʊl/"}
+{"title":"missionary","uk":"uk  / ˈmɪʃ. ə n.ri /","ukp":"/ˈmɪʃ.ən.ri/","us":"us  / ˈmɪʃ.er.i /","usp":"/ˈmɪʃ.er.i/"}
+{"title":"missionary position","uk":"uk  / ˈmɪʃ. ə n.ri pəˌzɪʃ. ə n /","ukp":"/ˈmɪʃ.ən.ri pəˌzɪʃ.ən/","us":"us  / ˈmɪʃ.er.i pəˌzɪʃ. ə n /","usp":"/ˈmɪʃ.er.i pəˌzɪʃ.ən/"}
+{"title":"missionary zeal","uk":"uk  / ˌmɪʃ. ə n.ri ˈziːl /","ukp":"/ˌmɪʃ.ən.ri ˈziːl/","us":"us  / ˌmɪʃ.er.i ˈziːl /","usp":"/ˌmɪʃ.er.i ˈziːl/"}
+{"title":"Mississippi","uk":"uk  / ˌmɪs.ɪˈsɪp.i /","ukp":"/ˌmɪs.ɪˈsɪp.i/","us":"us  / ˌmɪs.ɪˈsɪp.i /","usp":"/ˌmɪs.ɪˈsɪp.i/"}
+{"title":"Mississippian","uk":"uk  / ˌmɪs.ɪˈsɪp.i.ən /","ukp":"/ˌmɪs.ɪˈsɪp.i.ən/","us":"us  / ˌmɪs.ɪˈsɪp.i.ən /","usp":"/ˌmɪs.ɪˈsɪp.i.ən/"}
+{"title":"missive","uk":"uk  / ˈmɪs.ɪv /","ukp":"/ˈmɪs.ɪv/","us":"us  / ˈmɪs.ɪv /","usp":"/ˈmɪs.ɪv/"}
+{"title":"Missouri","uk":"uk  / mɪˈzʊə.ri /","ukp":"/mɪˈzʊə.ri/","us":"us  / mɪˈzʊr.i /","usp":"/mɪˈzʊr.i/"}
+{"title":"Missourian","uk":"uk  / mɪˈzʊə.ri.ən /","ukp":"/mɪˈzʊə.ri.ən/","us":"us  / mɪˈzʊr.i.ən /","usp":"/mɪˈzʊr.i.ən/"}
+{"title":"misspeak","uk":"uk  / ˌmɪsˈspiːk /","ukp":"/ˌmɪsˈspiːk/","us":"us  / ˌmɪsˈspiːk /","usp":"/ˌmɪsˈspiːk/"}
+{"title":"misspell","uk":"uk  / ˌmɪsˈspel /","ukp":"/ˌmɪsˈspel/","us":"us  / ˌmɪsˈspel /","usp":"/ˌmɪsˈspel/"}
+{"title":"misinterpret","uk":"uk  / ˌmɪs.ɪnˈtɜː.prət /","ukp":"/ˌmɪs.ɪnˈtɜː.prət/","us":"us  / ˌmɪs.ɪnˈtɝː.prət /","usp":"/ˌmɪs.ɪnˈtɝː.prət/"}
+{"title":"misinterpretation","uk":"uk  / ˌmɪs.ɪnˌtɜː.prəˈteɪ.ʃ ə n /","ukp":"/ˌmɪs.ɪnˌtɜː.prəˈteɪ.ʃən/","us":"us  / ˌmɪs.ɪnˌtɝː.prəˈteɪ.ʃ ə n /","usp":"/ˌmɪs.ɪnˌtɝː.prəˈteɪ.ʃən/"}
+{"title":"misinterpreted","uk":"uk  / ˌmɪs.ɪnˈtɜː.prət /","ukp":"/ˌmɪs.ɪnˈtɜː.prət/","us":"us  / ˌmɪs.ɪnˈtɝː.prət /","usp":"/ˌmɪs.ɪnˈtɝː.prət/"}
+{"title":"misinterpreting","uk":"uk  / ˌmɪs.ɪnˈtɜː.prət /","ukp":"/ˌmɪs.ɪnˈtɜː.prət/","us":"us  / ˌmɪs.ɪnˈtɝː.prət /","usp":"/ˌmɪs.ɪnˈtɝː.prət/"}
+{"title":"misjudge","uk":"uk  / ˌmɪsˈdʒʌdʒ /","ukp":"/ˌmɪsˈdʒʌdʒ/","us":"us  / ˌmɪsˈdʒʌdʒ /","usp":"/ˌmɪsˈdʒʌdʒ/"}
+{"title":"misjudged","uk":"uk  / ˌmɪsˈdʒʌdʒ /","ukp":"/ˌmɪsˈdʒʌdʒ/","us":"us  / ˌmɪsˈdʒʌdʒ /","usp":"/ˌmɪsˈdʒʌdʒ/"}
+{"title":"misjudging","uk":"uk  / ˌmɪsˈdʒʌdʒ /","ukp":"/ˌmɪsˈdʒʌdʒ/","us":"us  / ˌmɪsˈdʒʌdʒ /","usp":"/ˌmɪsˈdʒʌdʒ/"}
+{"title":"misjudgment","uk":"uk  / ˌmɪsˈdʒʌdʒ.mənt /","ukp":"/ˌmɪsˈdʒʌdʒ.mənt/","us":"us  / ˌmɪsˈdʒʌdʒ.mənt /","usp":"/ˌmɪsˈdʒʌdʒ.mənt/"}
+{"title":"miskick","uk":"uk  / mɪsˈkɪk /","ukp":"/mɪsˈkɪk/","us":"us  / ˌmɪsˈkɪk /","usp":"/ˌmɪsˈkɪk/"}
+{"title":"mislabel","uk":"uk  / mɪsˈleɪ.b ə l /","ukp":"/mɪsˈleɪ.bəl/","us":"us  / ˌmɪsˈleɪ.b ə l /","usp":"/ˌmɪsˈleɪ.bəl/"}
+{"title":"mislaid","uk":"","us":""}
+{"title":"mislay","uk":"uk  / ˌmɪsˈleɪ /","ukp":"/ˌmɪsˈleɪ/","us":"us  / ˌmɪsˈleɪ /","usp":"/ˌmɪsˈleɪ/"}
+{"title":"mislead","uk":"uk  / ˌmɪsˈliːd /","ukp":"/ˌmɪsˈliːd/","us":"us  / ˌmɪsˈliːd /","usp":"/ˌmɪsˈliːd/"}
+{"title":"misleading","uk":"uk  / ˌmɪsˈliː.dɪŋ /","ukp":"/ˌmɪsˈliː.dɪŋ/","us":"us  / ˌmɪsˈliː.dɪŋ /","usp":"/ˌmɪsˈliː.dɪŋ/"}
+{"title":"misleadingly","uk":"uk  / ˌmɪsˈliː.dɪŋ.li /","ukp":"/ˌmɪsˈliː.dɪŋ.li/","us":"us  / ˌmɪsˈliː.dɪŋ.li /","usp":"/ˌmɪsˈliː.dɪŋ.li/"}
+{"title":"mislearn","uk":"uk  / mɪsˈlɜːn /","ukp":"/mɪsˈlɜːn/","us":"us  / ˌmɪsˈlɝːn /","usp":"/ˌmɪsˈlɝːn/"}
+{"title":"mislocate","uk":"uk  / ˌmɪs.ləʊˈkeɪt /","ukp":"/ˌmɪs.ləʊˈkeɪt/","us":"us / ˌmɪs.ˈloʊ.keɪt /","usp":"/ˌmɪs.ˈloʊ.keɪt/"}
+{"title":"misled","uk":"","us":""}
+{"title":"mislocation","uk":"uk  / ˌmɪs.ləʊˈkeɪ.ʃ ə n /","ukp":"/ˌmɪs.ləʊˈkeɪ.ʃən/","us":"us  / ˌmɪs.loʊˈkeɪ.ʃ ə n /","usp":"/ˌmɪs.loʊˈkeɪ.ʃən/"}
+{"title":"mismanage","uk":"uk  / ˌmɪsˈmæn.ɪdʒ /","ukp":"/ˌmɪsˈmæn.ɪdʒ/","us":"us  / ˌmɪsˈmæn.ɪdʒ /","usp":"/ˌmɪsˈmæn.ɪdʒ/"}
+{"title":"mismanaged","uk":"uk  / ˌmɪsˈmæn.ɪdʒ /","ukp":"/ˌmɪsˈmæn.ɪdʒ/","us":"us  / ˌmɪsˈmæn.ɪdʒ /","usp":"/ˌmɪsˈmæn.ɪdʒ/"}
+{"title":"mismanagement","uk":"uk  / ˌmɪsˈmæn.ɪdʒ.mənt /","ukp":"/ˌmɪsˈmæn.ɪdʒ.mənt/","us":"us  / ˌmɪsˈmæn.ɪdʒ.mənt /","usp":"/ˌmɪsˈmæn.ɪdʒ.mənt/"}
+{"title":"mismanaging","uk":"uk  / ˌmɪsˈmæn.ɪdʒ /","ukp":"/ˌmɪsˈmæn.ɪdʒ/","us":"us  / ˌmɪsˈmæn.ɪdʒ /","usp":"/ˌmɪsˈmæn.ɪdʒ/"}
+{"title":"mismatch","uk":"uk  / ˌmɪsˈmætʃ /","ukp":"/ˌmɪsˈmætʃ/","us":"us  / ˌmɪsˈmætʃ /","usp":"/ˌmɪsˈmætʃ/"}
+{"title":"mismatched","uk":"uk  / ˌmɪsˈmætʃ /","ukp":"/ˌmɪsˈmætʃ/","us":"us  / ˌmɪsˈmætʃ /","usp":"/ˌmɪsˈmætʃ/"}
+{"title":"mismatching","uk":"uk  / ˌmɪsˈmætʃ /","ukp":"/ˌmɪsˈmætʃ/","us":"us  / ˌmɪsˈmætʃ /","usp":"/ˌmɪsˈmætʃ/"}
+{"title":"mismeasure","uk":"uk  / mɪsˈmeʒ.ə r /","ukp":"/mɪsˈmeʒ.ər/","us":"us  / ˌmɪsˈmeʒ.ɚ /","usp":"/ˌmɪsˈmeʒ.ɚ/"}
+{"title":"mismeasurement","uk":"uk  / mɪsˈmeʒ.ə.mənt /","ukp":"/mɪsˈmeʒ.ə.mənt/","us":"us  / ˌmɪsˈmeʒ.ɚ.mənt /","usp":"/ˌmɪsˈmeʒ.ɚ.mənt/"}
+{"title":"misnomer","uk":"uk  / ˌmɪsˈnəʊ.mə r /","ukp":"/ˌmɪsˈnəʊ.mər/","us":"us  / ˌmɪsˈnoʊ.mɚ /","usp":"/ˌmɪsˈnoʊ.mɚ/"}
+{"title":"miso","uk":"uk  / ˈmiː.səʊ /","ukp":"/ˈmiː.səʊ/","us":"us  / ˈmiː.soʊ /","usp":"/ˈmiː.soʊ/"}
+{"title":"misogynist","uk":"uk  / mɪˈsɒdʒ. ə n.ɪst /","ukp":"/mɪˈsɒdʒ.ən.ɪst/","us":"us  / mɪˈsɑː.dʒ ə n.ɪst /","usp":"/mɪˈsɑː.dʒən.ɪst/"}
+{"title":"misogynoir","uk":"uk  / mɪˈsɒdʒ.ə.nwɑː r /","ukp":"/mɪˈsɒdʒ.ə.nwɑːr/","us":"us  / mɪˈsɑː.dʒə.nwɑːr /","usp":"/mɪˈsɑː.dʒə.nwɑːr/"}
+{"title":"misogynistic","uk":"uk  / mɪˌsɒdʒ. ə nˈɪs.tɪk /","ukp":"/mɪˌsɒdʒ.ənˈɪs.tɪk/","us":"us  / mɪˌsɑː.dʒɪˈnɪs.tɪk /","usp":"/mɪˌsɑː.dʒɪˈnɪs.tɪk/"}
+{"title":"misogyny","uk":"uk  / mɪˈsɒdʒ. ə n.i /","ukp":"/mɪˈsɒdʒ.ən.i/","us":"us  / mɪˈsɑː.dʒ ə n.i /","usp":"/mɪˈsɑː.dʒən.i/"}
+{"title":"misophobia","uk":"","us":""}
+{"title":"misophonia","uk":"uk  / ˌmɪs.əˈfəʊ.ni.ə /","ukp":"/ˌmɪs.əˈfəʊ.ni.ə/","us":"us  / ˌmɪs.əˈfoʊ.ni.ə /","usp":"/ˌmɪs.əˈfoʊ.ni.ə/"}
+{"title":"misperceive","uk":"uk  / ˌmɪs.pəˈsiːv /","ukp":"/ˌmɪs.pəˈsiːv/","us":"us  / ˌmɪs.pɚˈsiːv /","usp":"/ˌmɪs.pɚˈsiːv/"}
+{"title":"misper","uk":"uk  / ˈmɪs.pə r /","ukp":"/ˈmɪs.pər/","us":"us  / ˈmɪs.pɚ /","usp":"/ˈmɪs.pɚ/"}
+{"title":"misorder","uk":"uk  / mɪsˈɔː.də r /","ukp":"/mɪsˈɔː.dər/","us":"us  / ˌmɪsˈɔːr.dɚ /","usp":"/ˌmɪsˈɔːr.dɚ/"}
+{"title":"misperception","uk":"uk  / ˌmɪs.pəˈsep.ʃ ə n /","ukp":"/ˌmɪs.pəˈsep.ʃən/","us":"us  / ˌmɪs.pɚˈsep.ʃ ə n /","usp":"/ˌmɪs.pɚˈsep.ʃən/"}
+{"title":"misplace","uk":"uk  / ˌmɪsˈpleɪs /","ukp":"/ˌmɪsˈpleɪs/","us":"us  / ˌmɪsˈpleɪs /","usp":"/ˌmɪsˈpleɪs/"}
+{"title":"misplaced","uk":"uk  / ˌmɪsˈpleɪst /","ukp":"/ˌmɪsˈpleɪst/","us":"us  / ˌmɪsˈpleɪst /","usp":"/ˌmɪsˈpleɪst/"}
+{"title":"misplacing","uk":"uk  / ˌmɪsˈpleɪs /","ukp":"/ˌmɪsˈpleɪs/","us":"us  / ˌmɪsˈpleɪs /","usp":"/ˌmɪsˈpleɪs/"}
+{"title":"misplan","uk":"uk  / mɪsˈplæn /","ukp":"/mɪsˈplæn/","us":"us  / ˌmɪsˈplæn /","usp":"/ˌmɪsˈplæn/"}
+{"title":"misposition","uk":"uk  / ˌmɪs.pəˈzɪʃ. ə n /","ukp":"/ˌmɪs.pəˈzɪʃ.ən/","us":"us  / ˌmɪs.pəˈzɪʃ. ə n /","usp":"/ˌmɪs.pəˈzɪʃ.ən/"}
+{"title":"misprint","uk":"uk  / ˈmɪs.prɪnt /","ukp":"/ˈmɪs.prɪnt/","us":"us  / ˈmɪs.prɪnt /","usp":"/ˈmɪs.prɪnt/"}
+{"title":"misprogram","uk":"uk  / mɪsˈprəʊ.ɡræm /","ukp":"/mɪsˈprəʊ.ɡræm/","us":"us  / ˌmɪsˈproʊ.ɡræm /","usp":"/ˌmɪsˈproʊ.ɡræm/"}
+{"title":"mispronounce","uk":"uk  / ˌmɪs.prəˈnaʊns /","ukp":"/ˌmɪs.prəˈnaʊns/","us":"us  / ˌmɪs.prəˈnaʊns /","usp":"/ˌmɪs.prəˈnaʊns/"}
+{"title":"mispronounced","uk":"uk  / ˌmɪs.prəˈnaʊns /","ukp":"/ˌmɪs.prəˈnaʊns/","us":"us  / ˌmɪs.prəˈnaʊns /","usp":"/ˌmɪs.prəˈnaʊns/"}
+{"title":"mispronouncing","uk":"uk  / ˌmɪs.prəˈnaʊns /","ukp":"/ˌmɪs.prəˈnaʊns/","us":"us  / ˌmɪs.prəˈnaʊns /","usp":"/ˌmɪs.prəˈnaʊns/"}
+{"title":"misspelt","uk":"","us":""}
+{"title":"misspelling","uk":"uk  / ˌmɪsˈspel.ɪŋ /","ukp":"/ˌmɪsˈspel.ɪŋ/","us":"us  / ˌmɪsˈspel.ɪŋ /","usp":"/ˌmɪsˈspel.ɪŋ/"}
+{"title":"misspend","uk":"uk  / ˌmɪsˈspend /","ukp":"/ˌmɪsˈspend/","us":"us  / ˌmɪsˈspend /","usp":"/ˌmɪsˈspend/"}
+{"title":"misspent","uk":"","us":""}
+{"title":"misstate","uk":"uk  / ˌmɪsˈsteɪt /","ukp":"/ˌmɪsˈsteɪt/","us":"us  / ˌmɪsˈsteɪt /","usp":"/ˌmɪsˈsteɪt/"}
+{"title":"misstated","uk":"uk  / ˌmɪsˈsteɪt /","ukp":"/ˌmɪsˈsteɪt/","us":"us  / ˌmɪsˈsteɪt /","usp":"/ˌmɪsˈsteɪt/"}
+{"title":"misstating","uk":"uk  / ˌmɪsˈsteɪt /","ukp":"/ˌmɪsˈsteɪt/","us":"us  / ˌmɪsˈsteɪt /","usp":"/ˌmɪsˈsteɪt/"}
+{"title":"misstatement","uk":"uk  / ˌmɪsˈsteɪt.mənt /","ukp":"/ˌmɪsˈsteɪt.mənt/","us":"us  / ˌmɪsˈsteɪt.mənt /","usp":"/ˌmɪsˈsteɪt.mənt/"}
+{"title":"misstep","uk":"uk  / mɪsˈstep /","ukp":"/mɪsˈstep/","us":"us  / mɪsˈstep /","usp":"/mɪsˈstep/"}
+{"title":"missus","uk":"uk  / ˈmɪs.ɪz /","ukp":"/ˈmɪs.ɪz/","us":"us  / ˈmɪs.ɪz /","usp":"/ˈmɪs.ɪz/"}
+{"title":"missy","uk":"uk / ˈmɪs.i /","ukp":"/ˈmɪs.i/","us":"us / ˈmɪs.i /","usp":"/ˈmɪs.i/"}
+{"title":"mist","uk":"uk  / mɪst /","ukp":"/mɪst/","us":"us  / mɪst /","usp":"/mɪst/"}
+{"title":"mist ( something ) over/up","uk":"uk  / mɪst /","ukp":"/mɪst/","us":"us  / mɪst /","usp":"/mɪst/"}
+{"title":"mistakable","uk":"uk  / mɪˈsteɪ.kə.b ə l /","ukp":"/mɪˈsteɪ.kə.bəl/","us":"us  / mɪˈsteɪ.kə.b ə l /","usp":"/mɪˈsteɪ.kə.bəl/"}
+{"title":"mistake someone/something for someone/something","uk":"uk  / mɪˈsteɪk /","ukp":"/mɪˈsteɪk/","us":"us  / mɪˈsteɪk /","usp":"/mɪˈsteɪk/"}
+{"title":"mistake","uk":"uk  / mɪˈsteɪk /","ukp":"/mɪˈsteɪk/","us":"us  / mɪˈsteɪk /","usp":"/mɪˈsteɪk/"}
+{"title":"mistaken","uk":"uk  / mɪˈsteɪ.k ə n /","ukp":"/mɪˈsteɪ.kən/","us":"us  / mɪˈsteɪ.k ə n /","usp":"/mɪˈsteɪ.kən/"}
+{"title":"mistaking","uk":"","us":""}
+{"title":"mistakenly","uk":"uk  / mɪˈsteɪ.k ə n.li /","ukp":"/mɪˈsteɪ.kən.li/","us":"us  / mɪˈsteɪ.k ə n.li /","usp":"/mɪˈsteɪ.kən.li/"}
+{"title":"mister","uk":"uk  / ˈmɪs.tə r /","ukp":"/ˈmɪs.tər/","us":"us  / ˈmɪs.tɚ /","usp":"/ˈmɪs.tɚ/"}
+{"title":"Mister Big","uk":"uk  / ˌmɪs.tə ˈbɪɡ /","ukp":"/ˌmɪs.tə ˈbɪɡ/","us":"us  / ˌmɪs.tɚ ˈbɪɡ /","usp":"/ˌmɪs.tɚ ˈbɪɡ/"}
+{"title":"mistily","uk":"uk  / ˈmɪs.t ə l.i /","ukp":"/ˈmɪs.təl.i/","us":"us  / ˈmɪs.t ə l.i /","usp":"/ˈmɪs.təl.i/"}
+{"title":"mistime","uk":"uk  / ˌmɪsˈtaɪm /","ukp":"/ˌmɪsˈtaɪm/","us":"us  / ˌmɪsˈtaɪm /","usp":"/ˌmɪsˈtaɪm/"}
+{"title":"mistimed","uk":"uk  / ˌmɪsˈtaɪm /","ukp":"/ˌmɪsˈtaɪm/","us":"us  / ˌmɪsˈtaɪm /","usp":"/ˌmɪsˈtaɪm/"}
+{"title":"mistiming","uk":"uk  / ˌmɪsˈtaɪm /","ukp":"/ˌmɪsˈtaɪm/","us":"us  / ˌmɪsˈtaɪm /","usp":"/ˌmɪsˈtaɪm/"}
+{"title":"mistiness","uk":"uk  / ˈmɪs.ti.nəs /","ukp":"/ˈmɪs.ti.nəs/","us":"us  / ˈmɪs.ti.nəs /","usp":"/ˈmɪs.ti.nəs/"}
+{"title":"mistitled","uk":"uk  / mɪsˈtaɪ.t ə ld /","ukp":"/mɪsˈtaɪ.təld/","us":"us  / ˌmɪsˈtaɪ.t̬ ə ld /","usp":"/ˌmɪsˈtaɪ.t̬əld/"}
+{"title":"mistletoe","uk":"uk  / ˈmɪs. ə l.təʊ /","ukp":"/ˈmɪs.əl.təʊ/","us":"us  / ˈmɪs. ə l.toʊ /","usp":"/ˈmɪs.əl.toʊ/"}
+{"title":"mistook","uk":"","us":""}
+{"title":"mistranscribe","uk":"uk  / ˌmɪs.trænˈskraɪb /","ukp":"/ˌmɪs.trænˈskraɪb/","us":"us  / ˌmɪs.trænˈskraɪb /","usp":"/ˌmɪs.trænˈskraɪb/"}
+{"title":"mistranslate","uk":"uk  / ˌmɪs.trænzˈleɪt /","ukp":"/ˌmɪs.trænzˈleɪt/","us":"us  / ˌmɪsˈtrænz.leɪt /","usp":"/ˌmɪsˈtrænz.leɪt/"}
+{"title":"mistranscription","uk":"uk  / ˌmɪs.trænˈskrɪp.ʃ ə n /","ukp":"/ˌmɪs.trænˈskrɪp.ʃən/","us":"us  / ˌmɪs.trænˈskrɪp.ʃ ə n /","usp":"/ˌmɪs.trænˈskrɪp.ʃən/"}
+{"title":"mistranslation","uk":"uk  / ˌmɪs.trænzˈleɪ.ʃ ə n /","ukp":"/ˌmɪs.trænzˈleɪ.ʃən/","us":"us  / ˌmɪs.trænzˈleɪ.ʃ ə n /","usp":"/ˌmɪs.trænzˈleɪ.ʃən/"}
+{"title":"mistreat","uk":"uk  / ˌmɪsˈtriːt /","ukp":"/ˌmɪsˈtriːt/","us":"us  / ˌmɪsˈtriːt /","usp":"/ˌmɪsˈtriːt/"}
+{"title":"mistreated","uk":"uk  / ˌmɪsˈtriːt /","ukp":"/ˌmɪsˈtriːt/","us":"us  / ˌmɪsˈtriːt /","usp":"/ˌmɪsˈtriːt/"}
+{"title":"mistreating","uk":"uk  / ˌmɪsˈtriːt /","ukp":"/ˌmɪsˈtriːt/","us":"us  / ˌmɪsˈtriːt /","usp":"/ˌmɪsˈtriːt/"}
+{"title":"mistreatment","uk":"uk  / ˌmɪsˈtriːt.mənt /","ukp":"/ˌmɪsˈtriːt.mənt/","us":"us  / ˌmɪsˈtriːt.mənt /","usp":"/ˌmɪsˈtriːt.mənt/"}
+{"title":"mistress","uk":"uk  / ˈmɪs.trəs /","ukp":"/ˈmɪs.trəs/","us":"us  / ˈmɪs.trəs /","usp":"/ˈmɪs.trəs/"}
+{"title":"mistrial","uk":"uk  / ˈmɪs.traɪəl /","ukp":"/ˈmɪs.traɪəl/","us":"us  / ˈmɪs.traɪəl /","usp":"/ˈmɪs.traɪəl/"}
+{"title":"mistrust","uk":"uk  / ˌmɪsˈtrʌst /","ukp":"/ˌmɪsˈtrʌst/","us":"us  / ˌmɪsˈtrʌst /","usp":"/ˌmɪsˈtrʌst/"}
+{"title":"mistrusted","uk":"uk  / ˌmɪsˈtrʌst /","ukp":"/ˌmɪsˈtrʌst/","us":"us  / ˌmɪsˈtrʌst /","usp":"/ˌmɪsˈtrʌst/"}
+{"title":"mistrustful","uk":"uk  / ˌmɪsˈtrʌst.f ə l /","ukp":"/ˌmɪsˈtrʌst.fəl/","us":"us  / ˌmɪsˈtrʌst.f ə l /","usp":"/ˌmɪsˈtrʌst.fəl/"}
+{"title":"mistrustfully","uk":"uk  / ˌmɪsˈtrʌst.f ə l.i /","ukp":"/ˌmɪsˈtrʌst.fəl.i/","us":"us  / ˌmɪsˈtrʌst.f ə l.i /","usp":"/ˌmɪsˈtrʌst.fəl.i/"}
+{"title":"mistrusting","uk":"uk  / ˌmɪsˈtrʌst /","ukp":"/ˌmɪsˈtrʌst/","us":"us  / ˌmɪsˈtrʌst /","usp":"/ˌmɪsˈtrʌst/"}
+{"title":"mistruth","uk":"uk  / mɪsˈtruːθ /","ukp":"/mɪsˈtruːθ/","us":"us  / ˌmɪsˈtruːθ /","usp":"/ˌmɪsˈtruːθ/"}
+{"title":"mistune","uk":"uk / mɪsˈtʃuːn /","ukp":"/mɪsˈtʃuːn/","us":"us  / ˌmɪsˈtuːn /","usp":"/ˌmɪsˈtuːn/"}
+{"title":"misty-eyed","uk":"uk  / ˌmɪs.tiˈaɪd /","ukp":"/ˌmɪs.tiˈaɪd/","us":"us  / ˌmɪs.t̬iˈaɪd /","usp":"/ˌmɪs.t̬iˈaɪd/"}
+{"title":"mistype","uk":"uk  / mɪsˈtaɪp /","ukp":"/mɪsˈtaɪp/","us":"us  / ˌmɪsˈtaɪp /","usp":"/ˌmɪsˈtaɪp/"}
+{"title":"misty","uk":"uk  / ˈmɪs.ti /","ukp":"/ˈmɪs.ti/","us":"us  / ˈmɪs.ti /","usp":"/ˈmɪs.ti/"}
+{"title":"mobile home","uk":"uk  / ˌməʊ.baɪl ˈhəʊm /","ukp":"/ˌməʊ.baɪl ˈhəʊm/","us":"us  / ˌmoʊ.b ə l ˈhoʊm /","usp":"/ˌmoʊ.bəl ˈhoʊm/"}
+{"title":"mobile hotspot","uk":"uk  / ˌməʊ.baɪl ˈhɒt.spɒt /","ukp":"/ˌməʊ.baɪl ˈhɒt.spɒt/","us":"us  / ˌmoʊ.b ə l ˈhɑːt.spɑːt /","usp":"/ˌmoʊ.bəl ˈhɑːt.spɑːt/"}

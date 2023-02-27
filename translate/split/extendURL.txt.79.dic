@@ -1,0 +1,953 @@
+{"title":"re-equip","uk":"uk  / ˌriː.ɪˈkwɪp /","ukp":"/ˌriː.ɪˈkwɪp/","us":"us  / ˌriː.ɪˈkwɪp /","usp":"/ˌriː.ɪˈkwɪp/"}
+{"title":"re-enlistment","uk":"uk  / ˌriː.ɪnˈlɪst.mənt /","ukp":"/ˌriː.ɪnˈlɪst.mənt/","us":"us  / ˌriː.ɪnˈlɪst.mənt /","usp":"/ˌriː.ɪnˈlɪst.mənt/"}
+{"title":"re-enter","uk":"uk  / riːˈen.tə r /","ukp":"/riːˈen.tər/","us":"us  / riːˈen.t̬ɚ /","usp":"/riːˈen.t̬ɚ/"}
+{"title":"re-equipment","uk":"uk  / ˌriː.ɪˈkwɪp.mənt /","ukp":"/ˌriː.ɪˈkwɪp.mənt/","us":"us  / ˌriː.ɪˈkwɪp.mənt /","usp":"/ˌriː.ɪˈkwɪp.mənt/"}
+{"title":"re-erect","uk":"uk  / ˌriː.ɪˈrekt /","ukp":"/ˌriː.ɪˈrekt/","us":"us  / ˌriː.ɪˈrekt /","usp":"/ˌriː.ɪˈrekt/"}
+{"title":"re-escalate","uk":"uk  / ˌriːˈes.kə.leɪt /","ukp":"/ˌriːˈes.kə.leɪt/","us":"us  / ˌriːˈes.kə.leɪt /","usp":"/ˌriːˈes.kə.leɪt/"}
+{"title":"re-escalation","uk":"uk  / ˌriː.es.kəˈleɪ.ʃ ə n /","ukp":"/ˌriː.es.kəˈleɪ.ʃən/","us":"us  / ˌriː.es.kəˈleɪ.ʃ ə n /","usp":"/ˌriː.es.kəˈleɪ.ʃən/"}
+{"title":"re-entrant","uk":"uk / ˌriːˈen.trənt /","ukp":"/ˌriːˈen.trənt/","us":"us / ˌriːˈen.trənt /","usp":"/ˌriːˈen.trənt/"}
+{"title":"re-establish","uk":"uk  / ˌriː.ɪˈstæb.lɪʃ /","ukp":"/ˌriː.ɪˈstæb.lɪʃ/","us":"us  / ˌriː.ɪˈstæb.lɪʃ /","usp":"/ˌriː.ɪˈstæb.lɪʃ/"}
+{"title":"re-establishment","uk":"uk  / ˌriː.ɪˈstæb.lɪʃ.mənt /","ukp":"/ˌriː.ɪˈstæb.lɪʃ.mənt/","us":"us  / ˌriː.ɪˈstæb.lɪʃ.mənt /","usp":"/ˌriː.ɪˈstæb.lɪʃ.mənt/"}
+{"title":"re-estimate","uk":"uk  / ˌriːˈes.tɪ.meɪt /","ukp":"/ˌriːˈes.tɪ.meɪt/","us":"us  / ˌriːˈes.tə.meɪt /","usp":"/ˌriːˈes.tə.meɪt/"}
+{"title":"re-evaluate","uk":"uk  / ˌriː.ɪˈvæl.ju.eɪt /","ukp":"/ˌriː.ɪˈvæl.ju.eɪt/","us":"us  / ˌriː.ɪˈvæl.ju.eɪt /","usp":"/ˌriː.ɪˈvæl.ju.eɪt/"}
+{"title":"re-evaluation","uk":"uk  / ˌriː.ɪ.væl.juˈeɪ.ʃ ə n /","ukp":"/ˌriː.ɪ.væl.juˈeɪ.ʃən/","us":"us  / ˌriː.ɪ.væl.juˈeɪ.ʃ ə n /","usp":"/ˌriː.ɪ.væl.juˈeɪ.ʃən/"}
+{"title":"re-examination","uk":"uk  / ˌriː.ɪɡ.zæm.ɪˈneɪ.ʃ ə n /","ukp":"/ˌriː.ɪɡ.zæm.ɪˈneɪ.ʃən/","us":"us  / ˌriː.ɪɡ.zæm.əˈneɪ.ʃ ə n /","usp":"/ˌriː.ɪɡ.zæm.əˈneɪ.ʃən/"}
+{"title":"re-examine","uk":"uk  / ˌriː.ɪɡˈzæm.ɪn /","ukp":"/ˌriː.ɪɡˈzæm.ɪn/","us":"us  / ˌriː.ɪɡˈzæm.ɪn /","usp":"/ˌriː.ɪɡˈzæm.ɪn/"}
+{"title":"re-experience","uk":"uk  / ˌriː.ɪkˈspɪə.ri.əns /","ukp":"/ˌriː.ɪkˈspɪə.ri.əns/","us":"us  / ˌriː.ɪkˈspɪr.i.əns /","usp":"/ˌriː.ɪkˈspɪr.i.əns/"}
+{"title":"re-explore","uk":"uk  / ˌriː.ɪkˈsplɔː r /","ukp":"/ˌriː.ɪkˈsplɔːr/","us":"us  / ˌriː.ɪkˈsplɔːr /","usp":"/ˌriː.ɪkˈsplɔːr/"}
+{"title":"re-export","uk":"uk  / ˌriː.ɪkˈspɔːt /","ukp":"/ˌriː.ɪkˈspɔːt/","us":"us  / ˌriː.ekˈspɔːrt /","usp":"/ˌriː.ekˈspɔːrt/"}
+{"title":"re-exportation","uk":"uk  / ˌriː.ek.spɔːˈteɪ.ʃ ə n /","ukp":"/ˌriː.ek.spɔːˈteɪ.ʃən/","us":"us  / ˌriː.ek.spɔːrˈteɪ.ʃ ə n /","usp":"/ˌriː.ek.spɔːrˈteɪ.ʃən/"}
+{"title":"re-exposure","uk":"uk  / ˌriː.ɪkˈspəʊ.ʒə r /","ukp":"/ˌriː.ɪkˈspəʊ.ʒər/","us":"us  / ˌriː.ɪkˈspoʊ.ʒɚ /","usp":"/ˌriː.ɪkˈspoʊ.ʒɚ/"}
+{"title":"re-expose","uk":"uk  / ˌriː.ɪkˈspəʊz /","ukp":"/ˌriː.ɪkˈspəʊz/","us":"us  / ˌriː.ɪkˈspoʊz /","usp":"/ˌriː.ɪkˈspoʊz/"}
+{"title":"re-express","uk":"uk  / ˌriː.ɪkˈspres /","ukp":"/ˌriː.ɪkˈspres/","us":"us  / ˌriː.ɪkˈspres /","usp":"/ˌriː.ɪkˈspres/"}
+{"title":"re-form","uk":"uk  / ˌriːˈfɔːm /","ukp":"/ˌriːˈfɔːm/","us":"us  / ˌriːˈfɔːrm /","usp":"/ˌriːˈfɔːrm/"}
+{"title":"re-immerse","uk":"uk / ˌriː.ɪˈmɜːs /","ukp":"/ˌriː.ɪˈmɜːs/","us":"us / ˌriː.ɪˈmɝːs /","usp":"/ˌriː.ɪˈmɝːs/"}
+{"title":"re-ink","uk":"uk / ˌriːˈɪŋk /","ukp":"/ˌriːˈɪŋk/","us":"us / ˌriːˈɪŋk /","usp":"/ˌriːˈɪŋk/"}
+{"title":"re-oil","uk":"uk / ˌriːˈɔɪl /","ukp":"/ˌriːˈɔɪl/","us":"us / ˌriːˈɔɪl /","usp":"/ˌriːˈɔɪl/"}
+{"title":"re-meet","uk":"uk / ˌriːˈmiːt /","ukp":"/ˌriːˈmiːt/","us":"us / ˌriːˈmiːt /","usp":"/ˌriːˈmiːt/"}
+{"title":"re-orient","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"re-mark","uk":"uk  / ˌriːˈmɑːk /","ukp":"/ˌriːˈmɑːk/","us":"us  / ˌriːˈmɑːrk /","usp":"/ˌriːˈmɑːrk/"}
+{"title":"ready, steady, go!","uk":"","us":""}
+{"title":"re-pattern","uk":"uk  / ˌriːˈpæt. ə n /","ukp":"/ˌriːˈpæt.ən/","us":"us","usp":""}
+{"title":"re-poll","uk":"uk  / ˈriːˌpəʊl /","ukp":"/ˈriːˌpəʊl/","us":"us / ˈriːˌpoʊl /","usp":"/ˈriːˌpoʊl/"}
+{"title":"re-present","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"reaffirm","uk":"uk  / ˌriː.əˈfɜːm /","ukp":"/ˌriː.əˈfɜːm/","us":"us  / ˌriː.əˈfɝːm /","usp":"/ˌriː.əˈfɝːm/"}
+{"title":"ready-to-wear","uk":"uk  / ˌred.i.təˈweə r /","ukp":"/ˌred.i.təˈweər/","us":"us  / ˌred.i.təˈwer /","usp":"/ˌred.i.təˈwer/"}
+{"title":"ready-made","uk":"uk  / ˌred.iˈmeɪd /","ukp":"/ˌred.iˈmeɪd/","us":"us  / ˌred.iˈmeɪd /","usp":"/ˌred.iˈmeɪd/"}
+{"title":"reaffirmed","uk":"uk  / ˌriː.əˈfɜːm /","ukp":"/ˌriː.əˈfɜːm/","us":"us  / ˌriː.əˈfɝːm /","usp":"/ˌriː.əˈfɝːm/"}
+{"title":"reaffirming","uk":"uk  / ˌriː.əˈfɜːm /","ukp":"/ˌriː.əˈfɜːm/","us":"us  / ˌriː.əˈfɝːm /","usp":"/ˌriː.əˈfɝːm/"}
+{"title":"reafforest","uk":"uk  / ˌriː.əˈfɒr.ɪst /","ukp":"/ˌriː.əˈfɒr.ɪst/","us":"us  / ˌriː.əˈfɔːr.ɪst /","usp":"/ˌriː.əˈfɔːr.ɪst/"}
+{"title":"reafforesting","uk":"uk  / ˌriː.əˈfɒr.ɪst /","ukp":"/ˌriː.əˈfɒr.ɪst/","us":"us  / ˌriː.əˈfɔːr.ɪst /","usp":"/ˌriː.əˈfɔːr.ɪst/"}
+{"title":"reafforestation","uk":"uk  / ˌriː.əˌfɒr.ɪˈsteɪ.ʃ ə n /","ukp":"/ˌriː.əˌfɒr.ɪˈsteɪ.ʃən/","us":"us  / ˌriː.əˌfɔːr.əˈsteɪ.ʃ ə n /","usp":"/ˌriː.əˌfɔːr.əˈsteɪ.ʃən/"}
+{"title":"reafforested","uk":"uk  / ˌriː.əˈfɒr.ɪst /","ukp":"/ˌriː.əˈfɒr.ɪst/","us":"us  / ˌriː.əˈfɔːr.ɪst /","usp":"/ˌriː.əˈfɔːr.ɪst/"}
+{"title":"Reaganomics","uk":"uk  / ˌreɪɡəˈnɒmɪks /","ukp":"/ˌreɪɡəˈnɒmɪks/","us":"us ","usp":""}
+{"title":"reagent","uk":"uk  / ˌriːˈeɪ.dʒ ə nt /","ukp":"/ˌriːˈeɪ.dʒənt/","us":"us  / ˌriːˈeɪ.dʒ ə nt /","usp":"/ˌriːˈeɪ.dʒənt/"}
+{"title":"real accounts","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real","uk":"uk  / rɪəl /","ukp":"/rɪəl/","us":"us  / ˈriː.əl /","usp":"/ˈriː.əl/"}
+{"title":"real cost","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real economy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real estate agency","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real estate","uk":"uk  / ˈrɪəl ɪˌsteɪt /","ukp":"/ˈrɪəl ɪˌsteɪt/","us":"us  / ˈriː.əl ɪˌsteɪt /","usp":"/ˈriː.əl ɪˌsteɪt/"}
+{"title":"real estate agent","uk":"uk  / ˈrɪəl ɪ.steɪt ˌeɪ.dʒ ə nt /","ukp":"/ˈrɪəl ɪ.steɪt ˌeɪ.dʒənt/","us":"us  / ˈriː.əl ɪ.steɪt ˌeɪ.dʒ ə nt /","usp":"/ˈriː.əl ɪ.steɪt ˌeɪ.dʒənt/"}
+{"title":"real estate broker","uk":"uk  / ˈrɪəl ɪ.steɪt ˌbrəʊ.kə r /","ukp":"/ˈrɪəl ɪ.steɪt ˌbrəʊ.kər/","us":"us  / ˈriː.əl ɪ.steɪt ˌbroʊ.kɚ /","usp":"/ˈriː.əl ɪ.steɪt ˌbroʊ.kɚ/"}
+{"title":"real estate company","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real estate developer","uk":"uk  / ˈrɪəl ɪ.steɪt dɪˌvel.ə.pə r /","ukp":"/ˈrɪəl ɪ.steɪt dɪˌvel.ə.pər/","us":"us  / ˈrɪəl ɪ.steɪt dɪˌvel.ə.pɚ /","usp":"/ˈrɪəl ɪ.steɪt dɪˌvel.ə.pɚ/"}
+{"title":"real estate development","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real estate investment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real estate investment trust","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real estate loan","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real estate management","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real estate manager","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real estate market","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real estate mortgage investment conduit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real estate office","uk":"uk  / ˈrɪəl ɪ.steɪt ˌɒf.ɪs /","ukp":"/ˈrɪəl ɪ.steɪt ˌɒf.ɪs/","us":"us  / ˈriː.əl ɪ.steɪt ˌɑː.fɪs /","usp":"/ˈriː.əl ɪ.steɪt ˌɑː.fɪs/"}
+{"title":"real estate tax","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real exchange rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real GDP","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real income","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real investment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real life","uk":"uk  / ˌrɪəl ˈlaɪf /","ukp":"/ˌrɪəl ˈlaɪf/","us":"us  / ˌriː.əl ˈlaɪf /","usp":"/ˌriː.əl ˈlaɪf/"}
+{"title":"real number","uk":"uk  / ˌrɪəl ˈnʌm.bə r /","ukp":"/ˌrɪəl ˈnʌm.bər/","us":"us  / ˌriː.əl ˈnʌm.bɚ /","usp":"/ˌriː.əl ˈnʌm.bɚ/"}
+{"title":"real property","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"real wages","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"realia","uk":"uk  / riˈeɪ.li.ə /","ukp":"/riˈeɪ.li.ə/","us":"us  / riˈeɪ.li.ə /","usp":"/riˈeɪ.li.ə/"}
+{"title":"real-time","uk":"uk  / ˈrɪəl.taɪm /","ukp":"/ˈrɪəl.taɪm/","us":"us  / ˈriː.əl.taɪm /","usp":"/ˈriː.əl.taɪm/"}
+{"title":"realign","uk":"uk  / ˌriː.əˈlaɪn /","ukp":"/ˌriː.əˈlaɪn/","us":"us  / ˌriː.əˈlaɪn /","usp":"/ˌriː.əˈlaɪn/"}
+{"title":"realigned","uk":"uk  / ˌriː.əˈlaɪn /","ukp":"/ˌriː.əˈlaɪn/","us":"us  / ˌriː.əˈlaɪn /","usp":"/ˌriː.əˈlaɪn/"}
+{"title":"realigning","uk":"uk  / ˌriː.əˈlaɪn /","ukp":"/ˌriː.əˈlaɪn/","us":"us  / ˌriː.əˈlaɪn /","usp":"/ˌriː.əˈlaɪn/"}
+{"title":"realignment","uk":"uk  / ˌriː.əˈlaɪn.mənt /","ukp":"/ˌriː.əˈlaɪn.mənt/","us":"us  / ˌriː.əˈlaɪn.mənt /","usp":"/ˌriː.əˈlaɪn.mənt/"}
+{"title":"realism","uk":"uk  / ˈrɪə.lɪ.z ə m /","ukp":"/ˈrɪə.lɪ.zəm/","us":"us  / ˈriː.ə- /","usp":"/ˈriː.ə-/"}
+{"title":"realistically","uk":"uk  / ˌrɪəˈlɪs.tɪ.k ə l.i /","ukp":"/ˌrɪəˈlɪs.tɪ.kəl.i/","us":"us  / ˌriː.əˈlɪs.tɪ.k ə l.i /","usp":"/ˌriː.əˈlɪs.tɪ.kəl.i/"}
+{"title":"realistic","uk":"uk  / ˌrɪəˈlɪs.tɪk /","ukp":"/ˌrɪəˈlɪs.tɪk/","us":"us  / ˌriː.əˈlɪs.tɪk /","usp":"/ˌriː.əˈlɪs.tɪk/"}
+{"title":"reality","uk":"uk  / riˈæl.ə.ti /","ukp":"/riˈæl.ə.ti/","us":"us  / riˈæl.ə.t̬i /","usp":"/riˈæl.ə.t̬i/"}
+{"title":"realist","uk":"uk  / ˈrɪə.lɪst /","ukp":"/ˈrɪə.lɪst/","us":"us  / ˈriː.ə.lɪst /","usp":"/ˈriː.ə.lɪst/"}
+{"title":"reality check","uk":"uk  / riˈæl.ɪ.ti ˌtʃek /","ukp":"/riˈæl.ɪ.ti ˌtʃek/","us":"us  / riˈæl.ə.t̬i ˌtʃek /","usp":"/riˈæl.ə.t̬i ˌtʃek/"}
+{"title":"reality show","uk":"uk  / riˈæl.ɪ.ti ˌʃəʊ /","ukp":"/riˈæl.ɪ.ti ˌʃəʊ/","us":"us  / riˈæl.ə.t̬i ˌʃoʊ /","usp":"/riˈæl.ə.t̬i ˌʃoʊ/"}
+{"title":"reality TV","uk":"uk  / riˈæl.ɪ.ti tiːˌviː /","ukp":"/riˈæl.ɪ.ti tiːˌviː/","us":"us  / riˈæl.ə.t̬i tiːˌviː /","usp":"/riˈæl.ə.t̬i tiːˌviː/"}
+{"title":"realizable","uk":"uk  / ˈrɪə.laɪ.zə.b ə l /","ukp":"/ˈrɪə.laɪ.zə.bəl/","us":"us  / ˈriː.ə.zə.b ə l /","usp":"/ˈriː.ə.zə.bəl/"}
+{"title":"realization","uk":"uk  / ˌrɪə.laɪˈzeɪ.ʃ ə n /","ukp":"/ˌrɪə.laɪˈzeɪ.ʃən/","us":"us  / ˌriː.ə.ləˈzeɪ.ʃ ə n /","usp":"/ˌriː.ə.ləˈzeɪ.ʃən/"}
+{"title":"realized","uk":"uk  / ˈrɪəlaɪzd /","ukp":"/ˈrɪəlaɪzd/","us":"us ","usp":""}
+{"title":"realize","uk":"uk  / ˈrɪə.laɪz /","ukp":"/ˈrɪə.laɪz/","us":"us  / ˈriː.ə.laɪz /","usp":"/ˈriː.ə.laɪz/"}
+{"title":"realizing","uk":"uk  / ˈrɪə.laɪz /","ukp":"/ˈrɪə.laɪz/","us":"us  / ˈriː.ə.laɪz /","usp":"/ˈriː.ə.laɪz/"}
+{"title":"reallocate","uk":"uk  / ˌriːˈæl.ə.keɪt /","ukp":"/ˌriːˈæl.ə.keɪt/","us":"us  / ˌriːˈæl.ə.keɪt /","usp":"/ˌriːˈæl.ə.keɪt/"}
+{"title":"really","uk":"uk  / ˈrɪə.li /","ukp":"/ˈrɪə.li/","us":"us  / ˈriː.ə.li /","usp":"/ˈriː.ə.li/"}
+{"title":"realm","uk":"uk  / relm /","ukp":"/relm/","us":"us  / relm /","usp":"/relm/"}
+{"title":"Realpolitik","uk":"uk  / reɪˈɑːlˌpɒl.ɪ.tiːk /","ukp":"/reɪˈɑːlˌpɒl.ɪ.tiːk/","us":"us  / reɪˈɑːlˌpoʊ.lɪ.tiːk /","usp":"/reɪˈɑːlˌpoʊ.lɪ.tiːk/"}
+{"title":"realty","uk":"uk  / ˈrɪəl.ti /","ukp":"/ˈrɪəl.ti/","us":"us  / ˈriː.əl.ti /","usp":"/ˈriː.əl.ti/"}
+{"title":"Realtor","uk":"uk  / ˈrɪəl.tə r /","ukp":"/ˈrɪəl.tər/","us":"us  / ˈriː.əl.tɔːr /","usp":"/ˈriː.əl.tɔːr/"}
+{"title":"realty office","uk":"uk  / ˈrɪəl.ti ˌɒf.ɪs /","ukp":"/ˈrɪəl.ti ˌɒf.ɪs/","us":"us  / ˈriː.əl.ti ˌɑː.fɪs /","usp":"/ˈriː.əl.ti ˌɑː.fɪs/"}
+{"title":"ream someone (out)","uk":"uk  / riːm /","ukp":"/riːm/","us":"us  / riːm /","usp":"/riːm/"}
+{"title":"reamer","uk":"uk  / ˈriː.mə r /","ukp":"/ˈriː.mər/","us":"us  / ˈriː.mɚ /","usp":"/ˈriː.mɚ/"}
+{"title":"reams","uk":"","us":"us  / rimz /","usp":"/rimz/"}
+{"title":"ream","uk":"uk  / riːm /","ukp":"/riːm/","us":"us  / riːm /","usp":"/riːm/"}
+{"title":"reap what you sow","uk":"","us":""}
+{"title":"reap","uk":"uk  / riːp /","ukp":"/riːp/","us":"us  / riːp /","usp":"/riːp/"}
+{"title":"reaping","uk":"uk  / riːp /","ukp":"/riːp/","us":"us  / riːp /","usp":"/riːp/"}
+{"title":"reaped","uk":"uk  / riːp /","ukp":"/riːp/","us":"us  / riːp /","usp":"/riːp/"}
+{"title":"reaper","uk":"uk  / ˈriː.pə r /","ukp":"/ˈriː.pər/","us":"us  / ˈriː.pɚ /","usp":"/ˈriː.pɚ/"}
+{"title":"reappear","uk":"uk  / ˌriː.əˈpɪə r /","ukp":"/ˌriː.əˈpɪər/","us":"us  / ˌriː.əˈpɪr /","usp":"/ˌriː.əˈpɪr/"}
+{"title":"reappearance","uk":"uk  / ˌriː.əˈpɪə.r ə ns /","ukp":"/ˌriː.əˈpɪə.rəns/","us":"us  / ˌriː.əˈpɪr.əns /","usp":"/ˌriː.əˈpɪr.əns/"}
+{"title":"reappeared","uk":"uk  / ˌriː.əˈpɪə r /","ukp":"/ˌriː.əˈpɪər/","us":"us  / ˌriː.əˈpɪr /","usp":"/ˌriː.əˈpɪr/"}
+{"title":"reappearing","uk":"uk  / ˌriː.əˈpɪə r /","ukp":"/ˌriː.əˈpɪər/","us":"us  / ˌriː.əˈpɪr /","usp":"/ˌriː.əˈpɪr/"}
+{"title":"reapplied","uk":"uk  / ˌriː.əˈplaɪ /","ukp":"/ˌriː.əˈplaɪ/","us":"us  / ˌriː.əˈplaɪ /","usp":"/ˌriː.əˈplaɪ/"}
+{"title":"reapply","uk":"uk  / ˌriː.əˈplaɪ /","ukp":"/ˌriː.əˈplaɪ/","us":"us  / ˌriː.əˈplaɪ /","usp":"/ˌriː.əˈplaɪ/"}
+{"title":"reappoint","uk":"uk  / ˌriːəˈpɔɪnt /","ukp":"/ˌriːəˈpɔɪnt/","us":"us ","usp":""}
+{"title":"reapplying","uk":"uk  / ˌriː.əˈplaɪ /","ukp":"/ˌriː.əˈplaɪ/","us":"us  / ˌriː.əˈplaɪ /","usp":"/ˌriː.əˈplaɪ/"}
+{"title":"reappointment","uk":"uk  / ˌriːəˈpɔɪntmənt /","ukp":"/ˌriːəˈpɔɪntmənt/","us":"us ","usp":""}
+{"title":"reappraisal","uk":"uk  / ˌriː.əˈpreɪ.z ə l /","ukp":"/ˌriː.əˈpreɪ.zəl/","us":"us  / ˌriː.əˈpreɪ.z ə l /","usp":"/ˌriː.əˈpreɪ.zəl/"}
+{"title":"reappraised","uk":"uk  / ˌriː.əˈpreɪz /","ukp":"/ˌriː.əˈpreɪz/","us":"us  / ˌriː.əˈpreɪz /","usp":"/ˌriː.əˈpreɪz/"}
+{"title":"reappraise","uk":"uk  / ˌriː.əˈpreɪz /","ukp":"/ˌriː.əˈpreɪz/","us":"us  / ˌriː.əˈpreɪz /","usp":"/ˌriː.əˈpreɪz/"}
+{"title":"reappraising","uk":"uk  / ˌriː.əˈpreɪz /","ukp":"/ˌriː.əˈpreɪz/","us":"us  / ˌriː.əˈpreɪz /","usp":"/ˌriː.əˈpreɪz/"}
+{"title":"reappropriation","uk":"uk  / ˌriː.ə.prəʊ.priˈeɪ.ʃ ə n /","ukp":"/ˌriː.ə.prəʊ.priˈeɪ.ʃən/","us":"us  / ˌriː.ə.proʊ.priˈeɪ.ʃ ə n /","usp":"/ˌriː.ə.proʊ.priˈeɪ.ʃən/"}
+{"title":"rear above/over something/someone","uk":"uk  / rɪə r /","ukp":"/rɪər/","us":"us  / rɪr /","usp":"/rɪr/"}
+{"title":"rear","uk":"uk  / rɪə r /","ukp":"/rɪər/","us":"us  / rɪr /","usp":"/rɪr/"}
+{"title":"rear admiral","uk":"uk  / ˌrɪər ˈæd.mɪ.rəl /","ukp":"/ˌrɪər ˈæd.mɪ.rəl/","us":"us  / ˌrɪr ˈæd.mɪ.rəl /","usp":"/ˌrɪr ˈæd.mɪ.rəl/"}
+{"title":"rear deck","uk":"uk  / ˌrɪə ˈdek /","ukp":"/ˌrɪə ˈdek/","us":"us  / ˌrɪr ˈdek /","usp":"/ˌrɪr ˈdek/"}
+{"title":"rear its (ugly) head","uk":"","us":""}
+{"title":"rear light","uk":"uk  / ˌrɪə ˈlaɪt /","ukp":"/ˌrɪə ˈlaɪt/","us":"us  / ˌrɪr ˈlaɪt /","usp":"/ˌrɪr ˈlaɪt/"}
+{"title":"reawaken","uk":"uk / ˌriː.əˈweɪ.k ə n /","ukp":"/ˌriː.əˈweɪ.kən/","us":"us / ˌriː.əˈweɪ.k ə n /","usp":"/ˌriː.əˈweɪ.kən/"}
+{"title":"rebadge","uk":"uk  / ˌriːˈbædʒ /","ukp":"/ˌriːˈbædʒ/","us":"us ","usp":""}
+{"title":"rebalance","uk":"uk / ˌriːˈbæl. ə ns /","ukp":"/ˌriːˈbæl.əns/","us":"us / ˌriːˈbæl. ə ns /","usp":"/ˌriːˈbæl.əns/"}
+{"title":"rebaptism","uk":"uk / ˌriːˈbæp.tɪ.z ə m /","ukp":"/ˌriːˈbæp.tɪ.zəm/","us":"us / ˌriːˈbæp.tɪ.z ə m /","usp":"/ˌriːˈbæp.tɪ.zəm/"}
+{"title":"rebaptize","uk":"uk  / ˌriː.bæpˈtaɪz /","ukp":"/ˌriː.bæpˈtaɪz/","us":"us  / ˌriːˈbæp.taɪz /","usp":"/ˌriːˈbæp.taɪz/"}
+{"title":"rebar","uk":"uk  / ˈriː.bɑː r /","ukp":"/ˈriː.bɑːr/","us":"us  / ˈriː.bɑːr /","usp":"/ˈriː.bɑːr/"}
+{"title":"rebarbative","uk":"uk  / rɪˈbɑː.bə.tɪv /","ukp":"/rɪˈbɑː.bə.tɪv/","us":"us  / rɪˈbɑːr.bə.t̬ɪv /","usp":"/rɪˈbɑːr.bə.t̬ɪv/"}
+{"title":"rebate check","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rebegin","uk":"uk / ˌriː.bɪˈɡɪn /","ukp":"/ˌriː.bɪˈɡɪn/","us":"us / ˌriː.bɪˈɡɪn /","usp":"/ˌriː.bɪˈɡɪn/"}
+{"title":"rebate","uk":"uk  / ˈriː.beɪt /","ukp":"/ˈriː.beɪt/","us":"us  / ˈriː.beɪt /","usp":"/ˈriː.beɪt/"}
+{"title":"rebelled","uk":"","us":""}
+{"title":"rebelling","uk":"","us":""}
+{"title":"rebel","uk":"uk  / ˈreb. ə l /","ukp":"/ˈreb.əl/","us":"us  / ˈreb. ə l /","usp":"/ˈreb.əl/"}
+{"title":"rebellion","uk":"uk  / rɪˈbel.i.ən /","ukp":"/rɪˈbel.i.ən/","us":"us  / rɪˈbel.i.ən /","usp":"/rɪˈbel.i.ən/"}
+{"title":"rebellious","uk":"uk  / rɪˈbel.i.əs /","ukp":"/rɪˈbel.i.əs/","us":"us  / rɪˈbel.i.əs /","usp":"/rɪˈbel.i.əs/"}
+{"title":"rebelliously","uk":"uk  / rɪˈbel.i.əs.li /","ukp":"/rɪˈbel.i.əs.li/","us":"us  / rɪˈbel.i.əs.li /","usp":"/rɪˈbel.i.əs.li/"}
+{"title":"rebelliousness","uk":"uk  / rɪˈbel.i.əs.nəs /","ukp":"/rɪˈbel.i.əs.nəs/","us":"us  / rɪˈbel.i.əs.nəs /","usp":"/rɪˈbel.i.əs.nəs/"}
+{"title":"rebid","uk":"uk / ˌriːˈbɪd /","ukp":"/ˌriːˈbɪd/","us":"us / ˌriːˈbɪd /","usp":"/ˌriːˈbɪd/"}
+{"title":"rebind","uk":"uk / ˌriːˈbaɪnd /","ukp":"/ˌriːˈbaɪnd/","us":"us / ˌriːˈbaɪnd /","usp":"/ˌriːˈbaɪnd/"}
+{"title":"rebirth","uk":"uk  / ˌriːˈbɜːθ /","ukp":"/ˌriːˈbɜːθ/","us":"us  / ˌriːˈbɝːθ /","usp":"/ˌriːˈbɝːθ/"}
+{"title":"rebloom","uk":"uk / ˌriːˈbluːm /","ukp":"/ˌriːˈbluːm/","us":"us / ˌriːˈbluːm /","usp":"/ˌriːˈbluːm/"}
+{"title":"reboard","uk":"uk / ˌriːˈbɔːd /","ukp":"/ˌriːˈbɔːd/","us":"us / ˌriːˈbɔːrd /","usp":"/ˌriːˈbɔːrd/"}
+{"title":"reboil","uk":"uk / ˌriːˈbɔɪl /","ukp":"/ˌriːˈbɔɪl/","us":"us / ˌriːˈbɔɪl /","usp":"/ˌriːˈbɔɪl/"}
+{"title":"rebook","uk":"uk / ˌriːˈbʊk /","ukp":"/ˌriːˈbʊk/","us":"us / ˌriːˈbʊk /","usp":"/ˌriːˈbʊk/"}
+{"title":"rebooted","uk":"uk  / ˌriːˈbuːt /","ukp":"/ˌriːˈbuːt/","us":"us  / ˌriːˈbuːt /","usp":"/ˌriːˈbuːt/"}
+{"title":"reboot","uk":"uk  / ˌriːˈbuːt /","ukp":"/ˌriːˈbuːt/","us":"us  / ˌriːˈbuːt /","usp":"/ˌriːˈbuːt/"}
+{"title":"rebooting","uk":"uk  / ˌriːˈbuːt /","ukp":"/ˌriːˈbuːt/","us":"us  / ˌriːˈbuːt /","usp":"/ˌriːˈbuːt/"}
+{"title":"rebore","uk":"uk  / ˌriːˈbɔː r /","ukp":"/ˌriːˈbɔːr/","us":"us  / ˌriːˈbɔːr /","usp":"/ˌriːˈbɔːr/"}
+{"title":"rebottle","uk":"uk / ˌriːˈbɒt. ə l /","ukp":"/ˌriːˈbɒt.əl/","us":"us / ˌriːˈbɑː.t. ə l̬ /","usp":"/ˌriːˈbɑː.t.əl̬/"}
+{"title":"reborn","uk":"uk  / ˌriːˈbɔːn /","ukp":"/ˌriːˈbɔːn/","us":"us  / ˌriːˈbɔːrn /","usp":"/ˌriːˈbɔːrn/"}
+{"title":"rebound","uk":"uk  / ˌriːˈbaʊnd /","ukp":"/ˌriːˈbaʊnd/","us":"us  / ˌriːˈbaʊnd /","usp":"/ˌriːˈbaʊnd/"}
+{"title":"rebounded","uk":"uk  / ˌriːˈbaʊnd /","ukp":"/ˌriːˈbaʊnd/","us":"us  / ˌriːˈbaʊnd /","usp":"/ˌriːˈbaʊnd/"}
+{"title":"rebounder","uk":"uk  / ˌriːˈbaʊn.də r /","ukp":"/ˌriːˈbaʊn.dər/","us":"us  / ˌriːˈbaʊn.dɚ /","usp":"/ˌriːˈbaʊn.dɚ/"}
+{"title":"rebounding","uk":"uk  / ˌriːˈbaʊn.dɪŋ /","ukp":"/ˌriːˈbaʊn.dɪŋ/","us":"us  / ˌriːˈbaʊn.dɪŋ /","usp":"/ˌriːˈbaʊn.dɪŋ/"}
+{"title":"rebranding","uk":"uk  / ˌriːˈbræn.dɪŋ /","ukp":"/ˌriːˈbræn.dɪŋ/","us":"us  / ˌriːˈbræn.dɪŋ /","usp":"/ˌriːˈbræn.dɪŋ/"}
+{"title":"rebreed","uk":"uk / ˌriːˈbriːd /","ukp":"/ˌriːˈbriːd/","us":"us / ˌriːˈbriːd /","usp":"/ˌriːˈbriːd/"}
+{"title":"rebrand","uk":"uk  / ˌriːˈbrænd /","ukp":"/ˌriːˈbrænd/","us":"us  / ˌriːˈbrænd /","usp":"/ˌriːˈbrænd/"}
+{"title":"rebuffed","uk":"uk  / rɪˈbʌf /","ukp":"/rɪˈbʌf/","us":"us  / rɪˈbʌf /","usp":"/rɪˈbʌf/"}
+{"title":"rebuff","uk":"uk  / rɪˈbʌf /","ukp":"/rɪˈbʌf/","us":"us  / rɪˈbʌf /","usp":"/rɪˈbʌf/"}
+{"title":"rebuild","uk":"uk  / ˌriːˈbɪld /","ukp":"/ˌriːˈbɪld/","us":"us  / ˌriːˈbɪld /","usp":"/ˌriːˈbɪld/"}
+{"title":"rebuilt","uk":"","us":""}
+{"title":"rebuked","uk":"uk  / rɪˈbjuːk /","ukp":"/rɪˈbjuːk/","us":"us  / rɪˈbjuːk /","usp":"/rɪˈbjuːk/"}
+{"title":"rebuffing","uk":"uk  / rɪˈbʌf /","ukp":"/rɪˈbʌf/","us":"us  / rɪˈbʌf /","usp":"/rɪˈbʌf/"}
+{"title":"rebuke","uk":"uk  / rɪˈbjuːk /","ukp":"/rɪˈbjuːk/","us":"us  / rɪˈbjuːk /","usp":"/rɪˈbjuːk/"}
+{"title":"reburial","uk":"uk / ˌriːˈber.i.əl /","ukp":"/ˌriːˈber.i.əl/","us":"us / ˌriːˈber.i.əl /","usp":"/ˌriːˈber.i.əl/"}
+{"title":"rebury","uk":"uk / ˌriːˈber.i /","ukp":"/ˌriːˈber.i/","us":"us / ˌriːˈber.i /","usp":"/ˌriːˈber.i/"}
+{"title":"rebus","uk":"uk / ˈriː.bəs /","ukp":"/ˈriː.bəs/","us":"us / ˈriː.bəs /","usp":"/ˈriː.bəs/"}
+{"title":"rebuking","uk":"uk  / rɪˈbjuːk /","ukp":"/rɪˈbjuːk/","us":"us  / rɪˈbjuːk /","usp":"/rɪˈbjuːk/"}
+{"title":"rear-end","uk":"uk  / ˈrɪə.rend /","ukp":"/ˈrɪə.rend/","us":"us  / ˈrɪr.end /","usp":"/ˈrɪr.end/"}
+{"title":"rear-ending","uk":"uk  / ˈrɪə.rend /","ukp":"/ˈrɪə.rend/","us":"us  / ˈrɪr.end /","usp":"/ˈrɪr.end/"}
+{"title":"rear-ended","uk":"uk  / ˈrɪə.rend /","ukp":"/ˈrɪə.rend/","us":"us  / ˈrɪr.end /","usp":"/ˈrɪr.end/"}
+{"title":"rear-wheel drive","uk":"uk  / ˌrɪə.wiːl ˈdraɪv /","ukp":"/ˌrɪə.wiːl ˈdraɪv/","us":"us  / ˌrɪr.wiːl ˈdraɪv /","usp":"/ˌrɪr.wiːl ˈdraɪv/"}
+{"title":"rearguard action","uk":"uk  / ˈrɪə.ɡɑːd ˌæk.ʃ ə n /","ukp":"/ˈrɪə.ɡɑːd ˌæk.ʃən/","us":"us  / ˈrɪr.ɡɑːrd ˌæk.ʃ ə n /","usp":"/ˈrɪr.ɡɑːrd ˌæk.ʃən/"}
+{"title":"rearguard","uk":"uk  / ˈrɪə.ɡɑːd /","ukp":"/ˈrɪə.ɡɑːd/","us":"us  / ˈrɪr.ɡɑːrd /","usp":"/ˈrɪr.ɡɑːrd/"}
+{"title":"reared","uk":"uk  / rɪə r /","ukp":"/rɪər/","us":"us  / rɪr /","usp":"/rɪr/"}
+{"title":"rearing","uk":"uk  / rɪə r /","ukp":"/rɪər/","us":"us  / rɪr /","usp":"/rɪr/"}
+{"title":"rearmed","uk":"uk  / ˌriːˈɑːm /","ukp":"/ˌriːˈɑːm/","us":"us  / ˌriːˈɑːrm /","usp":"/ˌriːˈɑːrm/"}
+{"title":"rearmament","uk":"uk  / riˈɑː.mə.mənt /","ukp":"/riˈɑː.mə.mənt/","us":"us  / riˈɑːr.mə.mənt /","usp":"/riˈɑːr.mə.mənt/"}
+{"title":"rearm","uk":"uk  / ˌriːˈɑːm /","ukp":"/ˌriːˈɑːm/","us":"us  / ˌriːˈɑːrm /","usp":"/ˌriːˈɑːrm/"}
+{"title":"rearming","uk":"uk  / ˌriːˈɑːm /","ukp":"/ˌriːˈɑːm/","us":"us  / ˌriːˈɑːrm /","usp":"/ˌriːˈɑːrm/"}
+{"title":"rearmost","uk":"uk  / ˈrɪə.məʊst /","ukp":"/ˈrɪə.məʊst/","us":"us  / ˈrɪr.moʊst /","usp":"/ˈrɪr.moʊst/"}
+{"title":"rearranged","uk":"uk  / ˌriː.əˈreɪndʒ /","ukp":"/ˌriː.əˈreɪndʒ/","us":"us  / ˌriː.əˈreɪndʒ /","usp":"/ˌriː.əˈreɪndʒ/"}
+{"title":"rearranging","uk":"uk  / ˌriː.əˈreɪndʒ /","ukp":"/ˌriː.əˈreɪndʒ/","us":"us  / ˌriː.əˈreɪndʒ /","usp":"/ˌriː.əˈreɪndʒ/"}
+{"title":"rearrange","uk":"uk  / ˌriː.əˈreɪndʒ /","ukp":"/ˌriː.əˈreɪndʒ/","us":"us  / ˌriː.əˈreɪndʒ /","usp":"/ˌriː.əˈreɪndʒ/"}
+{"title":"rearrangement","uk":"uk  / ˌriː.əˈreɪndʒ.mənt /","ukp":"/ˌriː.əˈreɪndʒ.mənt/","us":"us  / ˌriː.əˈreɪndʒ.mənt /","usp":"/ˌriː.əˈreɪndʒ.mənt/"}
+{"title":"reason with someone","uk":"uk  / ˈriː.z ə n /","ukp":"/ˈriː.zən/","us":"us  / ˈriː.z ə n /","usp":"/ˈriː.zən/"}
+{"title":"reason","uk":"uk  / ˈriː.z ə n /","ukp":"/ˈriː.zən/","us":"us  / ˈriː.z ə n /","usp":"/ˈriː.zən/"}
+{"title":"reasonable","uk":"uk  / ˈriː.z ə n.ə.b ə l /","ukp":"/ˈriː.zən.ə.bəl/","us":"us  / ˈriː.z ə n.ə.b ə l /","usp":"/ˈriː.zən.ə.bəl/"}
+{"title":"reasonableness","uk":"uk  / ˈriː.z ə n.ə.b ə l.nəs /","ukp":"/ˈriː.zən.ə.bəl.nəs/","us":"us  / ˈriː.z ə n.ə.b ə l.nəs /","usp":"/ˈriː.zən.ə.bəl.nəs/"}
+{"title":"reasoned","uk":"uk  / ˈriː.z ə nd /","ukp":"/ˈriː.zənd/","us":"us  / ˈriː.z ə nd /","usp":"/ˈriː.zənd/"}
+{"title":"rearview mirror","uk":"uk  / ˌrɪə.vjuː ˈmɪr.ə r /","ukp":"/ˌrɪə.vjuː ˈmɪr.ər/","us":"us  / ˌrɪr.vju ˈmɪr.ɚ /","usp":"/ˌrɪr.vju ˈmɪr.ɚ/"}
+{"title":"reasonably","uk":"uk  / ˈriː.z ə n.ə.bli /","ukp":"/ˈriː.zən.ə.bli/","us":"us  / ˈriː.z ə n.ə.bli /","usp":"/ˈriː.zən.ə.bli/"}
+{"title":"reasoning","uk":"uk  / ˈriː.z ə n.ɪŋ /","ukp":"/ˈriː.zən.ɪŋ/","us":"us  / ˈriː.z ə n.ɪŋ /","usp":"/ˈriː.zən.ɪŋ/"}
+{"title":"reassembled","uk":"uk  / ˌriː.əˈsem.b ə l /","ukp":"/ˌriː.əˈsem.bəl/","us":"us  / ˌriː.əˈsem.b ə l /","usp":"/ˌriː.əˈsem.bəl/"}
+{"title":"reassemble","uk":"uk  / ˌriː.əˈsem.b ə l /","ukp":"/ˌriː.əˈsem.bəl/","us":"us  / ˌriː.əˈsem.b ə l /","usp":"/ˌriː.əˈsem.bəl/"}
+{"title":"reassembling","uk":"uk  / ˌriː.əˈsem.b ə l /","ukp":"/ˌriː.əˈsem.bəl/","us":"us  / ˌriː.əˈsem.b ə l /","usp":"/ˌriː.əˈsem.bəl/"}
+{"title":"reassertion","uk":"uk  / ˌriː.əˈsɜː.ʃ ə n /","ukp":"/ˌriː.əˈsɜː.ʃən/","us":"us  / ˌriː.əˈsɝː.ʃ ə n /","usp":"/ˌriː.əˈsɝː.ʃən/"}
+{"title":"reassert","uk":"uk  / ˌriː.əˈsɜːt /","ukp":"/ˌriː.əˈsɜːt/","us":"us  / ˌriː.əˈsɝːt /","usp":"/ˌriː.əˈsɝːt/"}
+{"title":"reassess","uk":"uk  / ˌriː.əˈses /","ukp":"/ˌriː.əˈses/","us":"us  / ˌriː.əˈses /","usp":"/ˌriː.əˈses/"}
+{"title":"reassessed","uk":"uk  / ˌriː.əˈses /","ukp":"/ˌriː.əˈses/","us":"us  / ˌriː.əˈses /","usp":"/ˌriː.əˈses/"}
+{"title":"reassessing","uk":"uk  / ˌriː.əˈses /","ukp":"/ˌriː.əˈses/","us":"us  / ˌriː.əˈses /","usp":"/ˌriː.əˈses/"}
+{"title":"reassign","uk":"uk  / ˌriː.əˈsaɪn /","ukp":"/ˌriː.əˈsaɪn/","us":"us  / ˌriː.əˈsaɪn /","usp":"/ˌriː.əˈsaɪn/"}
+{"title":"reassurance","uk":"uk  / ˌriː.əˈʃɔː.r ə ns /","ukp":"/ˌriː.əˈʃɔː.rəns/","us":"us  / ˌriː.əˈʃʊr. ə ns /","usp":"/ˌriː.əˈʃʊr.əns/"}
+{"title":"reassignment","uk":"uk  / ˌriː.əˈsaɪn.mənt /","ukp":"/ˌriː.əˈsaɪn.mənt/","us":"us  / ˌriː.əˈsaɪn.mənt /","usp":"/ˌriː.əˈsaɪn.mənt/"}
+{"title":"reassured","uk":"uk  / ˌriː.əˈʃɔː r /","ukp":"/ˌriː.əˈʃɔːr/","us":"us  / ˌriː.əˈʃʊr /","usp":"/ˌriː.əˈʃʊr/"}
+{"title":"reassure","uk":"uk  / ˌriː.əˈʃɔː r /","ukp":"/ˌriː.əˈʃɔːr/","us":"us  / ˌriː.əˈʃʊr /","usp":"/ˌriː.əˈʃʊr/"}
+{"title":"reassuring","uk":"uk  / ˌriː.əˈʃɔː.rɪŋ /","ukp":"/ˌriː.əˈʃɔː.rɪŋ/","us":"us  / ˌriː.əˈʃʊr.ɪŋ /","usp":"/ˌriː.əˈʃʊr.ɪŋ/"}
+{"title":"reattachment","uk":"uk / ˌriː.əˈtætʃ.mənt /","ukp":"/ˌriː.əˈtætʃ.mənt/","us":"us / ˌriː.əˈtætʃ.mənt /","usp":"/ˌriː.əˈtætʃ.mənt/"}
+{"title":"reassuringly","uk":"uk  / ˌriː.əˈʃɔː.rɪŋ.li /","ukp":"/ˌriː.əˈʃɔː.rɪŋ.li/","us":"us  / ˌriː.əˈʃʊr.ɪŋ.li /","usp":"/ˌriː.əˈʃʊr.ɪŋ.li/"}
+{"title":"reattempt","uk":"uk / ˌriː.əˈtempt /","ukp":"/ˌriː.əˈtempt/","us":"us / ˌriː.əˈtempt /","usp":"/ˌriː.əˈtempt/"}
+{"title":"reattribute","uk":"uk / ˌriː.əˈtrɪb.juːt /","ukp":"/ˌriː.əˈtrɪb.juːt/","us":"us / ˌriː.əˈtrɪb.juːt /","usp":"/ˌriː.əˈtrɪb.juːt/"}
+{"title":"reauthorization","uk":"uk / ˌriː.ɔː.θ ə r.aɪˈzeɪ.ʃ ə n /","ukp":"/ˌriː.ɔː.θər.aɪˈzeɪ.ʃən/","us":"us / ˌriː.ɑː.θɚ.əˈzeɪ.ʃ ə n /","usp":"/ˌriː.ɑː.θɚ.əˈzeɪ.ʃən/"}
+{"title":"reattribution","uk":"uk / ˌriː.æt.rɪˈbjuː.ʃ ə n /","ukp":"/ˌriː.æt.rɪˈbjuː.ʃən/","us":"us / ˌriː.æt.rəˈbjuː.ʃ ə n /","usp":"/ˌriː.æt.rəˈbjuː.ʃən/"}
+{"title":"reauthorize","uk":"uk / ˌriːˈɔː.θ ə r.aɪz /","ukp":"/ˌriːˈɔː.θər.aɪz/","us":"us / ˌriːˈɑː.θɚ.aɪz /","usp":"/ˌriːˈɑː.θɚ.aɪz/"}
+{"title":"rebuttal","uk":"uk  / rɪˈbʌt. ə l /","ukp":"/rɪˈbʌt.əl/","us":"us  / rɪˈbʌt̬. ə l /","usp":"/rɪˈbʌt̬.əl/"}
+{"title":"rebutted","uk":"","us":""}
+{"title":"rebut","uk":"uk  / rɪˈbʌt /","ukp":"/rɪˈbʌt/","us":"us  / rɪˈbʌt /","usp":"/rɪˈbʌt/"}
+{"title":"rebutting","uk":"","us":""}
+{"title":"rebuy","uk":"uk / ˌriːˈbaɪ /","ukp":"/ˌriːˈbaɪ/","us":"us / ˌriːˈbaɪ /","usp":"/ˌriːˈbaɪ/"}
+{"title":"recalcitrance","uk":"uk  / rɪˈkæl.sɪ.tr ə ns /","ukp":"/rɪˈkæl.sɪ.trəns/","us":"us  / rɪˈkæl.sɪ.tr ə ns /","usp":"/rɪˈkæl.sɪ.trəns/"}
+{"title":"rec","uk":"uk / rek /","ukp":"/rek/","us":"us / rek /","usp":"/rek/"}
+{"title":"recalcitrant","uk":"uk  / rɪˈkæl.sɪ.tr ə nt /","ukp":"/rɪˈkæl.sɪ.trənt/","us":"us  / rɪˈkæl.sɪ.tr ə nt /","usp":"/rɪˈkæl.sɪ.trənt/"}
+{"title":"recalculate","uk":"uk / ˌriːˈkæl.kjə.leɪt /","ukp":"/ˌriːˈkæl.kjə.leɪt/","us":"us / ˌriːˈkæl.kjə.leɪt /","usp":"/ˌriːˈkæl.kjə.leɪt/"}
+{"title":"recalculation","uk":"uk / ˌriː.kæl.kjəˈleɪ.ʃ ə n /","ukp":"/ˌriː.kæl.kjəˈleɪ.ʃən/","us":"us / ˌriː.kæl.kjəˈleɪ.ʃ ə n /","usp":"/ˌriː.kæl.kjəˈleɪ.ʃən/"}
+{"title":"recalibrate","uk":"uk  / ˌriːˈkæl.ɪ.breɪt /","ukp":"/ˌriːˈkæl.ɪ.breɪt/","us":"us  / ˌriːˈkæl.ə.breɪt /","usp":"/ˌriːˈkæl.ə.breɪt/"}
+{"title":"recalibration","uk":"uk / ˌriː.kæl.ɪˈbreɪ.ʃ ə n /","ukp":"/ˌriː.kæl.ɪˈbreɪ.ʃən/","us":"us / ˌriː.kæl.əˈbreɪ.ʃ ə n /","usp":"/ˌriː.kæl.əˈbreɪ.ʃən/"}
+{"title":"recall","uk":"uk  / rɪˈkɔːl /","ukp":"/rɪˈkɔːl/","us":"us  / ˈriː.kɑːl /","usp":"/ˈriː.kɑːl/"}
+{"title":"recalled","uk":"uk  / rɪˈkɔːl /","ukp":"/rɪˈkɔːl/","us":"us  / ˈriː.kɑːl /","usp":"/ˈriː.kɑːl/"}
+{"title":"recalling","uk":"uk  / rɪˈkɔːl /","ukp":"/rɪˈkɔːl/","us":"us  / ˈriː.kɑːl /","usp":"/ˈriː.kɑːl/"}
+{"title":"recant","uk":"uk  / rɪˈkænt /","ukp":"/rɪˈkænt/","us":"us  / rɪˈkænt /","usp":"/rɪˈkænt/"}
+{"title":"recantation","uk":"uk  / ˌriː.kænˈteɪ.ʃ ə n /","ukp":"/ˌriː.kænˈteɪ.ʃən/","us":"us  / ˌriː.kænˈteɪ.ʃ ə n /","usp":"/ˌriː.kænˈteɪ.ʃən/"}
+{"title":"recanted","uk":"uk  / rɪˈkænt /","ukp":"/rɪˈkænt/","us":"us  / rɪˈkænt /","usp":"/rɪˈkænt/"}
+{"title":"recanting","uk":"uk  / rɪˈkænt /","ukp":"/rɪˈkænt/","us":"us  / rɪˈkænt /","usp":"/rɪˈkænt/"}
+{"title":"recapitalize","uk":"uk  / ˌriːˈkæpɪt ə laɪz /","ukp":"/ˌriːˈkæpɪtəlaɪz/","us":"us ","usp":""}
+{"title":"recap","uk":"uk  / ˈriː.kæp /","ukp":"/ˈriː.kæp/","us":"us  / ˈriː.kæp /","usp":"/ˈriː.kæp/"}
+{"title":"recapitulate","uk":"uk  / ˌriː.kəˈpɪtʃ.ə.leɪt /","ukp":"/ˌriː.kəˈpɪtʃ.ə.leɪt/","us":"us  / ˌriː.kəˈpɪtʃ.ə.leɪt /","usp":"/ˌriː.kəˈpɪtʃ.ə.leɪt/"}
+{"title":"recapitulated","uk":"uk  / ˌriː.kəˈpɪtʃ.ə.leɪt /","ukp":"/ˌriː.kəˈpɪtʃ.ə.leɪt/","us":"us  / ˌriː.kəˈpɪtʃ.ə.leɪt /","usp":"/ˌriː.kəˈpɪtʃ.ə.leɪt/"}
+{"title":"recapitulating","uk":"uk  / ˌriː.kəˈpɪtʃ.ə.leɪt /","ukp":"/ˌriː.kəˈpɪtʃ.ə.leɪt/","us":"us  / ˌriː.kəˈpɪtʃ.ə.leɪt /","usp":"/ˌriː.kəˈpɪtʃ.ə.leɪt/"}
+{"title":"recapitulation","uk":"uk  / ˌriː.kəˌpɪtʃ.əˈleɪ.ʃ ə n /","ukp":"/ˌriː.kəˌpɪtʃ.əˈleɪ.ʃən/","us":"us  / ˌriː.kəˌpɪtʃ.əˈleɪ.ʃ ə n /","usp":"/ˌriː.kəˌpɪtʃ.əˈleɪ.ʃən/"}
+{"title":"recapped","uk":"","us":""}
+{"title":"recapping","uk":"","us":""}
+{"title":"recaptured","uk":"uk  / ˌriːˈkæp.tʃə r /","ukp":"/ˌriːˈkæp.tʃər/","us":"us  / -tʃɚ /","usp":"/-tʃɚ/"}
+{"title":"recapture","uk":"uk  / ˌriːˈkæp.tʃə r /","ukp":"/ˌriːˈkæp.tʃər/","us":"us  / -tʃɚ /","usp":"/-tʃɚ/"}
+{"title":"recapturing","uk":"uk  / ˌriːˈkæp.tʃə r /","ukp":"/ˌriːˈkæp.tʃər/","us":"us  / -tʃɚ /","usp":"/-tʃɚ/"}
+{"title":"recast","uk":"uk  / ˌriːˈkɑːst /","ukp":"/ˌriːˈkɑːst/","us":"us  / ˌriːˈkæst /","usp":"/ˌriːˈkæst/"}
+{"title":"recategorize","uk":"uk / ˌriːˈkæt.ə.ɡ ə r.aɪz /","ukp":"/ˌriːˈkæt.ə.ɡər.aɪz/","us":"us / ˌriːˈkæt̬.ə.ɡə.raɪz /","usp":"/ˌriːˈkæt̬.ə.ɡə.raɪz/"}
+{"title":"recce","uk":"uk  / ˈrek.i /","ukp":"/ˈrek.i/","us":"us  / ˈrek.i /","usp":"/ˈrek.i/"}
+{"title":"recd","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"recede","uk":"uk  / rɪˈsiːd /","ukp":"/rɪˈsiːd/","us":"us  / rɪˈsiːd /","usp":"/rɪˈsiːd/"}
+{"title":"receded","uk":"uk  / rɪˈsiːd /","ukp":"/rɪˈsiːd/","us":"us  / rɪˈsiːd /","usp":"/rɪˈsiːd/"}
+{"title":"receding","uk":"uk  / rɪˈsiːd /","ukp":"/rɪˈsiːd/","us":"us  / rɪˈsiːd /","usp":"/rɪˈsiːd/"}
+{"title":"receding hairline","uk":"uk  / rɪˌsiː.dɪŋ ˈheə.laɪn /","ukp":"/rɪˌsiː.dɪŋ ˈheə.laɪn/","us":"us  / rɪˌsiː.dɪŋ ˈher.laɪn /","usp":"/rɪˌsiː.dɪŋ ˈher.laɪn/"}
+{"title":"receipt","uk":"uk  / rɪˈsiːt /","ukp":"/rɪˈsiːt/","us":"us  / rɪˈsiːt /","usp":"/rɪˈsiːt/"}
+{"title":"receipts","uk":"","us":"us  / rɪˈsits /","usp":"/rɪˈsits/"}
+{"title":"receivable","uk":"uk  / rɪˈsiːvəbl /","ukp":"/rɪˈsiːvəbl/","us":"us ","usp":""}
+{"title":"receivables","uk":"uk  / rɪˈsiːvəblz /","ukp":"/rɪˈsiːvəblz/","us":"us ","usp":""}
+{"title":"received","uk":"uk  / rɪˈsiːvd /","ukp":"/rɪˈsiːvd/","us":"us  / rɪˈsiːvd /","usp":"/rɪˈsiːvd/"}
+{"title":"Received Pronunciation","uk":"uk  / rɪˌsiːvd prə.nʌn.siˈeɪ.ʃ ə n /","ukp":"/rɪˌsiːvd prə.nʌn.siˈeɪ.ʃən/","us":"us  / rɪˌsiːvd prə.nʌn.siˈeɪ.ʃ ə n /","usp":"/rɪˌsiːvd prə.nʌn.siˈeɪ.ʃən/"}
+{"title":"receive","uk":"uk  / rɪˈsiːv /","ukp":"/rɪˈsiːv/","us":"us  / rɪˈsiːv /","usp":"/rɪˈsiːv/"}
+{"title":"receivership","uk":"uk  / rɪˈsiː.və.ʃɪp /","ukp":"/rɪˈsiː.və.ʃɪp/","us":"us  / rɪˈsiː.vɚ.ʃɪp /","usp":"/rɪˈsiː.vɚ.ʃɪp/"}
+{"title":"receiving order","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"receiver","uk":"uk  / rɪˈsiː.və r /","ukp":"/rɪˈsiː.vər/","us":"us  / rɪˈsiː.vɚ /","usp":"/rɪˈsiː.vɚ/"}
+{"title":"receiving","uk":"uk  / rɪˈsiːv /","ukp":"/rɪˈsiːv/","us":"us  / rɪˈsiːv /","usp":"/rɪˈsiːv/"}
+{"title":"recency","uk":"uk  / ˈriː.s ə n.si /","ukp":"/ˈriː.sən.si/","us":"us  / ˈriː.s ə n.si /","usp":"/ˈriː.sən.si/"}
+{"title":"recension","uk":"uk  / rɪˈsen.ʃ ə n /","ukp":"/rɪˈsen.ʃən/","us":"us  / rɪˈsen.ʃ ə n /","usp":"/rɪˈsen.ʃən/"}
+{"title":"recent","uk":"uk  / ˈriː.s ə nt /","ukp":"/ˈriː.sənt/","us":"us  / ˈriː.s ə nt /","usp":"/ˈriː.sənt/"}
+{"title":"recently","uk":"uk  / ˈriː.s ə nt.li /","ukp":"/ˈriː.sənt.li/","us":"us  / ˈriː.s ə nt.li /","usp":"/ˈriː.sənt.li/"}
+{"title":"recentralization","uk":"uk  / ˌriː.sen.trə.laɪ.ˈzeɪ.ʃ ə n /","ukp":"/ˌriː.sen.trə.laɪ.ˈzeɪ.ʃən/","us":"us  / ˌriː.sen.trə.lə.ˈzeɪ.ʃ ə n /","usp":"/ˌriː.sen.trə.lə.ˈzeɪ.ʃən/"}
+{"title":"recentrifuge","uk":"uk  / ˌriːˈsen.trɪ.fjuːdʒ /","ukp":"/ˌriːˈsen.trɪ.fjuːdʒ/","us":"us  / ˌriːˈsen.trə.fjuːdʒ /","usp":"/ˌriːˈsen.trə.fjuːdʒ/"}
+{"title":"receptacle","uk":"uk  / rɪˈsep.tə.k ə l /","ukp":"/rɪˈsep.tə.kəl/","us":"us  / rɪˈsep.tə.k ə l /","usp":"/rɪˈsep.tə.kəl/"}
+{"title":"reception","uk":"uk  / rɪˈsep.ʃ ə n /","ukp":"/rɪˈsep.ʃən/","us":"us  / rɪˈsep.ʃ ə n /","usp":"/rɪˈsep.ʃən/"}
+{"title":"reception room","uk":"uk  / rɪˈsep.ʃ ə n ˌruːm /","ukp":"/rɪˈsep.ʃən ˌruːm/","us":"us  / rɪˈsep.ʃ ə n ˌruːm /","usp":"/rɪˈsep.ʃən ˌruːm/"}
+{"title":"receptionist","uk":"uk  / rɪˈsep.ʃ ə n.ɪst /","ukp":"/rɪˈsep.ʃən.ɪst/","us":"us  / rɪˈsep.ʃ ə n.ɪst /","usp":"/rɪˈsep.ʃən.ɪst/"}
+{"title":"receptiveness","uk":"uk  / rɪˈsep.tɪv.nəs /","ukp":"/rɪˈsep.tɪv.nəs/","us":"us  / rɪˈsep.tɪv.nəs /","usp":"/rɪˈsep.tɪv.nəs/"}
+{"title":"receptive","uk":"uk  / rɪˈsep.tɪv /","ukp":"/rɪˈsep.tɪv/","us":"us  / rɪˈsep.tɪv /","usp":"/rɪˈsep.tɪv/"}
+{"title":"receptor","uk":"uk  / rɪˈsep.tə r /","ukp":"/rɪˈsep.tər/","us":"us  / -tɚ /","usp":"/-tɚ/"}
+{"title":"recertification","uk":"uk  / ˌriː.sɜː.tɪ.fɪˈkeɪ.ʃ ə n /","ukp":"/ˌriː.sɜː.tɪ.fɪˈkeɪ.ʃən/","us":"us  / ˌriː.sɜ˞ː.t̬ə.fɪˈkeɪ.ʃ ə n /","usp":"/ˌriː.sɜ˞ː.t̬ə.fɪˈkeɪ.ʃən/"}
+{"title":"recertify","uk":"uk  / ˌriːˈsɜː.tɪ.faɪ /","ukp":"/ˌriːˈsɜː.tɪ.faɪ/","us":"us  / ˌriːˈsɝː.t̬ə.faɪ /","usp":"/ˌriːˈsɝː.t̬ə.faɪ/"}
+{"title":"recessed","uk":"uk  / rɪˈsest /","ukp":"/rɪˈsest/","us":"us  / rɪˈsest /","usp":"/rɪˈsest/"}
+{"title":"recess","uk":"uk  / rɪˈses /","ukp":"/rɪˈses/","us":"us  / rɪˈses /","usp":"/rɪˈses/"}
+{"title":"recessionary","uk":"uk  / rɪˈseʃ. ə n. ə r.i /","ukp":"/rɪˈseʃ.ən.ər.i/","us":"us  / rɪˈseʃ.ə.ner.i /","usp":"/rɪˈseʃ.ə.ner.i/"}
+{"title":"recession","uk":"uk  / rɪˈseʃ. ə n /","ukp":"/rɪˈseʃ.ən/","us":"us  / rɪˈseʃ. ə n /","usp":"/rɪˈseʃ.ən/"}
+{"title":"recessive","uk":"uk  / rɪˈses.ɪv /","ukp":"/rɪˈses.ɪv/","us":"us  / rɪˈses.ɪv /","usp":"/rɪˈses.ɪv/"}
+{"title":"recessus","uk":"uk  / rɪˈses.əs /","ukp":"/rɪˈses.əs/","us":"us  / rɪˈses.əs /","usp":"/rɪˈses.əs/"}
+{"title":"rechannel","uk":"uk  / ˌriːˈtʃæn. ə l /","ukp":"/ˌriːˈtʃæn.əl/","us":"us  / ˌriːˈtʃæn. ə l /","usp":"/ˌriːˈtʃæn.əl/"}
+{"title":"recharge","uk":"uk  / ˌriːˈtʃɑːdʒ /","ukp":"/ˌriːˈtʃɑːdʒ/","us":"us  / ˌriːˈtʃɑːrdʒ /","usp":"/ˌriːˈtʃɑːrdʒ/"}
+{"title":"recharge your batteries","uk":"","us":""}
+{"title":"rechargeable","uk":"uk  / riːˈtʃɑː.dʒə.b ə l /","ukp":"/riːˈtʃɑː.dʒə.bəl/","us":"us  / riːˈtʃɑːr.dʒə.b ə l /","usp":"/riːˈtʃɑːr.dʒə.bəl/"}
+{"title":"recharged","uk":"uk  / ˌriːˈtʃɑːdʒ /","ukp":"/ˌriːˈtʃɑːdʒ/","us":"us  / ˌriːˈtʃɑːrdʒ /","usp":"/ˌriːˈtʃɑːrdʒ/"}
+{"title":"recharger","uk":"uk  / ˌriːˈtʃɑː.dʒə r /","ukp":"/ˌriːˈtʃɑː.dʒər/","us":"us  / ˌriːˈtʃɑːr.dʒɚ /","usp":"/ˌriːˈtʃɑːr.dʒɚ/"}
+{"title":"recharging","uk":"uk  / ˌriːˈtʃɑːdʒ /","ukp":"/ˌriːˈtʃɑːdʒ/","us":"us  / ˌriːˈtʃɑːrdʒ /","usp":"/ˌriːˈtʃɑːrdʒ/"}
+{"title":"recharter","uk":"uk  / ˌriːˈtʃɑː.tə r /","ukp":"/ˌriːˈtʃɑː.tər/","us":"us  / ˌriːˈtʃɑːr.t̬ɚ /","usp":"/ˌriːˈtʃɑːr.t̬ɚ/"}
+{"title":"recheck","uk":"uk  / ˌriːˈtʃek /","ukp":"/ˌriːˈtʃek/","us":"us  / ˌriːˈtʃek /","usp":"/ˌriːˈtʃek/"}
+{"title":"recherché","uk":"uk  / rəˈʃeə.ʃeɪ /","ukp":"/rəˈʃeə.ʃeɪ/","us":"us  / rəˈʃer.ʃeɪ /","usp":"/rəˈʃer.ʃeɪ/"}
+{"title":"rechoreograph","uk":"uk  / ˌriːˈkɒr.i.ə.ɡrɑːf /","ukp":"/ˌriːˈkɒr.i.ə.ɡrɑːf/","us":"us  / ˌriːˈkɔːr.i.ə.ɡrɑːf /","usp":"/ˌriːˈkɔːr.i.ə.ɡrɑːf/"}
+{"title":"rechristen","uk":"uk  / ˌriːˈkrɪs. ə n /","ukp":"/ˌriːˈkrɪs.ən/","us":"us  / ˌriːˈkrɪs. ə n /","usp":"/ˌriːˈkrɪs.ən/"}
+{"title":"reChristianize","uk":"uk  / ˌriːˈkrɪs.tʃə.naɪz /","ukp":"/ˌriːˈkrɪs.tʃə.naɪz/","us":"us  / ˌriːˈkrɪs.tʃə.naɪz /","usp":"/ˌriːˈkrɪs.tʃə.naɪz/"}
+{"title":"recidivist","uk":"uk  / rɪˈsɪd.ɪ.vɪst /","ukp":"/rɪˈsɪd.ɪ.vɪst/","us":"us  / rəˈsɪd.ə.vɪst /","usp":"/rəˈsɪd.ə.vɪst/"}
+{"title":"recidivism","uk":"uk  / rɪˈsɪd.ɪ.vɪ.z ə m /","ukp":"/rɪˈsɪd.ɪ.vɪ.zəm/","us":"us  / rəˈsɪd.ə.vɪ.z ə m /","usp":"/rəˈsɪd.ə.vɪ.zəm/"}
+{"title":"recipe","uk":"uk  / ˈres.ɪ.pi /","ukp":"/ˈres.ɪ.pi/","us":"us  / ˈres.ə.pi /","usp":"/ˈres.ə.pi/"}
+{"title":"recipient","uk":"uk  / rɪˈsɪp.i.ənt /","ukp":"/rɪˈsɪp.i.ənt/","us":"us  / rɪˈsɪp.i.ənt /","usp":"/rɪˈsɪp.i.ənt/"}
+{"title":"reciprocal","uk":"uk  / rɪˈsɪp.rə.k ə l /","ukp":"/rɪˈsɪp.rə.kəl/","us":"us  / rɪˈsɪp.rə.k ə l /","usp":"/rɪˈsɪp.rə.kəl/"}
+{"title":"reciprocated","uk":"uk  / rɪˈsɪp.rə.keɪt /","ukp":"/rɪˈsɪp.rə.keɪt/","us":"us  / rɪˈsɪp.rə.keɪt /","usp":"/rɪˈsɪp.rə.keɪt/"}
+{"title":"reciprocate","uk":"uk  / rɪˈsɪp.rə.keɪt /","ukp":"/rɪˈsɪp.rə.keɪt/","us":"us  / rɪˈsɪp.rə.keɪt /","usp":"/rɪˈsɪp.rə.keɪt/"}
+{"title":"reciprocally","uk":"uk  / rɪˈsɪp.rə.k ə l.i /","ukp":"/rɪˈsɪp.rə.kəl.i/","us":"us  / rɪˈsɪp.rə.k ə l.i /","usp":"/rɪˈsɪp.rə.kəl.i/"}
+{"title":"reciprocating","uk":"uk  / rɪˈsɪp.rə.keɪt /","ukp":"/rɪˈsɪp.rə.keɪt/","us":"us  / rɪˈsɪp.rə.keɪt /","usp":"/rɪˈsɪp.rə.keɪt/"}
+{"title":"recirculate","uk":"uk  / ˌriːˈsɜː.kjə.leɪt /","ukp":"/ˌriːˈsɜː.kjə.leɪt/","us":"us  / ˌriːˈsɝː.kjə.leɪt /","usp":"/ˌriːˈsɝː.kjə.leɪt/"}
+{"title":"reciprocity","uk":"uk  / ˌres.ɪˈprɒs.ə.ti /","ukp":"/ˌres.ɪˈprɒs.ə.ti/","us":"us  / ˌres.ɪˈprɑː.sə.t̬i /","usp":"/ˌres.ɪˈprɑː.sə.t̬i/"}
+{"title":"reciprocation","uk":"uk  / rɪˌsɪp.rəˈkeɪ.ʃ ə n /","ukp":"/rɪˌsɪp.rəˈkeɪ.ʃən/","us":"us  / rɪˌsɪp.rəˈkeɪ.ʃ ə n /","usp":"/rɪˌsɪp.rəˈkeɪ.ʃən/"}
+{"title":"recirculation","uk":"uk  / ˌriː.sɜː.kjəˈleɪ.ʃ ə n /","ukp":"/ˌriː.sɜː.kjəˈleɪ.ʃən/","us":"us  / ˌriː.sɝː.kjəˈleɪ.ʃ ə n /","usp":"/ˌriː.sɝː.kjəˈleɪ.ʃən/"}
+{"title":"recital","uk":"uk  / rɪˈsaɪ.t ə l /","ukp":"/rɪˈsaɪ.təl/","us":"us  / rɪˈsaɪ.t̬ ə l /","usp":"/rɪˈsaɪ.t̬əl/"}
+{"title":"recitative","uk":"uk  / ˌres.ɪ.təˈtiːv /","ukp":"/ˌres.ɪ.təˈtiːv/","us":"us  / ˌres.ɪ.təˈtiːv /","usp":"/ˌres.ɪ.təˈtiːv/"}
+{"title":"recitation","uk":"uk  / ˌres.ɪˈteɪ.ʃ ə n /","ukp":"/ˌres.ɪˈteɪ.ʃən/","us":"us  / ˌres.əˈteɪ.ʃ ə n /","usp":"/ˌres.əˈteɪ.ʃən/"}
+{"title":"recite","uk":"uk  / rɪˈsaɪt /","ukp":"/rɪˈsaɪt/","us":"us  / rɪˈsaɪt /","usp":"/rɪˈsaɪt/"}
+{"title":"recited","uk":"uk  / rɪˈsaɪt /","ukp":"/rɪˈsaɪt/","us":"us  / rɪˈsaɪt /","usp":"/rɪˈsaɪt/"}
+{"title":"reciting","uk":"uk  / rɪˈsaɪt /","ukp":"/rɪˈsaɪt/","us":"us  / rɪˈsaɪt /","usp":"/rɪˈsaɪt/"}
+{"title":"reckless","uk":"uk  / ˈrek.ləs /","ukp":"/ˈrek.ləs/","us":"us  / ˈrek.ləs /","usp":"/ˈrek.ləs/"}
+{"title":"recklessly","uk":"uk  / ˈrek.ləs.li /","ukp":"/ˈrek.ləs.li/","us":"us  / ˈrek.ləs.li /","usp":"/ˈrek.ləs.li/"}
+{"title":"recklessness","uk":"uk  / ˈrek.ləs.nəs /","ukp":"/ˈrek.ləs.nəs/","us":"us  / ˈrek.ləs.nəs /","usp":"/ˈrek.ləs.nəs/"}
+{"title":"reckon on something","uk":"uk  / ˈrek. ə n /","ukp":"/ˈrek.ən/","us":"us  / ˈrek. ə n /","usp":"/ˈrek.ən/"}
+{"title":"reckon something in","uk":"uk  / ˈrek. ə n /","ukp":"/ˈrek.ən/","us":"us  / ˈrek. ə n /","usp":"/ˈrek.ən/"}
+{"title":"reckon","uk":"uk  / ˈrek. ə n /","ukp":"/ˈrek.ən/","us":"us  / ˈrek. ə n /","usp":"/ˈrek.ən/"}
+{"title":"reckon something up","uk":"uk  / ˈrek. ə n /","ukp":"/ˈrek.ən/","us":"us  / ˈrek. ə n /","usp":"/ˈrek.ən/"}
+{"title":"reckon with someone/something","uk":"uk  / ˈrek. ə n /","ukp":"/ˈrek.ən/","us":"us  / ˈrek. ə n /","usp":"/ˈrek.ən/"}
+{"title":"reckon without something","uk":"uk  / ˈrek. ə n /","ukp":"/ˈrek.ən/","us":"us  / ˈrek. ə n /","usp":"/ˈrek.ən/"}
+{"title":"reckoned","uk":"uk  / ˈrek. ə n /","ukp":"/ˈrek.ən/","us":"us  / ˈrek. ə n /","usp":"/ˈrek.ən/"}
+{"title":"reckoning","uk":"uk  / ˈrek. ə n.ɪŋ /","ukp":"/ˈrek.ən.ɪŋ/","us":"us  / ˈrek. ə n.ɪŋ /","usp":"/ˈrek.ən.ɪŋ/"}
+{"title":"reclad","uk":"uk  / ˌriːˈklæd /","ukp":"/ˌriːˈklæd/","us":"us  / ˌriːˈklæd /","usp":"/ˌriːˈklæd/"}
+{"title":"reclaim","uk":"uk  / rɪˈkleɪm /","ukp":"/rɪˈkleɪm/","us":"us  / rɪˈkleɪm /","usp":"/rɪˈkleɪm/"}
+{"title":"reclaimed","uk":"uk  / rɪˈkleɪm /","ukp":"/rɪˈkleɪm/","us":"us  / rɪˈkleɪm /","usp":"/rɪˈkleɪm/"}
+{"title":"reclaimed land","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"reclaiming","uk":"uk  / rɪˈkleɪm /","ukp":"/rɪˈkleɪm/","us":"us  / rɪˈkleɪm /","usp":"/rɪˈkleɪm/"}
+{"title":"reclamation","uk":"uk  / ˌrek.ləˈmeɪ.ʃ ə n /","ukp":"/ˌrek.ləˈmeɪ.ʃən/","us":"us  / ˌrek.ləˈmeɪ.ʃ ə n /","usp":"/ˌrek.ləˈmeɪ.ʃən/"}
+{"title":"reclamation yard","uk":"uk  / ˌrek.ləˈmeɪ.ʃ ə n ˌjɑːd /","ukp":"/ˌrek.ləˈmeɪ.ʃən ˌjɑːd/","us":"us  / ˌrek.ləˈmeɪ.ʃ ə n ˌjɑːrd /","usp":"/ˌrek.ləˈmeɪ.ʃən ˌjɑːrd/"}
+{"title":"reclassification","uk":"uk  / ˌriː.klæs.ɪ.fɪˈkeɪ.ʃ ə n /","ukp":"/ˌriː.klæs.ɪ.fɪˈkeɪ.ʃən/","us":"us  / ˌriː.klæs.ə.fəˈkeɪ.ʃ ə n /","usp":"/ˌriː.klæs.ə.fəˈkeɪ.ʃən/"}
+{"title":"reclassify","uk":"uk  / ˌriːˈklæs.ɪ.faɪ /","ukp":"/ˌriːˈklæs.ɪ.faɪ/","us":"us  / ˌriːˈklæs.ɪ.faɪ /","usp":"/ˌriːˈklæs.ɪ.faɪ/"}
+{"title":"recline","uk":"uk  / rɪˈklaɪn /","ukp":"/rɪˈklaɪn/","us":"us  / rɪˈklaɪn /","usp":"/rɪˈklaɪn/"}
+{"title":"reclined","uk":"uk  / rɪˈklaɪn /","ukp":"/rɪˈklaɪn/","us":"us  / rɪˈklaɪn /","usp":"/rɪˈklaɪn/"}
+{"title":"recliner","uk":"uk  / rɪˈklaɪ.nə r /","ukp":"/rɪˈklaɪ.nər/","us":"us  / rɪˈklaɪ.nɚ /","usp":"/rɪˈklaɪ.nɚ/"}
+{"title":"reclining","uk":"uk  / rɪˈklaɪ.nɪŋ /","ukp":"/rɪˈklaɪ.nɪŋ/","us":"us  / rɪˈklaɪ.nɪŋ /","usp":"/rɪˈklaɪ.nɪŋ/"}
+{"title":"reclothe","uk":"uk  / ˌriːˈkləʊð /","ukp":"/ˌriːˈkləʊð/","us":"us  / ˌriːˈkloʊð /","usp":"/ˌriːˈkloʊð/"}
+{"title":"recluse","uk":"uk  / rɪˈkluːs /","ukp":"/rɪˈkluːs/","us":"us  / rɪˈkluːs /","usp":"/rɪˈkluːs/"}
+{"title":"recluse spider","uk":"uk  / rɪˈkluːs ˌspaɪ.də r /","ukp":"/rɪˈkluːs ˌspaɪ.dər/","us":"us  / rɪˈkluːs ˌspaɪ.dɚ /","usp":"/rɪˈkluːs ˌspaɪ.dɚ/"}
+{"title":"recodification","uk":"uk  / ˌriː.kəʊ.dɪ.fɪˈkeɪ.ʃ ə n /","ukp":"/ˌriː.kəʊ.dɪ.fɪˈkeɪ.ʃən/","us":"us  / ˌriː.kɑː.dɪ.fɪˈkeɪ.ʃ ə n /","usp":"/ˌriː.kɑː.dɪ.fɪˈkeɪ.ʃən/"}
+{"title":"recodify","uk":"uk  / ˌriːˈkəʊ.dɪ.faɪ /","ukp":"/ˌriːˈkəʊ.dɪ.faɪ/","us":"us  / ˌriː.kɑː.dɪ.faɪ /","usp":"/ˌriː.kɑː.dɪ.faɪ/"}
+{"title":"reclusive","uk":"uk  / rɪˈkluː.sɪv /","ukp":"/rɪˈkluː.sɪv/","us":"us  / rɪˈkluː.sɪv /","usp":"/rɪˈkluː.sɪv/"}
+{"title":"recognition test","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"recognition","uk":"uk  / ˌrek.əɡˈnɪʃ. ə n /","ukp":"/ˌrek.əɡˈnɪʃ.ən/","us":"us  / ˌrek.əɡˈnɪʃ. ə n /","usp":"/ˌrek.əɡˈnɪʃ.ən/"}
+{"title":"recognizable","uk":"uk  / ˈrek.əɡ.naɪ.zə.b ə l /","ukp":"/ˈrek.əɡ.naɪ.zə.bəl/","us":"us  / ˈrek.əɡ.naɪ.zə.b ə l /","usp":"/ˈrek.əɡ.naɪ.zə.bəl/"}
+{"title":"recognizably","uk":"uk  / ˈrek.əɡ.naɪ.zə.bli /","ukp":"/ˈrek.əɡ.naɪ.zə.bli/","us":"us  / ˈrek.əɡ.naɪ.zə.bli /","usp":"/ˈrek.əɡ.naɪ.zə.bli/"}
+{"title":"recognizance","uk":"uk  / rɪˈkɒɡnɪz ə ns /","ukp":"/rɪˈkɒɡnɪzəns/","us":"us ","usp":""}
+{"title":"recognized","uk":"uk  / ˈrek.əɡ.naɪzd /","ukp":"/ˈrek.əɡ.naɪzd/","us":"us  / ˈrek.əɡ.naɪzd /","usp":"/ˈrek.əɡ.naɪzd/"}
+{"title":"recognize","uk":"uk  / ˈrek.əɡ.naɪz /","ukp":"/ˈrek.əɡ.naɪz/","us":"us  / ˈrek.əɡ.naɪz /","usp":"/ˈrek.əɡ.naɪz/"}
+{"title":"recognizing","uk":"uk  / ˈrek.əɡ.naɪz /","ukp":"/ˈrek.əɡ.naɪz/","us":"us  / ˈrek.əɡ.naɪz /","usp":"/ˈrek.əɡ.naɪz/"}
+{"title":"recoiled","uk":"uk  / rɪˈkɔɪl /","ukp":"/rɪˈkɔɪl/","us":"us  / rɪˈkɔɪl /","usp":"/rɪˈkɔɪl/"}
+{"title":"recoil","uk":"uk  / rɪˈkɔɪl /","ukp":"/rɪˈkɔɪl/","us":"us  / rɪˈkɔɪl /","usp":"/rɪˈkɔɪl/"}
+{"title":"recoiling","uk":"uk  / rɪˈkɔɪl /","ukp":"/rɪˈkɔɪl/","us":"us  / rɪˈkɔɪl /","usp":"/rɪˈkɔɪl/"}
+{"title":"recollect","uk":"uk  / ˌrek.əˈlekt /","ukp":"/ˌrek.əˈlekt/","us":"us  / ˌrek.əˈlekt /","usp":"/ˌrek.əˈlekt/"}
+{"title":"recollected","uk":"uk  / ˌrek.əˈlekt /","ukp":"/ˌrek.əˈlekt/","us":"us  / ˌrek.əˈlekt /","usp":"/ˌrek.əˈlekt/"}
+{"title":"recollecting","uk":"uk  / ˌrek.əˈlekt /","ukp":"/ˌrek.əˈlekt/","us":"us  / ˌrek.əˈlekt /","usp":"/ˌrek.əˈlekt/"}
+{"title":"recolonization","uk":"uk / ˌriː.kɒl.ə.naɪˈzeɪ.ʃ ə n /","ukp":"/ˌriː.kɒl.ə.naɪˈzeɪ.ʃən/","us":"us / ˌriː.kɑː.lə.nəˈzeɪ.ʃ ə n /","usp":"/ˌriː.kɑː.lə.nəˈzeɪ.ʃən/"}
+{"title":"recollection","uk":"uk  / ˌrek.əˈlek.ʃ ə n /","ukp":"/ˌrek.əˈlek.ʃən/","us":"us  / ˌrek.əˈlek.ʃ ə n /","usp":"/ˌrek.əˈlek.ʃən/"}
+{"title":"recolonize","uk":"uk / ˌriːˈkɒl.ə.naɪz /","ukp":"/ˌriːˈkɒl.ə.naɪz/","us":"us / ˌriːˈkɑː.lə.naɪz /","usp":"/ˌriːˈkɑː.lə.naɪz/"}
+{"title":"recolor","uk":"","us":""}
+{"title":"recolour","uk":"uk  / ˌriːˈkʌl.ə r /","ukp":"/ˌriːˈkʌl.ər/","us":"us  / ˌriːˈkʌl.ɚ /","usp":"/ˌriːˈkʌl.ɚ/"}
+{"title":"recombinant","uk":"uk  / riːˈkɒm.bɪ.nənt /","ukp":"/riːˈkɒm.bɪ.nənt/","us":"us  / riːˈkɑːm.bə.nənt /","usp":"/riːˈkɑːm.bə.nənt/"}
+{"title":"recombinant DNA","uk":"uk  / riːˌkɒm.bɪ.nənt ˌdiː.enˈeɪ /","ukp":"/riːˌkɒm.bɪ.nənt ˌdiː.enˈeɪ/","us":"us  / riːˌkɑːm.bə.nənt ˌdiː.enˈeɪ /","usp":"/riːˌkɑːm.bə.nənt ˌdiː.enˈeɪ/"}
+{"title":"recombination","uk":"uk  / ˌriː.kɒm.bɪˈneɪ.ʃ ə n /","ukp":"/ˌriː.kɒm.bɪˈneɪ.ʃən/","us":"us  / ˌri.kɑːm.bəˈneɪ.ʃ ə n /","usp":"/ˌri.kɑːm.bəˈneɪ.ʃən/"}
+{"title":"recommence","uk":"uk  / ˌriːkəˈmens /","ukp":"/ˌriːkəˈmens/","us":"us  / ˌriːkəˈmens /","usp":"/ˌriːkəˈmens/"}
+{"title":"recommencement","uk":"uk  / ˌriː.kəˈmens.mənt /","ukp":"/ˌriː.kəˈmens.mənt/","us":"us  / ˌriː.kəˈmens.mənt /","usp":"/ˌriː.kəˈmens.mənt/"}
+{"title":"recommend","uk":"uk  / ˌrek.əˈmend /","ukp":"/ˌrek.əˈmend/","us":"us  / ˌrek.əˈmend /","usp":"/ˌrek.əˈmend/"}
+{"title":"recommendation","uk":"uk  / ˌrek.ə.menˈdeɪ.ʃ ə n /","ukp":"/ˌrek.ə.menˈdeɪ.ʃən/","us":"us  / ˌrek.ə.menˈdeɪ.ʃ ə n /","usp":"/ˌrek.ə.menˈdeɪ.ʃən/"}
+{"title":"recommended","uk":"uk  / ˌrek.əˈmen.dɪd /","ukp":"/ˌrek.əˈmen.dɪd/","us":"us  / ˌrek.əˈmen.dɪd /","usp":"/ˌrek.əˈmen.dɪd/"}
+{"title":"recommended daily allowance","uk":"uk  / rek.əˌmen.dɪd ˌdeɪ.li əˈlaʊ. ə ns /","ukp":"/rek.əˌmen.dɪd ˌdeɪ.li əˈlaʊ.əns/","us":"us  / rek.əˌmen.dɪd ˌdeɪ.li əˈlaʊ. ə ns /","usp":"/rek.əˌmen.dɪd ˌdeɪ.li əˈlaʊ.əns/"}
+{"title":"recommended retail price","uk":"uk  / rek.əˌmen.dɪd ˈriː.teɪl ˌpraɪs /","ukp":"/rek.əˌmen.dɪd ˈriː.teɪl ˌpraɪs/","us":"us  / rek.əˌmen.dɪd ˈriː.teɪl ˌpraɪs /","usp":"/rek.əˌmen.dɪd ˈriː.teɪl ˌpraɪs/"}
+{"title":"recommending","uk":"uk  / ˌrek.əˈmend /","ukp":"/ˌrek.əˈmend/","us":"us  / ˌrek.əˈmend /","usp":"/ˌrek.əˈmend/"}
+{"title":"recommission","uk":"uk  / ˌriː.kəˈmɪʃ. ə n /","ukp":"/ˌriː.kəˈmɪʃ.ən/","us":"us  / ˌriː.kəˈmɪʃ. ə n /","usp":"/ˌriː.kəˈmɪʃ.ən/"}
+{"title":"recompensed","uk":"uk  / ˈrek.əm.pens /","ukp":"/ˈrek.əm.pens/","us":"us  / ˈrek.əm.pens /","usp":"/ˈrek.əm.pens/"}
+{"title":"recompensing","uk":"uk  / ˈrek.əm.pens /","ukp":"/ˈrek.əm.pens/","us":"us  / ˈrek.əm.pens /","usp":"/ˈrek.əm.pens/"}
+{"title":"recompense","uk":"uk  / ˈrek.əm.pens /","ukp":"/ˈrek.əm.pens/","us":"us  / ˈrek.əm.pens /","usp":"/ˈrek.əm.pens/"}
+{"title":"recompilation","uk":"uk  / ˌriː.kɒm.pɪˈleɪ.ʃ ə n /","ukp":"/ˌriː.kɒm.pɪˈleɪ.ʃən/","us":"us  / ˌriː.kɑːm.pəˈleɪ.ʃ ə n /","usp":"/ˌriː.kɑːm.pəˈleɪ.ʃən/"}
+{"title":"recompile","uk":"uk  / ˌriː.kəmˈpaɪl /","ukp":"/ˌriː.kəmˈpaɪl/","us":"us  / ˌriː.kəmˈpaɪl /","usp":"/ˌriː.kəmˈpaɪl/"}
+{"title":"recomputation","uk":"uk  / ˌriː.kɒm.pjəˈteɪ.ʃ ə n /","ukp":"/ˌriː.kɒm.pjəˈteɪ.ʃən/","us":"us  / ˌriː.kɑːm.pjəˈteɪ.ʃ ə n /","usp":"/ˌriː.kɑːm.pjəˈteɪ.ʃən/"}
+{"title":"recompose","uk":"uk  / ˌriː.kəmˈpəʊz /","ukp":"/ˌriː.kəmˈpəʊz/","us":"us  / ˌriː.kəmˈpoʊz /","usp":"/ˌriː.kəmˈpoʊz/"}
+{"title":"recompute","uk":"uk  / ˌriː.kəmˈpjuːt /","ukp":"/ˌriː.kəmˈpjuːt/","us":"us  / ˌriː.kəmˈpjuːt /","usp":"/ˌriː.kəmˈpjuːt/"}
+{"title":"reconceive","uk":"uk  / ˌriː.kənˈsiːv /","ukp":"/ˌriː.kənˈsiːv/","us":"us  / ˌriː.kənˈsiːv /","usp":"/ˌriː.kənˈsiːv/"}
+{"title":"recon","uk":"uk  / ˈriː.kɒn /","ukp":"/ˈriː.kɒn/","us":"us  / ˈriː.kɑːn /","usp":"/ˈriː.kɑːn/"}
+{"title":"reconcentrate","uk":"uk  / ˌriːˈkɒn.s ə n.treɪt /","ukp":"/ˌriːˈkɒn.sən.treɪt/","us":"us  / ˌriːˈkɑːn.s ə n.treɪt /","usp":"/ˌriːˈkɑːn.sən.treɪt/"}
+{"title":"reconcentration","uk":"uk  / ˌriː.kɒn.s ə nˈtreɪ.ʃ ə n /","ukp":"/ˌriː.kɒn.sənˈtreɪ.ʃən/","us":"us  / ˌriː.kɑːn.s ə nˈtreɪ.ʃ ə n /","usp":"/ˌriː.kɑːn.sənˈtreɪ.ʃən/"}
+{"title":"reconception","uk":"uk  / ˌriː.kənˈsep.ʃ ə n /","ukp":"/ˌriː.kənˈsep.ʃən/","us":"us  / ˌriː.kənˈsep.ʃ ə n /","usp":"/ˌriː.kənˈsep.ʃən/"}
+{"title":"reconceptualization","uk":"uk  / ˌriː.kən.sep.tʃu.ə.laɪˈzeɪ.ʃ ə n /","ukp":"/ˌriː.kən.sep.tʃu.ə.laɪˈzeɪ.ʃən/","us":"us  / ˌriː.kən.sep.tʃu ə l.əˈzeɪ.ʃ ə n /","usp":"/ˌriː.kən.sep.tʃuəl.əˈzeɪ.ʃən/"}
+{"title":"reconceptualize","uk":"uk  / ˌriː.kənˈsep.tʃu.ə.laɪz /","ukp":"/ˌriː.kənˈsep.tʃu.ə.laɪz/","us":"us  / ˌriː.kənˈsep.tʃu.ə.laɪz /","usp":"/ˌriː.kənˈsep.tʃu.ə.laɪz/"}
+{"title":"reconcile yourself to something","uk":"uk  / ˈrek. ə n.saɪl /","ukp":"/ˈrek.ən.saɪl/","us":"us  / ˈrek. ə n.saɪl /","usp":"/ˈrek.ən.saɪl/"}
+{"title":"reconcile","uk":"uk  / ˈrek. ə n.saɪl /","ukp":"/ˈrek.ən.saɪl/","us":"us  / ˈrek. ə n.saɪl /","usp":"/ˈrek.ən.saɪl/"}
+{"title":"reconciliation statement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"reconciled","uk":"uk  / ˈrek. ə n.saɪl /","ukp":"/ˈrek.ən.saɪl/","us":"us  / ˈrek. ə n.saɪl /","usp":"/ˈrek.ən.saɪl/"}
+{"title":"reconciling","uk":"uk  / ˈrek. ə n.saɪl /","ukp":"/ˈrek.ən.saɪl/","us":"us  / ˈrek. ə n.saɪl /","usp":"/ˈrek.ən.saɪl/"}
+{"title":"reconciliation","uk":"uk  / ˌrek. ə nˌsɪl.iˈeɪ.ʃ ə n /","ukp":"/ˌrek.ənˌsɪl.iˈeɪ.ʃən/","us":"us  / ˌrek. ə nˌsɪl.iˈeɪ.ʃ ə n /","usp":"/ˌrek.ənˌsɪl.iˈeɪ.ʃən/"}
+{"title":"recondense","uk":"uk  / ˌriː.kənˈdens /","ukp":"/ˌriː.kənˈdens/","us":"us  / ˌriː.kənˈdens /","usp":"/ˌriː.kənˈdens/"}
+{"title":"recondite","uk":"uk  / ˈrek. ə n.daɪt /","ukp":"/ˈrek.ən.daɪt/","us":"us  / ˈrek. ə n.daɪt /","usp":"/ˈrek.ən.daɪt/"}
+{"title":"recondition","uk":"uk  / ˌriː.k ə nˈdɪʃ. ə n /","ukp":"/ˌriː.kənˈdɪʃ.ən/","us":"us  / ˌriː.k ə nˈdɪʃ. ə n /","usp":"/ˌriː.kənˈdɪʃ.ən/"}
+{"title":"reconditioned","uk":"uk  / ˌriː.k ə nˈdɪʃ. ə n /","ukp":"/ˌriː.kənˈdɪʃ.ən/","us":"us  / ˌriː.k ə nˈdɪʃ. ə n /","usp":"/ˌriː.kənˈdɪʃ.ən/"}
+{"title":"reconditioning","uk":"uk  / ˌriː.k ə nˈdɪʃ. ə n /","ukp":"/ˌriː.kənˈdɪʃ.ən/","us":"us  / ˌriː.k ə nˈdɪʃ. ə n /","usp":"/ˌriː.kənˈdɪʃ.ən/"}
+{"title":"reconfiguration","uk":"uk  / ˌriː.kən.fɪɡ.əˈreɪ.ʃ ə n /","ukp":"/ˌriː.kən.fɪɡ.əˈreɪ.ʃən/","us":"us  / ˌriː.kən.fɪɡ.jəˈreɪ.ʃ ə n /","usp":"/ˌriː.kən.fɪɡ.jəˈreɪ.ʃən/"}
+{"title":"reconfigure","uk":"uk  / ˌriː.kənˈfɪɡ.ə r /","ukp":"/ˌriː.kənˈfɪɡ.ər/","us":"us  / ˌriː.kənˈfɪɡ.jɚ /","usp":"/ˌriː.kənˈfɪɡ.jɚ/"}
+{"title":"reconfirm","uk":"uk  / ˌriː.kənˈfɜːm /","ukp":"/ˌriː.kənˈfɜːm/","us":"us  / ˌriː.kənˈfɝːm /","usp":"/ˌriː.kənˈfɝːm/"}
+{"title":"reconfirmation","uk":"uk  / ˌriː.kɒn.fəˈmeɪ.ʃ ə n /","ukp":"/ˌriː.kɒn.fəˈmeɪ.ʃən/","us":"us  / ˌriː.kɑːn.fɚˈmeɪ.ʃ ə n /","usp":"/ˌriː.kɑːn.fɚˈmeɪ.ʃən/"}
+{"title":"reconnaissance","uk":"uk  / rɪˈkɒn.ɪ.s ə ns /","ukp":"/rɪˈkɒn.ɪ.səns/","us":"us  / rɪˈkɑː.nə.s ə ns /","usp":"/rɪˈkɑː.nə.səns/"}
+{"title":"reconnection","uk":"uk  / ˌriː.kəˈnek.ʃ ə n /","ukp":"/ˌriː.kəˈnek.ʃən/","us":"us  / ˌriː.kəˈnek.ʃ ə n /","usp":"/ˌriː.kəˈnek.ʃən/"}
+{"title":"reconnect","uk":"uk  / ˌriː.kəˈnekt /","ukp":"/ˌriː.kəˈnekt/","us":"us  / ˌriː.kəˈnekt /","usp":"/ˌriː.kəˈnekt/"}
+{"title":"reconnoiter","uk":"uk  / ˌrek.əˈnɔɪ.tə r /","ukp":"/ˌrek.əˈnɔɪ.tər/","us":"us  / ˌriː.kəˈnɔɪ.t̬ɚ /","usp":"/ˌriː.kəˈnɔɪ.t̬ɚ/"}
+{"title":"reconnoitred","uk":"uk  / ˌrek.əˈnɔɪ.tə r /","ukp":"/ˌrek.əˈnɔɪ.tər/","us":"us  / ˌriː.kəˈnɔɪ.t̬ɚ /","usp":"/ˌriː.kəˈnɔɪ.t̬ɚ/"}
+{"title":"reconnoitre","uk":"uk  / ˌrek.əˈnɔɪ.tə r /","ukp":"/ˌrek.əˈnɔɪ.tər/","us":"us  / ˌriː.kəˈnɔɪ.t̬ɚ /","usp":"/ˌriː.kəˈnɔɪ.t̬ɚ/"}
+{"title":"reconnoitring","uk":"uk  / ˌrek.əˈnɔɪ.tə r /","ukp":"/ˌrek.əˈnɔɪ.tər/","us":"us  / ˌriː.kəˈnɔɪ.t̬ɚ /","usp":"/ˌriː.kəˈnɔɪ.t̬ɚ/"}
+{"title":"reconquer","uk":"uk  / ˌriːˈkɒŋ.kə r /","ukp":"/ˌriːˈkɒŋ.kər/","us":"us  / ˌriːˈkɑːŋ.kɚ /","usp":"/ˌriːˈkɑːŋ.kɚ/"}
+{"title":"reconquest","uk":"uk  / ˌriːˈkɒŋ.kwest /","ukp":"/ˌriːˈkɒŋ.kwest/","us":"us  / ˌriːˈkɑːŋ.kwest /","usp":"/ˌriːˈkɑːŋ.kwest/"}
+{"title":"reconsecrate","uk":"uk  / ˌriːˈkɒn.sɪ.kreɪt /","ukp":"/ˌriːˈkɒn.sɪ.kreɪt/","us":"us  / ˌriːˈkɑːn.sə.kreɪt /","usp":"/ˌriːˈkɑːn.sə.kreɪt/"}
+{"title":"reconsecration","uk":"uk  / ˌriː.kɒn.sɪˈkreɪ.ʃ ə n /","ukp":"/ˌriː.kɒn.sɪˈkreɪ.ʃən/","us":"us  / ˌriː.kɑːn.sɪˈkreɪ.ʃ ə n /","usp":"/ˌriː.kɑːn.sɪˈkreɪ.ʃən/"}
+{"title":"reconsider","uk":"uk  / ˌriː.k ə nˈsɪd.ə r /","ukp":"/ˌriː.kənˈsɪd.ər/","us":"us  / ˌriː.k ə nˈsɪd.ɚ /","usp":"/ˌriː.kənˈsɪd.ɚ/"}
+{"title":"reconsidered","uk":"uk  / ˌriː.k ə nˈsɪd.ə r /","ukp":"/ˌriː.kənˈsɪd.ər/","us":"us  / ˌriː.k ə nˈsɪd.ɚ /","usp":"/ˌriː.kənˈsɪd.ɚ/"}
+{"title":"reconsideration","uk":"uk  / ˌriː.k ə nˌsɪd. ə rˈeɪ.ʃ ə n /","ukp":"/ˌriː.kənˌsɪd.ərˈeɪ.ʃən/","us":"us  / ˌriː.k ə nˈsɪd.əˈreɪ.ʃ ə n /","usp":"/ˌriː.kənˈsɪd.əˈreɪ.ʃən/"}
+{"title":"reconsolidate","uk":"uk  / ˌriː.kənˈsɒl.ɪ.deɪt /","ukp":"/ˌriː.kənˈsɒl.ɪ.deɪt/","us":"us  / ˌriː.kənˈsɑː.lə.deɪt /","usp":"/ˌriː.kənˈsɑː.lə.deɪt/"}
+{"title":"reconsidering","uk":"uk  / ˌriː.k ə nˈsɪd.ə r /","ukp":"/ˌriː.kənˈsɪd.ər/","us":"us  / ˌriː.k ə nˈsɪd.ɚ /","usp":"/ˌriː.kənˈsɪd.ɚ/"}
+{"title":"reconstituted","uk":"uk  / ˌriːˈkɒn.stɪ.tʃuːt /","ukp":"/ˌriːˈkɒn.stɪ.tʃuːt/","us":"us  / ˌriːˈkɑːn.stə.tuːt /","usp":"/ˌriːˈkɑːn.stə.tuːt/"}
+{"title":"reconstitute","uk":"uk  / ˌriːˈkɒn.stɪ.tʃuːt /","ukp":"/ˌriːˈkɒn.stɪ.tʃuːt/","us":"us  / ˌriːˈkɑːn.stə.tuːt /","usp":"/ˌriːˈkɑːn.stə.tuːt/"}
+{"title":"reconstituting","uk":"uk  / ˌriːˈkɒn.stɪ.tʃuːt /","ukp":"/ˌriːˈkɒn.stɪ.tʃuːt/","us":"us  / ˌriːˈkɑːn.stə.tuːt /","usp":"/ˌriːˈkɑːn.stə.tuːt/"}
+{"title":"reconstitution","uk":"uk  / ˌriːˌkɒn.stɪˈtʃuː.ʃ ə n /","ukp":"/ˌriːˌkɒn.stɪˈtʃuː.ʃən/","us":"us  / ˌriːˌkɑːn.stəˈtuː.ʃ ə n /","usp":"/ˌriːˌkɑːn.stəˈtuː.ʃən/"}
+{"title":"reconstructed","uk":"uk  / ˌriː.k ə nˈstrʌkt /","ukp":"/ˌriː.kənˈstrʌkt/","us":"us  / ˌriː.k ə nˈstrʌkt /","usp":"/ˌriː.kənˈstrʌkt/"}
+{"title":"reconstruct","uk":"uk  / ˌriː.k ə nˈstrʌkt /","ukp":"/ˌriː.kənˈstrʌkt/","us":"us  / ˌriː.k ə nˈstrʌkt /","usp":"/ˌriː.kənˈstrʌkt/"}
+{"title":"reconstructing","uk":"uk  / ˌriː.k ə nˈstrʌkt /","ukp":"/ˌriː.kənˈstrʌkt/","us":"us  / ˌriː.k ə nˈstrʌkt /","usp":"/ˌriː.kənˈstrʌkt/"}
+{"title":"recontact","uk":"uk  / ˌriːˈkɒn.tækt /","ukp":"/ˌriːˈkɒn.tækt/","us":"us  / ˌriːˈkɑːn.tækt /","usp":"/ˌriːˈkɑːn.tækt/"}
+{"title":"reconstructive","uk":"uk  / ˌriː.k ə nˈstrʌk.tɪv /","ukp":"/ˌriː.kənˈstrʌk.tɪv/","us":"us  / ˌriː.k ə nˈstrʌk.t̬ɪv /","usp":"/ˌriː.kənˈstrʌk.t̬ɪv/"}
+{"title":"reconstruction","uk":"uk  / ˌriː.k ə nˈstrʌk.ʃ ə n /","ukp":"/ˌriː.kənˈstrʌk.ʃən/","us":"us  / ˌriː.k ə nˈstrʌk.ʃ ə n /","usp":"/ˌriː.kənˈstrʌk.ʃən/"}
+{"title":"recontaminate","uk":"uk  / ˌriː.kənˈtæm.ɪ.neɪt /","ukp":"/ˌriː.kənˈtæm.ɪ.neɪt/","us":"us  / ˌriː.kənˈtæm.ə.neɪt /","usp":"/ˌriː.kənˈtæm.ə.neɪt/"}
+{"title":"recontour","uk":"uk  / ˌriːˈkɒn.tɔː r /","ukp":"/ˌriːˈkɒn.tɔːr/","us":"us  / ˌriːˈkɑːn.tʊr /","usp":"/ˌriːˈkɑːn.tʊr/"}
+{"title":"recontamination","uk":"uk  / ˌriː.kən.tæm.ɪˈneɪ.ʃ ə n /","ukp":"/ˌriː.kən.tæm.ɪˈneɪ.ʃən/","us":"us  / ˌriː.kən.tæm.əˈneɪ.ʃ ə n /","usp":"/ˌriː.kən.tæm.əˈneɪ.ʃən/"}
+{"title":"reconvene","uk":"uk  / ˌriː.kənˈviːn /","ukp":"/ˌriː.kənˈviːn/","us":"us  / ˌriː.kənˈviːn /","usp":"/ˌriː.kənˈviːn/"}
+{"title":"reconversion","uk":"uk  / ˌriː.kənˈvɜː.ʃ ə n /","ukp":"/ˌriː.kənˈvɜː.ʃən/","us":"us  / ˌriː.kənˈvɝː.ʒ ə n /","usp":"/ˌriː.kənˈvɝː.ʒən/"}
+{"title":"reconvert","uk":"uk  / ˌriː.kənˈvɜːt /","ukp":"/ˌriː.kənˈvɜːt/","us":"us  / ˌriː.kənˈvɝːt /","usp":"/ˌriː.kənˈvɝːt/"}
+{"title":"reconvict","uk":"uk  / ˌriː.kənˈvɪkt /","ukp":"/ˌriː.kənˈvɪkt/","us":"us  / ˌriː.kənˈvɪkt /","usp":"/ˌriː.kənˈvɪkt/"}
+{"title":"reconviction","uk":"uk  / ˌriː.kənˈvɪk.ʃ ə n /","ukp":"/ˌriː.kənˈvɪk.ʃən/","us":"us  / ˌriː.kənˈvɪk.ʃ ə n /","usp":"/ˌriː.kənˈvɪk.ʃən/"}
+{"title":"reconvince","uk":"uk  / ˌriː.kənˈvɪns /","ukp":"/ˌriː.kənˈvɪns/","us":"us  / ˌriː.kənˈvɪns /","usp":"/ˌriː.kənˈvɪns/"}
+{"title":"recopy","uk":"uk  / ˌriːˈkɒp.i /","ukp":"/ˌriːˈkɒp.i/","us":"us  / ˌriːˈkɑː.pi /","usp":"/ˌriːˈkɑː.pi/"}
+{"title":"record date","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"record high","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"record","uk":"uk  / rɪˈkɔːd /","ukp":"/rɪˈkɔːd/","us":"us  / rɪˈkɔːrd /","usp":"/rɪˈkɔːrd/"}
+{"title":"record keeping","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"record holder","uk":"uk  / ˈrek.ɔːd ˌhəʊl.də r /","ukp":"/ˈrek.ɔːd ˌhəʊl.dər/","us":"us  / ˈrek.ɚd ˌhoʊl.dɚ /","usp":"/ˈrek.ɚd ˌhoʊl.dɚ/"}
+{"title":"record label","uk":"uk  / ˈrek.ɔːd ˌleɪ.b ə l /","ukp":"/ˈrek.ɔːd ˌleɪ.bəl/","us":"us  / ˈrek.ɚd ˌleɪ.b ə l /","usp":"/ˈrek.ɚd ˌleɪ.bəl/"}
+{"title":"record low","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"record player","uk":"uk  / ˈrek.ɔːd ˌpleɪ.ə r /","ukp":"/ˈrek.ɔːd ˌpleɪ.ər/","us":"us  / ˈrek.ɚd ˌpleɪ.ɚ /","usp":"/ˈrek.ɚd ˌpleɪ.ɚ/"}
+{"title":"recorded","uk":"uk  / rɪˈkɔːd /","ukp":"/rɪˈkɔːd/","us":"us  / rɪˈkɔːrd /","usp":"/rɪˈkɔːrd/"}
+{"title":"record-breaking","uk":"uk  / ˈrek.ɔːdˌbreɪ.kɪŋ /","ukp":"/ˈrek.ɔːdˌbreɪ.kɪŋ/","us":"us  / ˈrek.ɚdˌbreɪ.kɪŋ /","usp":"/ˈrek.ɚdˌbreɪ.kɪŋ/"}
+{"title":"recorded delivery","uk":"uk  / rɪˌkɔː.dɪd dɪˈlɪv. ə r.i /","ukp":"/rɪˌkɔː.dɪd dɪˈlɪv.ər.i/","us":"us  / rɪˌkɔː.dɪd dɪˈlɪv.ɚ.i /","usp":"/rɪˌkɔː.dɪd dɪˈlɪv.ɚ.i/"}
+{"title":"recorder","uk":"uk  / rɪˈkɔː.də r /","ukp":"/rɪˈkɔː.dər/","us":"us  / rɪˈkɔːr.dɚ /","usp":"/rɪˈkɔːr.dɚ/"}
+{"title":"recording","uk":"uk  / rɪˈkɔː.dɪŋ /","ukp":"/rɪˈkɔː.dɪŋ/","us":"us  / rɪˈkɔːr.dɪŋ /","usp":"/rɪˈkɔːr.dɪŋ/"}
+{"title":"recork","uk":"uk  / ˌriːˈkɔːk /","ukp":"/ˌriːˈkɔːk/","us":"us  / ˌriːˈkɔːrk /","usp":"/ˌriːˈkɔːrk/"}
+{"title":"recounted","uk":"uk  / rɪˈkaʊnt /","ukp":"/rɪˈkaʊnt/","us":"us  / rɪˈkaʊnt /","usp":"/rɪˈkaʊnt/"}
+{"title":"recount","uk":"uk  / rɪˈkaʊnt /","ukp":"/rɪˈkaʊnt/","us":"us  / rɪˈkaʊnt /","usp":"/rɪˈkaʊnt/"}
+{"title":"recto","uk":"uk / ˈrek.təʊ /","ukp":"/ˈrek.təʊ/","us":"us / ˈrek.toʊ /","usp":"/ˈrek.toʊ/"}
+{"title":"rector","uk":"uk  / ˈrek.tə r /","ukp":"/ˈrek.tər/","us":"us  / ˈrek.tɚ /","usp":"/ˈrek.tɚ/"}
+{"title":"rectory","uk":"uk  / ˈrek.t ə r.i /","ukp":"/ˈrek.tər.i/","us":"us  / ˈrek.tɚ.i /","usp":"/ˈrek.tɚ.i/"}
+{"title":"rectum","uk":"uk  / ˈrek.təm /","ukp":"/ˈrek.təm/","us":"us  / ˈrek.təm /","usp":"/ˈrek.təm/"}
+{"title":"rectus","uk":"uk  / ˈrek.təs /","ukp":"/ˈrek.təs/","us":"us  / ˈrek.təs /","usp":"/ˈrek.təs/"}
+{"title":"recultivate","uk":"uk  / ˌriːˈkʌl.tɪ.veɪt /","ukp":"/ˌriːˈkʌl.tɪ.veɪt/","us":"us  / ˌriːˈkʌl.tə.veɪt /","usp":"/ˌriːˈkʌl.tə.veɪt/"}
+{"title":"recumbent","uk":"uk  / rɪˈkʌm.bənt /","ukp":"/rɪˈkʌm.bənt/","us":"us  / rɪˈkʌm.bənt /","usp":"/rɪˈkʌm.bənt/"}
+{"title":"recuperated","uk":"uk  / rɪˈkuː.p ə r.eɪt /","ukp":"/rɪˈkuː.pər.eɪt/","us":"us  / rɪˈkuː.p ə r.eɪt /","usp":"/rɪˈkuː.pər.eɪt/"}
+{"title":"recuperate","uk":"uk  / rɪˈkuː.p ə r.eɪt /","ukp":"/rɪˈkuː.pər.eɪt/","us":"us  / rɪˈkuː.p ə r.eɪt /","usp":"/rɪˈkuː.pər.eɪt/"}
+{"title":"recuperating","uk":"uk  / rɪˈkuː.p ə r.eɪt /","ukp":"/rɪˈkuː.pər.eɪt/","us":"us  / rɪˈkuː.p ə r.eɪt /","usp":"/rɪˈkuː.pər.eɪt/"}
+{"title":"recuperative","uk":"uk  / rɪˈkuː.p ə r.ə.tɪv /","ukp":"/rɪˈkuː.pər.ə.tɪv/","us":"us  / rɪˈkuː.pɚ.ə.t̬ɪv /","usp":"/rɪˈkuː.pɚ.ə.t̬ɪv/"}
+{"title":"recur","uk":"uk  / rɪˈkɜː r /","ukp":"/rɪˈkɜːr/","us":"us  / rɪˈkɝː /","usp":"/rɪˈkɝː/"}
+{"title":"recurred","uk":"","us":""}
+{"title":"recuperation","uk":"uk  / rɪˌkuː.p ə rˈeɪ.ʃ ə n /","ukp":"/rɪˌkuː.pərˈeɪ.ʃən/","us":"us  / rɪˌkuː.p ə rˈeɪ.ʃ ə n /","usp":"/rɪˌkuː.pərˈeɪ.ʃən/"}
+{"title":"recurrence","uk":"uk  / riˈkʌr.əns /","ukp":"/riˈkʌr.əns/","us":"us  / rɪˈkɝː.əns /","usp":"/rɪˈkɝː.əns/"}
+{"title":"recurrent","uk":"uk  / rɪˈkʌr.ənt /","ukp":"/rɪˈkʌr.ənt/","us":"us  / rɪˈkɝː.ənt /","usp":"/rɪˈkɝː.ənt/"}
+{"title":"recurring","uk":"uk  / rɪˈkɜː.rɪŋ /","ukp":"/rɪˈkɜː.rɪŋ/","us":"us  / rɪˈkɝː.ɪŋ /","usp":"/rɪˈkɝː.ɪŋ/"}
+{"title":"recurring number","uk":"uk  / rɪˌkɜː.rɪŋ ˈnʌm.bə r /","ukp":"/rɪˌkɜː.rɪŋ ˈnʌm.bər/","us":"us  / rɪˌkɝː.ɪŋ ˈnʌm.bɚ /","usp":"/rɪˌkɝː.ɪŋ ˈnʌm.bɚ/"}
+{"title":"recursion","uk":"uk  / rɪˈkɜː.ʒ ə n /","ukp":"/rɪˈkɜː.ʒən/","us":"us  / rɪˈkɝː.ʒ ə n /","usp":"/rɪˈkɝː.ʒən/"}
+{"title":"recursive","uk":"uk  / rɪˈkɜː.sɪv /","ukp":"/rɪˈkɜː.sɪv/","us":"us  / rɪˈkɝː.sɪv /","usp":"/rɪˈkɝː.sɪv/"}
+{"title":"recusal","uk":"uk  / rɪˈkjuː.z ə l /","ukp":"/rɪˈkjuː.zəl/","us":"us  / rɪˈkjuː.z ə l /","usp":"/rɪˈkjuː.zəl/"}
+{"title":"recusant","uk":"uk  / ˈrek.jʊ.z ə nt /","ukp":"/ˈrek.jʊ.zənt/","us":"us  / ˈrek.jʊ.z ə nt /","usp":"/ˈrek.jʊ.zənt/"}
+{"title":"recuse","uk":"uk  / rɪˈkjuːz /","ukp":"/rɪˈkjuːz/","us":"us  / rɪˈkjuːz /","usp":"/rɪˈkjuːz/"}
+{"title":"recut","uk":"uk / ˌriːˈkʌt /","ukp":"/ˌriːˈkʌt/","us":"us / ˌriːˈkʌt /","usp":"/ˌriːˈkʌt/"}
+{"title":"recycle bin","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"recyclable","uk":"uk  / ˌriːˈsaɪ.klə.b ə l /","ukp":"/ˌriːˈsaɪ.klə.bəl/","us":"us  / ˌriːˈsaɪ.klə.b ə l /","usp":"/ˌriːˈsaɪ.klə.bəl/"}
+{"title":"recycle","uk":"uk  / ˌriːˈsaɪ.k ə l /","ukp":"/ˌriːˈsaɪ.kəl/","us":"us  / ˌriːˈsaɪ.k ə l /","usp":"/ˌriːˈsaɪ.kəl/"}
+{"title":"recycled","uk":"uk  / ˌriːˈsaɪ.k ə ld /","ukp":"/ˌriːˈsaɪ.kəld/","us":"us  / ˌriːˈsaɪ.k ə ld /","usp":"/ˌriːˈsaɪ.kəld/"}
+{"title":"recycler","uk":"uk  / ˌriːˈsaɪ.klə r /","ukp":"/ˌriːˈsaɪ.klər/","us":"us  / ˌriːˈsaɪ.klɚ /","usp":"/ˌriːˈsaɪ.klɚ/"}
+{"title":"recycling bin","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"recycling","uk":"uk  / ˌriːˈsaɪ.klɪŋ /","ukp":"/ˌriːˈsaɪ.klɪŋ/","us":"us  / ˌriːˈsaɪ.klɪŋ /","usp":"/ˌriːˈsaɪ.klɪŋ/"}
+{"title":"red admiral","uk":"uk  / ˌred ˈæd.mɪ.rəl /","ukp":"/ˌred ˈæd.mɪ.rəl/","us":"us  / ˌred ˈæd.mɪ.rəl /","usp":"/ˌred ˈæd.mɪ.rəl/"}
+{"title":"red","uk":"uk  / red /","ukp":"/red/","us":"us  / red /","usp":"/red/"}
+{"title":"red alert","uk":"uk  / ˌred əˈlɜːt /","ukp":"/ˌred əˈlɜːt/","us":"us  / ˌred əˈlɝːt /","usp":"/ˌred əˈlɝːt/"}
+{"title":"red blood cell","uk":"uk  / ˌred ˈblʌd ˌsel /","ukp":"/ˌred ˈblʌd ˌsel/","us":"us  / ˌred ˈblʌd ˌsel /","usp":"/ˌred ˈblʌd ˌsel/"}
+{"title":"red card","uk":"uk  / ˌred ˈkɑːd /","ukp":"/ˌred ˈkɑːd/","us":"us  / ˌred ˈkɑːrd /","usp":"/ˌred ˈkɑːrd/"}
+{"title":"red carpet","uk":"uk  / ˌred ˈkɑː.pɪt /","ukp":"/ˌred ˈkɑː.pɪt/","us":"us  / ˌred ˈkɑːr.pət /","usp":"/ˌred ˈkɑːr.pət/"}
+{"title":"red chip","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"red dwarf","uk":"uk  / ˌred ˈdwɔːf /","ukp":"/ˌred ˈdwɔːf/","us":"us  / ˌred ˈdwɔːrf /","usp":"/ˌred ˈdwɔːrf/"}
+{"title":"red deer","uk":"uk  / ˌred ˈdɪə r /","ukp":"/ˌred ˈdɪər/","us":"us  / ˌred ˈdɪr /","usp":"/ˌred ˈdɪr/"}
+{"title":"red eye flight","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"red flag","uk":"uk  / ˌred ˈflæɡ /","ukp":"/ˌred ˈflæɡ/","us":"us  / ˌred ˈflæɡ /","usp":"/ˌred ˈflæɡ/"}
+{"title":"red giant","uk":"uk  / ˌred ˈdʒaɪ. ə nt /","ukp":"/ˌred ˈdʒaɪ.ənt/","us":"us  / ˌred ˈdʒaɪ. ə nt /","usp":"/ˌred ˈdʒaɪ.ənt/"}
+{"title":"red herring","uk":"uk  / ˌred ˈher.ɪŋ /","ukp":"/ˌred ˈher.ɪŋ/","us":"us  / ˌred ˈher.ɪŋ /","usp":"/ˌred ˈher.ɪŋ/"}
+{"title":"Red Indian","uk":"uk  / ˌred ˈɪn.di.ən /","ukp":"/ˌred ˈɪn.di.ən/","us":"us  / ˌred ˈɪn.di.ən /","usp":"/ˌred ˈɪn.di.ən/"}
+{"title":"red ink","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"red kite","uk":"uk  / ˌred ˈkaɪt /","ukp":"/ˌred ˈkaɪt/","us":"us  / ˌred ˈkaɪt /","usp":"/ˌred ˈkaɪt/"}
+{"title":"red light","uk":"uk  / ˌred ˈlaɪt /","ukp":"/ˌred ˈlaɪt/","us":"us  / ˌred ˈlaɪt /","usp":"/ˌred ˈlaɪt/"}
+{"title":"red line","uk":"uk  / ˌred ˈlaɪn /","ukp":"/ˌred ˈlaɪn/","us":"us  / ˌred ˈlaɪn /","usp":"/ˌred ˈlaɪn/"}
+{"title":"red meat","uk":"uk  / ˌred ˈmiːt /","ukp":"/ˌred ˈmiːt/","us":"us  / ˌred ˈmiːt /","usp":"/ˌred ˈmiːt/"}
+{"title":"red mist","uk":"uk  / ˌred ˈmɪst /","ukp":"/ˌred ˈmɪst/","us":"us  / ˌred ˈmɪst /","usp":"/ˌred ˈmɪst/"}
+{"title":"red onion","uk":"uk  / ˌred ˈʌn.jən /","ukp":"/ˌred ˈʌn.jən/","us":"us  / ˌred ˈʌn.jən /","usp":"/ˌred ˈʌn.jən/"}
+{"title":"red panda","uk":"uk  / ˌred ˈpæn.də /","ukp":"/ˌred ˈpæn.də/","us":"us  / ˌred ˈpæn.də /","usp":"/ˌred ˈpæn.də/"}
+{"title":"red pill","uk":"uk  / ˌred ˈpɪl /","ukp":"/ˌred ˈpɪl/","us":"us  / ˌred ˈpɪl /","usp":"/ˌred ˈpɪl/"}
+{"title":"red pepper","uk":"uk  / ˌred ˈpep.ə r /","ukp":"/ˌred ˈpep.ər/","us":"us  / ˌred ˈpep.ɚ /","usp":"/ˌred ˈpep.ɚ/"}
+{"title":"Red Planet","uk":"uk  / ˌred ˈplæn.ɪt /","ukp":"/ˌred ˈplæn.ɪt/","us":"us  / ˌred ˈplæn.ɪt /","usp":"/ˌred ˈplæn.ɪt/"}
+{"title":"red spider","uk":"uk  / ˌred ˈspaɪ.də r /","ukp":"/ˌred ˈspaɪ.dər/","us":"us  / ˌred ˈspaɪ.dɚ /","usp":"/ˌred ˈspaɪ.dɚ/"}
+{"title":"red state","uk":"uk  / ˈred ˌsteɪt /","ukp":"/ˈred ˌsteɪt/","us":"us  / ˈred ˌsteɪt /","usp":"/ˈred ˌsteɪt/"}
+{"title":"red tape","uk":"uk  / ˌred ˈteɪp /","ukp":"/ˌred ˈteɪp/","us":"us  / ˌred ˈteɪp /","usp":"/ˌred ˈteɪp/"}
+{"title":"red velvet cake","uk":"uk  / ˌred ˈvel.vɪt ˌkeɪk /","ukp":"/ˌred ˈvel.vɪt ˌkeɪk/","us":"us  / ˌred ˈvel.vɪt ˌkeɪk /","usp":"/ˌred ˈvel.vɪt ˌkeɪk/"}
+{"title":"red wine","uk":"uk  / ˌred ˈwaɪn /","ukp":"/ˌred ˈwaɪn/","us":"us  / ˌred ˈwaɪn /","usp":"/ˌred ˈwaɪn/"}
+{"title":"red-blooded","uk":"uk  / ˌredˈblʌd.ɪd /","ukp":"/ˌredˈblʌd.ɪd/","us":"us  / ˌredˈblʌd.ɪd /","usp":"/ˌredˈblʌd.ɪd/"}
+{"title":"red-brick","uk":"uk  / ˈred.brɪk /","ukp":"/ˈred.brɪk/","us":"us  / ˈred.brɪk /","usp":"/ˈred.brɪk/"}
+{"title":"red-handed","uk":"uk  / ˌredˈhæn.dɪd /","ukp":"/ˌredˈhæn.dɪd/","us":"us  / ˌredˈhæn.dɪd /","usp":"/ˌredˈhæn.dɪd/"}
+{"title":"red-eye","uk":"uk  / ˈred.aɪ /","ukp":"/ˈred.aɪ/","us":"us  / ˈred.aɪ /","usp":"/ˈred.aɪ/"}
+{"title":"red-hot","uk":"uk  / ˌredˈhɒt /","ukp":"/ˌredˈhɒt/","us":"us  / ˌredˈhɑːt /","usp":"/ˌredˈhɑːt/"}
+{"title":"red-letter day","uk":"uk  / ˌredˈlet.ə ˌdeɪ /","ukp":"/ˌredˈlet.ə ˌdeɪ/","us":"us  / ˌredˈlet̬.ɚ ˌdeɪ /","usp":"/ˌredˈlet̬.ɚ ˌdeɪ/"}
+{"title":"red-light district","uk":"uk  / ˌredˈlaɪt ˌdɪs.trɪkt /","ukp":"/ˌredˈlaɪt ˌdɪs.trɪkt/","us":"us  / ˌredˈlaɪt ˌdɪs.trɪkt /","usp":"/ˌredˈlaɪt ˌdɪs.trɪkt/"}
+{"title":"red-top","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"redact","uk":"uk  / rɪˈdækt /","ukp":"/rɪˈdækt/","us":"us  / rɪˈdækt /","usp":"/rɪˈdækt/"}
+{"title":"redbush","uk":"uk  / ˈred.bʊʃ /","ukp":"/ˈred.bʊʃ/","us":"us  / ˈred.bʊʃ /","usp":"/ˈred.bʊʃ/"}
+{"title":"REDD","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"redcurrant","uk":"uk  / ˈredˌkʌr. ə nt /","ukp":"/ˈredˌkʌr.ənt/","us":"us  / ˈredˌkɝː. ə nt /","usp":"/ˈredˌkɝː.ənt/"}
+{"title":"redaction","uk":"uk  / rɪˈdæk.ʃ ə n /","ukp":"/rɪˈdæk.ʃən/","us":"us  / rɪˈdæk.ʃ ə n /","usp":"/rɪˈdæk.ʃən/"}
+{"title":"reddened","uk":"uk  / ˈred. ə n /","ukp":"/ˈred.ən/","us":"us  / ˈred. ə n /","usp":"/ˈred.ən/"}
+{"title":"redden","uk":"uk  / ˈred. ə n /","ukp":"/ˈred.ən/","us":"us  / ˈred. ə n /","usp":"/ˈred.ən/"}
+{"title":"reddening","uk":"uk  / ˈred. ə n /","ukp":"/ˈred.ən/","us":"us  / ˈred. ə n /","usp":"/ˈred.ən/"}
+{"title":"redder","uk":"","us":""}
+{"title":"reddest","uk":"","us":""}
+{"title":"reddish","uk":"uk  / ˈred.ɪʃ /","ukp":"/ˈred.ɪʃ/","us":"us  / ˈred.ɪʃ /","usp":"/ˈred.ɪʃ/"}
+{"title":"redecorate","uk":"uk  / ˌriːˈdek.ə.reɪt /","ukp":"/ˌriːˈdek.ə.reɪt/","us":"us  / ˌriːˈdek.ə.reɪt /","usp":"/ˌriːˈdek.ə.reɪt/"}
+{"title":"redecorating","uk":"uk  / ˌriːˈdek.ə.reɪt /","ukp":"/ˌriːˈdek.ə.reɪt/","us":"us  / ˌriːˈdek.ə.reɪt /","usp":"/ˌriːˈdek.ə.reɪt/"}
+{"title":"redecorated","uk":"uk  / ˌriːˈdek.ə.reɪt /","ukp":"/ˌriːˈdek.ə.reɪt/","us":"us  / ˌriːˈdek.ə.reɪt /","usp":"/ˌriːˈdek.ə.reɪt/"}
+{"title":"redecoration","uk":"uk  / ˌriː.dek.əˈreɪ.ʃ ə n /","ukp":"/ˌriː.dek.əˈreɪ.ʃən/","us":"us  / ˌriː.dek.əˈreɪ.ʃ ə n /","usp":"/ˌriː.dek.əˈreɪ.ʃən/"}
+{"title":"rededicate","uk":"uk  / ˌriːˈded.ɪ.keɪt /","ukp":"/ˌriːˈded.ɪ.keɪt/","us":"us  / ˌriːˈded.ə.keɪt /","usp":"/ˌriːˈded.ə.keɪt/"}
+{"title":"rededication","uk":"uk  / ˌriː.ded.ɪˈkeɪ.ʃ ə n /","ukp":"/ˌriː.ded.ɪˈkeɪ.ʃən/","us":"us  / ˌriː.ded.əˈkeɪ.ʃ ə n /","usp":"/ˌriː.ded.əˈkeɪ.ʃən/"}
+{"title":"redeemable","uk":"uk  / rɪˈdiː.mə.b ə l /","ukp":"/rɪˈdiː.mə.bəl/","us":"us  / rɪˈdiː.mə.b ə l /","usp":"/rɪˈdiː.mə.bəl/"}
+{"title":"redeem","uk":"uk  / rɪˈdiːm /","ukp":"/rɪˈdiːm/","us":"us  / rɪˈdiːm /","usp":"/rɪˈdiːm/"}
+{"title":"redeemable stock","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"redeeming","uk":"uk  / rɪˈdiː.mɪŋ /","ukp":"/rɪˈdiː.mɪŋ/","us":"us  / rɪˈdiː.mɪŋ /","usp":"/rɪˈdiː.mɪŋ/"}
+{"title":"redeemed","uk":"uk  / rɪˈdiːm /","ukp":"/rɪˈdiːm/","us":"us  / rɪˈdiːm /","usp":"/rɪˈdiːm/"}
+{"title":"redefine","uk":"uk  / ˌriː.dɪˈfaɪn /","ukp":"/ˌriː.dɪˈfaɪn/","us":"us  / ˌriː.dɪˈfaɪn /","usp":"/ˌriː.dɪˈfaɪn/"}
+{"title":"redeliver","uk":"uk  / ˌriː.dɪˈlɪv.ə r /","ukp":"/ˌriː.dɪˈlɪv.ər/","us":"us  / ˌriː.dɪˈlɪv.ɚ /","usp":"/ˌriː.dɪˈlɪv.ɚ/"}
+{"title":"redelivery","uk":"uk  / ˌriː.dɪˈlɪv. ə r.i /","ukp":"/ˌriː.dɪˈlɪv.ər.i/","us":"us  / ˌriː.dɪˈlɪv.ɚ.i /","usp":"/ˌriː.dɪˈlɪv.ɚ.i/"}
+{"title":"redemption","uk":"uk  / rɪˈdemp.ʃ ə n /","ukp":"/rɪˈdemp.ʃən/","us":"us  / rɪˈdemp.ʃ ə n /","usp":"/rɪˈdemp.ʃən/"}
+{"title":"redemption yield","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"redemptive","uk":"uk  / rɪˈdemp.tɪv /","ukp":"/rɪˈdemp.tɪv/","us":"us  / rɪˈdemp.tɪv /","usp":"/rɪˈdemp.tɪv/"}
+{"title":"redeploy","uk":"uk  / ˌriː.dɪˈplɔɪ /","ukp":"/ˌriː.dɪˈplɔɪ/","us":"us  / ˌriː.dɪˈplɔɪ /","usp":"/ˌriː.dɪˈplɔɪ/"}
+{"title":"redeployed","uk":"uk  / ˌriː.dɪˈplɔɪ /","ukp":"/ˌriː.dɪˈplɔɪ/","us":"us  / ˌriː.dɪˈplɔɪ /","usp":"/ˌriː.dɪˈplɔɪ/"}
+{"title":"redeploying","uk":"uk  / ˌriː.dɪˈplɔɪ /","ukp":"/ˌriː.dɪˈplɔɪ/","us":"us  / ˌriː.dɪˈplɔɪ /","usp":"/ˌriː.dɪˈplɔɪ/"}
+{"title":"redemption date","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"redeployment","uk":"uk  / ˌriː.dɪˈplɔɪ.mənt /","ukp":"/ˌriː.dɪˈplɔɪ.mənt/","us":"us  / ˌriː.dɪˈplɔɪ.mənt /","usp":"/ˌriː.dɪˈplɔɪ.mənt/"}
+{"title":"redeposit","uk":"uk  / ˌriː.dɪˈpɒz.ɪt /","ukp":"/ˌriː.dɪˈpɒz.ɪt/","us":"us  / ˌriː.dɪˈpɑːz.ɪt /","usp":"/ˌriː.dɪˈpɑːz.ɪt/"}
+{"title":"redesigned","uk":"uk  / ˌriːdɪˈzaɪnd /","ukp":"/ˌriːdɪˈzaɪnd/","us":"us ","usp":""}
+{"title":"redesign","uk":"uk  / ˌriː.dɪˈzaɪn /","ukp":"/ˌriː.dɪˈzaɪn/","us":"us  / ˌriː.dɪˈzaɪn /","usp":"/ˌriː.dɪˈzaɪn/"}
+{"title":"redetermination","uk":"uk  / ˌriː.dɪ.tɜː.mɪˈneɪ.ʃ ə n /","ukp":"/ˌriː.dɪ.tɜː.mɪˈneɪ.ʃən/","us":"us  / ˌriː.dɪ.tɝː.mɪˈneɪ.ʃ ə n /","usp":"/ˌriː.dɪ.tɝː.mɪˈneɪ.ʃən/"}
+{"title":"redetermine","uk":"uk  / ˌriː.dɪˈtɜː.mɪn /","ukp":"/ˌriː.dɪˈtɜː.mɪn/","us":"us  / ˌriː.dɪˈtɝː.mɪn /","usp":"/ˌriː.dɪˈtɝː.mɪn/"}
+{"title":"redevelop","uk":"uk  / ˌriː.dɪˈvel.əp /","ukp":"/ˌriː.dɪˈvel.əp/","us":"us  / ˌriː.dɪˈvel.əp /","usp":"/ˌriː.dɪˈvel.əp/"}
+{"title":"redeveloping","uk":"uk  / ˌriː.dɪˈvel.əp /","ukp":"/ˌriː.dɪˈvel.əp/","us":"us  / ˌriː.dɪˈvel.əp /","usp":"/ˌriː.dɪˈvel.əp/"}
+{"title":"redevelopment","uk":"uk  / ˌriː.dɪˈvel.əp.mənt /","ukp":"/ˌriː.dɪˈvel.əp.mənt/","us":"us  / ˌriː.dɪˈvel.əp.mənt /","usp":"/ˌriː.dɪˈvel.əp.mənt/"}
+{"title":"redhead","uk":"uk  / ˈred.hed /","ukp":"/ˈred.hed/","us":"us  / ˈred.hed /","usp":"/ˈred.hed/"}
+{"title":"redial","uk":"uk  / ˌriːˈdaɪəl /","ukp":"/ˌriːˈdaɪəl/","us":"us ","usp":""}
+{"title":"redeveloped","uk":"uk  / ˌriː.dɪˈvel.əp /","ukp":"/ˌriː.dɪˈvel.əp/","us":"us  / ˌriː.dɪˈvel.əp /","usp":"/ˌriː.dɪˈvel.əp/"}
+{"title":"redirect","uk":"uk  / ˌriː.daɪˈrekt /","ukp":"/ˌriː.daɪˈrekt/","us":"us  / ˌriː.daɪˈrekt /","usp":"/ˌriː.daɪˈrekt/"}
+{"title":"redirected","uk":"uk  / ˌriː.daɪˈrekt /","ukp":"/ˌriː.daɪˈrekt/","us":"us  / ˌriː.daɪˈrekt /","usp":"/ˌriː.daɪˈrekt/"}
+{"title":"redirecting","uk":"uk  / ˌriː.daɪˈrekt /","ukp":"/ˌriː.daɪˈrekt/","us":"us  / ˌriː.daɪˈrekt /","usp":"/ˌriː.daɪˈrekt/"}
+{"title":"rediscount","uk":"uk  / ˌriːˈdɪskaʊnt /","ukp":"/ˌriːˈdɪskaʊnt/","us":"us ","usp":""}
+{"title":"rediscover","uk":"uk  / ˌriːdɪˈskʌv.ə r /","ukp":"/ˌriːdɪˈskʌv.ər/","us":"us  / ˌriːdɪˈskʌv.ɚ /","usp":"/ˌriːdɪˈskʌv.ɚ/"}
+{"title":"rediscovered","uk":"uk  / ˌriːdɪˈskʌv.ə r /","ukp":"/ˌriːdɪˈskʌv.ər/","us":"us  / ˌriːdɪˈskʌv.ɚ /","usp":"/ˌriːdɪˈskʌv.ɚ/"}
+{"title":"rediscovering","uk":"uk  / ˌriːdɪˈskʌv.ə r /","ukp":"/ˌriːdɪˈskʌv.ər/","us":"us  / ˌriːdɪˈskʌv.ɚ /","usp":"/ˌriːdɪˈskʌv.ɚ/"}
+{"title":"rediscovery","uk":"uk  / ˌriː.dɪˈskʌv. ə r.i /","ukp":"/ˌriː.dɪˈskʌv.ər.i/","us":"us  / ˌriː.dɪˈskʌv.ɚ.i /","usp":"/ˌriː.dɪˈskʌv.ɚ.i/"}
+{"title":"rediscuss","uk":"uk  / ˌriː.dɪˈskʌs /","ukp":"/ˌriː.dɪˈskʌs/","us":"us  / ˌriː.dɪˈskʌs /","usp":"/ˌriː.dɪˈskʌs/"}
+{"title":"redisplay","uk":"uk  / ˌriː.dɪˈspleɪ /","ukp":"/ˌriː.dɪˈspleɪ/","us":"us  / ˌriː.dɪˈspleɪ /","usp":"/ˌriː.dɪˈspleɪ/"}
+{"title":"redistillation","uk":"uk  / ˌriː.dɪs.tɪˈleɪ.ʃ ə n /","ukp":"/ˌriː.dɪs.tɪˈleɪ.ʃən/","us":"us  / ˌriː.dɪs.təˈleɪ.ʃ ə n /","usp":"/ˌriː.dɪs.təˈleɪ.ʃən/"}
+{"title":"redistributed","uk":"uk  / ˌriː.dɪˈstrɪb.juːt /","ukp":"/ˌriː.dɪˈstrɪb.juːt/","us":"us  / ˌriː.dɪˈstrɪb.juːt /","usp":"/ˌriː.dɪˈstrɪb.juːt/"}
+{"title":"redistribute","uk":"uk  / ˌriː.dɪˈstrɪb.juːt /","ukp":"/ˌriː.dɪˈstrɪb.juːt/","us":"us  / ˌriː.dɪˈstrɪb.juːt /","usp":"/ˌriː.dɪˈstrɪb.juːt/"}
+{"title":"redistributing","uk":"uk  / ˌriː.dɪˈstrɪb.juːt /","ukp":"/ˌriː.dɪˈstrɪb.juːt/","us":"us  / ˌriː.dɪˈstrɪb.juːt /","usp":"/ˌriː.dɪˈstrɪb.juːt/"}
+{"title":"redistributive","uk":"uk  / ˌriːdɪˈstrɪbjʊtɪv /","ukp":"/ˌriːdɪˈstrɪbjʊtɪv/","us":"us ","usp":""}
+{"title":"redistributive taxation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"redistribution","uk":"uk  / ˌriː.dɪs.trɪˈbjuː.ʃ ə n /","ukp":"/ˌriː.dɪs.trɪˈbjuː.ʃən/","us":"us  / ˌriː.dɪs.trəˈbjuː.ʃ ə n /","usp":"/ˌriː.dɪs.trəˈbjuː.ʃən/"}
+{"title":"redivision","uk":"uk  / ˌriː.dɪˈvɪʒ. ə n /","ukp":"/ˌriː.dɪˈvɪʒ.ən/","us":"us  / ˌriː.dɪˈvɪʒ. ə n /","usp":"/ˌriː.dɪˈvɪʒ.ən/"}
+{"title":"redivide","uk":"uk  / ˌriː.dɪˈvaɪd /","ukp":"/ˌriː.dɪˈvaɪd/","us":"us  / ˌriː.dɪˈvaɪd /","usp":"/ˌriː.dɪˈvaɪd/"}
+{"title":"redlining","uk":"uk  / ˈredlaɪnɪŋ /","ukp":"/ˈredlaɪnɪŋ/","us":"us ","usp":""}
+{"title":"redneck","uk":"uk  / ˈred.nek /","ukp":"/ˈred.nek/","us":"us  / ˈred.nek /","usp":"/ˈred.nek/"}
+{"title":"recounting","uk":"uk  / rɪˈkaʊnt /","ukp":"/rɪˈkaʊnt/","us":"us  / rɪˈkaʊnt /","usp":"/rɪˈkaʊnt/"}
+{"title":"redness","uk":"uk  / ˈred.nəs /","ukp":"/ˈred.nəs/","us":"us  / ˈred.nəs /","usp":"/ˈred.nəs/"}
+{"title":"recoup","uk":"uk  / rɪˈkuːp /","ukp":"/rɪˈkuːp/","us":"us  / rɪˈkuːp /","usp":"/rɪˈkuːp/"}
+{"title":"recouped","uk":"uk  / rɪˈkuːp /","ukp":"/rɪˈkuːp/","us":"us  / rɪˈkuːp /","usp":"/rɪˈkuːp/"}
+{"title":"recouping","uk":"uk  / rɪˈkuːp /","ukp":"/rɪˈkuːp/","us":"us  / rɪˈkuːp /","usp":"/rɪˈkuːp/"}
+{"title":"recouple","uk":"uk  / ˌriːˈkʌp. ə l /","ukp":"/ˌriːˈkʌp.əl/","us":"us  / ˌriːˈkʌp. ə l /","usp":"/ˌriːˈkʌp.əl/"}
+{"title":"recoupling","uk":"uk  / ˌriːˈkʌp.lɪŋ /","ukp":"/ˌriːˈkʌp.lɪŋ/","us":"us  / ˌriːˈkʌp.lɪŋ /","usp":"/ˌriːˈkʌp.lɪŋ/"}
+{"title":"recourse","uk":"uk  / rɪˈkɔːs /","ukp":"/rɪˈkɔːs/","us":"us  / ˈriː.kɔːrs /","usp":"/ˈriː.kɔːrs/"}
+{"title":"recoverable","uk":"uk  / rɪˈkʌv ə rəbl /","ukp":"/rɪˈkʌvərəbl/","us":"us ","usp":""}
+{"title":"recover","uk":"uk  / rɪˈkʌv.ə r /","ukp":"/rɪˈkʌv.ər/","us":"us  / rɪˈkʌv.ɚ /","usp":"/rɪˈkʌv.ɚ/"}
+{"title":"recovered","uk":"uk  / rɪˈkʌv.ə r /","ukp":"/rɪˈkʌv.ər/","us":"us  / rɪˈkʌv.ɚ /","usp":"/rɪˈkʌv.ɚ/"}
+{"title":"recovering","uk":"uk  / rɪˈkʌv.ə r /","ukp":"/rɪˈkʌv.ər/","us":"us  / rɪˈkʌv.ɚ /","usp":"/rɪˈkʌv.ɚ/"}
+{"title":"recovery period","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"recovery","uk":"uk  / rɪˈkʌv. ə r.i /","ukp":"/rɪˈkʌv.ər.i/","us":"us  / rɪˈkʌv.ɚ.i /","usp":"/rɪˈkʌv.ɚ.i/"}
+{"title":"recovery position","uk":"uk  / rɪˈkʌv. ə r.i pəˌzɪʃ. ə n /","ukp":"/rɪˈkʌv.ər.i pəˌzɪʃ.ən/","us":"us  / rɪˈkʌv. ə r.i pəˌzɪʃ. ə n /","usp":"/rɪˈkʌv.ər.i pəˌzɪʃ.ən/"}
+{"title":"recovery rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"recreate","uk":"uk  / ˌriː.kriˈeɪt /","ukp":"/ˌriː.kriˈeɪt/","us":"us  / ˌriː.kriˈeɪt /","usp":"/ˌriː.kriˈeɪt/"}
+{"title":"recreated","uk":"uk  / ˌriː.kriˈeɪt /","ukp":"/ˌriː.kriˈeɪt/","us":"us  / ˌriː.kriˈeɪt /","usp":"/ˌriː.kriˈeɪt/"}
+{"title":"recreating","uk":"uk  / ˌriː.kriˈeɪt /","ukp":"/ˌriː.kriˈeɪt/","us":"us  / ˌriː.kriˈeɪt /","usp":"/ˌriː.kriˈeɪt/"}
+{"title":"recreation center","uk":"uk  / rek.riˈeɪ.ʃ ə n ˌsen.tə r /","ukp":"/rek.riˈeɪ.ʃən ˌsen.tər/","us":"us  / rek.riˈeɪ.ʃ ə n ˌsen.t̬ɚ /","usp":"/rek.riˈeɪ.ʃən ˌsen.t̬ɚ/"}
+{"title":"recreation","uk":"uk  / ˌrek.riˈeɪ.ʃ ə n /","ukp":"/ˌrek.riˈeɪ.ʃən/","us":"us  / ˌrek.riˈeɪ.ʃ ə n /","usp":"/ˌrek.riˈeɪ.ʃən/"}
+{"title":"recreation ground","uk":"uk  / rek.riˈeɪ.ʃ ə n ˌɡraʊnd /","ukp":"/rek.riˈeɪ.ʃən ˌɡraʊnd/","us":"us  / rek.riˈeɪ.ʃ ə n ˌɡraʊnd /","usp":"/rek.riˈeɪ.ʃən ˌɡraʊnd/"}
+{"title":"recreational","uk":"uk  / ˌrek.riˈeɪ.ʃ ə n. ə l /","ukp":"/ˌrek.riˈeɪ.ʃən.əl/","us":"us  / ˌrek.riˈeɪ.ʃ ə n. ə l /","usp":"/ˌrek.riˈeɪ.ʃən.əl/"}
+{"title":"recreational drug","uk":"uk  / rek.riˌeɪ.ʃ ə n. ə l ˈdrʌɡ /","ukp":"/rek.riˌeɪ.ʃən.əl ˈdrʌɡ/","us":"us  / rek.riˌeɪ.ʃ ə n. ə l ˈdrʌɡ /","usp":"/rek.riˌeɪ.ʃən.əl ˈdrʌɡ/"}
+{"title":"recreational vehicle","uk":"uk  / rek.riˌeɪ.ʃ ə n. ə l ˈvɪə.k ə l /","ukp":"/rek.riˌeɪ.ʃən.əl ˈvɪə.kəl/","us":"us  / rek.riˌeɪ.ʃ ə n. ə l ˈviː.ə.k ə l /","usp":"/rek.riˌeɪ.ʃən.əl ˈviː.ə.kəl/"}
+{"title":"recriminatory","uk":"uk  / rɪˈkrɪm.ɪ.nə.t ə r.i /","ukp":"/rɪˈkrɪm.ɪ.nə.tər.i/","us":"us  / rɪˈkrɪm.ə.nə.tɔːr.i /","usp":"/rɪˈkrɪm.ə.nə.tɔːr.i/"}
+{"title":"recrimination","uk":"uk  / rɪˌkrɪm.ɪˈneɪ.ʃ ə n /","ukp":"/rɪˌkrɪm.ɪˈneɪ.ʃən/","us":"us  / rɪˌkrɪm.əˈneɪ.ʃ ə n /","usp":"/rɪˌkrɪm.əˈneɪ.ʃən/"}
+{"title":"recross","uk":"uk  / ˌriːˈkrɒs /","ukp":"/ˌriːˈkrɒs/","us":"us  / ˌriːˈkrɑːs /","usp":"/ˌriːˈkrɑːs/"}
+{"title":"recrudescence","uk":"uk  / ˌriː.kruːˈdes. ə ns /","ukp":"/ˌriː.kruːˈdes.əns/","us":"us  / ˌriː.kruːˈdes. ə ns /","usp":"/ˌriː.kruːˈdes.əns/"}
+{"title":"recruited","uk":"uk  / rɪˈkruːt /","ukp":"/rɪˈkruːt/","us":"us  / rɪˈkruːt /","usp":"/rɪˈkruːt/"}
+{"title":"recruit","uk":"uk  / rɪˈkruːt /","ukp":"/rɪˈkruːt/","us":"us  / rɪˈkruːt /","usp":"/rɪˈkruːt/"}
+{"title":"recruiter","uk":"uk  / rɪˈkruː.tə r /","ukp":"/rɪˈkruː.tər/","us":"us  / rɪˈkruː.tɚ /","usp":"/rɪˈkruː.tɚ/"}
+{"title":"recruiting","uk":"uk  / rɪˈkruːtɪŋ /","ukp":"/rɪˈkruːtɪŋ/","us":"us ","usp":""}
+{"title":"recruiting agency","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"recruitment agency","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"recruitment","uk":"uk  / rɪˈkruːt.mənt /","ukp":"/rɪˈkruːt.mənt/","us":"us  / rɪˈkruːt.mənt /","usp":"/rɪˈkruːt.mənt/"}
+{"title":"recruitment consultancy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"recruitment fair","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"recruitment consultant","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rectally","uk":"uk  / ˈrek.t ə l.i /","ukp":"/ˈrek.təl.i/","us":"us  / ˈrek.t ə l.i /","usp":"/ˈrek.təl.i/"}
+{"title":"rectal","uk":"uk  / ˈrek.təl /","ukp":"/ˈrek.təl/","us":"us  / ˈrek.təl /","usp":"/ˈrek.təl/"}
+{"title":"rectangle","uk":"uk  / ˈrek.tæŋ.ɡ ə l /","ukp":"/ˈrek.tæŋ.ɡəl/","us":"us  / ˈrek.tæŋ.ɡ ə l /","usp":"/ˈrek.tæŋ.ɡəl/"}
+{"title":"rectangular","uk":"uk  / rekˈtæŋ.ɡjə.lə r /","ukp":"/rekˈtæŋ.ɡjə.lər/","us":"us  / rekˈtæŋ.ɡjə.lɚ /","usp":"/rekˈtæŋ.ɡjə.lɚ/"}
+{"title":"rectification","uk":"uk  / ˌrek.tɪ.fɪˈkeɪ.ʃ ə n /","ukp":"/ˌrek.tɪ.fɪˈkeɪ.ʃən/","us":"us  / ˌrek.tə.fəˈkeɪ.ʃ ə n /","usp":"/ˌrek.tə.fəˈkeɪ.ʃən/"}
+{"title":"rectified","uk":"uk  / ˈrek.tɪ.faɪ /","ukp":"/ˈrek.tɪ.faɪ/","us":"us  / ˈrek.tə.faɪ /","usp":"/ˈrek.tə.faɪ/"}
+{"title":"rectifier","uk":"uk  / ˈrek.tɪ.faɪ.ə r /","ukp":"/ˈrek.tɪ.faɪ.ər/","us":"us  / ˈrek.tə.faɪ.ɚ /","usp":"/ˈrek.tə.faɪ.ɚ/"}
+{"title":"rectify","uk":"uk  / ˈrek.tɪ.faɪ /","ukp":"/ˈrek.tɪ.faɪ/","us":"us  / ˈrek.tə.faɪ /","usp":"/ˈrek.tə.faɪ/"}
+{"title":"rectifying","uk":"uk  / ˈrek.tɪ.faɪ /","ukp":"/ˈrek.tɪ.faɪ/","us":"us  / ˈrek.tə.faɪ /","usp":"/ˈrek.tə.faɪ/"}
+{"title":"rectilinear","uk":"uk  / ˌrek.tɪˈlɪn.i.ə r /","ukp":"/ˌrek.tɪˈlɪn.i.ər/","us":"us  / ˌrek.təˈlɪn.i.ɚ /","usp":"/ˌrek.təˈlɪn.i.ɚ/"}
+{"title":"rectitude","uk":"uk  / ˈrek.tɪ.tʃuːd /","ukp":"/ˈrek.tɪ.tʃuːd/","us":"us  / ˈrek.tə.tuːd /","usp":"/ˈrek.tə.tuːd/"}
+{"title":"redoing","uk":"uk  / riːˈduː /","ukp":"/riːˈduː/","us":"us  / riːˈduː /","usp":"/riːˈduː/"}
+{"title":"redo","uk":"uk  / riːˈduː /","ukp":"/riːˈduː/","us":"us  / riːˈduː /","usp":"/riːˈduː/"}
+{"title":"redolence","uk":"uk  / ˈred. ə l. ə ns /","ukp":"/ˈred.əl.əns/","us":"us  / ˈred. ə l. ə ns /","usp":"/ˈred.əl.əns/"}
+{"title":"redolent","uk":"uk  / ˈred. ə l. ə nt /","ukp":"/ˈred.əl.ənt/","us":"us  / ˈred. ə l. ə nt /","usp":"/ˈred.əl.ənt/"}
+{"title":"redon","uk":"uk  / ˌriː.ˈdɒn /","ukp":"/ˌriː.ˈdɒn/","us":"us  / ˌriːˈdɑːn /","usp":"/ˌriːˈdɑːn/"}
+{"title":"redouble","uk":"uk  / ˌriːˈdʌb. ə l /","ukp":"/ˌriːˈdʌb.əl/","us":"us  / ˌriːˈdʌb. ə l /","usp":"/ˌriːˈdʌb.əl/"}
+{"title":"redoubled","uk":"uk  / ˌriːˈdʌb. ə l /","ukp":"/ˌriːˈdʌb.əl/","us":"us  / ˌriːˈdʌb. ə l /","usp":"/ˌriːˈdʌb.əl/"}
+{"title":"redoubling","uk":"uk  / ˌriːˈdʌb. ə l /","ukp":"/ˌriːˈdʌb.əl/","us":"us  / ˌriːˈdʌb. ə l /","usp":"/ˌriːˈdʌb.əl/"}
+{"title":"redoubtable","uk":"uk  / rɪˈdaʊ.tə.b ə l /","ukp":"/rɪˈdaʊ.tə.bəl/","us":"us  / rɪˈdaʊ.t̬ə.b ə l /","usp":"/rɪˈdaʊ.t̬ə.bəl/"}
+{"title":"redound","uk":"uk  / rɪˈdaʊnd /","ukp":"/rɪˈdaʊnd/","us":"us  / rɪˈdaʊnd /","usp":"/rɪˈdaʊnd/"}
+{"title":"redoubt","uk":"uk  / rɪˈdaʊt /","ukp":"/rɪˈdaʊt/","us":"us  / rɪˈdaʊt /","usp":"/rɪˈdaʊt/"}
+{"title":"redox","uk":"uk  / ˈriː.dɒks /","ukp":"/ˈriː.dɒks/","us":"us  / ˈriː.dɑːks /","usp":"/ˈriː.dɑːks/"}
+{"title":"redraw","uk":"uk  / ˌriːˈdrɔː /","ukp":"/ˌriːˈdrɔː/","us":"us  / ˌriːˈdrɔː /","usp":"/ˌriːˈdrɔː/"}
+{"title":"redream","uk":"uk  / ˌriːˈdriːm /","ukp":"/ˌriːˈdriːm/","us":"us  / ˌriːˈdriːm /","usp":"/ˌriːˈdriːm/"}
+{"title":"redress","uk":"uk  / rɪˈdres /","ukp":"/rɪˈdres/","us":"us  / rɪˈdres /","usp":"/rɪˈdres/"}
+{"title":"redressed","uk":"uk  / rɪˈdres /","ukp":"/rɪˈdres/","us":"us  / rɪˈdres /","usp":"/rɪˈdres/"}
+{"title":"redressing","uk":"uk  / rɪˈdres /","ukp":"/rɪˈdres/","us":"us  / rɪˈdres /","usp":"/rɪˈdres/"}
+{"title":"redrill","uk":"uk  / ˌriːˈdrɪl /","ukp":"/ˌriːˈdrɪl/","us":"us  / ˌriːˈdrɪl /","usp":"/ˌriːˈdrɪl/"}
+{"title":"redraft","uk":"uk  / ˌriːˈdrɑːft /","ukp":"/ˌriːˈdrɑːft/","us":"us  / ˌriːˈdræft /","usp":"/ˌriːˈdræft/"}
+{"title":"redskin","uk":"uk  / ˈred.skɪn /","ukp":"/ˈred.skɪn/","us":"us  / ˈred.skɪn /","usp":"/ˈred.skɪn/"}
+{"title":"redshift","uk":"uk  / ˈred.ʃɪft /","ukp":"/ˈred.ʃɪft/","us":"us  / ˈred.ʃɪft /","usp":"/ˈred.ʃɪft/"}
+{"title":"redub","uk":"uk  / ˌriːˈdʌb /","ukp":"/ˌriːˈdʌb/","us":"us  / ˌriːˈdʌb /","usp":"/ˌriːˈdʌb/"}
+{"title":"reduce someone to something","uk":"uk  / rɪˈdʒuːs /","ukp":"/rɪˈdʒuːs/","us":"us  / rɪˈduːs /","usp":"/rɪˈduːs/"}
+{"title":"reduce","uk":"uk  / rɪˈdʒuːs /","ukp":"/rɪˈdʒuːs/","us":"us  / rɪˈduːs /","usp":"/rɪˈduːs/"}
+{"title":"reduced","uk":"uk  / rɪˈdjuːst /","ukp":"/rɪˈdjuːst/","us":"us  / rɪˈduːst /","usp":"/rɪˈduːst/"}
+{"title":"reduce, reuse, recycle","uk":"","us":""}
+{"title":"reduced circumstances","uk":"uk  / rɪˌdʒuːst ˈsɜː.kəm.stɑːn.sɪz /","ukp":"/rɪˌdʒuːst ˈsɜː.kəm.stɑːn.sɪz/","us":"us  / rɪˌduːst ˈsɝː.kəm.stæn.sɪz /","usp":"/rɪˌduːst ˈsɝː.kəm.stæn.sɪz/"}
+{"title":"reduced time","uk":"uk  / rɪˌdʒuːst ˈtaɪm /","ukp":"/rɪˌdʒuːst ˈtaɪm/","us":"us  / rɪˌduːst ˈtaɪm /","usp":"/rɪˌduːst ˈtaɪm/"}
+{"title":"reducer","uk":"uk  / rɪˈdʒuː.sə r /","ukp":"/rɪˈdʒuː.sər/","us":"us  / rɪˈduː.sɚ /","usp":"/rɪˈduː.sɚ/"}
+{"title":"reducible","uk":"uk  / rɪˈdʒuː.sə.b ə l /","ukp":"/rɪˈdʒuː.sə.bəl/","us":"us  / rɪˈduː.sə.b ə l /","usp":"/rɪˈduː.sə.bəl/"}
+{"title":"reducing","uk":"uk  / rɪˈdʒuːs /","ukp":"/rɪˈdʒuːs/","us":"us  / rɪˈduːs /","usp":"/rɪˈduːs/"}
+{"title":"reducing balance method","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"reducing agent","uk":"uk  / rɪˈdʒuː.sɪŋ ˌeɪ.dʒənt /","ukp":"/rɪˈdʒuː.sɪŋ ˌeɪ.dʒənt/","us":"us  / rɪˈduː.sɪŋ ˌeɪ.dʒənt /","usp":"/rɪˈduː.sɪŋ ˌeɪ.dʒənt/"}
+{"title":"Reducing Emissions from Deforestation and Forest Degradation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"reduction","uk":"uk  / rɪˈdʌk.ʃ ə n /","ukp":"/rɪˈdʌk.ʃən/","us":"us  / rɪˈdʌk.ʃ ə n /","usp":"/rɪˈdʌk.ʃən/"}
+{"title":"reduction mammaplasty","uk":"uk  / rɪˌdʌk.ʃ ə n ˈmæm.ə.plæs.ti /","ukp":"/rɪˌdʌk.ʃən ˈmæm.ə.plæs.ti/","us":"us  / rɪˌdʌk.ʃ ə n ˈmæm.ə.plæs.ti /","usp":"/rɪˌdʌk.ʃən ˈmæm.ə.plæs.ti/"}
+{"title":"reductionist","uk":"uk  / rɪˈdʌk.ʃ ə n.ɪst /","ukp":"/rɪˈdʌk.ʃən.ɪst/","us":"us  / rɪˈdʌk.ʃ ə n.ɪst /","usp":"/rɪˈdʌk.ʃən.ɪst/"}
+{"title":"reductionism","uk":"uk  / rɪˈdʌk.ʃ ə n.ɪ.z ə m /","ukp":"/rɪˈdʌk.ʃən.ɪ.zəm/","us":"us  / rɪˈdʌk.ʃ ə n.ɪ.z ə m /","usp":"/rɪˈdʌk.ʃən.ɪ.zəm/"}
+{"title":"reductive","uk":"uk  / rɪˈdʌk.tɪv /","ukp":"/rɪˈdʌk.tɪv/","us":"us  / rɪˈdʌk.tɪv /","usp":"/rɪˈdʌk.tɪv/"}
+{"title":"reductivism","uk":"uk  / rɪˈdʌk.tɪv.ɪ.z ə m /","ukp":"/rɪˈdʌk.tɪv.ɪ.zəm/","us":"us  / rɪˈdʌk.tɪv.ɪ.z ə m /","usp":"/rɪˈdʌk.tɪv.ɪ.zəm/"}
+{"title":"redundancy","uk":"uk  / rɪˈdʌn.d ə n.si /","ukp":"/rɪˈdʌn.dən.si/","us":"us  / rɪˈdʌn.d ə n.si /","usp":"/rɪˈdʌn.dən.si/"}
+{"title":"redundancy package","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"redundancy payment","uk":"uk  / rɪˈdʌn.d ə n.si ˌpeɪ.mənt /","ukp":"/rɪˈdʌn.dən.si ˌpeɪ.mənt/","us":"us  / rɪˈdʌn.d ə n.si ˌpeɪ.mənt /","usp":"/rɪˈdʌn.dən.si ˌpeɪ.mənt/"}
+{"title":"redux","uk":"uk  / ˈriː.dʌks /","ukp":"/ˈriː.dʌks/","us":"us  / ˈriː.dʌks /","usp":"/ˈriː.dʌks/"}
+{"title":"redundant","uk":"uk  / rɪˈdʌn.d ə nt /","ukp":"/rɪˈdʌn.dənt/","us":"us  / rɪˈdʌn.d ə nt /","usp":"/rɪˈdʌn.dənt/"}
+{"title":"redwood","uk":"uk  / ˈred.wʊd /","ukp":"/ˈred.wʊd/","us":"us  / ˈred.wʊd /","usp":"/ˈred.wʊd/"}
+{"title":"Redwood National Park","uk":"uk / ˌred.wʊd ˌnæʃ. ə n. ə l ˈpɑːk /","ukp":"/ˌred.wʊd ˌnæʃ.ən.əl ˈpɑːk/","us":"us  / ˌred.wʊd ˌnæʃ. ə n. ə l ˈpɑːrk /","usp":"/ˌred.wʊd ˌnæʃ.ən.əl ˈpɑːrk/"}
+{"title":"refined","uk":"uk  / rɪˈfaɪnd /","ukp":"/rɪˈfaɪnd/","us":"us  / rɪˈfaɪnd /","usp":"/rɪˈfaɪnd/"}
+{"title":"refiner","uk":"uk  / rɪˈfaɪnə r /","ukp":"/rɪˈfaɪnər/","us":"us ","usp":""}
+{"title":"refinement","uk":"uk  / rɪˈfaɪn.mənt /","ukp":"/rɪˈfaɪn.mənt/","us":"us  / rɪˈfaɪn.mənt /","usp":"/rɪˈfaɪn.mənt/"}
+{"title":"refinery","uk":"uk  / rɪˈfaɪ.n ə r.i /","ukp":"/rɪˈfaɪ.nər.i/","us":"us  / rɪˈfaɪ.nɚ.i /","usp":"/rɪˈfaɪ.nɚ.i/"}
+{"title":"refining","uk":"uk  / rɪˈfaɪnɪŋ /","ukp":"/rɪˈfaɪnɪŋ/","us":"us ","usp":""}
+{"title":"refitted","uk":"","us":""}
+{"title":"refit","uk":"uk  / ˌriːˈfɪt /","ukp":"/ˌriːˈfɪt/","us":"us  / ˌriːˈfɪt /","usp":"/ˌriːˈfɪt/"}
+{"title":"refitting","uk":"","us":""}
+{"title":"reflate","uk":"uk  / ˌriːˈfleɪt /","ukp":"/ˌriːˈfleɪt/","us":"us  / ˌriːˈfleɪt /","usp":"/ˌriːˈfleɪt/"}
+{"title":"reflated","uk":"uk  / ˌriːˈfleɪt /","ukp":"/ˌriːˈfleɪt/","us":"us  / ˌriːˈfleɪt /","usp":"/ˌriːˈfleɪt/"}
+{"title":"reflating","uk":"uk  / ˌriːˈfleɪt /","ukp":"/ˌriːˈfleɪt/","us":"us  / ˌriːˈfleɪt /","usp":"/ˌriːˈfleɪt/"}
+{"title":"reflation","uk":"uk  / ˌriːˈfleɪ.ʃ ə n /","ukp":"/ˌriːˈfleɪ.ʃən/","us":"us  / ˌriːˈfleɪ.ʃ ə n /","usp":"/ˌriːˈfleɪ.ʃən/"}
+{"title":"reflationary","uk":"uk  / ˌriːˈfleɪ.ʃ ə n. ə r.i /","ukp":"/ˌriːˈfleɪ.ʃən.ər.i/","us":"us  / ˌriːˈfleɪ.ʃ ə n.er.i /","usp":"/ˌriːˈfleɪ.ʃən.er.i/"}
+{"title":"reflect","uk":"uk  / rɪˈflekt /","ukp":"/rɪˈflekt/","us":"us  / rɪˈflekt /","usp":"/rɪˈflekt/"}
+{"title":"reflect on someone/something","uk":"uk  / rɪˈflekt /","ukp":"/rɪˈflekt/","us":"us  / rɪˈflekt /","usp":"/rɪˈflekt/"}
+{"title":"reflected","uk":"uk  / rɪˈflekt /","ukp":"/rɪˈflekt/","us":"us  / rɪˈflekt /","usp":"/rɪˈflekt/"}
+{"title":"reflected ray","uk":"uk  / rɪˌflek.tɪd ˈreɪ /","ukp":"/rɪˌflek.tɪd ˈreɪ/","us":"us  / rɪˌflek.tɪd ˈreɪ /","usp":"/rɪˌflek.tɪd ˈreɪ/"}
+{"title":"reflecting","uk":"uk  / rɪˈflekt /","ukp":"/rɪˈflekt/","us":"us  / rɪˈflekt /","usp":"/rɪˈflekt/"}
+{"title":"reflecting telescope","uk":"uk  / rɪˌflek.tɪŋ ˈtel.ɪ.skəʊp /","ukp":"/rɪˌflek.tɪŋ ˈtel.ɪ.skəʊp/","us":"us  / rɪˌflek.t̬ɪŋ ˈtel.ə.skoʊp /","usp":"/rɪˌflek.t̬ɪŋ ˈtel.ə.skoʊp/"}
+{"title":"reflection","uk":"uk  / rɪˈflek.ʃ ə n /","ukp":"/rɪˈflek.ʃən/","us":"us  / rɪˈflek.ʃ ə n /","usp":"/rɪˈflek.ʃən/"}
+{"title":"reflective","uk":"uk  / rɪˈflek.tɪv /","ukp":"/rɪˈflek.tɪv/","us":"us  / rɪˈflek.tɪv /","usp":"/rɪˈflek.tɪv/"}
+{"title":"reflectively","uk":"uk  / rɪˈflek.tɪv.li /","ukp":"/rɪˈflek.tɪv.li/","us":"us  / rɪˈflek.tɪv.li /","usp":"/rɪˈflek.tɪv.li/"}
+{"title":"reflex angle","uk":"uk  / ˈriː.fleks ˌæŋ.ɡ ə l /","ukp":"/ˈriː.fleks ˌæŋ.ɡəl/","us":"us  / ˈriː.fleks ˌæŋ.ɡ ə l /","usp":"/ˈriː.fleks ˌæŋ.ɡəl/"}
+{"title":"reflector","uk":"uk  / rɪˈflek.tə r /","ukp":"/rɪˈflek.tər/","us":"us  / rɪˈflek.tɚ /","usp":"/rɪˈflek.tɚ/"}
+{"title":"reflex","uk":"uk  / ˈriː.fleks /","ukp":"/ˈriː.fleks/","us":"us  / ˈriː.fleks /","usp":"/ˈriː.fleks/"}
+{"title":"reflex arc","uk":"uk  / ˈriː.fleks ˌɑːk /","ukp":"/ˈriː.fleks ˌɑːk/","us":"us  / ˈriː.fleks ˌɑːrk /","usp":"/ˈriː.fleks ˌɑːrk/"}
+{"title":"reflexively","uk":"uk  / rɪˈflek.sɪv.li /","ukp":"/rɪˈflek.sɪv.li/","us":"us  / rɪˈflek.sɪv.li /","usp":"/rɪˈflek.sɪv.li/"}
+{"title":"reflexive","uk":"uk  / rɪˈflek.sɪv /","ukp":"/rɪˈflek.sɪv/","us":"us  / rɪˈflek.sɪv /","usp":"/rɪˈflek.sɪv/"}
+{"title":"reflexivity","uk":"uk  / rɪ.fleksˈɪv.ə.ti /","ukp":"/rɪ.fleksˈɪv.ə.ti/","us":"us  / rɪ.fleksˈɪv.ə.t̬i /","usp":"/rɪ.fleksˈɪv.ə.t̬i/"}
+{"title":"reflexology","uk":"uk  / ˌriː.flekˈsɒl.ə.dʒi /","ukp":"/ˌriː.flekˈsɒl.ə.dʒi/","us":"us  / ˌriː.flekˈsɑː.lə.dʒi /","usp":"/ˌriː.flekˈsɑː.lə.dʒi/"}
+{"title":"reflux","uk":"uk  / ˈriː.flʌks /","ukp":"/ˈriː.flʌks/","us":"us  / ˈriː.flʌks /","usp":"/ˈriː.flʌks/"}
+{"title":"refloat","uk":"uk  / ˌriːˈfləʊt /","ukp":"/ˌriːˈfləʊt/","us":"us  / ˌriːˈfloʊt /","usp":"/ˌriːˈfloʊt/"}
+{"title":"refocus","uk":"uk  / ˌriːˈfəʊkəs /","ukp":"/ˌriːˈfəʊkəs/","us":"us ","usp":""}
+{"title":"reforest","uk":"uk  / ˌriːˈfɒr.ɪst /","ukp":"/ˌriːˈfɒr.ɪst/","us":"us  / ˌriːˈfɔːr.ɪst /","usp":"/ˌriːˈfɔːr.ɪst/"}
+{"title":"reforestation","uk":"uk  / ˌriː.fɒr.ɪˈsteɪ.ʃ ə n /","ukp":"/ˌriː.fɒr.ɪˈsteɪ.ʃən/","us":"us  / ˌriː.fɔːr.əˈsteɪ.ʃ ə n /","usp":"/ˌriː.fɔːr.əˈsteɪ.ʃən/"}
+{"title":"reforested","uk":"uk  / ˌriːˈfɒr.ɪst /","ukp":"/ˌriːˈfɒr.ɪst/","us":"us  / ˌriːˈfɔːr.ɪst /","usp":"/ˌriːˈfɔːr.ɪst/"}
+{"title":"reforesting","uk":"uk  / ˌriːˈfɒr.ɪst /","ukp":"/ˌriːˈfɒr.ɪst/","us":"us  / ˌriːˈfɔːr.ɪst /","usp":"/ˌriːˈfɔːr.ɪst/"}
+{"title":"reform school","uk":"uk  / rɪˈfɔːm ˌskuːl /","ukp":"/rɪˈfɔːm ˌskuːl/","us":"us  / rɪˈfɔːrm ˌskuːl /","usp":"/rɪˈfɔːrm ˌskuːl/"}
+{"title":"reform","uk":"uk  / rɪˈfɔːm /","ukp":"/rɪˈfɔːm/","us":"us  / rɪˈfɔːrm /","usp":"/rɪˈfɔːrm/"}
+{"title":"reformation","uk":"uk  / ˌref.əˈmeɪ.ʃ ə n /","ukp":"/ˌref.əˈmeɪ.ʃən/","us":"us  / ˌref.ɚˈmeɪ.ʃ ə n /","usp":"/ˌref.ɚˈmeɪ.ʃən/"}
+{"title":"reformed","uk":"uk  / rɪˈfɔːmd /","ukp":"/rɪˈfɔːmd/","us":"us  / rɪˈfɔːrmd /","usp":"/rɪˈfɔːrmd/"}
+{"title":"reformatory","uk":"uk  / rɪˈfɔː.mə.t ə r.i /","ukp":"/rɪˈfɔː.mə.tər.i/","us":"us  / rɪˈfɔːr.mə.tɔːr.i /","usp":"/rɪˈfɔːr.mə.tɔːr.i/"}
+{"title":"reformed character","uk":"uk  / rɪˌfɔːmd ˈkær.ɪk.tə r /","ukp":"/rɪˌfɔːmd ˈkær.ɪk.tər/","us":"us  / rɪˌfɔːrmd ˈker.ɪk.tɚ /","usp":"/rɪˌfɔːrmd ˈker.ɪk.tɚ/"}
+{"title":"reformer","uk":"uk  / rɪˈfɔː.mə r /","ukp":"/rɪˈfɔː.mər/","us":"us  / rɪˈfɔːr.mɚ /","usp":"/rɪˈfɔːr.mɚ/"}
+{"title":"reforming","uk":"uk  / rɪˈfɔːm /","ukp":"/rɪˈfɔːm/","us":"us  / rɪˈfɔːrm /","usp":"/rɪˈfɔːrm/"}
+{"title":"reformist","uk":"uk  / rɪˈfɔː.mɪst /","ukp":"/rɪˈfɔː.mɪst/","us":"us  / rɪˈfɔːr.mɪst /","usp":"/rɪˈfɔːr.mɪst/"}
+{"title":"reformulate","uk":"uk  / ˌriːˈfɔː.mjʊ.leɪt /","ukp":"/ˌriːˈfɔː.mjʊ.leɪt/","us":"us  / ˌriːˈfɔːr.mjʊ.leɪt /","usp":"/ˌriːˈfɔːr.mjʊ.leɪt/"}
+{"title":"refoulement","uk":"uk  / rəˈfuːl.mɒ̃ /","ukp":"/rəˈfuːl.mɒ̃/","us":"us  / rəˈfuːl.mɒ̃ /","usp":"/rəˈfuːl.mɒ̃/"}
+{"title":"refracted","uk":"uk  / rɪˈfrækt /","ukp":"/rɪˈfrækt/","us":"us  / rɪˈfrækt /","usp":"/rɪˈfrækt/"}
+{"title":"refract","uk":"uk  / rɪˈfrækt /","ukp":"/rɪˈfrækt/","us":"us  / rɪˈfrækt /","usp":"/rɪˈfrækt/"}
+{"title":"refracting","uk":"uk  / rɪˈfrækt /","ukp":"/rɪˈfrækt/","us":"us  / rɪˈfrækt /","usp":"/rɪˈfrækt/"}
+{"title":"refracting telescope","uk":"uk  / rɪˌfræk.tɪŋ ˈtel.ɪ.skəʊp /","ukp":"/rɪˌfræk.tɪŋ ˈtel.ɪ.skəʊp/","us":"us  / rɪˌfræk.tɪŋ ˈtel.ɪ.skoʊp /","usp":"/rɪˌfræk.tɪŋ ˈtel.ɪ.skoʊp/"}
+{"title":"refractive","uk":"uk  / rɪˈfræk.tɪv /","ukp":"/rɪˈfræk.tɪv/","us":"us  / rɪˈfræk.tɪv /","usp":"/rɪˈfræk.tɪv/"}
+{"title":"refraction","uk":"uk  / rɪˈfræk.ʃ ə n /","ukp":"/rɪˈfræk.ʃən/","us":"us  / rɪˈfræk.ʃ ə n /","usp":"/rɪˈfræk.ʃən/"}
+{"title":"refractive index","uk":"uk  / rɪˌfræk.tɪv ˈɪn.deks /","ukp":"/rɪˌfræk.tɪv ˈɪn.deks/","us":"us  / rɪˌfræk.tɪv ˈɪn.deks /","usp":"/rɪˌfræk.tɪv ˈɪn.deks/"}
+{"title":"refractory","uk":"uk  / rɪˈfræk.t ə r.i /","ukp":"/rɪˈfræk.tər.i/","us":"us  / rɪˈfræk.t ə r.i /","usp":"/rɪˈfræk.tər.i/"}
+{"title":"refraining","uk":"uk  / rɪˈfreɪn /","ukp":"/rɪˈfreɪn/","us":"us  / rɪˈfreɪn /","usp":"/rɪˈfreɪn/"}
+{"title":"refrained","uk":"uk  / rɪˈfreɪn /","ukp":"/rɪˈfreɪn/","us":"us  / rɪˈfreɪn /","usp":"/rɪˈfreɪn/"}
+{"title":"refrain","uk":"uk  / rɪˈfreɪn /","ukp":"/rɪˈfreɪn/","us":"us  / rɪˈfreɪn /","usp":"/rɪˈfreɪn/"}
+{"title":"refresh someone's memory","uk":"","us":""}
+{"title":"reframe","uk":"uk  / ˌriːˈfreɪm /","ukp":"/ˌriːˈfreɪm/","us":"us  / ˌriːˈfreɪm /","usp":"/ˌriːˈfreɪm/"}
+{"title":"refreshed","uk":"uk  / rɪˈfreʃt /","ukp":"/rɪˈfreʃt/","us":"us  / rɪˈfreʃt /","usp":"/rɪˈfreʃt/"}
+{"title":"refresh","uk":"uk  / rɪˈfreʃ /","ukp":"/rɪˈfreʃ/","us":"us  / rɪˈfreʃ /","usp":"/rɪˈfreʃ/"}
+{"title":"refresher","uk":"uk  / rɪˈfreʃ.ə r /","ukp":"/rɪˈfreʃ.ər/","us":"us  / rɪˈfreʃ.ɚ /","usp":"/rɪˈfreʃ.ɚ/"}
+{"title":"refresher course","uk":"uk ","ukp":"","us":"us  / rɪˈfreʃ·ər ˌkɔrs /","usp":"/rɪˈfreʃ·ər ˌkɔrs/"}
+{"title":"refreshing","uk":"uk  / rɪˈfreʃ.ɪŋ /","ukp":"/rɪˈfreʃ.ɪŋ/","us":"us  / rɪˈfreʃ.ɪŋ /","usp":"/rɪˈfreʃ.ɪŋ/"}
+{"title":"refreshingly","uk":"uk  / rɪˈfreʃ.ɪŋ.li /","ukp":"/rɪˈfreʃ.ɪŋ.li/","us":"us  / rɪˈfreʃ.ɪŋ.li /","usp":"/rɪˈfreʃ.ɪŋ.li/"}
+{"title":"refreshment","uk":"uk  / rɪˈfreʃ.mənt /","ukp":"/rɪˈfreʃ.mənt/","us":"us  / rɪˈfreʃ.mənt /","usp":"/rɪˈfreʃ.mənt/"}
+{"title":"refried beans","uk":"uk  / ˌriː.fraɪd ˈbiːnz /","ukp":"/ˌriː.fraɪd ˈbiːnz /","us":"us  / ˌriː.fraɪd ˈbiːnz /","usp":"/ˌriː.fraɪd ˈbiːnz /"}
+{"title":"refrigerant","uk":"uk  / rɪˈfrɪdʒ.ə.r ə nt /","ukp":"/rɪˈfrɪdʒ.ə.rənt/","us":"us  / rɪˈfrɪdʒ.ə.r ə nt /","usp":"/rɪˈfrɪdʒ.ə.rənt/"}
+{"title":"refrigerate","uk":"uk  / rɪˈfrɪdʒ. ə r.eɪt /","ukp":"/rɪˈfrɪdʒ.ər.eɪt/","us":"us  / rɪˈfrɪdʒ.ə.reɪt /","usp":"/rɪˈfrɪdʒ.ə.reɪt/"}
+{"title":"refrigerated","uk":"uk / rɪˈfrɪdʒ. ə r.eɪ.tɪd /","ukp":"/rɪˈfrɪdʒ.ər.eɪ.tɪd/","us":"us / rɪˈfrɪdʒ.ə.reɪ.t̬ɪd /","usp":"/rɪˈfrɪdʒ.ə.reɪ.t̬ɪd/"}
+{"title":"refrigerating","uk":"uk  / rɪˈfrɪdʒ. ə r.eɪt /","ukp":"/rɪˈfrɪdʒ.ər.eɪt/","us":"us  / rɪˈfrɪdʒ.ə.reɪt /","usp":"/rɪˈfrɪdʒ.ə.reɪt/"}
+{"title":"refrigeration","uk":"uk  / rɪˌfrɪdʒ.əˈreɪ.ʃ ə n /","ukp":"/rɪˌfrɪdʒ.əˈreɪ.ʃən/","us":"us  / rɪˌfrɪdʒ.əˈreɪ.ʃ ə n /","usp":"/rɪˌfrɪdʒ.əˈreɪ.ʃən/"}
+{"title":"refrigerator-freezer","uk":"uk  / rɪˌfrɪdʒ. ə r.eɪ.təˈfriː.zə r /","ukp":"/rɪˌfrɪdʒ.ər.eɪ.təˈfriː.zər/","us":"us  / rɪˌfrɪdʒ.ə.reɪ.t̬əˈfriː.zɚ /","usp":"/rɪˌfrɪdʒ.ə.reɪ.t̬əˈfriː.zɚ/"}
+{"title":"refrigerator","uk":"uk  / rɪˈfrɪdʒ. ə r.eɪ.tə r /","ukp":"/rɪˈfrɪdʒ.ər.eɪ.tər/","us":"us  / rɪˈfrɪdʒ.ə.reɪ.t̬ɚ /","usp":"/rɪˈfrɪdʒ.ə.reɪ.t̬ɚ/"}
+{"title":"refuel","uk":"uk  / ˌriːˈfjʊəl /","ukp":"/ˌriːˈfjʊəl/","us":"us  / ˌriːˈfjʊəl /","usp":"/ˌriːˈfjʊəl/"}
+{"title":"refueled","uk":"uk  / ˌriːˈfjʊəl /","ukp":"/ˌriːˈfjʊəl/","us":"us  / ˌriːˈfjʊəl /","usp":"/ˌriːˈfjʊəl/"}
+{"title":"refuelling","uk":"uk  / ˌriːˈfjʊə.lɪŋ /","ukp":"/ˌriːˈfjʊə.lɪŋ/","us":"us  / ˌriːˈfjʊə.lɪŋ /","usp":"/ˌriːˈfjʊə.lɪŋ/"}
+{"title":"refueling","uk":"","us":""}
+{"title":"refuge","uk":"uk  / ˈref.juːdʒ /","ukp":"/ˈref.juːdʒ/","us":"us  / ˈref.juːdʒ /","usp":"/ˈref.juːdʒ/"}
+{"title":"refugee","uk":"uk  / ˌref.juˈdʒiː /","ukp":"/ˌref.juˈdʒiː/","us":"us  / ˌref.jəˈdʒiː /","usp":"/ˌref.jəˈdʒiː/"}
+{"title":"refulgent","uk":"uk  / rɪˈfʌl.dʒ ə nt /","ukp":"/rɪˈfʌl.dʒənt/","us":"us  / rɪˈfʌl.dʒ ə nt /","usp":"/rɪˈfʌl.dʒənt/"}
+{"title":"refugee camp","uk":"uk  / ref.jʊˈdʒiː ˌkæmp /","ukp":"/ref.jʊˈdʒiː ˌkæmp/","us":"us  / ref.jʊˈdʒiː ˌkæmp /","usp":"/ref.jʊˈdʒiː ˌkæmp/"}
+{"title":"refundable","uk":"uk  / ˌriːˈfʌn.də.b ə l /","ukp":"/ˌriːˈfʌn.də.bəl/","us":"us  / ˌriːˈfʌn.də.b ə l /","usp":"/ˌriːˈfʌn.də.bəl/"}
+{"title":"refunded","uk":"uk  / ˌriːˈfʌnd /","ukp":"/ˌriːˈfʌnd/","us":"us  / ˌriːˈfʌnd /","usp":"/ˌriːˈfʌnd/"}
+{"title":"refunding","uk":"uk  / ˌriːˈfʌndɪŋ /","ukp":"/ˌriːˈfʌndɪŋ/","us":"us ","usp":""}
+{"title":"refund","uk":"uk  / ˈriː.fʌnd /","ukp":"/ˈriː.fʌnd/","us":"us  / ˈriː.fʌnd /","usp":"/ˈriː.fʌnd/"}
+{"title":"refunding bonds","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"refurb","uk":"uk  / ˈriː.fɜːb /","ukp":"/ˈriː.fɜːb/","us":"us  / ˈriː.fɝːb /","usp":"/ˈriː.fɝːb/"}
+{"title":"refurbished","uk":"uk  / ˌriːˈfɜː.bɪʃt /","ukp":"/ˌriːˈfɜː.bɪʃt/","us":"us  / ˌriːˈfɝː.bɪʃt /","usp":"/ˌriːˈfɝː.bɪʃt/"}
+{"title":"refurbish","uk":"uk  / ˌriːˈfɜː.bɪʃ /","ukp":"/ˌriːˈfɜː.bɪʃ/","us":"us  / ˌriːˈfɝː.bɪʃ /","usp":"/ˌriːˈfɝː.bɪʃ/"}
+{"title":"refurbishing","uk":"uk  / ˌriːˈfɜː.bɪʃ /","ukp":"/ˌriːˈfɜː.bɪʃ/","us":"us  / ˌriːˈfɝː.bɪʃ /","usp":"/ˌriːˈfɝː.bɪʃ/"}
+{"title":"refurbishment","uk":"uk  / ˌriːˈfɜː.bɪʃ.mənt /","ukp":"/ˌriːˈfɜː.bɪʃ.mənt/","us":"us  / ˌriːˈfɝː.bɪʃ.mənt /","usp":"/ˌriːˈfɝː.bɪʃ.mənt/"}
+{"title":"refusal","uk":"uk  / rɪˈfjuː.z ə l /","ukp":"/rɪˈfjuː.zəl/","us":"us  / rɪˈfjuː.z ə l /","usp":"/rɪˈfjuː.zəl/"}
+{"title":"refuse","uk":"uk  / rɪˈfjuːz /","ukp":"/rɪˈfjuːz/","us":"us  / rɪˈfjuːz /","usp":"/rɪˈfjuːz/"}
+{"title":"refuse collector","uk":"uk  / ˈref.juːs kəˌlek.tə r /","ukp":"/ˈref.juːs kəˌlek.tər/","us":"us  / ˈref.juːs kəˌlek.tɚ /","usp":"/ˈref.juːs kəˌlek.tɚ/"}
+{"title":"refuse dump","uk":"uk  / ˈref.juːs ˌdʌmp /","ukp":"/ˈref.juːs ˌdʌmp/","us":"us  / ˈref.juːs ˌdʌmp /","usp":"/ˈref.juːs ˌdʌmp/"}
+{"title":"refused","uk":"uk  / rɪˈfjuːz /","ukp":"/rɪˈfjuːz/","us":"us  / rɪˈfjuːz /","usp":"/rɪˈfjuːz/"}
+{"title":"refusing","uk":"uk  / rɪˈfjuːz /","ukp":"/rɪˈfjuːz/","us":"us  / rɪˈfjuːz /","usp":"/rɪˈfjuːz/"}
+{"title":"refutation","uk":"uk  / ˌref.juˈteɪ.ʃ ə n /","ukp":"/ˌref.juˈteɪ.ʃən/","us":"us  / ˌref.jəˈteɪ.ʃ ə n /","usp":"/ˌref.jəˈteɪ.ʃən/"}
+{"title":"refute","uk":"uk  / rɪˈfjuːt /","ukp":"/rɪˈfjuːt/","us":"us  / rɪˈfjuːt /","usp":"/rɪˈfjuːt/"}
+{"title":"refuting","uk":"uk  / rɪˈfjuːt /","ukp":"/rɪˈfjuːt/","us":"us  / rɪˈfjuːt /","usp":"/rɪˈfjuːt/"}
+{"title":"refuted","uk":"uk  / rɪˈfjuːt /","ukp":"/rɪˈfjuːt/","us":"us  / rɪˈfjuːt /","usp":"/rɪˈfjuːt/"}
+{"title":"reg","uk":"uk  / redʒ /","ukp":"/redʒ/","us":"us  / redʒ /","usp":"/redʒ/"}
+{"title":"regain","uk":"uk  / rɪˈɡeɪn /","ukp":"/rɪˈɡeɪn/","us":"us  / rɪˈɡeɪn /","usp":"/rɪˈɡeɪn/"}
+{"title":"regained","uk":"uk  / rɪˈɡeɪn /","ukp":"/rɪˈɡeɪn/","us":"us  / rɪˈɡeɪn /","usp":"/rɪˈɡeɪn/"}
+{"title":"regaining","uk":"uk  / rɪˈɡeɪn /","ukp":"/rɪˈɡeɪn/","us":"us  / rɪˈɡeɪn /","usp":"/rɪˈɡeɪn/"}
+{"title":"regale someone with something","uk":"uk  / rɪˈɡeɪl /","ukp":"/rɪˈɡeɪl/","us":"us  / rɪˈɡeɪl /","usp":"/rɪˈɡeɪl/"}
+{"title":"regale","uk":"","us":"us  / rɪˈɡeɪl /","usp":"/rɪˈɡeɪl/"}
+{"title":"regal","uk":"uk  / ˈriː.ɡ ə l /","ukp":"/ˈriː.ɡəl/","us":"us  / ˈriː.ɡ ə l /","usp":"/ˈriː.ɡəl/"}
+{"title":"regalia","uk":"uk  / rɪˈɡeɪ.li.ə /","ukp":"/rɪˈɡeɪ.li.ə/","us":"us  / rɪˈɡeɪ.li.ə /","usp":"/rɪˈɡeɪ.li.ə/"}
+{"title":"regally","uk":"uk  / ˈriː.ɡ ə l.i /","ukp":"/ˈriː.ɡəl.i/","us":"us  / ˈriː.ɡ ə l.i /","usp":"/ˈriː.ɡəl.i/"}
+{"title":"regarded","uk":"uk  / rɪˈɡɑːd /","ukp":"/rɪˈɡɑːd/","us":"us  / rɪˈɡɑːrd /","usp":"/rɪˈɡɑːrd/"}
+{"title":"regard","uk":"uk  / rɪˈɡɑːd /","ukp":"/rɪˈɡɑːd/","us":"us  / rɪˈɡɑːrd /","usp":"/rɪˈɡɑːrd/"}
+{"title":"regarding","uk":"uk  / rɪˈɡɑː.dɪŋ /","ukp":"/rɪˈɡɑː.dɪŋ/","us":"us  / rɪˈɡɑːr.dɪŋ /","usp":"/rɪˈɡɑːr.dɪŋ/"}
+{"title":"regardless of something","uk":"","us":""}
+{"title":"regardless","uk":"uk  / rɪˈɡɑːd.ləs /","ukp":"/rɪˈɡɑːd.ləs/","us":"us  / rɪˈɡɑːrd.ləs /","usp":"/rɪˈɡɑːrd.ləs/"}
+{"title":"regards","uk":"","us":"us  / rɪˈɡɑrdz /","usp":"/rɪˈɡɑrdz/"}
+{"title":"regd.","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"regatta","uk":"uk  / rɪˈɡæt.ə /","ukp":"/rɪˈɡæt.ə/","us":"us  / rɪˈɡɑː.t̬ə /","usp":"/rɪˈɡɑː.t̬ə/"}
+{"title":"regency","uk":"uk  / ˈriː.dʒ ə n.si /","ukp":"/ˈriː.dʒən.si/","us":"us  / ˈriː.dʒ ə n.si /","usp":"/ˈriː.dʒən.si/"}
+{"title":"regenerate","uk":"uk  / rɪˈdʒen.ə.reɪt /","ukp":"/rɪˈdʒen.ə.reɪt/","us":"us  / rɪˈdʒen.ə.reɪt /","usp":"/rɪˈdʒen.ə.reɪt/"}
+{"title":"regenerated","uk":"uk  / rɪˈdʒen.ə.reɪt /","ukp":"/rɪˈdʒen.ə.reɪt/","us":"us  / rɪˈdʒen.ə.reɪt /","usp":"/rɪˈdʒen.ə.reɪt/"}
+{"title":"regenerating","uk":"uk  / rɪˈdʒen.ə.reɪt /","ukp":"/rɪˈdʒen.ə.reɪt/","us":"us  / rɪˈdʒen.ə.reɪt /","usp":"/rɪˈdʒen.ə.reɪt/"}
+{"title":"regeneration","uk":"uk  / rɪˌdʒen. ə rˈeɪ.ʃ ə n /","ukp":"/rɪˌdʒen.ərˈeɪ.ʃən/","us":"us  / rɪˌdʒen.əˈreɪ.ʃ ə n /","usp":"/rɪˌdʒen.əˈreɪ.ʃən/"}
+{"title":"regenerative","uk":"uk  / rɪˈdʒen.ə.rə.tɪv /","ukp":"/rɪˈdʒen.ə.rə.tɪv/","us":"us  / rɪˈdʒen.ə.rə.t̬ɪv /","usp":"/rɪˈdʒen.ə.rə.t̬ɪv/"}
+{"title":"regenerative braking","uk":"uk  / rɪˌdʒen.ə.rə.tɪv ˈbreɪ.kɪŋ /","ukp":"/rɪˌdʒen.ə.rə.tɪv ˈbreɪ.kɪŋ/","us":"us  / rɪˌdʒen.ə.rə.t̬ɪv ˈbreɪ.kɪŋ /","usp":"/rɪˌdʒen.ə.rə.t̬ɪv ˈbreɪ.kɪŋ/"}
+{"title":"regent","uk":"uk  / ˈriː.dʒ ə nt /","ukp":"/ˈriː.dʒənt/","us":"us  / ˈriː.dʒ ə nt /","usp":"/ˈriː.dʒənt/"}
+{"title":"reggae","uk":"uk  / ˈreɡ.eɪ /","ukp":"/ˈreɡ.eɪ/","us":"us  / ˈreɡ.eɪ /","usp":"/ˈreɡ.eɪ/"}
+{"title":"regicide","uk":"uk  / ˈredʒ.ɪ.saɪd /","ukp":"/ˈredʒ.ɪ.saɪd/","us":"us  / ˈredʒ.ə.saɪd /","usp":"/ˈredʒ.ə.saɪd/"}
+{"title":"regift","uk":"uk  / ˌriːˈɡɪft /","ukp":"/ˌriːˈɡɪft/","us":"us  / ˌriːˈɡɪft /","usp":"/ˌriːˈɡɪft/"}
+{"title":"regime","uk":"uk  / reɪˈʒiːm /","ukp":"/reɪˈʒiːm/","us":"us  / reɪˈʒiːm /","usp":"/reɪˈʒiːm/"}
+{"title":"regime change","uk":"uk  / reɪˈʒiːm ˌtʃeɪndʒ /","ukp":"/reɪˈʒiːm ˌtʃeɪndʒ/","us":"us  / reɪˈʒiːm ˌtʃeɪndʒ /","usp":"/reɪˈʒiːm ˌtʃeɪndʒ/"}
+{"title":"regimen","uk":"uk  / ˈredʒ.ɪ.mən /","ukp":"/ˈredʒ.ɪ.mən/","us":"us  / ˈredʒ.ə.mən /","usp":"/ˈredʒ.ə.mən/"}
+{"title":"regiment","uk":"uk  / ˈredʒ.ɪ.mənt /","ukp":"/ˈredʒ.ɪ.mənt/","us":"us  / ˈredʒ.ə.mənt /","usp":"/ˈredʒ.ə.mənt/"}
+{"title":"regimental","uk":"uk  / ˌredʒ.ɪˈmen.t ə l /","ukp":"/ˌredʒ.ɪˈmen.təl/","us":"us  / ˌredʒ.əˈmen.t̬ ə l /","usp":"/ˌredʒ.əˈmen.t̬əl/"}
+{"title":"regimentation","uk":"uk  / ˌredʒ.ɪ.menˈteɪ.ʃ ə n /","ukp":"/ˌredʒ.ɪ.menˈteɪ.ʃən/","us":"us  / ˌredʒ.ə.mənˈteɪ.ʃ ə n /","usp":"/ˌredʒ.ə.mənˈteɪ.ʃən/"}
+{"title":"regimented","uk":"uk  / ˈredʒ.ɪ.men.tɪd /","ukp":"/ˈredʒ.ɪ.men.tɪd/","us":"us  / ˈredʒ.ə.men.t̬ɪd /","usp":"/ˈredʒ.ə.men.t̬ɪd/"}
+{"title":"Regina","uk":"uk  / rɪˈdʒaɪ.nə /","ukp":"/rɪˈdʒaɪ.nə/","us":"us  / rɪˈdʒaɪ.nə /","usp":"/rɪˈdʒaɪ.nə/"}
+{"title":"regio","uk":"uk  / rɪˈdʒi.əʊ /","ukp":"/rɪˈdʒi.əʊ/","us":"us  / ˈriː.dʒiˌoʊ /","usp":"/ˈriː.dʒiˌoʊ/"}
+{"title":"regional aid","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"region","uk":"uk  / ˈriː.dʒ ə n /","ukp":"/ˈriː.dʒən/","us":"us  / ˈriː.dʒ ə n /","usp":"/ˈriː.dʒən/"}
+{"title":"regional","uk":"uk  / ˈriː.dʒ ə n. ə l /","ukp":"/ˈriː.dʒən.əl/","us":"us  / ˈriː.dʒ ə n. ə l /","usp":"/ˈriː.dʒən.əl/"}
+{"title":"regional airport","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"regional enteritis","uk":"uk  / ˌriː.dʒən.əl en.təˈraɪ.tɪs /","ukp":"/ˌriː.dʒən.əl en.təˈraɪ.tɪs/","us":"us  / ˈriː.dʒ ə n. ə l ˌen.t̬əˈraɪ.t̬əs /","usp":"/ˈriː.dʒən.əl ˌen.t̬əˈraɪ.t̬əs/"}
+{"title":"reed bed","uk":"uk  / ˈriːd ˌbed /","ukp":"/ˈriːd ˌbed/","us":"us  / ˈriːd ˌbed /","usp":"/ˈriːd ˌbed/"}
+{"title":"reed","uk":"uk  / riːd /","ukp":"/riːd/","us":"us  / riːd /","usp":"/riːd/"}
+{"title":"reed instrument","uk":"uk  / ˈriːd ˌɪn.strə.mənt /","ukp":"/ˈriːd ˌɪn.strə.mənt/","us":"us  / ˈriːd ˌɪn.strə.mənt /","usp":"/ˈriːd ˌɪn.strə.mənt/"}
+{"title":"reed organ","uk":"uk  / ˈriːd ˌɔː.ɡən /","ukp":"/ˈriːd ˌɔː.ɡən/","us":"us  / ˈriːd ˌɔːr.ɡən /","usp":"/ˈriːd ˌɔːr.ɡən/"}
+{"title":"reedy","uk":"uk  / ˈriː.di /","ukp":"/ˈriː.di/","us":"us  / ˈriː.di /","usp":"/ˈriː.di/"}
+{"title":"reef","uk":"uk  / riːf /","ukp":"/riːf/","us":"us  / riːf /","usp":"/riːf/"}
+{"title":"reef knot","uk":"uk  / ˈriːf ˌnɒt /","ukp":"/ˈriːf ˌnɒt/","us":"us  / ˈriːf ˌnɑːt /","usp":"/ˈriːf ˌnɑːt/"}
+{"title":"reefer","uk":"uk  / ˈriː.fə r /","ukp":"/ˈriː.fər/","us":"us  / ˈriː.fɚ /","usp":"/ˈriː.fɚ/"}
+{"title":"reek of something","uk":"uk  / riːk /","ukp":"/riːk/","us":"us  / riːk /","usp":"/riːk/"}
+{"title":"reek","uk":"uk  / riːk /","ukp":"/riːk/","us":"us  / riːk /","usp":"/riːk/"}
+{"title":"reeked","uk":"uk  / riːk /","ukp":"/riːk/","us":"us  / riːk /","usp":"/riːk/"}
+{"title":"reeking","uk":"uk  / riːk /","ukp":"/riːk/","us":"us  / riːk /","usp":"/riːk/"}
+{"title":"reel something in/out","uk":"uk  / rɪəl /","ukp":"/rɪəl/","us":"us  / rɪəl /","usp":"/rɪəl/"}
+{"title":"reel someone/something in","uk":"uk  / rɪəl /","ukp":"/rɪəl/","us":"us  / rɪəl /","usp":"/rɪəl/"}
+{"title":"reel","uk":"uk  / rɪəl /","ukp":"/rɪəl/","us":"us  / rɪəl /","usp":"/rɪəl/"}
+{"title":"reel something off","uk":"uk  / rɪəl /","ukp":"/rɪəl/","us":"us  / rɪəl /","usp":"/rɪəl/"}
+{"title":"reelect","uk":"","us":"us  / ˌri·əˈlekt /","usp":"/ˌri·əˈlekt/"}
+{"title":"reeled","uk":"uk  / rɪəl /","ukp":"/rɪəl/","us":"us  / rɪəl /","usp":"/rɪəl/"}
+{"title":"reem","uk":"uk  / riːm /","ukp":"/riːm/","us":"us  / riːm /","usp":"/riːm/"}
+{"title":"reeling","uk":"uk  / rɪəl /","ukp":"/rɪəl/","us":"us  / rɪəl /","usp":"/rɪəl/"}
+{"title":"reenact","uk":"","us":"us  / ˌri·əˈnækt /","usp":"/ˌri·əˈnækt/"}
+{"title":"reenter","uk":"","us":"us  / riˈent·ər /","usp":"/riˈent·ər/"}
+{"title":"reeve","uk":"uk  / riːv /","ukp":"/riːv/","us":"us  / riːv /","usp":"/riːv/"}
+{"title":"ref","uk":"uk  / ref /","ukp":"/ref/","us":"us  / ref /","usp":"/ref/"}
+{"title":"refectory","uk":"uk  / rɪˈfek.t ə r.i /","ukp":"/rɪˈfek.tər.i/","us":"us  / rɪˈfek.tɚ.i /","usp":"/rɪˈfek.tɚ.i/"}
+{"title":"refer to someone/something","uk":"uk  / rɪˈfɜː r /","ukp":"/rɪˈfɜːr/","us":"us  / rɪˈfɝː /","usp":"/rɪˈfɝː/"}
+{"title":"reface","uk":"uk  / ˌriːˈfeɪs /","ukp":"/ˌriːˈfeɪs/","us":"us  / ˌriːˈfeɪs /","usp":"/ˌriːˈfeɪs/"}
+{"title":"refereed","uk":"uk  / ˌref.əˈriː /","ukp":"/ˌref.əˈriː/","us":"us  / ˌref.əˈriː /","usp":"/ˌref.əˈriː/"}
+{"title":"refereeing","uk":"uk  / ˌref.əˈriː /","ukp":"/ˌref.əˈriː/","us":"us  / ˌref.əˈriː /","usp":"/ˌref.əˈriː/"}
+{"title":"referee","uk":"uk  / ˌref.əˈriː /","ukp":"/ˌref.əˈriː/","us":"us  / ˌref.əˈriː /","usp":"/ˌref.əˈriː/"}
+{"title":"reference","uk":"uk  / ˈref. ə r. ə ns /","ukp":"/ˈref.ər.əns/","us":"us  / ˈref.ɚ. ə ns /","usp":"/ˈref.ɚ.əns/"}
+{"title":"reference book","uk":"uk  / ˈref. ə r. ə ns ˌbʊk /","ukp":"/ˈref.ər.əns ˌbʊk/","us":"us  / ˈref.ɚ. ə ns ˌbʊk /","usp":"/ˈref.ɚ.əns ˌbʊk/"}
+{"title":"reference group","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"reference library","uk":"uk  / ˈref. ə r. ə ns ˌlaɪ.brər.i /","ukp":"/ˈref.ər.əns ˌlaɪ.brər.i/","us":"us  / ˈref.ɚ. ə ns ˌlaɪ.brer.i /","usp":"/ˈref.ɚ.əns ˌlaɪ.brer.i/"}
+{"title":"referenda","uk":"","us":""}
+{"title":"referendum","uk":"uk  / ˌref.əˈren.dəm /","ukp":"/ˌref.əˈren.dəm/","us":"us  / ˌref.əˈren.dəm /","usp":"/ˌref.əˈren.dəm/"}
+{"title":"referent","uk":"uk  / ˈref. ə r.ənt /","ukp":"/ˈref.ər.ənt/","us":"us  / ˈref. ə r.ənt /","usp":"/ˈref.ər.ənt/"}
+{"title":"referral","uk":"uk  / rɪˈfɜː.rəl /","ukp":"/rɪˈfɜː.rəl/","us":"us  / rɪˈfɝː. ə l /","usp":"/rɪˈfɝː.əl/"}
+{"title":"referral marketing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"refill","uk":"uk  / ˈriː.fɪl /","ukp":"/ˈriː.fɪl/","us":"us  / ˈriː.fɪl /","usp":"/ˈriː.fɪl/"}
+{"title":"refillable","uk":"uk  / ˌriːˈfɪl.ə.b ə l /","ukp":"/ˌriːˈfɪl.ə.bəl/","us":"us  / ˌriːˈfɪl.ə.b ə l /","usp":"/ˌriːˈfɪl.ə.bəl/"}
+{"title":"refilled","uk":"uk  / ˌriːˈfɪl /","ukp":"/ˌriːˈfɪl/","us":"us  / ˌriːˈfɪl /","usp":"/ˌriːˈfɪl/"}
+{"title":"refilling","uk":"uk  / ˌriːˈfɪl /","ukp":"/ˌriːˈfɪl/","us":"us  / ˌriːˈfɪl /","usp":"/ˌriːˈfɪl/"}
+{"title":"refinancing","uk":"uk  / ˌriːˈfaɪnænsɪŋ /","ukp":"/ˌriːˈfaɪnænsɪŋ/","us":"us ","usp":""}
+{"title":"refinance","uk":"uk  / ˌriːˈfaɪ.næns /","ukp":"/ˌriːˈfaɪ.næns/","us":"us  / ˌriːˈfaɪ.næns /","usp":"/ˌriːˈfaɪ.næns/"}
+{"title":"refine","uk":"uk  / rɪˈfaɪn /","ukp":"/rɪˈfaɪn/","us":"us  / rɪˈfaɪn /","usp":"/rɪˈfaɪn/"}
+{"title":"regional jet","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"regional stock exchange","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"regionalization","uk":"uk  / ˌriːdʒ ə n ə laɪˈzeɪʃ ə n /","ukp":"/ˌriːdʒənəlaɪˈzeɪʃən/","us":"us  / ˌriːdʒən ə ləˈzeɪʃən /","usp":"/ˌriːdʒənələˈzeɪʃən/"}
+{"title":"regionalism","uk":"uk  / ˈriː.dʒ ə n. ə l.ɪ.z ə m /","ukp":"/ˈriː.dʒən.əl.ɪ.zəm/","us":"us  / ˈriː.dʒ ə n. ə l.ɪ.z ə m /","usp":"/ˈriː.dʒən.əl.ɪ.zəm/"}
+{"title":"regionally","uk":"uk  / ˈriː.dʒ ə n. ə l.i /","ukp":"/ˈriː.dʒən.əl.i/","us":"us  / ˈriː.dʒ ə n. ə l.i /","usp":"/ˈriː.dʒən.əl.i/"}
+{"title":"regiones","uk":"","us":""}
+{"title":"register of directors","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"register of companies","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"register of charges","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"register","uk":"uk  / ˈredʒ.ɪ.stə r /","ukp":"/ˈredʒ.ɪ.stər/","us":"us  / ˈredʒ.ə.stɚ /","usp":"/ˈredʒ.ə.stɚ/"}
+{"title":"register of directors' interests","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"register of directors' shareholdings","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"register of members","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"register of transfers","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"register of shareholders","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"register office","uk":"uk  / ˈredʒ.ɪ.stər ˌɒf.ɪs /","ukp":"/ˈredʒ.ɪ.stər ˌɒf.ɪs/","us":"us  / ˈredʒ.ɪ.stɚ ˌɑː.fɪs /","usp":"/ˈredʒ.ɪ.stɚ ˌɑː.fɪs/"}
+{"title":"registered bond","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registered capital","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registered","uk":"uk  / ˈredʒ.ɪ.stəd /","ukp":"/ˈredʒ.ɪ.stəd/","us":"us  / ˈredʒ.ə.stɚd /","usp":"/ˈredʒ.ə.stɚd/"}
+{"title":"registered company","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registered design","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registered mail","uk":"uk  / ˌredʒ.ɪ.stəd ˈmeɪl /","ukp":"/ˌredʒ.ɪ.stəd ˈmeɪl/","us":"us  / ˌredʒ.ɪ.stɚd ˈmeɪl /","usp":"/ˌredʒ.ɪ.stɚd ˈmeɪl/"}
+{"title":"registered nurse","uk":"uk  / ˌredʒ.ɪ.stəd ˈnɜːs /","ukp":"/ˌredʒ.ɪ.stəd ˈnɜːs/","us":"us  / ˌredʒ.ɪ.stɚd ˈnɝːs /","usp":"/ˌredʒ.ɪ.stɚd ˈnɝːs/"}
+{"title":"registered office","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registered security","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registered proprietor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registered post","uk":"uk  / ˌredʒ.ɪ.stəd ˈpəʊst /","ukp":"/ˌredʒ.ɪ.stəd ˈpəʊst/","us":"us  / ˌredʒ.ɪ.stɚd ˈpoʊst /","usp":"/ˌredʒ.ɪ.stɚd ˈpoʊst/"}
+{"title":"registered share","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registered stock","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registered trademark","uk":"uk  / ˌredʒ.ɪ.stəd ˈtreɪd.mɑːk /","ukp":"/ˌredʒ.ɪ.stəd ˈtreɪd.mɑːk/","us":"us  / ˌredʒ.ɪ.stɚd ˈtreɪd.mɑːrk /","usp":"/ˌredʒ.ɪ.stɚd ˈtreɪd.mɑːrk/"}
+{"title":"registered title","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registering","uk":"uk  / ˈredʒ.ɪ.stə r /","ukp":"/ˈredʒ.ɪ.stər/","us":"us  / ˈredʒ.ə.stɚ /","usp":"/ˈredʒ.ə.stɚ/"}
+{"title":"Registrar of Companies","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registrar","uk":"uk  / ˌredʒ.ɪˈstrɑː r /","ukp":"/ˌredʒ.ɪˈstrɑːr/","us":"us  / ˈredʒ.ə.strɑːr /","usp":"/ˈredʒ.ə.strɑːr/"}
+{"title":"registration","uk":"uk  / ˌredʒ.ɪˈstreɪ.ʃ ə n /","ukp":"/ˌredʒ.ɪˈstreɪ.ʃən/","us":"us  / ˌredʒ.əˈstreɪ.ʃ ə n /","usp":"/ˌredʒ.əˈstreɪ.ʃən/"}
+{"title":"registration number","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registration statement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Registry of Companies","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"registry office","uk":"uk  / ˈredʒ.ɪ.stri ˌɒf.ɪs /","ukp":"/ˈredʒ.ɪ.stri ˌɒf.ɪs/","us":"us  / ˈredʒ.ɪ.stri ˌɑː.fɪs /","usp":"/ˈredʒ.ɪ.stri ˌɑː.fɪs/"}
+{"title":"registry","uk":"uk  / ˈredʒ.ɪ.stri /","ukp":"/ˈredʒ.ɪ.stri/","us":"us  / ˈredʒ.ə.stri /","usp":"/ˈredʒ.ə.stri/"}
+{"title":"regnant","uk":"uk  / ˈreɡ.nənt /","ukp":"/ˈreɡ.nənt/","us":"us  / ˈreɡ.nənt /","usp":"/ˈreɡ.nənt/"}
+{"title":"regress","uk":"uk  / rɪˈɡres /","ukp":"/rɪˈɡres/","us":"us  / rɪˈɡres /","usp":"/rɪˈɡres/"}
+{"title":"regressed","uk":"uk  / rɪˈɡres /","ukp":"/rɪˈɡres/","us":"us  / rɪˈɡres /","usp":"/rɪˈɡres/"}
+{"title":"regressing","uk":"uk  / rɪˈɡres /","ukp":"/rɪˈɡres/","us":"us  / rɪˈɡres /","usp":"/rɪˈɡres/"}
+{"title":"regression","uk":"uk  / rɪˈɡreʃ. ə n /","ukp":"/rɪˈɡreʃ.ən/","us":"us  / rɪˈɡreʃ. ə n /","usp":"/rɪˈɡreʃ.ən/"}
+{"title":"regression analysis","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"rehearsal","uk":"uk  / rəˈhɜː.s ə l /","ukp":"/rəˈhɜː.səl/","us":"us  / rəˈhɝː.s ə l /","usp":"/rəˈhɝː.səl/"}
+{"title":"rehashing","uk":"uk  / ˌriːˈhæʃ /","ukp":"/ˌriːˈhæʃ/","us":"us  / ˌriːˈhæʃ /","usp":"/ˌriːˈhæʃ/"}
+{"title":"rehearsed","uk":"uk  / rəˈhɜːs /","ukp":"/rəˈhɜːs/","us":"us  / rəˈhɝːs /","usp":"/rəˈhɝːs/"}
+{"title":"rehearse","uk":"uk  / rəˈhɜːs /","ukp":"/rəˈhɜːs/","us":"us  / rəˈhɝːs /","usp":"/rəˈhɝːs/"}
+{"title":"reheat","uk":"uk  / ˌriːˈhiːt /","ukp":"/ˌriːˈhiːt/","us":"us  / ˌriːˈhiːt /","usp":"/ˌriːˈhiːt/"}
+{"title":"rehearsing","uk":"uk  / rəˈhɜːs /","ukp":"/rəˈhɜːs/","us":"us  / rəˈhɝːs /","usp":"/rəˈhɝːs/"}
+{"title":"rehire","uk":"uk / ˌriːˈhaɪə r /","ukp":"/ˌriːˈhaɪər/","us":"us / ˌriːˈhaɪr /","usp":"/ˌriːˈhaɪr/"}
+{"title":"rehospitalize","uk":"uk / ˌriːˈhɒs.pɪ.t ə l.aɪz /","ukp":"/ˌriːˈhɒs.pɪ.təl.aɪz/","us":"us / ˌriːˈhɑː.spɪ.t̬ ə l.aɪz /","usp":"/ˌriːˈhɑː.spɪ.t̬əl.aɪz/"}
+{"title":"rehospitalization","uk":"uk / riːˌhɒs.pɪ.təl.aɪˈzeɪ.ʃ ə n /","ukp":"/riːˌhɒs.pɪ.təl.aɪˈzeɪ.ʃən/","us":"us / riːˌhɑː.spɪ.t̬əl.əˈzeɪ.ʃən /","usp":"/riːˌhɑː.spɪ.t̬əl.əˈzeɪ.ʃən/"}
+{"title":"rehome","uk":"uk  / ˌriːˈhəʊm /","ukp":"/ˌriːˈhəʊm/","us":"us  / ˌriːˈhoʊm /","usp":"/ˌriːˈhoʊm/"}
+{"title":"rehouse","uk":"uk  / ˌriːˈhaʊz /","ukp":"/ˌriːˈhaʊz/","us":"us  / ˌriːˈhaʊz /","usp":"/ˌriːˈhaʊz/"}
+{"title":"rehoused","uk":"uk  / ˌriːˈhaʊz /","ukp":"/ˌriːˈhaʊz/","us":"us  / ˌriːˈhaʊz /","usp":"/ˌriːˈhaʊz/"}
+{"title":"rehousing","uk":"uk  / ˌriːˈhaʊz /","ukp":"/ˌriːˈhaʊz/","us":"us  / ˌriːˈhaʊz /","usp":"/ˌriːˈhaʊz/"}
+{"title":"rehumanize","uk":"uk / ˌriːˈhjuː.mə.naɪz /","ukp":"/ˌriːˈhjuː.mə.naɪz/","us":"us / ˌriːˈhjuː.mə.naɪz /","usp":"/ˌriːˈhjuː.mə.naɪz/"}
+{"title":"rehydrate","uk":"uk  / ˌriː.haɪ.ˈdreɪt /","ukp":"/ˌriː.haɪ.ˈdreɪt/","us":"us  / ˌriːˈhaɪ.dreɪt /","usp":"/ˌriːˈhaɪ.dreɪt/"}
+{"title":"rehydration","uk":"uk  / ˌriː.haɪˈdreɪ.ʃ ə n /","ukp":"/ˌriː.haɪˈdreɪ.ʃən/","us":"us  / ˌriː.haɪˈdreɪ.ʃ ə n /","usp":"/ˌriː.haɪˈdreɪ.ʃən/"}
+{"title":"reidentify","uk":"uk / ˌriː.aɪˈden.tɪ.faɪ /","ukp":"/ˌriː.aɪˈden.tɪ.faɪ/","us":"us / ˌriː.aɪˈden.t̬ə.faɪ /","usp":"/ˌriː.aɪˈden.t̬ə.faɪ/"}
+{"title":"reification","uk":"uk  / ˌriː.ɪ.fɪˈkeɪ.ʃ ə n /","ukp":"/ˌriː.ɪ.fɪˈkeɪ.ʃən/","us":"us  / ˌriː.ɪ.fɪˈkeɪ.ʃ ə n /","usp":"/ˌriː.ɪ.fɪˈkeɪ.ʃən/"}

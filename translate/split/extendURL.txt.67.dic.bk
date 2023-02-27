@@ -1,0 +1,925 @@
+{"title":"toxicologist","uk":"uk  / ˌtɒk.sɪˈkɒl.ə.dʒɪst /","ukp":"/ˌtɒk.sɪˈkɒl.ə.dʒɪst/","us":"us  / ˌtɑːk.sɪˈkɑː.lə.dʒɪst /","usp":"/ˌtɑːk.sɪˈkɑː.lə.dʒɪst/"}
+{"title":"toxicology","uk":"uk  / ˌtɒk.sɪˈkɒl.ə.dʒi /","ukp":"/ˌtɒk.sɪˈkɒl.ə.dʒi/","us":"us  / ˌtɑːk.sɪˈkɑː.lə.dʒi /","usp":"/ˌtɑːk.sɪˈkɑː.lə.dʒi/"}
+{"title":"toxophily","uk":"uk  / tɒkˈsɒf.ɪ.li /","ukp":"/tɒkˈsɒf.ɪ.li/","us":"us  / tɑːkˈsɑː.fə.li /","usp":"/tɑːkˈsɑː.fə.li/"}
+{"title":"toxin","uk":"uk  / ˈtɒk.sɪn /","ukp":"/ˈtɒk.sɪn/","us":"us  / ˈtɑːk.sɪn /","usp":"/ˈtɑːk.sɪn/"}
+{"title":"toxophilite","uk":"uk  / tɒkˈsɒf.ɪ.laɪt /","ukp":"/tɒkˈsɒf.ɪ.laɪt/","us":"us  / tɑːkˈsɑː.fə.laɪt /","usp":"/tɑːkˈsɑː.fə.laɪt/"}
+{"title":"toy boy","uk":"uk  / ˈtɔɪ ˌbɔɪ /","ukp":"/ˈtɔɪ ˌbɔɪ/","us":"us  / ˈtɔɪ ˌbɔɪ /","usp":"/ˈtɔɪ ˌbɔɪ/"}
+{"title":"toxoplasma","uk":"uk  / ˌtɒk.səʊˈplæz.mə /","ukp":"/ˌtɒk.səʊˈplæz.mə/","us":"us  / ˌtɑːk.soʊˈplæz.mə /","usp":"/ˌtɑːk.soʊˈplæz.mə/"}
+{"title":"toxoplasmosis","uk":"uk  / ˌtɒk.səʊ.plæzˈməʊ.sɪs /","ukp":"/ˌtɒk.səʊ.plæzˈməʊ.sɪs/","us":"us  / ˌtɑːk.soʊ.plæzˈmoʊ.sɪs /","usp":"/ˌtɑːk.soʊ.plæzˈmoʊ.sɪs/"}
+{"title":"toy","uk":"uk  / tɔɪ /","ukp":"/tɔɪ/","us":"us  / tɔɪ /","usp":"/tɔɪ/"}
+{"title":"Toyota Production System","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"toy with something","uk":"uk  / tɔɪ /","ukp":"/tɔɪ/","us":"us  / tɔɪ /","usp":"/tɔɪ/"}
+{"title":"toymaker","uk":"uk  / ˈtɔɪˌmeɪkə r /","ukp":"/ˈtɔɪˌmeɪkər/","us":"us ","usp":""}
+{"title":"TPAS","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"TPM","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"TPS","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"TPR","uk":"uk  / ˌtiː.piːˈɑː r /","ukp":"/ˌtiː.piːˈɑːr/","us":"us  / ˌtiː.piːˈɑːr /","usp":"/ˌtiː.piːˈɑːr/"}
+{"title":"tptb","uk":"","us":""}
+{"title":"TQM","uk":"uk  / ˌtiːkjuːˈem /","ukp":"/ˌtiːkjuːˈem/","us":"us ","usp":""}
+{"title":"trabecula","uk":"uk  / trəˈbek.jə.lə /","ukp":"/trəˈbek.jə.lə/","us":"us  / trəˈbek.jə.lə /","usp":"/trəˈbek.jə.lə/"}
+{"title":"trabeculae","uk":"","us":""}
+{"title":"trace element","uk":"uk  / ˈtreɪs ˌel.ɪ.mənt /","ukp":"/ˈtreɪs ˌel.ɪ.mənt/","us":"us  / ˈtreɪs ˌel.ɪ.mənt /","usp":"/ˈtreɪs ˌel.ɪ.mənt/"}
+{"title":"traceability","uk":"uk  / ˌtreɪsəˈbɪləti /","ukp":"/ˌtreɪsəˈbɪləti/","us":"us ","usp":""}
+{"title":"trace","uk":"uk  / treɪs /","ukp":"/treɪs/","us":"us  / treɪs /","usp":"/treɪs/"}
+{"title":"traceable","uk":"uk  / ˈtreɪ.sə.b ə l /","ukp":"/ˈtreɪ.sə.bəl/","us":"us  / ˈtreɪ.sə.b ə l /","usp":"/ˈtreɪ.sə.bəl/"}
+{"title":"traced","uk":"uk  / treɪs /","ukp":"/treɪs/","us":"us  / treɪs /","usp":"/treɪs/"}
+{"title":"tracer","uk":"uk  / ˈtreɪ.sə r /","ukp":"/ˈtreɪ.sər/","us":"us  / ˈtreɪ.sɚ /","usp":"/ˈtreɪ.sɚ/"}
+{"title":"traceur","uk":"uk / træˈsɜː r /","ukp":"/træˈsɜːr/","us":"us / træˈsɝː /","usp":"/træˈsɝː/"}
+{"title":"trachea","uk":"uk  / trəˈkiː.ə /","ukp":"/trəˈkiː.ə/","us":"us  / ˈtreɪ.kiə /","usp":"/ˈtreɪ.kiə/"}
+{"title":"tracheae","uk":"","us":""}
+{"title":"tracheal","uk":"uk  / trəˈkiː.əl /","ukp":"/trəˈkiː.əl/","us":"us  / ˈtreɪ.kiː.əl /","usp":"/ˈtreɪ.kiː.əl/"}
+{"title":"tracheotomy","uk":"uk  / ˌtræk.iˈɒt.ə.mi /","ukp":"/ˌtræk.iˈɒt.ə.mi/","us":"us  / ˌtreɪ.kiˈɑː.t̬ə.mi /","usp":"/ˌtreɪ.kiˈɑː.t̬ə.mi/"}
+{"title":"tracheostomy","uk":"uk  / træk.iˈɒst.ə.mi /","ukp":"/træk.iˈɒst.ə.mi/","us":"us  / ˌtreɪ.kiˈɑːs.tə.mi /","usp":"/ˌtreɪ.kiˈɑːs.tə.mi/"}
+{"title":"tracing","uk":"uk  / ˈtreɪ.sɪŋ /","ukp":"/ˈtreɪ.sɪŋ/","us":"us  / ˈtreɪ.sɪŋ /","usp":"/ˈtreɪ.sɪŋ/"}
+{"title":"tracing paper","uk":"uk  / ˈtreɪ.sɪŋ ˌpeɪ.pə r /","ukp":"/ˈtreɪ.sɪŋ ˌpeɪ.pər/","us":"us  / ˈtreɪ.sɪŋ ˌpeɪ.pɚ /","usp":"/ˈtreɪ.sɪŋ ˌpeɪ.pɚ/"}
+{"title":"track and field","uk":"uk  / ˌtræk ən ˈfiːld /","ukp":"/ˌtræk ən ˈfiːld/","us":"us  / ˌtræk ən ˈfiːld /","usp":"/ˌtræk ən ˈfiːld/"}
+{"title":"track and trace","uk":"uk  / ˌtræk ən ˈtreɪs /","ukp":"/ˌtræk ən ˈtreɪs/","us":"us  / ˌtræk ən ˈtreɪs /","usp":"/ˌtræk ən ˈtreɪs/"}
+{"title":"track event","uk":"uk  / ˈtræk ɪˌvent /","ukp":"/ˈtræk ɪˌvent/","us":"us  / ˈtræk ɪˌvent /","usp":"/ˈtræk ɪˌvent/"}
+{"title":"track","uk":"uk  / træk /","ukp":"/træk/","us":"us  / træk /","usp":"/træk/"}
+{"title":"track meet","uk":"uk  / ˈtræk ˌmiːt /","ukp":"/ˈtræk ˌmiːt/","us":"us  / ˈtræk ˌmiːt /","usp":"/ˈtræk ˌmiːt/"}
+{"title":"trade debtor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade deficit","uk":"uk  / ˈtreɪd ˌdef.ɪ.sɪt /","ukp":"/ˈtreɪd ˌdef.ɪ.sɪt/","us":"us  / ˈtreɪd ˌdef.ɪ.sɪt /","usp":"/ˈtreɪd ˌdef.ɪ.sɪt/"}
+{"title":"trade delegation","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade description","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade dispute","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade down","uk":"uk  / treɪd /","ukp":"/treɪd/","us":"us ","usp":""}
+{"title":"trade discount","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade exhibition","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade fair","uk":"uk  / ˈtreɪd ˌfeə r /","ukp":"/ˈtreɪd ˌfeər/","us":"us  / ˈtreɪd ˌfer /","usp":"/ˈtreɪd ˌfer/"}
+{"title":"trade figures","uk":"uk  / ˈtreɪd ˌfɪɡ.əz /","ukp":"/ˈtreɪd ˌfɪɡ.əz/","us":"us  / ˈtreɪd ˌfɪɡ.jɚz /","usp":"/ˈtreɪd ˌfɪɡ.jɚz/"}
+{"title":"trade gap","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade journal","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade magazine","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade mission","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade name","uk":"uk  / ˈtreɪd ˌneɪm /","ukp":"/ˈtreɪd ˌneɪm/","us":"us  / ˈtreɪd ˌneɪm /","usp":"/ˈtreɪd ˌneɪm/"}
+{"title":"trade on something","uk":"uk  / treɪd /","ukp":"/treɪd/","us":"us  / treɪd /","usp":"/treɪd/"}
+{"title":"trade on/upon something","uk":"","us":"us  / treɪd /","usp":"/treɪd/"}
+{"title":"trade paper","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade places (with someone )","uk":"","us":""}
+{"title":"trade portal","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade price","uk":"uk  / ˈtreɪd ˌpraɪs /","ukp":"/ˈtreɪd ˌpraɪs/","us":"us  / ˈtreɪd ˌpraɪs /","usp":"/ˈtreɪd ˌpraɪs/"}
+{"title":"trade representative","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade sale","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade route","uk":"uk  / ˈtreɪd ˌruːt /","ukp":"/ˈtreɪd ˌruːt/","us":"us  / ˈtreɪd ˌruːt /","usp":"/ˈtreɪd ˌruːt/"}
+{"title":"trade school","uk":"uk  / ˈtreɪd ˌskuːl /","ukp":"/ˈtreɪd ˌskuːl/","us":"us  / ˈtreɪd ˌskuːl /","usp":"/ˈtreɪd ˌskuːl/"}
+{"title":"trade secret","uk":"uk  / ˌtreɪd ˈsiː.krət /","ukp":"/ˌtreɪd ˈsiː.krət/","us":"us  / ˌtreɪd ˈsiː.krət /","usp":"/ˌtreɪd ˈsiː.krət/"}
+{"title":"trade show","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade something in","uk":"uk  / treɪd /","ukp":"/treɪd/","us":"us  / treɪd /","usp":"/treɪd/"}
+{"title":"trade something off","uk":"uk  / treɪd /","ukp":"/treɪd/","us":"us  / treɪd /","usp":"/treɪd/"}
+{"title":"trade surplus","uk":"uk  / ˈtreɪd ˌsɜː.pləs /","ukp":"/ˈtreɪd ˌsɜː.pləs/","us":"us  / ˈtreɪd ˌsɝː.pləs /","usp":"/ˈtreɪd ˌsɝː.pləs/"}
+{"title":"trade terms","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade union","uk":"uk  / ˌtreɪd ˈjuː.ni.ən /","ukp":"/ˌtreɪd ˈjuː.ni.ən/","us":"us  / ˌtreɪd ˈjuː.ni.ən /","usp":"/ˌtreɪd ˈjuː.ni.ən/"}
+{"title":"trade unionism","uk":"uk  / -ɪ.z ə m /","ukp":"/-ɪ.zəm/","us":"us ","usp":""}
+{"title":"trade unionist","uk":"uk  / ˌtreɪdˈjuː.ni. ə n.ɪst /","ukp":"/ˌtreɪdˈjuː.ni.ən.ɪst/","us":"us ","usp":""}
+{"title":"trade up","uk":"uk  / treɪd /","ukp":"/treɪd/","us":"us ","usp":""}
+{"title":"trade up/down","uk":"uk  / treɪd /","ukp":"/treɪd/","us":"us  / treɪd /","usp":"/treɪd/"}
+{"title":"trade-dependent","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade war","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade-distorting","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade-related","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade-weighted","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trade-weighted exchange rate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tradeable","uk":"uk  / ˈtreɪdəbl /","ukp":"/ˈtreɪdəbl/","us":"us ","usp":""}
+{"title":"tradecraft","uk":"uk  / ˈtreɪd.krɑːft /","ukp":"/ˈtreɪd.krɑːft/","us":"us  / ˈtreɪd.kræft /","usp":"/ˈtreɪd.kræft/"}
+{"title":"traded option","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"traded","uk":"uk  / treɪd /","ukp":"/treɪd/","us":"us  / treɪd /","usp":"/treɪd/"}
+{"title":"trademark","uk":"uk  / ˈtreɪd.mɑːk /","ukp":"/ˈtreɪd.mɑːk/","us":"us  / ˈtreɪd.mɑːrk /","usp":"/ˈtreɪd.mɑːrk/"}
+{"title":"tradeoff","uk":"","us":"us  / ˈtreɪdˌɔf /","usp":"/ˈtreɪdˌɔf/"}
+{"title":"trader","uk":"uk  / ˈtreɪ.də r /","ukp":"/ˈtreɪ.dər/","us":"us  / ˈtreɪ.dɚ /","usp":"/ˈtreɪ.dɚ/"}
+{"title":"Trades Union Congress","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tragically","uk":"uk  / ˈtrædʒ.ɪ.k ə l.i /","ukp":"/ˈtrædʒ.ɪ.kəl.i/","us":"us  / ˈtrædʒ.ɪ.k ə l.i /","usp":"/ˈtrædʒ.ɪ.kəl.i/"}
+{"title":"tragicomedy","uk":"uk  / ˌtrædʒ.ɪˈkɒm.ə.di /","ukp":"/ˌtrædʒ.ɪˈkɒm.ə.di/","us":"us  / ˌtrædʒ.ɪˈkɑː.mə.di /","usp":"/ˌtrædʒ.ɪˈkɑː.mə.di/"}
+{"title":"tragicomic","uk":"uk  / ˌtrædʒ.ɪˈkɒm.ɪk /","ukp":"/ˌtrædʒ.ɪˈkɒm.ɪk/","us":"us  / ˌtrædʒ.ɪˈkɑː.mɪk /","usp":"/ˌtrædʒ.ɪˈkɑː.mɪk/"}
+{"title":"trail away/off","uk":"uk  / treɪl /","ukp":"/treɪl/","us":"us  / treɪl /","usp":"/treɪl/"}
+{"title":"trail mix","uk":"uk  / ˈtreɪl ˌmɪks /","ukp":"/ˈtreɪl ˌmɪks/","us":"us  / ˈtreɪl ˌmɪks /","usp":"/ˈtreɪl ˌmɪks/"}
+{"title":"trail off","uk":"uk  / treɪl /","ukp":"/treɪl/","us":"us  / treɪl /","usp":"/treɪl/"}
+{"title":"trail","uk":"uk  / treɪl /","ukp":"/treɪl/","us":"us  / treɪl /","usp":"/treɪl/"}
+{"title":"trail running","uk":"uk  / ˈtreɪl ˌrʌn.ɪŋ /","ukp":"/ˈtreɪl ˌrʌn.ɪŋ/","us":"us  / ˈtreɪl ˌrʌn.ɪŋ /","usp":"/ˈtreɪl ˌrʌn.ɪŋ/"}
+{"title":"trail shoe","uk":"uk  / ˈtreɪl ˌʃuː /","ukp":"/ˈtreɪl ˌʃuː/","us":"us  / ˈtreɪl ˌʃuː /","usp":"/ˈtreɪl ˌʃuː/"}
+{"title":"trailblaze","uk":"uk  / ˈtreɪl.bleɪz /","ukp":"/ˈtreɪl.bleɪz/","us":"us  / ˈtreɪl.bleɪz /","usp":"/ˈtreɪl.bleɪz/"}
+{"title":"trailblazer","uk":"uk  / ˈtreɪlˌbleɪ.zə r /","ukp":"/ˈtreɪlˌbleɪ.zər/","us":"us  / ˈtreɪlˌbleɪ.zɚ /","usp":"/ˈtreɪlˌbleɪ.zɚ/"}
+{"title":"trailblazing","uk":"uk  / ˈtreɪlˌbleɪ.zɪŋ /","ukp":"/ˈtreɪlˌbleɪ.zɪŋ/","us":"us  / ˈtreɪlˌbleɪ.zɪŋ /","usp":"/ˈtreɪlˌbleɪ.zɪŋ/"}
+{"title":"trailed","uk":"uk  / treɪl /","ukp":"/treɪl/","us":"us  / treɪl /","usp":"/treɪl/"}
+{"title":"trailer","uk":"uk  / ˈtreɪ.lə r /","ukp":"/ˈtreɪ.lər/","us":"us  / ˈtreɪ.lɚ /","usp":"/ˈtreɪ.lɚ/"}
+{"title":"trailer camping","uk":"uk  / ˈtreɪ.lə ˌkæm.pɪŋ /","ukp":"/ˈtreɪ.lə ˌkæm.pɪŋ/","us":"us  / ˈtreɪ.lɚ ˌkæm.pɪŋ /","usp":"/ˈtreɪ.lɚ ˌkæm.pɪŋ/"}
+{"title":"trailer park","uk":"uk  / ˈtreɪ.lə ˌpɑːk /","ukp":"/ˈtreɪ.lə ˌpɑːk/","us":"us  / ˈtreɪ.lɚ ˌpɑːrk /","usp":"/ˈtreɪ.lɚ ˌpɑːrk/"}
+{"title":"trailer trash","uk":"uk  / ˈtreɪ.lə ˌtræʃ /","ukp":"/ˈtreɪ.lə ˌtræʃ/","us":"us  / ˈtreɪ.lɚ ˌtræʃ /","usp":"/ˈtreɪ.lɚ ˌtræʃ/"}
+{"title":"trailhead","uk":"uk  / ˈtreɪl.hed /","ukp":"/ˈtreɪl.hed/","us":"us  / ˈtreɪl.hed /","usp":"/ˈtreɪl.hed/"}
+{"title":"trailing","uk":"uk  / ˈtreɪ.lɪŋ /","ukp":"/ˈtreɪ.lɪŋ/","us":"us  / ˈtreɪ.lɪŋ /","usp":"/ˈtreɪ.lɪŋ/"}
+{"title":"trailing spouse","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"train set","uk":"uk  / ˈtreɪn ˌset /","ukp":"/ˈtreɪn ˌset/","us":"us  / ˈtreɪn ˌset /","usp":"/ˈtreɪn ˌset/"}
+{"title":"train","uk":"uk  / treɪn /","ukp":"/treɪn/","us":"us  / treɪn /","usp":"/treɪn/"}
+{"title":"train station","uk":"uk  / ˈtreɪn ˌsteɪ.ʃ ə n /","ukp":"/ˈtreɪn ˌsteɪ.ʃən/","us":"us  / ˈtreɪn ˌsteɪ.ʃ ə n /","usp":"/ˈtreɪn ˌsteɪ.ʃən/"}
+{"title":"train wreck","uk":"uk  / ˈtreɪn ˌrek /","ukp":"/ˈtreɪn ˌrek/","us":"us  / ˈtreɪn ˌrek /","usp":"/ˈtreɪn ˌrek/"}
+{"title":"trained","uk":"uk  / treɪnd /","ukp":"/treɪnd/","us":"us  / treɪnd /","usp":"/treɪnd/"}
+{"title":"trainee","uk":"uk  / ˌtreɪˈniː /","ukp":"/ˌtreɪˈniː/","us":"us  / ˌtreɪˈniː /","usp":"/ˌtreɪˈniː/"}
+{"title":"trainee solicitor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"traineeship","uk":"uk  / ˌtreɪˈniː.ʃɪp /","ukp":"/ˌtreɪˈniː.ʃɪp/","us":"us  / ˌtreɪˈniː.ʃɪp /","usp":"/ˌtreɪˈniː.ʃɪp/"}
+{"title":"training and development","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trainer","uk":"uk  / ˈtreɪ.nə r /","ukp":"/ˈtreɪ.nər/","us":"us  / ˈtreɪ.nɚ /","usp":"/ˈtreɪ.nɚ/"}
+{"title":"training","uk":"uk  / ˈtreɪ.nɪŋ /","ukp":"/ˈtreɪ.nɪŋ/","us":"us  / ˈtreɪ.nɪŋ /","usp":"/ˈtreɪ.nɪŋ/"}
+{"title":"training bra","uk":"uk  / ˈtreɪ.nɪŋ ˌbrɑː /","ukp":"/ˈtreɪ.nɪŋ ˌbrɑː/","us":"us  / ˈtreɪ.nɪŋ ˌbrɑː /","usp":"/ˈtreɪ.nɪŋ ˌbrɑː/"}
+{"title":"training course","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"training group","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"training manual","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"training needs analysis","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"training wheels","uk":"uk  / ˈtreɪ.nɪŋ ˌwiːlz /","ukp":"/ˈtreɪ.nɪŋ ˌwiːlz/","us":"us  / ˈtreɪ.nɪŋ ˌwiːlz /","usp":"/ˈtreɪ.nɪŋ ˌwiːlz/"}
+{"title":"trainspotter","uk":"uk  / ˈtreɪnˌspɒt.ə r /","ukp":"/ˈtreɪnˌspɒt.ər/","us":"us  / ˈtreɪnˌspɑː.t̬ɚ /","usp":"/ˈtreɪnˌspɑː.t̬ɚ/"}
+{"title":"trainspotting","uk":"uk  / ˈtreɪnˌspɒt.ɪŋ /","ukp":"/ˈtreɪnˌspɒt.ɪŋ/","us":"us  / ˈtreɪnˌspɑː.t̬ɪŋ /","usp":"/ˈtreɪnˌspɑː.t̬ɪŋ/"}
+{"title":"traipsed","uk":"uk  / treɪps /","ukp":"/treɪps/","us":"us  / treɪps /","usp":"/treɪps/"}
+{"title":"traipse","uk":"uk  / treɪps /","ukp":"/treɪps/","us":"us  / treɪps /","usp":"/treɪps/"}
+{"title":"traipsing","uk":"uk  / treɪps /","ukp":"/treɪps/","us":"us  / treɪps /","usp":"/treɪps/"}
+{"title":"trait","uk":"uk  / treɪt /","ukp":"/treɪt/","us":"us  / treɪt /","usp":"/treɪt/"}
+{"title":"traitor","uk":"uk  / ˈtreɪ.tə r /","ukp":"/ˈtreɪ.tər/","us":"us  / ˈtreɪ.t̬ɚ /","usp":"/ˈtreɪ.t̬ɚ/"}
+{"title":"traitorous","uk":"uk  / ˈtreɪ.t ə r.əs /","ukp":"/ˈtreɪ.tər.əs/","us":"us  / ˈtreɪ.t̬ɚ.əs /","usp":"/ˈtreɪ.t̬ɚ.əs/"}
+{"title":"tradesman's entrance","uk":"uk  / ˈtreɪdz.mənz ˌen.trəns /","ukp":"/ˈtreɪdz.mənz ˌen.trəns/","us":"us  / ˈtreɪdz.mənz ˌen.trəns /","usp":"/ˈtreɪdz.mənz ˌen.trəns/"}
+{"title":"tradesman","uk":"uk  / ˈtreɪdz.mən /","ukp":"/ˈtreɪdz.mən/","us":"us  / ˈtreɪdz.mən /","usp":"/ˈtreɪdz.mən/"}
+{"title":"tradespeople","uk":"uk  / ˈtreɪdzˌpiː.p ə l /","ukp":"/ˈtreɪdzˌpiː.pəl/","us":"us  / ˈtreɪdzˌpiː.p ə l /","usp":"/ˈtreɪdzˌpiː.pəl/"}
+{"title":"tradesperson","uk":"uk  / ˈtreɪdzˌpɜːs ə n /","ukp":"/ˈtreɪdzˌpɜːsən/","us":"us ","usp":""}
+{"title":"trading","uk":"uk  / ˈtreɪ.dɪŋ /","ukp":"/ˈtreɪ.dɪŋ/","us":"us  / ˈtreɪ.dɪŋ /","usp":"/ˈtreɪ.dɪŋ/"}
+{"title":"trading account","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading card","uk":"uk  / ˈtreɪ.dɪŋ ˌkɑːd /","ukp":"/ˈtreɪ.dɪŋ ˌkɑːd/","us":"us  / ˈtreɪ.dɪŋ ˌkɑːrd /","usp":"/ˈtreɪ.dɪŋ ˌkɑːrd/"}
+{"title":"trading company","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading desk","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading estate","uk":"uk  / ˈtreɪ.dɪŋ ɪˌsteɪt /","ukp":"/ˈtreɪ.dɪŋ ɪˌsteɪt/","us":"us  / ˈtreɪ.dɪŋ ɪˌsteɪt /","usp":"/ˈtreɪ.dɪŋ ɪˌsteɪt/"}
+{"title":"trading floor","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading hub","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading hours","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading manager","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading loss","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading partner","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading period","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading platform","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading profit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Trading Standards","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading session","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading post","uk":"uk  / ˈtreɪ.dɪŋ ˌpəʊst /","ukp":"/ˈtreɪ.dɪŋ ˌpəʊst/","us":"us  / ˈtreɪ.dɪŋ ˌpoʊst /","usp":"/ˈtreɪ.dɪŋ ˌpoʊst/"}
+{"title":"trading statement","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trading stock","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tradition","uk":"uk  / trəˈdɪʃ. ə n /","ukp":"/trəˈdɪʃ.ən/","us":"us  / trəˈdɪʃ. ə n /","usp":"/trəˈdɪʃ.ən/"}
+{"title":"traditional","uk":"uk  / trəˈdɪʃ. ə n. ə l /","ukp":"/trəˈdɪʃ.ən.əl/","us":"us  / trəˈdɪʃ. ə n. ə l /","usp":"/trəˈdɪʃ.ən.əl/"}
+{"title":"traditionalism","uk":"uk  / trəˈdɪʃ. ə n. ə l.ɪ.z ə m /","ukp":"/trəˈdɪʃ.ən.əl.ɪ.zəm/","us":"us  / trəˈdɪʃ. ə n. ə l.ɪ.z ə m /","usp":"/trəˈdɪʃ.ən.əl.ɪ.zəm/"}
+{"title":"traditional jazz","uk":"uk  / trəˌdɪʃ. ə n. ə l ˈdʒæz /","ukp":"/trəˌdɪʃ.ən.əl ˈdʒæz/","us":"us  / trəˌdɪʃ. ə n. ə l ˈdʒæz /","usp":"/trəˌdɪʃ.ən.əl ˈdʒæz/"}
+{"title":"traditionalist","uk":"uk  / trəˈdɪʃ. ə n. ə l.ɪst /","ukp":"/trəˈdɪʃ.ən.əl.ɪst/","us":"us  / trəˈdɪʃ. ə n. ə l.ɪst /","usp":"/trəˈdɪʃ.ən.əl.ɪst/"}
+{"title":"traditionally","uk":"uk  / trəˈdɪʃ. ə n. ə l.i /","ukp":"/trəˈdɪʃ.ən.əl.i/","us":"us  / trəˈdɪʃ. ə n. ə l.i /","usp":"/trəˈdɪʃ.ən.əl.i/"}
+{"title":"traduce","uk":"uk  / trəˈdʒuːs /","ukp":"/trəˈdʒuːs/","us":"us  / trəˈduːs /","usp":"/trəˈduːs/"}
+{"title":"traduced","uk":"uk  / trəˈdʒuːs /","ukp":"/trəˈdʒuːs/","us":"us  / trəˈduːs /","usp":"/trəˈduːs/"}
+{"title":"traducing","uk":"uk  / trəˈdʒuːs /","ukp":"/trəˈdʒuːs/","us":"us  / trəˈduːs /","usp":"/trəˈduːs/"}
+{"title":"traffic","uk":"uk  / ˈtræf.ɪk /","ukp":"/ˈtræf.ɪk/","us":"us  / ˈtræf.ɪk /","usp":"/ˈtræf.ɪk/"}
+{"title":"traffic calming","uk":"uk  / ˈtræf.ɪk ˌkɑː.mɪŋ /","ukp":"/ˈtræf.ɪk ˌkɑː.mɪŋ/","us":"us  / ˈtræf.ɪk ˌkɑː.mɪŋ /","usp":"/ˈtræf.ɪk ˌkɑː.mɪŋ/"}
+{"title":"traffic circle","uk":"uk  / ˈtræf.ɪk ˌsɜː.k ə l /","ukp":"/ˈtræf.ɪk ˌsɜː.kəl/","us":"us  / ˈtræf.ɪk ˌsɝː.k ə l /","usp":"/ˈtræf.ɪk ˌsɝː.kəl/"}
+{"title":"traffic cone","uk":"uk  / ˈtræf.ɪk ˌkəʊn /","ukp":"/ˈtræf.ɪk ˌkəʊn/","us":"us  / ˈtræf.ɪk ˌkoʊn /","usp":"/ˈtræf.ɪk ˌkoʊn/"}
+{"title":"traffic in sth","uk":"uk  / ˈtræfɪk /","ukp":"/ˈtræfɪk/","us":"us ","usp":""}
+{"title":"traffic cops","uk":"uk  / ˈtræf.ɪk ˌkɒps /","ukp":"/ˈtræf.ɪk ˌkɒps/","us":"us  / ˈtræf.ɪk ˌkɑːps /","usp":"/ˈtræf.ɪk ˌkɑːps/"}
+{"title":"traffic island","uk":"uk  / ˈtræf.ɪk ˌaɪ.lənd /","ukp":"/ˈtræf.ɪk ˌaɪ.lənd/","us":"us  / ˈtræf.ɪk ˌaɪ.lənd /","usp":"/ˈtræf.ɪk ˌaɪ.lənd/"}
+{"title":"traffic jam","uk":"uk  / ˈtræf.ɪk ˌdʒæm /","ukp":"/ˈtræf.ɪk ˌdʒæm/","us":"us  / ˈtræf.ɪk ˌdʒæm /","usp":"/ˈtræf.ɪk ˌdʒæm/"}
+{"title":"traffic light","uk":"uk  / ˈtræf.ɪk ˌlaɪt /","ukp":"/ˈtræf.ɪk ˌlaɪt/","us":"us  / ˈtræf.ɪk ˌlaɪt /","usp":"/ˈtræf.ɪk ˌlaɪt/"}
+{"title":"traffic police","uk":"uk  / ˈtræf.ɪk pəˌliːs /","ukp":"/ˈtræf.ɪk pəˌliːs/","us":"us  / ˈtræf.ɪk pəˌliːs /","usp":"/ˈtræf.ɪk pəˌliːs/"}
+{"title":"traffic warden","uk":"uk  / ˈtræf.ɪk ˌwɔː.d ə n /","ukp":"/ˈtræf.ɪk ˌwɔː.dən/","us":"us  / ˈtræf.ɪk ˌwɔːr.d ə n /","usp":"/ˈtræf.ɪk ˌwɔːr.dən/"}
+{"title":"trafficked","uk":"","us":""}
+{"title":"trafficker","uk":"uk  / ˈtræf.ɪ.kə r /","ukp":"/ˈtræf.ɪ.kər/","us":"us  / ˈtræf.ɪ.kɚ /","usp":"/ˈtræf.ɪ.kɚ/"}
+{"title":"trafficking","uk":"uk  / ˈtræf.ɪ.kɪŋ /","ukp":"/ˈtræf.ɪ.kɪŋ/","us":"us  / ˈtræf.ɪ.kɪŋ /","usp":"/ˈtræf.ɪ.kɪŋ/"}
+{"title":"tragedy","uk":"uk  / ˈtrædʒ.ə.di /","ukp":"/ˈtrædʒ.ə.di/","us":"us  / ˈtrædʒ.ə.di /","usp":"/ˈtrædʒ.ə.di/"}
+{"title":"tragic","uk":"uk  / ˈtrædʒ.ɪk /","ukp":"/ˈtrædʒ.ɪk/","us":"us  / ˈtrædʒ.ɪk /","usp":"/ˈtrædʒ.ɪk/"}
+{"title":"tousle","uk":"uk  / ˈtaʊ.z ə l /","ukp":"/ˈtaʊ.zəl/","us":"us  / ˈtaʊ.z ə l /","usp":"/ˈtaʊ.zəl/"}
+{"title":"tousled","uk":"uk  / ˈtaʊ.z ə ld /","ukp":"/ˈtaʊ.zəld/","us":"us  / ˈtaʊ.z ə ld /","usp":"/ˈtaʊ.zəld/"}
+{"title":"touted","uk":"uk  / taʊt /","ukp":"/taʊt/","us":"us  / taʊt /","usp":"/taʊt/"}
+{"title":"tout","uk":"uk  / taʊt /","ukp":"/taʊt/","us":"us  / taʊt /","usp":"/taʊt/"}
+{"title":"touting","uk":"uk  / taʊt /","ukp":"/taʊt/","us":"us  / taʊt /","usp":"/taʊt/"}
+{"title":"tow bar","uk":"uk  / ˈtəʊ ˌbɑː r /","ukp":"/ˈtəʊ ˌbɑːr/","us":"us  / ˈtoʊ ˌbɑːr /","usp":"/ˈtoʊ ˌbɑːr/"}
+{"title":"tow rope","uk":"uk  / ˈtəʊ ˌrəʊp /","ukp":"/ˈtəʊ ˌrəʊp/","us":"us  / ˈtoʊ ˌroʊp /","usp":"/ˈtoʊ ˌroʊp/"}
+{"title":"tow","uk":"uk  / təʊ /","ukp":"/təʊ/","us":"us  / toʊ /","usp":"/toʊ/"}
+{"title":"tow truck","uk":"uk  / ˈtəʊ ˌtrʌk /","ukp":"/ˈtəʊ ˌtrʌk/","us":"us  / ˈtoʊ ˌtrʌk /","usp":"/ˈtoʊ ˌtrʌk/"}
+{"title":"tow-away","uk":"uk  / ˈtəʊ.ə.weɪ /","ukp":"/ˈtəʊ.ə.weɪ/","us":"us  / ˈtoʊ.ə.weɪ /","usp":"/ˈtoʊ.ə.weɪ/"}
+{"title":"toward","uk":"uk  / təˈwɔːd /","ukp":"/təˈwɔːd/","us":"us  / tɔːrd /","usp":"/tɔːrd/"}
+{"title":"towed","uk":"uk  / təʊ /","ukp":"/təʊ/","us":"us  / toʊ /","usp":"/toʊ/"}
+{"title":"towards","uk":"uk  / təˈwɔːdz /","ukp":"/təˈwɔːdz/","us":"us  / tɔːrdz /","usp":"/tɔːrdz/"}
+{"title":"towel","uk":"uk  / taʊəl /","ukp":"/taʊəl/","us":"us  / taʊəl /","usp":"/taʊəl/"}
+{"title":"towel rack","uk":"uk  / ˈtaʊəl ˌræk /","ukp":"/ˈtaʊəl ˌræk/","us":"us  / ˈtaʊəl ˌræk /","usp":"/ˈtaʊəl ˌræk/"}
+{"title":"towel rail","uk":"uk  / ˈtaʊəl ˌreɪl /","ukp":"/ˈtaʊəl ˌreɪl/","us":"us  / ˈtaʊəl ˌreɪl /","usp":"/ˈtaʊəl ˌreɪl/"}
+{"title":"towelette","uk":"uk  / ˌtaʊəˈlet /","ukp":"/ˌtaʊəˈlet/","us":"us  / ˌtaʊəˈlet /","usp":"/ˌtaʊəˈlet/"}
+{"title":"towelled","uk":"","us":""}
+{"title":"towelling","uk":"uk  / ˈtaʊə.lɪŋ /","ukp":"/ˈtaʊə.lɪŋ/","us":"us  / ˈtaʊə.lɪŋ /","usp":"/ˈtaʊə.lɪŋ/"}
+{"title":"tower","uk":"uk  / taʊə r /","ukp":"/taʊər/","us":"us  / ˈtaʊ.ɚ /","usp":"/ˈtaʊ.ɚ/"}
+{"title":"tower above/over someone/something","uk":"uk  / taʊə r /","ukp":"/taʊər/","us":"us  / ˈtaʊ.ɚ /","usp":"/ˈtaʊ.ɚ/"}
+{"title":"tower block","uk":"uk  / ˈtaʊə ˌblɒk /","ukp":"/ˈtaʊə ˌblɒk/","us":"us  / ˈtaʊ.ɚ ˌblɑːk /","usp":"/ˈtaʊ.ɚ ˌblɑːk/"}
+{"title":"towered","uk":"uk  / taʊə r /","ukp":"/taʊər/","us":"us  / ˈtaʊ.ɚ /","usp":"/ˈtaʊ.ɚ/"}
+{"title":"towering","uk":"uk  / ˈtaʊə.rɪŋ /","ukp":"/ˈtaʊə.rɪŋ/","us":"us  / ˈtaʊ.ɚ.ɪŋ /","usp":"/ˈtaʊ.ɚ.ɪŋ/"}
+{"title":"towing","uk":"uk  / təʊ /","ukp":"/təʊ/","us":"us  / toʊ /","usp":"/toʊ/"}
+{"title":"town and gown","uk":"uk  / ˌtaʊn ən ˈɡaʊn /","ukp":"/ˌtaʊn ən ˈɡaʊn/","us":"us  / ˌtaʊn ən ˈɡaʊn /","usp":"/ˌtaʊn ən ˈɡaʊn/"}
+{"title":"town","uk":"uk  / taʊn /","ukp":"/taʊn/","us":"us  / taʊn /","usp":"/taʊn/"}
+{"title":"town car","uk":"uk  / ˈtaʊn ˌkɑː r /","ukp":"/ˈtaʊn ˌkɑːr/","us":"us  / ˈtaʊn ˌkɑːr /","usp":"/ˈtaʊn ˌkɑːr/"}
+{"title":"town clerk","uk":"uk  / ˌtaʊn ˈklɑːk /","ukp":"/ˌtaʊn ˈklɑːk/","us":"us  / ˌtaʊn ˈklɝːk /","usp":"/ˌtaʊn ˈklɝːk/"}
+{"title":"town council","uk":"uk  / ˌtaʊn ˈkaʊn.s ə l /","ukp":"/ˌtaʊn ˈkaʊn.səl/","us":"us  / ˌtaʊn ˈkaʊn.s ə l /","usp":"/ˌtaʊn ˈkaʊn.səl/"}
+{"title":"town councillor","uk":"uk  / ˌtaʊn ˈkaʊn.s ə l.ə r /","ukp":"/ˌtaʊn ˈkaʊn.səl.ər/","us":"us  / ˌtaʊn ˈkaʊn.s ə l.ɚ /","usp":"/ˌtaʊn ˈkaʊn.səl.ɚ/"}
+{"title":"town councilor","uk":"uk  / ˌtaʊn ˈkaʊn.s ə l.ə r /","ukp":"/ˌtaʊn ˈkaʊn.səl.ər/","us":"us  / ˌtaʊn ˈkaʊn.s ə l.ɚ /","usp":"/ˌtaʊn ˈkaʊn.səl.ɚ/"}
+{"title":"town crier","uk":"uk  / ˌtaʊn ˈkraɪ.ə r /","ukp":"/ˌtaʊn ˈkraɪ.ər/","us":"us  / ˌtaʊn ˈkraɪ.ɚ /","usp":"/ˌtaʊn ˈkraɪ.ɚ/"}
+{"title":"town house","uk":"uk  / ˈtaʊn ˌhaʊs /","ukp":"/ˈtaʊn ˌhaʊs/","us":"us  / ˈtaʊn ˌhaʊs /","usp":"/ˈtaʊn ˌhaʊs/"}
+{"title":"town hall","uk":"uk  / ˌtaʊn ˈhɔːl /","ukp":"/ˌtaʊn ˈhɔːl/","us":"us  / ˌtaʊn ˈhɑːl /","usp":"/ˌtaʊn ˈhɑːl/"}
+{"title":"town planner","uk":"uk  / ˌtaʊn ˈplæn.ə r /","ukp":"/ˌtaʊn ˈplæn.ər/","us":"us  / ˌtaʊn ˈplæn.ɚ /","usp":"/ˌtaʊn ˈplæn.ɚ/"}
+{"title":"town planning","uk":"uk  / ˌtaʊn ˈplæn.ɪŋ /","ukp":"/ˌtaʊn ˈplæn.ɪŋ/","us":"us  / ˌtaʊn ˈplæn.ɪŋ /","usp":"/ˌtaʊn ˈplæn.ɪŋ/"}
+{"title":"town meeting","uk":"uk  / ˌtaʊn ˈmiː.tɪŋ /","ukp":"/ˌtaʊn ˈmiː.tɪŋ/","us":"us  / ˌtaʊn ˈmiː.t̬ɪŋ /","usp":"/ˌtaʊn ˈmiː.t̬ɪŋ/"}
+{"title":"townhouse","uk":"uk  / ˈtaʊn.haʊs /","ukp":"/ˈtaʊn.haʊs/","us":"us  / ˈtaʊn.haʊs /","usp":"/ˈtaʊn.haʊs/"}
+{"title":"townie","uk":"uk  / ˈtaʊ.ni /","ukp":"/ˈtaʊ.ni/","us":"us  / ˈtaʊ.ni /","usp":"/ˈtaʊ.ni/"}
+{"title":"townscape","uk":"uk  / ˈtaʊn.skeɪp /","ukp":"/ˈtaʊn.skeɪp/","us":"us  / ˈtaʊn.skeɪp /","usp":"/ˈtaʊn.skeɪp/"}
+{"title":"township","uk":"uk  / ˈtaʊn.ʃɪp /","ukp":"/ˈtaʊn.ʃɪp/","us":"us  / ˈtaʊn.ʃɪp /","usp":"/ˈtaʊn.ʃɪp/"}
+{"title":"townspeople","uk":"uk  / ˈtaʊnzˌpiː.p ə l /","ukp":"/ˈtaʊnzˌpiː.pəl/","us":"us  / ˈtaʊnzˌpiː.p ə l /","usp":"/ˈtaʊnzˌpiː.pəl/"}
+{"title":"towpath","uk":"uk  / ˈtəʊ.pɑːθ /","ukp":"/ˈtəʊ.pɑːθ/","us":"us  / ˈtoʊ.pæθ /","usp":"/ˈtoʊ.pæθ/"}
+{"title":"toxaemia","uk":"uk  / tɒkˈsiː.mi.ə /","ukp":"/tɒkˈsiː.mi.ə/","us":"us  / tɑːkˈsiː.mi.ə /","usp":"/tɑːkˈsiː.mi.ə/"}
+{"title":"toxemia","uk":"uk  / tɒkˈsiː.mi.ə /","ukp":"/tɒkˈsiː.mi.ə/","us":"us  / tɑːkˈsiː.mi.ə /","usp":"/tɑːkˈsiː.mi.ə/"}
+{"title":"transcended","uk":"uk  / trænˈsend /","ukp":"/trænˈsend/","us":"us  / trænˈsend /","usp":"/trænˈsend/"}
+{"title":"transcendence","uk":"uk  / trænˈsen.dəns /","ukp":"/trænˈsen.dəns/","us":"us  / trænˈsen.dəns /","usp":"/trænˈsen.dəns/"}
+{"title":"transcendent","uk":"uk  / trænˈsen.dənt /","ukp":"/trænˈsen.dənt/","us":"us  / trænˈsen.dənt /","usp":"/trænˈsen.dənt/"}
+{"title":"transcendental","uk":"uk  / ˌtræn.senˈden.t ə l /","ukp":"/ˌtræn.senˈden.təl/","us":"us  / ˌtræn.senˈden.t̬ ə l /","usp":"/ˌtræn.senˈden.t̬əl/"}
+{"title":"Transcendental Meditation","uk":"uk  / ˌtræn.sen.den.t ə l med.ɪˈteɪ.ʃ ə n /","ukp":"/ˌtræn.sen.den.təl med.ɪˈteɪ.ʃən/","us":"us  / ˌtræn.sen.den.t̬ ə l med.ɪˈteɪ.ʃ ə n /","usp":"/ˌtræn.sen.den.t̬əl med.ɪˈteɪ.ʃən/"}
+{"title":"transcending","uk":"uk  / trænˈsend /","ukp":"/trænˈsend/","us":"us  / trænˈsend /","usp":"/trænˈsend/"}
+{"title":"transcode","uk":"uk  / trænˈskəʊd /","ukp":"/trænˈskəʊd/","us":"us  / trænˈskoʊd /","usp":"/trænˈskoʊd/"}
+{"title":"transcoding","uk":"uk  / trænˈskəʊ.dɪŋ /","ukp":"/trænˈskəʊ.dɪŋ/","us":"us  / trænˈskoʊ.dɪŋ /","usp":"/trænˈskoʊ.dɪŋ/"}
+{"title":"transcribe","uk":"uk  / trænˈskraɪb /","ukp":"/trænˈskraɪb/","us":"us  / trænˈskraɪb /","usp":"/trænˈskraɪb/"}
+{"title":"transcontinental","uk":"uk  / ˌtrænˌskɒn.tɪˈnen.t ə l /","ukp":"/ˌtrænˌskɒn.tɪˈnen.təl/","us":"us  / ˌtrænˌskɑːn.t̬ ə nˈen.t̬ ə l /","usp":"/ˌtrænˌskɑːn.t̬ənˈen.t̬əl/"}
+{"title":"transcribed","uk":"uk  / trænˈskraɪb /","ukp":"/trænˈskraɪb/","us":"us  / trænˈskraɪb /","usp":"/trænˈskraɪb/"}
+{"title":"transcribing","uk":"uk  / trænˈskraɪb /","ukp":"/trænˈskraɪb/","us":"us  / trænˈskraɪb /","usp":"/trænˈskraɪb/"}
+{"title":"transcript","uk":"uk  / ˈtræn.skrɪpt /","ukp":"/ˈtræn.skrɪpt/","us":"us  / ˈtræn.skrɪpt /","usp":"/ˈtræn.skrɪpt/"}
+{"title":"transcription","uk":"uk  / trænˈskrɪp.ʃ ə n /","ukp":"/trænˈskrɪp.ʃən/","us":"us  / trænˈskrɪp.ʃ ə n /","usp":"/trænˈskrɪp.ʃən/"}
+{"title":"transdisciplinary","uk":"uk / ˌtrænz.dɪs.əˈplɪn. ə r.i /","ukp":"/ˌtrænz.dɪs.əˈplɪn.ər.i/","us":"us / ˌtrænz.dɪs.ə.plɪ.ner.i /","usp":"/ˌtrænz.dɪs.ə.plɪ.ner.i/"}
+{"title":"transduce","uk":"uk  / trænzˈdʒuːs /","ukp":"/trænzˈdʒuːs/","us":"us  / trænsˈduːs /","usp":"/trænsˈduːs/"}
+{"title":"transducer","uk":"uk  / trænzˈdʒuː.sə r /","ukp":"/trænzˈdʒuː.sər/","us":"us  / trɑːnsˈduː.sɚ /","usp":"/trɑːnsˈduː.sɚ/"}
+{"title":"transduction","uk":"uk  / ˌtrænzˈdʌk.ʃ ə n /","ukp":"/ˌtrænzˈdʌk.ʃən/","us":"us  / ˌtrænzˈdʌk.ʃ ə n /","usp":"/ˌtrænzˈdʌk.ʃən/"}
+{"title":"transect","uk":"uk  / trænˈsekt /","ukp":"/trænˈsekt/","us":"us  / trænˈsekt /","usp":"/trænˈsekt/"}
+{"title":"transept","uk":"uk  / ˈtræn.sept /","ukp":"/ˈtræn.sept/","us":"us  / ˈtræn.sept /","usp":"/ˈtræn.sept/"}
+{"title":"transfeminine","uk":"uk / trænzˈfem.ɪ.nɪn /","ukp":"/trænzˈfem.ɪ.nɪn/","us":"us / trænzˈfem.ə.nɪn /","usp":"/trænzˈfem.ə.nɪn/"}
+{"title":"transfer certificate","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transfer agent","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transfer deed","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transfer","uk":"uk  / trænsˈfɜː r /","ukp":"/trænsˈfɜːr/","us":"us  / ˈtræns.fɝː /","usp":"/ˈtræns.fɝː/"}
+{"title":"transfer income","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transfer fee","uk":"uk  / ˈtræns.fɜː ˌfiː /","ukp":"/ˈtræns.fɜː ˌfiː/","us":"us  / ˈtræns.fɝː ˌfiː /","usp":"/ˈtræns.fɝː ˌfiː/"}
+{"title":"transfer of title","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transfer list","uk":"uk  / ˈtræns.fɜː ˌlɪst /","ukp":"/ˈtræns.fɜː ˌlɪst/","us":"us  / ˈtræns.fɝː ˌlɪst /","usp":"/ˈtræns.fɝː ˌlɪst/"}
+{"title":"transfer payment","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transfer price","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transfer pricing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transfer RNA","uk":"uk  / ˌtræns.fɜːr ɑːr.enˈeɪ /","ukp":"/ˌtræns.fɜːr ɑːr.enˈeɪ/","us":"us  / ˌtræns.fɝː ɑːr.enˈeɪ /","usp":"/ˌtræns.fɝː ɑːr.enˈeɪ/"}
+{"title":"transfer student","uk":"uk  / ˈtræns.fɜː ˌstjuː.d ə nt /","ukp":"/ˈtræns.fɜː ˌstjuː.dənt/","us":"us  / ˈtræns.fɜː˞ ˌstuː.d ə nt /","usp":"/ˈtræns.fɜː˞ ˌstuː.dənt/"}
+{"title":"transfer window","uk":"uk  / ˈtræns.fɜː ˌwɪn.dəʊ /","ukp":"/ˈtræns.fɜː ˌwɪn.dəʊ/","us":"us  / ˈtræns.fɝː ˌwɪn.doʊ /","usp":"/ˈtræns.fɝː ˌwɪn.doʊ/"}
+{"title":"transferable","uk":"uk  / trænsˈfɜː.rə.b ə l /","ukp":"/trænsˈfɜː.rə.bəl/","us":"us  / trænsˈfɝː.ə.b ə l /","usp":"/trænsˈfɝː.ə.bəl/"}
+{"title":"transferable skills","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transferable vote","uk":"uk  / trænsˌfɜː.rə.b ə l ˈvəʊt /","ukp":"/trænsˌfɜː.rə.bəl ˈvəʊt/","us":"us  / trænsˌfɝː.ə.b ə l ˈvoʊt /","usp":"/trænsˌfɝː.ə.bəl ˈvoʊt/"}
+{"title":"transferee","uk":"uk  / ˌtrænsfəˈriː /","ukp":"/ˌtrænsfəˈriː/","us":"us ","usp":""}
+{"title":"transferor","uk":"uk  / trænsˈfɜːrə r /","ukp":"/trænsˈfɜːrər/","us":"us ","usp":""}
+{"title":"transference","uk":"uk  / trænsˈfɜː.r ə ns /","ukp":"/trænsˈfɜː.rəns/","us":"us  / ˈtræns.fɚ.əns /","usp":"/ˈtræns.fɚ.əns/"}
+{"title":"transferred","uk":"","us":""}
+{"title":"transferring","uk":"","us":""}
+{"title":"transfers register","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trajectory","uk":"uk  / trəˈdʒek.t ə r.i /","ukp":"/trəˈdʒek.tər.i/","us":"us  / trəˈdʒek.tɚ.i /","usp":"/trəˈdʒek.tɚ.i/"}
+{"title":"tram","uk":"uk  / træm /","ukp":"/træm/","us":"us  / træm /","usp":"/træm/"}
+{"title":"tramadol","uk":"uk  / ˈtræm.ə.dɒl /","ukp":"/ˈtræm.ə.dɒl/","us":"us  / ˈtræm.əˌdɔːl /","usp":"/ˈtræm.əˌdɔːl/"}
+{"title":"tramlines","uk":"uk  / ˈtræm.laɪnz /","ukp":"/ˈtræm.laɪnz/","us":"us  / ˈtræm.laɪnz /","usp":"/ˈtræm.laɪnz/"}
+{"title":"tramp","uk":"uk  / træmp /","ukp":"/træmp/","us":"us  / træmp /","usp":"/træmp/"}
+{"title":"tramped","uk":"uk  / træmp /","ukp":"/træmp/","us":"us  / træmp /","usp":"/træmp/"}
+{"title":"tramping","uk":"uk  / træmp /","ukp":"/træmp/","us":"us  / træmp /","usp":"/træmp/"}
+{"title":"trample","uk":"uk  / ˈtræm.p ə l /","ukp":"/ˈtræm.pəl/","us":"us  / ˈtræm.p ə l /","usp":"/ˈtræm.pəl/"}
+{"title":"trampled","uk":"uk  / ˈtræm.p ə l /","ukp":"/ˈtræm.pəl/","us":"us  / ˈtræm.p ə l /","usp":"/ˈtræm.pəl/"}
+{"title":"trampling","uk":"uk  / ˈtræm.p ə l /","ukp":"/ˈtræm.pəl/","us":"us  / ˈtræm.p ə l /","usp":"/ˈtræm.pəl/"}
+{"title":"trampoline","uk":"uk  / ˈtræm.p ə l.iːn /","ukp":"/ˈtræm.pəl.iːn/","us":"us  / ˌtræm.pəˈliːn /","usp":"/ˌtræm.pəˈliːn/"}
+{"title":"trampolining","uk":"uk  / ˈtræm.p ə l.iː.nɪŋ /","ukp":"/ˈtræm.pəl.iː.nɪŋ/","us":"us  / ˌtræm.pəˈliːn.ɪŋ /","usp":"/ˌtræm.pəˈliːn.ɪŋ/"}
+{"title":"trampolinist","uk":"uk  / ˈtræm.p ə l.iː.nɪst /","ukp":"/ˈtræm.pəl.iː.nɪst/","us":"us  / ˌtræm.pəˈliːn.ɪst /","usp":"/ˌtræm.pəˈliːn.ɪst/"}
+{"title":"tramway","uk":"uk  / ˈtræm.weɪ /","ukp":"/ˈtræm.weɪ/","us":"us  / ˈtræm.weɪ /","usp":"/ˈtræm.weɪ/"}
+{"title":"trance","uk":"uk  / trɑːns /","ukp":"/trɑːns/","us":"us  / træns /","usp":"/træns/"}
+{"title":"tranche securities","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tranche","uk":"uk  / trɑːntʃ /","ukp":"/trɑːntʃ/","us":"us  / trɑːntʃ /","usp":"/trɑːntʃ/"}
+{"title":"tranchette","uk":"uk  / trɑːnʃˈet /","ukp":"/trɑːnʃˈet/","us":"us ","usp":""}
+{"title":"tranny","uk":"uk  / ˈtræn.i /","ukp":"/ˈtræn.i/","us":"us  / ˈtræn.i /","usp":"/ˈtræn.i/"}
+{"title":"Trangia","uk":"uk  / ˈtræn.dʒi.ə /","ukp":"/ˈtræn.dʒi.ə/","us":"us  / ˈtræn.dʒi.ə /","usp":"/ˈtræn.dʒi.ə/"}
+{"title":"tranq","uk":"uk  / træŋk /","ukp":"/træŋk/","us":"us  / træŋk /","usp":"/træŋk/"}
+{"title":"tranquil","uk":"uk  / ˈtræŋ.kwɪl /","ukp":"/ˈtræŋ.kwɪl/","us":"us  / ˈtræŋ.kwəl /","usp":"/ˈtræŋ.kwəl/"}
+{"title":"tranquility","uk":"uk  / træŋˈkwɪl.ə.ti /","ukp":"/træŋˈkwɪl.ə.ti/","us":"us  / træŋˈkwɪl.ə.t̬i /","usp":"/træŋˈkwɪl.ə.t̬i/"}
+{"title":"tranquilize","uk":"uk  / ˈtræŋ.kwɪ.laɪz /","ukp":"/ˈtræŋ.kwɪ.laɪz/","us":"us  / ˈtræŋ.kwə.laɪz /","usp":"/ˈtræŋ.kwə.laɪz/"}
+{"title":"tranquilizer","uk":"uk  / ˈtræŋ.kwɪ.laɪ.zə r /","ukp":"/ˈtræŋ.kwɪ.laɪ.zər/","us":"us  / ˈtræŋ.kwə.laɪ.zɚ /","usp":"/ˈtræŋ.kwə.laɪ.zɚ/"}
+{"title":"tranquillity","uk":"uk  / træŋˈkwɪl.ə.ti /","ukp":"/træŋˈkwɪl.ə.ti/","us":"us  / træŋˈkwɪl.ə.t̬i /","usp":"/træŋˈkwɪl.ə.t̬i/"}
+{"title":"tranquillize","uk":"uk  / ˈtræŋ.kwɪ.laɪz /","ukp":"/ˈtræŋ.kwɪ.laɪz/","us":"us  / ˈtræŋ.kwə.laɪz /","usp":"/ˈtræŋ.kwə.laɪz/"}
+{"title":"tranquillized","uk":"uk  / ˈtræŋ.kwɪ.laɪz /","ukp":"/ˈtræŋ.kwɪ.laɪz/","us":"us  / ˈtræŋ.kwə.laɪz /","usp":"/ˈtræŋ.kwə.laɪz/"}
+{"title":"tranquillizer","uk":"uk  / ˈtræŋ.kwɪ.laɪ.zə r /","ukp":"/ˈtræŋ.kwɪ.laɪ.zər/","us":"us  / ˈtræŋ.kwə.laɪ.zɚ /","usp":"/ˈtræŋ.kwə.laɪ.zɚ/"}
+{"title":"tranquillizing","uk":"uk  / ˈtræŋ.kwɪ.laɪz /","ukp":"/ˈtræŋ.kwɪ.laɪz/","us":"us  / ˈtræŋ.kwə.laɪz /","usp":"/ˈtræŋ.kwə.laɪz/"}
+{"title":"tranquilly","uk":"uk  / ˈtræŋ.kwɪ.li /","ukp":"/ˈtræŋ.kwɪ.li/","us":"us  / ˈtræŋ.kwɪ.li /","usp":"/ˈtræŋ.kwɪ.li/"}
+{"title":"trans","uk":"uk  / trænz /","ukp":"/trænz/","us":"us  / trænz /","usp":"/trænz/"}
+{"title":"trans fat","uk":"uk  / ˈtrænz fæt /","ukp":"/ˈtrænz fæt/","us":"us  / ˈtrænz fæt /","usp":"/ˈtrænz fæt/"}
+{"title":"trans-positive","uk":"uk / ˌtrænzˈpɒz.ə.tɪv /","ukp":"/ˌtrænzˈpɒz.ə.tɪv/","us":"us / ˈtrænzˌpɑː.zə.t̬ɪv /","usp":"/ˈtrænzˌpɑː.zə.t̬ɪv/"}
+{"title":"transacted","uk":"uk  / trænˈzækt /","ukp":"/trænˈzækt/","us":"us  / trænˈzækt /","usp":"/trænˈzækt/"}
+{"title":"transact","uk":"uk  / trænˈzækt /","ukp":"/trænˈzækt/","us":"us  / trænˈzækt /","usp":"/trænˈzækt/"}
+{"title":"transacting","uk":"uk  / trænˈzækt /","ukp":"/trænˈzækt/","us":"us  / trænˈzækt /","usp":"/trænˈzækt/"}
+{"title":"transaction","uk":"uk  / trænˈzæk.ʃ ə n /","ukp":"/trænˈzæk.ʃən/","us":"us  / trænˈzæk.ʃ ə n /","usp":"/trænˈzæk.ʃən/"}
+{"title":"transaction cost","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transaction processing","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transaction tax","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transactional","uk":"uk  / trænˈzækʃ ə nəl /","ukp":"/trænˈzækʃənəl/","us":"us ","usp":""}
+{"title":"transactional cost","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transactional leadership","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transatlantic","uk":"uk  / ˌtræn.zətˈlæn.tɪk /","ukp":"/ˌtræn.zətˈlæn.tɪk/","us":"us  / ˌtræn.zætˈlæn.t̬ɪk /","usp":"/ˌtræn.zætˈlæn.t̬ɪk/"}
+{"title":"transceiver","uk":"uk  / trænˈsiːvə r /","ukp":"/trænˈsiːvər/","us":"us ","usp":""}
+{"title":"transcend","uk":"uk  / trænˈsend /","ukp":"/trænˈsend/","us":"us  / trænˈsend /","usp":"/trænˈsend/"}
+{"title":"transboundary","uk":"uk  / trænzˈbaʊn.d ə r.i /","ukp":"/trænzˈbaʊn.dər.i/","us":"us  / trænzˈbaʊn.d ə r.i /","usp":"/trænzˈbaʊn.dər.i/"}
+{"title":"translate","uk":"uk  / trænzˈleɪt /","ukp":"/trænzˈleɪt/","us":"us  / trænsˈleɪt /","usp":"/trænsˈleɪt/"}
+{"title":"translated","uk":"uk  / trænzˈleɪt /","ukp":"/trænzˈleɪt/","us":"us  / trænsˈleɪt /","usp":"/trænsˈleɪt/"}
+{"title":"translating","uk":"uk  / trænzˈleɪt /","ukp":"/trænzˈleɪt/","us":"us  / trænsˈleɪt /","usp":"/trænsˈleɪt/"}
+{"title":"translation","uk":"uk  / trænzˈleɪ.ʃ ə n /","ukp":"/trænzˈleɪ.ʃən/","us":"us  / trænsˈleɪ.ʃ ə n /","usp":"/trænsˈleɪ.ʃən/"}
+{"title":"transliterate","uk":"uk  / trænzˈlɪt. ə r.eɪt /","ukp":"/trænzˈlɪt.ər.eɪt/","us":"us  / trænsˈlɪt̬.ə.reɪt /","usp":"/trænsˈlɪt̬.ə.reɪt/"}
+{"title":"translator","uk":"uk  / trænzˈleɪ.tə r /","ukp":"/trænzˈleɪ.tər/","us":"us  / trænsˈleɪ.t̬ɚ /","usp":"/trænsˈleɪ.t̬ɚ/"}
+{"title":"transliterating","uk":"uk  / trænzˈlɪt. ə r.eɪt /","ukp":"/trænzˈlɪt.ər.eɪt/","us":"us  / trænsˈlɪt̬.ə.reɪt /","usp":"/trænsˈlɪt̬.ə.reɪt/"}
+{"title":"transliterated","uk":"uk  / trænzˈlɪt. ə r.eɪt /","ukp":"/trænzˈlɪt.ər.eɪt/","us":"us  / trænsˈlɪt̬.ə.reɪt /","usp":"/trænsˈlɪt̬.ə.reɪt/"}
+{"title":"transliteration","uk":"uk  / ˌtrænz.lɪ.t ə rˈeɪ.ʃ ə n /","ukp":"/ˌtrænz.lɪ.tərˈeɪ.ʃən/","us":"us  / trænˌslɪt̬.əˈreɪ.ʃ ə n /","usp":"/trænˌslɪt̬.əˈreɪ.ʃən/"}
+{"title":"translocation","uk":"uk  / ˌtrænz.ləʊˈkeɪ.ʃ ə n /","ukp":"/ˌtrænz.ləʊˈkeɪ.ʃən/","us":"us  / ˌtrænz.loʊˈkeɪ.ʃ ə n /","usp":"/ˌtrænz.loʊˈkeɪ.ʃən/"}
+{"title":"translucence","uk":"uk  / trænzˈluː.s ə ns /","ukp":"/trænzˈluː.səns/","us":"us  / trænˈsluː.s ə ns /","usp":"/trænˈsluː.səns/"}
+{"title":"translucent","uk":"uk  / trænzˈluː.s ə nt /","ukp":"/trænzˈluː.sənt/","us":"us  / trænˈsluː.s ə nt /","usp":"/trænˈsluː.sənt/"}
+{"title":"transmigration","uk":"uk  / ˌtrænz.maɪˈɡreɪ.ʃ ə n /","ukp":"/ˌtrænz.maɪˈɡreɪ.ʃən/","us":"us  / ˌtræns.maɪˈɡreɪ.ʃ ə n /","usp":"/ˌtræns.maɪˈɡreɪ.ʃən/"}
+{"title":"transmasculine","uk":"uk / trænzˈmæs.kjə.lɪn /","ukp":"/trænzˈmæs.kjə.lɪn/","us":"us / trænzˈmæs.kjə.lɪn /","usp":"/trænzˈmæs.kjə.lɪn/"}
+{"title":"transmissibility","uk":"uk  / trænzˌmɪs.əˈbɪl.ə.ti /","ukp":"/trænzˌmɪs.əˈbɪl.ə.ti/","us":"us  / ˌtrænz.mɪs.əˈbɪl.ə.t̬i /","usp":"/ˌtrænz.mɪs.əˈbɪl.ə.t̬i/"}
+{"title":"transmissible","uk":"uk  / trænzˈmɪs.ə.b ə l /","ukp":"/trænzˈmɪs.ə.bəl/","us":"us  / trænzˈmɪs.ə.b ə l /","usp":"/trænzˈmɪs.ə.bəl/"}
+{"title":"transmission","uk":"uk  / trænzˈmɪʃ. ə n /","ukp":"/trænzˈmɪʃ.ən/","us":"us  / trænˈsmɪʃ. ə n /","usp":"/trænˈsmɪʃ.ən/"}
+{"title":"transmisogyny","uk":"uk  / ˌtrænz.mɪˈsɒdʒ. ə n.i /","ukp":"/ˌtrænz.mɪˈsɒdʒ.ən.i/","us":"us  / ˌtrænz.mɪˈsɑː.dʒ ə n.i /","usp":"/ˌtrænz.mɪˈsɑː.dʒən.i/"}
+{"title":"transmittable","uk":"uk  / trænzˈmɪt.ə.b ə l /","ukp":"/trænzˈmɪt.ə.bəl/","us":"us  / trænsˈmɪt̬.ə.b ə l /","usp":"/trænsˈmɪt̬.ə.bəl/"}
+{"title":"transmit","uk":"uk  / trænzˈmɪt /","ukp":"/trænzˈmɪt/","us":"us  / trænsˈmɪt /","usp":"/trænsˈmɪt/"}
+{"title":"transmitted","uk":"","us":""}
+{"title":"transmitter","uk":"uk  / trænzˈmɪt.ə r /","ukp":"/trænzˈmɪt.ər/","us":"us  / trænsˈmɪt̬.ɚ /","usp":"/trænsˈmɪt̬.ɚ/"}
+{"title":"transmitting","uk":"","us":""}
+{"title":"transmogrification","uk":"uk  / ˌtrænz.mɒɡ.rɪ.fɪˈkeɪ.ʃ ə n /","ukp":"/ˌtrænz.mɒɡ.rɪ.fɪˈkeɪ.ʃən/","us":"us  / trænˌsmɑː.ɡrə.fəˈkeɪ.ʃ ə n /","usp":"/trænˌsmɑː.ɡrə.fəˈkeɪ.ʃən/"}
+{"title":"transmogrified","uk":"uk  / trænzˈmɒɡ.rɪ.faɪ /","ukp":"/trænzˈmɒɡ.rɪ.faɪ/","us":"us  / trænˈsmɑː.ɡrə.faɪ /","usp":"/trænˈsmɑː.ɡrə.faɪ/"}
+{"title":"transmogrify","uk":"uk  / trænzˈmɒɡ.rɪ.faɪ /","ukp":"/trænzˈmɒɡ.rɪ.faɪ/","us":"us  / trænˈsmɑː.ɡrə.faɪ /","usp":"/trænˈsmɑː.ɡrə.faɪ/"}
+{"title":"transmogrifying","uk":"uk  / trænzˈmɒɡ.rɪ.faɪ /","ukp":"/trænzˈmɒɡ.rɪ.faɪ/","us":"us  / trænˈsmɑː.ɡrə.faɪ /","usp":"/trænˈsmɑː.ɡrə.faɪ/"}
+{"title":"transmutation","uk":"uk  / ˌtrænz.mjuːˈteɪ.ʃ ə n /","ukp":"/ˌtrænz.mjuːˈteɪ.ʃən/","us":"us  / ˌtræns.mjuːˈteɪ.ʃ ə n /","usp":"/ˌtræns.mjuːˈteɪ.ʃən/"}
+{"title":"transmute","uk":"uk  / trænzˈmjuːt /","ukp":"/trænzˈmjuːt/","us":"us  / trænsˈmjuːt /","usp":"/trænsˈmjuːt/"}
+{"title":"transmuted","uk":"uk  / trænzˈmjuːt /","ukp":"/trænzˈmjuːt/","us":"us  / trænsˈmjuːt /","usp":"/trænsˈmjuːt/"}
+{"title":"transmuting","uk":"uk  / trænzˈmjuːt /","ukp":"/trænzˈmjuːt/","us":"us  / trænsˈmjuːt /","usp":"/trænsˈmjuːt/"}
+{"title":"transnational","uk":"uk  / ˌtrænzˈnæʃ. ə n. ə l /","ukp":"/ˌtrænzˈnæʃ.ən.əl/","us":"us  / ˌtrænzˈnæʃ. ə n. ə l /","usp":"/ˌtrænzˈnæʃ.ən.əl/"}
+{"title":"transness","uk":"uk  / ˈtrænz.nəs /","ukp":"/ˈtrænz.nəs/","us":"us  / ˈtrænz.nəs /","usp":"/ˈtrænz.nəs/"}
+{"title":"transom","uk":"uk  / ˈtræn.səm /","ukp":"/ˈtræn.səm/","us":"us  / ˈtræn.səm /","usp":"/ˈtræn.səm/"}
+{"title":"Transparency International","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transparency","uk":"uk  / trænˈspær. ə n.si /","ukp":"/trænˈspær.ən.si/","us":"us  / trænˈsper. ə n.si /","usp":"/trænˈsper.ən.si/"}
+{"title":"transparent","uk":"uk  / trænˈspær. ə nt /","ukp":"/trænˈspær.ənt/","us":"us  / trænˈsper. ə nt /","usp":"/trænˈsper.ənt/"}
+{"title":"transphobia","uk":"uk  / trænsˈfəʊ.bi.ə /","ukp":"/trænsˈfəʊ.bi.ə/","us":"us  / trænsˈfoʊ.bi.ə /","usp":"/trænsˈfoʊ.bi.ə/"}
+{"title":"transphobic","uk":"uk  / trænsˈfəʊ.bik /","ukp":"/trænsˈfəʊ.bik/","us":"us  / trænsˈfoʊ.bik /","usp":"/trænsˈfoʊ.bik/"}
+{"title":"transpiration","uk":"uk  / ˌtræn.spɪˈreɪ.ʃ ə n /","ukp":"/ˌtræn.spɪˈreɪ.ʃən/","us":"us  / ˌtræn.spəˈreɪ.ʃ ə n /","usp":"/ˌtræn.spəˈreɪ.ʃən/"}
+{"title":"transpire","uk":"uk  / trænˈspaɪə r /","ukp":"/trænˈspaɪər/","us":"us  / trænˈspaɪɚ /","usp":"/trænˈspaɪɚ/"}
+{"title":"transpired","uk":"uk  / trænˈspaɪə r /","ukp":"/trænˈspaɪər/","us":"us  / trænˈspaɪɚ /","usp":"/trænˈspaɪɚ/"}
+{"title":"transpiring","uk":"uk  / trænˈspaɪə r /","ukp":"/trænˈspaɪər/","us":"us  / trænˈspaɪɚ /","usp":"/trænˈspaɪɚ/"}
+{"title":"transfiguration","uk":"uk  / ˌtræns.fɪ.ɡ ə rˈeɪ.ʃ ə n /","ukp":"/ˌtræns.fɪ.ɡərˈeɪ.ʃən/","us":"us  / ˌtræns.fɪɡ.jəˈreɪ.ʃ ə n /","usp":"/ˌtræns.fɪɡ.jəˈreɪ.ʃən/"}
+{"title":"transfigure","uk":"uk  / trænsˈfɪɡ.ə r /","ukp":"/trænsˈfɪɡ.ər/","us":"us  / trænsˈfɪɡ.jɚ /","usp":"/trænsˈfɪɡ.jɚ/"}
+{"title":"transfiguring","uk":"uk  / trænsˈfɪɡ.ə r /","ukp":"/trænsˈfɪɡ.ər/","us":"us  / trænsˈfɪɡ.jɚ /","usp":"/trænsˈfɪɡ.jɚ/"}
+{"title":"transfigured","uk":"uk  / trænsˈfɪɡ.ə r /","ukp":"/trænsˈfɪɡ.ər/","us":"us  / trænsˈfɪɡ.jɚ /","usp":"/trænsˈfɪɡ.jɚ/"}
+{"title":"transfix","uk":"uk  / trænsˈfɪks /","ukp":"/trænsˈfɪks/","us":"us  / trænsˈfɪks /","usp":"/trænsˈfɪks/"}
+{"title":"transfixed","uk":"uk  / trænsˈfɪkst /","ukp":"/trænsˈfɪkst/","us":"us  / trænsˈfɪkst /","usp":"/trænsˈfɪkst/"}
+{"title":"transfixing","uk":"uk  / trænsˈfɪks /","ukp":"/trænsˈfɪks/","us":"us  / trænsˈfɪks /","usp":"/trænsˈfɪks/"}
+{"title":"transform","uk":"uk  / trænsˈfɔːm /","ukp":"/trænsˈfɔːm/","us":"us  / trænsˈfɔːrm /","usp":"/trænsˈfɔːrm/"}
+{"title":"transformation","uk":"uk  / ˌtræns.fəˈmeɪ.ʃ ə n /","ukp":"/ˌtræns.fəˈmeɪ.ʃən/","us":"us  / ˌtræns.fɚˈmeɪ.ʃ ə n /","usp":"/ˌtræns.fɚˈmeɪ.ʃən/"}
+{"title":"transformational","uk":"uk  / ˌtrænsfəˈmeɪʃ ə n ə l /","ukp":"/ˌtrænsfəˈmeɪʃənəl/","us":""}
+{"title":"transformational change","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transformational leadership","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transformative","uk":"uk  / trænsˈfɔː.mə.tɪv /","ukp":"/trænsˈfɔː.mə.tɪv/","us":"us  / trænsˈfɔːr.mə.t̬ɪv /","usp":"/trænsˈfɔːr.mə.t̬ɪv/"}
+{"title":"transformed","uk":"uk / trænsˈfɔːmd /","ukp":"/trænsˈfɔːmd/","us":"us / trænsˈfɔːrmd /","usp":"/trænsˈfɔːrmd/"}
+{"title":"transforming","uk":"uk  / trænsˈfɔːm /","ukp":"/trænsˈfɔːm/","us":"us  / trænsˈfɔːrm /","usp":"/trænsˈfɔːrm/"}
+{"title":"transformer","uk":"uk  / trænsˈfɔː.mə r /","ukp":"/trænsˈfɔː.mər/","us":"us  / trænsˈfɔːr.mɚ /","usp":"/trænsˈfɔːr.mɚ/"}
+{"title":"transfuse","uk":"uk  / trænsˈfjuːz /","ukp":"/trænsˈfjuːz/","us":"us  / trænsˈfjuːz /","usp":"/trænsˈfjuːz/"}
+{"title":"transgender","uk":"uk  / trænzˈdʒen.də r /","ukp":"/trænzˈdʒen.dər/","us":"us  / trænzˈdʒen.dɚ /","usp":"/trænzˈdʒen.dɚ/"}
+{"title":"transfusion","uk":"uk  / trænsˈfjuː.ʒ ə n /","ukp":"/trænsˈfjuː.ʒən/","us":"us  / trænsˈfjuː.ʒ ə n /","usp":"/trænsˈfjuː.ʒən/"}
+{"title":"transgenderism","uk":"uk  / trænzˈdʒen.dər.ɪ.z ə m /","ukp":"/trænzˈdʒen.dər.ɪ.zəm/","us":"us  / trænzˈdʒen.dɚ.ɪ.z ə m /","usp":"/trænzˈdʒen.dɚ.ɪ.zəm/"}
+{"title":"transgress","uk":"uk  / trænzˈɡres /","ukp":"/trænzˈɡres/","us":"us  / trænzˈɡres /","usp":"/trænzˈɡres/"}
+{"title":"transgenic","uk":"uk  / trænzˈdʒen.ɪk /","ukp":"/trænzˈdʒen.ɪk/","us":"us  / trænzˈdʒen.ɪk /","usp":"/trænzˈdʒen.ɪk/"}
+{"title":"transgressed","uk":"uk  / trænzˈɡres /","ukp":"/trænzˈɡres/","us":"us  / trænzˈɡres /","usp":"/trænzˈɡres/"}
+{"title":"transgression","uk":"uk  / trænzˈɡreʃ. ə n /","ukp":"/trænzˈɡreʃ.ən/","us":"us  / trænzˈɡreʃ. ə n /","usp":"/trænzˈɡreʃ.ən/"}
+{"title":"transgressing","uk":"uk  / trænzˈɡres /","ukp":"/trænzˈɡres/","us":"us  / trænzˈɡres /","usp":"/trænzˈɡres/"}
+{"title":"transgressor","uk":"uk  / trænzˈɡres.ə r /","ukp":"/trænzˈɡres.ər/","us":"us  / trænzˈɡres.ɚ /","usp":"/trænzˈɡres.ɚ/"}
+{"title":"transience","uk":"uk  / ˈtræn.zi.əns /","ukp":"/ˈtræn.zi.əns/","us":"us  / ˈtræn.zi.əns /","usp":"/ˈtræn.zi.əns/"}
+{"title":"transient ischaemic attack","uk":"uk  / ˌtræn.zi.ənt ɪˌskiː.mɪk əˈtæk /","ukp":"/ˌtræn.zi.ənt ɪˌskiː.mɪk əˈtæk/","us":"us  / ˌtræn.zi.ənt ɪˌskiː.mɪk əˈtæk /","usp":"/ˌtræn.zi.ənt ɪˌskiː.mɪk əˈtæk/"}
+{"title":"transient","uk":"uk  / ˈtræn.zi.ənt /","ukp":"/ˈtræn.zi.ənt/","us":"us  / ˈtræn.zi.ənt /","usp":"/ˈtræn.zi.ənt/"}
+{"title":"transient ischemic attack","uk":"uk  / ˌtræn.zi.ənt ɪˌskiː.mɪk əˈtæk /","ukp":"/ˌtræn.zi.ənt ɪˌskiː.mɪk əˈtæk/","us":"us  / ˌtræn.zi.ənt ɪˌskiː.mɪk əˈtæk /","usp":"/ˌtræn.zi.ənt ɪˌskiː.mɪk əˈtæk/"}
+{"title":"transhumanism","uk":"uk  / trænsˈhjuː.mə.nɪ.z ə m /","ukp":"/trænsˈhjuː.mə.nɪ.zəm/","us":"us  / trænsˈhjuː.mə.nɪ.z ə m /","usp":"/trænsˈhjuː.mə.nɪ.zəm/"}
+{"title":"transistor","uk":"uk  / trænˈzɪs.tə r /","ukp":"/trænˈzɪs.tər/","us":"us  / trænˈzɪs.tɚ /","usp":"/trænˈzɪs.tɚ/"}
+{"title":"transistorized","uk":"uk  / trænˈzɪs.t ə r.aɪzd /","ukp":"/trænˈzɪs.tər.aɪzd/","us":"us  / trænˈzɪs.tə.raɪzd /","usp":"/trænˈzɪs.tə.raɪzd/"}
+{"title":"transit camp","uk":"uk  / ˈtræn.zɪt ˌkæmp /","ukp":"/ˈtræn.zɪt ˌkæmp/","us":"us  / ˈtræn.zɪt ˌkæmp /","usp":"/ˈtræn.zɪt ˌkæmp/"}
+{"title":"transit","uk":"uk  / ˈtræn.zɪt /","ukp":"/ˈtræn.zɪt/","us":"us  / ˈtræn.zɪt /","usp":"/ˈtræn.zɪt/"}
+{"title":"transit lounge","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transit visa","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transition economy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transition metal","uk":"uk  / trænˈzɪʃ. ə n ˌmet. ə l /","ukp":"/trænˈzɪʃ.ən ˌmet.əl/","us":"us  / trænˈzɪʃ. ə n ˌmet̬. ə l /","usp":"/trænˈzɪʃ.ən ˌmet̬.əl/"}
+{"title":"transition","uk":"uk  / trænˈzɪʃ. ə n /","ukp":"/trænˈzɪʃ.ən/","us":"us  / trænˈzɪʃ. ə n /","usp":"/trænˈzɪʃ.ən/"}
+{"title":"transitional","uk":"uk  / trænˈzɪʃ. ə n.əl /","ukp":"/trænˈzɪʃ.ən.əl/","us":"us  / trænˈzɪʃ. ə n.əl /","usp":"/trænˈzɪʃ.ən.əl/"}
+{"title":"transitional economy","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transitive","uk":"uk  / ˈtræn.sə.tɪv /","ukp":"/ˈtræn.sə.tɪv/","us":"us  / ˈtræn.sə.t̬ɪv /","usp":"/ˈtræn.sə.t̬ɪv/"}
+{"title":"transitivity","uk":"uk  / ˌtræn.səˈtɪv.ə.ti /","ukp":"/ˌtræn.səˈtɪv.ə.ti/","us":"us  / ˌtræn.səˈtɪv.ə.t̬i /","usp":"/ˌtræn.səˈtɪv.ə.t̬i/"}
+{"title":"transitively","uk":"uk  / ˈtræn.sə.tɪv.li /","ukp":"/ˈtræn.sə.tɪv.li/","us":"us  / ˈtræn.sə.t̬ɪv.li /","usp":"/ˈtræn.sə.t̬ɪv.li/"}
+{"title":"transitory","uk":"uk  / ˈtræn.zɪ.t ə r.i /","ukp":"/ˈtræn.zɪ.tər.i/","us":"us  / ˈtræn.sə.tɔːr.i /","usp":"/ˈtræn.sə.tɔːr.i/"}
+{"title":"transplant","uk":"uk  / trænˈsplɑːnt /","ukp":"/trænˈsplɑːnt/","us":"us  / trænˈsplænt /","usp":"/trænˈsplænt/"}
+{"title":"transplantation","uk":"uk  / ˌtræn.splaːnˈteɪ.ʃ ə n /","ukp":"/ˌtræn.splaːnˈteɪ.ʃən/","us":"us  / ˌtræn.splænˈteɪ.ʃ ə n /","usp":"/ˌtræn.splænˈteɪ.ʃən/"}
+{"title":"transplanted","uk":"uk  / trænˈsplɑːnt /","ukp":"/trænˈsplɑːnt/","us":"us  / trænˈsplænt /","usp":"/trænˈsplænt/"}
+{"title":"transplanting","uk":"uk  / trænˈsplɑːnt /","ukp":"/trænˈsplɑːnt/","us":"us  / trænˈsplænt /","usp":"/trænˈsplænt/"}
+{"title":"transpolar","uk":"uk  / trænˈspəʊ.lə r /","ukp":"/trænˈspəʊ.lər/","us":"us  / trænˈspoʊ.lɚ /","usp":"/trænˈspoʊ.lɚ/"}
+{"title":"transponder","uk":"uk  / trænˈspɒn.də r /","ukp":"/trænˈspɒn.dər/","us":"us  / trænˈspɑːn.dɚ /","usp":"/trænˈspɑːn.dɚ/"}
+{"title":"transport hub","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transport","uk":"uk  / ˈtræn.spɔːt /","ukp":"/ˈtræn.spɔːt/","us":"us  / ˈtræn.spɔːrt /","usp":"/ˈtræn.spɔːrt/"}
+{"title":"transport café","uk":"uk  / ˈtræn.spɔːt ˌkæf.eɪ /","ukp":"/ˈtræn.spɔːt ˌkæf.eɪ/","us":"us  / ˌtræn.spɔːrt kæfˈeɪ /","usp":"/ˌtræn.spɔːrt kæfˈeɪ/"}
+{"title":"transport ship","uk":"uk  / ˈtræn.spɔːt ˌʃɪp /","ukp":"/ˈtræn.spɔːt ˌʃɪp/","us":"us  / ˈtræn.spɔːrt ˌʃɪp /","usp":"/ˈtræn.spɔːrt ˌʃɪp/"}
+{"title":"transport plane","uk":"uk  / ˈtræn.spɔːt ˌpleɪn /","ukp":"/ˈtræn.spɔːt ˌpleɪn/","us":"us  / ˈtræn.spɔːrt ˌpleɪn /","usp":"/ˈtræn.spɔːrt ˌpleɪn/"}
+{"title":"transportable","uk":"uk  / trænsˈpɔːtəbl /","ukp":"/trænsˈpɔːtəbl/","us":"us ","usp":""}
+{"title":"transportation","uk":"uk  / ˌtræn.spɔːˈteɪ.ʃ ə n /","ukp":"/ˌtræn.spɔːˈteɪ.ʃən/","us":"us  / ˌtræn.spɚˈteɪ.ʃ ə n /","usp":"/ˌtræn.spɚˈteɪ.ʃən/"}
+{"title":"transportation hub","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transported","uk":"uk  / trænˈspɔːt /","ukp":"/trænˈspɔːt/","us":"us  / trænˈspɔːrt /","usp":"/trænˈspɔːrt/"}
+{"title":"transporter","uk":"uk  / trænˈspɔː.tə r /","ukp":"/trænˈspɔː.tər/","us":"us  / trænˈspɔːr.t̬ɚ /","usp":"/trænˈspɔːr.t̬ɚ/"}
+{"title":"Transports Internationaux Routiers","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"transporting","uk":"uk  / trænˈspɔːt /","ukp":"/trænˈspɔːt/","us":"us  / trænˈspɔːrt /","usp":"/trænˈspɔːrt/"}
+{"title":"transpose","uk":"uk  / trænˈspəʊz /","ukp":"/trænˈspəʊz/","us":"us  / trænˈspoʊz /","usp":"/trænˈspoʊz/"}
+{"title":"transposed","uk":"uk  / trænˈspəʊz /","ukp":"/trænˈspəʊz/","us":"us  / trænˈspoʊz /","usp":"/trænˈspoʊz/"}
+{"title":"transposing","uk":"uk  / trænˈspəʊz /","ukp":"/trænˈspəʊz/","us":"us  / trænˈspoʊz /","usp":"/trænˈspoʊz/"}
+{"title":"transposition","uk":"uk  / ˌtræn.spəˈzɪʃ. ə n /","ukp":"/ˌtræn.spəˈzɪʃ.ən/","us":"us  / ˌtræn.spəˈzɪʃ. ə n /","usp":"/ˌtræn.spəˈzɪʃ.ən/"}
+{"title":"transracial","uk":"uk  / trænzˈreɪ.ʃ ə l /","ukp":"/trænzˈreɪ.ʃəl/","us":"us  / trænzˈreɪ.ʃ ə l /","usp":"/trænzˈreɪ.ʃəl/"}
+{"title":"transsexuality","uk":"uk  / trænzˌsek.ʃuˈæl.ə.ti /","ukp":"/trænzˌsek.ʃuˈæl.ə.ti/","us":"us  / trænzˌsek.ʃuˈæl.ə.t̬i /","usp":"/trænzˌsek.ʃuˈæl.ə.t̬i/"}
+{"title":"transsexual","uk":"uk  / trænzˈsek.ʃu.əl /","ukp":"/trænzˈsek.ʃu.əl/","us":"us  / trænzˈsek.ʃu.əl /","usp":"/trænzˈsek.ʃu.əl/"}
+{"title":"transshipment","uk":"uk  / trænsˈʃɪpmənt /","ukp":"/trænsˈʃɪpmənt/","us":"us ","usp":""}
+{"title":"transubstantiation","uk":"uk  / ˌtræn.səbˌstæn.ʃiˈeɪ.ʃ ə n /","ukp":"/ˌtræn.səbˌstæn.ʃiˈeɪ.ʃən/","us":"us  / ˌtræn.səbˌstæn.ʃiˈeɪ.ʃ ə n /","usp":"/ˌtræn.səbˌstæn.ʃiˈeɪ.ʃən/"}
+{"title":"transversal","uk":"uk  / trænzˈvɜ.s ə l /","ukp":"/trænzˈvɜ.səl/","us":"us  / trænsˈvɝː.s ə l /","usp":"/trænsˈvɝː.səl/"}
+{"title":"transversalis","uk":"uk  / ˌtrænz.vəˈseɪ.lɪs /","ukp":"/ˌtrænz.vəˈseɪ.lɪs/","us":"us  / ˌtræns.vɚˈsæl.ɪs /","usp":"/ˌtræns.vɚˈsæl.ɪs/"}
+{"title":"transverse","uk":"uk  / trænzˈvɜːs /","ukp":"/trænzˈvɜːs/","us":"us  / trænsˈvɝːs /","usp":"/trænsˈvɝːs/"}
+{"title":"transverse flute","uk":"uk  / ˈtrænzˈvɜːs ˌfluːt /","ukp":"/ˈtrænzˈvɜːs ˌfluːt/","us":"us  / ˈtrænsˈvɜːrs ˌfluːt /","usp":"/ˈtrænsˈvɜːrs ˌfluːt/"}
+{"title":"transverse wave","uk":"uk  / ˈtrænzˈvɜːs ˌweɪv /","ukp":"/ˈtrænzˈvɜːs ˌweɪv/","us":"us  / ˈtrænsˈvɜːrs ˌweɪv /","usp":"/ˈtrænsˈvɜːrs ˌweɪv/"}
+{"title":"transversely","uk":"uk  / trænzˈvɜːs.li /","ukp":"/trænzˈvɜːs.li/","us":"us  / trænsˈvɝːs.li /","usp":"/trænsˈvɝːs.li/"}
+{"title":"transversum","uk":"uk  / trænzˈvɜːs.əm /","ukp":"/trænzˈvɜːs.əm/","us":"us  / trænsˈvɝː.səm /","usp":"/trænsˈvɝː.səm/"}
+{"title":"transversus","uk":"uk  / trænzˈvɜːs.əs /","ukp":"/trænzˈvɜːs.əs/","us":"us  / trænsˈvɝː.səs /","usp":"/trænsˈvɝː.səs/"}
+{"title":"transvestism","uk":"uk  / trænzˈves.tɪ.z ə m /","ukp":"/trænzˈves.tɪ.zəm/","us":"us  / trænsˈves.tɪ.z ə m /","usp":"/trænsˈves.tɪ.zəm/"}
+{"title":"transvestite","uk":"uk  / trænzˈves.taɪt /","ukp":"/trænzˈves.taɪt/","us":"us  / trænsˈves.taɪt /","usp":"/trænsˈves.taɪt/"}
+{"title":"trap door","uk":"","us":"us  / ˈtræp ˈdɔr /","usp":"/ˈtræp ˈdɔr/"}
+{"title":"trap house","uk":"uk  / ˈtræp ˌhaʊs /","ukp":"/ˈtræp ˌhaʊs/","us":"us  / ˈtræp ˌhaʊs /","usp":"/ˈtræp ˌhaʊs/"}
+{"title":"trap","uk":"uk  / træp /","ukp":"/træp/","us":"us  / træp /","usp":"/træp/"}
+{"title":"trap music","uk":"uk / ˈtræp ˌmjuː.zɪk /","ukp":"/ˈtræp ˌmjuː.zɪk/","us":"us / ˈtræp ˌmjuː.zɪk /","usp":"/ˈtræp ˌmjuː.zɪk/"}
+{"title":"trapeze","uk":"uk  / trəˈpiːz /","ukp":"/trəˈpiːz/","us":"us  / trəˈpiːz /","usp":"/trəˈpiːz/"}
+{"title":"trapdoor","uk":"uk  / ˈtræp.dɔː r /","ukp":"/ˈtræp.dɔːr/","us":"us  / ˈtræp.dɔːr /","usp":"/ˈtræp.dɔːr/"}
+{"title":"trapeze artist","uk":"uk / trəˈpiːz ˌɑː.tɪst /","ukp":"/trəˈpiːz ˌɑː.tɪst/","us":"us / trəˈpiːz ˌɑːr.t̬ɪst /","usp":"/trəˈpiːz ˌɑːr.t̬ɪst/"}
+{"title":"trapezia","uk":"","us":""}
+{"title":"trapezii","uk":"","us":""}
+{"title":"trenchantly","uk":"uk  / ˈtren.tʃənt.li /","ukp":"/ˈtren.tʃənt.li/","us":"us  / ˈtren.tʃənt.li /","usp":"/ˈtren.tʃənt.li/"}
+{"title":"trenchant","uk":"uk  / ˈtren.tʃənt /","ukp":"/ˈtren.tʃənt/","us":"us  / ˈtren.tʃənt /","usp":"/ˈtren.tʃənt/"}
+{"title":"trencher","uk":"uk  / ˈtren.tʃə r /","ukp":"/ˈtren.tʃər/","us":"us  / ˈtren.tʃɚ /","usp":"/ˈtren.tʃɚ/"}
+{"title":"trenches","uk":"","us":""}
+{"title":"trend line","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trend","uk":"uk  / trend /","ukp":"/trend/","us":"us  / trend /","usp":"/trend/"}
+{"title":"trendsetter","uk":"uk  / ˈtrendˌset.ə r /","ukp":"/ˈtrendˌset.ər/","us":"us  / ˈtrendˌset̬.ɚ /","usp":"/ˈtrendˌset̬.ɚ/"}
+{"title":"trendspotter","uk":"uk  / ˈtrendˌspɒt.ə r /","ukp":"/ˈtrendˌspɒt.ər/","us":"us  / ˈtrendˌspɑː.t̬ɚ /","usp":"/ˈtrendˌspɑː.t̬ɚ/"}
+{"title":"trendy","uk":"uk  / ˈtren.di /","ukp":"/ˈtren.di/","us":"us  / ˈtren.di /","usp":"/ˈtren.di/"}
+{"title":"trepidation","uk":"uk  / ˌtrep.ɪˈdeɪ.ʃ ə n /","ukp":"/ˌtrep.ɪˈdeɪ.ʃən/","us":"us  / ˌtrep.əˈdeɪ.ʃ ə n /","usp":"/ˌtrep.əˈdeɪ.ʃən/"}
+{"title":"trespass on sth","uk":"uk  / ˈtrespəs /","ukp":"/ˈtrespəs/","us":"us ","usp":""}
+{"title":"trespass","uk":"uk  / ˈtres.pəs /","ukp":"/ˈtres.pəs/","us":"us  / ˈtres.pæs /","usp":"/ˈtres.pæs/"}
+{"title":"trespass on/upon something","uk":"uk  / ˈtres.pəs /","ukp":"/ˈtres.pəs/","us":"us  / ˈtres.pæs /","usp":"/ˈtres.pæs/"}
+{"title":"trespassed","uk":"uk  / ˈtres.pəs /","ukp":"/ˈtres.pəs/","us":"us  / ˈtres.pæs /","usp":"/ˈtres.pæs/"}
+{"title":"trespasser","uk":"uk  / ˈtres.pə.sə r /","ukp":"/ˈtres.pə.sər/","us":"us  / ˈtres.pæs.ɚ /","usp":"/ˈtres.pæs.ɚ/"}
+{"title":"trespassing","uk":"uk  / ˈtres.pəs /","ukp":"/ˈtres.pəs/","us":"us  / ˈtres.pæs /","usp":"/ˈtres.pæs/"}
+{"title":"tress","uk":"uk  / tres /","ukp":"/tres/","us":"us  / tres /","usp":"/tres/"}
+{"title":"tresses","uk":"uk  / ˈtres.ɪz /","ukp":"/ˈtres.ɪz/","us":"us  / ˈtres.ɪz /","usp":"/ˈtres.ɪz/"}
+{"title":"trestle","uk":"uk  / ˈtres. ə l /","ukp":"/ˈtres.əl/","us":"us  / ˈtres. ə l /","usp":"/ˈtres.əl/"}
+{"title":"trestle table","uk":"uk  / ˈtres. ə l ˌteɪ.b ə l /","ukp":"/ˈtres.əl ˌteɪ.bəl/","us":"us  / ˈtres. ə l ˌteɪ.b ə l /","usp":"/ˈtres.əl ˌteɪ.bəl/"}
+{"title":"trews","uk":"uk  / truːz /","ukp":"/truːz/","us":"us  / truːz /","usp":"/truːz/"}
+{"title":"tri-","uk":"uk  / traɪ- /","ukp":"/traɪ-/","us":"us  / traɪ- /","usp":"/traɪ-/"}
+{"title":"triad","uk":"uk  / ˈtraɪ.æd /","ukp":"/ˈtraɪ.æd/","us":"us  / ˈtraɪ.æd /","usp":"/ˈtraɪ.æd/"}
+{"title":"triage","uk":"uk  / ˈtriː.ɑːʒ /","ukp":"/ˈtriː.ɑːʒ/","us":"us  / ˈtriː.ɑːʒ /","usp":"/ˈtriː.ɑːʒ/"}
+{"title":"trial balance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trial and error","uk":"uk  / ˌtraɪəl ənd ˈer.ə r /","ukp":"/ˌtraɪəl ənd ˈer.ər/","us":"us  / ˌtraɪəl ənd ˈer.ɚ /","usp":"/ˌtraɪəl ənd ˈer.ɚ/"}
+{"title":"trial","uk":"uk  / traɪəl /","ukp":"/traɪəl/","us":"us  / traɪəl /","usp":"/traɪəl/"}
+{"title":"trial balloon","uk":"uk  / ˌtraɪəl bəˈluːn /","ukp":"/ˌtraɪəl bəˈluːn/","us":"us  / ˌtraɪəl bəˈluːn /","usp":"/ˌtraɪəl bəˈluːn/"}
+{"title":"trial offer","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trial run","uk":"uk  / ˌtraɪəl ˈrʌn /","ukp":"/ˌtraɪəl ˈrʌn/","us":"us  / ˌtraɪəl ˈrʌn /","usp":"/ˌtraɪəl ˈrʌn/"}
+{"title":"trialled","uk":"","us":""}
+{"title":"trialist","uk":"uk  / ˈtraɪə.lɪst /","ukp":"/ˈtraɪə.lɪst/","us":"us  / ˈtraɪə.lɪst /","usp":"/ˈtraɪə.lɪst/"}
+{"title":"trialling","uk":"uk  / ˈtraɪəlɪŋ /","ukp":"/ˈtraɪəlɪŋ/","us":"us ","usp":""}
+{"title":"trialogue","uk":"uk  / ˈtraɪ.ə.lɒɡ /","ukp":"/ˈtraɪ.ə.lɒɡ/","us":"us  / ˈtraɪ.ə.lɑːɡ /","usp":"/ˈtraɪ.ə.lɑːɡ/"}
+{"title":"trials and tribulations","uk":"","us":""}
+{"title":"triangular","uk":"uk  / traɪˈæŋ.ɡjə.lə r /","ukp":"/traɪˈæŋ.ɡjə.lər/","us":"us  / -lɚ /","usp":"/-lɚ/"}
+{"title":"triangle","uk":"uk  / ˈtraɪ.æŋ.ɡ ə l /","ukp":"/ˈtraɪ.æŋ.ɡəl/","us":"us  / ˈtraɪ.æŋ.ɡ ə l /","usp":"/ˈtraɪ.æŋ.ɡəl/"}
+{"title":"triangulate","uk":"uk  / traɪˈæŋ.ɡjə.leɪt /","ukp":"/traɪˈæŋ.ɡjə.leɪt/","us":"us  / traɪˈæŋ.ɡjə.leɪt /","usp":"/traɪˈæŋ.ɡjə.leɪt/"}
+{"title":"triangulation","uk":"uk  / traɪˌæŋ.ɡjʊˈleɪ.ʃ ə n /","ukp":"/traɪˌæŋ.ɡjʊˈleɪ.ʃən/","us":"us ","usp":""}
+{"title":"Triassic","uk":"uk  / traɪˈæs.ɪk /","ukp":"/traɪˈæs.ɪk/","us":"us  / traɪˈæs.ɪk /","usp":"/traɪˈæs.ɪk/"}
+{"title":"triathlete","uk":"uk  / traɪˈæθ.liːt /","ukp":"/traɪˈæθ.liːt/","us":"us  / traɪˈæθ.liːt /","usp":"/traɪˈæθ.liːt/"}
+{"title":"triathlon","uk":"uk  / traɪˈæθ.lɒn /","ukp":"/traɪˈæθ.lɒn/","us":"us  / traɪˈæθ.lɑːn /","usp":"/traɪˈæθ.lɑːn/"}
+{"title":"tribal","uk":"uk  / ˈtraɪ.b ə l /","ukp":"/ˈtraɪ.bəl/","us":"us  / ˈtraɪ.b ə l /","usp":"/ˈtraɪ.bəl/"}
+{"title":"tribalism","uk":"uk  / ˈtraɪ.b ə l.ɪ.z ə m /","ukp":"/ˈtraɪ.bəl.ɪ.zəm/","us":"us  / ˈtraɪ.b ə l.ɪ.z ə m /","usp":"/ˈtraɪ.bəl.ɪ.zəm/"}
+{"title":"tribally","uk":"uk  / ˈtraɪ.b ə l.i /","ukp":"/ˈtraɪ.bəl.i/","us":"us  / ˈtraɪ.b ə l.i /","usp":"/ˈtraɪ.bəl.i/"}
+{"title":"tribesman","uk":"uk  / ˈtraɪbz.mən /","ukp":"/ˈtraɪbz.mən/","us":"us  / ˈtraɪbz.mən /","usp":"/ˈtraɪbz.mən/"}
+{"title":"tribespeople","uk":"uk  / ˈtraɪbzˌpiː.p ə l /","ukp":"/ˈtraɪbzˌpiː.pəl/","us":"us  / ˈtraɪbzˌpiː.p ə l /","usp":"/ˈtraɪbzˌpiː.pəl/"}
+{"title":"tribe","uk":"uk  / traɪb /","ukp":"/traɪb/","us":"us  / traɪb /","usp":"/traɪb/"}
+{"title":"trig point","uk":"uk  / ˈtrɪɡ ˌpɔɪnt /","ukp":"/ˈtrɪɡ ˌpɔɪnt/","us":"us  / ˈtrɪɡ ˌpɔɪnt /","usp":"/ˈtrɪɡ ˌpɔɪnt/"}
+{"title":"trigeminal","uk":"uk  / traɪˈdʒem.ɪ.n ə l /","ukp":"/traɪˈdʒem.ɪ.nəl/","us":"us  / traɪˈdʒem.ə.n ə l /","usp":"/traɪˈdʒem.ə.nəl/"}
+{"title":"trigeminal neuralgia","uk":"uk  / traɪˌdʒem.ɪ.nəl njʊəˈræl.dʒə /","ukp":"/traɪˌdʒem.ɪ.nəl njʊəˈræl.dʒə/","us":"us  / traɪˌdʒem.ə.nəl nʊrˈæl.dʒə /","usp":"/traɪˌdʒem.ə.nəl nʊrˈæl.dʒə/"}
+{"title":"trigger","uk":"uk  / ˈtrɪɡ.ə r /","ukp":"/ˈtrɪɡ.ər/","us":"us  / ˈtrɪɡ.ɚ /","usp":"/ˈtrɪɡ.ɚ/"}
+{"title":"trigger finger","uk":"uk  / ˈtrɪɡ.ə ˌfɪŋ.ɡə r /","ukp":"/ˈtrɪɡ.ə ˌfɪŋ.ɡər/","us":"us  / ˈtrɪɡ.ɚ ˌfɪŋ.ɡɚ /","usp":"/ˈtrɪɡ.ɚ ˌfɪŋ.ɡɚ/"}
+{"title":"trigger food","uk":"uk  / ˈtrɪɡ.ə ˌfuːd /","ukp":"/ˈtrɪɡ.ə ˌfuːd/","us":"us  / ˈtrɪɡ.ɚ ˌfuːd /","usp":"/ˈtrɪɡ.ɚ ˌfuːd/"}
+{"title":"trigger warning","uk":"uk / ˈtrɪɡ.ə ˌwɔː.nɪŋ /","ukp":"/ˈtrɪɡ.ə ˌwɔː.nɪŋ/","us":"us  / ˈtrɪɡ.ɚ ˌwɔːr.nɪŋ /","usp":"/ˈtrɪɡ.ɚ ˌwɔːr.nɪŋ/"}
+{"title":"trigger point","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"triggered","uk":"uk  / ˈtrɪɡ.əd /","ukp":"/ˈtrɪɡ.əd/","us":"us  / ˈtrɪɡ.ɚd /","usp":"/ˈtrɪɡ.ɚd/"}
+{"title":"trigger-happy","uk":"uk  / ˈtrɪɡ.əˌhæp.i /","ukp":"/ˈtrɪɡ.əˌhæp.i/","us":"us  / ˈtrɪɡ.ɚˌhæp.i /","usp":"/ˈtrɪɡ.ɚˌhæp.i/"}
+{"title":"triggering","uk":"uk  / ˈtrɪɡ. ə r.ɪŋ /","ukp":"/ˈtrɪɡ.ər.ɪŋ/","us":"us  / ˈtrɪɡ.ɚ.ɪŋ /","usp":"/ˈtrɪɡ.ɚ.ɪŋ/"}
+{"title":"triglyceride","uk":"uk  / traɪˈɡlɪs.ə.raɪd /","ukp":"/traɪˈɡlɪs.ə.raɪd/","us":"us  / traɪˈɡlɪs.ə.raɪd /","usp":"/traɪˈɡlɪs.ə.raɪd/"}
+{"title":"trigone","uk":"uk  / ˈtraɪ.ɡəʊn /","ukp":"/ˈtraɪ.ɡəʊn/","us":"us  / ˈtraɪ.ɡoʊn /","usp":"/ˈtraɪ.ɡoʊn/"}
+{"title":"trigonometric","uk":"uk  / ˌtrɪɡ.ə.nəˈmet.rik /","ukp":"/ˌtrɪɡ.ə.nəˈmet.rik/","us":"us  / ˌtrɪɡ.ə.nəˈmet.rik /","usp":"/ˌtrɪɡ.ə.nəˈmet.rik/"}
+{"title":"trigonum","uk":"uk  / traɪˈɡəʊ.nəm /","ukp":"/traɪˈɡəʊ.nəm/","us":"us  / traɪˈɡoʊ.nəm /","usp":"/traɪˈɡoʊ.nəm/"}
+{"title":"trigraph","uk":"uk  / ˈtraɪ.ɡrɑːf /","ukp":"/ˈtraɪ.ɡrɑːf/","us":"us  / ˈtraɪ.ɡræf /","usp":"/ˈtraɪ.ɡræf/"}
+{"title":"trike","uk":"uk  / traɪk /","ukp":"/traɪk/","us":"us  / traɪk /","usp":"/traɪk/"}
+{"title":"trilateral","uk":"uk  / ˌtraɪˈlæt. ə r. ə l /","ukp":"/ˌtraɪˈlæt.ər.əl/","us":"us  / ˌtraɪˈlæt̬.ɚ. ə l /","usp":"/ˌtraɪˈlæt̬.ɚ.əl/"}
+{"title":"trigonometry","uk":"uk  / ˌtrɪɡ.əˈnɒm.ə.tri /","ukp":"/ˌtrɪɡ.əˈnɒm.ə.tri/","us":"us  / ˌtrɪɡ.əˈnɑː.mə.tri /","usp":"/ˌtrɪɡ.əˈnɑː.mə.tri/"}
+{"title":"trilaterally","uk":"uk  / ˌtraɪˈlæt. ə r. ə .li /","ukp":"/ˌtraɪˈlæt.ər.ə.li/","us":"us  / ˌtraɪˈlæt̬.ɚ. ə .li /","usp":"/ˌtraɪˈlæt̬.ɚ.ə.li/"}
+{"title":"trilby","uk":"uk  / ˈtrɪl.bi /","ukp":"/ˈtrɪl.bi/","us":"us  / ˈtrɪl.bi /","usp":"/ˈtrɪl.bi/"}
+{"title":"trilemma","uk":"uk  / traɪˈlem.ə /","ukp":"/traɪˈlem.ə/","us":"us  / traɪˈlem.ə /","usp":"/traɪˈlem.ə/"}
+{"title":"trilingual","uk":"uk  / ˌtraɪˈlɪŋ.ɡw ə l /","ukp":"/ˌtraɪˈlɪŋ.ɡwəl/","us":"us  / ˌtraɪˈlɪŋ.ɡw ə l /","usp":"/ˌtraɪˈlɪŋ.ɡwəl/"}
+{"title":"trilled","uk":"uk  / trɪl /","ukp":"/trɪl/","us":"us  / trɪl /","usp":"/trɪl/"}
+{"title":"trill","uk":"uk  / trɪl /","ukp":"/trɪl/","us":"us  / trɪl /","usp":"/trɪl/"}
+{"title":"trilling","uk":"uk  / trɪl /","ukp":"/trɪl/","us":"us  / trɪl /","usp":"/trɪl/"}
+{"title":"trillion","uk":"uk  / ˈtrɪl.jən /","ukp":"/ˈtrɪl.jən/","us":"us  / ˈtrɪl.jən /","usp":"/ˈtrɪl.jən/"}
+{"title":"trillionth","uk":"uk  / ˈtrɪl.jənθ /","ukp":"/ˈtrɪl.jənθ/","us":"us  / ˈtrɪl.jənθ /","usp":"/ˈtrɪl.jənθ/"}
+{"title":"trilobite","uk":"uk  / ˈtraɪ.lə.baɪt /","ukp":"/ˈtraɪ.lə.baɪt/","us":"us  / ˈtraɪ.loʊ.baɪt /","usp":"/ˈtraɪ.loʊ.baɪt/"}
+{"title":"trilogy","uk":"uk  / ˈtrɪl.ə.dʒi /","ukp":"/ˈtrɪl.ə.dʒi/","us":"us  / ˈtrɪl.ə.dʒi /","usp":"/ˈtrɪl.ə.dʒi/"}
+{"title":"trimaran","uk":"uk  / ˈtraɪ.mə.ræn /","ukp":"/ˈtraɪ.mə.ræn/","us":"us  / ˈtraɪ.mə.ræn /","usp":"/ˈtraɪ.mə.ræn/"}
+{"title":"trim","uk":"uk  / trɪm /","ukp":"/trɪm/","us":"us  / trɪm /","usp":"/trɪm/"}
+{"title":"trimester","uk":"uk  / trɪˈmes.tə r /","ukp":"/trɪˈmes.tər/","us":"us  / traɪˈmes.tɚ /","usp":"/traɪˈmes.tɚ/"}
+{"title":"trimmed","uk":"uk  / trɪmd /","ukp":"/trɪmd/","us":"us  / trɪmd /","usp":"/trɪmd/"}
+{"title":"trimmer","uk":"uk  / ˈtrɪm.ə r /","ukp":"/ˈtrɪm.ər/","us":"us  / ˈtrɪm.ɚ /","usp":"/ˈtrɪm.ɚ/"}
+{"title":"trimmest","uk":"","us":""}
+{"title":"trimming","uk":"uk  / ˈtrɪm.ɪŋ /","ukp":"/ˈtrɪm.ɪŋ/","us":"us  / ˈtrɪm.ɪŋ /","usp":"/ˈtrɪm.ɪŋ/"}
+{"title":"trimmings","uk":"","us":"us  / ˈtrɪm·ɪŋz /","usp":"/ˈtrɪm·ɪŋz/"}
+{"title":"Trinidadian","uk":"uk  / ˌtrɪn.ɪˈdæd.i.ən /","ukp":"/ˌtrɪn.ɪˈdæd.i.ən/","us":"us  / ˌtrɪn.ɪˈdæd.i.ən /","usp":"/ˌtrɪn.ɪˈdæd.i.ən/"}
+{"title":"Trinidad and Tobago","uk":"uk  / ˌtrɪn.ɪ.dæd ənd təˈbeɪ.ɡəʊ /","ukp":"/ˌtrɪn.ɪ.dæd ənd təˈbeɪ.ɡəʊ/","us":"us  / ˌtrɪn.ɪ.dæd ənd təˈbeɪ.ɡoʊ /","usp":"/ˌtrɪn.ɪ.dæd ənd təˈbeɪ.ɡoʊ/"}
+{"title":"trinitrotoluene","uk":"uk  / ˌtraɪ.naɪ.trəʊˈtɒl.ju.iːn /","ukp":"/ˌtraɪ.naɪ.trəʊˈtɒl.ju.iːn/","us":"us  / ˌtraɪ.naɪ.troʊˈtɑːl.ju.iːn /","usp":"/ˌtraɪ.naɪ.troʊˈtɑːl.ju.iːn/"}
+{"title":"trinity","uk":"uk  / ˈtrɪn.ə.ti /","ukp":"/ˈtrɪn.ə.ti/","us":"us  / ˈtrɪn.ə.t̬i /","usp":"/ˈtrɪn.ə.t̬i/"}
+{"title":"Trinity Sunday","uk":"uk  / ˌtrɪn.ə.ti ˈsʌn.deɪ /","ukp":"/ˌtrɪn.ə.ti ˈsʌn.deɪ/","us":"us  / ˌtrɪn.ə.t̬i ˈsʌn.deɪ /","usp":"/ˌtrɪn.ə.t̬i ˈsʌn.deɪ/"}
+{"title":"trinket","uk":"uk  / ˈtrɪŋ.kɪt /","ukp":"/ˈtrɪŋ.kɪt/","us":"us  / ˈtrɪŋ.kɪt /","usp":"/ˈtrɪŋ.kɪt/"}
+{"title":"trinomial","uk":"uk  / traɪˈnəʊ.mi.əl /","ukp":"/traɪˈnəʊ.mi.əl/","us":"us  / traɪˈnoʊ.mi.əl /","usp":"/traɪˈnoʊ.mi.əl/"}
+{"title":"traveling salesman","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"travelled","uk":"uk  / ˈtræv. ə ld /","ukp":"/ˈtræv.əld/","us":"us  / ˈtræv. ə ld /","usp":"/ˈtræv.əld/"}
+{"title":"traveller","uk":"uk  / ˈtræv. ə l.ə r /","ukp":"/ˈtræv.əl.ər/","us":"us  / ˈtræv. ə l.ɚ /","usp":"/ˈtræv.əl.ɚ/"}
+{"title":"traveller's cheque","uk":"uk  / ˈtræv. ə l.əz ˌtʃek /","ukp":"/ˈtræv.əl.əz ˌtʃek/","us":"us  / ˈtræv. ə l.ɚz ˌtʃek /","usp":"/ˈtræv.əl.ɚz ˌtʃek/"}
+{"title":"travelling expense","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"travelling","uk":"uk  / ˈtræv. ə l.ɪŋ /","ukp":"/ˈtræv.əl.ɪŋ/","us":"us  / ˈtræv. ə l.ɪŋ /","usp":"/ˈtræv.əl.ɪŋ/"}
+{"title":"travelling salesman","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"travelogue","uk":"uk  / ˈtræv. ə l.ɒɡ /","ukp":"/ˈtræv.əl.ɒɡ/","us":"us  / ˈtræv.ə.lɑːɡ /","usp":"/ˈtræv.ə.lɑːɡ/"}
+{"title":"traversed","uk":"uk  / trəˈvɜːs /","ukp":"/trəˈvɜːs/","us":"us  / trəˈvɝːs /","usp":"/trəˈvɝːs/"}
+{"title":"traverse","uk":"uk  / trəˈvɜːs /","ukp":"/trəˈvɜːs/","us":"us  / trəˈvɝːs /","usp":"/trəˈvɝːs/"}
+{"title":"traversing","uk":"uk  / trəˈvɜːs /","ukp":"/trəˈvɜːs/","us":"us  / trəˈvɝːs /","usp":"/trəˈvɝːs/"}
+{"title":"travesty","uk":"uk  / ˈtræv.ə.sti /","ukp":"/ˈtræv.ə.sti/","us":"us  / ˈtræv.ə.sti /","usp":"/ˈtræv.ə.sti/"}
+{"title":"trawled","uk":"uk  / trɔːl /","ukp":"/trɔːl/","us":"us  / trɑːl /","usp":"/trɑːl/"}
+{"title":"trawl","uk":"uk  / trɔːl /","ukp":"/trɔːl/","us":"us  / trɑːl /","usp":"/trɑːl/"}
+{"title":"trawling","uk":"uk  / trɔːl /","ukp":"/trɔːl/","us":"us  / trɑːl /","usp":"/trɑːl/"}
+{"title":"trawler","uk":"uk  / ˈtrɔː.lə r /","ukp":"/ˈtrɔː.lər/","us":"us  / ˈtrɑː.lɚ /","usp":"/ˈtrɑː.lɚ/"}
+{"title":"traybake","uk":"uk  / ˈtreɪ.beɪk /","ukp":"/ˈtreɪ.beɪk/","us":"us  / ˈtreɪ.beɪk /","usp":"/ˈtreɪ.beɪk/"}
+{"title":"tray","uk":"uk  / treɪ /","ukp":"/treɪ/","us":"us  / treɪ /","usp":"/treɪ/"}
+{"title":"treacherous","uk":"uk  / ˈtretʃ. ə r.əs /","ukp":"/ˈtretʃ.ər.əs/","us":"us  / ˈtretʃ.ɚ.əs /","usp":"/ˈtretʃ.ɚ.əs/"}
+{"title":"treachery","uk":"uk  / ˈtretʃ. ə r.i /","ukp":"/ˈtretʃ.ər.i/","us":"us  / ˈtretʃ.ɚ.i /","usp":"/ˈtretʃ.ɚ.i/"}
+{"title":"treacle","uk":"uk  / ˈtriː.k ə l /","ukp":"/ˈtriː.kəl/","us":"us  / ˈtriː.k ə l /","usp":"/ˈtriː.kəl/"}
+{"title":"treacly","uk":"uk  / ˈtriː.k ə l.i /","ukp":"/ˈtriː.kəl.i/","us":"us  / ˈtriː.k ə l.i /","usp":"/ˈtriː.kəl.i/"}
+{"title":"tread carefully/gently/lightly","uk":"","us":""}
+{"title":"tread the boards","uk":"","us":""}
+{"title":"tread","uk":"uk  / tred /","ukp":"/tred/","us":"us  / tred /","usp":"/tred/"}
+{"title":"tread water","uk":"","us":""}
+{"title":"treadle","uk":"uk  / ˈtred. ə l /","ukp":"/ˈtred.əl/","us":"us  / ˈtred. ə l /","usp":"/ˈtred.əl/"}
+{"title":"treason","uk":"uk  / ˈtriː.z ə n /","ukp":"/ˈtriː.zən/","us":"us  / ˈtriː.z ə n /","usp":"/ˈtriː.zən/"}
+{"title":"treadmill","uk":"uk  / ˈtred.mɪl /","ukp":"/ˈtred.mɪl/","us":"us  / ˈtred.mɪl /","usp":"/ˈtred.mɪl/"}
+{"title":"treasonable","uk":"uk  / ˈtriː.z ə n.ə.b ə l /","ukp":"/ˈtriː.zən.ə.bəl/","us":"us  / ˈtriː.z ə n.ə.b ə l /","usp":"/ˈtriː.zən.ə.bəl/"}
+{"title":"treasure","uk":"uk  / ˈtreʒ.ə r /","ukp":"/ˈtreʒ.ər/","us":"us  / ˈtreʒ.ɚ /","usp":"/ˈtreʒ.ɚ/"}
+{"title":"treasure hunt","uk":"uk  / ˈtreʒ.ə ˌhʌnt /","ukp":"/ˈtreʒ.ə ˌhʌnt/","us":"us  / ˈtreʒ.ɚ ˌhʌnt /","usp":"/ˈtreʒ.ɚ ˌhʌnt/"}
+{"title":"treasure trove","uk":"uk  / ˈtreʒ.ə ˌtrəʊv /","ukp":"/ˈtreʒ.ə ˌtrəʊv/","us":"us  / ˈtreʒ.ɚ ˌtroʊv /","usp":"/ˈtreʒ.ɚ ˌtroʊv/"}
+{"title":"Treasuries","uk":"uk  / ˈtreʒ ə riz /","ukp":"/ˈtreʒəriz/","us":"us ","usp":""}
+{"title":"treasured","uk":"uk  / ˈtreʒ.ə r /","ukp":"/ˈtreʒ.ər/","us":"us  / ˈtreʒ.ɚ /","usp":"/ˈtreʒ.ɚ/"}
+{"title":"treasurer","uk":"uk  / ˈtreʒ. ə r.ə r /","ukp":"/ˈtreʒ.ər.ər/","us":"us  / ˈtreʒ.ɚ.ɚ /","usp":"/ˈtreʒ.ɚ.ɚ/"}
+{"title":"treasuring","uk":"uk  / ˈtreʒ.ə r /","ukp":"/ˈtreʒ.ər/","us":"us  / ˈtreʒ.ɚ /","usp":"/ˈtreʒ.ɚ/"}
+{"title":"Treasury bill","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Treasury bond","uk":"uk  / ˈtreʒ. ə r.i ˌbɒnd /","ukp":"/ˈtreʒ.ər.i ˌbɒnd/","us":"us  / ˈtreʒ.ɚ.i ˌbɑːnd /","usp":"/ˈtreʒ.ɚ.i ˌbɑːnd/"}
+{"title":"treasury management","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Treasury note","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"Treasury stock","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"treat someone like dirt","uk":"","us":""}
+{"title":"treat someone with kid gloves","uk":"","us":""}
+{"title":"treat someone like royalty","uk":"","us":""}
+{"title":"treat","uk":"uk  / triːt /","ukp":"/triːt/","us":"us  / triːt /","usp":"/triːt/"}
+{"title":"treatable","uk":"uk  / ˈtriː.tə.b ə l /","ukp":"/ˈtriː.tə.bəl/","us":"us  / ˈtriː.tə.b ə l /","usp":"/ˈtriː.tə.bəl/"}
+{"title":"treated","uk":"uk  / triːt /","ukp":"/triːt/","us":"us  / triːt /","usp":"/triːt/"}
+{"title":"trapezius","uk":"uk  / trəˈpiː.zi.əs /","ukp":"/trəˈpiː.zi.əs/","us":"us  / trəˈpiː.zi.əs /","usp":"/trəˈpiː.zi.əs/"}
+{"title":"trapezium","uk":"uk  / trəˈpiː.zi.əm /","ukp":"/trəˈpiː.zi.əm/","us":"us  / trəˈpiː.zi.əm /","usp":"/trəˈpiː.zi.əm/"}
+{"title":"trapeziuses","uk":"","us":""}
+{"title":"trapezoid","uk":"uk  / ˈtræp.ɪ.zɔɪd /","ukp":"/ˈtræp.ɪ.zɔɪd/","us":"us  / ˈtræp.ɪ.zɔɪd /","usp":"/ˈtræp.ɪ.zɔɪd/"}
+{"title":"trapped","uk":"","us":""}
+{"title":"trapper","uk":"uk  / ˈtræp.ə r /","ukp":"/ˈtræp.ər/","us":"us  / ˈtræp.ɚ /","usp":"/ˈtræp.ɚ/"}
+{"title":"trapping","uk":"","us":""}
+{"title":"trappings","uk":"uk  / ˈtræp.ɪŋz /","ukp":"/ˈtræp.ɪŋz/","us":"us  / ˈtræp.ɪŋz /","usp":"/ˈtræp.ɪŋz/"}
+{"title":"Trappist monk","uk":"uk  / ˌtræp.ɪst ˈmʌŋk /","ukp":"/ˌtræp.ɪst ˈmʌŋk/","us":"us  / ˌtræp.ɪst ˈmʌŋk /","usp":"/ˌtræp.ɪst ˈmʌŋk/"}
+{"title":"trapshooting","uk":"uk  / ˈtræpˌʃuː.tɪŋ /","ukp":"/ˈtræpˌʃuː.tɪŋ/","us":"us  / ˈtræpˌʃuː.t̬ɪŋ /","usp":"/ˈtræpˌʃuː.t̬ɪŋ/"}
+{"title":"trash bag","uk":"uk  / ˈtræʃ ˌbæɡ /","ukp":"/ˈtræʃ ˌbæɡ/","us":"us  / ˈtræʃ ˌbæɡ /","usp":"/ˈtræʃ ˌbæɡ/"}
+{"title":"trash can liner","uk":"uk  / ˈtræʃ kæn ˌlaɪ.nə r /","ukp":"/ˈtræʃ kæn ˌlaɪ.nər/","us":"us  / ˈtræʃ kæn ˌlaɪ.nɚ /","usp":"/ˈtræʃ kæn ˌlaɪ.nɚ/"}
+{"title":"trash can","uk":"uk  / ˈtræʃ ˌkæn /","ukp":"/ˈtræʃ ˌkæn/","us":"us  / ˈtræʃ ˌkæn /","usp":"/ˈtræʃ ˌkæn/"}
+{"title":"trash","uk":"uk  / træʃ /","ukp":"/træʃ/","us":"us  / træʃ /","usp":"/træʃ/"}
+{"title":"trash compactor","uk":"","us":"us / ˈtræʃ kəmˈpæk·tər /","usp":"/ˈtræʃ kəmˈpæk·tər/"}
+{"title":"trash grabber","uk":"uk  / ˈtræʃ ˌɡræb.ə r /","ukp":"/ˈtræʃ ˌɡræb.ər/","us":"us  / ˈtræʃ ˌɡræb.ɚ /","usp":"/ˈtræʃ ˌɡræb.ɚ/"}
+{"title":"trash picker","uk":"uk  / ˈtræʃ ˌpɪk.ə r /","ukp":"/ˈtræʃ ˌpɪk.ər/","us":"us  / ˈtræʃ ˌpɪk.ɚ /","usp":"/ˈtræʃ ˌpɪk.ɚ/"}
+{"title":"trash-talk","uk":"uk  / ˈtræʃˌtɔːk /","ukp":"/ˈtræʃˌtɔːk/","us":"us  / ˈtræʃˌtɑːk /","usp":"/ˈtræʃˌtɑːk/"}
+{"title":"trashed","uk":"uk  / træʃ /","ukp":"/træʃ/","us":"us  / træʃ /","usp":"/træʃ/"}
+{"title":"trashing","uk":"uk  / træʃ /","ukp":"/træʃ/","us":"us  / træʃ /","usp":"/træʃ/"}
+{"title":"trauma","uk":"uk  / ˈtrɔː.mə /","ukp":"/ˈtrɔː.mə/","us":"us  / ˈtrɑː.mə /","usp":"/ˈtrɑː.mə/"}
+{"title":"trashy","uk":"uk  / ˈtræʃ.i /","ukp":"/ˈtræʃ.i/","us":"us  / ˈtræʃ.i /","usp":"/ˈtræʃ.i/"}
+{"title":"traumatic","uk":"uk  / trɔːˈmæt.ɪk /","ukp":"/trɔːˈmæt.ɪk/","us":"us  / trɑːˈmæt̬.ɪk /","usp":"/trɑːˈmæt̬.ɪk/"}
+{"title":"traumatically","uk":"uk  / trɔːˈmæt.ɪ.k ə l.i /","ukp":"/trɔːˈmæt.ɪ.kəl.i/","us":"us  / trɑːˈmæt̬.ɪ.k ə l.i /","usp":"/trɑːˈmæt̬.ɪ.kəl.i/"}
+{"title":"traumatize","uk":"uk  / ˈtrɔː.mə.taɪz /","ukp":"/ˈtrɔː.mə.taɪz/","us":"us  / ˈtrɑː.mə.taɪz /","usp":"/ˈtrɑː.mə.taɪz/"}
+{"title":"traumatized","uk":"uk  / ˈtrɔː.mə.taɪzd /","ukp":"/ˈtrɔː.mə.taɪzd/","us":"us  / ˈtrɑː.mə.taɪzd /","usp":"/ˈtrɑː.mə.taɪzd/"}
+{"title":"traumatizing","uk":"uk  / ˈtrɔː.mə.taɪz /","ukp":"/ˈtrɔː.mə.taɪz/","us":"us  / ˈtrɑː.mə.taɪz /","usp":"/ˈtrɑː.mə.taɪz/"}
+{"title":"travail","uk":"uk  / ˈtræv.eɪl /","ukp":"/ˈtræv.eɪl/","us":"us  / treˈveɪl /","usp":"/treˈveɪl/"}
+{"title":"travails","uk":"uk  / ˈtræv.eɪlz /","ukp":"/ˈtræv.eɪlz/","us":"us  / ˈtræv.eɪlz /","usp":"/ˈtræv.eɪlz/"}
+{"title":"travel adapter","uk":"uk  / ˈtræv. ə l əˌdæp.tə r /","ukp":"/ˈtræv.əl əˌdæp.tər/","us":"us  / ˈtræv. ə l əˌdæp.tɚ /","usp":"/ˈtræv.əl əˌdæp.tɚ/"}
+{"title":"travel agency","uk":"uk  / ˈtræv. ə l ˌeɪ.dʒ ə n.si /","ukp":"/ˈtræv.əl ˌeɪ.dʒən.si/","us":"us  / ˈtræv. ə l ˌeɪ.dʒ ə n.si /","usp":"/ˈtræv.əl ˌeɪ.dʒən.si/"}
+{"title":"travel","uk":"uk  / ˈtræv. ə l /","ukp":"/ˈtræv.əl/","us":"us  / ˈtræv. ə l /","usp":"/ˈtræv.əl/"}
+{"title":"travel agent","uk":"uk  / ˈtræv. ə l ˌeɪ.dʒ ə nt /","ukp":"/ˈtræv.əl ˌeɪ.dʒənt/","us":"us  / ˈtræv. ə l ˌeɪ.dʒ ə nt /","usp":"/ˈtræv.əl ˌeɪ.dʒənt/"}
+{"title":"travel ban","uk":"uk  / ˈtræv. ə l ˌbæn /","ukp":"/ˈtræv.əl ˌbæn/","us":"us  / ˈtræv. ə l ˌbæn /","usp":"/ˈtræv.əl ˌbæn/"}
+{"title":"travel corridor","uk":"uk / ˈtræv. ə l ˌkɒr.ɪ.dɔː r /","ukp":"/ˈtræv.əl ˌkɒr.ɪ.dɔːr/","us":"us / ˈtræv. ə l ˌkɔːr.ə.dɚ /","usp":"/ˈtræv.əl ˌkɔːr.ə.dɚ/"}
+{"title":"travel expense","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"travel expenses","uk":"uk  / ˈtræv. ə l ɪkˌspen.sɪz /","ukp":"/ˈtræv.əl ɪkˌspen.sɪz/","us":"us  / ˈtræv. ə l ɪkˌspen.sɪz /","usp":"/ˈtræv.əl ɪkˌspen.sɪz/"}
+{"title":"travel insurance","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"travel light","uk":"","us":""}
+{"title":"travel mug","uk":"uk  / ˈtræv. ə l ˌmʌɡ /","ukp":"/ˈtræv.əl ˌmʌɡ/","us":"us  / ˈtræv. ə l ˌmʌɡ /","usp":"/ˈtræv.əl ˌmʌɡ/"}
+{"title":"travel plug","uk":"uk  / ˈtræv. ə l ˌplʌɡ /","ukp":"/ˈtræv.əl ˌplʌɡ/","us":"us  / ˈtræv. ə l ˌplʌɡ /","usp":"/ˈtræv.əl ˌplʌɡ/"}
+{"title":"travel sickness","uk":"uk  / ˈtræv. ə l ˌsɪk.nəs /","ukp":"/ˈtræv.əl ˌsɪk.nəs/","us":"us  / ˈtræv. ə l ˌsɪk.nəs /","usp":"/ˈtræv.əl ˌsɪk.nəs/"}
+{"title":"travel-sick","uk":"uk  / ˈtræv. ə lˌsɪk /","ukp":"/ˈtræv.əlˌsɪk/","us":"us  / ˈtræv. ə lˌsɪk /","usp":"/ˈtræv.əlˌsɪk/"}
+{"title":"travel trailer","uk":"uk  / ˈtræv. ə l ˌtreɪ.lə r /","ukp":"/ˈtræv.əl ˌtreɪ.lər/","us":"us  / ˈtræv. ə l ˌtreɪ.lɚ /","usp":"/ˈtræv.əl ˌtreɪ.lɚ/"}
+{"title":"traveled","uk":"uk  / ˈtræv. ə ld /","ukp":"/ˈtræv.əld/","us":"us  / ˈtræv. ə ld /","usp":"/ˈtræv.əld/"}
+{"title":"traveler","uk":"uk  / ˈtræv. ə l.ə r /","ukp":"/ˈtræv.əl.ər/","us":"us  / ˈtræv. ə l.ɚ /","usp":"/ˈtræv.əl.ɚ/"}
+{"title":"traveling","uk":"uk  / ˈtræv. ə l.ɪŋ /","ukp":"/ˈtræv.əl.ɪŋ/","us":"us  / ˈtræv. ə l.ɪŋ /","usp":"/ˈtræv.əl.ɪŋ/"}
+{"title":"traveler's check","uk":"uk  / ˈtræv. ə l.əz ˌtʃek /","ukp":"/ˈtræv.əl.əz ˌtʃek/","us":"us  / ˈtræv. ə l.ɚz ˌtʃek /","usp":"/ˈtræv.əl.ɚz ˌtʃek/"}
+{"title":"tribeswoman","uk":"uk  / ˈtraɪbzˌwʊm.ən /","ukp":"/ˈtraɪbzˌwʊm.ən/","us":"us  / ˈtraɪbzˌwʊm.ən /","usp":"/ˈtraɪbzˌwʊm.ən/"}
+{"title":"traveling expense","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tribulation","uk":"uk  / ˌtrɪb.jəˈleɪ.ʃ ə n /","ukp":"/ˌtrɪb.jəˈleɪ.ʃən/","us":"us  / ˌtrɪb.jəˈleɪ.ʃ ə n /","usp":"/ˌtrɪb.jəˈleɪ.ʃən/"}
+{"title":"tribunal","uk":"uk  / traɪˈbjuː.n ə l /","ukp":"/traɪˈbjuː.nəl/","us":"us  / traɪˈbjuː.n ə l /","usp":"/traɪˈbjuː.nəl/"}
+{"title":"tribune","uk":"uk  / ˈtrɪb.juːn /","ukp":"/ˈtrɪb.juːn/","us":"us  / ˈtrɪb.juːn /","usp":"/ˈtrɪb.juːn/"}
+{"title":"tributary","uk":"uk  / ˈtrɪb.jə.t ə r.i /","ukp":"/ˈtrɪb.jə.tər.i/","us":"us  / ˈtrɪb.jə.ter.i /","usp":"/ˈtrɪb.jə.ter.i/"}
+{"title":"tribute band","uk":"uk  / ˈtrɪb.juːt ˌbænd /","ukp":"/ˈtrɪb.juːt ˌbænd/","us":"us  / ˈtrɪb.juːt ˌbænd /","usp":"/ˈtrɪb.juːt ˌbænd/"}
+{"title":"tribute","uk":"uk  / ˈtrɪb.juːt /","ukp":"/ˈtrɪb.juːt/","us":"us  / ˈtrɪb.juːt /","usp":"/ˈtrɪb.juːt/"}
+{"title":"trice","uk":"uk  / traɪs /","ukp":"/traɪs/","us":"us  / traɪs /","usp":"/traɪs/"}
+{"title":"tricep","uk":"uk / ˈtraɪ.sep /","ukp":"/ˈtraɪ.sep/","us":"us / ˈtraɪ.sep /","usp":"/ˈtraɪ.sep/"}
+{"title":"triceps dip","uk":"uk  / ˈtraɪ.seps ˌdɪp /","ukp":"/ˈtraɪ.seps ˌdɪp/","us":"us  / ˈtraɪ.seps ˌdɪp /","usp":"/ˈtraɪ.seps ˌdɪp/"}
+{"title":"triceps","uk":"uk  / ˈtraɪ.seps /","ukp":"/ˈtraɪ.seps/","us":"us  / ˈtraɪ.seps /","usp":"/ˈtraɪ.seps/"}
+{"title":"triceratops","uk":"uk  / traɪˈse.rə.tɒps /","ukp":"/traɪˈse.rə.tɒps/","us":"us  / traɪˈse.rə.tɑːps /","usp":"/traɪˈse.rə.tɑːps/"}
+{"title":"trichologist","uk":"uk  / trɪˈkɒl.ə.dʒɪst /","ukp":"/trɪˈkɒl.ə.dʒɪst/","us":"us  / trɪˈkɑː.lə.dʒɪst /","usp":"/trɪˈkɑː.lə.dʒɪst/"}
+{"title":"trichology","uk":"uk  / trɪˈkɒl.ə.dʒi /","ukp":"/trɪˈkɒl.ə.dʒi/","us":"us  / trɪˈkɑː.lə.dʒi /","usp":"/trɪˈkɑː.lə.dʒi/"}
+{"title":"trick","uk":"uk  / trɪk /","ukp":"/trɪk/","us":"us  / trɪk /","usp":"/trɪk/"}
+{"title":"trick of the trade","uk":"","us":""}
+{"title":"trick-or-treating","uk":"uk  / ˌtrɪk.ɔːˈtriː.tɪŋ /","ukp":"/ˌtrɪk.ɔːˈtriː.tɪŋ/","us":"us  / ˌtrɪk.ɔːrˈtriː.t̬ɪŋ /","usp":"/ˌtrɪk.ɔːrˈtriː.t̬ɪŋ/"}
+{"title":"tricked","uk":"uk  / trɪk /","ukp":"/trɪk/","us":"us  / trɪk /","usp":"/trɪk/"}
+{"title":"tricking","uk":"uk  / trɪk /","ukp":"/trɪk/","us":"us  / trɪk /","usp":"/trɪk/"}
+{"title":"trickery","uk":"uk  / ˈtrɪk. ə r.i /","ukp":"/ˈtrɪk.ər.i/","us":"us  / ˈtrɪk.ɚ.i /","usp":"/ˈtrɪk.ɚ.i/"}
+{"title":"trick question","uk":"uk  / ˌtrɪk ˈkwes.tʃən /","ukp":"/ˌtrɪk ˈkwes.tʃən/","us":"us  / ˌtrɪk ˈkwes.tʃən /","usp":"/ˌtrɪk ˈkwes.tʃən/"}
+{"title":"trickle down (to sb/sth)","uk":"uk  / ˈtrɪkl /","ukp":"/ˈtrɪkl/","us":"us ","usp":""}
+{"title":"trickle","uk":"uk  / ˈtrɪk. ə l /","ukp":"/ˈtrɪk.əl/","us":"us  / ˈtrɪk. ə l /","usp":"/ˈtrɪk.əl/"}
+{"title":"trickle feed","uk":"uk  / ˈtrɪk. ə l ˌfiːd /","ukp":"/ˈtrɪk.əl ˌfiːd/","us":"us  / ˈtrɪk. ə l ˌfiːd /","usp":"/ˈtrɪk.əl ˌfiːd/"}
+{"title":"trickle-down","uk":"uk  / ˌtrɪk. ə lˈdaʊn /","ukp":"/ˌtrɪk.əlˈdaʊn/","us":"us  / ˌtrɪk. ə lˈdaʊn /","usp":"/ˌtrɪk.əlˈdaʊn/"}
+{"title":"tricks of the trade","uk":"","us":""}
+{"title":"trickster","uk":"uk  / ˈtrɪk.stə r /","ukp":"/ˈtrɪk.stər/","us":"us  / ˈtrɪk.stɚ /","usp":"/ˈtrɪk.stɚ/"}
+{"title":"tricky","uk":"uk  / ˈtrɪk.i /","ukp":"/ˈtrɪk.i/","us":"us  / ˈtrɪk.i /","usp":"/ˈtrɪk.i/"}
+{"title":"tricolor","uk":"uk  / ˈtrɪk. ə l.ə r /","ukp":"/ˈtrɪk.əl.ər/","us":"us  / ˈtraɪˌkʌl.ɚ /","usp":"/ˈtraɪˌkʌl.ɚ/"}
+{"title":"tricolour","uk":"uk  / ˈtrɪk. ə l.ə r /","ukp":"/ˈtrɪk.əl.ər/","us":"us  / ˈtraɪˌkʌl.ɚ /","usp":"/ˈtraɪˌkʌl.ɚ/"}
+{"title":"tricuspid valve","uk":"uk  / traɪˈkʌs.pɪd ˌvælv /","ukp":"/traɪˈkʌs.pɪd ˌvælv/","us":"us  / traɪˈkʌs.pɪd ˌvælv /","usp":"/traɪˈkʌs.pɪd ˌvælv/"}
+{"title":"tricycle","uk":"uk  / ˈtraɪ.sɪ.k ə l /","ukp":"/ˈtraɪ.sɪ.kəl/","us":"us  / ˈtraɪ.sə.k ə l /","usp":"/ˈtraɪ.sə.kəl/"}
+{"title":"trident","uk":"uk  / ˈtraɪ.d ə nt /","ukp":"/ˈtraɪ.dənt/","us":"us  / ˈtraɪ.d ə nt /","usp":"/ˈtraɪ.dənt/"}
+{"title":"tried","uk":"uk  / traɪd /","ukp":"/traɪd/","us":"us  / traɪd /","usp":"/traɪd/"}
+{"title":"tried and found wanting","uk":"","us":""}
+{"title":"tried-and-true","uk":"","us":"us / ˈtrɑɪd ən ˈtru /","usp":"/ˈtrɑɪd ən ˈtru/"}
+{"title":"triennial","uk":"uk  / traɪˈen.i.əl /","ukp":"/traɪˈen.i.əl/","us":"us  / traɪˈen.i.əl /","usp":"/traɪˈen.i.əl/"}
+{"title":"trier","uk":"uk  / ˈtraɪ.ə r /","ukp":"/ˈtraɪ.ər/","us":"us  / ˈtraɪ.ɚ /","usp":"/ˈtraɪ.ɚ/"}
+{"title":"trifecta","uk":"uk  / traɪˈfek.tə /","ukp":"/traɪˈfek.tə/","us":"us  / traɪˈfek.tə /","usp":"/traɪˈfek.tə/"}
+{"title":"trifle","uk":"uk  / ˈtraɪ.f ə l /","ukp":"/ˈtraɪ.fəl/","us":"us  / ˈtraɪ.f ə l /","usp":"/ˈtraɪ.fəl/"}
+{"title":"trifle with someone/something","uk":"uk  / ˈtraɪ.f ə l /","ukp":"/ˈtraɪ.fəl/","us":"us  / ˈtraɪ.f ə l /","usp":"/ˈtraɪ.fəl/"}
+{"title":"trifling","uk":"uk  / ˈtraɪ.flɪŋ /","ukp":"/ˈtraɪ.flɪŋ/","us":"us  / ˈtraɪ.flɪŋ /","usp":"/ˈtraɪ.flɪŋ/"}
+{"title":"trig","uk":"uk  / trɪɡ /","ukp":"/trɪɡ/","us":"us  / trɪɡ /","usp":"/trɪɡ/"}
+{"title":"triumphalism","uk":"uk  / traɪˈʌm.f ə l.ɪ.z ə m /","ukp":"/traɪˈʌm.fəl.ɪ.zəm/","us":"us  / traɪˈʌm.f ə l.ɪ.z ə m /","usp":"/traɪˈʌm.fəl.ɪ.zəm/"}
+{"title":"triumphalist","uk":"uk  / traɪˈʌm.f ə l.ɪst /","ukp":"/traɪˈʌm.fəl.ɪst/","us":"us  / traɪˈʌm.f ə l.ɪst /","usp":"/traɪˈʌm.fəl.ɪst/"}
+{"title":"triumphantly","uk":"uk  / traɪˈʌm.fənt.li /","ukp":"/traɪˈʌm.fənt.li/","us":"us  / traɪˈʌm.fənt.li /","usp":"/traɪˈʌm.fənt.li/"}
+{"title":"triumphant","uk":"uk  / traɪˈʌm.fənt /","ukp":"/traɪˈʌm.fənt/","us":"us  / traɪˈʌm.fənt /","usp":"/traɪˈʌm.fənt/"}
+{"title":"triumphed","uk":"uk  / ˈtraɪ.əmf /","ukp":"/ˈtraɪ.əmf/","us":"us  / ˈtraɪ.əmf /","usp":"/ˈtraɪ.əmf/"}
+{"title":"triumphing","uk":"uk  / ˈtraɪ.əmf /","ukp":"/ˈtraɪ.əmf/","us":"us  / ˈtraɪ.əmf /","usp":"/ˈtraɪ.əmf/"}
+{"title":"triumvirate","uk":"uk  / traɪˈʌm.vɪ.rət /","ukp":"/traɪˈʌm.vɪ.rət/","us":"us  / traɪˈʌm.vɪ.rət /","usp":"/traɪˈʌm.vɪ.rət/"}
+{"title":"trivet","uk":"uk  / ˈtrɪv.ɪt /","ukp":"/ˈtrɪv.ɪt/","us":"us  / ˈtrɪv.ɪt /","usp":"/ˈtrɪv.ɪt/"}
+{"title":"trivia","uk":"uk  / ˈtrɪv.i.ə /","ukp":"/ˈtrɪv.i.ə/","us":"us  / ˈtrɪv.i.ə /","usp":"/ˈtrɪv.i.ə/"}
+{"title":"trivial","uk":"uk  / ˈtrɪv.i.əl /","ukp":"/ˈtrɪv.i.əl/","us":"us  / ˈtrɪv.i.əl /","usp":"/ˈtrɪv.i.əl/"}
+{"title":"triviality","uk":"uk  / ˌtrɪv.iˈæl.ə.ti /","ukp":"/ˌtrɪv.iˈæl.ə.ti/","us":"us  / ˌtrɪv.iˈæl.ə.t̬i /","usp":"/ˌtrɪv.iˈæl.ə.t̬i/"}
+{"title":"trivialize","uk":"uk  / ˈtrɪv.i.ə.laɪz /","ukp":"/ˈtrɪv.i.ə.laɪz/","us":"us  / ˈtrɪv.i.ə.laɪz /","usp":"/ˈtrɪv.i.ə.laɪz/"}
+{"title":"trivialized","uk":"uk  / ˈtrɪv.i.ə.laɪz /","ukp":"/ˈtrɪv.i.ə.laɪz/","us":"us  / ˈtrɪv.i.ə.laɪz /","usp":"/ˈtrɪv.i.ə.laɪz/"}
+{"title":"trivializing","uk":"uk  / ˈtrɪv.i.ə.laɪz /","ukp":"/ˈtrɪv.i.ə.laɪz/","us":"us  / ˈtrɪv.i.ə.laɪz /","usp":"/ˈtrɪv.i.ə.laɪz/"}
+{"title":"tRNA","uk":"uk  / ˈtiː.ɑːr.enˌeɪ /","ukp":"/ˈtiː.ɑːr.enˌeɪ/","us":"us  / ˈtiː.ɑːr.enˌeɪ /","usp":"/ˈtiː.ɑːr.enˌeɪ/"}
+{"title":"trochaic","uk":"uk  / trəʊˈkeɪ.ɪk /","ukp":"/trəʊˈkeɪ.ɪk/","us":"us  / troʊˈkeɪ.ɪk /","usp":"/troʊˈkeɪ.ɪk/"}
+{"title":"trochanter","uk":"uk  / trəˈkæn.tə r /","ukp":"/trəˈkæn.tər/","us":"us  / troʊˈkæn.tɚ /","usp":"/troʊˈkæn.tɚ/"}
+{"title":"trochanteric","uk":"uk  / trɒk.ənˈter.ɪk /","ukp":"/trɒk.ənˈter.ɪk/","us":"us  / ˌtroʊ.kənˈter.ɪk /","usp":"/ˌtroʊ.kənˈter.ɪk/"}
+{"title":"trochee","uk":"uk  / ˈtrəʊkiː /","ukp":"/ˈtrəʊkiː/","us":"us  / ˈtroʊkiː /","usp":"/ˈtroʊkiː/"}
+{"title":"trochleae","uk":"","us":""}
+{"title":"trochlea","uk":"uk  / ˈtrɒk.li.ə /","ukp":"/ˈtrɒk.li.ə/","us":"us  / ˈtrɑːk.li.ə /","usp":"/ˈtrɑːk.li.ə/"}
+{"title":"trochlear nerve","uk":"uk  / ˌtrɒk.li.ə ˈnɜːv /","ukp":"/ˌtrɒk.li.ə ˈnɜːv/","us":"us  / ˌtrɑːk.li.ɚ ˈnɝːv /","usp":"/ˌtrɑːk.li.ɚ ˈnɝːv/"}
+{"title":"trod","uk":"uk  / trɒd /","ukp":"/trɒd/","us":"us  / trɑːd /","usp":"/trɑːd/"}
+{"title":"trodden","uk":"uk  / ˈtrɒd. ə n /","ukp":"/ˈtrɒd.ən/","us":"us  / ˈtrɑː.d ə n /","usp":"/ˈtrɑː.dən/"}
+{"title":"troglodyte","uk":"uk  / ˈtrɒɡ.lə.daɪt /","ukp":"/ˈtrɒɡ.lə.daɪt/","us":"us  / ˈtrɑː.ɡlə.daɪt /","usp":"/ˈtrɑː.ɡlə.daɪt/"}
+{"title":"troika","uk":"uk  / ˈtrɔɪ.kə /","ukp":"/ˈtrɔɪ.kə/","us":"us  / ˈtrɔɪ.kə /","usp":"/ˈtrɔɪ.kə/"}
+{"title":"Trojan horse","uk":"uk  / ˌtrəʊ.dʒən ˈhɔːs /","ukp":"/ˌtrəʊ.dʒən ˈhɔːs/","us":"us  / ˌtroʊ.dʒən ˈhɔːrs /","usp":"/ˌtroʊ.dʒən ˈhɔːrs/"}
+{"title":"troll factory","uk":"uk  / ˈtrəʊl ˌfæk.t ə r.i /","ukp":"/ˈtrəʊl ˌfæk.tər.i/","us":"us  / ˈtroʊl ˌfæk.t ə r.i /","usp":"/ˈtroʊl ˌfæk.tər.i/"}
+{"title":"troll","uk":"uk  / trəʊl /","ukp":"/trəʊl/","us":"us  / troʊl /","usp":"/troʊl/"}
+{"title":"trolled","uk":"uk  / trəʊl /","ukp":"/trəʊl/","us":"us  / troʊl /","usp":"/troʊl/"}
+{"title":"trolley","uk":"uk  / ˈtrɒl.i /","ukp":"/ˈtrɒl.i/","us":"us  / ˈtrɑː.li /","usp":"/ˈtrɑː.li/"}
+{"title":"trolleybus","uk":"uk  / ˈtrɒl.i.bʌs /","ukp":"/ˈtrɒl.i.bʌs/","us":"us  / ˈtrɑː.li.bʌs /","usp":"/ˈtrɑː.li.bʌs/"}
+{"title":"trolleyed","uk":"uk  / ˈtrɒl.id /","ukp":"/ˈtrɒl.id/","us":"us  / ˈtrɑː.lid /","usp":"/ˈtrɑː.lid/"}
+{"title":"trollies","uk":"","us":""}
+{"title":"trollop","uk":"uk  / ˈtrɒl.əp /","ukp":"/ˈtrɒl.əp/","us":"us  / ˈtrɑː.ləp /","usp":"/ˈtrɑː.ləp/"}
+{"title":"trolling","uk":"uk  / trəʊ.lɪŋ /","ukp":"/trəʊ.lɪŋ/","us":"us  / troʊ.lɪŋ /","usp":"/troʊ.lɪŋ/"}
+{"title":"tromp","uk":"uk  / trɒmp /","ukp":"/trɒmp/","us":"us  / trɑːmp /","usp":"/trɑːmp/"}
+{"title":"trompe l'oeil","uk":"uk  / trɒmp ˈlɔi /","ukp":"/trɒmp ˈlɔi/","us":"us  / trɑːmp ˈlɔi /","usp":"/trɑːmp ˈlɔi/"}
+{"title":"trombonist","uk":"uk  / trɒmˈbəʊ.nɪst /","ukp":"/trɒmˈbəʊ.nɪst/","us":"us  / trɑːmˈboʊ.nɪst /","usp":"/trɑːmˈboʊ.nɪst/"}
+{"title":"trombone","uk":"uk  / trɒmˈbəʊn /","ukp":"/trɒmˈbəʊn/","us":"us  / trɑːmˈboʊn /","usp":"/trɑːmˈboʊn/"}
+{"title":"tronc","uk":"uk  / trɒŋk /","ukp":"/trɒŋk/","us":"us  / trɑːŋk /","usp":"/trɑːŋk/"}
+{"title":"troop","uk":"uk  / truːp /","ukp":"/truːp/","us":"us  / truːp /","usp":"/truːp/"}
+{"title":"troop carrier","uk":"uk  / ˈtruːp ˌkær.i.ə r /","ukp":"/ˈtruːp ˌkær.i.ər/","us":"us  / ˈtruːp ˌker.i.ɚ /","usp":"/ˈtruːp ˌker.i.ɚ/"}
+{"title":"trooped","uk":"uk  / truːp /","ukp":"/truːp/","us":"us  / truːp /","usp":"/truːp/"}
+{"title":"trooping","uk":"uk  / truːp /","ukp":"/truːp/","us":"us  / truːp /","usp":"/truːp/"}
+{"title":"trooper","uk":"uk  / ˈtruː.pə r /","ukp":"/ˈtruː.pər/","us":"us  / ˈtruː.pɚ /","usp":"/ˈtruː.pɚ/"}
+{"title":"trio","uk":"uk  / ˈtriː.əʊ /","ukp":"/ˈtriː.əʊ/","us":"us  / ˈtriː.oʊ /","usp":"/ˈtriː.oʊ/"}
+{"title":"trip (someone) up","uk":"uk  / trɪp /","ukp":"/trɪp/","us":"us  / trɪp /","usp":"/trɪp/"}
+{"title":"trip off the tongue","uk":"","us":""}
+{"title":"trip","uk":"uk  / trɪp /","ukp":"/trɪp/","us":"us  / trɪp /","usp":"/trɪp/"}
+{"title":"trip switch","uk":"uk  / ˈtrɪp ˌswɪtʃ /","ukp":"/ˈtrɪp ˌswɪtʃ/","us":"us  / ˈtrɪp ˌswɪtʃ /","usp":"/ˈtrɪp ˌswɪtʃ/"}
+{"title":"trip-hop","uk":"uk  / ˈtrɪpˌhɒp /","ukp":"/ˈtrɪpˌhɒp/","us":"us  / ˈtrɪpˌhɑːp /","usp":"/ˈtrɪpˌhɑːp/"}
+{"title":"tripartite","uk":"uk  / ˌtraɪˈpɑː.taɪt /","ukp":"/ˌtraɪˈpɑː.taɪt/","us":"us  / ˌtraɪˈpɑːr.t̬aɪt /","usp":"/ˌtraɪˈpɑːr.t̬aɪt/"}
+{"title":"tripe","uk":"uk  / traɪp /","ukp":"/traɪp/","us":"us  / traɪp /","usp":"/traɪp/"}
+{"title":"triphthong","uk":"uk  / ˈtrɪf.θɒŋ /","ukp":"/ˈtrɪf.θɒŋ/","us":"us  / ˈtrɪf.θɑːŋ /","usp":"/ˈtrɪf.θɑːŋ/"}
+{"title":"triple bond","uk":"uk  / ˌtrɪp. ə l ˈbɒnd /","ukp":"/ˌtrɪp.əl ˈbɒnd/","us":"us  / ˌtrɪp. ə l ˈbɑːnd /","usp":"/ˌtrɪp.əl ˈbɑːnd/"}
+{"title":"triple glazing","uk":"uk  / ˌtrɪp. ə l ˈɡleɪ.zɪŋ /","ukp":"/ˌtrɪp.əl ˈɡleɪ.zɪŋ/","us":"us  / ˌtrɪp. ə l ˈɡleɪ.zɪŋ /","usp":"/ˌtrɪp.əl ˈɡleɪ.zɪŋ/"}
+{"title":"triple jump","uk":"uk  / ˈtrɪp. ə l ˌdʒʌmp /","ukp":"/ˈtrɪp.əl ˌdʒʌmp/","us":"us  / ˈtrɪp. ə l ˌdʒʌmp /","usp":"/ˈtrɪp.əl ˌdʒʌmp/"}
+{"title":"triple","uk":"uk  / ˈtrɪp. ə l /","ukp":"/ˈtrɪp.əl/","us":"us  / ˈtrɪp. ə l /","usp":"/ˈtrɪp.əl/"}
+{"title":"triple play","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"triple jumper","uk":"uk  / ˈtrɪp. ə l ˌdʒʌm.pə r /","ukp":"/ˈtrɪp.əl ˌdʒʌm.pər/","us":"us  / ˈtrɪp. ə l ˌdʒʌm.pɚ /","usp":"/ˈtrɪp.əl ˌdʒʌm.pɚ/"}
+{"title":"triple threat","uk":"uk  / ˌtrɪp. ə l ˈθret /","ukp":"/ˌtrɪp.əl ˈθret/","us":"us  / ˌtrɪp. ə l ˈθret /","usp":"/ˌtrɪp.əl ˈθret/"}
+{"title":"triple-A","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"triple-digit","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"tripled","uk":"uk  / ˈtrɪp. ə l /","ukp":"/ˈtrɪp.əl/","us":"us  / ˈtrɪp. ə l /","usp":"/ˈtrɪp.əl/"}
+{"title":"triplet codon","uk":"uk  / ˌtrɪp.lət ˈkəʊ.dɒn /","ukp":"/ˌtrɪp.lət ˈkəʊ.dɒn/","us":"us  / ˌtrɪp.lət ˈkoʊ.dɑːn /","usp":"/ˌtrɪp.lət ˈkoʊ.dɑːn/"}
+{"title":"triplet","uk":"uk  / ˈtrɪp.lət /","ukp":"/ˈtrɪp.lət/","us":"us  / ˈtrɪp.lət /","usp":"/ˈtrɪp.lət/"}
+{"title":"triplicate","uk":"uk  / ˈtrɪp.lɪ.kət /","ukp":"/ˈtrɪp.lɪ.kət/","us":"us  / ˈtrɪp.lə.kət /","usp":"/ˈtrɪp.lə.kət/"}
+{"title":"tripling","uk":"uk  / ˈtrɪp. ə l /","ukp":"/ˈtrɪp.əl/","us":"us  / ˈtrɪp. ə l /","usp":"/ˈtrɪp.əl/"}
+{"title":"tripod","uk":"uk  / ˈtraɪ.pɒd /","ukp":"/ˈtraɪ.pɒd/","us":"us  / ˈtraɪ.pɑːd /","usp":"/ˈtraɪ.pɑːd/"}
+{"title":"tripped","uk":"","us":""}
+{"title":"tripos","uk":"uk  / ˈtraɪ.pɒs /","ukp":"/ˈtraɪ.pɒs/","us":"us  / ˈtraɪ.pɑːs /","usp":"/ˈtraɪ.pɑːs/"}
+{"title":"tripping","uk":"","us":""}
+{"title":"tripper","uk":"uk  / ˈtrɪp.ə r /","ukp":"/ˈtrɪp.ər/","us":"us  / ˈtrɪp.ɚ /","usp":"/ˈtrɪp.ɚ/"}
+{"title":"trippy","uk":"uk  / ˈtrɪp.i /","ukp":"/ˈtrɪp.i/","us":"us  / ˈtrɪp.i /","usp":"/ˈtrɪp.i/"}
+{"title":"triptych","uk":"uk  / ˈtrɪp.tɪk /","ukp":"/ˈtrɪp.tɪk/","us":"us  / ˈtrɪp.tɪk /","usp":"/ˈtrɪp.tɪk/"}
+{"title":"triquetra","uk":"","us":""}
+{"title":"triquetrum","uk":"uk  / traɪˈkwiː.trəm /","ukp":"/traɪˈkwiː.trəm/","us":"us  / traɪˈkwiː.trəm /","usp":"/traɪˈkwiː.trəm/"}
+{"title":"tripwire","uk":"uk  / ˈtrɪp.waɪə r /","ukp":"/ˈtrɪp.waɪər/","us":"us  / ˈtrɪp.waɪr /","usp":"/ˈtrɪp.waɪr/"}
+{"title":"trishaw","uk":"uk  / ˈtraɪ.ʃɔː /","ukp":"/ˈtraɪ.ʃɔː/","us":"us  / ˈtraɪ.ʃɔː /","usp":"/ˈtraɪ.ʃɔː/"}
+{"title":"trisomy 13","uk":"uk  / ˌtrɪ.sə.mi θɜːˈtiːn /","ukp":"/ˌtrɪ.sə.mi θɜːˈtiːn/","us":"us  / ˌtraɪ.soʊ.mi θɝːˈtiːn /","usp":"/ˌtraɪ.soʊ.mi θɝːˈtiːn/"}
+{"title":"trisomy 18","uk":"uk  / ˌtrɪ.sə.mi eɪˈtiːn /","ukp":"/ˌtrɪ.sə.mi eɪˈtiːn/","us":"us  / ˌtraɪ.soʊ.mi eɪˈtiːn /","usp":"/ˌtraɪ.soʊ.mi eɪˈtiːn/"}
+{"title":"trisomy 21","uk":"uk  / ˌtrɪ.sə.mi twen.tiˈwʌn /","ukp":"/ˌtrɪ.sə.mi twen.tiˈwʌn/","us":"us  / ˌtraɪ.soʊ.mi twen.t̬iˈwʌn /","usp":"/ˌtraɪ.soʊ.mi twen.t̬iˈwʌn/"}
+{"title":"trisomy syndrome","uk":"uk  / ˈtrɪ.sə.mi ˌsɪn.drəʊm /","ukp":"/ˈtrɪ.sə.mi ˌsɪn.drəʊm/","us":"us  / ˈtraɪ.soʊ.mi ˌsɪn.droʊm /","usp":"/ˈtraɪ.soʊ.mi ˌsɪn.droʊm/"}
+{"title":"trisyllabic","uk":"uk  / ˌtraɪ.sɪˈlæb.ɪk /","ukp":"/ˌtraɪ.sɪˈlæb.ɪk/","us":"us  / ˌtraɪ.sɪˈlæb.ɪk /","usp":"/ˌtraɪ.sɪˈlæb.ɪk/"}
+{"title":"trisyllable","uk":"uk  / traɪˈsɪl.ə.b ə l /","ukp":"/traɪˈsɪl.ə.bəl/","us":"us  / traɪˈsɪl.ə.b ə l /","usp":"/traɪˈsɪl.ə.bəl/"}
+{"title":"trite","uk":"uk  / traɪt /","ukp":"/traɪt/","us":"us  / traɪt /","usp":"/traɪt/"}
+{"title":"tritely","uk":"uk  / ˈtraɪt.li /","ukp":"/ˈtraɪt.li/","us":"us  / ˈtraɪt.li /","usp":"/ˈtraɪt.li/"}
+{"title":"triteness","uk":"uk  / ˈtraɪt.nəs /","ukp":"/ˈtraɪt.nəs/","us":"us  / ˈtraɪt.nəs /","usp":"/ˈtraɪt.nəs/"}
+{"title":"tritik","uk":"uk  / trɪˈtiːk /","ukp":"/trɪˈtiːk/","us":"us  / trɪˈtiːk /","usp":"/trɪˈtiːk/"}
+{"title":"tritium","uk":"uk  / ˈtrɪt.i.əm /","ukp":"/ˈtrɪt.i.əm/","us":"us  / ˈtrɪt̬.i.əm /","usp":"/ˈtrɪt̬.i.əm/"}
+{"title":"triumph","uk":"uk  / ˈtraɪ.əmf /","ukp":"/ˈtraɪ.əmf/","us":"us  / ˈtraɪ.əmf /","usp":"/ˈtraɪ.əmf/"}
+{"title":"triumphal","uk":"uk  / traɪˈʌm.f ə l /","ukp":"/traɪˈʌm.fəl/","us":"us  / traɪˈʌm.f ə l /","usp":"/traɪˈʌm.fəl/"}
+{"title":"treating","uk":"uk  / triːt /","ukp":"/triːt/","us":"us  / triːt /","usp":"/triːt/"}
+{"title":"treatise","uk":"uk  / ˈtriː.tɪs /","ukp":"/ˈtriː.tɪs/","us":"us  / ˈtriː.t̬ɪs /","usp":"/ˈtriː.t̬ɪs/"}
+{"title":"treatment","uk":"uk  / ˈtriːt.mənt /","ukp":"/ˈtriːt.mənt/","us":"us  / ˈtriːt.mənt /","usp":"/ˈtriːt.mənt/"}
+{"title":"treaty","uk":"uk  / ˈtriː.ti /","ukp":"/ˈtriː.ti/","us":"us  / ˈtriː.t̬i /","usp":"/ˈtriː.t̬i/"}
+{"title":"treble clef","uk":"uk  / ˌtreb. ə l ˈklef /","ukp":"/ˌtreb.əl ˈklef/","us":"us  / ˌtreb. ə l ˈklef /","usp":"/ˌtreb.əl ˈklef/"}
+{"title":"treble damages","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"trebled","uk":"uk  / ˈtreb. ə l /","ukp":"/ˈtreb.əl/","us":"us  / ˈtreb. ə l /","usp":"/ˈtreb.əl/"}
+{"title":"trebling","uk":"uk  / ˈtreb. ə l /","ukp":"/ˈtreb.əl/","us":"us  / ˈtreb. ə l /","usp":"/ˈtreb.əl/"}
+{"title":"treble","uk":"uk  / ˈtreb. ə l /","ukp":"/ˈtreb.əl/","us":"us  / ˈtreb. ə l /","usp":"/ˈtreb.əl/"}
+{"title":"trebuchet","uk":"uk  / ˈtreb.ʊ.ʃeɪ /","ukp":"/ˈtreb.ʊ.ʃeɪ/","us":"us  / ˈtreb.ʊ.ʃeɪ /","usp":"/ˈtreb.ʊ.ʃeɪ/"}
+{"title":"treble recorder","uk":"uk  / ˌtreb. ə l rɪˈkɔː.də r /","ukp":"/ˌtreb.əl rɪˈkɔː.dər/","us":"us  / ˌtreb. ə l rɪˈkɔːr.dɚ /","usp":"/ˌtreb.əl rɪˈkɔːr.dɚ/"}
+{"title":"tree","uk":"uk  / triː /","ukp":"/triː/","us":"us  / triː /","usp":"/triː/"}
+{"title":"tree diagram","uk":"uk  / ˌtriː ˈdaɪ.ə.ɡræm /","ukp":"/ˌtriː ˈdaɪ.ə.ɡræm/","us":"us  / ˌtriː ˈdaɪ.ə.ɡræm /","usp":"/ˌtriː ˈdaɪ.ə.ɡræm/"}
+{"title":"tree fern","uk":"uk  / ˈtriː ˌfɜːn /","ukp":"/ˈtriː ˌfɜːn/","us":"us  / ˈtriː ˌfɝːn /","usp":"/ˈtriː ˌfɝːn/"}
+{"title":"tree house","uk":"uk  / ˈtriː ˌhaʊs /","ukp":"/ˈtriː ˌhaʊs/","us":"us  / ˈtriː ˌhaʊs /","usp":"/ˈtriː ˌhaʊs/"}
+{"title":"tree hugger","uk":"uk  / ˈtriː ˌhʌɡ.ə r /","ukp":"/ˈtriː ˌhʌɡ.ər/","us":"us  / ˈtriː ˌhʌɡ.ɚ /","usp":"/ˈtriː ˌhʌɡ.ɚ/"}
+{"title":"tree ring","uk":"uk  / ˈtriː ˌrɪŋ /","ukp":"/ˈtriː ˌrɪŋ/","us":"us  / ˈtriː ˌrɪŋ /","usp":"/ˈtriː ˌrɪŋ/"}
+{"title":"tree surgeon","uk":"uk  / ˈtriː ˌsɜː.dʒ ə n /","ukp":"/ˈtriː ˌsɜː.dʒən/","us":"us  / ˈtriː ˌsɝː.dʒ ə n /","usp":"/ˈtriː ˌsɝː.dʒən/"}
+{"title":"tree surgery","uk":"uk  / ˈtriː ˌsɜː.dʒ ə r.i /","ukp":"/ˈtriː ˌsɜː.dʒər.i/","us":"us  / ˈtriː ˌsɝː.dʒ ə r.i /","usp":"/ˈtriː ˌsɝː.dʒər.i/"}
+{"title":"tree tomato","uk":"uk / ˈtriː təˌmɑː.təʊ /","ukp":"/ˈtriː təˌmɑː.təʊ/","us":"us / ˈtriː təˌmeɪ.t̬oʊ /","usp":"/ˈtriː təˌmeɪ.t̬oʊ/"}
+{"title":"tree-lined","uk":"uk  / ˈtriː.laɪnd /","ukp":"/ˈtriː.laɪnd/","us":"us  / ˈtriː.laɪnd /","usp":"/ˈtriː.laɪnd/"}
+{"title":"treetop","uk":"uk  / ˈtriː.tɒp /","ukp":"/ˈtriː.tɒp/","us":"us  / ˈtriː.tɑːp /","usp":"/ˈtriː.tɑːp/"}
+{"title":"trek","uk":"uk  / trek /","ukp":"/trek/","us":"us  / trek /","usp":"/trek/"}
+{"title":"trekked","uk":"","us":""}
+{"title":"trekking","uk":"uk  / ˈtrek.ɪŋ /","ukp":"/ˈtrek.ɪŋ/","us":"us  / ˈtrek.ɪŋ /","usp":"/ˈtrek.ɪŋ/"}
+{"title":"trekking pole","uk":"uk  / ˈtrek.ɪŋ ˌpəʊl /","ukp":"/ˈtrek.ɪŋ ˌpəʊl/","us":"us  / ˈtrek.ɪŋ ˌpoʊl /","usp":"/ˈtrek.ɪŋ ˌpoʊl/"}
+{"title":"trellis","uk":"uk  / ˈtrel.ɪs /","ukp":"/ˈtrel.ɪs/","us":"us  / ˈtrel.ɪs /","usp":"/ˈtrel.ɪs/"}
+{"title":"Trekkie","uk":"uk  / ˈtrek.i /","ukp":"/ˈtrek.i/","us":"us  / ˈtrek.i /","usp":"/ˈtrek.i/"}
+{"title":"tremble","uk":"uk  / ˈtrem.b ə l /","ukp":"/ˈtrem.bəl/","us":"us  / ˈtrem.b ə l /","usp":"/ˈtrem.bəl/"}
+{"title":"tremble to think","uk":"","us":""}
+{"title":"trembled","uk":"uk  / ˈtrem.b ə l /","ukp":"/ˈtrem.bəl/","us":"us  / ˈtrem.b ə l /","usp":"/ˈtrem.bəl/"}
+{"title":"trembling","uk":"uk  / ˈtrem.blɪŋ /","ukp":"/ˈtrem.blɪŋ/","us":"us  / ˈtrem.blɪŋ /","usp":"/ˈtrem.blɪŋ/"}
+{"title":"tremendous","uk":"uk  / trɪˈmen.dəs /","ukp":"/trɪˈmen.dəs/","us":"us  / trɪˈmen.dəs /","usp":"/trɪˈmen.dəs/"}
+{"title":"tremolo","uk":"uk  / ˈtrem. ə l.əʊ /","ukp":"/ˈtrem.əl.əʊ/","us":"us  / ˈtrem.ə.loʊ /","usp":"/ˈtrem.ə.loʊ/"}
+{"title":"tremendously","uk":"uk  / trɪˈmen.dəs.li /","ukp":"/trɪˈmen.dəs.li/","us":"us  / trɪˈmen.dəs.li /","usp":"/trɪˈmen.dəs.li/"}
+{"title":"tremor","uk":"uk  / ˈtrem.ə r /","ukp":"/ˈtrem.ər/","us":"us  / ˈtrem.ɚ /","usp":"/ˈtrem.ɚ/"}
+{"title":"tremulous","uk":"uk  / ˈtrem.jə.ləs /","ukp":"/ˈtrem.jə.ləs/","us":"us  / ˈtrem.jə.ləs /","usp":"/ˈtrem.jə.ləs/"}
+{"title":"tremulously","uk":"uk  / ˈtrem.jə.ləs.li /","ukp":"/ˈtrem.jə.ləs.li/","us":"us  / ˈtrem.jə.ləs.li /","usp":"/ˈtrem.jə.ləs.li/"}
+{"title":"trench foot","uk":"uk  / ˈtrentʃ ˌfʊt /","ukp":"/ˈtrentʃ ˌfʊt/","us":"us  / ˈtrentʃ ˌfʊt /","usp":"/ˈtrentʃ ˌfʊt/"}
+{"title":"trench","uk":"uk  / trentʃ /","ukp":"/trentʃ/","us":"us  / trentʃ /","usp":"/trentʃ/"}
+{"title":"trench coat","uk":"uk  / ˈtrentʃ ˌkəʊt /","ukp":"/ˈtrentʃ ˌkəʊt/","us":"us  / ˈtrentʃ ˌkoʊt /","usp":"/ˈtrentʃ ˌkoʊt/"}
+{"title":"trenchancy","uk":"uk  / ˈtren.tʃən.si /","ukp":"/ˈtren.tʃən.si/","us":"us  / ˈtren.tʃən.si /","usp":"/ˈtren.tʃən.si/"}
+{"title":"trouser","uk":"uk  / ˈtraʊ.zə r /","ukp":"/ˈtraʊ.zər/","us":"us  / ˈtraʊ.zɚ /","usp":"/ˈtraʊ.zɚ/"}
+{"title":"trouser press","uk":"uk  / ˈtraʊ.zə ˌpres /","ukp":"/ˈtraʊ.zə ˌpres/","us":"us  / ˈtraʊ.zɚ ˌpres /","usp":"/ˈtraʊ.zɚ ˌpres/"}
+{"title":"trousered","uk":"uk  / ˈtraʊ.zə r /","ukp":"/ˈtraʊ.zər/","us":"us  / ˈtraʊ.zɚ /","usp":"/ˈtraʊ.zɚ/"}
+{"title":"trouser suit","uk":"uk  / ˈtraʊ.zə ˌsuːt /","ukp":"/ˈtraʊ.zə ˌsuːt/","us":"us  / ˈtraʊ.zɚ ˌsuːt /","usp":"/ˈtraʊ.zɚ ˌsuːt/"}
+{"title":"trousering","uk":"uk  / ˈtraʊ.zə r /","ukp":"/ˈtraʊ.zər/","us":"us  / ˈtraʊ.zɚ /","usp":"/ˈtraʊ.zɚ/"}
+{"title":"trousers","uk":"uk  / ˈtraʊ.zəz /","ukp":"/ˈtraʊ.zəz/","us":"us  / ˈtraʊ.zɚz /","usp":"/ˈtraʊ.zɚz/"}
+{"title":"trout","uk":"uk  / traʊt /","ukp":"/traʊt/","us":"us  / traʊt /","usp":"/traʊt/"}
+{"title":"trousseau","uk":"uk  / ˈtruː.səʊ /","ukp":"/ˈtruː.səʊ/","us":"us  / ˈtruː.soʊ /","usp":"/ˈtruː.soʊ/"}
+{"title":"trout pout","uk":"uk  / ˈtraʊt ˌpaʊt /","ukp":"/ˈtraʊt ˌpaʊt/","us":"us  / ˈtraʊt ˌpaʊt /","usp":"/ˈtraʊt ˌpaʊt/"}
+{"title":"trove","uk":"uk / trəʊv /","ukp":"/trəʊv/","us":"us / troʊv /","usp":"/troʊv/"}
+{"title":"trowel","uk":"uk  / traʊəl /","ukp":"/traʊəl/","us":"us  / traʊəl /","usp":"/traʊəl/"}
+{"title":"truancy","uk":"uk  / ˈtruː.ən.si /","ukp":"/ˈtruː.ən.si/","us":"us  / ˈtruː.ən.si /","usp":"/ˈtruː.ən.si/"}
+{"title":"truant officer","uk":"uk  / ˈtruː.ənt ˌɒf.ɪ.sə r /","ukp":"/ˈtruː.ənt ˌɒf.ɪ.sər/","us":"us  / ˈtruː.ənt ˌɑː.fɪ.sɚ /","usp":"/ˈtruː.ənt ˌɑː.fɪ.sɚ/"}
+{"title":"truant","uk":"uk  / ˈtruː.ənt /","ukp":"/ˈtruː.ənt/","us":"us  / ˈtruː.ənt /","usp":"/ˈtruː.ənt/"}
+{"title":"truanted","uk":"uk  / ˈtruː.ənt /","ukp":"/ˈtruː.ənt/","us":"us  / ˈtruː.ənt /","usp":"/ˈtruː.ənt/"}
+{"title":"truanting","uk":"uk  / ˈtruː.ənt /","ukp":"/ˈtruː.ənt/","us":"us  / ˈtruː.ənt /","usp":"/ˈtruː.ənt/"}
+{"title":"truce","uk":"uk  / truːs /","ukp":"/truːs/","us":"us  / truːs /","usp":"/truːs/"}
+{"title":"truck farmer","uk":"uk  / ˈtrʌk ˌfɑː.mə r /","ukp":"/ˈtrʌk ˌfɑː.mər/","us":"us  / ˈtrʌk ˌfɑːr.mɚ /","usp":"/ˈtrʌk ˌfɑːr.mɚ/"}
+{"title":"truck farm","uk":"uk  / ˈtrʌk ˌfɑːm /","ukp":"/ˈtrʌk ˌfɑːm/","us":"us  / ˈtrʌk ˌfɑːrm /","usp":"/ˈtrʌk ˌfɑːrm/"}
+{"title":"truck","uk":"uk  / trʌk /","ukp":"/trʌk/","us":"us  / trʌk /","usp":"/trʌk/"}
+{"title":"truck farming","uk":"uk  / ˈtrʌk ˌfɑː.mɪŋ /","ukp":"/ˈtrʌk ˌfɑː.mɪŋ/","us":"us  / ˈtrʌk ˌfɑːr.mɪŋ /","usp":"/ˈtrʌk ˌfɑːr.mɪŋ/"}
+{"title":"truckage","uk":"uk  / ˈtrʌkɪdʒ /","ukp":"/ˈtrʌkɪdʒ/","us":"us ","usp":""}
+{"title":"truck stop","uk":"uk  / ˈtrʌk ˌstɒp /","ukp":"/ˈtrʌk ˌstɒp/","us":"us  / ˈtrʌk ˌstɑːp /","usp":"/ˈtrʌk ˌstɑːp/"}
+{"title":"trucked","uk":"uk  / trʌk /","ukp":"/trʌk/","us":"us  / trʌk /","usp":"/trʌk/"}
+{"title":"trucker","uk":"uk  / ˈtrʌk.ə r /","ukp":"/ˈtrʌk.ər/","us":"us  / ˈtrʌk.ɚ /","usp":"/ˈtrʌk.ɚ/"}
+{"title":"truckie","uk":"uk  / ˈtrʌk.i /","ukp":"/ˈtrʌk.i/","us":"us  / ˈtrʌk.i /","usp":"/ˈtrʌk.i/"}
+{"title":"trucking","uk":"uk  / ˈtrʌk.ɪŋ /","ukp":"/ˈtrʌk.ɪŋ/","us":"us  / ˈtrʌk.ɪŋ /","usp":"/ˈtrʌk.ɪŋ/"}
+{"title":"truckle bed","uk":"uk  / ˈtrʌk. ə l ˌbed /","ukp":"/ˈtrʌk.əl ˌbed/","us":"us  / ˈtrʌk. ə l ˌbed /","usp":"/ˈtrʌk.əl ˌbed/"}
+{"title":"truckle","uk":"uk / ˈtrʌk. ə l /","ukp":"/ˈtrʌk.əl/","us":"us / ˈtrʌk. ə l /","usp":"/ˈtrʌk.əl/"}
+{"title":"truckload","uk":"uk  / ˈtrʌk.ləʊd /","ukp":"/ˈtrʌk.ləʊd/","us":"us  / ˈtrʌk.loʊd /","usp":"/ˈtrʌk.loʊd/"}
+{"title":"truculence","uk":"uk  / ˈtrʌk.jə.ləns /","ukp":"/ˈtrʌk.jə.ləns/","us":"us  / ˈtrʌk.jə.ləns /","usp":"/ˈtrʌk.jə.ləns/"}
+{"title":"truculently","uk":"uk  / ˈtrʌk.jə.lənt.li /","ukp":"/ˈtrʌk.jə.lənt.li/","us":"us  / ˈtrʌk.jə.lənt.li /","usp":"/ˈtrʌk.jə.lənt.li/"}
+{"title":"truculent","uk":"uk  / ˈtrʌk.jə.lənt /","ukp":"/ˈtrʌk.jə.lənt/","us":"us  / ˈtrʌk.jə.lənt /","usp":"/ˈtrʌk.jə.lənt/"}
+{"title":"trudge through something","uk":"uk  / trʌdʒ /","ukp":"/trʌdʒ/","us":"us  / trʌdʒ /","usp":"/trʌdʒ/"}
+{"title":"trudge","uk":"uk  / trʌdʒ /","ukp":"/trʌdʒ/","us":"us  / trʌdʒ /","usp":"/trʌdʒ/"}
+{"title":"trudged","uk":"uk  / trʌdʒ /","ukp":"/trʌdʒ/","us":"us  / trʌdʒ /","usp":"/trʌdʒ/"}
+{"title":"trudging","uk":"uk  / trʌdʒ /","ukp":"/trʌdʒ/","us":"us  / trʌdʒ /","usp":"/trʌdʒ/"}
+{"title":"true and fair view","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"true enough","uk":"","us":""}
+{"title":"true crime","uk":"uk  / ˌtruː ˈkraɪm /","ukp":"/ˌtruː ˈkraɪm/","us":"us  / ˌtruː ˈkraɪm /","usp":"/ˌtruː ˈkraɪm/"}
+{"title":"true","uk":"uk  / truː /","ukp":"/truː/","us":"us  / truː /","usp":"/truː/"}
+{"title":"true interest cost","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"true love","uk":"uk  / ˈtruː .lʌv /","ukp":"/ˈtruː .lʌv/","us":"us  / ˈtruː .lʌv /","usp":"/ˈtruː .lʌv/"}
+{"title":"true north","uk":"uk  / ˌtruː ˈnɔːθ /","ukp":"/ˌtruː ˈnɔːθ/","us":"us  / ˌtruː ˈnɔːrθ /","usp":"/ˌtruː ˈnɔːrθ/"}
+{"title":"true to life","uk":"uk  / ˌtruː tə ˈlaɪf /","ukp":"/ˌtruː tə ˈlaɪf/","us":"us  / ˌtruː tə ˈlaɪf /","usp":"/ˌtruː tə ˈlaɪf/"}
+{"title":"true to form","uk":"","us":""}
+{"title":"true to your word","uk":"","us":""}
+{"title":"true to yourself","uk":"","us":""}
+{"title":"troops","uk":"","us":"us  / trups /","usp":"/trups/"}
+{"title":"true yield","uk":"uk ","ukp":"","us":"us ","usp":""}
+{"title":"troopship","uk":"uk  / ˈtruːp.ʃɪp /","ukp":"/ˈtruːp.ʃɪp/","us":"us  / ˈtruːp.ʃɪp /","usp":"/ˈtruːp.ʃɪp/"}
+{"title":"trope","uk":"uk  / trəʊp /","ukp":"/trəʊp/","us":"us  / troʊp /","usp":"/troʊp/"}
+{"title":"trophic level","uk":"uk  / ˌtrɒfɪk ˈlev ə l /","ukp":"/ˌtrɒfɪk ˈlevəl/","us":"us  / ˌtrɑː.fɪk ˈlev ə l /","usp":"/ˌtrɑː.fɪk ˈlevəl/"}
+{"title":"trophy girlfriend","uk":"uk  / ˌtrəʊ.fi ˈɡɜːl.frend /","ukp":"/ˌtrəʊ.fi ˈɡɜːl.frend/","us":"us  / ˌtroʊ.fi ˈɡɝːl.frend /","usp":"/ˌtroʊ.fi ˈɡɝːl.frend/"}
+{"title":"trophy cabinet","uk":"uk  / ˈtrəʊ.fi ˌkæb.ɪ.nət /","ukp":"/ˈtrəʊ.fi ˌkæb.ɪ.nət/","us":"us  / ˈtroʊ.fi ˌkæb. ə n.ət /","usp":"/ˈtroʊ.fi ˌkæb.ən.ət/"}
+{"title":"trophy","uk":"uk  / ˈtrəʊ.fi /","ukp":"/ˈtrəʊ.fi/","us":"us  / ˈtroʊ.fi /","usp":"/ˈtroʊ.fi/"}
+{"title":"trophy wife","uk":"uk  / ˌtrəʊ.fi ˈwaɪf /","ukp":"/ˌtrəʊ.fi ˈwaɪf/","us":"us  / ˌtroʊ.fi ˈwaɪf /","usp":"/ˌtroʊ.fi ˈwaɪf/"}
+{"title":"trophyless","uk":"uk  / ˈtrəʊ.fi.ləs /","ukp":"/ˈtrəʊ.fi.ləs/","us":"us  / ˈtroʊ.fi.ləs /","usp":"/ˈtroʊ.fi.ləs/"}
+{"title":"tropic","uk":"uk  / ˈtrɒp.ɪk /","ukp":"/ˈtrɒp.ɪk/","us":"us  / ˈtrɑː.pɪk /","usp":"/ˈtrɑː.pɪk/"}
+{"title":"tropical","uk":"uk  / ˈtrɒp.ɪ.k ə l /","ukp":"/ˈtrɒp.ɪ.kəl/","us":"us  / ˈtrɑː.pɪ.k ə l /","usp":"/ˈtrɑː.pɪ.kəl/"}
+{"title":"tropical rainforest","uk":"uk  / ˌtrɒp.ɪ.k ə l ˈreɪn.fɒr.ɪst /","ukp":"/ˌtrɒp.ɪ.kəl ˈreɪn.fɒr.ɪst/","us":"us  / ˌtrɑː.pɪ.k ə l ˈreɪn.fɔːr.ɪst /","usp":"/ˌtrɑː.pɪ.kəl ˈreɪn.fɔːr.ɪst/"}
+{"title":"tropics","uk":"","us":"us  / ˈtrɑp·ɪks /","usp":"/ˈtrɑp·ɪks/"}
+{"title":"tropism","uk":"uk  / ˈtrəʊpɪz ə m /","ukp":"/ˈtrəʊpɪzəm/","us":"us  / ˈtroʊpɪz ə m /","usp":"/ˈtroʊpɪzəm/"}
+{"title":"troppo","uk":"uk  / ˈtrɒp.əʊ /","ukp":"/ˈtrɒp.əʊ/","us":"us  / ˈtrɑː.poʊ /","usp":"/ˈtrɑː.poʊ/"}
+{"title":"troposphere","uk":"uk  / ˈtrɒp.əs.fɪə r /","ukp":"/ˈtrɒp.əs.fɪər/","us":"us  / ˈtrɑː.pə.sfɪr /","usp":"/ˈtrɑː.pə.sfɪr/"}
+{"title":"tropospheric","uk":"uk / ˌtrɒp.əˈsfer.ɪk /","ukp":"/ˌtrɒp.əˈsfer.ɪk/","us":"us / ˌtrɑː.pəˈsfer.ɪk /","usp":"/ˌtrɑː.pəˈsfer.ɪk/"}
+{"title":"trot something out","uk":"uk  / trɒt /","ukp":"/trɒt/","us":"us  / trɑːt /","usp":"/trɑːt/"}
+{"title":"troth","uk":"uk  / trəʊθ /","ukp":"/trəʊθ/","us":"us  / troʊθ /","usp":"/troʊθ/"}
+{"title":"trotted","uk":"","us":""}
+{"title":"trot","uk":"uk  / trɒt /","ukp":"/trɒt/","us":"us  / trɑːt /","usp":"/trɑːt/"}
+{"title":"trotting","uk":"","us":""}
+{"title":"trotter","uk":"uk  / ˈtrɒt.ə r /","ukp":"/ˈtrɒt.ər/","us":"us  / ˈtrɑː.t̬ɚ /","usp":"/ˈtrɑː.t̬ɚ/"}
+{"title":"trou","uk":"uk  / traʊ /","ukp":"/traʊ/","us":"us  / traʊ /","usp":"/traʊ/"}
+{"title":"troubadour","uk":"uk  / ˈtruː.bə.dɔː r /","ukp":"/ˈtruː.bə.dɔːr/","us":"us  / ˈtruː.bə.dɔːr /","usp":"/ˈtruː.bə.dɔːr/"}
+{"title":"trouble and strife","uk":"","us":""}
+{"title":"trouble spot","uk":"uk  / ˈtrʌb. ə l ˌspɒt /","ukp":"/ˈtrʌb.əl ˌspɒt/","us":"us  / ˈtrʌb. ə l ˌspɑːt /","usp":"/ˈtrʌb.əl ˌspɑːt/"}
+{"title":"troubled","uk":"uk  / ˈtrʌb. ə ld /","ukp":"/ˈtrʌb.əld/","us":"us  / ˈtrʌb. ə ld /","usp":"/ˈtrʌb.əld/"}
+{"title":"trouble","uk":"uk  / ˈtrʌb. ə l /","ukp":"/ˈtrʌb.əl/","us":"us  / ˈtrʌb. ə l /","usp":"/ˈtrʌb.əl/"}
+{"title":"troublemaker","uk":"uk  / ˈtrʌb. ə lˌmeɪ.kə r /","ukp":"/ˈtrʌb.əlˌmeɪ.kər/","us":"us  / ˈtrʌb. ə lˌmeɪ.kɚ /","usp":"/ˈtrʌb.əlˌmeɪ.kɚ/"}
+{"title":"troubleshoot","uk":"uk  / ˈtrʌb. ə l.ʃuːt /","ukp":"/ˈtrʌb.əl.ʃuːt/","us":"us  / ˈtrʌb. ə l.ʃuːt /","usp":"/ˈtrʌb.əl.ʃuːt/"}
+{"title":"troubleshooter","uk":"uk  / ˈtrʌb. ə lˌʃuː.tə r /","ukp":"/ˈtrʌb.əlˌʃuː.tər/","us":"us  / ˈtrʌb. ə lˌʃuː.t̬ɚ /","usp":"/ˈtrʌb.əlˌʃuː.t̬ɚ/"}
+{"title":"troubleshooting","uk":"uk  / ˈtrʌb. ə lˌʃuː.tɪŋ /","ukp":"/ˈtrʌb.əlˌʃuː.tɪŋ/","us":"us  / ˈtrʌb. ə lˌʃuː.t̬ɪŋ /","usp":"/ˈtrʌb.əlˌʃuː.t̬ɪŋ/"}
+{"title":"troubling","uk":"uk  / ˈtrʌb. ə l.ɪŋ /","ukp":"/ˈtrʌb.əl.ɪŋ/","us":"us  / ˈtrʌb. ə l.ɪŋ /","usp":"/ˈtrʌb.əl.ɪŋ/"}
+{"title":"troublesome","uk":"uk  / ˈtrʌb. ə l.s ə m /","ukp":"/ˈtrʌb.əl.səm/","us":"us  / ˈtrʌb. ə l.s ə m /","usp":"/ˈtrʌb.əl.səm/"}
+{"title":"troublingly","uk":"uk  / ˈtrʌb. ə l.ɪŋ.li /","ukp":"/ˈtrʌb.əl.ɪŋ.li/","us":"us  / ˈtrʌb. ə l.ɪŋ.li /","usp":"/ˈtrʌb.əl.ɪŋ.li/"}
+{"title":"troughed","uk":"uk  / trɒf /","ukp":"/trɒf/","us":"us  / trɑːf /","usp":"/trɑːf/"}
+{"title":"trough","uk":"uk  / trɒf /","ukp":"/trɒf/","us":"us  / trɑːf /","usp":"/trɑːf/"}
+{"title":"trougher","uk":"uk  / ˈtrɒf.ə r /","ukp":"/ˈtrɒf.ər/","us":"us  / ˈtrɑː.fɚ /","usp":"/ˈtrɑː.fɚ/"}
+{"title":"troughing","uk":"uk  / trɒf /","ukp":"/trɒf/","us":"us  / trɑːf /","usp":"/trɑːf/"}
+{"title":"trounce","uk":"uk  / traʊns /","ukp":"/traʊns/","us":"us  / traʊns /","usp":"/traʊns/"}
+{"title":"trounced","uk":"uk  / traʊns /","ukp":"/traʊns/","us":"us  / traʊns /","usp":"/traʊns/"}
+{"title":"trouncing","uk":"uk  / ˈtraʊn.sɪŋ /","ukp":"/ˈtraʊn.sɪŋ/","us":"us  / ˈtraʊn.sɪŋ /","usp":"/ˈtraʊn.sɪŋ/"}
+{"title":"troupe","uk":"uk  / truːp /","ukp":"/truːp/","us":"us  / truːp /","usp":"/truːp/"}
+{"title":"trouper","uk":"uk  / ˈtruː.pə r /","ukp":"/ˈtruː.pər/","us":"us  / ˈtruː.pɚ /","usp":"/ˈtruː.pɚ/"}
+{"title":"true-blue","uk":"uk  / ˌtruːˈbluː /","ukp":"/ˌtruːˈbluː/","us":"us  / ˌtruːˈbluː /","usp":"/ˌtruːˈbluː/"}
+{"title":"true-life","uk":"uk  / ˌtruːˈlaɪf /","ukp":"/ˌtruːˈlaɪf/","us":"us  / ˌtruːˈlaɪf /","usp":"/ˌtruːˈlaɪf/"}
+{"title":"true-life story","uk":"uk  / ˌtruː.laɪf ˈstɔː.ri /","ukp":"/ˌtruː.laɪf ˈstɔː.ri/","us":"us  / ˌtruː.laɪf ˈstɔːr.i /","usp":"/ˌtruː.laɪf ˈstɔːr.i/"}
+{"title":"trug","uk":"uk  / trʌɡ /","ukp":"/trʌɡ/","us":"us  / trʌɡ /","usp":"/trʌɡ/"}
+{"title":"truism","uk":"uk  / ˈtruː.ɪ.z ə m /","ukp":"/ˈtruː.ɪ.zəm/","us":"us  / ˈtruː.ɪ.z ə m /","usp":"/ˈtruː.ɪ.zəm/"}
+{"title":"truffle","uk":"uk  / ˈtrʌf. ə l /","ukp":"/ˈtrʌf.əl/","us":"us  / ˈtrʌf. ə l /","usp":"/ˈtrʌf.əl/"}
+{"title":"truly","uk":"uk  / ˈtruː.li /","ukp":"/ˈtruː.li/","us":"us  / ˈtruː.li /","usp":"/ˈtruː.li/"}
