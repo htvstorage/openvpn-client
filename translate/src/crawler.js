@@ -134,7 +134,7 @@ function getTable(data) {
             let urls = new String(buf).split("\n");
             console.log(urls.at(-2));
             console.log(urls.at(-1));
-            extendURL.push(...urls);
+            extendURL.push(...urls.filter(s => s != ''));
         }
     }
 
@@ -176,7 +176,7 @@ function getTable(data) {
                 "body": null,
                 "method": "GET",
                 "mode": "cors",
-                // agent,
+                agent,
                 timeout: 100
             });
             // AND (both classes)
@@ -200,8 +200,8 @@ function getTable(data) {
                 stat.res++;
                 let domtxt = text;
                 if (stat.res % 10 == 0) {
-                    console.log(stat, (Math.floor(stat.res * 10000 / stat.length) / 100) + "%", " tps ", stat.res * 1000 / (Date.now() - stat.start), " ", Object.keys(divTag).length)
-                    fs.writeFileSync("./tag.txt", getTable(divTag), e => { });
+                    console.log(stat, (Math.floor(stat.res * 10000 / stat.length) / 100) + "%", " tps ", stat.res * 1000 / (Date.now() - stat.start), " ", Object.keys(divTag).length, args)
+                    // fs.writeFileSync("./tag.txt", getTable(divTag), e => { });
                 }
                 const dom = new JSDOM(domtxt);
                 let document = dom.window.document;
