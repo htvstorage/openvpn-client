@@ -15,5 +15,7 @@ async def main():
     logging.info(result)   
     result = await Exchange.getliststockdata(result)
     logging.info(result)   
+    result = await Exchange.get_corporate()
+    logging.info(result)       
 if __name__ == "__main__":
     asyncio.run(main())
