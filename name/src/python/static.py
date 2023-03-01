@@ -9,9 +9,12 @@ import math
 parser = argparse.ArgumentParser(description='Process some integers.')
 parser.add_argument('--input_symbol', type=str,
                     nargs='+', help='input file path')
+parser.add_argument('--session', type=int, help='Number session statistic')
+parser.add_argument('--mbs', type=int, help='Number session statistic')
 
 args = parser.parse_args()
 
+pd.options.display.float_format = '{:.2f}'.format
 # if args.input_file:
 #     df = pd.read_csv(args.input_file)
 #     df.fillna(0, inplace=True)
@@ -26,14 +29,21 @@ if args.input_symbol:
 else:
     print("Input symbol path is required")
 
+all = None
 for symbol in args.input_symbol:
     # Đường dẫn đến thư mục chứa các file CSV cần đọc
-    path = '/workspace/openvpn-client/name/agg/'
+    if (args.mbs is None):
+        path = '/workspace/openvpn-client/name/agg/'
+    else:
+        path = '/data/stockstorage/mbstrans/20230216'
 
     files_to_ignore = ".*20221207.*|.*20221208.*|.*20221209.*"   # pattern to ignore
 
     # Lấy danh sách các file CSV trong thư mục đó
-    csv_files = glob.glob(f'{path}*/{symbol}*.csv')
+    if (args.mbs is None):
+        csv_files = glob.glob(f'{path}*/{symbol}*.csv')
+    else:
+        csv_files = glob.glob(f'{path}*/{symbol}*_D_trans.txt')
     temp = []
     for file in csv_files:
         match = re.search(files_to_ignore, file)
@@ -51,13 +61,20 @@ for symbol in args.input_symbol:
 
     merged_df = pd.concat(dfs, ignore_index=True)
     df = merged_df
-    df.loc[df['h'] > 1000, ['o', 'h', 'l', 'c']
-           ] = df.loc[df['h'] > 1000, ['o', 'h', 'l', 'c']] / 1000
+    if ('datetime' in df.columns.values):
+        df = df.sort_values(by="datetime", ascending=True)
+    if (args.session is not None and args.session > 0):
+        df = df.tail(args.session)
+
+    if ('h' in df.columns.values):
+        df.loc[df['h'] > 1000, ['o', 'h', 'l', 'c']
+               ] = df.loc[df['h'] > 1000, ['o', 'h', 'l', 'c']] / 1000
     # df.fillna(0, inplace=True)
-    df.replace([np.inf, -np.inf], np.nan, inplace=True)
-    df.fillna(df.mean(numeric_only=True), inplace=True)
-    df['h-l'] = df['h'] - df['l']
-    df['h-o'] = df['h'] - df['o']
+        df.replace([np.inf, -np.inf], np.nan, inplace=True)
+        df.fillna(df.mean(numeric_only=True), inplace=True)
+    if ('h' in df.columns.values):
+        df['h-l'] = df['h'] - df['l']
+        df['h-o'] = df['h'] - df['o']
     # Đọc file csv
     # df = pd.read_csv('path/to/file.csv')
 
@@ -79,7 +96,6 @@ for symbol in args.input_symbol:
     outlier_threshold = 3.0
     df_is_outlier = z_score.apply(lambda x: x > outlier_threshold)
 
-
     # In các thống kê và số lượng giá trị bất thường
     # print(f"Number of values:\n {num_values}")
     # print(f"Max value:\n {max_value}")
@@ -100,12 +116,21 @@ for symbol in args.input_symbol:
 
     dfs = pd.DataFrame({'values': num_values, 'Max': max_value, 'Min': min_value, 'Mean': mean,
                         'Median': median, 'Variance': variance, 'Std': std_dev, 'MAD': mad, 'Skewness': skewness})
+    dfs = dfs.applymap('{:,.2f}'.format)
+    dfs['symbol'] = np.repeat(symbol, len(num_values))
+    # all.append(dfs)
+    dfs = dfs.reset_index(drop=False)
+    print(dfs)
+    if all is None:
+        all = dfs
+    else:
+        all = pd.concat((all, dfs), axis=0, ignore_index=True)
     strtab = tabulate(dfs, headers='keys', tablefmt='psql')
     l0 = len(strtab.split("\n")[0])
     l1 = math.floor((l0-len(symbol))/2)
-    print(f"+{np.char.multiply('-',l0-2)}+")
-    print(f"|{np.char.multiply(' ',l1-1)}{symbol}{np.char.multiply(' ',l0-len(symbol)-l1-1)}|")
-    print(strtab)
+    # print(f"+{np.char.multiply('-',l0-2)}+")
+    # print(f"|{np.char.multiply(' ',l1-1)}{symbol}{np.char.multiply(' ',l0-len(symbol)-l1-1)}|")
+    # print(strtab)
     # print(df_is_outlier)
     # print(tabulate(z_score, headers='keys', tablefmt='psql'))
     # df_filtered = df[df['pbu'] == 100.0]
@@ -115,5 +140,11 @@ for symbol in args.input_symbol:
     # print(df_filtered.T)
     # print(df_filtered.shape,df.shape)
 
-    dfo=df[df_is_outlier]
+    dfo = df[df_is_outlier]
     # print(dfo.T)
+all.rename(columns={'index': 'indicator'}, inplace=True)
+new_order = ['symbol', 'indicator', 'values', 'Mean', 'Median',
+             'Variance', 'Std', 'MAD', 'Skewness', 'Max', 'Min']
+all = all.reindex(columns=new_order)
+print(tabulate(all, headers='keys', tablefmt='psql'))
+# print(all.columns.values)
