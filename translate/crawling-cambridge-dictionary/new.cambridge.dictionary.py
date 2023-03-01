@@ -169,7 +169,6 @@ def extract_phrase(soup):
 
 timeout = aiohttp.ClientTimeout(total=10)
 
-
 async def get_request(url, headers):
     try:
         async with aiohttp.ClientSession(timeout=timeout) as session:
@@ -179,7 +178,8 @@ async def get_request(url, headers):
                     return await get_request(url, headers)
                 else:
                     return text
-    except:
+    except Exception as e:
+        print(f"An error occurred: {e}")
         return await get_request(url, headers)
 
 
@@ -239,7 +239,8 @@ async def start(url, head, stat):
 
 async def main():
     cam_dict = defaultdict(lambda:  defaultdict(lambda: []))
-    urls = eval(open('extendURLs.txt').read())
+    # urls = eval(open('extendURLs.txt').read())
+    urls = open('extendURLs.txt').read().splitlines()
     # urls = ['https://dictionary.cambridge.org/dictionary/english-chinese-traditional/a-heavy-cross-to-bear',
     #        'https://dictionary.cambridge.org/dictionary/english-chinese-traditional/take-off',
     #        'https://dictionary.cambridge.org/dictionary/english-chinese-traditional/abide-by-sth',
@@ -256,9 +257,9 @@ async def main():
         w = r.split('/')[-1]
         if len(w.split('-')) >= 1:
             #             print(w)
-            while (stat['req'] - stat['res'] >= 100):
+            while (stat['req'] - stat['res'] >= 300):
                 # print(stat)
-                await asyncio.sleep(1)
+                await asyncio.sleep(1/1000)
             stat['req'] += 1
             asyncio.create_task(start(r, r.split('/')[-1], stat))
 
