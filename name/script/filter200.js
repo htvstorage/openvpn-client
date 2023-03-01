@@ -368,7 +368,7 @@ async function loadData(path, resolve, stat, filter) {
   });
 
 
-  let shortPeriods = [5, 10, 20, 30, 50, 100, 200];
+  let shortPeriods = [5, 10, 20, 25, 26, 30, 50, 100, 200];
 
 
   let smaRet = shortPeriods.map(e => { return SMA.calculate({ period: e, values: prices }); });
