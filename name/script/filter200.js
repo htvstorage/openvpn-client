@@ -364,7 +364,7 @@ async function loadData(path, resolve, stat, filter) {
     avg["max" + e] = max;
     avg["%MM" + e] = Math.floor((max - min) / max * 10000) / 100;
     avg["%PriceMax" + e] = Math.floor((max - prices.at(-1)) / max * 10000) / 100;
-    avg["%PriceMin" + e] = Math.floor((prices.at(-1) - min) / max * 10000) / 100;
+    avg["%PriceMin" + e] = Math.floor((prices.at(-1) - min) / min * 10000) / 100;
   });
 
 
