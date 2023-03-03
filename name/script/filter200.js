@@ -319,7 +319,7 @@ async function loadData(path, resolve, stat, filter) {
 
   let symbol = data[0].symbol;
 
-  let days = [7, 15, 30, 100, 200, 365, 500];
+  let days = [3, 7, 15, 30, 100, 200, 365, 500];
 
   let data30 = filterData.slice(0, 30);
 
@@ -341,15 +341,12 @@ async function loadData(path, resolve, stat, filter) {
   }
   filterData = filterData.reverse();
   let prices = filterData.map(e => e.priceClose);
+  let vols = filterData.map(e => e.dealVolume);
 
-  // let hl7 = [...data7.map(e => e.priceHigh), ...data7.map(e => e.priceLow)];
-  // let c7 = data7.map(e => e.priceClose);
-  // let m = stats.mean(c7);
-  // let std = stats.stdev(c7);
-  // let m2 = stats.mean(hl7);
-  // let std2 = stats.stdev(hl7);
-  // let min = Math.min(...hl7);
-  // let max = Math.max(...hl7);
+  avg.priceClose = Math.floor(prices.at(-1) * 100) / 100;
+  avg.priceLow = Math.floor(filterData.at(-1).priceLow * 100) / 100;
+  avg.priceHigh = Math.floor(filterData.at(-1).priceHigh * 100) / 100;
+  avg.priceOpen = Math.floor(filterData.at(-1).priceOpen * 100) / 100;
 
   let hl = days.map((e, i) => { return [...datax[i].map(e => e.priceHigh), ...datax[i].map(e => e.priceLow)] })
   let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
@@ -369,63 +366,29 @@ async function loadData(path, resolve, stat, filter) {
 
 
   let shortPeriods = [5, 10, 20, 25, 26, 30, 50, 100, 200];
-
-
+  let smaVol = shortPeriods.map(e => { return SMA.calculate({ period: e, values: vols }); });
   let smaRet = shortPeriods.map(e => { return SMA.calculate({ period: e, values: prices }); });
-  // console.table(smaRet[0])
-  // console.table(smaRet[1])
-  // if (prices.at(-1) < smaRet[2].at(-1)) {
-  //   stat.res++;
-  //   if (stat.res == stat.req) {
-  //     resolve(summarySymbol);
-  //   }
-  //   return;
-  // }
 
-  // console.table(filterData.slice(-10,-1));
   shortPeriods.forEach((e, i) => {
     avg["sma" + e] = Math.floor(smaRet[i].at(-1) * 100) / 100;
     avg["sma" + e + "%"] = (Math.floor((prices.at(-1) - smaRet[i].at(-1)) / smaRet[i].at(-1) * 10000) / 100);
+    avg["SVol" + e] = Math.floor(smaVol[i].at(-1) * 100) / 100;
+    avg["%SVol" + e ] = (Math.floor((vols.at(-1) - smaVol[i].at(-1)) / smaVol[i].at(-1) * 10000) / 100);
+    avg["RSVol" + e ] = (Math.floor(vols.at(-1) / smaVol[i].at(-1) * 100) / 100);
   })
 
-  // avg.sma5 = Math.floor(smaRet[0].at(-1) * 100) / 100;
-  // avg.sma10 = Math.floor(smaRet[1].at(-1) * 100) / 100;
-  // avg.sma20 = Math.floor(smaRet[1].at(-1) * 100) / 100;
-  // avg.sma50 = Math.floor(smaRet[3].at(-1) * 100) / 100;
-  // avg.sma100 = Math.floor(smaRet[4].at(-1) * 100) / 100;
-  // avg.sma200 = Math.floor(smaRet[5].at(-1) * 100) / 100;
-  // avg.sma200pct = (Math.floor((prices.at(-1) - smaRet[5].at(-1)) / smaRet[5].at(-1) * 10000) / 100);
-  // avg.sma100pct = (Math.floor((prices.at(-1) - smaRet[4].at(-1)) / smaRet[4].at(-1) * 10000) / 100);
-  // avg.sma50pct = (Math.floor((prices.at(-1) - smaRet[3].at(-1)) / smaRet[3].at(-1) * 10000) / 100);
-  // avg.sma20pct = (Math.floor((prices.at(-1) - smaRet[3].at(-1)) / smaRet[2].at(-1) * 10000) / 100);
-  // avg.sma10pct = (Math.floor((prices.at(-1) - smaRet[1].at(-1)) / smaRet[1].at(-1) * 10000) / 100);
-  // avg.sma5pct = (Math.floor((prices.at(-1) - smaRet[0].at(-1)) / smaRet[0].at(-1) * 10000) / 100);
-  avg.priceClose = Math.floor(prices.at(-1) * 100) / 100;
-  avg.priceLow = Math.floor(filterData.at(-1).priceLow * 100) / 100;
-  avg.priceHigh = Math.floor(filterData.at(-1).priceHigh * 100) / 100;
-  avg.priceOpen = Math.floor(filterData.at(-1).priceOpen * 100) / 100;
-  // avg.mean = Math.floor(m * 100) / 100;
-  // avg.meanhl = Math.floor(m2 * 100) / 100;
-  // avg.stdev = Math.floor(std * 100) / 100;
-  // avg.stdevhl = Math.floor(std2 * 100) / 100;
-  // avg.pct = Math.floor(std / m * 10000) / 100;
-  // avg.pcthl = Math.floor(std2 / m2 * 10000) / 100;
-  // avg.min = min;
-  // avg.max = max;
-  // avg.pctminmax = Math.floor((max - min) / max * 10000) / 100;
-  // let pbe = filter[symbol];
-  // if (pbe == undefined) {
-  //   stat.res++;
-  //   if (stat.res == stat.req) {
-  //     resolve(summarySymbol);
-  //   }
-  //   return;
-  // }
-
-
-
+  console.table([avg])
+  let keys= Object.keys(avg);
+  let fix=["symbol","avgValue","avgVol","priceClose","priceLow","priceHigh","priceOpen"]
+  keys = keys.filter(e=>!fix.includes(e));
+  keys.sort();
+  keys = [...fix,...keys];
+  let avgNew = {}
+  keys.forEach(e=> avgNew[e]=avg[e]);
+  avg = avgNew;
   avg = { ...avg }
   console.table([avg])
+
   summarySymbol[symbol] = avg;
 
   stat.res++;
