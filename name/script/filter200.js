@@ -319,7 +319,7 @@ async function loadData(path, resolve, stat, filter) {
 
   let symbol = data[0].symbol;
 
-  let days = [3, 7, 15, 30, 100, 200, 365, 500];
+  let days = [3, 7, 15, 30, 100, 200, 365, 500, 1000];
 
   let data30 = filterData.slice(0, 30);
 
@@ -373,18 +373,18 @@ async function loadData(path, resolve, stat, filter) {
     avg["sma" + e] = Math.floor(smaRet[i].at(-1) * 100) / 100;
     avg["sma" + e + "%"] = (Math.floor((prices.at(-1) - smaRet[i].at(-1)) / smaRet[i].at(-1) * 10000) / 100);
     avg["SVol" + e] = Math.floor(smaVol[i].at(-1) * 100) / 100;
-    avg["%SVol" + e ] = (Math.floor((vols.at(-1) - smaVol[i].at(-1)) / smaVol[i].at(-1) * 10000) / 100);
-    avg["RSVol" + e ] = (Math.floor(vols.at(-1) / smaVol[i].at(-1) * 100) / 100);
+    avg["%SVol" + e] = (Math.floor((vols.at(-1) - smaVol[i].at(-1)) / smaVol[i].at(-1) * 10000) / 100);
+    avg["RSVol" + e] = (Math.floor(vols.at(-1) / smaVol[i].at(-1) * 100) / 100);
   })
 
   console.table([avg])
-  let keys= Object.keys(avg);
-  let fix=["symbol","avgValue","avgVol","priceClose","priceLow","priceHigh","priceOpen"]
-  keys = keys.filter(e=>!fix.includes(e));
+  let keys = Object.keys(avg);
+  let fix = ["symbol", "priceClose", "priceLow", "priceHigh", "priceOpen", "avgValue", "avgVol"]
+  keys = keys.filter(e => !fix.includes(e));
   keys.sort();
-  keys = [...fix,...keys];
+  keys = [...fix, ...keys];
   let avgNew = {}
-  keys.forEach(e=> avgNew[e]=avg[e]);
+  keys.forEach(e => avgNew[e] = avg[e]);
   avg = avgNew;
   avg = { ...avg }
   console.table([avg])

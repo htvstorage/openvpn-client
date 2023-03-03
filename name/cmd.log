@@ -200,3 +200,7 @@ d=`date +"%d"`
 d=`bc <<< $d' - 1'`
 ln -s $PWD/agg/`date +"%Y%m"$d`/$x"_"*"_table.log" links/$x`date +"%Y%m"$d`.log
 done
+
+
+
+ node script/price.js ; node script/filter200.js 
