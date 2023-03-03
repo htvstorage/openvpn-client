@@ -1,0 +1,1000 @@
+GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 1 of 264
+RSP Technical Specification
+Version 2.2
+01 September 2017
+This is a Non-binding Permanent Reference Document of the GSMA
+Security Classification: Non-confidential
+Access to and distribution of this document is restricted to the persons permitted by the security classification. This document is confidential to the
+Association and is subject to copyright protection. This document is to be used only for the purposes for which it has been supplied and
+information contained in it must not be disclosed or in any other way made available, in whole or in part, to persons other than those permitted
+under the security classification without the prior written approval of the Association.
+Copyright Notice
+Copyright © 2017 GSM Association
+Disclaimer
+The GSM Association (“Association”) makes no representation, warranty or undertaking (express or implied) with respect to and does not accept
+any responsibility for, and hereby disclaims liability for the accuracy or completeness or timeliness of the information contained in this document.
+The information contained in this document may be subject to change without prior notice.
+Antitrust Notice
+The information contain herein is in full compliance with the GSM Association’s antitrust compliance policy.GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 2 of 264
+Table of Contents
+1 Introduction 7
+1.1 Overview 7
+1.2 Scope 7
+1.3 Document Purpose 7
+1.4 Intended Audience 7
+1.5 Definition of Terms 7
+1.6 Abbreviations 12
+1.7 References 15
+1.8 Conventions 18
+2 General Architecture 18
+2.1 General Architecture Diagram 18
+2.2 Roles 20
+2.3 Interfaces 20
+2.4 eUICC Architecture 22
+2.4.1 eUICC Overview 22
+2.4.2 ECASD 22
+2.4.3 ISD-R 23
+2.4.4 ISD-P 24
+2.4.5 Profile 24
+2.4.6 Telecom Framework 26
+2.4.7 Profile Package Interpreter 26
+2.4.8 LPAe 26
+2.4.9 LPA Services 26
+2.4.10 Hardware Characteristics of the eUICC 26
+2.4.11 Platform Characteristics of the eUICC 27
+2.4.12 Profile Policy Enabler 29
+2.5 Profile Protection and Delivery 29
+2.5.1 Profile Package Types Overview 29
+2.5.2 Unprotected Profile Package 30
+2.5.3 Protected Profile Package 30
+2.5.4 Bound Profile Package 31
+2.5.5 Segmented Bound Profile Package 33
+2.5.6 Profile Installation Result 34
+2.6 Security Overview 37
+2.6.1 Certification of the Entities 37
+2.6.2 Remote Secure Communication 37
+2.6.3 Public Key Infrastructure 38
+2.6.4 Protocol for Profile Protection and eUICC Binding 38
+2.6.5 Key Length and Hashing Functions 39
+2.6.6 TLS Requirements 39
+2.6.7 Elliptic Curves Algorithms 40
+2.7 Certificate Revocation 40
+2.8 ASN.1 41GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 3 of 264
+2.8.1 Common ASN.1 data types 42
+2.8.2 ASN.1 data type UTF8String 42
+2.9 Profile Policy Management 43
+2.9.1 Profile Policy Rules 43
+2.9.2 Rules Authorisation Table (RAT) 43
+2.9.3 Profile Policy Enabler 47
+3 Procedures 49
+3.1 Remote Provisioning 49
+3.1.1 Profile Download Initiation 49
+3.1.2 Common Mutual Authentication Procedure 53
+3.1.3 Profile Download and Installation 58
+3.1.4 Limitation for Profile Installation 75
+3.1.5 Error Handling Within the Profile Download Procedure 75
+3.1.6 Profile Lifecycle at SM-DP+ 76
+3.2 Local Profile Management 79
+3.2.1 Enable Profile 79
+3.2.2 Disable Profile 83
+3.2.3 Delete Profile 87
+3.2.4 List Profiles 89
+3.2.5 Add Profile 90
+3.2.6 Set/Edit Nickname 91
+3.3 Local eUICC Management 93
+3.3.1 Retrieve EID 93
+3.3.2 eUICC Memory Reset 93
+3.3.3 eUICC Test Memory Reset 95
+3.3.4 Set/Edit Default SM-DP+ Address 96
+3.4 Device and eUICC Initialisation 97
+3.4.1 eUICC Initialisation 97
+3.4.2 RSP Device Capabilities 98
+3.4.3 eUICC File Structure 99
+3.4.4 Device Setup and Power-on Profile Discovery 99
+3.5 Notifications 100
+3.6 SM-DS 104
+3.6.1 Event Registration 104
+3.6.2 Event Retrieval 106
+3.6.3 Event Deletion 108
+4 Data Elements 111
+4.1 Activation Code 111
+4.1.1 Matching ID 112
+4.2 Device Information 112
+4.3 eUICC Information 114
+4.4 Profile Metadata 115
+4.4.1 Profile Class 116
+4.4.2 Profile Policy Rules 116GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 4 of 264
+4.5 Keys and Certificates 116
+4.5.1 Cryptographic Keys 116
+4.5.2 Certificates 117
+4.6 Certificate Revocation List 135
+4.6.1 CRL publication rules 138
+4.6.2 Specific CRL Extensions 138
+4.6.3 eUICC Considerations 139
+4.7 Confirmation Code 139
+5 Functions 140
+5.1 Overview of Functions per Interface 140
+5.2 Server to Server Function Commonalities 142
+5.2.1 Common Data Types 142
+5.2.2 Request-Response Function 143
+5.2.3 Notification Handler Function 143
+5.2.4 Functions Input Header 143
+5.2.5 Functions Output Header 143
+5.2.6 Status Code 143
+5.3 ES2+ (Operator -- SM-DP+) 146
+5.3.1 Function: DownloadOrder 146
+5.3.2 Function: ConfirmOrder 148
+5.3.3 Function: CancelOrder 150
+5.3.4 Function: ReleaseProfile 152
+5.3.5 Function: HandleDownloadProgressInfo 153
+5.4 ES6 (Operator -- eUICC) 155
+5.4.1 Function: UpdateMetadata 155
+5.5 ES8+ (SM-DP+ -- eUICC) 158
+5.5.1 Function: InitialiseSecureChannel 159
+5.5.2 Function: ConfigureISDP 161
+5.5.3 Function: StoreMetadata 161
+5.5.4 Function: ReplaceSessionKeys 163
+5.5.5 Function: LoadProfileElements 163
+5.6 ES9+ (LPA -- SM-DP+) 164
+5.6.1 Function: InitiateAuthentication 165
+5.6.2 Function: GetBoundProfilePackage 167
+5.6.3 Function: AuthenticateClient 169
+5.6.4 Function: HandleNotification 172
+5.6.5 Function: CancelSession 173
+5.7 ES10x (LPA -- eUICC) 174
+5.7.1 ISD-R Selection and LPAe Activation 175
+5.7.2 Transport Command 176
+5.7.3 Function (ES10a): GetEuiccConfiguredAddresses 178
+5.7.4 Function (ES10a): SetDefaultDpAddress 178
+5.7.5 Function (ES10b): PrepareDownload 179
+5.7.6 Function (ES10b): LoadBoundProfilePackage 181
+5.7.7 Function (ES10b): GetEUICCChallenge 181GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 5 of 264
+5.7.8 Function (ES10b): GetEUICCInfo 182
+5.7.9 Function: (ES10b): ListNotification 184
+5.7.10 Function (ES10b): RetrieveNotificationsList 185
+5.7.11 Function (ES10b): RemoveNotificationFromList 186
+5.7.12 Function (ES10b): LoadCRL 187
+5.7.13 Function (ES10b): AuthenticateServer 189
+5.7.14 Function (ES10b): CancelSession 191
+5.7.15 Function (ES10c): GetProfilesInfo 192
+5.7.16 Function (ES10c): EnableProfile 194
+5.7.17 Function (ES10c): DisableProfile 197
+5.7.18 Function (ES10c): DeleteProfile 199
+5.7.19 Function (ES10c): eUICCMemoryReset 200
+5.7.20 Function (ES10c): GetEID 201
+5.7.21 Function (ES10c): SetNickname 202
+5.7.22 Function (ES10b): GetRAT 203
+5.8 ES11 (LPA -- SM-DS) 204
+5.8.1 Function: InitiateAuthentication 204
+5.8.2 Function: AuthenticateClient 205
+5.9 ES12 (SM-DS -- SM-DP+) 207
+5.9.1 Function: RegisterEvent 207
+5.9.2 Function: DeleteEvent 209
+5.10 ES15 (SM-DS -- SM-DS) 210
+5.10.1 Function: RegisterEvent 211
+5.10.2 Function: DeleteEvent 211
+5.11 LUI in the eUICC (LUIe) 211
+5.11.1 LUIe using CAT 211
+5.11.2 LUIe using SCWS 211
+6 Interface binding over HTTP 211
+6.1 TLS Security 212
+6.1.1 Identification/Authentication/Authorisation 212
+6.1.2 Integrity 212
+6.1.3 Confidentiality 212
+6.2 HTTP request and response 212
+6.3 HTTP response status codes 213
+6.4 Secure Channel Set-Up on ES2+ 213
+6.5 Function Binding in JSON 214
+6.5.1 JSON message definition 214
+6.5.2 List of functions 216
+6.6 Function Binding in ASN.1 226
+6.6.1 ASN.1 message definition 226
+6.6.2 List of functions 227
+Annex A Use of GlobalPlatform Privileges (Normative) 231
+Annex B Data Definitions (Normative) 232
+Annex C Device Requirements (Normative) 233GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 6 of 264
+C.1 Functional Device Requirements 233
+C.2 Requirements for Companion Device Scenarios 234
+C.3 General LPA Requirements 235
+C.4 Support for CAT Mechanisms 237
+Annex D Coding of the AIDs for 'Remote SIM Provisioning' (Normative) 239
+Annex E List of Identifiers (Informative) 240
+Annex F Profile Eligibility Check (Informative) 242
+Annex G Key Derivation Process (Normative) 243
+Annex H ASN.1 Definitions (Normative) 244
+Annex I JSON Request Response Examples (Informative) 257
+Annex J Tag allocation (Normative) 260
+Annex K OID allocation (Informative) 262
+Annex L DLOA document (Normative) 263
+Annex M Document Management (Informative) 264
+M.1 Document History 264GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 7 of 264
+1 Introduction
+1.1 Overview
+This document provides a technical description of the GSMA’s 'Remote SIM Provisioning
+(RSP) Architecture for consumer Devices'.
+1.2 Scope
+This specification provides a technical description of:
+ The eUICC Architecture;
+ The interfaces used within the Remote SIM Provisioning Architecture; and
+ The security functions used within the Remote SIM Provisioning Architecture.
+1.3 Document Purpose
+This document defines a technical solution for the remote provisioning and management of
+the eUICC in consumer Devices as defined in RSP Architecture [4]. The adoption of this
+technical solution will provide the basis for global interoperability between different Operator
+deployment scenarios, for example network equipment (e.g. Subscription Manager Data
+Preparation (SM-DP+)) and various eUICC platforms.
+1.4 Intended Audience
+Technical experts working for Operators, SIM solution providers, consumer Device vendors,
+standards organisations, network infrastructure vendors, Service Providers and other
+industry bodies, etc.
+1.5 Definition of Terms
+Term Description
+Activation Code
+Information issued by an Operator/Service Provider to an End
+User. It is used by the End User to request the download and
+installation of a Profile.
+Activation Code Token A part of the Activation Code information provided by the
+Operator/Service Provider to refer to a Subscription.
+Alternative SM-DS
+SM-DS used in cascade mode with a Root SM-DS to redirect
+Event Registration from an SM-DP+ to the Root SM-DS or direct
+Event Registration from a SM-DP+ for an installed Profile.
+Authenticated Confirmation
+A mechanism by which the End User confirms their action
+through a method involving the input of personalised information
+(e.g. PIN, fingerprint).
+Bound Profile Package A Protected Profile Package that has been cryptographically
+linked to a particular eUICC.
+(Public Key) Certificate A certificate as defined in RFC 5280 Error! Reference source
+not found.Error! Reference source not found.[17].
+Certificate Authority A Certificate Authority is an entity that issues digital certificates.
+Certificate Issuer An Entity that is Authorised to Issue digital certificates.GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 8 of 264
+Companion Device A Device that relies on the capabilities of a Primary Device for
+the purpose of Remote SIM Provisioning.
+Confirmation Code A code entered by an End User required by the SM-DP+ to
+confirm the download of a Profile.
+Confirmation Code Required
+Flag
+A parameter to indicate whether the Confirmation Code is
+required.
+Device
+User equipment used in conjunction with an eUICC to connect
+to a mobile network. E.g. a tablet, wearable, smartphone or
+handset.
+Device Test Mode A mode hidden from the End User that allows access to and use
+of Test Profiles.
+Digital Letter Of Approval A digital representation of a Letter of Approval, signed by a
+DLOA Authority.
+Disabled (Profile) The state of a Profile where all files and applications (e.g. NAA)
+present in the Profile are not selectable.
+DLOA Authority
+In the context of this document, an entity that provides a
+certification, evaluation, approval, qualification, or validation
+scheme that delivers Digital Letters of Approval.
+DLOA Registrar A role that stores DLOAs and provides an interface to enable
+Management System to retrieve them.
+Enabled (Profile) The state of a Profile when its files and/or applications (e.g.,
+NAA) are selectable.
+eUICC
+A removable or non-removable UICC which enables the remote
+and/or local management of Profiles in a secure way.
+NOTE: The term originates from "embedded UICC".
+eUICC Certificate
+A certificate issued by the EUM for a specific eUICC.
+This Certificate can be verified using the EUM Certificate.
+eUICC Memory Reset An action that returns the eUICC to a state equivalent to a
+factory state.
+eUICC Test Memory Reset An action that deletes all post-issuance Test Profiles on an
+eUICC.
+EUM Certificate A certificate issued by a GSMA CI to a GSMA accredited EUM
+which can be used to verify eUICC Certificates.
+Event A Profile download which is set by an SM-DP+ on behalf of an
+Operator, to be processed by a specific eUICC.
+EventID Unique identifier of an Event for a specific EID generated by the
+SM-DP+ / SM-DS.
+Event Record
+The set of information stored on the SM-DS for a specific Event,
+via the Event Registration procedure. This information consists
+of either:
+ the Event-ID, EID, and SM-DP+ address or
+ the Event-ID, EID, and SM-DS address.
+Event Registration
+A process notifying the SM-DS on the availability of information
+on either a specific SM-DP+ or a specific SM-DS for a specific
+eUICC.GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 9 of 264
+GSMA Certificate Issuer A Certificate Authority accredited by GSMA.
+Integrated Circuit Card ID Unique number to identify a Profile in an eUICC as defined by
+ITU-T E.118 [21].
+International Mobile
+Subscriber Identity
+Unique identifier owned and issued by Mobile operators as
+defined in 3GPP TS 23.003 [35] section 2.2.
+Issuer Identifier Number The first 8 digits of the EID identifying the EUM issuing the
+eUICC.
+Issuer Security Domain A Security Domain on the UICC as defined by GlobalPlatform
+Card Specification [8].
+Letter of Approval (LOA)
+A letter generated by a Process Certification Authority,
+identifying a platform that has completed a certification,
+evaluation, approval, qualification, or validation scheme.
+Local Profile Assistant (LPA)
+A functional element in the Device or in the eUICC that provides
+the Local Profile Download (LPD), Local Discovery Services
+(LDS) and Local User Interface (LUI) features. When the LPA is
+located in the Device, they are called LPAd, LPDd, LUId, LDSd.
+When the LPA is located in the eUICC, they are called LPAe,
+LPDe, LUIe, LDSe. Where LPA, LPD, LDS or LUI are used, they
+apply to the element independent of its location in the Device or
+in the eUICC.
+Local Profile Management Local Profile Management are operations that are locally
+initiated on the End User (ESeu) interface.
+Local Profile Management
+Operation
+Local Profile Management Operations include enable Profile,
+disable Profile, delete Profile, query Profile Metadata, eUICC
+Memory Reset, eUICC Test Memory Reset, set/edit Nickname,
+add Profile and edit default SM-DP+ address.
+Management System
+In the context of this document, any authorized system
+interested in verifying the level of certification, evaluation,
+approval, qualification, or validation of an eUICC (e.g. an MNO
+backend system, an SM-DP+).
+MatchingID Reference data for an RSP Server which could be an Activation
+Code Token or the EventID.
+Mobile Network Operator An entity providing access capability and communication
+services to its End User through a mobile network infrastructure.
+Mobile Network Operator
+Security Domain (MNO-SD)
+Part of the Profile, owned by the Operator, providing the
+Secured Channel to the Operator’s Over The Air (OTA)
+Platform. It is used to manage the content of a Profile once the
+Profile is enabled.
+Network Access Application Application residing in a Profile providing authorisation to access
+a network.
+NFC Device A Device compliant with GSMA TS.26 [40].
+Notification A report about a Profile Installation or Local Profile Management
+Operation processed by the eUICC.GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 10 of 264
+Operational Profile
+A combination of Operator data and applications to be
+provisioned on an eUICC for the purposes of providing services
+by the Operator. The Profile SHALL be in support of a
+Subscription with the relevant Operator and allow connectivity to
+a mobile network. Applications MAY be included to provide nontelecommunication services.
+Operator A Mobile Network Operator or Mobile Virtual Network Operator;
+a company providing wireless cellular network services.
+OTA Keys The credentials included in the Profile, used in conjunction with
+OTA Platforms.
+OTA Platform An Operator platform for remote management of UICCs and the
+content of Enabled Operator Profiles on eUICCs.
+Other Notification Any Notification other than a Profile Installation Result.
+PIX Proprietary application Identifier extension, the value of which is
+part of the Application Identifier (AID).
+Primary Device A Device that can be used to provide some capabilities to a
+Companion Device for the purpose of Remote SIM Provisioning.
+Process Certification
+Authority
+The authority that provides the certification, evaluation,
+approval, qualification, and validation scheme defined in SGP.24
+and that delivers Digital Letters of Approval accordingly.
+In the context of this document, the Process Certification
+Authority is the GSMA.
+Profile A combination of data and applications to be provisioned on an
+eUICC for the purpose of providing services.
+Profile Component
+A Profile Component is an element of the Profile, when installed
+in the eUICC, and MAY be one of the following:
+ An element of the file system like an MF, EF or DF;
+ An Application, including NAA and Security Domain;
+ Profile Metadata, including Profile Policy Rules;
+ An MNO-SD.
+Profile Installation Result A Notification that contains the result of a Profile installation.
+Profile Management
+A combination of local and remote management operations
+(e.g.: enable Profile, disable Profile, delete Profile, and query
+Profile Metadata).
+Profile Management
+Operation
+An operation related to the content and state update of a Profile
+in a dedicated ISD-P on the eUICC.
+Profile Metadata Information pertaining to a Profile used for the purpose of Local
+Profile Management.
+Profile Nickname Alternative name of the Profile set by the End User.
+Profile Owner
+The entity that controls the operations that can be performed
+upon its Profile. With the exception of Test Profiles, this is
+always the Operator.
+Profile Package A personalised Profile using an interoperable description format
+that is transmitted to an eUICC to load and install a Profile.GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 11 of 264
+Profile Policy Authorisation
+Rule
+A set of data that governs the ability of a Profile Owner to make
+use of a Profile Policy Rule in a Profile.
+Profile Policy Enabler The functional element within the Profile management system
+that interprets and enforces Profile Policy Rules.
+Profile Policy Management
+A policy control system that allows the Service Provider to
+implement, manage and enforce its subscription terms and
+conditions associated with the installed Profile.
+Profile Policy Rule Defines a qualification for or enforcement of an action to be
+performed on a Profile when a certain condition occurs.
+Profile Type Operator specific defined type of Profile. This is equivalent to the
+"Profile Description ID" as described in Annex B of SGP.21 [4]
+Protected Profile Package A Profile Package which has been cryptographically protected
+for storage but not linked to a particular eUICC.
+Provisioning Profile
+A combination of Operator data and applications to be
+provisioned on an eUICC for the purposes of providing
+connectivity to a mobile network solely for the purpose of the
+provisioning of Profiles on the eUICC.
+NOTE: Use of Provisioning Profiles for other system services in
+version 3 of this specification may require modifications of this
+definition.
+Remote SIM Provisioning The downloading, installing, enabling, disabling, and deleting of
+a Profile on an eUICC.
+Roles Roles are representing a logical grouping of functions.
+Root SM-DS A globally identified central access point for finding Events from
+one or more SM-DP+(s).
+Rules Authorisation Table
+A set of Profile Policy Authorisation Rules that, together,
+determines the ability of a Profile Owner to make use of a set of
+Profile Policy Rules in a Profile.
+RSP Server Either an SM-DS or SM-DP+.
+Service Provider
+The organization through which the End User obtains PLMN
+telecommunication services. This is usually the network operator
+or possibly a separate body.
+Simple Confirmation A secure and non-interceptable mechanism by which the End
+User confirms their action, e.g. by selecting Yes/No, OK/Cancel.
+SM-DP+ Certificate A Certificate issued by a GSMA CI to a GSMA accredited SMDP+.
+SM-DS Certificate A Certificate used by a GSMA CI to a GSMA accredited SM-DS.
+SM-DP+ OID Identifier of the SM-DP+ that is globally unique and is included
+as part of the SM-DP+ Certificate.
+SM-DS OID Identifier of the SM-DS that is globally unique and is included as
+part of the SM-DS Certificate.
+Subscription Describes the commercial relationship between the End User
+and the Service Provider.GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 12 of 264
+Subscription Manager Data
+Preparation+ (SM-DP+)
+This role prepares Profile Packages, secures them with a Profile
+Protection Key, stores Profile Protection Keys in a secure
+manner and the Protected Profile Packages in a Profile Package
+repository, and allocates the Protected Profile Packages to
+specified EIDs.
+The SM-DP+ binds Protected Profile Packages to the respective
+EID and securely downloads these Bound Profile Packages to
+the LPA of the respective eUICC.
+Subscription Manager
+Discovery Server (SM-DS)
+This is responsible for providing addresses of one or more
+SM-DP+(s) to a LDS.
+Test Profile
+A combination of data and applications to be provisioned on an
+eUICC to provide connectivity to test equipment for the purpose
+of testing the Device and the eUICC. A test profile is not
+intended to store any Operator Credentials.
+User Intent
+Describes the direct, real time acquisition and validation of the
+manual End User instruction on the LUI to trigger locally a
+Profile download or Profile Management Operation. As defined
+in SGP.21 [4].
+1.6 Abbreviations
+Abbreviation Description
+AID Application Identifier
+ASN.1 Abstract Syntax Notation One
+BPP Bound Profile Package
+CA Certificate Authority
+CASD Controlling Authority Security Domain
+CAT Card Application Toolkit
+CERT.CI.ECDSA Certificate of the CI for its Public ECDSA Key
+CERT.DPauth.ECDSA Certificate of the SM-DP+ for its Public ECDSA key used for
+SM-DP+ authentication
+CERT.DPpb.ECDSA Certificate of the SM-DP+ for its Public ECDSA key used for
+Profile Package Binding
+CERT.DSauth.ECDSA Certificate of the SM-DS for its Public ECDSA key used for
+SM-DS authentication
+CERT.EUICC.ECDSA Certificate of the eUICC for its Public ECDSA key
+CERT.EUM.ECDSA Certificate of the EUM for its Public ECDSA key
+CERT.DP.TLS Certificate of the SM-DP+ for securing TLS
+CERT.DS.TLS Certificate of the SM-DS for securing TLS
+CI Certificate Issuer
+CMAC Cipher-based MAC
+CRL Certificate Revocation List
+CRT Control Reference TemplateGSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 13 of 264
+DH Diffie-Hellman
+DLOA Digital Letter Of Approval
+ECASD eUICC Controlling Authority Security Domain
+ECC Elliptic Curve Cryptography
+ECDSA Elliptic Curve cryptography Digital Signature Algorithm
+ECKA Elliptic Curve cryptography Key Agreement algorithm
+EID eUICC-ID as defined in SGP.02 [2]
+ETSI European Telecommunications Standards Institute
+EUM eUICC Manufacturer
+FFS For Further Study
+FQDN Fully Qualified Domain Name
+GID1 Group Identifier 1, as defined in 3GPP TS 31.102 [54]
+GID2 Group Identifier 2, as defined in 3GPP TS 31.102 [54]
+GP GlobalPlatform
+GSMA GSM Association
+HLR Home Location Register
+ICCID Integrated Circuit Card ID
+ICV Initial Chaining Vector
+IIN Issuer Identifier Number
+IMEI International Mobile Equipment Identity
+IMSI International Mobile Subscriber Identity
+ISD Issuer Security Domain
+ISD-P Issuer Security Domain Profile
+ISD-R Issuer Security Domain Root
+ISO International Standards Organisation
+ITU International Telecommunications Union
+LDS Local Discovery Service
+LDSd Local Discovery Service when LPA is in the Device
+LDSe Local Discovery Service when LPA is in the eUICC
+LOA Letter Of Approval
+LPA Local Profile Assistant
+LPAd Local Profile Assistant when LPA is in the Device
+LPAe Local Profile Assistant when LPA is in the eUICC
+LPD Local Profile Download
+LPDd Local Profile Download when LPA is in the Device
+LPDe Local Profile Download when LPA is in the eUICC
+LTE Long Term Evolution
+LUI Local User Interface
+LUId Local User Interface when LPA is in the DeviceGSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 14 of 264
+LUIe Local User Interface when LPA is in the eUICC
+M4M Mifare4MobileTM
+MAC Message Authentication Code
+MEP Message Exchange Pattern
+MNO Mobile Network Operator
+MOC Mandatory, Optional or Conditional
+NAA Network Access Application
+OTA Over The Air
+otPK.DP.ECKA One-time Public Key of the SM-DP+ for ECKA
+otPK.EUICC.ECKA One-time Public Key of the eUICC for ECKA
+otSK.DP.ECKA One-time Private Key of the SM-DP+ for ECKA
+otSK.EUICC.ECKA One-time Private Key of the eUICC for ECKA
+PE Profile Element
+PIX Proprietary application Identifier eXtension
+PKI Public Key Infrastructure
+PK.CI.ECDSA Public Key of the CI, part of the CERT.CI.ECDSA
+PK.DPauth.ECDSA Public Key of the SM-DP+ part of the CERT.DPauth.ECDSA
+PK.DPpb.ECDSA Public Key of the SM-DP+ part of the CERT.DPpb.ECDSA
+PK.DSauth.ECDSA Public Key of the SM-DS part of the CERT.DSauth.ECDSA
+PK.EUICC.ECDSA Public Key of the eUICC, part of the CERT.EUICC.ECDSA
+PK.EUM.ECDSA Public Key of the EUM, part of the CERT.EUM.ECDSA
+POS Point Of Sale
+PPAR Profile Policy Authorisation Rule
+PPE Profile Policy Enabler
+PPK Profile Protection Key
+PPK-ENC Profile Protection Key for message encryption/decryption
+PPK-MAC Profile Protection Key for message MAC generation/verification
+PPP Protected Profile Package
+PPR Profile Policy Rule
+RAT Rules Authorisation Table
+RFU Reserved for Future Use
+RSA Rivest / Shamir / Adleman asymmetric algorithm
+RSP Remote SIM Provisioning
+SAS Security Accreditation Scheme
+SBPP Segmented Bound Profile Package
+SCP Secure Channel Protocol
+SCWS Smartcard Web Server
+SD Security Domain
+S-ENC Session key for message encryption/decryptionGSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 15 of 264
+S-MAC Session Key for message MAC generation/verification
+ShS Shared Secret
+SK.CI.ECDSA Private key of the CI for signing certificates
+SK.DPauth.ECDSA Private Key of the of SM-DP+ for creating signatures for SM-DP+
+authentication
+SK.DPpb.ECDSA Private key of the SM-DP+ used to provide signatures for Profile
+binding
+SK.DSauth.ECDSA Private Key of the of SM-DS for creating signatures for SM-DS
+authentication
+SK.EUICC.ECDSA Private key of the eUICC for creating signatures
+SK.EUM.ECDSA Private key of the EUM for creating signatures
+SK.DP.TLS Private key of the SM-DP+ for securing TLS connection
+SK.DS.TLS Private key of the SM-DS for securing TLS connection
+SM-DP+ Subscription Manager Data Preparation (Enhanced compared to
+the SM-DP in SGP.02 [2])
+SVN SGP.22 Specification Version Number (referred to as 'eSVN' in
+SGP.21 [4]).
+TAC Type Allocation Code
+TAR Toolkit Application Reference
+TLS Transport Layer Security
+TLV Tag-Length-Value
+UI User Interface
+UPP Unprotected Profile Package
+URI Uniform Resource Identifier
+URL Uniform Resource locator
+USIM Universal Subscriber Identity Module
+W3C World Wide Web Consortium
+1.7 References
+Ref Document
+Number Title
+[1] TF_Req GSMA "Embedded SIM Task Force Requirements and Use
+Cases" Version 1.0
+[2] SGP.02 GSMA "Remote Provisioning of Embedded UICC Technical
+specification" V3.1
+[3] void Void
+[4] SGP.21 RSP Architecture V2.2
+[5] SIMalliance SIMalliance eUICC Profile Package: Interoperable Format
+Technical Specification V2.1
+[6] ETSI TS 102 221 Smart Cards; UICC-Terminal interfaceGSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 16 of 264
+[7]
+OMA-TSSmartcard_Web_
+Server-V1_2_1-
+20130913-A
+Open Mobile Alliance: Smartcard-Web-Server, Version 1.2.1 – 13
+Sep 2013
+[8] GPC_SPE_034 GlobalPlatform Card Specification v.2.3
+[9] GPC_SPE_007 GlobalPlatform Card Specification v.2.3 Amendment A:
+Confidential Card Content Management v1.1
+[10] GPC_SPE_025 GlobalPlatform Card Specification v.2.3 Amendment C:
+Contactless Services v1.2
+[11] GPC_SPE_014 GlobalPlatform Card Specification v.2.2 Amendment D: Secure
+Channel Protocol '03' v1.1.1
+[12] GPC_SPE_042 GlobalPlatform Card Specification v.2.2 Amendment E: Security
+Upgrade for Card Content Management v1.0
+[13] GPC_SPE_093 GlobalPlatform Card Specification v.2.2 Amendment F: Secure
+Channel Protocol '11'
+[14] ISO/IEC 7816-
+4:2013
+Identification cards – Integrated circuit cards - Part 4:
+Organization, security and commands for interchange
+[15] ISO/IEC
+18004:2015
+Information technology -- Automatic identification and data
+capture techniques -- QR Code bar code symbology specification
+[16] RFC 5246 The TLS Protocol – Version 1.2
+[17] RFC 5280 Internet X.509 PKI Certificate and CRL Profile
+[18] RFC 5639 Elliptic Curve Cryptography (ECC) Brainpool Standard Curves
+and Curve Generation
+[19] RFC 793 Transmission Control Protocol, DARPA Internet Program,
+Protocol specification, Sept 1981
+[20] ANSSI ECC
+FRP256V1
+Avis relatif aux paramètres de courbes elliptiques définis par l'Etat
+français. JORF n°0241 du 16 octobre 2011 page 17533. texte n°
+30. 2011
+[21] ITU E.118 The international telecommunication charge card
+[22]
+GSMA Security
+Principles Related
+to Handset Theft
+GSMA Doc Reference: Security Principles Related to Handset
+Theft 3.0.0
+EICTA CCIG Doc Reference: EICTA Doc: 04cc100
+[23] GSMA SAS-SM
+GSMA SAS Standard for Subscription Manager Roles
+Version 3.0 - 31 Marc 2017
+[24] ITU-T X.520 ITU-T X.520 Information technology – Open Systems
+Interconnection – The Directory: Selected attribute types
+[25] RFC 5758
+RFC 5758 Internet X.509 Public Key Infrastructure:
+Additional Algorithms and Identifiers for DSA and ECDSA
+[26] RFC 5759 RFC 5759 Suite B Certificate and Certificate Revocation List
+(CRL) Profile
+[27] RFC 5480 RFC 5480 Elliptic Curve Cryptography Subject Public Key
+Information
+[28] RFC 4519 Lightweight Directory Access Protocol (LDAP)GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 17 of 264
+[29] NIST SP 800-56A
+NIST Special Publication SP 800-56A: Recommendation for PairWise Key Establishment Schemes Using Discrete Logarithm
+Cryptography (Revision 2), May 2013
+[30] ITU E.212 The international identification plan for public networks and
+Subscriptions
+[31] ETSI TS 102 223 Smart Cards; Card Application Toolkit (CAT)
+[32] 3GPP TS 24.008
+Digital cellular telecommunications system (Phase 2+);
+Universal Mobile Telecommunications System (UMTS);
+LTE;
+Mobile radio interface Layer 3 specification;
+Core network protocols;
+Stage 3
+[33] ETSI TS 101 220 Smart Cards; ETSI numbering system for telecommunication
+application providers
+[34] RFC 768 User Datagram Protocol, Aug 1980.
+[35] 3GPP TS 23.003
+Digital cellular telecommunications system (Phase 2+);
+Universal Mobile Telecommunications System (UMTS);
+Numbering, addressing and identification
+[36] 3GPP2 S.R0048-
+A 3GPP2 - 3G Mobile Equipment Identifier (MEID)
+[37] ISO/IEC 7812-
+1:2015
+Identification cards -- Identification of issuers -- Part 1: Numbering
+system
+[38] ETSI TS 102 225 Secured packet structure for UICC based applications; Release
+12
+[39] ETSI TS 102 226 Remote APDU structure for UICC based applications; Release 9
+[40] TS.26 GSMA NFC Handset Requirements V9.0
+[41] BSI TR-03111 BSI Technical Guideline; Elliptic Curve Cryptography
+[42] Draft-ietf-tls-tls13-
+21
+The Transport Layer Security (TLS) Protocol Version 1.3, Draft
+12, draft-ietf-tls-tls13-21
+[43] RFC 2986 PKCS #10: Certification Request Syntax Specification
+[44] RFC 6960
+X.509 Internet Public Key Infrastructure
+Online Certificate Status Protocol - OCSP
+[45] SGP.14 GSMA eUICC PKI Certificate Policy V1.1
+[46] RFC 5289 TLS Elliptic Curve Cipher Suites with SHA-256/384 and AES
+Galois Counter Mode (GCM)
+[47] RFC 4279 Pre-Shared Key Cipher suites for Transport Layer Security (TLS)
+[48] RFC 2616 Hypertext Transfer Protocol -- HTTP/1.1
+[49] ITU-T X.680
+(11/2008)
+Abstract Syntax Notation One (ASN.1): Specification of basic
+notation including Corrigendum 1 and 2
+[50] ITU-T X.690
+(11/2008)
+ASN.1 Encoding Rules: Specification of Basic Encoding Rules
+(BER), Canonical Encoding Rules (CER) and Distinguished
+Encoding Rules (DER) including Corrigendum 1 and 2GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 18 of 264
+[51] 3GPP TS 35.231 Specification of the TUAK Algorithm Set; Document 1: Algorithm
+Specification
+[52] 3GPP TS 35.205 Specification of the MILENAGE Algorithm Set; Document 1:
+General
+[53] ETSI TS 102 241 Smart cards; UICC Application Programming Interface (UICC
+API) for Java Card™
+[54] 3GPP TS 31.102 Characteristics of the Universal Subscriber Identity Module
+(USIM) application
+[55] SGP.03 GSMA NFC UICC Requirements Specification V6.1
+[56] GPD_SPE_013 GlobalPlatform Device Technology – Secure Element Access
+Control - Version 1.1
+[57] GPC_SPE_095 GlobalPlatform Card - Digital Letter of Approval - Version 1.0
+[58] M4M MIFARE4Mobile Architecture – V 2.1.1
+[59] ISO/IEC
+10646:2014 Information technology — Universal Coded Character Set (UCS)
+[60] RFC 6066 Transport Layer Security (TLS) Extensions: Extension Definitions
+[61] RFC 2119
+Key words for use in RFCs to Indicate Requirement Levels, S.
+Bradner
+http://www.ietf.org/rfc/rfc2119.txt
+[62] 3GPP TS 34.108 Common test environments for User Equipment (UE);
+Conformance testing
+[63] 3GPP TS 29.002 Mobile Application Part (MAP) specification
+[64] SGP.24 RSP Compliance Process V1.1
+[65] RFC 4492
+Elliptic Curve Cryptography (ECC) Cipher Suites
+for Transport Layer Security (TLS)
+[66] RFC 7027 Elliptic Curve Cryptography (ECC) Brainpool Curves for Transport
+Layer Security (TLS)
+[67] RFC 2818 HTTP Over TLS
+[68] RFC 7159 IETF - The JavaScript Object Notation (JSON) Data Interchange
+Format
+1.8 Conventions
+The key words "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", and "MAY" in this
+document SHALL be interpreted as described in RFC 2119 [61].
+2 General Architecture
+This section contains a technical description and architecture of the Remote SIM
+Provisioning System for consumer Devices. The statements in this section define the basic
+characteristics that need to be taken into account when reviewing this specification.
+2.1 General Architecture Diagram
+This section further specifies the Roles and interfaces associated with the Remote SIM
+Provisioning and Management of the eUICC for consumer Devices.GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 19 of 264
+SM-DP+
+Operator
+End
+User
+EUM
+CI
+eUICC
+Device
+LPDd LUId
+LPAd
+ES2+
+ES10c
+ESeum
+ESeu
+ESop
+ES10b
+ES9+
+ES8+
+Production interfaces (out of scope)
+End User interfaces (out of scope)
+ES6
+Interface tunneled within
+other interfaces
+LDSd
+ES10a
+SM-DS
+ES12
+ES11
+ES15
+ESci
+ESci
+DLOA
+Registrar
+ESdloa Management
+System
+Figure 1: Remote SIM Provisioning System, LPA in the Device
+A Device compliant with this specification SHALL implement at least one of the following:
+ the LPAd, or
+ the requirements for one of the options for the LPAe (section 5.11).
+A Device that supports a non-removable eUICC without an LPAe SHALL provide an LPAd.
+An eUICC compliant with this specification SHALL implement the LPA Services and
+optionally the LPAe.
+A Device supporting both the LPAd and the LPAe SHALL implement an appropriate
+mechanism that sets the LPA to be used.
+The above figure provides the complete description of the consumer Remote SIM
+Provisioning and Management system, when LPA is in the Device (LPAd).
+The Remote SIM Provisioning and Management system also allows to have the LPA in the
+eUICC (LPAe). This architecture is shown in the following figure.GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 20 of 264
+SM-DP+
+Operator
+End
+User
+EUM
+CI
+eUICC
+Device
+ES2+
+ESeum
+ESeu
+ESop
+Production interfaces (out of scope)
+End User interfaces (out of scope)
+ES6
+Interface tunneled within
+other interfaces
+SM-DS
+ES12
+ES11
+ES15
+ESci
+ESci
+LPDe LUIe
+LPAe
+LDSe
+ES8+
+ES9+
+DLOA
+Registrar
+ESdloa Management
+System
+Figure 2: Remote SIM Provisioning System, LPA in the eUICC
+2.2 Roles
+Roles are defined within SGP.21 [4] Architecture Specification section 3.
+The DLOA Registrar is a role that stores DLOAs and provides an interface to enable
+authorised Management System to retrieve them. In the context of RSP, a well-known DLOA
+Registrar SHALL be defined (i.e. a well-known URL SHALL be defined), containing all the
+valid (not expired and not revoked) DLOAs delivered by the DLOA. This DLOA Registrar
+MAY also contain additional DLOAs delivered by other authorities. DLOAs delivered by the
+DLOA Authority MAY be provided to others DLOA Registrars (see section 5.7.8). The DLOA
+Registrar is defined in GlobalPlatform DLOA [57].
+In the context of this document, a Management System is any authorised system (e.g. a
+MNO backend system, an SM-DP+) interested in verifying the level of certification,
+evaluation, approval, qualification, or validation of a component (e.g. eUICC platform).
+2.3 Interfaces
+The following table provides information about the interfaces within the architecture.GSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 21 of 264
+Interface Between Description
+ES2+ Operator SM-DP+ Used by the Operator to order Profiles for specific eUICCs
+as well as other administrative functions.
+ES6 Operator eUICC Used by the Operator for the management of Operator
+services via OTA services.
+ES8+ SM-DP+ eUICC Provides a secure end-to-end channel between the SMDP+ and the eUICC for the administration of the ISD-P and
+the associated Profile during download and installation. It
+provides Perfect Forward Secrecy.
+ES9+ SM-DP+ LPD Used to provide a secure transport between the SM-DP+
+and the LPA (LPD) for the delivery of the Bound Profile
+Package.
+ES10a LDSd eUICC Used between the LDSd and the LPA Services to handle a
+Profile discovery.
+ES10b LPDd eUICC Used between the LPDd and the LPA services to transfer a
+Bound Profile Package to the eUICC. This interface plays
+no role in the decryption of Profile Packages.
+ES10c LUId eUICC Used between the LUId and the LPA services for Local
+Profile Management by the End User.
+ES11 LDS SM-DS Used by the LDS to retrieve Event Records for the
+respective eUICC.
+ES12 SM-DP+ SM-DS Used by the SM-DP+ to issue or remove Event
+Registrations on the SM-DS.
+ES15 SM-DS SM-DS Used in the case of deployments of cascaded SM-DSs to
+connect those SM-DSs.
+ESop Operator End User Business interface between Operator and End user (out of
+scope for SGP.22).
+ESeu End User LUI Interface to initiate local profile management functions (out
+of scope for SGP.22).
+ESeum eUICC EUM Administrative interface between the eUICC vendor (EUM)
+and the eUICC (out of scope of SGP.22).
+ESci CI SM-DP+
+SM-DS
+EUM
+This interface is used by the SM-DP+, SM-DS and EUM to
+request a Certificate and retrieve Certificate revocation
+status. Any other relying party MAY retrieve Certificate
+revocation status.
+The interface for Certificate Signing Request is defined in
+SGP.14 [45] section 5.1. The interface for CRL retrieval is
+defined in the present document, section 4.5.2.1.3
+"Extension CRL Distribution Points".
+ESdloa DLOA
+Registrar
+Management
+System
+This interface is defined in GlobalPlatform DLOA [57]
+section 5.
+Table 1:InterfacesGSM Association Non-confidential
+Official Document SGP.22 - RSP Technical Specification
+V2.2 Page 22 of 264
+2.4 eUICC Architecture
+2.4.1 eUICC Overview
+This section describes the internal high-level architecture of the eUICC. It should be noted
+that the eUICC architecture is very similar to that used in the GSMA Remote SIM
+Provisioning of Embedded UICC Technical specification [2]. Operator Profiles are stored
+inside Security Domains within the eUICC and are implemented using GlobalPlatform
+standards. These ensure that it is impossible for any Profile to access the applications or
+data of any other Profile stored on the eUICC. The same mechanism is currently in use
+within SIM cards to ensure payment applications are kept secure.
+eUICC
+Operating System
+Telecom
+Framework
+ISD-R
+ECASD
+MNO-SD
+Operator enabled Profile
+Profile
+Package
+Interpreter
+To SM-DP+
+To LPAd
+ES10a,b,c
+To Operator
+LPA
+Services
+File System
+NAAs
+Applets
+SSD
+CASD
+ISD-P
+ES6
+MNO-SD
+Operator disabled Profile
+File System
+NAAs
+Applets
+SSD
+CASD
+ISD-P
+LPAe
