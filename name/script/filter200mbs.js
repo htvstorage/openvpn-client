@@ -14,13 +14,6 @@ import { e } from "mathjs";
 import xlsx from "xlsx"
 import stats from "stats-analysis";
 
-import http from "node:http";
-import https from "node:https";
-
-const httpAgent = new http.Agent({ keepAlive: true });
-const httpsAgent = new https.Agent({ keepAlive: true });
-const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
-
 const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
 const log = new Console({ stdout: ts })
 
@@ -118,46 +111,6 @@ async function download() {
   console.table(industryPB)
 }
 
-let shares = {}
-async function ownership(list) {
-  let promises = [];
-  let stat = { req: 0, res: 0 }
-  for (let symbol of list) {
-    let a = fetch("https://restv2.fireant.vn/symbols/" + symbol + "/holders", {
-      "headers": {
-        "accept": "application/json, text/plain, */*",
-        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-        "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkdYdExONzViZlZQakdvNERWdjV4QkRITHpnSSIsImtpZCI6IkdYdExONzViZlZQakdvNERWdjV4QkRITHpnSSJ9.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmZpcmVhbnQudm4iLCJhdWQiOiJodHRwczovL2FjY291bnRzLmZpcmVhbnQudm4vcmVzb3VyY2VzIiwiZXhwIjoxOTQ3MjQ3NzkxLCJuYmYiOjE2NDcyNDc3OTEsImNsaWVudF9pZCI6ImZpcmVhbnQudHJhZGVzdGF0aW9uIiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsInJvbGVzIiwiZW1haWwiLCJhY2NvdW50cy1yZWFkIiwiYWNjb3VudHMtd3JpdGUiLCJvcmRlcnMtcmVhZCIsIm9yZGVycy13cml0ZSIsImNvbXBhbmllcy1yZWFkIiwiaW5kaXZpZHVhbHMtcmVhZCIsImZpbmFuY2UtcmVhZCIsInBvc3RzLXdyaXRlIiwicG9zdHMtcmVhZCIsInN5bWJvbHMtcmVhZCIsInVzZXItZGF0YS1yZWFkIiwidXNlci1kYXRhLXdyaXRlIiwidXNlcnMtcmVhZCIsInNlYXJjaCIsImFjYWRlbXktcmVhZCIsImFjYWRlbXktd3JpdGUiLCJibG9nLXJlYWQiLCJpbnZlc3RvcGVkaWEtcmVhZCJdLCJzdWIiOiIxZDY5YmE3NC0xNTA1LTRkNTktOTA0Mi00YWNmYjRiODA3YzQiLCJhdXRoX3RpbWUiOjE2NDcyNDc3OTEsImlkcCI6Ikdvb2dsZSIsIm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwic2VjdXJpdHlfc3RhbXAiOiI5NTMyOGNlZi1jZmY1LTQ3Y2YtYTRkNy1kZGFjYWJmZjRhNzkiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwidXNlcm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwiZnVsbF9uYW1lIjoiVHJpbmggVmFuIEh1bmciLCJlbWFpbCI6InRyaW5odmFuaHVuZ0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6InRydWUiLCJqdGkiOiJhMTY2MDQwOGNhMGFkYWQxOTcwZDVhNWZhMmFjNjM1NSIsImFtciI6WyJleHRlcm5hbCJdfQ.cpc3almBHrGu-c-sQ72hq6rdwOiWB1dIy1LfZ6cgjyH4YaBWiQkPt4l7M_nTlJnVOdFt9lM2OuSmCcTJMcAKLd4UmdBypeZUpTZp_bUv1Sd3xV8LHF7FSj2Awgw0HIaic08h1LaRg0pPzzf-IRJFT7YA8Leuceid6rD4BCQ3yNvz8r58u2jlCXuPGI-xA8W4Y3151hpNWCtemyizhzi7EKri_4WWpXrXPAeTAnZSdoSq87shTxm9Kyz_QJUBQN6PIEINl9sIQaKL-I_jR9LogYB_aM3hs81Ga6h-n-vbnFK8JR1JEJQmU-rxyX7XvuL-UjQVag3LxQeJwH7Nnajkkg",
-        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-site"
-      },
-      "referrerPolicy": "no-referrer",
-      "body": null,
-      "method": "GET",
-      "mode": "cors",
-      agent
-    });
-    stat.req++;
-    let promise = a.then(res => res.json()).then(data => {
-      stat.res++;
-
-      let sum = data.reduce((a, b) => { return { ownership: a.ownership + b.ownership, shares: b.shares + a.shares } }, { ownership: 0, shares: 0 })
-      sum.symbol = symbol;
-      if (stat.res % 10 == 0) console.log(stat, sum);
-      shares[symbol] = sum;
-      return sum;
-    }
-    )
-    promises.push(promise);
-  }
-  // console.log("------------ALLL----------")
-  let all = await Promise.all(promises);
-  //  console.log("------------ALLL----------",all)
-  return all;
-}
 async function industry() {
 
   let vndGetAllSymbols = await Exchange.vndGetAllSymbols();
@@ -167,7 +120,6 @@ async function industry() {
       return s.code.length <= 3 && s.status == 'listed'
     }).map(e => { return { code: e.code, floor: e.floor } })
 
-  ownership(symbolsVnd.map(e => e.code))
   let industry = await Exchange.vndIndustryClassification();
   let industryPE = await Exchange.vndIndustryPE();
   let industryPB = await Exchange.vndIndustryPB();
@@ -177,7 +129,7 @@ async function industry() {
   industryPB.forEach(e => { pbe[e.code] = { pb: e.value } })
   industryPE.forEach(e => { pbe[e.code] = { ...pbe[e.code], pe: e.value } })
 
-  // console.table(pbe)
+  console.table(pbe)
   industry.forEach(e => {
     let ne = {};
     ne.industryCode = e.industryCode;
@@ -190,10 +142,10 @@ async function industry() {
 
 
 
-  // console.table(industryPE)
-  // console.table(industryPB)
-  // console.table(mapIndustry)
-  // console.table(mapSymbol['HPG'])
+  console.table(industryPE)
+  console.table(industryPB)
+  console.table(mapIndustry)
+  console.table(mapSymbol['HPG'])
 
   let json = fs.readFileSync("./profile/ratio.json");
 
@@ -219,7 +171,7 @@ async function industry() {
 
   let out = {};
   ok.forEach(e => { out[e.symbol] = e })
-  // console.table(out)
+  console.table(out)
   return out;
 }
 
@@ -298,7 +250,7 @@ async function industry() {
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
   }
-  // console.table(str)
+  console.table(str)
   let floor = "HOSE";
   fs.writeFileSync(dir + "Filter" + "_table.log", str, (e) => { if (e) { console.log(e) } })
   fs.writeFileSync(dir + "Filter" + "_5p.json", JSON.stringify(ret), (e) => { if (e) { console.log(e) } })
@@ -395,11 +347,7 @@ async function loadData(path, resolve, stat, filter) {
   avg.priceLow = Math.floor(filterData.at(-1).priceLow * 100) / 100;
   avg.priceHigh = Math.floor(filterData.at(-1).priceHigh * 100) / 100;
   avg.priceOpen = Math.floor(filterData.at(-1).priceOpen * 100) / 100;
-  avg.priceBasic = Math.floor(filterData.at(-1).priceBasic * 100) / 100;
-  avg.pct = Math.floor((filterData.at(-1).priceClose - filterData.at(-1).priceBasic) / filterData.at(-1).priceBasic * 10000) / 100
-  let os = shares[symbol];  
-  avg.ownership = os != undefined? os.ownership: 0; 
-  avg.shares = os != undefined?os.shares:0;
+
   let hl = days.map((e, i) => { return [...datax[i].map(e => e.priceHigh), ...datax[i].map(e => e.priceLow)] })
   let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
   days.forEach((e, i) => {
@@ -429,9 +377,9 @@ async function loadData(path, resolve, stat, filter) {
     avg["RSVol" + e] = (Math.floor(vols.at(-1) / smaVol[i].at(-1) * 100) / 100);
   })
 
-  // console.table([avg])
+  console.table([avg])
   let keys = Object.keys(avg);
-  let fix = ["symbol", "priceClose", "priceLow", "priceHigh", "priceOpen", "priceBasic", "avgValue", "avgVol"]
+  let fix = ["symbol", "priceClose", "priceLow", "priceHigh", "priceOpen", "avgValue", "avgVol"]
   keys = keys.filter(e => !fix.includes(e));
   keys.sort();
   keys = [...fix, ...keys];
@@ -439,7 +387,7 @@ async function loadData(path, resolve, stat, filter) {
   keys.forEach(e => avgNew[e] = avg[e]);
   avg = avgNew;
   avg = { ...avg }
-  // console.table([avg])
+  console.table([avg])
 
   summarySymbol[symbol] = avg;
 
@@ -449,8 +397,12 @@ async function loadData(path, resolve, stat, filter) {
     resolve(summarySymbol);
   }
 
-  if (stat.res % 10 == 0)
+
+
+
+  if (stat.res % 1 == 0)
     console.log(stat)
+
 
 }
 
