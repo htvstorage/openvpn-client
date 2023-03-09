@@ -361,8 +361,8 @@ async function loadData(path, resolve, stat, filter) {
 
 
   let config = {
-    avgValue: 5000000000,
-    avgVol: 70000,
+    avgValue: 500000000,
+    avgVol: 10000,
   }
 
   let symbol = data[0].symbol;
@@ -403,7 +403,7 @@ async function loadData(path, resolve, stat, filter) {
   let hlp = days.map((e, i) => { return [...datax[i].map(e => (e.priceHigh - e.priceBasic)*100/e.priceBasic), ...datax[i].map(e => (e.priceLow - e.priceBasic)*100/e.priceBasic)] })
   let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
   let cp = days.map((e, i) => { return [...datax[i].map(e => (e.priceClose - e.priceBasic)*100/e.priceBasic)] })
-  let vol = days.map((e, i) => { return [...datax[i].map(e => e.dealVolume)] })
+  let vol = days.map((e, i) => { return [...datax[i].map(e => e.dealVolume)] })  
   let threshold = 1.645;
   days.forEach((e, i) => {
     avg["mean" + e] = Math.floor(stats.mean(c[i]) * 100) / 100;
@@ -418,6 +418,7 @@ async function loadData(path, resolve, stat, filter) {
     avg["stdVol" + e] = Math.floor(stats.mean(vol[i]) * 100) / 100;
     if(symbol == "STB") console.log(i,e, stats.mean(vol[i]), vol[i].at(0), stats.stdev(vol[i]),Math.floor(( Math.abs(stats.mean(vol[i]) - vol[i].at(0)) - threshold * stats.stdev(vol[i])) * 100) / 100)
     avg["OVol" + e] = Math.floor(( Math.abs(stats.mean(vol[i]) - vol[i].at(0)) - threshold * stats.stdev(vol[i])) * 100) / 100;
+    avg["ORVol" + e] = Math.floor(( Math.abs(stats.mean(vol[i]) - vol[i].at(0)) - threshold * stats.stdev(vol[i]))/Math.abs(stats.mean(vol[i])) * 100) / 100;
     // console.log(symbol, cp[i].at(0),c[i][0])
     avg["OCP" + e] = Math.floor(( Math.abs(stats.mean(cp[i]) - cp[i].at(0)) - threshold * stats.stdev(cp[i])) * 100) / 100;
     let min = Math.min(...hl[i]);
@@ -445,7 +446,7 @@ async function loadData(path, resolve, stat, filter) {
   // console.table([avg])
   let keys = Object.keys(avg);
   // console.log(JSON.stringify(keys))
-  let fix = ["symbol","avgValue","avgVol","priceClose","priceLow","priceHigh","priceOpen","priceBasic","pct","ownership","shares","OCP10","OCP100","OCP1000","OCP15","OCP20","OCP200","OCP3","OCP30","OCP365","OCP500","OCP7","OVol10","OVol100","OVol1000","OVol15","OVol20","OVol200","OVol3","OVol30","OVol365","OVol500","OVol7","meanCP10","meanCP100","meanCP1000","meanCP15","meanCP20","meanCP200","meanCP3","meanCP30","meanCP365","meanCP500","meanCP7","meanVol10","meanVol100","meanVol1000","meanVol15","meanVol20","meanVol200","meanVol3","meanVol30","meanVol365","meanVol500","meanVol7","stdCP10","stdCP100","stdCP1000","stdCP15","stdCP20","stdCP200","stdCP3","stdCP30","stdCP365","stdCP500","stdCP7","stdVol10","stdVol100","stdVol1000","stdVol15","stdVol20","stdVol200","stdVol3","stdVol30","stdVol365","stdVol500","stdVol7","mean10","mean100","mean1000","mean15","mean20","mean200","mean3","mean30","mean365","mean500","mean7","meanHL10","meanHL100","meanHL1000","meanHL15","meanHL20","meanHL200","meanHL3","meanHL30","meanHL365","meanHL500","meanHL7","meanHLP10","meanHLP100","meanHLP1000","meanHLP15","meanHLP20","meanHLP200","meanHLP3","meanHLP30","meanHLP365","meanHLP500","sma10","sma10%","sma100","sma100%","sma20","sma20%","sma200","sma200%","sma25","sma25%","sma26","sma26%","sma30","sma30%","sma5","sma5%","sma50","sma50%","std10","std100","std1000","std15","std20","std200","std3","std30","std365","std500","std7","stdHL10","stdHL100","stdHL1000","stdHL15","stdHL20","stdHL200","stdHL3","stdHL30","stdHL365","stdHL500","stdHL7","stdHLP10","stdHLP100","stdHLP1000","stdHLP15","stdHLP20","stdHLP200","stdHLP3","stdHLP30","stdHLP365","stdHLP500","stdHLP7"]
+  let fix = ["symbol","avgValue","avgVol","priceClose","priceLow","priceHigh","priceOpen","priceBasic","pct","ownership","shares","OCP10","OCP100","OCP1000","OCP15","OCP20","OCP200","OCP3","OCP30","OCP365","OCP500","OCP7","ORVol10","ORVol100","ORVol1000","ORVol15","ORVol20","ORVol200","ORVol3","ORVol30","ORVol365","ORVol500","ORVol7","OVol10","OVol100","OVol1000","OVol15","OVol20","OVol200","OVol3","OVol30","OVol365","OVol500","OVol7","stdCP10","stdCP100","stdCP1000","stdCP15","stdCP20","stdCP200","stdCP3","stdCP30","stdCP365","stdCP500","stdCP7","stdVol10","stdVol100","stdVol1000","stdVol15","stdVol20","stdVol200","stdVol3","stdVol30","stdVol365","stdVol500","stdVol7","meanCP10","meanCP100","meanCP1000","meanCP15","meanCP20","meanCP200","meanCP3","meanCP30","meanCP365","meanCP500","meanCP7","meanVol10","meanVol100","meanVol1000","meanVol15","meanVol20","meanVol200","meanVol3","meanVol30","meanVol365","meanVol500","meanVol7","mean10","mean100","mean1000","mean15","mean20","mean200","mean3","mean30","mean365","mean500","mean7","meanHL10","meanHL100","meanHL1000","meanHL15","meanHL20","meanHL200","meanHL3","meanHL30","meanHL365","meanHL500","meanHL7","meanHLP10","meanHLP100","meanHLP1000","meanHLP15","meanHLP20","meanHLP200","meanHLP3","meanHLP30","meanHLP365","meanHLP500","meanHLP7","RSVol10","RSVol100","RSVol20","RSVol200","RSVol25","RSVol26","RSVol30","RSVol5","RSVol50","sma10","sma10%","sma100","sma100%","sma20","sma20%","sma200","sma200%","sma25","sma25%","sma26","sma26%","sma30","sma30%","sma5","sma5%","sma50","sma50%","std10","std100","std1000","std15","std20","std200","std3","std30","std365","std500","std7","stdHL10","stdHL100","stdHL1000","stdHL15","stdHL20","stdHL200","stdHL3","stdHL30","stdHL365","stdHL500","stdHL7","stdHLP10","stdHLP100","stdHLP1000","stdHLP15","stdHLP20","stdHLP200","stdHLP3","stdHLP30","stdHLP365","stdHLP500","stdHLP7","SVol10","SVol100","SVol20","SVol200","SVol25","SVol26","SVol30","SVol5","SVol50"]
   keys = keys.filter(e => !fix.includes(e));
   keys.sort();
   keys = [...fix, ...keys];

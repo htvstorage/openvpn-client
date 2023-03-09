@@ -177,7 +177,7 @@ Exchange.getlistallsymbol = async function () {
   let ret = [];
   let c = 0;
 
-
+  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
   let f = async (resolve) => {
     for (let ex of exchange) {
       console.log(ex)
@@ -197,6 +197,7 @@ Exchange.getlistallsymbol = async function () {
       })
     }
   }
+  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'; 
   let promise = new Promise(f);
   return promise;
 }
