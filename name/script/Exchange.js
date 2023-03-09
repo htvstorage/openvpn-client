@@ -153,24 +153,19 @@ Exchange.finacialReport = async function (symbol) {
 //VPS
 Exchange.getlistallstock = async function () {
   let cop = [];
+  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
   let fet = await fetch("https://bgapidatafeed.vps.com.vn/getlistallstock", {
     "headers": {
-      "accept": "application/json, text/plain, */*",
-      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-      "if-none-match": "W/\"5ac92-c+NqjXQ6D2JFKgaxgUoTpIzr5z8\"",
-      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-      "sec-ch-ua-mobile": "?0",
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-site"
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9;application/json; charset=utf-8",      
     },
-    "referrer": "https://banggia.vps.com.vn/",
     "referrerPolicy": "strict-origin-when-cross-origin",
     "body": null,
     "method": "GET",
-    "mode": "cors"
+    "mode": "cors",
+    "credentials": "include"
   });
-  let xx = await fet.json();
+  let xx = await fet.json(); 
+  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'; 
   console.log(xx.length)
   cop = [...cop, ...xx];
   return cop;

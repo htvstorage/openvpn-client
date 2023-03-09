@@ -280,7 +280,7 @@ async function industry() {
 
   let ret = await promise;
 
-  console.table(ret)
+  // console.table(ret)
 
 
   let strtable = getTable(ret);
@@ -367,11 +367,10 @@ async function loadData(path, resolve, stat, filter) {
 
   let symbol = data[0].symbol;
 
-  let days = [3, 7, 15, 30, 100, 200, 365, 500, 1000];
+  let days = [3, 7, 10, 15, 20, 30, 100, 200, 365, 500, 1000];
 
   let data30 = filterData.slice(0, 30);
 
-  let data7 = filterData.slice(0, 7);
   let datax = days.map(e => filterData.slice(0, e));
 
 
@@ -401,19 +400,33 @@ async function loadData(path, resolve, stat, filter) {
   avg.ownership = os != undefined? os.ownership: 0; 
   avg.shares = os != undefined?os.shares:0;
   let hl = days.map((e, i) => { return [...datax[i].map(e => e.priceHigh), ...datax[i].map(e => e.priceLow)] })
+  let hlp = days.map((e, i) => { return [...datax[i].map(e => (e.priceHigh - e.priceBasic)*100/e.priceBasic), ...datax[i].map(e => (e.priceLow - e.priceBasic)*100/e.priceBasic)] })
   let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
+  let cp = days.map((e, i) => { return [...datax[i].map(e => (e.priceClose - e.priceBasic)*100/e.priceBasic)] })
+  let vol = days.map((e, i) => { return [...datax[i].map(e => e.dealVolume)] })
+  let threshold = 1.645;
   days.forEach((e, i) => {
     avg["mean" + e] = Math.floor(stats.mean(c[i]) * 100) / 100;
     avg["std" + e] = Math.floor(stats.stdev(c[i]) * 100) / 100;
-    avg["meanHL" + e] = Math.floor(stats.stdev(hl[i]) * 100) / 100;
+    avg["meanHL" + e] = Math.floor(stats.mean(hl[i]) * 100) / 100;
     avg["stdHL" + e] = Math.floor(stats.stdev(hl[i]) * 100) / 100;
+    avg["meanHLP" + e] = Math.floor(stats.mean(hlp[i]) * 100) / 100;
+    avg["stdHLP" + e] = Math.floor(stats.stdev(hlp[i]) * 100) / 100;
+    avg["stdCP" + e] = Math.floor(stats.stdev(cp[i]) * 100) / 100;
+    avg["meanCP" + e] = Math.floor(stats.mean(cp[i]) * 100) / 100;
+    avg["meanVol" + e] = Math.floor(stats.mean(vol[i]) * 100) / 100;
+    avg["stdVol" + e] = Math.floor(stats.mean(vol[i]) * 100) / 100;
+    if(symbol == "STB") console.log(i,e, stats.mean(vol[i]), vol[i].at(0), stats.stdev(vol[i]),Math.floor(( Math.abs(stats.mean(vol[i]) - vol[i].at(0)) - threshold * stats.stdev(vol[i])) * 100) / 100)
+    avg["OVol" + e] = Math.floor(( Math.abs(stats.mean(vol[i]) - vol[i].at(0)) - threshold * stats.stdev(vol[i])) * 100) / 100;
+    // console.log(symbol, cp[i].at(0),c[i][0])
+    avg["OCP" + e] = Math.floor(( Math.abs(stats.mean(cp[i]) - cp[i].at(0)) - threshold * stats.stdev(cp[i])) * 100) / 100;
     let min = Math.min(...hl[i]);
     let max = Math.max(...hl[i]);
     avg["min" + e] = min;
     avg["max" + e] = max;
     avg["%MM" + e] = Math.floor((max - min) / max * 10000) / 100;
-    avg["%PriceMax" + e] = Math.floor((max - prices.at(-1)) / max * 10000) / 100;
-    avg["%PriceMin" + e] = Math.floor((prices.at(-1) - min) / min * 10000) / 100;
+    avg["%PriceMax" + e] = Math.floor((max - filterData.at(-1).priceBasic) / max * 10000) / 100;
+    avg["%PriceMin" + e] = Math.floor((min - filterData.at(-1).priceBasic) / min * 10000) / 100;
   });
 
 
@@ -431,7 +444,8 @@ async function loadData(path, resolve, stat, filter) {
 
   // console.table([avg])
   let keys = Object.keys(avg);
-  let fix = ["symbol", "priceClose", "priceLow", "priceHigh", "priceOpen", "priceBasic", "avgValue", "avgVol"]
+  // console.log(JSON.stringify(keys))
+  let fix = ["symbol","avgValue","avgVol","priceClose","priceLow","priceHigh","priceOpen","priceBasic","pct","ownership","shares","OCP10","OCP100","OCP1000","OCP15","OCP20","OCP200","OCP3","OCP30","OCP365","OCP500","OCP7","OVol10","OVol100","OVol1000","OVol15","OVol20","OVol200","OVol3","OVol30","OVol365","OVol500","OVol7","meanCP10","meanCP100","meanCP1000","meanCP15","meanCP20","meanCP200","meanCP3","meanCP30","meanCP365","meanCP500","meanCP7","meanVol10","meanVol100","meanVol1000","meanVol15","meanVol20","meanVol200","meanVol3","meanVol30","meanVol365","meanVol500","meanVol7","stdCP10","stdCP100","stdCP1000","stdCP15","stdCP20","stdCP200","stdCP3","stdCP30","stdCP365","stdCP500","stdCP7","stdVol10","stdVol100","stdVol1000","stdVol15","stdVol20","stdVol200","stdVol3","stdVol30","stdVol365","stdVol500","stdVol7","mean10","mean100","mean1000","mean15","mean20","mean200","mean3","mean30","mean365","mean500","mean7","meanHL10","meanHL100","meanHL1000","meanHL15","meanHL20","meanHL200","meanHL3","meanHL30","meanHL365","meanHL500","meanHL7","meanHLP10","meanHLP100","meanHLP1000","meanHLP15","meanHLP20","meanHLP200","meanHLP3","meanHLP30","meanHLP365","meanHLP500","sma10","sma10%","sma100","sma100%","sma20","sma20%","sma200","sma200%","sma25","sma25%","sma26","sma26%","sma30","sma30%","sma5","sma5%","sma50","sma50%","std10","std100","std1000","std15","std20","std200","std3","std30","std365","std500","std7","stdHL10","stdHL100","stdHL1000","stdHL15","stdHL20","stdHL200","stdHL3","stdHL30","stdHL365","stdHL500","stdHL7","stdHLP10","stdHLP100","stdHLP1000","stdHLP15","stdHLP20","stdHLP200","stdHLP3","stdHLP30","stdHLP365","stdHLP500","stdHLP7"]
   keys = keys.filter(e => !fix.includes(e));
   keys.sort();
   keys = [...fix, ...keys];
