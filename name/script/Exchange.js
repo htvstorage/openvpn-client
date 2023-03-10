@@ -153,7 +153,7 @@ Exchange.finacialReport = async function (symbol) {
 //VPS
 Exchange.getlistallstock = async function () {
   let cop = [];
-  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+  // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
   let fet = await fetch("https://bgapidatafeed.vps.com.vn/getlistallstock", {
     "headers": {
       "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9;application/json; charset=utf-8",      
@@ -165,7 +165,7 @@ Exchange.getlistallstock = async function () {
     "credentials": "include"
   });
   let xx = await fet.json(); 
-  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'; 
+  // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'; 
   console.log(xx.length)
   cop = [...cop, ...xx];
   return cop;
@@ -177,7 +177,7 @@ Exchange.getlistallsymbol = async function () {
   let ret = [];
   let c = 0;
 
-  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+  // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
   let f = async (resolve) => {
     for (let ex of exchange) {
       console.log(ex)
@@ -197,7 +197,7 @@ Exchange.getlistallsymbol = async function () {
       })
     }
   }
-  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'; 
+  // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'; 
   let promise = new Promise(f);
   return promise;
 }

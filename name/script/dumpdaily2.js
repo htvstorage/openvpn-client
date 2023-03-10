@@ -312,7 +312,7 @@ async function getTrans(symbol) {
 
 async function getlistallstock() {
   let cop = [];
-  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+  // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
   let fet = await fetch("https://bgapidatafeed.vps.com.vn/getlistallstock", {
     "headers": {
       "accept": "application/json, text/plain, */*",
@@ -331,7 +331,7 @@ async function getlistallstock() {
     "mode": "cors"
   }, { timeout: 5000 });
   let xx = await fet.json();
-  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1';
+  // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1';
   console.log(xx.length)
   cop = [...cop, ...xx];
   return cop;
@@ -385,7 +385,7 @@ function loadCoporate() {
 
 async function getliststockdata(list, ret) {
   let maxURLLength = 2048;
-  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+  // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
   let url = "https://bgapidatafeed.vps.com.vn/getliststockdata/";
 
   for (let i = 0; i < list.length; i++) {
@@ -419,6 +419,6 @@ async function getliststockdata(list, ret) {
       url = "https://bgapidatafeed.vps.com.vn/getliststockdata/";
     }
   }
-  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1';
+  // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1';
 }
 
