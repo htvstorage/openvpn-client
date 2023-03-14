@@ -129,7 +129,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       x['Code'] = x.stock_code;
       if (x.Code.length < 4) {
         logger.trace(x.Code);
-        while (stat.req - stat.res >= 500) {
+        while (stat.req - stat.res >= 100) {
           await wait(200);
         }
         // let z = getTrans(x.Code);

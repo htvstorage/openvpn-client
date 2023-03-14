@@ -658,25 +658,26 @@ Exchange.VietStock.GetStockDealDetail = async function (code) {
         "accept": "*/*",
         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
         "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
-        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
         "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
         "x-requested-with": "XMLHttpRequest",
-        "cookie": "_ga=GA1.2.70802173.1668475499; _cc_id=bd4b49a4b7a58cfaeb38724516b82171; dable_uid=35370669.1668475569175; dable_uid=35370669.1668475569175; __gads=ID=af0897d5e697b47b-2219cdf973d800fc:T=1668475507:S=ALNI_MaL0TTHW6nK5yq36h7SKojzDZdS3w; AnonymousNotification=; language=vi-VN; Theme=Light; panoramaId=4d0c5a1ada413b921c9b37c6d8d4a9fb927a0d4a71477931e7d9d438d60721a2; ASP.NET_SessionId=othnew1qjmrsmavlddx3gz03; __RequestVerificationToken=NoSSGh71lr_0dIZznhkpmZ385YIe4tzWFi7Equ0cI1OLPzQE_NN6582kenS7hjrexZqey2gS68XSXMGlmvBAynOFK2r7ob3SuvcOuu5DRQY1; isShowLogin=true; _gid=GA1.2.535529265.1675913802; __gpi=UID=00000b7c20f7c81e:T=1668475507:RT=1675913766:S=ALNI_MbZNgtWTtbRI1MrLcfM5qFq0RIBMQ; panoramaId_expiry=1676000168434; cto_bundle=bIiAtF9GalVXbDclMkJNeHNwS0pTN0VtbThsUHd2YjlJRWRyT0gxVmg3cjl0MDVldkNuM1BiWDNnZzdSMnpQUElEQ2tTRXB5cklHTml6SFdSdEZmMHBFSHNvT1FITWtTZTFlQzZhRFFvSExkbmhxN0I5a1ltSTNwb0lEVEtZa0JvMDB4dmNGUElaanlOSTBmSVdRVnRMa1ZwZVo5QSUzRCUzRA; vts_usr_lg=51B4A9EA2E6C8B85E4AC3D8540AC7931336BBB7C1C0A447BE4A45C579B217BDF940DA17645BE1258B9E289B651394628DB88F2AF4AD8E2E4FA1416F5E1B569C7B07A34A61A493D4C3205EE75073AF3B5FD82BD13D88EDB7B5189EE0A7EBF2B4068F4815CD11862503D34B9A26F23D48FE48BA7075D5813716CDB6160FAFF28BD; vst_usr_lg_token=OKKGaBD+xki/sFtdIz95ew==; finance_viewedstock=HPG,"
+        "cookie": "dable_uid=46723758.1644994739059; __gpi=UID=00000bd97c7cdd2f:T=1678806513:RT=1678806513:S=ALNI_MadDA1XpVCXeuv0P1jWAh4zYS0_8w; language=vi-VN; ASP.NET_SessionId=ogswqimyivnxichlp13xi34c; __RequestVerificationToken=Igoh9CdTNDN_t4J8S1YFQhkDeQfYKuWmPckzDmUCmh5Du6wu_HGPQOml50xCsaaVnb7fKjxbUdiGOQ061Owvs3AZyBdJbyM2OIEAI9gIGVI1; __gads=ID=721c8eaa2e8f22d3-22f8c7cda5d000cd:T=1645157750:S=ALNI_MZh5NgENMPsCTg6pJbv8zxT4E9E0g; panoramaId_expiry=1679411315932; _cc_id=a013cc43b44e1570bea28d91e839eaa3; panoramaId=8722d4a89952df2a29480af8ec3916d539382765cf514dd8159e219acf1c5666; vts_usr_lg=32F94DB391D74621542297042A904D5CAD0E0D7F82652193914A79DEB0ADE90261EC0D3F2F946C9E3EA7C178E9F9F44A4665799A13285E75ABF9CBD0AF775B2F218E50C808EF7A8607967CBC1E83B163D195D3165EF42335AFE167B089F117343D87EDC984906A030675896CE79C30A32C71903D6268199A2CAE33AB989ED06B; finance_viewedstock=HPG,; Theme=Light; _pbjs_userid_consent_data=3524755945110770; _gid=GA1.2.2091741562.1678806641; cto_bidid=ErD4ol9OJTJCSDZtclFHSEF2VHBnWG1VU3klMkZPNyUyQjF3NTFkNjFkTDRNZEhRMlY2dm1HYnUzRGtWSiUyQjlmRmJmVEdObmFUd0lmUFJaS2hMJTJGaGJwMlA4SUVQQ3BkemlNRDFMdXgzc3lqYWxEUnFVYnpIbmMlM0Q; cto_bundle=JNwMhl9NZjBxRmpsak5QTWxDSyUyRndvYW0zUzdNNTRBNVFhckJqc0JtQkdlRGV2WEVHTXlSdyUyQnJqeXFtcmxhcCUyRmtkU1B5dTI3aGROOWMzZ2c3bHVUNEFDZEVPemoxMVJySnRYOGVOSzlibjFkTDVUN1U5OWRjZk1QZTJoajZydG5peGZYbW9NOWJmRSUyRkt6WXZGcVF1czNtcWJmZyUzRCUzRA; _ga=GA1.1.332676730.1645157750; _ga_EXMM0DKVEX=GS1.1.1678806513.1.1.1678806756.0.0.0",
+        "Referer": "https://finance.vietstock.vn/HPG/thong-ke-giao-dich.htm",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
       },
-      "referrer": "https://finance.vietstock.vn/HPG/thong-ke-giao-dich.htm",
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "body": "code=" + code + "&seq=0&__RequestVerificationToken=0eTIXSDv3VjEnVLpLXeAIh9eJcf_0DdtKOoMJY825I3ypV_jLcbrBY1zR5H85bcZZfr4GR4t13esW3MCjlTZq_IXBJjNf2M0ZwIu0L_Wt9AsyRr8m6BdyPjltdoLyZzV0",
+      "body": "code="+code+"&seq=0&__RequestVerificationToken=HP_jzP_8uVvcAdSiLii8tf2-Y9IdI9fGcmiiQL9n2iYcU8oHmezNkt4rA5-hHn87tINYh1LifAq_JMlY8IavLe53_RddBcu7BqI7M6vh4qWMLyfRYRSWS5Xu00Q729IZ0",
       "method": "POST",
-      "mode": "cors",
       agent
     });
   }
   let a = await vietFetch(code);
 
   let data = await a.text();
+  // console.log(data)
   while (!data.startsWith("[")) {
     await Exchange.wait(200);
     a = await vietFetch(code);
