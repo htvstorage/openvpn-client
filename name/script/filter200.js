@@ -408,9 +408,32 @@ async function loadData(path, resolve, stat, filter) {
   let cp = days.map((e, i) => { return [...datax[i].map(e => (e.priceClose - e.priceBasic) * 100 / e.priceBasic)] })
   let vol = days.map((e, i) => { return [...datax[i].map(e => e.dealVolume)] })
   let val = days.map((e, i) => { return [...datax[i].map(e => e.totalValue)] })
+  let BSL = days.map((e, i) => { return [...datax[i].map(e => e.buyCount)] })
+  let BQ = days.map((e, i) => { return [...datax[i].map(e => e.buyQuantity)] })
+  let SSL = days.map((e, i) => { return [...datax[i].map(e => e.sellCount)] })
+  let SQ = days.map((e, i) => { return [...datax[i].map(e => e.sellQuantity)] })
+  let BSSL = days.map((e, i) => { return [...datax[i].map(e => e.buyCount / e.sellCount)] })
+  let BSQ = days.map((e, i) => { return [...datax[i].map(e => e.buyQuantity / e.sellQuantity)] })
+
+  let m = {
+    BSL: BSL,
+    BQ: BQ,
+    SSL: SSL,
+    SQ: SQ,
+    BSSL: BSSL,
+    BSQ: BSQ,
+  }
+
   let threshold = 1.645;
   avg.vol = filterData.at(-1).dealVolume;
   avg.val = filterData.at(-1).totalValue;
+
+  Object.keys(m).forEach(
+    me=>{
+      avg[me] = m[me][0].at(0);
+    }
+  )
+
   days.forEach((e, i) => {
     avg["mean" + e] = Math.floor(stats.mean(c[i]) * 100) / 100;
     avg["std" + e] = Math.floor(stats.stdev(c[i]) * 100) / 100;
@@ -421,7 +444,9 @@ async function loadData(path, resolve, stat, filter) {
     avg["stdCP" + e] = Math.floor(stats.stdev(cp[i]) * 100) / 100;
     avg["meanCP" + e] = Math.floor(stats.mean(cp[i]) * 100) / 100;
     avg["meanVol" + e] = Math.floor(stats.mean(vol[i]) * 100) / 100;
-    avg["stdVol" + e] = Math.floor(stats.mean(vol[i]) * 100) / 100;
+    avg["stdVol" + e] = Math.floor(stats.stdev(vol[i]) * 100) / 100;
+
+
     // if (symbol == "STB") console.log(i, e, stats.mean(vol[i]), vol[i].at(0), stats.stdev(vol[i]), Math.floor((Math.abs(stats.mean(vol[i]) - vol[i].at(0)) - threshold * stats.stdev(vol[i])) * 100) / 100)
     avg["OVol" + e] = Math.floor((Math.abs(stats.mean(vol[i]) - vol[i].at(0)) - threshold * stats.stdev(vol[i])) * 100) / 100;
     avg["ORVol" + e] = Math.floor((Math.abs(stats.mean(vol[i]) - vol[i].at(0)) - threshold * stats.stdev(vol[i])) / Math.abs(stats.mean(vol[i])) * 100) / 100;
@@ -432,6 +457,17 @@ async function loadData(path, resolve, stat, filter) {
     avg["ORVal" + e] = Math.floor((Math.abs(stats.mean(val[i]) - val[i].at(0)) - threshold * stats.stdev(val[i])) / Math.abs(stats.mean(val[i])) * 100) / 100;
     // console.log(symbol, cp[i].at(0),c[i][0])
     avg["OCP" + e] = Math.floor((Math.abs(stats.mean(cp[i]) - cp[i].at(0)) - threshold * stats.stdev(cp[i])) * 100) / 100;
+
+    Object.keys(m).forEach(
+      me=>{
+        let mean = stats.mean(m[me][i])
+        let std = stats.stdev(m[me][i])
+        avg["mean"+me+e] = Math.floor(mean * 100) / 100;
+        avg["std"+me+e] =Math.floor(std * 100) / 100;
+        avg["O"+me+e] = Math.floor((Math.abs(mean - m[me][i].at(0)) - threshold * std) * 100) / 100;
+      }
+    )
+
     let min = Math.min(...hl[i]);
     let max = Math.max(...hl[i]);
     avg["min" + e] = min;
@@ -439,6 +475,8 @@ async function loadData(path, resolve, stat, filter) {
     avg["%MM" + e] = Math.floor((max - min) / max * 10000) / 100;
     avg["%PriceMax" + e] = Math.floor((max - filterData.at(-1).priceBasic) / max * 10000) / 100;
     avg["%PriceMin" + e] = Math.floor((min - filterData.at(-1).priceBasic) / min * 10000) / 100;
+
+
   });
 
 
@@ -464,27 +502,27 @@ async function loadData(path, resolve, stat, filter) {
   // console.table(rsi)
   avg.rsi = rsi.at(-1)
 
-const bb = { period: 20, stdDev: 2 , values: prices };
-const macd = { fastPeriod: 12, slowPeriod: 26, signalPeriod: 9,values: prices, };
-const stochasticRsi = { stochasticPeriod: 14, rsiPeriod: 14, period:14, kPeriod: 3, dPeriod: 3 };
-// const mfi = { period: 14 , values: prices, };
-// const rsi = { period: 14 , values: prices,}
+  const bb = { period: 20, stdDev: 2, values: prices };
+  const macd = { fastPeriod: 12, slowPeriod: 26, signalPeriod: 9, values: prices, };
+  const stochasticRsi = { stochasticPeriod: 14, rsiPeriod: 14, period: 14, kPeriod: 3, dPeriod: 3 };
+  // const mfi = { period: 14 , values: prices, };
+  // const rsi = { period: 14 , values: prices,}
 
-var bbo = BollingerBands.calculate(bb);
-var macdo = MACD.calculate(macd);
-// var srsio = StochasticRSI.calculate(stochasticRsi);
-// console.table(bbo.slice(0,10))
-// console.table(macdo.slice(0,10))
-let bbe = bbo.at(-1);
-let macde = macdo.at(-1);
-// console.log(symbol)
-// console.table([bbe])
-// console.table([macde])
-  Object.keys(bbe).forEach(e=>{
-    avg["BB"+e] = bbe[e];
+  var bbo = BollingerBands.calculate(bb);
+  var macdo = MACD.calculate(macd);
+  // var srsio = StochasticRSI.calculate(stochasticRsi);
+  // console.table(bbo.slice(0,10))
+  // console.table(macdo.slice(0,10))
+  let bbe = bbo.at(-1);
+  let macde = macdo.at(-1);
+  // console.log(symbol)
+  // console.table([bbe])
+  // console.table([macde])
+  Object.keys(bbe).forEach(e => {
+    avg["BB" + e] = bbe[e];
   })
-  Object.keys(macde).forEach(e=>{
-    avg["MACD"+e] = macde[e];
+  Object.keys(macde).forEach(e => {
+    avg["MACD" + e] = macde[e];
   })
 
   // console.table([avg])

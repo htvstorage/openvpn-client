@@ -33,7 +33,7 @@ log4js.configure({
       fields: ['adjRatio', 'buyCount', 'buyForeignQuantity', 'buyForeignValue', 'buyQuantity', 'currentForeignRoom',
         'date', 'dealVolume', 'priceAverage', 'priceBasic', 'priceClose', 'priceHigh', 'priceLow', 'priceOpen',
         'propTradingNetDealValue', 'propTradingNetPTValue', 'propTradingNetValue', 'putthroughValue', 'putthroughVolume',
-        'sellCount', 'sellForeignQuantity', 'sellForeignValue', 'sellQuantity', 'symbol', 'totalValue']
+        'sellCount', 'sellForeignQuantity', 'sellForeignValue', 'sellQuantity', 'symbol', 'totalValue','totalVolume']
     });
 
   let fet = await fetch("https://bgapidatafeed.vps.com.vn/getlistallstock", {
