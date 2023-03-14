@@ -17,6 +17,9 @@ import stats from "stats-analysis";
 import http from "node:http";
 import https from "node:https";
 
+
+
+
 const httpAgent = new http.Agent({ keepAlive: true });
 const httpsAgent = new https.Agent({ keepAlive: true });
 const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
@@ -167,7 +170,7 @@ async function industry() {
       return s.code.length <= 3 && s.status == 'listed'
     }).map(e => { return { code: e.code, floor: e.floor } })
 
-  ownership(symbolsVnd.map(e => e.code))
+  // ownership(symbolsVnd.map(e => e.code))
   let industry = await Exchange.vndIndustryClassification();
   let industryPE = await Exchange.vndIndustryPE();
   let industryPB = await Exchange.vndIndustryPB();
@@ -451,10 +454,43 @@ async function loadData(path, resolve, stat, filter) {
     avg["RSVol" + e] = (Math.floor(vols.at(-1) / smaVol[i].at(-1) * 100) / 100);
   })
 
+  var inputRSI = {
+    values: prices,
+    period: 14
+  };
+
+
+  var rsi = RSI.calculate(inputRSI);
+  // console.table(rsi)
+  avg.rsi = rsi.at(-1)
+
+const bb = { period: 20, stdDev: 2 , values: prices };
+const macd = { fastPeriod: 12, slowPeriod: 26, signalPeriod: 9,values: prices, };
+const stochasticRsi = { stochasticPeriod: 14, rsiPeriod: 14, period:14, kPeriod: 3, dPeriod: 3 };
+// const mfi = { period: 14 , values: prices, };
+// const rsi = { period: 14 , values: prices,}
+
+var bbo = BollingerBands.calculate(bb);
+var macdo = MACD.calculate(macd);
+// var srsio = StochasticRSI.calculate(stochasticRsi);
+// console.table(bbo.slice(0,10))
+// console.table(macdo.slice(0,10))
+let bbe = bbo.at(-1);
+let macde = macdo.at(-1);
+// console.log(symbol)
+// console.table([bbe])
+// console.table([macde])
+  Object.keys(bbe).forEach(e=>{
+    avg["BB"+e] = bbe[e];
+  })
+  Object.keys(macde).forEach(e=>{
+    avg["MACD"+e] = macde[e];
+  })
+
   // console.table([avg])
   let keys = Object.keys(avg);
   // console.log(JSON.stringify(keys))
-  let fix = ["symbol","avgValue","avgVol","priceClose","priceLow","priceHigh","priceOpen","priceBasic","pct","ownership","shares","vol","val","OCP10","OCP100","OCP1000","OCP15","OCP20","OCP200","OCP3","OCP30","OCP365","OCP500","OCP7","ORVal10","ORVal100","ORVal1000","ORVal15","ORVal20","ORVal200","ORVal3","ORVal30","ORVal365","ORVal500","ORVal7","ORVol10","ORVol100","ORVol1000","ORVol15","ORVol20","ORVol200","ORVol3","ORVol30","ORVol365","ORVol500","ORVol7","OVal10","OVal100","OVal1000","OVal15","OVal20","OVal200","OVal3","OVal30","OVal365","OVal500","OVal7","OVol10","OVol100","OVol1000","OVol15","OVol20","OVol200","OVol3","OVol30","OVol365","OVol500","OVol7","stdCP10","stdCP100","stdCP1000","stdCP15","stdCP20","stdCP200","stdCP3","stdCP30","stdCP365","stdCP500","stdCP7","stdVal10","stdVal100","stdVal1000","stdVal15","stdVal20","stdVal200","stdVal3","stdVal30","stdVal365","stdVal500","stdVal7","stdVol10","stdVol100","stdVol1000","stdVol15","stdVol20","stdVol200","stdVol3","stdVol30","stdVol365","stdVol500","stdVol7","mean10","mean100","mean1000","mean15","mean20","mean200","mean3","mean30","mean365","mean500","mean7","meanCP10","meanCP100","meanCP1000","meanCP15","meanCP20","meanCP200","meanCP3","meanCP30","meanCP365","meanCP500","meanCP7","meanVal10","meanVal100","meanVal1000","meanVal15","meanVal20","meanVal200","meanVal3","meanVal30","meanVal365","meanVal500","meanVal7","meanVol10","meanVol100","meanVol1000","meanVol15","meanVol20","meanVol200","meanVol3","meanVol30","meanVol365","meanVol500","meanVol7","sma10","sma10%","sma100","sma100%","sma20","sma20%","sma200","sma200%","sma25","sma25%","sma26","sma26%","sma30","sma30%","sma5","sma5%","sma50","sma50%","std10","std100","std1000","std15","std20","std200","std3","std30","std365","std500","std7"]
+  let fix = ["symbol", "avgValue", "avgVol", "priceClose", "priceLow", "priceHigh", "priceOpen", "priceBasic", "pct", "ownership", "shares", "vol", "val", "OCP10", "OCP100", "OCP1000", "OCP15", "OCP20", "OCP200", "OCP3", "OCP30", "OCP365", "OCP500", "OCP7", "ORVal10", "ORVal100", "ORVal1000", "ORVal15", "ORVal20", "ORVal200", "ORVal3", "ORVal30", "ORVal365", "ORVal500", "ORVal7", "ORVol10", "ORVol100", "ORVol1000", "ORVol15", "ORVol20", "ORVol200", "ORVol3", "ORVol30", "ORVol365", "ORVol500", "ORVol7", "OVal10", "OVal100", "OVal1000", "OVal15", "OVal20", "OVal200", "OVal3", "OVal30", "OVal365", "OVal500", "OVal7", "OVol10", "OVol100", "OVol1000", "OVol15", "OVol20", "OVol200", "OVol3", "OVol30", "OVol365", "OVol500", "OVol7", "stdCP10", "stdCP100", "stdCP1000", "stdCP15", "stdCP20", "stdCP200", "stdCP3", "stdCP30", "stdCP365", "stdCP500", "stdCP7", "stdVal10", "stdVal100", "stdVal1000", "stdVal15", "stdVal20", "stdVal200", "stdVal3", "stdVal30", "stdVal365", "stdVal500", "stdVal7", "stdVol10", "stdVol100", "stdVol1000", "stdVol15", "stdVol20", "stdVol200", "stdVol3", "stdVol30", "stdVol365", "stdVol500", "stdVol7", "mean10", "mean100", "mean1000", "mean15", "mean20", "mean200", "mean3", "mean30", "mean365", "mean500", "mean7", "meanCP10", "meanCP100", "meanCP1000", "meanCP15", "meanCP20", "meanCP200", "meanCP3", "meanCP30", "meanCP365", "meanCP500", "meanCP7", "meanVal10", "meanVal100", "meanVal1000", "meanVal15", "meanVal20", "meanVal200", "meanVal3", "meanVal30", "meanVal365", "meanVal500", "meanVal7", "meanVol10", "meanVol100", "meanVol1000", "meanVol15", "meanVol20", "meanVol200", "meanVol3", "meanVol30", "meanVol365", "meanVol500", "meanVol7", "sma10", "sma10%", "sma100", "sma100%", "sma20", "sma20%", "sma200", "sma200%", "sma25", "sma25%", "sma26", "sma26%", "sma30", "sma30%", "sma5", "sma5%", "sma50", "sma50%", "std10", "std100", "std1000", "std15", "std20", "std200", "std3", "std30", "std365", "std500", "std7"]
   keys = keys.filter(e => !fix.includes(e));
   keys.sort();
   keys = [...fix, ...keys];
