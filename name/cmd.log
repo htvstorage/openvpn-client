@@ -204,3 +204,7 @@ done
 
 
  node script/price.js ; node script/filter200.js 
+
+
+
+ export NODE_TLS_REJECT_UNAUTHORIZED=0
