@@ -104,7 +104,7 @@ async function download() {
   }
   // console.table(ratiosa)
 
-  // fs.writeFile("./profile/ratio.json", JSON.stringify(ratiosa), (e)=>{});
+  fs.writeFile("./profile/ratio.json", JSON.stringify(ratiosa), (e)=>{});
 
 
   industry.forEach(e => {
