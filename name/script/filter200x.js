@@ -443,7 +443,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
       avg[me] = m[me][0].at(0);
     }
   )
-
+  let minEnd = Math.min(...hl.at(-1));
   days.forEach((e, i) => {
     // avg["mean" + e] = Math.floor(stats.mean(c[i]) * 100) / 100;
     // avg["std" + e] = Math.floor(stats.stdev(c[i]) * 100) / 100;
@@ -471,6 +471,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
         let std = stats.stdev(m[me][i])
         avg["mean" + me + e] = Math.floor(mean * 100) / 100;
         avg["std" + me + e] = Math.floor(std * 100) / 100;
+        avg["stdR" + me + e] = Math.floor(std/Math.abs(mean) * 1000000) / 1000000;
+        avg["stdM" + me + e] = Math.floor(std/minEnd * 1000000) / 1000000;
         avg["O" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(0)) - threshold * std) * 100) / 100;
         let or = Math.floor((Math.abs(mean - m[me][i].at(0)) - threshold * std) / Math.abs(mean) * 100) / 100;
         avg["OR" + me + e] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
@@ -483,7 +485,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
     avg["max" + e] = max;
     avg["%MM" + e] = Math.floor((max - min) / max * 10000) / 100;
     avg["%PriceMax" + e] = Math.floor((max - filterData.at(-1).priceBasic) / max * 10000) / 100;
-    avg["%PriceMin" + e] = Math.floor((min - filterData.at(-1).priceBasic) / min * 10000) / 100;
+    avg["%PriceMin" + e] = Math.floor((filterData.at(-1).priceBasic - min) / min * 10000) / 100;
 
 
   });
