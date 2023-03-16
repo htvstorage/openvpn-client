@@ -156,7 +156,7 @@ Exchange.getlistallstock = async function () {
   // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
   let fet = await fetch("https://bgapidatafeed.vps.com.vn/getlistallstock", {
     "headers": {
-      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9;application/json; charset=utf-8",      
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9;application/json; charset=utf-8",
     },
     "referrerPolicy": "strict-origin-when-cross-origin",
     "body": null,
@@ -164,7 +164,7 @@ Exchange.getlistallstock = async function () {
     "mode": "cors",
     "credentials": "include"
   });
-  let xx = await fet.json(); 
+  let xx = await fet.json();
   // process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'; 
   console.log(xx.length)
   cop = [...cop, ...xx];
@@ -639,6 +639,34 @@ Exchange.financialIndicators = async function (symbol) {
 }
 
 
+Exchange.financialReportFireAnt = async function (symbol) {
+  let f = (symbol, type, period, limit) => {
+    return fetch("https://restv2.fireant.vn/symbols/" + symbol + "/financial-reports?type=" + type + "&period=" + period + "&compact=true&offset=0&limit=" + limit, {
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkdYdExONzViZlZQakdvNERWdjV4QkRITHpnSSIsImtpZCI6IkdYdExONzViZlZQakdvNERWdjV4QkRITHpnSSJ9.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmZpcmVhbnQudm4iLCJhdWQiOiJodHRwczovL2FjY291bnRzLmZpcmVhbnQudm4vcmVzb3VyY2VzIiwiZXhwIjoxOTQ3MjQ3NzkxLCJuYmYiOjE2NDcyNDc3OTEsImNsaWVudF9pZCI6ImZpcmVhbnQudHJhZGVzdGF0aW9uIiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsInJvbGVzIiwiZW1haWwiLCJhY2NvdW50cy1yZWFkIiwiYWNjb3VudHMtd3JpdGUiLCJvcmRlcnMtcmVhZCIsIm9yZGVycy13cml0ZSIsImNvbXBhbmllcy1yZWFkIiwiaW5kaXZpZHVhbHMtcmVhZCIsImZpbmFuY2UtcmVhZCIsInBvc3RzLXdyaXRlIiwicG9zdHMtcmVhZCIsInN5bWJvbHMtcmVhZCIsInVzZXItZGF0YS1yZWFkIiwidXNlci1kYXRhLXdyaXRlIiwidXNlcnMtcmVhZCIsInNlYXJjaCIsImFjYWRlbXktcmVhZCIsImFjYWRlbXktd3JpdGUiLCJibG9nLXJlYWQiLCJpbnZlc3RvcGVkaWEtcmVhZCJdLCJzdWIiOiIxZDY5YmE3NC0xNTA1LTRkNTktOTA0Mi00YWNmYjRiODA3YzQiLCJhdXRoX3RpbWUiOjE2NDcyNDc3OTEsImlkcCI6Ikdvb2dsZSIsIm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwic2VjdXJpdHlfc3RhbXAiOiI5NTMyOGNlZi1jZmY1LTQ3Y2YtYTRkNy1kZGFjYWJmZjRhNzkiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwidXNlcm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwiZnVsbF9uYW1lIjoiVHJpbmggVmFuIEh1bmciLCJlbWFpbCI6InRyaW5odmFuaHVuZ0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6InRydWUiLCJqdGkiOiJhMTY2MDQwOGNhMGFkYWQxOTcwZDVhNWZhMmFjNjM1NSIsImFtciI6WyJleHRlcm5hbCJdfQ.cpc3almBHrGu-c-sQ72hq6rdwOiWB1dIy1LfZ6cgjyH4YaBWiQkPt4l7M_nTlJnVOdFt9lM2OuSmCcTJMcAKLd4UmdBypeZUpTZp_bUv1Sd3xV8LHF7FSj2Awgw0HIaic08h1LaRg0pPzzf-IRJFT7YA8Leuceid6rD4BCQ3yNvz8r58u2jlCXuPGI-xA8W4Y3151hpNWCtemyizhzi7EKri_4WWpXrXPAeTAnZSdoSq87shTxm9Kyz_QJUBQN6PIEINl9sIQaKL-I_jR9LogYB_aM3hs81Ga6h-n-vbnFK8JR1JEJQmU-rxyX7XvuL-UjQVag3LxQeJwH7Nnajkkg",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site"
+      },
+      "referrerPolicy": "no-referrer",
+      "body": null,
+      "method": "GET",
+      "mode": "cors",
+      agent,
+    });
+  }
+
+  let all = [f(symbol, "IS", "Q", 5).then(res => res.json()), f(symbol, "BS", "Y", 5).then(res => res.json())]
+  let a = await Promise.all(all);
+  // console.table(a)
+  return { Q: a[0], Y: a[1] };
+}
+
+
 Exchange.wait = function (ms) {
   return new Promise(resolve => {
     setTimeout(() => {
@@ -669,7 +697,7 @@ Exchange.VietStock.GetStockDealDetail = async function (code) {
         "Referer": "https://finance.vietstock.vn/HPG/thong-ke-giao-dich.htm",
         "Referrer-Policy": "strict-origin-when-cross-origin"
       },
-      "body": "code="+code+"&seq=0&__RequestVerificationToken=HP_jzP_8uVvcAdSiLii8tf2-Y9IdI9fGcmiiQL9n2iYcU8oHmezNkt4rA5-hHn87tINYh1LifAq_JMlY8IavLe53_RddBcu7BqI7M6vh4qWMLyfRYRSWS5Xu00Q729IZ0",
+      "body": "code=" + code + "&seq=0&__RequestVerificationToken=HP_jzP_8uVvcAdSiLii8tf2-Y9IdI9fGcmiiQL9n2iYcU8oHmezNkt4rA5-hHn87tINYh1LifAq_JMlY8IavLe53_RddBcu7BqI7M6vh4qWMLyfRYRSWS5Xu00Q729IZ0",
       "method": "POST",
       agent
     });
@@ -1044,7 +1072,7 @@ Exchange.MBS.pbRltCharts = async function (code, resolution) {
     if (z.t.length == 0) {
       if (end - start <= 0) {
         break;
-      }      
+      }
       start = end2;
       end2 = start + delta;
       await Exchange.wait(100);

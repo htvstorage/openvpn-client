@@ -121,6 +121,44 @@ async function download() {
   console.table(industryPB)
 }
 
+
+async function downloadReportFinancial() {
+  console.log("Download")
+  let vndGetAllSymbols = await Exchange.vndGetAllSymbols();
+  let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 && s.status == 'listed' }).map(e => { return { code: e.code, floor: e.floor } })  
+
+  let stat2 = { req: 0, res: 0 };
+  let queue = [...symbolsVnd];
+  let ratiosa = []
+  while (true) {
+
+    if (stat2.req - stat2.res >= 30) {
+      if (stat2.res % 10 == 0) {
+        console.log(stat2, queue.length)
+      }
+      await Exchange.wait(100);
+      continue;
+    }
+    queue.reverse();
+    let symbol = queue.pop();
+    if (symbol == undefined) {
+      break;
+    }
+    stat2.req++;
+    let ratios = Exchange.financialReportFireAnt(symbol.code);
+
+    ratios.then(res => {
+      stat2.res++;      
+      ratiosa.push(res)
+    });
+
+
+
+
+  }
+  fs.writeFile("./profile/financial.json", JSON.stringify(ratiosa), (e)=>{});
+}
+
 let shares = {}
 async function ownership(list) {
   let promises = [];
@@ -232,17 +270,20 @@ async function industry() {
   var args = process.argv.slice(2);
   let vss = null;
   for (let v of args) {
-    if (v.includes("ss="))
+    if (v.includes("download")||v.includes("financial"))
       vss = v;
     break;
   }
 
-  ss = vss == null ? 5 : Number.parseInt(vss.substring(3));
-  if (ss == undefined || ss < 0 || Number.isNaN(ss)) {
-    ss = 5;
+  ss = vss == null ? undefined : vss;
+
+  if (ss != undefined && ss.includes("download")) {
+    await download();
+  }
+  if (ss != undefined && ss.includes("financial")) {
+    await downloadReportFinancial();
   }
 
-  // await download();
 
   let out = await industry();
 
@@ -473,6 +514,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
         avg["std" + me + e] = Math.floor(std * 100) / 100;
         avg["stdR" + me + e] = Math.floor(std/Math.abs(mean) * 1000000) / 1000000;
         avg["stdM" + me + e] = Math.floor(std/minEnd * 1000000) / 1000000;
+        avg["stdMM" + me + e] = Math.floor(std*mean/minEnd * 1000000) / 1000000;
         avg["O" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(0)) - threshold * std) * 100) / 100;
         let or = Math.floor((Math.abs(mean - m[me][i].at(0)) - threshold * std) / Math.abs(mean) * 100) / 100;
         avg["OR" + me + e] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
