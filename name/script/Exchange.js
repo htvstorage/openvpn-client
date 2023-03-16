@@ -660,10 +660,12 @@ Exchange.financialReportFireAnt = async function (symbol) {
     });
   }
 
-  let all = [f(symbol, "IS", "Q", 5).then(res => res.json()), f(symbol, "BS", "Y", 5).then(res => res.json())]
+  let all = [f(symbol, "IS", "Q", 2).then(res => res.json()), f(symbol, "IS", "Y", 2).then(res => res.json()),
+  f(symbol, "BS", "Q", 2).then(res => res.json()), f(symbol, "BS", "Y", 2).then(res => res.json())
+]
   let a = await Promise.all(all);
   // console.table(a)
-  return { Q: a[0], Y: a[1] };
+  return { Q1: a[0],  Y1: a[1], Q2: a[2],  Y2: a[3], symbol:symbol };
 }
 
 
