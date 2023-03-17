@@ -132,12 +132,12 @@ async function downloadReportFinancial() {
   let ratiosa = []
   while (true) {
 
-    if (stat2.req - stat2.res >= 30) {
-      if (stat2.res % 10 == 0) {
-        console.log(stat2, queue.length)
-      }
+    if (stat2.req - stat2.res >= 10) {
       await Exchange.wait(100);
       continue;
+    }
+    if (stat2.res % 10 == 0) {
+      console.log(stat2, queue.length)
     }
     queue.reverse();
     let symbol = queue.pop();

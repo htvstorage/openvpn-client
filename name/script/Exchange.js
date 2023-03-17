@@ -640,7 +640,7 @@ Exchange.financialIndicators = async function (symbol) {
 
 
 Exchange.financialReportFireAnt = async function (symbol) {
-  let f = (symbol, type, period, limit) => {
+  let f = async (symbol, type, period, limit) => {
     return fetch("https://restv2.fireant.vn/symbols/" + symbol + "/financial-reports?type=" + type + "&period=" + period + "&compact=true&offset=0&limit=" + limit, {
       "headers": {
         "accept": "application/json, text/plain, */*",
@@ -657,15 +657,37 @@ Exchange.financialReportFireAnt = async function (symbol) {
       "method": "GET",
       "mode": "cors",
       agent,
+    }).then(res => res.text()).then(data => {
+      if (data.includes("message")) return { success: false }
+      let js = JSON.parse(data);
+      if (js != null) js["success"] = true; else {
+        js = { success: true }
+      }
+      return js;
     });
   }
 
-  let all = [f(symbol, "IS", "Q", 2).then(res => res.json()), f(symbol, "IS", "Y", 2).then(res => res.json()),
-  f(symbol, "BS", "Q", 2).then(res => res.json()), f(symbol, "BS", "Y", 2).then(res => res.json())
-]
+  let all = [f(symbol, "IS", "Q", 2), f(symbol, "IS", "Y", 2),
+  f(symbol, "BS", "Q", 2), f(symbol, "BS", "Y", 2)]
   let a = await Promise.all(all);
-  // console.table(a)
-  return { Q1: a[0],  Y1: a[1], Q2: a[2],  Y2: a[3], symbol:symbol };
+  let success = true;
+  for (let e of a) {
+    if (!e.success) { success = false; break; }
+  }
+  while (!success) {
+    all = [f(symbol, "IS", "Q", 2), f(symbol, "IS", "Y", 2),
+    f(symbol, "BS", "Q", 2), f(symbol, "BS", "Y", 2)]
+    a = await Promise.all(all);
+    success = true;
+    for (let e of a) {
+      if (!e.success) {
+        console.log(symbol, e)
+        success = false; break;
+      }
+    }
+  }
+
+  return { Q1: a[0], Y1: a[1], Q2: a[2], Y2: a[3], symbol: symbol };
 }
 
 
