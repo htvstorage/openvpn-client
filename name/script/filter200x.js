@@ -125,14 +125,14 @@ async function download() {
 async function downloadReportFinancial() {
   console.log("Download")
   let vndGetAllSymbols = await Exchange.vndGetAllSymbols();
-  let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 && s.status == 'listed' }).map(e => { return { code: e.code, floor: e.floor } })
+  let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 && s.status == 'listed' }).map(e => { return e.code})
 
   let stat2 = { req: 0, res: 0 };
   let queue = [...symbolsVnd];
+  // let queue = ['PTI','IVS','HFX','SHX','BEL','FBA','NLS','HDM','SPB','VIM','DPH','TUG','PNT','DC1','YTC','MPY','HMS','HLS','TSD','HAM','MND','LG9','PRO','HRB','MBN','PTX','C22','TRS','CKA','UDL','BTU','NWT','XLV','QSP','MTL','FCC','NSG','BIO','HNP','PCC','HD8','DTB','MTB','GGG','BCV','CT3','PTG','LCC','DPP','VIR','DKC','MA1','NXT','CVP','HCI','CDH','VMT','BVN','H11','BLN','CI5','EMG','NUE','HTR','QNU','CHC','LMI','TEL','NAC','TQN','FBC','VPW','DCR','BHK','TA3','NAU','SKN','VTM','TLI','TVH','VSE','NSS','GND','TNM','GTH','PTN','VW3','CGV','TBT','STS','TV6','PMT','CFM','HPP','XDC','PEC','USC','VWS','L63','LO5','HCB','QHW','DOC','HHN','RCD','TB8','DTG','CE1','CEG','BAL','PTO','DTH','BLT','CBS','NHV','SPV','LGM','SIV','TDB','NTF','PEQ','MTC','HPH','MDA','DHN','MQN','A32','VDB','TBR','LQN','NSL','RBC','SIG','NJC','PTP','SQC','TVG','NDC','SSF','PSL','HPB','TR1','QNT','VDN','GH3','ANT','CNA','MTH','PXA','VDT','RAT','CDR','FRC','DSV','VPR','GCB','PNG','TRT','NNT','HEJ','CIP','TCJ','DOP','SPH','HU6','KLM','PJS','ICC','LBC','MQB','POB','BTN','HAV','AG1','HKP','TW3','BKH','EPC','TAN','VNX','TTG','HFC','TDI','VCT','CAR','MCD','DLM','PX1','LKW','KTL','HAN','FSO','BSD','PSG','SDV','DNT','TQW','APL','ONW','BBH','GTD','X26','SAC','BWA','CNN','MEF','MRF','NVP','PXC','CNC','CCV','CH5','TVP','BT1','TSG','SAL','HLB','EME','UMC','FT1','HEP','VXP','DCH','AGX','PWA','DVW','TVA','NTW','HFB','HEC','MLC','THU','BMD','ACS','DTV','MGG','CK8','TGP','CTS','DC4','BVH','HCM','APG','PGI'];
   let ratiosa = []
   while (true) {
-
-    if (stat2.req - stat2.res >= 10) {
+    if (stat2.req - stat2.res >= 50) {
       await Exchange.wait(100);
       continue;
     }
@@ -145,17 +145,17 @@ async function downloadReportFinancial() {
       break;
     }
     stat2.req++;
-    let ratios = Exchange.financialReportFireAnt(symbol.code);
+    let ratios = Exchange.financialReportFireAnt(symbol);
 
     ratios.then(res => {
-      stat2.res++;
       ratiosa.push(res)
+      stat2.res++;
     });
-
-
-
-
   }
+  await Exchange.wait(5000);
+  // while (stat2.req - stat2.res != 0) {
+  //   await Exchange.wait(100);
+  // }
   fs.writeFile("./profile/financial.json", JSON.stringify(ratiosa), (e) => { });
 }
 
@@ -294,6 +294,12 @@ async function financial() {
     }
   );
 
+  let vndGetAllSymbols = await Exchange.vndGetAllSymbols();
+  let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 && s.status == 'listed' }).map(e => { return e.code})
+
+  symbolsVnd.forEach(e=>{
+    if(mapFinancial[e] == undefined) console.log(e)
+  })
 }
 
 (async () => {

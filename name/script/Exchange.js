@@ -658,6 +658,7 @@ Exchange.financialReportFireAnt = async function (symbol) {
       "mode": "cors",
       agent,
     }).then(res => res.text()).then(data => {
+      // console.log(symbol, type, period, limit,data)
       if (data.includes("message")) return { success: false }
       let js = JSON.parse(data);
       if (js != null) js["success"] = true; else {
@@ -666,17 +667,23 @@ Exchange.financialReportFireAnt = async function (symbol) {
       return js;
     });
   }
-
-  let all = [f(symbol, "IS", "Q", 2), f(symbol, "IS", "Y", 2),
-  f(symbol, "BS", "Q", 2), f(symbol, "BS", "Y", 2)]
+  let limit = 50;
+  let limitY = 30;
+  let all = [f(symbol, "IS", "Q", limit), f(symbol, "IS", "Y", limitY),
+  f(symbol, "BS", "Q", limit), f(symbol, "BS", "Y", limitY)]
   let a = await Promise.all(all);
   let success = true;
   for (let e of a) {
     if (!e.success) { success = false; break; }
   }
   while (!success) {
-    all = [f(symbol, "IS", "Q", 2), f(symbol, "IS", "Y", 2),
-    f(symbol, "BS", "Q", 2), f(symbol, "BS", "Y", 2)]
+    await Exchange.wait(100);
+    limit--;
+    limitY--;
+    if(limit <= 0) limit = 1;
+    if(limitY <= 0) limitY = 1;
+    all =  [f(symbol, "IS", "Q", limit), f(symbol, "IS", "Y", limitY),
+    f(symbol, "BS", "Q", limit), f(symbol, "BS", "Y", limitY)]
     a = await Promise.all(all);
     success = true;
     for (let e of a) {
