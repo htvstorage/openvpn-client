@@ -686,7 +686,7 @@ Exchange.financialReportFireAnt = async function (symbol) {
 
     a.forEach(
       async (e, i) => {
-        if (e.success) return;        
+        if (e.success) return;
         if (i == 0) { a[i] = await f(symbol, "IS", "Q", limit) }
         if (i == 1) { a[i] = await f(symbol, "IS", "Y", limitY) }
         if (i == 2) { a[i] = await f(symbol, "BS", "Q", limit) }
