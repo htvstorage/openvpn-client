@@ -676,19 +676,32 @@ Exchange.financialReportFireAnt = async function (symbol) {
   for (let e of a) {
     if (!e.success) { success = false; break; }
   }
+  let log = true;
   while (!success) {
     await Exchange.wait(100);
     limit--;
     limitY--;
-    if(limit <= 0) limit = 1;
-    if(limitY <= 0) limitY = 1;
-    all =  [f(symbol, "IS", "Q", limit), f(symbol, "IS", "Y", limitY),
-    f(symbol, "BS", "Q", limit), f(symbol, "BS", "Y", limitY)]
-    a = await Promise.all(all);
+    if (limit <= 0) limit = 0;
+    if (limitY <= 0) limitY = 0;
+
+    a.forEach(
+      async (e, i) => {
+        if (e.success) return;        
+        if (i == 0) { a[i] = await f(symbol, "IS", "Q", limit) }
+        if (i == 1) { a[i] = await f(symbol, "IS", "Y", limitY) }
+        if (i == 2) { a[i] = await f(symbol, "BS", "Q", limit) }
+        if (i == 3) { a[i] = await f(symbol, "BS", "Y", limitY) }
+      })
+    // all = [f(symbol, "IS", "Q", limit), f(symbol, "IS", "Y", limitY),
+    // f(symbol, "BS", "Q", limit), f(symbol, "BS", "Y", limitY)]
+    // a = await Promise.all(all);
     success = true;
     for (let e of a) {
       if (!e.success) {
-        console.log(symbol, e)
+        if (log) {
+          console.log(symbol, e)
+          log = false;
+        }
         success = false; break;
       }
     }
