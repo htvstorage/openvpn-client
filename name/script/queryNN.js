@@ -51,16 +51,29 @@ import { colours } from "./Utils.js";
         return e;
     })
 
+    // list.sort((a, b) => {
+    //     let x1 = a.b - a.s      
+    //     let x2 = b.b - b.s
+    //     let x3 = a.b > b.b ? 1: a.b < b.b?-1: (a.s > b.s ? 1: a.s < b.s?-1:0)
+    //     return (x1 > x2?-1: x1 < x2 ?1: x3)
+    //     // let x1 = a[7] > b[7] ? -1 : a[7] < b[7] ? 1 : 0
+
+    //     // console.log(a[7], b[7])
+    //     // return x1;
+    // });
+
+
     list.sort((a, b) => {
-        let x1 = a.b - a.s      
-        let x2 = b.b - b.s
-        let x3 = a.b > b.b ? 1: a.b < b.b?-1: (a.s > b.s ? 1: a.s < b.s?-1:0)
+        let x1 = a.bv - a.sv      
+        let x2 = b.bv - b.sv
+        let x3 = a.bv > b.bv ? 1: a.bv < b.bv?-1: (a.sv > b.sv ? 1: a.sv < b.sv?-1:0)
         return (x1 > x2?-1: x1 < x2 ?1: x3)
         // let x1 = a[7] > b[7] ? -1 : a[7] < b[7] ? 1 : 0
 
         // console.log(a[7], b[7])
         // return x1;
     });
+
 
     // console.log(list)
 
@@ -92,6 +105,9 @@ import { colours } from "./Utils.js";
         e['b-s'] = e.b - e.s
         e['b-s(valbyp)'] = (e.b - e.s)*1000*e.p;
         e['b-s(val)'] = (e.bv - e.sv);
+        let pavg = Math.floor((e.bv - e.sv)/(e.b - e.s)/1000 *100)/100;
+        // e['pavg'] = pavg;
+        e['p(-)'] = Math.floor((pavg-e['p'])*100)/100;
         e['lailo'] =(((e.b - e.s) * e.p * 1000 - (e.bv - e.sv)) / (e.bv - e.sv) * 100).toFixed(2);
         
         return e;
