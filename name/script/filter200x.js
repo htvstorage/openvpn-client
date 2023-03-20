@@ -167,41 +167,50 @@ let shares = {}
 async function ownership(list) {
   let promises = [];
   let stat = { req: 0, res: 0 }
-  for (let symbol of list) {
-    let a = fetch("https://restv2.fireant.vn/symbols/" + symbol + "/holders", {
-      "headers": {
-        "accept": "application/json, text/plain, */*",
-        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-        "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkdYdExONzViZlZQakdvNERWdjV4QkRITHpnSSIsImtpZCI6IkdYdExONzViZlZQakdvNERWdjV4QkRITHpnSSJ9.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmZpcmVhbnQudm4iLCJhdWQiOiJodHRwczovL2FjY291bnRzLmZpcmVhbnQudm4vcmVzb3VyY2VzIiwiZXhwIjoxOTQ3MjQ3NzkxLCJuYmYiOjE2NDcyNDc3OTEsImNsaWVudF9pZCI6ImZpcmVhbnQudHJhZGVzdGF0aW9uIiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsInJvbGVzIiwiZW1haWwiLCJhY2NvdW50cy1yZWFkIiwiYWNjb3VudHMtd3JpdGUiLCJvcmRlcnMtcmVhZCIsIm9yZGVycy13cml0ZSIsImNvbXBhbmllcy1yZWFkIiwiaW5kaXZpZHVhbHMtcmVhZCIsImZpbmFuY2UtcmVhZCIsInBvc3RzLXdyaXRlIiwicG9zdHMtcmVhZCIsInN5bWJvbHMtcmVhZCIsInVzZXItZGF0YS1yZWFkIiwidXNlci1kYXRhLXdyaXRlIiwidXNlcnMtcmVhZCIsInNlYXJjaCIsImFjYWRlbXktcmVhZCIsImFjYWRlbXktd3JpdGUiLCJibG9nLXJlYWQiLCJpbnZlc3RvcGVkaWEtcmVhZCJdLCJzdWIiOiIxZDY5YmE3NC0xNTA1LTRkNTktOTA0Mi00YWNmYjRiODA3YzQiLCJhdXRoX3RpbWUiOjE2NDcyNDc3OTEsImlkcCI6Ikdvb2dsZSIsIm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwic2VjdXJpdHlfc3RhbXAiOiI5NTMyOGNlZi1jZmY1LTQ3Y2YtYTRkNy1kZGFjYWJmZjRhNzkiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwidXNlcm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwiZnVsbF9uYW1lIjoiVHJpbmggVmFuIEh1bmciLCJlbWFpbCI6InRyaW5odmFuaHVuZ0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6InRydWUiLCJqdGkiOiJhMTY2MDQwOGNhMGFkYWQxOTcwZDVhNWZhMmFjNjM1NSIsImFtciI6WyJleHRlcm5hbCJdfQ.cpc3almBHrGu-c-sQ72hq6rdwOiWB1dIy1LfZ6cgjyH4YaBWiQkPt4l7M_nTlJnVOdFt9lM2OuSmCcTJMcAKLd4UmdBypeZUpTZp_bUv1Sd3xV8LHF7FSj2Awgw0HIaic08h1LaRg0pPzzf-IRJFT7YA8Leuceid6rD4BCQ3yNvz8r58u2jlCXuPGI-xA8W4Y3151hpNWCtemyizhzi7EKri_4WWpXrXPAeTAnZSdoSq87shTxm9Kyz_QJUBQN6PIEINl9sIQaKL-I_jR9LogYB_aM3hs81Ga6h-n-vbnFK8JR1JEJQmU-rxyX7XvuL-UjQVag3LxQeJwH7Nnajkkg",
-        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-site"
-      },
-      "referrerPolicy": "no-referrer",
-      "body": null,
-      "method": "GET",
-      "mode": "cors",
-      agent
-    });
-    stat.req++;
-    let promise = a.then(res => res.json()).then(data => {
-      stat.res++;
+  if (!fs.existsSync("./profile/holders.json")) {
 
-      let sum = data.reduce((a, b) => { return { ownership: a.ownership + b.ownership, shares: b.shares + a.shares } }, { ownership: 0, shares: 0 })
-      sum.symbol = symbol;
-      if (stat.res % 10 == 0) console.log(stat, sum);
-      shares[symbol] = sum;
-      return sum;
+    for (let symbol of list) {
+      let a = fetch("https://restv2.fireant.vn/symbols/" + symbol + "/holders", {
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+          "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkdYdExONzViZlZQakdvNERWdjV4QkRITHpnSSIsImtpZCI6IkdYdExONzViZlZQakdvNERWdjV4QkRITHpnSSJ9.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmZpcmVhbnQudm4iLCJhdWQiOiJodHRwczovL2FjY291bnRzLmZpcmVhbnQudm4vcmVzb3VyY2VzIiwiZXhwIjoxOTQ3MjQ3NzkxLCJuYmYiOjE2NDcyNDc3OTEsImNsaWVudF9pZCI6ImZpcmVhbnQudHJhZGVzdGF0aW9uIiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsInJvbGVzIiwiZW1haWwiLCJhY2NvdW50cy1yZWFkIiwiYWNjb3VudHMtd3JpdGUiLCJvcmRlcnMtcmVhZCIsIm9yZGVycy13cml0ZSIsImNvbXBhbmllcy1yZWFkIiwiaW5kaXZpZHVhbHMtcmVhZCIsImZpbmFuY2UtcmVhZCIsInBvc3RzLXdyaXRlIiwicG9zdHMtcmVhZCIsInN5bWJvbHMtcmVhZCIsInVzZXItZGF0YS1yZWFkIiwidXNlci1kYXRhLXdyaXRlIiwidXNlcnMtcmVhZCIsInNlYXJjaCIsImFjYWRlbXktcmVhZCIsImFjYWRlbXktd3JpdGUiLCJibG9nLXJlYWQiLCJpbnZlc3RvcGVkaWEtcmVhZCJdLCJzdWIiOiIxZDY5YmE3NC0xNTA1LTRkNTktOTA0Mi00YWNmYjRiODA3YzQiLCJhdXRoX3RpbWUiOjE2NDcyNDc3OTEsImlkcCI6Ikdvb2dsZSIsIm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwic2VjdXJpdHlfc3RhbXAiOiI5NTMyOGNlZi1jZmY1LTQ3Y2YtYTRkNy1kZGFjYWJmZjRhNzkiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwidXNlcm5hbWUiOiJ0cmluaHZhbmh1bmdAZ21haWwuY29tIiwiZnVsbF9uYW1lIjoiVHJpbmggVmFuIEh1bmciLCJlbWFpbCI6InRyaW5odmFuaHVuZ0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6InRydWUiLCJqdGkiOiJhMTY2MDQwOGNhMGFkYWQxOTcwZDVhNWZhMmFjNjM1NSIsImFtciI6WyJleHRlcm5hbCJdfQ.cpc3almBHrGu-c-sQ72hq6rdwOiWB1dIy1LfZ6cgjyH4YaBWiQkPt4l7M_nTlJnVOdFt9lM2OuSmCcTJMcAKLd4UmdBypeZUpTZp_bUv1Sd3xV8LHF7FSj2Awgw0HIaic08h1LaRg0pPzzf-IRJFT7YA8Leuceid6rD4BCQ3yNvz8r58u2jlCXuPGI-xA8W4Y3151hpNWCtemyizhzi7EKri_4WWpXrXPAeTAnZSdoSq87shTxm9Kyz_QJUBQN6PIEINl9sIQaKL-I_jR9LogYB_aM3hs81Ga6h-n-vbnFK8JR1JEJQmU-rxyX7XvuL-UjQVag3LxQeJwH7Nnajkkg",
+          "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-site"
+        },
+        "referrerPolicy": "no-referrer",
+        "body": null,
+        "method": "GET",
+        "mode": "cors",
+        agent
+      });
+      stat.req++;
+      let promise = a.then(res => res.json()).then(data => {
+        stat.res++;
+
+        let sum = data.reduce((a, b) => { return { ownership: a.ownership + b.ownership, shares: b.shares + a.shares } }, { ownership: 0, shares: 0 })
+        sum.symbol = symbol;
+        if (stat.res % 10 == 0) console.log(stat, sum);
+        shares[symbol] = sum;
+        return sum;
+      }
+      )
+      promises.push(promise);
     }
-    )
-    promises.push(promise);
+    // console.log("------------ALLL----------")
+    let all = await Promise.all(promises);
+    //  console.log("------------ALLL----------",all)
+    fs.writeFileSync("./profile/holders.json", JSON.stringify(all), (e) => { });
+  } else {
+    let json = fs.readFileSync("./profile/holders.json");
+    let all = JSON.parse(new String(json))
+    all.forEach(e => {
+      shares[e.symbol] = e;
+    })
   }
-  // console.log("------------ALLL----------")
-  let all = await Promise.all(promises);
-  //  console.log("------------ALLL----------",all)
-  return all;
 }
 async function industry() {
 
@@ -212,7 +221,7 @@ async function industry() {
       return s.code.length <= 3 && s.status == 'listed'
     }).map(e => { return { code: e.code, floor: e.floor } })
 
-  // ownership(symbolsVnd.map(e => e.code))
+  ownership(symbolsVnd.map(e => e.code))
   let industry = await Exchange.vndIndustryClassification();
   let industryPE = await Exchange.vndIndustryPE();
   let industryPB = await Exchange.vndIndustryPB();
@@ -244,22 +253,22 @@ async function industry() {
 
   let symbolRatio = JSON.parse(new String(json))
   console.log(symbolRatio[0])
-  let filterData = symbolRatio.map(e => { return { pb: e.PB, pe: e.PE, symbol: e.symbol } });
+  let filterData = symbolRatio.map(e => { return { pb: e.PB, pe: e.PE, symbol: e.symbol, values: e.VONHOA, beta: e.BETA, sharesTotal: e.CPLH, cotuc: e.COTUC, roae: e.ROAE, roaa: e.ROAA, eps: e.EPS, freefloat: e.FREEFL } });
   // console.table(filterData);
 
   let ok = filterData.filter(e => {
-    if (e.pb == undefined || e.pe == undefined) return false;
+    if (e.pb == undefined || e.pe == undefined) return true;
 
     let ne = mapSymbol[e.symbol];
 
-    if (ne.pb > e.pb && ne.pe > e.pe) {
-      e.industryCode = ne.industryCode;
-      e.name = ne.name;
-      e.ipb = ne.pb;
-      e.ipe = ne.pe;
-      return true;
-    }
-    return false;
+    // if (ne.pb > e.pb && ne.pe > e.pe) {
+    e.industryCode = ne.industryCode;
+    e.name = ne.name;
+    e.ipb = ne.pb;
+    e.ipe = ne.pe;
+    return true;
+    // }
+    // return true;
   })
 
   let out = {};
@@ -317,7 +326,7 @@ async function financial() {
   var args = process.argv.slice(2);
   let vss = null;
   for (let v of args) {
-    if (v.includes("download") || v.includes("financial"))
+    if (v.includes("download") || v.includes("financial") || v.includes("update"))
       vss = v;
     break;
   }
@@ -330,7 +339,10 @@ async function financial() {
   if (ss != undefined && ss.includes("financial")) {
     await downloadReportFinancial();
   }
-
+  if (ss != undefined && ss.includes("update")) {
+    if (fs.existsSync("./profile/holders.json"))
+      fs.rmSync("./profile/holders.json")
+  }
 
   let out = await industry();
   await financial();
@@ -473,8 +485,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
   let avg = { symbol: symbol, avgValue: sum.totalValue / data30.length, avgVol: sum.dealVolume / data30.length };
 
   let pbe = filter[symbol];
-  if (pbe != undefined) {    
-    avg = {...avg, ...pbe}
+  if (pbe != undefined) {
+    avg = { ...avg, ...pbe }
   }
 
   avg.avgValue = Math.floor(avg.avgValue * 100) / 100
@@ -541,9 +553,9 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
   if (fn != null) {
     Object.keys(fn).forEach(
       k => {
-        if(k.includes(date.getFullYear()) 
-        || k.includes(date.getFullYear()-1)
-        // || k.includes(date.getFullYear()-2)
+        if (k.includes(date.getFullYear())
+          || k.includes(date.getFullYear() - 1)
+          // || k.includes(date.getFullYear()-2)
         )
           avg[k] = fn[k];
       }
