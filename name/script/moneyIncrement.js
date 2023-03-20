@@ -146,7 +146,7 @@ async function loadData(path, resolve, stat) {
   if (path.substr(4, 3) == "HPG" || path.substr(4, 3) == "XDC"
     || path.substr(4, 3) == "PDR"
   ) {
-    console.log(NN2)
+    // console.log(NN2)
     // console.log(NN)
     for (let e of NN) {
       console.log(e)
