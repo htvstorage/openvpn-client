@@ -149,7 +149,7 @@ async function loadData(path, resolve, stat) {
     // console.log(NN2)
     // console.log(NN)
     for (let e of NN) {
-      console.log(e)
+      // console.log(e)
     }
   }
 
