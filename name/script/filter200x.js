@@ -125,7 +125,7 @@ async function download() {
 async function downloadReportFinancial() {
   console.log("Download")
   let vndGetAllSymbols = await Exchange.vndGetAllSymbols();
-  let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 && s.status == 'listed' }).map(e => { return e.code})
+  let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 && s.status == 'listed' }).map(e => { return e.code })
 
   let stat2 = { req: 0, res: 0 };
   let queue = [...symbolsVnd];
@@ -275,42 +275,41 @@ async function financial() {
   // console.table(financial[0])
   financial.forEach(
     e => {
-      let et = {}     
+      let et = {}
       // if( e.Q1 == null || e.Y1 == null || e.Y1.columns == undefined ||e.Q1.columns == undefined ) return;
       // if( e.Q2 == null || e.Y2 == null || e.Y2.columns == undefined ||e.Q2.columns == undefined ) return;
 
       // if(e.symbol == "HFX") console.log(e.Q1)
       mapFinancial[e.symbol] = et;
       let a = [];
-      if(e.Q1 != null && e.Q1.columns != undefined) a.push(e.Q1)
-      if(e.Q2 != null && e.Q2.columns != undefined) a.push(e.Q2)
-      if(e.Y1 != null && e.Y1.columns != undefined) a.push(e.Y1)
-      if(e.Y2 != null && e.Y2.columns != undefined) a.push(e.Y2)
+      if (e.Q1 != null && e.Q1.columns != undefined) a.push(e.Q1)
+      if (e.Q2 != null && e.Q2.columns != undefined) a.push(e.Q2)
+      if (e.Y1 != null && e.Y1.columns != undefined) a.push(e.Y1)
+      if (e.Y2 != null && e.Y2.columns != undefined) a.push(e.Y2)
 
       a.forEach(
-        ae=>{
+        ae => {
           ae.columns.forEach(
             (k, i) => {
-              if(i <=1) return;
-              // console.table(ae.rows)
-              for(let r=0;r<ae.rows.length;r++){
-                et[ae.rows[r][1] +k] = ae.rows[r][i];
+              if (i <= 1) return;
+              for (let r = 0; r < ae.rows.length; r++) {
+                et[ae.rows[r][1] + k] = ae.rows[r][i];
               }
             })
         }
-      )          
+      )
     }
   );
 
   let vndGetAllSymbols = await Exchange.vndGetAllSymbols();
-  let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 && s.status == 'listed' }).map(e => { return e.code})
+  let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 && s.status == 'listed' }).map(e => { return e.code })
 
 
-  symbolsVnd.forEach(e=>{
-    if(mapFinancial[e] == undefined) console.log(e)
+  symbolsVnd.forEach(e => {
+    if (mapFinancial[e] == undefined) console.log(e)
   })
 
-  console.log(symbolsVnd.length,Object.keys(mapFinancial).length)
+  console.log(symbolsVnd.length, Object.keys(mapFinancial).length)
 }
 
 (async () => {
@@ -472,6 +471,12 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
 
   let sum = data30.reduce((a, b) => { return { dealVolume: (a.dealVolume + b.dealVolume), totalValue: (a.totalValue + b.totalValue) } }, { dealVolume: 0, totalValue: 0 })
   let avg = { symbol: symbol, avgValue: sum.totalValue / data30.length, avgVol: sum.dealVolume / data30.length };
+
+  let pbe = filter[symbol];
+  if (pbe != undefined) {    
+    avg = {...avg, ...pbe}
+  }
+
   avg.avgValue = Math.floor(avg.avgValue * 100) / 100
   avg.avgVol = Math.floor(avg.avgVol * 100) / 100
   avg.exch = mapSymbol[symbol];
@@ -530,9 +535,9 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
 
   let fn = mapFinancial[symbol];
 
-  if(fn != null){
+  if (fn != null) {
     Object.keys(fn).forEach(
-      k=>{
+      k => {
         avg[k] = fn[k];
       }
     )
@@ -605,6 +610,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
     avg["RSVol" + e] = (Math.floor(vols.at(-1) / smaVol[i].at(-1) * 100) / 100);
   })
 
+
   var inputRSI = {
     values: prices,
     period: 14
@@ -641,7 +647,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
   // console.table([avg])
   let keys = Object.keys(avg);
   // console.log(JSON.stringify(keys))
-  let fix = ["symbol", "exch", "avgValue", "avgVol", "priceClose", "priceLow", "priceHigh", "priceOpen", "priceBasic", "pct", "ownership", "shares", "vol", "val", "NetProfitQ4/2022","NetProfit2022","NetProfit2021","Liability2022", "Equity2022", "OCP10", "OCP100", "OCP1000", "OCP15", "OCP20", "OCP200", "OCP3", "OCP30", "OCP365", "OCP500", "OCP7", "ORVal10", "ORVal100", "ORVal1000", "ORVal15", "ORVal20", "ORVal200", "ORVal3", "ORVal30", "ORVal365", "ORVal500", "ORVal7", "ORVol10", "ORVol100", "ORVol1000", "ORVol15", "ORVol20", "ORVol200", "ORVol3", "ORVol30", "ORVol365", "ORVol500", "ORVol7", "OVal10", "OVal100", "OVal1000", "OVal15", "OVal20", "OVal200", "OVal3", "OVal30", "OVal365", "OVal500", "OVal7", "OVol10", "OVol100", "OVol1000", "OVol15", "OVol20", "OVol200", "OVol3", "OVol30", "OVol365", "OVol500", "OVol7", "stdCP10", "stdCP100", "stdCP1000", "stdCP15", "stdCP20", "stdCP200", "stdCP3", "stdCP30", "stdCP365", "stdCP500", "stdCP7", "stdVal10", "stdVal100", "stdVal1000", "stdVal15", "stdVal20", "stdVal200", "stdVal3", "stdVal30", "stdVal365", "stdVal500", "stdVal7", "stdVol10", "stdVol100", "stdVol1000", "stdVol15", "stdVol20", "stdVol200", "stdVol3", "stdVol30", "stdVol365", "stdVol500", "stdVol7", "mean10", "mean100", "mean1000", "mean15", "mean20", "mean200", "mean3", "mean30", "mean365", "mean500", "mean7", "meanCP10", "meanCP100", "meanCP1000", "meanCP15", "meanCP20", "meanCP200", "meanCP3", "meanCP30", "meanCP365", "meanCP500", "meanCP7", "meanVal10", "meanVal100", "meanVal1000", "meanVal15", "meanVal20", "meanVal200", "meanVal3", "meanVal30", "meanVal365", "meanVal500", "meanVal7", "meanVol10", "meanVol100", "meanVol1000", "meanVol15", "meanVol20", "meanVol200", "meanVol3", "meanVol30", "meanVol365", "meanVol500", "meanVol7", "sma10", "sma10%", "sma100", "sma100%", "sma20", "sma20%", "sma200", "sma200%", "sma25", "sma25%", "sma26", "sma26%", "sma30", "sma30%", "sma5", "sma5%", "sma50", "sma50%", "std10", "std100", "std1000", "std15", "std20", "std200", "std3", "std30", "std365", "std500", "std7"]
+  let fix = ["symbol", "exch", "avgValue", "avgVol", "priceClose", "priceLow", "priceHigh", "priceOpen", "priceBasic", "pct", "ownership", "shares", "vol", "val", "NetProfitQ4/2022", "NetProfit2022", "NetProfit2021", "Liability2022", "Equity2022", "OCP10", "OCP100", "OCP1000", "OCP15", "OCP20", "OCP200", "OCP3", "OCP30", "OCP365", "OCP500", "OCP7", "ORVal10", "ORVal100", "ORVal1000", "ORVal15", "ORVal20", "ORVal200", "ORVal3", "ORVal30", "ORVal365", "ORVal500", "ORVal7", "ORVol10", "ORVol100", "ORVol1000", "ORVol15", "ORVol20", "ORVol200", "ORVol3", "ORVol30", "ORVol365", "ORVol500", "ORVol7", "OVal10", "OVal100", "OVal1000", "OVal15", "OVal20", "OVal200", "OVal3", "OVal30", "OVal365", "OVal500", "OVal7", "OVol10", "OVol100", "OVol1000", "OVol15", "OVol20", "OVol200", "OVol3", "OVol30", "OVol365", "OVol500", "OVol7", "stdCP10", "stdCP100", "stdCP1000", "stdCP15", "stdCP20", "stdCP200", "stdCP3", "stdCP30", "stdCP365", "stdCP500", "stdCP7", "stdVal10", "stdVal100", "stdVal1000", "stdVal15", "stdVal20", "stdVal200", "stdVal3", "stdVal30", "stdVal365", "stdVal500", "stdVal7", "stdVol10", "stdVol100", "stdVol1000", "stdVol15", "stdVol20", "stdVol200", "stdVol3", "stdVol30", "stdVol365", "stdVol500", "stdVol7", "mean10", "mean100", "mean1000", "mean15", "mean20", "mean200", "mean3", "mean30", "mean365", "mean500", "mean7", "meanCP10", "meanCP100", "meanCP1000", "meanCP15", "meanCP20", "meanCP200", "meanCP3", "meanCP30", "meanCP365", "meanCP500", "meanCP7", "meanVal10", "meanVal100", "meanVal1000", "meanVal15", "meanVal20", "meanVal200", "meanVal3", "meanVal30", "meanVal365", "meanVal500", "meanVal7", "meanVol10", "meanVol100", "meanVol1000", "meanVol15", "meanVol20", "meanVol200", "meanVol3", "meanVol30", "meanVol365", "meanVol500", "meanVol7", "sma10", "sma10%", "sma100", "sma100%", "sma20", "sma20%", "sma200", "sma200%", "sma25", "sma25%", "sma26", "sma26%", "sma30", "sma30%", "sma5", "sma5%", "sma50", "sma50%", "std10", "std100", "std1000", "std15", "std20", "std200", "std3", "std30", "std365", "std500", "std7"]
   keys = keys.filter(e => !fix.includes(e));
   keys.sort();
   keys = [...fix, ...keys];
