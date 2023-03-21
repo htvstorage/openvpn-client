@@ -13,6 +13,8 @@ import { Console } from 'node:console'
 import { Transform } from 'node:stream'
 import { e } from "mathjs";
 import xlsx from "xlsx"
+import stats from "stats-analysis";
+import { SMA, EMA, RSI, StochasticRSI, MACD, MFI, BollingerBands } from 'technicalindicators';
 
 const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
 const log = new Console({ stdout: ts })
@@ -304,12 +306,26 @@ async function processData() {
 
   var args = process.argv.slice(2);
   let vss = null;
+  let update = "";
+  let outlier = "";
   for (let v of args) {
     if (v.includes("date="))
       vss = v;
-    break;
-  }
 
+    if (v.includes("update="))
+      update = v;
+
+    if (v.includes("outlier="))
+      outlier = v;
+    // break;
+  }
+  if (update.toLocaleUpperCase().includes("TRUE")) {
+    update = true;
+  }
+  if (outlier.toLocaleUpperCase().includes("TRUE")) {
+    outlier = true;
+  }
+  let options = { update: update, outlier: outlier }
   let ss = vss == null ? [] : vss.substring("date=".length).split(",");
 
   let dateKeys;
@@ -334,7 +350,7 @@ async function processData() {
       let length = files.length;
       files.forEach(async (f) => {
         try {
-          processOne(f, symbolExchange, out, stat, resolve, length)
+          processOne(f, symbolExchange, out, stat, resolve, length, options)
         } catch (error) {
           console.log(f, error)
         }
@@ -598,7 +614,7 @@ async function processData() {
 
 
 
-async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
+async function processOne(file, symbolExchange, out, stat, resolve, totalFile, options) {
   stat.req++;
   let maxTopInterval = 10;
   let maxTopAll = 50;
@@ -864,14 +880,115 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile) {
     // logger.debug(data[0], data.at(-1));
     // console.table(symbol)
 
+
+
+
+
     let dir = "./agg/" + strdate0 + "/";
     if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir);
+      fs.mkdirSync(dir, { recursive: true });
     }
+    let dirAll = "./agg/all/";
+    if (!fs.existsSync(dirAll)) {
+      fs.mkdirSync(dirAll, { recursive: true });
+    }
+
+
     let floor = symbolExchange[symbol];
     if (floor == undefined) floor = "UKN";
+    let session = 2000;
+    if (options.outlier) {
+      let out = [...x];
+      out = out.reverse();
+      if (fs.existsSync(dirAll + symbol + "_" + floor + "_5p.json")) {
+        let jsonData = fs.readFileSync(dirAll + symbol + "_" + floor + "_5p.json")
+        let json = new String(jsonData).toString().split("\n").map(e => {
+          if (e.length > 0) {
+            return JSON.parse(e)
+          } else return []
+
+        });
+        json.forEach(e => {
+          out.push(...e.reverse());
+        })
+      }
+
+      let outs = out.slice(0, session);
+      // if (symbol == "HPG") {
+      //   console.log(Object.keys(x[0]))
+      //   console.log(Object.keys(x[10]))
+      //   console.log(Object.keys(x.at(-1)))
+      // }
+      let key = ['c', 'h', 'l', 'o', 'bu', 'val_bu', 'total_vol',
+        'sum_vol', 'val', 'acum_val', 'sd', 'val_sd', 'pbu', 'psd',
+        'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'rbu', 'bu-sd',
+        'bu-sd_val', 'acum_busd', 'acum_busd_val', 'acum_val_bu',
+        'acum_val_sd', 'rbusd', 'uk', 'val_uk', 'ruk'
+      ];
+
+      let outa = {};
+
+      let check = (val) => {
+        if (val == undefined || Number.isNaN(val)) {
+          return 0;
+        }
+        return val;
+      }
+
+
+
+      key.forEach(k => {
+        outa[k] = outs.map(e => check(e[k]));
+        let mean = stats.mean(outa[k])
+        let std = stats.stdev(outa[k])
+
+        let threshold = 1.645;
+        for (let e of x) {
+          e["mean" + k] = Math.floor(mean * 100) / 100;
+          e["std" + k] = Math.floor(std * 100) / 100;
+          e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
+          let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
+          e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
+          if (e["O" + k] > 0 || e["OR" + k] > 0) {
+            // console.table([e])
+          }
+        }
+      })
+
+      if(outa['c'] != undefined){
+        const bb = { period: 20, stdDev: 2, values: outa['c'] };
+        var bbo = BollingerBands.calculate(bb);
+        let bbe = bbo.at(0);
+        x.forEach((e,i)=>{
+          bbe = bbo.at(x.length-i);
+          if(bbe == undefined || bbe == null)
+            {
+              console.log(bbo.length, x.length , symbol)
+              return;
+            }
+          Object.keys(bbe).forEach(k => {
+            e["BB" + k] = bbe[k];
+            e["BBC" + k] = bbe[k] - e['c'];
+          })
+        })
+
+
+      }
+
+      // console.table([outa])
+      // console.log(Object.keys(outs[0]))
+      // console.table(outs.slice(0,10))
+      // console.table(outs.slice(outs.length-10,outs.length-1))
+
+
+
+
+    }
+
     fs.writeFileSync(dir + symbol + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
     fs.writeFileSync(dir + symbol + "_" + floor + "_5p.json", JSON.stringify(x), (e) => { if (e) { console.log(e) } })
+    if (options.update)
+      fs.appendFileSync(dirAll + symbol + "_" + floor + "_5p.json", JSON.stringify(x) + "\n", (e) => { if (e) { console.log(e) } })
     writeArrayJson2Xlsx(dir + symbol + "_" + floor + "_" + strdate0 + "_1N.xls", x)
     let csv = new Parser({ fields: ["abu", "acum_busd", "acum_busd_val", "acum_val_bu", "acum_val_sd", "acum_val", "avg_val_bu", "avg_val_sd", "rbusd", "asd", "auk", "bs", "bu", "bu-sd", "bu-sd_val", "c", "date", "datetime", "h", "l", "o", "pbu", "psd", "puk", "rbu", "rsd", "ruk", "sb", "sd", "sum_vol", "total_vol", "uk", "val", "val_bu", "val_sd", "val_uk"] });
     let data2 = csv.parse(x);
