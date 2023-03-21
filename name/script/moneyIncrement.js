@@ -129,7 +129,11 @@ async function loadData(path, resolve, stat) {
   let session = ss;
   let NNS;
   if (session > 0) {
-    NNS = NN.slice(0, session);
+    if(session > NN.length)
+      NNS = NN.slice(0, session);
+    else{
+      NNS = NN;
+    }
   } else {
     NNS = NN;
   }

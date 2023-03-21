@@ -3,7 +3,7 @@ import { Exchange } from "./Exchange.js";
 import fetch from "node-fetch";
 import fs from "fs";
 import { colours } from "./Utils.js";
-
+import xlsx from "xlsx"
 
 (async () => {
 
@@ -106,7 +106,7 @@ import { colours } from "./Utils.js";
         e['b-s(valbyp)'] = (e.b - e.s)*1000*e.p;
         e['b-s(val)'] = (e.bv - e.sv);
         let pavg = Math.floor((e.bv - e.sv)/(e.b - e.s)/1000 *100)/100;
-        // e['pavg'] = pavg;
+        e['pavg'] = pavg;
         e['p(-)'] = Math.floor((pavg-e['p'])*100)/100;
         e['lailo'] =(((e.b - e.s) * e.p * 1000 - (e.bv - e.sv)) / (e.bv - e.sv) * 100).toFixed(2);
         
@@ -115,4 +115,14 @@ import { colours } from "./Utils.js";
 
     console.table(list);
 
+    writeArrayJson2Xlsx( "./filter/NN.xlsx", list)
+
 })();
+
+
+function writeArrayJson2Xlsx(filename, array) {
+    let workbook = xlsx.utils.book_new();
+    let worksheet = xlsx.utils.json_to_sheet(array);
+    xlsx.utils.book_append_sheet(workbook, worksheet);
+    xlsx.writeFile(workbook, filename);
+  }
