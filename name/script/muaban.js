@@ -312,12 +312,13 @@ async function processData() {
     if (v.includes("date="))
       vss = v;
 
-    if (v.includes("update="))
+    if (v.includes("join="))
       update = v;
 
     if (v.includes("outlier="))
       outlier = v;
     // break;
+    console.log(v)
   }
   if (update.toLocaleUpperCase().includes("TRUE")) {
     update = true;
@@ -504,22 +505,15 @@ async function processData() {
               e['rbusd'] = Math.round(e['bu-sd_val'] / e['avg_busd_val'] * 10) / 10;
               e['rbu'] = Math.round(e['val_bu'] / e['avg_val_bu'] * 10) / 10;
               e['rsd'] = Math.round(e['val_sd'] / e['avg_val_sd'] * 10) / 10;
+              e['bs'] = Math.round(e['bu'] / e['sd'] * 10) / 10;
+              e['sb'] = Math.round(e['sd'] / e['bu'] * 10) / 10;
             })
             let val = Object.values(newData).map(e => e.val).reduce((a, b) => a + b, 0);
             let vol = Object.values(newData).map(e => e.sum_vol).reduce((a, b) => a + b, 0);
             // console.log(val, vol)
             // console.table(values)
 
-            let strtable = getTable(values);
-            let as = strtable.split("\n");
-            let header = as[2] + "\n" + as[1] + "\n" + as[2];
-            let str = "";
-            as.forEach((l, i) => {
-              str += l + "\n";
-              if (i > 3 && (i - 3) % 20 == 0) {
-                str += header + "\n";
-              }
-            })
+
 
             let dir = "./vnindex/" + datekey + "/";
             if (!fs.existsSync(dir)) {
@@ -532,9 +526,105 @@ async function processData() {
             }
             // console.table(str)
             let floor = "HOSE";
+
+            let session = options.session;
+            if (session == undefined) session = 2000;
+            if (options.outlier) {
+              let out = [...values];
+              out = out.reverse();
+              if (fs.existsSync("./vnindex/" + "VNINDEX" + "_" + floor + "_5p.json")) {
+                let jsonData = fs.readFileSync("./vnindex/" + "VNINDEX" + "_" + floor + "_5p.json")
+                let json = new String(jsonData).toString().split("\n").map(e => {
+                  if (e.length > 0) {
+                    return JSON.parse(e)
+                  } else return []
+
+                });
+                json.forEach(e => {
+                  out.push(...e.reverse());
+                })
+              }
+
+              let outs = out.slice(0, session);
+              let key = ['c', 'h', 'l', 'o', 'bu', 'val_bu', 'total_vol',
+                'sum_vol', 'val', 'acum_val', 'sd', 'val_sd', 'pbu', 'psd',
+                'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'rbu', 'bu-sd',
+                'bu-sd_val', 'acum_busd', 'acum_busd_val', 'acum_val_bu',
+                'acum_val_sd', 'rbusd', 'uk', 'val_uk', 'ruk'
+              ];
+
+              let outa = {};
+
+              let check = (val) => {
+                if (val == undefined || Number.isNaN(val)) {
+                  return 0;
+                }
+                return val;
+              }
+
+
+
+              key.forEach(k => {
+                outa[k] = outs.map(e => check(e[k]));
+                let mean = stats.mean(outa[k])
+                let std = stats.stdev(outa[k])
+
+                let threshold = 1.645;
+                for (let e of values) {
+                  e["mean" + k] = Math.floor(mean * 100) / 100;
+                  e["std" + k] = Math.floor(std * 100) / 100;
+                  e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
+                  let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
+                  e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
+                  if (e["O" + k] > 0 || e["OR" + k] > 0) {
+                    // console.table([e])
+                  }
+                }
+              })
+
+              if (outa['c'] != undefined) {
+                const bb = { period: 20, stdDev: 2, values: outa['c'] };
+                var bbo = BollingerBands.calculate(bb);
+                let bbe = bbo.at(0);
+                values.forEach((e, i) => {
+                  bbe = bbo.at(values.length - i);
+                  if (bbe == undefined || bbe == null) {
+                    console.log(bbo.length, values.length, symbol)
+                    return;
+                  }
+                  Object.keys(bbe).forEach(k => {
+                    e["BB" + k] = bbe[k];
+                    e["BBC" + k] = bbe[k] - e['c'];
+                  })
+                })
+
+
+              }
+
+              // console.table([outa])
+              // console.log(Object.keys(outs[0]))
+              // console.table(outs.slice(0,10))
+              // console.table(outs.slice(outs.length-10,outs.length-1))
+            }
+
+
+            let strtable = getTable(values);
+            let as = strtable.split("\n");
+            let header = as[2] + "\n" + as[1] + "\n" + as[2];
+            let str = "";
+            as.forEach((l, i) => {
+              str += l + "\n";
+              if (i > 3 && (i - 3) % 20 == 0) {
+                str += header + "\n";
+              }
+            })
+
+
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
             writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_5p_" + datekey + ".xlsx", values)
+            if (options.update)
+              fs.appendFileSync("./vnindex/" + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values) + "\n", (e) => { if (e) { console.log(e) } })
             // console.table(Object.keys(values[0]).sort())
             let csv = new Parser({ fields: ['acum_busd', 'acum_busd_val', "acum_val_bu", "acum_val_sd", 'acum_val', "accum_bu", "accum_sd", "avg_val_bu", "avg_val_sd", "avg_val", "avg_vol", "avg_bu", "avg_sd", "avg_busd", "avg_busd_val", "rbusd", 'rbu', 'rsd', 'bu', 'bu-sd', 'bu-sd_val', 'date', 'datetime', 'sd', 'sum_vol', 'total_vol', 'uk', 'val', 'val_bu', 'val_sd', 'val_uk'] });
             let data2 = csv.parse(values);
@@ -896,7 +986,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
 
     let floor = symbolExchange[symbol];
     if (floor == undefined) floor = "UKN";
-    let session = 2000;
+    let session = options.session;
+    if (session == undefined) session = 2000;
     if (options.outlier) {
       let out = [...x];
       out = out.reverse();
@@ -955,17 +1046,16 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         }
       })
 
-      if(outa['c'] != undefined){
+      if (outa['c'] != undefined) {
         const bb = { period: 20, stdDev: 2, values: outa['c'] };
         var bbo = BollingerBands.calculate(bb);
         let bbe = bbo.at(0);
-        x.forEach((e,i)=>{
-          bbe = bbo.at(x.length-i);
-          if(bbe == undefined || bbe == null)
-            {
-              console.log(bbo.length, x.length , symbol)
-              return;
-            }
+        x.forEach((e, i) => {
+          bbe = bbo.at(x.length - i);
+          if (bbe == undefined || bbe == null) {
+            console.log(bbo.length, x.length, symbol)
+            return;
+          }
           Object.keys(bbe).forEach(k => {
             e["BB" + k] = bbe[k];
             e["BBC" + k] = bbe[k] - e['c'];
@@ -979,10 +1069,6 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       // console.log(Object.keys(outs[0]))
       // console.table(outs.slice(0,10))
       // console.table(outs.slice(outs.length-10,outs.length-1))
-
-
-
-
     }
 
     fs.writeFileSync(dir + symbol + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
@@ -996,7 +1082,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
     let temp = x.at(-1);
     if ((x.acum_busd < 0 && x.acum_busd_val > 0) || (x.acum_busd > 0 && x.acum_busd_val < 0)) {
       x.symbol = symbol;
-      console.table([x]);
+      // console.table([x]);
 
     }
     out[symbol] = { floor: floor, data: x, max: max, top: top };
