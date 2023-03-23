@@ -874,7 +874,7 @@ Exchange.SSI.graphql = async function (code) {
     data = await a.text();
     data = data.trim();
   }
-  Exchange.wait()
+  // Exchange.wait()
   data = JSON.parse(data);
   // console.table(data.data.leTables)  
   return { Code: code, data: data.data.leTables, stockRealtime: data.data.stockRealtime };
