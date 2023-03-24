@@ -421,8 +421,8 @@ async function processData() {
               count++;
               if (options.outlier) {
                 if (v["Oval_bu"] > 0 || v["Oval_sd"]) {
-                  v.symbol = symbol;
-                  oulier.push(v)
+                  // v.symbol = symbol;
+                  oulier.push({symbol:symbol,...v})
                 }
               }
 
