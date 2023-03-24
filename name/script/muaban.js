@@ -392,7 +392,7 @@ async function processData() {
       let newData = {}
       let max = { sd: [], bu: [] };
       let top = {};
-
+      let oulier = []
       let pp = new Promise((resolve, reject) => {
         let length = Object.keys(res).length;
         // let res = 0; 
@@ -419,6 +419,13 @@ async function processData() {
               })
               e.date = (new Date(k)).toISOString();
               count++;
+              if (options.outlier) {
+                if (v["Oval_bu"] > 0 || v["Oval_sd"]) {
+                  v.symbol = symbol;
+                  oulier.push(v)
+                }
+              }
+
             })
 
             let m = symbolData.max;
@@ -605,6 +612,9 @@ async function processData() {
               // console.log(Object.keys(outs[0]))
               // console.table(outs.slice(0,10))
               // console.table(outs.slice(outs.length-10,outs.length-1))
+
+
+              writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + ".xlsx", oulier)
             }
 
 
