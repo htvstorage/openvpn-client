@@ -10,4 +10,12 @@ import { Exchange } from "./Exchange.js";
   console.log(x.reverse())
   console.log(x)
   console.log(x2)
+
+
+  let d = new Date(2022,11,9);
+
+  console.log(d)
+  console.log(d.getTime())
+
+  console.log(x.includes(15))
 })();
