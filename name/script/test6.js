@@ -18,4 +18,26 @@ import { Exchange } from "./Exchange.js";
   console.log(d.getTime())
 
   console.log(x.includes(15))
+
+  let listSymbol = await Exchange.getlistallsymbol();
+  listSymbol = listSymbol.filter((s) => {
+    return s.length <= 3;
+  })
+
+  // let allSymbols = await Exchange.vndGetAllSymbols();
+
+  // let symbolExchange = {};
+
+  // allSymbols.forEach(v => {
+  //   symbolExchange[v.code] = v.floor;
+  // });
+
+  // console.log(listSymbol)
+  // listSymbol = allSymbols.map(e => e.code).filter(e=> e.length == 3);
+  let stockdata = {}
+  let z = Exchange.getliststockdata(listSymbol, stockdata);
+
+  // z.then(res => console.log(res))
+  await z;
+  console.table(stockdata["HPG"])
 })();

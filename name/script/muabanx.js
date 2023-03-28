@@ -273,6 +273,16 @@ async function processData() {
   });
 
 
+  let listSymbol = await Exchange.getlistallsymbol();
+  listSymbol = listSymbol.filter((s) => {
+    return s.length <= 3;
+  })
+  let stockdata = {}
+  let z = Exchange.getliststockdata(listSymbol, stockdata);
+  await z;
+  // console.log("sao the")
+  // z.then(data=>console.log(data));
+
   let getAllFiles = (p, o) => {
     let files = fs.readdirSync(p);
     o = o || [];
@@ -314,6 +324,7 @@ async function processData() {
   let update = "";
   let outlier = "";
   let model = "";
+  let threshold = undefined;
   for (let v of args) {
     if (v.includes("date="))
       vss = v;
@@ -325,6 +336,8 @@ async function processData() {
       outlier = v;
     if (v.includes("model="))
       model = v;
+    if (v.includes("threshold="))
+      threshold = v;
     // break;
     console.log(v)
   }
@@ -337,7 +350,12 @@ async function processData() {
   if (model.toLocaleUpperCase().includes("TRUE")) {
     model = true;
   }
-  let options = { update: update, outlier: outlier, model: model }
+
+  if (threshold != undefined) {
+    threshold = Number.parseFloat(threshold.substring("threshold=".length))
+  }
+  console.log("threshold=", threshold)
+  let options = { update: update, outlier: outlier, model: model, threshold: threshold }
   let ss = vss == null ? [] : vss.substring("date=".length).split(",");
 
   let dateKeys;
@@ -439,9 +457,19 @@ async function processData() {
               e.date = (new Date(k)).toISOString();
               count++;
               if (options.outlier) {
-                if (v["Oval_bu"] > 0 || v["Oval_sd"]) {
+                if (v["Oval_bu"] > 0 || v["Oval_sd"] > 0) {
                   // v.symbol = symbol;
-                  oulier.push({ symbol: symbol, ...v })
+                  let BUSD = v["Oval_bu"] > 0 ? (v["Oval_sd"] > 0 ? "UKN" : "BU") : "SD"
+                  let p = stockdata[symbol]
+                  let add = {};
+                  // console.log(p)
+                  if (p != undefined) {
+                    add.c1 = p.lastPrice;
+                    let mul = v.c > 1000 ? 1000 : 1;
+                    add.pct1 = Math.floor((p.lastPrice * mul - v.c) / v.c * 10000) / 100;
+                    console.log(add)
+                  }
+                  oulier.push({ symbol: symbol, busd: BUSD, ...add, ...v })
                 }
               }
 
@@ -614,7 +642,7 @@ async function processData() {
 
                     if (ss == session) {
                       let threshold = options.threshold;
-                      if(threshold == undefined) threshold = 1.645;
+                      if (threshold == undefined) threshold = 1.645;
                       for (let e of values) {
                         e["mean" + k] = Math.floor(mean * 100) / 100;
                         e["std" + k] = Math.floor(std * 100) / 100;
@@ -653,7 +681,7 @@ async function processData() {
               } else {
 
                 let threshold = options.threshold;
-                if(threshold == undefined) threshold = 1.645;
+                if (threshold == undefined) threshold = 1.645;
                 let mdd = dataModel[session]["VNINDEX"];
                 key.forEach(k => {
                   let mean = mdd["mean" + k];
@@ -792,7 +820,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
   stat.req++;
   let maxTopInterval = 10;
   let maxTopAll = 50;
-  let interval = 2 * 60 * 1000;
+  let interval = options.interval;
+  if (interval == undefined) interval = 5 * 60 * 1000;
 
   let data = fs.readFile(file, readHandler)
   let strdate0 = file.substr(file.indexOf("trans/") + "trans/".length, 8)
@@ -854,6 +883,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       let p = +v.price;
       // console.log(v)
       e.c = p;
+      e.change = +v.change
+      e.pct = Math.floor(e.change / (e.c - e.change) * 10000) / 100
       if (e.h == undefined) e.h = p
       if (e.l == undefined) e.l = p
       if (e.h < p) e.h = p;
@@ -1123,7 +1154,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
               }
               if (ss == session) {
                 let threshold = options.threshold;
-                if(threshold == undefined) threshold = 1.645;
+                if (threshold == undefined) threshold = 1.645;
                 for (let e of x) {
                   e["mean" + k] = Math.floor(mean * 100) / 100;
                   e["std" + k] = Math.floor(std * 100) / 100;
@@ -1160,7 +1191,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       } else {
 
         let threshold = options.threshold;
-        if(threshold == undefined) threshold = 1.645;
+        if (threshold == undefined) threshold = 1.645;
 
         let mdd = dataModel[session][symbol];
         // console.table(symbol)
