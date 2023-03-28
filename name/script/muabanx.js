@@ -353,8 +353,8 @@ async function processData() {
   let p = { req: 0, res: 0 }
   let dataModel = {}
 
-  if(fs.existsSync(dataModelPath+"dataModel.json")){
-    let jsonData = fs.readFileSync(dataModelPath+"dataModel.json")
+  if (fs.existsSync(dataModelPath + "dataModel.json")) {
+    let jsonData = fs.readFileSync(dataModelPath + "dataModel.json")
     dataModel = JSON.parse(new String(jsonData));
     dataModel.loaded = true;
   }
@@ -565,35 +565,12 @@ async function processData() {
               let out = [...values];
               out = out.reverse();
 
-              if(dataModel.loaded == undefined )
-              if (fs.existsSync("./vnindex/" + "VNINDEX" + "_" + floor + "_5p.json")) {
-                let jsonData = fs.readFileSync("./vnindex/" + "VNINDEX" + "_" + floor + "_5p.json")
-                let json = new String(jsonData).toString().split("\n").map(e => {
-                  if (e.length > 0) {
-                    return JSON.parse(e)
-                  } else return []
-
-                });
-                json.forEach(e => {
-                  out.push(...e.reverse());
-                })
-              }
-
-              out = out.filter(e => e.datetime >= fromDate.getTime());
-
-
-
               let key = ['c', 'h', 'l', 'o', 'bu', 'val_bu', 'total_vol',
                 'sum_vol', 'val', 'acum_val', 'sd', 'val_sd', 'pbu', 'psd',
                 'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'rbu', 'bu-sd',
                 'bu-sd_val', 'acum_busd', 'acum_busd_val', 'acum_val_bu',
                 'acum_val_sd', 'rbusd', 'uk', 'val_uk', 'ruk'
               ];
-
-              // let outs = out.slice(0, session);
-              let dataOut = sessionData.map(e => out.slice(0, e))
-              let outa = {};
-
               let check = (val) => {
                 if (val == undefined || Number.isNaN(val)) {
                   return 0;
@@ -601,59 +578,101 @@ async function processData() {
                 return val;
               }
 
+              if (dataModel.loaded == undefined) {
+                if (fs.existsSync("./vnindex/" + "VNINDEX" + "_" + floor + "_5p.json")) {
+                  let jsonData = fs.readFileSync("./vnindex/" + "VNINDEX" + "_" + floor + "_5p.json")
+                  let json = new String(jsonData).toString().split("\n").map(e => {
+                    if (e.length > 0) {
+                      return JSON.parse(e)
+                    } else return []
 
-
-
-              sessionData.forEach((ss, i) => {
-                let outs = dataOut[i];
-                key.forEach(k => {
-                  outa[k] = outs.map(e => check(e[k]));
-                  let mean = stats.mean(outa[k])
-                  let std = stats.stdev(outa[k])
-
-                  if (options.model) {
-                    if (dataModel[ss] == undefined) dataModel[ss] = {};
-                    if (dataModel[ss]["VNINDEX"] == undefined) dataModel[ss]["VNINDEX"] = {};
-                    dataModel[ss]["VNINDEX"]["mean" + k] = mean;
-                    dataModel[ss]["VNINDEX"]["std" + k] = std;
-                  }
-
-                  if (ss == session) {
-                    let threshold = 1.645;
-                    for (let e of values) {
-                      e["mean" + k] = Math.floor(mean * 100) / 100;
-                      e["std" + k] = Math.floor(std * 100) / 100;
-                      e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
-                      let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
-                      e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
-                      if (e["O" + k] > 0 || e["OR" + k] > 0) {
-                        // console.table([e])
-                      }
-                    }
-                  }
-
-                })
-
-
-
-                if (outa['c'] != undefined) {
-                  const bb = { period: 20, stdDev: 2, values: outa['c'] };
-                  var bbo = BollingerBands.calculate(bb);
-                  let bbe = bbo.at(0);
-                  values.forEach((e, i) => {
-                    bbe = bbo.at(values.length - i);
-                    if (bbe == undefined || bbe == null) {
-                      console.log(bbo.length, values.length, symbol)
-                      return;
-                    }
-                    Object.keys(bbe).forEach(k => {
-                      e["BB" + k] = bbe[k];
-                      e["BBC" + k] = bbe[k] - e['c'];
-                    })
+                  });
+                  json.forEach(e => {
+                    out.push(...e.reverse());
                   })
                 }
 
-              });
+                out = out.filter(e => e.datetime >= fromDate.getTime());
+
+                // let outs = out.slice(0, session);
+                let dataOut = sessionData.map(e => out.slice(0, e))
+                let outa = {};
+
+                sessionData.forEach((ss, i) => {
+                  let outs = dataOut[i];
+                  key.forEach(k => {
+                    outa[k] = outs.map(e => check(e[k]));
+                    let mean = stats.mean(outa[k])
+                    let std = stats.stdev(outa[k])
+
+                    if (options.model) {
+                      if (dataModel[ss] == undefined) dataModel[ss] = {};
+                      if (dataModel[ss]["VNINDEX"] == undefined) dataModel[ss]["VNINDEX"] = {};
+                      dataModel[ss]["VNINDEX"]["mean" + k] = Math.floor(mean * 10000) / 10000;
+                      dataModel[ss]["VNINDEX"]["std" + k] = Math.floor(std * 10000) / 10000;
+                    }
+
+                    if (ss == session) {
+                      let threshold = options.threshold;
+                      if(threshold == undefined) threshold = 1.645;
+                      for (let e of values) {
+                        e["mean" + k] = Math.floor(mean * 100) / 100;
+                        e["std" + k] = Math.floor(std * 100) / 100;
+                        e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
+                        let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
+                        e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
+                        if (e["O" + k] > 0 || e["OR" + k] > 0) {
+                          // console.table([e])
+                        }
+                      }
+                    }
+
+                  })
+
+
+
+                  if (outa['c'] != undefined) {
+                    const bb = { period: 20, stdDev: 2, values: outa['c'] };
+                    var bbo = BollingerBands.calculate(bb);
+                    let bbe = bbo.at(0);
+                    values.forEach((e, i) => {
+                      bbe = bbo.at(values.length - i);
+                      if (bbe == undefined || bbe == null) {
+                        console.log(bbo.length, values.length, symbol)
+                        return;
+                      }
+                      Object.keys(bbe).forEach(k => {
+                        e["BB" + k] = bbe[k];
+                        e["BBC" + k] = bbe[k] - e['c'];
+                      })
+                    })
+                  }
+
+                });
+
+              } else {
+
+                let threshold = options.threshold;
+                if(threshold == undefined) threshold = 1.645;
+                let mdd = dataModel[session]["VNINDEX"];
+                key.forEach(k => {
+                  let mean = mdd["mean" + k];
+                  let std = mdd["std" + k];
+                  for (let e of values) {
+                    e["mean" + k] = Math.floor(mean * 100) / 100;
+                    e["std" + k] = Math.floor(std * 100) / 100;
+                    e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
+                    let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
+                    e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
+                    if (e["O" + k] > 0 || e["OR" + k] > 0) {
+                      // console.table([e])
+                    }
+                  }
+                })
+              }
+
+
+
 
 
 
@@ -666,8 +685,10 @@ async function processData() {
                 if (!fs.existsSync(dataModelPath)) fs.mkdirSync(dataModelPath, { recursive: true })
                 fs.writeFileSync(dataModelPath + "dataModel.json", JSON.stringify(dataModel), (e) => { if (e) { console.log(e) } })
               }
-
-              writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + ".xlsx", oulier)
+              if (!fs.existsSync("./outlier/")) {
+                fs.mkdirSync("./outlier/", { recursive: true })
+              }
+              writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + ".xlsx", oulier)
             }
 
 
@@ -1054,37 +1075,13 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
     if (options.outlier) {
       let out = [...x];
       out = out.reverse();
-      if (fs.existsSync(dirAll + symbol + "_" + floor + "_5p.json")) {
-        let jsonData = fs.readFileSync(dirAll + symbol + "_" + floor + "_5p.json")
-        let json = new String(jsonData).toString().split("\n").map(e => {
-          if (e.length > 0) {
-            return JSON.parse(e)
-          } else return []
 
-        });
-        json.forEach(e => {
-          out.push(...e.reverse());
-        })
-      }
-
-      out = out.filter(e => e.datetime >= fromDate.getTime())
-      // let outs = out.slice(0, session);
-
-
-      // if (symbol == "HPG") {
-      //   console.log(Object.keys(x[0]))
-      //   console.log(Object.keys(x[10]))
-      //   console.log(Object.keys(x.at(-1)))
-      // }
       let key = ['c', 'h', 'l', 'o', 'bu', 'val_bu', 'total_vol',
         'sum_vol', 'val', 'acum_val', 'sd', 'val_sd', 'pbu', 'psd',
         'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'rbu', 'bu-sd',
         'bu-sd_val', 'acum_busd', 'acum_busd_val', 'acum_val_bu',
         'acum_val_sd', 'rbusd', 'uk', 'val_uk', 'ruk'
       ];
-
-      let dataOut = sessionData.map(e => out.slice(0, e))
-      let outa = {};
 
       let check = (val) => {
         if (val == undefined || Number.isNaN(val)) {
@@ -1093,67 +1090,97 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         return val;
       }
 
-      sessionData.forEach(
-        (ss, i) => {
+      if (dataModel.loaded == undefined || dataModel[session][symbol] == undefined) {
+        if (fs.existsSync(dirAll + symbol + "_" + floor + "_5p.json")) {
+          let jsonData = fs.readFileSync(dirAll + symbol + "_" + floor + "_5p.json")
+          let json = new String(jsonData).toString().split("\n").map(e => {
+            if (e.length > 0) {
+              return JSON.parse(e)
+            } else return []
 
-          let outs = dataOut[i];
+          });
+          json.forEach(e => {
+            out.push(...e.reverse());
+          })
+        }
 
-          key.forEach(k => {
-            outa[k] = outs.map(e => check(e[k]));
-            let mean = stats.mean(outa[k])
-            let std = stats.stdev(outa[k])
+        out = out.filter(e => e.datetime >= fromDate.getTime())
+        let dataOut = sessionData.map(e => out.slice(0, e))
+        let outa = {};
 
-
-            if (options.model) {
-              if (dataModel[ss] == undefined) dataModel[ss] = {};
-              if (dataModel[ss][symbol] == undefined) dataModel[ss][symbol] = {};
-              dataModel[ss][symbol]["mean" + k] = mean;
-              dataModel[ss][symbol]["std" + k] = std;
-            }
-            if (ss == session) {
-              let threshold = 1.645;
-              for (let e of x) {
-                e["mean" + k] = Math.floor(mean * 100) / 100;
-                e["std" + k] = Math.floor(std * 100) / 100;
-                e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
-                let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
-                e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
-                if (e["O" + k] > 0 || e["OR" + k] > 0) {
-                  // console.table([e])
+        sessionData.forEach(
+          (ss, i) => {
+            let outs = dataOut[i];
+            key.forEach(k => {
+              outa[k] = outs.map(e => check(e[k]));
+              let mean = stats.mean(outa[k])
+              let std = stats.stdev(outa[k])
+              if (options.model) {
+                if (dataModel[ss] == undefined) dataModel[ss] = {};
+                if (dataModel[ss][symbol] == undefined) dataModel[ss][symbol] = {};
+                dataModel[ss][symbol]["mean" + k] = Math.floor(mean * 10000) / 10000;
+                dataModel[ss][symbol]["std" + k] = Math.floor(std * 10000) / 10000;
+              }
+              if (ss == session) {
+                let threshold = options.threshold;
+                if(threshold == undefined) threshold = 1.645;
+                for (let e of x) {
+                  e["mean" + k] = Math.floor(mean * 100) / 100;
+                  e["std" + k] = Math.floor(std * 100) / 100;
+                  e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
+                  let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
+                  e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
+                  if (e["O" + k] > 0 || e["OR" + k] > 0) {
+                    // console.table([e])
+                  }
                 }
               }
-            }
-
-          })
-
-          if (outa['c'] != undefined) {
-            const bb = { period: 20, stdDev: 2, values: outa['c'] };
-            var bbo = BollingerBands.calculate(bb);
-            let bbe = bbo.at(0);
-            x.forEach((e, i) => {
-              bbe = bbo.at(x.length - i);
-              if (bbe == undefined || bbe == null) {
-                console.log(bbo.length, x.length, symbol)
-                return;
-              }
-              Object.keys(bbe).forEach(k => {
-                e["BB" + k] = bbe[k];
-                e["BBC" + k] = bbe[k] - e['c'];
-              })
             })
-
-
           }
+        )
 
+        if (outa['c'] != undefined) {
+          const bb = { period: 20, stdDev: 2, values: outa['c'] };
+          var bbo = BollingerBands.calculate(bb);
+          let bbe = bbo.at(0);
+          x.forEach((e, i) => {
+            bbe = bbo.at(x.length - i);
+            if (bbe == undefined || bbe == null) {
+              console.log(bbo.length, x.length, symbol)
+              return;
+            }
+            Object.keys(bbe).forEach(k => {
+              e["BB" + k] = bbe[k];
+              e["BBC" + k] = bbe[k] - e['c'];
+            })
+          })
         }
-      )
+        dataModel['c'] = outa['c'].slice(0, Math.min(40, outa['c'].length));
 
+      } else {
 
+        let threshold = options.threshold;
+        if(threshold == undefined) threshold = 1.645;
 
-      // console.table([outa])
-      // console.log(Object.keys(outs[0]))
-      // console.table(outs.slice(0,10))
-      // console.table(outs.slice(outs.length-10,outs.length-1))
+        let mdd = dataModel[session][symbol];
+        // console.table(symbol)
+        // console.table(mdd)
+        key.forEach(k => {
+          let mean = mdd["mean" + k];
+          let std = mdd["std" + k];
+          for (let e of x) {
+            e["mean" + k] = Math.floor(mean * 100) / 100;
+            e["std" + k] = Math.floor(std * 100) / 100;
+            e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
+            let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
+            e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
+            if (e["O" + k] > 0 || e["OR" + k] > 0) {
+              // console.table([e])
+            }
+          }
+        })
+
+      }
     }
 
     fs.writeFileSync(dir + symbol + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
