@@ -458,11 +458,9 @@ async function processData() {
               count++;
               if (options.outlier) {
                 if (v["Oval_bu"] > 0 || v["Oval_sd"] > 0) {
-                  // v.symbol = symbol;
                   let BUSD = v["Oval_bu"] > 0 ? (v["Oval_sd"] > 0 ? "UKN" : "BU") : "SD"
                   let p = stockdata[symbol]
                   let add = {};
-                  // console.log(p)
                   if (p != undefined) {
                     add.c1 = p.lastPrice;
                     let mul = v.c > 1000 ? 1000 : 1;
