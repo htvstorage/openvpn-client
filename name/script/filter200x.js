@@ -611,7 +611,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
     avg["max" + e] = max;
     avg["%MM" + e] = Math.floor((max - min) / max * 10000) / 100;
     avg["%EE" + e] = Math.floor((filterData.at(-1).priceClose - c[i].at(-1)) / c[i].at(-1) * 10000) / 100;
-    if(symbol =="L14") {console.log(filterData.at(-1).priceClose,c[i].at(-1));}
+    if (symbol == "L14") { console.log(filterData.at(-1).priceClose, c[i].at(-1)); }
     avg["%PriceMax" + e] = Math.floor((max - filterData.at(-1).priceClose) / max * 10000) / 100;
     avg["%PriceMin" + e] = Math.floor((filterData.at(-1).priceClose - min) / min * 10000) / 100;
 

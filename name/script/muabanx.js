@@ -325,6 +325,7 @@ async function processData() {
   let outlier = "";
   let model = "";
   let threshold = undefined;
+  let interval = undefined;
   for (let v of args) {
     if (v.includes("date="))
       vss = v;
@@ -338,6 +339,9 @@ async function processData() {
       model = v;
     if (v.includes("threshold="))
       threshold = v;
+
+    if (v.includes("interval="))
+      interval = v;
     // break;
     console.log(v)
   }
@@ -354,8 +358,15 @@ async function processData() {
   if (threshold != undefined) {
     threshold = Number.parseFloat(threshold.substring("threshold=".length))
   }
+  if (interval != undefined) {
+    interval = Number.parseFloat(interval.substring("interval=".length))
+  } else {
+    interval = 5 * 60 * 1000;
+  }
   console.log("threshold=", threshold)
-  let options = { update: update, outlier: outlier, model: model, threshold: threshold }
+  console.log("interval=", interval)
+
+  let options = { update: update, outlier: outlier, model: model, threshold: threshold, interval: interval }
   let ss = vss == null ? [] : vss.substring("date=".length).split(",");
 
   let dateKeys;
@@ -371,8 +382,8 @@ async function processData() {
   let p = { req: 0, res: 0 }
   let dataModel = {}
 
-  if (fs.existsSync(dataModelPath + "dataModel.json")) {
-    let jsonData = fs.readFileSync(dataModelPath + "dataModel.json")
+  if (fs.existsSync(dataModelPath + interval + "dataModel.json")) {
+    let jsonData = fs.readFileSync(dataModelPath + interval + "dataModel.json")
     dataModel = JSON.parse(new String(jsonData));
     dataModel.loaded = true;
   }
@@ -605,8 +616,8 @@ async function processData() {
               }
 
               if (dataModel.loaded == undefined) {
-                if (fs.existsSync("./vnindex/" + "VNINDEX" + "_" + floor + "_5p.json")) {
-                  let jsonData = fs.readFileSync("./vnindex/" + "VNINDEX" + "_" + floor + "_5p.json")
+                if (fs.existsSync("./vnindex/" + "VNINDEX" + "_" + floor + interval + ".json")) {
+                  let jsonData = fs.readFileSync("./vnindex/" + "VNINDEX" + "_" + floor + interval + ".json")
                   let json = new String(jsonData).toString().split("\n").map(e => {
                     if (e.length > 0) {
                       return JSON.parse(e)
@@ -645,6 +656,7 @@ async function processData() {
                         e["mean" + k] = Math.floor(mean * 100) / 100;
                         e["std" + k] = Math.floor(std * 100) / 100;
                         e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
+                        e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k]))/std) * 100) / 100;
                         let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                         e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
                         if (e["O" + k] > 0 || e["OR" + k] > 0) {
@@ -688,6 +700,7 @@ async function processData() {
                     e["mean" + k] = Math.floor(mean * 100) / 100;
                     e["std" + k] = Math.floor(std * 100) / 100;
                     e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
+                    e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k]))/std) * 100) / 100;
                     let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                     e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
                     if (e["O" + k] > 0 || e["OR" + k] > 0) {
@@ -709,7 +722,7 @@ async function processData() {
 
               if (dataModel.loaded == undefined) {
                 if (!fs.existsSync(dataModelPath)) fs.mkdirSync(dataModelPath, { recursive: true })
-                fs.writeFileSync(dataModelPath + "dataModel.json", JSON.stringify(dataModel), (e) => { if (e) { console.log(e) } })
+                fs.writeFileSync(dataModelPath + interval + "dataModel.json", JSON.stringify(dataModel), (e) => { if (e) { console.log(e) } })
               }
               if (!fs.existsSync("./outlier/")) {
                 fs.mkdirSync("./outlier/", { recursive: true })
@@ -734,7 +747,7 @@ async function processData() {
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
             writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_5p_" + datekey + ".xlsx", values)
             if (options.update)
-              fs.appendFileSync("./vnindex/" + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values) + "\n", (e) => { if (e) { console.log(e) } })
+              fs.appendFileSync("./vnindex/" + "VNINDEX" + "_" + floor + interval + ".json", JSON.stringify(values) + "\n", (e) => { if (e) { console.log(e) } })
             // console.table(Object.keys(values[0]).sort())
             let csv = new Parser({ fields: ['acum_busd', 'acum_busd_val', "acum_val_bu", "acum_val_sd", 'acum_val', "accum_bu", "accum_sd", "avg_val_bu", "avg_val_sd", "avg_val", "avg_vol", "avg_bu", "avg_sd", "avg_busd", "avg_busd_val", "rbusd", 'rbu', 'rsd', 'bu', 'bu-sd', 'bu-sd_val', 'date', 'datetime', 'sd', 'sum_vol', 'total_vol', 'uk', 'val', 'val_bu', 'val_sd', 'val_uk'] });
             let data2 = csv.parse(values);
@@ -1120,8 +1133,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       }
 
       if (dataModel.loaded == undefined || dataModel[session][symbol] == undefined) {
-        if (fs.existsSync(dirAll + symbol + "_" + floor + "_5p.json")) {
-          let jsonData = fs.readFileSync(dirAll + symbol + "_" + floor + "_5p.json")
+        if (fs.existsSync(dirAll + symbol + "_" + floor + interval + ".json")) {
+          let jsonData = fs.readFileSync(dirAll + symbol + "_" + floor + interval + ".json")
           let json = new String(jsonData).toString().split("\n").map(e => {
             if (e.length > 0) {
               return JSON.parse(e)
@@ -1157,6 +1170,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
                   e["mean" + k] = Math.floor(mean * 100) / 100;
                   e["std" + k] = Math.floor(std * 100) / 100;
                   e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
+                  e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k]))/std) * 100) / 100;
+                  // console.log("ORR")
                   let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                   e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
                   if (e["O" + k] > 0 || e["OR" + k] > 0) {
@@ -1201,6 +1216,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
             e["mean" + k] = Math.floor(mean * 100) / 100;
             e["std" + k] = Math.floor(std * 100) / 100;
             e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
+            e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k]))/std) * 100) / 100;
             let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
             e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
             if (e["O" + k] > 0 || e["OR" + k] > 0) {
@@ -1215,7 +1231,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
     fs.writeFileSync(dir + symbol + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
     fs.writeFileSync(dir + symbol + "_" + floor + "_5p.json", JSON.stringify(x), (e) => { if (e) { console.log(e) } })
     if (options.update)
-      fs.appendFileSync(dirAll + symbol + "_" + floor + "_5p.json", JSON.stringify(x) + "\n", (e) => { if (e) { console.log(e) } })
+      fs.appendFileSync(dirAll + symbol + "_" + floor + interval + ".json", JSON.stringify(x) + "\n", (e) => { if (e) { console.log(e) } })
     writeArrayJson2Xlsx(dir + symbol + "_" + floor + "_" + strdate0 + "_1N.xls", x)
     let csv = new Parser({ fields: ["abu", "acum_busd", "acum_busd_val", "acum_val_bu", "acum_val_sd", "acum_val", "avg_val_bu", "avg_val_sd", "rbusd", "asd", "auk", "bs", "bu", "bu-sd", "bu-sd_val", "c", "date", "datetime", "h", "l", "o", "pbu", "psd", "puk", "rbu", "rsd", "ruk", "sb", "sd", "sum_vol", "total_vol", "uk", "val", "val_bu", "val_sd", "val_uk"] });
     let data2 = csv.parse(x);
