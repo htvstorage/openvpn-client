@@ -410,9 +410,6 @@ async function financial() {
   fs.writeFileSync(dir + "Filter" + "_table.log", str, (e) => { if (e) { console.log(e) } })
   fs.writeFileSync(dir + "Filter" + "_5p.json", JSON.stringify(ret), (e) => { if (e) { console.log(e) } })
   writeArrayJson2Xlsx(dir + "Filter" + "_5p_" + ".xlsx", Object.values(ret))
-
-
-  fs.writeFile("NDTNN.json", JSON.stringify(ret), e => { });
 })();
 
 
@@ -474,11 +471,14 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
 
   let symbol = data[0].symbol;
 
-  let days = [3, 7, 10, 15, 20, 30, 50, 100, 200, 365, 500, 1000];
+  let days = [3, 7, 10, 15, 20, 30, 50, 100, 200, 365, 500, 1000, 5000];
 
   let data30 = filterData.slice(0, 30);
 
-  let datax = days.map(e => filterData.slice(0, e));
+  let datax = days.map(e => {
+    let s = Math.min(e, filterData.length);
+    return filterData.slice(0, s)
+  });
 
 
   let sum = data30.reduce((a, b) => { return { dealVolume: (a.dealVolume + b.dealVolume), totalValue: (a.totalValue + b.totalValue) } }, { dealVolume: 0, totalValue: 0 })
@@ -610,8 +610,10 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
     avg["min" + e] = min;
     avg["max" + e] = max;
     avg["%MM" + e] = Math.floor((max - min) / max * 10000) / 100;
-    avg["%PriceMax" + e] = Math.floor((max - filterData.at(-1).priceBasic) / max * 10000) / 100;
-    avg["%PriceMin" + e] = Math.floor((filterData.at(-1).priceBasic - min) / min * 10000) / 100;
+    avg["%EE" + e] = Math.floor((filterData.at(-1).priceClose - c[i].at(-1)) / c[i].at(-1) * 10000) / 100;
+    if(symbol =="L14") {console.log(filterData.at(-1).priceClose,c[i].at(-1));}
+    avg["%PriceMax" + e] = Math.floor((max - filterData.at(-1).priceClose) / max * 10000) / 100;
+    avg["%PriceMin" + e] = Math.floor((filterData.at(-1).priceClose - min) / min * 10000) / 100;
 
 
   });
