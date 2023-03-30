@@ -208,3 +208,7 @@ done
 
 
  export NODE_TLS_REJECT_UNAUTHORIZED=0
+
+
+node  script/dumpdaily2.js stock=SSI; node script/muabanx.js outlier=true date=`date +"%Y%m%d"` threshold=8
+node script/price.js; node script/filter200x.js
