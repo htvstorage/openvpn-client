@@ -264,13 +264,23 @@ async function processData() {
   }
   // let __dirname = fs.realpathSync('.');
 
-  let allSymbols = await Exchange.vndGetAllSymbols();
+  // let allSymbols = await Exchange.vndGetAllSymbols();
 
   let symbolExchange = {};
 
-  allSymbols.forEach(v => {
-    symbolExchange[v.code] = v.floor;
-  });
+  // allSymbols.forEach(v => {
+  //   symbolExchange[v.code] = v.floor;
+  // });
+
+  let company = await Exchange.getlistallstock();
+  
+  
+  company.forEach((e) => {
+    if (e.stock_code.length <= 3) {      
+      symbolExchange[e.stock_code] = e.post_to;
+    }
+  })
+
 
 
   let listSymbol = await Exchange.getlistallsymbol();
@@ -931,6 +941,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       let te = top[k];
       let e = newData[k];
       let p = +v.price;
+      if (!v.price.indexOf(".") > 0) {
+        v.price = (p/1000).toFixed(2)
+      }
       // console.log(v)
       e.c = p;
       e.change = +v.change

@@ -45,5 +45,7 @@ import { Exchange } from "./Exchange.js";
 
   x = ["0,1,2,3,4,5,6" , "2", "ABCD", "Z"]
   // console.log(x.filter())
-  // console.table(stockdata["HPG"])
+  console.table(stockdata["HPG"])
+
+  console.log(+(5*1.0/1.0).toFixed(2) )
 })();

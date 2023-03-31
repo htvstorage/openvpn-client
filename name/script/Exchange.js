@@ -360,6 +360,7 @@ Exchange.vndGetAllSymbols = async function () {
     //     "delistedDate": "2001-01-01",
     //     "companyId": "3903"
     // }
+    console.log(z)
     let js = JSON.parse(z);
     return js.data.filter(e => { return e.status == "listed" })
   } else {
