@@ -228,19 +228,22 @@ async function industry() {
   let mapSymbol = {};
   let mapIndustry = {};
   let pbe = {};
-  industryPB.forEach(e => { pbe[e.code] = { pb: e.value } })
-  industryPE.forEach(e => { pbe[e.code] = { ...pbe[e.code], pe: e.value } })
+  if (industryPB != undefined)
+    industryPB.forEach(e => { pbe[e.code] = { pb: e.value } })
+  if (industryPE != undefined)
+    industryPE.forEach(e => { pbe[e.code] = { ...pbe[e.code], pe: e.value } })
 
   // console.table(pbe)
-  industry.forEach(e => {
-    let ne = {};
-    ne.industryCode = e.industryCode;
-    ne.name = e.vietnameseName;
-    ne = { ...ne, ...pbe[e.industryCode] }
-    mapIndustry[e.industryCode] = ne;
-    e.codeList.split(",").forEach(s => { mapSymbol[s] = ne });
-  }
-  )
+  if (industry != undefined)
+    industry.forEach(e => {
+      let ne = {};
+      ne.industryCode = e.industryCode;
+      ne.name = e.vietnameseName;
+      ne = { ...ne, ...pbe[e.industryCode] }
+      mapIndustry[e.industryCode] = ne;
+      e.codeList.split(",").forEach(s => { mapSymbol[s] = ne });
+    }
+    )
 
 
 
@@ -325,10 +328,17 @@ async function financial() {
 
   var args = process.argv.slice(2);
   let vss = null;
+  let checkdate = undefined;
   for (let v of args) {
     if (v.includes("download") || v.includes("financial") || v.includes("update"))
       vss = v;
-    break;
+    if (v.includes("checkdate="))
+      checkdate = v;
+    // break;
+  }
+
+  if (checkdate != undefined) {
+    checkdate = +checkdate.substring("checkdate=".length);
   }
 
   ss = vss == null ? undefined : vss;
@@ -368,20 +378,34 @@ async function financial() {
   let files = fs.readdirSync(dir);
   let stat = { req: 0, res: 0 }
 
+  files = files.filter(e => {
+    let symbol = e.split("_")[0];
+    return mapSymbol[symbol] != undefined;
+  });
+
   // files = ["HPG_HOSE_trans.txt"]
   for (const file of files) {
-    if (symbols.has(file)) {
-      stat.req++;
-    }
+    // if (symbols.has(file)) {
+    stat.req++;
+    // }
   }
+
+  // console.log(files)
+
+  let downloadDate = files[0].split("_")[2];
+  // console.log(downloadDate);
+  let date = new Date(+downloadDate);
+  // console.log(date);
+
+  var args = process.argv.slice(2);
 
 
 
   let promise = new Promise((resolve, reject) => {
     for (const file of files) {
-      if (symbols.has(file)) {
-        loadData(path.join(dir, file).toString(), resolve, stat, out, mapSymbol);
-      }
+      // if (symbols.has(file)) {
+      loadData(path.join(dir, file).toString(), resolve, stat, out, mapSymbol, date, checkdate);
+      // }
     }
   });
 
@@ -407,15 +431,25 @@ async function financial() {
   }
   // console.table(str)
   let floor = "HOSE";
+
+  let y = date.getFullYear();
+  let M = date.getMonth()+1;
+  let d = date.getDate();
+  let h = date.getHours() + 7;
+  let m = date.getMinutes();
+  let s = date.getMilliseconds();
+
+  let datestr = y+"" + (M<10?"0"+M:M)+""+d+""+h+""+m+""+s;
+
   fs.writeFileSync(dir + "Filter" + "_table.log", str, (e) => { if (e) { console.log(e) } })
-  fs.writeFileSync(dir + "Filter" + "_5p.json", JSON.stringify(ret), (e) => { if (e) { console.log(e) } })
-  writeArrayJson2Xlsx(dir + "Filter" + "_5p_" + ".xlsx", Object.values(ret))
+  fs.writeFileSync(dir + "Filter" +datestr+ ".json", JSON.stringify(ret), (e) => { if (e) { console.log(e) } })
+  writeArrayJson2Xlsx(dir + "Filter" + datestr + ".xlsx", Object.values(ret))
 })();
 
 
 
 let summarySymbol = {};
-async function loadData(path, resolve, stat, filter, mapSymbol) {
+async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, checkDate) {
   var data = fs.readFileSync(path)
     .toString()
     .split('\n')
@@ -463,6 +497,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
     return ne;
   })
 
+  if (checkDate == undefined) checkDate = -1;
 
   let config = {
     avgValue: 500000000,
@@ -504,12 +539,12 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
   let prices = filterData.map(e => e.priceClose);
   let vols = filterData.map(e => e.dealVolume);
 
-  avg.priceClose = Math.floor(prices.at(-1) * 100) / 100;
-  avg.priceLow = Math.floor(filterData.at(-1).priceLow * 100) / 100;
-  avg.priceHigh = Math.floor(filterData.at(-1).priceHigh * 100) / 100;
-  avg.priceOpen = Math.floor(filterData.at(-1).priceOpen * 100) / 100;
-  avg.priceBasic = Math.floor(filterData.at(-1).priceBasic * 100) / 100;
-  avg.pct = Math.floor((filterData.at(-1).priceClose - filterData.at(-1).priceBasic) / filterData.at(-1).priceBasic * 10000) / 100
+  avg.priceClose = Math.floor(prices.at(checkDate) * 100) / 100;
+  avg.priceLow = Math.floor(filterData.at(checkDate).priceLow * 100) / 100;
+  avg.priceHigh = Math.floor(filterData.at(checkDate).priceHigh * 100) / 100;
+  avg.priceOpen = Math.floor(filterData.at(checkDate).priceOpen * 100) / 100;
+  avg.priceBasic = Math.floor(filterData.at(checkDate).priceBasic * 100) / 100;
+  avg.pct = Math.floor((filterData.at(checkDate).priceClose - filterData.at(checkDate).priceBasic) / filterData.at(checkDate).priceBasic * 10000) / 100
   let os = shares[symbol];
   avg.ownership = os != undefined ? os.ownership : 0;
   avg.shares = os != undefined ? os.shares : 0;
@@ -526,6 +561,14 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
   let BSSL = days.map((e, i) => { return [...datax[i].map(e => e.buyCount / e.sellCount)] })
   let BSQ = days.map((e, i) => { return [...datax[i].map(e => e.buyQuantity / e.sellQuantity)] })
 
+  let Fvol = days.map((e, i) => { return [...datax[i].map(e => (e.buyForeignQuantity + e.sellForeignQuantity))] })
+  let Fval = days.map((e, i) => { return [...datax[i].map(e => (e.buyForeignValue + e.sellForeignValue))] })
+  let FvalDelta = days.map((e, i) => { return [...datax[i].map(e => (e.buyForeignValue - e.sellForeignValue))] })
+  let FvolDelta = days.map((e, i) => { return [...datax[i].map(e => (e.buyForeignQuantity - e.sellForeignQuantity))] })
+  let FBQ = days.map((e, i) => { return [...datax[i].map(e => e.buyForeignQuantity)] })
+  let FSQ = days.map((e, i) => { return [...datax[i].map(e => e.sellForeignQuantity)] })
+  let FBSQ = days.map((e, i) => { return [...datax[i].map(e => e.buyForeignQuantity / e.sellForeignQuantity)] })
+
   let m = {
     BSL: BSL,
     BQ: BQ,
@@ -539,11 +582,18 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
     HLP: hlp,
     Vol: vol,
     Val: val,
+    Fvol: Fvol,
+    Fval: Fval,
+    FvalDelta: FvalDelta,
+    FvolDelta: FvolDelta,
+    FBQ: FBQ,
+    FSQ: FSQ,
+    FBSQ: FBSQ,
   }
 
   let threshold = 1.645;
-  avg.vol = filterData.at(-1).dealVolume;
-  avg.val = filterData.at(-1).totalValue;
+  avg.vol = filterData.at(checkDate).dealVolume;
+  avg.val = filterData.at(checkDate).totalValue;
 
   let fn = mapFinancial[symbol];
 
@@ -565,10 +615,62 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
 
   Object.keys(m).forEach(
     me => {
-      avg[me] = m[me][0].at(0);
+      avg[me] = m[me][0].at(-1 - checkDate);
     }
   )
-  let minEnd = Math.min(...hl.at(-1));
+  let minEnd = Math.min(...hl.at(checkDate));
+
+  let checkTime = new Date(filterData.at(checkDate).date);
+  // console.log(checkTime, downloadDate)
+  let ratioTrade = 1;
+
+
+  if (checkTime.getFullYear() == downloadDate.getFullYear() &&
+    checkTime.getMonth() == downloadDate.getMonth() &&
+    checkTime.getDate() == downloadDate.getDate()) {
+    let h = downloadDate.getHours() + 7;
+    let m = downloadDate.getMinutes();
+    let s = downloadDate.getMilliseconds();
+    let totaltime = 0;
+    let p1 = 9 * 60 * 60;
+    let p2 = 11 * 60 * 60 + 30 * 60
+    let p3 = 13 * 60 * 60
+    let p4 = 14 * 60 * 60 + 45 * 60;
+    let p5 = 15 * 60 * 60;
+
+    h = 15;
+    m = 47
+    let p = h * 60 * 60 + m * 60 + s;
+    let tradetime = 0;
+    if (p >= p1 && p <= p2) tradetime = p - p1;
+    if (p > p2 && p < p3) tradetime = p2 - p1;
+    if (p >= p3 && p <= p4) tradetime = p2 - p1 + p - p3;
+    if (p > p4 && avg.exch != "UPCOM") tradetime = p2 - p1 + p4 - p3;
+    if (avg.exch == "UPCOM" && p > p4 && p <= p5) {
+      tradetime = p2 - p1 + p - p3;
+    }
+    if (avg.exch == "UPCOM" && p > p5) {
+      tradetime = p2 - p1 + p5 - p3;
+    }
+    let total = avg.exch == "UPCOM" ? p2 - p1 + p5 - p3 : p2 - p1 + p4 - p3;
+
+    // if (avg.exch == "UPCOM") {
+    //   console.log(total)
+    //   console.log(h, m, s, tradetime, total, tradetime/total)
+    // }else{
+    //   // console.log(avg.exch,h, m, s, tradetime, total, tradetime/total)
+    // }
+
+    ratioTrade = tradetime / total;
+
+
+  } else {
+    ratioTrade = 1;
+  }
+
+  // console.log(checkTime.getFullYear(), checkTime.getMonth(), checkTime.getDate())
+
+
   days.forEach((e, i) => {
     // avg["mean" + e] = Math.floor(stats.mean(c[i]) * 100) / 100;
     // avg["std" + e] = Math.floor(stats.stdev(c[i]) * 100) / 100;
@@ -590,6 +692,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
     // avg["ORVol" + e] = Math.floor((Math.abs(stats.mean(vol[i]) - vol[i].at(0)) - threshold * stats.stdev(vol[i])) / Math.abs(stats.mean(vol[i])) * 100) / 100;
     // avg["ORVal" + e] = Math.floor((Math.abs(stats.mean(val[i]) - val[i].at(0)) - threshold * stats.stdev(val[i])) / Math.abs(stats.mean(val[i])) * 100) / 100;
 
+    let exclude = ["C", "HL", "CP", "HLP"]
     Object.keys(m).forEach(
       me => {
         let mean = stats.mean(m[me][i])
@@ -599,9 +702,18 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
         avg["stdR" + me + e] = Math.floor(std / Math.abs(mean) * 1000000) / 1000000;
         avg["stdM" + me + e] = Math.floor(std / minEnd * 1000000) / 1000000;
         avg["stdMM" + me + e] = Math.floor(std * mean / minEnd * 1000000) / 1000000;
-        avg["O" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(0)) - threshold * std) * 100) / 100;
-        let or = Math.floor((Math.abs(mean - m[me][i].at(0)) - threshold * std) / Math.abs(mean) * 100) / 100;
+        avg["O" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate)) - threshold * std) * 100) / 100;
+        avg["ORR" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate)) / std) * 100) / 100;
+        avg["R" + me + e] = Math.floor((m[me][i].at(-1 - checkDate) / mean) * 100) / 100;
+        let or = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate)) - threshold * std) / Math.abs(mean) * 100) / 100;
         avg["OR" + me + e] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
+        if (exclude.includes(me)) {
+          return;
+        }
+        avg["TO" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate) / ratioTrade) - threshold * std) * 100) / 100;
+        avg["TORR" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate) / ratioTrade) / std) * 100) / 100;
+        or = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate) / ratioTrade) - threshold * std) / Math.abs(mean) * 100) / 100;
+        avg["TOR" + me + e] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
       }
     )
 
@@ -610,10 +722,12 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
     avg["min" + e] = min;
     avg["max" + e] = max;
     avg["%MM" + e] = Math.floor((max - min) / max * 10000) / 100;
-    avg["%EE" + e] = Math.floor((filterData.at(-1).priceClose - c[i].at(-1)) / c[i].at(-1) * 10000) / 100;
-    if (symbol == "L14") { console.log(filterData.at(-1).priceClose, c[i].at(-1)); }
-    avg["%PriceMax" + e] = Math.floor((max - filterData.at(-1).priceClose) / max * 10000) / 100;
-    avg["%PriceMin" + e] = Math.floor((filterData.at(-1).priceClose - min) / min * 10000) / 100;
+    avg["%EE" + e] = Math.floor((filterData.at(checkDate).priceClose - c[i].at(checkDate)) / c[i].at(checkDate) * 10000) / 100;
+    avg["EEC" + e] = Math.floor((filterData.at(checkDate - 1).priceClose - c[i].at(checkDate)) / c[i].at(checkDate) *
+      (filterData.at(checkDate).priceClose - filterData.at(checkDate - 1).priceClose) / filterData.at(checkDate - 1).priceClose
+      * 10000) / 100;
+    avg["%PriceMax" + e] = Math.floor((max - filterData.at(checkDate).priceClose) / max * 10000) / 100;
+    avg["%PriceMin" + e] = Math.floor((filterData.at(checkDate).priceClose - min) / min * 10000) / 100;
 
 
   });
@@ -624,11 +738,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
   let smaRet = shortPeriods.map(e => { return SMA.calculate({ period: e, values: prices }); });
 
   shortPeriods.forEach((e, i) => {
-    avg["sma" + e] = Math.floor(smaRet[i].at(-1) * 100) / 100;
-    avg["sma" + e + "%"] = (Math.floor((prices.at(-1) - smaRet[i].at(-1)) / smaRet[i].at(-1) * 10000) / 100);
-    avg["SVol" + e] = Math.floor(smaVol[i].at(-1) * 100) / 100;
-    avg["%SVol" + e] = (Math.floor((vols.at(-1) - smaVol[i].at(-1)) / smaVol[i].at(-1) * 10000) / 100);
-    avg["RSVol" + e] = (Math.floor(vols.at(-1) / smaVol[i].at(-1) * 100) / 100);
+    avg["sma" + e] = Math.floor(smaRet[i].at(checkDate) * 100) / 100;
+    avg["sma" + e + "%"] = (Math.floor((prices.at(checkDate) - smaRet[i].at(checkDate)) / smaRet[i].at(checkDate) * 10000) / 100);
+    avg["SVol" + e] = Math.floor(smaVol[i].at(checkDate) * 100) / 100;
+    avg["%SVol" + e] = (Math.floor((vols.at(checkDate) - smaVol[i].at(checkDate)) / smaVol[i].at(checkDate) * 10000) / 100);
+    avg["RSVol" + e] = (Math.floor(vols.at(checkDate) / smaVol[i].at(checkDate) * 100) / 100);
   })
 
 
@@ -639,8 +753,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
 
 
   var rsi = RSI.calculate(inputRSI);
-  // console.table(rsi)
-  avg.rsi = rsi.at(-1)
+  avg.rsi = rsi.at(checkDate)
 
   const bb = { period: 20, stdDev: 2, values: prices };
   const macd = { fastPeriod: 12, slowPeriod: 26, signalPeriod: 9, values: prices, };
@@ -653,8 +766,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol) {
   // var srsio = StochasticRSI.calculate(stochasticRsi);
   // console.table(bbo.slice(0,10))
   // console.table(macdo.slice(0,10))
-  let bbe = bbo.at(-1);
-  let macde = macdo.at(-1);
+  let bbe = bbo.at(checkDate);
+  let macde = macdo.at(checkDate);
   // console.log(symbol)
   // console.table([bbe])
   // console.table([macde])

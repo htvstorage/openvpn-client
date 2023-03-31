@@ -5,6 +5,9 @@ import { Exchange } from "./Exchange.js";
 
   let x = [0,1,2,3,4,5,6]
 
+  console.log(Math.max(...x))
+  console.log(Math.min(...x))
+
   let x2 = [...x];
 
   console.log(x.reverse())
@@ -39,5 +42,8 @@ import { Exchange } from "./Exchange.js";
 
   // z.then(res => console.log(res))
   await z;
-  console.table(stockdata["HPG"])
+
+  x = ["0,1,2,3,4,5,6" , "2", "ABCD", "Z"]
+  // console.log(x.filter())
+  // console.table(stockdata["HPG"])
 })();

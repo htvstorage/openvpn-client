@@ -5,6 +5,7 @@ import json2csv2 from "json2csv"
 
 import http from "node:http";
 import https from "node:https";
+import path from "path";
 
 const httpAgent = new http.Agent({ keepAlive: true });
 const httpsAgent = new https.Agent({ keepAlive: true });
@@ -60,6 +61,19 @@ log4js.configure({
   console.log(xx.length)
   cop = [...cop, ...xx];
 
+  let date = new Date();
+
+  let dir = "./his/";
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir);
+  } else {
+    let files = fs.readdirSync(dir);
+    for (const file of files) {
+      fs.unlinkSync(path.join(dir, file));
+    }
+  }
+
+
   // let req = 0;
   // let res = 0;
   let stat = { req: 0, res: 0 };
@@ -78,7 +92,7 @@ log4js.configure({
         counter++;
         console.log(counter, ret.Code, stat);
         let data2 = csv.parse(ret.data);
-        fs.writeFile("./his/" + ret.Code + "_" + x.Exchange + '_trans.txt', data2 + "\n", function (err) {
+        fs.writeFile("./his/" + ret.Code + "_" + x.Exchange +"_" + date.getTime()+ '_trans.txt', data2 + "\n", function (err) {
           if (err) throw err;
         });
         // res++;

@@ -474,8 +474,10 @@ async function processData() {
                   let add = {};
                   if (p != undefined) {
                     add.c1 = p.lastPrice;
-                    let mul = v.c > 1000 ? 1000 : 1;
+                    let mul = v.c > 1000 ? (p.lastPrice > 1000 ? 1 : 1000) : (p.lastPrice > 1000 ? 1 / 1000 : 1);
                     add.pct1 = Math.floor((p.lastPrice * mul - v.c) / v.c * 10000) / 100;
+                    add["%maxc"] = Math.floor((v["maxc"] - p.lastPrice * mul) / p.lastPrice * 10000) / 100;
+                    add["%minc"] = Math.floor((p.lastPrice * mul - v["minc"]) / p.lastPrice * 10000) / 100;
                     console.log(add)
                   }
                   oulier.push({ symbol: symbol, busd: BUSD, ...add, ...v })
@@ -519,6 +521,39 @@ async function processData() {
               }
             });
 
+          } else {
+            let x = symbolData.data;
+            x.forEach((v) => {
+              let k = v.datetime;
+
+              if (newData[k] == undefined) {
+                newData[k] = { datetime: k };
+              }
+              let e = newData[k];
+              let prop = ['sd', 'bu', 'uk', 'val_sd', 'val_bu', 'val_uk', 'sum_vol', 'val']
+
+              prop.forEach(p => {
+                let vv = ((v[p] == undefined) ? 0 : v[p]);
+                e[p] = (e[p] == undefined) ? vv : e[p] + vv;
+              })
+              e.date = (new Date(k)).toISOString();
+              count++;
+              if (options.outlier) {
+                if (v["Oval_bu"] > 0 || v["Oval_sd"] > 0) {
+                  let BUSD = v["Oval_bu"] > 0 ? (v["Oval_sd"] > 0 ? "UKN" : "BU") : "SD"
+                  let p = stockdata[symbol]
+                  let add = {};
+                  if (p != undefined) {
+                    add.c1 = p.lastPrice;
+                    let mul = v.c > 1000 ? 1000 : 1;
+                    add.pct1 = Math.floor((p.lastPrice * mul - v.c) / v.c * 10000) / 100;
+                    console.log(add)
+                  }
+                  oulier.push({ symbol: symbol, busd: BUSD, ...add, ...v })
+                }
+              }
+
+            })
           }
           // console.log(index,length,symbolData.floor,x.length,count)
 
@@ -641,12 +676,16 @@ async function processData() {
                     outa[k] = outs.map(e => check(e[k]));
                     let mean = stats.mean(outa[k])
                     let std = stats.stdev(outa[k])
+                    let max = Math.max(...outa[k])
+                    let min = Math.min(...outa[k])
 
                     if (options.model) {
                       if (dataModel[ss] == undefined) dataModel[ss] = {};
                       if (dataModel[ss]["VNINDEX"] == undefined) dataModel[ss]["VNINDEX"] = {};
                       dataModel[ss]["VNINDEX"]["mean" + k] = Math.floor(mean * 10000) / 10000;
                       dataModel[ss]["VNINDEX"]["std" + k] = Math.floor(std * 10000) / 10000;
+                      dataModel[ss]["VNINDEX"]["max" + k] = max;
+                      dataModel[ss]["VNINDEX"]["min" + k] = min;
                     }
 
                     if (ss == session) {
@@ -656,7 +695,7 @@ async function processData() {
                         e["mean" + k] = Math.floor(mean * 100) / 100;
                         e["std" + k] = Math.floor(std * 100) / 100;
                         e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
-                        e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k]))/std) * 100) / 100;
+                        e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
                         let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                         e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
                         if (e["O" + k] > 0 || e["OR" + k] > 0) {
@@ -700,7 +739,7 @@ async function processData() {
                     e["mean" + k] = Math.floor(mean * 100) / 100;
                     e["std" + k] = Math.floor(std * 100) / 100;
                     e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
-                    e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k]))/std) * 100) / 100;
+                    e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
                     let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                     e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
                     if (e["O" + k] > 0 || e["OR" + k] > 0) {
@@ -1157,11 +1196,15 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
               outa[k] = outs.map(e => check(e[k]));
               let mean = stats.mean(outa[k])
               let std = stats.stdev(outa[k])
+              let max = Math.max(...outa[k])
+              let min = Math.min(...outa[k])
               if (options.model) {
                 if (dataModel[ss] == undefined) dataModel[ss] = {};
                 if (dataModel[ss][symbol] == undefined) dataModel[ss][symbol] = {};
                 dataModel[ss][symbol]["mean" + k] = Math.floor(mean * 10000) / 10000;
                 dataModel[ss][symbol]["std" + k] = Math.floor(std * 10000) / 10000;
+                dataModel[ss][symbol]["max" + k] = max;
+                dataModel[ss][symbol]["min" + k] = min;
               }
               if (ss == session) {
                 let threshold = options.threshold;
@@ -1170,7 +1213,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
                   e["mean" + k] = Math.floor(mean * 100) / 100;
                   e["std" + k] = Math.floor(std * 100) / 100;
                   e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
-                  e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k]))/std) * 100) / 100;
+                  e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
                   // console.log("ORR")
                   let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                   e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
@@ -1209,14 +1252,20 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         let mdd = dataModel[session][symbol];
         // console.table(symbol)
         // console.table(mdd)
+
+
+
         key.forEach(k => {
           let mean = mdd["mean" + k];
           let std = mdd["std" + k];
+
           for (let e of x) {
             e["mean" + k] = Math.floor(mean * 100) / 100;
             e["std" + k] = Math.floor(std * 100) / 100;
+            e["max" + k] = mdd["max" + k];
+            e["min" + k] = mdd["min" + k];
             e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
-            e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k]))/std) * 100) / 100;
+            e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
             let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
             e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
             if (e["O" + k] > 0 || e["OR" + k] > 0) {
