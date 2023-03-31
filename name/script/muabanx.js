@@ -273,10 +273,10 @@ async function processData() {
   // });
 
   let company = await Exchange.getlistallstock();
-  
-  
+
+
   company.forEach((e) => {
-    if (e.stock_code.length <= 3) {      
+    if (e.stock_code.length <= 3) {
       symbolExchange[e.stock_code] = e.post_to;
     }
   })
@@ -484,11 +484,14 @@ async function processData() {
                   let add = {};
                   if (p != undefined) {
                     add.c1 = p.lastPrice;
-                    let mul = v.c > 1000 ? (p.lastPrice > 1000 ? 1 : 1000) : (p.lastPrice > 1000 ? 1 / 1000 : 1);
-                    add.pct1 = Math.floor((p.lastPrice * mul - v.c) / v.c * 10000) / 100;
-                    add["%maxc"] = Math.floor((v["maxc"] - p.lastPrice * mul) / p.lastPrice * 10000) / 100;
-                    add["%minc"] = Math.floor((p.lastPrice * mul - v["minc"]) / p.lastPrice * 10000) / 100;
-                    console.log(add)
+                    if (v.c < 1000) v.c = v.c * 1000;
+                    if (p.lastPrice < 1000) p.lastPrice = p.lastPrice * 1000;
+                    if (v["maxc"] < 1000) v["maxc"] = v["maxc"] * 1000;
+                    if (v["minc"] < 1000) v["minc"] = v["minc"] * 1000;
+                    add.pct1 = Math.floor((p.lastPrice - v.c) / v.c * 10000) / 100;
+                    add["%maxc"] = Math.floor((v["maxc"] - p.lastPrice) / (p.lastPrice) * 10000) / 100;
+                    add["%minc"] = Math.floor((p.lastPrice - v["minc"]) / (p.lastPrice) * 10000) / 100;
+                    // console.log(add, p.lastPrice, v["maxc"], v["minc"], mul)
                   }
                   oulier.push({ symbol: symbol, busd: BUSD, ...add, ...v })
                 }
@@ -555,9 +558,13 @@ async function processData() {
                   let add = {};
                   if (p != undefined) {
                     add.c1 = p.lastPrice;
-                    let mul = v.c > 1000 ? 1000 : 1;
-                    add.pct1 = Math.floor((p.lastPrice * mul - v.c) / v.c * 10000) / 100;
-                    console.log(add)
+                    if (v.c < 1000) v.c = v.c * 1000;
+                    if (p.lastPrice < 1000) p.lastPrice = p.lastPrice * 1000;
+                    if (v["maxc"] < 1000) v["maxc"] = v["maxc"] * 1000;
+                    if (v["minc"] < 1000) v["minc"] = v["minc"] * 1000;
+                    add.pct1 = Math.floor((p.lastPrice - v.c) / v.c * 10000) / 100;
+                    add["%maxc"] = Math.floor((v["maxc"] - p.lastPrice) / (p.lastPrice) * 10000) / 100;
+                    add["%minc"] = Math.floor((p.lastPrice - v["minc"]) / (p.lastPrice) * 10000) / 100;                    
                   }
                   oulier.push({ symbol: symbol, busd: BUSD, ...add, ...v })
                 }
@@ -688,6 +695,7 @@ async function processData() {
                     let std = stats.stdev(outa[k])
                     let max = Math.max(...outa[k])
                     let min = Math.min(...outa[k])
+
 
                     if (options.model) {
                       if (dataModel[ss] == undefined) dataModel[ss] = {};
@@ -942,7 +950,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       let e = newData[k];
       let p = +v.price;
       if (!v.price.indexOf(".") > 0) {
-        v.price = (p/1000).toFixed(2)
+        v.price = (p / 1000).toFixed(2)
       }
       // console.log(v)
       e.c = p;
@@ -1164,6 +1172,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
 
     let floor = symbolExchange[symbol];
     if (floor == undefined) floor = "UKN";
+
+    // console.log(floor)
     let session = options.session;
     if (session == undefined) session = 2000;
     if (options.outlier) {
@@ -1185,6 +1195,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       }
 
       if (dataModel.loaded == undefined || dataModel[session][symbol] == undefined) {
+
+        // console.log(dirAll + symbol + "_" + floor + interval + ".json", fs.existsSync(dirAll + symbol + "_" + floor + interval + ".json"))
         if (fs.existsSync(dirAll + symbol + "_" + floor + interval + ".json")) {
           let jsonData = fs.readFileSync(dirAll + symbol + "_" + floor + interval + ".json")
           let json = new String(jsonData).toString().split("\n").map(e => {
@@ -1207,10 +1219,22 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
             let outs = dataOut[i];
             key.forEach(k => {
               outa[k] = outs.map(e => check(e[k]));
+              if(k == "c"){
+                outa[k] = outa[k].map(e=>{
+                  return e> 1000? e: e*1000
+                });
+              }
               let mean = stats.mean(outa[k])
               let std = stats.stdev(outa[k])
               let max = Math.max(...outa[k])
               let min = Math.min(...outa[k])
+
+              if (symbol == "THI") {
+                // console.log("max", max, "min", min)
+                // console.table(outa)
+                // console.table(out.slice(0, ss))
+              }
+
               if (options.model) {
                 if (dataModel[ss] == undefined) dataModel[ss] = {};
                 if (dataModel[ss][symbol] == undefined) dataModel[ss][symbol] = {};
@@ -1225,6 +1249,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
                 for (let e of x) {
                   e["mean" + k] = Math.floor(mean * 100) / 100;
                   e["std" + k] = Math.floor(std * 100) / 100;
+                  e["max" + k] = max;
+                  e["min" + k] = min;
                   e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
                   e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
                   // console.log("ORR")
@@ -1246,7 +1272,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
           x.forEach((e, i) => {
             bbe = bbo.at(x.length - i);
             if (bbe == undefined || bbe == null) {
-              console.log(bbo.length, x.length, symbol)
+              // console.log(bbo.length, x.length, symbol)
               return;
             }
             Object.keys(bbe).forEach(k => {

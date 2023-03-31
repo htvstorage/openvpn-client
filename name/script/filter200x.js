@@ -354,8 +354,9 @@ async function financial() {
       fs.rmSync("./profile/holders.json")
   }
 
-  let out = await industry();
-  await financial();
+  // let out = await industry();
+  // await financial();
+  let out = {}
 
   let company = [];
   let counter = 0;
@@ -706,14 +707,14 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
         avg["ORR" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate)) / std) * 100) / 100;
         avg["R" + me + e] = Math.floor((m[me][i].at(-1 - checkDate) / mean) * 100) / 100;
         let or = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate)) - threshold * std) / Math.abs(mean) * 100) / 100;
-        avg["OR" + me + e] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
+        avg["OR" + me + e] = Number.isNaN(or) ? -999999 : or;
         if (exclude.includes(me)) {
           return;
         }
         avg["TO" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate) / ratioTrade) - threshold * std) * 100) / 100;
         avg["TORR" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate) / ratioTrade) / std) * 100) / 100;
         or = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate) / ratioTrade) - threshold * std) / Math.abs(mean) * 100) / 100;
-        avg["TOR" + me + e] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
+        avg["TOR" + me + e] = Number.isNaN(or) ? -999999 : or;
       }
     )
 
