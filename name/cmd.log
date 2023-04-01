@@ -227,3 +227,8 @@ node script/muabanx.js outlier=true  interval=600000 date=20230331
 node script/muabanx.js join=true  interval=600000 date=20221230
 
 node script/muabanx.js outlier=true model=true interval=600000 date=20230331
+
+
+node script/muabanx.js join=true  interval=3600000 
+
+node script/muabanx.js outlier=true model=true interval=3600000 date=20230331
