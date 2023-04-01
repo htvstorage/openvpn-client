@@ -407,9 +407,18 @@ async function processData() {
     let promise = new Promise((resolve, reject) => {
       let stat = { req: 0, res: 0 };
       let length = files.length;
+      let hpg=files.filter(e=>e.indexOf("HPG")>0);
+      // console.log(hpg)
+      let hpgContent=fs.readFileSync(hpg[0],"utf-8");
+      // console.log(hpgContent)
+      let hpga=hpgContent.split("\n").map(e=>e.split(","));
+      let hout=hpga.map(e=>e[0]).filter(e=>(e+"").indexOf(".")>0)      
+
+      let priceType = hout.length == 0? 1000:1;
+
       files.forEach(async (f) => {
         try {
-          processOne(f, symbolExchange, out, stat, resolve, length, options, dataModel)
+          processOne(f, symbolExchange, out, stat, resolve, length, options, dataModel,priceType)
         } catch (error) {
           console.log(f, error)
         }
@@ -484,10 +493,10 @@ async function processData() {
                   let add = {};
                   if (p != undefined) {
                     add.c1 = p.lastPrice;
-                    if (v.c < 1000) v.c = v.c * 1000;
-                    if (p.lastPrice < 1000) p.lastPrice = p.lastPrice * 1000;
-                    if (v["maxc"] < 1000) v["maxc"] = v["maxc"] * 1000;
-                    if (v["minc"] < 1000) v["minc"] = v["minc"] * 1000;
+                    // if (v.c < 1000) v.c = v.c * 1000;
+                    // if (p.lastPrice < 1000) p.lastPrice = p.lastPrice * 1000;
+                    // if (v["maxc"] < 1000) v["maxc"] = v["maxc"] * 1000;
+                    // if (v["minc"] < 1000) v["minc"] = v["minc"] * 1000;
                     add.pct1 = Math.floor((p.lastPrice - v.c) / v.c * 10000) / 100;
                     add["%maxc"] = Math.floor((v["maxc"] - p.lastPrice) / (p.lastPrice) * 10000) / 100;
                     add["%minc"] = Math.floor((p.lastPrice - v["minc"]) / (p.lastPrice) * 10000) / 100;
@@ -558,10 +567,10 @@ async function processData() {
                   let add = {};
                   if (p != undefined) {
                     add.c1 = p.lastPrice;
-                    if (v.c < 1000) v.c = v.c * 1000;
-                    if (p.lastPrice < 1000) p.lastPrice = p.lastPrice * 1000;
-                    if (v["maxc"] < 1000) v["maxc"] = v["maxc"] * 1000;
-                    if (v["minc"] < 1000) v["minc"] = v["minc"] * 1000;
+                    // if (v.c < 1000) v.c = v.c * 1000;
+                    // if (p.lastPrice < 1000) p.lastPrice = p.lastPrice * 1000;
+                    // if (v["maxc"] < 1000) v["maxc"] = v["maxc"] * 1000;
+                    // if (v["minc"] < 1000) v["minc"] = v["minc"] * 1000;
                     add.pct1 = Math.floor((p.lastPrice - v.c) / v.c * 10000) / 100;
                     add["%maxc"] = Math.floor((v["maxc"] - p.lastPrice) / (p.lastPrice) * 10000) / 100;
                     add["%minc"] = Math.floor((p.lastPrice - v["minc"]) / (p.lastPrice) * 10000) / 100;                    
@@ -884,7 +893,7 @@ async function processData() {
 
 
 
-async function processOne(file, symbolExchange, out, stat, resolve, totalFile, options, dataModel) {
+async function processOne(file, symbolExchange, out, stat, resolve, totalFile, options, dataModel, priceType) {
   stat.req++;
   let maxTopInterval = 10;
   let maxTopAll = 50;
@@ -935,6 +944,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
 
     data.forEach((v, i) => {
       // console.log(v)
+      if(+v.price == 0) return;
       let k = Math.floor(v.datetime / interval) * interval;
       if (Number.isNaN(k)) {
         return;
@@ -948,10 +958,16 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       }
       let te = top[k];
       let e = newData[k];
-      let p = +v.price;
-      if (!v.price.indexOf(".") > 0) {
-        v.price = (p / 1000).toFixed(2)
+      if(priceType == 1000) {
+        v.price = (+v.price / 1000).toFixed(2); 
+        v.change = ((+v.change)/1000).toFixed(2);
       }
+      let p = +v.price;
+
+      // if(p == 0) return;
+      // if (!v.price.indexOf(".") > 0) {
+      //   v.price = (p / 1000).toFixed(2)
+      // }      
       // console.log(v)
       e.c = p;
       e.change = +v.change
@@ -961,10 +977,10 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       if (e.h < p) e.h = p;
       if (e.l > p) e.l = p;
       if (e.o == undefined) e.o = p;
-      let short = false;
-      if (v.price.indexOf(".") > 0) {
-        short = true;
-      }
+      let short = true;
+      // if (v.price.indexOf(".") > 0) {
+      //   short = true;
+      // }
       let val = short ? +v.match_qtty * p * 1000 : +v.match_qtty * p;
       switch (v.side) {
         case 'bu':
@@ -1176,6 +1192,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
     // console.log(floor)
     let session = options.session;
     if (session == undefined) session = 2000;
+    // if (symbol == "CEO") {
+    // console.table(x)
+    // }
     if (options.outlier) {
       let out = [...x];
       out = out.reverse();
@@ -1219,18 +1238,13 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
             let outs = dataOut[i];
             key.forEach(k => {
               outa[k] = outs.map(e => check(e[k]));
-              if(k == "c"){
-                outa[k] = outa[k].map(e=>{
-                  return e> 1000? e: e*1000
-                });
-              }
               let mean = stats.mean(outa[k])
               let std = stats.stdev(outa[k])
               let max = Math.max(...outa[k])
               let min = Math.min(...outa[k])
 
-              if (symbol == "THI") {
-                // console.log("max", max, "min", min)
+              if (symbol == "CEO") {
+                // console.log("max" +k, max, "min" +k, min)
                 // console.table(outa)
                 // console.table(out.slice(0, ss))
               }
