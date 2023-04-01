@@ -742,7 +742,7 @@ async function processData() {
                     values.forEach((e, i) => {
                       bbe = bbo.at(values.length - i);
                       if (bbe == undefined || bbe == null) {
-                        console.log(bbo.length, values.length, symbol)
+                        // console.log(bbo.length, values.length, symbol)
                         return;
                       }
                       Object.keys(bbe).forEach(k => {

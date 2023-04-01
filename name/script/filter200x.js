@@ -354,9 +354,9 @@ async function financial() {
       fs.rmSync("./profile/holders.json")
   }
 
-  // let out = await industry();
-  // await financial();
-  let out = {}
+  let out = await industry();
+  await financial();
+  // let out = {}
 
   let company = [];
   let counter = 0;
