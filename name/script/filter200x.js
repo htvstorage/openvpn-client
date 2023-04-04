@@ -725,6 +725,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     avg["min" + e] = min;
     avg["max" + e] = max;
     avg["%MM" + e] = Math.floor((max - min) / max * 10000) / 100;
+    avg["%MM2" + e] = Math.floor((max - min) / min * 10000) / 100;
     avg["%EE" + e] = Math.floor((filterData.at(checkDate).priceClose - c[i].at(checkDate)) / c[i].at(checkDate) * 10000) / 100;
     avg["EEC" + e] = Math.floor((filterData.at(checkDate - 1).priceClose - c[i].at(checkDate)) / c[i].at(checkDate) *
       (filterData.at(checkDate).priceClose - filterData.at(checkDate - 1).priceClose) / filterData.at(checkDate - 1).priceClose
