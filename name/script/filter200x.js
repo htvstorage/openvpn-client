@@ -370,6 +370,8 @@ async function financial() {
     }
   })
 
+mapSymbol["VN30"] = "HOSE"
+mapSymbol["VNINDEX"] = "HOSE"
 
 
   let dir = "./his/";
