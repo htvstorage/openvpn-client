@@ -48,4 +48,6 @@ import { Exchange } from "./Exchange.js";
   console.table(stockdata["HPG"])
 
   console.log(+(5*1.0/1.0).toFixed(2) )
+
+  Exchange.tpcp();
 })();

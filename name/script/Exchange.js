@@ -1224,3 +1224,34 @@ Exchange.MBS.pbRltCharts2 = async function (code, resolution, from) {
   }
   return { Code: code, data: out, };
 }
+
+
+Exchange.tpcp = async function () {
+
+  const groups = {
+    "Quyết": ["FLC", "ROS", "AMD", "HAI", "KLF", "ART", "HAI"],
+    "Nhân": ["TGG", "BII", "AGM", "APG", "SMT", "VKC", "SJF"],
+    "Tuấn": ["GEX", "IDC", "VIX", "VGC", "MHC", "GEE"],
+    "Thuấn": ["ASM", "IDI", "DAT"],
+    "Hạ-Hậu": ["TCH", "HHS"],
+    "Sông Đà": ["SDA", "SD2", "SD3", "SD4", "SD5", "SD6", "SD7", "SD9"],
+    "Tâm": ["KBC", "ITA"],
+    "Bamboo": ["TCD", "BCG"],
+    "Lăng": ["IDJ", "APS", "API", "DPG", "CSC"],
+    "Thìn": ["DXS", "DXG"],
+    "Đức": ["HAG", "HNG"],
+    "A7": ["L14", "DIG", "CEO", "CCL", "NHA"],
+    "Dương": ["HCD", "AAA", "APH", "NHH"],
+    "Độ-Hạnh": ["HUT", "JVC", "VC9", "DNP"]
+  };
+
+  let out = {};
+  Object.keys(groups).forEach(k => {
+    let t = groups[k];
+    for (let c of t) {
+      out[c] = k;
+    }
+  })
+  // console.log(out)
+  return out;
+}
