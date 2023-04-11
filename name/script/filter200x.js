@@ -16,6 +16,7 @@ import stats from "stats-analysis";
 
 import http from "node:http";
 import https from "node:https";
+import { Config } from "./config.js";
 
 
 
@@ -510,7 +511,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
 
   let symbol = data[0].symbol;
 
-  let days = [3, 7, 10, 15, 20, 30, 50, 100, 200, 365, 500, 1000, 5000];
+  // let days = [3, 7, 10, 15, 20, 30, 50, 100, 200, 365, 500, 1000, 5000];
+  let days = Config.filter()["days"];
 
   let data30 = filterData.slice(0, 30);
 
