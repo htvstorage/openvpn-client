@@ -449,6 +449,7 @@ let tpcp = await Exchange.tpcp();
   fs.writeFileSync(dir + "Filter" + "_table.log", str, (e) => { if (e) { console.log(e) } })
   fs.writeFileSync(dir + "Filter" + datestr + ".json", JSON.stringify(ret), (e) => { if (e) { console.log(e) } })
   writeArrayJson2Xlsx(dir + "Filter" + datestr + ".xlsx", Object.values(ret))
+  console.log("Save to " +dir + "Filter" + datestr + ".xlsx")
 })();
 
 
