@@ -728,7 +728,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
         if (i == indexBombday) {
           let t = [...m[me][i]];
           // console.log(...m[me][i],t,checkDate)
-          t.splice(-1 - checkDate,1);
+          t.splice(-1 - checkDate, 1);
           let bmax = Math.max(...t);
           // console.log(...m[me][i],t,bmax,checkDate)
           avg["MBR" + me + e] = Math.floor((bmax / mean) * 100) / 100;
@@ -763,9 +763,26 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   });
 
 
-  let shortPeriods = [5, 10, 20, 25, 26, 30, 50, 100, 200];
+  // let shortPeriods = [5, 10, 20, 25, 26, 30, 50, 100, 200];
+  let shortPeriods = Config.filter()["shortPeriods"];
   let smaVol = shortPeriods.map(e => { return SMA.calculate({ period: e, values: vols }); });
   let smaRet = shortPeriods.map(e => { return SMA.calculate({ period: e, values: prices }); });
+  let numSidewayDays = Config.filter()["numSidewayDays"];
+  let shortSidewayDays = Config.filter()["shortSidewayDays"];
+  let t = [...prices];
+  t.reverse();
+  let x = t.slice(0, numSidewayDays);
+  let mean = stats.mean(t.slice(0, shortSidewayDays))
+  let std = stats.stdev(t.slice(0, shortSidewayDays))
+  let sidewayThreshold = 2;
+  let count = 0;
+  x.forEach(e=>{
+     if (Math.abs(e-mean)/mean*100 < sidewayThreshold){
+      count++;
+     }
+  });
+
+  avg["SWC"] = count;
 
   shortPeriods.forEach((e, i) => {
     avg["sma" + e] = Math.floor(smaRet[i].at(checkDate) * 100) / 100;
