@@ -4,3 +4,8 @@ const root = parse('<p><strong>Dự &aacute;n: Keangnam Hanoi Landmark Tower</st
 
 console.log(root.firstChild.structure);
 // console.log(root.firstChild.rawText);
+
+
+let t = [1,2,3,4,5,6,7,8,9]
+t.splice(0,1);
+console.log(t)

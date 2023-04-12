@@ -723,6 +723,7 @@ async function processData() {
                         e["std" + k] = Math.floor(std * 100) / 100;
                         e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
                         e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
+                        e["R" + k] = Math.floor((Math.abs(check(e[k])/mean)) * 100) / 100;
                         let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                         e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
                         if (e["O" + k] > 0 || e["OR" + k] > 0) {
@@ -767,6 +768,7 @@ async function processData() {
                     e["std" + k] = Math.floor(std * 100) / 100;
                     e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
                     e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
+                    e["R" + k] = Math.floor((Math.abs(check(e[k])/mean)) * 100) / 100;
                     let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                     e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
                     if (e["O" + k] > 0 || e["OR" + k] > 0) {
@@ -1267,6 +1269,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
                   e["min" + k] = min;
                   e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
                   e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
+                  e["R" + k] = Math.floor((Math.abs(check(e[k])/mean)) * 100) / 100;
                   // console.log("ORR")
                   let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                   e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
@@ -1319,6 +1322,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
             e["min" + k] = mdd["min" + k];
             e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
             e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
+            e["R" + k] = Math.floor((Math.abs(check(e[k])/mean)) * 100) / 100;
             let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
             e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
             if (e["O" + k] > 0 || e["OR" + k] > 0) {

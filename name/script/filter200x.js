@@ -449,7 +449,7 @@ let tpcp = await Exchange.tpcp();
   fs.writeFileSync(dir + "Filter" + "_table.log", str, (e) => { if (e) { console.log(e) } })
   fs.writeFileSync(dir + "Filter" + datestr + ".json", JSON.stringify(ret), (e) => { if (e) { console.log(e) } })
   writeArrayJson2Xlsx(dir + "Filter" + datestr + ".xlsx", Object.values(ret))
-  console.log("Save to " +dir + "Filter" + datestr + ".xlsx")
+  console.log("Save to " + dir + "Filter" + datestr + ".xlsx")
 })();
 
 
@@ -515,6 +515,17 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   // let days = [3, 7, 10, 15, 20, 30, 50, 100, 200, 365, 500, 1000, 5000];
   let days = Config.filter()["days"];
 
+  // let bombday = 10;
+  let bombday = Config.filter()["bombday"];
+  if (!days.includes(bombday)) days.push(bombday);
+  days.sort((a, b) => {
+    let t = a - b;
+    return t < 0 ? -1 : t > 0 ? 1 : 0
+  })
+  let indexBombday = 0;
+  for (let i = 0; i < days.length; i++) {
+    if (days[i] == bombday) indexBombday = i;
+  }
   let data30 = filterData.slice(0, 30);
 
   let datax = days.map(e => {
@@ -714,6 +725,14 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
         avg["O" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate)) - threshold * std) * 100) / 100;
         avg["ORR" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate)) / std) * 100) / 100;
         avg["R" + me + e] = Math.floor((m[me][i].at(-1 - checkDate) / mean) * 100) / 100;
+        if (i == indexBombday) {
+          let t = [...m[me][i]];
+          // console.log(...m[me][i],t,checkDate)
+          t.splice(-1 - checkDate,1);
+          let bmax = Math.max(...t);
+          // console.log(...m[me][i],t,bmax,checkDate)
+          avg["MBR" + me + e] = Math.floor((bmax / mean) * 100) / 100;
+        }
         let or = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate)) - threshold * std) / Math.abs(mean) * 100) / 100;
         avg["OR" + me + e] = Number.isNaN(or) ? -999999 : or;
         if (exclude.includes(me)) {
