@@ -11,3 +11,9 @@ Config.filter = function () {
     conf["numSidewayDays"] = 300;
     return conf;
 }
+
+Config.muaban = function () {
+    let conf = {}    
+    conf["OutlierThreshold"] = 10;
+    return conf;
+}

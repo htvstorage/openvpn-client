@@ -15,6 +15,7 @@ import { e } from "mathjs";
 import xlsx from "xlsx"
 import stats from "stats-analysis";
 import { SMA, EMA, RSI, StochasticRSI, MACD, MFI, BollingerBands } from 'technicalindicators';
+import { Config } from "./config.js";
 
 const ts = new Transform({ transform(chunk, enc, cb) { cb(null, chunk) } })
 const log = new Console({ stdout: ts })
@@ -47,10 +48,22 @@ log4js.configure({
     },
   },
   categories: {
-    default: { appenders: ["console", "everything"], level: "debug" },
+    default: { appenders: [ "everything"], level: "debug" },
     app: { appenders: ["console"], level: "info" }
   },
 });
+
+
+let stockStore = {};
+(()=>{
+  let data = fs.readFileSync('./profile/stock.json');
+  let stockData= JSON.parse(data);
+  stockData.forEach(e=>{
+    stockStore[e.Symbol] = e;
+  })
+  console.log("Loaded stockStore!")
+})();
+
 
 let sessionData = [500, 1000, 2000, 4000]
 let fromDate = new Date(2022, 11, 10);
@@ -407,18 +420,18 @@ async function processData() {
     let promise = new Promise((resolve, reject) => {
       let stat = { req: 0, res: 0 };
       let length = files.length;
-      let hpg=files.filter(e=>e.indexOf("HPG")>0);
+      let hpg = files.filter(e => e.indexOf("HPG") > 0);
       // console.log(hpg)
-      let hpgContent=fs.readFileSync(hpg[0],"utf-8");
+      let hpgContent = fs.readFileSync(hpg[0], "utf-8");
       // console.log(hpgContent)
-      let hpga=hpgContent.split("\n").map(e=>e.split(","));
-      let hout=hpga.map(e=>e[0]).filter(e=>(e+"").indexOf(".")>0)      
+      let hpga = hpgContent.split("\n").map(e => e.split(","));
+      let hout = hpga.map(e => e[0]).filter(e => (e + "").indexOf(".") > 0)
 
-      let priceType = hout.length == 0? 1000:1;
+      let priceType = hout.length == 0 ? 1000 : 1;
 
       files.forEach(async (f) => {
         try {
-          processOne(f, symbolExchange, out, stat, resolve, length, options, dataModel,priceType)
+          processOne(f, symbolExchange, out, stat, resolve, length, options, dataModel, priceType)
         } catch (error) {
           console.log(f, error)
         }
@@ -573,7 +586,7 @@ async function processData() {
                     // if (v["minc"] < 1000) v["minc"] = v["minc"] * 1000;
                     add.pct1 = Math.floor((p.lastPrice - v.c) / v.c * 10000) / 100;
                     add["%maxc"] = Math.floor((v["maxc"] - p.lastPrice) / (p.lastPrice) * 10000) / 100;
-                    add["%minc"] = Math.floor((p.lastPrice - v["minc"]) / (p.lastPrice) * 10000) / 100;                    
+                    add["%minc"] = Math.floor((p.lastPrice - v["minc"]) / (p.lastPrice) * 10000) / 100;
                   }
                   oulier.push({ symbol: symbol, busd: BUSD, ...add, ...v })
                 }
@@ -723,7 +736,7 @@ async function processData() {
                         e["std" + k] = Math.floor(std * 100) / 100;
                         e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
                         e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
-                        e["R" + k] = Math.floor((Math.abs(check(e[k])/mean)) * 100) / 100;
+                        e["R" + k] = Math.floor((Math.abs(check(e[k]) / mean)) * 100) / 100;
                         let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                         e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
                         if (e["O" + k] > 0 || e["OR" + k] > 0) {
@@ -768,7 +781,7 @@ async function processData() {
                     e["std" + k] = Math.floor(std * 100) / 100;
                     e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
                     e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
-                    e["R" + k] = Math.floor((Math.abs(check(e[k])/mean)) * 100) / 100;
+                    e["R" + k] = Math.floor((Math.abs(check(e[k]) / mean)) * 100) / 100;
                     let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                     e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
                     if (e["O" + k] > 0 || e["OR" + k] > 0) {
@@ -795,7 +808,57 @@ async function processData() {
               if (!fs.existsSync("./outlier/")) {
                 fs.mkdirSync("./outlier/", { recursive: true })
               }
-              writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + ".xlsx", oulier)
+
+              oulier.forEach(e=>{
+                if(stockStore[e.symbol]!= undefined)
+                  e["Name"] = stockStore[e.symbol].SectorName;
+              })
+
+              oulier.sort((a, b) => { return b.datetime - a.datetime })
+              // console.log(JSON.stringify(keys))
+              let newOutlierBU = [];
+              let newOutlierSD = [];
+              let newOutlier = [];
+              let fix = ['symbol', 'busd', 'Name', 'c1', 'pct1', '%maxc', '%minc', 'c', 'change', 'pct', 'h', 'l', 'o', 'Rval_bu', 'Rval_sd', 'sd', 'val_sd', 'total_vol', 'sum_vol', 'val', 'acum_val', 'datetime', 'date', 'ORRval_bu', 'ORval_bu', 'ORRval', 'Rval', 'ORval', 'ORRval_sd', 'ORval_sd', 'ORRval_uk', 'Rval_uk', 'ORval_uk', 'pbu', 'psd', 'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'bu-sd', 'bu-sd_val', 'avg_val_bu', 'avg_val_sd', 'acum_busd', 'acum_busd_val', 'acum_val_bu', 'acum_val_sd', 'rbusd', 'meanc', 'stdc', 'maxc', 'minc', 'Oc', 'ORRc', 'Rc', 'ORc', 'meanh', 'stdh', 'maxh', 'minh', 'Oh', 'ORRh', 'Rh', 'ORh', 'meanl', 'stdl', 'maxl', 'minl', 'Ol', 'ORRl', 'Rl', 'ORl', 'meano', 'stdo', 'maxo', 'mino', 'Oo', 'ORRo', 'Ro', 'ORo', 'meanbu', 'stdbu', 'maxbu', 'minbu', 'Obu', 'ORRbu', 'Rbu', 'ORbu', 'meanval_bu', 'stdval_bu', 'maxval_bu', 'minval_bu', 'Oval_bu', 'meantotal_vol', 'stdtotal_vol', 'maxtotal_vol', 'mintotal_vol', 'Ototal_vol', 'ORRtotal_vol', 'Rtotal_vol', 'ORtotal_vol', 'meansum_vol', 'stdsum_vol', 'maxsum_vol', 'minsum_vol', 'Osum_vol', 'ORRsum_vol', 'Rsum_vol', 'ORsum_vol', 'meanval', 'stdval', 'maxval', 'minval', 'Oval', 'meanacum_val', 'stdacum_val', 'maxacum_val', 'minacum_val', 'Oacum_val', 'ORRacum_val', 'Racum_val', 'ORacum_val', 'meansd', 'stdsd', 'maxsd', 'minsd', 'Osd', 'ORRsd', 'Rsd', 'ORsd', 'meanval_sd', 'stdval_sd', 'maxval_sd', 'minval_sd', 'Oval_sd', 'meanpbu', 'stdpbu', 'maxpbu', 'minpbu', 'Opbu', 'ORRpbu', 'Rpbu', 'ORpbu', 'meanpsd', 'stdpsd', 'maxpsd', 'minpsd', 'Opsd', 'ORRpsd', 'Rpsd', 'ORpsd', 'meanpuk', 'stdpuk', 'maxpuk', 'minpuk', 'Opuk', 'ORRpuk', 'Rpuk', 'ORpuk', 'meanbs', 'stdbs', 'maxbs', 'minbs', 'Obs', 'ORRbs', 'Rbs', 'ORbs', 'meansb', 'stdsb', 'maxsb', 'minsb', 'Osb', 'ORRsb', 'Rsb', 'ORsb', 'meanabu', 'stdabu', 'maxabu', 'minabu', 'Oabu', 'ORRabu', 'Rabu', 'ORabu', 'meanasd', 'stdasd', 'maxasd', 'minasd', 'Oasd', 'ORRasd', 'Rasd', 'ORasd', 'meanauk', 'stdauk', 'maxauk', 'minauk', 'Oauk', 'ORRauk', 'Rauk', 'ORauk', 'meanrsd', 'stdrsd', 'maxrsd', 'minrsd', 'Orsd', 'ORRrsd', 'Rrsd', 'ORrsd', 'meanrbu', 'stdrbu', 'maxrbu', 'minrbu', 'Orbu', 'ORRrbu', 'Rrbu', 'ORrbu', 'meanbu-sd', 'stdbu-sd', 'maxbu-sd', 'minbu-sd', 'Obu-sd', 'ORRbu-sd', 'Rbu-sd', 'ORbu-sd', 'meanbu-sd_val', 'stdbu-sd_val', 'maxbu-sd_val', 'minbu-sd_val', 'Obu-sd_val', 'ORRbu-sd_val', 'Rbu-sd_val', 'ORbu-sd_val', 'meanacum_busd', 'stdacum_busd', 'maxacum_busd', 'minacum_busd', 'Oacum_busd', 'ORRacum_busd', 'Racum_busd', 'ORacum_busd', 'meanacum_busd_val', 'stdacum_busd_val', 'maxacum_busd_val', 'minacum_busd_val', 'Oacum_busd_val', 'ORRacum_busd_val', 'Racum_busd_val', 'ORacum_busd_val', 'meanacum_val_bu', 'stdacum_val_bu', 'maxacum_val_bu', 'minacum_val_bu', 'Oacum_val_bu', 'ORRacum_val_bu', 'Racum_val_bu', 'ORacum_val_bu', 'meanacum_val_sd', 'stdacum_val_sd', 'maxacum_val_sd', 'minacum_val_sd', 'Oacum_val_sd', 'ORRacum_val_sd', 'Racum_val_sd', 'ORacum_val_sd', 'meanrbusd', 'stdrbusd', 'maxrbusd', 'minrbusd', 'Orbusd', 'ORRrbusd', 'Rrbusd', 'ORrbusd', 'meanuk', 'stduk', 'maxuk', 'minuk', 'Ouk', 'ORRuk', 'Ruk', 'ORuk', 'meanval_uk', 'stdval_uk', 'maxval_uk', 'minval_uk', 'Oval_uk', 'meanruk', 'stdruk', 'maxruk', 'minruk', 'Oruk', 'ORRruk', 'Rruk', 'ORruk', 'bu', 'val_bu', 'rbu', 'uk', 'val_uk', 'ruk']
+              oulier.forEach(
+                oe => {
+                  let keys = Object.keys(oe);
+                  keys = keys.filter(e => !fix.includes(e));
+                  keys.sort();
+                  keys = [...fix, ...keys];
+                  let oen = {}
+                  keys.forEach(e => oen[e] = oe[e]);
+                  // console.log(oe.busd)
+                  let threshold = Config.muaban()["OutlierThreshold"];
+                  if (oe["Rval_bu"] >= threshold && (oe.busd == 'BU' || oe.busd == 'UKN'))
+                    newOutlierBU.push(oen)
+                  if (oe["Rval_sd"] >= threshold && oe.busd == 'SD')
+                    newOutlierSD.push(oen)
+                  newOutlier.push(oen)
+                }
+              )
+
+              let obj = { BU: newOutlierBU, BU_SORT: [...newOutlierBU].sort((a, b) => { return b["Rval_bu"] - a["Rval_bu"] }), 
+              SD: newOutlierSD, SD_SORT: [...newOutlierSD].sort((a, b) => { return b["Rval_sd"] - a["Rval_sd"] }),  
+              ALL: newOutlier
+            }
+
+              Object.keys(obj).forEach(busd => {
+                let strtable = getTable(obj[busd]);
+                let as = strtable.split("\n");
+                let header = as[2] + "\n" + as[1] + "\n" + as[2];
+                let str = "";
+                as.forEach((l, i) => {
+                  str += l + "\n";
+                  if (i > 3 && (i - 3) % 20 == 0) {
+                    str += header + "\n";
+                  }
+                })
+                fs.writeFileSync("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + "_" + busd + ".log", str, (e) => { if (e) { console.log(e) } })
+              })
+
+
+              writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + ".xlsx", newOutlier)
             }
 
 
@@ -946,7 +1009,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
 
     data.forEach((v, i) => {
       // console.log(v)
-      if(+v.price == 0) return;
+      if (+v.price == 0) return;
       let k = Math.floor(v.datetime / interval) * interval;
       if (Number.isNaN(k)) {
         return;
@@ -960,9 +1023,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       }
       let te = top[k];
       let e = newData[k];
-      if(priceType == 1000) {
-        v.price = (+v.price / 1000).toFixed(2); 
-        v.change = ((+v.change)/1000).toFixed(2);
+      if (priceType == 1000) {
+        v.price = (+v.price / 1000).toFixed(2);
+        v.change = ((+v.change) / 1000).toFixed(2);
       }
       let p = +v.price;
 
@@ -1269,7 +1332,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
                   e["min" + k] = min;
                   e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
                   e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
-                  e["R" + k] = Math.floor((Math.abs(check(e[k])/mean)) * 100) / 100;
+                  e["R" + k] = Math.floor((Math.abs(check(e[k]) / mean)) * 100) / 100;
                   // console.log("ORR")
                   let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
                   e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
@@ -1322,7 +1385,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
             e["min" + k] = mdd["min" + k];
             e["O" + k] = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) * 100) / 100;
             e["ORR" + k] = Math.floor((Math.abs(mean - check(e[k])) / std) * 100) / 100;
-            e["R" + k] = Math.floor((Math.abs(check(e[k])/mean)) * 100) / 100;
+            e["R" + k] = Math.floor((Math.abs(check(e[k]) / mean)) * 100) / 100;
             let or = Math.floor((Math.abs(mean - check(e[k])) - threshold * std) / Math.abs(mean) * 100) / 100;
             e["OR" + k] = Number.isNaN(or) ? Number.MIN_SAFE_INTEGER : or;
             if (e["O" + k] > 0 || e["OR" + k] > 0) {

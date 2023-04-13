@@ -52,6 +52,15 @@ log4js.configure({
   },
 });
 
+let stockStore = {};
+(()=>{
+  let data = fs.readFileSync('./profile/stock.json');
+  let stockData= JSON.parse(data);
+  stockData.forEach(e=>{
+    stockStore[e.Symbol] = e;
+  })
+  console.log("Loaded stockStore!")
+})();
 
 let ss = 5;
 
@@ -78,7 +87,7 @@ async function download() {
   let ratiosa = []
   while (true) {
 
-    if (stat2.req - stat2.res >= 10) {
+    if (stat2.req - stat2.res >= 2) {
       if (stat2.res % 10 == 0) {
         console.log(stat2, queue.length)
       }
@@ -118,8 +127,8 @@ async function download() {
   )
 
   // console.table(industry)
-  console.table(industryPE)
-  console.table(industryPB)
+  // console.table(industryPE)
+  // console.table(industryPB)
 }
 
 
@@ -229,11 +238,12 @@ async function industry() {
   let mapSymbol = {};
   let mapIndustry = {};
   let pbe = {};
+  // console.log("industry",industryPB,industryPE)
   if (industryPB != undefined)
     industryPB.forEach(e => { pbe[e.code] = { pb: e.value } })
   if (industryPE != undefined)
     industryPE.forEach(e => { pbe[e.code] = { ...pbe[e.code], pe: e.value } })
-
+  
   // console.table(pbe)
   if (industry != undefined)
     industry.forEach(e => {
@@ -448,7 +458,11 @@ let tpcp = await Exchange.tpcp();
 
   fs.writeFileSync(dir + "Filter" + "_table.log", str, (e) => { if (e) { console.log(e) } })
   fs.writeFileSync(dir + "Filter" + datestr + ".json", JSON.stringify(ret), (e) => { if (e) { console.log(e) } })
-  writeArrayJson2Xlsx(dir + "Filter" + datestr + ".xlsx", Object.values(ret))
+
+  let obj =Object.values(ret);
+  obj.sort((a,b)=>{return b["RVal10"] - a["RVal10"]});
+
+  writeArrayJson2Xlsx(dir + "Filter" + datestr + ".xlsx", obj)
   console.log("Save to " + dir + "Filter" + datestr + ".xlsx")
 })();
 
@@ -570,6 +584,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let hl = days.map((e, i) => { return [...datax[i].map(e => e.priceHigh), ...datax[i].map(e => e.priceLow)] })
   let hlp = days.map((e, i) => { return [...datax[i].map(e => (e.priceHigh - e.priceBasic) * 100 / e.priceBasic), ...datax[i].map(e => (e.priceLow - e.priceBasic) * 100 / e.priceBasic)] })
   let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
+  let o = days.map((e, i) => { return [...datax[i].map(e => e.priceOpen)] })
+  let b = days.map((e, i) => { return [...datax[i].map(e => e.priceBasic)] })
   let cp = days.map((e, i) => { return [...datax[i].map(e => (e.priceClose - e.priceBasic) * 100 / e.priceBasic)] })
   let vol = days.map((e, i) => { return [...datax[i].map(e => e.dealVolume)] })
   let val = days.map((e, i) => { return [...datax[i].map(e => e.totalValue)] })
@@ -759,7 +775,21 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     avg["%PriceMax" + e] = Math.floor((max - filterData.at(checkDate).priceClose) / max * 10000) / 100;
     avg["%PriceMin" + e] = Math.floor((filterData.at(checkDate).priceClose - min) / min * 10000) / 100;
 
-
+    let ci = c[i];
+    let oi = o[i];
+    let bi = b[i];
+    let basicCount = 0;
+    let openCount = 0;
+    ci.forEach((e, ii) => {
+      if (e >= bi[ii]) {
+        basicCount++;
+      }
+      if (e >= oi[ii]) {
+        openCount++;
+      }
+    })
+    avg["basicC" + e] = basicCount;
+    avg["openC" + e] = openCount;
   });
 
 
@@ -776,10 +806,10 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let std = stats.stdev(t.slice(0, shortSidewayDays))
   let sidewayThreshold = 2;
   let count = 0;
-  x.forEach(e=>{
-     if (Math.abs(e-mean)/mean*100 < sidewayThreshold){
+  x.forEach(e => {
+    if (Math.abs(e - mean) / mean * 100 < sidewayThreshold) {
       count++;
-     }
+    }
   });
 
   avg["SWC"] = count;
@@ -830,7 +860,13 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   // console.table([avg])
   let keys = Object.keys(avg);
   // console.log(JSON.stringify(keys))
-  let fix = ["symbol", "exch", "tpcp", "name", "avgValue", "avgVol", "priceClose", "priceLow", "priceHigh", "priceOpen", "priceBasic", "pct", "vol", "val", "%PriceMin3", "%PriceMin10", "NetProfitQ4/2022", "NetProfit2022", "Liability2022", "Equity2022", "ownership", "shares", "OCP10", "OCP100", "OCP1000", "OCP15", "OCP20", "OCP200", "OCP3", "OCP30", "OCP365", "OCP500", "OCP7", "ORVal10", "ORVal100", "ORVal1000", "ORVal15", "ORVal20", "ORVal200", "ORVal3", "ORVal30", "ORVal365", "ORVal500", "ORVal7", "ORVol10", "ORVol100", "ORVol1000", "ORVol15", "ORVol20", "ORVol200", "ORVol3", "ORVol30", "ORVol365", "ORVol500", "ORVol7", "OVal10", "OVal100", "OVal1000", "OVal15", "OVal20", "OVal200", "OVal3", "OVal30", "OVal365", "OVal500", "OVal7", "OVol10", "OVol100", "OVol1000", "OVol15", "OVol20", "OVol200", "OVol3", "OVol30", "OVol365", "OVol500", "OVol7", "stdCP10", "stdCP100", "stdCP1000", "stdCP15", "stdCP20", "stdCP200", "stdCP3", "stdCP30", "stdCP365", "stdCP500", "stdCP7", "stdVal10", "stdVal100", "stdVal1000", "stdVal15", "stdVal20", "stdVal200", "stdVal3", "stdVal30", "stdVal365", "stdVal500", "stdVal7", "stdVol10", "stdVol100", "stdVol1000", "stdVol15", "stdVol20", "stdVol200", "stdVol3", "stdVol30", "stdVol365", "stdVol500", "stdVol7", "mean10", "mean100", "mean1000", "mean15", "mean20", "mean200", "mean3", "mean30", "mean365", "mean500", "mean7", "meanCP10", "meanCP100", "meanCP1000", "meanCP15", "meanCP20", "meanCP200", "meanCP3", "meanCP30", "meanCP365", "meanCP500", "meanCP7", "meanVal10", "meanVal100", "meanVal1000", "meanVal15", "meanVal20", "meanVal200", "meanVal3", "meanVal30", "meanVal365", "meanVal500", "meanVal7", "meanVol10", "meanVol100", "meanVol1000", "meanVol15", "meanVol20", "meanVol200", "meanVol3", "meanVol30", "meanVol365", "meanVol500", "meanVol7", "sma10", "sma10%", "sma100", "sma100%", "sma20", "sma20%", "sma200", "sma200%", "sma25", "sma25%", "sma26", "sma26%", "sma30", "sma30%", "sma5", "sma5%", "sma50", "sma50%", "std10", "std100", "std1000", "std15", "std20", "std200", "std3", "std30", "std365", "std500", "std7"]
+  if(stockStore[symbol] != undefined){
+    avg["Company"] = stockStore[symbol].Company;
+    avg["SectorName"] = stockStore[symbol].SectorName;
+  }
+    
+    
+  let fix = ["symbol", "exch", "tpcp", "name", "SectorName" , "Company" , "avgValue", "avgVol", "priceClose", "priceLow", "priceHigh", "priceOpen", "priceBasic", "pct", "vol", "val", "%PriceMin3", "%PriceMin10", "NetProfitQ4/2022", "NetProfit2022", "Liability2022", "Equity2022", "ownership", "shares", "OCP10", "OCP100", "OCP1000", "OCP15", "OCP20", "OCP200", "OCP3", "OCP30", "OCP365", "OCP500", "OCP7", "ORVal10", "ORVal100", "ORVal1000", "ORVal15", "ORVal20", "ORVal200", "ORVal3", "ORVal30", "ORVal365", "ORVal500", "ORVal7", "ORVol10", "ORVol100", "ORVol1000", "ORVol15", "ORVol20", "ORVol200", "ORVol3", "ORVol30", "ORVol365", "ORVol500", "ORVol7", "OVal10", "OVal100", "OVal1000", "OVal15", "OVal20", "OVal200", "OVal3", "OVal30", "OVal365", "OVal500", "OVal7", "OVol10", "OVol100", "OVol1000", "OVol15", "OVol20", "OVol200", "OVol3", "OVol30", "OVol365", "OVol500", "OVol7", "stdCP10", "stdCP100", "stdCP1000", "stdCP15", "stdCP20", "stdCP200", "stdCP3", "stdCP30", "stdCP365", "stdCP500", "stdCP7", "stdVal10", "stdVal100", "stdVal1000", "stdVal15", "stdVal20", "stdVal200", "stdVal3", "stdVal30", "stdVal365", "stdVal500", "stdVal7", "stdVol10", "stdVol100", "stdVol1000", "stdVol15", "stdVol20", "stdVol200", "stdVol3", "stdVol30", "stdVol365", "stdVol500", "stdVol7", "mean10", "mean100", "mean1000", "mean15", "mean20", "mean200", "mean3", "mean30", "mean365", "mean500", "mean7", "meanCP10", "meanCP100", "meanCP1000", "meanCP15", "meanCP20", "meanCP200", "meanCP3", "meanCP30", "meanCP365", "meanCP500", "meanCP7", "meanVal10", "meanVal100", "meanVal1000", "meanVal15", "meanVal20", "meanVal200", "meanVal3", "meanVal30", "meanVal365", "meanVal500", "meanVal7", "meanVol10", "meanVol100", "meanVol1000", "meanVol15", "meanVol20", "meanVol200", "meanVol3", "meanVol30", "meanVol365", "meanVol500", "meanVol7", "sma10", "sma10%", "sma100", "sma100%", "sma20", "sma20%", "sma200", "sma200%", "sma25", "sma25%", "sma26", "sma26%", "sma30", "sma30%", "sma5", "sma5%", "sma50", "sma50%", "std10", "std100", "std1000", "std15", "std20", "std200", "std3", "std30", "std365", "std500", "std7"]
   keys = keys.filter(e => !fix.includes(e));
   keys.sort();
   keys = [...fix, ...keys];

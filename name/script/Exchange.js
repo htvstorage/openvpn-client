@@ -408,7 +408,7 @@ Exchange.vndIndustryPE = async () => {
   if (z.startsWith("{") && z.endsWith("}")) {
     return JSON.parse(z).data;
   }
-  return {};
+  return [];
 }
 
 Exchange.vndIndustryPB = async () => {
@@ -430,7 +430,7 @@ Exchange.vndIndustryPB = async () => {
   if (z.startsWith("{") && z.endsWith("}")) {
     return JSON.parse(z).data;
   }
-  return {};
+  return [];
 }
 Exchange.vndIndustryRatio = async (code) => {
 
@@ -462,7 +462,7 @@ Exchange.vndIndustryRatio = async (code) => {
     console.log("Error ", code, z)
   }
 
-  a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=itemCode:52002,52001,53007,&where=code:HPG~reportDate:gt:2022-09-24&order=reportDate&fields=itemCode,value", {
+  a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=itemCode:52002,52001,53007,&where=code:"+code+"~reportDate:gt:2022-09-24&order=reportDate&fields=itemCode,value", {
     "headers": {
       "accept": "*/*",
       "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -1254,4 +1254,92 @@ Exchange.tpcp = async function () {
   })
   // console.log(out)
   return out;
+}
+
+
+Exchange.GStock = function () { }
+Exchange.GStock.stocks = async function () {
+  let stock = await fetch("https://gstock.vn/api/v1/analysis/stocks", {
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjgwMzgsImlhdCI6MTY3OTI3ODk4M30.bViEcqAF4_QPwbhIpG_yPhP6psF1cxHSSgAtXhV-iU8",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "cookie": "_ga=GA1.1.792630865.1676510515; _ga_4JG4YDZE5Z=GS1.1.1681380797.13.1.1681382301.22.0.0; adonis-session=8d245ca28c91b46aaecfde71a7328049YxwrUC1jC5fv0eULRD7I9mkVFgf9FlNyS104mMpjkeN3jm27K1pSEwr4j0Df48XR2NmICWldi13sz%2Bcq0HYZFz7Vlo36sc9m3xLDbkZpZs5HGVzD1tkjyG%2FxA%2BIgo2Lg; XSRF-TOKEN=743bd64117ae064c2ed513c4f6c79e1c1Jn3E843979nHq7LgCaUk5wm%2F%2BZ1BeLo5awF%2FUcRYfSdQ5RcZ30dgbv6ZuApymcj6dMoBlIMWaLc8lDfYy%2BuoTyPLB1pSd%2Fu7KKvxjKlkh64i6aJtRzvZd5CSSRXihuC; adonis-session-values=8c30e50b3862fcbb486a18f34114d00ddtkQ2M2qTb3dmOWsk6dRiQlbrJdAMNoCgxIkjCgbLkP9seJSETCJWEjlzbnrcccHMzfBNgIGs%2BxINz62kEerBiLgD9u7oVOhX65IM4dEXUxz%2BY8mwErdimR9gIWbdxlaQ%2FVIHcOBstlyguq04bZ0YEwxgyVOipzShdnx%2BEAHjGg%3D"
+    },
+    "referrer": "https://gstock.vn/nguoi-dung/chung-khoan-co-so/chi-so-nganh",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors"
+  });
+
+  stock = await stock.json();
+
+
+  let sector = await fetch("https://gstock.vn/api/v1/analysis/sectors", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjgwMzgsImlhdCI6MTY3OTI3ODk4M30.bViEcqAF4_QPwbhIpG_yPhP6psF1cxHSSgAtXhV-iU8",
+    "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "cookie": "_ga=GA1.1.792630865.1676510515; adonis-session=6481ec4d7d83670d5f4e0cd95e3bb62cRcFSmc5AbDaBqnDdoSyxbe38VANcXq2iLIcOY%2Fmgqr5m%2FQPr8TWKc0sGbqXqSc0GuRFZN4sp1zJYGC7PhJmxoe8ztOAuyO0tZ2lyCMWUTIfJuruCGR9HEraDIoxIoIX1; XSRF-TOKEN=efcf965708d77b9d4c7a8e296d7add57%2FuhZJh8WaVn0Qye%2Fr29%2BziBiAk%2B0DcxuR%2BU%2BEtvNWnzsVkN4%2BW8vd0LhwyF9b8hiyyFK%2BxFyo2FfHJuv5BW1EDUGPhDVcAZt2NMIeB51JqRfRQUU4tbU5j5tEnfmikAA; adonis-session-values=49f5b474f379e99795d97bcd18acefe6zA8aubaubGXTwvPlWVwikvj95EUDyHLKApaneDm%2FOgT3C1KQGJ%2BVFLKZAuqHpRT6GhFs5S%2BRI5mDnbZRBY29n6lecUkNft8F8clhfsG6W1Y53646HU00VzIRfOW5hAQnqpvg7imPjVXLVjg2tpvHmKzpnWhYD%2BOBtiB26C16fXA%3D; _ga_4JG4YDZE5Z=GS1.1.1681380797.13.1.1681382301.22.0.0"
+  },
+  "referrer": "https://gstock.vn/nguoi-dung/chung-khoan-co-so/chi-so-nganh",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors"
+});
+
+sector = await sector.json();
+
+
+let mapsector = {}
+sector.forEach(e=>{
+  mapsector[e.Id] = e;
+})
+
+// {
+//   Code: [],
+//   Id: '233',
+//   SectorName: 'Sản xuất sắt, thép và hợp kim fero',
+//   Level: 3,
+//   ParentId: '70',
+//   SectorCode: 'HUA0'
+// }
+
+console.log(sector)
+
+stock.forEach(e=>{
+    if(e.SectorId != '' &&  mapsector[e.SectorId] != undefined)
+      e["SectorName"] = mapsector[e.SectorId]["SectorName"]
+    if(e.SectorIdLevel1 != '' &&  mapsector[e.SectorIdLevel1] != undefined)
+      e["SectorName1"] = mapsector[e.SectorIdLevel1]["SectorName"]
+    if(e.SectorIdLevel3 != '' &&  mapsector[e.SectorIdLevel3] != undefined)
+      e["SectorName3"] = mapsector[e.SectorIdLevel3]["SectorName"]      
+})
+console.log(stock)
+fs.writeFileSync("./profile/stock.json",JSON.stringify(stock),(e)=>{})
+
+// {
+//   Symbol: 'DC1',
+//   Company: 'Công ty Cổ phần Đầu tư Phát triển Xây dựng số 1',
+//   Floor: 'UPCOM',
+//   BusinessType: 1,
+//   SectorId: '98',
+//   SectorIdLevel1: '12',
+//   SectorIdLevel3: '329',
+//   SectorName: 'Nhà thầu xây dựng',
+//   SectorName1: 'Xây dựng và Bất động sản',
+//   SectorName3: 'Xây dựng nhà ở, khu dân cư, cao ốc'
+// },
 }

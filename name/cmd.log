@@ -230,12 +230,13 @@ node script/muabanx.js outlier=true model=true interval=600000 date=20230331
 
 
 node script/muabanx.js join=true  interval=3600000 
-
+node script/muabanx.js join=true  interval=300000 
+node script/muabanx.js outlier=true model=true interval=300000 date=`date +"%Y%m%d"`
 node script/muabanx.js outlier=true model=true interval=3600000 date=20230331
 
 
 
-
+node  script/dumpdaily2.js stock=SSI; node script/muabanx.js outlier=true date=`date +"%Y%m%d"` threshold=8 interval=300000
 
 
 a=await fetch("https://smartone.vps.com.vn/Api/Proxy", {
