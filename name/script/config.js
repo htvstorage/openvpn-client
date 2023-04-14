@@ -14,6 +14,6 @@ Config.filter = function () {
 
 Config.muaban = function () {
     let conf = {}    
-    conf["OutlierThreshold"] = 10;
+    conf["OutlierThreshold"] = 2;
     return conf;
 }
