@@ -211,24 +211,25 @@ Exchange.getliststockdata = async function (list, ret) {
   let promise = new Promise((resolve) => {
     for (let i = 0; i < list.length; i++) {
       url = url + list[i] + ",";
-      if (url.length > 2024 || i == list.length - 1) {
+      if (url.length > 1024 || i == list.length - 1) {
         url.slice(0, -1);
+        console.log(url)
         let a = fetch(url, {
           "headers": {
             "accept": "application/json, text/plain, */*",
             "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-            "cache-control": "max-age=0",
-            "if-none-match": "W/\"4d40-JGO04TIpDa6yRnuWE3iB61BlloY\"",
-            "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-            "sec-ch-ua-mobile": "?0",
-            "sec-fetch-dest": "empty",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "same-origin",
-            "cookie": "_fbp=fb.2.1669623965921.1893403188; _ga_M9VTXEHK9C=GS1.1.1669958644.2.0.1669958644.0.0.0; _gid=GA1.3.658451143.1670224721; _ga=GA1.1.1812813168.1668398014; _ga_4WDBKERLGC=GS1.1.1670316124.25.0.1670316124.0.0.0; _ga_QW53DJZL1X=GS1.1.1670384164.2.1.1670384195.0.0.0; _ga_790K9595DC=GS1.1.1670384139.11.1.1670384402.0.0.0"
+            // "cache-control": "max-age=0",
+            // "if-none-match": "W/\"4d40-JGO04TIpDa6yRnuWE3iB61BlloY\"",
+            // "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+            // "sec-ch-ua-mobile": "?0",
+            // "sec-fetch-dest": "empty",
+            // "sec-fetch-mode": "cors",
+            // "sec-fetch-site": "same-origin",
+            // "cookie": "_fbp=fb.2.1669623965921.1893403188; _ga_M9VTXEHK9C=GS1.1.1669958644.2.0.1669958644.0.0.0; _gid=GA1.3.658451143.1670224721; _ga=GA1.1.1812813168.1668398014; _ga_4WDBKERLGC=GS1.1.1670316124.25.0.1670316124.0.0.0; _ga_QW53DJZL1X=GS1.1.1670384164.2.1.1670384195.0.0.0; _ga_790K9595DC=GS1.1.1670384139.11.1.1670384402.0.0.0"
           },
           "referrer": "https://bgapidatafeed.vps.com.vn/",
           "referrerPolicy": "strict-origin-when-cross-origin",
-          "body": null,
+          // "body": null,
           "method": "GET",
           "mode": "cors",
           agent
@@ -251,7 +252,61 @@ Exchange.getliststockdata = async function (list, ret) {
       }
     }
   })
+
   return promise;
+}
+
+
+Exchange.getliststockdata2 = async function (list, ret) {
+  let maxURLLength = 2048;
+  let url = "https://bgapidatafeed.vps.com.vn/getliststockdata/";
+  let promises = []
+    for (let i = 0; i < list.length; i++) {
+      url = url + list[i] + ",";
+      if (url.length > 2024 || i == list.length - 1) {
+        url.slice(0, -1);
+        // console.log(url)
+        let a = fetch(url, {
+          "headers": {
+            "accept": "application/json, text/plain, */*",
+            "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+            // "cache-control": "max-age=0",
+            // "if-none-match": "W/\"4d40-JGO04TIpDa6yRnuWE3iB61BlloY\"",
+            // "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+            // "sec-ch-ua-mobile": "?0",
+            // "sec-fetch-dest": "empty",
+            // "sec-fetch-mode": "cors",
+            // "sec-fetch-site": "same-origin",
+            // "cookie": "_fbp=fb.2.1669623965921.1893403188; _ga_M9VTXEHK9C=GS1.1.1669958644.2.0.1669958644.0.0.0; _gid=GA1.3.658451143.1670224721; _ga=GA1.1.1812813168.1668398014; _ga_4WDBKERLGC=GS1.1.1670316124.25.0.1670316124.0.0.0; _ga_QW53DJZL1X=GS1.1.1670384164.2.1.1670384195.0.0.0; _ga_790K9595DC=GS1.1.1670384139.11.1.1670384402.0.0.0"
+          },
+          "referrer": "https://bgapidatafeed.vps.com.vn/",
+          "referrerPolicy": "strict-origin-when-cross-origin",
+          // "body": null,
+          "method": "GET",
+          "mode": "cors",
+          agent
+        });
+       let pro= a.then(res => res.text()).then(txt => {
+
+          let data = [];
+          if (txt.startsWith("[{") && txt.endsWith("}]")) {
+            data = JSON.parse(txt);
+          }
+          for (let e of data) {
+            // console.log(Object.keys(ret).length)
+            ret[e.sym] = e;
+          }
+          // if (Object.keys(ret).length == list.length) {
+          //   resolve(ret);
+          // }
+        });
+        promises.push(pro);
+        url = "https://bgapidatafeed.vps.com.vn/getliststockdata/";
+      }
+    }
+  
+  await Promise.all(promises)
+  return ret;
 }
 
 // fetch("https://bgapidatafeed.vps.com.vn/getliststocktrade/AAA", {

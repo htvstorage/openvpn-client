@@ -48,17 +48,17 @@ log4js.configure({
     },
   },
   categories: {
-    default: { appenders: [ "everything"], level: "debug" },
+    default: { appenders: ["everything"], level: "debug" },
     app: { appenders: ["console"], level: "info" }
   },
 });
 
 
 let stockStore = {};
-(()=>{
+(() => {
   let data = fs.readFileSync('./profile/stock.json');
-  let stockData= JSON.parse(data);
-  stockData.forEach(e=>{
+  let stockData = JSON.parse(data);
+  stockData.forEach(e => {
     stockStore[e.Symbol] = e;
   })
   console.log("Loaded stockStore!")
@@ -264,6 +264,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   }
 
   // asyncBatch();
+  console.log("processData")
   processData();
 
 })();
@@ -301,9 +302,12 @@ async function processData() {
     return s.length <= 3;
   })
   let stockdata = {}
-  let z = Exchange.getliststockdata(listSymbol, stockdata);
+  // listSymbol= ['HPG']
+  // console.log("getliststockdata",listSymbol)
+  let z = Exchange.getliststockdata2(listSymbol, stockdata);
   await z;
   // console.log("sao the")
+  // console.table(stockdata)
   // z.then(data=>console.log(data));
 
   let getAllFiles = (p, o) => {
@@ -411,6 +415,7 @@ async function processData() {
     dataModel.loaded = true;
   }
 
+  console.log("Starting..................")
   while ((datekey = dateKeys.pop()) != undefined) {
     console.log(datekey)
 
@@ -477,6 +482,9 @@ async function processData() {
         let length = Object.keys(res).length;
         // let res = 0; 
         let accum = 0;
+        let uppct = Config.muaban()["uppct"]
+        let downpct = Config.muaban()["downpct"]
+
         Object.keys(res).forEach((symbol, index) => {
           let symbolData = res[symbol];
           let count = 0;
@@ -500,8 +508,9 @@ async function processData() {
               e.date = (new Date(k)).toISOString();
               count++;
               if (options.outlier) {
-                if (v["Oval_bu"] > 0 || v["Oval_sd"] > 0) {
-                  let BUSD = v["Oval_bu"] > 0 ? (v["Oval_sd"] > 0 ? "UKN" : "BU") : "SD"
+                if (v["Oval_bu"] > 0 || v["Oval_sd"] > 0 || v["pct"] >= uppct || v["pct"] <= downpct) {
+                  // let BUSD = v["Oval_bu"] > 0 ? (v["Oval_sd"] > 0 ? "UKN" : "BU") : "SD"
+                  let BUSD = v["val_bu"] > v["val_sd"] ? "BU" : "SD"
                   let p = stockdata[symbol]
                   let add = {};
                   if (p != undefined) {
@@ -574,8 +583,9 @@ async function processData() {
               e.date = (new Date(k)).toISOString();
               count++;
               if (options.outlier) {
-                if (v["Oval_bu"] > 0 || v["Oval_sd"] > 0) {
-                  let BUSD = v["Oval_bu"] > 0 ? (v["Oval_sd"] > 0 ? "UKN" : "BU") : "SD"
+                if (v["Oval_bu"] > 0 || v["Oval_sd"] > 0 || v["pct"] >= uppct || v["pct"] <= downpct) {
+                  // let BUSD = v["Oval_bu"] > 0 ? (v["Oval_sd"] > 0 ? "UKN" : "BU") : "SD"
+                  let BUSD = v["val_bu"] > v["val_sd"] ? "BU" : "SD"
                   let p = stockdata[symbol]
                   let add = {};
                   if (p != undefined) {
@@ -729,7 +739,8 @@ async function processData() {
                     }
 
                     if (ss == session) {
-                      let threshold = options.threshold;
+                      // let threshold = options.threshold;
+                      let threshold = Config.muaban()["StdThreshold"];
                       if (threshold == undefined) threshold = 1.645;
                       for (let e of values) {
                         e["mean" + k] = Math.floor(mean * 100) / 100;
@@ -770,7 +781,8 @@ async function processData() {
 
               } else {
 
-                let threshold = options.threshold;
+                // let threshold = options.threshold;
+                let threshold = Config.muaban()["StdThreshold"];
                 if (threshold == undefined) threshold = 1.645;
                 let mdd = dataModel[session]["VNINDEX"];
                 key.forEach(k => {
@@ -809,8 +821,8 @@ async function processData() {
                 fs.mkdirSync("./outlier/", { recursive: true })
               }
 
-              oulier.forEach(e=>{
-                if(stockStore[e.symbol]!= undefined)
+              oulier.forEach(e => {
+                if (stockStore[e.symbol] != undefined)
                   e["Name"] = stockStore[e.symbol].SectorName;
               })
 
@@ -819,6 +831,8 @@ async function processData() {
               let newOutlierBU = [];
               let newOutlierSD = [];
               let newOutlier = [];
+              let priceUP = {};
+              let priceDOWN = [];
               let fix = ['symbol', 'busd', 'Name', 'c1', 'pct1', '%maxc', '%minc', 'c', 'change', 'pct', 'h', 'l', 'o', 'Rval_bu', 'Rval_sd', 'bu', 'val_bu', 'sd', 'val_sd', 'total_vol', 'sum_vol', 'val', 'acum_val', 'datetime', 'date', 'ORRval_bu', 'ORval_bu', 'ORRval', 'Rval', 'ORval', 'ORRval_sd', 'ORval_sd', 'ORRval_uk', 'Rval_uk', 'ORval_uk', 'pbu', 'psd', 'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'bu-sd', 'bu-sd_val', 'avg_val_bu', 'avg_val_sd', 'acum_busd', 'acum_busd_val', 'acum_val_bu', 'acum_val_sd', 'rbusd', 'meanc', 'stdc', 'maxc', 'minc', 'Oc', 'ORRc', 'Rc', 'ORc', 'meanh', 'stdh', 'maxh', 'minh', 'Oh', 'ORRh', 'Rh', 'ORh', 'meanl', 'stdl', 'maxl', 'minl', 'Ol', 'ORRl', 'Rl', 'ORl', 'meano', 'stdo', 'maxo', 'mino', 'Oo', 'ORRo', 'Ro', 'ORo', 'meanbu', 'stdbu', 'maxbu', 'minbu', 'Obu', 'ORRbu', 'Rbu', 'ORbu', 'meanval_bu', 'stdval_bu', 'maxval_bu', 'minval_bu', 'Oval_bu', 'meantotal_vol', 'stdtotal_vol', 'maxtotal_vol', 'mintotal_vol', 'Ototal_vol', 'ORRtotal_vol', 'Rtotal_vol', 'ORtotal_vol', 'meansum_vol', 'stdsum_vol', 'maxsum_vol', 'minsum_vol', 'Osum_vol', 'ORRsum_vol', 'Rsum_vol', 'ORsum_vol', 'meanval', 'stdval', 'maxval', 'minval', 'Oval', 'meanacum_val', 'stdacum_val', 'maxacum_val', 'minacum_val', 'Oacum_val', 'ORRacum_val', 'Racum_val', 'ORacum_val', 'meansd', 'stdsd', 'maxsd', 'minsd', 'Osd', 'ORRsd', 'Rsd', 'ORsd', 'meanval_sd', 'stdval_sd', 'maxval_sd', 'minval_sd', 'Oval_sd', 'meanpbu', 'stdpbu', 'maxpbu', 'minpbu', 'Opbu', 'ORRpbu', 'Rpbu', 'ORpbu', 'meanpsd', 'stdpsd', 'maxpsd', 'minpsd', 'Opsd', 'ORRpsd', 'Rpsd', 'ORpsd', 'meanpuk', 'stdpuk', 'maxpuk', 'minpuk', 'Opuk', 'ORRpuk', 'Rpuk', 'ORpuk', 'meanbs', 'stdbs', 'maxbs', 'minbs', 'Obs', 'ORRbs', 'Rbs', 'ORbs', 'meansb', 'stdsb', 'maxsb', 'minsb', 'Osb', 'ORRsb', 'Rsb', 'ORsb', 'meanabu', 'stdabu', 'maxabu', 'minabu', 'Oabu', 'ORRabu', 'Rabu', 'ORabu', 'meanasd', 'stdasd', 'maxasd', 'minasd', 'Oasd', 'ORRasd', 'Rasd', 'ORasd', 'meanauk', 'stdauk', 'maxauk', 'minauk', 'Oauk', 'ORRauk', 'Rauk', 'ORauk', 'meanrsd', 'stdrsd', 'maxrsd', 'minrsd', 'Orsd', 'ORRrsd', 'Rrsd', 'ORrsd', 'meanrbu', 'stdrbu', 'maxrbu', 'minrbu', 'Orbu', 'ORRrbu', 'Rrbu', 'ORrbu', 'meanbu-sd', 'stdbu-sd', 'maxbu-sd', 'minbu-sd', 'Obu-sd', 'ORRbu-sd', 'Rbu-sd', 'ORbu-sd', 'meanbu-sd_val', 'stdbu-sd_val', 'maxbu-sd_val', 'minbu-sd_val', 'Obu-sd_val', 'ORRbu-sd_val', 'Rbu-sd_val', 'ORbu-sd_val', 'meanacum_busd', 'stdacum_busd', 'maxacum_busd', 'minacum_busd', 'Oacum_busd', 'ORRacum_busd', 'Racum_busd', 'ORacum_busd', 'meanacum_busd_val', 'stdacum_busd_val', 'maxacum_busd_val', 'minacum_busd_val', 'Oacum_busd_val', 'ORRacum_busd_val', 'Racum_busd_val', 'ORacum_busd_val', 'meanacum_val_bu', 'stdacum_val_bu', 'maxacum_val_bu', 'minacum_val_bu', 'Oacum_val_bu', 'ORRacum_val_bu', 'Racum_val_bu', 'ORacum_val_bu', 'meanacum_val_sd', 'stdacum_val_sd', 'maxacum_val_sd', 'minacum_val_sd', 'Oacum_val_sd', 'ORRacum_val_sd', 'Racum_val_sd', 'ORacum_val_sd', 'meanrbusd', 'stdrbusd', 'maxrbusd', 'minrbusd', 'Orbusd', 'ORRrbusd', 'Rrbusd', 'ORrbusd', 'meanuk', 'stduk', 'maxuk', 'minuk', 'Ouk', 'ORRuk', 'Ruk', 'ORuk', 'meanval_uk', 'stdval_uk', 'maxval_uk', 'minval_uk', 'Oval_uk', 'meanruk', 'stdruk', 'maxruk', 'minruk', 'Oruk', 'ORRruk', 'Rruk', 'ORruk', 'rbu', 'uk', 'val_uk', 'ruk']
               oulier.forEach(
                 oe => {
@@ -830,18 +844,50 @@ async function processData() {
                   keys.forEach(e => oen[e] = oe[e]);
                   // console.log(oe.busd)
                   let threshold = Config.muaban()["OutlierThreshold"];
-                  if (oe["Rval_bu"] >= threshold && (oe.busd == 'BU' || oe.busd == 'UKN'))
+
+                  // if(oe["symbol"] == "FTS") {console.log(oe); console.log("---------------DK--------",(oe["Rval_bu"] >= threshold || oe["pct"] >= 2) && (oe.busd == 'BU' || oe.busd == 'UKN')) } 
+                  // if (oe["symbol"] == "FTS") {
+                  //   console.table(oe);
+                  //   console.table([{
+                  //     DK: (oe["Rval_bu"] >= threshold || oe["pct"] >= 2) && (oe.busd == 'BU' || oe.busd == 'UKN'),
+                  //     Rval_bu: oe["Rval_bu"],
+                  //     threshold: threshold,
+                  //     pct: oe["pct"],
+                  //     busd: oe.busd,
+                  //     Oval_bu: oe["Oval_bu"],
+                  //     Oval_sd: oe["Oval_sd"],
+                  //     meanval_bu: oe["meanval_bu"],
+                  //     meanval_sd: oe["meanval_sd"],
+                  //     stdval_bu: oe["stdval_bu"],
+                  //     stdval_sd: oe["stdval_sd"],
+                  //     val_bu: oe["val_bu"],
+                  //     val_sd: oe["val_sd"],
+                  //   }
+                  //   ])
+                  // }
+
+
+                  if ((oe["Rval_bu"] >= threshold && oe["Oval_bu"] > 0) && (oe.busd == 'BU' || oe.busd == 'UKN'))
                     newOutlierBU.push(oen)
-                  if (oe["Rval_sd"] >= threshold && oe.busd == 'SD')
+                  if (oe["Rval_sd"] >= threshold && oe["Oval_sd"] > 0 && oe.busd == 'SD')
                     newOutlierSD.push(oen)
+                  if (oe["pct"] >= uppct)
+                    // priceUP.push(oen)
+                    priceUP[oen["symbol"]] = oen
+                  if (oe["pct"] <= downpct)
+                    priceDOWN[oen["symbol"]] = oen
                   newOutlier.push(oen)
                 }
               )
-
-              let obj = { BU: newOutlierBU, BU_SORT: [...newOutlierBU].sort((a, b) => { return b["Rval_bu"] - a["Rval_bu"] }), 
-              SD: newOutlierSD, SD_SORT: [...newOutlierSD].sort((a, b) => { return b["Rval_sd"] - a["Rval_sd"] }),  
-              ALL: newOutlier
-            }
+              priceUP = Object.values(priceUP).sort((a, b) => { return b.datetime - a.datetime })
+              priceDOWN = Object.values(priceDOWN).sort((a, b) => { return b.datetime - a.datetime })
+              let obj = {
+                BU: newOutlierBU, BU_SORT: [...newOutlierBU].sort((a, b) => { return b["Rval_bu"] - a["Rval_bu"] }),
+                SD: newOutlierSD, SD_SORT: [...newOutlierSD].sort((a, b) => { return b["Rval_sd"] - a["Rval_sd"] }),
+                ALL: newOutlier,
+                UP: priceUP, UP_SORT: [...priceUP].sort((a, b) => { return b["pct"] - a["pct"] }),
+                DOWN: priceDOWN, DOWN_SORT: [...priceDOWN].sort((a, b) => { return a["pct"] - b["pct"] }),
+              }
 
               Object.keys(obj).forEach(busd => {
                 let strtable = getTable(obj[busd]);
@@ -959,6 +1005,7 @@ async function processData() {
 
 
 async function processOne(file, symbolExchange, out, stat, resolve, totalFile, options, dataModel, priceType) {
+  // console.log(file)
   stat.req++;
   let maxTopInterval = 10;
   let maxTopAll = 50;
@@ -1323,7 +1370,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
                 dataModel[ss][symbol]["min" + k] = min;
               }
               if (ss == session) {
-                let threshold = options.threshold;
+                // let threshold = options.threshold;
+                let threshold = Config.muaban()["StdThreshold"];
                 if (threshold == undefined) threshold = 1.645;
                 for (let e of x) {
                   e["mean" + k] = Math.floor(mean * 100) / 100;
@@ -1365,7 +1413,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
 
       } else {
 
-        let threshold = options.threshold;
+        // let threshold = options.threshold;
+        let threshold = Config.muaban()["StdThreshold"];
         if (threshold == undefined) threshold = 1.645;
 
         let mdd = dataModel[session][symbol];
@@ -1401,7 +1450,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
     fs.writeFileSync(dir + symbol + "_" + floor + "_5p.json", JSON.stringify(x), (e) => { if (e) { console.log(e) } })
     if (options.update)
       fs.appendFileSync(dirAll + symbol + "_" + floor + interval + ".json", JSON.stringify(x) + "\n", (e) => { if (e) { console.log(e) } })
-    writeArrayJson2Xlsx(dir + symbol + "_" + floor + "_" + strdate0 + "_1N.xls", x)
+    let enableWriteXlsxSymbol = Config.muaban()["enableWriteXlsxSymbol"]
+    if (enableWriteXlsxSymbol)
+      writeArrayJson2Xlsx(dir + symbol + "_" + floor + "_" + strdate0 + "_1N.xls", x)
     let csv = new Parser({ fields: ["abu", "acum_busd", "acum_busd_val", "acum_val_bu", "acum_val_sd", "acum_val", "avg_val_bu", "avg_val_sd", "rbusd", "asd", "auk", "bs", "bu", "bu-sd", "bu-sd_val", "c", "date", "datetime", "h", "l", "o", "pbu", "psd", "puk", "rbu", "rsd", "ruk", "sb", "sd", "sum_vol", "total_vol", "uk", "val", "val_bu", "val_sd", "val_uk"] });
     let data2 = csv.parse(x);
     fs.writeFileSync(dir + symbol + "_" + floor + "_1N.csv", data2 + "\n", (e) => { if (e) { console.log(e) } })

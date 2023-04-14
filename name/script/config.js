@@ -14,6 +14,10 @@ Config.filter = function () {
 
 Config.muaban = function () {
     let conf = {}    
-    conf["OutlierThreshold"] = 2;
+    conf["OutlierThreshold"] = 10;
+    conf["StdThreshold"] = 1.6;
+    conf["enableWriteXlsxSymbol"] = false;
+    conf["uppct"] = 2;
+    conf["downpct"] = -5;
     return conf;
 }
