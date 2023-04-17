@@ -318,7 +318,7 @@ let split = data1.split("<p");
 
 // console.table(split);
 
-let listTag = ["<li", "<p", "<h1" ];
+let listTag = ["<li", "<p", "<h1"];
 let listEndTag = ["</li>", "</p>", "</h1>"];
 let listFomatText = ["<strong"];
 // let min = { pos: 999990 };
@@ -365,7 +365,7 @@ let listFomatText = ["<strong"];
 // }
 
 
-let parser = (data, offset, begin)=>{
+let parser = (data, offset, begin) => {
   let min = { pos: 999990 };
   let start = begin;
   let p = []
@@ -380,14 +380,14 @@ let parser = (data, offset, begin)=>{
       }
       return pos;
     });
-  
+
     let stop = true;
     out.forEach((e) => {
       if (e >= 0) stop = false;
     });
-  
+
     if (stop) break;
- 
+
     p.push({
       pos: min.pos + offset, end: data.indexOf(listEndTag[min.index], min.pos) + listEndTag[min.index].length + offset, data: data.slice(
         min.pos,
@@ -406,19 +406,19 @@ let parser = (data, offset, begin)=>{
 }
 
 
-let p2 = (data,offset, begin)=>{
+let p2 = (data, offset, begin) => {
 
-  let p = parser(data,offset,begin);
-    // console.log(offset,begin,"ppp ", p.length)
+  let p = parser(data, offset, begin);
+  // console.log(offset,begin,"ppp ", p.length)
   let t = []
-  if(p.length <= 1) return p;
+  if (p.length <= 1) return p;
   else {
-    for(let e of p){
+    for (let e of p) {
       // console.log("Call ",e.pos,listTag[e.index].length,e.data)
       // console.log({data:e.data})
-      let o=p2(e.data, e.pos, listTag[e.index].length);
+      let o = p2(e.data, e.pos, listTag[e.index].length);
       // console.log("O ",o.length,p.length,e.data)
-      if(o.length >= 1)
+      if (o.length >= 1)
         t.push(...o);
       else
         t.push(e)
@@ -442,7 +442,7 @@ let p2 = (data,offset, begin)=>{
 // '<p class5="MuiTypography-root jss87 MuiTypography-body1">Thời điểm mở b&aacute;n gi&aacute; căn hộ tại Keangnam Landmark 72 cao kỷ lục rơi v&agrave;o khoảng 3.000 USD/m2 tức khoảng 7-8 tỷ đồng/căn hộ.</p>\n' +
 // '<p class6="MuiTypography-root jss87 MuiTypography-body1">Thời điểm mở b&aacute;n gi&aacute; căn hộ tại Keangnam Landmark 72 cao kỷ lục rơi v&agrave;o khoảng 3.000 USD/m2 tức khoảng 7-8 tỷ đồng/căn hộ.</p>\n' +
 // '</li>';
-p =p2(data,0, 0)
+p = p2(data, 0, 0)
 // p2(data,0)
 
 
@@ -454,11 +454,11 @@ p =p2(data,0, 0)
 
 // let pp2 = parser(data,0)
 
-console.log("PPP",p.length)
+console.log("PPP", p.length)
 
 
 
-for(let e of p){
+for (let e of p) {
   console.log(e)
 }
 // console.log("PPP2",pp2.length)
@@ -476,18 +476,23 @@ for(let e of p){
 
 var HTMLParser = require('node-html-parser');
 const root = HTMLParser.parse(data);
+const translate = require('@iamtraction/google-translate');
 
 console.log(root.structuredText)
 
-
+let ppp = []
 function traverse(node) {
-  console.log("Node=======>",node.nodeType, node.rawTagName, node.rawText);
-  if(node.rawText.length >= 1 && node.rawText != '\n'){
+  console.log("Node=======>", node.nodeType, node.rawTagName, node.rawText);
+  if (node.rawText.length >= 1 && node.rawText != '\n') {
     console.log(node.rawText.length)
     console.log(node.rawText)
-    node.rawText = "AAAAA " + node.rawText
-  }
+    // node.rawText = "AAAAA " + node.text
+
   
+    ppp.push({node:node,text:node.text})    
+  }
+
+
 
   if (node.childNodes) {
     node.childNodes.forEach(child => traverse(child));
@@ -496,8 +501,39 @@ function traverse(node) {
 
 traverse(root);
 
+(async ()=>{
+  let w = [];
+  for(let e of ppp){
+
+    let text = e.text;
+    if(text.length > 0){
+      let ttt = translate(text, { from: 'vi', to: 'ko' }).then(res => {
+        e.node.rawText = res.text
+        // console.log(res.text)
+        return res.text;
+      }).catch(err => {
+        console.error(err, text);
+        return ""
+      });
+  
+      w.push(ttt)
+    }
+
+}
+
+await Promise.all(w);
+console.log(root.toString())
+
+console.log(root.structuredText)
+})()
+
+
+//  Promise.all(ppp)
+
+
+
 // console.log(root.structuredText)
 
 
-console.log(root.toString())
+
 
