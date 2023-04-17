@@ -17,7 +17,7 @@ Config.muaban = function () {
     conf["OutlierThreshold"] = 10;
     conf["StdThreshold"] = 1.6;
     conf["enableWriteXlsxSymbol"] = false;
-    conf["uppct"] = 2;
+    conf["uppct"] = 4;
     conf["downpct"] = -5;
     return conf;
 }
