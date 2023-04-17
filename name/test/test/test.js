@@ -473,3 +473,31 @@ for(let e of p){
 // let out = p2(data2, 642, 3);
 
 // console.log("OUT",out.length)
+
+var HTMLParser = require('node-html-parser');
+const root = HTMLParser.parse(data);
+
+console.log(root.structuredText)
+
+
+function traverse(node) {
+  console.log("Node=======>",node.nodeType, node.rawTagName, node.rawText);
+  if(node.rawText.length >= 1 && node.rawText != '\n'){
+    console.log(node.rawText.length)
+    console.log(node.rawText)
+    node.rawText = "AAAAA " + node.rawText
+  }
+  
+
+  if (node.childNodes) {
+    node.childNodes.forEach(child => traverse(child));
+  }
+}
+
+traverse(root);
+
+// console.log(root.structuredText)
+
+
+console.log(root.toString())
+
