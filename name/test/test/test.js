@@ -318,54 +318,158 @@ let split = data1.split("<p");
 
 // console.table(split);
 
-let listTag = ["<li", "<p", "<h1"];
+let listTag = ["<li", "<p", "<h1" ];
 let listEndTag = ["</li>", "</p>", "</h1>"];
 let listFomatText = ["<strong"];
-let min = { pos: 999990 };
-let start = 0;
-let p = []
-while (true) {
-  let out = listTag.map((e, i) => {
-    let pos = data.indexOf(e, start);
-    console.log(pos);
-    if (pos > 0 && pos < min.pos) {
-      min.pos = pos;
-      min.type = e;
-      min.index = i;
+// let min = { pos: 999990 };
+// let start = 0;
+// let p = []
+// while (true) {
+//   let out = listTag.map((e, i) => {
+//     let pos = data.indexOf(e, start);
+//     console.log(pos);
+//     if (pos > 0 && pos < min.pos) {
+//       min.pos = pos;
+//       min.type = e;
+//       min.index = i;
+//     }
+//     return pos;
+//   });
+
+//   let stop = true;
+//   out.forEach((e) => {
+//     if (e >= 0) stop = false;
+//   });
+
+//   if (stop) break;
+//   // console.log(min);
+//   // console.log(
+//   //   data.slice(
+//   //     min.pos,
+//   //     data.indexOf(listEndTag[min.index], min.pos) +
+//   //     listEndTag[min.index].length
+//   //   )
+//   // );
+//   p.push({
+//     pos: min.pos, end: data.indexOf(listEndTag[min.index], min.pos) + listEndTag[min.index].length, data: data.slice(
+//       min.pos,
+//       data.indexOf(listEndTag[min.index], min.pos) +
+//       listEndTag[min.index].length
+//     ),
+//     index: min.index
+//   })
+//   // start = min.pos + min.type.length;
+//   start = data.indexOf(listEndTag[min.index], min.pos) + listEndTag[min.index].length
+//   min = { pos: 999990 };
+//   console.log("start ", start);
+// }
+
+
+let parser = (data, offset, begin)=>{
+  let min = { pos: 999990 };
+  let start = begin;
+  let p = []
+  while (true) {
+    let out = listTag.map((e, i) => {
+      let pos = data.indexOf(e, start);
+      // console.log(pos);
+      if (pos >= 0 && pos < min.pos) {
+        min.pos = pos;
+        min.type = e;
+        min.index = i;
+      }
+      return pos;
+    });
+  
+    let stop = true;
+    out.forEach((e) => {
+      if (e >= 0) stop = false;
+    });
+  
+    if (stop) break;
+ 
+    p.push({
+      pos: min.pos + offset, end: data.indexOf(listEndTag[min.index], min.pos) + listEndTag[min.index].length + offset, data: data.slice(
+        min.pos,
+        data.indexOf(listEndTag[min.index], min.pos) +
+        listEndTag[min.index].length
+      ),
+      index: min.index
+    })
+    // console.log(p.at(-1))
+    // start = min.pos + min.type.length;
+    start = data.indexOf(listEndTag[min.index], min.pos) + listEndTag[min.index].length
+    // console.log("Start",start,data.substring(start,data.length))
+    min = { pos: 999990 };
+  }
+  return p;
+}
+
+
+let p2 = (data,offset, begin)=>{
+
+  let p = parser(data,offset,begin);
+    // console.log(offset,begin,"ppp ", p.length)
+  let t = []
+  if(p.length <= 1) return p;
+  else {
+    for(let e of p){
+      // console.log("Call ",e.pos,listTag[e.index].length,e.data)
+      // console.log({data:e.data})
+      let o=p2(e.data, e.pos, listTag[e.index].length);
+      // console.log("O ",o.length,p.length,e.data)
+      if(o.length >= 1)
+        t.push(...o);
+      else
+        t.push(e)
     }
-    return pos;
-  });
-
-  let stop = true;
-  out.forEach((e) => {
-    if (e >= 0) stop = false;
-  });
-
-  if (stop) break;
-  // console.log(min);
-  // console.log(
-  //   data.slice(
-  //     min.pos,
-  //     data.indexOf(listEndTag[min.index], min.pos) +
-  //     listEndTag[min.index].length
-  //   )
-  // );
-  p.push({
-    pos: min.pos, end: data.indexOf(listEndTag[min.index], min.pos) + listEndTag[min.index].length, data: data.slice(
-      min.pos,
-      data.indexOf(listEndTag[min.index], min.pos) +
-      listEndTag[min.index].length
-    ),
-    index: min.index
-  })
-  // start = min.pos + min.type.length;
-  start = data.indexOf(listEndTag[min.index], min.pos) + listEndTag[min.index].length
-  min = { pos: 999990 };
-  console.log("start ", start);
+  }
+  return t;
 }
 
 
-for(let i in p){
-  if(i >=1 && p[i].pos <= p[i-1].end) console.log(i)
-}
+
+
+// data = `<p class="MuiTypography-root jss87 MuiTypography-body1">Keangnam Landmark 72 vẫn được biết đến với t&ecirc;n gọi t&ograve;a nh&agrave; Keangnam hay t&ograve;a nh&agrave; cao nhất H&agrave; Nội. Đ&acirc;y l&agrave; t&ograve;a nh&agrave; cao ch&oacute;t v&oacute;t với tổ hợp trung t&acirc;m thương mại &ndash; kh&aacute;ch sạn &ndash; văn ph&ograve;ng &ndash; căn hộ chung cư cao cấp hiện đại bậc nhất Việt Nam. H&atilde;y c&ugrave;ng Justfly.vn kh&aacute;m ph&aacute; Keangnam Landmark 72 ngay sau đ&acirc;y!</p>`
+
+// data = '<li class="jss88">\n' +
+// '<p class1="MuiTypography-root jss87 MuiTypography-body1">Thời điểm mở b&aacute;n gi&aacute; căn hộ tại Keangnam Landmark 72 cao kỷ lục rơi v&agrave;o khoảng 3.000 USD/m2 tức khoảng 7-8 tỷ đồng/căn hộ.</p>\n' +
+// '<p class2="MuiTypography-root jss87 MuiTypography-body1">Thời điểm mở b&aacute;n gi&aacute; căn hộ tại Keangnam Landmark 72 cao kỷ lục rơi v&agrave;o khoảng 3.000 USD/m2 tức khoảng 7-8 tỷ đồng/căn hộ.</p>\n' +
+// '<p class3="MuiTypography-root jss87 MuiTypography-body1">Thời điểm mở b&aacute;n gi&aacute; căn hộ tại Keangnam Landmark 72 cao kỷ lục rơi v&agrave;o khoảng 3.000 USD/m2 tức khoảng 7-8 tỷ đồng/căn hộ.</p>\n' +
+// '</li>   ' + 
+// '<li class="jss88">\n' +
+// '<p class4="MuiTypography-root jss87 MuiTypography-body1">Thời điểm mở b&aacute;n gi&aacute; căn hộ tại Keangnam Landmark 72 cao kỷ lục rơi v&agrave;o khoảng 3.000 USD/m2 tức khoảng 7-8 tỷ đồng/căn hộ.</p>\n' +
+// '<p class5="MuiTypography-root jss87 MuiTypography-body1">Thời điểm mở b&aacute;n gi&aacute; căn hộ tại Keangnam Landmark 72 cao kỷ lục rơi v&agrave;o khoảng 3.000 USD/m2 tức khoảng 7-8 tỷ đồng/căn hộ.</p>\n' +
+// '<p class6="MuiTypography-root jss87 MuiTypography-body1">Thời điểm mở b&aacute;n gi&aacute; căn hộ tại Keangnam Landmark 72 cao kỷ lục rơi v&agrave;o khoảng 3.000 USD/m2 tức khoảng 7-8 tỷ đồng/căn hộ.</p>\n' +
+// '</li>';
+p =p2(data,0, 0)
+// p2(data,0)
+
+
+
+// for(let i in p){
+//   if(i >=1 && p[i].pos <= p[i-1].end) console.log(i)
+// }
 // console.table(p)
+
+// let pp2 = parser(data,0)
+
+console.log("PPP",p.length)
+
+
+
+for(let e of p){
+  console.log(e)
+}
+// console.log("PPP2",pp2.length)
+
+
+// let data2 =  '<li class="jss88">\n' +
+// '<p class4="MuiTypography-root jss87 MuiTypography-body1">Thời điểm mở b&aacute;n gi&aacute; căn hộ tại Keangnam Landmark 72 cao kỷ lục rơi v&agrave;o khoảng 3.000 USD/m2 tức khoảng 7-8 tỷ đồng/căn hộ.</p>\n' +
+// '<p class5="MuiTypography-root jss87 MuiTypography-body1">Thời điểm mở b&aacute;n gi&aacute; căn hộ tại Keangnam Landmark 72 cao kỷ lục rơi v&agrave;o khoảng 3.000 USD/m2 tức khoảng 7-8 tỷ đồng/căn hộ.</p>\n' +
+// '<p class6="MuiTypography-root jss87 MuiTypography-body1">Thời điểm mở b&aacute;n gi&aacute; căn hộ tại Keangnam Landmark 72 cao kỷ lục rơi v&agrave;o khoảng 3.000 USD/m2 tức khoảng 7-8 tỷ đồng/căn hộ.</p>\n' +
+// '</li>';
+
+// let out = p2(data2, 642, 3);
+
+// console.log("OUT",out.length)
