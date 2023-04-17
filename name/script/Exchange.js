@@ -261,50 +261,50 @@ Exchange.getliststockdata2 = async function (list, ret) {
   let maxURLLength = 2048;
   let url = "https://bgapidatafeed.vps.com.vn/getliststockdata/";
   let promises = []
-    for (let i = 0; i < list.length; i++) {
-      url = url + list[i] + ",";
-      if (url.length > 2024 || i == list.length - 1) {
-        url.slice(0, -1);
-        // console.log(url)
-        let a = fetch(url, {
-          "headers": {
-            "accept": "application/json, text/plain, */*",
-            "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-            // "cache-control": "max-age=0",
-            // "if-none-match": "W/\"4d40-JGO04TIpDa6yRnuWE3iB61BlloY\"",
-            // "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-            // "sec-ch-ua-mobile": "?0",
-            // "sec-fetch-dest": "empty",
-            // "sec-fetch-mode": "cors",
-            // "sec-fetch-site": "same-origin",
-            // "cookie": "_fbp=fb.2.1669623965921.1893403188; _ga_M9VTXEHK9C=GS1.1.1669958644.2.0.1669958644.0.0.0; _gid=GA1.3.658451143.1670224721; _ga=GA1.1.1812813168.1668398014; _ga_4WDBKERLGC=GS1.1.1670316124.25.0.1670316124.0.0.0; _ga_QW53DJZL1X=GS1.1.1670384164.2.1.1670384195.0.0.0; _ga_790K9595DC=GS1.1.1670384139.11.1.1670384402.0.0.0"
-          },
-          "referrer": "https://bgapidatafeed.vps.com.vn/",
-          "referrerPolicy": "strict-origin-when-cross-origin",
-          // "body": null,
-          "method": "GET",
-          "mode": "cors",
-          agent
-        });
-       let pro= a.then(res => res.text()).then(txt => {
+  for (let i = 0; i < list.length; i++) {
+    url = url + list[i] + ",";
+    if (url.length > 2024 || i == list.length - 1) {
+      url.slice(0, -1);
+      // console.log(url)
+      let a = fetch(url, {
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+          // "cache-control": "max-age=0",
+          // "if-none-match": "W/\"4d40-JGO04TIpDa6yRnuWE3iB61BlloY\"",
+          // "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+          // "sec-ch-ua-mobile": "?0",
+          // "sec-fetch-dest": "empty",
+          // "sec-fetch-mode": "cors",
+          // "sec-fetch-site": "same-origin",
+          // "cookie": "_fbp=fb.2.1669623965921.1893403188; _ga_M9VTXEHK9C=GS1.1.1669958644.2.0.1669958644.0.0.0; _gid=GA1.3.658451143.1670224721; _ga=GA1.1.1812813168.1668398014; _ga_4WDBKERLGC=GS1.1.1670316124.25.0.1670316124.0.0.0; _ga_QW53DJZL1X=GS1.1.1670384164.2.1.1670384195.0.0.0; _ga_790K9595DC=GS1.1.1670384139.11.1.1670384402.0.0.0"
+        },
+        "referrer": "https://bgapidatafeed.vps.com.vn/",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        // "body": null,
+        "method": "GET",
+        "mode": "cors",
+        agent
+      });
+      let pro = a.then(res => res.text()).then(txt => {
 
-          let data = [];
-          if (txt.startsWith("[{") && txt.endsWith("}]")) {
-            data = JSON.parse(txt);
-          }
-          for (let e of data) {
-            // console.log(Object.keys(ret).length)
-            ret[e.sym] = e;
-          }
-          // if (Object.keys(ret).length == list.length) {
-          //   resolve(ret);
-          // }
-        });
-        promises.push(pro);
-        url = "https://bgapidatafeed.vps.com.vn/getliststockdata/";
-      }
+        let data = [];
+        if (txt.startsWith("[{") && txt.endsWith("}]")) {
+          data = JSON.parse(txt);
+        }
+        for (let e of data) {
+          // console.log(Object.keys(ret).length)
+          ret[e.sym] = e;
+        }
+        // if (Object.keys(ret).length == list.length) {
+        //   resolve(ret);
+        // }
+      });
+      promises.push(pro);
+      url = "https://bgapidatafeed.vps.com.vn/getliststockdata/";
     }
-  
+  }
+
   await Promise.all(promises)
   return ret;
 }
@@ -517,7 +517,7 @@ Exchange.vndIndustryRatio = async (code) => {
     console.log("Error ", code, z)
   }
 
-  a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=itemCode:52002,52001,53007,&where=code:"+code+"~reportDate:gt:2022-09-24&order=reportDate&fields=itemCode,value", {
+  a = await fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=itemCode:52002,52001,53007,&where=code:" + code + "~reportDate:gt:2022-09-24&order=reportDate&fields=itemCode,value", {
     "headers": {
       "accept": "*/*",
       "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -781,24 +781,45 @@ Exchange.VietStock = function () {
 }
 Exchange.VietStock.GetStockDealDetail = async function (code) {
   let vietFetch = async (code) => {
+    // return await fetch("https://finance.vietstock.vn/data/getstockdealdetail", {
+    //   "headers": {
+    //     "accept": "*/*",
+    //     "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+    //     "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+    //     "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+    //     "sec-ch-ua-mobile": "?0",
+    //     "sec-ch-ua-platform": "\"Windows\"",
+    //     "sec-fetch-dest": "empty",
+    //     "sec-fetch-mode": "cors",
+    //     "sec-fetch-site": "same-origin",
+    //     "x-requested-with": "XMLHttpRequest",
+    //     "cookie": "dable_uid=46723758.1644994739059; __gpi=UID=00000bd97c7cdd2f:T=1678806513:RT=1678806513:S=ALNI_MadDA1XpVCXeuv0P1jWAh4zYS0_8w; language=vi-VN; ASP.NET_SessionId=ogswqimyivnxichlp13xi34c; __RequestVerificationToken=Igoh9CdTNDN_t4J8S1YFQhkDeQfYKuWmPckzDmUCmh5Du6wu_HGPQOml50xCsaaVnb7fKjxbUdiGOQ061Owvs3AZyBdJbyM2OIEAI9gIGVI1; __gads=ID=721c8eaa2e8f22d3-22f8c7cda5d000cd:T=1645157750:S=ALNI_MZh5NgENMPsCTg6pJbv8zxT4E9E0g; panoramaId_expiry=1679411315932; _cc_id=a013cc43b44e1570bea28d91e839eaa3; panoramaId=8722d4a89952df2a29480af8ec3916d539382765cf514dd8159e219acf1c5666; vts_usr_lg=32F94DB391D74621542297042A904D5CAD0E0D7F82652193914A79DEB0ADE90261EC0D3F2F946C9E3EA7C178E9F9F44A4665799A13285E75ABF9CBD0AF775B2F218E50C808EF7A8607967CBC1E83B163D195D3165EF42335AFE167B089F117343D87EDC984906A030675896CE79C30A32C71903D6268199A2CAE33AB989ED06B; finance_viewedstock=HPG,; Theme=Light; _pbjs_userid_consent_data=3524755945110770; _gid=GA1.2.2091741562.1678806641; cto_bidid=ErD4ol9OJTJCSDZtclFHSEF2VHBnWG1VU3klMkZPNyUyQjF3NTFkNjFkTDRNZEhRMlY2dm1HYnUzRGtWSiUyQjlmRmJmVEdObmFUd0lmUFJaS2hMJTJGaGJwMlA4SUVQQ3BkemlNRDFMdXgzc3lqYWxEUnFVYnpIbmMlM0Q; cto_bundle=JNwMhl9NZjBxRmpsak5QTWxDSyUyRndvYW0zUzdNNTRBNVFhckJqc0JtQkdlRGV2WEVHTXlSdyUyQnJqeXFtcmxhcCUyRmtkU1B5dTI3aGROOWMzZ2c3bHVUNEFDZEVPemoxMVJySnRYOGVOSzlibjFkTDVUN1U5OWRjZk1QZTJoajZydG5peGZYbW9NOWJmRSUyRkt6WXZGcVF1czNtcWJmZyUzRCUzRA; _ga=GA1.1.332676730.1645157750; _ga_EXMM0DKVEX=GS1.1.1678806513.1.1.1678806756.0.0.0",
+    //     "Referer": "https://finance.vietstock.vn/HPG/thong-ke-giao-dich.htm",
+    //     "Referrer-Policy": "strict-origin-when-cross-origin"
+    //   },
+    //   "body": "code=" + code + "&seq=0&__RequestVerificationToken=HP_jzP_8uVvcAdSiLii8tf2-Y9IdI9fGcmiiQL9n2iYcU8oHmezNkt4rA5-hHn87tINYh1LifAq_JMlY8IavLe53_RddBcu7BqI7M6vh4qWMLyfRYRSWS5Xu00Q729IZ0",
+    //   "method": "POST",
+    //   agent
+    // });
+
     return await fetch("https://finance.vietstock.vn/data/getstockdealdetail", {
       "headers": {
         "accept": "*/*",
         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
         "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
-        "sec-ch-ua": "\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
         "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "\"Windows\"",
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
         "x-requested-with": "XMLHttpRequest",
-        "cookie": "dable_uid=46723758.1644994739059; __gpi=UID=00000bd97c7cdd2f:T=1678806513:RT=1678806513:S=ALNI_MadDA1XpVCXeuv0P1jWAh4zYS0_8w; language=vi-VN; ASP.NET_SessionId=ogswqimyivnxichlp13xi34c; __RequestVerificationToken=Igoh9CdTNDN_t4J8S1YFQhkDeQfYKuWmPckzDmUCmh5Du6wu_HGPQOml50xCsaaVnb7fKjxbUdiGOQ061Owvs3AZyBdJbyM2OIEAI9gIGVI1; __gads=ID=721c8eaa2e8f22d3-22f8c7cda5d000cd:T=1645157750:S=ALNI_MZh5NgENMPsCTg6pJbv8zxT4E9E0g; panoramaId_expiry=1679411315932; _cc_id=a013cc43b44e1570bea28d91e839eaa3; panoramaId=8722d4a89952df2a29480af8ec3916d539382765cf514dd8159e219acf1c5666; vts_usr_lg=32F94DB391D74621542297042A904D5CAD0E0D7F82652193914A79DEB0ADE90261EC0D3F2F946C9E3EA7C178E9F9F44A4665799A13285E75ABF9CBD0AF775B2F218E50C808EF7A8607967CBC1E83B163D195D3165EF42335AFE167B089F117343D87EDC984906A030675896CE79C30A32C71903D6268199A2CAE33AB989ED06B; finance_viewedstock=HPG,; Theme=Light; _pbjs_userid_consent_data=3524755945110770; _gid=GA1.2.2091741562.1678806641; cto_bidid=ErD4ol9OJTJCSDZtclFHSEF2VHBnWG1VU3klMkZPNyUyQjF3NTFkNjFkTDRNZEhRMlY2dm1HYnUzRGtWSiUyQjlmRmJmVEdObmFUd0lmUFJaS2hMJTJGaGJwMlA4SUVQQ3BkemlNRDFMdXgzc3lqYWxEUnFVYnpIbmMlM0Q; cto_bundle=JNwMhl9NZjBxRmpsak5QTWxDSyUyRndvYW0zUzdNNTRBNVFhckJqc0JtQkdlRGV2WEVHTXlSdyUyQnJqeXFtcmxhcCUyRmtkU1B5dTI3aGROOWMzZ2c3bHVUNEFDZEVPemoxMVJySnRYOGVOSzlibjFkTDVUN1U5OWRjZk1QZTJoajZydG5peGZYbW9NOWJmRSUyRkt6WXZGcVF1czNtcWJmZyUzRCUzRA; _ga=GA1.1.332676730.1645157750; _ga_EXMM0DKVEX=GS1.1.1678806513.1.1.1678806756.0.0.0",
-        "Referer": "https://finance.vietstock.vn/HPG/thong-ke-giao-dich.htm",
-        "Referrer-Policy": "strict-origin-when-cross-origin"
+        "cookie": "_cc_id=bd4b49a4b7a58cfaeb38724516b82171; dable_uid=35370669.1668475569175; dable_uid=35370669.1668475569175; __gads=ID=af0897d5e697b47b-2219cdf973d800fc:T=1668475507:S=ALNI_MaL0TTHW6nK5yq36h7SKojzDZdS3w; __gpi=UID=00000b7c20f7c81e:T=1668475507:RT=1681728717:S=ALNI_MbZNgtWTtbRI1MrLcfM5qFq0RIBMQ; language=vi-VN; ASP.NET_SessionId=qauo4ycnptg2ep0whemcjlmt; __RequestVerificationToken=hgUxWCYRR7QsEiJ6p4QOyh0w-K72UuKTncm3ulL_ZN-jjTiNalEtEQwr6jlUCyjU4KJzhS5ZKovvAnYADFI7pCHtEKjxtD_epZf3UdAbU7Y1; panoramaId_expiry=1681815121039; panoramaId=4d0c5a1ada413b921c9b37c6d8d4a9fb927a0d4a71477931e7d9d438d60721a2; finance_viewedstock=HPG,; Theme=Light; _gid=GA1.2.279559206.1681728729; AnonymousNotification=; _pbjs_userid_consent_data=3524755945110770; _gat_UA-1460625-2=1; cto_bundle=Boq16V9GalVXbDclMkJNeHNwS0pTN0VtbThsUHolMkY4RnpteSUyRnkza0FGNUYxYmNZTUF5VDAlMkZpMXZ0Q3glMkJBMGdIUUVKSmduJTJCU3VFQmlpWllERG5XSWtraE9rUzJJQWNYUVVoWWo4dFhFRERla1dPYkxqRkhUT0U4WTBSRnElMkZLdzcwZmJvYTdIYkYzd0FJNDNCU1BvdTZNQ09YcFl0dyUzRCUzRA; cto_bidid=2xlT0l9tcExYekpsN0h0bFlNQnQ2alJRJTJCWEhnVDVWcTk4YTVEbiUyRmx4WWtyOTZlcXVxU0hVeEh1ZTFOanRldkp0NGNEWkNIS2VBSHRuOFdzalUxdzhsb0xRcVhpUnd3T1ppbDVoYko0dmN0S2thbUklM0Q; _ga_EXMM0DKVEX=GS1.1.1681728717.10.1.1681728852.0.0.0; _ga=GA1.2.70802173.1668475499"
       },
-      "body": "code=" + code + "&seq=0&__RequestVerificationToken=HP_jzP_8uVvcAdSiLii8tf2-Y9IdI9fGcmiiQL9n2iYcU8oHmezNkt4rA5-hHn87tINYh1LifAq_JMlY8IavLe53_RddBcu7BqI7M6vh4qWMLyfRYRSWS5Xu00Q729IZ0",
+      "referrer": "https://finance.vietstock.vn/HPG/thong-ke-giao-dich.htm",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": "code=" + code + "&seq=0&__RequestVerificationToken=WtRiAWGS-8uA6FwAaP8uWz7luN0YHNjzIzvqNaESbaDRP9TYWiIgYFb5MD1Nyh83ol2ricr1RtQ2c97GoYLlD-LmmYgwwpXRdBybJ1S5Sik1",
       "method": "POST",
+      "mode": "cors",
       agent
     });
   }
@@ -1337,64 +1358,64 @@ Exchange.GStock.stocks = async function () {
 
 
   let sector = await fetch("https://gstock.vn/api/v1/analysis/sectors", {
-  "headers": {
-    "accept": "*/*",
-    "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjgwMzgsImlhdCI6MTY3OTI3ODk4M30.bViEcqAF4_QPwbhIpG_yPhP6psF1cxHSSgAtXhV-iU8",
-    "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-    "sec-ch-ua-mobile": "?0",
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-origin",
-    "cookie": "_ga=GA1.1.792630865.1676510515; adonis-session=6481ec4d7d83670d5f4e0cd95e3bb62cRcFSmc5AbDaBqnDdoSyxbe38VANcXq2iLIcOY%2Fmgqr5m%2FQPr8TWKc0sGbqXqSc0GuRFZN4sp1zJYGC7PhJmxoe8ztOAuyO0tZ2lyCMWUTIfJuruCGR9HEraDIoxIoIX1; XSRF-TOKEN=efcf965708d77b9d4c7a8e296d7add57%2FuhZJh8WaVn0Qye%2Fr29%2BziBiAk%2B0DcxuR%2BU%2BEtvNWnzsVkN4%2BW8vd0LhwyF9b8hiyyFK%2BxFyo2FfHJuv5BW1EDUGPhDVcAZt2NMIeB51JqRfRQUU4tbU5j5tEnfmikAA; adonis-session-values=49f5b474f379e99795d97bcd18acefe6zA8aubaubGXTwvPlWVwikvj95EUDyHLKApaneDm%2FOgT3C1KQGJ%2BVFLKZAuqHpRT6GhFs5S%2BRI5mDnbZRBY29n6lecUkNft8F8clhfsG6W1Y53646HU00VzIRfOW5hAQnqpvg7imPjVXLVjg2tpvHmKzpnWhYD%2BOBtiB26C16fXA%3D; _ga_4JG4YDZE5Z=GS1.1.1681380797.13.1.1681382301.22.0.0"
-  },
-  "referrer": "https://gstock.vn/nguoi-dung/chung-khoan-co-so/chi-so-nganh",
-  "referrerPolicy": "strict-origin-when-cross-origin",
-  "body": null,
-  "method": "GET",
-  "mode": "cors"
-});
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjgwMzgsImlhdCI6MTY3OTI3ODk4M30.bViEcqAF4_QPwbhIpG_yPhP6psF1cxHSSgAtXhV-iU8",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "cookie": "_ga=GA1.1.792630865.1676510515; adonis-session=6481ec4d7d83670d5f4e0cd95e3bb62cRcFSmc5AbDaBqnDdoSyxbe38VANcXq2iLIcOY%2Fmgqr5m%2FQPr8TWKc0sGbqXqSc0GuRFZN4sp1zJYGC7PhJmxoe8ztOAuyO0tZ2lyCMWUTIfJuruCGR9HEraDIoxIoIX1; XSRF-TOKEN=efcf965708d77b9d4c7a8e296d7add57%2FuhZJh8WaVn0Qye%2Fr29%2BziBiAk%2B0DcxuR%2BU%2BEtvNWnzsVkN4%2BW8vd0LhwyF9b8hiyyFK%2BxFyo2FfHJuv5BW1EDUGPhDVcAZt2NMIeB51JqRfRQUU4tbU5j5tEnfmikAA; adonis-session-values=49f5b474f379e99795d97bcd18acefe6zA8aubaubGXTwvPlWVwikvj95EUDyHLKApaneDm%2FOgT3C1KQGJ%2BVFLKZAuqHpRT6GhFs5S%2BRI5mDnbZRBY29n6lecUkNft8F8clhfsG6W1Y53646HU00VzIRfOW5hAQnqpvg7imPjVXLVjg2tpvHmKzpnWhYD%2BOBtiB26C16fXA%3D; _ga_4JG4YDZE5Z=GS1.1.1681380797.13.1.1681382301.22.0.0"
+    },
+    "referrer": "https://gstock.vn/nguoi-dung/chung-khoan-co-so/chi-so-nganh",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors"
+  });
 
-sector = await sector.json();
+  sector = await sector.json();
 
 
-let mapsector = {}
-sector.forEach(e=>{
-  mapsector[e.Id] = e;
-})
+  let mapsector = {}
+  sector.forEach(e => {
+    mapsector[e.Id] = e;
+  })
 
-// {
-//   Code: [],
-//   Id: '233',
-//   SectorName: 'Sản xuất sắt, thép và hợp kim fero',
-//   Level: 3,
-//   ParentId: '70',
-//   SectorCode: 'HUA0'
-// }
+  // {
+  //   Code: [],
+  //   Id: '233',
+  //   SectorName: 'Sản xuất sắt, thép và hợp kim fero',
+  //   Level: 3,
+  //   ParentId: '70',
+  //   SectorCode: 'HUA0'
+  // }
 
-console.log(sector)
+  console.log(sector)
 
-stock.forEach(e=>{
-    if(e.SectorId != '' &&  mapsector[e.SectorId] != undefined)
+  stock.forEach(e => {
+    if (e.SectorId != '' && mapsector[e.SectorId] != undefined)
       e["SectorName"] = mapsector[e.SectorId]["SectorName"]
-    if(e.SectorIdLevel1 != '' &&  mapsector[e.SectorIdLevel1] != undefined)
+    if (e.SectorIdLevel1 != '' && mapsector[e.SectorIdLevel1] != undefined)
       e["SectorName1"] = mapsector[e.SectorIdLevel1]["SectorName"]
-    if(e.SectorIdLevel3 != '' &&  mapsector[e.SectorIdLevel3] != undefined)
-      e["SectorName3"] = mapsector[e.SectorIdLevel3]["SectorName"]      
-})
-console.log(stock)
-fs.writeFileSync("./profile/stock.json",JSON.stringify(stock),(e)=>{})
+    if (e.SectorIdLevel3 != '' && mapsector[e.SectorIdLevel3] != undefined)
+      e["SectorName3"] = mapsector[e.SectorIdLevel3]["SectorName"]
+  })
+  console.log(stock)
+  fs.writeFileSync("./profile/stock.json", JSON.stringify(stock), (e) => { })
 
-// {
-//   Symbol: 'DC1',
-//   Company: 'Công ty Cổ phần Đầu tư Phát triển Xây dựng số 1',
-//   Floor: 'UPCOM',
-//   BusinessType: 1,
-//   SectorId: '98',
-//   SectorIdLevel1: '12',
-//   SectorIdLevel3: '329',
-//   SectorName: 'Nhà thầu xây dựng',
-//   SectorName1: 'Xây dựng và Bất động sản',
-//   SectorName3: 'Xây dựng nhà ở, khu dân cư, cao ốc'
-// },
+  // {
+  //   Symbol: 'DC1',
+  //   Company: 'Công ty Cổ phần Đầu tư Phát triển Xây dựng số 1',
+  //   Floor: 'UPCOM',
+  //   BusinessType: 1,
+  //   SectorId: '98',
+  //   SectorIdLevel1: '12',
+  //   SectorIdLevel3: '329',
+  //   SectorName: 'Nhà thầu xây dựng',
+  //   SectorName1: 'Xây dựng và Bất động sản',
+  //   SectorName3: 'Xây dựng nhà ở, khu dân cư, cao ốc'
+  // },
 }
