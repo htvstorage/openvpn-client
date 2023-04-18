@@ -65,7 +65,7 @@ let stockStore = {};
 })();
 
 
-let sessionData = [500, 1000, 2000, 4000]
+let sessionData = [5, 10, 20, 100, 200]
 let fromDate = new Date(2022, 11, 10);
 let dataModelPath = "./model/"
 
@@ -678,8 +678,9 @@ async function processData() {
             // console.table(str)
             let floor = "HOSE";
 
-            let session = options.session;
-            if (session == undefined) session = 2000;
+            // let session = options.session;
+            let session = Config.muaban()["session"];
+            if (session == undefined) session = 20;
 
             if (!sessionData.includes(session)) sessionData.push(session);
 
@@ -718,10 +719,16 @@ async function processData() {
                 out = out.filter(e => e.datetime >= fromDate.getTime());
 
                 // let outs = out.slice(0, session);
-                let dataOut = sessionData.map(e => out.slice(0, e))
+                let dataOut = sessionData.map(e => {
+                  let today = new Date();
+                  let xDayAgo = new Date(today);
+                  xDayAgo.setDate(today.getDate() - e);
+                  return out.filter(e => e.datetime >= xDayAgo.getTime());
+                })
                 let outa = {};
 
                 sessionData.forEach((ss, i) => {
+                  // console.log(dataOut)
                   let outs = dataOut[i];
                   key.forEach(k => {
                     outa[k] = outs.map(e => check(e[k]));
@@ -818,6 +825,7 @@ async function processData() {
               if (dataModel.loaded == undefined) {
                 if (!fs.existsSync(dataModelPath)) fs.mkdirSync(dataModelPath, { recursive: true })
                 fs.writeFileSync(dataModelPath + interval + "dataModel.json", JSON.stringify(dataModel), (e) => { if (e) { console.log(e) } })
+                console.log("Save model ", dataModelPath + interval + "dataModel.json")
               }
               if (!fs.existsSync("./outlier/")) {
                 fs.mkdirSync("./outlier/", { recursive: true })
@@ -835,7 +843,7 @@ async function processData() {
               let newOutlier = [];
               let priceUP = {};
               let priceDOWN = [];
-              let fix = ['symbol', 'busd', 'Name', 'pctmeanc', 'c1', 'pct1', '%maxc', '%minc', 'c', 'change', 'pct', 'h', 'l', 'o', 'Rval_bu', 'Rval_sd', 'bu', 'val_bu', 'sd', 'val_sd', 'total_vol', 'sum_vol', 'val', 'acum_val', 'datetime', 'date', 'ORRval_bu', 'ORval_bu', 'ORRval', 'Rval', 'ORval', 'ORRval_sd', 'ORval_sd', 'ORRval_uk', 'Rval_uk', 'ORval_uk', 'pbu', 'psd', 'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'bu-sd', 'bu-sd_val', 'avg_val_bu', 'avg_val_sd', 'acum_busd', 'acum_busd_val', 'acum_val_bu', 'acum_val_sd', 'rbusd', 'meanc', 'stdc', 'maxc', 'minc', 'Oc', 'ORRc', 'Rc', 'ORc', 'meanh', 'stdh', 'maxh', 'minh', 'Oh', 'ORRh', 'Rh', 'ORh', 'meanl', 'stdl', 'maxl', 'minl', 'Ol', 'ORRl', 'Rl', 'ORl', 'meano', 'stdo', 'maxo', 'mino', 'Oo', 'ORRo', 'Ro', 'ORo', 'meanbu', 'stdbu', 'maxbu', 'minbu', 'Obu', 'ORRbu', 'Rbu', 'ORbu', 'meanval_bu', 'stdval_bu', 'maxval_bu', 'minval_bu', 'Oval_bu', 'meantotal_vol', 'stdtotal_vol', 'maxtotal_vol', 'mintotal_vol', 'Ototal_vol', 'ORRtotal_vol', 'Rtotal_vol', 'ORtotal_vol', 'meansum_vol', 'stdsum_vol', 'maxsum_vol', 'minsum_vol', 'Osum_vol', 'ORRsum_vol', 'Rsum_vol', 'ORsum_vol', 'meanval', 'stdval', 'maxval', 'minval', 'Oval', 'meanacum_val', 'stdacum_val', 'maxacum_val', 'minacum_val', 'Oacum_val', 'ORRacum_val', 'Racum_val', 'ORacum_val', 'meansd', 'stdsd', 'maxsd', 'minsd', 'Osd', 'ORRsd', 'Rsd', 'ORsd', 'meanval_sd', 'stdval_sd', 'maxval_sd', 'minval_sd', 'Oval_sd', 'meanpbu', 'stdpbu', 'maxpbu', 'minpbu', 'Opbu', 'ORRpbu', 'Rpbu', 'ORpbu', 'meanpsd', 'stdpsd', 'maxpsd', 'minpsd', 'Opsd', 'ORRpsd', 'Rpsd', 'ORpsd', 'meanpuk', 'stdpuk', 'maxpuk', 'minpuk', 'Opuk', 'ORRpuk', 'Rpuk', 'ORpuk', 'meanbs', 'stdbs', 'maxbs', 'minbs', 'Obs', 'ORRbs', 'Rbs', 'ORbs', 'meansb', 'stdsb', 'maxsb', 'minsb', 'Osb', 'ORRsb', 'Rsb', 'ORsb', 'meanabu', 'stdabu', 'maxabu', 'minabu', 'Oabu', 'ORRabu', 'Rabu', 'ORabu', 'meanasd', 'stdasd', 'maxasd', 'minasd', 'Oasd', 'ORRasd', 'Rasd', 'ORasd', 'meanauk', 'stdauk', 'maxauk', 'minauk', 'Oauk', 'ORRauk', 'Rauk', 'ORauk', 'meanrsd', 'stdrsd', 'maxrsd', 'minrsd', 'Orsd', 'ORRrsd', 'Rrsd', 'ORrsd', 'meanrbu', 'stdrbu', 'maxrbu', 'minrbu', 'Orbu', 'ORRrbu', 'Rrbu', 'ORrbu', 'meanbu-sd', 'stdbu-sd', 'maxbu-sd', 'minbu-sd', 'Obu-sd', 'ORRbu-sd', 'Rbu-sd', 'ORbu-sd', 'meanbu-sd_val', 'stdbu-sd_val', 'maxbu-sd_val', 'minbu-sd_val', 'Obu-sd_val', 'ORRbu-sd_val', 'Rbu-sd_val', 'ORbu-sd_val', 'meanacum_busd', 'stdacum_busd', 'maxacum_busd', 'minacum_busd', 'Oacum_busd', 'ORRacum_busd', 'Racum_busd', 'ORacum_busd', 'meanacum_busd_val', 'stdacum_busd_val', 'maxacum_busd_val', 'minacum_busd_val', 'Oacum_busd_val', 'ORRacum_busd_val', 'Racum_busd_val', 'ORacum_busd_val', 'meanacum_val_bu', 'stdacum_val_bu', 'maxacum_val_bu', 'minacum_val_bu', 'Oacum_val_bu', 'ORRacum_val_bu', 'Racum_val_bu', 'ORacum_val_bu', 'meanacum_val_sd', 'stdacum_val_sd', 'maxacum_val_sd', 'minacum_val_sd', 'Oacum_val_sd', 'ORRacum_val_sd', 'Racum_val_sd', 'ORacum_val_sd', 'meanrbusd', 'stdrbusd', 'maxrbusd', 'minrbusd', 'Orbusd', 'ORRrbusd', 'Rrbusd', 'ORrbusd', 'meanuk', 'stduk', 'maxuk', 'minuk', 'Ouk', 'ORRuk', 'Ruk', 'ORuk', 'meanval_uk', 'stdval_uk', 'maxval_uk', 'minval_uk', 'Oval_uk', 'meanruk', 'stdruk', 'maxruk', 'minruk', 'Oruk', 'ORRruk', 'Rruk', 'ORruk', 'rbu', 'uk', 'val_uk', 'ruk']
+              let fix = ['symbol', 'busd', 'Name', 'pctmeanc', 'meanc', 'c1', 'pct1', '%maxc', '%minc', 'c', 'change', 'pct', 'h', 'l', 'o', 'Rval_bu', 'Rval_sd', 'bu', 'val_bu', 'sd', 'val_sd', 'total_vol', 'sum_vol', 'val', 'acum_val', 'datetime', 'date', 'ORRval_bu', 'ORval_bu', 'ORRval', 'Rval', 'ORval', 'ORRval_sd', 'ORval_sd', 'ORRval_uk', 'Rval_uk', 'ORval_uk', 'pbu', 'psd', 'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'bu-sd', 'bu-sd_val', 'avg_val_bu', 'avg_val_sd', 'acum_busd', 'acum_busd_val', 'acum_val_bu', 'acum_val_sd', 'rbusd', 'meanc', 'stdc', 'maxc', 'minc', 'Oc', 'ORRc', 'Rc', 'ORc', 'meanh', 'stdh', 'maxh', 'minh', 'Oh', 'ORRh', 'Rh', 'ORh', 'meanl', 'stdl', 'maxl', 'minl', 'Ol', 'ORRl', 'Rl', 'ORl', 'meano', 'stdo', 'maxo', 'mino', 'Oo', 'ORRo', 'Ro', 'ORo', 'meanbu', 'stdbu', 'maxbu', 'minbu', 'Obu', 'ORRbu', 'Rbu', 'ORbu', 'meanval_bu', 'stdval_bu', 'maxval_bu', 'minval_bu', 'Oval_bu', 'meantotal_vol', 'stdtotal_vol', 'maxtotal_vol', 'mintotal_vol', 'Ototal_vol', 'ORRtotal_vol', 'Rtotal_vol', 'ORtotal_vol', 'meansum_vol', 'stdsum_vol', 'maxsum_vol', 'minsum_vol', 'Osum_vol', 'ORRsum_vol', 'Rsum_vol', 'ORsum_vol', 'meanval', 'stdval', 'maxval', 'minval', 'Oval', 'meanacum_val', 'stdacum_val', 'maxacum_val', 'minacum_val', 'Oacum_val', 'ORRacum_val', 'Racum_val', 'ORacum_val', 'meansd', 'stdsd', 'maxsd', 'minsd', 'Osd', 'ORRsd', 'Rsd', 'ORsd', 'meanval_sd', 'stdval_sd', 'maxval_sd', 'minval_sd', 'Oval_sd', 'meanpbu', 'stdpbu', 'maxpbu', 'minpbu', 'Opbu', 'ORRpbu', 'Rpbu', 'ORpbu', 'meanpsd', 'stdpsd', 'maxpsd', 'minpsd', 'Opsd', 'ORRpsd', 'Rpsd', 'ORpsd', 'meanpuk', 'stdpuk', 'maxpuk', 'minpuk', 'Opuk', 'ORRpuk', 'Rpuk', 'ORpuk', 'meanbs', 'stdbs', 'maxbs', 'minbs', 'Obs', 'ORRbs', 'Rbs', 'ORbs', 'meansb', 'stdsb', 'maxsb', 'minsb', 'Osb', 'ORRsb', 'Rsb', 'ORsb', 'meanabu', 'stdabu', 'maxabu', 'minabu', 'Oabu', 'ORRabu', 'Rabu', 'ORabu', 'meanasd', 'stdasd', 'maxasd', 'minasd', 'Oasd', 'ORRasd', 'Rasd', 'ORasd', 'meanauk', 'stdauk', 'maxauk', 'minauk', 'Oauk', 'ORRauk', 'Rauk', 'ORauk', 'meanrsd', 'stdrsd', 'maxrsd', 'minrsd', 'Orsd', 'ORRrsd', 'Rrsd', 'ORrsd', 'meanrbu', 'stdrbu', 'maxrbu', 'minrbu', 'Orbu', 'ORRrbu', 'Rrbu', 'ORrbu', 'meanbu-sd', 'stdbu-sd', 'maxbu-sd', 'minbu-sd', 'Obu-sd', 'ORRbu-sd', 'Rbu-sd', 'ORbu-sd', 'meanbu-sd_val', 'stdbu-sd_val', 'maxbu-sd_val', 'minbu-sd_val', 'Obu-sd_val', 'ORRbu-sd_val', 'Rbu-sd_val', 'ORbu-sd_val', 'meanacum_busd', 'stdacum_busd', 'maxacum_busd', 'minacum_busd', 'Oacum_busd', 'ORRacum_busd', 'Racum_busd', 'ORacum_busd', 'meanacum_busd_val', 'stdacum_busd_val', 'maxacum_busd_val', 'minacum_busd_val', 'Oacum_busd_val', 'ORRacum_busd_val', 'Racum_busd_val', 'ORacum_busd_val', 'meanacum_val_bu', 'stdacum_val_bu', 'maxacum_val_bu', 'minacum_val_bu', 'Oacum_val_bu', 'ORRacum_val_bu', 'Racum_val_bu', 'ORacum_val_bu', 'meanacum_val_sd', 'stdacum_val_sd', 'maxacum_val_sd', 'minacum_val_sd', 'Oacum_val_sd', 'ORRacum_val_sd', 'Racum_val_sd', 'ORacum_val_sd', 'meanrbusd', 'stdrbusd', 'maxrbusd', 'minrbusd', 'Orbusd', 'ORRrbusd', 'Rrbusd', 'ORrbusd', 'meanuk', 'stduk', 'maxuk', 'minuk', 'Ouk', 'ORRuk', 'Ruk', 'ORuk', 'meanval_uk', 'stdval_uk', 'maxval_uk', 'minval_uk', 'Oval_uk', 'meanruk', 'stdruk', 'maxruk', 'minruk', 'Oruk', 'ORRruk', 'Rruk', 'ORruk', 'rbu', 'uk', 'val_uk', 'ruk']
               oulier.forEach(
                 oe => {
                   let keys = Object.keys(oe);
@@ -1304,8 +1312,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
     if (floor == undefined) floor = "UKN";
 
     // console.log(floor)
-    let session = options.session;
-    if (session == undefined) session = 2000;
+    // let session = options.session;
+    let session = Config.muaban()["session"]
+    if (session == undefined) session = 20;
     // if (symbol == "CEO") {
     // console.table(x)
     // }
@@ -1327,6 +1336,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         return val;
       }
 
+      let sumField = Config.muaban()["sumField"];
+      // console.log(session,symbol,Object.keys(dataModel))
       if (dataModel.loaded == undefined || dataModel[session][symbol] == undefined) {
 
         // console.log(dirAll + symbol + "_" + floor + interval + ".json", fs.existsSync(dirAll + symbol + "_" + floor + interval + ".json"))
@@ -1344,9 +1355,14 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         }
 
         out = out.filter(e => e.datetime >= fromDate.getTime())
-        let dataOut = sessionData.map(e => out.slice(0, e))
+        // let dataOut = sessionData.map(e => out.slice(0, e))
+        let dataOut = sessionData.map(e => {
+          let today = new Date();
+          let xDayAgo = new Date(today);
+          xDayAgo.setDate(today.getDate() - e);
+          return out.filter(e => e.datetime >= xDayAgo.getTime());
+        })
         let outa = {};
-
         sessionData.forEach(
           (ss, i) => {
             let outs = dataOut[i];
@@ -1356,6 +1372,11 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
               let std = stats.stdev(outa[k])
               let max = Math.max(...outa[k])
               let min = Math.min(...outa[k])
+              let includes = sumField.includes(k);
+              let sum = 0;
+              if(includes){
+                sum = outa[k].reduce((a,b)=>a+b,0)
+              }
 
               if (symbol == "CEO") {
                 // console.log("max" +k, max, "min" +k, min)
@@ -1370,6 +1391,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
                 dataModel[ss][symbol]["std" + k] = Math.floor(std * 10000) / 10000;
                 dataModel[ss][symbol]["max" + k] = max;
                 dataModel[ss][symbol]["min" + k] = min;
+                if(includes){
+                  dataModel[ss][symbol]["sum" + k] = sum;
+                }
               }
               if (ss == session) {
                 // let threshold = options.threshold;
@@ -1389,6 +1413,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
                   if (e["O" + k] > 0 || e["OR" + k] > 0) {
                     // console.table([e])
                   }
+                  if(includes){
+                    dataModel[ss][symbol]["sum" + k] = sum;
+                  }                  
                 }
               }
             })
@@ -1396,8 +1423,13 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         )
 
         if (outa['c'] != undefined) {
+          // console.log(symbol, outa['c'])
+
+
           const bb = { period: 20, stdDev: 2, values: outa['c'] };
+
           var bbo = BollingerBands.calculate(bb);
+          console.log(symbol, bbo.at(0), bbo.at(-1))
           let bbe = bbo.at(0);
           x.forEach((e, i) => {
             bbe = bbo.at(x.length - i);
@@ -1411,7 +1443,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
             })
           })
         }
-        dataModel['c'] = outa['c'].slice(0, Math.min(40, outa['c'].length));
+        dataModel[session][symbol]['BBData'] = outa['c'].slice(0, Math.min(40, outa['c'].length));
 
       } else {
 
@@ -1424,11 +1456,17 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         // console.table(mdd)
 
 
+        
 
         key.forEach(k => {
           let mean = mdd["mean" + k];
           let std = mdd["std" + k];
-
+          let sum = 0;
+          
+          if(includes){
+            let outk = out.map(e => check(e[k]));
+            sum = outk.reduce((a,b)=>a+b,0)
+          }
           for (let e of x) {
             e["mean" + k] = Math.floor(mean * 100) / 100;
             e["std" + k] = Math.floor(std * 100) / 100;

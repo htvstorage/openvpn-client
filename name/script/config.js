@@ -13,11 +13,24 @@ Config.filter = function () {
 }
 
 Config.muaban = function () {
-    let conf = {}    
+    let conf = {}
     conf["OutlierThreshold"] = 10;
     conf["StdThreshold"] = 1.6;
-    conf["enableWriteXlsxSymbol"] = false;
+    conf["enableWriteXlsxSymbol"] = true;
     conf["uppct"] = 4;
     conf["downpct"] = -5;
+    conf["session"] = 3;
+    //yyyy,month,day monthn 0-11 day 1-31
+    conf["sessionFromDate"] = new Date(2023, 3, 1);
+    
+    conf["sumField"] = ['val_bu', 'val_sd', 'val_uk', 'sd', 'bu', 'uk','val','sum_vol','bu-sd_val','bu-sd']
+    return conf;
+}
+
+
+Config.muabanSum = function () {
+    let conf = {}
+    conf["sumFromDate"] = new Date(2023, 3, 18); 
+    conf["sumField"] = ['val_bu', 'val_sd', 'val_uk', 'sd', 'bu', 'uk','val','sum_vol','bu-sd_val','bu-sd']   
     return conf;
 }
