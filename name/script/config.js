@@ -30,7 +30,8 @@ Config.muaban = function () {
 
 Config.muabanSum = function () {
     let conf = {}
-    conf["sumFromDate"] = new Date(2023, 3, 18); 
+    conf["sumFromDate"] = new Date(2023, 2, 18); 
+    conf["sumToDate"] = new Date(2023, 3, 27); new Date(Date.now() + (24)*60*60*1000); 
     conf["sumField"] = ['val_bu', 'val_sd', 'val_uk', 'sd', 'bu', 'uk','val','sum_vol','bu-sd_val','bu-sd']   
     return conf;
 }

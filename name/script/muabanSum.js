@@ -63,6 +63,7 @@ let check = (val) => {
 
     let sumField = Config.muabanSum()["sumField"];
     let sumFromDate = Config.muabanSum()["sumFromDate"];
+    let sumToDate = Config.muabanSum()["sumToDate"];
     let data = []
     for (let e of symbolFiles) {
         // console.log(e)
@@ -84,7 +85,7 @@ let check = (val) => {
         })
         stat.res++;
         // console.log(e.symbol, out.length)
-        out = out.filter(e => e.datetime >= sumFromDate.getTime())
+        out = out.filter(e => e.datetime >= sumFromDate.getTime()).filter(e=>e.datetime<=sumToDate.getTime())
         // console.log(e.symbol, out.length)
         // console.table(out[0])
         let sumSymbol = { symbol: e.symbol }
