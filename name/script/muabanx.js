@@ -1413,9 +1413,9 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
                   if (e["O" + k] > 0 || e["OR" + k] > 0) {
                     // console.table([e])
                   }
-                  if(includes){
-                    dataModel[ss][symbol]["sum" + k] = sum;
-                  }                  
+                  // if(includes){
+                  //   dataModel[ss][symbol]["sum" + k] = sum;
+                  // }                  
                 }
               }
             })
@@ -1429,7 +1429,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
           const bb = { period: 20, stdDev: 2, values: outa['c'] };
 
           var bbo = BollingerBands.calculate(bb);
-          console.log(symbol, bbo.at(0), bbo.at(-1))
+          // console.log(symbol, bbo.at(0), bbo.at(-1))
           let bbe = bbo.at(0);
           x.forEach((e, i) => {
             bbe = bbo.at(x.length - i);
@@ -1443,7 +1443,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
             })
           })
         }
-        dataModel[session][symbol]['BBData'] = outa['c'].slice(0, Math.min(40, outa['c'].length));
+        // dataModel[session][symbol]['BBData'] = outa['c'].slice(0, Math.min(40, outa['c'].length));
 
       } else {
 
@@ -1462,7 +1462,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
           let mean = mdd["mean" + k];
           let std = mdd["std" + k];
           let sum = 0;
-          
+          let includes = sumField.includes(k);
           if(includes){
             let outk = out.map(e => check(e[k]));
             sum = outk.reduce((a,b)=>a+b,0)

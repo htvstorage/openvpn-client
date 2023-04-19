@@ -19,9 +19,9 @@ Config.muaban = function () {
     conf["enableWriteXlsxSymbol"] = true;
     conf["uppct"] = 4;
     conf["downpct"] = -5;
-    conf["session"] = 3;
+    conf["session"] = 20;
     //yyyy,month,day monthn 0-11 day 1-31
-    conf["sessionFromDate"] = new Date(2023, 3, 1);
+    conf["sessionFromDate"] = new Date(2023, 2, 1);
     
     conf["sumField"] = ['val_bu', 'val_sd', 'val_uk', 'sd', 'bu', 'uk','val','sum_vol','bu-sd_val','bu-sd']
     return conf;
@@ -30,8 +30,16 @@ Config.muaban = function () {
 
 Config.muabanSum = function () {
     let conf = {}
-    conf["sumFromDate"] = new Date(2023, 2, 18); 
+    conf["sumFromDate"] = new Date(2023, 2, 14); 
     conf["sumToDate"] = new Date(2023, 3, 27); new Date(Date.now() + (24)*60*60*1000); 
     conf["sumField"] = ['val_bu', 'val_sd', 'val_uk', 'sd', 'bu', 'uk','val','sum_vol','bu-sd_val','bu-sd']   
+    return conf;
+}
+
+Config.muabanRaw = function () {
+    let conf = {}
+    conf["sumFromDate"] = new Date(2023, 2, 14); 
+    conf["sumToDate"] = new Date(2023, 3, 27); new Date(Date.now() + (24)*60*60*1000); 
+    conf["sort"] = ['val_bu', 'val_sd', 'val_uk', 'sd', 'bu', 'uk','val','sum_vol','bu-sd_val','bu-sd']   
     return conf;
 }
