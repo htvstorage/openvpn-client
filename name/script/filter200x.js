@@ -584,6 +584,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let hl = days.map((e, i) => { return [...datax[i].map(e => e.priceHigh), ...datax[i].map(e => e.priceLow)] })
   let hlp = days.map((e, i) => { return [...datax[i].map(e => (e.priceHigh - e.priceBasic) * 100 / e.priceBasic), ...datax[i].map(e => (e.priceLow - e.priceBasic) * 100 / e.priceBasic)] })
   let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
+  let cpm = days.map((e, i) => {
+    let aa= [...datax[i].map(e => e.priceClose)] ;
+    let mean = aa.reduce((a,b)=>a+b,0)/aa.length;
+    aa = aa.map(e=>e/mean)
+    return aa })
   let o = days.map((e, i) => { return [...datax[i].map(e => e.priceOpen)] })
   let b = days.map((e, i) => { return [...datax[i].map(e => e.priceBasic)] })
   let cp = days.map((e, i) => { return [...datax[i].map(e => (e.priceClose - e.priceBasic) * 100 / e.priceBasic)] })
@@ -613,6 +618,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     BSSL: BSSL,
     BSQ: BSQ,
     C: c,
+    CPM: cpm,
     HL: hl,
     CP: cp,
     HLP: hlp,
@@ -737,7 +743,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
         avg["std" + me + e] = Math.floor(std * 100) / 100;
         avg["stdR" + me + e] = Math.floor(std / Math.abs(mean) * 1000000) / 1000000;
         avg["stdM" + me + e] = Math.floor(std / minEnd * 1000000) / 1000000;
-        avg["stdMM" + me + e] = Math.floor(std * mean / minEnd * 1000000) / 1000000;
+        // avg["stdMM" + me + e] = Math.floor(std * mean / minEnd * 1000000) / 1000000;
         avg["O" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate)) - threshold * std) * 100) / 100;
         avg["ORR" + me + e] = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate)) / std) * 100) / 100;
         avg["R" + me + e] = Math.floor((m[me][i].at(-1 - checkDate) / mean) * 100) / 100;
