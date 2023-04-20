@@ -823,6 +823,10 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   })
 
 
+  avg["RSVol" + shortPeriods[0]+"/"+shortPeriods[1]] = smaVol[0].at(checkDate)/ smaVol[1].at(checkDate)
+  avg["RSVol" + shortPeriods[0]+"/"+shortPeriods[2]] = smaVol[0].at(checkDate)/ smaVol[2].at(checkDate)
+  avg["RSVol" + shortPeriods[0]+"/"+shortPeriods.at(-1)] = smaVol[0].at(checkDate)/ smaVol.at(-1).at(checkDate)
+
   var inputRSI = {
     values: prices,
     period: 14

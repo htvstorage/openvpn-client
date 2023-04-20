@@ -108,8 +108,6 @@ async () => {
 
     }
 
-
-
     writeArrayJson2Xlsx("Sum.xlsx", data)
 
 }
@@ -117,9 +115,10 @@ async () => {
 
 (async function (a, b) {
 
-    let dateFrom = new Date(2023, 1, 1)
+    let dateFrom = new Date(2023, 3, 1)
     let dateTo = new Date(2023, 3, 20)
-    let dateShortFrom = new Date(2023, 3, 16)
+    let dateShortFrom = new Date(2023, 3, 19)
+    let meanvolLow = 50000;
     console.log("AVC", a, b)
     let check = (val) => {
         if (val == undefined || Number.isNaN(val)) {
@@ -127,7 +126,7 @@ async () => {
         }
         return val;
     }
-    const jsfiles = await glob('./trans/*/*.txt', { ignore: 'trans/20230419/*' })
+    const jsfiles = await glob('./trans/*/*.txt', { ignore: 'trans/20230420/*' })
     let mapFiles = {}
     let totalFiles = 0;
 
@@ -187,7 +186,7 @@ async () => {
         let head = data[0];
         head = head.map(e => e.replaceAll("\"", ""));
         data = data.slice(1);
-        if(data.length == 0)  return;
+        if (data.length == 0) return;
         data = data.map(e => {
             let x = {};
             head.forEach((h, i) => {
@@ -240,7 +239,7 @@ async () => {
             let head = data[0];
             head = head.map(e => e.replaceAll("\"", ""));
             data = data.slice(1);
-            if(data.length == 0)  return;
+            if (data.length == 0) return;
             data = data.map(e => {
                 let x = {};
                 head.forEach((h, i) => {
@@ -283,7 +282,7 @@ async () => {
     //Process Data here
     Object.keys(dataStore).forEach((s, i) => {
         let data = dataStore[s];
-        if(data.data.length == 0) return;
+        if (data.data.length == 0) return;
         let map = data.data.map(e => {
             let val = check(e.price) * check(e.match_qtty) * 1000;
             let vol = check(e.match_qtty);
@@ -339,7 +338,7 @@ async () => {
             vol_uk: 0,
         })
 
-        if(map[0] == undefined){
+        if (map[0] == undefined) {
             console.log(s, data.data)
         }
         Object.keys(map[0]).forEach(
@@ -348,7 +347,7 @@ async () => {
                 sum["mean" + k] = Math.floor(sum[k] / data.days * 100) / 100;
                 sum["meanShort" + k] = Math.floor(sumShort[k] / data.shortDays * 100) / 100;
                 sum["Short" + k] = sumShort[k]
-                sum["Ratio" + k] = Math.floor(sum["meanShort" + k]/sum["mean" + k]  * 100) / 100;
+                sum["Ratio" + k] = Math.floor(sum["meanShort" + k] / sum["mean" + k] * 100) / 100;
             }
         )
 
@@ -360,22 +359,22 @@ async () => {
     })
     let out1 = Object.values(out)
 
-    
+    out1 = out1.filter(e=>e['meanvol']>meanvolLow)
     let sortKey = 'Ratioval'
     out1.sort((a, b) => {
         return b[sortKey] - a[sortKey]
     })
-    out1 = out1.map(e=>{
+    out1 = out1.map(e => {
         let e1 = {}
         e1.symbol = e.symbol;
-        Object.keys(e).filter(e=>e!= "symbol").forEach(k=>{
-            e1[k] =e[k]
+        Object.keys(e).filter(e => e != "symbol").forEach(k => {
+            e1[k] = e[k]
         })
         return e1;
     })
     console.table(out1)
 
-    writeArrayJson2Xlsx("SumRaw.xlsx",out1);
+    writeArrayJson2Xlsx("SumRaw.xlsx", out1);
 })(1, 2)
 
 
