@@ -269,7 +269,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
 })();
 
-
+let symbolVal = Config.muaban()["symbolVal"]
 
 async function processData() {
   let dir = "./trans/";
@@ -843,7 +843,7 @@ async function processData() {
               let newOutlier = [];
               let priceUP = {};
               let priceDOWN = [];
-              let fix = ['symbol', 'busd', 'Name', 'pctmeanc', 'meanc', 'c1', 'pct1', 'pct', '%maxc', '%minc', 'Rval_bu', 'Rval_sd', 'c', 'change', 'h', 'l', 'o', 'bu', 'val_bu', 'sd', 'val_sd', 'total_vol', 'sum_vol', 'val', 'acum_val', 'datetime', 'date', 'ORRval_bu', 'ORval_bu', 'ORRval', 'Rval', 'ORval', 'ORRval_sd', 'ORval_sd', 'ORRval_uk', 'Rval_uk', 'ORval_uk', 'pbu', 'psd', 'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'bu-sd', 'bu-sd_val', 'avg_val_bu', 'avg_val_sd', 'acum_busd', 'acum_busd_val', 'acum_val_bu', 'acum_val_sd', 'rbusd', 'meanc', 'stdc', 'maxc', 'minc', 'Oc', 'ORRc', 'Rc', 'ORc', 'meanh', 'stdh', 'maxh', 'minh', 'Oh', 'ORRh', 'Rh', 'ORh', 'meanl', 'stdl', 'maxl', 'minl', 'Ol', 'ORRl', 'Rl', 'ORl', 'meano', 'stdo', 'maxo', 'mino', 'Oo', 'ORRo', 'Ro', 'ORo', 'meanbu', 'stdbu', 'maxbu', 'minbu', 'Obu', 'ORRbu', 'Rbu', 'ORbu', 'meanval_bu', 'stdval_bu', 'maxval_bu', 'minval_bu', 'Oval_bu', 'meantotal_vol', 'stdtotal_vol', 'maxtotal_vol', 'mintotal_vol', 'Ototal_vol', 'ORRtotal_vol', 'Rtotal_vol', 'ORtotal_vol', 'meansum_vol', 'stdsum_vol', 'maxsum_vol', 'minsum_vol', 'Osum_vol', 'ORRsum_vol', 'Rsum_vol', 'ORsum_vol', 'meanval', 'stdval', 'maxval', 'minval', 'Oval', 'meanacum_val', 'stdacum_val', 'maxacum_val', 'minacum_val', 'Oacum_val', 'ORRacum_val', 'Racum_val', 'ORacum_val', 'meansd', 'stdsd', 'maxsd', 'minsd', 'Osd', 'ORRsd', 'Rsd', 'ORsd', 'meanval_sd', 'stdval_sd', 'maxval_sd', 'minval_sd', 'Oval_sd', 'meanpbu', 'stdpbu', 'maxpbu', 'minpbu', 'Opbu', 'ORRpbu', 'Rpbu', 'ORpbu', 'meanpsd', 'stdpsd', 'maxpsd', 'minpsd', 'Opsd', 'ORRpsd', 'Rpsd', 'ORpsd', 'meanpuk', 'stdpuk', 'maxpuk', 'minpuk', 'Opuk', 'ORRpuk', 'Rpuk', 'ORpuk', 'meanbs', 'stdbs', 'maxbs', 'minbs', 'Obs', 'ORRbs', 'Rbs', 'ORbs', 'meansb', 'stdsb', 'maxsb', 'minsb', 'Osb', 'ORRsb', 'Rsb', 'ORsb', 'meanabu', 'stdabu', 'maxabu', 'minabu', 'Oabu', 'ORRabu', 'Rabu', 'ORabu', 'meanasd', 'stdasd', 'maxasd', 'minasd', 'Oasd', 'ORRasd', 'Rasd', 'ORasd', 'meanauk', 'stdauk', 'maxauk', 'minauk', 'Oauk', 'ORRauk', 'Rauk', 'ORauk', 'meanrsd', 'stdrsd', 'maxrsd', 'minrsd', 'Orsd', 'ORRrsd', 'Rrsd', 'ORrsd', 'meanrbu', 'stdrbu', 'maxrbu', 'minrbu', 'Orbu', 'ORRrbu', 'Rrbu', 'ORrbu', 'meanbu-sd', 'stdbu-sd', 'maxbu-sd', 'minbu-sd', 'Obu-sd', 'ORRbu-sd', 'Rbu-sd', 'ORbu-sd', 'meanbu-sd_val', 'stdbu-sd_val', 'maxbu-sd_val', 'minbu-sd_val', 'Obu-sd_val', 'ORRbu-sd_val', 'Rbu-sd_val', 'ORbu-sd_val', 'meanacum_busd', 'stdacum_busd', 'maxacum_busd', 'minacum_busd', 'Oacum_busd', 'ORRacum_busd', 'Racum_busd', 'ORacum_busd', 'meanacum_busd_val', 'stdacum_busd_val', 'maxacum_busd_val', 'minacum_busd_val', 'Oacum_busd_val', 'ORRacum_busd_val', 'Racum_busd_val', 'ORacum_busd_val', 'meanacum_val_bu', 'stdacum_val_bu', 'maxacum_val_bu', 'minacum_val_bu', 'Oacum_val_bu', 'ORRacum_val_bu', 'Racum_val_bu', 'ORacum_val_bu', 'meanacum_val_sd', 'stdacum_val_sd', 'maxacum_val_sd', 'minacum_val_sd', 'Oacum_val_sd', 'ORRacum_val_sd', 'Racum_val_sd', 'ORacum_val_sd', 'meanrbusd', 'stdrbusd', 'maxrbusd', 'minrbusd', 'Orbusd', 'ORRrbusd', 'Rrbusd', 'ORrbusd', 'meanuk', 'stduk', 'maxuk', 'minuk', 'Ouk', 'ORRuk', 'Ruk', 'ORuk', 'meanval_uk', 'stdval_uk', 'maxval_uk', 'minval_uk', 'Oval_uk', 'meanruk', 'stdruk', 'maxruk', 'minruk', 'Oruk', 'ORRruk', 'Rruk', 'ORruk', 'rbu', 'uk', 'val_uk', 'ruk']
+              let fix = ['symbol', 'busd', 'Name', 'profit', 'pctmeanc', 'meanc', 'c1', 'pct1', 'pct', '%maxc', '%minc', 'Rval_bu', 'Rval_sd', 'c', 'change', 'h', 'l', 'o', 'bu', 'val_bu', 'sd', 'val_sd', 'total_vol', 'sum_vol', 'val', 'acum_val', 'datetime', 'date', 'ORRval_bu', 'ORval_bu', 'ORRval', 'Rval', 'ORval', 'ORRval_sd', 'ORval_sd', 'ORRval_uk', 'Rval_uk', 'ORval_uk', 'pbu', 'psd', 'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'bu-sd', 'bu-sd_val', 'avg_val_bu', 'avg_val_sd', 'acum_busd', 'acum_busd_val', 'acum_val_bu', 'acum_val_sd', 'rbusd', 'meanc', 'stdc', 'maxc', 'minc', 'Oc', 'ORRc', 'Rc', 'ORc', 'meanh', 'stdh', 'maxh', 'minh', 'Oh', 'ORRh', 'Rh', 'ORh', 'meanl', 'stdl', 'maxl', 'minl', 'Ol', 'ORRl', 'Rl', 'ORl', 'meano', 'stdo', 'maxo', 'mino', 'Oo', 'ORRo', 'Ro', 'ORo', 'meanbu', 'stdbu', 'maxbu', 'minbu', 'Obu', 'ORRbu', 'Rbu', 'ORbu', 'meanval_bu', 'stdval_bu', 'maxval_bu', 'minval_bu', 'Oval_bu', 'meantotal_vol', 'stdtotal_vol', 'maxtotal_vol', 'mintotal_vol', 'Ototal_vol', 'ORRtotal_vol', 'Rtotal_vol', 'ORtotal_vol', 'meansum_vol', 'stdsum_vol', 'maxsum_vol', 'minsum_vol', 'Osum_vol', 'ORRsum_vol', 'Rsum_vol', 'ORsum_vol', 'meanval', 'stdval', 'maxval', 'minval', 'Oval', 'meanacum_val', 'stdacum_val', 'maxacum_val', 'minacum_val', 'Oacum_val', 'ORRacum_val', 'Racum_val', 'ORacum_val', 'meansd', 'stdsd', 'maxsd', 'minsd', 'Osd', 'ORRsd', 'Rsd', 'ORsd', 'meanval_sd', 'stdval_sd', 'maxval_sd', 'minval_sd', 'Oval_sd', 'meanpbu', 'stdpbu', 'maxpbu', 'minpbu', 'Opbu', 'ORRpbu', 'Rpbu', 'ORpbu', 'meanpsd', 'stdpsd', 'maxpsd', 'minpsd', 'Opsd', 'ORRpsd', 'Rpsd', 'ORpsd', 'meanpuk', 'stdpuk', 'maxpuk', 'minpuk', 'Opuk', 'ORRpuk', 'Rpuk', 'ORpuk', 'meanbs', 'stdbs', 'maxbs', 'minbs', 'Obs', 'ORRbs', 'Rbs', 'ORbs', 'meansb', 'stdsb', 'maxsb', 'minsb', 'Osb', 'ORRsb', 'Rsb', 'ORsb', 'meanabu', 'stdabu', 'maxabu', 'minabu', 'Oabu', 'ORRabu', 'Rabu', 'ORabu', 'meanasd', 'stdasd', 'maxasd', 'minasd', 'Oasd', 'ORRasd', 'Rasd', 'ORasd', 'meanauk', 'stdauk', 'maxauk', 'minauk', 'Oauk', 'ORRauk', 'Rauk', 'ORauk', 'meanrsd', 'stdrsd', 'maxrsd', 'minrsd', 'Orsd', 'ORRrsd', 'Rrsd', 'ORrsd', 'meanrbu', 'stdrbu', 'maxrbu', 'minrbu', 'Orbu', 'ORRrbu', 'Rrbu', 'ORrbu', 'meanbu-sd', 'stdbu-sd', 'maxbu-sd', 'minbu-sd', 'Obu-sd', 'ORRbu-sd', 'Rbu-sd', 'ORbu-sd', 'meanbu-sd_val', 'stdbu-sd_val', 'maxbu-sd_val', 'minbu-sd_val', 'Obu-sd_val', 'ORRbu-sd_val', 'Rbu-sd_val', 'ORbu-sd_val', 'meanacum_busd', 'stdacum_busd', 'maxacum_busd', 'minacum_busd', 'Oacum_busd', 'ORRacum_busd', 'Racum_busd', 'ORacum_busd', 'meanacum_busd_val', 'stdacum_busd_val', 'maxacum_busd_val', 'minacum_busd_val', 'Oacum_busd_val', 'ORRacum_busd_val', 'Racum_busd_val', 'ORacum_busd_val', 'meanacum_val_bu', 'stdacum_val_bu', 'maxacum_val_bu', 'minacum_val_bu', 'Oacum_val_bu', 'ORRacum_val_bu', 'Racum_val_bu', 'ORacum_val_bu', 'meanacum_val_sd', 'stdacum_val_sd', 'maxacum_val_sd', 'minacum_val_sd', 'Oacum_val_sd', 'ORRacum_val_sd', 'Racum_val_sd', 'ORacum_val_sd', 'meanrbusd', 'stdrbusd', 'maxrbusd', 'minrbusd', 'Orbusd', 'ORRrbusd', 'Rrbusd', 'ORrbusd', 'meanuk', 'stduk', 'maxuk', 'minuk', 'Ouk', 'ORRuk', 'Ruk', 'ORuk', 'meanval_uk', 'stdval_uk', 'maxval_uk', 'minval_uk', 'Oval_uk', 'meanruk', 'stdruk', 'maxruk', 'minruk', 'Oruk', 'ORRruk', 'Rruk', 'ORruk', 'rbu', 'uk', 'val_uk', 'ruk']
               oulier.forEach(
                 oe => {
                   let keys = Object.keys(oe);
@@ -875,17 +875,26 @@ async function processData() {
                   //   }
                   //   ])
                   // }
-
+                  let profit = symbolVal[oen["symbol"]]
+                  if (profit != undefined) {
+                    oen["profit"] = profit;
+                  }
 
                   if ((oe["Rval_bu"] >= threshold && oe["Oval_bu"] > 0) && (oe.busd == 'BU' || oe.busd == 'UKN'))
                     newOutlierBU.push(oen)
                   if (oe["Rval_sd"] >= threshold && oe["Oval_sd"] > 0 && oe.busd == 'SD')
                     newOutlierSD.push(oen)
-                  if (oe["pct"] >= uppct)
-                    // priceUP.push(oen)
-                    priceUP[oen["symbol"]] = oen
-                  if (oe["pct"] <= downpct)
-                    priceDOWN[oen["symbol"]] = oen
+                  if (oe["pct"] >= uppct) {
+                    if (profit != undefined) {
+                      priceUP[oen["symbol"]] = oen
+                    }
+                  }
+
+                  if (oe["pct"] <= downpct) {
+                    if (profit != undefined) {
+                      priceDOWN[oen["symbol"]] = oen
+                    }
+                  }
                   newOutlier.push(oen)
                 }
               )
