@@ -843,7 +843,8 @@ Exchange.TCBS = function () {
 
 
 Exchange.TCBS.intraday = async function (code) {
-  let a = await fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page=0&size=2000000&headIndex=-1", {
+  let size = 100;
+  let a = await fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page=0&size=100&headIndex=-1", {
     "headers": {
       "accept": "application/json",
       "accept-language": "vi",
@@ -859,10 +860,38 @@ Exchange.TCBS.intraday = async function (code) {
     "mode": "cors",
     agent
   });
-
+  let all = []
   let data = await a.json();
-  // console.table(data.data)
-  return { Code: code, data: data.data };
+  all.push(...data.data)
+  let page = data.total/size;
+  if(page > 1){
+    // console.log(page)
+    for(let i=1;i<=page+1;i++){
+      a = await fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page="+i+"&size=100&headIndex=-1", {
+        "headers": {
+          "accept": "application/json",
+          "accept-language": "vi",
+          "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoZW5fc2VydmljZSIsImV4cCI6MTY3NTk2NDQzNiwianRpIjoiIiwiaWF0IjoxNjc1OTM1NjM2LCJzdWIiOiIxMDAwMDM2Nzk2NCIsImN1c3RvZHlJRCI6IjEwNUNENjQ5ODgiLCJlbWFpbCI6IlRSSU5IVkFOSFVOR0BHTUFJTC5DT00iLCJyb2xlcyI6WyJjdXN0b21lciJdLCJzdGVwdXBfZXhwIjowLCJzb3RwX3NpZ24iOiIiLCJjbGllbnRfa2V5IjoiMTAwMDAzNjc5NjQuQWFrSzlTSWNPVnFWR1lwYkVFZXMiLCJzZXNzaW9uSUQiOiIxYzRkNTkwNS1jOWFiLTQ2NTItOTUwYi03NzM0NTM3MDkzNjciLCJhY2NvdW50X3N0YXR1cyI6IjEiLCJvdHAiOiIiLCJvdHBUeXBlIjoiIiwib3RwU291cmNlIjoiVENJTlZFU1QiLCJvdHBTZXNzaW9uSWQiOiIifQ.9OhqnK7Msi_JC7VMT6AXLcihhZjdE7YZeRrZdNiw6__JgxNe_Q7f2UYqgIMd-blN8bo6FUOVJSMA9V8vRtQrtAc8FdBXYhz6p8_-bAlA78qZmwfn7AUHdGbZW5_bO6NDrk9Y_hhakROlehcqVHuDbZwNuJHQgoH-qsF0Gnqamt0povTNoCx-Lq8-_CSSxFHRriAURWk_l2SLFciPIBLOnmnrT8RNwg4lPMX3NY7bLKokUJinQP32iJeegMhGnuVfYn7nlWGhMFhQGfFJIP1aE3z_m-8KpZwJAAN6VlWAKSpN_v1aaLMqQn6ol6KkZh2KEyEz_hPwOPFAyawBMenyXw",
+          "content-type": "application/json",
+          "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+          "sec-ch-ua-mobile": "?0"
+        },
+        "referrer": "https://tcinvest.tcbs.com.vn/",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "body": null,
+        "method": "GET",
+        "mode": "cors",
+        agent
+      });
+      data = await a.json();
+      all.push(...data.data)
+      if(i == Math.floor(page)){
+        // console.table(data.data)
+      }
+    }
+  }
+  // console.table(data)
+  return { Code: code, data: all };
 }
 
 
