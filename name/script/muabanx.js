@@ -447,6 +447,7 @@ async function processData() {
       });
     })
 
+    let strdate = datekey.slice(0, 4) + "-" + datekey.slice(4, 6) + "-" + datekey.slice(6);
 
     promise.then(res => {
       p.res++;
@@ -483,6 +484,7 @@ async function processData() {
         // let res = 0; 
         let accum = 0;
         let uppct = Config.muaban()["uppct"]
+        let toppct = Config.muaban()["toppct"]
         let downpct = Config.muaban()["downpct"]
 
         Object.keys(res).forEach((symbol, index) => {
@@ -508,7 +510,7 @@ async function processData() {
               e.date = (new Date(k)).toISOString();
               count++;
               if (options.outlier) {
-                if (v["Oval_bu"] > 0 || v["Oval_sd"] > 0 || v["pct"] >= uppct || v["pct"] <= downpct) {
+                if (v["Oval_bu"] > 0 || v["Oval_sd"] > 0 || v["pct"] >= uppct || v["pct"] <= downpct || v["pct"] >= toppct) {
                   // let BUSD = v["Oval_bu"] > 0 ? (v["Oval_sd"] > 0 ? "UKN" : "BU") : "SD"
                   let BUSD = v["val_bu"] > v["val_sd"] ? "BU" : "SD"
                   let p = stockdata[symbol]
@@ -520,6 +522,7 @@ async function processData() {
                     // if (v["maxc"] < 1000) v["maxc"] = v["maxc"] * 1000;
                     // if (v["minc"] < 1000) v["minc"] = v["minc"] * 1000;
                     add.pct1 = Math.floor((p.lastPrice - v.c) / v.c * 10000) / 100;
+                    add.pctc = Math.floor((p.lastPrice - v.c + v.change) / (v.c - v.change) * 10000) / 100;
                     add.pctmeanc = Math.floor((p.lastPrice - v.meanc) / v.meanc * 10000) / 100;
                     add["%maxc"] = Math.floor((v["maxc"] - p.lastPrice) / (p.lastPrice) * 10000) / 100;
                     add["%minc"] = Math.floor((p.lastPrice - v["minc"]) / (p.lastPrice) * 10000) / 100;
@@ -584,7 +587,7 @@ async function processData() {
               e.date = (new Date(k)).toISOString();
               count++;
               if (options.outlier) {
-                if (v["Oval_bu"] > 0 || v["Oval_sd"] > 0 || v["pct"] >= uppct || v["pct"] <= downpct) {
+                if (v["Oval_bu"] > 0 || v["Oval_sd"] > 0 || v["pct"] >= uppct || v["pct"] <= downpct || v["pct"] >= toppct) {
                   // let BUSD = v["Oval_bu"] > 0 ? (v["Oval_sd"] > 0 ? "UKN" : "BU") : "SD"
                   let BUSD = v["val_bu"] > v["val_sd"] ? "BU" : "SD"
                   let p = stockdata[symbol]
@@ -596,6 +599,7 @@ async function processData() {
                     // if (v["maxc"] < 1000) v["maxc"] = v["maxc"] * 1000;
                     // if (v["minc"] < 1000) v["minc"] = v["minc"] * 1000;
                     add.pct1 = Math.floor((p.lastPrice - v.c) / v.c * 10000) / 100;
+                    add.pctc = Math.floor((p.lastPrice - v.c + v.change) / (v.c - v.change) * 10000) / 100;
                     add.pctmeanc = Math.floor((p.lastPrice - v.meanc) / v.meanc * 10000) / 100;
                     add["%maxc"] = Math.floor((v["maxc"] - p.lastPrice) / (p.lastPrice) * 10000) / 100;
                     add["%minc"] = Math.floor((p.lastPrice - v["minc"]) / (p.lastPrice) * 10000) / 100;
@@ -720,7 +724,7 @@ async function processData() {
 
                 // let outs = out.slice(0, session);
                 let dataOut = sessionData.map(e => {
-                  let today = new Date();
+                  let today = new Date(strdate);
                   let xDayAgo = new Date(today);
                   xDayAgo.setDate(today.getDate() - e);
                   return out.filter(e => e.datetime >= xDayAgo.getTime());
@@ -730,6 +734,7 @@ async function processData() {
                 sessionData.forEach((ss, i) => {
                   // console.log(dataOut)
                   let outs = dataOut[i];
+                  // if (outs.length == 0) return;
                   key.forEach(k => {
                     outa[k] = outs.map(e => check(e[k]));
                     let mean = stats.mean(outa[k])
@@ -843,7 +848,9 @@ async function processData() {
               let newOutlier = [];
               let priceUP = {};
               let priceDOWN = [];
-              let fix = ['symbol', 'busd', 'Name', 'profit', 'pctmeanc', 'meanc', 'c1', 'pct1', 'pct', '%maxc', '%minc', 'Rval_bu', 'Rval_sd', 'c', 'change', 'h', 'l', 'o', 'bu', 'val_bu', 'sd', 'val_sd', 'total_vol', 'sum_vol', 'val', 'acum_val', 'datetime', 'date', 'ORRval_bu', 'ORval_bu', 'ORRval', 'Rval', 'ORval', 'ORRval_sd', 'ORval_sd', 'ORRval_uk', 'Rval_uk', 'ORval_uk', 'pbu', 'psd', 'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'bu-sd', 'bu-sd_val', 'avg_val_bu', 'avg_val_sd', 'acum_busd', 'acum_busd_val', 'acum_val_bu', 'acum_val_sd', 'rbusd', 'meanc', 'stdc', 'maxc', 'minc', 'Oc', 'ORRc', 'Rc', 'ORc', 'meanh', 'stdh', 'maxh', 'minh', 'Oh', 'ORRh', 'Rh', 'ORh', 'meanl', 'stdl', 'maxl', 'minl', 'Ol', 'ORRl', 'Rl', 'ORl', 'meano', 'stdo', 'maxo', 'mino', 'Oo', 'ORRo', 'Ro', 'ORo', 'meanbu', 'stdbu', 'maxbu', 'minbu', 'Obu', 'ORRbu', 'Rbu', 'ORbu', 'meanval_bu', 'stdval_bu', 'maxval_bu', 'minval_bu', 'Oval_bu', 'meantotal_vol', 'stdtotal_vol', 'maxtotal_vol', 'mintotal_vol', 'Ototal_vol', 'ORRtotal_vol', 'Rtotal_vol', 'ORtotal_vol', 'meansum_vol', 'stdsum_vol', 'maxsum_vol', 'minsum_vol', 'Osum_vol', 'ORRsum_vol', 'Rsum_vol', 'ORsum_vol', 'meanval', 'stdval', 'maxval', 'minval', 'Oval', 'meanacum_val', 'stdacum_val', 'maxacum_val', 'minacum_val', 'Oacum_val', 'ORRacum_val', 'Racum_val', 'ORacum_val', 'meansd', 'stdsd', 'maxsd', 'minsd', 'Osd', 'ORRsd', 'Rsd', 'ORsd', 'meanval_sd', 'stdval_sd', 'maxval_sd', 'minval_sd', 'Oval_sd', 'meanpbu', 'stdpbu', 'maxpbu', 'minpbu', 'Opbu', 'ORRpbu', 'Rpbu', 'ORpbu', 'meanpsd', 'stdpsd', 'maxpsd', 'minpsd', 'Opsd', 'ORRpsd', 'Rpsd', 'ORpsd', 'meanpuk', 'stdpuk', 'maxpuk', 'minpuk', 'Opuk', 'ORRpuk', 'Rpuk', 'ORpuk', 'meanbs', 'stdbs', 'maxbs', 'minbs', 'Obs', 'ORRbs', 'Rbs', 'ORbs', 'meansb', 'stdsb', 'maxsb', 'minsb', 'Osb', 'ORRsb', 'Rsb', 'ORsb', 'meanabu', 'stdabu', 'maxabu', 'minabu', 'Oabu', 'ORRabu', 'Rabu', 'ORabu', 'meanasd', 'stdasd', 'maxasd', 'minasd', 'Oasd', 'ORRasd', 'Rasd', 'ORasd', 'meanauk', 'stdauk', 'maxauk', 'minauk', 'Oauk', 'ORRauk', 'Rauk', 'ORauk', 'meanrsd', 'stdrsd', 'maxrsd', 'minrsd', 'Orsd', 'ORRrsd', 'Rrsd', 'ORrsd', 'meanrbu', 'stdrbu', 'maxrbu', 'minrbu', 'Orbu', 'ORRrbu', 'Rrbu', 'ORrbu', 'meanbu-sd', 'stdbu-sd', 'maxbu-sd', 'minbu-sd', 'Obu-sd', 'ORRbu-sd', 'Rbu-sd', 'ORbu-sd', 'meanbu-sd_val', 'stdbu-sd_val', 'maxbu-sd_val', 'minbu-sd_val', 'Obu-sd_val', 'ORRbu-sd_val', 'Rbu-sd_val', 'ORbu-sd_val', 'meanacum_busd', 'stdacum_busd', 'maxacum_busd', 'minacum_busd', 'Oacum_busd', 'ORRacum_busd', 'Racum_busd', 'ORacum_busd', 'meanacum_busd_val', 'stdacum_busd_val', 'maxacum_busd_val', 'minacum_busd_val', 'Oacum_busd_val', 'ORRacum_busd_val', 'Racum_busd_val', 'ORacum_busd_val', 'meanacum_val_bu', 'stdacum_val_bu', 'maxacum_val_bu', 'minacum_val_bu', 'Oacum_val_bu', 'ORRacum_val_bu', 'Racum_val_bu', 'ORacum_val_bu', 'meanacum_val_sd', 'stdacum_val_sd', 'maxacum_val_sd', 'minacum_val_sd', 'Oacum_val_sd', 'ORRacum_val_sd', 'Racum_val_sd', 'ORacum_val_sd', 'meanrbusd', 'stdrbusd', 'maxrbusd', 'minrbusd', 'Orbusd', 'ORRrbusd', 'Rrbusd', 'ORrbusd', 'meanuk', 'stduk', 'maxuk', 'minuk', 'Ouk', 'ORRuk', 'Ruk', 'ORuk', 'meanval_uk', 'stdval_uk', 'maxval_uk', 'minval_uk', 'Oval_uk', 'meanruk', 'stdruk', 'maxruk', 'minruk', 'Oruk', 'ORRruk', 'Rruk', 'ORruk', 'rbu', 'uk', 'val_uk', 'ruk']
+              let topDOWN = [];
+              let topUP = [];
+              let fix = ['symbol', 'busd', 'Name', 'profit', 'pctmeanc', 'meanc', 'c1', 'pct1', 'pctc', 'pct', '%maxc', '%minc', 'Rval_bu', 'Rval_sd', 'c', 'change', 'h', 'l', 'o', 'bu', 'val_bu', 'sd', 'val_sd', 'total_vol', 'sum_vol', 'val', 'acum_val', 'datetime', 'date', 'ORRval_bu', 'ORval_bu', 'ORRval', 'Rval', 'ORval', 'ORRval_sd', 'ORval_sd', 'ORRval_uk', 'Rval_uk', 'ORval_uk', 'pbu', 'psd', 'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'bu-sd', 'bu-sd_val', 'avg_val_bu', 'avg_val_sd', 'acum_busd', 'acum_busd_val', 'acum_val_bu', 'acum_val_sd', 'rbusd', 'meanc', 'stdc', 'maxc', 'minc', 'Oc', 'ORRc', 'Rc', 'ORc', 'meanh', 'stdh', 'maxh', 'minh', 'Oh', 'ORRh', 'Rh', 'ORh', 'meanl', 'stdl', 'maxl', 'minl', 'Ol', 'ORRl', 'Rl', 'ORl', 'meano', 'stdo', 'maxo', 'mino', 'Oo', 'ORRo', 'Ro', 'ORo', 'meanbu', 'stdbu', 'maxbu', 'minbu', 'Obu', 'ORRbu', 'Rbu', 'ORbu', 'meanval_bu', 'stdval_bu', 'maxval_bu', 'minval_bu', 'Oval_bu', 'meantotal_vol', 'stdtotal_vol', 'maxtotal_vol', 'mintotal_vol', 'Ototal_vol', 'ORRtotal_vol', 'Rtotal_vol', 'ORtotal_vol', 'meansum_vol', 'stdsum_vol', 'maxsum_vol', 'minsum_vol', 'Osum_vol', 'ORRsum_vol', 'Rsum_vol', 'ORsum_vol', 'meanval', 'stdval', 'maxval', 'minval', 'Oval', 'meanacum_val', 'stdacum_val', 'maxacum_val', 'minacum_val', 'Oacum_val', 'ORRacum_val', 'Racum_val', 'ORacum_val', 'meansd', 'stdsd', 'maxsd', 'minsd', 'Osd', 'ORRsd', 'Rsd', 'ORsd', 'meanval_sd', 'stdval_sd', 'maxval_sd', 'minval_sd', 'Oval_sd', 'meanpbu', 'stdpbu', 'maxpbu', 'minpbu', 'Opbu', 'ORRpbu', 'Rpbu', 'ORpbu', 'meanpsd', 'stdpsd', 'maxpsd', 'minpsd', 'Opsd', 'ORRpsd', 'Rpsd', 'ORpsd', 'meanpuk', 'stdpuk', 'maxpuk', 'minpuk', 'Opuk', 'ORRpuk', 'Rpuk', 'ORpuk', 'meanbs', 'stdbs', 'maxbs', 'minbs', 'Obs', 'ORRbs', 'Rbs', 'ORbs', 'meansb', 'stdsb', 'maxsb', 'minsb', 'Osb', 'ORRsb', 'Rsb', 'ORsb', 'meanabu', 'stdabu', 'maxabu', 'minabu', 'Oabu', 'ORRabu', 'Rabu', 'ORabu', 'meanasd', 'stdasd', 'maxasd', 'minasd', 'Oasd', 'ORRasd', 'Rasd', 'ORasd', 'meanauk', 'stdauk', 'maxauk', 'minauk', 'Oauk', 'ORRauk', 'Rauk', 'ORauk', 'meanrsd', 'stdrsd', 'maxrsd', 'minrsd', 'Orsd', 'ORRrsd', 'Rrsd', 'ORrsd', 'meanrbu', 'stdrbu', 'maxrbu', 'minrbu', 'Orbu', 'ORRrbu', 'Rrbu', 'ORrbu', 'meanbu-sd', 'stdbu-sd', 'maxbu-sd', 'minbu-sd', 'Obu-sd', 'ORRbu-sd', 'Rbu-sd', 'ORbu-sd', 'meanbu-sd_val', 'stdbu-sd_val', 'maxbu-sd_val', 'minbu-sd_val', 'Obu-sd_val', 'ORRbu-sd_val', 'Rbu-sd_val', 'ORbu-sd_val', 'meanacum_busd', 'stdacum_busd', 'maxacum_busd', 'minacum_busd', 'Oacum_busd', 'ORRacum_busd', 'Racum_busd', 'ORacum_busd', 'meanacum_busd_val', 'stdacum_busd_val', 'maxacum_busd_val', 'minacum_busd_val', 'Oacum_busd_val', 'ORRacum_busd_val', 'Racum_busd_val', 'ORacum_busd_val', 'meanacum_val_bu', 'stdacum_val_bu', 'maxacum_val_bu', 'minacum_val_bu', 'Oacum_val_bu', 'ORRacum_val_bu', 'Racum_val_bu', 'ORacum_val_bu', 'meanacum_val_sd', 'stdacum_val_sd', 'maxacum_val_sd', 'minacum_val_sd', 'Oacum_val_sd', 'ORRacum_val_sd', 'Racum_val_sd', 'ORacum_val_sd', 'meanrbusd', 'stdrbusd', 'maxrbusd', 'minrbusd', 'Orbusd', 'ORRrbusd', 'Rrbusd', 'ORrbusd', 'meanuk', 'stduk', 'maxuk', 'minuk', 'Ouk', 'ORRuk', 'Ruk', 'ORuk', 'meanval_uk', 'stdval_uk', 'maxval_uk', 'minval_uk', 'Oval_uk', 'meanruk', 'stdruk', 'maxruk', 'minruk', 'Oruk', 'ORRruk', 'Rruk', 'ORruk', 'rbu', 'uk', 'val_uk', 'ruk']
               oulier.forEach(
                 oe => {
                   let keys = Object.keys(oe);
@@ -890,6 +897,9 @@ async function processData() {
                     }
                   }
 
+                  if (oe["pctc"] >= toppct) {
+                    topUP[oen["symbol"]] = oen
+                  }
                   if (oe["pct"] <= downpct) {
                     if (profit != undefined) {
                       priceDOWN[oen["symbol"]] = oen
@@ -900,12 +910,27 @@ async function processData() {
               )
               priceUP = Object.values(priceUP).sort((a, b) => { return b.datetime - a.datetime })
               priceDOWN = Object.values(priceDOWN).sort((a, b) => { return b.datetime - a.datetime })
+              let topUP_SORT = Object.values(topUP).sort((a, b) => { return b.pct - a.pct })
+              topUP = [...topUP_SORT].sort((a, b) => { return b.datetime - a.datetime })
+              let checkTop = {};
+              let topShort = []
+
+              topUP.forEach(e => {
+                if (checkTop[e["symbol"]] == undefined) {
+                  topShort.push(e)
+                  checkTop[e["symbol"]] = e;
+                }
+              })
+
               let obj = {
                 BU: newOutlierBU, BU_SORT: [...newOutlierBU].sort((a, b) => { return b["Rval_bu"] - a["Rval_bu"] }),
                 SD: newOutlierSD, SD_SORT: [...newOutlierSD].sort((a, b) => { return b["Rval_sd"] - a["Rval_sd"] }),
                 ALL: newOutlier,
                 UP: priceUP, UP_SORT: [...priceUP].sort((a, b) => { return b["pct"] - a["pct"] }),
                 DOWN: priceDOWN, DOWN_SORT: [...priceDOWN].sort((a, b) => { return a["pct"] - b["pct"] }),
+                TOPUP_SORT: topUP_SORT,
+                TOPUP: topUP,
+                SHORTTOP: topShort
               }
 
               Object.keys(obj).forEach(busd => {
@@ -1072,7 +1097,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
     let accum = {};
     let max = { sd: [], bu: [] }
     let top = {};
-
+    let minp = 99999999;
+    let maxp = 0;
     data.forEach((v, i) => {
       // console.log(v)
       if (+v.price == 0) return;
@@ -1366,7 +1392,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         out = out.filter(e => e.datetime >= fromDate.getTime())
         // let dataOut = sessionData.map(e => out.slice(0, e))
         let dataOut = sessionData.map(e => {
-          let today = new Date();
+          let today = new Date(strdate);
+          // let xDayAgo = new Date(today);
           let xDayAgo = new Date(today);
           xDayAgo.setDate(today.getDate() - e);
           return out.filter(e => e.datetime >= xDayAgo.getTime());
@@ -1375,6 +1402,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         sessionData.forEach(
           (ss, i) => {
             let outs = dataOut[i];
+            // if (outs.length == 0) return;
             key.forEach(k => {
               outa[k] = outs.map(e => check(e[k]));
               let mean = stats.mean(outa[k])

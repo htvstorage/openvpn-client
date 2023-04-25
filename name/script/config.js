@@ -16,8 +16,9 @@ Config.muaban = function () {
     let conf = {}
     conf["OutlierThreshold"] = 10;
     conf["StdThreshold"] = 1.6;
-    conf["enableWriteXlsxSymbol"] = true;
+    conf["enableWriteXlsxSymbol"] = false;
     conf["uppct"] = 2;
+    conf["toppct"] = 1;
     conf["downpct"] = -5;
     conf["session"] = 20;
     //yyyy,month,day monthn 0-11 day 1-31
