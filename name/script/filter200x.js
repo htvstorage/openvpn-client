@@ -548,7 +548,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   });
 
 
-  let sum = data30.reduce((a, b) => { return { dealVolume: (a.dealVolume + b.dealVolume), totalValue: (a.totalValue + b.totalValue) } }, { dealVolume: 0, totalValue: 0 })
+  let sum = data30.reduce((a, b) => { return { dealVolume: (a.dealVolume + b.dealVolume), totalValue: (a.totalValue + b.totalValue - a.putthroughValue - b.putthroughValue) } }, { dealVolume: 0, totalValue: 0 })
   let avg = { symbol: symbol, avgValue: sum.totalValue / data30.length, avgVol: sum.dealVolume / data30.length };
 
   let pbe = filter[symbol];
@@ -593,7 +593,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let b = days.map((e, i) => { return [...datax[i].map(e => e.priceBasic)] })
   let cp = days.map((e, i) => { return [...datax[i].map(e => (e.priceClose - e.priceBasic) * 100 / e.priceBasic)] })
   let vol = days.map((e, i) => { return [...datax[i].map(e => e.dealVolume)] })
-  let val = days.map((e, i) => { return [...datax[i].map(e => e.totalValue)] })
+  let putvol = days.map((e, i) => { return [...datax[i].map(e => e.putthroughVolume)] })
+  let putval = days.map((e, i) => { return [...datax[i].map(e => e.putthroughValue)] })
+  let tval = days.map((e, i) => { return [...datax[i].map(e => e.totalValue)] })
+  let tvol = days.map((e, i) => { return [...datax[i].map(e => e.totalVolume)] })
+  let val = days.map((e, i) => { return [...datax[i].map(e => (e.totalValue-e.putthroughValue))] })
   let BSL = days.map((e, i) => { return [...datax[i].map(e => e.buyCount)] })
   let BQ = days.map((e, i) => { return [...datax[i].map(e => e.buyQuantity)] })
   let SSL = days.map((e, i) => { return [...datax[i].map(e => e.sellCount)] })
@@ -624,6 +628,10 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     HLP: hlp,
     Vol: vol,
     Val: val,
+    PVol: putvol,
+    PVal: putval,
+    TVol: tvol,
+    TVal: tval,        
     Fvol: Fvol,
     Fval: Fval,
     FvalDelta: FvalDelta,
