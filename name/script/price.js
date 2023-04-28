@@ -172,7 +172,7 @@ async function getPrices(symbol) {
       "method": "GET",
       "mode": "cors",
       agent
-    }, { timeout: 1000 });
+    }, { timeout: 100 });
   }
   let a = await f(symbol);
   let x = await a.text();

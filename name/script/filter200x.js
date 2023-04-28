@@ -53,10 +53,10 @@ log4js.configure({
 });
 
 let stockStore = {};
-(()=>{
+(() => {
   let data = fs.readFileSync('./profile/stock.json');
-  let stockData= JSON.parse(data);
-  stockData.forEach(e=>{
+  let stockData = JSON.parse(data);
+  stockData.forEach(e => {
     stockStore[e.Symbol] = e;
   })
   console.log("Loaded stockStore!")
@@ -243,7 +243,7 @@ async function industry() {
     industryPB.forEach(e => { pbe[e.code] = { pb: e.value } })
   if (industryPE != undefined)
     industryPE.forEach(e => { pbe[e.code] = { ...pbe[e.code], pe: e.value } })
-  
+
   // console.table(pbe)
   if (industry != undefined)
     industry.forEach(e => {
@@ -459,8 +459,8 @@ let tpcp = await Exchange.tpcp();
   fs.writeFileSync(dir + "Filter" + "_table.log", str, (e) => { if (e) { console.log(e) } })
   fs.writeFileSync(dir + "Filter" + datestr + ".json", JSON.stringify(ret), (e) => { if (e) { console.log(e) } })
 
-  let obj =Object.values(ret);
-  obj.sort((a,b)=>{return b["RVal10"] - a["RVal10"]});
+  let obj = Object.values(ret);
+  obj.sort((a, b) => { return b["RVal10"] - a["RVal10"] });
 
   writeArrayJson2Xlsx(dir + "Filter" + datestr + ".xlsx", obj)
   console.log("Save to " + dir + "Filter" + datestr + ".xlsx")
@@ -514,6 +514,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     let ne = { ...e };
     adj.forEach(k => { ne[k] = e[k] / e.adjRatio })
     ne.adjRatio = 1.0;
+    ne['dealValue'] = ne.totalValue - ne.putthroughValue
     return ne;
   })
 
@@ -523,6 +524,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     avgValue: 500000000,
     avgVol: 10000,
   }
+  if (data.length == 0) return;
 
   let symbol = data[0].symbol;
 
@@ -548,8 +550,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   });
 
 
-  let sum = data30.reduce((a, b) => { return { dealVolume: (a.dealVolume + b.dealVolume), totalValue: (a.totalValue + b.totalValue - a.putthroughValue - b.putthroughValue) } }, { dealVolume: 0, totalValue: 0 })
-  let avg = { symbol: symbol, avgValue: sum.totalValue / data30.length, avgVol: sum.dealVolume / data30.length };
+  let sum = data30.reduce((a, b) => { return { dealVolume: (a.dealVolume + b.dealVolume), dealValue: (a.dealValue + b.dealValue) } }, { dealVolume: 0, dealValue: 0 })
+
+  // console.log(sum)
+  // console.table(data30[0])
+  let avg = { symbol: symbol, avgValue: sum.dealValue / data30.length, avgVol: sum.dealVolume / data30.length };
 
   let pbe = filter[symbol];
   if (pbe != undefined) {
@@ -585,10 +590,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let hlp = days.map((e, i) => { return [...datax[i].map(e => (e.priceHigh - e.priceBasic) * 100 / e.priceBasic), ...datax[i].map(e => (e.priceLow - e.priceBasic) * 100 / e.priceBasic)] })
   let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
   let cpm = days.map((e, i) => {
-    let aa= [...datax[i].map(e => e.priceClose)] ;
-    let mean = aa.reduce((a,b)=>a+b,0)/aa.length;
-    aa = aa.map(e=>e/mean)
-    return aa })
+    let aa = [...datax[i].map(e => e.priceClose)];
+    let mean = aa.reduce((a, b) => a + b, 0) / aa.length;
+    aa = aa.map(e => e / mean)
+    return aa
+  })
   let o = days.map((e, i) => { return [...datax[i].map(e => e.priceOpen)] })
   let b = days.map((e, i) => { return [...datax[i].map(e => e.priceBasic)] })
   let cp = days.map((e, i) => { return [...datax[i].map(e => (e.priceClose - e.priceBasic) * 100 / e.priceBasic)] })
@@ -597,7 +603,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let putval = days.map((e, i) => { return [...datax[i].map(e => e.putthroughValue)] })
   let tval = days.map((e, i) => { return [...datax[i].map(e => e.totalValue)] })
   let tvol = days.map((e, i) => { return [...datax[i].map(e => e.totalVolume)] })
-  let val = days.map((e, i) => { return [...datax[i].map(e => (e.totalValue-e.putthroughValue))] })
+  let val = days.map((e, i) => { return [...datax[i].map(e => (e.totalValue - e.putthroughValue))] })
   let BSL = days.map((e, i) => { return [...datax[i].map(e => e.buyCount)] })
   let BQ = days.map((e, i) => { return [...datax[i].map(e => e.buyQuantity)] })
   let SSL = days.map((e, i) => { return [...datax[i].map(e => e.sellCount)] })
@@ -631,7 +637,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     PVol: putvol,
     PVal: putval,
     TVol: tvol,
-    TVal: tval,        
+    TVal: tval,
     Fvol: Fvol,
     Fval: Fval,
     FvalDelta: FvalDelta,
@@ -837,9 +843,9 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   })
 
 
-  avg["RSVol" + shortPeriods[0]+"/"+shortPeriods[1]] = smaVol[0].at(checkDate)/ smaVol[1].at(checkDate)
-  avg["RSVol" + shortPeriods[0]+"/"+shortPeriods[2]] = smaVol[0].at(checkDate)/ smaVol[2].at(checkDate)
-  avg["RSVol" + shortPeriods[0]+"/"+shortPeriods.at(-1)] = smaVol[0].at(checkDate)/ smaVol.at(-1).at(checkDate)
+  avg["RSVol" + shortPeriods[0] + "/" + shortPeriods[1]] = smaVol[0].at(checkDate) / smaVol[1].at(checkDate)
+  avg["RSVol" + shortPeriods[0] + "/" + shortPeriods[2]] = smaVol[0].at(checkDate) / smaVol[2].at(checkDate)
+  avg["RSVol" + shortPeriods[0] + "/" + shortPeriods.at(-1)] = smaVol[0].at(checkDate) / smaVol.at(-1).at(checkDate)
 
   var inputRSI = {
     values: prices,
@@ -878,13 +884,13 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   // console.table([avg])
   let keys = Object.keys(avg);
   // console.log(JSON.stringify(keys))
-  if(stockStore[symbol] != undefined){
+  if (stockStore[symbol] != undefined) {
     avg["Company"] = stockStore[symbol].Company;
     avg["SectorName"] = stockStore[symbol].SectorName;
   }
-    
-    
-  let fix = ["symbol", "exch", "tpcp", "name", "SectorName" , "Company" , "avgValue", "avgVol", "priceClose", "priceLow", "priceHigh", "priceOpen", "priceBasic", "pct", "vol", "val", "%PriceMin3", "%PriceMin10", "NetProfitQ4/2022", "NetProfit2022", "Liability2022", "Equity2022", "ownership", "shares", "OCP10", "OCP100", "OCP1000", "OCP15", "OCP20", "OCP200", "OCP3", "OCP30", "OCP365", "OCP500", "OCP7", "ORVal10", "ORVal100", "ORVal1000", "ORVal15", "ORVal20", "ORVal200", "ORVal3", "ORVal30", "ORVal365", "ORVal500", "ORVal7", "ORVol10", "ORVol100", "ORVol1000", "ORVol15", "ORVol20", "ORVol200", "ORVol3", "ORVol30", "ORVol365", "ORVol500", "ORVol7", "OVal10", "OVal100", "OVal1000", "OVal15", "OVal20", "OVal200", "OVal3", "OVal30", "OVal365", "OVal500", "OVal7", "OVol10", "OVol100", "OVol1000", "OVol15", "OVol20", "OVol200", "OVol3", "OVol30", "OVol365", "OVol500", "OVol7", "stdCP10", "stdCP100", "stdCP1000", "stdCP15", "stdCP20", "stdCP200", "stdCP3", "stdCP30", "stdCP365", "stdCP500", "stdCP7", "stdVal10", "stdVal100", "stdVal1000", "stdVal15", "stdVal20", "stdVal200", "stdVal3", "stdVal30", "stdVal365", "stdVal500", "stdVal7", "stdVol10", "stdVol100", "stdVol1000", "stdVol15", "stdVol20", "stdVol200", "stdVol3", "stdVol30", "stdVol365", "stdVol500", "stdVol7", "mean10", "mean100", "mean1000", "mean15", "mean20", "mean200", "mean3", "mean30", "mean365", "mean500", "mean7", "meanCP10", "meanCP100", "meanCP1000", "meanCP15", "meanCP20", "meanCP200", "meanCP3", "meanCP30", "meanCP365", "meanCP500", "meanCP7", "meanVal10", "meanVal100", "meanVal1000", "meanVal15", "meanVal20", "meanVal200", "meanVal3", "meanVal30", "meanVal365", "meanVal500", "meanVal7", "meanVol10", "meanVol100", "meanVol1000", "meanVol15", "meanVol20", "meanVol200", "meanVol3", "meanVol30", "meanVol365", "meanVol500", "meanVol7", "sma10", "sma10%", "sma100", "sma100%", "sma20", "sma20%", "sma200", "sma200%", "sma25", "sma25%", "sma26", "sma26%", "sma30", "sma30%", "sma5", "sma5%", "sma50", "sma50%", "std10", "std100", "std1000", "std15", "std20", "std200", "std3", "std30", "std365", "std500", "std7"]
+
+
+  let fix = ["symbol", "exch", "tpcp", "name", "SectorName", "Company", "avgValue", "avgVol", "priceClose", "priceLow", "priceHigh", "priceOpen", "priceBasic", "pct", "vol", "val", "%PriceMin3", "%PriceMin10", "NetProfitQ4/2022", "NetProfit2022", "Liability2022", "Equity2022", "ownership", "shares", "OCP10", "OCP100", "OCP1000", "OCP15", "OCP20", "OCP200", "OCP3", "OCP30", "OCP365", "OCP500", "OCP7", "ORVal10", "ORVal100", "ORVal1000", "ORVal15", "ORVal20", "ORVal200", "ORVal3", "ORVal30", "ORVal365", "ORVal500", "ORVal7", "ORVol10", "ORVol100", "ORVol1000", "ORVol15", "ORVol20", "ORVol200", "ORVol3", "ORVol30", "ORVol365", "ORVol500", "ORVol7", "OVal10", "OVal100", "OVal1000", "OVal15", "OVal20", "OVal200", "OVal3", "OVal30", "OVal365", "OVal500", "OVal7", "OVol10", "OVol100", "OVol1000", "OVol15", "OVol20", "OVol200", "OVol3", "OVol30", "OVol365", "OVol500", "OVol7", "stdCP10", "stdCP100", "stdCP1000", "stdCP15", "stdCP20", "stdCP200", "stdCP3", "stdCP30", "stdCP365", "stdCP500", "stdCP7", "stdVal10", "stdVal100", "stdVal1000", "stdVal15", "stdVal20", "stdVal200", "stdVal3", "stdVal30", "stdVal365", "stdVal500", "stdVal7", "stdVol10", "stdVol100", "stdVol1000", "stdVol15", "stdVol20", "stdVol200", "stdVol3", "stdVol30", "stdVol365", "stdVol500", "stdVol7", "mean10", "mean100", "mean1000", "mean15", "mean20", "mean200", "mean3", "mean30", "mean365", "mean500", "mean7", "meanCP10", "meanCP100", "meanCP1000", "meanCP15", "meanCP20", "meanCP200", "meanCP3", "meanCP30", "meanCP365", "meanCP500", "meanCP7", "meanVal10", "meanVal100", "meanVal1000", "meanVal15", "meanVal20", "meanVal200", "meanVal3", "meanVal30", "meanVal365", "meanVal500", "meanVal7", "meanVol10", "meanVol100", "meanVol1000", "meanVol15", "meanVol20", "meanVol200", "meanVol3", "meanVol30", "meanVol365", "meanVol500", "meanVol7", "sma10", "sma10%", "sma100", "sma100%", "sma20", "sma20%", "sma200", "sma200%", "sma25", "sma25%", "sma26", "sma26%", "sma30", "sma30%", "sma5", "sma5%", "sma50", "sma50%", "std10", "std100", "std1000", "std15", "std20", "std200", "std3", "std30", "std365", "std500", "std7"]
   keys = keys.filter(e => !fix.includes(e));
   keys.sort();
   keys = [...fix, ...keys];
