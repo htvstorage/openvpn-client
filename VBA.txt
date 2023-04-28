@@ -1,0 +1,117 @@
+Sub ChuanBi()
+'
+' ChuanBi Macro
+'
+
+'
+    Rows("1:1").Select
+    Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromLeftOrAbove
+    Columns("G:G").Select
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Rows("2:2").Select
+    ActiveWorkbook.Names.Add Name:="head", RefersToR1C1:="=Sheet1!R2"
+    ActiveWorkbook.Names("head").Comment = ""
+    Cells.Select
+    ActiveWorkbook.Names.Add Name:="data", RefersToR1C1:="=Sheet1!R1:R1048576"
+    ActiveWorkbook.Names("data").Comment = ""
+    Range("G3").Select
+    ActiveCell.FormulaR1C1 = ""
+    Rows("2:2").Select
+    Selection.AutoFilter
+    Range("G3").Select
+    Dim count As Long
+    count = WorksheetFunction.CountIf(Range("A:A"), "<>") + 1
+    ActiveCell.FormulaR1C1 = "=INDEX(data,ROW(),MATCH(R1C7,head,0))"
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "sma5"
+    Range("G3").Select
+    Selection.AutoFill Destination:=Range("G3:G" & count)
+    Range("G3:G401").Select
+    Columns("G:G").EntireColumn.AutoFit
+    Columns("G:G").ColumnWidth = 16.25
+    Columns("H:H").Select
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("H1").Select
+    ActiveCell.FormulaR1C1 = "sma50"
+    Range("G3").Select
+    ActiveCell.FormulaR1C1 = "=INDEX(data,ROW(),MATCH(R1C7,head,0))"
+    Range("H3").Select
+    ActiveCell.FormulaR1C1 = "=INDEX(data,ROW(),MATCH(R1C8,head,0))"
+    Range("H3").Select
+    Selection.AutoFill Destination:=Range("H3:H" & count)
+    Range("H3:H401").Select
+    Columns("I:I").Select
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("I3").Select
+    ActiveCell.FormulaR1C1 = "=(RC[-2]-RC[-1])/RC[-1]"
+    Range("I3").Select
+    Selection.AutoFill Destination:=Range("I3:I" & count)
+    Range("I3:I401").Select
+    Columns("J:J").Select
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("J1").Select
+    ActiveCell.FormulaR1C1 = "Rval30"
+    Range("J3").Select
+    ActiveCell.FormulaR1C1 = ""
+    Range("H3").Select
+    ActiveCell.FormulaR1C1 = "=INDEX(data,ROW(),MATCH(R1C8,head,0))"
+    Range("J3").Select
+    ActiveCell.FormulaR1C1 = "=INDEX(data,ROW(),MATCH(R1C10,head,0))"
+    Range("J3").Select
+    Selection.AutoFill Destination:=Range("J3:J" & count)
+    Range("J3:J401").Select
+    Range("J6").Select
+    'ActiveWorkbook.Save
+End Sub
+
+
+Sub AddCol()
+'
+' ChuanBi Macro
+'
+
+'
+    Columns("G:G").Select
+    Selection.Insert Shift:=xlToRight, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("G3").Select
+    Dim count As Long
+    count = WorksheetFunction.CountIf(Range("A:A"), "<>") + 1
+    ActiveCell.FormulaR1C1 = "=INDEX(data,ROW(),MATCH(R1C7,head,0))"
+    Range("G1").Select
+    ActiveCell.FormulaR1C1 = "sma5"
+    Range("G3").Select
+    Selection.AutoFill Destination:=Range("G3:G" & count)
+End Sub
+
+
+
+Sub Header()
+'
+' Header Macro
+'
+
+'
+
+    Dim definedName As Name
+    Dim rangeCount As Long
+    count = WorksheetFunction.CountIf(Range("A:A"), "<>") + 1
+    ' Replace "YourDefinedName" with the name you want to count cells for
+    Set definedName = ActiveWorkbook.Names("head")
+    
+    If Not definedName Is Nothing Then
+        rangeCount = WorksheetFunction.CountIf(definedName.RefersToRange, "<>") + 30
+        ' rangeCount = definedName.RefersToRange.Cells.count
+        ' MsgBox "The defined name contains " & rangeCount & " cells."
+    Else
+        MsgBox "The defined name does not exist."
+    End If
+    
+    Range("A1").Select
+    ActiveCell.FormulaR1C1 = "=INDEX(head,COLUMN(),ROW())"
+    Range("A1").Select
+    Selection.AutoFill Destination:=Range("A1:A" & rangeCount), Type:=xlFillDefault
+    Columns("A:A").EntireColumn.AutoFit
+    ActiveWindow.ScrollRow = 1
+End Sub
+
+
