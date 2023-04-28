@@ -464,6 +464,65 @@ let tpcp = await Exchange.tpcp();
 
   writeArrayJson2Xlsx(dir + "Filter" + datestr + ".xlsx", obj)
   console.log("Save to " + dir + "Filter" + datestr + ".xlsx")
+  //Report nganh
+  let report = {}
+  let sum = { sectorName: e.SectorName, up: 0, down: 0, ref: 0, upVal: 0, downVal: 0, refVal: 0, upVol: 0, downVol: 0, refVol: 0, count: 0, val: 0, vol: 0, }
+  obj.forEach(e => {
+    if (e.SectorName == "" || e.SectorName == undefined) 
+    {
+      // console.log(e.sectorName,e.sectorName == "" || e.sectorName == undefined)
+      return;
+          
+    }
+    if (!report[e.SectorName]) report[e.SectorName] = { sectorName: e.SectorName, up: 0, down: 0, ref: 0, upVal: 0, downVal: 0, refVal: 0, upVol: 0, downVol: 0, refVol: 0, count: 0, val: 0, vol: 0, }
+    let r = report[e.SectorName];
+    if (e.pct > 0) {
+      r.up += 1;
+      r.upVal += e.val;
+      r.upVol += e.vol;
+
+      sum.up += 1;
+      sum.upVal += e.val;
+      sum.upVol += e.vol;
+
+    }
+    if (e.pct < 0) {
+      r.down += 1;
+      r.downVal += e.val;
+      r.downVol += e.vol;
+
+      sum.down += 1;
+      sum.downVal += e.val;
+      sum.downVol += e.vol;
+    }
+    if (e.pct == 0) {
+      r.ref += 1;
+      r.refVal += e.val;
+      r.refVol += e.vol;
+      sum.ref += 1;
+      sum.ref += e.val;
+      sum.ref += e.vol;
+    }
+
+    r.count += 1;
+    r.val += e.val;
+    r.vol += e.vol;
+    sum.count += 1;
+    sum.val += e.val;
+    sum.vol += e.vol;
+  })
+
+  let a = Object.values(report);
+  let keys = Object.keys(sum);
+  keys = keys.filter(e => e != 'sectorName')
+  a.forEach(e => {
+    keys.forEach(k => {
+      e['%' + k] = Math.floor(e[k] / sum[k] * 100 * 100) / 100
+    })
+  })
+
+  writeArrayJson2Xlsx(dir + "Nganh" + datestr + ".xlsx", a)
+
 })();
 
 
