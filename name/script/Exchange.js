@@ -903,7 +903,7 @@ Exchange.VCI = function () {
 
 Exchange.VCI.getAll = async function (code) {
   let f = async (code) => {
-    return await fetch("https://mt.vcsc.com.vn/api/market-watch/LEData/getAll", {
+    return await fetch("https://mt.vietcap.com.vn/api/market-watch/LEData/getAll", {
       "headers": {
         "accept": "application/json, text/plain, */*",
         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -913,7 +913,7 @@ Exchange.VCI.getAll = async function (code) {
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
-        "cookie": "_gcl_au=1.1.1709771188.1675938152; _gid=GA1.3.1706305419.1675938152; _fbp=fb.2.1675938153544.2137347642; lang=vi; _gat_UA-199803197-1=1; _ga=GA1.1.1389260542.1675938152; _ga_EWEC6D4464=GS1.1.1675938152.1.1.1675938310.57.0.0"
+        "cookie": "lang=vi; _gcl_au=1.1.314608984.1683191963; _gid=GA1.3.1723726357.1683191963; _fbp=fb.2.1683191964026.1534674649; _ga=GA1.3.947988395.1683191963; _gat_UA-199803197-1=1; _ga_EWEC6D4464=GS1.1.1683191963.1.1.1683192157.56.0.0"
       },
       "referrer": "https://mt.vcsc.com.vn/board",
       "referrerPolicy": "strict-origin-when-cross-origin",
