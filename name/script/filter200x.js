@@ -334,6 +334,34 @@ async function financial() {
 
   console.log(symbolsVnd.length, Object.keys(mapFinancial).length)
 }
+let Q12023M = {}
+async function Q12023() {
+
+  let a = await fetch("https://api-finance-t19.24hmoney.vn/v2/web/companies/top-financial?device_id=web16693664wxvsjkxelc6e8oe325025&device_name=INVALID&device_model=Windows+10+NT+10.0&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&key=profit_after_tax&sort=desc&page=1&per_page=2000", {
+    "headers": {
+      "accept": "application/json, text/plain, */*",
+      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    },
+    "referrer": "https://24hmoney.vn/",
+    "referrerPolicy": "strict-origin-when-cross-origin",
+    "body": null,
+    "method": "GET",
+    "mode": "cors"
+  });
+
+  let z = await a.json()
+
+  z.data.data.forEach(e => {
+    Q12023M[e.symbol] = { profit_change_percent: e.profit_change_percent, profit_after_tax: e.profit_after_tax }
+  });
+
+}
+Q12023();
 
 let tpcp = await Exchange.tpcp();
 (async () => {
@@ -468,11 +496,10 @@ let tpcp = await Exchange.tpcp();
   let report = {}
   let sum = { sectorName: e.SectorName, up: 0, down: 0, ref: 0, upVal: 0, downVal: 0, refVal: 0, upVol: 0, downVol: 0, refVol: 0, count: 0, val: 0, vol: 0, }
   obj.forEach(e => {
-    if (e.SectorName == "" || e.SectorName == undefined) 
-    {
+    if (e.SectorName == "" || e.SectorName == undefined) {
       // console.log(e.sectorName,e.sectorName == "" || e.sectorName == undefined)
       return;
-          
+
     }
     if (!report[e.SectorName]) report[e.SectorName] = { sectorName: e.SectorName, up: 0, down: 0, ref: 0, upVal: 0, downVal: 0, refVal: 0, upVol: 0, downVol: 0, refVol: 0, count: 0, val: 0, vol: 0, }
     let r = report[e.SectorName];
@@ -619,6 +646,13 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   if (pbe != undefined) {
     avg = { ...avg, ...pbe }
   }
+
+  let q12023 = Q12023M[symbol];
+  if(q12023){
+    avg['NetProfitQ12023'] = q12023.profit_after_tax;
+    avg['NetProfitChangeQ12023'] = q12023.profit_change_percent;
+  }
+  
 
   avg.avgValue = Math.floor(avg.avgValue * 100) / 100
   avg.avgVol = Math.floor(avg.avgVol * 100) / 100
