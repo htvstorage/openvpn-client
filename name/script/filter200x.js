@@ -921,6 +921,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let count = 0;
   let countUP = 0;
   let countDown = 0;
+  let countVol = 0;
   x.forEach(e => {
     if (Math.abs(e - mean) / mean * 100 < sidewayThreshold) {
       count++;
@@ -943,10 +944,22 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     return false;
   })
 
+  let v = vols.slice(0, numSidewayDays);
+  v.reverse();
+  let meanVol = stats.mean(v);
+  v.every((e, i) => {
+    if (i < v.length - 1)
+      if (e >= v[i + 1] && e > meanVol) { countVol++; return true }
+      else
+        return false;
+    return false;
+  })
+
   // console.log(symbol, x)
   avg["SWC"] = count;
   avg["UP"] = countUP;
   avg["DOWN"] = countDown;
+  avg["CountVol"] = countVol;
 
   shortPeriods.forEach((e, i) => {
     avg["sma" + e] = Math.floor(smaRet[i].at(checkDate) * 100) / 100;
