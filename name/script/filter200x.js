@@ -946,7 +946,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     return false;
   })  
 
-  x.every((e, i) => {
+  x.slice(0, shortSidewayDays).every((e, i) => {
     if (i < x.length - 1)
       if (e >= mean) { countUPMean2++; return true }
       else
