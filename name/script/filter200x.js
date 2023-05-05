@@ -921,6 +921,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let count = 0;
   let countUP = 0;
   let countUPMean = 0;
+  let countUPMean2 = 0;
   let countDown = 0;
   let countVol = 0;
   let countVolMean = 0;
@@ -944,6 +945,14 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
         return false;
     return false;
   })  
+
+  x.every((e, i) => {
+    if (i < x.length - 1)
+      if (e >= mean) { countUPMean2++; return true }
+      else
+        return true;
+    return true;
+  })   
 
   x.every((e, i) => {
     if (i < x.length - 1)
@@ -980,6 +989,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   avg["SWC"] = count;
   avg["UP"] = countUP;
   avg["UPMean"] = countUPMean;
+  avg["UPMeanAll"] = countUPMean2;
   avg["DOWN"] = countDown;
   avg["CountVol"] = countVol;
   avg["countVolMean"] = countVolMean;

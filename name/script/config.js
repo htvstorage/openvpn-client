@@ -7,7 +7,7 @@ Config.filter = function () {
     conf["days"] = [3, 7, 10, 30, 60, 100, 150, 1000];
     conf["bombday"] = 30;
     conf["shortPeriods"] = [5, 10, 20, 25, 26, 30, 50, 100, 200];
-    conf["shortSidewayDays"] = 30;
+    conf["shortSidewayDays"] = 50;
     conf["numSidewayDays"] = 300;
     return conf;
 }
