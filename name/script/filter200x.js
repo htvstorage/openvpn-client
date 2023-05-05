@@ -920,6 +920,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let sidewayThreshold = 2;
   let count = 0;
   let countUP = 0;
+  let countUPMean = 0;
   let countDown = 0;
   let countVol = 0;
   let countVolMean = 0;
@@ -936,6 +937,13 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
         return false;
     return false;
   })
+  x.every((e, i) => {
+    if (i < x.length - 1)
+      if (e >= mean) { countUPMean++; return true }
+      else
+        return false;
+    return false;
+  })  
 
   x.every((e, i) => {
     if (i < x.length - 1)
@@ -947,7 +955,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
 
   let v = [...vols];
   v.reverse();
-  v = v.slice(0, numSidewayDays);
+  v = v.slice(0, shortSidewayDays);
   // v.reverse();
   let meanVol = stats.mean(v);
   v.every((e, i) => {
@@ -971,6 +979,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   // console.log(symbol, v)
   avg["SWC"] = count;
   avg["UP"] = countUP;
+  avg["UPMean"] = countUPMean;
   avg["DOWN"] = countDown;
   avg["CountVol"] = countVol;
   avg["countVolMean"] = countVolMean;
