@@ -698,8 +698,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   }
   if (stockStore[symbol]) {
     let tradingInfo = stockStore[symbol].tradingInfo;
-    if (tradingInfo)
+    if (tradingInfo){
       avg["StockStatus"] = tradingInfo.StockStatus;
+      // console.table(tradingInfo)
+      avg["bvps"] = tradingInfo.BVPS;
+    }      
   }
 
   avg.avgValue = Math.floor(avg.avgValue * 100) / 100
