@@ -779,6 +779,42 @@ Exchange.wait = function (ms) {
 Exchange.VietStock = function () {
 
 }
+
+Exchange.VietStock.TradingInfo = async function (code) {
+  let tradeInfo = (code) => {
+    return fetch("https://finance.vietstock.vn/company/tradinginfo", {
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "sec-ch-ua": "\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "x-requested-with": "XMLHttpRequest",
+        "cookie": "_cc_id=bd4b49a4b7a58cfaeb38724516b82171; dable_uid=35370669.1668475569175; dable_uid=35370669.1668475569175; __gads=ID=af0897d5e697b47b-2219cdf973d800fc:T=1668475507:S=ALNI_MaL0TTHW6nK5yq36h7SKojzDZdS3w; language=vi-VN; Theme=Light; AnonymousNotification=; _pbjs_userid_consent_data=3524755945110770; cto_bidid=DqedVV9tcExYekpsN0h0bFlNQnQ2alJRJTJCWEhnVDVWcTk4YTVEbiUyRmx4WWtyOTZlcXVxU0hVeEh1ZTFOanRldkp0NGNEWkNIS2VBSHRuOFdzalUxdzhsb0xRcVNtYlVQTXRWNVNSaVZPallUZ3VWZUklM0Q; __gpi=UID=00000b7c20f7c81e:T=1668475507:RT=1683879208:S=ALNI_MbZNgtWTtbRI1MrLcfM5qFq0RIBMQ; ASP.NET_SessionId=vsj4gkrvytrthqvznoyd4hql; __RequestVerificationToken=bojmH1IWJcnwjQixhUQXqrSk9SCIEzwCQtD-oMhueHpL30iwwpM6ESqV-IqI-4QwPlqfHSDlj1ivFLPMS0m4dzgVl8ouJLSk9USPpwbi75U1; panoramaId_expiry=1683965611604; panoramaId=4d0c5a1ada413b921c9b37c6d8d4a9fb927a0d4a71477931e7d9d438d60721a2; panoramaIdType=panoDevice; finance_viewedstock=HVN,; _gid=GA1.2.2043529176.1683879220; _gat_UA-1460625-2=1; cto_bundle=UvCHcl9GalVXbDclMkJNeHNwS0pTN0VtbThsUHczZldON0QzQjJ4MEI0SGRIb1BhTHRnWGU4OFpmc1E1cnhPZlV5andLWHFRZk8zTHhzcW9HbTM3TjdlbEVOV055TmVlakIxVzNtOFVBMXk3MlhwdGtIRDlMcTlBT3JabFUwaFZTNnpCejFEUFp1Yzd3Yk1KWkFBRHdqdmJRJTJGaHZBJTNEJTNE; _ga_EXMM0DKVEX=GS1.1.1683879208.18.1.1683879261.0.0.0; _ga=GA1.2.70802173.1668475499",
+        "Referer": "https://finance.vietstock.vn/HVN-tong-cong-ty-hang-khong-viet-nam-ctcp.htm",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "body": "code=" + code + "&s=0&t=&__RequestVerificationToken=FC3NQmYc9WESmMvr8q4-kPVlWx91Xrwcvhp8-l5fyBAmaKSoB6VQSQXTH7PMCjUTW9BeagM-7sPvl7vVqsJ71VjZ4vNtMlNy0oUc1xs5LwU1",
+      "method": "POST",
+      agent
+    });
+  }
+
+  let a = await tradeInfo(code);
+  let data = await a.text();
+  while (!data.startsWith("{")) {
+    await Exchange.wait(200);
+    a = await tradeInfo(code);
+    data = await a.text();
+  }
+  data = JSON.parse(data);
+  // console.table(data);
+  return data;
+}
 Exchange.VietStock.GetStockDealDetail = async function (code) {
   let vietFetch = async (code) => {
     // return await fetch("https://finance.vietstock.vn/data/getstockdealdetail", {
@@ -863,11 +899,11 @@ Exchange.TCBS.intraday = async function (code) {
   let all = []
   let data = await a.json();
   all.push(...data.data)
-  let page = data.total/size;
-  if(page > 1){
+  let page = data.total / size;
+  if (page > 1) {
     // console.log(page)
-    for(let i=1;i<=page+1;i++){
-      a = await fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page="+i+"&size=100&headIndex=-1", {
+    for (let i = 1; i <= page + 1; i++) {
+      a = await fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page=" + i + "&size=100&headIndex=-1", {
         "headers": {
           "accept": "application/json",
           "accept-language": "vi",
@@ -885,7 +921,7 @@ Exchange.TCBS.intraday = async function (code) {
       });
       data = await a.json();
       all.push(...data.data)
-      if(i == Math.floor(page)){
+      if (i == Math.floor(page)) {
         // console.table(data.data)
       }
     }

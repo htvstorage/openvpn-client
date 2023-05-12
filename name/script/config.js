@@ -9,6 +9,8 @@ Config.filter = function () {
     conf["shortPeriods"] = [5, 10, 20, 25, 26, 30, 50, 100, 200];
     conf["shortSidewayDays"] = 50;
     conf["numSidewayDays"] = 300;
+    conf["avgVol"] = 10000;
+    conf["avgValue"] = 500000000;
     return conf;
 }
 

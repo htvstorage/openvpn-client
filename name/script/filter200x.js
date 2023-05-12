@@ -62,6 +62,50 @@ let stockStore = {};
   console.log("Loaded stockStore!")
 })();
 
+
+
+await (async function tradinginfo() {
+  console.log("TradingInfo")
+  let data = []
+  if (fs.existsSync("./profile/tradinginfo.json")) {
+    let json = fs.readFileSync("./profile/tradinginfo.json", "utf-8");
+    data = JSON.parse(json);
+  } else {
+    let vndGetAllSymbols = await Exchange.vndGetAllSymbols();
+    let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 }).map(e => { return e.code })
+    let promise = [];
+    let stat = { req: 0, res: 0, total: symbolsVnd.length }
+    for (let s of symbolsVnd) {
+      stat.req++;
+      while (stat.req - stat.res >= 30) {
+        await Exchange.wait(200)
+      }
+      let a = Exchange.VietStock.TradingInfo(s);
+      // promise.push(a);
+
+      a.then(data => {
+        stat.res++;
+        // console.table(data)
+        if (stat.res % 10 == 0) {
+          console.log(stat)
+        }
+        promise.push(data);
+      })
+    }
+    // let a = await Promise.all(promise);   
+    data = [...promise]
+    fs.writeFileSync("./profile/tradinginfo.json", JSON.stringify(promise));
+  }
+
+  data.forEach(e => {
+    let m = stockStore[e.StockCode]
+    if (m) {
+      m["tradingInfo"] = e;
+    }
+  })
+
+})()
+
 let ss = 5;
 
 async function download() {
@@ -607,8 +651,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   if (checkDate == undefined) checkDate = -1;
 
   let config = {
-    avgValue: 500000000,
-    avgVol: 10000,
+    avgValue: Config.filter()["avgValue"],
+    avgVol: Config.filter()["avgVol"]
   }
   if (data.length == 0) return;
 
@@ -652,7 +696,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     avg['NetProfitQ12023'] = q12023.profit_after_tax;
     avg['NetProfitChangeQ12023'] = q12023.profit_change_percent;
   }
-
+  if (stockStore[symbol]) {
+    let tradingInfo = stockStore[symbol].tradingInfo;
+    if (tradingInfo)
+      avg["StockStatus"] = tradingInfo.StockStatus;
+  }
 
   avg.avgValue = Math.floor(avg.avgValue * 100) / 100
   avg.avgVol = Math.floor(avg.avgVol * 100) / 100
@@ -944,7 +992,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
       else
         return false;
     return false;
-  })  
+  })
 
   x.slice(0, shortSidewayDays).every((e, i) => {
     if (i < x.length - 1)
@@ -952,7 +1000,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
       else
         return true;
     return true;
-  })   
+  })
 
   x.every((e, i) => {
     if (i < x.length - 1)
