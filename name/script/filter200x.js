@@ -106,6 +106,51 @@ await (async function tradinginfo() {
 
 })()
 
+
+
+await (async function BCTC() {
+  console.log("BCTC")
+  let data = []
+  if (fs.existsSync("./profile/BCTC.json")) {
+    let json = fs.readFileSync("./profile/BCTC.json", "utf-8");
+    data = JSON.parse(json);
+  } else {
+    let vndGetAllSymbols = await Exchange.vndGetAllSymbols();
+    let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 }).map(e => { return e.code })
+    let promise = [];
+    let stat = { req: 0, res: 0, total: symbolsVnd.length }
+    for (let s of symbolsVnd) {
+      stat.req++;
+      while (stat.req - stat.res >= 5) {
+        await Exchange.wait(200)
+      }
+      let a = Exchange.CafeF.BCTC(s);
+      // promise.push(a);
+
+      a.then(data => {
+        stat.res++;
+        // console.table(data)
+        if (stat.res % 10 == 0) {
+          console.log(stat)
+        }
+        promise.push(data);
+      })
+    }
+    // let a = await Promise.all(promise);   
+    data = [...promise]
+    fs.writeFileSync("./profile/BCTC.json", JSON.stringify(promise));
+  }
+
+  // data.forEach(e => {
+  //   let m = stockStore[e.StockCode]
+  //   if (m) {
+  //     m["tradingInfo"] = e;
+  //   }
+  // })
+
+})()
+
+
 let ss = 5;
 
 async function download() {

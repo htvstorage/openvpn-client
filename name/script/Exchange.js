@@ -5,7 +5,9 @@ import http from "node:http";
 import https from "node:https";
 import { resolve } from "path";
 import { start } from "repl";
-
+import { parse } from 'node-html-parser';
+import jsdom from "jsdom"
+const { JSDOM } = jsdom
 const httpAgent = new http.Agent({ keepAlive: true });
 const httpsAgent = new https.Agent({ keepAlive: true });
 const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
@@ -775,7 +777,73 @@ Exchange.wait = function (ms) {
   });
 }
 
+Exchange.CafeF = function () {
 
+}
+Exchange.CafeF.BCTC = async function (code) {
+  let tradeInfo = (code) => {
+    return fetch("https://s.cafef.vn/bao-cao-tai-chinh/" + code + "/BSheet/2023/1/0/0/can-doi-ke-toan-cong-ty-co-phan-tap-doan-hoa-phat.chn", {
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "cache-control": "max-age=0",
+        "if-modified-since": "Wed, 17 May 2023 10:38:39 GMT",
+        "sec-ch-ua": "\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "cookie": "_uidcms=166867855012954587; _fbp=fb.1.1668678550569.1149349823; favorite_stocks_state=1; __uidac=e6ca13cd4d851900d345eaec29751055; __gads=ID=4a3b37ff6beadb70:T=1672138740:S=ALNI_MZZKBI_i40Yo6-xbrFVAVn3cghSUA; __RC=4; __R=1; __IP=1953009066; __tb=0; __admUTMtime=1683889516; __utmz=56744888.1683889534.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); ASP.NET_SessionId=bbekrze2hn1my2vfi0n3ejve; _gid=GA1.2.992200204.1684319872; _ga_860L8F5EZP=GS1.1.1684319871.23.0.1684319880.0.0.0; _ga_D40MBMET7Z=GS1.1.1684319881.7.0.1684319881.0.0.0; _ga=GA1.1.1238923680.1668678551; __utma=56744888.1238923680.1668678551.1683889534.1684319914.2; __utmc=56744888; __utmt=1; ChannelVN.Logger=1684319916221; ChannelVN.Logger.p=0_1684319916221; ChannelVN.Logger.c=1117_1684319916222; __utmb=56744888.2.10.1684319914; __uif=__uid%3A3439507141953009066%7C__ui%3A1%252C5%7C__create%3A1668489869",
+        "Referer": "https://s.cafef.vn/hose/HPG-cong-ty-co-phan-tap-doan-hoa-phat.chn",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "body": null,
+      "method": "GET",
+      agent
+    });
+  }
+
+  let a = await tradeInfo(code);
+  let data = await a.text();
+  // let d=parse(data);
+  let d = new JSDOM(data).window.document
+  // const document = dom.window.document;
+
+  // console.log(data)
+  let head = []
+  let values = {}
+  
+  fs.writeFileSync("data.html ", data)
+  let z = d.querySelectorAll("table[id]");
+  // z.forEach(e => console.log(e.getAttribute("id")))
+  console.log(code)
+  d.querySelector("#tblGridData").querySelectorAll("td").forEach((e,i) => { 
+    console.log(i,e.textContent);
+     head.push(e.textContent) })
+  d.querySelector("#tableContent").querySelectorAll("tr").forEach(e => { 
+    let key = "";
+    e.childNodes.forEach((ee,i)=>{
+      // console.log(i,ee.textContent)
+      if(i%2 ==0 ){
+        return;
+      }
+      if(i==1){
+        values[ee.textContent] = []
+        key = ee.textContent;
+      }else{
+        values[key].push(ee.textContent)
+      }            
+    })
+
+  })
+  // if(data.includes("tableContent")){
+
+  console.table(values)
+  return {code:code,head:head,values:values};
+}
 Exchange.VietStock = function () {
 
 }
