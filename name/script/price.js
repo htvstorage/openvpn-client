@@ -106,7 +106,7 @@ log4js.configure({
       // }, 500);
     }
     // console.log(req,res)
-    while (stat.req - stat.res >= 100) {
+    while (stat.req - stat.res >= 50) {
       await wait(100)
     }
   }
