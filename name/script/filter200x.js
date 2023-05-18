@@ -17,6 +17,7 @@ import stats from "stats-analysis";
 import http from "node:http";
 import https from "node:https";
 import { Config } from "./config.js";
+import { rejects } from "assert";
 
 
 
@@ -107,7 +108,9 @@ await (async function tradinginfo() {
 })()
 
 
-
+let CK = ['BVS','AAS','BSI','FTS','HCM','AGR','EVS','DSC','SHS','CTS','SBS','APG','APS','BMS','MBS','PSI','ORS','VCI','TVB','TCI','SSI','VDS','VND','VIX','VIG','VFS']
+let NH = ['NVB','NAB','HDB','SHB','LPB','CTG','MBB','BID','ACB','MSB','PGB','OCB','ABB','BVB','EIB','VIB','VCB','STB','SSB','VAB','TCB','VPB','TPB']
+let BH = ['BMI','BVH','MIG','BIC']
 await (async function BCTC() {
   console.log("BCTC")
   let data = []
@@ -117,7 +120,8 @@ await (async function BCTC() {
   } else {
     let vndGetAllSymbols = await Exchange.vndGetAllSymbols();
     // let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 }).map(e => { return e.code })
-    let symbolsVnd = ['DDG','BII','BDT','DHM','DTI','ROS','IBC','SAB','BIG','GAS','NAG','NVB','AFX','VNM','BVH','PDV','HNG','MSN','FRT','NKG','SSB','VLB','FIR','LPB','HT1','PNJ','CTG','BCM','VSC','SJS','TGG','KSB','VRE','TCO','VPB','DVM','DPM','DRC','VCG','VC3','DAH','MWG','HSG','VPI','CST','VJC','PVL','PVT','DGC','EIB','HPX','GMD','AGG','MSB','HVN','SCG','BID','BVB','TDP','DGW','DCL','KPF','POM','SHI','HBC','VFS','REE','DHC','KVC','BMI','CTF','PSD','TC6','DCM','GSP','AMS','SJD','HHG','HHV','VIP','NBB','TNA','BCC','TCM','HAG','IDI','VCS','VTD','VHC','THT','TTB','VOC','BSR','VGT','HAX','VIC','KOS','BIC','MPC','IDC','CII','ACB','HCM','TNH','PC1','PLX','PDR','OIL','VND','CDC','PAN','POW','PPC','MBB','HCD','C69','VEA','PHR','LMH','VAB','TLG','PTL','LTG','HVH','KDH','IJC','LCG','VTO','TTA','DPG','TCB','SSH','NVL','ANV','VCB','GVR','LDG','QTP','FPT','HDB','PLC','TPB','PVS','VGI','HPG','TVD','CSV','CKG','DPR','AAT','ELC','VIB','GKM','APG','NT2','BFC','TNI','SHB','HUT','TNG','SBT','NHH','PGN','BNA','TNT','OCB','NBC','ST8','VNE','PVD','ITA','VLC','TDM','HDC','PLP','VCI','CNG','PVG','CTS','TDN','STB','SGP','PVP','BWE','PVB','CTR','SSI','LCM','GEG','C47','TAR','PVC','KDC','ITQ','D2D','PET','DDV','EVE','ASM','SZC','MBG','SJF','TIP','L14','DRI','TVN','MBS','CMX','HDG','CTI','NED','GEX','VPG','KBC','VGC','PTB','DRH','DBD','YEG','KHP','SIP','HAH','OGC','ADS','SCR','VOS','HAP','NHV','NLG','DXG','ABS','CEO','LHG','HTN','ABB','DST','SAM','CRE','VC2','AAV','C4G','DVG','DXS','MIG','NDN','AAS','BAF','CLX','TCI','NAF','NRC','LDP','SGR','TTF','STG','GIL','SHS','VHM','KHG','PAS','HD6','PGB','CSC','PFL','TLD','HHS','CEN','EVF','TTH','QNS','APH','AAA','VGS','SKG','TLH','HQC','AMV','HAR','FTS','TCH','PXL','AGM','NTL','NAB','PSI','EVS','TDC','SRA','FCN','BCG','CVN','CCL','DSC','LAS','TVB','TEG','VTP','VPH','BSI','LIG','TSC','BVS','ORS','MST','IPA','DLG','FID','ABC','DAG','DBC','HHP','HII','TV2','SMC','JVC','G36','S99','VHG','TIG','MSR','BMS','SBS','SDA','APS','QCG','PVX','PXS','NHA','VIG','ITC','AGR','TVC','API','VIX','TCD','EVG','IDJ','BMP','VC7','VDS','VNB','DIG','CTD','LSS','SCI','DL1','FIT','BOT','CIG','QBS','PSH','DTD']
+    let symbolsVnd = ['DDG', 'BII', 'BDT', 'DHM', 'DTI', 'ROS', 'IBC', 'SAB', 'BIG', 'GAS', 'NAG', 'NVB', 'AFX', 'VNM', 'BVH', 'PDV', 'HNG', 'MSN', 'FRT', 'NKG', 'SSB', 'VLB', 'FIR', 'LPB', 'HT1', 'PNJ', 'CTG', 'BCM', 'VSC', 'SJS', 'TGG', 'KSB', 'VRE', 'TCO', 'VPB', 'DVM', 'DPM', 'DRC', 'VCG', 'VC3', 'DAH', 'MWG', 'HSG', 'VPI', 'CST', 'VJC', 'PVL', 'PVT', 'DGC', 'EIB', 'HPX', 'GMD', 'AGG', 'MSB', 'HVN', 'SCG', 'BID', 'BVB', 'TDP', 'DGW', 'DCL', 'KPF', 'POM', 'SHI', 'HBC', 'VFS', 'REE', 'DHC', 'KVC', 'BMI', 'CTF', 'PSD', 'TC6', 'DCM', 'GSP', 'AMS', 'SJD', 'HHG', 'HHV', 'VIP', 'NBB', 'TNA', 'BCC', 'TCM', 'HAG', 'IDI', 'VCS', 'VTD', 'VHC', 'THT', 'TTB', 'VOC', 'BSR', 'VGT', 'HAX', 'VIC', 'KOS', 'BIC', 'MPC', 'IDC', 'CII', 'ACB', 'HCM', 'TNH', 'PC1', 'PLX', 'PDR', 'OIL', 'VND', 'CDC', 'PAN', 'POW', 'PPC', 'MBB', 'HCD', 'C69', 'VEA', 'PHR', 'LMH', 'VAB', 'TLG', 'PTL', 'LTG', 'HVH', 'KDH', 'IJC', 'LCG', 'VTO', 'TTA', 'DPG', 'TCB', 'SSH', 'NVL', 'ANV', 'VCB', 'GVR', 'LDG', 'QTP', 'FPT', 'HDB', 'PLC', 'TPB', 'PVS', 'VGI', 'HPG', 'TVD', 'CSV', 'CKG', 'DPR', 'AAT', 'ELC', 'VIB', 'GKM', 'APG', 'NT2', 'BFC', 'TNI', 'SHB', 'HUT', 'TNG', 'SBT', 'NHH', 'PGN', 'BNA', 'TNT', 'OCB', 'NBC', 'ST8', 'VNE', 'PVD', 'ITA', 'VLC', 'TDM', 'HDC', 'PLP', 'VCI', 'CNG', 'PVG', 'CTS', 'TDN', 'STB', 'SGP', 'PVP', 'BWE', 'PVB', 'CTR', 'SSI', 'LCM', 'GEG', 'C47', 'TAR', 'PVC', 'KDC', 'ITQ', 'D2D', 'PET', 'DDV', 'EVE', 'ASM', 'SZC', 'MBG', 'SJF', 'TIP', 'L14', 'DRI', 'TVN', 'MBS', 'CMX', 'HDG', 'CTI', 'NED', 'GEX', 'VPG', 'KBC', 'VGC', 'PTB', 'DRH', 'DBD', 'YEG', 'KHP', 'SIP', 'HAH', 'OGC', 'ADS', 'SCR', 'VOS', 'HAP', 'NHV', 'NLG', 'DXG', 'ABS', 'CEO', 'LHG', 'HTN', 'ABB', 'DST', 'SAM', 'CRE', 'VC2', 'AAV', 'C4G', 'DVG', 'DXS', 'MIG', 'NDN', 'AAS', 'BAF', 'CLX', 'TCI', 'NAF', 'NRC', 'LDP', 'SGR', 'TTF', 'STG', 'GIL', 'SHS', 'VHM', 'KHG', 'PAS', 'HD6', 'PGB', 'CSC', 'PFL', 'TLD', 'HHS', 'CEN', 'EVF', 'TTH', 'QNS', 'APH', 'AAA', 'VGS', 'SKG', 'TLH', 'HQC', 'AMV', 'HAR', 'FTS', 'TCH', 'PXL', 'AGM', 'NTL', 'NAB', 'PSI', 'EVS', 'TDC', 'SRA', 'FCN', 'BCG', 'CVN', 'CCL', 'DSC', 'LAS', 'TVB', 'TEG', 'VTP', 'VPH', 'BSI', 'LIG', 'TSC', 'BVS', 'ORS', 'MST', 'IPA', 'DLG', 'FID', 'ABC', 'DAG', 'DBC', 'HHP', 'HII', 'TV2', 'SMC', 'JVC', 'G36', 'S99', 'VHG', 'TIG', 'MSR', 'BMS', 'SBS', 'SDA', 'APS', 'QCG', 'PVX', 'PXS', 'NHA', 'VIG', 'ITC', 'AGR', 'TVC', 'API', 'VIX', 'TCD', 'EVG', 'IDJ', 'BMP', 'VC7', 'VDS', 'VNB', 'DIG', 'CTD', 'LSS', 'SCI', 'DL1', 'FIT', 'BOT', 'CIG', 'QBS', 'PSH', 'DTD']
+    // let symbolsVnd = CK
     let promise = [];
     let stat = { req: 0, res: 0, total: symbolsVnd.length }
     for (let s of symbolsVnd) {
@@ -125,7 +129,15 @@ await (async function BCTC() {
       while (stat.req - stat.res >= 50) {
         await Exchange.wait(200)
       }
-      let a = Exchange.CafeF.BCTC(s);
+      let a = {}
+      if(!CK.includes(s))
+      {
+        a = Exchange.CafeF.BCTC(s);
+      }else{
+        a = Exchange.CafeF.BCTC(s);
+        // a = Exchange.CafeF.BCTCCK(s);
+      }
+      
       // promise.push(a);
 
       a.then(data => {
@@ -140,7 +152,7 @@ await (async function BCTC() {
     // let a = await Promise.all(promise);
     while (stat.req - stat.res > 0) {
       await Exchange.wait(200)
-    }   
+    }
     data = [...promise]
     fs.writeFileSync("./profile/BCTC.json", JSON.stringify(promise));
   }
@@ -151,10 +163,10 @@ await (async function BCTC() {
       m["BCTC"] = e;
     }
     let ok = false;
-    Object.keys(e.values).forEach(k=>{
+    Object.keys(e.values).forEach(k => {
       // console.log(k,e.values[k])
-      e.values[k].forEach(ee=>{
-        if(ee != '' ){
+      e.values[k].forEach(ee => {
+        if (ee != '') {
           ok = true;
         }
       })
@@ -759,7 +771,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   }
   if (stockStore[symbol]) {
     let tradingInfo = stockStore[symbol].tradingInfo;
-    if (tradingInfo){
+    if (tradingInfo) {
       avg["StockStatus"] = tradingInfo.StockStatus;
       // console.table(tradingInfo)
       avg["bvps"] = tradingInfo.BVPS;
@@ -767,37 +779,51 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
 
     let bctc = stockStore[symbol].BCTC;
 
-    if(bctc){
+    if (bctc) {
       // console.log(bctc)
       let idx = -1;
-     for  ( const [i,e] of bctc.head.entries()){
-        // console.log(e,i)
-        if(e.trim() == "Quý 1- 2023")
-        {
-          idx = i;
+      let f = async (h) => {
+        let idx = -1;
+        let i = 0;
+        for (let e of h) {
+          if (e.trim() == "Quý 1- 2023") {
+            idx = i;
+          }
+          // if(symbol == "FCN")   
+          // console.log("idxOUT",idx,e.trim() == "Quý 1- 2023",e.trim())  
+          i++;
         }
+        return idx;
       }
-      if(symbol == "HPG"){
+
+      idx = await f(bctc.head);
+
+      if (symbol == "FCN") {
         // bctc.head.forEach((e,i)=>{console.log(i,e.trim(),e.trim()== "Quý 1- 2023")})
         // console.table(bctc.head)
-        // console.log("idx",idx)
+        // console.log("idx", idx)
         // console.table(bctc.values)
       }
-        
-      if(idx > 0 ){
-        // if(symbol == "HPG")
-          // console.table(bctc.values)
-        // console.log(avg)
+
+      if (idx < 0) idx = 4;
+
+      if (idx > 0) {
         let k1 = "I. Tiền và các khoản tương đương tiền"
         let k2 = "II. Các khoản đầu tư tài chính ngắn hạn"
-
-        // console.log(symbol,bctc.values[k1])
-        avg["MI"] = +bctc.values[k1][idx-1].replaceAll(",","")
-        avg["MII"] = +bctc.values[k2][idx-1].replaceAll(",","")
-        if(avg["MI"]){
-          // console.log(avg)
+        if (bctc.values[k1]) {
+          if (bctc.values[k1].length <= idx) {
+          } else {
+            avg["MI"] = bctc.values[k1][idx - 1].replaceAll(",", "")
+            avg["MII"] = bctc.values[k2][idx - 1].replaceAll(",", "")
+            if (!avg["MI"]) {
+              avg["MI"] = bctc.values[k1][idx - 2].replaceAll(",", "")
+              avg["MII"] = bctc.values[k2][idx - 2].replaceAll(",", "")
+            }
+            avg["MI"] = +avg["MI"]
+            avg["MII"] = +avg["MII"]
+            avg["MIII"] = avg["MII"] + avg["MI"]
+          }
         }
-        
       }
     }
   }
