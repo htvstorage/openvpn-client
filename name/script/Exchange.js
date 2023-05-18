@@ -802,7 +802,7 @@ Exchange.CafeF.BCTC = async function (code) {
       },
       "body": null,
       "method": "GET",
-      agent
+      // agent
     });
   }
 
@@ -816,12 +816,12 @@ Exchange.CafeF.BCTC = async function (code) {
   let head = []
   let values = {}
   
-  fs.writeFileSync("data.html ", data)
+  // fs.writeFileSync("data.html ", data)
   let z = d.querySelectorAll("table[id]");
   // z.forEach(e => console.log(e.getAttribute("id")))
-  console.log(code)
+  // console.log(code)
   d.querySelector("#tblGridData").querySelectorAll("td").forEach((e,i) => { 
-    console.log(i,e.textContent);
+    // console.log(i,e.textContent);
      head.push(e.textContent) })
   d.querySelector("#tableContent").querySelectorAll("tr").forEach(e => { 
     let key = "";
@@ -841,7 +841,7 @@ Exchange.CafeF.BCTC = async function (code) {
   })
   // if(data.includes("tableContent")){
 
-  console.table(values)
+  // console.table(values)
   return {code:code,head:head,values:values};
 }
 Exchange.VietStock = function () {

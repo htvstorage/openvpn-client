@@ -121,7 +121,7 @@ await (async function BCTC() {
     let stat = { req: 0, res: 0, total: symbolsVnd.length }
     for (let s of symbolsVnd) {
       stat.req++;
-      while (stat.req - stat.res >= 5) {
+      while (stat.req - stat.res >= 50) {
         await Exchange.wait(200)
       }
       let a = Exchange.CafeF.BCTC(s);
@@ -140,13 +140,25 @@ await (async function BCTC() {
     data = [...promise]
     fs.writeFileSync("./profile/BCTC.json", JSON.stringify(promise));
   }
+  let c = 0;
+  data.forEach(e => {
+    let m = stockStore[e.code]
+    if (m) {
+      m["BCTC"] = e;
+    }
+    let ok = false;
+    Object.keys(e.values).forEach(k=>{
+      // console.log(k,e.values[k])
+      e.values[k].forEach(ee=>{
+        if(ee != '' ){
+          ok = true;
+        }
+      })
 
-  // data.forEach(e => {
-  //   let m = stockStore[e.StockCode]
-  //   if (m) {
-  //     m["tradingInfo"] = e;
-  //   }
-  // })
+    })
+
+    // if(!ok){console.log(c++,e.code)}
+  })
 
 })()
 
@@ -747,7 +759,43 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
       avg["StockStatus"] = tradingInfo.StockStatus;
       // console.table(tradingInfo)
       avg["bvps"] = tradingInfo.BVPS;
-    }      
+    }
+
+    let bctc = stockStore[symbol].BCTC;
+
+    if(bctc){
+      // console.log(bctc)
+      let idx = -1;
+     for  ( const [i,e] of bctc.head.entries()){
+        // console.log(e,i)
+        if(e.trim() == "Quý 1- 2023")
+        {
+          idx = i;
+        }
+      }
+      if(symbol == "HPG"){
+        // bctc.head.forEach((e,i)=>{console.log(i,e.trim(),e.trim()== "Quý 1- 2023")})
+        // console.table(bctc.head)
+        // console.log("idx",idx)
+        // console.table(bctc.values)
+      }
+        
+      if(idx > 0 ){
+        // if(symbol == "HPG")
+          // console.table(bctc.values)
+        // console.log(avg)
+        let k1 = "I. Tiền và các khoản tương đương tiền"
+        let k2 = "II. Các khoản đầu tư tài chính ngắn hạn"
+
+        // console.log(symbol,bctc.values[k1])
+        avg["MI"] = +bctc.values[k1][idx-1].replaceAll(",","")
+        avg["MII"] = +bctc.values[k2][idx-1].replaceAll(",","")
+        if(avg["MI"]){
+          // console.log(avg)
+        }
+        
+      }
+    }
   }
 
   avg.avgValue = Math.floor(avg.avgValue * 100) / 100
