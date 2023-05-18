@@ -116,7 +116,8 @@ await (async function BCTC() {
     data = JSON.parse(json);
   } else {
     let vndGetAllSymbols = await Exchange.vndGetAllSymbols();
-    let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 }).map(e => { return e.code })
+    // let symbolsVnd = vndGetAllSymbols.filter(s => { return s.code.length <= 3 }).map(e => { return e.code })
+    let symbolsVnd = ['DDG','BII','BDT','DHM','DTI','ROS','IBC','SAB','BIG','GAS','NAG','NVB','AFX','VNM','BVH','PDV','HNG','MSN','FRT','NKG','SSB','VLB','FIR','LPB','HT1','PNJ','CTG','BCM','VSC','SJS','TGG','KSB','VRE','TCO','VPB','DVM','DPM','DRC','VCG','VC3','DAH','MWG','HSG','VPI','CST','VJC','PVL','PVT','DGC','EIB','HPX','GMD','AGG','MSB','HVN','SCG','BID','BVB','TDP','DGW','DCL','KPF','POM','SHI','HBC','VFS','REE','DHC','KVC','BMI','CTF','PSD','TC6','DCM','GSP','AMS','SJD','HHG','HHV','VIP','NBB','TNA','BCC','TCM','HAG','IDI','VCS','VTD','VHC','THT','TTB','VOC','BSR','VGT','HAX','VIC','KOS','BIC','MPC','IDC','CII','ACB','HCM','TNH','PC1','PLX','PDR','OIL','VND','CDC','PAN','POW','PPC','MBB','HCD','C69','VEA','PHR','LMH','VAB','TLG','PTL','LTG','HVH','KDH','IJC','LCG','VTO','TTA','DPG','TCB','SSH','NVL','ANV','VCB','GVR','LDG','QTP','FPT','HDB','PLC','TPB','PVS','VGI','HPG','TVD','CSV','CKG','DPR','AAT','ELC','VIB','GKM','APG','NT2','BFC','TNI','SHB','HUT','TNG','SBT','NHH','PGN','BNA','TNT','OCB','NBC','ST8','VNE','PVD','ITA','VLC','TDM','HDC','PLP','VCI','CNG','PVG','CTS','TDN','STB','SGP','PVP','BWE','PVB','CTR','SSI','LCM','GEG','C47','TAR','PVC','KDC','ITQ','D2D','PET','DDV','EVE','ASM','SZC','MBG','SJF','TIP','L14','DRI','TVN','MBS','CMX','HDG','CTI','NED','GEX','VPG','KBC','VGC','PTB','DRH','DBD','YEG','KHP','SIP','HAH','OGC','ADS','SCR','VOS','HAP','NHV','NLG','DXG','ABS','CEO','LHG','HTN','ABB','DST','SAM','CRE','VC2','AAV','C4G','DVG','DXS','MIG','NDN','AAS','BAF','CLX','TCI','NAF','NRC','LDP','SGR','TTF','STG','GIL','SHS','VHM','KHG','PAS','HD6','PGB','CSC','PFL','TLD','HHS','CEN','EVF','TTH','QNS','APH','AAA','VGS','SKG','TLH','HQC','AMV','HAR','FTS','TCH','PXL','AGM','NTL','NAB','PSI','EVS','TDC','SRA','FCN','BCG','CVN','CCL','DSC','LAS','TVB','TEG','VTP','VPH','BSI','LIG','TSC','BVS','ORS','MST','IPA','DLG','FID','ABC','DAG','DBC','HHP','HII','TV2','SMC','JVC','G36','S99','VHG','TIG','MSR','BMS','SBS','SDA','APS','QCG','PVX','PXS','NHA','VIG','ITC','AGR','TVC','API','VIX','TCD','EVG','IDJ','BMP','VC7','VDS','VNB','DIG','CTD','LSS','SCI','DL1','FIT','BOT','CIG','QBS','PSH','DTD']
     let promise = [];
     let stat = { req: 0, res: 0, total: symbolsVnd.length }
     for (let s of symbolsVnd) {
@@ -136,7 +137,10 @@ await (async function BCTC() {
         promise.push(data);
       })
     }
-    // let a = await Promise.all(promise);   
+    // let a = await Promise.all(promise);
+    while (stat.req - stat.res > 0) {
+      await Exchange.wait(200)
+    }   
     data = [...promise]
     fs.writeFileSync("./profile/BCTC.json", JSON.stringify(promise));
   }
