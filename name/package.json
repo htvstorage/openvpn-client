@@ -10,6 +10,7 @@
     "log4js": "^6.6.1",
     "mathjs": "^11.5.0",
     "node-fetch": "^3.3.0",
+    "node-html-parser": "^6.1.5",
     "pdfjs-dist": "^3.2.146",
     "puppeteer": "^16.2.0",
     "request": "^2.88.2",
