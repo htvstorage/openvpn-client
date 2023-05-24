@@ -1012,6 +1012,7 @@ async function processData() {
             })
 
             fs.writeFileSync("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + "_" + "busd" + ".log", str, (e) => { if (e) { console.log(e) } })
+            fs.writeFileSync("./profile/busd.json",JSON.stringify(summary));
             writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_BUSD_" + datekey + ".xlsx", summary)
 
             strtable = getTable(values);

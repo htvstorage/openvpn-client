@@ -114,11 +114,11 @@ async () => {
 
 
 (async function (a, b) {
-
-    let dateFrom = new Date(2023, 3, 1)
-    let dateTo = new Date(2023, 3, 20)
-    let dateShortFrom = new Date(2023, 3, 19)
-    let meanvolLow = 50000;
+    //month -1
+    let dateFrom = new Date(2023, 4, 11)
+    let dateTo = new Date(2023, 4, 19)
+    let dateShortFrom = new Date(2023, 4, 14)
+    let meanvolLow = 5000;
     console.log("AVC", a, b)
     let check = (val) => {
         if (val == undefined || Number.isNaN(val)) {
@@ -126,7 +126,7 @@ async () => {
         }
         return val;
     }
-    const jsfiles = await glob('./trans/*/*.txt', { ignore: 'trans/20230420/*' })
+    const jsfiles = await glob('./trans/*/*.txt', { ignore: 'trans/20230525/*' })
     let mapFiles = {}
     let totalFiles = 0;
 
@@ -136,12 +136,14 @@ async () => {
             let symbol = e.slice(e.lastIndexOf("/") + 1, e.lastIndexOf("_"))
             if (symbol.length != 3) return;
             let date = e.slice(e.indexOf("/") + 1, e.lastIndexOf("/"))
-            // console.log(symbol, date)
+            // console.log(symbol, date,e)
 
             let strdate0 = date;
             let strdate = strdate0.slice(0, 4) + "-" + strdate0.slice(4, 6) + "-" + strdate0.slice(6);
+            // console.log(strdate)
             let time = new Date(strdate)
             if (time.getTime() >= dateFrom.getTime() && time.getTime() <= dateTo.getTime()) {
+                // console.log(strdate,e)
                 totalFiles++;
                 if (mapFiles[symbol] == undefined) mapFiles[symbol] = {}
                 if (mapFiles[symbol][date] == undefined) mapFiles[symbol][date] = { symbol: symbol, date: date, file: e }
@@ -165,7 +167,7 @@ async () => {
         })
         shortDays[s] = count;
     })
-
+    // console.table(mapFiles)
     let dataStore = {};
     let HPG = mapFiles["HPG"];
     let moneyRatio = {}
@@ -354,6 +356,8 @@ async () => {
         sum['symbol'] = s;
         sum['busd_val'] = sum.val_bu - sum.val_sd;
         sum['busd'] = sum.vol_bu - sum.vol_sd;
+        sum['short_busd_val'] = sumShort.val_bu - sumShort.val_sd;
+        sum['short_busd'] = sumShort.vol_bu - sumShort.vol_sd;
         out[s] = sum
 
     })
