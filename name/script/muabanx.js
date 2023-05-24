@@ -479,6 +479,7 @@ async function processData() {
       let max = { sd: [], bu: [] };
       let top = {};
       let oulier = []
+      let summary = []
       let pp = new Promise((resolve, reject) => {
         let length = Object.keys(res).length;
         // let res = 0; 
@@ -490,6 +491,24 @@ async function processData() {
         Object.keys(res).forEach((symbol, index) => {
           let symbolData = res[symbol];
           let count = 0;
+          // console.table(symbolData.data.at(-1))
+          let end = symbolData.data.at(-1);
+          if (end) {
+            let p = stockdata[symbol]
+            let add = {};
+            let v = end;
+            if (p != undefined) {
+              add.c1 = p.lastPrice;
+              add.pct1 = Math.floor((p.lastPrice - v.c) / v.c * 10000) / 100;
+              add.pctc = Math.floor((p.lastPrice - v.c + v.change) / (v.c - v.change) * 10000) / 100;
+              add.pctmeanc = Math.floor((p.lastPrice - v.meanc) / v.meanc * 10000) / 100;
+              add["%maxc"] = Math.floor((v["maxc"] - p.lastPrice) / (p.lastPrice) * 10000) / 100;
+              add["%minc"] = Math.floor((p.lastPrice - v["minc"]) / (p.lastPrice) * 10000) / 100;
+              // console.log(add, p.lastPrice, v["maxc"], v["minc"], mul)
+            }
+            summary.push({ symbol: symbol, ...add, ...symbolData.data.at(-1) })
+          }
+
           if (symbolData.floor == 'HOSE') {
             let x = symbolData.data;
             // console.log(symbol)
@@ -951,11 +970,54 @@ async function processData() {
               writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + ".xlsx", newOutlier)
             }
 
+            summary.forEach(e => {
+              let r = e.acum_val_bu / e.acum_val_sd;
+              e.busd_end=Number.isNaN(r)? -1:Number.isFinite(r)?r:999999              
+              if (stockStore[e.symbol] != undefined)
+                e["Name"] = stockStore[e.symbol].SectorName;
+            })
 
-            let strtable = getTable(values);
+            let fix = ['symbol', 'busd_end', 'Name', 'profit', 'pctmeanc', 'meanc', 'c1', 'pct1', 'pctc', 'pct', '%maxc', '%minc', 'Rval_bu', 'Rval_sd', 'c', 'change', 'h', 'l', 'o', 'bu', 'val_bu', 'sd', 'val_sd', 'total_vol', 'sum_vol', 'val', 'acum_val', 'datetime', 'date', 'ORRval_bu', 'ORval_bu', 'ORRval', 'Rval', 'ORval', 'ORRval_sd', 'ORval_sd', 'ORRval_uk', 'Rval_uk', 'ORval_uk', 'pbu', 'psd', 'puk', 'bs', 'sb', 'abu', 'asd', 'auk', 'rsd', 'bu-sd', 'bu-sd_val', 'avg_val_bu', 'avg_val_sd', 'acum_busd', 'acum_busd_val', 'acum_val_bu', 'acum_val_sd', 'rbusd', 'meanc', 'stdc', 'maxc', 'minc', 'Oc', 'ORRc', 'Rc', 'ORc', 'meanh', 'stdh', 'maxh', 'minh', 'Oh', 'ORRh', 'Rh', 'ORh', 'meanl', 'stdl', 'maxl', 'minl', 'Ol', 'ORRl', 'Rl', 'ORl', 'meano', 'stdo', 'maxo', 'mino', 'Oo', 'ORRo', 'Ro', 'ORo', 'meanbu', 'stdbu', 'maxbu', 'minbu', 'Obu', 'ORRbu', 'Rbu', 'ORbu', 'meanval_bu', 'stdval_bu', 'maxval_bu', 'minval_bu', 'Oval_bu', 'meantotal_vol', 'stdtotal_vol', 'maxtotal_vol', 'mintotal_vol', 'Ototal_vol', 'ORRtotal_vol', 'Rtotal_vol', 'ORtotal_vol', 'meansum_vol', 'stdsum_vol', 'maxsum_vol', 'minsum_vol', 'Osum_vol', 'ORRsum_vol', 'Rsum_vol', 'ORsum_vol', 'meanval', 'stdval', 'maxval', 'minval', 'Oval', 'meanacum_val', 'stdacum_val', 'maxacum_val', 'minacum_val', 'Oacum_val', 'ORRacum_val', 'Racum_val', 'ORacum_val', 'meansd', 'stdsd', 'maxsd', 'minsd', 'Osd', 'ORRsd', 'Rsd', 'ORsd', 'meanval_sd', 'stdval_sd', 'maxval_sd', 'minval_sd', 'Oval_sd', 'meanpbu', 'stdpbu', 'maxpbu', 'minpbu', 'Opbu', 'ORRpbu', 'Rpbu', 'ORpbu', 'meanpsd', 'stdpsd', 'maxpsd', 'minpsd', 'Opsd', 'ORRpsd', 'Rpsd', 'ORpsd', 'meanpuk', 'stdpuk', 'maxpuk', 'minpuk', 'Opuk', 'ORRpuk', 'Rpuk', 'ORpuk', 'meanbs', 'stdbs', 'maxbs', 'minbs', 'Obs', 'ORRbs', 'Rbs', 'ORbs', 'meansb', 'stdsb', 'maxsb', 'minsb', 'Osb', 'ORRsb', 'Rsb', 'ORsb', 'meanabu', 'stdabu', 'maxabu', 'minabu', 'Oabu', 'ORRabu', 'Rabu', 'ORabu', 'meanasd', 'stdasd', 'maxasd', 'minasd', 'Oasd', 'ORRasd', 'Rasd', 'ORasd', 'meanauk', 'stdauk', 'maxauk', 'minauk', 'Oauk', 'ORRauk', 'Rauk', 'ORauk', 'meanrsd', 'stdrsd', 'maxrsd', 'minrsd', 'Orsd', 'ORRrsd', 'Rrsd', 'ORrsd', 'meanrbu', 'stdrbu', 'maxrbu', 'minrbu', 'Orbu', 'ORRrbu', 'Rrbu', 'ORrbu', 'meanbu-sd', 'stdbu-sd', 'maxbu-sd', 'minbu-sd', 'Obu-sd', 'ORRbu-sd', 'Rbu-sd', 'ORbu-sd', 'meanbu-sd_val', 'stdbu-sd_val', 'maxbu-sd_val', 'minbu-sd_val', 'Obu-sd_val', 'ORRbu-sd_val', 'Rbu-sd_val', 'ORbu-sd_val', 'meanacum_busd', 'stdacum_busd', 'maxacum_busd', 'minacum_busd', 'Oacum_busd', 'ORRacum_busd', 'Racum_busd', 'ORacum_busd', 'meanacum_busd_val', 'stdacum_busd_val', 'maxacum_busd_val', 'minacum_busd_val', 'Oacum_busd_val', 'ORRacum_busd_val', 'Racum_busd_val', 'ORacum_busd_val', 'meanacum_val_bu', 'stdacum_val_bu', 'maxacum_val_bu', 'minacum_val_bu', 'Oacum_val_bu', 'ORRacum_val_bu', 'Racum_val_bu', 'ORacum_val_bu', 'meanacum_val_sd', 'stdacum_val_sd', 'maxacum_val_sd', 'minacum_val_sd', 'Oacum_val_sd', 'ORRacum_val_sd', 'Racum_val_sd', 'ORacum_val_sd', 'meanrbusd', 'stdrbusd', 'maxrbusd', 'minrbusd', 'Orbusd', 'ORRrbusd', 'Rrbusd', 'ORrbusd', 'meanuk', 'stduk', 'maxuk', 'minuk', 'Ouk', 'ORRuk', 'Ruk', 'ORuk', 'meanval_uk', 'stdval_uk', 'maxval_uk', 'minval_uk', 'Oval_uk', 'meanruk', 'stdruk', 'maxruk', 'minruk', 'Oruk', 'ORRruk', 'Rruk', 'ORruk', 'rbu', 'uk', 'val_uk', 'ruk']
+            let newSummary = [];
+            summary.forEach(
+              oe => {
+                let keys = Object.keys(oe);
+                keys = keys.filter(e => !fix.includes(e));
+                keys.sort();
+                keys = [...fix, ...keys];
+                let oen = {}
+                keys.forEach(e => oen[e] = oe[e]);
+                let profit = symbolVal[oen["symbol"]]
+                if (profit != undefined) {
+                  oen["profit"] = profit;
+                }
+                newSummary.push(oen)
+              });
+
+            summary = newSummary;
+            //write summary
+            summary.sort((a, b) => {
+              return b.busd_end - a.busd_end;
+            })
+
+            let strtable = getTable(summary);
             let as = strtable.split("\n");
             let header = as[2] + "\n" + as[1] + "\n" + as[2];
             let str = "";
+            as.forEach((l, i) => {
+              str += l + "\n";
+              if (i > 3 && (i - 3) % 20 == 0) {
+                str += header + "\n";
+              }
+            })
+
+            fs.writeFileSync("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + "_" + "busd" + ".log", str, (e) => { if (e) { console.log(e) } })
+            writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_BUSD_" + datekey + ".xlsx", summary)
+
+            strtable = getTable(values);
+            as = strtable.split("\n");
+            header = as[2] + "\n" + as[1] + "\n" + as[2];
+            str = "";
             as.forEach((l, i) => {
               str += l + "\n";
               if (i > 3 && (i - 3) % 20 == 0) {
