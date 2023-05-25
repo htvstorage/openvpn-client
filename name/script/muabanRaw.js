@@ -103,7 +103,7 @@ async () => {
         data.push(sumSymbol);
         if (e.symbol == "HAG") {
             console.table(sumSymbol)
-            console.table(out)
+            // console.table(out)
         }
 
     }
@@ -115,9 +115,9 @@ async () => {
 
 (async function (a, b) {
     //month -1
-    let dateFrom = new Date(2023, 4, 11)
-    let dateTo = new Date(2023, 4, 19)
-    let dateShortFrom = new Date(2023, 4, 14)
+    let dateFrom = new Date(2023, 4, 1)
+    let dateTo = new Date(2023, 4, 26)
+    let dateShortFrom = new Date(2023, 4, 25)
     let meanvolLow = 5000;
     console.log("AVC", a, b)
     let check = (val) => {
@@ -126,7 +126,7 @@ async () => {
         }
         return val;
     }
-    const jsfiles = await glob('./trans/*/*.txt', { ignore: 'trans/20230525/*' })
+    const jsfiles = await glob('./trans/*/*.txt', { ignore: 'trans/20230425/*' })
     let mapFiles = {}
     let totalFiles = 0;
 
@@ -143,7 +143,7 @@ async () => {
             // console.log(strdate)
             let time = new Date(strdate)
             if (time.getTime() >= dateFrom.getTime() && time.getTime() <= dateTo.getTime()) {
-                // console.log(strdate,e)
+                console.log(strdate,e)
                 totalFiles++;
                 if (mapFiles[symbol] == undefined) mapFiles[symbol] = {}
                 if (mapFiles[symbol][date] == undefined) mapFiles[symbol][date] = { symbol: symbol, date: date, file: e }
@@ -220,7 +220,7 @@ async () => {
 
     })
     dataStore["HPG"].days = Object.keys(HPG).length;
-    console.table(moneyRatio)
+    // console.table(moneyRatio)
 
     Object.keys(mapFiles).forEach(s => {
         let symbolData = mapFiles[s];
@@ -376,7 +376,7 @@ async () => {
         })
         return e1;
     })
-    console.table(out1)
+    // console.table(out1)
 
     writeArrayJson2Xlsx("SumRaw.xlsx", out1);
 })(1, 2)
