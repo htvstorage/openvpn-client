@@ -108,9 +108,9 @@ await (async function tradinginfo() {
 })()
 
 
-let CK = ['BVS','AAS','BSI','FTS','HCM','AGR','EVS','DSC','SHS','CTS','SBS','APG','APS','BMS','MBS','PSI','ORS','VCI','TVB','TCI','SSI','VDS','VND','VIX','VIG','VFS']
-let NH = ['NVB','NAB','HDB','SHB','LPB','CTG','MBB','BID','ACB','MSB','PGB','OCB','ABB','BVB','EIB','VIB','VCB','STB','SSB','VAB','TCB','VPB','TPB']
-let BH = ['BMI','BVH','MIG','BIC']
+let CK = ['BVS', 'AAS', 'BSI', 'FTS', 'HCM', 'AGR', 'EVS', 'DSC', 'SHS', 'CTS', 'SBS', 'APG', 'APS', 'BMS', 'MBS', 'PSI', 'ORS', 'VCI', 'TVB', 'TCI', 'SSI', 'VDS', 'VND', 'VIX', 'VIG', 'VFS']
+let NH = ['NVB', 'NAB', 'HDB', 'SHB', 'LPB', 'CTG', 'MBB', 'BID', 'ACB', 'MSB', 'PGB', 'OCB', 'ABB', 'BVB', 'EIB', 'VIB', 'VCB', 'STB', 'SSB', 'VAB', 'TCB', 'VPB', 'TPB']
+let BH = ['BMI', 'BVH', 'MIG', 'BIC']
 await (async function BCTC() {
   console.log("BCTC")
   let data = []
@@ -130,14 +130,13 @@ await (async function BCTC() {
         await Exchange.wait(200)
       }
       let a = {}
-      if(!CK.includes(s))
-      {
+      if (!CK.includes(s)) {
         a = Exchange.CafeF.BCTC(s);
-      }else{
+      } else {
         a = Exchange.CafeF.BCTC(s);
         // a = Exchange.CafeF.BCTCCK(s);
       }
-      
+
       // promise.push(a);
 
       a.then(data => {
@@ -1056,9 +1055,10 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     avg["%MM" + e] = Math.floor((max - min) / max * 10000) / 100;
     avg["%MM2" + e] = Math.floor((max - min) / min * 10000) / 100;
     avg["%EE" + e] = Math.floor((filterData.at(checkDate).priceClose - c[i].at(checkDate)) / c[i].at(checkDate) * 10000) / 100;
-    avg["EEC" + e] = Math.floor((filterData.at(checkDate - 1).priceClose - c[i].at(checkDate)) / c[i].at(checkDate) *
-      (filterData.at(checkDate).priceClose - filterData.at(checkDate - 1).priceClose) / filterData.at(checkDate - 1).priceClose
-      * 10000) / 100;
+    if (filterData.at(checkDate - 1))
+      avg["EEC" + e] = Math.floor((filterData.at(checkDate - 1).priceClose - c[i].at(checkDate)) / c[i].at(checkDate) *
+        (filterData.at(checkDate).priceClose - filterData.at(checkDate - 1).priceClose) / filterData.at(checkDate - 1).priceClose
+        * 10000) / 100;
     avg["%PriceMax" + e] = Math.floor((max - filterData.at(checkDate).priceClose) / max * 10000) / 100;
     avg["%PriceMin" + e] = Math.floor((filterData.at(checkDate).priceClose - min) / min * 10000) / 100;
 
@@ -1206,12 +1206,14 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   // console.log(symbol)
   // console.table([bbe])
   // console.table([macde])
-  Object.keys(bbe).forEach(e => {
-    avg["BB" + e] = bbe[e];
-  })
-  Object.keys(macde).forEach(e => {
-    avg["MACD" + e] = macde[e];
-  })
+  if (bbe)
+    Object.keys(bbe).forEach(e => {
+      avg["BB" + e] = bbe[e];
+    })
+  if (macde)
+    Object.keys(macde).forEach(e => {
+      avg["MACD" + e] = macde[e];
+    })
 
   let tp = tpcp[symbol]
   if (tp != undefined) avg["tpcp"] = tp;
