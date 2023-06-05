@@ -840,6 +840,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   }
   filterData = filterData.reverse();
   let prices = filterData.map(e => e.priceClose);
+  let pct = filterData.map(e => (e.priceClose - e.priceBasic) / e.priceBasic * 100).reverse().map(e => Math.floor(e * 100) / 100);
   let vols = filterData.map(e => e.dealVolume);
 
   avg.priceClose = Math.floor(prices.at(checkDate) * 100) / 100;
@@ -1086,6 +1087,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let smaRet = shortPeriods.map(e => { return SMA.calculate({ period: e, values: prices }); });
   let numSidewayDays = Config.filter()["numSidewayDays"];
   let shortSidewayDays = Config.filter()["shortSidewayDays"];
+  let shortCeDays = Config.filter()["shortCeDays"];
+  let cepct = Config.filter()["cepct"];
   let t = [...prices];
   t.reverse();
   let x = t.slice(0, numSidewayDays);
@@ -1099,6 +1102,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let countDown = 0;
   let countVol = 0;
   let countVolMean = 0;
+  let countCeCont = 0;
+  let countCe = 0;
   x.forEach(e => {
     if (Math.abs(e - mean) / mean * 100 < sidewayThreshold) {
       count++;
@@ -1124,8 +1129,22 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     if (i < x.length - 1)
       if (e >= mean) { countUPMean2++; return true }
       else
-        return true;
+        return false;
+    return false;
+  })
+  // console.log(symbol)
+  // console.table(pct.slice(0, shortCeDays))
+  pct.slice(0, shortCeDays).every((e, i) => {
+    if (e >= cepct) { countCe++; return true }
+    else
+      return true;
     return true;
+  })
+  pct.slice(0, shortCeDays).every((e, i) => {
+    if (e >= cepct) { countCeCont++; return true }
+    else
+      return false;
+    return false;
   })
 
   x.every((e, i) => {
@@ -1167,6 +1186,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   avg["DOWN"] = countDown;
   avg["CountVol"] = countVol;
   avg["countVolMean"] = countVolMean;
+  avg["countCe"] = countCe;
+  avg["countCeCont"] = countCeCont;
 
   shortPeriods.forEach((e, i) => {
     avg["sma" + e] = Math.floor(smaRet[i].at(checkDate) * 100) / 100;
