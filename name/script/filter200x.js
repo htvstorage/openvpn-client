@@ -1195,6 +1195,22 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     avg["SVol" + e] = Math.floor(smaVol[i].at(checkDate) * 100) / 100;
     avg["%SVol" + e] = (Math.floor((vols.at(checkDate) - smaVol[i].at(checkDate)) / smaVol[i].at(checkDate) * 10000) / 100);
     avg["RSVol" + e] = (Math.floor(vols.at(checkDate) / smaVol[i].at(checkDate) * 100) / 100);
+
+    if(e == 200){
+      if (prices.at(checkDate) - smaRet[i].at(checkDate)  > 0 ){
+        for(let ii=1;ii<prices.length;ii++){
+          if(prices.at(-ii)> smaRet[i].at(-ii) && prices.at(-ii-1)< smaRet[i].at(-ii-1)){
+            // console.log(symbol,prices.at(-ii),smaRet[i].at(-ii),prices.at(-ii-1),smaRet[i].at(-ii-1))
+            avg["smacut" + e] = smaRet[i].at(-ii)
+            avg["pricesmacut" + e] = prices.at(-ii)
+            avg["smacuti" + e] = ii
+            avg["smacut" + e + "%"] = (Math.floor((prices.at(checkDate) - smaRet[i].at(-ii)) / smaRet[i].at(-ii) * 10000) / 100);
+            avg["smacutp" + e + "%"] = (Math.floor((prices.at(checkDate) - prices.at(-ii)) /prices.at(-ii) * 10000) / 100);
+            break;
+          }
+        }
+      }
+    }
   })
 
 
