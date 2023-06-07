@@ -887,6 +887,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let FBSQ = days.map((e, i) => { return [...datax[i].map(e => e.buyForeignQuantity / e.sellForeignQuantity)] })
 
   if (symbol == "TTF") console.table(FvalDelta[0])
+  
   let m = {
     BSL: BSL,
     BQ: BQ,
