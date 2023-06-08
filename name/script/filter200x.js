@@ -855,6 +855,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   avg.shares = os != undefined ? os.shares : 0;
   let hl = days.map((e, i) => { return [...datax[i].map(e => e.priceHigh), ...datax[i].map(e => e.priceLow)] })
   let hlp = days.map((e, i) => { return [...datax[i].map(e => (e.priceHigh - e.priceBasic) * 100 / e.priceBasic), ...datax[i].map(e => (e.priceLow - e.priceBasic) * 100 / e.priceBasic)] })
+  let hlpp = days.map((e, i) => { return [...datax[i].map(e => (e.priceHigh - e.priceLow) * 100 / e.priceBasic)] })
   let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
   let cpm = days.map((e, i) => {
     let aa = [...datax[i].map(e => e.priceClose)];
@@ -900,6 +901,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     HL: hl,
     CP: cp,
     HLP: hlp,
+    HLPP: hlpp,
     Vol: vol,
     Val: val,
     PVol: putvol,
@@ -995,7 +997,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   avg.predictVol = avg.vol/ratioTrade;
   avg.predictVal = avg.val/ratioTrade;
 
-  console.log(symbol,avg.vol,avg.predictVol,avg.val,avg.predictVal)
+  // console.log(symbol,avg.vol,avg.predictVol,avg.val,avg.predictVal)
 
   // console.log(checkTime.getFullYear(), checkTime.getMonth(), checkTime.getDate())
 
@@ -1044,6 +1046,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
         }
         let or = Math.floor((Math.abs(mean - m[me][i].at(-1 - checkDate)) - threshold * std) / Math.abs(mean) * 100) / 100;
         avg["OR" + me + e] = Number.isNaN(or) ? -999999 : or;
+        // if(me == "HLPP") console.log(  avg["mean" + me + e] )
         if (exclude.includes(me)) {
           return;
         }
