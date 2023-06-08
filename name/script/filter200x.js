@@ -992,8 +992,10 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     ratioTrade = 1;
   }
 
-  avg.pVol = avg.vol/ratioTrade;
-  avg.pVal = avg.val/ratioTrade;
+  avg.predictVol = avg.vol/ratioTrade;
+  avg.predictVal = avg.val/ratioTrade;
+
+  console.log(symbol,avg.vol,avg.predictVol,avg.val,avg.predictVal)
 
   // console.log(checkTime.getFullYear(), checkTime.getMonth(), checkTime.getDate())
 
