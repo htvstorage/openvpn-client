@@ -1113,6 +1113,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let countVolMean = 0;
   let countCeCont = 0;
   let countCe = 0;
+  let countFlo = 0;
   x.forEach(e => {
     if (Math.abs(e - mean) / mean * 100 < sidewayThreshold) {
       count++;
@@ -1149,6 +1150,14 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
       return true;
     return true;
   })
+
+  pct.slice(0, shortCeDays).every((e, i) => {
+    if (e <= -cepct) { countFlo++; return true }
+    else
+      return true;
+    return true;
+  })
+
   pct.slice(0, shortCeDays).every((e, i) => {
     if (e >= cepct) { countCeCont++; return true }
     else
@@ -1196,6 +1205,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   avg["CountVol"] = countVol;
   avg["countVolMean"] = countVolMean;
   avg["countCe"] = countCe;
+  avg["countFlo"] = countFlo;
   avg["countCeCont"] = countCeCont;
 
   shortPeriods.forEach((e, i) => {
