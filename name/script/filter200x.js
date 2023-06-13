@@ -853,6 +853,9 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let os = shares[symbol];
   avg.ownership = os != undefined ? os.ownership : 0;
   avg.shares = os != undefined ? os.shares : 0;
+  let h = days.map((e, i) => { return [...datax[i].map(e => e.priceHigh)] })
+  let l = days.map((e, i) => { return [...datax[i].map(e => e.priceLow)] })
+  let hl2 = days.map((e, i) => { return [...datax[i].map(e => e.priceHigh), ...datax[i].map(e => e.priceLow)] })
   let hl = days.map((e, i) => {
     let hl = [];
     let h = [...datax[i].map(e => e.priceHigh)]
@@ -918,6 +921,9 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     C: c,
     CPM: cpm,
     HL: hl,
+    H: h,
+    L: l,
+    HL2: hl2,
     CP: cp,
     HLP: hlp,
     HLPP: hlpp,
