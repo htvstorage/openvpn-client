@@ -853,8 +853,27 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let os = shares[symbol];
   avg.ownership = os != undefined ? os.ownership : 0;
   avg.shares = os != undefined ? os.shares : 0;
-  let hl = days.map((e, i) => { return [...datax[i].map(e => e.priceHigh), ...datax[i].map(e => e.priceLow)] })
-  let hlp = days.map((e, i) => { return [...datax[i].map(e => (e.priceHigh - e.priceBasic) * 100 / e.priceBasic), ...datax[i].map(e => (e.priceLow - e.priceBasic) * 100 / e.priceBasic)] })
+  let hl = days.map((e, i) => {
+    let hl = [];
+    let h = [...datax[i].map(e => e.priceHigh)]
+    let l = [...datax[i].map(e => e.priceLow)]
+    h.forEach((e, i) => {
+      hl.push(e);
+      hl.push(l[i]);
+    })
+    return hl;
+  })
+  let hlp = days.map((e, i) => {
+    let hl = [];
+    let h = [...datax[i].map(e => (e.priceHigh - e.priceBasic) * 100 / e.priceBasic)]
+    let l = [...datax[i].map(e => (e.priceLow - e.priceBasic) * 100 / e.priceBasic)]
+    h.forEach((e, i) => {
+      hl.push(e);
+      hl.push(l[i]);
+    })
+    return hl;
+    //return [...datax[i].map(e => (e.priceHigh - e.priceBasic) * 100 / e.priceBasic), ...datax[i].map(e => (e.priceLow - e.priceBasic) * 100 / e.priceBasic)] 
+  })
   let hlpp = days.map((e, i) => { return [...datax[i].map(e => (e.priceHigh - e.priceLow) * 100 / e.priceBasic)] })
   let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
   let cpm = days.map((e, i) => {
@@ -888,7 +907,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let FBSQ = days.map((e, i) => { return [...datax[i].map(e => e.buyForeignQuantity / e.sellForeignQuantity)] })
 
   if (symbol == "TTF") console.table(FvalDelta[0])
-  
+
   let m = {
     BSL: BSL,
     BQ: BQ,
@@ -994,8 +1013,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     ratioTrade = 1;
   }
 
-  avg.predictVol = avg.vol/ratioTrade;
-  avg.predictVal = avg.val/ratioTrade;
+  avg.predictVol = avg.vol / ratioTrade;
+  avg.predictVal = avg.val / ratioTrade;
 
   // console.log(symbol,avg.vol,avg.predictVol,avg.val,avg.predictVal)
 
@@ -1215,16 +1234,16 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     avg["%SVol" + e] = (Math.floor((vols.at(checkDate) - smaVol[i].at(checkDate)) / smaVol[i].at(checkDate) * 10000) / 100);
     avg["RSVol" + e] = (Math.floor(vols.at(checkDate) / smaVol[i].at(checkDate) * 100) / 100);
 
-    if(e == 200){
-      if (prices.at(checkDate) - smaRet[i].at(checkDate)  > 0 ){
-        for(let ii=1;ii<prices.length;ii++){
-          if(prices.at(-ii)> smaRet[i].at(-ii) && prices.at(-ii-1)< smaRet[i].at(-ii-1)){
+    if (e == 200) {
+      if (prices.at(checkDate) - smaRet[i].at(checkDate) > 0) {
+        for (let ii = 1; ii < prices.length; ii++) {
+          if (prices.at(-ii) > smaRet[i].at(-ii) && prices.at(-ii - 1) < smaRet[i].at(-ii - 1)) {
             // console.log(symbol,prices.at(-ii),smaRet[i].at(-ii),prices.at(-ii-1),smaRet[i].at(-ii-1))
             avg["smacut" + e] = smaRet[i].at(-ii)
             avg["pricesmacut" + e] = prices.at(-ii)
             avg["smacuti" + e] = ii
             avg["smacut" + e + "%"] = (Math.floor((prices.at(checkDate) - smaRet[i].at(-ii)) / smaRet[i].at(-ii) * 10000) / 100);
-            avg["smacutp" + e + "%"] = (Math.floor((prices.at(checkDate) - prices.at(-ii)) /prices.at(-ii) * 10000) / 100);
+            avg["smacutp" + e + "%"] = (Math.floor((prices.at(checkDate) - prices.at(-ii)) / prices.at(-ii) * 10000) / 100);
             break;
           }
         }
