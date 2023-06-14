@@ -1139,6 +1139,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let countCeCont = 0;
   let countCe = 0;
   let countFlo = 0;
+  let maxCountCe = 0;
   x.forEach(e => {
     if (Math.abs(e - mean) / mean * 100 < sidewayThreshold) {
       count++;
@@ -1169,7 +1170,14 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   })
   // console.log(symbol)
   // console.table(pct.slice(0, shortCeDays))
+  let tmpCe = 0;
+
   pct.slice(0, shortCeDays).every((e, i) => {
+    if (e >= cepct) { tmpCe++; if (maxCountCe < tmpCe) maxCountCe = tmpCe } 
+    else { 
+      tmpCe = 0;
+    }
+
     if (e >= cepct) { countCe++; return true }
     else
       return true;
@@ -1232,6 +1240,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   avg["countCe"] = countCe;
   avg["countFlo"] = countFlo;
   avg["countCeCont"] = countCeCont;
+  avg["MaxcountCe"] = maxCountCe;
 
   shortPeriods.forEach((e, i) => {
     avg["sma" + e] = Math.floor(smaRet[i].at(checkDate) * 100) / 100;
