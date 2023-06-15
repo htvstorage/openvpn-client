@@ -82,7 +82,7 @@ await (async function tradinginfo() {
         await Exchange.wait(200)
       }
       let a = Exchange.VietStock.TradingInfo(s);
-      // promise.push(a);
+      promise.push(a);
 
       a.then(data => {
         stat.res++;
@@ -93,7 +93,7 @@ await (async function tradinginfo() {
         promise.push(data);
       })
     }
-    // let a = await Promise.all(promise);   
+    let a = await Promise.all(promise);   
     data = [...promise]
     fs.writeFileSync("./profile/tradinginfo.json", JSON.stringify(promise));
   }
@@ -266,7 +266,7 @@ async function downloadReportFinancial() {
     if (stat2.res % 10 == 0) {
       console.log(stat2, queue.length)
     }
-    queue.reverse();
+    // queue.reverse();
     let symbol = queue.pop();
     if (symbol == undefined) {
       break;
@@ -275,10 +275,14 @@ async function downloadReportFinancial() {
     let ratios = Exchange.financialReportFireAnt(symbol);
 
     let p = ratios.then(res => {
-      ratiosa.push(res)
+      if(res.success)
+        ratiosa.push(res)
+      else
+        queue.push(symbol)
       stat2.res++;
+      
     });
-
+    await p;
     all.push(p);
   }
   // await Exchange.wait(5000);
@@ -774,6 +778,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
       avg["StockStatus"] = tradingInfo.StockStatus;
       // console.table(tradingInfo)
       avg["bvps"] = tradingInfo.BVPS;
+      avg["KLCPLH"] = tradingInfo.KLCPLH;
     }
 
     let bctc = stockStore[symbol].BCTC;

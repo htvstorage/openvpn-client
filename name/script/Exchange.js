@@ -765,7 +765,7 @@ Exchange.financialReportFireAnt = async function (symbol) {
     }
   }
 
-  return { Q1: a[0], Y1: a[1], Q2: a[2], Y2: a[3], symbol: symbol };
+  return { Q1: a[0], Y1: a[1], Q2: a[2], Y2: a[3], symbol: symbol, success:success };
 }
 
 
@@ -946,6 +946,7 @@ Exchange.VietStock.TradingInfo = async function (code) {
   }
   data = JSON.parse(data);
   // console.table(data);
+  if(!data.StockCode) data.StockCode = code;
   return data;
 }
 Exchange.VietStock.GetStockDealDetail = async function (code) {
