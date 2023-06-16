@@ -224,23 +224,45 @@ function wait(ms) {
 
         })
 
-        const SGD = "SỞ GIAO DỊCH CHỨNG KHOÁN TP. HỒ CHÍ MINH";
-        let next = 0;
-        let END = null;
+        // const SGD = "SỞ GIAO DỊCH CHỨNG KHOÁN TP. HỒ CHÍ MINH";
+        // let next = 0;
+        // let END = null;
         for (let t of items) {
-            if (t.str == SGD) {
-                if (next > 0) {
-                    END = t;
-                    break;
-                }
-                next++;
-            }
-            console.log(t.str, t.width, t.transform, t.P);
+            // if (t.str == SGD) {
+            //     if (next > 0) {
+            //         END = t;
+            //         break;
+            //     }
+            //     next++;
+            // }
+            // console.log(t.str, t.width, t.transform, t.P);
         }
 
-        let l = items.filter((e, i) => {
-            return e.P < END.P;
+        items.forEach((e,i)=>{
+            
+            if(e.str == "1"){
+                console.log(e.str, e.width, e.transform, e.P);
+                let found = true;
+                for(let ii=1;ii<=17;ii++){
+                    let t = items[i+ii]
+                    console.log("NEXT",t.str, t.width, t.transform, t.P);
+                    // if(items[i+ii].str != (ii+1)+""){
+                    //     found = false;
+                    //     break;
+                    // }
+                }
+                if(found){
+                    console.log("Found",i+7)
+                }
+            }
+
         })
+
+
+
+        // let l = items.filter((e, i) => {
+        //     return e.P < END.P;
+        // })
 
         let decode = (record, idx, val, e1, e2) => {
             // console.log(val.str,val.transform,val.transform[4], e1[0], e2[0]);
@@ -251,30 +273,30 @@ function wait(ms) {
             }
         }
         sum = [];
-        l.forEach((val, idx) => {
-            if (val.transform[5] >= txt1[1] && val.P <= 1) {
-                return;
-            }
+        // l.forEach((val, idx) => {
+        //     if (val.transform[5] >= txt1[1] && val.P <= 1) {
+        //         return;
+        //     }
 
 
-            if (val.str == ' ') {
-                return;
-            }
-            if (val.transform[4] >= txt2[0] && val.transform[4] < txt3[0]) {
-                // console.log(val.str, "================================", val.str.length);
-                sum.push(record);
-                record = [, , , , , , , , ,];
-            }
-            decode(record, 0, val, txt2, txt3); //Sy
-            decode(record, 1, val, txt3, txt4); //M1
-            decode(record, 2, val, txt4, txt5); //B1
-            decode(record, 3, val, txt5, txt6); //M2
-            decode(record, 4, val, txt6, txt7); //B2
-            decode(record, 5, val, txt7, txt8); //M3
-            decode(record, 6, val, txt8, txt9); //B3
-            decode(record, 7, val, txt9, txt10); //B4
-            decode(record, 8, val, txt10, txt11);
-        });
+        //     if (val.str == ' ') {
+        //         return;
+        //     }
+        //     if (val.transform[4] >= txt2[0] && val.transform[4] < txt3[0]) {
+        //         // console.log(val.str, "================================", val.str.length);
+        //         sum.push(record);
+        //         record = [, , , , , , , , ,];
+        //     }
+        //     decode(record, 0, val, txt2, txt3); //Sy
+        //     decode(record, 1, val, txt3, txt4); //M1
+        //     decode(record, 2, val, txt4, txt5); //B1
+        //     decode(record, 3, val, txt5, txt6); //M2
+        //     decode(record, 4, val, txt6, txt7); //B2
+        //     decode(record, 5, val, txt7, txt8); //M3
+        //     decode(record, 6, val, txt8, txt9); //B3
+        //     decode(record, 7, val, txt9, txt10); //B4
+        //     decode(record, 8, val, txt10, txt11);
+        // });
 
         sum.push(record) //last
 
