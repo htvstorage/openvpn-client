@@ -1133,8 +1133,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let t = [...prices];
   t.reverse();
   let xc = t.slice(0, numCheckIncrementDays);
+  xc.reverse();
   let maxWMM = 0;
   let maxWEE = 0
+  let mae = [];
+  let mam = [];
   xc.forEach((e,i)=>{
     let ta = xc.slice(i,i+windowCheckIncrement)
     let min = Math.min(...ta);
@@ -1142,9 +1145,12 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     let pwMM = Math.floor((max-min)/min*10000)/100
     if(maxWMM < pwMM) maxWMM = pwMM;
     let pwEE = Math.floor((ta.at(-1)-ta[0])/ta[0]*10000)/100    
-    if(maxWEE < pwEE) maxWEE = pwEE;   
+    if(maxWEE < pwEE) maxWEE = pwEE;
+    mae.push(pwEE)   
+    mam.push(pwMM)   
     // console.log(maxWEE,maxWMM) 
-    // console.log(symbol,ta)
+    // if(symbol == "NHV")
+      // console.log(symbol,ta)
   })
 
 
@@ -1266,6 +1272,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   avg["MaxcountCe"] = maxCountCe;
   avg["MaxWMM"] = maxWMM;
   avg["MaxWEE"] = maxWEE;
+  avg["aMaxWEE"] = stats.mean(mae);
+  avg["aMaxWMM"] = stats.mean(mam);
 
   shortPeriods.forEach((e, i) => {
     avg["sma" + e] = Math.floor(smaRet[i].at(checkDate) * 100) / 100;
