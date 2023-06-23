@@ -1125,11 +1125,26 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let smaVol = shortPeriods.map(e => { return SMA.calculate({ period: e, values: vols }); });
   let smaRet = shortPeriods.map(e => { return SMA.calculate({ period: e, values: prices }); });
   let numSidewayDays = Config.filter()["numSidewayDays"];
+  let numCheckIncrementDays = Config.filter()["numCheckIncrementDays"];
+  let windowCheckIncrement = Config.filter()["windowCheckIncrement"];
   let shortSidewayDays = Config.filter()["shortSidewayDays"];
   let shortCeDays = Config.filter()["shortCeDays"];
   let cepct = Config.filter()["cepct"];
   let t = [...prices];
   t.reverse();
+  let xc = t.slice(0, numCheckIncrementDays);
+  let maxWMM = 0;
+  let maxWEE = 0
+  xc.forEach((e,i)=>{
+    let ta = xc.slice(i,windowCheckIncrement)
+    let min = Math.min(...ta);
+    let max = Math.min(...ta);
+    let pwMM = Math.floor((max-min)/min*10000)/100
+    if(maxWMM < pwMM) maxWMM = pwMM;
+    let pwEE = Math.floor((ta.at(-1)-ta[0])/ta[0]*10000)/100    
+  })
+
+
   let x = t.slice(0, numSidewayDays);
   let mean = stats.mean(t.slice(0, shortSidewayDays))
   let std = stats.stdev(t.slice(0, shortSidewayDays))
@@ -1246,6 +1261,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   avg["countFlo"] = countFlo;
   avg["countCeCont"] = countCeCont;
   avg["MaxcountCe"] = maxCountCe;
+  avg["MaxWMM"] = maxWMM;
+  avg["MaxWEE"] = maxWEE;
 
   shortPeriods.forEach((e, i) => {
     avg["sma" + e] = Math.floor(smaRet[i].at(checkDate) * 100) / 100;

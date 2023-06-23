@@ -13,11 +13,11 @@ async function convert() {
       .grayscale()
       .toFormat('jpeg')
       .jpeg({
-        quality: 100,
+        quality: 20,
         //   chromaSubsampling: '4:4:4',
-        // density: 16,
+        density: 16,
         depth: 1,
-        progressive: false, force: true        
+        // progressive: false, force: true        
       })
       .toFile(outdir + "/" + f)
       .then(() => {
@@ -34,7 +34,7 @@ async function convert() {
 
 async function topdf() {
 
-  let dir = "./DanZanger"
+  let dir = "./DanZangerOut"
   let files = fs.readdirSync(dir);
 
   files.sort((a,b)=>{
@@ -101,5 +101,5 @@ async function topdf() {
   doc.end()
 }
 
-// convert();
-topdf();
+convert();
+// topdf();
