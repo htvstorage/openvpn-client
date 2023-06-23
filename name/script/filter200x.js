@@ -1136,7 +1136,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let maxWMM = 0;
   let maxWEE = 0
   xc.forEach((e,i)=>{
-    let ta = xc.slice(i,windowCheckIncrement)
+    let ta = xc.slice(i,i+windowCheckIncrement)
     let min = Math.min(...ta);
     let max = Math.max(...ta);
     let pwMM = Math.floor((max-min)/min*10000)/100
@@ -1144,6 +1144,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     let pwEE = Math.floor((ta.at(-1)-ta[0])/ta[0]*10000)/100    
     if(maxWEE < pwEE) maxWEE = pwEE;   
     // console.log(maxWEE,maxWMM) 
+    // console.log(symbol,ta)
   })
 
 
