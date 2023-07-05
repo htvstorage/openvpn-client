@@ -273,3 +273,15 @@ while true; do node  script/dumpdaily2.js stock=SSI; node script/muabanx.js outl
 node script/muabanx.js outlier=true interval=300000 date=20230413
 
 node script/price.js; node script/filter200x.js checkdate=-1
+
+
+
+
+openssl ecparam -name prime256v1 -genkey -out private.pem
+openssl ec -in private.pem -pubout -out public.pem
+openssl req -config <ca_configuration_file> -key <ca_sk_file_name> -new -x509 -days <days> -sha256 -set_serial <serial> -extensions extend -out <cert_pem_file_name>
+openssl x509 -in <cert_pem_file_name> -outform DER -out <cert_der_file_name>
+openssl req  -key private.pem -new -x509 -days 90 -sha256  -out cert.pem
+openssl req -new -nodes -sha256  -key private.pem -out csr.pem
+
+
