@@ -13,7 +13,7 @@ Config.filter = function () {
     conf["windowCheckIncrement"] = 10;
     conf["cepct"] = 6;
     conf["numSidewayDays"] = 300;
-    conf["avgVol"] = 10000;
+    conf["avgVol"] = 100000;
     conf["avgValue"] = 200000000;
     return conf;
 }
