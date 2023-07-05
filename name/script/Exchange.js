@@ -215,7 +215,7 @@ Exchange.getliststockdata = async function (list, ret) {
       url = url + list[i] + ",";
       if (url.length > 1024 || i == list.length - 1) {
         url.slice(0, -1);
-        console.log(url)
+        // console.log(url)
         let a = fetch(url, {
           "headers": {
             "accept": "application/json, text/plain, */*",
