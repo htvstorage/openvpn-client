@@ -1008,17 +1008,19 @@ async function processData() {
               nganh['total'] = tt;
             }
 
-            nes.forEach(e => {
-              ne[e] = ne[e] == undefined ? oen[e] : ne[e] + oen[e]
-              tt[e] = tt[e] == undefined ? oen[e] : tt[e] + oen[e]
+            Object.values(nganh).forEach(v=>{
+              nes.forEach(e => {
+                v[e+"%"] = Math.floor(v[e]/tt[e]*10000)/100                
+              })
             })
+
             summary = newSummary;
             //write summary
             summary.sort((a, b) => {
               return b.busd_end - a.busd_end;
             })
 
-            console.table(nganh)
+            // console.table(nganh)
 
             let strtable = getTable(summary);
             let as = strtable.split("\n");
@@ -1034,6 +1036,21 @@ async function processData() {
             fs.writeFileSync("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + "_" + "busd" + ".log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync("./profile/busd.json", JSON.stringify(summary));
             writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_BUSD_" + datekey + ".xlsx", summary)
+
+
+            strtable = getTable(Object.values(nganh));
+            as = strtable.split("\n");
+            header = as[2] + "\n" + as[1] + "\n" + as[2];
+            str = "";
+            as.forEach((l, i) => {
+              str += l + "\n";
+              if (i > 3 && (i - 3) % 20 == 0) {
+                str += header + "\n";
+              }
+            })
+
+            fs.writeFileSync("./outlier/" + "Nganh" + "_"+ "_Outlier_" + datekey + "_" + "busd" + ".log", str, (e) => { if (e) { console.log(e) } })
+            writeArrayJson2Xlsx("./outlier/" + "Nganh" + "_"  + "_Outlier_BUSD_" + datekey + ".xlsx", Object.values(nganh))
 
             strtable = getTable(values);
             as = strtable.split("\n");
