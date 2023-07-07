@@ -1008,9 +1008,9 @@ async function processData() {
               nganh['total'] = tt;
             }
 
-            Object.values(nganh).forEach(v=>{
+            Object.values(nganh).forEach(v => {
               nes.forEach(e => {
-                v[e+"%"] = Math.floor(v[e]/tt[e]*10000)/100                
+                v[e + "%"] = Math.floor(v[e] / tt[e] * 10000) / 100
               })
             })
 
@@ -1049,8 +1049,8 @@ async function processData() {
               }
             })
 
-            fs.writeFileSync("./outlier/" + "Nganh" + "_"+ "_Outlier_" + datekey + "_" + "busd" + ".log", str, (e) => { if (e) { console.log(e) } })
-            writeArrayJson2Xlsx("./outlier/" + "Nganh" + "_"  + "_Outlier_BUSD_" + datekey + ".xlsx", Object.values(nganh))
+            fs.writeFileSync("./outlier/" + "Nganh" + "_" + "_Outlier_" + datekey + "_" + "busd" + ".log", str, (e) => { if (e) { console.log(e) } })
+            writeArrayJson2Xlsx("./outlier/" + "Nganh" + "_" + "_Outlier_BUSD_" + datekey + ".xlsx", Object.values(nganh))
 
             strtable = getTable(values);
             as = strtable.split("\n");
@@ -1243,6 +1243,10 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         case 'bu':
           e.bu = (e.bu == undefined) ? +v.match_qtty : e.bu + +v.match_qtty;
           e.val_bu = (e.val_bu == undefined) ? val : e.val_bu + val;
+          let bup = 'bu.' + Math.floor(e.pct * 10);
+          let vbup = 'val_bu.' + Math.floor(e.pct * 10);
+          e[bup] = (e[bup] == undefined) ? +v.match_qtty : e[bup] + +v.match_qtty;
+          e[vbup] = (e[vbup] == undefined) ? val : e[vbup] + val;
           if (max.bu.length == 0) { v.count = 1; max.bu.push(v); }
           else {
             max.bu.every((el, i) => {
@@ -1282,6 +1286,10 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         case 'sd':
           e.sd = (e.sd == undefined) ? +v.match_qtty : e.sd + +v.match_qtty;
           e.val_sd = (e.val_sd == undefined) ? val : e.val_sd + val;
+          let sdp = 'sd.' + Math.floor(e.pct * 10);
+          let vsdp = 'val_sd.' + Math.floor(e.pct * 10);
+          e[sdp] = (e[sdp] == undefined) ? +v.match_qtty : e[sdp] + +v.match_qtty;
+          e[vsdp] = (e[vsdp] == undefined) ? val : e[vsdp] + val;
           if (max.sd.length == 0) { v.count = 1; max.sd.push(v); }
           else {
             max.sd.every((el, i) => {
@@ -1321,6 +1329,10 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         default:
           e.uk = (e.uk == undefined) ? +v.match_qtty : e.uk + +v.match_qtty;
           e.val_uk = (e.val_uk == undefined) ? val : e.val_uk + val;
+          let ukp = 'uk.' + Math.floor(e.pct * 10);
+          let vukp = 'val_uk.' + Math.floor(e.pct * 10);
+          e[ukp] = (e[ukp] == undefined) ? +v.match_qtty : e[ukp] + +v.match_qtty;
+          e[vukp] = (e[vukp] == undefined) ? val : e[vukp] + val;
       }
       e.total_vol = +v.total_vol;
       e.sum_vol = (e.sum_vol == undefined) ? +v.match_qtty : e.sum_vol + +v.match_qtty
@@ -1351,6 +1363,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
 
     let length = Object.values(newData).length;
     // console.log(avg, file)
+    let busdkeys = {}
     let x = Object.keys(newData).map(k => {
       let e = newData[k];
       // console.log(k,e)
@@ -1377,9 +1390,14 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       e['bu-sd_val'] = val_bu - val_sd;
       e['avg_val_bu'] = Math.round(avg.val_bu / length * 10) / 10;
       e['avg_val_sd'] = Math.round(avg.val_sd / length * 10) / 10;
+      Object.keys(e).forEach(kk => {
+        if (kk.includes("bu.") || kk.includes("sd.") || kk.includes("uk.")) {
+          busdkeys[kk] = ''
+        }
+      })
       return e
     })
-
+    // console.table(busdkeys)
     if (x.length == 0) {
       stat.res++;
       if (stat.res == totalFile) {
@@ -1393,6 +1411,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       return c < 0 ? -1 : c > 0 ? 1 : 0
     })
     accum = {};
+    let ackeys = {};
     x.forEach(e => {
       accum.acum_busd = (accum.acum_busd == undefined) ? e['bu-sd'] : accum.acum_busd + e['bu-sd'];
       accum.acum_busd_val = (accum.acum_busd_val == undefined) ? e['bu-sd_val'] : accum.acum_busd_val + e['bu-sd_val'];
@@ -1406,6 +1425,14 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       e['acum_val_sd'] = accum.acum_val_sd;
       e['acum_vol_bu'] = accum.acum_vol_bu;
       e['acum_vol_sd'] = accum.acum_vol_sd;
+
+      Object.keys(busdkeys).forEach(kk => {
+        let ac = 'acum_' + kk;
+        let vkk = e[kk] == undefined ? 0 : e[kk];
+        accum[ac] = (accum[ac] == undefined) ? vkk : accum[ac] + vkk;
+        e[ac] = accum[ac]
+        ackeys[ac] = ''
+      })
     })
 
     x.forEach(e => {
@@ -1634,7 +1661,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
     let enableWriteXlsxSymbol = Config.muaban()["enableWriteXlsxSymbol"]
     if (enableWriteXlsxSymbol)
       writeArrayJson2Xlsx(dir + symbol + "_" + floor + "_" + strdate0 + "_1N.xls", x)
-    let csv = new Parser({ fields: ["abu", "acum_busd", "acum_busd_val", "acum_val_bu", "acum_val_sd", "acum_val", "avg_val_bu", "avg_val_sd", "rbusd", "asd", "auk", "bs", "bu", "bu-sd", "bu-sd_val", "c", "date", "datetime", "h", "l", "o", "pbu", "psd", "puk", "rbu", "rsd", "ruk", "sb", "sd", "sum_vol", "total_vol", "uk", "val", "val_bu", "val_sd", "val_uk"] });
+    // console.table(ackeys)      
+    let csv = new Parser({ fields: ["abu", "acum_busd", "acum_busd_val", "acum_val_bu", "acum_val_sd", "acum_val", "avg_val_bu", "avg_val_sd", "rbusd", "asd", "auk", "bs", "bu", "bu-sd", "bu-sd_val", "c", "date", "datetime", "h", "l", "o", "pbu", "psd", "puk", "rbu", "rsd", "ruk", "sb", "sd", "sum_vol", "total_vol", "uk", "val", "val_bu", "val_sd", "val_uk", ...Object.keys(busdkeys), ...Object.keys(ackeys)] });
     let data2 = csv.parse(x);
     fs.writeFileSync(dir + symbol + "_" + floor + "_1N.csv", data2 + "\n", (e) => { if (e) { console.log(e) } })
     let temp = x.at(-1);
@@ -1643,7 +1671,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       // console.table([x]);
 
     }
-    out[symbol] = { floor: floor, data: x, max: max, top: top };
+    out[symbol] = { floor: floor, data: x, max: max, top: top, busdkeys: busdkeys, ackeys: ackeys };
     // console.log(symbol)
     // console.table(max.sd)
     // console.table(max.bu)
