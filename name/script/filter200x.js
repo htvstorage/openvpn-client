@@ -93,7 +93,7 @@ await (async function tradinginfo() {
         promise.push(data);
       })
     }
-    let a = await Promise.all(promise);   
+    let a = await Promise.all(promise);
     data = [...promise]
     fs.writeFileSync("./profile/tradinginfo.json", JSON.stringify(promise));
   }
@@ -275,12 +275,12 @@ async function downloadReportFinancial() {
     let ratios = Exchange.financialReportFireAnt(symbol);
 
     let p = ratios.then(res => {
-      if(res.success)
+      if (res.success)
         ratiosa.push(res)
       else
         queue.push(symbol)
       stat2.res++;
-      
+
     });
     await p;
     all.push(p);
@@ -1138,19 +1138,19 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let maxWEE = 0
   let mae = [];
   let mam = [];
-  xc.forEach((e,i)=>{
-    let ta = xc.slice(i,i+windowCheckIncrement)
+  xc.forEach((e, i) => {
+    let ta = xc.slice(i, i + windowCheckIncrement)
     let min = Math.min(...ta);
     let max = Math.max(...ta);
-    let pwMM = Math.floor((max-min)/min*10000)/100
-    if(maxWMM < pwMM) maxWMM = pwMM;
-    let pwEE = Math.floor((ta.at(-1)-ta[0])/ta[0]*10000)/100    
-    if(maxWEE < pwEE) maxWEE = pwEE;
-    mae.push(pwEE)   
-    mam.push(pwMM)   
+    let pwMM = Math.floor((max - min) / min * 10000) / 100
+    if (maxWMM < pwMM) maxWMM = pwMM;
+    let pwEE = Math.floor((ta.at(-1) - ta[0]) / ta[0] * 10000) / 100
+    if (maxWEE < pwEE) maxWEE = pwEE;
+    mae.push(pwEE)
+    mam.push(pwMM)
     // console.log(maxWEE,maxWMM) 
     // if(symbol == "NHV")
-      // console.log(symbol,ta)
+    // console.log(symbol,ta)
   })
 
 
@@ -1169,6 +1169,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let countCe = 0;
   let countFlo = 0;
   let maxCountCe = 0;
+  let lastCe = 0;
   x.forEach(e => {
     if (Math.abs(e - mean) / mean * 100 < sidewayThreshold) {
       count++;
@@ -1201,10 +1202,14 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   // console.table(pct.slice(0, shortCeDays))
   let tmpCe = 0;
 
+  let doneLastCe = false;
   pct.slice(0, shortCeDays).every((e, i) => {
-    if (e >= cepct) { tmpCe++; if (maxCountCe < tmpCe) maxCountCe = tmpCe } 
-    else { 
+    if (e >= cepct) { tmpCe++; if (maxCountCe < tmpCe) maxCountCe = tmpCe }
+    else {
       tmpCe = 0;
+    }
+    if (e <= cepct && !doneLastCe) { lastCe++ } else {
+      doneLastCe = true;
     }
 
     if (e >= cepct) { countCe++; return true }
@@ -1274,6 +1279,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   avg["MaxWEE"] = maxWEE;
   avg["aMaxWEE"] = stats.mean(mae);
   avg["aMaxWMM"] = stats.mean(mam);
+  avg["lastCe"] = lastCe;
 
   shortPeriods.forEach((e, i) => {
     avg["sma" + e] = Math.floor(smaRet[i].at(checkDate) * 100) / 100;
