@@ -483,6 +483,18 @@ async function Q12023() {
 }
 Q12023();
 
+let busdm = {};
+async function busd() {
+  console.log("Load busd")
+  let json = fs.readFileSync("./profile/busd.json","utf8");
+  let busd = JSON.parse(json)
+  busd.forEach(e=>{
+    busdm[e.symbol] =e;
+  })
+}
+
+busd();
+
 let tpcp = await Exchange.tpcp();
 (async () => {
 
@@ -765,6 +777,23 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let pbe = filter[symbol];
   if (pbe != undefined) {
     avg = { ...avg, ...pbe }
+  }
+
+  let busdx = busdm[symbol];
+  if (busdx) {
+    avg.first = busdx.first 
+    avg.firstside = busdx.firstside 
+    avg.firstVal = busdx.firstVal 
+    avg.last = busdx.last 
+    avg.lastside = busdx.lastside 
+    avg.lastVal = busdx.lastVal
+    avg.acum_busd_val = busdx.acum_busd_val;
+    avg.acum_val = busdx.acum_val;
+    avg['acum_val_bu'] = busdx.acum_val_bu;
+    avg['acum_val_sd'] = busdx.acum_val_sd;
+    avg['acum_vol_bu'] = busdx.acum_vol_bu;
+    avg['acum_vol_sd'] = busdx.acum_vol_sd;
+    avg['busdpval'] = busdx.busdpval;
   }
 
   let q12023 = Q12023M[symbol];

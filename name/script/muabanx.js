@@ -1021,6 +1021,10 @@ async function processData() {
               return b.busd_end - a.busd_end;
             })
 
+            summary.forEach(e=>{
+              e["busdpval"] = Math.floor(e["acum_busd_val"]/e["acum_val"]*10000)/100
+            })
+
             // console.table(nganh)
 
             let strtable = getTable(summary);
@@ -1342,6 +1346,16 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       accum.acum_val = (accum.acum_val == undefined) ? val : accum.acum_val + val;
       e.acum_val = accum.acum_val;
 
+      if(!accum.first){
+        accum.first = +v.match_qtty;
+        accum.firstside = v.side;
+        accum.firstval = val;
+      }
+
+      accum.last = +v.match_qtty;
+      accum.lastside = v.side;
+      accum.lasttval = val;
+
       // "price","change","match_qtty","side","time","total_vol"
       // 7.6,-0.39,371100,"unknown","14:45:01",3774200
       // 7.61,-0.38,3000,"sd","14:30:10",3403100
@@ -1412,6 +1426,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       let c = a.datetime - b.datetime;
       return c < 0 ? -1 : c > 0 ? 1 : 0
     })
+    let xcum = accum;
     accum = {};
     let ackeys = {};
     x.forEach(e => {
@@ -1427,6 +1442,14 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       e['acum_val_sd'] = accum.acum_val_sd;
       e['acum_vol_bu'] = accum.acum_vol_bu;
       e['acum_vol_sd'] = accum.acum_vol_sd;
+
+      e.first = xcum.first 
+      e.firstside = xcum.firstside 
+      e.firstVal = xcum.firstVal
+      e.last = xcum.last 
+      e.lastside = xcum.lastside 
+      e.lastVal = xcum.lastVal 
+
 
       // Object.keys(busdkeys).forEach(kk => {
       //   let ac = 'acum_' + kk;
