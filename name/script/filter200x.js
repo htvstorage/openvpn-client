@@ -18,7 +18,7 @@ import http from "node:http";
 import https from "node:https";
 import { Config } from "./config.js";
 import { rejects } from "assert";
-
+import { glob, globSync, globStream, globStreamSync, Glob } from 'glob'
 
 
 
@@ -486,14 +486,48 @@ Q12023();
 let busdm = {};
 async function busd() {
   console.log("Load busd")
-  let json = fs.readFileSync("./profile/busd.json","utf8");
+  let json = fs.readFileSync("./profile/busd.json", "utf8");
   let busd = JSON.parse(json)
-  busd.forEach(e=>{
-    busdm[e.symbol] =e;
+  busd.forEach(e => {
+    busdm[e.symbol] = e;
   })
 }
 
 busd();
+
+
+let busdm2 = {}
+
+
+async function busd2() {
+  console.log("Load busd2")
+  const jsfiles = await glob('./profile/busd_*.json', { ignore: 'profile/busd.json' })
+  let mapFiles = {}
+  let totalFiles = 0;
+
+
+  jsfiles.forEach(
+    e => {
+      let date = e.slice(e.lastIndexOf("_") + 1, e.lastIndexOf("."))
+      let strdate0 = date;
+      let strdate = strdate0.slice(0, 4) + "-" + strdate0.slice(4, 6) + "-" + strdate0.slice(6);
+      console.log(strdate)
+      // let time = new Date(strdate).getTime()
+      let json = fs.readFileSync(e, "utf8");
+      let busd = JSON.parse(json)
+      let m = {}
+      busd.forEach(je => {
+        m[je.symbol] = je;
+      })
+      busdm2[date] = m;
+
+    }
+  )
+
+  console.table(Object.keys(busdm2))
+}
+
+busd2();
 
 let tpcp = await Exchange.tpcp();
 (async () => {
@@ -781,11 +815,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
 
   let busdx = busdm[symbol];
   if (busdx) {
-    avg.first = busdx.first 
-    avg.firstside = busdx.firstside 
-    avg.firstVal = busdx.firstVal 
-    avg.last = busdx.last 
-    avg.lastside = busdx.lastside 
+    avg.first = busdx.first
+    avg.firstside = busdx.firstside
+    avg.firstVal = busdx.firstVal
+    avg.last = busdx.last
+    avg.lastside = busdx.lastside
     avg.lastVal = busdx.lastVal
     avg.acum_busd_val = busdx.acum_busd_val;
     avg.acum_val = busdx.acum_val;
@@ -795,6 +829,27 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     avg['acum_vol_sd'] = busdx.acum_vol_sd;
     avg['busdpval'] = busdx.busdpval;
   }
+
+  Object.keys(busdm2).forEach(d=>{
+
+    let dx = busdm2[d];
+    let bdx = dx[symbol];
+    if (bdx) {
+      // avg[d+'first'] = bdx.first
+      // avg[d+'firstside'] = bdx.firstside
+      // avg[d+'firstVal'] = bdx.firstVal
+      // avg[d+'last'] = bdx.last
+      // avg[d+'lastside'] = bdx.lastside
+      // avg[d+'lastVal'] = bdx.lastVal
+      avg[d+'acum_busd_val'] = bdx.acum_busd_val;
+      avg[d+'acum_val'] = bdx.acum_val;
+      avg[d+'acum_val_bu'] = bdx.acum_val_bu;
+      avg[d+'acum_val_sd'] = bdx.acum_val_sd;
+      avg[d+'acum_vol_bu'] = bdx.acum_vol_bu;
+      avg[d+'acum_vol_sd'] = bdx.acum_vol_sd;
+      avg[d+'busdpval'] = bdx.busdpval;
+    }
+  })
 
   let q12023 = Q12023M[symbol];
   if (q12023) {
