@@ -968,6 +968,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   })
   let hlpp = days.map((e, i) => { return [...datax[i].map(e => (e.priceHigh - e.priceLow) * 100 / e.priceBasic)] })
   let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
+  if(symbol == 'KBC')
+    console.log(symbol,c.at(-1).slice(0,100))
   let cpm = days.map((e, i) => {
     let aa = [...datax[i].map(e => e.priceClose)];
     let mean = aa.reduce((a, b) => a + b, 0) / aa.length;
