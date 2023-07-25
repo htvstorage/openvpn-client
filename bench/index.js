@@ -1,22 +1,33 @@
 const log4js = require('log4js');
-const logger = log4js.getLogger('MetricsBenchmark');
+const logger = log4js.getLogger('default');
+
+log4js.configure({
+  appenders: {
+      everything: { type: "file", filename: "diem.log" },
+      console: { type: "console" },
+  },
+  categories: {
+      default: { appenders: [ "everything","console"], level: "debug" },
+      app: { appenders: ["console"], level: "info" }
+  },
+});
 
 class MetricsBenchmark {
   constructor() {
     this.metricName = null;
     this.headcycle = parseInt(process.env.headcycle) || 10;
-    this.total = 0;
-    this.current = 0;
-    this.totalTime = 0;
-    this.totalCurrentTime = 0;
+    this.total =BigInt(0);
+    this.current = BigInt(0);
+    this.totalTime = BigInt(0);
+    this.totalCurrentTime = BigInt(0);
     this.threshold = new Map();
     this.thresholdTime = [100, 200, 300, 500, 1000, 5000];
     this.minProcessTime = Number.MAX_SAFE_INTEGER;
-    this.maxProcessTime = 0;
-    this.avgProcessTime = 0;
-    this.avgCurrentProcessTime = 0;
+    this.maxProcessTime = BigInt(0);
+    this.avgProcessTime = BigInt(0);
+    this.avgCurrentProcessTime = BigInt(0);
     this.minCurrentProcessTime = Number.MAX_SAFE_INTEGER;
-    this.maxCurrentProcessTime = 0;
+    this.maxCurrentProcessTime = BigInt(0);
     this.currentTps = 0;
     this.minCurSize = Number.MAX_SAFE_INTEGER;
     this.maxCurSize = 0;
@@ -44,7 +55,7 @@ class MetricsBenchmark {
       this.headLen[i] = this.names[i].length;
     }
     this.values = new Array(19);
-    this.lastTotalMsg = 0;
+    this.lastTotalMsg = BigInt(0);
     this.dateFormat = new Intl.DateTimeFormat('en', {
       year: 'numeric', month: '2-digit', day: '2-digit',
       hour: '2-digit', minute: '2-digit', second: '2-digit'
@@ -118,6 +129,8 @@ class MetricsBenchmark {
     if (!this.metricName || this.metricName === '') {
       this.metricName = objectName;
     }
+    // console.log(incommingTime)
+    // logger.info(incommingTime)
     if (this.startTime === 0) {
       this.startTime = Date.now() - 1;
       this.lastTime = this.startTime;
@@ -144,7 +157,7 @@ class MetricsBenchmark {
         this.objLock.delete(rangeKey);
       }
     }
-    const al = this.threshold.get(rangeKey);
+    let al = this.threshold.get(rangeKey);
     al++;
     if (al >= Number.MAX_SAFE_INTEGER - 10) {
       this.threshold.set(rangeKey, 0);
