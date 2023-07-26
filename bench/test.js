@@ -5,7 +5,7 @@ const metrics = MetricsBenchmark.getInstance();
 
 // Assuming you have a function to process messages and measure performance
 function processMessage() {
-  const incomingTime = process.hrtime.bigint(); // Get the current time in nanoseconds
+  const incomingTime = Number(process.hrtime.bigint()); // Get the current time in nanoseconds
   // Process your message here
   const messageSize = 100; // Replace with the actual size of the message
   // console.log(incomingTime)
@@ -14,6 +14,9 @@ function processMessage() {
 }
 
 // Simulate processing messages
-for (let i = 0; i < 1000000; i++) {
+for (let i = 0; i < 10000000000; i++) {
   processMessage();
 }
+
+const incomingTime = process.hrtime.bigint()
+console.log(incomingTime)

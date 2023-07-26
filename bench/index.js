@@ -16,26 +16,26 @@ class MetricsBenchmark {
   constructor() {
     this.metricName = null;
     this.headcycle = parseInt(process.env.headcycle) || 10;
-    this.total =BigInt(0);
-    this.current = BigInt(0);
-    this.totalTime = BigInt(0);
-    this.totalCurrentTime = BigInt(0);
+    this.total =0;
+    this.current = 0;
+    this.totalTime = 0;
+    this.totalCurrentTime = 0;
     this.threshold = new Map();
     this.thresholdTime = [100, 200, 300, 500, 1000, 5000];
     this.minProcessTime = Number.MAX_SAFE_INTEGER;
-    this.maxProcessTime = BigInt(0);
-    this.avgProcessTime = BigInt(0);
-    this.avgCurrentProcessTime = BigInt(0);
+    this.maxProcessTime = 0;
+    this.avgProcessTime = 0;
+    this.avgCurrentProcessTime = 0;
     this.minCurrentProcessTime = Number.MAX_SAFE_INTEGER;
-    this.maxCurrentProcessTime = BigInt(0);
+    this.maxCurrentProcessTime = 0;
     this.currentTps = 0;
     this.minCurSize = Number.MAX_SAFE_INTEGER;
     this.maxCurSize = 0;
     this.avgCurSize = 0;
     this.throughput = 0;
     this.totalBytes = 0;
-    this.totalCurThroughput = 0;
-    this.avgTps = 0;
+    this.totalCurThroughput =  0;
+    this.avgTps =0;
     this.minTps = Number.MAX_SAFE_INTEGER;
     this.maxTps = 0;
     this.lastTime = 0;
@@ -55,7 +55,7 @@ class MetricsBenchmark {
       this.headLen[i] = this.names[i].length;
     }
     this.values = new Array(19);
-    this.lastTotalMsg = BigInt(0);
+    this.lastTotalMsg = 0;
     this.dateFormat = new Intl.DateTimeFormat('en', {
       year: 'numeric', month: '2-digit', day: '2-digit',
       hour: '2-digit', minute: '2-digit', second: '2-digit'
@@ -138,18 +138,19 @@ class MetricsBenchmark {
     this.total++;
     this.current++;
     const currentTime = Date.now();
-    const processTime = (process.hrtime.bigint() - BigInt(incommingTime)) / 1000n;
+    const processTime = (Number(process.hrtime.bigint()) - incommingTime) / 1000;
     this.totalTime += processTime;
     this.totalCurrentTime += processTime;
     if (processTime < this.minProcessTime) {
       this.minProcessTime = processTime;
     }
     const rangeKey = this.getRange(processTime);
+    // console.log(rangeKey)
     if (!this.threshold.has(rangeKey)) {
       this.objLock.set(rangeKey, true);
       try {
         if (!this.threshold.has(rangeKey)) {
-          this.threshold.set(rangeKey, 0);
+          this.threshold.set(rangeKey, new AtomicLong(0));
         }
       } catch (e) {
         logger.error(e, e);
@@ -158,9 +159,9 @@ class MetricsBenchmark {
       }
     }
     let al = this.threshold.get(rangeKey);
-    al++;
-    if (al >= Number.MAX_SAFE_INTEGER - 10) {
-      this.threshold.set(rangeKey, 0);
+    al.incrementAndGet();
+    if (al.get() >= Number.MAX_SAFE_INTEGER - 10) {
+      this.threshold.set(rangeKey, new AtomicLong(0));
     }
     if (this.maxProcessTime < processTime) {
       this.maxProcessTime = processTime;
@@ -185,8 +186,8 @@ class MetricsBenchmark {
       try {
         if (currentTime - this.lastTime > this.intervalStatistic ||
             this.total - this.lastTotalMsg >= this.msgStatistic) {
-          this.currentTps = this.current * 1000.0 / (currentTime - this.lastTime);
-          this.avgTps = this.total * 1000.0 / (currentTime - this.startTime);
+          this.currentTps = this.current * 1000 / (currentTime - this.lastTime);
+          this.avgTps = this.total * 1000 / (currentTime - this.startTime);
           this.avgProcessTime = this.totalTime / this.total;
           this.avgCurrentProcessTime = this.totalCurrentTime / this.current;
           if (this.minTps > this.currentTps) {
@@ -205,7 +206,7 @@ class MetricsBenchmark {
               this.sbh += " ";
             }
             f = false;
-            this.sbh += `${key}=${value}`;
+            this.sbh += `${key}=${value.get()}`;
           }
           let idx = 0;
           this.values[idx++] = objectName;
@@ -251,7 +252,7 @@ class MetricsBenchmark {
             }
           }
           for (let i = 0; i < this.values.length; i++) {
-            format = this.values[i].padEnd(this.headLen[i], ' ');
+            format = (this.values[i]+"").padEnd(this.headLen[i], ' ');
             this.sb += format + '|';
           }
 
@@ -277,4 +278,50 @@ class MetricsBenchmark {
   }
 }
 
+const { Buffer } = require('buffer');
+
+class AtomicLong {
+  constructor(value = 0) {
+    this.buffer = Buffer.allocUnsafe(8); // 8 bytes to store the 64-bit integer value
+    this.buffer.writeBigInt64LE(BigInt(value));
+  }
+
+  get() {
+    return this.buffer.readBigInt64LE();
+  }
+
+  set(value) {
+    this.buffer.writeBigInt64LE(BigInt(value));
+  }
+
+  incrementAndGet() {
+    const currentValue = this.buffer.readBigInt64LE();
+    const newValue = currentValue + 1n;
+    this.buffer.writeBigInt64LE(newValue);
+    return newValue;
+  }
+
+  decrementAndGet() {
+    const currentValue = this.buffer.readBigInt64LE();
+    const newValue = currentValue - 1n;
+    this.buffer.writeBigInt64LE(newValue);
+    return newValue;
+  }
+
+  addAndGet(delta) {
+    const currentValue = this.buffer.readBigInt64LE();
+    const newValue = currentValue + BigInt(delta);
+    this.buffer.writeBigInt64LE(newValue);
+    return newValue;
+  }
+
+  subAndGet(delta) {
+    const currentValue = this.buffer.readBigInt64LE();
+    const newValue = currentValue - BigInt(delta);
+    this.buffer.writeBigInt64LE(newValue);
+    return newValue;
+  }
+}
+
+module.exports = AtomicLong;
 module.exports = MetricsBenchmark;
