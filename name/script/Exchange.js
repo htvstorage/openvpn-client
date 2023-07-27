@@ -1087,7 +1087,7 @@ Exchange.VCI.getAll = async function (code) {
       },
       "referrer": "https://mt.vcsc.com.vn/board",
       "referrerPolicy": "strict-origin-when-cross-origin",
-      "body": "{\"symbol\":\"" + code + "\",\"limit\":2000000,\"truncTime\":null}",
+      "body": "{\"symbol\":\"" + code + "\",\"limit\":100,\"truncTime\":null}",
       "method": "POST",
       "mode": "cors",
       agent

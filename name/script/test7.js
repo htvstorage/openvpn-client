@@ -20,7 +20,33 @@ let z = trendyways.max(p)
 console.log(z)
 
 
+let a = await fetch("https://mt.vietcap.com.vn/api/market-watch/LEData/getAll", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.9",
+    "content-type": "application/json",
+    "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Microsoft Edge\";v=\"115\", \"Chromium\";v=\"115\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://trading.vietcap.com.vn/",
+    "Referrer-Policy": "no-referrer-when-downgrade"
+  },
+  "body": "{\"symbol\":\"VCI\",\"limit\":10,\"truncTime\":null}",
+  "method": "POST"
+});
 
+
+
+let zz = await a.json()
+
+console.log(zz)
+
+a = Exchange.VCI.getAll('VCI')
+
+console.table(a)
 // Hàm để kiểm tra hướng của 3 điểm: 1: ngược chiều kim đồng hồ, -1: theo chiều kim đồng hồ, 0: thẳng hàng
 function orientation(p1, p2, p3) {
     const val = (p2.y - p1.y) * (p3.x - p2.x) - (p2.x - p1.x) * (p3.y - p2.y);
