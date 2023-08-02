@@ -1021,8 +1021,8 @@ async function processData() {
               return b.busd_end - a.busd_end;
             })
 
-            summary.forEach(e=>{
-              e["busdpval"] = Math.floor(e["acum_busd_val"]/e["acum_val"]*10000)/100
+            summary.forEach(e => {
+              e["busdpval"] = Math.floor(e["acum_busd_val"] / e["acum_val"] * 10000) / 100
             })
 
             // console.table(nganh)
@@ -1040,7 +1040,7 @@ async function processData() {
 
             fs.writeFileSync("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + "_" + "busd" + ".log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync("./profile/busd.json", JSON.stringify(summary));
-            fs.writeFileSync("./profile/busd_"+datekey+".json", JSON.stringify(summary));
+            fs.writeFileSync("./profile/busd_" + datekey + ".json", JSON.stringify(summary));
             writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_BUSD_" + datekey + ".xlsx", summary)
 
 
@@ -1206,6 +1206,8 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
     let top = {};
     let minp = 99999999;
     let maxp = 0;
+    let prices = {}
+    let range = Config.muaban()["range"];
     data.forEach((v, i) => {
       // console.log(v)
       if (+v.price == 0) return;
@@ -1246,6 +1248,23 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       //   short = true;
       // }
       let val = short ? +v.match_qtty * p * 1000 : +v.match_qtty * p;
+      let kk = ["bu", "sd", "unknown"]
+      if (!prices[v.price]) {
+        let m = { "bu": 0, "sd": 0, "unknown": 0 }
+        kk.forEach(kke => {
+          m[kke + "val"] = 0;
+        })
+        range.forEach(e => {
+          kk.forEach(kke => {
+            m[e + "-" + kke] = 0;
+          })
+        });
+        prices[v.price] = m;
+      }
+      let m = prices[v.price];
+      m[v.side] += +v.match_qtty;
+      m[v.side + "val"] += val;
+
       switch (v.side) {
         case 'bu':
           e.bu = (e.bu == undefined) ? +v.match_qtty : e.bu + +v.match_qtty;
@@ -1336,10 +1355,10 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         default:
           e.uk = (e.uk == undefined) ? +v.match_qtty : e.uk + +v.match_qtty;
           e.val_uk = (e.val_uk == undefined) ? val : e.val_uk + val;
-          // let ukp = 'uk.' + Math.floor(e.pct * 10);
-          // let vukp = 'val_uk.' + Math.floor(e.pct * 10);
-          // e[ukp] = (e[ukp] == undefined) ? +v.match_qtty : e[ukp] + +v.match_qtty;
-          // e[vukp] = (e[vukp] == undefined) ? val : e[vukp] + val;
+        // let ukp = 'uk.' + Math.floor(e.pct * 10);
+        // let vukp = 'val_uk.' + Math.floor(e.pct * 10);
+        // e[ukp] = (e[ukp] == undefined) ? +v.match_qtty : e[ukp] + +v.match_qtty;
+        // e[vukp] = (e[vukp] == undefined) ? val : e[vukp] + val;
       }
       e.total_vol = +v.total_vol;
       e.sum_vol = (e.sum_vol == undefined) ? +v.match_qtty : e.sum_vol + +v.match_qtty
@@ -1347,7 +1366,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       accum.acum_val = (accum.acum_val == undefined) ? val : accum.acum_val + val;
       e.acum_val = accum.acum_val;
 
-      if(!accum.first){
+      if (!accum.first) {
         accum.first = +v.match_qtty;
         accum.firstside = v.side;
         accum.firstval = val;
@@ -1444,12 +1463,12 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       e['acum_vol_bu'] = accum.acum_vol_bu;
       e['acum_vol_sd'] = accum.acum_vol_sd;
 
-      e.first = xcum.first 
-      e.firstside = xcum.firstside 
+      e.first = xcum.first
+      e.firstside = xcum.firstside
       e.firstVal = xcum.firstVal
-      e.last = xcum.last 
-      e.lastside = xcum.lastside 
-      e.lastVal = xcum.lastVal 
+      e.last = xcum.last
+      e.lastside = xcum.lastside
+      e.lastVal = xcum.lastVal
 
 
       // Object.keys(busdkeys).forEach(kk => {
@@ -1698,7 +1717,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       // console.table([x]);
 
     }
-    out[symbol] = { floor: floor, data: x, max: max, top: top, busdkeys: busdkeys, ackeys: ackeys };
+    out[symbol] = { floor: floor, data: x, max: max, top: top, busdkeys: busdkeys, ackeys: ackeys, price:prices };
     // console.log(symbol)
     // console.table(max.sd)
     // console.table(max.bu)

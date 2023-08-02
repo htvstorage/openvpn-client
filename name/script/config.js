@@ -27,6 +27,7 @@ Config.muaban = function () {
     conf["toppct"] = 1;
     conf["downpct"] = -5;
     conf["session"] = 20;
+    conf["range"] = [1000,10000,50000,200000,500000];
     //yyyy,month,day monthn 0-11 day 1-31
     conf["sessionFromDate"] = new Date(2023, 2, 1);
 
