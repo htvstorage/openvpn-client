@@ -630,6 +630,9 @@ async function processData() {
             })
           }
           // console.log(index,length,symbolData.floor,x.length,count)
+          //
+          let prices=symbolData.prices;
+          console.table(Object.values(prices))
 
           //Ket thuc
           if (index + 1 == length) {
@@ -1265,6 +1268,15 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       m[v.side] += +v.match_qtty;
       m[v.side + "val"] += val;
 
+      range.every(e=>{
+        if(+v.match_qtty <= e) {
+             m[e + "-" + v.side] += +v.match_qtty;
+             return false;
+        }        
+        return true;
+      })
+
+
       switch (v.side) {
         case 'bu':
           e.bu = (e.bu == undefined) ? +v.match_qtty : e.bu + +v.match_qtty;
@@ -1717,7 +1729,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       // console.table([x]);
 
     }
-    out[symbol] = { floor: floor, data: x, max: max, top: top, busdkeys: busdkeys, ackeys: ackeys, price:prices };
+    out[symbol] = { floor: floor, data: x, max: max, top: top, busdkeys: busdkeys, ackeys: ackeys, prices:prices };
     // console.log(symbol)
     // console.table(max.sd)
     // console.table(max.bu)
