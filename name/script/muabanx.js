@@ -480,6 +480,7 @@ async function processData() {
       let top = {};
       let oulier = []
       let summary = []
+      let volgroup = []
       let pp = new Promise((resolve, reject) => {
         let length = Object.keys(res).length;
         // let res = 0; 
@@ -632,10 +633,19 @@ async function processData() {
           // console.log(index,length,symbolData.floor,x.length,count)
           //
           let prices=symbolData.prices;
-          console.table(Object.values(prices))
+          // console.table(Object.values(prices))
+          Object.keys(prices).forEach(ke=>{
+            prices[ke]["price"] = ke;
+            prices[ke]["symbol"] = symbol;
+          })
 
+          let vg = Object.values(prices);
+          vg.sort((a,b)=>{return a.price - b.price})
+          volgroup.push(...vg);
+            // console.table(Object.values(prices))
           //Ket thuc
           if (index + 1 == length) {
+            // console.table(volgroup)
             let values = Object.values(newData);
             values.sort((a, b) => {
               let c = a.datetime - b.datetime;
@@ -1044,7 +1054,7 @@ async function processData() {
             fs.writeFileSync("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + "_" + "busd" + ".log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync("./profile/busd.json", JSON.stringify(summary));
             fs.writeFileSync("./profile/busd_" + datekey + ".json", JSON.stringify(summary));
-            writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_BUSD_" + datekey + ".xlsx", summary)
+            writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_BUSD_" + datekey + ".xlsx", summary)            
 
 
             strtable = getTable(Object.values(nganh));
@@ -1072,7 +1082,8 @@ async function processData() {
               }
             })
 
-
+            writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Vol_Group_" + datekey + ".xlsx", volgroup)
+            
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
             writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_5p_" + datekey + ".xlsx", values)
