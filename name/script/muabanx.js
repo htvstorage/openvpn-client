@@ -635,8 +635,8 @@ async function processData() {
           let prices=symbolData.prices;
           // console.table(Object.values(prices))
           Object.keys(prices).forEach(ke=>{
-            prices[ke]["price"] = ke;
-            prices[ke]["symbol"] = symbol;
+            let z = {symbol:symbol,price:ke,...prices[ke]};
+            prices[ke] =z;            
           })
 
           let vg = Object.values(prices);
@@ -1276,12 +1276,13 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         prices[v.price] = m;
       }
       let m = prices[v.price];
-      m[v.side] += +v.match_qtty;
+      m[v.side] += +v.match_qtty;      
       m[v.side + "val"] += val;
-
+      m[v.side+"-c"] += 1;      
       range.every(e=>{
         if(+v.match_qtty <= e) {
              m[e + "-" + v.side] += +v.match_qtty;
+             m[e + "-" + v.side+"-c"] += 1;  
              return false;
         }        
         return true;
