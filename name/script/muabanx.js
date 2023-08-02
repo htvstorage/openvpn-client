@@ -1267,10 +1267,12 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         let m = { "bu": 0, "sd": 0, "unknown": 0 }
         kk.forEach(kke => {
           m[kke + "val"] = 0;
+          m[kke + "-c"] = 0;
         })
         range.forEach(e => {
           kk.forEach(kke => {
             m[e + "-" + kke] = 0;
+            m[e + "-" + kke+"-c"] = 0;
           })
         });
         prices[v.price] = m;
