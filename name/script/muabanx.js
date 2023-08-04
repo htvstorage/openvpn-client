@@ -1083,6 +1083,8 @@ async function processData() {
             })
 
             writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Vol_Group_" + datekey + ".xlsx", volgroup)
+            fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Vol_Group_" + datekey + ".json", JSON.stringify(volgroup), (e) => { if (e) { console.log(e) } })
+
             
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
