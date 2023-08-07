@@ -159,13 +159,13 @@ async () => {
 
     listFiles.forEach(s => {
         let data = fs.readFileSync(s);
-        let stockData = JSON.parse(data);        
+        let stockData = JSON.parse(data);
         stockData.forEach(e => {
             if (!dataStore[e.symbol + "" + e.price]) dataStore[e.symbol + "" + e.price] = e;
             else {
                 let oe = dataStore[e.symbol + "" + e.price];
                 Object.keys(oe).forEach(oee => {
-                    if(oee != "symbol" && oee != "price"){
+                    if (oee != "symbol" && oee != "price") {
                         oe[oee] += e[oee]
                     }
                 })
@@ -182,9 +182,72 @@ async () => {
     let out = {}
 
     //Process Data here
+
+    let mapkey = {
+        'symbol': 'symbol',
+        'price': 'price',
+        'bu': 'bu',
+        'sd': 'sd',
+        'unknown': 'uk',
+        'buval': 'buval',
+        'bu-c': 'bu-c',
+        'sdval': 'sdval',
+        'sd-c': 'sd-c',
+        'unknownval': 'ukval',
+        'unknown-c': 'uk-c',
+        '1000-bu': '1K-bu',
+        '1000-bu-c': '1K-bu-c',
+        '1000-sd': '1K-sd',
+        '1000-sd-c': '1K-sd-c',
+        '1000-unknown': '1K-uk',
+        '1000-unknown-c': '1K-uk-c',
+        '10000-bu': '10K-bu',
+        '10000-bu-c': '10K-bu-c',
+        '10000-sd': '10K-sd',
+        '10000-sd-c': '10K-sd-c',
+        '10000-unknown': '10K-uk',
+        '10000-unknown-c': '10K-uk-c',
+        '50000-bu': '50K-bu',
+        '50000-bu-c': '50K-bu-c',
+        '50000-sd': '50K-sd',
+        '50000-sd-c': '50K-sd-c',
+        '50000-unknown': '50K-uk',
+        '50000-unknown-c': '50K-uk-c',
+        '200000-bu': '200K-bu',
+        '200000-bu-c': '200K-bu-c',
+        '200000-sd': '200K-sd',
+        '200000-sd-c': '200K-sd-c',
+        '200000-unknown': '200K-uk',
+        '200000-unknown-c': '200K-uk-c',
+        '500000-bu': '500K-bu',
+        '500000-bu-c': '500K-bu-c',
+        '500000-sd': '500K-sd',
+        '500000-sd-c': '500K-sd-c',
+        '500000-unknown': '500K-uk',
+        '500000-unknown-c': '500K-uk-c',
+        '20000000-bu': '20M-bu',
+        '20000000-bu-c': '20M-bu-c',
+        '20000000-sd': '20M-sd',
+        '20000000-sd-c': '20M-sd-c',
+        '20000000-unknown': '20M-uk',
+        '20000000-unknown-c': '20M-uk-c',
+    }
+
+    let dataStoreArray = []
     Object.keys(dataStore).forEach((s, i) => {
         let data = dataStore[s]
-        data.table=getTable(data);
+
+        const filteredData = Object.fromEntries(
+            Object.entries(data).filter(([key, value]) => value !== 0)
+        );
+        let newData = {}        
+        for (let key in filteredData) {
+            newData[mapkey[key]] = filteredData[key]
+        }
+        // console.table(newData)
+        newData.total = (newData.bu == undefined? 0:newData.bu ) + (newData.sd == undefined? 0:newData.sd ) + (newData.uk == undefined? 0:newData.uk )
+        newData.table = getTable(newData);
+        dataStoreArray.push(newData)
     })
 
     // console.table(dataStore)
@@ -205,7 +268,7 @@ async () => {
     })
     // console.table(out1)
 
-    writeArrayJson2Xlsx("./filter/VolGroup.xlsx", Object.values(dataStore));
+    writeArrayJson2Xlsx("./filter/VolGroup.xlsx", dataStoreArray);
 })(1, 2)
 
 
