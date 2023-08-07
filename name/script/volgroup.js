@@ -246,6 +246,7 @@ async () => {
         }
         // console.table(newData)
         newData.total = (newData.bu == undefined? 0:newData.bu ) + (newData.sd == undefined? 0:newData.sd ) + (newData.uk == undefined? 0:newData.uk )
+        newData.totalVal = (newData.buval == undefined? 0:newData.buval ) + (newData.sdval == undefined? 0:newData.sdval ) + (newData.ukval == undefined? 0:newData.ukval )
         newData.table = getTable(newData);
         dataStoreArray.push(newData)
     })
