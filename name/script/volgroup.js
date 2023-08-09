@@ -117,7 +117,7 @@ async () => {
 
 (async function (a, b) {
     //month -1
-    let dateFrom = new Date(2023, 4, 1)
+    let dateFrom = new Date(2023, 7, 8)
     let dateTo = new Date(2023, 10, 26)
     let dateShortFrom = new Date(2023, 4, 25)
     let meanvolLow = 5000;
@@ -248,6 +248,7 @@ async () => {
         newData.total = (newData.bu == undefined? 0:newData.bu ) + (newData.sd == undefined? 0:newData.sd ) + (newData.uk == undefined? 0:newData.uk )
         newData.totalVal = (newData.buval == undefined? 0:newData.buval ) + (newData.sdval == undefined? 0:newData.sdval ) + (newData.ukval == undefined? 0:newData.ukval )
         newData.table = getTable(newData);
+        newData.price = +newData.price;
         dataStoreArray.push(newData)
     })
 
