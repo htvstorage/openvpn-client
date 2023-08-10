@@ -117,7 +117,7 @@ async () => {
 
 (async function (a, b) {
     //month -1
-    let dateFrom = new Date(2023, 7, 8)
+    let dateFrom = new Date(2023, 4, 8)
     let dateTo = new Date(2023, 10, 26)
     let dateShortFrom = new Date(2023, 4, 25)
     let meanvolLow = 5000;
