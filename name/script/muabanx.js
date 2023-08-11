@@ -481,6 +481,7 @@ async function processData() {
       let oulier = []
       let summary = []
       let volgroup = []
+      let dataAll = []
       let pp = new Promise((resolve, reject) => {
         let length = Object.keys(res).length;
         // let res = 0; 
@@ -488,12 +489,17 @@ async function processData() {
         let uppct = Config.muaban()["uppct"]
         let toppct = Config.muaban()["toppct"]
         let downpct = Config.muaban()["downpct"]
+        let enableDataAll = Config.muaban()["enableDataAll"]
 
         Object.keys(res).forEach((symbol, index) => {
           let symbolData = res[symbol];
           let count = 0;
           // console.table(symbolData.data.at(-1))
           let end = symbolData.data.at(-1);
+          if (enableDataAll) {
+            symbolData.data.forEach(e=>{e.symbol=symbol})
+            dataAll.push(...symbolData.data)
+          }
           if (end) {
             let p = stockdata[symbol]
             let add = {};
@@ -632,17 +638,17 @@ async function processData() {
           }
           // console.log(index,length,symbolData.floor,x.length,count)
           //
-          let prices=symbolData.prices;
+          let prices = symbolData.prices;
           // console.table(Object.values(prices))
-          Object.keys(prices).forEach(ke=>{
-            let z = {symbol:symbol,price:ke,...prices[ke]};
-            prices[ke] =z;            
+          Object.keys(prices).forEach(ke => {
+            let z = { symbol: symbol, price: ke, ...prices[ke] };
+            prices[ke] = z;
           })
 
           let vg = Object.values(prices);
-          vg.sort((a,b)=>{return a.price - b.price})
+          vg.sort((a, b) => { return a.price - b.price })
           volgroup.push(...vg);
-            // console.table(Object.values(prices))
+          // console.table(Object.values(prices))
           //Ket thuc
           if (index + 1 == length) {
             // console.table(volgroup)
@@ -1054,7 +1060,7 @@ async function processData() {
             fs.writeFileSync("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_" + datekey + "_" + "busd" + ".log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync("./profile/busd.json", JSON.stringify(summary));
             fs.writeFileSync("./profile/busd_" + datekey + ".json", JSON.stringify(summary));
-            writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_BUSD_" + datekey + ".xlsx", summary)            
+            writeArrayJson2Xlsx("./outlier/" + "VNINDEX" + "_" + floor + "_Outlier_BUSD_" + datekey + ".xlsx", summary)
 
 
             strtable = getTable(Object.values(nganh));
@@ -1083,9 +1089,12 @@ async function processData() {
             })
 
             writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Vol_Group_" + datekey + ".xlsx", volgroup)
+            if (enableDataAll)
+              writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".xlsx", dataAll)
+
             fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Vol_Group_" + datekey + ".json", JSON.stringify(volgroup), (e) => { if (e) { console.log(e) } })
 
-            
+
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_table.log", str, (e) => { if (e) { console.log(e) } })
             fs.writeFileSync(dir + "VNINDEX" + "_" + floor + "_5p.json", JSON.stringify(values), (e) => { if (e) { console.log(e) } })
             writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_5p_" + datekey + ".xlsx", values)
@@ -1274,21 +1283,21 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
         range.forEach(e => {
           kk.forEach(kke => {
             m[e + "-" + kke] = 0;
-            m[e + "-" + kke+"-c"] = 0;
+            m[e + "-" + kke + "-c"] = 0;
           })
         });
         prices[v.price] = m;
       }
       let m = prices[v.price];
-      m[v.side] += +v.match_qtty;      
+      m[v.side] += +v.match_qtty;
       m[v.side + "val"] += val;
-      m[v.side+"-c"] += 1;      
-      range.every(e=>{
-        if(+v.match_qtty <= e) {
-             m[e + "-" + v.side] += +v.match_qtty;
-             m[e + "-" + v.side+"-c"] += 1;  
-             return false;
-        }        
+      m[v.side + "-c"] += 1;
+      range.every(e => {
+        if (+v.match_qtty <= e) {
+          m[e + "-" + v.side] += +v.match_qtty;
+          m[e + "-" + v.side + "-c"] += 1;
+          return false;
+        }
         return true;
       })
 
@@ -1745,7 +1754,7 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
       // console.table([x]);
 
     }
-    out[symbol] = { floor: floor, data: x, max: max, top: top, busdkeys: busdkeys, ackeys: ackeys, prices:prices };
+    out[symbol] = { floor: floor, data: x, max: max, top: top, busdkeys: busdkeys, ackeys: ackeys, prices: prices };
     // console.log(symbol)
     // console.table(max.sd)
     // console.table(max.bu)
