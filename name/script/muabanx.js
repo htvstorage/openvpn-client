@@ -490,15 +490,23 @@ async function processData() {
         let toppct = Config.muaban()["toppct"]
         let downpct = Config.muaban()["downpct"]
         let enableDataAll = Config.muaban()["enableDataAll"]
-
+        let dataField = Config.muaban()["DataField"]
         Object.keys(res).forEach((symbol, index) => {
           let symbolData = res[symbol];
           let count = 0;
           // console.table(symbolData.data.at(-1))
           let end = symbolData.data.at(-1);
-          if (enableDataAll) {
-            symbolData.data.forEach(e=>{e.symbol=symbol})
-            dataAll.push(...symbolData.data)
+          if (enableDataAll) {          
+            symbolData.data.forEach(e=>{
+              let newEle = {}
+              newEle.symbol=symbol    
+              for(let kk of dataField){
+                if(e[kk]){
+                  newEle[kk] = e[kk]
+                }
+              }
+              dataAll.push(newEle)
+            })            
           }
           if (end) {
             let p = stockdata[symbol]
@@ -1089,8 +1097,18 @@ async function processData() {
             })
 
             writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Vol_Group_" + datekey + ".xlsx", volgroup)
-            if (enableDataAll)
+            if (enableDataAll){
+              values.forEach(e=>{
+                let newEle = {}
+                newEle.symbol = "VNINDEX"
+                for(let kk of dataField){
+                  if(e[kk]) newEle[kk] = e[kk];
+                }
+                dataAll.push(newEle)
+              })              
               writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".xlsx", dataAll)
+            }
+              
 
             fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Vol_Group_" + datekey + ".json", JSON.stringify(volgroup), (e) => { if (e) { console.log(e) } })
 
