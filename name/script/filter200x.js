@@ -658,6 +658,7 @@ let tpcp = await Exchange.tpcp();
 
   writeArrayJson2Xlsx(dir + "Filter" + datestr + ".xlsx", obj)
   console.log("Save to " + dir + "Filter" + datestr + ".xlsx")
+  writeArrayJson2Xlsx(dir + "Foriegn" + datestr + ".xlsx", foriegnSummary)
   //Report nganh
   let report = {}
   let sum = { sectorName: e.SectorName, up: 0, down: 0, ref: 0, upVal: 0, downVal: 0, refVal: 0, upVol: 0, downVol: 0, refVol: 0, count: 0, val: 0, vol: 0, }
@@ -721,6 +722,7 @@ let tpcp = await Exchange.tpcp();
 
 
 let summarySymbol = {};
+let foriegnSummary = []
 async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, checkDate) {
   var data = fs.readFileSync(path)
     .toString()
@@ -830,7 +832,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     avg['busdpval'] = busdx.busdpval;
   }
 
-  Object.keys(busdm2).forEach(d=>{
+  Object.keys(busdm2).forEach(d => {
 
     let dx = busdm2[d];
     let bdx = dx[symbol];
@@ -841,13 +843,13 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
       // avg[d+'last'] = bdx.last
       // avg[d+'lastside'] = bdx.lastside
       // avg[d+'lastVal'] = bdx.lastVal
-      avg[d+'acum_busd_val'] = bdx.acum_busd_val;
-      avg[d+'acum_val'] = bdx.acum_val;
-      avg[d+'acum_val_bu'] = bdx.acum_val_bu;
-      avg[d+'acum_val_sd'] = bdx.acum_val_sd;
-      avg[d+'acum_vol_bu'] = bdx.acum_vol_bu;
-      avg[d+'acum_vol_sd'] = bdx.acum_vol_sd;
-      avg[d+'busdpval'] = bdx.busdpval;
+      avg[d + 'acum_busd_val'] = bdx.acum_busd_val;
+      avg[d + 'acum_val'] = bdx.acum_val;
+      avg[d + 'acum_val_bu'] = bdx.acum_val_bu;
+      avg[d + 'acum_val_sd'] = bdx.acum_val_sd;
+      avg[d + 'acum_vol_bu'] = bdx.acum_vol_bu;
+      avg[d + 'acum_vol_sd'] = bdx.acum_vol_sd;
+      avg[d + 'busdpval'] = bdx.busdpval;
     }
   })
 
@@ -968,8 +970,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   })
   let hlpp = days.map((e, i) => { return [...datax[i].map(e => (e.priceHigh - e.priceLow) * 100 / e.priceBasic)] })
   let c = days.map((e, i) => { return [...datax[i].map(e => e.priceClose)] })
-  if(symbol == 'KBC')
-    console.log(symbol,c.at(-1).slice(0,100))
+  if (symbol == 'KBC')
+    console.log(symbol, c.at(-1).slice(0, 100))
   let cpm = days.map((e, i) => {
     let aa = [...datax[i].map(e => e.priceClose)];
     let mean = aa.reduce((a, b) => a + b, 0) / aa.length;
@@ -999,6 +1001,32 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   let FBQ = days.map((e, i) => { return [...datax[i].map(e => e.buyForeignQuantity)] })
   let FSQ = days.map((e, i) => { return [...datax[i].map(e => e.sellForeignQuantity)] })
   let FBSQ = days.map((e, i) => { return [...datax[i].map(e => e.buyForeignQuantity / e.sellForeignQuantity)] })
+
+
+  days.forEach((e, i) => {
+    if (e == 50) {
+      let day50 = datax[i];
+      day50.forEach((de, ii) => {
+        let fe = {}
+        fe.symbol = de.symbol;
+        fe.date = de.date;
+        fe.dealVolume = de.dealVolume
+        fe.dealValue = de.dealValue
+        fe.totalVolume = de.totalVolume
+        fe.totalValue = de.totalValue
+        fe.Fvol = Fvol[i][ii]
+        fe.Fval = Fval[i][ii]
+        fe.FvalDelta = FvalDelta[i][ii]
+        fe.FvolDelta = FvolDelta[i][ii]
+        fe.FBV = de.buyForeignValue;
+        fe.FSV = de.sellForeignValue;
+        fe.FBQ = FBQ[i][ii]
+        fe.FSQ = FSQ[i][ii]
+        fe.FBSQ = FBSQ[i][ii]
+        foriegnSummary.push(fe)
+      })
+    }
+  })
 
   if (symbol == "TTF") console.table(FvalDelta[0])
 
