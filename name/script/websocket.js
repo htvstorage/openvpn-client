@@ -1,10 +1,10 @@
 import WebSocket from 'ws';
 
-const ws = new WebSocket('wss://live.tradingeconomics.com/socket.io/?key=20220413&url=%2Fcommodities&EIO=4&transport=websocket&sid=OUwfbGHIX6kagS2_ASyw');
+const ws = new WebSocket('wss://pricestream-iboard.ssi.com.vn/realtime');
 
 ws.on('open', function() {
   console.log('WebSocket connection established');
-  ws.send('Hello, server!');
+  ws.send('{"type":"sub","topic":"serverName"}');
 });
 
 ws.on('message', function(message) {
