@@ -482,6 +482,7 @@ async function processData() {
       let summary = []
       let volgroup = []
       let dataAll = []
+      let simpleDataAll = []
       let pp = new Promise((resolve, reject) => {
         let length = Object.keys(res).length;
         // let res = 0; 
@@ -496,17 +497,20 @@ async function processData() {
           let count = 0;
           // console.table(symbolData.data.at(-1))
           let end = symbolData.data.at(-1);
-          if (enableDataAll) {          
-            symbolData.data.forEach(e=>{
+          if (enableDataAll) {
+            symbolData.data.forEach((e, idx) => {
               let newEle = {}
-              newEle.symbol=symbol    
-              for(let kk of dataField){
-                if(e[kk]){
+              newEle.symbol = symbol
+              for (let kk of dataField) {
+                if (e[kk]) {
                   newEle[kk] = e[kk]
                 }
               }
               dataAll.push(newEle)
-            })            
+              if (idx == symbolData.data.length - 1) {
+                simpleDataAll.push(newEle)
+              }
+            })
           }
           if (end) {
             let p = stockdata[symbol]
@@ -1097,18 +1101,24 @@ async function processData() {
             })
 
             writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Vol_Group_" + datekey + ".xlsx", volgroup)
-            if (enableDataAll){
-              values.forEach(e=>{
+            if (enableDataAll) {
+              values.forEach((e,idx) => {
                 let newEle = {}
                 newEle.symbol = "VNINDEX"
-                for(let kk of dataField){
-                  if(e[kk]) newEle[kk] = e[kk];
+                for (let kk of dataField) {
+                  if (e[kk]) newEle[kk] = e[kk];
                 }
                 dataAll.push(newEle)
-              })              
-              writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".xlsx", dataAll)
-            }
+                if(idx == values.length-1){
+                  simpleDataAll.push(newEle)
+                }
+              })
               
+              writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".xlsx", dataAll)
+              fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".json", JSON.stringify(dataAll), (e) => { if (e) { console.log(e) } })
+              fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Simple_Data_All_" + datekey + ".json", JSON.stringify(simpleDataAll), (e) => { if (e) { console.log(e) } })
+            }
+
 
             fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Vol_Group_" + datekey + ".json", JSON.stringify(volgroup), (e) => { if (e) { console.log(e) } })
 
