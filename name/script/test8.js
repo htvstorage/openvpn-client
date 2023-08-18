@@ -12,6 +12,8 @@ import { Exchange } from './Exchange.js';
     console.table(stockdata['VGI'])
 
 
+    console.log(Date.now())
+
 })();
 
 
