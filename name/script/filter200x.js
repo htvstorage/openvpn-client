@@ -396,6 +396,7 @@ async function industry() {
     let ne = mapSymbol[e.symbol];
 
     // if (ne.pb > e.pb && ne.pe > e.pe) {
+    if(!ne)return true;
     e.industryCode = ne.industryCode;
     e.name = ne.name;
     e.ipb = ne.pb;
