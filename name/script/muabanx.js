@@ -530,8 +530,11 @@ async function processData() {
               }
               else {
                 let t = NganhDataAll[sectorName][nganhEle.datetime];
-                for(let kk in nganhEle){
-                  if(t[kk]) t[kk] += nganhEle[kk]
+                for (let kk in nganhEle) {
+                  if (t[kk]) {
+                    if (kk != 'datetime' && kk != 'date')
+                      t[kk] += nganhEle[kk]
+                  }
                   else t[kk] = nganhEle[kk]
                 }
               }
@@ -1138,9 +1141,17 @@ async function processData() {
                   simpleDataAll.push(newEle)
                 }
               })
-
-              let
+              let nganhDataAll2 = []
+              for (let sn in NganhDataAll) {
+                let Nganh = NganhDataAll[sn];
+                for(let dt in Nganh){
+                  let x = Nganh[dt];
+                  x["Name"] = sn;
+                  nganhDataAll2.push(x);
+                }
+              }
               writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".xlsx", dataAll)
+              writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Nganh_Data_All_" + datekey + ".xlsx", nganhDataAll2)
               fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".json", JSON.stringify(dataAll), (e) => { if (e) { console.log(e) } })
               fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Simple_Data_All_" + datekey + ".json", JSON.stringify(simpleDataAll), (e) => { if (e) { console.log(e) } })
             }
