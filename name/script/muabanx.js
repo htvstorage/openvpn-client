@@ -511,6 +511,7 @@ async function processData() {
               newEle.symbol = symbol
               newEle.Name = sectorName;
               let nganhEle = {}
+              nganhEle["Name"] = sectorName;
               for (let kk of dataField) {
                 if (e[kk]) {
                   newEle[kk] = e[kk]
@@ -532,7 +533,7 @@ async function processData() {
                 let t = NganhDataAll[sectorName][nganhEle.datetime];
                 for (let kk in nganhEle) {
                   if (t[kk]) {
-                    if (kk != 'datetime' && kk != 'date')
+                    if (kk != 'datetime' && kk != 'date'  && kk != 'Name')
                       t[kk] += nganhEle[kk]
                   }
                   else t[kk] = nganhEle[kk]
@@ -1146,7 +1147,7 @@ async function processData() {
                 let Nganh = NganhDataAll[sn];
                 for(let dt in Nganh){
                   let x = Nganh[dt];
-                  x["Name"] = sn;
+                  // x["Name"] = sn;
                   nganhDataAll2.push(x);
                 }
               }
