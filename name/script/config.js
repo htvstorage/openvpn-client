@@ -25,6 +25,7 @@ Config.muaban = function () {
     conf["enableWriteXlsxSymbol"] = false;
     conf["enableDataAll"] = true;
     conf["DataField"] = ['datetime','date','c','change','pct','h','l','o','uk','val_uk','bu','val_bu','sd','val_sd','total_vol','sum_vol','val','acum_val','bu-sd','bu-sd_val','acum_busd','acum_busd_val','acum_val_bu','acum_val_sd','acum_vol_bu','acum_vol_sd','pbu','psd','puk','bs','sb','abu','asd','auk','avg_val_bu','avg_val_sd','first','firstside','firstVal','last','lastside','lastVal']
+    conf["NganhDataField"] = ['datetime','date','uk','val_uk','bu','val_bu','sd','val_sd','total_vol','sum_vol','val','acum_val','bu-sd','bu-sd_val','acum_busd','acum_busd_val','acum_val_bu','acum_val_sd','acum_vol_bu','acum_vol_sd']
     conf["uppct"] = 2;
     conf["toppct"] = 1;
     conf["downpct"] = -5;

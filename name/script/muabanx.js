@@ -483,6 +483,7 @@ async function processData() {
       let volgroup = []
       let dataAll = []
       let simpleDataAll = []
+      let NganhDataAll = {}
       let pp = new Promise((resolve, reject) => {
         let length = Object.keys(res).length;
         // let res = 0; 
@@ -492,6 +493,7 @@ async function processData() {
         let downpct = Config.muaban()["downpct"]
         let enableDataAll = Config.muaban()["enableDataAll"]
         let dataField = Config.muaban()["DataField"]
+        let nganhDataField = Config.muaban()["NganhDataField"]
         Object.keys(res).forEach((symbol, index) => {
           let symbolData = res[symbol];
           let count = 0;
@@ -501,10 +503,14 @@ async function processData() {
             let sectorName = "";
             if (stockStore[symbol])
               sectorName = stockStore[symbol].SectorName;
+
+            if (!NganhDataAll[sectorName]) NganhDataAll[sectorName] = {}
+
             symbolData.data.forEach((e, idx) => {
               let newEle = {}
               newEle.symbol = symbol
               newEle.Name = sectorName;
+              let nganhEle = {}
               for (let kk of dataField) {
                 if (e[kk]) {
                   newEle[kk] = e[kk]
@@ -513,6 +519,21 @@ async function processData() {
               dataAll.push(newEle)
               if (idx == symbolData.data.length - 1) {
                 simpleDataAll.push(newEle)
+              }
+              for (let kk of nganhDataField) {
+                if (e[kk]) {
+                  nganhEle[kk] = e[kk]
+                }
+              }
+              if (!NganhDataAll[sectorName][nganhEle.datetime]) {
+                NganhDataAll[sectorName][nganhEle.datetime] = nganhEle;
+              }
+              else {
+                let t = NganhDataAll[sectorName][nganhEle.datetime];
+                for(let kk in nganhEle){
+                  if(t[kk]) t[kk] += nganhEle[kk]
+                  else t[kk] = nganhEle[kk]
+                }
               }
             })
           }
@@ -1118,6 +1139,7 @@ async function processData() {
                 }
               })
 
+              let
               writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".xlsx", dataAll)
               fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".json", JSON.stringify(dataAll), (e) => { if (e) { console.log(e) } })
               fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Simple_Data_All_" + datekey + ".json", JSON.stringify(simpleDataAll), (e) => { if (e) { console.log(e) } })
