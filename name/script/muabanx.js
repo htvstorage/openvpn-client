@@ -498,9 +498,13 @@ async function processData() {
           // console.table(symbolData.data.at(-1))
           let end = symbolData.data.at(-1);
           if (enableDataAll) {
+            let sectorName = "";
+            if (stockStore[symbol])
+              sectorName = stockStore[symbol].SectorName;
             symbolData.data.forEach((e, idx) => {
               let newEle = {}
               newEle.symbol = symbol
+              newEle.Name = sectorName;
               for (let kk of dataField) {
                 if (e[kk]) {
                   newEle[kk] = e[kk]
@@ -1102,18 +1106,18 @@ async function processData() {
 
             writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Vol_Group_" + datekey + ".xlsx", volgroup)
             if (enableDataAll) {
-              values.forEach((e,idx) => {
+              values.forEach((e, idx) => {
                 let newEle = {}
                 newEle.symbol = "VNINDEX"
                 for (let kk of dataField) {
                   if (e[kk]) newEle[kk] = e[kk];
                 }
                 dataAll.push(newEle)
-                if(idx == values.length-1){
+                if (idx == values.length - 1) {
                   simpleDataAll.push(newEle)
                 }
               })
-              
+
               writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".xlsx", dataAll)
               fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".json", JSON.stringify(dataAll), (e) => { if (e) { console.log(e) } })
               fs.writeFileSync("./data/" + "VNINDEX" + "_" + floor + "_Simple_Data_All_" + datekey + ".json", JSON.stringify(simpleDataAll), (e) => { if (e) { console.log(e) } })
