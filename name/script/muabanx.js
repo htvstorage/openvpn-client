@@ -533,7 +533,7 @@ async function processData() {
                 let t = NganhDataAll[sectorName][nganhEle.datetime];
                 for (let kk in nganhEle) {
                   if (t[kk]) {
-                    if (kk != 'datetime' && kk != 'date'  && kk != 'Name')
+                    if (kk != 'datetime' && kk != 'date' && kk != 'Name')
                       t[kk] += nganhEle[kk]
                   }
                   else t[kk] = nganhEle[kk]
@@ -1145,11 +1145,36 @@ async function processData() {
               let nganhDataAll2 = []
               for (let sn in NganhDataAll) {
                 let Nganh = NganhDataAll[sn];
-                for(let dt in Nganh){
+                // for(let dt in Nganh){
+                //   let x = Nganh[dt];
+                //   // x["Name"] = sn;
+                //   nganhDataAll2.push(x);
+                // }
+                let total_vol = 0;
+                let acum_val = 0;
+                let acum_busd = 0;
+                let acum_busd_val = 0;
+                let acum_val_bu = 0;
+                let acum_val_sd = 0;
+                let acum_vol_bu = 0;
+                let acum_vol_sd = 0;
+                Object.keys(Nganh).sort().forEach(dt => {
                   let x = Nganh[dt];
-                  // x["Name"] = sn;
+                  if (x.sum_vol) total_vol += x.sum_vol;
+                  if (x.val) acum_val += x.val;
+                  if (x["bu-sd"]) acum_busd += x["bu-sd"];
+                  if (x["bu-sd_val"]) acum_busd_val += x["bu-sd_val"]
+                  if (x.val_bu) acum_val_bu += x.val_bu;
+                  if (x.val_sd) acum_val_sd += x.val_sd;
+                  if (x.bu) acum_vol_bu += x.bu;
+                  if (x.sd) acum_vol_sd += x.sd;
+
+                  x = {
+                    ...x, total_vol: total_vol, acum_val: acum_val, acum_busd: acum_busd, acum_busd_val: acum_busd_val,
+                    acum_val_bu: acum_val_bu, acum_val_sd: acum_val_sd, acum_vol_bu: acum_vol_bu, acum_vol_sd: acum_vol_sd
+                  }
                   nganhDataAll2.push(x);
-                }
+                })
               }
               writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Data_All_" + datekey + ".xlsx", dataAll)
               writeArrayJson2Xlsx("./vnindex/" + "VNINDEX" + "_" + floor + "_Nganh_Data_All_" + datekey + ".xlsx", nganhDataAll2)
