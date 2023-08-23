@@ -32,6 +32,7 @@ import { colours } from "./Utils.js";
     list = list.map(e=>{
         e["mb"] = e.mkl + e.mtt - e.bkl - e.btt;
         e["mbv"] = e.mvkl + e.mvtt - e.bvkl - e.bvtt;
+        e["price"] = (e.mbv/e.mb).toFixed(2);
         return e;
     });
     // console.log(list)
