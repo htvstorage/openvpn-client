@@ -78,7 +78,7 @@ function wait(ms) {
     //'20230112', '20230111', '20230110', '20230109', '20230108'
     let whitelist = []
 
-    let recently = 50;
+    let recently = 20;
     let check = {};
     let fileFiltered = [];
     for(let file of files){
