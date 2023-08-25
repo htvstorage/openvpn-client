@@ -1014,7 +1014,8 @@ Exchange.TCBS = function () {
 
 Exchange.TCBS.intraday = async function (code) {
   let size = 100;
-  let a = await fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page=0&size=100&headIndex=-1", {
+
+  let f =()=> {return fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page=0&size=100&headIndex=-1", {
     "headers": {
       "accept": "application/json",
       "accept-language": "vi",
@@ -1029,15 +1030,23 @@ Exchange.TCBS.intraday = async function (code) {
     "method": "GET",
     "mode": "cors",
     agent
-  });
+  });}
+  let a = await f();
   let all = []
   let data = await a.json();
+  while(!data.data) {
+    // console.log(code,data)
+    // return { Code: code, data: all };
+    a = await f();
+    data = await a.json();
+  }
   all.push(...data.data)
   let page = data.total / size;
   if (page > 1) {
     // console.log(page)
-    for (let i = 1; i <= page + 1; i++) {
-      a = await fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page=" + i + "&size=100&headIndex=-1", {
+
+    let fi = (code,i)=>{
+      return fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page=" + i + "&size=100&headIndex=-1", {
         "headers": {
           "accept": "application/json",
           "accept-language": "vi",
@@ -1053,7 +1062,16 @@ Exchange.TCBS.intraday = async function (code) {
         "mode": "cors",
         agent
       });
+    }
+    for (let i = 1; i <= page + 1; i++) {
+      a = await fi(code,i);
       data = await a.json();
+      while(!data.data) {
+        // console.log(code,data)
+        // return { Code: code, data: all };
+        a = await fi(code,i);
+        data = await a.json();
+      }
       all.push(...data.data)
       if (i == Math.floor(page)) {
         // console.table(data.data)

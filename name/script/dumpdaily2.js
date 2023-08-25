@@ -118,7 +118,8 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         fs.unlinkSync(path.join(dir, file));
       }
     }
-
+    let maxSize = 100;
+    if(ss.toUpperCase() == "TCBS") maxSize =50
 
     logger.debug("Done remove directory ", dir);
 
@@ -129,7 +130,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       x['Code'] = x.stock_code;
       if (x.Code.length < 4) {
         logger.trace(x.Code);
-        while (stat.req - stat.res >= 100) {
+        while (stat.req - stat.res >= maxSize) {
           await wait(200);
         }
         // let z = getTrans(x.Code);
