@@ -45,7 +45,7 @@ async function getURL() {
     }
 
     let d = new Date()
-    let dfd = new Date(new Date().setDate(d.getDate() - 30));
+    let dfd = new Date(new Date().setDate(d.getDate() - 10));
     console.log(d, dfd)
     let df = fd(dfd)
     let dt = fd(d)
