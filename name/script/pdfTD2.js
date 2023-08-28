@@ -6,6 +6,15 @@ import path, { resolve } from "path";
 import { writeFile } from "fs/promises"
 import pdf from "pdfjs-dist/legacy/build/pdf.js";
 import { error } from "console";
+import xlsx from "xlsx"
+
+
+function writeArrayJson2Xlsx(filename, array) {
+    let workbook = xlsx.utils.book_new();
+    let worksheet = xlsx.utils.json_to_sheet(array);
+    xlsx.utils.book_append_sheet(workbook, worksheet);
+    xlsx.writeFile(workbook, filename);
+}
 
 //https://static2.vietstock.vn/vietstock/2022/12/1/20221201_20221201___thong_ke_giao_dich_tu_doanh.pdf
 //https://static2.vietstock.vn/vietstock/2022/9/8/20220908_20220908___thong_ke_giao_dich_tu_doanh.pdf
@@ -36,7 +45,7 @@ async function getURL() {
     }
 
     let d = new Date()
-    let dfd = new Date(new Date().setDate(d.getDate() - 10));
+    let dfd = new Date(new Date().setDate(d.getDate() - 30));
     console.log(d, dfd)
     let df = fd(dfd)
     let dt = fd(d)
@@ -178,7 +187,7 @@ function wait(ms) {
     //'20230112', '20230111', '20230110', '20230109', '20230108'
     let whitelist = []
 
-    let recently = 6;
+    let recently = 50;
     let check = {};
     let fileFiltered = [];
     for (let file of files) {
@@ -362,14 +371,20 @@ function wait(ms) {
     }
 
 
-    console.log(Object.keys(total));
+    // console.log(Object.keys(total));
+
+    // console.table(Object.values(total).at(-1))
 
 
     let summarySymbol = {};
+    let arraySymbol = []
+    let maxDate = undefined;
+    let maxDateStr = "";
 
     for (let k of Object.keys(total)) {
-        console.log(k);
+        // console.log(k);
         let data = total[k];
+        // if (!arraySymbol[k]) arraySymbol[k] = []
         data.forEach((v, i) => {
             if (i = 0) return;
             let t = summarySymbol[v[0]];
@@ -382,6 +397,40 @@ function wait(ms) {
                 if (v[i] != undefined)
                     t[i - 1] += +(v[i].replace(/,/g, ''));
             }
+
+            let a = [];
+            a[0] = v[0]
+            for (let ii = 1; ii < v.length; ii++) {
+                if (v[ii]) a[ii] = +(v[ii].replace(/,/g, ''));
+            }
+            // console.log(k.slice(0,4),(k.slice(4,6)),k.slice(6,8))
+            let temp = {
+                mkl: a[1],
+                bkl: a[2],
+                mvkl: a[3],
+                bvkl: a[4],
+                mtt: a[5],
+                btt: a[6],
+                mvtt: a[7],
+                bvtt: a[8],
+            }
+            let d = new Date(+k.slice(0, 4), (+k.slice(4, 6) - 1), +k.slice(6, 8));
+            if (!maxDate) {
+                maxDate = d;
+                maxDateStr = k;
+            }
+            if (maxDate < d) {
+                maxDate = d;
+                maxDateStr = k;
+            }
+            let td = { date: k, datetime: d, symbol: a[0] }
+            for (let k in temp) {
+                if (temp[k]) td[k] = temp[k]
+            }
+
+            arraySymbol.push(td)
+
+
         });
     }
 
@@ -406,7 +455,9 @@ function wait(ms) {
     // console.log(summarySymbol)
 
 
+    // console.table(Object.values(arraySymbol).at(-1))
 
+    writeArrayJson2Xlsx("./filter/" + "TD_" + maxDateStr + ".xlsx", arraySymbol)
     fs.writeFile("symbol.json", JSON.stringify(symbols, (k, v) => {
         return v;
     }, ''), (e) => { });
