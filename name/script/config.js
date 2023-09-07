@@ -4,9 +4,9 @@ export function Config() {
 Config.filter = function () {
     let conf = {}
     //[3, 7, 10, 15, 20, 30, 50, 100, 200, 365, 500, 1000, 5000];
-    conf["days"] = [3, 7, 10, 30, 50, 100, 200, 1000];
+    conf["days"] = [3, 7, 10, 30, 50, 100, 250, 1000];
     conf["bombday"] = 30;
-    conf["shortPeriods"] = [5, 10, 20, 25, 26, 30, 50, 100, 200];
+    conf["shortPeriods"] = [5, 10, 20, 25, 26, 30, 50, 100, 250];
     conf["shortSidewayDays"] = 50;
     conf["shortCeDays"] = 1500;
     conf["numCheckIncrementDays"] = 150;
