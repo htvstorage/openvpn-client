@@ -14,7 +14,7 @@ import { Exchange } from './Exchange.js';
 
     // console.log(Date.now())
     console.log("Data")
-    let data = await Exchange.TCBS.intraday("NVL")
+    let data = await Exchange.CafeF.DataHistory("NVL")
     console.log("End")
     console.table(data.data)
 

@@ -108,6 +108,11 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         csv = new Parser({ fields: ['symbol', 'time', 'price', 'change', 'vol', 'total', 'side'] });
         fun = Exchange.VCBS.priceBoard;
         break;
+      case "CAFEF":
+        dir += "./cafeftrans/" + getNow() + "/";
+        csv = new Parser({ fields: ['symbol', 'ThoiGian','Gia','GiaThayDoi','KLLo','KLTichLuy','TiTrong','KLLoN','change'] });
+        fun = Exchange.CafeF.DataHistory;
+        break;
     }
 
     if (!fs.existsSync(dir)) {
@@ -119,7 +124,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       }
     }
     let maxSize = 100;
-    if(ss.toUpperCase() == "TCBS") maxSize =50
+    if (ss.toUpperCase() == "TCBS") maxSize = 50
 
     logger.debug("Done remove directory ", dir);
 
@@ -159,8 +164,8 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
           stat.record += ret.data.length;
 
-            // 
-            let data2 = csv.parse(ret.data);
+          // 
+          let data2 = csv.parse(ret.data);
           if (watchlist.includes(ret.Code)) {
             // logger.info("\n",ret.Code,"\n",data2.substr(0,data2.indexOf("\n",200)));
           }

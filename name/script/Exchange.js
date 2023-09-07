@@ -765,7 +765,7 @@ Exchange.financialReportFireAnt = async function (symbol) {
     }
   }
 
-  return { Q1: a[0], Y1: a[1], Q2: a[2], Y2: a[3], symbol: symbol, success:success };
+  return { Q1: a[0], Y1: a[1], Q2: a[2], Y2: a[3], symbol: symbol, success: success };
 }
 
 
@@ -783,7 +783,7 @@ Exchange.CafeF = function () {
 
 Exchange.CafeF.BCTCCK = async function (code) {
   let tradeInfo = (code) => {
-    return fetch("https://s.cafef.vn/bao-cao-tai-chinh-chung-khoan/"+code+"/BSheet/2023/1/0/0/cong-ty-co-phan-chung-khoan-ssi.chn", {
+    return fetch("https://s.cafef.vn/bao-cao-tai-chinh-chung-khoan/" + code + "/BSheet/2023/1/0/0/cong-ty-co-phan-chung-khoan-ssi.chn", {
       "headers": {
         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -816,34 +816,35 @@ Exchange.CafeF.BCTCCK = async function (code) {
   console.log(data)
   let head = []
   let values = {}
-  
+
   // fs.writeFileSync("data.html ", data)
   // let z = d.querySelectorAll("table[id]");
   // z.forEach(e => console.log(e.getAttribute("id")))
   // console.log(code)
-  d.querySelector("thead").querySelectorAll("td").forEach((e,i) => { 
+  d.querySelector("thead").querySelectorAll("td").forEach((e, i) => {
     // console.log(i,e.textContent);
-     head.push(e.textContent) })
-  d.querySelector("tbody").querySelectorAll("tr").forEach(e => { 
+    head.push(e.textContent)
+  })
+  d.querySelector("tbody").querySelectorAll("tr").forEach(e => {
     let key = "";
-    e.childNodes.forEach((ee,i)=>{
+    e.childNodes.forEach((ee, i) => {
       // console.log(i,ee.textContent)
-      if(i%2 ==0 ){
+      if (i % 2 == 0) {
         return;
       }
-      if(i==1){
+      if (i == 1) {
         values[ee.textContent] = []
         key = ee.textContent;
-      }else{
+      } else {
         values[key].push(ee.textContent)
-      }            
+      }
     })
 
   })
   // if(data.includes("tableContent")){
 
   // console.table(values)
-  return {code:code,head:head,values:values};
+  return { code: code, head: head, values: values };
 }
 Exchange.CafeF.BCTC = async function (code) {
   let tradeInfo = (code) => {
@@ -880,35 +881,91 @@ Exchange.CafeF.BCTC = async function (code) {
   // console.log(data)
   let head = []
   let values = {}
-  
+
   // fs.writeFileSync("data.html ", data)
   let z = d.querySelectorAll("table[id]");
   // z.forEach(e => console.log(e.getAttribute("id")))
   // console.log(code)
-  d.querySelector("#tblGridData").querySelectorAll("td").forEach((e,i) => { 
+  d.querySelector("#tblGridData").querySelectorAll("td").forEach((e, i) => {
     // console.log(i,e.textContent);
-     head.push(e.textContent) })
-  d.querySelector("#tableContent").querySelectorAll("tr").forEach(e => { 
+    head.push(e.textContent)
+  })
+  d.querySelector("#tableContent").querySelectorAll("tr").forEach(e => {
     let key = "";
-    e.childNodes.forEach((ee,i)=>{
+    e.childNodes.forEach((ee, i) => {
       // console.log(i,ee.textContent)
-      if(i%2 ==0 ){
+      if (i % 2 == 0) {
         return;
       }
-      if(i==1){
+      if (i == 1) {
         values[ee.textContent] = []
         key = ee.textContent;
-      }else{
+      } else {
         values[key].push(ee.textContent)
-      }            
+      }
     })
 
   })
   // if(data.includes("tableContent")){
 
   // console.table(values)
-  return {code:code,head:head,values:values};
+  return { code: code, head: head, values: values };
 }
+
+Exchange.CafeF.DataHistory = async function (code, date) {
+  let dateStr = "";
+  if (!date) {
+    let d = new Date();
+    dateStr = (d.getMonth() + 1) + "/" + d.getDate() + "/" + d.getFullYear();
+  } else {
+    dateStr = date;
+  }
+
+
+
+
+  let cfetch = async (code, dateStr) => {
+    return await fetch("https://s.cafef.vn/Ajax/PageNew/DataHistory/KhopLenh/DataKhopLenh.ashx?Symbol=" + code + "&Date=" + dateStr, {
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "cookie": "__uidac=e6ca13cd4d851900d345eaec29751055; _uidcms=1688977861591934284; favorite_stocks_state=1; __RC=4; __R=1; __tb=0; __IP=1953009066; _ga_R10DT5MFB8=GS1.2.1689072742.3.0.1689072742.0.0.0; __admUTMtime=1693301210; __gads=ID=231b0fe8dd6cd1a9:T=1693301163:RT=1693361005:S=ALNI_MYkNS_Qc5syGb0woAEteZnx5mQzzA; _admcfr=604332_1%2C604344_1; ASP.NET_SessionId=m34bmyhzxw1oodv5dz3mvrlo; _ga_860L8F5EZP=GS1.1.1694076698.11.0.1694076698.0.0.0; _gid=GA1.2.842321278.1694076699; _ga=GA1.1.223796366.1688977862; __uif=__uid%3A1484898691953009066%7C__ui%3A1%252C5%7C__create%3A1668489869; _ga_XLBBV02H03=GS1.1.1694076875.8.1.1694077873.0.0.0; _ga_D40MBMET7Z=GS1.1.1694076875.12.1.1694077873.0.0.0",
+        "Referer": "https://s.cafef.vn/lich-su-giao-dich-nvl-5.chn",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "body": null,
+      "method": "GET",
+      agent
+    });
+  }
+  let a = await cfetch(code, dateStr);
+
+  let data = await a.text();
+  // console.log(data)
+  while (!data.startsWith("{")) {
+    await Exchange.wait(200);
+    a = await cfetch(code,dateStr);
+    data = await a.text();
+  }
+  data = JSON.parse(data);
+  data = data.Data.DlChiTiet.map(e=>{
+    let en = {symbol:code,...e};
+    en.KLLoN = Math.round(e.KLLo)
+    en.change = +e.GiaThayDoi.slice(0,e.GiaThayDoi.indexOf(" (")).trim().replaceAll("--","-")
+    return en
+  })
+
+  // console.table(data);
+  return { Code: code, data: data };
+}
+
+
 Exchange.VietStock = function () {
 
 }
@@ -946,7 +1003,7 @@ Exchange.VietStock.TradingInfo = async function (code) {
   }
   data = JSON.parse(data);
   // console.table(data);
-  if(!data.StockCode) data.StockCode = code;
+  if (!data.StockCode) data.StockCode = code;
   return data;
 }
 Exchange.VietStock.GetStockDealDetail = async function (code) {
@@ -1015,26 +1072,28 @@ Exchange.TCBS = function () {
 Exchange.TCBS.intraday = async function (code) {
   let size = 100;
 
-  let f =()=> {return fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page=0&size=100&headIndex=-1", {
-    "headers": {
-      "accept": "application/json",
-      "accept-language": "vi",
-      "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoZW5fc2VydmljZSIsImV4cCI6MTY3NTk2NDQzNiwianRpIjoiIiwiaWF0IjoxNjc1OTM1NjM2LCJzdWIiOiIxMDAwMDM2Nzk2NCIsImN1c3RvZHlJRCI6IjEwNUNENjQ5ODgiLCJlbWFpbCI6IlRSSU5IVkFOSFVOR0BHTUFJTC5DT00iLCJyb2xlcyI6WyJjdXN0b21lciJdLCJzdGVwdXBfZXhwIjowLCJzb3RwX3NpZ24iOiIiLCJjbGllbnRfa2V5IjoiMTAwMDAzNjc5NjQuQWFrSzlTSWNPVnFWR1lwYkVFZXMiLCJzZXNzaW9uSUQiOiIxYzRkNTkwNS1jOWFiLTQ2NTItOTUwYi03NzM0NTM3MDkzNjciLCJhY2NvdW50X3N0YXR1cyI6IjEiLCJvdHAiOiIiLCJvdHBUeXBlIjoiIiwib3RwU291cmNlIjoiVENJTlZFU1QiLCJvdHBTZXNzaW9uSWQiOiIifQ.9OhqnK7Msi_JC7VMT6AXLcihhZjdE7YZeRrZdNiw6__JgxNe_Q7f2UYqgIMd-blN8bo6FUOVJSMA9V8vRtQrtAc8FdBXYhz6p8_-bAlA78qZmwfn7AUHdGbZW5_bO6NDrk9Y_hhakROlehcqVHuDbZwNuJHQgoH-qsF0Gnqamt0povTNoCx-Lq8-_CSSxFHRriAURWk_l2SLFciPIBLOnmnrT8RNwg4lPMX3NY7bLKokUJinQP32iJeegMhGnuVfYn7nlWGhMFhQGfFJIP1aE3z_m-8KpZwJAAN6VlWAKSpN_v1aaLMqQn6ol6KkZh2KEyEz_hPwOPFAyawBMenyXw",
-      "content-type": "application/json",
-      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-      "sec-ch-ua-mobile": "?0"
-    },
-    "referrer": "https://tcinvest.tcbs.com.vn/",
-    "referrerPolicy": "strict-origin-when-cross-origin",
-    "body": null,
-    "method": "GET",
-    "mode": "cors",
-    agent
-  });}
+  let f = () => {
+    return fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page=0&size=100&headIndex=-1", {
+      "headers": {
+        "accept": "application/json",
+        "accept-language": "vi",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoZW5fc2VydmljZSIsImV4cCI6MTY3NTk2NDQzNiwianRpIjoiIiwiaWF0IjoxNjc1OTM1NjM2LCJzdWIiOiIxMDAwMDM2Nzk2NCIsImN1c3RvZHlJRCI6IjEwNUNENjQ5ODgiLCJlbWFpbCI6IlRSSU5IVkFOSFVOR0BHTUFJTC5DT00iLCJyb2xlcyI6WyJjdXN0b21lciJdLCJzdGVwdXBfZXhwIjowLCJzb3RwX3NpZ24iOiIiLCJjbGllbnRfa2V5IjoiMTAwMDAzNjc5NjQuQWFrSzlTSWNPVnFWR1lwYkVFZXMiLCJzZXNzaW9uSUQiOiIxYzRkNTkwNS1jOWFiLTQ2NTItOTUwYi03NzM0NTM3MDkzNjciLCJhY2NvdW50X3N0YXR1cyI6IjEiLCJvdHAiOiIiLCJvdHBUeXBlIjoiIiwib3RwU291cmNlIjoiVENJTlZFU1QiLCJvdHBTZXNzaW9uSWQiOiIifQ.9OhqnK7Msi_JC7VMT6AXLcihhZjdE7YZeRrZdNiw6__JgxNe_Q7f2UYqgIMd-blN8bo6FUOVJSMA9V8vRtQrtAc8FdBXYhz6p8_-bAlA78qZmwfn7AUHdGbZW5_bO6NDrk9Y_hhakROlehcqVHuDbZwNuJHQgoH-qsF0Gnqamt0povTNoCx-Lq8-_CSSxFHRriAURWk_l2SLFciPIBLOnmnrT8RNwg4lPMX3NY7bLKokUJinQP32iJeegMhGnuVfYn7nlWGhMFhQGfFJIP1aE3z_m-8KpZwJAAN6VlWAKSpN_v1aaLMqQn6ol6KkZh2KEyEz_hPwOPFAyawBMenyXw",
+        "content-type": "application/json",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "referrer": "https://tcinvest.tcbs.com.vn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": null,
+      "method": "GET",
+      "mode": "cors",
+      agent
+    });
+  }
   let a = await f();
   let all = []
   let data = await a.json();
-  while(!data.data) {
+  while (!data.data) {
     // console.log(code,data)
     // return { Code: code, data: all };
     a = await f();
@@ -1045,7 +1104,7 @@ Exchange.TCBS.intraday = async function (code) {
   if (page > 1) {
     // console.log(page)
 
-    let fi = (code,i)=>{
+    let fi = (code, i) => {
       return fetch("https://apipubaws.tcbs.com.vn/stock-insight/v1/intraday/" + code + "/his/paging?page=" + i + "&size=100&headIndex=-1", {
         "headers": {
           "accept": "application/json",
@@ -1064,12 +1123,12 @@ Exchange.TCBS.intraday = async function (code) {
       });
     }
     for (let i = 1; i <= page + 1; i++) {
-      a = await fi(code,i);
+      a = await fi(code, i);
       data = await a.json();
-      while(!data.data) {
+      while (!data.data) {
         // console.log(code,data)
         // return { Code: code, data: all };
-        a = await fi(code,i);
+        a = await fi(code, i);
         data = await a.json();
       }
       all.push(...data.data)
