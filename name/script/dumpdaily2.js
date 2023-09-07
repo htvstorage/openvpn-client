@@ -110,7 +110,8 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         break;
       case "CAFEF":
         dir += "./cafeftrans/" + getNow() + "/";
-        csv = new Parser({ fields: ['symbol', 'ThoiGian','Gia','GiaThayDoi','KLLo','KLTichLuy','TiTrong','KLLoN','change'] });
+        // csv = new Parser({ fields: ['symbol', 'ThoiGian','Gia','GiaThayDoi','KLLo','KLTichLuy','TiTrong','KLLoN','change'] });
+        csv = new Parser({ fields: ['price', 'change', 'match_qtty', 'side', 'time', 'total_vol'] });
         fun = Exchange.CafeF.DataHistory;
         break;
     }

@@ -954,10 +954,15 @@ Exchange.CafeF.DataHistory = async function (code, date) {
     data = await a.text();
   }
   data = JSON.parse(data);
+  let side = ["bu","sd"]
   data = data.Data.DlChiTiet.map(e=>{
-    let en = {symbol:code,...e};
-    en.KLLoN = Math.round(e.KLLo)
-    en.change = +e.GiaThayDoi.slice(0,e.GiaThayDoi.indexOf(" (")).trim().replaceAll("--","-")
+    let en = {symbol:code};
+    en.time = e.ThoiGian
+    en.match_qtty = Math.round(e.KLLo*10)
+    en.change = +e.GiaThayDoi.slice(0,e.GiaThayDoi.indexOf(" (")).trim().replaceAll("--","-")*1000
+    en.price = e.Gia*1000    
+    en.side = side[Math.floor(Math.random()*side.length)]
+    en.total_vol = e.KLTichLuy;
     return en
   })
 
