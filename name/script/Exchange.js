@@ -962,7 +962,7 @@ Exchange.CafeF.DataHistory = async function (code, date) {
     en.change = +e.GiaThayDoi.slice(0,e.GiaThayDoi.indexOf(" (")).trim().replaceAll("--","-")*1000
     en.price = e.Gia*1000    
     en.side = side[Math.floor(Math.random()*side.length)]
-    en.total_vol = e.KLTichLuy;
+    en.total_vol = Math.round(+e.KLTichLuy*10);
     return en
   })
 
