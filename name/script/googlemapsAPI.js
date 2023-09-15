@@ -270,7 +270,7 @@ async function scraper() {
       console.log(u, query, z.slice(0, 100))
       // if (!z.startsWith("{")) return;
       while (!z.startsWith("{")) {
-        await wait(5000)
+        await wait(50000)
         aa = await fetch(uri, options);
         z = await aa.text()
         console.log(u, query, z.slice(0, 100))
