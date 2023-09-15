@@ -58,7 +58,7 @@ import xlsx from "xlsx"
     const getMapsData = async () => {
       const browser = await puppeteer.launch();
         const [page] = await browser.pages();
-        page.on('console', (msg) => console.log('PAGE LOG:', msg.text()));
+        // page.on('console', (msg) => console.log('PAGE LOG:', msg.text()));
         const result = [];
 
         await page.setRequestInterception(true);
@@ -86,14 +86,15 @@ import xlsx from "xlsx"
               
              let z4= JSON.parse(response_body.slice(0,response_body.length-6))
              let z5=JSON.parse(z4.d.slice(5))
-              console.log(JSON.stringify(z5[0][1][1][14]));
+              // console.log(JSON.stringify(z5[0][1][1][14]));
+              console.log(request_url)
             }
 
       
 
             request.continue();
           }).catch(error => {
-            console.error(error);
+            // console.error(error);
             request.abort();
           });
         });
@@ -107,7 +108,8 @@ import xlsx from "xlsx"
         //https://www.google.com/maps/search/spa/@10.7756,106.7019,12z/data=!3m1!4b1
         //"https://www.google.com/maps/search/spa/@21.0443653,105.8052909,12z/data=!3m1!4b1
         //page.goto("https://www.google.com/maps/search/Starbucks/@26.8484046,75.7215344,12z/data=!3m1!4b1"
-        await page.goto("https://www.google.com/maps/search/spa/@10.7756,106.7019,12z/data=!3m1!4b1" , {
+        //https://www.google.com/maps/search/Spa+in+C%E1%BB%95+nhu%E1%BA%BF+1,+B%E1%BA%AFc+T%E1%BB%AB+Li%C3%AAm,+H%C3%A0+N%E1%BB%99i
+        await page.goto("https://www.google.com/maps/search/Spa+in+C%E1%BB%95+nhu%E1%BA%BF+1,+B%E1%BA%AFc+T%E1%BB%AB+Li%C3%AAm,+H%C3%A0+N%E1%BB%99i" , {
             waitUntil: 'domcontentloaded',
             timeout: 60000
         })
@@ -116,7 +118,7 @@ import xlsx from "xlsx"
     
     let data =  await scrollPage(page,".m6QErb[aria-label]",5000)
     
-    console.log(data)
+    // console.log(data)
     await browser.close();
     };
     
