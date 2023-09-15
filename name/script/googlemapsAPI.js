@@ -152,7 +152,7 @@ async function loadCitiesXls() {
     return ne;
   })
 
-  let address = newData.map(e => e.address)
+  let address = newData.map(e => JSON.stringify(e))
   if (!fs.existsSync("googlemaps"))
     fs.mkdirSync("googlemaps")
   fs.writeFileSync("googlemaps/cities.txt", address.join("\n"), 'utf8')
@@ -181,7 +181,7 @@ async function loadCities() {
     return x;
   })
 
-  let address = data.map(e => e.address)
+  let address = data.map(e => JSON.stringify(e))
   if (!fs.existsSync("googlemaps"))
     fs.mkdirSync("googlemaps")
   fs.writeFileSync("googlemaps/cities.txt", address.join("\n"), 'utf8')
@@ -189,12 +189,22 @@ async function loadCities() {
 }
 
 async function loadDone() {
-
+  if (!fs.existsSync("googlemaps/done.txt")) return {};
+  let buffer = fs.readFileSync("googlemaps/done.txt", "utf-8")
+  let data = buffer.toString("utf8")
+    .split('\n')
+    .map(e => e.trim())
+    .map(e => e.split(',').map(e => e.trim()));
+  let d = {}
+  data.forEach(e => {
+    d[e] = e;
+  })
+  return d;
 }
 
 done = await loadDone();
 
-cities = await loadCities()
+// cities = await loadCities()
 
 cities = await loadCitiesXls()
 console.table(cities.slice(0, 10))
@@ -202,17 +212,18 @@ console.table(cities.slice(0, 10))
 async function scraper() {
   var myArgs = process.argv.slice(2);
   var files = myArgs[0];
+  if (!files) return;
   var tokens = files.split(",");
-
+  console.table(tokens)
   let tokenData = tokens.map(e => {
-    return { file: e, data: fs.readFileSync(e, "utf-8").split("\n") }
+    return { file: e, data: fs.readFileSync(e, "utf-8").split("\n").filter(e=>e.length>0).map(e => JSON.parse(e)) }
   })
 
   let r = null;
   let collec = {}
   let count = 0;
 
-  let fetchData = async (query) => {
+  let fetchData = async (query, ward, district, province, outFile) => {
     // let city = "Tỉnh kon tum"
     // let district = "huyện đắk tô thị trấn đắk tô"
     // let qq = "spa in " + city + " " + district
@@ -280,20 +291,27 @@ async function scraper() {
             ward: record[2][1],
             dist: record[2][2],
             province: record[2][3],
+            ward2: ward,
+            dist2: district,
+            province2: province
           }
         }
         collec[idd.id] = idd
+
+        fs.appendFileSync(outFile, JSON.stringify(idd) + "\n")
         if (count % 10 == 0)
           console.log("Tong so ban ghi " + Object.keys(collec).length, "count", count)
 
         if (Object.keys(collec).length % 100 == 0) {
-          fs.writeFileSync("googlemaps/spa.json", JSON.stringify(Object.values(collec)))
+          // fs.writeFileSync("googlemaps/spa.json", JSON.stringify(Object.values(collec)))
           let table = getTable(Object.values(collec))
           fs.writeFileSync("googlemaps/table.text", table, "utf-8")
         }
       }
 
     }
+
+    makeDone(query)
   }
 
   let start = Date.now()
@@ -303,23 +321,30 @@ async function scraper() {
       c++;
       console.log(edata)
       // await wait(500)
+      let query = "spa in " + edata.address;
+      if (done[query]) continue;
 
-      await fetchData("spa in " + edata)
+      await fetchData(query, edata.ward, edata.district, edata.province, token.file + "_out.txt")
+
 
       if (c == token.data.length) {
         console.log("Done ", token.file, " total ", c)
-        
+
       }
       if (c % 2 == 0) {
         console.log("Done ", token.file, " count ", c, " total ", token.data.length)
-        let time = (Date.now() - start)/1000;
-        console.log("Time ", time, " seconds ", " ~ ", time/60 , " minutes ", " remain " , time/60 *(token.data.length -c)/c, " minutes ")
+        let time = (Date.now() - start) / 1000;
+        console.log("Time ", time, " seconds ", " ~ ", time / 60, " minutes ", " remain ", time / 60 * (token.data.length - c) / c, " minutes ")
       }
     }
   }
 
 
 
+}
+
+function makeDone(query) {
+  fs.appendFileSync("googlemaps/done.txt", query + "\n")
 }
 
 function writeArrayJson2Xlsx(filename, array) {

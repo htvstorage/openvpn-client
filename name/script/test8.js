@@ -1,4 +1,4 @@
-
+import fs from "fs"
 import { Exchange } from './Exchange.js';
 
 (async () => {
@@ -10,16 +10,21 @@ import { Exchange } from './Exchange.js';
     // console.table(stockdata['SHS'])
     // console.table(stockdata['NVL'])
     // console.table(stockdata['VGI'])
-    await Exchange.SSI.getlistallsymbol()
+    // await Exchange.SSI.getlistallsymbol()
     
-    // console.log(Date.now())
-    console.log("Data")
+    // // console.log(Date.now())
+    // console.log("Data")
+    // // let data = await Exchange.SSI.graphql("NVL")
     // let data = await Exchange.SSI.graphql("NVL")
-    let data = await Exchange.SSI.graphql("NVL")
-    console.log("End")
-    console.table(data.data.slice(0,10))
-    data = await Exchange.CafeF.DataHistory("NVL")
-    console.table(data.data.slice(0,10))
+    // console.log("End")
+    // console.table(data.data.slice(0,10))
+    // data = await Exchange.CafeF.DataHistory("NVL")
+    // console.table(data.data.slice(0,10))
+
+   let jsdata= fs.readFileSync("googlemaps/spa.json","utf-8")
+   let adata = JSON.parse(jsdata);
+   console.table(adata)
+   console.table(adata.length)
 
 })();
 
