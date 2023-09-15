@@ -266,7 +266,7 @@ async function scraper() {
 
 
       let z = await aa.text()
-      console.log(u, query, z.slice(0, 100))
+      console.log(u, query, z.slice(0, 100000))
       if (!z.startsWith("{")) return;
       let z4 = JSON.parse(z.slice(0, z.length - 6))
       let z5 = JSON.parse(z4.d.slice(5))
@@ -279,8 +279,11 @@ async function scraper() {
         let idd = {
           id: record[227][0][0], tel: record[178] == null ? null : record[178][0][0],
           spa: record[11],
-          name: record[183] == null ? null : record[183][0][1][1][0][0], name2: record[18],
-          lat: record[9][2], lon: record[9][3],
+          name: record[183] == null ? null : record[183][0][1][1][0][0], name2: record[18],  
+        }
+
+        if(record[9]){
+          idd = {...idd,     lat: record[9][2], lon: record[9][3],}
         }
 
         if (record[2]) {
