@@ -236,7 +236,7 @@ async function scraper() {
       let uri = url.replaceAll("#QUERY", qq);
       u++;
       // console.log("offset" + uri)
-      let aa = await fetch(uri, {
+      let options = {
         "headers": {
           "accept": "*/*",
           "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -262,12 +262,20 @@ async function scraper() {
         },
         "body": null,
         "method": "GET"
-      });
+      }
+      let aa = await fetch(uri, options);
 
 
       let z = await aa.text()
-      console.log(u, query, z.slice(0, 100000))
-      if (!z.startsWith("{")) return;
+      console.log(u, query, z.slice(0, 100))
+      // if (!z.startsWith("{")) return;
+      while (!z.startsWith("{")) {
+        await wait(5000)
+        aa = await fetch(uri, options);
+        z = await aa.text()
+        console.log(u, query, z.slice(0, 100))
+      }
+
       let z4 = JSON.parse(z.slice(0, z.length - 6))
       let z5 = JSON.parse(z4.d.slice(5))
       //console.log(JSON.stringify(z5[0][1][1][14]))
