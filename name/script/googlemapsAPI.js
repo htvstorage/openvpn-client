@@ -196,8 +196,7 @@ async function loadKeywords() {
   let buffer = fs.readFileSync("googlemaps/keywords.txt", "utf-8")
   let data = buffer.toString("utf8")
     .split('\n')
-    .map(e => e.trim())
-    .map(e => e.split(',').map(e => e.trim()));
+    .map(e => e.trim());
   return data;
 }
 
@@ -362,7 +361,7 @@ async function scraper() {
   var tokens = files.split(",");
   console.table(tokens)
   let tokenData = tokens.map(e => {
-    return { file: e, fileName:e.slice(e.lastIndexOf("/")), data: fs.readFileSync(e, "utf-8").split("\n").filter(e => e.length > 0).map(e => JSON.parse(e)) }
+    return { file: e, fileName: e.slice(e.lastIndexOf("/")), data: fs.readFileSync(e, "utf-8").split("\n").filter(e => e.length > 0).map(e => JSON.parse(e)) }
   })
 
   let r = null;
@@ -410,8 +409,8 @@ async function scraper() {
         // console.log("i", i, record)
         if (!record) continue;
         let idd = {
-          id: record[227][0][0], tel: record[178] == null ? null : record[178][0][0],
-          spa: record[11],
+          id: record[227][0][0], tel: record[178] == null ? null : record[178][0][0], tel2: JSON.stringify(record[178]),
+          shop: record[11],
           name: record[183] == null ? null : record[183][0][1][1][0][0], name2: record[18],
         }
 
@@ -450,13 +449,23 @@ async function scraper() {
     makeDone(query)
   }
 
-
-  for (let token of tokenData) {
-    for (let kw of keywords)
-      if (!fs.existsSync("googlemaps" + "/" + removeDiacriticsAndSpaces(kw))) {
-        fs.mkdirSync("googlemaps" + "/" + removeDiacriticsAndSpaces(kw))
+  function mkdirSyncRecursive(directoryPath) {
+    const parts = directoryPath.split('/');
+  
+    for (let i = 1; i <= parts.length; i++) {
+      const currentPath = parts.slice(0, i).join('/');
+      if (!fs.existsSync(currentPath)) {
+        fs.mkdirSync(currentPath);
       }
+    }
   }
+  
+
+  for (let kw of keywords)
+    if (!fs.existsSync("googlemaps" + "/out/" + removeDiacriticsAndSpaces(kw))) {
+      mkdirSyncRecursive("googlemaps" + "/out/" + removeDiacriticsAndSpaces(kw))
+    }
+
 
   let start = Date.now()
   for (let token of tokenData) {
@@ -471,8 +480,8 @@ async function scraper() {
       for (let keyword of keywords) {
         let query = keyword + " in " + edata.address;
         if (done[query]) continue;
-         
-        await fetchData(query, edata.ward, edata.district, edata.province, "googlemaps" + "/" + removeDiacriticsAndSpaces(keyword) + "/" + token.fileName + "_out.txt")
+
+        await fetchData(query, edata.ward, edata.district, edata.province, "googlemaps" + "/out/" + removeDiacriticsAndSpaces(keyword) + "/" + token.fileName + "_out.txt")
 
       }
 
@@ -547,7 +556,3 @@ function removeDiacriticsAndSpaces(inputString) {
 
   return cleanedString;
 }
-
-// const vietnameseText = "Xin chào Việt Nam!";
-// const cleanText = removeDiacriticsAndSpaces(vietnameseText);
-// console.log(cleanText); // Kết quả: "Xin_chao_Viet_Nam"
