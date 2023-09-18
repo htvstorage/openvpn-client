@@ -351,7 +351,7 @@ async function scraper() {
   if (Number.isNaN(indexHeader)) {
     indexHeader = 0;
   } else {
-    files = process.argv.slice(3);
+    files = process.argv.slice(3)[0];
   }
 
   let header = headers[indexHeader]
@@ -401,7 +401,8 @@ async function scraper() {
 
       let z4 = JSON.parse(z.slice(0, z.length - 6))
       let z5 = JSON.parse(z4.d.slice(5))
-      //console.log(JSON.stringify(z5[0][1][1][14]))
+      // console.log("Length ",z5[0][1].length)
+      if(z5[0][1].length == 1) return;
       for (let i = 1; i < z5[0][1].length; i++) {
         count++;
         let record = z5[0][1][i][14]
