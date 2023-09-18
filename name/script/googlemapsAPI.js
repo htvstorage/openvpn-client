@@ -188,8 +188,20 @@ const getHeaderData = async (resolve) => {
 
 //load done
 let done = {}
-
 let cities = []
+let keywords = []
+
+async function loadKeywords() {
+  if (!fs.existsSync("googlemaps/keywords.txt")) return [];
+  let buffer = fs.readFileSync("googlemaps/keywords.txt", "utf-8")
+  let data = buffer.toString("utf8")
+    .split('\n')
+    .map(e => e.trim())
+    .map(e => e.split(',').map(e => e.trim()));
+  return data;
+}
+
+keywords = await loadKeywords();
 
 async function loadCitiesXls() {
   const workbook = xlsx.readFile('vietnam.xls');
@@ -324,6 +336,9 @@ let headers = [
 ]
 
 async function scraper() {
+  if (keywords.length == 0) {
+    console.log("Khong co keyword in keywords.txt de tim kiem")
+  }
 
   // let promise = new Promise((resolve, reject) => {
   //   return getHeaderData(resolve);
@@ -342,12 +357,12 @@ async function scraper() {
 
   let header = headers[indexHeader]
 
-  console.log("Headers",header)
+  console.log("Headers", header)
   if (!files) return;
   var tokens = files.split(",");
   console.table(tokens)
   let tokenData = tokens.map(e => {
-    return { file: e, data: fs.readFileSync(e, "utf-8").split("\n").filter(e => e.length > 0).map(e => JSON.parse(e)) }
+    return { file: e, fileName:e.slice(e.lastIndexOf("/")), data: fs.readFileSync(e, "utf-8").split("\n").filter(e => e.length > 0).map(e => JSON.parse(e)) }
   })
 
   let r = null;
@@ -435,6 +450,14 @@ async function scraper() {
     makeDone(query)
   }
 
+
+  for (let token of tokenData) {
+    for (let kw of keywords)
+      if (!fs.existsSync("googlemaps" + "/" + removeDiacriticsAndSpaces(kw))) {
+        fs.mkdirSync("googlemaps" + "/" + removeDiacriticsAndSpaces(kw))
+      }
+  }
+
   let start = Date.now()
   for (let token of tokenData) {
     let c = 0;
@@ -445,7 +468,13 @@ async function scraper() {
       let query = "spa in " + edata.address;
       if (done[query]) continue;
 
-      await fetchData(query, edata.ward, edata.district, edata.province, token.file + "_out.txt")
+      for (let keyword of keywords) {
+        let query = keyword + " in " + edata.address;
+        if (done[query]) continue;
+         
+        await fetchData(query, edata.ward, edata.district, edata.province, "googlemaps" + "/" + removeDiacriticsAndSpaces(keyword) + "/" + token.fileName + "_out.txt")
+
+      }
 
 
       if (c == token.data.length) {
@@ -485,3 +514,40 @@ function wait(ms) {
     }, ms);
   });
 }
+
+
+function removeDiacriticsAndSpaces(inputString) {
+  const diacriticsMap = {
+    'à': 'a', 'á': 'a', 'ả': 'a', 'ã': 'a', 'ạ': 'a',
+    'â': 'a', 'ầ': 'a', 'ấ': 'a', 'ẩ': 'a', 'ẫ': 'a', 'ậ': 'a',
+    'ă': 'a', 'ằ': 'a', 'ắ': 'a', 'ẳ': 'a', 'ẵ': 'a', 'ặ': 'a',
+    'è': 'e', 'é': 'e', 'ẻ': 'e', 'ẽ': 'e', 'ẹ': 'e',
+    'ê': 'e', 'ề': 'e', 'ế': 'e', 'ể': 'e', 'ễ': 'e', 'ệ': 'e',
+    'đ': 'd',
+    'ì': 'i', 'í': 'i', 'ỉ': 'i', 'ĩ': 'i', 'ị': 'i',
+    'ò': 'o', 'ó': 'o', 'ỏ': 'o', 'õ': 'o', 'ọ': 'o',
+    'ô': 'o', 'ồ': 'o', 'ố': 'o', 'ổ': 'o', 'ỗ': 'o', 'ộ': 'o',
+    'ơ': 'o', 'ờ': 'o', 'ớ': 'o', 'ở': 'o', 'ỡ': 'o', 'ợ': 'o',
+    'ù': 'u', 'ú': 'u', 'ủ': 'u', 'ũ': 'u', 'ụ': 'u',
+    'ư': 'u', 'ừ': 'u', 'ứ': 'u', 'ử': 'u', 'ữ': 'u', 'ự': 'u',
+    'ỳ': 'y', 'ý': 'y', 'ỷ': 'y', 'ỹ': 'y', 'ỵ': 'y',
+  };
+
+  let cleanedString = '';
+  for (let i = 0; i < inputString.length; i++) {
+    const char = inputString[i];
+    if (diacriticsMap[char]) {
+      cleanedString += diacriticsMap[char];
+    } else if (char === ' ') {
+      cleanedString += '_';
+    } else if (/^[a-zA-Z0-9_]+$/.test(char)) {
+      cleanedString += char;
+    }
+  }
+
+  return cleanedString;
+}
+
+// const vietnameseText = "Xin chào Việt Nam!";
+// const cleanText = removeDiacriticsAndSpaces(vietnameseText);
+// console.log(cleanText); // Kết quả: "Xin_chao_Viet_Nam"
