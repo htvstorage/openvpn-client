@@ -87,7 +87,7 @@ import xlsx from "xlsx"
              let z4= JSON.parse(response_body.slice(0,response_body.length-6))
              let z5=JSON.parse(z4.d.slice(5))
               // console.log(JSON.stringify(z5[0][1][1][14]));
-              console.log(request_url)
+              console.log(request_url,"\n",request_headers)
             }
 
       
@@ -95,7 +95,7 @@ import xlsx from "xlsx"
             request.continue();
           }).catch(error => {
             // console.error(error);
-            request.abort();
+            // request.abort();
           });
         });
 
