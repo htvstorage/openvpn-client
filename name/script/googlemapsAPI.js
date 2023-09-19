@@ -257,14 +257,13 @@ async function loadCities() {
 async function loadDone() {
   if (!fs.existsSync("googlemaps/done.txt")) return {};
   let buffer = fs.readFileSync("googlemaps/done.txt", "utf-8")
-  let data = buffer.toString("utf8")
-    .split('\n')
-    .map(e => e.trim())
-    .map(e => e.split(',').map(e => e.trim()));
+  let data = buffer.split('\n')
+    .map(e => e.trim());
   let d = {}
   data.forEach(e => {
     d[e] = e;
   })
+  // console.table(d)
   return d;
 }
 
@@ -402,7 +401,10 @@ async function scraper() {
       let z4 = JSON.parse(z.slice(0, z.length - 6))
       let z5 = JSON.parse(z4.d.slice(5))
       // console.log("Length ",z5[0][1].length)
-      if(z5[0][1].length == 1) return;
+      if (z5[0][1].length == 1) {
+        makeDone(query);
+        return
+      };
       for (let i = 1; i < z5[0][1].length; i++) {
         count++;
         let record = z5[0][1][i][14]
@@ -452,7 +454,7 @@ async function scraper() {
 
   function mkdirSyncRecursive(directoryPath) {
     const parts = directoryPath.split('/');
-  
+
     for (let i = 1; i <= parts.length; i++) {
       const currentPath = parts.slice(0, i).join('/');
       if (!fs.existsSync(currentPath)) {
@@ -460,7 +462,7 @@ async function scraper() {
       }
     }
   }
-  
+
 
   for (let kw of keywords)
     if (!fs.existsSync("googlemaps" + "/out/" + removeDiacriticsAndSpaces(kw))) {
@@ -469,32 +471,48 @@ async function scraper() {
 
 
   let start = Date.now()
+  let reset = false;
+  
   for (let token of tokenData) {
     let c = 0;
+    let total = token.data.length;
     for (let edata of token.data) {
       c++;
       console.log(edata)
       // await wait(500)
-      let query = "spa in " + edata.address;
-      if (done[query]) continue;
+
 
       for (let keyword of keywords) {
         let query = keyword + " in " + edata.address;
-        if (done[query]) continue;
+        if (done[query]) {
+          console.log("Done ", query)
+          continue;
+        }
+
 
         await fetchData(query, edata.ward, edata.district, edata.province, "googlemaps" + "/out/" + removeDiacriticsAndSpaces(keyword) + "/" + token.fileName + "_out.txt")
 
       }
+      let time = (Date.now() - start) / 1000;
 
-
-      if (c == token.data.length) {
-        console.log("Done ", token.file, " total ", c)
-
+      if (!reset && time >= 30) {
+        console.log("===================================RESET=====================================")
+        console.log("count",c,"total",total)
+        start = Date.now();
+        total = total - c;
+        c = 0;
+        reset = true;
+        console.log("count",c,"total",total)
+        console.log("===================================DONE=====================================")
       }
+
+      if (c == total) {
+        console.log("Done ", token.file, " total ", c)
+      }
+
       if (c % 2 == 0) {
-        console.log("Done ", token.file, " count ", c, " total ", token.data.length)
-        let time = (Date.now() - start) / 1000;
-        console.log("Time ", time, " seconds ", " ~ ", time / 60, " minutes ", " remain ", time / 60 * (token.data.length - c) / c, " minutes ")
+        console.log("Done ", token.file, " count ", c, " total ", total)
+        console.log("Time ", time, " seconds ", " ~ ", time / 60, " minutes ", " remain ", time / 60 * (total - c) / c, " minutes ")
       }
     }
   }
