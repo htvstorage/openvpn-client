@@ -287,3 +287,8 @@ openssl req  -key private.pem -new -x509 -days 90 -sha256  -out cert.pem
 openssl req -new -nodes -sha256  -key private.pem -out csr.pem
 
 
+
+nohup node script/googlemapsAPI.js 1 googlemaps/TWO.aa >> dum.log 2>&1 < /dev/null &
+nohup node script/googlemapsAPI.js 2 googlemaps/TWO.ab >> dum.log 2>&1 < /dev/null &
+
+
