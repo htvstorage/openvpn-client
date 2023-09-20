@@ -27,6 +27,8 @@ async function main(){
     if (!files) return;
     // var tokens = files.split(",");
     var tokens = Array.from(myArgs);
+    var filename = tokens[0]
+    tokens = tokens.slice(1)
     console.table(tokens)
     let all = {}
     let tokenData = tokens.map(e => {
@@ -35,18 +37,20 @@ async function main(){
         if(d.tel)
           all[d.tel] = d;
         else{
-
+          if(d.tel2 != 'null'){
+            console.log(d)
+          }
         }
 
       }) }
     })
 
     let a = Object.values(all).map(e=>{
-
-      return {tel:e.tel, spa:e.spa, province: e.province, province2:e.province2, dist:e.dist, dist2:e.dist2}
+      
+      return {tel:e.tel, shop:e.shop, province: e.province, province2:e.province2, dist:e.dist, dist2:e.dist2}
     });
     console.table(a.slice(0,3))
-    writeArrayJson2Xlsx("spa.xlsx",a)
+    writeArrayJson2Xlsx(filename+".xlsx",a)
     console.log(Object.keys(all).length)
 }
 

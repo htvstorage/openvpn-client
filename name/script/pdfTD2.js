@@ -77,6 +77,7 @@ async function getURL() {
         return new Date(+a[2], +a[1] - 1, +a[0]);
     }
     let flink = async function (id) {
+        console.log("Fetch ", "https://www.hsx.vn/Modules/CMS/Web/GetRelatedFiles/" + id + "?_search=false&nd=1692699210513&rows=30&page=1&sidx=id&sord=desc")
         let a = await fetch("https://www.hsx.vn/Modules/CMS/Web/GetRelatedFiles/" + id + "?_search=false&nd=1692699210513&rows=30&page=1&sidx=id&sord=desc", {
             "headers": {
                 "accept": "application/json, text/javascript, */*; q=0.01",
@@ -125,7 +126,7 @@ async function getURL() {
     let req = 0;
     let res = 0;
 
-
+    //c62b7e8f-737a-41ec-9f62-8b939a8a205e
     for (let url of urls) {
         const response = fetch("https://www.hsx.vn/Modules/CMS/Web/DownloadFile?id=" + url[0]);
         response.then(rs => rs.buffer()).then(async (buffer) => {
@@ -187,7 +188,7 @@ function wait(ms) {
     //'20230112', '20230111', '20230110', '20230109', '20230108'
     let whitelist = []
 
-    let recently = 50;
+    let recently = 5;
     let check = {};
     let fileFiltered = [];
     for (let file of files) {
