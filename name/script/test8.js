@@ -41,11 +41,15 @@ const run = async () => {
     });
     const page = await browser.newPage();
     await page.setRequestInterception(true);
+    let loadImage = { load: false }
     page.on('request', request => {
 
 
         if (request.resourceType() == 'image') {
-            request.continue()
+            if (loadImage.load)
+                request.continue()
+            else
+                request.abort()
         } else {
             if (request.url().includes("graphql"))
                 console.log("URL", request.url().includes("graphql"), request.url().slice(0, 100))
@@ -82,13 +86,22 @@ const run = async () => {
         }
     });
 
+    let c = 0;
     page.on('response', async (response) => {
         if (response.url().includes("graphql")) {
             let text = await response.text();
+            if(text.includes('{"data":{"serpResponse":{"results":{"edges":[{"node":{"role":"ENTITY_PAGES","__typename":"SearchRenderable"}')){
+                let datajs = JSON.parse(text);
+                let edges = datajs.data.serpResponse.results.edges
+                for(let e of edges){
+                    console.log(c++,e.relay_rendering_strategy.view_model.profile.id,e.relay_rendering_strategy.view_model.profile.name)
+                }
+
+            }
             // console.log(response.url(), '\n', text.slice(0, 200));
         }
     });
-    await page.setViewport({ width: 1920, height: 1368 });
+    await page.setViewport({ width: 1920, height: 200000 });
     await page.goto("https://www.facebook.com/", {
         waitUntil: 'domcontentloaded',
         timeout: 60000
@@ -131,7 +144,7 @@ const run = async () => {
     await page.focus('input[aria-label="Location"][role="combobox"]')
     await page.click('input[aria-label="Location"][role="combobox"]');
 
-    await page.keyboard.type('Ha Noi', { delay: 2000 });
+    await page.keyboard.type('Ho Chi Minh', { delay: 2000 });
 
     // await page.keyboard.press('\n');
     // await page.waitForNavigation({ waitUntil: 'networkidle0' })
@@ -147,7 +160,7 @@ const run = async () => {
     // await page.waitForNavigation({ waitUntil: 'networkidle0' })
     // await page.click('a[aria-current="page"]')
     // await page.waitForNavigation({ waitUntil: 'networkidle0' })
-    await page.screenshot({ path: "after-login.jpg" });
+    // await page.screenshot({ path: "after-login.jpg" });
 
     let source = await page.content({ "waitUntil": "domcontentloaded" });
 
@@ -171,7 +184,7 @@ const run = async () => {
     await page2.goto("https://www.facebook.com", {
         waitUntil: "networkidle2",
     });
-    await page2.screenshot({ path: "login-using-cookies.jpg" });
+    // await page2.screenshot({ path: "login-using-cookies.jpg" });
     await browser.close();
 };
 
