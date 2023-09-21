@@ -5,8 +5,8 @@ import request_client from 'request-promise-native'
 
 
 const run = async () => {
-
-    let provinces = ["Hà Nội", "Hà Giang", "Cao Bằng", "Bắc Kạn", "Tuyên Quang", "Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
+    //"Hà Nội", "Hà Giang", "Cao Bằng", "Bắc Kạn", "Tuyên Quang",
+    let provinces = [ "Hà Nội", "Hà Giang", "Cao Bằng", "Bắc Kạn", "Tuyên Quang","Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
     const browser = await puppeteer.launch({
         headless: true, args: ['--user-data-dir=./userdata']
     });
@@ -97,28 +97,49 @@ const run = async () => {
 
     // page.click()
     // await list[3].click();
-    await page.waitForSelector('input[aria-label="Location"][role="combobox"]')
-    await page.$('input[aria-label="Location"][role="combobox"]')
-    await page.focus('input[aria-label="Location"][role="combobox"]')
-    await page.click('input[aria-label="Location"][role="combobox"]');
+    let map = []
+    for (let province of provinces) {
+        await page.screenshot({ path: "after-combobox.jpg" });
+        try {
+            await page.waitForSelector('input[aria-label="Location"][role="combobox"]')
+        } catch (error) {
+            
+        }
+        
+        await page.$('input[aria-label="Location"][role="combobox"]')
+        await page.focus('input[aria-label="Location"][role="combobox"]')
+        await page.click('input[aria-label="Location"][role="combobox"]');
+        await page.keyboard.type(province, { delay: 2000 });        
+        console.log(page.url());        
+        // await page.waitForSelector('ul[aria-label="5 suggested searches"][role="listbox"]')
+        await page.waitForSelector('ul[role="listbox"]')
+        list = await page.$('ul[role="listbox"]');
+        let option = await list.$('li[role="option"]')
+        await option.click()
+        await wait(5000)
+        // await page.waitForSelector('div.x1i10hfl.xjbqb8w.x6umtig.x1b1mbwd.xaqea5y.xav7gou.x9f619.x1ypdohk.xt0psk2.xe8uvvx.xdj266r.x11i5rnm.xat24cr.x1mh8g0r.xexx8yu.x4uap5.x18d9i69.xkhd6sd.x16tdsg8.x1hl2dhg.xggy1nq.x1o1ewxj.x3x9cwd.x1e5q0jg.x13rtm0m.x1n2onr6.x87ps6o.x1lku1pv.x1a2a7pz[role="button"]')
+        console.table({province:province,filter:page.url()});
+        map.push({province:province,filter:page.url()}) 
+         fs.appendFileSync("map.json",JSON.stringify({province:province,filter:page.url()})+"\n")
+        await page.screenshot({ path: "after-login.jpg" });
+        let clear = await page.$('div.x1i10hfl.xjbqb8w.x6umtig.x1b1mbwd.xaqea5y.xav7gou.x9f619.x1ypdohk.xt0psk2.xe8uvvx.xdj266r.x11i5rnm.xat24cr.x1mh8g0r.xexx8yu.x4uap5.x18d9i69.xkhd6sd.x16tdsg8.x1hl2dhg.xggy1nq.x1o1ewxj.x3x9cwd.x1e5q0jg.x13rtm0m.x1n2onr6.x87ps6o.x1lku1pv.x1a2a7pz[role="button"]')
+        await clear.click()
+        await wait(5000)
+        // await page.reload()
+        // await page.waitForNavigation({ waitUntil: 'networkidle0' })
+        console.log(page.url());
+    }
 
-    await page.keyboard.type('Ha Noi', { delay: 2000 });
+    console.table(map)
+   
 
-    // await page.keyboard.press('\n');
-    // await page.waitForNavigation({ waitUntil: 'networkidle0' })
-    console.log(page.url());
-    // await wait(5000)
-    await page.waitForSelector('ul[aria-label="5 suggested searches"][role="listbox"]')
-    list = await page.$('ul[aria-label="5 suggested searches"][role="listbox"]');
-    let option = await list.$('li[role="option"]')
-    await option.click()
-    await wait(5000)
-    console.log(page.url());
+
     // await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
     // await page.waitForNavigation({ waitUntil: 'networkidle0' })
     // await page.click('a[aria-current="page"]')
     // await page.waitForNavigation({ waitUntil: 'networkidle0' })
-    await page.screenshot({ path: "after-login.jpg" });
+    await page.screenshot({ path: "after-click-clear.jpg" });
+
 
     let source = await page.content({ "waitUntil": "domcontentloaded" });
 
