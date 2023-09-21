@@ -118,7 +118,7 @@ async () => {
 (async function (a, b) {
     //month -1
     let dateFrom = new Date() 
-    dateFrom.setDate(dateFrom.getDate() - 5);
+    dateFrom.setDate(dateFrom.getDate() - 10);
     let simpleDateFrom = new Date()
     simpleDateFrom.setDate(simpleDateFrom.getDate() - 50);
     let dateTo = new Date(2023, 10, 26)
