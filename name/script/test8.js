@@ -76,7 +76,11 @@ const run = async () => {
                     request.continue();
                 }).catch(error => {
                     // console.error(error);
-                    // console.log("error",request.url(), "\n",  request.headers(), "\n",request.postData(), "\n")
+                    console.log("error",request.url(), "\n",  request.headers(), "\n",request.postData(), "\n")
+
+                    if(request.postData().includes("CometHovercardQueryRendererQuery")){
+                        console.log("error",request.url(), "\n",  request.headers(), "\n",request.postData(), "\n")
+                    }
                     request.continue();
                     // request.abort();
                 });
@@ -101,7 +105,7 @@ const run = async () => {
             // console.log(response.url(), '\n', text.slice(0, 200));
         }
     });
-    await page.setViewport({ width: 1920, height: 200000 });
+    await page.setViewport({ width: 1920, height: 2000 });
     await page.goto("https://www.facebook.com/", {
         waitUntil: 'domcontentloaded',
         timeout: 60000
@@ -122,7 +126,7 @@ const run = async () => {
     await page.focus('input[aria-label="Search Facebook"]')
     await page.click('input[aria-label="Search Facebook"]');
     // await page.type('input[aria-label="Search Facebook"]',"Cua hang\n")
-    await page.keyboard.type('Cua hang\n');
+    await page.keyboard.type('spa a\n');
     await page.focus('span[class="xhb22t3 xb5gni xcj1dhv x6s0dn4 x78zum5 xuxw1ft x47corl x1ye3gou"]')
     await page.keyboard.press('\n');
     await page.waitForNavigation({ waitUntil: 'networkidle0' })
@@ -156,7 +160,26 @@ const run = async () => {
     await option.click()
     await wait(5000)
     console.log(page.url());
-    // await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+    console.log("Start move move")
+    list = await page.$$('div[role="article"]');
+    console.log(list.length)
+
+    
+    const rect = await page.evaluate(el => {
+      const {x, y} = el.getBoundingClientRect();
+      return {x, y};
+    }, list[0]);
+       
+    await page.mouse.move(rect.x +25,rect.y+25)
+    await wait(5000)
+    await page.screenshot({ path: "after-move.jpg" }); 
+
+    await wait(5000000)
+    // for(let i=0;i<500000;i++){
+    //     await wait(5000)
+    //     await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+    // }
+    
     // await page.waitForNavigation({ waitUntil: 'networkidle0' })
     // await page.click('a[aria-current="page"]')
     // await page.waitForNavigation({ waitUntil: 'networkidle0' })
@@ -185,7 +208,7 @@ const run = async () => {
         waitUntil: "networkidle2",
     });
     // await page2.screenshot({ path: "login-using-cookies.jpg" });
-    await browser.close();
+    // await browser.close();
 };
 
 run();
@@ -220,3 +243,23 @@ function wait(ms) {
         }, ms);
     });
 }
+
+
+CometHovercardQueryRendererQuery()
+
+// {
+//     'sec-ch-ua': '',
+//     'sec-ch-ua-mobile': '?0',
+//     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/105.0.5173.0 Safari/537.36',
+//     'x-fb-friendly-name': 'CometHovercardQueryRendererQuery',
+//     'x-fb-lsd': 'OgD-6UJT1qT5XjAqWrl4im',
+//     referer: 'https://www.facebook.com/search/pages?q=spa%20a&filters=eyJmaWx0ZXJfcGFnZXNfbG9jYXRpb246MCI6IntcIm5hbWVcIjpcImZpbHRlcl9wYWdlc19sb2NhdGlvblwiLFwiYXJnc1wiOlwiMTA4NDU4NzY5MTg0NDk1XCJ9In0%3D',
+//     'x-asbd-id': '129477',
+//     'content-type': 'application/x-www-form-urlencoded',
+//     'sec-ch-ua-platform': '',
+//     accept: '*/*',
+//     cookie: 'sb=-WwKZXB4C5TTItn_PoQFswQl; datr=-WwKZaec5A6gix74GmdJ51EB; c_user=61551414121483; wd=1920x2000; xs=47%3Ak-bz1Hxa0kiNLQ%3A2%3A1695182074%3A-1%3A-1%3A%3AAcUzlSEZIdUCh5chSjlEUlkkbo6AuRGTN4w5K4fP1Oc; fr=0173QcFiWpvbhkwhR.AWU_JtXCzMCTqjfjPtcGGhPrLx8.BlDWvc.tR.AAA.0.0.BlDW3J.AWUKUBk5cq4; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1695378893438%2C%22v%22%3A1%7D',
+//     origin: 'https://www.facebook.com'
+//   } 
+
+// av=61551414121483&__user=61551414121483&__a=1&__req=1s&__hs=19622.HYP%3Acomet_pkg.2.1..2.1&dpr=1&__ccg=EXCELLENT&__rev=1008798983&__s=0dabim%3Akqb6j0%3Aain1ac&__hsi=7281596883066485181&__dyn=7AzHK4HzEmwIxt0mUyEqxenFwLBwopU98nwgUao4u5QdwSxucyUco5S3O2Saw8i2S1DwUx60DUG1sw9u0LVEtwMw65xO2OU7m2210wEwgolzUO0-E4a3a4oaEnxO0Bo7O2l2Utwwwi831wiE567Udo5qfK0zEkxe2GewyDwkUtxGm2SUbElxm3y3aexfxmu3W3rwxwjFovUy2a1ywtUuBwFKq2-azqwqo4i223908O3216xi4UdUcojxK2B0oobo8oC1hxB0qo4e16wWw&__csr=gpPggsysaEAsxl8ox44dFPFNlFNuOn9qkIAQigkB-IzyeAIxiVn8rXiFEHp2a9nGVuRJfRBApAnjCCl5XWh9VVFQ4uZdp8ICQS8-qlQc_Gii8ABVpeAaJbG48KA4rGeiK4EWloyUR3FE8Xx-5WGQl0xyEDzo-mES9ByoOczryWgnwPy_J1G8K22dz8S78C2mfyVk58izE76EpzoGUkwCy-exG22F8iwzxuK222G2Wdwg9UfE5a3W4EkxKq3ObxC48b8fUmxa2mawoo2iwtoW4U0zq05eU2Vw7hovwKxe4E9U0dEE0vqCw1pfwWw0sFE0f3Q0m60Mo0JC0r1oduE30wfG0iC3e0fhwAgbV80hFS02qC06Fy07VyU5u3G0dCwAw0J7w8B01bq3K0csw4opk8yowjU2aU3zw6rwqm1Hw2wA&__comet_req=15&fb_dtsg=NAcOPUL1aXHnXO68Q0EGnhldG4tY3c03bweMgsyaRMrV4vGaI27Szig%3A47%3A1695182074&jazoest=25388&lsd=OgD-6UJT1qT5XjAqWrl4im&__spin_r=1008798983&__spin_b=trunk&__spin_t=1695378889&fb_api_caller_class=RelayModern&fb_api_req_friendly_name=CometHovercardQueryRendererQuery&variables=%7B%22actionBarRenderLocation%22%3A%22WWW_COMET_HOVERCARD%22%2C%22context%22%3A%22DEFAULT%22%2C%22entityID%22%3A%22111915851721340%22%2C%22includeTdaInfo%22%3Afalse%2C%22scale%22%3A1%2C%22__relay_internal__pv__GroupsCometGroupChatLazyLoadLastMessageSnippetrelayprovider%22%3Afalse%7D&server_timestamps=true&doc_id=6595871777147408 
