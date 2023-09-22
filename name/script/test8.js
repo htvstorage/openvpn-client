@@ -2,6 +2,8 @@ import fs from "fs"
 import { Exchange } from './Exchange.js';
 import puppeteer from "puppeteer";
 import request_client from 'request-promise-native'
+import jsdom from "jsdom"
+const { JSDOM } = jsdom;
 (async () => {
     // let listSymbol = await Exchange.getlistallsymbol()
     // listSymbol = listSymbol.filter(e => e.length == 3);
@@ -37,7 +39,7 @@ const run = async () => {
 
     let provinces = ["Hà Nội", "Hà Giang", "Cao Bằng", "Bắc Kạn", "Tuyên Quang", "Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
     const browser = await puppeteer.launch({
-        headless: true, args: ['--user-data-dir=./userdata']
+        headless: true, args: ['--user-data-dir=./userdata3']
     });
     const page = await browser.newPage();
     await page.setRequestInterception(true);
@@ -76,10 +78,10 @@ const run = async () => {
                     request.continue();
                 }).catch(error => {
                     // console.error(error);
-                    console.log("error",request.url(), "\n",  request.headers(), "\n",request.postData(), "\n")
+                    // console.log("error", request.url(), "\n", request.headers(), "\n", request.postData(), "\n")
 
-                    if(request.postData().includes("CometHovercardQueryRendererQuery")){
-                        console.log("error",request.url(), "\n",  request.headers(), "\n",request.postData(), "\n")
+                    if (request.postData().includes("CometHovercardQueryRendererQuery")) {
+                        console.log("error", request.url(), "\n", request.headers(), "\n", request.postData(), "\n")
                     }
                     request.continue();
                     // request.abort();
@@ -94,11 +96,12 @@ const run = async () => {
     page.on('response', async (response) => {
         if (response.url().includes("graphql")) {
             let text = await response.text();
-            if(text.includes('{"data":{"serpResponse":{"results":{"edges":[{"node":{"role":"ENTITY_PAGES","__typename":"SearchRenderable"}')){
+            if (text.includes('{"data":{"serpResponse":{"results":{"edges":[{"node":{"role":"ENTITY_PAGES","__typename":"SearchRenderable"}')) {
                 let datajs = JSON.parse(text);
                 let edges = datajs.data.serpResponse.results.edges
-                for(let e of edges){
-                    console.log(c++,e.relay_rendering_strategy.view_model.profile.id,e.relay_rendering_strategy.view_model.profile.name)
+                for (let e of edges) {
+                    console.log(c++, e.relay_rendering_strategy.view_model.profile.id, e.relay_rendering_strategy.view_model.profile.name)
+                    await CometHovercardQueryRendererQuery(e.relay_rendering_strategy.view_model.profile.id)
                 }
 
             }
@@ -116,11 +119,21 @@ const run = async () => {
         await page.type("#pass", "Htv.@123");
     if (await page.$('#loginbutton'))
         await page.click("#loginbutton");
+    if (await page.$('button[name="login"]')){
+        console.log("Login")
+        await page.click('button[name="login"]');
+    }
+        
 
+    let source1 = await page.content({ "waitUntil": "domcontentloaded" });
+
+    fs.writeFileSync("source.txt", source1)
     const toSaveCookies = await page.cookies();
     console.log(toSaveCookies)
     fs.writeFileSync("./cookies.json", JSON.stringify(toSaveCookies, null, 2));
     // await page.waitForNavigation();
+    await wait(5000)
+    await page.screenshot({ path: "after-login.jpg" });
     let searchclass = "input.x1i10hfl.xggy1nq.x1s07b3s.x1kdt53j.x1yc453h.xhb22t3.xb5gni.xcj1dhv.x2s2ed0.xq33zhf.xjyslct.xjbqb8w.xnwf7zb.x40j3uw.x1s7lred.x15gyhx8.x972fbf.xcfux6l.x1qhh985.xm0m39n.x9f619.xzsf02u.xdl72j9.x1iyjqo2.xs83m0k.xjb2p0i.x6prxxf.xeuugli.x1a2a7pz.x1n2onr6.x15h3p50.xm7lytj.x1sxyh0.xdvlbce.xurb0ha.x1vqgdyp.x1xtgk1k.x17hph69.xo6swyp.x1ad04t7.x1glnyev.x1ix68h3.x19gujb8";
     await page.waitForSelector('input[aria-label="Search Facebook"]');
     await page.focus('input[aria-label="Search Facebook"]')
@@ -164,22 +177,22 @@ const run = async () => {
     list = await page.$$('div[role="article"]');
     console.log(list.length)
 
-    
+
     const rect = await page.evaluate(el => {
-      const {x, y} = el.getBoundingClientRect();
-      return {x, y};
+        const { x, y } = el.getBoundingClientRect();
+        return { x, y };
     }, list[0]);
-       
-    await page.mouse.move(rect.x +25,rect.y+25)
+
+    await page.mouse.move(rect.x + 25, rect.y + 25)
     await wait(5000)
-    await page.screenshot({ path: "after-move.jpg" }); 
+    await page.screenshot({ path: "after-move.jpg" });
 
     await wait(5000000)
     // for(let i=0;i<500000;i++){
     //     await wait(5000)
     //     await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
     // }
-    
+
     // await page.waitForNavigation({ waitUntil: 'networkidle0' })
     // await page.click('a[aria-current="page"]')
     // await page.waitForNavigation({ waitUntil: 'networkidle0' })
@@ -245,7 +258,45 @@ function wait(ms) {
 }
 
 
-CometHovercardQueryRendererQuery()
+async function CometHovercardQueryRendererQuery(id) {
+    id = 100064793946217
+    let a = await fetch("https://www.facebook.com/profile.php?id=" + id + "&sk=about", {
+        "headers": {
+            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+            "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+            "cache-control": "max-age=0",
+            "dpr": "1.5",
+            "sec-ch-prefers-color-scheme": "light",
+            "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+            "sec-ch-ua-full-version-list": "\"Chromium\";v=\"116.0.5845.188\", \"Not)A;Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"116.0.5845.188\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-model": "\"\"",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-ch-ua-platform-version": "\"15.0.0\"",
+            "sec-fetch-dest": "document",
+            "sec-fetch-mode": "navigate",
+            "sec-fetch-site": "none",
+            "sec-fetch-user": "?1",
+            "upgrade-insecure-requests": "1",
+            "viewport-width": "860",
+            "cookie": "sb=13UIZXod1Y2hYpzyesNVG40O; datr=13UIZVX81zc_WQj_oWqi4RpB; c_user=61551414121483; i_user=61551874134271; xs=7%3AZak1Y_F1Wxd5CQ%3A2%3A1695053285%3A-1%3A-1%3A%3AAcXIjLYwbfwGkqWpxx_UgBsxwhT63xgZ1Em1mBWthw0; fr=0oXge2kQCvbqajDzZ.AWV76HtbbImGAc42OW5s-egbxlY.BlDdIm.-p.AAA.0.0.BlDdIm.AWUexQva_Qo; wd=860x1315"
+        },
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "body": null,
+        "method": "GET"
+    });
+
+    let z = await a.text()
+    // console.log(z)
+    const dom = new JSDOM(z);
+    fs.writeFileSync("query.txt",z)
+    let div = dom.window.document.querySelector('div[data-pagelet="ProfileAppSection_0"]');
+
+
+
+    console.log("DIV", div.textContents)
+
+}
 
 // {
 //     'sec-ch-ua': '',
