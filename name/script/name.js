@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 import fs from "fs";
 import parser from "xml2json";
 import log4js from "log4js";
-//sudo apt-get install -y libatk-bridge2.0-0 libgtk-3.0 libasound2 libgbm-dev
+//sudo apt update; sudo apt-get install -y libatk-bridge2.0-0 libgtk-3.0 libasound2 libgbm-dev
 var logger = log4js.getLogger();
 
 // log4js.configure({

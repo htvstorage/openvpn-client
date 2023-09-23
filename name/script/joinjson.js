@@ -46,12 +46,26 @@ async function main(){
     })
 
     let a = Object.values(all).map(e=>{
+      // let tel = e.tel;
+      // if(tel.startsWith('+84 2')){
+      //   let tel2 = JSON.parse(e.tel2);
+      //   // console.table(tel2[0][1])
+      //   for(let t of tel2[0][1]){
+      //     if(!(t[0].startsWith('2')||t[0].startsWith('02')||t[0].startsWith('+84 2'))){
+      //       tel = t[0];
+      //       console.log(e.tel2)  
+      //     }
+      //   }
+      //   // console.log(e.tel2)        
+      // }
       
       return {tel:e.tel, shop:e.shop, province: e.province, province2:e.province2, dist:e.dist, dist2:e.dist2}
+    }).filter(e=>{
+      return !(e.tel.startsWith('2')||e.tel.startsWith('02')||e.tel.startsWith('+84 2'))
     });
     console.table(a.slice(0,3))
-    writeArrayJson2Xlsx(filename+".xlsx",a)
-    console.log(Object.keys(all).length)
+    writeArrayJson2Xlsx("out/"+filename+".xlsx",a)
+    console.log(a.length,"/",Object.values(all).length)
 }
 
 await main()

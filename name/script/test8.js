@@ -4,6 +4,7 @@ import puppeteer from "puppeteer";
 import request_client from 'request-promise-native'
 import jsdom from "jsdom"
 const { JSDOM } = jsdom;
+//sudo apt update; sudo apt-get install -y libatk-bridge2.0-0 libgtk-3.0 libasound2 libgbm-dev
 (async () => {
     // let listSymbol = await Exchange.getlistallsymbol()
     // listSymbol = listSymbol.filter(e => e.length == 3);
@@ -39,7 +40,7 @@ const run = async () => {
 
     let provinces = ["Hà Nội", "Hà Giang", "Cao Bằng", "Bắc Kạn", "Tuyên Quang", "Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
     const browser = await puppeteer.launch({
-        headless: true, args: ['--user-data-dir=./userdata3']
+        headless: true, args: ['--user-data-dir=./userdata4']
     });
     const page = await browser.newPage();
     await page.setRequestInterception(true);
@@ -119,11 +120,11 @@ const run = async () => {
         await page.type("#pass", "Htv.@123");
     if (await page.$('#loginbutton'))
         await page.click("#loginbutton");
-    if (await page.$('button[name="login"]')){
+    if (await page.$('button[name="login"]')) {
         console.log("Login")
         await page.click('button[name="login"]');
     }
-        
+
 
     let source1 = await page.content({ "waitUntil": "domcontentloaded" });
 
@@ -259,43 +260,43 @@ function wait(ms) {
 
 
 async function CometHovercardQueryRendererQuery(id) {
-    id = 100064793946217
-    let a = await fetch("https://www.facebook.com/profile.php?id=" + id + "&sk=about", {
+    // id = 100085949237392
+    let a = await fetch("https://m.facebook.com/profile.php/?id="+id+"&name=xhp_nt__fblite__profile__tab_bar&profile_tab_item_selected=about", {
         "headers": {
-            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-            "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-            "cache-control": "max-age=0",
-            "dpr": "1.5",
-            "sec-ch-prefers-color-scheme": "light",
-            "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
-            "sec-ch-ua-full-version-list": "\"Chromium\";v=\"116.0.5845.188\", \"Not)A;Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"116.0.5845.188\"",
-            "sec-ch-ua-mobile": "?0",
-            "sec-ch-ua-model": "\"\"",
-            "sec-ch-ua-platform": "\"Windows\"",
-            "sec-ch-ua-platform-version": "\"15.0.0\"",
-            "sec-fetch-dest": "document",
-            "sec-fetch-mode": "navigate",
-            "sec-fetch-site": "none",
-            "sec-fetch-user": "?1",
-            "upgrade-insecure-requests": "1",
-            "viewport-width": "860",
-            "cookie": "sb=13UIZXod1Y2hYpzyesNVG40O; datr=13UIZVX81zc_WQj_oWqi4RpB; c_user=61551414121483; i_user=61551874134271; xs=7%3AZak1Y_F1Wxd5CQ%3A2%3A1695053285%3A-1%3A-1%3A%3AAcXIjLYwbfwGkqWpxx_UgBsxwhT63xgZ1Em1mBWthw0; fr=0oXge2kQCvbqajDzZ.AWV76HtbbImGAc42OW5s-egbxlY.BlDdIm.-p.AAA.0.0.BlDdIm.AWUexQva_Qo; wd=860x1315"
+          "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+          "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+          "cache-control": "max-age=0",
+          "dpr": "1.5",
+          "sec-ch-prefers-color-scheme": "light",
+          "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+          "sec-ch-ua-full-version-list": "\"Chromium\";v=\"116.0.5845.188\", \"Not)A;Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"116.0.5845.188\"",
+          "sec-ch-ua-mobile": "?1",
+          "sec-ch-ua-model": "\"Nexus 5\"",
+          "sec-ch-ua-platform": "\"Android\"",
+          "sec-ch-ua-platform-version": "\"6.0\"",
+          "sec-fetch-dest": "document",
+          "sec-fetch-mode": "navigate",
+          "sec-fetch-site": "none",
+          "sec-fetch-user": "?1",
+          "upgrade-insecure-requests": "1",
+          "viewport-width": "400",
+          "cookie": "sb=13UIZXod1Y2hYpzyesNVG40O; datr=13UIZVX81zc_WQj_oWqi4RpB; c_user=61551414121483; dpr=1.5; m_page_voice=61551414121483; m_pixel_ratio=1.5; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1695447346046%2C%22v%22%3A1%7D; x-referer=eyJyIjoiL3Byb2ZpbGUucGhwP2lkPTEwMDA4NTk0OTIzNzM5MiIsImgiOiIvcHJvZmlsZS5waHA%2FaWQ9MTAwMDg1OTQ5MjM3MzkyIiwicyI6Im0ifQ%3D%3D; locale=en_US; fbl_cs=AhAJc7jZcRt0a1jWcIvifTf%2BGEptQlUvPTVMeDNFODByU3ZLQWxmMnhCNQ; fbl_ci=792514045890997; vpd=v1%3B1228x400x2.0000000596046448; xs=10%3A5-LkfPvSyGcNtw%3A2%3A1695409382%3A-1%3A-1%3A%3AAcVnMX4VzQPHzQSjUqxAyefQTogOXwH30FFArHjCZg; fr=0vAyRYpZuYsBBqjlA.AWWxvR8cwZhcmgKcJQVIQOk-RoQ.BlDnxX.-p.AAA.0.0.BlDnxX.AWX5w_L3g4U; wd=2543x1315; fbl_st=100423344%3BT%3A28257488; wl_cbv=v2%3Bclient_version%3A2327%3Btimestamp%3A1695449304",
+          "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36",
+          "viewport-width": 400
         },
         "referrerPolicy": "strict-origin-when-cross-origin",
         "body": null,
         "method": "GET"
-    });
-
+      });
     let z = await a.text()
     // console.log(z)
     const dom = new JSDOM(z);
-    fs.writeFileSync("query.txt",z)
-    let div = dom.window.document.querySelector('div[data-pagelet="ProfileAppSection_0"]');
-
-
-
-    console.log("DIV", div.textContents)
-
+    fs.writeFileSync("query.txt", z)
+    let divs = dom.window.document.querySelectorAll('div[data-action-id]');
+    // let div1 = dom.window.document.querySelector('div[data-action-id="32700"]');
+    for(let div of divs)
+        console.log("DIV", div.getAttribute("data-action-id"), div.textContent)
+    // console.log("DIV", div.textContents)
 }
 
 // {
