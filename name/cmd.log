@@ -292,3 +292,5 @@ nohup node script/googlemapsAPI.js 1 googlemaps/TWO.aa >> dum.log 2>&1 < /dev/nu
 nohup node script/googlemapsAPI.js 2 googlemaps/TWO.ab >> dum.log 2>&1 < /dev/null &
 
 
+pm2 start -f script/googlemapsAPI.js   -- 1 googlemaps/TWO.aa
+pm2 start -f script/googlemapsAPI.js   -- 2 googlemaps/TWO.ab
