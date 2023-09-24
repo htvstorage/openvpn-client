@@ -169,7 +169,7 @@ const run = async () => {
         console.log(response.url())
     });
 
-    await axiosId(mobile, 100092039206008)
+    await axiosId(mobile, 100085949237392)
     await wait(60000)
     // await page.setViewport({ width: 1920, height: 2000 });
     // await page.goto("https://www.facebook.com/", {
@@ -503,7 +503,12 @@ async function axiosId(page, id) {
     about.like = await f("#screen-root > div > div:nth-child(2) > div:nth-child(3) > div:nth-child(7)")
     about.follower = await f("#screen-root > div > div:nth-child(2) > div:nth-child(3) > div:nth-child(9)")
     about.desc = await f("#screen-root > div > div:nth-child(2) > div:nth-child(3) > div.m.bg-s4")
+    about.category = await f("#screen-root > div > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(4)")
+    about.add = await f("#screen-root > div > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(6)")
+    about.phone = await f("#screen-root > div > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(8)")
+    about.email = await f("#screen-root > div > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(10)")
 
+    about.link = await f("#screen-root > div > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div:nth-child(14)")
 
     console.table(about)
 
