@@ -480,8 +480,6 @@ async function axiosId(page, id) {
 
     await page.waitForNavigation({ waitUntil: 'networkidle0' })
 
-
-    // await wait(5000)
     await page.screenshot({ path: "query.jpg" });
     let source = await page.content({ "waitUntil": "domcontentloaded" });
 
@@ -496,9 +494,10 @@ async function axiosId(page, id) {
     let f = async (select) => {
         let e = await page.$(select);
 
-        return e?await e.evaluate(e => e.textContent, e):null
+        return e?await e.evaluate(e => e.innerText, e):null
     }
     about.top = await f('#screen-root > div > div.m.fixed-container.top > div');
+        //#screen-root > div > div:nth-child(2) > div:nth-child(3) > div:nth-child(8)
     about.name = await f('#screen-root > div > div:nth-child(2) > div:nth-child(3) > div:nth-child(6)')
     about.like = await f("#screen-root > div > div:nth-child(2) > div:nth-child(3) > div:nth-child(7)")
     about.follower = await f("#screen-root > div > div:nth-child(2) > div:nth-child(3) > div:nth-child(9)")
