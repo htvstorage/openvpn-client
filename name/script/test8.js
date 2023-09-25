@@ -35,6 +35,7 @@ const { JSDOM } = jsdom;
 
 })();
 
+let pageid = [];
 
 const run = async () => {
 
@@ -58,8 +59,11 @@ const run = async () => {
         if (request.resourceType() == 'image') {
             if (loadImage.load)
                 request.continue()
-            else
+            else{
+                // console.log('abort')
                 request.abort()
+            }
+                
         } else {
             if (request.url().includes("graphql"))
                 console.log("URL", request.url().includes("graphql"), request.url().slice(0, 100))
@@ -101,13 +105,15 @@ const run = async () => {
     });
 
     mobile.on('request', request => {
-
-        console.log("request.resourceType()", request.resourceType())
+        // console.log("request.resourceType()", request.resourceType())
         if (request.resourceType() == 'image') {
             if (loadImage.load)
                 request.continue()
-            else
+            else{
+                // console.log('abort')
                 request.abort()
+            }
+                
         } else {
             if (request.url().includes("graphql"))
                 console.log("URL", request.url().includes("graphql"), request.url().slice(0, 100))
@@ -156,9 +162,10 @@ const run = async () => {
                 let datajs = JSON.parse(text);
                 let edges = datajs.data.serpResponse.results.edges
                 for (let e of edges) {
-                    console.log(c++, e.relay_rendering_strategy.view_model.profile.id, e.relay_rendering_strategy.view_model.profile.name)
                     // await CometHovercardQueryRendererQuery(e.relay_rendering_strategy.view_model.profile.id)
-                    await axiosId(mobile, e.relay_rendering_strategy.view_model.profile.id)
+                    // await axiosId(mobile, e.relay_rendering_strategy.view_model.profile.id)
+                    pageid.push(e.relay_rendering_strategy.view_model.profile.id)
+                    console.log(c++, pageid.length, e.relay_rendering_strategy.view_model.profile.id, e.relay_rendering_strategy.view_model.profile.name)
                 }
 
             }
@@ -170,15 +177,20 @@ const run = async () => {
         // console.log(response.url())
     });
 
-    await axiosId(mobile, 100070844978150)
-    await axiosId(mobile, 100085949237392)
-    await axiosId(mobile, 100063976845361)
-    await axiosId(mobile, 61550339098784)
+    // await axiosId(mobile, 100070844978150)
+    // await axiosId(mobile, 100085949237392)
+    // await axiosId(mobile, 100063976845361)
+    // await axiosId(mobile, 61550339098784)
+    // await axiosId(mobile, 100063547931773)
     
+    // await axiosId(mobile, 100081861570696)
+    // await axiosId(mobile, 211653718883582) //test lai
     
+    // queryPage(mobile)
     // await wait(60000)
 
-    if(true) return;
+    // if(true) return;
+
 
     await page.setViewport({ width: 1920, height: 2000 });
     await page.goto("https://www.facebook.com/", {
@@ -245,6 +257,7 @@ const run = async () => {
     let option = await list.$('li[role="option"]')
     await option.click()
     await wait(5000)
+    queryPage(mobile)
     console.log(page.url());
     console.log("Start move move")
     list = await page.$$('div[role="article"]');
@@ -332,33 +345,6 @@ function wait(ms) {
 
 
 async function CometHovercardQueryRendererQuery(id) {
-    // id = 100085949237392
-    // let a = await fetch("https://www.facebook.com/profile.php?id="+id, {
-    //     "headers": {
-    //         "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-    //         "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-    //         "cache-control": "max-age=0",
-    //         "dpr": "1.5",
-    //         "sec-ch-prefers-color-scheme": "light",
-    //         "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
-    //         "sec-ch-ua-full-version-list": "\"Chromium\";v=\"116.0.5845.188\", \"Not)A;Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"116.0.5845.188\"",
-    //         "sec-ch-ua-mobile": "?0",
-    //         "sec-ch-ua-model": "\"\"",
-    //         "sec-ch-ua-platform": "\"Windows\"",
-    //         "sec-ch-ua-platform-version": "\"15.0.0\"",
-    //         "sec-fetch-dest": "document",
-    //         "sec-fetch-mode": "navigate",
-    //         "sec-fetch-site": "none",
-    //         "sec-fetch-user": "?1",
-    //         "upgrade-insecure-requests": "1",
-    //         "viewport-width": "1060",
-    //         "cookie": "sb=13UIZXod1Y2hYpzyesNVG40O; datr=13UIZVX81zc_WQj_oWqi4RpB; c_user=61551414121483; m_page_voice=61551414121483; locale=en_US; fbl_cs=AhAJc7jZcRt0a1jWcIvifTf%2BGEptQlUvPTVMeDNFODByU3ZLQWxmMnhCNQ; fbl_ci=792514045890997; cppo=1; m_pixel_ratio=1.5; x-referer=eyJyIjoiL2hvbWUucGhwP3BhaXB2PTAmZWF2PUFmWnRZbW9iTFdOdDNFWTluTkE3Sk8xRU93Z3NZVGwyZmFVc3JvT1VOR0xNbFhGaEhNNDg3anJPdEhta2s0TnFvSzgiLCJoIjoiL2hvbWUucGhwP3BhaXB2PTAmZWF2PUFmWnRZbW9iTFdOdDNFWTluTkE3Sk8xRU93Z3NZVGwyZmFVc3JvT1VOR0xNbFhGaEhNNDg3anJPdEhta2s0TnFvSzgiLCJzIjoibXRvdWNoIn0%3D; vpd=v1%3B1228x1050x2.0000000596046448; dpr=2.0000000596046448; wl_cbv=v2%3Bclient_version%3A2328%3Btimestamp%3A1695514853; xs=10%3A5-LkfPvSyGcNtw%3A2%3A1695409382%3A-1%3A-1%3A%3AAcVKku9826uf3N86vtxbc2mFT9EX8EYkmatuOvnb5is; fr=0s09lKpAJWz0Wyw7x.AWU5f9xEzYTMWClFUWiZRBfwjE4.BlD4I4.-p.AAA.0.0.BlD4I4.AWUcBQV8dwg; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1695515317448%2C%22v%22%3A1%7D; wd=1002x1315; fbl_st=101137241%3BT%3A28258603",
-    //         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-    //     },
-    //     "referrerPolicy": "strict-origin-when-cross-origin",
-    //     "body": null,
-    //     "method": "GET"
-    // });
     await wait(200)
     let a = await fetch("https://m.facebook.com/p/N%E1%BB%99i-Th%E1%BA%A5t-Kim-Th%C3%A0nh-100092039206008/?profile_tab_item_selected=about&wtsid=rdr_065lWbujEWpg92ZjR", {
         "headers": {
@@ -482,14 +468,28 @@ import axios from 'axios'
 import { resolve } from "path";
 
 
+async function queryPage(page) {
+    console.log("queryPage================================================")
+    let last = Date.now();
+    while ((pageid.length > 0) || (Date.now - last <= 60000)) {
+        let pid = pageid.shift()
+        if(pid){
+            console.log("start queryPage",pid)
+            await axiosId(page,pid); 
+            console.log("end queryPage",pid, (Date.now()-last)/1000.0)     
+            last =  Date.now();
+        }
+    }
+}
+
 async function axiosId(page, id) {
     await page.goto("https://mtouch.facebook.com/profile.php/?id=" + id + "&profile_tab_item_selected=about", {
         waitUntil: 'networkidle0',
         timeout: 60000
     });
 
-    // await page.waitForNavigation({ waitUntil: 'networkidle0' })
-    await wait(1500)
+    // await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
+    await wait(500)
     await page.screenshot({ path: "query.jpg" });
     let source = await page.content({ "waitUntil": "domcontentloaded" });
 
@@ -501,20 +501,26 @@ async function axiosId(page, id) {
     let about = {}
     let f = async (select) => {
         let e = await page.$(select);
-        return e ? await e.evaluate(e => e.innerText, e) : null
+        if(e == null || e == undefined) return null;
+        return await e.evaluate(e =>{return e ? e.innerText:''}, e) 
     }
 
     let v = async (e) => {
-        return e ? await e.evaluate(e => e.innerText, e) : null
+        if(e == null || e == undefined) return null;
+        return await e.evaluate(e =>{return e ? e.innerText:''}, e) 
     }
     let next = async (e) => {
-        return e ? await e.evaluateHandle(e => e.nextElementSibling, e) : null
+        return e ? await e.evaluateHandle(e => e?e.nextElementSibling:null, e) : null
     }
     // about.top = (await f('#screen-root > div > div.m.fixed-container.top > div')).trim();
 
     let tdiv = await page.$('#screen-root > div > div:nth-child(2) > div:nth-child(3) > div[data-mcomponent="ServerTextArea"]');
     about.name = await v(tdiv);
     tdiv = await next(tdiv);
+    if((await v(tdiv)).length == 0){
+        tdiv = await next(tdiv);
+        tdiv = await next(tdiv);
+    }
     about.like = (await v(tdiv)).split(' ')[0]
     tdiv = await next(tdiv);
     tdiv = await next(tdiv);
@@ -536,17 +542,17 @@ async function axiosId(page, id) {
     let keys = {
         category: '%F3%B1%9B%90%0A',
         phone: '%F3%B1%9B%AA%0A',
-        add:'%F3%B1%A6%97%0A',
-        link:'%F3%B1%A4%82%0A',
-        email:'%F3%B1%98%A2%0A',
+        add: '%F3%B1%A6%97%0A',
+        link: '%F3%B1%A4%82%0A',
+        email: '%F3%B1%98%A2%0A',
     }
-    let pro = new Promise(resolve=>{
+    let pro = new Promise(resolve => {
         let c = 0;
-        Object.keys(keys).forEach(async (k,i)=>{
+        Object.keys(keys).forEach(async (k, i) => {
             let v = await findDiv(tdiva, keys[k])
-            if(v) about[k] = v
-            c++;            
-            if(c == Object.keys(keys).length ) resolve()
+            if (v) about[k] = v
+            c++;
+            if (c == Object.keys(keys).length) resolve()
         })
     })
 
