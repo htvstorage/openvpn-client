@@ -489,7 +489,7 @@ async function axiosId(page, id) {
     });
 
     // await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
-    await wait(500)
+    await wait(1500)
     await page.screenshot({ path: "query.jpg" });
     let source = await page.content({ "waitUntil": "domcontentloaded" });
 
@@ -517,7 +517,7 @@ async function axiosId(page, id) {
     let tdiv = await page.$('#screen-root > div > div:nth-child(2) > div:nth-child(3) > div[data-mcomponent="ServerTextArea"]');
     about.name = await v(tdiv);
     tdiv = await next(tdiv);
-    if((await v(tdiv)).length == 0){
+    if((await v(tdiv))&& (await v(tdiv)).length == 0){
         tdiv = await next(tdiv);
         tdiv = await next(tdiv);
     }
