@@ -8,6 +8,8 @@ const { JSDOM } = jsdom;
 
 
 let pageid = {};
+let pageid2 = [];
+let pagedone = {};
 let stat = { count: 0 }
 async function initBrowser(profileDir) {
 
@@ -123,7 +125,8 @@ async function initBrowser(profileDir) {
                         // await CometHovercardQueryRendererQuery(e.relay_rendering_strategy.view_model.profile.id)
                         // await axiosId(mobile, e.relay_rendering_strategy.view_model.profile.id)
                         let pid = {keyword: stat.keyword, id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name }
-                        pageid[pid.id] = pid;
+                        pageid[pid.id] = pid.id;
+                        pageid2.push[pid.id]
                         console.log(c++, Object.keys(pageid).length, e.relay_rendering_strategy.view_model.profile.id, e.relay_rendering_strategy.view_model.profile.name)
                         fs.appendFileSync("facebook/pageid.txt", JSON.stringify(pid) + '\n')
                         stat.total = Object.keys(pageid).length;
@@ -192,6 +195,20 @@ async function loadLocation() {
     return d;
 }
 
+async function loadPageId() {
+    if (!fs.existsSync("facebook/pageid.json")) return {};
+    let buffer = fs.readFileSync("facebook/pageid.json", "utf-8")
+    buffer = buffer.slice(0, buffer.length - 1);
+    let data = buffer.split('\n')
+        .map(e => e.trim()).map(e => JSON.parse(e));
+    let d = {}
+    data.forEach(e => {
+        d[e.id] = e;
+    })
+    return d;
+}
+
+
 keywords = await loadKeywords();
 done = await loadDone();
 
@@ -201,7 +218,7 @@ const run = async () => {
     let args = process.argv.slice(2);
     let provinces = null;
     if (args.length == 0) {
-        provinces = ["Hà Nội", "Hà Giang", "Cao Bằng", "Bắc Kạn", "Tuyên Quang", "Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
+        provinces = [ "Hà Giang","Hà Nội", "Cao Bằng", "Bắc Kạn", "Tuyên Quang", "Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
     } else {
         provinces = loadProvince(args[0]);
 
@@ -212,6 +229,7 @@ const run = async () => {
 
     let [browser, page, mobile] = await initBrowser("./userdata8")
 
+    queryPage(mobile)
 
     await page.setViewport({ width: 1920, height: 100000 });
     await page.goto("https://www.facebook.com/", {
@@ -262,8 +280,9 @@ const run = async () => {
                         lastCount = stat.count
                         last = Date.now();
                     }
-                    if (Date.now() - last >= 60000) {
+                    if ((Date.now() - last >= 20000) || (stat.count == 0 && Date.now() - last >= 10000)) {
                         console.log("Done load ", keyword, province)
+                        done[keyword + " " + province]=keyword + " " + province
                         stat = {count:0}
                         fs.appendFileSync("facebook/done.txt", keyword + " " + province + "\n")
                         break;
@@ -433,11 +452,12 @@ async function CometHovercardQueryRendererQuery(id) {
 async function queryPage(page) {
     console.log("queryPage================================================")
     let last = Date.now();
-    while ((pageid.length > 0) || (Date.now - last <= 60000)) {
-        let pid = pageid.shift()
+    while ((pageid2.length > 0) || (Date.now - last <= 60000)) {
+        let pid = pageid2.shift()
         if (pid) {
             console.log("start queryPage", pid)
             await axiosId(page, pid);
+            pagedone[pid] = pid;
             console.log("end queryPage", pid, (Date.now() - last) / 1000.0)
             last = Date.now();
         }
