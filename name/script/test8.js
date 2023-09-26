@@ -489,11 +489,11 @@ async function axiosId(page, id) {
     });
 
     // await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
-    await wait(1500)
-    await page.screenshot({ path: "query.jpg" });
+    await wait(1000)
+    // await page.screenshot({ path: "query.jpg" });
     let source = await page.content({ "waitUntil": "domcontentloaded" });
 
-    fs.writeFileSync("query.html", source)
+    // fs.writeFileSync("query.html", source)
     let div = page.$('#screen-root');
     if (!div) {
         return
