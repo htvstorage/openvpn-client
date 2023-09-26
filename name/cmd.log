@@ -272,6 +272,8 @@ x1=z.data.map(e=>{ return {code:e.C_SHARE_CODE,val:e.C_PROFIT_LOSS}})
 
 while true; do node  script/dumpdaily2.js stock=SSI; node script/muabanx.js outlier=true date=`date +"%Y%m%d"` threshold=8 interval=300000; sleep 60; done >> dum.log 2>&1 < /dev/null &
 
+while true; do node  script/dumpdaily2.js stock=24HMONEY; node script/muabanx.js outlier=true date=`date +"%Y%m%d"` threshold=8 interval=300000; sleep 40; done >> dum.log 2>&1 < /dev/null &
+
 node script/muabanx.js outlier=true interval=300000 date=20230413
 
 node script/price.js; node script/filter200x.js checkdate=-1
