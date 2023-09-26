@@ -126,8 +126,8 @@ async function initBrowser(profileDir) {
                         // await axiosId(mobile, e.relay_rendering_strategy.view_model.profile.id)
                         let pid = {keyword: stat.keyword, id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name }
                         pageid[pid.id] = pid.id;
-                        pageid2.push[pid.id]
-                        console.log(c++, Object.keys(pageid).length, e.relay_rendering_strategy.view_model.profile.id, e.relay_rendering_strategy.view_model.profile.name)
+                        pageid2.push(pid.id)
+                        // console.log(c++, Object.keys(pageid).length, e.relay_rendering_strategy.view_model.profile.id, e.relay_rendering_strategy.view_model.profile.name)
                         fs.appendFileSync("facebook/pageid.txt", JSON.stringify(pid) + '\n')
                         stat.total = Object.keys(pageid).length;
                         stat.count++;
@@ -229,7 +229,7 @@ const run = async () => {
 
     let [browser, page, mobile] = await initBrowser("./userdata8")
 
-    queryPage(mobile)
+     queryPage(mobile)
 
     await page.setViewport({ width: 1920, height: 100000 });
     await page.goto("https://www.facebook.com/", {
@@ -452,7 +452,9 @@ async function CometHovercardQueryRendererQuery(id) {
 async function queryPage(page) {
     console.log("queryPage================================================")
     let last = Date.now();
-    while ((pageid2.length > 0) || (Date.now - last <= 60000)) {
+    console.log("queryPage================================================",(pageid2.length > 0) || (Date.now() - last <= 60000),Date.now() - last)
+    while ((pageid2.length > 0) || (Date.now() - last <= 60000)) {
+        console.log("queryPage================================================" ,22)
         let pid = pageid2.shift()
         if (pid) {
             console.log("start queryPage", pid)
@@ -461,10 +463,13 @@ async function queryPage(page) {
             console.log("end queryPage", pid, (Date.now() - last) / 1000.0)
             last = Date.now();
         }
+        console.log("Query =============",pid,pageid2.length)
+        await wait(1000)
     }
 }
 
 async function axiosId(page, id) {
+    console.log("Query ", id)
     await page.goto("https://mtouch.facebook.com/profile.php/?id=" + id + "&profile_tab_item_selected=about", {
         waitUntil: 'networkidle0',
         timeout: 60000
