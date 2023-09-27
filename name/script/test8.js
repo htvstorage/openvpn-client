@@ -185,11 +185,14 @@ const run = async () => {
     
     // await axiosId(mobile, 100081861570696)
     // await axiosId(mobile, 211653718883582) //test lai
+
+    // await axiosId(mobile, 100069572883858)
+    await axiosId(mobile,115806726641456)
     
     // queryPage(mobile)
     // await wait(60000)
 
-    // if(true) return;
+    if(true) return;
 
 
     await page.setViewport({ width: 1920, height: 2000 });
@@ -464,8 +467,7 @@ async function CometHovercardQueryRendererQuery(id) {
 
 // av=61551414121483&__user=61551414121483&__a=1&__req=1s&__hs=19622.HYP%3Acomet_pkg.2.1..2.1&dpr=1&__ccg=EXCELLENT&__rev=1008798983&__s=0dabim%3Akqb6j0%3Aain1ac&__hsi=7281596883066485181&__dyn=7AzHK4HzEmwIxt0mUyEqxenFwLBwopU98nwgUao4u5QdwSxucyUco5S3O2Saw8i2S1DwUx60DUG1sw9u0LVEtwMw65xO2OU7m2210wEwgolzUO0-E4a3a4oaEnxO0Bo7O2l2Utwwwi831wiE567Udo5qfK0zEkxe2GewyDwkUtxGm2SUbElxm3y3aexfxmu3W3rwxwjFovUy2a1ywtUuBwFKq2-azqwqo4i223908O3216xi4UdUcojxK2B0oobo8oC1hxB0qo4e16wWw&__csr=gpPggsysaEAsxl8ox44dFPFNlFNuOn9qkIAQigkB-IzyeAIxiVn8rXiFEHp2a9nGVuRJfRBApAnjCCl5XWh9VVFQ4uZdp8ICQS8-qlQc_Gii8ABVpeAaJbG48KA4rGeiK4EWloyUR3FE8Xx-5WGQl0xyEDzo-mES9ByoOczryWgnwPy_J1G8K22dz8S78C2mfyVk58izE76EpzoGUkwCy-exG22F8iwzxuK222G2Wdwg9UfE5a3W4EkxKq3ObxC48b8fUmxa2mawoo2iwtoW4U0zq05eU2Vw7hovwKxe4E9U0dEE0vqCw1pfwWw0sFE0f3Q0m60Mo0JC0r1oduE30wfG0iC3e0fhwAgbV80hFS02qC06Fy07VyU5u3G0dCwAw0J7w8B01bq3K0csw4opk8yowjU2aU3zw6rwqm1Hw2wA&__comet_req=15&fb_dtsg=NAcOPUL1aXHnXO68Q0EGnhldG4tY3c03bweMgsyaRMrV4vGaI27Szig%3A47%3A1695182074&jazoest=25388&lsd=OgD-6UJT1qT5XjAqWrl4im&__spin_r=1008798983&__spin_b=trunk&__spin_t=1695378889&fb_api_caller_class=RelayModern&fb_api_req_friendly_name=CometHovercardQueryRendererQuery&variables=%7B%22actionBarRenderLocation%22%3A%22WWW_COMET_HOVERCARD%22%2C%22context%22%3A%22DEFAULT%22%2C%22entityID%22%3A%22111915851721340%22%2C%22includeTdaInfo%22%3Afalse%2C%22scale%22%3A1%2C%22__relay_internal__pv__GroupsCometGroupChatLazyLoadLastMessageSnippetrelayprovider%22%3Afalse%7D&server_timestamps=true&doc_id=6595871777147408 
 
-import axios from 'axios'
-import { resolve } from "path";
+
 
 
 async function queryPage(page) {

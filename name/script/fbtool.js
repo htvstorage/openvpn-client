@@ -26,11 +26,19 @@ async function initBrowser(profileDir) {
     await mobile.setViewport({ width: 390, height: 844 });
     await page.setRequestInterception(true);
     await mobile.setRequestInterception(true);
-    let loadImage = { load: false }
+    let loadImage = {
+        load: false, disable: {
+            'font': 'font',
+            'image': 'image',
+            'manifest': 'manifest',
+            'ping': 'ping',
+            'stylesheet': 'stylesheet',
+        }
+    }
     page.on('request', request => {
 
 
-        if (request.resourceType() == 'image') {
+        if (loadImage.disable[request.resourceType()]) {
             if (loadImage.load)
                 request.continue()
             else {
@@ -73,7 +81,8 @@ async function initBrowser(profileDir) {
     });
 
     mobile.on('request', request => {
-        if (request.resourceType() == 'image') {
+        // console.log(request.resourceType())
+        if (loadImage.disable[request.resourceType()]) {
             if (loadImage.load)
                 request.continue()
             else {
@@ -124,10 +133,10 @@ async function initBrowser(profileDir) {
                     for (let e of edges) {
                         // await CometHovercardQueryRendererQuery(e.relay_rendering_strategy.view_model.profile.id)
                         // await axiosId(mobile, e.relay_rendering_strategy.view_model.profile.id)
-                        let pid = {keyword: stat.keyword, id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name }
-                        pageid[pid.id] = pid.id;
+                        let pid = { keyword: stat.keyword, id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name }
+                        pageid[pid.id] = pid;
                         pageid2.push(pid.id)
-                        // console.log(c++, Object.keys(pageid).length, e.relay_rendering_strategy.view_model.profile.id, e.relay_rendering_strategy.view_model.profile.name)
+                        console.log(c++, Object.keys(pageid).length, e.relay_rendering_strategy.view_model.profile.id, e.relay_rendering_strategy.view_model.profile.name)
                         fs.appendFileSync("facebook/pageid.txt", JSON.stringify(pid) + '\n')
                         stat.total = Object.keys(pageid).length;
                         stat.count++;
@@ -212,13 +221,23 @@ async function loadPageId() {
 keywords = await loadKeywords();
 done = await loadDone();
 
+function mkdirSyncRecursive(directoryPath) {
+    const parts = directoryPath.split('/');
+
+    for (let i = 1; i <= parts.length; i++) {
+      const currentPath = parts.slice(0, i).join('/');
+      if (!fs.existsSync(currentPath)) {
+        fs.mkdirSync(currentPath);
+      }
+    }
+  }
 
 const run = async () => {
 
     let args = process.argv.slice(2);
     let provinces = null;
     if (args.length == 0) {
-        provinces = [ "Hà Giang","Hà Nội", "Cao Bằng", "Bắc Kạn", "Tuyên Quang", "Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
+        provinces = ["Hà Giang", "Hà Nội", "Cao Bằng", "Bắc Kạn", "Tuyên Quang", "Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
     } else {
         provinces = loadProvince(args[0]);
 
@@ -226,10 +245,17 @@ const run = async () => {
 
     let location = await loadLocation();
     // console.table(location)
-
+    mkdirSyncRecursive("facebook/out")
     let [browser, page, mobile] = await initBrowser("./userdata8")
+    
 
-     queryPage(mobile)
+    // await axiosId(mobile, 211653718883582) //test lai
+
+    // await axiosId(mobile, 100069572883858)
+    await axiosId(mobile, 115806726641456)
+    await axiosId(mobile, 115806726641456)
+    // if (true) return;
+    queryPage(mobile)
 
     await page.setViewport({ width: 1920, height: 100000 });
     await page.goto("https://www.facebook.com/", {
@@ -275,15 +301,15 @@ const run = async () => {
                 while (true) {
                     i++;
                     await wait(1000)
-                    console.log("Load more ....", i,lastCount, stat)
+                    console.log("Load more ....", i, lastCount, stat)
                     if (lastCount < stat.count) {
                         lastCount = stat.count
                         last = Date.now();
                     }
                     if ((Date.now() - last >= 20000) || (stat.count == 0 && Date.now() - last >= 10000)) {
                         console.log("Done load ", keyword, province)
-                        done[keyword + " " + province]=keyword + " " + province
-                        stat = {count:0}
+                        done[keyword + " " + province] = keyword + " " + province
+                        stat = { count: 0 }
                         fs.appendFileSync("facebook/done.txt", keyword + " " + province + "\n")
                         break;
                     }
@@ -452,19 +478,26 @@ async function CometHovercardQueryRendererQuery(id) {
 async function queryPage(page) {
     console.log("queryPage================================================")
     let last = Date.now();
-    console.log("queryPage================================================",(pageid2.length > 0) || (Date.now() - last <= 60000),Date.now() - last)
+    console.log("queryPage================================================", (pageid2.length > 0) || (Date.now() - last <= 60000), Date.now() - last)
     while ((pageid2.length > 0) || (Date.now() - last <= 60000)) {
-        console.log("queryPage================================================" ,22)
+        console.log("queryPage================================================", 22)
         let pid = pageid2.shift()
-        if (pid) {
+        if (pid && !pagedone[pid]) {
             console.log("start queryPage", pid)
-            await axiosId(page, pid);
+            let data = await axiosId(page, pid);
+            let p=pageid[pid]
+            p['about'] = data;
+            data.name2 = p.name;
+            fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(p.keyword)+".text", JSON.stringify(data)+'\n')
             pagedone[pid] = pid;
             console.log("end queryPage", pid, (Date.now() - last) / 1000.0)
             last = Date.now();
-        }
-        console.log("Query =============",pid,pageid2.length)
-        await wait(1000)
+        } else {
+            console.log("Already done! =============", pid, pageid2.length)
+        }  
+        if(!pid){
+            await wait(2000);
+        }      
     }
 }
 
@@ -477,7 +510,7 @@ async function axiosId(page, id) {
 
     // await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
     await wait(1000)
-    // await page.screenshot({ path: "query.jpg" });
+    await page.screenshot({ path: "query.jpg" });
     let source = await page.content({ "waitUntil": "domcontentloaded" });
 
     // fs.writeFileSync("query.html", source)
@@ -486,6 +519,7 @@ async function axiosId(page, id) {
         return
     }
     let about = {}
+    about.id = id;
     let f = async (select) => {
         let e = await page.$(select);
         if (e == null || e == undefined) return null;
@@ -508,24 +542,26 @@ async function axiosId(page, id) {
         tdiv = await next(tdiv);
         tdiv = await next(tdiv);
     }
-    about.like = (await v(tdiv)).split(' ')[0]
+    let t = null;
+    t = (await v(tdiv))
+
+    about.like = (t = await v(tdiv)) ? t.split(' ')[0] : ''
     tdiv = await next(tdiv);
     tdiv = await next(tdiv);
-    about.follower = (await v(tdiv)).split(' ')[0]
+    about.follower = (t = await v(tdiv)) ? t.split(' ')[0] : ''
     tdiv = await next(tdiv);
     tdiv = await next(tdiv);
     about.desc = await v(tdiv)
     let tdiva = await page.$$('#screen-root > div > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div');
-    for (let e of tdiva) {
-        console.log("DIV NOW=> ", encodeURI(await v(e)))
-    }
-
+    // for (let e of tdiva) {
+    //     console.log("DIV NOW=> ", encodeURI(await v(e)))
+    // }
     let findDiv = async (a, text) => {
         for (let e of tdiva) {
             if (encodeURI(await v(e)).includes(text)) return decodeURI(encodeURI(await v(e)).slice(text.length)).trim();
         }
     }
-    console.log("NNN", encodeURI('\n'))
+
     let keys = {
         category: '%F3%B1%9B%90%0A',
         phone: '%F3%B1%9B%AA%0A',
@@ -544,6 +580,39 @@ async function axiosId(page, id) {
     })
     await pro;
     console.table(about)
+    return about;
 
 }
 // CometHovercardQueryRendererQuery(100092039206008)
+
+function removeDiacriticsAndSpaces(inputString) {
+    const diacriticsMap = {
+      'à': 'a', 'á': 'a', 'ả': 'a', 'ã': 'a', 'ạ': 'a',
+      'â': 'a', 'ầ': 'a', 'ấ': 'a', 'ẩ': 'a', 'ẫ': 'a', 'ậ': 'a',
+      'ă': 'a', 'ằ': 'a', 'ắ': 'a', 'ẳ': 'a', 'ẵ': 'a', 'ặ': 'a',
+      'è': 'e', 'é': 'e', 'ẻ': 'e', 'ẽ': 'e', 'ẹ': 'e',
+      'ê': 'e', 'ề': 'e', 'ế': 'e', 'ể': 'e', 'ễ': 'e', 'ệ': 'e',
+      'đ': 'd',
+      'ì': 'i', 'í': 'i', 'ỉ': 'i', 'ĩ': 'i', 'ị': 'i',
+      'ò': 'o', 'ó': 'o', 'ỏ': 'o', 'õ': 'o', 'ọ': 'o',
+      'ô': 'o', 'ồ': 'o', 'ố': 'o', 'ổ': 'o', 'ỗ': 'o', 'ộ': 'o',
+      'ơ': 'o', 'ờ': 'o', 'ớ': 'o', 'ở': 'o', 'ỡ': 'o', 'ợ': 'o',
+      'ù': 'u', 'ú': 'u', 'ủ': 'u', 'ũ': 'u', 'ụ': 'u',
+      'ư': 'u', 'ừ': 'u', 'ứ': 'u', 'ử': 'u', 'ữ': 'u', 'ự': 'u',
+      'ỳ': 'y', 'ý': 'y', 'ỷ': 'y', 'ỹ': 'y', 'ỵ': 'y',
+    };
+  
+    let cleanedString = '';
+    for (let i = 0; i < inputString.length; i++) {
+      const char = inputString[i];
+      if (diacriticsMap[char]) {
+        cleanedString += diacriticsMap[char];
+      } else if (char === ' ') {
+        cleanedString += '_';
+      } else if (/^[a-zA-Z0-9_]+$/.test(char)) {
+        cleanedString += char;
+      }
+    }
+  
+    return cleanedString;
+  }
