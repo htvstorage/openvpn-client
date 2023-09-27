@@ -28,11 +28,11 @@ async function initBrowser(profileDir) {
     await mobile.setRequestInterception(true);
     let loadImage = {
         load: false, disable: {
-            'font': 'font',
-            'image': 'image',
-            'manifest': 'manifest',
-            'ping': 'ping',
-            'stylesheet': 'stylesheet',
+            // 'font': 'font',
+            // 'image': 'image',
+            // 'manifest': 'manifest',
+            // 'ping': 'ping',
+            // 'stylesheet': 'stylesheet',
         }
     }
     page.on('request', request => {
@@ -127,6 +127,7 @@ async function initBrowser(profileDir) {
         if (response.url().includes("graphql")) {
             try {
                 let text = await response.text();
+                // console.log(text)
                 if (text.includes('{"data":{"serpResponse":{"results":{"edges":[{"node":{"role":"ENTITY_PAGES","__typename":"SearchRenderable"}')) {
                     let datajs = JSON.parse(text);
                     let edges = datajs.data.serpResponse.results.edges
@@ -142,9 +143,13 @@ async function initBrowser(profileDir) {
                         stat.count++;
                     }
 
+                }else{
+                   if( text.includes('{"errors":[{"message":"Rate limit exceeded') || text.includes('been temporarily blocked')){
+                    console.log(text)
+                   }
                 }
             } catch (error) {
-
+                console.log(error)
             }
 
         }
@@ -257,7 +262,7 @@ const run = async () => {
     // if (true) return;
     queryPage(mobile)
 
-    await page.setViewport({ width: 1920, height: 100000 });
+    await page.setViewport({ width: 1920, height: 1000 });
     await page.goto("https://www.facebook.com/", {
         waitUntil: 'domcontentloaded',
         timeout: 60000
@@ -295,6 +300,9 @@ const run = async () => {
                     waitUntil: 'domcontentloaded',
                     timeout: 60000
                 });
+                
+                await wait(5000)
+                await page.screenshot({ path: keyword+"_"+"after-login.jpg" });
                 let last = Date.now();
                 let i = 0;
                 let lastCount = 0;
