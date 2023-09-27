@@ -208,6 +208,19 @@ async function loadLocation() {
     })
     return d;
 }
+async function loadUser() {
+    if (!fs.existsSync("facebook/user.txt")) return {};
+    let buffer = fs.readFileSync("facebook/user.txt", "utf-8")
+    // buffer = buffer.slice(0, buffer.length - 1);
+    let data = buffer.split('\n')
+        .map(e => e.trim()).map(e => JSON.parse(e));
+    let d = {}
+    data.forEach(e => {
+        d[e.username] = e;
+    })
+    return Object.values(d);
+}
+
 
 async function loadPageId() {
     if (!fs.existsSync("facebook/pageid.json")) return {};
@@ -249,10 +262,16 @@ const run = async () => {
     }
 
     let location = await loadLocation();
+    let users = await loadUser();
     // console.table(location)
+
+    let indexUser = 0;
+    let user = users[indexUser];
     mkdirSyncRecursive("facebook/out")
-    let [browser, page, mobile] = await initBrowser("./userdata8")
-    
+    mkdirSyncRecursive("facebook/profile")
+    console.log("profile", "./facebook/profile/"+user.email.slice(0,user.email.indexOf('@')))
+    // let [browser, page, mobile] = await initBrowser("./facebook/profile/"+user.email.slice(0,user.email.indexOf('@')));
+    let [browser, page, mobile] = await initBrowser("./userdata9");        
 
     // await axiosId(mobile, 211653718883582) //test lai
 
@@ -268,9 +287,10 @@ const run = async () => {
         timeout: 60000
     });
     if (await page.$('#email'))
-        await page.type("#email", "quanghuyluxury911681169@gmail.com");
+        // await page.type("#email", user.email);
+        await page.type("#email", 'hungtvalbum@gmail.com');
     if (await page.$('#pass'))
-        await page.type("#pass", "Htv.@123");
+        await page.type("#pass", 'Htv.@123');
     if (await page.$('#loginbutton'))
         await page.click("#loginbutton");
     if (await page.$('button[name="login"]')) {
