@@ -143,10 +143,10 @@ async function initBrowser(profileDir) {
                         stat.count++;
                     }
 
-                }else{
-                   if( text.includes('{"errors":[{"message":"Rate limit exceeded') || text.includes('been temporarily blocked')){
-                    console.log(text)
-                   }
+                } else {
+                    if (text.includes('{"errors":[{"message":"Rate limit exceeded') || text.includes('been temporarily blocked')) {
+                        console.log(text)
+                    }
                 }
             } catch (error) {
                 console.log(error)
@@ -243,12 +243,12 @@ function mkdirSyncRecursive(directoryPath) {
     const parts = directoryPath.split('/');
 
     for (let i = 1; i <= parts.length; i++) {
-      const currentPath = parts.slice(0, i).join('/');
-      if (!fs.existsSync(currentPath)) {
-        fs.mkdirSync(currentPath);
-      }
+        const currentPath = parts.slice(0, i).join('/');
+        if (!fs.existsSync(currentPath)) {
+            fs.mkdirSync(currentPath);
+        }
     }
-  }
+}
 
 const run = async () => {
 
@@ -269,28 +269,23 @@ const run = async () => {
     let user = users[indexUser];
     mkdirSyncRecursive("facebook/out")
     mkdirSyncRecursive("facebook/profile")
-    console.log("profile", "./facebook/profile/"+user.email.slice(0,user.email.indexOf('@')))
-    // let [browser, page, mobile] = await initBrowser("./facebook/profile/"+user.email.slice(0,user.email.indexOf('@')));
-    let [browser, page, mobile] = await initBrowser("./userdata9");        
-
-    // await axiosId(mobile, 211653718883582) //test lai
-
-    // await axiosId(mobile, 100069572883858)
-    await axiosId(mobile, 115806726641456)
-    await axiosId(mobile, 115806726641456)
-    // if (true) return;
-    queryPage(mobile)
+    console.log("profile", "./facebook/profile/" + user.email.slice(0, user.email.indexOf('@')))
+    let [browser, page, mobile] = await initBrowser("./facebook/profile/" + user.email.slice(0, user.email.indexOf('@')));
+    // let [browser, page, mobile] = await initBrowser("./userdata9");        
 
     await page.setViewport({ width: 1920, height: 1000 });
     await page.goto("https://www.facebook.com/", {
         waitUntil: 'domcontentloaded',
         timeout: 60000
     });
+
+    await wait(2000)
+    await page.screenshot({ path: "before-login.jpg" });
     if (await page.$('#email'))
-        // await page.type("#email", user.email);
-        await page.type("#email", 'hungtvalbum@gmail.com');
+        await page.type("#email", user.email);
+    // await page.type("#email", 'hungtvalbum@gmail.com');
     if (await page.$('#pass'))
-        await page.type("#pass", 'Htv.@123');
+        await page.type("#pass", user.password);
     if (await page.$('#loginbutton'))
         await page.click("#loginbutton");
     if (await page.$('button[name="login"]')) {
@@ -301,9 +296,22 @@ const run = async () => {
 
     let source1 = await page.content({ "waitUntil": "domcontentloaded" });
 
-    await wait(3000)
-    if (page.viewport.height < 10000)
+    await wait(2000)
+
+    // await axiosId(mobile, 211653718883582) //test lai
+
+    // await axiosId(mobile, 100069572883858)
+    // await axiosId(mobile, 115806726641456)
+    // await axiosId(mobile, 115806726641456)
+    // // if (true) return;
+    // queryPage(mobile)
+
+    console.log("page.viewport.height", page.viewport().height)
+    if (page.viewport().height < 10000) {
+        console.log("after-login.jpg")
         await page.screenshot({ path: "after-login.jpg" });
+    }
+
 
     for (let province of provinces) {
         try {
@@ -320,9 +328,11 @@ const run = async () => {
                     waitUntil: 'domcontentloaded',
                     timeout: 60000
                 });
-                
-                await wait(5000)
-                await page.screenshot({ path: keyword+"_"+"after-login.jpg" });
+
+                // await wait(5000)
+                if (page.viewport().height < 10000) {
+                    await page.screenshot({ path: removeDiacriticsAndSpaces(keyword) + "_" + "after-login.jpg" });
+                }
                 let last = Date.now();
                 let i = 0;
                 let lastCount = 0;
@@ -513,19 +523,19 @@ async function queryPage(page) {
         if (pid && !pagedone[pid]) {
             console.log("start queryPage", pid)
             let data = await axiosId(page, pid);
-            let p=pageid[pid]
+            let p = pageid[pid]
             p['about'] = data;
             data.name2 = p.name;
-            fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(p.keyword)+".text", JSON.stringify(data)+'\n')
+            fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(p.keyword) + ".text", JSON.stringify(data) + '\n')
             pagedone[pid] = pid;
             console.log("end queryPage", pid, (Date.now() - last) / 1000.0)
             last = Date.now();
         } else {
             console.log("Already done! =============", pid, pageid2.length)
-        }  
-        if(!pid){
+        }
+        if (!pid) {
             await wait(2000);
-        }      
+        }
     }
 }
 
@@ -615,32 +625,32 @@ async function axiosId(page, id) {
 
 function removeDiacriticsAndSpaces(inputString) {
     const diacriticsMap = {
-      'à': 'a', 'á': 'a', 'ả': 'a', 'ã': 'a', 'ạ': 'a',
-      'â': 'a', 'ầ': 'a', 'ấ': 'a', 'ẩ': 'a', 'ẫ': 'a', 'ậ': 'a',
-      'ă': 'a', 'ằ': 'a', 'ắ': 'a', 'ẳ': 'a', 'ẵ': 'a', 'ặ': 'a',
-      'è': 'e', 'é': 'e', 'ẻ': 'e', 'ẽ': 'e', 'ẹ': 'e',
-      'ê': 'e', 'ề': 'e', 'ế': 'e', 'ể': 'e', 'ễ': 'e', 'ệ': 'e',
-      'đ': 'd',
-      'ì': 'i', 'í': 'i', 'ỉ': 'i', 'ĩ': 'i', 'ị': 'i',
-      'ò': 'o', 'ó': 'o', 'ỏ': 'o', 'õ': 'o', 'ọ': 'o',
-      'ô': 'o', 'ồ': 'o', 'ố': 'o', 'ổ': 'o', 'ỗ': 'o', 'ộ': 'o',
-      'ơ': 'o', 'ờ': 'o', 'ớ': 'o', 'ở': 'o', 'ỡ': 'o', 'ợ': 'o',
-      'ù': 'u', 'ú': 'u', 'ủ': 'u', 'ũ': 'u', 'ụ': 'u',
-      'ư': 'u', 'ừ': 'u', 'ứ': 'u', 'ử': 'u', 'ữ': 'u', 'ự': 'u',
-      'ỳ': 'y', 'ý': 'y', 'ỷ': 'y', 'ỹ': 'y', 'ỵ': 'y',
+        'à': 'a', 'á': 'a', 'ả': 'a', 'ã': 'a', 'ạ': 'a',
+        'â': 'a', 'ầ': 'a', 'ấ': 'a', 'ẩ': 'a', 'ẫ': 'a', 'ậ': 'a',
+        'ă': 'a', 'ằ': 'a', 'ắ': 'a', 'ẳ': 'a', 'ẵ': 'a', 'ặ': 'a',
+        'è': 'e', 'é': 'e', 'ẻ': 'e', 'ẽ': 'e', 'ẹ': 'e',
+        'ê': 'e', 'ề': 'e', 'ế': 'e', 'ể': 'e', 'ễ': 'e', 'ệ': 'e',
+        'đ': 'd',
+        'ì': 'i', 'í': 'i', 'ỉ': 'i', 'ĩ': 'i', 'ị': 'i',
+        'ò': 'o', 'ó': 'o', 'ỏ': 'o', 'õ': 'o', 'ọ': 'o',
+        'ô': 'o', 'ồ': 'o', 'ố': 'o', 'ổ': 'o', 'ỗ': 'o', 'ộ': 'o',
+        'ơ': 'o', 'ờ': 'o', 'ớ': 'o', 'ở': 'o', 'ỡ': 'o', 'ợ': 'o',
+        'ù': 'u', 'ú': 'u', 'ủ': 'u', 'ũ': 'u', 'ụ': 'u',
+        'ư': 'u', 'ừ': 'u', 'ứ': 'u', 'ử': 'u', 'ữ': 'u', 'ự': 'u',
+        'ỳ': 'y', 'ý': 'y', 'ỷ': 'y', 'ỹ': 'y', 'ỵ': 'y',
     };
-  
+
     let cleanedString = '';
     for (let i = 0; i < inputString.length; i++) {
-      const char = inputString[i];
-      if (diacriticsMap[char]) {
-        cleanedString += diacriticsMap[char];
-      } else if (char === ' ') {
-        cleanedString += '_';
-      } else if (/^[a-zA-Z0-9_]+$/.test(char)) {
-        cleanedString += char;
-      }
+        const char = inputString[i];
+        if (diacriticsMap[char]) {
+            cleanedString += diacriticsMap[char];
+        } else if (char === ' ') {
+            cleanedString += '_';
+        } else if (/^[a-zA-Z0-9_]+$/.test(char)) {
+            cleanedString += char;
+        }
     }
-  
+
     return cleanedString;
-  }
+}

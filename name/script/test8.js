@@ -41,7 +41,7 @@ const run = async () => {
 
     let provinces = ["Hà Nội", "Hà Giang", "Cao Bằng", "Bắc Kạn", "Tuyên Quang", "Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
     const browser = await puppeteer.launch({
-        headless: true, args: ['--user-data-dir=./userdata6']
+        headless: true, args: ['--user-data-dir=./facebook/profile/xxx']
     });
     const page = await browser.newPage();
     const mobile = await browser.newPage();
@@ -187,12 +187,12 @@ const run = async () => {
     // await axiosId(mobile, 211653718883582) //test lai
 
     // await axiosId(mobile, 100069572883858)
-    await axiosId(mobile,115806726641456)
+    // await axiosId(mobile,115806726641456)
     
     // queryPage(mobile)
     // await wait(60000)
 
-    if(true) return;
+    // if(true) return;
 
 
     await page.setViewport({ width: 1920, height: 2000 });
@@ -201,9 +201,9 @@ const run = async () => {
         timeout: 60000
     });
     if (await page.$('#email'))
-        await page.type("#email", "quanghuyluxury911681169@gmail.com");
+        await page.type("#email", "sixthcartar1@hotmail.com");
     if (await page.$('#pass'))
-        await page.type("#pass", "Htv.@123");
+        await page.type("#pass", "ledieu4q1y");
     if (await page.$('#loginbutton'))
         await page.click("#loginbutton");
     if (await page.$('button[name="login"]')) {
