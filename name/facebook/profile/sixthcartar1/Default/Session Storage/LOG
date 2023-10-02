@@ -1,3 +1,6 @@
-2023/10/02-08:40:53.997 2a5f Reusing MANIFEST /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Session Storage/MANIFEST-000001
-2023/10/02-08:40:53.997 2a5f Recovering log #3
-2023/10/02-08:40:53.997 2a5f Reusing old log /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Session Storage/000003.log 
+2023/10/02-10:57:30.273 12d24 Reusing MANIFEST /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Session Storage/MANIFEST-000001
+2023/10/02-10:57:30.273 12d24 Recovering log #10
+2023/10/02-10:57:30.274 12d24 Reusing old log /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Session Storage/000010.log 
+2023/10/02-10:59:49.678 12d17 Level-0 table #14: started
+2023/10/02-10:59:49.680 12d17 Level-0 table #14: 14809 bytes OK
+2023/10/02-10:59:49.680 12d17 Delete type=0 #10

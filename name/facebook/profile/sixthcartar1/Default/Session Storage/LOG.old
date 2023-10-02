@@ -1,2 +1,3 @@
-2023/10/02-08:39:40.065 2793 Creating DB /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Session Storage since it was missing.
-2023/10/02-08:39:40.067 2793 Reusing MANIFEST /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Session Storage/MANIFEST-000001
+2023/10/02-10:54:38.761 12588 Reusing MANIFEST /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Session Storage/MANIFEST-000001
+2023/10/02-10:54:38.761 12588 Recovering log #10
+2023/10/02-10:54:38.761 12588 Reusing old log /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Session Storage/000010.log 

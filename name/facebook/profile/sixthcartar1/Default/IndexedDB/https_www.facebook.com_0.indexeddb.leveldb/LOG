@@ -1,2 +1,3 @@
-2023/10/02-08:40:58.992 2a68 Creating DB /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb since it was missing.
-2023/10/02-08:40:58.993 2a68 Reusing MANIFEST /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/02-10:57:30.546 12d1c Reusing MANIFEST /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/02-10:57:30.546 12d1c Recovering log #4
+2023/10/02-10:57:30.562 12d1c Reusing old log /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000004.log 

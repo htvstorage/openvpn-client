@@ -1,2 +1,3 @@
-2023/10/02-08:41:01.063 2a59 Creating DB /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/File System/Origins since it was missing.
-2023/10/02-08:41:01.065 2a59 Reusing MANIFEST /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/File System/Origins/MANIFEST-000001
+2023/10/02-10:57:30.784 12d24 Reusing MANIFEST /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/File System/Origins/MANIFEST-000001
+2023/10/02-10:57:30.784 12d24 Recovering log #3
+2023/10/02-10:57:30.784 12d24 Reusing old log /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/File System/Origins/000003.log 

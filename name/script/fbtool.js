@@ -235,6 +235,11 @@ async function loadPageId() {
     return d;
 }
 
+async function loadProcess() {
+    if (!fs.existsSync("facebook/process.json")) return { "fetch": 1, "query": 1, "fetch_max_tps": 10000, "query_max_tps": 0.3 };
+    let buffer = fs.readFileSync("facebook/process.json", "utf-8")
+    return JSON.parse(buffer);
+}
 
 keywords = await loadKeywords();
 done = await loadDone();
@@ -258,8 +263,9 @@ const run = async () => {
         provinces = ["Hà Giang", "Hà Nội", "Cao Bằng", "Bắc Kạn", "Tuyên Quang", "Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
     } else {
         provinces = loadProvince(args[0]);
-
     }
+
+    let cfg = await loadProcess();
 
     let location = await loadLocation();
     let users = await loadUser();
@@ -303,74 +309,77 @@ const run = async () => {
     // await axiosId(mobile, 100069572883858)
     // await axiosId(mobile, 115806726641456)
     // await axiosId(mobile, 115806726641456)
+    await axiosId(mobile, 100066500112707)
+    // 100063490543470
     // // if (true) return;
     // queryPage(mobile)
 
+    if (cfg.query > 0) {
+        queryPage(mobile)
+    }
     console.log("page.viewport.height", page.viewport().height)
     if (page.viewport().height < 10000) {
         console.log("after-login.jpg")
         await page.screenshot({ path: "after-login.jpg" });
     }
 
-
-    for (let province of provinces) {
-        try {
-            for (let keyword of keywords) {
-                if (done[keyword + " " + province]) {
-                    console.log("Skip for done ", keyword, province)
-                    continue;
-                }
-                stat.keyword = keyword;
-                let kuri = encodeURI(keyword);
-                let url = location[province].filter.replaceAll("Cua%20hang", kuri);
-                console.log(url)
-                await page.goto(url, {
-                    waitUntil: 'domcontentloaded',
-                    timeout: 60000
-                });
-
-                // await wait(5000)
-                if (page.viewport().height < 10000) {
-                    await page.screenshot({ path: removeDiacriticsAndSpaces(keyword) + "_" + "after-login.jpg" });
-                }
-                let last = Date.now();
-                let i = 0;
-                let lastCount = 0;
-                while (true) {
-                    i++;
-                    await wait(1000)
-                    console.log("Load more ....", i, lastCount, stat)
-                    if (lastCount < stat.count) {
-                        lastCount = stat.count
-                        last = Date.now();
+    if (cfg.fetch > 0) {
+        for (let province of provinces) {
+            try {
+                for (let keyword of keywords) {
+                    if (done[keyword + " " + province]) {
+                        console.log("Skip for done ", keyword, province)
+                        continue;
                     }
-                    if ((Date.now() - last >= 20000) || (stat.count == 0 && Date.now() - last >= 10000)) {
-                        console.log("Done load ", keyword, province)
-                        done[keyword + " " + province] = keyword + " " + province
-                        stat = { count: 0 }
-                        fs.appendFileSync("facebook/done.txt", keyword + " " + province + "\n")
-                        break;
+                    stat.keyword = keyword;
+                    let kuri = encodeURI(keyword);
+                    let url = location[province].filter.replaceAll("Cua%20hang", kuri);
+                    console.log(url)
+                    await page.goto(url, {
+                        waitUntil: 'domcontentloaded',
+                        timeout: 60000
+                    });
+
+                    // await wait(5000)
+                    if (page.viewport().height < 10000) {
+                        await page.screenshot({ path: removeDiacriticsAndSpaces(keyword) + "_" + "after-login.jpg" });
                     }
-                    await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+                    let last = Date.now();
+                    let i = 0;
+                    let lastCount = 0;
+                    while (true) {
+                        i++;
+                        await wait(1000)
+                        console.log("Load more ....", i, lastCount, stat)
+                        if (lastCount < stat.count) {
+                            lastCount = stat.count
+                            last = Date.now();
+                        }
+                        if ((Date.now() - last >= 20000) || (stat.count == 0 && Date.now() - last >= 10000)) {
+                            console.log("Done load ", keyword, province)
+                            done[keyword + " " + province] = keyword + " " + province
+                            stat = { count: 0 }
+                            fs.appendFileSync("facebook/done.txt", keyword + " " + province + "\n")
+                            break;
+                        }
+                        await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+                    }
+
+                    // await page.waitForNavigation({ waitUntil: 'networkidle0' })
+                    // await page.click('a[aria-current="page"]')
+                    // await page.waitForNavigation({ waitUntil: 'networkidle0' })
+                    // await page.screenshot({ path: "after-login.jpg" });
+
+                    let source = await page.content({ "waitUntil": "domcontentloaded" });
+
+                    fs.writeFileSync("source.txt", source)
                 }
 
-                // await page.waitForNavigation({ waitUntil: 'networkidle0' })
-                // await page.click('a[aria-current="page"]')
-                // await page.waitForNavigation({ waitUntil: 'networkidle0' })
-                // await page.screenshot({ path: "after-login.jpg" });
-
-                let source = await page.content({ "waitUntil": "domcontentloaded" });
-
-                fs.writeFileSync("source.txt", source)
+            } catch (error) {
+                console.log(error)
+            } finally {
             }
-
-        } catch (error) {
-            console.log(error)
-        } finally {
-
         }
-
-
     }
 
     await browser.close();
@@ -551,7 +560,7 @@ async function axiosId(page, id) {
     await page.screenshot({ path: "query.jpg" });
     let source = await page.content({ "waitUntil": "domcontentloaded" });
 
-    // fs.writeFileSync("query.html", source)
+    fs.writeFileSync("query.html", source)
     let div = page.$('#screen-root');
     if (!div) {
         return
@@ -572,8 +581,27 @@ async function axiosId(page, id) {
         return e ? await e.evaluateHandle(e => e ? e.nextElementSibling : null, e) : null
     }
     // about.top = (await f('#screen-root > div > div.m.fixed-container.top > div')).trim();
-
-    let tdiv = await page.$('#screen-root > div > div:nth-child(2) > div:nth-child(3) > div[data-mcomponent="ServerTextArea"]');
+    // let tdiv = await page.$('#screen-root > div > div:nth-child(2) > div:nth-child(3) > div[data-mcomponent="ServerTextArea"]');    
+    let tdivs = await page.$$('#screen-root > div > div:nth-child(2) > div')
+    let tdiv = null;
+    let divDetail = null;
+    console.log(tdivs)
+    let c = 0;
+    for(let d of tdivs){         
+        let x = await v(d)        
+        if(x.toLocaleLowerCase().includes("likes")||x.toLocaleLowerCase().includes("thích")){
+            tdiv = await d.$('div > div[data-mcomponent="ServerTextArea"]')
+            console.log("Found ",tdiv,x)
+        }
+        console.log(c++,encodeURI(x))
+        if(encodeURI(x).includes('%F3%B1%9B%90%0A')){
+            console.log("===================================================================","detail")
+            divDetail = d;
+        }
+    }
+    if(!div){
+        console.log("Not found div includes likes!")
+    }
     about.name = await v(tdiv);
     tdiv = await next(tdiv);
     if ((await v(tdiv)) && (await v(tdiv)).length == 0) {
@@ -590,10 +618,25 @@ async function axiosId(page, id) {
     tdiv = await next(tdiv);
     tdiv = await next(tdiv);
     about.desc = await v(tdiv)
-    let tdiva = await page.$$('#screen-root > div > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div');
-    // for (let e of tdiva) {
-    //     console.log("DIV NOW=> ", encodeURI(await v(e)))
+    // let tdiva = await page.$$('#screen-root > div > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div');
+    // tdivs = await divDetail.$$('div > div')
+    // c=0
+    // for(let d of tdivs){         
+    //     let x = await v(d)        
+    //     console.log(c++,encodeURI(x))
+    //     if(encodeURI(x).includes('%F3%B1%9B%90%0A')){
+    //         console.log("===================================================================","detail")
+    //         divDetail = d;
+    //     }
     // }
+    if (!divDetail) {
+        return
+    }
+    let tdiva = await divDetail.$$('div > div > div')
+
+    for (let e of tdiva) {
+        // console.log("DIV NOW=> ", encodeURI(await v(e)),await v(e))
+    }
     let findDiv = async (a, text) => {
         for (let e of tdiva) {
             if (encodeURI(await v(e)).includes(text)) return decodeURI(encodeURI(await v(e)).slice(text.length)).trim();

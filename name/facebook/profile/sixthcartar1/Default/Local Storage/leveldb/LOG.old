@@ -1,2 +1,3 @@
-2023/10/02-08:39:39.738 2793 Creating DB /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Local Storage/leveldb since it was missing.
-2023/10/02-08:39:39.740 2793 Reusing MANIFEST /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Local Storage/leveldb/MANIFEST-000001
+2023/10/02-10:54:38.500 12589 Reusing MANIFEST /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Local Storage/leveldb/MANIFEST-000001
+2023/10/02-10:54:38.500 12589 Recovering log #4
+2023/10/02-10:54:38.501 12589 Reusing old log /workspace/openvpn-client/name/./facebook/profile/sixthcartar1/Default/Local Storage/leveldb/000004.log 
