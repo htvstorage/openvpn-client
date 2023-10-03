@@ -156,7 +156,7 @@ async function initBrowser(profileDir) {
     });
 
     mobile.on('response', async (response) => {
-        // console.log(response.url())
+        // console.log(await response.text())
     });
     return [browser, page, mobile]
 }
@@ -335,11 +335,11 @@ const run = async () => {
     let source1 = await page.content({ "waitUntil": "domcontentloaded" });
 
     await wait(2000)
-    await mobile.goto("https://vnexpress.net/", {
+    await mobile.goto("https://mtouch.facebook.com/", {
         waitUntil: 'domcontentloaded',
         timeout: 60000
     });
-    await wait(10000)
+    await wait(2000)
     await mobile.screenshot({ path: "mobile-init.jpg" });
     // await axiosId(mobile, 211653718883582) //test lai
 
@@ -717,7 +717,7 @@ async function axiosId(page, id) {
     if (!divDetail) {
         return about
     }
-    let tdiva = await divDetail.$$('div.m div.m.bg-s3.displayed div.m.bg-s3[data-mcomponent="MContainer"]')
+    let tdiva = await divDetail.$$('div div div[data-mcomponent="MContainer"]')
 
     for (let e of tdiva) {
         // console.log("DIV NOW=> ", encodeURI(await v(e)),await v(e))
@@ -742,7 +742,8 @@ async function axiosId(page, id) {
         link: '%F3%B0%98%96%0A',
         email: '%F3%B1%98%A2%0A',
     }
-    let tdiva2 = await divDetail.$$('div.m.bg-s3.displayed div.m.bg-s3 div.m.bg-s3[data-mcomponent="MContainer"]')
+    // let tdiva2 = await divDetail.$$('div.m.bg-s3.displayed div.m.bg-s3 div.m.bg-s3[data-mcomponent="MContainer"]')
+    let tdiva2 = await divDetail.$$('div div div[data-mcomponent="MContainer"]')
     tdiva2 = tdiva2
     let c2 = 0;
     for (let e of tdiva2) {
