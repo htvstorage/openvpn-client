@@ -309,7 +309,12 @@ const run = async () => {
     // await axiosId(mobile, 100069572883858)
     // await axiosId(mobile, 115806726641456)
     // await axiosId(mobile, 115806726641456)
-    await axiosId(mobile, 100066500112707)
+    // await axiosId(mobile, 100066500112707)
+    // await axiosId(mobile, 100050174962984)
+
+    await axiosId(mobile, 100028842535299)
+
+    // 100050174962984
     // 100063490543470
     // // if (true) return;
     // queryPage(mobile)
@@ -526,6 +531,12 @@ async function queryPage(page) {
     console.log("queryPage================================================")
     let last = Date.now();
     console.log("queryPage================================================", (pageid2.length > 0) || (Date.now() - last <= 60000), Date.now() - last)
+
+
+    // let pid = { keyword: stat.keyword, id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name }
+    // pageid[pid.id] = pid;
+    // pageid2.push(pid.id)
+
     while ((pageid2.length > 0) || (Date.now() - last <= 60000)) {
         console.log("queryPage================================================", 22)
         let pid = pageid2.shift()
@@ -535,12 +546,16 @@ async function queryPage(page) {
             let p = pageid[pid]
             p['about'] = data;
             data.name2 = p.name;
-            fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(p.keyword) + ".text", JSON.stringify(data) + '\n')
+            fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(p.keyword) + ".text", JSON.stringify(data) + '\n')            
+            fs.appendFileSync("facebook/data.text", JSON.stringify(data) + '\n')
             pagedone[pid] = pid;
             console.log("end queryPage", pid, (Date.now() - last) / 1000.0)
             last = Date.now();
         } else {
             console.log("Already done! =============", pid, pageid2.length)
+            if(pid && pagedone[pid]){
+                
+            }
         }
         if (!pid) {
             await wait(2000);
@@ -562,10 +577,11 @@ async function axiosId(page, id) {
 
     fs.writeFileSync("query.html", source)
     let div = page.$('#screen-root');
-    if (!div) {
-        return
-    }
     let about = {}
+
+    if (!div) {
+        return about
+    }
     about.id = id;
     let f = async (select) => {
         let e = await page.$(select);
@@ -583,41 +599,71 @@ async function axiosId(page, id) {
     // about.top = (await f('#screen-root > div > div.m.fixed-container.top > div')).trim();
     // let tdiv = await page.$('#screen-root > div > div:nth-child(2) > div:nth-child(3) > div[data-mcomponent="ServerTextArea"]');    
     let tdivs = await page.$$('#screen-root > div > div:nth-child(2) > div')
+    //c == Object.keys(keys).length)
     let tdiv = null;
     let divDetail = null;
-    console.log(tdivs)
+    // console.log(tdivs)
     let c = 0;
-    for(let d of tdivs){         
-        let x = await v(d)        
-        if(x.toLocaleLowerCase().includes("likes")||x.toLocaleLowerCase().includes("thích")){
-            tdiv = await d.$('div > div[data-mcomponent="ServerTextArea"]')
-            console.log("Found ",tdiv,x)
+    for (let d of tdivs) {
+        let x = await v(d)
+        if(tdiv == null){
+            if (x.toLocaleLowerCase().includes("likes") || x.toLocaleLowerCase().includes("thích") || x.toLocaleLowerCase().includes("follower") || x.toLocaleLowerCase().includes("theo dõi")) {
+                tdiv = await d.$$('div > div[data-mcomponent="ServerTextArea"]')
+                console.log("Found ", tdiv, x)
+            }
         }
-        console.log(c++,encodeURI(x))
-        if(encodeURI(x).includes('%F3%B1%9B%90%0A')){
-            console.log("===================================================================","detail")
+        // console.log(c++, encodeURI(x))
+        if (encodeURI(x).includes('%F3%B1%9B%90%0A') || encodeURI(x).includes('%F3%B0%9B%AA%0A')) {
+            //
+            console.log("===================================================================", "detail")
             divDetail = d;
         }
     }
-    if(!div){
+
+    if (!tdiv) {
         console.log("Not found div includes likes!")
     }
-    about.name = await v(tdiv);
-    tdiv = await next(tdiv);
-    if ((await v(tdiv)) && (await v(tdiv)).length == 0) {
-        tdiv = await next(tdiv);
-        tdiv = await next(tdiv);
-    }
-    let t = null;
-    t = (await v(tdiv))
+    if (tdiv) {
+        about.name = await v(tdiv[0]);
+        // tdiv = await next(tdiv);
+        // if ((await v(tdiv)) && (await v(tdiv)).length == 0) {
+        //     tdiv = await next(tdiv);
+        //     tdiv = await next(tdiv);
+        // }
+        // let t = null;
+        // t = (await v(tdiv))
 
-    about.like = (t = await v(tdiv)) ? t.split(' ')[0] : ''
-    tdiv = await next(tdiv);
-    tdiv = await next(tdiv);
-    about.follower = (t = await v(tdiv)) ? t.split(' ')[0] : ''
-    tdiv = await next(tdiv);
-    tdiv = await next(tdiv);
-    about.desc = await v(tdiv)
+        // about.like = (t = await v(tdiv)) ? t.split(' ')[0] : ''
+        // tdiv = await next(tdiv);
+        // tdiv = await next(tdiv);
+        // about.follower = (t = await v(tdiv)) ? t.split(' ')[0] : ''
+        // tdiv = await next(tdiv);
+        // tdiv = await next(tdiv);
+        for (let e of tdiv) {
+            let x = await v(e)
+            if (x.toLocaleLowerCase().includes("likes") || x.toLocaleLowerCase().includes("thích") || x.toLocaleLowerCase().includes("follower") || x.toLocaleLowerCase().includes("theo dõi")) {
+                let k = 'likes'
+                if(x.indexOf(k) > 0){
+                    about[k]=x.slice(0,x.indexOf(k))
+                    let f = 'followers'
+                    if(x.indexOf(f) > 0){                        
+                        about[f] = x.slice(x.indexOf(k) + k.length, x.indexOf(f))
+                    }                    
+                }else{
+                    let f = 'followers'
+                    if(x.indexOf(f) > 0){                        
+                        about[f] = x.slice(0, x.indexOf(f))
+                    } 
+                }
+                
+
+
+            }
+        }
+
+        about.desc = await v(tdiv.at(-1))
+    }
+
     // let tdiva = await page.$$('#screen-root > div > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div');
     // tdivs = await divDetail.$$('div > div')
     // c=0
@@ -630,15 +676,15 @@ async function axiosId(page, id) {
     //     }
     // }
     if (!divDetail) {
-        return
+        return about
     }
-    let tdiva = await divDetail.$$('div > div > div')
+    let tdiva = await divDetail.$$('div.m div.m.bg-s3.displayed div.m.bg-s3[data-mcomponent="MContainer"]')
 
     for (let e of tdiva) {
         // console.log("DIV NOW=> ", encodeURI(await v(e)),await v(e))
     }
     let findDiv = async (a, text) => {
-        for (let e of tdiva) {
+        for (let e of a) {
             if (encodeURI(await v(e)).includes(text)) return decodeURI(encodeURI(await v(e)).slice(text.length)).trim();
         }
     }
@@ -650,6 +696,19 @@ async function axiosId(page, id) {
         link: '%F3%B1%A4%82%0A',
         email: '%F3%B1%98%A2%0A',
     }
+    let keys2 = {
+        category: '%F3%B0%9E%B4%0A',
+        phone: '%F3%B0%9B%AA%0A',
+        add: '%F3%B1%A6%97%0A',
+        link: '%F3%B0%98%96%0A',
+        email: '%F3%B1%98%A2%0A',
+    }
+    let tdiva2 = await divDetail.$$('div.m.bg-s3.displayed div.m.bg-s3 div.m.bg-s3[data-mcomponent="MContainer"]')
+    tdiva2 = tdiva2
+    let c2 = 0;
+    for (let e of tdiva2) {
+        // console.log("DIV NOW=> ", c2++, encodeURI(await v(e)), await v(e))
+    }
     let pro = new Promise(resolve => {
         let c = 0;
         Object.keys(keys).forEach(async (k, i) => {
@@ -657,7 +716,16 @@ async function axiosId(page, id) {
             if (v) about[k] = v
             c++;
             if (c == Object.keys(keys).length) resolve()
-        })
+        })        
+        if (!about.category && c == Object.keys(keys).length) {
+            c=0;
+            Object.keys(keys2).forEach(async (k, i) => {
+                let v = await findDiv(tdiva2, keys2[k])
+                if (v) about[k] = v
+                c++;
+                if (c == Object.keys(keys2).length) resolve()
+            })
+        }
     })
     await pro;
     console.table(about)
