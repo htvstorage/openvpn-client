@@ -134,9 +134,9 @@ async function initBrowser(profileDir) {
                     for (let e of edges) {
                         // await CometHovercardQueryRendererQuery(e.relay_rendering_strategy.view_model.profile.id)
                         // await axiosId(mobile, e.relay_rendering_strategy.view_model.profile.id)
-                        let pid = { keyword: stat.keyword, id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name }
+                        let pid = {id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name }
                         pageid[pid.id] = pid;
-                        pageid2.push(pid.id)
+                        pageid2.push({keyword: stat.keyword,id:pid.id})
                         console.log(c++, Object.keys(pageid).length, e.relay_rendering_strategy.view_model.profile.id, e.relay_rendering_strategy.view_model.profile.name)
                         fs.appendFileSync("facebook/pageid.txt", JSON.stringify(pid) + '\n')
                         stat.total = Object.keys(pageid).length;
@@ -194,6 +194,19 @@ async function loadProvince(filename) {
     let data = buffer.split('\n')
         .map(e => e.trim());
     return data;
+}
+
+async function loadPage() {
+    if (!fs.existsSync("facebook/data.txt")) return {};
+    let buffer = fs.readFileSync("facebook/data.txt", "utf-8")
+    buffer = buffer.slice(0, buffer.length - 1);
+    let data = buffer.split('\n')
+        .map(e => e.trim()).map(e => JSON.parse(e));
+    let d = {}
+    data.forEach(e => {
+        d[e.id] = e;
+    })
+    return d;
 }
 
 async function loadLocation() {
@@ -269,6 +282,14 @@ const run = async () => {
 
     let location = await loadLocation();
     let users = await loadUser();
+    let pageData = await loadPage();
+
+    Object.keys(pageData).forEach(k=>{
+        let data =pageData[k]
+        pageid[k] = data;
+        pagedone[k] = k;        
+    })
+    
     // console.table(location)
 
     let indexUser = 0;
@@ -540,21 +561,23 @@ async function queryPage(page) {
     while ((pageid2.length > 0) || (Date.now() - last <= 60000)) {
         console.log("queryPage================================================", 22)
         let pid = pageid2.shift()
-        if (pid && !pagedone[pid]) {
+        if (pid && !pagedone[pid.id]) {
             console.log("start queryPage", pid)
-            let data = await axiosId(page, pid);
+            let data = await axiosId(page, pid.id);
             let p = pageid[pid]
             p['about'] = data;
             data.name2 = p.name;
-            fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(p.keyword) + ".text", JSON.stringify(data) + '\n')            
-            fs.appendFileSync("facebook/data.text", JSON.stringify(data) + '\n')
-            pagedone[pid] = pid;
+            fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(pid.keyword) + ".txt", JSON.stringify(data) + '\n')            
+            fs.appendFileSync("facebook/data.txt", JSON.stringify(data) + '\n')
+            pagedone[pid.id] = pid.id;
             console.log("end queryPage", pid, (Date.now() - last) / 1000.0)
             last = Date.now();
         } else {
             console.log("Already done! =============", pid, pageid2.length)
-            if(pid && pagedone[pid]){
-                
+            if(pid && pagedone[pid.id]){
+                let p = pageid[pid.id]
+                let data =  p['about']
+                fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(pid.keyword) + ".txt", JSON.stringify(data) + '\n')   
             }
         }
         if (!pid) {
