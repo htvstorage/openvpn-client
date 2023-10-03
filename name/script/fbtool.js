@@ -315,6 +315,8 @@ const run = async () => {
         timeout: 60000
     });
 
+
+
     await wait(2000)
     await page.screenshot({ path: "before-login.jpg" });
     if (await page.$('#email'))
@@ -333,7 +335,12 @@ const run = async () => {
     let source1 = await page.content({ "waitUntil": "domcontentloaded" });
 
     await wait(2000)
-
+    await mobile.goto("https://vnexpress.net/", {
+        waitUntil: 'domcontentloaded',
+        timeout: 60000
+    });
+    await wait(10000)
+    await mobile.screenshot({ path: "mobile-init.jpg" });
     // await axiosId(mobile, 211653718883582) //test lai
 
     // await axiosId(mobile, 100069572883858)
@@ -342,7 +349,7 @@ const run = async () => {
     // await axiosId(mobile, 100066500112707)
     // await axiosId(mobile, 100050174962984)
 
-    await axiosId(mobile, 100028842535299)
+    await axiosId(mobile, 100065553490766)
 
     // 100050174962984
     // 100063490543470
@@ -603,7 +610,7 @@ async function axiosId(page, id) {
     });
 
     // await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
-    await wait(1000)
+    await wait(5000)
     await page.screenshot({ path: "query.jpg" });
     let source = await page.content({ "waitUntil": "domcontentloaded" });
 
