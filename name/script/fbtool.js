@@ -10,7 +10,7 @@ const { JSDOM } = jsdom;
 let pageid = {};
 let pageid2 = [];
 let pagedone = {};
-let stat = { count: 0 }
+let stat = { count: 0, countAll: 0 }
 async function initBrowser(profileDir) {
 
     const browser = await puppeteer.launch({
@@ -134,13 +134,19 @@ async function initBrowser(profileDir) {
                     for (let e of edges) {
                         // await CometHovercardQueryRendererQuery(e.relay_rendering_strategy.view_model.profile.id)
                         // await axiosId(mobile, e.relay_rendering_strategy.view_model.profile.id)
-                        let pid = { keyword: stat.keyword, id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name }
-                        pageid[pid.id] = pid;
-                        pageid2.push({ keyword: stat.keyword, id: pid.id })
+                        let pid = { keyword: stat.keyword, id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name, province: stat.province }
+                        if(!pageid[pid.id])
+                            pageid[pid.id] = pid;
+                        else{
+                            pid['about'] =  {...pageid[pid.id]['about']}
+                            pageid[pid.id] = pid;
+                        }
+                        pageid2.push({ keyword: stat.keyword, id: pid.id, province: stat.province })
                         console.log(c++, Object.keys(pageid).length, e.relay_rendering_strategy.view_model.profile.id, e.relay_rendering_strategy.view_model.profile.name)
                         fs.appendFileSync("facebook/pageid.txt", JSON.stringify(pid) + '\n')
                         stat.total = Object.keys(pageid).length;
                         stat.count++;
+                        stat.countAll++;
                     }
 
                 } else {
@@ -226,7 +232,7 @@ async function loadUser() {
     let buffer = fs.readFileSync("facebook/user.txt", "utf-8")
     // buffer = buffer.slice(0, buffer.length - 1);
     let data = buffer.split('\n')
-        .map(e => e.trim()).map(e => JSON.parse(e));
+        .map(e => e.trim()).filter(e => e.length > 0).map(e => JSON.parse(e));
     let d = {}
     data.forEach(e => {
         d[e.username] = e;
@@ -272,10 +278,16 @@ const run = async () => {
 
     let args = process.argv.slice(2);
     let provinces = null;
+    let indexUser = 0;
     if (args.length == 0) {
         provinces = ["Hà Giang", "Hà Nội", "Cao Bằng", "Bắc Kạn", "Tuyên Quang", "Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
+        indexUser = 0;
+    } else if (args.length == 1) {
+        indexUser = +args[0];
+        provinces = ["Hà Giang", "Hà Nội", "Cao Bằng", "Bắc Kạn", "Tuyên Quang", "Lào Cai", "Điện Biên", "Lai Châu", "Sơn La", "Yên Bái", "Hoà Bình", "Thái Nguyên", "Lạng Sơn", "Quảng Ninh", "Bắc Giang", "Phú Thọ", "Vĩnh Phúc", "Bắc Ninh", "Hải Dương", "Hải Phòng", "Hưng Yên", "Thái Bình", "Hà Nam", "Nam Định", "Ninh Bình", "Thanh Hóa", "Nghệ An", "Hà Tĩnh", "Quảng Bình", "Quảng Trị", "Thừa Thiên Huế", "Đà Nẵng", "Quảng Nam", "Quảng Ngãi", "Bình Định", "Phú Yên", "Khánh Hòa", "Ninh Thuận", "Bình Thuận", "Kon Tum", "Gia Lai", "Đắk Lắk", "Đắk Nông", "Lâm Đồng", "Bình Phước", "Tây Ninh", "Bình Dương", "Đồng Nai", "Bà Rịa - Vũng Tàu", "Hồ Chí Minh", "Long An", "Tiền Giang", "Bến Tre", "Trà Vinh", "Vĩnh Long", "Đồng Tháp", "An Giang", "Kiên Giang", "Cần Thơ", "Hậu Giang", "Sóc Trăng", "Bạc Liêu", "Cà Mau"]
     } else {
-        provinces = loadProvince(args[0]);
+        indexUser = +args[0];
+        provinces = loadProvince(args[1]);
     }
 
     let cfg = await loadProcess();
@@ -286,24 +298,30 @@ const run = async () => {
     let pageIdData = await loadPageId();
     Object.keys(pageData).forEach(k => {
         let data = pageData[k]
+        data['about'] = {...data}
         pageid[k] = data;
         pagedone[k] = k;
     })
 
+    console.log("Page done")
+    console.table(pagedone)
+    console.table(pageid)
     console.log("Loaded page data total:", Object.keys(pageData).length)
 
     Object.keys(pageIdData).forEach(k => {
         let data = pageIdData[k]
-        pageid[k] = data;
+       
         if (!pageData[k])
             pageid2.push({ keyword: data.keyword, id: data.id })
+        if(!pageid[k])
+            pageid[k] = data;
     })
 
     console.log("Loaded pageid 2 total:", pageid2.length)
 
     // console.table(location)
 
-    let indexUser = 0;
+
     let user = users[indexUser];
     mkdirSyncRecursive("facebook/out")
     mkdirSyncRecursive("facebook/profile")
@@ -351,15 +369,17 @@ const run = async () => {
     // await axiosId(mobile, 100066500112707)
     // await axiosId(mobile, 100050174962984)
 
-    await axiosId(mobile, 100065553490766)
+    // await axiosId(mobile, 100065553490766)
 
     // 100050174962984
     // 100063490543470
     // // if (true) return;
     // queryPage(mobile)
+    let pquery = null;
+    let pfetch = null;
 
     if (cfg.query > 0) {
-        queryPage(mobile)
+        pquery = queryPage(mobile, cfg.mode, cfg.remain,cfg.query_max_tps)
     }
     console.log("page.viewport.height", page.viewport().height)
     if (page.viewport().height < 10000) {
@@ -367,7 +387,8 @@ const run = async () => {
         await page.screenshot({ path: "after-login.jpg" });
     }
 
-    if (cfg.fetch > 0) {
+    let fetchPageId = async () => {
+
         for (let province of provinces) {
             try {
                 for (let keyword of keywords) {
@@ -376,6 +397,7 @@ const run = async () => {
                         continue;
                     }
                     stat.keyword = keyword;
+                    stat.province = province;
                     let kuri = encodeURI(keyword);
                     let url = location[province].filter.replaceAll("Cua%20hang", kuri);
                     console.log(url)
@@ -391,10 +413,19 @@ const run = async () => {
                     let last = Date.now();
                     let i = 0;
                     let lastCount = 0;
+                    let fetch_tps;
+                    let start = Date.now() - 1;
+
                     while (true) {
                         i++;
                         await wait(1000)
                         console.log("Load more ....", i, lastCount, stat)
+                        fetch_tps = stat.countAll * 1000.0 / (Date.now() - start)
+                        while (fetch_tps > cfg.fetch_max_tps) {
+                            console.log("Over fetch_max_tps", i, fetch_tps, stat)
+                            await wait(1000)
+                            fetch_tps = stat.countAll * 1000.0 / (Date.now() - start);
+                        }
                         if (lastCount < stat.count) {
                             lastCount = stat.count
                             last = Date.now();
@@ -402,7 +433,7 @@ const run = async () => {
                         if ((Date.now() - last >= 20000) || (stat.count == 0 && Date.now() - last >= 10000)) {
                             console.log("Done load ", keyword, province)
                             done[keyword + " " + province] = keyword + " " + province
-                            stat = { count: 0 }
+                            stat = { count: 0, countAll: stat.countAll }
                             fs.appendFileSync("facebook/done.txt", keyword + " " + province + "\n")
                             break;
                         }
@@ -426,6 +457,16 @@ const run = async () => {
         }
     }
 
+    if (cfg.fetch > 0) {
+        pfetch = fetchPageId();
+    }
+
+    if (pquery) {
+        await pquery;
+    }
+    if (pfetch) {
+        await pfetch;
+    }
     await browser.close();
 };
 
@@ -566,7 +607,7 @@ async function CometHovercardQueryRendererQuery(id) {
     }
 }
 
-async function queryPage(page) {
+async function queryPage(page, mode, remain, query_max_tps) {
     console.log("queryPage================================================")
     let last = Date.now();
     console.log("queryPage================================================", (pageid2.length > 0) || (Date.now() - last <= 60000), Date.now() - last)
@@ -576,15 +617,32 @@ async function queryPage(page) {
     // pageid[pid.id] = pid;
     // pageid2.push(pid.id)
 
+    let start = Date.now()-1;
+    let count = 0;
+
     while ((pageid2.length > 0) || (Date.now() - last <= 60000)) {
         console.log("queryPage================================================", 22)
         let pid = pageid2.shift()
+
+        if (pid) {
+            if (+pid.id % mode != remain) {
+                console.log("Ignore ", pid, mode, remain, +pid.id % mode)
+                continue;
+            }
+        }
+
+        while(count*1000.0/(Date.now() -start) > query_max_tps){
+            await wait(200)
+        }
         if (pid && !pagedone[pid.id]) {
             console.log("start queryPage", pid)
             let data = await axiosId(page, pid.id);
+            count++;
             let p = pageid[pid.id]
             p['about'] = data;
             data.name2 = p.name;
+            data.province = p.province;
+
             fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(pid.keyword) + ".txt", JSON.stringify(data) + '\n')
             fs.appendFileSync("facebook/data.txt", JSON.stringify(data) + '\n')
             pagedone[pid.id] = pid.id;
@@ -593,8 +651,13 @@ async function queryPage(page) {
         } else {
             console.log("Already done! =============", pid, pageid2.length)
             if (pid && pagedone[pid.id]) {
+
                 let p = pageid[pid.id]
-                let data = p['about']
+                let data = {...p['about']}
+                console.table(pageid)
+                console.log(p, pagedone[pid.id], data)
+                data.name2 = p.name;
+                data.province = p.province;                
                 fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(pid.keyword) + ".txt", JSON.stringify(data) + '\n')
             }
         }

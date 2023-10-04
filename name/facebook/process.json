@@ -1,1 +1,1 @@
-{"fetch":1,"query":1,"fetch_max_tps":10000,"query_max_tps":0.3}
+{"fetch":1,"query":1,"fetch_max_tps":2,"query_max_tps":0.35, "mode":1, "remain":0}
