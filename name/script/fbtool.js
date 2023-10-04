@@ -134,9 +134,9 @@ async function initBrowser(profileDir) {
                     for (let e of edges) {
                         // await CometHovercardQueryRendererQuery(e.relay_rendering_strategy.view_model.profile.id)
                         // await axiosId(mobile, e.relay_rendering_strategy.view_model.profile.id)
-                        let pid = {keyword: stat.keyword,id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name }
+                        let pid = { keyword: stat.keyword, id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name }
                         pageid[pid.id] = pid;
-                        pageid2.push({keyword: stat.keyword,id:pid.id})
+                        pageid2.push({ keyword: stat.keyword, id: pid.id })
                         console.log(c++, Object.keys(pageid).length, e.relay_rendering_strategy.view_model.profile.id, e.relay_rendering_strategy.view_model.profile.name)
                         fs.appendFileSync("facebook/pageid.txt", JSON.stringify(pid) + '\n')
                         stat.total = Object.keys(pageid).length;
@@ -284,20 +284,22 @@ const run = async () => {
     let users = await loadUser();
     let pageData = await loadPage();
     let pageIdData = await loadPageId();
-    Object.keys(pageData).forEach(k=>{
-        let data =pageData[k]
+    Object.keys(pageData).forEach(k => {
+        let data = pageData[k]
         pageid[k] = data;
-        pagedone[k] = k;        
+        pagedone[k] = k;
     })
 
+    console.log("Loaded page data total:", Object.keys(pageData).length)
 
-    Object.keys(pageIdData).forEach(k=>{
-        let data =pageIdData[k]
+    Object.keys(pageIdData).forEach(k => {
+        let data = pageIdData[k]
         pageid[k] = data;
-        if(!pageData[k])
-            pageid2.push({keyword: data.keyword,id:data.id})
-    })    
+        if (!pageData[k])
+            pageid2.push({ keyword: data.keyword, id: data.id })
+    })
 
+    console.log("Loaded pageid 2 total:", pageid2.length)
 
     // console.table(location)
 
@@ -583,17 +585,17 @@ async function queryPage(page) {
             let p = pageid[pid.id]
             p['about'] = data;
             data.name2 = p.name;
-            fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(pid.keyword) + ".txt", JSON.stringify(data) + '\n')            
+            fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(pid.keyword) + ".txt", JSON.stringify(data) + '\n')
             fs.appendFileSync("facebook/data.txt", JSON.stringify(data) + '\n')
             pagedone[pid.id] = pid.id;
             console.log("end queryPage", pid, (Date.now() - last) / 1000.0)
             last = Date.now();
         } else {
             console.log("Already done! =============", pid, pageid2.length)
-            if(pid && pagedone[pid.id]){
+            if (pid && pagedone[pid.id]) {
                 let p = pageid[pid.id]
-                let data =  p['about']
-                fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(pid.keyword) + ".txt", JSON.stringify(data) + '\n')   
+                let data = p['about']
+                fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(pid.keyword) + ".txt", JSON.stringify(data) + '\n')
             }
         }
         if (!pid) {
@@ -645,14 +647,14 @@ async function axiosId(page, id) {
     let c = 0;
     for (let d of tdivs) {
         let x = await v(d)
-        if(tdiv == null){
+        if (tdiv == null) {
             if (x.toLocaleLowerCase().includes("likes") || x.toLocaleLowerCase().includes("thích") || x.toLocaleLowerCase().includes("follower") || x.toLocaleLowerCase().includes("theo dõi")) {
                 tdiv = await d.$$('div > div[data-mcomponent="ServerTextArea"]')
                 console.log("Found ", tdiv, x)
             }
         }
         // console.log(c++, encodeURI(x))
-        if (encodeURI(x).includes('%F3%B1%9B%90%0A') || encodeURI(x).includes('%F3%B0%9B%AA%0A')) {
+        if (encodeURI(x).includes('%F3%B1%9B%90%0A') || encodeURI(x).includes('%F3%B0%9B%AA%0A') || encodeURI(x).includes('%F3%B1%9B%90%0A')) {
             //
             console.log("===================================================================", "detail")
             divDetail = d;
@@ -682,19 +684,19 @@ async function axiosId(page, id) {
             let x = await v(e)
             if (x.toLocaleLowerCase().includes("likes") || x.toLocaleLowerCase().includes("thích") || x.toLocaleLowerCase().includes("follower") || x.toLocaleLowerCase().includes("theo dõi")) {
                 let k = 'likes'
-                if(x.indexOf(k) > 0){
-                    about[k]=x.slice(0,x.indexOf(k))
+                if (x.indexOf(k) > 0) {
+                    about[k] = x.slice(0, x.indexOf(k))
                     let f = 'followers'
-                    if(x.indexOf(f) > 0){                        
+                    if (x.indexOf(f) > 0) {
                         about[f] = x.slice(x.indexOf(k) + k.length, x.indexOf(f))
-                    }                    
-                }else{
+                    }
+                } else {
                     let f = 'followers'
-                    if(x.indexOf(f) > 0){                        
+                    if (x.indexOf(f) > 0) {
                         about[f] = x.slice(0, x.indexOf(f))
-                    } 
+                    }
                 }
-                
+
 
 
             }
@@ -756,9 +758,9 @@ async function axiosId(page, id) {
             if (v) about[k] = v
             c++;
             if (c == Object.keys(keys).length) resolve()
-        })        
+        })
         if (!about.category && c == Object.keys(keys).length) {
-            c=0;
+            c = 0;
             Object.keys(keys2).forEach(async (k, i) => {
                 let v = await findDiv(tdiva2, keys2[k])
                 if (v) about[k] = v
