@@ -29,7 +29,7 @@ async function initBrowser(profileDir) {
     let loadImage = {
         load: false, disable: {
             // 'font': 'font',
-            // 'image': 'image',
+            'image': 'image',
             // 'manifest': 'manifest',
             // 'ping': 'ping',
             // 'stylesheet': 'stylesheet',
