@@ -866,6 +866,10 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
       // console.table(tradingInfo)
       avg["bvps"] = tradingInfo.BVPS;
       avg["KLCPLH"] = tradingInfo.KLCPLH;
+      avg["PE"] = tradingInfo.PE;
+      avg["PB"] = tradingInfo.PB;
+      avg["FEPS"] = tradingInfo.FEPS;
+      avg["EPS"] = tradingInfo.EPS;
     }
 
     let bctc = stockStore[symbol].BCTC;
