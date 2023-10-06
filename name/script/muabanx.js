@@ -418,8 +418,12 @@ async function processData() {
   console.log("Starting..................")
   while ((datekey = dateKeys.pop()) != undefined) {
     console.log(datekey)
-
+    // console.table(mapFiles)
     files = mapFiles[datekey];
+    if(!files){
+      console.log("Not found files ",datekey)
+      continue;
+    }
     p.req++;
     let out = {};
     let promise = new Promise((resolve, reject) => {

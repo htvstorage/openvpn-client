@@ -669,7 +669,7 @@ async function queryPage(page, mode, remain, query_max_tps) {
 
 async function axiosId(page, id) {
     console.log("Query ", id)
-    await page.goto("https://mtouch.facebook.com/profile.php/?id=" + id + "&profile_tab_item_selected=about", {
+    await page.goto("https://m.facebook.com/profile.php/?id=" + id + "&profile_tab_item_selected=about", {
         waitUntil: 'networkidle0',
         timeout: 60000
     });

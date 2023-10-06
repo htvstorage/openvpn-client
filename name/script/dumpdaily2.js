@@ -41,6 +41,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       vss = v;
     break;
   }
+  
   let ss = vss == null ? "24HMONEY" : vss.substring("stock=".length);
 
   let cop = [];
@@ -65,6 +66,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     logger.info("Checking", requested, responsed)
     let t1 = Date.now();
     let dir = "/workspace/newstorage/";
+    if(args.length >=2 ) dir = args[1];
     let dir2 = "./trans";
     let csv = null;
     let fun = () => { }
