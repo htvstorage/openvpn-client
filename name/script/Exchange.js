@@ -950,19 +950,19 @@ Exchange.CafeF.DataHistory = async function (code, date) {
   // console.log(data)
   while (!data.startsWith("{")) {
     await Exchange.wait(200);
-    a = await cfetch(code,dateStr);
+    a = await cfetch(code, dateStr);
     data = await a.text();
   }
   data = JSON.parse(data);
-  let side = ["bu","sd"]
-  data = data.Data.DlChiTiet.map(e=>{
-    let en = {symbol:code};
+  let side = ["bu", "sd"]
+  data = data.Data.DlChiTiet.map(e => {
+    let en = { symbol: code };
     en.time = e.ThoiGian
-    en.match_qtty = Math.round(e.KLLo*10)
-    en.change = +e.GiaThayDoi.slice(0,e.GiaThayDoi.indexOf(" (")).trim().replaceAll("--","-")*1000
-    en.price = e.Gia*1000    
-    en.side = side[Math.floor(Math.random()*side.length)]
-    en.total_vol = Math.round(+e.KLTichLuy*10);
+    en.match_qtty = Math.round(e.KLLo * 10)
+    en.change = +e.GiaThayDoi.slice(0, e.GiaThayDoi.indexOf(" (")).trim().replaceAll("--", "-") * 1000
+    en.price = e.Gia * 1000
+    en.side = side[Math.floor(Math.random() * side.length)]
+    en.total_vol = Math.round(+e.KLTichLuy * 10);
     return en
   })
 
@@ -973,6 +973,41 @@ Exchange.CafeF.DataHistory = async function (code, date) {
 
 Exchange.VietStock = function () {
 
+}
+
+Exchange.VietStock.investor = async function (code) {
+
+  let invest = (code) => {
+    return fetch("https://api-finance-t19.24hmoney.vn/v1/ios/stock/statistic-investor-history?device_id=web1689045n2a2p5iurbndpn3ipbak5dblcxkkkep6795881&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=115.0.0.0&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web1689045n2a2p5iurbndpn3ipbak5dblcxkkkep6795881&symbol="+code, {
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "Referer": "https://24hmoney.vn/",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "body": null,
+      "method": "GET",agent
+    });
+  }
+
+  let a = await invest(code);
+  let data = await a.text();
+  while (!data.startsWith("{")) {
+    await Exchange.wait(200);
+    a = await invest(code);
+    console.log(code,"nok")
+    data = await a.text();
+  }
+  data = JSON.parse(data);
+  // console.table(data);
+  if (!data.Code) data.Code = code;
+  return data;
 }
 
 Exchange.VietStock.TradingInfo = async function (code) {
