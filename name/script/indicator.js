@@ -7,7 +7,7 @@ import IchimokuCloud from 'technicalindicators'
 import path from "path";
 import { Symbol, Stock } from "./StockData.js";
 import { Exchange } from "./Exchange.js";
-
+import moment from 'moment'
 
 var logger = log4js.getLogger();
 

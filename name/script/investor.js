@@ -12,6 +12,7 @@ const httpsAgent = new https.Agent({ keepAlive: true });
 const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
 import xlsx from "xlsx"
 import stats from "stats-analysis";
+import moment from 'moment'
 
 log4js.configure({
   appenders: {
@@ -92,6 +93,8 @@ function writeArrayJson2Xlsx(filename, array) {
     let investorData = []
     cop = cop.filter(e => e.stock_code.length < 4)
     // cop = [ {stock_code:"HPG"}]
+    cop.push({stock_code:"10"}) //vnindex
+    cop.push({stock_code:"11"}) //vn30-index
     console.log("Fetching", cop.length)
     for (let x of cop) {
       x['Code'] = x.stock_code;
@@ -146,13 +149,14 @@ function writeArrayJson2Xlsx(filename, array) {
       }
     }
 
-    // while (stat.res < stat.req) {
-    //   await wait(2000);
-    // }
+    while (stat.res < stat.req) {
+      await wait(2000);
+    }
+    console.log(stat)    
     let data2 = csv.parse(investorData);
 
     investorData = investorData.map(e => {
-      let ne = { date: new Date(e.trading_date * 1000), ...e }
+      let ne = { date: new Date(e.trading_date * 1000 + 7*60*60*1000), ...e }
       return ne;
     })
     // fs.writeFileSync(dir + "/" + getNow() + "/" + investor)
