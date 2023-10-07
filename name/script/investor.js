@@ -165,16 +165,25 @@ function writeArrayJson2Xlsx(filename, array) {
         if (k.includes('matched')) {
           if (k.includes('buy')) { total_buy_matched += e[k] } else { total_sell_matched += e[k] }
         } else {
-          if (k.includes('buy')) { total_buy += e[k] } else { total_sell += e[k] }
+          if (k.includes('buy') || k.includes('sell'))
+            if (k.includes('buy')) { total_buy += e[k] } else { total_sell += e[k] }
         }
+
       })
+      let local_individual_buy
       let ne = {
-        date: new Date(e.trading_date * 1000 + 7 * 60 * 60 * 1000), total_buy: total_buy,
+        date: new Date(e.trading_date * 1000 + 7 * 60 * 60 * 1000),
+        code: e.code,
+        total_buy: total_buy,
         total_sell: total_sell,
         total_buy_matched: total_buy_matched,
         total_sell_matched: total_sell_matched,
         total_sell_remain: (total_sell - total_sell_matched),
         total_buy_remain: (total_buy - total_buy_matched),
+        ratio_local_individual_buy: (e.local_individual_buy / total_buy * 100),
+        ratio_local_individual_sell: (e.local_individual_sell / total_sell * 100),
+        ratio_local_individual_buy_matched: (e.local_individual_buy_matched / total_buy_matched * 100),
+        ratio_local_individual_sell_matched: (e.local_individual_sell_matched / total_sell_matched * 100),
         ...e
       }
       return ne;
