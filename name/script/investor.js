@@ -93,8 +93,8 @@ function writeArrayJson2Xlsx(filename, array) {
     let investorData = []
     cop = cop.filter(e => e.stock_code.length < 4)
     // cop = [ {stock_code:"HPG"}]
-    cop.push({stock_code:"10"}) //vnindex
-    cop.push({stock_code:"11"}) //vn30-index
+    cop.push({ stock_code: "10" }) //vnindex
+    cop.push({ stock_code: "11" }) //vn30-index
     console.log("Fetching", cop.length)
     for (let x of cop) {
       x['Code'] = x.stock_code;
@@ -152,11 +152,31 @@ function writeArrayJson2Xlsx(filename, array) {
     while (stat.res < stat.req) {
       await wait(2000);
     }
-    console.log(stat)    
+    console.log(stat)
     let data2 = csv.parse(investorData);
 
     investorData = investorData.map(e => {
-      let ne = { date: new Date(e.trading_date * 1000 + 7*60*60*1000), ...e }
+
+      let total_buy = 0;
+      let total_sell = 0;
+      let total_sell_matched = 0;
+      let total_buy_matched = 0;
+      Object.keys(e).forEach(k => {
+        if (k.includes('matched')) {
+          if (k.includes('buy')) { total_buy_matched += e[k] } else { total_sell_matched += e[k] }
+        } else {
+          if (k.includes('buy')) { total_buy += e[k] } else { total_sell += e[k] }
+        }
+      })
+      let ne = {
+        date: new Date(e.trading_date * 1000 + 7 * 60 * 60 * 1000), total_buy: total_buy,
+        total_sell: total_sell,
+        total_buy_matched: total_buy_matched,
+        total_sell_matched: total_sell_matched,
+        total_sell_remain: (total_sell - total_sell_matched),
+        total_buy_remain: (total_buy - total_buy_matched),
+        ...e
+      }
       return ne;
     })
     // fs.writeFileSync(dir + "/" + getNow() + "/" + investor)
