@@ -296,24 +296,61 @@ function wait(ms) {
 }
 
 async function getTrans(symbol) {
-  let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol=" + symbol + "&page=1&per_page=2000000", {
-    "headers": {
-      "accept": "application/json, text/plain, */*",
-      "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-      "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-      "sec-ch-ua-mobile": "?0",
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-site"
-    },
-    "referrer": "https://24hmoney.vn/",
-    "referrerPolicy": "strict-origin-when-cross-origin",
-    "body": null,
-    "method": "GET",
-    "mode": "cors",
-    agent,
-  }, { timeout: 1000 });
+
+  let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web1689045n2a2p5iurbndpn3ipbak5dblcxkkkep6795881&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=115.0.0.0&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web1689045n2a2p5iurbndpn3ipbak5dblcxkkkep6795881&symbol="+symbol+"&page=1&per_page=100", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+    "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "Referer": "https://24hmoney.vn/",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET",
+  agent
+});
+
+// let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web1689045n2a2p5iurbndpn3ipbak5dblcxkkkep6795881&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=115.0.0.0&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web1689045n2a2p5iurbndpn3ipbak5dblcxkkkep6795881&symbol=SSI&page=1&per_page=20", {
+//   "headers": {
+//     "accept": "application/json, text/plain, */*",
+//     "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+//     "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+//     "sec-ch-ua-mobile": "?0",
+//     "sec-ch-ua-platform": "\"Windows\"",
+//     "sec-fetch-dest": "empty",
+//     "sec-fetch-mode": "cors",
+//     "sec-fetch-site": "same-site",
+//     "Referer": "https://24hmoney.vn/",
+//     "Referrer-Policy": "strict-origin-when-cross-origin"
+//   },
+//   "body": null,
+//   "method": "GET"
+// });
+
+  // let a = await fetch("https://api-finance-t19.24hmoney.vn/v1/web/stock/transaction-list-ssi?device_id=web&device_name=INVALID&device_model=Windows+10&network_carrier=INVALID&connection_type=INVALID&os=Chrome&os_version=92.0.4515.131&app_version=INVALID&access_token=INVALID&push_token=INVALID&locale=vi&browser_id=web16693664wxvsjkxelc6e8oe325025&symbol=" + symbol + "&page=1&per_page=2000000", {
+  //   "headers": {
+  //     "accept": "application/json, text/plain, */*",
+  //     "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+  //     "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+  //     "sec-ch-ua-mobile": "?0",
+  //     "sec-fetch-dest": "empty",
+  //     "sec-fetch-mode": "cors",
+  //     "sec-fetch-site": "same-site"
+  //   },
+  //   "referrer": "https://24hmoney.vn/",
+  //   "referrerPolicy": "strict-origin-when-cross-origin",
+  //   "body": null,
+  //   "method": "GET",
+  //   "mode": "cors",
+  //   agent,
+  // }, { timeout: 1000 });
   let x = await a.json();
+  console.table(x)
   x["Code"] = symbol;
   return x;
 

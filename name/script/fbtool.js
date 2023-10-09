@@ -667,6 +667,177 @@ async function queryPage(page, mode, remain, query_max_tps) {
     }
 }
 
+async function axiosId2(page, id) {
+    console.log("Query ", id)
+    await page.goto("https://m.facebook.com/profile.php/?id=" + id + "&profile_tab_item_selected=about", {
+        waitUntil: 'networkidle0',
+        timeout: 60000
+    });
+
+    // await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
+    await wait(1000)
+    await page.screenshot({ path: "query.jpg" });
+    let source = await page.content({ "waitUntil": "domcontentloaded" });
+
+    fs.writeFileSync("query.html", source)
+    let div = page.$('#screen-root');
+    let about = {}
+
+    if (!div) {
+        return about
+    }
+    about.id = id;
+    let f = async (select) => {
+        let e = await page.$(select);
+        if (e == null || e == undefined) return null;
+        return await e.evaluate(e => { return e ? e.innerText : '' }, e)
+    }
+
+    let v = async (e) => {
+        if (e == null || e == undefined) return null;
+        return await e.evaluate(e => { return e ? e.innerText : '' }, e)
+    }
+    let next = async (e) => {
+        return e ? await e.evaluateHandle(e => e ? e.nextElementSibling : null, e) : null
+    }
+    // about.top = (await f('#screen-root > div > div.m.fixed-container.top > div')).trim();
+    // let tdiv = await page.$('#screen-root > div > div:nth-child(2) > div:nth-child(3) > div[data-mcomponent="ServerTextArea"]');    
+    let tdivs = await page.$$('#screen-root > div > div:nth-child(2) > div')
+    //c == Object.keys(keys).length)
+    let tdiv = null;
+    let divDetail = null;
+    // console.log(tdivs)
+    let c = 0;
+    for (let d of tdivs) {
+        let x = await v(d)
+        if (tdiv == null) {
+            if (x.toLocaleLowerCase().includes("likes") || x.toLocaleLowerCase().includes("thích") || x.toLocaleLowerCase().includes("follower") || x.toLocaleLowerCase().includes("theo dõi")) {
+                tdiv = await d.$$('div > div[data-mcomponent="ServerTextArea"]')
+                console.log("Found ", tdiv, x)
+            }
+        }
+        // console.log(c++, encodeURI(x))
+        if (encodeURI(x).includes('%F3%B1%9B%90%0A') || encodeURI(x).includes('%F3%B0%9B%AA%0A') || encodeURI(x).includes('%F3%B1%9B%90%0A')) {
+            //
+            console.log("===================================================================", "detail")
+            divDetail = d;
+        }
+    }
+
+    if (!tdiv) {
+        console.log("Not found div includes likes!")
+    }
+    if (tdiv) {
+        about.name = await v(tdiv[0]);
+        // tdiv = await next(tdiv);
+        // if ((await v(tdiv)) && (await v(tdiv)).length == 0) {
+        //     tdiv = await next(tdiv);
+        //     tdiv = await next(tdiv);
+        // }
+        // let t = null;
+        // t = (await v(tdiv))
+
+        // about.like = (t = await v(tdiv)) ? t.split(' ')[0] : ''
+        // tdiv = await next(tdiv);
+        // tdiv = await next(tdiv);
+        // about.follower = (t = await v(tdiv)) ? t.split(' ')[0] : ''
+        // tdiv = await next(tdiv);
+        // tdiv = await next(tdiv);
+        for (let e of tdiv) {
+            let x = await v(e)
+            if (x.toLocaleLowerCase().includes("likes") || x.toLocaleLowerCase().includes("thích") || x.toLocaleLowerCase().includes("follower") || x.toLocaleLowerCase().includes("theo dõi")) {
+                let k = 'likes'
+                if (x.indexOf(k) > 0) {
+                    about[k] = x.slice(0, x.indexOf(k))
+                    let f = 'followers'
+                    if (x.indexOf(f) > 0) {
+                        about[f] = x.slice(x.indexOf(k) + k.length, x.indexOf(f))
+                    }
+                } else {
+                    let f = 'followers'
+                    if (x.indexOf(f) > 0) {
+                        about[f] = x.slice(0, x.indexOf(f))
+                    }
+                }
+
+
+
+            }
+        }
+
+        about.desc = await v(tdiv.at(-1))
+    }
+
+    // let tdiva = await page.$$('#screen-root > div > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div');
+    // tdivs = await divDetail.$$('div > div')
+    // c=0
+    // for(let d of tdivs){         
+    //     let x = await v(d)        
+    //     console.log(c++,encodeURI(x))
+    //     if(encodeURI(x).includes('%F3%B1%9B%90%0A')){
+    //         console.log("===================================================================","detail")
+    //         divDetail = d;
+    //     }
+    // }
+    if (!divDetail) {
+        return about
+    }
+    let tdiva = await divDetail.$$('div div div[data-mcomponent="MContainer"]')
+
+    for (let e of tdiva) {
+        // console.log("DIV NOW=> ", encodeURI(await v(e)),await v(e))
+    }
+    let findDiv = async (a, text) => {
+        for (let e of a) {
+            if (encodeURI(await v(e)).includes(text)) return decodeURI(encodeURI(await v(e)).slice(text.length)).trim();
+        }
+    }
+
+    let keys = {
+        category: '%F3%B1%9B%90%0A',
+        phone: '%F3%B1%9B%AA%0A',
+        add: '%F3%B1%A6%97%0A',
+        link: '%F3%B1%A4%82%0A',
+        email: '%F3%B1%98%A2%0A',
+    }
+    let keys2 = {
+        category: '%F3%B0%9E%B4%0A',
+        phone: '%F3%B0%9B%AA%0A',
+        add: '%F3%B1%A6%97%0A',
+        link: '%F3%B0%98%96%0A',
+        email: '%F3%B1%98%A2%0A',
+    }
+    // let tdiva2 = await divDetail.$$('div.m.bg-s3.displayed div.m.bg-s3 div.m.bg-s3[data-mcomponent="MContainer"]')
+    let tdiva2 = await divDetail.$$('div div div[data-mcomponent="MContainer"]')
+    tdiva2 = tdiva2
+    let c2 = 0;
+    for (let e of tdiva2) {
+        // console.log("DIV NOW=> ", c2++, encodeURI(await v(e)), await v(e))
+    }
+    let pro = new Promise(resolve => {
+        let c = 0;
+        Object.keys(keys).forEach(async (k, i) => {
+            let v = await findDiv(tdiva, keys[k])
+            if (v) about[k] = v
+            c++;
+            if (c == Object.keys(keys).length) resolve()
+        })
+        if (!about.category && c == Object.keys(keys).length) {
+            c = 0;
+            Object.keys(keys2).forEach(async (k, i) => {
+                let v = await findDiv(tdiva2, keys2[k])
+                if (v) about[k] = v
+                c++;
+                if (c == Object.keys(keys2).length) resolve()
+            })
+        }
+    })
+    await pro;
+    console.table(about)
+    return about;
+
+}
+
 async function axiosId(page, id) {
     console.log("Query ", id)
     await page.goto("https://m.facebook.com/profile.php/?id=" + id + "&profile_tab_item_selected=about", {
