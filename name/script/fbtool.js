@@ -258,7 +258,15 @@ async function loadPageId() {
 }
 
 async function loadProcess() {
-    if (!fs.existsSync("facebook/process.json")) return { "fetch": 1, "query": 1, "fetch_max_tps": 10000, "query_max_tps": 0.3 };
+    if (!fs.existsSync("facebook/process.json")) return {
+        "fetch": 1,
+        "query": 1,
+        "fetch_max_tps": 200,
+        "query_max_tps": 0.35,
+        "mode": 1,
+        "remain": 0,
+        "pagescan": 0
+    };
     let buffer = fs.readFileSync("facebook/process.json", "utf-8")
     return JSON.parse(buffer);
 }
@@ -720,7 +728,7 @@ async function axiosId2(page, id) {
     });
     await pro;
 
-    if(pageData){
+    if (pageData) {
         let datajson = JSON.parse(pageData);
         let relayData = null;
         datajson.require[0][3][0].__bbox.require.forEach(e => {
@@ -728,12 +736,12 @@ async function axiosId2(page, id) {
                 relayData = e;
             }
         })
- 
+
         if (!relayData) {
             console.log(data)
             return about;
         }
-    
+
         if ((!relayData[3][1].__bbox ||
             !relayData[3][1].__bbox.result.data.page)) {
             console.log(data)
@@ -742,7 +750,7 @@ async function axiosId2(page, id) {
         let pageInfo = relayData[3][1].__bbox.result.data.page.comet_page_cards[0].page;
         about.name = pageInfo.name
         about.followers = pageInfo.follower_count
-        if(pageInfo.page_about_fields.formatted_phone_number)
+        if (pageInfo.page_about_fields.formatted_phone_number)
             about.profile_phone = pageInfo.page_about_fields.formatted_phone_number
         about.address = pageInfo.page_about_fields.address.full_address
         about.likes = pageInfo.page_likers.global_likers_count
@@ -752,7 +760,7 @@ async function axiosId2(page, id) {
     }
 
     if (!data) {
-        console.log("data",data)
+        console.log("data", data)
         return about;
     }
     //
