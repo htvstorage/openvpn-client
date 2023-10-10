@@ -307,8 +307,8 @@ const run = async () => {
     })
 
     console.log("Page done")
-    console.table(pagedone)
-    console.table(pageid)
+    // console.table(pagedone)
+    // console.table(pageid)
     console.log("Loaded page data total:", Object.keys(pageData).length)
 
     Object.keys(pageIdData).forEach(k => {
@@ -377,6 +377,8 @@ const run = async () => {
     // await axiosId2(mobile, 100068333149695)
     // 100063522644002
     // await axiosId2(mobile, 100063522644002)
+    await axiosId2(mobile, 119944931693126)
+
     // 100050174962984
     // 100063490543470
     // // if (true) return;
@@ -661,7 +663,7 @@ async function queryPage(page, mode, remain, query_max_tps) {
 
                 let p = pageid[pid.id]
                 let data = { ...p['about'] }
-                console.table(pageid)
+                // console.table(pageid)
                 console.log(p, pagedone[pid.id], data)
                 data.name2 = p.name;
                 data.province = p.province;
@@ -695,11 +697,15 @@ async function axiosId2(page, id) {
     // let 
     let data = null;
     let head = null;
+    let pageData = null;
     let pro = new Promise(resolve => {
         scripts.forEach(async (s, i) => {
             let text = await v(s)
             if (text.includes('"field_section_type":"category"')) {
                 data = text;
+            }
+            if (text.includes('page_about_fields') && text.includes('comet_page_cards')) {
+                pageData = text;
             }
             if (text.includes('profile_header_renderer') &&
                 text.includes('likes') &&
@@ -714,7 +720,39 @@ async function axiosId2(page, id) {
     });
     await pro;
 
-    if(!data){
+    if(pageData){
+        let datajson = JSON.parse(pageData);
+        let relayData = null;
+        datajson.require[0][3][0].__bbox.require.forEach(e => {
+            if (e[0] == 'RelayPrefetchedStreamCache') {
+                relayData = e;
+            }
+        })
+ 
+        if (!relayData) {
+            console.log(data)
+            return about;
+        }
+    
+        if ((!relayData[3][1].__bbox ||
+            !relayData[3][1].__bbox.result.data.page)) {
+            console.log(data)
+            return about;
+        }
+        let pageInfo = relayData[3][1].__bbox.result.data.page.comet_page_cards[0].page;
+        about.name = pageInfo.name
+        about.followers = pageInfo.follower_count
+        if(pageInfo.page_about_fields.formatted_phone_number)
+            about.profile_phone = pageInfo.page_about_fields.formatted_phone_number
+        about.address = pageInfo.page_about_fields.address.full_address
+        about.likes = pageInfo.page_likers.global_likers_count
+        about.checkin = pageInfo.were_here_count
+        console.table(about)
+
+    }
+
+    if (!data) {
+        console.log("data",data)
         return about;
     }
     //
@@ -770,7 +808,7 @@ async function axiosId2(page, id) {
     //Head
 
     datajson = JSON.parse(head);
-    if(!head|| !datajson){
+    if (!head || !datajson) {
         return about;
     }
     datajson.require[0][3][0].__bbox.require.forEach(e => {
