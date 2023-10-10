@@ -11,7 +11,7 @@ let pageid = {};
 let pageid2 = [];
 let pagedone = {};
 let stat = { count: 0, countAll: 0 }
-async function initBrowser(profileDir) {
+async function initBrowser(profileDir, pagescan) {
 
     const browser = await puppeteer.launch({
         headless: true, args: ['--user-data-dir=' + profileDir]
@@ -19,11 +19,14 @@ async function initBrowser(profileDir) {
 
     const page = await browser.newPage();
     const mobile = await browser.newPage();
-    await mobile.setExtraHTTPHeaders({
-        "User-Agent":
-            "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-    })
-    await mobile.setViewport({ width: 390, height: 844 });
+    // if (pagescan == 0) {
+    //     await mobile.setExtraHTTPHeaders({
+    //         "User-Agent":
+    //             "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+    //     })
+        
+    // }
+    // await mobile.setViewport({ width: 390, height: 844 });
     await page.setRequestInterception(true);
     await mobile.setRequestInterception(true);
     let loadImage = {
@@ -135,10 +138,10 @@ async function initBrowser(profileDir) {
                         // await CometHovercardQueryRendererQuery(e.relay_rendering_strategy.view_model.profile.id)
                         // await axiosId(mobile, e.relay_rendering_strategy.view_model.profile.id)
                         let pid = { keyword: stat.keyword, id: e.relay_rendering_strategy.view_model.profile.id, name: e.relay_rendering_strategy.view_model.profile.name, province: stat.province }
-                        if(!pageid[pid.id])
+                        if (!pageid[pid.id])
                             pageid[pid.id] = pid;
-                        else{
-                            pid['about'] =  {...pageid[pid.id]['about']}
+                        else {
+                            pid['about'] = { ...pageid[pid.id]['about'] }
                             pageid[pid.id] = pid;
                         }
                         pageid2.push({ keyword: stat.keyword, id: pid.id, province: stat.province })
@@ -298,7 +301,7 @@ const run = async () => {
     let pageIdData = await loadPageId();
     Object.keys(pageData).forEach(k => {
         let data = pageData[k]
-        data['about'] = {...data}
+        data['about'] = { ...data }
         pageid[k] = data;
         pagedone[k] = k;
     })
@@ -310,10 +313,10 @@ const run = async () => {
 
     Object.keys(pageIdData).forEach(k => {
         let data = pageIdData[k]
-       
+
         if (!pageData[k])
             pageid2.push({ keyword: data.keyword, id: data.id })
-        if(!pageid[k])
+        if (!pageid[k])
             pageid[k] = data;
     })
 
@@ -326,7 +329,7 @@ const run = async () => {
     mkdirSyncRecursive("facebook/out")
     mkdirSyncRecursive("facebook/profile")
     console.log("profile", "./facebook/profile/" + user.email.slice(0, user.email.indexOf('@')))
-    let [browser, page, mobile] = await initBrowser("./facebook/profile/" + user.email.slice(0, user.email.indexOf('@')));
+    let [browser, page, mobile] = await initBrowser("./facebook/profile/" + user.email.slice(0, user.email.indexOf('@')), cfg.pagescan);
     // let [browser, page, mobile] = await initBrowser("./userdata9");        
 
     await page.setViewport({ width: 1920, height: 1000 });
@@ -355,6 +358,8 @@ const run = async () => {
     let source1 = await page.content({ "waitUntil": "domcontentloaded" });
 
     await wait(2000)
+    // await mobile.setViewport({ width: 1920, height: 1000 });
+    await mobile.setViewport({ width: 390, height: 844 });
     await mobile.goto("https://mtouch.facebook.com/", {
         waitUntil: 'domcontentloaded',
         timeout: 60000
@@ -369,8 +374,9 @@ const run = async () => {
     // await axiosId(mobile, 100066500112707)
     // await axiosId(mobile, 100050174962984)
 
-    // await axiosId(mobile, 100065553490766)
-
+    await axiosId2(mobile, 100068333149695)
+    // 100063522644002
+    // await axiosId2(mobile, 100063522644002)
     // 100050174962984
     // 100063490543470
     // // if (true) return;
@@ -379,7 +385,8 @@ const run = async () => {
     let pfetch = null;
 
     if (cfg.query > 0) {
-        pquery = queryPage(mobile, cfg.mode, cfg.remain,cfg.query_max_tps)
+        // pquery = queryPage(mobile, cfg.mode, cfg.remain, cfg.query_max_tps)
+        // pquery = queryPage(page, cfg.mode, cfg.remain, cfg.query_max_tps)
     }
     console.log("page.viewport.height", page.viewport().height)
     if (page.viewport().height < 10000) {
@@ -617,7 +624,7 @@ async function queryPage(page, mode, remain, query_max_tps) {
     // pageid[pid.id] = pid;
     // pageid2.push(pid.id)
 
-    let start = Date.now()-1;
+    let start = Date.now() - 1;
     let count = 0;
 
     while ((pageid2.length > 0) || (Date.now() - last <= 60000)) {
@@ -631,12 +638,12 @@ async function queryPage(page, mode, remain, query_max_tps) {
             }
         }
 
-        while(count*1000.0/(Date.now() -start) > query_max_tps){
+        while (count * 1000.0 / (Date.now() - start) > query_max_tps) {
             await wait(200)
         }
         if (pid && !pagedone[pid.id]) {
             console.log("start queryPage", pid)
-            let data = await axiosId(page, pid.id);
+            let data = await axiosId2(page, pid.id);
             count++;
             let p = pageid[pid.id]
             p['about'] = data;
@@ -653,11 +660,11 @@ async function queryPage(page, mode, remain, query_max_tps) {
             if (pid && pagedone[pid.id]) {
 
                 let p = pageid[pid.id]
-                let data = {...p['about']}
+                let data = { ...p['about'] }
                 console.table(pageid)
                 console.log(p, pagedone[pid.id], data)
                 data.name2 = p.name;
-                data.province = p.province;                
+                data.province = p.province;
                 fs.appendFileSync("facebook/out/" + removeDiacriticsAndSpaces(pid.keyword) + ".txt", JSON.stringify(data) + '\n')
             }
         }
@@ -669,171 +676,125 @@ async function queryPage(page, mode, remain, query_max_tps) {
 
 async function axiosId2(page, id) {
     console.log("Query ", id)
-    await page.goto("https://m.facebook.com/profile.php/?id=" + id + "&profile_tab_item_selected=about", {
+    await page.goto("https://www.facebook.com/profile.php/?id=" + id + "&sk=about", {
         waitUntil: 'networkidle0',
         timeout: 60000
     });
-
+    let about = {}
     // await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
     await wait(1000)
     await page.screenshot({ path: "query.jpg" });
     let source = await page.content({ "waitUntil": "domcontentloaded" });
-
+    let scripts = await page.$$('script')
     fs.writeFileSync("query.html", source)
-    let div = page.$('#screen-root');
-    let about = {}
-
-    if (!div) {
-        return about
-    }
-    about.id = id;
-    let f = async (select) => {
-        let e = await page.$(select);
-        if (e == null || e == undefined) return null;
-        return await e.evaluate(e => { return e ? e.innerText : '' }, e)
-    }
-
     let v = async (e) => {
         if (e == null || e == undefined) return null;
-        return await e.evaluate(e => { return e ? e.innerText : '' }, e)
+        return await e.evaluate(e => { return e ? e.innerHTML : '' }, e)
     }
-    let next = async (e) => {
-        return e ? await e.evaluateHandle(e => e ? e.nextElementSibling : null, e) : null
-    }
-    // about.top = (await f('#screen-root > div > div.m.fixed-container.top > div')).trim();
-    // let tdiv = await page.$('#screen-root > div > div:nth-child(2) > div:nth-child(3) > div[data-mcomponent="ServerTextArea"]');    
-    let tdivs = await page.$$('#screen-root > div > div:nth-child(2) > div')
-    //c == Object.keys(keys).length)
-    let tdiv = null;
-    let divDetail = null;
-    // console.log(tdivs)
-    let c = 0;
-    for (let d of tdivs) {
-        let x = await v(d)
-        if (tdiv == null) {
-            if (x.toLocaleLowerCase().includes("likes") || x.toLocaleLowerCase().includes("thích") || x.toLocaleLowerCase().includes("follower") || x.toLocaleLowerCase().includes("theo dõi")) {
-                tdiv = await d.$$('div > div[data-mcomponent="ServerTextArea"]')
-                console.log("Found ", tdiv, x)
+    // let 
+    let data = null;
+    let head = null;
+    let pro = new Promise(resolve=>{
+        scripts.forEach(async (s,i)=>{
+            let text = await v(s)
+            if(text.includes('"field_section_type":"category"')){
+                data = text;                                
+            }             
+            if(text.includes('profile_header_renderer') && 
+            text.includes('likes') && 
+            text.includes('followers')            
+            ){
+                head = text;
             }
-        }
-        // console.log(c++, encodeURI(x))
-        if (encodeURI(x).includes('%F3%B1%9B%90%0A') || encodeURI(x).includes('%F3%B0%9B%AA%0A') || encodeURI(x).includes('%F3%B1%9B%90%0A')) {
-            //
-            console.log("===================================================================", "detail")
-            divDetail = d;
-        }
-    }
-
-    if (!tdiv) {
-        console.log("Not found div includes likes!")
-    }
-    if (tdiv) {
-        about.name = await v(tdiv[0]);
-        // tdiv = await next(tdiv);
-        // if ((await v(tdiv)) && (await v(tdiv)).length == 0) {
-        //     tdiv = await next(tdiv);
-        //     tdiv = await next(tdiv);
-        // }
-        // let t = null;
-        // t = (await v(tdiv))
-
-        // about.like = (t = await v(tdiv)) ? t.split(' ')[0] : ''
-        // tdiv = await next(tdiv);
-        // tdiv = await next(tdiv);
-        // about.follower = (t = await v(tdiv)) ? t.split(' ')[0] : ''
-        // tdiv = await next(tdiv);
-        // tdiv = await next(tdiv);
-        for (let e of tdiv) {
-            let x = await v(e)
-            if (x.toLocaleLowerCase().includes("likes") || x.toLocaleLowerCase().includes("thích") || x.toLocaleLowerCase().includes("follower") || x.toLocaleLowerCase().includes("theo dõi")) {
-                let k = 'likes'
-                if (x.indexOf(k) > 0) {
-                    about[k] = x.slice(0, x.indexOf(k))
-                    let f = 'followers'
-                    if (x.indexOf(f) > 0) {
-                        about[f] = x.slice(x.indexOf(k) + k.length, x.indexOf(f))
-                    }
-                } else {
-                    let f = 'followers'
-                    if (x.indexOf(f) > 0) {
-                        about[f] = x.slice(0, x.indexOf(f))
-                    }
-                }
-
-
-
+            if((data && head )|| i == scripts.length-1){
+                resolve({data:data,head:head})
             }
-        }
-
-        about.desc = await v(tdiv.at(-1))
-    }
-
-    // let tdiva = await page.$$('#screen-root > div > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div');
-    // tdivs = await divDetail.$$('div > div')
-    // c=0
-    // for(let d of tdivs){         
-    //     let x = await v(d)        
-    //     console.log(c++,encodeURI(x))
-    //     if(encodeURI(x).includes('%F3%B1%9B%90%0A')){
-    //         console.log("===================================================================","detail")
-    //         divDetail = d;
-    //     }
-    // }
-    if (!divDetail) {
-        return about
-    }
-    let tdiva = await divDetail.$$('div div div[data-mcomponent="MContainer"]')
-
-    for (let e of tdiva) {
-        // console.log("DIV NOW=> ", encodeURI(await v(e)),await v(e))
-    }
-    let findDiv = async (a, text) => {
-        for (let e of a) {
-            if (encodeURI(await v(e)).includes(text)) return decodeURI(encodeURI(await v(e)).slice(text.length)).trim();
-        }
-    }
-
-    let keys = {
-        category: '%F3%B1%9B%90%0A',
-        phone: '%F3%B1%9B%AA%0A',
-        add: '%F3%B1%A6%97%0A',
-        link: '%F3%B1%A4%82%0A',
-        email: '%F3%B1%98%A2%0A',
-    }
-    let keys2 = {
-        category: '%F3%B0%9E%B4%0A',
-        phone: '%F3%B0%9B%AA%0A',
-        add: '%F3%B1%A6%97%0A',
-        link: '%F3%B0%98%96%0A',
-        email: '%F3%B1%98%A2%0A',
-    }
-    // let tdiva2 = await divDetail.$$('div.m.bg-s3.displayed div.m.bg-s3 div.m.bg-s3[data-mcomponent="MContainer"]')
-    let tdiva2 = await divDetail.$$('div div div[data-mcomponent="MContainer"]')
-    tdiva2 = tdiva2
-    let c2 = 0;
-    for (let e of tdiva2) {
-        // console.log("DIV NOW=> ", c2++, encodeURI(await v(e)), await v(e))
-    }
-    let pro = new Promise(resolve => {
-        let c = 0;
-        Object.keys(keys).forEach(async (k, i) => {
-            let v = await findDiv(tdiva, keys[k])
-            if (v) about[k] = v
-            c++;
-            if (c == Object.keys(keys).length) resolve()
         })
-        if (!about.category && c == Object.keys(keys).length) {
-            c = 0;
-            Object.keys(keys2).forEach(async (k, i) => {
-                let v = await findDiv(tdiva2, keys2[k])
-                if (v) about[k] = v
-                c++;
-                if (c == Object.keys(keys2).length) resolve()
-            })
+    });
+    await pro;
+
+    //
+    // let map = '{"require":[["ScheduledServerJS","handle",null,[{"__bbox":{"define":[["TilesMapConfig"'
+    // let idx = source.indexOf(map);
+    // let idx2 = source.indexOf("</script>",idx);
+    // if(idx <= 0 || idx2 <= 0){
+    //     return about;
+    // }
+    // let data = source.slice(idx,idx2)
+    console.log("data",data)
+    let datajson = JSON.parse(data);
+    // console.log(data)
+    // console.log(datajson.require[0][3][0].__bbox.require[7][3][1].__bbox.result.data.user.id)
+    //require[0][3][0].__bbox.require[5][3][1].__bbox.result.data.user.about_app_sections.nodes[0].activeCollections.nodes[0].style_renderer.profile_field_sections[0].field_section_type
+    let relayData = null;
+    datajson.require[0][3][0].__bbox.require.forEach(e=>{
+        if(e[0] == 'RelayPrefetchedStreamCache'){
+            relayData = e;
         }
     })
-    await pro;
+
+    if(!relayData){
+        console.log(data)
+        return about;  
+    }
+
+    if(( !relayData[3][1].__bbox||        
+        !relayData[3][1].__bbox.result.data.user) ){
+        console.log(data)
+        return about;
+    }
+
+    let profile_field_sections = relayData[3][1].__bbox.result.data.user.about_app_sections.nodes[0].activeCollections.nodes[0].style_renderer.profile_field_sections;
+
+    profile_field_sections.forEach(p=>{
+        if(p.field_section_type == "category")
+            about.category = p.profile_fields.nodes[0].title.text;
+        if(p.field_section_type == "about_contact_info"){
+            let address = p.profile_fields.nodes;
+            address.forEach(e=>{
+                about[e.field_type] = e.title.text;
+            })
+        }
+        if(p.field_section_type == "websites_and_social_links"){
+            let address = p.profile_fields.nodes;            
+            address.forEach(e=>{
+                about[e.field_type] = e.title.text;
+            })
+        }        
+    })
     console.table(about)
+    //Head
+    datajson = JSON.parse(head);
+    datajson.require[0][3][0].__bbox.require.forEach(e=>{
+        if(e[0] == 'RelayPrefetchedStreamCache'){
+            relayData = e;
+        }
+    })
+    if(!relayData){
+        console.log(head)
+        return about;  
+    }
+
+
+    if(( !relayData[3][1].__bbox||        
+        !relayData[3][1].__bbox.result.data.user) ){
+        console.log(head)
+        return about;
+    }
+    about.name=relayData[3][1].__bbox.result.data.user.profile_header_renderer.user.name;
+
+    profile_field_sections= relayData[3][1].__bbox.result.data.user.profile_header_renderer.user.profile_social_context.content    
+    // require[0][3][0].__bbox.require[7][3][1].__bbox.result.data.user.profile_header_renderer.user.profile_social_context.content[0].text.text
+    profile_field_sections.forEach(p=>{
+        if(p.uri.includes('like'))
+            about.likes = p.text.text;            
+        if(p.uri.includes('followers')){
+            about.followers = p.text.text;     
+        }
+       
+    })    
+    console.table(about)
+    // let websitelink = 
     return about;
 
 }
@@ -844,7 +805,7 @@ async function axiosId(page, id) {
         waitUntil: 'networkidle0',
         timeout: 60000
     });
-
+    // await page.reload({ waitUntil: ["networkidle0", "domcontentloaded"] });
     // await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
     await wait(1000)
     await page.screenshot({ path: "query.jpg" });

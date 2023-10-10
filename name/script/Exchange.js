@@ -1300,6 +1300,7 @@ Exchange.SSI.getlistallsymbol = async function () {
         "mode": "cors",
         agent
       });
+      // console.log(await a.text())
       let data = await a.json();
       ret.push(...data.data.stockRealtimes);
       c++;
