@@ -24,7 +24,7 @@ async function initBrowser(profileDir, pagescan) {
     //         "User-Agent":
     //             "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
     //     })
-        
+
     // }
     // await mobile.setViewport({ width: 390, height: 844 });
     await page.setRequestInterception(true);
@@ -374,7 +374,7 @@ const run = async () => {
     // await axiosId(mobile, 100066500112707)
     // await axiosId(mobile, 100050174962984)
 
-    await axiosId2(mobile, 100068333149695)
+    // await axiosId2(mobile, 100068333149695)
     // 100063522644002
     // await axiosId2(mobile, 100063522644002)
     // 100050174962984
@@ -385,7 +385,7 @@ const run = async () => {
     let pfetch = null;
 
     if (cfg.query > 0) {
-        // pquery = queryPage(mobile, cfg.mode, cfg.remain, cfg.query_max_tps)
+        pquery = queryPage(mobile, cfg.mode, cfg.remain, cfg.query_max_tps)
         // pquery = queryPage(page, cfg.mode, cfg.remain, cfg.query_max_tps)
     }
     console.log("page.viewport.height", page.viewport().height)
@@ -681,8 +681,9 @@ async function axiosId2(page, id) {
         timeout: 60000
     });
     let about = {}
+    about.id = id;
     // await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
-    await wait(1000)
+    // await wait(1000)
     await page.screenshot({ path: "query.jpg" });
     let source = await page.content({ "waitUntil": "domcontentloaded" });
     let scripts = await page.$$('script')
@@ -694,25 +695,28 @@ async function axiosId2(page, id) {
     // let 
     let data = null;
     let head = null;
-    let pro = new Promise(resolve=>{
-        scripts.forEach(async (s,i)=>{
+    let pro = new Promise(resolve => {
+        scripts.forEach(async (s, i) => {
             let text = await v(s)
-            if(text.includes('"field_section_type":"category"')){
-                data = text;                                
-            }             
-            if(text.includes('profile_header_renderer') && 
-            text.includes('likes') && 
-            text.includes('followers')            
-            ){
+            if (text.includes('"field_section_type":"category"')) {
+                data = text;
+            }
+            if (text.includes('profile_header_renderer') &&
+                text.includes('likes') &&
+                text.includes('followers')
+            ) {
                 head = text;
             }
-            if((data && head )|| i == scripts.length-1){
-                resolve({data:data,head:head})
+            if ((data && head) || i == scripts.length - 1) {
+                resolve({ data: data, head: head })
             }
         })
     });
     await pro;
 
+    if(!data){
+        return about;
+    }
     //
     // let map = '{"require":[["ScheduledServerJS","handle",null,[{"__bbox":{"define":[["TilesMapConfig"'
     // let idx = source.indexOf(map);
@@ -721,78 +725,78 @@ async function axiosId2(page, id) {
     //     return about;
     // }
     // let data = source.slice(idx,idx2)
-    console.log("data",data)
+    // console.log("data", data)
     let datajson = JSON.parse(data);
     // console.log(data)
     // console.log(datajson.require[0][3][0].__bbox.require[7][3][1].__bbox.result.data.user.id)
     //require[0][3][0].__bbox.require[5][3][1].__bbox.result.data.user.about_app_sections.nodes[0].activeCollections.nodes[0].style_renderer.profile_field_sections[0].field_section_type
     let relayData = null;
-    datajson.require[0][3][0].__bbox.require.forEach(e=>{
-        if(e[0] == 'RelayPrefetchedStreamCache'){
+    datajson.require[0][3][0].__bbox.require.forEach(e => {
+        if (e[0] == 'RelayPrefetchedStreamCache') {
             relayData = e;
         }
     })
 
-    if(!relayData){
+    if (!relayData) {
         console.log(data)
-        return about;  
+        return about;
     }
 
-    if(( !relayData[3][1].__bbox||        
-        !relayData[3][1].__bbox.result.data.user) ){
+    if ((!relayData[3][1].__bbox ||
+        !relayData[3][1].__bbox.result.data.user)) {
         console.log(data)
         return about;
     }
 
     let profile_field_sections = relayData[3][1].__bbox.result.data.user.about_app_sections.nodes[0].activeCollections.nodes[0].style_renderer.profile_field_sections;
 
-    profile_field_sections.forEach(p=>{
-        if(p.field_section_type == "category")
+    profile_field_sections.forEach(p => {
+        if (p.field_section_type == "category")
             about.category = p.profile_fields.nodes[0].title.text;
-        if(p.field_section_type == "about_contact_info"){
+        if (p.field_section_type == "about_contact_info") {
             let address = p.profile_fields.nodes;
-            address.forEach(e=>{
+            address.forEach(e => {
                 about[e.field_type] = e.title.text;
             })
         }
-        if(p.field_section_type == "websites_and_social_links"){
-            let address = p.profile_fields.nodes;            
-            address.forEach(e=>{
+        if (p.field_section_type == "websites_and_social_links") {
+            let address = p.profile_fields.nodes;
+            address.forEach(e => {
                 about[e.field_type] = e.title.text;
             })
-        }        
+        }
     })
     console.table(about)
     //Head
     datajson = JSON.parse(head);
-    datajson.require[0][3][0].__bbox.require.forEach(e=>{
-        if(e[0] == 'RelayPrefetchedStreamCache'){
+    datajson.require[0][3][0].__bbox.require.forEach(e => {
+        if (e[0] == 'RelayPrefetchedStreamCache') {
             relayData = e;
         }
     })
-    if(!relayData){
-        console.log(head)
-        return about;  
-    }
-
-
-    if(( !relayData[3][1].__bbox||        
-        !relayData[3][1].__bbox.result.data.user) ){
+    if (!relayData) {
         console.log(head)
         return about;
     }
-    about.name=relayData[3][1].__bbox.result.data.user.profile_header_renderer.user.name;
 
-    profile_field_sections= relayData[3][1].__bbox.result.data.user.profile_header_renderer.user.profile_social_context.content    
+
+    if ((!relayData[3][1].__bbox ||
+        !relayData[3][1].__bbox.result.data.user)) {
+        console.log(head)
+        return about;
+    }
+    about.name = relayData[3][1].__bbox.result.data.user.profile_header_renderer.user.name;
+
+    profile_field_sections = relayData[3][1].__bbox.result.data.user.profile_header_renderer.user.profile_social_context.content
     // require[0][3][0].__bbox.require[7][3][1].__bbox.result.data.user.profile_header_renderer.user.profile_social_context.content[0].text.text
-    profile_field_sections.forEach(p=>{
-        if(p.uri.includes('like'))
-            about.likes = p.text.text;            
-        if(p.uri.includes('followers')){
-            about.followers = p.text.text;     
+    profile_field_sections.forEach(p => {
+        if (p.uri.includes('like'))
+            about.likes = p.text.text;
+        if (p.uri.includes('followers')) {
+            about.followers = p.text.text;
         }
-       
-    })    
+
+    })
     console.table(about)
     // let websitelink = 
     return about;
