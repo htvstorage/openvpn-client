@@ -31,11 +31,19 @@ async function initBrowser(profileDir, pagescan) {
     await mobile.setRequestInterception(true);
     let loadImage = {
         load: false, disable: {
-            // 'font': 'font',
+            'font': 'font',
             'image': 'image',
             // 'manifest': 'manifest',
-            // 'ping': 'ping',
-            // 'stylesheet': 'stylesheet',
+            'ping': 'ping',
+            'stylesheet': 'stylesheet',
+            // document
+fetch
+// image
+// other
+// ping
+// script
+// stylesheet
+// xhr
         }
     }
     page.on('request', request => {
@@ -385,7 +393,7 @@ const run = async () => {
     // await axiosId2(mobile, 100068333149695)
     // 100063522644002
     // await axiosId2(mobile, 100063522644002)
-    await axiosId2(mobile, 119944931693126)
+    await axiosId2(mobile, 646709872366853)
 
     // 100050174962984
     // 100063490543470
@@ -752,7 +760,8 @@ async function axiosId2(page, id) {
         about.followers = pageInfo.follower_count
         if (pageInfo.page_about_fields.formatted_phone_number)
             about.profile_phone = pageInfo.page_about_fields.formatted_phone_number
-        about.address = pageInfo.page_about_fields.address.full_address
+        if(pageInfo.page_about_fields.address)
+            about.address = pageInfo.page_about_fields.address.full_address
         about.likes = pageInfo.page_likers.global_likers_count
         about.checkin = pageInfo.were_here_count
         console.table(about)
