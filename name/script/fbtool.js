@@ -768,7 +768,11 @@ async function axiosId2(page, id) {
     })
     console.table(about)
     //Head
+
     datajson = JSON.parse(head);
+    if(!head|| !datajson){
+        return about;
+    }
     datajson.require[0][3][0].__bbox.require.forEach(e => {
         if (e[0] == 'RelayPrefetchedStreamCache') {
             relayData = e;
