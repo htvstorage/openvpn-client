@@ -30,7 +30,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
 
 (async () => {
-  let ssiSymbol = await Exchange.SSI.getlistallsymbol();
+  let ssiSymbol = await Exchange.SSI.getlistallsymbol2();
   let ssiCop = ssiSymbol.filter(e => { return e.stockSymbol.length == 3 }).map(e => { return { stock_code: e.stockSymbol } });
   console.table(ssiSymbol.length)
   console.table(ssiCop.length)
@@ -84,7 +84,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       case "SSI":
         dir += "./ssitrans/" + getNow() + "/";
         csv = new Parser({ fields: ["stockNo", "price", "vol", "accumulatedVol", "time", "ref", "side", "priceChange", "priceChangePercent", "changeType", "__typename"] });
-        fun = Exchange.SSI.graphql;
+        fun = Exchange.SSI.graphql2;
         dir2 = "./trans/" + getNow() + "/";
         if (!fs.existsSync(dir2)) {
           fs.mkdirSync(dir2, { recursive: true });
@@ -128,7 +128,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     }
     let maxSize = 100;
     if (ss.toUpperCase() == "TCBS") maxSize = 50
-
+    if (ss.toUpperCase() == "SSI") maxSize = 500
     logger.debug("Done remove directory ", dir);
 
     let stat = { req: 0, res: 0, record: 0 }
@@ -138,7 +138,10 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       x['Code'] = x.stock_code;
       if (x.Code.length < 4) {
         logger.trace(x.Code);
+        let w = 0;
         while (stat.req - stat.res >= maxSize) {
+          w++;
+          if(w%10 == 0) console.log("stat",stat,w)
           await wait(200);
         }
         // let z = getTrans(x.Code);
