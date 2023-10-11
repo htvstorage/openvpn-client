@@ -396,30 +396,43 @@ async function scraper() {
       bd = bd.replaceAll("#QUERTY", qq);
       u++;
       // console.log("offset" + uri)
-      header = {
-        "accept": "*/*",
-        "accept-language": "en-US,en;q=0.9",
+      // header = {
+      //   "accept": "*/*",
+      //   "accept-language": "en-US,en;q=0.9",
+      //   "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+      //   "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+      //   "sec-ch-ua-arch": "\"x86\"",
+      //   "sec-ch-ua-bitness": "\"64\"",
+      //   "sec-ch-ua-full-version": "\"115.0.5790.171\"",
+      //   "sec-ch-ua-full-version-list": "\"Not/A)Brand\";v=\"99.0.0.0\", \"Google Chrome\";v=\"115.0.5790.171\", \"Chromium\";v=\"115.0.5790.171\"",
+      //   // "sec-ch-ua-mobile": "?0",
+      //   // "sec-ch-ua-model": "\"\"",
+      //   // "sec-ch-ua-platform": "\"Windows\"",
+      //   // "sec-ch-ua-platform-version": "\"10.0.0\"",
+      //   // "sec-ch-ua-wow64": "?0",
+      //   // "sec-fetch-dest": "empty",
+      //   // "sec-fetch-mode": "cors",
+      //   // "sec-fetch-site": "same-origin",
+      //   // "x-client-data": "CJe2yQEIorbJAQipncoBCKOTywEIk6HLAQiFoM0BCI2nzQEI3L3NAQiRys0BCLnKzQEIg9TNAQin2M0BCIDZzQEI3tnNAQ==",
+      //   // "x-goog-ext-190139975-jspb": "[\"VN\",\"ZZ\",\"G0R3Eg==\"]",
+      //   // "x-goog-ext-242887638-jspb": "[]",
+      //   "x-same-domain": "1",
+      //   // "cookie": "AEC=Ackid1T-ZXcq3R9PVQsSy9k8oJqsDpvTTaZQQL1Dv2xss0dByMg6qJTfGg; 1P_JAR=2023-10-11-10; OTZ=7245259_28_28__28_; OGPC=19037049-1:; NID=511=WX1P0IfthaGX8gvWKWNrQPWEQyopOQY1h1ebtaJl71oGUxgipIBb7MAVAaGN0rX_VtR2HT04FVINCNtARwNeu56fFIvxWd7INaDpL1oMgOuzaCTnwnxwNh-SXh35qpag1Sy7RgQvAgBdFveNE8GZcYzaHMhRyDYTEY91mj9K81vfR5IBkQ37zJY-xW7WIq4",
+      //   "Referer": "https://www.google.com/",
+      //   "Referrer-Policy": "origin"
+      // }
+
+      header =  {
+        'sec-ch-ua': '',
+        referer: 'https://www.google.com/',
+        // 'x-goog-ext-353267353-jspb': '[null,null,null,147535]',
         "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
-        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
-        "sec-ch-ua-arch": "\"x86\"",
-        "sec-ch-ua-bitness": "\"64\"",
-        "sec-ch-ua-full-version": "\"115.0.5790.171\"",
-        "sec-ch-ua-full-version-list": "\"Not/A)Brand\";v=\"99.0.0.0\", \"Google Chrome\";v=\"115.0.5790.171\", \"Chromium\";v=\"115.0.5790.171\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-model": "\"\"",
-        "sec-ch-ua-platform": "\"Windows\"",
-        "sec-ch-ua-platform-version": "\"10.0.0\"",
-        "sec-ch-ua-wow64": "?0",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-origin",
-        "x-client-data": "CJe2yQEIorbJAQipncoBCKOTywEIk6HLAQiFoM0BCI2nzQEI3L3NAQiRys0BCLnKzQEIg9TNAQin2M0BCIDZzQEI3tnNAQ==",
-        "x-goog-ext-190139975-jspb": "[\"VN\",\"ZZ\",\"G0R3Eg==\"]",
-        "x-goog-ext-242887638-jspb": "[]",
-        "x-same-domain": "1",
-        "cookie": "AEC=Ackid1T-ZXcq3R9PVQsSy9k8oJqsDpvTTaZQQL1Dv2xss0dByMg6qJTfGg; 1P_JAR=2023-10-11-10; OTZ=7245259_28_28__28_; OGPC=19037049-1:; NID=511=WX1P0IfthaGX8gvWKWNrQPWEQyopOQY1h1ebtaJl71oGUxgipIBb7MAVAaGN0rX_VtR2HT04FVINCNtARwNeu56fFIvxWd7INaDpL1oMgOuzaCTnwnxwNh-SXh35qpag1Sy7RgQvAgBdFveNE8GZcYzaHMhRyDYTEY91mj9K81vfR5IBkQ37zJY-xW7WIq4",
-        "Referer": "https://www.google.com/",
-        "Referrer-Policy": "origin"
+        'x-maps-diversion-context-bin': 'CAE=',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4882.194 Safari/537.36',
+        'sec-ch-ua-platform': '',
+        accept: '*/*',
+        cookie: '1P_JAR=2023-09-18-04; NID=511=uS6JHJ6yyGZw8aOAYmXuXsWizpIUTp9l4X_5IWBP_AUtsjIuBFnIGOdR7skAt_d4lifFQX9twUWBsfevqQ5Rx9bjgbZ0XOIPeeIL0N0ClEt_XFbxNpMbWyMGm-nH4NQA-zBZl81Hg5hrHPO_r-csUCZQlFvBlPNV9K9SR6NxydM'
       }
       let options = {
         "headers": header,
