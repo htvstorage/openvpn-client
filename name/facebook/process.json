@@ -2,7 +2,7 @@
     "fetch": 0,
     "query": 1,
     "fetch_max_tps": 2000,
-    "query_max_tps": 0.35,
+    "query_max_tps": 0.1,
     "mode": 1,
     "remain": 0,
     "pagescan": 0
