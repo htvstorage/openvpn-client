@@ -1340,6 +1340,16 @@ Exchange.SSI.graphql = async function (code) {
 }
 
 let map = {};
+Exchange.SSI.getlistallsymbol3 = async function () {
+  let ret = [];
+    if(fs.existsSync("ssimap.json")){
+   let jsonmap= fs.readFileSync("ssimap.json","utf-8")
+    let retssi = fs.readFileSync("ssiret.json","utf-8")
+    ret = JSON.parse(retssi)
+    map = JSON.parse(jsonmap)
+  }
+  return ret;
+}
 Exchange.SSI.getlistallsymbol = async function () {
   let ex = ['hose', 'hnx', 'upcom']
   let ret = [];
@@ -1448,7 +1458,11 @@ Exchange.SSI.getlistallsymbol = async function () {
     map[e.stockSymbol] = e.stockNo;
   });
 
-  console.log(map.size)
+  console.log(Object.keys(map).length)
+  if(!fs.existsSync("ssimap.json")){
+    fs.writeFileSync("ssimap.json",JSON.stringify(map))
+    fs.writeFileSync("ssiret.json",JSON.stringify(ret))
+  }
   return ret;
 }
 

@@ -30,7 +30,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
 
 (async () => {
-  let ssiSymbol = await Exchange.SSI.getlistallsymbol2();
+  let ssiSymbol = await Exchange.SSI.getlistallsymbol3();
   let ssiCop = ssiSymbol.filter(e => { return e.stockSymbol.length == 3 }).map(e => { return { stock_code: e.stockSymbol } });
   console.table(ssiSymbol.length)
   console.table(ssiCop.length)
@@ -84,7 +84,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       case "SSI":
         dir += "./ssitrans/" + getNow() + "/";
         csv = new Parser({ fields: ["stockNo", "price", "vol", "accumulatedVol", "time", "ref", "side", "priceChange", "priceChangePercent", "changeType", "__typename"] });
-        fun = Exchange.SSI.graphql2;
+        fun = Exchange.SSI.graphql;
         dir2 = "./trans/" + getNow() + "/";
         if (!fs.existsSync(dir2)) {
           fs.mkdirSync(dir2, { recursive: true });
