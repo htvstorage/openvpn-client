@@ -296,3 +296,13 @@ nohup node script/googlemapsAPI.js 2 googlemaps/TWO.ab >> dum.log 2>&1 < /dev/nu
 
 pm2 start -f script/googlemapsAPI.js   -- 1 googlemaps/TWO.aa
 pm2 start -f script/googlemapsAPI.js   -- 2 googlemaps/TWO.ab
+
+
+for s in `ls out`; do  
+	z=`ls "out/"$s`;
+	cmd="node script/joinjson.js "$s;
+	for t in $z; do
+		cmd=$cmd" /done/out/"$s"/"$t
+	done 
+	echo $cmd
+done
