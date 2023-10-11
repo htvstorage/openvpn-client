@@ -1256,7 +1256,7 @@ Exchange.SSI.graphql2 = async function (code) {
       },
       "body": null,
       "method": "GET",
-      // agent
+      agent
     });
   }
   while (!thoat) {
@@ -1297,7 +1297,7 @@ Exchange.SSI.graphql2 = async function (code) {
 Exchange.SSI.graphql = async function (code) {
   let stockNo = map[code];
   if (stockNo == undefined) { }
-
+  //iboard-query.ssi.com.vn wgateway-iboard.ssi.com.vn
   let fetchGQL = (stockNo) => {
     return fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
       "headers": {
