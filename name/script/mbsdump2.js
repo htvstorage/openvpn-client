@@ -102,7 +102,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         dir += "./mbstrans/" + getNow() + "/";
         csv = new Parser({ fields: ['symbol', 'time', 'close', 'open', 'high', 'low', 'vol'] });
         console.log(ss)
-        fun = Exchange.MBS.pbRltCharts;
+        fun = Exchange.MBS.pbRltCharts3;
         break;
     }
 
