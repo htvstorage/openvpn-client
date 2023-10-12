@@ -1260,8 +1260,8 @@ Exchange.SSI.graphql2 = async function (code) {
     });
   }
   while (!thoat) {
-    console.log("call ", code,lastId)
-    let a = await fetchGQL(code,lastId);
+    console.log("call ", code, lastId)
+    let a = await fetchGQL(code, lastId);
     let data = await a.text();
     data = data.trim();
 
@@ -1271,7 +1271,7 @@ Exchange.SSI.graphql2 = async function (code) {
         logger.debug(data)
       }
       loi++;
-      if(loi %10 == 0) console.log("loi",loi)
+      if (loi % 10 == 0) console.log("loi", loi)
       await Exchange.wait(200);
 
       a = await fetchGQL(code, lastId);
@@ -1279,9 +1279,9 @@ Exchange.SSI.graphql2 = async function (code) {
       data = data.trim();
     }
     data = JSON.parse(data);
-    if(data.data.items.length == 0){
+    if (data.data.items.length == 0) {
       thoat = true;
-    }else{
+    } else {
       ret.push(...data.data.items);
       lastId = data.data.items.at(-1)["_id"]
     }
@@ -1299,25 +1299,30 @@ Exchange.SSI.graphql = async function (code) {
   if (stockNo == undefined) { }
   //iboard-query.ssi.com.vn wgateway-iboard.ssi.com.vn
   let fetchGQL = (stockNo) => {
-    return fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
-      "headers": {
-        "accept": "*/*",
-        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-        "content-type": "application/json",
-        "g-captcha": "",
-        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-site"
-      },
-      "referrer": "https://iboard.ssi.com.vn/",
-      "referrerPolicy": "strict-origin-when-cross-origin",
-      "body": "{\"operationName\":\"leTables\",\"variables\":{\"stockNo\":\"" + stockNo + "\"},\"query\":\"query leTables($stockNo: String) {\\n  leTables(stockNo: $stockNo) {\\n    stockNo\\n    price\\n    vol\\n    accumulatedVol\\n    time\\n    ref\\n    side\\n    priceChange\\n    priceChangePercent\\n    changeType\\n    __typename\\n  }\\n  stockRealtime(stockNo: $stockNo) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    __typename\\n  }\\n}\\n\"}",
-      "method": "POST",
-      "mode": "cors",
-      agent
-    });
+    try {
+      return fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
+        "headers": {
+          "accept": "*/*",
+          "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+          "content-type": "application/json",
+          "g-captcha": "",
+          "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-site"
+        },
+        "referrer": "https://iboard.ssi.com.vn/",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "body": "{\"operationName\":\"leTables\",\"variables\":{\"stockNo\":\"" + stockNo + "\"},\"query\":\"query leTables($stockNo: String) {\\n  leTables(stockNo: $stockNo) {\\n    stockNo\\n    price\\n    vol\\n    accumulatedVol\\n    time\\n    ref\\n    side\\n    priceChange\\n    priceChangePercent\\n    changeType\\n    __typename\\n  }\\n  stockRealtime(stockNo: $stockNo) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    __typename\\n  }\\n}\\n\"}",
+        "method": "POST",
+        "mode": "cors",
+        agent
+      });
+    } catch (error) {
+      console.log(error)
+    }
+    return "";
   }
   let a = await fetchGQL(stockNo);
   let data = await a.text();
@@ -1342,9 +1347,9 @@ Exchange.SSI.graphql = async function (code) {
 let map = {};
 Exchange.SSI.getlistallsymbol3 = async function () {
   let ret = [];
-    if(fs.existsSync("ssimap.json")){
-   let jsonmap= fs.readFileSync("ssimap.json","utf-8")
-    let retssi = fs.readFileSync("ssiret.json","utf-8")
+  if (fs.existsSync("ssimap.json")) {
+    let jsonmap = fs.readFileSync("ssimap.json", "utf-8")
+    let retssi = fs.readFileSync("ssiret.json", "utf-8")
     ret = JSON.parse(retssi)
     map = JSON.parse(jsonmap)
   }
@@ -1459,9 +1464,9 @@ Exchange.SSI.getlistallsymbol = async function () {
   });
 
   console.log(Object.keys(map).length)
-  if(!fs.existsSync("ssimap.json")){
-    fs.writeFileSync("ssimap.json",JSON.stringify(map))
-    fs.writeFileSync("ssiret.json",JSON.stringify(ret))
+  if (!fs.existsSync("ssimap.json")) {
+    fs.writeFileSync("ssimap.json", JSON.stringify(map))
+    fs.writeFileSync("ssiret.json", JSON.stringify(ret))
   }
   return ret;
 }
