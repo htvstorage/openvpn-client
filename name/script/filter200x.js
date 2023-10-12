@@ -19,7 +19,7 @@ import https from "node:https";
 import { Config } from "./config.js";
 import { rejects } from "assert";
 import { glob, globSync, globStream, globStreamSync, Glob } from 'glob'
-import { off } from "process";
+// import { off } from "process";
 
 
 
@@ -1224,23 +1224,30 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     ratioTrade = 1;
   }
 
-  let avgMbs = timeData[symbol]['avg'];
-  let found = false;
-  avgMbs.data.forEach(e=>{
-    if(e.time > timeOffset){
-      console.log(e,timeOffset)
-      found = true;
-      return false;
-    }{
-      return true;
+  if (timeData[symbol]) {
+    let avgMbs = timeData[symbol]['avg'];
+    let found = false;
+    avgMbs.data.forEach(e => {
+      if (e.time > timeOffset) {
+        console.log(e, timeOffset)
+        found = true;
+        return false;
+      } {
+        return true;
+      }
+    })
+    if (found) {
+      console.log("Found ", timeOffset, symbol)
+      avg.predictVol2 = avg.vol / ratioTrade;
     }
-  })
+    else
+      console.log("Not found ", timeOffset, symbol)
+  }
+
   avg.predictVol = avg.vol / ratioTrade;
   avg.predictVal = avg.val / ratioTrade;
-  if(found)
-    avg.predictVol2 = avg.vol / ratioTrade;
-  else
-    console.log("Not found ",timeOffset)
+  console.log(symbol, avg.predictVol, found)
+
 
   // console.log(symbol,avg.vol,avg.predictVol,avg.val,avg.predictVal)
 
