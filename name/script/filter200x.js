@@ -1242,11 +1242,12 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     }
     else
       console.log("Not found ", timeOffset, symbol)
+      // console.log(symbol, avg.predictVol, found)
   }
 
   avg.predictVol = avg.vol / ratioTrade;
   avg.predictVal = avg.val / ratioTrade;
-  console.log(symbol, avg.predictVol, found)
+  
 
 
   // console.log(symbol,avg.vol,avg.predictVol,avg.val,avg.predictVal)
