@@ -128,7 +128,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     }
     let maxSize = 100;
     if (ss.toUpperCase() == "TCBS") maxSize = 50
-    if (ss.toUpperCase() == "SSI") maxSize = 20
+    if (ss.toUpperCase() == "SSI") maxSize = 50
     logger.debug("Done remove directory ", dir);
 
     let stat = { req: 0, res: 0, record: 0 }

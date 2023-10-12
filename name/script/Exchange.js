@@ -1,4 +1,4 @@
-import fetch from "node-fetch";
+import fetch from "node-fetch-retry";
 import fs from "fs";
 import log4js from "log4js";
 import http from "node:http";
@@ -1234,48 +1234,74 @@ Exchange.SSI.graphql2 = async function (code) {
   let lastId = null;
   let ret = []
   let thoat = false;
-  console.log("Fetch ", code)
+  // console.log("Fetch ", code)
   let fetchGQL = (code, lastId) => {
-    return fetch("https://iboard-query.ssi.com.vn/le-table?stockSymbol=" + code + "&pageSize=100" + (lastId != null ? "&lastId=" + lastId : ""), {
-      "headers": {
-        "accept": "application/json, text/plain, */*",
-        "accept-language": "vi",
-        "device-id": "46BB5AD1-359C-444A-858E-8F4C4A74EF39",
-        "if-none-match": "W/\"288b-xN75TdtPT7CSGqFuv05NynhPi10\"",
-        "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjM5NjY4NDAiLCJhcCI6IjU5NDQzMzA3MiIsImlkIjoiZGFkNjg3MzVkNTk3YmY4MiIsInRyIjoiMDAzNGI2OGMyOTVhNGY1NjI0MzU3YzAxMWE5MzM3MDAiLCJ0aSI6MTY5Njk1NjYwMjc2Mn19",
-        "sec-ch-ua": "\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "\"Windows\"",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-site",
-        "traceparent": "00-0034b68c295a4f5624357c011a933700-dad68735d597bf82-01",
-        "tracestate": "3966840@nr=0-1-3966840-594433072-dad68735d597bf82----1696956602762",
-        "Referer": "https://iboard.ssi.com.vn/",
-        "Referrer-Policy": "strict-origin-when-cross-origin"
-      },
-      "body": null,
-      "method": "GET",
-      agent
-    });
-  }
+    try {
+      return fetch("https://iboard-query.ssi.com.vn/le-table?stockSymbol=" + code + "&pageSize=100" + (lastId != null ? "&lastId=" + lastId : ""), {
+        retryOptions: {
+          retryMaxDuration: 30000, // 5min retry duration
+          socketTimeout: 6000, //  60s socket timeout
+        },
+        retry: 9,
+        pause: 1000,
+        silent: true,
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "accept-language": "vi",
+          "device-id": "46BB5AD1-359C-444A-858E-8F4C4A74EF39",
+          "if-none-match": "W/\"288b-xN75TdtPT7CSGqFuv05NynhPi10\"",
+          "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjM5NjY4NDAiLCJhcCI6IjU5NDQzMzA3MiIsImlkIjoiZGFkNjg3MzVkNTk3YmY4MiIsInRyIjoiMDAzNGI2OGMyOTVhNGY1NjI0MzU3YzAxMWE5MzM3MDAiLCJ0aSI6MTY5Njk1NjYwMjc2Mn19",
+          "sec-ch-ua": "\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "sec-fetch-dest": "empty",
+          "sec-fetch-mode": "cors",
+          "sec-fetch-site": "same-site",
+          "traceparent": "00-0034b68c295a4f5624357c011a933700-dad68735d597bf82-01",
+          "tracestate": "3966840@nr=0-1-3966840-594433072-dad68735d597bf82----1696956602762",
+          "Referer": "https://iboard.ssi.com.vn/",
+          "Referrer-Policy": "strict-origin-when-cross-origin"
+        },
+        "body": null,
+        "method": "GET",
+        agent
+      });
+    } catch (error) {
+      console.log("ERROR", error)
+    }
+    return {
+      async text() {
+        return "";
+      }
+    }
+  }  
   while (!thoat) {
-    console.log("call ", code, lastId)
+    // console.log("call ", code, lastId)
     let a = await fetchGQL(code, lastId);
-    let data = await a.text();
+    let data = "";
+    try {
+      data = await a.text();
+    } catch (error) {
+      console.log("TEXT", error)
+    }
     data = data.trim();
 
-    let loi = 0;
+    let loi = 0;    
     while (!(data.startsWith("{") && data.endsWith("}"))) {
       if (logger.isDebugEnabled) {
-        logger.debug(data)
+        // logger.debug(data)
       }
       loi++;
       if (loi % 10 == 0) console.log("loi", loi)
       await Exchange.wait(200);
 
       a = await fetchGQL(code, lastId);
-      data = await a.text();
+      try {
+        data = await a.text();
+      } catch (error) {
+        console.log("TEXT", error)
+      }
+      data = data.trim();
       data = data.trim();
     }
     data = JSON.parse(data);
@@ -1301,6 +1327,13 @@ Exchange.SSI.graphql = async function (code) {
   let fetchGQL = (stockNo) => {
     try {
       return fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
+        retryOptions: {
+          retryMaxDuration: 30000, // 5min retry duration
+          socketTimeout: 6000, //  60s socket timeout
+        },
+        retry: 9,
+        pause: 1000,
+        silent: true,
         "headers": {
           "accept": "*/*",
           "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -1322,10 +1355,19 @@ Exchange.SSI.graphql = async function (code) {
     } catch (error) {
       console.log(error)
     }
-    return "";
+    return {
+      async text() {
+        return "";
+      }
+    }
   }
   let a = await fetchGQL(stockNo);
-  let data = await a.text();
+  let data = "";
+  try {
+    data = await a.text();
+  } catch (error) {
+    console.log("TEXT", error)
+  }
   data = data.trim();
 
   while (!(data.startsWith("{") && data.endsWith("}"))) {
@@ -1335,7 +1377,12 @@ Exchange.SSI.graphql = async function (code) {
     await Exchange.wait(200);
 
     a = await fetchGQL(stockNo);
-    data = await a.text();
+    data = "";
+    try {
+      data = await a.text();
+    } catch (error) {
+      console.log("TEXT", error)
+    }
     data = data.trim();
   }
   // Exchange.wait()
