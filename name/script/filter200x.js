@@ -396,7 +396,7 @@ async function industry() {
     let ne = mapSymbol[e.symbol];
 
     // if (ne.pb > e.pb && ne.pe > e.pe) {
-    if(!ne)return true;
+    if (!ne) return true;
     e.industryCode = ne.industryCode;
     e.name = ne.name;
     e.ipb = ne.pb;
@@ -529,6 +529,83 @@ async function busd2() {
 }
 
 busd2();
+
+let timeData = {};
+export async function loadMbs() {
+  console.log("Load mbs data")
+  const jsfiles = await glob('./mbs/*.txt', { ignore: 'profile/busd.json' })
+  let mapFiles = {}
+  let totalFiles = 0;
+
+
+  jsfiles.forEach(
+    e => {
+
+      let symbol = e.slice(e.lastIndexOf("/") + 1, e.indexOf("_"))
+      timeData[symbol] = {}
+      // console.log(e, symbol)
+      let data = fs.readFileSync(e, "utf8");
+      data = data.split('\n').filter(e => e.length > 0).map(e => e.split(","));
+      let head = data[0].map(e => e.replaceAll('"', ''));
+      data = data.slice(1)
+      // console.table(data.slice(0,10))
+      let odata = data.map(e => {
+        let ne = {};
+        e.forEach((ee, i) => {
+          if (head[i] == 'symbol') {
+            ne[head[i]] = ee.replaceAll('"', '');
+          } else {
+            ne[head[i]] = +ee;
+          }
+        })
+        return ne;
+      })
+      let total = 0;
+      odata.forEach(e => {
+        let time = Math.round(e.time / (24 * 60 * 60)) * 24 * 60 * 60
+        if (!timeData[symbol][time]) timeData[symbol][time] = { data: [], total: 0 }
+        timeData[symbol][time].total += e.vol
+        timeData[symbol][time].data.push({ symbol: e.symbol, time: e.time, vol: e.vol, total: timeData[symbol][time].total })
+      })
+
+
+      let avg = { data: [], total: 0 }
+      let a = {}
+      Object.keys(timeData[symbol]).forEach((time, i) => {
+        let o = timeData[symbol][time];
+        o.data.forEach(e => {
+          if (!a[e.time - time]) a[e.time - time] = { symbol: e.symbol, time: e.time - time, vol: 0, total: 0 };
+
+          a[e.time - time].vol += e.vol;
+        })
+      })
+      let key = Object.keys(a).sort((a, b) => {
+        return a - b
+      });
+
+      let a1 = []
+      total = 0;
+      let days = Object.keys(timeData[symbol]).length
+      key.forEach(k => {
+        total += a[k].vol;
+        a[k].total = total;
+        a1.push({ ...a[k], avgVol: (a[k].vol / days), avgTotal: (a[k].total / days) })
+      })
+
+
+      // console.table(odata.slice(0,10))
+      // console.table(timeData[symbol])
+      timeData[symbol]['avg'] = { data: a1, total: total, days: days };
+      if (symbol == 'HPG') {
+        console.table(timeData[symbol])
+        console.table(a1)
+      }
+    }
+  )
+  console.log("Done load mbs")
+}
+
+loadMbs()
 
 let tpcp = await Exchange.tpcp();
 (async () => {
@@ -1099,7 +1176,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   // console.log(checkTime, downloadDate)
   let ratioTrade = 1;
 
-
+  let timeOffset = 0;
+  timeOffset = Date.now() / 1000 - Math.round(Date.now() / 1000 / 24 / 60 / 60) * 24 * 60 * 60;
   if (checkTime.getFullYear() == downloadDate.getFullYear() &&
     checkTime.getMonth() == downloadDate.getMonth() &&
     checkTime.getDate() == downloadDate.getDate()) {
@@ -1112,6 +1190,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     let p3 = 13 * 60 * 60
     let p4 = 14 * 60 * 60 + 45 * 60;
     let p5 = 15 * 60 * 60;
+
+
 
     // h = 15;
     // m = 47
@@ -1143,8 +1223,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     ratioTrade = 1;
   }
 
+  let avgMbs = timeData[symbol]['avg'];
+
   avg.predictVol = avg.vol / ratioTrade;
   avg.predictVal = avg.val / ratioTrade;
+  avg.predictVol2 = avg.vol / ratioTrade;
 
   // console.log(symbol,avg.vol,avg.predictVol,avg.val,avg.predictVal)
 
