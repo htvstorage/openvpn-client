@@ -1686,6 +1686,79 @@ Exchange.MBS.pbRltCharts = async function (code, resolution) {
   return { Code: code, data: out, };
 }
 
+
+Exchange.MBS.pbRltCharts3 = async function (code, resolution) {
+  // console.log("resolution",resolution)
+  let start = 1421028900;
+  let end = Math.floor(Date.now() / 1000);
+  start = end - 5 * 24*60*60;
+  let delta = 12 * 30 * 24 * 60 * 60;
+  let end2 = start + delta;
+  let out = { t: [], v: [], o: [], c: [], h: [], l: [] };
+  let resol = ["1", "5", "60", "D"]
+  if (!resol.includes(resolution)) {
+    resolution = "5";
+  }
+  // console.log("resolution",resolution)
+  let uq = {};
+  while (true) {
+    let a = await fetch("https://chartdata1.mbs.com.vn/pbRltCharts/chart/v2/history?symbol=" + code + "&resolution=" + resolution + "&from=" + start + "&to=" + end2, {
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+        "content-type": "text/plain",
+        "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site"
+      },
+      "referrer": "https://sweb.mbs.com.vn/",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "body": null,
+      "method": "GET",
+      "mode": "cors",
+      agent
+    });
+    let z = await a.json();
+    // console.log(code,z.t.length)
+    if (z.t.length == 0) {
+      if (end - start <= 0) {
+        break;
+      }
+      start = end2;
+      end2 = start + delta;
+      await Exchange.wait(100);
+    } else {
+      // out.t.push(...z.t);
+      // out.v.push(...z.v);
+      // out.o.push(...z.o);
+      // out.c.push(...z.c);
+      // out.h.push(...z.h);
+      // out.l.push(...z.l);
+      z.t.forEach((t, i) => {
+        if (uq[t] == undefined) {
+          uq[t] = { t: z.t[i], v: z.v[i], o: z.o[i], c: z.c[i], h: z.h[i], l: z.l[i] };
+          out.t.push(z.t[i]);
+          out.v.push(z.v[i]);
+          out.o.push(z.o[i]);
+          out.c.push(z.c[i]);
+          out.h.push(z.h[i]);
+          out.l.push(z.l[i]);
+        }
+      });
+      if (start == z.t.at(-1)) start = end2;
+      else start = z.t.at(-1);
+      end2 = start + delta;
+    }
+  }
+
+  out = out.t.map((e, i) => {
+    return { symbol: code, time: out.t[i], close: out.c[i], open: out.o[i], high: out.h[i], low: out.l[i], vol: out.v[i] }
+  })
+  return { Code: code, data: out, };
+}
+
 Exchange.MBS.pbRltCharts2 = async function (code, resolution, from) {
   // console.log("resolution",resolution)
   let start = from;

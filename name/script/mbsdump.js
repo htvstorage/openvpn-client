@@ -33,7 +33,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   await Exchange.SSI.getlistallsymbol();
   var args = process.argv.slice(2);
   let vss = null;
-  let resolution = "5"
+  let resolution = null;
   for (let v of args) {
     if (v.includes("stock="))
       vss = v;
@@ -42,7 +42,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   }
   resolution = resolution == null ? "5" : resolution.substring("resolution=".length);
   let ss = vss == null ? "24HMONEY" : vss.substring("stock=".length);
-
+  console.log(vss,ss,resolution)
   let cop = [];
 
   let requested = 0;
@@ -101,7 +101,8 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
       case "MBS":
         dir += "./mbstrans/" + getNow() + "/";
         csv = new Parser({ fields: ['symbol', 'time', 'close', 'open', 'high', 'low', 'vol'] });
-        fun = Exchange.MBS.pbRltCharts;
+        console.log(ss)
+        fun = Exchange.MBS.pbRltCharts3;
         break;
     }
 
@@ -129,6 +130,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
         await wait(200);
       }
       stat.req++;
+      // console.log(fun)
       let z = fun(x.Code, resolution);
       requested++;
       localReq++;
