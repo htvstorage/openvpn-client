@@ -538,7 +538,7 @@ function tradetime(ex, dr) {
   const m = duration.minutes();
   const s = duration.seconds();
 
-  console.log(`Số giờ: ${h}, Số phút: ${m}, Số giây: ${s}`);
+  // console.log(`Số giờ: ${h}, Số phút: ${m}, Số giây: ${s}`);
   let p1 = 9 * 60 * 60;
   let p2 = 11 * 60 * 60 + 30 * 60
   let p3 = 13 * 60 * 60
@@ -562,7 +562,7 @@ function tradetime(ex, dr) {
 }
 
 let timeData = {};
-export async function loadMbs() {
+export async function loadMbs(mapSymbol) {
   console.log("Load mbs data")
   const jsfiles = await glob('./mbs/*.txt', { ignore: 'profile/busd.json' })
   let mapFiles = {}
@@ -624,72 +624,99 @@ export async function loadMbs() {
       })
 
 
+
       // console.table(odata.slice(0,10))
       // console.table(timeData[symbol])
       timeData[symbol]['avg'] = { data: a1, total: total, days: days };
+
       if (symbol == 'HPG') {
         // console.table(timeData[symbol])
-        // console.table(a1)
-      }
-      if (symbol == 'SSI') {
-        console.table(timeData[symbol])
-        let k = timeData[symbol]
-        let x = []
-        let y = []
-        a1.forEach(e => {
-          e.tradetime = tradetime('HOSE', (e.time * 1000 + 7 * 60 * 60 * 1000))
-          // regdata.push([e.tradetime.tradetime,e.avgTotal])
-          x.push(e.tradetime.tradetime)
-          y.push(e.avgTotal)
-        })
-
-        // console.table(x)
-        // console.table(y)
-        // const regression = simplestat.linearRegression([x, y]);
-
-        // // Hệ số a và b
-        // const a = regression.m;
-        // const b = regression.b;
-        const result = regression.linear(x.map((val, index) => [val, y[index]]));
-
-        // Lấy hệ số a và b từ kết quả hồi quy
-        const a = result.equation[0];
-        const b = result.equation[1];
-        
-
-        console.log("a",a,"b",b)
         console.table(a1)
-        let check = []
-        x.forEach((e,i)=>{
-          let y1 = a*e+b;
-          check.push([e,y[i],y1])
-        })
-        console.table(check)
-        let tt = timeData[symbol]['1696982400']
-        
-        tt.data.forEach((e,i)=>{
-          let tttime = tradetime('HOSE', (e.time * 1000 + 7 * 60 * 60 * 1000))
-          
-          let tttime2 = tradetime('HOSE', (1697096700 * 1000 + 7 * 60 * 60 * 1000))
-          console.log(tttime)
-          e.predictTotal = (a*tttime.tradetime + b)
-          e.predictTotal2 = (a*tttime2.tradetime)*e.total/a1[i].avgTotal  + b
-          e.predictTotal3 = (tttime2.total/tttime.tradetime)*e.total
-          e.diff = e.predictTotal - e.total;
-        })
-
-
-        
-        let p = tt.data[12];
-        console.table(tradetime('HOSE', (p.time * 1000 + 7 * 60 * 60 * 1000)))
-        console.table(tt.data)
       }
+
+      // console.table(timeData[symbol])
+      // let k = timeData[symbol]
+      let x = []
+      let y = []
+      a1.forEach(e => {
+        let exch = mapSymbol[symbol]
+        if (!exch) exch = 'HOSE'
+        e.tradetime = tradetime(exch, (e.time * 1000 + 7 * 60 * 60 * 1000));
+        x.push(e.tradetime.tradetime)
+        y.push(e.avgTotal)
+      })
+
+      const result = regression.linear(x.map((val, index) => [val, y[index]]));
+      const A = result.equation[0];
+      const B = result.equation[1];
+
+      timeData[symbol]['avg'].A = A;
+      timeData[symbol]['avg'].B = B;
+
+      if (symbol == 'HPG') {
+        // console.table(a1)
+        // console.table(timeData[symbol]['avg'])
+      }
+
+      // if (symbol == 'VNINDEX') {
+      //   console.table(timeData[symbol])
+      //   let k = timeData[symbol]
+      //   let x = []
+      //   let y = []
+      //   a1.forEach(e => {
+      //     e.tradetime = tradetime('HOSE', (e.time * 1000 + 7 * 60 * 60 * 1000))
+      //     // regdata.push([e.tradetime.tradetime,e.avgTotal])
+      //     x.push(e.tradetime.tradetime)
+      //     y.push(e.avgTotal)
+      //   })
+
+      //   // console.table(x)
+      //   // console.table(y)
+      //   // const regression = simplestat.linearRegression([x, y]);
+
+      //   // // Hệ số a và b
+      //   // const a = regression.m;
+      //   // const b = regression.b;
+      //   const result = regression.linear(x.map((val, index) => [val, y[index]]));
+
+      //   // Lấy hệ số a và b từ kết quả hồi quy
+      //   const a = result.equation[0];
+      //   const b = result.equation[1];
+
+
+      //   console.log("a", a, "b", b)
+      //   console.table(a1)
+      //   let check = []
+      //   x.forEach((e, i) => {
+      //     let y1 = a * e + b;
+      //     check.push([e, y[i], y1])
+      //   })
+      //   console.table(check)
+      //   let tt = timeData[symbol]['1696982400']
+
+      //   tt.data.forEach((e, i) => {
+      //     let tttime = tradetime('HOSE', (e.time * 1000 + 7 * 60 * 60 * 1000))
+
+      //     let tttime2 = tradetime('HOSE', (1697096700 * 1000 + 7 * 60 * 60 * 1000))
+      //     console.log(tttime)
+      //     e.predictTotal = (a * tttime.tradetime + b)
+      //     e.predictTotal2 = (a * tttime2.tradetime + b) * e.total / a1[i].avgTotal
+      //     e.predictTotal3 = (tttime2.total / tttime.tradetime) * e.total
+      //     e.diff = e.predictTotal - e.total;
+      //   })
+
+
+
+      //   let p = tt.data[12];
+      //   console.table(tradetime('HOSE', (p.time * 1000 + 7 * 60 * 60 * 1000)))
+      //   console.table(tt.data)
+      // }
     }
   )
   console.log("Done load mbs")
 }
 
-loadMbs()
+
 
 let tpcp = await Exchange.tpcp();
 (async () => {
@@ -738,9 +765,11 @@ let tpcp = await Exchange.tpcp();
     }
   })
 
+
   mapSymbol["VN30"] = "HOSE"
   mapSymbol["VNINDEX"] = "HOSE"
 
+  await loadMbs(mapSymbol)
 
   let dir = "./his/";
   if (!fs.existsSync(dir)) {
@@ -1260,8 +1289,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
   // console.log(checkTime, downloadDate)
   let ratioTrade = 1;
 
-  let timeOffset = 0;
-  timeOffset = Date.now() / 1000 - Math.round(Date.now() / 1000 / 24 / 60 / 60) * 24 * 60 * 60;
+
   if (checkTime.getFullYear() == downloadDate.getFullYear() &&
     checkTime.getMonth() == downloadDate.getMonth() &&
     checkTime.getDate() == downloadDate.getDate()) {
@@ -1307,25 +1335,40 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     ratioTrade = 1;
   }
 
+  let timeOffset = 0;
+  timeOffset = Date.now() / 1000 - Math.round(Date.now() / 1000 / 24 / 60 / 60) * 24 * 60 * 60;
+  timeOffset = 10800 + 177;
+
+  // console.log("Time offset ", timeOffset)
   if (timeData[symbol]) {
     let avgMbs = timeData[symbol]['avg'];
     let found = false;
-    avgMbs.data.forEach(e => {
+    avgMbs.data.every(e => {
       if (e.time > timeOffset) {
-        // console.log(e, timeOffset)
+        if(symbol == 'HPG' || symbol == 'VNINDEX'|| symbol == 'VN30')
+        console.log(e, timeOffset, avgMbs.data.at(-1))
+        let exch = mapSymbol[symbol];
+        if (!exch) exch = 'HOSE'
+        let timetrade = tradetime(mapSymbol[symbol], (timeOffset * 1000 + 7 * 60 * 60 * 1000))
+        // let timeotrade = tradetime(mapSymbol[symbol], (e.time * 1000 + 7 * 60 * 60 * 1000))
         found = true;
+        let A = avgMbs.A;
+        let B = avgMbs.B;
+        // avg.predictVolBy = avg.vol / ratioTrade;
+        avg.predictVolByABVol = (A * timetrade.tradetime + B) * (avg.vol / timetrade.tradetime) / (e.avgTotal / e.tradetime.tradetime)
+        avg.predictVolByVolAvg = avgMbs.data.at(-1).avgTotal * (avg.vol / timetrade.tradetime) / (e.avgTotal / e.tradetime.tradetime)
+        if(symbol == 'HPG' || symbol == 'VNINDEX'|| symbol == 'VN30')
+        {
+          console.log(avg.vol, timetrade.tradetime,e.avgTotal,e.tradetime.tradetime )
+          // moment.duration()
+        }
+        //     e.predictTotal3 = (tttime2.total / tttime.tradetime) * e.total
+
         return false;
       } {
         return true;
       }
     })
-    if (found) {
-      console.log("Found ", timeOffset, symbol)
-      avg.predictVol2 = avg.vol / ratioTrade;
-    }
-    else
-      console.log("Not found ", timeOffset, symbol)
-    // console.log(symbol, avg.predictVol, found)
   }
 
   avg.predictVol = avg.vol / ratioTrade;
