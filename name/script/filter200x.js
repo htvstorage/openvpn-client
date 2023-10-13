@@ -7,7 +7,7 @@ import IchimokuCloud from 'technicalindicators'
 import path from "path";
 import { Symbol, Stock } from "./StockData.js";
 import { Exchange } from "./Exchange.js";
-import { filter } from "mathjs";
+// import { filter } from "mathjs";
 import { Console } from 'node:console'
 import { Transform } from 'node:stream'
 import { e } from "mathjs";
@@ -19,8 +19,9 @@ import https from "node:https";
 import { Config } from "./config.js";
 import { rejects } from "assert";
 import { glob, globSync, globStream, globStreamSync, Glob } from 'glob'
-// import { off } from "process";
-
+import moment from "moment"
+import * as simplestat from 'simple-statistics';
+import regression from 'regression';
 
 
 const httpAgent = new http.Agent({ keepAlive: true });
@@ -531,6 +532,35 @@ async function busd2() {
 
 busd2();
 
+function tradetime(ex, dr) {
+  const duration = moment.duration(dr);
+  const h = duration.hours();
+  const m = duration.minutes();
+  const s = duration.seconds();
+
+  console.log(`Số giờ: ${h}, Số phút: ${m}, Số giây: ${s}`);
+  let p1 = 9 * 60 * 60;
+  let p2 = 11 * 60 * 60 + 30 * 60
+  let p3 = 13 * 60 * 60
+  let p4 = 14 * 60 * 60 + 45 * 60;
+  let p5 = 15 * 60 * 60;
+
+  let p = h * 60 * 60 + m * 60 + s;
+  let tradetime = 0;
+  if (p >= p1 && p <= p2) tradetime = p - p1;
+  if (p > p2 && p < p3) tradetime = p2 - p1;
+  if (p >= p3 && p <= p4) tradetime = p2 - p1 + p - p3;
+  if (p > p4 && ex != "UPCOM") tradetime = p2 - p1 + p4 - p3;
+  if (ex == "UPCOM" && p > p4 && p <= p5) {
+    tradetime = p2 - p1 + p - p3;
+  }
+  if (ex == "UPCOM" && p > p5) {
+    tradetime = p2 - p1 + p5 - p3;
+  }
+  let total = ex == "UPCOM" ? p2 - p1 + p5 - p3 : p2 - p1 + p4 - p3;
+  return { tradetime: tradetime, total: total }
+}
+
 let timeData = {};
 export async function loadMbs() {
   console.log("Load mbs data")
@@ -598,8 +628,61 @@ export async function loadMbs() {
       // console.table(timeData[symbol])
       timeData[symbol]['avg'] = { data: a1, total: total, days: days };
       if (symbol == 'HPG') {
+        // console.table(timeData[symbol])
+        // console.table(a1)
+      }
+      if (symbol == 'SSI') {
         console.table(timeData[symbol])
+        let k = timeData[symbol]
+        let x = []
+        let y = []
+        a1.forEach(e => {
+          e.tradetime = tradetime('HOSE', (e.time * 1000 + 7 * 60 * 60 * 1000))
+          // regdata.push([e.tradetime.tradetime,e.avgTotal])
+          x.push(e.tradetime.tradetime)
+          y.push(e.avgTotal)
+        })
+
+        // console.table(x)
+        // console.table(y)
+        // const regression = simplestat.linearRegression([x, y]);
+
+        // // Hệ số a và b
+        // const a = regression.m;
+        // const b = regression.b;
+        const result = regression.linear(x.map((val, index) => [val, y[index]]));
+
+        // Lấy hệ số a và b từ kết quả hồi quy
+        const a = result.equation[0];
+        const b = result.equation[1];
+        
+
+        console.log("a",a,"b",b)
         console.table(a1)
+        let check = []
+        x.forEach((e,i)=>{
+          let y1 = a*e+b;
+          check.push([e,y[i],y1])
+        })
+        console.table(check)
+        let tt = timeData[symbol]['1696982400']
+        
+        tt.data.forEach((e,i)=>{
+          let tttime = tradetime('HOSE', (e.time * 1000 + 7 * 60 * 60 * 1000))
+          
+          let tttime2 = tradetime('HOSE', (1697096700 * 1000 + 7 * 60 * 60 * 1000))
+          console.log(tttime)
+          e.predictTotal = (a*tttime.tradetime + b)
+          e.predictTotal2 = (a*tttime2.tradetime)*e.total/a1[i].avgTotal  + b
+          e.predictTotal3 = (tttime2.total/tttime.tradetime)*e.total
+          e.diff = e.predictTotal - e.total;
+        })
+
+
+        
+        let p = tt.data[12];
+        console.table(tradetime('HOSE', (p.time * 1000 + 7 * 60 * 60 * 1000)))
+        console.table(tt.data)
       }
     }
   )
@@ -1229,7 +1312,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     let found = false;
     avgMbs.data.forEach(e => {
       if (e.time > timeOffset) {
-        console.log(e, timeOffset)
+        // console.log(e, timeOffset)
         found = true;
         return false;
       } {
@@ -1242,12 +1325,12 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     }
     else
       console.log("Not found ", timeOffset, symbol)
-      // console.log(symbol, avg.predictVol, found)
+    // console.log(symbol, avg.predictVol, found)
   }
 
   avg.predictVol = avg.vol / ratioTrade;
   avg.predictVal = avg.val / ratioTrade;
-  
+
 
 
   // console.log(symbol,avg.vol,avg.predictVol,avg.val,avg.predictVal)
