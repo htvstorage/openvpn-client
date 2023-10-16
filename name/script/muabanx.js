@@ -575,7 +575,7 @@ async function processData() {
               let prop = ['sd', 'bu', 'uk', 'val_sd', 'val_bu', 'val_uk', 'sum_vol', 'val']
 
               prop.forEach(p => {
-                let vv = ((v[p] == undefined) ? 0 : v[p]);
+                let vv = ((v[p] == undefined || Number.isNaN(v[p])) ? 0 : v[p]);                
                 e[p] = (e[p] == undefined) ? vv : e[p] + vv;
               })
               e.date = (new Date(k)).toISOString();
@@ -652,7 +652,7 @@ async function processData() {
               let prop = ['sd', 'bu', 'uk', 'val_sd', 'val_bu', 'val_uk', 'sum_vol', 'val']
 
               prop.forEach(p => {
-                let vv = ((v[p] == undefined) ? 0 : v[p]);
+                let vv = ((v[p] == undefined ||  Number.isNaN(v[p])) ? 0 : v[p]);
                 e[p] = (e[p] == undefined) ? vv : e[p] + vv;
               })
               e.date = (new Date(k)).toISOString();
@@ -1226,8 +1226,13 @@ async function processData() {
               })
               return str;
             }
-            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_MAX_BU_" + datekey + ".xlsx", max.bu)
-            writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_MAX_SD_" + datekey + ".xlsx", max.sd)
+            try {
+              writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_MAX_BU_" + datekey + ".xlsx", max.bu)
+              writeArrayJson2Xlsx(dir + "VNINDEX" + "_" + floor + "_MAX_SD_" + datekey + ".xlsx", max.sd)  
+            } catch (error) {
+              
+            }
+            
 
             // console.log(table(max.bu));
             // console.log(table(max.sd));
@@ -1306,7 +1311,11 @@ async function processOne(file, symbolExchange, out, stat, resolve, totalFile, o
           if (x.datetime > (Date.now() + 7 * 60 * 60 * 1000)) {
             console.log(symbol, file, e)
           }
-        }
+        }        
+      }
+      if(x.side == "") {
+        x.side = "unknown"
+        // console.log(symbol,symbolExchange)
       }
       return x;
     })
