@@ -15,9 +15,10 @@ let mapData = {}
 let count =0;
 let stat = {req:0,res:0,total:symbols.length}
 for(let s of symbols){
-    while(stat.req - stat.res >= 1){
+    while(stat.req - stat.res >= 30){
         await wait(100)
     }
+    try{
     let stockNo=map[s]
     let a = fetchWithTimeout("https://wgateway-iboard.ssi.com.vn/graphql", {
         "headers": {
@@ -43,6 +44,9 @@ for(let s of symbols){
         stat.res++;
         console.log(s,count++,"/",symbols.length,data.length)
     })
+    }catch(error){
+        console.log(error)
+    }
     // let z = await a.text()
     // mapData[s]=z;
    
@@ -77,7 +81,7 @@ else {
 
 
 async function fetchWithTimeout(resource, options = {}) {
-    const { timeout = 800 } = options;
+    const { timeout = 1500 } = options;
     
     const controller = new AbortController();
     const id = setTimeout(() => controller.abort(), timeout);
