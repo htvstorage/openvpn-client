@@ -19,7 +19,7 @@ for(let s of symbols){
         await wait(100)
     }
     let stockNo=map[s]
-    let a = fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
+    let a = fetchWithTimeout("https://wgateway-iboard.ssi.com.vn/graphql", {
         "headers": {
             "accept": "*/*",
             "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
@@ -48,7 +48,7 @@ for(let s of symbols){
    
 }
 
-while(stat.req - stat.res >= 1){
+while(stat.req - stat.res >= 40){
     await wait(100)
 }
 
@@ -76,3 +76,17 @@ else {
 }  
 
 
+async function fetchWithTimeout(resource, options = {}) {
+    const { timeout = 800 } = options;
+    
+    const controller = new AbortController();
+    const id = setTimeout(() => controller.abort(), timeout);
+  
+    const response = await fetch(resource, {
+      ...options,
+      signal: controller.signal  
+    });
+    clearTimeout(id);
+  
+    return response;
+  }
