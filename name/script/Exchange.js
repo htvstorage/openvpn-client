@@ -1339,11 +1339,14 @@ Exchange.SSI.graphql = async function (code) {
           "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
           "content-type": "application/json",
           "g-captcha": "",
-          "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+          "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
           "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
           "sec-fetch-dest": "empty",
           "sec-fetch-mode": "cors",
-          "sec-fetch-site": "same-site"
+          "sec-fetch-site": "same-site",
+          "Referer": "https://iboard.ssi.com.vn/",
+          "Referrer-Policy": "strict-origin-when-cross-origin"
         },
         "referrer": "https://iboard.ssi.com.vn/",
         "referrerPolicy": "strict-origin-when-cross-origin",

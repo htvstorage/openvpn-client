@@ -1337,7 +1337,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
 
   let timeOffset = 0;
   timeOffset = Date.now() / 1000 - Math.round(Date.now() / 1000 / 24 / 60 / 60) * 24 * 60 * 60;
-  timeOffset = 10800 + 177;
+  // timeOffset = 10800 + 177;
 
   // console.log("Time offset ", timeOffset)
   if (timeData[symbol]) {
