@@ -7,62 +7,53 @@ function wait(ms) {
         }, ms);
     });
 }
-
 async function fetchWithTimeout(resource, options = {}) {
-    const { timeout = 8000 } = options;
-
+    const { timeout = 800 } = options;
     const controller = new AbortController();
     const id = setTimeout(() => controller.abort(), timeout);
-
     const response = await fetch(resource, {
         ...options,
         signal: controller.signal
     });
     clearTimeout(id);
-
     return response;
 }
 
-
-
 let symbols = Object.keys(map)
 symbols = symbols.filter(s => s.length == 3)
-
-// console.table(symbols)
 let mapData = {}
 let count = 0;
 let stat = { req: 0, res: 0, total: symbols.length }
 let toData = []
 for (let s of symbols) {
-    while (stat.req - stat.res >= 50) {
+    while (stat.req - stat.res >= 1) {
         await wait(100)
     }
     try {
         let stockNo = map[s]
-        let a = fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
+        let a = fetchWithTimeout("https://bgapidatafeed.vps.com.vn/getliststocktrade/"+s, {
             "headers": {
-                "accept": "*/*",
-                "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-                "content-type": "application/json",
-                "g-captcha": "",
-                "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-                "sec-ch-ua-mobile": "?0",
-                "sec-fetch-dest": "empty",
-                "sec-fetch-mode": "cors",
-                "sec-fetch-site": "same-site"
+              "accept": "application/json, text/plain, */*",
+              "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+              "if-none-match": "W/\"4e78f-Zl8C9ha8cKwGxcPAemacv7sIqZY\"",
+              "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+              "sec-ch-ua-mobile": "?0",
+              "sec-ch-ua-platform": "\"Windows\"",
+              "sec-fetch-dest": "empty",
+              "sec-fetch-mode": "cors",
+              "sec-fetch-site": "same-site",
+              "Referer": "https://banggia.vps.com.vn/",
+              "Referrer-Policy": "strict-origin-when-cross-origin"
             },
-            "referrer": "https://iboard.ssi.com.vn/",
-            "referrerPolicy": "strict-origin-when-cross-origin",
-            "body": "{\"operationName\":\"leTables\",\"variables\":{\"stockNo\":\"" + stockNo + "\"},\"query\":\"query leTables($stockNo: String) {\\n  leTables(stockNo: $stockNo) {\\n    stockNo\\n    price\\n    vol\\n    accumulatedVol\\n    time\\n    ref\\n    side\\n    priceChange\\n    priceChangePercent\\n    changeType\\n    __typename\\n  }\\n  stockRealtime(stockNo: $stockNo) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    __typename\\n  }\\n}\\n\"}",
-            "method": "POST",
-            "mode": "cors",
-        });
+            "body": null,
+            "method": "GET"
+          });
         stat.req++;
         a.then(res => res.text()).then(data => {
             data=data.trim()
             stat.res++;
             console.log(s, count++, "/", symbols.length, data.length)
-            if (!(data.startsWith("{") && data.endsWith("}"))){
+            if (!(data.startsWith("[") && data.endsWith("]"))){
                 return;
             }
             mapData[s] = data;
@@ -95,7 +86,7 @@ var file;
 var data = [];
 data.push(JSON.stringify(mapData))
 var properties = { type: 'text/plain' };
-filename = "ssi_"+getNow()+"_"+Date.now()+".json"
+filename = "vps_"+getNow()+"_"+Date.now()+".json"
 try {
     file = new File(data, filename, properties);
 } catch (e) {
@@ -117,41 +108,41 @@ else {
 
 
 
+
+
+
 for (let s of symbols) {
     if (mapData[s]) { continue; }
-    while (stat.req - stat.res >= 10) {
-        await wait(100)
-    }
     try {
         let stockNo = map[s]
-        let a = fetch("https://wgateway-iboard.ssi.com.vn/graphql", {
+        let a = await fetchWithTimeout("https://bgapidatafeed.vps.com.vn/getliststocktrade/"+s, {
             "headers": {
-                "accept": "*/*",
-                "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-                "content-type": "application/json",
-                "g-captcha": "",
-                "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-                "sec-ch-ua-mobile": "?0",
-                "sec-fetch-dest": "empty",
-                "sec-fetch-mode": "cors",
-                "sec-fetch-site": "same-site"
+              "accept": "application/json, text/plain, */*",
+              "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+              "if-none-match": "W/\"4e78f-Zl8C9ha8cKwGxcPAemacv7sIqZY\"",
+              "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+              "sec-ch-ua-mobile": "?0",
+              "sec-ch-ua-platform": "\"Windows\"",
+              "sec-fetch-dest": "empty",
+              "sec-fetch-mode": "cors",
+              "sec-fetch-site": "same-site",
+              "Referer": "https://banggia.vps.com.vn/",
+              "Referrer-Policy": "strict-origin-when-cross-origin"
             },
-            "referrer": "https://iboard.ssi.com.vn/",
-            "referrerPolicy": "strict-origin-when-cross-origin",
-            "body": "{\"operationName\":\"leTables\",\"variables\":{\"stockNo\":\"" + stockNo + "\"},\"query\":\"query leTables($stockNo: String) {\\n  leTables(stockNo: $stockNo) {\\n    stockNo\\n    price\\n    vol\\n    accumulatedVol\\n    time\\n    ref\\n    side\\n    priceChange\\n    priceChangePercent\\n    changeType\\n    __typename\\n  }\\n  stockRealtime(stockNo: $stockNo) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    __typename\\n  }\\n}\\n\"}",
-            "method": "POST",
-            "mode": "cors",
-        });
+            "body": null, 
+            
+            "method": "GET"
+          });
         stat.req++;
-        a.then(res => res.text()).then(data => {
-            data=data.trim()
-            stat.res++;
-            console.log(s, count++, "/", symbols.length, data.length)
-            if (!(data.startsWith("{") && data.endsWith("}"))){
-                return;
-            }
-            mapData[s] = data;
-        })
+        let data = await a.text()
+        data=data.trim()
+        stat.res++;
+        console.log(s, count++, "/", symbols.length, data.length)
+        if (!(data.startsWith("[") && data.endsWith("]"))){
+            continue;
+        }
+        mapData[s] = data;
+
     } catch (error) {
         console.log(error)
         toData.push(s)
