@@ -69,21 +69,24 @@ total_unknown_v=0
 
 # Sử dụng awk để duyệt qua các dòng và tính toán lượng mua, bán và không xác định
 awk -F"|" -v OFS="\t" '{
-    if ($7 == "unknown") {
-        unknown[$1] += $3
-        unknown_v[$1] += $3 * ($6 + $8)
-    } else if ($7 == "sd") {
-        sell[$1] += $3
-        sell_v[$1] += $3 * ($6 + $8)
-    } else if ($7 == "bu") {
-        buy[$1] += $3
-        buy_v[$1] += $3 * ($6 + $8)
+    l=substr($0,0,2)
+    if(l == "L#"){
+        if ($7 == "unknown") {
+            unknown[$1] += $3
+            unknown_v[$1] += $3 * ($6 + $8)
+        } else if ($7 == "sd") {
+            sell[$1] += $3
+            sell_v[$1] += $3 * ($6 + $8)
+        } else if ($7 == "bu") {
+            buy[$1] += $3
+            buy_v[$1] += $3 * ($6 + $8)
+        }
     }
 }
 END {
-    printf "%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s\n", "Mã Chứng Khoán", "Lượng Mua-V", "Lượng Mua", "Lượng Bán", "Không Xác Định", "Lượng Mua-Val", "Lượng Bán-Val", "Không Xác Định-Val"
+    printf "%-20s%-20s%-20s%-20s%-20s%-20s%-20s%-20s\n", "Mã Chứng Khoán", "Lượng Mua-V", "Lượng Mua", "Lượng Bán", "Không Xác Định", "Lượng Mua-Val", "Lượng Bán-Val", "Không Xác Định-Val"
     for (symbol in buy) {
-        printf "%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s\n", symbol, buy_v[symbol] - sell_v[symbol], buy[symbol], sell[symbol], unknown[symbol], buy_v[symbol], sell_v[symbol], unknown_v[symbol]
+        printf "%-20s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f\n", symbol, buy_v[symbol] - sell_v[symbol], buy[symbol], sell[symbol], unknown[symbol], buy_v[symbol], sell_v[symbol], unknown_v[symbol]
     }
     for (symbol in unknown) {
         total_unknown += unknown[symbol]
@@ -97,5 +100,5 @@ END {
         total_sell += sell[symbol]
         total_sell_v += sell_v[symbol]
     }
-    printf "%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s\n", "Tổng", total_buy_v - total_sell_v, total_buy, total_sell, total_unknown, total_buy_v, total_sell_v, total_unknown_v
+    printf "%-20s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f\n", "Total", total_buy_v - total_sell_v, total_buy, total_sell, total_unknown, total_buy_v, total_sell_v, total_unknown_v
 }' "$input_file"
