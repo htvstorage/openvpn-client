@@ -30,6 +30,11 @@ awk -F"|" -v record="$record" 'BEGIN{
     for(a in aa){
         m[aa[a]]=aa[a]
     }
+    vn30s="ACB-BCM-BID-BVH-CTG-FPT-GAS-GVR-HDB-HPG-MBB-MSN-MWG-PLX-POW-SAB-SHB-SSB-SSI-STB-TCB-TPB-VCB-VHM-VIB-VIC-VJC-VNM-VPB-VRE"
+    split(vn30s,aa, "-")
+    for(a in aa){
+        m30[aa[a]]=aa[a]
+    }
     # print m["AAA"]
     current_time = systime()+ 7 *60*60;  # Lấy thời gian hiện tại dưới dạng Unix timestamp
     midnight_time = mktime(strftime("%Y %m %d 00 00 00", current_time));  # Lấy thời gian bắt đầu của ngày dưới dạng Unix timestamp
@@ -64,6 +69,7 @@ awk -F"|" -v record="$record" 'BEGIN{
         time_slot = int(minutes_since_start / 5)*5;
         T="VNINDEX"
         ALL="ALL"
+        VN30="VN30"
         if (action == "bu") {
             buy[symbol, time_slot] += quantity
             buy_value[symbol, time_slot] += quantity * price
@@ -71,7 +77,11 @@ awk -F"|" -v record="$record" 'BEGIN{
             if(length(m[s2]) > 0){
                 buy[T, time_slot] += quantity
                 buy_value[T, time_slot] += quantity * price      
-            }   
+            }  
+            if(length(m30[s2]) > 0){
+                buy[VN30, time_slot] += quantity
+                buy_value[VN30, time_slot] += quantity * price      
+            }                
             buy[ALL, time_slot] += quantity
             buy_value[ALL, time_slot] += quantity * price                  
         } else if (action == "sd") {
@@ -80,17 +90,31 @@ awk -F"|" -v record="$record" 'BEGIN{
             if(length(m[s2]) > 0){
                 sell[T, time_slot] += quantity
                 sell_value[T, time_slot] += quantity * price
-            }          
+            }
+            if(length(m30[s2]) > 0){
+                sell[VN30, time_slot] += quantity
+                sell_value[VN30, time_slot] += quantity * price
+            }            
+            sell[ALL, time_slot] += quantity
+            sell_value[ALL, time_slot] += quantity * price                          
         } else if (action == "unknown") {
             unknown[symbol, time_slot] += quantity
             unknown_value[symbol, time_slot] += quantity * price
             if(length(m[s2]) > 0){
                 unknown[T, time_slot] += quantity
                 unknown_value[T, time_slot] += quantity * price
-            }      
+            } 
+            if(length(m30[s2]) > 0){
+                unknown[VN30, time_slot] += quantity
+                unknown_value[VN30, time_slot] += quantity * price
+            }                
+            unknown[ALL, time_slot] += quantity
+            unknown_value[ALL, time_slot] += quantity * price                 
         }
         symbols[symbol] = symbol
         symbols[T] = T
+        symbols[ALL] = ALL
+        symbols[VN30] = VN30        
         atime[time_slot] = time_slot        
     }
 }
@@ -134,8 +158,14 @@ END {
             sum[symbol,6] += 1
         }
     }
-
+    p[1]="VNINDEX"
+    p[2]="ALL"
+    p[3]="VN30"
     printf "%-15s%-15s%-20s%-20s%-15s%-15s%-15s%-15s%-15s%-15s%-15s\n", "Thời gian", "Mã Chứng Khoán", "Mua-Ban", "Tổng" ,"Mua", "Bán","TPS", "Không Xác Định", "Giá Trị Mua", "Giá Trị Bán", "Giá Trị Không Xác Định"
-    printf "%-15s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f", "VNINDEX",sum[T,0],sum[T,1],sum[T,2],sum[T,3],sum[T,4],sum[T,5]/sum[T,6]
+    for(S in p){
+        t=p[S]
+        printf "%-15s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f\n", t,sum[t,0],sum[t,1],sum[t,2],sum[t,3],sum[t,4],sum[t,5]/sum[t,6]
+    }
+    
     
 }' "$input_file"
