@@ -87,7 +87,10 @@ function getNow() {
     let fd = new Date();
     return fd.getFullYear()
       + "" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
-      + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate());
+      + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate())
+      + "" + (fd.getHours() < 10 ? "0" + fd.getHours() : fd.getHours())
+      + "" + (fd.getMinutes() < 10 ? "0" + fd.getMinutes() : fd.getMinutes())
+      + "" + (fd.getSeconds() < 10 ? "0" + fd.getSeconds() : fd.getSeconds());
   }
 
   
