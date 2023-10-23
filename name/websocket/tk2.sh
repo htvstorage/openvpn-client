@@ -74,9 +74,8 @@ END {
             giatrimua = buy_value[symbol, time_slot]
             giatriban = sell_value[symbol, time_slot]
             giatrikhongxacdinh = unknown_value[symbol, time_slot]
-            printf "%02d:%02d-%02d:%02d%-20s%-20'\''.0f%-20'\''.0f%-15d%-15d%-15d%-15d%-15d%-15d\n", int(time_slot/60), time_slot%60, int((time_slot+5)/60), (time_slot+5)%60, symbol, giatrimua-giatriban,giatrimua+giatriban+giatrikhongxacdinh ,mua, ban, khongxacdinh, giatrimua, giatriban, giatrikhongxacdinh
+            printf "%02d:%02d-%02d:%02d%-20s%-20'\''.f%-20'\''.0f%-15d%-15d%-15d%-15d%-15d%-15d\n", int(time_slot/60), time_slot%60, int((time_slot+5)/60), (time_slot+5)%60, symbol, giatrimua-giatriban,giatrimua+giatriban+giatrikhongxacdinh ,mua, ban, khongxacdinh, giatrimua, giatriban, giatrikhongxacdinh
         }
     }
     printf "%-15s%-15s%-20s%-20s%-15s%-15s%-15s%-15s%-15s%-15s\n", "Thời gian", "Mã Chứng Khoán", "Mua-Ban", "Tổng" ,"Mua", "Bán", "Không Xác Định", "Giá Trị Mua", "Giá Trị Bán", "Giá Trị Không Xác Định"
 }' "$input_file"
-
