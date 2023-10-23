@@ -25,9 +25,10 @@ awk -F"|" 'BEGIN{
         m[aa[a]]=aa[a]
     }
     # print m["AAA"]
-    current_time = systime() + 7 *60*60;  # Lấy thời gian hiện tại dưới dạng Unix timestamp
+    current_time = systime()+ 7 *60*60;  # Lấy thời gian hiện tại dưới dạng Unix timestamp
     midnight_time = mktime(strftime("%Y %m %d 00 00 00", current_time));  # Lấy thời gian bắt đầu của ngày dưới dạng Unix timestamp
-    delta = (current_time - midnight_time)
+    delta = (current_time - midnight_time)/60
+    # print delta" "current_time" "midnight_time 
 }
 {
     l=substr($0,0,2)
@@ -56,6 +57,7 @@ awk -F"|" 'BEGIN{
         tt=5
         time_slot = int(minutes_since_start / 5)*5;
         T="VNINDEX"
+        ALL="ALL"
         if (action == "bu") {
             buy[symbol, time_slot] += quantity
             buy_value[symbol, time_slot] += quantity * price
@@ -63,7 +65,9 @@ awk -F"|" 'BEGIN{
             if(length(m[s2]) > 0){
                 buy[T, time_slot] += quantity
                 buy_value[T, time_slot] += quantity * price      
-            }      
+            }   
+            buy[ALL, time_slot] += quantity
+            buy_value[ALL, time_slot] += quantity * price                  
         } else if (action == "sd") {
             sell[symbol, time_slot] += quantity
             sell_value[symbol, time_slot] += quantity * price
@@ -86,7 +90,7 @@ awk -F"|" 'BEGIN{
 }
 END {
     # In tiêu đề
-    printf "%-15s%-15s%-20s%-20s%-15s%-15s%-15s%-15s%-15s%-15s\n", "Thời gian", "Mã Chứng Khoán", "Mua-Ban", "Tổng" ,"Mua", "Bán", "Không Xác Định", "Giá Trị Mua", "Giá Trị Bán", "Giá Trị Không Xác Định"
+    printf "%-15s%-15s%-20s%-20s%-15s%-15s%-15s%-15s%-15s%-15s%-15s\n", "Thời gian", "Mã Chứng Khoán", "Mua-Ban", "Tổng" ,"TPS","Mua", "Bán", "Không Xác Định", "Giá Trị Mua", "Giá Trị Bán", "Giá Trị Không Xác Định"
 
     for(symbol in symbols){    
         sum[symbol,0]=0        
@@ -105,8 +109,13 @@ END {
             if(delta-time_slot>=5) x=5
             else x=delta-time_slot
             t=giatrimua+giatriban+giatrikhongxacdinh
-            tps=t/5                        
-            printf "%02d:%02d-%02d:%02d%-20s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-15d%-15d%-15d%-15d%-15d%-15d\n", int(time_slot/60), time_slot%60, int((time_slot+5)/60), (time_slot+5)%60, symbol, giatrimua-giatriban,t,tps ,mua, ban, khongxacdinh, giatrimua, giatriban, giatrikhongxacdinh
+            if(x==0) x=1
+            tps=t/x
+            v = delta-time_slot
+            # print v            
+            if(v <= 120) {
+                printf "%02d:%02d-%02d:%02d  %-20s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-15d%-15d%-15d%-15d%-15d%-15d\n", int(time_slot/60), time_slot%60, int((time_slot+5)/60), (time_slot+5)%60, symbol, giatrimua-giatriban,t,tps ,mua, ban, khongxacdinh, giatrimua, giatriban, giatrikhongxacdinh
+            }                                                   
             sum[symbol,0] += giatrimua-giatriban            
             sum[symbol,1] += giatrimua+giatriban+giatrikhongxacdinh
             sum[symbol,2] += mua
@@ -116,7 +125,8 @@ END {
             sum[symbol,6] += 1
         }
     }
-    printf "%-15s%-15s%-20s%-20s%-15s%-15s%-15s%-15s%-15s%-15s\n", "Thời gian", "Mã Chứng Khoán", "Mua-Ban", "Tổng" ,"Mua", "Bán", "Không Xác Định", "Giá Trị Mua", "Giá Trị Bán", "Giá Trị Không Xác Định"
+
+    printf "%-15s%-15s%-20s%-20s%-15s%-15s%-15s%-15s%-15s%-15s%-15s\n", "Thời gian", "Mã Chứng Khoán", "Mua-Ban", "Tổng" ,"Mua", "Bán","TPS", "Không Xác Định", "Giá Trị Mua", "Giá Trị Bán", "Giá Trị Không Xác Định"
     printf "%-15s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f", "VNINDEX",sum[T,0],sum[T,1],sum[T,2],sum[T,3],sum[T,4],sum[T,5]/sum[T,6]
     
 }' "$input_file"
