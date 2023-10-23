@@ -1,12 +1,18 @@
 #!/bin/bash
 
 # Kiểm tra xem có đủ đối số truyền vào hay không
-if [ $# -ne 1 ]; then
+if [ $# -lt 1 ]; then
     echo "Sử dụng: $0 <tệp_dữ_liệu>"
     exit 1
 fi
 
 input_file="$1"
+record="$2"
+
+if [ -z "$record" ]; then
+    # Nếu biến chưa được khởi tạo, gán giá trị mặc định là 10
+    record=10
+fi
 
 # Khởi tạo biến lưu trữ các thông tin theo mã chứng khoán và thời gian
 declare -A buy
@@ -17,7 +23,7 @@ declare -A sell_value
 declare -A unknown_value
 
 # Sử dụng awk để duyệt qua các dòng và tính toán
-awk -F"|" 'BEGIN{
+awk -F"|" -v record="$record" 'BEGIN{
     ss="AAA-AAM-AAT-ABR-ABS-ABT-ACB-ACC-ACG-ACL-ADG-ADP-ADS-AGG-AGM-AGR-ANV-APC-APG-APH-ASG-ASM-ASP-AST-BAF-BBC-BCE-BCG-BCM-BFC-BHN-BIC-BID-BKG-BMC-BMI-BMP-BRC-BSI-BTP-BTT-BVH-BWE-C32-C47-CAV-CCI-CCL-CDC-CHP-CIG-CII-CKG-CLC-CLL-CLW-CMG-CMV-CMX-CNG-COM-CRC-CRE-CSM-CSV-CTD-CTF-CTG-CTI-CTR-CTS-CVT-D2D-DAG-DAH-DAT-DBC-DBD-DBT-DC4-DCL-DCM-DGC-DGW-DHA-DHC-DHG-DHM-DIG-DLG-DMC-DPG-DPM-DPR-DQC-DRC-DRH-DRL-DSN-DTA-DTL-DTT-DVP-DXG-DXS-DXV-EIB-ELC-EVE-EVF-EVG-FCM-FCN-FDC-FIR-FIT-FMC-FPT-FRT-FTS-GAS-GDT-GEG-GEX-GIL-GMC-GMD-GMH-GSP-GTA-GVR-HAG-HAH-HAP-HAR-HAS-HAX-HBC-HCD-HCM-HDB-HDC-HDG-HHP-HHS-HHV-HID-HII-HMC-HNG-HPG-HPX-HQC-HRC-HSG-HSL-HT1-HTI-HTL-HTN-HTV-HU1-HUB-HVH-HVN-HVX-IBC-ICT-IDI-IJC-ILB-IMP-ITA-ITC-ITD-JVC-KBC-KDC-KDH-KHG-KHP-KMR-KOS-KPF-KSB-L10-LAF-LBM-LCG-LDG-LEC-LGC-LGL-LHG-LIX-LM8-LPB-LSS-MBB-MCP-MDG-MHC-MIG-MSB-MSH-MSN-MWG-NAF-NAV-NBB-NCT-NHA-NHH-NHT-NKG-NLG-NNC-NO1-NSC-NT2-NTL-NVL-NVT-OCB-OGC-OPC-ORS-PAC-PAN-PC1-PDN-PDR-PET-PGC-PGD-PGI-PGV-PHC-PHR-PIT-PJT-PLP-PLX-PMG-PNC-PNJ-POM-POW-PPC-PSH-PTB-PTC-PTL-PVD-PVP-PVT-QBS-QCG-RAL-RDP-REE-S4A-SAB-SAM-SAV-SBA-SBT-SBV-SC5-SCD-SCR-SCS-SFC-SFG-SFI-SGN-SGR-SGT-SHA-SHB-SHI-SHP-SIP-SJD-SJF-SJS-SKG-SMA-SMB-SMC-SPM-SRC-SRF-SSB-SSC-SSI-ST8-STB-STG-STK-SVC-SVD-SVI-SVT-SZC-SZL-TBC-TCB-TCD-TCH-TCL-TCM-TCO-TCR-TCT-TDC-TDG-TDH-TDM-TDP-TDW-TEG-TGG-THG-TIP-TIX-TLD-TLG-TLH-TMP-TMS-TMT-TN1-TNA-TNC-TNH-TNI-TNT-TPB-TPC-TRA-TRC-TSC-TTA-TTB-TTE-TTF-TV2-TVB-TVS-TVT-TYA-UIC-VAF-VCA-VCB-VCF-VCG-VCI-VDP-VDS-VFG-VGC-VHC-VHM-VIB-VIC-VID-VIP-VIX-VJC-VMD-VND-VNE-VNG-VNL-VNM-VNS-VOS-VPB-VPD-VPG-VPH-VPI-VPS-VRC-VRE-VSC-VSH-VSI-VTB-VTO-YBM-YEG"
     split(ss,aa, "-")
     m["HPG"]="HPG"
@@ -97,7 +103,9 @@ END {
         sum[symbol,1]=0
         sum[symbol,2]=0
     }
+    l=length(atime)
     for(symbol in symbols){
+        c=0
         for(time_slot in atime){
             mua = buy[symbol, time_slot]
             ban = sell[symbol, time_slot]
@@ -112,8 +120,9 @@ END {
             if(x==0) x=1
             tps=t/x
             v = delta-time_slot
-            # print v            
-            if(v <= 120) {
+            # print v    
+            c++        
+            if(c >= l-record) {
                 printf "%02d:%02d-%02d:%02d  %-20s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-15d%-15d%-15d%-15d%-15d%-15d\n", int(time_slot/60), time_slot%60, int((time_slot+5)/60), (time_slot+5)%60, symbol, giatrimua-giatriban,t,tps ,mua, ban, khongxacdinh, giatrimua, giatriban, giatrikhongxacdinh
             }                                                   
             sum[symbol,0] += giatrimua-giatriban            
@@ -130,4 +139,3 @@ END {
     printf "%-15s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f", "VNINDEX",sum[T,0],sum[T,1],sum[T,2],sum[T,3],sum[T,4],sum[T,5]/sum[T,6]
     
 }' "$input_file"
-
