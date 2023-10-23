@@ -27,7 +27,7 @@ awk -F"|" '
         time = $5
         action = $7
         quantity = $3
-        price = $4
+        price = $2
 
         # Lấy giờ và phút từ thời gian (hh:mm:ss)
         split(time, time_parts, ":")
