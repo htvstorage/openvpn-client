@@ -2,7 +2,7 @@
 
 # Kiểm tra xem có đủ đối số truyền vào hay không
 if [ $# -lt 1 ]; then
-    echo "Sử dụng: $0 <tệp_dữ_liệu>"
+    echo "Sử dụng: $0 <tệp_dữ_liệu> <record display> <interval> <symbols(ABC-DIG-PDR)>"
     exit 1
 fi
 
@@ -137,7 +137,7 @@ awk -F"|" -v record="$record" -v interval="$interval" -v MA="$SYMBOLS" 'BEGIN{
 }
 END {
     # In tiêu đề
-    printf "%-15s%-15s%-20s%-20s%-20s%-15s%-15s%-15s%-15s%-15s%-15s\n", "Thời gian", "Mã Chứng Khoán", "Mua-Ban", "Tổng" ,"TPS","Mua", "Bán", "Không Xác Định", "Giá Trị Mua", "Giá Trị Bán", "Giá Trị Không Xác Định"
+    printf "%-15s%-10s%-20s%-20s%-20s%-15s%-15s%-15s%-20s%-20s%-20s\n", "Thời gian", "Mã CK", "Mua-Ban", "Tổng" ,"TPS","Mua", "Bán", "KoXĐ", "GT Mua", "GT Bán", "GT KoXĐ"
 
     for(symbol in symbols){    
         sum[symbol,0]=0        
@@ -164,7 +164,7 @@ END {
             # print v    
             c++        
             if(c >= l-record) {
-                printf "%02d:%02d-%02d:%02d    %-15s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-15d%-15d%-15d%-15d%-15d%-15d\n", int(time_slot/60), time_slot%60, int((time_slot+interval)/60), (time_slot+interval)%60, symbol, giatrimua-giatriban,t,tps ,mua, ban, khongxacdinh, giatrimua, giatriban, giatrikhongxacdinh
+                printf "%02d:%02d-%02d:%02d    %-10s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-15d%-15d%-15d%-20'\''.0f%-20'\''.0f%-20'\''.0f\n", int(time_slot/60), time_slot%60, int((time_slot+interval)/60), (time_slot+interval)%60, symbol, giatrimua-giatriban,t,tps ,mua, ban, khongxacdinh, giatrimua, giatriban, giatrikhongxacdinh
             }                                                   
             sum[symbol,0] += giatrimua-giatriban            
             sum[symbol,1] += giatrimua+giatriban+giatrikhongxacdinh
@@ -173,6 +173,8 @@ END {
             sum[symbol,4] += mua-ban
             sum[symbol,5] += tps
             sum[symbol,6] += 1
+            sum[symbol,7] += giatrimua
+            sum[symbol,8] += giatriban
         }
     }
     p[1]="VNINDEX"
@@ -183,11 +185,11 @@ END {
         print ma[s]" "length(p)+1
         p[length(p)+1] = ma[s]               
     }
-    printf "%-15s%-15s%-20s%-20s%-20s%-20s%-20s%-20s%\n", "Thời gian", "Mã Chứng Khoán", "Mua-Ban", "Tổng" ,"Mua", "Bán","Mua-Bán","TPS"
+    printf "%-15s%-15s%-20s%-20s%-20s%-20s%-15s%-15s%-15s%-20s\n", "Thời gian", "Mã CK", "GT Mua-Ban", "GT Mua", "GT Bán", "Tổng" ,"Mua", "Bán","Mua-Bán","TPS",
     time=strftime("%H:%M:%S", current_time)
     for(S in p){
         t=p[S]        
-        printf "%-15s%-15s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f\n", time,t,sum[t,0],sum[t,1],sum[t,2],sum[t,3],sum[t,4],sum[t,5]/sum[t,6]        
+        printf "%-15s%-15s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-15'\''.0f%-15'\''.0f%-15'\''.0f%-20'\''.0f\n", time,t,sum[t,0],sum[t,7],sum[t,8],sum[t,1],sum[t,2],sum[t,3],sum[t,4],sum[t,5]/sum[t,6]        
     }
     
     
