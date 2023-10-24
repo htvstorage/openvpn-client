@@ -8,10 +8,15 @@ fi
 
 input_file="$1"
 record="$2"
-
+interval="$3"
 if [ -z "$record" ]; then
     # Nếu biến chưa được khởi tạo, gán giá trị mặc định là 10
     record=10
+fi
+
+if [ -z "$interval" ]; then
+    # Nếu biến chưa được khởi tạo, gán giá trị mặc định là 10
+    interval=5
 fi
 
 # Khởi tạo biến lưu trữ các thông tin theo mã chứng khoán và thời gian
@@ -23,7 +28,7 @@ declare -A sell_value
 declare -A unknown_value
 
 # Sử dụng awk để duyệt qua các dòng và tính toán
-awk -F"|" -v record="$record" 'BEGIN{
+awk -F"|" -v record="$record" -v interval="$interval" 'BEGIN{
     ss="AAA-AAM-AAT-ABR-ABS-ABT-ACB-ACC-ACG-ACL-ADG-ADP-ADS-AGG-AGM-AGR-ANV-APC-APG-APH-ASG-ASM-ASP-AST-BAF-BBC-BCE-BCG-BCM-BFC-BHN-BIC-BID-BKG-BMC-BMI-BMP-BRC-BSI-BTP-BTT-BVH-BWE-C32-C47-CAV-CCI-CCL-CDC-CHP-CIG-CII-CKG-CLC-CLL-CLW-CMG-CMV-CMX-CNG-COM-CRC-CRE-CSM-CSV-CTD-CTF-CTG-CTI-CTR-CTS-CVT-D2D-DAG-DAH-DAT-DBC-DBD-DBT-DC4-DCL-DCM-DGC-DGW-DHA-DHC-DHG-DHM-DIG-DLG-DMC-DPG-DPM-DPR-DQC-DRC-DRH-DRL-DSN-DTA-DTL-DTT-DVP-DXG-DXS-DXV-EIB-ELC-EVE-EVF-EVG-FCM-FCN-FDC-FIR-FIT-FMC-FPT-FRT-FTS-GAS-GDT-GEG-GEX-GIL-GMC-GMD-GMH-GSP-GTA-GVR-HAG-HAH-HAP-HAR-HAS-HAX-HBC-HCD-HCM-HDB-HDC-HDG-HHP-HHS-HHV-HID-HII-HMC-HNG-HPG-HPX-HQC-HRC-HSG-HSL-HT1-HTI-HTL-HTN-HTV-HU1-HUB-HVH-HVN-HVX-IBC-ICT-IDI-IJC-ILB-IMP-ITA-ITC-ITD-JVC-KBC-KDC-KDH-KHG-KHP-KMR-KOS-KPF-KSB-L10-LAF-LBM-LCG-LDG-LEC-LGC-LGL-LHG-LIX-LM8-LPB-LSS-MBB-MCP-MDG-MHC-MIG-MSB-MSH-MSN-MWG-NAF-NAV-NBB-NCT-NHA-NHH-NHT-NKG-NLG-NNC-NO1-NSC-NT2-NTL-NVL-NVT-OCB-OGC-OPC-ORS-PAC-PAN-PC1-PDN-PDR-PET-PGC-PGD-PGI-PGV-PHC-PHR-PIT-PJT-PLP-PLX-PMG-PNC-PNJ-POM-POW-PPC-PSH-PTB-PTC-PTL-PVD-PVP-PVT-QBS-QCG-RAL-RDP-REE-S4A-SAB-SAM-SAV-SBA-SBT-SBV-SC5-SCD-SCR-SCS-SFC-SFG-SFI-SGN-SGR-SGT-SHA-SHB-SHI-SHP-SIP-SJD-SJF-SJS-SKG-SMA-SMB-SMC-SPM-SRC-SRF-SSB-SSC-SSI-ST8-STB-STG-STK-SVC-SVD-SVI-SVT-SZC-SZL-TBC-TCB-TCD-TCH-TCL-TCM-TCO-TCR-TCT-TDC-TDG-TDH-TDM-TDP-TDW-TEG-TGG-THG-TIP-TIX-TLD-TLG-TLH-TMP-TMS-TMT-TN1-TNA-TNC-TNH-TNI-TNT-TPB-TPC-TRA-TRC-TSC-TTA-TTB-TTE-TTF-TV2-TVB-TVS-TVT-TYA-UIC-VAF-VCA-VCB-VCF-VCG-VCI-VDP-VDS-VFG-VGC-VHC-VHM-VIB-VIC-VID-VIP-VIX-VJC-VMD-VND-VNE-VNG-VNL-VNM-VNS-VOS-VPB-VPD-VPG-VPH-VPI-VPS-VRC-VRE-VSC-VSH-VSI-VTB-VTO-YBM-YEG"
     split(ss,aa, "-")
     m["HPG"]="HPG"
@@ -65,8 +70,8 @@ awk -F"|" -v record="$record" 'BEGIN{
         minutes_since_start = hours * 60 + minutes
         
         # Xác định khung thời gian mỗi 5 phút
-        tt=5
-        time_slot = int(minutes_since_start / 5)*5;
+        # tt=5
+        time_slot = int(minutes_since_start / interval)*interval;
         T="VNINDEX"
         ALL="ALL"
         VN30="VN30"
@@ -137,8 +142,8 @@ END {
             giatrimua = buy_value[symbol, time_slot]
             giatriban = sell_value[symbol, time_slot]
             giatrikhongxacdinh = unknown_value[symbol, time_slot]
-            x=5
-            if(delta-time_slot>=5) x=5
+            x=interval
+            if(delta-time_slot>=interval || delta-time_slot < 0) x=interval
             else x=delta-time_slot
             t=giatrimua+giatriban+giatrikhongxacdinh
             if(x==0) x=1
@@ -147,7 +152,7 @@ END {
             # print v    
             c++        
             if(c >= l-record) {
-                printf "%02d:%02d-%02d:%02d  %-20s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-15d%-15d%-15d%-15d%-15d%-15d\n", int(time_slot/60), time_slot%60, int((time_slot+5)/60), (time_slot+5)%60, symbol, giatrimua-giatriban,t,tps ,mua, ban, khongxacdinh, giatrimua, giatriban, giatrikhongxacdinh
+                printf "%02d:%02d-%02d:%02d  %-20s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-15d%-15d%-15d%-15d%-15d%-15d\n", int(time_slot/60), time_slot%60, int((time_slot+interval)/60), (time_slot+interval)%60, symbol, giatrimua-giatriban,t,tps ,mua, ban, khongxacdinh, giatrimua, giatriban, giatrikhongxacdinh
             }                                                   
             sum[symbol,0] += giatrimua-giatriban            
             sum[symbol,1] += giatrimua+giatriban+giatrikhongxacdinh
