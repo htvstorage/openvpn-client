@@ -60,18 +60,33 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   
   let ratio = vhf(model) / 1105.90;
   console.log(vhf(model) / 1105.90)
-  model["VIC"].lastMatchedPrice=70000;
-  model["VCB"].lastMatchedPrice=100000;
-  model["VHM"].lastMatchedPrice=80000;
-  model["BID"].lastMatchedPrice=50000;
-  model["GAS"].lastMatchedPrice=90000;
-  model["CTG"].lastMatchedPrice=35000;
-  model["VPB"].lastMatchedPrice=25000;
-  model["HPG"].lastMatchedPrice=29000;
-  model["TCB"].lastMatchedPrice=35000;
-  model["FPT"].lastMatchedPrice=100000;
-  model["MSN"].lastMatchedPrice=100000;
-  console.log(vhf(model) /ratio)
+  // model["VIC"].lastMatchedPrice=70000;
+  // model["VCB"].lastMatchedPrice=100000;
+  // model["VHM"].lastMatchedPrice=80000;
+  // model["BID"].lastMatchedPrice=50000;
+  // model["GAS"].lastMatchedPrice=90000;
+  // model["CTG"].lastMatchedPrice=35000;
+  // model["VPB"].lastMatchedPrice=25000;
+  // model["HPG"].lastMatchedPrice=29000;
+  // model["TCB"].lastMatchedPrice=35000;
+  // model["FPT"].lastMatchedPrice=100000;
+  // model["MSN"].lastMatchedPrice=100000;
+  // console.log(vhf(model) /ratio)
+
+  let databuf=fs.readFileSync("websocket/data20231024.txt","utf-8")
+  let dataex=databuf.split("\n");
+  dataex = dataex.reverse();
+  dataex.forEach(e=>{
+    // console.log(e)
+    if(e.startsWith("L#")){
+      let tk=e.split("|");
+      let s = tk[0].slice(2)
+      if(model[s]){
+        model[s].lastMatchedPrice = +tk[1]
+        console.log(s,tk[1], vhf(model) /ratio)
+      }  
+    }
+  })
 })();
 
 
