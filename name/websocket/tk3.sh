@@ -187,8 +187,7 @@ END {
     time=strftime("%H:%M:%S", current_time)
     for(S in p){
         t=p[S]        
-        # printf "%-15s%-15s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f\n", time,t,sum[t,0],sum[t,1],sum[t,2],sum[t,3],sum[t,4],sum[t,5]/sum[t,6]
-        printf "%-15s%-15s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f\n", time,t,sum[t,0],sum[t,1],sum[t,2],sum[t,3],sum[t,4],sum[t,5],sum[t,6]
+        printf "%-15s%-15s%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f%-20'\''.0f\n", time,t,sum[t,0],sum[t,1],sum[t,2],sum[t,3],sum[t,4],sum[t,5]/sum[t,6]        
     }
     
     
