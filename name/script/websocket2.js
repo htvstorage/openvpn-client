@@ -42,7 +42,7 @@ function wss() {
   ws.on('message', function (message) {
     console.log(`Received message: ${message}`);
     fs.appendFile("./websocket/data"+getNow()+".txt",message +'\n',(e)=>{
-      console.log(e)
+      if(e)console.log(e)
     })
   });
 

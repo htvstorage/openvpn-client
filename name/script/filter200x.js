@@ -250,6 +250,20 @@ async function download() {
 }
 
 
+async function loadvndratio() {
+  console.log("Load vnd ratio profile")
+  let vndjson = fs.readFileSync("./profile/vnd_ratio.json", 'utf-8');
+  let vnddata = JSON.parse(vndjson)
+  Object.keys(vnddata).forEach(k => {
+    let js = JSON.parse(vnddata[k])
+    let m = {}
+    js.data.forEach(e => { m[e.ratioCode] = e.value })
+    vnddata[k] = m
+  })
+  return vnddata;
+}
+
+let vndratio = await loadvndratio();
 async function downloadReportFinancial() {
   console.log("Download")
   let vndGetAllSymbols = await Exchange.vndGetAllSymbols();
@@ -1006,6 +1020,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     avg = { ...avg, ...pbe }
   }
 
+  let vnd = vndratio[symbol]
+  if (vnd) {
+    avg = { ...avg, ...vnd }
+  }
+
   let busdx = busdm[symbol];
   if (busdx) {
     avg.first = busdx.first
@@ -1345,8 +1364,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     let found = false;
     avgMbs.data.every(e => {
       if (e.time > timeOffset) {
-        if(symbol == 'HPG' || symbol == 'VNINDEX'|| symbol == 'VN30')
-        console.log(e, timeOffset, avgMbs.data.at(-1))
+        if (symbol == 'HPG' || symbol == 'VNINDEX' || symbol == 'VN30')
+          console.log(e, timeOffset, avgMbs.data.at(-1))
         let exch = mapSymbol[symbol];
         if (!exch) exch = 'HOSE'
         let timetrade = tradetime(mapSymbol[symbol], (timeOffset * 1000 + 7 * 60 * 60 * 1000))
@@ -1357,9 +1376,8 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
         // avg.predictVolBy = avg.vol / ratioTrade;
         avg.predictVolByABVol = (A * timetrade.tradetime + B) * (avg.vol / timetrade.tradetime) / (e.avgTotal / e.tradetime.tradetime)
         avg.predictVolByVolAvg = avgMbs.data.at(-1).avgTotal * (avg.vol / timetrade.tradetime) / (e.avgTotal / e.tradetime.tradetime)
-        if(symbol == 'HPG' || symbol == 'VNINDEX'|| symbol == 'VN30')
-        {
-          console.log(avg.vol, timetrade.tradetime,e.avgTotal,e.tradetime.tradetime )
+        if (symbol == 'HPG' || symbol == 'VNINDEX' || symbol == 'VN30') {
+          console.log(avg.vol, timetrade.tradetime, e.avgTotal, e.tradetime.tradetime)
           // moment.duration()
         }
         //     e.predictTotal3 = (tttime2.total / tttime.tradetime) * e.total
