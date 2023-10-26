@@ -39,28 +39,28 @@ for (let s of symbols) {
     }
     try {
         let stockNo = map[s]
-        let a = fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=ratioCode:MARKETCAP,NMVOLUME_AVG_CR_10D,PRICE_HIGHEST_CR_52W,PRICE_LOWEST_CR_52W,OUTSTANDING_SHARES,FREEFLOAT,BETA,PRICE_TO_EARNINGS,PRICE_TO_BOOK,DIVIDEND_YIELD,BVPS_CR,ROAE_TR_AVG5Q,ROAA_TR_AVG5Q,EPS_TR,&where=code:"+s+"~reportDate:gt:2022-09-10&order=reportDate&fields=ratioCode,value", {
-  "headers": {
-    "content-type": "application/json",
-    "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": "\"Windows\"",
-    "Referer": "https://dstock.vndirect.com.vn/",
-    "Referrer-Policy": "strict-origin-when-cross-origin"
-  },
-  "body": null,
-  "method": "GET"
-});
+        let a = fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=ratioCode:MARKETCAP,NMVOLUME_AVG_CR_10D,PRICE_HIGHEST_CR_52W,PRICE_LOWEST_CR_52W,OUTSTANDING_SHARES,FREEFLOAT,BETA,PRICE_TO_EARNINGS,PRICE_TO_BOOK,DIVIDEND_YIELD,BVPS_CR,ROAE_TR_AVG5Q,ROAA_TR_AVG5Q,EPS_TR,&where=code:" + s + "~reportDate:gt:2022-09-10&order=reportDate&fields=ratioCode,value", {
+            "headers": {
+                "content-type": "application/json",
+                "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "Referer": "https://dstock.vndirect.com.vn/",
+                "Referrer-Policy": "strict-origin-when-cross-origin"
+            },
+            "body": null,
+            "method": "GET"
+        });
         stat.req++;
         a.then(res => res.text()).then(data => {
-            data=data.trim()
+            data = data.trim()
             stat.res++;
             console.log(s, count++, "/", symbols.length, data.length)
-            if (!(data.startsWith("{") && data.endsWith("}"))){
+            if (!(data.startsWith("{") && data.endsWith("}"))) {
                 return;
             }
             mapData[s] = data;
- 
+
         })
     } catch (error) {
         console.log(error)
@@ -80,19 +80,19 @@ while (stat.req - stat.res >= 1) {
 function getNow() {
     let fd = new Date();
     return fd.getFullYear()
-      + "" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
-      + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate())
-      + "" + (fd.getHours() < 10 ? "0" + fd.getHours() : fd.getHours())
-      + "" + (fd.getMinutes() < 10 ? "0" + fd.getMinutes() : fd.getMinutes())
-      + "" + (fd.getSeconds() < 10 ? "0" + fd.getSeconds() : fd.getSeconds());
-  }
+        + "" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
+        + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate())
+        + "" + (fd.getHours() < 10 ? "0" + fd.getHours() : fd.getHours())
+        + "" + (fd.getMinutes() < 10 ? "0" + fd.getMinutes() : fd.getMinutes())
+        + "" + (fd.getSeconds() < 10 ? "0" + fd.getSeconds() : fd.getSeconds());
+}
 
-  
+
 var file;
 var data = [];
 data.push(JSON.stringify(mapData))
 var properties = { type: 'text/plain' };
-filename = "vnd_"+getNow()+"_"+Date.now()+".json"
+filename = "vnd_" + getNow() + "_" + Date.now() + ".json"
 try {
     file = new File(data, filename, properties);
 } catch (e) {
@@ -121,24 +121,24 @@ for (let s of symbols) {
     }
     try {
         let stockNo = map[s]
-        let a = fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=ratioCode:MARKETCAP,NMVOLUME_AVG_CR_10D,PRICE_HIGHEST_CR_52W,PRICE_LOWEST_CR_52W,OUTSTANDING_SHARES,FREEFLOAT,BETA,PRICE_TO_EARNINGS,PRICE_TO_BOOK,DIVIDEND_YIELD,BVPS_CR,ROAE_TR_AVG5Q,ROAA_TR_AVG5Q,EPS_TR,&where=code:"+s+"~reportDate:gt:2022-09-10&order=reportDate&fields=ratioCode,value", {
-  "headers": {
-    "content-type": "application/json",
-    "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": "\"Windows\"",
-    "Referer": "https://dstock.vndirect.com.vn/",
-    "Referrer-Policy": "strict-origin-when-cross-origin"
-  },
-  "body": null,
-  "method": "GET"
-});
+        let a = fetch("https://finfo-api.vndirect.com.vn/v4/ratios/latest?filter=ratioCode:MARKETCAP,NMVOLUME_AVG_CR_10D,PRICE_HIGHEST_CR_52W,PRICE_LOWEST_CR_52W,OUTSTANDING_SHARES,FREEFLOAT,BETA,PRICE_TO_EARNINGS,PRICE_TO_BOOK,DIVIDEND_YIELD,BVPS_CR,ROAE_TR_AVG5Q,ROAA_TR_AVG5Q,EPS_TR,&where=code:" + s + "~reportDate:gt:2022-09-10&order=reportDate&fields=ratioCode,value", {
+            "headers": {
+                "content-type": "application/json",
+                "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Google Chrome\";v=\"115\", \"Chromium\";v=\"115\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "Referer": "https://dstock.vndirect.com.vn/",
+                "Referrer-Policy": "strict-origin-when-cross-origin"
+            },
+            "body": null,
+            "method": "GET"
+        });
         stat.req++;
         a.then(res => res.text()).then(data => {
-            data=data.trim()
+            data = data.trim()
             stat.res++;
             console.log(s, count++, "/", symbols.length, data.length)
-            if (!(data.startsWith("{") && data.endsWith("}"))){
+            if (!(data.startsWith("{") && data.endsWith("}"))) {
                 return;
             }
             mapData[s] = data;

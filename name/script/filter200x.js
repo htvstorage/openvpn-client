@@ -1469,6 +1469,11 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     avg["%PriceMax" + e] = Math.floor((max - filterData.at(checkDate).priceClose) / max * 10000) / 100;
     avg["%PriceMin" + e] = Math.floor((filterData.at(checkDate).priceClose - min) / min * 10000) / 100;
 
+    let minOld = Math.min(...hl[i].slice(2));
+    // if(symbol == "SSI" && e == 10)console.table(hl[i].slice(2))
+    let maxOld = Math.max(...hl[i].slice(2));
+    avg["MinOld"+e] = minOld;  
+    avg["MaxOld"+e] = maxOld;
     let ci = c[i];
     let oi = o[i];
     let bi = b[i];
