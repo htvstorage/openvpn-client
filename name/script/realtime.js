@@ -58,7 +58,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     return {
       "stockSymbol": e.stockSymbol, "listedShare": e.listedShare,
       "sharesOutstanding": e.sharesOutstanding, "priorClosePrice": e.priorClosePrice,
-      "freefloat": ff,
+      "freefloat": ff/100,
       "lastMatchedPrice": e.lastMatchedPrice,
       c:1
     }
@@ -129,7 +129,7 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   let ratio = vnindex2(model) / 1105.90;
   // console.log(vnindex(model) / 1105.90)
 
-  let databuf = fs.readFileSync("websocket/data20231025.txt", "utf-8")
+  let databuf = fs.readFileSync("websocket/data20231026.txt", "utf-8")
   let dataex = databuf.split("\n");
   // dataex = dataex.reverse();
   let change = []
@@ -158,6 +158,8 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
   })
 
 
+
+  
   let mean = stats.mean(index)
   let std = stats.stdev(index)
   let meanC = stats.mean(change)

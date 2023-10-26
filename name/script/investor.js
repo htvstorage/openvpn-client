@@ -30,16 +30,30 @@ let stockdata = {};
 let checkSymbol = {};
 let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
 
-function writeArrayJson2Xlsx(filename, array) {
+function writeArrayJson2Xlsx(filename, ...args) {
   let workbook = xlsx.utils.book_new();
-  let worksheet = xlsx.utils.json_to_sheet(array);
-  xlsx.utils.book_append_sheet(workbook, worksheet);
+  args.forEach(s => {
+    let worksheet = xlsx.utils.json_to_sheet(s);
+    xlsx.utils.book_append_sheet(workbook, worksheet);
+  })
+  xlsx.writeFile(workbook, filename);
+}
+
+function writeArrayJson2XlsxNew(filename, ...args) {
+  let workbook = xlsx.utils.book_new();
+  args.forEach(s => {
+    let worksheet = xlsx.utils.json_to_sheet(s.data);
+    if (s.name)
+      xlsx.utils.book_append_sheet(workbook, worksheet, s.name);
+    else
+      xlsx.utils.book_append_sheet(workbook, worksheet);
+  })
   xlsx.writeFile(workbook, filename);
 }
 
 
 (async () => {
-  let ssiSymbol = await Exchange.SSI.getlistallsymbol();
+  let ssiSymbol = await Exchange.SSI.getlistallsymbol3();
   let ssiCop = ssiSymbol.filter(e => { return e.stockSymbol.length == 3 }).map(e => { return { stock_code: e.stockSymbol } });
   console.table(ssiSymbol.length)
   console.table(ssiCop.length)
@@ -71,88 +85,87 @@ function writeArrayJson2Xlsx(filename, array) {
     let t1 = Date.now();
     let dir = "./investor";
 
-    let dir2 = "./trans";
-    // let csv = null;
     let fun = Exchange.VietStock.investor;
 
 
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
-    } else {
-      let files = fs.readdirSync(dir);
-      // for (const file of files) {
-      //   fs.unlinkSync(path.join(dir, file));
-      // }
     }
-    let maxSize = 100;
-    // logger.debug("Done remove directory ", dir);
-
-    let stat = { req: 0, res: 0, record: 0 }
-    // cop = ssiCop;
-    total_check = cop.length;
     let investorData = []
-    cop = cop.filter(e => e.stock_code.length < 4)
-    // cop = [ {stock_code:"HPG"}]
-    cop.push({ stock_code: "10" }) //vnindex
-    cop.push({ stock_code: "11" }) //vn30-index
-    console.log("Fetching", cop.length)
-    for (let x of cop) {
-      x['Code'] = x.stock_code;
-      if (x.Code.length < 4) {
-        logger.trace(x.Code);
-        while (stat.req - stat.res >= maxSize) {
-          await wait(200);
-        }
-        stat.req++;
-        // console.log("Fetching",x.Code)
-        let z = fun(x.Code);
-        requested++;
-        localReq++;
-        z.then((ret) => {
-
-          responsed++;
-          localRes++;
-          if (logger.isTraceEnabled)
-            logger.trace(ret.data.length);
-
-          if (localRes == total_check) {
-            logger.info("Done " + getNow() + " " + (Date.now() - t1) / 1000 + " ms");
+    if (!fs.existsSync(dir + "/investorData" + getNow() + ".json")) {
+      let maxSize = 100;
+      let stat = { req: 0, res: 0, record: 0 }
+      // cop = ssiCop;
+      total_check = cop.length;
+      cop = cop.filter(e => e.stock_code.length < 4)
+      // cop = [ {stock_code:"HPG"}]
+      cop.push({ stock_code: "10" }) //vnindex
+      cop.push({ stock_code: "11" }) //vn30-index
+      console.log("Fetching", cop.length)
+      for (let x of cop) {
+        x['Code'] = x.stock_code;
+        if (x.Code.length < 4) {
+          logger.trace(x.Code);
+          while (stat.req - stat.res >= maxSize) {
+            await wait(200);
           }
-          if (ret.data.length == 0) {
+          stat.req++;
+          // console.log("Fetching",x.Code)
+          let z = fun(x.Code);
+          requested++;
+          localReq++;
+          z.then((ret) => {
+
+            responsed++;
+            localRes++;
+            if (logger.isTraceEnabled)
+              logger.trace(ret.data.length);
+
+            if (localRes == total_check) {
+              logger.info("Done " + getNow() + " " + (Date.now() - t1) / 1000 + " ms");
+            }
+            if (ret.data.length == 0) {
+              stat.res++;
+              if (stat.res % 10 == 0) {
+                console.log(stat)
+              }
+              return;
+            }
+
+            // console.table(ret.data)
+            stat.record += ret.data.length;
+
+            // 
+            // let data2 = csv.parse(ret.data);
+            if (watchlist.includes(ret.Code)) {
+              // logger.info("\n",ret.Code,"\n",data2.substr(0,data2.indexOf("\n",200)));
+            }
+
+            investorData.push(...ret.data)
             stat.res++;
             if (stat.res % 10 == 0) {
               console.log(stat)
             }
-            return;
-          }
-
-          // console.table(ret.data)
-          stat.record += ret.data.length;
-
-          // 
-          // let data2 = csv.parse(ret.data);
-          if (watchlist.includes(ret.Code)) {
-            // logger.info("\n",ret.Code,"\n",data2.substr(0,data2.indexOf("\n",200)));
-          }
-
-          investorData.push(...ret.data)
-          stat.res++;
-          if (stat.res % 10 == 0) {
-            console.log(stat)
-          }
-          // fs.appendFile(dir + ret.Code + '_investor.txt', data2 + "\n", function (err) {
-          //   if (err) throw err;
-          // });
+            // fs.appendFile(dir + ret.Code + '_investor.txt', data2 + "\n", function (err) {
+            //   if (err) throw err;
+            // });
 
 
-        })
+          })
+        }
       }
+
+      while (stat.res < stat.req) {
+        await wait(2000);
+      }
+      console.log(stat)
+
+      fs.writeFileSync(dir + "/investorData" + getNow() + ".json", JSON.stringify(investorData))
+    } else {
+      let buff = fs.readFileSync(dir + "/investorData" + getNow() + ".json", "utf-8")
+      investorData = JSON.parse(buff)
     }
 
-    while (stat.res < stat.req) {
-      await wait(2000);
-    }
-    console.log(stat)
     let data2 = csv.parse(investorData);
 
     investorData = investorData.map(e => {
@@ -188,9 +201,86 @@ function writeArrayJson2Xlsx(filename, array) {
       }
       return ne;
     })
-    // fs.writeFileSync(dir + "/" + getNow() + "/" + investor)
+    let investorDataDays = {}
+    investorData.forEach(e => {
+      if (!investorDataDays[e.code]) investorDataDays[e.code] = []
+      investorDataDays[e.code].push(e)
+    })
+
+    let s = Object.keys(investorDataDays);
+    s.forEach(e => {
+      investorDataDays[e].sort((a, b) => { return b.trading_date - a.trading_date })
+    })
+
+    // console.table(investorDataDays['HPG'])
+
+    let days = [1, 3, 5, 7, 30, 100]
+    let investorDataDaySlide = {}
+    s.forEach(e => {
+      days.forEach(d => {
+        if (!investorDataDaySlide[e]) investorDataDaySlide[e] = {}
+        investorDataDaySlide[e][d] = investorDataDays[e].slice(0, d)
+      })
+    })
+
+    let t = {
+      total_buy_matched: 0,
+      total_sell_matched: 0,
+      foreign_buy_matched: 0,
+      foreign_sell_matched: 0,
+      proprietary_buy_matched: 0,
+      proprietary_sell_matched: 0,
+      local_individual_buy_matched: 0,
+      local_individual_sell_matched: 0,
+      local_institutional_buy_matched: 0,
+      local_institutional_sell_matched: 0,
+      foreign_individual_buy_matched: 0,
+      foreign_individual_sell_matched: 0,
+      foreign_institutional_buy_matched: 0,
+      foreign_institutional_sell_matched: 0,
+    }
+    let tt2 = {
+      total: 0,
+      foreign: 0,
+      proprietary: 0,
+      local_individual: 0,
+      local_institutional: 0,
+      foreign_individual: 0,
+      foreign_institutional: 0,
+    }
+
+    let sum = {}
+    s.forEach(e => {
+      if (!sum[e]) sum[e] = {}
+      days.forEach(d => {
+        sum[e][d] = investorDataDaySlide[e][d].reduce((a, b) => {
+          let ret = {}
+          Object.keys(t).forEach(p => {
+            ret[p] = a[p] + b[p]
+          })
+          return ret;
+        }, { ...t })
+        let delta = {}
+        Object.keys(tt2).forEach(p=>{          
+          delta[p+"_delta"] = sum[e][d][p+"_buy_matched"] -sum[e][d][p+"_sell_matched"]
+        })
+        sum[e][d] = {...delta,...sum[e][d]}
+      })
+
+    })
+
+    console.table(sum['SSI'][1])
+    let sheet = {}
+    days.forEach(d => {
+      if (!sheet[d]) sheet[d] = []
+      s.forEach(e => {
+        sheet[d].push({ code: e, trading_date: investorDataDaySlide[e][d][0].trading_date, date: investorDataDaySlide[e][d][0].date, ...sum[e][d] })
+      })
+    })
+
     fs.appendFileSync(dir + "/" + getNow() + "_investor.csv", data2 + "\n");
-    writeArrayJson2Xlsx(dir + "/" + getNow() + "_investor.xlsx", investorData);
+    writeArrayJson2XlsxNew(dir + "/" + getNow() + "_investor.xlsx", { data: investorData }, ...Object.keys(sheet).map(e => { return { data: sheet[e], name: e } }));
+
   } catch (error) {
     logger.error(error);
   } finally {
