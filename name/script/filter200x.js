@@ -1472,8 +1472,10 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
     let minOld = Math.min(...hl[i].slice(2));
     // if(symbol == "SSI" && e == 10)console.table(hl[i].slice(2))
     let maxOld = Math.max(...hl[i].slice(2));
-    avg["MinOld"+e] = minOld;  
-    avg["MaxOld"+e] = maxOld;
+    avg["MinOldHL"+e] = minOld;  
+    avg["MaxOldHL"+e] = maxOld;
+    avg["MaxOld"+e] = Math.max(...c[i].slice(1));
+    avg["MinOld"+e] = Math.min(...c[i].slice(1));
     let ci = c[i];
     let oi = o[i];
     let bi = b[i];
