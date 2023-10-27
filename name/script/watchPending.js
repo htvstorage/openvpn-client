@@ -1,5 +1,7 @@
 import WebSocket from 'ws';
 import fs from 'fs'
+import moment from 'moment'
+import xlsx from "xlsx"
 let ws = null;
 function wss() {
   ws = new WebSocket('wss://iboard-pushstream.ssi.com.vn/realtime');
@@ -84,9 +86,17 @@ class MessageReader extends Model {
 
     let data = fs.readFileSync("./websocket/data3" + getNow() + ".txt", "utf-8")
     let messages = data.split('\n');
+    let stat = {req:0,res:0,total:messages.length}
     messages.forEach(m => {
+      stat.req++;
       this.onMessage(m)
+      stat.res++;
+      if(stat.req%1000==0){
+        console.log(stat, priceModel.data.length, priceModel.dataC)
+      }
     })
+    fs.writeFileSync("priceModel.json",JSON.stringify(priceModel.data))
+    writeArrayJson2XlsxNew("priceModel.xlsx",priceModel.data)
   }
 
   onMessage(message) {
@@ -96,13 +106,14 @@ class MessageReader extends Model {
       let symbols = messageText.slice(2, 5)
       if (stock[symbols] == "hose") {
         // console.log(messageText.slice(2,5),`Received message: ${messageText}`);
-        // priceModel.onMessage(messageText)
+        priceModel.onMessage(messageText)
 
       }
-    }else if(message.includes("I#")){
+    } else if (message.includes("I#VNINDEX")) {
       let messageText = message.slice(message.indexOf("|") + 1)
-      console.log(messageText.slice(2,5),`Received message: ${messageText}`);
-      
+      // console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
+      priceModel.onIndex(messageText)
+
     }
   }
 }
@@ -115,13 +126,16 @@ let listModel = [new PendingModel(), new MessageWriter()]
 class PriceModel {
   board = {}
 
+  BIDASK =  { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
+  data = new Array(500000);
+  dataC = 0;
   onMessage(message) {
     let a = message.split("|")
     let symbol = message.slice(2, 5)
     // console.log("Count ", this.count(a), message)
     if (this.count(a) >= 34) {
       // if (!this.board[symbol])
-       this.board[symbol] = { BID: {}, ASK: {} }
+      this.board[symbol] = { BID: {}, ASK: {} }
 
       for (let i = 1; i <= 20; i += 2) {
         if (a[i].length > 0) this.board[symbol].BID[+a[i]] = +a[i + 1]
@@ -132,34 +146,54 @@ class PriceModel {
       // console.table(a)
       // console.table(this.board[symbol].BID)
       // console.table(this.board[symbol].ASK)
-      
+
       let b = this.board;
 
-      let sum = (a)=>{
-        let T = {vol:0,val:0}
-        Object.keys(a).forEach(k=>{
-          T.val += +k*a[k]
+      let sum = (a) => {
+        let T = { vol: 0, val: 0 }
+        Object.keys(a).forEach(k => {
+          T.val += +k * a[k]
           T.vol += a[k]
         })
         return T;
       }
-      let BIDASK = {bid:{vol:0,val:0},ask:{vol:0,val:0}}
-      listEx.hose.forEach(e=>{
-        if(b[e]){
-          let T= sum(b[e].BID)
+      let BIDASK = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
+      listEx.hose.forEach(e => {
+        if (b[e]) {
+          let T = sum(b[e].BID)
           // console.table(T)
           BIDASK.bid.vol += T.vol
           BIDASK.bid.val += T.val
-          T= sum(b[e].ASK)
+          T = sum(b[e].ASK)
           // console.table(T)
           BIDASK.ask.vol += T.vol
-          BIDASK.ask.val += T.val          
-        }        
-      })
-      console.table(BIDASK)      
-
-
+          BIDASK.ask.val += T.val
+        }
+      })           
+      this.BIDASK = {...this.BIDASK,...BIDASK}
+      // console.table(this.BIDASK)
+      
+      this.data[this.dataC++] = {"VNINDEX":this.BIDASK["VNINDEX"],"time":this.BIDASK["time"],"date":this.BIDASK["date"],
+      "bid_vol":this.BIDASK["bid"].vol,
+      "bid_val":this.BIDASK["bid"].val,
+      "ask_vol":this.BIDASK["ask"].vol,
+      "ask_val":this.BIDASK["ask"].val,
+      }
     }
+  }
+
+  onIndex(message){
+    let a = message.split("|")
+    let symbol = a[0].slice(2)
+    this.BIDASK[symbol] = +a[1]
+    this.BIDASK["time"] = +a[13]
+    let format  = moment(+a[13] ).format("HH:mm:ss")
+    this.BIDASK["date"] = format
+    // if(symbol == "VNINDEX")
+    // console.table(a)
+    // console.log(Date.now())
+      // console.log([new Date(+a[13] + 7 *60*60*1000)])
+   
   }
 
   count(a) {
@@ -172,6 +206,18 @@ class PriceModel {
   }
 }
 
+
+function writeArrayJson2XlsxNew(filename, ...args) {
+  let workbook = xlsx.utils.book_new();
+  args.forEach(s => {
+    let worksheet = xlsx.utils.json_to_sheet(s.data);
+    if (s.name)
+      xlsx.utils.book_append_sheet(workbook, worksheet, s.name);
+    else
+      xlsx.utils.book_append_sheet(workbook, worksheet);
+  })
+  xlsx.writeFile(workbook, filename);
+}
 
 let priceModel = new PriceModel()
 

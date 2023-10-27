@@ -1,7 +1,10 @@
 // import { Exchange } from "./Exchange.js";
 // import {loadMbs } from "./filter200x.js"
 // import moment from "moment"
-
+import WebSocket from 'ws';
+import fs from 'fs'
+import moment from 'moment'
+import xlsx from "xlsx"
 (async ()=>{
     //     Exchange.SSI.getlistallsymbol()
     // Exchange.SSI.getlistallsymbol3()
@@ -51,27 +54,48 @@
 // console.log(`Hệ số b: ${b}`);
 
 
-let stockNo="hose:1354"
+// let stockNo="hose:1354"
 
-let a = await fetch("https://wgateway-iboard.ssi.com.vn/graphql", { 
-        "headers": {
-          "accept": "*/*",
-          "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
-          "content-type": "application/json",
-          "g-captcha": "",
-          "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
-          "sec-ch-ua-mobile": "?0",
-          "sec-fetch-dest": "empty",
-          "sec-fetch-mode": "cors",
-          "sec-fetch-site": "same-site"
-        },
-        "referrer": "https://iboard.ssi.com.vn/",
-        "referrerPolicy": "strict-origin-when-cross-origin",
-        "body": "{\"operationName\":\"leTables\",\"variables\":{\"stockNo\":\"" + stockNo + "\"},\"query\":\"query leTables($stockNo: String) {\\n  leTables(stockNo: $stockNo) {\\n    stockNo\\n    price\\n    vol\\n    accumulatedVol\\n    time\\n    ref\\n    side\\n    priceChange\\n    priceChangePercent\\n    changeType\\n    __typename\\n  }\\n  stockRealtime(stockNo: $stockNo) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    __typename\\n  }\\n}\\n\"}",
-        "method": "POST",
-        "mode": "cors",        
-      });
+// let a = await fetch("https://wgateway-iboard.ssi.com.vn/graphql", { 
+//         "headers": {
+//           "accept": "*/*",
+//           "accept-language": "en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7",
+//           "content-type": "application/json",
+//           "g-captcha": "",
+//           "sec-ch-ua": "\"Chromium\";v=\"92\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"92\"",
+//           "sec-ch-ua-mobile": "?0",
+//           "sec-fetch-dest": "empty",
+//           "sec-fetch-mode": "cors",
+//           "sec-fetch-site": "same-site"
+//         },
+//         "referrer": "https://iboard.ssi.com.vn/",
+//         "referrerPolicy": "strict-origin-when-cross-origin",
+//         "body": "{\"operationName\":\"leTables\",\"variables\":{\"stockNo\":\"" + stockNo + "\"},\"query\":\"query leTables($stockNo: String) {\\n  leTables(stockNo: $stockNo) {\\n    stockNo\\n    price\\n    vol\\n    accumulatedVol\\n    time\\n    ref\\n    side\\n    priceChange\\n    priceChangePercent\\n    changeType\\n    __typename\\n  }\\n  stockRealtime(stockNo: $stockNo) {\\n    stockNo\\n    ceiling\\n    floor\\n    refPrice\\n    stockSymbol\\n    __typename\\n  }\\n}\\n\"}",
+//         "method": "POST",
+//         "mode": "cors",        
+//       });
 
-let z = await a.text()
+// let z = await a.text()
 
-console.log(z)
+// console.log(z)
+
+
+let a= {...{us:0,vol:0,val:0},...{vol:1,val:1}}
+console.log(a)
+
+let buf= fs.readFileSync("priceModel.json","utf-8")
+let data = JSON.parse(buf);
+data = data.filter(e=>e!=null)
+function writeArrayJson2XlsxNew(filename, ...args) {
+    let workbook = xlsx.utils.book_new();
+    args.forEach(s => {
+      let worksheet = xlsx.utils.json_to_sheet(s.data);
+      if (s.name)
+        xlsx.utils.book_append_sheet(workbook, worksheet, s.name);
+      else
+        xlsx.utils.book_append_sheet(workbook, worksheet);
+    })
+    xlsx.writeFile(workbook, filename);
+  }
+
+writeArrayJson2XlsxNew("priceModel.xlsx",{"data":data})
