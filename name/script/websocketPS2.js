@@ -51,7 +51,7 @@ function wss() {
 
   ws.on('message', function (message) {
     console.log(`Received message: ${message}`);
-    fs.appendFile("./websocket/data_ps_"+getNow()+".txt",Date.now()+"|"+message +'\n',(e)=>{
+    fs.appendFile("./websocket/data_ps2_"+getNow()+".txt",Date.now()+"|"+message +'\n',(e)=>{
       if(e)console.log(e)
     })
   });

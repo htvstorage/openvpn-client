@@ -11,6 +11,7 @@ const httpAgent = new http.Agent({ keepAlive: true });
 const httpsAgent = new https.Agent({ keepAlive: true });
 const agent = (_parsedURL) => _parsedURL.protocol == 'http:' ? httpAgent : httpsAgent;
 import stats from "stats-analysis";
+import { Console } from "console";
 
 log4js.configure({
   appenders: {
@@ -126,8 +127,21 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
     return vh;
   }
 
-  let ratio = vnindex2(model) / 1105.90;
+  let ratio = vnindex2(model) / 1055.45;
+  // let VHM = 41.80*1000
+  // let VIC = 41.60*1000
+  // let VRE = 24.60*1000
+  // let x= {VHM:VHM,VIC:VIC,VRE:VRE}
+  // let chia = [2,3,4]
+  // console.log("Neu ho nha VINGROUP")
+  // chia.forEach(e=>{
+  //   Object.keys(x).forEach(k=>{
+  //     model[k].lastMatchedPrice = x[k]/e
+  //   })
+  //   console.log("Chia ",e, " index ", vnindex2(model)/ratio)
+  // })
   // console.log(vnindex(model) / 1105.90)
+
 
   let databuf = fs.readFileSync("websocket/data20231026.txt", "utf-8")
   let dataex = databuf.split("\n");
@@ -148,8 +162,8 @@ let formater = new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 });
    
           index.push(idx)
           change.push(Math.abs(delta))
-          if(Math.abs(delta)> 10*0.01531373350857321)
-            console.log(s,tk[1], Math.floor(delta*100)/100,Math.floor(lastIndex*100)/100, vnindex2(model) /ratio, e)
+          // if(Math.abs(delta)> 10*0.01531373350857321)
+            // console.log(s,tk[1], Math.floor(delta*100)/100,Math.floor(lastIndex*100)/100, vnindex2(model) /ratio, e)
           lastIndex = idx;
           
         }
