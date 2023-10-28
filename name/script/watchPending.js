@@ -96,7 +96,7 @@ class MessageReader extends Model {
       }
     })
     fs.writeFileSync("priceModel.json",JSON.stringify(priceModel.data))
-    writeArrayJson2XlsxNew("priceModel.xlsx",priceModel.data)
+    writeArrayJson2XlsxNew("priceModel.xlsx",{"data":priceModel.data})
   }
 
   onMessage(message) {

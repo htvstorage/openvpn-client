@@ -98,4 +98,25 @@ function writeArrayJson2XlsxNew(filename, ...args) {
     xlsx.writeFile(workbook, filename);
   }
 
+  let p = ["bid_vol",	"bid_val",	"ask_vol",	"ask_val"]
+  let out = data.reduce((acu,item)=>{
+    if(!acu[item.date]) acu[item.date] = {...item,c:1};
+    else{
+ 
+      p.forEach(e=>{
+        acu[item.date][e] += item[e]
+      })
+      acu[item.date].c++;
+      acu[item.date].VNINDEX = item.VNINDEX
+    }
+    return acu;      
+  },{})
+
+  let values = Object.values(out).sort((a,b)=>  a.time-b.time);
+  values.map(e=>{
+    p.forEach(ep=>{
+      e[ep] = e[ep]/e.c
+    })
+  })
 writeArrayJson2XlsxNew("priceModel.xlsx",{"data":data})
+writeArrayJson2XlsxNew("priceModel2.xlsx",{"data":values})
