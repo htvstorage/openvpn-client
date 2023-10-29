@@ -84,19 +84,21 @@ class MessageWriter extends Model {
 class MessageReader extends Model {
   reader() {
 
-    let data = fs.readFileSync("./websocket/data3" + getNow() + ".txt", "utf-8")
+    // let data = fs.readFileSync("./websocket/data3" + getNow() + ".txt", "utf-8")
+    let data = fs.readFileSync("./websocket/data320231027.txt", "utf-8")
     let messages = data.split('\n');
-    let stat = {req:0,res:0,total:messages.length}
+    let stat = { req: 0, res: 0, total: messages.length }
     messages.forEach(m => {
       stat.req++;
       this.onMessage(m)
       stat.res++;
-      if(stat.req%1000==0){
+      if (stat.req % 1000 == 0) {
         console.log(stat, priceModel.data.length, priceModel.dataC)
       }
     })
-    fs.writeFileSync("priceModel.json",JSON.stringify(priceModel.data))
-    writeArrayJson2XlsxNew("priceModel.xlsx",{"data":priceModel.data})
+    fs.writeFileSync("priceModel.json", JSON.stringify(priceModel.data))
+    console.log("Write log")
+    writeArrayJson2XlsxNew("priceModel.xlsx", { "data": priceModel.data })
   }
 
   onMessage(message) {
@@ -126,7 +128,7 @@ let listModel = [new PendingModel(), new MessageWriter()]
 class PriceModel {
   board = {}
 
-  BIDASK =  { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
+  BIDASK = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
   data = new Array(500000);
   dataC = 0;
   onMessage(message) {
@@ -134,8 +136,13 @@ class PriceModel {
     let symbol = message.slice(2, 5)
     // console.log("Count ", this.count(a), message)
     if (this.count(a) >= 34) {
-      // if (!this.board[symbol])
-      this.board[symbol] = { BID: {}, ASK: {} }
+      let old = null;
+      if (!this.board[symbol])
+        this.board[symbol] = { BID: {}, ASK: {} }
+      else {
+        old = this.board[symbol];
+        this.board[symbol] = { BID: {}, ASK: {} }
+      }
 
       for (let i = 1; i <= 20; i += 2) {
         if (a[i].length > 0) this.board[symbol].BID[+a[i]] = +a[i + 1]
@@ -157,43 +164,66 @@ class PriceModel {
         })
         return T;
       }
-      let BIDASK = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
-      listEx.hose.forEach(e => {
-        if (b[e]) {
-          let T = sum(b[e].BID)
-          // console.table(T)
-          BIDASK.bid.vol += T.vol
-          BIDASK.bid.val += T.val
-          T = sum(b[e].ASK)
-          // console.table(T)
-          BIDASK.ask.vol += T.vol
-          BIDASK.ask.val += T.val
-        }
-      })           
-      this.BIDASK = {...this.BIDASK,...BIDASK}
-      // console.table(this.BIDASK)
-      
-      this.data[this.dataC++] = {"VNINDEX":this.BIDASK["VNINDEX"],"time":this.BIDASK["time"],"date":this.BIDASK["date"],
-      "bid_vol":this.BIDASK["bid"].vol,
-      "bid_val":this.BIDASK["bid"].val,
-      "ask_vol":this.BIDASK["ask"].vol,
-      "ask_val":this.BIDASK["ask"].val,
+
+      //find diff
+      let diff = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
+      if (!old) {
+        let b = this.board[symbol]
+        let T = sum(b.BID)
+        // console.table(T)
+        diff.bid.vol += T.vol
+        diff.bid.val += T.val
+        T = sum(b.ASK)
+        // console.table(T)
+        diff.ask.vol += T.vol
+        diff.ask.val += T.val
+
+      }
+      else {
+        let b = this.board[symbol]
+        let T = sum(b.BID)
+        diff.bid.vol += T.vol
+        diff.bid.val += T.val
+        T = sum(b.ASK)
+        diff.ask.vol += T.vol
+        diff.ask.val += T.val
+        b = old;
+        T = sum(b.BID)
+        diff.bid.vol -= T.vol
+        diff.bid.val -= T.val
+        T = sum(b.ASK)
+        diff.ask.vol -= T.vol
+        diff.ask.val -= T.val
+
+      }
+
+      this.BIDASK.bid.vol += diff.bid.vol
+      this.BIDASK.bid.val += diff.bid.val
+      this.BIDASK.ask.vol += diff.ask.vol
+      this.BIDASK.ask.val += diff.ask.val
+
+      this.data[this.dataC++] = {
+        "VNINDEX": this.BIDASK["VNINDEX"], "time": this.BIDASK["time"], "date": this.BIDASK["date"],
+        "bid_vol": this.BIDASK["bid"].vol,
+        "bid_val": this.BIDASK["bid"].val,
+        "ask_vol": this.BIDASK["ask"].vol,
+        "ask_val": this.BIDASK["ask"].val,
       }
     }
   }
 
-  onIndex(message){
+  onIndex(message) {
     let a = message.split("|")
     let symbol = a[0].slice(2)
     this.BIDASK[symbol] = +a[1]
     this.BIDASK["time"] = +a[13]
-    let format  = moment(+a[13] ).format("HH:mm:ss")
+    let format = moment(+a[13]).format("HH:mm:ss")
     this.BIDASK["date"] = format
     // if(symbol == "VNINDEX")
     // console.table(a)
     // console.log(Date.now())
-      // console.log([new Date(+a[13] + 7 *60*60*1000)])
-   
+    // console.log([new Date(+a[13] + 7 *60*60*1000)])
+
   }
 
   count(a) {
