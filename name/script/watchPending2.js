@@ -59,22 +59,37 @@ class Model {
 
 let pendingModel = { hose: {}, hnx: {}, upcom: {} }
 class PendingModel extends Model {
-  onMessage(message) {
-    const messageText = message.toString('utf-8');
-    if (messageText.startsWith("S#")) {
+  onMessage(messageBuff) {
+    const message = messageBuff.toString('utf-8');
+    if (message.includes("S#")) {
+      let messageText = message;
       let symbols = messageText.slice(2, 5)
-      if (stock[symbols] == "hose" && symbols == "HPG") {
+      if (stock[symbols] == "hose") {
         // console.log(messageText.slice(2,5),`Received message: ${messageText}`);
+        priceModel.onMessage(messageText)
       }
+    } else if (message.includes("I#VNINDEX")) {
+      let messageText = message;
+      // console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
+      priceModel.onIndex(messageText)
+
+    } else if (message.includes("L#")) {
+      let messageText = message;
+      // console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
+      priceModel.onLetable(messageText)
+
+    } else if (message.includes("M#")) {
+      let messageText = message;
+      // console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
+      priceModel.onMatched(messageText)
     }
-    // console.log(messageText.slice(2,5),`Received message: ${messageText}`,);
   }
 }
 
 class MessageWriter extends Model {
   onMessage(message) {
 
-    fs.appendFile("./websocket/data_pending_" + getNow() + ".txt", Date.now() + "|" + message + '\n', (e) => {
+    fs.appendFile("./websocket/data_pending_2_" + getNow() + ".txt", Date.now() + "|" + message + '\n', (e) => {
       if (e) console.log(e)
     })
   }
@@ -84,15 +99,15 @@ class MessageWriter extends Model {
 class MessageReader extends Model {
   reader() {
 
-    // let data = fs.readFileSync("./websocket/data3" + getNow() + ".txt", "utf-8")
-    let data = fs.readFileSync("./websocket/data320231027.txt", "utf-8")
+    let data = fs.readFileSync("./websocket/data3" + getNow() + ".txt", "utf-8")
+    // let data = fs.readFileSync("./websocket/data320231027.txt", "utf-8")
     let messages = data.split('\n');
     let stat = { req: 0, res: 0, total: messages.length }
     messages.forEach(m => {
       stat.req++;
       this.onMessage(m)
       stat.res++;
-      if (stat.req % 1000 == 0) {
+      if (stat.req % 10000 == 0) {
         console.log(stat, priceModel.data.length, priceModel.dataC)
       }
     })
@@ -116,14 +131,14 @@ class MessageReader extends Model {
       // console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
       priceModel.onIndex(messageText)
 
-    }else if (message.includes("L#")) {
+    } else if (message.includes("L#")) {
       let messageText = message.slice(message.indexOf("|") + 1)
-      console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
-      priceModel.onMatched(messageText)
+      // console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
+      priceModel.onLetable(messageText)
 
-    }else if (message.includes("M#")) {
+    } else if (message.includes("M#")) {
       let messageText = message.slice(message.indexOf("|") + 1)
-      console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
+      // console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
       priceModel.onMatched(messageText)
 
     }
@@ -137,10 +152,11 @@ let listModel = [new PendingModel(), new MessageWriter()]
 
 class PriceModel {
   board = {}
-
+  stat = {}
   BIDASK = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
   data = new Array(500000);
   dataC = 0;
+  last = Date.now()
   onMessage(message) {
     let a = message.split("|")
     let symbol = message.slice(2, 5)
@@ -212,13 +228,59 @@ class PriceModel {
       this.BIDASK.ask.vol += diff.ask.vol
       this.BIDASK.ask.val += diff.ask.val
 
-      this.data[this.dataC++] = {
+      // this.data[this.dataC++] = {
+      //   "VNINDEX": this.BIDASK["VNINDEX"], "time": this.BIDASK["time"], "date": this.BIDASK["date"],
+      //   "bid_vol": this.BIDASK["bid"].vol,
+      //   "bid_val": this.BIDASK["bid"].val,
+      //   "ask_vol": this.BIDASK["ask"].vol,
+      //   "ask_val": this.BIDASK["ask"].val,
+      // }
+
+      let vni = {
         "VNINDEX": this.BIDASK["VNINDEX"], "time": this.BIDASK["time"], "date": this.BIDASK["date"],
         "bid_vol": this.BIDASK["bid"].vol,
         "bid_val": this.BIDASK["bid"].val,
         "ask_vol": this.BIDASK["ask"].vol,
         "ask_val": this.BIDASK["ask"].val,
       }
+
+      if (this.stat["VNINDEX"] && this.stat["VNINDEX"].bu &&  this.stat["VNINDEX"].sd ) {
+        vni = {
+          ...vni,
+          "bu_vol": this.stat["VNINDEX"].bu.vol,
+          "bu_val": this.stat["VNINDEX"].bu.val,
+          "sd_vol": this.stat["VNINDEX"].sd.vol,
+          "sd_val": this.stat["VNINDEX"].sd.val,
+          "uk_vol": this.stat["VNINDEX"].unknown.vol,
+          "uk_val": this.stat["VNINDEX"].unknown.val,
+          "busd_vol": this.stat["VNINDEX"].bu.vol - this.stat["VNINDEX"].sd.vol,
+          "busd_val": this.stat["VNINDEX"].bu.val - this.stat["VNINDEX"].sd.val,                    
+        }
+      }
+
+      this.data[this.dataC++] = vni
+      if(this.dataC % 100 == 0 || Date.now() - this.last > 1000) 
+        {
+          console.table(vni)
+
+          let d= +moment(Date.now() + 7*60*60*1000).format("X")
+          let length = 60
+          let time = Array.from({ length: length }, (_, i) => i + d-length)
+          let format = "X" 
+          // let timeX= moment(time,format).format("HH:mm:ss")          
+          time=time.map(e=> moment(e,format).format("HH:mm"))
+          // console.table(time)
+          let out = []
+          time.forEach(t=>{
+            if(this.stat["VNINDEX"][t]) {
+              out.push({time:t,...this.stat["VNINDEX"][t]})
+            }
+          })
+          if(out.length > 0){
+            console.table(out)
+          }
+          this.last = Date.now()
+        }
     }
   }
 
@@ -231,10 +293,43 @@ class PriceModel {
     this.BIDASK["date"] = format
   }
 
-  onLetable(message){
+  onLetable(message) {
+    let a = message.split("|")
+    let symbol = a[0].slice(2)
+    // console.log(message)
+    let [price, vol, total, time, priceref, slide, change, pct, trend] = [...a.slice(1)];
+    [price, vol, total, priceref, change, pct]=[price, vol, total, priceref, change, pct].map(e=> +e);
+
+    if (!this.stat[symbol]) this.stat[symbol] = { unknown:{vol:0,val:0}}
+    if (!this.stat["VNINDEX"]) this.stat["VNINDEX"] = { unknown:{vol:0,val:0}}
+    if (!this.stat["ALL"]) this.stat["ALL"] = { unknown:{vol:0,val:0}}
+    if (!this.stat[symbol][time]) this.stat[symbol][time] = { unknown:{vol:0,val:0}}
+    if (!this.stat["VNINDEX"][time]) this.stat["VNINDEX"][time] = { unknown:{vol:0,val:0}}
+    let all = this.stat["ALL"];
+    let v = this.stat["VNINDEX"];
+    let vt = this.stat["VNINDEX"][time];
+    let b = this.stat[symbol];
+    let bt = this.stat[symbol][time];
+    let fa = stock[symbol] == "hose"? [b, v, all, bt,vt]: [b,all, bt]
+    fa.forEach(e => {
+      if (!e[slide]) {
+        e[slide] = { vol: 0, val: 0 }
+      } else {
+        e[slide].vol += vol
+        e[slide].val += vol * price
+      }
+    })
+    let format = "HH:mm:ss" 
+    let timeX= moment(time,format).format("X")
+    // console.log(time,timeX)
+
+
 
   }
 
+  onMatched(message) {
+
+  }
   count(a) {
     let c = 0;
     a.forEach(e => {
