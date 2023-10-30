@@ -261,11 +261,12 @@ class PriceModel {
       this.data[this.dataC++] = vni
       if(this.dataC % 100 == 0 || Date.now() - this.last > 1000) 
         {
-          console.table(vni)
+          // console.table(vni)
 
           let d= +moment(Date.now() + 7*60*60*1000).format("X")
+          d = Math.floor(d/60)*60
           let length = 60
-          let time = Array.from({ length: length }, (_, i) => i + d-length)
+          let time = Array.from({ length: length }, (_, i) => i*60 + d - 5000)
           let format = "X" 
           // let timeX= moment(time,format).format("HH:mm:ss")          
           time=time.map(e=> moment(e,format).format("HH:mm"))
@@ -300,6 +301,9 @@ class PriceModel {
     let [price, vol, total, time, priceref, slide, change, pct, trend] = [...a.slice(1)];
     [price, vol, total, priceref, change, pct]=[price, vol, total, priceref, change, pct].map(e=> +e);
 
+    let format = "HH:mm:ss" 
+    time= moment(time,format).format("HH:mm")
+
     if (!this.stat[symbol]) this.stat[symbol] = { unknown:{vol:0,val:0}}
     if (!this.stat["VNINDEX"]) this.stat["VNINDEX"] = { unknown:{vol:0,val:0}}
     if (!this.stat["ALL"]) this.stat["ALL"] = { unknown:{vol:0,val:0}}
@@ -319,8 +323,7 @@ class PriceModel {
         e[slide].val += vol * price
       }
     })
-    let format = "HH:mm:ss" 
-    let timeX= moment(time,format).format("X")
+
     // console.log(time,timeX)
 
 
