@@ -118,13 +118,13 @@ class MessageReader extends Model {
 
     }else if (message.includes("L#")) {
       let messageText = message.slice(message.indexOf("|") + 1)
-      console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
-      priceModel.onMatched(messageText)
+      // console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
+      // priceModel.onMatched(messageText)
 
     }else if (message.includes("M#")) {
       let messageText = message.slice(message.indexOf("|") + 1)
-      console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
-      priceModel.onMatched(messageText)
+      // console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
+      // priceModel.onMatched(messageText)
 
     }
   }
@@ -144,8 +144,9 @@ class PriceModel {
   onMessage(message) {
     let a = message.split("|")
     let symbol = message.slice(2, 5)
-    // console.log("Count ", this.count(a), message)
-    if (this.count(a) >= 34) {
+    // if(message.includes("ATC") && message.includes("HPG"))
+    //   console.log("Count ", this.count(a), message)
+    if (this.count(a) >= 30) {
       let old = null;
       if (!this.board[symbol])
         this.board[symbol] = { BID: {}, ASK: {} }
@@ -229,6 +230,14 @@ class PriceModel {
     this.BIDASK["time"] = +a[13]
     let format = moment(+a[13]).format("HH:mm:ss")
     this.BIDASK["date"] = format
+    
+    // this.data[this.dataC++] = {
+    //   "VNINDEX": this.BIDASK["VNINDEX"], "time": this.BIDASK["time"], "date": this.BIDASK["date"],
+    //   "bid_vol": this.BIDASK["bid"].vol,
+    //   "bid_val": this.BIDASK["bid"].val,
+    //   "ask_vol": this.BIDASK["ask"].vol,
+    //   "ask_val": this.BIDASK["ask"].val,
+    // }
   }
 
   onLetable(message){

@@ -1,0 +1,1 @@
+["vol","val"].forEach(e=>{console.log(e)})

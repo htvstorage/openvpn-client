@@ -244,7 +244,7 @@ class PriceModel {
         "ask_val": this.BIDASK["ask"].val,
       }
 
-      if (this.stat["VNINDEX"] && this.stat["VNINDEX"].bu &&  this.stat["VNINDEX"].sd ) {
+      if (this.stat["VNINDEX"] && this.stat["VNINDEX"].bu && this.stat["VNINDEX"].sd) {
         vni = {
           ...vni,
           "bu_vol": this.stat["VNINDEX"].bu.vol,
@@ -254,34 +254,15 @@ class PriceModel {
           "uk_vol": this.stat["VNINDEX"].unknown.vol,
           "uk_val": this.stat["VNINDEX"].unknown.val,
           "busd_vol": this.stat["VNINDEX"].bu.vol - this.stat["VNINDEX"].sd.vol,
-          "busd_val": this.stat["VNINDEX"].bu.val - this.stat["VNINDEX"].sd.val,                    
+          "busd_val": this.stat["VNINDEX"].bu.val - this.stat["VNINDEX"].sd.val,
         }
       }
 
       this.data[this.dataC++] = vni
-      if(this.dataC % 100 == 0 || Date.now() - this.last > 1000) 
-        {
-          // console.table(vni)
-
-          let d= +moment(Date.now() + 7*60*60*1000).format("X")
-          d = Math.floor(d/60)*60
-          let length = 60
-          let time = Array.from({ length: length }, (_, i) => i*60 + d - 5000)
-          let format = "X" 
-          // let timeX= moment(time,format).format("HH:mm:ss")          
-          time=time.map(e=> moment(e,format).format("HH:mm"))
-          // console.table(time)
-          let out = []
-          time.forEach(t=>{
-            if(this.stat["VNINDEX"][t]) {
-              out.push({time:t,...this.stat["VNINDEX"][t]})
-            }
-          })
-          if(out.length > 0){
-            console.table(out)
-          }
-          this.last = Date.now()
-        }
+      if (this.dataC % 100 == 0 || Date.now() - this.last > 1000) {
+        // console.table(vni)
+        this.last = Date.now()
+      }
     }
   }
 
@@ -299,22 +280,25 @@ class PriceModel {
     let symbol = a[0].slice(2)
     // console.log(message)
     let [price, vol, total, time, priceref, slide, change, pct, trend] = [...a.slice(1)];
-    [price, vol, total, priceref, change, pct]=[price, vol, total, priceref, change, pct].map(e=> +e);
+    [price, vol, total, priceref, change, pct] = [price, vol, total, priceref, change, pct].map(e => +e);
 
-    let format = "HH:mm:ss" 
-    time= moment(time,format).format("HH:mm")
-
-    if (!this.stat[symbol]) this.stat[symbol] = { unknown:{vol:0,val:0}}
-    if (!this.stat["VNINDEX"]) this.stat["VNINDEX"] = { unknown:{vol:0,val:0}}
-    if (!this.stat["ALL"]) this.stat["ALL"] = { unknown:{vol:0,val:0}}
-    if (!this.stat[symbol][time]) this.stat[symbol][time] = { unknown:{vol:0,val:0}}
-    if (!this.stat["VNINDEX"][time]) this.stat["VNINDEX"][time] = { unknown:{vol:0,val:0}}
+    let format = "HH:mm:ss"
+    time = moment(time, format).format("HH:mm")
+    let timeX = moment(time, "HH:mm").format("X")
+    // console.log("TimeX", timeX)
+    if (!this.stat[symbol]) this.stat[symbol] = { unknown: { vol: 0, val: 0 } }
+    if (!this.stat["VNINDEX"]) this.stat["VNINDEX"] = { unknown: { vol: 0, val: 0 } }
+    if (!this.stat["ALL"]) this.stat["ALL"] = { unknown: { vol: 0, val: 0 } }
+    if (!this.stat[symbol].T) this.stat[symbol].T = {}
+    if (!this.stat["VNINDEX"].T) this.stat["VNINDEX"].T = {}
+    if (!this.stat[symbol].T[time]) this.stat[symbol].T[time] = { T: timeX, unknown: { vol: 0, val: 0 } }
+    if (!this.stat["VNINDEX"].T[time]) this.stat["VNINDEX"].T[time] = { T: timeX, unknown: { vol: 0, val: 0 } }
     let all = this.stat["ALL"];
     let v = this.stat["VNINDEX"];
-    let vt = this.stat["VNINDEX"][time];
+    let vt = this.stat["VNINDEX"].T[time];
     let b = this.stat[symbol];
-    let bt = this.stat[symbol][time];
-    let fa = stock[symbol] == "hose"? [b, v, all, bt,vt]: [b,all, bt]
+    let bt = this.stat[symbol].T[time];
+    let fa = stock[symbol] == "hose" ? [b, v, all, bt, vt] : [b, all, bt]
     fa.forEach(e => {
       if (!e[slide]) {
         e[slide] = { vol: 0, val: 0 }
@@ -324,15 +308,36 @@ class PriceModel {
       }
     })
 
-    // console.log(time,timeX)
+    if (this.dataC % 100 == 0 || Date.now() - this.last > 1000) {
+      let out = []
+      let X = Object.values(this.stat["VNINDEX"].T).sort((a, b) => {
+        return a.T - b.T
+      })
+      let f = X.slice(X.length - 10)
+      f.forEach(e => {
+        out.push({ time: moment(e.T, "X").format("HH:mm:ss"), ...flattenObject(e) })
+      })
 
-
-
+      if (out.length > 0) {
+        out = out.map(e => {
+          let ne = { ...e };
+          let xx = ["vol", "val"]
+          xx.forEach(v => {
+            if (e["bu_" + v] && e["sd_" + v]) ne["busd_" + v] = e["bu_" + v] - e["sd_" + v]
+          })
+          return ne;
+        })
+        console.table(out)
+        console.table([this.data[this.dataC-1]])
+      }
+      this.last = Date.now()
+    }
   }
 
   onMatched(message) {
 
   }
+
   count(a) {
     let c = 0;
     a.forEach(e => {
@@ -373,3 +378,21 @@ let listEx = {
 
 let mr = new MessageReader()
 mr.reader()
+
+
+
+function flattenObject(inputObject, parentKey = '') {
+  let result = {};
+
+  for (let key in inputObject) {
+    if (typeof inputObject[key] === 'object' && !Array.isArray(inputObject[key])) {
+      // Recursively flatten nested objects
+      const flattened = flattenObject(inputObject[key], parentKey + key + '_');
+      result = { ...result, ...flattened };
+    } else {
+      result[parentKey + key] = inputObject[key];
+    }
+  }
+
+  return result;
+}
