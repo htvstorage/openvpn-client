@@ -1,15 +1,111 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Dynamic Chart Example</title>
-    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+        integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+        crossorigin="anonymous"></script>
     <!-- <script src="https://cdn.socket.io/socket.io-4.0.1.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <style>
+        /* CSS for limiting the number of rows and adding a vertical scroll */
+        #table1Container {
+            max-height: 600px;
+            /* Set the maximum height for the table */
+            overflow-y: auto;
+            /* Enable vertical scrolling */
+        }
+    </style>
+    <style>
+        /* CSS for enabling both horizontal and vertical scrolling for the entire page */
+        body,
+        html {
+            overflow: scroll;
+            /* Enable both horizontal and vertical scrolling for the entire page */
+        }
+    </style>
+
 </head>
+
 <body>
     <div style="width: 400px; height: 400px;">
         <canvas id="myChart"></canvas>
     </div>
+    <div id="table1Container">
+        <table>
+            <caption>Table 1</caption>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>VNINDEX</th>
+                    <th>T</th>
+                    <th>Unknown Vol</th>
+                    <th>Unknown Val</th>
+                    <th>BU Vol</th>
+                    <th>BU Val</th>
+                    <th>SD Vol</th>
+                    <th>SD Val</th>
+                    <th>BUSD Vol</th>
+                    <th>BUSD Val</th>
+                </tr>
+            </thead>
+            <tbody id="table1Body">
+                <!-- Table 1 data will be populated here -->
+            </tbody>
+        </table>
+    </div>
+    <!-- Table 2 -->
+    <table>
+        <caption>Table 2</caption>
+        <thead id="table2Head">
+            <!-- <tr>
+                <th>VNINDEX</th>
+                <th>Time</th>
+                <th>Date</th>
+                <th>Bid Vol</th>
+                <th>Bid Val</th>
+                <th>Ask Vol</th>
+                <th>Ask Val</th>
+                <th>BU Vol</th>
+                <th>BU Val</th>
+                <th>SD Vol</th>
+                <th>SD Val</th>
+                <th>UK Vol</th>
+                <th>UK Val</th>
+                <th>BUSD Vol</th>
+                <th>BUSD Val</th>
+                <th>Min BUSD Val</th>
+                <th>Max BUSD Val</th>
+            </tr> -->
+        </thead>
+        <tbody id="table2Body">
+            <!-- Table 2 data will be populated here -->
+        </tbody>
+    </table>
+
     <script>
         var ctx = document.getElementById('myChart').getContext('2d');
         var chart = new Chart(ctx, {
@@ -39,7 +135,47 @@
             chart.data.labels = data.labels;
             chart.data.datasets[0].data = data.data;
             chart.update();
+
+            // Populate Table 1
+            if (data.table1) {
+                var table1Body = document.getElementById('table1Body');
+                table1Body.innerHTML = '';
+                for (var i = 0; i < data.table1.data.length; i++) {
+                    var row = document.createElement('tr');
+                    for (var j = 0; j < data.table1.labels.length; j++) {
+                        var cell = document.createElement('td');
+                        cell.textContent = data.table1.data[i][j];
+                        row.appendChild(cell);
+                    }
+                    table1Body.appendChild(row);
+                }
+            }
+
+            // Populate Table 2
+            if (data.table2) {
+                var table2Body = document.getElementById('table2Body');
+                var table2Head = document.getElementById('table2Head');
+                table2Head.innerHTML = ''
+                var theadRow = document.createElement('tr');
+                table2Head.appendChild(theadRow);
+                for (var i = 0; i < data.table2.labels.length; i++) {
+                    var th = document.createElement('th');
+                    th.textContent = data.table2.labels[i];
+                    theadRow.appendChild(th);
+                }
+                table2Body.innerHTML = '';
+                // for (var i = 0; i < data.table2.labels.length; i++) {
+                var row = document.createElement('tr');
+                for (var j = 0; j < data.table2.labels.length; j++) {
+                    var cell = document.createElement('td');
+                    cell.textContent = data.table2.data[j];
+                    row.appendChild(cell);
+                }
+                table2Body.appendChild(row);
+                // }
+            }
         });
     </script>
 </body>
+
 </html>
