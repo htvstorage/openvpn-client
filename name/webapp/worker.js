@@ -115,9 +115,7 @@ class MessageReader extends Model {
     })
     // fs.writeFileSync("priceModel.json", JSON.stringify(priceModel.data))
     console.log("Write log")
-    // writeArrayJson2XlsxNew("priceModel.xlsx", { "data": priceModel.data })
-
-    fs.cl
+    // writeArrayJson2XlsxNew("priceModel.xlsx", { "data": priceModel.data })    
   }
 
   async onMessage(message) {
@@ -159,6 +157,7 @@ class PriceModel {
   stat = {}
   BIDASK = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
   data = new Array(500000);
+  lastDataLength = 0
   lastData = []
   mapLastData = {}
   dataC = 0;
@@ -354,75 +353,86 @@ class PriceModel {
     }
 
     if (this.dataC % 100 == 0 || Date.now() - this.last > 1000) {
-      let out = []
-      // let X = Object.values(this.stat["VNINDEX"]s.T).sort((a, b) => {
-      //   return a.T - b.T
-      // })
-      // let f = X.slice(X.length - 10)
-      // f.forEach(e => {
-      //   out.push({ time: moment(e.T, "X").format("HH:mm:ss"), ...flattenObject(e) })
-      // })
-      this.lastData.forEach(
-        e => {
-          out.push({ time: e.time, ...flattenObject(e) })
-        }
-      )
-      if (out.length > 0) {
-        out = out.map(e => {
-          let ne = { ...e };
-          let xx = ["vol", "val"]
-          xx.forEach(v => {
-            if (e["bu_" + v] && e["sd_" + v]) {
-              ne["busd_" + v] = e["bu_" + v] - e["sd_" + v]
+      this.onPostMessage()
+    }
+  }
 
-            }
-          })
-          return ne;
+  async intervalCheck() {
+    if (this.lastDataLength < this.lastData.length && (Date.now() - this.last > 1000)) {
+      this.onPostMessage()
+    }
+  }
+
+  async onPostMessage() {
+    let out = []
+    // let X = Object.values(this.stat["VNINDEX"]s.T).sort((a, b) => {
+    //   return a.T - b.T
+    // })
+    // let f = X.slice(X.length - 10)
+    // f.forEach(e => {
+    //   out.push({ time: moment(e.T, "X").format("HH:mm:ss"), ...flattenObject(e) })
+    // })
+    this.lastData.forEach(
+      e => {
+        out.push({ time: e.time, ...flattenObject(e) })
+      }
+    )
+    if (out.length > 0) {
+      out = out.map(e => {
+        let ne = { ...e };
+        let xx = ["vol", "val"]
+        xx.forEach(v => {
+          if (e["bu_" + v] && e["sd_" + v]) {
+            ne["busd_" + v] = e["bu_" + v] - e["sd_" + v]
+
+          }
         })
-        // console.table(out)
-        // console.table([this.data[this.dataC - 1]])
+        return ne;
+      })
+      // console.table(out)
+      // console.table([this.data[this.dataC - 1]])
 
-        let d = this.data[this.dataC - 1];
-        let table1 = {
-          labels: [
+      let d = this.data[this.dataC - 1];
+      let table1 = {
+        labels: [
+          'time', 'VNINDEX',
+          'T', 'unknown_vol',
+          'unknown_val', 'bu_vol',
+          'bu_val', 'sd_vol',
+          'sd_val', 'busd_vol',
+          'busd_val'
+        ],
+        data: out.map(e => {
+          return [
             'time', 'VNINDEX',
             'T', 'unknown_vol',
             'unknown_val', 'bu_vol',
             'bu_val', 'sd_vol',
             'sd_val', 'busd_vol',
             'busd_val'
-          ],
-          data: out.map(e => {
-            return [
-              'time', 'VNINDEX',
-              'T', 'unknown_vol',
-              'unknown_val', 'bu_vol',
-              'bu_val', 'sd_vol',
-              'sd_val', 'busd_vol',
-              'busd_val'
-            ].map(ee => {
-              if (ee.includes('vol') || ee.includes('val'))
-                return numeral(e[ee]).format('0,0');
-              else return e[ee]
-            })
+          ].map(ee => {
+            if (ee.includes('vol') || ee.includes('val'))
+              return numeral(e[ee]).format('0,0');
+            else return e[ee]
           })
-        }
-
-        // console.table(table1.data)
-        let table2 = {
-          labels: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"],
-          data: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"].map(e => {
-            d[e]
-            if (e.includes('vol') || e.includes('val'))
-              return numeral(d[e]).format('0,0');
-            else return d[e]
-          })
-        }
-
-        parentPort.postMessage({ data: null, table1: table1, table2: table2 });
+        })
       }
-      this.last = Date.now()
+
+      // console.table(table1.data)
+      let table2 = {
+        labels: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"],
+        data: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"].map(e => {
+          d[e]
+          if (e.includes('vol') || e.includes('val'))
+            return numeral(d[e]).format('0,0');
+          else return d[e]
+        })
+      }
+
+      parentPort.postMessage({ data: null, table1: table1, table2: table2 });
     }
+    this.last = Date.now()
+    this.lastDataLength = this.lastData.length;
   }
 
   async onMatched(message) {
@@ -487,7 +497,9 @@ setTimeout(() => {
   read()
 }, 1000);
 
-
+setInterval(()=>{
+  priceModel.intervalCheck()
+},5000)
 
 
 function flattenObject(inputObject, parentKey = '') {
