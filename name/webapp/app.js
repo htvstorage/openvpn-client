@@ -34,19 +34,16 @@ setInterval(() => {
   const dynamicData = {
     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
     data: Array(6).fill().map(() => Math.floor(Math.random() * 20)),
-  };
-  // for (let i = 0; i < 1000; i++) {
-  // dynamicData.data[0] = priceModel.BIDASK["VNINDEX"]
-  // dynamicData.data[1] = i
-  // console.table(dynamicData)
-  io.emit('updateData', dynamicData);
-  // }
-
-
+  };  
+    io.emit('updateData', dynamicData);
 }, 2000);
 
 io.on('connection', (socket) => {
-  console.log('A user connected');
+  const clientIP = socket.handshake.address;
+  console.log(`Client connected with IP: ${clientIP}`);
+  // console.log('A user connected', JSON.stringify(socket));
+  if (lastData)
+    socket.emit('updateData', lastData);
 });
 
 
@@ -74,6 +71,7 @@ serverX()
 const { Worker } = require("worker_threads");
 
 const worker = new Worker("./worker.js");
+let lastData = null;
 worker.on("message", (data) => {
   // res.status(200).send(`result is ${data}`);
   // const dynamicData = {
@@ -84,6 +82,7 @@ worker.on("message", (data) => {
   // dynamicData.data[0] = priceModel.BIDASK["VNINDEX"]
   // dynamicData.data[1] = i
   // console.table(dynamicData)
+  lastData = data;
   io.emit('updateData', data);
 });
 worker.on("error", (msg) => {

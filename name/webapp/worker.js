@@ -342,7 +342,7 @@ class PriceModel {
       if (!this.mapLastData[time]) {
         this.mapLastData[time] = vt;
         this.lastData.push(vt)
-        let keep = 10
+        let keep = 1000
         if (this.lastData.length > keep) {
           for (let i = 0; i < this.lastData.length - keep; i++) {
             delete this.mapLastData[this.lastData[i].time]
