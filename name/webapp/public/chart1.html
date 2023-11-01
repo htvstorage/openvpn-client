@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -51,10 +52,38 @@
 </head>
 
 <body>
+    <!-- <div id="sidebarContainer"></div> -->
     <div style="width: 400px; height: 400px;">
         <canvas id="myChart"></canvas>
     </div>
     <div id="table1Container">
+        <table>
+            <caption>Table 2</caption>
+            <thead id="table2Head">
+                <!-- <tr>
+                    <th>VNINDEX</th>
+                    <th>Time</th>
+                    <th>Date</th>
+                    <th>Bid Vol</th>
+                    <th>Bid Val</th>
+                    <th>Ask Vol</th>
+                    <th>Ask Val</th>
+                    <th>BU Vol</th>
+                    <th>BU Val</th>
+                    <th>SD Vol</th>
+                    <th>SD Val</th>
+                    <th>UK Vol</th>
+                    <th>UK Val</th>
+                    <th>BUSD Vol</th>
+                    <th>BUSD Val</th>
+                    <th>Min BUSD Val</th>
+                    <th>Max BUSD Val</th>
+                </tr> -->
+            </thead>
+            <tbody id="table2Body">
+                <!-- Table 2 data will be populated here -->
+            </tbody>
+        </table>        
         <table>
             <caption>Table 1</caption>
             <thead>
@@ -78,33 +107,7 @@
         </table>
     </div>
     <!-- Table 2 -->
-    <table>
-        <caption>Table 2</caption>
-        <thead id="table2Head">
-            <!-- <tr>
-                <th>VNINDEX</th>
-                <th>Time</th>
-                <th>Date</th>
-                <th>Bid Vol</th>
-                <th>Bid Val</th>
-                <th>Ask Vol</th>
-                <th>Ask Val</th>
-                <th>BU Vol</th>
-                <th>BU Val</th>
-                <th>SD Vol</th>
-                <th>SD Val</th>
-                <th>UK Vol</th>
-                <th>UK Val</th>
-                <th>BUSD Vol</th>
-                <th>BUSD Val</th>
-                <th>Min BUSD Val</th>
-                <th>Max BUSD Val</th>
-            </tr> -->
-        </thead>
-        <tbody id="table2Body">
-            <!-- Table 2 data will be populated here -->
-        </tbody>
-    </table>
+
 
     <script>
         var ctx = document.getElementById('myChart').getContext('2d');
@@ -138,6 +141,7 @@
 
             // Populate Table 1
             if (data.table1) {
+                data.table1.data.sort((a,b)=>{return b[2]-a[2]})
                 var table1Body = document.getElementById('table1Body');
                 table1Body.innerHTML = '';
                 for (var i = 0; i < data.table1.data.length; i++) {
@@ -176,6 +180,13 @@
             }
         });
     </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Use jQuery to load the sidebar from sidebar.html
+        $(document).ready(function () {
+            $('#sidebarContainer').load('sidebar.html');
+        });
+    </script>     -->
 </body>
 
 </html>

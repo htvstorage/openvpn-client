@@ -4,7 +4,7 @@ const socketIo = require('socket.io', { rememberTransport: false, transports: ['
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
-
+const numeral = require('numeral');
 
 // async function wpaf() {
 //     const wpa = require('./watchPendingApp.js');
@@ -87,5 +87,5 @@ worker.on("message", (data) => {
   io.emit('updateData', data);
 });
 worker.on("error", (msg) => {
-  res.status(404).send(`An error occurred: ${msg}`);
+  // res.status(404).send(`An error occurred: ${msg}`);
 });

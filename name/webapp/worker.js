@@ -3,6 +3,7 @@ const WebSocket = require('ws');
 const fs = require('fs')
 const moment = require('moment')
 const xlsx = require("xlsx")
+const numeral = require('numeral');
 let ws = null;
 async function wss() {
   ws = new WebSocket('wss://iboard-pushstream.ssi.com.vn/realtime');
@@ -378,7 +379,7 @@ class PriceModel {
           })
           return ne;
         })
-        console.table(out)
+        // console.table(out)
         // console.table([this.data[this.dataC - 1]])
 
         let d = this.data[this.dataC - 1];
@@ -399,14 +400,23 @@ class PriceModel {
               'bu_val', 'sd_vol',
               'sd_val', 'busd_vol',
               'busd_val'
-            ].map(ee => e[ee])
+            ].map(ee => {
+              if (ee.includes('vol') || ee.includes('val'))
+                return numeral(e[ee]).format('0,0');
+              else return e[ee]
+            })
           })
         }
 
         // console.table(table1.data)
         let table2 = {
           labels: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"],
-          data: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"].map(e => d[e])
+          data: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"].map(e => {
+            d[e]
+            if (e.includes('vol') || e.includes('val'))
+              return numeral(d[e]).format('0,0');
+            else return d[e]
+          })
         }
 
         parentPort.postMessage({ data: null, table1: table1, table2: table2 });
