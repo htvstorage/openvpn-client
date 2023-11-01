@@ -410,23 +410,27 @@ class PriceModel {
             'bu_val', 'sd_vol',
             'sd_val', 'busd_vol',
             'busd_val'
-          ].map(ee => {
-            if (ee.includes('vol') || ee.includes('val'))
-              return numeral(e[ee]).format('0,0');
-            else return e[ee]
-          })
+          ].map(ee => e[ee]
+          // {
+          //   if (ee.includes('vol') || ee.includes('val'))
+          //     return numeral(e[ee]).format('0,0');
+          //   else return e[ee]
+          // }
+          )
         })
       }
 
       // console.table(table1.data)
       let table2 = {
         labels: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"],
-        data: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"].map(e => {
+        data: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"].map(e => 
           d[e]
-          if (e.includes('vol') || e.includes('val'))
-            return numeral(d[e]).format('0,0');
-          else return d[e]
-        })
+      //  {
+      //     if (e.includes('vol') || e.includes('val'))
+      //       return numeral(d[e]).format('0,0');
+      //     else return d[e]
+      //   }
+        )
       }
 
       parentPort.postMessage({ data: null, table1: table1, table2: table2 });
