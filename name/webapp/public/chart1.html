@@ -94,17 +94,17 @@
             <caption>Table 1</caption>
             <thead>
                 <tr>
-                    <th>Time</th>
+                    <th>Thời gian</th>
                     <th>VNINDEX</th>
                     <th>T</th>
-                    <th>Unknown Vol</th>
-                    <th>Unknown Val</th>
-                    <th>BU Vol</th>
-                    <th>BU Val</th>
-                    <th>SD Vol</th>
-                    <th>SD Val</th>
-                    <th>BUSD Vol</th>
-                    <th>BUSD Val</th>
+                    <th>Vol KoXĐ</th>
+                    <th>Val KoXĐ</th>
+                    <th>Vol MuaCĐ</th>
+                    <th>Val MuaCĐ</th>
+                    <th>Vol BánCĐ</th>
+                    <th>Val BánCĐ</th>
+                    <th>Vol Mua-Bán</th>
+                    <th>Val Mua-Bán</th>
                 </tr>
             </thead>
             <tbody id="table1Body">
@@ -161,7 +161,7 @@
                 scales: {
                     y: {
                         beginAtZero: false,
-                        suggestedMin: 980,  // Bắt đầu từ 999
+                        suggestedMin: 1015,  // Bắt đầu từ 999
                     }
                 }, plugins: {
                     zoom: zoomOptions,
@@ -178,6 +178,7 @@
                     borderColor: 'blue',
                     data: [65, 59, 80, 81, 56, 55],
                     fill: false,
+                    hidden: true // Ẩn đường này mặc định
                 },
                 {
                     label: 'bu_val',
