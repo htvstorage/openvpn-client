@@ -49,7 +49,7 @@ if (!fs.existsSync("../websocket/")) {
 wss();
 
 function getNow() {
-  let fd = new Date(Date.now()-12*60*60*1000);
+  let fd = new Date(Date.now()-24*60*60*1000);
   return fd.getFullYear()
     + "" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
     + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate());
@@ -541,7 +541,7 @@ async function read() {
 }
 setTimeout(() => {
   read()
-}, 1000);
+}, 10000);
 
 setInterval(() => {
   priceModel.intervalCheck()

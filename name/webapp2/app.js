@@ -1,7 +1,9 @@
 const express = require('express');
 const http = require('http');
 //, 'Flash Socket', 'AJAX long-polling'
-const socketIo = require('socket.io', { rememberTransport: false, transports: ['WebSocket'] })
+const socketIo = require('socket.io', {maxHttpBufferSize: 1e11, rememberTransport: false, 
+  // transports: ['WebSocket', 'Flash Socket', 'AJAX long-polling'] 
+})
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
@@ -39,12 +41,15 @@ setInterval(() => {
     io.emit('updateData', dynamicData);
 }, 2000);
 
+let client = null;
 io.on('connection', (socket) => {
   const clientIP = socket.handshake.address;
   console.log(`Client connected with IP: ${clientIP}`);
   // console.log('A user connected', JSON.stringify(socket));
   if (lastData)
     socket.emit('updateData', lastData);
+  
+    client = socket;
 });
 
 
@@ -86,19 +91,61 @@ worker.on("message", (data) => {
   // dynamicData.data[0] = priceModel.BIDASK["VNINDEX"]
   // dynamicData.data[1] = i
   // console.table(dynamicData)
+  workerQueue.push(data)
+  // emitData(data)
+  
+});
+
+function emitData(data){
   if(data.type == '0'){
     lastData = data;
-    io.emit('updateData', data);
+    io.volatile.emit('updateData', data);
     countUpdate++;
     if(countUpdate %1000 == 0){console.log("Count Update",countUpdate, countSymbol)}
 
   }else if(data.type == '1'){
     countSymbol++;
     if(countSymbol %1000 == 0){console.log("Count symbols",countSymbol)}
-    io.emit('updateDataSymbol', data);
+    io.volatile.emit('updateDataSymbol', data);
   }
-  
-});
+}
+
+let workerQueue = []
+
+let start = 0;
+let count =0
+let running = false;
+async function emit(){
+  if(running ) return;
+  running = true;
+  if(workerQueue.length > 0 && start == 0) start = Date.now()-1;
+  while(workerQueue.length > 0){
+    let data = workerQueue.shift();
+    emitData(data)
+    count++;
+    if(count*1000/(Date.now()-start) > 1000){
+      break;
+    }
+    if(count %1000 == 0){
+      console.log("count",count, "tps",count*1000/(Date.now()-start))
+    }
+
+  }
+  running = false;
+}
+
+setInterval(()=>{
+  emit()
+},0)
 worker.on("error", (msg) => {
   // res.status(404).send(`An error occurred: ${msg}`);
 });
+
+
+function wait(ms) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(0);
+    }, ms);
+  });
+}

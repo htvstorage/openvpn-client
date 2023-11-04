@@ -289,20 +289,38 @@
         let indexMaps = {}
         let symbolmaps = {}
         let dataSymbol = []
-        let C=0
+        let C = 0
         let tmpRow = {}
         let cola = ["time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val"]
-        cola.forEach(col=>{
+        cola.forEach(col => {
             tmpRow[col] = 0
         })
-        Object.keys(map).forEach(s=>{
-            let data = {symbol:s,...tmpRow}
-            
-            dataSymbol[C] = data;
-            indexMaps[s] =C
-            C++;
-        })
-        
+
+        let mf = {}
+        mf['HPG'] = 1
+        mf['STB'] = 1
+        mf['NVL'] = 1
+        mf['HSG'] = 1
+        // mf['DIG'] = 1
+        // mf['DXY'] = 1
+        // mf['PVT'] = 1
+        // mf['TPB'] = 1
+        // mf['BID'] = 1
+        // mf['VIC'] = 1
+        // mf['VIX'] = 1
+        // mf['SSI'] = 1
+        Object.keys(map)
+            // .filter(s => {
+            //     if (mf[s] == 1) { return true } else return false
+            // })
+            .forEach(s => {
+                let data = { symbol: s, ...tmpRow }
+
+                dataSymbol[C] = data;
+                indexMaps[s] = C
+                C++;
+            })
+
 
         let index = 0;
 
@@ -337,8 +355,14 @@
         }
 
         // Connect to the WebSocket server
-        var socket = io();
-        socket.on('updateDataSymbol', function (data) {
+        var socket = io({
+            maxHttpBufferSize: 1e11,
+            // transports: ['AJAX long-polling','Flash Socket',"websocket"] 
+        });
+        let countSymbols = 0;
+        async function updateDataSymbol(data) {
+            countSymbols++;
+            if (countSymbols % 100 == 0) console.log("CountSymbpl", countSymbols)
             // console.table(data.data)
             // let symbolmaps = sessionStorage.getItem('symbols');
             // if (symbolmaps == null)
@@ -409,7 +433,7 @@
                 if (indexMaps[ne.symbol]) {
                     let row = table.row(indexMaps[ne.symbol]);
                     // console.log(indexMaps[ne.symbol], indexMaps)
-                    dataSymbol[indexMaps[ne.symbol]] = {...ne}
+                    dataSymbol[indexMaps[ne.symbol]] = { ...ne }
                     row.data(ne)
                     // console.log(ne)
                     row.invalidate().draw(false)
@@ -441,8 +465,30 @@
             //         order: [[0, 'asc']]
             //     }
             // );
+        }
+        let symbolData = {}
+        setInterval(()=>{
+            let updateData=Object.values(symbolData).filter(e=>e.update)
+            updateData.forEach(e=>{
+                e.update = false;
+            })
+
+            while(updateData.length> 0){
+                let data =updateData.shift()
+                updateDataSymbol(data.data)
+            }
+        },5000)
+        socket.on('updateDataSymbol', function (data) {
+            // updateDataSymbol(data)
+            symbolData[data.data.data[0]] = {update:true,data:data}
+            countSymbols++;
+            if (countSymbols % 1000 == 0) console.log("CountSymbpl", countSymbols)
         })
         socket.on('updateData', function (data) {
+
+        });
+
+        async function updateData(data) {
             // Update chart data when new data arrives
             // chart.data.labels = data.labels;
             // chart.data.datasets[0].data = data.data;
@@ -579,7 +625,7 @@
 
 
             }
-        });
+        }
     </script>
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
