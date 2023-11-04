@@ -1,6 +1,7 @@
 const express = require('express');
 const http = require('http');
-const socketIo = require('socket.io', { rememberTransport: false, transports: ['WebSocket', 'Flash Socket', 'AJAX long-polling'] })
+//, 'Flash Socket', 'AJAX long-polling'
+const socketIo = require('socket.io', { rememberTransport: false, transports: ['WebSocket'] })
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
@@ -72,6 +73,9 @@ const { Worker } = require("worker_threads");
 
 const worker = new Worker("./worker.js");
 let lastData = null;
+let countSymbol = 0;
+let countUpdate = 0;
+
 worker.on("message", (data) => {
   // res.status(200).send(`result is ${data}`);
   // const dynamicData = {
@@ -85,7 +89,12 @@ worker.on("message", (data) => {
   if(data.type == '0'){
     lastData = data;
     io.emit('updateData', data);
+    countUpdate++;
+    if(countUpdate %1000 == 0){console.log("Count Update",countUpdate, countSymbol)}
+
   }else if(data.type == '1'){
+    countSymbol++;
+    if(countSymbol %1000 == 0){console.log("Count symbols",countSymbol)}
     io.emit('updateDataSymbol', data);
   }
   
