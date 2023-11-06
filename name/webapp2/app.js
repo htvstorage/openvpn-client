@@ -44,7 +44,7 @@ setInterval(() => {
 let client = null;
 io.on('connection', (socket) => {
   const clientIP = socket.handshake.address;
-  console.log(`Client connected with IP: ${clientIP}`);
+  console.log(`Client connected with IP: ${clientIP}`,socket.id);
   // console.log('A user connected', JSON.stringify(socket));
   if (lastData)
     socket.emit('updateData', lastData);
@@ -91,14 +91,14 @@ worker.on("message", (data) => {
   // dynamicData.data[0] = priceModel.BIDASK["VNINDEX"]
   // dynamicData.data[1] = i
   // console.table(dynamicData)
-  workerQueue.push(data)
-  // emitData(data)
+  // workerQueue.push(data)
+  emitData(data)
   
 });
-
+let mapLastData = {}
 function emitData(data){
   if(data.type == '0'){
-    lastData = data;
+    lastData = data
     io.volatile.emit('updateData', data);
     countUpdate++;
     if(countUpdate %1000 == 0){console.log("Count Update",countUpdate, countSymbol)}
@@ -123,7 +123,7 @@ async function emit(){
     let data = workerQueue.shift();
     emitData(data)
     count++;
-    if(count*1000/(Date.now()-start) > 1000){
+    if(count*1000/(Date.now()-start) > 800){
       break;
     }
     if(count %1000 == 0){
@@ -136,7 +136,7 @@ async function emit(){
 
 setInterval(()=>{
   emit()
-},0)
+},10000)
 worker.on("error", (msg) => {
   // res.status(404).send(`An error occurred: ${msg}`);
 });

@@ -4,6 +4,8 @@
 <head>
     <title>Dynamic Chart Example</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.0/css/jquery.dataTables.css">
     <!-- <link href="https://cdn.datatables.net/v/dt/dt-1.13.6/datatables.min.css" rel="stylesheet" type="text/css"> -->
@@ -17,6 +19,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+
     <style>
         table {
             border-collapse: collapse;
@@ -82,7 +85,7 @@
                 <th></th>
                 <th></th>
             </tr>
-        </tfoot>        
+        </tfoot>
         <tbody>
             <!-- Dữ liệu sẽ được thêm ở đây -->
         </tbody>
@@ -256,11 +259,6 @@
         var socket = io();
 
         socket.on('updateData', function (data) {
-            // Update chart data when new data arrives
-            // chart.data.labels = data.labels;
-            // chart.data.datasets[0].data = data.data;
-            // chart.update();
-
             // Populate Table 1
             if (data.table1) {
                 chart.data.labels = data.table1.data.map(e => e[0])
@@ -310,12 +308,6 @@
                 }
                 table2Body.appendChild(row);
 
-                var datax = [
-                    { Name: 'John', Age: 30, Country: data.table2.data[0] },
-                    { Name: 'Alice', Age: 25, Country: 'Canada' },
-                    { Name: 'Bob', Age: 35, Country: 'UK' },
-                ];
-
                 table2Head = document.getElementById('headTable');
                 table2Head.innerHTML = ''
                 var theadRow = document.createElement('tr');
@@ -332,13 +324,32 @@
                 var theadRow = document.createElement('tr');
                 table2Head.appendChild(theadRow);
                 let start = 3;
-                let sum=data.table1.data.reduce((a,b)=>{
+                // console.table(data.table1.data[0])
+                let timeX = moment(data.table1.data[0][0],'HH:mm').format("x")
+        
+                
+
+                let delta = Date.now() - timeX;
+                // console.log("timeX",timeX,delta/1000/60)
+                let tpsa = []                
+                if (delta < 60 * 1000) {
+                    let lasta = data.table1.data[0]
+                    // console.table(lasta)
+                    for (let i = start; i <= lasta.length - 1; i++) {
+                        tpsa[i] = lasta[i] * 60 * 1000 / (delta)
+                    }
+                    tpsa[1] = (lasta[3] + lasta[5] + lasta[7])*60*1000/(delta)
+                    tpsa[2] = (lasta[4] + lasta[6] + lasta[8])*60*1000/(delta)
+                }
+
+
+                let sum = data.table1.data.reduce((a, b) => {
                     let ret = []
-                    for(let i=start; i <= a.length-1; i++){
-                        ret[i] = a[i]+b[i]
-                    }                 
+                    for (let i = start; i <= a.length - 1; i++) {
+                        ret[i] = a[i] + b[i]
+                    }
                     return ret;
-                },Array(11).fill(0,3))
+                }, Array(11).fill(0, 3))
 
                 sum[1] = sum[3] + sum[5] + sum[7]
                 sum[2] = sum[4] + sum[6] + sum[8]
@@ -346,23 +357,20 @@
                 label1 = ['Thống kê', 'Tổng Vol', 'Tổng Val', 'Vol KoXĐ', 'Val KoXĐ', 'Vol MuaCĐ', 'Val MuaCĐ', 'Vol BánCĐ', 'Val BánCĐ', 'Vol Mua-Bán', 'Val Mua-Bán']
                 for (var i = 0; i < label1.length; i++) {
                     var th = document.createElement('th');
-                    if(i <1){
+                    if (i < 1) {
                         th.textContent = label1[i];
-                    }else{
+                    } else {
                         // th.textContent = label1[i] + '/Phút\n' + Math.floor(sum[i]/data.table1.data.length*100)/100;
-                        th.textContent = label1[i] + '/Phút\n' + numeral(sum[i]/data.table1.data.length).format('0,0') + '\nT:' + numeral(sum[i]).format('0,0');
+                        th.textContent = label1[i] + '/Phút\n' + numeral(sum[i] / data.table1.data.length).format('0,0') + '\nT:' + numeral(sum[i]).format('0,0') 
+                            + (tpsa[i] ? '\nctps: ' + numeral(tpsa[i]).format('0,0') : '');
                     }
                     theadRow.appendChild(th);
 
                 }
-
                 if ($.fn.DataTable.isDataTable('#myTable')) {
                     $('#myTable').DataTable().destroy();
 
                 }
-
-
-                
                 let datanew = data.table1.data.map(e => {
                     let ne = {};
                     data.table1.labels.forEach((l, i) => {
@@ -375,10 +383,8 @@
                         // paging: true,
                         searching: true,
                         data: datanew,
+                        destroy:true,
                         columns: [
-                            // { data: 'Name', searchable: true },
-                            // { data: 'Age' },
-                            // { data: 'Country' }
                             ...data.table1.labels.map(e => { return { data: e, orderable: true } })
                         ],
                         order: [[2, 'desc']]

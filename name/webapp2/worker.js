@@ -49,7 +49,7 @@ if (!fs.existsSync("../websocket/")) {
 wss();
 
 function getNow() {
-  let fd = new Date(Date.now()-24*60*60*1000);
+  let fd = new Date(Date.now());
   return fd.getFullYear()
     + "" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
     + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate());
@@ -97,6 +97,7 @@ class MessageWriter extends Model {
   }
 }
 
+let lastReadTime = 0;
 
 class MessageReader extends Model {
   async reader() {
@@ -121,13 +122,14 @@ class MessageReader extends Model {
   async onMessage(message) {
     if (message.includes("S#")) {
       let messageText = message.slice(message.indexOf("|") + 1)
-
+      lastReadTime = message.slice(0,message.indexOf("|"))
+      // console.log(lastReadTime)
       let symbols = messageText.slice(2, 5)
-      if (stock[symbols] == "hose") {
+      // if (stock[symbols] == "hose") {
         // console.log(messageText.slice(2,5),`Received message: ${messageText}`);
         priceModel.onMessage(messageText)
 
-      }
+      // }
     } else if (message.includes("I#VNINDEX")) {
       let messageText = message.slice(message.indexOf("|") + 1)
       // console.log(messageText.slice(2, 5), `Received message: ${messageText}`);
@@ -173,6 +175,7 @@ class PriceModel {
   async onMessage(message) {
     let a = message.split("|")
     let symbol = message.slice(2, 5)
+    // if(message.includes("SHS")) console.log("Count ", this.count(a), message)
     // console.log("Count ", this.count(a), message)
     if (this.count(a) >= 32) {
       let old = null;
@@ -183,9 +186,10 @@ class PriceModel {
         this.board[symbol] = { BID: {}, ASK: {} }
       }
 
+
       for (let i = 1; i <= 20; i += 2) {
         if (a[i].length > 0 && (!Number.isNaN(+a[i]) || !Number.isNaN(+a[i + 1]))) this.board[symbol].BID[+a[i]] = +a[i + 1]
-        // else if(a[i].length > 0) console.table(a)
+        else if(a[i].length > 0) console.table(a)
       }
       for (let i = 21; i <= 40; i += 2) {
         if (a[i].length > 0 && (!Number.isNaN(+a[i]) || !Number.isNaN(+a[i + 1]))) this.board[symbol].ASK[+a[i]] = +a[i + 1]
@@ -198,6 +202,9 @@ class PriceModel {
       let b = this.board;
 
 
+      if (stock[symbol] != "hose") {
+        return;
+      }
 
       //find diff
       let diff = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
@@ -284,6 +291,7 @@ class PriceModel {
         // console.table(vni)
         this.last = Date.now()
       }
+
     }
   }
 
@@ -381,14 +389,14 @@ class PriceModel {
     
     // console.table(stats)
     let table = {
-      labels: ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val",],
+      // labels: ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val",],
       data: ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val",].map(e =>
         stats[e]
       )
     }
 
     // console.table(table)
-
+    if(parentPort)
     parentPort.postMessage({ data: table, type: '1' });
 
 
@@ -465,16 +473,11 @@ class PriceModel {
         labels: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"],
         data: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"].map(e =>
           d[e]
-          //  {
-          //     if (e.includes('vol') || e.includes('val'))
-          //       return numeral(d[e]).format('0,0');
-          //     else return d[e]
-          //   }
         )
       }
 
 
-
+      if(parentPort)
       parentPort.postMessage({ data: null, table1: table1, table2: table2, type: '0' });
     }
     this.last = Date.now()

@@ -354,12 +354,82 @@
             theadRow.appendChild(th);
         }
 
+
+        // $(document).ready(function () {
+        //     // Setup - add a text input to each footer cell
+        //     $('#symbolHeadTable tr')
+        //         .clone(true)
+        //         .addClass('filters')
+        //         .appendTo('#symbolHeadTable');
+
+        //     var table = $('#symbolTable').DataTable({
+        //         orderCellsTop: true,
+        //         fixedHeader: true,
+        //         searching: true,
+        //                 data: dataSymbol,
+        //                 columns: [
+        //                     ...labels.map(e => { return { data: e, orderable: true } })
+        //                 ],
+        //         initComplete: function () {
+        //             var api = this.api();
+
+        //             // For each column
+        //             api
+        //                 .columns()
+        //                 .eq(0)
+        //                 .each(function (colIdx) {
+        //                     // Set the header cell to contain the input element
+        //                     var cell = $('.filters th').eq(
+        //                         $(api.column(colIdx).header()).index()
+        //                     );
+        //                     var title = $(cell).text();
+        //                     $(cell).html('<input type="text" placeholder="' + title + '" />');
+
+        //                     // On every keypress in this input
+        //                     $(
+        //                         'input',
+        //                         $('.filters th').eq($(api.column(colIdx).header()).index())
+        //                     )
+        //                         .off('keyup change')
+        //                         .on('change', function (e) {
+        //                             // Get the search value
+        //                             $(this).attr('title', $(this).val());
+        //                             var regexr = '({search})'; //$(this).parents('th').find('select').val();
+
+        //                             var cursorPosition = this.selectionStart;
+        //                             // Search the column for that value
+        //                             api
+        //                                 .column(colIdx)
+        //                                 .search(
+        //                                     this.value != ''
+        //                                         ? regexr.replace('{search}', '(((' + this.value + ')))')
+        //                                         : '',
+        //                                     this.value != '',
+        //                                     this.value == ''
+        //                                 )
+        //                                 .draw();
+        //                         })
+        //                         .on('keyup', function (e) {
+        //                             e.stopPropagation();
+
+        //                             $(this).trigger('change');
+        //                             $(this)
+        //                                 .focus()[0]
+        //                                 .setSelectionRange(cursorPosition, cursorPosition);
+        //                         });
+        //                 });
+        //         },
+        //     });
+        // });
+
+
         // Connect to the WebSocket server
         var socket = io({
             maxHttpBufferSize: 1e11,
             // transports: ['AJAX long-polling','Flash Socket',"websocket"] 
         });
         let countSymbols = 0;
+        let labels = ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val",]
         async function updateDataSymbol(data) {
             countSymbols++;
             if (countSymbols % 100 == 0) console.log("CountSymbpl", countSymbols)
@@ -373,13 +443,13 @@
             // let symbolmaps = {}
             // console.log(data.data.labels)
             let ne = {};
-            data.data.labels.forEach((k, i) => {
+            labels.forEach((k, i) => {
                 ne[k] = data.data.data[i]
             })
             symbolmaps[ne.symbol] = ne
             // sessionStorage.setItem('symbols', JSON.stringify(symbolmaps));
             // sessionStorage.setItem('labels', data.data.labels);
-            let labels = data.data.data.labels
+            // let labels = data.data.data.labels
 
 
             // table2Head = document.getElementById('symbolFootTable');
@@ -423,7 +493,7 @@
                         searching: true,
                         data: dataSymbol,
                         columns: [
-                            ...data.data.labels.map(e => { return { data: e, orderable: true } })
+                            ...labels.map(e => { return { data: e, orderable: true } })
                         ],
                         // order: [[0, 'asc']]
                     }
@@ -467,20 +537,20 @@
             // );
         }
         let symbolData = {}
-        setInterval(()=>{
-            let updateData=Object.values(symbolData).filter(e=>e.update)
-            updateData.forEach(e=>{
+        setInterval(() => {
+            let updateData = Object.values(symbolData).filter(e => e.update)
+            updateData.forEach(e => {
                 e.update = false;
             })
 
-            while(updateData.length> 0){
-                let data =updateData.shift()
+            while (updateData.length > 0) {
+                let data = updateData.shift()
                 updateDataSymbol(data.data)
             }
-        },5000)
+        }, 5000)
         socket.on('updateDataSymbol', function (data) {
             // updateDataSymbol(data)
-            symbolData[data.data.data[0]] = {update:true,data:data}
+            symbolData[data.data.data[0]] = { update: true, data: data }
             countSymbols++;
             if (countSymbols % 1000 == 0) console.log("CountSymbpl", countSymbols)
         })
