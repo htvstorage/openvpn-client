@@ -21,6 +21,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
 
     <style>
+        div.dataTables_wrapper div.dataTables_info {
+            padding-top: 0px;
+        }
+
+        div.dataTables_wrapper div.dataTables_info {
+            font-size: 6px;
+            /* Set font size for information text (e.g., "Showing 1 to 10 of 100 entries") */
+        }
+
         table {
             border-collapse: collapse;
             width: 100%;
@@ -75,9 +84,9 @@
 </head>
 
 <body>
-    <br/>
-    <br/>
-    <br/>
+    <br />
+    <br />
+    <br />
     <div id="chartcontainer" style="width: 100%; margin: 0 auto; height: 500px;">
         <div id="vnindex" style="width: 45%; margin: 0 auto; height: 500px;">
             <canvas id="myChart"></canvas>
@@ -114,7 +123,7 @@
         </tbody>
     </table>
 
-    <table id="myTable" class="display" >
+    <table id="myTable" class="display">
         <thead id="headTable">
             <tr>
                 <th>Name</th>
@@ -152,6 +161,10 @@
                     <th>Val BánCĐ</th>
                     <th>Vol Mua-Bán</th>
                     <th>Val Mua-Bán</th>
+                    <th>Vol Đặt Mua</th>
+                    <th>Val Đặt Mua</th>
+                    <th>Vol Đặt Bán</th>
+                    <th>Val Đặt Bán</th>
                 </tr>
             </thead>
             <tbody id="timelineBody">
@@ -298,7 +311,7 @@
                 statsHead.innerHTML = ''
                 var theadRow = document.createElement('tr');
                 statsHead.appendChild(theadRow);
-                let label1 = ['Thời gian', 'VNINDEX', 'T', 'Vol KoXĐ', 'Val KoXĐ', 'Vol MuaCĐ', 'Val MuaCĐ', 'Vol BánCĐ', 'Val BánCĐ', 'Vol Mua-Bán', 'Val Mua-Bán']
+                let label1 = ['Thời gian', 'VNINDEX', 'T', 'Vol KoXĐ', 'Val KoXĐ', 'Vol MuaCĐ', 'Val MuaCĐ', 'Vol BánCĐ', 'Val BánCĐ', 'Vol Mua-Bán', 'Val Mua-Bán', 'Vol Đặt Mua', 'Val Đặt Mua', 'Vol Đặt Bán', 'Val Đặt Bán']
                 for (var i = 0; i < label1.length; i++) {
                     var th = document.createElement('th');
                     th.textContent = label1[i];

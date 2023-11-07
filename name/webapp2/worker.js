@@ -122,12 +122,12 @@ class MessageReader extends Model {
   async onMessage(message) {
     if (message.includes("S#")) {
       let messageText = message.slice(message.indexOf("|") + 1)
-      lastReadTime = message.slice(0,message.indexOf("|"))
+      lastReadTime = message.slice(0, message.indexOf("|"))
       // console.log(lastReadTime)
       let symbols = messageText.slice(2, 5)
       // if (stock[symbols] == "hose") {
-        // console.log(messageText.slice(2,5),`Received message: ${messageText}`);
-        priceModel.onMessage(messageText)
+      // console.log(messageText.slice(2,5),`Received message: ${messageText}`);
+      priceModel.onMessage(messageText)
 
       // }
     } else if (message.includes("I#VNINDEX")) {
@@ -189,7 +189,7 @@ class PriceModel {
 
       for (let i = 1; i <= 20; i += 2) {
         if (a[i].length > 0 && (!Number.isNaN(+a[i]) || !Number.isNaN(+a[i + 1]))) this.board[symbol].BID[+a[i]] = +a[i + 1]
-        else if(a[i].length > 0) console.table(a)
+        else if (a[i].length > 0) console.table(a)
       }
       for (let i = 21; i <= 40; i += 2) {
         if (a[i].length > 0 && (!Number.isNaN(+a[i]) || !Number.isNaN(+a[i + 1]))) this.board[symbol].ASK[+a[i]] = +a[i + 1]
@@ -348,6 +348,10 @@ class PriceModel {
     // console.table(b)
     if (stock[symbol] == "hose") {
       vt.VNINDEX = this.BIDASK["VNINDEX"]
+      vt["bid_vol"] = this.BIDASK["bid"].vol
+      vt["bid_val"] = this.BIDASK["bid"].val
+      vt["ask_vol"] = this.BIDASK["ask"].vol
+      vt["ask_val"] = this.BIDASK["ask"].val
       if (!this.mapLastData[time]) {
         this.mapLastData[time] = vt;
         this.lastData.push(vt)
@@ -361,32 +365,32 @@ class PriceModel {
       }
 
     }
-    
-    
+
+
     let cp = {}
     Object.keys(b).filter(k => k != 'T').forEach(k => {
       cp[k] = b[k]
     })
 
-    let stats = { symbol: symbol, time:time, T:timeX, ...flattenObject(cp) }
-    if(this.board[symbol]){
+    let stats = { symbol: symbol, time: time, T: timeX, ...flattenObject(cp) }
+    if (this.board[symbol]) {
       let bid = sum(this.board[symbol].BID)
       let ask = sum(this.board[symbol].ASK)
       stats.bid_vol = bid.vol
       stats.bid_val = bid.val
       stats.ask_vol = ask.vol
       stats.ask_val = ask.val
-    // console.table(bid)
-    // console.table(ask)      
+      // console.table(bid)
+      // console.table(ask)      
     }
-    
-    if(stats.bu_vol && stats.sd_vol ){
+
+    if (stats.bu_vol && stats.sd_vol) {
       stats.busd_vol = stats.bu_vol - stats.sd_vol
       stats.busd_val = stats.bu_val - stats.sd_val
     }
 
-    
-    
+
+
     // console.table(stats)
     let table = {
       // labels: ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val",],
@@ -396,8 +400,8 @@ class PriceModel {
     }
 
     // console.table(table)
-    if(parentPort)
-    parentPort.postMessage({ data: table, type: '1' });
+    if (parentPort)
+      parentPort.postMessage({ data: table, type: '1' });
 
 
     if (this.dataC % 100 == 0 || Date.now() - this.last > 1000) {
@@ -448,7 +452,11 @@ class PriceModel {
           'unknown_val', 'bu_vol',
           'bu_val', 'sd_vol',
           'sd_val', 'busd_vol',
-          'busd_val'
+          'busd_val',
+          'bid_vol',
+          'bid_val',
+          'ask_vol',
+          'ask_val',
         ],
         data: out.map(e => {
           return [
@@ -457,7 +465,11 @@ class PriceModel {
             'unknown_val', 'bu_vol',
             'bu_val', 'sd_vol',
             'sd_val', 'busd_vol',
-            'busd_val'
+            'busd_val',
+            'bid_vol',
+            'bid_val',
+            'ask_vol',
+            'ask_val',
           ].map(ee => e[ee]
             // {
             //   if (ee.includes('vol') || ee.includes('val'))
@@ -477,8 +489,8 @@ class PriceModel {
       }
 
 
-      if(parentPort)
-      parentPort.postMessage({ data: null, timeline: timeline, stats: stats, type: '0' });
+      if (parentPort)
+        parentPort.postMessage({ data: null, timeline: timeline, stats: stats, type: '0' });
     }
     this.last = Date.now()
     this.lastDataLength = this.lastData.length;
