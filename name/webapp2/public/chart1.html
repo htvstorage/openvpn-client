@@ -44,7 +44,7 @@
     </style>
     <style>
         /* CSS for limiting the number of rows and adding a vertical scroll */
-        #table1Container {
+        #timelineContainer {
             max-height: 600px;
             /* Set the maximum height for the table */
             overflow-y: auto;
@@ -59,19 +59,62 @@
             /* Enable both horizontal and vertical scrolling for the entire page */
         }
     </style>
+    <style>
+        /* #chartcontainer {
+            text-align: center;
+        }
 
+        #vnindex,#busd {
+            display: inline;
+        } */
+        #chartcontainer {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- <div id="sidebarContainer"></div> -->
-    <!-- <div style="width: 400px; height: 20px;"> -->
-    <div style="width: 80%; margin: 0 auto; height: 200px;">
-        <canvas id="myChart"></canvas>
+    <br/>
+    <br/>
+    <br/>
+    <div id="chartcontainer" style="width: 100%; margin: 0 auto; height: 500px;">
+        <div id="vnindex" style="width: 45%; margin: 0 auto; height: 500px;">
+            <canvas id="myChart"></canvas>
+        </div>
+        <div id="busd" style="width: 45%; margin: 0 auto; height: 500px;">
+            <canvas id="line-chart"></canvas>
+        </div>
     </div>
-    <div style="width: 80%; margin: 0 auto;">
-        <canvas id="line-chart"></canvas>
-    </div>
-    <table id="myTable" class="display">
+    <table>
+        <caption style="font-size: x-large;">VNINDEX Thống kê cung cầu</caption>
+        <thead id="statsHead">
+            <tr>
+                <th>VNINDEX</th>
+                <th>Time</th>
+                <th>Date</th>
+                <th>Vol Đặt Mua</th>
+                <th>Val Đặt Mua</th>
+                <th>Vol Đặt Bán</th>
+                <th>Val Đặt Bán</th>
+                <th>BU Vol</th>
+                <th>BU Val</th>
+                <th>SD Vol</th>
+                <th>SD Val</th>
+                <th>UK Vol</th>
+                <th>UK Val</th>
+                <th>BUSD Vol</th>
+                <th>BUSD Val</th>
+                <th>Min BUSD Val</th>
+                <th>Max BUSD Val</th>
+            </tr>
+        </thead>
+        <tbody id="statsBody">
+            <!-- Table 2 data will be populated here -->
+        </tbody>
+    </table>
+
+    <table id="myTable" class="display" >
         <thead id="headTable">
             <tr>
                 <th>Name</th>
@@ -91,37 +134,11 @@
         </tbody>
 
     </table>
-    <div id="table1Container">
+    <div id="timelineContainer">
+
 
         <table>
-            <caption>Table 2</caption>
-            <thead id="table2Head">
-                <!-- <tr>
-                    <th>VNINDEX</th>
-                    <th>Time</th>
-                    <th>Date</th>
-                    <th>Bid Vol</th>
-                    <th>Bid Val</th>
-                    <th>Ask Vol</th>
-                    <th>Ask Val</th>
-                    <th>BU Vol</th>
-                    <th>BU Val</th>
-                    <th>SD Vol</th>
-                    <th>SD Val</th>
-                    <th>UK Vol</th>
-                    <th>UK Val</th>
-                    <th>BUSD Vol</th>
-                    <th>BUSD Val</th>
-                    <th>Min BUSD Val</th>
-                    <th>Max BUSD Val</th>
-                </tr> -->
-            </thead>
-            <tbody id="table2Body">
-                <!-- Table 2 data will be populated here -->
-            </tbody>
-        </table>
-        <table>
-            <caption>Table 1</caption>
+            <caption style="font-size: x-large;">VNINDEX thống kê chi tiết theo phút</caption>
             <thead>
                 <tr>
                     <th>Thời gian</th>
@@ -137,7 +154,7 @@
                     <th>Val Mua-Bán</th>
                 </tr>
             </thead>
-            <tbody id="table1Body">
+            <tbody id="timelineBody">
                 <!-- Table 1 data will be populated here -->
             </tbody>
         </table>
@@ -184,6 +201,7 @@
                 datasets: [{
                     label: 'VNINDEX',
                     data: [],
+                    borderColor: 'purple',
                     backgroundColor: 'rgba(75, 192, 192, 0.2)'
                 }]
             },
@@ -191,7 +209,7 @@
                 scales: {
                     y: {
                         beginAtZero: false,
-                        suggestedMin: 1015,  // Bắt đầu từ 999
+                        suggestedMin: 2000,  // Bắt đầu từ 999
                     }
                 }, plugins: {
                     zoom: zoomOptions,
@@ -204,20 +222,20 @@
             labels: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00'],
             datasets: [
                 {
-                    label: 'Total',
+                    label: 'Tổng',
                     borderColor: 'blue',
                     data: [65, 59, 80, 81, 56, 55],
                     fill: false,
                     hidden: true // Ẩn đường này mặc định
                 },
                 {
-                    label: 'bu_val',
+                    label: 'MuaCĐ',
                     borderColor: 'green',
                     data: [28, 48, 40, 19, 86, 27],
                     fill: false,
                 },
                 {
-                    label: 'sd_val',
+                    label: 'BánCĐ',
                     borderColor: 'red',
                     data: [45, 68, 58, 33, 72, 47],
                     fill: false,
@@ -234,19 +252,9 @@
                     },
                     y: {
                         beginAtZero: false,
-                        suggestedMin: 10000000000,  // Bắt đầu từ 999
+                        suggestedMin: 1000000000000,  // Bắt đầu từ 999
                     },
                 },
-                // plugins: {
-                //     zoom: {
-                //         zoom: {
-                //             wheel: {
-                //                 enabled: true,
-                //             },
-                //             mode: 'x',
-                //         },
-                //     },
-                // },
                 plugins: {
                     zoom: zoomOptions,
                 }
@@ -260,58 +268,36 @@
 
         socket.on('updateData', function (data) {
             // Populate Table 1
-            if (data.table1) {
-                chart.data.labels = data.table1.data.map(e => e[0])
-                chart.data.datasets[0].data = data.table1.data.map(e => e[1])
+            if (data.timeline) {
+                chart.data.labels = data.timeline.data.map(e => e[0])
+                chart.data.datasets[0].data = data.timeline.data.map(e => e[1])
                 chart.update();
 
-                myChart.data.labels = data.table1.data.map(e => e[0])
-                myChart.data.datasets[0].data = data.table1.data.map(e => e[4] + e[6] + e[8])
-                myChart.data.datasets[1].data = data.table1.data.map(e => e[6])
-                myChart.data.datasets[2].data = data.table1.data.map(e => e[8])
+                myChart.data.labels = data.timeline.data.map(e => e[0])
+                myChart.data.datasets[0].data = data.timeline.data.map(e => e[4] + e[6] + e[8])
+                myChart.data.datasets[1].data = data.timeline.data.map(e => e[6])
+                myChart.data.datasets[2].data = data.timeline.data.map(e => e[8])
                 myChart.update();
 
-                data.table1.data.sort((a, b) => { return b[2] - a[2] })
-                var table1Body = document.getElementById('table1Body');
-                table1Body.innerHTML = '';
-                for (var i = 0; i < data.table1.data.length; i++) {
+                data.timeline.data.sort((a, b) => { return b[2] - a[2] })
+                var timelineBody = document.getElementById('timelineBody');
+                timelineBody.innerHTML = '';
+                for (var i = 0; i < data.timeline.data.length; i++) {
                     var row = document.createElement('tr');
-                    for (var j = 0; j < data.table1.labels.length; j++) {
+                    for (var j = 0; j < data.timeline.labels.length; j++) {
                         var cell = document.createElement('td');
 
-                        cell.textContent = j <= 2 ? data.table1.data[i][j] : numeral(data.table1.data[i][j]).format('0,0');
+                        cell.textContent = j <= 2 ? data.timeline.data[i][j] : numeral(data.timeline.data[i][j]).format('0,0');
                         row.appendChild(cell);
                     }
-                    table1Body.appendChild(row);
+                    timelineBody.appendChild(row);
                 }
-            }
 
-            // Populate Table 2
-            if (data.table2) {
-                var table2Body = document.getElementById('table2Body');
-                var table2Head = document.getElementById('table2Head');
-                table2Head.innerHTML = ''
+
+                statsHead = document.getElementById('headTable');
+                statsHead.innerHTML = ''
                 var theadRow = document.createElement('tr');
-                table2Head.appendChild(theadRow);
-                for (var i = 0; i < data.table2.labels.length; i++) {
-                    var th = document.createElement('th');
-                    th.textContent = data.table2.labels[i];
-                    theadRow.appendChild(th);
-                }
-                table2Body.innerHTML = '';
-
-                var row = document.createElement('tr');
-                for (var j = 0; j < data.table2.labels.length; j++) {
-                    var cell = document.createElement('td');
-                    cell.textContent = j <= 2 ? data.table2.data[j] : numeral(data.table2.data[j]).format('0,0');
-                    row.appendChild(cell);
-                }
-                table2Body.appendChild(row);
-
-                table2Head = document.getElementById('headTable');
-                table2Head.innerHTML = ''
-                var theadRow = document.createElement('tr');
-                table2Head.appendChild(theadRow);
+                statsHead.appendChild(theadRow);
                 let label1 = ['Thời gian', 'VNINDEX', 'T', 'Vol KoXĐ', 'Val KoXĐ', 'Vol MuaCĐ', 'Val MuaCĐ', 'Vol BánCĐ', 'Val BánCĐ', 'Vol Mua-Bán', 'Val Mua-Bán']
                 for (var i = 0; i < label1.length; i++) {
                     var th = document.createElement('th');
@@ -319,31 +305,31 @@
                     theadRow.appendChild(th);
                 }
 
-                table2Head = document.getElementById('footTable');
-                table2Head.innerHTML = ''
+                statsHead = document.getElementById('footTable');
+                statsHead.innerHTML = ''
                 var theadRow = document.createElement('tr');
-                table2Head.appendChild(theadRow);
+                statsHead.appendChild(theadRow);
                 let start = 3;
-                // console.table(data.table1.data[0])
-                let timeX = moment(data.table1.data[0][0],'HH:mm').format("x")
-        
-                
+                // console.table(data.timeline.data[0])
+                let timeX = moment(data.timeline.data[0][0], 'HH:mm').format("x")
+
+
 
                 let delta = Date.now() - timeX;
                 // console.log("timeX",timeX,delta/1000/60)
-                let tpsa = []                
-                if (delta < 60 * 1000) {
-                    let lasta = data.table1.data[0]
+                let tpsa = []
+                if (delta < 60 * 1000 && delta > 0) {
+                    let lasta = data.timeline.data[0]
                     // console.table(lasta)
                     for (let i = start; i <= lasta.length - 1; i++) {
                         tpsa[i] = lasta[i] * 60 * 1000 / (delta)
                     }
-                    tpsa[1] = (lasta[3] + lasta[5] + lasta[7])*60*1000/(delta)
-                    tpsa[2] = (lasta[4] + lasta[6] + lasta[8])*60*1000/(delta)
+                    tpsa[1] = (lasta[3] + lasta[5] + lasta[7]) * 60 * 1000 / (delta)
+                    tpsa[2] = (lasta[4] + lasta[6] + lasta[8]) * 60 * 1000 / (delta)
                 }
 
 
-                let sum = data.table1.data.reduce((a, b) => {
+                let sum = data.timeline.data.reduce((a, b) => {
                     let ret = []
                     for (let i = start; i <= a.length - 1; i++) {
                         ret[i] = a[i] + b[i]
@@ -360,8 +346,8 @@
                     if (i < 1) {
                         th.textContent = label1[i];
                     } else {
-                        // th.textContent = label1[i] + '/Phút\n' + Math.floor(sum[i]/data.table1.data.length*100)/100;
-                        th.textContent = label1[i] + '/Phút\n' + numeral(sum[i] / data.table1.data.length).format('0,0') + '\nT:' + numeral(sum[i]).format('0,0') 
+                        // th.textContent = label1[i] + '/Phút\n' + Math.floor(sum[i]/data.timeline.data.length*100)/100;
+                        th.textContent = label1[i] + '/Phút\n' + numeral(sum[i] / data.timeline.data.length).format('0,0') + '\nT:' + numeral(sum[i]).format('0,0')
                             + (tpsa[i] ? '\nctps: ' + numeral(tpsa[i]).format('0,0') : '');
                     }
                     theadRow.appendChild(th);
@@ -371,9 +357,9 @@
                     $('#myTable').DataTable().destroy();
 
                 }
-                let datanew = data.table1.data.map(e => {
+                let datanew = data.timeline.data.map(e => {
                     let ne = {};
-                    data.table1.labels.forEach((l, i) => {
+                    data.timeline.labels.forEach((l, i) => {
                         ne[l] = i <= 2 ? e[i] : numeral(e[i]).format('0,0');
                     });
                     return ne
@@ -383,9 +369,9 @@
                         // paging: true,
                         searching: true,
                         data: datanew,
-                        destroy:true,
+                        destroy: true,
                         columns: [
-                            ...data.table1.labels.map(e => { return { data: e, orderable: true } })
+                            ...data.timeline.labels.map(e => { return { data: e, orderable: true } })
                         ],
                         order: [[2, 'desc']]
 
@@ -394,7 +380,32 @@
                 // var table = $('#myTable').DataTable()
 
 
-                // table.rows.add(datanew).draw(true)
+                // table.rows.add(datanew).draw(true)                
+            }
+
+            // Populate Table 2
+            if (data.stats) {
+                var statsBody = document.getElementById('statsBody');
+                var statsHead = document.getElementById('statsHead');
+                statsHead.innerHTML = ''
+                var theadRow = document.createElement('tr');
+                statsHead.appendChild(theadRow);
+                for (var i = 0; i < data.stats.labels.length; i++) {
+                    var th = document.createElement('th');
+                    th.textContent = data.stats.labels[i];
+                    theadRow.appendChild(th);
+                }
+                statsBody.innerHTML = '';
+
+                var row = document.createElement('tr');
+                for (var j = 0; j < data.stats.labels.length; j++) {
+                    var cell = document.createElement('td');
+                    cell.textContent = j <= 2 ? data.stats.data[j] : numeral(data.stats.data[j]).format('0,0');
+                    row.appendChild(cell);
+                }
+                statsBody.appendChild(row);
+
+
 
 
             }

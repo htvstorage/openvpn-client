@@ -103,7 +103,7 @@ class MessageReader extends Model {
   async reader() {
 
     let data = fs.readFileSync("../websocket/data3" + getNow() + ".txt", "utf-8")
-    // let data = fs.readFileSync("./websocket/data320231027.txt", "utf-8")
+    // let data = fs.readFileSync("../websocket/data320231106.txt", "utf-8")
     let messages = data.split('\n');
     let stat = { req: 0, res: 0, total: messages.length }
     messages.forEach(m => {
@@ -441,7 +441,7 @@ class PriceModel {
       // console.table([this.data[this.dataC - 1]])
 
       let d = this.data[this.dataC - 1];
-      let table1 = {
+      let timeline = {
         labels: [
           'time', 'VNINDEX',
           'T', 'unknown_vol',
@@ -468,8 +468,8 @@ class PriceModel {
         })
       }
 
-      // console.table(table1.data)
-      let table2 = {
+      // console.table(timeline.data)
+      let stats = {
         labels: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"],
         data: ["VNINDEX", "time", "date", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val", "min_busd_val", "max_busd_val"].map(e =>
           d[e]
@@ -478,7 +478,7 @@ class PriceModel {
 
 
       if(parentPort)
-      parentPort.postMessage({ data: null, table1: table1, table2: table2, type: '0' });
+      parentPort.postMessage({ data: null, timeline: timeline, stats: stats, type: '0' });
     }
     this.last = Date.now()
     this.lastDataLength = this.lastData.length;

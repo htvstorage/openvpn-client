@@ -61,3 +61,39 @@ canvas {
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
+/* 
+.chart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px; /* Điều chỉnh kích thước tối đa của hai biểu đồ */
+    margin: 0 auto;
+}
+
+.chart {
+    flex: 1;
+    margin: 10px; /* Khoảng cách giữa hai biểu đồ */
+}
+
+.tables {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 48%; /* Điều chỉnh kích thước của các bảng */
+    margin-right: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+} */
