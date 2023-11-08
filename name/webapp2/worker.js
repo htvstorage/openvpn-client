@@ -66,10 +66,10 @@ class PendingModel extends Model {
     if (message.includes("S#")) {
       let messageText = message;
       let symbols = messageText.slice(2, 5)
-      if (stock[symbols] == "hose") {
+      // if (stock[symbols] == "hose") {
         // console.log(messageText.slice(2,5),`Received message: ${messageText}`);
         priceModel.onMessage(messageText)
-      }
+      // }
     } else if (message.includes("I#VNINDEX")) {
       let messageText = message;
       // console.log(messageText.slice(2, 5), `Received message: ${messageText}`);

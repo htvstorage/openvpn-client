@@ -80,11 +80,11 @@
             display: flex;
             justify-content: center;
         }
+
         #combineDiv {
             display: flex;
             justify-content: center;
         }
-        
     </style>
 </head>
 
@@ -287,7 +287,7 @@
 
         //combineChart
         const ctxCombineChart = document.getElementById('combineChart').getContext('2d');
-        var lineTension=0.5
+        var lineTension = 0.2
         const combineData = {
             labels: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00'],
             datasets: [
@@ -313,7 +313,7 @@
                     lineTension: lineTension,
                     yAxisID: 'y-axis-value',
                     borderColor: 'green',
-                    data: [28, 48, 40, 19, 86, 27],
+                    data: Array(6).fill().map(() => Math.floor(Math.random() * 100)),
                     fill: false,
                 },
                 {
@@ -321,7 +321,7 @@
                     lineTension: lineTension,
                     yAxisID: 'y-axis-value',
                     borderColor: 'red',
-                    data: [45, 68, 58, 33, 72, 47],
+                    data: Array(6).fill().map(() => Math.floor(Math.random() * 100)),
                     fill: false,
                 },
                 {
@@ -329,17 +329,17 @@
                     lineTension: lineTension,
                     yAxisID: 'y-axis-dvalue',
                     borderColor: 'yellow',
-                    data: [45, 68, 58, 33, 72, 47],
+                    data: Array(6).fill().map(() => Math.floor(Math.random() * 100)),
                     fill: false,
-                },   
+                },
                 {
                     label: 'Đặt Bán',
                     lineTension: lineTension,
                     yAxisID: 'y-axis-dvalue',
                     borderColor: 'brown',
-                    data: [45, 68, 58, 33, 72, 47],
+                    data: Array(6).fill().map(() => Math.floor(Math.random() * 100)),
                     fill: false,
-                },                               
+                },
             ],
         };
         const combineConfig = {
@@ -359,13 +359,21 @@
                         title: {
                             display: true,
                             text: 'VNINDEX',
+                            font: {
+                                size: 24,          // Kích thước phông chữ
+                                weight: 'bold',  // In đậm                                
+                            }
                         },
                     },
                     'y-axis-value': {
                         position: 'right',
                         title: {
                             display: true,
-                            text: 'Mua Bán KL',
+                            text: 'Mua Bán Khớp Lệnh',
+                            font: {
+                                size: 24,          // Kích thước phông chữ
+                                weight: 'bold',  // In đậm                                
+                            }                            
                         },
                         beginAtZero: false,
                         suggestedMin: 1000000000000,  // Bắt đầu từ 999                        
@@ -375,6 +383,10 @@
                         title: {
                             display: true,
                             text: 'Đặt Mua Bán',
+                            font: {
+                                size: 24,          // Kích thước phông chữ
+                                weight: 'bold',  // In đậm                                
+                            }                            
                         },
                         beginAtZero: false,
                         suggestedMin: 1000000000000,  // Bắt đầu từ 999                        
@@ -385,7 +397,7 @@
                 }
             },
 
-        };        
+        };
         var combineChart = new Chart(ctxCombineChart, combineConfig);
 
         // Connect to the WebSocket server
@@ -411,7 +423,7 @@
                 combineChart.data.datasets[3].data = data.timeline.data.map(e => e[8])
                 combineChart.data.datasets[4].data = data.timeline.data.map(e => e[12])
                 combineChart.data.datasets[5].data = data.timeline.data.map(e => e[14])
-                combineChart.update();                
+                combineChart.update();
 
                 data.timeline.data.sort((a, b) => { return b[2] - a[2] })
                 var timelineBody = document.getElementById('timelineBody');
