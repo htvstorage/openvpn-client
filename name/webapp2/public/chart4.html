@@ -11,9 +11,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+    <!-- <script src="https://cdn.datatables.net/scroller/2.3.0/js/dataTables.scroller.min.js"></script> -->
+    <script src="https://cdn.datatables.net/keytable/2.11.0/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.colVis.min.js"></script>
+    
 
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.0/css/jquery.dataTables.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/scroller/2.3.0/css/scroller.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/keytable/2.11.0/css/keyTable.dataTables.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
 
@@ -197,13 +206,83 @@
         //     "busd_vol",
         //     "busd_val"
         // ]
-        let label1 = ['Mã', 'Thời gian', 'T', 'Vol Đặt Mua', 'Val Đặt Mua', 'Vol Đặt Bán', 'Val Đặt Bán', 'Vol MuaCĐ', 'Val MuaCĐ', 'Vol BánCĐ', 'Val BánCĐ', 'Vol KoXĐ', 'Val KoXĐ', 'Vol Mua-Bán', 'Val Mua-Bán']
+        let label1 = ['Mã', 'Thời gian', 'T', 'Vol Đặt Mua', 'Val Đặt Mua',
+            'Vol Đặt Bán', 'Val Đặt Bán', 'Vol MuaCĐ', 'Val MuaCĐ', 'Vol BánCĐ', 'Val BánCĐ', 'Vol KoXĐ', 'Val KoXĐ', 'Vol Mua-Bán', 'Val Mua-Bán'
+        ]
         for (var i = 0; i < label1.length; i++) {
             var th = document.createElement('th');
             th.textContent = label1[i];
             theadRow.appendChild(th);
         }
 
+
+        $('#symbolTable').DataTable(
+            {
+                // ajax: function (data, callback, settings) {
+                //     let out = [];
+
+                //     console.table(data)
+
+                //     for (var i = data.start, ien = data.start + data.length; i < ien; i++) {
+                //         out.push([i + '-1', i + '-2', i + '-3', i + '-4', i + '-5']);
+                //     }
+
+                //     setTimeout(() => {
+                //         callback({
+                //             draw: data.draw,
+                //             data: out,
+                //             recordsTotal: 5000000,
+                //             recordsFiltered: 5000000
+                //         });
+                //     }, 150);
+                // },
+                ajax: {
+                    url: '/api/getsymbolsdata2', // Replace with your API endpoint
+                    dataSrc: 'data' // If your data is an array at the root level of the JSON response
+                },
+                // columns: [
+                //     { data: 'id' },
+                //     { data: 'name' },
+                //     { data: 'email' }
+                // ],                
+                processing: true,
+                ordering: true,
+                scroller: true,
+                // scrollY: 200,
+                searching: true,
+                // serverSide: true,
+                // lengthMenu: [0, 5, 10, 20, 50, 100, 200, 500],
+                dom: 'lBfrtip',
+                buttons: [
+                    'copy', 
+                    // 'csv', 
+                    'excel', 'pdf', 
+                    // 'print', 
+                    'colvis'
+                ]
+                // buttons: [
+                //     {
+                //         extend: 'copyHtml5',
+                //         exportOptions: {
+                //             columns: [0, ':visible']
+                //         }
+                //     },
+                //     {
+                //         extend: 'excelHtml5',
+                //         exportOptions: {
+                //             columns: ':visible'
+                //         }
+                //     },
+                //     {
+                //         extend: 'pdfHtml5',
+                //         exportOptions: {
+                //             columns: [0, 1, 2, 5]
+                //         }
+                //     },
+                //     'colvis'
+                // ]
+            }
+        );
 
         // $(document).ready(function () {
         //     // Setup - add a text input to each footer cell
@@ -274,88 +353,88 @@
 
 
         // Connect to the WebSocket server
-        var socket = io({
-            maxHttpBufferSize: 1e11,
-            // transports: ['AJAX long-polling','Flash Socket',"websocket"] 
-        });
+        // var socket = io({
+        //     maxHttpBufferSize: 1e11,
+        //     // transports: ['AJAX long-polling','Flash Socket',"websocket"]
+        // });
 
-        socket.emit('subscriber', { 'topic': 'updateDataSymbol' })
-        let countSymbols = 0;
-        let labels = ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val",]
-        async function updateDataSymbol(data) {
-            countSymbols++;
-            if (countSymbols % 100 == 0) console.log("CountSymbpl", countSymbols)
+        // socket.emit('subscriber', { 'topic': 'updateDataSymbol' })
+        // let countSymbols = 0;
+        // let labels = ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val",]
+        // async function updateDataSymbol(data) {
+        //     countSymbols++;
+        //     if (countSymbols % 100 == 0) console.log("CountSymbpl", countSymbols)
 
-            let ne = {};
-            labels.forEach((k, i) => {
-                if(i<=2)
-                ne[k] = data.data.data[i]
-                else
-                ne[k] = numeral(data.data.data[i]).format('0,0');
-            })
-            symbolmaps[ne.symbol] = ne
+        //     let ne = {};
+        //     labels.forEach((k, i) => {
+        //         if(i<=2)
+        //         ne[k] = data.data.data[i]
+        //         else
+        //         ne[k] = numeral(data.data.data[i]).format('0,0');
+        //     })
+        //     symbolmaps[ne.symbol] = ne
 
 
-            if (!$.fn.DataTable.isDataTable('#symbolTable')) {
-                $('#symbolTable').DataTable(
-                    {
-                        // paging: true,
-                        searching: true,
-                        data: dataSymbol,
-                        columns: [
-                            ...labels.map(e => { return { data: e, orderable: true } })
-                        ],
-                        // order: [[0, 'asc']]
-                        dom: 'Bfrtip',
-                        buttons: [
-                            'copy', 'csv', 'excel', 'pdf', 'print'
-                        ]
-                    }
-                );
-            } else {
-                var table = $('#symbolTable').DataTable()
-                if (indexMaps[ne.symbol]) {
-                    let row = table.row(indexMaps[ne.symbol]);
-                    // console.log(indexMaps[ne.symbol], indexMaps)
-                    dataSymbol[indexMaps[ne.symbol]] = { ...ne }
-                    row.data(ne)
-                    // console.log(ne)
-                    row.invalidate().draw(false)
-                }
-            }
-        }
-        let symbolData = {}
-        setInterval(() => {
-            let updateData = Object.values(symbolData).filter(e => e.update)
-            updateData.forEach(e => {
-                e.update = false;
-            })
+        //     if (!$.fn.DataTable.isDataTable('#symbolTable')) {
+        //         $('#symbolTable').DataTable(
+        //             {
+        //                 // paging: true,
+        //                 searching: true,
+        //                 data: dataSymbol,
+        //                 columns: [
+        //                     ...labels.map(e => { return { data: e, orderable: true } })
+        //                 ],
+        //                 // order: [[0, 'asc']]
+        //                 dom: 'Bfrtip',
+        //                 buttons: [
+        //                     'copy', 'csv', 'excel', 'pdf', 'print'
+        //                 ]
+        //             }
+        //         );
+        //     } else {
+        //         var table = $('#symbolTable').DataTable()
+        //         if (indexMaps[ne.symbol]) {
+        //             let row = table.row(indexMaps[ne.symbol]);
+        //             // console.log(indexMaps[ne.symbol], indexMaps)
+        //             dataSymbol[indexMaps[ne.symbol]] = { ...ne }
+        //             row.data(ne)
+        //             // console.log(ne)
+        //             row.invalidate().draw(false)
+        //         }
+        //     }
+        // }
+        // let symbolData = {}
+        // setInterval(() => {
+        //     let updateData = Object.values(symbolData).filter(e => e.update)
+        //     updateData.forEach(e => {
+        //         e.update = false;
+        //     })
 
-            while (updateData.length > 0) {
-                let data = updateData.shift()
-                updateDataSymbol(data.data)
-            }
-        }, 5000)
-        socket.on('updateDataSymbol', function (data) {
-            // updateDataSymbol(data)            
-            if (!data.data) {
-                console.log('Reject message ', data)
-                return;
-            }
-            symbolData[data.data.data[0]] = { update: true, data: data }
-            countSymbols++;
-            if (countSymbols % 1000 == 0) console.log("CountSymbpl", countSymbols)
-        })
-        socket.on('updateDataSymbolAll', function (dataall) {
-            Object.values(dataall).forEach(data => {
-                symbolData[data.data.data[0]] = { update: true, data: data }
-                countSymbols++;
-                if (countSymbols % 1000 == 0) console.log("CountSymbpl", countSymbols)
-            })
-        })
-        socket.on('updateData', function (data) {
+        //     while (updateData.length > 0) {
+        //         let data = updateData.shift()
+        //         updateDataSymbol(data.data)
+        //     }
+        // }, 5000)
+        // socket.on('updateDataSymbol', function (data) {
+        //     // updateDataSymbol(data)
+        //     if (!data.data) {
+        //         console.log('Reject message ', data)
+        //         return;
+        //     }
+        //     symbolData[data.data.data[0]] = { update: true, data: data }
+        //     countSymbols++;
+        //     if (countSymbols % 1000 == 0) console.log("CountSymbpl", countSymbols)
+        // })
+        // socket.on('updateDataSymbolAll', function (dataall) {
+        //     Object.values(dataall).forEach(data => {
+        //         symbolData[data.data.data[0]] = { update: true, data: data }
+        //         countSymbols++;
+        //         if (countSymbols % 1000 == 0) console.log("CountSymbpl", countSymbols)
+        //     })
+        // })
+        // socket.on('updateData', function (data) {
 
-        });     
+        // });     
     </script>
 </body>
 

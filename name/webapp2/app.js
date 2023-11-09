@@ -17,7 +17,7 @@ const numeral = require('numeral');
 
 
 
-const port = 6000;
+const port = 3000;
 
 app.use(express.static('public'));
 
@@ -32,6 +32,13 @@ for (let i = 1; i <= 10; i++) {
     res.sendFile(__dirname + `/public/chart${i}.html`);
   });
 }
+
+enpoint = ['symbol', 'history', 'detail']
+enpoint.forEach(ep => {
+  app.get(`/${ep}`, (req, res) => {
+    res.sendFile(__dirname + `/public/${ep}.html`);
+  });
+})
 
 // Emit dynamic data to connected clients via WebSocket
 setInterval(() => {
@@ -53,19 +60,18 @@ io.on('connection', (socket) => {
 
   socket.on('subscriber', (message) => {
     mapClient[socket.id] = socket;
-    console.log('Message from client: ' ,message);
+    console.log('Message from client: ', message);
     if (message.topic) {
       if (!mapTopicClient[message.topic]) mapTopicClient[message.topic] = {}
       mapTopicClient[message.topic][socket.id] = socket;
     }
 
-    if(message.topic = 'updateDataSymbol'){
-      if(lastSymbolData)
-      {
-        console.log('Emit lastSymbolData',Object.keys(lastSymbolData).length)
-        socket.emit('updateDataSymbolAll',lastSymbolData)
+    if (message.topic = 'updateDataSymbol') {
+      if (lastSymbolData) {
+        console.log('Emit lastSymbolData', Object.keys(lastSymbolData).length)
+        socket.emit('updateDataSymbolAll', lastSymbolData)
       }
-        
+
     }
     // io.emit('message-from-server', 'Server received: ' + message);
   });
@@ -96,6 +102,45 @@ app.get('/api/data', (req, res) => {
   res.json(dynamicData);
 });
 
+app.get('/api/getsymbolsdata', (req, res) => {
+  console.log(`Req url`, req.url)
+  res.json(lastSymbolData);
+});
+
+
+
+app.get('/api/getsymbolsdata2', (req, res) => {
+  console.log(`Req url`, req.url)
+  let jsdata = Object.values(lastSymbolData).map(e => {
+    return e.data.data;
+  })
+  res.json({
+    data: jsdata,
+    recordsTotal: jsdata.length,
+    recordsFiltered: jsdata.length
+  });
+});
+
+app.get('/api/symboldetail', (req, res) => {
+  console.log(`Req url`, req.url)
+
+  const url = new URL('http://local.com/'+req.url);
+
+  // Lấy tất cả các tham số truy vấn dưới dạng một đối tượng URLSearchParams
+  const queryParams = url.searchParams;
+  const symbol = queryParams.get('symbol');
+
+  console.log('Symbol',symbol)
+
+  
+  let jsdata = Object.values(symbolDataSeries[symbol])
+  res.json({
+    data: jsdata,
+    recordsTotal: jsdata.length,
+    recordsFiltered: jsdata.length
+  });
+});
+
 async function serverX() {
 
   server.listen(port, () => {
@@ -113,21 +158,14 @@ let lastData = null;
 let countSymbol = 0;
 let countUpdate = 0;
 let lastSymbolData = {}
-worker.on("message", (data) => {
-  // res.status(200).send(`result is ${data}`);
-  // const dynamicData = {
-  //   labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-  //   data: Array(6).fill().map(() => Math.floor(Math.random() * 20)),
-  // };
-  // for (let i = 0; i < 1000; i++) {
-  // dynamicData.data[0] = priceModel.BIDASK["VNINDEX"]
-  // dynamicData.data[1] = i
-  // console.table(dynamicData)
-  // workerQueue.push(data)
-  emitData(data)
+let symbolDataSeries = {}
 
+worker.on("message", (data) => {
+  emitData(data)
 });
+
 let mapLastData = {}
+
 function emitData(data) {
   if (data.type == '0') {
     lastData = data
@@ -138,10 +176,12 @@ function emitData(data) {
   } else if (data.type == '1') {
     countSymbol++;
     lastSymbolData[data.data.data[0]] = data
-    // console.table(data.data.data)
-    // console.table(lastSymbolData)
     if (countSymbol % 1000 == 0) { console.log("Count symbols", countSymbol) }
     io.volatile.emit('updateDataSymbol', data);
+  } else if (data.type == '2') {
+    countSymbol++;
+    if (!symbolDataSeries[data.data.symbol]) symbolDataSeries[data.data.symbol] = {}
+    symbolDataSeries[data.data.symbol][data.data.time] = data.data
   }
 }
 
@@ -173,7 +213,7 @@ setInterval(() => {
   emit()
 }, 10000)
 worker.on("error", (msg) => {
-  // res.status(404).send(`An error occurred: ${msg}`);
+  console.log('Worker thread error', msg)
 });
 
 
@@ -184,3 +224,8 @@ function wait(ms) {
     }, ms);
   });
 }
+
+
+const query = new Worker("./query_worker.js");
+
+query.postMessage({ 'hello': 'hello' })

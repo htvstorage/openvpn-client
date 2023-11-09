@@ -67,8 +67,8 @@ class PendingModel extends Model {
       let messageText = message;
       let symbols = messageText.slice(2, 5)
       // if (stock[symbols] == "hose") {
-        // console.log(messageText.slice(2,5),`Received message: ${messageText}`);
-        priceModel.onMessage(messageText)
+      // console.log(messageText.slice(2,5),`Received message: ${messageText}`);
+      priceModel.onMessage(messageText)
       // }
     } else if (message.includes("I#VNINDEX")) {
       let messageText = message;
@@ -91,9 +91,9 @@ class PendingModel extends Model {
 class MessageWriter extends Model {
   onMessage(message) {
 
-    fs.appendFile("../websocket/data_pending_2_" + getNow() + ".txt", Date.now() + "|" + message + '\n', (e) => {
-      if (e) console.log(e)
-    })
+    // fs.appendFile("../websocket/data_pending_2_" + getNow() + ".txt", Date.now() + "|" + message + '\n', (e) => {
+    //   if (e) console.log(e)
+    // })
   }
 }
 
@@ -102,8 +102,9 @@ let lastReadTime = 0;
 class MessageReader extends Model {
   async reader() {
 
-    let data = fs.readFileSync("../websocket/data3" + getNow() + ".txt", "utf-8")
-    // let data = fs.readFileSync("../websocket/data320231106.txt", "utf-8")
+    // let data = fs.readFileSync("../websocket/data3" + getNow() + ".txt", "utf-8")
+    // console.log('Data ',data.length)
+    let data = fs.readFileSync("../websocket/data320231108.txt", "utf-8")
     let messages = data.split('\n');
     let stat = { req: 0, res: 0, total: messages.length }
     messages.forEach(m => {
@@ -166,7 +167,7 @@ class PriceModel {
   board = {}
   stat = {}
   BIDASK = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
-  data = new Array(500000);
+  data = [];
   lastDataLength = 0
   lastData = []
   mapLastData = {}
@@ -400,8 +401,11 @@ class PriceModel {
     }
 
     // console.table(table)
-    if (parentPort)
+    if (parentPort){
       parentPort.postMessage({ data: table, type: '1' });
+      parentPort.postMessage({ data: stats, type: '2' });
+    }
+
 
 
     if (this.dataC % 100 == 0 || Date.now() - this.last > 1000) {
