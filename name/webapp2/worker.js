@@ -104,20 +104,61 @@ class MessageReader extends Model {
 
     // let data = fs.readFileSync("../websocket/data3" + getNow() + ".txt", "utf-8")
     // console.log('Data ',data.length)
-    let data = fs.readFileSync("../websocket/data320231108.txt", "utf-8")
-    let messages = data.split('\n');
-    let stat = { req: 0, res: 0, total: messages.length }
-    messages.forEach(m => {
-      stat.req++;
-      this.onMessage(m)
-      stat.res++;
-      if (stat.req % 10000 == 0) {
-        console.log(stat, priceModel.data.length, priceModel.dataC)
-      }
-    })
-    // fs.writeFileSync("priceModel.json", JSON.stringify(priceModel.data))
+    let filename = "../websocket/data3" + getNow() + ".txt";
+    // let filename = "../websocket/data320231109.txt";
+    let stats = fs.statSync(filename);
+    if (stats.size < 400 * 1024 * 1024) {
+      let data = fs.readFileSync(filename, "utf-8")
+      let messages = data.split('\n');
+      let stat = { req: 0, res: 0, total: messages.length }
+      messages.forEach(m => {
+        stat.req++;
+        this.onMessage(m)
+        stat.res++;
+        if (stat.req % 10000 == 0) {
+          console.log(stat, priceModel.data.length, priceModel.dataC)
+        }
+      })
+    } else {
+      let readStream = fs.createReadStream(filename, {
+        encoding: 'utf8',
+        highWaterMark: 128 * 1024 * 1024, // 128 MB
+      })
+      // Handle data events      
+      let remainingData = ''
+      let stat = { req: 0, res: 0, total: 0 }
+      readStream.on('data', (chunk) => {
+        remainingData += chunk;
+        const lastNewlineIndex = remainingData.lastIndexOf('\n');
+        // If a newline character is found, process the data before the last newline
+        if (lastNewlineIndex !== -1) {
+          const dataBeforeLastNewline = remainingData.substring(0, lastNewlineIndex);
+          // console.log(dataBeforeLastNewline)         
+          remainingData = remainingData.substring(lastNewlineIndex + 1);
+          let messages = dataBeforeLastNewline.split('\n');
+          stat.total += messages.length;
+          messages.forEach(m => {
+            stat.req++;
+            this.onMessage(m)
+            stat.res++;
+            if (stat.req % 10000 == 0) {
+              console.log(stat, priceModel.data.length, priceModel.dataC)
+            }
+          })
+        }
+      });
+
+      // Handle end event
+      readStream.on('end', () => {
+        console.log('Finished reading the file.');
+      });
+
+      // Handle error events
+      readStream.on('error', (error) => {
+        console.error('Error reading the file:', error);
+      });
+    }
     console.log("Write log")
-    // writeArrayJson2XlsxNew("priceModel.xlsx", { "data": priceModel.data })    
   }
 
   async onMessage(message) {
@@ -401,7 +442,7 @@ class PriceModel {
     }
 
     // console.table(table)
-    if (parentPort){
+    if (parentPort) {
       parentPort.postMessage({ data: table, type: '1' });
       parentPort.postMessage({ data: stats, type: '2' });
     }

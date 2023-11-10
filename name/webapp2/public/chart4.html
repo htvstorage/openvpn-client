@@ -14,7 +14,7 @@
     <!-- <script src="https://cdn.datatables.net/scroller/2.3.0/js/dataTables.scroller.min.js"></script> -->
     <script src="https://cdn.datatables.net/keytable/2.11.0/js/dataTables.keyTable.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.colVis.min.js"></script>
-    
+
 
 
 
@@ -251,12 +251,12 @@
                 // scrollY: 200,
                 searching: true,
                 // serverSide: true,
-                // lengthMenu: [0, 5, 10, 20, 50, 100, 200, 500],
+                lengthMenu: [10, 20, 50, 100, 200, 500,2000],
                 dom: 'lBfrtip',
                 buttons: [
-                    'copy', 
+                    'copy',
                     // 'csv', 
-                    'excel', 'pdf', 
+                    'excel', 'pdf',
                     // 'print', 
                     'colvis'
                 ]
@@ -435,6 +435,43 @@
         // socket.on('updateData', function (data) {
 
         // });     
+
+        $(document).ready(function () {
+            // Function to update DataTable
+            function updateDataTable() {
+                $.ajax({
+                    url: '/api/getsymbolsdata2', // Endpoint to get updated data
+                    method: 'GET',
+                    success: function (response) {
+                        // Clear existing data
+                        // console.table(response.data)
+                        var table = $('#symbolTable').DataTable();
+                        table.clear();
+
+                        // Add new data
+                        // response.data.forEach(item => {
+                        //     $('#example').DataTable().row.add([
+                        //         item.id,
+                        //         item.name
+                        //     ]).draw();
+                        // });
+                        response.data.forEach(e=>{
+                            e.forEach((v,i)=>{
+                                if(i>=3 && v)
+                                    e[i] = numeral(v).format('0,0');
+                            })
+                        })
+                        table.rows.add(response.data).draw()
+                    },
+                    error: function (error) {
+                        console.error('Error fetching updated data:', error);
+                    }
+                });
+            }
+
+            // Update DataTable every 5 seconds (adjust as needed)
+            setInterval(updateDataTable, 1000);
+        });
     </script>
 </body>
 
