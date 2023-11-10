@@ -9,6 +9,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 const numeral = require('numeral');
+const {map} = require('./symbols.js')
 
 // async function wpaf() {
 //     const wpa = require('./watchPendingApp.js');
@@ -105,6 +106,10 @@ app.get('/api/data', (req, res) => {
 app.get('/api/getsymbolsdata', (req, res) => {
   console.log(`Req url`, req.url)
   res.json(lastSymbolData);
+});
+
+app.get('/api/getsymbols', (req, res) => {  
+  res.json(map);
 });
 
 
@@ -229,3 +234,4 @@ function wait(ms) {
 const query = new Worker("./query_worker.js");
 
 query.postMessage({ 'hello': 'hello' })
+
