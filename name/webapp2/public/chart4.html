@@ -148,7 +148,7 @@
 
         const url = new URL(window.location.href);
         const queryParams = url.searchParams;
-        const interval = queryParams.get('interval');
+        var interval = queryParams.get('interval');
         if (!interval) interval = 60
 
         let a = new Promise((resolve, reject) => {

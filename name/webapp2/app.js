@@ -34,7 +34,7 @@ for (let i = 1; i <= 10; i++) {
   });
 }
 
-enpoint = ['symbol', 'history', 'detail']
+enpoint = ['symbol', 'history', 'detail','chart2Row']
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
     res.sendFile(__dirname + `/public/${ep}.html`);
