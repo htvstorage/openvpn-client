@@ -34,7 +34,7 @@ for (let i = 1; i <= 10; i++) {
   });
 }
 
-enpoint = ['symbol', 'history', 'detail','chart2Row']
+enpoint = ['symbol', 'history', 'detail','chart2Row','timeline']
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
     res.sendFile(__dirname + `/public/${ep}.html`);
@@ -113,6 +113,10 @@ app.get('/api/getsymbols', (req, res) => {
 });
 
 
+app.get('/api/getcountsymbols', (req, res) => {  
+  res.json(countSymbol);
+});
+
 
 app.get('/api/getsymbolsdata2', (req, res) => {
   console.log(`Req url`, req.url)
@@ -133,17 +137,29 @@ app.get('/api/symboldetail', (req, res) => {
 
   // Lấy tất cả các tham số truy vấn dưới dạng một đối tượng URLSearchParams
   const queryParams = url.searchParams;
-  const symbol = queryParams.get('symbol');
-
-  console.log('Symbol',symbol)
+  var symbols = queryParams.get('symbols');
+  if(!symbols){
+    return []
+  }
+  console.log('Symbol',symbols)
+        
+  if(symbols){
+      symbols = symbols.split(',')
+  }
 
   
-  let jsdata = Object.values(symbolDataSeries[symbol])
-  res.json({
-    data: jsdata,
-    recordsTotal: jsdata.length,
-    recordsFiltered: jsdata.length
-  });
+  
+
+  let out = symbols.map(s=>{
+    let jsdata = Object.values(symbolDataSeries[s])
+    return {
+      symbol: s,
+      data: jsdata,
+      recordsTotal: jsdata.length,
+      recordsFiltered: jsdata.length      
+    }
+  })
+  res.json(out);
 });
 
 async function serverX() {
@@ -184,7 +200,7 @@ function emitData(data) {
     if (countSymbol % 1000 == 0) { console.log("Count symbols", countSymbol) }
     io.volatile.emit('updateDataSymbol', data);
   } else if (data.type == '2') {
-    countSymbol++;
+    // countSymbol++;
     if (!symbolDataSeries[data.data.symbol]) symbolDataSeries[data.data.symbol] = {}
     symbolDataSeries[data.data.symbol][data.data.time] = data.data
   }

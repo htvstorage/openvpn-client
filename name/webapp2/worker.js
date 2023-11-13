@@ -4,7 +4,7 @@ const fs = require('fs')
 const moment = require('moment')
 const xlsx = require("xlsx")
 const numeral = require('numeral');
-const {map} = require('./symbols.js')
+const { map } = require('./symbols.js')
 let ws = null;
 async function wss() {
   ws = new WebSocket('wss://iboard-pushstream.ssi.com.vn/realtime');
@@ -105,11 +105,11 @@ class MessageReader extends Model {
 
     // let data = fs.readFileSync("../websocket/data3" + getNow() + ".txt", "utf-8")
     // console.log('Data ',data.length)
-    // let filename = "../websocket/data3" + getNow() + ".txt";
-    let filename = "../websocket/data320231110.txt";
+    let filename = "../websocket/data3" + getNow() + ".txt";
+    // let filename = "../websocket/data320231110.txt";
     let stats = fs.statSync(filename);
-    if (stats.size < 400 * 1024 * 1024) {
-      let data = fs.readFileSync(filename, "utf-8")
+    if (stats.size < 6 * 128 * 1024 * 1024) {
+      let data = fs.readFileSync(filename, { encoding: 'utf8', flag: 'r', bufferSize: 1024 * 1024 * 128 * 6 })
       let messages = data.split('\n');
       let stat = { req: 0, res: 0, total: messages.length }
       messages.forEach(m => {
@@ -123,7 +123,7 @@ class MessageReader extends Model {
     } else {
       let readStream = fs.createReadStream(filename, {
         encoding: 'utf8',
-        highWaterMark: 128 * 1024 * 1024, // 128 MB
+        highWaterMark: 6 * 128 * 1024 * 1024, // 128 MB
       })
       // Handle data events      
       let remainingData = ''
@@ -414,8 +414,16 @@ class PriceModel {
     Object.keys(b).filter(k => k != 'T').forEach(k => {
       cp[k] = b[k]
     })
+    let cpt = {}
+    Object.keys(bt).filter(k => k != 'T').forEach(k => {
+      cpt[k] = bt[k]
+    })
 
-    let stats = { symbol: symbol, time: time, T: timeX, ...flattenObject(cp) }
+    // if(symbol == 'HPG')
+    // console.table(cp)
+
+    let stats = { symbol: symbol, time: time, T: timeX, price: price, priceref: priceref, change: change, pct: pct, ...flattenObject(cp) }
+    let stats2 = { symbol: symbol, time: time, T: timeX, price: price, priceref: priceref, change: change, pct: pct, ...flattenObject(cpt) }
     if (this.board[symbol]) {
       let bid = sum(this.board[symbol].BID)
       let ask = sum(this.board[symbol].ASK)
@@ -423,6 +431,11 @@ class PriceModel {
       stats.bid_val = bid.val
       stats.ask_vol = ask.vol
       stats.ask_val = ask.val
+      stats2.bid_vol = bid.vol
+      stats2.bid_val = bid.val
+      stats2.ask_vol = ask.vol
+      stats2.ask_val = ask.val
+
       // console.table(bid)
       // console.table(ask)      
     }
@@ -432,12 +445,16 @@ class PriceModel {
       stats.busd_val = stats.bu_val - stats.sd_val
     }
 
+    if (stats2.bu_vol && stats2.sd_vol) {
+      stats2.busd_vol = stats2.bu_vol - stats2.sd_vol
+      stats2.busd_val = stats2.bu_val - stats2.sd_val
+    }    
 
-
-    // console.table(stats)
+    // if(symbol == 'HPG')
+    //   console.table(stats)
     let table = {
       // labels: ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val",],
-      data: ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val",].map(e =>
+      data: ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "unknown_vol", "unknown_val", "busd_vol", "busd_val",].map(e =>
         stats[e]
       )
     }
@@ -445,7 +462,7 @@ class PriceModel {
     // console.table(table)
     if (parentPort) {
       parentPort.postMessage({ data: table, type: '1' });
-      parentPort.postMessage({ data: stats, type: '2' });
+      parentPort.postMessage({ data: stats2, type: '2' });
     }
 
 

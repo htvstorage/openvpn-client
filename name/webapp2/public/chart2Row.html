@@ -325,10 +325,11 @@
                     // console.table(row)
                     row.data(ne)
                     // console.log(ne)
-                    row.invalidate().draw(false)
+                    // row.invalidate().draw(false)
                 }else{
                     // console.table(Object.values(ne))
-                    table.row.add(ne).draw(false)                    
+                    table.row.add(ne); //.draw(false)                    
+                    // table.draw(false)
                 }
             }
         }
@@ -343,7 +344,9 @@
                 let data = updateData.shift()
                 updateDataSymbol(data.data)
             }
-        }, 5000)
+            var table = $('#symbolTable').DataTable()
+            table.draw(false)
+        }, 200)
         socket.on('updateDataSymbol', function (data) {
             // updateDataSymbol(data)            
             if (!data.data) {
