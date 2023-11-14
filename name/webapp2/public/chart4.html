@@ -197,6 +197,17 @@
                     left: 1,
                     right: 1
                 },
+
+                columnDefs: [
+                    {
+                        targets: 0,
+                        render: function (data, type, row, meta) {
+                            if (type === 'display') {
+                                data = '<a href="timeline?symbols=' + encodeURIComponent(data) + '"  target="_blank">' + data + '</a>';
+                            }
+                            return data;
+                        }
+                    }],
                 processing: true,
                 ordering: true,
                 scroller: true,
@@ -240,11 +251,6 @@
         function initSymbolChangeTable(data) {
             $('#symbolChangeTable').DataTable(
                 {
-
-                    // ajax: {
-                    //     url: '/api/getsymbolsdata2', // Replace with your API endpoint
-                    //     dataSrc: 'data' // If your data is an array at the root level of the JSON response
-                    // },
                     data: data,
                     fixedHeader: {
                         // header: true,
@@ -254,6 +260,16 @@
                         left: 1,
                         right: 1
                     },
+                    columnDefs: [
+                        {
+                            targets: 0,
+                            render: function (data, type, row, meta) {
+                                if (type === 'display') {
+                                    data = '<a href="timeline?symbols=' + encodeURIComponent(data) + '"  target="_blank">' + data + '</a>';
+                                }
+                                return data;
+                            }
+                        }],
                     processing: true,
                     ordering: true,
                     scroller: true,

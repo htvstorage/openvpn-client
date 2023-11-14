@@ -426,7 +426,7 @@
         var combineChart = new Chart(ctxCombineChart, combineConfig);
 
         // Connect to the WebSocket server
-        var socket = io();
+        // var socket = io();
 
         // socket.on('updateData', function (data) {
         //     // Populate Table 1
@@ -584,7 +584,7 @@
 
         let fields = ["symbol", "time"
             , "T", "price", "change", "pct",
-             "unknown_vol", "unknown_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "busd_vol",
+            "unknown_vol", "unknown_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "busd_vol",
             "busd_val", "bid_vol", "bid_val", "ask_vol", "ask_val",
         ]
         if ($.fn.DataTable.isDataTable('#myTable')) {
@@ -649,21 +649,22 @@
             }
         );
 
-
-        // $('#myTable').DataTable(
-        //     {
-        //         // paging: true,
-        //         searching: true,
-        //         // data: [{"symbol":11, "time":22}],
-        //         destroy: true,
-        //         columns: [
-        //             ...fields.map(e => { return { data: e, orderable: true } })
-        //         ],
-        //         // order: [[2, 'desc']]
-
-        //     }
-        // );
-
+        async function updateChart(data) {
+            combineChart.data.labels = data.data.map(e => e.time)
+            combineChart.data.datasets[0].data = data.data.map(e => e.price)
+            combineChart.data.datasets[1].data = data.data.map(e => {
+                let t = 0;
+                [e.bu_val,e.sd_val ,e.unknown_val].forEach(ee=>{
+                    if(ee) t += ee;
+                })
+                return t;
+            })
+            combineChart.data.datasets[2].data = data.data.map(e => e.bu_val)
+            combineChart.data.datasets[3].data = data.data.map(e => e.sd_val)
+            combineChart.data.datasets[4].data = data.data.map(e => e.bid_val)
+            combineChart.data.datasets[5].data = data.data.map(e => e.ask_val)
+            combineChart.update();
+        }
         function updateDataTable() {
 
             $.ajax({
@@ -676,6 +677,7 @@
                     let dataAll = [];
                     //  console.table(Object.keys(response[0].data[0]))   
                     response.forEach(e => {
+                        updateChart(e)
                         e.data.forEach(r => {
                             // fields.forEach(f => {
 
@@ -684,7 +686,7 @@
                         })
                     })
 
-                    console.table(dataAll)
+                    // console.table(dataAll)
                     var table = $('#myTable').DataTable();
                     table.clear();
                     // let data = response.data.map(e => { return [...e] })
@@ -704,7 +706,6 @@
 
         // Update DataTable every 5 seconds (adjust as needed)
         setInterval(updateDataTable, 1000);
-        // updateDataTable()
 
         $(document).ready(function () {
 

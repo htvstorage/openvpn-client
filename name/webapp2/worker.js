@@ -106,10 +106,10 @@ class MessageReader extends Model {
     // let data = fs.readFileSync("../websocket/data3" + getNow() + ".txt", "utf-8")
     // console.log('Data ',data.length)
     let filename = "../websocket/data3" + getNow() + ".txt";
-    // let filename = "../websocket/data320231110.txt";
+    // let filename = "../websocket/data320231113.txt";
     let stats = fs.statSync(filename);
-    if (stats.size < 6 * 128 * 1024 * 1024) {
-      let data = fs.readFileSync(filename, { encoding: 'utf8', flag: 'r', bufferSize: 1024 * 1024 * 128 * 6 })
+    if (stats.size < 3 * 128 * 1024 * 1024) {
+      let data = fs.readFileSync(filename, { encoding: 'utf8', flag: 'r', bufferSize: 1024 * 1024 * 128 })
       let messages = data.split('\n');
       let stat = { req: 0, res: 0, total: messages.length }
       messages.forEach(m => {
@@ -123,7 +123,7 @@ class MessageReader extends Model {
     } else {
       let readStream = fs.createReadStream(filename, {
         encoding: 'utf8',
-        highWaterMark: 6 * 128 * 1024 * 1024, // 128 MB
+        highWaterMark: 128 * 1024 * 1024, // 128 MB
       })
       // Handle data events      
       let remainingData = ''
@@ -367,12 +367,12 @@ class PriceModel {
     time = moment(time, format).format("HH:mm")
     let timeX = moment(time, "HH:mm").format("X")
     // console.log("TimeX", timeX)
-    if (!this.stat[symbol]) this.stat[symbol] = { unknown: { vol: 0, val: 0 } }
+    if (!this.stat[symbol]) this.stat[symbol] = { unknown: { vol: 0, val: 0 }, open: price, close: price, high: price, low: price }
     if (!this.stat["VNINDEX"]) this.stat["VNINDEX"] = { unknown: { vol: 0, val: 0 } }
     if (!this.stat["ALL"]) this.stat["ALL"] = { unknown: { vol: 0, val: 0 } }
     if (!this.stat[symbol].T) this.stat[symbol].T = {}
     if (!this.stat["VNINDEX"].T) this.stat["VNINDEX"].T = {}
-    if (!this.stat[symbol].T[time]) this.stat[symbol].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 } }
+    if (!this.stat[symbol].T[time]) this.stat[symbol].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 }, open: price, close: price, high: price, low: price }
     if (!this.stat["VNINDEX"].T[time]) this.stat["VNINDEX"].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 } }
     let all = this.stat["ALL"];
     let v = this.stat["VNINDEX"];
@@ -387,7 +387,17 @@ class PriceModel {
         e[slide].vol += vol
         e[slide].val += vol * price
       }
-    })
+    });
+
+
+    //Xu ly BT
+    ([b, bt]).forEach(e => {
+      e.close = price;
+      if (e.high < price) e.high = price
+      if (e.low > price) e.low = price
+    });
+
+
     // console.table(b)
     if (stock[symbol] == "hose") {
       vt.VNINDEX = this.BIDASK["VNINDEX"]
@@ -406,7 +416,6 @@ class PriceModel {
           this.lastData = this.lastData.slice(this.lastData.length - keep)
         }
       }
-
     }
 
 
@@ -448,7 +457,7 @@ class PriceModel {
     if (stats2.bu_vol && stats2.sd_vol) {
       stats2.busd_vol = stats2.bu_vol - stats2.sd_vol
       stats2.busd_val = stats2.bu_val - stats2.sd_val
-    }    
+    }
 
     // if(symbol == 'HPG')
     //   console.table(stats)
