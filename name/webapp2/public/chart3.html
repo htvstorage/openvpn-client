@@ -373,7 +373,7 @@
                             font: {
                                 size: 24,          // Kích thước phông chữ
                                 weight: 'bold',  // In đậm                                
-                            }                            
+                            }
                         },
                         beginAtZero: false,
                         suggestedMin: 1000000000000,  // Bắt đầu từ 999                        
@@ -386,7 +386,7 @@
                             font: {
                                 size: 24,          // Kích thước phông chữ
                                 weight: 'bold',  // In đậm                                
-                            }                            
+                            }
                         },
                         beginAtZero: false,
                         suggestedMin: 1000000000000,  // Bắt đầu từ 999                        
@@ -462,6 +462,7 @@
 
 
                 let delta = Date.now() - timeX;
+                // delta = 30 * 1000
                 // console.log("timeX",timeX,delta/1000/60)
                 let tpsa = []
                 if (delta < 60 * 1000 && delta > 0) {
@@ -486,6 +487,7 @@
                 sum[1] = sum[3] + sum[5] + sum[7]
                 sum[2] = sum[4] + sum[6] + sum[8]
 
+
                 label1 = ['Thống kê', 'Tổng Vol', 'Tổng Val', 'Vol KoXĐ', 'Val KoXĐ', 'Vol MuaCĐ', 'Val MuaCĐ', 'Vol BánCĐ', 'Val BánCĐ', 'Vol Mua-Bán', 'Val Mua-Bán']
                 for (var i = 0; i < label1.length; i++) {
                     var th = document.createElement('th');
@@ -493,8 +495,10 @@
                         th.textContent = label1[i];
                     } else {
                         // th.textContent = label1[i] + '/Phút\n' + Math.floor(sum[i]/data.timeline.data.length*100)/100;
-                        th.textContent = label1[i] + '/Phút\n' + numeral(sum[i] / data.timeline.data.length).format('0,0') + '\nT:' + numeral(sum[i]).format('0,0')
-                            + (tpsa[i] ? '\nctps: ' + numeral(tpsa[i]).format('0,0') : '');
+                        // th.textContent = label1[i] + '/Phút\n' + numeral(sum[i] / data.timeline.data.length).format('0,0') + '\nT:' + numeral(sum[i]).format('0,0')
+                        //     + (tpsa[i] ? '\nctps: ' + numeral(tpsa[i]).format('0,0') : '');
+                        th.innerHTML = '<div>' + label1[i] + '/Phút</div>\n<div>' + numeral(sum[i] / data.timeline.data.length).format('0,0') + '</div>\n<div>Tổng số</div>\n<div>'
+                            + numeral(sum[i]).format('0,0') + '</div>\n' + (tpsa[i] ? '<div>Tốc độ(now)</div>\n<div>' + numeral(tpsa[i]).format('0,0') + '</div>' : '')
                     }
                     theadRow.appendChild(th);
 

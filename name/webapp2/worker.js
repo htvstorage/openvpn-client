@@ -463,7 +463,7 @@ class PriceModel {
     //   console.table(stats)
     let table = {
       // labels: ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "uk_vol", "uk_val", "busd_vol", "busd_val",],
-      data: ["symbol", "time", "T", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "unknown_vol", "unknown_val", "busd_vol", "busd_val",].map(e =>
+      data: ["symbol", "time", "T", "price", "change", "pct", "bid_vol", "bid_val", "ask_vol", "ask_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "unknown_vol", "unknown_val", "busd_vol", "busd_val",].map(e =>
         stats[e]
       )
     }
@@ -471,7 +471,7 @@ class PriceModel {
     // console.table(table)
     if (parentPort) {
       parentPort.postMessage({ data: table, type: '1' });
-      parentPort.postMessage({ data: stats2, type: '2' });
+      parentPort.postMessage({ data: stats2, dataacum: stats, type: '2' });
     }
 
 

@@ -9,7 +9,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 const numeral = require('numeral');
-const {map} = require('./symbols.js')
+const { map } = require('./symbols.js')
 
 // async function wpaf() {
 //     const wpa = require('./watchPendingApp.js');
@@ -34,7 +34,7 @@ for (let i = 1; i <= 10; i++) {
   });
 }
 
-enpoint = ['symbol', 'history', 'detail','chart2Row','timeline']
+enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline']
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
     res.sendFile(__dirname + `/public/${ep}.html`);
@@ -108,12 +108,12 @@ app.get('/api/getsymbolsdata', (req, res) => {
   res.json(lastSymbolData);
 });
 
-app.get('/api/getsymbols', (req, res) => {  
+app.get('/api/getsymbols', (req, res) => {
   res.json(map);
 });
 
 
-app.get('/api/getcountsymbols', (req, res) => {  
+app.get('/api/getcountsymbols', (req, res) => {
   res.json(countSymbol);
 });
 
@@ -133,30 +133,34 @@ app.get('/api/getsymbolsdata2', (req, res) => {
 app.get('/api/symboldetail', (req, res) => {
   console.log(`Req url`, req.url)
 
-  const url = new URL('http://local.com/'+req.url);
+  const url = new URL('http://local.com/' + req.url);
 
   // Lấy tất cả các tham số truy vấn dưới dạng một đối tượng URLSearchParams
   const queryParams = url.searchParams;
   var symbols = queryParams.get('symbols');
-  if(!symbols){
+  if (!symbols) {
     return []
   }
-  console.log('Symbol',symbols)
-        
-  if(symbols){
-      symbols = symbols.split(',')
+  console.log('Symbol', symbols)
+
+  if (symbols) {
+    symbols = symbols.split(',')
   }
 
-  
-  
 
-  let out = symbols.map(s=>{
-    let jsdata = Object.values(symbolDataSeries[s])
+  let out = symbols.map(s => {
+    let jsdata = []
+    let dataacum = []
+    if (symbolDataSeries[s]) { 
+      jsdata = Object.values(symbolDataSeries[s]).filter(k=>k!= 'dataacum')
+      dataacum = symbolDataSeries[s].dataacum
+    }
     return {
       symbol: s,
       data: jsdata,
+      dataacum:dataacum,      
       recordsTotal: jsdata.length,
-      recordsFiltered: jsdata.length      
+      recordsFiltered: jsdata.length
     }
   })
   res.json(out);
@@ -203,6 +207,7 @@ function emitData(data) {
     // countSymbol++;
     if (!symbolDataSeries[data.data.symbol]) symbolDataSeries[data.data.symbol] = {}
     symbolDataSeries[data.data.symbol][data.data.time] = data.data
+    symbolDataSeries[data.data.symbol].dataacum = data.dataacum    
   }
 }
 

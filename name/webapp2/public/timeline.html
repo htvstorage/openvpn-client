@@ -107,27 +107,28 @@
     <div id="combineDiv" style="width: 100%; margin: 0 auto; height: 1024px;">
         <canvas id="combineChart"></canvas>
     </div>
-    <table>
-        <caption style="font-size: x-large;">VNINDEX Thống kê cung cầu</caption>
+    <table id="statsTable" class="display">
+        <caption style="font-size: x-large;">Thống kê cung cầu</caption>
         <thead id="statsHead">
             <tr>
-                <th>VNINDEX</th>
-                <th>Time</th>
-                <th>Date</th>
+                <th>Mã</th>
+                <th>Thời gian</th>
+                <th>T</th>
+                <th>Giá</th>
+                <th>Thay đổi</th>
+                <th>%</th>
+                <th>Vol KoXĐ</th>
+                <th>Val KoXĐ</th>
+                <th>Vol MuaCĐ</th>
+                <th>Val MuaCĐ</th>
+                <th>Vol BánCĐ</th>
+                <th>Val BánCĐ</th>
+                <th>Vol Mua-Bán</th>
+                <th>Val Mua-Bán</th>
                 <th>Vol Đặt Mua</th>
                 <th>Val Đặt Mua</th>
                 <th>Vol Đặt Bán</th>
                 <th>Val Đặt Bán</th>
-                <th>BU Vol</th>
-                <th>BU Val</th>
-                <th>SD Vol</th>
-                <th>SD Val</th>
-                <th>UK Vol</th>
-                <th>UK Val</th>
-                <th>BUSD Vol</th>
-                <th>BUSD Val</th>
-                <th>Min BUSD Val</th>
-                <th>Max BUSD Val</th>
             </tr>
         </thead>
         <tbody id="statsBody">
@@ -169,36 +170,6 @@
         </tbody>
 
     </table>
-    <div id="timelineContainer">
-
-
-        <table>
-            <caption style="font-size: x-large;">VNINDEX thống kê chi tiết theo phút</caption>
-            <thead>
-                <tr>
-                    <th>Thời gian</th>
-                    <th>VNINDEX</th>
-                    <!-- <th>T</th>
-                    <th>Vol KoXĐ</th>
-                    <th>Val KoXĐ</th>
-                    <th>Vol MuaCĐ</th>
-                    <th>Val MuaCĐ</th>
-                    <th>Vol BánCĐ</th>
-                    <th>Val BánCĐ</th>
-                    <th>Vol Mua-Bán</th>
-                    <th>Val Mua-Bán</th>
-                    <th>Vol Đặt Mua</th>
-                    <th>Val Đặt Mua</th>
-                    <th>Vol Đặt Bán</th>
-                    <th>Val Đặt Bán</th> -->
-                </tr>
-            </thead>
-            <tbody id="timelineBody">
-                <!-- Table 1 data will be populated here -->
-            </tbody>
-        </table>
-    </div>
-    <!-- Table 2 -->
 
 
     <script>
@@ -324,7 +295,7 @@
             labels: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00'],
             datasets: [
                 {
-                    label: 'VNINDEX',
+                    label: 'PRICE',
                     lineTension: lineTension,
                     yAxisID: 'y-axis-vnindex',
                     data: [],
@@ -383,7 +354,7 @@
                         position: 'left',
                         title: {
                             display: true,
-                            text: 'VNINDEX',
+                            text: 'PRICE',
                             font: {
                                 size: 24,          // Kích thước phông chữ
                                 weight: 'bold',  // In đậm                                
@@ -425,190 +396,44 @@
         };
         var combineChart = new Chart(ctxCombineChart, combineConfig);
 
-        // Connect to the WebSocket server
-        // var socket = io();
-
-        // socket.on('updateData', function (data) {
-        //     // Populate Table 1
-        //     if (data.timeline) {
-        //         chart.data.labels = data.timeline.data.map(e => e[0])
-        //         chart.data.datasets[0].data = data.timeline.data.map(e => e[1])
-        //         chart.update();
-
-        //         myChart.data.labels = data.timeline.data.map(e => e[0])
-        //         myChart.data.datasets[0].data = data.timeline.data.map(e => e[4] + e[6] + e[8])
-        //         myChart.data.datasets[1].data = data.timeline.data.map(e => e[6])
-        //         myChart.data.datasets[2].data = data.timeline.data.map(e => e[8])
-        //         myChart.update();
-
-        //         combineChart.data.labels = data.timeline.data.map(e => e[0])
-        //         combineChart.data.datasets[0].data = data.timeline.data.map(e => e[1])
-        //         combineChart.data.datasets[1].data = data.timeline.data.map(e => e[4] + e[6] + e[8])
-        //         combineChart.data.datasets[2].data = data.timeline.data.map(e => e[6])
-        //         combineChart.data.datasets[3].data = data.timeline.data.map(e => e[8])
-        //         combineChart.data.datasets[4].data = data.timeline.data.map(e => e[12])
-        //         combineChart.data.datasets[5].data = data.timeline.data.map(e => e[14])
-        //         combineChart.update();
-
-        //         data.timeline.data.sort((a, b) => { return b[2] - a[2] })
-        //         var timelineBody = document.getElementById('timelineBody');
-        //         timelineBody.innerHTML = '';
-        //         for (var i = 0; i < data.timeline.data.length; i++) {
-        //             var row = document.createElement('tr');
-        //             for (var j = 0; j < data.timeline.labels.length; j++) {
-        //                 var cell = document.createElement('td');
-
-        //                 cell.textContent = j <= 2 ? data.timeline.data[i][j] : numeral(data.timeline.data[i][j]).format('0,0');
-        //                 row.appendChild(cell);
-        //             }
-        //             timelineBody.appendChild(row);
-        //         }
-
-
-        //         statsHead = document.getElementById('headTable');
-        //         statsHead.innerHTML = ''
-        //         var theadRow = document.createElement('tr');
-        //         statsHead.appendChild(theadRow);
-        //         let label1 = ['Thời gian', 'VNINDEX', 'T', 'Vol KoXĐ', 'Val KoXĐ', 'Vol MuaCĐ', 'Val MuaCĐ', 'Vol BánCĐ', 'Val BánCĐ', 'Vol Mua-Bán', 'Val Mua-Bán', 'Vol Đặt Mua', 'Val Đặt Mua', 'Vol Đặt Bán', 'Val Đặt Bán']
-        //         for (var i = 0; i < label1.length; i++) {
-        //             var th = document.createElement('th');
-        //             th.textContent = label1[i];
-        //             theadRow.appendChild(th);
-        //         }
-
-        //         statsHead = document.getElementById('footTable');
-        //         statsHead.innerHTML = ''
-        //         var theadRow = document.createElement('tr');
-        //         statsHead.appendChild(theadRow);
-        //         let start = 3;
-        //         // console.table(data.timeline.data[0])
-        //         let timeX = moment(data.timeline.data[0][0], 'HH:mm').format("x")
-
-
-
-        //         let delta = Date.now() - timeX;
-        //         // console.log("timeX",timeX,delta/1000/60)
-        //         let tpsa = []
-        //         if (delta < 60 * 1000 && delta > 0) {
-        //             let lasta = data.timeline.data[0]
-        //             // console.table(lasta)
-        //             for (let i = start; i <= lasta.length - 1; i++) {
-        //                 tpsa[i] = lasta[i] * 60 * 1000 / (delta)
-        //             }
-        //             tpsa[1] = (lasta[3] + lasta[5] + lasta[7]) * 60 * 1000 / (delta)
-        //             tpsa[2] = (lasta[4] + lasta[6] + lasta[8]) * 60 * 1000 / (delta)
-        //         }
-
-
-        //         let sum = data.timeline.data.reduce((a, b) => {
-        //             let ret = []
-        //             for (let i = start; i <= a.length - 1; i++) {
-        //                 ret[i] = a[i] + b[i]
-        //             }
-        //             return ret;
-        //         }, Array(11).fill(0, 3))
-
-        //         sum[1] = sum[3] + sum[5] + sum[7]
-        //         sum[2] = sum[4] + sum[6] + sum[8]
-
-        //         label1 = ['Thống kê', 'Tổng Vol', 'Tổng Val', 'Vol KoXĐ', 'Val KoXĐ', 'Vol MuaCĐ', 'Val MuaCĐ', 'Vol BánCĐ', 'Val BánCĐ', 'Vol Mua-Bán', 'Val Mua-Bán']
-        //         for (var i = 0; i < label1.length; i++) {
-        //             var th = document.createElement('th');
-        //             if (i < 1) {
-        //                 th.textContent = label1[i];
-        //             } else {
-        //                 // th.textContent = label1[i] + '/Phút\n' + Math.floor(sum[i]/data.timeline.data.length*100)/100;
-        //                 th.textContent = label1[i] + '/Phút\n' + numeral(sum[i] / data.timeline.data.length).format('0,0') + '\nT:' + numeral(sum[i]).format('0,0')
-        //                     + (tpsa[i] ? '\nctps: ' + numeral(tpsa[i]).format('0,0') : '');
-        //             }
-        //             theadRow.appendChild(th);
-
-        //         }
-        //         if ($.fn.DataTable.isDataTable('#myTable')) {
-        //             $('#myTable').DataTable().destroy();
-
-        //         }
-        //         let datanew = data.timeline.data.map(e => {
-        //             let ne = {};
-        //             data.timeline.labels.forEach((l, i) => {
-        //                 ne[l] = i <= 2 ? e[i] : numeral(e[i]).format('0,0');
-        //             });
-        //             return ne
-        //         })
-        //         $('#myTable').DataTable(
-        //             {
-        //                 // paging: true,
-        //                 searching: true,
-        //                 data: datanew,
-        //                 destroy: true,
-        //                 // columns: [
-        //                 //     ...data.timeline.labels.map(e => { return { data: e, orderable: true } })
-        //                 // ],
-        //                 order: [[2, 'desc']]
-
-        //             }
-        //         );
-        //         // var table = $('#myTable').DataTable()
-
-
-        //         // table.rows.add(datanew).draw(true)                
-        //     }
-
-        //     // Populate Table 2
-        //     if (data.stats) {
-        //         var statsBody = document.getElementById('statsBody');
-        //         var statsHead = document.getElementById('statsHead');
-        //         statsHead.innerHTML = ''
-        //         var theadRow = document.createElement('tr');
-        //         statsHead.appendChild(theadRow);
-        //         for (var i = 0; i < data.stats.labels.length; i++) {
-        //             var th = document.createElement('th');
-        //             th.textContent = data.stats.labels[i];
-        //             theadRow.appendChild(th);
-        //         }
-        //         statsBody.innerHTML = '';
-
-        //         var row = document.createElement('tr');
-        //         for (var j = 0; j < data.stats.labels.length; j++) {
-        //             var cell = document.createElement('td');
-        //             cell.textContent = j <= 2 ? data.stats.data[j] : numeral(data.stats.data[j]).format('0,0');
-        //             row.appendChild(cell);
-        //         }
-        //         statsBody.appendChild(row);
-
-
-
-
-        //     }
-        // });
-
         let fields = ["symbol", "time"
             , "T", "price", "change", "pct",
             "unknown_vol", "unknown_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "busd_vol",
             "busd_val", "bid_vol", "bid_val", "ask_vol", "ask_val",
         ]
-        if ($.fn.DataTable.isDataTable('#myTable')) {
-            $('#myTable').DataTable().destroy();
-        }
+        // if ($.fn.DataTable.isDataTable('#myTable')) {
+        //     $('#myTable').DataTable().destroy();
+        // }
         $.fn.dataTable.ext.errMode = 'none';
+
         $('#myTable').DataTable(
             {
                 // ajax: {
                 //     url: '/api/symboldetail', // Replace with your API endpoint
                 //     dataSrc: 'data' // If your data is an array at the root level of the JSON response
                 // },
-                // fixedHeader: {
-                //     // header: true,
-                //     // footer: true
-                // },
-                // fixedColumns: {
-                //     left: 1,
-                //     right: 1
-                // },
-                // data:[],
+                fixedHeader: {
+                    // header: true,
+                    // footer: true
+                },
+                fixedColumns: {
+                    left: 1,
+                    right: 1
+                },
+                columnDefs: [
+                    {
+                        targets: Array.from({ length: 15 }, (_, index) => index + 3),
+                        render: function (data, type, row, meta) {
+                            if (type === 'display') {
+                                data = numeral(data).format('0,0');
+                            }
+                            return data;
+                        }
+                    }],
                 columns: [
                     ...fields.map(e => { return { data: e, orderable: true } })
                 ],
+                order: [[2, 'desc']],
                 processing: true,
                 ordering: true,
                 scroller: true,
@@ -649,13 +474,39 @@
             }
         );
 
+        $('#statsTable').DataTable(
+            {
+                fixedHeader: {
+                    // header: true,
+                    // footer: true
+                },
+                fixedColumns: {
+                    left: 1,
+                    right: 1
+                },
+                columnDefs: [
+                    {
+                        targets: Array.from({ length: 15 }, (_, index) => index + 3),
+                        render: function (data, type, row, meta) {
+                            if (type === 'display') {
+                                data = numeral(data).format('0,0');
+                            }
+                            return data;
+                        }
+                    }],
+                columns: [
+                    ...fields.map(e => { return { data: e, orderable: true } })
+                ],
+            }
+        );
+
         async function updateChart(data) {
             combineChart.data.labels = data.data.map(e => e.time)
             combineChart.data.datasets[0].data = data.data.map(e => e.price)
             combineChart.data.datasets[1].data = data.data.map(e => {
                 let t = 0;
-                [e.bu_val,e.sd_val ,e.unknown_val].forEach(ee=>{
-                    if(ee) t += ee;
+                [e.bu_val, e.sd_val, e.unknown_val].forEach(ee => {
+                    if (ee) t += ee;
                 })
                 return t;
             })
@@ -675,28 +526,23 @@
                         return;
                     }
                     let dataAll = [];
-                    //  console.table(Object.keys(response[0].data[0]))   
+                    let statsAll = []
                     response.forEach(e => {
                         updateChart(e)
                         e.data.forEach(r => {
-                            // fields.forEach(f => {
-
-                            // })
                             dataAll.push(r);
                         })
+
+                        statsAll.push(e.dataacum);
                     })
 
-                    // console.table(dataAll)
                     var table = $('#myTable').DataTable();
                     table.clear();
-                    // let data = response.data.map(e => { return [...e] })
-                    // dataAll.forEach(e => {
-                    //     Object.values(e).forEach((v, i) => {
-                    //         if (i >= 3 && v)
-                    //             e[i] = numeral(v).format('0,0');
-                    //     })
-                    // })
                     table.rows.add(dataAll).draw()
+
+                    var statstable = $('#statsTable').DataTable();
+                    statstable.clear();
+                    statstable.rows.add(statsAll).draw()
                 },
                 error: function (error) {
                     console.error('Error fetching updated data:', error);

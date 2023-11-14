@@ -87,6 +87,9 @@
                 <th>'Mã'</th>
                 <th>'Thời gian'</th>
                 <th>'T'</th>
+                <th>'Giá'</th>
+                <th>'Thay Đổi'</th>
+                <th>'%'</th>
                 <th>'Vol Đặt Mua'</th>
                 <th>'Val Đặt Mua'</th>
                 <th>'Vol Đặt Bán'</th>
@@ -118,6 +121,9 @@
                 <th>'Mã'</th>
                 <th>'Thời gian'</th>
                 <th>'T'</th>
+                <th>'Giá'</th>
+                <th>'Thay Đổi'</th>
+                <th>'%'</th>                
                 <th>'Vol Đặt Mua'</th>
                 <th>'Val Đặt Mua'</th>
                 <th>'Vol Đặt Bán'</th>
@@ -360,7 +366,7 @@
                                 e1 = c1[e[0]]
                                 if (e1) { //Neu co thi tinh sai biet
                                     e.forEach((v, i) => {
-                                        if (i <= 2) a[i] = v
+                                        if (i <= 5) a[i] = v
                                         else {
                                             a[i] = numeral(v - e1[i]).format('0,0')
                                         }
@@ -370,7 +376,7 @@
                                 }
                                 c2[e[0]] = a
 
-                                if (e[0] == 'DXG') console.table({ 'a': a, 'e1': e1, 'e': e })
+                                // if (e[0] == 'DXG') console.table({ 'a': a, 'e1': e1, 'e': e })
                             })
                             table.rows.add(Object.values(c2)).draw()
                         }
