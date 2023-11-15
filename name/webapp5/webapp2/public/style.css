@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+/* .sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+} */
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    transition: transform 0.3s; /* Thêm transition để tạo hiệu ứng mượt mà */
+}
+
+/* Lớp hidden để ẩn sidebar */
+.hidden {
+    transform: translateX(-250px); /* Dịch chuyển sidebar ra ngoài màn hình */
+}
+
+/* Nút hoặc biểu tượng để hiện sidebar */
+#toggleSidebar {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+/* 
+.chart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px; /* Điều chỉnh kích thước tối đa của hai biểu đồ */
+    margin: 0 auto;
+}
+
+.chart {
+    flex: 1;
+    margin: 10px; /* Khoảng cách giữa hai biểu đồ */
+}
+
+.tables {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 48%; /* Điều chỉnh kích thước của các bảng */
+    margin-right: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+} */
