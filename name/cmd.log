@@ -143,7 +143,11 @@ grep -v acum_busd all/$s"avg.txt"|awk 'BEGIN{sum = 0; sum_sd; sum_bu; count; min
 done
 
 
-
+nohup node  script/dumpdaily2.js stock=24HMONEY >> dum.log 2>&1 < /dev/null &
+nohup node  script/dumpdaily2.js stock=VIETSTOCK >> dum.log 2>&1 < /dev/null &
+nohup node  script/dumpdaily2.js stock=VCI >> dum.log 2>&1 < /dev/null &
+nohup node  script/dumpdaily2.js stock=CAFEF >> dum.log 2>&1 < /dev/null &
+nohup node  script/dumpdaily2.js stock=VCBS >> dum.log 2>&1 < /dev/null &
 
 
 
