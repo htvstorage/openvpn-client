@@ -2,20 +2,39 @@
 <html>
 
 <head>
-    <title>Dynamic Chart Example</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <title>Symbol Chart</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+    <!-- <script src="https://cdn.datatables.net/scroller/2.3.0/js/dataTables.scroller.min.js"></script> -->
+    <script src="https://cdn.datatables.net/keytable/2.11.0/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedcolumns/4.3.0/js/dataTables.fixedColumns.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js"></script>
 
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.0/css/jquery.dataTables.css">
-    <!-- <link href="https://cdn.datatables.net/v/dt/dt-1.13.6/datatables.min.css" rel="stylesheet" type="text/css"> -->
-    <script src="https://cdn.datatables.net/1.13.0/js/jquery.dataTables.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/fixedcolumns/4.3.0/css/fixedColumns.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/scroller/2.3.0/css/scroller.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/keytable/2.11.0/css/keyTable.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+
 
     <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"
         integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
         crossorigin="anonymous"></script>
-    <!-- <script src="https://cdn.socket.io/socket.io-4.0.1.js"></script> -->
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
@@ -81,14 +100,53 @@
             justify-content: center;
         }
 
-        #combineDiv {
+        /* #combineDiv {
             display: flex;
             justify-content: center;
-        }
+        } */
 
         .hidden-element {
             display: none;
         }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            /* Cho phép các ô chuyển hàng khi không đủ không gian */
+            justify-content: center;
+        }
+
+        .flex-item3 {
+            flex: 0 0 calc(33.33% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }
+        .flex-item2 {
+            flex: 0 0 calc(50% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }
+        .flex-item1 {
+            flex: 0 0 calc(100% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }  
+        .flex-itemOne {
+            flex: 0 0 calc(80% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }             
     </style>
 </head>
 
@@ -96,16 +154,8 @@
     <br />
     <br />
     <br />
-    <div id="chartcontainer" class="hidden-element" style="width: 100%; margin: 0 auto; height: 500px;">
-        <div id="vnindex" class="hidden-element" style="width: 45%; margin: 0 auto; height: 500px;">
-            <canvas id="myChart"></canvas>
-        </div>
-        <div id="busd" class="hidden-element" style="width: 45%; margin: 0 auto; height: 500px;">
-            <canvas id="line-chart"></canvas>
-        </div>
-    </div>
-    <div id="combineDiv" style="width: 100%; margin: 0 auto; height: 1024px;">
-        <canvas id="combineChart"></canvas>
+    <div id="combineDiv" class="flex-container">
+        <div class="flex-itemOne"><canvas id="combineChart"></canvas></div>
     </div>
     <table id="statsTable" class="display">
         <caption style="font-size: x-large;">Thống kê cung cầu</caption>
@@ -117,6 +167,10 @@
                 <th>Giá</th>
                 <th>Thay đổi</th>
                 <th>%</th>
+                <th>Vol Đặt Mua</th>
+                <th>Val Đặt Mua</th>
+                <th>Vol Đặt Bán</th>
+                <th>Val Đặt Bán</th>
                 <th>Vol KoXĐ</th>
                 <th>Val KoXĐ</th>
                 <th>Vol MuaCĐ</th>
@@ -125,10 +179,6 @@
                 <th>Val BánCĐ</th>
                 <th>Vol Mua-Bán</th>
                 <th>Val Mua-Bán</th>
-                <th>Vol Đặt Mua</th>
-                <th>Val Đặt Mua</th>
-                <th>Vol Đặt Bán</th>
-                <th>Val Đặt Bán</th>
             </tr>
         </thead>
         <tbody id="statsBody">
@@ -144,6 +194,10 @@
                 <th>Giá</th>
                 <th>Thay đổi</th>
                 <th>%</th>
+                <th>Vol Đặt Mua</th>
+                <th>Val Đặt Mua</th>
+                <th>Vol Đặt Bán</th>
+                <th>Val Đặt Bán</th>
                 <th>Vol KoXĐ</th>
                 <th>Val KoXĐ</th>
                 <th>Vol MuaCĐ</th>
@@ -152,10 +206,6 @@
                 <th>Val BánCĐ</th>
                 <th>Vol Mua-Bán</th>
                 <th>Val Mua-Bán</th>
-                <th>Vol Đặt Mua</th>
-                <th>Val Đặt Mua</th>
-                <th>Vol Đặt Bán</th>
-                <th>Val Đặt Bán</th>
             </tr>
         </thead>
         <!-- <tfoot id="footTable">
@@ -217,75 +267,75 @@
             }
         };
 
-        var ctx = document.getElementById('myChart').getContext('2d');
-        var chart = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: [],
-                datasets: [{
-                    label: 'VNINDEX',
-                    data: [],
-                    borderColor: 'purple',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)'
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: false,
-                        suggestedMin: 2000,  // Bắt đầu từ 999
-                    }
-                }, plugins: {
-                    zoom: zoomOptions,
-                }
-            }
-        });
+        // var ctx = document.getElementById('myChart').getContext('2d');
+        // var chart = new Chart(ctx, {
+        //     type: 'line',
+        //     data: {
+        //         labels: [],
+        //         datasets: [{
+        //             label: 'VNINDEX',
+        //             data: [],
+        //             borderColor: 'purple',
+        //             backgroundColor: 'rgba(75, 192, 192, 0.2)'
+        //         }]
+        //     },
+        //     options: {
+        //         scales: {
+        //             y: {
+        //                 beginAtZero: false,
+        //                 suggestedMin: 2000,  // Bắt đầu từ 999
+        //             }
+        //         }, plugins: {
+        //             zoom: zoomOptions,
+        //         }
+        //     }
+        // });
 
-        const ctxLineChart = document.getElementById('line-chart').getContext('2d');
-        const data = {
-            labels: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00'],
-            datasets: [
-                {
-                    label: 'Tổng',
-                    borderColor: 'blue',
-                    data: [65, 59, 80, 81, 56, 55],
-                    fill: false,
-                    hidden: true // Ẩn đường này mặc định
-                },
-                {
-                    label: 'MuaCĐ',
-                    borderColor: 'green',
-                    data: [28, 48, 40, 19, 86, 27],
-                    fill: false,
-                },
-                {
-                    label: 'BánCĐ',
-                    borderColor: 'red',
-                    data: [45, 68, 58, 33, 72, 47],
-                    fill: false,
-                },
-            ],
-        };
-        const config = {
-            type: 'line', // Đây là loại biểu đồ đường (line chart)
-            data: data,
-            options: {
-                scales: {
-                    x: {
-                        beginAtZero: true,
-                    },
-                    y: {
-                        beginAtZero: false,
-                        suggestedMin: 1000000000000,  // Bắt đầu từ 999
-                    },
-                },
-                plugins: {
-                    zoom: zoomOptions,
-                }
-            },
+        // const ctxLineChart = document.getElementById('line-chart').getContext('2d');
+        // const data = {
+        //     labels: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00'],
+        //     datasets: [
+        //         {
+        //             label: 'Tổng',
+        //             borderColor: 'blue',
+        //             data: [65, 59, 80, 81, 56, 55],
+        //             fill: false,
+        //             hidden: true // Ẩn đường này mặc định
+        //         },
+        //         {
+        //             label: 'MuaCĐ',
+        //             borderColor: 'green',
+        //             data: [28, 48, 40, 19, 86, 27],
+        //             fill: false,
+        //         },
+        //         {
+        //             label: 'BánCĐ',
+        //             borderColor: 'red',
+        //             data: [45, 68, 58, 33, 72, 47],
+        //             fill: false,
+        //         },
+        //     ],
+        // };
+        // const config = {
+        //     type: 'line', // Đây là loại biểu đồ đường (line chart)
+        //     data: data,
+        //     options: {
+        //         scales: {
+        //             x: {
+        //                 beginAtZero: true,
+        //             },
+        //             y: {
+        //                 beginAtZero: false,
+        //                 suggestedMin: 1000000000000,  // Bắt đầu từ 999
+        //             },
+        //         },
+        //         plugins: {
+        //             zoom: zoomOptions,
+        //         }
+        //     },
 
-        };
-        var myChart = new Chart(ctxLineChart, config);
+        // };
+        // var myChart = new Chart(ctxLineChart, config);
 
 
         //combineChart
@@ -331,7 +381,7 @@
                     label: 'Đặt Mua',
                     lineTension: lineTension,
                     yAxisID: 'y-axis-dvalue',
-                    borderColor: 'yellow',
+                    borderColor: 'Olive',
                     data: Array(6).fill().map(() => Math.floor(Math.random() * 100)),
                     fill: false,
                 },
@@ -397,9 +447,9 @@
         var combineChart = new Chart(ctxCombineChart, combineConfig);
 
         let fields = ["symbol", "time"
-            , "T", "price", "change", "pct",
+            , "T", "price", "change", "pct", "bid_vol", "bid_val", "ask_vol", "ask_val",
             "unknown_vol", "unknown_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "busd_vol",
-            "busd_val", "bid_vol", "bid_val", "ask_vol", "ask_val",
+            "busd_val",
         ]
         // if ($.fn.DataTable.isDataTable('#myTable')) {
         //     $('#myTable').DataTable().destroy();
@@ -553,8 +603,14 @@
             combineChart.data.datasets[5].data = data.data.map(e => e.ask_val)
             combineChart.update();
         }
-        function updateDataTable() {
+        let timeout = 0;
+        let lastMd5 = ''
+        let lastAJAX = 0
 
+        function updateDataTable() {
+            if (Date.now() - lastAJAX <= timeout) {
+                return;
+            }
             $.ajax({
                 url: `/api/symboldetail?symbols=${symbols}`,
                 method: 'GET',
@@ -564,7 +620,7 @@
                     }
                     let dataAll = [];
                     let statsAll = []
-                    response.forEach(e => {
+                    response.data.forEach(e => {
                         updateChart(e)
                         e.data.forEach(r => {
                             dataAll.push(r);
@@ -580,6 +636,18 @@
                     var statstable = $('#statsTable').DataTable();
                     statstable.clear();
                     statstable.rows.add(statsAll).draw()
+                    lastAJAX = Date.now()
+                    if (lastMd5 == response.md5) {
+                        timeout += 1000
+                        if (timeout >= 10000) {
+                            timeout = 10000;
+                            console.log('Timeout ', timeout, 'md5', response.md5)
+                        }
+                    } else {
+                        timeout = 0;
+                    }
+                    // console.table(response)
+                    lastMd5 = response.md5                    
                 },
                 error: function (error) {
                     console.error('Error fetching updated data:', error);

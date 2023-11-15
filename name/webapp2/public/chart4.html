@@ -123,7 +123,7 @@
                 <th>'T'</th>
                 <th>'Giá'</th>
                 <th>'Thay Đổi'</th>
-                <th>'%'</th>                
+                <th>'%'</th>
                 <th>'Vol Đặt Mua'</th>
                 <th>'Val Đặt Mua'</th>
                 <th>'Vol Đặt Bán'</th>
@@ -320,9 +320,17 @@
         let lastChange = 0;
         let lastChangeMap = {}
         let keepArray = []
+        let timeout = 0;
+        let lastMd5 = ''
+        let lastAJAX = 0
+
         $(document).ready(function () {
             // Function to update DataTable
             function updateDataTable() {
+                if (Date.now() - lastAJAX <= timeout) {
+                    return;
+                }
+
                 $.ajax({
                     url: '/api/getsymbolsdata2', // Endpoint to get updated data
                     method: 'GET',
@@ -380,6 +388,19 @@
                             })
                             table.rows.add(Object.values(c2)).draw()
                         }
+
+                        lastAJAX = Date.now()
+                        if (lastMd5 == response.md5) {
+                            timeout += 1000
+                            if (timeout >= 10000) {
+                                timeout = 10000;
+                                console.log('Timeout ', timeout, 'md5', response.md5)
+                            }
+                        } else {
+                            timeout = 0;
+                        }
+                        // console.table(response)
+                        lastMd5 = response.md5
 
                     },
                     error: function (error) {

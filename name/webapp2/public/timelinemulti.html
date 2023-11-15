@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Dynamic Chart Example</title>    
+    <title>MultiSymbol Chart</title>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
@@ -101,11 +101,75 @@
 
         #combineDiv {
             display: flex;
-            justify-content: center;
+            /* flex-wrap: wrap; */
+            /* Cho phép các ô chuyển hàng khi không đủ không gian */
+            /* justify-content: center; */
         }
 
         .hidden-element {
             display: none;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 700px);
+            /* 3 cột trong mỗi hàng */
+            grid-gap: 10px;
+            /* Khoảng cách giữa các ô */
+            /* grid-auto-rows: 300px; */
+        }
+
+        .grid-item {
+            /* Định dạng cho mỗi ô trong grid */
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 700px;
+            /* Chiều rộng của mỗi ô */
+            height: 700px;
+            /* Chiều cao của mỗi ô */
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            /* Cho phép các ô chuyển hàng khi không đủ không gian */
+            justify-content: center;
+        }
+
+        .flex-item3 {
+            flex: 0 0 calc(33.33% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }
+
+        .flex-item2 {
+            flex: 0 0 calc(50% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }
+
+        .flex-item1 {
+            flex: 0 0 calc(100% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }
+
+        .flex-itemOne {
+            flex: 0 0 calc(80% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
         }
     </style>
 </head>
@@ -114,7 +178,7 @@
     <br />
     <br />
     <br />
-    <div id="combineDiv" style="width: 100%; margin: 0 auto; height: 400px;">
+    <div id="combineDiv" class="flex-container">
     </div>
     <table id="statsTable" class="display">
         <caption style="font-size: x-large;">Thống kê cung cầu</caption>
@@ -126,6 +190,10 @@
                 <th>Giá</th>
                 <th>Thay đổi</th>
                 <th>%</th>
+                <th>Vol Đặt Mua</th>
+                <th>Val Đặt Mua</th>
+                <th>Vol Đặt Bán</th>
+                <th>Val Đặt Bán</th>
                 <th>Vol KoXĐ</th>
                 <th>Val KoXĐ</th>
                 <th>Vol MuaCĐ</th>
@@ -134,10 +202,6 @@
                 <th>Val BánCĐ</th>
                 <th>Vol Mua-Bán</th>
                 <th>Val Mua-Bán</th>
-                <th>Vol Đặt Mua</th>
-                <th>Val Đặt Mua</th>
-                <th>Vol Đặt Bán</th>
-                <th>Val Đặt Bán</th>
             </tr>
         </thead>
         <tbody id="statsBody">
@@ -153,6 +217,10 @@
                 <th>Giá</th>
                 <th>Thay đổi</th>
                 <th>%</th>
+                <th>Vol Đặt Mua</th>
+                <th>Val Đặt Mua</th>
+                <th>Vol Đặt Bán</th>
+                <th>Val Đặt Bán</th>
                 <th>Vol KoXĐ</th>
                 <th>Val KoXĐ</th>
                 <th>Vol MuaCĐ</th>
@@ -161,10 +229,6 @@
                 <th>Val BánCĐ</th>
                 <th>Vol Mua-Bán</th>
                 <th>Val Mua-Bán</th>
-                <th>Vol Đặt Mua</th>
-                <th>Val Đặt Mua</th>
-                <th>Vol Đặt Bán</th>
-                <th>Val Đặt Bán</th>
             </tr>
         </thead>
         <!-- <tfoot id="footTable">
@@ -196,13 +260,25 @@
         }
 
         let combineDivContainer = document.getElementById('combineDiv')
+        var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        let flex = "flex-item2"
+        if (width < 1024) {
+            flex = "flex-item1"
+        } else if (width > 1024 && width <= 1920) {
+            flex = "flex-item2"
+        } else {
+            flex = "flex-item3"
+        }
+        if (symbolsa.length == 1) {
+            flex = "flex-itemOne"
+        }
         if (combineDivContainer) {
-            let innerHTML = '<canvas id="' + 'BEGIN' + 'Chart" style="width: 20%; margin: 0 auto;"></canvas>'
-            innerHTML += '<canvas id="' + 'BEGIN' + 'Chart" style="width: 20%; margin: 0 auto;"></canvas>'
+            let innerHTML = '';//'<canvas id="' + 'BEGIN' + 'Chart" style="width: 20%; margin: 0 auto;"></canvas>'
+            // innerHTML += '<div class="grid-item"><canvas id="' + 'BEGIN' + 'Chart" style="width: 20%; margin: 0 auto;"></canvas></div>'
             symbolsa.forEach(symbol => {
-                innerHTML += '<canvas id="' + symbol + 'Chart" style="width: 20%; margin: 0 auto;"></canvas>'
+                innerHTML += '<div class="' + flex + '"><canvas id="' + symbol + 'Chart" style="width: 100%; margin: 0 auto;"></canvas></div>'
             })
-            innerHTML += '<canvas id="' + 'ENDED' + 'Chart" style="width: 20%; margin: 0 auto;"></canvas>'            
+            // innerHTML += '<canvas id="' + 'ENDED' + 'Chart" style="width: 20%; margin: 0 auto;"></canvas>'
             combineDivContainer.innerHTML = innerHTML;
         }
 
@@ -310,7 +386,7 @@
 
         function createChart(symbol) {
             //combineChart
-            const ctxCombineChart = document.getElementById(symbol+'Chart').getContext('2d');
+            const ctxCombineChart = document.getElementById(symbol + 'Chart').getContext('2d');
             var lineTension = 0.2
             const combineData = {
                 labels: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00'],
@@ -320,8 +396,12 @@
                         lineTension: lineTension,
                         yAxisID: 'y-axis-vnindex',
                         data: [],
-                        borderColor: 'purple',
-                        backgroundColor: 'rgba(75, 192, 192, 0.2)'
+                        borderColor: 'Magenta',
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        pointRadius: 2, // Kích thước đánh dấu
+                        pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
+                        borderWidth: 2, // Kích thước của đường
+
                     },
                     {
                         label: 'Tổng',
@@ -330,7 +410,10 @@
                         borderColor: 'blue',
                         data: [65, 59, 80, 81, 56, 55],
                         fill: false,
-                        hidden: true // Ẩn đường này mặc định
+                        hidden: true, // Ẩn đường này mặc định
+                        pointRadius: 2, // Kích thước đánh dấu
+                        pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
+                        borderWidth: 2, // Kích thước của đường                        
                     },
                     {
                         label: 'MuaCĐ',
@@ -339,6 +422,9 @@
                         borderColor: 'green',
                         data: Array(6).fill().map(() => Math.floor(Math.random() * 100)),
                         fill: false,
+                        pointRadius: 2, // Kích thước đánh dấu
+                        pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
+                        borderWidth: 2, // Kích thước của đường
                     },
                     {
                         label: 'BánCĐ',
@@ -347,14 +433,20 @@
                         borderColor: 'red',
                         data: Array(6).fill().map(() => Math.floor(Math.random() * 100)),
                         fill: false,
+                        pointRadius: 2, // Kích thước đánh dấu
+                        pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
+                        borderWidth: 2, // Kích thước của đường                        
                     },
                     {
                         label: 'Đặt Mua',
                         lineTension: lineTension,
                         yAxisID: 'y-axis-dvalue',
-                        borderColor: 'yellow',
+                        borderColor: 'Olive',
                         data: Array(6).fill().map(() => Math.floor(Math.random() * 100)),
                         fill: false,
+                        pointRadius: 2, // Kích thước đánh dấu
+                        pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
+                        borderWidth: 2, // Kích thước của đường
                     },
                     {
                         label: 'Đặt Bán',
@@ -363,6 +455,9 @@
                         borderColor: 'brown',
                         data: Array(6).fill().map(() => Math.floor(Math.random() * 100)),
                         fill: false,
+                        pointRadius: 2, // Kích thước đánh dấu
+                        pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
+                        borderWidth: 2, // Kích thước của đường                        
                     },
                 ],
             };
@@ -386,27 +481,37 @@
                             position: 'right',
                             title: {
                                 display: true,
-                                text: 'Mua Bán Khớp Lệnh',
+                                text: 'Mua Bán Khớp Lệnh(Tỉ)',
                                 font: {
                                     size: 18,          // Kích thước phông chữ
                                     weight: 'bold',  // In đậm                                
                                 }
                             },
                             beginAtZero: false,
-                            suggestedMin: 1000000000000,  // Bắt đầu từ 999                        
+                            suggestedMin: 1000000000000,  // Bắt đầu từ 999 
+                            ticks: {
+                                callback: function (value, index, values) {
+                                    return numeral(+value / 1000000000).format('0,0.00')
+                                }
+                            }
                         },
                         'y-axis-dvalue': {
                             position: 'right',
                             title: {
                                 display: true,
-                                text: 'Đặt Mua Bán',
+                                text: 'Đặt Mua Bán(Tỉ)',
                                 font: {
                                     size: 18,          // Kích thước phông chữ
                                     weight: 'bold',  // In đậm                                
                                 }
                             },
                             beginAtZero: false,
-                            suggestedMin: 1000000000000,  // Bắt đầu từ 999                        
+                            suggestedMin: 1000000000000,  // Bắt đầu từ 999  
+                            ticks: {
+                                callback: function (value, index, values) {
+                                    return numeral(+value / 1000000000).format('0,0.00')
+                                }
+                            }
                         },
                     },
                     plugins: {
@@ -426,9 +531,9 @@
 
 
         let fields = ["symbol", "time"
-            , "T", "price", "change", "pct",
+            , "T", "price", "change", "pct", "bid_vol", "bid_val", "ask_vol", "ask_val",
             "unknown_vol", "unknown_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "busd_vol",
-            "busd_val", "bid_vol", "bid_val", "ask_vol", "ask_val",
+            "busd_val",
         ]
         // if ($.fn.DataTable.isDataTable('#myTable')) {
         //     $('#myTable').DataTable().destroy();
@@ -566,7 +671,7 @@
             }
         );
 
-        async function updateChart(combineChart,data) {
+        async function updateChart(combineChart, data) {
             combineChart.data.labels = data.data.map(e => e.time)
             combineChart.data.datasets[0].data = data.data.map(e => e.price)
             combineChart.data.datasets[1].data = data.data.map(e => {
@@ -582,22 +687,29 @@
             combineChart.data.datasets[5].data = data.data.map(e => e.ask_val)
             combineChart.update();
         }
-        function updateDataTable() {
 
+        let timeout = 0;
+        let lastMd5 = ''
+        let lastAJAX = 0
+        function updateDataTable() {
+            if (Date.now() - lastAJAX <= timeout) {
+                return;
+            }
             $.ajax({
                 url: `/api/symboldetail?symbols=${symbols}`,
                 method: 'GET',
                 success: function (response) {
+     
                     if (response.length == 0) {
                         return;
                     }
                     let dataAll = [];
                     let statsAll = []
-                    response.forEach(e => {
-                        updateChart(mapChart[e.symbol],e)
+                    response.data.forEach(e => {
+                        updateChart(mapChart[e.symbol], e)
                         e.data.forEach(r => {
                             dataAll.push(r);
-                            
+
                         })
                         // console.table(dataAll)
                         statsAll.push(e.dataacum);
@@ -610,6 +722,18 @@
                     var statstable = $('#statsTable').DataTable();
                     statstable.clear();
                     statstable.rows.add(statsAll).draw()
+                    lastAJAX = Date.now()
+                    if (lastMd5 == response.md5) {
+                        timeout += 1000
+                        if (timeout >= 10000) {
+                            timeout = 10000;
+                            console.log('Timeout ', timeout, 'md5', response.md5)
+                        }
+                    } else {
+                        timeout = 0;
+                    }
+                    // console.table(response)
+                    lastMd5 = response.md5
                 },
                 error: function (error) {
                     console.error('Error fetching updated data:', error);

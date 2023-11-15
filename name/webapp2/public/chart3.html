@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Dynamic Chart Example</title>
+    <title>VNINDEX Chart</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 
@@ -81,10 +81,49 @@
             justify-content: center;
         }
 
-        #combineDiv {
+        /* #combineDiv {
             display: flex;
             justify-content: center;
+        } */
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            /* Cho phép các ô chuyển hàng khi không đủ không gian */
+            justify-content: center;
         }
+
+        .flex-item3 {
+            flex: 0 0 calc(33.33% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }
+        .flex-item2 {
+            flex: 0 0 calc(38% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }
+        .flex-item1 {
+            flex: 0 0 calc(100% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }  
+        .flex-itemOne {
+            flex: 0 0 calc(80% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }        
     </style>
 </head>
 
@@ -92,16 +131,16 @@
     <br />
     <br />
     <br />
-    <div id="chartcontainer" style="width: 100%; margin: 0 auto; height: 500px;">
-        <div id="vnindex" style="width: 45%; margin: 0 auto; height: 500px;">
+    <div id="chartcontainer" class="flex-container">
+        <div id="vnindex" class="flex-item2">
             <canvas id="myChart"></canvas>
         </div>
-        <div id="busd" style="width: 45%; margin: 0 auto; height: 500px;">
+        <div id="busd" class="flex-item2">
             <canvas id="line-chart"></canvas>
         </div>
     </div>
-    <div id="combineDiv" style="width: 100%; margin: 0 auto; height: 1024px;">
-        <canvas id="combineChart"></canvas>
+    <div id="combineDiv" class="flex-container">
+       <div class="flex-itemOne"><canvas id="combineChart"></canvas></div> 
     </div>
     <table>
         <caption style="font-size: x-large;">VNINDEX Thống kê cung cầu</caption>
@@ -222,7 +261,7 @@
                 datasets: [{
                     label: 'VNINDEX',
                     data: [],
-                    borderColor: 'purple',
+                    borderColor: 'Magenta',
                     backgroundColor: 'rgba(75, 192, 192, 0.2)'
                 }]
             },
@@ -296,7 +335,7 @@
                     lineTension: lineTension,
                     yAxisID: 'y-axis-vnindex',
                     data: [],
-                    borderColor: 'purple',
+                    borderColor: 'Magenta',
                     backgroundColor: 'rgba(75, 192, 192, 0.2)'
                 },
                 {
@@ -328,7 +367,7 @@
                     label: 'Đặt Mua',
                     lineTension: lineTension,
                     yAxisID: 'y-axis-dvalue',
-                    borderColor: 'yellow',
+                    borderColor: 'Olive',
                     data: Array(6).fill().map(() => Math.floor(Math.random() * 100)),
                     fill: false,
                 },

@@ -1,5 +1,6 @@
 const express = require('express');
 const http = require('http');
+const crypto = require('crypto');
 //, 'Flash Socket', 'AJAX long-polling'
 const socketIo = require('socket.io', {
   maxHttpBufferSize: 1e11, rememberTransport: false,
@@ -11,10 +12,12 @@ const io = socketIo(server);
 const numeral = require('numeral');
 const { map } = require('./symbols.js')
 
-// async function wpaf() {
-//     const wpa = require('./watchPendingApp.js');
-//     console.log("WPA",wpa)
-// }
+
+function generateMD5(input) {
+  const md5Hash = crypto.createHash('md5');
+  md5Hash.update(input);
+  return md5Hash.digest('hex');
+}
 
 
 
@@ -124,6 +127,7 @@ app.get('/api/getsymbolsdata2', (req, res) => {
     return e.data.data;
   })
   res.json({
+    md5: generateMD5(JSON.stringify(jsdata)),
     data: jsdata,
     recordsTotal: jsdata.length,
     recordsFiltered: jsdata.length
@@ -163,7 +167,9 @@ app.get('/api/symboldetail', (req, res) => {
       recordsFiltered: jsdata.length
     }
   })
-  res.json(out);
+
+  let md5 = generateMD5(JSON.stringify(out))
+  res.json({md5:md5,data:out});
 });
 
 async function serverX() {
