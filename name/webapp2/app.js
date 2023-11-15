@@ -34,7 +34,7 @@ for (let i = 1; i <= 10; i++) {
   });
 }
 
-enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline']
+enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti']
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
     res.sendFile(__dirname + `/public/${ep}.html`);
@@ -151,14 +151,14 @@ app.get('/api/symboldetail', (req, res) => {
   let out = symbols.map(s => {
     let jsdata = []
     let dataacum = []
-    if (symbolDataSeries[s]) { 
-      jsdata = Object.values(symbolDataSeries[s]).filter(k=>k!= 'dataacum')
+    if (symbolDataSeries[s]) {
+      jsdata = Object.keys(symbolDataSeries[s]).filter(k => k != 'dataacum').map(e=>symbolDataSeries[s][e])
       dataacum = symbolDataSeries[s].dataacum
     }
     return {
       symbol: s,
       data: jsdata,
-      dataacum:dataacum,      
+      dataacum: dataacum,
       recordsTotal: jsdata.length,
       recordsFiltered: jsdata.length
     }
@@ -207,7 +207,7 @@ function emitData(data) {
     // countSymbol++;
     if (!symbolDataSeries[data.data.symbol]) symbolDataSeries[data.data.symbol] = {}
     symbolDataSeries[data.data.symbol][data.data.time] = data.data
-    symbolDataSeries[data.data.symbol].dataacum = data.dataacum    
+    symbolDataSeries[data.data.symbol].dataacum = data.dataacum
   }
 }
 

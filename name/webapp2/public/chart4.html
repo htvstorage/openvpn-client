@@ -332,7 +332,7 @@
                         let data = response.data.map(e => { return [...e] })
                         data.forEach(e => {
                             e.forEach((v, i) => {
-                                if (i >= 3 && v)
+                                if (i >= 6 && v)
                                     e[i] = numeral(v).format('0,0');
                             })
                         })
