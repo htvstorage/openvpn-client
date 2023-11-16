@@ -373,7 +373,7 @@
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
                         borderWidth: 2, // Kích thước của đường
-                        hidden: (!esell || esell == 'true') ? false : true                                                
+                        hidden: (!esell || esell == 'true') ? false : true
                     },
                     {
                         label: 'Đặt Mua',
@@ -385,7 +385,7 @@
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
                         borderWidth: 2, // Kích thước của đường
-                        hidden: (!eorderbuy || eorderbuy == 'true') ? false : true  
+                        hidden: (!eorderbuy || eorderbuy == 'true') ? false : true
                     },
                     {
                         label: 'Đặt Bán',
@@ -397,7 +397,7 @@
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
                         borderWidth: 2, // Kích thước của đường
-                        hidden: (!eordersell || eordersell == 'true') ? false : true                          
+                        hidden: (!eordersell || eordersell == 'true') ? false : true
                     },
                 ],
             };
@@ -475,17 +475,11 @@
             "unknown_vol", "unknown_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "busd_vol",
             "busd_val",
         ]
-        // if ($.fn.DataTable.isDataTable('#myTable')) {
-        //     $('#myTable').DataTable().destroy();
-        // }
+
         $.fn.dataTable.ext.errMode = 'none';
 
         $('#myTable').DataTable(
             {
-                // ajax: {
-                //     url: '/api/symboldetail', // Replace with your API endpoint
-                //     dataSrc: 'data' // If your data is an array at the root level of the JSON response
-                // },
                 fixedHeader: {
                     // header: true,
                     // footer: true
@@ -698,13 +692,6 @@
 
 
     </script>
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        // Use jQuery to load the sidebar from sidebar.html
-        $(document).ready(function () {
-            $('#sidebarContainer').load('sidebar.html');
-        });
-    </script>     -->
 </body>
 
 </html>

@@ -100,6 +100,8 @@
                 <th>'Val BánCĐ'</th>
                 <th>'Vol KoXĐ'</th>
                 <th>'Val KoXĐ'</th>
+                <th>'Vol Tổng'</th>
+                <th>'Val Tổng'</th>
                 <th>'Vol Mua-Bán'</th>
                 <th>'Val Mua-Bán'</th>
             </tr>
@@ -134,6 +136,8 @@
                 <th>'Val BánCĐ'</th>
                 <th>'Vol KoXĐ'</th>
                 <th>'Val KoXĐ'</th>
+                <th>'Vol Tổng'</th>
+                <th>'Val Tổng'</th>
                 <th>'Vol Mua-Bán'</th>
                 <th>'Val Mua-Bán'</th>
             </tr>
@@ -193,7 +197,16 @@
 
                 ajax: {
                     url: '/api/getsymbolsdata2', // Replace with your API endpoint
-                    dataSrc: 'data' // If your data is an array at the root level of the JSON response
+                    // dataSrc: 'data' // If your data is an array at the root level of the JSON response
+                    dataSrc: function (res) {
+                        console.log(res)
+                        let data = res.data.map(e => {
+                            let t = e[10] + e[12] + e[14]
+                            let tv = e[11] + e[13] + e[15]
+                            return [...e.slice(0, e.length - 2), t, tv, e.at(-2), e.at(-1)]
+                        })
+                        return data;
+                    }
                 },
                 fixedHeader: {
                     // header: true,
@@ -337,7 +350,11 @@
                     success: function (response) {
                         var table = $('#symbolTable').DataTable();
                         table.clear();
-                        let data = response.data.map(e => { return [...e] })
+                        let data = response.data.map(e => {
+                            let t = e[10] + e[12] + e[14]
+                            let tv = e[11] + e[13] + e[15]
+                            return [...e.slice(0, e.length - 2), t, tv, e.at(-2), e.at(-1)]
+                        })
                         data.forEach(e => {
                             e.forEach((v, i) => {
                                 if (i >= 6 && v)
@@ -376,12 +393,20 @@
                                     e.forEach((v, i) => {
                                         if (i <= 5) a[i] = v
                                         else {
-                                            a[i] = numeral(v - e1[i]).format('0,0')
+                                            // a[i] = numeral(v - e1[i]).format('0,0')
+                                            a[i] = v - e1[i]
                                         }
                                     });
                                 } else { //Neu khong co thi tinh theo moi nhat
                                     a = e;
                                 }
+
+                                let t = a[10] + a[12] + a[14]
+                                let tv = a[11] + a[13] + a[15]
+                                a = [...a.slice(0, a.length - 2), t, tv, a.at(-2), a.at(-1)]
+                                a.forEach((v, i) => {
+                                    if (i >= 6) a[i] = numeral(v).format('0,0')
+                                })
                                 c2[e[0]] = a
 
                                 // if (e[0] == 'DXG') console.table({ 'a': a, 'e1': e1, 'e': e })
