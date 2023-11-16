@@ -259,6 +259,13 @@
             symbolsa = symbols.split(',')
         }
 
+        var eprice = queryParams.get('price');
+        var etotal = queryParams.get('total');
+        var ebuy = queryParams.get('buy');
+        var esell = queryParams.get('sell');
+        var eorderbuy = queryParams.get('orderbuy');
+        var eordersell = queryParams.get('ordersell');
+
         let combineDivContainer = document.getElementById('combineDiv')
         var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         let flex = "flex-item2"
@@ -273,12 +280,10 @@
             flex = "flex-itemOne"
         }
         if (combineDivContainer) {
-            let innerHTML = '';//'<canvas id="' + 'BEGIN' + 'Chart" style="width: 20%; margin: 0 auto;"></canvas>'
-            // innerHTML += '<div class="grid-item"><canvas id="' + 'BEGIN' + 'Chart" style="width: 20%; margin: 0 auto;"></canvas></div>'
+            let innerHTML = '';
             symbolsa.forEach(symbol => {
                 innerHTML += '<div class="' + flex + '"><canvas id="' + symbol + 'Chart" style="width: 100%; margin: 0 auto;"></canvas></div>'
             })
-            // innerHTML += '<canvas id="' + 'ENDED' + 'Chart" style="width: 20%; margin: 0 auto;"></canvas>'
             combineDivContainer.innerHTML = innerHTML;
         }
 
@@ -314,76 +319,6 @@
             }
         };
 
-        // var ctx = document.getElementById('myChart').getContext('2d');
-        // var chart = new Chart(ctx, {
-        //     type: 'line',
-        //     data: {
-        //         labels: [],
-        //         datasets: [{
-        //             label: 'VNINDEX',
-        //             data: [],
-        //             borderColor: 'purple',
-        //             backgroundColor: 'rgba(75, 192, 192, 0.2)'
-        //         }]
-        //     },
-        //     options: {
-        //         scales: {
-        //             y: {
-        //                 beginAtZero: false,
-        //                 suggestedMin: 2000,  // Bắt đầu từ 999
-        //             }
-        //         }, plugins: {
-        //             zoom: zoomOptions,
-        //         }
-        //     }
-        // });
-
-        // const ctxLineChart = document.getElementById('line-chart').getContext('2d');
-        // const data = {
-        //     labels: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00'],
-        //     datasets: [
-        //         {
-        //             label: 'Tổng',
-        //             borderColor: 'blue',
-        //             data: [65, 59, 80, 81, 56, 55],
-        //             fill: false,
-        //             hidden: true // Ẩn đường này mặc định
-        //         },
-        //         {
-        //             label: 'MuaCĐ',
-        //             borderColor: 'green',
-        //             data: [28, 48, 40, 19, 86, 27],
-        //             fill: false,
-        //         },
-        //         {
-        //             label: 'BánCĐ',
-        //             borderColor: 'red',
-        //             data: [45, 68, 58, 33, 72, 47],
-        //             fill: false,
-        //         },
-        //     ],
-        // };
-        // const config = {
-        //     type: 'line', // Đây là loại biểu đồ đường (line chart)
-        //     data: data,
-        //     options: {
-        //         scales: {
-        //             x: {
-        //                 beginAtZero: true,
-        //             },
-        //             y: {
-        //                 beginAtZero: false,
-        //                 suggestedMin: 1000000000000,  // Bắt đầu từ 999
-        //             },
-        //         },
-        //         plugins: {
-        //             zoom: zoomOptions,
-        //         }
-        //     },
-
-        // };
-        // var myChart = new Chart(ctxLineChart, config);
-
         function createChart(symbol) {
             //combineChart
             const ctxCombineChart = document.getElementById(symbol + 'Chart').getContext('2d');
@@ -401,6 +336,7 @@
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
                         borderWidth: 2, // Kích thước của đường
+                        hidden: (!eprice || eprice == 'true') ? false : true
 
                     },
                     {
@@ -425,6 +361,7 @@
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
                         borderWidth: 2, // Kích thước của đường
+                        hidden: (!ebuy || ebuy == 'true') ? false : true
                     },
                     {
                         label: 'BánCĐ',
@@ -435,7 +372,8 @@
                         fill: false,
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
-                        borderWidth: 2, // Kích thước của đường                        
+                        borderWidth: 2, // Kích thước của đường
+                        hidden: (!esell || esell == 'true') ? false : true                                                
                     },
                     {
                         label: 'Đặt Mua',
@@ -447,6 +385,7 @@
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
                         borderWidth: 2, // Kích thước của đường
+                        hidden: (!eorderbuy || eorderbuy == 'true') ? false : true  
                     },
                     {
                         label: 'Đặt Bán',
@@ -457,7 +396,8 @@
                         fill: false,
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
-                        borderWidth: 2, // Kích thước của đường                        
+                        borderWidth: 2, // Kích thước của đường
+                        hidden: (!eordersell || eordersell == 'true') ? false : true                          
                     },
                 ],
             };
@@ -568,7 +508,11 @@
                         targets: [3, 4],
                         render: function (data, type, row, meta) {
                             if (type === 'display') {
-                                data = numeral(data).format('0,0');
+                                if (Number.isInteger(data)) {
+                                    data = numeral(data).format('0,0');
+                                } else {
+                                    data = numeral(data).format('0,0.00');
+                                }
                             }
                             return data;
                         }
@@ -651,7 +595,11 @@
                         targets: [3, 4],
                         render: function (data, type, row, meta) {
                             if (type === 'display') {
-                                data = numeral(data).format('0,0');
+                                if (Number.isInteger(data)) {
+                                    data = numeral(data).format('0,0');
+                                } else {
+                                    data = numeral(data).format('0,0.00');
+                                }
                             }
                             return data;
                         }
@@ -699,7 +647,7 @@
                 url: `/api/symboldetail?symbols=${symbols}`,
                 method: 'GET',
                 success: function (response) {
-     
+
                     if (response.length == 0) {
                         return;
                     }
