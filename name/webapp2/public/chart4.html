@@ -227,6 +227,20 @@
                             return data;
                         }
                     }],
+
+                "rowCallback": function (row, data, index) {
+                    if ((data[5] < 0)) {
+                        // $(row).css('background-color', 'red');                
+                        $('td:eq(5)', row).css('background-color', 'red');
+                    }
+                    else if ((data[5] > 0)) {
+                        // $(row).css('background-color', 'green');
+                        $('td:eq(5)', row).css('background-color', 'limegreen');
+                    } else {
+                        // $(row).css('background-color', 'yellow');
+                        $('td:eq(5)', row).css('background-color', 'yellow');
+                    }
+                },
                 processing: true,
                 ordering: true,
                 scroller: true,
