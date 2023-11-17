@@ -524,6 +524,19 @@
                 columns: [
                     ...fields.map(e => { return { data: e, orderable: true } })
                 ],
+                rowCallback: function (row, data, index) {                    
+                    if ((data['pct'] < 0)) {
+                        // $(row).css('background-color', 'red');                
+                        $('td:eq(5)', row).css('background-color', 'red');
+                    }
+                    else if ((data['pct'] > 0)) {
+                        // $(row).css('background-color', 'green');
+                        $('td:eq(5)', row).css('background-color', 'limegreen');
+                    } else {
+                        // $(row).css('background-color', 'yellow');
+                        $('td:eq(5)', row).css('background-color', 'yellow');
+                    }
+                },
                 order: [[2, 'desc']],
                 processing: true,
                 ordering: true,
@@ -610,6 +623,20 @@
                 columns: [
                     ...fields.map(e => { return { data: e, orderable: true } })
                 ],
+                rowCallback: function (row, data, index) {
+                    if ((data['pct'] < 0)) {
+                        // $(row).css('background-color', 'red');                
+                        $('td:eq(5)', row).css('background-color', 'red');
+                    }
+                    else if ((data['pct'] > 0)) {
+                        // $(row).css('background-color', 'green');
+                        $('td:eq(5)', row).css('background-color', 'limegreen');
+                    } else {
+                        // $(row).css('background-color', 'yellow');
+                        $('td:eq(5)', row).css('background-color', 'yellow');
+                    }
+                },
+
             }
         );
 
