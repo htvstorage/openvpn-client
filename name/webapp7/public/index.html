@@ -1,0 +1,47 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Master Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <button id="toggleSidebar">Toggle Sidebar</button>
+        <div class="overlay" id="overlay"></div>
+        <ul>
+            <li><a href="/chart3">VNINDEX</a></li>
+            <li><a href="/chart4">BySellSymbols</a></li>
+            <li><a href="/timeline?symbols=MSN">timeline</a></li>
+            <li><a href="/timelinemulti?symbols=NVL,VCI,DXG,DIG,PDR,NLG">NVL,VCI,DXG,DIG,PDR,NLG</a></li>
+            <!-- Add links for other charts -->
+    </ul>
+    </div>
+
+    <!-- Placeholder for the sidebar -->
+    <div id="sidebarContainer"></div>
+
+    <!-- <object data="sidebar.html" class="sidebar-frame"></object>     -->
+
+    <div id="chart-container"></div>
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+        integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.socket.io/socket.io-4.0.1.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // var socket = io(); // Connect to the WebSocket server
+    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Use jQuery to load the sidebar from sidebar.html
+        $(document).ready(function () {
+            $('#sidebarContainer').load('sidebar.html');
+        });
+    </script> -->
+</body>
+
+</html>
