@@ -121,6 +121,11 @@ app.get('/api/getcountsymbols', (req, res) => {
 });
 
 
+app.get('/api/sector', (req, res) => {
+  res.json(groupDataSeries);
+});
+
+
 app.get('/api/getsymbolsdata2', (req, res) => {
   console.log(`Req url`, req.url)
   let jsdata = Object.values(lastSymbolData).map(e => {
@@ -156,7 +161,7 @@ app.get('/api/symboldetail', (req, res) => {
     let jsdata = []
     let dataacum = []
     if (symbolDataSeries[s]) {
-      jsdata = Object.keys(symbolDataSeries[s]).filter(k => k != 'dataacum').map(e=>symbolDataSeries[s][e])
+      jsdata = Object.keys(symbolDataSeries[s]).filter(k => k != 'dataacum').map(e => symbolDataSeries[s][e])
       dataacum = symbolDataSeries[s].dataacum
     }
     return {
@@ -169,7 +174,7 @@ app.get('/api/symboldetail', (req, res) => {
   })
 
   let md5 = generateMD5(JSON.stringify(out))
-  res.json({md5:md5,data:out});
+  res.json({ md5: md5, data: out });
 });
 
 async function serverX() {
@@ -190,6 +195,7 @@ let countSymbol = 0;
 let countUpdate = 0;
 let lastSymbolData = {}
 let symbolDataSeries = {}
+let groupDataSeries = {}
 
 worker.on("message", (data) => {
   emitData(data)
@@ -214,6 +220,16 @@ function emitData(data) {
     if (!symbolDataSeries[data.data.symbol]) symbolDataSeries[data.data.symbol] = {}
     symbolDataSeries[data.data.symbol][data.data.time] = data.data
     symbolDataSeries[data.data.symbol].dataacum = data.dataacum
+  } else if (data.type == '3') {
+    // countSymbol++;
+    if (!groupDataSeries[data.data.name]) groupDataSeries[data.data.name] = {}
+    groupDataSeries[data.data.name][data.data.time] = data.data
+    groupDataSeries[data.data.name].dataacum = data.dataacum
+  }else if (data.type == '4') {
+    // countSymbol++;
+    if (!groupDataSeries[data.data.name]) groupDataSeries[data.data.name] = {}
+    groupDataSeries[data.data.name][data.data.time] = data.data
+    groupDataSeries[data.data.name].dataacum = data.dataacum
   }
 }
 
