@@ -214,6 +214,7 @@ class PriceModel {
   board = {}
   stat = {}
   BIDASK = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
+  IndexBIDASK = {}
   data = [];
   lastDataLength = 0
   lastData = []
@@ -308,16 +309,17 @@ class PriceModel {
       if (!Number.isNaN(diff.ask.val))
         this.BIDASK[sectorName].ask.val += diff.ask.val
 
-      if (!this.BIDASK[index]) this.BIDASK[index] = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
-
+  
+      if (!this.IndexBIDASK[index]) this.IndexBIDASK[index] = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
+      // console.log(index,this.BIDASK[index])
       if (!Number.isNaN(diff.bid.vol))
-        this.BIDASK[index].bid.vol += diff.bid.vol
+        this.IndexBIDASK[index].bid.vol += diff.bid.vol
       if (!Number.isNaN(diff.bid.val))
-        this.BIDASK[index].bid.val += diff.bid.val
+        this.IndexBIDASK[index].bid.val += diff.bid.val
       if (!Number.isNaN(diff.ask.vol))
-        this.BIDASK[index].ask.vol += diff.ask.vol
+        this.IndexBIDASK[index].ask.vol += diff.ask.vol
       if (!Number.isNaN(diff.ask.val))
-        this.BIDASK[index].ask.val += diff.ask.val
+        this.IndexBIDASK[index].ask.val += diff.ask.val
 
       if (stock[symbol] != "hose") {
         return;
@@ -477,11 +479,11 @@ class PriceModel {
         }
       }
     } else {
-      vt[index] = this.BIDASK[index]
-      vt["bid_vol"] = this.BIDASK[index]["bid"].vol
-      vt["bid_val"] = this.BIDASK[index]["bid"].val
-      vt["ask_vol"] = this.BIDASK[index]["ask"].vol
-      vt["ask_val"] = this.BIDASK[index]["ask"].val
+      // vt[index] = this.BIDASK[index]
+      // vt["bid_vol"] = this.BIDASK[index]["bid"].vol
+      // vt["bid_val"] = this.BIDASK[index]["bid"].val
+      // vt["ask_vol"] = this.BIDASK[index]["ask"].vol
+      // vt["ask_val"] = this.BIDASK[index]["ask"].val
     }
 
 
@@ -518,16 +520,16 @@ class PriceModel {
     let indexStatsDetail = {
       name: index, time: time, T: timeX, ...flattenObject(ipt)
     }
-    if (this.BIDASK[index]) {
-      indexStats.bid_vol = this.BIDASK[index]["bid"].vol
-      indexStats.bid_val = this.BIDASK[index]["bid"].val
-      indexStats.ask_vol = this.BIDASK[index]["ask"].vol
-      indexStats.ask_val = this.BIDASK[index]["ask"].val
+    if (this.IndexBIDASK[index]) {
+      indexStats.bid_vol = this.IndexBIDASK[index]["bid"].vol
+      indexStats.bid_val = this.IndexBIDASK[index]["bid"].val
+      indexStats.ask_vol = this.IndexBIDASK[index]["ask"].vol
+      indexStats.ask_val = this.IndexBIDASK[index]["ask"].val
 
-      indexStatsDetail.bid_vol = this.BIDASK[index]["bid"].vol
-      indexStatsDetail.bid_val = this.BIDASK[index]["bid"].val
-      indexStatsDetail.ask_vol = this.BIDASK[index]["ask"].vol
-      indexStatsDetail.ask_val = this.BIDASK[index]["ask"].val
+      indexStatsDetail.bid_vol = this.IndexBIDASK[index]["bid"].vol
+      indexStatsDetail.bid_val = this.IndexBIDASK[index]["bid"].val
+      indexStatsDetail.ask_vol = this.IndexBIDASK[index]["ask"].vol
+      indexStatsDetail.ask_val = this.IndexBIDASK[index]["ask"].val
     }
 
 
@@ -690,7 +692,7 @@ class PriceModel {
         )
       }
 
-
+      // console.table(stats)
       if (parentPort)
         parentPort.postMessage({ data: null, timeline: timeline, stats: stats, type: '0' });
     }
