@@ -254,7 +254,7 @@ class PriceModel {
       let sectorName = 'OtherSector'
       if (stockStore[symbol]) sectorName = stockStore[symbol].SectorName;
       // else
-        // console.log(symbol)
+      // console.log(symbol)
 
       let index = '';
       if (stock[symbol] == "hose") index = 'VNINDEX'
@@ -309,9 +309,18 @@ class PriceModel {
       if (!Number.isNaN(diff.ask.val))
         this.BIDASK[sectorName].ask.val += diff.ask.val
 
-  
-      if (!this.IndexBIDASK[index]) this.IndexBIDASK[index] = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
-      // console.log(index,this.BIDASK[index])
+        if (!this.BIDASK[sectorName]) this.BIDASK[sectorName] = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
+        if (!Number.isNaN(diff.bid.vol))
+          this.BIDASK[sectorName].bid.vol += diff.bid.vol
+        if (!Number.isNaN(diff.bid.val))
+          this.BIDASK[sectorName].bid.val += diff.bid.val
+        if (!Number.isNaN(diff.ask.vol))
+          this.BIDASK[sectorName].ask.vol += diff.ask.vol
+        if (!Number.isNaN(diff.ask.val))
+          this.BIDASK[sectorName].ask.val += diff.ask.val        
+
+
+      if (!this.IndexBIDASK[index]) this.IndexBIDASK[index] = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }      
       if (!Number.isNaN(diff.bid.vol))
         this.IndexBIDASK[index].bid.vol += diff.bid.vol
       if (!Number.isNaN(diff.bid.val))
@@ -793,3 +802,6 @@ let stockStore = {};
   })
   console.log("Loaded stockStore!")
 })();
+
+
+let larger=["VCB","BID","GAS","VHM","VIC","HPG","VPB","VNM","CTG","FPT","TCB","MBB","MSN","ACB","SAB","GVR","BCM","MWG","BSR","MCH","VJC","SSB","STB","HDB","VRE","SSI","VIB","VEA","PLX","SHB","TPB","DGC","EIB","NVL","LPB","BVH","OCB","POW","MSB","PNJ","VND","KDH","FOX","KBC","PGV","HVN","VGC","REE","GMD","PDR","GEX","VCI","HUT","PVS","IDC","DCM","KDC","DIG","NAB","IDP","PVD","SHS","NLG","THD","FRT","DHG","HCM","HSG","VPI","VHC","DPM","VCG","DXG","KSF","CEO","EVF","VIX","LGC","BAB","PVI","VSH","SBT","BHN","CTR","MBS","VCS","FTS","BSI","HAG","TCH","HDG","DGW","BWE","PC1","KOS","PVT","DTK","BMP","SJS","CMG"]
