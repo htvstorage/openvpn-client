@@ -21,10 +21,15 @@
 //   var rsi = RSI.calculate(inputRSI);
 //   avg.rsi = rsi.at(checkDate)
 
-import numeral from "numeral";
-const money = 123457891999.67;
+// import numeral from "numeral";
+// const money = 123457891999.67;
 
 // Định dạng số tiền
-const formattedMoney = numeral(money).format('0,0');
+// const formattedMoney = numeral(money).format('0,0');
 
-console.log(formattedMoney)
+// console.log(formattedMoney)
+
+
+import { Exchange } from "./Exchange.js";
+
+Exchange.GStock.stocks()

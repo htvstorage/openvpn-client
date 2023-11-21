@@ -65,8 +65,6 @@ let stockStore = {};
   console.log("Loaded stockStore!")
 })();
 
-
-
 await (async function tradinginfo() {
   console.log("TradingInfo")
   let data = []
