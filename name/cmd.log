@@ -320,3 +320,8 @@ I believe that one of those will fit your need
 2 - Undo commit and unstage all files: git reset HEAD~
 
 3 - Undo the commit and completely remove all changes: git reset --hard HEAD~
+
+
+{ req: 2030000, res: 2030000, total: 2039494 } 858735 858735
+DMS
+BHI
