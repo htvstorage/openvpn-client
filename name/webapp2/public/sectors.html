@@ -59,6 +59,15 @@
         th {
             background-color: #f2f2f2;
         }
+
+        #symbolTable {
+            margin: 0 auto;
+            width: 100%;
+            clear: both;
+            border-collapse: collapse;
+            table-layout: fixed; 
+            word-wrap: break-word; 
+        }
     </style>
     <style>
         /* CSS for limiting the number of rows and adding a vertical scroll */
@@ -84,8 +93,8 @@
     <table id="symbolTable" class="display">
         <thead id="symbolHeadTable">
             <tr>
-                <th>'Mã'</th>                  
-                <th>'       Tên     '</th>
+                <th>'Mã'</th>
+                <th>' Tên '</th>
                 <th>'Thời gian'</th>
                 <th>'T'</th>
                 <th>'Vol Đặt Mua'</th>
@@ -118,8 +127,8 @@
     <table id="symbolChangeTable" class="display">
         <thead id="symbolChangeHeadTable">
             <tr>
-                <th>'Mã'</th>                
-                <th>'       Tên     '</th>
+                <th>'Mã'</th>
+                <th>' Tên '</th>
                 <th>'Thời gian'</th>
                 <th>'T'</th>
                 <th>'Vol Đặt Mua'</th>
@@ -151,7 +160,7 @@
 
     </table>
     <script>
-
+        $.fn.dataTable.ext.errMode = 'none';
         const url = new URL(window.location.href);
         const queryParams = url.searchParams;
         var interval = queryParams.get('interval');
@@ -187,9 +196,11 @@
         //     theadRow.appendChild(th);
         // }
 
-        let fields = ["code","name",  "time"
+        let fields = ["code", "name", "time"
             , "T", "bid_vol", "bid_val", "ask_vol", "ask_val",
-            "unknown_vol", "unknown_val", "bu_vol", "bu_val", "sd_vol", "sd_val",
+            "bu_vol", "bu_val", "sd_vol", "sd_val", "unknown_vol", "unknown_val",
+            "total_vol",
+            "total_val",
             "busd_vol",
             "busd_val",
         ]
@@ -201,15 +212,15 @@
                     url: '/api/getsectordata', // Replace with your API endpoint
                     // dataSrc: 'data' // If your data is an array at the root level of the JSON response
                     dataSrc: function (res) {
-                        console.log(res)
+                        // console.log(res)
                         let data = res.data.map(e => {
-                            // let t = e[10] + e[12] + e[14]
-                            // let tv = e[11] + e[13] + e[15]
-                            // return [...e.slice(0, e.length - 2), t, tv, e.at(-2), e.at(-1)]
-                            if(e["bu_val"] && e["sd_val"]){
-                                e["busd_val"] = e["bu_val"] - e["sd_val"]
-                                e["busd_vol"] = e["bu_vol"] - e["sd_vol"]
+                            let v = (v) => {
+                                if (v) { return v } else return 0
                             }
+                            e["busd_val"] = v(e["bu_val"]) - v(e["sd_val"])
+                            e["busd_vol"] = v(e["bu_vol"]) - v(e["sd_vol"])
+                            e["total_vol"] = v(e["bu_vol"]) + v(e["sd_vol"]) + v(e["unknown_vol"])
+                            e["total_val"] = v(e["bu_val"]) + v(e["sd_val"]) + v(e["unknown_val"])
                             return e;
                         })
                         // data = data.slice(20,21)
@@ -228,15 +239,50 @@
                     ...fields.map(e => { return { data: e, orderable: true } })
                 ],
                 columnDefs: [
+                    { width: 200, targets: 1 },
+                    { visible: true, targets: 0 },
                     {
-                        targets: 0,
+                        targets: [1, 0],
                         render: function (data, type, row, meta) {
                             if (type === 'display') {
                                 data = '<a href="timeline?symbols=' + encodeURIComponent(row["code"]) + '"  target="_blank">' + data + '</a>';
                             }
                             return data;
                         }
-                    }],
+                    },
+                    {
+                        targets: Array.from({ length: 14 }, (_, index) => index + 4),
+                        render: function (data, type, row, meta) {
+                            if (type === 'display') {
+                                data = numeral(data).format('0,0');
+                            }
+                            return data;
+                        }
+                    },
+                    // {
+                    //     targets: [3, 4],
+                    //     render: function (data, type, row, meta) {
+                    //         if (type === 'display') {
+                    //             if (Number.isInteger(data)) {
+                    //                 data = numeral(data).format('0,0');
+                    //             } else {
+                    //                 data = numeral(data).format('0,0.00');
+                    //             }
+
+                    //         }
+                    //         return data;
+                    //     }
+                    // },
+                    // {
+                    //     targets: 5,
+                    //     render: function (data, type, row, meta) {
+                    //         if (type === 'display') {
+                    //             data = numeral(data).format('0,0.00');
+                    //         }
+                    //         return data;
+                    //     }
+                    // }
+                ],
 
                 "rowCallback": function (row, data, index) {
                     if ((data[5] < 0)) {
@@ -257,7 +303,7 @@
                 // scrollY: 200,
                 searching: true,
                 // serverSide: true,
-                lengthMenu: [10, 20, 50, 100, 200, 500, 2000],
+                lengthMenu: [30, 50, 100, 200, 500, 2000],
                 dom: 'lBfrtip',
                 buttons: [
                     'copy',
@@ -312,14 +358,47 @@
                                 }
                                 return data;
                             }
-                        }],
+                        },
+                        {
+                            targets: Array.from({ length: 14 }, (_, index) => index + 4),
+                            render: function (data, type, row, meta) {
+                                if (type === 'display') {
+                                    data = numeral(data).format('0,0');
+                                }
+                                return data;
+                            }
+                        },
+                        // {
+                        //     targets: [3, 4],
+                        //     render: function (data, type, row, meta) {
+                        //         if (type === 'display') {
+                        //             if (Number.isInteger(data)) {
+                        //                 data = numeral(data).format('0,0');
+                        //             } else {
+                        //                 data = numeral(data).format('0,0.00');
+                        //             }
+
+                        //         }
+                        //         return data;
+                        //     }
+                        // },
+                        // {
+                        //     targets: 5,
+                        //     render: function (data, type, row, meta) {
+                        //         if (type === 'display') {
+                        //             data = numeral(data).format('0,0.00');
+                        //         }
+                        //         return data;
+                        //     }
+                        // }
+                    ],
                     processing: true,
                     ordering: true,
                     scroller: true,
                     // scrollY: 200,
                     searching: true,
                     // serverSide: true,
-                    lengthMenu: [10, 20, 50, 100, 200, 500, 2000],
+                    lengthMenu: [30, 50, 100, 200, 500, 2000],
                     dom: 'lBfrtip',
                     buttons: [
                         'copy',
@@ -374,69 +453,70 @@
                     success: function (response) {
                         var table = $('#symbolTable').DataTable();
                         table.clear();
+                        console.table(response.data)
                         let data = response.data.map(e => {
-                            let t = e[10] + e[12] + e[14]
-                            let tv = e[11] + e[13] + e[15]
-                            return [...e.slice(0, e.length - 2), t, tv, e.at(-2), e.at(-1)]
-                        })
-                        data.forEach(e => {
-                            e.forEach((v, i) => {
-                                if (i >= 6 && v)
-                                    e[i] = numeral(v).format('0,0');
-                            })
-                        })
-                        table.rows.add(data).draw()
-                        let key = Math.floor(Date.now() / 1000 / interval);
-                        if (!lastChangeMap[key]) {
-                            lastChangeMap[key] = response.data;
-                            keepArray.push({ 'key': key, 'data': response.data })
-                            while (keepArray.length > 2) {
-                                let out = keepArray.shift();
-                                delete lastChangeMap[out.key]
+                            let v = (v) => {
+                                if (v) { return v } else return 0
                             }
-                        }
+                            e["busd_val"] = v(e["bu_val"]) - v(e["sd_val"])
+                            e["busd_vol"] = v(e["bu_vol"]) - v(e["sd_vol"])
+                            e["total_vol"] = v(e["bu_vol"]) + v(e["sd_vol"]) + v(e["unknown_vol"])
+                            e["total_val"] = v(e["bu_val"]) + v(e["sd_val"]) + v(e["unknown_val"])
+                            return e;
+                        })
 
-                        if (!lastSymbolChangeTable) {
-                            lastSymbolChangeTable = data;
-                            lastChange = Date.now()
-                            initSymbolChangeTable(data)
-                        } else {
-                            let lastSymbolChangeTable = keepArray[0].data
+                        table.rows.add(data).draw()
+                        // let key = Math.floor(Date.now() / 1000 / interval);
+                        // if (!lastChangeMap[key]) {
+                        //     lastChangeMap[key] = response.data;
+                        //     keepArray.push({ 'key': key, 'data': response.data })
+                        //     while (keepArray.length > 2) {
+                        //         let out = keepArray.shift();
+                        //         delete lastChangeMap[out.key]
+                        //     }
+                        // }
 
-                            var table = $('#symbolChangeTable').DataTable();
-                            table.clear();
-                            let c1 = {}
-                            lastSymbolChangeTable.forEach(e => {
-                                c1[e[0]] = e
-                            })
-                            let c2 = {}
-                            response.data.forEach(e => {
-                                let a = []
-                                e1 = c1[e[0]]
-                                if (e1) { //Neu co thi tinh sai biet
-                                    e.forEach((v, i) => {
-                                        if (i <= 5) a[i] = v
-                                        else {
-                                            // a[i] = numeral(v - e1[i]).format('0,0')
-                                            a[i] = v - e1[i]
-                                        }
-                                    });
-                                } else { //Neu khong co thi tinh theo moi nhat
-                                    a = e;
-                                }
+                        // if (!lastSymbolChangeTable) {
+                        //     lastSymbolChangeTable = data;
+                        //     lastChange = Date.now()
+                        //     initSymbolChangeTable(data)
+                        // } else {
+                        //     let lastSymbolChangeTable = keepArray[0].data
 
-                                let t = a[10] + a[12] + a[14]
-                                let tv = a[11] + a[13] + a[15]
-                                a = [...a.slice(0, a.length - 2), t, tv, a.at(-2), a.at(-1)]
-                                a.forEach((v, i) => {
-                                    if (i >= 6) a[i] = numeral(v).format('0,0')
-                                })
-                                c2[e[0]] = a
+                        //     var table = $('#symbolChangeTable').DataTable();
+                        //     table.clear();
+                        //     let c1 = {}
+                        //     lastSymbolChangeTable.forEach(e => {
+                        //         c1[e[0]] = e
+                        //     })
+                        //     let c2 = {}
+                        //     response.data.forEach(e => {
+                        //         let a = []
+                        //         e1 = c1[e[0]]
+                        //         if (e1) { //Neu co thi tinh sai biet
+                        //             e.forEach((v, i) => {
+                        //                 if (i <= 5) a[i] = v
+                        //                 else {
+                        //                     // a[i] = numeral(v - e1[i]).format('0,0')
+                        //                     a[i] = v - e1[i]
+                        //                 }
+                        //             });
+                        //         } else { //Neu khong co thi tinh theo moi nhat
+                        //             a = e;
+                        //         }
 
-                                // if (e[0] == 'DXG') console.table({ 'a': a, 'e1': e1, 'e': e })
-                            })
-                            table.rows.add(Object.values(c2)).draw()
-                        }
+                        //         let t = a[10] + a[12] + a[14]
+                        //         let tv = a[11] + a[13] + a[15]
+                        //         a = [...a.slice(0, a.length - 2), t, tv, a.at(-2), a.at(-1)]
+                        //         a.forEach((v, i) => {
+                        //             if (i >= 6) a[i] = numeral(v).format('0,0')
+                        //         })
+                        //         c2[e[0]] = a
+
+                        //         // if (e[0] == 'DXG') console.table({ 'a': a, 'e1': e1, 'e': e })
+                        //     })
+                        //     table.rows.add(Object.values(c2)).draw()
+                        // }
 
                         lastAJAX = Date.now()
                         if (lastMd5 == response.md5) {
@@ -459,7 +539,7 @@
             }
 
             // Update DataTable every 5 seconds (adjust as needed)
-            // setInterval(updateDataTable, 1000);
+            setInterval(updateDataTable, 1000);
         });
     </script>
 </body>
