@@ -4,7 +4,7 @@ const fs = require('fs')
 const moment = require('moment')
 const xlsx = require("xlsx")
 const numeral = require('numeral');
-const { map } = require('./symbols.js')
+const { map, map10, map20, largeCap, midCap, smallCap, mapCap } = require('./symbols.js')
 let ws = null;
 async function wss() {
   ws = new WebSocket('wss://iboard-pushstream.ssi.com.vn/realtime');
@@ -251,8 +251,9 @@ class PriceModel {
       let b = this.board;
 
 
-      let sectorName = 'OtherSector'
-      if (stockStore[symbol]) sectorName = stockStore[symbol].SectorName;
+      let sectorCode = '0000', sectorName = 'OtherSector'
+      // if (stockStore[symbol]) sectorName = stockStore[symbol].SectorName;
+      if (map20[symbol]) { sectorCode = map20[symbol].industryCode; sectorName = map20[symbol].vietnameseName }
       // else
       // console.log(symbol)
 
@@ -298,29 +299,30 @@ class PriceModel {
         diff.ask.val -= T.val
       }
 
+      let ALL = 'ALL'
 
-      if (!this.BIDASK[sectorName]) this.BIDASK[sectorName] = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
-      if (!Number.isNaN(diff.bid.vol))
-        this.BIDASK[sectorName].bid.vol += diff.bid.vol
-      if (!Number.isNaN(diff.bid.val))
-        this.BIDASK[sectorName].bid.val += diff.bid.val
-      if (!Number.isNaN(diff.ask.vol))
-        this.BIDASK[sectorName].ask.vol += diff.ask.vol
-      if (!Number.isNaN(diff.ask.val))
-        this.BIDASK[sectorName].ask.val += diff.ask.val
-
-        if (!this.BIDASK[sectorName]) this.BIDASK[sectorName] = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
+      let symbolCap = mapCap[symbol]
+      if (!mapCap[symbol]) symbolCap = 'MIDDLE'
+      let A = [ALL, sectorCode, symbolCap]
+      A.forEach(code => {
+        if (!this.BIDASK[code]) this.BIDASK[code] = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
         if (!Number.isNaN(diff.bid.vol))
-          this.BIDASK[sectorName].bid.vol += diff.bid.vol
+          this.BIDASK[code].bid.vol += diff.bid.vol
         if (!Number.isNaN(diff.bid.val))
-          this.BIDASK[sectorName].bid.val += diff.bid.val
+          this.BIDASK[code].bid.val += diff.bid.val
         if (!Number.isNaN(diff.ask.vol))
-          this.BIDASK[sectorName].ask.vol += diff.ask.vol
+          this.BIDASK[code].ask.vol += diff.ask.vol
         if (!Number.isNaN(diff.ask.val))
-          this.BIDASK[sectorName].ask.val += diff.ask.val        
+          this.BIDASK[code].ask.val += diff.ask.val
+        // console.log(code)
+        // console.table(this.BIDASK[code])
+      })
 
 
-      if (!this.IndexBIDASK[index]) this.IndexBIDASK[index] = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }      
+
+
+
+      if (!this.IndexBIDASK[index]) this.IndexBIDASK[index] = { bid: { vol: 0, val: 0 }, ask: { vol: 0, val: 0 } }
       if (!Number.isNaN(diff.bid.vol))
         this.IndexBIDASK[index].bid.vol += diff.bid.vol
       if (!Number.isNaN(diff.bid.val))
@@ -412,8 +414,9 @@ class PriceModel {
     let format = "HH:mm:ss"
     time = moment(time, format).format("HH:mm")
     let timeX = moment(time, "HH:mm").format("X")
-    let sectorName = 'OtherSector'
-    if (stockStore[symbol]) sectorName = stockStore[symbol].SectorName;
+    let sectorCode = '0000', sectorName = 'OtherSector'
+    // if (stockStore[symbol]) sectorName = stockStore[symbol].SectorName;
+    if (map20[symbol]) { sectorCode = map20[symbol].industryCode; sectorName = map20[symbol].vietnameseName }
     // console.log("TimeX", timeX)
 
     let index = '';
@@ -426,31 +429,45 @@ class PriceModel {
       }
     }
 
-    if (!this.stat[symbol]) this.stat[symbol] = { unknown: { vol: 0, val: 0 }, open: price, close: price, high: price, low: price }
-    if (!this.stat[index]) this.stat[index] = { unknown: { vol: 0, val: 0 } }
-    if (!this.stat["ALL"]) this.stat["ALL"] = { unknown: { vol: 0, val: 0 } }
-    if (!this.stat[symbol].T) this.stat[symbol].T = {}
-    if (!this.stat[index].T) this.stat[index].T = {}
-    if (!this.stat[symbol].T[time]) this.stat[symbol].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 }, open: price, close: price, high: price, low: price }
-    if (!this.stat[index].T[time]) this.stat[index].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 } }
+    let ALL = 'ALL';
+    let symbolCap = mapCap[symbol]
+    if (!mapCap[symbol]) symbolCap = 'MIDDLE'
 
-    if (!this.stat["ALL"].T) this.stat["ALL"].T = {}
-    if (!this.stat[sectorName]) this.stat[sectorName] = { unknown: { vol: 0, val: 0 } }
-    if (!this.stat[sectorName].T) this.stat[sectorName].T = {}
-    if (!this.stat[sectorName].T[time]) this.stat[sectorName].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 } }
-    if (!this.stat["ALL"].T[time]) this.stat["ALL"].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 } }
+    if (!this.stat[symbol]) this.stat[symbol] = { unknown: { vol: 0, val: 0 }, open: price, close: price, high: price, low: price }
+    if (!this.stat[symbol].T) this.stat[symbol].T = {}
+    if (!this.stat[symbol].T[time]) this.stat[symbol].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 }, open: price, close: price, high: price, low: price }
+    let A = [index, ALL, sectorCode, symbolCap]
+    A.forEach(code => {
+      if (!this.stat[code]) this.stat[code] = { unknown: { vol: 0, val: 0 } }
+      if (!this.stat[code].T) this.stat[code].T = {}
+      if (!this.stat[code].T[time]) this.stat[code].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 } }
+    })
+    // if (!this.stat[index]) this.stat[index] = { unknown: { vol: 0, val: 0 } }
+    // if (!this.stat[index].T) this.stat[index].T = {}
+    // if (!this.stat[index].T[time]) this.stat[index].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 } }
+
+    // if (!this.stat["ALL"]) this.stat["ALL"] = { unknown: { vol: 0, val: 0 } }
+    // if (!this.stat["ALL"].T) this.stat["ALL"].T = {}
+    // if (!this.stat["ALL"].T[time]) this.stat["ALL"].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 } }
+
+    // if (!this.stat[sectorCode]) this.stat[sectorCode] = { unknown: { vol: 0, val: 0 } }
+    // if (!this.stat[sectorCode].T) this.stat[sectorCode].T = {}
+    // if (!this.stat[sectorCode].T[time]) this.stat[sectorCode].T[time] = { VNINDEX: this.BIDASK["VNINDEX"], time: time, T: timeX, unknown: { vol: 0, val: 0 } }
+
+
     let all = this.stat["ALL"];
     let v = this.stat[index];
     let vt = this.stat[index].T[time];
     let b = this.stat[symbol];
     let bt = this.stat[symbol].T[time];
     let allt = this.stat["ALL"].T[time];
-    let s = this.stat[sectorName]
-    let st = this.stat[sectorName].T[time];
-
+    let s = this.stat[sectorCode]
+    let st = this.stat[sectorCode].T[time];
+    let g = this.stat[symbolCap]
+    let gt = this.stat[symbolCap].T[time];
 
     // let fa = stock[symbol] == "hose" ? [b, v, all, bt, vt, allt, s, st] : [b, all, bt, allt, s, st]
-    let fa = [b, v, all, bt, vt, allt, s, st]
+    let fa = [b, v, all, bt, vt, allt, s, st, g, gt]
     fa.forEach(e => {
       if (!e[slide]) {
         e[slide] = { vol: 0, val: 0 }
@@ -523,11 +540,11 @@ class PriceModel {
       ipt[k] = vt[k]
     })
     let indexStats = {
-      name: index, time: time, T: timeX, ...flattenObject(ip)
+      code: index, name: index, time: time, T: timeX, ...flattenObject(ip)
     }
 
     let indexStatsDetail = {
-      name: index, time: time, T: timeX, ...flattenObject(ipt)
+      code: index, name: index, time: time, T: timeX, ...flattenObject(ipt)
     }
     if (this.IndexBIDASK[index]) {
       indexStats.bid_vol = this.IndexBIDASK[index]["bid"].vol
@@ -543,6 +560,62 @@ class PriceModel {
 
 
 
+    let ap = {}
+    Object.keys(all).filter(k => k != 'T').forEach(k => {
+      ip[k] = all[k]
+    })
+    let apt = {}
+    Object.keys(allt).filter(k => k != 'T').forEach(k => {
+      ipt[k] = allt[k]
+    })
+    let allStats = {
+      code: 'ALL', name: 'ALL', time: time, T: timeX, ...flattenObject(ip)
+    }
+
+    let allStatsDetail = {
+      code: 'ALL', name: 'ALL', time: time, T: timeX, ...flattenObject(ipt)
+    }
+
+    if (this.BIDASK[ALL]) {
+      allStats.bid_vol = this.BIDASK[ALL]["bid"].vol
+      allStats.bid_val = this.BIDASK[ALL]["bid"].val
+      allStats.ask_vol = this.BIDASK[ALL]["ask"].vol
+      allStats.ask_val = this.BIDASK[ALL]["ask"].val
+
+      allStatsDetail.bid_vol = this.BIDASK[ALL]["bid"].vol
+      allStatsDetail.bid_val = this.BIDASK[ALL]["bid"].val
+      allStatsDetail.ask_vol = this.BIDASK[ALL]["ask"].vol
+      allStatsDetail.ask_val = this.BIDASK[ALL]["ask"].val
+    }
+
+
+    let gp = {}
+    Object.keys(g).filter(k => k != 'T').forEach(k => {
+      ip[k] = g[k]
+    })
+    let gpt = {}
+    Object.keys(gt).filter(k => k != 'T').forEach(k => {
+      ipt[k] = allt[k]
+    })
+    let groupStats = {
+      code: symbolCap, name: symbolCap, time: time, T: timeX, ...flattenObject(ip)
+    }
+
+    let groupStatsDetail = {
+      code: symbolCap, name: symbolCap, time: time, T: timeX, ...flattenObject(ipt)
+    }
+
+    if (this.BIDASK[symbolCap]) {
+      groupStats.bid_vol = this.BIDASK[symbolCap]["bid"].vol
+      groupStats.bid_val = this.BIDASK[symbolCap]["bid"].val
+      groupStats.ask_vol = this.BIDASK[symbolCap]["ask"].vol
+      groupStats.ask_val = this.BIDASK[symbolCap]["ask"].val
+      groupStatsDetail.bid_vol = this.BIDASK[symbolCap]["bid"].vol
+      groupStatsDetail.bid_val = this.BIDASK[symbolCap]["bid"].val
+      groupStatsDetail.ask_vol = this.BIDASK[symbolCap]["ask"].vol
+      groupStatsDetail.ask_val = this.BIDASK[symbolCap]["ask"].val
+    }
+
     let sp = {}
     Object.keys(s).filter(k => k != 'T').forEach(k => {
       sp[k] = s[k]
@@ -552,22 +625,22 @@ class PriceModel {
       spt[k] = st[k]
     })
     let sectorStats = {
-      name: sectorName, time: time, T: timeX, ...flattenObject(sp)
+      code: sectorCode, name: sectorName, time: time, T: timeX, ...flattenObject(sp)
     }
 
     let sectorStatsDetail = {
-      name: sectorName, time: time, T: timeX, ...flattenObject(spt)
+      code: sectorCode, name: sectorName, time: time, T: timeX, ...flattenObject(spt)
     }
-    if (this.BIDASK[sectorName]) {
-      sectorStats.bid_vol = this.BIDASK[sectorName]["bid"].vol
-      sectorStats.bid_val = this.BIDASK[sectorName]["bid"].val
-      sectorStats.ask_vol = this.BIDASK[sectorName]["ask"].vol
-      sectorStats.ask_val = this.BIDASK[sectorName]["ask"].val
+    if (this.BIDASK[sectorCode]) {
+      sectorStats.bid_vol = this.BIDASK[sectorCode]["bid"].vol
+      sectorStats.bid_val = this.BIDASK[sectorCode]["bid"].val
+      sectorStats.ask_vol = this.BIDASK[sectorCode]["ask"].vol
+      sectorStats.ask_val = this.BIDASK[sectorCode]["ask"].val
 
-      sectorStatsDetail.bid_vol = this.BIDASK[sectorName]["bid"].vol
-      sectorStatsDetail.bid_val = this.BIDASK[sectorName]["bid"].val
-      sectorStatsDetail.ask_vol = this.BIDASK[sectorName]["ask"].vol
-      sectorStatsDetail.ask_val = this.BIDASK[sectorName]["ask"].val
+      sectorStatsDetail.bid_vol = this.BIDASK[sectorCode]["bid"].vol
+      sectorStatsDetail.bid_val = this.BIDASK[sectorCode]["bid"].val
+      sectorStatsDetail.ask_vol = this.BIDASK[sectorCode]["ask"].vol
+      sectorStatsDetail.ask_val = this.BIDASK[sectorCode]["ask"].val
     }
 
     if (this.board[symbol]) {
@@ -580,10 +653,7 @@ class PriceModel {
       stats2.bid_vol = bid.vol
       stats2.bid_val = bid.val
       stats2.ask_vol = ask.vol
-      stats2.ask_val = ask.val
-
-      // console.table(bid)
-      // console.table(ask)      
+      stats2.ask_val = ask.val    
     }
 
     if (stats.bu_vol && stats.sd_vol) {
@@ -613,6 +683,8 @@ class PriceModel {
       parentPort.postMessage({ data: stats2, dataacum: stats, type: '2' });
       parentPort.postMessage({ data: sectorStatsDetail, dataacum: sectorStats, type: '3' });
       parentPort.postMessage({ data: indexStatsDetail, dataacum: indexStats, type: '4' });
+      parentPort.postMessage({ data: allStatsDetail, dataacum: allStats, type: '4' });
+      parentPort.postMessage({ data: groupStatsDetail, dataacum: groupStats, type: '4' });
     }
 
 
@@ -804,4 +876,4 @@ let stockStore = {};
 })();
 
 
-let larger=["VCB","BID","GAS","VHM","VIC","HPG","VPB","VNM","CTG","FPT","TCB","MBB","MSN","ACB","SAB","GVR","BCM","MWG","BSR","MCH","VJC","SSB","STB","HDB","VRE","SSI","VIB","VEA","PLX","SHB","TPB","DGC","EIB","NVL","LPB","BVH","OCB","POW","MSB","PNJ","VND","KDH","FOX","KBC","PGV","HVN","VGC","REE","GMD","PDR","GEX","VCI","HUT","PVS","IDC","DCM","KDC","DIG","NAB","IDP","PVD","SHS","NLG","THD","FRT","DHG","HCM","HSG","VPI","VHC","DPM","VCG","DXG","KSF","CEO","EVF","VIX","LGC","BAB","PVI","VSH","SBT","BHN","CTR","MBS","VCS","FTS","BSI","HAG","TCH","HDG","DGW","BWE","PC1","KOS","PVT","DTK","BMP","SJS","CMG"]
+let larger = ["VCB", "BID", "GAS", "VHM", "VIC", "HPG", "VPB", "VNM", "CTG", "FPT", "TCB", "MBB", "MSN", "ACB", "SAB", "GVR", "BCM", "MWG", "BSR", "MCH", "VJC", "SSB", "STB", "HDB", "VRE", "SSI", "VIB", "VEA", "PLX", "SHB", "TPB", "DGC", "EIB", "NVL", "LPB", "BVH", "OCB", "POW", "MSB", "PNJ", "VND", "KDH", "FOX", "KBC", "PGV", "HVN", "VGC", "REE", "GMD", "PDR", "GEX", "VCI", "HUT", "PVS", "IDC", "DCM", "KDC", "DIG", "NAB", "IDP", "PVD", "SHS", "NLG", "THD", "FRT", "DHG", "HCM", "HSG", "VPI", "VHC", "DPM", "VCG", "DXG", "KSF", "CEO", "EVF", "VIX", "LGC", "BAB", "PVI", "VSH", "SBT", "BHN", "CTR", "MBS", "VCS", "FTS", "BSI", "HAG", "TCH", "HDG", "DGW", "BWE", "PC1", "KOS", "PVT", "DTK", "BMP", "SJS", "CMG"]

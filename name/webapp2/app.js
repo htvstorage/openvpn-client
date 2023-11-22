@@ -37,7 +37,7 @@ for (let i = 1; i <= 10; i++) {
   });
 }
 
-enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti']
+enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti' , 'sectors']
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
     res.sendFile(__dirname + `/public/${ep}.html`);
@@ -139,6 +139,19 @@ app.get('/api/getsymbolsdata2', (req, res) => {
   });
 });
 
+app.get('/api/getsectordata', (req, res) => {
+  console.log(`Req url`, req.url)
+  let jsdata = Object.values(groupDataSeries).map(e => {
+    return e.dataacum;
+  })
+  res.json({
+    md5: generateMD5(JSON.stringify(jsdata)),
+    data: jsdata,
+    recordsTotal: jsdata.length,
+    recordsFiltered: jsdata.length
+  });
+});
+
 app.get('/api/symboldetail', (req, res) => {
   console.log(`Req url`, req.url)
 
@@ -176,6 +189,46 @@ app.get('/api/symboldetail', (req, res) => {
   let md5 = generateMD5(JSON.stringify(out))
   res.json({ md5: md5, data: out });
 });
+
+
+app.get('/api/sectordetail', (req, res) => {
+  console.log(`Req url`, req.url)
+
+  const url = new URL('http://local.com/' + req.url);
+
+  // Lấy tất cả các tham số truy vấn dưới dạng một đối tượng URLSearchParams
+  const queryParams = url.searchParams;
+  var sectors = queryParams.get('sectors');
+  if (!sectors) {
+    return []
+  }
+  console.log('Symbol', sectors)
+
+  if (sectors) {
+    sectors = sectors.split(',')
+  }
+
+
+  let out = sectors.map(s => {
+    let jsdata = []
+    let dataacum = []
+    if (groupDataSeries[s]) {
+      jsdata = Object.keys(groupDataSeries[s]).filter(k => k != 'dataacum').map(e => groupDataSeries[s][e])
+      dataacum = groupDataSeries[s].dataacum
+    }
+    return {
+      name: s,
+      data: jsdata,
+      dataacum: dataacum,
+      recordsTotal: jsdata.length,
+      recordsFiltered: jsdata.length
+    }
+  })
+
+  let md5 = generateMD5(JSON.stringify(out))
+  res.json({ md5: md5, data: out });
+});
+
 
 async function serverX() {
 
@@ -222,14 +275,14 @@ function emitData(data) {
     symbolDataSeries[data.data.symbol].dataacum = data.dataacum
   } else if (data.type == '3') {
     // countSymbol++;
-    if (!groupDataSeries[data.data.name]) groupDataSeries[data.data.name] = {}
-    groupDataSeries[data.data.name][data.data.time] = data.data
-    groupDataSeries[data.data.name].dataacum = data.dataacum
-  }else if (data.type == '4') {
+    if (!groupDataSeries[data.data.code]) groupDataSeries[data.data.code] = {}
+    groupDataSeries[data.data.code][data.data.time] = data.data
+    groupDataSeries[data.data.code].dataacum = data.dataacum
+  } else if (data.type == '4') {
     // countSymbol++;
-    if (!groupDataSeries[data.data.name]) groupDataSeries[data.data.name] = {}
-    groupDataSeries[data.data.name][data.data.time] = data.data
-    groupDataSeries[data.data.name].dataacum = data.dataacum
+    if (!groupDataSeries[data.data.code]) groupDataSeries[data.data.code] = {}
+    groupDataSeries[data.data.code][data.data.time] = data.data
+    groupDataSeries[data.data.code].dataacum = data.dataacum
   }
 }
 
