@@ -306,14 +306,14 @@ let sectorMap20 = {}
 sector20.data.forEach(e => {
     sectorMap20[e.englishName] = { industryCode: e.industryCode, englishName: e.englishName, vietnameseName: e.vietnameseName }
 })
-sector10 = sector10.data.map(e => {
+let sector10A = sector10.data.map(e => {
     let e1 = {}
     e1.industryCode = e.industryCode
     e1.englishName = e.englishName
     e1.vietnameseName = e.vietnameseName
     return e.codeList.split(',').filter(e2 => e2.length == 3).map(e2 => { return { code: e2, ...e1 } });
 }).flat()
-sector20 = sector20.data.map(e => {
+let sector20A = sector20.data.map(e => {
     let e1 = {}
     e1.industryCode = e.industryCode
     e1.englishName = e.englishName
@@ -321,11 +321,11 @@ sector20 = sector20.data.map(e => {
     return e.codeList.split(',').filter(e2 => e2.length == 3).map(e2 => { return { code: e2, ...e1 } });
 }).flat()
 const map10 = {}
-sector10.forEach(e => {
+sector10A.forEach(e => {
     map10[e.code] = sectorMap10[e.englishName]
 })
 let map20 = {}
-sector20.forEach(e => {
+sector20A.forEach(e => {
     map20[e.code] = sectorMap20[e.englishName]
 })
 
@@ -340,8 +340,19 @@ largeCap.forEach(e => mapCap[e] = 'LARGE')
 smallCap.forEach(e => mapCap[e] = 'SMALL')
 midCap.forEach(e => mapCap[e] = 'MIDDLE')
 
-console.table(mapCap)
+// console.table(mapCap)
+// console.table(sector20)
 
-module.exports = { map, map10, map20, largeCap, midCap, smallCap, mapCap };
+let sectorCodeList = sector20.data.map(e => {
+    let e1 = {}
+    e1.industryCode = e.industryCode
+    e1.englishName = e.englishName
+    e1.vietnameseName = e.vietnameseName
+    e1.codeList = e.codeList.split(',').filter(e2 => e2.length == 3).filter(e2=>map[e2])
+    return e1
+})
+
+
+module.exports = { map, map10, map20, largeCap, midCap, smallCap, mapCap, sectorCodeList };
 
 

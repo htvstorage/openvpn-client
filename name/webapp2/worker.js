@@ -111,7 +111,7 @@ class MessageReader extends Model {
     // let data = fs.readFileSync("../websocket/data3" + getNow() + ".txt", "utf-8")
     // console.log('Data ',data.length)
     let filename = "../websocket/data3" + getNow() + ".txt";
-    // let filename = "../websocket/data320231113.txt";
+    // let filename = "../websocket/data320231122.txt";
     let stats = fs.statSync(filename);
     if (stats.size < 3 * 128 * 1024 * 1024) {
       let data = fs.readFileSync(filename, { encoding: 'utf8', flag: 'r', bufferSize: 1024 * 1024 * 128 })
@@ -264,6 +264,7 @@ class PriceModel {
           index = stock[symbol].toUpperCase()
         else {
           index = 'OtherIDX'
+          console.log('Other Symbol', symbol)
         }
       }
 
@@ -299,8 +300,10 @@ class PriceModel {
         diff.ask.val -= T.val
       }
 
+      if (symbol.startsWith('VN30F')) {
+        return;
+      }
       let ALL = 'ALL'
-
       let symbolCap = mapCap[symbol]
       if (!mapCap[symbol]) symbolCap = 'MIDDLE'
       let A = [ALL, sectorCode, symbolCap]
@@ -467,7 +470,13 @@ class PriceModel {
     let gt = this.stat[symbolCap].T[time];
 
     // let fa = stock[symbol] == "hose" ? [b, v, all, bt, vt, allt, s, st] : [b, all, bt, allt, s, st]
-    let fa = [b, v, all, bt, vt, allt, s, st, g, gt]
+    let fa;
+    if (symbol.startsWith('VN30F')) {
+      fa = [b, bt]
+    } else {
+      fa = [b, v, all, bt, vt, allt, s, st, g, gt]
+    }
+
     fa.forEach(e => {
       if (!e[slide]) {
         e[slide] = { vol: 0, val: 0 }
@@ -530,119 +539,126 @@ class PriceModel {
 
 
 
+    if (!symbol.startsWith('VN30F')) {
+      let ip = {}
+      Object.keys(v).filter(k => k != 'T').forEach(k => {
+        ip[k] = v[k]
+      })
+      let ipt = {}
+      Object.keys(vt).filter(k => k != 'T').forEach(k => {
+        ipt[k] = vt[k]
+      })
+      let indexStats = {
+        code: index, name: index, time: time, T: timeX, ...flattenObject(ip)
+      }
 
-    let ip = {}
-    Object.keys(v).filter(k => k != 'T').forEach(k => {
-      ip[k] = v[k]
-    })
-    let ipt = {}
-    Object.keys(vt).filter(k => k != 'T').forEach(k => {
-      ipt[k] = vt[k]
-    })
-    let indexStats = {
-      code: index, name: index, time: time, T: timeX, ...flattenObject(ip)
+      let indexStatsDetail = {
+        code: index, name: index, time: time, T: timeX, ...flattenObject(ipt)
+      }
+      if (this.IndexBIDASK[index]) {
+        indexStats.bid_vol = this.IndexBIDASK[index]["bid"].vol
+        indexStats.bid_val = this.IndexBIDASK[index]["bid"].val
+        indexStats.ask_vol = this.IndexBIDASK[index]["ask"].vol
+        indexStats.ask_val = this.IndexBIDASK[index]["ask"].val
+
+        indexStatsDetail.bid_vol = this.IndexBIDASK[index]["bid"].vol
+        indexStatsDetail.bid_val = this.IndexBIDASK[index]["bid"].val
+        indexStatsDetail.ask_vol = this.IndexBIDASK[index]["ask"].vol
+        indexStatsDetail.ask_val = this.IndexBIDASK[index]["ask"].val
+      }
+
+
+
+      let ap = {}
+      Object.keys(all).filter(k => k != 'T').forEach(k => {
+        ip[k] = all[k]
+      })
+      let apt = {}
+      Object.keys(allt).filter(k => k != 'T').forEach(k => {
+        ipt[k] = allt[k]
+      })
+      let allStats = {
+        code: 'ALL', name: 'ALL', time: time, T: timeX, ...flattenObject(ip)
+      }
+
+      let allStatsDetail = {
+        code: 'ALL', name: 'ALL', time: time, T: timeX, ...flattenObject(ipt)
+      }
+
+      if (this.BIDASK[ALL]) {
+        allStats.bid_vol = this.BIDASK[ALL]["bid"].vol
+        allStats.bid_val = this.BIDASK[ALL]["bid"].val
+        allStats.ask_vol = this.BIDASK[ALL]["ask"].vol
+        allStats.ask_val = this.BIDASK[ALL]["ask"].val
+
+        allStatsDetail.bid_vol = this.BIDASK[ALL]["bid"].vol
+        allStatsDetail.bid_val = this.BIDASK[ALL]["bid"].val
+        allStatsDetail.ask_vol = this.BIDASK[ALL]["ask"].vol
+        allStatsDetail.ask_val = this.BIDASK[ALL]["ask"].val
+      }
+
+
+      let gp = {}
+      Object.keys(g).filter(k => k != 'T').forEach(k => {
+        ip[k] = g[k]
+      })
+      let gpt = {}
+      Object.keys(gt).filter(k => k != 'T').forEach(k => {
+        ipt[k] = allt[k]
+      })
+      let groupStats = {
+        code: symbolCap, name: symbolCap, time: time, T: timeX, ...flattenObject(ip)
+      }
+
+      let groupStatsDetail = {
+        code: symbolCap, name: symbolCap, time: time, T: timeX, ...flattenObject(ipt)
+      }
+
+      if (this.BIDASK[symbolCap]) {
+        groupStats.bid_vol = this.BIDASK[symbolCap]["bid"].vol
+        groupStats.bid_val = this.BIDASK[symbolCap]["bid"].val
+        groupStats.ask_vol = this.BIDASK[symbolCap]["ask"].vol
+        groupStats.ask_val = this.BIDASK[symbolCap]["ask"].val
+        groupStatsDetail.bid_vol = this.BIDASK[symbolCap]["bid"].vol
+        groupStatsDetail.bid_val = this.BIDASK[symbolCap]["bid"].val
+        groupStatsDetail.ask_vol = this.BIDASK[symbolCap]["ask"].vol
+        groupStatsDetail.ask_val = this.BIDASK[symbolCap]["ask"].val
+      }
+
+      let sp = {}
+      Object.keys(s).filter(k => k != 'T').forEach(k => {
+        sp[k] = s[k]
+      })
+      let spt = {}
+      Object.keys(st).filter(k => k != 'T').forEach(k => {
+        spt[k] = st[k]
+      })
+      let sectorStats = {
+        code: sectorCode, name: sectorName, time: time, T: timeX, ...flattenObject(sp)
+      }
+
+      let sectorStatsDetail = {
+        code: sectorCode, name: sectorName, time: time, T: timeX, ...flattenObject(spt)
+      }
+      if (this.BIDASK[sectorCode]) {
+        sectorStats.bid_vol = this.BIDASK[sectorCode]["bid"].vol
+        sectorStats.bid_val = this.BIDASK[sectorCode]["bid"].val
+        sectorStats.ask_vol = this.BIDASK[sectorCode]["ask"].vol
+        sectorStats.ask_val = this.BIDASK[sectorCode]["ask"].val
+
+        sectorStatsDetail.bid_vol = this.BIDASK[sectorCode]["bid"].vol
+        sectorStatsDetail.bid_val = this.BIDASK[sectorCode]["bid"].val
+        sectorStatsDetail.ask_vol = this.BIDASK[sectorCode]["ask"].vol
+        sectorStatsDetail.ask_val = this.BIDASK[sectorCode]["ask"].val
+      }
+
+      if (parentPort) {
+        parentPort.postMessage({ data: sectorStatsDetail, dataacum: sectorStats, type: '3' });
+        parentPort.postMessage({ data: indexStatsDetail, dataacum: indexStats, type: '4' });
+        parentPort.postMessage({ data: allStatsDetail, dataacum: allStats, type: '4' });
+        parentPort.postMessage({ data: groupStatsDetail, dataacum: groupStats, type: '4' });
+      }
     }
-
-    let indexStatsDetail = {
-      code: index, name: index, time: time, T: timeX, ...flattenObject(ipt)
-    }
-    if (this.IndexBIDASK[index]) {
-      indexStats.bid_vol = this.IndexBIDASK[index]["bid"].vol
-      indexStats.bid_val = this.IndexBIDASK[index]["bid"].val
-      indexStats.ask_vol = this.IndexBIDASK[index]["ask"].vol
-      indexStats.ask_val = this.IndexBIDASK[index]["ask"].val
-
-      indexStatsDetail.bid_vol = this.IndexBIDASK[index]["bid"].vol
-      indexStatsDetail.bid_val = this.IndexBIDASK[index]["bid"].val
-      indexStatsDetail.ask_vol = this.IndexBIDASK[index]["ask"].vol
-      indexStatsDetail.ask_val = this.IndexBIDASK[index]["ask"].val
-    }
-
-
-
-    let ap = {}
-    Object.keys(all).filter(k => k != 'T').forEach(k => {
-      ip[k] = all[k]
-    })
-    let apt = {}
-    Object.keys(allt).filter(k => k != 'T').forEach(k => {
-      ipt[k] = allt[k]
-    })
-    let allStats = {
-      code: 'ALL', name: 'ALL', time: time, T: timeX, ...flattenObject(ip)
-    }
-
-    let allStatsDetail = {
-      code: 'ALL', name: 'ALL', time: time, T: timeX, ...flattenObject(ipt)
-    }
-
-    if (this.BIDASK[ALL]) {
-      allStats.bid_vol = this.BIDASK[ALL]["bid"].vol
-      allStats.bid_val = this.BIDASK[ALL]["bid"].val
-      allStats.ask_vol = this.BIDASK[ALL]["ask"].vol
-      allStats.ask_val = this.BIDASK[ALL]["ask"].val
-
-      allStatsDetail.bid_vol = this.BIDASK[ALL]["bid"].vol
-      allStatsDetail.bid_val = this.BIDASK[ALL]["bid"].val
-      allStatsDetail.ask_vol = this.BIDASK[ALL]["ask"].vol
-      allStatsDetail.ask_val = this.BIDASK[ALL]["ask"].val
-    }
-
-
-    let gp = {}
-    Object.keys(g).filter(k => k != 'T').forEach(k => {
-      ip[k] = g[k]
-    })
-    let gpt = {}
-    Object.keys(gt).filter(k => k != 'T').forEach(k => {
-      ipt[k] = allt[k]
-    })
-    let groupStats = {
-      code: symbolCap, name: symbolCap, time: time, T: timeX, ...flattenObject(ip)
-    }
-
-    let groupStatsDetail = {
-      code: symbolCap, name: symbolCap, time: time, T: timeX, ...flattenObject(ipt)
-    }
-
-    if (this.BIDASK[symbolCap]) {
-      groupStats.bid_vol = this.BIDASK[symbolCap]["bid"].vol
-      groupStats.bid_val = this.BIDASK[symbolCap]["bid"].val
-      groupStats.ask_vol = this.BIDASK[symbolCap]["ask"].vol
-      groupStats.ask_val = this.BIDASK[symbolCap]["ask"].val
-      groupStatsDetail.bid_vol = this.BIDASK[symbolCap]["bid"].vol
-      groupStatsDetail.bid_val = this.BIDASK[symbolCap]["bid"].val
-      groupStatsDetail.ask_vol = this.BIDASK[symbolCap]["ask"].vol
-      groupStatsDetail.ask_val = this.BIDASK[symbolCap]["ask"].val
-    }
-
-    let sp = {}
-    Object.keys(s).filter(k => k != 'T').forEach(k => {
-      sp[k] = s[k]
-    })
-    let spt = {}
-    Object.keys(st).filter(k => k != 'T').forEach(k => {
-      spt[k] = st[k]
-    })
-    let sectorStats = {
-      code: sectorCode, name: sectorName, time: time, T: timeX, ...flattenObject(sp)
-    }
-
-    let sectorStatsDetail = {
-      code: sectorCode, name: sectorName, time: time, T: timeX, ...flattenObject(spt)
-    }
-    if (this.BIDASK[sectorCode]) {
-      sectorStats.bid_vol = this.BIDASK[sectorCode]["bid"].vol
-      sectorStats.bid_val = this.BIDASK[sectorCode]["bid"].val
-      sectorStats.ask_vol = this.BIDASK[sectorCode]["ask"].vol
-      sectorStats.ask_val = this.BIDASK[sectorCode]["ask"].val
-
-      sectorStatsDetail.bid_vol = this.BIDASK[sectorCode]["bid"].vol
-      sectorStatsDetail.bid_val = this.BIDASK[sectorCode]["bid"].val
-      sectorStatsDetail.ask_vol = this.BIDASK[sectorCode]["ask"].vol
-      sectorStatsDetail.ask_val = this.BIDASK[sectorCode]["ask"].val
-    }
-
     if (this.board[symbol]) {
       let bid = sum(this.board[symbol].BID)
       let ask = sum(this.board[symbol].ASK)
@@ -653,7 +669,7 @@ class PriceModel {
       stats2.bid_vol = bid.vol
       stats2.bid_val = bid.val
       stats2.ask_vol = ask.vol
-      stats2.ask_val = ask.val    
+      stats2.ask_val = ask.val
     }
 
     if (stats.bu_vol && stats.sd_vol) {
@@ -681,10 +697,10 @@ class PriceModel {
     if (parentPort) {
       parentPort.postMessage({ data: table, type: '1' });
       parentPort.postMessage({ data: stats2, dataacum: stats, type: '2' });
-      parentPort.postMessage({ data: sectorStatsDetail, dataacum: sectorStats, type: '3' });
-      parentPort.postMessage({ data: indexStatsDetail, dataacum: indexStats, type: '4' });
-      parentPort.postMessage({ data: allStatsDetail, dataacum: allStats, type: '4' });
-      parentPort.postMessage({ data: groupStatsDetail, dataacum: groupStats, type: '4' });
+      // parentPort.postMessage({ data: sectorStatsDetail, dataacum: sectorStats, type: '3' });
+      // parentPort.postMessage({ data: indexStatsDetail, dataacum: indexStats, type: '4' });
+      // parentPort.postMessage({ data: allStatsDetail, dataacum: allStats, type: '4' });
+      // parentPort.postMessage({ data: groupStatsDetail, dataacum: groupStats, type: '4' });
     }
 
 

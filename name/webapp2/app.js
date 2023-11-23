@@ -10,7 +10,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 const numeral = require('numeral');
-const { map } = require('./symbols.js')
+const { map,sectorCodeList } = require('./symbols.js')
 
 
 function generateMD5(input) {
@@ -19,7 +19,9 @@ function generateMD5(input) {
   return md5Hash.digest('hex');
 }
 
-
+let vf = (v) => {
+  if (v) { return v } else return 0
+}
 
 const port = 3000;
 
@@ -115,6 +117,16 @@ app.get('/api/getsymbols', (req, res) => {
   res.json(map);
 });
 
+app.get('/api/getactivesymbols', (req, res) => {
+  let out = []
+  Object.values(symbolDataSeries).forEach(e=>{
+    let t = vf(e.dataacum["bu_val"]) +vf(e.dataacum["sd_val"]) + vf(e.dataacum["unknown_val"])
+    out.push({symbol:e.dataacum.symbol, total:t})
+  })
+  // res.json(Object.keys(symbolDataSeries));
+  res.json(out);
+});
+
 
 app.get('/api/getcountsymbols', (req, res) => {
   res.json(countSymbol);
@@ -150,6 +162,10 @@ app.get('/api/getsectordata', (req, res) => {
     recordsTotal: jsdata.length,
     recordsFiltered: jsdata.length
   });
+});
+
+app.get('/api/getsectorcodelist', (req, res) => {
+  res.json(sectorCodeList);
 });
 
 app.get('/api/symboldetail', (req, res) => {
