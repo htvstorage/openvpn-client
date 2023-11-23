@@ -332,13 +332,14 @@ sector20A.forEach(e => {
 // console.table(map20)
 
 const largeCap = ["VCB", "BID", "GAS", "VHM", "VIC", "HPG", "VPB", "VNM", "CTG", "FPT", "TCB", "MBB", "MSN", "ACB", "SAB", "GVR", "BCM", "MWG", "BSR", "MCH", "VJC", "SSB", "STB", "HDB", "VRE", "SSI", "VIB", "VEA", "PLX", "SHB", "TPB", "DGC", "EIB", "NVL", "LPB", "BVH", "OCB", "POW", "MSB", "PNJ", "VND", "KDH", "FOX", "KBC", "PGV", "HVN", "VGC", "REE", "GMD", "PDR", "GEX", "VCI", "HUT", "PVS", "IDC", "DCM", "KDC", "DIG", "NAB", "IDP", "PVD", "SHS", "NLG", "THD", "FRT", "DHG", "HCM", "HSG", "VPI", "VHC", "DPM", "VCG", "DXG", "KSF", "CEO", "EVF", "VIX", "LGC", "BAB", "PVI", "VSH", "SBT", "BHN", "CTR", "MBS", "VCS", "FTS", "BSI", "HAG", "TCH", "HDG", "DGW", "BWE", "PC1", "KOS", "PVT", "DTK", "BMP", "SJS", "CMG"]
-const smallCap = ["L44", "VC5", "L35", "BHC", "VE8", "CID", "PXM", "KTT", "PID", "SDP", "LM7", "VPC", "HSI", "MPT", "TST", "ATA", "SCC", "PVA", "STT", "BST", "LM3", "DDM", "MCO", "DCT", "LCS", "CX8", "EFI", "VE3", "SRB", "LUT", "L43", "LTC", "VKC", "PXA", "C92", "VNH", "VIE", "VES", "HCT", "PIV", "VE2", "HKT", "VHH", "VE1", "HTT", "SSM", "PRC", "ALV", "CTC", "PPE", "PPI", "SDC", "BVG", "VE9", "L62", "TXM", "VSG", "SD4", "LBE", "ICF", "SJM", "PGT", "FTM", "DCS", "DAE", "APP", "CMC", "VBH", "SMT", "SDD", "KKC", "BPC", "QTC", "HBD", "KSH", "CT6", "TH1", "DC2", "HKB", "GGG", "DXV", "CDO", "INC", "VTJ", "ATS", "L61", "VCM", "SAP", "HHG", "PVV", "HMR", "VTC", "DTC", "ONE", "CET", "MLS", "PEN", "SD7", "SSG", "MKV"]
+const smallCap = ["L44", "VC5", "L35", "BHC", "VE8", "CID", "PXM", "KTT", "PID", "SDP", "LM7", "VPC", "HSI", "MPT", "TST", "ATA", "SCC", "PVA", "STT", "BST", "LM3", "DDM", "MCO", "DCT", "LCS", "CX8", "EFI", "VE3", "SRB", "LUT", "L43", "LTC", "VKC", "PXA", "C92", "VNH", "VIE", "VES", "HCT", "PIV", "VE2", "HKT", "VHH", "VE1", "HTT", "SSM", "PRC", "ALV", "CTC", "PPE", "PPI", "SDC", "BVG", "VE9", "L62", "TXM", "VSG", "SD4", "LBE", "ICF", "SJM", "PGT", "FTM", "DCS", "DAE", "APP", "CMC", "VBH", "SMT", "SDD", "KKC", "BPC", "QTC", "HBD", "KSH", "CT6", "TH1", "DC2", "HKB", "GGG", "DXV", "CDO", "INC", "VTJ", "ATS", "L61", "VCM", "SAP", "HHG", "PVV", "HMR", "VTC", "DTC", "ONE", "CET", "MLS", "PEN", "SD7", "SSG", "MKV",]
 const midCap = Object.keys(map).filter(e => !largeCap.includes(e) && !smallCap.includes(e))
-
+const smallCap2 = ["AAM", "AAT", "ACC", "ACL", "ADG", "ADS", "AGR", "APG", "APH", "ASP", "BAF", "BCE", "BFC", "BIC", "BKG", "BMC", "BMI", "BRC", "BSI", "BTP", "C32", "C47", "CCL", "CDC", "CIG", "CLL", "CMV", "CMX", "CNG", "CRC", "CSV", "CTF", "CTI", "CTS", "D2D", "DAH", "DBD", "DBT", "DC4", "DCL", "DHA", "DHM", "DLG", "DMC", "DPG", "DPR", "DQC", "DRC", "DRH", "DSN", "DTA", "DVP", "DXV", "ELC", "EVE", "EVF", "EVG", "FCM", "FCN", "FIR", "FIT", "FMC", "GDT", "GIL", "GMC", "GMH", "GSP", "HAH", "HAP", "HAR", "HAX", "HCD", "HHP", "HHS", "HID", "HII", "HMC", "HQC", "HSL", "HTI", "HTN", "HTV", "HUB", "HVH", "HVX", "IDI", "IJC", "ILB", "ITC", "ITD", "KHG", "KHP", "KMR", "KPF", "KSB", "LBM", "LCG", "LGL", "LSS", "MHC", "MIG", "MSH", "NAF", "NBB", "NCT", "NHA", "NHH", "NHT", "NNC", "NO1", "NSC", "NTL", "OPC", "ORS", "PET", "PGC", "PHC", "PIT", "PLP", "PSH", "PTC", "PTL", "QCG", "RAL", "RDP", "SAV", "SBV", "SCR", "SFI", "SGN", "SGR", "SHA", "SHI", "SKG", "SMB", "SMC", "ST8", "STK", "SVD", "SVT", "TCD", "TCL", "TCM", "TCO", "TCR", "TCT", "TDC", "TDG", "TDM", "TDP", "TEG", "THG", "TIP", "TLD", "TLG", "TLH", "TMT", "TNA", "TNH", "TNI", "TNT", "TRC", "TSC", "TTA", "TTF", "TV2", "TVS", "TYA", "VCA", "VDS", "VID", "VIP", "VMD", "VNE", "VNG", "VNL", "VNS", "VOS", "VPD", "VPG", "VPH", "VRC", "VSC", "VTO", "YBM", "YEG"]
 let mapCap = {}
 largeCap.forEach(e => mapCap[e] = 'LARGE')
 smallCap.forEach(e => mapCap[e] = 'SMALL')
 midCap.forEach(e => mapCap[e] = 'MIDDLE')
+smallCap2.forEach(e => mapCap[e] = 'SMALL')
 
 // console.table(mapCap)
 // console.table(sector20)
@@ -348,7 +349,7 @@ let sectorCodeList = sector20.data.map(e => {
     e1.industryCode = e.industryCode
     e1.englishName = e.englishName
     e1.vietnameseName = e.vietnameseName
-    e1.codeList = e.codeList.split(',').filter(e2 => e2.length == 3).filter(e2=>map[e2])
+    e1.codeList = e.codeList.split(',').filter(e2 => e2.length == 3).filter(e2 => map[e2])
     return e1
 })
 
