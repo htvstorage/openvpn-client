@@ -41,7 +41,7 @@
     <style>
         table {
             border-collapse: collapse;
-            width: 100%;
+            width: 95%;
         }
 
         table,
@@ -60,6 +60,14 @@
             background-color: #f2f2f2;
         }
 
+        table.dataTable td {
+            font-size: 1em;
+        }
+        thead, th {text-align: center;}
+        table.dataTable th {
+            font-size: 0.8em;
+            text-align: center;
+        }
         #symbolTable {
             margin: 0 auto;
             width: 100%;
@@ -72,6 +80,17 @@
         #TD {
             text-align: center;
             margin: auto;
+        }
+
+        .scrollable-div {
+            width: 100%;
+            /* Set the width as needed */
+            height: 700px;
+            /* Set the height as needed */
+            overflow: auto;
+            /* Enable scrolling */
+            border: 1px solid #ccc;
+            /* Optional: Add a border for better visibility */
         }
     </style>
     <style>
@@ -95,75 +114,77 @@
 </head>
 
 <body>
-    <table id="symbolTable" class="display">
-        <thead id="symbolHeadTable">
-            <tr>
-                <th>'Mã'</th>
-                <th>' Tên '</th>
-                <th>'Thời gian'</th>
-                <th>'T'</th>
-                <th>'Vol Đặt Mua'</th>
-                <th>'Val Đặt Mua'</th>
-                <th>'Vol Đặt Bán'</th>
-                <th>'Val Đặt Bán'</th>
-                <th>'Vol MuaCĐ'</th>
-                <th>'Val MuaCĐ'</th>
-                <th>'Vol BánCĐ'</th>
-                <th>'Val BánCĐ'</th>
-                <th>'Vol KoXĐ'</th>
-                <th>'Val KoXĐ'</th>
-                <th>'Vol Tổng'</th>
-                <th>'Val Tổng'</th>
-                <th>% Toàn TT</th>
-                <th>% MuaCĐ</th>
-                <th>% BánCĐ</th>
-                <th>% Mua-BánCĐ</th>
-                <th>% Bid/Val</th>
-                <th>% Ask/Val</th>
-                <th>'Vol Mua-Bán'</th>
-                <th>'Val Mua-Bán'</th>
-            </tr>
-        </thead>
-        <tfoot id="symbolFootTable">
-            <tr>
-                <th>Thống kê</th>
-            </tr>
-        </tfoot>
-        <tbody>
-            <!-- Dữ liệu sẽ được thêm ở đây -->
-        </tbody>
+    <div class="scrollable-div">
+        <table id="symbolTable" class="display">
+            <thead id="symbolHeadTable">
+                <tr>
+                    <th>Mã</th>
+                    <th>Tên</th>
+                    <th>Thời gian</th>
+                    <th>T</th>
+                    <th>Vol Đặt Mua</th>
+                    <th>Val Đặt Mua</th>
+                    <th>Vol Đặt Bán</th>
+                    <th>Val Đặt Bán</th>
+                    <th>Vol MuaCĐ</th>
+                    <th>Val MuaCĐ</th>
+                    <th>Vol BánCĐ</th>
+                    <th>Val BánCĐ</th>
+                    <th>Vol KoXĐ</th>
+                    <th>Val KoXĐ</th>
+                    <th>Vol Tổng</th>
+                    <th>Val Tổng</th>
+                    <th>% Toàn TT</th>
+                    <th>% MuaCĐ</th>
+                    <th>% BánCĐ</th>
+                    <th>% Mua-BánCĐ</th>
+                    <th>% Bid/Val</th>
+                    <th>% Ask/Val</th>
+                    <th>Vol Mua-Bán</th>
+                    <th>Val Mua-Bán</th>
+                </tr>
+            </thead>
+            <tfoot id="symbolFootTable">
+                <tr>
+                    <th>Thống kê</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <!-- Dữ liệu sẽ được thêm ở đây -->
+            </tbody>
 
-    </table>
+        </table>
+    </div>
     <div>
         <h1 id="TD">Thống kê thay đổi theo ngành tần suất 60 giây</h1>
     </div>
     <table id="symbolChangeTable" class="display">
         <thead id="symbolChangeHeadTable">
             <tr>
-                <th>'Mã'</th>
-                <th>' Tên '</th>
-                <th>'Thời gian'</th>
-                <th>'T'</th>
-                <th>'Vol Đặt Mua'</th>
-                <th>'Val Đặt Mua'</th>
-                <th>'Vol Đặt Bán'</th>
-                <th>'Val Đặt Bán'</th>
-                <th>'Vol MuaCĐ'</th>
-                <th>'Val MuaCĐ'</th>
-                <th>'Vol BánCĐ'</th>
-                <th>'Val BánCĐ'</th>
-                <th>'Vol KoXĐ'</th>
-                <th>'Val KoXĐ'</th>
-                <th>'Vol Tổng'</th>
-                <th>'Val Tổng'</th>
+                <th>Mã</th>
+                <th>Tên</th>
+                <th>Thời gian</th>
+                <th>T</th>
+                <th>Vol Đặt Mua</th>
+                <th>Val Đặt Mua</th>
+                <th>Vol Đặt Bán</th>
+                <th>Val Đặt Bán</th>
+                <th>Vol MuaCĐ</th>
+                <th>Val MuaCĐ</th>
+                <th>Vol BánCĐ</th>
+                <th>Val BánCĐ</th>
+                <th>Vol KoXĐ</th>
+                <th>Val KoXĐ</th>
+                <th>Vol Tổng</th>
+                <th>Val Tổng</th>
                 <th>% Toàn TT</th>
                 <th>% MuaCĐ</th>
                 <th>% BánCĐ</th>
                 <th>% Mua-BánCĐ</th>
                 <th>% Bid/Val</th>
                 <th>% Ask/Val</th>
-                <th>'Vol Mua-Bán'</th>
-                <th>'Val Mua-Bán'</th>
+                <th>Vol Mua-Bán</th>
+                <th>Val Mua-Bán</th>
             </tr>
         </thead>
         <tfoot id="symbolChangeFootTable">
@@ -284,7 +305,7 @@
                     ],
                     columnDefs: [
                         // { width: "200px", targets: 1 },
-                        { visible: false, targets: [0, 20, 21] },
+                        { visible: false, targets: [0, 3, 20, 21] },
                         {
                             targets: [1,],
                             render: function (data, type, row, meta) {
@@ -319,19 +340,48 @@
                                 return data;
                             }
                         },
+                        // {
+                        //     targets: Array.from({ length: 20 }, (_, index) => index + 4),
+                        //     render: function (data, type, row, meta) {
+                        //         if (type === 'display') {
+                        //             if (Number.isInteger(data))
+                        //                 data = numeral(data).format('0,0');
+                        //             else {
+                        //                 data = numeral(data).format('0,0.00');
+                        //             }
+                        //         }
+                        //         return data;
+                        //     }
+
+                        // },
                         {
-                            targets: Array.from({ length: 20 }, (_, index) => index + 4),
+                            targets: [5, 7, 9, 11, 13, 15, 23],
+                            render: function (data, type, row, meta) {
+                                if (type === 'display') {
+                                    if (Number.isInteger(data))
+                                        data = numeral(data / 1000000000).format('0,0.00');
+                                    else {
+                                        data = numeral(data / 1000000000).format('0,0.00');
+                                    }
+                                }
+                                return data;
+                            }
+
+                        },
+                        {
+                            targets: [4, 6, 8, 10, 12, 14, 22],
                             render: function (data, type, row, meta) {
                                 if (type === 'display') {
                                     if (Number.isInteger(data))
                                         data = numeral(data).format('0,0');
                                     else {
-                                        data = numeral(data).format('0,0.00');
+                                        data = numeral(data).format('0,0');
                                     }
                                 }
                                 return data;
                             }
-                        },
+
+                        }
                         // {
                         //     targets: [3, 4],
                         //     render: function (data, type, row, meta) {
@@ -432,7 +482,7 @@
                     ],
                     columnDefs: [
                         // { width: "200px", targets: 1 },
-                        { visible: false, targets: [0, 20, 21] },
+                        { visible: false, targets: [0, 3, 20, 21] },
                         {
                             targets: [1,],
                             render: function (data, type, row, meta) {
@@ -466,18 +516,48 @@
                                 }
                                 return data;
                             }
-                        }, {
-                            targets: Array.from({ length: 20 }, (_, index) => index + 4),
+                        },
+                        // {
+                        //     targets: Array.from({ length: 20 }, (_, index) => index + 4),
+                        //     render: function (data, type, row, meta) {
+                        //         if (type === 'display') {
+                        //             if (Number.isInteger(data))
+                        //                 data = numeral(data).format('0,0');
+                        //             else {
+                        //                 data = numeral(data).format('0,0.00');
+                        //             }
+                        //         }
+                        //         return data;
+                        //     }
+                        // }
+
+                        {
+                            targets: [5, 7, 9, 11, 13, 15, 23],
+                            render: function (data, type, row, meta) {
+                                if (type === 'display') {
+                                    if (Number.isInteger(data))
+                                        data = numeral(data / 1000000000).format('0,0.00');
+                                    else {
+                                        data = numeral(data / 1000000000).format('0,0.00');
+                                    }
+                                }
+                                return data;
+                            }
+
+                        },
+                        {
+                            targets: [4, 6, 8, 10, 12, 14, 22],
                             render: function (data, type, row, meta) {
                                 if (type === 'display') {
                                     if (Number.isInteger(data))
                                         data = numeral(data).format('0,0');
                                     else {
-                                        data = numeral(data).format('0,0.00');
+                                        data = numeral(data).format('0,0');
                                     }
                                 }
                                 return data;
                             }
+
                         }
 
                     ],
@@ -612,7 +692,7 @@
                                         a[k] = e1[k]
                                     })
                                     changeFields.forEach(k => {
-                                        a[k] = e[k] - e1[k]
+                                        a[k] = Math.floor((e[k] - e1[k]) * 100) / 100
                                     })
                                 } else { //Neu khong co thi tinh theo moi nhat
                                     a = e;
