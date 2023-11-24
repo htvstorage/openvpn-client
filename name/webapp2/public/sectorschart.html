@@ -259,13 +259,6 @@
             symbolsa = symbols.split(',')
         }
 
-        var eprice = queryParams.get('price');
-        var etotal = queryParams.get('total');
-        var ebuy = queryParams.get('buy');
-        var esell = queryParams.get('sell');
-        var eorderbuy = queryParams.get('orderbuy');
-        var eordersell = queryParams.get('ordersell');
-
         let combineDivContainer = document.getElementById('combineDiv')
         var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         let flex = "flex-item2"
@@ -281,9 +274,7 @@
         }
         if (combineDivContainer) {
             let innerHTML = '';
-            symbolsa.forEach(symbol => {
-                innerHTML += '<div class="' + flex + '"><canvas id="' + symbol + 'Chart" style="width: 100%; margin: 0 auto;"></canvas></div>'
-            })
+            innerHTML += '<div class="' + flex + '"><canvas id="' + 'stackedsectors' + 'Chart" style="width: 100%; margin: 0 auto;"></canvas></div>'
             combineDivContainer.innerHTML = innerHTML;
         }
 
@@ -333,11 +324,10 @@
                         yAxisID: 'y-axis-vnindex',
                         data: [1, 2],//Array(2).fill().map(() => Math.floor(Math.random() * 100)),
                         borderColor: 'Magenta',
-                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        backgroundColor: 'Magenta',
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
-                        borderWidth: 2, // Kích thước của đường
-                        hidden: (!eprice || eprice == 'true') ? false : true,
+                        borderWidth: 2, // Kích thước của đường                        
                         stack: 'Stack 0',
 
                     },
@@ -345,8 +335,8 @@
                         label: 'Mã tăng',
                         lineTension: lineTension,
                         yAxisID: 'y-axis-vnindex',
-                        borderColor: 'blue',
-                        backgroundColor: 'rgba(255, 99, 132, 0.5)', // Red
+                        borderColor: 'green',
+                        backgroundColor: 'green', // Red
                         data: [3, 4],
                         fill: false,
                         // hidden: true, // Ẩn đường này mặc định
@@ -359,14 +349,13 @@
                         label: 'Mã đứng giá',
                         lineTension: lineTension,
                         yAxisID: 'y-axis-vnindex',
-                        borderColor: 'green',
-                        backgroundColor: 'rgba(54, 162, 235, 0.5)', // Blue
+                        borderColor: 'gold',
+                        backgroundColor: 'gold', // Blue
                         data: [5, 6],
                         fill: false,
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
-                        borderWidth: 2, // Kích thước của đường
-                        hidden: (!ebuy || ebuy == 'true') ? false : true,
+                        borderWidth: 2, // Kích thước của đường                        
                         stack: 'Stack 0',
                     },
                     {
@@ -374,25 +363,25 @@
                         lineTension: lineTension,
                         yAxisID: 'y-axis-vnindex',
                         borderColor: 'red',
+                        backgroundColor: 'red', // Blue
                         data: [7, 8],
                         fill: false,
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
-                        borderWidth: 2, // Kích thước của đường
-                        hidden: (!esell || esell == 'true') ? false : true,
+                        borderWidth: 2, // Kích thước của đường                    
                         stack: 'Stack 0',
                     },
                     {
                         label: 'Mã sàn',
                         lineTension: lineTension,
                         yAxisID: 'y-axis-vnindex',
-                        borderColor: 'Olive',
+                        borderColor: 'cyan',
+                        backgroundColor: 'cyan', // Blue
                         data: [9, 10],
                         fill: false,
                         pointRadius: 2, // Kích thước đánh dấu
                         pointHoverRadius: 6, // Kích thước đánh dấu khi di chuột qua   
-                        borderWidth: 2, // Kích thước của đường
-                        hidden: (!eorderbuy || eorderbuy == 'true') ? false : true,
+                        borderWidth: 2, // Kích thước của đường                        
                         stack: 'Stack 0',
                     }
                 ],
@@ -437,7 +426,7 @@
                                 }
                             },
                         },
-                        
+
                     },
                     plugins: {
                         zoom: zoomOptions,
@@ -449,11 +438,7 @@
             return combineChart;
         }
 
-        let mapChart = {}
-        symbolsa.forEach(symbol => {
-            mapChart[symbol] = createChart(symbol);
-        })
-
+        var combineChart =createChart('stackedsectors');
 
         let fields = ["symbol", "time"
             , "T", "price", "change", "pct", "bid_vol", "bid_val", "ask_vol", "ask_val",
@@ -670,17 +655,73 @@
                     if (response.length == 0) {
                         return;
                     }
+                    let mapSymbol = {}
+                    response.forEach(e => {
+                        mapSymbol[e.symbol] = e
+                    })
                     let dataAll = [];
                     let statsAll = []
-                    response.data.forEach(e => {
-                        updateChart(mapChart[e.symbol], e)
-                        e.data.forEach(r => {
-                            dataAll.push(r);
+                    // console.table(response)
+                    if (sectorCodeList) {
+                        let sectorStat = {}
+                        sectorCodeList.map(e => {
+                            let stat = { tran: 0, tang: 0, thamchieu: 0, giam: 0, san: 0 }
+                            e.codeList.forEach(
+                                s => {
+
+                                    let symbolData = mapSymbol[s];
+                                    // console.table(symbolData)
+                                    if (symbolData) {
+                                        if (symbolData.pct == 0) stat.thamchieu += 1
+                                        if (symbolData.pct > 0 && symbolData.pct < 6) stat.tang += 1
+                                        if (symbolData.pct >= 6) stat.tran += 1
+                                        if (symbolData.pct < 0 && symbolData.pct > -6) stat.giam += 1
+                                        if (symbolData.pct < -6) stat.san += 1
+                                        // console.table(stat)
+                                    }
+                                    
+                                }
+                            )
+                            
+                            let t = Object.values(stat).reduce((a, b) =>{return a + b} , 0)
+                            console.log('T',t)
+                            if (t > 0) {
+                                Object.keys(stat).forEach(k => {
+                                    // stat[k] = stat[k] / t * 100
+                                })
+                            }
+                            console.log(e.vietnameseName)
+                            console.table(stat)
+                            sectorStat[e.vietnameseName] = stat
 
                         })
-                        // console.table(dataAll)
-                        statsAll.push(e.dataacum);
-                    })
+
+                        let labels = Object.keys(sectorStat);
+                        let tran = Object.values(sectorStat).map(e => e.tran)
+                        let tang = Object.values(sectorStat).map(e => e.tang)
+                        let thamchieu = Object.values(sectorStat).map(e => e.thamchieu)
+                        let giam = Object.values(sectorStat).map(e => e.giam)
+                        let san = Object.values(sectorStat).map(e => e.san)
+
+                        combineChart.data.labels = labels
+                        combineChart.data.datasets[0].data = tran
+                        combineChart.data.datasets[1].data = tang
+                        combineChart.data.datasets[2].data = thamchieu
+                        combineChart.data.datasets[3].data = giam
+                        combineChart.data.datasets[4].data = san
+                        combineChart.update();
+
+                    }
+
+                    // response.forEach(e => {
+                    //     // updateChart(mapChart[e.symbol], e)
+                    //     e.data.forEach(r => {
+                    //         dataAll.push(r);
+
+                    //     })
+                    //     // console.table(dataAll)
+                    //     statsAll.push(e.dataacum);
+                    // })
 
                     var table = $('#myTable').DataTable();
                     table.clear();
@@ -709,7 +750,7 @@
         }
         // updateDataTable()
         // Update DataTable every 5 seconds (adjust as needed)
-        setInterval(updateDataTable, 1000);
+        setInterval(updateDataTable, 5000);
 
         $(document).ready(function () {
 
