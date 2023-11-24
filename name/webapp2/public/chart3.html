@@ -100,6 +100,7 @@
             margin: 10px;
             /* Khoảng cách giữa các ô */
         }
+
         .flex-item2 {
             flex: 0 0 calc(38% - 20px);
             /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
@@ -108,6 +109,7 @@
             margin: 10px;
             /* Khoảng cách giữa các ô */
         }
+
         .flex-item1 {
             flex: 0 0 calc(100% - 20px);
             /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
@@ -115,7 +117,8 @@
             /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
             margin: 10px;
             /* Khoảng cách giữa các ô */
-        }  
+        }
+
         .flex-itemOne {
             flex: 0 0 calc(80% - 20px);
             /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
@@ -123,7 +126,7 @@
             /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
             margin: 10px;
             /* Khoảng cách giữa các ô */
-        }        
+        }
     </style>
 </head>
 
@@ -140,7 +143,7 @@
         </div>
     </div>
     <div id="combineDiv" class="flex-container">
-       <div class="flex-itemOne"><canvas id="combineChart"></canvas></div> 
+        <div class="flex-itemOne"><canvas id="combineChart"></canvas></div>
     </div>
     <table>
         <caption style="font-size: x-large;">VNINDEX Thống kê cung cầu</caption>
@@ -220,6 +223,62 @@
         </table>
     </div>
     <!-- Table 2 -->
+    <script>
+        function formatDateToYYMM(date) {
+            const year = date.getFullYear().toString().slice(-2);
+            const month = (date.getMonth() + 1).toString().padStart(2, '0'); // Month is zero-based
+            return year + month;
+        }
+
+        function getNextMonth(date) {
+            const currentDate = new Date(date);
+            let currentMonth = currentDate.getMonth();
+            let nextMonth = currentMonth + 1;
+            if (nextMonth > 11) {
+                nextMonth = 0; // January
+                currentDate.setFullYear(currentDate.getFullYear() + 1); // Move to the next year
+            }
+            // Set the date to the first day of the next month
+            currentDate.setMonth(nextMonth, 1);
+            return currentDate;
+        }
+
+        function getPairVN30Feature() {
+            return [formatDateToYYMM(new Date()),
+            formatDateToYYMM(getNextMonth(new Date())),
+            formatDateToYYMM(getNextMonth(getNextMonth(new Date()))),].map(e => 'VN30F' + e)
+        }
+
+        var VN30F = getPairVN30Feature().join()
+        var lastDataVN30F;
+        var lastVN30FIdx;
+        function getsymboldetail() {
+            $.ajax({
+                url: 'api/symboldetail?symbols=' + VN30F, // Endpoint to get updated data
+                method: 'GET',
+                success: function (response) {
+                    // console.table(response)
+                    // response.forEach(e => {
+                    //     activeSymbols[e.symbol] = e
+                    // })
+                    response.data.every(e => {
+                        if (e.data.length > 0) {
+                            if (combineChart) {
+                                combineChart.data.datasets[6].label = e.symbol
+                                lastDataVN30F = e.data.map(e => e.price)
+                                combineChart.data.datasets[6].data = lastDataVN30F
+                                lastVN30FIdx = e.data[0].priceref
+                                combineChart.update();
+                            }
+                        }
+                        return e.data.length == 0
+                    })
+                }
+            })
+        }
+
+        setInterval(getsymboldetail, 1000)
+    </script>
 
 
     <script>
@@ -323,7 +382,6 @@
         };
         var myChart = new Chart(ctxLineChart, config);
 
-
         //combineChart
         const ctxCombineChart = document.getElementById('combineChart').getContext('2d');
         var lineTension = 0.2
@@ -379,8 +437,32 @@
                     data: Array(6).fill().map(() => Math.floor(Math.random() * 100)),
                     fill: false,
                 },
+                {
+                    label: 'VN30F1M',
+                    lineTension: lineTension,
+                    yAxisID: 'y-axis-vnindex',
+                    data: [],
+                    borderColor: 'purple',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)'
+                },
             ],
         };
+
+        const footer = (tooltipItems) => {
+            console.log(tooltipItems)            
+            if(!tooltipItems[0].dataset.label.startsWith('VN30F')){return;}
+            if(lastDataVN30F){
+                // console.log(tooltipItems[0])
+                // console.log(lastDataVN30F)
+                return 'Delta: ' + Math.floor((tooltipItems[0].parsed.y-lastVN30FIdx)*100)/100
+            }
+            // let sum = 0;
+            // tooltipItems.forEach(function (tooltipItem) {
+            //     sum += tooltipItem.parsed.y;
+            // });
+            // return 'Sum: ' + sum;
+        };
+
         const combineConfig = {
             type: 'line', // Đây là loại biểu đồ đường (line chart)
             data: combineData,
@@ -433,7 +515,23 @@
                 },
                 plugins: {
                     zoom: zoomOptions,
-                }
+                    tooltip: {
+                        callbacks: {
+                            footer: footer,
+                        }
+                    }
+                },
+
+                // interaction: {
+                //     intersect: false,
+                //     mode: 'index',
+                // },
+                // onHover: (event, chartElement) => {
+                //     if (chartElement.length > 0) {
+                //         // The mouse is hovering over a data point
+                //         console.log(chartElement[0]);
+                //     }
+                // },
             },
 
         };
@@ -462,6 +560,8 @@
                 combineChart.data.datasets[3].data = data.timeline.data.map(e => e[8])
                 combineChart.data.datasets[4].data = data.timeline.data.map(e => e[12])
                 combineChart.data.datasets[5].data = data.timeline.data.map(e => e[14])
+                if (lastDataVN30F)
+                    combineChart.data.datasets[6].data = lastDataVN30F
                 combineChart.update();
 
                 data.timeline.data.sort((a, b) => { return b[2] - a[2] })

@@ -39,7 +39,7 @@ for (let i = 1; i <= 10; i++) {
   });
 }
 
-enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti' , 'sectors']
+enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti' , 'sectors','sectorschart','stackbar']
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
     res.sendFile(__dirname + `/public/${ep}.html`);
@@ -127,6 +127,13 @@ app.get('/api/getactivesymbols', (req, res) => {
   res.json(out);
 });
 
+app.get('/api/getsymbolsaccum', (req, res) => {
+  let out = []
+  Object.values(symbolDataSeries).forEach(e=>{    
+    out.push(e.dataacum)
+  })  
+  res.json(out);
+});
 
 app.get('/api/getcountsymbols', (req, res) => {
   res.json(countSymbol);

@@ -63,11 +63,17 @@
         table.dataTable td {
             font-size: 1em;
         }
-        thead, th {text-align: center;}
+
+        thead,
+        th {
+            text-align: center;
+        }
+
         table.dataTable th {
             font-size: 0.8em;
             text-align: center;
         }
+
         #symbolTable {
             margin: 0 auto;
             width: 100%;
@@ -616,6 +622,9 @@
                 if (Date.now() - lastAJAX <= timeout) {
                     return;
                 }
+                let v = (v) => {
+                    if (v) { return v } else return 0
+                }
 
                 $.ajax({
                     url: '/api/getsectordata', // Endpoint to get updated data
@@ -626,9 +635,6 @@
                         // console.table(response.data)
                         let mapData = {}
                         let data = response.data.map(e => {
-                            let v = (v) => {
-                                if (v) { return v } else return 0
-                            }
                             e["busd_val"] = v(e["bu_val"]) - v(e["sd_val"])
                             e["busd_vol"] = v(e["bu_vol"]) - v(e["sd_vol"])
                             e["total_vol"] = v(e["bu_vol"]) + v(e["sd_vol"]) + v(e["unknown_vol"])
@@ -638,12 +644,12 @@
                         })
                         let ALL = mapData.ALL;
                         data.forEach(e => {
-                            e['%market'] = Math.floor(e['total_val'] / ALL['total_val'] * 10000) / 100
-                            e['%bu_val'] = Math.floor(e['bu_val'] / e['total_val'] * 10000) / 100
-                            e['%sd_val'] = Math.floor(e['sd_val'] / e['total_val'] * 10000) / 100
-                            e['%busd_val'] = Math.floor(e['busd_val'] / e['total_val'] * 10000) / 100
-                            e['%bid_val'] = Math.floor(e['bid_val'] / e['total_val'] * 10000) / 100
-                            e['%ask_val'] = Math.floor(e['ask_val'] / e['total_val'] * 10000) / 100
+                            e['%market'] = Math.floor(v(e['total_val']) / ALL['total_val'] * 10000) / 100
+                            e['%bu_val'] = Math.floor(v(e['bu_val']) / e['total_val'] * 10000) / 100
+                            e['%sd_val'] = Math.floor(v(e['sd_val']) / e['total_val'] * 10000) / 100
+                            e['%busd_val'] = Math.floor(v(e['busd_val']) / e['total_val'] * 10000) / 100
+                            e['%bid_val'] = Math.floor(v(e['bid_val']) / e['total_val'] * 10000) / 100
+                            e['%ask_val'] = Math.floor(v(e['ask_val']) / e['total_val'] * 10000) / 100
                         })
                         table.rows.add(data).draw()
                         let key = Math.floor(Date.now() / 1000 / interval);
@@ -692,7 +698,7 @@
                                         a[k] = e1[k]
                                     })
                                     changeFields.forEach(k => {
-                                        a[k] = Math.floor((e[k] - e1[k]) * 100) / 100
+                                        a[k] = Math.floor((v(e[k]) - e1[k]) * 100) / 100
                                     })
                                 } else { //Neu khong co thi tinh theo moi nhat
                                     a = e;
