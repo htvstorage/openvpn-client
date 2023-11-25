@@ -1,6 +1,7 @@
 const express = require('express');
 const http = require('http');
 const crypto = require('crypto');
+const path = require('path')
 //, 'Flash Socket', 'AJAX long-polling'
 const socketIo = require('socket.io', {
   maxHttpBufferSize: 1e11, rememberTransport: false,
@@ -27,6 +28,14 @@ const port = 3000;
 
 app.use(express.static('public'));
 
+app.use('/images', express.static(path.join(__dirname, 'images')));
+
+// Set up a route to handle the GET request for the images
+app.get('/images/:imageName', (req, res) => {
+  const imageName = req.params.imageName;
+  res.sendFile(path.join(__dirname, 'images', imageName));
+});
+
 // Serve the master page (index.html)
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/public/index.html');
@@ -39,7 +48,7 @@ for (let i = 1; i <= 10; i++) {
   });
 }
 
-enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti' , 'sectors','sectorschart','stackbar']
+enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti' , 'sectors','sectorschart','stackbar','skybox','skybox2']
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
     res.sendFile(__dirname + `/public/${ep}.html`);

@@ -137,8 +137,8 @@ class MessageReader extends Model {
 
     // let data = fs.readFileSync("../websocket/data3" + getNow() + ".txt", "utf-8")
     // console.log('Data ',data.length)
-    let filename = "../websocket/data3" + getNow() + ".txt";
-    // let filename = "../websocket/data320231122.txt";
+    // let filename = "../websocket/data3" + getNow() + ".txt";
+    let filename = "../websocket/data320231124.txt";
     let stats = fs.statSync(filename);
     if (stats.size < 3 * 128 * 1024 * 1024) {
       let data = fs.readFileSync(filename, { encoding: 'utf8', flag: 'r', bufferSize: 1024 * 1024 * 128 })

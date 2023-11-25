@@ -259,6 +259,7 @@
             symbolsa = symbols.split(',')
         }
 
+        var percent = queryParams.get('percent');
         let combineDivContainer = document.getElementById('combineDiv')
         var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         let flex = "flex-item2"
@@ -687,7 +688,8 @@
                             console.log('T',t)
                             if (t > 0) {
                                 Object.keys(stat).forEach(k => {
-                                    // stat[k] = stat[k] / t * 100
+                                    if(percent)
+                                        stat[k] = stat[k] / t * 100
                                 })
                             }
                             console.log(e.vietnameseName)
@@ -750,7 +752,7 @@
         }
         // updateDataTable()
         // Update DataTable every 5 seconds (adjust as needed)
-        setInterval(updateDataTable, 5000);
+        setInterval(updateDataTable, 1000);
 
         $(document).ready(function () {
 
