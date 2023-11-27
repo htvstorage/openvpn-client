@@ -180,34 +180,7 @@
     <br />
     <div id="combineDiv" class="flex-container">
     </div>
-    <table id="statsTable" class="display">
-        <caption style="font-size: x-large;">Thống kê cung cầu</caption>
-        <thead id="statsHead">
-            <tr>
-                <th>Mã</th>
-                <th>Thời gian</th>
-                <th>T</th>
-                <th>Giá</th>
-                <th>Thay đổi</th>
-                <th>%</th>
-                <th>Vol Đặt Mua</th>
-                <th>Val Đặt Mua</th>
-                <th>Vol Đặt Bán</th>
-                <th>Val Đặt Bán</th>
-                <th>Vol KoXĐ</th>
-                <th>Val KoXĐ</th>
-                <th>Vol MuaCĐ</th>
-                <th>Val MuaCĐ</th>
-                <th>Vol BánCĐ</th>
-                <th>Val BánCĐ</th>
-                <th>Vol Mua-Bán</th>
-                <th>Val Mua-Bán</th>
-            </tr>
-        </thead>
-        <tbody id="statsBody">
-            <!-- Table 2 data will be populated here -->
-        </tbody>
-    </table>
+
     <table id="myTable" class="display">
         <thead>
             <tr>
@@ -715,15 +688,7 @@
 
                     }
 
-                    // response.forEach(e => {
-                    //     // updateChart(mapChart[e.symbol], e)
-                    //     e.data.forEach(r => {
-                    //         dataAll.push(r);
 
-                    //     })
-                    //     // console.table(dataAll)
-                    //     statsAll.push(e.dataacum);
-                    // })
 
                     var table = $('#myTable').DataTable();
                     table.clear();

@@ -137,8 +137,8 @@ class MessageReader extends Model {
 
     // let data = fs.readFileSync("../websocket/data3" + getNow() + ".txt", "utf-8")
     // console.log('Data ',data.length)
-    // let filename = "../websocket/data3" + getNow() + ".txt";
-    let filename = "../websocket/data320231124.txt";
+    let filename = "../websocket/data3" + getNow() + ".txt";
+    // let filename = "../websocket/data320231124.txt";
     let stats = fs.statSync(filename);
     if (stats.size < 3 * 128 * 1024 * 1024) {
       let data = fs.readFileSync(filename, { encoding: 'utf8', flag: 'r', bufferSize: 1024 * 1024 * 128 })
@@ -248,6 +248,7 @@ class PriceModel {
   mapLastData = {}
   dataC = 0;
   last = Date.now()
+  priceBoard = {}
   async onMessage(message) {
     let a = message.split("|")
     let symbol = a[0].slice(2)
@@ -277,6 +278,10 @@ class PriceModel {
 
       let b = this.board;
 
+      if (!this.priceBoard[symbol] && a[58] && a[59] && a[60] ){
+        // console.log('OK B',a)
+        this.priceBoard[symbol] = { ceiling: a[58], floor: a[59], ref: a[60] }
+      } 
 
       let sectorCode = '0000', sectorName = 'OtherSector'
       // if (stockStore[symbol]) sectorName = stockStore[symbol].SectorName;
@@ -413,6 +418,12 @@ class PriceModel {
 
 
 
+    }else{
+      // console.log(message , this.priceBoard[symbol],  a[59].length > 0 && a[60].length>0 && a[61].length >0 )
+      if (!this.priceBoard[symbol] && a[58] && a[59] && a[60] ){
+        // console.log('OK ',a)
+        this.priceBoard[symbol] = { ceiling: a[58], floor: a[59], ref: a[60] }
+      } 
     }
   }
 
@@ -560,9 +571,14 @@ class PriceModel {
 
     // if(symbol == 'HPG')
     // console.table(cp)
-
-    let stats = { symbol: symbol, time: time, T: timeX, price: price, priceref: priceref, change: change, pct: pct, ...flattenObject(cp) }
-    let stats2 = { symbol: symbol, time: time, T: timeX, price: price, priceref: priceref, change: change, pct: pct, ...flattenObject(cpt) }
+    let priceBound = this.priceBoard[symbol]
+    let ceiling, floor;
+    if (priceBound) {
+      ceiling = priceBound.ceiling
+      floor = priceBound.floor
+    }
+    let stats = { symbol: symbol, time: time, T: timeX, price: price, priceref: priceref, ceiling: ceiling, floor: floor, change: change, pct: pct, ...flattenObject(cp) }
+    let stats2 = { symbol: symbol, time: time, T: timeX, price: price, priceref: priceref, ceiling: ceiling, floor: floor, change: change, pct: pct, ...flattenObject(cpt) }
 
 
 
