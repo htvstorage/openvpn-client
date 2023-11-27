@@ -280,7 +280,7 @@ class PriceModel {
 
       if (!this.priceBoard[symbol] && a[58] && a[59] && a[60] ){
         // console.log('OK B',a)
-        this.priceBoard[symbol] = { ceiling: a[58], floor: a[59], ref: a[60] }
+        this.priceBoard[symbol] = { ceiling: +a[58], floor: +a[59], ref: +a[60] }
       } 
 
       let sectorCode = '0000', sectorName = 'OtherSector'
@@ -422,7 +422,7 @@ class PriceModel {
       // console.log(message , this.priceBoard[symbol],  a[59].length > 0 && a[60].length>0 && a[61].length >0 )
       if (!this.priceBoard[symbol] && a[58] && a[59] && a[60] ){
         // console.log('OK ',a)
-        this.priceBoard[symbol] = { ceiling: a[58], floor: a[59], ref: a[60] }
+        this.priceBoard[symbol] = { ceiling: +a[58], floor: +a[59], ref: +a[60] }
       } 
     }
   }

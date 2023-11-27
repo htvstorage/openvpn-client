@@ -38,6 +38,12 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.min.css">
+    <script type="text/javascript" charset="utf8"
+        src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+
     <style>
         div.dataTables_wrapper div.dataTables_info {
             padding-top: 0px;
@@ -171,6 +177,20 @@
             margin: 10px;
             /* Khoảng cách giữa các ô */
         }
+
+        .custom-link {
+            text-decoration: none !important;
+        }
+
+        .tooltip {
+            position: absolute;
+            z-index: 1;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 5px;
+            display: none;
+        }
     </style>
 </head>
 
@@ -180,28 +200,17 @@
     <br />
     <div id="combineDiv" class="flex-container">
     </div>
-
+    <div class="tooltip" id="tooltipContainer"></div>
     <table id="myTable" class="display">
         <thead>
             <tr>
-                <th>Mã</th>
+                <th>Sector</th>
                 <th>Thời gian</th>
-                <th>T</th>
-                <th>Giá</th>
-                <th>Thay đổi</th>
-                <th>%</th>
-                <th>Vol Đặt Mua</th>
-                <th>Val Đặt Mua</th>
-                <th>Vol Đặt Bán</th>
-                <th>Val Đặt Bán</th>
-                <th>Vol KoXĐ</th>
-                <th>Val KoXĐ</th>
-                <th>Vol MuaCĐ</th>
-                <th>Val MuaCĐ</th>
-                <th>Vol BánCĐ</th>
-                <th>Val BánCĐ</th>
-                <th>Vol Mua-Bán</th>
-                <th>Val Mua-Bán</th>
+                <th>Mã Trần</th>
+                <th>Mã Tăng</th>
+                <th>Mã Đứng Giá</th>
+                <th>Mã Giảm</th>
+                <th>Mã Sàn</th>
             </tr>
         </thead>
         <!-- <tfoot id="footTable">
@@ -219,18 +228,19 @@
 
 
     <script>
+        let vf = (v) => {
+            if (v) return v;
+            return 0
+        }
         const url = new URL(window.location.href);
         const queryParams = url.searchParams;
         var interval = queryParams.get('interval');
         if (!interval) interval = 60
-        var symbols = queryParams.get('symbols');
-        if (!symbols) {
-            symbols = 'HPG'
+        var sortby = queryParams.get('sortby');
+        if (!sortby) {
+            sortby = 'pct'
         }
-        let symbolsa = []
-        if (symbols) {
-            symbolsa = symbols.split(',')
-        }
+
 
         var percent = queryParams.get('percent');
         let combineDivContainer = document.getElementById('combineDiv')
@@ -243,12 +253,11 @@
         } else {
             flex = "flex-item3"
         }
-        if (symbolsa.length == 1) {
-            flex = "flex-itemOne"
-        }
+        flex = "flex-item2"
         if (combineDivContainer) {
             let innerHTML = '';
             innerHTML += '<div class="' + flex + '"><canvas id="' + 'stackedsectors' + 'Chart" style="width: 100%; margin: 0 auto;"></canvas></div>'
+            innerHTML += '<div class="' + flex + '"><canvas id="' + 'stackedsectorsVal' + 'Chart" style="width: 100%; margin: 0 auto;"></canvas></div>'
             combineDivContainer.innerHTML = innerHTML;
         }
 
@@ -412,12 +421,12 @@
             return combineChart;
         }
 
-        var combineChart =createChart('stackedsectors');
 
-        let fields = ["symbol", "time"
-            , "T", "price", "change", "pct", "bid_vol", "bid_val", "ask_vol", "ask_val",
-            "unknown_vol", "unknown_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "busd_vol",
-            "busd_val",
+        var combineChart = createChart('stackedsectors');
+        var combineChartVal = createChart('stackedsectorsVal');
+
+        let fields = ["sector", "time"
+            , "tran", "tang", "thamchieu", "giam", "san",
         ]
 
         $.fn.dataTable.ext.errMode = 'none';
@@ -433,53 +442,56 @@
                     right: 1
                 },
                 columnDefs: [
+
+                    { targets: 1, "width": "5%" },
                     {
-                        targets: Array.from({ length: 12 }, (_, index) => index + 6),
+                        targets: [2, 3, 4, 5, 6],
                         render: function (data, type, row, meta) {
-                            if (type === 'display') {
-                                data = numeral(data).format('0,0');
-                            }
-                            return data;
-                        }
-                    },
-                    {
-                        targets: [3, 4],
-                        render: function (data, type, row, meta) {
-                            if (type === 'display') {
-                                if (Number.isInteger(data)) {
-                                    data = numeral(data).format('0,0');
-                                } else {
-                                    data = numeral(data).format('0,0.00');
+                            let a = Object.values(data).sort((a, b) => {
+                                switch (sortby) {
+                                    case 'tong':
+                                        return (vf(b.bu_val) + vf(b.sd_val) + vf(b.unknown_val)) - (vf(a.bu_val) + vf(a.sd_val) + vf(a.unknown_val))
+                                        break
+                                    default:
+                                        return b[sortby] - a[sortby]
                                 }
+
+                            })
+                            count = 0;
+                            var dataout = ''
+                            if (type === 'display') {
+                                a.forEach(s => {
+                                    count++;
+                                    var color = 'blue'
+
+                                    color = count % 2 === 0 ? 'blue' : 'green';
+                                    if (count % 5 === 0) {
+                                        // dataout += '<br/>'
+                                    }
+                                    // dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';"   data-tooltip-content="' + s.bu_val + '">(' + s.symbol + ':' + s.pct + ')</span> </a>';
+                                    dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';"  title="' + s.bu_val + '">(' + s.symbol + ':' + s.pct + ')</span> </a>';
+                                })
+
                             }
-                            return data;
+                            return dataout;
                         }
                     },
-                    {
-                        targets: 5,
-                        render: function (data, type, row, meta) {
-                            if (type === 'display') {
-                                data = numeral(data).format('0,0.00');
-                            }
-                            return data;
-                        }
-                    }
                 ],
                 columns: [
                     ...fields.map(e => { return { data: e, orderable: true } })
                 ],
                 rowCallback: function (row, data, index) {
-                    if ((data['pct'] < 0)) {
-                        // $(row).css('background-color', 'red');                
-                        $('td:eq(5)', row).css('background-color', 'red');
-                    }
-                    else if ((data['pct'] > 0)) {
-                        // $(row).css('background-color', 'green');
-                        $('td:eq(5)', row).css('background-color', 'limegreen');
-                    } else {
-                        // $(row).css('background-color', 'yellow');
-                        $('td:eq(5)', row).css('background-color', 'yellow');
-                    }
+                    // if ((data['pct'] < 0)) {
+                    //     // $(row).css('background-color', 'red');                
+                    //     $('td:eq(5)', row).css('background-color', 'red');
+                    // }
+                    // else if ((data['pct'] > 0)) {
+                    //     // $(row).css('background-color', 'green');
+                    //     $('td:eq(5)', row).css('background-color', 'limegreen');
+                    // } else {
+                    //     // $(row).css('background-color', 'yellow');
+                    //     $('td:eq(5)', row).css('background-color', 'yellow');
+                    // }
                 },
                 order: [[2, 'desc']],
                 processing: true,
@@ -488,101 +500,17 @@
                 // scrollY: 200,
                 searching: true,
                 // serverSide: true,
-                lengthMenu: [10, 20, 50, 100, 200, 500, 2000],
+                lengthMenu: [30, 50, 100, 200, 500, 2000],
                 dom: 'lBfrtip',
                 buttons: [
                     'copy',
-                    // 'csv', 
                     'excel', 'pdf',
-                    // 'print', 
                     'colvis'
                 ]
-                // buttons: [
-                //     {
-                //         extend: 'copyHtml5',
-                //         exportOptions: {
-                //             columns: [0, ':visible']
-                //         }
-                //     },
-                //     {
-                //         extend: 'excelHtml5',
-                //         exportOptions: {
-                //             columns: ':visible'
-                //         }
-                //     },
-                //     {
-                //         extend: 'pdfHtml5',
-                //         exportOptions: {
-                //             columns: [0, 1, 2, 5]
-                //         }
-                //     },
-                //     'colvis'
-                // ]
 
             }
         );
 
-        $('#statsTable').DataTable(
-            {
-                fixedHeader: {
-                    // header: true,
-                    // footer: true
-                },
-                fixedColumns: {
-                    left: 1,
-                    right: 1
-                },
-                columnDefs: [
-                    {
-                        targets: Array.from({ length: 12 }, (_, index) => index + 6),
-                        render: function (data, type, row, meta) {
-                            if (type === 'display') {
-                                data = numeral(data).format('0,0');
-                            }
-                            return data;
-                        }
-                    },
-                    {
-                        targets: [3, 4],
-                        render: function (data, type, row, meta) {
-                            if (type === 'display') {
-                                if (Number.isInteger(data)) {
-                                    data = numeral(data).format('0,0');
-                                } else {
-                                    data = numeral(data).format('0,0.00');
-                                }
-                            }
-                            return data;
-                        }
-                    },
-                    {
-                        targets: 5,
-                        render: function (data, type, row, meta) {
-                            if (type === 'display') {
-                                data = numeral(data).format('0,0.00');
-                            }
-                            return data;
-                        }
-                    }],
-                columns: [
-                    ...fields.map(e => { return { data: e, orderable: true } })
-                ],
-                rowCallback: function (row, data, index) {
-                    if ((data['pct'] < 0)) {
-                        // $(row).css('background-color', 'red');                
-                        $('td:eq(5)', row).css('background-color', 'red');
-                    }
-                    else if ((data['pct'] > 0)) {
-                        // $(row).css('background-color', 'green');
-                        $('td:eq(5)', row).css('background-color', 'limegreen');
-                    } else {
-                        // $(row).css('background-color', 'yellow');
-                        $('td:eq(5)', row).css('background-color', 'yellow');
-                    }
-                },
-
-            }
-        );
 
         async function updateChart(combineChart, data) {
             combineChart.data.labels = data.data.map(e => e.time)
@@ -638,45 +566,121 @@
                     // console.table(response)
                     if (sectorCodeList) {
                         let sectorStat = {}
+                        let accumField = ["pct", "unknown_vol", "unknown_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "bid_vol", "bid_val", "ask_vol", "ask_val", "busd_vol", "busd_val"]
+                        let marketStat = { tran: 0, tang: 0, thamchieu: 0, giam: 0, san: 0, UP: {}, DOWN: {}, REF: {}, CEILING: {}, FLOOR: {} }
+                        accumField.forEach(f => {
+                            marketStat.UP[f] = 0
+                            marketStat.DOWN[f] = 0
+                            marketStat.REF[f] = 0
+                            marketStat.CEILING[f] = 0
+                            marketStat.FLOOR[f] = 0
+                        })
                         sectorCodeList.map(e => {
                             let stat = { tran: 0, tang: 0, thamchieu: 0, giam: 0, san: 0 }
+                            let statSymbol = { tran: {}, tang: {}, thamchieu: {}, giam: {}, san: {} }
+                            let accum = { UP: {}, DOWN: {}, REF: {}, CEILING: {}, FLOOR: {} }
+                            accumField.forEach(f => {
+                                accum.UP[f] = 0
+                                accum.DOWN[f] = 0
+                                accum.REF[f] = 0
+                                accum.CEILING[f] = 0
+                                accum.FLOOR[f] = 0
+                            })
+                            var lastTime = '';
+                            var lastT = 0
                             e.codeList.forEach(
                                 s => {
-
                                     let symbolData = mapSymbol[s];
-                                    // console.table(symbolData)
                                     if (symbolData) {
-                                        if (symbolData.pct == 0) stat.thamchieu += 1
-                                        if (symbolData.pct > 0 && symbolData.pct < 6) stat.tang += 1
-                                        if (symbolData.pct >= 6) stat.tran += 1
-                                        if (symbolData.pct < 0 && symbolData.pct > -6) stat.giam += 1
-                                        if (symbolData.pct < -6) stat.san += 1
-                                        // console.table(stat)
+                                        if (+symbolData.T > lastT) {
+                                            lastT = +symbolData.T
+                                            lastTime = symbolData.time
+                                        }
+                                        if (symbolData.pct == 0) {
+                                            stat.thamchieu += 1
+                                            accumField.forEach(f => {
+                                                marketStat.REF[f] += vf(symbolData[f])
+                                                accum.REF[f] += vf(symbolData[f])
+                                            })
+
+                                            statSymbol.thamchieu[s] = symbolData
+                                        }
+                                        if (symbolData.pct > 0) {
+                                            if (symbolData.ceiling == symbolData.price) {
+                                                stat.tran += 1
+                                                marketStat.tran += 1
+                                                statSymbol.tran[s] = symbolData
+                                                accumField.forEach(f => {
+                                                    marketStat.CEILING[f] += vf(symbolData[f])
+                                                    accum.CEILING[f] += vf(symbolData[f])
+                                                })
+                                            }
+                                            else {
+                                                stat.tang += 1
+                                                marketStat.tang += 1
+                                                statSymbol.tang[s] = symbolData
+                                                accumField.forEach(f => {
+                                                    marketStat.UP[f] += vf(symbolData[f])
+                                                    accum.UP[f] += vf(symbolData[f])
+                                                })
+                                            }
+
+
+
+                                        }
+                                        if (symbolData.pct < 0) {
+
+                                            if (symbolData.floor == symbolData.price) {
+                                                stat.san += 1
+                                                marketStat.san += 1
+                                                statSymbol.san[s] = symbolData
+                                                accumField.forEach(f => {
+                                                    marketStat.FLOOR[f] += vf(symbolData[f])
+                                                    accum.FLOOR[f] += vf(symbolData[f])
+                                                })
+                                            }
+                                            else {
+                                                stat.giam += 1
+                                                marketStat.giam += 1
+                                                statSymbol.giam[s] = symbolData
+                                                accumField.forEach(f => {
+                                                    marketStat.DOWN[f] += vf(symbolData[f])
+                                                    accum.DOWN[f] += vf(symbolData[f])
+                                                })
+                                            }
+
+
+                                        }
                                     }
-                                    
+
                                 }
                             )
-                            
-                            let t = Object.values(stat).reduce((a, b) =>{return a + b} , 0)
-                            console.log('T',t)
+
+                            let t = Object.values(stat).reduce((a, b) => { return a + b }, 0)
                             if (t > 0) {
                                 Object.keys(stat).forEach(k => {
-                                    if(percent)
+                                    if (percent)
                                         stat[k] = stat[k] / t * 100
                                 })
                             }
-                            console.log(e.vietnameseName)
-                            console.table(stat)
-                            sectorStat[e.vietnameseName] = stat
+                            // console.log(e.vietnameseName)
+                            // console.table(stat)
+                            sectorStat[e.vietnameseName] = { stat: stat, accum: accum, statSymbol: statSymbol, time: lastTime, T: lastT }
 
                         })
 
                         let labels = Object.keys(sectorStat);
-                        let tran = Object.values(sectorStat).map(e => e.tran)
-                        let tang = Object.values(sectorStat).map(e => e.tang)
-                        let thamchieu = Object.values(sectorStat).map(e => e.thamchieu)
-                        let giam = Object.values(sectorStat).map(e => e.giam)
-                        let san = Object.values(sectorStat).map(e => e.san)
+                        let tran = Object.values(sectorStat).map(e => e.stat.tran)
+                        let tang = Object.values(sectorStat).map(e => e.stat.tang)
+                        let thamchieu = Object.values(sectorStat).map(e => e.stat.thamchieu)
+                        let giam = Object.values(sectorStat).map(e => e.stat.giam)
+                        let san = Object.values(sectorStat).map(e => e.stat.san)
+
+                        let F = ["CEILING", "UP", "REF", "DOWN", "FLOOR"]
+                        let sum = {}
+                        F.forEach(f => {
+                            sum[f] = Object.values(sectorStat).map(e => e.accum[f].bu_val + e.accum[f].sd_val + e.accum[f].unknown_val)
+                        })
 
                         combineChart.data.labels = labels
                         combineChart.data.datasets[0].data = tran
@@ -686,29 +690,54 @@
                         combineChart.data.datasets[4].data = san
                         combineChart.update();
 
+
+                        combineChartVal.data.labels = labels
+                        combineChartVal.data.datasets[0].data = sum.CEILING
+                        combineChartVal.data.datasets[1].data = sum.UP
+                        combineChartVal.data.datasets[2].data = sum.REF
+                        combineChartVal.data.datasets[3].data = sum.DOWN
+                        combineChartVal.data.datasets[4].data = san.FLOOR
+                        combineChartVal.update();
+                        var sectorTable = {}
+                        Object.keys(sectorStat).forEach(sector => {
+                            var sd = sectorStat[sector]
+                            sectorTable[sector] = { sector: sector, time: sd.time, T: sd.T, ...sd.statSymbol }
+                        })
+
+                        // console.table(sectorTable)
+
+                        var table = $('#myTable').DataTable();
+                        table.clear();
+                        table.rows.add(Object.values(sectorTable)).draw()
+
+                        // $('#mytable').DataTable();
+
+                        // // Initialize Tooltipster for all elements with the 'tooltip' class
+                        // $('.tooltip').tooltipster({
+                        //     content: function (callback) {
+                        //         // Retrieve the tooltip content from the data-tooltip attribute
+                        //         callback($(this).data('tooltip'));
+                        //     }
+                        // });
+
                     }
 
 
 
-                    var table = $('#myTable').DataTable();
-                    table.clear();
-                    table.rows.add(dataAll).draw()
 
-                    var statstable = $('#statsTable').DataTable();
-                    statstable.clear();
-                    statstable.rows.add(statsAll).draw()
+
                     lastAJAX = Date.now()
-                    if (lastMd5 == response.md5) {
-                        timeout += 1000
-                        if (timeout >= 10000) {
-                            timeout = 10000;
-                            console.log('Timeout ', timeout, 'md5', response.md5)
-                        }
-                    } else {
-                        timeout = 0;
-                    }
-                    // console.table(response)
-                    lastMd5 = response.md5
+                    // if (lastMd5 == response.md5) {
+                    //     timeout += 1000
+                    //     if (timeout >= 10000) {
+                    //         timeout = 10000;
+                    //         console.log('Timeout ', timeout, 'md5', response.md5)
+                    //     }
+                    // } else {
+                    //     timeout = 0;
+                    // }
+                    // // console.table(response)
+                    // lastMd5 = response.md5
                 },
                 error: function (error) {
                     console.error('Error fetching updated data:', error);
@@ -720,7 +749,17 @@
         setInterval(updateDataTable, 1000);
 
         $(document).ready(function () {
+            // Event listener for mouseover on cells     
 
+            $('#mytable').DataTable();
+
+            // Initialize Tooltipster for all elements with the 'tooltip' class
+            $('.tooltip').tooltipster({
+                content: function (callback) {
+                    // Retrieve the tooltip content from the data-tooltip attribute
+                    callback($(this).data('tooltip'));
+                }
+            });
         });
 
 
