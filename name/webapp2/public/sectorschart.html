@@ -39,10 +39,8 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
 
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.min.css">
-    <script type="text/javascript" charset="utf8"
-        src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="tooltipster.bundle.min.css">
+    <script type="text/javascript" charset="utf8" src="tooltipster.bundle.min.js"></script>
 
     <style>
         div.dataTables_wrapper div.dataTables_info {
@@ -182,7 +180,7 @@
             text-decoration: none !important;
         }
 
-        .tooltip {
+        /* .tooltip {
             position: absolute;
             z-index: 1;
             background-color: #f9f9f9;
@@ -190,7 +188,7 @@
             padding: 5px;
             border-radius: 5px;
             display: none;
-        }
+        } */
     </style>
 </head>
 
@@ -200,7 +198,7 @@
     <br />
     <div id="combineDiv" class="flex-container">
     </div>
-    <div class="tooltip" id="tooltipContainer"></div>
+    <!-- <div class="tooltip" id="tooltipContainer"></div> -->
     <table id="myTable" class="display">
         <thead>
             <tr>
@@ -468,8 +466,12 @@
                                     if (count % 5 === 0) {
                                         // dataout += '<br/>'
                                     }
-                                    // dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';"   data-tooltip-content="' + s.bu_val + '">(' + s.symbol + ':' + s.pct + ')</span> </a>';
-                                    dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';"  title="' + s.bu_val + '">(' + s.symbol + ':' + s.pct + ')</span> </a>';
+
+                                    // console.log(JSON.stringify(s))
+                                    dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';" class="tooltip"    data-tooltip=\'' + JSON.stringify(s) + '\'>(' + s.symbol + ':' + s.pct + ')</span> </a>';
+                                    // dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';" class="tooltip"    data-tooltipster=\'' + JSON.stringify(s) + '\'>(' + s.symbol + ':' + s.pct + ')</span> </a>';
+                                    // dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';" class="tooltip"   data-tooltip="' + s.bu_val + '<br/>' + s.sd_val + '">(' + s.symbol + ':' + s.pct + ')</span> </a>';
+                                    // dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';" data-html="true" class="tooltip"  title="' + s.bu_val + '<br/>' + s.sd_val + '">(' + s.symbol + ':' + s.pct + ')</span> </a>';
                                 })
 
                             }
@@ -709,15 +711,76 @@
                         var table = $('#myTable').DataTable();
                         table.clear();
                         table.rows.add(Object.values(sectorTable)).draw()
-
+                        // $('.tooltip').tooltipster();
                         // $('#mytable').DataTable();
 
                         // // Initialize Tooltipster for all elements with the 'tooltip' class
+                        $('.tooltip').tooltipster({
+                            // functionBefore: function (instance,helper) {
+                            //     // Retrieve the tooltip content from the data-tooltip attribute
+                            //     // callback($(this).data('tooltip'));
+                            //     // console.table(instance)
+                            //     console.log( $(helper.origin))
+                            // }
+                            functionInit: function (instance, helper) {
+                                var content = $(helper.origin).data('tooltip')
+                                // console.log(content.symbol)
+                                // data=JSON.parse(content)
+                                instance.content(() => {
+                                    return generateDynamicContent(content)
+                                });
+                            },
+                            timer: 15000
+                        });
+
+                        // // Initialize Tooltipster for all elements with the 'tooltip' class
+
+                        // function generateDynamicContent() {
+                        //     // You can generate dynamic content based on your logic
+                        //     return '<p>This is dynamic HTML content.</p>' +
+                        //         '<ul>' +
+                        //         '<li>Item 1</li>' +
+                        //         '<li>Item 2</li>' +
+                        //         '<li>Item 3</li>' +
+                        //         '</ul>';
+                        // }
+
+                        function generateDynamicContent(data) {
+                            // You can generate dynamic content based on your logic
+                            return '<div><p>Thông tin mã.</p>' +
+                                '<ul>' +
+                                '<li>Tên mã ' + data.symbol + '</li>' +
+                                '<li>Tỉ lệ ' + data.pct + '</li>' +
+                                '<li>Mua chủ động ' + vf(data.bu_val) + '</li>' +
+                                '<li>Bán chủ động ' + vf(data.sd_val) + '</li>' +
+                                '<li>KXĐ ' + vf(data.unknown_val) + '</li>' +
+                                '<li>Mua chủ động ' + vf(data.bu_val) + '</li>' +
+                                '</ul>' +
+                                '<img src="logo.5ecddcbe.svg" alt="Your Image"> </div>';
+                                ;
+                        }
+
                         // $('.tooltip').tooltipster({
-                        //     content: function (callback) {
-                        //         // Retrieve the tooltip content from the data-tooltip attribute
-                        //         callback($(this).data('tooltip'));
-                        //     }
+                        //     functionInit: function (instance, helper) {
+
+                        //         var $origin = $(helper.origin),
+                        //             dataOptions = $origin.attr('data-tooltipster');
+                        //             console.log(dataOptions)
+                        //             data = JSON.parse(dataOptions)
+                        //         instance.content(()=>{
+                        //             return generateDynamicContent(data)
+                        //         });
+                        //         // console.log('DataOption',dataOptions)
+                        //         // if (dataOptions) {
+
+                        //         //     dataOptions = JSON.parse(dataOptions);
+                        //         //     $.each(dataOptions, function (name, option) {
+
+                        //         //         instance.option(name, option);
+                        //         //     });
+                        //         // }
+                        //     },
+                        //     timer: 15000
                         // });
 
                     }
@@ -754,12 +817,16 @@
             $('#mytable').DataTable();
 
             // Initialize Tooltipster for all elements with the 'tooltip' class
-            $('.tooltip').tooltipster({
-                content: function (callback) {
-                    // Retrieve the tooltip content from the data-tooltip attribute
-                    callback($(this).data('tooltip'));
-                }
-            });
+            console.log('Active tooltipse1')
+
+            $('.tooltip').tooltipster();
+            // $('.tooltip').tooltipster({
+            //     content: function (callback) {
+            //         // Retrieve the tooltip content from the data-tooltip attribute
+            //         console.log('Active tooltipse')
+            //         callback($(this).data('tooltip'));
+            //     }
+            // });
         });
 
 
