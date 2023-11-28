@@ -1,0 +1,13 @@
+[2023-11-28T09:52:12.001] [INFO] default - Checking 0 0
+[2023-11-28T09:52:12.002] [ERROR] default - ReferenceError: Cannot access 'investor' before initialization
+    at /workspace/openvpn-client/name/webapp2/investor.js:79:15
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/investor.js:277:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-11-28T09:54:58.635] [INFO] default - Checking 0 0
+[2023-11-28T09:55:43.115] [INFO] default - Checking 0 0
+[2023-11-28T09:56:16.479] [INFO] default - Checking 0 0

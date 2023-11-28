@@ -11,7 +11,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 const numeral = require('numeral');
-const { map,sectorCodeList } = require('./symbols.js')
+const { map, sectorCodeList } = require('./symbols.js')
 
 
 function generateMD5(input) {
@@ -48,7 +48,7 @@ for (let i = 1; i <= 10; i++) {
   });
 }
 
-enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti' , 'sectors','sectorschart','stackbar','skybox','skybox2','skyboxok','tooltips']
+enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti', 'sectors', 'sectorschart', 'stackbar', 'skybox', 'skybox2', 'skyboxok', 'tooltips']
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
     res.sendFile(__dirname + `/public/${ep}.html`);
@@ -107,6 +107,11 @@ io.on('connection', (socket) => {
 
 
 
+app.get('/api/investorData', (req, res) => {
+  console.log(`Req url`, req.url)
+  res.json(investorData);
+});
+
 app.get('/api/data', (req, res) => {
   // Simulated dynamic data
   const dynamicData = {
@@ -128,9 +133,9 @@ app.get('/api/getsymbols', (req, res) => {
 
 app.get('/api/getactivesymbols', (req, res) => {
   let out = []
-  Object.values(symbolDataSeries).forEach(e=>{
-    let t = vf(e.dataacum["bu_val"]) +vf(e.dataacum["sd_val"]) + vf(e.dataacum["unknown_val"])
-    out.push({symbol:e.dataacum.symbol, total:t})
+  Object.values(symbolDataSeries).forEach(e => {
+    let t = vf(e.dataacum["bu_val"]) + vf(e.dataacum["sd_val"]) + vf(e.dataacum["unknown_val"])
+    out.push({ symbol: e.dataacum.symbol, total: t })
   })
   // res.json(Object.keys(symbolDataSeries));
   res.json(out);
@@ -138,9 +143,9 @@ app.get('/api/getactivesymbols', (req, res) => {
 
 app.get('/api/getsymbolsaccum', (req, res) => {
   let out = []
-  Object.values(symbolDataSeries).forEach(e=>{    
+  Object.values(symbolDataSeries).forEach(e => {
     out.push(e.dataacum)
-  })  
+  })
   res.json(out);
 });
 
@@ -363,3 +368,11 @@ const query = new Worker("./query_worker.js");
 
 query.postMessage({ 'hello': 'hello' })
 
+
+const investorWorker = new Worker("./investor.js");
+
+var investorData;
+
+investorWorker.on("message", (data) => {
+  investorData = data;
+});

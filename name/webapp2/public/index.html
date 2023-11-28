@@ -5,6 +5,320 @@
 <head>
     <title>Master Page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sector Chart</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+    <!-- <script src="https://cdn.datatables.net/scroller/2.3.0/js/dataTables.scroller.min.js"></script> -->
+    <script src="https://cdn.datatables.net/keytable/2.11.0/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedcolumns/4.3.0/js/dataTables.fixedColumns.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/fixedcolumns/4.3.0/css/fixedColumns.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/scroller/2.3.0/css/scroller.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/keytable/2.11.0/css/keyTable.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+
+
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+        integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="tooltipster.bundle.min.css">
+    <script type="text/javascript" charset="utf8" src="tooltipster.bundle.min.js"></script>
+
+    <style>
+        div.dataTables_wrapper div.dataTables_info {
+            padding-top: 0px;
+        }
+
+        div.dataTables_wrapper div.dataTables_info {
+            font-size: 6px;
+            /* Set font size for information text (e.g., "Showing 1 to 10 of 100 entries") */
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <style>
+        /* CSS for limiting the number of rows and adding a vertical scroll */
+        #timelineContainer {
+            max-height: 600px;
+            /* Set the maximum height for the table */
+            overflow-y: auto;
+            /* Enable vertical scrolling */
+        }
+    </style>
+    <style>
+        /* CSS for enabling both horizontal and vertical scrolling for the entire page */
+        body,
+        html {
+            overflow: scroll;
+            /* Enable both horizontal and vertical scrolling for the entire page */
+        }
+    </style>
+    <style>
+        /* #chartcontainer {
+            text-align: center;
+        }
+
+        #vnindex,#busd {
+            display: inline;
+        } */
+        #chartcontainer {
+            display: flex;
+            justify-content: center;
+        }
+
+        #combineDiv {
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* Cho phép các ô chuyển hàng khi không đủ không gian */
+            /* justify-content: center; */
+        }
+
+        .hidden-element {
+            display: none;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 700px);
+            /* 3 cột trong mỗi hàng */
+            grid-gap: 10px;
+            /* Khoảng cách giữa các ô */
+            /* grid-auto-rows: 300px; */
+        }
+
+        .grid-item {
+            /* Định dạng cho mỗi ô trong grid */
+            border: 1px solid #ddd;
+            padding: 10px;
+            width: 700px;
+            /* Chiều rộng của mỗi ô */
+            height: 700px;
+            /* Chiều cao của mỗi ô */
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            /* Cho phép các ô chuyển hàng khi không đủ không gian */
+            justify-content: center;
+        }
+
+        .flex-item3 {
+            flex: 0 0 calc(33.33% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }
+
+        .flex-item2 {
+            flex: 0 0 calc(50% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }
+
+        .flex-item1 {
+            flex: 0 0 calc(100% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }
+
+        .flex-itemOne {
+            flex: 0 0 calc(80% - 20px);
+            /* 33.33% chiều rộng mỗi ô, trừ đi khoảng cách giữa các ô */
+            box-sizing: border-box;
+            /* Đảm bảo padding và border không làm tăng kích thước thực tế của ô */
+            margin: 10px;
+            /* Khoảng cách giữa các ô */
+        }
+
+        .custom-link {
+            text-decoration: none !important;
+        }
+
+        /* .tooltip {
+            position: absolute;
+            z-index: 1;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 5px;
+            display: none;
+        } */
+
+        .tooltipContainer {
+            overflow: hidden;
+            position: relative;
+            display: inline-block;
+            border: 2px solid #007bff;
+            /* Đường viền màu xanh */
+            border-radius: 10px;
+            /* Bo tròn */
+            padding: 0px;
+            background-color: FloralWhite;
+        }
+
+        .tooltipHeader {
+            position: relative;
+            display: inline-block;
+            border: 2px solid #007bff;
+            /* Đường viền màu xanh */
+            border-radius: 10px;
+            /* Bo tròn */
+            padding: 10px;
+        }
+
+        .custom-theme {
+            background-color: #8a2be2;
+            /* Purple background color */
+            color: #fff;
+            /* White text color */
+            border-radius: 5px;
+            /* Rounded corners */
+        }
+
+        .my-custom-theme {
+            border-radius: none;
+            border: none;
+            background: rgba(0, 0, 0, 0);
+            color: #000;
+            border-color: rgba(0, 0, 0, 0);
+        }
+
+        /* Use this next selector to style things like font-size and line-height: */
+        .my-custom-theme .tooltipster-content {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 8px 10px;
+            background: lightyellow;
+            color: #111010;
+            border-radius: none;
+            border: none;
+        }
+
+        .scrollable-div {
+            width: 100%;
+            /* Set the width as needed */
+            height: 700px;
+            /* Set the height as needed */
+            overflow: auto;
+            /* Enable scrolling */
+            border: 1px solid #ccc;
+            /* Optional: Add a border for better visibility */
+        }
+
+        .container-div {
+            width: 100%;
+            /* Set the width as needed */
+            /* Set the height as needed */
+            overflow: auto;
+            /* Enable scrolling */
+            border: 1px solid #ccc;
+            /* Optional: Add a border for better visibility */
+            /* position: relative; */
+            /* Add position property */
+            z-index: 2;
+            /* Add higher z-index */
+        }
+
+        .master-div {
+            width: 100%;
+            /* Set the width as needed */
+            height: 800px;
+            /* Set the height as needed */
+            overflow: auto;
+            /* Enable scrolling */
+            border: 1px solid #ccc;
+            /* Optional: Add a border for better visibility */
+            /* position: relative; */
+            /* Add position property */
+            z-index: 2;
+            /* Add higher z-index */
+        }
+
+        .title-div {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            /* position: fixed; */
+            top: 0;
+            left: 50%;
+            /* transform: translateX(-50%);             */
+            /* Set the width as needed */
+            /* justify-content: center; */
+            text-align: center;
+            color: #ff7300;
+            /* Set the height as needed */
+            overflow: auto;
+            /* Enable scrolling */
+            /* border: 1px solid #ccc; */
+            /* Optional: Add a border for better visibility */
+            /* z-index: 999; */
+        }
+
+
+        .title-div span {
+            font-size: 52px;
+            font-weight: bold;
+        }
+
+        .sumDiv {
+            width: 100%;
+            /* Add styling for the AAA div */
+            /* position: relative; */
+            /* Add position property */
+            /* z-index: 1; */
+            /* Add lower z-index */
+        }
+    </style>
 </head>
 
 <body>
@@ -18,33 +332,408 @@
             <li><a href="/sectorschart?percent=300" target="_blank">Sector Chart With Percent</a></li>
             <li><a href="/sectorschart" target="_blank">Sector Chart</a></li>
             <li><a href="/timeline?symbols=MSN" target="_blank">timeline</a></li>
-            <li><a href="/timelinemulti?symbols=NVL,VCI,DXG,DIG,PDR,NLG" target="_blank">NVL,VCI,DXG,DIG,PDR,NLG</a></li>
+            <li><a href="/timelinemulti?symbols=NVL,VCI,DXG,DIG,PDR,NLG" target="_blank">NVL,VCI,DXG,DIG,PDR,NLG</a>
+            </li>
             <!-- Add links for other charts -->
-    </ul>
+        </ul>
     </div>
+    <div class="container-div">
+        <div class="master-div">
 
-    <!-- Placeholder for the sidebar -->
-    <div id="sidebarContainer"></div>
+            <div class="title-div">
+                <span style="font-size: 52px; font-weight: bold;">Thống kê giao dịch theo tổ chức</span>
+            </div>
 
-    <!-- <object data="sidebar.html" class="sidebar-frame"></object>     -->
+            <div>
+                <table id="myTable" class="display">
+                    <thead id="headTable">
+                        <tr>
+                            <th>Sector</th>
+                            <th>Thời gian</th>
+                            <th>Mã Trần</th>
+                            <th>Mã Tăng</th>
+                            <th>Mã Đứng Giá</th>
+                            <th>Mã Giảm</th>
+                            <th>Mã Sàn</th>
+                        </tr>
+                    </thead>
+                    <!-- <tfoot id="footTable">
+                    <tr>
+                        <th>Thống kê</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </tfoot> -->
+                    <tbody>
+                        <!-- Dữ liệu sẽ được thêm ở đây -->
+                    </tbody>
 
-    <div id="chart-container"></div>
-    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"
-        integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
-        crossorigin="anonymous"></script>
-    <!-- <script src="https://cdn.socket.io/socket.io-4.0.1.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="script.js"></script>
+                </table>
+            </div>
+
+
+
+        </div>
+        <br />
+        <div class="sumDiv">
+
+            <div id="buttonManager">
+                <span style="font-size: 24px; font-weight: bold;">10:VNINDEX 11:VN30</span>
+            </div>
+            <div>
+                <table id="sumTable" class="display">
+                    <thead id="headSumTable">
+                        <tr>
+                            <th>Sector</th>
+                            <th>Thời gian</th>
+                            <th>Mã Trần</th>
+                            <th>Mã Tăng</th>
+                            <th>Mã Đứng Giá</th>
+                            <th>Mã Giảm</th>
+                            <th>Mã Sàn</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Dữ liệu sẽ được thêm ở đây -->
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
     <script>
-        // var socket = io(); // Connect to the WebSocket server
+
+        const url = new URL(window.location.href);
+        const queryParams = url.searchParams;
+        var date = queryParams.get('date');
+        if (!date) date = '1,3,5,7,10,20,30,100'
+        var statDay = queryParams.get('statDay');
+        if (!statDay) statDay = 30
+        else statDay = +statDay
+
+        function formatDate(date) {
+            const day = date.getDate().toString().padStart(2, '0');
+            const month = (date.getMonth() + 1).toString().padStart(2, '0'); // Tháng bắt đầu từ 0
+            const year = date.getFullYear();
+
+            return `${day}${month}${year}`;
+        }
+
+        let fields = [
+            "code", "trading_date", "close_value", "foreign_buy_matched", "foreign_sell_matched", "foreign_buy", "foreign_sell", "proprietary_buy_matched", "proprietary_sell_matched", "proprietary_buy", "proprietary_sell", "local_individual_buy_matched", "local_individual_sell_matched", "local_individual_buy", "local_individual_sell", "local_institutional_buy_matched", "local_institutional_sell_matched", "local_institutional_buy", "local_institutional_sell", "foreign_individual_buy_matched", "foreign_individual_sell_matched", "foreign_individual_buy", "foreign_individual_sell", "foreign_institutional_buy_matched", "foreign_institutional_sell_matched", "foreign_institutional_buy", "foreign_institutional_sell"
+        ]
+
+        // $.fn.dataTable.ext.errMode = 'none';
+
+        function updateDataTable() {
+            $.ajax({
+                url: `/api/investordata`,
+                method: 'GET',
+                success: function (response) {
+                    statsHead = document.querySelector('#headTable')
+                    statsHead.innerHTML = ''
+                    var theadRow = document.createElement('tr');
+                    statsHead.appendChild(theadRow);
+                    let x0 = response[0]
+                    Object.keys(x0).forEach(k => {
+                        var th = document.createElement('th');
+                        th.innerHTML = '<span>' + k + '</span>'
+                        theadRow.appendChild(th);
+                    })
+
+                    $('#myTable').DataTable(
+                        {
+                            fixedHeader: {
+                                // header: true,
+                                // footer: true
+                            },
+                            fixedColumns: {
+                                left: 1,
+                                // right: 1
+                            },
+                            columns: [
+                                ...fields.map(e => { return { data: e, orderable: true, searchable: true } })
+                            ],
+                            columnDefs: [
+
+                                {
+                                    targets: 1,
+                                    "width": "5%",
+                                    render: function (data, type, row, meta) {
+                                        if (type == 'display') {
+                                            data = formatDate(new Date(data * 1000))
+                                        }
+                                        return data;
+                                    }
+                                },
+                                {
+                                    targets: Array.from({ length: 24 }, (_, index) => index + 3),
+                                    render: function (data, type, row, meta) {
+                                        if (type == 'display') {
+                                            if (Number.isInteger(data)) {
+                                                data = numeral(data).format('0,0')
+                                            } else {
+                                                data = numeral(data).format('0,0.00')
+                                            }
+                                        }
+                                        return data
+                                    }
+                                },
+                            ],
+                            order: [[2, 'desc']],
+                            processing: true,
+                            ordering: true,
+                            scroller: true,
+                            // scrollY: 200,
+                            searching: true,
+                            // serverSide: true,
+                            lengthMenu: [30, 50, 100, 200, 500, 2000],
+                            dom: 'lBfrtip',
+                            buttons: [
+                                'copy',
+                                'excel', 'pdf',
+                                'colvis'
+                            ]
+
+                        }
+                    );
+                    var table = $('#myTable').DataTable();
+                    table.clear();
+                    table.rows.add(response).draw()
+                    sheet = processInvestor(response)
+                    // console.table(response)
+
+                    let sumField = [
+                        "code",
+                        "trading_date",
+                        "total_delta",
+                        "foreign_delta",
+                        "proprietary_delta",
+                        "local_individual_delta",
+                        "local_institutional_delta",
+                        "foreign_individual_delta",
+                        "foreign_institutional_delta",
+                        "total_buy_matched",
+                        "total_sell_matched",
+                        "foreign_buy_matched",
+                        "foreign_sell_matched",
+                        "proprietary_buy_matched",
+                        "proprietary_sell_matched",
+                        "local_individual_buy_matched",
+                        "local_individual_sell_matched",
+                        "local_institutional_buy_matched",
+                        "local_institutional_sell_matched",
+                        "foreign_individual_buy_matched",
+                        "foreign_individual_sell_matched",
+                        "foreign_institutional_buy_matched",
+                        "foreign_institutional_sell_matched",
+                    ]
+
+                    statsHead = document.querySelector('#headSumTable')
+                    statsHead.innerHTML = ''
+                    var theadRow = document.createElement('tr');
+                    statsHead.appendChild(theadRow);
+
+                    sumField.forEach(k => {
+                        var th = document.createElement('th');
+                        th.innerHTML = '<span>' + k + '</span>'
+                        theadRow.appendChild(th);
+                    })
+
+                    $('#sumTable').DataTable(
+                        {
+                            fixedHeader: {
+                                // header: true,
+                                // footer: true
+                            },
+                            fixedColumns: {
+                                left: 1,
+                                left: 2,
+                                // right: 1
+                            },
+                            columns: [
+                                ...sumField.map(e => { return { data: e, orderable: true, searchable: true } })
+                            ],
+                            columnDefs: [
+
+                                {
+                                    targets: 1,
+                                    "width": "5%",
+                                    render: function (data, type, row, meta) {
+                                        if (type == 'display') {
+                                            data = formatDate(new Date(data * 1000))
+                                        }
+                                        return data;
+                                    }
+                                },
+                                {
+                                    targets: Array.from({ length: 20 }, (_, index) => index + 3),
+                                    render: function (data, type, row, meta) {
+                                        if (type == 'display') {
+                                            if (Number.isInteger(data)) {
+                                                data = numeral(data).format('0,0')
+                                            } else {
+                                                data = numeral(data).format('0,0.00')
+                                            }
+                                        }
+                                        return data
+                                    }
+                                },
+                            ],
+                            order: [[2, 'desc']],
+                            processing: true,
+                            ordering: true,
+                            scroller: true,
+                            // scrollY: 200,
+                            searching: true,
+                            // serverSide: true,
+                            lengthMenu: [30, 50, 100, 200, 500, 2000],
+                            dom: 'lBfrtip',
+                            buttons: [
+                                'copy',
+                                'excel', 'pdf',
+                                'colvis'
+                            ]
+
+                        }
+                    );
+
+                    var table = $('#sumTable').DataTable();
+                    table.clear();
+                    table.rows.add(sheet[statDay]).draw()
+                },
+                error: function (error) {
+                    console.error('Error fetching updated data:', error);
+                }
+            });
+        }
+        updateDataTable()
+        let vf = (v) => {
+            if (v) return v
+            else return 0
+        }
+
+        let processInvestor = (investorData) => {
+            investorDataNew = investorData.map(e => {
+
+                let total_buy = 0;
+                let total_sell = 0;
+                let total_sell_matched = 0;
+                let total_buy_matched = 0;
+                Object.keys(e).forEach(k => {
+                    if (k.includes('matched')) {
+                        if (k.includes('buy')) { total_buy_matched += vf(e[k]) } else { total_sell_matched += vf(e[k]) }
+                    } else {
+                        if (k.includes('buy') || k.includes('sell'))
+                            if (k.includes('buy')) { total_buy += vf(e[k]) } else { total_sell += vf(e[k]) }
+                    }
+
+                })
+                let local_individual_buy
+                let ne = {
+                    date: new Date(e.trading_date * 1000 + 7 * 60 * 60 * 1000),
+                    code: e.code,
+                    total_buy: total_buy,
+                    total_sell: total_sell,
+                    total_buy_matched: total_buy_matched,
+                    total_sell_matched: total_sell_matched,
+                    total_sell_remain: (total_sell - total_sell_matched),
+                    total_buy_remain: (total_buy - total_buy_matched),
+                    ratio_local_individual_buy: (e.local_individual_buy / total_buy * 100),
+                    ratio_local_individual_sell: (e.local_individual_sell / total_sell * 100),
+                    ratio_local_individual_buy_matched: (e.local_individual_buy_matched / total_buy_matched * 100),
+                    ratio_local_individual_sell_matched: (e.local_individual_sell_matched / total_sell_matched * 100),
+                    ...e
+                }
+                return ne;
+            })
+            let investorDataDays = {}
+            investorData.forEach(e => {
+                if (!investorDataDays[e.code]) investorDataDays[e.code] = []
+                investorDataDays[e.code].push(e)
+            })
+
+            let s = Object.keys(investorDataDays);
+            s.forEach(e => {
+                investorDataDays[e].sort((a, b) => { return b.trading_date - a.trading_date })
+            })
+
+            // console.table(investorDataDays['HPG'])
+
+            let days = date.split(',').map(e => +e)
+            let investorDataDaySlide = {}
+            s.forEach(e => {
+                days.forEach(d => {
+                    if (!investorDataDaySlide[e]) investorDataDaySlide[e] = {}
+                    investorDataDaySlide[e][d] = investorDataDays[e].slice(0, d)
+                })
+            })
+
+            let t = {
+                total_buy_matched: 0,
+                total_sell_matched: 0,
+                foreign_buy_matched: 0,
+                foreign_sell_matched: 0,
+                proprietary_buy_matched: 0,
+                proprietary_sell_matched: 0,
+                local_individual_buy_matched: 0,
+                local_individual_sell_matched: 0,
+                local_institutional_buy_matched: 0,
+                local_institutional_sell_matched: 0,
+                foreign_individual_buy_matched: 0,
+                foreign_individual_sell_matched: 0,
+                foreign_institutional_buy_matched: 0,
+                foreign_institutional_sell_matched: 0,
+            }
+            let tt2 = {
+                total: 0,
+                foreign: 0,
+                proprietary: 0,
+                local_individual: 0,
+                local_institutional: 0,
+                foreign_individual: 0,
+                foreign_institutional: 0,
+            }
+
+            let sum = {}
+            s.forEach(e => {
+                if (!sum[e]) sum[e] = {}
+                days.forEach(d => {
+                    sum[e][d] = investorDataDaySlide[e][d].reduce((a, b) => {
+                        let ret = {}
+                        Object.keys(t).forEach(p => {
+                            ret[p] = vf(a[p]) + vf(b[p])
+                        })
+                        return ret;
+                    }, { ...t })
+                    let delta = {}
+                    Object.keys(tt2).forEach(p => {
+                        delta[p + "_delta"] = sum[e][d][p + "_buy_matched"] - sum[e][d][p + "_sell_matched"]
+                    })
+                    sum[e][d] = { ...delta, ...sum[e][d] }
+                })
+
+            })
+
+            console.table(sum['SSI'][1])
+            let sheet = {}
+            days.forEach(d => {
+                if (!sheet[d]) sheet[d] = []
+                s.forEach(e => {
+                    sheet[d].push({ code: e, trading_date: investorDataDaySlide[e][d][0].trading_date, date: investorDataDaySlide[e][d][0].date, ...sum[e][d] })
+                })
+            })
+
+            // console.table(sheet[30][0])
+            // console.log(Object.keys(sheet[30][0]))
+
+            return sheet;
+        }
     </script>
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        // Use jQuery to load the sidebar from sidebar.html
-        $(document).ready(function () {
-            $('#sidebarContainer').load('sidebar.html');
-        });
-    </script> -->
 </body>
 
 </html>
