@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>MultiSymbol Chart</title>
+    <title>Sector Chart</title>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
@@ -189,6 +189,67 @@
             border-radius: 5px;
             display: none;
         } */
+
+        .tooltipContainer {
+            overflow: hidden;
+            position: relative;
+            display: inline-block;
+            border: 2px solid #007bff;
+            /* Đường viền màu xanh */
+            border-radius: 10px;
+            /* Bo tròn */
+            padding: 0px;
+            background-color: bisque;
+        }
+
+        .tooltipHeader {
+            position: relative;
+            display: inline-block;
+            border: 2px solid #007bff;
+            /* Đường viền màu xanh */
+            border-radius: 10px;
+            /* Bo tròn */
+            padding: 10px;
+        }
+
+        .custom-theme {
+            background-color: #8a2be2;
+            /* Purple background color */
+            color: #fff;
+            /* White text color */
+            border-radius: 5px;
+            /* Rounded corners */
+        }
+
+        .my-custom-theme {
+            border-radius: none;
+            border: none;
+            background: rgba(0, 0, 0, 0);
+            color: #000;
+            border-color: rgba(0, 0, 0, 0);
+        }
+
+        /* Use this next selector to style things like font-size and line-height: */
+        .my-custom-theme .tooltipster-content {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            line-height: 16px;
+            padding: 8px 10px;
+            background: lightyellow;
+            color: #111010;
+            border-radius: none;
+            border: none;
+        }
+        .scrollable-div {
+            width: 100%;
+            /* Set the width as needed */
+            height: 700px;
+            /* Set the height as needed */
+            overflow: auto;
+            /* Enable scrolling */
+            border: 1px solid #ccc;
+            /* Optional: Add a border for better visibility */
+        }
     </style>
 </head>
 
@@ -199,30 +260,37 @@
     <div id="combineDiv" class="flex-container">
     </div>
     <!-- <div class="tooltip" id="tooltipContainer"></div> -->
-    <table id="myTable" class="display">
-        <thead>
-            <tr>
-                <th>Sector</th>
-                <th>Thời gian</th>
-                <th>Mã Trần</th>
-                <th>Mã Tăng</th>
-                <th>Mã Đứng Giá</th>
-                <th>Mã Giảm</th>
-                <th>Mã Sàn</th>
-            </tr>
-        </thead>
-        <!-- <tfoot id="footTable">
-            <tr>
-                <th>Thống kê</th>
-                <th></th>
-                <th></th>
-            </tr>
-        </tfoot> -->
-        <tbody>
-            <!-- Dữ liệu sẽ được thêm ở đây -->
-        </tbody>
+    <div class="scrollable-div">
+        <table id="myTable" class="display">
+            <thead>
+                <tr>
+                    <th>Sector</th>
+                    <th>Thời gian</th>
+                    <th>Mã Trần</th>
+                    <th>Mã Tăng</th>
+                    <th>Mã Đứng Giá</th>
+                    <th>Mã Giảm</th>
+                    <th>Mã Sàn</th>
+                </tr>
+            </thead>
+            <tfoot id="footTable">
+                <tr>
+                    <th>Thống kê</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <!-- Dữ liệu sẽ được thêm ở đây -->
+            </tbody>
 
-    </table>
+        </table>
+    </div>
+
 
 
     <script>
@@ -233,12 +301,22 @@
         const url = new URL(window.location.href);
         const queryParams = url.searchParams;
         var interval = queryParams.get('interval');
-        if (!interval) interval = 60
+        if (!interval) interval = 5
         var sortby = queryParams.get('sortby');
         if (!sortby) {
             sortby = 'pct'
         }
+        var valMin = queryParams.get('valMin');
+        if (!valMin) {
+            valMin = 10000000000;
+        } else {
+            valMin = +valMin
+        }
 
+        statsHead = document.getElementById('footTable');
+        statsHead.innerHTML = ''
+        var theadRow = document.createElement('tr');
+        statsHead.appendChild(theadRow);
 
         var percent = queryParams.get('percent');
         let combineDivContainer = document.getElementById('combineDiv')
@@ -566,10 +644,12 @@
                     let dataAll = [];
                     let statsAll = []
                     // console.table(response)
+
+
                     if (sectorCodeList) {
                         let sectorStat = {}
                         let accumField = ["pct", "unknown_vol", "unknown_val", "bu_vol", "bu_val", "sd_vol", "sd_val", "bid_vol", "bid_val", "ask_vol", "ask_val", "busd_vol", "busd_val"]
-                        let marketStat = { tran: 0, tang: 0, thamchieu: 0, giam: 0, san: 0, UP: {}, DOWN: {}, REF: {}, CEILING: {}, FLOOR: {} }
+                        let marketStat = { tran: 0, tang: 0, thamchieu: 0, giam: 0, san: 0, UP: { count: 0, bigCount: 0 }, DOWN: { count: 0, bigCount: 0 }, REF: { count: 0, bigCount: 0 }, CEILING: { count: 0, bigCount: 0 }, FLOOR: { count: 0, bigCount: 0 } }
                         accumField.forEach(f => {
                             marketStat.UP[f] = 0
                             marketStat.DOWN[f] = 0
@@ -590,6 +670,10 @@
                             })
                             var lastTime = '';
                             var lastT = 0
+
+                            let total = (d) => {
+                                return vf(d['bu_val']) + vf(d['sd_val']) + vf(d['unknown_val'])
+                            }
                             e.codeList.forEach(
                                 s => {
                                     let symbolData = mapSymbol[s];
@@ -600,6 +684,12 @@
                                         }
                                         if (symbolData.pct == 0) {
                                             stat.thamchieu += 1
+                                            marketStat.REF.count += 1;
+                                            if (total(symbolData) >= valMin) {
+                                                marketStat.REF.bigCount += 1;
+                                                if (!marketStat.REF.bigPct) marketStat.REF.bigPct = 0
+                                                marketStat.REF.bigPct += symbolData['pct']
+                                            }
                                             accumField.forEach(f => {
                                                 marketStat.REF[f] += vf(symbolData[f])
                                                 accum.REF[f] += vf(symbolData[f])
@@ -612,6 +702,12 @@
                                                 stat.tran += 1
                                                 marketStat.tran += 1
                                                 statSymbol.tran[s] = symbolData
+                                                marketStat.CEILING.count += 1;
+                                                if (total(symbolData) >= valMin) {
+                                                    marketStat.CEILING.bigCount += 1;
+                                                    if (!marketStat.CEILING.bigPct) marketStat.CEILING.bigPct = 0
+                                                    marketStat.CEILING.bigPct += symbolData['pct']
+                                                }
                                                 accumField.forEach(f => {
                                                     marketStat.CEILING[f] += vf(symbolData[f])
                                                     accum.CEILING[f] += vf(symbolData[f])
@@ -621,6 +717,12 @@
                                                 stat.tang += 1
                                                 marketStat.tang += 1
                                                 statSymbol.tang[s] = symbolData
+                                                marketStat.UP.count += 1;
+                                                if (total(symbolData) >= valMin) {
+                                                    marketStat.UP.bigCount += 1;
+                                                    if (!marketStat.UP.bigPct) marketStat.UP.bigPct = 0
+                                                    marketStat.UP.bigPct += symbolData['pct']
+                                                }
                                                 accumField.forEach(f => {
                                                     marketStat.UP[f] += vf(symbolData[f])
                                                     accum.UP[f] += vf(symbolData[f])
@@ -636,6 +738,12 @@
                                                 stat.san += 1
                                                 marketStat.san += 1
                                                 statSymbol.san[s] = symbolData
+                                                marketStat.FLOOR.count += 1;
+                                                if (total(symbolData) >= valMin) {
+                                                    marketStat.FLOOR.bigCount += 1;
+                                                    if (!marketStat.FLOOR.bigPct) marketStat.FLOOR.bigPct = 0
+                                                    marketStat.FLOOR.bigPct += symbolData['pct']
+                                                }
                                                 accumField.forEach(f => {
                                                     marketStat.FLOOR[f] += vf(symbolData[f])
                                                     accum.FLOOR[f] += vf(symbolData[f])
@@ -645,6 +753,12 @@
                                                 stat.giam += 1
                                                 marketStat.giam += 1
                                                 statSymbol.giam[s] = symbolData
+                                                marketStat.DOWN.count += 1;
+                                                if (total(symbolData) >= valMin) {
+                                                    marketStat.DOWN.bigCount += 1;
+                                                    if (!marketStat.DOWN.bigPct) marketStat.DOWN.bigPct = 0
+                                                    marketStat.DOWN.bigPct += symbolData['pct']
+                                                }
                                                 accumField.forEach(f => {
                                                     marketStat.DOWN[f] += vf(symbolData[f])
                                                     accum.DOWN[f] += vf(symbolData[f])
@@ -730,7 +844,9 @@
                                     return generateDynamicContent(content)
                                 });
                             },
-                            timer: 15000
+                            timer: 15000,
+                            theme: 'my-custom-theme',
+                            side: 'top'
                         });
 
                         // // Initialize Tooltipster for all elements with the 'tooltip' class
@@ -745,19 +861,40 @@
                         //         '</ul>';
                         // }
 
+                        var fm = (v) => {
+                            if (Number.isInteger(v)) {
+                                return numeral(v).format('0,0');
+                            } else {
+                                return numeral(v).format('0,0.00');
+                            }
+                        }
                         function generateDynamicContent(data) {
                             // You can generate dynamic content based on your logic
-                            return '<div><p>Thông tin mã.</p>' +
+                            return '<div class="tooltipContainer"><h2 style="font-weight: bold; color: red;">Thông tin mã.</h2>' +
                                 '<ul>' +
-                                '<li>Tên mã ' + data.symbol + '</li>' +
+                                '<li>Tên mã <span style="font-weight: bold; color: red;">' + data.symbol + '</span></li>' +
+                                '<li>Giá ' + data.price
+                                + '<span style="font-weight: bold; color: magenta;"> ' + data.ceiling + '</span>'
+                                + '<span style="font-weight: bold; color: cyan;"> ' + data.floor + '</span>'
+                                + '<span style="font-weight: bold; color: gold;"> ' + data.priceref + '</span>'
+                                + '</li>' +
+                                '<li>Thay đổi ' + data.change + '</li>' +
                                 '<li>Tỉ lệ ' + data.pct + '</li>' +
-                                '<li>Mua chủ động ' + vf(data.bu_val) + '</li>' +
-                                '<li>Bán chủ động ' + vf(data.sd_val) + '</li>' +
-                                '<li>KXĐ ' + vf(data.unknown_val) + '</li>' +
-                                '<li>Mua chủ động ' + vf(data.bu_val) + '</li>' +
+                                '<li>Val Mua ' + fm(vf(data.bu_val)) + '</li>' +
+                                '<li>Val Bán ' + fm(vf(data.sd_val)) + '</li>' +
+                                '<li>Val KXĐ ' + fm(vf(data.unknown_val)) + '</li>' +
+                                '<li>Val Mua-Bán ' + fm(vf(data.busd_val)) + '</li>' +
+                                '<li>Vol Mua ' + fm(vf(data.bu_vol)) + '</li>' +
+                                '<li>Vol Bán ' + fm(vf(data.sd_vol)) + '</li>' +
+                                '<li>Vol KXĐ ' + fm(vf(data.unknown_vol)) + '</li>' +
+                                '<li>Vol Mua-Bán ' + fm(vf(data.busd_vol)) + '</li>' +
+                                '<li>Đặt Mua ' + fm(vf(data.bid_val)) + '</li>' +
+                                '<li>Đặt Bán ' + fm(vf(data.ask_val)) + '</li>' +
+                                '<li>Vol Đặt Mua ' + fm(vf(data.bid_vol)) + '</li>' +
+                                '<li>Vol Đặt Bán ' + fm(vf(data.ask_vol)) + '</li>' +
                                 '</ul>' +
                                 '<img src="logo.5ecddcbe.svg" alt="Your Image"> </div>';
-                                ;
+                            ;
                         }
 
                         // $('.tooltip').tooltipster({
@@ -782,6 +919,28 @@
                         //     },
                         //     timer: 15000
                         // });
+
+                        statsHead.innerHTML = ''
+                        var theadRow = document.createElement('tr');
+                        statsHead.appendChild(theadRow);
+
+                        label1 = ['Thống kê', '', 'Tổng', 'Tổng', 'Tổng', 'Tổng', 'Tổng',]
+                        sum = [, , marketStat.CEILING, marketStat.UP, marketStat.REF, marketStat.DOWN, marketStat.FLOOR]
+                        for (var i = 0; i < label1.length; i++) {
+                            var th = document.createElement('th');
+                            if (i <= 1) {
+                                th.textContent = label1[i];
+                            } else {
+                                th.innerHTML = '<div>' + label1[i] + '</div>\n<div>' + numeral(sum[i].count).format('0,0') + '</div>'
+                                    + '<div>Avg: ' + numeral(sum[i].pct / sum[i].count).format('0,0.00') + '</div>'
+                                    + '<div>BigCount: ' + numeral(sum[i].bigCount).format('0,0') + '</div>'
+                                    + '<div>AvgBig: ' + numeral(sum[i].bigPct / sum[i].bigCount).format('0,0.00') + '</div>'
+                                // + '<div>' + 'BigCount' + '</div>'
+
+                            }
+                            theadRow.appendChild(th);
+
+                        }
 
                     }
 
@@ -809,7 +968,7 @@
         }
         // updateDataTable()
         // Update DataTable every 5 seconds (adjust as needed)
-        setInterval(updateDataTable, 1000);
+        setInterval(updateDataTable, interval * 1000);
 
         $(document).ready(function () {
             // Event listener for mouseover on cells     
