@@ -339,7 +339,7 @@
             <li><a href="/?statDay=3" target="_self">Investor 3 day</a>
             <li><a href="/?statDay=7" target="_self">Investor 7 day</a>
             <li><a href="/?statDay=10" target="_self">Investor 10 day</a>
-            <li><a href="/?statDay=10" target="_self">Investor 30 day</a>
+            <li><a href="/?statDay=30" target="_self">Investor 30 day</a>
             </li>
             <!-- Add links for other charts -->
         </ul>
@@ -382,7 +382,7 @@
                         <td align="center"><input type="checkbox" class="column_filter" id="col1_smart"
                                 checked="checked"></td>
                     </tr>
-                    <tr id="filter_col3" data-column="2">
+                    <!-- <tr id="filter_col3" data-column="2">
                         <td>Column - Office</td>
                         <td align="center"><input type="text" class="column_filter" id="col2_filter"></td>
                         <td align="center"><input type="checkbox" class="column_filter" id="col2_regex"></td>
@@ -409,10 +409,12 @@
                         <td align="center"><input type="checkbox" class="column_filter" id="col5_regex"></td>
                         <td align="center"><input type="checkbox" class="column_filter" id="col5_smart"
                                 checked="checked"></td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
-
+            <div class="title-div">
+                <button onclick="clearCache()">Clear Cache</button>
+            </div>
             <div>
                 <table id="myTable" class="display">
                     <thead id="headTable">
@@ -476,6 +478,13 @@
     </div>
     <script>
 
+        async function clearCache() {
+            var a = await getAll()
+            if(a){
+                a.forEach(e=>{del(e.id)})
+            }
+        }
+
         const url = new URL(window.location.href);
         const queryParams = url.searchParams;
         var date = queryParams.get('date');
@@ -500,7 +509,7 @@
             table.column(i).search(filter.value, regex.checked, smart.checked).draw();
         }
 
-        
+
 
         document.querySelectorAll('input.global_filter').forEach((el) => {
             el.addEventListener(el.type === 'text' ? 'keyup' : 'change', () =>
@@ -552,6 +561,19 @@
 
             $('#myTable').DataTable(
                 {
+                    "ajax": function (data, callback, settings) {
+                        let out = [];
+                        for (var i = data.start, ien = data.start + data.length; i < Math.min(ien,response.length); i++) {
+                            out.push(response[i]);
+                        }
+                        callback({
+                            draw: data.draw,
+                            data: out,
+                            recordsTotal: response.length,
+                            recordsFiltered: response.length,
+                        });
+                    },
+                 
                     fixedHeader: {
                         // header: true,
                         // footer: true
@@ -571,7 +593,7 @@
                             "width": "20%",
                             render: function (data, type, row, meta) {
                                 if (type == 'display') {
-                                    data = data+ '|' + formatDate2(new Date(data * 1000))
+                                    data = data + '|' + formatDate2(new Date(data * 1000))
                                 }
                                 return data;
                             }
@@ -610,6 +632,23 @@
             table = $('#myTable').DataTable();
             table.clear();
             table.rows.add(response).draw()
+
+            // $('#myTable').DataTable({
+            //     "ajax": function (data, callback, settings) {
+            //         let out = [];
+            //         for (var i = data.start, ien = data.start + data.length; i < ien; i++) {
+            //             out.push(response[i]);
+            //         }
+
+            //         callback({
+            //             draw: data.draw,
+            //             data: out,
+            //             recordsTotal: response.length,
+            //             recordsFiltered: response.length,
+            //         });
+            //     }
+            // });
+
             sheet = processInvestor(response)
             // console.table(response)
 
