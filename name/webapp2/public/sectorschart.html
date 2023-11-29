@@ -18,6 +18,7 @@
     <script src="https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js"></script>
 
 
+
     <link rel="stylesheet" type="text/css"
         href="https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css">
     <link rel="stylesheet" type="text/css"
@@ -37,6 +38,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="tooltipster.bundle.min.css">
@@ -240,6 +242,7 @@
             border-radius: none;
             border: none;
         }
+
         .scrollable-div {
             width: 100%;
             /* Set the width as needed */
@@ -294,6 +297,7 @@
 
 
     <script>
+        // Chart.register(ChartDataLabels);
         let vf = (v) => {
             if (v) return v;
             return 0
@@ -369,7 +373,7 @@
             }
         };
 
-        function createChart(symbol) {
+        function createChart(symbol, plugins) {
             //combineChart
             const ctxCombineChart = document.getElementById(symbol + 'Chart').getContext('2d');
             var lineTension = 0.2
@@ -448,6 +452,7 @@
             const combineConfig = {
                 type: 'bar', // Đây là loại biểu đồ đường (line chart)
                 data: combineData,
+                plugins: plugins,
                 options: {
                     indexAxis: 'y',
                     legend: {
@@ -489,7 +494,16 @@
                     },
                     plugins: {
                         zoom: zoomOptions,
-                    }
+                        datalabels: {
+                            color: 'white',
+                            font: {
+                                size: 8 // Set the font size for the text labels
+                            },
+                            formatter: function (value, context) {
+                                return value + "%"; // Display the value as the text label
+                            }
+                        }
+                    },
                 },
 
             };
@@ -498,8 +512,9 @@
         }
 
 
-        var combineChart = createChart('stackedsectors');
+        var combineChart = createChart('stackedsectors', [ChartDataLabels]);
         var combineChartVal = createChart('stackedsectorsVal');
+
 
         let fields = ["sector", "time"
             , "tran", "tang", "thamchieu", "giam", "san",
