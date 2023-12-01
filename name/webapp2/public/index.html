@@ -19,7 +19,7 @@
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.colVis.min.js"></script>
     <script src="https://cdn.datatables.net/fixedcolumns/4.3.0/js/dataTables.fixedColumns.min.js"></script>
     <script src="https://cdn.datatables.net/fixedheader/3.4.0/js/dataTables.fixedHeader.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 
     <link rel="stylesheet" type="text/css"
         href="https://cdn.datatables.net/fixedheader/3.4.0/css/fixedHeader.dataTables.min.css">
@@ -340,6 +340,7 @@
             <li><a href="/?statDay=7" target="_self">Investor 7 day</a>
             <li><a href="/?statDay=10" target="_self">Investor 10 day</a>
             <li><a href="/?statDay=30" target="_self">Investor 30 day</a>
+            <li><a href="/?statDay=100" target="_self">Investor max day</a>
             </li>
             <!-- Add links for other charts -->
         </ul>
@@ -375,13 +376,13 @@
                         <td align="center"><input type="checkbox" class="column_filter" id="col0_smart"
                                 checked="checked"></td>
                     </tr>
-                    <tr id="filter_col2" data-column="1">
+                    <!-- <tr id="filter_col2" data-column="1">
                         <td>Column - trading_date</td>
                         <td align="center"><input type="text" class="column_filter" id="col1_filter"></td>
                         <td align="center"><input type="checkbox" class="column_filter" id="col1_regex"></td>
                         <td align="center"><input type="checkbox" class="column_filter" id="col1_smart"
                                 checked="checked"></td>
-                    </tr>
+                    </tr> -->
                     <!-- <tr id="filter_col3" data-column="2">
                         <td>Column - Office</td>
                         <td align="center"><input type="text" class="column_filter" id="col2_filter"></td>
@@ -412,8 +413,52 @@
                     </tr> -->
                 </tbody>
             </table>
+
+            <table cellpadding="3" cellspacing="0" border="0" style="width: 67%; margin: 0 auto 2em auto;">
+                <thead>
+                    <tr>
+                        <th>Target</th>
+                        <th>Range Search</th>
+                        <th>From</th>
+                        <th>To</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="filter_global">
+                        <td>Global search</td>
+                        <td align="center">
+                            <form action="#" method="post">
+                                <!-- <label for="dropdown">Select an option:</label> -->
+                                <select id="dropdown" name="dropdown">
+                                    <option value="option1">Option 1</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
+                                    <option value="option4">Option 4</option>
+                                </select>
+
+                                <!-- <input type="submit" value="Submit"> -->
+                            </form>
+                        </td>
+
+                        <td align="center"><input type="text" class="global_filter1" id="global_from"></td>
+                        <td align="center"><input type="text" class="global_filter1" id="global_to"></td>
+                    </tr>
+                    <tr id="filter_code" data-column="0">
+                        <td>Column - Code</td>
+                        <td align="center"><input type="text" class="column_filter1" id="code_filter"></td>
+                    </tr>
+                    <tr id="filter_col2" data-column="1">
+                        <td>Column - trading_date</td>
+                        <td align="center"><input type="date" class="column_filter1" id="td_filter"></td>
+                        <td align="center"><input type="date" class="column_filter1" id="td_from"></td>
+                        <td align="center"><input type="date" class="column_filter1" id="td_to"></td>
+                    </tr>
+
+                </tbody>
+            </table>
             <div class="title-div">
                 <button onclick="clearCache()">Clear Cache</button>
+                <button onclick="search()" style="margin-left: 30px; width: 90px;">Search</button>
             </div>
             <div>
                 <table id="myTable" class="display">
@@ -477,13 +522,83 @@
         </div>
     </div>
     <script>
+        async function search() {
+            let searchField = $('#dropdown').val()
+            let globalFrom = $('#global_from').val()
+            let globalTo = $('#global_to').val()
+            let codeFilter = $('#code_filter').val()
+            let td = $('#td_filter').val()
+            let td_from = $('#td_from').val()
+            let td_to = $('#td_to').val()
+            if (searchField.length == 0 && codeFilter.length == 0 && td.length == 0 && td_from.length == 0 && td_to.length == 0) return
 
+            filterData = investorDataNew.filter(e => {
+                var val = true;
+                if (searchField.length > 0) {
+                    if (globalFrom.length > 0) val = val && (e[searchField] >= +globalFrom)
+                    if (globalTo.length > 0) val = val && (e[searchField] <= +globalTo)
+                }
+                if (codeFilter.length > 0) val = val && (e['code'] == codeFilter)
+                if (td.length > 0) val = val && (e['trading_date'] * 1000 == +moment(td, 'YYYY-MM-DD').format("x"))
+                if (td_from.length > 0) val = val && (e['trading_date'] * 1000 >= +moment(td_from, 'YYYY-MM-DD').format("x"))
+                if (td_to.length > 0) val = val && (e['trading_date'] * 1000 <= +moment(td_to, 'YYYY-MM-DD').format("x"))
+                return val;
+            })
+
+            updateRawTable(filterData)
+        }
         async function clearCache() {
             var a = await getAll()
-            if(a){
-                a.forEach(e=>{del(e.id)})
+            if (a) {
+                a.forEach(e => { del(e.id) })
             }
         }
+
+        function capitalizeFirstLetter(sentence) {
+            return sentence.charAt(0).toUpperCase() + sentence.slice(1);
+        }
+
+        investorSelectField = {
+            "trading_date": "ngày giao dịch",
+            "close_value": "giá đóng cửa",
+            "total_buy": "tổng mua",
+            "total_sell": "tổng bán",
+            "total_buy_matched": "tổng mua khớp",
+            "total_sell_matched": "tổng bán khớp",
+            "foreign_buy_matched": "mua khối ngoại khớp",
+            "foreign_sell_matched": "bán khối ngoại khớp",
+            "foreign_buy": "mua khối ngoại",
+            "foreign_sell": "bán khối ngoại",
+            "proprietary_buy_matched": "mua tự doanh khớp",
+            "proprietary_sell_matched": "bán tự doanh khớp",
+            "proprietary_buy": "mua tự doanh",
+            "proprietary_sell": "bán tự doanh",
+            "local_individual_buy_matched": "mua cá nhân(TN) khớp",
+            "local_individual_sell_matched": "bán cá nhân(TN) khớp",
+            "local_individual_buy": "mua cá nhân(TN)",
+            "local_individual_sell": "bán cá nhân(TN)",
+            "local_institutional_buy_matched": "mua tổ chức(TN) khớp",
+            "local_institutional_sell_matched": "bán tổ chức(TN) khớp",
+            "local_institutional_buy": "mua tổ chức(TN)",
+            "local_institutional_sell": "bán tổ chức(TN)",
+            "foreign_individual_buy_matched": "mua cá nhân(NN) khớp",
+            "foreign_individual_sell_matched": "bán cá nhân(NN) khớp",
+            "foreign_individual_buy": "mua cá nhân(NN)",
+            "foreign_individual_sell": "bán cá nhân(NN)",
+            "foreign_institutional_buy_matched": "mua tổ chức(NN) khớp",
+            "foreign_institutional_sell_matched": "bán tổ chức(NN) khớp",
+            "foreign_institutional_buy": "mua tổ chức(NN)",
+            "foreign_institutional_sell": "bán tổ chức(NN)"
+        }
+
+        let options = '<option value="">-- Select an option --</option>'
+        Object.keys(investorSelectField).forEach(f => {
+            investorSelectField[f] = capitalizeFirstLetter(investorSelectField[f])
+            options += '<option value="' + f + '">' + investorSelectField[f] + '</option>'
+        })
+        $('#dropdown').html(options)
+
+        investorFiled = { 'code': 'Mã', ...investorSelectField }
 
         const url = new URL(window.location.href);
         const queryParams = url.searchParams;
@@ -492,6 +607,11 @@
         var statDay = queryParams.get('statDay');
         if (!statDay) statDay = 30
         else statDay = +statDay
+
+        var limit = queryParams.get('limit');
+        if (!limit) limit = 1000
+        else limit = +limit
+        console.log("limit", limit)
         let table;
         function filterGlobal(table) {
             let filter = document.querySelector('#global_filter');
@@ -541,97 +661,120 @@
             return `${day}/${month}`;
         }
 
-        let fields = [
-            "code", "trading_date", "close_value", "foreign_buy_matched", "foreign_sell_matched", "foreign_buy", "foreign_sell", "proprietary_buy_matched", "proprietary_sell_matched", "proprietary_buy", "proprietary_sell", "local_individual_buy_matched", "local_individual_sell_matched", "local_individual_buy", "local_individual_sell", "local_institutional_buy_matched", "local_institutional_sell_matched", "local_institutional_buy", "local_institutional_sell", "foreign_individual_buy_matched", "foreign_individual_sell_matched", "foreign_individual_buy", "foreign_individual_sell", "foreign_institutional_buy_matched", "foreign_institutional_sell_matched", "foreign_institutional_buy", "foreign_institutional_sell"
-        ]
+        // let fields = [
+        //     "code", "trading_date", "close_value", "foreign_buy_matched", "foreign_sell_matched", "foreign_buy", "foreign_sell", "proprietary_buy_matched", "proprietary_sell_matched", "proprietary_buy", "proprietary_sell", "local_individual_buy_matched", "local_individual_sell_matched", "local_individual_buy", "local_individual_sell", "local_institutional_buy_matched", "local_institutional_sell_matched", "local_institutional_buy", "local_institutional_sell", "foreign_individual_buy_matched", "foreign_individual_sell_matched", "foreign_individual_buy", "foreign_individual_sell", "foreign_institutional_buy_matched", "foreign_institutional_sell_matched", "foreign_institutional_buy", "foreign_institutional_sell"
+        // ]
+        let fields = [...Object.keys(investorFiled)]
 
         // $.fn.dataTable.ext.errMode = 'none';
 
+        let additionalTranslations = {
+            "total_delta": "delta tổng ",
+            "foreign_delta": "delta khối ngoại",
+            "proprietary_delta": "delta tự doanh",
+            "local_individual_delta": "delta cá nhân(TN)",
+            "local_institutional_delta": "delta tổ chức(TN)",
+            "foreign_individual_delta": "delta cá nhân(NN)",
+            "foreign_institutional_delta": "delta tổ chức(NN)",
+        };
+        Object.keys(additionalTranslations).forEach(f => {
+            additionalTranslations[f] = capitalizeFirstLetter(additionalTranslations[f])            
+        })
+
+        investorFiled2 = {...additionalTranslations,...investorFiled}
+
         updateData = (response) => {
-            statsHead = document.querySelector('#headTable')
-            statsHead.innerHTML = ''
-            var theadRow = document.createElement('tr');
-            statsHead.appendChild(theadRow);
-            let x0 = response[0]
-            Object.keys(x0).forEach(k => {
-                var th = document.createElement('th');
-                th.innerHTML = '<span>' + k + '</span>'
-                theadRow.appendChild(th);
-            })
-
-            $('#myTable').DataTable(
-                {
-                    "ajax": function (data, callback, settings) {
-                        let out = [];
-                        for (var i = data.start, ien = data.start + data.length; i < Math.min(ien,response.length); i++) {
-                            out.push(response[i]);
-                        }
-                        callback({
-                            draw: data.draw,
-                            data: out,
-                            recordsTotal: response.length,
-                            recordsFiltered: response.length,
-                        });
-                    },
-                 
-                    fixedHeader: {
-                        // header: true,
-                        // footer: true
-                    },
-                    fixedColumns: {
-                        left: 1,
-                        left: 2,
-                        // right: 1
-                    },
-                    columns: [
-                        ...fields.map(e => { return { data: e, orderable: true, searchable: true } })
-                    ],
-                    columnDefs: [
-
+            response.sort((a, b) => { return b.trading_date - a.trading_date })
+            sheet = processInvestor(response)
+            updateRawTable = (data) => {
+                if (!$.fn.DataTable.isDataTable('#myTable')) {
+                    statsHead = document.querySelector('#headTable')
+                    statsHead.innerHTML = ''
+                    var theadRow = document.createElement('tr');
+                    statsHead.appendChild(theadRow);
+                    // let x0 = data[0]
+                    fields.forEach(k => {
+                        var th = document.createElement('th');
+                        th.innerHTML = '<span>' + investorFiled[k] + '</span>'
+                        theadRow.appendChild(th);
+                    })
+                    // console.table(response.slice(0,100))
+                    $('#myTable').DataTable(
                         {
-                            targets: 1,
-                            "width": "20%",
-                            render: function (data, type, row, meta) {
-                                if (type == 'display') {
-                                    data = data + '|' + formatDate2(new Date(data * 1000))
-                                }
-                                return data;
-                            }
-                        },
-                        {
-                            targets: Array.from({ length: 24 }, (_, index) => index + 3),
-                            render: function (data, type, row, meta) {
-                                if (type == 'display') {
-                                    if (Number.isInteger(data)) {
-                                        data = numeral(data).format('0,0')
-                                    } else {
-                                        data = numeral(data).format('0,0.00')
+                            // "ajax": function (data, callback, settings) {
+                            //     let out = [];
+                            //     for (var i = data.start, ien = data.start + data.length; i < Math.min(ien, response.length); i++) {
+                            //         out.push(response[i]);
+                            //     }
+                            //     callback({
+                            //         draw: data.draw,
+                            //         data: out,
+                            //         recordsTotal: response.length,
+                            //         recordsFiltered: response.length,
+                            //     });
+                            // },
+
+                            fixedHeader: {
+                                // header: true,
+                                // footer: true
+                            },
+                            fixedColumns: {
+                                left: 1,
+                                left: 2,
+                                // right: 1
+                            },
+                            columns: [
+                                ...fields.map(e => { return { data: e, orderable: true, searchable: true } })
+                            ],
+                            columnDefs: [
+
+                                {
+                                    targets: 1,
+                                    "width": "20%",
+                                    render: function (data, type, row, meta) {
+                                        if (type == 'display') {
+                                            data = formatDate(new Date(data * 1000))
+                                        }
+                                        return data;
                                     }
-                                }
-                                return data
-                            }
-                        },
-                    ],
-                    order: [[2, 'desc']],
-                    processing: true,
-                    ordering: true,
-                    scroller: true,
-                    // scrollY: 200,
-                    searching: true,
-                    // serverSide: true,
-                    lengthMenu: [30, 50, 100, 200, 500, 2000],
-                    dom: 'lBfrtip',
-                    buttons: [
-                        'copy',
-                        'excel', 'pdf',
-                        'colvis'
-                    ]
+                                },
+                                {
+                                    targets: Array.from({ length: 24 }, (_, index) => index + 3),
+                                    render: function (data, type, row, meta) {
+                                        if (type == 'display') {
+                                            if (Number.isInteger(data)) {
+                                                data = numeral(data).format('0,0')
+                                            } else {
+                                                data = numeral(data).format('0,0.00')
+                                            }
+                                        }
+                                        return data
+                                    }
+                                },
+                            ],
+                            order: [[2, 'desc']],
+                            processing: true,
+                            ordering: true,
+                            scroller: true,
+                            // scrollY: 200,
+                            searching: true,
+                            // serverSide: true,
+                            lengthMenu: [30, 50, 100, 200, 500, 2000],
+                            dom: 'lBfrtip',
+                            buttons: [
+                                'copy',
+                                'excel', 'pdf',
+                                'colvis'
+                            ]
 
+                        }
+                    );
                 }
-            );
-            table = $('#myTable').DataTable();
-            table.clear();
-            table.rows.add(response).draw()
+                table = $('#myTable').DataTable();
+                table.clear();
+                table.rows.add(data).draw()
+            }
+            updateRawTable(investorDataNew.slice(0, limit))
 
             // $('#myTable').DataTable({
             //     "ajax": function (data, callback, settings) {
@@ -649,108 +792,111 @@
             //     }
             // });
 
-            sheet = processInvestor(response)
+
             // console.table(response)
+            updateSumTable = (data) => {
+                let sumField = [
+                    "code",
+                    "trading_date",
+                    "total_delta",
+                    "foreign_delta",
+                    "proprietary_delta",
+                    "local_individual_delta",
+                    "local_institutional_delta",
+                    "foreign_individual_delta",
+                    "foreign_institutional_delta",
+                    "total_buy_matched",
+                    "total_sell_matched",
+                    "foreign_buy_matched",
+                    "foreign_sell_matched",
+                    "proprietary_buy_matched",
+                    "proprietary_sell_matched",
+                    "local_individual_buy_matched",
+                    "local_individual_sell_matched",
+                    "local_institutional_buy_matched",
+                    "local_institutional_sell_matched",
+                    "foreign_individual_buy_matched",
+                    "foreign_individual_sell_matched",
+                    "foreign_institutional_buy_matched",
+                    "foreign_institutional_sell_matched",
+                ]
 
-            let sumField = [
-                "code",
-                "trading_date",
-                "total_delta",
-                "foreign_delta",
-                "proprietary_delta",
-                "local_individual_delta",
-                "local_institutional_delta",
-                "foreign_individual_delta",
-                "foreign_institutional_delta",
-                "total_buy_matched",
-                "total_sell_matched",
-                "foreign_buy_matched",
-                "foreign_sell_matched",
-                "proprietary_buy_matched",
-                "proprietary_sell_matched",
-                "local_individual_buy_matched",
-                "local_individual_sell_matched",
-                "local_institutional_buy_matched",
-                "local_institutional_sell_matched",
-                "foreign_individual_buy_matched",
-                "foreign_individual_sell_matched",
-                "foreign_institutional_buy_matched",
-                "foreign_institutional_sell_matched",
-            ]
+                statsHead = document.querySelector('#headSumTable')
+                statsHead.innerHTML = ''
+                var theadRow = document.createElement('tr');
+                statsHead.appendChild(theadRow);
 
-            statsHead = document.querySelector('#headSumTable')
-            statsHead.innerHTML = ''
-            var theadRow = document.createElement('tr');
-            statsHead.appendChild(theadRow);
+                sumField.forEach(k => {
+                    var th = document.createElement('th');
+                    th.innerHTML = '<span>' + investorFiled2[k] + '</span>'
+                    theadRow.appendChild(th);
+                })
 
-            sumField.forEach(k => {
-                var th = document.createElement('th');
-                th.innerHTML = '<span>' + k + '</span>'
-                theadRow.appendChild(th);
-            })
-
-            $('#sumTable').DataTable(
-                {
-                    fixedHeader: {
-                        // header: true,
-                        // footer: true
-                    },
-                    fixedColumns: {
-                        left: 1,
-                        left: 2,
-                        // right: 1
-                    },
-                    columns: [
-                        ...sumField.map(e => { return { data: e, orderable: true, searchable: true } })
-                    ],
-                    columnDefs: [
-
-                        {
-                            targets: 1,
-                            "width": "5%",
-                            render: function (data, type, row, meta) {
-                                if (type == 'display') {
-                                    data = formatDate(new Date(data * 1000))
-                                }
-                                return data;
-                            }
+                $('#sumTable').DataTable(
+                    {
+                        fixedHeader: {
+                            // header: true,
+                            // footer: true
                         },
-                        {
-                            targets: Array.from({ length: 20 }, (_, index) => index + 3),
-                            render: function (data, type, row, meta) {
-                                if (type == 'display') {
-                                    if (Number.isInteger(data)) {
-                                        data = numeral(data).format('0,0')
-                                    } else {
-                                        data = numeral(data).format('0,0.00')
+                        fixedColumns: {
+                            left: 1,
+                            left: 2,
+                            // right: 1
+                        },
+                        columns: [
+                            ...sumField.map(e => { return { data: e, orderable: true, searchable: true } })
+                        ],
+                        columnDefs: [
+
+                            {
+                                targets: 1,
+                                "width": "5%",
+                                render: function (data, type, row, meta) {
+                                    if (type == 'display') {
+                                        data = formatDate(new Date(data * 1000))
                                     }
+                                    return data;
                                 }
-                                return data
-                            }
-                        },
-                    ],
-                    order: [[2, 'desc']],
-                    processing: true,
-                    ordering: true,
-                    scroller: true,
-                    // scrollY: 200,
-                    searching: true,
-                    // serverSide: true,
-                    lengthMenu: [30, 50, 100, 200, 500, 2000],
-                    dom: 'lBfrtip',
-                    buttons: [
-                        'copy',
-                        'excel', 'pdf',
-                        'colvis'
-                    ]
+                            },
+                            {
+                                targets: Array.from({ length: 21 }, (_, index) => index + 2),
+                                render: function (data, type, row, meta) {
+                                    if (type == 'display') {
+                                        if (Number.isInteger(data)) {
+                                            data = numeral(data).format('0,0')
+                                        } else {
+                                            data = numeral(data).format('0,0.00')
+                                        }
+                                    }
+                                    return data
+                                }
+                            },
+                        ],
+                        order: [[2, 'desc']],
+                        processing: true,
+                        ordering: true,
+                        scroller: true,
+                        // scrollY: 200,
+                        searching: true,
+                        // serverSide: true,
+                        lengthMenu: [30, 50, 100, 200, 500, 2000],
+                        dom: 'lBfrtip',
+                        buttons: [
+                            'copy',
+                            'excel', 'pdf',
+                            'colvis'
+                        ]
 
-                }
-            );
+                    }
+                );
 
-            var table2 = $('#sumTable').DataTable();
-            table2.clear();
-            table2.rows.add(sheet[statDay]).draw()
+                var table2 = $('#sumTable').DataTable();
+                table2.clear();
+                table2.rows.add(data).draw()
+            }
+            updateSumTable(sheet[statDay])
         }
+        var investorDataStore;
 
         function updateDataTable(data) {
             if (!data) {
@@ -759,6 +905,7 @@
                     method: 'GET',
                     success: function (response) {
                         add({ id: formatDate(new Date()), data: response }) //Add indexedDb
+                        investorDataStore = response;
                         updateData(response)
                     },
                     error: function (error) {
@@ -851,7 +998,6 @@
             })
         }
 
-
         dbPromise.then(async d => {
             pGetALl = getAll()
             pGetALl.then(a => {
@@ -871,6 +1017,7 @@
                 if (!d) {
                     updateDataTable()
                 } else {
+                    investorDataStore = d.data;
                     updateDataTable(d.data)
                 }
             })
@@ -917,7 +1064,7 @@
                 return ne;
             })
             let investorDataDays = {}
-            investorData.forEach(e => {
+            investorDataNew.forEach(e => {
                 if (!investorDataDays[e.code]) investorDataDays[e.code] = []
                 investorDataDays[e.code].push(e)
             })
@@ -930,6 +1077,8 @@
             // console.table(investorDataDays['HPG'])
 
             let days = date.split(',').map(e => +e)
+            if (!days.includes(statDay)) { days.push(statDay) }
+
             let investorDataDaySlide = {}
             s.forEach(e => {
                 days.forEach(d => {
@@ -999,6 +1148,7 @@
             return sheet;
         }
     </script>
+    <script src="script.js"></script>
 </body>
 
 </html>

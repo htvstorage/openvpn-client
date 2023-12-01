@@ -171,8 +171,18 @@ function writeArrayJson2XlsxNew(filename, ...args) {
 
       fs.writeFileSync(dir + "/investorData" + getNow() + ".json", JSON.stringify(investorData))
     } else {
-      let buff = fs.readFileSync(dir + "/investorData" + getNow() + ".json", "utf-8")
-      investorData = JSON.parse(buff)
+      let files = fs.readdirSync(dir)
+      files = files.filter(e => e.endsWith(".json"))
+      // console.table(files)
+      let combineData = {}
+      for (let f of files) {
+        let buff = fs.readFileSync(dir + "/" + f, "utf-8")
+        var data = JSON.parse(buff)
+        data.forEach(e=>{
+          combineData[e.code+'-'+e.trading_date] = e
+        })
+      }
+      investorData = Object.values(combineData)
     }
 
     if (parentPort) {
