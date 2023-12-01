@@ -956,17 +956,18 @@ Exchange.CafeF.DataHistory = async function (code, date) {
   }
   data = JSON.parse(data);
   let side = ["bu", "sd"]
-  data = data.Data.DlChiTiet.map(e => {
-    let en = { symbol: code };
-    en.time = e.ThoiGian
-    en.match_qtty = Math.round(e.KLLo * 10)
-    en.change = +e.GiaThayDoi.slice(0, e.GiaThayDoi.indexOf(" (")).trim().replaceAll("--", "-") * 1000
-    en.price = e.Gia * 1000
-    en.side = side[Math.floor(Math.random() * side.length)]
-    en.total_vol = Math.round(+e.KLTichLuy * 10);
-    return en
-  })
-
+  if (data.Data) {
+    data = data.Data.DlChiTiet.map(e => {
+      let en = { symbol: code };
+      en.time = e.ThoiGian
+      en.match_qtty = Math.round(e.KLLo * 10)
+      en.change = +e.GiaThayDoi.slice(0, e.GiaThayDoi.indexOf(" (")).trim().replaceAll("--", "-") * 1000
+      en.price = e.Gia * 1000
+      en.side = side[Math.floor(Math.random() * side.length)]
+      en.total_vol = Math.round(+e.KLTichLuy * 10);
+      return en
+    })
+  }
   // console.table(data);
   return { Code: code, data: data };
 }
@@ -1274,7 +1275,7 @@ Exchange.SSI.graphql2 = async function (code) {
         return "";
       }
     }
-  }  
+  }
   while (!thoat) {
     // console.log("call ", code, lastId)
     let a = await fetchGQL(code, lastId);
@@ -1286,7 +1287,7 @@ Exchange.SSI.graphql2 = async function (code) {
     }
     data = data.trim();
 
-    let loi = 0;    
+    let loi = 0;
     while (!(data.startsWith("{") && data.endsWith("}"))) {
       if (logger.isDebugEnabled) {
         // logger.debug(data)
@@ -1694,7 +1695,7 @@ Exchange.MBS.pbRltCharts3 = async function (code, resolution) {
   // console.log("resolution",resolution)
   let start = 1421028900;
   let end = Math.floor(Date.now() / 1000);
-  start = end - 5 * 24*60*60;
+  start = end - 5 * 24 * 60 * 60;
   let delta = 12 * 30 * 24 * 60 * 60;
   let end2 = start + delta;
   let out = { t: [], v: [], o: [], c: [], h: [], l: [] };
