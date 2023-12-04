@@ -24,6 +24,7 @@ log4js.configure({
   },
 });
 
+const FORCE=process.env.FORCE
 
 let investor = async function (code) {
 
@@ -116,7 +117,7 @@ function writeArrayJson2XlsxNew(filename, ...args) {
       fs.mkdirSync(dir, { recursive: true });
     }
     let investorData = []
-    if (!fs.existsSync(dir + "/investorData" + getNow() + ".json")) {
+    if (!fs.existsSync(dir + "/investorData" + getNow() + ".json") || FORCE) {
       let maxSize = 100;
       let stat = { req: 0, res: 0, record: 0 }
       total_check = cop.length;
