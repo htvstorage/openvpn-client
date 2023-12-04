@@ -269,6 +269,8 @@
                 <tr>
                     <th>Sector</th>
                     <th>Thời gian</th>
+                    <th>Toàn ngành<br />(%)</th>
+                    <th>Mã lớn<br />(%)</th>
                     <th>Mã Trần</th>
                     <th>Mã Tăng</th>
                     <th>Mã Đứng Giá</th>
@@ -279,6 +281,8 @@
             <tfoot id="footTable">
                 <tr>
                     <th>Thống kê</th>
+                    <th></th>
+                    <th></th>
                     <th></th>
                     <th></th>
                     <th></th>
@@ -500,8 +504,9 @@
                                 size: 8 // Set the font size for the text labels
                             },
                             formatter: function (value, context) {
-                                  if(value === 0){return ''}
-                                if(value <5){return value}
+                                if (!percent) return value;
+                                if (value === 0) { return '' }
+                                if (value < 5) { return value }
                                 return value + "%"; // Display the value as the text label
                             }
                         }
@@ -518,7 +523,7 @@
         var combineChartVal = createChart('stackedsectorsVal');
 
 
-        let fields = ["sector", "time"
+        let fields = ["sector", "time", "all", "allBig"
             , "tran", "tang", "thamchieu", "giam", "san",
         ]
 
@@ -536,9 +541,27 @@
                 },
                 columnDefs: [
 
-                    { targets: 1, "width": "5%" },
+                    { targets: [1, 2, 3], "width": "2%" },
                     {
-                        targets: [2, 3, 4, 5, 6],
+                        targets: [2, 3],
+                        render: function (data, type, row, meta) {
+                            var dataout = ''
+                            if (type === 'display') {
+                                var color = 'blue'
+                                var symbols = []
+                                if (meta.col == 3) {
+                                    symbols = row['allBigO']
+                                } else {
+                                    symbols = row['allO']
+                                }
+                                var x=Object.values(symbols).sort((a,b)=>{return b.pct -a.pct})
+                                dataout += '<span style="color: ' + color + ';" class="tooltip2"    data-tooltip=\'' + JSON.stringify(x) + '\'>' + data + '</span>';
+                            }
+                            return data + ' ' + dataout;
+                        }
+                    },
+                    {
+                        targets: [4, 5, 6, 7, 8],
                         render: function (data, type, row, meta) {
                             let a = Object.values(data).sort((a, b) => {
                                 switch (sortby) {
@@ -556,13 +579,7 @@
                                 a.forEach(s => {
                                     count++;
                                     var color = 'blue'
-
-                                    color = count % 2 === 0 ? 'blue' : 'green';
-                                    if (count % 5 === 0) {
-                                        // dataout += '<br/>'
-                                    }
-
-                                    // console.log(JSON.stringify(s))
+                                    color = count % 2 === 0 ? 'blue' : 'green';                                  
                                     dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';" class="tooltip"    data-tooltip=\'' + JSON.stringify(s) + '\'>(' + s.symbol + ':' + s.pct + ')</span> </a>';
                                     // dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';" class="tooltip"    data-tooltipster=\'' + JSON.stringify(s) + '\'>(' + s.symbol + ':' + s.pct + ')</span> </a>';
                                     // dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';" class="tooltip"   data-tooltip="' + s.bu_val + '<br/>' + s.sd_val + '">(' + s.symbol + ':' + s.pct + ')</span> </a>';
@@ -662,6 +679,9 @@
                     let statsAll = []
                     // console.table(response)
 
+                    let total = (d) => {
+                        return vf(d['bu_val']) + vf(d['sd_val']) + vf(d['unknown_val'])
+                    }
 
                     if (sectorCodeList) {
                         let sectorStat = {}
@@ -688,9 +708,7 @@
                             var lastTime = '';
                             var lastT = 0
 
-                            let total = (d) => {
-                                return vf(d['bu_val']) + vf(d['sd_val']) + vf(d['unknown_val'])
-                            }
+
                             e.codeList.forEach(
                                 s => {
                                     let symbolData = mapSymbol[s];
@@ -793,7 +811,7 @@
                             if (t > 0) {
                                 Object.keys(stat).forEach(k => {
                                     if (percent)
-                                        stat[k] = Math.floor(stat[k] / t * 1000)/10
+                                        stat[k] = Math.floor(stat[k] / t * 1000) / 10
                                 })
                             }
                             // console.log(e.vietnameseName)
@@ -834,7 +852,26 @@
                         var sectorTable = {}
                         Object.keys(sectorStat).forEach(sector => {
                             var sd = sectorStat[sector]
-                            sectorTable[sector] = { sector: sector, time: sd.time, T: sd.T, ...sd.statSymbol }
+                            var all = {}
+                            var allBig = {}
+                            Object.keys(sd.statSymbol).forEach(e => {
+                                var d = sd.statSymbol[e];
+                                Object.keys(d).forEach(s => {
+                                    all[s] = d[s]
+                                    if (total(d[s]) >= valMin) {
+                                        allBig[s] = d[s]
+                                    }
+                                })
+                            })
+                            var a = Object.values(all);
+                            var all1 = '';
+                            if (a.length > 0)
+                                all1 = Math.floor(a.reduce((x, y) => vf(y.pct) + x, 0) / a.length * 100) / 100
+                            a = Object.values(allBig);
+                            var allBig1 = ''
+                            if (a.length > 0)
+                                allBig1 = Math.floor(Object.values(allBig).reduce((x, y) => vf(y.pct) + x, 0) / a.length * 100) / 100
+                            sectorTable[sector] = { sector: sector, time: sd.time, T: sd.T, all: all1, allO: all, allBig: allBig1, allBigO: allBig, ...sd.statSymbol }
                         })
 
                         // console.table(sectorTable)
@@ -866,6 +903,17 @@
                             side: 'top'
                         });
 
+                        $('.tooltip2').tooltipster({
+                            functionInit: function (instance, helper) {
+                                var content = $(helper.origin).data('tooltip')
+                                instance.content(() => {
+                                    return generateDynamicContent2(content)
+                                });
+                            },
+                            timer: 15000,
+                            theme: 'my-custom-theme',
+                            side: 'top'
+                        });
                         // // Initialize Tooltipster for all elements with the 'tooltip' class
 
                         // function generateDynamicContent() {
@@ -914,6 +962,22 @@
                             ;
                         }
 
+                        function generateDynamicContent2(data) {
+                            // You can generate dynamic content based on your logic
+                            var out = '<div class="tooltipContainer"><h2 style="font-weight: bold; color: red;">Thông tin mã.</h2>' +
+                                '<ul>'
+
+                            data.forEach(s => {
+                                out += '<li> Mã ' + s.symbol
+                                    + '<span style="font-weight: bold; color: magenta;">: ' + s.pct + '</span>'
+                                    + '</li>'
+
+                            })
+                            out += '</ul>' +
+                                '<img src="logo.5ecddcbe.svg" alt="Your Image"> </div>';
+                            return out;
+                        }
+
                         // $('.tooltip').tooltipster({
                         //     functionInit: function (instance, helper) {
 
@@ -941,11 +1005,11 @@
                         var theadRow = document.createElement('tr');
                         statsHead.appendChild(theadRow);
 
-                        label1 = ['Thống kê', '', 'Tổng', 'Tổng', 'Tổng', 'Tổng', 'Tổng',]
-                        sum = [, , marketStat.CEILING, marketStat.UP, marketStat.REF, marketStat.DOWN, marketStat.FLOOR]
+                        label1 = ['Thống kê', '', '', '', 'Tổng', 'Tổng', 'Tổng', 'Tổng', 'Tổng',]
+                        sum = [, , , , marketStat.CEILING, marketStat.UP, marketStat.REF, marketStat.DOWN, marketStat.FLOOR]
                         for (var i = 0; i < label1.length; i++) {
                             var th = document.createElement('th');
-                            if (i <= 1) {
+                            if (i <= 3) {
                                 th.textContent = label1[i];
                             } else {
                                 th.innerHTML = '<div>' + label1[i] + '</div>\n<div>' + numeral(sum[i].count).format('0,0') + '</div>'
