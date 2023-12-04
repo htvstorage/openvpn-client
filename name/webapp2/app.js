@@ -24,7 +24,7 @@ let vf = (v) => {
   if (v) { return v } else return 0
 }
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.static('public'));
 

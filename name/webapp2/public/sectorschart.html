@@ -500,6 +500,8 @@
                                 size: 8 // Set the font size for the text labels
                             },
                             formatter: function (value, context) {
+                                  if(value === 0){return ''}
+                                if(value <5){return value}
                                 return value + "%"; // Display the value as the text label
                             }
                         }
@@ -791,7 +793,7 @@
                             if (t > 0) {
                                 Object.keys(stat).forEach(k => {
                                     if (percent)
-                                        stat[k] = stat[k] / t * 100
+                                        stat[k] = Math.floor(stat[k] / t * 1000)/10
                                 })
                             }
                             // console.log(e.vietnameseName)
