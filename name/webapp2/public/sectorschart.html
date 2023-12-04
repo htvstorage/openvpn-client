@@ -376,7 +376,8 @@
                 }
             }
         };
-
+        let labelValue;
+        let labelValue2;
         function createChart(symbol, plugins) {
             //combineChart
             const ctxCombineChart = document.getElementById(symbol + 'Chart').getContext('2d');
@@ -499,11 +500,26 @@
                     plugins: {
                         zoom: zoomOptions,
                         datalabels: {
-                            color: 'white',
+                            align: symbol === 'stackedsectorsVal' ? 'end' : 'center',
+                            anchor: symbol === 'stackedsectorsVal' ? 'end' : 'center',
+                            // offset: 4,
+                            color: symbol === 'stackedsectorsVal' ? 'blue' : 'white',
                             font: {
                                 size: 8 // Set the font size for the text labels
                             },
                             formatter: function (value, context) {
+                                if (symbol === 'stackedsectorsVal') {
+                                    if (context.dataset.label === 'Mã sàn') {
+                                        if (labelValue) {
+                                            return labelValue2[context.dataIndex]+'(%) ' + numeral(labelValue[context.dataIndex]).format('0,0');
+                                        }
+                                        else
+                                            return value
+                                    }
+                                    else {
+                                        return ''
+                                    }
+                                }
                                 if (!percent) return value;
                                 if (value === 0) { return '' }
                                 if (value < 5) { return value }
@@ -520,7 +536,7 @@
 
 
         var combineChart = createChart('stackedsectors', [ChartDataLabels]);
-        var combineChartVal = createChart('stackedsectorsVal');
+        var combineChartVal = createChart('stackedsectorsVal', [ChartDataLabels]);
 
 
         let fields = ["sector", "time", "all", "allBig"
@@ -548,13 +564,14 @@
                             var dataout = ''
                             if (type === 'display') {
                                 var color = 'blue'
+                                // console.log(row)
                                 var symbols = []
                                 if (meta.col == 3) {
                                     symbols = row['allBigO']
                                 } else {
                                     symbols = row['allO']
                                 }
-                                var x=Object.values(symbols).sort((a,b)=>{return b.pct -a.pct})
+                                var x = Object.values(symbols).sort((a, b) => { return b.pct - a.pct })
                                 dataout += '<span style="color: ' + color + ';" class="tooltip2"    data-tooltip=\'' + JSON.stringify(x) + '\'>' + data + '</span>';
                             }
                             return data + ' ' + dataout;
@@ -579,7 +596,7 @@
                                 a.forEach(s => {
                                     count++;
                                     var color = 'blue'
-                                    color = count % 2 === 0 ? 'blue' : 'green';                                  
+                                    color = count % 2 === 0 ? 'blue' : 'green';
                                     dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';" class="tooltip"    data-tooltip=\'' + JSON.stringify(s) + '\'>(' + s.symbol + ':' + s.pct + ')</span> </a>';
                                     // dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';" class="tooltip"    data-tooltipster=\'' + JSON.stringify(s) + '\'>(' + s.symbol + ':' + s.pct + ')</span> </a>';
                                     // dataout += '<a href="timeline?symbols=' + encodeURIComponent(s.symbol) + '"  target="_blank" class="custom-link"> <span style="color: ' + color + ';" class="tooltip"   data-tooltip="' + s.bu_val + '<br/>' + s.sd_val + '">(' + s.symbol + ':' + s.pct + ')</span> </a>';
@@ -659,6 +676,7 @@
         let timeout = 0;
         let lastMd5 = ''
         let lastAJAX = 0
+
         function updateDataTable() {
             if (Date.now() - lastAJAX <= timeout) {
                 return;
@@ -833,6 +851,15 @@
                             sum[f] = Object.values(sectorStat).map(e => e.accum[f].bu_val + e.accum[f].sd_val + e.accum[f].unknown_val)
                         })
 
+                        labelValue = Object.values(sectorStat).map(e => {
+                            return F.map(f => {
+                                return e.accum[f].bu_val + e.accum[f].sd_val + e.accum[f].unknown_val
+                            }).reduce((a, b) => { return a + b }, 0)
+                        })
+
+                        var totalVal = labelValue.reduce((a, b) => a+b, 0)
+                        labelValue2 = labelValue.map(e => Math.floor(e / totalVal * 10000) / 100)
+
                         combineChart.data.labels = labels
                         combineChart.data.datasets[0].data = tran
                         combineChart.data.datasets[1].data = tang
@@ -847,7 +874,9 @@
                         combineChartVal.data.datasets[1].data = sum.UP
                         combineChartVal.data.datasets[2].data = sum.REF
                         combineChartVal.data.datasets[3].data = sum.DOWN
-                        combineChartVal.data.datasets[4].data = san.FLOOR
+                        combineChartVal.data.datasets[4].data = sum.FLOOR
+                        combineChartVal.options.plugins.datalabels;
+                        console.log(sum.FLOOR)
                         combineChartVal.update();
                         var sectorTable = {}
                         Object.keys(sectorStat).forEach(sector => {
@@ -968,8 +997,26 @@
                                 '<ul>'
 
                             data.forEach(s => {
+                                var color = 'gold'
+                                if (s.pct > 0) {
+                                    if (s.price === s.ceiling) {
+                                        color = "magenta"
+                                    } else {
+                                        color = "green"
+                                    }
+                                }
+                                if (s.pct < 0) {
+                                    if (s.price === s.floor) {
+                                        color = "cyan"
+                                    } else {
+                                        color = "red"
+                                    }
+                                }
+                                var format = ''
+                                if (total(s) < 1000000000) format = '0,0.000'
+                                else format = '0,0.00'
                                 out += '<li> Mã ' + s.symbol
-                                    + '<span style="font-weight: bold; color: magenta;">: ' + s.pct + '</span>'
+                                    + '<span style="font-weight: bold; color: ' + color + ';">: ' + s.pct + ' ' + numeral(total(s) / 1000000000).format(format) + '(Tỉ)</span>'
                                     + '</li>'
 
                             })
