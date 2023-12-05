@@ -538,7 +538,7 @@
                     if (globalFrom.length > 0) val = val && (e[searchField] >= +globalFrom)
                     if (globalTo.length > 0) val = val && (e[searchField] <= +globalTo)
                 }
-                if (codeFilter.length > 0) val = val && (e['code'] == codeFilter)
+                if (codeFilter.length > 0) val = val && (e['code'] == codeFilter.toUpperCase())
                 if (td.length > 0) val = val && (e['trading_date'] * 1000 == +moment(td, 'YYYY-MM-DD').format("x"))
                 if (td_from.length > 0) val = val && (e['trading_date'] * 1000 >= +moment(td_from, 'YYYY-MM-DD').format("x"))
                 if (td_to.length > 0) val = val && (e['trading_date'] * 1000 <= +moment(td_to, 'YYYY-MM-DD').format("x"))
@@ -559,8 +559,14 @@
         }
 
         investorSelectField = {
-            "trading_date": "ngày giao dịch",
             "close_value": "giá đóng cửa",
+            // "total_delta": "delta tổng ",
+            "foreign_delta": "delta khối ngoại",
+            "proprietary_delta": "delta tự doanh",
+            "local_individual_delta": "delta cá nhân(TN)",
+            "local_institutional_delta": "delta tổ chức(TN)",
+            "foreign_individual_delta": "delta cá nhân(NN)",
+            "foreign_institutional_delta": "delta tổ chức(NN)",
             "total_buy": "tổng mua",
             "total_sell": "tổng bán",
             "total_buy_matched": "tổng mua khớp",
@@ -598,7 +604,7 @@
         })
         $('#dropdown').html(options)
 
-        investorFiled = { 'code': 'Mã', ...investorSelectField }
+        investorFiled = { 'code': 'Mã', "trading_date": "Ngày giao dịch", ...investorSelectField }
 
         const url = new URL(window.location.href);
         const queryParams = url.searchParams;
@@ -669,7 +675,7 @@
         // $.fn.dataTable.ext.errMode = 'none';
 
         let additionalTranslations = {
-            "total_delta": "delta tổng ",
+            // "total_delta": "delta tổng ",
             "foreign_delta": "delta khối ngoại",
             "proprietary_delta": "delta tự doanh",
             "local_individual_delta": "delta cá nhân(TN)",
@@ -678,10 +684,10 @@
             "foreign_institutional_delta": "delta tổ chức(NN)",
         };
         Object.keys(additionalTranslations).forEach(f => {
-            additionalTranslations[f] = capitalizeFirstLetter(additionalTranslations[f])            
+            additionalTranslations[f] = capitalizeFirstLetter(additionalTranslations[f])
         })
 
-        investorFiled2 = {...additionalTranslations,...investorFiled}
+        investorFiled2 = { ...additionalTranslations, ...investorFiled }
 
         updateData = (response) => {
             response.sort((a, b) => { return b.trading_date - a.trading_date })
@@ -739,7 +745,7 @@
                                     }
                                 },
                                 {
-                                    targets: Array.from({ length: 24 }, (_, index) => index + 3),
+                                    targets: Array.from({ length: 34 }, (_, index) => index + 3),
                                     render: function (data, type, row, meta) {
                                         if (type == 'display') {
                                             if (Number.isInteger(data)) {
@@ -798,7 +804,7 @@
                 let sumField = [
                     "code",
                     "trading_date",
-                    "total_delta",
+                    // "total_delta",
                     "foreign_delta",
                     "proprietary_delta",
                     "local_individual_delta",
@@ -859,7 +865,7 @@
                                 }
                             },
                             {
-                                targets: Array.from({ length: 21 }, (_, index) => index + 2),
+                                targets: Array.from({ length: 20 }, (_, index) => index + 2),
                                 render: function (data, type, row, meta) {
                                     if (type == 'display') {
                                         if (Number.isInteger(data)) {
@@ -1131,6 +1137,14 @@
                     sum[e][d] = { ...delta, ...sum[e][d] }
                 })
 
+            })
+
+            investorDataNew.forEach((e, i) => {
+                let delta = {}
+                Object.keys(tt2).forEach(p => {
+                    delta[p + "_delta"] = e[p + "_buy_matched"] - e[p + "_sell_matched"]
+                })
+                investorDataNew[i] = { ...delta, ...e }
             })
 
             console.table(sum['SSI'][1])

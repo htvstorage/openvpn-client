@@ -48,7 +48,8 @@ for (let i = 1; i <= 10; i++) {
   });
 }
 
-enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti', 'sectors', 'sectorschart', 'stackbar', 'skybox', 'skybox2', 'skyboxok', 'tooltips']
+
+enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti', 'sectors', 'sectorschart', 'stackbar', 'skybox', 'skybox2', 'skyboxok', 'tooltips', 'skyboxX','skyboxX1']
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
     res.sendFile(__dirname + `/public/${ep}.html`);

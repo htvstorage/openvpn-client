@@ -29,9 +29,11 @@
         // camera.position.z = 100;
         // camera.position.x = 1;
 
-        camera.position.set(100, 100, 100); // Đặt camera ở trung tâm (0, 0, 0) và dịch xuống theo trục Z
-        camera.lookAt(100, 100, 100);  // Chỉ định điểm nhìn của camera là trung tâm (0, 0, 0)
-
+        camera.position.set(10, 50, 50); // Đặt camera ở trung tâm (0, 0, 0) và dịch xuống theo trục Z
+        // camera.lookAt(100, 100, 100);  // Chỉ định điểm nhìn của camera là trung tâm (0, 0, 0)
+        // camera.position.set(window.innerWidth, window.innerWidth, window.innerWidth); // Đặt camera ở vị trí (0, 0, 100) - gần py
+        // camera.lookAt(0, 0, 0); // Hướng camera về trung tâm (0, 0, 0)
+        camera.lookAt(new THREE.Vector3(0,0,0));
         // Create a renderer
         const renderer = new THREE.WebGLRenderer();
         renderer.setSize(window.innerWidth, window.innerHeight);
@@ -62,12 +64,12 @@
         const transparentMaterial = new THREE.MeshBasicMaterial({
             color: 0x00ff00, // Màu của cube
             transparent: true, // Cho phép trong suốt
-            opacity: 0 // Độ đục, giá trị từ 0 (hoàn toàn trong suốt) đến 1 (không trong suốt)
+            opacity: 1 // Độ đục, giá trị từ 0 (hoàn toàn trong suốt) đến 1 (không trong suốt)
         });
 
         // Tạo mesh với geometry và vật liệu
         const transparentCube = new THREE.Mesh(geometry, transparentMaterial);
-
+        transparentCube.position.set(10, 50, 50); 
         // Thêm mesh vào scene
         scene.add(transparentCube);
 
@@ -76,9 +78,10 @@
         const controls = new THREE.OrbitControls(camera, renderer.domElement);
         controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
         controls.dampingFactor = 0.25;
-        controls.screenSpacePanning = false;
-        controls.maxPolarAngle = Math.PI;
-
+        controls.screenSpacePanning = true;
+        controls.maxPolarAngle = Math.PI * 2;
+        controls.enableRotate = true;
+        controls.enableZoom = true;
         // Animation loop
         function animate() {
             requestAnimationFrame(animate);
