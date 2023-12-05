@@ -482,6 +482,13 @@
                                     weight: 'bold',  // In đậm                                
                                 }
                             },
+                            ticks: {
+                                callback: function (value, index, values) {
+                                    if(symbol === 'stackedsectorsVal')
+                                    return numeral(value / 1000000000).format('0,0.00')
+                                    else return value
+                                }
+                            }                            
                         },
                         'y-axis-vnindex': {
                             // stacked: true,
@@ -493,7 +500,7 @@
                                     size: 24,          // Kích thước phông chữ
                                     weight: 'bold',  // In đậm                                
                                 }
-                            },
+                            },     
                         },
 
                     },
@@ -1016,7 +1023,7 @@
                                 if (total(s) < 1000000000) format = '0,0.000'
                                 else format = '0,0.00'
                                 out += '<li> Mã ' + s.symbol
-                                    + '<span style="font-weight: bold; color: ' + color + ';">: ' + s.pct + ' ' + numeral(total(s) / 1000000000).format(format) + '(Tỉ)</span>'
+                                    + '<span style="font-weight: bold; color: ' + color + ';">: ' + s.pct + ' ' + numeral(s.price).format('0,0') + ' ' +numeral(total(s) / 1000000000).format(format) + '(Tỉ)</span>'
                                     + '</li>'
 
                             })
