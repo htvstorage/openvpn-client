@@ -137,7 +137,7 @@ class MessageReader extends Model {
 
     // let data = fs.readFileSync("../websocket/data3" + getNow() + ".txt", "utf-8")
     // console.log('Data ',data.length)
-    let filename = "../websocket/data3" + getNow() + ".txt";
+    let filename = process.env.FILENAME || "../websocket/data3" + getNow() + ".txt";
     // let filename = "../websocket/data320231127.txt";
     let stats = fs.statSync(filename);
     if (stats.size < 3 * 128 * 1024 * 1024) {
@@ -278,10 +278,10 @@ class PriceModel {
 
       let b = this.board;
 
-      if (!this.priceBoard[symbol] && a[58] && a[59] && a[60] ){
+      if (!this.priceBoard[symbol] && a[58] && a[59] && a[60]) {
         // console.log('OK B',a)
         this.priceBoard[symbol] = { ceiling: +a[58], floor: +a[59], ref: +a[60] }
-      } 
+      }
 
       let sectorCode = '0000', sectorName = 'OtherSector'
       // if (stockStore[symbol]) sectorName = stockStore[symbol].SectorName;
@@ -418,12 +418,12 @@ class PriceModel {
 
 
 
-    }else{
+    } else {
       // console.log(message , this.priceBoard[symbol],  a[59].length > 0 && a[60].length>0 && a[61].length >0 )
-      if (!this.priceBoard[symbol] && a[58] && a[59] && a[60] ){
+      if (!this.priceBoard[symbol] && a[58] && a[59] && a[60]) {
         // console.log('OK ',a)
         this.priceBoard[symbol] = { ceiling: +a[58], floor: +a[59], ref: +a[60] }
-      } 
+      }
     }
   }
 

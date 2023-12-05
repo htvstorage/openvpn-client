@@ -29,11 +29,11 @@
         // camera.position.z = 100;
         // camera.position.x = 1;
 
-        camera.position.set(0, 0, -250000); // Đặt camera ở trung tâm (0, 0, 0) và dịch xuống theo trục Z
+        camera.position.set(0, 0, 100000); // Đặt camera ở trung tâm (0, 0, 0) và dịch xuống theo trục Z
         // camera.lookAt(100, 100, 100);  // Chỉ định điểm nhìn của camera là trung tâm (0, 0, 0)
         // camera.position.set(window.innerWidth, window.innerWidth, window.innerWidth); // Đặt camera ở vị trí (0, 0, 100) - gần py
         // camera.lookAt(0, 0, 0); // Hướng camera về trung tâm (0, 0, 0)
-        camera.lookAt(new THREE.Vector3(0, 0, 0));
+        camera.lookAt(new THREE.Vector3(0, 0, 250000));
         // Create a renderer
         const renderer = new THREE.WebGLRenderer();
         renderer.setSize(window.innerWidth, window.innerHeight);
@@ -83,7 +83,7 @@
 
         // Tạo mesh với geometry và vật liệu
         const transparentCube = new THREE.Mesh(geometry, transparentMaterial);
-        transparentCube.position.set(0, -250000 + 2500, 250);
+        transparentCube.position.set(250000, 0, 250000);
         // Thêm mesh vào scene
         scene.add(transparentCube);
 
@@ -100,20 +100,20 @@
 
         // Add OrbitControls
         const controls = new THREE.OrbitControls(camera, renderer.domElement);
-        controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
+        // controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
         controls.dampingFactor = 0.25;
         controls.screenSpacePanning = false;
         controls.maxPolarAngle = Math.PI /1.5;
-        controls.enableRotate = true;
-        // controls.enableZoom = true;
+        // controls.enableRotate = true;
+        controls.enableZoom = true;
         // Animation loop
         function animate() {
             requestAnimationFrame(animate);
 
             // Update controls
-            // controls.update();
+            controls.update();
 
-            // const zoomScale = camera.position.length() / 100; // Adjust the divisor as needed
+            // const zoomScale = camera.position.length() / 100000; // Adjust the divisor as needed
             // skybox.scale.set(zoomScale, zoomScale, zoomScale);
 
             // Render the scene
