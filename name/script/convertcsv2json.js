@@ -21,9 +21,10 @@ import fs from "fs"
             })
             newData.push(ne)
         });
+        var nf = f.slice(0,f.length-3)+"json";
 
-        fs.writeFileSync(f.slice(0,f.length-3)+"json", JSON.stringify(newData))
-        // console.table(newData)
+        fs.writeFileSync(nf, JSON.stringify(newData))
+        console.log(`Done ${nf}`)
     }
 
     for(let f of args){
