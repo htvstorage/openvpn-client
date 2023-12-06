@@ -29,11 +29,11 @@
         // camera.position.z = 100;
         // camera.position.x = 1;
 
-        camera.position.set(0, 0, 100000); // Đặt camera ở trung tâm (0, 0, 0) và dịch xuống theo trục Z
+        camera.position.set(0, 0, -100000); // Đặt camera ở trung tâm (0, 0, 0) và dịch xuống theo trục Z
         // camera.lookAt(100, 100, 100);  // Chỉ định điểm nhìn của camera là trung tâm (0, 0, 0)
         // camera.position.set(window.innerWidth, window.innerWidth, window.innerWidth); // Đặt camera ở vị trí (0, 0, 100) - gần py
         // camera.lookAt(0, 0, 0); // Hướng camera về trung tâm (0, 0, 0)
-        camera.lookAt(new THREE.Vector3(0, 0, 250000));
+        camera.lookAt(new THREE.Vector3(0, 0, 0));
         // Create a renderer
         const renderer = new THREE.WebGLRenderer();
         renderer.setSize(window.innerWidth, window.innerHeight);
@@ -103,9 +103,12 @@
         // controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
         controls.dampingFactor = 0.25;
         controls.screenSpacePanning = false;
-        controls.maxPolarAngle = Math.PI /1.5;
+        controls.maxPolarAngle = Math.PI / 1.5;
         // controls.enableRotate = true;
         controls.enableZoom = true;
+        controls.autoRotate = true; // Bật chế độ quay tự động
+        controls.autoRotateSpeed = 0.5; //
+
         // Animation loop
         function animate() {
             requestAnimationFrame(animate);
