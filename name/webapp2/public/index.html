@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Sector Chart</title>
     <script src="filter.js"></script>
+    <script src="ssi.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
@@ -337,18 +338,27 @@
             <li><a href="/sectorschart?interval=5&minVal=5000000000" target="_blank">Sector Chart</a></li>
             <li><a href="/timeline?symbols=MSN" target="_blank">timeline</a></li>
             <li><a href="/timelinemulti?symbols=NVL,VCI,VIX,DXG,DIG,NLG,KBC" target="_blank">NVL,VCI,DXG,DIG,PDR,NLG</a>
-            <li><a href="/?statDay=1" target="_self">Investor 1 day</a>
-            <li><a href="/?statDay=3" target="_self">Investor 3 day</a>
-            <li><a href="/?statDay=7" target="_self">Investor 7 day</a>
-            <li><a href="/?statDay=10" target="_self">Investor 10 day</a>
-            <li><a href="/?statDay=30" target="_self">Investor 30 day</a>
-            <li><a href="/?statDay=100" target="_self">Investor max day</a>
-            <li><a href='/?filter=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")&&statDay=100&&filtersum=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")' target="_self">Filter Investor</a>
-            <li><a href='/?filter=and(ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR"),dbw("trading_date","2023-10-01","2024-12-01"))&&statDay=100&&filtersum=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")' target="_self">Filter Investor 1</a>                
-            <li><a href='/?filter=and(ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR"),dbw("trading_date","2023-10-01","2024-12-01"))&&statDay=100' target="_self">Filter Investor 2</a>                
-            <li><a href='/?filter=dbw("trading_date","2023-11-01","2023-12-31")&&statDay=100' target="_self">Filter Investor 3</a>                                
-                
             </li>
+            <li><a href="/?statDay=1" target="_self">Investor 1 day</a></li>
+            <li><a href="/?statDay=3" target="_self">Investor 3 day</a></li>
+            <li><a href="/?statDay=7" target="_self">Investor 7 day</a></li>
+            <li><a href="/?statDay=10" target="_self">Investor 10 day</a></li>
+            <li><a href="/?statDay=30" target="_self">Investor 30 day</a></li>
+            <li><a href="/?statDay=100" target="_self">Investor max day</a></li>
+            <li><a href='/?filter=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")&&statDay=100&&filtersum=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")'
+                    target="_self">Filter Investor</a></li>
+            <li><a href='/?filter=and(ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR"),dbw("trading_date","2023-10-01","2024-12-01"))&&statDay=100&&filtersum=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")'
+                    target="_self">Filter Investor 1</a></li>
+            <li><a href='/?filter=and(ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR"),dbw("trading_date","2023-10-01","2024-12-01"))&&statDay=100'
+                    target="_self">Filter Investor 2</a></li>
+            <li><a href='/?filter=dbw("trading_date","2023-11-01","2023-12-31")&&statDay=100' target="_self">Filter
+                    Investor 3</a></li>
+            <li><a href='/?filter=dbw("trading_date","2023-11-01","2023-12-31")&&statDay=100' target="_self">Filter
+                    Investor 3</a></li>
+            <li><a href='javascript:void(0)' onclick="fetchData()" target="_self">Fetch Data</a></li>
+            <li><a href='javascript:void(0)' onclick="retry()" target="_self">Retry</a></li>
+            <li><a href='javascript:void(0)' onclick="downloadData()" target="_self">Download</a></li>
+            <li><a href='javascript:void(0)' onclick="postData()" target="_self">PostData</a></li>
             <!-- Add links for other charts -->
         </ul>
     </div>
@@ -844,7 +854,7 @@
             }
             if (filterScript && filterScript.length > 0) {
                 filterData = filter(investorDataNew, filterScript)
-            }else{
+            } else {
                 filterData = investorDataNew;
             }
             updateRawTable(filterData.slice(0, limit))
@@ -1250,6 +1260,24 @@
             // console.log(Object.keys(sheet[30][0]))
 
             return sheet;
+        }
+    </script>
+    <script>
+        function postData() {
+
+            // Thực hiện yêu cầu POST
+            $.post({
+                url: '/api/post',  // Đổi URL này thành địa chỉ thực tế của server
+                data: mapData,
+                success: function (response) {
+                    // Xử lý phản hồi từ server
+                    console.log('Server response:', response);
+                },
+                error: function (error) {
+                    // Xử lý lỗi nếu có
+                    console.error('Error:', error);
+                }
+            });
         }
     </script>
     <script src="script.js"></script>

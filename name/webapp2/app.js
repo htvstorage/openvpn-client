@@ -1,6 +1,7 @@
 const express = require('express');
 const http = require('http');
 const crypto = require('crypto');
+const bodyParser = require('body-parser');
 const path = require('path')
 //, 'Flash Socket', 'AJAX long-polling'
 const socketIo = require('socket.io', {
@@ -12,7 +13,38 @@ const server = http.createServer(app);
 const io = socketIo(server);
 const numeral = require('numeral');
 const { map, sectorCodeList } = require('./symbols.js')
+const fs = require('fs')
 
+app.use(bodyParser.json({limit: "500mb"}));
+app.use(bodyParser.urlencoded({limit: "500mb", extended: true, parameterLimit:50000}));
+
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: true }));
+
+function getNow() {
+  let fd = new Date();
+  return fd.getFullYear()
+      + "" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
+      + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate())
+      + "" + (fd.getHours() < 10 ? "0" + fd.getHours() : fd.getHours())
+      + "" + (fd.getMinutes() < 10 ? "0" + fd.getMinutes() : fd.getMinutes())
+      + "" + (fd.getSeconds() < 10 ? "0" + fd.getSeconds() : fd.getSeconds());
+}
+
+app.post('/api/post', (req, res) => {
+  // Lấy dữ liệu từ yêu cầu POST
+  const postData = req.body;
+
+  // Thực hiện xử lý với dữ liệu, ví dụ: in ra console
+  console.log('Received POST request with data:', postData.length);
+  if(!fs.existsSync("./ssiData")){
+    fs.mkdirSync("./ssiData")
+  }
+  var filename = "ssi_" + getNow() + "_" + Date.now() + ".json"
+  fs.writeFileSync("./ssiData/"+filename,postData)
+  // Phản hồi với dữ liệu đã nhận được
+  res.json({ message: 'Data received successfully!', code: "200" });
+});
 
 function generateMD5(input) {
   const md5Hash = crypto.createHash('md5');
@@ -279,6 +311,7 @@ async function serverX() {
 serverX()
 
 const { Worker } = require("worker_threads");
+const { fstat } = require('fs');
 
 const worker = new Worker("./worker.js");
 let lastData = null;
