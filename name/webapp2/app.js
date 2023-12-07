@@ -33,8 +33,7 @@ function getNow() {
 
 app.post('/api/post', (req, res) => {
   // Lấy dữ liệu từ yêu cầu POST
-  const postData = req.body;
-
+  var postData = JSON.stringify(req.body);  
   // Thực hiện xử lý với dữ liệu, ví dụ: in ra console
   console.log('Received POST request with data:', postData.length);
   if(!fs.existsSync("./ssiData")){
