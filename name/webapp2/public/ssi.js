@@ -34,7 +34,8 @@ let count = 0;
 let stat = { req: 0, res: 0, total: symbols.length }
 let toData = []
 
-async function fetchData() {
+async function fetchData(cbpre,cbpost) {
+    cbpre()
     for (let s of symbols) {
         while (stat.req - stat.res >= 50) {
             await wait(100)
@@ -83,6 +84,8 @@ async function fetchData() {
     while (stat.req - stat.res >= 1) {
         await wait(100)
     }
+
+    cbpost(JSON.stringify(stat))
 }
 
 

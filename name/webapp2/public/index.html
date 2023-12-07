@@ -355,10 +355,11 @@
                     Investor 3</a></li>
             <li><a href='/?filter=dbw("trading_date","2023-11-01","2023-12-31")&&statDay=100' target="_self">Filter
                     Investor 3</a></li>
-            <li><a href='javascript:void(0)' onclick="fetchData()" target="_self">Fetch Data</a></li>
+            <li><a href='javascript:void(0)' onclick="fetchData(cbpre,cbpost)" target="_self">Fetch Data</a></li>
             <li><a href='javascript:void(0)' onclick="retry()" target="_self">Retry</a></li>
             <li><a href='javascript:void(0)' onclick="downloadData()" target="_self">Download</a></li>
             <li><a href='javascript:void(0)' onclick="postData()" target="_self">PostData</a></li>
+            <li><span id="noti">Noti</a></li>
             <!-- Add links for other charts -->
         </ul>
     </div>
@@ -539,6 +540,12 @@
         </div>
     </div>
     <script>
+        function cbpre(){
+            $('#noti').text('')
+        }
+        function cbpost(text){
+            $('#noti').text(`Done ${text}`)
+        }
         const url = new URL(window.location.href);
         const queryParams = url.searchParams;
         var date = queryParams.get('date');
