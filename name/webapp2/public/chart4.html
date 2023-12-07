@@ -3,6 +3,7 @@
 
 <head>
     <title>BuySellSymbols</title>
+    <script src="filter.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
@@ -160,7 +161,8 @@
         const queryParams = url.searchParams;
         var interval = queryParams.get('interval');
         if (!interval) interval = 60
-
+        var filterScript = queryParams.get('filter');
+        if (!filterScript) filterScript = ''
         let a = new Promise((resolve, reject) => {
             $.ajax({
                 url: '/api/getsymbols',
@@ -350,7 +352,7 @@
         let timeout = 0;
         let lastMd5 = ''
         let lastAJAX = 0
-
+        let data;
         $(document).ready(function () {
             // Function to update DataTable
             function updateDataTable() {
@@ -364,17 +366,21 @@
                     success: function (response) {
                         var table = $('#symbolTable').DataTable();
                         table.clear();
-                        let data = response.data.map(e => {
+                        data = response.data.map(e => {
                             let t = e[10] + e[12] + e[14]
                             let tv = e[11] + e[13] + e[15]
                             return [...e.slice(0, e.length - 2), t, tv, e.at(-2), e.at(-1)]
                         })
+                        if (filterScript && filterScript.length > 0) {
+                            data = filter(data, filterScript)
+                        }
                         data.forEach(e => {
                             e.forEach((v, i) => {
                                 if (i >= 6 && v)
                                     e[i] = numeral(v).format('0,0');
                             })
                         })
+
                         table.rows.add(data).draw()
                         let key = Math.floor(Date.now() / 1000 / interval);
                         if (!lastChangeMap[key]) {

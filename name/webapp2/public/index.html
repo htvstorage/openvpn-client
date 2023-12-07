@@ -6,6 +6,7 @@
     <title>Master Page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Sector Chart</title>
+    <script src="filter.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
@@ -329,7 +330,7 @@
         <div class="overlay" id="overlay"></div>
         <ul>
             <li><a href="/chart3" target="_blank">VNINDEX</a></li>
-            <li><a href="/chart4" target="_blank">BySellSymbols</a></li>
+            <li><a href="/chart4?interval=60&filter=ge(16,200000)" target="_blank">BySellSymbols</a></li>
             <li><a href="/sectors?interval=300" target="_blank">BuySellSectors</a></li>
             <li><a href="/sectorschart?percent=x&interval=5&minVal=5000000000" target="_blank">Sector Chart With
                     Percent</a></li>
@@ -342,6 +343,11 @@
             <li><a href="/?statDay=10" target="_self">Investor 10 day</a>
             <li><a href="/?statDay=30" target="_self">Investor 30 day</a>
             <li><a href="/?statDay=100" target="_self">Investor max day</a>
+            <li><a href='/?filter=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")&&statDay=100&&filtersum=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")' target="_self">Filter Investor</a>
+            <li><a href='/?filter=and(ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR"),dbw("trading_date","2023-10-01","2023-12-01"))&&statDay=100&&filtersum=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")' target="_self">Filter Investor 1</a>                
+            <li><a href='/?filter=and(ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR"),dbw("trading_date","2023-10-01","2023-12-01"))&&statDay=100' target="_self">Filter Investor 2</a>                
+            <li><a href='/?filter=dbw("trading_date","2023-11-01","2023-12-31")&&statDay=100' target="_self">Filter Investor 3</a>                                
+                
             </li>
             <!-- Add links for other charts -->
         </ul>
@@ -529,12 +535,16 @@
         if (!date) date = '1,3,5,7,10,20,30,100'
         var statDay = queryParams.get('statDay');
         if (!statDay) statDay = 30
-        else statDay = +statDay        
+        else statDay = +statDay
         var limit = queryParams.get('limit');
         if (!limit) limit = 1000
         else limit = +limit
         console.log("limit", limit)
-
+        var filterScript = queryParams.get('filter');
+        if (!filterScript) filterScript = ''
+        var filterSumScript = queryParams.get('filtersum');
+        if (!filterSumScript) filterSumScript = ''
+        var filterData;
         async function search() {
             let searchField = $('#dropdown').val()
             let globalFrom = $('#global_from').val()
@@ -578,6 +588,11 @@
 
                 return val;
             })
+
+            if (filterScript && filterScript.length > 0) {
+                filterData = filter(filterData, filterScript)
+            }
+
             updateRawTable(filterData)
         }
         async function clearCache() {
@@ -715,7 +730,15 @@
 
         updateData = (response) => {
             response.sort((a, b) => { return b.trading_date - a.trading_date })
-            sheet = processInvestor(response)
+            var investFilterData;
+            if (filterScript && filterScript.length > 0) {
+                investFilterData = filter(response, filterScript)
+            } else {
+                investFilterData = response;
+            }
+            // console.table(response)
+            // console.table(investFilterData)
+            sheet = processInvestor(investFilterData)
             updateRawTable = (data) => {
                 if (!$.fn.DataTable.isDataTable('#myTable')) {
                     statsHead = document.querySelector('#headTable')
@@ -819,7 +842,12 @@
                 table.clear();
                 table.rows.add(data).draw()
             }
-            updateRawTable(investorDataNew.slice(0, limit))
+            if (filterScript && filterScript.length > 0) {
+                filterData = filter(investorDataNew, filterScript)
+            }else{
+                filterData = investorDataNew;
+            }
+            updateRawTable(filterData.slice(0, limit))
 
             // $('#myTable').DataTable({
             //     "ajax": function (data, callback, settings) {
@@ -954,7 +982,15 @@
                 table2.clear();
                 table2.rows.add(data).draw()
             }
-            updateSumTable(sheet[statDay])
+            var filterSumData
+            if (filterSumScript && filterSumScript.length > 0) {
+                // console.table(sheet[statDay])
+                filterSumData = filter(sheet[statDay], filterSumScript)
+                // console.table(filterSumData)
+            } else {
+                filterSumData = sheet[statDay]
+            }
+            updateSumTable(filterSumData)
         }
         var investorDataStore;
 
@@ -1200,8 +1236,8 @@
                 })
                 investorDataNew[i] = { ...delta, ...e }
             })
-
-            console.table(sum['SSI'][1])
+            if (sum['SSI'])
+                console.table(sum['SSI'][1])
             let sheet = {}
             days.forEach(d => {
                 if (!sheet[d]) sheet[d] = []

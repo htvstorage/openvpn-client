@@ -265,7 +265,11 @@
                         if (e.data.length > 0) {
                             if (combineChart) {
                                 combineChart.data.datasets[6].label = e.symbol
-                                lastDataVN30F = e.data.map(e => e.price)
+                                let lb = {}
+                                combineChart.data.labels.forEach(l=>{
+                                    lb[l]=l
+                                })
+                                lastDataVN30F = e.data.filter(e=>lb[e.time]).map(e => e.price)
                                 combineChart.data.datasets[6].data = lastDataVN30F
                                 lastVN30FIdx = e.data[0].priceref
                                 combineChart.update();
