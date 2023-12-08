@@ -351,14 +351,15 @@
                     target="_self">Filter Investor 1</a></li>
             <li><a href='/?filter=and(ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR"),dbw("trading_date","2023-10-01","2024-12-01"))&&statDay=100'
                     target="_self">Filter Investor 2</a></li>
-            <li><a href='/?filter=dbw("trading_date","2023-11-01","2023-12-31")&&statDay=100' target="_self">Filter
+            <li><a href='/?filter=dbw("trading_date","2023-11-01","2024-12-31")&&statDay=100' target="_self">Filter
                     Investor 3</a></li>
-            <li><a href='/?filter=dbw("trading_date","2023-11-01","2023-12-31")&&statDay=100' target="_self">Filter
+            <li><a href='/?filter=dbw("trading_date","2023-11-01","2024-12-31")&&statDay=100' target="_self">Filter
                     Investor 3</a></li>
             <li><a href='javascript:void(0)' onclick="fetchData(cbpre,cbpost)" target="_self">Fetch Data</a></li>
             <li><a href='javascript:void(0)' onclick="retry()" target="_self">Retry</a></li>
             <li><a href='javascript:void(0)' onclick="downloadData()" target="_self">Download</a></li>
             <li><a href='javascript:void(0)' onclick="postData()" target="_self">PostData</a></li>
+            <li><a href='javascript:void(0)' onclick="postData2()" target="_self">PostData</a></li>
             <li><span id="noti">Noti</a></li>
             <!-- Add links for other charts -->
         </ul>
@@ -540,10 +541,10 @@
         </div>
     </div>
     <script>
-        function cbpre(){
+        function cbpre() {
             $('#noti').text('')
         }
-        function cbpost(text){
+        function cbpost(text) {
             $('#noti').text(`Done ${text}`)
         }
         const url = new URL(window.location.href);
@@ -1286,6 +1287,22 @@
                 }
             });
         }
+        function postData2() {
+
+            // Thực hiện yêu cầu POST
+            $.post({
+                url: '/api/postdetail',  // Đổi URL này thành địa chỉ thực tế của server
+                data: mapData,
+                success: function (response) {
+                    // Xử lý phản hồi từ server
+                    console.log('Server response:', response);
+                },
+                error: function (error) {
+                    // Xử lý lỗi nếu có
+                    console.error('Error:', error);
+                }
+            });
+        }        
     </script>
     <script src="script.js"></script>
 </body>

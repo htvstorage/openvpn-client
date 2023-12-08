@@ -15,8 +15,8 @@ const numeral = require('numeral');
 const { map, sectorCodeList } = require('./symbols.js')
 const fs = require('fs')
 
-app.use(bodyParser.json({limit: "500mb"}));
-app.use(bodyParser.urlencoded({limit: "500mb", extended: true, parameterLimit:50000}));
+app.use(bodyParser.json({ limit: "500mb" }));
+app.use(bodyParser.urlencoded({ limit: "500mb", extended: true, parameterLimit: 50000 }));
 
 // app.use(bodyParser.json());
 // app.use(bodyParser.urlencoded({ extended: true }));
@@ -24,25 +24,54 @@ app.use(bodyParser.urlencoded({limit: "500mb", extended: true, parameterLimit:50
 function getNow() {
   let fd = new Date();
   return fd.getFullYear()
-      + "" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
-      + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate())
-      + "" + (fd.getHours() < 10 ? "0" + fd.getHours() : fd.getHours())
-      + "" + (fd.getMinutes() < 10 ? "0" + fd.getMinutes() : fd.getMinutes())
-      + "" + (fd.getSeconds() < 10 ? "0" + fd.getSeconds() : fd.getSeconds());
+    + "" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
+    + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate())
+    + "" + (fd.getHours() < 10 ? "0" + fd.getHours() : fd.getHours())
+    + "" + (fd.getMinutes() < 10 ? "0" + fd.getMinutes() : fd.getMinutes())
+    + "" + (fd.getSeconds() < 10 ? "0" + fd.getSeconds() : fd.getSeconds());
 }
 
 app.post('/api/post', (req, res) => {
   // Lấy dữ liệu từ yêu cầu POST
-  var postData = JSON.stringify(req.body);  
+  var postData = JSON.stringify(req.body);
   // Thực hiện xử lý với dữ liệu, ví dụ: in ra console
   console.log('Received POST request with data:', postData.length);
-  if(!fs.existsSync("./ssiData")){
+  if (!fs.existsSync("./ssiData")) {
     fs.mkdirSync("./ssiData")
   }
   var filename = "ssi_" + getNow() + "_" + Date.now() + ".json"
-  fs.writeFileSync("./ssiData/"+filename,postData)
+  fs.writeFileSync("./ssiData/" + filename, postData)
   // Phản hồi với dữ liệu đã nhận được
   res.json({ message: 'Data received successfully!', code: "200" });
+});
+
+var status = 0;
+app.post('/api/postdetail', (req, res, next) => {
+  let requestData = '';
+  var total = req.headers['content-length'];
+  console.log('Prepared POST request with data:', total);
+  var progress = 0;
+  status = 0;
+  req.on('data', (chunk) => {
+    progress += chunk.length;
+    requestData += chunk;
+    var perc = parseInt((progress / total) * 100);
+    console.log('percent complete: ' + perc + '%\n');
+    status = perc;    
+    // console.log()
+  });
+  // Lấy dữ liệu từ yêu cầu POST
+  var postData = JSON.stringify(req.body);
+  // Thực hiện xử lý với dữ liệu, ví dụ: in ra console
+  console.log('Received POST request with data:', postData.length);
+  if (!fs.existsSync("./ssiData")) {
+    fs.mkdirSync("./ssiData")
+  }
+  var filename = "ssi_" + getNow() + "_" + Date.now() + ".json"
+  fs.writeFileSync("./ssiData/" + filename, postData)
+  // Phản hồi với dữ liệu đã nhận được
+  res.json({ message: 'Data received successfully!', code: "200" });
+  next()
 });
 
 function generateMD5(input) {
@@ -80,7 +109,7 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
-enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti', 'sectors', 'sectorschart', 'stackbar', 'skybox', 'skybox2', 'skyboxok', 'tooltips', 'skyboxX','skyboxX1']
+enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti', 'sectors', 'sectorschart', 'stackbar', 'skybox', 'skybox2', 'skyboxok', 'tooltips', 'skyboxX', 'skyboxX1']
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
     res.sendFile(__dirname + `/public/${ep}.html`);
