@@ -82,6 +82,7 @@
         let camera;
         var cubeNew;
         var renderer;
+        var scene;
     </script>
     <script type="module">
         import * as THREE from 'three';
@@ -96,18 +97,18 @@
             popupPlane.visible = true;
             last = Date.now()
         }
-        
+
 
         // Close the popup
         function closePopup(event) {
-            
+
             if (event.target === renderer.domElement) {
-                if(popupPlane.visible && (Date.now() - last > 1000)){
+                if (popupPlane.visible && (Date.now() - last > 1000)) {
                     console.log('Close')
                     popupPlane.visible = false;
                 }
 
-                
+
             }
         }
         function main() {
@@ -121,7 +122,7 @@
             camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
             camera.position.z = 2;
 
-            const scene = new THREE.Scene();
+            scene = new THREE.Scene();
 
             const boxWidth = 1;
             const boxHeight = 1;
@@ -407,28 +408,83 @@
 
 
         // Handle mouse click on the document
-        document.addEventListener("click", onDocumentClick);
+        // document.addEventListener("click", onDocumentClick);
 
-        function onDocumentClick(event) {
-            // Raycasting to determine if the click intersects with the cube
-            const raycaster = new THREE.Raycaster();
-            const mouse = new THREE.Vector2();
+        // function onDocumentClick(event) {
+        //     // Raycasting to determine if the click intersects with the cube
+        //     const raycaster = new THREE.Raycaster();
+        //     const mouse = new THREE.Vector2();
 
-            // Calculate normalized device coordinates (NDC)
-            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-            console.log(mouse.x,mouse.y)
-            // Update the picking ray with the camera and mouse position
-            raycaster.setFromCamera(mouse, camera);
+        //     // Calculate normalized device coordinates (NDC)
+        //     mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+        //     mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+        //     console.log(mouse.x, mouse.y)
+        //     // Update the picking ray with the camera and mouse position
+        //     raycaster.setFromCamera(mouse, camera);
 
-            // Check for intersections with the cube
-            const intersects = raycaster.intersectObject(cubeNew);
-            console.log("onDocumentClick ", intersects)
-            if (intersects.length > 0) {
-                // Cube was clicked
-                showPopup();
-            }
+        //     // Check for intersections with the cube
+        //     const intersects = raycaster.intersectObject(cubeNew);
+        //     console.log("onDocumentClick ", intersects)
+        //     if (intersects.length > 0) {
+        //         // Cube was clicked
+        //         showPopup();
+        //     }
+        // }
+
+
+        const raycaster = new THREE.Raycaster();
+        const pointer = new THREE.Vector2();
+
+        function onPointerMove(event) {
+
+            // calculate pointer position in normalized device coordinates
+            // (-1 to +1) for both components
+
+            pointer.x = (event.clientX / window.innerWidth) * 2 - 1;
+            pointer.y = - (event.clientY / window.innerHeight) * 2 + 1;
+            // console.log(pointer)
+
+            render2()
         }
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        function render2() {
+
+            // update the picking ray with the camera and pointer position
+            raycaster.setFromCamera(pointer, camera);
+
+            // calculate objects intersecting the picking ray
+            const intersects = raycaster.intersectObjects(scene.children);
+            console.log(intersects, scene.children)
+
+            // for (let i = 0; i < intersects.length; i++) {
+
+            //     intersects[i].object.material.color.set(getRandomColor());
+
+            // }
+
+            if(intersects.length > 0){
+                var old = intersects[0].object.material.color
+                intersects[0].object.material.color.set(getRandomColor());
+                setTimeout(()=>{
+                    intersects[0].object.material.color.set(old);
+                },1000)
+            }
+
+            renderer.render(scene, camera);
+
+        }
+
+        window.addEventListener('pointermove', onPointerMove);
+
+        // window.requestAnimationFrame(render);
     </script>
 
     <p>
