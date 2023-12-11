@@ -42,7 +42,7 @@ app.post('/api/post', (req, res) => {
   var filename = "ssi_" + getNow() + "_" + Date.now() + ".json"
   fs.writeFileSync("./ssiData/" + filename, postData)
   // Phản hồi với dữ liệu đã nhận được
-  res.json({ message: 'Data received successfully!', code: "200" });
+  res.json({ message: 'Data received successfully!', code: "200", filename: filename });
 });
 
 var status = 0;
@@ -57,7 +57,7 @@ app.post('/api/postdetail', (req, res, next) => {
     requestData += chunk;
     var perc = parseInt((progress / total) * 100);
     console.log('percent complete: ' + perc + '%\n');
-    status = perc;    
+    status = perc;
     // console.log()
   });
   // Lấy dữ liệu từ yêu cầu POST

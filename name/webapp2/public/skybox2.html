@@ -41,7 +41,8 @@
     {
         "imports": {
             "three": "https://unpkg.com/three@0.159.0/build/three.module.js",
-            "three/addons/": "https://unpkg.com/three@0.159.0/examples/jsm/"
+            "three/addons/": "https://unpkg.com/three@0.159.0/examples/jsm/",
+            "domevents": "https://unpkg.com/threex-domevents@1.0.0/threex.domevents.js"
         }
     }
     </script>
@@ -50,7 +51,7 @@
         import * as THREE from 'three';
         import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
         import { FontLoader } from 'three/addons/loaders/FontLoader.js';
-        import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';             
+        import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
     </script>
 
     <script src="https://threejs.org/build/three.js"></script>
@@ -83,13 +84,16 @@
         var cubeNew;
         var renderer;
         var scene;
+        var mapColor = {}
+        var interactiveObject = []
     </script>
     <script type="module">
         import * as THREE from 'three';
         import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
         import { FontLoader } from 'three/addons/loaders/FontLoader.js';
         import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
-
+        // import initializeDomEvents from 'domevents';
+        // XXX.initializeDomEvents(THREE, THREEx)
         var last = 0;
         // Show the popup
         function showPopup() {
@@ -132,7 +136,8 @@
             // const material = new THREE.MeshBasicMaterial({ color: 0x44aa88 });
             const material = new THREE.MeshPhongMaterial({ color: 0x44aa88 });
             const cube = new THREE.Mesh(geometry, material);
-
+            mapColor[cube.uuid] = { ...cube.material.color };
+            interactiveObject.push(cube)
             scene.add(cube);
 
             function makeInstance(geometry, color, x) {
@@ -146,10 +151,15 @@
                 return cube;
             }
             const cubes = [
-                makeInstance(geometry, 0x44aa88, 0),
+                makeInstance(geometry, 0x44aa88, -4),
                 makeInstance(geometry, 0x8844aa, -2),
                 makeInstance(geometry, 0xaa8844, 2),
             ];
+
+            cubes.forEach(e => {
+                mapColor[e.uuid] = { ...e.material.color };
+                interactiveObject.push(e)
+            })
 
             const controls = new OrbitControls(camera, renderer.domElement);
             controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
@@ -313,7 +323,7 @@
                     bevelSegments: 5,
                 });
 
-                const materialBasic = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+                const materialBasic = new THREE.MeshPhongMaterial({ color: 0x00ff00 });
 
                 // Create mesh with the text geometry and material
                 const textMesh = new THREE.Mesh(geometry, materialBasic);
@@ -322,7 +332,9 @@
                 textMesh.position.x = -15;
                 textMesh.position.y = 1;
                 textMesh.position.z = -2;
-
+                const scaleFactor = 3;
+                textMesh.scale.set(textMesh.scale.x / scaleFactor, textMesh.scale.y / scaleFactor, textMesh.scale.z / scaleFactor);
+                textMesh.position.set(-2, 1, -2);
                 // Add the text mesh to the scene
                 scene.add(textMesh);
             });
@@ -337,12 +349,14 @@
             //     antialias: true,
             // };
             textSprite = new SpriteText('My text');
-            // textSprite.position.set(-20, 1, -30);
+            const scaleFactor = 5;
+            textSprite.scale.set(textSprite.scale.x / scaleFactor, textSprite.scale.y / scaleFactor, textSprite.scale.z / scaleFactor);
+            textSprite.position.set(-2, 1, -2);
             scene.add(textSprite);
 
             // Popup Image
             const texture = new THREE.TextureLoader().load("dinor.jpg");
-            const materialImage = new THREE.MeshBasicMaterial({ map: texture });
+            const materialImage = new THREE.MeshPhongMaterial({ map: texture });
             const geometryPlane = new THREE.PlaneGeometry(6, 6); // Adjust size as needed
             popupPlane = new THREE.Mesh(geometryPlane, materialImage);
             popupPlane.visible = false;
@@ -353,10 +367,12 @@
 
 
             const geometryCube = new THREE.BoxGeometry();
-            const materialCube = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+            const materialCube = new THREE.MeshPhongMaterial({ color: 0x00ff00 });
             cubeNew = new THREE.Mesh(geometryCube, materialCube);
             cubeNew.position.set(-5, 5, 0);
             scene.add(cubeNew);
+            mapColor[cubeNew.uuid] = { ...cubeNew.material.color };
+            interactiveObject.push(cubeNew)
 
             // Event listener for click on the cube
             cubeNew.addEventListener("click", showPopup);
@@ -408,28 +424,28 @@
 
 
         // Handle mouse click on the document
-        // document.addEventListener("click", onDocumentClick);
+        document.addEventListener("click", onDocumentClick);
 
-        // function onDocumentClick(event) {
-        //     // Raycasting to determine if the click intersects with the cube
-        //     const raycaster = new THREE.Raycaster();
-        //     const mouse = new THREE.Vector2();
+        function onDocumentClick(event) {
+            // Raycasting to determine if the click intersects with the cube
+            const raycaster = new THREE.Raycaster();
+            const mouse = new THREE.Vector2();
 
-        //     // Calculate normalized device coordinates (NDC)
-        //     mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-        //     mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-        //     console.log(mouse.x, mouse.y)
-        //     // Update the picking ray with the camera and mouse position
-        //     raycaster.setFromCamera(mouse, camera);
+            // Calculate normalized device coordinates (NDC)
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+            console.log(mouse.x, mouse.y)
+            // Update the picking ray with the camera and mouse position
+            raycaster.setFromCamera(mouse, camera);
 
-        //     // Check for intersections with the cube
-        //     const intersects = raycaster.intersectObject(cubeNew);
-        //     console.log("onDocumentClick ", intersects)
-        //     if (intersects.length > 0) {
-        //         // Cube was clicked
-        //         showPopup();
-        //     }
-        // }
+            // Check for intersections with the cube
+            const intersects = raycaster.intersectObject(cubeNew);
+            console.log("onDocumentClick ", intersects)
+            if (intersects.length > 0) {
+                // Cube was clicked
+                showPopup();
+            }
+        }
 
 
         const raycaster = new THREE.Raycaster();
@@ -461,8 +477,8 @@
             raycaster.setFromCamera(pointer, camera);
 
             // calculate objects intersecting the picking ray
-            const intersects = raycaster.intersectObjects(scene.children);
-            console.log(intersects, scene.children)
+            const intersects = raycaster.intersectObjects(interactiveObject);
+            // console.log(intersects, interactiveObject)
 
             // for (let i = 0; i < intersects.length; i++) {
 
@@ -470,15 +486,20 @@
 
             // }
 
-            if(intersects.length > 0){
-                var old = intersects[0].object.material.color
-                intersects[0].object.material.color.set(getRandomColor());
-                setTimeout(()=>{
-                    intersects[0].object.material.color.set(old);
-                },1000)
+            if (intersects.length > 0) {
+                // var old = intersects[0].object.material.color
+                var obj = intersects[0].object;
+                var color = getRandomColor();
+                obj.material.color.set(color);
+                setTimeout(() => {
+                    console.log('Retur color', obj.uuid, mapColor[obj.uuid], ' new ', color)
+                    // console.table(mapColor)                    
+                    obj.material.color.set(mapColor[obj.uuid]);
+                    // renderer.render(scene, camera);
+                }, 2000)
             }
 
-            renderer.render(scene, camera);
+            // renderer.render(scene, camera);
 
         }
 

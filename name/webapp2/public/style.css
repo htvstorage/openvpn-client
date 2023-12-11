@@ -29,7 +29,19 @@ body {
     margin-bottom: 10px;
     border: 1px solid #f01f1f;
     padding: 12px;
+    padding-right: 0px;
     margin: 0;
+    transition: background-color 0.3s;
+    border-radius: 8px; 
+    background-color: rgb(62, 150, 69)
+}
+
+.sidebar ul li ul li {
+
+    margin-bottom: 0px;
+    border: 1px solid #f01f1f;
+    padding: 12px;
+    margin: 10;
     transition: background-color 0.3s;
     border-radius: 8px; 
     background-color: rgb(62, 150, 69)
@@ -63,7 +75,7 @@ canvas {
 /* Lớp hidden để ẩn sidebar */
 .hidden {
     transform: translateX(-250px);
-    /* Dịch chuyển sidebar ra ngoài màn hình */
+    /* Dịch chuyển sidebar ra ngoài màn hình */   
 }
 
 /* Nút hoặc biểu tượng để hiện sidebar */
