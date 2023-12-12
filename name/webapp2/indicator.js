@@ -357,20 +357,20 @@ function writeArrayJson2XlsxNew(filename, ...args) {
                 let smaVolRet = shortVolVal.map(e => { return SMA.calculate({ period: e, values: vol }); });
                 let smaValRet = shortVolVal.map(e => { return SMA.calculate({ period: e, values: val }); });
                 shortPeriods.forEach((e, i) => {
-                    indicator['ma_' + e] = smaRet[i].at(checkDate)
+                    indicator['price_ma_' + e] = smaRet[i].at(checkDate)
                 })
                 shortPeriods.forEach((e, i) => {
-                    indicator['ema_' + e] = emaRet[i].at(checkDate)
+                    indicator['price_ema_' + e] = emaRet[i].at(checkDate)
                 })
                 shortVolVal.forEach((e, i) => {
                     indicator['vol_' + e] = smaVolRet[i].at(checkDate)
                     indicator['val_' + e] = smaValRet[i].at(checkDate)
-                    indicator['max_price_' + e] = Math.max(...high.slice(high.length - e))
-                    indicator['min_price_' + e] = Math.min(...low.slice(low.length - e))
-                    indicator['min_vol_' + e] = Math.min(...vol.slice(vol.length - e))
-                    indicator['max_vol_' + e] = Math.max(...vol.slice(vol.length - e))
-                    indicator['min_val_' + e] = Math.min(...val.slice(vol.length - e))
-                    indicator['max_val_' + e] = Math.max(...val.slice(vol.length - e))
+                    indicator['price_max_' + e] = Math.max(...high.slice(high.length - e))
+                    indicator['price_min_' + e] = Math.min(...low.slice(low.length - e))
+                    indicator['vol_min_' + e] = Math.min(...vol.slice(vol.length - e))
+                    indicator['vol_max_' + e] = Math.max(...vol.slice(vol.length - e))
+                    indicator['val_min_' + e] = Math.min(...val.slice(vol.length - e))
+                    indicator['val_max_' + e] = Math.max(...val.slice(vol.length - e))
                 })
 
 
@@ -395,11 +395,11 @@ function writeArrayJson2XlsxNew(filename, ...args) {
 
                 if (bbe)
                     Object.keys(bbe).forEach(e => {
-                        indicator["BB_" + e] = bbe[e];
+                        indicator["price_bb_" + e] = bbe[e];
                     })
                 if (macde)
                     Object.keys(macde).forEach(e => {
-                        indicator["MACD_" + e] = macde[e];
+                        indicator["macd_" + e.toLowerCase()] = macde[e];
                     })
 
                 indicator.symbol = symbol;

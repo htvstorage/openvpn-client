@@ -193,14 +193,34 @@
         //     theadRow.appendChild(th);
         // }
 
-        var indicatorField = ['ma_5', 'ma_9', 'ma_10', 'ma_12', 'ma_20', 'ma_25', 'ma_26', 'ma_30', 'ma_50', 'ma_100', 'ma_200', 'ema_5', 'ema_9', 'ema_10', 'ema_12', 'ema_20', 'ema_25', 'ema_26', 'ema_30', 'ema_50', 'ema_100', 'ema_200', 'vol_5', 'val_5', 'max_price_5', 'min_price_5', 'min_vol_5', 'max_vol_5', 'min_val_5', 'max_val_5', 'vol_10', 'val_10', 'max_price_10', 'min_price_10', 'min_vol_10', 'max_vol_10', 'min_val_10', 'max_val_10', 'vol_20', 'val_20', 'max_price_20', 'min_price_20', 'min_vol_20', 'max_vol_20', 'min_val_20', 'max_val_20', 'vol_26', 'val_26', 'max_price_26', 'min_price_26', 'min_vol_26', 'max_vol_26', 'min_val_26', 'max_val_26', 'vol_30', 'val_30', 'max_price_30', 'min_price_30', 'min_vol_30', 'max_vol_30', 'min_val_30', 'max_val_30', 'vol_200', 'val_200', 'max_price_200', 'min_price_200', 'min_vol_200', 'max_vol_200', 'min_val_200', 'max_val_200', 'vol_1000', 'val_1000', 'max_price_1000', 'min_price_1000', 'min_vol_1000', 'max_vol_1000', 'min_val_1000', 'max_val_1000', 'rsi', 'BB_middle', 'BB_upper', 'BB_lower', 'BB_pb', 'MACD_MACD', 'MACD_signal', 'MACD_histogram']
+        var mapFieldIndex = {}
+        var indicatorField = ['macd_histogram', 'macd_macd', 'macd_signal', 'price_bb_lower', 'price_bb_middle', 'price_bb_pb', 'price_bb_upper', 'price_ema_5', 'price_ema_9', 'price_ema_10', 'price_ema_12', 'price_ema_20', 'price_ema_25', 'price_ema_26', 'price_ema_30', 'price_ema_50', 'price_ema_100', 'price_ema_200', 'price_ma_5', 'price_ma_9', 'price_ma_10', 'price_ma_12', 'price_ma_20', 'price_ma_25', 'price_ma_26', 'price_ma_30', 'price_ma_50', 'price_ma_100', 'price_ma_200', 'price_max_5', 'price_max_10', 'price_max_20', 'price_max_26', 'price_max_30', 'price_max_200', 'price_max_1000', 'price_min_5', 'price_min_10', 'price_min_20', 'price_min_26', 'price_min_30', 'price_min_200', 'price_min_1000', 'rsi', 'val_5', 'val_10', 'val_20', 'val_26', 'val_30', 'val_200', 'val_1000', 'val_max_5', 'val_max_10', 'val_max_20', 'val_max_26', 'val_max_30', 'val_max_200', 'val_max_1000', 'val_min_5', 'val_min_10', 'val_min_20', 'val_min_26', 'val_min_30', 'val_min_200', 'val_min_1000', 'vol_5', 'vol_10', 'vol_20', 'vol_26', 'vol_30', 'vol_200', 'vol_1000', 'vol_max_5', 'vol_max_10', 'vol_max_20', 'vol_max_26', 'vol_max_30', 'vol_max_200', 'vol_max_1000', 'vol_min_5', 'vol_min_10', 'vol_min_20', 'vol_min_26', 'vol_min_30', 'vol_min_200', 'vol_min_1000',]
+        var pctField = ['price_bb_lower', 'price_bb_middle', 'price_bb_pb', 'price_bb_upper', 'price_ema_5', 'price_ema_9', 'price_ema_10', 'price_ema_12', 'price_ema_20', 'price_ema_25', 'price_ema_26', 'price_ema_30', 'price_ema_50', 'price_ema_100', 'price_ema_200', 'price_ma_5', 'price_ma_9', 'price_ma_10', 'price_ma_12', 'price_ma_20', 'price_ma_25', 'price_ma_26', 'price_ma_30', 'price_ma_50', 'price_ma_100', 'price_ma_200', 'price_max_5', 'price_max_10', 'price_max_20', 'price_max_26', 'price_max_30', 'price_max_200', 'price_max_1000', 'price_min_5', 'price_min_10', 'price_min_20', 'price_min_26', 'price_min_30', 'price_min_200', 'price_min_1000', 'val_5', 'val_10', 'val_20', 'val_26', 'val_30', 'val_200', 'val_1000', 'val_max_5', 'val_max_10', 'val_max_20', 'val_max_26', 'val_max_30', 'val_max_200', 'val_max_1000', 'val_min_5', 'val_min_10', 'val_min_20', 'val_min_26', 'val_min_30', 'val_min_200', 'val_min_1000', 'vol_5', 'vol_10', 'vol_20', 'vol_26', 'vol_30', 'vol_200', 'vol_1000', 'vol_max_5', 'vol_max_10', 'vol_max_20', 'vol_max_26', 'vol_max_30', 'vol_max_200', 'vol_max_1000', 'vol_min_5', 'vol_min_10', 'vol_min_20', 'vol_min_26', 'vol_min_30', 'vol_min_200', 'vol_min_1000',]
+        var showField = ['price_bb_lower', 'price_bb_middle', 'price_bb_pb', 'price_bb_upper','(%)price_bb_lower', '(%)price_bb_middle', '(%)price_bb_pb', '(%)price_bb_upper','(%)vol_30','(%)val_30','(%)val_10']
         var rowHead = $("#symbolHeadTable tr")
-        indicatorField.forEach(f => {
+        var rowHeadTh = $("#symbolHeadTable tr th")
+        var numCol = rowHeadTh.length;
+        console.log('Init numCol ',numCol, 'total ' , numCol+indicatorField.length + pctField.length)
+        var c = 0;
+        indicatorField.forEach((f, i) => {
             rowHead.append(`<th>${f}</th>`)
+            mapFieldIndex[f] = numCol + i;
+            c++;
         })
+        pctField.forEach((f, i) => {
+            rowHead.append(`<th>${'(%)' + f}</th>`)
+            mapFieldIndex['(%)' + f] = numCol + c + i;
+        })
+
+        var indexShowField =showField.map(e=>{return mapFieldIndex[e]})
+        var hideField = Array.from({ length: indicatorField.length + pctField.length }, (_, index) => index + numCol).filter(i=>!indexShowField.includes(i))
         let ne = []
         indicatorField.forEach((f, i) => {
             ne[i] = 0
+        })
+        let pct = []
+        pctField.forEach((f, i) => {
+            pct[i] = 0
         })
         $('#symbolTable').DataTable(
             {
@@ -213,9 +233,9 @@
                         let data = res.data.map(e => {
                             let t = e[10] + e[12] + e[14]
                             let tv = e[11] + e[13] + e[15]
-                            return [...e.slice(0, e.length - 2), t, tv, e.at(-2), e.at(-1), ...ne]
+                            return [...e.slice(0, e.length - 2), t, tv, e.at(-2), e.at(-1), ...ne, ...pct]
                         })
-                        console.log(data)
+                        // console.log(data)
                         return data;
                     }
                 },
@@ -229,6 +249,7 @@
                 },
 
                 columnDefs: [
+                    { visible: false, targets: hideField, },
                     {
                         targets: 0,
                         render: function (data, type, row, meta) {
@@ -397,7 +418,14 @@
                         if (filterScript && filterScript.length > 0) {
                             data = filter(data, filterScript)
                         }
+                        var price;
+                        var vol;
+                        var val;
                         data.forEach(e => {
+                            price = e[3] / 1000
+                            vol = e[16]
+                            val = e[17]
+                            // console.table([e[0], price, vol, val])
                             e.forEach((v, i) => {
                                 if (i >= 6 && v)
                                     e[i] = numeral(v).format('0,0');
@@ -406,10 +434,26 @@
                             // console.log(mapIndicator[e[0]],e)
                             if (mapIndicator && mapIndicator[e[0]]) {
                                 indicatorField.forEach((f, i) => {
-                                    e[l + i] = mapIndicator[e[0]][f]
+                                    var n = mapIndicator[e[0]][f];
+                                    if (!Number.isInteger(n)) {
+                                        n = Math.round(n * 100) / 100
+                                    }
+                                    e[l + i] = n
+                                })
+                                l = e.length;
+                                pctField.forEach((f, i) => {
+                                    if (f.includes('price')) {
+                                        e[l + i] = Math.floor((price - mapIndicator[e[0]][f]) / price * 10000) / 100;
+                                    }
+                                    if (f.includes('vol')) {
+                                        e[l + i] = Math.floor((vol - mapIndicator[e[0]][f]) / vol * 10000) / 100;
+                                    }
+                                    if (f.includes('val')) {
+                                        e[l + i] = Math.floor((val - mapIndicator[e[0]][f]) / val * 10000) / 100;
+                                    }
                                 })
                             }
-                            // console.log(e)
+
                         })
 
 
