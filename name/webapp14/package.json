@@ -1,0 +1,22 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apache-arrow": "^14.0.1",
+    "chart.js": "^4.4.0",
+    "datatables.net": "^1.13.6",
+    "express": "^4.18.2",
+    "numeral": "^2.0.6",
+    "orc": "^0.0.17",
+    "parquetjs": "^0.11.2",
+    "socket.io": "^4.7.2",
+    "technicalindicators": "^3.1.0"
+  }
+}

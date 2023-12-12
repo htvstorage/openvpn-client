@@ -1,0 +1,496 @@
+[2023-11-28T09:52:12.001] [INFO] default - Checking 0 0
+[2023-11-28T09:52:12.002] [ERROR] default - ReferenceError: Cannot access 'investor' before initialization
+    at /workspace/openvpn-client/name/webapp2/investor.js:79:15
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/investor.js:277:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-11-28T09:54:58.635] [INFO] default - Checking 0 0
+[2023-11-28T09:55:43.115] [INFO] default - Checking 0 0
+[2023-11-28T09:56:16.479] [INFO] default - Checking 0 0
+[2023-12-11T16:11:22.355] [ERROR] default - RangeError: Invalid string length
+    at JSON.stringify (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:170:79
+[2023-12-11T16:22:57.925] [ERROR] default - ReferenceError: stream is not defined
+    at fw (/workspace/openvpn-client/name/webapp2/indicator.js:177:41)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:202:13
+[2023-12-11T16:24:01.933] [ERROR] default - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:213:33)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:221:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:347:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:24:05.387] [ERROR] default - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:213:33)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:221:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:347:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:24:53.058] [ERROR] default - TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+    at new NodeError (node:internal/errors:406:5)
+    at _write (node:internal/streams/writable:371:13)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at fw (/workspace/openvpn-client/name/webapp2/indicator.js:192:41)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:203:13 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2023-12-11T16:26:40.220] [ERROR] default - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:213:33)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:221:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:347:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:27:04.209] [ERROR] default - TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+    at new NodeError (node:internal/errors:406:5)
+    at _write (node:internal/streams/writable:371:13)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at fw (/workspace/openvpn-client/name/webapp2/indicator.js:192:41)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:203:13 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2023-12-11T16:28:18.692] [ERROR] default - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:213:33)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:221:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:347:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:29:48.432] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:330:33
+[2023-12-11T16:34:44.117] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:330:33
+[2023-12-11T16:35:45.979] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:330:33
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:347:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:40:35.179] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:332:33
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:349:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:43:14.339] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:332:33
+[2023-12-11T16:43:21.443] [ERROR] default - SyntaxError: Unexpected token ']', ..."":null}]},]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:213:33)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:223:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:349:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:44:40.729] [ERROR] default - SyntaxError: Unexpected token ']', ..."":null}]},]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:213:33)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:223:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:349:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:47:00.047] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:333:33
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:350:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:47:08.594] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:333:33
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:350:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:48:09.907] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:333:33
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:350:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:48:40.230] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:333:33
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:350:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:48:43.558] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:333:33
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:350:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-11T16:48:54.905] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:333:33
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:350:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T01:26:14.431] [ERROR] default - TypeError [ERR_INVALID_ARG_TYPE]: The "cb" argument must be of type function. Received undefined
+    at maybeCallback (node:fs:178:3)
+    at Object.appendFile (node:fs:2316:14)
+    at fw (/workspace/openvpn-client/name/webapp2/indicator.js:172:20)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:204:13 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2023-12-12T01:29:14.718] [ERROR] default - TypeError [ERR_INVALID_ARG_TYPE]: The "cb" argument must be of type function. Received undefined
+    at maybeCallback (node:fs:178:3)
+    at Object.appendFile (node:fs:2316:14)
+    at fw (/workspace/openvpn-client/name/webapp2/indicator.js:173:20)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:205:13 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2023-12-12T01:29:56.709] [ERROR] default - TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+    at new NodeError (node:internal/errors:406:5)
+    at _write (node:internal/streams/writable:371:13)
+    at Writable.write (node:internal/streams/writable:393:10)
+    at fw (/workspace/openvpn-client/name/webapp2/indicator.js:193:41)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:204:13 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2023-12-12T01:32:06.522] [ERROR] default - SyntaxError: Unexpected token ']', "]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:225:33)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:235:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:361:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T01:32:20.567] [ERROR] default - SyntaxError: Unexpected token ']', "]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:225:33)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:235:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:361:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T01:32:53.104] [ERROR] default - SyntaxError: Unexpected token ']', "]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:225:33)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:235:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:361:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T01:33:22.285] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:344:33
+[2023-12-12T02:02:26.529] [ERROR] default - ReferenceError: fw is not defined
+    at /workspace/openvpn-client/name/webapp2/indicator.js:177:13
+[2023-12-12T02:03:23.693] [ERROR] default - ReferenceError: fw is not defined
+    at /workspace/openvpn-client/name/webapp2/indicator.js:177:13
+[2023-12-12T02:08:35.787] [ERROR] default - TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Object.writeFileSync (node:fs:2281:5)
+    at Object.appendFileSync (node:fs:2350:6)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:175:20 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2023-12-12T02:09:49.593] [ERROR] default - TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Object.writeFileSync (node:fs:2281:5)
+    at Object.appendFileSync (node:fs:2350:6)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:175:20 {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2023-12-12T02:10:37.745] [ERROR] default - SyntaxError: Unexpected non-whitespace character after JSON at position 5369
+    at JSON.parse (<anonymous>)
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:189:33)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:199:9
+[2023-12-12T02:32:03.606] [ERROR] default - TypeError: Cannot read properties of undefined (reading '0')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:190:39
+    at Array.forEach (<anonymous>)
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:189:78)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:197:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:323:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+[2023-12-12T02:32:36.776] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:307:33
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:324:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:33:01.483] [ERROR] default - TypeError: combineData.keys is not a function
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:195:39)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:198:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:324:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:33:28.608] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:306:33
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:323:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:35:30.246] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:306:33
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:323:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:36:43.040] [ERROR] default - TypeError: Cannot read properties of undefined (reading '1')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:306:33
+[2023-12-12T02:44:16.215] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:208:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:207:22
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:234:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:48:37.603] [ERROR] default - TypeError: Cannot read properties of undefined (reading '0')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:204:42
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:233:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:49:15.783] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:211:22
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:236:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:50:08.417] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:211:22
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:236:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:50:33.224] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:211:22
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:236:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:50:42.345] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:211:22
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:236:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:52:16.699] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:211:22
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:236:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:52:24.584] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:211:22
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:236:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T02:52:39.289] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:211:22
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:236:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T03:07:38.353] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:211:22
+[2023-12-12T03:08:20.358] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:211:22
+[2023-12-12T03:08:49.328] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:211:22
+[2023-12-12T03:09:59.476] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:213:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:22
+[2023-12-12T03:11:33.526] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'code')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:213:37
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:212:22
+[2023-12-12T03:21:51.028] [ERROR] default - Error: ENOSPC: no space left on device, write
+    at Object.writeSync (node:fs:917:3)
+    at Object.writeFileSync (node:fs:2294:26)
+    at Object.appendFileSync (node:fs:2350:6)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:178:20 {
+  errno: -28,
+  syscall: 'write',
+  code: 'ENOSPC'
+}
+[2023-12-12T03:46:27.973] [ERROR] default - ReferenceError: buff is not defined
+    at readInvestorFiles (/workspace/openvpn-client/name/webapp2/indicator.js:233:17)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:241:9
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:277:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T04:06:59.158] [ERROR] default - TypeError: investorData.map is not a function
+    at /workspace/openvpn-client/name/webapp2/indicator.js:249:37
+[2023-12-12T04:07:48.016] [ERROR] default - TypeError: investorData.map is not a function
+    at /workspace/openvpn-client/name/webapp2/indicator.js:249:37
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:277:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T04:07:53.456] [ERROR] default - TypeError: investorData.map is not a function
+    at /workspace/openvpn-client/name/webapp2/indicator.js:249:37
+    at Object.<anonymous> (/workspace/openvpn-client/name/webapp2/indicator.js:277:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+[2023-12-12T04:28:41.747] [ERROR] default - ReferenceError: prices is not defined
+    at /workspace/openvpn-client/name/webapp2/indicator.js:283:88
+    at Array.map (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:283:35
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-12-12T04:36:28.309] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'slice')
+    at /workspace/openvpn-client/name/webapp2/indicator.js:285:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-12-12T07:42:53.809] [ERROR] default - ReferenceError: checkDate is not defined
+    at /workspace/openvpn-client/name/webapp2/indicator.js:350:26
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-12-12T07:43:13.892] [ERROR] default - ReferenceError: avg is not defined
+    at /workspace/openvpn-client/name/webapp2/indicator.js:355:17
+    at Array.forEach (<anonymous>)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:354:30
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-12-12T08:00:55.722] [ERROR] default - ReferenceError: symbolMapData is not defined
+    at /workspace/openvpn-client/name/webapp2/indicator.js:318:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-12-12T09:51:15.688] [ERROR] default - TypeError [ERR_INVALID_ARG_TYPE]: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+    at Object.writeFileSync (node:fs:2281:5)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:411:12
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+[2023-12-12T09:51:50.131] [ERROR] default - Error: EEXIST: file already exists, mkdir './indicator'
+    at Object.mkdirSync (node:fs:1379:3)
+    at /workspace/openvpn-client/name/webapp2/indicator.js:410:12
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errno: -17,
+  syscall: 'mkdir',
+  code: 'EEXIST',
+  path: './indicator'
+}
