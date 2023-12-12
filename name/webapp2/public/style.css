@@ -75,7 +75,7 @@ canvas {
 /* Lớp hidden để ẩn sidebar */
 .hidden {
     transform: translateX(-250px);
-    /* Dịch chuyển sidebar ra ngoài màn hình */   
+    /* Dịch chuyển sidebar ra ngoài màn hình */
 }
 
 /* Nút hoặc biểu tượng để hiện sidebar */

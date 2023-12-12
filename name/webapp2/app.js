@@ -31,6 +31,13 @@ function getNow() {
     + "" + (fd.getSeconds() < 10 ? "0" + fd.getSeconds() : fd.getSeconds());
 }
 
+function getNowDate() {
+  let fd = new Date();
+  return fd.getFullYear()
+    + "" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
+    + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate());
+}
+
 app.post('/api/post', (req, res) => {
   // Lấy dữ liệu từ yêu cầu POST
   var postData = JSON.stringify(req.body);
@@ -109,7 +116,11 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
-enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline', 'timelinemulti', 'sectors', 'sectorschart', 'stackbar', 'skybox', 'skybox2', 'skyboxok', 'tooltips', 'skyboxX', 'skyboxX1']
+enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline',
+  'timelinemulti', 'sectors', 'sectorschart', 'stackbar', 'skybox',
+  'skybox2', 'skyboxok', 'tooltips', 'skyboxX', 'skyboxX1',
+  'indicator',
+]
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
     res.sendFile(__dirname + `/public/${ep}.html`);
@@ -165,8 +176,24 @@ io.on('connection', (socket) => {
 
   client = socket;
 });
+var mapIndicator;
+app.get('/api/indicator', (req, res) => {
+  console.log(`Req url`, req.url)
+  var f = "./indicator/indicator" + getNowDate() + ".json"
+  if (!mapIndicator && fs.existsSync(f)) {
+    var buff = fs.readFileSync(f, "utf-8")
+    mapIndicator = JSON.parse(buff);
+    res.json(mapIndicator);
+  } else {
+    if (mapIndicator) {
+      res.json(mapIndicator);
+    } else {
+      res.json({});
+    }
 
+  }
 
+});
 
 app.get('/api/investorData', (req, res) => {
   console.log(`Req url`, req.url)
