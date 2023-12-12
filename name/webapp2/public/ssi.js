@@ -65,6 +65,9 @@ async function fetchData(cbpre,cbpost) {
                 data = data.trim()
                 stat.res++;
                 console.log(s, count++, "/", symbols.length, data.length)
+                if(stat.res %10 === 0){
+                    cbpost(JSON.stringify(stat))
+                }
                 if (!(data.startsWith("{") && data.endsWith("}"))) {
                     return;
                 }

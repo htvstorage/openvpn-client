@@ -322,6 +322,22 @@
             /* z-index: 1; */
             /* Add lower z-index */
         }
+
+        .submenu {
+            margin-top: 10px;
+            width: 100%;
+            display: none;
+        }
+
+        .parent-menu {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        #noti {
+            word-wrap: break-word
+        }
+    </style>
     </style>
 </head>
 
@@ -331,35 +347,72 @@
         <div class="overlay" id="overlay"></div>
         <ul>
             <li><a href="/chart3" target="_blank">VNINDEX</a></li>
-            <li><a href="/chart4?interval=60&filter=ge(16,200000)" target="_blank">BySellSymbols</a></li>
-            <li><a href="/sectors?interval=300" target="_blank">BuySellSectors</a></li>
+            <li>
+                <a href="#" class="parent-menu">BySellSymbols</a>
+                <ul class="submenu">
+                    <li><a href="/chart4?interval=60&filter=ge(16,200000)" target="_blank">BySellSymbols 60 Seconds</a>
+                    </li>
+                    <li><a href="/chart4?interval=300&filter=ge(16,200000)" target="_blank">BySellSymbols 5 Minutes</a>
+                    </li>
+                    <li><a href="/chart4?interval=600&filter=ge(16,200000)" target="_blank">BySellSymbols 10 Minutes</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- <li><a href="/chart4?interval=60&filter=ge(16,200000)" target="_blank">BySellSymbols</a></li> -->
+            <li>
+                <a href="#" class="parent-menu">BuySellSectors</a>
+                <ul class="submenu">
+                    <li><a href="/sectors?interval=300" target="_blank">BuySellSectors</a></li>
+                    <li><a href="/sectorschart?percent=x&interval=5&minVal=5000000000" target="_blank">Sector Chart With
+                            Percent</a></li>
+                    <li><a href="/sectorschart?interval=5&minVal=5000000000" target="_blank">Sector Chart</a></li>
+                </ul>
+            </li>
+            <!-- <li><a href="/sectors?interval=300" target="_blank">BuySellSectors</a></li>
             <li><a href="/sectorschart?percent=x&interval=5&minVal=5000000000" target="_blank">Sector Chart With
                     Percent</a></li>
-            <li><a href="/sectorschart?interval=5&minVal=5000000000" target="_blank">Sector Chart</a></li>
+            <li><a href="/sectorschart?interval=5&minVal=5000000000" target="_blank">Sector Chart</a></li> -->
             <li><a href="/timeline?symbols=MSN" target="_blank">timeline</a></li>
             <li><a href="/timelinemulti?symbols=NVL,VCI,VIX,DXG,DIG,NLG,KBC" target="_blank">NVL,VCI,DXG,DIG,PDR,NLG</a>
             </li>
-            <li><a href="/?statDay=1" target="_self">Investor 1 day</a></li>
-            <li><a href="/?statDay=3" target="_self">Investor 3 day</a></li>
-            <li><a href="/?statDay=7" target="_self">Investor 7 day</a></li>
-            <li><a href="/?statDay=10" target="_self">Investor 10 day</a></li>
-            <li><a href="/?statDay=30" target="_self">Investor 30 day</a></li>
-            <li><a href="/?statDay=100" target="_self">Investor max day</a></li>
-            <li><a href='/?filter=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")&&statDay=100&&filtersum=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")'
-                    target="_self">Filter Investor</a></li>
-            <li><a href='/?filter=and(ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR"),dbw("trading_date","2023-10-01","2024-12-01"))&&statDay=100&&filtersum=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")'
-                    target="_self">Filter Investor 1</a></li>
-            <li><a href='/?filter=and(ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR"),dbw("trading_date","2023-10-01","2024-12-01"))&&statDay=100'
-                    target="_self">Filter Investor 2</a></li>
-            <li><a href='/?filter=dbw("trading_date","2023-11-01","2024-12-31")&&statDay=100' target="_self">Filter
-                    Investor 3</a></li>
-            <li><a href='/?filter=dbw("trading_date","2023-11-01","2024-12-31")&&statDay=100' target="_self">Filter
-                    Investor 3</a></li>
-            <li><a href='javascript:void(0)' onclick="fetchData(cbpre,cbpost)" target="_self">Fetch Data</a></li>
-            <li><a href='javascript:void(0)' onclick="retry()" target="_self">Retry</a></li>
-            <li><a href='javascript:void(0)' onclick="downloadData()" target="_self">Download</a></li>
-            <li><a href='javascript:void(0)' onclick="postData()" target="_self">PostData</a></li>
-            <li><a href='javascript:void(0)' onclick="postData2()" target="_self">PostData</a></li>
+            <li>
+                <a href="#" class="parent-menu">Investor</a>
+                <ul class="submenu">
+                    <li><a href='/?filter=and(dbw("trading_date","2023-10-01","2024-12-01"),ct("code","IPA","BVS","CTS","VND","TVB","IVS","SHS","TVC","ABW","ORS","PHS","HCM","HAC","TVS","ART","PV2","APS","APG","BSI","WSS","AGR","VFS","IBC","EVF","AAS","TIN","SSI","VDS","TCI","DSC","BMS","EVS","VUA","VIX","VCI","PIV","FTS","MBS","CSI","SBS","API","HBS","PSI","VIG"))&&statDay=100&&filtersum=ct("code","IPA","BVS","CTS","VND","TVB","IVS","SHS","TVC","ABW","ORS","PHS","HCM","HAC","TVS","ART","PV2","APS","APG","BSI","WSS","AGR","VFS","IBC","EVF","AAS","TIN","SSI","VDS","TCI","DSC","BMS","EVS","VUA","VIX","VCI","PIV","FTS","MBS","CSI","SBS","API","HBS","PSI","VIG")&&limit=20000'
+                            target="_self">Investor Tài Chính</a></li>
+                    <li><a href='/?filter=and(dbw("trading_date","2023-10-01","2024-12-01"),ct("code","NBB","C21","DIH","NVT","SID","CEO","HD2","CKG","TN1","VPI","SIP","CRE","HPX","BCM","DXS","UNI","PVR","STL","TIG","PFL","LGL","FLC","LSG","DTI","EIN","KOS","AGG","TBH","BIG","RCL","HDC","DXG","PNT","LAI","FIR","E29","SJS","CII","ITA","ITC","PPI","D11","VPH","IDV","NDN","IDJ","VNI","CLG","HU6","BAX","HTT","SZC","PLA","SSH","TDH","DIG","NTL","CSC","OCH","SZL","TNT","SGR","LEC","NTC","NVL","TID","VHM","HRB","IDC","SZB","KHG","BVL","LHG","QCG","PDR","FDC","DTA","HQC","KAC","HAR","TIP","SII","BII","SNZ","ASM","SDU","OGC","SCR","NTB","CCL","DLR","VCR","NLG","VRE","DCH","PWA","FTI","SZG","TIX","D2D","VIC","KBC","VRC","KDH","DRH","PXL","PVL","CIG","HDG","FIT","HPI","TCH","LDG","MH3","HD8","NRC","HD6","PTN","MGR"))&&statDay=100&&filtersum=ct("code","NBB","C21","DIH","NVT","SID","CEO","HD2","CKG","TN1","VPI","SIP","CRE","HPX","BCM","DXS","UNI","PVR","STL","TIG","PFL","LGL","FLC","LSG","DTI","EIN","KOS","AGG","TBH","BIG","RCL","HDC","DXG","PNT","LAI","FIR","E29","SJS","CII","ITA","ITC","PPI","D11","VPH","IDV","NDN","IDJ","VNI","CLG","HU6","BAX","HTT","SZC","PLA","SSH","TDH","DIG","NTL","CSC","OCH","SZL","TNT","SGR","LEC","NTC","NVL","TID","VHM","HRB","IDC","SZB","KHG","BVL","LHG","QCG","PDR","FDC","DTA","HQC","KAC","HAR","TIP","SII","BII","SNZ","ASM","SDU","OGC","SCR","NTB","CCL","DLR","VCR","NLG","VRE","DCH","PWA","FTI","SZG","TIX","D2D","VIC","KBC","VRC","KDH","DRH","PXL","PVL","CIG","HDG","FIT","HPI","TCH","LDG","MH3","HD8","NRC","HD6","PTN","MGR")&&limit=20000'
+                            target="_self">Investor BĐS</a></li>
+                    <li><a href="/?statDay=1" target="_self">Investor 1 day</a></li>
+                    <li><a href="/?statDay=3" target="_self">Investor 3 day</a></li>
+                    <li><a href="/?statDay=7" target="_self">Investor 7 day</a></li>
+                    <li><a href="/?statDay=10" target="_self">Investor 10 day</a></li>
+                    <li><a href="/?statDay=30" target="_self">Investor 30 day</a></li>
+                    <li><a href="/?statDay=100" target="_self">Investor max day</a></li>
+                    <li><a href='/?filter=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")&&statDay=100&&filtersum=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")'
+                            target="_self">Filter Investor</a></li>
+                    <li><a href='/?filter=and(ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR"),dbw("trading_date","2023-10-01","2024-12-01"))&&statDay=100&&filtersum=ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR")'
+                            target="_self">Filter Investor 1</a></li>
+                    <li><a href='/?filter=and(ct("code","DIG","NVL","DXG","VIX","KBC","NLG","VCI","HAG","PDR"),dbw("trading_date","2023-10-01","2024-12-01"))&&statDay=100'
+                            target="_self">Filter Investor 2</a></li>
+                    <li><a href='/?filter=dbw("trading_date","2023-11-01","2024-12-31")&&statDay=100'
+                            target="_self">Filter
+                            Investor 3</a></li>
+                    <li><a href='/?filter=dbw("trading_date","2023-11-01","2024-12-31")&&statDay=100'
+                            target="_self">Filter
+                            Investor 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="parent-menu">FetchData</a>
+                <ul class="submenu">
+                    <li><a href='javascript:void(0)' onclick="fetchData(cbpre,cbpost)" target="_self">Fetch Data</a>
+                    </li>
+                    <li><a href='javascript:void(0)' onclick="retry()" target="_self">Retry</a></li>
+                    <li><a href='javascript:void(0)' onclick="downloadData()" target="_self">Download</a></li>
+                    <li><a href='javascript:void(0)' onclick="postData()" target="_self">PostData</a></li>
+                    <li><a href='javascript:void(0)' onclick="postData2()" target="_self">PostData</a></li>
+                </ul>
+            </li>
             <li><span id="noti">Noti</a></li>
             <!-- Add links for other charts -->
         </ul>
@@ -1271,18 +1324,55 @@
         }
     </script>
     <script>
+
         function postData() {
+            var time = Date.now()
+            var done = false;
+            var percentComplete = 0;
+            var f = async () => {
+                if (!done) {
+                    $("#noti").text(`Post Data...${percentComplete}% (${(Date.now() - time) / 1000}s)`)
+                    setTimeout(() => { f() }, 1000)
+                }
+            }
+
+            f();
 
             // Thực hiện yêu cầu POST
             $.post({
                 url: '/api/post',  // Đổi URL này thành địa chỉ thực tế của server
                 data: mapData,
+                xhr: function () {
+                    var xhr = new window.XMLHttpRequest();
+                    // Thiết lập sự kiện progress
+                    xhr.upload.addEventListener("progress", function (event) {
+                        if (event.lengthComputable) {
+                            percentComplete = Math.floor((event.loaded / event.total) * 10000) / 100;
+                            // console.log('Đã gửi: ' + percentComplete + '%');
+                        }
+                    }, false);
+
+                    // Thiết lập sự kiện load (khi hoàn thành)
+                    xhr.addEventListener("load", function () {
+                        console.log("Gửi dữ liệu hoàn thành!");
+                    });
+
+                    // Thiết lập sự kiện error (khi xảy ra lỗi)
+                    xhr.addEventListener("error", function () {
+                        console.error("Gửi dữ liệu bị lỗi!");
+                    });
+
+                    return xhr;
+                },
                 success: function (response) {
                     // Xử lý phản hồi từ server
+                    done = true;
+                    $("#noti").text(JSON.stringify(response))
                     console.log('Server response:', response);
                 },
                 error: function (error) {
                     // Xử lý lỗi nếu có
+                    done = true;
                     console.error('Error:', error);
                 }
             });
@@ -1293,6 +1383,29 @@
             $.post({
                 url: '/api/postdetail',  // Đổi URL này thành địa chỉ thực tế của server
                 data: mapData,
+                xhr: function () {
+                    var xhr = new window.XMLHttpRequest();
+
+                    // Thiết lập sự kiện progress
+                    xhr.upload.addEventListener("progress", function (event) {
+                        if (event.lengthComputable) {
+                            var percentComplete = (event.loaded / event.total) * 100;
+                            console.log('Đã gửi: ' + percentComplete + '%');
+                        }
+                    }, false);
+
+                    // Thiết lập sự kiện load (khi hoàn thành)
+                    xhr.addEventListener("load", function () {
+                        console.log("Gửi dữ liệu hoàn thành!");
+                    });
+
+                    // Thiết lập sự kiện error (khi xảy ra lỗi)
+                    xhr.addEventListener("error", function () {
+                        console.error("Gửi dữ liệu bị lỗi!");
+                    });
+
+                    return xhr;
+                },
                 success: function (response) {
                     // Xử lý phản hồi từ server
                     console.log('Server response:', response);
@@ -1302,7 +1415,43 @@
                     console.error('Error:', error);
                 }
             });
-        }        
+        }
+
+        $(document).ready(function () {
+            // Toggle visibility of submenu when clicking on the parent menu item
+            $(".parent-menu").click(function () {
+                $(this).next(".submenu").slideToggle();
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var listItems = document.querySelectorAll('.sidebar li');
+
+            listItems.forEach(function (item) {
+                item.addEventListener('mouseover', function () {
+                    // Generate a random color
+                    var randomColor = getRandomColor();
+
+                    // Apply the random color to the background
+                    item.style.backgroundColor = randomColor;
+                });
+
+                item.addEventListener('mouseout', function () {
+                    // Reset the background color on mouseout
+                    item.style.backgroundColor = '';
+                });
+            });
+
+            // Function to generate a random color in hexadecimal format
+            function getRandomColor() {
+                var letters = '0123456789ABCDEF';
+                var color = '#';
+                for (var i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+        });
     </script>
     <script src="script.js"></script>
 </body>
