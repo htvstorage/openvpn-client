@@ -196,24 +196,28 @@
         var mapFieldIndex = {}
         var indicatorField = ['macd_histogram', 'macd_macd', 'macd_signal', 'price_bb_lower', 'price_bb_middle', 'price_bb_pb', 'price_bb_upper', 'price_ema_5', 'price_ema_9', 'price_ema_10', 'price_ema_12', 'price_ema_20', 'price_ema_25', 'price_ema_26', 'price_ema_30', 'price_ema_50', 'price_ema_100', 'price_ema_200', 'price_ma_5', 'price_ma_9', 'price_ma_10', 'price_ma_12', 'price_ma_20', 'price_ma_25', 'price_ma_26', 'price_ma_30', 'price_ma_50', 'price_ma_100', 'price_ma_200', 'price_max_5', 'price_max_10', 'price_max_20', 'price_max_26', 'price_max_30', 'price_max_200', 'price_max_1000', 'price_min_5', 'price_min_10', 'price_min_20', 'price_min_26', 'price_min_30', 'price_min_200', 'price_min_1000', 'rsi', 'val_5', 'val_10', 'val_20', 'val_26', 'val_30', 'val_200', 'val_1000', 'val_max_5', 'val_max_10', 'val_max_20', 'val_max_26', 'val_max_30', 'val_max_200', 'val_max_1000', 'val_min_5', 'val_min_10', 'val_min_20', 'val_min_26', 'val_min_30', 'val_min_200', 'val_min_1000', 'vol_5', 'vol_10', 'vol_20', 'vol_26', 'vol_30', 'vol_200', 'vol_1000', 'vol_max_5', 'vol_max_10', 'vol_max_20', 'vol_max_26', 'vol_max_30', 'vol_max_200', 'vol_max_1000', 'vol_min_5', 'vol_min_10', 'vol_min_20', 'vol_min_26', 'vol_min_30', 'vol_min_200', 'vol_min_1000',]
         var pctField = ['price_bb_lower', 'price_bb_middle', 'price_bb_pb', 'price_bb_upper', 'price_ema_5', 'price_ema_9', 'price_ema_10', 'price_ema_12', 'price_ema_20', 'price_ema_25', 'price_ema_26', 'price_ema_30', 'price_ema_50', 'price_ema_100', 'price_ema_200', 'price_ma_5', 'price_ma_9', 'price_ma_10', 'price_ma_12', 'price_ma_20', 'price_ma_25', 'price_ma_26', 'price_ma_30', 'price_ma_50', 'price_ma_100', 'price_ma_200', 'price_max_5', 'price_max_10', 'price_max_20', 'price_max_26', 'price_max_30', 'price_max_200', 'price_max_1000', 'price_min_5', 'price_min_10', 'price_min_20', 'price_min_26', 'price_min_30', 'price_min_200', 'price_min_1000', 'val_5', 'val_10', 'val_20', 'val_26', 'val_30', 'val_200', 'val_1000', 'val_max_5', 'val_max_10', 'val_max_20', 'val_max_26', 'val_max_30', 'val_max_200', 'val_max_1000', 'val_min_5', 'val_min_10', 'val_min_20', 'val_min_26', 'val_min_30', 'val_min_200', 'val_min_1000', 'vol_5', 'vol_10', 'vol_20', 'vol_26', 'vol_30', 'vol_200', 'vol_1000', 'vol_max_5', 'vol_max_10', 'vol_max_20', 'vol_max_26', 'vol_max_30', 'vol_max_200', 'vol_max_1000', 'vol_min_5', 'vol_min_10', 'vol_min_20', 'vol_min_26', 'vol_min_30', 'vol_min_200', 'vol_min_1000',]
-        var showField = ['price_bb_lower', 'price_bb_middle', 'price_bb_pb', 'price_bb_upper','(%)price_bb_lower', '(%)price_bb_middle', '(%)price_bb_pb', '(%)price_bb_upper','(%)vol_30','(%)val_30','(%)val_10']
+        var showField = ['price_bb_lower', 'price_bb_middle', 'price_bb_pb', 'price_bb_upper', '(%)price_bb_lower', '(%)price_bb_middle', '(%)price_bb_pb', '(%)price_bb_upper', '(%)vol_30', '(%)val_30', '(%)val_10']
         var rowHead = $("#symbolHeadTable tr")
         var rowHeadTh = $("#symbolHeadTable tr th")
+        rowHeadTh.each(function (index, element) {
+            // Update the text by appending the index
+            $(element).text($(element).text() + " (" + index + ")");
+        });
         var numCol = rowHeadTh.length;
-        console.log('Init numCol ',numCol, 'total ' , numCol+indicatorField.length + pctField.length)
+        console.log('Init numCol ', numCol, 'total ', numCol + indicatorField.length + pctField.length)
         var c = 0;
         indicatorField.forEach((f, i) => {
-            rowHead.append(`<th>${f}</th>`)
+            rowHead.append(`<th>${f} (${numCol + i})</th>`)
             mapFieldIndex[f] = numCol + i;
             c++;
         })
         pctField.forEach((f, i) => {
-            rowHead.append(`<th>${'(%)' + f}</th>`)
+            rowHead.append(`<th>${'(%)' + f} (${numCol+c+ i})</th>`)
             mapFieldIndex['(%)' + f] = numCol + c + i;
         })
 
-        var indexShowField =showField.map(e=>{return mapFieldIndex[e]})
-        var hideField = Array.from({ length: indicatorField.length + pctField.length }, (_, index) => index + numCol).filter(i=>!indexShowField.includes(i))
+        var indexShowField = showField.map(e => { return mapFieldIndex[e] })
+        var hideField = Array.from({ length: indicatorField.length + pctField.length }, (_, index) => index + numCol).filter(i => !indexShowField.includes(i))
         let ne = []
         indicatorField.forEach((f, i) => {
             ne[i] = 0
@@ -249,6 +253,10 @@
                 },
 
                 columnDefs: [
+                    {
+                        targets: Array.from({ length: indicatorField.length + pctField.length + numCol}, (_, index) => index),
+                        className: 'dt-center'
+                    },
                     { visible: false, targets: hideField, },
                     {
                         targets: 0,
@@ -415,9 +423,7 @@
                             let tv = e[11] + e[13] + e[15]
                             return [...e.slice(0, e.length - 2), t, tv, e.at(-2), e.at(-1)]
                         })
-                        if (filterScript && filterScript.length > 0) {
-                            data = filter(data, filterScript)
-                        }
+
                         var price;
                         var vol;
                         var val;
@@ -456,7 +462,9 @@
 
                         })
 
-
+                        if (filterScript && filterScript.length > 0) {
+                            data = filter(data, filterScript)
+                        }
                         table.rows.add(data).draw()
                         let key = Math.floor(Date.now() / 1000 / interval);
                         if (!lastChangeMap[key]) {
