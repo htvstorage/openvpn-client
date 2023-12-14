@@ -179,8 +179,15 @@ io.on('connection', (socket) => {
 var mapIndicator;
 app.get('/api/indicator', (req, res) => {
   console.log(`Req url`, req.url)
+  
+  const url = new URL('http://local.com/' + req.url);
+
+  // Lấy tất cả các tham số truy vấn dưới dạng một đối tượng URLSearchParams
+  const queryParams = url.searchParams;
+  var force = queryParams.get('force');
+
   var f = "./indicator/indicator" + getNowDate() + ".json"
-  if (!mapIndicator) {
+  if (!mapIndicator || force) {
     // && fs.existsSync(f)
     let files = fs.readdirSync("./indicator/")
     files = files.filter(e => e.endsWith(".json")).sort(function (a, b) {

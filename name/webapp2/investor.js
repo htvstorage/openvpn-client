@@ -306,8 +306,8 @@ function writeArrayJson2XlsxNew(filename, ...args) {
       })
     })
 
-    fs.appendFileSync(dir + "/" + getNow() + "_investor.csv", data2 + "\n");
-    writeArrayJson2XlsxNew(dir + "/" + getNow() + "_investor.xlsx", { data: investorData }, ...Object.keys(sheet).map(e => { return { data: sheet[e], name: e } }));
+    // fs.appendFileSync(dir + "/" + getNow() + "_investor.csv", data2 + "\n");
+    // writeArrayJson2XlsxNew(dir + "/" + getNow() + "_investor.xlsx", { data: investorData }, ...Object.keys(sheet).map(e => { return { data: sheet[e], name: e } }));
 
   } catch (error) {
     logger.error(error);
