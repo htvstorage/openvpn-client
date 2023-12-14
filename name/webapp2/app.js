@@ -119,7 +119,7 @@ for (let i = 1; i <= 10; i++) {
 enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline',
   'timelinemulti', 'sectors', 'sectorschart', 'stackbar', 'skybox',
   'skybox2', 'skyboxok', 'tooltips', 'skyboxX', 'skyboxX1',
-  'indicator',
+  'indicator', 'indicatorstatic',
 ]
 enpoint.forEach(ep => {
   app.get(`/${ep}`, (req, res) => {
@@ -180,7 +180,15 @@ var mapIndicator;
 app.get('/api/indicator', (req, res) => {
   console.log(`Req url`, req.url)
   var f = "./indicator/indicator" + getNowDate() + ".json"
-  if (!mapIndicator && fs.existsSync(f)) {
+  if (!mapIndicator) {
+    // && fs.existsSync(f)
+    let files = fs.readdirSync("./indicator/")
+    files = files.filter(e => e.endsWith(".json")).sort(function (a, b) {
+      return b.localeCompare(a);
+    });
+    console.table(files)
+    f = "./indicator/" + files[0]
+
     var buff = fs.readFileSync(f, "utf-8")
     mapIndicator = JSON.parse(buff);
     res.json(mapIndicator);

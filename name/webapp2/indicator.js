@@ -404,6 +404,26 @@ function writeArrayJson2XlsxNew(filename, ...args) {
 
                 indicator.symbol = symbol;
                 // console.table(indicator)
+
+                let last_price = prices.at(-1)
+                let last_vol = vol.at(-1)
+                let last_val = val.at(-1)
+                for (let f in indicator) {
+                    if (f.includes('price')) {
+                        indicator['(%)' + f] = Math.round((last_price - indicator[f]) / last_price * 10000) / 100;
+                    }
+                    if (f.includes('vol')) {
+                        indicator['(%)' + f] = Math.round((last_vol) / indicator[f] * 10000) / 100;
+                    }
+                    if (f.includes('val')) {
+                        indicator['(%)' + f] = Math.round((last_val) / indicator[f] * 10000) / 100;
+                    }
+                }
+
+                indicator.last_price = last_price
+                indicator.last_vol = last_vol
+                indicator.last_val = last_val
+
                 mapIndicator[symbol] = indicator
             }
 
@@ -416,7 +436,7 @@ function writeArrayJson2XlsxNew(filename, ...args) {
             var dir = "./indicator"
             var buff = fs.readFileSync(dir + "/indicator" + getNow() + ".json", "utf-8")
             var mapIndicator = JSON.parse(buff);
-            console.table(mapIndicator)
+            // console.table(mapIndicator)
         }
 
     } catch (error) {
