@@ -241,6 +241,13 @@
 
     </table>
     <script>
+        function getNowDate() {
+            let fd = new Date();
+            return fd.getFullYear()
+                + "" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
+                + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate());
+        }
+
         $.fn.dataTable.ext.errMode = 'none';
         const url = new URL(window.location.href);
         const queryParams = url.searchParams;
@@ -248,6 +255,9 @@
         if (!interval) interval = 60
         var filterScript = queryParams.get('filter');
         if (!filterScript) filterScript = ''
+
+        var querydate = queryParams.get('querydate');
+        if (!querydate) querydate = getNowDate()
         let a = new Promise((resolve, reject) => {
             $.ajax({
                 url: '/api/getsymbols',
@@ -377,7 +387,7 @@
                         }
                     }],
 
-                "rowCallback": function (row, data, index) {                    
+                "rowCallback": function (row, data, index) {
                     if ((data[5] < 0)) {
                         // $(row).css('background-color', 'red');                
                         $('td:eq(5)', row).css('background-color', 'red');
@@ -522,7 +532,7 @@
                 }
 
                 $.ajax({
-                    url: '/api/getsymbolsdata2', // Endpoint to get updated data
+                    url: querydate?'/api/getsymbolsdata2?querydate='+querydate:'/api/getsymbolsdata2', // Endpoint to get updated data
                     method: 'GET',
                     success: function (response) {
                         var table = $('#symbolTable').DataTable();

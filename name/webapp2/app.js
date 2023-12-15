@@ -38,6 +38,12 @@ function getNowDate() {
     + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate());
 }
 
+function formatDate(fd) {
+  return fd.getFullYear()
+    + "" + (fd.getMonth() + 1 < 10 ? "0" + (fd.getMonth() + 1) : fd.getMonth() + 1)
+    + "" + (fd.getDate() < 10 ? "0" + fd.getDate() : fd.getDate());
+}
+
 app.post('/api/post', (req, res) => {
   // Lấy dữ liệu từ yêu cầu POST
   var postData = JSON.stringify(req.body);
@@ -92,6 +98,8 @@ let vf = (v) => {
 }
 
 const port = process.env.PORT || 3000;
+const INTERVAL_DUMP = +process.env.INTERVAL_DUMP || 120000;
+console.log("INTERVAL_DUMP", INTERVAL_DUMP)
 
 app.use(express.static('public'));
 
@@ -179,7 +187,7 @@ io.on('connection', (socket) => {
 var mapIndicator;
 app.get('/api/indicator', (req, res) => {
   console.log(`Req url`, req.url)
-  
+
   const url = new URL('http://local.com/' + req.url);
 
   // Lấy tất cả các tham số truy vấn dưới dạng một đối tượng URLSearchParams
@@ -252,6 +260,15 @@ app.get('/api/getsymbolsaccum', (req, res) => {
   res.json(out);
 });
 
+app.get('/api/getsymboldataseries', (req, res) => {
+  res.json(symbolDataSeries);
+});
+
+
+app.get('/api/getgroupdataseries', (req, res) => {
+  res.json(groupDataSeries);
+});
+
 app.get('/api/getcountsymbols', (req, res) => {
   res.json(countSymbol);
 });
@@ -261,9 +278,96 @@ app.get('/api/sector', (req, res) => {
   res.json(groupDataSeries);
 });
 
-
+let multidate;
 app.get('/api/getsymbolsdata2', (req, res) => {
   console.log(`Req url`, req.url)
+  const url = new URL('http://local.com/' + req.url);
+  const queryParams = url.searchParams;
+  var querydate = queryParams.get('querydate');
+
+  if (querydate && (querydate != getNowDate())) {
+    if (querydate == 'a') {
+      if (!multidate) {
+        let files = fs.readdirSync("./stockdump")
+        files = files.filter(e => e.endsWith(".json")).sort(function (a, b) {
+          return b.localeCompare(a);
+        }).slice(0, 5).filter(e=>!e.includes(getNowDate()));
+        console.table(files)
+        f = "./indicator/" + files[0]
+        let jsdata = []
+        for (var ff of files) {
+          var f = './stockdump/' + ff;
+          var buf = fs.readFileSync(f, "utf-8")
+          var dd = JSON.parse(buf)
+          var date = ff.slice(-13).slice(0, 8);
+          console.log('Date ', date)
+          dataStore[date] = dd;
+
+          var oldData = dd["lastSymbolData"]
+          let ad = Object.values(oldData).map(e => {
+            return e.data.data;
+          })
+          jsdata.push(...ad)
+        }
+        multidate = [...jsdata];
+        let ad = Object.values(lastSymbolData).map(e => {
+          return e.data.data;
+        })
+        jsdata.push(...ad)
+        res.json({
+          md5: generateMD5(JSON.stringify(jsdata)),
+          data: jsdata,
+          recordsTotal: jsdata.length,
+          recordsFiltered: jsdata.length
+        });
+      } else {        
+
+        let jsdata = [...multidate];
+        let ad = Object.values(lastSymbolData).map(e => {
+          return e.data.data;
+        })
+        jsdata.push(...ad)
+        res.json({
+          md5: generateMD5(JSON.stringify(jsdata)),
+          data: jsdata,
+          recordsTotal: jsdata.length,
+          recordsFiltered: jsdata.length
+        });
+      }
+      return;
+    }
+
+    if (!dataStore[querydate]) {
+      var f = './stockdump/stockdump_' + querydate + '.json';
+      if (fs.existsSync(f)) {
+        var buf = fs.readFileSync(f, "utf-8")
+        var dd = JSON.parse(buf)
+        dataStore[querydate] = dd;
+      }
+    }
+
+    if (dataStore[querydate]) {
+      var oldData = dataStore[querydate]["lastSymbolData"]
+      let jsdata = Object.values(oldData).map(e => {
+        return e.data.data;
+      })
+      res.json({
+        md5: generateMD5(JSON.stringify(jsdata)),
+        data: jsdata,
+        recordsTotal: jsdata.length,
+        recordsFiltered: jsdata.length
+      });
+    } else {
+      res.json({
+        md5: generateMD5([]),
+        data: [],
+        recordsTotal: 0,
+        recordsFiltered: 0
+      });
+    }
+    return;
+  }
+
   let jsdata = Object.values(lastSymbolData).map(e => {
     return e.data.data;
   })
@@ -390,12 +494,31 @@ let countUpdate = 0;
 let lastSymbolData = {}
 let symbolDataSeries = {}
 let groupDataSeries = {}
+let TMAX = 0;
+let dataStore = {}
 
 worker.on("message", (data) => {
   emitData(data)
 });
 
 let mapLastData = {}
+
+function dumpData() {
+  if (TMAX === 0) return;
+  var dd = dataStore[formatDate(new Date(TMAX * 1000))];
+  if (!dd) { dd = {}; dataStore[formatDate(new Date(TMAX * 1000))] = dd }
+  dd["symbolDataSeries"] = symbolDataSeries;
+  dd["groupDataSeries"] = groupDataSeries;
+  dd["lastSymbolData"] = lastSymbolData;
+  dd.date = formatDate(new Date(TMAX * 1000))
+  var dir = './stockdump';
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir)
+  }
+  fs.writeFile(dir + "/stockdump_" + formatDate(new Date(TMAX * 1000)) + ".json", JSON.stringify(dd), (err) => { })
+}
+
+setInterval(dumpData, INTERVAL_DUMP)
 
 function emitData(data) {
   if (data.type == '0') {
@@ -414,6 +537,9 @@ function emitData(data) {
     if (!symbolDataSeries[data.data.symbol]) symbolDataSeries[data.data.symbol] = {}
     symbolDataSeries[data.data.symbol][data.data.time] = data.data
     symbolDataSeries[data.data.symbol].dataacum = data.dataacum
+    if (TMAX < data.data.T) {
+      TMAX = data.data.T;
+    }
   } else if (data.type == '3') {
     // countSymbol++;
     if (!groupDataSeries[data.data.code]) groupDataSeries[data.data.code] = {}
