@@ -701,6 +701,17 @@
                 localStorage.clear();
                 location.reload();
             })
+
+            $('#settingsModal').on('show.bs.modal', function (e) {
+                // Vô hiệu hóa chức năng đóng modal khi nhấn vào phần bên ngoài
+                $(this).data('bs.modal')._config.backdrop = 'static';
+            });
+
+            // Lắng nghe sự kiện hide modal
+            $('#settingsModal').on('hide.bs.modal', function (e) {
+                // Bật lại chức năng đóng modal khi nhấn vào phần bên ngoài khi modal đã ẩn đi
+                $(this).data('bs.modal')._config.backdrop = true;
+            });
             var col = 6;
             $('#settingsButton').on('click', function () {
                 $('#macd').empty();
