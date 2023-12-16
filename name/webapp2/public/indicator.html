@@ -242,6 +242,14 @@
 
     </table>
     <script>
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
         function getNowDate() {
             let fd = new Date();
             return fd.getFullYear()
@@ -729,6 +737,14 @@
                         column.visible(!column.visible());
                         localStorage.setItem("mapFieldShowHide", JSON.stringify(mapFieldShowHide));
                     })
+                    checkbox.children().on('mouseover', function () {
+                        var randomColor = getRandomColor();
+                        $(checkbox).css('background-color', randomColor);
+                    });
+
+                    checkbox.children().on('mouseout', function () {
+                        $(checkbox).css('background-color', '');
+                    });
                     if (indicator.includes('macd')) {
                         $('#macd').append(checkbox);
                         // count["macd"] += 1;
@@ -784,6 +800,14 @@
                         column.visible(!column.visible());
                         localStorage.setItem("mapFieldShowHide", JSON.stringify(mapFieldShowHide));
                     })
+                    checkbox.children().on('mouseover', function () {
+                        var randomColor = getRandomColor();
+                        $(checkbox).css('background-color', randomColor);
+                    });
+
+                    checkbox.children().on('mouseout', function () {
+                        $(checkbox).css('background-color', '');
+                    });
                     if (indicator.includes('macd')) {
                         $('#macd').append(checkbox);
                         // count["macd"] += 1;
@@ -838,6 +862,23 @@
                         column.visible(!column.visible());
                         localStorage.setItem("mapFieldShowHide", JSON.stringify(mapFieldShowHide));
                     })
+                    //   perspective: 1000px;
+                    //   transform-style: preserve-3d;
+                    //   transition: transform 0.5s ease-in-out;
+                    checkbox.children().on('mouseover', function () {
+                        var randomColor = getRandomColor();
+                        $(checkbox).css({
+                            'background-color': randomColor,
+                            'perspective': '1000px',
+                            'transform-style': 'preserve-3d',
+                            'transition': 'transform 0.5s ease-in-out',
+                        });
+                    });
+
+                    checkbox.children().on('mouseout', function () {
+                        $(checkbox).css('background-color', '');
+                    });
+
                     $('#basic').append(checkbox);
                     count["basic"] += 1;
                 });
