@@ -29,11 +29,11 @@
         // camera.position.z = 100;
         // camera.position.x = 1;
 
-        camera.position.set(0, 0, -100000); // Đặt camera ở trung tâm (0, 0, 0) và dịch xuống theo trục Z
+        camera.position.set(12500, 0, 12500); // Đặt camera ở trung tâm (0, 0, 0) và dịch xuống theo trục Z
         // camera.lookAt(100, 100, 100);  // Chỉ định điểm nhìn của camera là trung tâm (0, 0, 0)
         // camera.position.set(window.innerWidth, window.innerWidth, window.innerWidth); // Đặt camera ở vị trí (0, 0, 100) - gần py
         // camera.lookAt(0, 0, 0); // Hướng camera về trung tâm (0, 0, 0)
-        camera.lookAt(new THREE.Vector3(0, 0, 0));
+        camera.lookAt(new THREE.Vector3(250000, 0, 250000));
         // Create a renderer
         const renderer = new THREE.WebGLRenderer();
         renderer.setSize(window.innerWidth, window.innerHeight);
@@ -75,7 +75,7 @@
         const geometry = new THREE.BoxGeometry(5000, 5000, 5000);
 
         // Tạo vật liệu trong suốt
-        const transparentMaterial = new THREE.MeshBasicMaterial({
+        const transparentMaterial = new THREE.MeshPhongMaterial({
             color: 0x00ff00, // Màu của cube
             transparent: true, // Cho phép trong suốt
             opacity: 1 // Độ đục, giá trị từ 0 (hoàn toàn trong suốt) đến 1 (không trong suốt)
@@ -106,9 +106,10 @@
         controls.maxPolarAngle = Math.PI / 1.5;
         // controls.enableRotate = true;
         controls.enableZoom = true;
-        controls.autoRotate = true; // Bật chế độ quay tự động
-        controls.autoRotateSpeed = 0.5; //
+        // controls.autoRotate = true; // Bật chế độ quay tự động
+        // controls.autoRotateSpeed = 0.5; //
 
+        controls.target.set(125000,0,125000)
         // Animation loop
         function animate() {
             requestAnimationFrame(animate);

@@ -126,7 +126,7 @@ for (let i = 1; i <= 10; i++) {
 
 enpoint = ['symbol', 'history', 'detail', 'chart2Row', 'timeline',
   'timelinemulti', 'sectors', 'sectorschart', 'stackbar', 'skybox',
-  'skybox2', 'skyboxok', 'tooltips', 'skyboxX', 'skyboxX1',
+  'skybox2', 'skyboxok', 'tooltips', 'skyboxX', 'skyboxX1', 'skyboxmi',
   'indicator', 'indicatorstatic',
 ]
 enpoint.forEach(ep => {
