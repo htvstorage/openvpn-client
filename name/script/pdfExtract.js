@@ -79,6 +79,7 @@ function wait(ms) {
             || file.includes("202212")            
             || file.includes("2022120")
             || file.includes("2022121")
+            || file.includes("20231215")
         ) {
             continue;
         }

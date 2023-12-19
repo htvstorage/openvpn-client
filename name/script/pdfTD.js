@@ -37,7 +37,7 @@ function date2str(date) {
     let dir = "./pdf";
     let req = 0;
     let res = 0;
-    for (var i = 1; i < 10; i++) {
+    for (var i = 1; i < 30; i++) {
         let x = url(new Date(Date.now() - i * 24 * 60 * 60 * 1000));
         const response = fetch(x.url);
         req++;
