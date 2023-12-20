@@ -132,7 +132,7 @@
         // controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
         controls.dampingFactor = 0.25;
         controls.screenSpacePanning = false;
-        controls.maxPolarAngle = Math.PI / 2;
+        controls.maxPolarAngle = Math.PI / 1.2;
         // controls.enableRotate = true;
         controls.enableZoom = true;
         // controls.autoRotate = true; // Bật chế độ quay tự động
@@ -162,6 +162,17 @@
         tivi.appendChild(xx);
         document.body.appendChild(tivi);
 
+
+        var light = document.createElement('div');
+        light.className = 'mi-anchor';
+     
+
+        xx = document.createElement('div');
+        // xx.className = 'anchor-content-horizontal left spots-content';
+        xx.textContent = "Light"
+        light.appendChild(xx);
+        document.body.appendChild(light);
+
         // Tạo anchor container
         var anchorContainer = document.createElement('div');
         anchorContainer.className = 'mi-anchor';
@@ -183,7 +194,8 @@
         anchorContent.appendChild(nameElement);
         const anchorPosition = new THREE.Vector3(60000, -60000, -250000);
         const anchorPosition2 = new THREE.Vector3(-60000, -60000, -250000);
-        const tiviPos = new THREE.Vector3(250000, 0, 0);
+        const tiviPos = new THREE.Vector3(250000, 0, 70000);
+        const lightPos = new THREE.Vector3(250000, 250000, 0);
         transparentCube.position.set(0, -5, 0)
         // Cập nhật vị trí và tỉ lệ thu phóng của anchor theo camera
 
@@ -295,10 +307,12 @@
             updateAnchorPositionAndScale();
             updateAnchorPositionAndScale2(anchorPosition2, anchorContainer2)
             updateAnchorPositionAndScale2(tiviPos, tivi)
+            updateAnchorPositionAndScale2(lightPos, light)
 
             updateAnchorVisibility(tiviPos,tivi)
             updateAnchorVisibility(anchorPosition2,anchorContainer2)
             updateAnchorVisibility(anchorPosition,anchorContainer)
+            updateAnchorVisibility(lightPos,light)
         }
 
         // Handle window resize
