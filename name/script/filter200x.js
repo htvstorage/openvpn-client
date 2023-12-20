@@ -1216,7 +1216,7 @@ async function loadData(path, resolve, stat, filter, mapSymbol, downloadDate, ch
 
 
   days.forEach((e, i) => {
-    if (e == 50) {
+    if (e == 283) {
       let day50 = datax[i];
       day50.forEach((de, ii) => {
         let fe = {}
