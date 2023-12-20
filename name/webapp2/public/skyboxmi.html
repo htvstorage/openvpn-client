@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skybox Example</title>
+    <link rel="stylesheet" type="text/css" href="mi.css">
     <style>
         body {
             margin: 0;
@@ -13,6 +14,17 @@
 
         canvas {
             display: block;
+        }
+
+        .mi-anchor {
+            position: absolute;
+            background-color: blue;
+            /* Thêm màu nền xanh dương cho anchor */
+        }
+        .mi-anchor :hover {
+            position: absolute;
+            background-color: red;
+            /* Thêm màu nền xanh dương cho anchor */
         }
     </style>
 </head>
@@ -82,7 +94,7 @@
         var skybox = new THREE.Mesh(skyboxGeom, new THREE.MeshFaceMaterial(materialArray));
         skybox.flipSided = true;
         skybox.position.set(0, 0, 0);
-        skybox.scale.x = -1;
+        // skybox.scale.x = -1;
         scene.add(skybox);
         // scene.background = texture;
 
@@ -92,7 +104,7 @@
         const geometry = new THREE.BoxGeometry(5000, 5000, 5000);
 
         // Tạo vật liệu trong suốt
-        const transparentMaterial = new THREE.MeshPhongMaterial({
+        const transparentMaterial = new THREE.MeshBasicMaterial({
             color: 0x00ff00, // Màu của cube
             transparent: true, // Cho phép trong suốt
             opacity: 1 // Độ đục, giá trị từ 0 (hoàn toàn trong suốt) đến 1 (không trong suốt)
@@ -100,7 +112,7 @@
 
         // Tạo mesh với geometry và vật liệu
         const transparentCube = new THREE.Mesh(geometry, transparentMaterial);
-        transparentCube.position.set(250000, 0, 250000);
+        // transparentCube.position.set(250000, 0, 250000);
         // Thêm mesh vào scene
         scene.add(transparentCube);
 
@@ -120,7 +132,7 @@
         // controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
         controls.dampingFactor = 0.25;
         controls.screenSpacePanning = false;
-        controls.maxPolarAngle = Math.PI / 1.2;
+        controls.maxPolarAngle = Math.PI / 2;
         // controls.enableRotate = true;
         controls.enableZoom = true;
         // controls.autoRotate = true; // Bật chế độ quay tự động
@@ -128,6 +140,147 @@
 
         controls.target.set(0, 0, 0)
         // Animation loop
+
+        var anchorContainer2 = document.createElement('div');
+        anchorContainer2.className = 'mi-anchor';
+        
+
+        document.body.appendChild(anchorContainer2);
+
+        var xx = document.createElement('div');
+        // xx.className = 'anchor-content-horizontal left spots-content';
+        xx.textContent = "DIV2"
+        anchorContainer2.appendChild(xx);
+
+        var tivi = document.createElement('div');
+        tivi.className = 'mi-anchor';
+     
+
+        xx = document.createElement('div');
+        // xx.className = 'anchor-content-horizontal left spots-content';
+        xx.textContent = "Tivi Sony"
+        tivi.appendChild(xx);
+        document.body.appendChild(tivi);
+
+        // Tạo anchor container
+        var anchorContainer = document.createElement('div');
+        anchorContainer.className = 'mi-anchor';
+        anchorContainer.id = 'Spot_2';
+        anchorContainer.style.left = '418px';
+        anchorContainer.style.top = '638px';
+        anchorContainer.style.transform = 'scale(0.953864)';
+        document.body.appendChild(anchorContainer);
+
+        // Tạo anchor content
+        var anchorContent = document.createElement('div');
+        anchorContent.className = 'anchor-content-horizontal left spots-content';
+        anchorContainer.appendChild(anchorContent);
+
+        // Tạo phần tử name bên trong anchor content
+        var nameElement = document.createElement('div');
+        nameElement.className = 'name spots';
+        nameElement.textContent = "ABCDEF---"
+        anchorContent.appendChild(nameElement);
+        const anchorPosition = new THREE.Vector3(60000, -60000, -250000);
+        const anchorPosition2 = new THREE.Vector3(-60000, -60000, -250000);
+        const tiviPos = new THREE.Vector3(250000, 0, 0);
+        transparentCube.position.set(0, -5, 0)
+        // Cập nhật vị trí và tỉ lệ thu phóng của anchor theo camera
+
+        function updateAnchorPositionAndScale2(vector, div) {
+
+            // Chuyển đổi tọa độ thực thành tọa độ màn hình
+            const screenPosition = vector.clone();
+            console.log(screenPosition)
+            screenPosition.project(camera);
+
+            const widthHalf = window.innerWidth / 2;
+            const heightHalf = window.innerHeight / 2;
+            const offsetX = screenPosition.x * widthHalf + widthHalf;
+            const offsetY = -screenPosition.y * heightHalf + heightHalf;
+
+            // Cập nhật vị trí của anchor container
+            div.style.left = offsetX + 'px';
+            div.style.top = offsetY + 'px';
+
+            // Cập nhật tỉ lệ thu phóng dựa trên khoảng cách từ camera
+            const distance = camera.position.distanceTo(anchorPosition);
+            const scale = 250000 / distance;
+
+            // Áp dụng transform scale cho anchor container
+            div.style.transform = 'scale(' + scale + ')';
+        }
+
+        function updateAnchorVisibility(vector,div) {
+            // Lấy hướng nhìn của camera
+            const cameraDirection = new THREE.Vector3();
+            camera.getWorldDirection(cameraDirection);
+
+            // Lấy vị trí của anchor trong không gian thế giới
+            const anchorWorldPosition = vector.clone();
+
+            // Tính vector từ camera đến anchor
+            const vectorToAnchor = anchorWorldPosition.sub(camera.position);
+
+            // Tính góc giữa hướng nhìn của camera và vector đến anchor
+            const angle = cameraDirection.angleTo(vectorToAnchor);
+
+            // Nếu góc lớn hơn một ngưỡng (ví dụ: 90 độ), ẩn anchor
+            // if (THREE.MathUtils.radToDeg(angle) > 90) {
+                if (angle > Math.PI/2) {
+                div.style.display = 'none'; // Ẩn anchor
+            } else {
+                div.style.display = 'block'; // Hiển thị anchor
+            }
+        }
+
+        function updateAnchorPositionAndScale() {
+            // var screenPosition = new THREE.Vector3();
+            // camera.getWorldPosition(screenPosition);
+            // screenPosition.project(camera);
+
+            // var widthHalf = window.innerWidth / 2;
+            // var heightHalf = window.innerHeight / 2;
+            // var offsetX = screenPosition.x * widthHalf + widthHalf;
+            // var offsetY = -screenPosition.y * heightHalf + heightHalf;
+
+            // // Cập nhật vị trí của anchor container
+            // anchorContainer.style.left = offsetX + 'px';
+            // anchorContainer.style.top = offsetY + 'px';
+
+            // // Cập nhật tỉ lệ thu phóng dựa trên khoảng cách từ camera
+            // var distance = camera.position.distanceTo(new THREE.Vector3(0, 0, 0));
+            // var scale = 1 / distance;
+
+            // // Áp dụng transform scale cho anchor container
+            // anchorContainer.style.transform = 'scale(' + scale + ')';
+
+            // Chuyển đổi tọa độ thực thành tọa độ màn hình
+            const screenPosition = anchorPosition.clone();
+            console.log(screenPosition)
+            screenPosition.project(camera);
+
+            const widthHalf = window.innerWidth / 2;
+            const heightHalf = window.innerHeight / 2;
+            const offsetX = screenPosition.x * widthHalf + widthHalf;
+            const offsetY = -screenPosition.y * heightHalf + heightHalf;
+
+            // Cập nhật vị trí của anchor container
+            anchorContainer.style.left = offsetX + 'px';
+            anchorContainer.style.top = offsetY + 'px';
+
+            // Cập nhật tỉ lệ thu phóng dựa trên khoảng cách từ camera
+            const distance = camera.position.distanceTo(anchorPosition);
+            const scale = 250000 / distance;
+
+            // Áp dụng transform scale cho anchor container
+            anchorContainer.style.transform = 'scale(' + scale + ')';
+        }
+
+        // Lắng nghe sự kiện change của OrbitControls để cập nhật anchor
+        controls.addEventListener('change', updateAnchorPositionAndScale);
+
+
         function animate() {
             requestAnimationFrame(animate);
 
@@ -139,6 +292,13 @@
 
             // Render the scene
             renderer.render(scene, camera);
+            updateAnchorPositionAndScale();
+            updateAnchorPositionAndScale2(anchorPosition2, anchorContainer2)
+            updateAnchorPositionAndScale2(tiviPos, tivi)
+
+            updateAnchorVisibility(tiviPos,tivi)
+            updateAnchorVisibility(anchorPosition2,anchorContainer2)
+            updateAnchorVisibility(anchorPosition,anchorContainer)
         }
 
         // Handle window resize
