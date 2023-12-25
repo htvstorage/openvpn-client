@@ -101,7 +101,11 @@ const port = process.env.PORT || 3000;
 const INTERVAL_DUMP = +process.env.INTERVAL_DUMP || 120000;
 console.log("INTERVAL_DUMP", INTERVAL_DUMP)
 
-app.use(express.static('public'));
+// app.use(express.static('public'));
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.use('/examples',express.static(path.join(__dirname, 'examples')));
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
