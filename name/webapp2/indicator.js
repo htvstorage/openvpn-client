@@ -358,6 +358,8 @@ function writeArrayJson2XlsxNew(filename, ...args) {
                 let smaValRet = shortVolVal.map(e => { return SMA.calculate({ period: e, values: val }); });
                 shortPeriods.forEach((e, i) => {
                     indicator['price_ma_' + e] = smaRet[i].at(checkDate)
+                    // if(symbol == 'HCM')
+                    //     console.log(e,smaRet[i].slice(smaRet[i].length-30))
                 })
                 shortPeriods.forEach((e, i) => {
                     indicator['price_ema_' + e] = emaRet[i].at(checkDate)
